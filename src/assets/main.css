@@ -34,7 +34,7 @@
   --heading-color: #01133c;
   --body-color: #666666;
   --ternary-color: #88a5ad;
-  --accent-color: #ef0f3a;
+  --accent-color: #00334e;
   --gray-color: #f5f7fa;
   --gray2-color: #e8ebee;
   --border-color: #ecf1f5;
@@ -4016,7 +4016,7 @@ textarea {
   content: "";
   width: 60%;
   height: 40%;
-  background-color: #bd0528;
+  background-color: #00334e;
   -webkit-clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 100%);
           clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 100%);
   position: absolute;
