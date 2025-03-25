@@ -78,5 +78,5 @@ export const router = createBrowserRouter([
     ],
   }        
 ], {
-  basename: "/fajservicess"
+  // basename: "/fajservicess"
 });
