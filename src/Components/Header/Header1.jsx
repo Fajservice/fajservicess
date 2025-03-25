@@ -1,6 +1,9 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Nav from './Nav';
+
+import img from '../../assets/img/fajlogo.png';
+
 export default function Header1({ variant }) {
   const [mobileToggle, setMobileToggle] = useState(false);
   const [isSticky, setIsSticky] = useState();
@@ -85,7 +88,7 @@ export default function Header1({ variant }) {
             <div className="cs_main_header_left">
             <div className="cs_logo_wrap">
               <Link className="cs_site_branding" to="/">
-                <img src="/assets/img/logo.svg" alt="Logo" />
+                <img src={img} alt="Logo" />
               </Link>
               <div className="cs_logo_bg_shape cs_accent_color">
                   <svg width="509" height="141" viewBox="0 0 509 141" fill="none" xmlns="http://www.w3.org/2000/svg">

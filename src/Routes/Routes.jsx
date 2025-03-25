@@ -18,6 +18,7 @@ import BlogDetailsPage from "../Pages/BlogDetailsPage";
 
 export const router = createBrowserRouter([
   {
+    
     path: "/",
     element: <Main></Main>,
     children: [
@@ -66,6 +67,7 @@ export const router = createBrowserRouter([
         element: <ContactPage></ContactPage>,
       },
     ],
+    
   }, 
   {
     path: 'home2',
@@ -76,7 +78,7 @@ export const router = createBrowserRouter([
         element: <Home2></Home2>,
       },                           
     ],
-  }        
+  }   
 ], {
-  // basename: "/fajservicess"
+   basename: "/fajservicess"
 });

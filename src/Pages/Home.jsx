@@ -10,8 +10,16 @@ import Project1 from "../Components/Project/Project1";
 import Services1 from "../Components/Services/Services1";
 import Testimonial1 from "../Components/Testimonial/Testimonial1";
 
+import Before from '../assets/img/before_img_1.jpg';
+import After from '../assets/img/after_img_1.jpg';
+import { Helmet } from "react-helmet-async";
+
 const Home = () => {
     return (
+        <>
+        <Helmet>
+            <title>test home</title>
+        </Helmet>
         <div className="homepage">
             <HeroBanner1></HeroBanner1>
             <About1
@@ -49,9 +57,9 @@ const Home = () => {
                 title="Recent Completed Projects"
                 subTitle="Before & after"
                 bgImg="/assets/img/before_after_bg_1.svg"
-                beforeImg="/assets/img/after_img_1.jpg"
+                beforeImg={After}
                 afterTitle="After"
-                afterImg="/assets/img/before_img_1.jpg"
+                afterImg={Before}
                 beforeTitle="Before"
             ></BeforeAfter>
             <Project1></Project1>
@@ -76,6 +84,8 @@ const Home = () => {
             <Process></Process>
             <Blog3></Blog3>
         </div>
+        </>
+        
     );
 };
 
