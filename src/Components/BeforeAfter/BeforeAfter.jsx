@@ -2,10 +2,86 @@ import { useEffect } from "react";
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 
 const BeforeAfter = ({title,subTitle,bgImg,beforeImg,afterTitle,afterImg,beforeTitle}) => {
+  useEffect(() => {
+    loadBackgroudImages();
+  }, []);
+  
 
-    useEffect(() => {
-        loadBackgroudImages();
-      }, []);
+  useEffect(() => {
+    const initializeSlider = () => {
+      const beforeAfterContainer = document.querySelector('.cs_before_after');
+      if (!beforeAfterContainer) return;
+      
+      const handle = beforeAfterContainer.querySelector('.cs_handle_before_after');
+      const beforeElement = beforeAfterContainer.querySelector('.cs_before');
+      
+      if (!handle || !beforeElement) return;
+      
+
+      beforeElement.style.width = '50%';
+      handle.style.left = '50%';
+      
+      let isDragging = false;
+      
+      const startDragging = (e) => {
+        isDragging = true;
+        e.preventDefault();
+      };
+      
+      const stopDragging = () => {
+        isDragging = false;
+      };
+      
+      const moveSlider = (e) => {
+        if (!isDragging) return;
+        
+        let clientX;
+        if (e.type === 'mousemove') {
+          clientX = e.clientX;
+        } else if (e.type === 'touchmove') {
+          clientX = e.touches[0].clientX;
+        }
+        
+        const rect = beforeAfterContainer.getBoundingClientRect();
+        const x = clientX - rect.left;
+        const percentage = (x / rect.width) * 100;
+        
+        const constrainedPercentage = Math.max(0, Math.min(100, percentage));
+        
+        beforeElement.style.width = `${constrainedPercentage}%`;
+        handle.style.left = `${constrainedPercentage}%`;
+      };
+      
+      handle.addEventListener('mousedown', startDragging);
+      handle.addEventListener('touchstart', startDragging);
+      
+      document.addEventListener('mousemove', moveSlider);
+      document.addEventListener('touchmove', moveSlider);
+      
+      document.addEventListener('mouseup', stopDragging);
+      document.addEventListener('touchend', stopDragging);
+      
+      return () => {
+        handle.removeEventListener('mousedown', startDragging);
+        handle.removeEventListener('touchstart', startDragging);
+        
+        document.removeEventListener('mousemove', moveSlider);
+        document.removeEventListener('touchmove', moveSlider);
+        
+        document.removeEventListener('mouseup', stopDragging);
+        document.removeEventListener('touchend', stopDragging);
+      };
+    };
+    
+    const timerId = setTimeout(() => {
+      initializeSlider();
+    }, 500);
+    
+
+    return () => {
+      clearTimeout(timerId);
+    };
+  }, []); 
 
     return (
     <section className="cs_before_after_slider cs_style_1 position-relative">
