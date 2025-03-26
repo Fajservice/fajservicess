@@ -29,7 +29,7 @@ const Services2 = () => {
                   <Link to={item.btnLink} className="cs_card_thumbnail">
                     <img src={item.img} alt="Service Image" />
                   </Link>
-                  <div className="cs_card_info cs_bg_filed" data-src="/assets/img/card_bg_1.svg">
+                  <div className="cs_card_info cs_bg_filed" data-src="/assets/imgcard_bg_1.svg">
                     <div className="cs_card_icon cs_mb_20">
                       <img src={item.icon} alt="Wheel Icon" />
                     </div>

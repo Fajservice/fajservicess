@@ -79,7 +79,7 @@ const Testimonial1 = ({subtitle,title,bgImg}) => {
                     </div>
                     <blockquote className="cs_fs_16">{item.desc}</blockquote>
                     <div className="cs_quote_icon position-absolute">
-                      <img src="/assets/img/icons/quote_1.svg" alt="Quote Icon" />
+                      <img src="/fajservicess/src/assets/img/icons/quote_1.svg" alt="Quote Icon" />
                     </div>
                   </div>
                 </div>

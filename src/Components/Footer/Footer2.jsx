@@ -9,7 +9,7 @@ const Footer2 = () => {
       }, []);
 
     return (
-        <footer className="cs_footer cs_style_1 cs_type_1 cs_bg_filed cs_heading_bg" data-background="/assets/img/footer_bg_2.jpg">
+        <footer className="cs_footer cs_style_1 cs_type_1 cs_bg_filed cs_heading_bg" data-background="/fajservicess/src/assets/img/footer_bg_2.jpg">
         <div className="container">
           <div className="cs_footer_top">
             <ul className="cs_footer_contact_info_list cs_mp_0">
@@ -54,7 +54,7 @@ const Footer2 = () => {
               <div className="cs_footer_col">
                 <div className="cs_footer_widget">
                   <div className="cs_text_widget">
-                    <img src="/assets/img/footer_logo_2.svg" alt="Logo" className="wow zoomIn" />
+                    <img src="/assets/imgfooter_logo_2.svg" alt="Logo" className="wow zoomIn" />
                     <p>Phosfluorescently transform out-of-the-box paradigms whereas accurate supply chains. Continually</p>
                   </div>
                   <div className="cs_social_btns cs_style_1">
@@ -129,7 +129,7 @@ const Footer2 = () => {
                     <li>
                       <div className="cs_recent_post">
                         <Link to="/blog/blog-details" className="cs_recent_post_thumb">
-                          <img src="/assets/img/recent_post_1.jpg" alt="Recent Post Image" />
+                          <img src="/assets/imgrecent_post_1.jpg" alt="Recent Post Image" />
                         </Link>
                         <div className="cs_recent_post_right">
                           <h3 className="cs_white_color cs_fs_16 cs_medium cs_mb_5">
@@ -143,7 +143,7 @@ const Footer2 = () => {
                     <li>
                       <div className="cs_recent_post">
                         <Link to="/blog/blog-details" className="cs_recent_post_thumb">
-                          <img src="/assets/img/recent_post_2.jpg" alt="Recent Post Image" />
+                          <img src="/assets/imgrecent_post_2.jpg" alt="Recent Post Image" />
                         </Link>
                         <div className="cs_recent_post_right">
                           <h3 className="cs_white_color cs_fs_16 cs_medium cs_mb_5">
@@ -167,7 +167,7 @@ const Footer2 = () => {
                 Copyright © 2024 <a href="#">Cripar</a>. All Rights Reserved.
               </div>
               <div>
-                <img src="/assets/img/payment_card.svg" alt="" />
+                <img src="/assets/imgpayment_card.svg" alt="" />
               </div>
             </div>
           </div>

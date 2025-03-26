@@ -23,9 +23,9 @@ const Home = () => {
         <div className="homepage">
             <HeroBanner1></HeroBanner1>
             <About1
-                img1="/assets/img/about_img_1.jpg"
-                img2="/assets/img/about_img_2.jpg"
-                img3="/assets/img/about_img_3.jpg"
+                img1="/fajservicess/src/assets/img/about_img_1.jpg"
+                img2="/fajservicess/src/assets/img/about_img_2.jpg"
+                img3="/fajservicess/src/assets/img/about_img_3.jpg"
                 expNumber="58"
                 expYers="Years"
                 expTitle="Experience"
@@ -40,23 +40,23 @@ const Home = () => {
                     "Comprehensive Diagnostic Check",
                     "We Know Your Car Inside Out",
                 ]}
-                avatar="/assets/img/avatar_1.png"
+                avatar="/fajservicess/src/assets/img/avatar_1.png"
                 name="Ronald Richards"
                 designation="Founder CEO"
             ></About1>
             <Services1></Services1>
             <Choose1
-                img1="/assets/img/feature_img_1.jpg"
+                img1="/fajservicess/src/assets/img/feature_img_1.jpg"
                 content="Squeaking, grinding noises, or a spongy brake pedal are car common indicators that your brakes need attention Slow an  engine cranking."
                 btnName="Read more"
                 btnUrl="/about"
-                img2="/assets/img/feature_img_2.jpg"
-                img3="/assets/img/feature_img_3.jpg"
+                img2="/fajservicess/src/assets/img/feature_img_2.jpg"
+                img3="/fajservicess/src/assets/img/feature_img_3.jpg"
             ></Choose1>
             <BeforeAfter 
                 title="Recent Completed Projects"
                 subTitle="Before & after"
-                bgImg="/assets/img/before_after_bg_1.svg"
+                bgImg="/fajservicess/src/assets/img/before_after_bg_1.svg"
                 beforeImg={After}
                 afterTitle="After"
                 afterImg={Before}
@@ -70,7 +70,7 @@ const Home = () => {
                 email="Cripar@gmail.com <br/>InfoCripar@gmal.com"
                 number="(402) 4521 5458 44 <br/> (123) 2154 5464 55"
                 clientNumber="5,400"
-                img="/assets/img/contact_img_1.jpg"
+                img="/fajservicess/src/assets/img/contact_img_1.jpg"
                 client="Happy Clients"
                 subtitle2="Contact us"
                 title2="Book and Appointment"
@@ -78,7 +78,7 @@ const Home = () => {
             <Testimonial1
                 subtitle="Testimonial"
                 title="What our clients say <br> About Us"
-                bgImg="/assets/img/testimonial_bg_1.jpg"
+                bgImg="/fajservicess/src/assets/img/testimonial_bg_1.jpg"
             ></Testimonial1>
             <Pricing1></Pricing1>
             <Process></Process>

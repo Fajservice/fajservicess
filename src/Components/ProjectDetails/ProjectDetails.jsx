@@ -5,7 +5,7 @@ const ProjectDetails = () => {
         <div className="cs_height_120 cs_height_lg_80"></div>
         <div className="container">
           <div className="cs_portfolio_details">
-            <img src="/assets/img/portfolio_banner.jpg" alt="Portfolio Banner" />
+            <img src="/assets/imgportfolio_banner.jpg" alt="Portfolio Banner" />
             <h2>Some Work from our Memorable Gallery</h2>
             <p> The repair time depends on the issue. We will give you an estimated time after inspection Look out for squeaking, grinding noises, or a soft brake pedal. These are signs your brakes may need attention If you notice dim headlights, slow engine crank, or if your battery is over 3 years old, it might be time for a replacement full inspection checks the engine, brakes, tires, suspension, fluid levels, and more to ensure your vehicle is safe and road-ready.</p>
             <p>A check engine light could indicate a range of issues, from a loose gas cap to more serious engine problems. It is best to have it diagnosed promptly we offer a warranty on most repairs, ensuring peace of mind for our customers.</p>
@@ -38,10 +38,10 @@ const ProjectDetails = () => {
                 </ul>
                 <div className="row cs_row_gap_30">
                   <div className="col-md-6">
-                    <img src="/assets/img/portfolio_img_10.jpg" alt="Portfolio Image" />
+                    <img src="/assets/imgportfolio_img_10.jpg" alt="Portfolio Image" />
                   </div>
                   <div className="col-md-6">
-                    <img src="/assets/img/portfolio_img_11.jpg" alt="Portfolio Image" />
+                    <img src="/assets/imgportfolio_img_11.jpg" alt="Portfolio Image" />
                   </div>
                 </div>
                 <p>The check engine light could indicate anything from a loose gas cap to a more serious engine issue. Bring it in for a kinds diagnostic check. The check engine light could indicate anything from a loose gas cap to a more serious engine issue our Bring it in for a diagnostic check miles to promote even wear.</p>

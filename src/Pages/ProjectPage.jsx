@@ -5,7 +5,7 @@ const ProjectPage = () => {
     return (
         <div>
             <BreadCumb
-                bgImg="/assets/img/page_heading_1.jpg"
+                bgImg="/fajservicess/src/assets/img/page_heading_1.jpg"
                 Title="Project"
             ></BreadCumb>   
             <Project3></Project3>

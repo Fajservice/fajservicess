@@ -45,16 +45,16 @@ export default function Header1({ variant }) {
           <div className="cs_top_header_left">
               <ul className="cs_header_contact_list cs_mp_0">
                 <li>
-                <i className="bi bi-telephone-fill"></i>
-                  <a href="tel:+111(564)56825">+111 (564) 568 25</a>
+                <i className="bi bi-telephone "></i>
+                  <a href="tel:+111(564)56825">(+971) 4-330-0002</a>
                 </li>
                 <li>
-                <i className="bi bi-envelope-fill"></i>
-                  <a href="mailto:cripar@gmail.com">cripar@gmail.com</a>
+                <i className="bi bi-whatsapp"></i>
+                <a href="https://api.whatsapp.com/send?phone=+971507464712&text=Hello">+971 50 746 4712</a>
                 </li>
                 <li>
-                <i className="bi bi-geo-alt-fill"></i>
-                  <span>Abu Dhabi - United Arab Emirates</span>
+                <i className="bi bi-geo-alt"></i>
+                  <span>Dubai - United Arab Emirates</span>
                 </li>
               </ul>
             </div>
@@ -96,7 +96,7 @@ export default function Header1({ variant }) {
                     <path d="M54 141H472.5L488.5 70.5L443.5 0H54V141Z" fill="white"/>
                     <path d="M0 0H443L464.5 70.5L443 141H0V0Z" fill="currentColor"/>
                   </svg>
-                  <img src="/assets/img/logo_shape_pattern.svg" alt="" />
+                  <img src="/fajservicess/src/assets/img/logo_shape_pattern.svg" alt="" />
                 </div>             
               </div>
               </div>
