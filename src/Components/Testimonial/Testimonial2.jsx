@@ -11,7 +11,7 @@ const Testimonial2 = () => {
     const [isActive, setIsActive] = useState('tab2');
 
     return (
-        <section className="cs_tabs cs_style_2 cs_bg_filed position-relative" data-background="/assets/img/testimonial_bg_2.jpg">
+        <section className="cs_tabs cs_style_2 cs_bg_filed position-relative" data-background="/fajservicess/src/assets/img/testimonial_bg_2.jpg">
         <div className="cs_tabs_overlay cs_heading_bg position-absolute"></div>
         <div className="cs_height_120 cs_height_lg_80"></div>
         <div className="container">
@@ -20,7 +20,7 @@ const Testimonial2 = () => {
               <div className="cs_tab_body p-0">
                 <div className={`cs_tab ${isActive === 'tab1' ? 'active' : ''}`} >
                     <TestimonialCard
-                        img="/assets/img/avatar_7.png"
+                        img="/fajservicess/src/assets/img/avatar_7.png"
                         name="Austin Symphia"
                         designation="Business Lady"
                         subtile="Testimonial"
@@ -30,7 +30,7 @@ const Testimonial2 = () => {
                 </div>
                 <div className={`cs_tab ${isActive === 'tab2' ? 'active' : ''}`} >
                 <TestimonialCard
-                        img="/assets/img/avatar_4.png"
+                        img="/fajservicess/src/assets/img/avatar_4.png"
                         name="Sophiya Mallinson"
                         designation="Business Woman"
                         subtile="Testimonial"
@@ -40,7 +40,7 @@ const Testimonial2 = () => {
                 </div>
                 <div className={`cs_tab ${isActive === 'tab3' ? 'active' : ''}`} >
                 <TestimonialCard
-                        img="/assets/img/avatar_8.png"
+                        img="/fajservicess/src/assets/img/avatar_8.png"
                         name="Cameron Williamson"
                         designation="Business Man"
                         subtile="Testimonial"
@@ -52,9 +52,9 @@ const Testimonial2 = () => {
             </div>
             <div className="col-lg-2">
               <ul className="cs_tab_links cs_style_2 cs_mp_0">
-                <li className={`${isActive === 'tab1' ? 'active' : ''}`} onClick={() => setIsActive('tab1')}><a><img src="/assets/img/avatar_5.png" alt="Avatar" /></a></li>
-                <li className={`${isActive === 'tab2' ? 'active' : ''}`} onClick={() => setIsActive('tab2')} ><a><img src="/assets/img/avatar_4.png" alt="Avatar" /></a></li>
-                <li className={`${isActive === 'tab3' ? 'active' : ''}`} onClick={() => setIsActive('tab3')}><a><img src="/assets/img/avatar_6.png" alt="Avatar" /></a></li>
+                <li className={`${isActive === 'tab1' ? 'active' : ''}`} onClick={() => setIsActive('tab1')}><a><img src="/assets/imgavatar_5.png" alt="Avatar" /></a></li>
+                <li className={`${isActive === 'tab2' ? 'active' : ''}`} onClick={() => setIsActive('tab2')} ><a><img src="/assets/imgavatar_4.png" alt="Avatar" /></a></li>
+                <li className={`${isActive === 'tab3' ? 'active' : ''}`} onClick={() => setIsActive('tab3')}><a><img src="/assets/imgavatar_6.png" alt="Avatar" /></a></li>
               </ul>
             </div>
           </div>

@@ -6,7 +6,7 @@ const Footer1 = () => {
         <div className="container">
           <div className="cs_footer_newsletter cs_style_1">
             <div className="cs_footer_newsletter_left cs_accent_bg cs_center">
-              <img src="/assets/img/footer_logo.svg" alt="Logo" className="wow fadeInLeft" />
+              <img src="/assets/imgfooter_logo.svg" alt="Logo" className="wow fadeInLeft" />
             </div>
             <div className="cs_footer_newsletter_right">
               <h3 className="cs_fs_24 cs_semibold cs_white_color mb-0">Subscribe now to get latest updates</h3>
@@ -139,7 +139,7 @@ const Footer1 = () => {
                 Copyright © 2024 <a href="#">Cripar</a>. All Rights Reserved.
               </div>
               <div>
-                <img src="/assets/img/payment_card.svg" alt="" />
+                <img src="/assets/imgpayment_card.svg" alt="" />
               </div>
             </div>
           </div>

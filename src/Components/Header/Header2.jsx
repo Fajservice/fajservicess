@@ -85,7 +85,7 @@ export default function Header2({ variant }) {
             <div className="cs_main_header_left">
             <div className="cs_logo_wrap">
               <Link className="cs_site_branding" to="/">
-                <img src="/assets/img/logo.svg" alt="Logo" />
+                <img src="/assets/imglogo.svg" alt="Logo" />
               </Link>
               <div className="cs_logo_bg_shape cs_accent_color">
                   <svg width="316" height="141" viewBox="0 0 316 141" fill="none" xmlns="http://www.w3.org/2000/svg">

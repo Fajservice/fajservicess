@@ -30,10 +30,10 @@ const About1 = ({img1,img2,img3,expNumber,expYers,expTitle,number,subTitle,Title
                    <div className="cs_phone_number cs_fs_24 cs_semibold">{number}</div>
                  </a>
                  <div className="cs_about_shape_1 position-absolute">
-                   <img src="/assets/img/shapes/gear_2.svg" alt="Gear Shape" />
+                   <img src="/fajservicess/src/assets/img/shapes/gear_2.svg" alt="Gear Shape" />
                  </div>
                  <div className="cs_about_shape_2 position-absolute">
-                   <img src="/assets/img/shapes/gear_1.svg" alt="Gear Shape" />
+                   <img src="/fajservicess/src/assets/img/shapes/gear_1.svg" alt="Gear Shape" />
                  </div>
                </div>
              </div>
@@ -50,13 +50,13 @@ const About1 = ({img1,img2,img3,expNumber,expYers,expTitle,number,subTitle,Title
                  <div className="cs_features_list cs_mb_32">
                    <div className="cs_iconbox cs_style_1">
                      <div className="cs_iconbox_icon cs_center">
-                       <img src="/assets/img/icons/quick-fix.svg" alt="Fix Icon" />
+                       <img src="/fajservicess/src/assets/img/icons/quick-fix.svg" alt="Fix Icon" />
                      </div>
                      <h3 className="cs_iconbox_title cs_fs_24 cs_semibold mb-0">{feature1}</h3>
                    </div>
                    <div className="cs_iconbox cs_style_1">
                      <div className="cs_iconbox_icon cs_center">
-                       <img src="/assets/img/icons/quick-fix.svg" alt="Fix Icon" />
+                       <img src="/fajservicess/src/assets/img/icons/quick-fix.svg" alt="Fix Icon" />
                      </div>
                      <h3 className="cs_iconbox_title cs_fs_24 cs_semibold mb-0">{feature2}</h3>
                    </div>

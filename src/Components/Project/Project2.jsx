@@ -33,7 +33,7 @@ const Project2 = () => {
                       <p className="cs_white_color mb-0">{item.desc}</p>
                     </div>
                     <Link to="/project/project-details" className="cs_text_btn cs_style_1 cs_bold cs_white_color cs_accent_bg">
-                      <img src="/assets/img/icons/arrow_long.svg" alt="Arrow Icon" />
+                      <img src="/fajservicess/src/assets/img/icons/arrow_long.svg" alt="Arrow Icon" />
                     </Link>
                   </div>
                 </div>

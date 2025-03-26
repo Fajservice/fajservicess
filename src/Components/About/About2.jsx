@@ -116,7 +116,7 @@ const About2 = ({img1,img2,expNumber,expTitle,exYear,subTitle,Title,Content,box1
                 <div className="cs_features_list cs_mb_38">
                   <div className="cs_iconbox cs_style_3 wow fadeInRight">
                     <div className="cs_iconbox_icon cs_center cs_white_bg cs_radius_50">
-                      <img src="/assets/img/icons/break_icon.svg" alt="Break Icon" />
+                      <img src="/fajservicess/src/assets/img/icons/break_icon.svg" alt="Break Icon" />
                     </div>
                     <div className="cs_iconbox_content">
                       <h3 className="cs_iconbox_title cs_fs_24 cs_semibold cs_mb_12">{box1}</h3>
@@ -125,7 +125,7 @@ const About2 = ({img1,img2,expNumber,expTitle,exYear,subTitle,Title,Content,box1
                   </div>
                   <div className="cs_iconbox cs_style_3 wow fadeInLeft">
                     <div className="cs_iconbox_icon cs_center cs_white_bg cs_radius_50">
-                      <img src="/assets/img/icons/car_2.svg" alt="Break Icon" />
+                      <img src="/fajservicess/src/assets/img/icons/car_2.svg" alt="Break Icon" />
                     </div>
                     <div className="cs_iconbox_content">
                       <h3 className="cs_iconbox_title cs_fs_24 cs_semibold cs_mb_12">{box2}</h3>

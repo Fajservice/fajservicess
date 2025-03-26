@@ -9,13 +9,13 @@ const AboutPage = () => {
     return (
         <div>
            <BreadCumb
-                bgImg="/assets/img/page_heading_1.jpg"
+                bgImg="/fajservicess/src/assets/img/page_heading_1.jpg"
                 Title="About Us"
             ></BreadCumb>            
             <About1
-                img1="/assets/img/about_img_1.jpg"
-                img2="/assets/img/about_img_2.jpg"
-                img3="/assets/img/about_img_3.jpg"
+                img1="/fajservicess/src/assets/img/about_img_1.jpg"
+                img2="/fajservicess/src/assets/img/about_img_2.jpg"
+                img3="/fajservicess/src/assets/img/about_img_3.jpg"
                 expNumber="58"
                 expYers="Years"
                 expTitle="Experience"
@@ -30,7 +30,7 @@ const AboutPage = () => {
                     "Comprehensive Diagnostic Check",
                     "We Know Your Car Inside Out",
                 ]}
-                avatar="/assets/img/avatar_1.png"
+                avatar="/fajservicess/src/assets/img/avatar_1.png"
                 name="Ronald Richards"
                 designation="Founder CEO"
             ></About1>

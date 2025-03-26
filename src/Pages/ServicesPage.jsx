@@ -8,7 +8,7 @@ const ServicesPage = () => {
     return (
         <div className="servicepage">
             <BreadCumb
-                bgImg="/assets/img/page_heading_1.jpg"
+                bgImg="/fajservicess/src/assets/img/page_heading_1.jpg"
                 Title="Services"
             ></BreadCumb>
             <Services3></Services3>

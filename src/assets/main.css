@@ -7385,7 +7385,7 @@ label {
   align-items: center;
 }
 .cs_header_contact_list li i {
-  color: var(--accent-color);
+  color: var(--white-color);
 }
 .cs_top_header_left .cs_header_contact_list a, .cs_top_header_left .cs_header_contact_list span{
   color: #fff;

@@ -15,7 +15,7 @@ const Home2 = () => {
     return (
         <div className="homepage2">
             <HeroBanner2
-                bgimg="/assets/img/hero_bg_1.jpg"
+                bgimg="/fajservicess/src/assets/img/hero_bg_1.jpg"
                 subtitle="Battery Check & Replace"
                 title="Your Car’s Health is Our Mission"
                 conetnt="Repair times vary depending on the service, but most
@@ -25,8 +25,8 @@ const Home2 = () => {
                 videoname="Watch Our Story"
             ></HeroBanner2>
             <About2
-                img1="/assets/img/about_img_4.jpg"
-                img2="/assets/img/about_img_5.jpg"
+                img1="/fajservicess/src/assets/img/about_img_4.jpg"
+                img2="/fajservicess/src/assets/img/about_img_5.jpg"
                 expNumber="58"
                 expTitle="EXPER"
                 exYear="STA 1980"
@@ -37,7 +37,7 @@ const Home2 = () => {
                 boxContent1="Squeaking, grinding noises, or a soft brake pedal are common signs Kind warranty on most services."
                 box2="Engine Diagnostics"
                 boxContent2="Slow engine crank, dim headlights, and a battery warning light are kinds typical signs."
-                avatar="/assets/img/avatar_1.png"
+                avatar="/fajservicess/src/assets/img/avatar_1.png"
                 name="Ronald Richards"
                 designation="Founder CEO"
             ></About2>

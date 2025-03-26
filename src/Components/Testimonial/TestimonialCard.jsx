@@ -9,7 +9,7 @@ const TestimonialCard = ({img,name,designation,subtile,title,content}) => {
           <h3 className="cs-testimonial_title cs_fs_24 cs_semibold cs_white_color mb-0">{name}</h3>
           <p className="cs_fs_14 cs_accent_color mb-0">{designation}</p>
           <div className="cs_polygon_shape position-absolute">
-            <img src="/assets/img/shapes/polygon.svg" alt="Polygon Shape" />
+            <img src="/assets/imgshapes/polygon.svg" alt="Polygon Shape" />
           </div>
         </div>
         <div className="cs_testimonl_content">

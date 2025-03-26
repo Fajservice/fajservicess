@@ -9,13 +9,13 @@ const Counter1 = () => {
       }, []);
 
     return (
-        <section className="cs_counter cs_style_1 cs_heading_bg cs_bg_filed position-relative" data-background="/assets/img/counter_bg_1.svg">
+        <section className="cs_counter cs_style_1 cs_heading_bg cs_bg_filed position-relative" data-background="/fajservicess/src/assets/img/counter_bg_1.svg">
         <div className="cs_counter_overlay cs_heading_bg position-absolute"></div>
         <div className="cs_height_120 cs_height_lg_80"></div>
         <div className="container">
           <div className="cs_counter_banner_wrapper position-relative">
             <div className="cs_counter_banner wow fadeInUp">
-              <img src="/assets/img/counter_img_1.jpg" alt="Counter Banner" />
+              <img src="/assets/imgcounter_img_1.jpg" alt="Counter Banner" />
             </div>
           </div>
           <div className="cs_height_0 cs_height_lg_60"></div>
