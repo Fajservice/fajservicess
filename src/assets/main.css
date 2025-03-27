@@ -2023,7 +2023,7 @@ textarea {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 16px;
+  gap: 5px;
 }
 .cs_list.cs_style_1 li {
   display: -webkit-box;
