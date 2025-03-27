@@ -96,7 +96,7 @@ export default function Header1({ variant }) {
                     <path d="M54 141H472.5L488.5 70.5L443.5 0H54V141Z" fill="white"/>
                     <path d="M0 0H443L464.5 70.5L443 141H0V0Z" fill="currentColor"/>
                   </svg>
-                  <img src="/fajservicess/assets/logo_shape_pattern.svg" alt="" />
+                  <img src="/fajservicess/src/assets/img/logo_shape_pattern.svg" alt="" />
                 </div>             
               </div>
               </div>

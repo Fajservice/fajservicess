@@ -31,7 +31,7 @@ const HeroBanner1 = () => {
                 <div className="cs_hero cs_style_1 cs_type_1 cs_bg_filed cs_primary_bg cs_center" data-background={item.img}>
                   <div className="container">
                     <div className="cs_hero_text">
-                      <h1 className="cs_hero_title cs_fs_70 cs_mb_18 wow fadeInUp">{item.title}</h1>
+                      <h1 className="cs_hero_title cs_fs_50 cs_mb_18 wow fadeInUp">{item.title}</h1>
                       <p className="cs_hero_subtitle cs_mb_34">{item.desc}</p>
                       <div className="cs_hero_btns">
                         <Link to={item.btnUrl} className="cs_btn cs_style_1 wow fadeInLeft">
@@ -42,7 +42,7 @@ const HeroBanner1 = () => {
                           <span className="cs_hero_number_icon cs_center cs_heading_bg cs_white_color cs_fs_18">
                           <i className="bi bi-telephone-x-fill"></i>
                           </span>
-                          <a className="cs_fs_24 cs_semibold cs_heading_color">{item.number}</a>
+                          <a href={item.telLink} className="cs_fs_24 cs_semibold cs_heading_color">{item.number}</a>
                         </span>
                       </div>
                     </div>

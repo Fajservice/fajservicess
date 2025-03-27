@@ -1,40 +1,40 @@
 [
   {
-    "img": "/fajservicess/src/assets/img/service_img_1.jpg",
-    "icon": "/fajservicess/src/assets/img/icons/service_icon_1.svg",
-    "title": "Brake Safe Inspection",
+    "img": "/fajservicess/src/assets/img/service_img_1.webp",
+    "icon": "/fajservicess/src/assets/img/icons/air-conditioning.png",
+    "title": "AC Service",
     "desc": "If your car struggles to start the lights dim when idling or the battery over three years old it may be time",   
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"
   },
   {
-    "img": "/fajservicess/src/assets/img/service_img_2.jpg",
-    "icon": "/fajservicess/src/assets/img/icons/service_icon_2.svg",
-    "title": "Engine Tune-Up Plus",
+    "img": "/fajservicess/src/assets/img/bbq.webp",
+    "icon": "/fajservicess/src/assets/img/icons/bbq.png",
+    "title": "BBQ Service",
     "desc": "Proper insulation and ventilation are key  also offer Ice Guard services to prevent ice buildup and damage If your check battery",   
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"
   },
   {
-    "img": "/fajservicess/src/assets/img/service_img_3.jpg",
-    "icon": "/fajservicess/src/assets/img/icons/service_icon_3.svg",
-    "title": "Battery Boost Check",
+    "img": "/fajservicess/src/assets/img/coffee machine.webp",
+    "icon": "/fajservicess/src/assets/img/icons/coffee machine.png",
+    "title": "Coffee Machine Repair",
     "desc": "If your check battery light comes on it's best to schedule a diagnostic service as soon as possible to identify address",   
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"
   },
   {
-    "img": "/fajservicess/src/assets/img/service_img_7.jpg",
-    "icon": "/fajservicess/src/assets/img/icons/service_icon_6.svg",
-    "title": "Brake Safe Inspection",
+    "img": "/fajservicess/src/assets/img/gas and electric hob.webp",
+    "icon": "/fajservicess/src/assets/img/icons/gas and electric hob.png",
+    "title": "Hob Repair",
     "desc": "If your car struggles to start the lights dim when idling or the battery over three years old it may be time",   
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"
   },
   {
-    "img": "/fajservicess/src/assets/img/service_img_5.jpg",
-    "icon": "/fajservicess/src/assets/img/icons/service_icon_4.svg",
-    "title": "Engine Tune-Up Plus",
+    "img": "/fajservicess/src/assets/img/oven.webp",
+    "icon": "/fajservicess/src/assets/img/icons/oven.png",
+    "title": "Oven Repair",
     "desc": "Proper insulation and ventilation are key  also offer Ice Guard services to prevent ice buildup and damage If your check battery",   
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"

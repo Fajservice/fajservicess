@@ -16,23 +16,26 @@ const AboutPage = () => {
                 img1="/fajservicess/src/assets/img/about_img_1.jpg"
                 img2="/fajservicess/src/assets/img/about_img_2.jpg"
                 img3="/fajservicess/src/assets/img/about_img_3.jpg"
-                expNumber="58"
-                expYers="Years"
-                expTitle="Experience"
-                number="(208) 555-0112"
-                subTitle="Our About"
-                Title="Speedy Repairs Quality Results"
-                Content="We are professional and committed to service is a statement that highlights the companys professionalism and dedication to providing"
-                feature1="Express Oil Change"
-                feature2="Quick Fix Tire Rotation"
+                expNumber="FAJ"
+                expYers="was established"
+                expTitle="in-"
+                expTitleYear="2010"
+                expDescrip="And is dedicated to delivering exceptional service that meets the highest international standards."
+                number="(+971) 4-330-0002"
+                telLink="tel:+97143300002"
+                subTitle="About Us"
+                Title="Speedy Services, Quality Results"
+                Content="We are professional and committed to service, highlighting our dedication to providing exceptional results in repair, servicing, and maintenance contracts."
+                feature1="Routine Maintenance, Let's Start Today"
+                feature2="Fast, Efficient Repair Service"
                 listItem={[
-                    "Driving Quality, Ensuring Safety Every Car",
+                    "Efficiency through expert maintenance",
+                    "Expertise. Integrity. Responsiveness",
                     "Comprehensive Diagnostic Check",
-                    "We Know Your Car Inside Out",
+                    "Quality workmanship",
+                    "Guaranteed Work",
                 ]}
-                avatar="/fajservicess/src/assets/img/avatar_1.png"
-                name="Ronald Richards"
-                designation="Founder CEO"
+                
             ></About1>
             <Testimonial2></Testimonial2>
             <Brand1></Brand1>

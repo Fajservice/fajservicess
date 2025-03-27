@@ -54,7 +54,7 @@ const Services1 = () => {
               <div className="cs_section_heading_left">
                 <SectionTitle
                     SubTitle="Best Services"
-                    Title="Where Your Car Gets Pride the Best Care"
+                    Title="Here, you can find a wide variety of the best services for both home and business place"
                 ></SectionTitle>
               </div>
               <div className="cs_section_heading_right mb-0 wow fadeInDown">Regular tire rotation ensures even wear, extending the life of your tires and improving vehicle performance If your car struggles to start, the lights dim when idling or the battery is over</div>
