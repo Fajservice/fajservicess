@@ -1,5 +1,5 @@
 import Slider from "react-slick";
-import data from '../../Data/herobanner1.json';
+import data from '../../../src/Data/herobanner1.json';
 import { useEffect } from "react";
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import { Link } from "react-router-dom";
