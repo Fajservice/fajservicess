@@ -1,6 +1,6 @@
 [
   {
-    "img": "/fajservicess/src/assets/img/hero_bg_1.jpg",
+    "img": "../assets/img/hero_bg_1.jpg",
     "title": "FAJ ensures comfort with professional air conditioning services year-round!",
     "desc": "We provide honest, friendly, and professional repair, servicing, maintenance contracts, and installation through our expert technicians",
     "btnName": "Read more",

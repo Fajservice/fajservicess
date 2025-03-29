@@ -7,6 +7,13 @@ import { Link } from "react-router-dom";
 const HeroBanner1 = () => {
 
     useEffect(() => {
+        // loadBackgroudImages();
+        document.querySelectorAll('[data-background]').forEach(el => {
+          const bgpath = el.getAtrribute('data-background');
+          if (bgpath && !bgpath.startWith('http')) {
+            el.setAttribute('data-background' , publicURL + bgpath);
+          }
+        });
         loadBackgroudImages();
       }, []);
 
@@ -20,15 +27,20 @@ const HeroBanner1 = () => {
         swipeToSlide: true,
       };
 
+      // const getPublicURL = () => {
+      //   if ( window.location.hostname.includes('github.io')) {
+      //     return 'fajservicess';
+      //   }
+      // }
+      const publicURL = getPublicURL();
     return (
-
-        <section className="cs_slider cs_style_1">
+      <section className="cs_slider cs_style_1">
           <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="900" data-center="0" data-variable-width="0" data-slides-per-view="1">
             <div className="cs_slider_wrapper">
             <Slider {...settings}>
             {data.map((item, index)=>(
               <div key={index} className="cs_slide">
-                <div className="cs_hero cs_style_1 cs_type_1 cs_bg_filed cs_primary_bg cs_center" data-background={item.img}>
+                <div className="cs_hero cs_style_1 cs_type_1 cs_bg_filed cs_primary_bg cs_center" data-background={publicURL + item.img}>
                   <div className="container">
                     <div className="cs_hero_text">
                       <h1 className="cs_hero_title cs_fs_50 cs_mb_18 wow fadeInUp">{item.title}</h1>
@@ -56,6 +68,7 @@ const HeroBanner1 = () => {
             
           </div>
         </section>
+        
     );
 };
 
