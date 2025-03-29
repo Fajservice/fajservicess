@@ -1,6 +1,6 @@
 [
   {
-    "img": "./assets/img/hero_bg_1.jpg",
+    "img": "assets/img/hero_bg_1.jpg",
     "title": "FAJ ensures comfort with professional air conditioning services year-round!",
     "desc": "We provide honest, friendly, and professional repair, servicing, maintenance contracts, and installation through our expert technicians",
     "btnName": "Read more",
@@ -9,7 +9,7 @@
     "telLink": "tel:+97143300002"
   },
   {
-    "img": "/fajservicess/src/assets/img/hero_bg_3.jpg",
+    "img": "assets/img/hero_bg_3.jpg",
     "title": "FAJ are specialist in domestic and commercial appliance repair and maintenance.",
     "desc": "We understand that appliance breakdowns can happen at any time, which is why our team at FAJ is always ready to respond and repair quickly.",
     "btnName": "Read more",
@@ -18,7 +18,7 @@
     "telLink": "tel:+97143300002"
   },
   {
-    "img": "/fajservicess/src/assets/img/hero_bg_2.jpg",
+    "img": "assets/img/hero_bg_2.jpg",
     "title": "We are here to help you with your commercial refrigeration system repair problems.",
     "desc": "At FAJ Refrigeration and Freezer Maintenance, we focus on keeping your products and premises at the optimal temperature, helping you maintain your cool!",
     "btnName": "Read more",

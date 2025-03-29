@@ -1,31 +1,43 @@
 import Slider from "react-slick";
 import data from "../../../src/Data/herobanner1.json";
-import { useEffect } from "react";
-import loadBackgroudImages from "../Common/loadBackgroudImages";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const HeroBanner1 = () => {
-  useEffect(() => {
-    const processBackgroundImages = () => {
-      const baseUrl = window.location.hostname.includes("github.io") ? "/fajservicess" : "";
-      const elements = document.querySelectorAll("[data-background]");
-      elements.forEach((element) => {
-        try {
-          const imagePath = element.getAttribute("data-background");
-          if (imagePath) {
-            element.style.backgroundImage = `url(${baseUrl}${imagePath})`;
-          }
-        } catch (error) {
-          console.error("Error setting background image:", error);
-        }
-      });
-    };
+  const [processedData, setProcessedData] = useState([]);
 
-    setTimeout(processBackgroundImages, 100);
-    loadBackgroudImages();
+  useEffect(() => {
+    // Process the image paths once when the component mounts
+    const isGitHubPages = window.location.hostname.includes("github.io");
+    const baseUrl = isGitHubPages ? "/fajservicess" : "";
+    
+    // Create modified data with fixed image paths
+    const updatedData = data.map(item => {
+      // Fix the path structure
+      let imgPath = item.img;
+      
+      // If path already includes /fajservicess/ and we're on GitHub Pages, don't duplicate it
+      if (isGitHubPages && !imgPath.includes("/fajservicess/")) {
+        // Remove ./ or / prefix if present
+        imgPath = imgPath.replace(/^\.\/|^\//, "");
+        
+        // Remove src/ prefix if present (since we'll use imports which start from src/)
+        imgPath = imgPath.replace(/^src\//, "");
+        
+        // Add the base URL
+        imgPath = `${baseUrl}/${imgPath}`;
+      }
+      
+      return {
+        ...item,
+        processedImg: imgPath
+      };
+    });
+    
+    setProcessedData(updatedData);
   }, []);
 
-  // ✅ Move settings inside the component
+  // Settings for the slider
   const settings = {
     dots: true,
     infinite: true,
@@ -36,16 +48,17 @@ const HeroBanner1 = () => {
     swipeToSlide: true,
   };
 
-  console.log("Image URLs:", data.map((item) => item.img));
-
   return (
     <section className="cs_slider cs_style_1">
       <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="900" data-center="0" data-variable-width="0" data-slides-per-view="1">
         <div className="cs_slider_wrapper">
           <Slider {...settings}>
-            {data.map((item, index) => (
+            {processedData.map((item, index) => (
               <div key={index} className="cs_slide">
-                <div className="cs_hero cs_style_1 cs_type_1 cs_bg_filed cs_primary_bg cs_center" data-background={item.img}>
+                <div 
+                  className="cs_hero cs_style_1 cs_type_1 cs_bg_filed cs_primary_bg cs_center" 
+                  style={{ backgroundImage: `url(${item.processedImg})` }}
+                >
                   <div className="container">
                     <div className="cs_hero_text">
                       <h1 className="cs_hero_title cs_fs_50 cs_mb_18 wow fadeInUp">{item.title}</h1>
