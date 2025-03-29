@@ -1,5 +1,5 @@
 import Slider from "react-slick";
-import data from "../../../src/Data/herobanner1.json";
+import data from "/Data/herobanner1.json";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
