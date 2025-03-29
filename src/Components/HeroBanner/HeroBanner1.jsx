@@ -1,5 +1,5 @@
 import Slider from "react-slick";
-import data from '../../../src/Data/herobanner1.json';
+import data from "../../../src/Data/herobanner1.json";
 import { useEffect } from "react";
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import { Link } from "react-router-dom";
@@ -7,43 +7,43 @@ import { Link } from "react-router-dom";
 const HeroBanner1 = () => {
   useEffect(() => {
     const processBackgroundImages = () => {
-      const baseUrl = window.location.hostname.includes('github.io') ? '/fajservicess' : '';
-      const elements = document.querySelectorAll('[data-background]');
-      elements.forEach(element => {
+      const baseUrl = window.location.hostname.includes("github.io") ? "/fajservicess" : "";
+      const elements = document.querySelectorAll("[data-background]");
+      elements.forEach((element) => {
         try {
-          const imagePath = element.getAttribute('data-background');
+          const imagePath = element.getAttribute("data-background");
           if (imagePath) {
             element.style.backgroundImage = `url(${baseUrl}${imagePath})`;
           }
         } catch (error) {
-          console.error('Error:', error);
+          console.error("Error setting background image:", error);
         }
       });
     };
 
-    setTimeout(processBackgroundImages, 100); // ✅ Correct function name
-    loadBackgroudImages(); // ✅ Remove duplicate call
+    setTimeout(processBackgroundImages, 100);
+    loadBackgroudImages();
   }, []);
-};
 
+  // ✅ Move settings inside the component
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 900,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    swipeToSlide: true,
+  };
 
-      const settings = {
-        dots: true,
-        infinite: true,
-        speed: 900,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
-        swipeToSlide: true,
-      };
+  console.log("Image URLs:", data.map((item) => item.img));
 
-      console.log('image url:' , data.map(item => item.img));
-    return (
-      <section className="cs_slider cs_style_1">
-          <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="900" data-center="0" data-variable-width="0" data-slides-per-view="1">
-            <div className="cs_slider_wrapper">
-            <Slider {...settings}>
-            {data.map((item, index)=>(
+  return (
+    <section className="cs_slider cs_style_1">
+      <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="900" data-center="0" data-variable-width="0" data-slides-per-view="1">
+        <div className="cs_slider_wrapper">
+          <Slider {...settings}>
+            {data.map((item, index) => (
               <div key={index} className="cs_slide">
                 <div className="cs_hero cs_style_1 cs_type_1 cs_bg_filed cs_primary_bg cs_center" data-background={item.img}>
                   <div className="container">
@@ -53,11 +53,11 @@ const HeroBanner1 = () => {
                       <div className="cs_hero_btns">
                         <Link to={item.btnUrl} className="cs_btn cs_style_1 wow fadeInLeft">
                           <span>{item.btnName}</span>
-                          <i className="bi bi-arrow-right"></i>     
+                          <i className="bi bi-arrow-right"></i>
                         </Link>
-                        <span className="cs_hero_number  wow fadeInRight">
+                        <span className="cs_hero_number wow fadeInRight">
                           <span className="cs_hero_number_icon cs_center cs_heading_bg cs_white_color cs_fs_18">
-                          <i className="bi bi-telephone-x-fill"></i>
+                            <i className="bi bi-telephone-x-fill"></i>
                           </span>
                           <a href={item.telLink} className="cs_fs_24 cs_semibold cs_heading_color">{item.number}</a>
                         </span>
@@ -66,15 +66,12 @@ const HeroBanner1 = () => {
                   </div>
                 </div>
               </div>
-              ))}
-              </Slider>
-
-            </div>
-            
-          </div>
-        </section>
-        
-    );
+            ))}
+          </Slider>
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default HeroBanner1;
