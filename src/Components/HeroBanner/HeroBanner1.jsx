@@ -1,14 +1,31 @@
 import Slider from "react-slick";
-import data from '../../Data/herobanner1.json';
+import data from '../../../src/Data/herobanner1.json';
 import { useEffect } from "react";
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import { Link } from "react-router-dom";
 
 const HeroBanner1 = () => {
+  useEffect(() => {
+    const processBackgroundImages = () => {
+      const baseUrl = window.location.hostname.includes('github.io') ? '/fajservicess' : '';
+      const elements = document.querySelectorAll('[data-background]');
+      elements.forEach(element => {
+        try {
+          const imagePath = element.getAttribute('data-background');
+          if (imagePath) {
+            element.style.backgroundImage = `url(${baseUrl}${imagePath})`;
+          }
+        } catch (error) {
+          console.error('Error:', error);
+        }
+      });
+    };
 
-    useEffect(() => {
-        loadBackgroudImages();
-      }, []);
+    setTimeout(processBackgroundImages, 100); // ✅ Correct function name
+    loadBackgroudImages(); // ✅ Remove duplicate call
+  }, []);
+};
+
 
       const settings = {
         dots: true,
@@ -20,9 +37,9 @@ const HeroBanner1 = () => {
         swipeToSlide: true,
       };
 
+      console.log('image url:' , data.map(item => item.img));
     return (
-
-        <section className="cs_slider cs_style_1">
+      <section className="cs_slider cs_style_1">
           <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="900" data-center="0" data-variable-width="0" data-slides-per-view="1">
             <div className="cs_slider_wrapper">
             <Slider {...settings}>
@@ -56,6 +73,7 @@ const HeroBanner1 = () => {
             
           </div>
         </section>
+        
     );
 };
 
