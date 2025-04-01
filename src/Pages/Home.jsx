@@ -10,8 +10,8 @@ import Project1 from "../Components/Project/Project1";
 import Services1 from "../Components/Services/Services1";
 import Testimonial1 from "../Components/Testimonial/Testimonial1";
 
-import Before from '../assets/img/before_img_1.jpg';
-import After from '../assets/img/after_img_1.jpg';
+import Before from '/img/before_img_1.jpg';
+import After from '/img/after_img_1.jpg';
 import { Helmet } from "react-helmet-async";
 
 const Home = () => {
