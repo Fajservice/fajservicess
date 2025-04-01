@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Nav from './Nav';
 
-import img from '../../assets/img/fajlogo.png';
+import img from '/img/fajlogo.png';
 
 export default function Header1({ variant }) {
   const [mobileToggle, setMobileToggle] = useState(false);

@@ -1,42 +1,8 @@
 import Slider from "react-slick";
-import data from "@/Data/herobanner1.json";
-import { useEffect, useState } from "react";
+import data from "../../Data/herobanner1.json";
 import { Link } from "react-router-dom";
 
 const HeroBanner1 = () => {
-  const [processedData, setProcessedData] = useState([]);
-
-  useEffect(() => {
-    // Process the image paths once when the component mounts
-    const isGitHubPages = window.location.hostname.includes("github.io");
-    const baseUrl = isGitHubPages ? "/fajservicess" : "";
-    
-    // Create modified data with fixed image paths
-    const updatedData = data.map(item => {
-      // Fix the path structure
-      let imgPath = item.img;
-      
-      // If path already includes /fajservicess/ and we're on GitHub Pages, don't duplicate it
-      if (isGitHubPages && !imgPath.includes("/fajservicess/")) {
-        // Remove ./ or / prefix if present
-        imgPath = imgPath.replace(/^\.\/|^\//, "");
-        
-        // Remove src/ prefix if present (since we'll use imports which start from src/)
-        imgPath = imgPath.replace(/^src\//, "");
-        
-        // Add the base URL
-        imgPath = `${baseUrl}/${imgPath}`;
-      }
-      
-      return {
-        ...item,
-        processedImg: imgPath
-      };
-    });
-    
-    setProcessedData(updatedData);
-  }, []);
-
   // Settings for the slider
   const settings = {
     dots: true,
@@ -53,11 +19,11 @@ const HeroBanner1 = () => {
       <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="900" data-center="0" data-variable-width="0" data-slides-per-view="1">
         <div className="cs_slider_wrapper">
           <Slider {...settings}>
-            {processedData.map((item, index) => (
+            {data.map((item, index) => (
               <div key={index} className="cs_slide">
                 <div 
                   className="cs_hero cs_style_1 cs_type_1 cs_bg_filed cs_primary_bg cs_center" 
-                  style={{ backgroundImage: `url(${item.processedImg})` }}
+                  style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${item.img})` }}
                 >
                   <div className="container">
                     <div className="cs_hero_text">
