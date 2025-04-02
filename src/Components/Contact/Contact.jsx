@@ -42,8 +42,8 @@ const Contact = () => {
                     <i className="bi bi-clock-fill"></i></div>
                       <div className="cs_iconbox_info">
                         <h3 className="cs_fs_18 cs_semibold cs_mb_2">Working Time :</h3>
-                        <p className="mb-0">Sunday to Friday :</p>
-                        <p className="mb-0">10 Am - 05PM</p>
+                        <p className="mb-0">Monday to Saturday :</p>
+                        <p className="mb-0">08 AM - 06 PM</p>
                       </div>
                   </div>
                 </div>
@@ -53,10 +53,10 @@ const Contact = () => {
                 <h3 className="cs_fs_24 cs_semibold cs_mb_10">Follow The Social Media:</h3>
                 <p className="cs_mb_22">Algae can quickly take over a Car Repair if not addressed promptly. Learn effective.</p>
                 <div className="cs_social_btns cs_style_1">
-                  <a href="#" className="cs_center cs_accent_bg_light"><i className="bi bi-linkedin"></i></a>
-                  <a href="#" className="cs_center cs_accent_bg_light"><i className="bi bi-twitter"></i></a>
-                  <a href="#" className="cs_center cs_accent_bg_light"><i className="bi bi-youtube"></i></a>
-                  <a href="#" className="cs_center cs_accent_bg_light"><i className="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/fajtechnicalservicesllc/" className="cs_center cs_accent_bg_light"><i className="bi bi-instagram"></i></a>
+                  <a href="https://twitter.com/FAJTechnical/" className="cs_center cs_accent_bg_light"><i className="bi bi-twitter"></i></a>
+                  <a href="https://www.youtube.com/@fajtechnicalservicesllc" className="cs_center cs_accent_bg_light"><i className="bi bi-youtube"></i></a>
+                  <a href="https://www.facebook.com/FAJTechnicalServicesLLC" className="cs_center cs_accent_bg_light"><i className="bi bi-facebook"></i></a>
                 </div>
               </div>
             </div>

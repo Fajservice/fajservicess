@@ -41,7 +41,7 @@ const Pricing1 = () => {
                   "Water proofing",
               ]}
                 btnName="Choose Plan"
-                btnUrl="/contact"
+                btnUrl="/contact-us/"
               ></PricingCard>
               </div>
               </div>
@@ -61,7 +61,7 @@ const Pricing1 = () => {
                   "Water proofing",
               ]}
                 btnName="Choose Plan"
-                btnUrl="/contact"
+                btnUrl="/contact-us/"
               ></PricingCard>
               </div>
               </div>
@@ -82,7 +82,7 @@ const Pricing1 = () => {
                   "Water proofing",
               ]}
                 btnName="Choose Plan"
-                btnUrl="/contact"
+                btnUrl="/contact-us/"
               ></PricingCard>
               </div>
               </div>
@@ -107,7 +107,7 @@ const Pricing1 = () => {
                   "Water proofing",
               ]}
                 btnName="Choose Plan"
-                btnUrl="/contact"
+                btnUrl="/contact-us/"
               ></PricingCard>
               </div>
               </div>
@@ -127,7 +127,7 @@ const Pricing1 = () => {
                   "Water proofing",
               ]}
                 btnName="Choose Plan"
-                btnUrl="/contact"
+                btnUrl="/contact-us/"
               ></PricingCard>
               </div>
               </div>
@@ -147,7 +147,7 @@ const Pricing1 = () => {
                   "Water proofing",
               ]}
                 btnName="Choose Plan"
-                btnUrl="/contact"
+                btnUrl="/contact-us/"
               ></PricingCard>
               </div>
               </div>
