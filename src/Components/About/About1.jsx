@@ -9,13 +9,13 @@ const About1 = ({img1,img2,img3,expNumber,expYers,expTitle,expTitleYear,telLink,
              <div className="col-xl-6">
                <div className="cs_about_thumbnail_wrapper position-relative">
                  <div className="cs_about_thumbnail">
-                   <img src={img1} alt="About Image" />
+                  <img src={`${import.meta.env.BASE_URL}${img1}`} alt="About Image" />
                  </div>
                  <div className="cs_about_thumbnail">
-                   <img src={img2} alt="About Image" />
+                   <img src={`${import.meta.env.BASE_URL}${img2}`} alt="About Image" />
                  </div>
                  <div className="cs_about_thumbnail">
-                   <img src={img3} alt="About Image" />
+                   <img src={`${import.meta.env.BASE_URL}${img3}`} alt="About Image" />
                  </div>
                  <div className="cs_esperience_text position-absolute">
                    <h2 className="cs_experience_title mb-0">
@@ -32,10 +32,10 @@ const About1 = ({img1,img2,img3,expNumber,expYers,expTitle,expTitleYear,telLink,
                    <div className="cs_phone_number cs_fs_24 cs_semibold">{number}</div>
                  </a>
                  <div className="cs_about_shape_1 position-absolute">
-                   <img src="/fajservicess/src/assets/img/shapes/gear_2.svg" alt="Gear Shape" />
+                   <img src={`${import.meta.env.BASE_URL}/img/shapes/gear_2.svg`} alt="Gear Shape" />
                  </div>
                  <div className="cs_about_shape_2 position-absolute">
-                   <img src="/fajservicess/src/assets/img/shapes/gear_1.svg" alt="Gear Shape" />
+                   <img src={`${import.meta.env.BASE_URL}/img/shapes/gear_1.svg`} alt="Gear Shape" />
                  </div>
                </div>
              </div>
@@ -52,13 +52,13 @@ const About1 = ({img1,img2,img3,expNumber,expYers,expTitle,expTitleYear,telLink,
                  <div className="cs_features_list cs_mb_32">
                    <div className="cs_iconbox cs_style_1">
                      <div className="cs_iconbox_icon cs_center">
-                       <img src="/fajservicess/src/assets/img/icons/Routine Maintenance.svg" alt="Routine Maintenance" />
+                       <img src={`${import.meta.env.BASE_URL}/img/icons/Routine Maintenance.svg`} alt="Routine Maintenance" />
                      </div>
                      <h3 className="cs_iconbox_title cs_fs_20 cs_semibold mb-0">{feature1}</h3>
                    </div>
                    <div className="cs_iconbox cs_style_1">
                      <div className="cs_iconbox_icon cs_center">
-                       <img src="/fajservicess/src/assets/img/icons/fast efficient repair.svg" alt="Fast Efficient Repair" />
+                       <img src={`${import.meta.env.BASE_URL}/img/icons/fast efficient repair.svg`} alt="Fast Efficient Repair" />
                      </div>
                      <h3 className="cs_iconbox_title cs_fs_20 cs_semibold mb-0">{feature2}</h3>
                    </div>

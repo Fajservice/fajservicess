@@ -57,7 +57,7 @@ const Services1 = () => {
                     Title="Here, you can find a wide variety of the best services for both home and business place"
                 ></SectionTitle>
               </div>
-              <div className="cs_section_heading_right mb-0 wow fadeInDown">Regular tire rotation ensures even wear, extending the life of your tires and improving vehicle performance If your car struggles to start, the lights dim when idling or the battery is over</div>
+              <div className="cs_section_heading_right mb-0 wow fadeInDown">We provide top-quality repair service and ensure our skilled team completes every job to our customers' full satisfaction.</div>
             </div>
             </div>
             <div className="cs_slider cs_style_1 cs_slider_gap_30 wow fadeInUp">
@@ -71,13 +71,13 @@ const Services1 = () => {
               <div key={index} className="cs_slide">
                 <div className="cs_card cs_style_1">
                   <div className="cs_card_thumbnail">
-                    <img src={item.img} alt="Service Image" />
+                    <img src={`${import.meta.env.BASE_URL}${item.img}`} alt="Service Image" />
                   </div>
                   <div className="cs_card_info cs_white_bg cs_radius_10 text-center">
                     <div className="cs_card_icon cs_center cs_heading_bg cs_mb_22">
-                      <img src={item.icon} alt="Service Icon" />
+                      <img src={`${import.meta.env.BASE_URL}${item.icon}`} alt="Service Icon" />
                     </div>
-                    <h3 className="cs_card_title cs_fs_30 cs_mb_8">
+                    <h3 className="cs_card_title cs_fs_24 cs_mb_8">
                       <Link to={item.btnLink}>{item.title}</Link></h3>
                     <p className="cs_card_subtitle cs_mb_18">{item.desc}</p>
                     <Link to={item.btnLink} className="cs_text_btn cs_style_1 cs_bold cs_heading_color">

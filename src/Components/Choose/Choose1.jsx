@@ -10,14 +10,14 @@ const Choose1 = ({img1,content,btnName,btnUrl,img2,img3}) => {
           <div className="cs_section_heading cs_style_1 text-center">
            <SectionTitle2
                 SubTitle="WHY CHOOSE US"
-                Title="Because Your Car Deserves <br> the Best"
+                Title="Because Your Appliance Deserves <br> the Best"
            ></SectionTitle2>
           </div>
           <div className="cs_height_27 cs_height_lg_65"></div>
           <div className="row cs_row_gap_40 cs_gap_y_40 align-items-center">
             <div className="col-xl-4 wow fadeInLeft">
               <div className="cs_features_thumbnail_1 position-relative">
-                <img src={img1} alt="Feature Image" />
+                <img src={`${import.meta.env.BASE_URL}${img1}`} alt="Feature Image" />
               </div>
             </div>
             <div className="col-xl-4 wow fadeInDown">
@@ -25,7 +25,7 @@ const Choose1 = ({img1,content,btnName,btnUrl,img2,img3}) => {
               {data.map((item, i) => (
               <div key={i} className="cs_iconbox cs_style_2 cs_mb_12">
                 <div className="cs_iconbox_icon cs_gray_bg cs_center cs_radius_50">
-                  <img src={item.img} alt="Car Icon" />
+                  <img src={`${import.meta.env.BASE_URL}${item.img}`} alt="Car Icon" />
                 </div>
                 <div className="cs_iconbox_info">
                   <h3 className="cs_iconbox_title cs_fs_18 cs_semibold cs_mb_2">{item.title}</h3>
@@ -41,9 +41,9 @@ const Choose1 = ({img1,content,btnName,btnUrl,img2,img3}) => {
 
             <div className="col-xl-4 wow fadeInRight">
               <div className="cs_features_thumbnail_2 position-relative">
-                <img src={img2} alt="Feature Image" />
+                <img src={`${import.meta.env.BASE_URL}${img2}`} alt="Feature Image" />
                 <div className="cs_features_thumbnail_3">
-                  <img src={img3} alt="Feature Image" />
+                  <img src={`${import.meta.env.BASE_URL}${img3}`} alt="Feature Image" />
                 </div>
               </div>
             </div>

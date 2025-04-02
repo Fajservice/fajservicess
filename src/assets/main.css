@@ -3762,6 +3762,7 @@ textarea {
 .cs_iconbox.cs_style_1 .cs_iconbox_icon img {
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
+  mix-blend-mode: luminosity;
 }
 .cs_iconbox.cs_style_1:hover img {
   -webkit-transform: rotatey(180deg);

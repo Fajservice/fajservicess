@@ -14,7 +14,7 @@ const Contact1 = ({Title,subTitle,address,email,number,img,clientNumber,client,s
                   <p className="cs_mb_25">{subTitle}</p>
                   <div className="cs_iconbox cs_style_1 cs_type_1 cs_mb_18">
                     <div className="cs_iconbox_icon cs_center">
-                      <img src="/fajservicess/src/assets/img/icons/location.svg" alt="Location Icon" />
+                      <img src={`${import.meta.env.BASE_URL}/img/icons/location.svg`} alt="Location Icon" />
                     </div>
                     <div className="cs_iconbox_info">
                       <p className="mb-0">{parse(address)}</p>
@@ -22,7 +22,7 @@ const Contact1 = ({Title,subTitle,address,email,number,img,clientNumber,client,s
                   </div>
                   <div className="cs_iconbox cs_style_1 cs_type_1 cs_mb_18">
                     <div className="cs_iconbox_icon cs_center">
-                      <img src="/fajservicess/src/assets/img/icons/mail_open.svg" alt="Mail Icon" />
+                      <img src={`${import.meta.env.BASE_URL}/img/icons/mail_open.svg`} alt="Mail Icon" />
                     </div>
                     <div className="cs_iconbox_info">
                      <a>{parse(email)}</a>
@@ -30,7 +30,7 @@ const Contact1 = ({Title,subTitle,address,email,number,img,clientNumber,client,s
                   </div>
                   <div className="cs_iconbox cs_style_1 cs_type_1">
                     <div className="cs_iconbox_icon cs_center">
-                      <img src="/fajservicess/src/assets/img/icons/phone-call.svg" alt="Phone Icon" />
+                      <img src={`${import.meta.env.BASE_URL}/img/icons/phone-call.svg`} alt="Phone Icon" />
                     </div>
                     <div className="cs_iconbox_info">
                      <a>{parse(number)}</a>
@@ -38,7 +38,7 @@ const Contact1 = ({Title,subTitle,address,email,number,img,clientNumber,client,s
                   </div>
                 </div>
                 <div className="cs_contact_thumbnail wow fadeInUp">
-                  <img src={img} alt="Contact Image" />
+                  <img src={`${import.meta.env.BASE_URL}${img}`} alt="Contact Image" />
                 </div>
                 <div className="cs_client_info_wapper cs_white_bg">
                   <h3 className="cs_fs_30 cs_accent_color">{clientNumber}</h3>

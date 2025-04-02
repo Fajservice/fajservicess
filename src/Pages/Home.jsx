@@ -23,9 +23,9 @@ const Home = () => {
         <div className="homepage">
             <HeroBanner1></HeroBanner1>
             <About1
-                img1="/fajservicess/src/assets/img/about_img_1.jpg"
-                img2="/fajservicess/src/assets/img/about_img_2.jpg"
-                img3="/fajservicess/src/assets/img/about_img_3.jpg"
+                img1="/img/about_img_1.jpg"
+                img2="/img/about_img_2.jpg"
+                img3="/img/about_img_3.jpg"
                 expNumber="FAJ"
                 expYers="was established"
                 expTitle="in-"
@@ -49,17 +49,17 @@ const Home = () => {
             ></About1>
             <Services1></Services1>
             <Choose1
-                img1="/fajservicess/src/assets/img/feature_img_1.jpg"
+                img1="/img/feature_img_1.webp"
                 content="Squeaking, grinding noises, or a spongy brake pedal are car common indicators that your brakes need attention Slow an  engine cranking."
                 btnName="Read more"
                 btnUrl="/about"
-                img2="/fajservicess/src/assets/img/feature_img_2.jpg"
-                img3="/fajservicess/src/assets/img/feature_img_3.jpg"
+                img2="/img/feature_img_2.webp"
+                img3="/img/feature_img_3.webp"
             ></Choose1>
             <BeforeAfter 
                 title="Recent Completed Projects"
                 subTitle="Before & after"
-                bgImg="/fajservicess/src/assets/img/before_after_bg_1.svg"
+                bgImg="/img/before_after_bg_1.svg"
                 beforeImg={After}
                 afterTitle="After"
                 afterImg={Before}
@@ -69,11 +69,11 @@ const Home = () => {
             <Contact1
                 Title="Contact Information"
                 subTitle="It is a long established fact that a reader be by the readable distracted  layout."
-                address="2972 Westheimer Rd. <br/>Santa Ana, Illinois 5486"
-                email="Cripar@gmail.com <br/>InfoCripar@gmal.com"
-                number="(402) 4521 5458 44 <br/> (123) 2154 5464 55"
+                address="Warehouse # 2, Street 18b, Al Quoz Industrial Area # 4<br/>Dubai – United Arab Emirates."
+                email="Info@fajservcies.ae"
+                number="+971 4 330 0002 <br/> +971 50 746 4712"
                 clientNumber="5,400"
-                img="/fajservicess/src/assets/img/contact_img_1.jpg"
+                img="/img/contact_img_1.jpg"
                 client="Happy Clients"
                 subtitle2="Contact us"
                 title2="Book and Appointment"
@@ -81,7 +81,7 @@ const Home = () => {
             <Testimonial1
                 subtitle="Testimonial"
                 title="What our clients say <br> About Us"
-                bgImg="/fajservicess/src/assets/img/testimonial_bg_1.jpg"
+                bgImg="/img/testimonial_bg_1.jpg"
             ></Testimonial1>
             <Pricing1></Pricing1>
             <Process></Process>

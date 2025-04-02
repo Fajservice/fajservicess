@@ -9,13 +9,13 @@ const AboutPage = () => {
     return (
         <div>
            <BreadCumb
-                bgImg="/fajservicess/src/assets/img/page_heading_1.jpg"
+                bgImg="/img/page_heading_1.jpg"
                 Title="About Us"
             ></BreadCumb>            
             <About1
-                img1="/fajservicess/src/assets/img/about_img_1.jpg"
-                img2="/fajservicess/src/assets/img/about_img_2.jpg"
-                img3="/fajservicess/src/assets/img/about_img_3.jpg"
+                img1="/img/about_img_1.jpg"
+                img2="/img/about_img_2.jpg"
+                img3="/img/about_img_3.jpg"
                 expNumber="FAJ"
                 expYers="was established"
                 expTitle="in-"
