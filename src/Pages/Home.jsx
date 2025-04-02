@@ -2,7 +2,7 @@ import About1 from "../Components/About/About1";
 import BeforeAfter from "../Components/BeforeAfter/BeforeAfter";
 import Blog3 from "../Components/Blog/Blog3";
 import Choose1 from "../Components/Choose/Choose1";
-import Contact1 from "../Components/ContactInfo/Contact1";
+import Contact1 from "../Components/Contact/Contact";
 import HeroBanner1 from "../Components/HeroBanner/HeroBanner1";
 import Pricing1 from "../Components/Pricing/Pricing1";
 import Process from "../Components/Process/Process";
@@ -76,7 +76,7 @@ const Home = () => {
                 email="Info@fajservcies.ae"
                 number="+971 4 330 0002 <br/> +971 50 746 4712"
                 clientNumber="5,400"
-                img="/img/contact_img_1.jpg"
+                img="/img/contact-us/_img_1.jpg"
                 client="Happy Clients"
                 subtitle2="Contact us"
                 title2="Book and Appointment"

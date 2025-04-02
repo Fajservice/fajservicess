@@ -62,18 +62,10 @@ export default function Header1({ variant }) {
             <div className="cs_top_header_right">
             <div className="cs_header_social_links_wrap">
                 <div className="cs_header_social_links">
-                  <a href="#" className="cs_social_btn cs_center">
-                  <i className="bi bi-linkedin"></i>
-                  </a>
-                  <a href="#" className="cs_social_btn cs_center">
-                  <i className="bi bi-twitter"></i>
-                  </a>
-                  <a href="#" className="cs_social_btn cs_center">
-                  <i className="bi bi-youtube"></i>
-                  </a>
-                  <a href="#" className="cs_social_btn cs_center">
-                  <i className="bi bi-facebook"></i>
-                  </a>
+                <a href="https://www.instagram.com/fajtechnicalservicesllc/" className="cs_center cs_accent_bg_light"><i className="bi bi-instagram"></i></a>
+                  <a href="https://twitter.com/FAJTechnical/" className="cs_center cs_accent_bg_light"><i className="bi bi-twitter"></i></a>
+                  <a href="https://www.youtube.com/@fajtechnicalservicesllc" className="cs_center cs_accent_bg_light"><i className="bi bi-youtube"></i></a>
+                  <a href="https://www.facebook.com/FAJTechnicalServicesLLC" className="cs_center cs_accent_bg_light"><i className="bi bi-facebook"></i></a>
                 </div>
               </div>
             </div>
@@ -118,7 +110,7 @@ export default function Header1({ variant }) {
             </div>
             <div className="cs_main_header_right">
             <div className="solutek-btn2">
-            <Link to="/contact" className="cs_btn cs_style_1">
+            <Link to="/contact-us/" className="cs_btn cs_style_1">
                 <span>Get a Quote</span>
                 <i className="bi bi-arrow-right"></i>
                 </Link>             

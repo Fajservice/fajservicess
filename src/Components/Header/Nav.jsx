@@ -91,7 +91,7 @@ export default function Nav({ setMobileToggle }) {
       </li>
       <li>
         <Link to="/contact-us/" onClick={() => setMobileToggle(false)}>
-          Contact
+          Contact US
         </Link>
       </li>
     </ul>
