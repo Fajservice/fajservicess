@@ -7,7 +7,7 @@ const TeamDetails = () => {
           <div className="row cs_row_gap_60 cs_gap_y_30">
             <div className="col-lg-6">
               <div className="cs_team_thumbnail">
-                <img src="/assets/imgteam_img_9.jpg" alt="Team Image" />
+                <img src="/assets/img/team_img_9.jpg" alt="Team Image" />
               </div>
             </div>
             <div className="col-lg-6">

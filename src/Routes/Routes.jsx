@@ -6,7 +6,7 @@ import Home from "../Pages/Home";
 import AboutPage from "../Pages/AboutPage";
 import Layout2 from "../Layout/Layout2";
 import Home2 from "../Pages/Home2";
-import ServiceDetailsPage from "../Pages/ServiceDetailsPage";
+import AcServiceInDubai from "../Pages/AcServiceInDubai";
 import ServicesPage from "../Pages/ServicesPage";
 import ProjectPage from "../Pages/ProjectPage";
 import ProjectDetailsPage from "../Pages/ProjectDetailsPage";
@@ -27,16 +27,16 @@ export const router = createBrowserRouter([
         element: <Home></Home>,
       },
       {
-          path: "/about",
+          path: "/about-us",
           element: <AboutPage></AboutPage>,
       },
       {
-        path: "/service",
+        path: "/services",
         element: <ServicesPage></ServicesPage>,
       },
       {
-        path: "/service/service-details",
-        element: <ServiceDetailsPage></ServiceDetailsPage>,
+        path: "/ac-service-in-dubai",
+        element: <AcServiceInDubai></AcServiceInDubai>,
       }, 
       {
         path: "/project",
@@ -63,7 +63,7 @@ export const router = createBrowserRouter([
         element: <BlogDetailsPage></BlogDetailsPage>,
       },        
       {
-        path: "/contact",
+        path: "/contact-us",
         element: <ContactPage></ContactPage>,
       },
     ],

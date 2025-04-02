@@ -12,19 +12,19 @@ const Brand1 = () => {
         <div className="container">
           <div className="cs_brands_wrapper cs_white_bg cs_heading_color cs_bg_filed" data-background="/fajservicess/src/assets/img/brand_bg_1.svg">
             <div className="cs_brand wow zoomIn">
-                <img src="/assets/imgbrand1.png" alt="icon" />
+                <img src="/assets/img/brand1.png" alt="icon" />
             </div>
             <div className="cs_brand wow zoomIn">
-                <img src="/assets/imgbrand2.png" alt="icon" />
+                <img src="/assets/img/brand2.png" alt="icon" />
             </div>
             <div className="cs_brand wow zoomIn">
-                <img src="/assets/imgbrand3.png" alt="icon" />
+                <img src="/assets/img/brand3.png" alt="icon" />
             </div>
             <div className="cs_brand wow zoomIn">
-                <img src="/assets/imgbrand4.png" alt="icon" />
+                <img src="/assets/img/brand4.png" alt="icon" />
             </div>
             <div className="cs_brand wow zoomIn">
-                <img src="/assets/imgbrand5.png" alt="icon" />
+                <img src="/assets/img/brand5.png" alt="icon" />
             </div>
           </div>
         </div>

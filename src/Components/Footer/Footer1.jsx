@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 
 const Footer1 = () => {
     return (
-        <footer className="cs_footer cs_style_1 cs_bg_filed cs_heading_bg" data-src="assets/img/footer_bg.jpg">
+        <footer className="cs_footer cs_style_1 cs_bg_filed cs_heading_bg" data-src={`${import.meta.env.BASE_URL}/img/footer_bg.jpg`}>
         <div className="container">
           <div className="cs_footer_newsletter cs_style_1">
             <div className="cs_footer_newsletter_left cs_accent_bg cs_center">
-              <img src="/assets/imgfooter_logo.svg" alt="Logo" className="wow fadeInLeft" />
+              <img src={`${import.meta.env.BASE_URL}/img/fajlogo.png`} alt="Logo" className="wow fadeInLeft" />
             </div>
             <div className="cs_footer_newsletter_right">
               <h3 className="cs_fs_24 cs_semibold cs_white_color mb-0">Subscribe now to get latest updates</h3>
@@ -136,10 +136,10 @@ const Footer1 = () => {
           <div className="container">
             <div className="cs_footer_bottom_in">
               <div className="cs_footer_copyright">
-                Copyright © 2024 <a href="#">Cripar</a>. All Rights Reserved.
+                Copyright © 2022 <a href="https://www.fajitsolutions.com/">FAJ IT SOLITIONS</a>. All Rights Reserved.
               </div>
               <div>
-                <img src="/assets/imgpayment_card.svg" alt="" />
+                <img src={`${import.meta.env.BASE_URL}/img/payment_card.svg`} alt="" />
               </div>
             </div>
           </div>

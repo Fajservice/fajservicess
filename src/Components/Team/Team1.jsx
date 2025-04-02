@@ -42,7 +42,7 @@ const Team1 = () => {
                   <p className="cs_accent_color mb-0">{item.desc}</p>
                 </div>
                 <div className="cs_team_shape position-absolute">
-                  <img src="/assets/imgshapes/team_shape_1.svg" alt="Team Shape" />
+                  <img src="/assets/img/shapes/team_shape_1.svg" alt="Team Shape" />
                 </div>
             </div>
           </div>

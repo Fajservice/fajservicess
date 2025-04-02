@@ -9,7 +9,7 @@ const AboutPage = () => {
     return (
         <div>
            <BreadCumb
-                bgImg="/img/page_heading_1.jpg"
+                bgImg={`${import.meta.env.BASE_URL}/img/page_heading_1.jpg`}
                 Title="About Us"
             ></BreadCumb>            
             <About1
