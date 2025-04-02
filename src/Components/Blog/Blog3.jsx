@@ -57,7 +57,7 @@ const Blog3 = () => {
 
           </div>
           <div className="cs_tyres_shape position-absolute">
-            <img src="/assets/imgtyres.svg" alt="Tyres Image" />
+            <img src="/assets/img/tyres.svg" alt="Tyres Image" />
           </div>
         </div>
         <div className="cs_height_120 cs_height_lg_80"></div>

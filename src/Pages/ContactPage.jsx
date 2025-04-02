@@ -5,7 +5,7 @@ const ContactPage = () => {
     return (
         <div>
             <BreadCumb
-                bgImg="/fajservicess/src/assets/img/page_heading_1.jpg"
+                bgImg={`${import.meta.env.BASE_URL}/img/page_heading_1.jpg`}
                 Title="Contact"
             ></BreadCumb> 
             <Contact></Contact>           

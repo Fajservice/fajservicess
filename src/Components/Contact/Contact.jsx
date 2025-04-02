@@ -15,8 +15,8 @@ const Contact = () => {
                     <i className="bi bi-telephone-inbound-fill"></i></div>
                       <div className="cs_iconbox_info">
                         <h3 className="cs_fs_18 cs_semibold cs_mb_2">Phone Number :</h3>
-                        <a href="tel:+111(564)56825">+111 (564) 568 25</a><br/>
-                        <a href="tel:+111(564)56826">+111 (564) 568 26</a>
+                        <a href="tel:+97143300002">+971 4 330 0002</a><br/>
+                        <a href="tel:+971507464712">+971 50 746 4712</a>
                       </div>
                   </div>
                   <div className="cs_iconbox cs_style_5">
@@ -24,8 +24,8 @@ const Contact = () => {
                     <i className="bi bi-envelope-fill"></i></div>
                       <div className="cs_iconbox_info">
                         <h3 className="cs_fs_18 cs_semibold cs_mb_2">Email Address :</h3>
-                        <a href="mailTo:needhelpcripar@gmail.com">needhelpcripar@gmail.com</a><br/>
-                        <a href="mailTo:criparneedhelp@gmail.com">criparneedhelp@gmail.com</a>
+                        <a href="mailTo:info@fajservices.ae">info@fajservices.ae</a><br/>
+                        <a href="mailTo:sales@fajservices.ae">sales@fajservices.ae</a>
                       </div>
                   </div>
                   <div className="cs_iconbox cs_style_5">
@@ -33,7 +33,8 @@ const Contact = () => {
                     <i className="bi bi-geo-alt-fill"></i></div>
                       <div className="cs_iconbox_info">
                         <h3 className="cs_fs_18 cs_semibold cs_mb_2">Our Address :</h3>
-                        <p className="mb-0">2118 Thorn ridge Cir. <br/> Syracuse Connecticut</p>
+                        <p className="mb-0">Warehouse # 2, Street 18b, <br/> Al Quoz Industrial Area # 4
+                        Dubai</p>
                       </div>
                   </div>
                   <div className="cs_iconbox cs_style_5">

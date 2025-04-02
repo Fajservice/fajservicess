@@ -15,7 +15,7 @@ const Counter1 = () => {
         <div className="container">
           <div className="cs_counter_banner_wrapper position-relative">
             <div className="cs_counter_banner wow fadeInUp">
-              <img src="/assets/imgcounter_img_1.jpg" alt="Counter Banner" />
+              <img src="/assets/img/counter_img_1.jpg" alt="Counter Banner" />
             </div>
           </div>
           <div className="cs_height_0 cs_height_lg_60"></div>

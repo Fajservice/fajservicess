@@ -52,9 +52,9 @@ const Testimonial2 = () => {
             </div>
             <div className="col-lg-2">
               <ul className="cs_tab_links cs_style_2 cs_mp_0">
-                <li className={`${isActive === 'tab1' ? 'active' : ''}`} onClick={() => setIsActive('tab1')}><a><img src="/assets/imgavatar_5.png" alt="Avatar" /></a></li>
-                <li className={`${isActive === 'tab2' ? 'active' : ''}`} onClick={() => setIsActive('tab2')} ><a><img src="/assets/imgavatar_4.png" alt="Avatar" /></a></li>
-                <li className={`${isActive === 'tab3' ? 'active' : ''}`} onClick={() => setIsActive('tab3')}><a><img src="/assets/imgavatar_6.png" alt="Avatar" /></a></li>
+                <li className={`${isActive === 'tab1' ? 'active' : ''}`} onClick={() => setIsActive('tab1')}><a><img src="/assets/img/avatar_5.png" alt="Avatar" /></a></li>
+                <li className={`${isActive === 'tab2' ? 'active' : ''}`} onClick={() => setIsActive('tab2')} ><a><img src="/assets/img/avatar_4.png" alt="Avatar" /></a></li>
+                <li className={`${isActive === 'tab3' ? 'active' : ''}`} onClick={() => setIsActive('tab3')}><a><img src="/assets/img/avatar_6.png" alt="Avatar" /></a></li>
               </ul>
             </div>
           </div>

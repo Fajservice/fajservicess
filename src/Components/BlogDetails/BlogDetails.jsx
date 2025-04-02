@@ -8,7 +8,7 @@ const BlogDetails = () => {
           <div className="row cs_row_gap_30 cs_gap_y_60">
             <div className="col-xl-8 col-lg-7">
               <div className="cs_post_details">
-                <img src="/assets/imgpost_img_10.jpg" alt="Post Banner" />
+                <img src="/assets/img/post_img_10.jpg" alt="Post Banner" />
                 <div className="cs_post_meta_wrapper cs_mb_20">
                   <div className="cs_post_meta">
                     <span className="cs_accent_color"><i className="fa-regular fa-calendar-days"></i></span>
@@ -27,7 +27,7 @@ const BlogDetails = () => {
                 <p>Visit our shop as soon as possible for a diagnostic test to determine the issue sounds, longer stopping distances, or a soft brake pedal are common signs that your brakes need attention engine crank, dim lights, and needing frequent jump starts are typical signs that your battery may need replacement.</p>
                 <p>Repair times vary depending on the service, but most standard repairs are completed within a few hours provide a detailed estimate before any work begins.</p>
                 <blockquote>
-                  <img src="/assets/imgquote_1.svg" alt="Quote Image" />
+                  <img src="/assets/img/quote_1.svg" alt="Quote Image" />
                   Repair times vary depending on the service, but most standard repairs are completed within a few hours.</blockquote>
                 <h2>Where Cars Get the Care They Deserve</h2>
                 <p>Repair times vary depending on the service. We provide estimates before work begins we offer a [specific time frame kinds warranty on parts and labor for most services service all makes and models, including both domestic and foreign vehicles 
@@ -35,10 +35,10 @@ const BlogDetails = () => {
                 <p>We service all makes and models, including both domestic and foreign vehicles standard repairs can be completed any within a day, but it varies depending on the complexity.</p>
                 <div className="row">
                   <div className="col-md-6">
-                    <img src="/assets/imgpost_img_11.jpg" alt="Post Image" />
+                    <img src="/assets/img/post_img_11.jpg" alt="Post Image" />
                   </div>
                   <div className="col-md-6">
-                    <img src="/assets/imgpost_img_12.jpg" alt="Post Image" />
+                    <img src="/assets/img/post_img_12.jpg" alt="Post Image" />
                   </div>
                 </div>
                 <p>You can get an estimate by visiting our shop, calling us, or filling out the online form with details about your car’s issue we offer emergency repair services to get you back on the road as quickly as possible we offer a warranty on all parts and kind labor to ensure your peace of mind.</p>
@@ -67,7 +67,7 @@ const BlogDetails = () => {
                 <ul className="cs_comment_list cs_heading_font cs_mp_0">
                   <li className="cs_comment_body position-relative">
                     <div className="cs_comment_thumbnail">
-                      <img src="/assets/imgavatar_9.jpg" alt="Image" />
+                      <img src="/assets/img/avatar_9.jpg" alt="Image" />
                     </div>
                     <div className="cs_comment_info">
                       <h3 className="cs_fs_20 cs_semibold cs_mb_9">Leslie Alexander</h3>
@@ -81,7 +81,7 @@ const BlogDetails = () => {
                   </li>
                   <li className="cs_comment_body position-relative">
                     <div className="cs_comment_thumbnail">
-                      <img src="/assets/imgavatar_10.jpg" alt="Image" />
+                      <img src="/assets/img/avatar_10.jpg" alt="Image" />
                     </div>
                     <div className="cs_comment_info">
                       <h3 className="cs_fs_20 cs_semibold cs_mb_9">Cameron Williamson</h3>
@@ -95,7 +95,7 @@ const BlogDetails = () => {
                   </li>
                   <li className="cs_comment_body position-relative">
                     <div className="cs_comment_thumbnail">
-                      <img src="/assets/imgavatar_11.jpg" alt="Image" />
+                      <img src="/assets/img/avatar_11.jpg" alt="Image" />
                     </div>
                     <div className="cs_comment_info">
                       <h3 className="cs_fs_20 cs_semibold cs_mb_9">Darlene Robertson</h3>
@@ -173,7 +173,7 @@ const BlogDetails = () => {
                   <div className="cs_recent_post_wrapper">
                     <div className="cs_recent_post">
                       <Link to="/blog/blog-details" className="cs_recent_post_thumb">
-                        <img src="/assets/imgrecent_post_3.jpg" alt="Recent Post Image" />
+                        <img src="/assets/img/recent_post_3.jpg" alt="Recent Post Image" />
                       </Link>
                       <div className="cs_recent_post_right">
                         <p className="cs_recent_posted_by cs_fs_14">
@@ -185,7 +185,7 @@ const BlogDetails = () => {
                     </div>
                     <div className="cs_recent_post">
                       <Link to="/blog/blog-details" className="cs_recent_post_thumb">
-                        <img src="/assets/imgrecent_post_4.jpg" alt="Recent Post Image" />
+                        <img src="/assets/img/recent_post_4.jpg" alt="Recent Post Image" />
                       </Link>
                       <div className="cs_recent_post_right">
                         <p className="cs_recent_posted_by cs_fs_14">
@@ -197,7 +197,7 @@ const BlogDetails = () => {
                     </div>
                     <div className="cs_recent_post">
                       <Link to="/blog/blog-details" className="cs_recent_post_thumb">
-                        <img src="/assets/imgrecent_post_5.jpg" alt="Recent Post Image" />
+                        <img src="/assets/img/recent_post_5.jpg" alt="Recent Post Image" />
                       </Link>
                       <div className="cs_recent_post_right">
                         <p className="cs_recent_posted_by cs_fs_14">

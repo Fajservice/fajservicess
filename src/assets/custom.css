@@ -1,0 +1,11 @@
+#get-quote a.menu-menu-btn {
+  background-color: #264f69;
+  width: fit-content;
+  color: #fff;
+}
+section#get-quote {
+  text-align: -webkit-center;
+}
+#get-quote a.menu-menu-btn:hover {
+  background-color: #f6b200 !important;
+}
