@@ -1,50 +1,82 @@
 [
   {
-    "img": "/fajservicess/src/assets/img/service_img_1.webp",
-    "icon": "/fajservicess/src/assets/img/icons/air-conditioning.png",
+    "img": "/img/service_img_1.webp",
+    "icon": "/img/icons/air-conditioning.png",
     "title": "AC Service",
     "desc": "If your car struggles to start the lights dim when idling or the battery over three years old it may be time",   
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"
   },
   {
-    "img": "/fajservicess/src/assets/img/bbq.webp",
-    "icon": "/fajservicess/src/assets/img/icons/bbq.png",
+    "img": "/img/bbq.webp",
+    "icon": "/img/icons/bbq.png",
     "title": "BBQ Service",
-    "desc": "Proper insulation and ventilation are key  also offer Ice Guard services to prevent ice buildup and damage If your check battery",   
+    "desc": "Enjoy perfect grilling every time! If your BBQ isn’t heating up properly, let our experts handle it. Call 04 3300002 for reliable BBQ  services.",   
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"
   },
   {
-    "img": "/fajservicess/src/assets/img/coffee machine.webp",
-    "icon": "/fajservicess/src/assets/img/icons/coffee machine.png",
+    "img": "/img/coffee machine.webp",
+    "icon": "/img/icons/coffee machine.png",
     "title": "Coffee Machine Repair",
     "desc": "If your check battery light comes on it's best to schedule a diagnostic service as soon as possible to identify address",   
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"
   },
   {
-    "img": "/fajservicess/src/assets/img/gas and electric hob.webp",
-    "icon": "/fajservicess/src/assets/img/icons/gas and electric hob.png",
+    "img": "/img/gas and electric hob.webp",
+    "icon": "/img/icons/gas and electric hob.png",
     "title": "Hob Repair",
     "desc": "If your car struggles to start the lights dim when idling or the battery over three years old it may be time",   
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"
   },
   {
-    "img": "/fajservicess/src/assets/img/oven.webp",
-    "icon": "/fajservicess/src/assets/img/icons/oven.png",
+    "img": "/img/oven.webp",
+    "icon": "/img/icons/oven.png",
     "title": "Oven Repair",
-    "desc": "Proper insulation and ventilation are key  also offer Ice Guard services to prevent ice buildup and damage If your check battery",   
+    "desc": "Cooking delays due to a malfunctioning oven? Get back to making delicious meals with our fast repair service. Call  04 3300002 for expert assistance!",   
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"
   },
   {
-    "img": "/fajservicess/src/assets/img/service_img_6.jpg",
-    "icon": "/fajservicess/src/assets/img/icons/service_icon_5.svg",
-    "title": "Battery Boost Check",
+    "img": "/img/cooker.webp",
+    "icon": "/img/icons/cooker.png",
+    "title": "Cooker Repair",
+    "desc": "Cooking delays due to a malfunctioning cooker? Get back to making delicious meals with our fast repair service. Call  04 3300002 for expert assistance!",   
+    "btnText": "READ MORE",
+    "btnLink": "/service/service-details"
+  },
+  {
+    "img": "/img/washing-machine.webp",
+    "icon": "/img/icons/washing-machine.png",
+    "title": "Washing Machine Repair",
+    "desc": "FAJ Service Center is your Trusted Washing Machine Expert! Call 04 3300002 for home and business place services provider.",   
+    "btnText": "READ MORE",
+    "btnLink": "/service/service-details"
+  },
+  {
+    "img": "/img/dishwasher.webp",
+    "icon": "/img/icons/dishwasher.png",
+    "title": "Dishwasher Repair",
+    "desc": "If your dishwasher is not working, leaking, not draining, or not cleaning properly, we’ve got you covered. Call FAJ Service Center at 04 3300002 for a hassle-free fix.",   
+    "btnText": "READ MORE",
+    "btnLink": "/service/service-details"
+  },
+  {
+    "img": "/img/robot%20vaccum%20cleaner.webp",
+    "icon": "/img/icons/robot%20vaccum%20cleaner.png",
+    "title": "Robot Vacuum Repair",
+    "desc": "Is your vacuum cleaner malfunctioning? Don’t let dust take over! Call FAJ Service Center at 04 3300002 for expert repair in Dubai.",   
+    "btnText": "READ MORE",
+    "btnLink": "/service/service-details"
+  },
+  {
+    "img": "/img/stand%20mixer.webp",
+    "icon": "/img/icons/stand%20mixer.png",
+    "title": "Stand Mixer Repair",
     "desc": "If your check battery light comes on it's best to schedule a diagnostic service as soon as possible to identify address",   
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"
-  }  
+  }   
 ]

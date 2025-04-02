@@ -10,13 +10,13 @@ const Project1 = () => {
           <div className="cs_section_heading cs_style_1 cs_type_1">
             <div className="cs_section_heading_left">
                 <SectionTitle
-                    SubTitle="Popular Project"
-                    Title="Where Your Car Gets Pride the Best Care"           
+                    SubTitle="Popular Services"
+                    Title="Where Your Appliances Gets Pride the Best Care"           
                 ></SectionTitle>
             </div>
           </div>
             <ul className="cs_tab_links cs_style_1 cs_heading_color cs_mp_0 wow fadeInDown">
-              <li className="active"><Link to="/project">View All Project</Link></li>
+              <li className="active"><Link to="/service">View All Services</Link></li>
             </ul>
             </div>
             <div className="cs_height_60"></div>
@@ -28,7 +28,7 @@ const Project1 = () => {
                   <div key={i} className="col-xl-3 col-md-6 wow fadeInLeft">
                     <div className="cs_card cs_style_2 position-relative">
                       <Link to="/project/project-details" className="cs_card_thumbnail position-relative">
-                        <img src={item.img} alt="Portfolio Image" />
+                        <img src={`${import.meta.env.BASE_URL}${item.img}`} alt="Portfolio Image" />
                       </Link>
                       <div className="cs_card_info cs_white_bg">
                         <h3 className="cs_card_title cs_fs_24 cs_semibold cs_mb_15"><Link to="/project/project-details">{item.title}</Link></h3>

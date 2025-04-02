@@ -1,22 +1,22 @@
 [
   {
-    "img": "/fajservicess/src/assets/img/portfolio_img_2.jpg",   
-    "title": "Exhaust System Service",
+    "img": "/img/ac filter.jpg",   
+    "title": "AC Filter Change",
     "desc": "Proper insulation and ventilation are key  also offer Ice Guard services to prevent ice buildup and damage."
   },
   {
-    "img": "/fajservicess/src/assets/img/portfolio_img_3.jpg",   
-    "title": "Full Vehicle Inspection",
+    "img": "/img/ac services.jpg",   
+    "title": "AC Service",
     "desc": "Proper insulation and ventilation are key  also offer Ice Guard services to prevent ice buildup and damage."
   },
   {
-    "img": "/fajservicess/src/assets/img/portfolio_img_4.jpg",   
-    "title": "Complete Brake Service",
+    "img": "/img/ac maintenance.jpg",   
+    "title": "AC Maintenance",
     "desc": "Proper insulation and ventilation are key  also offer Ice Guard services to prevent ice buildup and damage."
   },
   {
-    "img": "/fajservicess/src/assets/img/portfolio_img_1.jpg",   
-    "title": "Suspension Check-Up",
+    "img": "/img/ac amc.jpg",   
+    "title": "AC Annual Maintenance Contract",
     "desc": "Proper insulation and ventilation are key  also offer Ice Guard services to prevent ice buildup and damage."
   }          
 ]

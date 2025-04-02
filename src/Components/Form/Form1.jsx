@@ -14,10 +14,14 @@ const Form1 = () => {
         <div className="col-sm-6 position-relative">
           <select className="form-select cs_form_field cs_radius_5">
             <option selected disabled>Choose an option</option>
-            <option value="car-service">Car Service</option>
-            <option value="car-wash">Car Wash</option>
-            <option value="engine-oil">Engine Oil</option>
-            <option value="motor-service">Motor Cycle</option>
+            <option value="Air Conditioning Maintenance Service">Air Conditioning Maintenance Service</option>
+            <option value="Home Appliances Repair Service">Home Appliances Repair Service</option>
+            <option value="Baumatic Appliances Repair Service">Baumatic Appliances Repair Service</option>
+            <option value="Commercial Appliances Service">Commercial Appliances Service</option>
+            <option value="Freezer Maintenance Service">Freezer Maintenance Service</option>
+            <option value="Food Chiller Service">Food Chiller Service</option>
+            <option value="AMC Service">AMC Service</option>
+            <option value="Other">Other</option>
           </select>
         </div>
         <div className="col-12">
