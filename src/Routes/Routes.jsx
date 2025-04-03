@@ -33,7 +33,7 @@ export const router = createHashRouter([
       },
       {
         path: "/services",
-        element: <ServicesPage></ServicesPage>,
+        element: <ServicesPage />,
       },
       {
         path: "/ac-service-in-dubai",
@@ -74,30 +74,30 @@ export const router = createHashRouter([
     ],
     
   }, 
-  {
-    path: 'about-us',
-    element: <Main></Main>,
-    children: [
-      {
-        index: true,
-        element: <AboutPage></AboutPage>
-      },
+  // {
+  //   path: 'about-us',
+  //   element: <Main></Main>,
+  //   children: [
+  //     {
+  //       index: true,
+  //       element: <AboutPage></AboutPage>
+  //     },
                            
-    ],
+  //   ],
     
-  },
+  // },
 
-  {
-    path: 'services',
-    element: <Layout2></Layout2>,
-    children: [
-      {
-        index: true,
-        element: <ServicesPage />
-      },
+  // {
+  //   path: 'services',
+  //   element: <Layout2></Layout2>,
+  //   children: [
+  //     {
+  //       index: true,
+  //       element: <ServicesPage />
+  //     },
                            
-    ],
-  }  
+  //   ],
+  // }  
 ], {
   //  basename: "/fajservicess"
 });
