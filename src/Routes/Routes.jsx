@@ -16,7 +16,7 @@ import BlogPage from "../Pages/BlogPage";
 import ContactPage from "../Pages/ContactPage";
 import BlogDetailsPage from "../Pages/BlogDetailsPage";
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
   {
     
     
