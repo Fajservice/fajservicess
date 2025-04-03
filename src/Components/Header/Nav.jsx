@@ -15,12 +15,17 @@ export default function Nav({ setMobileToggle }) {
           <ul>
             <li>
               <Link to="/ac-service-in-dubai/" onClick={() => setMobileToggle(false)}>
-                AC Service
+                AC Servicing
               </Link>
             </li>
             <li>
               <Link to="/washing-machine-repair-service-dubai/" onClick={() => setMobileToggle(false)}>
                 Washing Machine Repair
+              </Link>
+            </li>
+            <li>
+              <Link to="/refrigerator-repair-service/" onClick={() => setMobileToggle(false)}>
+                Refrigerator Repair
               </Link>
             </li>
           </ul>
