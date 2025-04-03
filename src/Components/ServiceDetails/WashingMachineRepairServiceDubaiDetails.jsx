@@ -73,27 +73,32 @@ const WashingMachineRepairServiceDubaiDetails = () => {
                     <img src={`${import.meta.env.BASE_URL}/img/Faj-for-speed.jpg`} alt="Post Image" />
                   </div>
                   <div className="col-xl-6">
-                    <h4>Choose FAJ for Speed, Efficiency and Peace of Mind</h4>
+                    <h4 className="cs_fs_16">Fix Washing Machine Dubai: Solutions for Common Problems</h4>
                     <ul className="cs_list cs_style_1 cs_fs_18 cs_heading_font cs_mp_0">
                       <li>
                         <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
-                        <span>We get the job done on time thanks to our larger team and dedicated parts warehouse.</span>
+                        <span>Water Leakage</span>
                       </li>
                       <li>
                         <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
-                        <span>We look after the environment by always recycling our gas.</span>
+                        <span>Drum Issues</span>
                       </li>
                       <li>
                         <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
-                        <span>We only use genuine parts to give you peace of mind.</span>
+                        <span>Error Codes or Control Panel Malfunctions</span>
                       </li>
                       <li>
                         <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
-                        <span>We give service and parts warranty to make sure you are relax.</span>
+                        <span>Electrical Faults</span>
+                      </li>
+                      <li>
+                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                        <i className="bi bi-check"></i></span>
+                        <span>Drainage Problems</span>
                       </li>
                     </ul>
                   </div>
