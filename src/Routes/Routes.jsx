@@ -93,11 +93,11 @@ export const router = createHashRouter([
     children: [
       {
         index: true,
-        element: <ServicesPage></ServicesPage>
+        element: <ServicesPage />
       },
                            
     ],
   }  
 ], {
-   basename: "/fajservicess"
+  //  basename: "/fajservicess"
 });
