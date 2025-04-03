@@ -3,22 +3,6 @@ import { Link } from "react-router-dom";
 const Footer1 = () => {
     return (
         <footer className="cs_footer cs_style_1 cs_bg_filed cs_heading_bg" data-src={`${import.meta.env.BASE_URL}/img/footer_bg.jpg`}>
-        <div className="container">
-          <div className="cs_footer_newsletter cs_style_1">
-            <div className="cs_footer_newsletter_left cs_accent_bg cs_center">
-              <img src={`${import.meta.env.BASE_URL}/img/fajlogo.png`} alt="Logo" className="wow fadeInLeft" />
-            </div>
-            <div className="cs_footer_newsletter_right">
-              <h3 className="cs_fs_24 cs_semibold cs_white_color mb-0">Subscribe now to get latest updates</h3>
-              <form action="#" className="cs_footer_newsletter_form">
-                <input type="text" placeholder="Enter Your Email" />
-                <button className="cs_btn cs_style_1">
-                  <span>Subscribe</span>
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
         <div className="cs_main_footer cs_white_color">
           <div className="container">
             <div className="cs_footer_row">
@@ -31,19 +15,19 @@ const Footer1 = () => {
                     <span className="cs_white_bg"></span>
                   </div>
                   <div className="cs_text_widget">
-                    <p>Phosfluorescently transform out-of-the-box paradigms whereas accurate supply chains. Continually</p>
+                    <p>Reach out to our knowledgeable and friendly customer service team for assistance. We are just a call away.</p>
                   </div>
                   <div className="cs_social_btns cs_style_1">
-                    <a href="#" className="cs_social_btn cs_center">
-                    <i className="bi bi-linkedin"></i>
+                    <a href="https://www.instagram.com/fajtechnicalservicesllc/" className="cs_social_btn cs_center">
+                    <i className="bi bi-instagram"></i>
                     </a>
-                    <a href="#" className="cs_social_btn cs_center">
+                    <a href="https://twitter.com/FAJTechnical/" className="cs_social_btn cs_center">
                     <i className="bi bi-twitter"></i>
                     </a>
-                    <a href="#" className="cs_social_btn cs_center">
+                    <a href="https://www.youtube.com/@fajtechnicalservicesllc" className="cs_social_btn cs_center">
                     <i className="bi bi-youtube"></i>
                     </a>
-                    <a href="#" className="cs_social_btn cs_center">
+                    <a href="https://www.facebook.com/FAJTechnicalServicesLLC" className="cs_social_btn cs_center">
                     <i className="bi bi-facebook"></i>
                     </a>
                   </div>
@@ -59,19 +43,19 @@ const Footer1 = () => {
                   </div>
                   <ul className="cs_footer_menu">
                     <li>
-                      <Link to="/service/service-details">Adult In Car Lessons</Link>
+                      <Link to="/ac-service-in-dubai">AC Service in Dubai</Link>
                     </li>
                     <li>
-                      <Link to="/service/service-details">Defensive Driving</Link>
+                      <Link to="/refrigerator-repair-service">Refrigerator Repair</Link>
                     </li>
                     <li>
-                      <Link to="/service/service-details">Defensive Driving</Link>
+                      <Link to="/washing-machine-repair-service-dubai">Washing Machine Repair</Link>
                     </li>
                     <li>
-                      <Link to="/service/service-details">Initial driving lesson</Link>
+                      <Link to="/service/service-details">Coffee Machine Repair & Maintenance</Link>
                     </li>
                     <li>
-                      <Link to="/service/service-details">Woman Education</Link>
+                      <Link to="/service/service-details">Vacuum Cleaner Repair & Robot Vacuum Service</Link>
                     </li>
                   </ul>
                 </div>
@@ -87,16 +71,16 @@ const Footer1 = () => {
                   <ul className="cs_footer_contact_list cs_mp_0">
                     <li>
                     <i className="bi bi-geo-alt-fill"></i>
-                      Musaffah - M-6 - Abu Dhabi United Arab Emirates
+                      Warehouse # 2, Street 18b, Al Quoz Industrial Area # 4, Dubai, UAE
                     </li>
                     <li>
                     <i className="bi bi-telephone-fill"></i>
-                      <a href="tel:+(163)-5565-06979">+(163)-5565-06979</a> <br/>
-                      <a href="tel:+(163)-5565-07989">+(163)-5565-07989</a>
+                      <a href="tel:+97143300002">+971 4 330 0002</a> <br/>
+                      <a href="tel:+971507464712">+971 50 746 4712</a>
                     </li>
                     <li>
                     <i className="bi bi-envelope-fill"></i>
-                      <a href="mailto:cripar@gmail.com">cripar@gmail.com</a>
+                      <a href="mailto:info@fajservices.ae">info@fajservices.ae</a>
                     </li>
                   </ul>
                 </div>
@@ -111,20 +95,12 @@ const Footer1 = () => {
                   </div>
                   <ul className="cs_working_hours">
                     <li>
-                      <span>Thu - Fri</span>
-                      <span>9:00 AM - 7:00 PM</span>
-                    </li>
-                    <li>
-                      <span>Mon - Wed</span>
-                      <span>8:00 AM - 10:00 PM</span>
-                    </li>
-                    <li>
-                      <span>Saturday</span>
-                      <span>7:00 AM - 9:00 PM</span>
+                      <span>Mon - Sat</span>
+                      <span>8:00 AM - 6:30 PM</span>
                     </li>
                     <li>
                       <span>Sunday</span>
-                      <span>Close</span>
+                      <span>12:00 PM - 6:30 PM</span>
                     </li>
                   </ul>
                 </div>
@@ -136,7 +112,7 @@ const Footer1 = () => {
           <div className="container">
             <div className="cs_footer_bottom_in">
               <div className="cs_footer_copyright">
-                Copyright © 2022 <a href="https://www.fajitsolutions.com/">FAJ IT SOLITIONS</a>. All Rights Reserved.
+                Copyright © 2025 <a href="https://www.fajitsolutions.com/">FAJ IT SOLITIONS</a>. All Rights Reserved.
               </div>
               <div>
                 <img src={`${import.meta.env.BASE_URL}/img/payment_card.svg`} alt="" />

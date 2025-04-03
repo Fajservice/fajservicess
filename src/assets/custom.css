@@ -9,3 +9,9 @@ section#get-quote {
 #get-quote a.menu-menu-btn:hover {
   background-color: #f6b200 !important;
 }
+.cs_heading_bg{
+  background-color: #264f69;
+}
+.cs_footer.cs_style_1 .cs_footer_bottom{
+  background-color: #00263a;
+}
