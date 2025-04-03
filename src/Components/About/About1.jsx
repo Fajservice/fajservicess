@@ -19,7 +19,7 @@ const About1 = ({img1,img2,img3,expNumber,expYers,expTitle,expTitleYear,telLink,
                  </div>
                  <div className="cs_esperience_text position-absolute">
                    <h2 className="cs_experience_title mb-0">
-                     <span class="cs_fs_56 cs_accent_color">{expNumber}</span>
+                     <span class="cs_fs_52 cs_accent_color">{expNumber}</span>
                     <span class="cs_fs_20">{expYers}</span>
                     <span class="cs_fs_40">{expTitle}</span>
                     <span class="cs_fs_50">{expTitleYear}</span>
@@ -27,9 +27,9 @@ const About1 = ({img1,img2,img3,expNumber,expYers,expTitle,expTitleYear,telLink,
                    <p>{expDescrip}</p>
                  </div>
                  <a href={telLink} className="cs_phone_call cs_heading_color">
-                   <div className="cs_phone_icon cs_fs_24 cs_accent_color cs_center cs_radius_50">
+                   <div className="cs_phone_icon cs_fs_20 cs_accent_color cs_center cs_radius_50">
                    <i className="bi bi-telephone-x-fill"></i></div>
-                   <div className="cs_phone_number cs_fs_24 cs_semibold">{number}</div>
+                   <div className="cs_phone_number cs_fs_20 cs_semibold">{number}</div>
                  </a>
                  <div className="cs_about_shape_1 position-absolute">
                    <img src={`${import.meta.env.BASE_URL}/img/shapes/gear_2.svg`} alt="Gear Shape" />
@@ -54,16 +54,16 @@ const About1 = ({img1,img2,img3,expNumber,expYers,expTitle,expTitleYear,telLink,
                      <div className="cs_iconbox_icon cs_center">
                        <img src={`${import.meta.env.BASE_URL}/img/icons/Routine Maintenance.svg`} alt="Routine Maintenance" />
                      </div>
-                     <h3 className="cs_iconbox_title cs_fs_20 cs_semibold mb-0">{feature1}</h3>
+                     <h3 className="cs_iconbox_title cs_fs_18 cs_semibold mb-0">{feature1}</h3>
                    </div>
                    <div className="cs_iconbox cs_style_1">
                      <div className="cs_iconbox_icon cs_center">
                        <img src={`${import.meta.env.BASE_URL}/img/icons/fast efficient repair.svg`} alt="Fast Efficient Repair" />
                      </div>
-                     <h3 className="cs_iconbox_title cs_fs_20 cs_semibold mb-0">{feature2}</h3>
+                     <h3 className="cs_iconbox_title cs_fs_18 cs_semibold mb-0">{feature2}</h3>
                    </div>
                  </div>
-                 <ul className="cs_list cs_style_1 cs_fs_18 cs_semibold cs_heading_color cs_heading_font cs_mb_38 p-0">
+                 <ul className="cs_list cs_style_1 cs_fs_16 cs_semibold cs_heading_color cs_heading_font cs_mb_38 p-0">
                  {listItem?.map((item, index) => (
                    <li key={index}>
                     <span className="cs_list_icon cs_center cs_accent_color cs_radius_50">

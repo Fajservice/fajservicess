@@ -15,3 +15,6 @@ section#get-quote {
 .cs_footer.cs_style_1 .cs_footer_bottom{
   background-color: #00263a;
 }
+.cs_about.cs_style_1 .cs_esperience_text {
+  max-width: 246px;
+}
