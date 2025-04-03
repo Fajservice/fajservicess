@@ -1,11 +1,10 @@
 import {
-  createBrowserRouter,
+  createHashRouter,
 } from "react-router-dom";
 import Main from "../Layout/Main";
 import Home from "../Pages/Home";
 import AboutPage from "../Pages/AboutPage";
 import Layout2 from "../Layout/Layout2";
-import Home2 from "../Pages/Home2";
 import AcServiceInDubai from "../Pages/AcServiceInDubai";
 import WashingMachineRepairServiceDubai from "../Pages/WashingMachineRepairServiceDubai";
 import ServicesPage from "../Pages/ServicesPage";
@@ -28,14 +27,14 @@ export const router = createBrowserRouter([
         path: "/",
         element: <Home></Home>,
       },
-      // {
-      //     path: "/about-us",
-      //     element: <AboutPage></AboutPage>,
-      // },
-      // {
-      //   path: "/services",
-      //   element: <ServicesPage></ServicesPage>,
-      // },
+      {
+          path: "/about-us",
+          element: <AboutPage></AboutPage>,
+      },
+      {
+        path: "/services",
+        element: <ServicesPage></ServicesPage>,
+      },
       {
         path: "/ac-service-in-dubai",
         element: <AcServiceInDubai></AcServiceInDubai>,
