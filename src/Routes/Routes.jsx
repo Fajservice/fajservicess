@@ -7,6 +7,7 @@ import AboutPage from "../Pages/AboutPage";
 import Layout2 from "../Layout/Layout2";
 import Home2 from "../Pages/Home2";
 import AcServiceInDubai from "../Pages/AcServiceInDubai";
+import WashingMachineRepairServiceDubai from "../Pages/WashingMachineRepairServiceDubai";
 import ServicesPage from "../Pages/ServicesPage";
 import ProjectPage from "../Pages/ProjectPage";
 import ProjectDetailsPage from "../Pages/ProjectDetailsPage";
@@ -37,6 +38,10 @@ export const router = createBrowserRouter([
       {
         path: "/ac-service-in-dubai",
         element: <AcServiceInDubai></AcServiceInDubai>,
+      },
+      {
+        path: "/washing-machine-repair-service-dubai",
+        element: <WashingMachineRepairServiceDubai></WashingMachineRepairServiceDubai>,
       }, 
       {
         path: "/project",

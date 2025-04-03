@@ -18,6 +18,11 @@ export default function Nav({ setMobileToggle }) {
                 AC Service
               </Link>
             </li>
+            <li>
+              <Link to="/washing-machine-repair-service-dubai" onClick={() => setMobileToggle(false)}>
+                Washing Machine Repair
+              </Link>
+            </li>
           </ul>
         </DropDown>
 
@@ -91,7 +96,7 @@ export default function Nav({ setMobileToggle }) {
       </li>
       <li>
         <Link to="/contact-us/" onClick={() => setMobileToggle(false)}>
-          Contact US
+          Contact Us
         </Link>
       </li>
     </ul>
