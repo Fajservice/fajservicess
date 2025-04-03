@@ -20,6 +20,7 @@ import BlogDetailsPage from "../Pages/BlogDetailsPage";
 export const router = createBrowserRouter([
   {
     
+    
     path: "/",
     element: <Main></Main>,
     children: [
@@ -27,14 +28,14 @@ export const router = createBrowserRouter([
         path: "/",
         element: <Home></Home>,
       },
-      {
-          path: "/about-us",
-          element: <AboutPage></AboutPage>,
-      },
-      {
-        path: "/services",
-        element: <ServicesPage></ServicesPage>,
-      },
+      // {
+      //     path: "/about-us",
+      //     element: <AboutPage></AboutPage>,
+      // },
+      // {
+      //   path: "/services",
+      //   element: <ServicesPage></ServicesPage>,
+      // },
       {
         path: "/ac-service-in-dubai",
         element: <AcServiceInDubai></AcServiceInDubai>,
@@ -75,15 +76,29 @@ export const router = createBrowserRouter([
     
   }, 
   {
-    path: 'home2',
+    path: 'about-us',
+    element: <Main></Main>,
+    children: [
+      {
+        index: true,
+        element: <AboutPage></AboutPage>
+      },
+                           
+    ],
+    
+  },
+
+  {
+    path: 'services',
     element: <Layout2></Layout2>,
     children: [
       {
         index: true,
-        element: <Home2></Home2>,
-      },                           
+        element: <ServicesPage></ServicesPage>
+      },
+                           
     ],
-  }   
+  }  
 ], {
    basename: "/fajservicess"
 });

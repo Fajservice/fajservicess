@@ -19,7 +19,7 @@ export default function Nav({ setMobileToggle }) {
               </Link>
             </li>
             <li>
-              <Link to="/washing-machine-repair-service-dubai" onClick={() => setMobileToggle(false)}>
+              <Link to="/washing-machine-repair-service-dubai/" onClick={() => setMobileToggle(false)}>
                 Washing Machine Repair
               </Link>
             </li>
