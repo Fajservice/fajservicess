@@ -28,9 +28,15 @@ section#get-quote {
 }
 @media screen and (min-width: 1200px) {
   .cs_nav .cs_nav_list ul {
-    width: 250px;
+    width: max-content;
   }
-  
+  .cs_nav .cs_nav_list ul a{
+    padding: 5px 10px;
+    line-height: 1.2;
+  }
+  .custom_border_drop li {
+    border-bottom: 1px solid #83838338;
+  }
 }
 @media screen and (max-width: 767px) {
   .cs_page_heading {
