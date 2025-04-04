@@ -26,3 +26,22 @@ section#get-quote {
   width: 30px;
   min-width: 30px;
 }
+@media screen and (min-width: 1200px) {
+  .cs_nav .cs_nav_list ul {
+    width: 250px;
+  }
+  
+}
+@media screen and (max-width: 767px) {
+  .cs_page_heading {
+    height: 135px;
+  }
+  .cs_logo_bg_shape img{
+    height: -webkit-fill-available;
+  }
+}
+@media (max-width: 991px) {
+  .cs_fs_50 {
+      font-size: 30px;
+  }
+}

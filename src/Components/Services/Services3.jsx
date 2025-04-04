@@ -17,7 +17,7 @@ const Services3 = () => {
                   <div className="cs_card_icon cs_center cs_heading_bg cs_mb_22">
                   <img src={`${import.meta.env.BASE_URL}${item.icon}`} alt="Service Icon" />
                   </div>
-                  <h3 className="cs_card_title cs_fs_30 cs_mb_8">
+                  <h3 className="cs_card_title cs_fs_24 cs_mb_8">
                   <Link to={item.btnLink}>{item.title}</Link>
                   </h3>
                   <p className="cs_card_subtitle cs_mb_18">{item.desc}</p>

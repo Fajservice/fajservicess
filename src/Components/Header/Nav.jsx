@@ -13,20 +13,58 @@ export default function Nav({ setMobileToggle }) {
         </Link>
         <DropDown>
           <ul>
-            <li>
-              <Link to="/ac-service-in-dubai/" onClick={() => setMobileToggle(false)}>
+            <li className="menu-item-has-children">
+              <a className='px-3 mb-0' onClick={() => setMobileToggle(false)}>
                 AC Servicing
-              </Link>
+              </a>
+              <DropDown>
+                <ul>
+                  <li>
+                    <Link to="/ac-service-in-dubai/" onClick={() => setMobileToggle(false)}>
+                      AC Servicing
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/washing-machine-repair-service-dubai/" onClick={() => setMobileToggle(false)}>
+                      Washing Machine Repair
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/refrigerator-repair-service/" onClick={() => setMobileToggle(false)}>
+                      Refrigerator Repair
+                    </Link>
+                  </li>
+                </ul>
+              </DropDown>
             </li>
-            <li>
-              <Link to="/washing-machine-repair-service-dubai/" onClick={() => setMobileToggle(false)}>
+            <li className="menu-item-has-children">
+              <a className='px-3 mb-0' onClick={() => setMobileToggle(false)}>
                 Washing Machine Repair
-              </Link>
+              </a>
+              <DropDown>
+                <ul>
+                  <li>
+                    <Link to="/ac-service-in-dubai/" onClick={() => setMobileToggle(false)}>
+                      AC Servicing
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/washing-machine-repair-service-dubai/" onClick={() => setMobileToggle(false)}>
+                      Washing Machine Repair
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/refrigerator-repair-service/" onClick={() => setMobileToggle(false)}>
+                      Refrigerator Repair
+                    </Link>
+                  </li>
+                </ul>
+              </DropDown>
             </li>
-            <li>
-              <Link to="/refrigerator-repair-service/" onClick={() => setMobileToggle(false)}>
+            <li className="menu-item-has-children">
+              <a className='px-3 mb-0' onClick={() => setMobileToggle(false)}>
                 Refrigerator Repair
-              </Link>
+              </a>
             </li>
           </ul>
         </DropDown>

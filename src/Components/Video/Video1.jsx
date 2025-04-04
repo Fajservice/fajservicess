@@ -12,7 +12,7 @@ const Video1 = () => {
 	  const [toggle, setToggle] = useState(false);
 	
 	  const handelClick = () => {
-		setIframeSrc("https://www.youtube.com/embed/hBPvKna1Adw");
+		setIframeSrc("https://www.youtube.com/embed/boj7h-gOf7M?si=U4VImKP1p-QVqA8D");
 		setToggle(!toggle);
 	  };
 	  const handelClose = () => {
@@ -21,7 +21,7 @@ const Video1 = () => {
 	  };
 
     return (
-        <section className="cs_video cs_style_1 cs_bg_filed position-relative" data-background="/img/video_bg_1.jpg">
+        <section className="cs_video cs_style_1 cs_bg_filed position-relative" data-background={`${import.meta.env.BASE_URL}/img/video_bg_1.jpg`}>
         <div className="container">
           <div className="cs_video_overlay cs_heading_bg position-absolute"></div>
           <div className="cs_video_content">
@@ -35,7 +35,7 @@ const Video1 = () => {
             </a>
           </div>
           <div className="cs_video_shape_1 position-absolute">
-            <img src="/assets/img/shapes/video_shape_1.svg" alt="Video Shapw" />
+            <img src={`${import.meta.env.BASE_URL}/img/shapes/video_shape_1.svg`} alt="Video Shapw" />
           </div>
         </div>
         <VideoModal

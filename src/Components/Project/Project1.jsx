@@ -27,13 +27,13 @@ const Project1 = () => {
                 {data.map((item, i) => (
                   <div key={i} className="col-xl-3 col-md-6 wow fadeInLeft">
                     <div className="cs_card cs_style_2 position-relative">
-                      <Link to="/project/project-details" className="cs_card_thumbnail position-relative">
+                      <Link to={item.serviceLink} className="cs_card_thumbnail position-relative">
                         <img src={`${import.meta.env.BASE_URL}${item.img}`} alt="Portfolio Image" />
                       </Link>
                       <div className="cs_card_info cs_white_bg">
-                        <h3 className="cs_card_title cs_fs_24 cs_semibold cs_mb_15"><Link to="/project/project-details">{item.title}</Link></h3>
+                        <h3 className="cs_card_title cs_fs_20 cs_semibold cs_mb_15"><Link to={item.serviceLink}>{item.title}</Link></h3>
                         <p className="cs_card_subtitle">{item.desc}</p>
-                        <Link to="/project/project-details" className="cs_text_btn cs_style_1 cs_bold cs_heading_color">
+                        <Link to={item.serviceLink} className="cs_text_btn cs_style_1 cs_bold cs_heading_color">
                           <span className="cs_btn_text text-uppercase">Read More</span>
                           <span className="cs_btn_icon cs_center">
                           <i className="bi bi-arrow-right"></i>
