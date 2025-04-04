@@ -26,7 +26,7 @@ const Video1 = () => {
           <div className="cs_video_overlay cs_heading_bg position-absolute"></div>
           <div className="cs_video_content">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
-              <h2 className="cs_section_title cs_fs_50 cs_white_color mb-0 wow fadeInUp">We Provide Awesome Video <br/> Get a Car Repair.</h2>
+              <h2 className="cs_section_title cs_fs_50 cs_white_color mb-0 wow fadeInUp">We Provide Awesome Repair <br/> Maintenance Services.</h2>
             </div>
             <a onClick={handelClick} className="cs_video_open wow zoomIn" data-wow-delay="0.3s">
               <span className="cs_player_btn cs_center">
