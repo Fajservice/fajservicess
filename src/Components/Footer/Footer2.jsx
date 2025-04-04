@@ -9,7 +9,7 @@ const Footer2 = () => {
       }, []);
 
     return (
-        <footer className="cs_footer cs_style_1 cs_type_1 cs_bg_filed cs_heading_bg" data-background="/fajservicess/src/assets/img/footer_bg_2.jpg">
+        <footer className="cs_footer cs_style_1 cs_type_1 cs_bg_filed cs_heading_bg" data-background="/img/footer_bg_2.jpg">
         <div className="container">
           <div className="cs_footer_top">
             <ul className="cs_footer_contact_info_list cs_mp_0">

@@ -9,9 +9,9 @@ const Counter1 = () => {
       }, []);
 
     return (
-        <section className="cs_counter cs_style_1 cs_heading_bg cs_bg_filed position-relative" data-background="/fajservicess/src/assets/img/counter_bg_1.svg">
+        <section className="cs_counter cs_style_1 cs_heading_bg cs_bg_filed position-relative" data-background="/img/counter_bg_1.svg">
         <div className="cs_counter_overlay cs_heading_bg position-absolute"></div>
-        <div className="cs_height_120 cs_height_lg_80"></div>
+        <div className="cs_height_80 cs_height_lg_80"></div>
         <div className="container">
           <div className="cs_counter_banner_wrapper position-relative">
             <div className="cs_counter_banner wow fadeInUp">
@@ -33,7 +33,7 @@ const Counter1 = () => {
             <div key={i} className="col-lg-3 col-sm-6">
               <div className="cs_iconbox cs_style_4">
                 <div className="cs_iconbox_icon cs_center">
-                  <img src={item.img} alt="Counter Icon" />
+                  <img src={`${import.meta.env.BASE_URL}${item.img}`} alt="Counter Icon" />
                 </div>
                 <div className="cs_iconbox_info">
                   <h3 className="cs_iconbox_number cs_fs_36 cs_white_color cs_mb_2">
@@ -47,7 +47,7 @@ const Counter1 = () => {
 
           </div>
         </div>
-        <div className="cs_height_120 cs_height_lg_80"></div>
+        <div className="cs_height_80 cs_height_lg_80"></div>
       </section>
     );
 };

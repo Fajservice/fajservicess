@@ -61,7 +61,7 @@ const Faq1 = () => {
             </div>
             <div className="col-lg-6">
               <div className="cs_half_screen_right wow fadeInRight">
-                <div className="cs_half_screen_thumbnail cs_bg_filed" data-background="/fajservicess/src/assets/img/faq_img_1.jpg"></div>
+                <div className="cs_half_screen_thumbnail cs_bg_filed" data-background="/img/faq_img_1.jpg"></div>
               </div>
             </div>
           </div>

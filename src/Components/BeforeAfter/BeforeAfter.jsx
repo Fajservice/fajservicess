@@ -85,9 +85,9 @@ const BeforeAfter = ({title,subTitle,bgImg,beforeImg,afterTitle,afterImg,beforeT
 
     return (
     <section className="cs_before_after_slider cs_style_1 position-relative">
-      <div className="cs_height_120 cs_height_lg_80"></div>
+      <div className="cs_height_80 cs_height_lg_80"></div>
       <div className="container">
-        <div className="cs_before_after_overlay cs_heading_bg cs_bg_filed cs_headiong_bg" data-background={bgImg}></div>
+        <div className="cs_before_after_overlay cs_heading_bg cs_bg_filed cs_headiong_bg" data-background={`${import.meta.env.BASE_URL}${bgImg}`}></div>
         <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
         <h3 className="cs_section_subtitle cs_fs_18 cs_white_color cs_semibold text-uppercase cs_mb_12 wow fadeInDown">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -99,11 +99,11 @@ const BeforeAfter = ({title,subTitle,bgImg,beforeImg,afterTitle,afterImg,beforeT
         </div>
         <div className="cs_before_after-in">
           <div className="cs_before_after">
-            <div className="cs_after cs_single_slide cs_bg_filed" data-background={beforeImg}>
+            <div className="cs_after cs_single_slide cs_bg_filed" data-background={`${import.meta.env.BASE_URL}${beforeImg}`}>
               <div className="cs_after_badge cs_accent_bg cs_fs_20 cs_semibold cs_white_color position-absolute">
                 {afterTitle}</div>
             </div>
-            <div className="cs_before cs_single_slide cs_bg_filed" data-background={afterImg}>
+            <div className="cs_before cs_single_slide cs_bg_filed" data-background={`${import.meta.env.BASE_URL}${afterImg}`}>
               <div className="cs_before_badge cs_accent_bg cs_fs_20 cs_semibold cs_white_color position-absolute">
                 {beforeTitle}</div>
             </div>

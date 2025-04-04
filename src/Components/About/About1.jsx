@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const About1 = ({img1,img2,img3,expNumber,expYers,expTitle,expTitleYear,telLink,expDescrip,number,subTitle,Title,Content,feature1,feature2,listItem,avatar,name,designation}) => {
     return (
         <section className="cs_about cs_style_1 position-relative">
-         <div className="cs_height_120 cs_height_lg_80"></div>
+         <div className="cs_height_80 cs_height_lg_80"></div>
          <div className="container">
            <div className="row cs_gap_y_40 align-items-center">
              <div className="col-xl-6">
@@ -19,10 +19,10 @@ const About1 = ({img1,img2,img3,expNumber,expYers,expTitle,expTitleYear,telLink,
                  </div>
                  <div className="cs_esperience_text position-absolute">
                    <h2 className="cs_experience_title mb-0">
-                     <span class="cs_fs_52 cs_accent_color">{expNumber}</span>
-                    <span class="cs_fs_20">{expYers}</span>
-                    <span class="cs_fs_40">{expTitle}</span>
-                    <span class="cs_fs_50">{expTitleYear}</span>
+                      <span class="cs_fs_52 cs_accent_color">{expNumber}</span>
+                      <span class="cs_fs_20">{expYers}</span>
+                      <span class="cs_fs_36">{expTitle}</span>
+                      <span class="cs_fs_50">{expTitleYear}</span>
                    </h2>
                    <p>{expDescrip}</p>
                  </div>
@@ -82,7 +82,7 @@ const About1 = ({img1,img2,img3,expNumber,expYers,expTitle,expTitleYear,telLink,
              </div>
            </div>
          </div>
-         <div className="cs_height_120 cs_height_lg_80"></div>
+         <div className="cs_height_80 cs_height_lg_80"></div>
         </section>
     );
 };

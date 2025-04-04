@@ -21,7 +21,7 @@ const Video1 = () => {
 	  };
 
     return (
-        <section className="cs_video cs_style_1 cs_bg_filed position-relative" data-background="/fajservicess/src/assets/img/video_bg_1.jpg">
+        <section className="cs_video cs_style_1 cs_bg_filed position-relative" data-background="/img/video_bg_1.jpg">
         <div className="container">
           <div className="cs_video_overlay cs_heading_bg position-absolute"></div>
           <div className="cs_video_content">

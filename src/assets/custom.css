@@ -18,3 +18,11 @@ section#get-quote {
 .cs_about.cs_style_1 .cs_esperience_text {
   max-width: 246px;
 }
+.cs_hero.cs_style_1 {
+  min-height: 540px;
+  padding: 40px 0;
+}
+.cs_iconbox.cs_style_1.cs_type_1 .cs_iconbox_icon {
+  width: 30px;
+  min-width: 30px;
+}

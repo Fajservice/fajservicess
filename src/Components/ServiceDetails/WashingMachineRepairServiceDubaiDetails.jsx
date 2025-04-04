@@ -31,7 +31,7 @@ const WashingMachineRepairServiceDubaiDetails = () => {
           <meta name="description" content="Sameday Washing Machine Repair Dubai. Book now 043300002 Get Quality Washing Machine Repair near me with Reliable Washer Dryer"></meta>
         </HelmetProvider>
         <section>
-        <div className="cs_height_120 cs_height_lg_80"></div>
+        <div className="cs_height_80 cs_height_lg_80"></div>
         <div className="container">
           <div className="row cs_row_gap_30 cs_gap_y_60">
             <div className="col-xl-8 col-lg-7">
@@ -74,7 +74,7 @@ const WashingMachineRepairServiceDubaiDetails = () => {
                   </div>
                   <div className="col-xl-6">
                     <h4 className="cs_fs_16">Fix Washing Machine Dubai: Solutions for Common Problems</h4>
-                    <ul className="cs_list cs_style_1 cs_fs_18 cs_heading_font cs_mp_0">
+                    <ul className="cs_list cs_style_1 cs_fs_16 cs_heading_font cs_mp_0">
                       <li>
                         <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
@@ -145,7 +145,7 @@ const WashingMachineRepairServiceDubaiDetails = () => {
                 <div className="cs_sidebar_widget cs_accent_bg_light position-relative">
                   <div className="cs_separator"></div>
                   <h3 className="cs_sidebar_title cs_fs_30 cs_mb_43">All Services</h3>
-                  <ul class="cs_categories cs_fs_18 cs_semibold cs_mb_30">
+                  <ul class="cs_categories cs_fs_16 cs_mb_20">
                     <li><a href="/ac-service-in-dubai">
                       <span>AC Service in Dubai</span>
                       <span><i class="fa-solid fa-arrow-right-long"></i></span>
@@ -187,7 +187,7 @@ const WashingMachineRepairServiceDubaiDetails = () => {
             </aside>
           </div>
         </div>
-        <div className="cs_height_120 cs_height_lg_80"></div>
+        <div className="cs_height_80 cs_height_lg_80"></div>
         </section>
       </>
     );

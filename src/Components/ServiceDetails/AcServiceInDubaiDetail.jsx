@@ -31,7 +31,7 @@ const AcServiceInDubai = () => {
           <meta name="description" content="FAJ Established in 2010, / We offer professional AC Repair, Freezer, Refrigerator, Fridge, Washing Machine Maintenance Service Company Dubai"></meta>
         </HelmetProvider>
         <section>
-        <div className="cs_height_120 cs_height_lg_80"></div>
+        <div className="cs_height_80 cs_height_lg_80"></div>
         <div className="container">
           <div className="row cs_row_gap_30 cs_gap_y_60">
             <div className="col-xl-8 col-lg-7">
@@ -138,7 +138,7 @@ const AcServiceInDubai = () => {
                 <div className="cs_sidebar_widget cs_accent_bg_light position-relative">
                   <div className="cs_separator"></div>
                   <h3 className="cs_sidebar_title cs_fs_30 cs_mb_43">All Services</h3>
-                  <ul class="cs_categories cs_fs_18 cs_semibold cs_mb_30">
+                  <ul class="cs_categories cs_fs_16 cs_mb_20">
                     <li><a href="/ac-service-in-dubai">
                       <span>Washing Machine Repair</span>
                       <span><i class="fa-solid fa-arrow-right-long"></i></span>
@@ -180,7 +180,7 @@ const AcServiceInDubai = () => {
             </aside>
           </div>
         </div>
-        <div className="cs_height_120 cs_height_lg_80"></div>
+        <div className="cs_height_80 cs_height_lg_80"></div>
         </section>
       </>
     );

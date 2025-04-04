@@ -5,7 +5,7 @@ import data from '../../Data/project1.json';
 const Project1 = () => {
     return (
         <section className="cs_tabs cs_style_1 position-relative">
-        <div className="cs_height_120 cs_height_lg_80"></div>
+        <div className="cs_height_80 cs_height_lg_80"></div>
         <div className="container">
           <div className="cs_section_heading cs_style_1 cs_type_1">
             <div className="cs_section_heading_left">
@@ -48,7 +48,7 @@ const Project1 = () => {
               </div>
             </div>
           </div>
-        <div className="cs_height_120 cs_height_lg_80"></div>
+        <div className="cs_height_80 cs_height_lg_80"></div>
       </section>
     );
 };
