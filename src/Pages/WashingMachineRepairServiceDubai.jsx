@@ -5,7 +5,7 @@ const WashingMachineRepairServiceDubai = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg={`${import.meta.env.BASE_URL}/img/page_heading_1.jpg`}
+                bgImg="/img/page_heading_1.jpg"
                 Title="Washing Machine Repair Service Dubai"
             ></BreadCumb> 
             <WashingMachineRepairServiceDubaiDetails></WashingMachineRepairServiceDubaiDetails>           

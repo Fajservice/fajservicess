@@ -5,7 +5,7 @@ const AcServiceInDubai = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg={`${import.meta.env.BASE_URL}/img/page_heading_1.jpg`}
+                bgImg="/img/page_heading_1.jpg"
                 Title="AC Service In Dubai"
             ></BreadCumb> 
             <AcServiceInDubaiDetail></AcServiceInDubaiDetail>           
