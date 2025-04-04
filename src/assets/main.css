@@ -1405,6 +1405,11 @@ textarea {
   .cs_fs_20 {
     font-size: 18px;
   }
+  .cs_fs_18{
+    font-size: 16px;
+    line-height: 1em;
+  }
+ 
 }
 
 .cs_fs_24 {
@@ -1949,6 +1954,7 @@ textarea {
 
 .cs_page_heading {
   height: 370px;
+  background-position: 60% 0%;
 }
 .cs_page_heading .breadcrumb {
   margin: 0;
@@ -7034,8 +7040,12 @@ label {
  }
   .cs_nav .cs_nav_list a {
     display: block;
-    padding: 8px 20px;
+    padding: 5px 20px;
+    font-weight: 500;
  }
+ .cs_nav .cs_nav_list{
+  line-height: 1.3em;
+}
   .cs_nav .menu-item-has-children {
     position: relative;
  }

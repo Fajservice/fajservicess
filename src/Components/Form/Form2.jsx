@@ -10,10 +10,14 @@ const Form2 = () => {
                 <div className="cs_form_field_wrapper position-relative">
                   <select className="form-select cs_form_field">
                     <option selected disabled>Services Name</option>
-                    <option value="car-service">Car Service</option>
-                    <option value="car-wash">Car Wash</option>
-                    <option value="engine-oil">Engine Oil</option>
-                    <option value="motor-service">Motor Cycle</option>
+                    <option value="Air Conditioning Maintenance Service">Air Conditioning Maintenance Service</option>
+                    <option value="Home Appliances Repair Service">Home Appliances Repair Service</option>
+                    <option value="Baumatic Appliances Repair Service">Baumatic Appliances Repair Service</option>
+                    <option value="Commercial Appliances Service">Commercial Appliances Service</option>
+                    <option value="Freezer Maintenance Service">Freezer Maintenance Service</option>
+                    <option value="Food Chiller Service">Food Chiller Service</option>
+                    <option value="AMC Service">AMC Service</option>
+                    <option value="Other">Other</option>
                   </select>
                   <span className="cs_input_icon cs_white_color position-absolute">
                   <i className="bi bi-chevron-down"></i></span>
@@ -33,7 +37,7 @@ const Form2 = () => {
               </form>
             </div>
             <div className="cs_newsletter_shape position-absolute">
-              <img src="/assets/img/shapes/newsletter_shape_1.svg" alt="Newsletter Shape" />
+              <img src={`${import.meta.env.BASE_URL}/img/shapes/newsletter_shape_1.svg`} alt="Newsletter Shape" />
             </div>
           </div>
         </div>
