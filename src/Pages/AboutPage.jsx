@@ -18,7 +18,7 @@ const AboutPage = () => {
                 img3="/img/about_img_3.jpg"
                 expNumber="FAJ"
                 expYers="was established"
-                expTitle="in-"
+                expTitle="Since-"
                 expTitleYear="2010"
                 expDescrip="And is dedicated to delivering exceptional service that meets the highest international standards."
                 number="(+971) 4-330-0002"

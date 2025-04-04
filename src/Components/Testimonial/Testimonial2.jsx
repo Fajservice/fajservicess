@@ -11,16 +11,16 @@ const Testimonial2 = () => {
     const [isActive, setIsActive] = useState('tab2');
 
     return (
-        <section className="cs_tabs cs_style_2 cs_bg_filed position-relative" data-background="/fajservicess/src/assets/img/testimonial_bg_2.jpg">
+        <section className="cs_tabs cs_style_2 cs_bg_filed position-relative" data-background="/img/testimonial_bg_2.jpg">
         <div className="cs_tabs_overlay cs_heading_bg position-absolute"></div>
-        <div className="cs_height_120 cs_height_lg_80"></div>
+        <div className="cs_height_80 cs_height_lg_80"></div>
         <div className="container">
           <div className="row cs_gap_y_40 align-items-center">
             <div className="col-lg-10">
               <div className="cs_tab_body p-0">
                 <div className={`cs_tab ${isActive === 'tab1' ? 'active' : ''}`} >
                     <TestimonialCard
-                        img="/fajservicess/src/assets/img/avatar_7.png"
+                        img="/img/avatar_7.png"
                         name="Austin Symphia"
                         designation="Business Lady"
                         subtile="Testimonial"
@@ -30,7 +30,7 @@ const Testimonial2 = () => {
                 </div>
                 <div className={`cs_tab ${isActive === 'tab2' ? 'active' : ''}`} >
                 <TestimonialCard
-                        img="/fajservicess/src/assets/img/avatar_4.png"
+                        img="/img/avatar_4.png"
                         name="Sophiya Mallinson"
                         designation="Business Woman"
                         subtile="Testimonial"
@@ -40,7 +40,7 @@ const Testimonial2 = () => {
                 </div>
                 <div className={`cs_tab ${isActive === 'tab3' ? 'active' : ''}`} >
                 <TestimonialCard
-                        img="/fajservicess/src/assets/img/avatar_8.png"
+                        img="/img/avatar_8.png"
                         name="Cameron Williamson"
                         designation="Business Man"
                         subtile="Testimonial"
@@ -59,7 +59,7 @@ const Testimonial2 = () => {
             </div>
           </div>
         </div>
-        <div className="cs_height_120 cs_height_lg_80"></div>
+        <div className="cs_height_80 cs_height_lg_80"></div>
       </section>
     );
 };

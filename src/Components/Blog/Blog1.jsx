@@ -4,14 +4,14 @@ import data from '../../Data/blog.json';
 const Blog1 = () => {
     return (
         <section className="position-relative">
-        <div className="cs_height_120 cs_height_lg_80"></div>
+        <div className="cs_height_80 cs_height_lg_80"></div>
         <div className="container">
           <div className="row cs_row_gap_30 cs_gap_y_30">
           {data.map((item, i) => (
             <div key={i} className="col-lg-4">
               <div className="cs_post cs_style_1 cs_type_1">
                 <Link to="/blog/blog-details" className="cs_post_thumbnail cs_mb_16 position-relative">
-                  <img src={item.img} alt="Post Image" />
+                  <img src={`${import.meta.env.BASE_URL}${item.img}`} alt="Post Image" />
                   <div className="cs_post_date cs_accent_bg cs_fs_18 cs_semibold cs_white_color cs_center position-absolute">10 Oct</div>
                 </Link>
                 <div className="cs_post_content_wrapper">
@@ -39,7 +39,7 @@ const Blog1 = () => {
 
           </div>
         </div>
-        <div className="cs_height_120 cs_height_lg_80"></div>
+        <div className="cs_height_80 cs_height_lg_80"></div>
       </section>
     );
 };

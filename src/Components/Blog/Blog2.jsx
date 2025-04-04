@@ -5,7 +5,7 @@ import SectionTitle2 from "../Common/SectionTitle2";
 const Blog2 = () => {
     return (
         <section className="position-relative">
-        <div className="cs_height_120 cs_height_lg_80"></div>
+        <div className="cs_height_80 cs_height_lg_80"></div>
         <div className="container">
           <div className="cs_section_heading cs_style_11 cs_mb_47 text-center">
             <SectionTitle2
@@ -18,7 +18,7 @@ const Blog2 = () => {
             <div key={i} className="col-lg-4">
               <div className="cs_post cs_style_1 cs_type_1">
                 <Link to="/blog/blog-details" className="cs_post_thumbnail cs_mb_16 position-relative">
-                  <img src={item.img} alt="Post Image" />
+                  <img src={`${import.meta.env.BASE_URL}${item.img}`} alt="Post Image" />
                   <div className="cs_post_date cs_accent_bg cs_fs_18 cs_semibold cs_white_color cs_center position-absolute">10 Oct</div>
                 </Link>
                 <div className="cs_post_content_wrapper">
@@ -46,7 +46,7 @@ const Blog2 = () => {
 
           </div>
         </div>
-        <div className="cs_height_120 cs_height_lg_80"></div>
+        <div className="cs_height_80 cs_height_lg_80"></div>
       </section>
     );
 };

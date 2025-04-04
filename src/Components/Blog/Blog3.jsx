@@ -5,7 +5,7 @@ import SectionTitle from "../Common/SectionTitle";
 const Blog3 = () => {
     return (
         <section className="position-relative">
-        <div className="cs_height_120 cs_height_lg_80"></div>
+        <div className="cs_height_80 cs_height_lg_80"></div>
         <div className="container">
           <div className="cs_section_heading cs_style_1 cs_type_1 cs_mb_47">
             <div className="cs_section_heading_left wow fadeInDown">
@@ -25,7 +25,7 @@ const Blog3 = () => {
             <div key={i} className="col-lg-4">
               <div className="cs_post cs_style_1">
                 <Link to="/blog/blog-details" className="cs_post_thumbnail">
-                  <img src={item.img} alt="Post Image" />
+                  <img src={`${import.meta.env.BASE_URL}${item.img}`} alt="Post Image" />
                 </Link>
                 <div className="cs_post_content_wrapper position-relative">
                   <div className="cs_post_content cs_white_bg">
@@ -57,10 +57,10 @@ const Blog3 = () => {
 
           </div>
           <div className="cs_tyres_shape position-absolute">
-            <img src="/assets/img/tyres.svg" alt="Tyres Image" />
+            <img src={`${import.meta.env.BASE_URL}/img/tyres.svg`} alt="Tyres Image" />
           </div>
         </div>
-        <div className="cs_height_120 cs_height_lg_80"></div>
+        <div className="cs_height_80 cs_height_lg_80"></div>
        </section>
     );
 };

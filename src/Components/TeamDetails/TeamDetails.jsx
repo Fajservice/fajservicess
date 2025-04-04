@@ -2,12 +2,12 @@
 const TeamDetails = () => {
     return (
         <section>
-        <div className="cs_height_120 cs_height_lg_80"></div>
+        <div className="cs_height_80 cs_height_lg_80"></div>
         <div className="container">
           <div className="row cs_row_gap_60 cs_gap_y_30">
             <div className="col-lg-6">
               <div className="cs_team_thumbnail">
-                <img src="/assets/img/team_img_9.jpg" alt="Team Image" />
+                <img src={`${import.meta.env.BASE_URL}/img/team_img_9.jpg`} alt="Team Image" />
               </div>
             </div>
             <div className="col-lg-6">

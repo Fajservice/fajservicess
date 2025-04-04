@@ -9,9 +9,6 @@ import Process from "../Components/Process/Process";
 import Project1 from "../Components/Project/Project1";
 import Services1 from "../Components/Services/Services1";
 import Testimonial1 from "../Components/Testimonial/Testimonial1";
-
-import Before from '/img/before_img_1.jpg';
-import After from '/img/after_img_1.jpg';
 import { Helmet } from "react-helmet-async";
 
 const Home = () => {
@@ -31,7 +28,7 @@ const Home = () => {
                 img3="/img/about_img_3.jpg"
                 expNumber="FAJ"
                 expYers="was established"
-                expTitle="in-"
+                expTitle="Since-"
                 expTitleYear="2010"
                 expDescrip="And is dedicated to delivering exceptional service that meets the highest international standards."
                 number="(+971) 4-330-0002"
@@ -63,20 +60,24 @@ const Home = () => {
                 title="Recent Completed Projects"
                 subTitle="Before & after"
                 bgImg="/img/before_after_bg_1.svg"
-                beforeImg={After}
+                beforeImg="/img/after_img_1.jpg"
                 afterTitle="After"
-                afterImg={Before}
+                afterImg="/img/before_img_1.jpg"
                 beforeTitle="Before"
             ></BeforeAfter>
             <Project1></Project1>
             <Contact1
                 Title="Contact Information"
                 subTitle="It is a long established fact that a reader be by the readable distracted  layout."
-                address="Warehouse # 2, Street 18b, Al Quoz Industrial Area # 4<br/>Dubai – United Arab Emirates."
+                address="Warehouse # 2, Street 18b, Al Quoz Industrial Area # 4 Dubai – United Arab Emirates."
                 email="Info@fajservcies.ae"
-                number="+971 4 330 0002 <br/> +971 50 746 4712"
+                emailLink="mailto:info@fajservices.ae"
+                number="+971 4 330 0002"
+                numberLink="tel:+97143300002"
+                number1="+971 50 746 4712"
+                number1Link="tel:+971507464712"
                 clientNumber="5,400"
-                img="/img/contact-us/_img_1.jpg"
+                img="/img/contact_img_1.jpg"
                 client="Happy Clients"
                 subtitle2="Contact us"
                 title2="Book and Appointment"

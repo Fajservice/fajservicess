@@ -31,12 +31,12 @@ const RefrigeratorRepairInDubaiDetails = () => {
           <meta name="description" content="Book refrigerator repair near you. Call now at 043300002 FAJ experts to get same day fridge repair & maintenance in Dubai. Freezer fix & service center."></meta>
         </HelmetProvider>
         <section>
-        <div className="cs_height_120 cs_height_lg_80"></div>
+        <div className="cs_height_80 cs_height_lg_80"></div>
         <div className="container">
           <div className="row cs_row_gap_30 cs_gap_y_60">
             <div className="col-xl-8 col-lg-7">
               <div className="cs_service_details">
-              <img src={`${import.meta.env.BASE_URL}/img/referigerater-banner.jpg`} alt="Service Banner" />
+              <img src={`${import.meta.env.BASE_URL}/img/refrigerater-banner.jpg`} alt="Service Banner" />
               <h1 className="cs_fs_36">Refrigerator Repair Near Me</h1>
                 <p>One of the appliances we use on a daily basis in our homes is the refrigerator, which is used to prevent food waste. We won't be able to keep food fresh for very long if our refrigerator breaks down. A major issue is also having cold water. Furthermore, you and your entire family have a serious issue if you store food for urgent needs. With FAJ Professional, experience the best home service refrigerator repair. Our knowledgeable specialists are skilled at quickly identifying and resolving problems, so your refrigerator will continue to function flawlessly. At FAJ, we put your convenience first by providing perfect cool refrigeration services to maintain the best possible condition for your appliances.</p>
                 <div id="get-quote" className="mb-5 mt-3">
@@ -151,7 +151,7 @@ const RefrigeratorRepairInDubaiDetails = () => {
                 <div className="cs_sidebar_widget cs_accent_bg_light position-relative">
                   <div className="cs_separator"></div>
                   <h3 className="cs_sidebar_title cs_fs_30 cs_mb_43">All Services</h3>
-                  <ul className="cs_categories cs_fs_18 cs_semibold cs_mb_30">
+                  <ul className="cs_categories cs_fs_16 cs_mb_20">
                     <li><a href="/ac-service-in-dubai">
                       <span>AC Service in Dubai</span>
                       <span><i className="fa-solid fa-arrow-right-long"></i></span>
@@ -193,7 +193,7 @@ const RefrigeratorRepairInDubaiDetails = () => {
             </aside>
           </div>
         </div>
-        <div className="cs_height_120 cs_height_lg_80"></div>
+        <div className="cs_height_80 cs_height_lg_80"></div>
         </section>
       </>
     );

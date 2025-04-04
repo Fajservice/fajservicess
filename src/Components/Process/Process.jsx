@@ -11,7 +11,7 @@ const Process = () => {
 
     return (
     <section className="cs_bg_filed" data-background={`${import.meta.env.BASE_URL}/img/process_bg_1.jpg`}>
-      <div className="cs_height_120 cs_height_lg_80"></div>
+      <div className="cs_height_80 cs_height_lg_80"></div>
       <div className="container">
         <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
           <SectionTitle2
@@ -38,7 +38,7 @@ const Process = () => {
 ))}
         </div>
         </div>
-      <div className="cs_height_120 cs_height_lg_80"></div>
+      <div className="cs_height_80 cs_height_lg_80"></div>
      </section>
     );
 };

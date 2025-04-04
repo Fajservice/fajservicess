@@ -6,7 +6,7 @@ const ProjectDetailsPage = () => {
     return (
         <div>
             <BreadCumb
-                bgImg="/fajservicess/src/assets/img/page_heading_1.jpg"
+                bgImg="/img/page_heading_1.jpg"
                 Title="Project Details"
             ></BreadCumb>    
             <ProjectDetails></ProjectDetails>          

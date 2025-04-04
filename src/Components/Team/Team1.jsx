@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Team1 = () => {
     return (
         <section>
-        <div className="cs_height_120 cs_height_lg_80"></div>
+        <div className="cs_height_80 cs_height_lg_80"></div>
         <div className="container">
           <div className="cs_section_heading cs_style_1 cs_type_1 cs_mb_47">
             <div className="cs_section_heading_left">
@@ -25,7 +25,7 @@ const Team1 = () => {
             <div key={i} className="col-xl-3 col-sm-6 wow fadeInDown">
               <div className="cs_team cs_style_1 position-relative">
                 <div className="cs_team_thumbnail cs_mb_10">
-                  <img src={item.img} alt="Team Member Image" />
+                  <img src={`${import.meta.env.BASE_URL}${item.img}`} alt="Team Member Image" />
                   <div className="cs_social_btns cs_style_1 cs_white_bg">
                     <Link to={item.linkedin} className="cs_social_btn cs_center"><i className="bi bi-linkedin"></i></Link>
                     <Link to={item.twitter} className="cs_social_btn cs_center"><i className="bi bi-twitter"></i></Link>
@@ -50,7 +50,7 @@ const Team1 = () => {
 
         </div>
         </div>
-        <div className="cs_height_120 cs_height_lg_80"></div>
+        <div className="cs_height_80 cs_height_lg_80"></div>
       </section>
     );
 };

@@ -58,7 +58,7 @@ const Contact1 = ({Title,subTitle,address,email,number,img,clientNumber,client,s
             </div>
           </div>
         </div>
-        <div className="cs_height_120 cs_height_lg_80"></div>
+        <div className="cs_height_80 cs_height_lg_80"></div>
        </section>
     );
 };

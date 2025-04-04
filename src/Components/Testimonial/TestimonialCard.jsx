@@ -4,12 +4,12 @@ const TestimonialCard = ({img,name,designation,subtile,title,content}) => {
         <div className="cs_testimonial cs_style_2">
         <div className="cs_testimonial_header position-relative">
           <div className="cs_testimonial_thumbnail cs_mb_16 cs_radius_50">
-            <img src={img} alt="Avatar" />
+            <img src={`${import.meta.env.BASE_URL}${img}`} alt="Avatar" />
           </div>
           <h3 className="cs-testimonial_title cs_fs_24 cs_semibold cs_white_color mb-0">{name}</h3>
           <p className="cs_fs_14 cs_accent_color mb-0">{designation}</p>
           <div className="cs_polygon_shape position-absolute">
-            <img src="/assets/img/shapes/polygon.svg" alt="Polygon Shape" />
+            <img src={`${import.meta.env.BASE_URL}/img/shapes/polygon.svg`} alt="Polygon Shape" />
           </div>
         </div>
         <div className="cs_testimonl_content">
