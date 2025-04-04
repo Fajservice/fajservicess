@@ -8,7 +8,7 @@ const ServicesPage = () => {
     return (
         <div className="servicepage">
             <BreadCumb
-                bgImg={`${import.meta.env.BASE_URL}/img/page_heading_1.jpg`}
+                bgImg="/img/page_heading_1.jpg"
                 Title="Services"
             ></BreadCumb>
             <Services3></Services3>
