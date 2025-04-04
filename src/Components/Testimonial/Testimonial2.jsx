@@ -11,7 +11,7 @@ const Testimonial2 = () => {
     const [isActive, setIsActive] = useState('tab2');
 
     return (
-        <section className="cs_tabs cs_style_2 cs_bg_filed position-relative" data-background="/img/testimonial_bg_2.jpg">
+        <section className="cs_tabs cs_style_2 cs_bg_filed position-relative" data-background={`${import.meta.env.BASE_URL}/img/testimonial_bg_2.jpg`} >
         <div className="cs_tabs_overlay cs_heading_bg position-absolute"></div>
         <div className="cs_height_80 cs_height_lg_80"></div>
         <div className="container">
@@ -52,9 +52,9 @@ const Testimonial2 = () => {
             </div>
             <div className="col-lg-2">
               <ul className="cs_tab_links cs_style_2 cs_mp_0">
-                <li className={`${isActive === 'tab1' ? 'active' : ''}`} onClick={() => setIsActive('tab1')}><a><img src="/assets/img/avatar_5.png" alt="Avatar" /></a></li>
-                <li className={`${isActive === 'tab2' ? 'active' : ''}`} onClick={() => setIsActive('tab2')} ><a><img src="/assets/img/avatar_4.png" alt="Avatar" /></a></li>
-                <li className={`${isActive === 'tab3' ? 'active' : ''}`} onClick={() => setIsActive('tab3')}><a><img src="/assets/img/avatar_6.png" alt="Avatar" /></a></li>
+                <li className={`${isActive === 'tab1' ? 'active' : ''}`} onClick={() => setIsActive('tab1')}><a><img src={`${import.meta.env.BASE_URL}/img/avatar_5.png`} alt="Avatar" /></a></li>
+                <li className={`${isActive === 'tab2' ? 'active' : ''}`} onClick={() => setIsActive('tab2')} ><a><img src={`${import.meta.env.BASE_URL}/img/avatar_4.png`} alt="Avatar" /></a></li>
+                <li className={`${isActive === 'tab3' ? 'active' : ''}`} onClick={() => setIsActive('tab3')}><a><img src={`${import.meta.env.BASE_URL}/img/avatar_6.png`} alt="Avatar" /></a></li>
               </ul>
             </div>
           </div>
