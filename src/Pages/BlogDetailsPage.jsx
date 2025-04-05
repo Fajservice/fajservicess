@@ -8,7 +8,7 @@ const BlogDetailsPage = () => {
                 bgImg="/img/page_heading_1.jpg"
                 Title="Blog Details"
             ></BreadCumb>   
-            <BlogDetails></BlogDetails>        
+            <BlogDetails></BlogDetails>     
         </div>
     );
 };
