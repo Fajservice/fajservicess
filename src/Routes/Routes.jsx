@@ -19,8 +19,6 @@ import BlogDetailsPage from "../Pages/BlogDetailsPage";
 
 export const router = createHashRouter([
   {
-    
-    
     path: "/",
     element: <Main></Main>,
     children: [
@@ -71,38 +69,17 @@ export const router = createHashRouter([
       {
         path: "/blog/blog-details",
         element: <BlogDetailsPage></BlogDetailsPage>,
-      },        
+      },
+      {
+        path: "/blog/blog-details/:slug",
+        element: <BlogDetailsPage></BlogDetailsPage>,
+      },
       {
         path: "/contact-us/",
         element: <ContactPage></ContactPage>,
       },
     ],
-    
-  }, 
-  // {
-  //   path: 'about-us',
-  //   element: <Main></Main>,
-  //   children: [
-  //     {
-  //       index: true,
-  //       element: <AboutPage></AboutPage>
-  //     },
-                           
-  //   ],
-    
-  // },
-
-  // {
-  //   path: 'services',
-  //   element: <Layout2></Layout2>,
-  //   children: [
-  //     {
-  //       index: true,
-  //       element: <ServicesPage />
-  //     },
-                           
-  //   ],
-  // }  
+  },
 ], {
   //  basename: "/fajservicess"
 });

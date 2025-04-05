@@ -1,32 +1,149 @@
 [
   {
-    "img": "/img/post_img_4.jpg",  
-    "title": "We specialize in a wide range of car repairs including engine work",
-    "desc": "The old engine oil is drained and replaced with fresh oil, and the oil filter"
+    "id": 1,
+    "img": "img/post_img_4.jpg",  
+    "title": "Reviving Rides, One Car at a Time",
+    "slug": "reviving-rides-one-car-at-a-time",
+    "desc": "Visit our shop as soon as possible for a diagnostic test to determine the issue sounds, longer stopping distances, or a soft brake pedal are common signs that your brakes need attention...",
+    "date": "10 Oct, 2024",
+    "admin": "Admin",
+    "comments": 3,
+    "content":[
+      "On hot summer days, if your air conditioner is working properly, it's a blessing. But what if the AC stops working all of sudden? In this situation, finding a right and professional AC repair service becomes really important.", 
+      "There are several options out there, but many people get confused about how to choose the right AC repair service. We have to explore several things like Reviews, Ratings, Awards, Certifications, Lincesces and many other things.", 
+      "As per the U.S Department of Energy, “proper maintenance and timely repairs by qualified technicians can improve the energy efficiency of your AC system, leading to lower energy bills and reduced environmental impact.",
+      "In this blog guide, we'll take you through the important steps to make sure you pick an AC repair service that not only meets but goes beyond what you expect."
+    ],
+    "sec_two_h2": "Researching Air Conditioner Services",
+    "sec_two_img": "img/post_img_11.jpg",
+    "sec_two_h3_1": "Online Search and Reviews",
+    "sec_two_h3_content_1":[
+      "Start by searching online on forums, social media, and websites. You can find statistics, facts, and helpful insights about different companies. Then, compare reviews, ratings, and customer satisfaction to judge the quality of their services."
+    ],
+    "sec_two_h3_2": "Friends and Family Recommendations",
+    "sec_two_h3_content_2":[
+      "Personal recommendations are highly reliable. Ask friends and family about their experiences with AC repair services. They can give you honest reviews and insights into the quality of work and customer service."
+    ],
+    "sec_two_h3_3": "Checking the Credentials and Certifications",
+    "sec_two_h3_content_3":[
+      "Making sure the AC repair services have credentials and certifications. Satisfied AC repair can be possible with certified technicians, who have training and knowledge about AC systems and issues."
+    ],
+    "sec_three_h2": "Evaluating Potential AC Repair Companies",
+    "sec_three_img": "img/post_img_11.jpg",
+    "sec_three_h3_1": "Experience & Expertise",
+    "sec_three_h3_content_1":[
+      "Start by looking at how well AC repair companies are known and how long they’ve been doing their job in Dubai. Read what people say on Google Reviews, Yelp, and social media to see if customers are happy.",
+      "Pick a company that has fixed many types of AC systems in homes and businesses. Experienced workers can find and fix problems quickly."
+    ],
+    "sec_three_h3_2": "Licensing and Insurance",
+    "sec_three_h3_content_2":[
+      "Check that the AC repair service has the right licenses and certificates to work in Dubai. A licensed company follows the rules set by the city, which means they know what they’re doing.",
+      "Look for a company that has insurance. This helps in case something goes wrong during the repair, so you don’t have to pay for any accidents."
+    ],
+    "sec_three_h3_3": "Response Time and Availability",
+    "sec_three_h3_content_3":[
+      "AC problems can come up at any time, especially during the busiest times in Dubai. Always choose the company who has the best response time and availability. A reliable company has proper back up for response especially during the peak seasons or emergencies.",
+      "Look for a company that can come to fix your AC anytime, even late at night or on weekends. Means they should be available 24/7."
+    ],
+    "sec_three_h3_4": "Pricing, Services and Transparency",
+    "sec_three_h3_content_4":[
+      "It’s important to know how much you’ll pay before you agree to anything. Ask for a list of all costs, like how much the work and parts will cost. A good company will explain clearly how they decide on their prices, so you won’t get a surprise bill later.."
+    ],
+    "sec_four_h2": "Requesting Estimates and Comparing Quotes",
+    "sec_four_img": "img/post_img_11.jpg",
+    "sec_four_h3_1": "Understanding the Estimate",
+    "sec_four_h3_content_1":[
+      "When you receive an estimate for AC repair or any service, it’s important to know exactly what it covers. Ask for a detailed list of costs (cost breakdown) to avoid unexpected charges on your final bill. Make sure you understand which services are included and which are not, so you can plan your budget wisely."
+    ],
+    "sec_four_h3_2": "Comparing Pricing and Services Offered",
+    "sec_four_h3_content_2":[
+      "Compare estimates from different AC repair companies not only based on price but also on the services they provide. A higher price might mean better quality and more thorough service, such as warranties and detailed inspections.",
+      "Might be Helpful for You: <link url=\"https://www.fajservices.ae/blog/ac-maintenance-cost-guide-dubai\">AC Maintenance Cost Guide</link>"
+    ],
+    "sec_four_h3_3": "Avoiding Low-Ball Offers and Hidden Charges",
+    "sec_four_h3_content_3":[
+      "Be cautious of extremely low estimates as they could suggest poor service quality or additional hidden fees. Choose a company that offers clear pricing and explains any extra charges upfront to prevent surprises later."
+    ],
+    "sec_five_h2": "Checking References and Reviews",
+    "sec_five_img": "img/post_img_11.jpg",
+    "sec_five_h3_1": "Contacting Previous Clients",
+    "sec_five_h3_content_1":[
+      "Request references from the <link url=\"https://example.com\"> AC repair company</link>. Contact previous clients to get their feedback on the quality of service and their overall experience. This firsthand information can give you valuable insights into what to expect."
+    ],
+    "sec_five_h3_2": "Reading Online Reviews and Testimonials",
+    "sec_five_h3_content_2":[
+      "Read what others say about the AC repair companies online. Look for good reviews that talk about great service and happy customers. Watch out for any bad reviews that might show problems with the company."
+    ],
+    "sec_five_h3_3": "Verifying Reputation and Customer Satisfaction",
+    "sec_five_h3_content_3":[
+      "Check if the company is known for doing good work. High ratings and good reviews mean people like their service. High customer satisfaction ratings and positive reviews are indicators of reliable service. A reputable company is likely to uphold good standards and prioritize customer needs."
+    ]
   },
   {
-    "img": "/img/post_img_5.jpg",  
+    "id": 2,
+    "img": "/assets/img/post_img_5.jpg",  
     "title": "The repair time varies depending on the service",
-    "desc": "we offer a warranty on all parts and labor to ensure your peace of mind."
+    "slug": "repair-time-varies-depending-on-service",
+    "desc": "Repair times vary depending on the service, but most standard repairs are completed within a few hours provide a detailed estimate before any work begins.",
+    "date": "15 Oct, 2024",
+    "admin": "Admin",
+    "comments": 3,
+    "content": "Repair times vary depending on the service, but most standard repairs are completed within a few hours provide a detailed estimate before any work begins.",
+    "content_2": "testing"
   },
   {
-    "img": "/img/post_img_6.jpg",  
-    "title": "we offer emergency repair services to get you back",
-    "desc": "You can get an estimate by visiting our shop, calling us, or filling out the online form"
+    "id": 3,
+    "img": "/assets/img/post_img_6.jpg",  
+    "title": "Where Cars Get the Care They Deserve",
+    "slug": "where-cars-get-care-they-deserve",
+    "desc": "Repair times vary depending on the service. We provide estimates before work begins we offer a specific time frame kinds warranty on parts and labor for most services...",
+    "date": "20 Oct, 2024",
+    "admin": "Admin",
+    "comments": 2,
+    "content": "Repair times vary depending on the service. We provide estimates before work begins we offer a specific time frame kinds warranty on parts and labor for most services service all makes and models, including both domestic and foreign vehicles we accept walk-ins, scheduling an appointment ensures faster service."
   },
   {
-    "img": "/img/post_img_7.jpg",  
-    "title": "Hire certified mechanics and provide ongoing training to keep",
-    "desc": "Encourage satisfied customers to leave positive kinds reviews on platforms like Google and Yelp."
+    "id": 4,
+    "img": "/assets/img/post_img_7.jpg",  
+    "title": "Hire certified mechanics and provide ongoing training",
+    "slug": "hire-certified-mechanics-ongoing-training",
+    "desc": "We service all makes and models, including both domestic and foreign vehicles standard repairs can be completed any within a day, but it varies depending on the complexity.",
+    "date": "25 Oct, 2024",
+    "admin": "Admin",
+    "comments": 1,
+    "content":[ "We service all makes and models, including both domestic and foreign vehicles standard repairs can be completed any within a day, but it varies depending on the complexity."]
   },
   {
-    "img": "/img/post_img_8.jpg",  
-    "title": "Invest in high-quality diagnostic lifts and other essential",
-    "desc": "Share repair tips, showcase completed projects, and  Facebook, Instagram, and YouTube."
+    "id": 5,
+    "img": "/assets/img/post_img_8.jpg",  
+    "title": "Invest in high-quality diagnostic equipment",
+    "slug": "invest-high-quality-diagnostic-equipment",
+    "desc": "You can get an estimate by visiting our shop, calling us, or filling out the online form with details about your car's issue we offer emergency repair services...",
+    "date": "30 Oct, 2024",
+    "admin": "Admin",
+    "comments": 4,
+    "content": "You can get an estimate by visiting our shop, calling us, or filling out the online form with details about your car's issue we offer emergency repair services to get you back on the road as quickly as possible we offer a warranty on all parts and kind labor to ensure your peace of mind."
   },
   {
-    "img": "/img/post_img_9.jpg",  
-    "title": "Encourage satisfied customers to leave positive review",
-    "desc": "We ll provide an estimated time after diagnosis on the complexity of the issue."
-  }  
+    "id": 6,
+    "img": "/assets/img/post_img_9.jpg",  
+    "title": "Quality Services With Customer Satisfaction",
+    "slug": "quality-services-customer-satisfaction",
+    "desc": "Most repairs can be completed within a few hours, but complex issues might take longer. We always aim for same-day service when possible.",
+    "date": "05 Nov, 2024",
+    "admin": "Admin",
+    "comments": 2,
+    "content": "Most repairs can be completed within a few hours, but complex issues might take longer. We always aim for same-day service when possible. We'll provide an estimated time after diagnosis on the complexity of the issue."
+  },
+  {
+    "id": 7,
+    "img": "/assets/img/post_img_9.jpg",  
+    "title": "Quality Services With Customer Satisfaction",
+    "slug": "quality-services-customer-satisfaction",
+    "desc": "Most repairs can be completed within a few hours, but complex issues might take longer. We always aim for same-day service when possible.",
+    "date": "05 Nov, 2024",
+    "admin": "Admin",
+    "comments": 2,
+    "content": "Most repairs can be completed within a few hours, but complex issues might take longer. We always aim for same-day service when possible. We'll provide an estimated time after diagnosis on the complexity of the issue."
+  } 
 ]
