@@ -44,32 +44,116 @@ export default function Nav({ setMobileToggle }) {
             </li>
             <li className="menu-item-has-children">
               <a className='px-3 mb-0' onClick={() => setMobileToggle(false)}>
-                Refrigerations Services
+              Commercial Refrigeration
               </a>
               <DropDown>
                 <ul>
                   <li>
-                    <Link to="/ac-service-in-dubai/" onClick={() => setMobileToggle(false)}>
-                      AC Servicing
+                    <Link to="/cold-room-repair/" onClick={() => setMobileToggle(false)}>
+                    Cold Room Repair
                     </Link>
                   </li>
                   <li>
-                    <Link to="/washing-machine-repair-service-dubai/" onClick={() => setMobileToggle(false)}>
-                      Washing Machine Repair
+                    <Link to="/chiller-repair/" onClick={() => setMobileToggle(false)}>
+                    Food Chiller Repair
                     </Link>
                   </li>
                   <li>
-                    <Link to="/refrigerator-repair-service/" onClick={() => setMobileToggle(false)}>
-                      Refrigerator Repair
+                    <Link to="/commercial-freezer-repair/" onClick={() => setMobileToggle(false)}>
+                    Commercial Freezer Repair
                     </Link>
                   </li>
+
+                  <li>
+                    <Link to="/supermarket-refrigerator-repair/" onClick={() => setMobileToggle(false)}>
+                    Supermarket Refrigerator Services
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link to="/commercial-refrigerator-repair/" onClick={() => setMobileToggle(false)}>
+                    Commercial Refrigerator Repair
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link to="/ice-maker-repair/" onClick={() => setMobileToggle(false)}>
+                    Ice Maker Repair
+                    </Link>
+                  </li>
+
                 </ul>
               </DropDown>
             </li>
-            <li>
+            <li className="menu-item-has-children">
               <a className='px-3 mb-0' onClick={() => setMobileToggle(false)}>
-              Coooking and Baking Equipement Services
+              Cooking and Baking / Catering Equipment’s
               </a>
+              <DropDown>
+                <ul>
+                  <li>
+                    <Link to="/gas-cooker-repair/" onClick={() => setMobileToggle(false)}>
+                    Gas Cooker Repair
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link to="/deep-fryer-service/" onClick={() => setMobileToggle(false)}>
+                    Deep Fryer Service
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link to="/oven-repair/" onClick={() => setMobileToggle(false)}>
+                    Oven Repair
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link to="/food-warmer-repair/" onClick={() => setMobileToggle(false)}>
+                    Food Warmer Repair
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link to="/toaster-repair/" onClick={() => setMobileToggle(false)}>
+                    Toaster Repair
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/bain-marie-repair/" onClick={() => setMobileToggle(false)}>
+                    Bain Marie Repair 
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link to="/hot-plate-repair/" onClick={() => setMobileToggle(false)}>
+                    Hot Plate Repair
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/shawarma-machine-repair/" onClick={() => setMobileToggle(false)}>
+                    Shawarma Machine Repair
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/charbroiler-repair/" onClick={() => setMobileToggle(false)}>
+                    Char Broilers Repair
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/meat-grinder-repair/" onClick={() => setMobileToggle(false)}>
+                    Meat Grinder Repair
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/dough-mixer-repair/" onClick={() => setMobileToggle(false)}>
+                    Dough Mixer Repair
+                    </Link>
+                  </li> 
+                </ul>
+              </DropDown>
+
             </li>
             <li className="menu-item-has-children">
               <a className='px-3 mb-0' onClick={() => setMobileToggle(false)}>
@@ -95,53 +179,16 @@ export default function Nav({ setMobileToggle }) {
                 </ul>
               </DropDown>
             </li>
-            <li className="menu-item-has-children">
-              <a className='px-3 mb-0' onClick={() => setMobileToggle(false)}>
-                Commercial Dishwasher Services
-              </a>
-              <DropDown>
-                <ul>
-                  <li>
-                    <Link to="/ac-service-in-dubai/" onClick={() => setMobileToggle(false)}>
-                      AC Servicing
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/washing-machine-repair-service-dubai/" onClick={() => setMobileToggle(false)}>
-                      Washing Machine Repair
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/refrigerator-repair-service/" onClick={() => setMobileToggle(false)}>
-                      Refrigerator Repair
-                    </Link>
-                  </li>
-                </ul>
-              </DropDown>
+            <li>
+            <Link to="/commercial-dishwasher-repair/" onClick={() => setMobileToggle(false)}>
+              Commercial Dishwasher Services
+            </Link>
             </li>
-            <li className="menu-item-has-children">
+            <li>
               <a className='px-3 mb-0' onClick={() => setMobileToggle(false)}>
                 Commercial Coffee Machine Services
               </a>
-              <DropDown>
-                <ul>
-                  <li>
-                    <Link to="/ac-service-in-dubai/" onClick={() => setMobileToggle(false)}>
-                      AC Servicing
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/washing-machine-repair-service-dubai/" onClick={() => setMobileToggle(false)}>
-                      Washing Machine Repair
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/refrigerator-repair-service/" onClick={() => setMobileToggle(false)}>
-                      Refrigerator Repair
-                    </Link>
-                  </li>
-                </ul>
-              </DropDown>
+              
             </li>
             <li className="menu-item-has-children">
               <a className='px-3 mb-0' onClick={() => setMobileToggle(false)}>
