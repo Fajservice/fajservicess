@@ -27,8 +27,8 @@ export const router = createHashRouter([
         element: <Home></Home>,
       },
       {
-          path: "/about-us",
-          element: <AboutPage></AboutPage>,
+        path: "/about-us",
+        element: <AboutPage></AboutPage>,
       },
       {
         path: "/services",
@@ -67,11 +67,7 @@ export const router = createHashRouter([
         element: <BlogPage></BlogPage>,
       },
       {
-        path: "/blog/blog-details",
-        element: <BlogDetailsPage></BlogDetailsPage>,
-      },
-      {
-        path: "/blog/blog-details/:slug",
+        path: "/blog/:slug",
         element: <BlogDetailsPage></BlogDetailsPage>,
       },
       {
