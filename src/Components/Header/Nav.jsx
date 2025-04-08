@@ -157,25 +157,21 @@ export default function Nav({ setMobileToggle }) {
 
             <li className="menu-item-has-children">
               <a className='px-3 mb-0' onClick={() => setMobileToggle(false)}>
-                Laundry Equipment Services
+              Commercial Laundry
               </a>
               <DropDown>
                 <ul>
                   <li>
-                    <Link to="/ac-service-in-dubai/" onClick={() => setMobileToggle(false)}>
-                      AC Servicing
+                    <Link to="/commercial-laundry-equipment-service/" onClick={() => setMobileToggle(false)}>
+                    Commercial Laundry Equipment Service
                     </Link>
                   </li>
                   <li>
-                    <Link to="/washing-machine-repair-service-dubai/" onClick={() => setMobileToggle(false)}>
-                      Washing Machine Repair
+                    <Link to="/commercial-washing-machine-repair/" onClick={() => setMobileToggle(false)}>
+                    Commercial Washing Machine Repair
                     </Link>
                   </li>
-                  <li>
-                    <Link to="/refrigerator-repair-service/" onClick={() => setMobileToggle(false)}>
-                      Refrigerator Repair
-                    </Link>
-                  </li>
+                  
                 </ul>
               </DropDown>
             </li>
