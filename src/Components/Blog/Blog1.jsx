@@ -4,7 +4,7 @@ import data from '../../Data/blog.json';
 const Blog1 = () => {
     return (
         <section className="position-relative">
-        <div className="cs_height_120 cs_height_lg_80"></div>
+        <div className="cs_height_80 cs_height_lg_40"></div>
         <div className="container">
           <div className="row cs_row_gap_30 cs_gap_y_30">
           {data.map((item, i) => (
@@ -42,7 +42,7 @@ const Blog1 = () => {
           ))}
           </div>
         </div>
-        <div className="cs_height_120 cs_height_lg_80"></div>
+        <div className="cs_height_80 cs_height_lg_40"></div>
       </section>
     );
 };

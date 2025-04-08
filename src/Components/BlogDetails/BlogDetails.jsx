@@ -93,7 +93,7 @@ const BlogDetails = () => {
 
   return (
     <section>
-      <div className="cs_height_120 cs_height_lg_80"></div>
+      <div className="cs_height_80 cs_height_lg_40"></div>
       <div className="container">
         <div className="row cs_row_gap_30 cs_gap_y_60">
           <div className="col-xl-8 col-lg-7">
@@ -901,7 +901,7 @@ const BlogDetails = () => {
           </aside>
         </div>
       </div>
-      <div className="cs_height_120 cs_height_lg_80"></div>
+      <div className="cs_height_80 cs_height_lg_40"></div>
     </section>
   );
 };
