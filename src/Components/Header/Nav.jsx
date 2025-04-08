@@ -153,8 +153,8 @@ export default function Nav({ setMobileToggle }) {
                   </li> 
                 </ul>
               </DropDown>
-
             </li>
+
             <li className="menu-item-has-children">
               <a className='px-3 mb-0' onClick={() => setMobileToggle(false)}>
                 Laundry Equipment Services
@@ -179,11 +179,13 @@ export default function Nav({ setMobileToggle }) {
                 </ul>
               </DropDown>
             </li>
+
             <li>
-            <Link to="/commercial-dishwasher-repair/" onClick={() => setMobileToggle(false)}>
+            <Link to="/commercial-dishwasher-repair/" className='px-3' onClick={() => setMobileToggle(false)}>
               Commercial Dishwasher Services
             </Link>
             </li>
+
             <li>
               <a className='px-3 mb-0' onClick={() => setMobileToggle(false)}>
                 Commercial Coffee Machine Services
