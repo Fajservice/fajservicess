@@ -26,6 +26,27 @@ section#get-quote {
   width: 30px;
   min-width: 30px;
 }
+.cs_nav .cs_nav_list > li.menu-item-has-children .custom_border_drop .menu-item-has-children > a::after {
+  content: "\f282";
+  font-family: bootstrap-icons !important;
+  font-weight: 900;
+  display: inline-block;
+  border-left: 0;
+  border-top: 0;
+  margin-left: 6px;
+  position: absolute;
+  top: 10px;
+  font-size: 9px;
+  color: currentColor;
+  left: 95%;
+  height: fit-content;
+  width: auto;
+  transition: transform 0.3s ease;
+}
+.cs_nav .cs_nav_list > li.menu-item-has-children .custom_border_drop .menu-item-has-children:hover > a::after {
+  transform: rotate(-90deg); /* You can adjust the degrees as per desired direction */
+
+}
 @media screen and (min-width: 1200px) {
   .cs_nav .cs_nav_list ul {
     width: max-content;

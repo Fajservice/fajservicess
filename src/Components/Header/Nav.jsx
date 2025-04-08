@@ -14,9 +14,9 @@ export default function Nav({ setMobileToggle }) {
         <DropDown>
           <ul className='cs_fs_16 custom_border_drop'>
             <li className="menu-item-has-children">
-              <a className='px-3 mb-0' onClick={() => setMobileToggle(false)}>
+              <Link className='px-3 mb-0' onClick={() => setMobileToggle(false)}>
                 Air Conditioning Services
-              </a>
+              </Link>
               <DropDown>
                 <ul>
                   <li>
@@ -66,7 +66,7 @@ export default function Nav({ setMobileToggle }) {
                 </ul>
               </DropDown>
             </li>
-            <li className="menu-item-has-children">
+            <li>
               <a className='px-3 mb-0' onClick={() => setMobileToggle(false)}>
               Coooking and Baking Equipement Services
               </a>
@@ -227,50 +227,16 @@ export default function Nav({ setMobileToggle }) {
 
       </li>        
 
-      <li className="menu-item-has-children">
-        <Link to="#">Pages</Link>
-        <DropDown>
-          <ul>
-            <li>
-              <Link to="/about-us/" onClick={() => setMobileToggle(false)}>
-                About Us
-              </Link>
-            </li>
-            <li>
-              <Link to="/team/" onClick={() => setMobileToggle(false)}>
-              Team
-              </Link>
-            </li>            
-            <li>
-              <Link to="/team/team-details/" onClick={() => setMobileToggle(false)}>
-                Team Details
-              </Link>
-            </li>                   
-          </ul>
-        </DropDown>
+      <li>
+        <Link to="/about-us/" onClick={() => setMobileToggle(false)}>
+            About Us
+          </Link>
       </li>      
     
-      <li className="menu-item-has-children">
+      <li>
         <Link to="/blog/" onClick={() => setMobileToggle(false)}>
-          News
+          Blogs
         </Link>
-        <DropDown>
-          <ul>
-            <li>
-              <Link to="/blog/" onClick={() => setMobileToggle(false)}>
-                Blog
-              </Link>
-            </li>          
-            <li>
-              <Link
-                to="/blog/blog-details/"
-                onClick={() => setMobileToggle(false)}
-              >
-                Blog Details
-              </Link>
-            </li>
-          </ul>
-        </DropDown>
       </li>
       <li>
         <Link to="/contact-us/" onClick={() => setMobileToggle(false)}>
