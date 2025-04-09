@@ -116,6 +116,12 @@ export default function Nav({ setMobileToggle }) {
                   </li>
 
                   <li>
+                    <Link to="/pizza-oven-maintenance/" onClick={() => setMobileToggle(false)}>
+                    Pizza Oven Maintenance
+                    </Link>
+                  </li>
+
+                  <li>
                     <Link to="/toaster-repair/" onClick={() => setMobileToggle(false)}>
                     Toaster Repair
                     </Link>

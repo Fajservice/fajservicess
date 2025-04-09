@@ -8,6 +8,7 @@ import Layout2 from "../Layout/Layout2";
 import AcServiceInDubai from "../Pages/AcServiceInDubai";
 import WashingMachineRepairServiceDubai from "../Pages/WashingMachineRepairServiceDubai";
 import RefrigeratorRepairInDubai from "../Pages/RefrigeratorRepairInDubai";
+import ColdRoomRepair from "../Pages/ColdRoomRepair";
 import ServicesPage from "../Pages/ServicesPage";
 import ProjectPage from "../Pages/ProjectPage";
 import ProjectDetailsPage from "../Pages/ProjectDetailsPage";
@@ -45,6 +46,10 @@ export const router = createHashRouter([
       {
         path: "/refrigerator-repair-service",
         element: <RefrigeratorRepairInDubai></RefrigeratorRepairInDubai>,
+      },
+      {
+        path: "/cold-room-repair",
+        element: <ColdRoomRepair></ColdRoomRepair>,
       }, 
       {
         path: "/project",
