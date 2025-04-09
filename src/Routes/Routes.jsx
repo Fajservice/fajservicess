@@ -69,7 +69,7 @@ export const router = createHashRouter([
         element: <TeamDetailsPage></TeamDetailsPage>,
       },
       {
-        path: "/blog",
+        path: "/blogs",
         element: <BlogPage></BlogPage>,
       },
       {
