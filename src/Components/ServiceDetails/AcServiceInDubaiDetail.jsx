@@ -37,8 +37,8 @@ const AcServiceInDubai = () => {
             <div className="col-xl-8 col-lg-7">
               <div className="cs_service_details">
               {/* <img src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-              <h2 className="cs_fs_30">The FAJ Experts Team can help you make your house or place of business more comfortable</h2>
-                <p>FAJ Technical Services LLC is your premier choice for quality AC Service In Dubai. With 14 years of experience in AC repairing, maintenance, and servicing, we are the most trusted air conditioning service company in Dubai, UAE. FAJ is providing AC repair and maintenance services to all areas of Dubai. Our AC technicians are skilled and specialize in repairing all AC types, brands, and models. Experience reliable AC repair and maintenance to keep your home or business cool and comfortable.</p>
+              <h2 className="cs_fs_30">The FAJ experts can help you make your home or place of business more comfortable</h2>
+                <p>FAJ Technical Services LLC is your premier choice for quality AC Service In Dubai. With 14 years of experience in AC repairing, maintenance, and servicing, we are the most trusted air conditioning service company in Dubai, UAE.<br/>FAJ is providing AC repair and maintenance services to all areas of Dubai. Our AC technicians are skilled and specialize in repairing all AC types, brands, and models. Experience reliable AC repair and maintenance to keep your home or business cool and comfortable.</p>
                 <div id="get-quote" class="mb-5 mt-3">
                   <div class="container d-flex justify-content-center align-items-center">
                     <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
@@ -50,14 +50,13 @@ const AcServiceInDubai = () => {
                     <img src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
                     <h3 class="cs_fs_24">Experts AC Service and Repair</h3>
                     <p>When considering AC service in Dubai, it is vital to hire a qualified and reliable AC technician who can effectively address your needs at home or in your business place.</p>
-                    <p>FAJ team specializes in comprehensive air conditioner (AC) service, and maintenance, ensuring that you receive the highest quality care for your cooling systems.</p>
+                    <p>FAJ Experts in comprehensive air conditioner (AC) service, and maintenance, ensuring that you receive the highest quality care for your cooling systems.</p>
                   </div>
                   <div className="col-md-6">
                     <img src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" />
                     <h3 class="cs_fs_24">Signs You Need An AC Service</h3>
                     <p>If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                     <ul>
-                      <li>High humidity</li>
                       <li>Higher electricity bills</li>
                       <li>Air is not blowing cold</li>
                       <li>Loss of AC performance</li>
