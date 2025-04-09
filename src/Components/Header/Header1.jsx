@@ -113,7 +113,7 @@ export default function Header1({ variant }) {
             <Link to="/contact-us/" className="cs_btn cs_style_1">
                 <span>Get a Quote</span>
                 <i className="bi bi-arrow-right"></i>
-                </Link>             
+              </Link>             
 					  </div>
             </div>
           </div>

@@ -17,6 +17,7 @@ import TeamDetailsPage from "../Pages/TeamDetailsPage";
 import BlogPage from "../Pages/BlogPage";
 import ContactPage from "../Pages/ContactPage";
 import BlogDetailsPage from "../Pages/BlogDetailsPage";
+import DubaiAcServicePriceList from "../pages/DubaiAcServicePriceList"
 
 export const router = createHashRouter([
   {
@@ -78,6 +79,11 @@ export const router = createHashRouter([
       {
         path: "/contact-us/",
         element: <ContactPage></ContactPage>,
+      },
+      ,
+      {
+        path: "/dubai-ac-service-price-list/",
+        element: <DubaiAcServicePriceList></DubaiAcServicePriceList>,
       },
     ],
   },

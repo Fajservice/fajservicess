@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import data from '../../Data/acfaq.json';
 import { HelmetProvider } from "react-helmet-async";
+import FAJACPrice from  '../Miscellaneous/FAJACPrice';
 
 const AcServiceInDubai = () => {
 
@@ -44,7 +45,10 @@ const AcServiceInDubai = () => {
                     <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
                     <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+97143300002">Call Now</a>
                   </div>
+
                 </div>
+                {/*  */}
+                <FAJACPrice></FAJACPrice>
                 <div className="row">
                   <div className="col-md-6">
                     <img src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
