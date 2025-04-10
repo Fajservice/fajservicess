@@ -17,7 +17,8 @@ import TeamDetailsPage from "../Pages/TeamDetailsPage";
 import BlogPage from "../Pages/BlogPage";
 import ContactPage from "../Pages/ContactPage";
 import BlogDetailsPage from "../Pages/BlogDetailsPage";
-import DubaiAcServicePriceList from "../Pages/DubaiAcServicePriceList";
+import DubaiAcServicePriceList from "../pages/DubaiAcServicePriceList"
+import AcRepairInRitz from "../Pages/AcRepairInRitz";
 import ColemenAcRepair from "../Pages/ColemenAcRepair";
 
 export const router = createHashRouter([
@@ -90,8 +91,12 @@ export const router = createHashRouter([
         path: "/dubai-ac-service-price-list/",
         element: <DubaiAcServicePriceList></DubaiAcServicePriceList>,
       },
+      {
+        path: "/ac-services-in-the-ritz-carlton-difc/",
+        element: <AcRepairInRitz></AcRepairInRitz>,
+      },
     ],
-  },
+  }
 ], {
   //  basename: "/fajservicess"
 });
