@@ -59,7 +59,7 @@ const AcServiceInDubai = () => {
                 <p>When considering AC service in Dubai, it is vital to hire a qualified and reliable AC technician who can effectively address your needs at home or in your business place.</p>
                 <p>FAJ Experts in comprehensive air conditioner (AC) service, and maintenance, ensuring that you receive the highest quality care for your cooling systems.</p>
               </div>
-              <div className="col-md-6 text-center text-md-end">
+              <div className="col-md-6 text-center text-md-end  ">
                 <img className="bordered-img" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
 
               </div>
