@@ -866,14 +866,14 @@ const BlogDetails = () => {
                 <div className="cs_recent_post_wrapper">
                   {data.slice(0, 3).map((post, index) => (
                     <div className="cs_recent_post" key={index}>
-                      <Link to={`/blog/blog-details/${post.slug}`} className="cs_recent_post_thumb">
+                      <Link to={`/blog/${post.slug}`} className="cs_recent_post_thumb">
                         <img src={post.img} alt="Recent Post Image" />
                       </Link>
                       <div className="cs_recent_post_right">
                         <p className="cs_recent_posted_by cs_fs_14">
                           <i className="bi bi-calendar-fill"></i>{post.date}</p>
                         <h3 className="cs_fs_18 cs_semibold mb-0">
-                          <Link to={`/blog/blog-details/${post.slug}`}>{post.title}</Link>
+                          <Link to={`/blog/${post.slug}`}>{post.title}</Link>
                         </h3>
                       </div>
                     </div>
