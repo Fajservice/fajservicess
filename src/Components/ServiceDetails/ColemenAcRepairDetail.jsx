@@ -55,7 +55,7 @@ const ColemenAcRepair = () => {
             <div className="row align-items-center">
               <div className="col-md-6">
                 
-                <h3 class="cs_fs_30">Experts AC Service and Repair</h3>
+                <h3 class="cs_fs_30">Experts Coleman AC Service and Repair</h3>
                 <p>When considering AC service in Dubai, it is vital to hire a qualified and reliable AC technician who can effectively address your needs at home or in your business place.</p>
                 <p>FAJ Experts in comprehensive air conditioner (AC) service, and maintenance, ensuring that you receive the highest quality care for your cooling systems.</p>
               </div>
@@ -76,7 +76,7 @@ const ColemenAcRepair = () => {
 
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-                <h3 class="cs_fs_30">Signs You Need An AC Service</h3>
+                <h3 class="cs_fs_30">Signs You Need An Coleman AC Service</h3>
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" />
