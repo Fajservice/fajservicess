@@ -17,13 +17,8 @@ import TeamDetailsPage from "../Pages/TeamDetailsPage";
 import BlogPage from "../Pages/BlogPage";
 import ContactPage from "../Pages/ContactPage";
 import BlogDetailsPage from "../Pages/BlogDetailsPage";
-<<<<<<< HEAD
 import DubaiAcServicePriceList from "../pages/DubaiAcServicePriceList"
 import AcRepairInRitz from "../Pages/AcRepairInRitz";
-=======
-import DubaiAcServicePriceList from "../Pages/DubaiAcServicePriceList";
-import ColemenAcRepair from "../Pages/ColemenAcRepair";
->>>>>>> f8cd2ee97857ebaeee951aff7169a00558aca3ff
 
 export const router = createHashRouter([
   {
