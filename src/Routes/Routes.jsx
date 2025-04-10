@@ -18,6 +18,7 @@ import BlogPage from "../Pages/BlogPage";
 import ContactPage from "../Pages/ContactPage";
 import BlogDetailsPage from "../Pages/BlogDetailsPage";
 import DubaiAcServicePriceList from "../pages/DubaiAcServicePriceList"
+import AcRepairInRitz from "../Pages/AcRepairInRitz";
 
 export const router = createHashRouter([
   {
@@ -84,6 +85,10 @@ export const router = createHashRouter([
       {
         path: "/dubai-ac-service-price-list/",
         element: <DubaiAcServicePriceList></DubaiAcServicePriceList>,
+      },
+      {
+        path: "/ac-services-in-the-ritz-carlton-difc/",
+        element: <AcRepairInRitz></AcRepairInRitz>,
       },
     ],
   },
