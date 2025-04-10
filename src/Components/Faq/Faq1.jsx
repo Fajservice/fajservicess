@@ -44,7 +44,7 @@ const Faq1 = () => {
               {data.map((item, index)=>(
                 <div key={index} className={`cs_accordian cs_style_1 cs_gray_bg wow fadeInDown ${index === openItemIndex ? "active" : "" }`} >
                   <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
-                    <h2 className="cs_fs_18 cs_semibold mb-0">{item.title}</h2>
+                    <span className="cs_fs_16 cs_semibold mb-0">{item.title}</span>
                     <span className="cs_accordian_toggle">
                     <i className="bi bi-eye"></i>
                     <i className="bi bi-eye-slash"></i>

@@ -30,7 +30,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;500;700&display=swap");
 :root {
   --white-color: #fff;
-  --black-color: #010f34;
+  --black-color: #000000;
   --heading-color: #01133c;
   --body-color: #666666;
   --ternary-color: #88a5ad;
@@ -38,8 +38,13 @@
   --gray-color: #f5f7fa;
   --gray2-color: #e8ebee;
   --border-color: #ecf1f5;
-  --heading-font: "Archivo", sans-serif;
+  --heading-font: 'Gunplay-Regular', sans-serif;
   --body-font: "Roboto", sans-serif;
+
+  --bg-light-aqua-blue:#77DFEA;
+  --bg-medium-blue:#3D83A9;
+  --bg-sky-blue:#5CBEE2;
+  --bg-deep-blue:#366D92;
 }
 
 /*--------------------------------------------------------------
@@ -66,9 +71,11 @@ h6 {
   color: var(--heading-color);
   padding: 0;
   margin: 0 0 20px 0;
-  font-weight: 700;
+  font-weight: normal;
   line-height: 1.2em;
   font-family: var(--heading-font);
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .cs_heading_font {
@@ -307,9 +314,17 @@ textarea {
             transform: scale(1);
   }
 }
+.black-font-color{
+  color: var(--black-color);
+}
 /*--------------------------------------------------------------
   4. Spacing
 ----------------------------------------------------------------*/
+
+.cs_py_48{
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
 .cs_mb_1 {
   margin-bottom: 1px;
 }
@@ -1960,7 +1975,7 @@ textarea {
   margin: 0;
   font-size: 18px;
   line-height: 1.6em;
-  font-weight: 600;
+  font-weight: normal;
   color: var(--white-color);
 }
 .cs_page_heading .breadcrumb-item.active {
@@ -6065,7 +6080,7 @@ textarea {
  Service Details Page Styling
 -------------------------------------------------*/
 .cs_service_details img {
-  margin-bottom: 36px;
+  /* margin-bottom: 36px; */
 }
 .cs_service_details h2 {
   font-size: 30px;
