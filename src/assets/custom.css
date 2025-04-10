@@ -5,6 +5,8 @@
   --bg-sky-blue:#5CBEE2;
   --bg-deep-blue:#366D92;
   --bg-light-gray: #dddddd63;
+  --bg-dark-blue: #00334e;
+
 }
 
 .bg-light-blue{
@@ -13,6 +15,14 @@
 
 .bg-light-gray{
   background-color: var(--bg-light-gray);
+}
+
+.bg-deep-blue{
+  background-color: var(--bg-deep-blue);
+}
+
+.bg-dark-blue{
+  background-color: var(--bg-dark-blue);
 }
 
 @font-face {

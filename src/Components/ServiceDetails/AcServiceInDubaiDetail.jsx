@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import data from '../../Data/acfaq.json';
 import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../Miscellaneous/FAJACPrice';
+import Serviceappointemnt from '../Contact/Serviceappointemnt';
 
 const AcServiceInDubai = () => {
 
@@ -107,9 +108,9 @@ const AcServiceInDubai = () => {
           </div>
         </section>
 
-        <section className="section cs_py_48">
+        <section className="section cs_py_48 bg-dark-blue text-light">
           <div className="container">
-            <h3 class="cs_fs_30">Ready to Beat the Heat? Find the Best AC Repair in Dubai</h3>
+            <h3 class="cs_fs_30 text-light">Ready to Beat the Heat? Find the Best AC Repair in Dubai</h3>
             <p>Ready to Beat the Heat? Look no further! Find the best AC Repair in Dubai and keep yourself cool all summer long. Our expert AC technicians ensure fast, reliable services to get your AC up and running.Our service guarantees a comfortable home or office environment, even during the scorching heat of Dubai. Plus, with our affordable rates and transparent pricing, you can trust that you're getting the best value for your money.Don't suffer through another day of sweltering temperatures. Click below to schedule your AC repair and maintenance now and experience instant relief! Stay cool, Dubai!</p>    
           </div>
         </section>
@@ -123,7 +124,7 @@ const AcServiceInDubai = () => {
                 </div>
                 <div className="col-xl-6">
                   <h3 class="cs_fs_30">Choose FAJ for Speed, Efficiency and Peace of Mind</h3>
-                  <ul className="cs_list cs_style_1 cs_fs_18 cs_heading_font cs_mp_0">
+                  <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
@@ -150,9 +151,9 @@ const AcServiceInDubai = () => {
           </div>
         </section>
 
-        <section className="section cs_py_48">
+        <section className="section">
           <div className="container">
-            <div id="get-quote"  class=" mt-3">
+            <div id="get-quote"  class="my-3">
               <div class="container d-flex justify-content-center align-items-center">
                 <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
                 <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+97143300002">Call Now</a>
@@ -161,36 +162,53 @@ const AcServiceInDubai = () => {
           </div>
         </section>
 
-        <section className="section cs_py_48">
+        <section className="section cs_py_48 bg-dark-blue text-light">
         <div className="container">
-        <h3 class="cs_fs_30">AC Duct Cleaning Service in Dubai</h3>
-        <p>AC ducts are the pathways that delivers cool air from your cooling system into each room and out again. Here in the UAE, we have high reliance on air conditioners. The fact is we spend a lot of time indoors (especially during the intense summer season), which means air pollution can be 3 to 5 times higher inside your home than it is outdoors.<b />To remove the dust, mould, parasites, and other harmful contaminants that can hide in your AC ducts, professionals need to clean and disinfect them regularly. Our trained experts use advanced methods to remove dust, allergens, and other particles from your air ducts. Contact us today to book your AC duct cleaning services!</p>
-        <img src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance-in-Dubai.jpeg`} alt="Post Image" />
+        <h3 class="cs_fs_30 text-light">AC Duct Cleaning Service in Dubai</h3>
+        <div className="row align-items-center">
+          <div className="col-md-6">
+            <p>AC ducts are the pathways that delivers cool air from your cooling system into each room and out again. Here in the UAE, we have high reliance on air conditioners. The fact is we spend a lot of time indoors (especially during the intense summer season), which means air pollution can be 3 to 5 times higher inside your home than it is outdoors.<b />To remove the dust, mould, parasites, and other harmful contaminants that can hide in your AC ducts, professionals need to clean and disinfect them regularly. Our trained experts use advanced methods to remove dust, allergens, and other particles from your air ducts. Contact us today to book your AC duct cleaning services!</p>
+          </div>
+          <div className="col-md-6 text-center text-md-end">
+            <img src={`${import.meta.env.BASE_URL}/img/Faj-for-speed.jpg`} alt="Post Image" />  
+            {/* <img className="w-100" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance-in-Dubai.jpeg`} alt="Post Image" /> */}
+          </div>
+        </div>
         </div>
         </section> 
 
         <div className="section cs_py_48">
-        <div className="container">
-          <div className="cs_accordians_wrapper cs_style_1 p-0">
+          <div className="container">
+            <h3 class="cs_fs_30">FAQ's</h3>
 
-            {data.map((item, index) => (
-              <div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`} >
-                <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
-                  <span className="cs_fs_16 black-font-color cs_semibold mb-0">{item.title}</span>
-                  <span className="cs_accordian_toggle">
-                    <i className="bi bi-eye"></i>
-                    <i className="bi bi-eye-slash"></i>
-                  </span>
-                </div>
-                <div className="cs_accordian_body" ref={accordionContentRef}>
-                  <p className="mb-0">{item.desc}</p>
-                </div>
-              </div>
-            ))}
+            <div className="cs_accordians_wrapper cs_style_1 p-0">
 
+              {data.map((item, index) => (
+                <div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`} >
+                  <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
+                    <span className="cs_fs_16 black-font-color cs_semibold mb-0">{item.title}</span>
+                    <span className="cs_accordian_toggle">
+                      <i className="bi bi-eye"></i>
+                      <i className="bi bi-eye-slash"></i>
+                    </span>
+                  </div>
+                  <div className="cs_accordian_body" ref={accordionContentRef}>
+                    <p className="mb-0">{item.desc}</p>
+                  </div>
+                </div>
+              ))}
+
+            </div>
           </div>
         </div>
-        </div>       
+        <div className="section cs_py_48">
+          <Serviceappointemnt
+              subtitle2="Contact us"
+              title2="Book and Appointment"
+          ></Serviceappointemnt>     
+        
+        </div>
+
         
       </div>      
 

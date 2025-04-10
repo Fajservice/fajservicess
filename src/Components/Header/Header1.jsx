@@ -94,7 +94,7 @@ export default function Header1({ variant }) {
               </div>
 
               <div className="cs_main_header_center">
-                <div className="cs_nav cs_fs_18 cs_heading_color cs_heading_font">
+                <div className="cs_nav cs_fs_18 cs_heading_color">
                   <span
                     className={
                       mobileToggle
