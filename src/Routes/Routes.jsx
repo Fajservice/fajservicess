@@ -17,8 +17,13 @@ import TeamDetailsPage from "../Pages/TeamDetailsPage";
 import BlogPage from "../Pages/BlogPage";
 import ContactPage from "../Pages/ContactPage";
 import BlogDetailsPage from "../Pages/BlogDetailsPage";
+<<<<<<< HEAD
 import DubaiAcServicePriceList from "../pages/DubaiAcServicePriceList"
 import AcRepairInRitz from "../Pages/AcRepairInRitz";
+=======
+import DubaiAcServicePriceList from "../Pages/DubaiAcServicePriceList";
+import ColemenAcRepair from "../Pages/ColemenAcRepair";
+>>>>>>> f8cd2ee97857ebaeee951aff7169a00558aca3ff
 
 export const router = createHashRouter([
   {
@@ -30,29 +35,33 @@ export const router = createHashRouter([
         element: <Home></Home>,
       },
       {
-        path: "/about-us",
+        path: "/about-us/",
         element: <AboutPage></AboutPage>,
       },
       {
-        path: "/services",
+        path: "/services/",
         element: <ServicesPage />,
       },
       {
-        path: "/ac-service-in-dubai",
+        path: "/ac-service-in-dubai/",
         element: <AcServiceInDubai></AcServiceInDubai>,
       },
       {
-        path: "/washing-machine-repair-service-dubai",
+        path: "/washing-machine-repair-service-dubai/",
         element: <WashingMachineRepairServiceDubai></WashingMachineRepairServiceDubai>,
       },
       {
-        path: "/refrigerator-repair-service",
+        path: "/refrigerator-repair-service/",
         element: <RefrigeratorRepairInDubai></RefrigeratorRepairInDubai>,
       },
       {
-        path: "/cold-room-repair",
+        path: "/cold-room-repair/",
         element: <ColdRoomRepair></ColdRoomRepair>,
-      }, 
+      },
+      {
+        path: "/coleman-ac-repair-in-dubai-coleman-ac-maintenance-in-dubai-coleman-ac-fix-in-dubai-coleman-ac-service-in-dubai-coleman-air-condition-repair-in-dubai-coleman-air-condition-maintenance-in-dubai-coleman/",
+        element: <ColemenAcRepair></ColemenAcRepair>,
+      },
       {
         path: "/project",
         element: <ProjectPage></ProjectPage>,
