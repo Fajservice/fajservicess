@@ -19,6 +19,7 @@ import ContactPage from "../Pages/ContactPage";
 import BlogDetailsPage from "../Pages/BlogDetailsPage";
 import DubaiAcServicePriceList from "../pages/DubaiAcServicePriceList"
 import AcRepairInRitz from "../Pages/AcRepairInRitz";
+import ColemenAcRepair from "../Pages/ColemenAcRepair";
 
 export const router = createHashRouter([
   {
@@ -95,7 +96,7 @@ export const router = createHashRouter([
         element: <AcRepairInRitz></AcRepairInRitz>,
       },
     ],
-  },
+  }
 ], {
   //  basename: "/fajservicess"
 });
