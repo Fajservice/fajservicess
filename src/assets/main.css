@@ -6076,10 +6076,29 @@ textarea {
 -------------------------------------------------*/
 .cs_service_details img {
   /* margin-bottom: 36px; */
+  /* width: 80%;
+  border: 4px solid #00334e;
+  border-radius: 15px; */
+}
+
+.cs_service_details img.bordered-img {
+  /* margin-bottom: 36px; */
   width: 80%;
   border: 4px solid #00334e;
   border-radius: 15px;
 }
+
+.bordered-img {
+  /* margin-bottom: 36px; */
+  border: 4px solid #00334e;
+  border-radius: 15px;
+}
+/* 
+img.border-svg {
+  border: 2px solid blue;
+  padding: 33px;
+} */
+
 .cs_service_details h2 {
   font-size: 30px;
   margin-bottom: 16px;
