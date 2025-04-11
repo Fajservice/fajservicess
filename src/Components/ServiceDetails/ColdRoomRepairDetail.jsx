@@ -28,7 +28,7 @@ const ColdRoomRepair = () => {
         <>
             <HelmetProvider>
                 <title>Cold Room Repair - Walk in Cooler Maintenance Service Dubai</title>
-                <meta name="description" content="Get reliable cold room repair in Dubai. Expert service & maintenance contract for cold storage & refrigeration systems. Call FAJ 04 3300002"></meta>
+                <meta name="description" content="Get reliable cold room repair in Dubai. Expert service & maintenance contract for cold storage & refrigeration systems. Call FAJ 050 7464712"></meta>
             </HelmetProvider>
             <section>
                 <div className="cs_height_80 cs_height_lg_80"></div>
@@ -182,7 +182,7 @@ const ColdRoomRepair = () => {
                                             <img src={`${import.meta.env.BASE_URL}/img/icons/phone-call_2.svg`} alt="Phone Icon" />
                                         </div>
                                         <p className="cs_white_color cs_mb_5">Requesting A Call</p>
-                                        <a href="tel:+971507464712" className="cs_call_text cs_fs_30 cs_bold cs_heading_font cs_mb_23">(+971) 4 330 0002</a>
+                                        <a href="tel:+97143300002" className="cs_call_text cs_fs_30 cs_bold cs_heading_font cs_mb_23">(+971) 4 330 0002</a>
                                         <p className="cs_card_subtitle cs_white_color cs_mb_33">If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.</p>
                                         <Link to="/about" className="cs_card_btn">
                                             <span>Read more</span>

@@ -49,18 +49,18 @@ const AcRepairInRitzDetail = () => {
                     </div>
                 </section>
                 {/* Best AC Repair in Silicon Oasis */}
-                <section className="section cs_py_48 bg-light-gray">
+                <section className="section cs_py_48 bg-dark-blue">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-md-6">
 
-                                <h3 class="cs_fs_30">Best AC Repair in The Ritz Carlton DIFC</h3>
-                                <p>When it comes to AC repair in The Ritz Carlton DIFC, Dubai, it’s essential to hire professional and trustworthy AC technician for your home or business place.
+                                <h3 class="cs_fs_30 text-light">Best AC Repair in The Ritz Carlton DIFC</h3>
+                                <p className="text-light">When it comes to AC repair in The Ritz Carlton DIFC, Dubai, it’s essential to hire professional and trustworthy AC technician for your home or business place.
 
                                     We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                             </div>
                             <div className="col-md-6">
-                                <img src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
+                                <img className="border border-4 border-dark-white rounded" src={`${import.meta.env.BASE_URL}/img/acrepairinritz.jpg`} alt="Post Image" />
 
                             </div>
                         </div>
@@ -74,16 +74,16 @@ const AcRepairInRitzDetail = () => {
                     </div>
                 </section>
                 {/* Signs You Need An AC Service */}
-                <section className="section cs_py_48 bg-light-gray">
+                <section className="section cs_py_48 bg-dark-blue">
                     <div className="container">
-                        <h3 class="cs_fs_30">Signs You Need An AC Service</h3>
+                        <h3 class="cs_fs_30 text-white">Signs You Need An AC Service</h3>
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" />
+                                <img className="border border-4 border-dark-white rounded" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" />
                             </div>
                             <div className="col-md-6">
-                                <p>IIf you notice any of these signs, don't hesitate to contact us via WhatsApp. We're here to help you get your AC cooling system back to optimal efficiency.</p>
-                                <ul>
+                                <p className="text-light">If you notice any of these signs, don't hesitate to contact us via WhatsApp. We're here to help you get your AC cooling system back to optimal efficiency.</p>
+                                <ul className="text-light">
                                     <li>Loss of AC performance</li>
                                     <li>Poor AC airflow, making noises</li>
                                     <li>Rising DEWA expenses</li>
@@ -111,7 +111,7 @@ const AcRepairInRitzDetail = () => {
                 {/* Ready to Beat the Heat? Find the Best AC Repair in Dubai */}
                 <section className="section cs_py_48 bg-dark-blue text-light">
                     <div className="container">
-                        <h3 class="cs_fs_30 text-light">Ready to Beat the Heat? Find the Best AC Repair in Dubai</h3>
+                        <h3 class="cs_fs_30 text-light">Make Your AC Cool Faster – Beat the Summer Heat!</h3>
                         <p>Ready to Beat the Heat? Look no further! Find the best AC Repair in Dubai and keep yourself cool all summer long. Our expert AC technicians ensure fast, reliable services to get your AC up and running.Our service guarantees a comfortable home or office environment, even during the scorching heat of Dubai. Plus, with our affordable rates and transparent pricing, you can trust that you're getting the best value for your money.Don't suffer through another day of sweltering temperatures. Click below to schedule your AC repair and maintenance now and experience instant relief! Stay cool, Dubai!</p>
                     </div>
                 </section>
@@ -121,7 +121,7 @@ const AcRepairInRitzDetail = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-xl-6">
-                                <img src={`${import.meta.env.BASE_URL}/img/Faj-for-speed.jpg`} alt="Post Image" />
+                                <img className="border border-3 border-black rounded" src={`${import.meta.env.BASE_URL}/img/choosefajspeed.jpg`} alt="Post Image" />
                             </div>
                             <div className="col-xl-6">
                                 <h3 class="cs_fs_30">Choose FAJ for Speed, Efficiency and Peace of Mind</h3>
@@ -151,7 +151,7 @@ const AcRepairInRitzDetail = () => {
                         <div className="row mt-5">
                             <div className="col-md-6 mb-5">
                                 <div className="d-flex flex-column align-items-center">
-                                    <div className="rounded-circle bg-transparent border border-white d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
+                                    <div className="rounded-circle bg-transparent border border-4 border-info d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
                                         <i className="bi bi-check text-white" style={{ fontSize: "30px" }}></i>
                                     </div>
                                     <h4 className="text-uppercase mb-3 text-white">What does AC maintenance dubai include?</h4>
@@ -161,7 +161,7 @@ const AcRepairInRitzDetail = () => {
 
                             <div className="col-md-6 mb-5">
                                 <div className="d-flex flex-column align-items-center">
-                                    <div className="rounded-circle bg-transparent border border-white d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
+                                    <div className="rounded-circle bg-transparent border border-4 border-info  d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
                                         <i className="bi bi-check text-white" style={{ fontSize: "30px" }}></i>
                                     </div>
                                     <h4 className="text-uppercase mb-3 text-white">Is it necessary to service AC every year?</h4>
@@ -171,7 +171,7 @@ const AcRepairInRitzDetail = () => {
 
                             <div className="col-md-6 mb-5">
                                 <div className="d-flex flex-column align-items-center">
-                                    <div className="rounded-circle bg-transparent border border-white d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
+                                    <div className="rounded-circle bg-transparent border border-4 border-info d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
                                         <i className="bi bi-check text-white" style={{ fontSize: "30px" }}></i>
                                     </div>
                                     <h4 className="text-uppercase mb-3 text-white">What Are Benefits of Routine Maintenance?</h4>
@@ -183,7 +183,7 @@ const AcRepairInRitzDetail = () => {
 
                             <div className="col-md-6 mb-5">
                                 <div className="d-flex flex-column align-items-center">
-                                    <div className="rounded-circle bg-transparent border border-white d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
+                                    <div className="rounded-circle bg-transparent border border-4 border-info d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
                                         <i className="bi bi-check text-white" style={{ fontSize: "30px" }}></i>
                                     </div>
                                     <h4 className="text-uppercase mb-3 text-white">What happens if AC is not serviced?</h4>
@@ -193,7 +193,7 @@ const AcRepairInRitzDetail = () => {
 
                             <div className="col-md-6 mb-5">
                                 <div className="d-flex flex-column align-items-center">
-                                    <div className="rounded-circle bg-transparent border border-white d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
+                                    <div className="rounded-circle bg-transparent border border-4 border-info d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
                                         <i className="bi bi-check text-white" style={{ fontSize: "30px" }}></i>
                                     </div>
                                     <h4 className="text-uppercase mb-3 text-white">Can a dirty air condition unit cause a high electric bill?</h4>
@@ -203,7 +203,7 @@ const AcRepairInRitzDetail = () => {
 
                             <div className="col-md-6 mb-5">
                                 <div className="d-flex flex-column align-items-center">
-                                    <div className="rounded-circle bg-transparent border border-white d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
+                                    <div className="rounded-circle bg-transparent border border-4 border-info d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
                                         <i className="bi bi-check text-white" style={{ fontSize: "30px" }}></i>
                                     </div>
                                     <h4 className="text-uppercase mb-3 text-white">What is done in AC servicing?</h4>
@@ -213,7 +213,7 @@ const AcRepairInRitzDetail = () => {
 
                             <div className="col-md-6 mb-5">
                                 <div className="d-flex flex-column align-items-center">
-                                    <div className="rounded-circle bg-transparent border border-white d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
+                                    <div className="rounded-circle bg-transparent border border-4 border-info d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
                                         <i className="bi bi-check text-white" style={{ fontSize: "30px" }}></i>
                                     </div>
                                     <h4 className="text-uppercase mb-3 text-white">Is it cheaper to leave air conditioner on all day?</h4>
@@ -223,7 +223,7 @@ const AcRepairInRitzDetail = () => {
 
                             <div className="col-md-6 mb-5">
                                 <div className="d-flex flex-column align-items-center">
-                                    <div className="rounded-circle bg-transparent border border-white d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
+                                    <div className="rounded-circle bg-transparent border border-4 border-info d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
                                         <i className="bi bi-check text-white" style={{ fontSize: "30px" }}></i>
                                     </div>
                                     <h4 className="text-uppercase mb-3 text-white">How To: Tune Up Your AC</h4>
@@ -239,7 +239,7 @@ const AcRepairInRitzDetail = () => {
                         <p className="mt-3 mb-5">Contact us now to get a free AC service quote for your home or business.</p>
 
                         <div className="text-center">
-                            <a href="https://api.whatsapp.com/send?phone=+971507464712&text=Hello" className="btn btn-outline-light btn-lg text-uppercase px-5">GET A FREE QUOTE</a>
+                            <a href="https://api.whatsapp.com/send?phone=+971507464712&text=Hello" className="btn btn-primary btn-lg text-uppercase px-5" >GET A FREE QUOTE</a>
                         </div>
                     </div>
                 </section>
