@@ -39,6 +39,8 @@ const AcRepairInMethaDetail = () => {
                             <div class="container d-flex justify-content-center align-items-center">
                                 <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
                                 <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
+                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
                             </div>
 
                         </div>
@@ -96,9 +98,11 @@ const AcRepairInMethaDetail = () => {
                     <div className="container">
                         <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.
                             For technical inspection / callout of AC cleaning service, repair, or maintenance, please click here.
-                            To book an appointment, you can call +971 50 746 4712 or reach us on WhatsApp at +971 50 746 4712</p>
+                            To book an appointment, you can call +971 50 7464 712 or reach us on WhatsApp at +971 50 746 4712</p>
                         <div id="get-quote" class="mb-3 mt-3">
                             <div class="container d-flex justify-content-center align-items-center">
+                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
                                 <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
                                 <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
                             </div>
@@ -133,6 +137,8 @@ const AcRepairInMethaDetail = () => {
                                     <div class="container d-flex justify-content-center align-items-center">
                                         <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
                                         <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
+                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -165,6 +171,7 @@ const AcRepairInMethaDetail = () => {
                                         <i className="bi bi-check text-white" style={{ fontSize: "30px" }}></i>
                                     </div>
                                     <h4 className="text-uppercase mb-3 text-white">Get Quality & Affordability In One!</h4>
+                                    <p>If you are in search of top-quality and highly affordable AC services in Oud Metha then FAJ is your right choice. Our team is well-versed in handling air conditioners that can withstand the city’s weather fluctuations. Count on us for reliable solutions that keep you, and your employees cool and comfortable all year round. Additionally, for any type of cooling system you own we can fix any complexity it has. Be it your centralized air conditioning, inverter, HVAC, split, ducted, ceiling air con, or window A/c we are capable enough to address all. Schedule your appointment today with us at +971507464712 or email info@fajservices.ae Our experts, fully equipped, reach your doorstep to assist you on an appointed day and time.</p>
                                     <p>If you are in search of top-quality and highly affordable AC services in Oud Metha then FAJ is your right choice. Our team is well-versed in handling air conditioners that can withstand the city’s weather fluctuations. Count on us for reliable solutions that keep you, and your employees cool and comfortable all year round. Additionally, for any type of cooling system you own we can fix any complexity it has. Be it your centralized air conditioning, inverter, HVAC, split, ducted, ceiling air con, or window A/c we are capable enough to address all. Schedule your appointment today with us at +971507464712 or email info@fajservices.ae Our experts, fully equipped, reach your doorstep to assist you on an appointed day and time.</p>
                                 </div>
                             </div>

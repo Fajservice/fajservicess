@@ -14,7 +14,7 @@ const ContactPage = () => {
                 address="Warehouse # 2, Street 18b, Al Quoz Industrial Area # 4 Dubai – United Arab Emirates."
                 email="Info@fajservcies.ae"
                 emailLink="mailto:info@fajservices.ae"
-                number="+971 50 746 4712"
+                number="+971 50 7464 712"
                 numberLink="tel:+971507464712"
                 number1="+971 50 746 4712"
                 number1Link="tel:+971507464712"
