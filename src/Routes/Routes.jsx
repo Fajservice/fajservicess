@@ -17,14 +17,13 @@ import TeamDetailsPage from "../Pages/TeamDetailsPage";
 import BlogPage from "../Pages/BlogPage";
 import ContactPage from "../Pages/ContactPage";
 import BlogDetailsPage from "../Pages/BlogDetailsPage";
-import DubaiAcServicePriceList from "../pages/DubaiAcServicePriceList"
+import DubaiAcServicePriceList from "../Pages/DubaiAcServicePriceList"
 import AcRepairInRitz from "../Pages/AcRepairInRitz";
 import ColemenAcRepair from "../Pages/ColemenAcRepair";
 import AcRepairInSiliconOasis from "../Pages/AcRepairInSiliconOasis";
 import AcRepairInMetha from "../Pages/AcRepairInMetha";
 import AcRepairInJumeirahVillage from "../Pages/AcRepairInJumeirahVillage";
 import AcRepairInJebelAliFreeZone from "../Pages/AcRepairInJebelAliFreeZone";
-
 import YorkAcRepair from "../Pages/YorkAcRepair";
 export const router = createHashRouter([
   {
