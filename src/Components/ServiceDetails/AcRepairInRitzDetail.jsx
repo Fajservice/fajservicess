@@ -239,7 +239,7 @@ const AcRepairInRitzDetail = () => {
                         <p className="mt-3 mb-5">Contact us now to get a free AC service quote for your home or business.</p>
 
                         <div className="text-center">
-                            <a href="#" className="btn btn-outline-light btn-lg text-uppercase px-5">GET A FREE QUOTE</a>
+                            <a href="https://api.whatsapp.com/send?phone=+971507464712&text=Hello" className="btn btn-outline-light btn-lg text-uppercase px-5">GET A FREE QUOTE</a>
                         </div>
                     </div>
                 </section>
