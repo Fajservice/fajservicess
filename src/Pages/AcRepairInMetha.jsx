@@ -1,18 +1,17 @@
 import React from 'react'
 import BreadCumb from "../Components/Common/BreadCumb";
-import AcRepairInRitzDetail from '../Components/ServiceDetails/AcRepairInRitzDetail';
-const AcRepairInRitz = () => {
-    
+import AcRepairInMethaDetail from '../Components/ServiceDetails/AcRepairInMethaDetail';
+const AcRepairInMetha = () => {
   return (
     <div className="serviceDetails">
     <BreadCumb
         // bgImg="/img/page_heading_1.jpg"
         bgImg="/img/ac_service-bannerbg.jpg"
-        Title="AC Service in The Ritz Carlton DIFC"
+        Title="AC Service in Mehta"
     ></BreadCumb> 
-    <AcRepairInRitzDetail></AcRepairInRitzDetail>
+    <AcRepairInMethaDetail />
 </div>
   )
 }
 
-export default AcRepairInRitz
+export default AcRepairInMetha
