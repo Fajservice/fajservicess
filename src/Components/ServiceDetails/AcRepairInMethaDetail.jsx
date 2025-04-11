@@ -1,33 +1,30 @@
 import { useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
-import data from '../../Data/AcRepairInRitz';
+import data from '../../Data/AcRepairInMetha.json';
 import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../Miscellaneous/FAJACPrice';
-import Serviceappointemnt from "../Contact/Serviceappointemnt";
-
-
-const AcRepairInRitzDetail = () => {
+import Serviceappointemnt from '../Contact/Serviceappointemnt';
+const AcRepairInMethaDetail = () => {
     const accordionContentRef = useRef(null);
-    const [openItemIndex, setOpenItemIndex] = useState(-1);
-    const [firstItemOpen, setFirstItemOpen] = useState(true);
+  const [openItemIndex, setOpenItemIndex] = useState(-1);
+  const [firstItemOpen, setFirstItemOpen] = useState(true);
 
-    const handleItemClick = index => {
-        if (index === openItemIndex) {
-            setOpenItemIndex(-1);
-        } else {
-            setOpenItemIndex(index);
-        }
-    };
-    useEffect(() => {
-        if (firstItemOpen) {
-            setOpenItemIndex(0);
-            setFirstItemOpen(false);
-        }
-    }, [firstItemOpen]);
+  const handleItemClick = index => {
+    if (index === openItemIndex) {
+      setOpenItemIndex(-1);
+    } else {
+      setOpenItemIndex(index);
+    }
+  };
+  useEffect(() => {
+    if (firstItemOpen) {
+      setOpenItemIndex(0);
+      setFirstItemOpen(false);
+    }
+  }, [firstItemOpen]);
     return (
         <>
             <HelmetProvider>
-                <title>FAJ / AC Repair Dubai - AC Service in The Ritz Carlton DIFC</title>
+                <title>FAJ / AC Repair Dubai - Best AC Repair in Mehta</title>
                 <meta name="description" content="FAJ Established in 2010, / We offer professional AC Repair, Freezer, Refrigerator, Fridge, Washing Machine Maintenance Service Company Dubai"></meta>
             </HelmetProvider>
 
@@ -55,7 +52,7 @@ const AcRepairInRitzDetail = () => {
                             <div className="col-md-6">
 
                                 <h3 class="cs_fs_30">Best AC Repair in The Ritz Carlton DIFC</h3>
-                                <p>When it comes to AC repair in The Ritz Carlton DIFC, Dubai, it’s essential to hire professional and trustworthy AC technician for your home or business place.
+                                <p>When it comes to AC repair in Mehta, Dubai, it’s essential to hire professional and trustworthy AC technician for your home or business place.
 
                                     We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                             </div>
@@ -127,7 +124,10 @@ const AcRepairInRitzDetail = () => {
                                 <h3 class="cs_fs_30">Choose FAJ for Speed, Efficiency and Peace of Mind</h3>
                                 <p>When the temperature soars and you have air conditioner system faults, we are here to save your day. We have trained and professional technical teams to serve you..
 
-                                    Routine inspections of your Air Condition Installation, AC repair Dubai, AC maintenance & repairs, fix service is extremely important to ensure your unit’s efficiency, we are trained and qualified to maintain all type, makes, model and sizes Domestic Ac & Commercial air conditioner & Ventilation System in Dubai. FAJ, an AC Repair Dubai Company.
+
+                                    At the outset, air conditioning is an indispensable part of daily life and our comfort and productivity heavily depend upon this appliance. The Oud Metha area of Dubai features numerous apartments, flats, and villas. Shops, hospitals, schools, and several other industrial sites. And, all these places fully rely on efficient functioning of air conditioning systems because the weather changes highly affect the indoor environment. Furthermore, to acquire excellent AC services in Oud Metha, never wait until your air condition completely breaks down. Because sometimes severe damage to internal components gets arduous to repair and the only option left is replacement. Therefore, without delaying further, place a call today.
+
+
                                     When it comes to Air Conditioner installation service, You Only Want to Bring Professional, Trustworthy Servicemen into Your Home or Place of Business.</p>
                                 <div id="get-quote" class=" mt-4">
                                     <div class="container d-flex justify-content-center align-items-center">
@@ -154,8 +154,8 @@ const AcRepairInRitzDetail = () => {
                                     <div className="rounded-circle bg-transparent border border-white d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
                                         <i className="bi bi-check text-white" style={{ fontSize: "30px" }}></i>
                                     </div>
-                                    <h4 className="text-uppercase mb-3 text-white">What does AC maintenance dubai include?</h4>
-                                    <p>The AC Maintenance Services in Dubais usually include checking, cleaning, adjusting and/or changing various parts of your HVAC (Heating, Ventilation, and Air Conditioning) equipment.</p>
+                                    <h4 className="text-uppercase mb-3 text-white">Is Your Air Conditioner Healthy?</h4>
+                                    <p>Just like your car, your air con needs regular optimum servicing to ensure they are operative at its absolute best. This helps to ensure your A/c unit is working with high efficiency without any hindrance. In addition to it, setting up routine visits by a specialist swiftly prolongs the lifespan of your climate control. To make sure your Ac engine is healthy, schedule AC services in Oud Metha and let us handle the situation. Our skillful experts do all which is tailored to the needs of your air con. If you want to opt for a preventive maintenance program we are available to deliver you that as well. Keeping coils clean from debris and dirt is the most important thing in preventive maintenance and servicing. Moreover, keeping them free from biological growth is even more necessary. Need technical proficient support staff for immediate help? Connect with us.</p>
                                 </div>
                             </div>
 
@@ -164,76 +164,10 @@ const AcRepairInRitzDetail = () => {
                                     <div className="rounded-circle bg-transparent border border-white d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
                                         <i className="bi bi-check text-white" style={{ fontSize: "30px" }}></i>
                                     </div>
-                                    <h4 className="text-uppercase mb-3 text-white">Is it necessary to service AC every year?</h4>
-                                    <p>Yes, Ac requires Service minimize one maximum of three in a year. An air conditioner, just like a car, needs regular maintenance and service to run efficiently. … You should do this in the Spring to ensure that your unit will run with the most efficiency during the hottest Summer months.</p>
+                                    <h4 className="text-uppercase mb-3 text-white">Get Quality & Affordability In One!</h4>
+                                    <p>If you are in search of top-quality and highly affordable AC services in Oud Metha then FAJ is your right choice. Our team is well-versed in handling air conditioners that can withstand the city’s weather fluctuations. Count on us for reliable solutions that keep you, and your employees cool and comfortable all year round. Additionally, for any type of cooling system you own we can fix any complexity it has. Be it your centralized air conditioning, inverter, HVAC, split, ducted, ceiling air con, or window A/c we are capable enough to address all. Schedule your appointment today with us at +97143300002 or email info@fajservices.ae Our experts, fully equipped, reach your doorstep to assist you on an appointed day and time.</p>
                                 </div>
                             </div>
-
-                            <div className="col-md-6 mb-5">
-                                <div className="d-flex flex-column align-items-center">
-                                    <div className="rounded-circle bg-transparent border border-white d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
-                                        <i className="bi bi-check text-white" style={{ fontSize: "30px" }}></i>
-                                    </div>
-                                    <h4 className="text-uppercase mb-3 text-white">What Are Benefits of Routine Maintenance?</h4>
-                                   <p>Increased Reliability. Poorly maintained air conditioning systems are prone to breakdowns.</p>
-                                   <p>Health Benefits. The air conditioning system is central to a home’s indoor air quality, something we don’t quite think about often.</p>
-                                   <p>Improved Efficiency.</p>
-                                </div>
-                            </div>
-
-                            <div className="col-md-6 mb-5">
-                                <div className="d-flex flex-column align-items-center">
-                                    <div className="rounded-circle bg-transparent border border-white d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
-                                        <i className="bi bi-check text-white" style={{ fontSize: "30px" }}></i>
-                                    </div>
-                                    <h4 className="text-uppercase mb-3 text-white">What happens if AC is not serviced?</h4>
-                                    <p>The functioning of an air condition system is quite simple. If you will not do the regular ac maintenance dubai servicing then dirt and dust will get deposited in its filters. This deposition of dust and dirt in the filters affect its working and your ac system will need to invest more efforts in its working.</p>
-                                </div>
-                            </div>
-
-                            <div className="col-md-6 mb-5">
-                                <div className="d-flex flex-column align-items-center">
-                                    <div className="rounded-circle bg-transparent border border-white d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
-                                        <i className="bi bi-check text-white" style={{ fontSize: "30px" }}></i>
-                                    </div>
-                                    <h4 className="text-uppercase mb-3 text-white">Can a dirty air condition unit cause a high electric bill?</h4>
-                                    <p>Yes! As your air filters get dirty, they begin to restrict the air flowing through the unit. This causes the HVAC unit to work harder to maintain sufficient airflow. Because your unit is working harder and longer, it is using more electricity, which over time can dramatically increase your utility costs. So ac maintenance dubai service is essential.</p>
-                                </div>
-                            </div>
-
-                            <div className="col-md-6 mb-5">
-                                <div className="d-flex flex-column align-items-center">
-                                    <div className="rounded-circle bg-transparent border border-white d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
-                                        <i className="bi bi-check text-white" style={{ fontSize: "30px" }}></i>
-                                    </div>
-                                    <h4 className="text-uppercase mb-3 text-white">What is done in AC servicing?</h4>
-                                    <p>Dust and dirt are core enemies of your air conditioning or AC system as they cause overheating of the system. During AC maintenance dubai service, the technician cleans the dust and debris from the condenser coil and evaporator coil and other key components of the system. In a split AC, the condenser coils are in the outdoor unit.</p>
-                                </div>
-                            </div>
-
-                            <div className="col-md-6 mb-5">
-                                <div className="d-flex flex-column align-items-center">
-                                    <div className="rounded-circle bg-transparent border border-white d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
-                                        <i className="bi bi-check text-white" style={{ fontSize: "30px" }}></i>
-                                    </div>
-                                    <h4 className="text-uppercase mb-3 text-white">Is it cheaper to leave air conditioner on all day?</h4>
-                                    <p>Air conditioning systems operate most efficiently at full speed during longer periods of time. So kicking it on a lower temperature when you get home will save you more money than the AC cycling on and off while you’re away. So regular ac maintenance dubai service help in saving money.</p>
-                                </div>
-                            </div>
-
-                            <div className="col-md-6 mb-5">
-                                <div className="d-flex flex-column align-items-center">
-                                    <div className="rounded-circle bg-transparent border border-white d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
-                                        <i className="bi bi-check text-white" style={{ fontSize: "30px" }}></i>
-                                    </div>
-                                    <h4 className="text-uppercase mb-3 text-white">How To: Tune Up Your AC</h4>
-                                    <p>Clean or change the AC Filters. The simplest place to start is to make sure you clean or change the air filters on your air conditioner system at least every 3 months. </p>
-                                    <p>Check the Overflow Pan. </p>
-                                    <p>Straighten the Fins</p>
-                                    <p>Check the Insulation. </p>
-                                </div>
-                            </div>
-                            
                         </div>
 
                         <p className="mt-3 mb-5">Contact us now to get a free AC service quote for your home or business.</p>
@@ -287,4 +221,4 @@ const AcRepairInRitzDetail = () => {
     )
 }
 
-export default AcRepairInRitzDetail
+export default AcRepairInMethaDetail

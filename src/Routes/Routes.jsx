@@ -17,10 +17,14 @@ import TeamDetailsPage from "../Pages/TeamDetailsPage";
 import BlogPage from "../Pages/BlogPage";
 import ContactPage from "../Pages/ContactPage";
 import BlogDetailsPage from "../Pages/BlogDetailsPage";
-import DubaiAcServicePriceList from "../pages/DubaiAcServicePriceList"
+import DubaiAcServicePriceList from "../Pages/DubaiAcServicePriceList"
 import AcRepairInRitz from "../Pages/AcRepairInRitz";
 import ColemenAcRepair from "../Pages/ColemenAcRepair";
-
+import AcRepairInSiliconOasis from "../Pages/AcRepairInSiliconOasis";
+import AcRepairInMetha from "../Pages/AcRepairInMetha";
+import AcRepairInJumeirahVillage from "../Pages/AcRepairInJumeirahVillage";
+import AcRepairInJebelAliFreeZone from "../Pages/AcRepairInJebelAliFreeZone";
+import YorkAcRepair from "../Pages/YorkAcRepair";
 export const router = createHashRouter([
   {
     path: "/",
@@ -59,6 +63,10 @@ export const router = createHashRouter([
         element: <ColemenAcRepair></ColemenAcRepair>,
       },
       {
+        path: "/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten/",
+        element: <YorkAcRepair></YorkAcRepair>,
+      },
+      {
         path: "/project",
         element: <ProjectPage></ProjectPage>,
       },      
@@ -86,7 +94,6 @@ export const router = createHashRouter([
         path: "/contact-us/",
         element: <ContactPage></ContactPage>,
       },
-      ,
       {
         path: "/dubai-ac-service-price-list/",
         element: <DubaiAcServicePriceList></DubaiAcServicePriceList>,
@@ -94,6 +101,22 @@ export const router = createHashRouter([
       {
         path: "/ac-services-in-the-ritz-carlton-difc/",
         element: <AcRepairInRitz></AcRepairInRitz>,
+      },
+      {
+        path: "/ac-services-in-dubai-silicon-oasis/",
+        element: <AcRepairInSiliconOasis></AcRepairInSiliconOasis>,
+      },
+      {
+        path: "/ac-services-in-metha/",
+        element: <AcRepairInMetha></AcRepairInMetha>,
+      },
+      {
+        path: "/ac-services-in-jumeirah-village/",
+        element: <AcRepairInJumeirahVillage />,
+      },
+      {
+        path: "/ac-services-in-jebel-ali-free-zone/",
+        element: <AcRepairInJebelAliFreeZone />,
       },
     ],
   }
