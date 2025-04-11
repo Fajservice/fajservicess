@@ -146,7 +146,6 @@ const AcRepairInRitzDetail = () => {
                 <section className="section cs_py_48" style={{ backgroundColor: "#00334E", color: "white" }}>
                     <div className="container text-center">
                         <h3 className="cs_fs_30 text-light mb-4">The Benefits Of Regular AC Maintenance Dubai Service</h3>
-                        <p className="mb-5">Enjoy cooler air for longer. The We Will Fix It procedure is rigorous and unrivalled, with steps including the following:</p>
 
                         <div className="row mt-5">
                             <div className="col-md-6 mb-5">
