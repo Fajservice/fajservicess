@@ -40,7 +40,7 @@ const AcRepairInRitzDetail = () => {
                         <p>FAJ Technical Services LLC is your premier choice for quality AC Service In Dubai. With 14 years of experience in AC repairing, maintenance, and servicing, we are the most trusted air conditioning service company in Dubai, UAE.<br />FAJ is providing AC repair and maintenance services to all areas of Dubai. Our AC technicians are skilled and specialize in repairing all AC types, brands, and models. Experience reliable AC repair and maintenance to keep your home or business cool and comfortable.</p>
                         <div id="get-quote" class=" mt-3">
                             <div class="container d-flex justify-content-center align-items-center">
-                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#0D6EFD" }}>Get A Free Quote</a>
                                 <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex border border-outline align-items-center link-info" href="tel:+97143300002">Call Now</a>
                             </div>
 
@@ -102,7 +102,7 @@ const AcRepairInRitzDetail = () => {
                             To book an appointment, you can call +971 50 746 4712 or reach us on WhatsApp at +971 50 746 4712</p>
                         <div id="get-quote" class="mb-3 mt-3">
                             <div class="container d-flex justify-content-center align-items-center">
-                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#0D6EFD" }}>Get A Free Quote</a>
                                 <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex border border-outline align-items-center link-info" href="tel:+97143300002">Call Now</a>
                             </div>
                         </div>
@@ -111,7 +111,7 @@ const AcRepairInRitzDetail = () => {
                 {/* Ready to Beat the Heat? Find the Best AC Repair in Dubai */}
                 <section className="section cs_py_48 bg-dark-blue text-light">
                     <div className="container">
-                        <h3 class="cs_fs_30 text-light">Ready to Beat the Heat? Find the Best AC Repair in Dubai</h3>
+                        <h3 class="cs_fs_30 text-light">Make Your AC Cool Faster – Beat the Summer Heat! this one</h3>
                         <p>Ready to Beat the Heat? Look no further! Find the best AC Repair in Dubai and keep yourself cool all summer long. Our expert AC technicians ensure fast, reliable services to get your AC up and running.Our service guarantees a comfortable home or office environment, even during the scorching heat of Dubai. Plus, with our affordable rates and transparent pricing, you can trust that you're getting the best value for your money.Don't suffer through another day of sweltering temperatures. Click below to schedule your AC repair and maintenance now and experience instant relief! Stay cool, Dubai!</p>
                     </div>
                 </section>
@@ -131,7 +131,7 @@ const AcRepairInRitzDetail = () => {
                                     When it comes to Air Conditioner installation service, You Only Want to Bring Professional, Trustworthy Servicemen into Your Home or Place of Business.</p>
                                 <div id="get-quote" class=" mt-4">
                                     <div class="container d-flex justify-content-center align-items-center">
-                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#0D6EFD" }}>Get A Free Quote</a>
                                         <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex border border-outline align-items-center link-info" href="tel:+97143300002">Call Now</a>
                                     </div>
                                 </div>
