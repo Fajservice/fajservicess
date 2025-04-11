@@ -32,7 +32,8 @@
   --white-color: #fff;
   --black-color: #000000;
   --heading-color: #01133c;
-  --body-color: #666666;
+  /* --body-color: #666666; */
+  --body-color: #000000;
   --ternary-color: #88a5ad;
   --accent-color: #00334e;
   --gray-color: #f5f7fa;
