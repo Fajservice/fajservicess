@@ -285,3 +285,22 @@ section#get-quote {
   border-radius: 10px; /* Adjust the radius value as needed */
   border: 2px solid gray; /* Adjust the border thickness and color */
 }
+
+.technical-col{
+  background: #a8b9c3;
+  border-right-color: #264f69 !important;
+  border-right-width: 4px !important;
+}
+
+.cleaning-col{
+  background: #a8b9c3;
+  border-right-color: #264f69 !important;
+  border-right-width: 4px !important;
+}
+
+/* Common box  */
+.box-content-container{
+  min-height: 185px;
+  max-height: 185px;
+  overflow-y: auto;
+}
