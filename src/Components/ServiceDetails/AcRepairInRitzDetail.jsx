@@ -111,7 +111,7 @@ const AcRepairInRitzDetail = () => {
                 {/* Ready to Beat the Heat? Find the Best AC Repair in Dubai */}
                 <section className="section cs_py_48 bg-dark-blue text-light">
                     <div className="container">
-                        <h3 class="cs_fs_30 text-light">Make Your AC Cool Faster – Beat the Summer Heat! this one</h3>
+                        <h3 class="cs_fs_30 text-light">Make Your AC Cool Faster – Beat the Summer Heat!</h3>
                         <p>Ready to Beat the Heat? Look no further! Find the best AC Repair in Dubai and keep yourself cool all summer long. Our expert AC technicians ensure fast, reliable services to get your AC up and running.Our service guarantees a comfortable home or office environment, even during the scorching heat of Dubai. Plus, with our affordable rates and transparent pricing, you can trust that you're getting the best value for your money.Don't suffer through another day of sweltering temperatures. Click below to schedule your AC repair and maintenance now and experience instant relief! Stay cool, Dubai!</p>
                     </div>
                 </section>
