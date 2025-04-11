@@ -121,7 +121,7 @@ const AcRepairInRitzDetail = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-xl-6">
-                                <img className="border border-4 border-dark-white rounded" src={`${import.meta.env.BASE_URL}/img/choosefajspeed.jpg`} alt="Post Image" />
+                                <img className="border border-3 border-black rounded" src={`${import.meta.env.BASE_URL}/img/choosefajspeed.jpg`} alt="Post Image" />
                             </div>
                             <div className="col-xl-6">
                                 <h3 class="cs_fs_30">Choose FAJ for Speed, Efficiency and Peace of Mind</h3>
