@@ -41,8 +41,8 @@ const ColdRoomRepair = () => {
                                 <p>Is your existing cold room getting old or acting wary? You might be thinking of a replacement but it might cost a fortune. This is where FAJ comes in. Need not to worry, as our diverse and experienced range of services has got you covered. Confused about “cold room service near me”, then you’ve landed on the right page. Give us a call to book our technicians for your freezer repair inspection so we can carry out cold room repair, refurbishment and maintenance services. Being used in super markets, restaurants, butcheries, hotels, hospitals, etc it is essential to conduct periodic maintenance. With our decades of experience in UAE and Dubai, we ensure that all your cold room repair and service solutions are resolved under the same roof. With our highly skilled and trained team of cold room technicians, you can trust our services with complete trust and reliability.</p>
                                 <div id="get-quote" class="mb-5 mt-3">
                                     <div class="container d-flex justify-content-center align-items-center">
-                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+97143300002">Call Now</a>
+                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
                                     </div>
                                 </div>
                                 <div className="row">
@@ -59,8 +59,8 @@ const ColdRoomRepair = () => {
                                 </div>
                                 <div id="get-quote" class="mb-5 mt-3">
                                     <div class="container d-flex justify-content-center align-items-center">
-                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+97143300002">Call Now</a>
+                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
                                     </div>
                                 </div>
                                 {/* <h2>Ready to Beat the Heat? Find the Best AC Repair in Dubai</h2>
@@ -80,8 +80,8 @@ const ColdRoomRepair = () => {
                                 </div>
                                 <div id="get-quote" class="mb-5 mt-3">
                                     <div class="container d-flex justify-content-center align-items-center">
-                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+97143300002">Call Now</a>
+                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
                                     </div>
                                 </div>
                                 <h3 className="cs_fs_24">Reliable Solution to every type of cold room</h3>
@@ -182,7 +182,7 @@ const ColdRoomRepair = () => {
                                             <img src={`${import.meta.env.BASE_URL}/img/icons/phone-call_2.svg`} alt="Phone Icon" />
                                         </div>
                                         <p className="cs_white_color cs_mb_5">Requesting A Call</p>
-                                        <a href="tel:+97143300002" className="cs_call_text cs_fs_30 cs_bold cs_heading_font cs_mb_23">(+971) 4 330 0002</a>
+                                        <a href="tel:+971507464712" className="cs_call_text cs_fs_30 cs_bold cs_heading_font cs_mb_23">(+971) 4 330 0002</a>
                                         <p className="cs_card_subtitle cs_white_color cs_mb_33">If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.</p>
                                         <Link to="/about" className="cs_card_btn">
                                             <span>Read more</span>

@@ -22,7 +22,7 @@ const AboutPage = () => {
                 expTitleYear="2010"
                 expDescrip="And is dedicated to delivering exceptional service that meets the highest international standards."
                 number="(+971) 4-330-0002"
-                telLink="tel:+97143300002"
+                telLink="tel:+971507464712"
                 subTitle="About Us"
                 Title="Speedy Services, Quality Results"
                 Content="We are professional and committed to service, highlighting our dedication to providing exceptional results in repair, servicing, and maintenance contracts."

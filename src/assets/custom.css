@@ -304,3 +304,23 @@ section#get-quote {
   max-height: 185px;
   overflow-y: auto;
 }
+
+ a.btn-green-yellow {
+  font-size: 20px;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #06d755;
+  max-width: fit-content;
+  min-height: 40px;
+  text-decoration: none;
+  color: #fff;
+  margin-top: 12px;
+  padding: 10px;
+  border-radius: 10px;
+}
+a.btn-green-yellow:hover{
+  background-color: #f6b200;
+}

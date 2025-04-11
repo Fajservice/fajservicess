@@ -110,7 +110,7 @@ const DubaiAcServicePriceList = () => {
                                                 <li className="faj_li">Rectification of AC not cooling/overcooling</li>
                                             </ul>
                                             <div className="pdt-24">
-                                                <a href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" target="_blank" className="btn btn-dblue w-100 txt-18">Book Now</a>
+                                                <a href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" target="_blank" className="btn btn-dblue w-100 txt-18">Book Now</a>
                                             </div>
                                             <div className="mgt-18">
                                                 <a id="minus_one" onClick={myFunctTwo} className="btn btn-dblue w-100">View Less</a>
@@ -142,7 +142,7 @@ const DubaiAcServicePriceList = () => {
                                                 <li className="faj_li">Check the insulations on the pipeline, if damaged will recommend replacement (Additional cost for replacement of insulation).</li>
                                             </ul>
                                             <div className="pdt-24">
-                                                <a href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" target="_blank" className="btn btn-dgreen w-100 txt-18">Book Now</a>
+                                                <a href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" target="_blank" className="btn btn-dgreen w-100 txt-18">Book Now</a>
                                             </div>
                                             <div className="mgt-18">
                                                 <a id="minus_two" onClick={myFunctFour} className="btn btn-dgreen w-100">View Less</a>
@@ -174,7 +174,7 @@ const DubaiAcServicePriceList = () => {
                                                 <li className="faj_li">Inspect pipe, shut off valves and valve actuator for any leaks.</li>
                                             </ul>
                                             <div className="pdt-24">
-                                                <a href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" target="_blank" className="btn btn-lgreen w-100 txt-18">Book Now</a>
+                                                <a href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" target="_blank" className="btn btn-lgreen w-100 txt-18">Book Now</a>
                                             </div>
                                             <div className="mgt-18">
                                                 <a id="minus_three" onClick={myFunctSix} className="btn btn-lgreen w-100">View Less</a>
@@ -206,7 +206,7 @@ const DubaiAcServicePriceList = () => {
                                                 <li className="faj_li">Inspect pipe, shut off valves and valve actuator for any leaks.</li>
                                             </ul>
                                             <div className="pdt-24">
-                                                <a href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" target="_blank" className="btn btn-dpurple w-100 txt-18">Book Now</a>
+                                                <a href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" target="_blank" className="btn btn-dpurple w-100 txt-18">Book Now</a>
                                             </div>
                                             <div className="mgt-18">
                                                 <a id="minus_four" onClick={myFunctEight} className="btn btn-dpurple w-100">View Less</a>
@@ -238,7 +238,7 @@ const DubaiAcServicePriceList = () => {
                                                 <li className="faj_li">Inspect pipe, shut off valves and valve actuator for any leaks.</li>
                                             </ul>
                                             <div className="pdt-24">
-                                                <a href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" target="_blank" className="btn btn-lblue w-100 txt-18">Book Now</a>
+                                                <a href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" target="_blank" className="btn btn-lblue w-100 txt-18">Book Now</a>
                                             </div>
                                             <div className="mgt-18">
                                                 <a id="minus_five" onClick={myFunctTen} className="btn btn-lblue w-100">View Less</a>
@@ -270,7 +270,7 @@ const DubaiAcServicePriceList = () => {
                                                 <li className="faj_li">Check variable speed compressor, expansion valve, error, and condensing &amp; evaporator safety valves pcb and sensors.</li>
                                             </ul>
                                             <div className="pdt-24">
-                                                <a href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" target="_blank" className="btn btn-dorange w-100 txt-18">Book Now</a>
+                                                <a href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" target="_blank" className="btn btn-dorange w-100 txt-18">Book Now</a>
                                             </div>
                                             <div className="mgt-18">
                                                 <a id="minus_six" onClick={myFunctTwelve} className="btn btn-dorange w-100">View Less</a>
