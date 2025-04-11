@@ -20,6 +20,7 @@ import BlogDetailsPage from "../Pages/BlogDetailsPage";
 import DubaiAcServicePriceList from "../pages/DubaiAcServicePriceList"
 import AcRepairInRitz from "../Pages/AcRepairInRitz";
 import ColemenAcRepair from "../Pages/ColemenAcRepair";
+import YorkAcRepair from "../Pages/YorkAcRepair";
 
 export const router = createHashRouter([
   {
@@ -59,6 +60,10 @@ export const router = createHashRouter([
         element: <ColemenAcRepair></ColemenAcRepair>,
       },
       {
+        path: "/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten/",
+        element: <YorkAcRepair></YorkAcRepair>,
+      },
+      {
         path: "/project",
         element: <ProjectPage></ProjectPage>,
       },      
@@ -86,7 +91,6 @@ export const router = createHashRouter([
         path: "/contact-us/",
         element: <ContactPage></ContactPage>,
       },
-      ,
       {
         path: "/dubai-ac-service-price-list/",
         element: <DubaiAcServicePriceList></DubaiAcServicePriceList>,
