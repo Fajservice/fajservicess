@@ -40,8 +40,8 @@ const AcRepairInRitzDetail = () => {
                         <p>FAJ Technical Services LLC is your premier choice for quality AC Service In Dubai. With 14 years of experience in AC repairing, maintenance, and servicing, we are the most trusted air conditioning service company in Dubai, UAE.<br />FAJ is providing AC repair and maintenance services to all areas of Dubai. Our AC technicians are skilled and specialize in repairing all AC types, brands, and models. Experience reliable AC repair and maintenance to keep your home or business cool and comfortable.</p>
                         <div id="get-quote" class=" mt-3">
                             <div class="container d-flex justify-content-center align-items-center">
-                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+97143300002">Call Now</a>
+                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#5AB5D5" }}>Get A Free Quote</a>
+                                <a data-anim-type="fade-in-up" class="mx-2 btn border border-outline d-flex align-items-center link-info" href="tel:+97143300002">Call Now</a>
                             </div>
 
                         </div>
@@ -49,18 +49,18 @@ const AcRepairInRitzDetail = () => {
                     </div>
                 </section>
                 {/* Best AC Repair in Silicon Oasis */}
-                <section className="section cs_py_48 bg-light-gray">
+                <section className="section cs_py_48 bg-dark-blue">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-md-6">
 
-                                <h3 class="cs_fs_30">Best AC Repair in The Ritz Carlton DIFC</h3>
-                                <p>When it comes to AC repair in The Ritz Carlton DIFC, Dubai, it’s essential to hire professional and trustworthy AC technician for your home or business place.
+                                <h3 class="cs_fs_30 text-light">Best AC Repair in The Ritz Carlton DIFC</h3>
+                                <p className="text-light">When it comes to AC repair in The Ritz Carlton DIFC, Dubai, it’s essential to hire professional and trustworthy AC technician for your home or business place.
 
                                     We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                             </div>
                             <div className="col-md-6">
-                                <img src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
+                                <img className="border border-4 border-dark-white rounded" src={`${import.meta.env.BASE_URL}/img/acrepairinritz.jpg`} alt="Post Image" />
 
                             </div>
                         </div>
@@ -74,16 +74,16 @@ const AcRepairInRitzDetail = () => {
                     </div>
                 </section>
                 {/* Signs You Need An AC Service */}
-                <section className="section cs_py_48 bg-light-gray">
+                <section className="section cs_py_48 bg-dark-blue">
                     <div className="container">
-                        <h3 class="cs_fs_30">Signs You Need An AC Service</h3>
+                        <h3 class="cs_fs_30 text-white">Signs You Need An AC Service</h3>
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" />
+                                <img className="border border-4 border-dark-white rounded" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" />
                             </div>
                             <div className="col-md-6">
-                                <p>IIf you notice any of these signs, don't hesitate to contact us via WhatsApp. We're here to help you get your AC cooling system back to optimal efficiency.</p>
-                                <ul>
+                                <p className="text-light">If you notice any of these signs, don't hesitate to contact us via WhatsApp. We're here to help you get your AC cooling system back to optimal efficiency.</p>
+                                <ul className="text-light">
                                     <li>Loss of AC performance</li>
                                     <li>Poor AC airflow, making noises</li>
                                     <li>Rising DEWA expenses</li>
@@ -102,8 +102,8 @@ const AcRepairInRitzDetail = () => {
                             To book an appointment, you can call +971 4 330 0002 or reach us on WhatsApp at +971 50 746 4712</p>
                         <div id="get-quote" class="mb-3 mt-3">
                             <div class="container d-flex justify-content-center align-items-center">
-                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+97143300002">Call Now</a>
+                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#5AB5D5" }}>Get A Free Quote</a>
+                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom border border-outline d-flex align-items-center link-info" href="tel:+97143300002">Call Now</a>
                             </div>
                         </div>
                     </div>
@@ -121,7 +121,7 @@ const AcRepairInRitzDetail = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-xl-6">
-                                <img src={`${import.meta.env.BASE_URL}/img/Faj-for-speed.jpg`} alt="Post Image" />
+                                <img className="border border-4 border-dark-white rounded" src={`${import.meta.env.BASE_URL}/img/choosefajspeed.jpg`} alt="Post Image" />
                             </div>
                             <div className="col-xl-6">
                                 <h3 class="cs_fs_30">Choose FAJ for Speed, Efficiency and Peace of Mind</h3>
@@ -131,8 +131,8 @@ const AcRepairInRitzDetail = () => {
                                     When it comes to Air Conditioner installation service, You Only Want to Bring Professional, Trustworthy Servicemen into Your Home or Place of Business.</p>
                                 <div id="get-quote" class=" mt-4">
                                     <div class="container d-flex justify-content-center align-items-center">
-                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+97143300002">Call Now</a>
+                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#5AB5D5" }}>Get A Free Quote</a>
+                                        <a data-anim-type="fade-in-up" class="mx-2 border border-outline btn btn-custom d-flex align-items-center link-info" href="tel:+97143300002">Call Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -151,7 +151,7 @@ const AcRepairInRitzDetail = () => {
                         <div className="row mt-5">
                             <div className="col-md-6 mb-5">
                                 <div className="d-flex flex-column align-items-center">
-                                    <div className="rounded-circle bg-transparent border border-white d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
+                                    <div className="rounded-circle bg-transparent border border-4 border-info d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
                                         <i className="bi bi-check text-white" style={{ fontSize: "30px" }}></i>
                                     </div>
                                     <h4 className="text-uppercase mb-3 text-white">What does AC maintenance dubai include?</h4>
@@ -161,7 +161,7 @@ const AcRepairInRitzDetail = () => {
 
                             <div className="col-md-6 mb-5">
                                 <div className="d-flex flex-column align-items-center">
-                                    <div className="rounded-circle bg-transparent border border-white d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
+                                    <div className="rounded-circle bg-transparent border border-4 border-info  d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
                                         <i className="bi bi-check text-white" style={{ fontSize: "30px" }}></i>
                                     </div>
                                     <h4 className="text-uppercase mb-3 text-white">Is it necessary to service AC every year?</h4>
@@ -171,7 +171,7 @@ const AcRepairInRitzDetail = () => {
 
                             <div className="col-md-6 mb-5">
                                 <div className="d-flex flex-column align-items-center">
-                                    <div className="rounded-circle bg-transparent border border-white d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
+                                    <div className="rounded-circle bg-transparent border border-4 border-info d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
                                         <i className="bi bi-check text-white" style={{ fontSize: "30px" }}></i>
                                     </div>
                                     <h4 className="text-uppercase mb-3 text-white">What Are Benefits of Routine Maintenance?</h4>
@@ -183,7 +183,7 @@ const AcRepairInRitzDetail = () => {
 
                             <div className="col-md-6 mb-5">
                                 <div className="d-flex flex-column align-items-center">
-                                    <div className="rounded-circle bg-transparent border border-white d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
+                                    <div className="rounded-circle bg-transparent border border-4 border-info d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
                                         <i className="bi bi-check text-white" style={{ fontSize: "30px" }}></i>
                                     </div>
                                     <h4 className="text-uppercase mb-3 text-white">What happens if AC is not serviced?</h4>
@@ -193,7 +193,7 @@ const AcRepairInRitzDetail = () => {
 
                             <div className="col-md-6 mb-5">
                                 <div className="d-flex flex-column align-items-center">
-                                    <div className="rounded-circle bg-transparent border border-white d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
+                                    <div className="rounded-circle bg-transparent border border-4 border-info d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
                                         <i className="bi bi-check text-white" style={{ fontSize: "30px" }}></i>
                                     </div>
                                     <h4 className="text-uppercase mb-3 text-white">Can a dirty air condition unit cause a high electric bill?</h4>
@@ -203,7 +203,7 @@ const AcRepairInRitzDetail = () => {
 
                             <div className="col-md-6 mb-5">
                                 <div className="d-flex flex-column align-items-center">
-                                    <div className="rounded-circle bg-transparent border border-white d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
+                                    <div className="rounded-circle bg-transparent border border-4 border-info d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
                                         <i className="bi bi-check text-white" style={{ fontSize: "30px" }}></i>
                                     </div>
                                     <h4 className="text-uppercase mb-3 text-white">What is done in AC servicing?</h4>
@@ -213,7 +213,7 @@ const AcRepairInRitzDetail = () => {
 
                             <div className="col-md-6 mb-5">
                                 <div className="d-flex flex-column align-items-center">
-                                    <div className="rounded-circle bg-transparent border border-white d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
+                                    <div className="rounded-circle bg-transparent border border-4 border-info d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
                                         <i className="bi bi-check text-white" style={{ fontSize: "30px" }}></i>
                                     </div>
                                     <h4 className="text-uppercase mb-3 text-white">Is it cheaper to leave air conditioner on all day?</h4>
@@ -223,7 +223,7 @@ const AcRepairInRitzDetail = () => {
 
                             <div className="col-md-6 mb-5">
                                 <div className="d-flex flex-column align-items-center">
-                                    <div className="rounded-circle bg-transparent border border-white d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
+                                    <div className="rounded-circle bg-transparent border border-4 border-info d-flex align-items-center justify-content-center mb-4" style={{ width: "70px", height: "70px" }}>
                                         <i className="bi bi-check text-white" style={{ fontSize: "30px" }}></i>
                                     </div>
                                     <h4 className="text-uppercase mb-3 text-white">How To: Tune Up Your AC</h4>
@@ -239,7 +239,7 @@ const AcRepairInRitzDetail = () => {
                         <p className="mt-3 mb-5">Contact us now to get a free AC service quote for your home or business.</p>
 
                         <div className="text-center">
-                            <a href="https://api.whatsapp.com/send?phone=+971507464712&text=Hello" className="btn btn-outline-light btn-lg text-uppercase px-5">GET A FREE QUOTE</a>
+                            <a href="https://api.whatsapp.com/send?phone=+971507464712&text=Hello" className="btn btn-primary btn-lg text-uppercase px-5" >GET A FREE QUOTE</a>
                         </div>
                     </div>
                 </section>
