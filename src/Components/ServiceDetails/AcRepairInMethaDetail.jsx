@@ -178,7 +178,7 @@ const AcRepairInMethaDetail = () => {
                     </div>
                 </section>
 
-                {/* Ready to Beat the Heat? Find the Best AC Repair in Dubai */}
+                {/* AC Cleaning Services */}
                 <section className="section cs_py_48 text-black">
                     <div className="container">
                         <h3 class="cs_fs_30 text-black">Keep your home or Business Place Comfortable with Air Conditioning Cooling</h3>
