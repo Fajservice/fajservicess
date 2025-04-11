@@ -75,7 +75,7 @@ const Footer1 = () => {
                     </li>
                     <li>
                     <i className="bi bi-telephone-fill"></i>
-                      <a href="tel:+97143300002">+971 4 330 0002</a> <br/>
+                      <a href="tel:+971507464712">+971 50 746 4712</a> <br/>
                       <a href="tel:+971507464712">+971 50 746 4712</a>
                     </li>
                     <li>

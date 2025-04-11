@@ -30,7 +30,7 @@ const ColemenAcRepair = () => {
     <>
       <HelmetProvider>
       <title>Coleman Ac Repair in Dubai -  Air Conditioner Maintenance</title>
-      <meta name="description" content="Relax with Coleman. Call 043300002 for Coleman Ac Repair in Dubai We are experts in HVAC, Central Air Conditioner maintenance service near me"/>
+      <meta name="description" content="Relax with Coleman. Call 0507464712 for Coleman Ac Repair in Dubai We are experts in HVAC, Central Air Conditioner maintenance service near me"/>
       </HelmetProvider>
 
       <div className="cs_service_details">
@@ -41,8 +41,8 @@ const ColemenAcRepair = () => {
             <p>Coleman Air Con has become a household necessity. Just like every other appliance it is also an indispensable thing and its major job is to provide homeowners adequate cooling. However, with time like other air conditioners, Coleman AC Repair in Dubai is crucial as well.<br />Every air conditioning is an investment and if you want to get most of your disbursement into your cooling system. The proper repairs and routine checkups are a must. To avail of the best Coleman AC Repair in Dubai, you must contact an experienced and well-known company. FAJ Technical Services LLC is always present and more than happy to assist you in all your air conditioner servicing.</p>
             <div id="get-quote"  class=" mt-3">
               <div class="container d-flex justify-content-center align-items-center">
-                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+97143300002">Call Now</a>
+                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
               </div>
 
             </div>
@@ -98,11 +98,11 @@ const ColemenAcRepair = () => {
 
         <section className="section cs_py_48">
           <div className="container">
-            <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection/callout fees, AC service near you, repair, or maintenance, please click here.To book an appointment, you can call +971 4 330 0002 or reach us on WhatsApp at +971 50 746 4712.</p>
+            <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection/callout fees, AC service near you, repair, or maintenance, please click here.To book an appointment, you can call +971 50 746 4712 or reach us on WhatsApp at +971 50 746 4712.</p>
             <div id="get-quote" class="mb-3 mt-3">
               <div class="container d-flex justify-content-center align-items-center">
-                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+97143300002">Call Now</a>
+                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
               </div>
             </div>
           </div>
@@ -198,8 +198,8 @@ const ColemenAcRepair = () => {
           <div className="container">
             <div id="get-quote"  class="my-3">
               <div class="container d-flex justify-content-center align-items-center">
-                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+97143300002">Call Now</a>
+                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
               </div>
             </div>
           </div>

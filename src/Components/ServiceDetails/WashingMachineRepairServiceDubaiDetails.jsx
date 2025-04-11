@@ -28,7 +28,7 @@ const WashingMachineRepairServiceDubaiDetails = () => {
       <>
         <HelmetProvider>
           <title>Washing  Machine Repair & Maintenance Services Dubai FAJ</title>
-          <meta name="description" content="Sameday Washing Machine Repair Dubai. Book now 043300002 Get Quality Washing Machine Repair near me with Reliable Washer Dryer"></meta>
+          <meta name="description" content="Sameday Washing Machine Repair Dubai. Book now 0507464712 Get Quality Washing Machine Repair near me with Reliable Washer Dryer"></meta>
         </HelmetProvider>
         <section>
         <div className="cs_height_80 cs_height_lg_80"></div>
@@ -41,8 +41,8 @@ const WashingMachineRepairServiceDubaiDetails = () => {
                 <p>From noisy spin cycles to water leaks, no washing machine issue is too big or too small for us to handle. Whether you need repairs for a top-loading, front-loading, or compact washing machine, we've got the skills and expertise to fix your washing machine and get it run smoothly again. Looking for professional assistance with your washing machine in Dubai? Our certified experts at FAJ Technical Services LLC are specialized in washing machine repair, maintenance, and installation services throughout Dubai. Whether you're facing issues with a top-loading, front-loading, or compact washer, we are here to help you. From fixing common washing machine problems to handling emergency repairs, trust us to keep your washing machine running smoothly. Contact us now for reliable services at competitive prices!</p>
                 <div id="get-quote" class="mb-5 mt-3">
                   <div class="container d-flex justify-content-center align-items-center">
-                    <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                    <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+97143300002">Call Now</a>
+                    <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                    <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
                   </div>
                 </div>
                 <div className="row">
@@ -62,8 +62,8 @@ const WashingMachineRepairServiceDubaiDetails = () => {
                 <p>Are you having issues with your washing machine? No need to worry! You’ve landed to the right place. Our skilled washing machine technicians at FAJ Technical Service L.L.C are expert in providing efficient washing machine repairing service in Dubai. We understand the essential role your washing machine plays in your daily life, and disruption a breakdown can cause. That’s why our professional repair services are geared towards getting your washing machine back up and running in no time. That’s why we offer professional repair services to fix your washing machine. Our expert technicians will arrive on time. We are just a phone call away! Contact us to schedule your appointment now!</p>
                 <div id="get-quote" class="mb-5 mt-3">
                   <div class="container d-flex justify-content-center align-items-center">
-                    <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                    <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+97143300002">Call Now</a>
+                    <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                    <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
                   </div>
                 </div>
                 <h2>Washing Machine Repair Near Me</h2>
@@ -105,8 +105,8 @@ const WashingMachineRepairServiceDubaiDetails = () => {
                 </div>
                 <div id="get-quote" class="mb-5 mt-3">
                   <div class="container d-flex justify-content-center align-items-center">
-                    <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                    <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+97143300002">Call Now</a>
+                    <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                    <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
                   </div>
                 </div>
                   <p><a href="https://www.fajservices.ae/lg-fridge-repair-in-dubai-lg-washing-machine-repair-in-dubai-lg-cooker-repair-in-dubai-lg-oven-repair-in-dubai-lg-appliances-maintenance-in-dubai-lg-refrigerator-fix-repairs-service-in-dubai-lg-dishwa/"><strong>LG Washing Machine Repair</strong></a><strong>:</strong> FAJ is here to support you when things go wrong. We understand that your LG washing machine is essential for daily life,ensuring your laundry is clean and well-maintained.</p>
@@ -175,7 +175,7 @@ const WashingMachineRepairServiceDubaiDetails = () => {
                       <img src={`${import.meta.env.BASE_URL}/img/icons/phone-call_2.svg`} alt="Phone Icon" />
                     </div>
                     <p className="cs_white_color cs_mb_5">Requesting A Call</p>
-                    <a href="tel:+97143300002" className="cs_call_text cs_fs_30 cs_bold cs_heading_font cs_mb_23">(+971) 4 330 0002</a>
+                    <a href="tel:+971507464712" className="cs_call_text cs_fs_30 cs_bold cs_heading_font cs_mb_23">(+971) 50 746 4712</a>
                     <p className="cs_card_subtitle cs_white_color cs_mb_33">If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.</p>
                     <Link to="/about" className="cs_card_btn">
                       <span>Read more</span>

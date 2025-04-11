@@ -29,7 +29,7 @@ const YorkAcRepair = () => {
     <>
       <HelmetProvider>
       <title>York AC Repair in Dubai - Air Conditioner Maintenance Near</title>
-      <meta name="description" content="Are you need help in York AC Repair in Dubai? Call at 043300002 with FAJ Expert of HVAC, Central, VRF, (AC) air conditioner maintenance and services in Dubai"/>
+      <meta name="description" content="Are you need help in York AC Repair in Dubai? Call at 0507464712 with FAJ Expert of HVAC, Central, VRF, (AC) air conditioner maintenance and services in Dubai"/>
       </HelmetProvider>
 
       <div className="cs_service_details">
@@ -40,8 +40,8 @@ const YorkAcRepair = () => {
             <p>Easy, fast and professional York AC maintenance services in Dubai for residential and commercial units. We understand the importance of arriving on site promptly when an York air conditioning failure affecting the vital systems has occurred, and people are relying upon it. We have expert, and experienced York air con repair technician’s that ensure the best York AC Maintenance Services in Dubai, United Arab Emirates. We will also provide York AC Maintenance Services in Dubai even if we did not install them. In 2010, 89% of our callouts resulted in the successful repair of failed units on our first visit. We also offer a warranty on every repair we undertake.</p>
             <div id="get-quote"  class=" mt-3">
               <div class="container d-flex justify-content-center align-items-center">
-                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+97143300002">Call Now</a>
+                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
               </div>
 
             </div>
@@ -97,11 +97,11 @@ const YorkAcRepair = () => {
 
         <section className="section cs_py_48">
           <div className="container">
-            <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection/callout fees, AC service near you, repair, or maintenance, please click here.To book an appointment, you can call +971 4 330 0002 or reach us on WhatsApp at +971 50 746 4712.</p>
+            <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection/callout fees, AC service near you, repair, or maintenance, please click here.To book an appointment, you can call +971 50 746 4712 or reach us on WhatsApp at +971 50 746 4712.</p>
             <div id="get-quote" class="mb-3 mt-3">
               <div class="container d-flex justify-content-center align-items-center">
-                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+97143300002">Call Now</a>
+                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
               </div>
             </div>
           </div>
@@ -137,7 +137,7 @@ const YorkAcRepair = () => {
           <h3 class="cs_fs_30">York Central Controller Fault Codes</h3>
             <div className="row align-items-center">
                 <div className="col-xl-6">
-                  <img class="bordered-img" src={`${import.meta.env.BASE_URL}/img/Faj-for-speed.jpg`} alt="Post Image" />
+                  <img class="bordered-img" src={`${import.meta.env.BASE_URL}/img/ac-reapir-near-me.jpg`} alt="Post Image" />
                 </div>
                 <div className="col-xl-6">
                   <p>In this type of AC errors can be;</p>
@@ -196,8 +196,8 @@ const YorkAcRepair = () => {
           <div className="container">
             <div id="get-quote"  class="my-3">
               <div class="container d-flex justify-content-center align-items-center">
-                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+97143300002">Call Now</a>
+                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
               </div>
             </div>
           </div>
@@ -232,8 +232,8 @@ const YorkAcRepair = () => {
           <div className="container">
             <div id="get-quote"  class="my-3">
               <div class="container d-flex justify-content-center align-items-center">
-                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+97143300002">Call Now</a>
+                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
               </div>
             </div>
           </div>

@@ -28,7 +28,7 @@ const RefrigeratorRepairInDubaiDetails = () => {
       <>
         <HelmetProvider>
           <title>Refrigerator Repair Near Me | Fridge Repair Service Dubai</title>
-          <meta name="description" content="Book refrigerator repair near you. Call now at 043300002 FAJ experts to get same day fridge repair & maintenance in Dubai. Freezer fix & service center."></meta>
+          <meta name="description" content="Book refrigerator repair near you. Call now at 0507464712 FAJ experts to get same day fridge repair & maintenance in Dubai. Freezer fix & service center."></meta>
         </HelmetProvider>
         <section>
         <div className="cs_height_80 cs_height_lg_80"></div>
@@ -41,8 +41,8 @@ const RefrigeratorRepairInDubaiDetails = () => {
                 <p>One of the appliances we use on a daily basis in our homes is the refrigerator, which is used to prevent food waste. We won't be able to keep food fresh for very long if our refrigerator breaks down. A major issue is also having cold water. Furthermore, you and your entire family have a serious issue if you store food for urgent needs. With FAJ Professional, experience the best home service refrigerator repair. Our knowledgeable specialists are skilled at quickly identifying and resolving problems, so your refrigerator will continue to function flawlessly. At FAJ, we put your convenience first by providing perfect cool refrigeration services to maintain the best possible condition for your appliances.</p>
                 <div id="get-quote" className="mb-5 mt-3">
                   <div className="container d-flex justify-content-center align-items-center">
-                    <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                    <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+97143300002">Call Now</a>
+                    <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                    <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
                   </div>
                 </div>
                 <div className="row">
@@ -62,8 +62,8 @@ const RefrigeratorRepairInDubaiDetails = () => {
                 <p>Regarding refrigerator replacement parts, FAJ Professional guarantees longevity and excellence. First-rate replacement parts for well-known brands like LG, Samsung, and Bosch are used by our knowledgeable technicians. We can provide you with replacement parts for LG, Samsung, and Bosch refrigerators as well as freezer parts. Your refrigerator will last a long time because of our dedication to using authentic and trustworthy replacement parts. Furthermore, FAJ is an expert in refrigerator compressor repair. Put your trust in our professionals to identify and fix compressor problems so your refrigerator runs well. Choose FAJ Professional for trustworthy and efficient refrigerator spare part solutions. Our top goal is making sure you're satisfied.</p>
                 <div id="get-quote" className="mb-5 mt-3">
                   <div className="container d-flex justify-content-center align-items-center">
-                    <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                    <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+97143300002">Call Now</a>
+                    <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                    <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
                   </div>
                 </div>
                 <h2>Fridge Repair Near Me</h2>
@@ -110,8 +110,8 @@ const RefrigeratorRepairInDubaiDetails = () => {
                 </div>
                 <div id="get-quote" className="mb-5 mt-3">
                   <div className="container d-flex justify-content-center align-items-center">
-                    <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                    <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+97143300002">Call Now</a>
+                    <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                    <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
                   </div>
                 </div>
                 <h2 className="cs_fs_18">We specialise in Refrigerator services for the following brands.</h2>
@@ -181,7 +181,7 @@ const RefrigeratorRepairInDubaiDetails = () => {
                       <img src={`${import.meta.env.BASE_URL}/img/icons/phone-call_2.svg`} alt="Phone Icon" />
                     </div>
                     <p className="cs_white_color cs_mb_5">Requesting A Call</p>
-                    <a href="tel:+97143300002" className="cs_call_text cs_fs_30 cs_bold cs_heading_font cs_mb_23">(+971) 4 330 0002</a>
+                    <a href="tel:+971507464712" className="cs_call_text cs_fs_30 cs_bold cs_heading_font cs_mb_23">(+971) 50 746 4712</a>
                     <p className="cs_card_subtitle cs_white_color cs_mb_33">If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.</p>
                     <Link to="/about" className="cs_card_btn">
                       <span>Read more</span>
