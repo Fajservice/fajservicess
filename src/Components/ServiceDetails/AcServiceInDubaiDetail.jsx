@@ -53,14 +53,14 @@ const AcServiceInDubai = () => {
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
             <div className="row g-5">
-              <div className="col-md-6 right-border-col border-col-end">
+              <div className="col-md-6">
                 <img className="bordered-img w-100  " src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
                 <h3 className="cs_fs_25 mb-1 mt-3">Experts AC Service and Repair</h3>
                 <p>When considering AC service in Dubai, it is vital to hire a qualified and reliable AC technician who can effectively address your needs at home or in your business place.</p>
                 <p>FAJ Experts in comprehensive air conditioner (AC) service, and maintenance, ensuring that you receive the highest quality care for your cooling systems.</p>
               </div>
 
-              <div className="col-md-6">
+              <div className="col-md-6 border-small-left">
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" />
                 <h3 className="cs_fs_25 mb-1 mt-3">Signs You Need An AC Service</h3>
                 <p>If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
@@ -274,7 +274,7 @@ const AcServiceInDubai = () => {
                     </div>
                   </div>
                 </div>
-                <p className="mt-4 mb-4">Contact us now to get a free AC service quote.</p>
+                {/* <p className="mt-4 mb-4">Contact us now to get a free AC service quote.</p> */}
                 <div className="text-center mb-4">
                   <a href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" className="btn btn-primary btn-md text-uppercase px-4">GET A QUOTE</a>
                 </div>
@@ -346,10 +346,10 @@ const AcServiceInDubai = () => {
                   <img
                     src={`${import.meta.env.BASE_URL}/img/image.png`}
                     alt="AC Repair Services"
-                    className="img-fluid rounded shadow-sm"
+                    className="border border-4 border-info rounded"
                     style={{ maxHeight: "400px", objectFit: "contain" }}
                   />
-                  <p className="mt-3 text-center fw-bold d-none d-md-block">Professional AC Services in Dubai</p>
+                  {/* <p className="mt-3 text-center fw-bold d-none d-md-block">Professional AC Services in Dubai</p> */}
                 </div>
               </div>
               {/* Column 3: AC Fixing Dubai */}

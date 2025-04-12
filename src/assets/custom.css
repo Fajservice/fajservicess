@@ -154,11 +154,25 @@ section#get-quote {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 150px;
-  height: 2px;
-  background-color: #e7e7e7;
+  width: 260px;
+  height: 4px;
+  background-color: var(--bg-dark-blue);
+  border-radius: 50%;
 }
-
+.border-small-left{
+  position: relative;
+}
+.border-small-left::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4px;
+  height: 260px;
+  background-color: var(--bg-dark-blue);
+  border-radius: 50%;
+}
 
 
 
