@@ -665,21 +665,66 @@ const AcServiceInDubai = () => {
           </div>
         </section>
 
-
-
         <section className="section cs_py_48">
           <div className="container">
-            <h3 className="cs_fs_30">FAQ's</h3>
+            <h3 className="text-center">Reasons To Count On An AC Maintenance Company In Dubai</h3>
+            <p>100% satisfaction. With the support of our AC service in Dubai you can ensure your air conditioning system operates at peak performance even during the hottest months of the year. Reliable AC care in Dubai Caring for your AC system is essential in Dubais hot climate, and our AC maintenance Dubai services have been designed to keep your cooling units running smoothly.</p>
+            <ul style={{'margin-left':'15px', 'padding-top':'12px' }}>
+              <li>
+                <p class="acsvs-int-new-p"><strong>Reliable Technician:</strong> Our professional aircon servicing Dubai team is dedicated to keeping your cooling system in top shape.</p></li><li>					<p class="acsvs-int-new-p"><strong>Indoor comfort assurance:</strong> Our regular air conditioning service maintains system efficiency and indoor comfort.</p></li>
+              <li>
+                <p class="acsvs-int-new-p"><strong>Efficiency and longevity:</strong> Our Regular aircon service is essential to ensure that your AC unit functions efficiently and lasts longer.</p></li>
+              <li>
+                <p class="acsvs-int-new-p"><strong>Your comfort partner:</strong> To ensure year-round indoor comfort, air conditioning service Dubai is your go-to option.</p></li>
+              <li>
+                <p class="acsvs-int-new-p"><strong>AC maintenance for everyone:</strong> Our AC maintenance service is designed to suit both residential and commercial clients.</p></li>
+              <li>
+                <p class="acsvs-int-new-p"><strong>Fast AC solutions in Dubai:</strong> Looking for AC Repair in Dubai? Youve come to the right place, where we repair all types of AC systems, including central and split units.Are you searching for affordable aircon service Dubai? Our company is offering the best AC services and is just a phone call away.</p></li>
+            </ul>
+            <p>Regular AC maintenance services in Dubai are necessary to keep your air conditioning system operating at peak efficiency. To guarantee that your AC unit is performing at its best, FAJ offers comprehensive AC maintenance services. With our proactive maintenance approach, you may always feel comfortable and at ease knowing that your air conditioning system is operating at peak efficiency. You can rely on us if you're seeking for "AC maintenance near me" or "AC maintenance companies."</p>  
+            <br />
+
+            <h3 className="text-center">Get In Touch With Us To Get An Amazing AC Repair Service
+            </h3>
+            <p>Experience amazing AC repair service from our dedicated team at FAJ. We strive for perfection in everything we do, so you can be sure your air conditioning system will receive the best maintenance and Air conditioning repair services. Whether we are doing precise repairs or diagnosing complex issues, our AC unit repair services may deliver outstanding outcomes. We are dedicated to going above and beyond to meet the needs of our clients by providing superior, long-lasting commercial air conditioning repair service.</p>
+            <br />
+
+            <h3>AC Fixing Dubai: Now Available At Reasonable Rates
+            </h3>
+            <p>You may get your AC fixing Dubai done without going over budget with FAJ's upfront and fair charges. We offer reasonable costs for our AC leak fix because we understand how crucial it is to maintain a comfortable home environment without going over budget. Because our pricing is transparent and cheap, you can fix central AC with confidence. When your Air conditioner breaks down, the first thing you search is “What is the reasonable AC fix near me or fix my AC service” nearby? Dont worry any more. FAJ Professional never compromise on quality or service standards, so even at our reasonable costs, you can be confident that the air conditioning solutions we offer will be durable.</p>
+            <br />
+
+            <h3>Select FAJ For Air Conditioner Repairs In Dubai
+            </h3>
+            <p>When it comes to air conditioner repairs, reliability is crucial. For all of your AC needs, our team is committed to provide durable air conditioner maintenance service. You can count on our house air conditioner repair near me to locate the problem and complete repairs promptly, regardless of how minor or major the failure is. We ensure maximum and accurate performance of your AC by our extensive air conditioner service and repair. You can trust FAJ if you need a skilled air conditioner technician near me.</p>
+            <br />
+            
+            <h3>Hire The Number 1 AC Service Company In Dubai</h3>
+            <p>Our experienced technicians operate all over the city and neighborhood sectors as Dubai’s leading AC repair and maintenance service providers. All of our clients receive one-of-a-kind, highly professional services at an unbeatable price.
+              <br />
+            <a href="https://www.google.com/maps/place/FAJ+Technical+Services+L.L.C+-+Warehouse+No+-+S-02+Gate+35+Street+18b+-+Al+Quoz+-+Al+Quoz+Industrial+Area+4+-+Dubai+-+United+Arab+Emirates/data=!4m2!3m1!1s0x3e5f699a600aceeb:0xa6121b25d557aa94?utm_source=mstt_1&amp;entry=gps&amp;lucs=47068615&amp;g_ep=CAESCTExLjkxLjMwMhgAINeCAyoINDcwNjg2MTVCAlBL">FAJ Technical Services LLC</a>, Number 1 AC Service Company in Dubai specializes in the installation, after-sales repairs, and maintenance of portable and installed air conditioning units in both commercial and residential settings. We provide ongoing AC service and maintenance, including emergency repairs, at a great value.
+             <br />
+             All of our technicians are professionals with years of industry experience who will treat your property with extreme care and precision as if it were their own.
+            </p>
+          </div>
+        </section>
+
+
+
+
+        <section className="section cs_py_48  bg-dark-blue text-light">
+          <div className="container">
+            <h3 className="cs_fs_30 text-light">FAQ's</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 
               {data.map((item, index) => (
                 <div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`} >
                   <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
-                    <span className="cs_fs_16 black-font-color cs_semibold mb-0">{item.title}</span>
+                    <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
                     <span className="cs_accordian_toggle">
-                      <i className="bi bi-eye"></i>
-                      <i className="bi bi-eye-slash"></i>
+                      <i className="bi bi-eye text-light"></i>
+                      <i className="bi bi-eye-slash text-light"></i>
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>
