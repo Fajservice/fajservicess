@@ -6,6 +6,7 @@
   --bg-deep-blue:#366D92;
   --bg-light-gray: #dddddd63;
   --bg-dark-blue: #00334e;
+  --sky-blue-font:#76DCEB;
 
 }
 
@@ -23,6 +24,10 @@
 
 .bg-dark-blue{
   background-color: var(--bg-dark-blue);
+}
+
+.sky-blue-font{
+  color: var(--sky-blue-font);
 }
 
 @font-face {
@@ -114,12 +119,46 @@ section#get-quote {
   .cs_logo_bg_shape img{
     height: -webkit-fill-available;
   }
+
+  .appointment-col.border-small-top{
+    border-top: 0 !important;
+  }
+  .right-border-col.border-col-end{
+    border-right: 0 !important;
+  }
 }
+
 @media (max-width: 991px) {
   .cs_fs_50 {
       font-size: 30px;
   }
 }
+
+
+.right-border-col.border-col-end{
+  border-right: 1px solid #e7e7e7;
+}
+
+.appointment-col.border-small-top{
+  /* border-top: 1px solid #e7e7e7; */
+
+}
+
+
+.appointment-col.border-small-top{
+  position: relative;
+}
+.appointment-col.border-small-top::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  height: 2px;
+  background-color: #e7e7e7;
+}
+
 
 
 
