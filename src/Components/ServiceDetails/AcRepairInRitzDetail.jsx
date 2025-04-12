@@ -40,8 +40,8 @@ const AcRepairInRitzDetail = () => {
                         <p>FAJ Technical Services LLC is your premier choice for quality AC Service In Dubai. With 14 years of experience in AC repairing, maintenance, and servicing, we are the most trusted air conditioning service company in Dubai, UAE.<br />FAJ is providing AC repair and maintenance services to all areas of Dubai. Our AC technicians are skilled and specialize in repairing all AC types, brands, and models. Experience reliable AC repair and maintenance to keep your home or business cool and comfortable.</p>
                         <div id="get-quote" class=" mt-3">
                             <div class="container d-flex justify-content-center align-items-center">
-                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
+                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#0D6EFD" }}>Get A Free Quote</a>
+                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex border border-outline align-items-center" href="tel:+971507464712">Call Now</a>
                             </div>
 
                         </div>
@@ -102,8 +102,8 @@ const AcRepairInRitzDetail = () => {
                             To book an appointment, you can call +971 50 7464 712 or reach us on WhatsApp at +971 50 746 4712</p>
                         <div id="get-quote" class="mb-3 mt-3">
                             <div class="container d-flex justify-content-center align-items-center">
-                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
+                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#0D6EFD" }}>Get A Free Quote</a>
+                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex border border-outline align-items-center" href="tel:+971507464712">Call Now</a>
                             </div>
                         </div>
                     </div>
@@ -131,8 +131,8 @@ const AcRepairInRitzDetail = () => {
                                     When it comes to Air Conditioner installation service, You Only Want to Bring Professional, Trustworthy Servicemen into Your Home or Place of Business.</p>
                                 <div id="get-quote" class=" mt-4">
                                     <div class="container d-flex justify-content-center align-items-center">
-                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
+                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#0D6EFD" }}>Get A Free Quote</a>
+                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex border border-outline align-items-center" href="tel:+971507464712">Call Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -270,7 +270,7 @@ const AcRepairInRitzDetail = () => {
                     <div id="get-quote" class=" mt-4">
                                     <div class="container d-flex justify-content-center align-items-center">
                                         <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#0D6EFD" }}>Get A Free Quote</a>
-                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex border border-outline align-items-center link-info" href="tel:+97143300002">Call Now</a>
+                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex border border-outline align-items-center" href="tel:+97143300002">Call Now</a>
                                     </div>
                                 </div>
                 </section>
@@ -290,7 +290,7 @@ const AcRepairInRitzDetail = () => {
                     </div>
                 </section>
 
-                {/* ire The Number 1 AC Service Company in Dubai*/}
+                {/* Hire The Number 1 AC Service Company in Dubai*/}
                 <section className="section cs_py_48 text-black">
                     <div className="container">
                         <h3 class="cs_fs_30 text-black">Hire The Number 1 AC Service Company in Dubai</h3>
@@ -301,7 +301,7 @@ const AcRepairInRitzDetail = () => {
                     <div id="get-quote" class=" mt-4">
                                     <div class="container d-flex justify-content-center align-items-center">
                                         <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#0D6EFD" }}>Get A Free Quote</a>
-                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex border border-outline align-items-center link-info" href="tel:+97143300002">Call Now</a>
+                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex border border-outline align-items-center" href="tel:+97143300002">Call Now</a>
                                     </div>
                                 </div>
                 </section>
@@ -319,7 +319,9 @@ const AcRepairInRitzDetail = () => {
                         <p><strong>Gree AC Service and Maintenance: </strong>Has your AC stopped working? No need to endure unpleasant temperatures and stuffy air or suffer losses due to damaged equipment (broken Gree air conditioning in a room, for example, can be a disaster!) – FAJ gets your Gree air conditioning back up and running in no time!</p>
                         <p><strong>O General AC Service and Repair: </strong>O General AC service in Dubai requires expert help because only specialized ones know how to address aircon issues. We are a hassle-free air conditioning service provider.</p>
                         <p><strong>Mitsubishi Air Conditioner Service and Repair: </strong>Seeking relief from scorching heat? Discover the secret to keeping your Mitsubishi AC running smoothly in Dubai! Our expert Mitsubishi AC services ensure your AC stays cool and efficient, providing comfort and peace of mind.</p>
-                        <p><a href="#">Sanyo AC Service Dubai</a> <a href="#"> Rheem AC Service</a></p>
+                        <p><a href="https://www.fajservices.ae/sanyo-ac-repair-in-dubai-sanyo-ac-maintenance-in-dubai-sanyo-ac-fix-in-dubai-sanyo-ac-service-in-dubai-sanyo-air-condition-repair-in-dubai-sanyo-air-condition-maintenance-in-dubai-sanyo-air-condition/">Sanyo AC Service Dubai</a> | <a href="https://www.fajservices.ae/rheem-ac-maintenance-in-dubai/"> Rheem AC Service</a> |
+                        <a href="https://www.fajservices.ae/skm-ac-repair-in-dubai-skm-ac-maintenance-in-dubai-skm-ac-fix-in-dubai-skm-ac-service-in-dubai-skm-air-condition-repair-in-dubai-skm-air-condition-maintenance-in-dubai-skm-air-condition-maintenance-in/">SKM AC Service Dubai</a> | <a href="https://www.fajservices.ae/daewoo-ac-repair-in-dubai-daewoo-ac-maintenance-in-dubai-daewoo-ac-fix-in-dubai-daewoo-ac-service-in-dubai-daewoo-air-condition-repair-in-dubai-daewoo-air-condition-maintenance-in-dubai-daewoo-air-con/">Daewoo AC Service Dubai</a> | <a href="https://www.fajservices.ae/ac-service-in-dubai">Carrier AC Service</a> | <a href="https://www.fajservices.ae/midea-ac-installation-maintenance-repair-fix-service-in-dubai/"> Midea Air Conditioner Service Near Me</a> | <a href="https://www.fajservices.ae/lennox-ac-repair-in-dubai-lennox-ac-maintenance-in-dubai-lennox-ac-fix-in-dubai-lennox-ac-service-in-dubai-lennox-air-condition-repair-in-dubai-lennox-air-condition-maintenance-in-dubai-lennox-air-con/">Lennox Air Conditioning Service</a> | <a href="https://www.fajservices.ae/goodman-ac-repair-in-dubai-goodman-ac-maintenance-in-dubai-goodman-ac-fix-in-dubai-goodman-ac-service-in-dubai-goodman-air-condition-repair-in-dubai-goodman-air-condition-maintenance-in-dubai-goodman/">Goodman AC Service Dubai</a> | <a href="https://www.fajservices.ae/coleman-ac-repair-in-dubai-coleman-ac-maintenance-in-dubai-coleman-ac-fix-in-dubai-coleman-ac-service-in-dubai-coleman-air-condition-repair-in-dubai-coleman-air-condition-maintenance-in-dubai-coleman/">Coleman AC Services</a> | <a href="https://www.fajservices.ae/westpoint-ac-repair-in-dubai-westpoint-ac-maintenance-in-dubai-westpoint-ac-fix-in-dubai-westpoint-ac-service-in-dubai-west-point-air-condition-repair-in-dubai-west-point-air-condition-maintenance-in/"> Westpoint Service</a> | <a href="https://www.fajservices.ae/westpoint-ac-repair-in-dubai-westpoint-ac-maintenance-in-dubai-westpoint-ac-fix-in-dubai-westpoint-ac-service-in-dubai-west-point-air-condition-repair-in-dubai-west-point-air-condition-maintenance-in/">Aftron AC Service Near Me</a> | <a href="https://www.fajservices.ae/crafft-ac-repair-in-dubai-crafft-ac-maintenance-in-dubai-crafft-ac-fix-in-dubai-crafft-ac-service-in-dubai-crafft-air-condition-repair-in-dubai-crafft-air-condition-maintenance-in-dubai-crafft-air-con/">Crafft AC Service</a> | <a href="https://www.fajservices.ae/bryant-ac-repair-in-dubai-bryant-ac-maintenance-in-dubai-bryant-ac-fix-in-dubai-bryant-ac-service-in-dubai-bryant-air-condition-repair-in-dubai-bryant-air-condition-maintenance-in-dubai-bryant-air-con/"> Bryant AC Service</a> | <a href="https://www.fajservices.ae/ruud-ac-repair-in-dubai-ruud-ac-maintenance-in-dubai-ruud-ac-fix-in-dubai-ruud-ac-service-in-dubai-ruud-air-condition-repair-in-dubai-ruud-air-condition-maintenance-in-dubai-ruud-air-condition-mainten/">Ruud Air Conditioner Service </a> | <a href="https://www.fajservices.ae/mcquay-ac-repair-in-dubai-mcquay-ac-maintenance-in-dubai-mcquay-ac-fix-in-dubai-mcquay-ac-service-in-dubai-mcquay-air-condition-repair-in-dubai-mcquay-air-condition-maintenance-in-dubai-mcquay-air-con/">McQuay Air Conditioning Service </a> | <a href="https://www.fajservices.ae/blue-star-ac-repair-in-dubai-blue-star-ac-maintenance-in-dubai-blue-star-ac-fix-in-dubai-blue-star-ac-service-in-dubai-blue-star-air-condition-repair-in-dubai-blue-star-air-condition-maintenance-in-du/"> Blue Star</a> | <a href="https://www.fajservices.ae/supra-ac-repair-in-dubai-supra-ac-maintenance-in-dubai-supra-ac-fix-in-dubai-supra-ac-service-in-dubai-supra-air-condition-repair-in-dubai-supra-air-condition-maintenance-in-dubai-supra-air-condition/"> Supra AC Service</a> |  <a href="https://www.fajservices.ae/toshiba-ac-repair-in-dubai-toshiba-ac-maintenance-in-dubai-toshiba-ac-fix-in-dubai-toshiba-ac-service-in-dubai-toshiba-air-condition-repair-in-dubai-toshiba-air-condition-maintenance-in-dubai-toshiba/"> Toshiba AC Service</a> | <a href="https://www.fajservices.ae/whirlpool-air-condition-repair-in-dubai-ac-maintenance-in-dubai-air-conditioning-fix-repairs-service-in-dubai/">Whirlpool AC Service</a> | <a href="https://www.fajservices.ae/whirlpool-air-condition-repair-in-dubai-ac-maintenance-in-dubai-air-conditioning-fix-repairs-service-in-dubai/"> Super General</a> | <a href="https://www.fajservices.ae/hitachi-ac-repair-in-dubai-hitachi-ac-maintenance-in-dubai-hitachi-ac-fix-in-dubai-hitachi-ac-service-in-dubai-hitachi-air-condition-repair-in-dubai-hitachi-air-condition-maintenance-in-dubai-hitachi/"> Hitachi AC Service</a> | <a href="https://www.fajservices.ae/o-general-ac-repair-in-dubai-o-general-ac-maintenance-in-dubai-o-general-ac-fix-in-dubai-o-general-ac-service-in-dubai-o-general-air-condition-repair-in-dubai-o-general-air-condition-maintenance-in-du/">O General Air Conditioning Service</a> | <a href="https://www.fajservices.ae/cooline-ac-repair-in-dubai-cooline-ac-maintenance-in-dubai-cooline-ac-fix-in-dubai-cooline-ac-service-in-dubai-cooline-air-condition-repair-in-dubai-cooline-air-condition-maintenance-in-dubai-cooline/">Cooline Air Conditioner Service Near Me</a></p>
+                        
                     </div>
                 </section>
 
