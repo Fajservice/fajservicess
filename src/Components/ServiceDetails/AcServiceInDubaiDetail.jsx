@@ -100,7 +100,7 @@ const AcServiceInDubai = () => {
           <div id="get-quote" className="mt-3">
             <div className="container d-flex justify-content-center align-items-center">
 
-              <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Contact Us</a>
+              <a data-anim-type="fade-in-up" className="btn btn-primary btn-md text-uppercase px-4" href="tel:+971507464712">Contact Us</a>
             </div>
           </div>
         </section>
@@ -466,7 +466,7 @@ const AcServiceInDubai = () => {
             <p>You need efficient air conditioning repair service to get your home or place of work comfortable. We use modern equipment to provide air conditioning service so we can assist our client in the best way possible. Whether it's a simple repair or a complex commercial air conditioning servicing, we're committed to provide timely, effective solutions for industrial air conditioning systems that meet your expectations. If you're looking for trustworthy air conditioning near me, you can trust FAJ.</p>
             <div id="get-quote" className="row">
               <div className="col-12 d-flex justify-content-center">
-                <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex border border-outline align-items-center" href="tel:+97143300002">Contact Us</a>
+                <a data-anim-type="fade-in-up" className="btn btn-primary btn-md text-uppercase px-4" href="tel:+971507464712">Contact Us</a>
               </div>
             </div>
 
