@@ -41,14 +41,12 @@ const AcServiceInDubai = () => {
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30">The FAJ experts can help you make your home or place of business more comfortable</h2>
             <p>FAJ Technical Services LLC is your premier choice for quality AC Service In Dubai. With 14 years of experience in AC repairing, maintenance, and servicing, we are the most trusted air conditioning service company in Dubai, UAE.<br />FAJ is providing AC repair and maintenance services to all areas of Dubai. Our AC technicians are skilled and specialize in repairing all AC types, brands, and models. Experience reliable AC repair and maintenance to keep your home or business cool and comfortable.</p>
+            
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
-                {/* <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#0d6efd" }}>Get A Quote</a>
-                <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center border border-outline" href="tel:+971507464712">Call Now</a> */}
-                <CallNowButton/>
-                <GetQuoteButton/>
+                <GetQuoteButton />
+                <CallNowButton />
               </div>
-
             </div>
             {/*  */}
           </div>
@@ -79,12 +77,14 @@ const AcServiceInDubai = () => {
 
             <div className="appointment-col border-small-top pt-3">
               <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection/callout fees, AC service near you, repair, or maintenance, please click here.To book an appointment, you can call +971 50 7464 712 or reach us on WhatsApp at +971 50 746 4712.</p>
+              
               <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center">
-                  <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#0d6efd" }}>Get A Quote</a>
-                  <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center border border-outline" href="tel:+971507464712">Call Now</a>
-                </div>
+              <div className="container d-flex justify-content-center align-items-center gap-3">
+                <GetQuoteButton />
+                <CallNowButton />
               </div>
+            </div>
+
             </div>
           </div>
         </section>
@@ -98,9 +98,10 @@ const AcServiceInDubai = () => {
         <section className="section cs_py_48 bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">Make Your AC Cool Faster – Beat the Summer Heat!</h3>
-            <p>Ready to Beat the Heat? Look no further! Find the best AC Repair in Dubai and keep yourself cool all summer long. Our expert AC technicians ensure fast, reliable services to get your AC up and running.  Our service guarantees a comfortable home or office environment, even during the scorching heat of Dubai. Plus, with our affordable rates and transparent pricing, you can trust that you're getting the best value for your money. Don't suffer through another day of sweltering temperatures. Click below to schedule your AC repair and maintenance now and experience instant relief! Stay cool, Dubai!</p>
+            <p>Ready to Beat the Heat? Look no further! Find the best AC Repair in Dubai and keep yourself cool all summer long. Our expert AC technicians ensure fast, reliable services to get your AC up and running.<br/>Our service guarantees a comfortable home or office environment, even during the scorching heat of Dubai. Plus, with our affordable rates and transparent pricing, you can trust that you're getting the best value for your money. Don't suffer through another day of sweltering temperatures. Click below to schedule your AC repair and maintenance now and experience instant relief! Stay cool, Dubai!</p>
 
           </div>
+
           <div id="get-quote" className="mt-3">
             <div className="container d-flex justify-content-center align-items-center">
 
@@ -336,7 +337,7 @@ const AcServiceInDubai = () => {
           </div>
         </section>
 
-        
+
         {/* Searching For HVAC Companies Near Me */}
         <section className="section cs_py_48 text-black">
           <div className="container">
@@ -344,7 +345,7 @@ const AcServiceInDubai = () => {
               {/* Column 1: Get In Touch With Us */}
               <div className="col-md-4 pe-md-3">
                 <h3 className="cs_fs_30 text-black mb-3 text-center">Searching For HVAC Companies Near Me</h3>
-                <p className="" style={{'text-align':'justify'}}>We stand out from other “HVAC companies near me” with our commitment to customer satisfaction and top-notch service. Our reliable HVAC service ensures that every customer receives personalized attention and residential HVAC service tailored to their specific demands. Our expert HVAC service technician wants to build long-lasting relationships built on mutual respect and trust, therefore we place a high priority on being honest and upfront in all of our interactions. FAJ is a partner that truly cares about your comfort and well-being, so you can rely on them for more than just simple industrial HVAC services and HVAC duct repair.</p>
+                <p className="" style={{ 'text-align': 'justify' }}>We stand out from other “HVAC companies near me” with our commitment to customer satisfaction and top-notch service. Our reliable HVAC service ensures that every customer receives personalized attention and residential HVAC service tailored to their specific demands. Our expert HVAC service technician wants to build long-lasting relationships built on mutual respect and trust, therefore we place a high priority on being honest and upfront in all of our interactions. FAJ is a partner that truly cares about your comfort and well-being, so you can rely on them for more than just simple industrial HVAC services and HVAC duct repair.</p>
               </div>
               {/* Column 2: Center Image - Smaller on mobile */}
               <div className="col-md-4 d-flex justify-content-center align-items-center">
@@ -361,16 +362,17 @@ const AcServiceInDubai = () => {
               {/* Column 3: AC Fixing Dubai */}
               <div className="col-md-4 ps-md-3">
                 <h3 className="cs_fs_30 text-black mb-3 text-center">AC Fixing Dubai: Now Available At Reasonable Prices</h3>
-                <p className="" style={{'text-align':'justify'}}>You may get your AC fixing Dubai done without going over budget with FAJ's upfront and fair charges. We offer reasonable costs for our AC leak fix because we understand how crucial it is to maintain a comfortable home environment without going over budget. Because our pricing is transparent and cheap, you can fix central AC with confidence. When your Air conditioner breaks down, the first thing you search is "What is the reasonable AC fix near me or fix my AC service" nearby? Dont worry any more. FAJ Professional never compromise on quality or service standards, so even at our reasonable costs, you can be confident that the air conditioning solutions we offer will be durable.</p>
+                <p className="" style={{ 'text-align': 'justify' }}>You may get your AC fixing Dubai done without going over budget with FAJ's upfront and fair charges. We offer reasonable costs for our AC leak fix because we understand how crucial it is to maintain a comfortable home environment without going over budget. Because our pricing is transparent and cheap, you can fix central AC with confidence. When your Air conditioner breaks down, the first thing you search is "What is the reasonable AC fix near me or fix my AC service" nearby? Dont worry any more. FAJ Professional never compromise on quality or service standards, so even at our reasonable costs, you can be confident that the air conditioning solutions we offer will be durable.</p>
               </div>
             </div>
             {/* Buttons centered below all columns */}
-            <div id="get-quote" className="row">
-              <div className="col-12 d-flex justify-content-center">
-                <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#0D6EFD" }}>Get A Free Quote</a>
-                <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex border border-outline align-items-center" href="tel:+97143300002">Call Now</a>
+            <div id="get-quote" className=" mt-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3">
+                <GetQuoteButton />
+                <CallNowButton />
               </div>
             </div>
+            
           </div>
         </section>
 
@@ -449,12 +451,13 @@ const AcServiceInDubai = () => {
 
             </div>
 
-            <div id="get-quote" className="mb-3 mt-3">
-              <div className="container d-flex justify-content-center align-items-center">
-                <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#0d6efd" }}>Get A Quote</a>
-                <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center border border-outline" href="tel:+971507464712">Call Now</a>
+            <div id="get-quote" className=" mt-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3">
+                <GetQuoteButton />
+                <CallNowButton />
               </div>
             </div>
+
           </div>
         </section>
 
@@ -468,8 +471,19 @@ const AcServiceInDubai = () => {
             <h3 className="text-center sky-blue-font">FAJ Services Offer Expert AC Technician Near Me</h3>
             <p>In the intense heat of Dubai, when you need emergency AC cleaner services, it's critical to find a professional AC mechanic near me for immediate assistance. Look no farther than FAJ if you need a reliable and skilled AC mechanic in Dubai. For all of your cooling needs, our air conditioning specialists work throughout Dubai to deliver efficient solutions and timely service. Hire FAJ services to get an AC technician near me who can handle all of your AC-related issues.</p>
             <br />
-            <h3 className="cs_fs_30 sky-blue-font">Restore Your AC With FAJ’s Air Conditioning Service</h3>
-            <p>You need efficient air conditioning repair service to get your home or place of work comfortable. We use modern equipment to provide air conditioning service so we can assist our client in the best way possible. Whether it's a simple repair or a complex commercial air conditioning servicing, we're committed to provide timely, effective solutions for industrial air conditioning systems that meet your expectations. If you're looking for trustworthy air conditioning near me, you can trust FAJ.</p>
+            <h3 className="cs_fs_30 sky-blue-font">Select FAJ For Air Conditioner Repairs In Dubai
+            </h3>
+            <p>When it comes to air conditioner repairs, reliability is crucial. For all of your AC needs, our team is committed to provide durable air conditioner maintenance service. You can count on our house air conditioner repair near me to locate the problem and complete repairs promptly, regardless of how minor or major the failure is. We ensure maximum and accurate performance of your AC by our extensive air conditioner service and repair. You can trust FAJ if you need a skilled air conditioner technician near me.</p>
+            <br />
+            <h3 className="cs_fs_30 sky-blue-font">Hire The Number 1 AC Service Company In Dubai
+            </h3>
+            <p>Our experienced technicians operate all over the city and neighborhood sectors as Dubai’s leading AC repair and maintenance service providers. All of our clients receive one-of-a-kind, highly professional services at an unbeatable price.
+              <br />
+              <a href="https://www.google.com/maps/place/FAJ+Technical+Services+L.L.C+-+Warehouse+No+-+S-02+Gate+35+Street+18b+-+Al+Quoz+-+Al+Quoz+Industrial+Area+4+-+Dubai+-+United+Arab+Emirates/data=!4m2!3m1!1s0x3e5f699a600aceeb:0xa6121b25d557aa94?utm_source=mstt_1&entry=gps&lucs=47068615&g_ep=CAESCTExLjkxLjMwMhgAINeCAyoINDcwNjg2MTVCAlBL">
+                FAJ Technical Services LLC</a>, Number 1 AC Service Company in Dubai specializes in the installation, after-sales repairs, and maintenance of portable and installed air conditioning units in both commercial and residential settings. We provide ongoing AC service and maintenance, including emergency repairs, at a great value.
+                All of our technicians are professionals with years of industry experience who will treat your property with extreme care and precision as if it were their own.
+
+            </p>
             <div id="get-quote" className="row">
               <div className="col-12 d-flex justify-content-center">
                 <a data-anim-type="fade-in-up" className="btn btn-primary btn-md text-uppercase px-4" href="tel:+971507464712">Contact Us</a>
@@ -480,7 +494,7 @@ const AcServiceInDubai = () => {
         </section>
 
 
-        {/* <section className="section cs_py_48">
+        <section className="section cs_py_48">
           <div className="container">
             <h3 className="text-center">Common Signs Your AC May Need Maintenance</h3>
             <div className="row gx-lg-3 gy-lg-4">
@@ -575,9 +589,10 @@ const AcServiceInDubai = () => {
 
 
           </div>
-        </section> */}
+        </section>
 
-        <section className="section cs_py_48">
+        {/* Our AC Repair & Maintenance Services */}
+        <section className="section cs_py_48 bg-light-gray">
           <div className="container">
             <h3 className="text-center">Our AC Repair & Maintenance Services</h3>
             <div className="row gx-lg-3 gy-lg-4">
@@ -728,15 +743,31 @@ const AcServiceInDubai = () => {
           <div className="container">
             <h3>Restore Your AC With FAJ’s Air Conditioning Service</h3>
             <p>You need efficient air conditioning repair service to get your home or place of work comfortable. We use modern equipment to provide air conditioning service so we can assist our client in the best way possible. Whether it's a simple repair or a complex commercial air conditioning servicing, we're committed to provide timely, effective solutions for industrial air conditioning systems that meet your expectations. If you're looking for trustworthy air conditioning near me, you can trust FAJ.</p>
-
             <br />
 
             <h3>Get Professional Air Con Servicing In Your Town</h3>
             <p>Avail the advantages of regular air con maintenance from FAJ in your neighborhood. Our comprehensive air con servicing is designed to maintain optimal performance of your AC, resulting in optimal comfort and efficiency. You can save money on repairs and have reliable cooling all year long with our aircon servicing deals.</p>
-            <div id="get-quote" className="row">
-              <div className="col-12 d-flex justify-content-center">
-                <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#0D6EFD" }}>Get A Free Quote</a>
-                <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex border border-outline align-items-center" href="tel:+97143300002">Call Now</a>
+            <br />
+
+            <h3>Get In Touch With Us To Get An Amazing AC Repair Service</h3>
+            <p>Experience amazing AC repair service from our dedicated team at FAJ. We strive for perfection in everything we do, so you can be sure your air conditioning system will receive the best maintenance and Air conditioning repair services. Whether we are doing precise repairs or diagnosing complex issues, our AC unit repair services may deliver outstanding outcomes. We are dedicated to going above and beyond to meet the needs of our clients by providing superior, long-lasting commercial air conditioning repair service.</p>
+            <br />
+
+
+
+            <h3>Trust Us For All Of Your AC Services In Dubai Needs
+            </h3>
+            <p>The Healthy Home provides premium and professional air conditioning services in the UAE. Our AC service professionals can resolve your AC problems. Full AC cleaning, AC chemical cleaning, AC coil cleaning, AC repair services, and regular AC maintenance are all part of AC servicing.
+              <br />
+              When you live in a hot and humid climate like the UAE, you may notice that you require regular AC services. This is primarily because you run your air conditioner almost constantly throughout the year. As a result, you will need to have your air conditioner serviced more frequently than people who live in colder climates.
+
+              Because of the dustier environment, you will need regular AC filter cleaning, especially if you suffer from asthma or allergies. Because of the high usage, AC repair and maintenance are performed regularly. Our skilled AC technicians provide excellent repair services. We also provide annual maintenance contracts (AMC) to make sure that your air conditioner is always in good working order.
+            </p>
+
+            <div id="get-quote" className=" mt-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3">
+                <GetQuoteButton />
+                <CallNowButton />
               </div>
             </div>
 

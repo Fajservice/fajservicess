@@ -377,7 +377,7 @@ section#get-quote {
 
 /* Common box  */
 .box-content-container{
-  min-height: 185px;
+  min-height: 175px;
   max-height: 185px;
   overflow-y: auto;
 }
