@@ -126,6 +126,10 @@ section#get-quote {
   .right-border-col.border-col-end{
     border-right: 0 !important;
   }
+
+  .call-now-btn .call-icon , .quote-now-btn .quote-icon {
+    max-width: 115px !important;
+  }
 }
 
 @media (max-width: 991px) {
@@ -418,3 +422,5 @@ a.btn-green-yellow:hover{
 .quote-now-btn:hover .quote-icon {
   content: url('../../dist/img/icons/quote-icon-hover.png');
 }
+
+
