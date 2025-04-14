@@ -10,7 +10,7 @@ const Choose1 = ({img1,content,btnName,btnUrl,img2,img3}) => {
           <div className="cs_section_heading cs_style_1 text-center">
            <SectionTitle2
                 SubTitle="WHY CHOOSE US"
-                Title="Because Your Appliance Deserves <br> the Best"
+                Title="We provide cost-effective and reliable services <br> complemented by effective communication and support."
            ></SectionTitle2>
           </div>
           <div className="cs_height_27 cs_height_lg_65"></div>

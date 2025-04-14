@@ -1,17 +1,22 @@
 [
   {
     "img": "/img/icons/car.svg",   
-    "title": "Car Protection & Fitness",
-    "desc": "Regular oil changes are essential for keeping the asd engine lubricated reducing."
+    "title": "Honesty",
+    "desc": "We prioritize integrity and honesty in everything we do. We believe that our clients, partners, and teams should always have a complete understanding to foster sustainable business growth based on trust."
   },
   {
     "img": "/img/icons/engine.svg",   
-    "title": "Expert Engine & Balancing",
-    "desc": "The old engine oil is drained and replaced with fresh oil, and the oil filter is also replaced."
+    "title": "Ambition",
+    "desc": "We are highly ambitious and genuinely care about our business."
   },
   {
     "img": "/img/icons/gear_icon_2.svg",   
-    "title": "Wing shield & glass Repair",
-    "desc": "The braking system is crucial for safety requiring car regular maintenance to ensure optimal"
-  }   
+    "title": "Responsibility",
+    "desc": "We recognize the importance of our responsibilities towards our customers and business partners."
+  },
+  {
+    "img": "/img/icons/gear_icon_2.svg",   
+    "title": "Loyalty",
+    "desc": "We are committed to being loyal to our partners, customers, teams, and colleagues."
+  }
 ]

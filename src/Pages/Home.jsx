@@ -28,9 +28,9 @@ const Home = () => {
                 img3="/img/about_img_3.jpg"
                 expNumber="FAJ"
                 expYers="was established"
-                expTitle="Since-"
+                expTitle="in-"
                 expTitleYear="2010"
-                expDescrip="And is dedicated to delivering exceptional service that meets the highest international standards."
+                expDescrip="We are committed to delivering top-notch technical services that meet the highest international standards for exceptional quality."
                 number="(+971) 4-330-0002"
                 telLink="tel:+971507464712"
                 subTitle="About Us"
@@ -68,7 +68,7 @@ const Home = () => {
             <Project1></Project1>
             <Contact1
                 Title="Contact Information"
-                subTitle="It is a long established fact that a reader be by the readable distracted  layout."
+                subTitle="FAJ location is easily accessible from Al Khail Road and Sheikh Zayed Road. Drop off your appliance at the workshop to receive a discount on the technical inspection fee and service.."
                 address="Warehouse # 2, Street 18b, Al Quoz Industrial Area # 4 Dubai – United Arab Emirates."
                 email="Info@fajservcies.ae"
                 emailLink="mailto:info@fajservices.ae"

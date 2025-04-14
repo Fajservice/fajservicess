@@ -2,81 +2,49 @@
   {
     "img": "/img/service_img_1.webp",
     "icon": "/img/icons/air-conditioning.png",
-    "title": "AC Service",
-    "desc": "If your car struggles to start the lights dim when idling or the battery over three years old it may be time",   
+    "title": "Air Conditioning Services",
+    "desc": "Stay cool this hot summer! Make your home or workplace a more comfortable place to live and work with FAJ's professional AC repair and maintenance contract services.",   
     "btnText": "READ MORE",
     "btnLink": "/ac-service-in-dubai/"
   },
   {
     "img": "/img/bbq.webp",
     "icon": "/img/icons/bbq.png",
-    "title": "BBQ Service",
-    "desc": "Enjoy perfect grilling every time! If your BBQ isn’t heating up properly, let our experts handle it. Call 050 7464712 for reliable BBQ  services.",   
+    "title": "Commercial Refrigeration Services",
+    "desc": "Prevent losses when your refrigeration system fails. Keeping your stock in optimal condition is vital for extending storage life and managing costs. We provide reliable repair and maintenance for all refrigeration to ensure efficient operation.",   
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"
   },
   {
     "img": "/img/coffee machine.webp",
     "icon": "/img/icons/coffee machine.png",
-    "title": "Coffee Machine Repair",
-    "desc": "If your check battery light comes on it's best to schedule a diagnostic service as soon as possible to identify address",   
+    "title": "Kitchen Equipments Services",
+    "desc": "When kitchen equipment stops working, it leads to downtime, which can significantly impact your profits. We provide same-day repair or maintenance services to restore equipment to working condition.",   
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"
   },
   {
     "img": "/img/gas and electric hob.webp",
     "icon": "/img/icons/gas and electric hob.png",
-    "title": "Hob Repair",
-    "desc": "If your car struggles to start the lights dim when idling or the battery over three years old it may be time",   
+    "title": "Laundry Equipment Services",
+    "desc": "We understand that time is of the essence when it comes to laundry system breakdowns, as these issues can significantly impact daily use or the business operation. Contact us for our comprehensive breakdown, repair, and maintenance to keep your business running smoothly",   
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"
   },
   {
     "img": "/img/oven.webp",
     "icon": "/img/icons/oven.png",
-    "title": "Oven Repair",
-    "desc": "Cooking delays due to a malfunctioning oven? Get back to making delicious meals with our fast repair service. Call  050 7464712 for expert assistance!",   
+    "title": "Coffee Machine Services",
+    "desc": "Without coffee, routines can be affected. A broken coffee machine at home, office, or in a restaurant can disrupt productivity and business.We understand the importance of having your coffee or espresso machine work smoothly. Our expert repair team provides maintenance services for various coffee machines.",   
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"
   },
   {
     "img": "/img/cooker.webp",
     "icon": "/img/icons/cooker.png",
-    "title": "Cooker Repair",
-    "desc": "Cooking delays due to a malfunctioning cooker? Get back to making delicious meals with our fast repair service. Call  050 7464712 for expert assistance!",   
+    "title": "Home Appliances Service Center",
+    "desc": "Daily life is affected when kitchen appliances malfunction, as they are essential for cleanliness and freshness. They keep your clothes and dishes clean, your food fresh, and your meals cooked.We are here to assist you with appliance repair and service to ensure everything runs smoothly.",   
     "btnText": "READ MORE",
     "btnLink": "/service/service-details"
-  },
-  {
-    "img": "/img/washing-machine.webp",
-    "icon": "/img/icons/washing-machine.png",
-    "title": "Washing Machine Repair",
-    "desc": "FAJ Service Center is your Trusted Washing Machine Expert! Call 050 7464712 for home and business place services provider.",   
-    "btnText": "READ MORE",
-    "btnLink": "/service/service-details"
-  },
-  {
-    "img": "/img/dishwasher.webp",
-    "icon": "/img/icons/dishwasher.png",
-    "title": "Dishwasher Repair",
-    "desc": "If your dishwasher is not working, leaking, not draining, or not cleaning properly, we’ve got you covered. Call FAJ Service Center at 050 7464712 for a hassle-free fix.",   
-    "btnText": "READ MORE",
-    "btnLink": "/service/service-details"
-  },
-  {
-    "img": "/img/robot%20vaccum%20cleaner.webp",
-    "icon": "/img/icons/robot%20vaccum%20cleaner.png",
-    "title": "Robot Vacuum Repair",
-    "desc": "Is your vacuum cleaner malfunctioning? Don’t let dust take over! Call FAJ Service Center at 050 7464712 for expert repair in Dubai.",   
-    "btnText": "READ MORE",
-    "btnLink": "/service/service-details"
-  },
-  {
-    "img": "/img/stand%20mixer.webp",
-    "icon": "/img/icons/stand%20mixer.png",
-    "title": "Stand Mixer Repair",
-    "desc": "If your check battery light comes on it's best to schedule a diagnostic service as soon as possible to identify address",   
-    "btnText": "READ MORE",
-    "btnLink": "/service/service-details"
-  }   
+  }
 ]

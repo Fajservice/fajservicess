@@ -57,7 +57,8 @@ const Services1 = () => {
                     Title="Here, you can find a wide variety of the best services for both home and business place"
                 ></SectionTitle>
               </div>
-              <div className="cs_section_heading_right mb-0 wow fadeInDown">We provide top-quality repair service and ensure our skilled team completes every job to our customers' full satisfaction.</div>
+              <div className="cs_section_heading_right mb-0 wow fadeInDown">We exceed your expectations through trusted service. At FAJ, we specialize in technical services, maintenance, repair, and installation for all clients. We take pride in delivering solutions with expertise, teamwork, and a strong focus on customer satisfaction.
+              </div>
             </div>
             </div>
             <div className="cs_slider cs_style_1 cs_slider_gap_30 wow fadeInUp">

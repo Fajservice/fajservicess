@@ -11,7 +11,7 @@ const About1 = ({img1,img2,img3,expNumber,expYers,expTitle,expTitleYear,telLink,
                  <div className="cs_about_thumbnail">
                   <img src={`${import.meta.env.BASE_URL}${img1}`} alt="About Image" />
                  </div>
-                 <div className="cs_about_thumbnail">
+                 <div className="cs_about_thumbnail mt-4">
                    <img src={`${import.meta.env.BASE_URL}${img2}`} alt="About Image" />
                  </div>
                  <div className="cs_about_thumbnail">
