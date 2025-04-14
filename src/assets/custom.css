@@ -165,8 +165,8 @@ section#get-quote {
 .border-small-left::before{
   content: "";
   position: absolute;
-  top: 0;
-  left: 50%;
+  bottom: 0px;
+  left: 0%;
   transform: translateX(-50%);
   width: 4px;
   height: 260px;
