@@ -232,12 +232,12 @@ export default function Nav({ setMobileToggle }) {
                 <ul>
                   <li className='cs_light cs_fs_16'>
                     <Link to="/commercial-washing-machine-repair/" onClick={() => setMobileToggle(false)}>
-                    Commercial Washing Machine Repair
+                    Washing Machine Repair
                     </Link>
                   </li>
                   <li className='cs_light cs_fs_16'>
                     <Link to="/commercial-laundry-equipment-service/" onClick={() => setMobileToggle(false)}>
-                    Commercial Laundry Equipment Service
+                    Laundry Equipment Service
                     </Link>
                   </li>
                 </ul>

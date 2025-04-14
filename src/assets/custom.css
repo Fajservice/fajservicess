@@ -162,17 +162,37 @@ section#get-quote {
 .border-small-left{
   position: relative;
 }
+
 .border-small-left::before{
   content: "";
   position: absolute;
-  bottom: 0px;
-  left: 0%;
   transform: translateX(-50%);
-  width: 4px;
-  height: 260px;
   background-color: var(--bg-dark-blue);
   border-radius: 50%;
 }
+
+@media screen and (max-width: 767px) {
+  .border-small-left::before{
+  
+    top: -8%;
+    left: 50%;
+    width: 260px;
+    height: 4px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .border-small-left::before{
+   
+    bottom: 0px;
+    left: 0%;
+    width: 4px;
+    top: 60%;
+    height: 180px;  
+  }
+}
+
+
 
 
 
@@ -376,4 +396,25 @@ section#get-quote {
 }
 a.btn-green-yellow:hover{
   background-color: #f6b200;
+}
+
+
+.call-now-btn .call-icon {
+  max-width: 150px;
+  content: url('../../dist/img/icons/Call-Icon.png');
+  transition: all 0.3s ease;
+}
+
+.call-now-btn:hover .call-icon {
+  content: url('../../dist/img/icons/Call-Icon-hover.png');
+}
+
+.quote-now-btn .quote-icon {
+  max-width: 150px;
+  content: url('../../dist/img/icons/quote-icon.png');
+  transition: all 0.3s ease;
+}
+
+.quote-now-btn:hover .quote-icon {
+  content: url('../../dist/img/icons/quote-icon-hover.png');
 }
