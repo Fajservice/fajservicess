@@ -36,7 +36,7 @@ const AcRepairDubaiDetails = () => {
       <div className="cs_service_details">
         <section className="section cs_py_48">
           <div className="container">
-            {/* <img className="bordered-img" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
+            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30">The FAJ experts can help you make your home or place of business more comfortable</h2>
             <p>FAJ Technical Services LLC is your premier choice for quality AC Service In Dubai. With 14 years of experience in AC repairing, maintenance, and servicing, we are the most trusted air conditioning service company in Dubai, UAE.<br />FAJ is providing AC repair and maintenance services to all areas of Dubai. Our AC technicians are skilled and specialize in repairing all AC types, brands, and models. Experience reliable AC repair and maintenance to keep your home or business cool and comfortable.</p>
             <div id="get-quote" className=" mt-3">
@@ -60,7 +60,7 @@ const AcRepairDubaiDetails = () => {
                 <p>FAJ Experts in comprehensive air conditioner (AC) service, and maintenance, ensuring that you receive the highest quality care for your cooling systems.</p>
               </div>
               <div className="col-md-6 text-center text-md-end  ">
-                <img className="bordered-img" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
+                <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
 
               </div>
             </div>
@@ -79,7 +79,7 @@ const AcRepairDubaiDetails = () => {
             <h3 className="cs_fs_30">Signs You Need An AC Service</h3>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="bordered-img" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" />
+                <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" />
               </div>
               <div className="col-md-6">
                 <p>If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
@@ -177,7 +177,7 @@ const AcRepairDubaiDetails = () => {
             <h3 className="cs_fs_30">A Quick Tour to Your AC Problems and Fixing</h3>
             <div className="row">
               <div className="col-xl-6">
-                <iframe className="bordered-img" width="100%" height="350" src="https://www.youtube.com/embed/sxBhB1_gxYA?si=96yf5hxyAA3bct8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+                <iframe className="bordered-img blue-border" width="100%" height="350" src="https://www.youtube.com/embed/sxBhB1_gxYA?si=96yf5hxyAA3bct8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
               </div>
               <div className="col-xl-6">
                 <p>Take a look at this video to understand the possible problems your AC might face. This will help you to ensure that the professionals you hire are completing the right checks.</p>
@@ -298,7 +298,7 @@ const AcRepairDubaiDetails = () => {
                 </ul>
               </div>
               <div className="col-md-6 text-center text-md-end">
-                <img className="bordered-img" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance-in-Dubai.jpeg`} alt="Post Image" />
+                <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance-in-Dubai.jpeg`} alt="Post Image" />
               </div>
             </div>
           </div>

@@ -6,6 +6,7 @@
   --bg-deep-blue:#366D92;
   --bg-light-gray: #dddddd63;
   --bg-dark-blue: #00334e;
+  --sky-blue-font:#76DCEB;
 
 }
 
@@ -23,6 +24,10 @@
 
 .bg-dark-blue{
   background-color: var(--bg-dark-blue);
+}
+
+.sky-blue-font{
+  color: var(--sky-blue-font);
 }
 
 @font-face {
@@ -114,12 +119,84 @@ section#get-quote {
   .cs_logo_bg_shape img{
     height: -webkit-fill-available;
   }
+
+  .appointment-col.border-small-top{
+    border-top: 0 !important;
+  }
+  .right-border-col.border-col-end{
+    border-right: 0 !important;
+  }
+
+  .call-now-btn .call-icon , .quote-now-btn .quote-icon {
+    max-width: 115px !important;
+  }
 }
+
 @media (max-width: 991px) {
   .cs_fs_50 {
       font-size: 30px;
   }
 }
+
+
+.right-border-col.border-col-end{
+  border-right: 1px solid #e7e7e7;
+}
+
+.appointment-col.border-small-top{
+  /* border-top: 1px solid #e7e7e7; */
+
+}
+
+
+.appointment-col.border-small-top{
+  position: relative;
+}
+.appointment-col.border-small-top::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 260px;
+  height: 4px;
+  background-color: var(--bg-dark-blue);
+  border-radius: 50%;
+}
+.border-small-left{
+  position: relative;
+}
+
+.border-small-left::before{
+  content: "";
+  position: absolute;
+  transform: translateX(-50%);
+  background-color: var(--bg-dark-blue);
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 767px) {
+  .border-small-left::before{
+  
+    top: -8%;
+    left: 50%;
+    width: 260px;
+    height: 4px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .border-small-left::before{
+   
+    bottom: 0px;
+    left: 0%;
+    width: 4px;
+    top: 60%;
+    height: 180px;  
+  }
+}
+
+
 
 
 
@@ -300,7 +377,7 @@ section#get-quote {
 
 /* Common box  */
 .box-content-container{
-  min-height: 185px;
+  min-height: 175px;
   max-height: 185px;
   overflow-y: auto;
 }
@@ -324,3 +401,27 @@ section#get-quote {
 a.btn-green-yellow:hover{
   background-color: #f6b200;
 }
+
+
+.call-now-btn .call-icon {
+  max-width: 150px;
+  content: url('../../public/img/icons/Call-Icon.png');
+  transition: all 0.3s ease;
+}
+
+.call-now-btn:hover .call-icon {
+  content: url('../../public/img/icons/Call-Icon-hover.png');
+
+}
+
+.quote-now-btn .quote-icon {
+  max-width: 150px;
+  content: url('../../public/img/icons/quote-icon.png');
+  transition: all 0.3s ease;
+}
+
+.quote-now-btn:hover .quote-icon {
+  content: url('../../public/img/icons/quote-icon-hover.png');
+}
+
+
