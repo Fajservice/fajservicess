@@ -54,16 +54,16 @@ const About1 = ({img1,img2,img3,expNumber,expYers,expTitle,expTitleYear,telLink,
                      <div className="cs_iconbox_icon cs_center">
                        <img src={`${import.meta.env.BASE_URL}/img/icons/Routine Maintenance.svg`} alt="Routine Maintenance" />
                      </div>
-                     <h3 className="cs_iconbox_title cs_fs_18 cs_semibold mb-0">{feature1}</h3>
+                     <h3 className="cs_iconbox_title cs_fs_18 mb-0">{feature1}</h3>
                    </div>
                    <div className="cs_iconbox cs_style_1">
                      <div className="cs_iconbox_icon cs_center">
                        <img src={`${import.meta.env.BASE_URL}/img/icons/fast efficient repair.svg`} alt="Fast Efficient Repair" />
                      </div>
-                     <h3 className="cs_iconbox_title cs_fs_18 cs_semibold mb-0">{feature2}</h3>
+                     <h3 className="cs_iconbox_title cs_fs_18 mb-0">{feature2}</h3>
                    </div>
                  </div>
-                 <ul className="cs_list cs_style_1 cs_fs_16 cs_semibold cs_heading_color cs_heading_font cs_mb_38 p-0">
+                 <ul className="cs_list cs_style_1 cs_fs_16 cs_heading_color cs_heading_font cs_mb_38 p-0">
                  {listItem?.map((item, index) => (
                    <li key={index}>
                     <span className="cs_list_icon cs_center cs_accent_color cs_radius_50">
