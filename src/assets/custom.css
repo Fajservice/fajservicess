@@ -425,12 +425,12 @@ a.btn-green-yellow:hover{
 
 .whatsapp-now-btn .whatsapp-icon {
   max-width: 150px;
-  content: url('../../public/img/icons/quote-icon.png');
+  content: url('../../public/img/icons/whatsapp-icon.png');
   transition: all 0.3s ease;
 }
 
 .whatsapp-now-btn:hover .whatsapp-icon {
-  content: url('../../public/img/icons/quote-icon-hover.png');
+  /* content: url('../../public/img/icons/whatsapp-icon-hover.png'); */
 }
 
 
