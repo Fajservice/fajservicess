@@ -6,6 +6,7 @@ import FAJACPrice from '../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import CallNowButton from '../Buttons/CallNowButton';
 import GetQuoteButton from "../Buttons/GetQuoteButton";
+import ContactUsButton from "../Buttons/ContactUsButton";
 
 const AcServiceInDubai = () => {
 
@@ -96,7 +97,7 @@ const AcServiceInDubai = () => {
     <div className="row g-5">
       <div className="col-md-6">
         <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
-        <h3 className="cs_fs_25 mb-1 mt-3">Professional AC Service and Maintenance</h3>
+        <h3 className="cs_fs_25 mb-1 mt-3">Experts AC Service and Maintenance</h3>
         <p>When considering AC service in Dubai, it is vital to hire a qualified and reliable AC technician who can effectively address your needs at home or in your business place.</p>
         <p>FAJ Experts in comprehensive air conditioner (AC) service, and maintenance, ensuring that you receive the highest quality care for your cooling systems.</p>
       </div>
@@ -114,7 +115,7 @@ const AcServiceInDubai = () => {
     </div>
 
     <div className="appointment-col border-small-top pt-3">
-      <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection/callout fees, AC service near you, repair, or maintenance, please click here.To book an appointment, you can call +971 50 7464 712 or reach us on WhatsApp at +971 50 746 4712.</p>
+      <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection/callout fees, AC service near you, repair, or maintenance, please click below. To book an appointment, you can call +971 50 7464 712 or reach us on WhatsApp at +971 50 746 4712.</p>
       <div id="get-quote" className=" mt-3">
         <div className="container d-flex justify-content-center align-items-center gap-3">
           <GetQuoteButton />
@@ -142,12 +143,12 @@ const AcServiceInDubai = () => {
 
           </div>
 
-          <div id="get-quote" className="mt-3">
-            <div className="container d-flex justify-content-center align-items-center">
-
-              <a data-anim-type="fade-in-up" className="btn btn-primary btn-md text-uppercase px-4" href="tel:+971507464712">Contact Us</a>
+          <div id="get-quote" className=" mt-">
+            <div className="container d-flex justify-content-center align-items-center gap-3">              
+              <ContactUsButton/>
             </div>
           </div>
+
         </section>
 
         <section className="section cs_py_48 bg-light-gray">
@@ -467,6 +468,7 @@ const AcServiceInDubai = () => {
                 <p className="mb-0">
                   <Link to="/mitsubishi-ac-repair-in-dubai/"><b>Mitsubishi Air Conditioner Service and Repair</b></Link>: Seeking relief from scorching heat? Discover the secret to keeping your Mitsubishi AC running smoothly in Dubai!
                 </p>
+                <br />
 
                 <p className="mb-0">
                   <Link to="/sanyo-ac-repair-in-dubai-sanyo-ac-maintenance-in-dubai-sanyo-ac-fix-in-dubai-sanyo-ac-service-in-dubai-sanyo-air-condition-repair-in-dubai-sanyo-air-condition-maintenance-in-dubai-sanyo-air-condition/">Sanyo AC Service Dubai</Link>
@@ -500,8 +502,21 @@ const AcServiceInDubai = () => {
                   <Link to="/mcquay-ac-repair-in-dubai-mcquay-ac-maintenance-in-dubai-mcquay-ac-fix-in-dubai-mcquay-ac-service-in-dubai-mcquay-air-condition-repair-in-dubai-mcquay-air-condition-maintenance-in-dubai-mcquay-air-con/">McQuay Air Conditioning Service</Link>
                   <span>&nbsp;-&nbsp;</span>
                   <Link to="/blue-star-ac-repair-in-dubai-blue-star-ac-maintenance-in-dubai-blue-star-ac-fix-in-dubai-blue-star-ac-service-in-dubai-blue-star-air-condition-repair-in-dubai-blue-star-air-condition-maintenance-in-du/">Blue Star</Link>
-                  <span>&nbsp;-&nbsp;</span>
+                  <span>&nbsp;-&nbsp;</span>                 
                   <Link to="/supra-ac-repair-in-dubai-supra-ac-maintenance-in-dubai-supra-ac-fix-in-dubai-supra-ac-service-in-dubai-supra-air-condition-repair-in-dubai-supra-air-condition-maintenance-in-dubai-supra-air-condition/">Supra AC Service</Link>
+
+                  <Link to="/toshiba-ac-repair-in-dubai-toshiba-ac-maintenance-in-dubai-toshiba-ac-fix-in-dubai-toshiba-ac-service-in-dubai-toshiba-air-condition-repair-in-dubai-toshiba-air-condition-maintenance-in-dubai-toshiba/">Toshiba AC Service</Link>
+<span>&nbsp;-&nbsp;</span>
+<Link to="/whirlpool-air-condition-repair-in-dubai-ac-maintenance-in-dubai-air-conditioning-fix-repairs-service-in-dubai/">Whirlpool AC Service</Link>
+<span>&nbsp;-&nbsp;</span>
+<Link to="/super-general-ac-repair-in-dubai-super-general-ac-maintenance-in-dubai-super-general-ac-fix-in-dubai-super-general-ac-service-in-dubai-super-general-air-condition-repair-in-dubai-super-general-air-con/">Super General</Link>
+<span>&nbsp;-&nbsp;</span>
+<Link to="/hitachi-ac-repair-in-dubai-hitachi-ac-maintenance-in-dubai-hitachi-ac-fix-in-dubai-hitachi-ac-service-in-dubai-hitachi-air-condition-repair-in-dubai-hitachi-air-condition-maintenance-in-dubai-hitachi/">Hitachi AC Service</Link>
+<span>&nbsp;-&nbsp;</span>
+<Link to="/o-general-ac-repair-in-dubai-o-general-ac-maintenance-in-dubai-o-general-ac-fix-in-dubai-o-general-ac-service-in-dubai-o-general-air-condition-repair-in-dubai-o-general-air-condition-maintenance-in-du/">O General Air Conditioning Service</Link>
+<span>&nbsp;-&nbsp;</span>
+<Link to="/cooline-ac-repair-in-dubai-cooline-ac-maintenance-in-dubai-cooline-ac-fix-in-dubai-cooline-ac-service-in-dubai-cooline-air-condition-repair-in-dubai-cooline-air-condition-maintenance-in-dubai-cooline/">Cooline Air Conditioner Service Near Me</Link>
+                  
                 </p>
               </div>
 
@@ -543,12 +558,11 @@ Contact us for an AC technician who can quickly resolve your AC issues.
               <br />
               Our experienced technicians provide reliable ongoing service, emergency repairs, and exceptional value. With years of industry experience, our professionals handle your property with care and precision, ensuring the best results at unbeatable prices.
             </p>
-            <div id="get-quote" className="row">
-              <div className="col-12 d-flex justify-content-center">
-                <a data-anim-type="fade-in-up" className="btn btn-primary btn-md text-uppercase px-4" href="tel:+971507464712">Contact Us</a>
+            <div id="get-quote" className=" mt-">
+              <div className="container d-flex justify-content-center align-items-center gap-3">              
+                <ContactUsButton/>
               </div>
             </div>
-
           </div>
         </section>
 
