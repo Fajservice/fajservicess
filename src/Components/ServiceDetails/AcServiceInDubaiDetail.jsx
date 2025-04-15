@@ -408,7 +408,8 @@ const AcServiceInDubai = () => {
               <div className="col-md-4 d-flex justify-content-center align-items-center">
                 <div className="text-center">
                   <img
-                    src={`${import.meta.env.BASE_URL}/img/image.png`}
+                    // src={`${import.meta.env.BASE_URL}/img/image.png`}
+                    src={`${import.meta.env.BASE_URL}/img/Commercial-AC-Service-and-Repair!.jpg`}
                     alt="AC Repair Services"
                     className="blue-border"
                     style={{ maxHeight: "400px", objectFit: "contain" }}
