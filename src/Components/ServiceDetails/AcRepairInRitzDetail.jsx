@@ -4,6 +4,9 @@ import data from '../../Data/AcRepairInRitz';
 import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from "../Contact/Serviceappointemnt";
+import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
+import GetQuoteButton from "../Buttons/GetQuoteButton";
+import CallNowButton from "../Buttons/CallNowButton";
 
 
 const AcRepairInRitzDetail = () => {
@@ -38,49 +41,51 @@ const AcRepairInRitzDetail = () => {
                         {/* <img src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
                         <h2 className="cs_fs_30">The FAJ experts can help you make your home or place of business more comfortable</h2>
                         <p>FAJ Technical Services LLC is your premier choice for quality AC Service In Dubai. With 14 years of experience in AC repairing, maintenance, and servicing, we are the most trusted air conditioning service company in Dubai, UAE.<br />FAJ is providing AC repair and maintenance services to all areas of Dubai. Our AC technicians are skilled and specialize in repairing all AC types, brands, and models. Experience reliable AC repair and maintenance to keep your home or business cool and comfortable.</p>
+                        
                         <div id="get-quote" class=" mt-3">
+                            
                             <div class="container d-flex justify-content-center align-items-center">
-                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#0D6EFD" }}>Get A Free Quote</a>
-                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex border border-outline align-items-center" href="tel:+971507464712">Call Now</a>
+                                {/* <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#0D6EFD" }}>Get A Free Quote</a>
+                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex border border-outline align-items-center" href="tel:+971507464712">Call Now</a> */}
+                                <CallNowButton /> <GetQuoteButton />
                             </div>
 
                         </div>
-                        {/*  */}
                     </div>
                 </section>
                 <section className="section cs_py_48 bg-light-gray">
-                    <div className="container">
-                        <div className="row g-5 border">
-                            <div className="col-md-6 border-end-lg">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
-                                <h3 className="cs_fs_25 mb-1 mt-3">Experts AC Service and Repair</h3>
-                                <p>When considering AC service in Dubai, it is vital to hire a qualified and reliable AC technician who can effectively address your needs at home or in your business place.</p>
-                                <p>FAJ Experts in comprehensive air conditioner (AC) service, and maintenance, ensuring that you receive the highest quality care for your cooling systems.</p>
-                            </div>
+          <div className="container">
+            <div className="row g-5">
+              <div className="col-md-6">
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
+                <h3 className="cs_fs_25 mb-1 mt-3">Experts AC Service and Maintenance</h3>
+                <p>When considering AC service in Dubai, it is vital to hire a qualified and reliable AC technician who can effectively address your needs at home or in your business place.</p>
+                <p>FAJ Experts in comprehensive air conditioner (AC) service, and maintenance, ensuring that you receive the highest quality care for your cooling systems.</p>
+              </div>
 
-                            <div className="col-md-6">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" />
-                                <h3 className="cs_fs_25 mb-1 mt-3">Signs You Need An AC Service</h3>
-                                <p>If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
-                                <ul>
-                                    <li>Higher electricity bills / Loss of AC performance</li>
-                                    <li>Air is not blowing cold / Poor AC airflow, making noises</li>
-                                    <li>Drips from your air conditioner</li>
-                                </ul>
-                            </div>
-                        </div>
+              <div className="col-md-6 border-small-left">
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" />
+                <h3 className="cs_fs_25 mb-1 mt-3">Signs You Need An AC Service</h3>
+                <p>If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                <ul>
+                  <li>Higher electricity bills / Loss of AC performance</li>
+                  <li>Air is not blowing cold / Poor AC airflow, making noises</li>
+                  <li>Drips from your air conditioner</li>
+                </ul>
+              </div>
+            </div>
 
-                        <div className="appointment-col">
-                            <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection/callout fees, AC service near you, repair, or maintenance, please click here.To book an appointment, you can call +971 50 7464 712 or reach us on WhatsApp at +971 50 746 4712.</p>
-                            <div id="get-quote" className=" mt-3">
-                                <div className="container d-flex justify-content-center align-items-center">
-                                    <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#0d6efd" }}>Get A Free Quote</a>
-                                    <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center border border-outline" href="tel:+971507464712">Call Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+            <div className="appointment-col border-small-top pt-3">
+              <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection/callout fees, AC service near you, repair, or maintenance, please click below. To book an appointment, you can call +971 50 7464 712 or reach us on WhatsApp at +971 50 746 4712.</p>
+              <div id="get-quote" className=" mt-3">
+                <div className="container d-flex justify-content-center align-items-center gap-3">
+                  <GetQuoteButton />
+                  <CallNowButton />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
                 {/* How much does it cost Premier AC Cleaning Service, AC Repair and AC Maintenance? */}
                 <section className="section cs_py_48">
                     <div className="container">
@@ -110,8 +115,7 @@ const AcRepairInRitzDetail = () => {
                                     When it comes to Air Conditioner installation service, You Only Want to Bring Professional, Trustworthy Servicemen into Your Home or Place of Business.</p>
                                 <div id="get-quote" class=" mt-4">
                                     <div class="container d-flex justify-content-center align-items-center">
-                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#0D6EFD" }}>Get A Quote</a>
-                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex border border-outline align-items-center" href="tel:+971507464712">Call Now</a>
+                                    <CallNowButton /> <GetQuoteButton />
                                     </div>
                                 </div>
                             </div>
@@ -121,84 +125,7 @@ const AcRepairInRitzDetail = () => {
 
                 </section>
 
-                {/* The Benefits Of Regular AC Maintenance Dubai Service */}
-                <section className="section cs_py_40" style={{ backgroundColor: "#00334E", color: "white" }}>
-                    <div className="container">
-                        <div className="row justify-content-center">
-                            <div className="col-lg-10 text-center">
-                                <h3 className="cs_fs_30 text-light mb-3 mt-4">The Benefits Of Regular AC Maintenance Dubai Service</h3>
-
-                                <div className="row mt-4 gx-4 gy-4">
-                                    <div className="col-md-4 mb-2">
-                                        <div className="d-flex flex-column align-items-center px-2">
-                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                                <img src={`${import.meta.env.BASE_URL}/img/Improved AC Cooling.svg`} alt="Cooling Efficiency" className="img-fluid rounded-circle border border-4 border-info" />
-                                            </div>
-                                            <h5 className="text-uppercase mb-2 fs-6 text-white">COOLING EFFICIENCY</h5>
-                                            <p className="small">We carry out a complete assessment of the cooling efficiency using a temperature gun.</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-md-4 mb-2">
-                                        <div className="d-flex flex-column align-items-center px-2">
-                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                                <img src={`${import.meta.env.BASE_URL}/img/Energy Efficient.svg`} alt="Disinfect Components" className="img-fluid rounded-circle border border-4 border-warning" />
-                                            </div>
-                                            <h5 className="text-uppercase mb-2 fs-6 text-white">DISINFECT COMPONENTS</h5>
-                                            <p className="small">All hardware components are tested and disinfected, including filters and vents.</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-md-4 mb-2">
-                                        <div className="d-flex flex-column align-items-center px-2">
-                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                                <img src={`${import.meta.env.BASE_URL}/img/Extended Lifespan.svg`} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
-                                            </div>
-                                            <h5 className="text-uppercase mb-2 fs-6 text-white">FAN ASSESSMENT</h5>
-                                            <p className="small">We ensure the fan works correctly with no blockages in the evaporator coil.</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-md-4 mb-2">
-                                        <div className="d-flex flex-column align-items-center px-2">
-                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                                <img src={`${import.meta.env.BASE_URL}/img/No Costly Repairs.svg`} alt="Thermostat Check" className="img-fluid rounded-circle border border-4 border-primary" />
-                                            </div>
-                                            <h5 className="text-uppercase mb-2 fs-6 text-white">THERMOSTAT CHECK</h5>
-                                            <p className="small">We use a laser temperature gauge to ensure thermostats operate correctly.</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-md-4 mb-2">
-                                        <div className="d-flex flex-column align-items-center px-2">
-                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                                <img src={`${import.meta.env.BASE_URL}/img/Reliability.svg`} alt="Airflow Balance" className="img-fluid rounded-circle border border-4 border-danger" />
-                                            </div>
-                                            <h5 className="text-uppercase mb-2 fs-6 text-white">AIRFLOW BALANCE</h5>
-                                            <p className="small">We ensure you get optimal air flow around each room as needed.</p>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-md-4 mb-2">
-                                        <div className="d-flex flex-column align-items-center px-2">
-                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                                <img src={`${import.meta.env.BASE_URL}/img/Reliability.svg`} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
-                                            </div>
-                                            <h5 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h5>
-                                            <p className="small">Our team provides vital feedback on your AC's health and any needed repairs.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <p className="mt-4 mb-4">Contact us now to get a free AC service quote.</p>
-
-                                <div className="text-center mb-4">
-                                    <a href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" className="btn btn-primary btn-md text-uppercase px-4">GET A QUOTE</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                <BenefitAcMaintenance />
 
                 {/* AC Services Section - 1 Row 2 Column Layout */}
                 <section className="section cs_py_48 text-black">
@@ -277,8 +204,7 @@ const AcRepairInRitzDetail = () => {
                         {/* Buttons centered below all columns */}
                         <div id="get-quote" className="row">
                             <div className="col-12 d-flex justify-content-center">
-                                <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+97143300002&amp;text=Hello" style={{ backgroundColor: "#0D6EFD" }}>Get A Free Quote</a>
-                                <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex border border-outline align-items-center" href="tel:+97143300002">Call Now</a>
+                            <CallNowButton /> <GetQuoteButton />
                             </div>
                         </div>
                     </div>

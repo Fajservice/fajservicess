@@ -59,7 +59,7 @@ const Home = () => {
             <BeforeAfter 
                 title="Recent Completed Projects"
                 subTitle="Before & after"
-                bgImg="/img/before_after_bg_1.svg"
+                bgImg="/img/background-image-2.jpg"
                 beforeImg="/img/after_img_1.jpg"
                 afterTitle="After"
                 afterImg="/img/before_img_1.jpg"
