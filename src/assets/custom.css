@@ -127,7 +127,7 @@ section#get-quote {
     border-right: 0 !important;
   }
 
-  .call-now-btn .call-icon , .quote-now-btn .quote-icon {
+  .call-now-btn .call-icon , .quote-now-btn .quote-icon , .contact-now-btn, .contact-icon {
     max-width: 115px !important;
   }
 }
@@ -139,14 +139,13 @@ section#get-quote {
 }
 
 
-.right-border-col.border-col-end{
+/* .right-border-col.border-col-end{
   border-right: 1px solid #e7e7e7;
 }
 
 .appointment-col.border-small-top{
-  /* border-top: 1px solid #e7e7e7; */
 
-}
+} */
 
 
 .appointment-col.border-small-top{
@@ -422,6 +421,22 @@ a.btn-green-yellow:hover{
 
 .quote-now-btn:hover .quote-icon {
   content: url('../../public/img/icons/quote-icon-hover.png');
+}
+
+
+.contact-now-btn .contact-icon {
+  max-width: 150px;
+  content: url('../../public/img/icons/contact.png');
+  transition: all 0.3s ease;
+}
+
+.contact-now-btn:hover .contact-icon {
+  content: url('../../public/img/icons/contact-hover.png');
+}
+
+/* Anchar tags underline */
+a{
+  text-decoration: underline;
 }
 
 
