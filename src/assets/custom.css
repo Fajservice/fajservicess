@@ -127,7 +127,7 @@ section#get-quote {
     border-right: 0 !important;
   }
 
-  .call-now-btn .call-icon , .quote-now-btn .quote-icon , .contact-now-btn, .contact-icon {
+  .call-now-btn .call-icon , .quote-now-btn .quote-icon , .contact-now-btn, .contact-icon, .whatsapp-now-btn .whatsapp-icon {
     max-width: 115px !important;
   }
 }
@@ -423,6 +423,16 @@ a.btn-green-yellow:hover{
   content: url('../../public/img/icons/quote-icon-hover.png');
 }
 
+.whatsapp-now-btn .whatsapp-icon {
+  max-width: 150px;
+  content: url('../../public/img/icons/whatsapp-icon.png');
+  transition: all 0.3s ease;
+}
+
+.whatsapp-now-btn:hover .whatsapp-icon {
+  /* content: url('../../public/img/icons/whatsapp-icon-hover.png'); */
+}
+
 
 .contact-now-btn .contact-icon {
   max-width: 150px;
@@ -435,3 +445,10 @@ a.btn-green-yellow:hover{
 }
 
 /* Anchar tags underline */
+p a{
+ text-decoration: underline;
+}
+
+p a:hover{
+  font-weight: bold;
+ }
