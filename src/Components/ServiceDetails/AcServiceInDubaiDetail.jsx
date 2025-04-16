@@ -7,6 +7,9 @@ import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import CallNowButton from '../Buttons/CallNowButton';
 import GetQuoteButton from "../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
+import Testimonial1 from "../Testimonial/Testimonial1";
+
+
 
 
 const AcServiceInDubai = () => {
@@ -38,10 +41,11 @@ const AcServiceInDubai = () => {
       </HelmetProvider>
 
       <div className="cs_service_details">
+
         <section className="section cs_py_48">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-            <h1 className="cs_fs_30">Dubai's Premier AC Service - AC Repair and Maintenance</h1>
+            <h2 className="cs_fs_30">The FAJ experts can help you make your home or place of business more comfortable</h2>
             <p>FAJ Technical Services LLC is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
               <br />
               Our skilled AC technicians can handle all types, brands, and models of air conditioning units, ensuring your home or business stays cool and comfortable.</p>
@@ -62,7 +66,7 @@ const AcServiceInDubai = () => {
             <div className="row g-5">
               <div className="col-md-6">
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
-                <h2 className="cs_fs_25 mb-1 mt-3">Experts AC Service and Maintenance</h2>
+                <h3 className="cs_fs_25 mb-1 mt-3">Experts AC Service and Maintenance</h3>
                 <p>When considering AC service in Dubai, it is vital to hire a qualified and reliable AC technician who can effectively address your needs at home or in your business place.</p>
                 <p>FAJ Experts in comprehensive air conditioner (AC) service, and maintenance, ensuring that you receive the highest quality care for your cooling systems.</p>
               </div>
@@ -112,18 +116,18 @@ const AcServiceInDubai = () => {
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
-                  <li> <strong> Extreme Weather :</strong> Experiences high temperatures over 40°C (104°F) in summer. Regular maintenance keeps air conditioning systems efficient during these conditions.</li>
+                  <li> <strong> Extreme Weather:</strong> Experiences high temperatures over 40°C (104°F) in summer. Regular maintenance keeps air conditioning systems efficient during these conditions.</li>
 
-                  <li> <strong> Energy Efficiency :</strong> A well-maintained AC unit operates more efficiently, using less energy and lowering both electricity bills. </li>
+                  <li> <strong> Energy Efficiency:</strong> A well-maintained AC unit operates more efficiently, using less energy and lowering both electricity bills. </li>
 
-                  <li> <strong> Longevity of Equipment :</strong>  Regular maintenance can extend your air conditioning system’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
+                  <li> <strong> Longevity of Equipment:</strong>  Regular maintenance can extend your air conditioning system’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
 
 
-                  <li> <strong>Improved Air Quality :</strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
+                  <li> <strong>Improved Air Quality:</strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
 
-                  <li> <strong>Prevention of Breakdowns :</strong> Proactive maintenance catches minor issues early, preventing costly repairs and unexpected AC failures</li>
+                  <li> <strong>Prevention of Breakdowns:</strong> Proactive maintenance catches minor issues early, preventing costly repairs and unexpected AC failures</li>
 
-                  <li> <strong> Enhanced Comfort :</strong> Regular servicing of your AC system ensures consistent temperatures, which is vital for comfort in hot climates. In a city like Dubai, investing in AC maintenance is essential for both comfort and efficiency in daily life.</li>
+                  <li> <strong> Enhanced Comfort:</strong> Regular servicing of your AC system ensures consistent temperatures, which is vital for comfort in hot climates. In a city like Dubai, investing in AC maintenance is essential for both comfort and efficiency in daily life.</li>
 
                 </ul>
               </div>
@@ -547,6 +551,13 @@ const AcServiceInDubai = () => {
           </div>
         </section>
 
+        <Testimonial1
+            subtitle="Testimonial"
+            title="What clients say about our services?"
+            bgImg="/img/testimonial_bg_1.jpg">
+          </Testimonial1>
+
+        {/* FAQ's */}
         <section className="section cs_py_48  bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ's</h3>
