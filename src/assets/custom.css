@@ -415,17 +415,17 @@ a.btn-green-yellow:hover{
 
 .quote-now-btn .quote-icon {
   max-width: 150px;
-  content: url('../../public/img/icons/quote-icon.png');
+  /* content: url('../../public/img/icons/quote-icon.png'); */
   
 }
 
 .quote-now-btn:hover .quote-icon {
-  content: url('../../public/img/icons/quote-icon-hover.png');
+  /* content: url('../../public/img/icons/quote-icon-hover.png'); */
 }
 
-.whatsapp-now-btn .whatsapp-icon {
+.whatsapp-now-btn .whatsapp-icon {  
   max-width: 150px;
-  content: url('../../public/img/icons/whatsapp-icon.png');
+  /* content: url('../../public/img/icons/whatsapp-icon.png'); */
   
 }
 
@@ -436,12 +436,15 @@ a.btn-green-yellow:hover{
 
 .contact-now-btn .contact-icon {
   max-width: 150px;
-  content: url('../../public/img/icons/contact.png');
+  transition: all 1s ease-in-out;
+  /* content: url('../../public/img/icons/contact.png'); */
   
 }
 
 .contact-now-btn:hover .contact-icon {
-  content: url('../../public/img/icons/contact-hover.png');
+  /* content: url('../../public/img/icons/contact-hover.png'); */
+  transition: all 1s ease-in-out;
+
 }
 
 /* Anchar tags underline */
