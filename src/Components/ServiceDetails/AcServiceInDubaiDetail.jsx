@@ -7,6 +7,9 @@ import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import CallNowButton from '../Buttons/CallNowButton';
 import GetQuoteButton from "../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
+import Testimonial1 from "../Testimonial/Testimonial1";
+
+
 
 
 const AcServiceInDubai = () => {
@@ -38,6 +41,7 @@ const AcServiceInDubai = () => {
       </HelmetProvider>
 
       <div className="cs_service_details">
+
         <section className="section cs_py_48">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
@@ -547,6 +551,13 @@ const AcServiceInDubai = () => {
           </div>
         </section>
 
+        <Testimonial1
+            subtitle="Testimonial"
+            title="What clients say about our services?"
+            bgImg="/img/testimonial_bg_1.jpg">
+          </Testimonial1>
+
+        {/* FAQ's */}
         <section className="section cs_py_48  bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ's</h3>
