@@ -13,7 +13,7 @@ const CallNowButton = ({ phone = 'tel:+971507464712' }) => {
             <img
                 className="call-icon"
                 src={`${import.meta.env.BASE_URL}img/icons/${hovered ? 'Call-Icon-hover.png' : 'Call-Icon.png'}`}
-                alt="Call Now"
+                alt="Call Now Button"
             />
         </a>
     );

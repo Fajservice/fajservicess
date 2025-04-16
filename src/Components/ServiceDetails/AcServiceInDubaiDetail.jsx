@@ -6,7 +6,6 @@ import FAJACPrice from '../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import CallNowButton from '../Buttons/CallNowButton';
 import GetQuoteButton from "../Buttons/GetQuoteButton";
-import ContactUsButton from "../Buttons/ContactUsButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 
 
@@ -63,7 +62,7 @@ const AcServiceInDubai = () => {
             <div className="row g-5">
               <div className="col-md-6">
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
-                <h3 className="cs_fs_25 mb-1 mt-3">Experts AC Service and Maintenance</h3>
+                <h2 className="cs_fs_25 mb-1 mt-3">Experts AC Service and Maintenance</h2>
                 <p>When considering AC service in Dubai, it is vital to hire a qualified and reliable AC technician who can effectively address your needs at home or in your business place.</p>
                 <p>FAJ Experts in comprehensive air conditioner (AC) service, and maintenance, ensuring that you receive the highest quality care for your cooling systems.</p>
               </div>
@@ -382,10 +381,10 @@ const AcServiceInDubai = () => {
         {/*Select FAJ for Quick Service, Efficienc  */}
         <section className="section cs_py_48 ">
           <div className="container">
-            <h3 className="cs_fs_30">Why Choose FAJ Technical Services LLC ?</h3>
+            <h3 className="cs_fs_30">Why Choose FAJ Technical Services LLC?</h3>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <h4>Quick Service, Efficiency, and Peace of Mind</h4>
+                <h4 className="cs_fs_24">We provide quick, efficient service and peace of mind</h4>
                 <ul className="acsvs-exp-spl-para tick-ul mb-0">
                   <li><b>We get the job done on time</b> thanks to our larger team and dedicated parts warehouse</li>
                   <li><b>All our AC technicians are fully qualified</b> and extensively trained by us to address all types of AC issues.</li>

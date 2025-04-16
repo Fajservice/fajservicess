@@ -127,9 +127,15 @@ section#get-quote {
     border-right: 0 !important;
   }
 
-  .call-now-btn .call-icon , .quote-now-btn .quote-icon , .contact-now-btn, .contact-icon, .whatsapp-now-btn .whatsapp-icon {
+  .call-now-btn .call-icon , .quote-now-btn .quote-icon , .contact-now-btn, .contact-icon {
     max-width: 115px !important;
   }
+
+  .whatsapp-now-btn .whatsapp-icon {
+    max-width: 138px !important;
+  }
+
+
 }
 
 @media (max-width: 991px) {
@@ -137,15 +143,6 @@ section#get-quote {
       font-size: 30px;
   }
 }
-
-
-/* .right-border-col.border-col-end{
-  border-right: 1px solid #e7e7e7;
-}
-
-.appointment-col.border-small-top{
-
-} */
 
 
 .appointment-col.border-small-top{
@@ -194,11 +191,6 @@ section#get-quote {
     height: 180px;  
   }
 }
-
-
-
-
-
 
 .inner-acsvs-dis-sec {
   background: #d04140;
@@ -419,12 +411,15 @@ a.btn-green-yellow:hover{
   
 }
 
+
+/* Remove the below without any code or commnted css */
+
 .quote-now-btn:hover .quote-icon {
   /* content: url('../../public/img/icons/quote-icon-hover.png'); */
 }
 
 .whatsapp-now-btn .whatsapp-icon {  
-  max-width: 150px;
+  max-width: 188px;
   /* content: url('../../public/img/icons/whatsapp-icon.png'); */
   
 }
@@ -454,4 +449,4 @@ p a{
 
 p a:hover{
   font-weight: bold;
- }
+}

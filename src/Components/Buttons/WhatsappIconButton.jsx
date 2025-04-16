@@ -11,7 +11,7 @@ const WhatsappIconButton = ({ whatsapp = 'https://api.whatsapp.com/send?phone=+9
             onMouseLeave={() => setHovered(false)}>
             <img
                 className="whatsapp-icon"
-                src={`${import.meta.env.BASE_URL}img/icons/${hovered ? 'whatsapp-icon.png' : 'whatsapp-icon.png'}`}
+                src={`${import.meta.env.BASE_URL}img/icons/${hovered ? 'whatsapp-new-icon.png' : 'whatsapp-new-icon.png'}`}
                 alt="Get A Quote"
             />
         </a>
