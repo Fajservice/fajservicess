@@ -96,11 +96,11 @@ const Footer1 = () => {
                   <ul className="cs_working_hours">
                     <li>
                       <span>Mon - Sat</span>
-                      <span>8:00 AM - 6:30 PM</span>
+                      <span>8:00 AM - 6:00 PM</span>
                     </li>
                     <li>
                       <span>Sunday</span>
-                      <span>12:00 PM - 6:30 PM</span>
+                      <span>12:00 PM - 6:00 PM</span>
                     </li>
                   </ul>
                 </div>

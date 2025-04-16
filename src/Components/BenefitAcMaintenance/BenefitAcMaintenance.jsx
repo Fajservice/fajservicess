@@ -15,7 +15,7 @@ const BenefitAcMaintenance = () => {
                     <div className="col-md-4 mb-2">
                         <div className="d-flex flex-column align-items-center px-2">
                             <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                <img src={`${import.meta.env.BASE_URL}/img/Improved AC Cooling.svg`} alt="Cooling Efficiency" className="img-fluid rounded-circle border border-4 border-info" />
+                                <img src={`${import.meta.env.BASE_URL}/img/icons/cooling1.jpg`} alt="Cooling Efficiency" className="img-fluid rounded-circle border border-4 border-info" />
                             </div>
                             <h5 className="text-uppercase mb-2 fs-6 text-white">COOLING EFFICIENCY</h5>
                             <p className="small">We carry out a complete assessment of the cooling efficiency using a temperature gun.</p>
