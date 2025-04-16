@@ -11,7 +11,7 @@ const Project1 = () => {
           <div className="cs_section_heading_left">
             <SectionTitle
               SubTitle="Our Services"
-              Title="WE DELIVER EXPERTISE, DEMONSTRATE INTEGRITY, AND ENSURE RESPONSIVENESS—YOUR NEEDS ARE OUR TOP PRIORITY."
+              Title="WE DELIVER EXPERTISE, DEMONSTRATE INTEGRITY"
             ></SectionTitle>
           </div>
         </div>
@@ -33,9 +33,9 @@ const Project1 = () => {
                       <img src={`${import.meta.env.BASE_URL}${item.img}`} alt="Portfolio Image" />
                     </Link>
                     <div className="cs_card_info cs_white_bg">
-                      <h3 className="cs_card_title cs_fs_20 cs_semibold cs_mb_15"><Link to={item.serviceLink}>{item.title}</Link></h3>
+                      <h3 className="cs_card_title cs_fs_20 cs_mb_15"><Link to={item.serviceLink}>{item.title}</Link></h3>
                       <p className="cs_card_subtitle">{item.desc}</p>
-                      <Link to={item.serviceLink} className="cs_text_btn cs_style_1 cs_bold cs_heading_color">
+                      <Link to={item.serviceLink} className="cs_text_btn cs_style_1 cs_heading_color">
                         <span className="cs_btn_text text-uppercase">Read More</span>
                         <span className="cs_btn_icon cs_center">
                           <i className="bi bi-arrow-right"></i>

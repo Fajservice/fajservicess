@@ -1,21 +1,21 @@
 [
   {
-    "img": "/img/icons/car.svg",   
+    "img": "/img/icons/Ambition.svg",   
     "title": "Honesty",
     "desc": "We prioritize integrity and honesty in everything we do. We believe that our clients, partners, and teams should always have a complete understanding to foster sustainable business growth based on trust."
   },
   {
-    "img": "/img/icons/engine.svg",   
+    "img": "/img/icons/Loyalty.svg",   
     "title": "Ambition",
     "desc": "We are highly ambitious and genuinely care about our business."
   },
   {
-    "img": "/img/icons/gear_icon_2.svg",   
+    "img": "/img/icons/responsibility.svg",   
     "title": "Responsibility",
     "desc": "We recognize the importance of our responsibilities towards our customers and business partners."
   },
   {
-    "img": "/img/icons/gear_icon_2.svg",   
+    "img": "/img/icons/Trust.svg",   
     "title": "Loyalty",
     "desc": "We are committed to being loyal to our partners, customers, teams, and colleagues."
   }

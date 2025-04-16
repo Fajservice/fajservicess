@@ -18,7 +18,7 @@ const Pricing1 = () => {
             ></SectionTitle>
           </div>
         </div>
-        <ul className="cs_tab_links cs_style_1 cs_type_1 cs_fs_18 cs_semibold cs_heading_color cs_heading_font cs_mp_0 wow fadeInUp">
+        <ul className="cs_tab_links cs_style_1 cs_type_1 cs_fs_18 cs_heading_color cs_heading_font cs_mp_0 wow fadeInUp">
           <li className={`${isActive === 'monthly' ? 'active' : ''}`} onClick={() => setIsActive('monthly')}><a>Monthly</a></li>
           <li className={`${isActive === 'yearly' ? 'active' : ''}`} onClick={() => setIsActive('yearly')}><a>Yearly</a></li>
         </ul>
