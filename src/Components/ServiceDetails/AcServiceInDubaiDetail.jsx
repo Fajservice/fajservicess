@@ -52,8 +52,7 @@ const AcServiceInDubai = () => {
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
-                <GetQuoteButton />
-                <CallNowButton />
+              <WhatsappIconButton/>
               </div>
             </div>
             {/*  */}
@@ -228,7 +227,11 @@ const AcServiceInDubai = () => {
                 </div>
               </div>
             </div>
-
+            <div id="get-quote" className="mb-0 mt-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3">
+              <WhatsappIconButton/>
+              </div>
+            </div>
 
           </div>
         </section>
@@ -369,11 +372,7 @@ const AcServiceInDubai = () => {
                 </div>
                 {/* <p className="mt-4 mb-4">Contact us now to get a free AC service quote.</p> */}
 
-                <div id="get-quote" className=" mt-3 mb-3">
-                  <div className="container d-flex justify-content-center align-items-center gap-3">
-                    <GetQuoteButton />
-                  </div>
-                </div>
+                
 
               </div>
             </div>
