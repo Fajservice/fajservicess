@@ -3,54 +3,56 @@ import SectionTitle from "../Common/SectionTitle";
 import data from '../../Data/project1.json';
 
 const Project1 = () => {
-    return (
-        <section className="cs_tabs cs_style_1 position-relative">
-        <div className="cs_height_80 cs_height_lg_80"></div>
-        <div className="container">
-          <div className="cs_section_heading cs_style_1 cs_type_1">
-            <div className="cs_section_heading_left">
-                <SectionTitle
-                    SubTitle="Popular Services"
-                    Title="Where Your Appliances Gets Pride the Best Care"           
-                ></SectionTitle>
-            </div>
+  return (
+    <section className="cs_tabs cs_style_1 position-relative">
+      <div className="cs_height_80 cs_height_lg_80"></div>
+      <div className="container d-flex position-relative">
+        <div className="cs_section_heading cs_style_1 cs_type_1">
+          <div className="cs_section_heading_left">
+            <SectionTitle
+              SubTitle="Our Services"
+              Title="WE DELIVER EXPERTISE, DEMONSTRATE INTEGRITY, AND ENSURE RESPONSIVENESS—YOUR NEEDS ARE OUR TOP PRIORITY."
+            ></SectionTitle>
           </div>
-            <ul className="cs_tab_links cs_style_1 cs_heading_color cs_mp_0 wow fadeInDown">
-              <li className="active"><Link to="/service">View All Services</Link></li>
-            </ul>
-            </div>
-            <div className="cs_height_60"></div>
-            <div className="container-fluid p-0">
-            <div className="cs_project_area">
-              <div className="cs_project" >
-                <div className="row cs_row_gap_60 cs_gap_y_30">
-                {data.map((item, i) => (
-                  <div key={i} className="col-xl-3 col-md-6 wow fadeInLeft">
-                    <div className="cs_card cs_style_2 position-relative">
-                      <Link to={item.serviceLink} className="cs_card_thumbnail position-relative">
-                        <img src={`${import.meta.env.BASE_URL}${item.img}`} alt="Portfolio Image" />
+        </div>
+        <div className="position-absolute top-0 end-0">
+          <ul className="cs_tab_links cs_style_1 cs_heading_color cs_mp_0 wow fadeInDown">
+            <li className="active"><Link to="/service">View All Services</Link></li>
+          </ul>
+        </div>
+      </div>
+      <div className="cs_height_60"></div>
+      <div className="container-fluid p-0">
+        <div className="cs_project_area">
+          <div className="cs_project" >
+            <div className="row cs_row_gap_60 cs_gap_y_30">
+              {data.map((item, i) => (
+                <div key={i} className="col-xl-3 col-md-6 wow fadeInLeft">
+                  <div className="cs_card cs_style_2 position-relative">
+                    <Link to={item.serviceLink} className="cs_card_thumbnail position-relative">
+                      <img src={`${import.meta.env.BASE_URL}${item.img}`} alt="Portfolio Image" />
+                    </Link>
+                    <div className="cs_card_info cs_white_bg">
+                      <h3 className="cs_card_title cs_fs_20 cs_semibold cs_mb_15"><Link to={item.serviceLink}>{item.title}</Link></h3>
+                      <p className="cs_card_subtitle">{item.desc}</p>
+                      <Link to={item.serviceLink} className="cs_text_btn cs_style_1 cs_bold cs_heading_color">
+                        <span className="cs_btn_text text-uppercase">Read More</span>
+                        <span className="cs_btn_icon cs_center">
+                          <i className="bi bi-arrow-right"></i>
+                          <i className="bi bi-arrow-right"></i>
+                        </span>
                       </Link>
-                      <div className="cs_card_info cs_white_bg">
-                        <h3 className="cs_card_title cs_fs_20 cs_semibold cs_mb_15"><Link to={item.serviceLink}>{item.title}</Link></h3>
-                        <p className="cs_card_subtitle">{item.desc}</p>
-                        <Link to={item.serviceLink} className="cs_text_btn cs_style_1 cs_bold cs_heading_color">
-                          <span className="cs_btn_text text-uppercase">Read More</span>
-                          <span className="cs_btn_icon cs_center">
-                          <i className="bi bi-arrow-right"></i>
-                          <i className="bi bi-arrow-right"></i>
-                          </span>
-                        </Link>
-                      </div>
                     </div>
                   </div>
-                    ))}
                 </div>
-              </div>
+              ))}
             </div>
           </div>
-        <div className="cs_height_80 cs_height_lg_80"></div>
-      </section>
-    );
+        </div>
+      </div>
+      <div className="cs_height_80 cs_height_lg_80"></div>
+    </section>
+  );
 };
 
 export default Project1;
