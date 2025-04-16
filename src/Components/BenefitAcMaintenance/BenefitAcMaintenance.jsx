@@ -1,5 +1,4 @@
 import React from 'react'
-import GetQuoteButton from '../Buttons/GetQuoteButton'
 
 const BenefitAcMaintenance = () => {
   return (
@@ -25,7 +24,7 @@ const BenefitAcMaintenance = () => {
                     <div className="col-md-4 mb-2">
                         <div className="d-flex flex-column align-items-center px-2">
                             <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                <img src={`${import.meta.env.BASE_URL}/img/Energy Efficient.svg`} alt="Disinfect Components" className="img-fluid rounded-circle border border-4 border-warning" />
+                                <img src={`${import.meta.env.BASE_URL}/img/icons/disinfection.jpg`} alt="Disinfect Components" className="img-fluid rounded-circle border border-4 border-warning" />
                             </div>
                             <h5 className="text-uppercase mb-2 fs-6 text-white">DISINFECT COMPONENTS</h5>
                             <p className="small">All hardware components are tested and disinfected, including filters and vents.</p>
@@ -35,7 +34,7 @@ const BenefitAcMaintenance = () => {
                     <div className="col-md-4 mb-2">
                         <div className="d-flex flex-column align-items-center px-2">
                             <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                <img src={`${import.meta.env.BASE_URL}/img/Extended Lifespan.svg`} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
+                                <img src={`${import.meta.env.BASE_URL}/img/icons/fan.jpg`} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
                             </div>
                             <h5 className="text-uppercase mb-2 fs-6 text-white">FAN ASSESSMENT</h5>
                             <p className="small">We ensure the fan works correctly with no blockages in the evaporator coil.</p>
@@ -45,7 +44,7 @@ const BenefitAcMaintenance = () => {
                     <div className="col-md-4 mb-2">
                         <div className="d-flex flex-column align-items-center px-2">
                             <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                <img src={`${import.meta.env.BASE_URL}/img/No Costly Repairs.svg`} alt="Thermostat Check" className="img-fluid rounded-circle border border-4 border-primary" />
+                                <img src={`${import.meta.env.BASE_URL}/img/icons/thermo.jpg`} alt="Thermostat Check" className="img-fluid rounded-circle border border-4 border-primary" />
                             </div>
                             <h5 className="text-uppercase mb-2 fs-6 text-white">THERMOSTAT CHECK</h5>
                             <p className="small">We use a laser temperature gauge to ensure thermostats operate correctly.</p>
@@ -55,7 +54,7 @@ const BenefitAcMaintenance = () => {
                     <div className="col-md-4 mb-2">
                         <div className="d-flex flex-column align-items-center px-2">
                             <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                <img src={`${import.meta.env.BASE_URL}/img/Reliability.svg`} alt="Airflow Balance" className="img-fluid rounded-circle border border-4 border-danger" />
+                                <img src={`${import.meta.env.BASE_URL}/img/icons/airflow.jpg`} alt="Airflow Balance" className="img-fluid rounded-circle border border-4 border-danger" />
                             </div>
                             <h5 className="text-uppercase mb-2 fs-6 text-white">AIRFLOW BALANCE</h5>
                             <p className="small">We ensure you get optimal air flow around each room as needed.</p>
@@ -65,7 +64,7 @@ const BenefitAcMaintenance = () => {
                     <div className="col-md-4 mb-2">
                         <div className="d-flex flex-column align-items-center px-2">
                             <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                <img src={`${import.meta.env.BASE_URL}/img/Reliability.svg`} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
+                                <img src={`${import.meta.env.BASE_URL}/img/icons/customer.jpg`} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
                             </div>
                             <h5 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h5>
                             <p className="small">Our team provides vital feedback on your AC's health and any needed repairs.</p>
@@ -73,10 +72,7 @@ const BenefitAcMaintenance = () => {
                     </div>
                 </div>
 
-                <p className="mt-4 mb-4">Contact us now to get a free AC service quote.</p>
-
                 <div className="text-center mb-4">
-                   <GetQuoteButton />
                 </div>
             </div>
         </div>
