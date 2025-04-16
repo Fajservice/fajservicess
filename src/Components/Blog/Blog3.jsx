@@ -39,9 +39,9 @@ const Blog3 = () => {
                         <span className="cs_heading_color">Admin</span>
                       </div>
                     </div>
-                    <h3 className="cs_fs_20 cs_semibold cs_mb_5"><Link to="/blog/blog-details">{item.title}</Link></h3>
+                    <h3 className="cs_fs_20 cs_mb_5"><Link to="/blog/blog-details">{item.title}</Link></h3>
                     <p className="cs_mb_19">{item.desc}</p>
-                    <Link to="/blog/blog-details" className="cs_text_btn cs_style_1 cs_bold cs_heading_color">
+                    <Link to="/blog/blog-details" className="cs_text_btn cs_style_1 cs_heading_color">
                       <span className="cs_btn_text text-uppercase">Read More</span>
                       <span className="cs_btn_icon cs_center">
                       <i className="bi bi-arrow-right"></i>    
@@ -49,7 +49,7 @@ const Blog3 = () => {
                       </span>
                     </Link>
                   </div>
-                  <div className="cs_post_date cs_accent_bg cs_fs_18 cs_semibold cs_white_color cs_center position-absolute">10 Oct</div>
+                  <div className="cs_post_date cs_accent_bg cs_fs_18 cs_white_color cs_center position-absolute">10 Oct</div>
                 </div>
               </div>
             </div>
@@ -57,7 +57,7 @@ const Blog3 = () => {
 
           </div>
           <div className="cs_tyres_shape position-absolute">
-            <img src={`${import.meta.env.BASE_URL}/img/tyres.svg`} alt="Tyres Image" />
+            <img src={`${import.meta.env.BASE_URL}/img/new-and-update-png-image.png`} alt="Tyres Image" />
           </div>
         </div>
         <div className="cs_height_80 cs_height_lg_80"></div>
