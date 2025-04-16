@@ -6,6 +6,7 @@ import parse from 'html-react-parser';
 
 const Testimonial1 = ({subtitle,title,bgImg}) => {
 
+
     useEffect(() => {
         loadBackgroudImages();
       }, []);
