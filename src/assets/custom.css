@@ -405,7 +405,7 @@ a.btn-green-yellow:hover{
 .call-now-btn .call-icon {
   max-width: 150px;
   content: url('../../public/img/icons/Call-Icon.png');
-  transition: all 0.3s ease;
+  
 }
 
 .call-now-btn:hover .call-icon {
@@ -416,7 +416,7 @@ a.btn-green-yellow:hover{
 .quote-now-btn .quote-icon {
   max-width: 150px;
   content: url('../../public/img/icons/quote-icon.png');
-  transition: all 0.3s ease;
+  
 }
 
 .quote-now-btn:hover .quote-icon {
@@ -426,7 +426,7 @@ a.btn-green-yellow:hover{
 .whatsapp-now-btn .whatsapp-icon {
   max-width: 150px;
   content: url('../../public/img/icons/whatsapp-icon.png');
-  transition: all 0.3s ease;
+  
 }
 
 .whatsapp-now-btn:hover .whatsapp-icon {
@@ -437,7 +437,7 @@ a.btn-green-yellow:hover{
 .contact-now-btn .contact-icon {
   max-width: 150px;
   content: url('../../public/img/icons/contact.png');
-  transition: all 0.3s ease;
+  
 }
 
 .contact-now-btn:hover .contact-icon {
