@@ -127,9 +127,15 @@ section#get-quote {
     border-right: 0 !important;
   }
 
-  .call-now-btn .call-icon , .quote-now-btn .quote-icon , .contact-now-btn, .contact-icon, .whatsapp-now-btn .whatsapp-icon {
+  .call-now-btn .call-icon , .quote-now-btn .quote-icon , .contact-now-btn, .contact-icon {
     max-width: 115px !important;
   }
+
+  .whatsapp-now-btn .whatsapp-icon {
+    max-width: 138px !important;
+  }
+
+
 }
 
 @media (max-width: 991px) {
@@ -137,15 +143,6 @@ section#get-quote {
       font-size: 30px;
   }
 }
-
-
-/* .right-border-col.border-col-end{
-  border-right: 1px solid #e7e7e7;
-}
-
-.appointment-col.border-small-top{
-
-} */
 
 
 .appointment-col.border-small-top{
@@ -194,11 +191,6 @@ section#get-quote {
     height: 180px;  
   }
 }
-
-
-
-
-
 
 .inner-acsvs-dis-sec {
   background: #d04140;
@@ -405,7 +397,7 @@ a.btn-green-yellow:hover{
 .call-now-btn .call-icon {
   max-width: 150px;
   content: url('../../public/img/icons/Call-Icon.png');
-  transition: all 0.3s ease;
+  
 }
 
 .call-now-btn:hover .call-icon {
@@ -415,18 +407,21 @@ a.btn-green-yellow:hover{
 
 .quote-now-btn .quote-icon {
   max-width: 150px;
-  content: url('../../public/img/icons/quote-icon.png');
-  transition: all 0.3s ease;
+  /* content: url('../../public/img/icons/quote-icon.png'); */
+  
 }
+
+
+/* Remove the below without any code or commnted css */
 
 .quote-now-btn:hover .quote-icon {
-  content: url('../../public/img/icons/quote-icon-hover.png');
+  /* content: url('../../public/img/icons/quote-icon-hover.png'); */
 }
 
-.whatsapp-now-btn .whatsapp-icon {
-  max-width: 150px;
-  content: url('../../public/img/icons/whatsapp-icon.png');
-  transition: all 0.3s ease;
+.whatsapp-now-btn .whatsapp-icon {  
+  max-width: 188px;
+  /* content: url('../../public/img/icons/whatsapp-icon.png'); */
+  
 }
 
 .whatsapp-now-btn:hover .whatsapp-icon {
@@ -436,12 +431,15 @@ a.btn-green-yellow:hover{
 
 .contact-now-btn .contact-icon {
   max-width: 150px;
-  content: url('../../public/img/icons/contact.png');
-  transition: all 0.3s ease;
+  transition: all 1s ease-in-out;
+  /* content: url('../../public/img/icons/contact.png'); */
+  
 }
 
 .contact-now-btn:hover .contact-icon {
-  content: url('../../public/img/icons/contact-hover.png');
+  /* content: url('../../public/img/icons/contact-hover.png'); */
+  transition: all 1s ease-in-out;
+
 }
 
 /* Anchar tags underline */
@@ -451,4 +449,4 @@ p a{
 
 p a:hover{
   font-weight: bold;
- }
+}
