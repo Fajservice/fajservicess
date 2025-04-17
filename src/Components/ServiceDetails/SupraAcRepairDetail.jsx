@@ -130,7 +130,7 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-          <h3 className="cs_fs_30">Reasons My Split Air Conditioner Is Failing To Turn On</h3>
+          <h3 className="cs_fs_30">Reasons My Supra Split Air Conditioner Is Failing To Turn On</h3>
             <div className="row align-items-center">
               <div className="col-md-6">
                 
@@ -142,7 +142,7 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
                 
               </div>
               <div className="col-md-6 text-center text-md-end">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/supra-ac-maintenance.jpeg`} alt="Post Image" />
                 
               </div>
             </div>
@@ -170,7 +170,7 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
           <h3 class="cs_fs_30">Our Services Include But Are Not Limited To the;</h3>
             <div className="row align-items-center">
                 <div className="col-xl-6">
-                  <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/Faj-for-speed.jpg`} alt="Post Image" />
+                  <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/supra-ac-repair.jpg`} alt="Post Image" />
                 </div>
                 <div className="col-xl-6">
                   <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
@@ -211,16 +211,14 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
                     </li>
                   </ul>
                   <p>Our trained team is always ready to help you, we care about your time and money. Therefore at an affordable price, quickly and diligently our professional technicians do their work. Call us to experience an unbeatable difference!</p>
-                 
-                    <div id="get-quote" className=" mt-3">
+                </div>
+            </div>
+            <div id="get-quote" className=" mt-3">
                         <div className="container d-flex justify-content-center align-items-center gap-3">
                         <WhatsappIconButton />
                         <CallNowButton />
                         </div>
                     </div>
-          
-                </div>
-            </div>
           </div>
        
         </section>
