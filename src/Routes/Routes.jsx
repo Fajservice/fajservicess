@@ -26,6 +26,7 @@ import AcRepairInMetha from "../Pages/AcRepairInMetha";
 import AcRepairInJumeirahVillage from "../Pages/AcRepairInJumeirahVillage";
 import AcRepairInJebelAliFreeZone from "../Pages/AcRepairInJebelAliFreeZone";
 import YorkAcRepair from "../Pages/YorkAcRepair";
+import SupraAcRepair from "../Pages/SupraAcRepair";
 export const router = createHashRouter([
   {
     path: "/",
@@ -67,6 +68,10 @@ export const router = createHashRouter([
       {
         path: "/coleman-ac-repair-in-dubai-coleman-ac-maintenance-in-dubai-coleman-ac-fix-in-dubai-coleman-ac-service-in-dubai-coleman-air-condition-repair-in-dubai-coleman-air-condition-maintenance-in-dubai-coleman/",
         element: <ColemenAcRepair></ColemenAcRepair>,
+      },
+      {
+        path: "/supra-ac-repair-in-dubai-supra-ac-maintenance-in-dubai-supra-ac-fix-in-dubai-supra-ac-service-in-dubai-supra-air-condition-repair-in-dubai-supra-air-condition-maintenance-in-dubai-supra-air-condition/",
+        element: <SupraAcRepair />,
       },
       {
         path: "/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten/",
