@@ -94,56 +94,6 @@ section#get-quote {
   transform: rotate(-90deg); /* You can adjust the degrees as per desired direction */
 
 }
-@media screen and (min-width: 1200px) {
-  .cs_nav .cs_nav_list ul {
-    width: max-content;
-  }
-  .cs_nav .cs_nav_list ul a{
-    padding: 5px 10px;
-    line-height: 1.2;
-  }
-  .custom_border_drop li {
-    border-bottom: 1px solid #83838338;
-  }
- 
-}
-@media screen and (max-width: 1200px) {
-  .cs_nav .cs_nav_list > li.menu-item-has-children .custom_border_drop .menu-item-has-children > a::after{
-    display: none;
-  }
-}
-@media screen and (max-width: 767px) {
-  .cs_page_heading {
-    height: 135px;
-  }
-  .cs_logo_bg_shape img{
-    height: -webkit-fill-available;
-  }
-
-  .appointment-col.border-small-top{
-    border-top: 0 !important;
-  }
-  .right-border-col.border-col-end{
-    border-right: 0 !important;
-  }
-
-  .call-now-btn .call-icon , .quote-now-btn .quote-icon , .contact-now-btn, .contact-icon {
-    max-width: 115px !important;
-  }
-
-  .whatsapp-now-btn .whatsapp-icon {
-    max-width: 138px !important;
-  }
-
-
-}
-
-@media (max-width: 991px) {
-  .cs_fs_50 {
-      font-size: 30px;
-  }
-}
-
 
 .appointment-col.border-small-top{
   position: relative;
@@ -368,8 +318,8 @@ section#get-quote {
 
 /* Common box  */
 .box-content-container{
-  min-height: 175px;
-  max-height: 185px;
+  min-height: 165px;
+  max-height: 165px;
   overflow-y: auto;
 }
 
@@ -449,4 +399,105 @@ p a{
 
 p a:hover{
   font-weight: bold;
+}
+
+
+
+
+/* MEDIA SCREENS */
+@media screen and (min-width: 1200px) {
+  .cs_nav .cs_nav_list ul {
+    width: max-content;
+  }
+  .cs_nav .cs_nav_list ul a{
+    padding: 5px 10px;
+    line-height: 1.2;
+  }
+  .custom_border_drop li {
+    border-bottom: 1px solid #83838338;
+  } 
+
+  .box-content-container{
+    min-height: 185px;
+    max-height: 200px;
+  }
+
+}
+@media screen and (max-width: 1200px) {
+  .cs_nav .cs_nav_list > li.menu-item-has-children .custom_border_drop .menu-item-has-children > a::after{
+    display: none;
+  }
+}
+
+@media screen and  (max-width: 1024px) {
+
+  .box-content-container{
+    min-height: 210px;
+    max-height: 210px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .cs_py_48{
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+  }
+
+  /* .box-content-container{
+    min-height: 210px;
+    max-height: 210px;
+  } */
+
+  .cs_fs_50 {
+      font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cs_service_details h2, cs_fs_30, h3, h2{
+    font-size: 25px;
+  }
+
+  .cs_fs_24 {
+    font-size: 20px;
+  }
+  .box-content-container{
+    min-height: 120px;
+    max-height: 130px;
+  }
+  .cs_page_heading {
+    height: 135px;
+  }
+  .cs_logo_bg_shape img{
+    height: -webkit-fill-available;
+  }
+
+  .appointment-col.border-small-top{
+    border-top: 0 !important;
+  }
+  .right-border-col.border-col-end{
+    border-right: 0 !important;
+  }
+
+  .call-now-btn .call-icon , .quote-now-btn .quote-icon , .contact-now-btn, .contact-icon {
+    max-width: 115px !important;
+  }
+
+  .whatsapp-now-btn .whatsapp-icon {
+    max-width: 138px !important;
+  }
+
+
+}
+
+
+@media screen and (max-width: 576px) {
+
+  .cs_service_details h2, .cs_fs_30, h3, h2{
+    font-size: 20px;
+  }
+  .box-content-container{
+    min-height: auto;
+    max-height: 185px;
+  }
 }
