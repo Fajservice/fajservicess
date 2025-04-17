@@ -84,7 +84,7 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_48">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">The FAJ experts can help you make your home or place of business more comfortable</h2>
+            <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
             <p>FAJ Technical Services LLC is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
               <br />
               Our skilled AC technicians can handle all types, brands, and models of air conditioning units, ensuring your home or business stays cool and comfortable.</p>
@@ -308,7 +308,7 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
                       <li>
                         <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                           <i className="bi bi-check"></i></span>
-                        <span>Condenser coil and evaporator unit cleaning</span>
+                        <span>Ac coil cleaning</span>
                       </li>
                     </ul>
                   </div>
