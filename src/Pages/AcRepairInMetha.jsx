@@ -7,7 +7,7 @@ const AcRepairInMetha = () => {
     <BreadCumb
         // bgImg="/img/page_heading_1.jpg"
         bgImg="/img/ac_service-bannerbg.jpg"
-        Title="AC Service in Mehta"
+        Title="Mehta Premium AC Service"
     ></BreadCumb> 
     <AcRepairInMethaDetail />
 </div>
