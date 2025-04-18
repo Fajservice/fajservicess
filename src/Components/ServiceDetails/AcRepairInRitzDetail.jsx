@@ -41,7 +41,9 @@ const AcRepairInRitzDetail = () => {
                     <div className="container">
                         {/* <img src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
                         <h2 className="cs_fs_30">The FAJ experts can help you make your home or place of business more comfortable</h2>
-                        <p>FAJ Technical Services LLC is your premier choice for quality AC Service In Dubai. With 14 years of experience in AC repairing, maintenance, and servicing, we are the most trusted air conditioning service company in Dubai, UAE.<br />FAJ is providing AC repair and maintenance services to all areas of Dubai. Our AC technicians are skilled and specialize in repairing all AC types, brands, and models. Experience reliable AC repair and maintenance to keep your home or business cool and comfortable.</p>
+                        <p>FAJ Technical Services LLC is your top choice for AC services in Dubai. With over 15 years of experience, we provide trusted AC repair and maintenance in Dubai and Sharjah.
+                            Our skilled AC technicians can handle all types, brands, and models of air conditioner units to keep your home or business cool and comfortable throughout the year.
+                        </p>
 
                         <div id="get-quote" class=" mt-3">
 
@@ -60,9 +62,9 @@ const AcRepairInRitzDetail = () => {
                         <div className="row g-5">
                             <div className="col-md-6">
                                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
-                                <h3 className="cs_fs_25 mb-1 mt-3">Experts AC Service and Maintenance</h3>
-                                <p>When it comes to AC repair in The Ritz Carlton DIFC, Dubai, it’s         essential to hire professional and trustworthy AC technician for your home or business place.</p>
-                                   <p> We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
+                                <h3 className="cs_fs_25 mb-1 mt-3">Best AC Repair in Ritz Carlton DIFC</h3>
+                                <p>When it comes to AC repair in Ritz Carlton DIFC, it’s essential to hire a professional and trustworthy AC technician for your home or office.</p>
+                                <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                             </div>
 
                             <div className="col-md-6 border-small-left">
@@ -131,7 +133,8 @@ const AcRepairInRitzDetail = () => {
                 {/* Common Signs Your AC May Need Maintenanc */}
                 <section className="section cs_py_48">
                     <div className="container">
-                        <h3 className="text-center">Common Signs Your AC May Need Maintenance</h3>
+                        <h3 className="text-center">Common AC Problems That May Require Maintenance
+                        </h3>
                         <div className="row gx-lg-3 gy-lg-4">
                             <div className="col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
@@ -235,7 +238,8 @@ const AcRepairInRitzDetail = () => {
                                 <iframe className="bordered-img blue-border" width="100%" height="350" src="https://www.youtube.com/embed/sxBhB1_gxYA?si=96yf5hxyAA3bct8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
                             </div>
                             <div className="col-xl-6">
-                                <p>Take a look at this video to understand the possible problems your AC might face. This will help you to ensure that the professionals you hire are completing the right checks.</p>
+                                <p>Watch this video to learn about the common issues your air conditioning unit may experience.</p>
+                                <p>This knowledge will help you ensure that the professionals you hire are performing the appropriate checks and maintenance.</p>
                                 <p><strong>We specialize in:</strong></p>
                                 <div className="row">
                                     <div className="col">
@@ -243,17 +247,17 @@ const AcRepairInRitzDetail = () => {
                                             <li>
                                                 <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                                                     <i className="bi bi-check"></i></span>
-                                                <span>Cleaning or replacing the air filter</span>
-                                            </li>
-                                            <li>
-                                                <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                                                    <i className="bi bi-check"></i></span>
-                                                <span>Condenser coil and evaporator unit cleaning</span>
+                                                <span>AC coil cleaning</span>
                                             </li>
                                             <li>
                                                 <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                                                     <i className="bi bi-check"></i></span>
                                                 <span>Regular maintenance</span>
+                                            </li>
+                                            <li>
+                                                <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                                                    <i className="bi bi-check"></i></span>
+                                                <span>Unclogging drain lines</span>
                                             </li>
                                             <li>
                                                 <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
@@ -268,23 +272,23 @@ const AcRepairInRitzDetail = () => {
                                             <li>
                                                 <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                                                     <i className="bi bi-check"></i></span>
-                                                <span>Checking and tightening electrical connections</span>
+                                                <span>Inspecting and AC installation</span>
+                                            </li>
+                                            <li>
+                                                <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                                                    <i className="bi bi-check"></i></span>
+                                                <span>Cleaning or replacing the air filter</span>
                                             </li>
                                             <li>
                                                 <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                                                     <i className="bi bi-check"></i></span>
                                                 <span>Fixing leaks refrigerant, water, or duct leaks</span>
                                             </li>
-                                            <li>
-                                                <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                                                    <i className="bi bi-check"></i></span>
-                                                <span>Unclogging drain lines</span>
-                                            </li>
 
                                             <li>
                                                 <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                                                     <i className="bi bi-check"></i></span>
-                                                <span>Inspecting and repairing ductwork</span>
+                                                <span>Checking and tightening electrical connections</span>
                                             </li>
 
                                         </ul>
