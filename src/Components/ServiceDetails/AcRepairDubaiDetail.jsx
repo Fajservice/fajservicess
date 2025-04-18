@@ -17,9 +17,9 @@ import parse from 'html-react-parser';
 // import { Link } from "react-router-dom";
 
 const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
-  subtitle="Testimonial"
-  title="What our clients say About Us"
-  bgImg="/img/testimonialbg.jpg"
+  subtitle = "Testimonial"
+  title = "What our clients say About Us"
+  bgImg = "/img/testimonialbg.jpg"
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -78,7 +78,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
         <title>FAJ / AC Repair In Dubai - Freezer Service Appliances Fix</title>
         <meta name="description" content="FAJ Established in 2010, / We offer professional AC Repair, Freezer, Refrigerator, Fridge, Washing Machine Maintenance Service Company Dubai"></meta>
       </HelmetProvider>
-      
+
 
       <div className="cs_service_details">
 
@@ -86,9 +86,11 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
-            <p>FAJ Technical Services LLC is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
+            <p>FAJ Technical Services LLC is a leading AC repair company in Dubai, providing reliable air conditioner services tailored to the UAE's hot climate.
               <br />
-              Our skilled AC technicians can handle all types, brands, and models of air conditioning units, ensuring your home or business stays cool and comfortable.</p>
+              Our trained professionals ensure a comfortable environment for living, learning, working, and playing.
+              When your air conditioning system fails, we’re here to help. Choose FAJ for all your AC repair needs in Dubai.
+            </p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -106,8 +108,8 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-md-6">
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/ac-repair.jpg`} alt="Post Image" />
                 <h3 className="cs_fs_25 mb-1 mt-3">Select Air Conditioner Repair & Service</h3>
-                <p>We understand the importance of arriving on-site quickly when an air conditioning failure impacts your vital cooling system and people rely on it. Our team consists of expert and experienced AC repair technicians who provide the best AC repair and AC services in Dubai and the surrounding areas.</p>
-                <p>Choose FAJ for professional AC repair and maintenance for both residential and commercial units near you.</p>
+                <p>We understand the urgency of responding promptly when an air conditioner failure impacts your critical cooling system, especially when people depend on it. Our expert and experienced AC technicians are dedicated to delivering the best AC repair and service in Dubai.</p>
+                <p>Choose FAJ for professional AC repair and maintenance for both residential and commercial units in your area.</p>
               </div>
 
               <div className="col-md-6 border-small-left">
@@ -125,7 +127,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
             </div>
 
             <div className="appointment-col border-small-top pt-3">
-              <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<br />For technical inspection/callout fees, AC service near you, repair, or maintenance, please click here.To book an appointment, you can call +971 4 330 0002 or reach us on WhatsApp at +971 50 746 4712.</p>
+              <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability. For technical inspection/callout fees, AC service near you, repair, or maintenance, please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
               <div id="get-quote" className=" mt-3">
                 <div className="container d-flex justify-content-center align-items-center gap-3">
                   <WhatsappIconButton />
@@ -158,22 +160,22 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
         </section>
 
 
-        {/*WFAJ: Creating the Perfect Temperature All Year Round */}
+        {/*FAJ: Creating the Perfect Temperature All Year Round */}
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
             <h3 class="cs_fs_30">FAJ: Creating the Perfect Temperature All Year Round</h3>
-            
+
 
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/ac-repair-3.jpg`} alt="Post Image" />
               </div>
               <div className="col-md-6">
-              <p>When the temperature soars and you have air conditioner system faults, we are here to save your day. We have trained and professional HVAC technical teams to serve you. FAJ provides AC Repair services all over Dubai UAE. We have a team of experts that will assist with your <Link to="/ac-maintenance-dubai/">AC maintenance</Link> and AC Repair needs. We know that Air conditioners are the main need of your house in this modern world. So, contact us for our quality Aircon services. near you, contact us.
-            </p>
-            <p>
-            Whenever something goes harmful to your air conditioner, determining the cause can be difficult. After all, air conditioners are complex pieces of machinery with numerous moving parts that can fail. However, there are a few major signs that may help you in diagnosing AC issues. For example, if your unit is making unusual noises, ac errors, or emitting unusual odors, this is usually a sign that there’s something wrong.
-            </p>
+                <p>When the temperature soars and you have air conditioner system faults, we are here to save your day. We have trained and professional HVAC technical teams to serve you. FAJ provides AC Repair services all over Dubai UAE. We have a team of experts that will assist with your <Link to="/ac-maintenance-dubai/">AC maintenance</Link> and AC Repair needs. We know that Air conditioners are the main need of your house in this modern world. So, contact us for our quality Aircon services. near you, contact us.
+                </p>
+                <p>
+                  Whenever something goes harmful to your air conditioner, determining the cause can be difficult. After all, air conditioners are complex pieces of machinery with numerous moving parts that can fail. However, there are a few major signs that may help you in diagnosing AC issues. For example, if your unit is making unusual noises, ac errors, or emitting unusual odors, this is usually a sign that there’s something wrong.
+                </p>
               </div>
             </div>
           </div>
@@ -354,6 +356,88 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
                   </div>
 
                 </div> */}
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/*WFAJ: Creating the Perfect Temperature All Year Round */}
+        <section className="section cs_py_48">
+          <div className="container">
+
+
+
+            <div className="row align-items-center">
+              <div className="col-md-6">
+                <h4>Roasting air
+                </h4>
+                <p>When your AC starts blasting you with hot air, check the thermostat. If everything appears to be in order according to the thermostat settings, it is time to call an expert for AC repair Dubai. The primary concern here is to become familiar with the fact that it indicates the maintenance of your AC.</p>
+
+                <h4>A change in electricity bills</h4>
+                <p>
+                  Using a damaged AC will increase the cost of electricity. AC servicing will assist to reduce operating costs over time. However, the question here is why your AC is increasing your electricity bills. It indicates an issue with your air conditioner. Diagnosing and solving the problem will be helped by contacting professionals of AC repair near me.</p>
+
+                <h4>Uncanny noises</h4>
+                <p>
+                  When an air conditioner is running, it makes certain sounds, but if you hear a sound that is different from its natural sound, it is an indication. These sounds can be produced by cooling machines for a variety of reasons, including loose screws, fan blade issues, and so on. This noise is a precursor to any machine query. As a result, paying attention to these noises will be costly.</p>
+
+                <h4>Unnatural smell</h4>
+                <p>
+                  You must be aware of the strange odor that the air conditioner emits when turned on after a long period of inactivity. However, if you run the air conditioner constantly, this odor can become irritating. According to AC repairing experts; this odor is caused by dirt on the filter, so the device also exerts extra force to change the climate. This odor awakens our senses and indicates that our air conditioner requires maintenance.</p>
+
+                <h4>Drainage issues</h4>
+                <p>
+                  The most likely cause of an air conditioner leak inside your home or business place is a clogged condensate drain line. Over time, particles such as dirt, dust, or mold can clog this pipe. When your condensate drain pipe becomes clogged, water cannot leak and drain to the outside of your property. When it discovers a problem in your ac machine, extra water flows into your path.</p>
+
+                <h4>Low airflow</h4>
+                <p>
+                  The airflow from the AC used to hit you directly, but it is no longer even close to you. It means that something unusual has started to affect your AC. Reduced airflow indicates that it must be maintained.</p>
+
+                <h4>Looking for the best AC Repair / AC fixing Company in Dubai?</h4>
+                <p>Looking for the best AC Repair / AC fixing Company in Dubai?
+                  If your air conditioner starts freezing up and showing signs of trouble, you should always contact a professional AC repair company to properly diagnose the problem and make any necessary repairs. In this way, FAJ Technical Services LLC will be happy to provide expert services to ensure your AC is operating properly and efficiently.
+                  <br />
+                  Our expert ac technicians are knowledgeable and courteous because we are the most important repair company in Dubai. We also have the necessary experience in finding the source of the problem in your air conditioning system, as well as performing any necessary repairs and maintenance tasks to make sure cool air begins to flow through your home or office again. With this in mind, if your air conditioner begins to malfunction, don’t delay in contacting us!
+                  <br />
+                  Our experienced team operates not only in Dubai but also in other cities like Abu Dhabi, Sharjah, and all over the UAE. All of our clients receive one-of-a-kind, highly professional services. We have a dedicated team that serves both residential and commercial units in Dubai and all over the UAE.</p>
+
+              </div>
+              <div className="col-md-6">
+
+                <h4>Why Contact Us for AC repair services? </h4>
+                <p>Here are just a few of the reasons why you should always contact an expert like us if your air conditioner isn’t working properly:</p>
+
+                <h4>Best AC knowledge and experience </h4>
+                <p>Our Experts have 13 years of experience dealing with all types of air conditioner issues. We know how to resolve the problem quickly and effectively. We will definitely help you save time, money, and a lot of frustration. In comparison, trying to solve the problem by yourself can frequently worsen the situation.</p>
+
+                <h4>Right AC equipment and tools </h4>
+                <p> Our Air Conditioning Repair professionals use the most up-to-date tools and ac equipment to complete the job quickly and efficiently. Not only that, but we also know how to correctly use them. You see, there’s a lot more to air conditioner maintenance than simply unplugging and replunging a few wires.</p>
+
+                <h4>Save you time and money </h4>
+                <p>It’s also worth noting that professionals can save you a lot of time and money. Attempting to AC fix on your own can frequently result in further damage, which can end up costing you much more in the long run. Calling in a professional, on the other hand, can save you time, money, and a lot of difficulty.</p>
+
+                <h4>Our services will help you prevent future problems </h4>
+                <p>We are not only fixing the problem that is currently affecting your air conditioner, but we can also assist you in preventing future problems. Professionals will frequently inspect the entire system to ensure that everything is in working order. This will save you a lot of trouble in the future. If youre having problems with your air conditioner, it’s always best to contact a professional for AC repair in Dubai. Our Experts have the experience and knowledge to complete the ac job quickly and efficiently, and we can assist you in preventing future problems.</p>
+
+                <h4>Is it worth fixing an AC or AC Repair? </h4>
+                <p>As the weather begins to warm, many homeowners and business owners ask whether it is worth it to repair their broken air conditioner or replace it with a new unit. While both options have advantages and disadvantages, there are a few things to consider that can help you in making the best decision for your home.</p>
+                <ul>
+                  <li>First, consider the age of your air conditioner. If it is more than ten years old, it may be less effective than a newer model and more capable of breaking down. </li>
+                  <li>  Consider the cost of repairs as well. If the Ac repair costs more than half the cost of a new unit, it might be better to start over.</li>
+                  <li>  Finally, consider how frequently you use your air conditioner. If you live in a mild climate, you may not need to run it as frequently as someone who lives in a hot climate.</li>
+                  <li>Considering all of these factors will help you decide whether it is worthwhile to repair your air conditioner. </li>
+                </ul>
+
+                <h4>Why Shouldnt You Perform Your AC Repairs by Yourself?</h4>
+                <p>
+                  The short answer to this question is straightforward. It is dangerous, and you risk severe injuries or even an electric spark.
+
+                  <br />
+
+                  Yes, you can do some DIY fixes to your air conditioner, but you should be careful about the risks you run by doing so, the least of which is that you may lead to the problem and incur more complicated and costly repairs. To make matters worse, you may endanger the health and well-being of your family. As if that weren’t enough, doing your work on your air conditioner may invalidate your warranty, resulting in you paying far more than you would have if you had hired a professional in the first place.
+                </p>
+
 
               </div>
             </div>
@@ -588,7 +672,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
         </section>
 
-        {/* FAQ's */} 
+        {/* FAQ's */}
         <section className="section cs_py_48  bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ's</h3>

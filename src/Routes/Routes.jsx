@@ -6,6 +6,7 @@ import Home from "../Pages/Home";
 import AboutPage from "../Pages/AboutPage";
 import Layout2 from "../Layout/Layout2";
 import AcServiceInDubai from "../Pages/AcServiceInDubai";
+import AcMaintenanceDubai from "../Pages/AcMaintenanceDubai";
 import AcRepairDubai from "../Pages/AcRepairDubai";
 import WashingMachineRepairServiceDubai from "../Pages/WashingMachineRepairServiceDubai";
 import RefrigeratorRepairInDubai from "../Pages/RefrigeratorRepairInDubai";
@@ -50,6 +51,12 @@ export const router = createHashRouter([
         path: "/ac-service-in-dubai/",
         element: <AcServiceInDubai></AcServiceInDubai>,
       },
+      ,
+      {
+        path: "/ac-maintenance-dubai/",
+        element: <AcMaintenanceDubai></AcMaintenanceDubai>,
+      },
+      
       {
         path: "/ac-repair-dubai/",
         element: <AcRepairDubai></AcRepairDubai>,

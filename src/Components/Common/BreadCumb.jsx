@@ -10,7 +10,7 @@ const BreadCumb = ({bgImg,Title}) => {
 
     return (
 
-      <section className="cs_page_heading cs_bg_filed cs_center cs_primary_bg" data-background={`${import.meta.env.BASE_URL}${bgImg}`}>
+      <section className="cs_page_heading cs_bg_filed cs_center cs_primary_bg" data-background={`${import.meta.env.BASE_URL}${bgImg}`} >
       <div className="container">
         <h1 className="cs_white_color cs_white_color mb-0 cs_fs_50">{Title}</h1>
         {/* <ol className="breadcrumb cs_heading_font">
