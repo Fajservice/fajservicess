@@ -117,8 +117,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
                 <h3 className="cs_fs_24 mb-1 mt-3">Top Signs Need An AC Repair in Dubai</h3>
                 <p>When you realize your air conditioner isn't working well in the summer, it can be frustrating. Minor signs are often overlooked, but they can lead to major problems that require repairs, especially in Dubai's heat.</p>
                 <ul>
-                  <li>Insufficient Cooling</li>
-                  <li>AC blowing warm air</li>
+                  <li>Insufficient Cooling / AC blowing warm air</li>
                   <li>Sudden increases in electricity Bills</li>
                   <li>Strange Noises Coming From The AC</li>
                   <li>Leaks of gas or water around your AC unit</li>
@@ -287,21 +286,18 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* Why is AC Repair Dubai Essential?*/}
-        <section className="section cs_py_48 bg-light-gray">
+         {/* A Quick Guide to Understanding and Fixing Your AC Problems*/}
+         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-            <h3 className="cs_fs_30">Why is AC Repair Dubai Essential?</h3>
+            <h3 className="cs_fs_30">A Quick Guide to Understanding and Fixing Your AC Problems</h3>
             <div className="row">
               <div className="col-xl-6">
-                <iframe className="bordered-img blue-border" width="100%" height="350" src="https://www.youtube.com/embed/sxBhB1_gxYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+                <iframe className="bordered-img blue-border" width="100%" height="350" src="https://www.youtube.com/embed/sxBhB1_gxYA?si=96yf5hxyAA3bct8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
               </div>
               <div className="col-xl-6">
-                <p>We offer prompt and courteous mobile service in any Dubai, Abu Dhabi, and Sharjah locations. Summers in Dubai without a working air conditioner are similar to camping in Antarctica with no warm clothes or a heater. This is why it is so important to repair your air conditioner. AC repair is essential for making sure its efficiency and longevity. Regular AC maintenance and AC repair can help prevent malfunctions and costly repairs while also improving indoor air quality and comfort. Replacing air filters or cleaning them is an important repair task. Clogged or filthy filters reduce airflow and system efficiency. If the airflow gets blocked, dirt may enter the filter, reducing the effectiveness of the AC or causing damage. As a result, for AC to function properly, maintenance such as filter cleaning or replacement is required. AC Planned Preventive Maintenance Service improves the quality of interior air, making breathing cleaner and healthier.</p>
-                <p>If you believe your air conditioning unit requires emergency service call us now at +971 50 746 4712 for information about our AC repair Dubai services.
-                  <br />
-                  <strong>AC Repair Dubai</strong> An air conditioning unit is designed to change the temperature of the environment regardless of the weather. However, it indicates something when your AC does not perform well with the proper settings. We’ve outlined a few points to make you conscious of such warning signs.
-                </p>
-                {/* <div className="row">
+                <p>Take a look at this video to understand the possible problems your AC might face. This will help you to ensure that the professionals you hire are completing the right checks.</p>
+                <p><strong>We specialize in:</strong></p>
+                <div className="row">
                   <div className="col">
                     <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
                       <li>
@@ -358,12 +354,13 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
                     </ul>
                   </div>
 
-                </div> */}
+                </div>
 
               </div>
             </div>
           </div>
         </section>
+
 
         {/*WFAJ: Creating the Perfect Temperature All Year Round */}
         {/* <section className="section cs_py_48">
