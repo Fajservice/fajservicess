@@ -107,14 +107,14 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
             <div className="row g-5">
               <div className="col-md-6">
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/ac-repair.jpg`} alt="Post Image" />
-                <h3 className="cs_fs_25 mb-1 mt-3">Select Air Conditioner Repair & Service</h3>
+                <h3 className="cs_fs_24 mb-1 mt-3">Select Air Conditioner Repair & Service</h3>
                 <p>We understand the urgency of responding promptly when an air conditioner failure impacts your critical cooling system, especially when people depend on it. Our expert and experienced AC technicians are dedicated to delivering the best AC repair and service in Dubai.</p>
                 <p>Choose FAJ for professional AC repair and maintenance for both residential and commercial units in your area.</p>
               </div>
 
               <div className="col-md-6 border-small-left">
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/ac-repair-2.jpg`} alt="Post Image" />
-                <h3 className="cs_fs_25 mb-1 mt-3">Top Signs Need An AC Repair in Dubai</h3>
+                <h3 className="cs_fs_24 mb-1 mt-3">Top Signs Need An AC Repair in Dubai</h3>
                 <p>When you realize your air conditioner isn't working well in the summer, it can be frustrating. Minor signs are often overlooked, but they can lead to major problems that require repairs, especially in Dubai's heat.</p>
                 <ul>
                   <li>Insufficient Cooling</li>
