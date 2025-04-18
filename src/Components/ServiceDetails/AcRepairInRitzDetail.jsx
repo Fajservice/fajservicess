@@ -40,7 +40,7 @@ const AcRepairInRitzDetail = () => {
                 <section className="section cs_py_48">
                     <div className="container">
                         {/* <img src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-                        <h2 className="cs_fs_30">The FAJ experts can help you make your home or place of business more comfortable</h2>
+                        <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR Ritz Carlton DIFC </h2>
                         <p>FAJ Technical Services LLC is your top choice for AC services in Dubai. With over 15 years of experience, we provide trusted AC repair and maintenance in Dubai and Sharjah.
                             Our skilled AC technicians can handle all types, brands, and models of air conditioner units to keep your home or business cool and comfortable throughout the year.
                         </p>
@@ -80,7 +80,7 @@ const AcRepairInRitzDetail = () => {
                         </div>
 
                         <div className="appointment-col border-small-top pt-3">
-                            <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of AC cleaning service, repair, or maintenance. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+                            <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/ac-maintenance-dubai//"><b>AC cleaning service</b></Link> , repair, or maintenance. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
                             <div id="get-quote" className=" mt-3">
                                 <div className="container d-flex justify-content-center align-items-center gap-3">
                                     <WhatsappIconButton />
@@ -232,7 +232,7 @@ const AcRepairInRitzDetail = () => {
                 {/* A Quick Tour to Your AC Problems and Fixing*/}
                 <section className="section cs_py_48 bg-light-gray">
                     <div className="container">
-                        <h3 className="cs_fs_30">A Quick Tour to Your AC Problems and Fixing</h3>
+                        <h3 className="cs_fs_30">A Quick Guide to Understanding and Fixing Your AC Problems</h3>
                         <div className="row">
                             <div className="col-xl-6">
                                 <iframe className="bordered-img blue-border" width="100%" height="350" src="https://www.youtube.com/embed/sxBhB1_gxYA?si=96yf5hxyAA3bct8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
@@ -252,12 +252,12 @@ const AcRepairInRitzDetail = () => {
                                             <li>
                                                 <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                                                     <i className="bi bi-check"></i></span>
-                                                <span>Regular maintenance</span>
+                                                <span>Recharging refrigerant levels</span>
                                             </li>
                                             <li>
                                                 <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                                                     <i className="bi bi-check"></i></span>
-                                                <span>Unclogging drain lines</span>
+                                                <span>Cleaning or replacing the air filtes</span>
                                             </li>
                                             <li>
                                                 <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
@@ -272,23 +272,24 @@ const AcRepairInRitzDetail = () => {
                                             <li>
                                                 <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                                                     <i className="bi bi-check"></i></span>
-                                                <span>Inspecting and AC installation</span>
+                                                <span>Regular maintenance</span>
                                             </li>
                                             <li>
                                                 <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                                                     <i className="bi bi-check"></i></span>
-                                                <span>Cleaning or replacing the air filter</span>
+                                                <span>Unclogging drain lines</span>
                                             </li>
                                             <li>
                                                 <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                                                     <i className="bi bi-check"></i></span>
-                                                <span>Fixing leaks refrigerant, water, or duct leaks</span>
+                                                <span>Inspecting and AC installation
+                                                </span>
                                             </li>
 
                                             <li>
                                                 <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                                                     <i className="bi bi-check"></i></span>
-                                                <span>Checking and tightening electrical connections</span>
+                                                <span>Fixing leaks refrigerant, water, or duct leaks</span>
                                             </li>
 
                                         </ul>

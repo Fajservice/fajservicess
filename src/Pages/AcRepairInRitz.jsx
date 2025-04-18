@@ -7,8 +7,8 @@ const AcRepairInRitz = () => {
     <div className="serviceDetails">
     <BreadCumb
         // bgImg="/img/page_heading_1.jpg"
-        bgImg="/img/ac_service-bannerbg.jpg"
-        Title="Ritz Carlton DIFC Premier AC Service"
+        bgImg="/img/air-condition.jpg"
+        Title="AC Service and Repair in Ritz Carlton DIFC"
     ></BreadCumb> 
     <AcRepairInRitzDetail></AcRepairInRitzDetail>
 </div>
