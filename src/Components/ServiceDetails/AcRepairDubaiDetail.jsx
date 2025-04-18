@@ -107,14 +107,14 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
             <div className="row g-5">
               <div className="col-md-6">
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/ac-repair.jpg`} alt="Post Image" />
-                <h3 className="cs_fs_25 mb-1 mt-3">Select Air Conditioner Repair & Service</h3>
+                <h3 className="cs_fs_24 mb-1 mt-3">Select Air Conditioner Repair & Service</h3>
                 <p>We understand the urgency of responding promptly when an air conditioner failure impacts your critical cooling system, especially when people depend on it. Our expert and experienced AC technicians are dedicated to delivering the best AC repair and service in Dubai.</p>
                 <p>Choose FAJ for professional AC repair and maintenance for both residential and commercial units in your area.</p>
               </div>
 
               <div className="col-md-6 border-small-left">
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/ac-repair-2.jpg`} alt="Post Image" />
-                <h3 className="cs_fs_25 mb-1 mt-3">Top Signs Need An AC Repair in Dubai</h3>
+                <h3 className="cs_fs_24 mb-1 mt-3">Top Signs Need An AC Repair in Dubai</h3>
                 <p>When you realize your air conditioner isn't working well in the summer, it can be frustrating. Minor signs are often overlooked, but they can lead to major problems that require repairs, especially in Dubai's heat.</p>
                 <ul>
                   <li>Insufficient Cooling</li>
@@ -145,9 +145,8 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* FAJ Expert Air Conditioning Repair for Homes & Businesses Places */}
-        <section className="section cs_py_48">
+        {/* <section className="section cs_py_48">
           <div className="container">
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30">FAJ Expert Air Conditioning Repair for Homes & Businesses Places</h2>
             <p> <a href="https://www.google.com/maps/place/FAJ+Technical+Services+L.L.C+-+Warehouse+No+-+S-02+Gate+35+Street+18b+-+Al+Quoz+-+Al+Quoz+Industrial+Area+4+-+Dubai+-+United+Arab+Emirates/data=!4m2!3m1!1s0x3e5f699a600aceeb:0xa6121b25d557aa94?utm_source=mstt_1&entry=gps&lucs=47068615&g_ep=CAESCTExLjkxLjMwMhgAINeCAyoINDcwNjg2MTVCAlBL/">F A J Technical Services L.L.C</a> , an AC Repair Dubai Company, provides its clients most reliable Air Conditioning technical services in the region. According to the hot climate of UAE, Our Technical Services are designed to deliver you a comfortable environment that allows you to live, learn work, and play with peace of mind. When the temperature soars and you have air conditioner system faults, we are here to save your day. We have trained and professional technical teams to serve you. FAJ, AC Repair Dubai Service Company. </p>
             <div id="get-quote" className=" mt-3">
@@ -155,27 +154,31 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
                 <WhatsappIconButton />
               </div>
             </div>
-            {/*  */}
           </div>
-        </section>
+        </section> */}
 
 
         {/*FAJ: Creating the Perfect Temperature All Year Round */}
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-            <h3 class="cs_fs_30">FAJ: Creating the Perfect Temperature All Year Round</h3>
-
+            <h3 class="cs_fs_30">5 Reasons Your AC Might Need Repairs This Summer </h3>
+            
 
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/ac-repair-3.jpg`} alt="Post Image" />
               </div>
               <div className="col-md-6">
-                <p>When the temperature soars and you have air conditioner system faults, we are here to save your day. We have trained and professional HVAC technical teams to serve you. FAJ provides AC Repair services all over Dubai UAE. We have a team of experts that will assist with your <Link to="/ac-maintenance-dubai/">AC maintenance</Link> and AC Repair needs. We know that Air conditioners are the main need of your house in this modern world. So, contact us for our quality Aircon services. near you, contact us.
-                </p>
-                <p>
-                  Whenever something goes harmful to your air conditioner, determining the cause can be difficult. After all, air conditioners are complex pieces of machinery with numerous moving parts that can fail. However, there are a few major signs that may help you in diagnosing AC issues. For example, if your unit is making unusual noises, ac errors, or emitting unusual odors, this is usually a sign that there’s something wrong.
-                </p>
+              <p>Air conditioning issues are quite common during the summer months. If you're experiencing AC issues this season, it's important to understand what might be happening with your system. Identifying the problem early can prevent it from worsening and ensure your place remains comfortable during the heat. </p>
+                <ul className="mb-0">
+                  <li> <strong>Insufficient Cooling:</strong> May be due to a refrigerant leak, blocked filter, or compressor issues.</li>
+                  <li> <strong>Strange Noises:</strong> Sounds like banging or hissing could indicate damaged parts.</li>
+                  <li> <strong>Increased Energy Bills:</strong> A spike in bills often means your AC is working inefficiently.</li>
+                  <li> <strong>Frequent Cycling:</strong> Constantly turning on and off might suggest a faulty thermostat or oversized system.</li>
+                  <li> <strong>Poor Airflow:</strong> Weak airflow can result from a clogged filter or issues with the ducts.
+                  <br />
+                  Stay alert for these signs to maintain your AC. If you notice any issues, consult a professional technician for help.</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -363,11 +366,8 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/*WFAJ: Creating the Perfect Temperature All Year Round */}
-        <section className="section cs_py_48">
+        {/* <section className="section cs_py_48">
           <div className="container">
-
-
-
             <div className="row align-items-center">
               <div className="col-md-6">
                 <h4>Roasting air
@@ -442,10 +442,10 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
 
-        {/* The Benefits Of Regular AC Service*/}
+
         <BenefitAcMaintenance />
 
         {/*Select FAJ for Quick Service, Efficienc  */}
@@ -482,7 +482,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
                   <Link to="/lg-ac-repair-in-dubai/"><b>LG Air Conditioner Repair</b></Link>: FAJ offers reliable LG AC repair, and services in Dubai. With professionals, who are experts in split, vrf and central air conditioning units.
                 </p>
                 <p className="mb-0">
-                  <Link to="/samsung-ac-repair-in-dubai/"><b>Samsung Air Conditioner Repair and Service</b></Link>: Based in Dubai, FAJ is your go-to destination for Samsung AC Services in Dubai. Specializing in Samsung air conditioner systems, we offer comprehensive services ranging from maintenance to repair.
+                  <Link to="/samsung-ac-repair-in-dubai/"><b>Samsung Air Conditioner Repair and Service</b></Link>: Based in Dubai, FAJ is your go-to destination for Samsung AC Repair in Dubai. Specializing in Samsung air conditioner systems, we offer comprehensive services ranging from maintenance to repair.
                 </p>
                 <p className="mb-0">
                   <Link to="/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten/"><b>York AC Service and Repair</b></Link>: The York AC repair service ensures you don’t need to worry because you are in the right place. Yes, FAJ is where efficiency and reliability are prioritized.
@@ -508,13 +508,13 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
                 <br />
 
                 <p className="mb-0">
-                  <Link to="/sanyo-ac-repair-in-dubai-sanyo-ac-maintenance-in-dubai-sanyo-ac-fix-in-dubai-sanyo-ac-service-in-dubai-sanyo-air-condition-repair-in-dubai-sanyo-air-condition-maintenance-in-dubai-sanyo-air-condition/">Sanyo AC Service Dubai</Link>
+                  <Link to="/sanyo-ac-repair-in-dubai-sanyo-ac-maintenance-in-dubai-sanyo-ac-fix-in-dubai-sanyo-ac-service-in-dubai-sanyo-air-condition-repair-in-dubai-sanyo-air-condition-maintenance-in-dubai-sanyo-air-condition/">Sanyo AC Repair Dubai</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/rheem-ac-maintenance-in-dubai/">Rheem AC Service</Link>
+                  <Link to="/rheem-ac-maintenance-in-dubai/">Rheem AC Repair</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/skm-ac-repair-in-dubai-skm-ac-maintenance-in-dubai-skm-ac-fix-in-dubai-skm-ac-service-in-dubai-skm-air-condition-repair-in-dubai-skm-air-condition-maintenance-in-dubai-skm-air-condition-maintenance-in/">SKM AC Service Dubai</Link>
+                  <Link to="/skm-ac-repair-in-dubai-skm-ac-maintenance-in-dubai-skm-ac-fix-in-dubai-skm-ac-service-in-dubai-skm-air-condition-repair-in-dubai-skm-air-condition-maintenance-in-dubai-skm-air-condition-maintenance-in/">SKM AC Repair Dubai</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/daewoo-ac-repair-in-dubai-daewoo-ac-maintenance-in-dubai-daewoo-ac-fix-in-dubai-daewoo-ac-service-in-dubai-daewoo-air-condition-repair-in-dubai-daewoo-air-condition-maintenance-in-dubai-daewoo-air-con/">Daewoo AC Service Dubai</Link>
+                  <Link to="/daewoo-ac-repair-in-dubai-daewoo-ac-maintenance-in-dubai-daewoo-ac-fix-in-dubai-daewoo-ac-service-in-dubai-daewoo-air-condition-repair-in-dubai-daewoo-air-condition-maintenance-in-dubai-daewoo-air-con/">Daewoo AC Repair Dubai</Link>
                   <span>&nbsp;-&nbsp;</span>
                   <Link to="#">Carrier AC Repair</Link>
                   <span>&nbsp;-&nbsp;</span>
