@@ -1,0 +1,19 @@
+[
+    {  
+      "title": "Why doesn't the AC blow air immediately in heating mode?",
+      "desc": "The unit performs a 'warm-up' operation to prevent blowing cold air. This can take 1–4 minutes, depending on the outdoor temperature."
+    },
+    {
+      "title": "What if the AC isn't cooling or heating effectively?",
+      "desc": "Ensure that air filters are clean, air inlets and outlets are unobstructed, and that doors and windows are closed. Also, check that the temperature settings are appropriate."
+    },
+    {
+      "title": "Why does the fan continue running after heating stops?",
+      "desc": "This is normal; the fan operates for 60–100 seconds to cool down the heater safely."
+    },
+    {
+      "title": "What causes an air-releasing sound from the unit?",
+      "desc": "This sound occurs when the refrigerant flow direction changes, such as when the unit stops operating or during defrosting in heating mode."
+    }  
+  ]
+  
