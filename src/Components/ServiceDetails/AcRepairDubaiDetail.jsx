@@ -18,7 +18,7 @@ import parse from 'html-react-parser';
 
 const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
   subtitle="Testimonial"
-  title="What our clients say <br> About Us"
+  title="What our clients say About Us"
   bgImg="/img/testimonialbg.jpg"
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
@@ -104,15 +104,15 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row g-5">
               <div className="col-md-6">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
-                <h3 className="cs_fs_24 mb-1 mt-3">Select Air Conditioner Repair & Service</h3>
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/ac-repair.jpg`} alt="Post Image" />
+                <h3 className="cs_fs_25 mb-1 mt-3">Select Air Conditioner Repair & Service</h3>
                 <p>We understand the importance of arriving on-site quickly when an air conditioning failure impacts your vital cooling system and people rely on it. Our team consists of expert and experienced AC repair technicians who provide the best AC repair and AC services in Dubai and the surrounding areas.</p>
                 <p>Choose FAJ for professional AC repair and maintenance for both residential and commercial units near you.</p>
               </div>
 
               <div className="col-md-6 border-small-left">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" />
-                <h3 className="cs_fs_24 mb-1 mt-3">Top Signs Need An AC Repair in Dubai</h3>
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/ac-repair-2.jpg`} alt="Post Image" />
+                <h3 className="cs_fs_25 mb-1 mt-3">Top Signs Need An AC Repair in Dubai</h3>
                 <p>When you realize your air conditioner isn't working well in the summer, it can be frustrating. Minor signs are often overlooked, but they can lead to major problems that require repairs, especially in Dubai's heat.</p>
                 <ul>
                   <li>Insufficient Cooling</li>
@@ -166,7 +166,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/ac-repair-3.jpg`} alt="Post Image" />
               </div>
               <div className="col-md-6">
               <p>When the temperature soars and you have air conditioner system faults, we are here to save your day. We have trained and professional HVAC technical teams to serve you. FAJ provides AC Repair services all over Dubai UAE. We have a team of experts that will assist with your <Link to="/ac-maintenance-dubai/">AC maintenance</Link> and AC Repair needs. We know that Air conditioners are the main need of your house in this modern world. So, contact us for our quality Aircon services. near you, contact us.
@@ -179,10 +179,10 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* Common Signs Your AC May Need Maintenanc */}
+        {/* Common AC Problems That May Require Maintenance */}
         <section className="section cs_py_48">
           <div className="container">
-            <h3 className="text-center">Common Signs Your AC May Need Maintenance</h3>
+            <h3 className="text-center">Common AC Problems That May Require Maintenance</h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
@@ -377,7 +377,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
                   <li><b>We help prevent future breakdowns</b> by only using locally produced, highest quality refrigerant gas.</li>
                   <li><b>From routine maintenance to complex repairs</b> we offers all type of AC repair and maintenance services.</li>
                   <li><b>We only use genuine parts</b> to give you peace of mind.</li>
-                  <li><b>We give service and parts warranty</b> to make sure you are relax.</li>
+                  <li><b>We give service warranty</b> to make sure you are relax.</li>
                   <li><b>We look after the environment</b> by always recycling our gas.</li>
                 </ul>
               </div>
@@ -454,7 +454,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
                   <span>&nbsp;-&nbsp;</span>
                   <Link to="/mcquay-ac-repair-in-dubai-mcquay-ac-maintenance-in-dubai-mcquay-ac-fix-in-dubai-mcquay-ac-service-in-dubai-mcquay-air-condition-repair-in-dubai-mcquay-air-condition-maintenance-in-dubai-mcquay-air-con/">McQuay Air Conditioning Repair</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/blue-star-ac-repair-in-dubai-blue-star-ac-maintenance-in-dubai-blue-star-ac-fix-in-dubai-blue-star-ac-service-in-dubai-blue-star-air-condition-repair-in-dubai-blue-star-air-condition-maintenance-in-du/">Blue Star AC Repair</Link>
+                  <Link to="/blue-star-ac-repair-in-dubai-blue-star-ac-maintenance-in-dubai-blue-star-ac-fix-in-dubai-blue-star-ac-service-in-dubai-blue-star-air-condition-repair-in-dubai-blue-star-air-condition-maintenance-in-du/">Blue Star</Link>
                   <span>&nbsp;-&nbsp;</span>
                   <Link to="/supra-ac-repair-in-dubai-supra-ac-maintenance-in-dubai-supra-ac-fix-in-dubai-supra-ac-service-in-dubai-supra-air-condition-repair-in-dubai-supra-air-condition-maintenance-in-dubai-supra-air-condition/">Supra AC Repair</Link>
                   <span>&nbsp;-&nbsp;</span>
@@ -501,6 +501,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
+        {/* white section with AC image */}
         <section className="section cs_py_48">
           <div className="container text-center">
             <div class="row">
