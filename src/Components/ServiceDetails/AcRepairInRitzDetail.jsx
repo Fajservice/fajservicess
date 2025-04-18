@@ -69,7 +69,7 @@ const AcRepairInRitzDetail = () => {
 
                             <div className="col-md-6 border-small-left">
                                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" />
-                                <h3 className="cs_fs_25 mb-1 mt-3">Signs You Need An AC Service</h3>
+                                <h3 className="cs_fs_24 mb-1 mt-3">Signs You Need An AC Service</h3>
                                 <p>If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                                 <ul>
                                     <li>Higher electricity bills / Loss of AC performance</li>
