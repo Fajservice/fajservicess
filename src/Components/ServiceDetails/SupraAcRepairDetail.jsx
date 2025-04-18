@@ -66,8 +66,8 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-      <title>Supra Ac Repair in Dubai -  Air Conditioner Maintenance</title>
-      <meta name="description" content="Relax with Supra. Call 0507464712 for Supra Ac Repair in Dubai We are experts in HVAC, Central Air Conditioner maintenance service near me"/>
+      <title>Supra AC Repair Dubai - Supra Split Air Conditioner Service</title>
+      <meta name="description" content="Sameday Supra AC repair in Dubai, Our technicians expert in supra split air conditioning maintenance service and fux aircon. Book now 043300002"/>
       </HelmetProvider>
 
       <div className="cs_service_details">
@@ -93,14 +93,14 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
             <div className="row g-5">
               <div className="col-md-6">
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
-                <h3 className="cs_fs_25 mb-1 mt-3">Experts Supra AC Service and Maintenance</h3>
+                <h3 className="cs_fs_24 mb-1 mt-3">Experts Supra AC Service and Maintenance</h3>
                 <p>When considering Supra AC service in Dubai, it is vital to hire a qualified and reliable AC technician who can effectively address your needs at home or in your business place.</p>
                 <p>FAJ Experts in comprehensive Supra air conditioner (AC) service, and maintenance, ensuring that you receive the highest quality care for your cooling systems.</p>
               </div>
 
               <div className="col-md-6 border-small-left">
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" />
-                <h3 className="cs_fs_25 mb-1 mt-3">Signs You Need An Supra AC Service</h3>
+                <h3 className="cs_fs_24 mb-1 mt-3">Signs You Need An Supra AC Service</h3>
                 <p>If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                 <ul>
                   <li>Higher electricity bills / Loss of AC performance</li>
