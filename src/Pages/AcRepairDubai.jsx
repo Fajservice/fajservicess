@@ -7,7 +7,7 @@ const AcRepairDubai = () => {
             <BreadCumb
                 // bgImg="/img/page_heading_1.jpg"
                 bgImg="/img/ac_service-bannerbg.jpg"
-                Title="AC Repair in Dubai - Air Conditioner Repair and Service Near Me"
+                Title="AC Repair in Dubai - AC Maintenance and Service Available Near You"
             ></BreadCumb> 
             <AcRepairDubaiDetail></AcRepairDubaiDetail>        
         </div>
