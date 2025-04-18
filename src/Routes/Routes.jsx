@@ -29,6 +29,7 @@ import AcRepairInJebelAliFreeZone from "../Pages/AcRepairInJebelAliFreeZone";
 import YorkAcRepair from "../Pages/YorkAcRepair";
 import SupraAcRepair from "../Pages/SupraAcRepair";
 import DaikinAcRepair from "../Pages/DaikinAcRepair";
+import FujitsuAcRepair from "../Pages/FujitsuAcRepair";
 export const router = createHashRouter([
   {
     path: "/",
@@ -79,6 +80,10 @@ export const router = createHashRouter([
       {
         path: "/supra-ac-repair-in-dubai-supra-ac-maintenance-in-dubai-supra-ac-fix-in-dubai-supra-ac-service-in-dubai-supra-air-condition-repair-in-dubai-supra-air-condition-maintenance-in-dubai-supra-air-condition/",
         element: <SupraAcRepair />,
+      },
+      {
+        path: "/fujitsu-ac-repair-in-dubai-fujitsu-ac-maintenance-in-dubai-fujitsu-ac-fix-in-dubai-fujitsu-ac-service-in-dubai-fujitsu-air-condition-repair-in-dubai-fujitsu-air-condition-maintenance-in-dubai-fujitsu/",
+        element: <FujitsuAcRepair />,
       },
       {
         path: "/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con/",
