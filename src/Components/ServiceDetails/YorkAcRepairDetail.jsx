@@ -89,37 +89,37 @@ const YorkAcRepair =  ({ subtitle, title, bgImg }) => {
 
         {/* Experts AC Service and Maintenance */}
         <section className="section cs_py_48 bg-light-gray">
-          <div className="container">
-            <div className="row g-5">
-              <div className="col-md-6">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
-                <h3 className="cs_fs_24 mb-1 mt-3">Experts York AC Service and Maintenance</h3>
-                <p>When considering York AC service in Dubai, it is vital to hire a qualified and reliable AC technician who can effectively address your needs at home or in your business place.</p>
-                <p>FAJ Experts in comprehensive York air conditioner (AC) service, and maintenance, ensuring that you receive the highest quality care for your cooling systems.</p>
-              </div>
+            <div className="container">
+                <div className="row g-5">
+                    <div className="col-md-6">
+                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
+                        <h3 className="cs_fs_25 mb-1 mt-3">Best York AC Repair in Dubai</h3>
+                        <p>When it comes to York <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Dubai, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai//"><b>AC technician</b></Link> for your home or office.</p>
+                        <p>We specialize in York air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
+                    </div>
 
-              <div className="col-md-6 border-small-left">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" />
-                <h3 className="cs_fs_24 mb-1 mt-3">Signs You Need An York AC Service</h3>
-                <p>If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
-                <ul>
-                  <li>Higher electricity bills / Loss of AC performance</li>
-                  <li>Air is not blowing cold / Poor AC airflow, making noises</li>
-                  <li>Drips from your air conditioner</li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="appointment-col border-small-top pt-3">
-              <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection/callout fees, AC service near you, repair, or maintenance, please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
-              <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
-                  <WhatsappIconButton />
-                  <CallNowButton />
+                    <div className="col-md-6 border-small-left">
+                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" />
+                        <h3 className="cs_fs_24 mb-1 mt-3">Signs You Need An AC Service</h3>
+                        <p>If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                        <ul>
+                            <li>Higher electricity bills / Loss of AC performance</li>
+                            <li>Air is not blowing cold / Poor AC airflow, making noises</li>
+                            <li>Drips from your air conditioner</li>
+                        </ul>
+                    </div>
                 </div>
-              </div>
+
+                <div className="appointment-col border-small-top pt-3">
+                    <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/ac-maintenance-dubai//"><b>AC cleaning service</b></Link> , repair, or maintenance. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+                    <div id="get-quote" className=" mt-3">
+                        <div className="container d-flex justify-content-center align-items-center gap-3">
+                            <WhatsappIconButton />
+                            <CallNowButton />
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </section>
 
         <section className="section cs_py_48">
