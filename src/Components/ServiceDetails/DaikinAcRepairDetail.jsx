@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../Data/ColemenAcRepairfaq.json';
+import data from '../../Data/DaikinAcRepairfaq.json';
 import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
@@ -8,12 +8,12 @@ import CallNowButton from '../Buttons/CallNowButton';
 import GetQuoteButton from "../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
-import testimonial_data_Coleman from '../../Data/ColemenAcServiceTestimonials.json';
+import testimonial_data_Daikin from '../../Data/DaikinAcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 
-const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
+const DaikinAcRepair = ({ subtitle, title, bgImg }) => {
   subtitle="Testimonial"
   title="What our clients say <br> About Us"
   bgImg="/img/testimonialbg.jpg"
@@ -66,8 +66,8 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-      <title>Coleman Ac Repair in Dubai -  Air Conditioner Maintenance</title>
-      <meta name="description" content="Relax with Coleman AC. Call 0507464712 for Coleman Ac Repair in Dubai We are experts in HVAC, Central Air Conditioner maintenance service near me"/>
+      <title>Daikin Ac Repair in Dubai -  Air Conditioner Maintenance</title>
+      <meta name="description" content="Relax with Daikin AC. Call 0507464712 for Daikin Ac Repair in Dubai We are experts in HVAC, Central Air Conditioner maintenance service near me"/>
       </HelmetProvider>
 
       <div className="cs_service_details">
@@ -77,7 +77,7 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
             <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
             <p>FAJ Technical Services LLC is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
               <br />
-              Our skilled AC technicians can handle all types and models of Coleman air conditioning units, ensuring your home or business stays cool and comfortable.</p>
+              Our skilled AC technicians can handle all types and models of Daikin air conditioning units, ensuring your home or business stays cool and comfortable.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -94,14 +94,14 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
             <div className="row g-5">
               <div className="col-md-6">
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
-                <h3 className="cs_fs_24 mb-1 mt-3">Experts Coleman AC Service and Maintenance</h3>
-                <p>When considering Coleman AC service in Dubai, it is vital to hire a qualified and reliable AC technician who can effectively address your needs at home or in your business place.</p>
-                <p>FAJ Experts in comprehensive Coleman air conditioner (AC) service, and maintenance, ensuring that you receive the highest quality care for your cooling systems.</p>
+                <h3 className="cs_fs_24 mb-1 mt-3">Experts Daikin AC Service and Maintenance</h3>
+                <p>When considering Daikin AC service in Dubai, it is vital to hire a qualified and reliable AC technician who can effectively address your needs at home or in your business place.</p>
+                <p>FAJ Experts in comprehensive Daikin air conditioner (AC) service, and maintenance, ensuring that you receive the highest quality care for your cooling systems.</p>
               </div>
 
               <div className="col-md-6 border-small-left">
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" />
-                <h3 className="cs_fs_24 mb-1 mt-3">Signs You Need An Coleman AC Service</h3>
+                <h3 className="cs_fs_24 mb-1 mt-3">Signs You Need An Daikin AC Service</h3>
                 <p>If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                 <ul>
                   <li>Higher electricity bills / Loss of AC performance</li>
@@ -131,29 +131,14 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-          <h3 class="cs_fs_30">Error Codes Your Coleman Split Air Conditioning Showing</h3>
+          <h3 class="cs_fs_30">Daikin Air Con Service Quality Workmanship </h3>
             <div className="row align-items-center">
               <div className="col-md-6">
                 
-                <p>Every air conditioner shows different error codes according to its type, size, brand, and model. Here are some of the Coleman split A/c fault codes which indicate issues within your Ac machine.</p>
-                <ul class="d-flex flex-wrap column-gap-5">
-                    <li>Code: E7</li>
-                    <li>Code: E1</li>
-                    <li>Code: E14</li>
-                    <li>Code: F12</li>
-                    <li>Code: F1</li>
-                    <li>Code: F12</li>
-                    <li>Code: F22</li>
-                    <li>Code: F3</li>
-                    <li>Code: F19</li>
-                    <li>Code: F4</li>
-                    <li>Code: F8</li>
-                    <li>Code: F21</li>
-                </ul>
-                <p>Only an expert technician can tell you the exact error code, what it means as well as how to overcome it. Moreover, contacting a specialized team of professionals will save your day, money, and effort. This spendy Colman split air con should only be in the hands of professionals because they know how to take care of it and repair it on time.</p>
+                <p>FAJ is working consistently since 2010 to make its customers satisfied and comfortable. Getting the best Daikin ac repair service in Dubai is not easy especially when you are in urgent need. Our superior workmanship is what makes us different from others. In the need of immediate help, we are present and we provide unbeatable service to our customers. With our regular maintenance service keep your Daikin air con running smoothly and swiftly. <br />Breathing fresh air is the right of everyone. Getting top-quality fresh air requires the best air con. Daikin can provide healthy air to its buyers. In Dubai, Daikin is the leading brand. So, if you have Daikin air conditioning at your home or office and looking for its repairs. Why not look for a top-quality service provider for a top ac brand? <br />FAJ Technical Services LLC is a top-notch company providing mind-blowing daikin ac repair in Dubai. We understand the necessity of properly functioning air. Our team of experienced technicians ensures to provide optimal performance of Daikin air con and an enjoyable indoor environment all year round.</p>
               </div>
               <div className="col-md-6 text-center text-md-end">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-service.jpg`} alt="Post Image" />
                 
               </div>
             </div>
@@ -162,53 +147,64 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
         </section> 
         <section className="section cs_py_48 bg-dark-blue text-light">
           <div className="container">
-            <h3 class="cs_fs_30 text-light">Do Not Settle For Coleman Air Con Service, Call FAJ Technical Services LLC</h3>
-            <p>We have discussed in detail, what happens when you get the wrong installation of your air conditioner. To make things settle again, likely can cause you more than you think. Therefore, always choose the right and well-reputed company to get your air conditioning installed for the first time. Do not settle for the below quality, contact us today to get the best and unbeatable results. We are tech-savvy and remain updated with cutting-edge technology. In air conditioning technology, several advancements have taken place in recent years. We have a professional, experienced, and well-trained team that does exactly the unmatched work. Instead of trying to fix your air con issues on your own, ask FAJ to assist you. We provide all kinds of services, from routine maintenance to quick fixes of problems, repairing any component promptly and accurately. Our professionals take confidence to provide exceptional Coleman AC Repair in dubai.</p>
-            <h3 class="cs_fs_30 text-light">False Installation Raises Humidity</h3>
-            <p>Have you ever noticed that when you turn your inverter to get some cool, soft air so your sweating gets removed? And you enjoy the sweet cool air with your loved ones. However, instead of this reverse happens and your Coleman air conditioning system throws humid air. The major reason behind this scenario is the wrong installation of your central Ac. One drawback is the poor installation of air con which leads to several other disadvantages such as air filters easily getting clogged with dirt. Hampers the function of evaporated coils and steadily increases humidity. Thus, you experience more humid air than cool airflow. Humidity becomes a significant way for the growth of molds and mildews.</p>    
+            <div className="row">
+                <div className="col-md-6">
+                    <h3 class="cs_fs_24 text-light">Exceptional Repairing Of Daikin Centralized Air Conditioning (Air Con)</h3>
+                    <p>To provide more comfort to you, potential and timely repair is indispensable. After proper repair, your air con offers great cooling performance. Regular maintenance of your centralized ac extends its lifetime and improves functions. Not many offer Daikin ac repair in Dubai. However, FAJ is unique and experienced in providing exceptional service, maintenance, and fixing of your aircon. Get instant access to a potentially trained, highly skilled professional for optimal and fast air condition repairing.</p>
+                </div>
+                <div className="col-md-6">
+                    <h3 class="cs_fs_24 text-light">Cost Effective VRV Installation And Operation (Daikin Aircon) AC</h3>
+                    <p>VRV Daikin air conditioning is called ideal for small and large spaces. It is the most advanced air system worldwide and popular as well. It is significantly equipped with modern technology and, results in energy efficiency. To install this daikin VRV ac an exceptionally trained team is required. To get the advantage of better comfort and a sustainable cooled environment accurate installation and operation is a key.</p>    
+                </div>
+                <div className="col-md-12">
+                    <h3 class="cs_fs_24 text-light">Different Models Of Daikin Ducted Aircon</h3>
+                    <p>Several types/ models of Daikin ducted ac are available in the market. Choosing the best one which is suitable for your house or office is an art. Expert advice clears all doubts and helps you to get the right aircon for your place.</p>
+                </div>
+                <div className="col-md-6">
+                    <h4 class="cs_fs_18 text-light">Inverter Daikin Ducted</h4>
+                    <p>This type of air conditioner has an efficient and compact design. This one is ideal to install in the tight roof space of the modern home.</p>
+                </div>
+                <div className="col-md-6">
+                    <h4 class="cs_fs_18 text-light">Premium Inverter Ducted</h4>
+                    <p>This ducted air con has remarkable energy performance and the ability to perform functions quite innovatively. We are skilled enough in installing, repairing, fixing, and maintenance of these kinds of air conditioners.</p>    
+                </div>
+                <div className="col-md-6">
+                    <h4 class="cs_fs_18 text-light">Bulkhead System</h4>
+                    <p>This model is best for drop ceilings and shallow ceilings. Optimal for bedroom air conditioning and ideal where discreet installation is a preference.</p>
+                </div>
+                <div className="col-md-6">
+                    <h4 class="cs_fs_18 text-light">Slimline Ducted</h4>
+                    <p>It has freedom of design and unparalleled flexibility. FAJ is the most reliable and ideal one for installing and maintenance of these ac machines.</p>    
+                </div>
+            </div>
           </div>
         </section>
 
         
         <section className="section cs_py_48">
           <div className="container">
-          <h3 class="cs_fs_30">Why FAJ?</h3>
+          <h3 class="cs_fs_30">Get A Full Fledged Expert Service Of Daikin HVAC</h3>
             <div className="row align-items-center">
                 <div className="col-xl-6">
-                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Faj-for-speed.jpg`} alt="Post Image" />
+                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-repair.jpg`} alt="Post Image" />
                 </div>
                 <div className="col-xl-6">
-                  <p>FAJ is like no other, yes you read it right. People choose us for numerous reasons and that is why we have gained immense popularity in Dubai.</p>
+                  <p>While modern HVAC systems are manufactured to deliver year-long service. However, issues with air condition can and will arise. Here are some common problems which are faced by several homeowners, businesses, etc.</p>
                   <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
-                      <span>We have been in the field of air conditioning services since 2010</span>
+                      <span><strong>Blown Is Fused:</strong> One reason your Daikin HVAC is not functioning is because of blown fuses. Fuses are mainly designed to protect the compressor and unit’s motor or ac engine from overheating. Due to that, the breaker gets flipped off which indicates a huge problem with your HVAC air con.</span>
                     </li>
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
-                      <span>Our team has years of experience and advanced training to get the job done superbly and promptly.</span>
+                      <span><strong>Unclean Air Filters:</strong> Dirty ac filters make your Daikin HVAC aircon to under-perform and eventually freeze. Air filters must be regularly changed otherwise, airflow can be decreased significantly. For exceptional services, FAJ is available on the other side of a single call. Don’t let your air condition issues disturb your comfort and your important work. Let us keep your air conditioning in optimal condition, and make sure you and your loved ones enjoy cool and fresh air.</span>
                     </li>
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
-                      <span>We have proper, advanced tools and equipment to get the work done excellently</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>We help you to choose the correct system for your home or office and ensure that it is installed precisely.</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>FAJ provides you with a warranty on our services and hence we are quite reliable and easy to get in touch with.</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>All of our servicing is so reasonable that will happily amaze you and give you complete satisfaction that your air con is going to be newer and run efficiently.</span>
+                      <span><strong>Poor Refrigerant:</strong> In HVAC ac refrigerant leaks happen and it is caused by system vibration during operation. Leaks always require repairing whether it is in lines or coils. Our expert team takes good care of your property and makes sure to gently handle it. Give your HVAC air conditioning the care it deserves!</span>
                     </li>
                   </ul>
                 </div>
@@ -246,7 +242,7 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
                 data-add-slides="2" data-slides-per-view="responsive">
                 <div className="cs_slider_wrapper">
                   <Slider {...settings}>
-                    {testimonial_data_Coleman.map((item, index) => (
+                    {testimonial_data_Daikin.map((item, index) => (
                       <div key={index} className="cs_slide wow fadeInLeft">
                         <div className="cs_testimonial cs_style_1 position-relative">
                           <div className="cs_testimonial_content cs_white_bg position-relative">
@@ -323,4 +319,4 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
   );
 };
 
-export default ColemenAcRepair;
+export default DaikinAcRepair;

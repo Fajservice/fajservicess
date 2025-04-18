@@ -60,14 +60,14 @@ const AcRepairInRitzDetail = () => {
                         <div className="row g-5">
                             <div className="col-md-6">
                                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
-                                <h3 className="cs_fs_25 mb-1 mt-3">Experts AC Service and Maintenance</h3>
+                                <h3 className="cs_fs_24 mb-1 mt-3">Experts AC Service and Maintenance</h3>
                                 <p>When it comes to AC repair in The Ritz Carlton DIFC, Dubai, it’s         essential to hire professional and trustworthy AC technician for your home or business place.</p>
                                    <p> We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                             </div>
 
                             <div className="col-md-6 border-small-left">
                                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" />
-                                <h3 className="cs_fs_25 mb-1 mt-3">Signs You Need An AC Service</h3>
+                                <h3 className="cs_fs_24 mb-1 mt-3">Signs You Need An AC Service</h3>
                                 <p>If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                                 <ul>
                                     <li>Higher electricity bills / Loss of AC performance</li>
