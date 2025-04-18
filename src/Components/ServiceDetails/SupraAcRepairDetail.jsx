@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../Data/ColemenAcRepairfaq.json';
+import data from '../../Data/SupraAcRepairfaq.json';
 import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
@@ -8,12 +8,12 @@ import CallNowButton from '../Buttons/CallNowButton';
 import GetQuoteButton from "../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
-import testimonial_data_Coleman from '../../Data/ColemenAcServiceTestimonials.json';
+import testimonial_data_Supra from '../../Data/SupraAcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 
-const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
+const SupraAcRepair = ({ subtitle, title, bgImg }) => {
   subtitle="Testimonial"
   title="What our clients say <br> About Us"
   bgImg="/img/testimonialbg.jpg"
@@ -66,18 +66,17 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-      <title>Coleman Ac Repair in Dubai -  Air Conditioner Maintenance</title>
-      <meta name="description" content="Relax with Coleman. Call 0507464712 for Coleman Ac Repair in Dubai We are experts in HVAC, Central Air Conditioner maintenance service near me"/>
+      <title>Supra Ac Repair in Dubai -  Air Conditioner Maintenance</title>
+      <meta name="description" content="Relax with Supra. Call 0507464712 for Supra Ac Repair in Dubai We are experts in HVAC, Central Air Conditioner maintenance service near me"/>
       </HelmetProvider>
 
       <div className="cs_service_details">
         <section className="section cs_py_48">
           <div className="container">
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
             <p>FAJ Technical Services LLC is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
               <br />
-              Our skilled AC technicians can handle all types and models of Coleman air conditioning units, ensuring your home or business stays cool and comfortable.</p>
+              Our skilled AC technicians can handle all types and models of Supra air conditioning units, ensuring your home or business stays cool and comfortable.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -131,29 +130,19 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-          <h3 class="cs_fs_30">Error Codes Your Coleman Split Air Conditioning Showing</h3>
+          <h3 className="cs_fs_30">Reasons My Supra Split Air Conditioner Is Failing To Turn On</h3>
             <div className="row align-items-center">
               <div className="col-md-6">
                 
-                <p>Every air conditioner shows different error codes according to its type, size, brand, and model. Here are some of the Coleman split A/c fault codes which indicate issues within your Ac machine.</p>
-                <ul class="d-flex flex-wrap column-gap-5">
-                    <li>Code: E7</li>
-                    <li>Code: E1</li>
-                    <li>Code: E14</li>
-                    <li>Code: F12</li>
-                    <li>Code: F1</li>
-                    <li>Code: F12</li>
-                    <li>Code: F22</li>
-                    <li>Code: F3</li>
-                    <li>Code: F19</li>
-                    <li>Code: F4</li>
-                    <li>Code: F8</li>
-                    <li>Code: F21</li>
-                </ul>
-                <p>Only an expert technician can tell you the exact error code, what it means as well as how to overcome it. Moreover, contacting a specialized team of professionals will save your day, money, and effort. This spendy Colman split air con should only be in the hands of professionals because they know how to take care of it and repair it on time.</p>
+                <p>These are the following causes that make your Supra air conditioning unit stops running;</p>
+                <h4>Glitch Thermostat</h4>
+                <p>The thermostat in an air conditioner is an internal control unit that allows you to regulate the correct temperatures of your split air con. Airflow is maintained by knobs on the device or remote control. If the thermostat fails then it gets difficult for your air conditioning to do its job. Because the temperature of the split air con won’t be able to be controlled.</p>
+                <h4>Circuit Breaker Tripped</h4>
+                <p>If the circuit breaker of your split air conditioning is tripped off it will inhibit turning your air con on. Instead of trying to check or correct your circuit breaker on your own, it is better to call an expert team. They know how to address the issues</p>
+                
               </div>
               <div className="col-md-6 text-center text-md-end">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/supra-ac-maintenance.jpeg`} alt="Post Image" />
                 
               </div>
             </div>
@@ -162,68 +151,76 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
         </section> 
         <section className="section cs_py_48 bg-dark-blue text-light">
           <div className="container">
-            <h3 class="cs_fs_30 text-light">Do Not Settle For Coleman Air Con Service, Call FAJ Technical Services LLC</h3>
-            <p>We have discussed in detail, what happens when you get the wrong installation of your air conditioner. To make things settle again, likely can cause you more than you think. Therefore, always choose the right and well-reputed company to get your air conditioning installed for the first time. Do not settle for the below quality, contact us today to get the best and unbeatable results. We are tech-savvy and remain updated with cutting-edge technology. In air conditioning technology, several advancements have taken place in recent years. We have a professional, experienced, and well-trained team that does exactly the unmatched work. Instead of trying to fix your air con issues on your own, ask FAJ to assist you. We provide all kinds of services, from routine maintenance to quick fixes of problems, repairing any component promptly and accurately. Our professionals take confidence to provide exceptional Coleman AC Repair in dubai.</p>
-            <h3 class="cs_fs_30 text-light">False Installation Raises Humidity</h3>
-            <p>Have you ever noticed that when you turn your inverter to get some cool, soft air so your sweating gets removed? And you enjoy the sweet cool air with your loved ones. However, instead of this reverse happens and your Coleman air conditioning system throws humid air. The major reason behind this scenario is the wrong installation of your central Ac. One drawback is the poor installation of air con which leads to several other disadvantages such as air filters easily getting clogged with dirt. Hampers the function of evaporated coils and steadily increases humidity. Thus, you experience more humid air than cool airflow. Humidity becomes a significant way for the growth of molds and mildews.</p>    
+            <div className="row">
+                <div className="col-md-6">
+                    <h4 className="text-light">Capacitor Of Split Air Conditioner Malfunctioning</h4>
+                    <p>The capacitor plays a key role in making your split air conditioner work efficiently. If the position or installation of the air con is not accurate then the capacitor would have to function hard to keep the home cool. This will cause a capacitor to overheat and hence it will fail to operate. Thus, your air conditioner won’t turn on. The sooner you get the help of a professional, the better the outcome will be and it will save you money and time.</p>
+                </div>
+                <div className="col-md-6">
+                    <h4 className="text-light">Mold In Air Conditioner</h4>
+                    <p>Molds are fungi and bacterial growth which accumulate in your Ac unit system. This happens when your air conditioner has dirty air filters and evaporator coils are frozen up. Hence, restricting the proper flow of cool, pleasant air leads to an unusually bad smell from your air conditioner. This problem needs to be sorted out by professionals as early as possible. Moreover, regular cleaning of air filters prevents the occurrence of molds and bacteria.</p>
+                </div>
+            </div>
           </div>
         </section>
 
         
         <section className="section cs_py_48">
           <div className="container">
-          <h3 class="cs_fs_30">Why FAJ?</h3>
+          <h3 class="cs_fs_30">Our Services Include But Are Not Limited To the;</h3>
             <div className="row align-items-center">
                 <div className="col-xl-6">
-                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Faj-for-speed.jpg`} alt="Post Image" />
+                  <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/supra-ac-repair.jpg`} alt="Post Image" />
                 </div>
                 <div className="col-xl-6">
-                  <p>FAJ is like no other, yes you read it right. People choose us for numerous reasons and that is why we have gained immense popularity in Dubai.</p>
                   <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
-                      <span>We have been in the field of air conditioning services since 2010</span>
+                      <span>Evaporator unit and condenser coil cleaning</span>
                     </li>
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
-                      <span>Our team has years of experience and advanced training to get the job done superbly and promptly.</span>
+                      <span>Installation of any brand, type, or size of air con (we have mastered it with years of experience)</span>
                     </li>
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
-                      <span>We have proper, advanced tools and equipment to get the work done excellently</span>
+                      <span>Cleansing of indoor air filter</span>
                     </li>
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
-                      <span>We help you to choose the correct system for your home or office and ensure that it is installed precisely.</span>
+                      <span>Examination and cleaning of drainage lines and pans</span>
                     </li>
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
-                      <span>FAJ provides you with a warranty on our services and hence we are quite reliable and easy to get in touch with.</span>
+                      <span>An absolute review of the thermostat to ensure its proper operation</span>
                     </li>
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
-                      <span>All of our servicing is so reasonable that will happily amaze you and give you complete satisfaction that your air con is going to be newer and run efficiently.</span>
+                      <span>Carefully check basic air conditioning controls and electrical wiring</span>
+                    </li>
+                    <li>
+                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                        <i className="bi bi-check"></i></span>
+                      <span>Condenser fan and blower lubrication</span>
                     </li>
                   </ul>
+                  <p>Our trained team is always ready to help you, we care about your time and money. Therefore at an affordable price, quickly and diligently our professional technicians do their work. Call us to experience an unbeatable difference!</p>
                 </div>
             </div>
-          </div>
-          <section className="section">
-          <div className="container">
             <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
-                  <WhatsappIconButton />
-                  <CallNowButton />
-                </div>
-              </div>
+                        <div className="container d-flex justify-content-center align-items-center gap-3">
+                        <WhatsappIconButton />
+                        <CallNowButton />
+                        </div>
+                    </div>
           </div>
-        </section>
+       
         </section>
         
          {/* The Benefits Of Regular AC Service*/}
@@ -246,7 +243,7 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
                 data-add-slides="2" data-slides-per-view="responsive">
                 <div className="cs_slider_wrapper">
                   <Slider {...settings}>
-                    {testimonial_data_Coleman.map((item, index) => (
+                    {testimonial_data_Supra.map((item, index) => (
                       <div key={index} className="cs_slide wow fadeInLeft">
                         <div className="cs_testimonial cs_style_1 position-relative">
                           <div className="cs_testimonial_content cs_white_bg position-relative">
@@ -281,6 +278,7 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
             </div>
             <div className="cs_height_80 cs_height_lg_80"></div>
           </section>
+
 
         <div className="section cs_py_48  bg-dark-blue text-light">
           <div className="container">
@@ -323,4 +321,4 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
   );
 };
 
-export default ColemenAcRepair;
+export default SupraAcRepair;
