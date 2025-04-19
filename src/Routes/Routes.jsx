@@ -63,7 +63,7 @@ export const router = createHashRouter([
       {
         path: "/ac-annual-maintenance-contract/",
         element: <AcAnnualMaintenanceContract></AcAnnualMaintenanceContract>,
-      },      
+      },
       {
         path: "/ac-repair-dubai/",
         element: <AcRepairDubai></AcRepairDubai>,
@@ -115,7 +115,7 @@ export const router = createHashRouter([
       {
         path: "/project",
         element: <ProjectPage></ProjectPage>,
-      },      
+      },
       {
         path: "/project/project-details",
         element: <ProjectDetailsPage></ProjectDetailsPage>,

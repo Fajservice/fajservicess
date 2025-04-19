@@ -86,7 +86,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
-            <p>FAJ Technical Services LLC is a leading AC repair company in Dubai, providing reliable air conditioner services tailored to the UAE's hot climate.
+            <p>FAJ Technical Services LLC is a leading AC Maintenance company in Dubai, providing reliable air conditioner services tailored to the UAE's hot climate.
               <br />
               Our trained professionals ensure a comfortable environment for living, learning, working, and playing.
               When your air conditioning system fails, we’re here to help. Choose FAJ for all your AC repair needs in Dubai.
@@ -149,18 +149,30 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
         {/* Expert Air Conditioning Maintenance in Dubai to Keep You Cool */}
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-            <h3 class="cs_fs_30">Expert Air Conditioning Maintenance in Dubai to Keep You Cool</h3>
+            <h3 class="cs_fs_30">Why Do You Need Regular AC Maintenance in Dubai?</h3>
+            <p>
+              There are numerous reasons why maintaining and repairing air conditioners in Dubai is essential. Some common AC problems are simple to fix, and regular maintenance can offer great benefits:
+            </p>
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance-in-Dubai.jpeg`} alt="Post Image" />
               </div>
               <div className="col-md-6">
-                <p>
-                  Regular air conditioning maintenance in Dubai is essential to ensure your unit operates efficiently. Over time, filters and coils can accumulate dirt and become clogged, which not only diminishes the cooling performance of your AC but can also lead to issues such as water leakage from the indoor unit and unpleasant odors.
+                <ul className="mb-0">
+                  <li> <strong>Improved Cooling Efficiency: </strong> A well-maintained AC cools your room faster, ensuring comfort without long waiting times. </li>
+                  <li> <strong>Better Protection from Heat: </strong> Especially during Dubai’s extreme summer, your AC can effectively block outside heat with regular servicing. </li>
+                  <li> <strong>Reduced Energy Consumption: </strong> A clean and properly functioning AC uses less energy, lowering your electricity bills. </li>
+                  <li> <strong>Lower Environmental Impact: </strong> Reduced energy use means less environmental strain—especially important in high-usage areas like Dubai. </li>
+                  <li> <strong>Avoids Major Breakdowns: </strong> Routine checks help spot and resolve minor issues before they turn into expensive repairs. </li>
+                  <li> <strong>Extends Unit Life: </strong> Preventive maintenance increases the lifespan of your AC system, saving money in the long term. </li>
+                  <li> <strong>Keeps Indoor Air Quality Healthy: </strong> Clean filters and components reduce dust, allergens, and pollutants in your home. </li>
 
-                  What’s the solution? If you’re searching for a reliable <Link to="/ac-annual-maintenance-contract/">AC maintenance</Link> company in Dubai to care for your home or office air conditioning needs, look no further. Simply schedule routine AC maintenance with FAJ. Our company, based in Dubai, can handle any air conditioner repair job. With 17 years of experience, we possess the expertise to address all types and brands of <Link to="/blog/10-common-ac-problems-and-how-to-fix-them/">air conditioning issues</Link>. From common problems like refrigerant leaks and electrical control failures to more complex issues such as faulty AC PCBs, motors, thermal sensors, and compressor breakdowns, we know how to resolve them all to ensure optimal cooling performance!
-                </p>
-                
+
+
+
+
+                </ul>
+
               </div>
             </div>
           </div>
@@ -269,23 +281,76 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* Why do you need Regular AC Maintenance Dubai?*/}
+        {/* A Quick Guide to Understanding and Fixing Your AC Problems*/}
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-            <h3 className="cs_fs_30">Why do you need Regular AC Maintenance Dubai?</h3>
+            <h3 className="cs_fs_30">A Quick Guide to Understanding and Fixing Your AC Problems</h3>
             <div className="row">
               <div className="col-xl-6">
-                <iframe className="bordered-img blue-border" width="100%" height="350" src="https://www.youtube.com/embed/sxBhB1_gxYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+                <iframe className="bordered-img blue-border" width="100%" height="350" src="https://www.youtube.com/embed/sxBhB1_gxYA?si=96yf5hxyAA3bct8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
               </div>
               <div className="col-xl-6">
-                <p>There are numerous reasons why <strong>AC maintaining Dubai</strong> and repairing air conditioners are worthwhile. Some of the most common air conditioning problems are simple to fix. And maintaining them can provide you with good advantages.</p>
-                <p>When your air conditioner is working properly, it can quickly change the temperature of your room. That means you won’t have to wait as long after turning it on to get your home to the proper temperature.
-                  <br />
-                  Particularly on hot days, your air conditioner will be able to protect your room from the outside heat. When your air con uses less energy, your home’s total energy consumption decreases. Many people underestimate the amount of energy that an air conditioner can consume. In fact, in many homes, the air conditioning system is responsible for half of total household energy consumption.
-                  <br />
-                  And in a hot location, that figure can be even higher. So, you don’t need to compromise on AC maintenance. Before any major fault, you need to contact a professional 
-                  <strong>AC maintenance service in Dubai</strong> like <a href="https://www.google.com/maps/place/FAJ+Technical+Services+L.L.C+-+Warehouse+No+-+S-02+Gate+35+Street+18b+-+Al+Quoz+-+Al+Quoz+Industrial+Area+4+-+Dubai+-+United+Arab+Emirates/data=!4m2!3m1!1s0x3e5f699a600aceeb:0xa6121b25d557aa94?utm_source=mstt_1&entry=gps&lucs=47068615&g_ep=CAESCTExLjkxLjMwMhgAINeCAyoINDcwNjg2MTVCAlBL" target="_blank"> FAJ Technical Services LLC</a>.
-                </p>
+                <p>Take a look at this video to understand the possible problems your AC might face. This will help you to ensure that the professionals you hire are completing the right checks.</p>
+                <p><strong>We specialize in:</strong></p>
+                <div className="row">
+                  <div className="col">
+                    <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
+                      <li>
+                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                          <i className="bi bi-check"></i></span>
+                        <span>Cleaning or replacing the air filter</span>
+                      </li>
+                      <li>
+                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                          <i className="bi bi-check"></i></span>
+                        <span>Recharging refrigerant levels</span>
+                      </li>
+                      <li>
+                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                          <i className="bi bi-check"></i></span>
+                        <span>Checking and tightening electrical connections</span>
+                      </li>
+                      <li>
+                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                          <i className="bi bi-check"></i></span>
+                        <span>Ac coil cleaning</span>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div className="col">
+                    <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
+                      <li>
+                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                          <i className="bi bi-check"></i></span>
+                        <span>Unclogging drain lines</span>
+                      </li>
+
+                      <li>
+                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                          <i className="bi bi-check"></i></span>
+                        <span>Inspecting and repairing ductwork</span>
+                      </li>
+
+                      <li>
+                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                          <i className="bi bi-check"></i></span>
+                        <span>Fixing leaks refrigerant, water, or duct leaks</span>
+                      </li>
+
+                      <li>
+                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                          <i className="bi bi-check"></i></span>
+                        <span>Regular maintenance</span>
+                      </li>
+
+
+
+                    </ul>
+                  </div>
+
+                </div>
+
               </div>
             </div>
           </div>
@@ -323,7 +388,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
             <h3>We specialise in air conditioning maintenance services for the following brands.
-</h3>
+            </h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0">
@@ -363,7 +428,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
                   <span>&nbsp;-&nbsp;</span>
                   <Link to="/daewoo-ac-repair-in-dubai-daewoo-ac-maintenance-in-dubai-daewoo-ac-fix-in-dubai-daewoo-ac-service-in-dubai-daewoo-air-condition-repair-in-dubai-daewoo-air-condition-maintenance-in-dubai-daewoo-air-con/">Daewoo AC Maintenance Dubai</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="#">Carrier AC Repair</Link>
+                  <Link to="#">Carrier AC Maintenance</Link>
                   <span>&nbsp;-&nbsp;</span>
                   <Link to="/midea-ac-installation-maintenance-repair-fix-service-in-dubai/">Midea Air Conditioner Maintenance Service Near Me</Link>
                   <span>&nbsp;-&nbsp;</span>
