@@ -330,7 +330,7 @@ const YorkAcRepair =  ({ subtitle, title, bgImg }) => {
         </section>  */}
      
 
-        <section className="section cs_py_48">
+        <section className="section cs_py_48  bg-light-gray">
           <div className="container">
           <h3 class="cs_fs_30">York Central Controller Fault Codes</h3>
             <div className="row align-items-center">

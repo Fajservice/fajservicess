@@ -135,34 +135,31 @@ const WestpointAcRepair = ({ subtitle, title, bgImg }) => {
             <div className="row align-items-center">
               <div className="col-md-6">
                 <p>Air conditioners that are people-friendly are environmentally friendly. And, Westpoint air con is one of them. Central Westpoint air conditioner is an intelligent choice when it comes to beating humidity and heat indoors. Just like every other aircon the requirement for Westpoint air conditioner repair increases as well. Regular maintenance and servicing not only conserve electricity but also helps keep operating your Westpoint air con for many years. Adequate routine maintenance helps to quickly diagnose the issues of your central AC and fix them before they turn into some huge problem.</p>
-                <h3 className="cs_fs_24">Error Codes- Westpoint air conditioner repair</h3>
-                <p>When something goes awry the air con quickly displays that, these errors indicate the underlying problems with your air con. Whether it is split air conditioning or ceiling air con, they all show the error codes on the display. It is the job of experts solely to identify them and promptly fix them.</p>
+                <h3 className="cs_fs_24">Westpoint Window Air Conditioner Error Codes</h3>
+                <p>If you see these fault codes on your air conditioner you should call an expert company right away. Because the pro in air condition maintenance creates a difference and gets things done right for you.</p>
                 <ul className="d-flex flex-wrap column-gap-4">
-                  <li>01</li>
-                  <li>02</li>
-                  <li>03</li>
-                  <li>04</li>
-                  <li>05</li>
-                  <li>06</li>
-                  <li>07</li>
-                  <li>08</li>
-                  <li>09</li>
-                  <li>OA</li>
-                  <li>OC</li>
-                  <li>OE</li>
-                  <li>11</li>
-                  <li>12</li>
-                  <li>13</li>
-                  <li>14</li>
-                  <li>15</li>
-                  <li>16</li>
-                  <li>17</li>
-                  <li>18</li>
-                  <li>19</li>
-                  <li>1A</li>
-                  <li>1B</li>
-                  <li>1C</li>
-                  <li>1D</li>
+                <li>Error Code: E0</li>
+						<li>Error Code: E1</li>
+						<li>Error Code: E2</li>
+						<li>Error Code: E3</li>
+						<li>Error Code: E4</li>
+						<li>Error Code: E5</li>
+						<li>Error Code: E6</li>
+						<li>Error Code: E7</li>
+						<li>Error Code: E8</li>
+						<li>Error Code: E9</li>
+						<li>Error Code: EA</li>
+						<li>Error Code: P0</li>
+						<li>Error Code: P1</li>
+						<li>Error Code: P2</li>
+						<li>Error Code: P3</li>
+						<li>Error Code: P4</li>
+						<li>Error Code: P5</li>
+						<li>Error Code: P6</li>
+						<li>Error Code: P7</li>
+						<li>Error Code: P8</li>
+						<li>Error Code: P9</li>
+						<li>Error Code: Pc</li>
                 </ul>
               </div>
               <div className="col-md-6 text-center text-md-end">
@@ -344,42 +341,11 @@ const WestpointAcRepair = ({ subtitle, title, bgImg }) => {
                 </div>
             </div>
         </section>
-        <section className="section cs_py_48 bg-dark-blue text-light">
-          <div className="container">
-            <div className="row">
-                <div className="col-md-12">
-                    <h3 class="cs_fs_24 text-light">Advantages Of Routine Westpoint Air Conditioner Service</h3>
-                    <p>Though your inverter is functioning well and delivering satisfactory outcomes. However, with time it needs fixing and complete maintenance regularly. The longer you go without servicing your Westpoint air con the closer your A/c will get to the point where it shall halt functioning completely. On the contrary, if you give your air con optimum attention and care by getting maintained and serviced daily by an expert company. The results will be beyond your expectations and your inverter will take your side for decades. There are many pros of it here, we will discuss a couple of the most important ones;</p>
-                </div>
-                <div className="col-md-6">
-                    <h3 class="cs_fs_18 text-light">Accelerate Durability</h3>
-                    <p>One of the best benefits of getting proper maintenance of a Westpoint aircon is that your split aircon remains in top shape. This simply means, your air conditioner will not be affected due to any climate changes Furthermore, no fear of damaging and repairing. Servicing ensures that your air conditioner will continuously operate for years. In addition to it, optimal timely Westpoint air conditioner repair is essential to prevent any future large repairs. Always ensure that you have communicated with an experienced serviceman for exceptional maintenance regularly.</p>    
-                </div>
-                <div className="col-md-6">
-                    <h3 class="cs_fs_18 text-light">Lower Electric Bill</h3>
-                    <p>Having an air conditioner means more electricity bills and, without maintenance ends up increasing electricity bills pressure even more. Moreover, reduced efficiency because of lack of regular maintenance will cause your Westpoint split air conditioning to consume extra power. An ineffective Ac machine is an overworked piece of technology that leads to higher electric consumption. If you have a Westpoint aircon and it is causing problems, then getting the excellent Westpoint air conditioner repair service can immediately lower your electricity bills.</p>
-                </div>
-                <div className="col-md-6">
-                    <h4 class="cs_fs_18 text-light">Minimum Repair Cost</h4>
-                    <p>Repairs attract more money depending upon the extent of damage primarily the expenses get high. Through minor weekly repairs, you will be able to protect your Westpoint HVAC air conditioning from lengthy repairs. Thus, this way your cooling system will be entirely rescued from any kind of damage. Likewise, scheduling regular maintenance of your AC will reduce the effect of wear and tear. Thus, significantly allowing each component of HVAC to run smoothly and swiftly.</p>
-                </div>
-                <div className="col-md-6">
-                    <h4 class="cs_fs_18 text-light">No Strange Smell From Aircon</h4>
-                    <p>Another significance of maintaining your centralized air conditioning is, it remains devoid of unpleasant odor. Yes, you read it right! Regular proper cleaning of air filters and evaporator coils keeps them clogged with dust, dirt, and debris. Moreover, no freezing up of the evaporator coil occurs when Ac is being serviced daily. Whether you have a Westpoint ducted system or central air conditioner you always want to achieve fresh, crisp, and cool air.</p>    
-                </div>
-            </div>
-          </div>
-        </section>
-
-        
         <section className="section cs_py_48">
           <div className="container">
           <h3 class="cs_fs_30">Get A Full Fledged Expert Service Of Westpoint HVAC</h3>
             <div className="row align-items-center">
-                <div className="col-xl-6">
-                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Midea-ac-repair.jpg`} alt="Westpoint Ac Repair" />
-                </div>
-                <div className="col-xl-6">
+            <div className="col-xl-6">
                   <p>While modern HVAC systems are manufactured to deliver year-long service. However, issues with air condition can and will arise. Here are some common problems which are faced by several homeowners, businesses, etc.</p>
                   <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
                     <li>
@@ -399,6 +365,10 @@ const WestpointAcRepair = ({ subtitle, title, bgImg }) => {
                     </li>
                   </ul>
                 </div>
+                <div className="col-xl-6">
+                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Midea-ac-repair.jpg`} alt="Westpoint Ac Repair" />
+                </div>
+                
             </div>
           </div>
           <section className="section">
