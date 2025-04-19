@@ -75,8 +75,8 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>FAJ / AC Repair In Dubai - Freezer Service Appliances Fix</title>
-        <meta name="description" content="FAJ Established in 2010, / We offer professional AC Repair, Freezer, Refrigerator, Fridge, Washing Machine Maintenance Service Company Dubai"></meta>
+        <title>AC Repair Dubai - Reliable AC Fixing - AC Repair Near Me</title>
+        <meta name="description" content="If your air conditioner not cooling! It is time to contact FAJ to get fix split or central AC Repair Dubai. Book 043300002 emergency ac repair"></meta>
       </HelmetProvider>
 
 
