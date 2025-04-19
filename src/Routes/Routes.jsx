@@ -30,6 +30,14 @@ import YorkAcRepair from "../Pages/YorkAcRepair";
 import SupraAcRepair from "../Pages/SupraAcRepair";
 import DaikinAcRepair from "../Pages/DaikinAcRepair";
 import FujitsuAcRepair from "../Pages/FujitsuAcRepair";
+import AcRepairInArabianRanches2 from "../Pages/AcRepairInArabianRanches2";
+import AcRepairInLimestoneHouseDifc from "../Pages/AcRepairInLimestoneHouseDifc";
+import AcRepairInAcademyCity from "../Pages/AcRepairInAcademyCity";
+import AcRepairinAlTawar from "../Pages/AcRepairinAlTawar";
+import AcRepairinAlJafiliya from "../Pages/AcRepairinAlJafiliya";
+import AcRepairinTheGreens from "../Pages/AcRepairinTheGreens";
+import AcRepairInUmmAlSheif from "../Pages/AcRepairInUmmAlSheif";
+import AcRepairInTheMeadows from "../Pages/AcRepairInTheMeadows";
 import MideaAcRepair from "../Pages/MideaAcRepair";
 import WestpointAcRepair from "../Pages/WestpointAcRepair";
 import CoolineAcRepair from "../Pages/CoolineAcRepair";
@@ -162,6 +170,42 @@ export const router = createHashRouter([
       {
         path: "/ac-services-in-jebel-ali-free-zone/",
         element: <AcRepairInJebelAliFreeZone />,
+      },
+      {
+        path: "/ac-services-in-umm-al-sheif/",
+        element: <AcRepairInUmmAlSheif/>,
+      },
+      {
+        path: "/ac-services-in-the-greens/",
+        element: <AcRepairinTheGreens/>,
+      },
+      {
+        path: "/ac-services-in-the-greens/",
+        element: <AcRepairInTheMeadows/>,
+      },
+      {
+        path: "/ac-services-in-al-jafiliya/",
+        element: <AcRepairinAlJafiliya/>,
+      },
+      {
+        path: "/ac-services-in-the-meadows/",
+        element: <AcRepairinAlTawar/>,
+      },
+      {
+        path: "/ac-services-in-academy-city/",
+        element: <AcRepairInAcademyCity/>,
+      },
+      {
+        path: "/ac-services-in-limestone-house-difc/",
+        element: <AcRepairInLimestoneHouseDifc/>,
+      },
+      {
+        path: "/ac-services-in-jumeirah-village-triangle/",
+        element: <AcRepairInJumeirahVillage/>,
+      },
+      {
+        path: "/ac-services-in-arabian-ranches-2/",
+        element: <AcRepairInArabianRanches2/>,
       },
     ],
   }
