@@ -30,6 +30,15 @@ import YorkAcRepair from "../Pages/YorkAcRepair";
 import SupraAcRepair from "../Pages/SupraAcRepair";
 import DaikinAcRepair from "../Pages/DaikinAcRepair";
 import FujitsuAcRepair from "../Pages/FujitsuAcRepair";
+import AcRepairInUmmAlSheif from "../Pages/AcRepairInUmmAlSheif";
+import AcRepairinTheGreens from "../Pages/AcRepairinTheGreens";
+import AcRepairinAlJafiliya from "../Pages/AcRepairinAlJafiliya";
+import AcRepairinTheMeadows from "../Pages/AcRepairinTheMeadows";
+import AcRepairinAlTawar from "../Pages/AcRepairinAlTawar";
+import AcRepairInAcademyCity from "../Pages/AcRepairInAcademyCity";
+import AcRepairInLimestoneHouseDifc from "../Pages/AcRepairInLimestoneHouseDifc";
+import AcRepairInJumeriahVillageTriangle from "../Pages/AcRepairInJumeriahVillageTriangle";
+import AcRepairInArabianRanches2 from "../Pages/AcRepairInArabianRanches2";
 export const router = createHashRouter([
   {
     path: "/",
@@ -144,6 +153,38 @@ export const router = createHashRouter([
       {
         path: "/ac-services-in-jebel-ali-free-zone/",
         element: <AcRepairInJebelAliFreeZone />,
+      },
+      {
+        path: "/ac-services-in-umm-al-sheif/",
+        element: <AcRepairInUmmAlSheif/>,
+      },
+      {
+        path: "/ac-services-in-the-greens/",
+        element: <AcRepairinTheGreens/>,
+      },
+      {
+        path: "/ac-services-in-al-jafiliya/",
+        element: <AcRepairinAlJafiliya/>,
+      },
+      {
+        path: "/ac-services-in-the-meadows/",
+        element: <AcRepairinAlTawar/>,
+      },
+      {
+        path: "/ac-services-in-academy-city/",
+        element: <AcRepairInAcademyCity/>,
+      },
+      {
+        path: "/ac-services-in-limestone-house-difc/",
+        element: <AcRepairInLimestoneHouseDifc/>,
+      },
+      {
+        path: "/ac-services-in-jumeirah-village-triangle/",
+        element: <AcRepairInJumeriahVillageTriangle/>,
+      },
+      {
+        path: "/ac-services-in-arabian-ranches-2/",
+        element: <AcRepairInArabianRanches2/>,
       },
     ],
   }

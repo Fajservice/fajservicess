@@ -9,9 +9,7 @@ import CallNowButton from "../Buttons/CallNowButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import FAJACPrice from "../Miscellaneous/FAJACPrice";
 
-
-
-const AcRepairInJebelAliFreeZoneDetail = () => {
+const AcRepairinUmmAlSheifDetail = () => {
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -29,10 +27,10 @@ const AcRepairInJebelAliFreeZoneDetail = () => {
             setFirstItemOpen(false);
         }
     }, [firstItemOpen]);
-    return (
-        <>
+  return (
+    <>
             <HelmetProvider>
-                <title>FAJ / AC Repair Dubai - AC Service in Jebel Ali Free Zone</title>
+                <title>FAJ / AC Repair Dubai - AC Service in Umm Al Sheif</title>
                 <meta name="description" content="FAJ Established in 2010, / We offer professional AC Repair, Freezer, Refrigerator, Fridge, Washing Machine Maintenance Service Company Dubai"></meta>
             </HelmetProvider>
 
@@ -61,8 +59,8 @@ const AcRepairInJebelAliFreeZoneDetail = () => {
                         <div className="row g-5">
                             <div className="col-md-6">
                                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
-                                <h3 className="cs_fs_24 mb-1 mt-3">Best AC Repair in Jebel Ali Free Zone</h3>
-                                <p>When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Jebel Ali Free Zone, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
+                                <h3 className="cs_fs_24 mb-1 mt-3">Best AC Repair in Umm Al Sheif</h3>
+                                <p>When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Umm Al Sheif, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
                                 <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                             </div>
 
@@ -500,7 +498,7 @@ const AcRepairInJebelAliFreeZoneDetail = () => {
 
             </div>
         </>
-    )
+  )
 }
 
-export default AcRepairInJebelAliFreeZoneDetail
+export default AcRepairinUmmAlSheifDetail
