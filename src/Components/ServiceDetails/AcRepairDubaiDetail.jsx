@@ -572,7 +572,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
             <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
             <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
             <a
-              href="/files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
+              href="files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
               className="btn-green-yellow"
               target="_blank"
               rel="noopener noreferrer"
