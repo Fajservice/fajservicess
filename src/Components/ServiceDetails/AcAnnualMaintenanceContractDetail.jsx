@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../Data/AcRepairFaqs.json';
+import data from '../../Data/AMCFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
@@ -16,7 +16,7 @@ import parse from 'html-react-parser';
 
 // import { Link } from "react-router-dom";
 
-const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
+const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "/img/testimonialbg.jpg"
@@ -75,8 +75,8 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>AC Repair Dubai - Reliable AC Fixing - AC Repair Near Me</title>
-        <meta name="description" content="If your air conditioner not cooling! It is time to contact FAJ to get fix split or central AC Repair Dubai. Book 043300002 emergency ac repair"></meta>
+        <title>Best AC Annual Maintenance Contract Service Dubai AC AMC #1</title>
+        <meta name="description" content="We also offer an (Air Conditioner) AC Annual Maintenance Contract Service ( AMC ) in Dubai Comprehensive Plan of HVAC, Central, Split AC. +971 50 746 4712"></meta>
       </HelmetProvider>
 
 
@@ -108,18 +108,21 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-md-6">
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/ac-repair.jpg`} alt="Post Image" />
                 <h3 className="cs_fs_24 mb-1 mt-3">Select Air Conditioner Repair & Service</h3>
-                <p>We understand the urgency of responding promptly when an air conditioner failure impacts your critical cooling system, especially when people depend on it. Our expert and experienced AC technicians are dedicated to delivering the best AC repair and service in Dubai.</p>
-                <p>Choose FAJ for professional AC repair and maintenance for both residential and commercial units in your area.</p>
+                <p>Regular AC maintenance in Dubai is essential to ensure that your air conditioner unit continues to function properly. Over time, filters and coils can become dirty and clogged, leading to a decline in cooling performance.</p>
+                <p>This can also result in issues such as water leakage from the indoor unit and unpleasant odors. So, what is the solution? If you're searching for a reliable AC maintenance company in Dubai to take care of your home or office aircon needs, look no further.</p>
               </div>
 
               <div className="col-md-6 border-small-left">
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/ac-repair-2.jpg`} alt="Post Image" />
-                <h3 className="cs_fs_24 mb-1 mt-3">Top Signs Need An AC Repair in Dubai</h3>
-                <p>When you realize your air conditioner isn't working well in the summer, it can be frustrating. Minor signs are often overlooked, but they can lead to major problems that require repairs, especially in Dubai's heat.</p>
+                <h3 className="cs_fs_24 mb-1 mt-3">Top Signs Need An AC Maintenance</h3>
+                <p>Why do things break down at inconvenient times, like AC failing on a hot summer night? AC Maintaining unit from the start is crucial.
+                  <br />
+                  Let’s explore the signs that indicate it may be time for air conditioner maintenance.
+                </p>
                 <ul>
-                  <li>Insufficient Cooling / AC blowing warm air</li>
-                  <li>Strange Noises Coming From The AC</li>
-                  <li>Leaks of gas or water around your AC unit</li>
+                  <li>Bad odors / Warm air from vents </li>
+                  <li>High humidity / Frequent cycles</li>
+                  <li> Insufficient airflow / Water leaks</li>
                 </ul>
               </div>
             </div>
@@ -142,43 +145,29 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* FAJ Expert Air Conditioning Repair for Homes & Businesses Places */}
-        {/* <section className="section cs_py_48">
-          <div className="container">
-            <h2 className="cs_fs_30">FAJ Expert Air Conditioning Repair for Homes & Businesses Places</h2>
-            <p> <a href="https://www.google.com/maps/place/FAJ+Technical+Services+L.L.C+-+Warehouse+No+-+S-02+Gate+35+Street+18b+-+Al+Quoz+-+Al+Quoz+Industrial+Area+4+-+Dubai+-+United+Arab+Emirates/data=!4m2!3m1!1s0x3e5f699a600aceeb:0xa6121b25d557aa94?utm_source=mstt_1&entry=gps&lucs=47068615&g_ep=CAESCTExLjkxLjMwMhgAINeCAyoINDcwNjg2MTVCAlBL/">F A J Technical Services L.L.C</a> , an AC Repair Dubai Company, provides its clients most reliable Air Conditioning technical services in the region. According to the hot climate of UAE, Our Technical Services are designed to deliver you a comfortable environment that allows you to live, learn work, and play with peace of mind. When the temperature soars and you have air conditioner system faults, we are here to save your day. We have trained and professional technical teams to serve you. FAJ, AC Repair Dubai Service Company. </p>
-            <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
-                <WhatsappIconButton />
-              </div>
-            </div>
-          </div>
-        </section> */}
 
-
-        {/*FAJ: Creating the Perfect Temperature All Year Round */}
+        {/* Peace of Mind with Annual Maintenance Contracts */}
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-            <h3 class="cs_fs_30">5 Reasons Your AC Might Need Repairs This Summer </h3>
-            <p>Air conditioning issues are quite common during the summer months. If you're experiencing AC issues this season, it's important to understand what might be happening with your system. Identifying the problem early can prevent it from worsening and ensure your place remains comfortable during the heat. </p>
-
-            
+            <h3 class="cs_fs_30">Peace of Mind with Annual Maintenance Contracts</h3>
+            <p>Your air conditioner is an essential part of your home or office comfort, especially during the scorching summer months. Like any other air conditioning unit, it requires regular maintenance to operate efficiently and to prevent breakdowns.
+            </p>
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/ac-repair-3.jpg`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance-in-Dubai.jpeg`} alt="Post Image" />
               </div>
               <div className="col-md-6">
-              
-                <ul className="mb-0">
-                  <li> <strong>Insufficient Cooling:</strong> May be due to a refrigerant leak, blocked filter, or compressor issues.</li>
-                  <li> <strong>Strange Noises:</strong> Sounds like banging or hissing could indicate damaged parts.</li>
-                  <li> <strong>Increased Energy Bills:</strong> A spike in bills often means your AC is working inefficiently.</li>
-                  <li> <strong>Frequent Cycling:</strong> Constantly turning on and off might suggest a faulty thermostat or oversized system.</li>
-                  <li> <strong>Poor Airflow:</strong> Weak airflow can result from a clogged filter or issues with the ducts.
+                <p>
+                  FAJ offers comprehensive AC annual maintenance contracts (AMCs) to keep your AC unit running smoothly all year long. With our air conditioner AMC, you can enjoy consistent cooling and comfort in your space!
                   <br />
-                  Stay alert for these signs to maintain your AC. <br /> If you notice any issues, consult a professional technician for help. If you notice any issues, consult a professional technician for help.</li>
-                </ul>
+                  Experience unparalleled peace of mind as we take care of your air conditioning system, ensuring optimal performance, energy efficiency, and longevity. Our desirable maintenance package allows you to say goodbye to unexpected breakdowns and hello to extraordinary comfort.
+
+                  <br />
+                  Routine inspections and maintenance of your HVAC are crucial for maintaining efficiency. Our qualified technicians service all types, makes, models, and sizes of residential and commercial systems, including HVAC, VRV, VRF, AHU, FAHU, Central AC, Ducted Split AC, Package Unit AC, Centralized AC, FCU, Cassette AC, Wall Mounted AC, Split AC, Ceiling AC, and Multi-Split AC. Choose our annual maintenance contract for worry-free operation!
+
+                </p>
+
               </div>
             </div>
           </div>
@@ -287,184 +276,74 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-         {/* A Quick Guide to Understanding and Fixing Your AC Problems*/}
-         <section className="section cs_py_48 bg-light-gray">
+        {/* The Importance of AC Maintenance Contract Service*/}
+        <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-            <h3 className="cs_fs_30">A Quick Guide to Understanding and Fixing Your AC Problems</h3>
+            <h3 className="cs_fs_30">The Importance of AC Maintenance Contract Service</h3>
             <div className="row">
               <div className="col-xl-6">
-                <iframe className="bordered-img blue-border" width="100%" height="350" src="https://www.youtube.com/embed/sxBhB1_gxYA?si=96yf5hxyAA3bct8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/ac-repair-2.jpg`} alt="Post Image" />
               </div>
               <div className="col-xl-6">
-                <p>Take a look at this video to understand the possible problems your AC might face. This will help you to ensure that the professionals you hire are completing the right checks.</p>
-                <p><strong>We specialize in:</strong></p>
-                <div className="row">
-                  <div className="col">
-                    <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
-                      <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                          <i className="bi bi-check"></i></span>
-                        <span>Cleaning or replacing the air filter</span>
-                      </li>
-                      <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                          <i className="bi bi-check"></i></span>
-                        <span>Recharging refrigerant levels</span>
-                      </li>
-                      <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                          <i className="bi bi-check"></i></span>
-                        <span>Checking and tightening electrical connections</span>
-                      </li>
-                      <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                          <i className="bi bi-check"></i></span>
-                        <span>Ac coil cleaning</span>
-                      </li>
-                    </ul>
-                  </div>
+                <ul>
+                  <li>Maintaining your air conditioning (AC) system is essential for ensuring optimal performance, energy efficiency, and longevity. </li>
 
-                  <div className="col">
-                    <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
-                    <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                          <i className="bi bi-check"></i></span>
-                        <span>Unclogging drain lines</span>
-                      </li>
+                  <li>In the sweltering summer heat, a well-functioning Air con unit is not just a luxury; it is necessary for creating a comfortable living environment. </li>
 
-                      <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                          <i className="bi bi-check"></i></span>
-                        <span>Inspecting and repairing ductwork</span>
-                      </li>
+                  <li>Unfortunately, many homeowners or business owners overlook the importance of a regular AC maintenance contract, which can lead to unexpected breakdowns, higher energy bills, and costly repairs. </li>
 
-                      <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                          <i className="bi bi-check"></i></span>
-                        <span>Fixing leaks refrigerant, water, or duct leaks</span>
-                      </li>
-                      
-                      <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                          <i className="bi bi-check"></i></span>
-                        <span>Regular maintenance</span>
-                      </li>
-                      
-                      
+                  <li>Without proper air conditioner AMC contracts, your AC system can become less efficient, resulting in increased energy consumption and higher utility costs. </li>
 
-                    </ul>
-                  </div>
-
-                </div>
-
+                  <li>Over time, the components of the system may wear down, leading to reduced airflow, insufficient cooling, and even complete system failure. This can be particularly problematic during peak summer months when the demand for cooling is at its highest. </li>
+                </ul>
               </div>
             </div>
           </div>
         </section>
 
-
-        {/*WFAJ: Creating the Perfect Temperature All Year Round */}
-        {/* <section className="section cs_py_48">
-          <div className="container">
-            <div className="row align-items-center">
-              <div className="col-md-6">
-                <h4>Roasting air
-                </h4>
-                <p>When your AC starts blasting you with hot air, check the thermostat. If everything appears to be in order according to the thermostat settings, it is time to call an expert for AC repair Dubai. The primary concern here is to become familiar with the fact that it indicates the maintenance of your AC.</p>
-
-                <h4>A change in electricity bills</h4>
-                <p>
-                  Using a damaged AC will increase the cost of electricity. AC servicing will assist to reduce operating costs over time. However, the question here is why your AC is increasing your electricity bills. It indicates an issue with your air conditioner. Diagnosing and solving the problem will be helped by contacting professionals of AC repair near me.</p>
-
-                <h4>Uncanny noises</h4>
-                <p>
-                  When an air conditioner is running, it makes certain sounds, but if you hear a sound that is different from its natural sound, it is an indication. These sounds can be produced by cooling machines for a variety of reasons, including loose screws, fan blade issues, and so on. This noise is a precursor to any machine query. As a result, paying attention to these noises will be costly.</p>
-
-                <h4>Unnatural smell</h4>
-                <p>
-                  You must be aware of the strange odor that the air conditioner emits when turned on after a long period of inactivity. However, if you run the air conditioner constantly, this odor can become irritating. According to AC repairing experts; this odor is caused by dirt on the filter, so the device also exerts extra force to change the climate. This odor awakens our senses and indicates that our air conditioner requires maintenance.</p>
-
-                <h4>Drainage issues</h4>
-                <p>
-                  The most likely cause of an air conditioner leak inside your home or business place is a clogged condensate drain line. Over time, particles such as dirt, dust, or mold can clog this pipe. When your condensate drain pipe becomes clogged, water cannot leak and drain to the outside of your property. When it discovers a problem in your ac machine, extra water flows into your path.</p>
-
-                <h4>Low airflow</h4>
-                <p>
-                  The airflow from the AC used to hit you directly, but it is no longer even close to you. It means that something unusual has started to affect your AC. Reduced airflow indicates that it must be maintained.</p>
-
-                <h4>Looking for the best AC Repair / AC fixing Company in Dubai?</h4>
-                <p>Looking for the best AC Repair / AC fixing Company in Dubai?
-                  If your air conditioner starts freezing up and showing signs of trouble, you should always contact a professional AC repair company to properly diagnose the problem and make any necessary repairs. In this way, FAJ Technical Services LLC will be happy to provide expert services to ensure your AC is operating properly and efficiently.
-                  <br />
-                  Our expert ac technicians are knowledgeable and courteous because we are the most important repair company in Dubai. We also have the necessary experience in finding the source of the problem in your air conditioning system, as well as performing any necessary repairs and maintenance tasks to make sure cool air begins to flow through your home or office again. With this in mind, if your air conditioner begins to malfunction, don’t delay in contacting us!
-                  <br />
-                  Our experienced team operates not only in Dubai but also in other cities like Abu Dhabi, Sharjah, and all over the UAE. All of our clients receive one-of-a-kind, highly professional services. We have a dedicated team that serves both residential and commercial units in Dubai and all over the UAE.</p>
-
-              </div>
-              <div className="col-md-6">
-
-                <h4>Why Contact Us for AC repair services? </h4>
-                <p>Here are just a few of the reasons why you should always contact an expert like us if your air conditioner isn’t working properly:</p>
-
-                <h4>Best AC knowledge and experience </h4>
-                <p>Our Experts have 13 years of experience dealing with all types of air conditioner issues. We know how to resolve the problem quickly and effectively. We will definitely help you save time, money, and a lot of frustration. In comparison, trying to solve the problem by yourself can frequently worsen the situation.</p>
-
-                <h4>Right AC equipment and tools </h4>
-                <p> Our Air Conditioning Repair professionals use the most up-to-date tools and ac equipment to complete the job quickly and efficiently. Not only that, but we also know how to correctly use them. You see, there’s a lot more to air conditioner maintenance than simply unplugging and replunging a few wires.</p>
-
-                <h4>Save you time and money </h4>
-                <p>It’s also worth noting that professionals can save you a lot of time and money. Attempting to AC fix on your own can frequently result in further damage, which can end up costing you much more in the long run. Calling in a professional, on the other hand, can save you time, money, and a lot of difficulty.</p>
-
-                <h4>Our services will help you prevent future problems </h4>
-                <p>We are not only fixing the problem that is currently affecting your air conditioner, but we can also assist you in preventing future problems. Professionals will frequently inspect the entire system to ensure that everything is in working order. This will save you a lot of trouble in the future. If youre having problems with your air conditioner, it’s always best to contact a professional for AC repair in Dubai. Our Experts have the experience and knowledge to complete the ac job quickly and efficiently, and we can assist you in preventing future problems.</p>
-
-                <h4>Is it worth fixing an AC or AC Repair? </h4>
-                <p>As the weather begins to warm, many homeowners and business owners ask whether it is worth it to repair their broken air conditioner or replace it with a new unit. While both options have advantages and disadvantages, there are a few things to consider that can help you in making the best decision for your home.</p>
-                <ul>
-                  <li>First, consider the age of your air conditioner. If it is more than ten years old, it may be less effective than a newer model and more capable of breaking down. </li>
-                  <li>  Consider the cost of repairs as well. If the Ac repair costs more than half the cost of a new unit, it might be better to start over.</li>
-                  <li>  Finally, consider how frequently you use your air conditioner. If you live in a mild climate, you may not need to run it as frequently as someone who lives in a hot climate.</li>
-                  <li>Considering all of these factors will help you decide whether it is worthwhile to repair your air conditioner. </li>
-                </ul>
-
-                <h4>Why Shouldnt You Perform Your AC Repairs by Yourself?</h4>
-                <p>
-                  The short answer to this question is straightforward. It is dangerous, and you risk severe injuries or even an electric spark.
-
-                  <br />
-
-                  Yes, you can do some DIY fixes to your air conditioner, but you should be careful about the risks you run by doing so, the least of which is that you may lead to the problem and incur more complicated and costly repairs. To make matters worse, you may endanger the health and well-being of your family. As if that weren’t enough, doing your work on your air conditioner may invalidate your warranty, resulting in you paying far more than you would have if you had hired a professional in the first place.
-                </p>
-
-
-              </div>
-            </div>
-          </div>
-        </section> */}
-
-
-
+        {/* The Benefits Of Regular AC Service*/}
         <BenefitAcMaintenance />
 
-        {/*Select FAJ for Quick Service, Efficienc  */}
+        {/*What is covered in an AC Maintenance Contract?  */}
         <section className="section cs_py_48 ">
           <div className="container">
-            <h3 className="cs_fs_30">Why Choose FAJ Technical Services LLC?</h3>
+            <h3 className="cs_fs_30">What is covered in an AC Maintenance Contract?</h3>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <h4 className="cs_fs_24">We provide quick, efficient service and peace of mind</h4>
+                <h4 className="cs_fs_24">Typically, a comprehensive maintenance contract will include the following:</h4>
                 <ul className="acsvs-exp-spl-para tick-ul mb-0">
-                  <li><b>We get the job done on time</b> thanks to our larger team and dedicated parts warehouse</li>
-                  <li><b>All our AC technicians are fully qualified</b> and extensively trained by us to address all types of AC issues.</li>
-                  <li><b>We help prevent future breakdowns</b> by only using locally produced, highest quality refrigerant gas.</li>
-                  <li><b>From routine maintenance to complex repairs</b> we offers all type of AC repair and maintenance services.</li>
-                  <li><b>We only use genuine parts</b> to give you peace of mind.</li>
-                  <li><b>We give service warranty</b> to make sure you are relax.</li>
-                  <li><b>We look after the environment</b> by always recycling our gas.</li>
+                  <li>Servicing of condenser coils.</li>
+                  <li> Checking and cleaning of air filters.</li>
+
+                  <li>Checking the operation of the thermostat.</li>
+
+                  <li> Checking & ensuring the units ampere and voltage.</li>
+
+                  <li>Cleaning the entire body of the indoor unit with cloth.</li>
+                  <li>Servicing of condenser coils / indoor Cleaning of air filters.</li>
+
+                  <li>Check compressor performance and operating condition.</li>
+
+                  <li> Inspect blower fan and motor and ensure it’s working correctly.</li>
+
+                  <li>Checking and tighten the foundation bolts and mounting nuts of the units.</li>
+
+                  <li> Cleaning of the drain pan by pouring water and flushing it with an air blower to remove any blockage
+                    Checking and tightening of wire terminals for proper power conductivity and all electrical components.</li>
+
+                  <li>Checking the suction and discharge pressure for any short- fall of refrigerant gas, oil and gas filling.</li>
+
                 </ul>
               </div>
               <div className="col-md-6 text-center text-md-end">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance-in-Dubai.jpeg`} alt="Post Image" />
+                <ul className="text-md-start">
+                  <li>Cleaning of drain pan by pouring water and flush the same with air blower to remove any blockage.</li>
+
+                  <li>Minor Service includes only filter cleaning and outdoor wash and checking the unit thoroughly with the readings and replacing the parts as necessary.</li>
+
+                  <li> Major Service will be once in six months, full checking the units thoroughly with readings and replacing the parts as necessary.</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -473,85 +352,100 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
         {/* We specialise in air conditioning Repair services for the following brands */}
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-            <h3>We specialise in air conditioning Repair services for the following brands</h3>
+            <h3>We specialise in air conditioning Repair services for the following brands </h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0">
-                  <Link to="/lg-ac-repair-in-dubai/"><b>LG Air Conditioner Repair</b></Link>: FAJ offers reliable LG AC repair, and services in Dubai. With professionals, who are experts in split, vrf and central air conditioning units.
+                  <Link to="/lg-ac-repair-in-dubai/"><b>LG Air Conditioner Maintenance</b></Link>: FAJ offers reliable LG AC Maintenance, and services in Dubai. With professionals, who are experts in split, vrf and central air conditioning units.
                 </p>
                 <p className="mb-0">
-                  <Link to="/samsung-ac-repair-in-dubai/"><b>Samsung Air Conditioner Repair and Service</b></Link>: Based in Dubai, FAJ is your go-to destination for Samsung AC Repair in Dubai. Specializing in Samsung air conditioner systems, we offer comprehensive services ranging from maintenance to repair.
+                  <Link to="/samsung-ac-repair-in-dubai/"><b>Samsung Air Conditioner Maintenance and Service</b></Link>: Based in Dubai, FAJ is your go-to destination for Samsung AC Maintenance in Dubai. Specializing in Samsung air conditioner systems, we offer comprehensive services ranging from repairs to Maintenance.
                 </p>
                 <p className="mb-0">
-                  <Link to="/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten/"><b>York AC Service and Repair</b></Link>: The York AC repair service ensures you don’t need to worry because you are in the right place. Yes, FAJ is where efficiency and reliability are prioritized.
+                  <Link to="/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten/"><b>York AC Maintenance and Service</b></Link>: The York AC Maintenance service ensures you don’t need to worry because you are in the right place. Yes, FAJ is where efficiency and reliability are prioritized.
                 </p>
                 <p className="mb-0">
-                  <Link to="/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con/"><b>Daikin Air Conditioner Repair</b></Link>: Trust our skilled team to efficiently resolve all issues with your Daikin air conditioner and restore its functionality.
+                  <Link to="/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con/"><b>Daikin Air Conditioner Maintenance</b></Link>: Trust our skilled team to efficiently resolve all issues with your Daikin air conditioner and restore its functionality.
                 </p>
                 <p className="mb-0">
-                  <Link to="/trane-ac-repair-in-dubai-trane-ac-maintenance-in-dubai-trane-ac-fix-in-dubai-trane-ac-service-in-dubai-trane-air-condition-repair-in-dubai-trane-air-condition-maintenance-in-dubai-trane-air-condition/"><b>Trane HVAC Repair</b></Link>: With extensive knowledge of Trane air conditioning systems, we provide effective repairs to keep your unit running smoothly.
+                  <Link to="/trane-ac-repair-in-dubai-trane-ac-maintenance-in-dubai-trane-ac-fix-in-dubai-trane-ac-service-in-dubai-trane-air-condition-repair-in-dubai-trane-air-condition-maintenance-in-dubai-trane-air-condition/"><b>Trane HVAC Maintenance</b></Link>: With extensive knowledge of Trane air conditioning systems, we provide effective repairs to keep your unit running smoothly.
                 </p>
                 <p className="mb-0">
-                  <Link to="/panasonic-ac-repair-in-dubai-panasonic-ac-maintenance-in-dubai-panasonic-ac-fix-in-dubai-panasonic-ac-service-in-dubai-panasonic-air-condition-repair-in-dubai-panasonic-air-condition-maintenance-in-du/"><b>Panasonic AC Repair and Service</b></Link>: No matter the issue with your Panasonic air conditioner, our experts can accurately diagnose and fix it.
+                  <Link to="/panasonic-ac-repair-in-dubai-panasonic-ac-maintenance-in-dubai-panasonic-ac-fix-in-dubai-panasonic-ac-service-in-dubai-panasonic-air-condition-repair-in-dubai-panasonic-air-condition-maintenance-in-du/"><b>Panasonic AC Maintenance and Service</b></Link>: No matter the issue with your Panasonic air conditioner, our experts can accurately diagnose and fix it.
                 </p>
                 <p className="mb-0">
-                  <Link to="/gree-ac-repair-in-dubai/"><b>Gree AC Repair and Service</b></Link>: Has your AC stopped working? No need to endure unpleasant temperatures and stuffy air or suffer losses due to damaged equipment (broken gree air conditioning in a room, for example, can be a disaster!) – FAJ get your gree air conditioning back up and running in no time!
+                  <Link to="/gree-ac-repair-in-dubai/"><b>Gree AC Maintenance and Service</b></Link>: Has your AC stopped working? No need to endure unpleasant temperatures and stuffy air or suffer losses due to damaged equipment (broken gree air conditioning in a room, for example, can be a disaster!) – FAJ get your gree air conditioning back up and running in no time!
                 </p>
                 <p className="mb-0">
-                  <Link to="/o-general-ac-repair-in-dubai-o-general-ac-maintenance-in-dubai-o-general-ac-fix-in-dubai-o-general-ac-service-in-dubai-o-general-air-condition-repair-in-dubai-o-general-air-condition-maintenance-in-du/"><b>O General AC Repair and Service</b></Link>: O General AC repair in Dubai requires expert help because only specialized ones know how to address aircon issues. We are a hassle-free air condition repair service provider.
+                  <Link to="/o-general-ac-repair-in-dubai-o-general-ac-maintenance-in-dubai-o-general-ac-fix-in-dubai-o-general-ac-service-in-dubai-o-general-air-condition-repair-in-dubai-o-general-air-condition-maintenance-in-du/"><b>O General AC Maintenance and Service</b></Link>: O General AC maintenance in Dubai requires expert help because only specialized ones know how to address aircon issues. We are a hassle-free air condition Maintenance service provider.
                 </p>
                 <p className="mb-0">
-                  <Link to="/mitsubishi-ac-repair-in-dubai/"><b>Mitsubishi Air Conditioner Repair and Service</b></Link>: Seeking relief from scorching heat? Discover the secret to keeping your Mitsubishi AC running smoothly in Dubai! Our expert Mitsubishi AC services ensure your AC stays cool and efficient, providing comfort and peace of mind.
+                  <Link to="/mitsubishi-ac-repair-in-dubai/"><b>Mitsubishi Air Conditioner Maintenance and Service</b></Link>: Seeking relief from scorching heat? Discover the secret to keeping your Mitsubishi AC running smoothly in Dubai! Our expert Mitsubishi AC services ensure your AC stays cool and efficient, providing comfort and peace of mind.
                 </p>
                 <br />
 
                 <p className="mb-0">
-                  <Link to="/sanyo-ac-repair-in-dubai-sanyo-ac-maintenance-in-dubai-sanyo-ac-fix-in-dubai-sanyo-ac-service-in-dubai-sanyo-air-condition-repair-in-dubai-sanyo-air-condition-maintenance-in-dubai-sanyo-air-condition/">Sanyo AC Repair Dubai</Link>
+                  <Link to="/sanyo-ac-repair-in-dubai-sanyo-ac-maintenance-in-dubai-sanyo-ac-fix-in-dubai-sanyo-ac-service-in-dubai-sanyo-air-condition-repair-in-dubai-sanyo-air-condition-maintenance-in-dubai-sanyo-air-condition/">Sanyo AC</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/rheem-ac-maintenance-in-dubai/">Rheem AC Repair</Link>
+                  <Link to="/rheem-ac-maintenance-in-dubai/">Rheem Air Conditioner</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/skm-ac-repair-in-dubai-skm-ac-maintenance-in-dubai-skm-ac-fix-in-dubai-skm-ac-service-in-dubai-skm-air-condition-repair-in-dubai-skm-air-condition-maintenance-in-dubai-skm-air-condition-maintenance-in/">SKM AC Repair Dubai</Link>
+                  <Link to="/skm-ac-repair-in-dubai-skm-ac-maintenance-in-dubai-skm-ac-fix-in-dubai-skm-ac-service-in-dubai-skm-air-condition-repair-in-dubai-skm-air-condition-maintenance-in-dubai-skm-air-condition-maintenance-in/">SKM AC</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/daewoo-ac-repair-in-dubai-daewoo-ac-maintenance-in-dubai-daewoo-ac-fix-in-dubai-daewoo-ac-service-in-dubai-daewoo-air-condition-repair-in-dubai-daewoo-air-condition-maintenance-in-dubai-daewoo-air-con/">Daewoo AC Repair Dubai</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="#">Carrier AC Repair</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/midea-ac-installation-maintenance-repair-fix-service-in-dubai/">Midea Air Conditioner Repair Service Near Me</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/lennox-ac-repair-in-dubai-lennox-ac-maintenance-in-dubai-lennox-ac-fix-in-dubai-lennox-ac-service-in-dubai-lennox-air-condition-repair-in-dubai-lennox-air-condition-maintenance-in-dubai-lennox-air-con/">Lennox Air Conditioning Repair</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/goodman-ac-repair-in-dubai-goodman-ac-maintenance-in-dubai-goodman-ac-fix-in-dubai-goodman-ac-service-in-dubai-goodman-air-condition-repair-in-dubai-goodman-air-condition-maintenance-in-dubai-goodman/">Goodman AC Repair Dubai</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/coleman-ac-repair-in-dubai-coleman-ac-maintenance-in-dubai-coleman-ac-fix-in-dubai-coleman-ac-service-in-dubai-coleman-air-condition-repair-in-dubai-coleman-air-condition-maintenance-in-dubai-coleman/">Coleman AC Reapair Services</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/westpoint-ac-repair-in-dubai-westpoint-ac-maintenance-in-dubai-westpoint-ac-fix-in-dubai-westpoint-ac-service-in-dubai-west-point-air-condition-repair-in-dubai-west-point-air-condition-maintenance-in/">Westpoint Repair</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/aftron-ac-repair-maintenance-service-in-dubai-2/">Aftron AC Repair Service Near Me</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/crafft-ac-repair-in-dubai-crafft-ac-maintenance-in-dubai-crafft-ac-fix-in-dubai-crafft-ac-service-in-dubai-crafft-air-condition-repair-in-dubai-crafft-air-condition-maintenance-in-dubai-crafft-air-con/">Crafft AC Repair</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/bryant-ac-repair-in-dubai-bryant-ac-maintenance-in-dubai-bryant-ac-fix-in-dubai-bryant-ac-service-in-dubai-bryant-air-condition-repair-in-dubai-bryant-air-condition-maintenance-in-dubai-bryant-air-con/">Bryant AC Repair</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/ruud-ac-repair-in-dubai-ruud-ac-maintenance-in-dubai-ruud-ac-fix-in-dubai-ruud-ac-service-in-dubai-ruud-air-condition-repair-in-dubai-ruud-air-condition-maintenance-in-dubai-ruud-air-condition-mainten/">Ruud Air Conditioner Repair Service</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/mcquay-ac-repair-in-dubai-mcquay-ac-maintenance-in-dubai-mcquay-ac-fix-in-dubai-mcquay-ac-service-in-dubai-mcquay-air-condition-repair-in-dubai-mcquay-air-condition-maintenance-in-dubai-mcquay-air-con/">McQuay Air Conditioning Repair</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/blue-star-ac-repair-in-dubai-blue-star-ac-maintenance-in-dubai-blue-star-ac-fix-in-dubai-blue-star-ac-service-in-dubai-blue-star-air-condition-repair-in-dubai-blue-star-air-condition-maintenance-in-du/">Blue Star</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/supra-ac-repair-in-dubai-supra-ac-maintenance-in-dubai-supra-ac-fix-in-dubai-supra-ac-service-in-dubai-supra-air-condition-repair-in-dubai-supra-air-condition-maintenance-in-dubai-supra-air-condition/">Supra AC Repair</Link>
+                  <Link to="/daewoo-ac-repair-in-dubai-daewoo-ac-maintenance-in-dubai-daewoo-ac-fix-in-dubai-daewoo-ac-service-in-dubai-daewoo-air-condition-repair-in-dubai-daewoo-air-condition-maintenance-in-dubai-daewoo-air-con/">Daewoo AC Maintenance Dubai</Link>
                   <span>&nbsp;-&nbsp;</span>
 
-                  <Link to="/toshiba-ac-repair-in-dubai-toshiba-ac-maintenance-in-dubai-toshiba-ac-fix-in-dubai-toshiba-ac-service-in-dubai-toshiba-air-condition-repair-in-dubai-toshiba-air-condition-maintenance-in-dubai-toshiba/">Toshiba AC Repair</Link>
+                  <Link to="/midea-ac-installation-maintenance-repair-fix-service-in-dubai/">Midea Air Conditioner</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/whirlpool-air-condition-repair-in-dubai-ac-maintenance-in-dubai-air-conditioning-fix-repairs-service-in-dubai/">Whirlpool AC Repair</Link>
+                  <Link to="/lennox-ac-repair-in-dubai-lennox-ac-maintenance-in-dubai-lennox-ac-fix-in-dubai-lennox-ac-service-in-dubai-lennox-air-condition-repair-in-dubai-lennox-air-condition-maintenance-in-dubai-lennox-air-con/">Lennox Air Conditioning</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/super-general-ac-repair-in-dubai-super-general-ac-maintenance-in-dubai-super-general-ac-fix-in-dubai-super-general-ac-service-in-dubai-super-general-air-condition-repair-in-dubai-super-general-air-con/">Super General AC Repair</Link>
+                  <Link to="/goodman-ac-repair-in-dubai-goodman-ac-maintenance-in-dubai-goodman-ac-fix-in-dubai-goodman-ac-service-in-dubai-goodman-air-condition-repair-in-dubai-goodman-air-condition-maintenance-in-dubai-goodman/">Goodman Air Conditioner</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/hitachi-ac-repair-in-dubai-hitachi-ac-maintenance-in-dubai-hitachi-ac-fix-in-dubai-hitachi-ac-service-in-dubai-hitachi-air-condition-repair-in-dubai-hitachi-air-condition-maintenance-in-dubai-hitachi/">Hitachi AC Repair</Link>
+                  <Link to="/coleman-ac-repair-in-dubai-coleman-ac-maintenance-in-dubai-coleman-ac-fix-in-dubai-coleman-ac-service-in-dubai-coleman-air-condition-repair-in-dubai-coleman-air-condition-maintenance-in-dubai-coleman/">Coleman AC</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/o-general-ac-repair-in-dubai-o-general-ac-maintenance-in-dubai-o-general-ac-fix-in-dubai-o-general-ac-service-in-dubai-o-general-air-condition-repair-in-dubai-o-general-air-condition-maintenance-in-du/">O General Air Conditioning Repair</Link>
+                  <Link to="/westpoint-ac-repair-in-dubai-westpoint-ac-maintenance-in-dubai-westpoint-ac-fix-in-dubai-westpoint-ac-service-in-dubai-west-point-air-condition-repair-in-dubai-west-point-air-condition-maintenance-in/">Westpoint Air Conditioning</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/cooline-ac-repair-in-dubai-cooline-ac-maintenance-in-dubai-cooline-ac-fix-in-dubai-cooline-ac-service-in-dubai-cooline-air-condition-repair-in-dubai-cooline-air-condition-maintenance-in-dubai-cooline/">Cooline Air Conditioner Repair Service Near Me</Link>
+                  <Link to="/aftron-ac-repair-maintenance-service-in-dubai-2/">Aftron AC</Link> <span>&nbsp;-&nbsp;</span>
+
+                  <Link to="/crafft-ac-repair-in-dubai-crafft-ac-maintenance-in-dubai-crafft-ac-fix-in-dubai-crafft-ac-service-in-dubai-crafft-air-condition-repair-in-dubai-crafft-air-condition-maintenance-in-dubai-crafft-air-con/">Crafft Air Conditioner</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/bryant-ac-repair-in-dubai-bryant-ac-maintenance-in-dubai-bryant-ac-fix-in-dubai-bryant-ac-service-in-dubai-bryant-air-condition-repair-in-dubai-bryant-air-condition-maintenance-in-dubai-bryant-air-con/">Bryant AC</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/ruud-ac-repair-in-dubai-ruud-ac-maintenance-in-dubai-ruud-ac-fix-in-dubai-ruud-ac-service-in-dubai-ruud-air-condition-repair-in-dubai-ruud-air-condition-maintenance-in-dubai-ruud-air-condition-mainten/">Ruud Air Conditioner</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/mcquay-ac-repair-in-dubai-mcquay-ac-maintenance-in-dubai-mcquay-ac-fix-in-dubai-mcquay-ac-service-in-dubai-mcquay-air-condition-repair-in-dubai-mcquay-air-condition-maintenance-in-dubai-mcquay-air-con/">McQuay Air Conditioning</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/blue-star-ac-repair-in-dubai-blue-star-ac-maintenance-in-dubai-blue-star-ac-fix-in-dubai-blue-star-ac-service-in-dubai-blue-star-air-condition-repair-in-dubai-blue-star-air-condition-maintenance-in-du/">Blue Star Air Conditioning</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/supra-ac-repair-in-dubai-supra-ac-maintenance-in-dubai-supra-ac-fix-in-dubai-supra-ac-service-in-dubai-supra-air-condition-repair-in-dubai-supra-air-condition-maintenance-in-dubai-supra-air-condition/">Supra AC</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/toshiba-ac-repair-in-dubai-toshiba-ac-maintenance-in-dubai-toshiba-ac-fix-in-dubai-toshiba-ac-service-in-dubai-toshiba-air-condition-repair-in-dubai-toshiba-air-condition-maintenance-in-dubai-toshiba/">Toshiba Air Conditioning</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/whirlpool-air-condition-repair-in-dubai-ac-maintenance-in-dubai-air-conditioning-fix-repairs-service-in-dubai/">Whirlpool Air Conditioner</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/super-general-ac-repair-in-dubai-super-general-ac-maintenance-in-dubai-super-general-ac-fix-in-dubai-super-general-ac-service-in-dubai-super-general-air-condition-repair-in-dubai-super-general-air-con/">Super General AC</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/hitachi-ac-repair-in-dubai-hitachi-ac-maintenance-in-dubai-hitachi-ac-fix-in-dubai-hitachi-ac-service-in-dubai-hitachi-air-condition-repair-in-dubai-hitachi-air-condition-maintenance-in-dubai-hitachi/">Hitachi AC</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/o-general-ac-repair-in-dubai-o-general-ac-maintenance-in-dubai-o-general-ac-fix-in-dubai-o-general-ac-service-in-dubai-o-general-air-condition-repair-in-dubai-o-general-air-condition-maintenance-in-du/">O General Air Conditioning</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/cooline-ac-repair-in-dubai-cooline-ac-maintenance-in-dubai-cooline-ac-fix-in-dubai-cooline-ac-service-in-dubai-cooline-air-condition-repair-in-dubai-cooline-air-condition-maintenance-in-dubai-cooline/">Cooline Air Conditioner</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/white-westinghouse-ac-repair-in-dubai-white-westinghouse-ac-maintenance-in-dubai-white-westinghouse-ac-fix-in-dubai-white-westinghouse-ac-service-in-dubai-white-westinghouse-air-condition-repair-in-du/">White Westinghouse AC</Link><span>&nbsp;-&nbsp;</span>
+                  <Link to="/panasonic-ac-repair-in-dubai-panasonic-ac-maintenance-in-dubai-panasonic-ac-fix-in-dubai-panasonic-ac-service-in-dubai-panasonic-air-condition-repair-in-dubai-panasonic-air-condition-maintenance-in-du/">Panasonic Air Conditioner</Link><span>&nbsp;-&nbsp;</span>
+                  <Link to="/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con/">Daikin AC</Link><span>&nbsp;-&nbsp;</span>
+                  <Link to="/daikool-ac-repair-in-dubai-daikool-ac-maintenance-in-dubai-daikool-ac-fix-in-dubai-daikool-ac-service-in-dubai-daikool-air-condition-repair-in-dubai-daikool-air-condition-maintenance-in-dubai-daikool/">Daikool Air Conditioning</Link><span>&nbsp;-&nbsp;</span>
+                  <Link to="/fujitsu-ac-repair-in-dubai-fujitsu-ac-maintenance-in-dubai-fujitsu-ac-fix-in-dubai-fujitsu-ac-service-in-dubai-fujitsu-air-condition-repair-in-dubai-fujitsu-air-condition-maintenance-in-dubai-fujitsu/">Fujitsu Air Conditioner</Link><span>&nbsp;-&nbsp;</span>
+                  <Link to="/gree-ac-repair-in-dubai/">Gree AC</Link><span>&nbsp;-&nbsp;</span>
+                  <Link to="/haier-ac-repair-in-dubai-haier-ac-maintenance-in-dubai-haier-ac-fix-in-dubai-haier-ac-service-in-dubai-haier-air-condition-repair-in-dubai-haier-air-condition-maintenance-in-dubai-haier-air-condition/">Haier Air Condition</Link><span>&nbsp;-&nbsp;</span>
+                  <Link to="/lg-ac-repair-in-dubai/">LG Air Conditioner</Link><span>&nbsp;-&nbsp;</span>
+                  <Link to="/nikai-ac-repair-in-dubai-nikai-ac-maintenance-in-dubai-nikai-ac-fix-in-dubai-nikai-ac-service-in-dubai-nikai-air-condition-repair-in-dubai-nikai-air-condition-maintenance-in-dubai-nikai-air-condition/">Nikai AC</Link><span>&nbsp;-&nbsp;</span>
+                  <Link to="/samsung-ac-repair-in-dubai/">Samsung Air Conditioning</Link><span>&nbsp;-&nbsp;</span>
+
+                  <Link to="/trane-ac-repair-in-dubai-trane-ac-maintenance-in-dubai-trane-ac-fix-in-dubai-trane-ac-service-in-dubai-trane-air-condition-repair-in-dubai-trane-air-condition-maintenance-in-dubai-trane-air-condition/">Trane Air Conditioner</Link><span>&nbsp;-&nbsp;</span>
+
+                  <Link to="/sub-zero-ac-installation-maintenance-repair-fix-service-in-dubai/">Sub Zero AC</Link><span>&nbsp;-&nbsp;</span>
+
+                  <Link to="/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten/">York Air Conditioning</Link>
                 </p>
               </div>
 
@@ -570,9 +464,9 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_48 bg-dark-blue text-light">
           <div className="container text-center">
             <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
-            <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
+            <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers! </p>
             <a
-              href="files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
+              href="public/files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
               className="btn-green-yellow"
               target="_blank"
               rel="noopener noreferrer"
@@ -713,4 +607,4 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
   );
 };
 
-export default AcRepairDubaiDetails;
+export default AcAnnualMaintenanceContractDetail;

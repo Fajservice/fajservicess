@@ -7,6 +7,7 @@ import AboutPage from "../Pages/AboutPage";
 import Layout2 from "../Layout/Layout2";
 import AcServiceInDubai from "../Pages/AcServiceInDubai";
 import AcMaintenanceDubai from "../Pages/AcMaintenanceDubai";
+import AcAnnualMaintenanceContract from "../Pages/AcAnnualMaintenanceContract";
 import AcRepairDubai from "../Pages/AcRepairDubai";
 import WashingMachineRepairServiceDubai from "../Pages/WashingMachineRepairServiceDubai";
 import RefrigeratorRepairInDubai from "../Pages/RefrigeratorRepairInDubai";
@@ -30,15 +31,6 @@ import YorkAcRepair from "../Pages/YorkAcRepair";
 import SupraAcRepair from "../Pages/SupraAcRepair";
 import DaikinAcRepair from "../Pages/DaikinAcRepair";
 import FujitsuAcRepair from "../Pages/FujitsuAcRepair";
-import AcRepairInUmmAlSheif from "../Pages/AcRepairInUmmAlSheif";
-import AcRepairinTheGreens from "../Pages/AcRepairinTheGreens";
-import AcRepairinAlJafiliya from "../Pages/AcRepairinAlJafiliya";
-import AcRepairinTheMeadows from "../Pages/AcRepairinTheMeadows";
-import AcRepairinAlTawar from "../Pages/AcRepairinAlTawar";
-import AcRepairInAcademyCity from "../Pages/AcRepairInAcademyCity";
-import AcRepairInLimestoneHouseDifc from "../Pages/AcRepairInLimestoneHouseDifc";
-import AcRepairInJumeriahVillageTriangle from "../Pages/AcRepairInJumeriahVillageTriangle";
-import AcRepairInArabianRanches2 from "../Pages/AcRepairInArabianRanches2";
 export const router = createHashRouter([
   {
     path: "/",
@@ -65,7 +57,10 @@ export const router = createHashRouter([
         path: "/ac-maintenance-dubai/",
         element: <AcMaintenanceDubai></AcMaintenanceDubai>,
       },
-      
+      {
+        path: "/ac-annual-maintenance-contract/",
+        element: <AcAnnualMaintenanceContract></AcAnnualMaintenanceContract>,
+      },
       {
         path: "/ac-repair-dubai/",
         element: <AcRepairDubai></AcRepairDubai>,
@@ -91,6 +86,10 @@ export const router = createHashRouter([
         element: <SupraAcRepair />,
       },
       {
+        path: "/midea-ac-installation-maintenance-repair-fix-service-in-dubai/",
+        element: <MideaAcRepair />,
+      },
+      {
         path: "/fujitsu-ac-repair-in-dubai-fujitsu-ac-maintenance-in-dubai-fujitsu-ac-fix-in-dubai-fujitsu-ac-service-in-dubai-fujitsu-air-condition-repair-in-dubai-fujitsu-air-condition-maintenance-in-dubai-fujitsu/",
         element: <FujitsuAcRepair />,
       },
@@ -99,13 +98,17 @@ export const router = createHashRouter([
         element: <DaikinAcRepair />,
       },
       {
+        path: "/westpoint-ac-repair-in-dubai-westpoint-ac-maintenance-in-dubai-westpoint-ac-fix-in-dubai-westpoint-ac-service-in-dubai-west-point-air-condition-repair-in-dubai-west-point-air-condition-maintenance-in/",
+        element: <WestpointAcRepair />,
+      },
+      {
         path: "/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten/",
         element: <YorkAcRepair></YorkAcRepair>,
       },
       {
         path: "/project",
         element: <ProjectPage></ProjectPage>,
-      },      
+      },
       {
         path: "/project/project-details",
         element: <ProjectDetailsPage></ProjectDetailsPage>,

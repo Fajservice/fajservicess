@@ -93,14 +93,14 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
             <div className="container">
                 <div className="row g-5">
                     <div className="col-md-6">
-                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
+                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Coleman Ac Repair" />
                         <h3 className="cs_fs_25 mb-1 mt-3">Best Coleman AC Repair in Dubai</h3>
-                        <p>When it comes to Coleman <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Dubai, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai//"><b>AC technician</b></Link> for your home or office.</p>
+                        <p>When it comes to Coleman <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Dubai, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
                         <p>We specialize in Coleman air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                     </div>
 
                     <div className="col-md-6 border-small-left">
-                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" />
+                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Coleman Ac Repair" />
                         <h3 className="cs_fs_24 mb-1 mt-3">Signs You Need An AC Service</h3>
                         <p>If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                         <ul>
@@ -112,7 +112,7 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
                 </div>
 
                 <div className="appointment-col border-small-top pt-3">
-                    <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/ac-maintenance-dubai//"><b>AC cleaning service</b></Link> , repair, or maintenance. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+                    <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/ac-service-in-dubai/"><b>AC cleaning service</b></Link> , repair, or maintenance. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
                     <div id="get-quote" className=" mt-3">
                         <div className="container d-flex justify-content-center align-items-center gap-3">
                             <WhatsappIconButton />
@@ -128,7 +128,7 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
             <FAJACPrice></FAJACPrice>
           </div>
         </section>
-
+        
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
           <h3 class="cs_fs_30">Error Codes Your Coleman Split Air Conditioning Showing</h3>
@@ -153,7 +153,7 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
                 <p>Only an expert technician can tell you the exact error code, what it means as well as how to overcome it. Moreover, contacting a specialized team of professionals will save your day, money, and effort. This spendy Colman split air con should only be in the hands of professionals because they know how to take care of it and repair it on time.</p>
               </div>
               <div className="col-md-6 text-center text-md-end">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Coleman Ac Repair" />
                 
               </div>
             </div>
@@ -168,67 +168,253 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
             <p>Have you ever noticed that when you turn your inverter to get some cool, soft air so your sweating gets removed? And you enjoy the sweet cool air with your loved ones. However, instead of this reverse happens and your Coleman air conditioning system throws humid air. The major reason behind this scenario is the wrong installation of your central Ac. One drawback is the poor installation of air con which leads to several other disadvantages such as air filters easily getting clogged with dirt. Hampers the function of evaporated coils and steadily increases humidity. Thus, you experience more humid air than cool airflow. Humidity becomes a significant way for the growth of molds and mildews.</p>    
           </div>
         </section>
-
-        
+        {/* Common Signs Your AC May Need Maintenanc */}
         <section className="section cs_py_48">
-          <div className="container">
-          <h3 class="cs_fs_30">Why FAJ?</h3>
-            <div className="row align-items-center">
-                <div className="col-xl-6">
-                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Faj-for-speed.jpg`} alt="Post Image" />
+            <div className="container">
+                <h3 className="text-center">Common AC Problems That May Require Maintenance
+                </h3>
+                <div className="row gx-lg-3 gy-lg-4">
+                    <div className="col-lg-3">
+                        <div className=" box-content-container rounded border shadow">
+                            <div className="text-center">
+                                <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Weak Airflow</h3>
+                            </div>
+                            <div className="inner-apcs-feat-desc">
+                                <p className="p-2 mb-0">If you notice reduced airflow coming from your vents, it could indicate a problem with your AC system, such as a clogged filter or malfunctioning fan.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3">
+                        <div className=" box-content-container rounded border shadow">
+                            <div className="text-center">
+                                <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Warm Air</h3>
+                            </div>
+                            <div className="inner-apcs-feat-desc">
+                                <p className="p-2 mb-0">If your AC blows warm or room temperature air instead of cold, it could indicate compressor, refrigerant, or ductwork issues.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3">
+                        <div className=" box-content-container rounded border shadow">
+                            <div className="text-center">
+                                <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Strange Noises</h3>
+                            </div>
+                            <div className="inner-apcs-feat-desc">
+                                <p className="p-2 mb-0">Unusual sounds like grinding, squealing, or banging coming from your AC unit can indicate mechanical problems that require attention.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3">
+                        <div className=" box-content-container rounded border shadow">
+                            <div className="text-center">
+                                <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Foul Odors</h3>
+                            </div>
+                            <div className="inner-apcs-feat-desc">
+                                <p className="p-2 mb-0">Musty or foul odors emanating from the vents could suggest mold or mildew growth within the system, which needs to be addressed quickly.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3">
+                        <div className=" box-content-container rounded border shadow">
+                            <div className="text-center">
+                                <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Frequent Cycling</h3>
+                            </div>
+                            <div className="inner-apcs-feat-desc">
+                                <p className="p-2 mb-0">It may signal difficulty maintaining desired temperatures due to issues like dirty filters, low refrigerant levels, or a faulty thermostat.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3">
+                        <div className=" box-content-container rounded border shadow">
+                            <div className="text-center">
+                                <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">High Humidity Levels</h3>
+                            </div>
+                            <div className="inner-apcs-feat-desc">
+                                <p className="p-2 mb-0">An air conditioner that fails to adequately reduce indoor humidity levels may indicate issues with its cooling capacity or improper operation.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3">
+                        <div className=" box-content-container rounded border shadow">
+                            <div className="text-center">
+                                <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Leaking Water</h3>
+                            </div>
+                            <div className="inner-apcs-feat-desc">
+                                <p className="p-2 mb-0">Water pooling around AC or dripping from vents could indicate blocked condensate drain, frozen coils, or other issues.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3">
+                        <div className="box-content-container rounded border shadow">
+                            <div className="text-center">
+                                <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Increased Energy Bills</h3>
+                            </div>
+                            <div className="inner-apcs-feat-desc">
+                                <p className="p-2 mb-0">High energy bills without increase in usage could indicate the inefficiency of your AC due to dirty filters, duct leaks, or other problems.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div className="col-xl-6">
-                  <p>FAJ is like no other, yes you read it right. People choose us for numerous reasons and that is why we have gained immense popularity in Dubai.</p>
-                  <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>We have been in the field of air conditioning services since 2010</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>Our team has years of experience and advanced training to get the job done superbly and promptly.</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>We have proper, advanced tools and equipment to get the work done excellently</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>We help you to choose the correct system for your home or office and ensure that it is installed precisely.</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>FAJ provides you with a warranty on our services and hence we are quite reliable and easy to get in touch with.</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>All of our servicing is so reasonable that will happily amaze you and give you complete satisfaction that your air con is going to be newer and run efficiently.</span>
-                    </li>
-                  </ul>
+
+
+            </div>
+        </section>
+
+        {/* A Quick Tour to Your AC Problems and Fixing*/}
+        <section className="section cs_py_48 bg-light-gray">
+            <div className="container">
+                <h3 className="cs_fs_30">A Quick Guide to Understanding and Fixing Your AC Problems</h3>
+                <div className="row">
+                    <div className="col-xl-6">
+                        <iframe className="bordered-img blue-border" width="100%" height="350" src="https://www.youtube.com/embed/sxBhB1_gxYA?si=96yf5hxyAA3bct8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+                    </div>
+                    <div className="col-xl-6">
+                        <p>Watch this video to learn about the common issues your air conditioning unit may experience.
+                        This knowledge will help you ensure that the professionals you hire are performing the appropriate checks and maintenance.</p>
+                        <p><strong>We specialize in:</strong></p>
+                        <div className="row">
+                            <div className="col">
+                                <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
+                                    <li>
+                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                                            <i className="bi bi-check"></i></span>
+                                        <span>AC coil cleaning</span>
+                                    </li>
+                                    <li>
+                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                                            <i className="bi bi-check"></i></span>
+                                        <span>Recharging refrigerant levels</span>
+                                    </li>
+                                    <li>
+                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                                            <i className="bi bi-check"></i></span>
+                                        <span>Cleaning or replacing the air filtes</span>
+                                    </li>
+                                    <li>
+                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                                            <i className="bi bi-check"></i></span>
+                                        <span>Checking and tightening electrical connections</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div className="col">
+                                <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
+                                    <li>
+                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                                            <i className="bi bi-check"></i></span>
+                                        <span>Regular maintenance</span>
+                                    </li>
+                                    <li>
+                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                                            <i className="bi bi-check"></i></span>
+                                        <span>Unclogging drain lines</span>
+                                    </li>
+                                    <li>
+                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                                            <i className="bi bi-check"></i></span>
+                                        <span>Inspecting and AC installation
+                                        </span>
+                                    </li>
+
+                                    <li>
+                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                                            <i className="bi bi-check"></i></span>
+                                        <span>Fixing leaks refrigerant, water, or duct leaks</span>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
                 </div>
             </div>
-          </div>
-          <section className="section">
-          <div className="container">
-            <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
-                  <WhatsappIconButton />
-                  <CallNowButton />
-                </div>
-              </div>
-          </div>
-        </section>
         </section>
         
+
          {/* The Benefits Of Regular AC Service*/}
          <BenefitAcMaintenance />
          {/* testimobial section */}
+         {/*Why Choose FAJ Technical Services LLC? */}
+         <section className="section cs_py_48 ">
+            <div className="container">
+                <h3 className="cs_fs_30">Why Choose FAJ Technical Services LLC?</h3>
+                <div className="row align-items-center">
+                    <div className="col-md-6">
+                        <h4 className="cs_fs_24">We provide quick, efficient service and peace of mind</h4>
+                        <ul className="acsvs-exp-spl-para tick-ul mb-0">
+                            <li><b>We get the job done on time</b> thanks to our larger team and dedicated parts warehouse</li>
+                            <li><b>All our AC technicians are fully qualified</b> and extensively trained by us to address all types of AC issues.</li>
+                            <li><b>We help prevent future breakdowns</b> by only using locally produced, highest quality refrigerant gas.</li>
+                            <li><b>From routine maintenance to complex repairs</b> we offers all type of AC repair and maintenance services.</li>
+                            <li><b>We only use genuine parts</b> to give you peace of mind.</li>
+                            <li><b>We give service warranty</b> to make sure you are relax.</li>
+                            <li><b>We look after the environment</b> by always recycling our gas.</li>
+                        </ul>
+                    </div>
+                    <div className="col-md-6 text-center text-md-end">
+                        <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance-in-Dubai.jpeg`} alt="Post Image" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        {/* Practical Tips to Improve Energy Efficiency */}
+        <section className="section cs_py_48 bg-dark-blue text-light">
+            <div className="container text-center">
+                <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
+                <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
+                <a
+                    href="files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
+                    className="btn-green-yellow"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Click Here to Save on Energy Bills
+                </a>
+
+            </div>
+        </section>
+
+        {/* cooling */}
+        <section className="section cs_py_48">
+            <div className="container text-center">
+                <div class="row">
+                    <div className="col-lg-4">
+                        <div className="acsvs-sec-prefoot-sec-cone">
+                            <h3 className="cs_fs_20 mb-0">COOLING &amp; HEATING</h3>
+                            <span className="mb-5">Stay comfortable all year round</span>
+                            <div className="mb-5"></div>
+                            <h3 className="cs_fs_20 mb-0">BETTER AIR QUALITY</h3>
+                            <span className="mb-5">Reduce humidity, pollen and dust</span>
+                        </div>
+                    </div>
+                    <div className="col-lg-4">
+                        <div className="acsvs-sec-prefoot-sec-ctwo">
+
+                            <img className="" src={`${import.meta.env.BASE_URL}/img/benafit-acimg.jpg`} alt="Post Image" />
+                        </div>
+                    </div>
+                    <div className="col-lg-4">
+                        <div className="acsvs-sec-prefoot-sec-cthree">
+                            <h3 className="cs_fs_20 mb-0">PROTECT YOUR PROPERTY</h3>
+                            <span className="mb-5">Prevent damage to electronics and furnishings</span>
+                            <div className="mb-5"></div>
+                            <h3 className="cs_fs_20 mb-0">QUIET AND SECURE</h3>
+                            <span className="mb-5">No need to leave windows open</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
           <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative" data-background={`${import.meta.env.BASE_URL}${bgImg}`}>
             <div className="cs_height_80 cs_height_lg_80"></div>
             <div className="container">
@@ -311,14 +497,9 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
               subtitle2="Contact us"
               title2="Book and Appointment"
           ></Serviceappointemnt>     
-        
-        </div>
-
-        
-      </div>      
-
-        
       
+        </div>
+      </div>      
     </>
   );
 };

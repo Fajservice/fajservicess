@@ -18,7 +18,7 @@ import parse from 'html-react-parser';
 
 const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
   subtitle="Testimonial"
-  title="What our clients say <br> About Us"
+  title="What our clients say About Us"
   bgImg="/img/testimonialbg.jpg"
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
@@ -74,8 +74,8 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>FAJ / AC Repair In Dubai - Freezer Service Appliances Fix</title>
-        <meta name="description" content="FAJ Established in 2010, / We offer professional AC Repair, Freezer, Refrigerator, Fridge, Washing Machine Maintenance Service Company Dubai"></meta>
+        <title>AC Service in Dubai - AC Repair & Maintenance Dubai</title>
+        <meta name="description"  content=" Get Same Day AC Service in Dubai, We specialize in home / office air conditioner ( AC ) repair and maintenance Dubai. Book +971 50 746 4712 for air con fix for air con fix"></meta>
       </HelmetProvider>
 
       <div className="cs_service_details">
@@ -367,7 +367,7 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
                   <li><b>We help prevent future breakdowns</b> by only using locally produced, highest quality refrigerant gas.</li>
                   <li><b>From routine maintenance to complex repairs</b> we offers all type of AC repair and maintenance services.</li>
                   <li><b>We only use genuine parts</b> to give you peace of mind.</li>
-                  <li><b>We give service and parts warranty</b> to make sure you are relax.</li>
+                  <li><b>We give service warranty</b> to make sure you are relax.</li>
                   <li><b>We look after the environment</b> by always recycling our gas.</li>
                 </ul>
               </div>
@@ -480,7 +480,7 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
             <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
             <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
             <a
-              href="public/files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
+              href="files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
               className="btn-green-yellow"
               target="_blank"
               rel="noopener noreferrer"
