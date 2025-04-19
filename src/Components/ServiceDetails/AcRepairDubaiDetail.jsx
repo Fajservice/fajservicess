@@ -118,7 +118,6 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
                 <p>When you realize your air conditioner isn't working well in the summer, it can be frustrating. Minor signs are often overlooked, but they can lead to major problems that require repairs, especially in Dubai's heat.</p>
                 <ul>
                   <li>Insufficient Cooling / AC blowing warm air</li>
-                  <li>Sudden increases in electricity Bills</li>
                   <li>Strange Noises Coming From The AC</li>
                   <li>Leaks of gas or water around your AC unit</li>
                 </ul>
@@ -161,6 +160,8 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
             <h3 class="cs_fs_30">5 Reasons Your AC Might Need Repairs This Summer </h3>
+            <p>Air conditioning issues are quite common during the summer months. If you're experiencing AC issues this season, it's important to understand what might be happening with your system. Identifying the problem early can prevent it from worsening and ensure your place remains comfortable during the heat. </p>
+
             
 
             <div className="row align-items-center">
@@ -168,7 +169,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/ac-repair-3.jpg`} alt="Post Image" />
               </div>
               <div className="col-md-6">
-              <p>Air conditioning issues are quite common during the summer months. If you're experiencing AC issues this season, it's important to understand what might be happening with your system. Identifying the problem early can prevent it from worsening and ensure your place remains comfortable during the heat. </p>
+              
                 <ul className="mb-0">
                   <li> <strong>Insufficient Cooling:</strong> May be due to a refrigerant leak, blocked filter, or compressor issues.</li>
                   <li> <strong>Strange Noises:</strong> Sounds like banging or hissing could indicate damaged parts.</li>
@@ -485,7 +486,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
                   <Link to="/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten/"><b>York AC Service and Repair</b></Link>: The York AC repair service ensures you don’t need to worry because you are in the right place. Yes, FAJ is where efficiency and reliability are prioritized.
                 </p>
                 <p className="mb-0">
-                  <Link to="/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con/"><b>Daikin Air Conditioner Repair</b></Link>:Trust our skilled team to efficiently resolve all issues with your Daikin air conditioner and restore its functionality.
+                  <Link to="/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con/"><b>Daikin Air Conditioner Repair</b></Link>: Trust our skilled team to efficiently resolve all issues with your Daikin air conditioner and restore its functionality.
                 </p>
                 <p className="mb-0">
                   <Link to="/trane-ac-repair-in-dubai-trane-ac-maintenance-in-dubai-trane-ac-fix-in-dubai-trane-ac-service-in-dubai-trane-air-condition-repair-in-dubai-trane-air-condition-maintenance-in-dubai-trane-air-condition/"><b>Trane HVAC Repair</b></Link>: With extensive knowledge of Trane air conditioning systems, we provide effective repairs to keep your unit running smoothly.
