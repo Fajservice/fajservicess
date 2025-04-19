@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../Data/FujitsuAcRepairfaq.json';
+import data from '../../Data/MideaAcRepairfaq.json';
 import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
@@ -8,12 +8,12 @@ import CallNowButton from '../Buttons/CallNowButton';
 import GetQuoteButton from "../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
-import testimonial_data_Fujitsu from '../../Data/FujitsuAcServiceTestimonials.json';
+import testimonial_data_Midea from '../../Data/MideaAcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 
-const FujitsuAcRepair = ({ subtitle, title, bgImg }) => {
+const MideaAcRepair = ({ subtitle, title, bgImg }) => {
   subtitle="Testimonial"
   title="What our clients say <br> About Us"
   bgImg="/img/testimonialbg.jpg"
@@ -66,8 +66,8 @@ const FujitsuAcRepair = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-      <title>Fujitsu Ac Repair in Dubai -  Air Conditioner Maintenance</title>
-      <meta name="description" content="Relax with Fujitsu AC. Call 0507464712 for Fujitsu Ac Repair in Dubai We are experts in HVAC, Central Air Conditioner maintenance service near me"/>
+      <title>Midea AC Repair in Dubai - AC Maintenance and Services</title>
+      <meta name="description" content="Get best Midea AC repair in Dubai. We are exprt in central split AC (Air Conditioning) Maintenance Services near me, Aircon cleaning."/>
       </HelmetProvider>
 
       <div className="cs_service_details">
@@ -77,7 +77,7 @@ const FujitsuAcRepair = ({ subtitle, title, bgImg }) => {
             <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
             <p>FAJ Technical Services LLC is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
               <br />
-              Our skilled AC technicians can handle all types and models of Fujitsu air conditioning units, ensuring your home or business stays cool and comfortable.</p>
+              Our skilled AC technicians can handle all types and models of Midea air conditioning units, ensuring your home or business stays cool and comfortable.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -93,14 +93,14 @@ const FujitsuAcRepair = ({ subtitle, title, bgImg }) => {
             <div className="container">
                 <div className="row g-5">
                     <div className="col-md-6">
-                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Fujitsu Ac Repair" />
-                        <h3 className="cs_fs_25 mb-1 mt-3">Best Fujitsu AC Repair in Dubai</h3>
-                        <p>When it comes to Fujitsu <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Dubai, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai//"><b>AC technician</b></Link> for your home or office.</p>
-                        <p>We specialize in Fujitsu air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
+                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Midea Ac Repair" />
+                        <h3 className="cs_fs_25 mb-1 mt-3">Best Midea AC Repair in Dubai</h3>
+                        <p>When it comes to Midea <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Dubai, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai//"><b>AC technician</b></Link> for your home or office.</p>
+                        <p>We specialize in Midea air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                     </div>
 
                     <div className="col-md-6 border-small-left">
-                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Fujitsu Ac Repair" />
+                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Midea Ac Repair" />
                         <h3 className="cs_fs_24 mb-1 mt-3">Signs You Need An AC Service</h3>
                         <p>If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                         <ul>
@@ -131,42 +131,25 @@ const FujitsuAcRepair = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-          <h3 class="cs_fs_30">Fujitsu Air Con Service Quality Workmanship </h3>
+          <h3 class="cs_fs_30">Signals Your Midea Splits Ducted Aircon Requires Repair</h3>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <p>Air conditioners that are people-friendly are environmentally friendly. And, Fujitsu air con is one of them. Central Fujitsu air conditioner is an intelligent choice when it comes to beating humidity and heat indoors. Just like every other aircon the requirement for Fujitsu air conditioner repair increases as well. Regular maintenance and servicing not only conserve electricity but also helps keep operating your Fujitsu air con for many years. Adequate routine maintenance helps to quickly diagnose the issues of your central AC and fix them before they turn into some huge problem.</p>
-                <h3 className="cs_fs_24">Error Codes- Fujitsu air conditioner repair</h3>
-                <p>When something goes awry the air con quickly displays that, these errors indicate the underlying problems with your air con. Whether it is split air conditioning or ceiling air con, they all show the error codes on the display. It is the job of experts solely to identify them and promptly fix them.</p>
-                <ul className="d-flex flex-wrap column-gap-4">
-                  <li>01</li>
-                  <li>02</li>
-                  <li>03</li>
-                  <li>04</li>
-                  <li>05</li>
-                  <li>06</li>
-                  <li>07</li>
-                  <li>08</li>
-                  <li>09</li>
-                  <li>OA</li>
-                  <li>OC</li>
-                  <li>OE</li>
-                  <li>11</li>
-                  <li>12</li>
-                  <li>13</li>
-                  <li>14</li>
-                  <li>15</li>
-                  <li>16</li>
-                  <li>17</li>
-                  <li>18</li>
-                  <li>19</li>
-                  <li>1A</li>
-                  <li>1B</li>
-                  <li>1C</li>
-                  <li>1D</li>
+                <p>There are many reasons which alarm you to get an experienced technician for fixing and repairing the issues.</p>
+                <ul className="d-flex flex-wrap column-gap-5">
+                  <li>Damaged or broken ductwork</li>
+                  <li>Zoning gates are stuck or jammed</li>
+                  <li>Blocked vents and ducts because of dirt and organic materials</li>
+                  <li>Insulation issues/problems</li>
+                  <li>Poor or unstable airflow in the home or office</li>
+                  <li>Bad odors from ducts</li>
                 </ul>
+                <p>Proper cleaning of ducts improves the airflow and prevents allergens from circulating in the whole home and keeps healthier living conditions.</p>
+                <h3 class="cs_fs_24">Midea AC HVAC Error Codes</h3>
+                <p className="mb-0">HVAC is a complete home comfort system that delivers quality cool air to all home, and business setups. Identification of error codes and their fixing is the job of an experienced team. Because every type and model of Midea AC might have different error codes and its fixing cannot be done by anyone. Some error codes are;</p>
+                <p><strong>Code:</strong> E1, E2, E3, E4, E5, E6, P0, P1, P2, P3, P4</p>
               </div>
               <div className="col-md-6 text-center text-md-end">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/fujitsu-ac-service.jpg`} alt="Fujitsu Ac Repair" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Midea-ac-maintenance.jpeg`} alt="Midea Ac Repair" />
                 
               </div>
             </div>
@@ -176,25 +159,16 @@ const FujitsuAcRepair = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_48 bg-dark-blue text-light">
           <div className="container">
             <div className="row">
+                <div className="col-md-6">
+                    <h3 class="cs_fs_24 text-light">Midea VRF</h3>
+                    <p>The VRF system is the energy-saving one and provides precise comfort to people. According to the space, the area installation of the VRF system is executed. The correct installation provides adequate cooling to commercial buildings. Quick fixing and regular maintenance are what make it run for decades. Midea ceiling cassette makes your day fresh and sleeps comfortably. Hence, accurate installation, preventive maintenance, and swift fixing make your Midea AC run smoothly and blow gentle cool air.</p>
+                </div>
+                <div className="col-md-6">
+                    <h3 class="cs_fs_24 text-light">Time To Consult With a Professional</h3>
+                    <p>A quick, wise approach always delivers the optimal outcome. FAJ Technical Services LLC takes confidence in providing reputable, exceptional services to its customers. We are the number 1 Midea AC service supplier across Dubai. No matter where you are in Dubai, just a single call can immediately bring comfort to your home.</p>    
+                </div>
                 <div className="col-md-12">
-                    <h3 class="cs_fs_24 text-light">Advantages Of Routine Fujitsu Air Conditioner Service</h3>
-                    <p>Though your inverter is functioning well and delivering satisfactory outcomes. However, with time it needs fixing and complete maintenance regularly. The longer you go without servicing your fujitsu air con the closer your A/c will get to the point where it shall halt functioning completely. On the contrary, if you give your air con optimum attention and care by getting maintained and serviced daily by an expert company. The results will be beyond your expectations and your inverter will take your side for decades. There are many pros of it here, we will discuss a couple of the most important ones;</p>
-                </div>
-                <div className="col-md-6">
-                    <h3 class="cs_fs_18 text-light">Accelerate Durability</h3>
-                    <p>One of the best benefits of getting proper maintenance of a fujitsu aircon is that your split aircon remains in top shape. This simply means, your air conditioner will not be affected due to any climate changes Furthermore, no fear of damaging and repairing. Servicing ensures that your air conditioner will continuously operate for years. In addition to it, optimal timely fujitsu air conditioner repair is essential to prevent any future large repairs. Always ensure that you have communicated with an experienced serviceman for exceptional maintenance regularly.</p>    
-                </div>
-                <div className="col-md-6">
-                    <h3 class="cs_fs_18 text-light">Lower Electric Bill</h3>
-                    <p>Having an air conditioner means more electricity bills and, without maintenance ends up increasing electricity bills pressure even more. Moreover, reduced efficiency because of lack of regular maintenance will cause your fujitsu split air conditioning to consume extra power. An ineffective Ac machine is an overworked piece of technology that leads to higher electric consumption. If you have a Fujitsu aircon and it is causing problems, then getting the excellent fujitsu air conditioner repair service can immediately lower your electricity bills.</p>
-                </div>
-                <div className="col-md-6">
-                    <h4 class="cs_fs_18 text-light">Minimum Repair Cost</h4>
-                    <p>Repairs attract more money depending upon the extent of damage primarily the expenses get high. Through minor weekly repairs, you will be able to protect your fujitsu HVAC air conditioning from lengthy repairs. Thus, this way your cooling system will be entirely rescued from any kind of damage. Likewise, scheduling regular maintenance of your AC will reduce the effect of wear and tear. Thus, significantly allowing each component of HVAC to run smoothly and swiftly.</p>
-                </div>
-                <div className="col-md-6">
-                    <h4 class="cs_fs_18 text-light">No Strange Smell From Aircon</h4>
-                    <p>Another significance of maintaining your centralized air conditioning is, it remains devoid of unpleasant odor. Yes, you read it right! Regular proper cleaning of air filters and evaporator coils keeps them clogged with dust, dirt, and debris. Moreover, no freezing up of the evaporator coil occurs when Ac is being serviced daily. Whether you have a fujitsu ducted system or central air conditioner you always want to achieve fresh, crisp, and cool air.</p>    
+                    <p>Our experienced and well-trained team examines any fault with your midea air con and explains the problem of your aircon. Then, promptly and diligently fix all issues. For installation of any type of air conditioner call us and our professionals will install it right away. We believe in reliability and unbeatable work and FAJ can not compromise with it therefore, we have gained an immense reputation among residents of Dubai. And are first to go for help”. Instead of being worried just contact us and get hassle-free immediate services.</p>    
                 </div>
             </div>
           </div>
@@ -203,10 +177,10 @@ const FujitsuAcRepair = ({ subtitle, title, bgImg }) => {
         
         <section className="section cs_py_48">
           <div className="container">
-          <h3 class="cs_fs_30">Get A Full Fledged Expert Service Of Fujitsu HVAC</h3>
+          <h3 class="cs_fs_30">Get A Full Fledged Expert Service Of Midea HVAC</h3>
             <div className="row align-items-center">
                 <div className="col-xl-6">
-                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/fujitsu-ac-repair.jpg`} alt="Fujitsu Ac Repair" />
+                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Midea-ac-repair.jpg`} alt="Midea Ac Repair" />
                 </div>
                 <div className="col-xl-6">
                   <p>While modern HVAC systems are manufactured to deliver year-long service. However, issues with air condition can and will arise. Here are some common problems which are faced by several homeowners, businesses, etc.</p>
@@ -214,12 +188,12 @@ const FujitsuAcRepair = ({ subtitle, title, bgImg }) => {
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
-                      <span><strong>Blown Is Fused:</strong> One reason your Fujitsu HVAC is not functioning is because of blown fuses. Fuses are mainly designed to protect the compressor and unit’s motor or ac engine from overheating. Due to that, the breaker gets flipped off which indicates a huge problem with your HVAC air con.</span>
+                      <span><strong>Blown Is Fused:</strong> One reason your Midea HVAC is not functioning is because of blown fuses. Fuses are mainly designed to protect the compressor and unit’s motor or ac engine from overheating. Due to that, the breaker gets flipped off which indicates a huge problem with your HVAC air con.</span>
                     </li>
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
-                      <span><strong>Unclean Air Filters:</strong> Dirty ac filters make your Fujitsu HVAC aircon to under-perform and eventually freeze. Air filters must be regularly changed otherwise, airflow can be decreased significantly. For exceptional services, FAJ is available on the other side of a single call. Don’t let your air condition issues disturb your comfort and your important work. Let us keep your air conditioning in optimal condition, and make sure you and your loved ones enjoy cool and fresh air.</span>
+                      <span><strong>Unclean Air Filters:</strong> Dirty ac filters make your Midea HVAC aircon to under-perform and eventually freeze. Air filters must be regularly changed otherwise, airflow can be decreased significantly. For exceptional services, FAJ is available on the other side of a single call. Don’t let your air condition issues disturb your comfort and your important work. Let us keep your air conditioning in optimal condition, and make sure you and your loved ones enjoy cool and fresh air.</span>
                     </li>
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
@@ -262,7 +236,7 @@ const FujitsuAcRepair = ({ subtitle, title, bgImg }) => {
                 data-add-slides="2" data-slides-per-view="responsive">
                 <div className="cs_slider_wrapper">
                   <Slider {...settings}>
-                    {testimonial_data_Fujitsu.map((item, index) => (
+                    {testimonial_data_Midea.map((item, index) => (
                       <div key={index} className="cs_slide wow fadeInLeft">
                         <div className="cs_testimonial cs_style_1 position-relative">
                           <div className="cs_testimonial_content cs_white_bg position-relative">
@@ -339,4 +313,4 @@ const FujitsuAcRepair = ({ subtitle, title, bgImg }) => {
   );
 };
 
-export default FujitsuAcRepair;
+export default MideaAcRepair;

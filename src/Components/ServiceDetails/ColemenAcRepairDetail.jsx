@@ -93,14 +93,14 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
             <div className="container">
                 <div className="row g-5">
                     <div className="col-md-6">
-                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
+                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Coleman Ac Repair" />
                         <h3 className="cs_fs_25 mb-1 mt-3">Best Coleman AC Repair in Dubai</h3>
                         <p>When it comes to Coleman <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Dubai, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai//"><b>AC technician</b></Link> for your home or office.</p>
                         <p>We specialize in Coleman air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                     </div>
 
                     <div className="col-md-6 border-small-left">
-                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" />
+                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Coleman Ac Repair" />
                         <h3 className="cs_fs_24 mb-1 mt-3">Signs You Need An AC Service</h3>
                         <p>If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                         <ul>
@@ -153,7 +153,7 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
                 <p>Only an expert technician can tell you the exact error code, what it means as well as how to overcome it. Moreover, contacting a specialized team of professionals will save your day, money, and effort. This spendy Colman split air con should only be in the hands of professionals because they know how to take care of it and repair it on time.</p>
               </div>
               <div className="col-md-6 text-center text-md-end">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Coleman Ac Repair" />
                 
               </div>
             </div>
@@ -175,7 +175,7 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
           <h3 class="cs_fs_30">Why FAJ?</h3>
             <div className="row align-items-center">
                 <div className="col-xl-6">
-                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Faj-for-speed.jpg`} alt="Post Image" />
+                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Faj-for-speed.jpg`} alt="Coleman Ac Repair" />
                 </div>
                 <div className="col-xl-6">
                   <p>FAJ is like no other, yes you read it right. People choose us for numerous reasons and that is why we have gained immense popularity in Dubai.</p>

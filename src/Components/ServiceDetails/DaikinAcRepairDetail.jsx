@@ -93,14 +93,14 @@ const DaikinAcRepair = ({ subtitle, title, bgImg }) => {
             <div className="container">
                 <div className="row g-5">
                     <div className="col-md-6">
-                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
+                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Daikin Ac Repair" />
                         <h3 className="cs_fs_25 mb-1 mt-3">Best Daikin AC Repair in Dubai</h3>
                         <p>When it comes to Daikin <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Dubai, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai//"><b>AC technician</b></Link> for your home or office.</p>
                         <p>We specialize in Daikin air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                     </div>
 
                     <div className="col-md-6 border-small-left">
-                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" />
+                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Daikin Ac Repair" />
                         <h3 className="cs_fs_24 mb-1 mt-3">Signs You Need An AC Service</h3>
                         <p>If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                         <ul>
@@ -138,7 +138,7 @@ const DaikinAcRepair = ({ subtitle, title, bgImg }) => {
                 <p>FAJ is working consistently since 2010 to make its customers satisfied and comfortable. Getting the best Daikin ac repair service in Dubai is not easy especially when you are in urgent need. Our superior workmanship is what makes us different from others. In the need of immediate help, we are present and we provide unbeatable service to our customers. With our regular maintenance service keep your Daikin air con running smoothly and swiftly. <br />Breathing fresh air is the right of everyone. Getting top-quality fresh air requires the best air con. Daikin can provide healthy air to its buyers. In Dubai, Daikin is the leading brand. So, if you have Daikin air conditioning at your home or office and looking for its repairs. Why not look for a top-quality service provider for a top ac brand? <br />FAJ Technical Services LLC is a top-notch company providing mind-blowing daikin ac repair in Dubai. We understand the necessity of properly functioning air. Our team of experienced technicians ensures to provide optimal performance of Daikin air con and an enjoyable indoor environment all year round.</p>
               </div>
               <div className="col-md-6 text-center text-md-end">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-service.jpg`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-service.jpg`} alt="Daikin Ac Repair" />
                 
               </div>
             </div>
@@ -186,7 +186,7 @@ const DaikinAcRepair = ({ subtitle, title, bgImg }) => {
           <h3 class="cs_fs_30">Get A Full Fledged Expert Service Of Daikin HVAC</h3>
             <div className="row align-items-center">
                 <div className="col-xl-6">
-                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-repair.jpg`} alt="Post Image" />
+                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-repair.jpg`} alt="Daikin Ac Repair" />
                 </div>
                 <div className="col-xl-6">
                   <p>While modern HVAC systems are manufactured to deliver year-long service. However, issues with air condition can and will arise. Here are some common problems which are faced by several homeowners, businesses, etc.</p>
