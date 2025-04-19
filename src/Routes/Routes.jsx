@@ -4,7 +4,6 @@ import {
 import Main from "../Layout/Main";
 import Home from "../Pages/Home";
 import AboutPage from "../Pages/AboutPage";
-import Layout2 from "../Layout/Layout2";
 import AcServiceInDubai from "../Pages/AcServiceInDubai";
 import AcMaintenanceDubai from "../Pages/AcMaintenanceDubai";
 import AcAnnualMaintenanceContract from "../Pages/AcAnnualMaintenanceContract";

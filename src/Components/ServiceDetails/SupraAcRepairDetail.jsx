@@ -5,13 +5,11 @@ import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import CallNowButton from '../Buttons/CallNowButton';
-import GetQuoteButton from "../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
 import testimonial_data_Supra from '../../Data/SupraAcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";
-import loadBackgroudImages from "../Common/loadBackgroudImages";
 
 const SupraAcRepair = ({ subtitle, title, bgImg }) => {
   subtitle="Testimonial"
@@ -342,7 +340,7 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
         
         <section className="section cs_py_48">
           <div className="container">
-          <h3 class="cs_fs_30">Our Services Include But Are Not Limited To the;</h3>
+          <h3 className="cs_fs_30">Our Services Include But Are Not Limited To the;</h3>
             <div className="row align-items-center">
                 <div className="col-xl-6">
                   <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/supra-ac-repair.jpg`} alt="Post Image" />
@@ -443,7 +441,7 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
         {/* cooling */}
         <section className="section cs_py_48">
             <div className="container text-center">
-                <div class="row">
+                <div className="row">
                     <div className="col-lg-4">
                         <div className="acsvs-sec-prefoot-sec-cone">
                             <h3 className="cs_fs_20 mb-0">COOLING &amp; HEATING</h3>
@@ -528,7 +526,7 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
 
         <div className="section cs_py_48  bg-dark-blue text-light">
           <div className="container">
-            <h3 class="cs_fs_30 text-light">FAQ's</h3>
+            <h3 className="cs_fs_30 text-light">FAQ's</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 

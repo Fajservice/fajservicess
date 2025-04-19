@@ -36,12 +36,12 @@ const AcRepairInJebelAliFreeZoneDetail = () => {
                         {/* <img src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
                         <h2 className="cs_fs_30">The FAJ experts can help you make your home or place of business more comfortable</h2>
                         <p>FAJ Technical Services LLC is your premier choice for quality AC Service In Dubai. With 14 years of experience in AC repairing, maintenance, and servicing, we are the most trusted air conditioning service company in Dubai, UAE.<br />FAJ is providing AC repair and maintenance services to all areas of Dubai. Our AC technicians are skilled and specialize in repairing all AC types, brands, and models. Experience reliable AC repair and maintenance to keep your home or business cool and comfortable.</p>
-                        <div id="get-quote" class=" mt-3">
-                            <div class="container d-flex justify-content-center align-items-center">
-                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
-                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
+                        <div id="get-quote" className=" mt-3">
+                            <div className="container d-flex justify-content-center align-items-center">
+                                <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                                <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
+                                <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                                <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
                             </div>
 
                         </div>
@@ -54,7 +54,7 @@ const AcRepairInJebelAliFreeZoneDetail = () => {
                         <div className="row align-items-center">
                             <div className="col-md-6">
 
-                                <h3 class="cs_fs_30">Best AC Repair in Jebel Ali Free Zone</h3>
+                                <h3 className="cs_fs_30">Best AC Repair in Jebel Ali Free Zone</h3>
                                 <p>When it comes to AC repair in Jebel Ali Free Zone, Dubai, it’s essential to hire professional and trustworthy AC technician for your home or business place.
 
                                     We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
@@ -76,7 +76,7 @@ const AcRepairInJebelAliFreeZoneDetail = () => {
                 {/* Signs You Need An AC Service */}
                 <section className="section cs_py_48 bg-light-gray">
                     <div className="container">
-                        <h3 class="cs_fs_30">Signs You Need An AC Service</h3>
+                        <h3 className="cs_fs_30">Signs You Need An AC Service</h3>
                         <div className="row align-items-center">
                             <div className="col-md-6">
                                 <img src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" />
@@ -100,12 +100,12 @@ const AcRepairInJebelAliFreeZoneDetail = () => {
                         <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.
                             For technical inspection / callout of AC cleaning service, repair, or maintenance, please click here.
                             To book an appointment, you can call +971 50 7464 712 or reach us on WhatsApp at +971 50 746 4712</p>
-                        <div id="get-quote" class="mb-3 mt-3">
-                            <div class="container d-flex justify-content-center align-items-center">
-                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
-                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
+                        <div id="get-quote" className="mb-3 mt-3">
+                            <div className="container d-flex justify-content-center align-items-center">
+                                <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                                <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
+                                <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                                <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
                             </div>
                         </div>
                     </div>
@@ -113,7 +113,7 @@ const AcRepairInJebelAliFreeZoneDetail = () => {
                 {/* Ready to Beat the Heat? Find the Best AC Repair in Dubai */}
                 <section className="section cs_py_48 bg-dark-blue text-light">
                     <div className="container">
-                        <h3 class="cs_fs_30 text-light">Ready to Beat the Heat? Find the Best AC Repair in Dubai</h3>
+                        <h3 className="cs_fs_30 text-light">Ready to Beat the Heat? Find the Best AC Repair in Dubai</h3>
                         <p>Ready to Beat the Heat? Look no further! Find the best AC Repair in Dubai and keep yourself cool all summer long. Our expert AC technicians ensure fast, reliable services to get your AC up and running.Our service guarantees a comfortable home or office environment, even during the scorching heat of Dubai. Plus, with our affordable rates and transparent pricing, you can trust that you're getting the best value for your money.Don't suffer through another day of sweltering temperatures. Click below to schedule your AC repair and maintenance now and experience instant relief! Stay cool, Dubai!</p>
                     </div>
                 </section>
@@ -126,16 +126,16 @@ const AcRepairInJebelAliFreeZoneDetail = () => {
                                 <img src={`${import.meta.env.BASE_URL}/img/Faj-for-speed.jpg`} alt="Post Image" />
                             </div>
                             <div className="col-xl-6">
-                                <h3 class="cs_fs_30">Choose FAJ for Speed, Efficiency and Peace of Mind</h3>
+                                <h3 className="cs_fs_30">Choose FAJ for Speed, Efficiency and Peace of Mind</h3>
                                 <p>When the temperature soars and you have air conditioner system faults, we are here to save your day. We have trained and professional technical teams to serve you..
                                     Routine inspections of your Air Condition Installation, AC repair Dubai, AC maintenance & repairs, fix service is extremely important to ensure your units efficiency, we are trained and qualified to maintain all type, makes, model and sizes Domestic Ac & Commercial air conditioner & Ventilation System in Dubai. FAJ, an AC Repair Dubai Company.
                                     When it comes to Air Conditioner installation service, You Only Want to Bring Professional, Trustworthy Servicemen into Your Home or Place of Business.</p>
-                                <div id="get-quote" class=" mt-4">
-                                    <div class="container d-flex justify-content-center align-items-center">
-                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
-                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
+                                <div id="get-quote" className=" mt-4">
+                                    <div className="container d-flex justify-content-center align-items-center">
+                                        <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                                        <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
+                                        <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                                        <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -240,7 +240,7 @@ const AcRepairInJebelAliFreeZoneDetail = () => {
                 {/* Ready to Beat the Heat? Find the Best AC Repair in Dubai */}
                 <section className="section cs_py_48 text-black">
                     <div className="container">
-                        <h3 class="cs_fs_30 text-black">Keep your home or Business Place Comfortable with Air Conditioning Cooling</h3>
+                        <h3 className="cs_fs_30 text-black">Keep your home or Business Place Comfortable with Air Conditioning Cooling</h3>
                         <p>We are expert in Central Ac | Ducted Split Ac Maintenance| HVAC | Package unit Ac | Centralize Ac | CHW FCU Fan Coil Unit Ac | Window Ac | Cassette Type Ac | Portable Ac | Wall Mounted Ac Maintenance | Split Ac Maintenance | Ceiling Ac Maintenance| VRV Variable Refrigerant Volume Ac | VRF Variable refrigerant flow Ac | Multi Split | AHU | FAHU</p>
                     </div>
                 </section>

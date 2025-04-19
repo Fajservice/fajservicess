@@ -4,7 +4,7 @@ const Serviceappointemnt = ({title2,subtitle2}) => {
     return (
         <section>
         <div className="container">
-        <h2 class="cs_section_title cs_fs_50 mb-0 wow flipInX mb-4">{title2}</h2>
+        <h2 className="cs_section_title cs_fs_50 mb-0 wow flipInX mb-4">{title2}</h2>
           <div className="row cs_gap_y_50 align-items-center">
             <div className="col-lg-6">
                 <div className="cs_navigation_map wow fadeInUp">

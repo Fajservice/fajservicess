@@ -5,13 +5,11 @@ import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import CallNowButton from '../Buttons/CallNowButton';
-import GetQuoteButton from "../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
 import testimonial_data_Westpoint from '../../Data/WestpointAcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";
-import loadBackgroudImages from "../Common/loadBackgroudImages";
 
 const WestpointAcRepair = ({ subtitle, title, bgImg }) => {
   subtitle="Testimonial"
@@ -131,7 +129,7 @@ const WestpointAcRepair = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-          <h3 class="cs_fs_30">Westpoint Air Con Service Quality Workmanship </h3>
+          <h3 className="cs_fs_30">Westpoint Air Con Service Quality Workmanship </h3>
             <div className="row align-items-center">
               <div className="col-md-6">
                 <p>Air conditioners that are people-friendly are environmentally friendly. And, Westpoint air con is one of them. Central Westpoint air conditioner is an intelligent choice when it comes to beating humidity and heat indoors. Just like every other aircon the requirement for Westpoint air conditioner repair increases as well. Regular maintenance and servicing not only conserve electricity but also helps keep operating your Westpoint air con for many years. Adequate routine maintenance helps to quickly diagnose the issues of your central AC and fix them before they turn into some huge problem.</p>
@@ -343,7 +341,7 @@ const WestpointAcRepair = ({ subtitle, title, bgImg }) => {
         </section>
         <section className="section cs_py_48">
           <div className="container">
-          <h3 class="cs_fs_30">Get A Full Fledged Expert Service Of Westpoint HVAC</h3>
+          <h3 className="cs_fs_30">Get A Full Fledged Expert Service Of Westpoint HVAC</h3>
             <div className="row align-items-center">
             <div className="col-xl-6">
                   <p>While modern HVAC systems are manufactured to deliver year-long service. However, issues with air condition can and will arise. Here are some common problems which are faced by several homeowners, businesses, etc.</p>
@@ -428,7 +426,7 @@ const WestpointAcRepair = ({ subtitle, title, bgImg }) => {
         {/* cooling */}
         <section className="section cs_py_48">
             <div className="container text-center">
-                <div class="row">
+                <div className="row">
                     <div className="col-lg-4">
                         <div className="acsvs-sec-prefoot-sec-cone">
                             <h3 className="cs_fs_20 mb-0">COOLING &amp; HEATING</h3>
@@ -512,7 +510,7 @@ const WestpointAcRepair = ({ subtitle, title, bgImg }) => {
 
         <div className="section cs_py_48  bg-dark-blue text-light">
           <div className="container">
-            <h3 class="cs_fs_30 text-light">FAQ's</h3>
+            <h3 className="cs_fs_30 text-light">FAQ's</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 

@@ -39,10 +39,10 @@ const WashingMachineRepairServiceDubaiDetails = () => {
               <img src={`${import.meta.env.BASE_URL}/img/Washing-Machine-Repair-in-Dubai.jpg`} alt="Service Banner" />
               <h1 className="cs_fs_36">Washing Machine Repair Near Me</h1>
                 <p>From noisy spin cycles to water leaks, no washing machine issue is too big or too small for us to handle. Whether you need repairs for a top-loading, front-loading, or compact washing machine, we've got the skills and expertise to fix your washing machine and get it run smoothly again. Looking for professional assistance with your washing machine in Dubai? Our certified experts at FAJ Technical Services LLC are specialized in washing machine repair, maintenance, and installation services throughout Dubai. Whether you're facing issues with a top-loading, front-loading, or compact washer, we are here to help you. From fixing common washing machine problems to handling emergency repairs, trust us to keep your washing machine running smoothly. Contact us now for reliable services at competitive prices!</p>
-                <div id="get-quote" class="mb-5 mt-3">
-                  <div class="container d-flex justify-content-center align-items-center">
-                    <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                    <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
+                <div id="get-quote" className="mb-5 mt-3">
+                  <div className="container d-flex justify-content-center align-items-center">
+                    <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                    <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
                   </div>
                 </div>
                 <div className="row">
@@ -60,10 +60,10 @@ const WashingMachineRepairServiceDubaiDetails = () => {
                   </div>
                 </div>
                 <p>Are you having issues with your washing machine? No need to worry! You’ve landed to the right place. Our skilled washing machine technicians at FAJ Technical Service L.L.C are expert in providing efficient washing machine repairing service in Dubai. We understand the essential role your washing machine plays in your daily life, and disruption a breakdown can cause. That’s why our professional repair services are geared towards getting your washing machine back up and running in no time. That’s why we offer professional repair services to fix your washing machine. Our expert technicians will arrive on time. We are just a phone call away! Contact us to schedule your appointment now!</p>
-                <div id="get-quote" class="mb-5 mt-3">
-                  <div class="container d-flex justify-content-center align-items-center">
-                    <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                    <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
+                <div id="get-quote" className="mb-5 mt-3">
+                  <div className="container d-flex justify-content-center align-items-center">
+                    <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                    <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
                   </div>
                 </div>
                 <h2>Washing Machine Repair Near Me</h2>
@@ -103,10 +103,10 @@ const WashingMachineRepairServiceDubaiDetails = () => {
                     </ul>
                   </div>
                 </div>
-                <div id="get-quote" class="mb-5 mt-3">
-                  <div class="container d-flex justify-content-center align-items-center">
-                    <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                    <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
+                <div id="get-quote" className="mb-5 mt-3">
+                  <div className="container d-flex justify-content-center align-items-center">
+                    <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                    <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
                   </div>
                 </div>
                   <p><a href="https://www.fajservices.ae/lg-fridge-repair-in-dubai-lg-washing-machine-repair-in-dubai-lg-cooker-repair-in-dubai-lg-oven-repair-in-dubai-lg-appliances-maintenance-in-dubai-lg-refrigerator-fix-repairs-service-in-dubai-lg-dishwa/"><strong>LG Washing Machine Repair</strong></a><strong>:</strong> FAJ is here to support you when things go wrong. We understand that your LG washing machine is essential for daily life,ensuring your laundry is clean and well-maintained.</p>
@@ -145,26 +145,26 @@ const WashingMachineRepairServiceDubaiDetails = () => {
                 <div className="cs_sidebar_widget cs_accent_bg_light position-relative">
                   <div className="cs_separator"></div>
                   <h3 className="cs_sidebar_title cs_fs_30 cs_mb_43">All Services</h3>
-                  <ul class="cs_categories cs_fs_16 cs_mb_20">
+                  <ul className="cs_categories cs_fs_16 cs_mb_20">
                     <li><a href="/ac-service-in-dubai">
                       <span>AC Service in Dubai</span>
-                      <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                      <span><i className="fa-solid fa-arrow-right-long"></i></span>
                     </a></li>
                     <li><a href="/ac-service-in-dubai">
                       <span>Refrigerator Repair</span>
-                      <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                      <span><i className="fa-solid fa-arrow-right-long"></i></span>
                     </a></li>
                     <li><a href="/ac-service-in-dubai">
                       <span>BBQ Service &amp; Repair</span>
-                      <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                      <span><i className="fa-solid fa-arrow-right-long"></i></span>
                     </a></li>
                     <li><a href="/ac-service-in-dubai">
                       <span>Coffee Machine Repair</span>
-                      <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                      <span><i className="fa-solid fa-arrow-right-long"></i></span>
                     </a></li>
                     <li><a href="/ac-service-in-dubai">
                       <span>Vacuum Cleaner Repair</span>
-                      <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                      <span><i className="fa-solid fa-arrow-right-long"></i></span>
                     </a></li>
                   </ul>
                 </div>

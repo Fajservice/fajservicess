@@ -5,13 +5,11 @@ import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import CallNowButton from '../Buttons/CallNowButton';
-import GetQuoteButton from "../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
 import testimonial_data_Midea from '../../Data/MideaAcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";
-import loadBackgroudImages from "../Common/loadBackgroudImages";
 
 const MideaAcRepair = ({ subtitle, title, bgImg }) => {
   subtitle="Testimonial"
@@ -131,7 +129,7 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-          <h3 class="cs_fs_30">Signals Your Midea Splits Ducted Aircon Requires Repair</h3>
+          <h3 className="cs_fs_30">Signals Your Midea Splits Ducted Aircon Requires Repair</h3>
             <div className="row align-items-center">
               <div className="col-md-6">
                 <p>There are many reasons which alarm you to get an experienced technician for fixing and repairing the issues.</p>
@@ -144,7 +142,7 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
                   <li>Bad odors from ducts</li>
                 </ul>
                 <p>Proper cleaning of ducts improves the airflow and prevents allergens from circulating in the whole home and keeps healthier living conditions.</p>
-                <h3 class="cs_fs_24">Midea AC HVAC Error Codes</h3>
+                <h3 className="cs_fs_24">Midea AC HVAC Error Codes</h3>
                 <p className="mb-0">HVAC is a complete home comfort system that delivers quality cool air to all home, and business setups. Identification of error codes and their fixing is the job of an experienced team. Because every type and model of Midea AC might have different error codes and its fixing cannot be done by anyone. Some error codes are;</p>
                 <p><strong>Code:</strong> E1, E2, E3, E4, E5, E6, P0, P1, P2, P3, P4</p>
               </div>
@@ -331,11 +329,11 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row">
                 <div className="col-md-6">
-                    <h3 class="cs_fs_24 text-light">Midea VRF</h3>
+                    <h3 className="cs_fs_24 text-light">Midea VRF</h3>
                     <p>The VRF system is the energy-saving one and provides precise comfort to people. According to the space, the area installation of the VRF system is executed. The correct installation provides adequate cooling to commercial buildings. Quick fixing and regular maintenance are what make it run for decades. Midea ceiling cassette makes your day fresh and sleeps comfortably. Hence, accurate installation, preventive maintenance, and swift fixing make your Midea AC run smoothly and blow gentle cool air.</p>
                 </div>
                 <div className="col-md-6">
-                    <h3 class="cs_fs_24 text-light">Time To Consult With a Professional</h3>
+                    <h3 className="cs_fs_24 text-light">Time To Consult With a Professional</h3>
                     <p>A quick, wise approach always delivers the optimal outcome. FAJ Technical Services LLC takes confidence in providing reputable, exceptional services to its customers. We are the number 1 Midea AC service supplier across Dubai. No matter where you are in Dubai, just a single call can immediately bring comfort to your home.</p>    
                 </div>
                 <div className="col-md-12">
@@ -348,7 +346,7 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
         
         <section className="section cs_py_48">
           <div className="container">
-          <h3 class="cs_fs_30">Get A Full Fledged Expert Service Of Midea HVAC</h3>
+          <h3 className="cs_fs_30">Get A Full Fledged Expert Service Of Midea HVAC</h3>
             <div className="row align-items-center">
                 <div className="col-xl-6">
                   <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Midea-ac-repair.jpg`} alt="Midea Ac Repair" />
@@ -434,7 +432,7 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
         {/* cooling */}
         <section className="section cs_py_48">
             <div className="container text-center">
-                <div class="row">
+                <div className="row">
                     <div className="col-lg-4">
                         <div className="acsvs-sec-prefoot-sec-cone">
                             <h3 className="cs_fs_20 mb-0">COOLING &amp; HEATING</h3>
@@ -518,7 +516,7 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
                       
         <div className="section cs_py_48  bg-dark-blue text-light">
           <div className="container">
-            <h3 class="cs_fs_30 text-light">FAQ's</h3>
+            <h3 className="cs_fs_30 text-light">FAQ's</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 

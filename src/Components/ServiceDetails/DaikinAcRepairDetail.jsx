@@ -131,7 +131,7 @@ const DaikinAcRepair = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-          <h3 class="cs_fs_30">Daikin Air Con Service Quality Workmanship </h3>
+          <h3 className="cs_fs_30">Daikin Air Con Service Quality Workmanship </h3>
             <div className="row align-items-center">
               <div className="col-md-6">
                 
@@ -320,31 +320,31 @@ const DaikinAcRepair = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row">
                 <div className="col-md-6">
-                    <h3 class="cs_fs_24 text-light">Exceptional Repairing Of Daikin Centralized Air Conditioning (Air Con)</h3>
+                    <h3 className="cs_fs_24 text-light">Exceptional Repairing Of Daikin Centralized Air Conditioning (Air Con)</h3>
                     <p>To provide more comfort to you, potential and timely repair is indispensable. After proper repair, your air con offers great cooling performance. Regular maintenance of your centralized ac extends its lifetime and improves functions. Not many offer Daikin ac repair in Dubai. However, FAJ is unique and experienced in providing exceptional service, maintenance, and fixing of your aircon. Get instant access to a potentially trained, highly skilled professional for optimal and fast air condition repairing.</p>
                 </div>
                 <div className="col-md-6">
-                    <h3 class="cs_fs_24 text-light">Cost Effective VRV Installation And Operation (Daikin Aircon) AC</h3>
+                    <h3 className="cs_fs_24 text-light">Cost Effective VRV Installation And Operation (Daikin Aircon) AC</h3>
                     <p>VRV Daikin air conditioning is called ideal for small and large spaces. It is the most advanced air system worldwide and popular as well. It is significantly equipped with modern technology and, results in energy efficiency. To install this daikin VRV ac an exceptionally trained team is required. To get the advantage of better comfort and a sustainable cooled environment accurate installation and operation is a key.</p>    
                 </div>
                 <div className="col-md-12">
-                    <h3 class="cs_fs_24 text-light">Different Models Of Daikin Ducted Aircon</h3>
+                    <h3 className="cs_fs_24 text-light">Different Models Of Daikin Ducted Aircon</h3>
                     <p>Several types/ models of Daikin ducted ac are available in the market. Choosing the best one which is suitable for your house or office is an art. Expert advice clears all doubts and helps you to get the right aircon for your place.</p>
                 </div>
                 <div className="col-md-6">
-                    <h4 class="cs_fs_18 text-light">Inverter Daikin Ducted</h4>
+                    <h4 className="cs_fs_18 text-light">Inverter Daikin Ducted</h4>
                     <p>This type of air conditioner has an efficient and compact design. This one is ideal to install in the tight roof space of the modern home.</p>
                 </div>
                 <div className="col-md-6">
-                    <h4 class="cs_fs_18 text-light">Premium Inverter Ducted</h4>
+                    <h4 className="cs_fs_18 text-light">Premium Inverter Ducted</h4>
                     <p>This ducted air con has remarkable energy performance and the ability to perform functions quite innovatively. We are skilled enough in installing, repairing, fixing, and maintenance of these kinds of air conditioners.</p>    
                 </div>
                 <div className="col-md-6">
-                    <h4 class="cs_fs_18 text-light">Bulkhead System</h4>
+                    <h4 className="cs_fs_18 text-light">Bulkhead System</h4>
                     <p>This model is best for drop ceilings and shallow ceilings. Optimal for bedroom air conditioning and ideal where discreet installation is a preference.</p>
                 </div>
                 <div className="col-md-6">
-                    <h4 class="cs_fs_18 text-light">Slimline Ducted</h4>
+                    <h4 className="cs_fs_18 text-light">Slimline Ducted</h4>
                     <p>It has freedom of design and unparalleled flexibility. FAJ is the most reliable and ideal one for installing and maintenance of these ac machines.</p>    
                 </div>
             </div>
@@ -354,7 +354,7 @@ const DaikinAcRepair = ({ subtitle, title, bgImg }) => {
         
         <section className="section cs_py_48">
           <div className="container">
-          <h3 class="cs_fs_30">Get A Full Fledged Expert Service Of Daikin HVAC</h3>
+          <h3 className="cs_fs_30">Get A Full Fledged Expert Service Of Daikin HVAC</h3>
             <div className="row align-items-center">
                 <div className="col-xl-6">
                   <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-repair.jpg`} alt="Daikin Ac Repair" />
@@ -438,7 +438,7 @@ const DaikinAcRepair = ({ subtitle, title, bgImg }) => {
         {/* cooling */}
         <section className="section cs_py_48">
             <div className="container text-center">
-                <div class="row">
+                <div className="row">
                     <div className="col-lg-4">
                         <div className="acsvs-sec-prefoot-sec-cone">
                             <h3 className="cs_fs_20 mb-0">COOLING &amp; HEATING</h3>
@@ -522,7 +522,7 @@ const DaikinAcRepair = ({ subtitle, title, bgImg }) => {
 
         <div className="section cs_py_48  bg-dark-blue text-light">
           <div className="container">
-            <h3 class="cs_fs_30 text-light">FAQ's</h3>
+            <h3 className="cs_fs_30 text-light">FAQ's</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 
