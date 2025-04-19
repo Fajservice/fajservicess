@@ -363,7 +363,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
                   <span>&nbsp;-&nbsp;</span>
                   <Link to="/daewoo-ac-repair-in-dubai-daewoo-ac-maintenance-in-dubai-daewoo-ac-fix-in-dubai-daewoo-ac-service-in-dubai-daewoo-air-condition-repair-in-dubai-daewoo-air-condition-maintenance-in-dubai-daewoo-air-con/">Daewoo AC Maintenance Dubai</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="#">Carrier AC Repair</Link>
+                  <Link to="#">Carrier AC Maintenance</Link>
                   <span>&nbsp;-&nbsp;</span>
                   <Link to="/midea-ac-installation-maintenance-repair-fix-service-in-dubai/">Midea Air Conditioner Maintenance Service Near Me</Link>
                   <span>&nbsp;-&nbsp;</span>
