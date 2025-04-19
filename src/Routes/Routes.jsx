@@ -4,7 +4,6 @@ import {
 import Main from "../Layout/Main";
 import Home from "../Pages/Home";
 import AboutPage from "../Pages/AboutPage";
-import Layout2 from "../Layout/Layout2";
 import AcServiceInDubai from "../Pages/AcServiceInDubai";
 import AcMaintenanceDubai from "../Pages/AcMaintenanceDubai";
 import AcAnnualMaintenanceContract from "../Pages/AcAnnualMaintenanceContract";
@@ -31,6 +30,16 @@ import YorkAcRepair from "../Pages/YorkAcRepair";
 import SupraAcRepair from "../Pages/SupraAcRepair";
 import DaikinAcRepair from "../Pages/DaikinAcRepair";
 import FujitsuAcRepair from "../Pages/FujitsuAcRepair";
+import AcRepairInArabianRanches2 from "../Pages/AcRepairInArabianRanches2";
+import AcRepairInLimestoneHouseDifc from "../Pages/AcRepairInLimestoneHouseDifc";
+import AcRepairInAcademyCity from "../Pages/AcRepairInAcademyCity";
+import AcRepairinAlTawar from "../Pages/AcRepairinAlTawar";
+import AcRepairinAlJafiliya from "../Pages/AcRepairinAlJafiliya";
+import AcRepairinTheGreens from "../Pages/AcRepairinTheGreens";
+import AcRepairInUmmAlSheif from "../Pages/AcRepairInUmmAlSheif";
+import AcRepairInTheMeadows from "../Pages/AcRepairInTheMeadows";
+import MideaAcRepair from "../Pages/MideaAcRepair";
+import WestpointAcRepair from "../Pages/WestpointAcRepair";
 export const router = createHashRouter([
   {
     path: "/",
@@ -166,6 +175,10 @@ export const router = createHashRouter([
         element: <AcRepairinTheGreens/>,
       },
       {
+        path: "/ac-services-in-the-greens/",
+        element: <AcRepairInTheMeadows/>,
+      },
+      {
         path: "/ac-services-in-al-jafiliya/",
         element: <AcRepairinAlJafiliya/>,
       },
@@ -183,7 +196,7 @@ export const router = createHashRouter([
       },
       {
         path: "/ac-services-in-jumeirah-village-triangle/",
-        element: <AcRepairInJumeriahVillageTriangle/>,
+        element: <AcRepairInJumeirahVillage/>,
       },
       {
         path: "/ac-services-in-arabian-ranches-2/",
