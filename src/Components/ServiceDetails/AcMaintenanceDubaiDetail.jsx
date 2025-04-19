@@ -149,17 +149,30 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
         {/* Expert Air Conditioning Maintenance in Dubai to Keep You Cool */}
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-            <h3 class="cs_fs_30">Expert Air Conditioning Maintenance in Dubai to Keep You Cool</h3>
+            <h3 class="cs_fs_30">Why Do You Need Regular AC Maintenance in Dubai?</h3>
+            <p>
+                There are numerous reasons why maintaining and repairing air conditioners in Dubai is essential. Some common AC problems are simple to fix, and regular maintenance can offer great benefits:
+                </p>
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance-in-Dubai.jpeg`} alt="Post Image" />
               </div>
               <div className="col-md-6">
-                <p>
-                  Regular air conditioning maintenance in Dubai is essential to ensure your unit operates efficiently. Over time, filters and coils can accumulate dirt and become clogged, which not only diminishes the cooling performance of your AC but can also lead to issues such as water leakage from the indoor unit and unpleasant odors.
+              <ul className="mb-0">
+                  <li> <strong> Extreme Weather:</strong> Experiences high temperatures over 40°C (104°F) in summer. Regular maintenance keeps air conditioning systems efficient during these conditions.</li>
 
-                  What’s the solution? If you’re searching for a reliable <Link to="/ac-annual-maintenance-contract/">AC maintenance</Link> company in Dubai to care for your home or office air conditioning needs, look no further. Simply schedule routine AC maintenance with FAJ. Our company, based in Dubai, can handle any air conditioner repair job. With 17 years of experience, we possess the expertise to address all types and brands of <Link to="/blog/10-common-ac-problems-and-how-to-fix-them/">air conditioning issues</Link>. From common problems like refrigerant leaks and electrical control failures to more complex issues such as faulty AC PCBs, motors, thermal sensors, and compressor breakdowns, we know how to resolve them all to ensure optimal cooling performance!
-                </p>
+                  <li> <strong> Energy Efficiency:</strong> A well-maintained AC unit operates more efficiently, using less energy and lowering both electricity bills. </li>
+
+                  <li> <strong> Longevity of Equipment:</strong>  Regular maintenance can extend your air conditioning system’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
+
+
+                  <li> <strong>Improved Air Quality:</strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
+
+                  <li> <strong>Prevention of Breakdowns:</strong> Proactive maintenance catches minor issues early, preventing costly repairs and unexpected AC failures</li>
+
+                  <li> <strong> Enhanced Comfort:</strong> Regular servicing of your AC system ensures consistent temperatures, which is vital for comfort in hot climates. In a city like Dubai, investing in AC maintenance is essential for both comfort and efficiency in daily life.</li>
+
+                </ul>
                 
               </div>
             </div>
@@ -269,26 +282,79 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* Why do you need Regular AC Maintenance Dubai?*/}
+        {/* A Quick Guide to Understanding and Fixing Your AC Problems*/}
         <section className="section cs_py_48 bg-light-gray">
-          <div className="container">
-            <h3 className="cs_fs_30">Why do you need Regular AC Maintenance Dubai?</h3>
-            <div className="row">
-              <div className="col-xl-6">
-                <iframe className="bordered-img blue-border" width="100%" height="350" src="https://www.youtube.com/embed/sxBhB1_gxYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+        <div className="container">
+          <h3 className="cs_fs_30">A Quick Guide to Understanding and Fixing Your AC Problems</h3>
+          <div className="row">
+            <div className="col-xl-6">
+              <iframe className="bordered-img blue-border" width="100%" height="350" src="https://www.youtube.com/embed/sxBhB1_gxYA?si=96yf5hxyAA3bct8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+            </div>
+            <div className="col-xl-6">
+              <p>Take a look at this video to understand the possible problems your AC might face. This will help you to ensure that the professionals you hire are completing the right checks.</p>
+              <p><strong>We specialize in:</strong></p>
+              <div className="row">
+                <div className="col">
+                  <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
+                    <li>
+                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                        <i className="bi bi-check"></i></span>
+                      <span>Cleaning or replacing the air filter</span>
+                    </li>
+                    <li>
+                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                        <i className="bi bi-check"></i></span>
+                      <span>Recharging refrigerant levels</span>
+                    </li>
+                    <li>
+                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                        <i className="bi bi-check"></i></span>
+                      <span>Checking and tightening electrical connections</span>
+                    </li>
+                    <li>
+                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                        <i className="bi bi-check"></i></span>
+                      <span>Ac coil cleaning</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="col">
+                  <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
+                  <li>
+                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                        <i className="bi bi-check"></i></span>
+                      <span>Unclogging drain lines</span>
+                    </li>
+
+                    <li>
+                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                        <i className="bi bi-check"></i></span>
+                      <span>Inspecting and repairing ductwork</span>
+                    </li>
+
+                    <li>
+                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                        <i className="bi bi-check"></i></span>
+                      <span>Fixing leaks refrigerant, water, or duct leaks</span>
+                    </li>
+                    
+                    <li>
+                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                        <i className="bi bi-check"></i></span>
+                      <span>Regular maintenance</span>
+                    </li>
+                    
+                    
+
+                  </ul>
+                </div>
+
               </div>
-              <div className="col-xl-6">
-                <p>There are numerous reasons why <strong>AC maintaining Dubai</strong> and repairing air conditioners are worthwhile. Some of the most common air conditioning problems are simple to fix. And maintaining them can provide you with good advantages.</p>
-                <p>When your air conditioner is working properly, it can quickly change the temperature of your room. That means you won’t have to wait as long after turning it on to get your home to the proper temperature.
-                  <br />
-                  Particularly on hot days, your air conditioner will be able to protect your room from the outside heat. When your air con uses less energy, your home’s total energy consumption decreases. Many people underestimate the amount of energy that an air conditioner can consume. In fact, in many homes, the air conditioning system is responsible for half of total household energy consumption.
-                  <br />
-                  And in a hot location, that figure can be even higher. So, you don’t need to compromise on AC maintenance. Before any major fault, you need to contact a professional 
-                  <strong>AC maintenance service in Dubai</strong> like <a href="https://www.google.com/maps/place/FAJ+Technical+Services+L.L.C+-+Warehouse+No+-+S-02+Gate+35+Street+18b+-+Al+Quoz+-+Al+Quoz+Industrial+Area+4+-+Dubai+-+United+Arab+Emirates/data=!4m2!3m1!1s0x3e5f699a600aceeb:0xa6121b25d557aa94?utm_source=mstt_1&entry=gps&lucs=47068615&g_ep=CAESCTExLjkxLjMwMhgAINeCAyoINDcwNjg2MTVCAlBL" target="_blank"> FAJ Technical Services LLC</a>.
-                </p>
-              </div>
+
             </div>
           </div>
+        </div>
         </section>
 
         {/* The Benefits Of Regular AC Service*/}
