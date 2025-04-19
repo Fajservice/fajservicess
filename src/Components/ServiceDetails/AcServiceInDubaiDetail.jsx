@@ -74,8 +74,8 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>FAJ / AC Repair In Dubai - Freezer Service Appliances Fix</title>
-        <meta name="description" content="FAJ Established in 2010, / We offer professional AC Repair, Freezer, Refrigerator, Fridge, Washing Machine Maintenance Service Company Dubai"></meta>
+        <title>AC Service in Dubai - AC Repair & Maintenance Dubai</title>
+        <meta name="description"  content=" Get Same Day AC Service in Dubai, We specialize in home / office air conditioner ( AC ) repair and maintenance Dubai. Book +971 50 746 4712 for air con fix for air con fix"></meta>
       </HelmetProvider>
 
       <div className="cs_service_details">
