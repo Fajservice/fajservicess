@@ -66,8 +66,8 @@ const WestpointAcRepair = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-      <title>Westpoint Ac Repair in Dubai -  Air Conditioner Maintenance</title>
-      <meta name="description" content="Relax with Westpoint AC. Call 0507464712 for Westpoint Ac Repair in Dubai We are experts in HVAC, Central Air Conditioner maintenance service near me"/>
+      <title>Westpoint AC Repair in Dubai - Air Conditioner Service Near</title>
+      <meta name="description" content="Are You Looking for Westpoint AC repair in Dubai? We are experts in split air conditioner maintenance and service near me Dubai Call 04330 0002"/>
       </HelmetProvider>
 
       <div className="cs_service_details">
