@@ -33,6 +33,7 @@ import DaikinAcRepair from "../Pages/DaikinAcRepair";
 import FujitsuAcRepair from "../Pages/FujitsuAcRepair";
 import MideaAcRepair from "../Pages/MideaAcRepair";
 import WestpointAcRepair from "../Pages/WestpointAcRepair";
+import CoolineAcRepair from "../Pages/CoolineAcRepair";
 export const router = createHashRouter([
   {
     path: "/",
@@ -98,6 +99,10 @@ export const router = createHashRouter([
       {
         path: "/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con/",
         element: <DaikinAcRepair />,
+      },
+      {
+        path: "/cooline-ac-repair-in-dubai-cooline-ac-maintenance-in-dubai-cooline-ac-fix-in-dubai-cooline-ac-service-in-dubai-cooline-air-condition-repair-in-dubai-cooline-air-condition-maintenance-in-dubai-cooline/",
+        element: <CoolineAcRepair />,
       },
       {
         path: "/westpoint-ac-repair-in-dubai-westpoint-ac-maintenance-in-dubai-westpoint-ac-fix-in-dubai-westpoint-ac-service-in-dubai-west-point-air-condition-repair-in-dubai-west-point-air-condition-maintenance-in/",
