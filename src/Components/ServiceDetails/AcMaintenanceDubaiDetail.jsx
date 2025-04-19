@@ -151,29 +151,28 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <h3 class="cs_fs_30">Why Do You Need Regular AC Maintenance in Dubai?</h3>
             <p>
-                There are numerous reasons why maintaining and repairing air conditioners in Dubai is essential. Some common AC problems are simple to fix, and regular maintenance can offer great benefits:
-                </p>
+              There are numerous reasons why maintaining and repairing air conditioners in Dubai is essential. Some common AC problems are simple to fix, and regular maintenance can offer great benefits:
+            </p>
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance-in-Dubai.jpeg`} alt="Post Image" />
               </div>
               <div className="col-md-6">
-              <ul className="mb-0">
-                  <li> <strong> Extreme Weather:</strong> Experiences high temperatures over 40°C (104°F) in summer. Regular maintenance keeps air conditioning systems efficient during these conditions.</li>
+                <ul className="mb-0">
+                  <li> <strong>Improved Cooling Efficiency: </strong> A well-maintained AC cools your room faster, ensuring comfort without long waiting times. </li>
+                  <li> <strong>Better Protection from Heat: </strong> Especially during Dubai’s extreme summer, your AC can effectively block outside heat with regular servicing. </li>
+                  <li> <strong>Reduced Energy Consumption: </strong> A clean and properly functioning AC uses less energy, lowering your electricity bills. </li>
+                  <li> <strong>Lower Environmental Impact: </strong> Reduced energy use means less environmental strain—especially important in high-usage areas like Dubai. </li>
+                  <li> <strong>Avoids Major Breakdowns: </strong> Routine checks help spot and resolve minor issues before they turn into expensive repairs. </li>
+                  <li> <strong>Extends Unit Life: </strong> Preventive maintenance increases the lifespan of your AC system, saving money in the long term. </li>
+                  <li> <strong>Keeps Indoor Air Quality Healthy: </strong> Clean filters and components reduce dust, allergens, and pollutants in your home. </li>
 
-                  <li> <strong> Energy Efficiency:</strong> A well-maintained AC unit operates more efficiently, using less energy and lowering both electricity bills. </li>
-
-                  <li> <strong> Longevity of Equipment:</strong>  Regular maintenance can extend your air conditioning system’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
 
 
-                  <li> <strong>Improved Air Quality:</strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
 
-                  <li> <strong>Prevention of Breakdowns:</strong> Proactive maintenance catches minor issues early, preventing costly repairs and unexpected AC failures</li>
-
-                  <li> <strong> Enhanced Comfort:</strong> Regular servicing of your AC system ensures consistent temperatures, which is vital for comfort in hot climates. In a city like Dubai, investing in AC maintenance is essential for both comfort and efficiency in daily life.</li>
 
                 </ul>
-                
+
               </div>
             </div>
           </div>
@@ -284,77 +283,77 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
 
         {/* A Quick Guide to Understanding and Fixing Your AC Problems*/}
         <section className="section cs_py_48 bg-light-gray">
-        <div className="container">
-          <h3 className="cs_fs_30">A Quick Guide to Understanding and Fixing Your AC Problems</h3>
-          <div className="row">
-            <div className="col-xl-6">
-              <iframe className="bordered-img blue-border" width="100%" height="350" src="https://www.youtube.com/embed/sxBhB1_gxYA?si=96yf5hxyAA3bct8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
-            </div>
-            <div className="col-xl-6">
-              <p>Take a look at this video to understand the possible problems your AC might face. This will help you to ensure that the professionals you hire are completing the right checks.</p>
-              <p><strong>We specialize in:</strong></p>
-              <div className="row">
-                <div className="col">
-                  <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>Cleaning or replacing the air filter</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>Recharging refrigerant levels</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>Checking and tightening electrical connections</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>Ac coil cleaning</span>
-                    </li>
-                  </ul>
-                </div>
+          <div className="container">
+            <h3 className="cs_fs_30">A Quick Guide to Understanding and Fixing Your AC Problems</h3>
+            <div className="row">
+              <div className="col-xl-6">
+                <iframe className="bordered-img blue-border" width="100%" height="350" src="https://www.youtube.com/embed/sxBhB1_gxYA?si=96yf5hxyAA3bct8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+              </div>
+              <div className="col-xl-6">
+                <p>Take a look at this video to understand the possible problems your AC might face. This will help you to ensure that the professionals you hire are completing the right checks.</p>
+                <p><strong>We specialize in:</strong></p>
+                <div className="row">
+                  <div className="col">
+                    <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
+                      <li>
+                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                          <i className="bi bi-check"></i></span>
+                        <span>Cleaning or replacing the air filter</span>
+                      </li>
+                      <li>
+                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                          <i className="bi bi-check"></i></span>
+                        <span>Recharging refrigerant levels</span>
+                      </li>
+                      <li>
+                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                          <i className="bi bi-check"></i></span>
+                        <span>Checking and tightening electrical connections</span>
+                      </li>
+                      <li>
+                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                          <i className="bi bi-check"></i></span>
+                        <span>Ac coil cleaning</span>
+                      </li>
+                    </ul>
+                  </div>
 
-                <div className="col">
-                  <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
-                  <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>Unclogging drain lines</span>
-                    </li>
+                  <div className="col">
+                    <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
+                      <li>
+                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                          <i className="bi bi-check"></i></span>
+                        <span>Unclogging drain lines</span>
+                      </li>
 
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>Inspecting and repairing ductwork</span>
-                    </li>
+                      <li>
+                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                          <i className="bi bi-check"></i></span>
+                        <span>Inspecting and repairing ductwork</span>
+                      </li>
 
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>Fixing leaks refrigerant, water, or duct leaks</span>
-                    </li>
-                    
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>Regular maintenance</span>
-                    </li>
-                    
-                    
+                      <li>
+                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                          <i className="bi bi-check"></i></span>
+                        <span>Fixing leaks refrigerant, water, or duct leaks</span>
+                      </li>
 
-                  </ul>
+                      <li>
+                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                          <i className="bi bi-check"></i></span>
+                        <span>Regular maintenance</span>
+                      </li>
+
+
+
+                    </ul>
+                  </div>
+
                 </div>
 
               </div>
-
             </div>
           </div>
-        </div>
         </section>
 
         {/* The Benefits Of Regular AC Service*/}
@@ -389,7 +388,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
             <h3>We specialise in air conditioning maintenance services for the following brands.
-</h3>
+            </h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0">
