@@ -358,7 +358,7 @@ const AcRepairInRitzDetail = () => {
                                 <p className="mb-0">
                                     <Link to="/sanyo-ac-repair-in-dubai-sanyo-ac-maintenance-in-dubai-sanyo-ac-fix-in-dubai-sanyo-ac-service-in-dubai-sanyo-air-condition-repair-in-dubai-sanyo-air-condition-maintenance-in-dubai-sanyo-air-condition/">Sanyo AC Service Dubai</Link>
                                     <span>&nbsp;-&nbsp;</span>
-                                    <Link to="/rheem-ac-maintenance-in-dubai/">Rheem AC Reapir</Link>
+                                    <Link to="/rheem-ac-maintenance-in-dubai/">Rheem AC Repair</Link>
                                     <span>&nbsp;-&nbsp;</span>
                                     <Link to="/skm-ac-repair-in-dubai-skm-ac-maintenance-in-dubai-skm-ac-fix-in-dubai-skm-ac-service-in-dubai-skm-air-condition-repair-in-dubai-skm-air-condition-maintenance-in-dubai-skm-air-condition-maintenance-in/">SKM AC Service Dubai</Link>
                                     <span>&nbsp;-&nbsp;</span>
