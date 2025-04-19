@@ -95,7 +95,7 @@ const DaikinAcRepair = ({ subtitle, title, bgImg }) => {
                     <div className="col-md-6">
                         <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Daikin Ac Repair" />
                         <h3 className="cs_fs_25 mb-1 mt-3">Best Daikin AC Repair in Dubai</h3>
-                        <p>When it comes to Daikin <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Dubai, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai//"><b>AC technician</b></Link> for your home or office.</p>
+                        <p>When it comes to Daikin <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Dubai, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
                         <p>We specialize in Daikin air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                     </div>
 
@@ -112,7 +112,7 @@ const DaikinAcRepair = ({ subtitle, title, bgImg }) => {
                 </div>
 
                 <div className="appointment-col border-small-top pt-3">
-                    <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/ac-maintenance-dubai//"><b>AC cleaning service</b></Link> , repair, or maintenance. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+                    <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/ac-service-in-dubai/"><b>AC cleaning service</b></Link> , repair, or maintenance. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
                     <div id="get-quote" className=" mt-3">
                         <div className="container d-flex justify-content-center align-items-center gap-3">
                             <WhatsappIconButton />
@@ -418,6 +418,54 @@ const DaikinAcRepair = ({ subtitle, title, bgImg }) => {
                         </div>
                     </div>
                 </section>
+        {/* Practical Tips to Improve Energy Efficiency */}
+        <section className="section cs_py_48 bg-dark-blue text-light">
+            <div className="container text-center">
+                <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
+                <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
+                <a
+                    href="public/files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
+                    className="btn-green-yellow"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Click Here to Save on Energy Bills
+                </a>
+
+            </div>
+        </section>
+
+        {/* cooling */}
+        <section className="section cs_py_48">
+            <div className="container text-center">
+                <div class="row">
+                    <div className="col-lg-4">
+                        <div className="acsvs-sec-prefoot-sec-cone">
+                            <h3 className="cs_fs_20 mb-0">COOLING &amp; HEATING</h3>
+                            <span className="mb-5">Stay comfortable all year round</span>
+                            <div className="mb-5"></div>
+                            <h3 className="cs_fs_20 mb-0">BETTER AIR QUALITY</h3>
+                            <span className="mb-5">Reduce humidity, pollen and dust</span>
+                        </div>
+                    </div>
+                    <div className="col-lg-4">
+                        <div className="acsvs-sec-prefoot-sec-ctwo">
+
+                            <img className="" src={`${import.meta.env.BASE_URL}/img/benafit-acimg.jpg`} alt="Post Image" />
+                        </div>
+                    </div>
+                    <div className="col-lg-4">
+                        <div className="acsvs-sec-prefoot-sec-cthree">
+                            <h3 className="cs_fs_20 mb-0">PROTECT YOUR PROPERTY</h3>
+                            <span className="mb-5">Prevent damage to electronics and furnishings</span>
+                            <div className="mb-5"></div>
+                            <h3 className="cs_fs_20 mb-0">QUIET AND SECURE</h3>
+                            <span className="mb-5">No need to leave windows open</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
          {/* testimobial section */}
           <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative" data-background={`${import.meta.env.BASE_URL}${bgImg}`}>
             <div className="cs_height_80 cs_height_lg_80"></div>
