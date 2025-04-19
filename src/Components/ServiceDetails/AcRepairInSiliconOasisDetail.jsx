@@ -311,7 +311,7 @@ const AcRepairInSiliconOasisDetail = () => {
                                     <li><b>We help prevent future breakdowns</b> by only using locally produced, highest quality refrigerant gas.</li>
                                     <li><b>From routine maintenance to complex repairs</b> we offers all type of AC repair and maintenance services.</li>
                                     <li><b>We only use genuine parts</b> to give you peace of mind.</li>
-                                    <li><b>We give service and parts warranty</b> to make sure you are relax.</li>
+                                    <li><b>We give service warranty</b> to make sure you are relax.</li>
                                     <li><b>We look after the environment</b> by always recycling our gas.</li>
                                 </ul>
                             </div>

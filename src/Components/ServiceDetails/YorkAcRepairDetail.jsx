@@ -313,24 +313,9 @@ const YorkAcRepair =  ({ subtitle, title, bgImg }) => {
                 </div>
             </div>
         </section>
-        {/* <section className="section cs_py_48 bg-light-gray">
-          <div className="container">
-          <h3 class="cs_fs_30">York AC Repair Service in Dubai</h3>
-            <div className="row align-items-center">
-              <div className="col-md-7">
-                <p>When it comes to comfortability York air conditioning becomes a priority. It controls humidity and provides fantastic indoor air quality. However, when it comes to installation, fixing, maintenance, or your york ac repair. Then things get challenging because you never know which company is the top one and efficient enough to provide us with the desired outcomes and care for our money.</p>
-                <h3 class="cs_fs_30">Reliable And Efficient Air Con (AC) Repair</h3>
-                <p>To repair your york aircon you do not need to get worried about all that stuff because you are in the right place. Yes, FAJ Technical Services LLC is the place where efficiency and reliability are at the forefront. We feel proud to be the top york ac repair across Dubai. For quick installation of your newly bought York air conditioning if you are looking for only experienced ones. Then we are at your doorstep call us and we are at your place in no time.</p>
-              </div>
-              <div className="col-md-5 text-center text-md-end">
-                <img class="bordered-img" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
-              </div>
-            </div>
-          </div>
-        </section>  */}
      
 
-        <section className="section cs_py_48">
+        <section className="section cs_py_48  bg-light-gray">
           <div className="container">
           <h3 class="cs_fs_30">York Central Controller Fault Codes</h3>
             <div className="row align-items-center">
@@ -409,7 +394,7 @@ const YorkAcRepair =  ({ subtitle, title, bgImg }) => {
                   <li><b>We help prevent future breakdowns</b> by only using locally produced, highest quality refrigerant gas.</li>
                   <li><b>From routine maintenance to complex repairs</b> we offers all type of AC repair and maintenance services.</li>
                   <li><b>We only use genuine parts</b> to give you peace of mind.</li>
-                  <li><b>We give service and parts warranty</b> to make sure you are relax.</li>
+                  <li><b>We give service warranty</b> to make sure you are relax.</li>
                   <li><b>We look after the environment</b> by always recycling our gas.</li>
                 </ul>
               </div>
