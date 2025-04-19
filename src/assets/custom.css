@@ -382,12 +382,12 @@ a.btn-green-yellow:hover {
 
 .call-now-btn .call-icon {
   max-width: 150px;
-  content: url('../../public/img/icons/Call-Icon.png');
+  /* content: url('../../public/img/icons/Call-Icon.png'); */
 
 }
 
 .call-now-btn:hover .call-icon {
-  content: url('../../public/img/icons/Call-Icon-hover.png');
+  /* content: url('../../public/img/icons/Call-Icon-hover.png'); */
 
 }
 
