@@ -5,13 +5,11 @@ import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import CallNowButton from '../Buttons/CallNowButton';
-import GetQuoteButton from "../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
 import testimonial_data_Fujitsu from '../../Data/FujitsuAcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";
-import loadBackgroudImages from "../Common/loadBackgroudImages";
 
 const FujitsuAcRepair = ({ subtitle, title, bgImg }) => {
   subtitle="Testimonial"
@@ -131,7 +129,7 @@ const FujitsuAcRepair = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-          <h3 class="cs_fs_30">Fujitsu Air Con Service Quality Workmanship </h3>
+          <h3 className="cs_fs_30">Fujitsu Air Con Service Quality Workmanship </h3>
             <div className="row align-items-center">
               <div className="col-md-6">
                 <p>Air conditioners that are people-friendly are environmentally friendly. And, Fujitsu air con is one of them. Central Fujitsu air conditioner is an intelligent choice when it comes to beating humidity and heat indoors. Just like every other aircon the requirement for Fujitsu air conditioner repair increases as well. Regular maintenance and servicing not only conserve electricity but also helps keep operating your Fujitsu air con for many years. Adequate routine maintenance helps to quickly diagnose the issues of your central AC and fix them before they turn into some huge problem.</p>
@@ -348,23 +346,23 @@ const FujitsuAcRepair = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row">
                 <div className="col-md-12">
-                    <h3 class="cs_fs_24 text-light">Advantages Of Routine Fujitsu Air Conditioner Service</h3>
+                    <h3 className="cs_fs_24 text-light">Advantages Of Routine Fujitsu Air Conditioner Service</h3>
                     <p>Though your inverter is functioning well and delivering satisfactory outcomes. However, with time it needs fixing and complete maintenance regularly. The longer you go without servicing your fujitsu air con the closer your A/c will get to the point where it shall halt functioning completely. On the contrary, if you give your air con optimum attention and care by getting maintained and serviced daily by an expert company. The results will be beyond your expectations and your inverter will take your side for decades. There are many pros of it here, we will discuss a couple of the most important ones;</p>
                 </div>
                 <div className="col-md-6">
-                    <h3 class="cs_fs_18 text-light">Accelerate Durability</h3>
+                    <h3 className="cs_fs_18 text-light">Accelerate Durability</h3>
                     <p>One of the best benefits of getting proper maintenance of a fujitsu aircon is that your split aircon remains in top shape. This simply means, your air conditioner will not be affected due to any climate changes Furthermore, no fear of damaging and repairing. Servicing ensures that your air conditioner will continuously operate for years. In addition to it, optimal timely fujitsu air conditioner repair is essential to prevent any future large repairs. Always ensure that you have communicated with an experienced serviceman for exceptional maintenance regularly.</p>    
                 </div>
                 <div className="col-md-6">
-                    <h3 class="cs_fs_18 text-light">Lower Electric Bill</h3>
+                    <h3 className="cs_fs_18 text-light">Lower Electric Bill</h3>
                     <p>Having an air conditioner means more electricity bills and, without maintenance ends up increasing electricity bills pressure even more. Moreover, reduced efficiency because of lack of regular maintenance will cause your fujitsu split air conditioning to consume extra power. An ineffective Ac machine is an overworked piece of technology that leads to higher electric consumption. If you have a Fujitsu aircon and it is causing problems, then getting the excellent fujitsu air conditioner repair service can immediately lower your electricity bills.</p>
                 </div>
                 <div className="col-md-6">
-                    <h4 class="cs_fs_18 text-light">Minimum Repair Cost</h4>
+                    <h4 className="cs_fs_18 text-light">Minimum Repair Cost</h4>
                     <p>Repairs attract more money depending upon the extent of damage primarily the expenses get high. Through minor weekly repairs, you will be able to protect your fujitsu HVAC air conditioning from lengthy repairs. Thus, this way your cooling system will be entirely rescued from any kind of damage. Likewise, scheduling regular maintenance of your AC will reduce the effect of wear and tear. Thus, significantly allowing each component of HVAC to run smoothly and swiftly.</p>
                 </div>
                 <div className="col-md-6">
-                    <h4 class="cs_fs_18 text-light">No Strange Smell From Aircon</h4>
+                    <h4 className="cs_fs_18 text-light">No Strange Smell From Aircon</h4>
                     <p>Another significance of maintaining your centralized air conditioning is, it remains devoid of unpleasant odor. Yes, you read it right! Regular proper cleaning of air filters and evaporator coils keeps them clogged with dust, dirt, and debris. Moreover, no freezing up of the evaporator coil occurs when Ac is being serviced daily. Whether you have a fujitsu ducted system or central air conditioner you always want to achieve fresh, crisp, and cool air.</p>    
                 </div>
             </div>
@@ -374,7 +372,7 @@ const FujitsuAcRepair = ({ subtitle, title, bgImg }) => {
         
         <section className="section cs_py_48">
           <div className="container">
-          <h3 class="cs_fs_30">Get A Full Fledged Expert Service Of Fujitsu HVAC</h3>
+          <h3 className="cs_fs_30">Get A Full Fledged Expert Service Of Fujitsu HVAC</h3>
             <div className="row align-items-center">
                 <div className="col-xl-6">
                   <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/fujitsu-ac-repair.jpg`} alt="Fujitsu Ac Repair" />
@@ -458,7 +456,7 @@ const FujitsuAcRepair = ({ subtitle, title, bgImg }) => {
         {/* cooling */}
         <section className="section cs_py_48">
             <div className="container text-center">
-                <div class="row">
+                <div className="row">
                     <div className="col-lg-4">
                         <div className="acsvs-sec-prefoot-sec-cone">
                             <h3 className="cs_fs_20 mb-0">COOLING &amp; HEATING</h3>
@@ -542,7 +540,7 @@ const FujitsuAcRepair = ({ subtitle, title, bgImg }) => {
 
         <div className="section cs_py_48  bg-dark-blue text-light">
           <div className="container">
-            <h3 class="cs_fs_30 text-light">FAQ's</h3>
+            <h3 className="cs_fs_30 text-light">FAQ's</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 

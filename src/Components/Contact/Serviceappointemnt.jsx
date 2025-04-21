@@ -4,11 +4,11 @@ const Serviceappointemnt = ({title2,subtitle2}) => {
     return (
         <section>
         <div className="container">
-        <h2 class="cs_section_title cs_fs_50 mb-0 wow flipInX mb-4">{title2}</h2>
+        <h2 className="cs_section_title cs_fs_50 mb-0 wow flipInX mb-4">{title2}</h2>
           <div className="row cs_gap_y_50 align-items-center">
             <div className="col-lg-6">
                 <div className="cs_navigation_map wow fadeInUp">
-                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.7412563066887!2d55.227661!3d25.110618600000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f699a600aceeb%3A0xa6121b25d557aa94!2sFAJ%20Technical%20Services%20L.L.C!5```e0!3m2!1sen!2sae!4v1743747276869!5m2!1sen!2sae" allowfullscreen="" loading="lazy"></iframe>
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.7412563066887!2d55.227661!3d25.110618600000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f699a600aceeb%3A0xa6121b25d557aa94!2sFAJ%20Technical%20Services%20L.L.C!5```e0!3m2!1sen!2sae!4v1743747276869!5m2!1sen!2sae" allowFullScreen="" loading="lazy"></iframe>
                 </div>
             </div>
             

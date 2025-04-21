@@ -42,11 +42,11 @@ const AcRepairInSiliconOasisDetail = () => {
                         <h2 className="cs_fs_30">The FAJ experts can help you make your home or place of business more comfortable</h2>
                         <p>FAJ Technical Services LLC is your premier choice for quality AC Service In Dubai. With 14 years of experience in AC repairing, maintenance, and servicing, we are the most trusted air conditioning service company in Dubai, UAE.<br />FAJ is providing AC repair and maintenance services to all areas of Dubai. Our AC technicians are skilled and specialize in repairing all AC types, brands, and models. Experience reliable AC repair and maintenance to keep your home or business cool and comfortable.</p>
 
-                        <div id="get-quote" class=" mt-3">
+                        <div id="get-quote" className=" mt-3">
 
-                            <div class="container d-flex justify-content-center align-items-center">
-                                {/* <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#0D6EFD" }}>Get A Free Quote</a>
-                                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex border border-outline align-items-center" href="tel:+971507464712">Call Now</a> */}
+                            <div className="container d-flex justify-content-center align-items-center">
+                                {/* <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#0D6EFD" }}>Get A Free Quote</a>
+                                <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex border border-outline align-items-center" href="tel:+971507464712">Call Now</a> */}
                                 <CallNowButton /> <GetQuoteButton />
                             </div>
 
@@ -96,7 +96,7 @@ const AcRepairInSiliconOasisDetail = () => {
                 {/* Why is AC Maintenance Service Important in Dubai? */}
                 <section className="section cs_py_48 bg-light-gray">
                     <div className="container">
-                        <h3 class="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h3>
+                        <h3 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h3>
                         <p>
                             Regular air conditioning (AC) maintenance service in Dubai is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently.
                             With our proactive approach, you can feel confident that your AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you, contact us.
@@ -438,7 +438,7 @@ const AcRepairInSiliconOasisDetail = () => {
                 {/* cooling */}
                 <section className="section cs_py_48">
                     <div className="container text-center">
-                        <div class="row">
+                        <div className="row">
                             <div className="col-lg-4">
                                 <div className="acsvs-sec-prefoot-sec-cone">
                                     <h3 className="cs_fs_20 mb-0">COOLING &amp; HEATING</h3>

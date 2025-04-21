@@ -149,7 +149,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
         {/* Peace of Mind with Annual Maintenance Contracts */}
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-            <h3 class="cs_fs_30">Peace of Mind with Annual Maintenance Contracts</h3>
+            <h3 className="cs_fs_30">Peace of Mind with Annual Maintenance Contracts</h3>
             <p>Your air conditioner is an essential part of your home or office comfort, especially during the scorching summer months. Like any other air conditioning unit, it requires regular maintenance to operate efficiently and to prevent breakdowns.
             </p>
 
@@ -480,7 +480,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
         {/* white section with AC image */}
         <section className="section cs_py_48">
           <div className="container text-center">
-            <div class="row">
+            <div className="row">
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-cone">
                   <h3 className="cs_fs_20 mb-0">COOLING &amp; HEATING</h3>

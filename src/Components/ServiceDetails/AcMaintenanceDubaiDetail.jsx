@@ -149,7 +149,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
         {/* Expert Air Conditioning Maintenance in Dubai to Keep You Cool */}
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-            <h3 class="cs_fs_30">Why Do You Need Regular AC Maintenance in Dubai?</h3>
+            <h3 className="cs_fs_30">Why Do You Need Regular AC Maintenance in Dubai?</h3>
             <p>
               There are numerous reasons why maintaining and repairing air conditioners in Dubai is essential. Some common AC problems are simple to fix, and regular maintenance can offer great benefits:
             </p>
@@ -495,7 +495,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
         {/* white section with AC image */}
         <section className="section cs_py_48">
           <div className="container text-center">
-            <div class="row">
+            <div className="row">
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-cone">
                   <h3 className="cs_fs_20 mb-0">COOLING &amp; HEATING</h3>

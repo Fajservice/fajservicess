@@ -131,12 +131,12 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
         
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-          <h3 class="cs_fs_30">Error Codes Your Coleman Split Air Conditioning Showing</h3>
+          <h3 className="cs_fs_30">Error Codes Your Coleman Split Air Conditioning Showing</h3>
             <div className="row align-items-center">
               <div className="col-md-6">
                 
                 <p>Every air conditioner shows different error codes according to its type, size, brand, and model. Here are some of the Coleman split A/c fault codes which indicate issues within your Ac machine.</p>
-                <ul class="d-flex flex-wrap column-gap-5">
+                <ul className="d-flex flex-wrap column-gap-5">
                     <li>Code: E7</li>
                     <li>Code: E1</li>
                     <li>Code: E14</li>
@@ -162,9 +162,9 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
         </section> 
         <section className="section cs_py_48 bg-dark-blue text-light">
           <div className="container">
-            <h3 class="cs_fs_30 text-light">Do Not Settle For Coleman Air Con Service, Call FAJ Technical Services LLC</h3>
+            <h3 className="cs_fs_30 text-light">Do Not Settle For Coleman Air Con Service, Call FAJ Technical Services LLC</h3>
             <p>We have discussed in detail, what happens when you get the wrong installation of your air conditioner. To make things settle again, likely can cause you more than you think. Therefore, always choose the right and well-reputed company to get your air conditioning installed for the first time. Do not settle for the below quality, contact us today to get the best and unbeatable results. We are tech-savvy and remain updated with cutting-edge technology. In air conditioning technology, several advancements have taken place in recent years. We have a professional, experienced, and well-trained team that does exactly the unmatched work. Instead of trying to fix your air con issues on your own, ask FAJ to assist you. We provide all kinds of services, from routine maintenance to quick fixes of problems, repairing any component promptly and accurately. Our professionals take confidence to provide exceptional Coleman AC Repair in dubai.</p>
-            <h3 class="cs_fs_30 text-light">False Installation Raises Humidity</h3>
+            <h3 className="cs_fs_30 text-light">False Installation Raises Humidity</h3>
             <p>Have you ever noticed that when you turn your inverter to get some cool, soft air so your sweating gets removed? And you enjoy the sweet cool air with your loved ones. However, instead of this reverse happens and your Coleman air conditioning system throws humid air. The major reason behind this scenario is the wrong installation of your central Ac. One drawback is the poor installation of air con which leads to several other disadvantages such as air filters easily getting clogged with dirt. Hampers the function of evaporated coils and steadily increases humidity. Thus, you experience more humid air than cool airflow. Humidity becomes a significant way for the growth of molds and mildews.</p>    
           </div>
         </section>
@@ -387,7 +387,7 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
         {/* cooling */}
         <section className="section cs_py_48">
             <div className="container text-center">
-                <div class="row">
+                <div className="row">
                     <div className="col-lg-4">
                         <div className="acsvs-sec-prefoot-sec-cone">
                             <h3 className="cs_fs_20 mb-0">COOLING &amp; HEATING</h3>
@@ -470,7 +470,7 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
 
         <div className="section cs_py_48  bg-dark-blue text-light">
           <div className="container">
-            <h3 class="cs_fs_30 text-light">FAQ's</h3>
+            <h3 className="cs_fs_30 text-light">FAQ's</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 

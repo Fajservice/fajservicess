@@ -39,10 +39,10 @@ const ColdRoomRepair = () => {
                                 {/* <img src={`${import.meta.env.BASE_URL}/img/cold-room-repair-banner.jpg`} alt="Service Banner" /> */}
                                 <h2 className="cs_fs_30">Cold Room Repair</h2>
                                 <p>Is your existing cold room getting old or acting wary? You might be thinking of a replacement but it might cost a fortune. This is where FAJ comes in. Need not to worry, as our diverse and experienced range of services has got you covered. Confused about “cold room service near me”, then you’ve landed on the right page. Give us a call to book our technicians for your freezer repair inspection so we can carry out cold room repair, refurbishment and maintenance services. Being used in super markets, restaurants, butcheries, hotels, hospitals, etc it is essential to conduct periodic maintenance. With our decades of experience in UAE and Dubai, we ensure that all your cold room repair and service solutions are resolved under the same roof. With our highly skilled and trained team of cold room technicians, you can trust our services with complete trust and reliability.</p>
-                                <div id="get-quote" class="mb-5 mt-3">
-                                    <div class="container d-flex justify-content-center align-items-center">
-                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
+                                <div id="get-quote" className="mb-5 mt-3">
+                                    <div className="container d-flex justify-content-center align-items-center">
+                                        <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                                        <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
                                     </div>
                                 </div>
                                 <div className="row">
@@ -57,10 +57,10 @@ const ColdRoomRepair = () => {
                                         <p>Let us guide you on why cold room repairs and maintenance is essential for optimal cooling and freezing operations. A cold room repair process involves recognizing any issues that are causing the temperature deviations from the desired range. If not done timely, it might lead to issues such as PCB failures, low or no cooling, over cooling, gas leakages, mechanical malfunctions, door hinge breakages or losing and revenue loss. In addition, an unserviced cold room will lead to a lower operational life and increased energy usage. UAE and Dubai being energy efficient states, we will ensure that your cold room freezer and chillers keep working in top notch conditions.</p>
                                     </div>
                                 </div>
-                                <div id="get-quote" class="mb-5 mt-3">
-                                    <div class="container d-flex justify-content-center align-items-center">
-                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
+                                <div id="get-quote" className="mb-5 mt-3">
+                                    <div className="container d-flex justify-content-center align-items-center">
+                                        <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                                        <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
                                     </div>
                                 </div>
                                 {/* <h2>Ready to Beat the Heat? Find the Best AC Repair in Dubai</h2>
@@ -78,10 +78,10 @@ const ColdRoomRepair = () => {
                                         
                                     </div>
                                 </div>
-                                <div id="get-quote" class="mb-5 mt-3">
-                                    <div class="container d-flex justify-content-center align-items-center">
-                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
+                                <div id="get-quote" className="mb-5 mt-3">
+                                    <div className="container d-flex justify-content-center align-items-center">
+                                        <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
+                                        <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
                                     </div>
                                 </div>
                                 <h3 className="cs_fs_24">Reliable Solution to every type of cold room</h3>
@@ -152,26 +152,26 @@ const ColdRoomRepair = () => {
                                 <div className="cs_sidebar_widget cs_accent_bg_light position-relative">
                                     <div className="cs_separator"></div>
                                     <h3 className="cs_sidebar_title cs_fs_30 cs_mb_43">All Services</h3>
-                                    <ul class="cs_categories cs_fs_16 cs_mb_20">
+                                    <ul className="cs_categories cs_fs_16 cs_mb_20">
                                         <li><a href="/ac-service-in-dubai">
                                             <span>Washing Machine Repair</span>
-                                            <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                                            <span><i className="fa-solid fa-arrow-right-long"></i></span>
                                         </a></li>
                                         <li><a href="/ac-service-in-dubai">
                                             <span>Refrigerator Repair</span>
-                                            <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                                            <span><i className="fa-solid fa-arrow-right-long"></i></span>
                                         </a></li>
                                         <li><a href="/ac-service-in-dubai">
                                             <span>BBQ Service &amp; Repair</span>
-                                            <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                                            <span><i className="fa-solid fa-arrow-right-long"></i></span>
                                         </a></li>
                                         <li><a href="/ac-service-in-dubai">
                                             <span>Coffee Machine Repair</span>
-                                            <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                                            <span><i className="fa-solid fa-arrow-right-long"></i></span>
                                         </a></li>
                                         <li><a href="/ac-service-in-dubai">
                                             <span>Vacuum Cleaner Repair</span>
-                                            <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                                            <span><i className="fa-solid fa-arrow-right-long"></i></span>
                                         </a></li>
                                     </ul>
                                 </div>

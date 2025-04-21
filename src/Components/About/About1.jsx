@@ -19,10 +19,10 @@ const About1 = ({img1,img2,img3,expNumber,expYers,expTitle,expTitleYear,telLink,
                  </div>
                  <div className="cs_esperience_text position-absolute">
                    <h2 className="cs_experience_title mb-0">
-                      <span class="cs_fs_52 cs_accent_color">{expNumber}</span>
-                      <span class="cs_fs_20">{expYers}</span>
-                      <span class="cs_fs_36">{expTitle}</span>
-                      <span class="cs_fs_50">{expTitleYear}</span>
+                      <span className="cs_fs_52 cs_accent_color">{expNumber}</span>
+                      <span className="cs_fs_20">{expYers}</span>
+                      <span className="cs_fs_36">{expTitle}</span>
+                      <span className="cs_fs_50">{expTitleYear}</span>
                    </h2>
                    <p>{expDescrip}</p>
                  </div>
