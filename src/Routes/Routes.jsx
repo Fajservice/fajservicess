@@ -51,6 +51,8 @@ import AcRepairInJumeirahVillageCircle from "../Pages/AcRepairInJumeirahVillageC
 import AcRepairInBusinessBay from "../Pages/AcRepairInBusinessBay";
 import DaewooAcRepair from "../Pages/DaewooAcRepair";
 import SkmAcRepair from "../Pages/SkmAcRepair";
+import AcRepairInArabianRanches from "../Pages/AcRepairInArabianRanches";
+import AcRepairInDip from "../Pages/AcRepairInDip";
 export const router = createHashRouter([
   {
     path: "/",
@@ -257,6 +259,14 @@ export const router = createHashRouter([
       {
         path: "/ac-services-in-business-bay/",
         element: <AcRepairInBusinessBay/>,
+      },
+      {
+        path: "/ac-services-in-arabian-ranches/",
+        element: <AcRepairInArabianRanches/>,
+      },
+      {
+        path: "/ac-services-in-dip/",
+        element: <AcRepairInDip/>,
       },
     ],
   }
