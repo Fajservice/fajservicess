@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../Data/SkmAcRepairfaq.json';
+import data from '../../Data/BlueStarAcRepairfaq.json';
 import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
@@ -8,11 +8,11 @@ import CallNowButton from '../Buttons/CallNowButton';
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
 import QuickGuide from "../QuickGuide/QuickGuide";
-import testimonial_data_Skm from '../../Data/SkmAcServiceTestimonials.json';
+import testimonial_data_BlueStar from '../../Data/BlueStarAcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";
 
-const SkmAcRepair = ({ subtitle, title, bgImg }) => {
+const BlueStarAcRepair = ({ subtitle, title, bgImg }) => {
   subtitle="Testimonial"
   title="What our clients say <br> About Us"
   bgImg="/img/testimonialbg.jpg"
@@ -65,8 +65,8 @@ const SkmAcRepair = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-      <title>SKM AC Repair in Dubai - SKM Air Conditioner Service Near</title>
-      <meta name="description" content="SKM #1 Brand in UAE. Call us at 043300002 for SKM AC Repair in Dubai, We are experts in HVAC & Central Air Conditioner Maintenance Service near by you."/>
+      <title>BlueStar AC Repair in Dubai - BlueStar Air Conditioner Service Near</title>
+      <meta name="description" content="BlueStar #1 Brand in UAE. Call us at 043300002 for BlueStar AC Repair in Dubai, We are experts in HVAC & Central Air Conditioner Maintenance Service near by you."/>
       </HelmetProvider>
 
       <div className="cs_service_details">
@@ -76,7 +76,7 @@ const SkmAcRepair = ({ subtitle, title, bgImg }) => {
             <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
             <p>FAJ Technical Services LLC is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
               <br />
-              Our skilled AC technicians can handle all types and models of Skm air conditioning units, ensuring your home or business stays cool and comfortable.</p>
+              Our skilled AC technicians can handle all types and models of BlueStar air conditioning units, ensuring your home or business stays cool and comfortable.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -92,14 +92,14 @@ const SkmAcRepair = ({ subtitle, title, bgImg }) => {
             <div className="container">
                 <div className="row g-5">
                     <div className="col-md-6">
-                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Skm Ac Repair" />
-                        <h3 className="cs_fs_25 mb-1 mt-3">Best Skm AC Repair in Dubai</h3>
-                        <p>When it comes to Skm <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Dubai, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
-                        <p>We specialize in Skm air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
+                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="BlueStar Ac Repair" />
+                        <h3 className="cs_fs_25 mb-1 mt-3">Best BlueStar AC Repair in Dubai</h3>
+                        <p>When it comes to BlueStar <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Dubai, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
+                        <p>We specialize in BlueStar air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                     </div>
 
                     <div className="col-md-6 border-small-left">
-                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Skm Ac Repair" />
+                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="BlueStar Ac Repair" />
                         <h3 className="cs_fs_24 mb-1 mt-3">Signs You Need An AC Service</h3>
                         <p>If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                         <ul>
@@ -130,14 +130,14 @@ const SkmAcRepair = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-          <h3 className="cs_fs_30">Skm Air Con Service Quality Workmanship </h3>
+          <h3 className="cs_fs_30">BlueStar Air Con Service Quality Workmanship </h3>
             <div className="row align-items-center">
               <div className="col-md-6">
                 
-                <p>FAJ is working consistently since 2010 to make its customers satisfied and comfortable. Getting the best Skm ac repair service in Dubai is not easy especially when you are in urgent need. Our superior workmanship is what makes us different from others. In the need of immediate help, we are present and we provide unbeatable service to our customers. With our regular maintenance service keep your Skm air con running smoothly and swiftly. <br />Breathing fresh air is the right of everyone. Getting top-quality fresh air requires the best air con. Skm can provide healthy air to its buyers. In Dubai, Skm is the leading brand. So, if you have Skm air conditioning at your home or office and looking for its repairs. Why not look for a top-quality service provider for a top ac brand? <br />FAJ Technical Services LLC is a top-notch company providing mind-blowing Skm ac repair in Dubai. We understand the necessity of properly functioning air. Our team of experienced technicians ensures to provide optimal performance of Skm air con and an enjoyable indoor environment all year round.</p>
+                <p>FAJ is working consistently since 2010 to make its customers satisfied and comfortable. Getting the best BlueStar ac repair service in Dubai is not easy especially when you are in urgent need. Our superior workmanship is what makes us different from others. In the need of immediate help, we are present and we provide unbeatable service to our customers. With our regular maintenance service keep your BlueStar air con running smoothly and swiftly. <br />Breathing fresh air is the right of everyone. Getting top-quality fresh air requires the best air con. BlueStar can provide healthy air to its buyers. In Dubai, BlueStar is the leading brand. So, if you have BlueStar air conditioning at your home or office and looking for its repairs. Why not look for a top-quality service provider for a top ac brand? <br />FAJ Technical Services LLC is a top-notch company providing mind-blowing BlueStar ac repair in Dubai. We understand the necessity of properly functioning air. Our team of experienced technicians ensures to provide optimal performance of BlueStar air con and an enjoyable indoor environment all year round.</p>
               </div>
               <div className="col-md-6 text-center text-md-end">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-service.jpg`} alt="Skm Ac Repair" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-service.jpg`} alt="BlueStar Ac Repair" />
                 
               </div>
             </div>
@@ -246,48 +246,12 @@ const SkmAcRepair = ({ subtitle, title, bgImg }) => {
         {/* A Quick Guide to Understanding and Fixing Your AC Problems */}
         <QuickGuide />
         
-        <section className="section cs_py_48 bg-dark-blue text-light">
-          <div className="container">
-            <div className="row">
-                <div className="col-md-6">
-                    <h3 className="cs_fs_24 text-light">Exceptional Repairing Of Skm Centralized Air Conditioning (Air Con)</h3>
-                    <p>To provide more comfort to you, potential and timely repair is indispensable. After proper repair, your air con offers great cooling performance. Regular maintenance of your centralized ac extends its lifetime and improves functions. Not many offer Skm ac repair in Dubai. However, FAJ is unique and experienced in providing exceptional service, maintenance, and fixing of your aircon. Get instant access to a potentially trained, highly skilled professional for optimal and fast air condition repairing.</p>
-                </div>
-                <div className="col-md-6">
-                    <h3 className="cs_fs_24 text-light">Cost Effective VRV Installation And Operation (Skm Aircon) AC</h3>
-                    <p>VRV Skm air conditioning is called ideal for small and large spaces. It is the most advanced air system worldwide and popular as well. It is significantly equipped with modern technology and, results in energy efficiency. To install this Skm VRV ac an exceptionally trained team is required. To get the advantage of better comfort and a sustainable cooled environment accurate installation and operation is a key.</p>    
-                </div>
-                <div className="col-md-12">
-                    <h3 className="cs_fs_24 text-light">Different Models Of Skm Ducted Aircon</h3>
-                    <p>Several types/ models of Skm ducted ac are available in the market. Choosing the best one which is suitable for your house or office is an art. Expert advice clears all doubts and helps you to get the right aircon for your place.</p>
-                </div>
-                <div className="col-md-6">
-                    <h4 className="cs_fs_18 text-light">Inverter Skm Ducted</h4>
-                    <p>This type of air conditioner has an efficient and compact design. This one is ideal to install in the tight roof space of the modern home.</p>
-                </div>
-                <div className="col-md-6">
-                    <h4 className="cs_fs_18 text-light">Premium Inverter Ducted</h4>
-                    <p>This ducted air con has remarkable energy performance and the ability to perform functions quite innovatively. We are skilled enough in installing, repairing, fixing, and maintenance of these kinds of air conditioners.</p>    
-                </div>
-                <div className="col-md-6">
-                    <h4 className="cs_fs_18 text-light">Bulkhead System</h4>
-                    <p>This model is best for drop ceilings and shallow ceilings. Optimal for bedroom air conditioning and ideal where discreet installation is a preference.</p>
-                </div>
-                <div className="col-md-6">
-                    <h4 className="cs_fs_18 text-light">Slimline Ducted</h4>
-                    <p>It has freedom of design and unparalleled flexibility. FAJ is the most reliable and ideal one for installing and maintenance of these ac machines.</p>    
-                </div>
-            </div>
-          </div>
-        </section>
-
-        
         <section className="section cs_py_48">
           <div className="container">
-          <h3 className="cs_fs_30">Get A Full Fledged Expert Service Of Skm HVAC</h3>
+          <h3 className="cs_fs_30">Get A Full Fledged Expert Service Of BlueStar HVAC</h3>
             <div className="row align-items-center">
                 <div className="col-xl-6">
-                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-repair.jpg`} alt="Skm Ac Repair" />
+                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-repair.jpg`} alt="BlueStar Ac Repair" />
                 </div>
                 <div className="col-xl-6">
                   <p>While modern HVAC systems are manufactured to deliver year-long service. However, issues with air condition can and will arise. Here are some common problems which are faced by several homeowners, businesses, etc.</p>
@@ -295,12 +259,12 @@ const SkmAcRepair = ({ subtitle, title, bgImg }) => {
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
-                      <span><strong>Blown Is Fused:</strong> One reason your Skm HVAC is not functioning is because of blown fuses. Fuses are mainly designed to protect the compressor and unit’s motor or ac engine from overheating. Due to that, the breaker gets flipped off which indicates a huge problem with your HVAC air con.</span>
+                      <span><strong>Blown Is Fused:</strong> One reason your BlueStar HVAC is not functioning is because of blown fuses. Fuses are mainly designed to protect the compressor and unit’s motor or ac engine from overheating. Due to that, the breaker gets flipped off which indicates a huge problem with your HVAC air con.</span>
                     </li>
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
-                      <span><strong>Unclean Air Filters:</strong> Dirty ac filters make your Skm HVAC aircon to under-perform and eventually freeze. Air filters must be regularly changed otherwise, airflow can be decreased significantly. For exceptional services, FAJ is available on the other side of a single call. Don’t let your air condition issues disturb your comfort and your important work. Let us keep your air conditioning in optimal condition, and make sure you and your loved ones enjoy cool and fresh air.</span>
+                      <span><strong>Unclean Air Filters:</strong> Dirty ac filters make your BlueStar HVAC aircon to under-perform and eventually freeze. Air filters must be regularly changed otherwise, airflow can be decreased significantly. For exceptional services, FAJ is available on the other side of a single call. Don’t let your air condition issues disturb your comfort and your important work. Let us keep your air conditioning in optimal condition, and make sure you and your loved ones enjoy cool and fresh air.</span>
                     </li>
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
@@ -414,7 +378,7 @@ const SkmAcRepair = ({ subtitle, title, bgImg }) => {
                 data-add-slides="2" data-slides-per-view="responsive">
                 <div className="cs_slider_wrapper">
                   <Slider {...settings}>
-                    {testimonial_data_Skm.map((item, index) => (
+                    {testimonial_data_BlueStar.map((item, index) => (
                       <div key={index} className="cs_slide wow fadeInLeft">
                         <div className="cs_testimonial cs_style_1 position-relative">
                           <div className="cs_testimonial_content cs_white_bg position-relative">
@@ -491,4 +455,4 @@ const SkmAcRepair = ({ subtitle, title, bgImg }) => {
   );
 };
 
-export default SkmAcRepair;
+export default BlueStarAcRepair;
