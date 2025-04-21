@@ -114,7 +114,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-md-6 border-small-left">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/fridgerepair .jpg`} alt="Post Image" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/fridgerepair.jpg`} alt="Post Image" />
                 <h3 className="cs_fs_24 mb-1 mt-3">Fridge Technical Inspection Fee</h3>
                 <p>The technical inspection fee is AED 157, which covers diagnosis, transportation, and reinstallation in Dubai premises. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.</p>
               </div>
