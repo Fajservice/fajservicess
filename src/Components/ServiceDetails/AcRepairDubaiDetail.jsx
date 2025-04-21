@@ -176,8 +176,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
                   <li> <strong>Increased Energy Bills:</strong> A spike in bills often means your AC is working inefficiently.</li>
                   <li> <strong>Frequent Cycling:</strong> Constantly turning on and off might suggest a faulty thermostat or oversized system.</li>
                   <li> <strong>Poor Airflow:</strong> Weak airflow can result from a clogged filter or issues with the ducts.
-                  <br />
-                  Stay alert for these signs to maintain your AC. <br /> If you notice any issues, consult a professional technician for help. If you notice any issues, consult a professional technician for help.</li>
+                  Stay alert for these signs to maintain your AC. If you notice any issues, consult a professional technician for help.</li>
                 </ul>
               </div>
             </div>
@@ -361,6 +360,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
             </div>
           </div>
         </section>
+        <QuickGuide />
 
 
         {/*WFAJ: Creating the Perfect Temperature All Year Round */}

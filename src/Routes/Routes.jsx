@@ -11,6 +11,7 @@ import AcAnnualMaintenanceContract from "../Pages/AcAnnualMaintenanceContract";
 import AcRepairDubai from "../Pages/AcRepairDubai";
 import WashingMachineRepairServiceDubai from "../Pages/WashingMachineRepairServiceDubai";
 import RefrigeratorRepairInDubai from "../Pages/RefrigeratorRepairInDubai";
+import RefrigeratorRepairService from "../Pages/RefrigeratorRepairService";
 import ColdRoomRepair from "../Pages/ColdRoomRepair";
 import ServicesPage from "../Pages/ServicesPage";
 import ProjectPage from "../Pages/ProjectPage";
@@ -66,6 +67,15 @@ export const router = createHashRouter([
       {
         path: "/ac-repair-dubai/",
         element: <AcRepairDubai></AcRepairDubai>,
+      },
+      {
+        path: "/refrigerator-repair-service/",
+        element: <RefrigeratorRepairService></RefrigeratorRepairService>,
+      },
+      
+      {
+        path: "/refrigerator-repair-in-dubai/",
+        element: <RefrigeratorRepairService></RefrigeratorRepairService>,
       },
       {
         path: "/washing-machine-repair-service-dubai/",
