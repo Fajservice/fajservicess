@@ -86,11 +86,10 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_48">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
-            <p>FAJ Technical Services LLC is a leading AC Maintenance company in Dubai, providing reliable air conditioner services tailored to the UAE's hot climate.
-              <br />
-              Our trained professionals ensure a comfortable environment for living, learning, working, and playing.
-              When your air conditioning system fails, we’re here to help. Choose FAJ for all your AC repair needs in Dubai.
+            <h2 className="cs_fs_30">SELECT FAJ EXPERTS FOR A TAILORED COOLING SOLUTION THAT FITS YOUR SPACE PERFECTLY!</h2>
+            <p>
+              FAJ Technical Services LLC is a top AC maintenance company in Dubai, offering reliable AC services tailored for the UAE's hot climate. Our trained professionals are dedicated to ensuring a comfortable environment for living, learning, working, and playing. If your air conditioning system fails, we are here to help. Trust FAJ for all your AC maintenance and repair needs in Dubai.
+
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -290,7 +289,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
             <h3 className="cs_fs_30">Why Choose FAJ Technical Services LLC?</h3>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <h4 className="cs_fs_24">We provide quick, efficient service and peace of mind</h4>
+                <h4 className="cs_fs_18">We provide quick, efficient service and peace of mind</h4>
                 <ul className="acsvs-exp-spl-para tick-ul mb-0">
                   <li><b>We get the job done on time</b> thanks to our larger team and dedicated parts warehouse</li>
                   <li><b>All our AC technicians are fully qualified</b> and extensively trained by us to address all types of AC issues.</li>
