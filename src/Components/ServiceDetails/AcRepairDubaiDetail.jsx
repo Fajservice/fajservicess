@@ -8,7 +8,6 @@ import CallNowButton from '../Buttons/CallNowButton';
 import GetQuoteButton from "../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
-import QuickGuide from "../Quick Guide/QuickGuide";
 
 import Slider from "react-slick";
 import testimonial_data from '../../Data/AcServiceTestimonials.json';
@@ -163,40 +162,57 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
             <h3 className="cs_fs_30">5 Reasons Your AC Might Need Repairs This Summer </h3>
             <p>Air conditioning issues are quite common during the summer months. If you're experiencing AC issues this season, it's important to understand what might be happening with your system. Identifying the problem early can prevent it from worsening and ensure your place remains comfortable during the heat. </p>
 
-            
+
 
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/ac-repair-3.jpg`} alt="Post Image" />
               </div>
               <div className="col-md-6">
-              
+
                 <ul className="mb-0">
                   <li> <strong>Insufficient Cooling:</strong> May be due to a refrigerant leak, blocked filter, or compressor issues.</li>
                   <li> <strong>Strange Noises:</strong> Sounds like banging or hissing could indicate damaged parts.</li>
                   <li> <strong>Increased Energy Bills:</strong> A spike in bills often means your AC is working inefficiently.</li>
                   <li> <strong>Frequent Cycling:</strong> Constantly turning on and off might suggest a faulty thermostat or oversized system.</li>
                   <li> <strong>Poor Airflow:</strong> Weak airflow can result from a clogged filter or issues with the ducts.
-                  Stay alert for these signs to maintain your AC. If you notice any issues, consult a professional technician for help.</li>
+                    Stay alert for these signs to maintain your AC. If you notice any issues, consult a professional technician for help.</li>
                 </ul>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Common AC Problems That May Require Maintenance */}
+        {/* Most Common Problems of AC Repair */}
         <section className="section cs_py_48">
           <div className="container">
-            <h3 className="text-center">Common AC Problems That May Require Maintenance</h3>
+            <h3 className="text-center">Most Common Problems of AC Repair</h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Weak Airflow</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Air Filter Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">If you notice reduced airflow coming from your vents, it could indicate a problem with your AC system, such as a clogged filter or malfunctioning fan.</p>
+                    <p className="p-2 mb-0">
+                      Many Dubai homeowners forget to change air filters, causing clogs and restricted airflow that can damage the entire HVAC system.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerant Refill</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      This usually happens after a leak. Your compressor and the rest of your AC system can't run without refrigerant.
+
+                    </p>
                   </div>
                 </div>
               </div>
@@ -204,10 +220,28 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Warm Air</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Capacitor Replacement</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">If your AC blows warm or room temperature air instead of cold, it could indicate compressor, refrigerant, or ductwork issues.</p>
+                    <p className="p-2 mb-0">
+                      The capacitors in your AC system can fail suddenly, which could cause other components to fail afterward.
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Compressor Repair</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      Years of wear and tear (or a few months of neglect) can cause your AC compressor to break down suddenly.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -215,10 +249,12 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Strange Noises</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Condensation Drain Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Unusual sounds like grinding, squealing, or banging coming from your AC unit can indicate mechanical problems that require attention.</p>
+                    <p className="p-2 mb-0">
+                      The condensation drain hose can often become clogged, typically due to a buildup of debris, mold, mildew, or algae.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -226,10 +262,12 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Foul Odors</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Thermostat Replacement</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Musty or foul odors emanating from the vents could suggest mold or mildew growth within the system, which needs to be addressed quickly.</p>
+                    <p className="p-2 mb-0">
+                      When this unit fails, it’s nearly impossible to maintain the comfort levels you desire in your home, affecting your daily routine.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -237,32 +275,12 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Frequent Cycling</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Blower Fan Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">It may signal difficulty maintaining desired temperatures due to issues like dirty filters, low refrigerant levels, or a faulty thermostat.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">High Humidity Levels</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">An air conditioner that fails to adequately reduce indoor humidity levels may indicate issues with its cooling capacity or improper operation.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Leaking Water</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Water pooling around AC or dripping from vents could indicate blocked condensate drain, frozen coils, or other issues.</p>
+                    <p className="p-2 mb-0">
+                      A faulty blower fan results in little to no airflow, making your AC system inefficient and unable to cool properly.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -270,10 +288,12 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Increased Energy Bills</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">PCB Board Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">High energy bills without increase in usage could indicate the inefficiency of your AC due to dirty filters, duct leaks, or other problems.</p>
+                    <p className="p-2 mb-0">
+                      A malfunctioning PCB disrupts AC communication, causing issues. Timely repair or replacement ensures efficient performance.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -287,8 +307,116 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* A Quick Guide to Understanding and Fixing Your AC Problems*/}
-        <QuickGuide />
+        {/* Here are 10 easy ways to troubleshoot common AC problems*/}
+        <section className="section cs_py_48 bg-light-gray">
+          <div className="container">
+            <h3 className="cs_fs_30">Here are 10 easy ways to troubleshoot common AC problems</h3>
+            <div className="row align-items-center">
+              <div className="col-xl-6">
+                <iframe
+                  className="bordered-img blue-border"
+                  width="100%"
+                  height="350"
+                  src="https://www.youtube.com/embed/sxBhB1_gxYA?si=96yf5hxyAA3bct8w"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
+              </div>
+
+              <div className="col-xl-6">
+                <div className="row ">
+                  <div className="col-12 col-md-6">
+                    <ul className="cs_list cs_style_1 cs_fs_16 p-0">
+                      <li>
+                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                          <i className="bi bi-check"></i></span>
+                        <span>Set Your AC Thermostat Correctly</span>
+                      </li>
+
+                     
+                      <li>
+                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                          <i className="bi bi-check"></i></span>
+                        <span>Investigate for Tripped Circuit Breakers
+                        </span>
+                      </li>
+                     
+                      <li>
+                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                          <i className="bi bi-check"></i></span>
+                        <span>Clean Your AC Air Filters</span>
+                      </li>
+                     
+                      <li>
+                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                          <i className="bi bi-check"></i></span>
+                        <span>Get Your AC Air Ducts Cleaned</span>
+                      </li>
+                     
+                      <li>
+                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                          <i className="bi bi-check"></i></span>
+                        <span>Check Your Outdoor AC Unit
+                        </span>
+                      </li>
+                     
+
+                    </ul>
+                  </div>
+
+                  <div className="col-12 col-md-6">
+                  <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
+                      
+
+                      <li>
+                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                          <i className="bi bi-check"></i></span>
+                        <span>Close Your Room Windows and Doors
+                        </span>
+                      </li>
+                      
+                      <li>
+                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                          <i className="bi bi-check"></i></span>
+                        <span>Call a FAJ Technician to Check for Low Refrigerant (Gas)
+
+                        </span>
+                      </li>
+                      
+                      <li>
+                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                          <i className="bi bi-check"></i></span>
+                        <span>Open Your AC Air Vents</span>
+                      </li>
+                      
+                      <li>
+                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                          <i className="bi bi-check"></i></span>
+                        <span>Investigate for AC Water Leaks
+                        </span>
+                      </li>
+                      
+                      <li>
+                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                          <i className="bi bi-check"></i></span>
+                        <span>Call FAJ Experts for AC</span>
+                      </li>
+
+                    </ul>
+                  </div>
+                  <p className="mb-0">
+                    If none of these steps resolve the issue, it may be time to call in a FAJ professional AC technician for a thorough diagnosis and repair.
+
+                  </p>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
 
 
         {/*WFAJ: Creating the Perfect Temperature All Year Round */}
