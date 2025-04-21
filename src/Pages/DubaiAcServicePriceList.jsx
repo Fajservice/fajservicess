@@ -86,12 +86,12 @@ const DubaiAcServicePriceList = () => {
                 </div>
             </div>
 
-            <div class="container">
-                <div class="acsvs-sec-feat-inner">
-                    <div class="row gx-lg-3">
-                        <div class="col-lg-4">
-                            <div class="inner-acsvs-sec-feat">
-                                <div class="avsvs-sec-feat-sub">
+            <div className="container">
+                <div className="acsvs-sec-feat-inner">
+                    <div className="row gx-lg-3">
+                        <div className="col-lg-4">
+                            <div className="inner-acsvs-sec-feat">
+                                <div className="avsvs-sec-feat-sub">
                                     <div className="d-blue">
                                         <div id="acsvs-sec01" className="text-center mb-3" style={{ display: 'block' }}>
                                             <p className="acsvs-sec-feat-p1">Technical Inspection Fee <b style={{ textTransform: 'math-auto' }}>1 to 3 AC <sup><small>units</small></sup></b></p>
@@ -121,9 +121,9 @@ const DubaiAcServicePriceList = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="inner-acsvs-sec-feat">
-                                <div class="avsvs-sec-feat-sub">
+                        <div className="col-lg-4">
+                            <div className="inner-acsvs-sec-feat">
+                                <div className="avsvs-sec-feat-sub">
                                     <div className="d-green">
                                         <div id="acsvs-sec03" className="text-center mb-3" style={{ display: 'block' }}>
                                             <p className="acsvs-sec-feat-p1">Cost AC Cleaning Services</p>
@@ -153,9 +153,9 @@ const DubaiAcServicePriceList = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="inner-acsvs-sec-feat">
-                                <div class="avsvs-sec-feat-sub">
+                        <div className="col-lg-4">
+                            <div className="inner-acsvs-sec-feat">
+                                <div className="avsvs-sec-feat-sub">
                                     <div className="l-green">
                                         <div id="acsvs-sec05" className="text-center mb-3" style={{ display: 'block' }}>
                                             <p className="acsvs-sec-feat-p1">Cost Home AC / Office AC Unit Servicing</p>
@@ -185,9 +185,9 @@ const DubaiAcServicePriceList = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="inner-acsvs-sec-feat">
-                                <div class="avsvs-sec-feat-sub">
+                        <div className="col-lg-4">
+                            <div className="inner-acsvs-sec-feat">
+                                <div className="avsvs-sec-feat-sub">
                                     <div className="d-purple">
                                         <div id="acsvs-sec07" className="text-center mb-3" style={{ display: 'block' }}>
                                             <p className="acsvs-sec-feat-p1">Cost Home AC / Office AC Unit Servicing</p>
@@ -217,9 +217,9 @@ const DubaiAcServicePriceList = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="inner-acsvs-sec-feat">
-                                <div class="avsvs-sec-feat-sub">
+                        <div className="col-lg-4">
+                            <div className="inner-acsvs-sec-feat">
+                                <div className="avsvs-sec-feat-sub">
                                     <div className="l-blue">
                                         <div id="acsvs-sec09" className="text-center mb-3" style={{ display: 'block' }}>
                                             <p className="acsvs-sec-feat-p1">Cost Commercial AC Unit Servicing</p>
@@ -249,9 +249,9 @@ const DubaiAcServicePriceList = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="inner-acsvs-sec-feat">
-                                <div class="avsvs-sec-feat-sub">
+                        <div className="col-lg-4">
+                            <div className="inner-acsvs-sec-feat">
+                                <div className="avsvs-sec-feat-sub">
                                     <div className="d-orange">
                                         <div id="acsvs-sec11" className="text-center mb-3" style={{ display: 'block' }}>
                                             <p className="acsvs-sec-feat-p1">Cost VRV &amp; VRF AC Unit Servicing</p>

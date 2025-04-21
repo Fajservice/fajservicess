@@ -5,13 +5,11 @@ import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import CallNowButton from '../Buttons/CallNowButton';
-import GetQuoteButton from "../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import testimonial_data_york from '../../Data/YorkAcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
-import loadBackgroudImages from "../Common/loadBackgroudImages";
 
 const YorkAcRepair =  ({ subtitle, title, bgImg }) => {
   subtitle="Testimonial"
@@ -130,11 +128,11 @@ const YorkAcRepair =  ({ subtitle, title, bgImg }) => {
         </section>
         <section className="section cs_py_48 bg-dark-blue text-light">
           <div className="container">
-            <h3 class="cs_fs_30 text-light">York Central Air Conditioning Service Near Me (Dubai)</h3>
+            <h3 className="cs_fs_30 text-light">York Central Air Conditioning Service Near Me (Dubai)</h3>
             <p>In hot summer, central air con at residential and commercial places is a necessary thing. Without it, you cannot work efficiently and comfortably. Servicing of York Central AC demands increases during summers and FAJ is the experienced one in providing air condition service in your comfort zone. Our trained technicians are capable enough to swiftly service your york central air con. and let you comfortably do your essentials at your home or business. We are the best and possess years of experience in york ac repair in Dubai. The excellency of our work indicates our professionalism and our dedicated nature towards the performance. Our team is capable and excellent enough to deliver the best york ac repair.</p>
-            <h3 class="cs_fs_30 text-light">Top-quality York AC Servicing In Dubai</h3>
+            <h3 className="cs_fs_30 text-light">Top-quality York AC Servicing In Dubai</h3>
             <p>If you looking for the best and most reliable servicing of your York aircon. Then stop right here and look no further. You are exactly where you should be yes, being the top and specialized ones in delivering all kinds of servicing regarding air conditioning. Our customers are quite satisfied and rely on us. We provide quick york ac repair, and installation plus fixing any issues your air con might have.</p> 
-            <h3 class="cs_fs_30 text-light">Fixing of York Central Air Con Instantly</h3>
+            <h3 className="cs_fs_30 text-light">Fixing of York Central Air Con Instantly</h3>
             <p>Who does not want a cool healthy home? We all want, and our air condition plays a vital role. Your York Central AC might be not cooling the room or area it used to be. It is maybe instead of cooling your home, working in a reverse manner. When you turn on your air condition humidity increases then, this is indicating that a clear fix is required. If the execution of air condition maintenance is on time then definitely results are fruitful and are less costly. We are always present to help you in solving all the issues. Our focus is to provide satisfactory results to our customers and provide swift fixing of your AC. We value your time and money therefore, we always deliver more than you ask for. Our focus is to help you to stay comfortable in a cool environment.</p>    
           </div>
         </section>
@@ -317,10 +315,10 @@ const YorkAcRepair =  ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_48  bg-light-gray">
           <div className="container">
-          <h3 class="cs_fs_30">York Central Controller Fault Codes</h3>
+          <h3 className="cs_fs_30">York Central Controller Fault Codes</h3>
             <div className="row align-items-center">
                 <div className="col-xl-6">
-                  <img class="blue-border" src={`${import.meta.env.BASE_URL}/img/ac-reapir-near-me.jpg`} alt="Post Image" />
+                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/ac-reapir-near-me.jpg`} alt="Post Image" />
                 </div>
                 <div className="col-xl-6">
                   <p>In this type of AC errors can be;</p>
@@ -424,7 +422,7 @@ const YorkAcRepair =  ({ subtitle, title, bgImg }) => {
         {/* cooling */}
         <section className="section cs_py_48">
             <div className="container text-center">
-                <div class="row">
+                <div className="row">
                     <div className="col-lg-4">
                         <div className="acsvs-sec-prefoot-sec-cone">
                             <h3 className="cs_fs_20 mb-0">COOLING &amp; HEATING</h3>
@@ -507,7 +505,7 @@ const YorkAcRepair =  ({ subtitle, title, bgImg }) => {
         </section>
         <div className="section cs_py_48  bg-dark-blue text-light">
           <div className="container">
-            <h3 class="cs_fs_30 text-light">FAQ's</h3>
+            <h3 className="cs_fs_30 text-light">FAQ's</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 
