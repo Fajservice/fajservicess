@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../Data/AcRepairInDubaiStudioCity.json';
+import data from '../../Data/AcRepairInTheSprings.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
@@ -8,9 +8,8 @@ import GetQuoteButton from "../Buttons/GetQuoteButton";
 import CallNowButton from "../Buttons/CallNowButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import FAJACPrice from "../Miscellaneous/FAJACPrice";
-import QuickGuide from "../QuickGuide/QuickGuide";
 
-const AcRepairInJumeirahIslandsDetail = () => {
+const AcRepairInTheSpringsDetail = () => {
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -31,8 +30,8 @@ const AcRepairInJumeirahIslandsDetail = () => {
   return (
     <>
     <HelmetProvider>
-        <title>AC Services in Jumeirah Islands - AC Maintenance Dubai</title>
-        <meta name="description" content="Call FAJ 043300002. If you are looking for best ac services in jumeirah islands dubai and centralized fcu air conditioning system repairing nearby"></meta>
+        <title>FAJ / AC Services In The Springs - #1 Central AC Repair And Fix</title>
+        <meta name="description" content="Get sameday ac services in the springs dubai. We are experts in central & split air conditioner maintenance & ac repairs near me Dubai 043300002"></meta>
     </HelmetProvider>
 
     <div className="cs_service_details">
@@ -47,7 +46,7 @@ const AcRepairInJumeirahIslandsDetail = () => {
 
                     <div class="container d-flex justify-content-center align-items-center">
                         {/* <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#0D6EFD" }}>Get A Free Quote</a>
-                <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex border border-outline align-items-center" href="tel:+971507464712">Call Now</a> */}
+                        <a data-anim-type="fade-in-up" class="mx-2 btn btn-custom d-flex border border-outline align-items-center" href="tel:+971507464712">Call Now</a> */}
                         <CallNowButton /> <GetQuoteButton />
                     </div>
 
@@ -60,8 +59,8 @@ const AcRepairInJumeirahIslandsDetail = () => {
                 <div className="row g-5">
                     <div className="col-md-6">
                         <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
-                        <h3 className="cs_fs_24 mb-1 mt-3">Best AC Repair in Jumeirah Islands</h3>
-                        <p>When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Jumeirah Islands, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
+                        <h3 className="cs_fs_24 mb-1 mt-3">Best AC Repair in The Springs</h3>
+                        <p>When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in The Springs, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
                         <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                     </div>
 
@@ -222,7 +221,77 @@ const AcRepairInJumeirahIslandsDetail = () => {
         </section>
 
         {/* A Quick Tour to Your AC Problems and Fixing*/}
-        <QuickGuide />
+        <section className="section cs_py_48 bg-light-gray">
+            <div className="container">
+                <h3 className="cs_fs_30">A Quick Guide to Understanding and Fixing Your AC Problems</h3>
+                <div className="row">
+                    <div className="col-xl-6">
+                        <iframe className="bordered-img blue-border" width="100%" height="350" src="https://www.youtube.com/embed/sxBhB1_gxYA?si=96yf5hxyAA3bct8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+                    </div>
+                    <div className="col-xl-6">
+                        <p>Watch this video to learn about the common issues your air conditioning unit may experience.
+                        This knowledge will help you ensure that the professionals you hire are performing the appropriate checks and maintenance.</p>
+                        <p><strong>We specialize in:</strong></p>
+                        <div className="row">
+                            <div className="col">
+                                <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
+                                    <li>
+                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                                            <i className="bi bi-check"></i></span>
+                                        <span>AC coil cleaning</span>
+                                    </li>
+                                    <li>
+                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                                            <i className="bi bi-check"></i></span>
+                                        <span>Recharging refrigerant levels</span>
+                                    </li>
+                                    <li>
+                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                                            <i className="bi bi-check"></i></span>
+                                        <span>Cleaning or replacing the air filtes</span>
+                                    </li>
+                                    <li>
+                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                                            <i className="bi bi-check"></i></span>
+                                        <span>Checking and tightening electrical connections</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div className="col">
+                                <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
+                                    <li>
+                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                                            <i className="bi bi-check"></i></span>
+                                        <span>Regular maintenance</span>
+                                    </li>
+                                    <li>
+                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                                            <i className="bi bi-check"></i></span>
+                                        <span>Unclogging drain lines</span>
+                                    </li>
+                                    <li>
+                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                                            <i className="bi bi-check"></i></span>
+                                        <span>Inspecting and AC installation
+                                        </span>
+                                    </li>
+
+                                    <li>
+                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
+                                            <i className="bi bi-check"></i></span>
+                                        <span>Fixing leaks refrigerant, water, or duct leaks</span>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <BenefitAcMaintenance />
 
@@ -431,4 +500,4 @@ const AcRepairInJumeirahIslandsDetail = () => {
   )
 }
 
-export default AcRepairInJumeirahIslandsDetail
+export default AcRepairInTheSpringsDetail

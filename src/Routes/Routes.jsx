@@ -43,6 +43,12 @@ import WestpointAcRepair from "../Pages/WestpointAcRepair";
 import CoolineAcRepair from "../Pages/CoolineAcRepair";
 import AcRepairInDubaiStudioCity from "../Pages/AcRepairInDubaiStudioCity";
 import AcRepairInJumeirahIslands from "../Pages/AcRepairInJumeirahIslands";
+import AcRepairInAlQusais from "../Pages/AcRepairInAlQusais";
+import AcRepairInTheSprings from "../Pages/AcRepairInTheSprings";
+import AcRepairInAlMirdif from "../Pages/AcRepairInAlMirdif";
+import AcRepairInInternationalMediaAndProductionZone from "../Pages/AcRepairInInternationalMediaAndProductionZone";
+import AcRepairInJumeirahVillageCircle from "../Pages/AcRepairInJumeirahVillageCircle";
+import AcRepairInBusinessBay from "../Pages/AcRepairInBusinessBay";
 export const router = createHashRouter([
   {
     path: "/",
@@ -216,6 +222,30 @@ export const router = createHashRouter([
       {
         path: "/ac-services-jumeirah-islands/",
         element: <AcRepairInJumeirahIslands/>,
+      },
+      {
+        path: "/ac-repair-al-qusais/",
+        element: <AcRepairInAlQusais/>,
+      },
+      {
+        path: "/ac-services-in-the-springs/",
+        element: <AcRepairInTheSprings/>,
+      },
+      {
+        path: "/ac-services-in-al-mirdif/",
+        element: <AcRepairInAlMirdif/>,
+      },
+      {
+        path: "/ac-services-in-international-media-and-production-zone/",
+        element: <AcRepairInInternationalMediaAndProductionZone/>,
+      },
+      {
+        path: "/ac-services-in-jumeirah-village-circle/",
+        element: <AcRepairInJumeirahVillageCircle/>,
+      },
+      {
+        path: "/ac-services-in-business-bay/",
+        element: <AcRepairInBusinessBay/>,
       },
     ],
   }

@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../Data/AcRepairInDubaiStudioCity.json';
+import data from '../../Data/AcRepairInJumeirahVillageCircle.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
@@ -10,7 +10,7 @@ import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import FAJACPrice from "../Miscellaneous/FAJACPrice";
 import QuickGuide from "../QuickGuide/QuickGuide";
 
-const AcRepairInJumeirahIslandsDetail = () => {
+const AcRepairInJumeirahVillageCircleDetail = () => {
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -31,8 +31,8 @@ const AcRepairInJumeirahIslandsDetail = () => {
   return (
     <>
     <HelmetProvider>
-        <title>AC Services in Jumeirah Islands - AC Maintenance Dubai</title>
-        <meta name="description" content="Call FAJ 043300002. If you are looking for best ac services in jumeirah islands dubai and centralized fcu air conditioning system repairing nearby"></meta>
+        <title>Best AC Services In Jumeirah Village Circle - #1 AC Fixing</title>
+        <meta name="description" content="If you are looking for the best ac services in jumeirah village circle dubai. Call 043300002 for centralized a/c system repairing & aircon maintenance"></meta>
     </HelmetProvider>
 
     <div className="cs_service_details">
@@ -60,8 +60,8 @@ const AcRepairInJumeirahIslandsDetail = () => {
                 <div className="row g-5">
                     <div className="col-md-6">
                         <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
-                        <h3 className="cs_fs_24 mb-1 mt-3">Best AC Repair in Jumeirah Islands</h3>
-                        <p>When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Jumeirah Islands, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
+                        <h3 className="cs_fs_24 mb-1 mt-3">Best AC Repair in Jumeirah Village Circle</h3>
+                        <p>When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Jumeirah Village Circle, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
                         <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                     </div>
 
@@ -431,4 +431,4 @@ const AcRepairInJumeirahIslandsDetail = () => {
   )
 }
 
-export default AcRepairInJumeirahIslandsDetail
+export default AcRepairInJumeirahVillageCircleDetail
