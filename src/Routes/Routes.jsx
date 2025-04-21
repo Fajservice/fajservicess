@@ -41,6 +41,8 @@ import AcRepairInTheMeadows from "../Pages/AcRepairInTheMeadows";
 import MideaAcRepair from "../Pages/MideaAcRepair";
 import WestpointAcRepair from "../Pages/WestpointAcRepair";
 import CoolineAcRepair from "../Pages/CoolineAcRepair";
+import DaewooAcRepair from "../Pages/DaewooAcRepair";
+import SkmAcRepair from "../Pages/SkmAcRepair";
 export const router = createHashRouter([
   {
     path: "/",
@@ -106,6 +108,14 @@ export const router = createHashRouter([
       {
         path: "/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con/",
         element: <DaikinAcRepair />,
+      },
+      {
+        path: "/daewoo-ac-repair-in-dubai-daewoo-ac-maintenance-in-dubai-daewoo-ac-fix-in-dubai-daewoo-ac-service-in-dubai-daewoo-air-condition-repair-in-dubai-daewoo-air-condition-maintenance-in-dubai-daewoo-air-con/",
+        element: <DaewooAcRepair />,
+      },
+      {
+        path: "/skm-ac-repair-in-dubai-skm-ac-maintenance-in-dubai-skm-ac-fix-in-dubai-skm-ac-service-in-dubai-skm-air-condition-repair-in-dubai-skm-air-condition-maintenance-in-dubai-skm-air-condition-maintenance-in/",
+        element: <SkmAcRepair />,
       },
       {
         path: "/cooline-ac-repair-in-dubai-cooline-ac-maintenance-in-dubai-cooline-ac-fix-in-dubai-cooline-ac-service-in-dubai-cooline-air-condition-repair-in-dubai-cooline-air-condition-maintenance-in-dubai-cooline/",

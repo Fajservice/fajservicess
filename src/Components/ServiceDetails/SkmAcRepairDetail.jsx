@@ -1,17 +1,17 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../Data/FujitsuAcRepairfaq.json';
+import data from '../../Data/SkmAcRepairfaq.json';
 import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import CallNowButton from '../Buttons/CallNowButton';
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
-import testimonial_data_Fujitsu from '../../Data/FujitsuAcServiceTestimonials.json';
+import testimonial_data_Skm from '../../Data/SkmAcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";
 
-const FujitsuAcRepair = ({ subtitle, title, bgImg }) => {
+const SkmAcRepair = ({ subtitle, title, bgImg }) => {
   subtitle="Testimonial"
   title="What our clients say <br> About Us"
   bgImg="/img/testimonialbg.jpg"
@@ -64,8 +64,8 @@ const FujitsuAcRepair = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-      <title>Fujitsu Ac Repair in Dubai -  Air Conditioner Maintenance</title>
-      <meta name="description" content="Relax with Fujitsu AC. Call 0507464712 for Fujitsu Ac Repair in Dubai We are experts in HVAC, Central Air Conditioner maintenance service near me"/>
+      <title>SKM AC Repair in Dubai - SKM Air Conditioner Service Near</title>
+      <meta name="description" content="SKM #1 Brand in UAE. Call us at 043300002 for SKM AC Repair in Dubai, We are experts in HVAC & Central Air Conditioner Maintenance Service near by you."/>
       </HelmetProvider>
 
       <div className="cs_service_details">
@@ -75,7 +75,7 @@ const FujitsuAcRepair = ({ subtitle, title, bgImg }) => {
             <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
             <p>FAJ Technical Services LLC is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
               <br />
-              Our skilled AC technicians can handle all types and models of Fujitsu air conditioning units, ensuring your home or business stays cool and comfortable.</p>
+              Our skilled AC technicians can handle all types and models of Skm air conditioning units, ensuring your home or business stays cool and comfortable.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -91,14 +91,14 @@ const FujitsuAcRepair = ({ subtitle, title, bgImg }) => {
             <div className="container">
                 <div className="row g-5">
                     <div className="col-md-6">
-                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Fujitsu Ac Repair" />
-                        <h3 className="cs_fs_25 mb-1 mt-3">Best Fujitsu AC Repair in Dubai</h3>
-                        <p>When it comes to Fujitsu <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Dubai, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
-                        <p>We specialize in Fujitsu air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
+                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Skm Ac Repair" />
+                        <h3 className="cs_fs_25 mb-1 mt-3">Best Skm AC Repair in Dubai</h3>
+                        <p>When it comes to Skm <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Dubai, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
+                        <p>We specialize in Skm air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                     </div>
 
                     <div className="col-md-6 border-small-left">
-                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Fujitsu Ac Repair" />
+                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Skm Ac Repair" />
                         <h3 className="cs_fs_24 mb-1 mt-3">Signs You Need An AC Service</h3>
                         <p>If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                         <ul>
@@ -129,42 +129,14 @@ const FujitsuAcRepair = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-          <h3 className="cs_fs_30">Fujitsu Air Con Service Quality Workmanship </h3>
+          <h3 className="cs_fs_30">Skm Air Con Service Quality Workmanship </h3>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <p>Air conditioners that are people-friendly are environmentally friendly. And, Fujitsu air con is one of them. Central Fujitsu air conditioner is an intelligent choice when it comes to beating humidity and heat indoors. Just like every other aircon the requirement for Fujitsu air conditioner repair increases as well. Regular maintenance and servicing not only conserve electricity but also helps keep operating your Fujitsu air con for many years. Adequate routine maintenance helps to quickly diagnose the issues of your central AC and fix them before they turn into some huge problem.</p>
-                <h3 className="cs_fs_24">Error Codes- Fujitsu air conditioner repair</h3>
-                <p>When something goes awry the air con quickly displays that, these errors indicate the underlying problems with your air con. Whether it is split air conditioning or ceiling air con, they all show the error codes on the display. It is the job of experts solely to identify them and promptly fix them.</p>
-                <ul className="d-flex flex-wrap column-gap-4">
-                  <li>01</li>
-                  <li>02</li>
-                  <li>03</li>
-                  <li>04</li>
-                  <li>05</li>
-                  <li>06</li>
-                  <li>07</li>
-                  <li>08</li>
-                  <li>09</li>
-                  <li>OA</li>
-                  <li>OC</li>
-                  <li>OE</li>
-                  <li>11</li>
-                  <li>12</li>
-                  <li>13</li>
-                  <li>14</li>
-                  <li>15</li>
-                  <li>16</li>
-                  <li>17</li>
-                  <li>18</li>
-                  <li>19</li>
-                  <li>1A</li>
-                  <li>1B</li>
-                  <li>1C</li>
-                  <li>1D</li>
-                </ul>
+                
+                <p>FAJ is working consistently since 2010 to make its customers satisfied and comfortable. Getting the best Skm ac repair service in Dubai is not easy especially when you are in urgent need. Our superior workmanship is what makes us different from others. In the need of immediate help, we are present and we provide unbeatable service to our customers. With our regular maintenance service keep your Skm air con running smoothly and swiftly. <br />Breathing fresh air is the right of everyone. Getting top-quality fresh air requires the best air con. Skm can provide healthy air to its buyers. In Dubai, Skm is the leading brand. So, if you have Skm air conditioning at your home or office and looking for its repairs. Why not look for a top-quality service provider for a top ac brand? <br />FAJ Technical Services LLC is a top-notch company providing mind-blowing Skm ac repair in Dubai. We understand the necessity of properly functioning air. Our team of experienced technicians ensures to provide optimal performance of Skm air con and an enjoyable indoor environment all year round.</p>
               </div>
               <div className="col-md-6 text-center text-md-end">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/fujitsu-ac-service.jpg`} alt="Fujitsu Ac Repair" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-service.jpg`} alt="Skm Ac Repair" />
                 
               </div>
             </div>
@@ -332,7 +304,6 @@ const FujitsuAcRepair = ({ subtitle, title, bgImg }) => {
                                             <i className="bi bi-check"></i></span>
                                         <span>Fixing leaks refrigerant, water, or duct leaks</span>
                                     </li>
-
                                 </ul>
                             </div>
 
@@ -345,25 +316,33 @@ const FujitsuAcRepair = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_48 bg-dark-blue text-light">
           <div className="container">
             <div className="row">
+                <div className="col-md-6">
+                    <h3 className="cs_fs_24 text-light">Exceptional Repairing Of Skm Centralized Air Conditioning (Air Con)</h3>
+                    <p>To provide more comfort to you, potential and timely repair is indispensable. After proper repair, your air con offers great cooling performance. Regular maintenance of your centralized ac extends its lifetime and improves functions. Not many offer Skm ac repair in Dubai. However, FAJ is unique and experienced in providing exceptional service, maintenance, and fixing of your aircon. Get instant access to a potentially trained, highly skilled professional for optimal and fast air condition repairing.</p>
+                </div>
+                <div className="col-md-6">
+                    <h3 className="cs_fs_24 text-light">Cost Effective VRV Installation And Operation (Skm Aircon) AC</h3>
+                    <p>VRV Skm air conditioning is called ideal for small and large spaces. It is the most advanced air system worldwide and popular as well. It is significantly equipped with modern technology and, results in energy efficiency. To install this Skm VRV ac an exceptionally trained team is required. To get the advantage of better comfort and a sustainable cooled environment accurate installation and operation is a key.</p>    
+                </div>
                 <div className="col-md-12">
-                    <h3 className="cs_fs_24 text-light">Advantages Of Routine Fujitsu Air Conditioner Service</h3>
-                    <p>Though your inverter is functioning well and delivering satisfactory outcomes. However, with time it needs fixing and complete maintenance regularly. The longer you go without servicing your fujitsu air con the closer your A/c will get to the point where it shall halt functioning completely. On the contrary, if you give your air con optimum attention and care by getting maintained and serviced daily by an expert company. The results will be beyond your expectations and your inverter will take your side for decades. There are many pros of it here, we will discuss a couple of the most important ones;</p>
+                    <h3 className="cs_fs_24 text-light">Different Models Of Skm Ducted Aircon</h3>
+                    <p>Several types/ models of Skm ducted ac are available in the market. Choosing the best one which is suitable for your house or office is an art. Expert advice clears all doubts and helps you to get the right aircon for your place.</p>
                 </div>
                 <div className="col-md-6">
-                    <h3 className="cs_fs_18 text-light">Accelerate Durability</h3>
-                    <p>One of the best benefits of getting proper maintenance of a fujitsu aircon is that your split aircon remains in top shape. This simply means, your air conditioner will not be affected due to any climate changes Furthermore, no fear of damaging and repairing. Servicing ensures that your air conditioner will continuously operate for years. In addition to it, optimal timely fujitsu air conditioner repair is essential to prevent any future large repairs. Always ensure that you have communicated with an experienced serviceman for exceptional maintenance regularly.</p>    
+                    <h4 className="cs_fs_18 text-light">Inverter Skm Ducted</h4>
+                    <p>This type of air conditioner has an efficient and compact design. This one is ideal to install in the tight roof space of the modern home.</p>
                 </div>
                 <div className="col-md-6">
-                    <h3 className="cs_fs_18 text-light">Lower Electric Bill</h3>
-                    <p>Having an air conditioner means more electricity bills and, without maintenance ends up increasing electricity bills pressure even more. Moreover, reduced efficiency because of lack of regular maintenance will cause your fujitsu split air conditioning to consume extra power. An ineffective Ac machine is an overworked piece of technology that leads to higher electric consumption. If you have a Fujitsu aircon and it is causing problems, then getting the excellent fujitsu air conditioner repair service can immediately lower your electricity bills.</p>
+                    <h4 className="cs_fs_18 text-light">Premium Inverter Ducted</h4>
+                    <p>This ducted air con has remarkable energy performance and the ability to perform functions quite innovatively. We are skilled enough in installing, repairing, fixing, and maintenance of these kinds of air conditioners.</p>    
                 </div>
                 <div className="col-md-6">
-                    <h4 className="cs_fs_18 text-light">Minimum Repair Cost</h4>
-                    <p>Repairs attract more money depending upon the extent of damage primarily the expenses get high. Through minor weekly repairs, you will be able to protect your fujitsu HVAC air conditioning from lengthy repairs. Thus, this way your cooling system will be entirely rescued from any kind of damage. Likewise, scheduling regular maintenance of your AC will reduce the effect of wear and tear. Thus, significantly allowing each component of HVAC to run smoothly and swiftly.</p>
+                    <h4 className="cs_fs_18 text-light">Bulkhead System</h4>
+                    <p>This model is best for drop ceilings and shallow ceilings. Optimal for bedroom air conditioning and ideal where discreet installation is a preference.</p>
                 </div>
                 <div className="col-md-6">
-                    <h4 className="cs_fs_18 text-light">No Strange Smell From Aircon</h4>
-                    <p>Another significance of maintaining your centralized air conditioning is, it remains devoid of unpleasant odor. Yes, you read it right! Regular proper cleaning of air filters and evaporator coils keeps them clogged with dust, dirt, and debris. Moreover, no freezing up of the evaporator coil occurs when Ac is being serviced daily. Whether you have a fujitsu ducted system or central air conditioner you always want to achieve fresh, crisp, and cool air.</p>    
+                    <h4 className="cs_fs_18 text-light">Slimline Ducted</h4>
+                    <p>It has freedom of design and unparalleled flexibility. FAJ is the most reliable and ideal one for installing and maintenance of these ac machines.</p>    
                 </div>
             </div>
           </div>
@@ -372,10 +351,10 @@ const FujitsuAcRepair = ({ subtitle, title, bgImg }) => {
         
         <section className="section cs_py_48">
           <div className="container">
-          <h3 className="cs_fs_30">Get A Full Fledged Expert Service Of Fujitsu HVAC</h3>
+          <h3 className="cs_fs_30">Get A Full Fledged Expert Service Of Skm HVAC</h3>
             <div className="row align-items-center">
                 <div className="col-xl-6">
-                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/fujitsu-ac-repair.jpg`} alt="Fujitsu Ac Repair" />
+                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-repair.jpg`} alt="Skm Ac Repair" />
                 </div>
                 <div className="col-xl-6">
                   <p>While modern HVAC systems are manufactured to deliver year-long service. However, issues with air condition can and will arise. Here are some common problems which are faced by several homeowners, businesses, etc.</p>
@@ -383,12 +362,12 @@ const FujitsuAcRepair = ({ subtitle, title, bgImg }) => {
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
-                      <span><strong>Blown Is Fused:</strong> One reason your Fujitsu HVAC is not functioning is because of blown fuses. Fuses are mainly designed to protect the compressor and unit’s motor or ac engine from overheating. Due to that, the breaker gets flipped off which indicates a huge problem with your HVAC air con.</span>
+                      <span><strong>Blown Is Fused:</strong> One reason your Skm HVAC is not functioning is because of blown fuses. Fuses are mainly designed to protect the compressor and unit’s motor or ac engine from overheating. Due to that, the breaker gets flipped off which indicates a huge problem with your HVAC air con.</span>
                     </li>
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
-                      <span><strong>Unclean Air Filters:</strong> Dirty ac filters make your Fujitsu HVAC aircon to under-perform and eventually freeze. Air filters must be regularly changed otherwise, airflow can be decreased significantly. For exceptional services, FAJ is available on the other side of a single call. Don’t let your air condition issues disturb your comfort and your important work. Let us keep your air conditioning in optimal condition, and make sure you and your loved ones enjoy cool and fresh air.</span>
+                      <span><strong>Unclean Air Filters:</strong> Dirty ac filters make your Skm HVAC aircon to under-perform and eventually freeze. Air filters must be regularly changed otherwise, airflow can be decreased significantly. For exceptional services, FAJ is available on the other side of a single call. Don’t let your air condition issues disturb your comfort and your important work. Let us keep your air conditioning in optimal condition, and make sure you and your loved ones enjoy cool and fresh air.</span>
                     </li>
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
@@ -502,7 +481,7 @@ const FujitsuAcRepair = ({ subtitle, title, bgImg }) => {
                 data-add-slides="2" data-slides-per-view="responsive">
                 <div className="cs_slider_wrapper">
                   <Slider {...settings}>
-                    {testimonial_data_Fujitsu.map((item, index) => (
+                    {testimonial_data_Skm.map((item, index) => (
                       <div key={index} className="cs_slide wow fadeInLeft">
                         <div className="cs_testimonial cs_style_1 position-relative">
                           <div className="cs_testimonial_content cs_white_bg position-relative">
@@ -579,4 +558,4 @@ const FujitsuAcRepair = ({ subtitle, title, bgImg }) => {
   );
 };
 
-export default FujitsuAcRepair;
+export default SkmAcRepair;
