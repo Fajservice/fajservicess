@@ -51,7 +51,16 @@ import AcRepairInJumeirahVillageCircle from "../Pages/AcRepairInJumeirahVillageC
 import AcRepairInBusinessBay from "../Pages/AcRepairInBusinessBay";
 import DaewooAcRepair from "../Pages/DaewooAcRepair";
 import SkmAcRepair from "../Pages/SkmAcRepair";
+<<<<<<< HEAD
 import BlueStarAcRepair from "../Pages/BlueStarAcRepair";
+=======
+import AcRepairInArabianRanches from "../Pages/AcRepairInArabianRanches";
+import AcRepairInDip from "../Pages/AcRepairInDip";
+import AcRepairInDiscoveryGardens from "../Pages/AcRepairInDiscoveryGardens";
+import AcRepairInAlWahaCommunity from "../Pages/AcRepairInAlWahaCommunity";
+import AcRepairInHudaiba from "../Pages/AcRepairInHudaiba";
+import AcRepairInImpz from "../Pages/AcRepairInImpz";
+>>>>>>> 30cd4449f89a0fdb28a04711d1fc6324e9292ed0
 export const router = createHashRouter([
   {
     path: "/",
@@ -262,6 +271,30 @@ export const router = createHashRouter([
       {
         path: "/ac-services-in-business-bay/",
         element: <AcRepairInBusinessBay/>,
+      },
+      {
+        path: "/ac-services-in-arabian-ranches/",
+        element: <AcRepairInArabianRanches/>,
+      },
+      {
+        path: "/ac-services-in-dip/",
+        element: <AcRepairInDip/>,
+      },
+      {
+        path: "/ac-services-in-discovery-gardens/",
+        element: <AcRepairInDiscoveryGardens/>,
+      },
+      {
+        path: "/ac-services-in-al-waha-community/",
+        element: <AcRepairInAlWahaCommunity/>,
+      },
+      {
+        path: "/ac-services-in-hudaiba/",
+        element: <AcRepairInHudaiba/>,
+      },
+      {
+        path: "/ac-services-in-impz/",
+        element: <AcRepairInImpz/>,
       },
     ],
   }
