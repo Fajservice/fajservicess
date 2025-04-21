@@ -51,6 +51,7 @@ import AcRepairInJumeirahVillageCircle from "../Pages/AcRepairInJumeirahVillageC
 import AcRepairInBusinessBay from "../Pages/AcRepairInBusinessBay";
 import DaewooAcRepair from "../Pages/DaewooAcRepair";
 import SkmAcRepair from "../Pages/SkmAcRepair";
+import BlueStarAcRepair from "../Pages/BlueStarAcRepair";
 export const router = createHashRouter([
   {
     path: "/",
@@ -137,6 +138,10 @@ export const router = createHashRouter([
       {
         path: "/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten/",
         element: <YorkAcRepair></YorkAcRepair>,
+      },
+      {
+        path: "/blue-star-ac-repair-in-dubai-blue-star-ac-maintenance-in-dubai-blue-star-ac-fix-in-dubai-blue-star-ac-service-in-dubai-blue-star-air-condition-repair-in-dubai-blue-star-air-condition-maintenance-in-du/",
+        element: <BlueStarAcRepair />,
       },
       {
         path: "/project",
