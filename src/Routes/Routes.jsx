@@ -43,8 +43,20 @@ import WestpointAcRepair from "../Pages/WestpointAcRepair";
 import CoolineAcRepair from "../Pages/CoolineAcRepair";
 import AcRepairInDubaiStudioCity from "../Pages/AcRepairInDubaiStudioCity";
 import AcRepairInJumeirahIslands from "../Pages/AcRepairInJumeirahIslands";
+import AcRepairInAlQusais from "../Pages/AcRepairInAlQusais";
+import AcRepairInTheSprings from "../Pages/AcRepairInTheSprings";
+import AcRepairInAlMirdif from "../Pages/AcRepairInAlMirdif";
+import AcRepairInInternationalMediaAndProductionZone from "../Pages/AcRepairInInternationalMediaAndProductionZone";
+import AcRepairInJumeirahVillageCircle from "../Pages/AcRepairInJumeirahVillageCircle";
+import AcRepairInBusinessBay from "../Pages/AcRepairInBusinessBay";
 import DaewooAcRepair from "../Pages/DaewooAcRepair";
 import SkmAcRepair from "../Pages/SkmAcRepair";
+import AcRepairInArabianRanches from "../Pages/AcRepairInArabianRanches";
+import AcRepairInDip from "../Pages/AcRepairInDip";
+import AcRepairInDiscoveryGardens from "../Pages/AcRepairInDiscoveryGardens";
+import AcRepairInAlWahaCommunity from "../Pages/AcRepairInAlWahaCommunity";
+import AcRepairInHudaiba from "../Pages/AcRepairInHudaiba";
+import AcRepairInImpz from "../Pages/AcRepairInImpz";
 export const router = createHashRouter([
   {
     path: "/",
@@ -227,6 +239,54 @@ export const router = createHashRouter([
       {
         path: "/ac-services-jumeirah-islands/",
         element: <AcRepairInJumeirahIslands/>,
+      },
+      {
+        path: "/ac-repair-al-qusais/",
+        element: <AcRepairInAlQusais/>,
+      },
+      {
+        path: "/ac-services-in-the-springs/",
+        element: <AcRepairInTheSprings/>,
+      },
+      {
+        path: "/ac-services-in-al-mirdif/",
+        element: <AcRepairInAlMirdif/>,
+      },
+      {
+        path: "/ac-services-in-international-media-and-production-zone/",
+        element: <AcRepairInInternationalMediaAndProductionZone/>,
+      },
+      {
+        path: "/ac-services-in-jumeirah-village-circle/",
+        element: <AcRepairInJumeirahVillageCircle/>,
+      },
+      {
+        path: "/ac-services-in-business-bay/",
+        element: <AcRepairInBusinessBay/>,
+      },
+      {
+        path: "/ac-services-in-arabian-ranches/",
+        element: <AcRepairInArabianRanches/>,
+      },
+      {
+        path: "/ac-services-in-dip/",
+        element: <AcRepairInDip/>,
+      },
+      {
+        path: "/ac-services-in-discovery-gardens/",
+        element: <AcRepairInDiscoveryGardens/>,
+      },
+      {
+        path: "/ac-services-in-al-waha-community/",
+        element: <AcRepairInAlWahaCommunity/>,
+      },
+      {
+        path: "/ac-services-in-hudaiba/",
+        element: <AcRepairInHudaiba/>,
+      },
+      {
+        path: "/ac-services-in-impz/",
+        element: <AcRepairInImpz/>,
       },
     ],
   }

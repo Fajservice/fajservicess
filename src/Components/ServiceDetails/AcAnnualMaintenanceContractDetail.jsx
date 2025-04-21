@@ -8,7 +8,7 @@ import CallNowButton from '../Buttons/CallNowButton';
 import GetQuoteButton from "../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
-import QuickGuide from "../Quick Guide/QuickGuide"
+import QuickGuide from "../QuickGuide/QuickGuide"
 
 import Slider from "react-slick";
 import testimonial_data from '../../Data/AcServiceTestimonials.json';

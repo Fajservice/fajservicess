@@ -8,6 +8,7 @@ import GetQuoteButton from "../Buttons/GetQuoteButton";
 import CallNowButton from "../Buttons/CallNowButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
+import QuickGuide from "../QuickGuide/QuickGuide";
 
 
 const AcRepairInMethaDetail = () => {
@@ -293,7 +294,7 @@ const AcRepairInMethaDetail = () => {
                         </div>
                     </div>
                 </section>
-
+                <QuickGuide />                       
                 <BenefitAcMaintenance />
 
                 {/*Why Choose FAJ Technical Services LLC? */}

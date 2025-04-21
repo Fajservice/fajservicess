@@ -8,6 +8,7 @@ import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
 import GetQuoteButton from "../Buttons/GetQuoteButton";
 import CallNowButton from "../Buttons/CallNowButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
+import QuickGuide from "../QuickGuide/QuickGuide";
 
 
 const AcRepairInRitzDetail = () => {
@@ -293,7 +294,7 @@ const AcRepairInRitzDetail = () => {
                         </div>
                     </div>
                 </section>
-
+                <QuickGuide />
                 <BenefitAcMaintenance />
 
                 {/*Why Choose FAJ Technical Services LLC? */}

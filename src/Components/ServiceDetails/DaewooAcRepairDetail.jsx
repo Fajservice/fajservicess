@@ -7,7 +7,7 @@ import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import CallNowButton from '../Buttons/CallNowButton';
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
-import QuickGuide from "../Quick Guide/QuickGuide";
+import QuickGuide from "../QuickGuide/QuickGuide";
 import testimonial_data_Daewoo from '../../Data/DaewooAcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";

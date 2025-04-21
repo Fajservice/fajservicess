@@ -8,7 +8,7 @@ import GetQuoteButton from "../Buttons/GetQuoteButton";
 import CallNowButton from "../Buttons/CallNowButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import FAJACPrice from "../Miscellaneous/FAJACPrice";
-import QuickGuide from "../Quick Guide/QuickGuide";
+import QuickGuide from "../QuickGuide/QuickGuide";
 
 
 const AcRepairInLimestoneHouseDifcDetail = () => {
