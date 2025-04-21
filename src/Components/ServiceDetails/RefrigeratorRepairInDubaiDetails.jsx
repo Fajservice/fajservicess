@@ -1,200 +1,557 @@
 import { useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
-import data from '../../Data/refrigeratorfaq.json';
+import { Link, parsePath } from "react-router-dom";
+import data from '../../Data/acfaq.json';
 import { HelmetProvider } from "react-helmet-async";
+import FAJACPrice from '../Miscellaneous/FAJACPrice';
+import Serviceappointemnt from '../Contact/Serviceappointemnt';
+import CallNowButton from '../Buttons/CallNowButton';
+import GetQuoteButton from "../Buttons/GetQuoteButton";
+import WhatsappIconButton from "../Buttons/WhatsappIconButton";
+import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
+import QuickGuide from "../Quick Guide/QuickGuide";
 
-const RefrigeratorRepairInDubaiDetails = () => {
+import Slider from "react-slick";
+import testimonial_data from '../../Data/AcServiceTestimonials.json';
+import loadBackgroudImages from "../Common/loadBackgroudImages";
+import parse from 'html-react-parser';
 
-    const accordionContentRef = useRef(null);
-    const [openItemIndex, setOpenItemIndex] = useState(-1);
-    const [firstItemOpen, setFirstItemOpen] = useState(true);
-  
-    const handleItemClick = index => {
-      if (index === openItemIndex) {
-        setOpenItemIndex(-1);
-      } else {
-        setOpenItemIndex(index);
+const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
+  subtitle = "Testimonial"
+  title = "What our clients say About Us"
+  bgImg = "/img/testimonialbg.jpg"
+  const accordionContentRef = useRef(null);
+  const [openItemIndex, setOpenItemIndex] = useState(-1);
+  const [firstItemOpen, setFirstItemOpen] = useState(true);
+
+  const handleItemClick = index => {
+    if (index === openItemIndex) {
+      setOpenItemIndex(-1);
+    } else {
+      setOpenItemIndex(index);
+    }
+  };
+  useEffect(() => {
+    if (firstItemOpen) {
+      setOpenItemIndex(0);
+      setFirstItemOpen(false);
+    }
+  }, [firstItemOpen]);
+
+  useEffect(() => {
+    loadBackgroudImages();
+  }, []);
+
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 600,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    arrows: false,
+    swipeToSlide: true,
+    responsive: [
+      {
+        breakpoint: 1399,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 1199,
+        settings: {
+          slidesToShow: 2,
+        }
+      }, {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+        }
       }
-    };
-    useEffect(() => {
-      if (firstItemOpen) {
-        setOpenItemIndex(0);
-        setFirstItemOpen(false);
-      }
-    }, [firstItemOpen]);
-
+    ]
+  };
 
     return (
       <>
-        <HelmetProvider>
-          <title>Refrigerator Repair Near Me | Fridge Repair Service Dubai</title>
-          <meta name="description" content="Book refrigerator repair near you. Call now at 0507464712 FAJ experts to get same day fridge repair & maintenance in Dubai. Freezer fix & service center."></meta>
-        </HelmetProvider>
-        <section>
-        <div className="cs_height_80 cs_height_lg_80"></div>
-        <div className="container">
-          <div className="row cs_row_gap_30 cs_gap_y_60">
-            <div className="col-xl-8 col-lg-7">
-              <div className="cs_service_details">
-              <img src={`${import.meta.env.BASE_URL}/img/refrigerater-banner.jpg`} alt="Service Banner" />
-              <h1 className="cs_fs_36">Refrigerator Repair Near Me</h1>
-                <p>One of the appliances we use on a daily basis in our homes is the refrigerator, which is used to prevent food waste. We won't be able to keep food fresh for very long if our refrigerator breaks down. A major issue is also having cold water. Furthermore, you and your entire family have a serious issue if you store food for urgent needs. With FAJ Professional, experience the best home service refrigerator repair. Our knowledgeable specialists are skilled at quickly identifying and resolving problems, so your refrigerator will continue to function flawlessly. At FAJ, we put your convenience first by providing perfect cool refrigeration services to maintain the best possible condition for your appliances.</p>
-                <div id="get-quote" className="mb-5 mt-3">
-                  <div className="container d-flex justify-content-center align-items-center">
-                    <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                    <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-md-6">
-                  <img src={`${import.meta.env.BASE_URL}/img/inspectionfee.jpg`} alt="Post Image" />
-                  <h4 className="cs_fs_18">Technical Inspection Fee</h4>
-                    <p>The technical inspection fee is AED 157, which covers diagnosis, transportation, and reinstallation in Dubai premises. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts.</p>
-                    <p>If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.</p>
-                  </div>
-                  <div className="col-md-6">
-                    <img src={`${import.meta.env.BASE_URL}/img/techfridge.jpg`} alt="Post Image" />
-                    <h3 className="cs_fs_18">Refrigerator Repair & Service Nearby You</h3>
-                    <p>Is your fridge or freezer not cooling properly? Has your food spoiled?</p>
-                    <p>You can easily book online refrigerator repair in Dubai / Sharjah near me service with FAJ Experts. We repair most major brands of refrigerators and freezers, offering same-day fridge service at affordable prices. Choose a time slot that works best for you!</p>
-                  </div>
-                </div>
-                <p>Regarding refrigerator replacement parts, FAJ Professional guarantees longevity and excellence. First-rate replacement parts for well-known brands like LG, Samsung, and Bosch are used by our knowledgeable technicians. We can provide you with replacement parts for LG, Samsung, and Bosch refrigerators as well as freezer parts. Your refrigerator will last a long time because of our dedication to using authentic and trustworthy replacement parts. Furthermore, FAJ is an expert in refrigerator compressor repair. Put your trust in our professionals to identify and fix compressor problems so your refrigerator runs well. Choose FAJ Professional for trustworthy and efficient refrigerator spare part solutions. Our top goal is making sure you're satisfied.</p>
-                <div id="get-quote" className="mb-5 mt-3">
-                  <div className="container d-flex justify-content-center align-items-center">
-                    <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                    <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
-                  </div>
-                </div>
-                <h2>Fridge Repair Near Me</h2>
-                <p>Having issues with your freezer, refrigerator, or combination unit can be extremely frustrating as they can quickly spread bad odors and ruin a lot of food. Thus, you should get your fridge fixed as soon as possible if it breaks down or stops cooling. Don't worry, though. FAJ Professional offers fast and effective fridge repair services locally. We deliver expert appliance services right to your door, guaranteeing prompt responses and efficient solutions. Select FAJ if you are looking for refrigerator repair near me.</p>
-                <div className="row">
-                  <div className="col-xl-6">
-                    <img src={`${import.meta.env.BASE_URL}/img/Refrigerator-Appliances-to-Repair.png`} alt="Post Image" />
-                  </div>
-                  <div className="col-xl-6">
-                    <h4 className="cs_fs_16">Why Choose Us for Your Refrigerator Repair Needs?</h4>
-                    <ul className="cs_list cs_style_1 cs_fs_18 cs_heading_font cs_mp_0">
-                      <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                        <span>Transparent Pricing</span>
-                      </li>
-                      <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                        <span>Talented & Certified Experts</span>
-                      </li>
-                      <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                        <span>Fast & Reliable Service</span>
-                      </li>
-                      <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                        <span>100% Customer Satisfaction</span>
-                      </li>
-                      <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                        <span>Attention to Detail</span>
-                      </li>
-                      <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                        <span>Guaranteed Results</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div id="get-quote" className="mb-5 mt-3">
-                  <div className="container d-flex justify-content-center align-items-center">
-                    <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#06d755" }}>Get A Free Quote</a>
-                    <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="tel:+971507464712">Call Now</a>
-                  </div>
-                </div>
-                <h2 className="cs_fs_18">We specialise in Refrigerator services for the following brands.</h2>
-                <p><a href="https://www.fajservices.ae/lg-fridge-repair-in-dubai-lg-washing-machine-repair-in-dubai-lg-cooker-repair-in-dubai-lg-oven-repair-in-dubai-lg-appliances-maintenance-in-dubai-lg-refrigerator-fix-repairs-service-in-dubai-lg-dishwa/"><strong>LG Refrigerator Repair</strong></a><strong>: </strong><span>FAJ is here to support you when things go wrong. We understand that your LG appliances are essential for daily life, keeping your food fresh and meals cooked.</span></p>
-                <p><a href="https://www.fajservices.ae/samsung-fridge-repair-in-dubai-samsung-washing-machine-repair-in-dubai-samsung-cooker-repair-in-dubai-samsung-oven-repair-in-dubai-samsung-appliances-maintenance-in-dubai-samsung-refrigerator-fix-repa/"><strong>Samsung Refrigerator Repair</strong></a><strong>:</strong> <span>If you are facing any problems with your </span><span>Samsung</span><span> refrigerator, washer dryer, or dishwasher, contact the FAJ team for same-day repair service in Dubai.</span></p>
-                <p><a href="https://www.fajservices.ae/electrolux-home-appliances-repair/"><strong>Electrolux Refrigerator Repair</strong></a><strong>:</strong><span> When you need Electrolux appliance repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE.&nbsp;</span></p>
-                <p><a href="https://www.fajservices.ae/bosch-home-appliances-repair/"><strong>Bosch Refrigerator Repair</strong></a><strong>: </strong><span>If you are looking for the best Bosch appliance repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch home appliance repair and are recognized as the leading Bosch appliance service provider in the area.</span></p>
-                <p><a href="https://www.fajservices.ae/viking-appliances-service/"><strong>Viking Fridge Freezer Repair</strong></a><strong>:&nbsp; </strong><span>Your Viking appliances may require repair or maintenance and we can help. For high-quality Viking Fridge Freezer repair in Dubai, rely on FAJ.&nbsp;</span></p>
-                <p><a href="https://www.fajservices.ae/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/"><strong>Daewoo Refrigerator Repair</strong></a><strong>: </strong><span>We provide expert services for Daewoo appliance repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo refrigerator, washing machine, dryer and more.&nbsp;</span></p>
-                <p><a href="https://www.fajservices.ae/siemens-home-appliances-repair/"><strong>Siemens Refrigerator Repair</strong></a><strong>:</strong><span> Are you concerned about your Siemens appliance malfunctioning and searching for a reliable Siemens refrigerator repair company in Dubai? Contact </span><span>us for same-day service!</span></p>
-                <p><a href="https://www.fajservices.ae/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/"><strong>Teka Refrigerator Repair</strong></a><span>: If you're searching for the best Teka appliance repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.</span></p>
-                <p><a href="https://www.fajservices.ae/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/">AEG</a> | <a href="https://www.fajservices.ae/ariston-fridge-repair-in-dubai-ariston-washing-machine-repair-in-dubai-ariston-cooker-repair-in-dubai-ariston-oven-repair-in-dubai-ariston-appliances-maintenance-in-dubai-ariston-refrigerator-fix-repa/">Ariston</a> | <a href="https://www.fajservices.ae/beko-fridge-repair-in-dubai-beko-washing-machine-repair-in-dubai-beko-cooker-repair-in-dubai-beko-oven-repair-in-dubai-beko-appliances-maintenance-in-dubai-beko-refrigerator-fix-repairs-service-in-dub/">Beko</a> | <a href="https://www.fajservices.ae/blomberg-fridge-repair-in-dubai-blomberg-washing-machine-repair-in-dubai-blomberg-cooker-repair-in-dubai-blomberg-oven-repair-in-dubai-blomberg-appliances-maintenance-in-dubai-blomberg-refrigerator-fi/">Blomberg</a> | <a href="https://www.fajservices.ae/faber-appliances-service/">Faber </a>| <a href="https://www.fajservices.ae/fagor-fridge-repair-in-dubai-fagor-washing-machine-repair-in-dubai-fagor-cooker-repair-in-dubai-fagor-oven-repair-in-dubai-fagor-appliances-maintenance-in-dubai-fagor-refrigerator-fix-repairs-service/">Fagor</a> | <a href="https://www.fajservices.ae/fisher-and-paykel-fridge-repair-in-dubai-fisher-and-paykel-washing-machine-repair-in-dubai-fisher-and-paykel-cooker-repair-in-dubai-fisher-and-paykel-oven-repair-in-dubai-fisher-and-paykel-appliances/">Fisher and Paykel</a> | <a href="https://www.fajservices.ae/foster-appliances-services-foster-dishwasher-repair-service-in-dubai-foster-cooking-range-repair-service-in-dubai-foster-cooktop-repair-service-in-dubai-foster-oven-repair-in-dubai-foster-rangetop-r/">Foster</a> | <a href="https://www.fajservices.ae/gaggenau-fridge-repair-in-dubai-gaggenau-washing-machine-repair-in-dubai-gaggenau-cooker-repair-in-dubai-gaggenau-oven-repair-in-dubai-gaggenau-appliances-maintenance-in-dubai-gaggenau-refrigerator-fi/">Gaggenau</a> | <a href="https://www.fajservices.ae/hitachi-fridge-repair-in-dubai-hitachi-washing-machine-repair-in-dubai-hitachi-cooker-repair-in-dubai-hitachi-oven-repair-in-dubai-hitachi-appliances-maintenance-in-dubai-hitachi-refrigerator-fix-repa/">Hitachi</a> | <a href="https://www.fajservices.ae/hoover-fridge-repair-in-dubai-hoover-washing-machine-repair-in-dubai-hoover-cooker-repair-in-dubai-hoover-oven-repair-in-dubai-hoover-appliances-maintenance-in-dubai-hoover-refrigerator-fix-repairs-se/">Hoover</a> | <a href="https://www.fajservices.ae/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-oven-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa/">Indesit</a> | <a href="https://www.fajservices.ae/lg-fridge-repair-in-dubai-lg-washing-machine-repair-in-dubai-lg-cooker-repair-in-dubai-lg-oven-repair-in-dubai-lg-appliances-maintenance-in-dubai-lg-refrigerator-fix-repairs-service-in-dubai-lg-dishwa/">LG</a> | <a href="https://www.fajservices.ae/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub/">Neff </a>| <a href="https://www.fajservices.ae/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/">Smeg</a> | <a href="https://www.fajservices.ae/sub-zero-fridge-repair-in-dubai-sub-zero-washing-machine-repair-in-dubai-sub-zero-cooker-repair-in-dubai-sub-zero-oven-repair-in-dubai-sub-zero-appliances-maintenance-in-dubai-sub-zero-refrigerator-fi/">Sub Zero</a> | <a href="https://www.fajservices.ae/terim-appliances-service/">Terim</a> | <a href="https://www.fajservices.ae/whirlpool-fridge-repair-in-dubai-whirlpool-washing-machine-repair-in-dubai-whirlpool-cooker-repair-in-dubai-whirlpool-oven-repair-in-dubai-whirlpool-appliances-maintenance-in-dubai-whirlpool-refrigera/">Whirlpool</a> | <a href="https://www.fajservices.ae/zanussi-fridge-repair-in-dubai-zanussi-washing-machine-repair-in-dubai-zanussi-cooker-repair-in-dubai-zanussi-oven-repair-in-dubai-zanussi-appliances-maintenance-in-dubai-zanussi-refrigerator-fix-repa/">Zanussi</a> | <a href="https://fajservice.ae/de-dietrich-appliance-repair-service/">De Dietrich</a> | <a href="https://www.fajservices.ae/baumatic-appliances/">Baumatic</a> | <a href="https://www.fajservices.ae/bertazzoni-refrigerator-repair-in-dubai-bertazzoni-appliances-service-bertazzoni-fridge-repair-in-dubai-bertazzoni-washing-machine-washer-bertazzoni-dryer-repair-in-dubai-bertazzoni-dishwasher-cooker/">Bertazzoni</a> | <a href="https://www.fajservices.ae/bompani-fridge-repair-in-dubai-bompani-washing-machine-repair-in-dubai-bompani-cooker-repair-in-dubai-bompani-oven-repair-in-dubai-bompani-appliances-maintenance-in-dubai-bompani-refrigerator-fix-repa/">Bompani</a> | <a href="https://www.fajservices.ae/boston-refrigerator-repair-in-dubai-boston-appliances-service-boston-fridge-repair-in-dubai-boston-washing-machine-washer-boston-dryer-repair-in-dubai-boston-dishwasher-cooker/">Boston</a> | <a href="https://www.fajservices.ae/brandt-fridge-repair-in-dubai-brandt-washing-machine-repair-in-dubai-brandt-cooker-repair-in-dubai-brandt-oven-repair-in-dubai-brandt-appliances-maintenance-in-dubai-brandt-refrigerator-fix-repairs-se/">Brandt</a> | <a href="https://www.fajservices.ae/gibson-fridge-repair-in-dubai-gibson-washing-machine-repair-in-dubai-gibson-cooker-repair-in-dubai-gibson-oven-repair-in-dubai-gibson-appliances-maintenance-in-dubai-gibson-refrigerator-fix-repairs-se/">Gibson</a> | <a href="https://www.fajservices.ae/gorenje-fridge-repair-in-dubai-gorenje-washing-machine-repair-in-dubai-gorenje-cooker-repair-in-dubai-gorenje-oven-repair-in-dubai-gorenje-appliances-maintenance-in-dubai-gorenje-refrigerator-fix-repa/">Gorenje</a> | <a href="https://www.fajservices.ae/hisense-fridge-repair-in-dubai-hisense-washing-machine-repair-in-dubai-hisense-cooker-repair-in-dubai-hisense-oven-repair-in-dubai-hisense-appliances-maintenance-in-dubai-hisense-refrigerator-fix-repa/">Hisense</a> | <a href="https://www.fajservices.ae/kelvinator-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Kelvinator</a> | <a href="https://www.fajservices.ae/kenmore-appliances-service/">Kenmore</a> | <a href="https://www.fajservices.ae/panasonic-fridge-repair-in-dubai-panasonic-washing-machine-repair-in-dubai-panasonic-cooker-repair-in-dubai-panasonic-oven-repair-in-dubai-panasonic-appliances-maintenance-in-dubai-panasonic-refrigera/">Panasonic</a> | <a href="https://www.fajservices.ae/sanyo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Sanyo</a> | <a href="https://www.fajservices.ae/sears-home-appliances-installation-maintenance-repair-fix-service-in-dubai/">Sears</a> | <a href="https://www.fajservices.ae/wolf-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Wolf</a> | <a href="https://www.fajservices.ae/haier-fridge-repair-in-dubai-haier-washing-machine-repair-in-dubai-haier-cooker-repair-in-dubai-haier-oven-repair-in-dubai-haier-appliances-maintenance-in-dubai-haier-refrigerator-fix-repairs-service/">Haier</a> | <a href="https://www.fajservices.ae/elica-appliances-service/">Elica</a> | <a href="https://www.fajservices.ae/marvel-fridge-repair-in-dubai-marvel-washing-machine-repair-in-dubai-marvel-cooker-repair-in-dubai-marvel-oven-repair-in-dubai-marvel-appliances-maintenance-in-dubai-marvel-refrigerator-fix-repairs-se/">Marvel</a> | <a href="https://www.fajservices.ae/miele-fridge-repair-in-dubai-miele-washing-machine-repair-in-dubai-miele-cooker-repair-in-dubai-miele-oven-repair-in-dubai-miele-appliances-maintenance-in-dubai-miele-refrigerator-fix-repairs-service/">Miele</a> | <a href="https://www.fajservices.ae/maytag-fridge-repair-in-dubai-maytag-washing-machine-repair-in-dubai-maytag-cooker-repair-in-dubai-maytag-oven-repair-in-dubai-maytag-appliances-maintenance-in-dubai-maytag-refrigerator-fix-repairs-se/">Maytag</a> | <a href="https://www.fajservices.ae/toshiba-home-appliance-installation-maintenance-repair-fix-service-in-dubai-2/">Toshiba</a> | <a href="https://www.fajservices.ae/thermador-appliances-service/">Thermador</a> | <a href="https://www.fajservices.ae/sharp-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Sharp</a> | <a href="https://www.fajservices.ae/admiral-fridge-repair-in-dubai-admiral-washing-machine-repair-in-dubai-admiral-cooker-repair-in-dubai-admiral-oven-repair-in-dubai-admiral-appliances-maintenance-in-dubai-admiral-refrigerator-fix-repa/">Admiral</a> | <a href="https://www.fajservices.ae/aftron-fridge-repair-in-dubai-aftron-washing-machine-repair-in-dubai-aftron-cooker-repair-in-dubai-aftron-oven-repair-in-dubai-aftron-appliances-maintenance-in-dubai-aftron-refrigerator-fix-repairs-se/">Aftron</a> | <a href="https://www.fajservices.ae/unimac-washing-machine-repair-in-dubai-unimac-dryer-repair-in-dubai-unimac-washer-dryer-repair-in-dubai-unimac-maintenance-in-dubai-unimac-laundry-service-in-dubai-unimac-dubai/">Unimac</a></p>
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/VAmZ-qKWkjw?si=LdMp8cN2oo0O62ke" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
-              </div>
-              <div className="cs_height_20 cs_height_lg_20"></div>
-              <div className="cs_accordians_wrapper cs_style_1 p-0">
+      <HelmetProvider>
+        <title>AC Repair Dubai - Reliable AC Fixing - AC Repair Near Me</title>
+        <meta name="description" content="If your air conditioner not cooling! It is time to contact FAJ to get fix split or central AC Repair Dubai. Book 043300002 emergency ac repair"></meta>
+      </HelmetProvider>
 
-              {data.map((item, index)=>(
-                <div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : "" }`} >
-                  <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
-                    <h2 className="cs_fs_18 cs_semibold mb-0">{item.title}</h2>
-                    <span className="cs_accordian_toggle">
-                    <i className="bi bi-eye"></i>
-                    <i className="bi bi-eye-slash"></i>
-                    </span>
+      <div className="cs_service_details">
+
+        <section className="section cs_py_48">
+          <div className="container">
+            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
+            <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
+            <p>FAJ Technical Services LLC is a leading AC repair company in Dubai, providing reliable air conditioner services tailored to the UAE's hot climate.
+              <br />
+              Our trained professionals ensure a comfortable environment for living, learning, working, and playing.
+              When your air conditioning system fails, we’re here to help. Choose FAJ for all your AC repair needs in Dubai.
+            </p>
+
+            <div id="get-quote" className=" mt-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3">
+                <WhatsappIconButton />
+              </div>
+            </div>
+            {/*  */}
+          </div>
+        </section>
+
+        {/* Select Air Conditioner Repair & Service */}
+        <section className="section cs_py_48 bg-light-gray">
+          <div className="container">
+            <div className="row g-5">
+              <div className="col-md-6">
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/ac-repair.jpg`} alt="Post Image" />
+                <h3 className="cs_fs_24 mb-1 mt-3">Select Air Conditioner Repair & Service</h3>
+                <p>We understand the urgency of responding promptly when an air conditioner failure impacts your critical cooling system, especially when people depend on it. Our expert and experienced AC technicians are dedicated to delivering the best AC repair and service in Dubai.</p>
+                <p>Choose FAJ for professional AC repair and maintenance for both residential and commercial units in your area.</p>
+              </div>
+
+              <div className="col-md-6 border-small-left">
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/ac-repair-2.jpg`} alt="Post Image" />
+                <h3 className="cs_fs_24 mb-1 mt-3">Top Signs Need An AC Repair in Dubai</h3>
+                <p>When you realize your air conditioner isn't working well in the summer, it can be frustrating. Minor signs are often overlooked, but they can lead to major problems that require repairs, especially in Dubai's heat.</p>
+                <ul>
+                  <li>Insufficient Cooling / AC blowing warm air</li>
+                  <li>Strange Noises Coming From The AC</li>
+                  <li>Leaks of gas or water around your AC unit</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="appointment-col border-small-top pt-3">
+              <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability. For technical inspection/callout fees, AC service near you, repair, or maintenance, please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+              <div id="get-quote" className=" mt-3">
+                <div className="container d-flex justify-content-center align-items-center gap-3">
+                  <WhatsappIconButton />
+                  <CallNowButton />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="section cs_py_48">
+          <div className="container">
+            <FAJACPrice></FAJACPrice>
+          </div>
+        </section>
+
+        {/* FAJ Expert Air Conditioning Repair for Homes & Businesses Places */}
+        {/* <section className="section cs_py_48">
+          <div className="container">
+            <h2 className="cs_fs_30">FAJ Expert Air Conditioning Repair for Homes & Businesses Places</h2>
+            <p> <a href="https://www.google.com/maps/place/FAJ+Technical+Services+L.L.C+-+Warehouse+No+-+S-02+Gate+35+Street+18b+-+Al+Quoz+-+Al+Quoz+Industrial+Area+4+-+Dubai+-+United+Arab+Emirates/data=!4m2!3m1!1s0x3e5f699a600aceeb:0xa6121b25d557aa94?utm_source=mstt_1&entry=gps&lucs=47068615&g_ep=CAESCTExLjkxLjMwMhgAINeCAyoINDcwNjg2MTVCAlBL/">F A J Technical Services L.L.C</a> , an AC Repair Dubai Company, provides its clients most reliable Air Conditioning technical services in the region. According to the hot climate of UAE, Our Technical Services are designed to deliver you a comfortable environment that allows you to live, learn work, and play with peace of mind. When the temperature soars and you have air conditioner system faults, we are here to save your day. We have trained and professional technical teams to serve you. FAJ, AC Repair Dubai Service Company. </p>
+            <div id="get-quote" className=" mt-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3">
+                <WhatsappIconButton />
+              </div>
+            </div>
+          </div>
+        </section> */}
+
+
+        {/*FAJ: Creating the Perfect Temperature All Year Round */}
+        <section className="section cs_py_48 bg-light-gray">
+          <div className="container">
+            <h3 class="cs_fs_30">5 Reasons Your AC Might Need Repairs This Summer </h3>
+            <p>Air conditioning issues are quite common during the summer months. If you're experiencing AC issues this season, it's important to understand what might be happening with your system. Identifying the problem early can prevent it from worsening and ensure your place remains comfortable during the heat. </p>
+
+            
+
+            <div className="row align-items-center">
+              <div className="col-md-6">
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/ac-repair-3.jpg`} alt="Post Image" />
+              </div>
+              <div className="col-md-6">
+              
+                <ul className="mb-0">
+                  <li> <strong>Insufficient Cooling:</strong> May be due to a refrigerant leak, blocked filter, or compressor issues.</li>
+                  <li> <strong>Strange Noises:</strong> Sounds like banging or hissing could indicate damaged parts.</li>
+                  <li> <strong>Increased Energy Bills:</strong> A spike in bills often means your AC is working inefficiently.</li>
+                  <li> <strong>Frequent Cycling:</strong> Constantly turning on and off might suggest a faulty thermostat or oversized system.</li>
+                  <li> <strong>Poor Airflow:</strong> Weak airflow can result from a clogged filter or issues with the ducts.
+                  Stay alert for these signs to maintain your AC. If you notice any issues, consult a professional technician for help.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Common AC Problems That May Require Maintenance */}
+        <section className="section cs_py_48">
+          <div className="container">
+            <h3 className="text-center">Common AC Problems That May Require Maintenance</h3>
+            <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Weak Airflow</h3>
                   </div>
-                  <div className="cs_accordian_body" ref={accordionContentRef}>
-                    <p className="mb-0">{item.desc}</p>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">If you notice reduced airflow coming from your vents, it could indicate a problem with your AC system, such as a clogged filter or malfunctioning fan.</p>
                   </div>
                 </div>
-                ))}
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Warm Air</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">If your AC blows warm or room temperature air instead of cold, it could indicate compressor, refrigerant, or ductwork issues.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Strange Noises</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">Unusual sounds like grinding, squealing, or banging coming from your AC unit can indicate mechanical problems that require attention.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Foul Odors</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">Musty or foul odors emanating from the vents could suggest mold or mildew growth within the system, which needs to be addressed quickly.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Frequent Cycling</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">It may signal difficulty maintaining desired temperatures due to issues like dirty filters, low refrigerant levels, or a faulty thermostat.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">High Humidity Levels</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">An air conditioner that fails to adequately reduce indoor humidity levels may indicate issues with its cooling capacity or improper operation.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Leaking Water</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">Water pooling around AC or dripping from vents could indicate blocked condensate drain, frozen coils, or other issues.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className="box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Increased Energy Bills</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">High energy bills without increase in usage could indicate the inefficiency of your AC due to dirty filters, duct leaks, or other problems.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="get-quote" className="mb-0 mt-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3">
+                <WhatsappIconButton />
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+         {/* A Quick Guide to Understanding and Fixing Your AC Problems*/}
+         <QuickGuide />
+
+        <BenefitAcMaintenance />
+
+        {/*Select FAJ for Quick Service, Efficienc  */}
+        <section className="section cs_py_48 ">
+          <div className="container">
+            <h3 className="cs_fs_30">Why Choose FAJ Technical Services LLC?</h3>
+            <div className="row align-items-center">
+              <div className="col-md-6">
+                <h4 className="cs_fs_24">We provide quick, efficient service and peace of mind</h4>
+                <ul className="acsvs-exp-spl-para tick-ul mb-0">
+                  <li><b>We get the job done on time</b> thanks to our larger team and dedicated parts warehouse</li>
+                  <li><b>All our AC technicians are fully qualified</b> and extensively trained by us to address all types of AC issues.</li>
+                  <li><b>We help prevent future breakdowns</b> by only using locally produced, highest quality refrigerant gas.</li>
+                  <li><b>From routine maintenance to complex repairs</b> we offers all type of AC repair and maintenance services.</li>
+                  <li><b>We only use genuine parts</b> to give you peace of mind.</li>
+                  <li><b>We give service warranty</b> to make sure you are relax.</li>
+                  <li><b>We look after the environment</b> by always recycling our gas.</li>
+                </ul>
+              </div>
+              <div className="col-md-6 text-center text-md-end">
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance-in-Dubai.jpeg`} alt="Post Image" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* We specialise in air conditioning Repair services for the following brands */}
+        <section className="section cs_py_48 bg-light-gray">
+          <div className="container">
+            <h3>We specialise in air conditioning Repair services for the following brands</h3>
+            <div className="row">
+              <div className="col-12">
+                <p className="mb-0">
+                  <Link to="/lg-ac-repair-in-dubai/"><b>LG Air Conditioner Repair</b></Link>: FAJ offers reliable LG AC repair, and services in Dubai. With professionals, who are experts in split, vrf and central air conditioning units.
+                </p>
+                <p className="mb-0">
+                  <Link to="/samsung-ac-repair-in-dubai/"><b>Samsung Air Conditioner Repair and Service</b></Link>: Based in Dubai, FAJ is your go-to destination for Samsung AC Repair in Dubai. Specializing in Samsung air conditioner systems, we offer comprehensive services ranging from maintenance to repair.
+                </p>
+                <p className="mb-0">
+                  <Link to="/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten/"><b>York AC Service and Repair</b></Link>: The York AC repair service ensures you don’t need to worry because you are in the right place. Yes, FAJ is where efficiency and reliability are prioritized.
+                </p>
+                <p className="mb-0">
+                  <Link to="/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con/"><b>Daikin Air Conditioner Repair</b></Link>: Trust our skilled team to efficiently resolve all issues with your Daikin air conditioner and restore its functionality.
+                </p>
+                <p className="mb-0">
+                  <Link to="/trane-ac-repair-in-dubai-trane-ac-maintenance-in-dubai-trane-ac-fix-in-dubai-trane-ac-service-in-dubai-trane-air-condition-repair-in-dubai-trane-air-condition-maintenance-in-dubai-trane-air-condition/"><b>Trane HVAC Repair</b></Link>: With extensive knowledge of Trane air conditioning systems, we provide effective repairs to keep your unit running smoothly.
+                </p>
+                <p className="mb-0">
+                  <Link to="/panasonic-ac-repair-in-dubai-panasonic-ac-maintenance-in-dubai-panasonic-ac-fix-in-dubai-panasonic-ac-service-in-dubai-panasonic-air-condition-repair-in-dubai-panasonic-air-condition-maintenance-in-du/"><b>Panasonic AC Repair and Service</b></Link>: No matter the issue with your Panasonic air conditioner, our experts can accurately diagnose and fix it.
+                </p>
+                <p className="mb-0">
+                  <Link to="/gree-ac-repair-in-dubai/"><b>Gree AC Repair and Service</b></Link>: Has your AC stopped working? No need to endure unpleasant temperatures and stuffy air or suffer losses due to damaged equipment (broken gree air conditioning in a room, for example, can be a disaster!) – FAJ get your gree air conditioning back up and running in no time!
+                </p>
+                <p className="mb-0">
+                  <Link to="/o-general-ac-repair-in-dubai-o-general-ac-maintenance-in-dubai-o-general-ac-fix-in-dubai-o-general-ac-service-in-dubai-o-general-air-condition-repair-in-dubai-o-general-air-condition-maintenance-in-du/"><b>O General AC Repair and Service</b></Link>: O General AC repair in Dubai requires expert help because only specialized ones know how to address aircon issues. We are a hassle-free air condition repair service provider.
+                </p>
+                <p className="mb-0">
+                  <Link to="/mitsubishi-ac-repair-in-dubai/"><b>Mitsubishi Air Conditioner Repair and Service</b></Link>: Seeking relief from scorching heat? Discover the secret to keeping your Mitsubishi AC running smoothly in Dubai! Our expert Mitsubishi AC services ensure your AC stays cool and efficient, providing comfort and peace of mind.
+                </p>
+                <br />
+
+                <p className="mb-0">
+                  <Link to="/sanyo-ac-repair-in-dubai-sanyo-ac-maintenance-in-dubai-sanyo-ac-fix-in-dubai-sanyo-ac-service-in-dubai-sanyo-air-condition-repair-in-dubai-sanyo-air-condition-maintenance-in-dubai-sanyo-air-condition/">Sanyo AC Repair Dubai</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/rheem-ac-maintenance-in-dubai/">Rheem AC Repair</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/skm-ac-repair-in-dubai-skm-ac-maintenance-in-dubai-skm-ac-fix-in-dubai-skm-ac-service-in-dubai-skm-air-condition-repair-in-dubai-skm-air-condition-maintenance-in-dubai-skm-air-condition-maintenance-in/">SKM AC Repair Dubai</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/daewoo-ac-repair-in-dubai-daewoo-ac-maintenance-in-dubai-daewoo-ac-fix-in-dubai-daewoo-ac-service-in-dubai-daewoo-air-condition-repair-in-dubai-daewoo-air-condition-maintenance-in-dubai-daewoo-air-con/">Daewoo AC Repair Dubai</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="#">Carrier AC Repair</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/midea-ac-installation-maintenance-repair-fix-service-in-dubai/">Midea Air Conditioner Repair Service Near Me</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/lennox-ac-repair-in-dubai-lennox-ac-maintenance-in-dubai-lennox-ac-fix-in-dubai-lennox-ac-service-in-dubai-lennox-air-condition-repair-in-dubai-lennox-air-condition-maintenance-in-dubai-lennox-air-con/">Lennox Air Conditioning Repair</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/goodman-ac-repair-in-dubai-goodman-ac-maintenance-in-dubai-goodman-ac-fix-in-dubai-goodman-ac-service-in-dubai-goodman-air-condition-repair-in-dubai-goodman-air-condition-maintenance-in-dubai-goodman/">Goodman AC Repair Dubai</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/coleman-ac-repair-in-dubai-coleman-ac-maintenance-in-dubai-coleman-ac-fix-in-dubai-coleman-ac-service-in-dubai-coleman-air-condition-repair-in-dubai-coleman-air-condition-maintenance-in-dubai-coleman/">Coleman AC Reapair Services</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/westpoint-ac-repair-in-dubai-westpoint-ac-maintenance-in-dubai-westpoint-ac-fix-in-dubai-westpoint-ac-service-in-dubai-west-point-air-condition-repair-in-dubai-west-point-air-condition-maintenance-in/">Westpoint Repair</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/aftron-ac-repair-maintenance-service-in-dubai-2/">Aftron AC Repair Service Near Me</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/crafft-ac-repair-in-dubai-crafft-ac-maintenance-in-dubai-crafft-ac-fix-in-dubai-crafft-ac-service-in-dubai-crafft-air-condition-repair-in-dubai-crafft-air-condition-maintenance-in-dubai-crafft-air-con/">Crafft AC Repair</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/bryant-ac-repair-in-dubai-bryant-ac-maintenance-in-dubai-bryant-ac-fix-in-dubai-bryant-ac-service-in-dubai-bryant-air-condition-repair-in-dubai-bryant-air-condition-maintenance-in-dubai-bryant-air-con/">Bryant AC Repair</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/ruud-ac-repair-in-dubai-ruud-ac-maintenance-in-dubai-ruud-ac-fix-in-dubai-ruud-ac-service-in-dubai-ruud-air-condition-repair-in-dubai-ruud-air-condition-maintenance-in-dubai-ruud-air-condition-mainten/">Ruud Air Conditioner Repair Service</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/mcquay-ac-repair-in-dubai-mcquay-ac-maintenance-in-dubai-mcquay-ac-fix-in-dubai-mcquay-ac-service-in-dubai-mcquay-air-condition-repair-in-dubai-mcquay-air-condition-maintenance-in-dubai-mcquay-air-con/">McQuay Air Conditioning Repair</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/blue-star-ac-repair-in-dubai-blue-star-ac-maintenance-in-dubai-blue-star-ac-fix-in-dubai-blue-star-ac-service-in-dubai-blue-star-air-condition-repair-in-dubai-blue-star-air-condition-maintenance-in-du/">Blue Star</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/supra-ac-repair-in-dubai-supra-ac-maintenance-in-dubai-supra-ac-fix-in-dubai-supra-ac-service-in-dubai-supra-air-condition-repair-in-dubai-supra-air-condition-maintenance-in-dubai-supra-air-condition/">Supra AC Repair</Link>
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <Link to="/toshiba-ac-repair-in-dubai-toshiba-ac-maintenance-in-dubai-toshiba-ac-fix-in-dubai-toshiba-ac-service-in-dubai-toshiba-air-condition-repair-in-dubai-toshiba-air-condition-maintenance-in-dubai-toshiba/">Toshiba AC Repair</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/whirlpool-air-condition-repair-in-dubai-ac-maintenance-in-dubai-air-conditioning-fix-repairs-service-in-dubai/">Whirlpool AC Repair</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/super-general-ac-repair-in-dubai-super-general-ac-maintenance-in-dubai-super-general-ac-fix-in-dubai-super-general-ac-service-in-dubai-super-general-air-condition-repair-in-dubai-super-general-air-con/">Super General AC Repair</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/hitachi-ac-repair-in-dubai-hitachi-ac-maintenance-in-dubai-hitachi-ac-fix-in-dubai-hitachi-ac-service-in-dubai-hitachi-air-condition-repair-in-dubai-hitachi-air-condition-maintenance-in-dubai-hitachi/">Hitachi AC Repair</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/o-general-ac-repair-in-dubai-o-general-ac-maintenance-in-dubai-o-general-ac-fix-in-dubai-o-general-ac-service-in-dubai-o-general-air-condition-repair-in-dubai-o-general-air-condition-maintenance-in-du/">O General Air Conditioning Repair</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/cooline-ac-repair-in-dubai-cooline-ac-maintenance-in-dubai-cooline-ac-fix-in-dubai-cooline-ac-service-in-dubai-cooline-air-condition-repair-in-dubai-cooline-air-condition-maintenance-in-dubai-cooline/">Cooline Air Conditioner Repair Service Near Me</Link>
+                </p>
+              </div>
+
+            </div>
+
+            <div id="get-quote" className=" mt-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3">
+                <GetQuoteButton />
+                <CallNowButton />
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <section className="section cs_py_48 bg-dark-blue text-light">
+          <div className="container text-center">
+            <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
+            <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
+            <a
+              href="files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
+              className="btn-green-yellow"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Click Here to Save on Energy Bills
+            </a>
+
+          </div>
+        </section>
+
+        {/* white section with AC image */}
+        <section className="section cs_py_48">
+          <div className="container text-center">
+            <div class="row">
+              <div className="col-lg-4">
+                <div className="acsvs-sec-prefoot-sec-cone">
+                  <h3 className="cs_fs_20 mb-0">COOLING &amp; HEATING</h3>
+                  <span className="mb-5">Stay comfortable all year round</span>
+                  <div className="mb-5"></div>
+                  <h3 className="cs_fs_20 mb-0">BETTER AIR QUALITY</h3>
+                  <span className="mb-5">Reduce humidity, pollen and dust</span>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div className="acsvs-sec-prefoot-sec-ctwo">
+
+                  <img className="" src={`${import.meta.env.BASE_URL}/img/benafit-acimg.jpg`} alt="Post Image" />
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div className="acsvs-sec-prefoot-sec-cthree">
+                  <h3 className="cs_fs_20 mb-0">PROTECT YOUR PROPERTY</h3>
+                  <span className="mb-5">Prevent damage to electronics and furnishings</span>
+                  <div className="mb-5"></div>
+                  <h3 className="cs_fs_20 mb-0">QUIET AND SECURE</h3>
+                  <span className="mb-5">No need to leave windows open</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        {/* testimobial section */}
+        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_48" data-background={`${import.meta.env.BASE_URL}${bgImg}`}>
+          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
+          <div className="container">
+            <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
+              <h3 className="cs_section_subtitle cs_fs_18 text-black cs_semibold text-uppercase cs_mb_12 wow fadeInDown">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.9367 5.9528C12.1626 6.01733 12.3783 6.07787 12.7693 6.07787C13.5946 6.07787 14.4218 5.73787 15.0389 5.1208C15.8285 4.33093 16.1661 3.19973 15.9199 2.16827C15.9089 2.12215 15.8858 2.07981 15.8529 2.04563C15.82 2.01146 15.7786 1.98668 15.733 1.97387C15.6874 1.96077 15.6391 1.96016 15.5931 1.97213C15.5472 1.98409 15.5053 2.00818 15.4719 2.04187L14.8413 2.67253C14.6394 2.87413 14.3706 2.98533 14.0839 2.98533C13.7973 2.98533 13.5285 2.8744 13.3269 2.67253C13.1262 2.47155 13.0136 2.19918 13.0136 1.9152C13.0136 1.63122 13.1262 1.35885 13.3269 1.15787L13.9573 0.527466C13.9909 0.493964 14.015 0.452081 14.027 0.406152C14.039 0.360223 14.0385 0.311916 14.0256 0.266232C14.0127 0.220547 13.9878 0.179144 13.9535 0.146308C13.9192 0.113471 13.8768 0.0903949 13.8306 0.0794661C12.7991 -0.166934 11.6682 0.170933 10.8783 0.960533C10.1042 1.7344 9.71058 2.888 10.0463 4.06267L7.99858 6.11013L5.95218 4.06373C6.28712 2.89093 5.89565 1.73573 5.12018 0.960533C4.33058 0.170666 3.19938 -0.167467 2.16818 0.0794661C2.12214 0.0906185 2.07989 0.113812 2.04576 0.146671C2.01163 0.179529 1.98685 0.220871 1.97396 0.266459C1.96107 0.312048 1.96054 0.360243 1.97241 0.406108C1.98428 0.451972 2.00813 0.493855 2.04152 0.527466L2.67192 1.15787C2.87254 1.35885 2.98522 1.63122 2.98522 1.9152C2.98522 2.19918 2.87254 2.47155 2.67192 2.67253C2.47032 2.8744 2.20152 2.98533 1.91485 2.98533C1.62818 2.98533 1.35938 2.87413 1.15752 2.67253L0.527118 2.0416C0.493597 2.00804 0.451734 1.98404 0.405844 1.97205C0.359953 1.96007 0.311697 1.96054 0.26605 1.97342C0.220403 1.9863 0.179016 2.01112 0.146158 2.04532C0.113299 2.07952 0.0901572 2.12187 0.079118 2.168C-0.167015 3.19947 0.170585 4.33067 0.960185 5.12053C1.57778 5.73787 2.40552 6.07813 3.22952 6.07813C3.61965 6.07813 3.85512 6.012 4.06312 5.95227L6.10978 7.99867L4.06232 10.0461C2.89138 9.71227 1.73725 10.1013 0.960185 10.8781C0.170585 11.668 -0.167015 12.7992 0.079118 13.8307C0.0901342 13.8768 0.113271 13.9191 0.146136 13.9533C0.179001 13.9875 0.2204 14.0123 0.266051 14.0251C0.358851 14.0509 0.458851 14.0251 0.527118 13.9571L1.15778 13.3264C1.35886 13.1261 1.63114 13.0136 1.91498 13.0136C2.19883 13.0136 2.47111 13.1261 2.67218 13.3264C2.87405 13.5283 2.98498 13.7973 2.98498 14.0837C2.98498 14.3701 2.87378 14.6392 2.67218 14.8411L2.04178 15.4715C2.00815 15.505 1.98407 15.5469 1.97205 15.5928C1.96004 15.6387 1.96051 15.687 1.97343 15.7327C1.98634 15.7784 2.01123 15.8198 2.04552 15.8526C2.07981 15.8855 2.12225 15.9085 2.16845 15.9195C2.39138 15.9728 2.61912 15.9987 2.84685 15.9987C3.67272 15.9987 4.50178 15.6576 5.12072 15.0384C5.89485 14.2645 6.28845 13.1109 5.95272 11.9363L8.00045 9.8888L10.0469 11.9352C9.71192 13.108 10.1034 14.2632 10.8789 15.0384C11.4981 15.6573 12.3269 15.9987 13.1527 15.9987C13.3805 15.9987 13.6082 15.9728 13.8311 15.9195C13.8772 15.9083 13.9194 15.8851 13.9535 15.8523C13.9877 15.8194 14.0124 15.7781 14.0253 15.7325C14.0382 15.6869 14.0388 15.6387 14.0269 15.5928C14.015 15.547 13.9912 15.5051 13.9578 15.4715L13.3274 14.8411C13.1255 14.6392 13.0146 14.3701 13.0146 14.0837C13.0146 13.7973 13.1258 13.5283 13.3274 13.3264C13.5285 13.1261 13.8007 13.0136 14.0846 13.0136C14.3684 13.0136 14.6407 13.1261 14.8418 13.3264L15.4725 13.9571C15.506 13.9905 15.5479 14.0143 15.5938 14.0262C15.6396 14.0381 15.6878 14.0376 15.7334 14.0247C15.779 14.0119 15.8203 13.9871 15.8532 13.953C15.886 13.9189 15.9093 13.8767 15.9205 13.8307C16.1666 12.7992 15.829 11.668 15.0394 10.8781C14.2663 10.1053 13.1109 9.70933 11.9365 10.0464L9.88978 8L11.9373 5.95253L11.9367 5.9528ZM11.2557 1.33733C11.7741 0.819199 12.465 0.533066 13.1506 0.533066H13.1967L12.9498 0.780266C12.6463 1.08373 12.4791 1.4864 12.4791 1.91467C12.4791 2.34293 12.6463 2.7456 12.9498 3.04907C13.2533 3.35253 13.6551 3.51813 14.0842 3.51813C14.5133 3.51813 14.9159 3.35147 15.2186 3.04907L15.4655 2.80187C15.4786 3.50293 15.1917 4.21333 14.6618 4.7432C14.0042 5.4008 13.0666 5.68293 12.2095 5.4784C11.7917 5.38533 11.425 5.18373 11.1202 4.87867C10.8154 4.5736 10.6133 4.20693 10.5194 3.78507C10.3159 2.93253 10.5981 1.9944 11.2557 1.3368V1.33733ZM3.78578 5.48C2.93325 5.68373 1.99512 5.40133 1.33752 4.74373C0.807651 4.21387 0.520718 3.50347 0.533785 2.8024L0.780718 3.0496C1.08338 3.352 1.48632 3.51867 1.91512 3.51867C2.34392 3.51867 2.74712 3.352 3.04925 3.0496C3.35272 2.74613 3.51992 2.34347 3.51992 1.9152C3.51992 1.48693 3.35272 1.08427 3.04925 0.780799L2.80232 0.533599C3.51058 0.525866 4.21352 0.807733 4.74365 1.3376C5.40125 1.9952 5.68338 2.93307 5.47912 3.78987C5.38632 4.20747 5.18445 4.57387 4.87912 4.8792C4.57378 5.18453 4.20765 5.38587 3.78578 5.48ZM4.60365 5.73867C4.84373 5.61088 5.06362 5.44832 5.25618 5.25627C5.44814 5.06361 5.61068 4.84374 5.73858 4.60373L7.62205 6.48693L6.48712 7.62187L4.60365 5.73867ZM4.74365 14.6621C4.21378 15.1917 3.51192 15.4752 2.80232 15.4661L3.04925 15.2189C3.35165 14.9163 3.51832 14.5133 3.51832 14.0845C3.51832 13.6557 3.35165 13.2528 3.04925 12.9501C2.74823 12.6497 2.3403 12.4809 1.91498 12.4809C1.48967 12.4809 1.08174 12.6497 0.780718 12.9501L0.533785 13.1973C0.520718 12.4963 0.807651 11.7859 1.33752 11.256C1.99538 10.5987 2.93325 10.3168 3.78978 10.5208C4.20765 10.6139 4.57432 10.8155 4.87912 11.1205C5.18392 11.4256 5.38605 11.7923 5.47992 12.2141C5.68338 13.0667 5.40125 14.0045 4.74365 14.6621ZM5.25618 10.7435C5.06331 10.5513 4.84317 10.3885 4.60285 10.2605L10.2605 4.60293C10.3884 4.84331 10.551 5.06354 10.7431 5.25653C10.936 5.44873 11.1561 5.61146 11.3965 5.73947L5.73885 11.3971C5.61092 11.1567 5.44829 10.9365 5.25618 10.7435ZM12.7711 10.4549C13.4562 10.4549 14.1455 10.7395 14.6621 11.256C15.1919 11.7859 15.4789 12.4963 15.4658 13.1973L15.2189 12.9501C14.9178 12.6497 14.5099 12.4809 14.0846 12.4809C13.6593 12.4809 13.2513 12.6497 12.9503 12.9501C12.8011 13.0989 12.6828 13.2757 12.6023 13.4704C12.5217 13.6651 12.4806 13.8738 12.4813 14.0845C12.4806 14.2952 12.5217 14.504 12.6023 14.6987C12.6828 14.8934 12.8011 15.0702 12.9503 15.2189L13.1973 15.4661C12.4935 15.4736 11.7861 15.192 11.2559 14.6621C10.5983 14.0045 10.3162 13.0667 10.5205 12.2099C10.611 11.7964 10.8194 11.418 11.1205 11.1205C11.5711 10.6699 12.1623 10.4549 12.7711 10.4549ZM11.3959 10.2611C11.1558 10.3889 10.936 10.5514 10.7434 10.7435C10.5514 10.9361 10.3889 11.156 10.261 11.396L8.37752 9.5128L9.51245 8.37787L11.3959 10.2611Z" fill="currentColor" />
+                </svg>{subtitle}<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.9367 5.9528C12.1626 6.01733 12.3783 6.07787 12.7693 6.07787C13.5946 6.07787 14.4218 5.73787 15.0389 5.1208C15.8285 4.33093 16.1661 3.19973 15.9199 2.16827C15.9089 2.12215 15.8858 2.07981 15.8529 2.04563C15.82 2.01146 15.7786 1.98668 15.733 1.97387C15.6874 1.96077 15.6391 1.96016 15.5931 1.97213C15.5472 1.98409 15.5053 2.00818 15.4719 2.04187L14.8413 2.67253C14.6394 2.87413 14.3706 2.98533 14.0839 2.98533C13.7973 2.98533 13.5285 2.8744 13.3269 2.67253C13.1262 2.47155 13.0136 2.19918 13.0136 1.9152C13.0136 1.63122 13.1262 1.35885 13.3269 1.15787L13.9573 0.527466C13.9909 0.493964 14.015 0.452081 14.027 0.406152C14.039 0.360223 14.0385 0.311916 14.0256 0.266232C14.0127 0.220547 13.9878 0.179144 13.9535 0.146308C13.9192 0.113471 13.8768 0.0903949 13.8306 0.0794661C12.7991 -0.166934 11.6682 0.170933 10.8783 0.960533C10.1042 1.7344 9.71058 2.888 10.0463 4.06267L7.99858 6.11013L5.95218 4.06373C6.28712 2.89093 5.89565 1.73573 5.12018 0.960533C4.33058 0.170666 3.19938 -0.167467 2.16818 0.0794661C2.12214 0.0906185 2.07989 0.113812 2.04576 0.146671C2.01163 0.179529 1.98685 0.220871 1.97396 0.266459C1.96107 0.312048 1.96054 0.360243 1.97241 0.406108C1.98428 0.451972 2.00813 0.493855 2.04152 0.527466L2.67192 1.15787C2.87254 1.35885 2.98522 1.63122 2.98522 1.9152C2.98522 2.19918 2.87254 2.47155 2.67192 2.67253C2.47032 2.8744 2.20152 2.98533 1.91485 2.98533C1.62818 2.98533 1.35938 2.87413 1.15752 2.67253L0.527118 2.0416C0.493597 2.00804 0.451734 1.98404 0.405844 1.97205C0.359953 1.96007 0.311697 1.96054 0.26605 1.97342C0.220403 1.9863 0.179016 2.01112 0.146158 2.04532C0.113299 2.07952 0.0901572 2.12187 0.079118 2.168C-0.167015 3.19947 0.170585 4.33067 0.960185 5.12053C1.57778 5.73787 2.40552 6.07813 3.22952 6.07813C3.61965 6.07813 3.85512 6.012 4.06312 5.95227L6.10978 7.99867L4.06232 10.0461C2.89138 9.71227 1.73725 10.1013 0.960185 10.8781C0.170585 11.668 -0.167015 12.7992 0.079118 13.8307C0.0901342 13.8768 0.113271 13.9191 0.146136 13.9533C0.179001 13.9875 0.2204 14.0123 0.266051 14.0251C0.358851 14.0509 0.458851 14.0251 0.527118 13.9571L1.15778 13.3264C1.35886 13.1261 1.63114 13.0136 1.91498 13.0136C2.19883 13.0136 2.47111 13.1261 2.67218 13.3264C2.87405 13.5283 2.98498 13.7973 2.98498 14.0837C2.98498 14.3701 2.87378 14.6392 2.67218 14.8411L2.04178 15.4715C2.00815 15.505 1.98407 15.5469 1.97205 15.5928C1.96004 15.6387 1.96051 15.687 1.97343 15.7327C1.98634 15.7784 2.01123 15.8198 2.04552 15.8526C2.07981 15.8855 2.12225 15.9085 2.16845 15.9195C2.39138 15.9728 2.61912 15.9987 2.84685 15.9987C3.67272 15.9987 4.50178 15.6576 5.12072 15.0384C5.89485 14.2645 6.28845 13.1109 5.95272 11.9363L8.00045 9.8888L10.0469 11.9352C9.71192 13.108 10.1034 14.2632 10.8789 15.0384C11.4981 15.6573 12.3269 15.9987 13.1527 15.9987C13.3805 15.9987 13.6082 15.9728 13.8311 15.9195C13.8772 15.9083 13.9194 15.8851 13.9535 15.8523C13.9877 15.8194 14.0124 15.7781 14.0253 15.7325C14.0382 15.6869 14.0388 15.6387 14.0269 15.5928C14.015 15.547 13.9912 15.5051 13.9578 15.4715L13.3274 14.8411C13.1255 14.6392 13.0146 14.3701 13.0146 14.0837C13.0146 13.7973 13.1258 13.5283 13.3274 13.3264C13.5285 13.1261 13.8007 13.0136 14.0846 13.0136C14.3684 13.0136 14.6407 13.1261 14.8418 13.3264L15.4725 13.9571C15.506 13.9905 15.5479 14.0143 15.5938 14.0262C15.6396 14.0381 15.6878 14.0376 15.7334 14.0247C15.779 14.0119 15.8203 13.9871 15.8532 13.953C15.886 13.9189 15.9093 13.8767 15.9205 13.8307C16.1666 12.7992 15.829 11.668 15.0394 10.8781C14.2663 10.1053 13.1109 9.70933 11.9365 10.0464L9.88978 8L11.9373 5.95253L11.9367 5.9528ZM11.2557 1.33733C11.7741 0.819199 12.465 0.533066 13.1506 0.533066H13.1967L12.9498 0.780266C12.6463 1.08373 12.4791 1.4864 12.4791 1.91467C12.4791 2.34293 12.6463 2.7456 12.9498 3.04907C13.2533 3.35253 13.6551 3.51813 14.0842 3.51813C14.5133 3.51813 14.9159 3.35147 15.2186 3.04907L15.4655 2.80187C15.4786 3.50293 15.1917 4.21333 14.6618 4.7432C14.0042 5.4008 13.0666 5.68293 12.2095 5.4784C11.7917 5.38533 11.425 5.18373 11.1202 4.87867C10.8154 4.5736 10.6133 4.20693 10.5194 3.78507C10.3159 2.93253 10.5981 1.9944 11.2557 1.3368V1.33733ZM3.78578 5.48C2.93325 5.68373 1.99512 5.40133 1.33752 4.74373C0.807651 4.21387 0.520718 3.50347 0.533785 2.8024L0.780718 3.0496C1.08338 3.352 1.48632 3.51867 1.91512 3.51867C2.34392 3.51867 2.74712 3.352 3.04925 3.0496C3.35272 2.74613 3.51992 2.34347 3.51992 1.9152C3.51992 1.48693 3.35272 1.08427 3.04925 0.780799L2.80232 0.533599C3.51058 0.525866 4.21352 0.807733 4.74365 1.3376C5.40125 1.9952 5.68338 2.93307 5.47912 3.78987C5.38632 4.20747 5.18445 4.57387 4.87912 4.8792C4.57378 5.18453 4.20765 5.38587 3.78578 5.48ZM4.60365 5.73867C4.84373 5.61088 5.06362 5.44832 5.25618 5.25627C5.44814 5.06361 5.61068 4.84374 5.73858 4.60373L7.62205 6.48693L6.48712 7.62187L4.60365 5.73867ZM4.74365 14.6621C4.21378 15.1917 3.51192 15.4752 2.80232 15.4661L3.04925 15.2189C3.35165 14.9163 3.51832 14.5133 3.51832 14.0845C3.51832 13.6557 3.35165 13.2528 3.04925 12.9501C2.74823 12.6497 2.3403 12.4809 1.91498 12.4809C1.48967 12.4809 1.08174 12.6497 0.780718 12.9501L0.533785 13.1973C0.520718 12.4963 0.807651 11.7859 1.33752 11.256C1.99538 10.5987 2.93325 10.3168 3.78978 10.5208C4.20765 10.6139 4.57432 10.8155 4.87912 11.1205C5.18392 11.4256 5.38605 11.7923 5.47992 12.2141C5.68338 13.0667 5.40125 14.0045 4.74365 14.6621ZM5.25618 10.7435C5.06331 10.5513 4.84317 10.3885 4.60285 10.2605L10.2605 4.60293C10.3884 4.84331 10.551 5.06354 10.7431 5.25653C10.936 5.44873 11.1561 5.61146 11.3965 5.73947L5.73885 11.3971C5.61092 11.1567 5.44829 10.9365 5.25618 10.7435ZM12.7711 10.4549C13.4562 10.4549 14.1455 10.7395 14.6621 11.256C15.1919 11.7859 15.4789 12.4963 15.4658 13.1973L15.2189 12.9501C14.9178 12.6497 14.5099 12.4809 14.0846 12.4809C13.6593 12.4809 13.2513 12.6497 12.9503 12.9501C12.8011 13.0989 12.6828 13.2757 12.6023 13.4704C12.5217 13.6651 12.4806 13.8738 12.4813 14.0845C12.4806 14.2952 12.5217 14.504 12.6023 14.6987C12.6828 14.8934 12.8011 15.0702 12.9503 15.2189L13.1973 15.4661C12.4935 15.4736 11.7861 15.192 11.2559 14.6621C10.5983 14.0045 10.3162 13.0667 10.5205 12.2099C10.611 11.7964 10.8194 11.418 11.1205 11.1205C11.5711 10.6699 12.1623 10.4549 12.7711 10.4549ZM11.3959 10.2611C11.1558 10.3889 10.936 10.5514 10.7434 10.7435C10.5514 10.9361 10.3889 11.156 10.261 11.396L8.37752 9.5128L9.51245 8.37787L11.3959 10.2611Z" fill="currentColor" />
+                </svg></h3>
+              <h2 className="cs_section_title cs_fs_50 text-black mb-0 wow fadeInUp">{parse(title)}</h2>
+            </div>
+            <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
+              data-variable-width="0" data-xs-slides="1" data-sm-slides="1" data-md-slides="1" data-lg-slides="2"
+              data-add-slides="2" data-slides-per-view="responsive">
+              <div className="cs_slider_wrapper">
+                <Slider {...settings}>
+                  {testimonial_data.map((item, index) => (
+                    <div key={index} className="cs_slide wow fadeInLeft">
+                      <div className="cs_testimonial cs_style_1 position-relative">
+                        <div className="cs_testimonial_content cs_white_bg position-relative">
+                          <div className="cs_testimonial_header cs_mb_35">
+                            <div className="cs_testimonial_thumbnail">
+                              <img src={`${import.meta.env.BASE_URL}${item.img1}`} alt="Avatar" />
+                            </div>
+                            <div className="cs_testimonial_info">
+                              <div className="rating-area" >
+                                <i className="bi bi-star-fill"></i>
+                                <i className="bi bi-star-fill"></i>
+                                <i className="bi bi-star-fill"></i>
+                                <i className="bi bi-star-fill"></i>
+                                <i className="bi bi-star-fill"></i>
+                              </div>
+                              <h3 className="cs_fs_24 cs_mb_1">{item.title}</h3>
+                              {/* <p className="cs_fs_14 cs_heading_color mb-0">{item.subTitle}</p> */}
+                            </div>
+                          </div>
+                          <blockquote className="cs_fs_16">{item.desc}</blockquote>
+                          <div className="cs_quote_icon position-absolute">
+                            <img src={`${import.meta.env.BASE_URL}/img/icons/quote_1_blue.svg`} alt="Quote Icon" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </Slider>
 
               </div>
             </div>
-            <aside className="col-xl-4 col-lg-5">
-              <div className="cs_sidebar cs_style_1">
-                <div className="cs_sidebar_widget cs_accent_bg_light position-relative">
-                  <div className="cs_separator"></div>
-                  <h3 className="cs_sidebar_title cs_fs_30 cs_mb_43">All Services</h3>
-                  <ul className="cs_categories cs_fs_16 cs_mb_20">
-                    <li><a href="/ac-service-in-dubai">
-                      <span>AC Service in Dubai</span>
-                      <span><i className="fa-solid fa-arrow-right-long"></i></span>
-                    </a></li>
-                    <li><a href="/washing-machine-repair-service-dubai">
-                      <span>Washing Machine Repair</span>
-                      <span><i className="fa-solid fa-arrow-right-long"></i></span>
-                    </a></li>
-                    <li><a href="/ac-service-in-dubai">
-                      <span>BBQ Service &amp; Repair</span>
-                      <span><i className="fa-solid fa-arrow-right-long"></i></span>
-                    </a></li>
-                    <li><a href="/ac-service-in-dubai">
-                      <span>Coffee Machine Repair</span>
-                      <span><i className="fa-solid fa-arrow-right-long"></i></span>
-                    </a></li>
-                    <li><a href="/ac-service-in-dubai">
-                      <span>Vacuum Cleaner Repair</span>
-                      <span><i className="fa-solid fa-arrow-right-long"></i></span>
-                    </a></li>
-                  </ul>
-                </div>
-                <div className="cs_sidebar_widget cs_accent_bg">
-                  <div className="cs_card cs_style_6">
-                    <h3 className="cs_fs_30 cs_white_color cs_mb_30">Emergency Refrigerator Repair Services</h3>
-                    <div className="cs_card_icon cs_center cs_mb_32">
-                      <img src={`${import.meta.env.BASE_URL}/img/icons/phone-call_2.svg`} alt="Phone Icon" />
-                    </div>
-                    <p className="cs_white_color cs_mb_5">Requesting A Call</p>
-                    <a href="tel:+97143300002" className="cs_call_text cs_fs_30 cs_bold cs_heading_font cs_mb_23">(+971) 4 330 0002</a>
-                    <p className="cs_card_subtitle cs_white_color cs_mb_33">If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.</p>
-                    <Link to="/about" className="cs_card_btn">
-                      <span>Read more</span>
-                      <span><i className="bi bi-arrow-right"></i></span>
-                    </Link>
+          </div>
+          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
+        </section>
+
+        {/* FAQ's */}
+        <section className="section cs_py_48  bg-dark-blue text-light">
+          <div className="container">
+            <h3 className="cs_fs_30 text-light">FAQ's</h3>
+
+            <div className="cs_accordians_wrapper cs_style_1 p-0">
+
+              {data.map((item, index) => (
+                <div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`} >
+                  <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
+                    <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
+                    <span className="cs_accordian_toggle">
+                      <i className="bi bi-eye text-light"></i>
+                      <i className="bi bi-eye-slash text-light"></i>
+                    </span>
+                  </div>
+                  <div className="cs_accordian_body" ref={accordionContentRef}>
+                    {/* <p className="mb-0">{item.desc.replace(/\n/g, '<br>')}</p> */}
+                    <p className="mb-0"
+                      dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
+                    ></p>
                   </div>
                 </div>
-              </div>
-            </aside>
+              ))}
+
+            </div>
           </div>
-        </div>
-        <div className="cs_height_80 cs_height_lg_80"></div>
         </section>
+
+        <section className="section cs_py_48">
+          <Serviceappointemnt
+            subtitle2="Contact us"
+            title2="Book and Appointment"
+          ></Serviceappointemnt>
+
+        </section>
+
+      </div>
+
+       
       </>
     );
 };

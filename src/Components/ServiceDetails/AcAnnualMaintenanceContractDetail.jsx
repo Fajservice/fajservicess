@@ -8,6 +8,7 @@ import CallNowButton from '../Buttons/CallNowButton';
 import GetQuoteButton from "../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
+import QuickGuide from "../Quick Guide/QuickGuide"
 
 import Slider from "react-slick";
 import testimonial_data from '../../Data/AcServiceTestimonials.json';
@@ -275,6 +276,12 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
 
           </div>
         </section>
+        
+        {/* A Quick Guide to Understanding and Fixing Your AC Problems*/}
+        <QuickGuide />
+
+        {/* The Benefits Of Regular AC Service*/}
+        <BenefitAcMaintenance />
 
         {/* The Importance of AC Maintenance Contract Service*/}
         <section className="section cs_py_48 bg-light-gray">
@@ -300,9 +307,6 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
             </div>
           </div>
         </section>
-
-        {/* The Benefits Of Regular AC Service*/}
-        <BenefitAcMaintenance />
 
         {/*What is covered in an AC Maintenance Contract?  */}
         <section className="section cs_py_48 ">
