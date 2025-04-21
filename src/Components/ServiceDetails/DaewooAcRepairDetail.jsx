@@ -7,6 +7,7 @@ import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import CallNowButton from '../Buttons/CallNowButton';
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
+import QuickGuide from "../Quick Guide/QuickGuide";
 import testimonial_data_Daewoo from '../../Data/DaewooAcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";
@@ -129,11 +130,11 @@ const DaewooAcRepair = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-          <h3 className="cs_fs_30">Daewoo Air Con Service Quality Workmanship </h3>
+          <h3 className="cs_fs_30">Hassle-free Daewoo Split air conditioner (A/c) Maintenance</h3>
             <div className="row align-items-center">
               <div className="col-md-6">
                 
-                <p>FAJ is working consistently since 2010 to make its customers satisfied and comfortable. Getting the best Daewoo ac repair service in Dubai is not easy especially when you are in urgent need. Our superior workmanship is what makes us different from others. In the need of immediate help, we are present and we provide unbeatable service to our customers. With our regular maintenance service keep your Daewoo air con running smoothly and swiftly. <br />Breathing fresh air is the right of everyone. Getting top-quality fresh air requires the best air con. Daewoo can provide healthy air to its buyers. In Dubai, Daewoo is the leading brand. So, if you have Daewoo air conditioning at your home or office and looking for its repairs. Why not look for a top-quality service provider for a top ac brand? <br />FAJ Technical Services LLC is a top-notch company providing mind-blowing Daewoo ac repair in Dubai. We understand the necessity of properly functioning air. Our team of experienced technicians ensures to provide optimal performance of Daewoo air con and an enjoyable indoor environment all year round.</p>
+                <p>Better and on-time maintenance brings fruitful results and therefore, the air conditioning can work for many years. However, a malfunctioned daewoo air con can lead to inconvenience and discomfort as well as restricts fresh cooling. Moreover, inadequate cool air negatively affects our day-to-day tasks. To get the best Daewoo ac repair in dubai make sure to communicate with an experienced and well-known company. Because this will not only save you time but saves money as well.<br />Daewoo air conditioner is the most used cooling system in the whole of Dubai. After several years of service, every air con requires proper maintenance and servicing. For excellent Daewoo ac repair in dubai detailed accurate maintenance is what makes your air conditioning functional for many years. Repairing any issue before it turns into a large repair is the key to preventing any problem. This is where we can help you, we are professionals in providing dependable and unique Daewoo ac repair in dubai. For all types/models of air conditioners of any size, FAJ Technical Services LLC is at your doorstep to give you a hand in maintaining it. And fixing faults your air con is experiencing.</p>
               </div>
               <div className="col-md-6 text-center text-md-end">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-service.jpg`} alt="Daewoo Ac Repair" />
@@ -242,142 +243,39 @@ const DaewooAcRepair = ({ subtitle, title, bgImg }) => {
             </div>
         </section>
 
-        {/* A Quick Tour to Your AC Problems and Fixing*/}
-        <section className="section cs_py_48 bg-light-gray">
-            <div className="container">
-                <h3 className="cs_fs_30">A Quick Guide to Understanding and Fixing Your AC Problems</h3>
-                <div className="row">
-                    <div className="col-xl-6">
-                        <iframe className="bordered-img blue-border" width="100%" height="350" src="https://www.youtube.com/embed/sxBhB1_gxYA?si=96yf5hxyAA3bct8w" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen=""></iframe>
-                    </div>
-                    <div className="col-xl-6">
-                        <p>Watch this video to learn about the common issues your air conditioning unit may experience.
-                        This knowledge will help you ensure that the professionals you hire are performing the appropriate checks and maintenance.</p>
-                        <p><strong>We specialize in:</strong></p>
-                        <div className="row">
-                            <div className="col">
-                                <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
-                                    <li>
-                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                                            <i className="bi bi-check"></i></span>
-                                        <span>AC coil cleaning</span>
-                                    </li>
-                                    <li>
-                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                                            <i className="bi bi-check"></i></span>
-                                        <span>Recharging refrigerant levels</span>
-                                    </li>
-                                    <li>
-                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                                            <i className="bi bi-check"></i></span>
-                                        <span>Cleaning or replacing the air filtes</span>
-                                    </li>
-                                    <li>
-                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                                            <i className="bi bi-check"></i></span>
-                                        <span>Checking and tightening electrical connections</span>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div className="col">
-                                <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
-                                    <li>
-                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                                            <i className="bi bi-check"></i></span>
-                                        <span>Regular maintenance</span>
-                                    </li>
-                                    <li>
-                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                                            <i className="bi bi-check"></i></span>
-                                        <span>Unclogging drain lines</span>
-                                    </li>
-                                    <li>
-                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                                            <i className="bi bi-check"></i></span>
-                                        <span>Inspecting and AC installation
-                                        </span>
-                                    </li>
-
-                                    <li>
-                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                                            <i className="bi bi-check"></i></span>
-                                        <span>Fixing leaks refrigerant, water, or duct leaks</span>
-                                    </li>
-
-                                </ul>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section className="section cs_py_48 bg-dark-blue text-light">
-          <div className="container">
-            <div className="row">
-                <div className="col-md-6">
-                    <h3 className="cs_fs_24 text-light">Exceptional Repairing Of Daewoo Centralized Air Conditioning (Air Con)</h3>
-                    <p>To provide more comfort to you, potential and timely repair is indispensable. After proper repair, your air con offers great cooling performance. Regular maintenance of your centralized ac extends its lifetime and improves functions. Not many offer Daewoo ac repair in Dubai. However, FAJ is unique and experienced in providing exceptional service, maintenance, and fixing of your aircon. Get instant access to a potentially trained, highly skilled professional for optimal and fast air condition repairing.</p>
-                </div>
-                <div className="col-md-6">
-                    <h3 className="cs_fs_24 text-light">Cost Effective VRV Installation And Operation (Daewoo Aircon) AC</h3>
-                    <p>VRV Daewoo air conditioning is called ideal for small and large spaces. It is the most advanced air system worldwide and popular as well. It is significantly equipped with modern technology and, results in energy efficiency. To install this Daewoo VRV ac an exceptionally trained team is required. To get the advantage of better comfort and a sustainable cooled environment accurate installation and operation is a key.</p>    
-                </div>
-                <div className="col-md-12">
-                    <h3 className="cs_fs_24 text-light">Different Models Of Daewoo Ducted Aircon</h3>
-                    <p>Several types/ models of Daewoo ducted ac are available in the market. Choosing the best one which is suitable for your house or office is an art. Expert advice clears all doubts and helps you to get the right aircon for your place.</p>
-                </div>
-                <div className="col-md-6">
-                    <h4 className="cs_fs_18 text-light">Inverter Daewoo Ducted</h4>
-                    <p>This type of air conditioner has an efficient and compact design. This one is ideal to install in the tight roof space of the modern home.</p>
-                </div>
-                <div className="col-md-6">
-                    <h4 className="cs_fs_18 text-light">Premium Inverter Ducted</h4>
-                    <p>This ducted air con has remarkable energy performance and the ability to perform functions quite innovatively. We are skilled enough in installing, repairing, fixing, and maintenance of these kinds of air conditioners.</p>    
-                </div>
-                <div className="col-md-6">
-                    <h4 className="cs_fs_18 text-light">Bulkhead System</h4>
-                    <p>This model is best for drop ceilings and shallow ceilings. Optimal for bedroom air conditioning and ideal where discreet installation is a preference.</p>
-                </div>
-                <div className="col-md-6">
-                    <h4 className="cs_fs_18 text-light">Slimline Ducted</h4>
-                    <p>It has freedom of design and unparalleled flexibility. FAJ is the most reliable and ideal one for installing and maintenance of these ac machines.</p>    
-                </div>
-            </div>
-          </div>
-        </section>
+        {/* A Quick Guide to Understanding and Fixing Your AC Problems */}
+        <QuickGuide />
 
         
         <section className="section cs_py_48">
           <div className="container">
-          <h3 className="cs_fs_30">Get A Full Fledged Expert Service Of Daewoo HVAC</h3>
+          <h3 className="cs_fs_30">Daewoo Split Air Con Error Codes</h3>
+          <p>Air conditioners are primarily designed to provide optimum, fast cooling. With time, these air cons require careful attention and help from expert technicians to keep working the way they should. These are some fault codes which must need a quick fix.</p>
             <div className="row align-items-center">
                 <div className="col-xl-6">
                   <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-repair.jpg`} alt="Daewoo Ac Repair" />
                 </div>
                 <div className="col-xl-6">
-                  <p>While modern HVAC systems are manufactured to deliver year-long service. However, issues with air condition can and will arise. Here are some common problems which are faced by several homeowners, businesses, etc.</p>
-                  <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span><strong>Blown Is Fused:</strong> One reason your Daewoo HVAC is not functioning is because of blown fuses. Fuses are mainly designed to protect the compressor and unit’s motor or ac engine from overheating. Due to that, the breaker gets flipped off which indicates a huge problem with your HVAC air con.</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span><strong>Unclean Air Filters:</strong> Dirty ac filters make your Daewoo HVAC aircon to under-perform and eventually freeze. Air filters must be regularly changed otherwise, airflow can be decreased significantly. For exceptional services, FAJ is available on the other side of a single call. Don’t let your air condition issues disturb your comfort and your important work. Let us keep your air conditioning in optimal condition, and make sure you and your loved ones enjoy cool and fresh air.</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span><strong>Poor Refrigerant:</strong> In HVAC ac refrigerant leaks happen and it is caused by system vibration during operation. Leaks always require repairing whether it is in lines or coils. Our expert team takes good care of your property and makes sure to gently handle it. Give your HVAC air conditioning the care it deserves!</span>
-                    </li>
-                  </ul>
+                  <h4 className="cs_fs_24">Error codes of the Daewoo unit</h4>
+                    <ul>
+                      <li>Daewoo error code: E0</li>
+                      <li>Daewoo error code: E01</li>
+                      <li>Daewoo error code: E02</li>
+                      <li>Daewoo error code: E03</li>
+                      <li>Daewoo error code: E04</li>
+                    </ul>
+                  <h4 className="cs_fs_24">Daewoo Window Miscellaneous Issues/ Problems</h4>
+                    <p>Air conditioner does its best and keeps your daily work schedule and sleep soft and comfortable. And, things get worse if your air con does not go through thorough regular maintenance such as;</p>
+                    <ul>
+                      <li>Daewoo window air conditioning is failed to turn on</li>
+                      <li>It is not cooling your room instead reverse happening, humidity and warm air</li>
+                      <li>Daewoo AC is emitting wyrd odors</li>
+                      <li>Strange noises are coming out of your air conditioning</li>
+                      <li>The remote control of the Daewoo air conditioner is not functioning</li>
+                    </ul>
                 </div>
             </div>
+            <p>All these problems occur when your air con does not get routine maintenance and proper servicing. Furthermore, due to dust, debris, and dirt air filters get clogged or blocked which hampers the fresh, crisp cool air to circulate in the entire room or home. Thus, it causes the emission of unusual noises and smells. Hence, due to these, unwanted problems occur. Additionally, refrigerant leakage and defective compressors restrict your AC to turn on.</p>
           </div>
           <section className="section">
           <div className="container">
