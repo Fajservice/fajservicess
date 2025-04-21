@@ -8,6 +8,7 @@ import CallNowButton from '../Buttons/CallNowButton';
 import GetQuoteButton from "../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
+import QuickGuide from "../Quick Guide/QuickGuide";
 
 import Slider from "react-slick";
 import testimonial_data from '../../Data/AcServiceTestimonials.json';
@@ -271,85 +272,11 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
                 <WhatsappIconButton />
               </div>
             </div>
-
           </div>  
         </section>
 
-        {/* A Quick Guide to Understanding and Fixing Your AC Problems*/}
-        <section className="section cs_py_48 bg-light-gray">
-          <div className="container">
-            <h3 className="cs_fs_30">A Quick Guide to Understanding and Fixing Your AC Problems</h3>
-            <div className="row">
-              <div className="col-xl-6">
-                <iframe className="bordered-img blue-border" width="100%" height="350" src="https://www.youtube.com/embed/sxBhB1_gxYA?si=96yf5hxyAA3bct8w" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen=""></iframe>
-              </div>
-              <div className="col-xl-6">
-                <p>Take a look at this video to understand the possible problems your AC might face. This will help you to ensure that the professionals you hire are completing the right checks.</p>
-                <p><strong>We specialize in:</strong></p>
-                <div className="row">
-                  <div className="col">
-                    <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
-                      <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                          <i className="bi bi-check"></i></span>
-                        <span>Cleaning or replacing the air filter</span>
-                      </li>
-                      <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                          <i className="bi bi-check"></i></span>
-                        <span>Recharging refrigerant levels</span>
-                      </li>
-                      <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                          <i className="bi bi-check"></i></span>
-                        <span>Checking and tightening electrical connections</span>
-                      </li>
-                      <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                          <i className="bi bi-check"></i></span>
-                        <span>Ac coil cleaning</span>
-                      </li>
-                    </ul>
-                  </div>
-
-                  <div className="col">
-                    <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
-                    <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                          <i className="bi bi-check"></i></span>
-                        <span>Unclogging drain lines</span>
-                      </li>
-
-                      <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                          <i className="bi bi-check"></i></span>
-                        <span>Inspecting and repairing ductwork</span>
-                      </li>
-
-                      <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                          <i className="bi bi-check"></i></span>
-                        <span>Fixing leaks refrigerant, water, or duct leaks</span>
-                      </li>
-                      
-                      <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                          <i className="bi bi-check"></i></span>
-                        <span>Regular maintenance</span>
-                      </li>
-                      
-                      
-
-                    </ul>
-                  </div>
-
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </section>
-
+        {/* A Quick Guide to Understanding and Fixing Your AC Problems */}
+        <QuickGuide />
 
         {/* The Benefits Of Regular AC Service*/}
         <BenefitAcMaintenance />
