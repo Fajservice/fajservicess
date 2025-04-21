@@ -166,9 +166,9 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
                   <li> <strong>Lower Environmental Impact: </strong> Reduced energy use means less environmental strain—especially important in high-usage areas like Dubai. </li>
                   <li> <strong>Avoids Major Breakdowns: </strong> Routine checks help spot and resolve minor issues before they turn into expensive repairs. </li>
                   <li> <strong>Extends Unit Life: </strong> Preventive maintenance increases the lifespan of your AC system, saving money in the long term. </li>
-                  <li> <strong>Keeps Indoor Air Quality Healthy: </strong> Clean filters and components reduce dust, allergens, and pollutants in your home. </li>
+                  {/* <li> <strong>Keeps Indoor Air Quality Healthy: </strong> Clean filters and components reduce dust, allergens, and pollutants in your home. </li> */}
                 </ul>
-                <p>Don’t compromise on comfort—contact a professional AC maintenance service in Dubai like FAJ Technical Services LLC before any major fault occurs.</p>
+                {/* <p className="mb-0">Don’t compromise on comfort—contact a professional AC maintenance service in Dubai like FAJ Technical Services LLC before any major fault occurs.</p> */}
 
               </div>
             </div>

@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../Data/acfaq.json';
+import data from '../../Data/refrigeratorfaq.json';
 import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
@@ -70,11 +70,14 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
     ]
   };
 
-    return (
-      <>
+  return (
+    <>
       <HelmetProvider>
-        <title>AC Repair Dubai - Reliable AC Fixing - AC Repair Near Me</title>
-        <meta name="description" content="If your air conditioner not cooling! It is time to contact FAJ to get fix split or central AC Repair Dubai. Book 043300002 emergency ac repair"></meta>
+        <title>Refrigerator Repair Near Me
+          <span>&nbsp;-&nbsp;</span>   Fridge Repair Service Dubai
+        </title>
+        <meta name="description" content="Book refrigerator repair near you. Call now at 
++971 50 746 4712 FAJ experts to get same day fridge repair & maintenance in Dubai. Freezer fix & service center."></meta>
       </HelmetProvider>
 
       <div className="cs_service_details">
@@ -98,26 +101,22 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* Select Air Conditioner Repair & Service */}
+        {/* Refrigerator Repair & Service Nearby You */}
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
             <div className="row g-5">
               <div className="col-md-6">
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/ac-repair.jpg`} alt="Post Image" />
-                <h3 className="cs_fs_24 mb-1 mt-3">Select Air Conditioner Repair & Service</h3>
-                <p>We understand the urgency of responding promptly when an air conditioner failure impacts your critical cooling system, especially when people depend on it. Our expert and experienced AC technicians are dedicated to delivering the best AC repair and service in Dubai.</p>
-                <p>Choose FAJ for professional AC repair and maintenance for both residential and commercial units in your area.</p>
+                <h3 className="cs_fs_24 mb-1 mt-3">Refrigerator Repair & Service Nearby You</h3>
+                <p>Is your fridge or freezer not cooling properly? Has your food spoiled?
+                  <br />
+                  You can easily book online refrigerator repair in Dubai / Sharjah near me service with FAJ Experts. We repair most major brands of refrigerators and freezers, offering same-day fridge service at affordable prices. Choose a time slot that works best for you!</p>
               </div>
 
               <div className="col-md-6 border-small-left">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/ac-repair-2.jpg`} alt="Post Image" />
-                <h3 className="cs_fs_24 mb-1 mt-3">Top Signs Need An AC Repair in Dubai</h3>
-                <p>When you realize your air conditioner isn't working well in the summer, it can be frustrating. Minor signs are often overlooked, but they can lead to major problems that require repairs, especially in Dubai's heat.</p>
-                <ul>
-                  <li>Insufficient Cooling / AC blowing warm air</li>
-                  <li>Strange Noises Coming From The AC</li>
-                  <li>Leaks of gas or water around your AC unit</li>
-                </ul>
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/fridgerepair .jpg`} alt="Post Image" />
+                <h3 className="cs_fs_24 mb-1 mt-3">Fridge Technical Inspection Fee</h3>
+                <p>The technical inspection fee is AED 157, which covers diagnosis, transportation, and reinstallation in Dubai premises. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.</p>
               </div>
             </div>
 
@@ -159,21 +158,21 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
             <h3 class="cs_fs_30">5 Reasons Your AC Might Need Repairs This Summer </h3>
             <p>Air conditioning issues are quite common during the summer months. If you're experiencing AC issues this season, it's important to understand what might be happening with your system. Identifying the problem early can prevent it from worsening and ensure your place remains comfortable during the heat. </p>
 
-            
+
 
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/ac-repair-3.jpg`} alt="Post Image" />
               </div>
               <div className="col-md-6">
-              
+
                 <ul className="mb-0">
                   <li> <strong>Insufficient Cooling:</strong> May be due to a refrigerant leak, blocked filter, or compressor issues.</li>
                   <li> <strong>Strange Noises:</strong> Sounds like banging or hissing could indicate damaged parts.</li>
                   <li> <strong>Increased Energy Bills:</strong> A spike in bills often means your AC is working inefficiently.</li>
                   <li> <strong>Frequent Cycling:</strong> Constantly turning on and off might suggest a faulty thermostat or oversized system.</li>
                   <li> <strong>Poor Airflow:</strong> Weak airflow can result from a clogged filter or issues with the ducts.
-                  Stay alert for these signs to maintain your AC. If you notice any issues, consult a professional technician for help.</li>
+                    Stay alert for these signs to maintain your AC. If you notice any issues, consult a professional technician for help.</li>
                 </ul>
               </div>
             </div>
@@ -283,8 +282,8 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-         {/* A Quick Guide to Understanding and Fixing Your AC Problems*/}
-         <QuickGuide />
+        {/* A Quick Guide to Understanding and Fixing Your AC Problems*/}
+        <QuickGuide />
 
         <BenefitAcMaintenance />
 
@@ -312,89 +311,133 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* We specialise in air conditioning Repair services for the following brands */}
+        {/* We specialise in Refrigerator services for the following brands */}
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-            <h3>We specialise in air conditioning Repair services for the following brands</h3>
+            <h3>We specialise in Refrigerator services for the following brands</h3>
             <div className="row">
               <div className="col-12">
+
                 <p className="mb-0">
-                  <Link to="/lg-ac-repair-in-dubai/"><b>LG Air Conditioner Repair</b></Link>: FAJ offers reliable LG AC repair, and services in Dubai. With professionals, who are experts in split, vrf and central air conditioning units.
+                  <Link to="/lg-fridge-repair-in-dubai-lg-washing-machine-repair-in-dubai-lg-cooker-repair-in-dubai-lg-oven-repair-in-dubai-lg-appliances-maintenance-in-dubai-lg-refrigerator-fix-repairs-service-in-dubai-lg-dishwa/"><b>LG Refrigerator Repair</b></Link>: FAJ is here to support you when things go wrong. We understand that your LG appliances are essential for daily life, keeping your food fresh and meals cooked.
                 </p>
                 <p className="mb-0">
-                  <Link to="/samsung-ac-repair-in-dubai/"><b>Samsung Air Conditioner Repair and Service</b></Link>: Based in Dubai, FAJ is your go-to destination for Samsung AC Repair in Dubai. Specializing in Samsung air conditioner systems, we offer comprehensive services ranging from maintenance to repair.
+                  <Link to="/samsung-fridge-repair-in-dubai-samsung-washing-machine-repair-in-dubai-samsung-cooker-repair-in-dubai-samsung-oven-repair-in-dubai-samsung-appliances-maintenance-in-dubai-samsung-refrigerator-fix-repa/"><b>Samsung Refrigerator Repair</b></Link>: If you are facing any problems with your Samsung refrigerator, washer dryer, or dishwasher, contact the FAJ team for same-day repair service in Dubai.
                 </p>
                 <p className="mb-0">
-                  <Link to="/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten/"><b>York AC Service and Repair</b></Link>: The York AC repair service ensures you don’t need to worry because you are in the right place. Yes, FAJ is where efficiency and reliability are prioritized.
+                  <Link to="/electrolux-home-appliances-repair/"><b>Electrolux Refrigerator Repair</b></Link>: When you need Electrolux appliance repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE.
                 </p>
                 <p className="mb-0">
-                  <Link to="/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con/"><b>Daikin Air Conditioner Repair</b></Link>: Trust our skilled team to efficiently resolve all issues with your Daikin air conditioner and restore its functionality.
+                  <Link to="/bosch-home-appliances-repair/"><b>Bosch Refrigerator Repair</b></Link>: If you are looking for the best Bosch appliance repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch home appliance repair and are recognized as the leading Bosch appliance service provider in the area.
                 </p>
                 <p className="mb-0">
-                  <Link to="/trane-ac-repair-in-dubai-trane-ac-maintenance-in-dubai-trane-ac-fix-in-dubai-trane-ac-service-in-dubai-trane-air-condition-repair-in-dubai-trane-air-condition-maintenance-in-dubai-trane-air-condition/"><b>Trane HVAC Repair</b></Link>: With extensive knowledge of Trane air conditioning systems, we provide effective repairs to keep your unit running smoothly.
+                  <Link to="/viking-appliances-service/"><b>Viking Fridge Freezer Repair</b></Link>: Your Viking appliances may require repair or maintenance and we can help. For high-quality Viking Fridge Freezer repair in Dubai, rely on FAJ.
                 </p>
                 <p className="mb-0">
-                  <Link to="/panasonic-ac-repair-in-dubai-panasonic-ac-maintenance-in-dubai-panasonic-ac-fix-in-dubai-panasonic-ac-service-in-dubai-panasonic-air-condition-repair-in-dubai-panasonic-air-condition-maintenance-in-du/"><b>Panasonic AC Repair and Service</b></Link>: No matter the issue with your Panasonic air conditioner, our experts can accurately diagnose and fix it.
+                  <Link to="/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/"><b>Daewoo Refrigerator Repair</b></Link>: We provide expert services for Daewoo appliance repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo refrigerator, washing machine, dryer and more.
                 </p>
                 <p className="mb-0">
-                  <Link to="/gree-ac-repair-in-dubai/"><b>Gree AC Repair and Service</b></Link>: Has your AC stopped working? No need to endure unpleasant temperatures and stuffy air or suffer losses due to damaged equipment (broken gree air conditioning in a room, for example, can be a disaster!) – FAJ get your gree air conditioning back up and running in no time!
+                  <Link to="/siemens-home-appliances-repair/"><b>Siemens Refrigerator Repair</b></Link>: Are you concerned about your Siemens appliance malfunctioning and searching for a reliable Siemens refrigerator repair company in Dubai? Contact us for same-day service!
                 </p>
                 <p className="mb-0">
-                  <Link to="/o-general-ac-repair-in-dubai-o-general-ac-maintenance-in-dubai-o-general-ac-fix-in-dubai-o-general-ac-service-in-dubai-o-general-air-condition-repair-in-dubai-o-general-air-condition-maintenance-in-du/"><b>O General AC Repair and Service</b></Link>: O General AC repair in Dubai requires expert help because only specialized ones know how to address aircon issues. We are a hassle-free air condition repair service provider.
+                  <Link to="/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/"><b>Teka Refrigerator Repair</b></Link>: If you're searching for the best Teka appliance repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
                 </p>
-                <p className="mb-0">
-                  <Link to="/mitsubishi-ac-repair-in-dubai/"><b>Mitsubishi Air Conditioner Repair and Service</b></Link>: Seeking relief from scorching heat? Discover the secret to keeping your Mitsubishi AC running smoothly in Dubai! Our expert Mitsubishi AC services ensure your AC stays cool and efficient, providing comfort and peace of mind.
-                </p>
+
                 <br />
 
-                <p className="mb-0">
-                  <Link to="/sanyo-ac-repair-in-dubai-sanyo-ac-maintenance-in-dubai-sanyo-ac-fix-in-dubai-sanyo-ac-service-in-dubai-sanyo-air-condition-repair-in-dubai-sanyo-air-condition-maintenance-in-dubai-sanyo-air-condition/">Sanyo AC Repair Dubai</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/rheem-ac-maintenance-in-dubai/">Rheem AC Repair</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/skm-ac-repair-in-dubai-skm-ac-maintenance-in-dubai-skm-ac-fix-in-dubai-skm-ac-service-in-dubai-skm-air-condition-repair-in-dubai-skm-air-condition-maintenance-in-dubai-skm-air-condition-maintenance-in/">SKM AC Repair Dubai</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/daewoo-ac-repair-in-dubai-daewoo-ac-maintenance-in-dubai-daewoo-ac-fix-in-dubai-daewoo-ac-service-in-dubai-daewoo-air-condition-repair-in-dubai-daewoo-air-condition-maintenance-in-dubai-daewoo-air-con/">Daewoo AC Repair Dubai</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="#">Carrier AC Repair</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/midea-ac-installation-maintenance-repair-fix-service-in-dubai/">Midea Air Conditioner Repair Service Near Me</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/lennox-ac-repair-in-dubai-lennox-ac-maintenance-in-dubai-lennox-ac-fix-in-dubai-lennox-ac-service-in-dubai-lennox-air-condition-repair-in-dubai-lennox-air-condition-maintenance-in-dubai-lennox-air-con/">Lennox Air Conditioning Repair</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/goodman-ac-repair-in-dubai-goodman-ac-maintenance-in-dubai-goodman-ac-fix-in-dubai-goodman-ac-service-in-dubai-goodman-air-condition-repair-in-dubai-goodman-air-condition-maintenance-in-dubai-goodman/">Goodman AC Repair Dubai</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/coleman-ac-repair-in-dubai-coleman-ac-maintenance-in-dubai-coleman-ac-fix-in-dubai-coleman-ac-service-in-dubai-coleman-air-condition-repair-in-dubai-coleman-air-condition-maintenance-in-dubai-coleman/">Coleman AC Reapair Services</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/westpoint-ac-repair-in-dubai-westpoint-ac-maintenance-in-dubai-westpoint-ac-fix-in-dubai-westpoint-ac-service-in-dubai-west-point-air-condition-repair-in-dubai-west-point-air-condition-maintenance-in/">Westpoint Repair</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/aftron-ac-repair-maintenance-service-in-dubai-2/">Aftron AC Repair Service Near Me</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/crafft-ac-repair-in-dubai-crafft-ac-maintenance-in-dubai-crafft-ac-fix-in-dubai-crafft-ac-service-in-dubai-crafft-air-condition-repair-in-dubai-crafft-air-condition-maintenance-in-dubai-crafft-air-con/">Crafft AC Repair</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/bryant-ac-repair-in-dubai-bryant-ac-maintenance-in-dubai-bryant-ac-fix-in-dubai-bryant-ac-service-in-dubai-bryant-air-condition-repair-in-dubai-bryant-air-condition-maintenance-in-dubai-bryant-air-con/">Bryant AC Repair</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/ruud-ac-repair-in-dubai-ruud-ac-maintenance-in-dubai-ruud-ac-fix-in-dubai-ruud-ac-service-in-dubai-ruud-air-condition-repair-in-dubai-ruud-air-condition-maintenance-in-dubai-ruud-air-condition-mainten/">Ruud Air Conditioner Repair Service</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/mcquay-ac-repair-in-dubai-mcquay-ac-maintenance-in-dubai-mcquay-ac-fix-in-dubai-mcquay-ac-service-in-dubai-mcquay-air-condition-repair-in-dubai-mcquay-air-condition-maintenance-in-dubai-mcquay-air-con/">McQuay Air Conditioning Repair</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/blue-star-ac-repair-in-dubai-blue-star-ac-maintenance-in-dubai-blue-star-ac-fix-in-dubai-blue-star-ac-service-in-dubai-blue-star-air-condition-repair-in-dubai-blue-star-air-condition-maintenance-in-du/">Blue Star</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/supra-ac-repair-in-dubai-supra-ac-maintenance-in-dubai-supra-ac-fix-in-dubai-supra-ac-service-in-dubai-supra-air-condition-repair-in-dubai-supra-air-condition-maintenance-in-dubai-supra-air-condition/">Supra AC Repair</Link>
-                  <span>&nbsp;-&nbsp;</span>
+              <p className="mb-0">
+              <Link to="/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg">AEG</Link>
+              <span>&nbsp;-&nbsp;</span>  
+  <Link to="/ariston-fridge-repair-in-dubai-ariston-washing-machine-repair-in-dubai-ariston-cooker-repair-in-dubai-ariston-oven-repair-in-dubai-ariston-appliances-maintenance-in-dubai-ariston-refrigerator-fix-repa">Ariston</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/beko-fridge-repair-in-dubai-beko-washing-machine-repair-in-dubai-beko-cooker-repair-in-dubai-beko-oven-repair-in-dubai-beko-appliances-maintenance-in-dubai-beko-refrigerator-fix-repairs-service-in-dub">Beko</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/blomberg-fridge-repair-in-dubai-blomberg-washing-machine-repair-in-dubai-blomberg-cooker-repair-in-dubai-blomberg-oven-repair-in-dubai-blomberg-appliances-maintenance-in-dubai-blomberg-refrigerator-fi">Blomberg</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/faber-appliances-service">Faber</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/fagor-fridge-repair-in-dubai-fagor-washing-machine-repair-in-dubai-fagor-cooker-repair-in-dubai-fagor-oven-repair-in-dubai-fagor-appliances-maintenance-in-dubai-fagor-refrigerator-fix-repairs-service">Fagor</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/fisher-and-paykel-fridge-repair-in-dubai-fisher-and-paykel-washing-machine-repair-in-dubai-fisher-and-paykel-cooker-repair-in-dubai-fisher-and-paykel-oven-repair-in-dubai-fisher-and-paykel-appliances">Fisher and Paykel</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/foster-appliances-services-foster-dishwasher-repair-service-in-dubai-foster-cooking-range-repair-service-in-dubai-foster-cooktop-repair-service-in-dubai-foster-oven-repair-in-dubai-foster-rangetop-r">Foster</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/gaggenau-fridge-repair-in-dubai-gaggenau-washing-machine-repair-in-dubai-gaggenau-cooker-repair-in-dubai-gaggenau-oven-repair-in-dubai-gaggenau-appliances-maintenance-in-dubai-gaggenau-refrigerator-fi">Gaggenau</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/hitachi-fridge-repair-in-dubai-hitachi-washing-machine-repair-in-dubai-hitachi-cooker-repair-in-dubai-hitachi-oven-repair-in-dubai-hitachi-appliances-maintenance-in-dubai-hitachi-refrigerator-fix-repa">Hitachi</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/hoover-fridge-repair-in-dubai-hoover-washing-machine-repair-in-dubai-hoover-cooker-repair-in-dubai-hoover-oven-repair-in-dubai-hoover-appliances-maintenance-in-dubai-hoover-refrigerator-fix-repairs-se">Hoover</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-oven-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa">Indesit</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/lg-fridge-repair-in-dubai-lg-washing-machine-repair-in-dubai-lg-cooker-repair-in-dubai-lg-oven-repair-in-dubai-lg-appliances-maintenance-in-dubai-lg-refrigerator-fix-repairs-service-in-dubai-lg-dishwa">LG</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub">Neff</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub">Smeg</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/sub-zero-fridge-repair-in-dubai-sub-zero-washing-machine-repair-in-dubai-sub-zero-cooker-repair-in-dubai-sub-zero-oven-repair-in-dubai-sub-zero-appliances-maintenance-in-dubai-sub-zero-refrigerator-fi">Sub Zero</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/terim-appliances-service">Terim</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/whirlpool-fridge-repair-in-dubai-whirlpool-washing-machine-repair-in-dubai-whirlpool-cooker-repair-in-dubai-whirlpool-oven-repair-in-dubai-whirlpool-appliances-maintenance-in-dubai-whirlpool-refrigera">Whirlpool</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/zanussi-fridge-repair-in-dubai-zanussi-washing-machine-repair-in-dubai-zanussi-cooker-repair-in-dubai-zanussi-oven-repair-in-dubai-zanussi-appliances-maintenance-in-dubai-zanussi-refrigerator-fix-repa">Zanussi</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/de-dietrich-appliance-repair-service">De Dietrich</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/baumatic-appliances">Baumatic</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/bertazzoni-refrigerator-repair-in-dubai-bertazzoni-appliances-service-bertazzoni-fridge-repair-in-dubai-bertazzoni-washing-machine-washer-bertazzoni-dryer-repair-in-dubai-bertazzoni-dishwasher-cooker">Bertazzoni</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/bompani-fridge-repair-in-dubai-bompani-washing-machine-repair-in-dubai-bompani-cooker-repair-in-dubai-bompani-oven-repair-in-dubai-bompani-appliances-maintenance-in-dubai-bompani-refrigerator-fix-repa">Bompani</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/boston-refrigerator-repair-in-dubai-boston-appliances-service-boston-fridge-repair-in-dubai-boston-washing-machine-washer-boston-dryer-repair-in-dubai-boston-dishwasher-cooker">Boston</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/brandt-fridge-repair-in-dubai-brandt-washing-machine-repair-in-dubai-brandt-cooker-repair-in-dubai-brandt-oven-repair-in-dubai-brandt-appliances-maintenance-in-dubai-brandt-refrigerator-fix-repairs-se">Brandt</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/gibson-fridge-repair-in-dubai-gibson-washing-machine-repair-in-dubai-gibson-cooker-repair-in-dubai-gibson-oven-repair-in-dubai-gibson-appliances-maintenance-in-dubai-gibson-refrigerator-fix-repairs-se">Gibson</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/gorenje-fridge-repair-in-dubai-gorenje-washing-machine-repair-in-dubai-gorenje-cooker-repair-in-dubai-gorenje-oven-repair-in-dubai-gorenje-appliances-maintenance-in-dubai-gorenje-refrigerator-fix-repa">Gorenje</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/hisense-fridge-repair-in-dubai-hisense-washing-machine-repair-in-dubai-hisense-cooker-repair-in-dubai-hisense-oven-repair-in-dubai-hisense-appliances-maintenance-in-dubai-hisense-refrigerator-fix-repa">Hisense</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/kelvinator-home-appliance-installation-maintenance-repair-fix-service-in-dubai">Kelvinator</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/kenmore-appliances-service">Kenmore</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/panasonic-fridge-repair-in-dubai-panasonic-washing-machine-repair-in-dubai-panasonic-cooker-repair-in-dubai-panasonic-oven-repair-in-dubai-panasonic-appliances-maintenance-in-dubai-panasonic-refrigera">Panasonic</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/sanyo-home-appliance-installation-maintenance-repair-fix-service-in-dubai">Sanyo</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/sears-home-appliances-installation-maintenance-repair-fix-service-in-dubai">Sears</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/wolf-home-appliance-installation-maintenance-repair-fix-service-in-dubai">Wolf</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/haier-fridge-repair-in-dubai-haier-washing-machine-repair-in-dubai-haier-cooker-repair-in-dubai-haier-oven-repair-in-dubai-haier-appliances-maintenance-in-dubai-haier-refrigerator-fix-repairs-service">Haier</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/elica-appliances-service">Elica</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/marvel-fridge-repair-in-dubai-marvel-washing-machine-repair-in-dubai-marvel-cooker-repair-in-dubai-marvel-oven-repair-in-dubai-marvel-appliances-maintenance-in-dubai-marvel-refrigerator-fix-repairs-se">Marvel</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/miele-fridge-repair-in-dubai-miele-washing-machine-repair-in-dubai-miele-cooker-repair-in-dubai-miele-oven-repair-in-dubai-miele-appliances-maintenance-in-dubai-miele-refrigerator-fix-repairs-service">Miele</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/maytag-fridge-repair-in-dubai-maytag-washing-machine-repair-in-dubai-maytag-cooker-repair-in-dubai-maytag-oven-repair-in-dubai-maytag-appliances-maintenance-in-dubai-maytag-refrigerator-fix-repairs-se">Maytag</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/toshiba-home-appliance-installation-maintenance-repair-fix-service-in-dubai-2">Toshiba</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/thermador-appliances-service">Thermador</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/sharp-home-appliance-installation-maintenance-repair-fix-service-in-dubai">Sharp</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/admiral-fridge-repair-in-dubai-admiral-washing-machine-repair-in-dubai-admiral-cooker-repair-in-dubai-admiral-oven-repair-in-dubai-admiral-appliances-maintenance-in-dubai-admiral-refrigerator-fix-repa">Admiral</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/aftron-fridge-repair-in-dubai-aftron-washing-machine-repair-in-dubai-aftron-cooker-repair-in-dubai-aftron-oven-repair-in-dubai-aftron-appliances-maintenance-in-dubai-aftron-refrigerator-fix-repairs-se">Aftron</Link>
+  <span>&nbsp;-&nbsp;</span>  
+  <Link to="/unimac-washing-machine-repair-in-dubai-unimac-dryer-repair-in-dubai-unimac-washer-dryer-repair-in-dubai-unimac-maintenance-in-dubai-unimac-laundry-service-in-dubai-unimac-dubai">Unimac</Link>
 
-                  <Link to="/toshiba-ac-repair-in-dubai-toshiba-ac-maintenance-in-dubai-toshiba-ac-fix-in-dubai-toshiba-ac-service-in-dubai-toshiba-air-condition-repair-in-dubai-toshiba-air-condition-maintenance-in-dubai-toshiba/">Toshiba AC Repair</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/whirlpool-air-condition-repair-in-dubai-ac-maintenance-in-dubai-air-conditioning-fix-repairs-service-in-dubai/">Whirlpool AC Repair</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/super-general-ac-repair-in-dubai-super-general-ac-maintenance-in-dubai-super-general-ac-fix-in-dubai-super-general-ac-service-in-dubai-super-general-air-condition-repair-in-dubai-super-general-air-con/">Super General AC Repair</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/hitachi-ac-repair-in-dubai-hitachi-ac-maintenance-in-dubai-hitachi-ac-fix-in-dubai-hitachi-ac-service-in-dubai-hitachi-air-condition-repair-in-dubai-hitachi-air-condition-maintenance-in-dubai-hitachi/">Hitachi AC Repair</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/o-general-ac-repair-in-dubai-o-general-ac-maintenance-in-dubai-o-general-ac-fix-in-dubai-o-general-ac-service-in-dubai-o-general-air-condition-repair-in-dubai-o-general-air-condition-maintenance-in-du/">O General Air Conditioning Repair</Link>
-                  <span>&nbsp;-&nbsp;</span>
-                  <Link to="/cooline-ac-repair-in-dubai-cooline-ac-maintenance-in-dubai-cooline-ac-fix-in-dubai-cooline-ac-service-in-dubai-cooline-air-condition-repair-in-dubai-cooline-air-condition-maintenance-in-dubai-cooline/">Cooline Air Conditioner Repair Service Near Me</Link>
-                </p>
+
+              </p>
               </div>
 
             </div>
@@ -551,9 +594,9 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
 
       </div>
 
-       
-      </>
-    );
+
+    </>
+  );
 };
 
 export default RefrigeratorRepairInDubaiDetails;
