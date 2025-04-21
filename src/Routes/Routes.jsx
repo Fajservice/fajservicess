@@ -58,8 +58,8 @@ import AcRepairInDiscoveryGardens from "../Pages/AcRepairInDiscoveryGardens";
 import AcRepairInAlWahaCommunity from "../Pages/AcRepairInAlWahaCommunity";
 import AcRepairInHudaiba from "../Pages/AcRepairInHudaiba";
 import AcRepairInImpz from "../Pages/AcRepairInImpz";
-import AcRepairInAlJafza from "../Pages/AcRepairInAlJafza";
 import AcRepairInAlSatwa from "../Pages/AcRepairInAlSatwa";
+import AcRepairInAlJafza from "../Pages/AcRepairInAlJafza";
 export const router = createHashRouter([
   {
     path: "/",

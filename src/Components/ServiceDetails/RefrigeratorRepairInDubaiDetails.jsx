@@ -114,7 +114,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-md-6 border-small-left">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/fridgerepair .jpg`} alt="Post Image" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/fridgerepair.jpg`} alt="Post Image" />
                 <h3 className="cs_fs_24 mb-1 mt-3">Fridge Technical Inspection Fee</h3>
                 <p>The technical inspection fee is AED 157, which covers diagnosis, transportation, and reinstallation in Dubai premises. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.</p>
               </div>
@@ -155,7 +155,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
         {/*FAJ: Creating the Perfect Temperature All Year Round */}
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-            <h3 class="cs_fs_30">5 Reasons Your AC Might Need Repairs This Summer </h3>
+            <h3 className="cs_fs_30">5 Reasons Your AC Might Need Repairs This Summer </h3>
             <p>Air conditioning issues are quite common during the summer months. If you're experiencing AC issues this season, it's important to understand what might be happening with your system. Identifying the problem early can prevent it from worsening and ensure your place remains comfortable during the heat. </p>
 
 
@@ -471,7 +471,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
         {/* white section with AC image */}
         <section className="section cs_py_48">
           <div className="container text-center">
-            <div class="row">
+            <div className="row">
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-cone">
                   <h3 className="cs_fs_20 mb-0">COOLING &amp; HEATING</h3>

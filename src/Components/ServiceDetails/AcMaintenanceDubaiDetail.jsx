@@ -101,13 +101,13 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* Select Air Conditioner Repair & Service */}
+        {/* AC Maintenance for the Best Cooling */}
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
             <div className="row g-5">
               <div className="col-md-6">
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/ac-repair.jpg`} alt="Post Image" />
-                <h3 className="cs_fs_24 mb-1 mt-3">Select Air Conditioner Repair & Service</h3>
+                <h3 className="cs_fs_24 mb-1 mt-3">AC Maintenance for the Best Cooling</h3>
                 <p>Regular AC maintenance in Dubai is essential to ensure that your air conditioner unit continues to function properly. Over time, filters and coils can become dirty and clogged, leading to a decline in cooling performance.</p>
                 <p>This can also result in issues such as water leakage from the indoor unit and unpleasant odors. So, what is the solution? If you're searching for a reliable AC maintenance company in Dubai to take care of your home or office aircon needs, look no further.</p>
               </div>
@@ -277,8 +277,42 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* A Quick Guide to Understanding and Fixing Your AC Problems */}
-        <QuickGuide />
+        {/* Tips for Maintaining Your AC System */}
+
+        <section className="section cs_py_48 bg-light-gray">
+          <div className="container">
+            <h3 className="cs_fs_30">Tips for Maintaining Your AC System</h3>
+                <p>Regular maintenance is crucial for preventing common AC issues and extending the lifespan of your system. Follow these tips to ensure your AC runs smoothly:</p>
+            <div className="row align-items-center">
+              <div className="col-xl-6">
+                <iframe
+                  className="bordered-img blue-border"
+                  width="100%"
+                  height="350"
+                  src="https://www.youtube.com/embed/sxBhB1_gxYA?si=96yf5hxyAA3bct8w"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
+              </div>
+
+              <div className="col-xl-6">
+                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_0">
+                      <li> <b>Change the Air Filter Regularly:</b> A dirty filter restricts airflow and decreases efficiency. Replace it every 1 to 3 months, depending on how often you use your system. </li>
+
+                      <li> <b>Clean the Coils:</b> Annually clean the condenser and evaporator coils to remove dirt and debris that can hinder performance. </li>
+
+                      <li> <b>Check the Thermostat Settings:</b> Verify that your thermostat is set correctly to avoid unnecessary wear on the system. Additionally, setting your AC to a temperature above 72 degrees Fahrenheit during the summer can save you on cooling costs and reduce wear. </li>
+
+                      <li> <b>Inspect the Ductwork:</b> Leaks in your ducts can lower efficiency and increase energy costs. Schedule a professional inspection and ask for new sealant if your system is older or if you notice any issues. </li>
+
+                      <li> <b>Clear the Area Around the Unit:</b> To ensure proper airflow, keep the area around your outdoor unit free from debris, plants, and other obstructions. </li>
+                    </ul>
+              </div>
+            </div>
+          </div>
+        </section>
 
         {/* The Benefits Of Regular AC Service*/}
         <BenefitAcMaintenance />
