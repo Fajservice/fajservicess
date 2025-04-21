@@ -1,17 +1,18 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../Data/SupraAcRepairfaq.json';
+import data from '../../Data/DaewooAcRepairfaq.json';
 import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import CallNowButton from '../Buttons/CallNowButton';
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
-import testimonial_data_Supra from '../../Data/SupraAcServiceTestimonials.json';
+import QuickGuide from "../Quick Guide/QuickGuide";
+import testimonial_data_Daewoo from '../../Data/DaewooAcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";
 
-const SupraAcRepair = ({ subtitle, title, bgImg }) => {
+const DaewooAcRepair = ({ subtitle, title, bgImg }) => {
   subtitle="Testimonial"
   title="What our clients say <br> About Us"
   bgImg="/img/testimonialbg.jpg"
@@ -64,17 +65,18 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-      <title>Supra AC Repair Dubai - Supra Split Air Conditioner Service</title>
-      <meta name="description" content="Sameday Supra AC repair in Dubai, Our technicians expert in supra split air conditioning maintenance service and fux aircon. Book now 043300002"/>
+      <title>Daewoo AC Repair in Dubai - AC Maintenance and Service</title>
+      <meta name="description" content="Are You Looking Best Daewoo AC Repair in Dubai? Call 043300002 get sameday split, central Air Conditioner maintenance, cleaning service near you Dubai"/>
       </HelmetProvider>
 
       <div className="cs_service_details">
         <section className="section cs_py_48">
           <div className="container">
+            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
             <p>FAJ Technical Services LLC is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
               <br />
-              Our skilled AC technicians can handle all types and models of Supra air conditioning units, ensuring your home or business stays cool and comfortable.</p>
+              Our skilled AC technicians can handle all types and models of Daewoo air conditioning units, ensuring your home or business stays cool and comfortable.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -90,14 +92,14 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
             <div className="container">
                 <div className="row g-5">
                     <div className="col-md-6">
-                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
-                        <h3 className="cs_fs_25 mb-1 mt-3">Best Supra AC Repair in Dubai</h3>
-                        <p>When it comes to Supra <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Dubai, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
-                        <p>We specialize in Supra air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
+                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Daewoo Ac Repair" />
+                        <h3 className="cs_fs_25 mb-1 mt-3">Best Daewoo AC Repair in Dubai</h3>
+                        <p>When it comes to Daewoo <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Dubai, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
+                        <p>We specialize in Daewoo air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                     </div>
 
                     <div className="col-md-6 border-small-left">
-                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" />
+                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Daewoo Ac Repair" />
                         <h3 className="cs_fs_24 mb-1 mt-3">Signs You Need An AC Service</h3>
                         <p>If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                         <ul>
@@ -125,304 +127,195 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
             <FAJACPrice></FAJACPrice>
           </div>
         </section>
-        {/* Common Signs Your AC May Need Maintenanc */}
+
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-            <h3 className="text-center">Common Signs Your AC May Need Maintenance</h3>
-            <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Weak Airflow</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">If you notice reduced airflow coming from your vents, it could indicate a problem with your AC system, such as a clogged filter or malfunctioning fan.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Warm Air</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">If your AC blows warm or room temperature air instead of cold, it could indicate compressor, refrigerant, or ductwork issues.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Strange Noises</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Unusual sounds like grinding, squealing, or banging coming from your AC unit can indicate mechanical problems that require attention.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Foul Odors</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Musty or foul odors emanating from the vents could suggest mold or mildew growth within the system, which needs to be addressed quickly.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Frequent Cycling</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">It may signal difficulty maintaining desired temperatures due to issues like dirty filters, low refrigerant levels, or a faulty thermostat.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">High Humidity Levels</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">An air conditioner that fails to adequately reduce indoor humidity levels may indicate issues with its cooling capacity or improper operation.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Leaking Water</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Water pooling around AC or dripping from vents could indicate blocked condensate drain, frozen coils, or other issues.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Increased Energy Bills</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">High energy bills without increase in usage could indicate the inefficiency of your AC due to dirty filters, duct leaks, or other problems.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
-                <WhatsappIconButton />
-              </div>
-            </div>
-
-          </div>
-        </section>
-
-        {/* A Quick Tour to Your AC Problems and Fixing*/}
-        <section className="section cs_py_48">
-            <div className="container">
-                <h3 className="cs_fs_30">A Quick Guide to Understanding and Fixing Your AC Problems</h3>
-                <div className="row">
-                    <div className="col-xl-6">
-                        <iframe className="bordered-img blue-border" width="100%" height="350" src="https://www.youtube.com/embed/sxBhB1_gxYA?si=96yf5hxyAA3bct8w" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen=""></iframe>
-                    </div>
-                    <div className="col-xl-6">
-                        <p>Watch this video to learn about the common issues your air conditioning unit may experience.
-                        This knowledge will help you ensure that the professionals you hire are performing the appropriate checks and maintenance.</p>
-                        <p><strong>We specialize in:</strong></p>
-                        <div className="row">
-                            <div className="col">
-                                <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
-                                    <li>
-                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                                            <i className="bi bi-check"></i></span>
-                                        <span>AC coil cleaning</span>
-                                    </li>
-                                    <li>
-                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                                            <i className="bi bi-check"></i></span>
-                                        <span>Recharging refrigerant levels</span>
-                                    </li>
-                                    <li>
-                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                                            <i className="bi bi-check"></i></span>
-                                        <span>Cleaning or replacing the air filtes</span>
-                                    </li>
-                                    <li>
-                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                                            <i className="bi bi-check"></i></span>
-                                        <span>Checking and tightening electrical connections</span>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div className="col">
-                                <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
-                                    <li>
-                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                                            <i className="bi bi-check"></i></span>
-                                        <span>Regular maintenance</span>
-                                    </li>
-                                    <li>
-                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                                            <i className="bi bi-check"></i></span>
-                                        <span>Unclogging drain lines</span>
-                                    </li>
-                                    <li>
-                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                                            <i className="bi bi-check"></i></span>
-                                        <span>Inspecting and AC installation
-                                        </span>
-                                    </li>
-
-                                    <li>
-                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                                            <i className="bi bi-check"></i></span>
-                                        <span>Fixing leaks refrigerant, water, or duct leaks</span>
-                                    </li>
-
-                                </ul>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section className="section cs_py_48 bg-light-gray">
-          <div className="container">
-          <h3 className="cs_fs_30">Reasons My Supra Split Air Conditioner Is Failing To Turn On</h3>
+          <h3 className="cs_fs_30">Hassle-free Daewoo Split air conditioner (A/c) Maintenance</h3>
             <div className="row align-items-center">
               <div className="col-md-6">
                 
-                <p>These are the following causes that make your Supra air conditioning unit stops running;</p>
-                <h4>Glitch Thermostat</h4>
-                <p>The thermostat in an air conditioner is an internal control unit that allows you to regulate the correct temperatures of your split air con. Airflow is maintained by knobs on the device or remote control. If the thermostat fails then it gets difficult for your air conditioning to do its job. Because the temperature of the split air con won’t be able to be controlled.</p>
-                <h4>Circuit Breaker Tripped</h4>
-                <p>If the circuit breaker of your split air conditioning is tripped off it will inhibit turning your air con on. Instead of trying to check or correct your circuit breaker on your own, it is better to call an expert team. They know how to address the issues</p>
-                
+                <p>Better and on-time maintenance brings fruitful results and therefore, the air conditioning can work for many years. However, a malfunctioned daewoo air con can lead to inconvenience and discomfort as well as restricts fresh cooling. Moreover, inadequate cool air negatively affects our day-to-day tasks. To get the best Daewoo ac repair in dubai make sure to communicate with an experienced and well-known company. Because this will not only save you time but saves money as well.<br />Daewoo air conditioner is the most used cooling system in the whole of Dubai. After several years of service, every air con requires proper maintenance and servicing. For excellent Daewoo ac repair in dubai detailed accurate maintenance is what makes your air conditioning functional for many years. Repairing any issue before it turns into a large repair is the key to preventing any problem. This is where we can help you, we are professionals in providing dependable and unique Daewoo ac repair in dubai. For all types/models of air conditioners of any size, FAJ Technical Services LLC is at your doorstep to give you a hand in maintaining it. And fixing faults your air con is experiencing.</p>
               </div>
               <div className="col-md-6 text-center text-md-end">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/supra-ac-maintenance.jpeg`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-service.jpg`} alt="Daewoo Ac Repair" />
                 
               </div>
             </div>
 
           </div>
         </section> 
-         
-        <section className="section cs_py_48 bg-dark-blue text-light">
-          <div className="container">
-            <div className="row">
-                <div className="col-md-6">
-                    <h4 className="text-light">Capacitor Of Split Air Conditioner Malfunctioning</h4>
-                    <p>The capacitor plays a key role in making your split air conditioner work efficiently. If the position or installation of the air con is not accurate then the capacitor would have to function hard to keep the home cool. This will cause a capacitor to overheat and hence it will fail to operate. Thus, your air conditioner won’t turn on. The sooner you get the help of a professional, the better the outcome will be and it will save you money and time.</p>
+        {/* Common Signs Your AC May Need Maintenanc */}
+        <section className="section cs_py_48">
+            <div className="container">
+                <h3 className="text-center">Common AC Problems That May Require Maintenance
+                </h3>
+                <div className="row gx-lg-3 gy-lg-4">
+                    <div className="col-lg-3">
+                        <div className=" box-content-container rounded border shadow">
+                            <div className="text-center">
+                                <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Weak Airflow</h3>
+                            </div>
+                            <div className="inner-apcs-feat-desc">
+                                <p className="p-2 mb-0">If you notice reduced airflow coming from your vents, it could indicate a problem with your AC system, such as a clogged filter or malfunctioning fan.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3">
+                        <div className=" box-content-container rounded border shadow">
+                            <div className="text-center">
+                                <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Warm Air</h3>
+                            </div>
+                            <div className="inner-apcs-feat-desc">
+                                <p className="p-2 mb-0">If your AC blows warm or room temperature air instead of cold, it could indicate compressor, refrigerant, or ductwork issues.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3">
+                        <div className=" box-content-container rounded border shadow">
+                            <div className="text-center">
+                                <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Strange Noises</h3>
+                            </div>
+                            <div className="inner-apcs-feat-desc">
+                                <p className="p-2 mb-0">Unusual sounds like grinding, squealing, or banging coming from your AC unit can indicate mechanical problems that require attention.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3">
+                        <div className=" box-content-container rounded border shadow">
+                            <div className="text-center">
+                                <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Foul Odors</h3>
+                            </div>
+                            <div className="inner-apcs-feat-desc">
+                                <p className="p-2 mb-0">Musty or foul odors emanating from the vents could suggest mold or mildew growth within the system, which needs to be addressed quickly.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3">
+                        <div className=" box-content-container rounded border shadow">
+                            <div className="text-center">
+                                <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Frequent Cycling</h3>
+                            </div>
+                            <div className="inner-apcs-feat-desc">
+                                <p className="p-2 mb-0">It may signal difficulty maintaining desired temperatures due to issues like dirty filters, low refrigerant levels, or a faulty thermostat.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3">
+                        <div className=" box-content-container rounded border shadow">
+                            <div className="text-center">
+                                <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">High Humidity Levels</h3>
+                            </div>
+                            <div className="inner-apcs-feat-desc">
+                                <p className="p-2 mb-0">An air conditioner that fails to adequately reduce indoor humidity levels may indicate issues with its cooling capacity or improper operation.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3">
+                        <div className=" box-content-container rounded border shadow">
+                            <div className="text-center">
+                                <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Leaking Water</h3>
+                            </div>
+                            <div className="inner-apcs-feat-desc">
+                                <p className="p-2 mb-0">Water pooling around AC or dripping from vents could indicate blocked condensate drain, frozen coils, or other issues.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3">
+                        <div className="box-content-container rounded border shadow">
+                            <div className="text-center">
+                                <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Increased Energy Bills</h3>
+                            </div>
+                            <div className="inner-apcs-feat-desc">
+                                <p className="p-2 mb-0">High energy bills without increase in usage could indicate the inefficiency of your AC due to dirty filters, duct leaks, or other problems.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div className="col-md-6">
-                    <h4 className="text-light">Mold In Air Conditioner</h4>
-                    <p>Molds are fungi and bacterial growth which accumulate in your Ac unit system. This happens when your air conditioner has dirty air filters and evaporator coils are frozen up. Hence, restricting the proper flow of cool, pleasant air leads to an unusually bad smell from your air conditioner. This problem needs to be sorted out by professionals as early as possible. Moreover, regular cleaning of air filters prevents the occurrence of molds and bacteria.</p>
-                </div>
+
+
             </div>
-          </div>
         </section>
+
+        {/* A Quick Guide to Understanding and Fixing Your AC Problems */}
+        <QuickGuide />
 
         
         <section className="section cs_py_48">
           <div className="container">
-          <h3 className="cs_fs_30">Our Services Include But Are Not Limited To the;</h3>
+          <h3 className="cs_fs_30">Daewoo Split Air Con Error Codes</h3>
+          <p>Air conditioners are primarily designed to provide optimum, fast cooling. With time, these air cons require careful attention and help from expert technicians to keep working the way they should. These are some fault codes which must need a quick fix.</p>
             <div className="row align-items-center">
                 <div className="col-xl-6">
-                  <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/supra-ac-repair.jpg`} alt="Post Image" />
+                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-repair.jpg`} alt="Daewoo Ac Repair" />
                 </div>
                 <div className="col-xl-6">
-                  <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>Evaporator unit and condenser coil cleaning</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>Installation of any brand, type, or size of air con (we have mastered it with years of experience)</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>Cleansing of indoor air filter</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>Examination and cleaning of drainage lines and pans</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>An absolute review of the thermostat to ensure its proper operation</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>Carefully check basic air conditioning controls and electrical wiring</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>Condenser fan and blower lubrication</span>
-                    </li>
-                  </ul>
-                  <p>Our trained team is always ready to help you, we care about your time and money. Therefore at an affordable price, quickly and diligently our professional technicians do their work. Call us to experience an unbeatable difference!</p>
+                  <h4 className="cs_fs_24">Error codes of the Daewoo unit</h4>
+                    <ul>
+                      <li>Daewoo error code: E0</li>
+                      <li>Daewoo error code: E01</li>
+                      <li>Daewoo error code: E02</li>
+                      <li>Daewoo error code: E03</li>
+                      <li>Daewoo error code: E04</li>
+                    </ul>
+                  <h4 className="cs_fs_24">Daewoo Window Miscellaneous Issues/ Problems</h4>
+                    <p>Air conditioner does its best and keeps your daily work schedule and sleep soft and comfortable. And, things get worse if your air con does not go through thorough regular maintenance such as;</p>
+                    <ul>
+                      <li>Daewoo window air conditioning is failed to turn on</li>
+                      <li>It is not cooling your room instead reverse happening, humidity and warm air</li>
+                      <li>Daewoo AC is emitting wyrd odors</li>
+                      <li>Strange noises are coming out of your air conditioning</li>
+                      <li>The remote control of the Daewoo air conditioner is not functioning</li>
+                    </ul>
                 </div>
             </div>
-            <div id="get-quote" className=" mt-3">
-                        <div className="container d-flex justify-content-center align-items-center gap-3">
-                        <WhatsappIconButton />
-                        <CallNowButton />
-                        </div>
-                    </div>
+            <p>All these problems occur when your air con does not get routine maintenance and proper servicing. Furthermore, due to dust, debris, and dirt air filters get clogged or blocked which hampers the fresh, crisp cool air to circulate in the entire room or home. Thus, it causes the emission of unusual noises and smells. Hence, due to these, unwanted problems occur. Additionally, refrigerant leakage and defective compressors restrict your AC to turn on.</p>
           </div>
-       
+          <section className="section">
+          <div className="container">
+            <div id="get-quote" className=" mt-3">
+                <div className="container d-flex justify-content-center align-items-center gap-3">
+                  <WhatsappIconButton />
+                  <CallNowButton />
+                </div>
+              </div>
+          </div>
+        </section>
         </section>
         
          {/* The Benefits Of Regular AC Service*/}
          <BenefitAcMaintenance />
-         {/*Select FAJ for Quick Service, Efficienc  */}
-        <section className="section cs_py_48 bg-light-gray">
-          <div className="container">
-            <h3 className="cs_fs_30">Why Choose FAJ Technical Services LLC?</h3>
-            <div className="row align-items-center">
-              <div className="col-md-6">
-                <h4 className="cs_fs_24">We provide quick, efficient service and peace of mind</h4>
-                <ul className="acsvs-exp-spl-para tick-ul mb-0">
-                  <li><b>We get the job done on time</b> thanks to our larger team and dedicated parts warehouse</li>
-                  <li><b>All our AC technicians are fully qualified</b> and extensively trained by us to address all types of AC issues.</li>
-                  <li><b>We help prevent future breakdowns</b> by only using locally produced, highest quality refrigerant gas.</li>
-                  <li><b>From routine maintenance to complex repairs</b> we offers all type of AC repair and maintenance services.</li>
-                  <li><b>We only use genuine parts</b> to give you peace of mind.</li>
-                  <li><b>We give service warranty</b> to make sure you are relax.</li>
-                  <li><b>We look after the environment</b> by always recycling our gas.</li>
-                </ul>
-              </div>
-              <div className="col-md-6 text-center text-md-end">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance-in-Dubai.jpeg`} alt="Post Image" />
-              </div>
-            </div>
-          </div>
-        </section>
-       {/* Practical Tips to Improve Energy Efficiency */}
-       <section className="section cs_py_48 bg-dark-blue text-light">
+          {/*Why Choose FAJ Technical Services LLC? */}
+          <section className="section cs_py_48 ">
+                    <div className="container">
+                        <h3 className="cs_fs_30">Why Choose FAJ Technical Services LLC?</h3>
+                        <div className="row align-items-center">
+                            <div className="col-md-6">
+                                <h4 className="cs_fs_24">We provide quick, efficient service and peace of mind</h4>
+                                <ul className="acsvs-exp-spl-para tick-ul mb-0">
+                                    <li><b>We get the job done on time</b> thanks to our larger team and dedicated parts warehouse</li>
+                                    <li><b>All our AC technicians are fully qualified</b> and extensively trained by us to address all types of AC issues.</li>
+                                    <li><b>We help prevent future breakdowns</b> by only using locally produced, highest quality refrigerant gas.</li>
+                                    <li><b>From routine maintenance to complex repairs</b> we offers all type of AC repair and maintenance services.</li>
+                                    <li><b>We only use genuine parts</b> to give you peace of mind.</li>
+                                    <li><b>We give service warranty</b> to make sure you are relax.</li>
+                                    <li><b>We look after the environment</b> by always recycling our gas.</li>
+                                </ul>
+                            </div>
+                            <div className="col-md-6 text-center text-md-end">
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance-in-Dubai.jpeg`} alt="Post Image" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        {/* Practical Tips to Improve Energy Efficiency */}
+        <section className="section cs_py_48 bg-dark-blue text-light">
             <div className="container text-center">
                 <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
                 <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
@@ -487,7 +380,7 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
                 data-add-slides="2" data-slides-per-view="responsive">
                 <div className="cs_slider_wrapper">
                   <Slider {...settings}>
-                    {testimonial_data_Supra.map((item, index) => (
+                    {testimonial_data_Daewoo.map((item, index) => (
                       <div key={index} className="cs_slide wow fadeInLeft">
                         <div className="cs_testimonial cs_style_1 position-relative">
                           <div className="cs_testimonial_content cs_white_bg position-relative">
@@ -522,7 +415,6 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
             </div>
             <div className="cs_height_80 cs_height_lg_80"></div>
           </section>
-
 
         <div className="section cs_py_48  bg-dark-blue text-light">
           <div className="container">
@@ -565,4 +457,4 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
   );
 };
 
-export default SupraAcRepair;
+export default DaewooAcRepair;

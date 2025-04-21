@@ -1,17 +1,17 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../Data/SupraAcRepairfaq.json';
+import data from '../../Data/SkmAcRepairfaq.json';
 import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import CallNowButton from '../Buttons/CallNowButton';
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
-import testimonial_data_Supra from '../../Data/SupraAcServiceTestimonials.json';
+import testimonial_data_Skm from '../../Data/SkmAcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";
 
-const SupraAcRepair = ({ subtitle, title, bgImg }) => {
+const SkmAcRepair = ({ subtitle, title, bgImg }) => {
   subtitle="Testimonial"
   title="What our clients say <br> About Us"
   bgImg="/img/testimonialbg.jpg"
@@ -64,17 +64,18 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-      <title>Supra AC Repair Dubai - Supra Split Air Conditioner Service</title>
-      <meta name="description" content="Sameday Supra AC repair in Dubai, Our technicians expert in supra split air conditioning maintenance service and fux aircon. Book now 043300002"/>
+      <title>SKM AC Repair in Dubai - SKM Air Conditioner Service Near</title>
+      <meta name="description" content="SKM #1 Brand in UAE. Call us at 043300002 for SKM AC Repair in Dubai, We are experts in HVAC & Central Air Conditioner Maintenance Service near by you."/>
       </HelmetProvider>
 
       <div className="cs_service_details">
         <section className="section cs_py_48">
           <div className="container">
+            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
             <p>FAJ Technical Services LLC is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
               <br />
-              Our skilled AC technicians can handle all types and models of Supra air conditioning units, ensuring your home or business stays cool and comfortable.</p>
+              Our skilled AC technicians can handle all types and models of Skm air conditioning units, ensuring your home or business stays cool and comfortable.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -90,14 +91,14 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
             <div className="container">
                 <div className="row g-5">
                     <div className="col-md-6">
-                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
-                        <h3 className="cs_fs_25 mb-1 mt-3">Best Supra AC Repair in Dubai</h3>
-                        <p>When it comes to Supra <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Dubai, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
-                        <p>We specialize in Supra air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
+                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Skm Ac Repair" />
+                        <h3 className="cs_fs_25 mb-1 mt-3">Best Skm AC Repair in Dubai</h3>
+                        <p>When it comes to Skm <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Dubai, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
+                        <p>We specialize in Skm air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                     </div>
 
                     <div className="col-md-6 border-small-left">
-                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" />
+                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Skm Ac Repair" />
                         <h3 className="cs_fs_24 mb-1 mt-3">Signs You Need An AC Service</h3>
                         <p>If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                         <ul>
@@ -125,111 +126,124 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
             <FAJACPrice></FAJACPrice>
           </div>
         </section>
-        {/* Common Signs Your AC May Need Maintenanc */}
+
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-            <h3 className="text-center">Common Signs Your AC May Need Maintenance</h3>
-            <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Weak Airflow</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">If you notice reduced airflow coming from your vents, it could indicate a problem with your AC system, such as a clogged filter or malfunctioning fan.</p>
-                  </div>
-                </div>
+          <h3 className="cs_fs_30">Skm Air Con Service Quality Workmanship </h3>
+            <div className="row align-items-center">
+              <div className="col-md-6">
+                
+                <p>FAJ is working consistently since 2010 to make its customers satisfied and comfortable. Getting the best Skm ac repair service in Dubai is not easy especially when you are in urgent need. Our superior workmanship is what makes us different from others. In the need of immediate help, we are present and we provide unbeatable service to our customers. With our regular maintenance service keep your Skm air con running smoothly and swiftly. <br />Breathing fresh air is the right of everyone. Getting top-quality fresh air requires the best air con. Skm can provide healthy air to its buyers. In Dubai, Skm is the leading brand. So, if you have Skm air conditioning at your home or office and looking for its repairs. Why not look for a top-quality service provider for a top ac brand? <br />FAJ Technical Services LLC is a top-notch company providing mind-blowing Skm ac repair in Dubai. We understand the necessity of properly functioning air. Our team of experienced technicians ensures to provide optimal performance of Skm air con and an enjoyable indoor environment all year round.</p>
               </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Warm Air</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">If your AC blows warm or room temperature air instead of cold, it could indicate compressor, refrigerant, or ductwork issues.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Strange Noises</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Unusual sounds like grinding, squealing, or banging coming from your AC unit can indicate mechanical problems that require attention.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Foul Odors</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Musty or foul odors emanating from the vents could suggest mold or mildew growth within the system, which needs to be addressed quickly.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Frequent Cycling</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">It may signal difficulty maintaining desired temperatures due to issues like dirty filters, low refrigerant levels, or a faulty thermostat.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">High Humidity Levels</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">An air conditioner that fails to adequately reduce indoor humidity levels may indicate issues with its cooling capacity or improper operation.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Leaking Water</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Water pooling around AC or dripping from vents could indicate blocked condensate drain, frozen coils, or other issues.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Increased Energy Bills</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">High energy bills without increase in usage could indicate the inefficiency of your AC due to dirty filters, duct leaks, or other problems.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
-                <WhatsappIconButton />
+              <div className="col-md-6 text-center text-md-end">
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-service.jpg`} alt="Skm Ac Repair" />
+                
               </div>
             </div>
 
           </div>
+        </section> 
+        {/* Common Signs Your AC May Need Maintenanc */}
+        <section className="section cs_py_48">
+            <div className="container">
+                <h3 className="text-center">Common AC Problems That May Require Maintenance
+                </h3>
+                <div className="row gx-lg-3 gy-lg-4">
+                    <div className="col-lg-3">
+                        <div className=" box-content-container rounded border shadow">
+                            <div className="text-center">
+                                <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Weak Airflow</h3>
+                            </div>
+                            <div className="inner-apcs-feat-desc">
+                                <p className="p-2 mb-0">If you notice reduced airflow coming from your vents, it could indicate a problem with your AC system, such as a clogged filter or malfunctioning fan.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3">
+                        <div className=" box-content-container rounded border shadow">
+                            <div className="text-center">
+                                <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Warm Air</h3>
+                            </div>
+                            <div className="inner-apcs-feat-desc">
+                                <p className="p-2 mb-0">If your AC blows warm or room temperature air instead of cold, it could indicate compressor, refrigerant, or ductwork issues.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3">
+                        <div className=" box-content-container rounded border shadow">
+                            <div className="text-center">
+                                <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Strange Noises</h3>
+                            </div>
+                            <div className="inner-apcs-feat-desc">
+                                <p className="p-2 mb-0">Unusual sounds like grinding, squealing, or banging coming from your AC unit can indicate mechanical problems that require attention.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3">
+                        <div className=" box-content-container rounded border shadow">
+                            <div className="text-center">
+                                <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Foul Odors</h3>
+                            </div>
+                            <div className="inner-apcs-feat-desc">
+                                <p className="p-2 mb-0">Musty or foul odors emanating from the vents could suggest mold or mildew growth within the system, which needs to be addressed quickly.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3">
+                        <div className=" box-content-container rounded border shadow">
+                            <div className="text-center">
+                                <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Frequent Cycling</h3>
+                            </div>
+                            <div className="inner-apcs-feat-desc">
+                                <p className="p-2 mb-0">It may signal difficulty maintaining desired temperatures due to issues like dirty filters, low refrigerant levels, or a faulty thermostat.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3">
+                        <div className=" box-content-container rounded border shadow">
+                            <div className="text-center">
+                                <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">High Humidity Levels</h3>
+                            </div>
+                            <div className="inner-apcs-feat-desc">
+                                <p className="p-2 mb-0">An air conditioner that fails to adequately reduce indoor humidity levels may indicate issues with its cooling capacity or improper operation.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3">
+                        <div className=" box-content-container rounded border shadow">
+                            <div className="text-center">
+                                <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Leaking Water</h3>
+                            </div>
+                            <div className="inner-apcs-feat-desc">
+                                <p className="p-2 mb-0">Water pooling around AC or dripping from vents could indicate blocked condensate drain, frozen coils, or other issues.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3">
+                        <div className="box-content-container rounded border shadow">
+                            <div className="text-center">
+                                <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Increased Energy Bills</h3>
+                            </div>
+                            <div className="inner-apcs-feat-desc">
+                                <p className="p-2 mb-0">High energy bills without increase in usage could indicate the inefficiency of your AC due to dirty filters, duct leaks, or other problems.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
         </section>
 
         {/* A Quick Tour to Your AC Problems and Fixing*/}
-        <section className="section cs_py_48">
+        <section className="section cs_py_48 bg-light-gray">
             <div className="container">
                 <h3 className="cs_fs_30">A Quick Guide to Understanding and Fixing Your AC Problems</h3>
                 <div className="row">
@@ -290,7 +304,6 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
                                             <i className="bi bi-check"></i></span>
                                         <span>Fixing leaks refrigerant, water, or duct leaks</span>
                                     </li>
-
                                 </ul>
                             </div>
 
@@ -300,38 +313,36 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
                 </div>
             </div>
         </section>
-        <section className="section cs_py_48 bg-light-gray">
-          <div className="container">
-          <h3 className="cs_fs_30">Reasons My Supra Split Air Conditioner Is Failing To Turn On</h3>
-            <div className="row align-items-center">
-              <div className="col-md-6">
-                
-                <p>These are the following causes that make your Supra air conditioning unit stops running;</p>
-                <h4>Glitch Thermostat</h4>
-                <p>The thermostat in an air conditioner is an internal control unit that allows you to regulate the correct temperatures of your split air con. Airflow is maintained by knobs on the device or remote control. If the thermostat fails then it gets difficult for your air conditioning to do its job. Because the temperature of the split air con won’t be able to be controlled.</p>
-                <h4>Circuit Breaker Tripped</h4>
-                <p>If the circuit breaker of your split air conditioning is tripped off it will inhibit turning your air con on. Instead of trying to check or correct your circuit breaker on your own, it is better to call an expert team. They know how to address the issues</p>
-                
-              </div>
-              <div className="col-md-6 text-center text-md-end">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/supra-ac-maintenance.jpeg`} alt="Post Image" />
-                
-              </div>
-            </div>
-
-          </div>
-        </section> 
-         
         <section className="section cs_py_48 bg-dark-blue text-light">
           <div className="container">
             <div className="row">
                 <div className="col-md-6">
-                    <h4 className="text-light">Capacitor Of Split Air Conditioner Malfunctioning</h4>
-                    <p>The capacitor plays a key role in making your split air conditioner work efficiently. If the position or installation of the air con is not accurate then the capacitor would have to function hard to keep the home cool. This will cause a capacitor to overheat and hence it will fail to operate. Thus, your air conditioner won’t turn on. The sooner you get the help of a professional, the better the outcome will be and it will save you money and time.</p>
+                    <h3 className="cs_fs_24 text-light">Exceptional Repairing Of Skm Centralized Air Conditioning (Air Con)</h3>
+                    <p>To provide more comfort to you, potential and timely repair is indispensable. After proper repair, your air con offers great cooling performance. Regular maintenance of your centralized ac extends its lifetime and improves functions. Not many offer Skm ac repair in Dubai. However, FAJ is unique and experienced in providing exceptional service, maintenance, and fixing of your aircon. Get instant access to a potentially trained, highly skilled professional for optimal and fast air condition repairing.</p>
                 </div>
                 <div className="col-md-6">
-                    <h4 className="text-light">Mold In Air Conditioner</h4>
-                    <p>Molds are fungi and bacterial growth which accumulate in your Ac unit system. This happens when your air conditioner has dirty air filters and evaporator coils are frozen up. Hence, restricting the proper flow of cool, pleasant air leads to an unusually bad smell from your air conditioner. This problem needs to be sorted out by professionals as early as possible. Moreover, regular cleaning of air filters prevents the occurrence of molds and bacteria.</p>
+                    <h3 className="cs_fs_24 text-light">Cost Effective VRV Installation And Operation (Skm Aircon) AC</h3>
+                    <p>VRV Skm air conditioning is called ideal for small and large spaces. It is the most advanced air system worldwide and popular as well. It is significantly equipped with modern technology and, results in energy efficiency. To install this Skm VRV ac an exceptionally trained team is required. To get the advantage of better comfort and a sustainable cooled environment accurate installation and operation is a key.</p>    
+                </div>
+                <div className="col-md-12">
+                    <h3 className="cs_fs_24 text-light">Different Models Of Skm Ducted Aircon</h3>
+                    <p>Several types/ models of Skm ducted ac are available in the market. Choosing the best one which is suitable for your house or office is an art. Expert advice clears all doubts and helps you to get the right aircon for your place.</p>
+                </div>
+                <div className="col-md-6">
+                    <h4 className="cs_fs_18 text-light">Inverter Skm Ducted</h4>
+                    <p>This type of air conditioner has an efficient and compact design. This one is ideal to install in the tight roof space of the modern home.</p>
+                </div>
+                <div className="col-md-6">
+                    <h4 className="cs_fs_18 text-light">Premium Inverter Ducted</h4>
+                    <p>This ducted air con has remarkable energy performance and the ability to perform functions quite innovatively. We are skilled enough in installing, repairing, fixing, and maintenance of these kinds of air conditioners.</p>    
+                </div>
+                <div className="col-md-6">
+                    <h4 className="cs_fs_18 text-light">Bulkhead System</h4>
+                    <p>This model is best for drop ceilings and shallow ceilings. Optimal for bedroom air conditioning and ideal where discreet installation is a preference.</p>
+                </div>
+                <div className="col-md-6">
+                    <h4 className="cs_fs_18 text-light">Slimline Ducted</h4>
+                    <p>It has freedom of design and unparalleled flexibility. FAJ is the most reliable and ideal one for installing and maintenance of these ac machines.</p>    
                 </div>
             </div>
           </div>
@@ -340,89 +351,72 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
         
         <section className="section cs_py_48">
           <div className="container">
-          <h3 className="cs_fs_30">Our Services Include But Are Not Limited To the;</h3>
+          <h3 className="cs_fs_30">Get A Full Fledged Expert Service Of Skm HVAC</h3>
             <div className="row align-items-center">
                 <div className="col-xl-6">
-                  <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/supra-ac-repair.jpg`} alt="Post Image" />
+                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-repair.jpg`} alt="Skm Ac Repair" />
                 </div>
                 <div className="col-xl-6">
+                  <p>While modern HVAC systems are manufactured to deliver year-long service. However, issues with air condition can and will arise. Here are some common problems which are faced by several homeowners, businesses, etc.</p>
                   <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
-                      <span>Evaporator unit and condenser coil cleaning</span>
+                      <span><strong>Blown Is Fused:</strong> One reason your Skm HVAC is not functioning is because of blown fuses. Fuses are mainly designed to protect the compressor and unit’s motor or ac engine from overheating. Due to that, the breaker gets flipped off which indicates a huge problem with your HVAC air con.</span>
                     </li>
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
-                      <span>Installation of any brand, type, or size of air con (we have mastered it with years of experience)</span>
+                      <span><strong>Unclean Air Filters:</strong> Dirty ac filters make your Skm HVAC aircon to under-perform and eventually freeze. Air filters must be regularly changed otherwise, airflow can be decreased significantly. For exceptional services, FAJ is available on the other side of a single call. Don’t let your air condition issues disturb your comfort and your important work. Let us keep your air conditioning in optimal condition, and make sure you and your loved ones enjoy cool and fresh air.</span>
                     </li>
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
-                      <span>Cleansing of indoor air filter</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>Examination and cleaning of drainage lines and pans</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>An absolute review of the thermostat to ensure its proper operation</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>Carefully check basic air conditioning controls and electrical wiring</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>Condenser fan and blower lubrication</span>
+                      <span><strong>Poor Refrigerant:</strong> In HVAC ac refrigerant leaks happen and it is caused by system vibration during operation. Leaks always require repairing whether it is in lines or coils. Our expert team takes good care of your property and makes sure to gently handle it. Give your HVAC air conditioning the care it deserves!</span>
                     </li>
                   </ul>
-                  <p>Our trained team is always ready to help you, we care about your time and money. Therefore at an affordable price, quickly and diligently our professional technicians do their work. Call us to experience an unbeatable difference!</p>
                 </div>
             </div>
-            <div id="get-quote" className=" mt-3">
-                        <div className="container d-flex justify-content-center align-items-center gap-3">
-                        <WhatsappIconButton />
-                        <CallNowButton />
-                        </div>
-                    </div>
           </div>
-       
+          <section className="section">
+          <div className="container">
+            <div id="get-quote" className=" mt-3">
+                <div className="container d-flex justify-content-center align-items-center gap-3">
+                  <WhatsappIconButton />
+                  <CallNowButton />
+                </div>
+              </div>
+          </div>
+        </section>
         </section>
         
          {/* The Benefits Of Regular AC Service*/}
          <BenefitAcMaintenance />
-         {/*Select FAJ for Quick Service, Efficienc  */}
-        <section className="section cs_py_48 bg-light-gray">
-          <div className="container">
-            <h3 className="cs_fs_30">Why Choose FAJ Technical Services LLC?</h3>
-            <div className="row align-items-center">
-              <div className="col-md-6">
-                <h4 className="cs_fs_24">We provide quick, efficient service and peace of mind</h4>
-                <ul className="acsvs-exp-spl-para tick-ul mb-0">
-                  <li><b>We get the job done on time</b> thanks to our larger team and dedicated parts warehouse</li>
-                  <li><b>All our AC technicians are fully qualified</b> and extensively trained by us to address all types of AC issues.</li>
-                  <li><b>We help prevent future breakdowns</b> by only using locally produced, highest quality refrigerant gas.</li>
-                  <li><b>From routine maintenance to complex repairs</b> we offers all type of AC repair and maintenance services.</li>
-                  <li><b>We only use genuine parts</b> to give you peace of mind.</li>
-                  <li><b>We give service warranty</b> to make sure you are relax.</li>
-                  <li><b>We look after the environment</b> by always recycling our gas.</li>
-                </ul>
-              </div>
-              <div className="col-md-6 text-center text-md-end">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance-in-Dubai.jpeg`} alt="Post Image" />
-              </div>
-            </div>
-          </div>
-        </section>
-       {/* Practical Tips to Improve Energy Efficiency */}
-       <section className="section cs_py_48 bg-dark-blue text-light">
+          {/*Why Choose FAJ Technical Services LLC? */}
+          <section className="section cs_py_48 ">
+                    <div className="container">
+                        <h3 className="cs_fs_30">Why Choose FAJ Technical Services LLC?</h3>
+                        <div className="row align-items-center">
+                            <div className="col-md-6">
+                                <h4 className="cs_fs_24">We provide quick, efficient service and peace of mind</h4>
+                                <ul className="acsvs-exp-spl-para tick-ul mb-0">
+                                    <li><b>We get the job done on time</b> thanks to our larger team and dedicated parts warehouse</li>
+                                    <li><b>All our AC technicians are fully qualified</b> and extensively trained by us to address all types of AC issues.</li>
+                                    <li><b>We help prevent future breakdowns</b> by only using locally produced, highest quality refrigerant gas.</li>
+                                    <li><b>From routine maintenance to complex repairs</b> we offers all type of AC repair and maintenance services.</li>
+                                    <li><b>We only use genuine parts</b> to give you peace of mind.</li>
+                                    <li><b>We give service warranty</b> to make sure you are relax.</li>
+                                    <li><b>We look after the environment</b> by always recycling our gas.</li>
+                                </ul>
+                            </div>
+                            <div className="col-md-6 text-center text-md-end">
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance-in-Dubai.jpeg`} alt="Post Image" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        {/* Practical Tips to Improve Energy Efficiency */}
+        <section className="section cs_py_48 bg-dark-blue text-light">
             <div className="container text-center">
                 <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
                 <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
@@ -487,7 +481,7 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
                 data-add-slides="2" data-slides-per-view="responsive">
                 <div className="cs_slider_wrapper">
                   <Slider {...settings}>
-                    {testimonial_data_Supra.map((item, index) => (
+                    {testimonial_data_Skm.map((item, index) => (
                       <div key={index} className="cs_slide wow fadeInLeft">
                         <div className="cs_testimonial cs_style_1 position-relative">
                           <div className="cs_testimonial_content cs_white_bg position-relative">
@@ -522,7 +516,6 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
             </div>
             <div className="cs_height_80 cs_height_lg_80"></div>
           </section>
-
 
         <div className="section cs_py_48  bg-dark-blue text-light">
           <div className="container">
@@ -565,4 +558,4 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
   );
 };
 
-export default SupraAcRepair;
+export default SkmAcRepair;
