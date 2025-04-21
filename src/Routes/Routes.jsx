@@ -53,6 +53,10 @@ import DaewooAcRepair from "../Pages/DaewooAcRepair";
 import SkmAcRepair from "../Pages/SkmAcRepair";
 import AcRepairInArabianRanches from "../Pages/AcRepairInArabianRanches";
 import AcRepairInDip from "../Pages/AcRepairInDip";
+import AcRepairInDiscoveryGardens from "../Pages/AcRepairInDiscoveryGardens";
+import AcRepairInAlWahaCommunity from "../Pages/AcRepairInAlWahaCommunity";
+import AcRepairInHudaiba from "../Pages/AcRepairInHudaiba";
+import AcRepairInImpz from "../Pages/AcRepairInImpz";
 export const router = createHashRouter([
   {
     path: "/",
@@ -267,6 +271,22 @@ export const router = createHashRouter([
       {
         path: "/ac-services-in-dip/",
         element: <AcRepairInDip/>,
+      },
+      {
+        path: "/ac-services-in-discovery-gardens/",
+        element: <AcRepairInDiscoveryGardens/>,
+      },
+      {
+        path: "/ac-services-in-al-waha-community/",
+        element: <AcRepairInAlWahaCommunity/>,
+      },
+      {
+        path: "/ac-services-in-hudaiba/",
+        element: <AcRepairInHudaiba/>,
+      },
+      {
+        path: "/ac-services-in-impz/",
+        element: <AcRepairInImpz/>,
       },
     ],
   }
