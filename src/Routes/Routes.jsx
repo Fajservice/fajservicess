@@ -57,6 +57,8 @@ import AcRepairInDiscoveryGardens from "../Pages/AcRepairInDiscoveryGardens";
 import AcRepairInAlWahaCommunity from "../Pages/AcRepairInAlWahaCommunity";
 import AcRepairInHudaiba from "../Pages/AcRepairInHudaiba";
 import AcRepairInImpz from "../Pages/AcRepairInImpz";
+import AcRepairInAlSatwa from "../Pages/AcRepairInAlSatwa";
+import AcRepairInAlJafza from "../Pages/AcRepairInAlJafza";
 export const router = createHashRouter([
   {
     path: "/",
@@ -287,6 +289,14 @@ export const router = createHashRouter([
       {
         path: "/ac-services-in-impz/",
         element: <AcRepairInImpz/>,
+      },
+      {
+        path: "/ac-services-in-al-satwa/",
+        element: <AcRepairInAlSatwa/>,
+      },
+      {
+        path: "/ac-repair-in-jafza-air-condition-maintenance-in-jafza-air-conditioning-fix-amc-service-in-jebel-ali-free-zone-dubai/",
+        element: <AcRepairInAlJafza/>,
       },
     ],
   }
