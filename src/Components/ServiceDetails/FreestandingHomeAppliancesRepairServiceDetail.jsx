@@ -336,10 +336,10 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
                 {/* The Benefits Of Regular AC Service*/}
                 <BenefitAcMaintenance />
 
-                {/* why choose */}
+                {/* Select Us for Reliable, Excellent Service That Is Tailored to Your Needs! */}
                 <section className="section cs_py_48">
                     <div className="container container-md container-sm">
-                        <h2 className="my-3 why-choose-h2 text-center mb-3">Why Choose FAJ Appliance Services?</h2>
+                        <h2 className="my-3 why-choose-h2 text-center mb-3">Select Us for Reliable, Excellent Service That Is Tailored to Your Needs!</h2>
 
                         <div className="usps">
                             {/* <!-- First Column --> */}
@@ -350,8 +350,8 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
 
                                     </div>
                                     <div className="usptext">
-                                        <h3 className="text-black">Fast, Reliable Service is Our Priority</h3>
-                                        <p>	We offer same-day repair and next-day service visits. With our excellent first-time fix rate, 4 out of 5 repairs only need one visit. </p>
+                                        <h3 className="">Reliable, Priority, and Quick</h3>
+                                        <p>	You can count on efficient service! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
                                     </div>
                                 </div>
 
@@ -360,8 +360,8 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
                                         <img className="" src={`${import.meta.env.BASE_URL}/img/icons/experts.png`} alt="We Are Experts" />
                                     </div>
                                     <div className="usptext">
-                                        <h3 className="text-black">Confidence</h3>
-                                        <p>If you have taken out an <a href="https://www.fajservices.ae/commercial-kitchen-equipment-amc/">annual maintenance contract</a>, you get an unlimited service plan with peace of mind for the whole year with smoothly running services.</p>
+                                        <h3 className="">Confidence</h3>
+                                        <p>With a maintenance contract, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
                                     </div>
                                 </div>
 
@@ -371,8 +371,8 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
                                         <img className="" src={`${import.meta.env.BASE_URL}/img/icons/full-control.webp`} alt="FAJ icon service" />
                                     </div>
                                     <div className="usptext">
-                                        <h3 className="text-black">You Are in Control</h3>
-                                        <p>Choose a day and time for your refrigerator repair service in Dubai or Sharjah. We will provide you with a three-hour window for when our technician will arrive.</p>
+                                        <h3 className="">You Are in Control</h3>
+                                        <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive</p>
                                     </div>
                                 </div>
 
@@ -380,7 +380,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/fajteam.jpg`} alt="FAJ icon service" />
+                                <img className="blue-border-2" src={`${import.meta.env.BASE_URL}/img/fajteam.jpg`} alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}
@@ -390,7 +390,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
                                         <img className="" src={`${import.meta.env.BASE_URL}/img/icons/value.png`} alt="FAJ icon service" />
                                     </div>
                                     <div className="usptext">
-                                        <h3 className="text-black">We Are Experts</h3>
+                                        <h3 className="">We Are Experts</h3>
                                         <p>We are experts in <a href="#/appliances-repair-service/">appliance repair</a>. This is why most major brands trust us for their service needs.</p>
                                     </div>
                                 </div>
@@ -400,8 +400,8 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
 
                                     </div>
                                     <div className="usptext">
-                                        <h3 className="text-black">Great Value</h3>
-                                        <p>The technical inspection fee includes diagnosis, transportation, and reinstallation for up to two appliances in the same location in Dubai.</p>
+                                        <h3 className="">Great Value</h3>
+                                        <p>The inspection fee covers diagnosis, transportation, and reinstallation for up to two appliances at the same location in Dubai.</p>
                                     </div>
                                 </div>
                                 <div className="uspitem">
@@ -409,8 +409,8 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
                                         <img className="" src={`${import.meta.env.BASE_URL}/img/icons/trustworthy.png`} alt="FAJ icon service" />
                                     </div>
                                     <div className="usptext">
-                                        <h3 className="text-black">Trustworthy</h3>
-                                        <p>Our skilled appliance technicians receive comprehensive training. We have excellent reviews and provide outstanding service for various major refrigerator and freezer brands.</p>
+                                        <h3 className="">Trustworthy</h3>
+                                        <p>Our skilled appliance technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
                                     </div>
                                 </div>
                             </div>
