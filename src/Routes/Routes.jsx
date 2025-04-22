@@ -61,6 +61,7 @@ import AcRepairInHudaiba from "../Pages/AcRepairInHudaiba";
 import AcRepairInImpz from "../Pages/AcRepairInImpz";
 import AcRepairInAlSatwa from "../Pages/AcRepairInAlSatwa";
 import AcRepairInAlJafza from "../Pages/AcRepairInAlJafza";
+import RheemAcRepair from "../Pages/RheemAcRepair";
 export const router = createHashRouter([
   {
     path: "/",
@@ -157,6 +158,10 @@ export const router = createHashRouter([
       {
         path: "/blue-star-ac-repair-in-dubai-blue-star-ac-maintenance-in-dubai-blue-star-ac-fix-in-dubai-blue-star-ac-service-in-dubai-blue-star-air-condition-repair-in-dubai-blue-star-air-condition-maintenance-in-du/",
         element: <BlueStarAcRepair />,
+      },
+      {
+        path: "/rheem-ac-maintenance-in-dubai/",
+        element: <RheemAcRepair />,
       },
       {
         path: "/project",
