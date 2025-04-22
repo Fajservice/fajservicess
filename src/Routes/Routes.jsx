@@ -62,6 +62,7 @@ import AcRepairInImpz from "../Pages/AcRepairInImpz";
 import AcRepairInAlSatwa from "../Pages/AcRepairInAlSatwa";
 import AcRepairInAlJafza from "../Pages/AcRepairInAlJafza";
 import RheemAcRepair from "../Pages/RheemAcRepair";
+import RuudAcRepair from "../Pages/RuudAcRepair";
 export const router = createHashRouter([
   {
     path: "/",
@@ -162,6 +163,10 @@ export const router = createHashRouter([
       {
         path: "/rheem-ac-maintenance-in-dubai/",
         element: <RheemAcRepair />,
+      },
+      {
+        path: "/ruud-ac-repair-in-dubai-ruud-ac-maintenance-in-dubai-ruud-ac-fix-in-dubai-ruud-ac-service-in-dubai-ruud-air-condition-repair-in-dubai-ruud-air-condition-maintenance-in-dubai-ruud-air-condition-mainten/",
+        element: <RuudAcRepair />,
       },
       {
         path: "/project",
