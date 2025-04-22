@@ -434,6 +434,60 @@ p a {
 }
 
 
+/* New section added in Appliances page */
+.usps {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 35px;
+  width: 100%;
+  justify-content: center;
+}
+
+.col-1, .col-2, .col-3 {
+  width: 30%;
+}
+
+.usps .uspcol {
+  margin-left: 40px;
+}
+
+.usps .uspitem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  background: #f7f8fa 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #186AA51A;
+  border: 1px solid #e5e7eb;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+.usps .uspitem .uspicon {
+  background: transparent linear-gradient(180deg, #40809f 0%, #53a1c1 100%) 0% 0% no-repeat padding-box;
+  border: 1px solid #40809f;
+  width: 78px;
+  height: 78px;
+  position: relative;
+  margin-left: -52px;
+  flex: 0 0 78px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.usps .uspitem h3 {
+  font-size: 15px;
+  color: #40809f;
+  color: var(--bg-dark-blue);
+  margin-bottom: 5px;
+  margin-top: 0;
+  font-weight: 400;
+}
+
 
 
 /* MEDIA SCREENS */
@@ -486,6 +540,16 @@ p a {
 
   .cs_fs_50 {
     font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .usps {
+      flex-direction: column;
+  }
+
+  .col-1, .col-2, .col-3 {
+      width: 80%;
   }
 }
 
@@ -545,7 +609,6 @@ p a {
 
 }
 
-
 @media screen and (max-width: 576px) {
 
   .cs_service_details h2,
@@ -560,3 +623,4 @@ p a {
     max-height: 185px;
   }
 }
+
