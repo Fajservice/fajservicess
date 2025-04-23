@@ -34,11 +34,9 @@ import FujitsuAcRepair from "../Pages/FujitsuAcRepair";
 import AcRepairInArabianRanches2 from "../Pages/AcRepairInArabianRanches2";
 import AcRepairInLimestoneHouseDifc from "../Pages/AcRepairInLimestoneHouseDifc";
 import AcRepairInAcademyCity from "../Pages/AcRepairInAcademyCity";
-import AcRepairinAlTawar from "../Pages/AcRepairinAlTawar";
 import AcRepairinAlJafiliya from "../Pages/AcRepairinAlJafiliya";
 import AcRepairinTheGreens from "../Pages/AcRepairinTheGreens";
 import AcRepairInUmmAlSheif from "../Pages/AcRepairInUmmAlSheif";
-import AcRepairInTheMeadows from "../Pages/AcRepairInTheMeadows";
 import MideaAcRepair from "../Pages/MideaAcRepair";
 import WestpointAcRepair from "../Pages/WestpointAcRepair";
 import CoolineAcRepair from "../Pages/CoolineAcRepair";
@@ -61,8 +59,22 @@ import AcRepairInHudaiba from "../Pages/AcRepairInHudaiba";
 import AcRepairInImpz from "../Pages/AcRepairInImpz";
 import AcRepairInAlSatwa from "../Pages/AcRepairInAlSatwa";
 import AcRepairInAlJafza from "../Pages/AcRepairInAlJafza";
+import AcRepairInJumeriahVillageTriangle from "../Pages/AcRepairInJumeriahVillageTriangle";
+import AcRepairInAlKhawaneej from "../Pages/AcRepairInAlKhawaneej";
+import AcRepairInAlManara from "../Pages/AcRepairInAlManara";
+import AcRepairInLayanCommunity from "../Pages/AcRepairInLayanCommunity";
+import AcRepairInAlBadaa from "../Pages/AcRepairInAlBadaa";
+import AcRepairinAlTawar from "../Pages/AcRepairinAlTawar";
+import AcRepairInJumeirahLakeTowers from "../Pages/AcRepairInJumeirahLakeTowers";
 import RheemAcRepair from "../Pages/RheemAcRepair";
 import RuudAcRepair from "../Pages/RuudAcRepair";
+import AcRepairinTheMeadows from "../Pages/AcRepairinTheMeadows";
+import AcRepairInJumeirahGolfEstates from "../Pages/AcRepairInJumeirahGolfEstates";
+import AcRepairInDubaiInternetCity from "../Pages/AcRepairInDubaiInternetCity";
+import AcRepairInAlBarshaSouth from "../Pages/AcRepairInAlBarshaSouth";
+import TraneAcRepair from "../Pages/TraneAcRepair";
+import SuperGeneralAcRepair from "../Pages/SuperGeneralAcRepair";
+import ToshibaAcRepair from "../Pages/ToshibaAcRepair.jsx";
 export const router = createHashRouter([
   {
     path: "/",
@@ -84,7 +96,6 @@ export const router = createHashRouter([
         path: "/ac-service-in-dubai/",
         element: <AcServiceInDubai></AcServiceInDubai>,
       },
-      ,
       {
         path: "/ac-maintenance-dubai/",
         element: <AcMaintenanceDubai></AcMaintenanceDubai>,
@@ -97,13 +108,10 @@ export const router = createHashRouter([
         path: "/ac-repair-dubai/",
         element: <AcRepairDubai></AcRepairDubai>,
       },
-
       {
         path: "/appliances-repair-service/",
         element: <FreestandingHomeAppliancesRepairService></FreestandingHomeAppliancesRepairService>,
       },
-      
-
       {
         path: "/washing-machine-repair-service-dubai/",
         element: <WashingMachineRepairServiceDubai></WashingMachineRepairServiceDubai>,
@@ -169,6 +177,18 @@ export const router = createHashRouter([
         element: <RuudAcRepair />,
       },
       {
+        path: "/trane-ac-repair-in-dubai-trane-ac-maintenance-in-dubai-trane-ac-fix-in-dubai-trane-ac-service-in-dubai-trane-air-condition-repair-in-dubai-trane-air-condition-maintenance-in-dubai-trane-air-condition/",
+        element: <TraneAcRepair />,
+      },
+      {
+        path: "/super-general-ac-repair-in-dubai-super-general-ac-maintenance-in-dubai-super-general-ac-fix-in-dubai-super-general-ac-service-in-dubai-super-general-air-condition-repair-in-dubai-super-general-air-con/",
+        element: <SuperGeneralAcRepair />
+      },
+      {
+        path: "/toshiba-ac-repair-in-dubai-toshiba-ac-maintenance-in-dubai-toshiba-ac-fix-in-dubai-toshiba-ac-service-in-dubai-toshiba-air-condition-repair-in-dubai-toshiba-air-condition-maintenance-in-dubai-toshiba/",
+        element: <ToshibaAcRepair />
+      },
+      {
         path: "/project",
         element: <ProjectPage></ProjectPage>,
       },
@@ -229,16 +249,12 @@ export const router = createHashRouter([
         element: <AcRepairinTheGreens/>,
       },
       {
-        path: "/ac-services-in-the-greens/",
-        element: <AcRepairInTheMeadows/>,
-      },
-      {
         path: "/ac-services-in-al-jafiliya/",
         element: <AcRepairinAlJafiliya/>,
       },
       {
         path: "/ac-services-in-the-meadows/",
-        element: <AcRepairinAlTawar/>,
+        element: <AcRepairinTheMeadows/>,
       },
       {
         path: "/ac-services-in-academy-city/",
@@ -250,7 +266,7 @@ export const router = createHashRouter([
       },
       {
         path: "/ac-services-in-jumeirah-village-triangle/",
-        element: <AcRepairInJumeirahVillage/>,
+        element: <AcRepairInJumeriahVillageTriangle/>,
       },
       {
         path: "/ac-services-in-arabian-ranches-2/",
@@ -319,6 +335,42 @@ export const router = createHashRouter([
       {
         path: "/ac-repair-in-jafza-air-condition-maintenance-in-jafza-air-conditioning-fix-amc-service-in-jebel-ali-free-zone-dubai/",
         element: <AcRepairInAlJafza/>,
+      },
+      {
+        path: "/ac-services-in-al-khawaneej/",
+        element: <AcRepairInAlKhawaneej/>,
+      },
+      {
+        path: "/ac-services-in-al-manara/",
+        element: <AcRepairInAlManara/>,
+      },
+      {
+        path: "/ac-services-in-jumeirah-golf-estates/",
+        element: <AcRepairInJumeirahGolfEstates/>,
+      },
+      {
+        path: "/ac-services-in-layan-community/",
+        element: <AcRepairInLayanCommunity/>,
+      },
+      {
+        path: "/ac-services-in-al-badaa/",
+        element: <AcRepairInAlBadaa/>,
+      },
+      {
+        path: "/ac-services-dubai-internet-city/",
+        element: <AcRepairInDubaiInternetCity/>,
+      },
+      {
+        path: "/ac-services-in-jumeirah-lake-towers/",
+        element: <AcRepairInJumeirahLakeTowers/>,
+      },
+      {
+        path: "/ac-services-in-al-tawar/",
+        element: <AcRepairinAlTawar/>,
+      },
+      {
+        path: "/ac-services-in-al-barsha-south/",
+        element: <AcRepairInAlBarshaSouth/>,
       },
     ],
   }

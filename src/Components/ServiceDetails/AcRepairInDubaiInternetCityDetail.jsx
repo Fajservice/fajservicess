@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../Data/AcRepairInAlMirdif.json';
+import data from '../../Data/AcRepairInDubaiInternetCity.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
@@ -10,7 +10,7 @@ import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import FAJACPrice from "../Miscellaneous/FAJACPrice";
 import QuickGuide from "../QuickGuide/QuickGuide";
 
-const AcRepairInAlMirdifDetail = () => {
+const AcRepairInDubaiInternetCityDetail = () => {
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -31,8 +31,8 @@ const AcRepairInAlMirdifDetail = () => {
   return (
     <>
     <HelmetProvider>
-        <title>AC Services In Al Mirdif - Inverter AC Repairs Near Me #1</title>
-        <meta name="description" content="FAJ Provides Inverter AC Services in Al Mirdif, Our Technicians are Experts in HVAC Air Condition Maintenance & Repair near me Dubai AC Fixing."></meta>
+        <title>AC Services Dubai Internet City - AC Repair & Cleaning Dubai</title>
+        <meta name="description" content="Get same day ac service in Dubai Internet City and the best FCU, central cooling, ceiling AC repair & maintenance with low cost ac cleaning service"></meta>
     </HelmetProvider>
 
     <div className="cs_service_details">
@@ -44,13 +44,11 @@ const AcRepairInAlMirdifDetail = () => {
                 <p>FAJ Technical Services LLC is your top choice for AC services in Dubai. With over 15 years of experience, we provide trusted AC repair and maintenance in Dubai and Sharjah.<br></br>Our skilled AC technicians can handle all types, brands, and models of air conditioner units to keep your home or business cool and comfortable throughout the year.</p>
 
                 <div id="get-quote" className=" mt-3">
-
                     <div className="container d-flex justify-content-center align-items-center">
                         {/* <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#0D6EFD" }}>Get A Free Quote</a>
-                <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex border border-outline align-items-center" href="tel:+971507464712">Call Now</a> */}
+                        <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex border border-outline align-items-center" href="tel:+971507464712">Call Now</a> */}
                         <CallNowButton /> <GetQuoteButton />
                     </div>
-
                 </div>
             </div>
         </section>
@@ -60,8 +58,8 @@ const AcRepairInAlMirdifDetail = () => {
                 <div className="row g-5">
                     <div className="col-md-6">
                         <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
-                        <h3 className="cs_fs_24 mb-1 mt-3">Best AC Repair in Al Mirdif</h3>
-                        <p>When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Al Mirdif, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
+                        <h3 className="cs_fs_24 mb-1 mt-3">Best AC Repair in Dubai Internet City</h3>
+                        <p>When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Dubai Internet City, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
                         <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                     </div>
 
@@ -221,15 +219,15 @@ const AcRepairInAlMirdifDetail = () => {
             </div>
         </section>
 
-        {/* A Quick Tour to Your AC Problems and Fixing*/}
+        {/* A Quick Guide to Understanding and Fixing Your AC Problems */}
         <QuickGuide />
 
         <BenefitAcMaintenance />
 
-        {/*Why Choose F A J Technical Services L.L.C? */}
+        {/*Why Choose FAJ Technical Services LLC? */}
         <section className="section cs_py_48 ">
             <div className="container">
-                <h3 className="cs_fs_30">Why Choose F A J Technical Services L.L.C?</h3>
+                <h3 className="cs_fs_30">Why Choose FAJ Technical Services LLC?</h3>
                 <div className="row align-items-center">
                     <div className="col-md-6">
                         <h4 className="cs_fs_24">We provide quick, efficient service and peace of mind</h4>
@@ -431,4 +429,4 @@ const AcRepairInAlMirdifDetail = () => {
   )
 }
 
-export default AcRepairInAlMirdifDetail
+export default AcRepairInDubaiInternetCityDetail

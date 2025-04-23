@@ -672,3 +672,46 @@ p a {
     max-height: 185px;
   }
 }
+
+.gradient-amc-bg{
+  padding: 24px;
+  border-radius: 5px;
+}
+.green-box {
+  background-image: linear-gradient(to right, #2FB806, #124E01);
+}
+.green-box a{
+  color: #124E01;
+}
+.purple-box {
+  background-image: linear-gradient(to right, #8b56e7, #3e0d97);
+}
+.purple-box a{
+  color: #3e0d97;
+}
+.cgreen-box {
+  background-image: linear-gradient(to right, #209fb6, #044652);
+}
+.cgreen-box a{
+  color: #044652;
+}
+.gradient-amc-bg h3 {
+  border-bottom: 1px dashed;
+  padding-bottom: 3rem;
+  margin-bottom: 1rem;
+}
+.gradient-amc-bg p {
+  min-height: 80px;
+}
+.gradient-amc-bg a.amc-box-button {
+  box-shadow: 0 8px 8px #0000001a;
+  min-height: 50px;
+  font-size: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-family: "Museo Sans", "Source Sans Pro", Arial, sans-serif;
+}

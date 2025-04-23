@@ -32,8 +32,8 @@ const AcRepairinTheMeadowsDetail = () => {
   return (
     <>
     <HelmetProvider>
-        <title>FAJ / AC Repair Dubai - AC Service in The Meadows</title>
-        <meta name="description" content="FAJ Established in 2010, / We offer professional AC Repair, Freezer, Refrigerator, Fridge, Washing Machine Maintenance Service Company Dubai"></meta>
+        <title>FAJ / AC Services In The Meadows - #1 AC Repair And Service</title>
+        <meta name="description" content="Best AC Services in The Meadows, Book Now 043300002 for your Ceiling and HVAC Air Conditioning Maintenance and Fix Water Leakage Problem"></meta>
     </HelmetProvider>
 
     <div className="cs_service_details">

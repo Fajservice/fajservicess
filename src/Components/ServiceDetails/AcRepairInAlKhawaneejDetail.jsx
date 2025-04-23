@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../Data/AcRepairInAlMirdif.json';
+import data from '../../Data/AcRepairInAlKhawaneej.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
@@ -10,7 +10,7 @@ import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import FAJACPrice from "../Miscellaneous/FAJACPrice";
 import QuickGuide from "../QuickGuide/QuickGuide";
 
-const AcRepairInAlMirdifDetail = () => {
+const AcRepairInAlKhawaneejDetail = () => {
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -31,8 +31,8 @@ const AcRepairInAlMirdifDetail = () => {
   return (
     <>
     <HelmetProvider>
-        <title>AC Services In Al Mirdif - Inverter AC Repairs Near Me #1</title>
-        <meta name="description" content="FAJ Provides Inverter AC Services in Al Mirdif, Our Technicians are Experts in HVAC Air Condition Maintenance & Repair near me Dubai AC Fixing."></meta>
+        <title>AC Services In Al Khawaneej - Repair Inverter AC Dubai #1</title>
+        <meta name="description" content="Fast & Reliable AC Services in Al Khawaneej, central, Inverter and split air conditioner maintenance service near me Dubai. Call now at 04330 0002"></meta>
     </HelmetProvider>
 
     <div className="cs_service_details">
@@ -60,8 +60,8 @@ const AcRepairInAlMirdifDetail = () => {
                 <div className="row g-5">
                     <div className="col-md-6">
                         <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
-                        <h3 className="cs_fs_24 mb-1 mt-3">Best AC Repair in Al Mirdif</h3>
-                        <p>When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Al Mirdif, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
+                        <h3 className="cs_fs_24 mb-1 mt-3">Best AC Repair in Al Khawaneej</h3>
+                        <p>When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Al Khawaneej, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
                         <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                     </div>
 
@@ -226,10 +226,10 @@ const AcRepairInAlMirdifDetail = () => {
 
         <BenefitAcMaintenance />
 
-        {/*Why Choose F A J Technical Services L.L.C? */}
+        {/*Why Choose FAJ Technical Services LLC? */}
         <section className="section cs_py_48 ">
             <div className="container">
-                <h3 className="cs_fs_30">Why Choose F A J Technical Services L.L.C?</h3>
+                <h3 className="cs_fs_30">Why Choose FAJ Technical Services LLC?</h3>
                 <div className="row align-items-center">
                     <div className="col-md-6">
                         <h4 className="cs_fs_24">We provide quick, efficient service and peace of mind</h4>
@@ -431,4 +431,4 @@ const AcRepairInAlMirdifDetail = () => {
   )
 }
 
-export default AcRepairInAlMirdifDetail
+export default AcRepairInAlKhawaneejDetail
