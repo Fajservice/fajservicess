@@ -535,7 +535,7 @@ p a {
 }
 
 .cs_service_details .usps img {
-  max-height: inherit !important;
+  /* max-height: inherit !important; */
 }
 /* MEDIA SCREENS */
 @media screen and (min-width: 1200px) {
@@ -714,4 +714,16 @@ p a {
   align-items: center;
   font-weight: 600;
   font-family: "Museo Sans", "Source Sans Pro", Arial, sans-serif;
+}
+
+.cs_service_details .usps .why-choose-img{
+  max-height: 470px !important;
+  object-fit: cover;
+  object-position: top center;
+}
+@media screen and (max-width: 1400px) {
+  .cs_service_details .usps .why-choose-img{
+    max-height: 550px !important;
+ 
+  }  
 }
