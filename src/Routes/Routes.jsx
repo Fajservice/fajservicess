@@ -63,6 +63,9 @@ import AcRepairInAlSatwa from "../Pages/AcRepairInAlSatwa";
 import AcRepairInAlJafza from "../Pages/AcRepairInAlJafza";
 import RheemAcRepair from "../Pages/RheemAcRepair";
 import RuudAcRepair from "../Pages/RuudAcRepair";
+import TraneAcRepair from "../Pages/TraneAcRepair";
+import SuperGeneralAcRepair from "../Pages/SuperGeneralAcRepair";
+import ToshibaAcRepair from "../Pages/ToshibaAcRepair.jsx";
 export const router = createHashRouter([
   {
     path: "/",
@@ -167,6 +170,18 @@ export const router = createHashRouter([
       {
         path: "/ruud-ac-repair-in-dubai-ruud-ac-maintenance-in-dubai-ruud-ac-fix-in-dubai-ruud-ac-service-in-dubai-ruud-air-condition-repair-in-dubai-ruud-air-condition-maintenance-in-dubai-ruud-air-condition-mainten/",
         element: <RuudAcRepair />,
+      },
+      {
+        path: "/trane-ac-repair-in-dubai-trane-ac-maintenance-in-dubai-trane-ac-fix-in-dubai-trane-ac-service-in-dubai-trane-air-condition-repair-in-dubai-trane-air-condition-maintenance-in-dubai-trane-air-condition/",
+        element: <TraneAcRepair />,
+      },
+      {
+        path: "/super-general-ac-repair-in-dubai-super-general-ac-maintenance-in-dubai-super-general-ac-fix-in-dubai-super-general-ac-service-in-dubai-super-general-air-condition-repair-in-dubai-super-general-air-con/",
+        element: <SuperGeneralAcRepair />
+      },
+      {
+        path: "/toshiba-ac-repair-in-dubai-toshiba-ac-maintenance-in-dubai-toshiba-ac-fix-in-dubai-toshiba-ac-service-in-dubai-toshiba-air-condition-repair-in-dubai-toshiba-air-condition-maintenance-in-dubai-toshiba/",
+        element: <ToshibaAcRepair />
       },
       {
         path: "/project",

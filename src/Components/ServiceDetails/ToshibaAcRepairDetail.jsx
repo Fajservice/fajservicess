@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../Data/RuudAcRepairfaq.json';
+import data from '../../Data/ToshibaAcRepairfaq.json';
 import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
@@ -8,11 +8,11 @@ import CallNowButton from '../Buttons/CallNowButton';
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
 import QuickGuide from "../QuickGuide/QuickGuide";
-import testimonial_data_Ruud from '../../Data/RuudAcServiceTestimonials.json';
+import testimonial_data_Super_General from '../../Data/ToshibaAcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";
 
-const RuudAcRepair = ({ subtitle, title, bgImg }) => {
+const ToshibaAcRepair = ({ subtitle, title, bgImg }) => {
   subtitle="Testimonial"
   title="What our clients say <br> About Us"
   bgImg="/img/testimonialbg.jpg"
@@ -65,8 +65,8 @@ const RuudAcRepair = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-      <title>Ruud AC Repair in Dubai - Air Conditioning Service Near Me</title>
-      <meta name="description" content="FAJ provides reliable & best Ruud AC repair in Dubai, Book an 043300002 for HVAC, FAHU (AC) air conditioner maintenance service in your area. Fix aircon error"/>
+      <title>Toshiba AC Repair in Dubai - AC Maintenance Service Near</title>
+      <meta name="description" content="Get same day Toshiba AC Repair in Dubai. Call 043300002 FAJ expert for split and central air conditioner maintenance service near by you with less cost cleaning"/>
       </HelmetProvider>
 
       <div className="cs_service_details">
@@ -76,7 +76,7 @@ const RuudAcRepair = ({ subtitle, title, bgImg }) => {
             <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
             <p>FAJ Technical Services LLC is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
               <br />
-              Our skilled AC technicians can handle all types and models of Ruud air conditioning units, ensuring your home or business stays cool and comfortable.</p>
+              Our skilled AC technicians can handle all types and models of Toshiba air conditioning units, ensuring your home or business stays cool and comfortable.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -92,14 +92,14 @@ const RuudAcRepair = ({ subtitle, title, bgImg }) => {
             <div className="container">
                 <div className="row g-5">
                     <div className="col-md-6">
-                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Ruud Ac Repair" />
-                        <h3 className="cs_fs_25 mb-1 mt-3">Best Ruud AC Repair in Dubai</h3>
-                        <p>When it comes to Ruud <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Dubai, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
-                        <p>We specialize in Ruud air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
+                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Toshiba Ac Repair" />
+                        <h3 className="cs_fs_25 mb-1 mt-3">Best Toshiba AC Repair in Dubai</h3>
+                        <p>When it comes to Toshiba <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Dubai, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
+                        <p>We specialize in Toshiba air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                     </div>
 
                     <div className="col-md-6 border-small-left">
-                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Ruud Ac Repair" />
+                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Toshiba Ac Repair" />
                         <h3 className="cs_fs_24 mb-1 mt-3">Signs You Need An AC Service</h3>
                         <p>If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                         <ul>
@@ -130,21 +130,14 @@ const RuudAcRepair = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-          <h3 className="cs_fs_30">Some Warning Signs Ruud Centralized Air Conditioning (AC) Shows</h3>
+          <h3 className="cs_fs_30">Toshiba Air Con Service Quality Workmanship </h3>
             <div className="row align-items-center">
               <div className="col-md-6">
                 
-                <p>When you see these unpleasant signs it means your air conditioner requires fixing and repairing any fault in it.</p>
-                <ul>
-                    <li>The constant failure of your ruud centralized air con to provide you optimal cooling</li>
-                    <li>When the air conditioning turns on rattling sound appears</li>
-                    <li>Unable to cool home because air ducts are clogged with dirt</li>
-                    <li>When you turn on your air condition, instead of spreading cool air it spreads humidity.</li>
-                </ul>
-                <p>To eliminate all these issues professional servicing is a must. For Ruud ac repair in Dubai and all kinds of services, your Ruud air condition demands the best team to deliver satisfactory results.This is a well-known air conditioner brand and its energy-saving efficiency is quite high. Ruud Ac repair in Dubai demands professionals and experienced ones. The seasonal energy efficiency ratio (SEER) is from 13 to 20 which makes it durable and the best one.</p>
+                <p>FAJ is working consistently since 2010 to make its customers satisfied and comfortable. Getting the best Toshiba ac repair service in Dubai is not easy especially when you are in urgent need. Our superior workmanship is what makes us different from others. In the need of immediate help, we are present and we provide unbeatable service to our customers. With our regular maintenance service keep your Toshiba air con running smoothly and swiftly. <br />Breathing fresh air is the right of everyone. Getting top-quality fresh air requires the best air con. Toshiba can provide healthy air to its buyers. In Dubai, Toshiba is the leading brand. So, if you have Toshiba air conditioning at your home or office and looking for its repairs. Why not look for a top-quality service provider for a top ac brand? <br />FAJ Technical Services LLC is a top-notch company providing mind-blowing Toshiba ac repair in Dubai. We understand the necessity of properly functioning air. Our team of experienced technicians ensures to provide optimal performance of Toshiba air con and an enjoyable indoor environment all year round.</p>
               </div>
               <div className="col-md-6 text-center text-md-end">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-service.jpg`} alt="Ruud Ac Repair" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-service.jpg`} alt="Toshiba Ac Repair" />
                 
               </div>
             </div>
@@ -257,57 +250,36 @@ const RuudAcRepair = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row">
                 <div className="col-md-6">
-                    <h3 className="cs_fs_24 text-light">Exceptional Repairing Of Ruud Centralized Air Conditioning (Air Con)</h3>
-                    <p>To provide more comfort to you, potential and timely repair is indispensable. After proper repair, your air con offers great cooling performance. Regular maintenance of your centralized ac extends its lifetime and improves functions. Not many offer Ruud ac repair in Dubai. However, FAJ is unique and experienced in providing exceptional service, maintenance, and fixing of your aircon. Get instant access to a potentially trained, highly skilled professional for optimal and fast air condition repairing.</p>
+                    <h3 className="cs_fs_24 text-light">Exceptional Repairing Of Toshiba Centralized Air Conditioning (Air Con)</h3>
+                    <p>To provide more comfort to you, potential and timely repair is indispensable. After proper repair, your air con offers great cooling performance. Regular maintenance of your centralized ac extends its lifetime and improves functions. Not many offer Toshiba ac repair in Dubai. However, FAJ is unique and experienced in providing exceptional service, maintenance, and fixing of your aircon. Get instant access to a potentially trained, highly skilled professional for optimal and fast air condition repairing.</p>
                 </div>
                 <div className="col-md-6">
-                    <h3 className="cs_fs_24 text-light">Cost Effective VRV Installation And Operation (Ruud Aircon) AC</h3>
-                    <p>VRF Ruud air conditioning is called ideal for small and large spaces. It is the most advanced air system worldwide and popular as well. It is significantly equipped with modern technology and, results in energy efficiency. To install this Ruud VRV ac an exceptionally trained team is required. To get the advantage of better comfort and a sustainable cooled environment accurate installation and operation is a key.</p>    
-                </div>
-                <div className="col-md-12">
-                    <h3 className="cs_fs_24 text-light">Different Models Of Ruud Ducted Aircon</h3>
-                    <p>Several types/ models of Ruud ducted ac are available in the market. Choosing the best one which is suitable for your house or office is an art. Expert advice clears all doubts and helps you to get the right aircon for your place.</p>
-                </div>
-                <div className="col-md-6">
-                    <h4 className="cs_fs_18 text-light">Inverter Ruud Ducted</h4>
-                    <p>This type of air conditioner has an efficient and compact design. This one is ideal to install in the tight roof space of the modern home.</p>
-                </div>
-                <div className="col-md-6">
-                    <h4 className="cs_fs_18 text-light">Premium Inverter Ducted</h4>
-                    <p>This ducted air con has remarkable energy performance and the ability to perform functions quite innovatively. We are skilled enough in installing, repairing, fixing, and maintenance of these kinds of air conditioners.</p>    
-                </div>
-                <div className="col-md-6">
-                    <h4 className="cs_fs_18 text-light">Bulkhead System</h4>
-                    <p>This model is best for drop ceilings and shallow ceilings. Optimal for bedroom air conditioning and ideal where discreet installation is a preference.</p>
-                </div>
-                <div className="col-md-6">
-                    <h4 className="cs_fs_18 text-light">Slimline Ducted</h4>
-                    <p>It has freedom of design and unparalleled flexibility. FAJ is the most reliable and ideal one for installing and maintenance of these ac machines.</p>    
+                    <h3 className="cs_fs_24 text-light">Cost Effective VRV Installation And Operation (Toshiba Aircon) AC</h3>
+                    <p>VRF Toshiba air conditioning is called ideal for small and large spaces. It is the most advanced air system worldwide and popular as well. It is significantly equipped with modern technology and, results in energy efficiency. To install this Toshiba VRV ac an exceptionally trained team is required. To get the advantage of better comfort and a sustainable cooled environment accurate installation and operation is a key.</p>    
                 </div>
             </div>
           </div>
         </section>
-
-        
         <section className="section cs_py_48">
           <div className="container">
-          <h3 className="cs_fs_30">Get A Full Fledged Expert Service Of Ruud HVAC</h3>
+          <h3 className="cs_fs_30">Get A Full Fledged Expert Service Of Toshiba HVAC</h3>
+          <p>While modern HVAC systems are manufactured to deliver year-long service. However, issues with air condition can and will arise. Here are some common problems which are faced by several homeowners, businesses, etc.</p>
             <div className="row align-items-center">
                 <div className="col-xl-6">
-                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-repair.jpg`} alt="Ruud Ac Repair" />
+                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/toshiba-ac-repair.jpg`} alt="Toshiba Ac Repair" />
                 </div>
                 <div className="col-xl-6">
-                  <p>While modern HVAC systems are manufactured to deliver year-long service. However, issues with air condition can and will arise. Here are some common problems which are faced by several homeowners, businesses, etc.</p>
+                 
                   <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
-                      <span><strong>Blown Is Fused:</strong> One reason your Ruud HVAC is not functioning is because of blown fuses. Fuses are mainly designed to protect the compressor and unit’s motor or ac engine from overheating. Due to that, the breaker gets flipped off which indicates a huge problem with your HVAC air con.</span>
+                      <span><strong>Blown Is Fused:</strong> One reason your Toshiba HVAC is not functioning is because of blown fuses. Fuses are mainly designed to protect the compressor and unit’s motor or ac engine from overheating. Due to that, the breaker gets flipped off which indicates a huge problem with your HVAC air con.</span>
                     </li>
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
-                      <span><strong>Unclean Air Filters:</strong> Dirty ac filters make your Ruud HVAC aircon to under-perform and eventually freeze. Air filters must be regularly changed otherwise, airflow can be decreased significantly. For exceptional services, FAJ is available on the other side of a single call. Don’t let your air condition issues disturb your comfort and your important work. Let us keep your air conditioning in optimal condition, and make sure you and your loved ones enjoy cool and fresh air.</span>
+                      <span><strong>Unclean Air Filters:</strong> Dirty ac filters make your Toshiba HVAC aircon to under-perform and eventually freeze. Air filters must be regularly changed otherwise, airflow can be decreased significantly. For exceptional services, FAJ is available on the other side of a single call. Don’t let your air condition issues disturb your comfort and your important work. Let us keep your air conditioning in optimal condition, and make sure you and your loved ones enjoy cool and fresh air.</span>
                     </li>
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
@@ -421,7 +393,7 @@ const RuudAcRepair = ({ subtitle, title, bgImg }) => {
                 data-add-slides="2" data-slides-per-view="responsive">
                 <div className="cs_slider_wrapper">
                   <Slider {...settings}>
-                    {testimonial_data_Ruud.map((item, index) => (
+                    {testimonial_data_Super_General.map((item, index) => (
                       <div key={index} className="cs_slide wow fadeInLeft">
                         <div className="cs_testimonial cs_style_1 position-relative">
                           <div className="cs_testimonial_content cs_white_bg position-relative">
@@ -498,4 +470,4 @@ const RuudAcRepair = ({ subtitle, title, bgImg }) => {
   );
 };
 
-export default RuudAcRepair;
+export default ToshibaAcRepair;
