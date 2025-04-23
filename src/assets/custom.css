@@ -443,13 +443,16 @@ p a {
   width: 100%;
   justify-content: center;
 }
-.blue-border-2{
+
+.blue-border-2 {
   border: 2px solid #00334e;
   border-radius: 15px;
 
 }
 
-.col-1, .col-2, .col-3 {
+.col-1,
+.col-2,
+.col-3 {
   width: 30%;
 }
 
@@ -493,8 +496,47 @@ p a {
   font-weight: 400;
 }
 
+/* APPLIANCES BENIFIT SECTION */
+.benifit-box-container {
+  background: #fff;
+  border: 1px solid var(--bg-dark-blue);
+  border-radius: 10px;
+  position: relative;
+  padding: 41px 17px 20px
+}
+
+.icon-img-block {
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 100%;
+  border: 1px solid #000;
+  border-color: var(--bg-dark-blue);
+  background-color: #fff;
+}
+
+.icon-img-block-icon {
+  height: 35px;
+  width: 35px;
+}
 
 
+.cs_service_details img {
+  max-height: 310px !important;
+}
+
+.cs_service_details .usps img {
+  max-height: inherit !important;
+}
 /* MEDIA SCREENS */
 @media screen and (min-width: 1200px) {
   .cs_nav .cs_nav_list ul {
@@ -550,11 +592,13 @@ p a {
 
 @media screen and (max-width: 768px) {
   .usps {
-      flex-direction: column;
+    flex-direction: column;
   }
 
-  .col-1, .col-2, .col-3 {
-      width: 80%;
+  .col-1,
+  .col-2,
+  .col-3 {
+    width: 80%;
   }
 }
 
@@ -628,4 +672,3 @@ p a {
     max-height: 185px;
   }
 }
-
