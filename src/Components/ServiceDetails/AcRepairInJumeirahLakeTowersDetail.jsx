@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../Data/AcRepairinTheMeadows.json';
+import data from '../../Data/AcRepairInJumeirahLakeTowers.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
@@ -10,8 +10,7 @@ import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import FAJACPrice from "../Miscellaneous/FAJACPrice";
 import QuickGuide from "../QuickGuide/QuickGuide";
 
-
-const AcRepairinTheMeadowsDetail = () => {
+const AcRepairInJumeirahLakeTowersDetail = () => {
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -32,8 +31,8 @@ const AcRepairinTheMeadowsDetail = () => {
   return (
     <>
     <HelmetProvider>
-        <title>FAJ / AC Services In The Meadows - #1 AC Repair And Service</title>
-        <meta name="description" content="Best AC Services in The Meadows, Book Now 043300002 for your Ceiling and HVAC Air Conditioning Maintenance and Fix Water Leakage Problem"></meta>
+        <title>AC Services In Jumeirah Lake Towers - AC Repair - #1 Fix</title>
+        <meta name="description" content="If you are looking for best ac services in jumeirah lake towers dubai. Call now FAJ 043300002 for centralized air conditioning system servicing.."></meta>
     </HelmetProvider>
 
     <div className="cs_service_details">
@@ -45,13 +44,11 @@ const AcRepairinTheMeadowsDetail = () => {
                 <p>FAJ Technical Services LLC is your top choice for AC services in Dubai. With over 15 years of experience, we provide trusted AC repair and maintenance in Dubai and Sharjah.<br></br>Our skilled AC technicians can handle all types, brands, and models of air conditioner units to keep your home or business cool and comfortable throughout the year.</p>
 
                 <div id="get-quote" className=" mt-3">
-
                     <div className="container d-flex justify-content-center align-items-center">
                         {/* <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#0D6EFD" }}>Get A Free Quote</a>
                         <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex border border-outline align-items-center" href="tel:+971507464712">Call Now</a> */}
                         <CallNowButton /> <GetQuoteButton />
                     </div>
-
                 </div>
             </div>
         </section>
@@ -61,8 +58,8 @@ const AcRepairinTheMeadowsDetail = () => {
                 <div className="row g-5">
                     <div className="col-md-6">
                         <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
-                        <h3 className="cs_fs_24 mb-1 mt-3">Best AC Repair in The Meadows</h3>
-                        <p>When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in The Meadows, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
+                        <h3 className="cs_fs_24 mb-1 mt-3">Best AC Repair in Jumeirah Lake Towers</h3>
+                        <p>When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Jumeirah Lake Towers, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
                         <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                     </div>
 
@@ -432,4 +429,4 @@ const AcRepairinTheMeadowsDetail = () => {
   )
 }
 
-export default AcRepairinTheMeadowsDetail
+export default AcRepairInJumeirahLakeTowersDetail

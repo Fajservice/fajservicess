@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../Data/AcRepairinTheMeadows.json';
+import data from '../../Data/AcRepairInAlManara.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
@@ -11,7 +11,7 @@ import FAJACPrice from "../Miscellaneous/FAJACPrice";
 import QuickGuide from "../QuickGuide/QuickGuide";
 
 
-const AcRepairinTheMeadowsDetail = () => {
+const AcRepairInAlManaraDetail = () => {
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -32,8 +32,8 @@ const AcRepairinTheMeadowsDetail = () => {
   return (
     <>
     <HelmetProvider>
-        <title>FAJ / AC Services In The Meadows - #1 AC Repair And Service</title>
-        <meta name="description" content="Best AC Services in The Meadows, Book Now 043300002 for your Ceiling and HVAC Air Conditioning Maintenance and Fix Water Leakage Problem"></meta>
+        <title>Best AC Services In Al Manara - Repair Service AC Dubai #1</title>
+        <meta name="description" content="Book Sharjah AC and Dubai AC Services in Al Manara. Call 043300002 for inverter, multi-split AC (Air Conditioner) repair service near me location"></meta>
     </HelmetProvider>
 
     <div className="cs_service_details">
@@ -48,7 +48,7 @@ const AcRepairinTheMeadowsDetail = () => {
 
                     <div className="container d-flex justify-content-center align-items-center">
                         {/* <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#0D6EFD" }}>Get A Free Quote</a>
-                        <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex border border-outline align-items-center" href="tel:+971507464712">Call Now</a> */}
+                <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex border border-outline align-items-center" href="tel:+971507464712">Call Now</a> */}
                         <CallNowButton /> <GetQuoteButton />
                     </div>
 
@@ -61,8 +61,8 @@ const AcRepairinTheMeadowsDetail = () => {
                 <div className="row g-5">
                     <div className="col-md-6">
                         <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
-                        <h3 className="cs_fs_24 mb-1 mt-3">Best AC Repair in The Meadows</h3>
-                        <p>When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in The Meadows, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
+                        <h3 className="cs_fs_24 mb-1 mt-3">Best AC Repair in Al Manara</h3>
+                        <p>When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Al Manara, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
                         <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                     </div>
 
@@ -222,7 +222,7 @@ const AcRepairinTheMeadowsDetail = () => {
             </div>
         </section>
 
-        {/* A Quick Guide to Understanding and Fixing Your AC Problems */}
+        {/* A Quick Tour to Your AC Problems and Fixing*/}
         <QuickGuide />
 
         <BenefitAcMaintenance />
@@ -432,4 +432,4 @@ const AcRepairinTheMeadowsDetail = () => {
   )
 }
 
-export default AcRepairinTheMeadowsDetail
+export default AcRepairInAlManaraDetail

@@ -3,11 +3,13 @@ import { Link } from 'react-router-dom';
 import Nav from './Nav';
 
 import img from '/img/fajlogo.png';
+import BookingFormModal from '../BookingFormModal';
 
 export default function Header1({ variant }) {
   const [mobileToggle, setMobileToggle] = useState(false);
   const [isSticky, setIsSticky] = useState();
   const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -29,99 +31,114 @@ export default function Header1({ variant }) {
     };
   }, [prevScrollPos]);
 
+  const openModal = (e) => {
+    e.preventDefault();
+    setIsModalOpen(true);
+    // Prevent body scrolling when modal is open
+    document.body.style.overflow = 'hidden';
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    // Restore body scrolling when modal is closed
+    document.body.style.overflow = 'auto';
+  };
+
   return (
     <div className='header-area2 header_nav_03'>
-    <header
-      className={`cs_site_header cs_style_1 ${
-        variant ? variant : ''
-      } cs_sticky_header cs_site_header_full_width ${
-        mobileToggle ? 'cs_mobile_toggle_active' : ''
-      } ${isSticky ? isSticky : ''}`}
-    >
-      <div className="cs_top_header">
-        <div className="container-fluid">
-          <div className="cs_top_header_in">
+      <header
+        className={`cs_site_header cs_style_1 ${
+          variant ? variant : ''
+        } cs_sticky_header cs_site_header_full_width ${
+          mobileToggle ? 'cs_mobile_toggle_active' : ''
+        } ${isSticky ? isSticky : ''}`}
+      >
+        <div className="cs_top_header">
+          <div className="container-fluid">
+            <div className="cs_top_header_in">
 
-          <div className="cs_top_header_left">
-              <ul className="cs_header_contact_list cs_mp_0">
-                <li>
-                <i className="bi bi-telephone "></i>
-                  <a href="tel:+97143300002">(+971) 4-330-0002</a>
-                </li>
-                <li>
-                <i className="bi bi-whatsapp"></i>
-                <a href="https://api.whatsapp.com/send?phone=+971507464712&text=Hello">+971 50 746 4712</a>
-                </li>
-                <li>
-                <i className="bi bi-geo-alt"></i>
-                  <span>Dubai - United Arab Emirates</span>
-                </li>
-              </ul>
-            </div>
+            <div className="cs_top_header_left">
+                <ul className="cs_header_contact_list cs_mp_0">
+                  <li>
+                  <i className="bi bi-telephone "></i>
+                    <a href="tel:+97143300002">(+971) 4-330-0002</a>
+                  </li>
+                  <li>
+                  <i className="bi bi-whatsapp"></i>
+                  <a href="https://api.whatsapp.com/send?phone=+971507464712&text=Hello">+971 50 746 4712</a>
+                  </li>
+                  <li>
+                  <i className="bi bi-geo-alt"></i>
+                    <span>Dubai - United Arab Emirates</span>
+                  </li>
+                </ul>
+              </div>
 
-            <div className="cs_top_header_right">
-            <div className="cs_header_social_links_wrap">
-                <div className="cs_header_social_links">
-                <a href="https://www.instagram.com/fajtechnicalservicesllc/" className="cs_center cs_accent_bg_light"><i className="bi bi-instagram"></i></a>
-                  <a href="https://twitter.com/FAJTechnical/" className="cs_center cs_accent_bg_light"><i className="bi bi-twitter"></i></a>
-                  <a href="https://www.youtube.com/@fajtechnicalservicesllc" className="cs_center cs_accent_bg_light"><i className="bi bi-youtube"></i></a>
-                  <a href="https://www.facebook.com/FAJTechnicalServicesLLC" className="cs_center cs_accent_bg_light"><i className="bi bi-facebook"></i></a>
+              <div className="cs_top_header_right">
+              <div className="cs_header_social_links_wrap">
+                  <div className="cs_header_social_links">
+                  <a href="https://www.instagram.com/fajtechnicalservicesllc/" className="cs_center cs_accent_bg_light"><i className="bi bi-instagram"></i></a>
+                    <a href="https://twitter.com/FAJTechnical/" className="cs_center cs_accent_bg_light"><i className="bi bi-twitter"></i></a>
+                    <a href="https://www.youtube.com/@fajtechnicalservicesllc" className="cs_center cs_accent_bg_light"><i className="bi bi-youtube"></i></a>
+                    <a href="https://www.facebook.com/FAJTechnicalServicesLLC" className="cs_center cs_accent_bg_light"><i className="bi bi-facebook"></i></a>
+                  </div>
                 </div>
               </div>
-            </div>
 
-          </div>
-        </div>
-      </div>
-      <div className="cs_main_header">
-        <div className="container-fluid">
-          <div className="cs_main_header_in">
-
-            <div className="cs_main_header_left">
-            <div className="cs_logo_wrap">
-              <Link className="cs_site_branding" to="/">
-                <img src={img} alt="Logo" />
-              </Link>
-              <div className="cs_logo_bg_shape cs_accent_color">
-                  <svg width="509" height="141" viewBox="0 0 509 141" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M74 0H487L508.5 70.5L473.5 141H74V0Z" fill="currentColor"/>
-                    <path d="M54 141H472.5L488.5 70.5L443.5 0H54V141Z" fill="white"/>
-                    <path d="M0 0H443L464.5 70.5L443 141H0V0Z" fill="currentColor"/>
-                  </svg>
-                  <img src={`${import.meta.env.BASE_URL}/img/logo_shape_pattern.svg`} alt="" />
-                </div>             
-              </div>
-              </div>
-
-              <div className="cs_main_header_center">
-                <div className="cs_nav cs_fs_18 cs_heading_color">
-                  <span
-                    className={
-                      mobileToggle
-                        ? 'cs-munu_toggle cs_teggle_active'
-                        : 'cs-munu_toggle'
-                    }
-                    onClick={() => setMobileToggle(!mobileToggle)}
-                  >
-                    <span></span>
-                  </span>
-                  <Nav setMobileToggle={setMobileToggle} />
-                </div>
-            </div>
-            <div className="cs_main_header_right">
-            <div className="solutek-btn2">
-            <Link to="/contact-us/" className="cs_btn cs_style_1">
-                <span>Get a Quote</span>
-                <i className="bi bi-arrow-right"></i>
-              </Link>             
-					  </div>
             </div>
           </div>
         </div>
-      </div>
-    </header>
-    <div className="cs_site_header_spacing_140"></div>
+        <div className="cs_main_header">
+          <div className="container-fluid">
+            <div className="cs_main_header_in">
+
+              <div className="cs_main_header_left">
+              <div className="cs_logo_wrap">
+                <Link className="cs_site_branding" to="/">
+                  <img src={img} alt="Logo" />
+                </Link>
+                <div className="cs_logo_bg_shape cs_accent_color">
+                    <svg width="509" height="141" viewBox="0 0 509 141" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M74 0H487L508.5 70.5L473.5 141H74V0Z" fill="currentColor"/>
+                      <path d="M54 141H472.5L488.5 70.5L443.5 0H54V141Z" fill="white"/>
+                      <path d="M0 0H443L464.5 70.5L443 141H0V0Z" fill="currentColor"/>
+                    </svg>
+                    <img src={`${import.meta.env.BASE_URL}/img/logo_shape_pattern.svg`} alt="" />
+                  </div>             
+                </div>
+                </div>
+
+                <div className="cs_main_header_center">
+                  <div className="cs_nav cs_fs_18 cs_heading_color">
+                    <span
+                      className={
+                        mobileToggle
+                          ? 'cs-munu_toggle cs_teggle_active'
+                          : 'cs-munu_toggle'
+                      }
+                      onClick={() => setMobileToggle(!mobileToggle)}
+                    >
+                      <span></span>
+                    </span>
+                    <Nav setMobileToggle={setMobileToggle} />
+                  </div>
+              </div>
+              <div className="cs_main_header_right">
+              <div className="solutek-btn2">
+              <a href="#" onClick={openModal} className="cs_btn cs_style_1">
+                  <span>Get a Quote</span>
+                  <i className="bi bi-arrow-right"></i>
+                </a>             
+					    </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div className="cs_site_header_spacing_140"></div>
+      
+      {/* Booking Form Modal */}
+      <BookingFormModal isOpen={isModalOpen} onClose={closeModal} />
     </div>
-    
   );
 }
