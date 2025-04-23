@@ -342,11 +342,12 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
         </section>
 
         {/* The Benefits Of Regular AC Service*/}
-        <BenefitAcMaintenance />
-        <section className="section cs_py_40 appliances-benifit-sec">
+        {/* <BenefitAcMaintenance /> */}
+        {/* The Benefits Of appliances Service Dubai */}
+        <section className="section cs_py_48 appliances-benifit-sec">
           <div className="container">
             <div className="row justify-content-center">
-            <h3 className="cs_fs_30 text-black   mb-3 mt-4">The Benefits Of appliances Service Dubai
+            <h3 className="cs_fs_30 mb-3 mt-4">The Benefits Of appliances Service Dubai
                 </h3>
 
                 <div className="row mt-4 gx-3 gy-4">
