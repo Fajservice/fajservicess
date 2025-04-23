@@ -99,6 +99,39 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* Experts AC Service and Maintenance */}
+        <section className="section cs_py_48 bg-light-gay pt-0">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-4">
+                <div className="green-box gradient-amc-bg">
+                  <h3 className="text-light">Protect an appliance</h3>
+                  <div className="green-text-box">
+                    <p className="text-light">Cover your home appliances – from fridges to washing machines, dishwashers to cookers and more.</p>
+                    <a href="" className="amc-box-button">Get a quick quote </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="purple-box gradient-amc-bg">
+                  <h3 className="text-light">Book an engineer</h3>
+                  <div className="green-text-box">
+                    <p className="text-light">Something need fixing? It’s easy to book repairs with Domestic & General, even if you don’t have a policy.</p>
+                    <a href="" className="amc-box-button">Book your repair</a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="cgreen-box gradient-amc-bg">
+                  <h3 className="text-light">Cover your plumbing</h3>
+                  <div className="green-text-box">
+                    <p className="text-light">Protect the pipes, drains, toilets and more in your home.</p>
+                    <a href="" className="amc-box-button">See plumbing cover</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
             <div className="row g-5">
