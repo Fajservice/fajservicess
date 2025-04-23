@@ -242,7 +242,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Gas or Electric Stove</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Stove Problem</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Uneven heating or flame issues, such as a broken burner element, bad switch, or electric gas, are the most common problems with stoves.</p>
@@ -412,7 +412,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
                           <img src={`${import.meta.env.BASE_URL}/img/icons/gift-card-svg.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                         </div>
                         <h4 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h4>
-                        <p className="small">Proper care and timely servicing can significantly increase the life of your home appliances, delaying the need for replacements.</p>
+                        <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
 
                       </div>
 
