@@ -96,7 +96,6 @@ export const router = createHashRouter([
         path: "/ac-service-in-dubai/",
         element: <AcServiceInDubai></AcServiceInDubai>,
       },
-      ,
       {
         path: "/ac-maintenance-dubai/",
         element: <AcMaintenanceDubai></AcMaintenanceDubai>,
@@ -109,13 +108,10 @@ export const router = createHashRouter([
         path: "/ac-repair-dubai/",
         element: <AcRepairDubai></AcRepairDubai>,
       },
-
       {
         path: "/appliances-repair-service/",
         element: <FreestandingHomeAppliancesRepairService></FreestandingHomeAppliancesRepairService>,
       },
-      
-
       {
         path: "/washing-machine-repair-service-dubai/",
         element: <WashingMachineRepairServiceDubai></WashingMachineRepairServiceDubai>,
