@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../Data/SuperGeneralAcRepairfaq.json';
+import data from '../../Data/SamsungAcRepairfaq.json';
 import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
@@ -8,11 +8,11 @@ import CallNowButton from '../Buttons/CallNowButton';
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
 import QuickGuide from "../QuickGuide/QuickGuide";
-import testimonial_data_Super_General from '../../Data/SuperGeneralAcServiceTestimonials.json';
+import testimonial_data_Super_General from '../../Data/SamsungAcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";
 
-const SuperGeneralAcRepair = ({ subtitle, title, bgImg }) => {
+const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
   subtitle="Testimonial"
   title="What our clients say <br> About Us"
   bgImg="/img/testimonialbg.jpg"
@@ -65,8 +65,8 @@ const SuperGeneralAcRepair = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-      <title>Super General Ac Repair in Dubai - Air Conditioner Maintenance Near</title>
-      <meta name="description" content="World #1 Super General AC. Book 043300002 for Super General Ac Repair in Dubai, We are experts in central, HVAC Air Conditioning Maintenance and Cleaning Service Near by you"/>
+        <title>Samsung AC Repair in Dubai - Air Conditioner Service Near</title>
+        <meta name="description" content="Get expert Samsung AC repair in Dubai. Get FAJ experts an 043300002 for central, VRF, split (AC) air conditioner maintenance and cleaning service near by you."/>
       </HelmetProvider>
 
       <div className="cs_service_details">
@@ -76,7 +76,7 @@ const SuperGeneralAcRepair = ({ subtitle, title, bgImg }) => {
             <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
             <p>FAJ Technical Services LLC is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
               <br />
-              Our skilled AC technicians can handle all types and models of Super General air conditioning units, ensuring your home or business stays cool and comfortable.</p>
+              Our skilled AC technicians can handle all types and models of Samsung air conditioning units, ensuring your home or business stays cool and comfortable.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -92,14 +92,14 @@ const SuperGeneralAcRepair = ({ subtitle, title, bgImg }) => {
             <div className="container">
                 <div className="row g-5">
                     <div className="col-md-6">
-                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Super General Ac Repair" />
-                        <h3 className="cs_fs_25 mb-1 mt-3">Best Super General AC Repair in Dubai</h3>
-                        <p>When it comes to Super General <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Dubai, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
-                        <p>We specialize in Super General air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
+                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Samsung Ac Repair" />
+                        <h3 className="cs_fs_25 mb-1 mt-3">Best Samsung AC Repair in Dubai</h3>
+                        <p>When it comes to Samsung <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Dubai, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
+                        <p>We specialize in Samsung air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                     </div>
 
                     <div className="col-md-6 border-small-left">
-                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Super General Ac Repair" />
+                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Samsung Ac Repair" />
                         <h3 className="cs_fs_24 mb-1 mt-3">Signs You Need An AC Service</h3>
                         <p>If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                         <ul>
@@ -130,14 +130,14 @@ const SuperGeneralAcRepair = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-          <h3 className="cs_fs_30">Super General Air Con Service Quality Workmanship </h3>
+          <h3 className="cs_fs_30">Samsung Air Con Service Quality Workmanship </h3>
             <div className="row align-items-center">
               <div className="col-md-6">
                 
-                <p>FAJ is working consistently since 2010 to make its customers satisfied and comfortable. Getting the best Super General ac repair service in Dubai is not easy especially when you are in urgent need. Our superior workmanship is what makes us different from others. In the need of immediate help, we are present and we provide unbeatable service to our customers. With our regular maintenance service keep your Super General air con running smoothly and swiftly. <br />Breathing fresh air is the right of everyone. Getting top-quality fresh air requires the best air con. Super General can provide healthy air to its buyers. In Dubai, Super General is the leading brand. So, if you have Super General air conditioning at your home or office and looking for its repairs. Why not look for a top-quality service provider for a top ac brand? <br />FAJ Technical Services LLC is a top-notch company providing mind-blowing Super General ac repair in Dubai. We understand the necessity of properly functioning air. Our team of experienced technicians ensures to provide optimal performance of Super General air con and an enjoyable indoor environment all year round.</p>
+                <p>FAJ is working consistently since 2010 to make its customers satisfied and comfortable. Getting the best Samsung ac repair service in Dubai is not easy especially when you are in urgent need. Our superior workmanship is what makes us different from others. In the need of immediate help, we are present and we provide unbeatable service to our customers. With our regular maintenance service keep your Samsung air con running smoothly and swiftly. <br />Breathing fresh air is the right of everyone. Getting top-quality fresh air requires the best air con. Samsung can provide healthy air to its buyers. In Dubai, Samsung is the leading brand. So, if you have Samsung air conditioning at your home or office and looking for its repairs. Why not look for a top-quality service provider for a top ac brand? <br />FAJ Technical Services LLC is a top-notch company providing mind-blowing Samsung ac repair in Dubai. We understand the necessity of properly functioning air. Our team of experienced technicians ensures to provide optimal performance of Samsung air con and an enjoyable indoor environment all year round.</p>
               </div>
               <div className="col-md-6 text-center text-md-end">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-service.jpg`} alt="Super General Ac Repair" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-service.jpg`} alt="Samsung Ac Repair" />
                 
               </div>
             </div>
@@ -250,23 +250,23 @@ const SuperGeneralAcRepair = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row">
                 <div className="col-md-6">
-                    <h3 className="cs_fs_24 text-light">Exceptional Repairing Of Super General Centralized Air Conditioning (Air Con)</h3>
-                    <p>To provide more comfort to you, potential and timely repair is indispensable. After proper repair, your air con offers great cooling performance. Regular maintenance of your centralized ac extends its lifetime and improves functions. Not many offer Super General ac repair in Dubai. However, FAJ is unique and experienced in providing exceptional service, maintenance, and fixing of your aircon. Get instant access to a potentially trained, highly skilled professional for optimal and fast air condition repairing.</p>
+                    <h3 className="cs_fs_24 text-light">Exceptional Repairing Of Samsung Centralized Air Conditioning (Air Con)</h3>
+                    <p>To provide more comfort to you, potential and timely repair is indispensable. After proper repair, your air con offers great cooling performance. Regular maintenance of your centralized ac extends its lifetime and improves functions. Not many offer Samsung ac repair in Dubai. However, FAJ is unique and experienced in providing exceptional service, maintenance, and fixing of your aircon. Get instant access to a potentially trained, highly skilled professional for optimal and fast air condition repairing.</p>
                 </div>
                 <div className="col-md-6">
-                    <h3 className="cs_fs_24 text-light">Cost Effective VRV Installation And Operation (Super General Aircon) AC</h3>
-                    <p>VRF Super General air conditioning is called ideal for small and large spaces. It is the most advanced air system worldwide and popular as well. It is significantly equipped with modern technology and, results in energy efficiency. To install this Super General VRF ac an exceptionally trained team is required. To get the advantage of better comfort and a sustainable cooled environment accurate installation and operation is a key.</p>    
+                    <h3 className="cs_fs_24 text-light">Cost Effective VRV Installation And Operation (Samsung Aircon) AC</h3>
+                    <p>VRF Samsung air conditioning is called ideal for small and large spaces. It is the most advanced air system worldwide and popular as well. It is significantly equipped with modern technology and, results in energy efficiency. To install this Samsung VRF ac an exceptionally trained team is required. To get the advantage of better comfort and a sustainable cooled environment accurate installation and operation is a key.</p>    
                 </div>
             </div>
           </div>
         </section>
         <section className="section cs_py_48">
           <div className="container">
-          <h3 className="cs_fs_30">Get A Full Fledged Expert Service Of Super General HVAC</h3>
+          <h3 className="cs_fs_30">Get A Full Fledged Expert Service Of Samsung HVAC</h3>
           <p>While modern HVAC systems are manufactured to deliver year-long service. However, issues with air condition can and will arise. Here are some common problems which are faced by several homeowners, businesses, etc.</p>
             <div className="row align-items-center">
                 <div className="col-xl-6">
-                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-repair.jpg`} alt="Super General Ac Repair" />
+                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/toshiba-ac-repair.jpg`} alt="Samsung Ac Repair" />
                 </div>
                 <div className="col-xl-6">
                  
@@ -274,12 +274,12 @@ const SuperGeneralAcRepair = ({ subtitle, title, bgImg }) => {
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
-                      <span><strong>Blown Is Fused:</strong> One reason your Super General HVAC is not functioning is because of blown fuses. Fuses are mainly designed to protect the compressor and unit’s motor or ac engine from overheating. Due to that, the breaker gets flipped off which indicates a huge problem with your HVAC air con.</span>
+                      <span><strong>Blown Is Fused:</strong> One reason your Samsung HVAC is not functioning is because of blown fuses. Fuses are mainly designed to protect the compressor and unit’s motor or ac engine from overheating. Due to that, the breaker gets flipped off which indicates a huge problem with your HVAC air con.</span>
                     </li>
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
-                      <span><strong>Unclean Air Filters:</strong> Dirty ac filters make your Super General HVAC aircon to under-perform and eventually freeze. Air filters must be regularly changed otherwise, airflow can be decreased significantly. For exceptional services, FAJ is available on the other side of a single call. Don’t let your air condition issues disturb your comfort and your important work. Let us keep your air conditioning in optimal condition, and make sure you and your loved ones enjoy cool and fresh air.</span>
+                      <span><strong>Unclean Air Filters:</strong> Dirty ac filters make your Samsung HVAC aircon to under-perform and eventually freeze. Air filters must be regularly changed otherwise, airflow can be decreased significantly. For exceptional services, FAJ is available on the other side of a single call. Don’t let your air condition issues disturb your comfort and your important work. Let us keep your air conditioning in optimal condition, and make sure you and your loved ones enjoy cool and fresh air.</span>
                     </li>
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
@@ -377,7 +377,7 @@ const SuperGeneralAcRepair = ({ subtitle, title, bgImg }) => {
         </section> 
          {/* testimobial section */}
           <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative" data-background={`${import.meta.env.BASE_URL}${bgImg}`}>
-            <div className="cs_height_80 cs_height_lg_80"></div>
+            <div className="cs_height_80 cs_height_Samsung_80"></div>
             <div className="container">
               <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
                 <h3 className="cs_section_subtitle cs_fs_18 text-black cs_semibold text-uppercase cs_mb_12 wow fadeInDown">
@@ -426,7 +426,7 @@ const SuperGeneralAcRepair = ({ subtitle, title, bgImg }) => {
                 </div>
               </div>
             </div>
-            <div className="cs_height_80 cs_height_lg_80"></div>
+            <div className="cs_height_80 cs_height_Samsung_80"></div>
           </section>
 
         <div className="section cs_py_48  bg-dark-blue text-light">
@@ -470,4 +470,4 @@ const SuperGeneralAcRepair = ({ subtitle, title, bgImg }) => {
   );
 };
 
-export default SuperGeneralAcRepair;
+export default SamsungAcRepair;

@@ -255,7 +255,7 @@ const ToshibaAcRepair = ({ subtitle, title, bgImg }) => {
                 </div>
                 <div className="col-md-6">
                     <h3 className="cs_fs_24 text-light">Cost Effective VRV Installation And Operation (Toshiba Aircon) AC</h3>
-                    <p>VRF Toshiba air conditioning is called ideal for small and large spaces. It is the most advanced air system worldwide and popular as well. It is significantly equipped with modern technology and, results in energy efficiency. To install this Toshiba VRV ac an exceptionally trained team is required. To get the advantage of better comfort and a sustainable cooled environment accurate installation and operation is a key.</p>    
+                    <p>VRF Toshiba air conditioning is called ideal for small and large spaces. It is the most advanced air system worldwide and popular as well. It is significantly equipped with modern technology and, results in energy efficiency. To install this Toshiba VRF ac an exceptionally trained team is required. To get the advantage of better comfort and a sustainable cooled environment accurate installation and operation is a key.</p>    
                 </div>
             </div>
           </div>
