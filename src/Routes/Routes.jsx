@@ -8,6 +8,7 @@ import AcServiceInDubai from "../Pages/AcServiceInDubai";
 import AcMaintenanceDubai from "../Pages/AcMaintenanceDubai";
 import AcAnnualMaintenanceContract from "../Pages/AcAnnualMaintenanceContract";
 import AcRepairDubai from "../Pages/AcRepairDubai";
+import FreestandingHomeAppliancesRepairService from "../Pages/FreestandingHomeAppliancesRepairService";
 import WashingMachineRepairServiceDubai from "../Pages/WashingMachineRepairServiceDubai";
 import RefrigeratorRepairInDubai from "../Pages/RefrigeratorRepairInDubai";
 import ColdRoomRepair from "../Pages/ColdRoomRepair";
@@ -36,7 +37,6 @@ import AcRepairInAcademyCity from "../Pages/AcRepairInAcademyCity";
 import AcRepairinAlJafiliya from "../Pages/AcRepairinAlJafiliya";
 import AcRepairinTheGreens from "../Pages/AcRepairinTheGreens";
 import AcRepairInUmmAlSheif from "../Pages/AcRepairInUmmAlSheif";
-import AcRepairInTheMeadows from "../Pages/AcRepairInTheMeadows";
 import MideaAcRepair from "../Pages/MideaAcRepair";
 import WestpointAcRepair from "../Pages/WestpointAcRepair";
 import CoolineAcRepair from "../Pages/CoolineAcRepair";
@@ -59,17 +59,13 @@ import AcRepairInHudaiba from "../Pages/AcRepairInHudaiba";
 import AcRepairInImpz from "../Pages/AcRepairInImpz";
 import AcRepairInAlSatwa from "../Pages/AcRepairInAlSatwa";
 import AcRepairInAlJafza from "../Pages/AcRepairInAlJafza";
+import AcRepairInJumeriahVillageTriangle from "../Pages/AcRepairInJumeriahVillageTriangle";
 import AcRepairInAlKhawaneej from "../Pages/AcRepairInAlKhawaneej";
 import AcRepairInAlManara from "../Pages/AcRepairInAlManara";
-import AcRepairInJumeirahGolfEstates from "../Pages/AcRepairInJumeirahGolfEstates";
 import AcRepairInLayanCommunity from "../Pages/AcRepairInLayanCommunity";
 import AcRepairInAlBadaa from "../Pages/AcRepairInAlBadaa";
-import AcRepairInDubaiInternetCity from "../Pages/AcRepairInDubaiInternetCity";
-import AcRepairInJumeirahLakeTowers from "../Pages/AcRepairInJumeirahLakeTowers";
-import AcRepairInJumeriahVillageTriangle from "../Pages/AcRepairInJumeriahVillageTriangle";
-import AcRepairinTheMeadows from "../Pages/AcRepairInTheMeadows";
 import AcRepairinAlTawar from "../Pages/AcRepairinAlTawar";
-import AcRepairInAlBarshaSouth from "../Pages/AcRepairInAlBarshaSouth";
+import AcRepairInJumeirahLakeTowers from "../Pages/AcRepairInJumeirahLakeTowers";
 export const router = createHashRouter([
   {
     path: "/",
@@ -103,7 +99,13 @@ export const router = createHashRouter([
       {
         path: "/ac-repair-dubai/",
         element: <AcRepairDubai></AcRepairDubai>,
-      },      
+      },
+
+      {
+        path: "/appliances-repair-service/",
+        element: <FreestandingHomeAppliancesRepairService></FreestandingHomeAppliancesRepairService>,
+      },
+      
 
       {
         path: "/washing-machine-repair-service-dubai/",
@@ -160,6 +162,14 @@ export const router = createHashRouter([
       {
         path: "/blue-star-ac-repair-in-dubai-blue-star-ac-maintenance-in-dubai-blue-star-ac-fix-in-dubai-blue-star-ac-service-in-dubai-blue-star-air-condition-repair-in-dubai-blue-star-air-condition-maintenance-in-du/",
         element: <BlueStarAcRepair />,
+      },
+      {
+        path: "/rheem-ac-maintenance-in-dubai/",
+        element: <RheemAcRepair />,
+      },
+      {
+        path: "/ruud-ac-repair-in-dubai-ruud-ac-maintenance-in-dubai-ruud-ac-fix-in-dubai-ruud-ac-service-in-dubai-ruud-air-condition-repair-in-dubai-ruud-air-condition-maintenance-in-dubai-ruud-air-condition-mainten/",
+        element: <RuudAcRepair />,
       },
       {
         path: "/project",

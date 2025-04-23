@@ -86,7 +86,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_48">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">SELECT FAJ EXPERTS FOR A TAILORED COOLING SOLUTION THAT FITS YOUR SPACE PERFECTLY!</h2>
+            <h2 className="cs_fs_30" style={{ fontSize: "25px" }}>SELECT FAJ EXPERTS FOR A TAILORED COOLING SOLUTION THAT FITS YOUR SPACE PERFECTLY!</h2>
             <p>
               FAJ Technical Services LLC is a top AC maintenance company in Dubai, offering reliable AC services tailored for the UAE's hot climate. Our trained professionals are dedicated to ensuring a comfortable environment for living, learning, working, and playing. If your air conditioning system fails, we are here to help. Trust FAJ for all your AC maintenance and repair needs in Dubai.
 
@@ -183,10 +183,10 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Weak Airflow</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Electrical Issues</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">If you notice reduced airflow coming from your vents, it could indicate a problem with your AC system, such as a clogged filter or malfunctioning fan.</p>
+                    <p className="p-2 mb-0">Tune-ups also help HVAC technicians identify electrical issues within the air conditioner, which could cause the entire unit to stop working.</p>
                   </div>
                 </div>
               </div>
@@ -194,10 +194,11 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Warm Air</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Thermostat Malfunction
+                    </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">If your AC blows warm or room temperature air instead of cold, it could indicate compressor, refrigerant, or ductwork issues.</p>
+                    <p className="p-2 mb-0">The thermostat controls AC temperature and efficiency. Technicians often spot thermostat issues during routine HVAC tune-ups.</p>
                   </div>
                 </div>
               </div>
@@ -205,10 +206,10 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Strange Noises</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Condenser Coil Issues</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Unusual sounds like grinding, squealing, or banging coming from your AC unit can indicate mechanical problems that require attention.</p>
+                    <p className="p-2 mb-0">The condenser coil removes heat from your home. If it has issues, your AC becomes less efficient and energy bills may rise.</p>
                   </div>
                 </div>
               </div>
@@ -216,10 +217,10 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Foul Odors</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Fan Motor Problems</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Musty or foul odors emanating from the vents could suggest mold or mildew growth within the system, which needs to be addressed quickly.</p>
+                    <p className="p-2 mb-0">The condenser fan motor circulates air in your AC system. Faults can reduce airflow, raise energy costs, or cause a full system breakdown.</p>
                   </div>
                 </div>
               </div>
@@ -230,7 +231,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
                     <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Frequent Cycling</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">It may signal difficulty maintaining desired temperatures due to issues like dirty filters, low refrigerant levels, or a faulty thermostat.</p>
+                    <p className="p-2 mb-0">It may signal difficulty maintaining desired temperatures due to issues like dirty filters, low refrigerant levels, or a faulty thermostat</p>
                   </div>
                 </div>
               </div>
@@ -238,10 +239,10 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">High Humidity Levels</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Increased Energy Bills</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">An air conditioner that fails to adequately reduce indoor humidity levels may indicate issues with its cooling capacity or improper operation.</p>
+                    <p className="p-2 mb-0">High energy bills without increase in usage could indicate the inefficiency of your AC due to dirty filters, duct leaks, or other problems.</p>
                   </div>
                 </div>
               </div>
@@ -249,10 +250,10 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Leaking Water</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Blower Fan Issue</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Water pooling around AC or dripping from vents could indicate blocked condensate drain, frozen coils, or other issues.</p>
+                    <p className="p-2 mb-0">A faulty blower fan results in little to no airflow, making your AC system inefficient and unable to cool properly.</p>
                   </div>
                 </div>
               </div>
@@ -260,10 +261,10 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Increased Energy Bills</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Strange Noises</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">High energy bills without increase in usage could indicate the inefficiency of your AC due to dirty filters, duct leaks, or other problems.</p>
+                    <p className="p-2 mb-0">Unusual sounds like grinding, squealing, or banging coming from your AC unit can indicate mechanical problems that require attention.</p>
                   </div>
                 </div>
               </div>
@@ -320,7 +321,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
         {/*Select FAJ for Quick Service, Efficienc  */}
         <section className="section cs_py_48 ">
           <div className="container">
-            <h3 className="cs_fs_30">Why Choose FAJ Technical Services LLC?</h3>
+            <h3 className="cs_fs_30">Why Choose F A J Technical Services L.L.C?</h3>
             <div className="row align-items-center">
               <div className="col-md-6">
                 <h4 className="cs_fs_18">We provide quick, efficient service and peace of mind</h4>
@@ -341,11 +342,11 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* We specialise in air conditioning maintenance services for the following brands.
+        {/* We specialise in AC  maintenance services for the following brands.
  */}
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-            <h3>We specialise in air conditioning maintenance services for the following brands.
+            <h3>We specialise in AC maintenance services for the following brands.
             </h3>
             <div className="row">
               <div className="col-12">

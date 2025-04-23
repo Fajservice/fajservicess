@@ -505,10 +505,10 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
         {/*Select FAJ for Quick Service, Efficienc  */}
         <section className="section cs_py_48 ">
           <div className="container">
-            <h3 className="cs_fs_30">Why Choose FAJ Technical Services LLC?</h3>
+            <h3 className="cs_fs_30">Why Choose F A J Technical Services L.L.C?</h3>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <h4 className="cs_fs_24">We provide quick, efficient service and peace of mind</h4>
+                <h4 className="cs_fs_18">We provide quick, efficient service and peace of mind</h4>
                 <ul className="acsvs-exp-spl-para tick-ul mb-0">
                   <li><b>We get the job done on time</b> thanks to our larger team and dedicated parts warehouse</li>
                   <li><b>All our AC technicians are fully qualified</b> and extensively trained by us to address all types of AC issues.</li>
@@ -529,7 +529,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
         {/* We specialise in air conditioning Repair services for the following brands */}
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-            <h3>We specialise in air conditioning Repair services for the following brands</h3>
+            <h3>We specialise in AC Repair services for the following brands</h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0">

@@ -99,6 +99,39 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* Experts AC Service and Maintenance */}
+        <section className="section cs_py_48 bg-light-gay pt-0">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-4">
+                <div className="green-box gradient-amc-bg">
+                  <h3 className="text-light">Protect an appliance</h3>
+                  <div className="green-text-box">
+                    <p className="text-light">Cover your home appliances – from fridges to washing machines, dishwashers to cookers and more.</p>
+                    <a href="" className="amc-box-button">Get a quick quote </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="purple-box gradient-amc-bg">
+                  <h3 className="text-light">Book an engineer</h3>
+                  <div className="green-text-box">
+                    <p className="text-light">Something need fixing? It’s easy to book repairs with Domestic & General, even if you don’t have a policy.</p>
+                    <a href="" className="amc-box-button">Book your repair</a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="cgreen-box gradient-amc-bg">
+                  <h3 className="text-light">Cover your plumbing</h3>
+                  <div className="green-text-box">
+                    <p className="text-light">Protect the pipes, drains, toilets and more in your home.</p>
+                    <a href="" className="amc-box-button">See plumbing cover</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
             <div className="row g-5">
@@ -284,10 +317,10 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
         {/*Select FAJ for Quick Service, Efficienc  */}
         <section className="section cs_py_48 ">
           <div className="container">
-            <h3 className="cs_fs_30">Why Choose FAJ Technical Services LLC?</h3>
+            <h3 className="cs_fs_30">Why Choose F A J Technical Services L.L.C?</h3>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <h4 className="cs_fs_24">We provide quick, efficient service and peace of mind</h4>
+                <h4 className="cs_fs_18">We provide quick, efficient service and peace of mind</h4>
                 <ul className="acsvs-exp-spl-para tick-ul mb-0">
                   <li><b>We get the job done on time</b> thanks to our larger team and dedicated parts warehouse</li>
                   <li><b>All our AC technicians are fully qualified</b> and extensively trained by us to address all types of AC issues.</li>

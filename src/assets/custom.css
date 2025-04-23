@@ -434,6 +434,65 @@ p a {
 }
 
 
+/* New section added in Appliances page */
+.usps {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 35px;
+  width: 100%;
+  justify-content: center;
+}
+.blue-border-2{
+  border: 2px solid #00334e;
+  border-radius: 15px;
+
+}
+
+.col-1, .col-2, .col-3 {
+  width: 30%;
+}
+
+.usps .uspcol {
+  margin-left: 40px;
+}
+
+.usps .uspitem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  background: #f7f8fa 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #186AA51A;
+  border: 1px solid var(--bg-dark-blue);
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+.usps .uspitem .uspicon {
+  background-color: var(--bg-dark-blue);
+  /* background: transparent linear-gradient(180deg, #40809f 0%, #53a1c1 100%) 0% 0% no-repeat padding-box; */
+  border: 1px solid var(--bg-dark-blue);
+  width: 78px;
+  height: 78px;
+  position: relative;
+  margin-left: -52px;
+  flex: 0 0 78px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.usps .uspitem h3 {
+  font-size: 15px;
+  color: var(--bg-dark-blue);
+  margin-bottom: 5px;
+  margin-top: 0;
+  font-weight: 400;
+}
+
 
 
 /* MEDIA SCREENS */
@@ -486,6 +545,16 @@ p a {
 
   .cs_fs_50 {
     font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .usps {
+      flex-direction: column;
+  }
+
+  .col-1, .col-2, .col-3 {
+      width: 80%;
   }
 }
 
@@ -545,7 +614,6 @@ p a {
 
 }
 
-
 @media screen and (max-width: 576px) {
 
   .cs_service_details h2,
@@ -559,4 +627,47 @@ p a {
     min-height: auto;
     max-height: 185px;
   }
+}
+
+.gradient-amc-bg{
+  padding: 24px;
+  border-radius: 5px;
+}
+.green-box {
+  background-image: linear-gradient(to right, #2FB806, #124E01);
+}
+.green-box a{
+  color: #124E01;
+}
+.purple-box {
+  background-image: linear-gradient(to right, #8b56e7, #3e0d97);
+}
+.purple-box a{
+  color: #3e0d97;
+}
+.cgreen-box {
+  background-image: linear-gradient(to right, #209fb6, #044652);
+}
+.cgreen-box a{
+  color: #044652;
+}
+.gradient-amc-bg h3 {
+  border-bottom: 1px dashed;
+  padding-bottom: 3rem;
+  margin-bottom: 1rem;
+}
+.gradient-amc-bg p {
+  min-height: 80px;
+}
+.gradient-amc-bg a.amc-box-button {
+  box-shadow: 0 8px 8px #0000001a;
+  min-height: 50px;
+  font-size: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-family: "Museo Sans", "Source Sans Pro", Arial, sans-serif;
 }
