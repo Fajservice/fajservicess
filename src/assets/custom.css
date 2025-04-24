@@ -485,21 +485,6 @@ p a {
   font-weight: 400;
 }
 
-.d-none-1199 {
-  display: block;
-}
-
-.d-none-1199 img {
-  margin-top: 30px;
-  max-width: 350px;
-  max-height: inherit !important;
-}
-
-@media screen and (min-width: 1200px) {
-  .d-none-1199 {
-    display: none !important;
-  }
-}
 
 /* APPLIANCES BENIFIT SECTION */
 .benifit-box-container {
@@ -546,6 +531,25 @@ p a {
 .cs_service_details .usps img {
   /* max-height: inherit !important; */
 }
+
+
+
+.d-none-1199 {
+  display: block;
+}
+
+.d-none-1199 img {
+  margin-top: 30px;
+  max-width: 350px;
+  max-height: inherit !important;
+}
+
+@media screen and (min-width: 1200px) {
+  .d-none-1199 {
+    display: none !important;
+  }
+}
+
 
 /* MEDIA SCREENS */
 @media screen and (min-width: 1200px) {
