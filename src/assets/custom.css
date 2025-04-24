@@ -531,7 +531,10 @@ p a {
 
 
 .cs_service_details img {
-  max-height: 310px !important;
+  max-height: 370px !important;
+  object-fit: cover;
+  width: 100%;;
+
 }
 
 .cs_service_details .usps img {
