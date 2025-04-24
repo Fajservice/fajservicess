@@ -17,7 +17,7 @@ const WhyChooseUS = () => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Reliable, Priority, and Quick</h3>
-                    <p>	You can count on efficient service! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
+                    <p>You can count on efficient service! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
                   </div>
                 </div>
 
@@ -27,7 +27,8 @@ const WhyChooseUS = () => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Confidence</h3>
-                    <p>With a maintenance contract, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
+                    <p>With <a href="#/ac-annual-maintenance-contract/">annual maintenance contract</a>, you get a full year of service, ensuring your AC runs smoothly and providing peace of mind.
+                    </p>
                   </div>
                 </div>
 
@@ -38,7 +39,8 @@ const WhyChooseUS = () => {
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive</p>
+                    <p>Choose a day and time for your AC repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive.
+                    </p>
                   </div>
                 </div>
 
@@ -59,7 +61,7 @@ const WhyChooseUS = () => {
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are experts in <a href="#/appliances-amc-service/">appliance repair</a> this is why most major brands trust us to handle their service and maintenance needs.</p>
+                    <p>We are experts in AC repair. This is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -69,7 +71,8 @@ const WhyChooseUS = () => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>The inspection fee covers diagnosis, transportation, and reinstallation for up to two appliances at same location in Dubai.</p>
+                    <p>The inspection fee covers diagnosis, transportation, and reinstallation for up to two AC units at same location in Dubai.
+                    </p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -78,7 +81,8 @@ const WhyChooseUS = () => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our skilled appliance technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
+                    <p>Our skilled AC technicians are highly trained, and we provide excellent service for a variety of major brands.
+                    </p>
                   </div>
                 </div>
               </div>
