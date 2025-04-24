@@ -80,6 +80,8 @@ import AftronAcRepair from "../Pages/AftronAcRepair";
 import PanasonicAcRepair from "../Pages/PanasonicAcRepair";
 import WhirlpoolAcRepair from "../Pages/WhirlpoolAcRepair";
 import SamsungAcRepair from "../Pages/SamsungAcRepair";
+import McquayAcRepair from "../Pages/McquayAcRepair";
+import NikaiAcRepair from "../Pages/NikaiAcRepair";
 export const router = createHashRouter([
   {
     path: "/",
@@ -212,6 +214,14 @@ export const router = createHashRouter([
       {
         path: "/samsung-ac-repair-in-dubai/",
         element: <SamsungAcRepair />
+      },
+      {
+        path: "/mcquay-ac-repair-in-dubai-mcquay-ac-maintenance-in-dubai-mcquay-ac-fix-in-dubai-mcquay-ac-service-in-dubai-mcquay-air-condition-repair-in-dubai-mcquay-air-condition-maintenance-in-dubai-mcquay-air-con/",
+        element: <McquayAcRepair />
+      },
+      {
+        path: "/nikai-ac-repair-in-dubai-nikai-ac-maintenance-in-dubai-nikai-ac-fix-in-dubai-nikai-ac-service-in-dubai-nikai-air-condition-repair-in-dubai-nikai-air-condition-maintenance-in-dubai-nikai-air-condition/",
+        element: <NikaiAcRepair />
       },
       {
         path: "/project",

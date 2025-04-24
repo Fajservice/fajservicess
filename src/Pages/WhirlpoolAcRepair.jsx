@@ -1,5 +1,5 @@
 import BreadCumb from "../Components/Common/BreadCumb";
-import WhirpoolAcRepairDetail from "../Components/ServiceDetails/WhirpoolAcRepairDetail.jsx";
+import WhirpoolAcRepairDetail from "../Components/ServiceDetails/WhirpoolAcRepairDetail";
 
 const WhirpoolAcRepair = () => {
     return (

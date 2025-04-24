@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../Data/SamsungAcRepairfaq.json';
+import data from '../../Data/NikaiAcRepairfaq.json';
 import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
@@ -8,11 +8,11 @@ import CallNowButton from '../Buttons/CallNowButton';
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
 import QuickGuide from "../QuickGuide/QuickGuide";
-import testimonial_data_Super_General from '../../Data/SamsungAcServiceTestimonials.json';
+import testimonial_data_Super_General from '../../Data/NikaiAcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";
 
-const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
+const NikaiAcRepair = ({ subtitle, title, bgImg }) => {
   subtitle="Testimonial"
   title="What our clients say <br> About Us"
   bgImg="/img/testimonialbg.jpg"
@@ -65,8 +65,8 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Samsung AC Repair in Dubai - Air Conditioner Service Near</title>
-        <meta name="description" content="Get expert Samsung AC repair in Dubai. Get FAJ experts an 043300002 for central, VRF, split (AC) air conditioner maintenance and cleaning service near by you."/>
+        <title>Nikai AC Repair in Dubai - Air Conditioner Maintenance</title>
+        <meta name="description" content="We can also provide ongoing maintenance and on-demand Nikai AC repair in Dubai and AC (Air Conditioner) services near me. Call 043300002"/>
       </HelmetProvider>
 
       <div className="cs_service_details">
@@ -76,7 +76,7 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
             <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
             <p>F A J Technical Services L.L.C is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
               <br />
-              Our skilled AC technicians can handle all types and models of Samsung air conditioning units, ensuring your home or business stays cool and comfortable.</p>
+              Our skilled AC technicians can handle all types and models of Nikai air conditioning units, ensuring your home or business stays cool and comfortable.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -92,14 +92,14 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
             <div className="container">
                 <div className="row g-5">
                     <div className="col-md-6">
-                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Samsung Ac Repair" />
-                        <h3 className="cs_fs_25 mb-1 mt-3">Best Samsung AC Repair in Dubai</h3>
-                        <p>When it comes to Samsung <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Dubai, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
-                        <p>We specialize in Samsung air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
+                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Nikai Ac Repair" />
+                        <h3 className="cs_fs_25 mb-1 mt-3">Best Nikai AC Repair in Dubai</h3>
+                        <p>When it comes to Nikai <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Dubai, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
+                        <p>We specialize in Nikai air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                     </div>
 
                     <div className="col-md-6 border-small-left">
-                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Samsung Ac Repair" />
+                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Nikai Ac Repair" />
                         <h3 className="cs_fs_24 mb-1 mt-3">Signs You Need An AC Service</h3>
                         <p>If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                         <ul>
@@ -130,15 +130,14 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-          <h3 className="cs_fs_30">Worry-Free Samsung AC Maintenance in Dubai</h3>
+          <h3 className="cs_fs_30">Nikai Air Con Service Quality Workmanship </h3>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <p>A malfunctioning air conditioning system can cause discomfort and inconvenience. In our daily lives, we all desire purified, fresh, cool air because we know it keeps us active and comfortable while performing our day-to-day tasks. Routine preventive air conditioning maintenance and regularly scheduled servicing optimize the accuracy and efficiency of your AC.<br />Preventive maintenance is the best way to reduce or avoid any possibility of equipment failure. To enhance and improve the reliability of your Samsung air conditioner, a hassle-free comprehensive service is essential.</p>
-                <h3 className="cs_fs_20">Samsung AC Repair Services Tailored to Your Needs</h3>
-                <p>Experience seamless cooling with our comprehensive Samsung AC repair solutions, covering both Split and HVAC systems. From diagnostics to swift fixes, we're your trusted partners in maintaining optimal indoor climate control.</p>
+                
+                <p>FAJ is working consistently since 2010 to make its customers satisfied and comfortable. Getting the best Nikai ac repair service in Dubai is not easy especially when you are in urgent need. Our superior workmanship is what makes us different from others. In the need of immediate help, we are present and we provide unbeatable service to our customers. With our regular maintenance service keep your Nikai air con running smoothly and swiftly. <br />Breathing fresh air is the right of everyone. Getting top-quality fresh air requires the best air con. Nikai can provide healthy air to its buyers. In Dubai, Nikai is the leading brand. So, if you have Nikai air conditioning at your home or office and looking for its repairs. Why not look for a top-quality service provider for a top ac brand? <br />F A J Technical Services L.L.C is a top-notch company providing mind-blowing Nikai ac repair in Dubai. We understand the necessity of properly functioning air. Our team of experienced technicians ensures to provide optimal performance of Nikai air con and an enjoyable indoor environment all year round.</p>
               </div>
               <div className="col-md-6 text-center text-md-end">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-service.jpg`} alt="Samsung Ac Repair" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-service.jpg`} alt="Nikai Ac Repair" />
                 
               </div>
             </div>
@@ -251,23 +250,23 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row">
                 <div className="col-md-6">
-                    <h3 className="cs_fs_24 text-light">Samsung VRF Error Codes</h3>
-                    <p>Like all other air condition brands, Samsung VRF A/c also has error codes and quick fixing is considered ideal and affordable. E101-E120, E121-E150, E151-E200, E201-E209, E210-E220, E221-E400, E401-E550, E551-E600, E601-E650, E652, E700, E701-E800. These and several other VRF error codes indicate that your Samsung Ac is demanding repairs, maintenance, and fixing them. The digital screen of vrf shows these errors and you can immediately opt for help. Instead of trying to fix it on your own, better to ask a professional and experienced team.</p>
+                    <h3 className="cs_fs_24 text-light">Exceptional Repairing Of Nikai Centralized Air Conditioning (Air Con)</h3>
+                    <p>To provide more comfort to you, potential and timely repair is indispensable. After proper repair, your air con offers great cooling performance. Regular maintenance of your centralized ac extends its lifetime and improves functions. Not many offer Nikai ac repair in Dubai. However, FAJ is unique and experienced in providing exceptional service, maintenance, and fixing of your aircon. Get instant access to a potentially trained, highly skilled professional for optimal and fast air condition repairing.</p>
                 </div>
                 <div className="col-md-6">
-                    <h3 className="cs_fs_24 text-light">Samsung Ducted Air Conditioning</h3>
-                    <p>Samsung Ducted Air Conditioning offers a compact and efficient cooling solution ideal for small spaces. Similarly, Samsung ceiling air conditioners are well-suited for apartments, homes, and offices. Regular preventive maintenance is essential to prolong their lifespan. However, if any repairs are needed, quick action is crucial to save both time and money. When it comes to Samsung duct AC repair services, it's important to rely on experienced and specialized professionals such as FAJ Technical Services L.L.C to ensure the job is done right.</p>    
+                    <h3 className="cs_fs_24 text-light">Cost Effective VRV Installation And Operation (Nikai Aircon) AC</h3>
+                    <p>VRF Nikai air conditioning is called ideal for small and large spaces. It is the most advanced air system worldwide and popular as well. It is significantly equipped with modern technology and, results in energy efficiency. To install this Nikai VRF ac an exceptionally trained team is required. To get the advantage of better comfort and a sustainable cooled environment accurate installation and operation is a key.</p>    
                 </div>
             </div>
           </div>
         </section>
         <section className="section cs_py_48">
           <div className="container">
-          <h3 className="cs_fs_30">Get A Full Fledged Expert Service Of Samsung HVAC</h3>
+          <h3 className="cs_fs_30">Get A Full Fledged Expert Service Of Nikai HVAC</h3>
           <p>While modern HVAC systems are manufactured to deliver year-long service. However, issues with air condition can and will arise. Here are some common problems which are faced by several homeowners, businesses, etc.</p>
             <div className="row align-items-center">
                 <div className="col-xl-6">
-                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/toshiba-ac-repair.jpg`} alt="Samsung Ac Repair" />
+                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/toshiba-ac-repair.jpg`} alt="Nikai Ac Repair" />
                 </div>
                 <div className="col-xl-6">
                  
@@ -275,12 +274,12 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
-                      <span><strong>Blown Is Fused:</strong> One reason your Samsung HVAC is not functioning is because of blown fuses. Fuses are mainly designed to protect the compressor and unit’s motor or ac engine from overheating. Due to that, the breaker gets flipped off which indicates a huge problem with your HVAC air con.</span>
+                      <span><strong>Blown Is Fused:</strong> One reason your Nikai HVAC is not functioning is because of blown fuses. Fuses are mainly designed to protect the compressor and unit’s motor or ac engine from overheating. Due to that, the breaker gets flipped off which indicates a huge problem with your HVAC air con.</span>
                     </li>
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i></span>
-                      <span><strong>Unclean Air Filters:</strong> Dirty ac filters make your Samsung HVAC aircon to under-perform and eventually freeze. Air filters must be regularly changed otherwise, airflow can be decreased significantly. For exceptional services, FAJ is available on the other side of a single call. Don’t let your air condition issues disturb your comfort and your important work. Let us keep your air conditioning in optimal condition, and make sure you and your loved ones enjoy cool and fresh air.</span>
+                      <span><strong>Unclean Air Filters:</strong> Dirty ac filters make your Nikai HVAC aircon to under-perform and eventually freeze. Air filters must be regularly changed otherwise, airflow can be decreased significantly. For exceptional services, FAJ is available on the other side of a single call. Don’t let your air condition issues disturb your comfort and your important work. Let us keep your air conditioning in optimal condition, and make sure you and your loved ones enjoy cool and fresh air.</span>
                     </li>
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
@@ -378,7 +377,7 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
         </section> 
          {/* testimobial section */}
           <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative" data-background={`${import.meta.env.BASE_URL}${bgImg}`}>
-            <div className="cs_height_80 cs_height_Samsung_80"></div>
+            <div className="cs_height_80 cs_height_Nikai_80"></div>
             <div className="container">
               <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
                 <h3 className="cs_section_subtitle cs_fs_18 text-black cs_semibold text-uppercase cs_mb_12 wow fadeInDown">
@@ -427,7 +426,7 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
                 </div>
               </div>
             </div>
-            <div className="cs_height_80 cs_height_Samsung_80"></div>
+            <div className="cs_height_80 cs_height_Nikai_80"></div>
           </section>
 
         <div className="section cs_py_48  bg-dark-blue text-light">
@@ -471,4 +470,4 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
   );
 };
 
-export default SamsungAcRepair;
+export default NikaiAcRepair;
