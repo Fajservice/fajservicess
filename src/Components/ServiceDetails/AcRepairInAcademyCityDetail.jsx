@@ -9,6 +9,7 @@ import CallNowButton from "../Buttons/CallNowButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import FAJACPrice from "../Miscellaneous/FAJACPrice";
 import QuickGuide from "../QuickGuide/QuickGuide";
+import HeaderForm from "../Headeform/HeaderForm";
 
 const AcRepairInAcademyCityDetail = () => {
     const accordionContentRef = useRef(null);
@@ -34,7 +35,7 @@ const AcRepairInAcademyCityDetail = () => {
         <title>AC Service In Academy City - AC Regas - Fix AC Errors Dubai</title>
         <meta name="description" content="Get AC Services in Academy City Dubai. FAJ is here to help you with air conditioner repair near me & ceiling, HVAC maintenance company near me"></meta>
     </HelmetProvider>
-
+    <HeaderForm />
     <div className="cs_service_details">
         {/* The FAJ experts can help you make your home or place of business more comfortable */}
         <section className="section cs_py_48">
