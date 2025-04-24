@@ -7,7 +7,7 @@ import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import CallNowButton from '../Buttons/CallNowButton';
 import GetQuoteButton from "../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
-import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
+import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
 import testimonial_data from '../../Data/AcServiceTestimonials.json';
@@ -99,6 +99,9 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
             {/*  */}
           </div>
         </section>
+
+        {/* Maintenance Contract */}
+        <MaintenanceContract/>
 
         {/* Best Home Appliance Service Center */}
         <section className="section cs_py_48 bg-light-gray">
