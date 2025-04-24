@@ -103,12 +103,6 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
             {/*  */}
           </div>
         </section>
-
-        {/* Maintenance Contract */}
-        <MaintenanceContract/>
-
-
-
         {/* Select Air Conditioner Repair & Service */}
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
