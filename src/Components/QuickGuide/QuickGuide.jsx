@@ -24,7 +24,7 @@ const QuickGuide = () => {
                             This knowledge will help you ensure that the professionals you hire are performing the appropriate checks and maintenance.</p>
                         <p><strong>We specialize in:</strong></p>
                         <div className="row">
-                            <div className="col">
+                            <div className="col-sm-6">
                                 <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
                                     <li>
                                         <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
@@ -49,7 +49,7 @@ const QuickGuide = () => {
                                 </ul>
                             </div>
 
-                            <div className="col">
+                            <div className="col-sm-6">
                                 <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
                                     <li>
                                         <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">

@@ -9,6 +9,7 @@ import GetQuoteButton from "../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
 import QuickGuide from "../QuickGuide/QuickGuide";
+import ACWhyChooseUs from "../WhyChooseUS/ACWhyChooseUs";
 
 import Slider from "react-slick";
 import testimonial_data from '../../Data/AcServiceTestimonials.json';
@@ -196,7 +197,7 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
 
                   <li> <strong>Improved Air Quality:</strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
 
-                  <li> <strong>Prevention of Breakdowns:</strong> Proactive maintenance catches minor issues early, preventing costly repairs and unexpected AC failures</li>
+                  {/* <li> <strong>Prevention of Breakdowns:</strong> Proactive maintenance catches minor issues early, preventing costly repairs and unexpected AC failures</li> */}
 
                   <li> <strong> Enhanced Comfort:</strong> Regular servicing of your AC system ensures consistent temperatures, which is vital for comfort in hot climates. In a city like Dubai, investing in AC maintenance is essential for both comfort and efficiency in daily life.</li>
 
@@ -338,97 +339,10 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
           </div>
         </section> */}
 
-        {/* Select Us for Reliable, Excellent Service That Is Tailored to Your Needs! */}
-        <section className="section cs_py_48">
-          <div className="container container-md container-sm">
-            <h2 className="my-3 why-choose-h2 text-center mb-3">Select Us for Reliable, Excellent Service That Is Tailored to Your Needs!</h2>
 
-            <div className="usps align-items-center	">
-              {/* <!-- First Column --> */}
-              <div className="uspcol col-1">
-                <div className="uspitem">
-                  <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}/img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
-
-                  </div>
-                  <div className="usptext">
-                    <h3 className="">Reliable, Priority, and Quick</h3>
-                    <p>	You can count on efficient service! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
-                  </div>
-                </div>
-
-                <div className="uspitem">
-                  <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}/img/icons/experts.png`} alt="We Are Experts" />
-                  </div>
-                  <div className="usptext">
-                    <h3 className="">Confidence</h3>
-                    <p>With a maintenance contract, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
-                  </div>
-                </div>
-
-
-                <div className="uspitem mb-0">
-                  <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}/img/icons/full-control.webp`} alt="FAJ icon service" />
-                  </div>
-                  <div className="usptext">
-                    <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive</p>
-                  </div>
-                </div>
-
-              </div>
-
-              {/* <!-- Delimit Section --> */}
-              <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}/img/fajteam-1.jpg`} alt="FAJ icon service" />
-              </div>
-
-              {/* <!-- Second Column --> */}
-              <div className="uspcol col-3">
-                <div className="uspitem">
-                  <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}/img/icons/value.png`} alt="FAJ icon service" />
-                  </div>
-                  <div className="usptext">
-                    <h3 className="">We Are Experts</h3>
-                    <p>We are experts in <a href="#/appliances-amc-service/">appliance repair</a> this is why most major brands trust us to handle their service and maintenance needs.</p>
-                  </div>
-                </div>
-                <div className="uspitem">
-                  <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}/img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
-
-                  </div>
-                  <div className="usptext">
-                    <h3 className="">Great Value</h3>
-                    <p>The inspection fee covers diagnosis, transportation, and reinstallation for up to two appliances at same location in Dubai.</p>
-                  </div>
-                </div>
-                <div className="uspitem mb-0">
-                  <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}/img/icons/trustworthy.png`} alt="FAJ icon service" />
-                  </div>
-                  <div className="usptext">
-                    <h3 className="">Trustworthy</h3>
-                    <p>Our skilled appliance technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
-                  </div>
-                </div>
-              </div>
-
-
-              {/* <!-- Delimit mobile --> */}
-              <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}/img/fajteam.jpg`} alt="FAJ icon service" />
-
-
-              </div>
-
-            </div>
-
-          </div>
-        </section>
+        {/* Why choose us AC */}
+        <ACWhyChooseUs/>
+        
 
         {/* We specialise in air conditioning services for the following brands */}
         <section className="section cs_py_48 bg-light-gray">
