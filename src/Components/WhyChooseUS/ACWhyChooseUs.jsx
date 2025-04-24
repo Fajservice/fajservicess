@@ -5,8 +5,7 @@ const WhyChooseUS = () => {
   
         <section className="section cs_py_48">
           <div className="container container-md container-sm">
-            <h2 className="my-3 why-choose-h2 text-center mb-3">Select Us for Reliable, Excellent Service That Is Tailored to Your Needs!</h2>
-
+            <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR SPECIFIC NEEDS!</h2>
             <div className="usps align-items-center	">
               {/* <!-- First Column --> */}
               <div className="uspcol col-1">

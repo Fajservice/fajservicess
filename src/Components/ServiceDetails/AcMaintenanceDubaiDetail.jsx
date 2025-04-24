@@ -9,6 +9,8 @@ import GetQuoteButton from "../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
 import QuickGuide from "../QuickGuide/QuickGuide";
+import ACWhyChooseUs from "../WhyChooseUS/ACWhyChooseUs";
+import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
 import testimonial_data from '../../Data/AcServiceTestimonials.json';
@@ -319,7 +321,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
         <BenefitAcMaintenance />
 
         {/*Select FAJ for Quick Service, Efficienc  */}
-        <section className="section cs_py_48 ">
+        {/* <section className="section cs_py_48 ">
           <div className="container">
             <h3 className="cs_fs_30">Why Choose F A J Technical Services L.L.C?</h3>
             <div className="row align-items-center">
@@ -340,7 +342,9 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
+        
+        <ACWhyChooseUs/>
 
         {/* We specialise in AC  maintenance services for the following brands.
  */}

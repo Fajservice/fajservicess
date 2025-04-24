@@ -722,7 +722,7 @@ p a {
 
 .gradient-amc-bg h3 {
   border-bottom: 1px dashed;
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -741,6 +741,8 @@ p a {
   align-items: center;
   font-weight: 600;
   font-family: "Museo Sans", "Source Sans Pro", Arial, sans-serif;
+  text-transform: capitalize;
+  text-align: center;
 }
 
 .cs_service_details .usps .why-choose-img {
