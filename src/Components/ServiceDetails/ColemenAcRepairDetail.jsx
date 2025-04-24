@@ -74,7 +74,7 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
-            <p>FAJ Technical Services LLC is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
+            <p>F A J Technical Services L.L.C is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
               <br />
               Our skilled AC technicians can handle all types and models of Coleman air conditioning units, ensuring your home or business stays cool and comfortable.</p>
 
@@ -161,7 +161,7 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
         </section> 
         <section className="section cs_py_48 bg-dark-blue text-light">
           <div className="container">
-            <h3 className="cs_fs_30 text-light">Do Not Settle For Coleman Air Con Service, Call FAJ Technical Services LLC</h3>
+            <h3 className="cs_fs_30 text-light">Do Not Settle For Coleman Air Con Service, Call F A J Technical Services L.L.C</h3>
             <p>We have discussed in detail, what happens when you get the wrong installation of your air conditioner. To make things settle again, likely can cause you more than you think. Therefore, always choose the right and well-reputed company to get your air conditioning installed for the first time. Do not settle for the below quality, contact us today to get the best and unbeatable results. We are tech-savvy and remain updated with cutting-edge technology. In air conditioning technology, several advancements have taken place in recent years. We have a professional, experienced, and well-trained team that does exactly the unmatched work. Instead of trying to fix your air con issues on your own, ask FAJ to assist you. We provide all kinds of services, from routine maintenance to quick fixes of problems, repairing any component promptly and accurately. Our professionals take confidence to provide exceptional Coleman AC Repair in dubai.</p>
             <h3 className="cs_fs_30 text-light">False Installation Raises Humidity</h3>
             <p>Have you ever noticed that when you turn your inverter to get some cool, soft air so your sweating gets removed? And you enjoy the sweet cool air with your loved ones. However, instead of this reverse happens and your Coleman air conditioning system throws humid air. The major reason behind this scenario is the wrong installation of your central Ac. One drawback is the poor installation of air con which leads to several other disadvantages such as air filters easily getting clogged with dirt. Hampers the function of evaporated coils and steadily increases humidity. Thus, you experience more humid air than cool airflow. Humidity becomes a significant way for the growth of molds and mildews.</p>    
