@@ -9,6 +9,7 @@ import GetQuoteButton from "../Buttons/GetQuoteButton";
 import CallNowButton from "../Buttons/CallNowButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import QuickGuide from "../QuickGuide/QuickGuide";
+import HeaderForm from "../Headeform/HeaderForm";
 
 
 const AcRepairInRitzDetail = () => {
@@ -35,10 +36,10 @@ const AcRepairInRitzDetail = () => {
                 <title>FAJ / AC Repair Dubai - AC Service in The Ritz Carlton DIFC</title>
                 <meta name="description" content="FAJ Established in 2010, / We offer professional AC Repair, Freezer, Refrigerator, Fridge, Washing Machine Maintenance Service Company Dubai"></meta>
             </HelmetProvider>
-
             <div className="cs_service_details">
+                <HeaderForm />
                 {/* The FAJ experts can help you make your home or place of business more comfortable */}
-                <section className="section cs_py_48">
+                <section className="section cs_py_48 ">
                     <div className="container">
                         {/* <img src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
                         <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE </h2>
