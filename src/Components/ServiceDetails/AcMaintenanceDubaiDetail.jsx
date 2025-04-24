@@ -299,7 +299,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-xl-6">
-                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_0">
+                <ul className="cs_list cs_style_ cs_fs_16 Xcs_mp_0">
                       <li> <b>Change the Air Filter Regularly:</b> A dirty filter restricts airflow and decreases efficiency. Replace it every 1 to 3 months, depending on how often you use your system. </li>
 
                       <li> <b>Clean the Coils:</b> Annually clean the condenser and evaporator coils to remove dirt and debris that can hinder performance. </li>
