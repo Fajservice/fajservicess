@@ -9,6 +9,8 @@ import GetQuoteButton from "../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
 import QuickGuide from "../QuickGuide/QuickGuide";
+import ACWhyChooseUs from "../WhyChooseUS/ACWhyChooseUs";
+import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
 import testimonial_data from '../../Data/AcServiceTestimonials.json';
@@ -299,7 +301,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-xl-6">
-                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_0">
+                <ul className="cs_list cs_style_ cs_fs_16 Xcs_mp_0">
                       <li> <b>Change the Air Filter Regularly:</b> A dirty filter restricts airflow and decreases efficiency. Replace it every 1 to 3 months, depending on how often you use your system. </li>
 
                       <li> <b>Clean the Coils:</b> Annually clean the condenser and evaporator coils to remove dirt and debris that can hinder performance. </li>
@@ -319,7 +321,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
         <BenefitAcMaintenance />
 
         {/*Select FAJ for Quick Service, Efficienc  */}
-        <section className="section cs_py_48 ">
+        {/* <section className="section cs_py_48 ">
           <div className="container">
             <h3 className="cs_fs_30">Why Choose F A J Technical Services L.L.C?</h3>
             <div className="row align-items-center">
@@ -340,7 +342,9 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
+        
+        <ACWhyChooseUs/>
 
         {/* We specialise in AC  maintenance services for the following brands.
  */}
