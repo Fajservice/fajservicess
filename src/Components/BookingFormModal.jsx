@@ -125,7 +125,7 @@ const BookingFormModal = ({ isOpen, onClose }) => {
                   name="contactNumber"
                   value={formData.contactNumber}
                   onChange={handleChange}
-                  placeholder="01234 56789"
+                  placeholder="+971 1234 56789"
                   required
                   style={{
                     width: '100%',
@@ -146,7 +146,7 @@ const BookingFormModal = ({ isOpen, onClose }) => {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  placeholder="example@server.co.uk"
+                  placeholder="example@server.ae"
                   required
                   style={{
                     width: '100%',
