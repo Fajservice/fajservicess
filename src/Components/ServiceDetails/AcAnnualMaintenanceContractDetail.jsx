@@ -103,6 +103,9 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
             {/*  */}
           </div>
         </section>
+
+        {/* Maintenance Contract */}
+        <MaintenanceContract/>
         <MaintenanceContract/>
 
         {/* Select Air Conditioner Repair & Service */}
