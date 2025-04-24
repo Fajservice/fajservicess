@@ -9,7 +9,6 @@ import GetQuoteButton from "../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
 import QuickGuide from "../QuickGuide/QuickGuide"
-import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
 import ACWhychooseUs from "../WhyChooseUS/ACWhyChooseUs"
 
 import Slider from "react-slick";
