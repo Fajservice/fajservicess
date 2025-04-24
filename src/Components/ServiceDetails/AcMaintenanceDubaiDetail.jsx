@@ -88,7 +88,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30" style={{ fontSize: "25px" }}>SELECT FAJ EXPERTS FOR A TAILORED COOLING SOLUTION THAT FITS YOUR SPACE PERFECTLY!</h2>
             <p>
-              FAJ Technical Services LLC is a top AC maintenance company in Dubai, offering reliable AC services tailored for the UAE's hot climate. Our trained professionals are dedicated to ensuring a comfortable environment for living, learning, working, and playing. If your air conditioning system fails, we are here to help. Trust FAJ for all your AC maintenance and repair needs in Dubai.
+              F A J Technical Services L.L.C is a top AC maintenance company in Dubai, offering reliable AC services tailored for the UAE's hot climate. Our trained professionals are dedicated to ensuring a comfortable environment for living, learning, working, and playing. If your air conditioning system fails, we are here to help. Trust FAJ for all your AC maintenance and repair needs in Dubai.
 
             </p>
 
@@ -167,7 +167,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
                   <li> <strong>Extends Unit Life: </strong> Preventive maintenance increases the lifespan of your AC system, saving money in the long term. </li>
                   {/* <li> <strong>Keeps Indoor Air Quality Healthy: </strong> Clean filters and components reduce dust, allergens, and pollutants in your home. </li> */}
                 </ul>
-                {/* <p className="mb-0">Don’t compromise on comfort—contact a professional AC maintenance service in Dubai like FAJ Technical Services LLC before any major fault occurs.</p> */}
+                {/* <p className="mb-0">Don’t compromise on comfort—contact a professional AC maintenance service in Dubai like F A J Technical Services L.L.C before any major fault occurs.</p> */}
 
               </div>
             </div>

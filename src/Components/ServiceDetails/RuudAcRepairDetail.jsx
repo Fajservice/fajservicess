@@ -74,7 +74,7 @@ const RuudAcRepair = ({ subtitle, title, bgImg }) => {
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
-            <p>FAJ Technical Services LLC is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
+            <p>F A J Technical Services L.L.C is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
               <br />
               Our skilled AC technicians can handle all types and models of Ruud air conditioning units, ensuring your home or business stays cool and comfortable.</p>
 
@@ -262,7 +262,7 @@ const RuudAcRepair = ({ subtitle, title, bgImg }) => {
                 </div>
                 <div className="col-md-6">
                     <h3 className="cs_fs_24 text-light">Cost Effective VRV Installation And Operation (Ruud Aircon) AC</h3>
-                    <p>VRV Ruud air conditioning is called ideal for small and large spaces. It is the most advanced air system worldwide and popular as well. It is significantly equipped with modern technology and, results in energy efficiency. To install this Ruud VRV ac an exceptionally trained team is required. To get the advantage of better comfort and a sustainable cooled environment accurate installation and operation is a key.</p>    
+                    <p>VRF Ruud air conditioning is called ideal for small and large spaces. It is the most advanced air system worldwide and popular as well. It is significantly equipped with modern technology and, results in energy efficiency. To install this Ruud VRF ac an exceptionally trained team is required. To get the advantage of better comfort and a sustainable cooled environment accurate installation and operation is a key.</p>    
                 </div>
                 <div className="col-md-12">
                     <h3 className="cs_fs_24 text-light">Different Models Of Ruud Ducted Aircon</h3>

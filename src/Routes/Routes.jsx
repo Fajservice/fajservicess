@@ -72,6 +72,14 @@ import AcRepairinTheMeadows from "../Pages/AcRepairinTheMeadows";
 import AcRepairInJumeirahGolfEstates from "../Pages/AcRepairInJumeirahGolfEstates";
 import AcRepairInDubaiInternetCity from "../Pages/AcRepairInDubaiInternetCity";
 import AcRepairInAlBarshaSouth from "../Pages/AcRepairInAlBarshaSouth";
+import TraneAcRepair from "../Pages/TraneAcRepair";
+import SuperGeneralAcRepair from "../Pages/SuperGeneralAcRepair";
+import ToshibaAcRepair from "../Pages/ToshibaAcRepair";
+import LgAcRepair from "../Pages/LgAcRepair";
+import AftronAcRepair from "../Pages/AftronAcRepair";
+import PanasonicAcRepair from "../Pages/PanasonicAcRepair";
+import WhirlpoolAcRepair from "../Pages/WhirlpoolAcRepair";
+import SamsungAcRepair from "../Pages/SamsungAcRepair";
 export const router = createHashRouter([
   {
     path: "/",
@@ -93,7 +101,6 @@ export const router = createHashRouter([
         path: "/ac-service-in-dubai/",
         element: <AcServiceInDubai></AcServiceInDubai>,
       },
-      ,
       {
         path: "/ac-maintenance-dubai/",
         element: <AcMaintenanceDubai></AcMaintenanceDubai>,
@@ -106,13 +113,10 @@ export const router = createHashRouter([
         path: "/ac-repair-dubai/",
         element: <AcRepairDubai></AcRepairDubai>,
       },
-
       {
         path: "/appliances-repair-service/",
         element: <FreestandingHomeAppliancesRepairService></FreestandingHomeAppliancesRepairService>,
       },
-      
-
       {
         path: "/washing-machine-repair-service-dubai/",
         element: <WashingMachineRepairServiceDubai></WashingMachineRepairServiceDubai>,
@@ -176,6 +180,38 @@ export const router = createHashRouter([
       {
         path: "/ruud-ac-repair-in-dubai-ruud-ac-maintenance-in-dubai-ruud-ac-fix-in-dubai-ruud-ac-service-in-dubai-ruud-air-condition-repair-in-dubai-ruud-air-condition-maintenance-in-dubai-ruud-air-condition-mainten/",
         element: <RuudAcRepair />,
+      },
+      {
+        path: "/trane-ac-repair-in-dubai-trane-ac-maintenance-in-dubai-trane-ac-fix-in-dubai-trane-ac-service-in-dubai-trane-air-condition-repair-in-dubai-trane-air-condition-maintenance-in-dubai-trane-air-condition/",
+        element: <TraneAcRepair />,
+      },
+      {
+        path: "/super-general-ac-repair-in-dubai-super-general-ac-maintenance-in-dubai-super-general-ac-fix-in-dubai-super-general-ac-service-in-dubai-super-general-air-condition-repair-in-dubai-super-general-air-con/",
+        element: <SuperGeneralAcRepair />
+      },
+      {
+        path: "/toshiba-ac-repair-in-dubai-toshiba-ac-maintenance-in-dubai-toshiba-ac-fix-in-dubai-toshiba-ac-service-in-dubai-toshiba-air-condition-repair-in-dubai-toshiba-air-condition-maintenance-in-dubai-toshiba/",
+        element: <ToshibaAcRepair />
+      },
+      {
+        path: "/lg-ac-repair-in-dubai/",
+        element: <LgAcRepair />
+      },
+      {
+        path: "/aftron-ac-repair-maintenance-service-in-dubai-2/",
+        element: <AftronAcRepair />
+      },
+      {
+        path: "/panasonic-ac-repair-in-dubai-panasonic-ac-maintenance-in-dubai-panasonic-ac-fix-in-dubai-panasonic-ac-service-in-dubai-panasonic-air-condition-repair-in-dubai-panasonic-air-condition-maintenance-in-du/",
+        element: <PanasonicAcRepair />
+      },
+      {
+        path: "/whirlpool-air-condition-repair-in-dubai-ac-maintenance-in-dubai-air-conditioning-fix-repairs-service-in-dubai/",
+        element: <WhirlpoolAcRepair />
+      },
+      {
+        path: "/samsung-ac-repair-in-dubai/",
+        element: <SamsungAcRepair />
       },
       {
         path: "/project",

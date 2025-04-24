@@ -41,7 +41,7 @@ const AcRepairInLayanCommunityDetail = () => {
             <div className="container">
                 {/* <img src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
                 <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE </h2>
-                <p>FAJ Technical Services LLC is your top choice for AC services in Dubai. With over 15 years of experience, we provide trusted AC repair and maintenance in Dubai and Sharjah.<br></br>Our skilled AC technicians can handle all types, brands, and models of air conditioner units to keep your home or business cool and comfortable throughout the year.</p>
+                <p>F A J Technical Services L.L.C is your top choice for AC services in Dubai. With over 15 years of experience, we provide trusted AC repair and maintenance in Dubai and Sharjah.<br></br>Our skilled AC technicians can handle all types, brands, and models of air conditioner units to keep your home or business cool and comfortable throughout the year.</p>
 
                 <div id="get-quote" className=" mt-3">
                     <div className="container d-flex justify-content-center align-items-center">
@@ -224,10 +224,10 @@ const AcRepairInLayanCommunityDetail = () => {
 
         <BenefitAcMaintenance />
 
-        {/*Why Choose FAJ Technical Services LLC? */}
+        {/*Why Choose F A J Technical Services L.L.C? */}
         <section className="section cs_py_48 ">
             <div className="container">
-                <h3 className="cs_fs_30">Why Choose FAJ Technical Services LLC?</h3>
+                <h3 className="cs_fs_30">Why Choose F A J Technical Services L.L.C?</h3>
                 <div className="row align-items-center">
                     <div className="col-md-6">
                         <h4 className="cs_fs_24">We provide quick, efficient service and peace of mind</h4>

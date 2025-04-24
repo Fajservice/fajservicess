@@ -74,7 +74,7 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
-            <p>FAJ Technical Services LLC is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
+            <p>F A J Technical Services L.L.C is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
               <br />
               Our skilled AC technicians can handle all types and models of Midea air conditioning units, ensuring your home or business stays cool and comfortable.</p>
 
@@ -265,7 +265,7 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
                 </div>
                 <div className="col-md-6">
                     <h3 className="cs_fs_24 text-light">Time To Consult With a Professional</h3>
-                    <p>A quick, wise approach always delivers the optimal outcome. FAJ Technical Services LLC takes confidence in providing reputable, exceptional services to its customers. We are the number 1 Midea AC service supplier across Dubai. No matter where you are in Dubai, just a single call can immediately bring comfort to your home.</p>    
+                    <p>A quick, wise approach always delivers the optimal outcome. F A J Technical Services L.L.C takes confidence in providing reputable, exceptional services to its customers. We are the number 1 Midea AC service supplier across Dubai. No matter where you are in Dubai, just a single call can immediately bring comfort to your home.</p>    
                 </div>
                 <div className="col-md-12">
                     <p>Our experienced and well-trained team examines any fault with your midea air con and explains the problem of your aircon. Then, promptly and diligently fix all issues. For installation of any type of air conditioner call us and our professionals will install it right away. We believe in reliability and unbeatable work and FAJ can not compromise with it therefore, we have gained an immense reputation among residents of Dubai. And are first to go for help”. Instead of being worried just contact us and get hassle-free immediate services.</p>    
