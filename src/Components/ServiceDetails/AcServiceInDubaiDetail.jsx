@@ -419,13 +419,19 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
 
 
               {/* <!-- Delimit mobile --> */}
-              <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}/img/fajteam.jpg`} alt="FAJ icon service" />
+              {/* <div className="col-12 uspdelimit w-100 text-center d-block d-none-769 Xd-xl-none">
+                <img className="blue-border-2 w-100" src={`${import.meta.env.BASE_URL}/img/fajteam.jpg`} alt="FAJ icon service" />
+
+
+              </div> */}
+
+            </div>
+            {/* <!-- Delimit mobile --> */}
+            <div className="col-12 uspdelimit w-100 text-center d-block d-none-1199 Xd-xl-none">
+                <img className="blue-border-2 w-100" src={`${import.meta.env.BASE_URL}/img/fajteam.jpg`} alt="FAJ icon service" />
 
 
               </div>
-
-            </div>
 
           </div>
         </section>

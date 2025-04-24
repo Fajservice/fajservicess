@@ -386,23 +386,12 @@ a.btn-green-yellow:hover {
 
 }
 
-.call-now-btn:hover .call-icon {
-  /* content: url('../../public/img/icons/Call-Icon-hover.png'); */
-
-}
-
 .quote-now-btn .quote-icon {
   max-width: 150px;
   /* content: url('../../public/img/icons/quote-icon.png'); */
-
 }
 
 
-/* Remove the below without any code or commnted css */
-
-.quote-now-btn:hover .quote-icon {
-  /* content: url('../../public/img/icons/quote-icon-hover.png'); */
-}
 
 .whatsapp-now-btn .whatsapp-icon {
   max-width: 188px;
@@ -496,6 +485,22 @@ p a {
   font-weight: 400;
 }
 
+.d-none-1199 {
+  display: block;
+}
+
+.d-none-1199 img {
+  margin-top: 30px;
+  max-width: 350px;
+  max-height: inherit !important;
+}
+
+@media screen and (min-width: 1200px) {
+  .d-none-1199 {
+    display: none !important;
+  }
+}
+
 /* APPLIANCES BENIFIT SECTION */
 .benifit-box-container {
   background: #fff;
@@ -531,15 +536,17 @@ p a {
 
 
 .cs_service_details img {
+  /* max-height: 310px !important; */
   max-height: 370px !important;
   object-fit: cover;
-  width: 100%;;
+  width: 100%;
 
 }
 
 .cs_service_details .usps img {
   /* max-height: inherit !important; */
 }
+
 /* MEDIA SCREENS */
 @media screen and (min-width: 1200px) {
   .cs_nav .cs_nav_list ul {
@@ -574,6 +581,14 @@ p a {
     min-height: 210px;
     max-height: 210px;
   }
+
+  .col-1,
+  .col-2,
+  .col-3 {
+    width: 45%;
+  }
+
+
 }
 
 @media screen and (max-width: 991px) {
@@ -583,10 +598,6 @@ p a {
 
   }
 
-  /* .box-content-container{
-    min-height: 210px;
-    max-height: 210px;
-  } */
 
   .cs_fs_50 {
     font-size: 30px;
@@ -676,36 +687,45 @@ p a {
   }
 }
 
-.gradient-amc-bg{
+.gradient-amc-bg {
   padding: 24px;
   border-radius: 5px;
 }
+
 .green-box {
   background-image: linear-gradient(to right, #2FB806, #124E01);
 }
-.green-box a{
+
+.green-box a {
   color: #124E01;
 }
+
 .purple-box {
   background-image: linear-gradient(to right, #8b56e7, #3e0d97);
 }
-.purple-box a{
+
+.purple-box a {
   color: #3e0d97;
 }
+
 .cgreen-box {
   background-image: linear-gradient(to right, #209fb6, #044652);
 }
-.cgreen-box a{
+
+.cgreen-box a {
   color: #044652;
 }
+
 .gradient-amc-bg h3 {
   border-bottom: 1px dashed;
   padding-bottom: 3rem;
   margin-bottom: 1rem;
 }
+
 .gradient-amc-bg p {
   min-height: 80px;
 }
+
 .gradient-amc-bg a.amc-box-button {
   box-shadow: 0 8px 8px #0000001a;
   min-height: 50px;
@@ -719,14 +739,21 @@ p a {
   font-family: "Museo Sans", "Source Sans Pro", Arial, sans-serif;
 }
 
-.cs_service_details .usps .why-choose-img{
+.cs_service_details .usps .why-choose-img {
   max-height: 470px !important;
   object-fit: cover;
   object-position: top center;
 }
+
+.cs_service_details .usps .uspicon img {
+  max-height: inherit !important;
+  object-fit: contain !important;
+  width: auto !important;
+}
+
 @media screen and (max-width: 1400px) {
-  .cs_service_details .usps .why-choose-img{
+  .cs_service_details .usps .why-choose-img {
     max-height: 550px !important;
- 
-  }  
+
+  }
 }
