@@ -4,8 +4,8 @@ const MaintenanceContract = () => {
     return (
         <section className="section cs_py_48 bg-light-gay pt-0">
             <div className="container">
-                <div className="row justify-content-center">
-                    <div className="col-sm-6 col-md-4 mt-3">
+                <div className="row justify-content-center g-3">
+                    <div className="col-md-6 col-lg-4">
                         <div className="green-box gradient-amc-bg">
                             <h3 className="text-light cs_fs_24">Maintenance Contract <br />(Yearly)</h3>
                             <div className="green-text-box">
@@ -19,7 +19,7 @@ const MaintenanceContract = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-sm-6 col-md-4 mt-3">
+                    <div className="col-md-6 col-lg-4">
                         <div className="purple-box gradient-amc-bg">
                             <h3 className="text-light cs_fs_24">Maintenance Contract <br />(6 Months)</h3>
                             <div className="green-text-box">
@@ -33,7 +33,7 @@ const MaintenanceContract = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-sm-6 col-md-4 mt-3">
+                    <div className="col-md-6 col-lg-4">
                         <div className="cgreen-box gradient-amc-bg">
                             <h3 className="text-light cs_fs_24">Maintenance Contract <br />(3 Months)</h3>
                             <div className="green-text-box">
