@@ -105,28 +105,43 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
             <div className="row">
               <div className="col-md-4">
                 <div className="green-box gradient-amc-bg">
-                  <h3 className="text-light cs_fs_24">Protect an appliance</h3>
+                  <h3 className="text-light cs_fs_24">Maintenance Contract (Yearly)</h3>
                   <div className="green-text-box">
-                    <p className="text-light">Cover your home appliances – from fridges to washing machines, dishwashers to cookers and more.</p>
+                    <ul className="text-light">
+                      <li>Limited and Unlimited Callout Or Breakdown Attending</li>
+                      <li>2 and 3 Times PPM Services</li>
+                      <li>Included and Excluded Spare Parts / Materials</li>
+                      <li>With MEP and with MEP Services</li>
+                    </ul>
                     <a href="" className="amc-box-button">Get a quick quote </a>
                   </div>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="purple-box gradient-amc-bg">
-                  <h3 className="text-light cs_fs_24">Book an engineer</h3>
+                <h3 className="text-light cs_fs_24">Maintenance Contract (6 Months)</h3>
                   <div className="green-text-box">
-                    <p className="text-light">Something need fixing? It’s easy to book repairs with Domestic & General, even if you don’t have a policy.</p>
-                    <a href="" className="amc-box-button">Book your repair</a>
+                    <ul className="text-light">
+                      <li>Limited and Unlimited Callout Or Breakdown Attending</li>
+                      <li>1 and 2 Times PPM Services</li>
+                      <li>Included and Excluded Spare Parts / Materials</li>
+                      <li>With MEP and with MEP Services</li>
+                    </ul>
+                    <a href="" className="amc-box-button">Get a quick quote </a>
                   </div>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="cgreen-box gradient-amc-bg">
-                  <h3 className="text-light cs_fs_24">Cover your plumbing</h3>
+                  <h3 className="text-light cs_fs_24">Maintenance Contract (3 Months)</h3>
                   <div className="green-text-box">
-                    <p className="text-light">Protect the pipes, drains, toilets and more in your home.</p>
-                    <a href="" className="amc-box-button">See plumbing cover</a>
+                    <ul className="text-light">
+                      <li>Limited and Unlimited Callout Or Breakdown Attending</li>
+                      <li>1 Times PPM Services</li>
+                      <li>Included and Excluded Spare Parts / Materials</li>
+                      <li>With MEP and with MEP Services</li>
+                    </ul>
+                    <a href="" className="amc-box-button">Get a quick quote </a>
                   </div>
                 </div>
               </div>
