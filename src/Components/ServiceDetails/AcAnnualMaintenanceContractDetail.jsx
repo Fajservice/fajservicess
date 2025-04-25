@@ -9,6 +9,7 @@ import GetQuoteButton from "../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
 import QuickGuide from "../QuickGuide/QuickGuide"
+import ACWhychooseUs from "../WhyChooseUS/ACWhyChooseUs"
 
 import Slider from "react-slick";
 import testimonial_data from '../../Data/AcServiceTestimonials.json';
@@ -101,7 +102,6 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
             {/*  */}
           </div>
         </section>
-
         {/* Select Air Conditioner Repair & Service */}
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
@@ -282,6 +282,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
 
         {/* The Benefits Of Regular AC Service*/}
         <BenefitAcMaintenance />
+        <ACWhychooseUs/>
 
         {/* The Importance of AC Maintenance Contract Service*/}
         <section className="section cs_py_48 bg-light-gray">

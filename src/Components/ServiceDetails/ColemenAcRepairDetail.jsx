@@ -8,7 +8,8 @@ import CallNowButton from '../Buttons/CallNowButton';
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
 import QuickGuide from "../QuickGuide/QuickGuide";
-import testimonial_data_Coleman from '../../Data/ColemenAcServiceTestimonials.json';
+import ACWhyChooseUs from "../WhyChooseUS/ACWhyChooseUs";
+import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";import testimonial_data_Coleman from '../../Data/ColemenAcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";
 import HeaderForm from "../Headeform/HeaderForm";
@@ -87,6 +88,9 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
             {/*  */}
           </div>
         </section>
+
+        {/* Maintenance Contract */}
+        <MaintenanceContract/>
 
         {/* Experts AC Service and Maintenance */}
         <section className="section cs_py_48 bg-light-gray">

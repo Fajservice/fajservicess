@@ -9,7 +9,8 @@ import GetQuoteButton from "../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
 import QuickGuide from "../QuickGuide/QuickGuide";
-
+import ACWhyChooseUs from "../WhyChooseUS/ACWhyChooseUs";
+import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
 import Slider from "react-slick";
 import testimonial_data from '../../Data/AcServiceTestimonials.json';
 import loadBackgroudImages from "../Common/loadBackgroudImages";
@@ -100,6 +101,9 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
             {/*  */}
           </div>
         </section>
+
+        {/* Maintenance Contract */}
+        <MaintenanceContract/>
 
         {/* Refrigerator Repair & Service Nearby You */}
         <section className="section cs_py_48 bg-light-gray">

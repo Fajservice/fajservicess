@@ -7,7 +7,7 @@ import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import CallNowButton from '../Buttons/CallNowButton';
 import GetQuoteButton from "../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
-import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
+import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
 import testimonial_data from '../../Data/AcServiceTestimonials.json';
@@ -100,6 +100,9 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
             {/*  */}
           </div>
         </section>
+
+        {/* Maintenance Contract */}
+        <MaintenanceContract/>
 
         {/* Best Home Appliance Service Center */}
         <section className="section cs_py_48 bg-light-gray">
@@ -430,12 +433,9 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
                         <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                         </h4>
                         <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
-
                       </div>
-
                     </div>
                   </div>
-
                 </div>
             </div>
           </div>

@@ -105,11 +105,11 @@ section#get-quote {
 
 }
 
-.appointment-col.border-small-top {
+.border-small-top {
   position: relative;
 }
 
-.appointment-col.border-small-top::before {
+.border-small-top::before {
   content: "";
   position: absolute;
   top: 0;
@@ -657,7 +657,9 @@ p a {
   .appointment-col.border-small-top {
     border-top: 0 !important;
   }
-
+  .appointment-col.border-small-top::before{
+    display: none;
+  }
   .right-border-col.border-col-end {
     border-right: 0 !important;
   }
