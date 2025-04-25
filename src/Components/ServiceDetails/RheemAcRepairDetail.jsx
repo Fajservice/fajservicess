@@ -94,23 +94,33 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
         {/* Experts AC Service and Maintenance */}
         <section className="section cs_py_30 bg-light-gray">
             <div className="container">
-                <div className="row g-5">
+                <div className="row gx-md-5">
                     <div className="col-md-6">
-                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Rheem Ac Repair" />
-                        <h3 className="cs_fs_25 mb-1 mt-3">Best Rheem AC Repair in Dubai</h3>
-                        <p>When it comes to Rheem <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Dubai, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
+                        <h3 className="cs_fs_24 mb-1">Best Rheem AC Repair in Dubai</h3>
+                        <p className="mb-2">When it comes to Rheem <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Dubai, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
                         <p>We specialize in Rheem air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
-                    </div>
+                        <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
+                        <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                        <div className="row">
+                          <div className="col-sm-6">
+                            <ul className="mb-0">
+                              <li>Higher electricity bills </li>
+                              <li>Air is not blowing cold</li>
+                              <li>Drips from your air conditioner</li>
+                            </ul>
+                          </div>
+                          <div className="col-sm-6">
+                            <ul className="mb-0">
+                              <li>Loss of AC performance</li>
+                              <li>Poor AC airflow, making noises</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
 
-                    <div className="col-md-6 border-small-left">
-                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Rheem Ac Repair" />
-                        <h3 className="cs_fs_24 mb-1 mt-3">Signs You Need An AC Service</h3>
-                        <p>If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
-                        <ul>
-                            <li>Higher electricity bills / Loss of AC performance</li>
-                            <li>Air is not blowing cold / Poor AC airflow, making noises</li>
-                            <li>Drips from your air conditioner</li>
-                        </ul>
+                    <div className="col-md-6">
+                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/Experts-AC-Service-and-Maintenance.jpg`} alt="Rheem Ac Repair" />
+                        
                     </div>
                 </div>
 
@@ -132,13 +142,40 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
+        {/* Why is AC Maintenance Service Important in Dubai? */}
         <section className="section cs_py_30 bg-light-gray">
+          <div className="container">
+            <h3 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h3>
+            <p>
+              Regular air conditioner (AC) maintenance service in Dubai is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you, contact us.
+            </p>
+
+            <div className="row align-items-center">
+              <div className="col-md-6">
+                {/* <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/What-is-covered-in-an-AC-Maintenance-Contract.jpg`} alt="Post Image" />
+              </div>
+              <div className="col-md-6">
+                <ul className="mb-0">
+                    <li> <strong> Extreme Weather: </strong> Experiences high temperatures over 40°C (104°F) in summer. Regular maintenance keeps air conditioner systems efficient during these conditions.</li>
+
+                    <li> <strong> Energy Efficiency: </strong> A well-maintained AC unit operates more efficiently, using less energy and lowering both electricity bills.</li>
+
+                    <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend your air condition unit’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
+                    <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
+                    <li> <strong> Enhanced Comfort: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li> 
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* <section className="section cs_py_30 bg-light-gray">
           <div className="container">
           <h3 className="cs_fs_30">Rheem Air Con Service Quality Workmanship </h3>
             <div className="row align-items-center">
               <div className="col-md-6">
                 
-                <p>FAJ is working consistently since 2010 to make its customers satisfied and comfortable. Getting the best Rheem ac repair service in Dubai is not easy especially when you are in urgent need. Our superior workmanship is what makes us different from others. In the need of immediate help, we are present and we provide unbeatable service to our customers. With our regular maintenance service keep your Rheem air con running smoothly and swiftly. <br />Breathing fresh air is the right of everyone. Getting top-quality fresh air requires the best air con. Rheem can provide healthy air to its buyers. In Dubai, Rheem is the leading brand. So, if you have Rheem air conditioning at your home or office and looking for its repairs. Why not look for a top-quality service provider for a top ac brand? <br />F A J Technical Services L.L.C is a top-notch company providing mind-blowing Rheem ac repair in Dubai. We understand the necessity of properly functioning air. Our team of experienced technicians ensures to provide optimal performance of Rheem air con and an enjoyable indoor environment all year round.</p>
+                <p>FAJ is working consistently since 2010 to make its customers satisfied and comfortable. Getting the best Rheem ac repair service in Dubai is not easy especially when you are in urgent need. Our superior workmanship is what makes us different from others. In the need of immediate help, we are present and we provide unbeatable service to our customers. With our regular maintenance service keep your Rheem air con running smoothly and swiftly. <br />Breathing fresh air is the right of everyone. Getting top-quality fresh air requires the best air con. Rheem can provide healthy air to its buyers. In Dubai, Rheem is the leading brand. So, if you have Rheem air conditioning at your home or office and looking for its repairs. Why not look for a top-quality service provider for a top ac brand?</p>
               </div>
               <div className="col-md-6 text-center text-md-end">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/rheem-ac-repair-service.jpg`} alt="Rheem Ac Repair" />
@@ -147,7 +184,7 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
             </div>
 
           </div>
-        </section> 
+        </section>  */}
         {/* Common Signs Your AC May Need Maintenanc */}
         <section className="section cs_py_30">
             <div className="container">
