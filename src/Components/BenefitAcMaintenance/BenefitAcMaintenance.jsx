@@ -4,7 +4,7 @@ const BenefitAcMaintenance = () => {
   return (
     <>
     {/* Benefits Of Regular AC Service and Maintenance Dubai */}
-    <section className="section cs_py_48" style={{ backgroundColor: "#00334E", color: "white" }}>
+    <section className="section cs_py_30" style={{ backgroundColor: "#00334E", color: "white" }}>
     <div className="container">
         <div className="row justify-content-center">
             <div className="col-lg-10 text-center">

@@ -85,7 +85,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
 
       <div className="cs_service_details">
 
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30" style={{ fontSize: "25px" }}>SELECT FAJ EXPERTS FOR A TAILORED COOLING SOLUTION THAT FITS YOUR SPACE PERFECTLY!</h2>
@@ -107,7 +107,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
         <MaintenanceContract />
 
         {/* AC Maintenance for the Best Cooling*/}
-        <section className="section cs_py_48 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
@@ -149,7 +149,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
           <div className="container">
             <FAJACPrice></FAJACPrice>
           </div>
@@ -157,7 +157,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
 
 
         {/* Expert Air Conditioning Maintenance in Dubai to Keep You Cool */}
-        <section className="section cs_py_48 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="cs_fs_30">Why Do You Need Regular AC Maintenance in Dubai?</h3>
             <p>
@@ -185,7 +185,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* Common AC Problems That May Require Maintenance */}
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
           <div className="container">
             <h3 className="text-center">Common AC Problems That May Require Maintenance</h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -290,7 +290,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
 
         {/* Tips for Maintaining Your AC System */}
 
-        <section className="section cs_py_48 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="cs_fs_30">Tips for Maintaining Your AC System</h3>
             <p>Regular maintenance is crucial for preventing common AC issues and extending the lifespan of your system. Follow these tips to ensure your AC runs smoothly:</p>
@@ -334,7 +334,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
 
         {/* We specialise in AC  maintenance services for the following brands.
  */}
-        <section className="section cs_py_48 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3>We specialise in AC maintenance services for the following brands.
             </h3>
@@ -429,7 +429,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        <section className="section cs_py_48 bg-dark-blue text-light">
+        <section className="section cs_py_30 bg-dark-blue text-light">
           <div className="container text-center">
             <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
             <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers! </p>
@@ -446,7 +446,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* white section with AC image */}
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
           <div className="container text-center">
             <div className="row">
               <div className="col-lg-4">
@@ -479,7 +479,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* testimobial section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_48" data-background={`${import.meta.env.BASE_URL}${bgImg}`}>
+        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" data-background={`${import.meta.env.BASE_URL}${bgImg}`}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
@@ -533,7 +533,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* FAQ's */}
-        <section className="section cs_py_48  bg-dark-blue text-light">
+        <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ's</h3>
 
@@ -561,7 +561,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
           <Serviceappointemnt
             subtitle2="Contact us"
             title2="Book and Appointment"

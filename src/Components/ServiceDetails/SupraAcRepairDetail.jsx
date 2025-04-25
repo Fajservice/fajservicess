@@ -69,7 +69,7 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
       </HelmetProvider>
 
       <div className="cs_service_details">
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
           <div className="container">
             <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
             <p>F A J Technical Services L.L.C is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
@@ -89,7 +89,7 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
         <MaintenanceContract/>
 
         {/* Experts AC Service and Maintenance */}
-        <section className="section cs_py_48 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray">
             <div className="container">
                 <div className="row g-5">
                     <div className="col-md-6">
@@ -123,13 +123,13 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
             </div>
         </section>
 
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
           <div className="container">
             <FAJACPrice></FAJACPrice>
           </div>
         </section>
         {/* Common Signs Your AC May Need Maintenanc */}
-        <section className="section cs_py_48 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="text-center">Common Signs Your AC May Need Maintenance</h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -232,7 +232,7 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* A Quick Tour to Your AC Problems and Fixing*/}
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
             <div className="container">
                 <h3 className="cs_fs_30">A Quick Guide to Understanding and Fixing Your AC Problems</h3>
                 <div className="row">
@@ -303,7 +303,7 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
                 </div>
             </div>
         </section>
-        <section className="section cs_py_48 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
           <h3 className="cs_fs_30">Reasons My Supra Split Air Conditioner Is Failing To Turn On</h3>
             <div className="row align-items-center">
@@ -325,7 +325,7 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
           </div>
         </section> 
          
-        <section className="section cs_py_48 bg-dark-blue text-light">
+        <section className="section cs_py_30 bg-dark-blue text-light">
           <div className="container">
             <div className="row">
                 <div className="col-md-6">
@@ -341,7 +341,7 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
         </section>
 
         
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
           <div className="container">
           <h3 className="cs_fs_30">Our Services Include But Are Not Limited To the;</h3>
             <div className="row align-items-center">
@@ -402,7 +402,7 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
          {/* The Benefits Of Regular AC Service*/}
          <BenefitAcMaintenance />
          {/*Select FAJ for Quick Service, Efficienc  */}
-        <section className="section cs_py_48 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="cs_fs_30">Why Choose F A J Technical Services L.L.C?</h3>
             <div className="row align-items-center">
@@ -425,7 +425,7 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
        {/* Practical Tips to Improve Energy Efficiency */}
-       <section className="section cs_py_48 bg-dark-blue text-light">
+       <section className="section cs_py_30 bg-dark-blue text-light">
             <div className="container text-center">
                 <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
                 <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
@@ -442,7 +442,7 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* cooling */}
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
             <div className="container text-center">
                 <div className="row">
                     <div className="col-lg-4">
@@ -527,7 +527,7 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
           </section>
 
 
-        <div className="section cs_py_48  bg-dark-blue text-light">
+        <div className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ's</h3>
 
@@ -551,7 +551,7 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
             </div>
           </div>
         </div>
-        <div className="section cs_py_48">
+        <div className="section cs_py_30">
           <Serviceappointemnt
               subtitle2="Contact us"
               title2="Book and Appointment"

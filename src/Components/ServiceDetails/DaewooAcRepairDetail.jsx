@@ -71,7 +71,7 @@ const DaewooAcRepair = ({ subtitle, title, bgImg }) => {
       </HelmetProvider>
 
       <div className="cs_service_details">
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
@@ -92,7 +92,7 @@ const DaewooAcRepair = ({ subtitle, title, bgImg }) => {
         <MaintenanceContract/>
 
         {/* Experts AC Service and Maintenance */}
-        <section className="section cs_py_48 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray">
             <div className="container">
                 <div className="row g-5">
                     <div className="col-md-6">
@@ -126,13 +126,13 @@ const DaewooAcRepair = ({ subtitle, title, bgImg }) => {
             </div>
         </section>
 
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
           <div className="container">
             <FAJACPrice></FAJACPrice>
           </div>
         </section>
 
-        <section className="section cs_py_48 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
           <h3 className="cs_fs_30">Hassle-free Daewoo Split air conditioner (A/c) Maintenance</h3>
             <div className="row align-items-center">
@@ -149,7 +149,7 @@ const DaewooAcRepair = ({ subtitle, title, bgImg }) => {
           </div>
         </section> 
         {/* Common Signs Your AC May Need Maintenanc */}
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
             <div className="container">
                 <h3 className="text-center">Common AC Problems That May Require Maintenance
                 </h3>
@@ -251,7 +251,7 @@ const DaewooAcRepair = ({ subtitle, title, bgImg }) => {
         <QuickGuide />
 
         
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
           <div className="container">
           <h3 className="cs_fs_30">Daewoo Split Air Con Error Codes</h3>
           <p>Air conditioners are primarily designed to provide optimum, fast cooling. With time, these air cons require careful attention and help from expert technicians to keep working the way they should. These are some fault codes which must need a quick fix.</p>
@@ -298,7 +298,7 @@ const DaewooAcRepair = ({ subtitle, title, bgImg }) => {
           {/*Why Choose F A J Technical Services L.L.C? */}
           <ACWhyChooseUs/>
         {/* Practical Tips to Improve Energy Efficiency */}
-        <section className="section cs_py_48 bg-dark-blue text-light">
+        <section className="section cs_py_30 bg-dark-blue text-light">
             <div className="container text-center">
                 <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
                 <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
@@ -315,7 +315,7 @@ const DaewooAcRepair = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* cooling */}
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
             <div className="container text-center">
                 <div className="row">
                     <div className="col-lg-4">
@@ -399,7 +399,7 @@ const DaewooAcRepair = ({ subtitle, title, bgImg }) => {
             <div className="cs_height_80 cs_height_lg_80"></div>
           </section>
 
-        <div className="section cs_py_48  bg-dark-blue text-light">
+        <div className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ's</h3>
 
@@ -423,7 +423,7 @@ const DaewooAcRepair = ({ subtitle, title, bgImg }) => {
             </div>
           </div>
         </div>
-        <div className="section cs_py_48">
+        <div className="section cs_py_30">
           <Serviceappointemnt
               subtitle2="Contact us"
               title2="Book and Appointment"

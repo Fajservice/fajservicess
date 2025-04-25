@@ -83,7 +83,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
 
       <div className="cs_service_details">
 
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
@@ -106,7 +106,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
         <MaintenanceContract/>
 
         {/* Refrigerator Repair & Service Nearby You */}
-        <section className="section cs_py_48 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row g-5">
               <div className="col-md-6">
@@ -136,14 +136,14 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
           <div className="container">
             <FAJACPrice></FAJACPrice>
           </div>
         </section>
 
         {/* FAJ Expert Air Conditioning Repair for Homes & Businesses Places */}
-        {/* <section className="section cs_py_48">
+        {/* <section className="section cs_py_30">
           <div className="container">
             <h2 className="cs_fs_30">FAJ Expert Air Conditioning Repair for Homes & Businesses Places</h2>
             <p> <a href="https://www.google.com/maps/place/FAJ+Technical+Services+L.L.C+-+Warehouse+No+-+S-02+Gate+35+Street+18b+-+Al+Quoz+-+Al+Quoz+Industrial+Area+4+-+Dubai+-+United+Arab+Emirates/data=!4m2!3m1!1s0x3e5f699a600aceeb:0xa6121b25d557aa94?utm_source=mstt_1&entry=gps&lucs=47068615&g_ep=CAESCTExLjkxLjMwMhgAINeCAyoINDcwNjg2MTVCAlBL/">F A J Technical Services L.L.C</a> , an AC Repair Dubai Company, provides its clients most reliable Air Conditioning technical services in the region. According to the hot climate of UAE, Our Technical Services are designed to deliver you a comfortable environment that allows you to live, learn work, and play with peace of mind. When the temperature soars and you have air conditioner system faults, we are here to save your day. We have trained and professional technical teams to serve you. FAJ, AC Repair Dubai Service Company. </p>
@@ -157,7 +157,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
 
 
         {/*FAJ: Creating the Perfect Temperature All Year Round */}
-        <section className="section cs_py_48 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="cs_fs_30">5 Reasons Your AC Might Need Repairs This Summer </h3>
             <p>Air conditioning issues are quite common during the summer months. If you're experiencing AC issues this season, it's important to understand what might be happening with your system. Identifying the problem early can prevent it from worsening and ensure your place remains comfortable during the heat. </p>
@@ -184,7 +184,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* Common AC Problems That May Require Maintenance */}
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
           <div className="container">
             <h3 className="text-center">Common AC Problems That May Require Maintenance</h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -292,7 +292,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
         <BenefitAcMaintenance />
 
         {/*Select FAJ for Quick Service, Efficienc  */}
-        <section className="section cs_py_48 ">
+        <section className="section cs_py_30 ">
           <div className="container">
             <h3 className="cs_fs_30">Why Choose F A J Technical Services L.L.C?</h3>
             <div className="row align-items-center">
@@ -316,7 +316,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* We specialise in Refrigerator services for the following brands */}
-        <section className="section cs_py_48 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3>We specialise in Refrigerator services for the following brands</h3>
             <div className="row">
@@ -456,7 +456,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        <section className="section cs_py_48 bg-dark-blue text-light">
+        <section className="section cs_py_30 bg-dark-blue text-light">
           <div className="container text-center">
             <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
             <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
@@ -473,7 +473,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* white section with AC image */}
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
           <div className="container text-center">
             <div className="row">
               <div className="col-lg-4">
@@ -506,7 +506,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* testimobial section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_48" data-background={`${import.meta.env.BASE_URL}${bgImg}`}>
+        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" data-background={`${import.meta.env.BASE_URL}${bgImg}`}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
@@ -560,7 +560,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* FAQ's */}
-        <section className="section cs_py_48  bg-dark-blue text-light">
+        <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ's</h3>
 
@@ -588,7 +588,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
           <Serviceappointemnt
             subtitle2="Contact us"
             title2="Book and Appointment"

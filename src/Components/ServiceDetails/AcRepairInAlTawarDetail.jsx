@@ -39,7 +39,7 @@ const AcRepairInAlTawarDetail = () => {
     <HeaderForm />
     <div className="cs_service_details">
         {/* The FAJ experts can help you make your home or place of business more comfortable */}
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
             <div className="container">
                 {/* <img src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
                 <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE </h2>
@@ -58,7 +58,7 @@ const AcRepairInAlTawarDetail = () => {
         </section>
  {/* Maintenance Contract */}
         <MaintenanceContract/>
-        <section className="section cs_py_48 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray">
             <div className="container">
                 <div className="row g-5">
                     <div className="col-md-6">
@@ -92,13 +92,13 @@ const AcRepairInAlTawarDetail = () => {
             </div>
         </section>
         {/* How much does it cost Premier AC Cleaning Service, AC Repair and AC Maintenance? */}
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
             <div className="container">
                 <FAJACPrice />
             </div>
         </section>
         {/* Why is AC Maintenance Service Important in Dubai? */}
-        <section className="section cs_py_48 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray">
             <div className="container">
                 <h3 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h3>
                 <p>
@@ -126,7 +126,7 @@ const AcRepairInAlTawarDetail = () => {
         </section>
 
         {/* Common Signs Your AC May Need Maintenanc */}
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
             <div className="container">
                 <h3 className="text-center">Common AC Problems That May Require Maintenance
                 </h3>
@@ -233,7 +233,7 @@ const AcRepairInAlTawarDetail = () => {
         <ACWhyChooseUs/>
 
         {/* We specialise in air conditioning services for the following brands */}
-        <section className="section cs_py_48 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray">
             <div className="container">
                 <h3>We specialise in air conditioning services for the following brands</h3>
                 <div className="row">
@@ -329,7 +329,7 @@ const AcRepairInAlTawarDetail = () => {
             </div>
         </section>
         {/* Practical Tips to Improve Energy Efficiency */}
-        <section className="section cs_py_48 bg-dark-blue text-light">
+        <section className="section cs_py_30 bg-dark-blue text-light">
             <div className="container text-center">
                 <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
                 <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
@@ -346,7 +346,7 @@ const AcRepairInAlTawarDetail = () => {
         </section>
 
         {/* cooling */}
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
             <div className="container text-center">
                 <div className="row">
                     <div className="col-lg-4">
@@ -378,7 +378,7 @@ const AcRepairInAlTawarDetail = () => {
             </div>
         </section>
 
-        <div className="section cs_py_48 bg-dark-blue text-light">
+        <div className="section cs_py_30 bg-dark-blue text-light">
             <div className="container">
                 <div className="cs_accordians_wrapper cs_style_1 p-0">
 
@@ -401,7 +401,7 @@ const AcRepairInAlTawarDetail = () => {
             </div>
         </div>
 
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
             <Serviceappointemnt
                 subtitle2="Contact us"
                 title2="Book and Appointment"

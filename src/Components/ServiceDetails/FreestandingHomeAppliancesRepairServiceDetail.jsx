@@ -83,7 +83,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
 
       <div className="cs_service_details">
 
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTRE FOR SAME-DAY REPAIRS IN DUBAI</h2>
@@ -105,7 +105,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
         <MaintenanceContract/>
 
         {/* Best Home Appliance Service Center */}
-        <section className="section cs_py_48 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row g-5">
               <div className="col-md-6">
@@ -148,7 +148,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
           </div>
         </section>
 
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
           <div className="container">
             <FAJACPrice></FAJACPrice>
           </div>
@@ -156,7 +156,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
 
 
         {/* The Most Common Reasons for Appliance Breakdowns */}
-        <section className="section cs_py_48 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="cs_fs_30">The Most Common Reasons for Appliance Breakdowns</h3>
             <p>
@@ -191,7 +191,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
         </section>
 
         {/* The Most Common Problems with Home Appliances */}
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
           <div className="container">
             <h3 className="text-center">The Most Common Problems with Home Appliances   </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -298,7 +298,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
 
         {/* Appliances We Repair */}
 
-        <section className="section cs_py_48 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="cs_fs_30">Appliances We Repair</h3>
 
@@ -348,7 +348,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
         {/* The Benefits Of Regular AC Service*/}
         {/* <BenefitAcMaintenance /> */}
         {/* The Benefits Of appliances Service Dubai */}
-        <section className="section cs_py_48 appliances-benifit-sec">
+        <section className="section cs_py_30 appliances-benifit-sec">
           <div className="container">
             <div className="row justify-content-center">
             <h3 className="cs_fs_30 mb-3 mt-4">The Benefits Of appliances Service Dubai
@@ -444,7 +444,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
 
 
         {/* Select Us for Reliable, Excellent Service That Is Tailored to Your Needs! */}
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
           <div className="container container-md container-sm">
             <h2 className="my-3 why-choose-h2 text-center mb-3">Select Us for Reliable, Excellent Service That Is Tailored to Your Needs!</h2>
 
@@ -537,7 +537,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
 
         {/* We specialise in Appliances services for the following brands..
  */}
-        <section className="section cs_py_48 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3>We specialise in Appliances services for the following brands</h3>
             <div className="row">
@@ -781,7 +781,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
           </div>
         </section>
 
-        <section className="section cs_py_48 bg-dark-blue text-light">
+        <section className="section cs_py_30 bg-dark-blue text-light">
           <div className="container text-center">
             <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
             <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers! </p>
@@ -798,7 +798,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
         </section>
 
         {/* white section with AC image */}
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
           <div className="container text-center">
             <div className="row">
               <div className="col-lg-4">
@@ -831,7 +831,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
         </section>
 
         {/* testimobial section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_48" data-background={`${import.meta.env.BASE_URL}${bgImg}`}>
+        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" data-background={`${import.meta.env.BASE_URL}${bgImg}`}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
@@ -885,7 +885,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
         </section>
 
         {/* FAQ's */}
-        <section className="section cs_py_48  bg-dark-blue text-light">
+        <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ's</h3>
 
@@ -913,7 +913,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
           </div>
         </section>
 
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
           <Serviceappointemnt
             subtitle2="Contact us"
             title2="Book and Appointment"

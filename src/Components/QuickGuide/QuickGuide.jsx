@@ -2,7 +2,7 @@ import React from 'react'
 
 const QuickGuide = () => {
     return (
-        <section className="section cs_py_48 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray">
             <div className="container">
                 <h3 className="cs_fs_30">A Quick Guide to Understanding and Fixing Your AC Problems</h3>
                 <div className="row">

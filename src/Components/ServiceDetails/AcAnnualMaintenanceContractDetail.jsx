@@ -85,7 +85,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
 
       <div className="cs_service_details">
 
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
@@ -108,7 +108,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
         <MaintenanceContract />
 
         {/* Select Air Conditioner Repair & Service */}
-        <section className="section cs_py_48 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
@@ -151,7 +151,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
         </section>
 
 
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
           <div className="container">
             <FAJACPrice></FAJACPrice>
           </div>
@@ -159,7 +159,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
 
 
         {/* Peace of Mind with Annual Maintenance Contracts */}
-        <section className="section cs_py_48 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="cs_fs_30">Peace of Mind with Annual Maintenance Contracts</h3>
             <p>Your air conditioner is an essential part of your home or office comfort, especially during the scorching summer months. Like any other air conditioning unit, it requires regular maintenance to operate efficiently and to prevent breakdowns.
@@ -186,7 +186,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* Common AC Problems That May Require Maintenance */}
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
           <div className="container">
             <h3 className="text-center">Common AC Problems That May Require Maintenance</h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -296,7 +296,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
         <ACWhychooseUs />
 
         {/* The Importance of AC Maintenance Contract Service*/}
-        <section className="section cs_py_48 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="cs_fs_30">The Importance of AC Maintenance Contract Service</h3>
             <div className="row">
@@ -321,7 +321,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/*What is covered in an AC Maintenance Contract?  */}
-        <section className="section cs_py_48 ">
+        <section className="section cs_py_30 ">
           <div className="container">
             <h3 className="cs_fs_30">What is covered in an AC Maintenance Contract?</h3>
             <div className="row align-items-center">
@@ -366,7 +366,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* We specialise in air conditioning Repair services for the following brands */}
-        <section className="section cs_py_48 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3>We specialise in air conditioning Repair services for the following brands </h3>
             <div className="row">
@@ -477,7 +477,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        <section className="section cs_py_48 bg-dark-blue text-light">
+        <section className="section cs_py_30 bg-dark-blue text-light">
           <div className="container text-center">
             <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
             <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers! </p>
@@ -494,7 +494,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* white section with AC image */}
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
           <div className="container text-center">
             <div className="row">
               <div className="col-lg-4">
@@ -527,7 +527,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* testimobial section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_48" data-background={`${import.meta.env.BASE_URL}${bgImg}`}>
+        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" data-background={`${import.meta.env.BASE_URL}${bgImg}`}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
@@ -581,7 +581,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* FAQ's */}
-        <section className="section cs_py_48  bg-dark-blue text-light">
+        <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ's</h3>
 
@@ -609,7 +609,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
           <Serviceappointemnt
             subtitle2="Contact us"
             title2="Book and Appointment"

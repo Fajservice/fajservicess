@@ -72,7 +72,7 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
       </HelmetProvider>
       <HeaderForm />
       <div className="cs_service_details">
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
@@ -93,7 +93,7 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
         <MaintenanceContract/>
 
         {/* Experts AC Service and Maintenance */}
-        <section className="section cs_py_48 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray">
             <div className="container">
                 <div className="row g-5">
                     <div className="col-md-6">
@@ -127,13 +127,13 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
             </div>
         </section>
 
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
           <div className="container">
             <FAJACPrice></FAJACPrice>
           </div>
         </section>
         
-        <section className="section cs_py_48 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
           <h3 className="cs_fs_30">Error Codes Your Coleman Split Air Conditioning Showing</h3>
             <div className="row align-items-center">
@@ -164,7 +164,7 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
 
           </div>
         </section> 
-        <section className="section cs_py_48 bg-dark-blue text-light">
+        <section className="section cs_py_30 bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">Do Not Settle For Coleman Air Con Service, Call F A J Technical Services L.L.C</h3>
             <p>We have discussed in detail, what happens when you get the wrong installation of your air conditioner. To make things settle again, likely can cause you more than you think. Therefore, always choose the right and well-reputed company to get your air conditioning installed for the first time. Do not settle for the below quality, contact us today to get the best and unbeatable results. We are tech-savvy and remain updated with cutting-edge technology. In air conditioning technology, several advancements have taken place in recent years. We have a professional, experienced, and well-trained team that does exactly the unmatched work. Instead of trying to fix your air con issues on your own, ask FAJ to assist you. We provide all kinds of services, from routine maintenance to quick fixes of problems, repairing any component promptly and accurately. Our professionals take confidence to provide exceptional Coleman AC Repair in dubai.</p>
@@ -173,7 +173,7 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
         {/* Common Signs Your AC May Need Maintenanc */}
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
             <div className="container">
                 <h3 className="text-center">Common AC Problems That May Require Maintenance
                 </h3>
@@ -279,7 +279,7 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
          <BenefitAcMaintenance />
          {/* testimobial section */}
          {/*Why Choose F A J Technical Services L.L.C? */}
-         <section className="section cs_py_48 ">
+         <section className="section cs_py_30 ">
             <div className="container">
                 <h3 className="cs_fs_30">Why Choose F A J Technical Services L.L.C?</h3>
                 <div className="row align-items-center">
@@ -302,7 +302,7 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
             </div>
         </section>
         {/* Practical Tips to Improve Energy Efficiency */}
-        <section className="section cs_py_48 bg-dark-blue text-light">
+        <section className="section cs_py_30 bg-dark-blue text-light">
             <div className="container text-center">
                 <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
                 <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
@@ -319,7 +319,7 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* cooling */}
-        <section className="section cs_py_48">
+        <section className="section cs_py_30">
             <div className="container text-center">
                 <div className="row">
                     <div className="col-lg-4">
@@ -402,7 +402,7 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
             <div className="cs_height_80 cs_height_lg_80"></div>
           </section>
 
-        <div className="section cs_py_48  bg-dark-blue text-light">
+        <div className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ's</h3>
 
@@ -426,7 +426,7 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
             </div>
           </div>
         </div>
-        <div className="section cs_py_48">
+        <div className="section cs_py_30">
           <Serviceappointemnt
               subtitle2="Contact us"
               title2="Book and Appointment"

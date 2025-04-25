@@ -2,7 +2,7 @@ import React from 'react'
 
 const MaintenanceContract = () => {
     return (
-        <section className="section cs_py_48 bg-light-gay pt-0">
+        <section className="section cs_py_30 bg-light-gay pt-0">
             <div className="container">
                 <div className="row justify-content-center g-3">
                     <div className="col-md-6 col-lg-4">
