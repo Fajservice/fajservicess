@@ -13,6 +13,7 @@ import Slider from "react-slick";
 import testimonial_data from '../../Data/AcServiceTestimonials.json';
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
+import HeaderForm from "../Headeform/HeaderForm";
 
 // import { Link } from "react-router-dom";
 
@@ -78,7 +79,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
         <title>Best Appliances Service Dubai - Appliance Repair Near Me</title>
         <meta name="description" content="We offer an appliances repair near you. Get expert in refrigerator, fridge, washing machine, dryer, dishwasher, gas stove, oven service near me Dubai"></meta>
       </HelmetProvider>
-
+      <HeaderForm />
 
       <div className="cs_service_details">
 

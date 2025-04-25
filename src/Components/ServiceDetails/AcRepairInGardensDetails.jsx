@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../Data/AcRepairInInternationalMediaAndProductionZone.json';
+import data from '../../Data/AcRepairInAlQusais.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
@@ -11,7 +11,7 @@ import FAJACPrice from "../Miscellaneous/FAJACPrice";
 import QuickGuide from "../QuickGuide/QuickGuide";
 import HeaderForm from "../Headeform/HeaderForm";
 
-const AcRepairInInternationalMediaAndProductionZoneDetail = () => {
+const AcRepairInGardensDetails = () => {
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -32,8 +32,8 @@ const AcRepairInInternationalMediaAndProductionZoneDetail = () => {
   return (
     <>
     <HelmetProvider>
-        <title>AC Services In International Media Production Zone Repair</title>
-        <meta name="description" content="FAJ 043300002 AC Services in International Media and Production Zone Dubai. We are experts in central air conditioning maintenance near me"></meta>
+        <title>AC Services In The Gardens Dubai - Chiller FCU AC Repairs #1</title>
+        <meta name="description" content="Call 043300002 for AC Services in the Gardens Dubai. FAJ here to help central chiller unit maintenance & repair near me Dubai AC fixing"></meta>
     </HelmetProvider>
     <HeaderForm />
     <div className="cs_service_details">
@@ -61,8 +61,8 @@ const AcRepairInInternationalMediaAndProductionZoneDetail = () => {
                 <div className="row g-5">
                     <div className="col-md-6">
                         <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
-                        <h3 className="cs_fs_24 mb-1 mt-3">Best AC Repair in Dubai</h3>
-                        <p>When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in International Media Production Zone, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
+                        <h3 className="cs_fs_24 mb-1 mt-3">Best AC Repair in Al Qusais</h3>
+                        <p>When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Al Qusais, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
                         <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                     </div>
 
@@ -432,4 +432,4 @@ const AcRepairInInternationalMediaAndProductionZoneDetail = () => {
   )
 }
 
-export default AcRepairInInternationalMediaAndProductionZoneDetail
+export default AcRepairInGardensDetails
