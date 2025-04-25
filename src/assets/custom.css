@@ -409,24 +409,17 @@ a.btn-green-yellow:hover {
 
 .whatsapp-now-btn .whatsapp-icon {
   max-width: 188px;
-  /* content: url('../../public/img/icons/whatsapp-icon.png'); */
-
 }
 
-.whatsapp-now-btn:hover .whatsapp-icon {
-  /* content: url('../../public/img/icons/whatsapp-icon-hover.png'); */
-}
 
 
 .contact-now-btn .contact-icon {
   max-width: 150px;
   transition: all 1s ease-in-out;
-  /* content: url('../../public/img/icons/contact.png'); */
 
 }
 
 .contact-now-btn:hover .contact-icon {
-  /* content: url('../../public/img/icons/contact-hover.png'); */
   transition: all 1s ease-in-out;
 
 }
@@ -553,8 +546,6 @@ p a {
 .cs_service_details .usps img {
   /* max-height: inherit !important; */
 }
-
-
 
 .d-none-1199 {
   display: block;
