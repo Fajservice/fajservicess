@@ -201,7 +201,6 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
                             </div>
                         </div>
                     </div>
-
                     <div className="col-lg-3">
                         <div className=" box-content-container rounded border shadow">
                             <div className="text-center">
@@ -212,7 +211,6 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
                             </div>
                         </div>
                     </div>
-
                     <div className="col-lg-3">
                         <div className=" box-content-container rounded border shadow">
                             <div className="text-center">
@@ -223,7 +221,6 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
                             </div>
                         </div>
                     </div>
-
                     <div className="col-lg-3">
                         <div className=" box-content-container rounded border shadow">
                             <div className="text-center">
@@ -234,7 +231,6 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
                             </div>
                         </div>
                     </div>
-
                     <div className="col-lg-3">
                         <div className=" box-content-container rounded border shadow">
                             <div className="text-center">
@@ -245,7 +241,6 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
                             </div>
                         </div>
                     </div>
-
                     <div className="col-lg-3">
                         <div className=" box-content-container rounded border shadow">
                             <div className="text-center">
@@ -256,7 +251,6 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
                             </div>
                         </div>
                     </div>
-
                     <div className="col-lg-3">
                         <div className=" box-content-container rounded border shadow">
                             <div className="text-center">
@@ -267,7 +261,6 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
                             </div>
                         </div>
                     </div>
-
                     <div className="col-lg-3">
                         <div className="box-content-container rounded border shadow">
                             <div className="text-center">
@@ -279,51 +272,38 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </section>
 
         {/* A Quick Guide to Understanding and Fixing Your AC Problems */}
         <QuickGuide />
-        
-        <section className="section cs_py_30 bg-dark-blue text-light">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <div className="row">
-                <div className="col-md-6">
-                    <h3 className="cs_fs_24 text-light">Exceptional Repairing Of Rheem Centralized Air Conditioning (Air Con)</h3>
-                    <p>To provide more comfort to you, potential and timely repair is indispensable. After proper repair, your air con offers great cooling performance. Regular maintenance of your centralized ac extends its lifetime and improves functions. Not many offer Rheem ac repair in Dubai. However, FAJ is unique and experienced in providing exceptional service, maintenance, and fixing of your aircon. Get instant access to a potentially trained, highly skilled professional for optimal and fast air condition repairing.</p>
-                </div>
-                <div className="col-md-6">
-                    <h3 className="cs_fs_24 text-light">Cost Effective VRV Installation And Operation (Rheem Aircon) AC</h3>
-                    <p>VRF Rheem air conditioning is called ideal for small and large spaces. It is the most advanced air system worldwide and popular as well. It is significantly equipped with modern technology and, results in energy efficiency. To install this Rheem VRF ac an exceptionally trained team is required. To get the advantage of better comfort and a sustainable cooled environment accurate installation and operation is a key.</p>    
-                </div>
-                <div className="col-md-12">
-                    <h3 className="cs_fs_24 text-light">Different Models Of Rheem Ducted Aircon</h3>
-                    <p>Several types/ models of Rheem ducted ac are available in the market. Choosing the best one which is suitable for your house or office is an art. Expert advice clears all doubts and helps you to get the right aircon for your place.</p>
-                </div>
-                <div className="col-md-6">
-                    <h4 className="cs_fs_18 text-light">Inverter Rheem Ducted</h4>
-                    <p>This type of air conditioner has an efficient and compact design. This one is ideal to install in the tight roof space of the modern home.</p>
-                </div>
-                <div className="col-md-6">
-                    <h4 className="cs_fs_18 text-light">Premium Inverter Ducted</h4>
-                    <p>This ducted air con has remarkable energy performance and the ability to perform functions quite innovatively. We are skilled enough in installing, repairing, fixing, and maintenance of these kinds of air conditioners.</p>    
-                </div>
-                <div className="col-md-6">
-                    <h4 className="cs_fs_18 text-light">Bulkhead System</h4>
-                    <p>This model is best for drop ceilings and shallow ceilings. Optimal for bedroom air conditioning and ideal where discreet installation is a preference.</p>
-                </div>
-                <div className="col-md-6">
-                    <h4 className="cs_fs_18 text-light">Slimline Ducted</h4>
-                    <p>It has freedom of design and unparalleled flexibility. FAJ is the most reliable and ideal one for installing and maintenance of these ac machines.</p>    
-                </div>
+            <h3 className="cs_fs_30">Why is Rheem AC Maintenance Service Important in Dubai?</h3>
+            <p>
+              Regular air conditioner (AC) maintenance service in Dubai is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you, contact us.
+            </p>
+
+            <div className="row align-items-center">
+              <div className="col-md-6">
+                {/* <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/What-is-covered-in-an-AC-Maintenance-Contract.jpg`} alt="Post Image" />
+              </div>
+              <div className="col-md-6">
+                <ul className="mb-0">
+                    <li> <strong> Extreme Weather: </strong> Experiences high temperatures over 40°C (104°F) in summer. Regular maintenance keeps air conditioner systems efficient during these conditions.</li>
+
+                    <li> <strong> Energy Efficiency: </strong> A well-maintained AC unit operates more efficiently, using less energy and lowering both electricity bills.</li>
+
+                    <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend your air condition unit’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
+                    <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
+                    <li> <strong> Enhanced Comfort: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li> 
+                </ul>
+              </div>
             </div>
           </div>
         </section>
-
-        
-        <section className="section cs_py_30">
+        {/* <section className="section cs_py_30">
           <div className="container">
           <h3 className="cs_fs_30">Get A Full Fledged Expert Service Of Rheem HVAC</h3>
           <p>While modern HVAC systems are manufactured to deliver year-long service. However, issues with air condition can and will arise. Here are some common problems which are faced by several homeowners, businesses, etc.</p>
@@ -363,7 +343,7 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
               </div>
           </div>
         </section>
-        </section>
+        </section> */}
         
          {/* The Benefits Of Regular AC Service*/}
          <BenefitAcMaintenance />
