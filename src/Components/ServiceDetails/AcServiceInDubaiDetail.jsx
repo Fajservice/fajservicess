@@ -21,9 +21,9 @@ import HeaderForm from "../Headeform/HeaderForm";
 
 
 const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
-  subtitle="Testimonial"
-  title="What our clients say About Us"
-  bgImg="/img/testimonialbg.jpg"
+  subtitle = "Testimonial"
+  title = "What our clients say About Us"
+  bgImg = "/img/testimonialbg.jpg"
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -79,7 +79,7 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
     <>
       <HelmetProvider>
         <title>AC Service in Dubai - AC Repair & Maintenance Dubai</title>
-        <meta name="description"  content=" Get Same Day AC Service in Dubai, We specialize in home / office air conditioner ( AC ) repair and maintenance Dubai. Book +971 50 746 4712 for air con fix for air con fix"></meta>
+        <meta name="description" content=" Get Same Day AC Service in Dubai, We specialize in home / office air conditioner ( AC ) repair and maintenance Dubai. Book +971 50 746 4712 for air con fix for air con fix"></meta>
       </HelmetProvider>
       <HeaderForm />
       <div className="cs_service_details">
@@ -102,21 +102,21 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* Maintenance Contract */}
-        <MaintenanceContract/>
+        <MaintenanceContract />
 
 
         {/* Experts AC Service and Maintenance */}
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-            <div className="row g-md-5">
+            <div className="row gx-md-5">
               <div className="col-md-6">
                 {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" /> */}
-                <h3 className="cs_fs_24 mb-1 mt-3">Experts AC Service and Maintenance</h3>
+                <h3 className="cs_fs_24 mb-1">Experts AC Service and Maintenance</h3>
                 <p className="mb-2">When considering AC service in Dubai, it is vital to hire a qualified and reliable AC technician who can effectively address your needs at home or in your business place.</p>
                 <p>FAJ Experts in comprehensive air conditioner (AC) service, and maintenance, ensuring that you receive the highest quality care for your cooling systems.</p>
-                <h3 className="cs_fs_24 mb-1 mt-3 pt-3 border-small-top">Signs You Need An AC Service</h3>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
-                <ul>
+                <ul className="mb-0">
                   <li>Higher electricity bills / Loss of AC performance</li>
                   <li>Air is not blowing cold / Poor AC airflow, making noises</li>
                   <li>Drips from your air conditioner</li>
@@ -126,7 +126,7 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
               <div className="col-md-6 ">
                 {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/Experts-AC-Service-and-Maintenance.jpg`} alt="Post Image" />
-                
+
               </div>
             </div>
 
@@ -153,8 +153,7 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <h3 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h3>
             <p>
-              Regular air conditioning (AC) maintenance service in Dubai is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently.
-              With our proactive approach, you can feel confident that your AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you, contact us.
+              Regular air conditioner (AC) maintenance service in Dubai is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you, contact us.
             </p>
 
             <div className="row align-items-center">
@@ -164,19 +163,18 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
-                  <li> <strong> Extreme Weather:</strong> Experiences high temperatures over 40°C (104°F) in summer. Regular maintenance keeps air conditioning systems efficient during these conditions.</li>
+ <li> <strong> Extreme Weather: </strong> Experiences high temperatures over 40°C (104°F) in summer. Regular maintenance keeps air conditioner systems efficient during these conditions.</li>
 
-                  <li> <strong> Energy Efficiency:</strong> A well-maintained AC unit operates more efficiently, using less energy and lowering both electricity bills. </li>
+ <li> <strong> Energy Efficiency: </strong> A well-maintained AC unit operates more efficiently, using less energy and lowering both electricity bills.</li>
 
-                  <li> <strong> Longevity of Equipment:</strong>  Regular maintenance can extend your air conditioning system’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
+ <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend your air condition unit’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
+ <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
+ <li> <strong> Enhanced Comfort: </strong> 
+ Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
 
 
-                  <li> <strong>Improved Air Quality:</strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
 
-                  {/* <li> <strong>Prevention of Breakdowns:</strong> Proactive maintenance catches minor issues early, preventing costly repairs and unexpected AC failures</li> */}
-
-                  <li> <strong> Enhanced Comfort:</strong> Regular servicing of your AC system ensures consistent temperatures, which is vital for comfort in hot climates. In a city like Dubai, investing in AC maintenance is essential for both comfort and efficiency in daily life.</li>
-
+                
                 </ul>
               </div>
             </div>
@@ -282,7 +280,7 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
                 <WhatsappIconButton />
               </div>
             </div>
-          </div>  
+          </div>
         </section>
 
         {/* A Quick Guide to Understanding and Fixing Your AC Problems */}
@@ -317,8 +315,8 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
 
 
         {/* Why choose us AC */}
-        <ACWhyChooseUs/>
-        
+        <ACWhyChooseUs />
+
 
         {/* We specialise in air conditioning services for the following brands */}
         <section className="section cs_py_48 bg-light-gray">
@@ -519,7 +517,7 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
         </section>
 
-        {/* FAQ's */} 
+        {/* FAQ's */}
         <section className="section cs_py_48  bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ's</h3>

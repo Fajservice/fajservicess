@@ -105,35 +105,35 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* Maintenance Contract */}
-        <MaintenanceContract/>
+        <MaintenanceContract />
 
-
-
-        {/* Select Air Conditioner Repair & Service */}
+        {/* Select Air Conditioner Repair & Service*/}
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-            <div className="row g-5">
+            <div className="row gx-md-5">
               <div className="col-md-6">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/ac-repair.jpg`} alt="Post Image" />
-                <h3 className="cs_fs_24 mb-1 mt-3">Select Air Conditioner Repair & Service</h3>
-                <p>We understand the urgency of responding promptly when an air conditioner failure impacts your critical cooling system, especially when people depend on it. Our expert and experienced AC technicians are dedicated to delivering the best AC repair and service in Dubai.</p>
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" /> */}
+                <h3 className="cs_fs_24 mb-1">Select Air Conditioner Repair & Service</h3>
+                <p className="mb-2">We understand the urgency of responding promptly when an air conditioner failure impacts your critical cooling system, especially when people depend on it. Our expert and experienced AC technicians are dedicated to delivering the best AC repair and service in Dubai.</p>
                 <p>Choose FAJ for professional AC repair and maintenance for both residential and commercial units in your area.</p>
-              </div>
-
-              <div className="col-md-6 border-small-left">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/ac-repair-2.jpg`} alt="Post Image" />
-                <h3 className="cs_fs_24 mb-1 mt-3">Top Signs Need An AC Repair in Dubai</h3>
-                <p>When you realize your air conditioner isn't working well in the summer, it can be frustrating. Minor signs are often overlooked, but they can lead to major problems that require repairs, especially in Dubai's heat.</p>
-                <ul>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Signs Need An AC Repair in Dubai</h3>
+                <p className="mb-2">When you realize your air conditioner isn't working well in the summer, it can be frustrating. Minor signs are often overlooked, but they can lead to major problems that require repairs, especially in Dubai's heat.</p>
+                <ul className="mb-0">
                   <li>Insufficient Cooling / AC blowing warm air</li>
                   <li>Strange Noises Coming From The AC</li>
                   <li>Leaks of gas or water around your AC unit</li>
                 </ul>
               </div>
+
+              <div className="col-md-6 ">
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/ac-repair-2.jpg`} alt="Post Image" />
+
+              </div>
             </div>
 
             <div className="appointment-col border-small-top pt-3">
-              <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability. For technical inspection/callout fees, AC service near you, repair, or maintenance, please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+              <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection/callout fees, AC service near you, repair, or maintenance, please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
               <div id="get-quote" className=" mt-3">
                 <div className="container d-flex justify-content-center align-items-center gap-3">
                   <WhatsappIconButton />
@@ -150,20 +150,6 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* FAJ Expert Air Conditioning Repair for Homes & Businesses Places */}
-        {/* <section className="section cs_py_48">
-          <div className="container">
-            <h2 className="cs_fs_30">FAJ Expert Air Conditioning Repair for Homes & Businesses Places</h2>
-            <p> <a href="https://www.google.com/maps/place/FAJ+Technical+Services+L.L.C+-+Warehouse+No+-+S-02+Gate+35+Street+18b+-+Al+Quoz+-+Al+Quoz+Industrial+Area+4+-+Dubai+-+United+Arab+Emirates/data=!4m2!3m1!1s0x3e5f699a600aceeb:0xa6121b25d557aa94?utm_source=mstt_1&entry=gps&lucs=47068615&g_ep=CAESCTExLjkxLjMwMhgAINeCAyoINDcwNjg2MTVCAlBL/">F A J Technical Services L.L.C</a> , an AC Repair Dubai Company, provides its clients most reliable Air Conditioning technical services in the region. According to the hot climate of UAE, Our Technical Services are designed to deliver you a comfortable environment that allows you to live, learn work, and play with peace of mind. When the temperature soars and you have air conditioner system faults, we are here to save your day. We have trained and professional technical teams to serve you. FAJ, AC Repair Dubai Service Company. </p>
-            <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
-                <WhatsappIconButton />
-              </div>
-            </div>
-          </div>
-        </section> */}
-
-
         {/*FAJ: Creating the Perfect Temperature All Year Round */}
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
@@ -174,7 +160,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/ac-repair-3.jpg`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/5-Reasons-Your-AC-Might-Need-Repairs-This-Summer.jpg`} alt="Post Image" />
               </div>
               <div className="col-md-6">
 
@@ -343,40 +329,40 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
                         <span>Set Your AC Thermostat Correctly</span>
                       </li>
 
-                     
+
                       <li>
                         <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                           <i className="bi bi-check"></i></span>
                         <span>Investigate for Tripped Circuit Breakers
                         </span>
                       </li>
-                     
+
                       <li>
                         <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                           <i className="bi bi-check"></i></span>
                         <span>Clean Your AC Air Filters</span>
                       </li>
-                     
+
                       <li>
                         <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                           <i className="bi bi-check"></i></span>
                         <span>Get Your AC Air Ducts Cleaned</span>
                       </li>
-                     
+
                       <li>
                         <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                           <i className="bi bi-check"></i></span>
                         <span>Check Your Outdoor AC Unit
                         </span>
                       </li>
-                     
+
 
                     </ul>
                   </div>
 
                   <div className="col-12 col-md-6">
-                  <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
-                      
+                    <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
+
 
                       <li>
                         <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
@@ -384,7 +370,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
                         <span>Close Your Room Windows and Doors
                         </span>
                       </li>
-                      
+
                       <li>
                         <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                           <i className="bi bi-check"></i></span>
@@ -392,20 +378,20 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
 
                         </span>
                       </li>
-                      
+
                       <li>
                         <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                           <i className="bi bi-check"></i></span>
                         <span>Open Your AC Air Vents</span>
                       </li>
-                      
+
                       <li>
                         <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                           <i className="bi bi-check"></i></span>
                         <span>Investigate for AC Water Leaks
                         </span>
                       </li>
-                      
+
                       <li>
                         <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                           <i className="bi bi-check"></i></span>
@@ -428,7 +414,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
 
         <BenefitAcMaintenance />
 
-        <ACWhychooseUs/>
+        <ACWhychooseUs />
 
         {/* We specialise in air conditioning Repair services for the following brands */}
         <section className="section cs_py_48 bg-light-gray">

@@ -15,6 +15,7 @@ import Slider from "react-slick";
 import testimonial_data from '../../Data/AcServiceTestimonials.json';
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
+import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
 
 // import { Link } from "react-router-dom";
 
@@ -102,34 +103,43 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
             {/*  */}
           </div>
         </section>
+
+        {/* Maintenance Contract */}
+        <MaintenanceContract />
+
         {/* Select Air Conditioner Repair & Service */}
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-            <div className="row g-5">
+            <div className="row gx-md-5">
               <div className="col-md-6">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/ac-repair.jpg`} alt="Post Image" />
-                <h3 className="cs_fs_24 mb-1 mt-3">Select Air Conditioner Repair & Service</h3>
-                <p>Regular AC maintenance in Dubai is essential to ensure that your air conditioner unit continues to function properly. Over time, filters and coils can become dirty and clogged, leading to a decline in cooling performance.</p>
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" /> */}
+                <h3 className="cs_fs_24 mb-1">Select Air Conditioner Repair & Service </h3>
+                <p className="mb-2">Regular AC maintenance in Dubai is essential to ensure that your air conditioner unit continues to function properly. Over time, filters and coils can become dirty and clogged, leading to a decline in cooling performance.</p>
                 <p>This can also result in issues such as water leakage from the indoor unit and unpleasant odors. So, what is the solution? If you're searching for a reliable AC maintenance company in Dubai to take care of your home or office aircon needs, look no further.</p>
-              </div>
 
-              <div className="col-md-6 border-small-left">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/ac-repair-2.jpg`} alt="Post Image" />
-                <h3 className="cs_fs_24 mb-1 mt-3">Top Signs Need An AC Maintenance</h3>
-                <p>Why do things break down at inconvenient times, like AC failing on a hot summer night? AC Maintaining unit from the start is crucial.
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Signs Need An AC Maintenance</h3>
+                <p className="mb-2">Why do things break down at inconvenient times, like AC failing on a hot summer night? AC Maintaining unit from the start is crucial.
                   <br />
                   Let’s explore the signs that indicate it may be time for air conditioner maintenance.
                 </p>
-                <ul>
-                  <li>Bad odors / Warm air from vents </li>
+                <ul className="mb-0">
+
+                  <li>Bad odors / Warm air from vents</li>
                   <li>High humidity / Frequent cycles</li>
-                  <li> Insufficient airflow / Water leaks</li>
+                  <li>Insufficient airflow / Water leaks</li>
+
                 </ul>
+              </div>
+
+              <div className="col-md-6 ">
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/Top-Signs-Need-An-AC-Maintenance.jpg`} alt="Post Image" />
+
               </div>
             </div>
 
             <div className="appointment-col border-small-top pt-3">
-              <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability. For technical inspection/callout fees, AC service near you, repair, or maintenance, please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+              <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection/callout fees, AC service near you, repair, or maintenance, please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
               <div id="get-quote" className=" mt-3">
                 <div className="container d-flex justify-content-center align-items-center gap-3">
                   <WhatsappIconButton />
@@ -139,6 +149,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
             </div>
           </div>
         </section>
+
 
         <section className="section cs_py_48">
           <div className="container">
@@ -156,7 +167,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance-in-Dubai.jpeg`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Peace-of-Mind-with-Annual-Maintenance-Contracts.jpg`} alt="Post Image" />
               </div>
               <div className="col-md-6">
                 <p>
@@ -276,13 +287,13 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
 
           </div>
         </section>
-        
+
         {/* A Quick Guide to Understanding and Fixing Your AC Problems*/}
         <QuickGuide />
 
         {/* The Benefits Of Regular AC Service*/}
         <BenefitAcMaintenance />
-        <ACWhychooseUs/>
+        <ACWhychooseUs />
 
         {/* The Importance of AC Maintenance Contract Service*/}
         <section className="section cs_py_48 bg-light-gray">
@@ -341,7 +352,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
                 </ul>
               </div>
               <div className="col-md-6 text-center text-md-end">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance-in-Dubai.jpeg`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/The-Importance-of-AC-Maintenance-Contract-Service.jpg`} alt="Post Image" />
                 <ul className="text-md-start">
                   <li>Cleaning of drain pan by pouring water and flush the same with air blower to remove any blockage.</li>
 

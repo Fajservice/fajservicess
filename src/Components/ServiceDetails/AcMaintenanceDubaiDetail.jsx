@@ -99,41 +99,46 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
                 <WhatsappIconButton />
               </div>
             </div>
-            
+
           </div>
         </section>
 
         {/* Maintenance Contract */}
-        <MaintenanceContract/>
+        <MaintenanceContract />
 
-        {/* AC Maintenance for the Best Cooling */}
+        {/* AC Maintenance for the Best Cooling*/}
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
-            <div className="row g-5">
+            <div className="row gx-md-5">
               <div className="col-md-6">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/ac-repair.jpg`} alt="Post Image" />
-                <h3 className="cs_fs_24 mb-1 mt-3">AC Maintenance for the Best Cooling</h3>
-                <p>Regular AC maintenance in Dubai is essential to ensure that your air conditioner unit continues to function properly. Over time, filters and coils can become dirty and clogged, leading to a decline in cooling performance.</p>
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" /> */}
+                <h3 className="cs_fs_24 mb-1">AC Maintenance for the Best Cooling</h3>
+
+                <p className="mb-2">Regular AC maintenance in Dubai is essential to ensure that your air conditioner unit continues to function properly. Over time, filters and coils can become dirty and clogged, leading to a decline in cooling performance.</p>
                 <p>This can also result in issues such as water leakage from the indoor unit and unpleasant odors. So, what is the solution? If you're searching for a reliable AC maintenance company in Dubai to take care of your home or office aircon needs, look no further.</p>
+
+
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Signs Need An AC Maintenance</h3>
+                <p className="mb-2">Why do things break down at inconvenient times, like AC failing on a hot summer night? AC Maintaining unit from the start is crucial.
+                  Let’s explore the signs that indicate it may be time for air conditioner maintenance.</p>
+                <ul className="mb-0">
+
+                  <li> Bad odors / Warm air from vents </li>
+                  <li> High humidity / Frequent cycles </li>
+                  <li> Insufficient airflow / Water leaks </li>
+
+                </ul>
               </div>
 
-              <div className="col-md-6 border-small-left">
+              <div className="col-md-6 ">
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/ac-repair-2.jpg`} alt="Post Image" />
-                <h3 className="cs_fs_24 mb-1 mt-3">Top Signs Need An AC Maintenance</h3>
-                <p>Why do things break down at inconvenient times, like AC failing on a hot summer night? AC Maintaining unit from the start is crucial.
-                  <br />
-                  Let’s explore the signs that indicate it may be time for air conditioner maintenance.
-                </p>
-                <ul>
-                  <li>Bad odors / Warm air from vents </li>
-                  <li>High humidity / Frequent cycles</li>
-                  <li> Insufficient airflow / Water leaks</li>
-                </ul>
+
               </div>
             </div>
 
             <div className="appointment-col border-small-top pt-3">
-              <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability. For technical inspection/callout fees, AC service near you, repair, or maintenance, please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+              <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection/callout fees, AC service near you, repair, or maintenance, please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
               <div id="get-quote" className=" mt-3">
                 <div className="container d-flex justify-content-center align-items-center gap-3">
                   <WhatsappIconButton />
@@ -288,7 +293,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_48 bg-light-gray">
           <div className="container">
             <h3 className="cs_fs_30">Tips for Maintaining Your AC System</h3>
-                <p>Regular maintenance is crucial for preventing common AC issues and extending the lifespan of your system. Follow these tips to ensure your AC runs smoothly:</p>
+            <p>Regular maintenance is crucial for preventing common AC issues and extending the lifespan of your system. Follow these tips to ensure your AC runs smoothly:</p>
             <div className="row align-items-center">
               <div className="col-xl-6">
                 <iframe
@@ -305,16 +310,16 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
 
               <div className="col-xl-6">
                 <ul className="cs_list cs_style_ cs_fs_16 Xcs_mp_0">
-                      <li> <b>Change the Air Filter Regularly:</b> A dirty filter restricts airflow and decreases efficiency. Replace it every 1 to 3 months, depending on how often you use your system. </li>
+                  <li> <b>Change the Air Filter Regularly:</b> A dirty filter restricts airflow and decreases efficiency. Replace it every 1 to 3 months, depending on how often you use your system. </li>
 
-                      <li> <b>Clean the Coils:</b> Annually clean the condenser and evaporator coils to remove dirt and debris that can hinder performance. </li>
+                  <li> <b>Clean the Coils:</b> Annually clean the condenser and evaporator coils to remove dirt and debris that can hinder performance. </li>
 
-                      <li> <b>Check the Thermostat Settings:</b> Verify that your thermostat is set correctly to avoid unnecessary wear on the system. Additionally, setting your AC to a temperature above 72 degrees Fahrenheit during the summer can save you on cooling costs and reduce wear. </li>
+                  <li> <b>Check the Thermostat Settings:</b> Verify that your thermostat is set correctly to avoid unnecessary wear on the system. Additionally, setting your AC to a temperature above 72 degrees Fahrenheit during the summer can save you on cooling costs and reduce wear. </li>
 
-                      <li> <b>Inspect the Ductwork:</b> Leaks in your ducts can lower efficiency and increase energy costs. Schedule a professional inspection and ask for new sealant if your system is older or if you notice any issues. </li>
+                  <li> <b>Inspect the Ductwork:</b> Leaks in your ducts can lower efficiency and increase energy costs. Schedule a professional inspection and ask for new sealant if your system is older or if you notice any issues. </li>
 
-                      <li> <b>Clear the Area Around the Unit:</b> To ensure proper airflow, keep the area around your outdoor unit free from debris, plants, and other obstructions. </li>
-                    </ul>
+                  <li> <b>Clear the Area Around the Unit:</b> To ensure proper airflow, keep the area around your outdoor unit free from debris, plants, and other obstructions. </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -323,9 +328,9 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
         {/* The Benefits Of Regular AC Service*/}
         <BenefitAcMaintenance />
 
-       
 
-        <ACWhyChooseUs/>
+
+        <ACWhyChooseUs />
 
         {/* We specialise in AC  maintenance services for the following brands.
  */}
