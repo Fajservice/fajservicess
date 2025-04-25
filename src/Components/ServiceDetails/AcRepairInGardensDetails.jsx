@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../Data/AcRepairinTheGreens.json';
+import data from '../../Data/AcRepairInAlQusais.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
@@ -9,13 +9,9 @@ import CallNowButton from "../Buttons/CallNowButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import FAJACPrice from "../Miscellaneous/FAJACPrice";
 import QuickGuide from "../QuickGuide/QuickGuide";
-
 import HeaderForm from "../Headeform/HeaderForm";
 
-import ACWhyChooseUs from "../WhyChooseUS/ACWhyChooseUs";
-import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
-
-    const AcRepairinTheGreensDetail = () => {
+const AcRepairInGardensDetails = () => {
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -36,8 +32,8 @@ import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
   return (
     <>
     <HelmetProvider>
-        <title>FAJ / AC Repair Dubai - AC Service in The Greens</title>
-        <meta name="description" content="FAJ Established in 2010, / We offer professional AC Repair, Freezer, Refrigerator, Fridge, Washing Machine Maintenance Service Company Dubai"></meta>
+        <title>AC Services In The Gardens Dubai - Chiller FCU AC Repairs #1</title>
+        <meta name="description" content="Call 043300002 for AC Services in the Gardens Dubai. FAJ here to help central chiller unit maintenance & repair near me Dubai AC fixing"></meta>
     </HelmetProvider>
     <HeaderForm />
     <div className="cs_service_details">
@@ -52,22 +48,21 @@ import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
 
                     <div className="container d-flex justify-content-center align-items-center">
                         {/* <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex align-items-center menu-menu-btn" href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" style={{ backgroundColor: "#0D6EFD" }}>Get A Free Quote</a>
-                        <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex border border-outline align-items-center" href="tel:+971507464712">Call Now</a> */}
+                <a data-anim-type="fade-in-up" className="mx-2 btn btn-custom d-flex border border-outline align-items-center" href="tel:+971507464712">Call Now</a> */}
                         <CallNowButton /> <GetQuoteButton />
                     </div>
 
                 </div>
             </div>
         </section>
- {/* Maintenance Contract */}
-        <MaintenanceContract/>
+
         <section className="section cs_py_48 bg-light-gray">
             <div className="container">
                 <div className="row g-5">
                     <div className="col-md-6">
                         <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" />
-                        <h3 className="cs_fs_24 mb-1 mt-3">Best AC Repair in The Greens</h3>
-                        <p>When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in The Greens, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
+                        <h3 className="cs_fs_24 mb-1 mt-3">Best AC Repair in Al Qusais</h3>
+                        <p>When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Al Qusais, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
                         <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                     </div>
 
@@ -227,13 +222,34 @@ import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
             </div>
         </section>
 
-        {/* A Quick Guide to Understanding and Fixing Your AC Problems */}
+        {/* A Quick Tour to Your AC Problems and Fixing*/}
         <QuickGuide />
 
         <BenefitAcMaintenance />
 
-      {/* Why choose us AC */}
-        <ACWhyChooseUs/>
+        {/*Why Choose F A J Technical Services L.L.C? */}
+        <section className="section cs_py_48 ">
+            <div className="container">
+                <h3 className="cs_fs_30">Why Choose F A J Technical Services L.L.C?</h3>
+                <div className="row align-items-center">
+                    <div className="col-md-6">
+                        <h4 className="cs_fs_24">We provide quick, efficient service and peace of mind</h4>
+                        <ul className="acsvs-exp-spl-para tick-ul mb-0">
+                            <li><b>We get the job done on time</b> thanks to our larger team and dedicated parts warehouse</li>
+                            <li><b>All our AC technicians are fully qualified</b> and extensively trained by us to address all types of AC issues.</li>
+                            <li><b>We help prevent future breakdowns</b> by only using locally produced, highest quality refrigerant gas.</li>
+                            <li><b>From routine maintenance to complex repairs</b> we offers all type of AC repair and maintenance services.</li>
+                            <li><b>We only use genuine parts</b> to give you peace of mind.</li>
+                            <li><b>We give service warranty</b> to make sure you are relax.</li>
+                            <li><b>We look after the environment</b> by always recycling our gas.</li>
+                        </ul>
+                    </div>
+                    <div className="col-md-6 text-center text-md-end">
+                        <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance-in-Dubai.jpeg`} alt="Post Image" />
+                    </div>
+                </div>
+            </div>
+        </section>
 
         {/* We specialise in air conditioning services for the following brands */}
         <section className="section cs_py_48 bg-light-gray">
@@ -411,10 +427,9 @@ import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
             ></Serviceappointemnt>
         </section>
 
-
     </div>
 </>
   )
 }
 
-export default AcRepairinTheGreensDetail
+export default AcRepairInGardensDetails

@@ -12,6 +12,7 @@ import ACWhyChooseUs from "../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";import testimonial_data_BlueStar from '../../Data/BlueStarAcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";
+import HeaderForm from "../Headeform/HeaderForm";
 
 const BlueStarAcRepair = ({ subtitle, title, bgImg }) => {
   subtitle="Testimonial"
@@ -69,7 +70,7 @@ const BlueStarAcRepair = ({ subtitle, title, bgImg }) => {
       <title>BlueStar AC Repair in Dubai - BlueStar Air Conditioner Service Near</title>
       <meta name="description" content="BlueStar #1 Brand in UAE. Call us at 043300002 for BlueStar AC Repair in Dubai, We are experts in HVAC & Central Air Conditioner Maintenance Service near by you."/>
       </HelmetProvider>
-
+      <HeaderForm />
       <div className="cs_service_details">
         <section className="section cs_py_48">
           <div className="container">
