@@ -9,7 +9,7 @@ const MaintenanceContract = () => {
                         <div className="green-box gradient-amc-bg">
                             <h3 className="text-light cs_fs_24">Maintenance Contract <br />(Yearly)</h3>
                             <div className="green-text-box">
-                                <ul className="text-light">
+                                <ul className="text-light mb-1">
                                     <li>Limited and Unlimited Callout Or Breakdown Attending</li>
                                     <li>2 and 3 Times PPM Services</li>
                                     <li>Included and Excluded Spare Parts / Materials</li>
@@ -23,7 +23,7 @@ const MaintenanceContract = () => {
                         <div className="purple-box gradient-amc-bg">
                             <h3 className="text-light cs_fs_24">Maintenance Contract <br />(6 Months)</h3>
                             <div className="green-text-box">
-                                <ul className="text-light">
+                                <ul className="text-light mb-1">
                                     <li>Limited and Unlimited Callout Or Breakdown Attending</li>
                                     <li>1 and 2 Times PPM Services</li>
                                     <li>Included and Excluded Spare Parts / Materials</li>
@@ -37,7 +37,7 @@ const MaintenanceContract = () => {
                         <div className="cgreen-box gradient-amc-bg">
                             <h3 className="text-light cs_fs_24">Maintenance Contract <br />(3 Months)</h3>
                             <div className="green-text-box">
-                                <ul className="text-light">
+                                <ul className="text-light mb-1">
                                     <li>Limited and Unlimited Callout Or Breakdown Attending</li>
                                     <li>1 Times PPM Services</li>
                                     <li>Included and Excluded Spare Parts / Materials</li>

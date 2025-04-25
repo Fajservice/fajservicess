@@ -123,7 +123,8 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" />
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/Experts-AC-Service-and-Maintenance.jpg`} alt="Post Image" />
                 
               </div>
             </div>
@@ -157,7 +158,8 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" />
+                {/* <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Why-is-AC-Maintenance-Service-Important-in-Dubai.jpg`} alt="Post Image" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">

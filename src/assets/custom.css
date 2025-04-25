@@ -10,6 +10,20 @@
 
 }
 
+/* OVERRIDE CONTAINER for fix content and width */
+@media (min-width: 1400px) {
+  .container {
+      max-width: 1140px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+      max-width: 1140px;
+  }
+}
+
+
 .bg-light-blue {
   background-color: var(--bg-light-aqua-blue);
 }
@@ -724,8 +738,8 @@ p a {
 
 .gradient-amc-bg h3 {
   border-bottom: 1px dashed;
-  padding-bottom: 1rem;
-  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .gradient-amc-bg p {
@@ -734,7 +748,7 @@ p a {
 
 .gradient-amc-bg a.amc-box-button {
   box-shadow: 0 8px 8px #0000001a;
-  min-height: 50px;
+  min-height: 32px;
   font-size: 20px;
   background-color: #fff;
   border-radius: 5px;
@@ -748,8 +762,10 @@ p a {
 }
 
 .cs_service_details .usps .why-choose-img {
-  max-height: 470px !important;
-  max-height: 490px !important;
+  /* max-height: 470px !important;
+  max-height: 490px !important; */
+  min-height: 550px !important;
+  max-height: 550px !important;
   object-fit: cover;
   object-position: top center;
 }

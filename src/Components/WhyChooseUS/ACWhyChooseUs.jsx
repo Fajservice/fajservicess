@@ -70,8 +70,8 @@ const WhyChooseUS = () => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>The inspection fee covers diagnosis, transportation, and reinstallation for up to two AC units at same location in Dubai.
-                    </p>
+                    <p>We are dedicated to ensuring customer satisfaction with timely service, prompt issue resolution, and affordable prices.</p>
+                    
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -80,7 +80,7 @@ const WhyChooseUS = () => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our skilled AC technicians are highly trained, and we provide excellent service for a variety of major brands.
+                    <p>Our skilled AC technicians are highly trained, and we provide excellent service for a variety of major AC brands efficiently.
                     </p>
                   </div>
                 </div>
