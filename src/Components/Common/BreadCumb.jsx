@@ -17,7 +17,7 @@ const BreadCumb = ({ bgImg, Title }) => {
     >
       <div className="container">
         {/* Main row */}
-        <div className="row pt-4">
+        <div className="row align-items-center">
           <div className="col-12 col-md-6 mt-4 mb-4 d-flex justify-content-center">
             <h1 className="cs_white_color text-center" style={{ fontSize: "clamp(1.75rem, 5vw, 3.125rem)" }}>
               {Title}
