@@ -118,11 +118,23 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
                 <p>Choose FAJ for professional AC repair and maintenance for both residential and commercial units in your area.</p>
                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Signs Need An AC Repair in Dubai</h3>
                 <p className="mb-2">When you realize your air conditioner isn't working well in the summer, it can be frustrating. Minor signs are often overlooked, but they can lead to major problems that require repairs, especially in Dubai's heat.</p>
-                <ul className="mb-0">
-                  <li>Insufficient Cooling / AC blowing warm air</li>
-                  <li>Strange Noises Coming From The AC</li>
-                  <li>Leaks of gas or water around your AC unit</li>
-                </ul>
+                <div className="row">
+
+                  <div className="col-sm-6">
+                    <ul className="mb-0">
+                      <li>Insufficient Cooling</li>
+                      <li>Water around your AC unit</li>
+                      <li>Leaks of gas</li>
+                    </ul>
+                  </div>
+
+                  <div className="col-sm-6">
+                    <ul className="mb-0">
+                      <li>AC blowing warm air</li>
+                      <li>Strange Noises Coming From The AC</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
 
               <div className="col-md-6 ">
