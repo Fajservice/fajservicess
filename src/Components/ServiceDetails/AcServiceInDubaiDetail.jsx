@@ -116,11 +116,26 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
                 <p>FAJ Experts in comprehensive air conditioner (AC) service, and maintenance, ensuring that you receive the highest quality care for your cooling systems.</p>
                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
-                <ul className="mb-0">
+                <div className="row">
+                  <div className="col-sm-6">
+                  <ul className="mb-0">
+                  <li>Higher electricity bills </li>
+                  <li>Air is not blowing cold</li>
+                  <li>Drips from your air conditioner</li>
+                </ul>
+                  </div>
+                  <div className="col-sm-6">
+                  <ul className="mb-0">
+                  <li>Loss of AC performance</li>
+                  <li>Poor AC airflow, making noises</li>
+                </ul>
+                  </div>
+                </div>
+                {/* <ul className="mb-0">
                   <li>Higher electricity bills / Loss of AC performance</li>
                   <li>Air is not blowing cold / Poor AC airflow, making noises</li>
                   <li>Drips from your air conditioner</li>
-                </ul>
+                </ul> */}
               </div>
 
               <div className="col-md-6 ">

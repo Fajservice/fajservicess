@@ -498,6 +498,12 @@ p a {
   margin-top: 0;
   font-weight: 400;
 }
+@media screen and (min-width: 1200px) {
+  .usps .uspitem h3 {
+    margin-left: -20px;
+  }
+  
+}
 
 
 /* APPLIANCES BENIFIT SECTION */

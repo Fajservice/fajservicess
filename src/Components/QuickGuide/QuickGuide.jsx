@@ -24,28 +24,20 @@ const QuickGuide = () => {
                         <p className='mb-0'><strong>Our services include:</strong></p>
                         <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-1">
 
-
-
                             <li>
-
-                                <strong>Installation:</strong> Expert installation of various types and brands of HVAC systems, ensuring optimal performance and efficiency.
+                                <strong>Installation:</strong>  Expert installation of various types and brands of HVAC systems, ensuring optimal performance and efficiency.
                             </li>
 
                             <li>
-
-                                <strong>Diagnostics:</strong>Thorough fault finding to diagnose issues effectively. We provide eligibility assessments and detailed quotations to address any concerns with your system.
-                            </li>
-
-
-
-                            <li>
-
-                                <strong>Repair:</strong>Efficient repair services for all HVAC components, ensuring quick resolution of any issues, such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions!
+                                <strong>Diagnostics:</strong> Thorough fault finding to diagnose issues effectively. We provide eligibility assessments and detailed quotations to address any concerns with your system.
                             </li>
 
                             <li>
+                                <strong>Repair:</strong> Efficient repair services for all HVAC components, ensuring quick resolution of any issues, such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions!
+                            </li>
 
-                                <strong>Annual Maintenance Contract:</strong>This contract outlines the terms and services covered for the annual maintenance of air conditioning units. Regular maintenance is essential for optimal performance, efficiency, and longevity of your air conditioning system.
+                            <li>
+                                <strong>Annual Maintenance Contract:</strong> This contract outlines the terms and services covered for the annual maintenance of air conditioning units. Regular maintenance is essential for optimal performance, efficiency, and longevity of your air conditioning system.
                             </li>
 
                             {/* <li>
