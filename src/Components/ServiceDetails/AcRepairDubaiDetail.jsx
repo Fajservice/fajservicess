@@ -177,13 +177,16 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-md-6">
 
                 <ul className="mb-0">
-                  <li> <strong>Insufficient Cooling:</strong> May be due to a refrigerant leak, blocked filter, or compressor issues.</li>
+                  <li> <strong>Poor Airflow:</strong> Weak airflow can result from a clogged filter or issues with the ducts.</li>
                   <li> <strong>Strange Noises:</strong> Sounds like banging or hissing could indicate damaged parts.</li>
-                  <li> <strong>Increased Energy Bills:</strong> A spike in bills often means your AC is working inefficiently.</li>
                   <li> <strong>Frequent Cycling:</strong> Constantly turning on and off might suggest a faulty thermostat or oversized system.</li>
-                  <li> <strong>Poor Airflow:</strong> Weak airflow can result from a clogged filter or issues with the ducts.
-                    Stay alert for these signs to maintain your AC. If you notice any issues, consult a professional technician for help.</li>
+                  <li> <strong>Insufficient Cooling:</strong> May be due to a refrigerant leak, blocked filter, or compressor issues.</li>
+                  <li> <strong>Increased Energy Bills:</strong> A spike in bills often means your AC is working inefficiently.</li>
                 </ul>
+                <p>
+                Stay alert for these signs to maintain your AC. If you notice any issues, consult a professional technician for help.
+
+                </p>
               </div>
             </div>
           </div>
@@ -364,7 +367,8 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
 
         <BenefitAcMaintenance />
 
-        <ACWhychooseUs />
+        <ACWhyChooseUs/>
+
 
         {/* We specialise in air conditioning Repair services for the following brands */}
         <section className="section cs_py_30 bg-light-gray">

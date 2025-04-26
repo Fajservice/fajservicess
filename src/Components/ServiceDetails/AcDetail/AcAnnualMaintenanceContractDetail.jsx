@@ -86,13 +86,14 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
-            <p>F A J Technical Services L.L.C is a leading AC repair company in Dubai, providing reliable air conditioner services tailored to the UAE's hot climate.
-              <br />
-              Our trained professionals ensure a comfortable environment for living, learning, working, and playing.
-              When your air conditioning system fails, we’re here to help. Choose FAJ for all your AC repair needs in Dubai.
-            </p>
+            <h2 className="cs_fs_30">Essential Air Conditioner Maintenance Contract Services</h2>
 
+            <p>
+              At FAJ Technical Services L.L.C, customer satisfaction is our top priority. We offer a straightforward and cost-effective annual maintenance contract that covers all essential maintenance for your home and business.
+              Our contract includes year-round AC servicing, along with qualified support for plumbing and electrical repairs (MEP). We believe our essential maintenance contract is one of the best maintenance packages available in Dubai.
+              <br />Our highly skilled team of fully qualified and specialized technicians is ready to provide the same level of service and workmanship that our customers have come to expect from FAJ. Additionally, we offer emergency assistance 365 days a year.
+
+            </p>
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
@@ -105,49 +106,39 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
         {/* Maintenance Contract */}
         <MaintenanceContract />
 
-        {/* Select Air Conditioner Repair & Service */}
+        {/* Annual AC Maintenance Contract - AMC */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <div className="row gx-md-5">
+            <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
                 {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" /> */}
-                <h3 className="cs_fs_24 mb-1">Select Air Conditioner Repair & Service </h3>
-                <p className="mb-2">Regular AC maintenance in Dubai is essential to ensure that your air conditioner unit continues to function properly. Over time, filters and coils can become dirty and clogged, leading to a decline in cooling performance.</p>
-                <p>This can also result in issues such as water leakage from the indoor unit and unpleasant odors. So, what is the solution? If you're searching for a reliable AC maintenance company in Dubai to take care of your home or office aircon needs, look no further.</p>
-
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Signs Need An AC Maintenance</h3>
-                <p className="mb-2">Why do things break down at inconvenient times, like AC failing on a hot summer night? AC Maintaining unit from the start is crucial.
+                <h3 className="cs_fs_24 mb-1">Annual AC Maintenance Contract - AMC </h3>
+                <p className="mb-2">
+                  Ensure consistent efficiency for your AC system with an Annual Maintenance Contract (AMC).
+                  <br /> Keep your AC functioning optimally throughout the year with our reliable maintenance contract in Dubai and Sharjah, UAE.
+                  <br />This will help maintain excellent cooling performance and prevent costly malfunctions!
                   <br />
-                  Let’s explore the signs that indicate it may be time for air conditioner maintenance.
+                  Keeping an AC AMC in place can help you avoid unexpected costs, improve energy efficiency, and ensure a comfortable indoor environment.
+                  <br /> It’s essential to select a reputable service provider to get the most out of your contract.
                 </p>
-                <div className="row">
-                  <div className="col-sm-6">
-                    <ul className="mb-0">
-                      <li>Bad odors</li>
-                      <li>High humidity</li>
-                      <li>Insufficient airflow</li>
-                    </ul>
-                  </div>
-
-                  <div className="col-sm-6">
-                    <ul className="mb-0">
-                      <li>Warm air from vents</li>
-                      <li>Frequent cycles</li>
-                      <li>Insufficient airflow</li>
-
-                    </ul>
-                  </div>
-                </div>
               </div>
 
               <div className="col-md-6 ">
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/Select-Air-Conditioner-Repair-&-Service.jpg`} alt="Post Image" />
-
               </div>
             </div>
 
-            <div className="appointment-col border-small-top pt-3">
-              <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection/callout fees, AC service near you, repair, or maintenance, please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+            <div className="appointment-col border-small-top mt-3 pt-3">
+              <h3 className="cs_fs_24 mb-1 mt-3  ">
+                Explore the Benefits of FAJ’s Annual AC Maintenance Contract
+              </h3>
+              <p>
+                Our AC annual maintenance contract ensures that your air conditioning needs are met with the utmost care.
+                With extensive knowledge in AC maintenance, our team comprises some of the best professionals in the UAE.
+                <br />
+                Since 2010, we have been repairing, cleaning, and maintaining a wide range of AC and HVAC and FAHU systems.
+                Our technicians are experienced and utilize advanced technology to keep your AC system in optimal condition. If you’re interested in learning more about our AMC options, please feel free to contact us.
+              </p>
               <div id="get-quote" className=" mt-3">
                 <div className="container d-flex justify-content-center align-items-center gap-3">
                   <WhatsappIconButton />
@@ -336,7 +327,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <h3 className="cs_fs_30">What is included in an AC Maintenance Contract?</h3>
             <p className="mb-0">
-              When considering air conditioner maintenance, it’s essential to understand what an AC contract should encompass. While many AC contractor packages offer these services, the details can vary.              
+              When considering air conditioner maintenance, it’s essential to understand what an AC contract should encompass. While many AC contractor packages offer these services, the details can vary.
             </p>
 
             <div className="row align-items-center">
