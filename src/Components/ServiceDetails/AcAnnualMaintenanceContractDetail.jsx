@@ -331,45 +331,32 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/*What is covered in an AC Maintenance Contract?  */}
+        {/*What is included in an AC Maintenance Contract?  */}
         <section className="section cs_py_30 ">
           <div className="container">
-            <h3 className="cs_fs_30">What is covered in an AC Maintenance Contract?</h3>
+            <h3 className="cs_fs_30">What is included in an AC Maintenance Contract?</h3>
+            <p className="mb-0">
+              When considering air conditioner maintenance, it’s essential to understand what an AC contract should encompass. While many AC contractor packages offer these services, the details can vary.              
+            </p>
+
             <div className="row align-items-center">
               <div className="col-md-6">
-                <h4 className="cs_fs_20">Typically, a comprehensive maintenance contract will include the following:</h4>
+                <p className="" >
+                  We’ll explore the key components of AC maintenance, their importance, and why regular maintenance is essential for your system’s longevity.</p>
                 <ul className="acsvs-exp-spl-para tick-ul mb-0">
-                  <li>Servicing of condenser coils.</li>
-                  <li> Checking and cleaning of air filters.</li>
+                  <li>  Priority service for repair calls    </li>
+                  <li>  Get a 10% discount on service work   </li>
+                  <li>  Receive a 10% discount on labor charges    </li>
+                  <li> Get  10% discount on replacement of part   </li>
+                  <li>  Major and minor service withAC repair work   </li>
+                  <li> No trip charge for regular AC repair during normal working hours   </li>
+                  <li> Enjoy a 10% discount on materials and parts not covered by warranty    </li>
+                  <li> A guarantee is provided from the date of repair for all customer-ordered repairs   </li>
 
-                  <li>Checking the operation of the thermostat.</li>
-
-                  <li> Checking & ensuring the units ampere and voltage.</li>
-
-                  <li>Cleaning the entire body of the indoor unit with cloth.</li>
-                  <li>Servicing of condenser coils / indoor Cleaning of air filters.</li>
-
-                  <li>Check compressor performance and operating condition.</li>
-
-                  <li> Inspect blower fan and motor and ensure it’s working correctly.</li>
-
-                  <li>Checking and tighten the foundation bolts and mounting nuts of the units.</li>
-
-                  <li> Cleaning of the drain pan by pouring water and flushing it with an air blower to remove any blockage
-                    Checking and tightening of wire terminals for proper power conductivity and all electrical components.</li>
-
-                  <li>Checking the suction and discharge pressure for any short- fall of refrigerant gas, oil and gas filling.</li>
                 </ul>
               </div>
               <div className="col-md-6 text-center text-md-end">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/The-Importance-of-AC-Maintenance-Contract-Service.jpg`} alt="Post Image" />
-                <ul className="text-md-start">
-                  <li>Cleaning of drain pan by pouring water and flush the same with air blower to remove any blockage.</li>
-
-                  <li>Minor Service includes only filter cleaning and outdoor wash and checking the unit thoroughly with the readings and replacing the parts as necessary.</li>
-
-                  <li> Major Service will be once in six months, full checking the units thoroughly with readings and replacing the parts as necessary.</li>
-                </ul>
               </div>
             </div>
           </div>
