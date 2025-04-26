@@ -100,7 +100,6 @@ const AcRepairInAlBarshaSouthDetail =  ({ subtitle, title, bgImg }) => {
       {/* Maintenance Contract */}
       <MaintenanceContract />
 
-
       {/* Experts AC Service and Maintenance */}
       <section className="section cs_py_30 bg-light-gray">
         <div className="container">
