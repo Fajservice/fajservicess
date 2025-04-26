@@ -1,5 +1,5 @@
 import BreadCumb from "../Components/Common/BreadCumb";
-import AcAnnualMaintenanceContractDetail from "../Components/ServiceDetails/AcAnnualMaintenanceContractDetail";
+import AcAnnualMaintenanceContractDetail from "../Components/ServiceDetails/AcDetail/AcAnnualMaintenanceContractDetail";
 
 const AcAnnualMaintenanceContract = () => {
     return (
@@ -10,7 +10,7 @@ const AcAnnualMaintenanceContract = () => {
                 Title="Best AC Annual Maintenance Contract Service Dubai AC AMC Services"
             ></BreadCumb> 
 
-            <AcAnnualMaintenanceContractDetail></AcAnnualMaintenanceContractDetail>        
+            <AcAnnualMaintenanceContractDetail /> 
         </div>
     );
 };
