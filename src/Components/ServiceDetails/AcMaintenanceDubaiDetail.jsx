@@ -338,13 +338,9 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
 
         {/* The Benefits Of Regular AC Service*/}
         <BenefitAcMaintenance />
-
-
-
         <ACWhyChooseUs />
 
-        {/* We specialise in AC  maintenance services for the following brands.
- */}
+        {/* We specialise in AC  maintenance services for the following brands.*/}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3>We specialise in AC maintenance services for the following brands.

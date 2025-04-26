@@ -354,12 +354,12 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
             <h3 className="cs_fs_30 mb-3 mt-4">The Benefits Of appliances Service Dubai
                 </h3>
 
-                <div className="row mt-4 gx-3 gy-4">
+                <div className="row mt-4 gx-3 gy-5">
                   <div className="col-md-4 mb-2">
                     <div className="">
                       <div className="benifit-box-container">
                         <div className="icon-img-block">
-                          <img src={`${import.meta.env.BASE_URL}/img/icons/care-repair-svg.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                          <img src={`${import.meta.env.BASE_URL}/img/icons/Ensuring-Safety.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                         </div>
                         <h4 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h4>
                         <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
@@ -372,7 +372,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
                     <div className="">
                       <div className="benifit-box-container">
                         <div className="icon-img-block">
-                          <img src={`${import.meta.env.BASE_URL}/img/icons/clock-svg.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                          <img src={`${import.meta.env.BASE_URL}/img/icons/Optimal-Performance.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                         </div>
                         <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
                         </h4>
@@ -387,7 +387,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
                     <div className="">
                       <div className="benifit-box-container">
                         <div className="icon-img-block">
-                          <img src={`${import.meta.env.BASE_URL}/img/icons/computer-maintenance-2-grey-svg.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                          <img src={`${import.meta.env.BASE_URL}/img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                         </div>
                         <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
                         <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
@@ -401,7 +401,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
                     <div className="">
                       <div className="benifit-box-container">
                         <div className="icon-img-block">
-                          <img src={`${import.meta.env.BASE_URL}/img/icons/care-repair-svg.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                          <img src={`${import.meta.env.BASE_URL}/img/icons/Saving-Money-on-Repair.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                         </div>
                         <h4 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h4>
                         <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
@@ -414,7 +414,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
                     <div className="">
                       <div className="benifit-box-container">
                         <div className="icon-img-block">
-                          <img src={`${import.meta.env.BASE_URL}/img/icons/gift-card-svg.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                          <img src={`${import.meta.env.BASE_URL}/img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                         </div>
                         <h4 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h4>
                         <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
@@ -428,7 +428,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
                     <div className="">
                       <div className="benifit-box-container">
                         <div className="icon-img-block">
-                          <img src={`${import.meta.env.BASE_URL}/img/icons/service-svg.svg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                          <img src={`${import.meta.env.BASE_URL}/img/icons/Peace-of-Mind.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                         </div>
                         <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                         </h4>
