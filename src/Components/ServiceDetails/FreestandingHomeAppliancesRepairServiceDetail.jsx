@@ -102,42 +102,44 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
         </section>
 
         {/* Maintenance Contract */}
-        <MaintenanceContract/>
+        <MaintenanceContract />
 
         {/* Best Home Appliance Service Center */}
+
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <div className="row g-5">
+            <div className="row gx-md-5">
               <div className="col-md-6">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/Book-your-Appointment-for-Appliances-Repair-Service.png`} alt="Post Image" />
-                <h3 className="cs_fs_24 mb-1 mt-3">Best Home Appliance Service Center</h3>
-                <p>If you need appliance repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
-                  <br />
-                  Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
-                  <br />
-                  We're nearby and can get your appliances fixed quickly and efficiently.
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" /> */}
+                <h3 className="cs_fs_24 mb-1">Best Home Appliance Service Center</h3>
 
+                <p className="mb-2">
+                  If you need appliance repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
+                  <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
+                  <br /> We're nearby and can get your appliances fixed quickly and efficiently.
                 </p>
-              </div>
 
-              <div className="col-md-6 border-small-left">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/Appliances-Repair-Services-in-Dubai-UAE.jpg`} alt="Post Image" />
-                <h3 className="cs_fs_24 mb-1 mt-3">Appliance Technical Inspection Fee</h3>
-                <p>
+
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Appliance Technical Inspection Fee</h3>
+                <p className="mb-0">
                   The technical inspection fee is AED 157, which covers diagnosis, transportation, and reinstallation in Dubai premises.
                   <br />
                   Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.
-
                 </p>
+              </div>
+
+              <div className="col-md-6 ">
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/Appliances-Repair-Services-in-Dubai-UAE.jpg`} alt="Post Image" />
 
               </div>
             </div>
 
             <div className="appointment-col border-small-top pt-3">
-              <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.
-                <br />
-                Timing: Mon-Sat 8:00 AM to 6:00 PM - Sunday 12:00 PM to 6:00 PM.
-                To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+              <p>
+              If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.
+              Timing: Mon-Sat 8:00 AM to 6:00 PM - Sunday 12:00 PM to 6:00 PM. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.  
+              </p>
               <div id="get-quote" className=" mt-3">
                 <div className="container d-flex justify-content-center align-items-center gap-3">
                   <WhatsappIconButton />
@@ -147,6 +149,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
             </div>
           </div>
         </section>
+
 
         <section className="section cs_py_30">
           <div className="container">
@@ -351,92 +354,92 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
         <section className="section cs_py_30 appliances-benifit-sec">
           <div className="container">
             <div className="row justify-content-center">
-            <h3 className="cs_fs_30 mb-3 mt-4">The Benefits Of appliances Service Dubai
-                </h3>
+              <h3 className="cs_fs_30 mb-3 mt-4">The Benefits Of appliances Service Dubai
+              </h3>
 
-                <div className="row mt-4 gx-3 gy-5">
-                  <div className="col-md-4 mb-2">
-                    <div className="">
-                      <div className="benifit-box-container">
-                        <div className="icon-img-block">
-                          <img src={`${import.meta.env.BASE_URL}/img/icons/Ensuring-Safety.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
-                        </div>
-                        <h4 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h4>
-                        <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
-
+              <div className="row mt-4 gx-3 gy-5">
+                <div className="col-md-4 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block">
+                        <img src={`${import.meta.env.BASE_URL}/img/icons/Ensuring-Safety.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h4>
+                      <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
 
                     </div>
-                  </div>
-                  <div className="col-md-4 mb-2">
-                    <div className="">
-                      <div className="benifit-box-container">
-                        <div className="icon-img-block">
-                          <img src={`${import.meta.env.BASE_URL}/img/icons/Optimal-Performance.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
-                        </div>
-                        <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
-                        </h4>
-                        <p className="small">Regular maintenance helps your appliances run smoothly and efficiently, delivering the best results every time.
-                        </p>
 
+                  </div>
+                </div>
+                <div className="col-md-4 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block">
+                        <img src={`${import.meta.env.BASE_URL}/img/icons/Optimal-Performance.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
+                      </h4>
+                      <p className="small">Regular maintenance helps your appliances run smoothly and efficiently, delivering the best results every time.
+                      </p>
 
                     </div>
-                  </div>
-                  <div className="col-md-4 mb-2">
-                    <div className="">
-                      <div className="benifit-box-container">
-                        <div className="icon-img-block">
-                          <img src={`${import.meta.env.BASE_URL}/img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
-                        </div>
-                        <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
-                        <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
 
+                  </div>
+                </div>
+                <div className="col-md-4 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block">
+                        <img src={`${import.meta.env.BASE_URL}/img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
+                      <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
 
                     </div>
+
                   </div>
+                </div>
 
-                  <div className="col-md-4 mb-2">
-                    <div className="">
-                      <div className="benifit-box-container">
-                        <div className="icon-img-block">
-                          <img src={`${import.meta.env.BASE_URL}/img/icons/Saving-Money-on-Repair.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
-                        </div>
-                        <h4 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h4>
-                        <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
-
+                <div className="col-md-4 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block">
+                        <img src={`${import.meta.env.BASE_URL}/img/icons/Saving-Money-on-Repair.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h4>
+                      <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
 
                     </div>
-                  </div>
-                  <div className="col-md-4 mb-2">
-                    <div className="">
-                      <div className="benifit-box-container">
-                        <div className="icon-img-block">
-                          <img src={`${import.meta.env.BASE_URL}/img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
-                        </div>
-                        <h4 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h4>
-                        <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
 
+                  </div>
+                </div>
+                <div className="col-md-4 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block">
+                        <img src={`${import.meta.env.BASE_URL}/img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h4>
+                      <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
 
                     </div>
+
                   </div>
-                 
-                  <div className="col-md-4 mb-2">
-                    <div className="">
-                      <div className="benifit-box-container">
-                        <div className="icon-img-block">
-                          <img src={`${import.meta.env.BASE_URL}/img/icons/Peace-of-Mind.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
-                        </div>
-                        <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
-                        </h4>
-                        <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                </div>
+
+                <div className="col-md-4 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block">
+                        <img src={`${import.meta.env.BASE_URL}/img/icons/Peace-of-Mind.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
+                      </h4>
+                      <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
                     </div>
                   </div>
                 </div>
+              </div>
             </div>
           </div>
         </section>
