@@ -76,15 +76,14 @@ const AcRepairInAcademyCityDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
     <HelmetProvider>
-      <title>AC Service in Dubai - AC Repair & Maintenance Dubai</title>
-      <meta name="description" content=" Get Same Day AC Service in Dubai, We specialize in home / office air conditioner ( AC ) repair and maintenance Dubai. Book +971 50 746 4712 for air con fix for air con fix"></meta>
+      <title>AC Service In Academy City - AC Regas - Fix AC Errors Dubai</title>
+      <meta name="description" content="Get AC Services in Academy City Dubai. FAJ is here to help you with air conditioner repair near me & ceiling, HVAC maintenance company near me "></meta>
     </HelmetProvider>
     <HeaderForm />
     <div className="cs_service_details">
 
       <section className="section cs_py_30">
         <div className="container">
-          {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
           <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
           <p>F A J Technical Services L.L.C is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
             <br />
@@ -128,15 +127,9 @@ const AcRepairInAcademyCityDetail = ({ subtitle, title, bgImg }) => {
               </ul>
                 </div>
               </div>
-              {/* <ul className="mb-0">
-                <li>Higher electricity bills / Loss of AC performance</li>
-                <li>Air is not blowing cold / Poor AC airflow, making noises</li>
-                <li>Drips from your air conditioner</li>
-              </ul> */}
             </div>
 
             <div className="col-md-6 ">
-              {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
               <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/Experts-AC-Service-and-Maintenance.jpg`} alt="Post Image" />
 
             </div>
@@ -170,7 +163,6 @@ const AcRepairInAcademyCityDetail = ({ subtitle, title, bgImg }) => {
 
           <div className="row align-items-center">
             <div className="col-md-6">
-              {/* <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
               <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/What-is-covered-in-an-AC-Maintenance-Contract.jpg`} alt="Post Image" />
             </div>
             <div className="col-md-6">
@@ -300,31 +292,6 @@ AC servicing in Dubai ensures comfort, efficiency, and consistent cooling daily.
 
       {/* The Benefits Of Regular AC Service*/}
       <BenefitAcMaintenance />
-
-      {/*Why Choose F A J Technical Services L.L.C?  */}
-      {/* <section className="section cs_py_30 ">
-        <div className="container">
-          <h3 className="cs_fs_30">Why Choose F A J Technical Services L.L.C?</h3>
-          <div className="row align-items-center">
-            <div className="col-md-6">
-              <h4 className="cs_fs_18">We provide quick, efficient service and peace of mind</h4>
-              <ul className="acsvs-exp-spl-para tick-ul mb-0">
-                <li><b>We get the job done on time</b> thanks to our larger team and dedicated parts warehouse</li>
-                <li><b>All our AC technicians are fully qualified</b> and extensively trained by us to address all types of AC issues.</li>
-                <li><b>We help prevent future breakdowns</b> by only using locally produced, highest quality refrigerant gas.</li>
-                <li><b>From routine maintenance to complex repairs</b> we offers all type of AC repair and maintenance services.</li>
-                <li><b>We only use genuine parts</b> to give you peace of mind.</li>
-                <li><b>We give service warranty</b> to make sure you are relax.</li>
-                <li><b>We look after the environment</b> by always recycling our gas.</li>
-              </ul>
-            </div>
-            <div className="col-md-6 text-center text-md-end">
-              <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance-in-Dubai.jpeg`} alt="Post Image" />
-            </div>
-          </div>
-        </div>
-      </section> */}
-
 
       {/* Why choose us AC */}
       <ACWhyChooseUs />
@@ -526,7 +493,6 @@ AC servicing in Dubai ensures comfort, efficiency, and consistent cooling daily.
             </div>
           </div>
         </div>
-        {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
       </section>
 
       {/* FAQ's */}
