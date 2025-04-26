@@ -67,14 +67,13 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-      <title>Coleman AC Repair in Dubai - Air Conditioner Maintenance Near</title>
-      <meta name="description" content="Best Coleman Air Conditioning in UAE. Call at 043300002 for Sameday of Your Coleman AC (Air Conditioner) Repair, Maintenance & Service in Dubai"/>
+      <title>Coleman Ac Repair in Dubai -  Air Conditioner Maintenance</title>
+      <meta name="description" content="Relax with Coleman. Call 043300002 for Coleman Ac Repair in Dubai We are experts in HVAC, Central Air Conditioner maintenance service near me"/>
       </HelmetProvider>
 
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
             <p>F A J Technical Services L.L.C is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
               <br />
@@ -170,22 +169,7 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
             </div>
           </div>
         </section>
-        {/* <section className="section cs_py_30 bg-light-gray">
-          <div className="container">
-          <h3 className="cs_fs_30">Coleman Air Con Service Quality Workmanship </h3>
-            <div className="row align-items-center">
-              <div className="col-md-6">
-                
-                <p>FAJ is working consistently since 2010 to make its customers satisfied and comfortable. Getting the best Coleman ac repair service in Dubai is not easy especially when you are in urgent need. Our superior workmanship is what makes us different from others. In the need of immediate help, we are present and we provide unbeatable service to our customers. With our regular maintenance service keep your Coleman air con running smoothly and swiftly. <br />Breathing fresh air is the right of everyone. Getting top-quality fresh air requires the best air con. Coleman can provide healthy air to its buyers. In Dubai, Coleman is the leading brand. So, if you have Coleman air conditioning at your home or office and looking for its repairs. Why not look for a top-quality service provider for a top ac brand?</p>
-              </div>
-              <div className="col-md-6 text-center text-md-end">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Coleman-ac-repair-service.jpg`} alt="Coleman Ac Repair" />
-                
-              </div>
-            </div>
-
-          </div>
-        </section>  */}
+        
         {/* Common Signs Your AC May Need Maintenanc */}
         <section className="section cs_py_30">
             <div className="container">
@@ -300,53 +284,10 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
         </section>
         {/* A Quick Guide to Understanding and Fixing Your AC Problems */}
         <QuickGuide />
-       
-        {/* <section className="section cs_py_30">
-          <div className="container">
-          <h3 className="cs_fs_30">Get A Full Fledged Expert Service Of Coleman HVAC</h3>
-          <p>While modern HVAC systems are manufactured to deliver year-long service. However, issues with air condition can and will arise. Here are some common problems which are faced by several homeowners, businesses, etc.</p>
-            <div className="row align-items-center">
-                <div className="col-xl-6">
-                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Coleman-ac-repair-dubai.jpg`} alt="Coleman Ac Repair" />
-                </div>
-                <div className="col-xl-6">
-                 
-                  <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span><strong>Blown Is Fused:</strong> One reason your Coleman HVAC is not functioning is because of blown fuses. Fuses are mainly designed to protect the compressor and unit’s motor or ac engine from overheating. Due to that, the breaker gets flipped off which indicates a huge problem with your HVAC air con.</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span><strong>Unclean Air Filters:</strong> Dirty ac filters make your Coleman HVAC aircon to under-perform and eventually freeze. Air filters must be regularly changed otherwise, airflow can be decreased significantly. For exceptional services, FAJ is available on the other side of a single call. Don’t let your air condition issues disturb your comfort and your important work. Let us keep your air conditioning in optimal condition, and make sure you and your loved ones enjoy cool and fresh air.</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span><strong>Poor Refrigerant:</strong> In HVAC ac refrigerant leaks happen and it is caused by system vibration during operation. Leaks always require repairing whether it is in lines or coils. Our expert team takes good care of your property and makes sure to gently handle it. Give your HVAC air conditioning the care it deserves!</span>
-                    </li>
-                  </ul>
-                </div>
-            </div>
-          </div>
-          <section className="section">
-          <div className="container">
-            <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
-                  <WhatsappIconButton />
-                  <CallNowButton />
-                </div>
-              </div>
-          </div>
-        </section>
-        </section> */}
-        
-         {/* The Benefits Of Regular AC Service*/}
-         <BenefitAcMaintenance />
-          {/*Why Choose F A J Technical Services L.L.C? */}
-          <ACWhyChooseUs/>
+        {/* The Benefits Of Regular AC Service*/}
+        <BenefitAcMaintenance />
+        {/*Why Choose F A J Technical Services L.L.C? */}
+        <ACWhyChooseUs/>
         {/* Practical Tips to Improve Energy Efficiency */}
         <section className="section cs_py_30 bg-dark-blue text-light">
             <div className="container text-center">
@@ -478,14 +419,8 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
               subtitle2="Contact us"
               title2="Book and Appointment"
           ></Serviceappointemnt>     
-        
         </div>
-
-        
-      </div>      
-
-        
-      
+      </div>
     </>
   );
 };
