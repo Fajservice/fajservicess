@@ -167,7 +167,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
         </section>
 
 
-        {/* Expert Air Conditioning Maintenance in Dubai to Keep You Cool */}
+        {/* Why Do You Need Regular AC Maintenance in Dubai? */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="cs_fs_30">Why Do You Need Regular AC Maintenance in Dubai?</h3>
@@ -176,7 +176,8 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance-in-Dubai.jpeg`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/What-is-covered-in-an-AC-Maintenance-Contract.jpg`} alt="Post Image" />
+                {/* <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance-in-Dubai.jpeg`} alt="Post Image" /> */}
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -347,7 +348,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
             </h3>
             <div className="row">
               <div className="col-12">
-                <p className="mb-0">
+                <p className="mb-0">  
                   <Link to="/lg-ac-repair-in-dubai/"><b>LG Air Conditioner Maintenance</b></Link>: FAJ offers reliable LG AC Maintenance, and services in Dubai. With professionals, who are experts in split, vrf and central air conditioning units.
                 </p>
                 <p className="mb-0">

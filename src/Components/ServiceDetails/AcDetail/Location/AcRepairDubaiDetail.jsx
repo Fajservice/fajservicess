@@ -101,7 +101,6 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
                 <WhatsappIconButton />
               </div>
             </div>
-            {/*  */}
           </div>
         </section>
 
@@ -123,16 +122,16 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
 
                   <div className="col-sm-6">
                     <ul className="mb-0">
+                      <li>Leaks of gas</li>
                       <li>Insufficient Cooling</li>
                       <li>Water around your AC unit</li>
-                      <li>Leaks of gas</li>
                     </ul>
                   </div>
 
                   <div className="col-sm-6">
                     <ul className="mb-0">
                       <li>AC blowing warm air</li>
-                      <li>Strange Noises Coming From The AC</li>
+                      <li>Strange Noises From The AC</li>
                     </ul>
                   </div>
                 </div>
@@ -352,7 +351,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
 
 
                   <p className="mb-0">
-                    If none of these steps resolve the issue, it may be time to call in a FAJ professional AC technician for a thorough diagnosis and repair.
+                    If none of these steps resolve the issue, it may be time to call FAJ professional AC technician for a thorough diagnosis and repair.
 
                   </p>
 
