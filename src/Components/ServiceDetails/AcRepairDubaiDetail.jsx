@@ -333,85 +333,23 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
 
               <div className="col-xl-6">
                 <div className="row ">
-                  <div className="col-12 col-md-6">
-                    <ul className="cs_list cs_style_1 cs_fs_16 p-0">
-                      <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                          <i className="bi bi-check"></i></span>
-                        <span>Set Your AC Thermostat Correctly</span>
-                      </li>
+                  <div className="col">
+
+                    <ol type="1">
+                      <li> The AC fan isn’t working </li>
+                      <li> The AC control panel is faoty </li>
+                      <li> The air conditioner never turns off </li>
+                      <li> The air conditioner won’t switch on </li>
+                      <li> Your air conditioner is blowing hot air </li>
+                      <li> The AC unit is making strange noises </li>
+                      <li> There is no AC air flow from the registers </li>
+                      <li> The air conditioner sets off the trip switch </li>
+                      <li> The air conditioner isn’t cooling even though it’s running </li>
+                      <li>The air conditioner is leaking, or it’s not reducing humidity </li>
+                    </ol>
+                  </div>  
 
 
-                      <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                          <i className="bi bi-check"></i></span>
-                        <span>Investigate for Tripped Circuit Breakers
-                        </span>
-                      </li>
-
-                      <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                          <i className="bi bi-check"></i></span>
-                        <span>Clean Your AC Air Filters</span>
-                      </li>
-
-                      <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                          <i className="bi bi-check"></i></span>
-                        <span>Get Your AC Air Ducts Cleaned</span>
-                      </li>
-
-                      <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                          <i className="bi bi-check"></i></span>
-                        <span>Check Your Outdoor AC Unit
-                        </span>
-                      </li>
-
-
-                    </ul>
-                  </div>
-
-                  <div className="col-12 col-md-6">
-                    <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
-
-
-                      <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                          <i className="bi bi-check"></i></span>
-                        <span>Close Your Room Windows and Doors
-                        </span>
-                      </li>
-
-                      <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                          <i className="bi bi-check"></i></span>
-                        <span>Call a FAJ Technician to Check for Low Refrigerant (Gas)
-
-                        </span>
-                      </li>
-
-                      <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                          <i className="bi bi-check"></i></span>
-                        <span>Open Your AC Air Vents</span>
-                      </li>
-
-                      <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                          <i className="bi bi-check"></i></span>
-                        <span>Investigate for AC Water Leaks
-                        </span>
-                      </li>
-
-                      <li>
-                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                          <i className="bi bi-check"></i></span>
-                        <span>Call FAJ Experts for AC</span>
-                      </li>
-
-                    </ul>
-                  </div>
                   <p className="mb-0">
                     If none of these steps resolve the issue, it may be time to call in a FAJ professional AC technician for a thorough diagnosis and repair.
 
