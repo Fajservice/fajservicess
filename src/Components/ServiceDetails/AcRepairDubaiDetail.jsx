@@ -100,7 +100,6 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
                 <WhatsappIconButton />
               </div>
             </div>
-            {/*  */}
           </div>
         </section>
 
@@ -122,16 +121,16 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
 
                   <div className="col-sm-6">
                     <ul className="mb-0">
+                      <li>Leaks of gas</li>
                       <li>Insufficient Cooling</li>
                       <li>Water around your AC unit</li>
-                      <li>Leaks of gas</li>
                     </ul>
                   </div>
 
                   <div className="col-sm-6">
                     <ul className="mb-0">
                       <li>AC blowing warm air</li>
-                      <li>Strange Noises Coming From The AC</li>
+                      <li>Strange Noises From The AC</li>
                     </ul>
                   </div>
                 </div>
