@@ -100,14 +100,13 @@ const AcRepairInAlBarshaSouthDetail =  ({ subtitle, title, bgImg }) => {
       {/* Maintenance Contract */}
       <MaintenanceContract />
 
-
       {/* Experts AC Service and Maintenance */}
       <section className="section cs_py_30 bg-light-gray">
         <div className="container">
           <div className="row gx-md-5">
             <div className="col-md-6">
-              <h3 className="cs_fs_24 mb-1">Best AC Repair in Academy City</h3>
-              <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Academy City, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
+              <h3 className="cs_fs_24 mb-1">Best AC Repair in Al Barsha South</h3>
+              <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Al Barsha South, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
               <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
               <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
               <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
@@ -126,11 +125,7 @@ const AcRepairInAlBarshaSouthDetail =  ({ subtitle, title, bgImg }) => {
               </ul>
                 </div>
               </div>
-              {/* <ul className="mb-0">
-                <li>Higher electricity bills / Loss of AC performance</li>
-                <li>Air is not blowing cold / Poor AC airflow, making noises</li>
-                <li>Drips from your air conditioner</li>
-              </ul> */}
+        
             </div>
 
             <div className="col-md-6 ">
