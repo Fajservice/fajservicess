@@ -343,7 +343,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
         {/* We specialise in AC  maintenance services for the following brands.*/}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3>We specialise in AC maintenance services for the following brands.
+            <h3>We specialise in AC maintenance services for the following brands
             </h3>
             <div className="row">
               <div className="col-12">
