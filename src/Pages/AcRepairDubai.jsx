@@ -1,5 +1,5 @@
 import BreadCumb from "../Components/Common/BreadCumb";
-import AcRepairDubaiDetail from "../Components/ServiceDetails/AcRepairDubaiDetail";
+import AcRepairDubaiDetail from "../Components/ServiceDetails/AcDetail/Location/AcRepairDubaiDetail";
 
 const AcRepairDubai = () => {
     return (

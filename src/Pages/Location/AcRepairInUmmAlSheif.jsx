@@ -1,0 +1,17 @@
+import React from 'react'
+import BreadCumb from "../../Components/Common/BreadCumb";
+import AcRepairinUmmAlSheifDetail from '../../Components/ServiceDetails/AcDetail/Location/AcRepairinUmmAlSheifDetail';
+const AcRepairInUmmAlSheif = () => {
+  return (
+    <div className="serviceDetails">
+    <BreadCumb
+        // bgImg="/img/page_heading_1.jpg"
+        bgImg="/img/air-condition.jpg"
+        Title="AC Service and Repair in Umm Al Sheif"
+    ></BreadCumb> 
+    <AcRepairinUmmAlSheifDetail />
+</div>
+  )
+}
+
+export default AcRepairInUmmAlSheif

@@ -4,7 +4,7 @@ import {
 import Main from "../Layout/Main";
 import Home from "../Pages/Home";
 import AboutPage from "../Pages/AboutPage";
-import AcServiceInDubai from "../Pages/AcServiceInDubai";
+import AcServiceInDubai from "../Pages/Location/AcServiceInDubai";
 import AcMaintenanceDubai from "../Pages/AcMaintenanceDubai";
 import AcAnnualMaintenanceContract from "../Pages/AcAnnualMaintenanceContract";
 import AcRepairDubai from "../Pages/AcRepairDubai";
@@ -21,57 +21,57 @@ import BlogPage from "../Pages/BlogPage";
 import ContactPage from "../Pages/ContactPage";
 import BlogDetailsPage from "../Pages/BlogDetailsPage";
 import DubaiAcServicePriceList from "../Pages/DubaiAcServicePriceList"
-import AcRepairInRitz from "../Pages/AcRepairInRitz";
+import AcRepairInRitz from "../Pages/Location/AcRepairInRitz";
 import ColemenAcRepair from "../Pages/ColemenAcRepair";
-import AcRepairInSiliconOasis from "../Pages/AcRepairInSiliconOasis";
-import AcRepairInMetha from "../Pages/AcRepairInMetha";
-import AcRepairInJumeirahVillage from "../Pages/AcRepairInJumeirahVillage";
-import AcRepairInJebelAliFreeZone from "../Pages/AcRepairInJebelAliFreeZone";
+import AcRepairInSiliconOasis from "../Pages/Location/AcRepairInSiliconOasis";
+import AcRepairInMetha from "../Pages/Location/AcRepairInMetha";
+import AcRepairInJumeirahVillage from "../Pages/Location/AcRepairInJumeirahVillage";
+
 import YorkAcRepair from "../Pages/YorkAcRepair";
 import SupraAcRepair from "../Pages/SupraAcRepair";
 import DaikinAcRepair from "../Pages/DaikinAcRepair";
 import FujitsuAcRepair from "../Pages/FujitsuAcRepair";
-import AcRepairInArabianRanches2 from "../Pages/AcRepairInArabianRanches2";
-import AcRepairInLimestoneHouseDifc from "../Pages/AcRepairInLimestoneHouseDifc";
-import AcRepairInAcademyCity from "../Pages/AcRepairInAcademyCity";
-import AcRepairinAlJafiliya from "../Pages/AcRepairinAlJafiliya";
-import AcRepairinTheGreens from "../Pages/AcRepairinTheGreens";
-import AcRepairInUmmAlSheif from "../Pages/AcRepairInUmmAlSheif";
+import AcRepairInArabianRanches2 from "../Pages/Location/AcRepairInArabianRanches2";
+import AcRepairInLimestoneHouseDifc from "../Pages/Location/AcRepairInLimestoneHouseDifc";
+import AcRepairInAcademyCity from "../Pages/Location/AcRepairInAcademyCity";
+import AcRepairinAlJafiliya from "../Pages/Location/AcRepairinAlJafiliya";
+import AcRepairinTheGreens from "../Pages/Location/AcRepairinTheGreens";
+import AcRepairInUmmAlSheif from "../Pages/Location/AcRepairInUmmAlSheif";
 import MideaAcRepair from "../Pages/MideaAcRepair";
 import WestpointAcRepair from "../Pages/WestpointAcRepair";
 import CoolineAcRepair from "../Pages/CoolineAcRepair";
-import AcRepairInDubaiStudioCity from "../Pages/AcRepairInDubaiStudioCity";
-import AcRepairInJumeirahIslands from "../Pages/AcRepairInJumeirahIslands";
-import AcRepairInAlQusais from "../Pages/AcRepairInAlQusais";
-import AcRepairInTheSprings from "../Pages/AcRepairInTheSprings";
-import AcRepairInAlMirdif from "../Pages/AcRepairInAlMirdif";
-import AcRepairInInternationalMediaAndProductionZone from "../Pages/AcRepairInInternationalMediaAndProductionZone";
-import AcRepairInJumeirahVillageCircle from "../Pages/AcRepairInJumeirahVillageCircle";
-import AcRepairInBusinessBay from "../Pages/AcRepairInBusinessBay";
+import AcRepairInDubaiStudioCity from "../Pages/Location/AcRepairInDubaiStudioCity";
+import AcRepairInJumeirahIslands from "../Pages/Location/AcRepairInJumeirahIslands";
+import AcRepairInAlQusais from "../Pages/Location/AcRepairInAlQusais";
+import AcRepairInTheSprings from "../Pages/Location/AcRepairInTheSprings";
+import AcRepairInAlMirdif from "../Pages/Location/AcRepairInAlMirdif";
+import AcRepairInInternationalMediaAndProductionZone from "../Pages/Location/AcRepairInInternationalMediaAndProductionZone";
+import AcRepairInJumeirahVillageCircle from "../Pages/Location/AcRepairInJumeirahVillageCircle";
+import AcRepairInBusinessBay from "../Pages/Location/AcRepairInBusinessBay";
 import DaewooAcRepair from "../Pages/DaewooAcRepair";
 import SkmAcRepair from "../Pages/SkmAcRepair";
 import BlueStarAcRepair from "../Pages/BlueStarAcRepair";
-import AcRepairInArabianRanches from "../Pages/AcRepairInArabianRanches";
-import AcRepairInDip from "../Pages/AcRepairInDip";
-import AcRepairInDiscoveryGardens from "../Pages/AcRepairInDiscoveryGardens";
-import AcRepairInAlWahaCommunity from "../Pages/AcRepairInAlWahaCommunity";
-import AcRepairInHudaiba from "../Pages/AcRepairInHudaiba";
-import AcRepairInImpz from "../Pages/AcRepairInImpz";
-import AcRepairInAlSatwa from "../Pages/AcRepairInAlSatwa";
-import AcRepairInAlJafza from "../Pages/AcRepairInAlJafza";
-import AcRepairInJumeriahVillageTriangle from "../Pages/AcRepairInJumeriahVillageTriangle";
-import AcRepairInAlKhawaneej from "../Pages/AcRepairInAlKhawaneej";
-import AcRepairInAlManara from "../Pages/AcRepairInAlManara";
-import AcRepairInLayanCommunity from "../Pages/AcRepairInLayanCommunity";
-import AcRepairInAlBadaa from "../Pages/AcRepairInAlBadaa";
-import AcRepairinAlTawar from "../Pages/AcRepairinAlTawar";
-import AcRepairInJumeirahLakeTowers from "../Pages/AcRepairInJumeirahLakeTowers";
+import AcRepairInArabianRanches from "../Pages/Location/AcRepairInArabianRanches";
+import AcRepairInDip from "../Pages/Location/AcRepairInDip";
+import AcRepairInDiscoveryGardens from "../Pages/Location/AcRepairInDiscoveryGardens";
+import AcRepairInAlWahaCommunity from "../Pages/Location/AcRepairInAlWahaCommunity";
+import AcRepairInHudaiba from "../Pages/Location/AcRepairInHudaiba";
+import AcRepairInImpz from "../Pages/Location/AcRepairInImpz";
+import AcRepairInAlSatwa from "../Pages/Location/AcRepairInAlSatwa";
+import AcRepairInAlJafza from "../Pages/Location/AcRepairInAlJafza";
+import AcRepairInJumeriahVillageTriangle from "../Pages/Location/AcRepairInJumeriahVillageTriangle";
+import AcRepairInAlKhawaneej from "../Pages/Location/AcRepairInAlKhawaneej";
+import AcRepairInAlManara from "../Pages/Location/AcRepairInAlManara";
+import AcRepairInLayanCommunity from "../Pages/Location/AcRepairInLayanCommunity";
+import AcRepairInAlBadaa from "../Pages/Location/AcRepairInAlBadaa";
+import AcRepairinAlTawar from "../Pages/Location/AcRepairinAlTawar";
+import AcRepairInJumeirahLakeTowers from "../Pages/Location/AcRepairInJumeirahLakeTowers";
 import RheemAcRepair from "../Pages/RheemAcRepair";
 import RuudAcRepair from "../Pages/RuudAcRepair";
-import AcRepairinTheMeadows from "../Pages/AcRepairinTheMeadows";
-import AcRepairInJumeirahGolfEstates from "../Pages/AcRepairInJumeirahGolfEstates";
-import AcRepairInDubaiInternetCity from "../Pages/AcRepairInDubaiInternetCity";
-import AcRepairInAlBarshaSouth from "../Pages/AcRepairInAlBarshaSouth";
+import AcRepairinTheMeadows from "../Pages/Location/AcRepairinTheMeadows";
+import AcRepairInJumeirahGolfEstates from "../Pages/Location/AcRepairInJumeirahGolfEstates";
+import AcRepairInDubaiInternetCity from "../Pages/Location/AcRepairInDubaiInternetCity";
+import AcRepairInAlBarshaSouth from "../Pages/Location/AcRepairInAlBarshaSouth";
 import TraneAcRepair from "../Pages/TraneAcRepair";
 import SuperGeneralAcRepair from "../Pages/SuperGeneralAcRepair";
 import ToshibaAcRepair from "../Pages/ToshibaAcRepair";
@@ -82,6 +82,7 @@ import WhirlpoolAcRepair from "../Pages/WhirlpoolAcRepair";
 import SamsungAcRepair from "../Pages/SamsungAcRepair";
 import McquayAcRepair from "../Pages/McquayAcRepair";
 import NikaiAcRepair from "../Pages/NikaiAcRepair";
+import AcRepairInJebelAliFreeZone from "../Pages/Location/AcRepairInJebelAliFreeZone";
 export const router = createHashRouter([
   {
     path: "/",
@@ -109,7 +110,7 @@ export const router = createHashRouter([
       },
       {
         path: "/ac-annual-maintenance-contract/",
-        element: <AcAnnualMaintenanceContract></AcAnnualMaintenanceContract>,
+        element: <AcAnnualMaintenanceContract />,
       },
       {
         path: "/ac-repair-dubai/",
@@ -257,7 +258,7 @@ export const router = createHashRouter([
       },
       {
         path: "/ac-services-in-the-ritz-carlton-difc/",
-        element: <AcRepairInRitz></AcRepairInRitz>,
+        element: <AcRepairInRitz />,
       },
       {
         path: "/ac-services-in-dubai-silicon-oasis/",
