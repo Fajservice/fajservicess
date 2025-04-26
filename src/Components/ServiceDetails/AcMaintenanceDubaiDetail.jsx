@@ -121,13 +121,24 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Signs Need An AC Maintenance</h3>
                 <p className="mb-2">Why do things break down at inconvenient times, like AC failing on a hot summer night? AC Maintaining unit from the start is crucial.
                   Let’s explore the signs that indicate it may be time for air conditioner maintenance.</p>
-                <ul className="mb-0">
+                <div className="row">
+                  <div className="col-sm-6">
+                    <ul className="mb-0">
+                      <li> Bad odors </li>
+                      <li> High humidity</li>
+                      <li> Insufficient airflow</li>
+                    </ul>
+                  </div>
 
-                  <li> Bad odors / Warm air from vents </li>
-                  <li> High humidity / Frequent cycles </li>
-                  <li> Insufficient airflow / Water leaks </li>
+                  <div className="col-sm-6">
+                    <ul className="mb-0">
+                      <li> Warm air from vents </li>
+                      <li> Frequent cycles </li>
+                      <li>Water leaks </li>
+                    </ul>
+                  </div>
 
-                </ul>
+                </div>
               </div>
 
               <div className="col-md-6 ">
