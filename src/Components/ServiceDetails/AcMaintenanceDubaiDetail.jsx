@@ -176,7 +176,8 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance-in-Dubai.jpeg`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/What-is-covered-in-an-AC-Maintenance-Contract.jpg`} alt="Post Image" />
+                {/* <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance-in-Dubai.jpeg`} alt="Post Image" /> */}
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">

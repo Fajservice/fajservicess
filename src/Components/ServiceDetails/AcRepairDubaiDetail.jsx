@@ -350,7 +350,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
 
 
                   <p className="mb-0">
-                    If none of these steps resolve the issue, it may be time to call in a FAJ professional AC technician for a thorough diagnosis and repair.
+                    If none of these steps resolve the issue, it may be time to call FAJ professional AC technician for a thorough diagnosis and repair.
 
                   </p>
 
