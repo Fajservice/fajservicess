@@ -1,13 +1,13 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../Data/SupraAcRepairfaq.json';
+import data from '../../Data/AcData/AcFaqs/AcServiceInDubai.json';
 import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import CallNowButton from '../Buttons/CallNowButton';
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
-import testimonial_data_Supra from '../../Data/SupraAcServiceTestimonials.json';
+import testimonial_data_Supra from '../../Data/AcData/AcFaqs/AcTestimonial/AcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";
 

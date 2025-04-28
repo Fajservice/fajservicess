@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../Data/FreestandingHomeAppliancesRepairService.json';
+import data from '../../Data/AcData/AcFaqs/FreestandingHomeAppliancesRepairService.json';
 import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
@@ -10,7 +10,7 @@ import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
-import testimonial_data from '../../Data/AcServiceTestimonials.json';
+import testimonial_data from '../../Data/AcData/AcFaqs/AcTestimonial/AcServiceTestimonials.json';
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../Headeform/HeaderForm";

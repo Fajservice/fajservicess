@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../../../Data/AcFaqs/AcLocation/AcRepairinTheGreens.json';
+import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairinTheGreens.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMaintenance";
