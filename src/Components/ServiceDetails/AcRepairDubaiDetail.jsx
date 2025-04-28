@@ -8,7 +8,6 @@ import CallNowButton from '../Buttons/CallNowButton';
 import GetQuoteButton from "../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
-import QuickGuide from "../QuickGuide/QuickGuide";
 import ACWhyChooseUs from "../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
 
@@ -18,7 +17,6 @@ import loadBackgroudImages from "../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../Headeform/HeaderForm";
 
-// import { Link } from "react-router-dom";
 
 const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
   subtitle = "Testimonial"
