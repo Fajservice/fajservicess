@@ -12,12 +12,11 @@ import QuickGuide from "../../QuickGuide/QuickGuide"
 import ACWhychooseUs from "../../WhyChooseUS/ACWhyChooseUs"
 
 import Slider from "react-slick";
-import testimonial_data from '../../../Data/AcRepairInAlBadaa.json';
+import testimonial_data from '../../../Data/AcServiceTestimonials.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
-
-
+  
 const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
   subtitle = "Testimonial"
   title = "What our clients say About Us"
