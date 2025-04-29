@@ -33,7 +33,7 @@ const QuickGuide = () => {
                             </li>
 
                             <li>
-                                <strong>Repair:</strong> Efficient repair services for all HVAC components, ensuring quick resolution of any issues, such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions!
+                                <strong>Repair Service:</strong> Efficient repair services for all HVAC components, ensuring quick resolution of any issues, such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions!
                             </li>
 
                             <li>
