@@ -13,7 +13,7 @@ import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
-// import testimonial from '../../../../Data/AcData/AcFaqs/AcTestimonial/AcData/AcFaqs/AcTestimonial/AcServiceTestimonials.json';
+import testimonial from '../../../../Data/AcData/AcTestimonial/AcServiceTestimonials.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
@@ -454,7 +454,7 @@ const AcRepairinAlJafiliyaDetail = ({ subtitle, title, bgImg }) => {
                             data-add-slides="2" data-slides-per-view="responsive">
                             <div className="cs_slider_wrapper">
                                 <Slider {...settings}>
-                                    {testimonial_data.map((item, index) => (
+                                    {testimonial.map((item, index) => (
                                         <div key={index} className="cs_slide wow fadeInLeft">
                                             <div className="cs_testimonial cs_style_1 position-relative">
                                                 <div className="cs_testimonial_content cs_white_bg position-relative">
