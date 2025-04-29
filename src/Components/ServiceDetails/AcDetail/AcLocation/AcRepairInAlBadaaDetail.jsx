@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-// import data from '../../../../Data/AcData/AcFaqs/AcLocation/acfaq.json';
+import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInAlBadaa.json';
 import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../../../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
@@ -13,7 +13,7 @@ import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
-// import testimonial_data from '../../../../Data/AcData/AcFaqs/AcServiceInDubai.json';
+import testimonial from '../../../../Data/AcData/AcFaqs/AcServiceInDubai.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
@@ -290,32 +290,6 @@ const AcRepairInAlBadaaDetail = ({ subtitle, title, bgImg }) => {
 
                 {/* The Benefits Of Regular AC Service*/}
                 <BenefitAcMaintenance />
-
-                {/*Why Choose F A J Technical Services L.L.C?  */}
-                {/* <section className="section cs_py_30 ">
-        <div className="container">
-          <h3 className="cs_fs_30">Why Choose F A J Technical Services L.L.C?</h3>
-          <div className="row align-items-center">
-            <div className="col-md-6">
-              <h4 className="cs_fs_18">We provide quick, efficient service and peace of mind</h4>
-              <ul className="acsvs-exp-spl-para tick-ul mb-0">
-                <li><b>We get the job done on time</b> thanks to our larger team and dedicated parts warehouse</li>
-                <li><b>All our AC technicians are fully qualified</b> and extensively trained by us to address all types of AC issues.</li>
-                <li><b>We help prevent future breakdowns</b> by only using locally produced, highest quality refrigerant gas.</li>
-                <li><b>From routine maintenance to complex repairs</b> we offers all type of AC repair and maintenance services.</li>
-                <li><b>We only use genuine parts</b> to give you peace of mind.</li>
-                <li><b>We give service warranty</b> to make sure you are relax.</li>
-                <li><b>We look after the environment</b> by always recycling our gas.</li>
-              </ul>
-            </div>
-            <div className="col-md-6 text-center text-md-end">
-              <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance-in-Dubai.jpeg`} alt="Post Image" />
-            </div>
-          </div>
-        </div>
-      </section> */}
-
-
                 {/* Why choose us AC */}
                 <ACWhyChooseUs />
 
@@ -483,7 +457,7 @@ const AcRepairInAlBadaaDetail = ({ subtitle, title, bgImg }) => {
                             data-add-slides="2" data-slides-per-view="responsive">
                             <div className="cs_slider_wrapper">
                                 <Slider {...settings}>
-                                    {testimonial_data.map((item, index) => (
+                                    {testimonial.map((item, index) => (
                                         <div key={index} className="cs_slide wow fadeInLeft">
                                             <div className="cs_testimonial cs_style_1 position-relative">
                                                 <div className="cs_testimonial_content cs_white_bg position-relative">
