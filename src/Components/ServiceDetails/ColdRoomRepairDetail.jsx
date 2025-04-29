@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../Data/coldroomfaq.json';
+import data from '../../Data/AcData/AcFaqs/coldroomfaq.json';
 import { HelmetProvider } from "react-helmet-async";
 import HeaderForm from "../Headeform/HeaderForm";
 

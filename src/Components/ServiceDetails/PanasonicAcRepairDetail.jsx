@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../Data/PanasonicAcRepairfaq.json';
+// import data from '../../Data/PanasonicAcRepairfaq.json';
 import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
@@ -9,7 +9,8 @@ import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
 import QuickGuide from "../QuickGuide/QuickGuide";
 import ACWhyChooseUs from "../WhyChooseUS/ACWhyChooseUs";
-import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";import testimonial_data_Super_General from '../../Data/PanasonicAcServiceTestimonials.json';
+import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
+// import testimonial_data_Super_General from '../../Data/PanasonicAcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";
 

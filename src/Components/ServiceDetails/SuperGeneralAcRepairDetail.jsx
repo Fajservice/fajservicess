@@ -9,7 +9,8 @@ import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
 import QuickGuide from "../QuickGuide/QuickGuide";
 import ACWhyChooseUs from "../WhyChooseUS/ACWhyChooseUs";
-import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";import testimonial_data_Super_General from '../../Data/SuperGeneralAcServiceTestimonials.json';
+import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
+// import testimonial_data_Super_General from '../../Data/SuperGeneralAcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";
 
