@@ -13,83 +13,94 @@
 /* OVERRIDE CONTAINER for fix content and width */
 @media (min-width: 1400px) {
   .container {
-      max-width: 1140px;
+    max-width: 1140px;
   }
 }
 
 @media (min-width: 1200px) {
   .container {
-      max-width: 1140px;
+    max-width: 1140px;
   }
 }
 
 /* SVG Animation */
 .toolssvgmove {
   -webkit-animation: spinAnimation 7s linear infinite;
-          animation: spinAnimation 7s linear infinite;
-
-          max-height: inherit !important;
-    object-fit: contain !important;
-    width: auto !important;
+  animation: spinAnimation 7s linear infinite;
+  max-height: inherit !important;
+  object-fit: contain !important;
+  width: auto !important;
 }
 
 
 @-webkit-keyframes spinAnimation {
   0% {
     -webkit-transform: rotateX(-20deg) rotateY(0deg);
-            transform: rotateX(-20deg) rotateY(0deg);
+    transform: rotateX(-20deg) rotateY(0deg);
   }
+
   75% {
     -webkit-transform: rotateX(-20deg) rotateY(360deg);
-            transform: rotateX(-20deg) rotateY(360deg);
+    transform: rotateX(-20deg) rotateY(360deg);
   }
+
   100% {
     -webkit-transform: rotateX(-20deg) rotateY(360deg);
-            transform: rotateX(-20deg) rotateY(360deg);
+    transform: rotateX(-20deg) rotateY(360deg);
   }
 }
+
 @keyframes spinAnimation {
   0% {
     -webkit-transform: rotateX(-20deg) rotateY(0deg);
-            transform: rotateX(-20deg) rotateY(0deg);
+    transform: rotateX(-20deg) rotateY(0deg);
   }
+
   75% {
     -webkit-transform: rotateX(-20deg) rotateY(360deg);
-            transform: rotateX(-20deg) rotateY(360deg);
+    transform: rotateX(-20deg) rotateY(360deg);
   }
+
   100% {
     -webkit-transform: rotateX(-20deg) rotateY(360deg);
-            transform: rotateX(-20deg) rotateY(360deg);
+    transform: rotateX(-20deg) rotateY(360deg);
   }
 }
+
 @-webkit-keyframes scallup {
   0% {
     -webkit-transform: translate(-50%, -50%) scale(0);
-            transform: translate(-50%, -50%) scale(0);
+    transform: translate(-50%, -50%) scale(0);
   }
+
   50% {
     -webkit-transform: translate(-50%, -50%) scale(1);
-            transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
   }
+
   100% {
     -webkit-transform: translate(-50%, -50%) scale(0);
-            transform: translate(-50%, -50%) scale(0);
+    transform: translate(-50%, -50%) scale(0);
   }
 }
+
 @keyframes scallup {
   0% {
     -webkit-transform: translate(-50%, -50%) scale(0);
-            transform: translate(-50%, -50%) scale(0);
+    transform: translate(-50%, -50%) scale(0);
   }
+
   50% {
     -webkit-transform: translate(-50%, -50%) scale(1);
-            transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
   }
+
   100% {
     -webkit-transform: translate(-50%, -50%) scale(0);
-            transform: translate(-50%, -50%) scale(0);
+    transform: translate(-50%, -50%) scale(0);
   }
 }
+
 /* svg animation end moving */
 
 
@@ -562,11 +573,12 @@ p a {
   margin-top: 0;
   font-weight: 400;
 }
+
 @media screen and (min-width: 1200px) {
   .usps .uspitem h3 {
     margin-left: -20px;
   }
-  
+
 }
 
 
@@ -599,10 +611,10 @@ p a {
 
 .icon-img-block-icon {
   max-height: inherit !important;
-    object-fit: contain !important;
-    width: auto !important;
-    padding: 10px;
-/*     
+  object-fit: contain !important;
+  width: auto !important;
+  padding: 10px;
+  /*     
   height: 35px;
   width: 35px; */
 }
@@ -743,9 +755,11 @@ p a {
   .appointment-col.border-small-top {
     border-top: 0 !important;
   }
-  .appointment-col.border-small-top::before{
+
+  .appointment-col.border-small-top::before {
     display: none;
   }
+
   .right-border-col.border-col-end {
     border-right: 0 !important;
   }
@@ -851,8 +865,16 @@ p a {
 @media screen and (max-width: 1400px) {
   .cs_service_details .usps .why-choose-img {
     max-height: 550px !important;
-    min-height: 550px ;
+    min-height: 550px;
 
   }
 }
 
+
+
+.cs_slider_container .slick-list .slick-track {
+  /* background-color: var(--bg-dark-blue); */
+  display: flex;
+  align-items: center;
+
+}

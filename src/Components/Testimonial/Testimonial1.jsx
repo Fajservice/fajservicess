@@ -19,6 +19,7 @@ const Testimonial1 = ({subtitle,title,bgImg}) => {
         slidesToScroll: 1,
         arrows: false,
         swipeToSlide: true,
+        
         responsive: [
           {
             breakpoint: 1399,
@@ -31,7 +32,8 @@ const Testimonial1 = ({subtitle,title,bgImg}) => {
             settings: {
               slidesToShow: 2,
             }
-          },{
+          },
+          {
             breakpoint: 575,
             settings: {
               slidesToShow: 1,
@@ -95,5 +97,6 @@ const Testimonial1 = ({subtitle,title,bgImg}) => {
        </section>
     );
 };
+
 
 export default Testimonial1;
