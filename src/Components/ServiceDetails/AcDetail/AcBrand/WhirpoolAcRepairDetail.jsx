@@ -95,23 +95,33 @@ const WhirpoolAcRepair = ({ subtitle, title, bgImg }) => {
         {/* Experts AC Service and Maintenance */}
         <section className="section cs_py_30 bg-light-gray">
             <div className="container">
-                <div className="row g-5">
+                <div className="row gx-md-5">
                     <div className="col-md-6">
-                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Whirlpool Ac Repair" />
-                        <h3 className="cs_fs_25 mb-1 mt-3">Best Whirlpool AC Repair in Dubai</h3>
-                        <p>When it comes to Whirlpool <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Dubai, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
+                        <h3 className="cs_fs_24 mb-1">Best Whirlpool AC Repair in Dubai</h3>
+                        <p className="mb-2">When it comes to Whirlpool <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Dubai, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
                         <p>We specialize in Whirlpool air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
-                    </div>
+                        <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
+                        <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                        <div className="row">
+                          <div className="col-sm-6">
+                            <ul className="mb-0">
+                              <li>Higher electricity bills </li>
+                              <li>Air is not blowing cold</li>
+                              <li>Drips from your air conditioner</li>
+                            </ul>
+                          </div>
+                          <div className="col-sm-6">
+                            <ul className="mb-0">
+                              <li>Loss of AC performance</li>
+                              <li>Poor AC airflow, making noises</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
 
-                    <div className="col-md-6 border-small-left">
-                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Whirlpool Ac Repair" />
-                        <h3 className="cs_fs_24 mb-1 mt-3">Signs You Need An AC Service</h3>
-                        <p>If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
-                        <ul>
-                            <li>Higher electricity bills / Loss of AC performance</li>
-                            <li>Air is not blowing cold / Poor AC airflow, making noises</li>
-                            <li>Drips from your air conditioner</li>
-                        </ul>
+                    <div className="col-md-6">
+                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/Experts-AC-Service-and-Maintenance.jpg`} alt="Whirlpool Ac Repair" />
+                        
                     </div>
                 </div>
 

@@ -77,8 +77,8 @@ const AcRepairInJebelAliFreeZoneDetail = ({ subtitle, title, bgImg }) => {
     return (
         <>
         <HelmetProvider>
-            <title>AC Services In Jebel Ali Industrial Area - Repair Aircon #1</title>
-            <meta name="description" content="Call 043300002 for AC Services in Jebel Ali Industrial Area Dubai. Central, split HVAC air conditioning maintenance and ac fix servicing Dubai"></meta>
+            <title>AC Services In Jebel Ali Free Zone - Central Aircon Fixing</title>
+            <meta name="description" content="Are you finding AC Services in Jebel Ali Free Zone Dubai? Call 043300002 for ceiling, HVAC, central air conditioner repair & maintenance near me"></meta>
         </HelmetProvider>
         <HeaderForm />
         <div className="cs_service_details">
@@ -107,8 +107,8 @@ const AcRepairInJebelAliFreeZoneDetail = ({ subtitle, title, bgImg }) => {
                 <div className="container">
                     <div className="row gx-md-5">
                         <div className="col-md-6">
-                            <h3 className="cs_fs_24 mb-1">Best AC Repair in Al Badaa</h3>
-                            <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>in Al Badaa, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
+                            <h3 className="cs_fs_24 mb-1">Best AC Repair in Dubai</h3>
+                            <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>in Jebel Ali Free Zone, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
                             <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                             <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
                             <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
