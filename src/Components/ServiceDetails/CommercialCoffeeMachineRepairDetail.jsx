@@ -993,7 +993,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="cs_slider_wrapper">
                 <Slider {...settingBrands}>
                   {brandsLogo_data.map((item, index) => (
-                    <div key={index} className="cs_slide wow fadeInLeft">
+                    <div key={index} className="cs_slide wow fadeInLeft">   
 
                       <div className="brandslogo-slide-container">
                         <div className="brnadlogo-coffeemachine-service">
