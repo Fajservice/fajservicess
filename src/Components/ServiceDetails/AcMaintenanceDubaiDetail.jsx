@@ -305,7 +305,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="cs_fs_30">Tips for Maintaining Your AC System</h3>
-            <p>Regular maintenance is crucial for preventing common AC issues and extending the lifespan of your system. Follow these tips to ensure your AC runs smoothly:</p>
+            <p>Regular maintenance is crucial for preventing common AC issues and extending lifespan of your system. Follow these tips to ensure your AC runs smoothly:</p>
             <div className="row align-items-center">
               <div className="col-xl-6">
                 <iframe

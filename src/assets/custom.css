@@ -878,3 +878,9 @@ p a {
   align-items: center;
 
 }
+
+.cs_slider_container .brnadlogo-coffeemachine-service img{
+max-height: 117px !important;
+/* padding: 20px; */
+
+}
