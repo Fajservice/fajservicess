@@ -9,6 +9,9 @@ import AcMaintenanceDubai from "../Pages/AcMaintenanceDubai";
 import AcAnnualMaintenanceContract from "../Pages/AcAnnualMaintenanceContract";
 import AcRepairDubai from "../Pages/AcRepairDubai";
 import FreestandingHomeAppliancesRepairService from "../Pages/FreestandingHomeAppliancesRepairService";
+import CoffeeMachineServiceCenterInDubai from "../Pages/CoffeeMachineServiceCenterInDubai";
+import CommercialCoffeeMachineRepair from "../Pages/CommercialCoffeeMachineRepair";
+
 import WashingMachineRepairServiceDubai from "../Pages/WashingMachineRepairServiceDubai";
 import RefrigeratorRepairInDubai from "../Pages/RefrigeratorRepairInDubai";
 import ColdRoomRepair from "../Pages/ColdRoomRepair";
@@ -83,6 +86,12 @@ import SamsungAcRepair from "../Pages/AcPages/AcBrand/SamsungAcRepair";
 import McquayAcRepair from "../Pages/AcPages/AcBrand/McquayAcRepair";
 import NikaiAcRepair from "../Pages/AcPages/AcBrand/NikaiAcRepair";
 import AcRepairInJebelAliFreeZone from "../Pages/AcPages/AcLocation/AcRepairInJebelAliFreeZone";
+import AcRepairInGardens from "../Pages/AcPages/AcLocation/AcRepairInGardens";
+import AcRepairInJBR from "../Pages/AcPages/AcLocation/AcRepairInJBR";
+import AcRepairInFlamingoVillas from "../Pages/AcPages/AcLocation/AcRepairInFlamingoVillas";
+import AcRepairInAlQuoz from "../Pages/AcPages/AcLocation/AcRepairInAlQuoz";
+import AcRepairInJebelAliDip from "../Pages/AcPages/AcLocation/AcRepairInJebelAliDip";
+import AcRepairInSufouh from "../Pages/AcPages/AcLocation/AcRepairInSufouh";
 export const router = createHashRouter([
   {
     path: "/",
@@ -119,6 +128,14 @@ export const router = createHashRouter([
       {
         path: "/appliances-repair-service/",
         element: <FreestandingHomeAppliancesRepairService></FreestandingHomeAppliancesRepairService>,
+      },
+      {
+        path: "/coffee-machine-service-center-in-dubai/",
+        element: <CoffeeMachineServiceCenterInDubai></CoffeeMachineServiceCenterInDubai>,
+      },
+      {
+        path: "/coffee-machine-repair/",
+        element: <CommercialCoffeeMachineRepair></CommercialCoffeeMachineRepair>,
       },
       {
         path: "/washing-machine-repair-service-dubai/",
@@ -407,6 +424,30 @@ export const router = createHashRouter([
       {
         path: "/ac-services-in-al-barsha-south/",
         element: <AcRepairInAlBarshaSouth/>,
+      },
+      {
+        path: "/ac-services-in-the-gardens/",
+        element: <AcRepairInGardens/>,
+      },
+      {
+        path: "/ac-services-in-jbr/",
+        element: <AcRepairInJBR/>,
+      },
+      {
+        path: "/ac-services-in-flamingo-villas/",
+        element: <AcRepairInFlamingoVillas/>,
+      },
+      {
+        path: "/ac-services-in-al-quoz/",
+        element: <AcRepairInAlQuoz/>,
+      },
+      {
+        path: "/ac-services-in-jebel-ali-dip/",
+        element: <AcRepairInJebelAliDip/>,
+      },
+      {
+        path: "/ac-services-in-al-sufouh/",
+        element: <AcRepairInSufouh/>,
       },
     ],
   }

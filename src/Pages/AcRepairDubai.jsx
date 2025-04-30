@@ -9,7 +9,7 @@ const AcRepairDubai = () => {
                 bgImg="/img/ac_service-bannerbg.jpg"
                 Title="AC Repair in Dubai - AC Maintenance and Service Available Near You"
             ></BreadCumb> 
-            <AcRepairDubaiDetail></AcRepairDubaiDetail>    
+            <AcRepairDubaiDetail></AcRepairDubaiDetail>
         </div>
     );
 };

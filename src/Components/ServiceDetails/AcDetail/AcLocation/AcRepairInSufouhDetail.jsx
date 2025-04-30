@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInGardens.json';
+import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInSufouh.json';
 import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../../../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
@@ -13,12 +13,12 @@ import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
-import testimonial from '../../../../Data/AcData/AcFaqs/AcServiceInDubai.json';
+import testimonial_data from '../../../../Data/AcData/AcFaqs/AcServiceInDubai.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 
-const AcRepairInGardensDetails = ({ subtitle, title, bgImg }) => {
+const AcRepairInSufouhDetail = ({ subtitle, title, bgImg }) => {
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "/img/testimonialbg.jpg"
@@ -75,8 +75,8 @@ const AcRepairInGardensDetails = ({ subtitle, title, bgImg }) => {
   return (
     <>
     <HelmetProvider>
-        <title>AC Services In The Gardens Dubai - Chiller FCU AC Repairs #1</title>
-        <meta name="description" content="Call 043300002 for AC Services in the Gardens Dubai. FAJ here to help central chiller unit maintenance & repair near me Dubai AC fixing"></meta>
+        <title>AC Services in Al Sufouh - Aircon Maintenance Dubai Near Me</title>
+        <meta name="description" content="AC Services in Al Sufouh Dubai. We are experts in central & split air conditioner repairs and maintenance service in my location dubai 043300002"></meta>
     </HelmetProvider>
     <HeaderForm />
     <div className="cs_service_details">
@@ -105,8 +105,8 @@ const AcRepairInGardensDetails = ({ subtitle, title, bgImg }) => {
             <div className="container">
                 <div className="row gx-md-5">
                     <div className="col-md-6">
-                        <h3 className="cs_fs_24 mb-1">Best AC Repair in Gardens</h3>
-                        <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>in Gardens, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
+                        <h3 className="cs_fs_24 mb-1">Best AC Repair in Al Sufouh</h3>
+                        <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>in Al Sufouh, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
                         <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                         <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
                         <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
@@ -535,4 +535,4 @@ const AcRepairInGardensDetails = ({ subtitle, title, bgImg }) => {
   )
 }
 
-export default AcRepairInGardensDetails
+export default AcRepairInSufouhDetail

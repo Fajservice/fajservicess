@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../Data/AcData/AcFaqs/FreestandingHomeAppliancesRepairService.json';
+import data from '../../Data/coffeemachinesserviceFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
@@ -11,14 +11,14 @@ import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
 import testimonial_data from '../../Data/AcData/AcTestimonial/AcServiceTestimonials.json';
-import brandsLogo_data from '../../Data/BrandsLogo.json';
+import brandsLogo_data from '../../Data/coffeemachineServicebrand.json';
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../Headeform/HeaderForm";
 
 // import { Link } from "react-router-dom";
 
-const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg }) => {
+const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => {
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "/img/testimonialbg.jpg"
@@ -88,7 +88,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
 
     autoplay: true,
     autoplaySpeed: 5000,
-    pauseOnHover: true, 
+    pauseOnHover: true,
     // cssEase: 'linear',
 
     responsive: [
@@ -144,43 +144,68 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
         {/* Maintenance Contract */}
         <MaintenanceContract />
 
-        {/* Best Home Appliance Service Center */}
+        {/* Coffee Machine Repair & Maintenance */}
 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
                 {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" /> */}
-                <h3 className="cs_fs_24 mb-1">Best Home Appliance Service Center</h3>
+                <h3 className="cs_fs_24 mb-1">Coffee Machine Repair & Maintenance</h3>
 
-                <p className="mb-2">
+                {/* <p className="mb-2">
                   If you need appliance repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
                   <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
                   <br /> We're nearby and can get your appliances fixed quickly and efficiently.
-                </p>
+                </p> */}
+                <ul>
+                  <li>  Quick Reply on WhatsApp Chat: +971 50 609 7717 </li>
+                  <li>  Coffee Machine & Espresso Machine Services Available from Monday to Saturday </li>
+                  <li>  FAJ location is easy access from Al Khail Road and Sheikh Zayed Road </li>
+                  <li>  Drop the automatic coffee machine / coffee maker or espresso machine off at the workshop and get discount on the technical inspection fee & service. </li>
+                </ul>
 
 
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Appliance Technical Inspection Fee</h3>
-                <p className="mb-0">
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Coffee Machine Servicing & Contract
+                </h3>
+                {/* <p className="mb-0">
                   The technical inspection fee is AED 157, which covers diagnosis, transportation, and reinstallation in Dubai premises.
                   <br />
                   Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.
                 </p>
+                 */}
+                <ul>
+                  <li>  Best Home Coffee Machine Repair Dubai </li>
+                  <li>  Best Office Coffee Machine Repair in Dubai </li>
+                  <li>  Cleaning & Descaling Coffee Machine with Fixing </li>
+                  <li>  Automatic Coffee Machine Maintenance Service </li>
+                  <li>  Best Restaurant Espresso Machine Repair Near Me </li>
+                  <li>  Professional Espresso Coffee Machine Repair Shop Near Me </li>
+                </ul>
               </div>
 
               <div className="col-md-6 ">
                 {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/dispanser.jpg`} alt="Post Image" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/Coffee-machine-servicing-title-image.png`} alt="Post Image" />
 
               </div>
             </div>
 
             <div className="appointment-col border-small-top pt-3">
-              <p>
+              {/* <p>
                 If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.
-                <br />  
+                <br />
                 Timing: Mon-Sat 8:00 AM to 6:00 PM - Sunday 12:00 PM to 6:00 PM. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.
-              </p>
+              </p> */}
+              <ul>
+                <li>  Best FAJ Espresso Machine Fix Service </li>
+                <li>  Best Commercial Coffee Machine Service Dubai </li>
+                <li>  Get Espresso Grinder Repairs & Servicing Near Me </li>
+                <li>  Automatic Coffee Grinder Maintenance Service Near </li>
+                <li>  Cafe Coffee Machine Maintenance Services Contract </li>
+                <li>  Restaurant Espresso Machine AMC Services Company </li>
+              </ul>
+
               <div id="get-quote" className=" mt-3">
                 <div className="container d-flex justify-content-center align-items-center gap-3">
                   <WhatsappIconButton />
@@ -199,24 +224,34 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
         </section>
 
 
-        {/* The Most Common Reasons for Appliance Breakdowns */}
+        {/* Hire Professional Coffee Machine Repair Across Dubai - Sharjah - Abu Dhabi */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="cs_fs_30">The Most Common Reasons for Appliance Breakdowns</h3>
+            <h3 className="cs_fs_30">Hire Professional Coffee Machine Repair Across Dubai - Sharjah - Abu Dhabi</h3>
             <p>
-              Let's face it, modern life revolves around our appliances. From the refrigerator that keeps our food fresh to the washing machine that handles endless piles of laundry, these gadgets are indispensable. But what happens when they break down? It's not just an inconvenience; it can throw a wrench in our entire routine.
+              Do you have problems with your coffee maker? There's nowhere else to look! We provide excellent coffee machine fixing services by using qualified specialists committed to carefully and precisely mending your device. Don't allow your routine to be interrupted by a broken coffee maker. For dependable repairs, get in touch with us right now, and soon you can enjoy your favorite drink!
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/coffee-machine-service.jpg`} alt="Post Image" />
               </div>
               <div className="col-md-6">
-                <ul className="mb-0">
+                <h4>Searching For Coffee Machine Repair Service Near Me</h4>
+                <p>Do you require nearby Espresso coffee machine repair near me? This is the place where your search stops! For all of your coffee-related issues, our knowledgeable experts are on call and can offer professional solutions that are customized to meet your requirements. Count on us to provide timely and dependable service right at your door, regardless of the size of the issue. Have uninterrupted coffee enjoyment with FAJ Professional by your side and bid adieu to coffee machine troubles.</p>
+
+                {/* <ul className="mb-0">
                   <li> <strong>Refrigerator Common Issues: </strong> Common problems with refrigerators include cooling issues, insufficient cooling, or door issues. </li>
                   <li> <strong>Washing Machines Common Issues: </strong> Common problems include drainage issues and spin cycle failures. </li>
                   <li> <strong> Dishwashers Common Issues: </strong> They may have problems with draining, leading to water pooling at the bottom, or  they might not clean dishes effectively. </li><li> <strong> Ovens and Stoves Common Issues: </strong> Ovens and stoves often face problems with heating elements or ignition. This  can result in the oven not heating up properly or the stove failing to ignite. </li>
                   <li> <strong> Coffee Machine Common Issues: </strong> Coffee makers may stop brewing properly or start leaking. </li>
-                </ul>
+                </ul> */}
+              </div>
+
+              <div className="col-12 mt-3">
+                <h4>Espresso Technician: Fixes All Your Coffee Related Issues
+                </h4>
+                <p>Our knowledgeable experts are experts at identifying and provide any espresso coffee machine repair, guaranteeing that your espresso machine performs at its best. Our professionals have the necessary skills and commitment to provide outstanding espresso machine maintenance, whether they are solving typical issues or executing complex fixes. Rely on us to keep your Eureka Espresso grinder flowing smoothly, every time, and don't allow coffee machine problems to ruin your day.
+                </p>
               </div>
             </div>
           </div>
@@ -329,10 +364,10 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
           </div>
         </section>
 
-        {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
+        {/* Coffee Machine Service and Maintenance */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h3>
+            <h3 className="cs_fs_30">Coffee Machine Service and Maintenance   </h3>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -340,8 +375,8 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
                   className="bordered-img blue-border"
                   width="100%"
                   height="350"
-                  src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
-                  title="YouTube video player"
+                  src="https://www.youtube.com/embed/IjckdZLs_Qg"
+                  title="FAJ Videos"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
@@ -349,9 +384,15 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
               </div>
 
               <div className="col-xl-6">
-                <p className='mb-0'>We specialize in all types and brands of home appliances, including built-in units.</p>
-                <p className='mb-0'><strong>Our services include:</strong></p>
-                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
+                {/* <p className='mb-0'><strong>Our services include:</strong></p> */}
+                <p className='mb-0'>
+                  Your search has come to an end! We recognize the significance of a well-functioning coffee machine, espresso grinder, coffee grinder, or espresso machine, whether for commercial coffee machine, office, or home use.
+
+                  <br />  You can say goodbye to coffee machine problems with our dependable espresso machine repair services across Dubai, Sharjah, Furaijah, Ras Al Khaimah, Abu Dhabi. Our professional experts can diagnose and repair a wide range of coffee machne difficulties, allowing you to enjoy your favourite cup of coffee without disruption.
+
+                  <br />  Choose FAJ Technical Service L.L.C for high-quality coffee machine repairs in Dubai. We have been in the industry since 2010, and our devoted staff of experts can handle a wide range of brands and models. We take pleasure in exceeding customer expectations by providing timely, dependable, and cost-effective solutions.
+                </p>
+                {/* <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
                   <li> <strong>  Installation: </strong> Expert installation of various types and brands of home appliances, ensuring optimal performance and efficiency. </li>
                   <li> <strong> Diagnostics: </strong> Comprehensive fault-finding services to effectively diagnose issues. We provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
                   <li> <strong> Repair Service: </strong> Efficient repair services for all appliance components, ensuring a quick resolution to issues such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions! </li>
@@ -360,7 +401,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
                   <p className="mb-0">
                     Regular maintenance is essential for optimal performance, efficiency, and longevity of your home appliances.
                   </p>
-                </ul>
+                </ul> */}
 
 
               </div>
@@ -544,7 +585,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
         </section>
 
         {/* We specialise in Appliances services for the following brands */}
-        <section className="section cs_py_30 bg-light-gray">
+        {/* <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3>We specialise in Appliances services for the following brands</h3>
             <div className="row">
@@ -786,7 +827,111 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
             </div>
 
           </div>
+        </section> */}
+
+        {/* Common Coffee Machines & Espresso Machines Faults We Repair */}
+        <section className="section cs_py_30 bg-light-gray">
+          <div className="container">
+            <h3>Common Coffee Machines & Espresso Machines Faults We Repair</h3>
+            <p>FAJ Technical Servicing L.L.C. is a reputable coffee machine service center across Dubai - Sharjah - Abu Dhabi, espresso machines, coffee grinders, and espresso blenders, providing expert repairs for a wide range of manufacturers, including cafe shop coffee machines. Our skilled technicians deal with a wide range of typical coffee machine repair issues, assuring prompt and dependable service. We address the following common flaws:</p>
+
+            <p> <h4 className="cs_fs_18 d-inline"> <strong>  No Power: </strong> </h4>
+
+              If your coffee machine does not turn on or displays no sign of power, we can diagnose and fix electrical problems, defective wiring, or malfunctioning power switches. </p>
+
+            <p> <h4 className="cs_fs_18 d-inline"> <strong>  Water Leakage: </strong> </h4>
+
+              Water leaking is a typical issue in coffee makers, and it can cause by defective seals, weak connections, or a faulty water reservoir. Our professionals can find the cause of the leak and perform the required repairs. </p>
+
+            <p> <h4 className="cs_fs_18 d-inline"> <strong> Brewing Problems: </strong> </h4>
+
+              Problems with the brewing process, such as weak coffee, irregular water flow, or no coffee production, might be caused by clogged filters, malfunctioning valves, or pump problems. We can identify and address these issues to ensure a proper brewing experience. </p>
+
+            <p> <h4 className="cs_fs_18 d-inline"> <strong> Grinder Malfunction: </strong> </h4>
+
+              If your coffee machine has a built-in grinder that isn’t working properly, we can inspect and repair it. Our professionals are excellent at fixing difficulties including uneven grinding and excessive noise. </p>
+
+            <p> <h4 className="cs_fs_18 d-inline"> <strong> Temperature Issues: </strong> </h4>
+
+              Temperature control is critical for optimal coffee brewing. If your machine fails to reach the proper temperature or produces coffee that is too hot or too cold, we can address issues with the heating element or thermostat. </p>
+
+            <p> <h4 className="cs_fs_18 d-inline"> <strong> Error Messages: </strong> </h4>
+
+              When a failure occurs, many coffee machines display error messages or codes. Our technicians have experience to detecting these signs and determining the underlying problem, which could be connected to water flow, pressure, sensors, or other components. </p>
+
+
+
+            <div id="get-quote" className=" mt-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3">
+                <GetQuoteButton />
+                <CallNowButton />
+              </div>
+            </div>
+
+          </div>
         </section>
+
+        {/* Choose a domestic or professional coffee machine repairs service near you */}
+        <section className="section cs_py_30">
+          <div className="container">
+            <h3>Choose a domestic or professional coffee machine repairs service near you</h3>
+
+
+            <div class="row">
+              <div class="col-sm-4">
+                <ul class="">
+                  <li class="">Ascaso Coffee Machine Repair and Maintenance</li>
+                  <li class="">Marco Coffee Machine Repair and Service</li>
+                  <li class="">Appia Coffee Machine Repair and Descaling&nbsp;</li>
+                  <li class="">Lelit Coffee Machine Repair and Cleaning Service</li>
+                  <li class="">Conti Coffee Machine Repair and Installation</li>
+                  <li class="">Teka Coffee Machine Repair and Descaling</li>
+                  <li class="">Bezzera Coffee Machine Repair and Cleaning</li>
+                  <li class="">Jura Coffee Machine Repair and Servicing</li>
+                  <li class="">La Pavoni Espresso Repair and Service</li>
+                  <li class="">Dr.Coffee Machine Repair and Maintenance</li>
+                  <li class="">Beko Coffee Machine Repair and Cleaning</li>
+                  <li class="">Breville Coffee Machine Repair and Cleaning</li>
+                  <li class="">Melitta Coffee Machine Repair and Descaling</li>
+                  <li class="">Cafematic Automatic Coffee Machine Repairs and Maintenance</li>
+                  <li class="">Farenheit Epsilon Super Automatic Coffee Machine, Espresso Maker</li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <ul class="acsvs-exp-new-p">
+                  <li class="">Espresso Southeast Coffee Machine Repair and Fix</li>
+                  <li class="">Bosch Machine Repair and Maintenance</li>
+                  <li class="">Armiali Coffee Machine Repairs and Servicing&nbsp;</li>
+                  <li class="">Breville Coffee Machine Repair and Fixing</li>
+                  <li class="">Isomac Coffee Machine &amp; Espresso Repair and Fix</li>
+                  <li class="">ECM Coffee Machine &amp; Espresso Repair and Servicing</li>
+                  <li class=""><a href="#/delonghi-coffee-machine-repair/">Delonghi Coffee Machine &amp; Espresso Repair</a> and Service</li>
+                  <li class="">La Marzocco Coffee Machine Repair and Maintenance</li>
+                  <li class="">Seimens Coffee Machine Repair and Cleaning</li>
+                  <li class="">Animo with Water Filter Coffee Machine Repair and Service</li>
+                  <li class="">Rancilio Volumetric Espresso Machine Repair and Servicing</li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <ul class="acsvs-exp-new-p">
+                  <li class="">Astoria Loft Espresso Machine Repair and Fixing</li>
+                  <li class="">Rocket Espresso Machine Repair and Descaling</li>
+                  <li class="">Magister Espresso Machines Repair and Maintenance</li>
+                  <li class="">Nuova Simonelli Coffee Machine Repair and Servicing</li>
+                  <li class="">Victoria Arduino Coffee Machine Repair and Service</li>
+                  <li class="">Gaggia Automatic Coffee Machine Repair near me</li>
+                  <li class="">Orhcestrale Espresso Machines Repair and Fix</li>
+                  <li class="">Rocket Appartmento Machine Repair and Descaling</li>
+                  <li class="">Illy Saeco Royal Coffee Machine Repair and Service</li>
+                  <li class="">Sage Coffee Machine &amp; Espresso Repair and Cleaning</li>
+                 
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
 
         {/* <section className="section cs_py_30 bg-dark-blue text-light">
           <div className="container text-center">
@@ -840,7 +985,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
         {/* Brands section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
           <div className="container">
-           
+
             <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
               data-variable-width="0" data-xs-slides="1" data-sm-slides="1" data-md-slides="1" data-lg-slides="2"
               data-add-slides="2" data-slides-per-view="responsive">
@@ -850,7 +995,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
                     <div key={index} className="cs_slide wow fadeInLeft">
 
                       <div className="brandslogo-slide-container">
-                        <div className="brnadlogo">
+                        <div className="brnadlogo-coffeemachine-service">
                           <img className="w-100" src={`${import.meta.env.BASE_URL}${item.logo}`} alt="Avatar" />
                         </div>
                       </div>
@@ -961,4 +1106,4 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
   );
 };
 
-export default FreestandingHomeAppliancesRepairServiceDetail;
+export default CoffeeMachineServiceCenterInDubaiDetail;
