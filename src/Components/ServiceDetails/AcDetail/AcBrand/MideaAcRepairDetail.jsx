@@ -145,29 +145,24 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-          <h3 className="cs_fs_30">Signals Your Midea Splits Ducted Aircon Requires Repair</h3>
+            <h3 className="cs_fs_30">Why is Midea AC Maintenance Service Important in Dubai?</h3>
             <div className="row align-items-center">
-              <div className="col-md-6">
-                <p>There are many reasons which alarm you to get an experienced technician for fixing and repairing the issues.</p>
-                <ul className="d-flex flex-wrap column-gap-5">
-                  <li>Damaged or broken ductwork</li>
-                  <li>Zoning gates are stuck or jammed</li>
-                  <li>Blocked vents and ducts because of dirt and organic materials</li>
-                  <li>Insulation issues/problems</li>
-                  <li>Poor or unstable airflow in the home or office</li>
-                  <li>Bad odors from ducts</li>
+            <div className="col-md-6">
+                <ul className="mb-0">
+                    <li>Maintaining your Midea air conditioner is crucial in Dubai's hot climate. Regular maintenance ensures optimal performance, extends the life of your unit, and helps you avoid costly repair ac.</li> 
+                    <li>With professional Midea AC servicing, you can enjoy consistent cooling, improved energy efficiency, and peace of mind throughout the sweltering months.</li> 
+                    <li>Don't wait until there's a problem—invest in Midea Air Conditioner maintenance today for a comfortable and worry-free environment.</li> 
+                    <li>Midea AC Maintenance Service is essential in Dubai.</li> 
+                    <li>Regular maintenance is not just a recommendation; it's a necessity for ensuring your Midea air conditioning system operates at peak performance.</li> 
+                    <li>Scheduled check-ups improve air quality, extend your unit's lifespan, and ensure year-round comfort. Invest in your AC care for lasting benefits!</li>
                 </ul>
-                <p>Proper cleaning of ducts improves the airflow and prevents allergens from circulating in the whole home and keeps healthier living conditions.</p>
-                <h3 className="cs_fs_24">Midea AC HVAC Error Codes</h3>
-                <p className="mb-0">HVAC is a complete home comfort system that delivers quality cool air to all home, and business setups. Identification of error codes and their fixing is the job of an experienced team. Because every type and model of Midea AC might have different error codes and its fixing cannot be done by anyone. Some error codes are;</p>
-                <p><strong>Code:</strong> E1, E2, E3, E4, E5, E6, P0, P1, P2, P3, P4</p>
               </div>
-              <div className="col-md-6 text-center text-md-end">
+              <div className="col-md-6">
+                {/* <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Midea-ac-maintenance.jpeg`} alt="Midea Ac Repair" />
-                
               </div>
+              
             </div>
-
           </div>
         </section> 
         {/* Common Signs Your AC May Need Maintenanc */}
@@ -271,93 +266,12 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
 
         {/* A Quick Guide to Understanding and Fixing Your AC Problems */}
         <QuickGuide />
-        <section className="section cs_py_30 bg-dark-blue text-light">
-          <div className="container">
-            <div className="row">
-                <div className="col-md-6">
-                    <h3 className="cs_fs_24 text-light">Midea VRF</h3>
-                    <p>The VRF system is the energy-saving one and provides precise comfort to people. According to the space, the area installation of the VRF system is executed. The correct installation provides adequate cooling to commercial buildings. Quick fixing and regular maintenance are what make it run for decades. Midea ceiling cassette makes your day fresh and sleeps comfortably. Hence, accurate installation, preventive maintenance, and swift fixing make your Midea AC run smoothly and blow gentle cool air.</p>
-                </div>
-                <div className="col-md-6">
-                    <h3 className="cs_fs_24 text-light">Time To Consult With a Professional</h3>
-                    <p>A quick, wise approach always delivers the optimal outcome. F A J Technical Services L.L.C takes confidence in providing reputable, exceptional services to its customers. We are the number 1 Midea AC service supplier across Dubai. No matter where you are in Dubai, just a single call can immediately bring comfort to your home.</p>    
-                </div>
-                <div className="col-md-12">
-                    <p>Our experienced and well-trained team examines any fault with your midea air con and explains the problem of your aircon. Then, promptly and diligently fix all issues. For installation of any type of air conditioner call us and our professionals will install it right away. We believe in reliability and unbeatable work and FAJ can not compromise with it therefore, we have gained an immense reputation among residents of Dubai. And are first to go for help”. Instead of being worried just contact us and get hassle-free immediate services.</p>    
-                </div>
-            </div>
-          </div>
-        </section>
 
-        
-        <section className="section cs_py_30">
-          <div className="container">
-          <h3 className="cs_fs_30">Get A Full Fledged Expert Service Of Midea HVAC</h3>
-            <div className="row align-items-center">
-                <div className="col-xl-6">
-                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Midea-ac-repair.jpg`} alt="Midea Ac Repair" />
-                </div>
-                <div className="col-xl-6">
-                  <p>While modern HVAC systems are manufactured to deliver year-long service. However, issues with air condition can and will arise. Here are some common problems which are faced by several homeowners, businesses, etc.</p>
-                  <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span><strong>Blown Is Fused:</strong> One reason your Midea HVAC is not functioning is because of blown fuses. Fuses are mainly designed to protect the compressor and unit’s motor or ac engine from overheating. Due to that, the breaker gets flipped off which indicates a huge problem with your HVAC air con.</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span><strong>Unclean Air Filters:</strong> Dirty ac filters make your Midea HVAC aircon to under-perform and eventually freeze. Air filters must be regularly changed otherwise, airflow can be decreased significantly. For exceptional services, FAJ is available on the other side of a single call. Don’t let your air condition issues disturb your comfort and your important work. Let us keep your air conditioning in optimal condition, and make sure you and your loved ones enjoy cool and fresh air.</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span><strong>Poor Refrigerant:</strong> In HVAC ac refrigerant leaks happen and it is caused by system vibration during operation. Leaks always require repairing whether it is in lines or coils. Our expert team takes good care of your property and makes sure to gently handle it. Give your HVAC air conditioning the care it deserves!</span>
-                    </li>
-                  </ul>
-                </div>
-            </div>
-          </div>
-          <section className="section">
-          <div className="container">
-            <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
-                  <WhatsappIconButton />
-                  <CallNowButton />
-                </div>
-              </div>
-          </div>
-        </section>
-        </section>
-        
-         {/* The Benefits Of Regular AC Service*/}
+        {/* The Benefits Of Regular AC Service*/}
          <BenefitAcMaintenance />
 
-
-          {/*Why Choose F A J Technical Services L.L.C? */}
-        <section className="section cs_py_30 ">
-            <div className="container">
-                <h3 className="cs_fs_30">Why Choose F A J Technical Services L.L.C?</h3>
-                <div className="row align-items-center">
-                    <div className="col-md-6">
-                        <h4 className="cs_fs_24">We provide quick, efficient service and peace of mind</h4>
-                        <ul className="acsvs-exp-spl-para tick-ul mb-0">
-                            <li><b>We get the job done on time</b> thanks to our larger team and dedicated parts warehouse</li>
-                            <li><b>All our AC technicians are fully qualified</b> and extensively trained by us to address all types of AC issues.</li>
-                            <li><b>We help prevent future breakdowns</b> by only using locally produced, highest quality refrigerant gas.</li>
-                            <li><b>From routine maintenance to complex repairs</b> we offers all type of AC repair and maintenance services.</li>
-                            <li><b>We only use genuine parts</b> to give you peace of mind.</li>
-                            <li><b>We give service warranty</b> to make sure you are relax.</li>
-                            <li><b>We look after the environment</b> by always recycling our gas.</li>
-                        </ul>
-                    </div>
-                    <div className="col-md-6 text-center text-md-end">
-                        <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance-in-Dubai.jpeg`} alt="Post Image" />
-                    </div>
-                </div>
-            </div>
-        </section>
+        {/*Why Choose F A J Technical Services L.L.C? */}
+        <ACWhyChooseUs/>
         {/* Practical Tips to Improve Energy Efficiency */}
         <section className="section cs_py_30 bg-dark-blue text-light">
             <div className="container text-center">

@@ -144,48 +144,27 @@ const FujitsuAcRepair = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-          <h3 className="cs_fs_30">Fujitsu Air Con Service Quality Workmanship </h3>
+            <h3 className="cs_fs_30">Why is Fujitsu AC Maintenance Service Important in Dubai?</h3>
             <div className="row align-items-center">
-              <div className="col-md-6">
-                <p>Air conditioners that are people-friendly are environmentally friendly. And, Fujitsu air con is one of them. Central Fujitsu air conditioner is an intelligent choice when it comes to beating humidity and heat indoors. Just like every other aircon the requirement for Fujitsu air conditioner repair increases as well. Regular maintenance and servicing not only conserve electricity but also helps keep operating your Fujitsu air con for many years. Adequate routine maintenance helps to quickly diagnose the issues of your central AC and fix them before they turn into some huge problem.</p>
-                <h3 className="cs_fs_24">Error Codes- Fujitsu air conditioner repair</h3>
-                <p>When something goes awry the air con quickly displays that, these errors indicate the underlying problems with your air con. Whether it is split air conditioning or ceiling air con, they all show the error codes on the display. It is the job of experts solely to identify them and promptly fix them.</p>
-                <ul className="d-flex flex-wrap column-gap-4">
-                  <li>01</li>
-                  <li>02</li>
-                  <li>03</li>
-                  <li>04</li>
-                  <li>05</li>
-                  <li>06</li>
-                  <li>07</li>
-                  <li>08</li>
-                  <li>09</li>
-                  <li>OA</li>
-                  <li>OC</li>
-                  <li>OE</li>
-                  <li>11</li>
-                  <li>12</li>
-                  <li>13</li>
-                  <li>14</li>
-                  <li>15</li>
-                  <li>16</li>
-                  <li>17</li>
-                  <li>18</li>
-                  <li>19</li>
-                  <li>1A</li>
-                  <li>1B</li>
-                  <li>1C</li>
-                  <li>1D</li>
+            <div className="col-md-6">
+                <ul className="mb-0">
+                    <li>Ensuring your Fujitsu HVAC unit is well-maintained is crucial in Dubai's harsh climate. In Dubai's relentless heat, keeping your Fujitsu air conditioner unit in top-notch condition is not just necessary; it's vital.</li> 
+                    <li>The extreme temperatures can put a strain on your Fujitsu air conditioning system, making regular maintenance a key factor in ensuring its optimal efficiency.</li> 
+                    <li>Routine check-ups and AC servicing not only boost your unit’s performance but also significantly extend its lifespan.</li> 
+                    <li>By opting for Fujitsu's dedicated maintenance service, you can sidestep unexpected and costly repairs, enhance the quality of the air in your place, and enjoy a consistently comfortable environment, no matter how high the mercury rises.</li> 
                 </ul>
               </div>
-              <div className="col-md-6 text-center text-md-end">
+              <div className="col-md-6">
+                {/* <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/fujitsu-ac-service.jpg`} alt="Fujitsu Ac Repair" />
-                
               </div>
+              
             </div>
-
+            <p>
+            Don’t let the sweltering heat catch you off guard—make AC maintenance a priority to ensure your space remains a cool, inviting sanctuary throughout the entire year.
+            </p>
           </div>
-        </section> 
+        </section>
         {/* Common Signs Your AC May Need Maintenanc */}
         <section className="section cs_py_30">
             <div className="container">
@@ -287,74 +266,6 @@ const FujitsuAcRepair = ({ subtitle, title, bgImg }) => {
 
         {/* A Quick Guide to Understanding and Fixing Your AC Problems */}
         <QuickGuide />
-        <section className="section cs_py_30 bg-dark-blue text-light">
-          <div className="container">
-            <div className="row">
-                <div className="col-md-12">
-                    <h3 className="cs_fs_24 text-light">Advantages Of Routine Fujitsu Air Conditioner Service</h3>
-                    <p>Though your inverter is functioning well and delivering satisfactory outcomes. However, with time it needs fixing and complete maintenance regularly. The longer you go without servicing your fujitsu air con the closer your A/c will get to the point where it shall halt functioning completely. On the contrary, if you give your air con optimum attention and care by getting maintained and serviced daily by an expert company. The results will be beyond your expectations and your inverter will take your side for decades. There are many pros of it here, we will discuss a couple of the most important ones;</p>
-                </div>
-                <div className="col-md-6">
-                    <h3 className="cs_fs_18 text-light">Accelerate Durability</h3>
-                    <p>One of the best benefits of getting proper maintenance of a fujitsu aircon is that your split aircon remains in top shape. This simply means, your air conditioner will not be affected due to any climate changes Furthermore, no fear of damaging and repairing. Servicing ensures that your air conditioner will continuously operate for years. In addition to it, optimal timely fujitsu air conditioner repair is essential to prevent any future large repairs. Always ensure that you have communicated with an experienced serviceman for exceptional maintenance regularly.</p>    
-                </div>
-                <div className="col-md-6">
-                    <h3 className="cs_fs_18 text-light">Lower Electric Bill</h3>
-                    <p>Having an air conditioner means more electricity bills and, without maintenance ends up increasing electricity bills pressure even more. Moreover, reduced efficiency because of lack of regular maintenance will cause your fujitsu split air conditioning to consume extra power. An ineffective Ac machine is an overworked piece of technology that leads to higher electric consumption. If you have a Fujitsu aircon and it is causing problems, then getting the excellent fujitsu air conditioner repair service can immediately lower your electricity bills.</p>
-                </div>
-                <div className="col-md-6">
-                    <h4 className="cs_fs_18 text-light">Minimum Repair Cost</h4>
-                    <p>Repairs attract more money depending upon the extent of damage primarily the expenses get high. Through minor weekly repairs, you will be able to protect your fujitsu HVAC air conditioning from lengthy repairs. Thus, this way your cooling system will be entirely rescued from any kind of damage. Likewise, scheduling regular maintenance of your AC will reduce the effect of wear and tear. Thus, significantly allowing each component of HVAC to run smoothly and swiftly.</p>
-                </div>
-                <div className="col-md-6">
-                    <h4 className="cs_fs_18 text-light">No Strange Smell From Aircon</h4>
-                    <p>Another significance of maintaining your centralized air conditioning is, it remains devoid of unpleasant odor. Yes, you read it right! Regular proper cleaning of air filters and evaporator coils keeps them clogged with dust, dirt, and debris. Moreover, no freezing up of the evaporator coil occurs when Ac is being serviced daily. Whether you have a fujitsu ducted system or central air conditioner you always want to achieve fresh, crisp, and cool air.</p>    
-                </div>
-            </div>
-          </div>
-        </section>
-
-        
-        <section className="section cs_py_30">
-          <div className="container">
-          <h3 className="cs_fs_30">Get A Full Fledged Expert Service Of Fujitsu HVAC</h3>
-            <div className="row align-items-center">
-                <div className="col-xl-6">
-                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/fujitsu-ac-repair.jpg`} alt="Fujitsu Ac Repair" />
-                </div>
-                <div className="col-xl-6">
-                  <p>While modern HVAC systems are manufactured to deliver year-long service. However, issues with air condition can and will arise. Here are some common problems which are faced by several homeowners, businesses, etc.</p>
-                  <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span><strong>Blown Is Fused:</strong> One reason your Fujitsu HVAC is not functioning is because of blown fuses. Fuses are mainly designed to protect the compressor and unit’s motor or ac engine from overheating. Due to that, the breaker gets flipped off which indicates a huge problem with your HVAC air con.</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span><strong>Unclean Air Filters:</strong> Dirty ac filters make your Fujitsu HVAC aircon to under-perform and eventually freeze. Air filters must be regularly changed otherwise, airflow can be decreased significantly. For exceptional services, FAJ is available on the other side of a single call. Don’t let your air condition issues disturb your comfort and your important work. Let us keep your air conditioning in optimal condition, and make sure you and your loved ones enjoy cool and fresh air.</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span><strong>Poor Refrigerant:</strong> In HVAC ac refrigerant leaks happen and it is caused by system vibration during operation. Leaks always require repairing whether it is in lines or coils. Our expert team takes good care of your property and makes sure to gently handle it. Give your HVAC air conditioning the care it deserves!</span>
-                    </li>
-                  </ul>
-                </div>
-            </div>
-          </div>
-          <section className="section">
-          <div className="container">
-            <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
-                  <WhatsappIconButton />
-                  <CallNowButton />
-                </div>
-              </div>
-          </div>
-        </section>
-        </section>
         
          {/* The Benefits Of Regular AC Service*/}
          <BenefitAcMaintenance />

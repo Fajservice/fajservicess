@@ -145,27 +145,26 @@ const RuudAcRepair = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-          <h3 className="cs_fs_30">Some Warning Signs Ruud Centralized Air Conditioning (AC) Shows</h3>
+            <h3 className="cs_fs_30">Why is Ruud AC Maintenance Service Important in Dubai?</h3>
             <div className="row align-items-center">
-              <div className="col-md-6">
-                
-                <p>When you see these unpleasant signs it means your air conditioner requires fixing and repairing any fault in it.</p>
-                <ul>
-                    <li>The constant failure of your ruud centralized air con to provide you optimal cooling</li>
-                    <li>When the air conditioning turns on rattling sound appears</li>
-                    <li>Unable to cool home because air ducts are clogged with dirt</li>
-                    <li>When you turn on your air condition, instead of spreading cool air it spreads humidity.</li>
+            <div className="col-md-6">
+                <ul className="mb-0">
+                  <li>In the hot and humid climate of Dubai, maintaining your Ruud air conditioner system is crucial.</li> 
+                  <li>Central Ruud AC Maintenance and Service ensures your unit operates efficiently, providing you with reliable comfort. </li> 
+                  <li>Regular Ruud air maintenance not only helps prevent costly breakdowns or errors but also extends the lifespan of your Ruud AC unit.</li> 
+                  <li>With FAJ expert AC technicians and top-notch Ruud central AC cleaning service, Ruud air conditioners are optimal performance, giving you peace of mind during the sweltering summer months in Dubai.</li> 
+                  <li>Invest in your comfort and the longevity of your system by choosing Ruud AC repair and cleaning service today!</li>
                 </ul>
-                <p>To eliminate all these issues professional servicing is a must. For Ruud ac repair in Dubai and all kinds of services, your Ruud air condition demands the best team to deliver satisfactory results.This is a well-known air conditioner brand and its energy-saving efficiency is quite high. Ruud Ac repair in Dubai demands professionals and experienced ones. The seasonal energy efficiency ratio (SEER) is from 13 to 20 which makes it durable and the best one.</p>
               </div>
-              <div className="col-md-6 text-center text-md-end">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-service.jpg`} alt="Ruud Ac Repair" />
-                
+              <div className="col-md-6">
+                {/* <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/fujitsu-ac-service.jpg`} alt="Ruud Ac Repair" />
               </div>
+              
             </div>
-
+            <p>Don’t let the heat overwhelm you—ensure your home AC remains a cool cover with Ruud HVAC reliable maintenance services. Take the proactive step towards comfort today!</p>
           </div>
-        </section> 
+        </section>
         {/* Common Signs Your AC May Need Maintenanc */}
         <section className="section cs_py_30">
             <div className="container">
@@ -267,84 +266,6 @@ const RuudAcRepair = ({ subtitle, title, bgImg }) => {
 
         {/* A Quick Guide to Understanding and Fixing Your AC Problems */}
         <QuickGuide />
-        
-        <section className="section cs_py_30 bg-dark-blue text-light">
-          <div className="container">
-            <div className="row">
-                <div className="col-md-6">
-                    <h3 className="cs_fs_24 text-light">Exceptional Repairing Of Ruud Centralized Air Conditioning (Air Con)</h3>
-                    <p>To provide more comfort to you, potential and timely repair is indispensable. After proper repair, your air con offers great cooling performance. Regular maintenance of your centralized ac extends its lifetime and improves functions. Not many offer Ruud ac repair in Dubai. However, FAJ is unique and experienced in providing exceptional service, maintenance, and fixing of your aircon. Get instant access to a potentially trained, highly skilled professional for optimal and fast air condition repairing.</p>
-                </div>
-                <div className="col-md-6">
-                    <h3 className="cs_fs_24 text-light">Cost Effective VRV Installation And Operation (Ruud Aircon) AC</h3>
-                    <p>VRF Ruud air conditioning is called ideal for small and large spaces. It is the most advanced air system worldwide and popular as well. It is significantly equipped with modern technology and, results in energy efficiency. To install this Ruud VRF ac an exceptionally trained team is required. To get the advantage of better comfort and a sustainable cooled environment accurate installation and operation is a key.</p>    
-                </div>
-                <div className="col-md-12">
-                    <h3 className="cs_fs_24 text-light">Different Models Of Ruud Ducted Aircon</h3>
-                    <p>Several types/ models of Ruud ducted ac are available in the market. Choosing the best one which is suitable for your house or office is an art. Expert advice clears all doubts and helps you to get the right aircon for your place.</p>
-                </div>
-                <div className="col-md-6">
-                    <h4 className="cs_fs_18 text-light">Inverter Ruud Ducted</h4>
-                    <p>This type of air conditioner has an efficient and compact design. This one is ideal to install in the tight roof space of the modern home.</p>
-                </div>
-                <div className="col-md-6">
-                    <h4 className="cs_fs_18 text-light">Premium Inverter Ducted</h4>
-                    <p>This ducted air con has remarkable energy performance and the ability to perform functions quite innovatively. We are skilled enough in installing, repairing, fixing, and maintenance of these kinds of air conditioners.</p>    
-                </div>
-                <div className="col-md-6">
-                    <h4 className="cs_fs_18 text-light">Bulkhead System</h4>
-                    <p>This model is best for drop ceilings and shallow ceilings. Optimal for bedroom air conditioning and ideal where discreet installation is a preference.</p>
-                </div>
-                <div className="col-md-6">
-                    <h4 className="cs_fs_18 text-light">Slimline Ducted</h4>
-                    <p>It has freedom of design and unparalleled flexibility. FAJ is the most reliable and ideal one for installing and maintenance of these ac machines.</p>    
-                </div>
-            </div>
-          </div>
-        </section>
-
-        
-        <section className="section cs_py_30">
-          <div className="container">
-          <h3 className="cs_fs_30">Get A Full Fledged Expert Service Of Ruud HVAC</h3>
-            <div className="row align-items-center">
-                <div className="col-xl-6">
-                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-repair.jpg`} alt="Ruud Ac Repair" />
-                </div>
-                <div className="col-xl-6">
-                  <p>While modern HVAC systems are manufactured to deliver year-long service. However, issues with air condition can and will arise. Here are some common problems which are faced by several homeowners, businesses, etc.</p>
-                  <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span><strong>Blown Is Fused:</strong> One reason your Ruud HVAC is not functioning is because of blown fuses. Fuses are mainly designed to protect the compressor and unit’s motor or ac engine from overheating. Due to that, the breaker gets flipped off which indicates a huge problem with your HVAC air con.</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span><strong>Unclean Air Filters:</strong> Dirty ac filters make your Ruud HVAC aircon to under-perform and eventually freeze. Air filters must be regularly changed otherwise, airflow can be decreased significantly. For exceptional services, FAJ is available on the other side of a single call. Don’t let your air condition issues disturb your comfort and your important work. Let us keep your air conditioning in optimal condition, and make sure you and your loved ones enjoy cool and fresh air.</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span><strong>Poor Refrigerant:</strong> In HVAC ac refrigerant leaks happen and it is caused by system vibration during operation. Leaks always require repairing whether it is in lines or coils. Our expert team takes good care of your property and makes sure to gently handle it. Give your HVAC air conditioning the care it deserves!</span>
-                    </li>
-                  </ul>
-                </div>
-            </div>
-          </div>
-          <section className="section">
-          <div className="container">
-            <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
-                  <WhatsappIconButton />
-                  <CallNowButton />
-                </div>
-              </div>
-          </div>
-        </section>
-        </section>
-        
          {/* The Benefits Of Regular AC Service*/}
          <BenefitAcMaintenance />
           {/*Why Choose F A J Technical Services L.L.C? */}

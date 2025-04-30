@@ -146,20 +146,27 @@ const BlueStarAcRepair = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-          <h3 className="cs_fs_30">BlueStar Air Con Service Quality Workmanship </h3>
+            <h3 className="cs_fs_30">Why is Blue Star AC Maintenance Service Important in Dubai?</h3>
             <div className="row align-items-center">
+            <div className="col-md-6">
+                <ul className="mb-0">
+                    <li> <strong> Extreme Heat: </strong>Dubai’s intense summer heat demands efficient Blue Star Split AC performance to ensure reliable cooling.</li>
+                    <li> <strong> Consistent Demand: </strong>With the hot and humid climate, regular Blue Star air conditioner maintenance prevents breakdowns and keeps systems running efficiently, extending their lifespan.</li>
+                    <li> <strong> Energy Efficiency: </strong>Proper Blue Star wall mounted AC or central AC maintenance enhances energy efficiency, reducing electricity bills and promoting a more innocent environment.</li> 
+                    <li> <strong> Cost Savings: </strong>Overall, Blue Star AC repair and cleaning services are essential for maintaining comfort and efficiency in residential and commercial spaces across Dubai.</li> 
+                </ul>
+              </div>
               <div className="col-md-6">
-                
-                <p>FAJ is working consistently since 2010 to make its customers satisfied and comfortable. Getting the best BlueStar ac repair service in Dubai is not easy especially when you are in urgent need. Our superior workmanship is what makes us different from others. In the need of immediate help, we are present and we provide unbeatable service to our customers. With our regular maintenance service keep your BlueStar air con running smoothly and swiftly. <br />Breathing fresh air is the right of everyone. Getting top-quality fresh air requires the best air con. BlueStar can provide healthy air to its buyers. In Dubai, BlueStar is the leading brand. So, if you have BlueStar air conditioning at your home or office and looking for its repairs. Why not look for a top-quality service provider for a top ac brand? <br />F A J Technical Services L.L.C is a top-notch company providing mind-blowing BlueStar ac repair in Dubai. We understand the necessity of properly functioning air. Our team of experienced technicians ensures to provide optimal performance of BlueStar air con and an enjoyable indoor environment all year round.</p>
+                {/* <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Blue star Ac Repair" />
               </div>
-              <div className="col-md-6 text-center text-md-end">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-service.jpg`} alt="BlueStar Ac Repair" />
-                
-              </div>
+              
             </div>
-
+            <p>
+            In summary, Blue star ductless AC repair and cleaning service is crucial for comfort and cost-effectiveness in Dubai's climate, ensuring smooth and efficient Aftron AC performance.
+            </p>
           </div>
-        </section> 
+        </section>
         {/* Common Signs Your AC May Need Maintenanc */}
         <section className="section cs_py_30">
             <div className="container">
@@ -261,47 +268,6 @@ const BlueStarAcRepair = ({ subtitle, title, bgImg }) => {
 
         {/* A Quick Guide to Understanding and Fixing Your AC Problems */}
         <QuickGuide />
-        
-        <section className="section cs_py_30">
-          <div className="container">
-          <h3 className="cs_fs_30">Get A Full Fledged Expert Service Of BlueStar HVAC</h3>
-            <div className="row align-items-center">
-                <div className="col-xl-6">
-                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-repair.jpg`} alt="BlueStar Ac Repair" />
-                </div>
-                <div className="col-xl-6">
-                  <p>While modern HVAC systems are manufactured to deliver year-long service. However, issues with air condition can and will arise. Here are some common problems which are faced by several homeowners, businesses, etc.</p>
-                  <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span><strong>Blown Is Fused:</strong> One reason your BlueStar HVAC is not functioning is because of blown fuses. Fuses are mainly designed to protect the compressor and unit’s motor or ac engine from overheating. Due to that, the breaker gets flipped off which indicates a huge problem with your HVAC air con.</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span><strong>Unclean Air Filters:</strong> Dirty ac filters make your BlueStar HVAC aircon to under-perform and eventually freeze. Air filters must be regularly changed otherwise, airflow can be decreased significantly. For exceptional services, FAJ is available on the other side of a single call. Don’t let your air condition issues disturb your comfort and your important work. Let us keep your air conditioning in optimal condition, and make sure you and your loved ones enjoy cool and fresh air.</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span><strong>Poor Refrigerant:</strong> In HVAC ac refrigerant leaks happen and it is caused by system vibration during operation. Leaks always require repairing whether it is in lines or coils. Our expert team takes good care of your property and makes sure to gently handle it. Give your HVAC air conditioning the care it deserves!</span>
-                    </li>
-                  </ul>
-                </div>
-            </div>
-          </div>
-          <section className="section">
-          <div className="container">
-            <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
-                  <WhatsappIconButton />
-                  <CallNowButton />
-                </div>
-              </div>
-          </div>
-        </section>
-        </section>
         
          {/* The Benefits Of Regular AC Service*/}
          <BenefitAcMaintenance />

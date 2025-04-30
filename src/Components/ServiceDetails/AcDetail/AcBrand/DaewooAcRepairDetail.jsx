@@ -128,37 +128,36 @@ const DaewooAcRepair = ({ subtitle, title, bgImg }) => {
                 <div className="appointment-col border-small-top pt-3">
                     <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/ac-service-in-dubai/"><b>AC cleaning service</b></Link> , repair, or maintenance. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
                     <div id="get-quote" className=" mt-3">
-                        <div className="container d-flex justify-content-center align-items-center gap-3">
-                            <WhatsappIconButton />
-                            <CallNowButton />
-                        </div>
+                      <div className="container d-flex justify-content-center align-items-center gap-3">
+                          <WhatsappIconButton />
+                          <CallNowButton />
+                      </div>
                     </div>
                 </div>
             </div>
         </section>
-
+       
         <section className="section cs_py_30">
           <div className="container">
             <FAJACPrice></FAJACPrice>
           </div>
-        </section>
-
+        </section> 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-          <h3 className="cs_fs_30">Hassle-free Daewoo Split air conditioner (A/c) Maintenance</h3>
+            <h3 className="cs_fs_30">Why is Daewoo AC Maintenance Service Important in Dubai?</h3>
             <div className="row align-items-center">
               <div className="col-md-6">
-                
-                <p>Better and on-time maintenance brings fruitful results and therefore, the air conditioning can work for many years. However, a malfunctioned daewoo air con can lead to inconvenience and discomfort as well as restricts fresh cooling. Moreover, inadequate cool air negatively affects our day-to-day tasks. To get the best Daewoo ac repair in dubai make sure to communicate with an experienced and well-known company. Because this will not only save you time but saves money as well.<br />Daewoo air conditioner is the most used cooling system in the whole of Dubai. After several years of service, every air con requires proper maintenance and servicing. For excellent Daewoo ac repair in dubai detailed accurate maintenance is what makes your air conditioning functional for many years. Repairing any issue before it turns into a large repair is the key to preventing any problem. This is where we can help you, we are professionals in providing dependable and unique Daewoo ac repair in dubai. For all types/models of air conditioners of any size, F A J Technical Services L.L.C is at your doorstep to give you a hand in maintaining it. And fixing faults your air con is experiencing.</p>
+                <p>In Dubai's intense heat, having a well-maintained Daewoo air conditioner unit is crucial for comfort and efficiency. Regular maintenance and cleaning service of Daewoo split AC units ensures optimal performance, extending the life of the system and preventing costly repairs.</p>
+                <p>By investing in professional maintenance, you not only enhance air quality but also keep your energy bills in check. Choose Daewoo AC Maintenance Service for reliability and peace of mind, ensuring a cool and comfortable home all year round.</p>
               </div>
-              <div className="col-md-6 text-center text-md-end">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-service.jpg`} alt="Daewoo Ac Repair" />
-                
+              <div className="col-md-6">
+                {/* <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/ac-reapir-near-me.jpg`} alt="Daewoo Ac Repair" />
               </div>
+              
             </div>
-
           </div>
-        </section> 
+        </section>
         {/* Common Signs Your AC May Need Maintenanc */}
         <section className="section cs_py_30">
             <div className="container">
@@ -261,49 +260,6 @@ const DaewooAcRepair = ({ subtitle, title, bgImg }) => {
         {/* A Quick Guide to Understanding and Fixing Your AC Problems */}
         <QuickGuide />
 
-        
-        <section className="section cs_py_30">
-          <div className="container">
-          <h3 className="cs_fs_30">Daewoo Split Air Con Error Codes</h3>
-          <p>Air conditioners are primarily designed to provide optimum, fast cooling. With time, these air cons require careful attention and help from expert technicians to keep working the way they should. These are some fault codes which must need a quick fix.</p>
-            <div className="row align-items-center">
-                <div className="col-xl-6">
-                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-repair.jpg`} alt="Daewoo Ac Repair" />
-                </div>
-                <div className="col-xl-6">
-                  <h4 className="cs_fs_24">Error codes of the Daewoo unit</h4>
-                    <ul>
-                      <li>Daewoo error code: E0</li>
-                      <li>Daewoo error code: E01</li>
-                      <li>Daewoo error code: E02</li>
-                      <li>Daewoo error code: E03</li>
-                      <li>Daewoo error code: E04</li>
-                    </ul>
-                  <h4 className="cs_fs_24">Daewoo Window Miscellaneous Issues/ Problems</h4>
-                    <p>Air conditioner does its best and keeps your daily work schedule and sleep soft and comfortable. And, things get worse if your air con does not go through thorough regular maintenance such as;</p>
-                    <ul>
-                      <li>Daewoo window air conditioning is failed to turn on</li>
-                      <li>It is not cooling your room instead reverse happening, humidity and warm air</li>
-                      <li>Daewoo AC is emitting wyrd odors</li>
-                      <li>Strange noises are coming out of your air conditioning</li>
-                      <li>The remote control of the Daewoo air conditioner is not functioning</li>
-                    </ul>
-                </div>
-            </div>
-            <p>All these problems occur when your air con does not get routine maintenance and proper servicing. Furthermore, due to dust, debris, and dirt air filters get clogged or blocked which hampers the fresh, crisp cool air to circulate in the entire room or home. Thus, it causes the emission of unusual noises and smells. Hence, due to these, unwanted problems occur. Additionally, refrigerant leakage and defective compressors restrict your AC to turn on.</p>
-          </div>
-          <section className="section">
-          <div className="container">
-            <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
-                  <WhatsappIconButton />
-                  <CallNowButton />
-                </div>
-              </div>
-          </div>
-        </section>
-        </section>
-        
          {/* The Benefits Of Regular AC Service*/}
          <BenefitAcMaintenance />
           {/*Why Choose F A J Technical Services L.L.C? */}

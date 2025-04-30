@@ -145,28 +145,25 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
         {/* Why is AC Maintenance Service Important in Dubai? */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h3>
-            <p>
-              Regular air conditioner (AC) maintenance service in Dubai is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you, contact us.
-            </p>
-
+            <h3 className="cs_fs_30">Why Coleman AC Maintenance Service is Essential in Dubai?</h3>
             <div className="row align-items-center">
-              <div className="col-md-6">
-                {/* <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/What-is-covered-in-an-AC-Maintenance-Contract.jpg`} alt="Post Image" />
-              </div>
-              <div className="col-md-6">
+            <div className="col-md-6">
                 <ul className="mb-0">
-                    <li> <strong> Extreme Weather: </strong> Experiences high temperatures over 40°C (104°F) in summer. Regular maintenance keeps air conditioner systems efficient during these conditions.</li>
-
-                    <li> <strong> Energy Efficiency: </strong> A well-maintained AC unit operates more efficiently, using less energy and lowering both electricity bills.</li>
-
-                    <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend your air condition unit’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
-                    <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
-                    <li> <strong> Enhanced Comfort: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li> 
+                    <li> <strong> Extreme Weather Conditions: </strong> Dubai's climate is characterised by high temperatures, especially in the summer months. Regular maintenance ensures that Coleman AC operate efficiently, providing reliable cooling when it is needed the most.</li>
+                    <li> <strong> Energy Efficiency:  </strong> Proper Coleman AC maintenance checks can help identify issues that reduce the efficiency of AC units. By addressing these problems, homeowners can lower their energy bills and minimise environmental impact.</li>
+                    <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend the lifespan of Coleman air conditioner. By keeping units in good condition, owners can avoid costly replacements.</li>
+                    <li> <strong> Preventative Measures: </strong> Scheduled maintenance can catch potential problems or errors before they escalate into major issues. This proactive approach saves time, money, and unnecessary stress during peak usage times.</li> 
                 </ul>
               </div>
+              <div className="col-md-6">
+                {/* <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Coleman Ac Repair" />
+              </div>
+              
             </div>
+            <p>
+            In the UAE, where heat makes AC vital, investing in expert repair like Coleman is essential for safety, efficiency, and peace of mind.
+            </p>
           </div>
         </section>
         
@@ -258,29 +255,6 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
                     </div>
                 </div>
             </div>
-        </section>
-        <section className="section cs_py_30">
-          <div className="container">
-            <h3 className="cs_fs_30">Why Coleman AC Maintenance Service is Essential in Dubai?</h3>
-            <div className="row align-items-center">
-            <div className="col-md-6">
-                <ul className="mb-0">
-                    <li> <strong> Extreme Weather Conditions: </strong> Dubai's climate is characterised by high temperatures, especially in the summer months. Regular maintenance ensures that Coleman AC operate efficiently, providing reliable cooling when it is needed the most.</li>
-                    <li> <strong> Energy Efficiency:  </strong> Proper Coleman AC maintenance checks can help identify issues that reduce the efficiency of AC units. By addressing these problems, homeowners can lower their energy bills and minimise environmental impact.</li>
-                    <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend the lifespan of Coleman air conditioner. By keeping units in good condition, owners can avoid costly replacements.</li>
-                    <li> <strong> Preventative Measures: </strong> Scheduled maintenance can catch potential problems or errors before they escalate into major issues. This proactive approach saves time, money, and unnecessary stress during peak usage times.</li> 
-                </ul>
-              </div>
-              <div className="col-md-6">
-                {/* <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/What-is-covered-in-an-AC-Maintenance-Contract.jpg`} alt="Post Image" />
-              </div>
-              
-            </div>
-            <p>
-            In the UAE, where heat makes AC vital, investing in expert repair like Coleman is essential for safety, efficiency, and peace of mind.
-            </p>
-          </div>
         </section>
         {/* A Quick Guide to Understanding and Fixing Your AC Problems */}
         <QuickGuide />
