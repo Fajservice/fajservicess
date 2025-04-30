@@ -84,15 +84,11 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
     dots: false,
     infinite: true,
     slidesToShow: 6,
-    // slidesToScroll: 1,
     arrows: false,
-    // swipeToSlide: true,
 
-    infinite: true,
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true, 
-    slidesToShow: 1,
     // cssEase: 'linear',
 
     responsive: [
