@@ -10,6 +10,8 @@ import testimonial_data_york from '../../../../Data/AcData/AcTestimonial/YorkAcS
 import parse from 'html-react-parser';
 import Slider from "react-slick";
 import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMaintenance";
+import QuickGuide from "../../../QuickGuide/QuickGuide";
+import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
 
 const YorkAcRepair =  ({ subtitle, title, bgImg }) => {
   subtitle="Testimonial"
@@ -139,14 +141,31 @@ const YorkAcRepair =  ({ subtitle, title, bgImg }) => {
             <FAJACPrice></FAJACPrice>
           </div>
         </section>
-        <section className="section cs_py_30 bg-dark-blue text-light">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="cs_fs_30 text-light">York Central Air Conditioning Service Near Me (Dubai)</h3>
-            <p>In hot summer, central air con at residential and commercial places is a necessary thing. Without it, you cannot work efficiently and comfortably. Servicing of York Central AC demands increases during summers and FAJ is the experienced one in providing air condition service in your comfort zone. Our trained technicians are capable enough to swiftly service your york central air con. and let you comfortably do your essentials at your home or business. We are the best and possess years of experience in york ac repair in Dubai. The excellency of our work indicates our professionalism and our dedicated nature towards the performance. Our team is capable and excellent enough to deliver the best york ac repair.</p>
-            <h3 className="cs_fs_30 text-light">Top-quality York AC Servicing In Dubai</h3>
-            <p>If you looking for the best and most reliable servicing of your York aircon. Then stop right here and look no further. You are exactly where you should be yes, being the top and specialized ones in delivering all kinds of servicing regarding air conditioning. Our customers are quite satisfied and rely on us. We provide quick york ac repair, and installation plus fixing any issues your air con might have.</p> 
-            <h3 className="cs_fs_30 text-light">Fixing of York Central Air Con Instantly</h3>
-            <p>Who does not want a cool healthy home? We all want, and our air condition plays a vital role. Your York Central AC might be not cooling the room or area it used to be. It is maybe instead of cooling your home, working in a reverse manner. When you turn on your air condition humidity increases then, this is indicating that a clear fix is required. If the execution of air condition maintenance is on time then definitely results are fruitful and are less costly. We are always present to help you in solving all the issues. Our focus is to provide satisfactory results to our customers and provide swift fixing of your AC. We value your time and money therefore, we always deliver more than you ask for. Our focus is to help you to stay comfortable in a cool environment.</p>    
+            <h3 className="cs_fs_30">Why is York AC Maintenance Service Important in Dubai?</h3>
+            <div className="row align-items-center">
+            <div className="col-md-6">
+                <ul className="mb-0">
+                <li>
+                    <strong>Extreme Climate:</strong> Dubai experiences high temperatures, especially during the summer months, making reliable York AC necessary for comfort and safety. Regular maintenance ensures that AC units operate efficiently even in extreme conditions.
+                    </li>
+                    <li>
+                    <strong>Energy Efficiency:</strong> Regular maintenance can help identify and fix issues that might cause air conditioners to work harder than necessary. This not only prolongs the lifespan of the unit but also reduces energy consumption, leading to lower utility bills.
+                    </li>
+                    <li>
+                    <strong>Preventive Measures:</strong> Routine York Air Conditioning maintenance and cleaning service helps detect potential issues early, preventing costly repairs and saving homeowners time and money.
+                    </li>
+                    <li>
+                    <strong>Comfort and Reliability:</strong> Regular York AC servicing helps maintain optimal performance, ensuring that it provides the comfort needed during the hottest months.
+                    </li>
+                </ul>
+              </div>
+              <div className="col-md-6">
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/toshiba-ac-repair.jpg`} alt="Trane Ac Repair" />
+              </div>
+            </div>
+            <p>Investing in York Air Conditioner Repair is essential for efficiency, comfort, air quality, and cost-effectiveness in Dubai’s climate.</p>
           </div>
         </section>
          {/* Common Signs Your AC May Need Maintenanc */}
@@ -252,169 +271,12 @@ const YorkAcRepair =  ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* A Quick Tour to Your AC Problems and Fixing*/}
-        <section className="section cs_py_30">
-            <div className="container">
-                <h3 className="cs_fs_30">A Quick Guide to Understanding and Fixing Your AC Problems</h3>
-                <div className="row">
-                    <div className="col-xl-6">
-                        <iframe className="bordered-img blue-border" width="100%" height="350" src="https://www.youtube.com/embed/sxBhB1_gxYA?si=96yf5hxyAA3bct8w" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen=""></iframe>
-                    </div>
-                    <div className="col-xl-6">
-                        <p>Watch this video to learn about the common issues your air conditioning unit may experience.
-                        This knowledge will help you ensure that the professionals you hire are performing the appropriate checks and maintenance.</p>
-                        <p><strong>We specialize in:</strong></p>
-                        <div className="row">
-                            <div className="col">
-                                <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
-                                    <li>
-                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                                            <i className="bi bi-check"></i></span>
-                                        <span>AC coil cleaning</span>
-                                    </li>
-                                    <li>
-                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                                            <i className="bi bi-check"></i></span>
-                                        <span>Recharging refrigerant levels</span>
-                                    </li>
-                                    <li>
-                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                                            <i className="bi bi-check"></i></span>
-                                        <span>Cleaning or replacing the air filtes</span>
-                                    </li>
-                                    <li>
-                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                                            <i className="bi bi-check"></i></span>
-                                        <span>Checking and tightening electrical connections</span>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div className="col">
-                                <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
-                                    <li>
-                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                                            <i className="bi bi-check"></i></span>
-                                        <span>Regular maintenance</span>
-                                    </li>
-                                    <li>
-                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                                            <i className="bi bi-check"></i></span>
-                                        <span>Unclogging drain lines</span>
-                                    </li>
-                                    <li>
-                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                                            <i className="bi bi-check"></i></span>
-                                        <span>Inspecting and AC installation
-                                        </span>
-                                    </li>
-
-                                    <li>
-                                        <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                                            <i className="bi bi-check"></i></span>
-                                        <span>Fixing leaks refrigerant, water, or duct leaks</span>
-                                    </li>
-
-                                </ul>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-     
-
-        <section className="section cs_py_30  bg-light-gray">
-          <div className="container">
-          <h3 className="cs_fs_30">York Central Controller Fault Codes</h3>
-            <div className="row align-items-center">
-                <div className="col-xl-6">
-                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/ac-reapir-near-me.jpg`} alt="Post Image" />
-                </div>
-                <div className="col-xl-6">
-                  <p>In this type of AC errors can be;</p>
-                  <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>Code E1: Reason of error is senor failure</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>Code E4: The cause for this error is the Indoor EEPROM error</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>Code E7: The reason for the error is a communication fault between outdoor and indoor units</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>Code E14: The reason for the error is the malfunctioning of the indoor fan motor</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>Code F2: The exact cause for the error is the compressor is over-current</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>Code F3: The cause for the error is that there is a communication fault between IPM and indoor PCB</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>Code EF: malfunction is the reason for this error</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>Code E1-E0: The cause for the error is a lack of phase or communication malfunctioning</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span>Code E2: The reason for the error is senor is not working/malfunction</span>
-                    </li>
-                  </ul>
-                </div>
-            </div>
-            <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
-                <WhatsappIconButton />
-              </div>
-            </div>
-          </div>
-        </section>
+        {/* A Quick Guide to Understanding and Fixing Your AC Problems */}
+        <QuickGuide />
+        {/* The Benefits Of Regular AC Service*/}
         <BenefitAcMaintenance />
-        {/*Select FAJ for Quick Service, Efficienc  */}
-        <section className="section cs_py_30 bg-light-gray">
-          <div className="container">
-            <h3 className="cs_fs_30">Why Choose F A J Technical Services L.L.C?</h3>
-            <div className="row align-items-center">
-              <div className="col-md-6">
-                <h4 className="cs_fs_24">We provide quick, efficient service and peace of mind</h4>
-                <ul className="acsvs-exp-spl-para tick-ul mb-0">
-                  <li><b>We get the job done on time</b> thanks to our larger team and dedicated parts warehouse</li>
-                  <li><b>All our AC technicians are fully qualified</b> and extensively trained by us to address all types of AC issues.</li>
-                  <li><b>We help prevent future breakdowns</b> by only using locally produced, highest quality refrigerant gas.</li>
-                  <li><b>From routine maintenance to complex repairs</b> we offers all type of AC repair and maintenance services.</li>
-                  <li><b>We only use genuine parts</b> to give you peace of mind.</li>
-                  <li><b>We give service warranty</b> to make sure you are relax.</li>
-                  <li><b>We look after the environment</b> by always recycling our gas.</li>
-                </ul>
-              </div>
-              <div className="col-md-6 text-center text-md-end">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance-in-Dubai.jpeg`} alt="Post Image" />
-              </div>
-            </div>
-          </div>
-        </section>
+        {/*Why Choose F A J Technical Services L.L.C? */}
+        <ACWhyChooseUs/>
        {/* Practical Tips to Improve Energy Efficiency */}
        <section className="section cs_py_30 bg-dark-blue text-light">
             <div className="container text-center">
