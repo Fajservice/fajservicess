@@ -252,7 +252,7 @@ section#get-quote {
   background: #d04140;
   padding: 16px 0;
   border-radius: 5px;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
 }
 
 .inner-acsvs-dis-sec a {

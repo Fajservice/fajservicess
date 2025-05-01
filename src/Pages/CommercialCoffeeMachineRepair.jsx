@@ -7,7 +7,7 @@ const CommercialCoffeeMachineRepair = () => {
             <BreadCumb
                 // bgImg="/img/page_heading_1.jpg"
                 bgImg="/img/ac_service-bannerbg.jpg"
-                Title="Coffee Machine Repair & Maintenance Services Dubai"
+                Title="Coffee machine repair in Dubai"
             ></BreadCumb> 
 
             <CommercialCoffeeMachineRepairDetail></CommercialCoffeeMachineRepairDetail>        

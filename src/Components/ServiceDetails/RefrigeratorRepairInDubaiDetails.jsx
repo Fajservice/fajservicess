@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../Data/AcData/AcFaqs/refrigeratorfaq.json';
+import data from '../../Data/refrigeratorfaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
@@ -9,10 +9,9 @@ import GetQuoteButton from "../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
 import QuickGuide from "../QuickGuide/QuickGuide";
-import ACWhyChooseUs from "../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
 import Slider from "react-slick";
-import testimonial_data from '../../Data/AcData/AcTestimonial/AcServiceTestimonials.json';
+import testimonial_data from '../../Data/RefrigeratorTestimonials.json';
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 
@@ -103,29 +102,31 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* Maintenance Contract */}
-        <MaintenanceContract/>
+        <MaintenanceContract />
 
         {/* Refrigerator Repair & Service Nearby You */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <div className="row g-5">
+            <div className="row gx-md-5">
               <div className="col-md-6">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/ac-repair.jpg`} alt="Post Image" />
-                <h3 className="cs_fs_24 mb-1 mt-3">Refrigerator Repair & Service Nearby You</h3>
-                <p>Is your fridge or freezer not cooling properly? Has your food spoiled?
-                  <br />
-                  You can easily book online refrigerator repair in Dubai / Sharjah near me service with FAJ Experts. We repair most major brands of refrigerators and freezers, offering same-day fridge service at affordable prices. Choose a time slot that works best for you!</p>
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" /> */}
+                <h3 className="cs_fs_24 mb-1">Refrigerator Repair & Service Nearby You</h3>
+                <p className="mb-2">Is your fridge or freezer not cooling properly? Has your food spoiled?
+                  You can easily book online refrigerator repair in Dubai / Sharjah near me service with FAJ Experts.</p>
+                <p> We repair most major brands of refrigerators and freezers, offering same-day fridge service at affordable prices. Choose a time slot that works best for you!.</p>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fridge Technical Inspection Fee</h3>
+                <p className="mb-2">The technical inspection fee is AED 157, which covers diagnosis, transportation, and reinstallation in Dubai premises. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.</p>
               </div>
 
-              <div className="col-md-6 border-small-left">
+              <div className="col-md-6 ">
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/fridgerepair.jpg`} alt="Post Image" />
-                <h3 className="cs_fs_24 mb-1 mt-3">Fridge Technical Inspection Fee</h3>
-                <p>The technical inspection fee is AED 157, which covers diagnosis, transportation, and reinstallation in Dubai premises. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.</p>
+
               </div>
             </div>
 
             <div className="appointment-col border-small-top pt-3">
-              <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability. For technical inspection/callout fees, AC service near you, repair, or maintenance, please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+              <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection/callout fees, Refrigerator Repair service near you, or maintenance, please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
               <div id="get-quote" className=" mt-3">
                 <div className="container d-flex justify-content-center align-items-center gap-3">
                   <WhatsappIconButton />
@@ -136,66 +137,55 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
+
+
+        {/* Price */}
         <section className="section cs_py_30">
           <div className="container">
             <FAJACPrice></FAJACPrice>
           </div>
         </section>
 
-        {/* FAJ Expert Air Conditioning Repair for Homes & Businesses Places */}
-        {/* <section className="section cs_py_30">
-          <div className="container">
-            <h2 className="cs_fs_30">FAJ Expert Air Conditioning Repair for Homes & Businesses Places</h2>
-            <p> <a href="https://www.google.com/maps/place/FAJ+Technical+Services+L.L.C+-+Warehouse+No+-+S-02+Gate+35+Street+18b+-+Al+Quoz+-+Al+Quoz+Industrial+Area+4+-+Dubai+-+United+Arab+Emirates/data=!4m2!3m1!1s0x3e5f699a600aceeb:0xa6121b25d557aa94?utm_source=mstt_1&entry=gps&lucs=47068615&g_ep=CAESCTExLjkxLjMwMhgAINeCAyoINDcwNjg2MTVCAlBL/">F A J Technical Services L.L.C</a> , an AC Repair Dubai Company, provides its clients most reliable Air Conditioning technical services in the region. According to the hot climate of UAE, Our Technical Services are designed to deliver you a comfortable environment that allows you to live, learn work, and play with peace of mind. When the temperature soars and you have air conditioner system faults, we are here to save your day. We have trained and professional technical teams to serve you. FAJ, AC Repair Dubai Service Company. </p>
-            <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
-                <WhatsappIconButton />
-              </div>
-            </div>
-          </div>
-        </section> */}
 
-
-        {/*FAJ: Creating the Perfect Temperature All Year Round */}
+        {/*Signs Your Refrigerator Needs Service */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="cs_fs_30">5 Reasons Your AC Might Need Repairs This Summer </h3>
-            <p>Air conditioning issues are quite common during the summer months. If you're experiencing AC issues this season, it's important to understand what might be happening with your system. Identifying the problem early can prevent it from worsening and ensure your place remains comfortable during the heat. </p>
-
-
-
+            <h3 className="cs_fs_30">Signs Your Refrigerator Needs Service </h3>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/ac-repair-3.jpg`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Commercial-refrigeration-service.jpg`} alt="Post Image" />
               </div>
               <div className="col-md-6">
 
                 <ul className="mb-0">
-                  <li> <strong>Insufficient Cooling:</strong> May be due to a refrigerant leak, blocked filter, or compressor issues.</li>
-                  <li> <strong>Strange Noises:</strong> Sounds like banging or hissing could indicate damaged parts.</li>
-                  <li> <strong>Increased Energy Bills:</strong> A spike in bills often means your AC is working inefficiently.</li>
-                  <li> <strong>Frequent Cycling:</strong> Constantly turning on and off might suggest a faulty thermostat or oversized system.</li>
-                  <li> <strong>Poor Airflow:</strong> Weak airflow can result from a clogged filter or issues with the ducts.
-                    Stay alert for these signs to maintain your AC. If you notice any issues, consult a professional technician for help.</li>
+                  <li> <strong>Inadequate Cooling:</strong> If your fridge isn't staying cold enough, it might be due to a faulty thermostat or compressor.</li>
+
+                  <li> <strong>Excessive Frost:</strong> Too much ice buildup could indicate a problem with the defrost system.</li>
+
+                  <li> <strong>Strange Noises:</strong> Unusual sounds like rattling or buzzing could mean trouble with the compressor or fan motor.</li>
+
+                  <li> <strong>Leaks or Moisture:</strong> Puddles of water inside or around the fridge could signal a leaky door seal or water line.</li>
+                  <li> <strong>Frequent Cycling:</strong> If your fridge is running constantly, it might be struggling with a faulty thermostat or compressor.</li>
+                  <li><strong>Odors:</strong> Lingering smells despite cleaning may point to mold or bacteria growth inside the fridge.</li>
                 </ul>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Common AC Problems That May Require Maintenance */}
+        {/* Our Refrigerator Repair Service */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="text-center">Common AC Problems That May Require Maintenance</h3>
+            <h3 className="text-center">Our Refrigerator Repair Service</h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Weak Airflow</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">General Repair & Maintenance</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">If you notice reduced airflow coming from your vents, it could indicate a problem with your AC system, such as a clogged filter or malfunctioning fan.</p>
+                    <p className="p-2 mb-0">We give your fridge some extra care with regular check-ups & small fixes to make sure it stays in perfect shape.</p>
                   </div>
                 </div>
               </div>
@@ -203,10 +193,10 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Warm Air</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Fixing</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">If your AC blows warm or room temperature air instead of cold, it could indicate compressor, refrigerant, or ductwork issues.</p>
+                    <p className="p-2 mb-0">Let us get your new fridge set up just right so it fits perfectly in your kitchen and keeps your food nice and cool.</p>
                   </div>
                 </div>
               </div>
@@ -214,10 +204,10 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Strange Noises</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Repair Near Me</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Unusual sounds like grinding, squealing, or banging coming from your AC unit can indicate mechanical problems that require attention.</p>
+                    <p className="p-2 mb-0">When your fridge decides to act up out of the blue, call us to save the day and your food.</p>
                   </div>
                 </div>
               </div>
@@ -225,10 +215,10 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Foul Odors</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Cooling System Repair </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Musty or foul odors emanating from the vents could suggest mold or mildew growth within the system, which needs to be addressed quickly.</p>
+                    <p className="p-2 mb-0">We can fix any problems to keep your fridge cold so your food stays fresh and tasty.</p>
                   </div>
                 </div>
               </div>
@@ -236,10 +226,10 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Frequent Cycling</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Compressor Replacement</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">It may signal difficulty maintaining desired temperatures due to issues like dirty filters, low refrigerant levels, or a faulty thermostat.</p>
+                    <p className="p-2 mb-0">If your fridge's compressor isn't working right, we can bring it back to life and make sure everything stays cool.</p>
                   </div>
                 </div>
               </div>
@@ -247,10 +237,10 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">High Humidity Levels</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Water Leak Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">An air conditioner that fails to adequately reduce indoor humidity levels may indicate issues with its cooling capacity or improper operation.</p>
+                    <p className="p-2 mb-0">Call us to stop any leaks in your fridge's tracks to keep your kitchen dry and your food safe.</p>
                   </div>
                 </div>
               </div>
@@ -258,10 +248,11 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Leaking Water</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Defrost System Repair
+                    </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Water pooling around AC or dripping from vents could indicate blocked condensate drain, frozen coils, or other issues.</p>
+                    <p className="p-2 mb-0">We can fix up your fridge's defrost system so it can keep things chilly without getting too frosty.</p>
                   </div>
                 </div>
               </div>
@@ -269,10 +260,10 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Increased Energy Bills</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Fan Motor Repair </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">High energy bills without increase in usage could indicate the inefficiency of your AC due to dirty filters, duct leaks, or other problems.</p>
+                    <p className="p-2 mb-0">Let us get your fridge's fan motor back in action so it can keep air flowing and your food fresh.</p>
                   </div>
                 </div>
               </div>
@@ -286,32 +277,249 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* A Quick Guide to Understanding and Fixing Your AC Problems*/}
-        <QuickGuide />
-
-        <BenefitAcMaintenance />
-
-        {/*Select FAJ for Quick Service, Efficienc  */}
-        <section className="section cs_py_30 ">
+        {/* Refrigerator Repair and Maintenance Service in Duba */}
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="cs_fs_30">Why Choose F A J Technical Services L.L.C?</h3>
+            <h3 className="cs_fs_30">Refrigerator Repair and Maintenance Service in Duba</h3>
             <div className="row align-items-center">
-              <div className="col-md-6">
-                <h4 className="cs_fs_24">We provide quick, efficient service and peace of mind</h4>
-                <ul className="acsvs-exp-spl-para tick-ul mb-0">
-                  <li><b>We get the job done on time</b> thanks to our larger team and dedicated parts warehouse</li>
-                  <li><b>All our AC technicians are fully qualified</b> and extensively trained by us to address all types of AC issues.</li>
-                  <li><b>We help prevent future breakdowns</b> by only using locally produced, highest quality refrigerant gas.</li>
-                  <li><b>From routine maintenance to complex repairs</b> we offers all type of AC repair and maintenance services.</li>
-                  <li><b>We only use genuine parts</b> to give you peace of mind.</li>
-                  <li><b>We give service warranty</b> to make sure you are relax.</li>
-                  <li><b>We look after the environment</b> by always recycling our gas.</li>
-                </ul>
+              <div className="col-xl-6">
+                <iframe
+                  className="bordered-img blue-border"
+                  width="100%"
+                  height="350"
+                  src="https://www.youtube.com/embed/VAmZ-qKWkjw"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
               </div>
-              <div className="col-md-6 text-center text-md-end">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance-in-Dubai.jpeg`} alt="Post Image" />
+
+              <div className="col-xl-6">
+                <p className='mb-0'>One of the appliances we use on a daily basis in our homes is the refrigerator, which is used to prevent food waste. We won't be able to keep food fresh for very long if our refrigerator breaks down. A major issue is also having cold water. Furthermore, you and your entire family have a serious issue if you store food for urgent needs. With FAJ Professional, experience the best home service refrigerator repair. Our knowledgeable specialists are skilled at quickly identifying and resolving problems, so your refrigerator will continue to function flawlessly. At FAJ, we put your convenience first by providing perfect cool refrigeration services to maintain the best possible condition for your appliances.</p>
+                {/* <p className='mb-0'><strong>Our services include:</strong></p>
+                        <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-1">
+
+                            <li>
+                                <strong>Installation:</strong>  Expert installation of various types and brands of HVAC systems, ensuring optimal performance and efficiency.
+                            </li>
+
+                            <li>
+                                <strong>Diagnostics:</strong> Thorough fault finding to diagnose issues effectively. We provide eligibility assessments and detailed quotations to address any concerns with your system.
+                            </li>
+
+                            <li>
+                                <strong>Repair Service:</strong> Efficient repair services for all HVAC components, ensuring quick resolution of any issues, such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions!
+                            </li>
+
+                            <li>
+                                <strong>Annual Maintenance Contract:</strong> This contract outlines the terms and services covered for the annual maintenance of air conditioning units. Regular maintenance is essential for optimal performance, efficiency, and longevity of your air conditioning system.
+                            </li>
+                          
+                        </ul> */}
+
+
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* The Benefits Of appliances Service Dubai */}
+        <section className="section cs_py_30 appliances-benifit-sec">
+          <div className="container">
+            <div className="row justify-content-center">
+              <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai
+              </h3>
+              <div className="row gx-3 gy-5 mt-0">
+                <div className="col-md-4 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block">
+                        <img src={`${import.meta.env.BASE_URL}/img/icons/Ensuring-Safety.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h4>
+                      <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block">
+                        <img src={`${import.meta.env.BASE_URL}/img/icons/Optimal-Performance.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
+                      </h4>
+                      <p className="small">Regular maintenance helps your appliances run smoothly and efficiently, delivering the best results every time.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block">
+                        <img src={`${import.meta.env.BASE_URL}/img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
+                      <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-md-4 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block">
+                        <img src={`${import.meta.env.BASE_URL}/img/icons/Saving-Money-on-Repair.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h4>
+                      <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
+                    </div>
+
+                  </div>
+                </div>
+                <div className="col-md-4 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block">
+                        <img src={`${import.meta.env.BASE_URL}/img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h4>
+                      <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
+
+                    </div>
+
+                  </div>
+                </div>
+
+                <div className="col-md-4 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block">
+                        <img src={`${import.meta.env.BASE_URL}/img/icons/Peace-of-Mind.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
+                      </h4>
+                      <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="section cs_py_30 bg-dark-blue text-light">
+          <div className="container text-center">
+            <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
+            <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
+            <a
+              href="files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
+              className="btn-green-yellow"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Click Here to Save on Energy Bills
+            </a>
+
+          </div>
+        </section>
+
+
+
+
+        {/*Select FAJ for Quick Service, Efficienc  */}
+        <section className="section cs_py_30">
+          <div className="container container-md container-sm">
+            <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR  NEEDS!</h2>
+            <div className="usps align-items-center	">
+              {/* <!-- First Column --> */}
+              <div className="uspcol col-1">
+                <div className="uspitem">
+                  <div className="uspicon">
+                    <img className="" src={`${import.meta.env.BASE_URL}/img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
+
+                  </div>
+                  <div className="usptext">
+                    <h3 className="">Reliable, Priority, and Quick</h3>
+                    <p>You can count on efficient service! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
+                  </div>
+                </div>
+
+                <div className="uspitem">
+                  <div className="uspicon">
+                    <img className="" src={`${import.meta.env.BASE_URL}/img/icons/experts.png`} alt="We Are Experts" />
+                  </div>
+                  <div className="usptext">
+                    <h3 className="">Confidence</h3>
+                    <p>With <a href="#/ac-annual-maintenance-contract/">annual maintenance contract</a>, you get a full year of service, ensuring your AC runs smoothly and providing peace of mind.
+                    </p>
+                  </div>
+                </div>
+
+
+                <div className="uspitem mb-0">
+                  <div className="uspicon">
+                    <img className="" src={`${import.meta.env.BASE_URL}/img/icons/full-control.webp`} alt="FAJ icon service" />
+                  </div>
+                  <div className="usptext">
+                    <h3 className="">You Are in Control</h3>
+                    <p>Choose a day and time for your AC repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive.
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+
+              {/* <!-- Delimit Section --> */}
+              <div className="uspdelimit col-2 d-none d-xl-block">
+
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}/img/fajteam.jpg`} alt="FAJ icon service" />
+                {/* <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}/img/fajteam-1.jpg`} alt="FAJ icon service" /> */}
+              </div>
+
+              {/* <!-- Second Column --> */}
+              <div className="uspcol col-3">
+                <div className="uspitem">
+                  <div className="uspicon">
+                    <img className="" src={`${import.meta.env.BASE_URL}/img/icons/value.png`} alt="FAJ icon service" />
+                  </div>
+                  <div className="usptext">
+                    <h3 className="">We Are Experts</h3>
+                    <p>We are experts in AC repair. This is why most major brands trust us to handle their service and maintenance needs.</p>
+                  </div>
+                </div>
+                <div className="uspitem">
+                  <div className="uspicon">
+                    <img className="" src={`${import.meta.env.BASE_URL}/img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
+
+                  </div>
+                  <div className="usptext">
+                    <h3 className="">Great Value</h3>
+                    <p>We are dedicated to ensuring customer satisfaction with timely service, prompt issue resolution, and affordable prices.</p>
+
+                  </div>
+                </div>
+                <div className="uspitem mb-0">
+                  <div className="uspicon">
+                    <img className="" src={`${import.meta.env.BASE_URL}/img/icons/trustworthy.png`} alt="FAJ icon service" />
+                  </div>
+                  <div className="usptext">
+                    <h3 className="">Trustworthy</h3>
+                    <p>Our skilled AC technicians are highly trained, and we provide excellent service for a variety of major AC brands efficiently.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* <!-- Delimit mobile --> */}
+            <div className="col-12 uspdelimit w-100 text-center d-block d-none-1199 Xd-xl-none">
+              <img className="blue-border-2 w-100" src={`${import.meta.env.BASE_URL}/img/fajteam.jpg`} alt="FAJ icon service" />
+
+
+            </div>
+
           </div>
         </section>
 
@@ -349,99 +557,99 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
 
                 <br />
 
-              <p className="mb-0">
-              <Link to="/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg">AEG</Link>
-              <span>&nbsp;-&nbsp;</span>  
-  <Link to="/ariston-fridge-repair-in-dubai-ariston-washing-machine-repair-in-dubai-ariston-cooker-repair-in-dubai-ariston-oven-repair-in-dubai-ariston-appliances-maintenance-in-dubai-ariston-refrigerator-fix-repa">Ariston</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/beko-fridge-repair-in-dubai-beko-washing-machine-repair-in-dubai-beko-cooker-repair-in-dubai-beko-oven-repair-in-dubai-beko-appliances-maintenance-in-dubai-beko-refrigerator-fix-repairs-service-in-dub">Beko</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/blomberg-fridge-repair-in-dubai-blomberg-washing-machine-repair-in-dubai-blomberg-cooker-repair-in-dubai-blomberg-oven-repair-in-dubai-blomberg-appliances-maintenance-in-dubai-blomberg-refrigerator-fi">Blomberg</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/faber-appliances-service">Faber</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/fagor-fridge-repair-in-dubai-fagor-washing-machine-repair-in-dubai-fagor-cooker-repair-in-dubai-fagor-oven-repair-in-dubai-fagor-appliances-maintenance-in-dubai-fagor-refrigerator-fix-repairs-service">Fagor</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/fisher-and-paykel-fridge-repair-in-dubai-fisher-and-paykel-washing-machine-repair-in-dubai-fisher-and-paykel-cooker-repair-in-dubai-fisher-and-paykel-oven-repair-in-dubai-fisher-and-paykel-appliances">Fisher and Paykel</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/foster-appliances-services-foster-dishwasher-repair-service-in-dubai-foster-cooking-range-repair-service-in-dubai-foster-cooktop-repair-service-in-dubai-foster-oven-repair-in-dubai-foster-rangetop-r">Foster</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/gaggenau-fridge-repair-in-dubai-gaggenau-washing-machine-repair-in-dubai-gaggenau-cooker-repair-in-dubai-gaggenau-oven-repair-in-dubai-gaggenau-appliances-maintenance-in-dubai-gaggenau-refrigerator-fi">Gaggenau</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/hitachi-fridge-repair-in-dubai-hitachi-washing-machine-repair-in-dubai-hitachi-cooker-repair-in-dubai-hitachi-oven-repair-in-dubai-hitachi-appliances-maintenance-in-dubai-hitachi-refrigerator-fix-repa">Hitachi</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/hoover-fridge-repair-in-dubai-hoover-washing-machine-repair-in-dubai-hoover-cooker-repair-in-dubai-hoover-oven-repair-in-dubai-hoover-appliances-maintenance-in-dubai-hoover-refrigerator-fix-repairs-se">Hoover</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-oven-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa">Indesit</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/lg-fridge-repair-in-dubai-lg-washing-machine-repair-in-dubai-lg-cooker-repair-in-dubai-lg-oven-repair-in-dubai-lg-appliances-maintenance-in-dubai-lg-refrigerator-fix-repairs-service-in-dubai-lg-dishwa">LG</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub">Neff</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub">Smeg</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/sub-zero-fridge-repair-in-dubai-sub-zero-washing-machine-repair-in-dubai-sub-zero-cooker-repair-in-dubai-sub-zero-oven-repair-in-dubai-sub-zero-appliances-maintenance-in-dubai-sub-zero-refrigerator-fi">Sub Zero</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/terim-appliances-service">Terim</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/whirlpool-fridge-repair-in-dubai-whirlpool-washing-machine-repair-in-dubai-whirlpool-cooker-repair-in-dubai-whirlpool-oven-repair-in-dubai-whirlpool-appliances-maintenance-in-dubai-whirlpool-refrigera">Whirlpool</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/zanussi-fridge-repair-in-dubai-zanussi-washing-machine-repair-in-dubai-zanussi-cooker-repair-in-dubai-zanussi-oven-repair-in-dubai-zanussi-appliances-maintenance-in-dubai-zanussi-refrigerator-fix-repa">Zanussi</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/de-dietrich-appliance-repair-service">De Dietrich</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/baumatic-appliances">Baumatic</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/bertazzoni-refrigerator-repair-in-dubai-bertazzoni-appliances-service-bertazzoni-fridge-repair-in-dubai-bertazzoni-washing-machine-washer-bertazzoni-dryer-repair-in-dubai-bertazzoni-dishwasher-cooker">Bertazzoni</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/bompani-fridge-repair-in-dubai-bompani-washing-machine-repair-in-dubai-bompani-cooker-repair-in-dubai-bompani-oven-repair-in-dubai-bompani-appliances-maintenance-in-dubai-bompani-refrigerator-fix-repa">Bompani</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/boston-refrigerator-repair-in-dubai-boston-appliances-service-boston-fridge-repair-in-dubai-boston-washing-machine-washer-boston-dryer-repair-in-dubai-boston-dishwasher-cooker">Boston</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/brandt-fridge-repair-in-dubai-brandt-washing-machine-repair-in-dubai-brandt-cooker-repair-in-dubai-brandt-oven-repair-in-dubai-brandt-appliances-maintenance-in-dubai-brandt-refrigerator-fix-repairs-se">Brandt</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/gibson-fridge-repair-in-dubai-gibson-washing-machine-repair-in-dubai-gibson-cooker-repair-in-dubai-gibson-oven-repair-in-dubai-gibson-appliances-maintenance-in-dubai-gibson-refrigerator-fix-repairs-se">Gibson</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/gorenje-fridge-repair-in-dubai-gorenje-washing-machine-repair-in-dubai-gorenje-cooker-repair-in-dubai-gorenje-oven-repair-in-dubai-gorenje-appliances-maintenance-in-dubai-gorenje-refrigerator-fix-repa">Gorenje</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/hisense-fridge-repair-in-dubai-hisense-washing-machine-repair-in-dubai-hisense-cooker-repair-in-dubai-hisense-oven-repair-in-dubai-hisense-appliances-maintenance-in-dubai-hisense-refrigerator-fix-repa">Hisense</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/kelvinator-home-appliance-installation-maintenance-repair-fix-service-in-dubai">Kelvinator</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/kenmore-appliances-service">Kenmore</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/panasonic-fridge-repair-in-dubai-panasonic-washing-machine-repair-in-dubai-panasonic-cooker-repair-in-dubai-panasonic-oven-repair-in-dubai-panasonic-appliances-maintenance-in-dubai-panasonic-refrigera">Panasonic</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/sanyo-home-appliance-installation-maintenance-repair-fix-service-in-dubai">Sanyo</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/sears-home-appliances-installation-maintenance-repair-fix-service-in-dubai">Sears</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/wolf-home-appliance-installation-maintenance-repair-fix-service-in-dubai">Wolf</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/haier-fridge-repair-in-dubai-haier-washing-machine-repair-in-dubai-haier-cooker-repair-in-dubai-haier-oven-repair-in-dubai-haier-appliances-maintenance-in-dubai-haier-refrigerator-fix-repairs-service">Haier</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/elica-appliances-service">Elica</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/marvel-fridge-repair-in-dubai-marvel-washing-machine-repair-in-dubai-marvel-cooker-repair-in-dubai-marvel-oven-repair-in-dubai-marvel-appliances-maintenance-in-dubai-marvel-refrigerator-fix-repairs-se">Marvel</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/miele-fridge-repair-in-dubai-miele-washing-machine-repair-in-dubai-miele-cooker-repair-in-dubai-miele-oven-repair-in-dubai-miele-appliances-maintenance-in-dubai-miele-refrigerator-fix-repairs-service">Miele</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/maytag-fridge-repair-in-dubai-maytag-washing-machine-repair-in-dubai-maytag-cooker-repair-in-dubai-maytag-oven-repair-in-dubai-maytag-appliances-maintenance-in-dubai-maytag-refrigerator-fix-repairs-se">Maytag</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/toshiba-home-appliance-installation-maintenance-repair-fix-service-in-dubai-2">Toshiba</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/thermador-appliances-service">Thermador</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/sharp-home-appliance-installation-maintenance-repair-fix-service-in-dubai">Sharp</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/admiral-fridge-repair-in-dubai-admiral-washing-machine-repair-in-dubai-admiral-cooker-repair-in-dubai-admiral-oven-repair-in-dubai-admiral-appliances-maintenance-in-dubai-admiral-refrigerator-fix-repa">Admiral</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/aftron-fridge-repair-in-dubai-aftron-washing-machine-repair-in-dubai-aftron-cooker-repair-in-dubai-aftron-oven-repair-in-dubai-aftron-appliances-maintenance-in-dubai-aftron-refrigerator-fix-repairs-se">Aftron</Link>
-  <span>&nbsp;-&nbsp;</span>  
-  <Link to="/unimac-washing-machine-repair-in-dubai-unimac-dryer-repair-in-dubai-unimac-washer-dryer-repair-in-dubai-unimac-maintenance-in-dubai-unimac-laundry-service-in-dubai-unimac-dubai">Unimac</Link>
+                <p className="mb-0">
+                  <Link to="/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg">AEG</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/ariston-fridge-repair-in-dubai-ariston-washing-machine-repair-in-dubai-ariston-cooker-repair-in-dubai-ariston-oven-repair-in-dubai-ariston-appliances-maintenance-in-dubai-ariston-refrigerator-fix-repa">Ariston</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/beko-fridge-repair-in-dubai-beko-washing-machine-repair-in-dubai-beko-cooker-repair-in-dubai-beko-oven-repair-in-dubai-beko-appliances-maintenance-in-dubai-beko-refrigerator-fix-repairs-service-in-dub">Beko</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/blomberg-fridge-repair-in-dubai-blomberg-washing-machine-repair-in-dubai-blomberg-cooker-repair-in-dubai-blomberg-oven-repair-in-dubai-blomberg-appliances-maintenance-in-dubai-blomberg-refrigerator-fi">Blomberg</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/faber-appliances-service">Faber</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/fagor-fridge-repair-in-dubai-fagor-washing-machine-repair-in-dubai-fagor-cooker-repair-in-dubai-fagor-oven-repair-in-dubai-fagor-appliances-maintenance-in-dubai-fagor-refrigerator-fix-repairs-service">Fagor</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/fisher-and-paykel-fridge-repair-in-dubai-fisher-and-paykel-washing-machine-repair-in-dubai-fisher-and-paykel-cooker-repair-in-dubai-fisher-and-paykel-oven-repair-in-dubai-fisher-and-paykel-appliances">Fisher and Paykel</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/foster-appliances-services-foster-dishwasher-repair-service-in-dubai-foster-cooking-range-repair-service-in-dubai-foster-cooktop-repair-service-in-dubai-foster-oven-repair-in-dubai-foster-rangetop-r">Foster</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/gaggenau-fridge-repair-in-dubai-gaggenau-washing-machine-repair-in-dubai-gaggenau-cooker-repair-in-dubai-gaggenau-oven-repair-in-dubai-gaggenau-appliances-maintenance-in-dubai-gaggenau-refrigerator-fi">Gaggenau</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/hitachi-fridge-repair-in-dubai-hitachi-washing-machine-repair-in-dubai-hitachi-cooker-repair-in-dubai-hitachi-oven-repair-in-dubai-hitachi-appliances-maintenance-in-dubai-hitachi-refrigerator-fix-repa">Hitachi</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/hoover-fridge-repair-in-dubai-hoover-washing-machine-repair-in-dubai-hoover-cooker-repair-in-dubai-hoover-oven-repair-in-dubai-hoover-appliances-maintenance-in-dubai-hoover-refrigerator-fix-repairs-se">Hoover</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-oven-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa">Indesit</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/lg-fridge-repair-in-dubai-lg-washing-machine-repair-in-dubai-lg-cooker-repair-in-dubai-lg-oven-repair-in-dubai-lg-appliances-maintenance-in-dubai-lg-refrigerator-fix-repairs-service-in-dubai-lg-dishwa">LG</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub">Neff</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub">Smeg</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/sub-zero-fridge-repair-in-dubai-sub-zero-washing-machine-repair-in-dubai-sub-zero-cooker-repair-in-dubai-sub-zero-oven-repair-in-dubai-sub-zero-appliances-maintenance-in-dubai-sub-zero-refrigerator-fi">Sub Zero</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/terim-appliances-service">Terim</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/whirlpool-fridge-repair-in-dubai-whirlpool-washing-machine-repair-in-dubai-whirlpool-cooker-repair-in-dubai-whirlpool-oven-repair-in-dubai-whirlpool-appliances-maintenance-in-dubai-whirlpool-refrigera">Whirlpool</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/zanussi-fridge-repair-in-dubai-zanussi-washing-machine-repair-in-dubai-zanussi-cooker-repair-in-dubai-zanussi-oven-repair-in-dubai-zanussi-appliances-maintenance-in-dubai-zanussi-refrigerator-fix-repa">Zanussi</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/de-dietrich-appliance-repair-service">De Dietrich</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/baumatic-appliances">Baumatic</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/bertazzoni-refrigerator-repair-in-dubai-bertazzoni-appliances-service-bertazzoni-fridge-repair-in-dubai-bertazzoni-washing-machine-washer-bertazzoni-dryer-repair-in-dubai-bertazzoni-dishwasher-cooker">Bertazzoni</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/bompani-fridge-repair-in-dubai-bompani-washing-machine-repair-in-dubai-bompani-cooker-repair-in-dubai-bompani-oven-repair-in-dubai-bompani-appliances-maintenance-in-dubai-bompani-refrigerator-fix-repa">Bompani</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/boston-refrigerator-repair-in-dubai-boston-appliances-service-boston-fridge-repair-in-dubai-boston-washing-machine-washer-boston-dryer-repair-in-dubai-boston-dishwasher-cooker">Boston</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/brandt-fridge-repair-in-dubai-brandt-washing-machine-repair-in-dubai-brandt-cooker-repair-in-dubai-brandt-oven-repair-in-dubai-brandt-appliances-maintenance-in-dubai-brandt-refrigerator-fix-repairs-se">Brandt</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/gibson-fridge-repair-in-dubai-gibson-washing-machine-repair-in-dubai-gibson-cooker-repair-in-dubai-gibson-oven-repair-in-dubai-gibson-appliances-maintenance-in-dubai-gibson-refrigerator-fix-repairs-se">Gibson</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/gorenje-fridge-repair-in-dubai-gorenje-washing-machine-repair-in-dubai-gorenje-cooker-repair-in-dubai-gorenje-oven-repair-in-dubai-gorenje-appliances-maintenance-in-dubai-gorenje-refrigerator-fix-repa">Gorenje</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/hisense-fridge-repair-in-dubai-hisense-washing-machine-repair-in-dubai-hisense-cooker-repair-in-dubai-hisense-oven-repair-in-dubai-hisense-appliances-maintenance-in-dubai-hisense-refrigerator-fix-repa">Hisense</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/kelvinator-home-appliance-installation-maintenance-repair-fix-service-in-dubai">Kelvinator</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/kenmore-appliances-service">Kenmore</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/panasonic-fridge-repair-in-dubai-panasonic-washing-machine-repair-in-dubai-panasonic-cooker-repair-in-dubai-panasonic-oven-repair-in-dubai-panasonic-appliances-maintenance-in-dubai-panasonic-refrigera">Panasonic</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/sanyo-home-appliance-installation-maintenance-repair-fix-service-in-dubai">Sanyo</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/sears-home-appliances-installation-maintenance-repair-fix-service-in-dubai">Sears</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/wolf-home-appliance-installation-maintenance-repair-fix-service-in-dubai">Wolf</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/haier-fridge-repair-in-dubai-haier-washing-machine-repair-in-dubai-haier-cooker-repair-in-dubai-haier-oven-repair-in-dubai-haier-appliances-maintenance-in-dubai-haier-refrigerator-fix-repairs-service">Haier</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/elica-appliances-service">Elica</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/marvel-fridge-repair-in-dubai-marvel-washing-machine-repair-in-dubai-marvel-cooker-repair-in-dubai-marvel-oven-repair-in-dubai-marvel-appliances-maintenance-in-dubai-marvel-refrigerator-fix-repairs-se">Marvel</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/miele-fridge-repair-in-dubai-miele-washing-machine-repair-in-dubai-miele-cooker-repair-in-dubai-miele-oven-repair-in-dubai-miele-appliances-maintenance-in-dubai-miele-refrigerator-fix-repairs-service">Miele</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/maytag-fridge-repair-in-dubai-maytag-washing-machine-repair-in-dubai-maytag-cooker-repair-in-dubai-maytag-oven-repair-in-dubai-maytag-appliances-maintenance-in-dubai-maytag-refrigerator-fix-repairs-se">Maytag</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/toshiba-home-appliance-installation-maintenance-repair-fix-service-in-dubai-2">Toshiba</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/thermador-appliances-service">Thermador</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/sharp-home-appliance-installation-maintenance-repair-fix-service-in-dubai">Sharp</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/admiral-fridge-repair-in-dubai-admiral-washing-machine-repair-in-dubai-admiral-cooker-repair-in-dubai-admiral-oven-repair-in-dubai-admiral-appliances-maintenance-in-dubai-admiral-refrigerator-fix-repa">Admiral</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/aftron-fridge-repair-in-dubai-aftron-washing-machine-repair-in-dubai-aftron-cooker-repair-in-dubai-aftron-oven-repair-in-dubai-aftron-appliances-maintenance-in-dubai-aftron-refrigerator-fix-repairs-se">Aftron</Link>
+                  <span>&nbsp;-&nbsp;</span>
+                  <Link to="/unimac-washing-machine-repair-in-dubai-unimac-dryer-repair-in-dubai-unimac-washer-dryer-repair-in-dubai-unimac-maintenance-in-dubai-unimac-laundry-service-in-dubai-unimac-dubai">Unimac</Link>
 
 
-              </p>
+                </p>
               </div>
 
             </div>
@@ -456,21 +664,6 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        <section className="section cs_py_30 bg-dark-blue text-light">
-          <div className="container text-center">
-            <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
-            <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
-            <a
-              href="files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
-              className="btn-green-yellow"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Click Here to Save on Energy Bills
-            </a>
-
-          </div>
-        </section>
 
         {/* white section with AC image */}
         <section className="section cs_py_30">
