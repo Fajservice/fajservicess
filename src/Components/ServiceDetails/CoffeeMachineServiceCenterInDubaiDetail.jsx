@@ -126,10 +126,13 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
         <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2>
+            <h2 className="cs_fs_30">Get Professional Coffee Machine Repair Across Dubai, Sharjah, and Abu Dhabi</h2>
             <p>
-              We have been offering trustworthy appliance repair services since 2010. And we understand that appliances can break down unexpectedly, so we offer budget-friendly solutions. Our trained technicians are available throughout Dubai to repair large appliances at your location.
+              Since 2010, FAJ has been providing reliable and trusted expertise in installation and maintenance, specializing in coffee machine repair and service in Dubai, serving homes, offices, restaurants, and cafes.
 
+              We work with a variety of coffee equipment, including espresso machines, coffee grinders, professional coffee machines, and automatic coffee machines. Our dedicated team understands the importance of a functioning coffee machine, and we prioritise timely maintenance.
+              <br />
+              As specialists in espresso machines, we are committed to managing and maintaining your equipment throughout its lifespan, ensuring that you enjoy reliable, great-tasting coffee every day.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -144,44 +147,31 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
         {/* Maintenance Contract */}
         <MaintenanceContract />
 
-        {/* Coffee Machine Repair & Maintenance */}
+        {/* Coffee Machine Repair and Service */}
 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
                 {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" /> */}
-                <h3 className="cs_fs_24 mb-1">Coffee Machine Repair & Maintenance</h3>
+                <h3 className="cs_fs_24 mb-1">Coffee Machine Repair and Service</h3>
 
-                {/* <p className="mb-2">
-                  If you need appliance repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
-                  <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
-                  <br /> We're nearby and can get your appliances fixed quickly and efficiently.
-                </p> */}
-                <ul>
-                  <li>  Quick Reply on WhatsApp Chat: +971 50 609 7717 </li>
-                  <li>  Coffee Machine & Espresso Machine Services Available from Monday to Saturday </li>
-                  <li>  FAJ location is easy access from Al Khail Road and Sheikh Zayed Road </li>
-                  <li>  Drop the automatic coffee machine / coffee maker or espresso machine off at the workshop and get discount on the technical inspection fee & service. </li>
-                </ul>
-
-
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Coffee Machine Servicing & Contract
-                </h3>
-                {/* <p className="mb-0">
-                  The technical inspection fee is AED 157, which covers diagnosis, transportation, and reinstallation in Dubai premises.
+                <p className="mb-2">When your coffee machine breaks down or stops working, it can disrupt your daily   routine.
                   <br />
-                  Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.
+                  That’s where our expert technician comes in. FAJ expert offers fast and efficient services near you to restore optimal performance. We handle issues like coffee machine descaling, cleaning service, water leakage, Steam wand, noise, poor coffee quality, and grinding problems. Let us help get your coffee machine back on track.
+
                 </p>
-                 */}
-                <ul>
-                  <li>  Best Home Coffee Machine Repair Dubai </li>
-                  <li>  Best Office Coffee Machine Repair in Dubai </li>
-                  <li>  Cleaning & Descaling Coffee Machine with Fixing </li>
-                  <li>  Automatic Coffee Machine Maintenance Service </li>
-                  <li>  Best Restaurant Espresso Machine Repair Near Me </li>
-                  <li>  Professional Espresso Coffee Machine Repair Shop Near Me </li>
-                </ul>
+
+
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">
+                  Coffee Machine Servicing and Maintenance Contract
+                </h3>
+                <p className="mb-0">
+                  Whatever you need, whenever you need it. A scheduled AMC service contract for your coffee machine, which includes cleaning and descaling, is essential for smooth operation throughout the year.
+                  <br />
+                  Regular maintenance is key whether your coffee machine is for home, commercial use, an office, café shop, or a restaurant—be it an espresso machine, automatic coffee machine, coffee maker, or coffee grinder. We are always here to help make life easier for you.
+
+                </p>
               </div>
 
               <div className="col-md-6 ">
@@ -192,19 +182,15 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
             </div>
 
             <div className="appointment-col border-small-top pt-3">
-              {/* <p>
+              <p>
                 If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.
                 <br />
                 Timing: Mon-Sat 8:00 AM to 6:00 PM - Sunday 12:00 PM to 6:00 PM. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.
-              </p> */}
-              <ul>
-                <li>  Best FAJ Espresso Machine Fix Service </li>
-                <li>  Best Commercial Coffee Machine Service Dubai </li>
-                <li>  Get Espresso Grinder Repairs & Servicing Near Me </li>
-                <li>  Automatic Coffee Grinder Maintenance Service Near </li>
-                <li>  Cafe Coffee Machine Maintenance Services Contract </li>
-                <li>  Restaurant Espresso Machine AMC Services Company </li>
-              </ul>
+              </p>
+              <p className="appointment-col border-small-top pt-3">
+                The FAJ workshop is conveniently located near both Al Khail Road and Sheikh Zayed Road.
+                When you drop off your coffee machine at the workshop, you will receive a discount on the technical inspection fee and other services.
+              </p>
 
               <div id="get-quote" className=" mt-3">
                 <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -212,6 +198,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
                   <CallNowButton />
                 </div>
               </div>
+
             </div>
           </div>
         </section>
@@ -223,9 +210,36 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
           </div>
         </section>
 
+        {/* Why is the Importance of Coffee Machine Maintenance in Dubai? */}
+        <section className="section cs_py_30 bg-light-gray">
+          <div className="container">
+            <h3 className="cs_fs_30">Why is the Importance of Coffee Machine Maintenance in Dubai?</h3>
+            <p className="">
+              Regular maintenance of coffee machines is vital for businesses in Dubai. It ensures consistent coffee quality, prolongs machine lifespan, and reduces downtime and repair costs.
+            </p>
+
+            <div className="row align-items-center">
+              <div className="col-md-6">
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/coffee-machine-service.jpg`} alt="Post Image" />
+              </div>
+              <div className="col-md-6">
+                <ul className="mb-0">
+                  <li> <strong> Preventing Breakdowns: </strong> Routine maintenance, including cleaning and descaling, reduces the chance of costly repairs and downtime, which can impact revenue. </li>
+                  <li> <strong> Extending Lifespan: </strong> Regular maintenance prolongs machine life, saving on replacement costs. </li>
+                  <li> <strong> Lowering Maintenance Costs: </strong> Addressing minor issues early can prevent larger, more expensive repairs. </li>
+                  <li> <strong> Maintaining Efficiency: </strong> Consistent upkeep ensures optimal performance and reduces energy consumption. </li>
+                  <li> <strong> Professional Service for Commercial Use: </strong> Commercial machines need specialized maintenance for safety and performance </li>
+                  <li> <strong> Importance in Commercial Kitchens: </strong> In the UAE, reliable maintenance of coffee machines is crucial for beverage service. </li>
+                  <li> <strong> Home Use: </strong> Regular maintenance enhances quality and extends the lifespan of coffee machines.   Professional servicing ensures safety, efficiency, and reliability for both home and business users in Dubai. </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
 
         {/* Hire Professional Coffee Machine Repair Across Dubai - Sharjah - Abu Dhabi */}
-        <section className="section cs_py_30 bg-light-gray">
+        {/* <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="cs_fs_30">Hire Professional Coffee Machine Repair Across Dubai - Sharjah - Abu Dhabi</h3>
             <p>
@@ -238,13 +252,6 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
               <div className="col-md-6">
                 <h4>Searching For Coffee Machine Repair Service Near Me</h4>
                 <p>Do you require nearby Espresso coffee machine repair near me? This is the place where your search stops! For all of your coffee-related issues, our knowledgeable experts are on call and can offer professional solutions that are customized to meet your requirements. Count on us to provide timely and dependable service right at your door, regardless of the size of the issue. Have uninterrupted coffee enjoyment with FAJ Professional by your side and bid adieu to coffee machine troubles.</p>
-
-                {/* <ul className="mb-0">
-                  <li> <strong>Refrigerator Common Issues: </strong> Common problems with refrigerators include cooling issues, insufficient cooling, or door issues. </li>
-                  <li> <strong>Washing Machines Common Issues: </strong> Common problems include drainage issues and spin cycle failures. </li>
-                  <li> <strong> Dishwashers Common Issues: </strong> They may have problems with draining, leading to water pooling at the bottom, or  they might not clean dishes effectively. </li><li> <strong> Ovens and Stoves Common Issues: </strong> Ovens and stoves often face problems with heating elements or ignition. This  can result in the oven not heating up properly or the stove failing to ignite. </li>
-                  <li> <strong> Coffee Machine Common Issues: </strong> Coffee makers may stop brewing properly or start leaking. </li>
-                </ul> */}
               </div>
 
               <div className="col-12 mt-3">
@@ -255,7 +262,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* The Most Common Problems with Home Appliances */}
         <section className="section cs_py_30">
@@ -327,7 +334,10 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Ovens Problems</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Most ovens have common problems like not heating properly, burners not igniting, ignition issues on gas models, broken knobs, and faulty controllers or valves.</p>
+                    <p className="p-2 mb-o">
+                    Most ovens face issues like poor heating, burners not igniting, ignition failure in gas models, broken knobs, and faulty controllers or valves.
+                    </p>
+                    {/* <p className="p-2 mb-0">Most ovens have common problems like not heating properly, burners not igniting, ignition issues on gas models, broken knobs, and faulty controllers or valves.</p> */}
                   </div>
                 </div>
               </div>
@@ -924,7 +934,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
                   <li class="">Rocket Appartmento Machine Repair and Descaling</li>
                   <li class="">Illy Saeco Royal Coffee Machine Repair and Service</li>
                   <li class="">Sage Coffee Machine &amp; Espresso Repair and Cleaning</li>
-                 
+
                 </ul>
               </div>
             </div>
