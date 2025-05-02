@@ -2,25 +2,24 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../Data/HobRepairFaqs.json';
+import data from '../../../Data/OvenRepairFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
-import FAJACPrice from '../Miscellaneous/FAJACPrice';
-import Serviceappointemnt from '../Contact/Serviceappointemnt';
-import CallNowButton from '../Buttons/CallNowButton';
-import GetQuoteButton from "../Buttons/GetQuoteButton";
-import WhatsappIconButton from "../Buttons/WhatsappIconButton";
-import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
+import FAJACPrice from '../../Miscellaneous/FAJACPrice';
+import Serviceappointemnt from '../../Contact/Serviceappointemnt';
+import CallNowButton from '../../Buttons/CallNowButton';
+import GetQuoteButton from "../../Buttons/GetQuoteButton";
+import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
+import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
-import testimonial_data from '../../Data/HobrepairTestimonials.json';
-import brandsLogo_data from '../../Data/BrandsLogo.json';
-import loadBackgroudImages from "../Common/loadBackgroudImages";
+import testimonial_data from '../../../Data/OvenRepairTestimonials.json';
+import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
-import HeaderForm from "../Headeform/HeaderForm";
+import HeaderForm from "../../Headeform/HeaderForm";
 
 // import { Link } from "react-router-dom";
 
-const HobRepairDetail = ({ subtitle, title, bgImg }) => {
+const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "/img/testimonialbg.jpg"
@@ -118,8 +117,8 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Best Appliances Service Dubai - Appliance Repair Near Me</title>
-        <meta name="description" content="We offer an appliances repair near you. Get expert in refrigerator, fridge, washing machine, dryer, dishwasher, gas stove, oven service near me Dubai"></meta>
+        <title>Oven Repair & Maintenance Services in Dubai | FAJ</title>
+        <meta name="description" content="Looking for oven repair near me in Dubai? FAJ offers expert oven repair services for homes and businesses. Call us at 043300002"></meta>
       </HelmetProvider>
       <HeaderForm />
 
@@ -128,11 +127,8 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2>
-            <p>
-              We have been offering trustworthy appliance repair services since 2010. And we understand that appliances can break down unexpectedly, so we offer budget-friendly solutions. Our trained technicians are available throughout Dubai to repair large appliances at your location.
-
-            </p>
+            <h2 className="cs_fs_30">Do you want an oven repair that does not cause a fortune?</h2>
+            <p>We at FAJ Professional are honored to be your first choice when you need trustworthy oven repair services in Dubai. Our committed group of expert technicians has the knowledge required to handle a wide variety of oven-related problems. We offer quick, cost-effective repair services that are customized to your unique requirements. Whether you need help with an electric oven that isn't working properly, a gas range oven, or even a microwave, we can fix all of them. We guarantee service that puts your needs first, so you can rely on us to fix your oven at your door.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -194,37 +190,18 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
             </div>
           </div>
         </section>
-
-
+        {/* Most common Cooker faults: */}
         <section className="section cs_py_30">
           <div className="container">
-            <FAJACPrice></FAJACPrice>
-          </div>
-        </section>
-
-
-        {/* Most common Cooker faults: */}
-        <section className="section cs_py_30 bg-light-gray">
-          <div className="container">
-            <h3 className="cs_fs_30">Most common Cooker faults:</h3>
-            {/* <p>
-                          Let's face it, modern life revolves around our appliances. From the refrigerator that keeps our food fresh to the washing machine that handles endless piles of laundry, these gadgets are indispensable. But what happens when they break down? It's not just an inconvenience; it can throw a wrench in our entire routine.
-                        </p> */}
+            <h3 className="cs_fs_30">Reliable Oven repair Dubai</h3>
+            <p>FAJ Professional is a reliable partner when it comes to oven repair services in Dubai. Our dedicated team of technicians critically examines the problem and then recommends suitable repairs according to the needs of the machine. We put a high priority on client satisfaction, offering you a seamless and reliable experience for any oven repair needs in Dubai and the neighboring areas. FAJ Professional is the go-to source for trustworthy and proficient oven repair services. As we strive to be at the top of the highest standards of professionalism and customer service.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Hob-Repair-Service-in-Dubai-UAE.jpeg`} alt="Post Image" />
               </div>
               <div className="col-md-6">
-                <ul className="mb-0">
-                  <li> Hot plate not working or Doors not closing</li>
-                  <li> Thermostats or Lid Switches not working</li>
-                  <li> Flame failure devices (FFDs)</li>
-                  <li> Flame supervision devices (FSDs)</li>
-                  <li> Thermocouple or Spark plugs not working</li>
-                  <li> Burners and burner caps not working</li>
-                  <li> Ignition generators or Printed Circuit Boards not working</li>
-                  <li> Yellow flame getting</li>
-                </ul>
+                <h4>Searching for Oven repair near me</h4>
+                <p>If you're looking for microwave oven repair near me right now, FAJ Professional is the only company you need to contact. Our technicians are always prepared to respond quickly to your location, and we provide comprehensive oven repair solutions. Our technicians are strategically located. Our dedication to your convenience means that, no matter where you are, your oven will receive the attention it deserves. People get exhausted and tired by searching for a microwave repair shop near me. We are here to save you from that trouble. We are the go-to solution to all your microwave repair near me problems.</p>
               </div>
             </div>
           </div>
@@ -340,8 +317,9 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
         {/*Why should you choose us? */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="cs_fs_30">Why should you choose us?   </h3>
-
+            <h3 className="cs_fs_30">Signs you need an Electric oven repair</h3>
+            <p>
+                It's critical to identify the warning signals that point to the need for expert repair when your electric oven begins to malfunction. Uneven cooking, fluctuating temperatures, or any odd noises made while the appliance is operating could be indications of underlying problems. Furthermore, it's time to think about electric oven repair if your oven doesn't heat up or frequently loses power. Ignoring these indicators could result in additional damage and affect how well your appliance works. By taking quick action to address these warning indicators and using FAJ Professional's skilled repair services, you can ensure the working of your electric oven. Regarding electric oven maintenance, FAJ Professional is your trusted partner. Because we specialize in fixing electrical components, you can be sure that your electric oven will operate safely, efficiently, and with the performance you expect.</p>
             <div className="row align-items-center">
               <div className="col-xl-6">
                 <iframe
@@ -357,29 +335,47 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-xl-6">
-                <p className='mb-0'>
-                  Gas Stove repair is a regular necessity in Dubai, and it is important to choose a reputable service provider who will fix your problem quickly and efficiently. We take pride in being the go-to option for your entire gas stove repair Dubai needs. Our professionals have the knowledge and skills to diagnose and repair any problem with your stove. Our team can handle everything from damaged heating elements to faulty thermostats. We use modern tools and procedures to repair your stove fast and efficiently.
-                </p>
-                {/* <p className='mb-0'><strong>Our services include:</strong></p> */}
-                {/* <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                  <li> <strong>  Installation: </strong> Expert installation of various types and brands of home appliances, ensuring optimal performance and efficiency. </li>
-                  <li> <strong> Diagnostics: </strong> Comprehensive fault-finding services to effectively diagnose issues. We provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
-                  <li> <strong> Repair Service: </strong> Efficient repair services for all appliance components, ensuring a quick resolution to issues such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions! </li>
-                  <li> <strong> Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for
-                    the annual maintenance of your appliances. </li>
-                  <p className="mb-0">
-                    Regular maintenance is essential for optimal performance, efficiency, and longevity of your home appliances.
-                  </p>
-                </ul> */}
-
-
+                
+                <h4>Gas range oven repair and maintenance</h4>
+                <p>Our technicians are skilled in providing thorough gas oven repair. Gas range ovens require specialized care. For safe and efficient gas range oven repair that gets your appliance operating at its best, you can rely on FAJ Professional. In order to get gas oven service and repair, FAJ Professional is an excellent service provider dedicated to making sure your appliance operates at its best. Our skilled technicians specialize in fixing problems unique to gas range ovens, like malfunctioning burners, thermostats, or uneven heating. In our gas oven repair service, we put safety and effectiveness first. We provide comprehensive gas oven service, part replacements, and adjustments as necessary. Whether your gas range oven needs emergency repairs or regular upkeep, you can rely on FAJ Professional to provide affordable solutions that will improve the performance and lifespan of your machine.</p>
               </div>
 
 
             </div>
           </div>
         </section >
-
+        <section className="section cs_py_30 bg-dark-blue text-light">
+          <div className="container">
+            <h3 className="cs_fs_30 text-light">We Deal in all Types</h3>
+            <p>FAJ Professional's versatility is evident in the range of oven types we handle and the comprehensive oven maintenance services we provide for different appliance models and brands. Because of the experience on our team, we can handle the complexities of various oven glass repair and wall oven repair and provide a solution for any requirement.</p>
+            <div className="row text-light">
+              <div className="col-md-6">
+                <h4 className="text-light">Convection oven repair</h4>
+                <p>Convection oven repair is FAJ Professional's area of expertise. They provide knowledgeable services to address problems unique to convection models. Our knowledgeable specialists guarantee accurate diagnostics and workable solutions because they comprehend the intricacies of convection ovens. We offer dependable convection oven repair services that are customized to meet the specific needs of your appliance, whether the issue is a broken fan or inconsistent temperature.</p>
+              </div>
+              <div className="col-md-6">
+                <h4 className="text-light">Industrial oven repair</h4>
+                <p>FAJ Professional is the company to call when you need industrial oven repair services. We understand that industrial ovens are essential for a variety of applications. Our skilled technicians have a lot of experience diagnosing and fixing industrial ovens, so there's less downtime and maximum efficiency. You can rely on us for thorough services that bring longevity and efficiency to the forefront of industrial oven repair.</p>
+              </div>
+              <div className="col-md-6">
+                <h4 className="text-light">Restaurant oven repair</h4>
+                <p>An oven that doesn’t work well can cause havoc in the hectic kitchen of a restaurant. FAJ Professional offers expert restaurant oven repair services, taking care of problems quickly to maintain the efficiency of your kitchen. With a dedication to efficiency and quality, we serve a wide range of restaurant oven repair needs, from fine dining to quick-service restaurants.</p>
+              </div>
+              <div className="col-md-6">
+                <h4 className="text-light">Kitchen oven repair</h4>
+                <p>When problems arise with your kitchen oven, FAJ Professional provides trustworthy repair services to get it working again. Our knowledgeable specialists are proficient in identifying and resolving a variety of kitchen oven issues, including malfunctioning heating components and control problems. You can rely on us to fix your kitchen oven quickly and effectively, ensuring optimal performance from your appliance.</p>
+              </div>
+              <div className="col-md-6">
+                <h4 className="text-light">Stove oven repair near me</h4>
+                <p>Do you need "stove oven repair near me" services? You only need to look at FAJ Professional. Professional stove oven repair is delivered right to your door with our easy and fast services. Our knowledgeable technicians guarantee prompt and dependable solutions to get your stove oven back in working order because we recognize the urgency of repairs.</p>
+              </div>
+              <div className="col-md-6">
+                <h4 className="text-light">Commercial oven repair</h4>
+                <p>FAJ Professional serves businesses with accuracy and professionalism by extending its expertise to commercial oven repair. Our knowledgeable staff handles commercial oven problems in a comprehensive manner, from bakeries to catering services, and offers prompt repairs that support the smooth running of your commercial kitchen.</p>
+              </div>
+            </div>
+          </div>
+        </section>
         {/* The Benefits Of appliances Service Dubai */}
         <section className="section cs_py_30 appliances-benifit-sec">
           <div className="container">
@@ -972,5 +968,5 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
   );
 };
 
-export default HobRepairDetail;
+export default OvenRepairDetail;
 

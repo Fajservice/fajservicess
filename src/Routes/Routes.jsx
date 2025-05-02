@@ -11,10 +11,10 @@ import AcRepairDubai from "../Pages/AcRepairDubai";
 import FreestandingHomeAppliancesRepairService from "../Pages/FreestandingHomeAppliancesRepairService";
 import CoffeeMachineServiceCenterInDubai from "../Pages/CoffeeMachineServiceCenterInDubai";
 import CommercialCoffeeMachineRepair from "../Pages/CommercialCoffeeMachineRepair";
-
 import WashingMachineRepairServiceDubai from "../Pages/WashingMachineRepairServiceDubai";
 import RefrigeratorRepairInDubai from "../Pages/RefrigeratorRepairInDubai";
 import HobRepair from "../Pages/HobRepair";
+import OvenRepairService from "../Pages/OvenRepairService";
 import ColdRoomRepair from "../Pages/ColdRoomRepair";
 import ServicesPage from "../Pages/ServicesPage";
 import ProjectPage from "../Pages/ProjectPage";
@@ -30,7 +30,6 @@ import ColemenAcRepair from "../Pages/AcPages/AcBrand/ColemenAcRepair";
 import AcRepairInSiliconOasis from "../Pages/AcPages/AcLocation/AcRepairInSiliconOasis";
 import AcRepairInMetha from "../Pages/AcPages/AcLocation/AcRepairInMetha";
 import AcRepairInJumeirahVillage from "../Pages/AcPages/AcLocation/AcRepairInJumeirahVillage";
-
 import YorkAcRepair from "../Pages/AcPages/AcBrand/YorkAcRepair";
 import SupraAcRepair from "../Pages/AcPages/AcBrand/SupraAcRepair";
 import DaikinAcRepair from "../Pages/AcPages/AcBrand/DaikinAcRepair";
@@ -108,6 +107,7 @@ import SubZeroAcRepair from "../Pages/AcPages/AcBrand/SubZeroAcRepair";
 import GreeAcRepair from "../Pages/AcPages/AcBrand/GreeAcRepair";
 import HaierAcRepair from "../Pages/AcPages/AcBrand/HaierAcRepair";
 import TCLAcRepair from "../Pages/AcPages/AcBrand/TCLAcRepair";
+import OvenRepair from "../Pages/KitchenEquipPages/OvenRepair";
 export const router = createHashRouter([
   {
     path: "/",
@@ -156,6 +156,14 @@ export const router = createHashRouter([
       {
         path: "/hob-repair-service/",
         element: <HobRepair></HobRepair>,
+      },
+      {
+        path: "/oven-repair-service/",
+        element: <OvenRepairService></OvenRepairService>,
+      },
+      {
+        path: "/oven-repair/",
+        element: <OvenRepair />
       },
       {
         path: "/washing-machine-repair-service-dubai/",
