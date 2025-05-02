@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../Data/HobRepairFaqs.json';
+import data from '../../Data/OvenRepairFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
@@ -12,7 +12,7 @@ import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
-import testimonial_data from '../../Data/HobrepairTestimonials.json';
+import testimonial_data from '../../Data/OvenRepairTestimonials.json';
 import brandsLogo_data from '../../Data/BrandsLogo.json';
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
@@ -20,7 +20,7 @@ import HeaderForm from "../Headeform/HeaderForm";
 
 // import { Link } from "react-router-dom";
 
-const HobRepairDetail = ({ subtitle, title, bgImg }) => {
+const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "/img/testimonialbg.jpg"
@@ -972,5 +972,5 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
   );
 };
 
-export default HobRepairDetail;
+export default OvenRepairDetail;
 

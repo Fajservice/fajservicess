@@ -15,6 +15,7 @@ import CommercialCoffeeMachineRepair from "../Pages/CommercialCoffeeMachineRepai
 import WashingMachineRepairServiceDubai from "../Pages/WashingMachineRepairServiceDubai";
 import RefrigeratorRepairInDubai from "../Pages/RefrigeratorRepairInDubai";
 import HobRepair from "../Pages/HobRepair";
+import OvenRepair from "../Pages/OvenRepair";
 import ColdRoomRepair from "../Pages/ColdRoomRepair";
 import ServicesPage from "../Pages/ServicesPage";
 import ProjectPage from "../Pages/ProjectPage";
@@ -141,6 +142,10 @@ export const router = createHashRouter([
       {
         path: "/hob-repair-service/",
         element: <HobRepair></HobRepair>,
+      },
+      {
+        path: "/oven-repair-service/",
+        element: <OvenRepair></OvenRepair>,
       },
       {
         path: "/washing-machine-repair-service-dubai/",
