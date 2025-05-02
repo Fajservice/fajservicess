@@ -103,6 +103,10 @@ import MitsubishiAcRepair from "../Pages/AcPages/AcBrand/MitsubishiAcRepair";
 import SanyoAcRepair from "../Pages/AcPages/AcBrand/SanyoAcRepair";
 import DaikoolAcRepair from "../Pages/AcPages/AcBrand/DaikoolAcRepair";
 import GoodmanAcRepair from "../Pages/AcPages/AcBrand/GoodmanAcRepair";
+import SubZeroAcRepair from "../Pages/AcPages/AcBrand/SubZeroAcRepair";
+import GreeAcRepair from "../Pages/AcPages/AcBrand/GreeAcRepair";
+import HaierAcRepair from "../Pages/AcPages/AcBrand/HaierAcRepair";
+import TCLAcRepair from "../Pages/AcPages/AcBrand/TCLAcRepair";
 export const router = createHashRouter([
   {
     path: "/",
@@ -295,6 +299,22 @@ export const router = createHashRouter([
       {
         path: "/goodman-ac-repair-in-dubai-goodman-ac-maintenance-in-dubai-goodman-ac-fix-in-dubai-goodman-ac-service-in-dubai-goodman-air-condition-repair-in-dubai-goodman-air-condition-maintenance-in-dubai-goodman/",
         element: <GoodmanAcRepair />
+      },
+      {
+        path: "/sub-zero-ac-installation-maintenance-repair-fix-service-in-dubai/",
+        element: <SubZeroAcRepair />
+      },
+      {
+        path: "/gree-ac-repair-in-dubai/",
+        element: <GreeAcRepair />
+      },
+      {
+        path: "/haier-ac-repair-in-dubai-haier-ac-maintenance-in-dubai-haier-ac-fix-in-dubai-haier-ac-service-in-dubai-haier-air-condition-repair-in-dubai-haier-air-condition-maintenance-in-dubai-haier-air-condition/",
+        element: <HaierAcRepair />
+      },
+      {
+        path: "/tcl-ac-repair-in-dubai/",
+        element: <TCLAcRepair />
       },
       {
         path: "/project",
