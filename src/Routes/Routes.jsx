@@ -11,7 +11,6 @@ import AcRepairDubai from "../Pages/AcRepairDubai";
 import FreestandingHomeAppliancesRepairService from "../Pages/FreestandingHomeAppliancesRepairService";
 import CoffeeMachineServiceCenterInDubai from "../Pages/CoffeeMachineServiceCenterInDubai";
 import CommercialCoffeeMachineRepair from "../Pages/CommercialCoffeeMachineRepair";
-
 import WashingMachineRepairServiceDubai from "../Pages/WashingMachineRepairServiceDubai";
 import RefrigeratorRepairInDubai from "../Pages/RefrigeratorRepairInDubai";
 import HobRepair from "../Pages/HobRepair";
@@ -93,7 +92,6 @@ import AcRepairInFlamingoVillas from "../Pages/AcPages/AcLocation/AcRepairInFlam
 import AcRepairInAlQuoz from "../Pages/AcPages/AcLocation/AcRepairInAlQuoz";
 import AcRepairInJebelAliDip from "../Pages/AcPages/AcLocation/AcRepairInJebelAliDip";
 import AcRepairInSufouh from "../Pages/AcPages/AcLocation/AcRepairInSufouh";
-import AcRepairInJumeirahBeachResidenceDetail from "../Components/ServiceDetails/AcDetail/AcLocation/AcRepairInJumeirahBeachResidenceDetail";
 import CrafftAcRepair from "../Pages/AcPages/AcBrand/CrafftAcRepair";
 import LennoxAcRepair from "../Pages/AcPages/AcBrand/LennoxAcRepair";
 import HitachiAcRepair from "../Pages/AcPages/AcBrand/HitachiAcRepair";
@@ -108,6 +106,8 @@ import SubZeroAcRepair from "../Pages/AcPages/AcBrand/SubZeroAcRepair";
 import GreeAcRepair from "../Pages/AcPages/AcBrand/GreeAcRepair";
 import HaierAcRepair from "../Pages/AcPages/AcBrand/HaierAcRepair";
 import TCLAcRepair from "../Pages/AcPages/AcBrand/TCLAcRepair";
+import AcRepairInTheVilla from "../Pages/AcPages/AcLocation/AcRepairInTheVilla";
+import AcRepairInJumeirahBeachResidence from "../Pages/AcPages/AcLocation/AcRepairInJumeirahBeachResidence";
 
 export const router = createHashRouter([
   {
@@ -532,7 +532,11 @@ export const router = createHashRouter([
       },
       {
         path: "/ac-services-in-jumeirah-beach-residence/",
-        element: <AcRepairInJumeirahBeachResidenceDetail/>,
+        element: <AcRepairInJumeirahBeachResidence/>,
+      },
+      {
+        path: "/ac-services-in-the-villa/",
+        element: <AcRepairInTheVilla/>,
       },
     ],
   }
