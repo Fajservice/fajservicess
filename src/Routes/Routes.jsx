@@ -93,6 +93,7 @@ import AcRepairInFlamingoVillas from "../Pages/AcPages/AcLocation/AcRepairInFlam
 import AcRepairInAlQuoz from "../Pages/AcPages/AcLocation/AcRepairInAlQuoz";
 import AcRepairInJebelAliDip from "../Pages/AcPages/AcLocation/AcRepairInJebelAliDip";
 import AcRepairInSufouh from "../Pages/AcPages/AcLocation/AcRepairInSufouh";
+import AcRepairInJumeirahBeachResidenceDetail from "../Components/ServiceDetails/AcDetail/AcLocation/AcRepairInJumeirahBeachResidenceDetail";
 import CrafftAcRepair from "../Pages/AcPages/AcBrand/CrafftAcRepair";
 import LennoxAcRepair from "../Pages/AcPages/AcBrand/LennoxAcRepair";
 import HitachiAcRepair from "../Pages/AcPages/AcBrand/HitachiAcRepair";
@@ -523,6 +524,10 @@ export const router = createHashRouter([
       {
         path: "/ac-services-in-al-sufouh/",
         element: <AcRepairInSufouh/>,
+      },
+      {
+        path: "/ac-services-in-jumeirah-beach-residence/",
+        element: <AcRepairInJumeirahBeachResidenceDetail/>,
       },
     ],
   }
