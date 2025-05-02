@@ -507,6 +507,7 @@ a.btn-green-yellow:hover {
 /* Anchar tags underline */
 p a {
   text-decoration: underline;
+  font-weight: 500;
 }
 
 
