@@ -93,9 +93,8 @@ import AcRepairInFlamingoVillas from "../Pages/AcPages/AcLocation/AcRepairInFlam
 import AcRepairInAlQuoz from "../Pages/AcPages/AcLocation/AcRepairInAlQuoz";
 import AcRepairInJebelAliDip from "../Pages/AcPages/AcLocation/AcRepairInJebelAliDip";
 import AcRepairInSufouh from "../Pages/AcPages/AcLocation/AcRepairInSufouh";
-<<<<<<< HEAD
+
 import AcRepairInJumeirahBeachResidenceDetail from "../Components/ServiceDetails/AcDetail/AcLocation/AcRepairInJumeirahBeachResidenceDetail";
-=======
 import CrafftAcRepair from "../Pages/AcPages/AcBrand/CrafftAcRepair";
 import LennoxAcRepair from "../Pages/AcPages/AcBrand/LennoxAcRepair";
 import HitachiAcRepair from "../Pages/AcPages/AcBrand/HitachiAcRepair";
@@ -106,7 +105,6 @@ import MitsubishiAcRepair from "../Pages/AcPages/AcBrand/MitsubishiAcRepair";
 import SanyoAcRepair from "../Pages/AcPages/AcBrand/SanyoAcRepair";
 import DaikoolAcRepair from "../Pages/AcPages/AcBrand/DaikoolAcRepair";
 import GoodmanAcRepair from "../Pages/AcPages/AcBrand/GoodmanAcRepair";
->>>>>>> eae91dc3f31436d55ac1914dbc50c2378bce1e49
 export const router = createHashRouter([
   {
     path: "/",
