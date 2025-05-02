@@ -94,6 +94,21 @@ import AcRepairInFlamingoVillas from "../Pages/AcPages/AcLocation/AcRepairInFlam
 import AcRepairInAlQuoz from "../Pages/AcPages/AcLocation/AcRepairInAlQuoz";
 import AcRepairInJebelAliDip from "../Pages/AcPages/AcLocation/AcRepairInJebelAliDip";
 import AcRepairInSufouh from "../Pages/AcPages/AcLocation/AcRepairInSufouh";
+import AcRepairInJumeirahBeachResidenceDetail from "../Components/ServiceDetails/AcDetail/AcLocation/AcRepairInJumeirahBeachResidenceDetail";
+import CrafftAcRepair from "../Pages/AcPages/AcBrand/CrafftAcRepair";
+import LennoxAcRepair from "../Pages/AcPages/AcBrand/LennoxAcRepair";
+import HitachiAcRepair from "../Pages/AcPages/AcBrand/HitachiAcRepair";
+import OGeneralAcRepair from "../Pages/AcPages/AcBrand/OGeneralAcRepair";
+import BryantAcRepair from "../Pages/AcPages/AcBrand/BryantAcRepair";
+import WhiteWestingHouseAcRepair from "../Pages/AcPages/AcBrand/WhiteWestingHouseAcRepair";
+import MitsubishiAcRepair from "../Pages/AcPages/AcBrand/MitsubishiAcRepair";
+import SanyoAcRepair from "../Pages/AcPages/AcBrand/SanyoAcRepair";
+import DaikoolAcRepair from "../Pages/AcPages/AcBrand/DaikoolAcRepair";
+import GoodmanAcRepair from "../Pages/AcPages/AcBrand/GoodmanAcRepair";
+import SubZeroAcRepair from "../Pages/AcPages/AcBrand/SubZeroAcRepair";
+import GreeAcRepair from "../Pages/AcPages/AcBrand/GreeAcRepair";
+import HaierAcRepair from "../Pages/AcPages/AcBrand/HaierAcRepair";
+import TCLAcRepair from "../Pages/AcPages/AcBrand/TCLAcRepair";
 export const router = createHashRouter([
   {
     path: "/",
@@ -250,6 +265,62 @@ export const router = createHashRouter([
       {
         path: "/nikai-ac-repair-in-dubai-nikai-ac-maintenance-in-dubai-nikai-ac-fix-in-dubai-nikai-ac-service-in-dubai-nikai-air-condition-repair-in-dubai-nikai-air-condition-maintenance-in-dubai-nikai-air-condition/",
         element: <NikaiAcRepair />
+      },
+      {
+        path: "/crafft-ac-repair-in-dubai-crafft-ac-maintenance-in-dubai-crafft-ac-fix-in-dubai-crafft-ac-service-in-dubai-crafft-air-condition-repair-in-dubai-crafft-air-condition-maintenance-in-dubai-crafft-air-con/",
+        element: <CrafftAcRepair />
+      },
+      {
+        path: "/lennox-ac-repair-in-dubai-lennox-ac-maintenance-in-dubai-lennox-ac-fix-in-dubai-lennox-ac-service-in-dubai-lennox-air-condition-repair-in-dubai-lennox-air-condition-maintenance-in-dubai-lennox-air-con/",
+        element: <LennoxAcRepair />
+      },
+      {
+        path: "/hitachi-ac-repair-in-dubai-hitachi-ac-maintenance-in-dubai-hitachi-ac-fix-in-dubai-hitachi-ac-service-in-dubai-hitachi-air-condition-repair-in-dubai-hitachi-air-condition-maintenance-in-dubai-hitachi/",
+        element: <HitachiAcRepair />
+      },
+      {
+        path: "/o-general-ac-repair-in-dubai-o-general-ac-maintenance-in-dubai-o-general-ac-fix-in-dubai-o-general-ac-service-in-dubai-o-general-air-condition-repair-in-dubai-o-general-air-condition-maintenance-in-du/",
+        element: <OGeneralAcRepair />
+      },
+      {
+        path: "/bryant-ac-repair-in-dubai-bryant-ac-maintenance-in-dubai-bryant-ac-fix-in-dubai-bryant-ac-service-in-dubai-bryant-air-condition-repair-in-dubai-bryant-air-condition-maintenance-in-dubai-bryant-air-con/",
+        element: <BryantAcRepair />
+      },
+      {
+        path: "/white-westinghouse-ac-repair-in-dubai-white-westinghouse-ac-maintenance-in-dubai-white-westinghouse-ac-fix-in-dubai-white-westinghouse-ac-service-in-dubai-white-westinghouse-air-condition-repair-in-du/",
+        element: <WhiteWestingHouseAcRepair />
+      },
+      {
+        path: "/mitsubishi-ac-repair-in-dubai/",
+        element: <MitsubishiAcRepair />
+      },
+      {
+        path: "/sanyo-ac-repair-in-dubai-sanyo-ac-maintenance-in-dubai-sanyo-ac-fix-in-dubai-sanyo-ac-service-in-dubai-sanyo-air-condition-repair-in-dubai-sanyo-air-condition-maintenance-in-dubai-sanyo-air-condition/",
+        element: <SanyoAcRepair />
+      },
+      {
+        path: "/daikool-ac-repair-in-dubai-daikool-ac-maintenance-in-dubai-daikool-ac-fix-in-dubai-daikool-ac-service-in-dubai-daikool-air-condition-repair-in-dubai-daikool-air-condition-maintenance-in-dubai-daikool/",
+        element: <DaikoolAcRepair />
+      },
+      {
+        path: "/goodman-ac-repair-in-dubai-goodman-ac-maintenance-in-dubai-goodman-ac-fix-in-dubai-goodman-ac-service-in-dubai-goodman-air-condition-repair-in-dubai-goodman-air-condition-maintenance-in-dubai-goodman/",
+        element: <GoodmanAcRepair />
+      },
+      {
+        path: "/sub-zero-ac-installation-maintenance-repair-fix-service-in-dubai/",
+        element: <SubZeroAcRepair />
+      },
+      {
+        path: "/gree-ac-repair-in-dubai/",
+        element: <GreeAcRepair />
+      },
+      {
+        path: "/haier-ac-repair-in-dubai-haier-ac-maintenance-in-dubai-haier-ac-fix-in-dubai-haier-ac-service-in-dubai-haier-air-condition-repair-in-dubai-haier-air-condition-maintenance-in-dubai-haier-air-condition/",
+        element: <HaierAcRepair />
+      },
+      {
+        path: "/tcl-ac-repair-in-dubai/",
+        element: <TCLAcRepair />
       },
       {
         path: "/project",
@@ -458,6 +529,10 @@ export const router = createHashRouter([
       {
         path: "/ac-services-in-al-sufouh/",
         element: <AcRepairInSufouh/>,
+      },
+      {
+        path: "/ac-services-in-jumeirah-beach-residence/",
+        element: <AcRepairInJumeirahBeachResidenceDetail/>,
       },
     ],
   }

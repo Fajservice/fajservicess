@@ -306,7 +306,6 @@ const BlogDetails = () => {
                 <div className="row">
                   {/* Section 3 heading */}
                   <h2>{blogPost.sec_three_h2}</h2>
-                  <p>{blogPost.sec_three_h2_p}</p>
                   {blogPost.sec_three_h2_p ? (
                           Array.isArray(blogPost.sec_three_h2_p) ? (
                             blogPost.sec_three_h2_p.map((paragraph, index) => (
@@ -731,6 +730,611 @@ const BlogDetails = () => {
               </div>
               ) : null}
 
+              {/* 6th Section */}
+              {blogPost.sec_six_h2 ? (
+              <div className="row">
+                {/* Section 5 heading */}
+                <h2>{blogPost.sec_six_h2}</h2>
+                <p>{blogPost.sec_six_h2_p}</p>
+
+                <div className="col-md-8">
+                  {/* Section 5 Image */}
+                  {blogPost.sec_six_img ? (
+                    <img src={blogPost.sec_six_img} alt="image" />
+                  ) : null}
+                </div>
+
+                {/* Section 5 Heading h3_1 */}
+                {blogPost.sec_six_h3_1 ? (
+                  <h3>{blogPost.sec_six_h3_1}</h3>
+                ): null}
+                {/* Section 5 Heading sec_three_h3_content_1*/}
+                {blogPost.sec_six_h3_content_1 ? (
+                  Array.isArray(blogPost.sec_six_h3_content_1) ? (
+                    blogPost.sec_six_h3_content_1.map((paragraph, index) => (
+                      <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                    ))
+                  ) : (
+                    <p>{renderParagraphWithLinks(blogPost.sec_six_h3_content_1)}</p>
+                  )): null}
+
+                {/* section 5 Heading h3_2 */}
+                <h3>{blogPost.sec_six_h3_2}</h3>
+
+                {/* Section 3 Heading sec_three_h3_content_2*/}
+                {Array.isArray(blogPost.sec_six_h3_content_2) ? (
+                  blogPost.sec_three_h3_content_2.map((paragraph, index) => (
+                    <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                  ))
+                ) : (
+                  <p>{renderParagraphWithLinks(blogPost.sec_six_h3_content_2)}</p>
+                )}
+
+                {/* section 3 Heading h3_3 */}
+                <h3>{blogPost.sec_six_h3_3}</h3>
+
+                {/* Section 3 Heading sec_three_h3_content_3*/}
+                {Array.isArray(blogPost.sec_three_h3_content_3) ? (
+                  blogPost.sec_three_h3_content_3.map((paragraph, index) => (
+                    <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                  ))
+                ) : (
+                  <p>{renderParagraphWithLinks(blogPost.sec_three_h3_content_3)}</p>
+                )}
+                
+                {/* Section 5 Heading h3_4 */}
+                {blogPost.sec_six_h3_4 ? (
+                  <h3>{blogPost.sec_six_h3_4}</h3>
+                ): null}
+                {/* Section 5 Heading sec_three_h3_content_4*/}
+                {blogPost.sec_six_h3_content_4 ? (
+                  Array.isArray(blogPost.sec_six_h3_content_4) ? (
+                    blogPost.sec_six_h3_content_4.map((paragraph, index) => (
+                      <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                    ))
+                  ) : (
+                    <p>{renderParagraphWithLinks(blogPost.sec_six_h3_content_4)}</p>
+                  ))
+                : null}
+
+                {/* Section 5 Heading h3_5 */}
+                {blogPost.sec_six_h3_5 ? (
+                  <h3>{blogPost.sec_six_h3_5}</h3>
+                ): null}
+                {/* Section 5 Heading sec_three_h3_content_5*/}
+                {blogPost.sec_six_h3_content_5 ? (
+                  Array.isArray(blogPost.sec_six_h3_content_5) ? (
+                    blogPost.sec_six_h3_content_5.map((paragraph, index) => (
+                      <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                    ))
+                  ) : (
+                    <p>{renderParagraphWithLinks(blogPost.sec_six_h3_content_5)}</p>
+                  ))
+                : null}
+
+                {/* Section 5 Heading h3_6 */}
+                {blogPost.sec_six_h3_6 ? (
+                  <h3>{blogPost.sec_six_h3_6}</h3>
+                ): null}
+                {/* Section 5 Heading sec_three_h3_content_6*/}
+                {blogPost.sec_six_h3_content_6 ? (
+                  Array.isArray(blogPost.sec_six_h3_content_6) ? (
+                    blogPost.sec_six_h3_content_6.map((paragraph, index) => (
+                      <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                    ))
+                  ) : (
+                    <p>{renderParagraphWithLinks(blogPost.sec_six_h3_content_1)}</p>
+                  ))
+                : null}
+
+                {/* Section 5 Heading h3_7 */}
+                {blogPost.sec_six_h3_7 ? (
+                  <h3>{blogPost.sec_six_h3_7}</h3>
+                ): null}
+                {/* Section 5 Heading sec_three_h3_content_1*/}
+                {blogPost.sec_six_h3_content_7 ? (
+                  Array.isArray(blogPost.sec_six_h3_content_7) ? (
+                    blogPost.sec_six_h3_content_7.map((paragraph, index) => (
+                      <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                    ))
+                  ) : (
+                    <p>{renderParagraphWithLinks(blogPost.sec_six_h3_content_7)}</p>
+                  ))
+                : null}
+
+                {/* Section 5 Heading h3_8 */}
+                {blogPost.sec_six_h3_8 ? (
+                  <h3>{blogPost.sec_six_h3_8}</h3>
+                ): null}
+                {/* Section 5 Heading sec_three_h3_content_8*/}
+                {blogPost.sec_six_h3_content_8 ? (
+                  Array.isArray(blogPost.sec_six_h3_content_8) ? (
+                    blogPost.sec_six_h3_content_8.map((paragraph, index) => (
+                      <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                    ))
+                  ) : (
+                    <p>{renderParagraphWithLinks(blogPost.sec_six_h3_content_8)}</p>
+                  ))
+                : null}
+
+                {/* Section 5 Heading h3_9 */}
+                {blogPost.sec_six_h3_9 ? (
+                  <h3>{blogPost.sec_six_h3_9}</h3>
+                ): null}
+                {/* Section 5 Heading sec_three_h3_content_9*/}
+                {blogPost.sec_six_h3_content_9 ? (
+                  Array.isArray(blogPost.sec_six_h3_content_9) ? (
+                    blogPost.sec_six_h3_content_9.map((paragraph, index) => (
+                      <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                    ))
+                  ) : (
+                    <p>{renderParagraphWithLinks(blogPost.sec_six_h3_content_9)}</p>
+                  ))
+                : null}
+
+                {/* Section 5 Heading h3_10 */}
+                {blogPost.sec_six_h3_10 ? (
+                  <h3>{blogPost.sec_six_h3_10}</h3>
+                ): null}
+                {/* Section 5 Heading sec_three_h3_content_10*/}
+                {blogPost.sec_six_h3_content_10 ? (
+                  Array.isArray(blogPost.sec_six_h3_content_10) ? (
+                    blogPost.sec_six_h3_content_10.map((paragraph, index) => (
+                      <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                    ))
+                  ) : (
+                    <p>{renderParagraphWithLinks(blogPost.sec_six_h3_content_10)}</p>
+                  ))
+                : null}
+
+                {/* Section 5 Heading h3_11 */}
+                {blogPost.sec_six_h3_11 ? (
+                  <h3>{blogPost.sec_six_h3_11}</h3>
+                ): null}
+                {/* Section 5 Heading sec_three_h3_content_11*/}
+                {blogPost.sec_six_h3_content_11 ? (
+                  Array.isArray(blogPost.sec_six_h3_content_11) ? (
+                    blogPost.sec_six_h3_content_11.map((paragraph, index) => (
+                      <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                    ))
+                  ) : (
+                    <p>{renderParagraphWithLinks(blogPost.sec_six_h3_content_11)}</p>
+                  ))
+                : null}
+                
+                {/* Section 5 Heading h3_12 */}
+                {blogPost.sec_six_h3_12 ? (
+                  <h3>{blogPost.sec_six_h3_12}</h3>
+                ): null}
+                {/* Section 5 Heading sec_three_h3_content_12*/}
+                {blogPost.sec_six_h3_content_12 ? (
+                  Array.isArray(blogPost.sec_six_h3_content_12) ? (
+                    blogPost.sec_six_h3_content_12.map((paragraph, index) => (
+                      <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                    ))
+                  ) : (
+                    <p>{renderParagraphWithLinks(blogPost.sec_six_h3_content_12)}</p>
+                  ))
+                : null}
+
+                {/* Section 5 Heading sec_three_h3_content_13*/}
+                {blogPost.sec_six_h3_content_13 ? (
+                  Array.isArray(blogPost.sec_six_h3_content_13) ? (
+                    blogPost.sec_six_h3_content_13.map((paragraph, index) => (
+                      <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                    ))
+                  ) : (
+                    <p>{renderParagraphWithLinks(blogPost.sec_six_h3_content_13)}</p>
+                  ))
+                : null}
+
+                
+              </div>
+              ) : null}
+
+              {/* 7th Section */}
+              {blogPost.sec_seven_h2 ? (
+              <div className="row">
+                {/* Section 5 heading */}
+                <h2>{blogPost.sec_seven_h2}</h2>
+                <p>{blogPost.sec_seven_h2_p}</p>
+
+                <div className="col-md-8">
+                  {/* Section 5 Image */}
+                  {blogPost.sec_seven_img ? (
+                    <img src={blogPost.sec_seven_img} alt="image" />
+                  ) : null}
+                </div>
+
+                {/* Section 5 Heading h3_1 */}
+                {blogPost.sec_seven_h3_1 ? (
+                  <h3>{blogPost.sec_seven_h3_1}</h3>
+                ): null}
+                {/* Section 5 Heading sec_three_h3_content_1*/}
+                {blogPost.sec_seven_h3_content_1 ? (
+                  Array.isArray(blogPost.sec_seven_h3_content_1) ? (
+                    blogPost.sec_seven_h3_content_1.map((paragraph, index) => (
+                      <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                    ))
+                  ) : (
+                    <p>{renderParagraphWithLinks(blogPost.sec_seven_h3_content_1)}</p>
+                  )): null}
+
+                {/* section 5 Heading h3_2 */}
+                <h3>{blogPost.sec_seven_h3_2}</h3>
+
+                {/* Section 3 Heading sec_three_h3_content_2*/}
+                {Array.isArray(blogPost.sec_seven_h3_content_2) ? (
+                  blogPost.sec_three_h3_content_2.map((paragraph, index) => (
+                    <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                  ))
+                ) : (
+                  <p>{renderParagraphWithLinks(blogPost.sec_seven_h3_content_2)}</p>
+                )}
+
+                {/* section 3 Heading h3_3 */}
+                <h3>{blogPost.sec_seven_h3_3}</h3>
+
+                {/* Section 3 Heading sec_three_h3_content_3*/}
+                {Array.isArray(blogPost.sec_three_h3_content_3) ? (
+                  blogPost.sec_three_h3_content_3.map((paragraph, index) => (
+                    <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                  ))
+                ) : (
+                  <p>{renderParagraphWithLinks(blogPost.sec_three_h3_content_3)}</p>
+                )}
+                
+                {/* Section 5 Heading h3_4 */}
+                {blogPost.sec_seven_h3_4 ? (
+                  <h3>{blogPost.sec_seven_h3_4}</h3>
+                ): null}
+                {/* Section 5 Heading sec_three_h3_content_4*/}
+                {blogPost.sec_seven_h3_content_4 ? (
+                  Array.isArray(blogPost.sec_seven_h3_content_4) ? (
+                    blogPost.sec_seven_h3_content_4.map((paragraph, index) => (
+                      <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                    ))
+                  ) : (
+                    <p>{renderParagraphWithLinks(blogPost.sec_seven_h3_content_4)}</p>
+                  ))
+                : null}
+
+                {/* Section 5 Heading h3_5 */}
+                {blogPost.sec_seven_h3_5 ? (
+                  <h3>{blogPost.sec_seven_h3_5}</h3>
+                ): null}
+                {/* Section 5 Heading sec_three_h3_content_5*/}
+                {blogPost.sec_seven_h3_content_5 ? (
+                  Array.isArray(blogPost.sec_seven_h3_content_5) ? (
+                    blogPost.sec_seven_h3_content_5.map((paragraph, index) => (
+                      <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                    ))
+                  ) : (
+                    <p>{renderParagraphWithLinks(blogPost.sec_seven_h3_content_5)}</p>
+                  ))
+                : null}
+
+                {/* Section 5 Heading h3_6 */}
+                {blogPost.sec_seven_h3_6 ? (
+                  <h3>{blogPost.sec_seven_h3_6}</h3>
+                ): null}
+                {/* Section 5 Heading sec_three_h3_content_6*/}
+                {blogPost.sec_seven_h3_content_6 ? (
+                  Array.isArray(blogPost.sec_seven_h3_content_6) ? (
+                    blogPost.sec_seven_h3_content_6.map((paragraph, index) => (
+                      <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                    ))
+                  ) : (
+                    <p>{renderParagraphWithLinks(blogPost.sec_seven_h3_content_1)}</p>
+                  ))
+                : null}
+
+                {/* Section 5 Heading h3_7 */}
+                {blogPost.sec_seven_h3_7 ? (
+                  <h3>{blogPost.sec_seven_h3_7}</h3>
+                ): null}
+                {/* Section 5 Heading sec_three_h3_content_1*/}
+                {blogPost.sec_seven_h3_content_7 ? (
+                  Array.isArray(blogPost.sec_seven_h3_content_7) ? (
+                    blogPost.sec_seven_h3_content_7.map((paragraph, index) => (
+                      <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                    ))
+                  ) : (
+                    <p>{renderParagraphWithLinks(blogPost.sec_seven_h3_content_7)}</p>
+                  ))
+                : null}
+
+                {/* Section 5 Heading h3_8 */}
+                {blogPost.sec_seven_h3_8 ? (
+                  <h3>{blogPost.sec_seven_h3_8}</h3>
+                ): null}
+                {/* Section 5 Heading sec_three_h3_content_8*/}
+                {blogPost.sec_seven_h3_content_8 ? (
+                  Array.isArray(blogPost.sec_seven_h3_content_8) ? (
+                    blogPost.sec_seven_h3_content_8.map((paragraph, index) => (
+                      <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                    ))
+                  ) : (
+                    <p>{renderParagraphWithLinks(blogPost.sec_seven_h3_content_8)}</p>
+                  ))
+                : null}
+
+                {/* Section 5 Heading h3_9 */}
+                {blogPost.sec_seven_h3_9 ? (
+                  <h3>{blogPost.sec_seven_h3_9}</h3>
+                ): null}
+                {/* Section 5 Heading sec_three_h3_content_9*/}
+                {blogPost.sec_seven_h3_content_9 ? (
+                  Array.isArray(blogPost.sec_seven_h3_content_9) ? (
+                    blogPost.sec_seven_h3_content_9.map((paragraph, index) => (
+                      <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                    ))
+                  ) : (
+                    <p>{renderParagraphWithLinks(blogPost.sec_seven_h3_content_9)}</p>
+                  ))
+                : null}
+
+                {/* Section 5 Heading h3_10 */}
+                {blogPost.sec_seven_h3_10 ? (
+                  <h3>{blogPost.sec_seven_h3_10}</h3>
+                ): null}
+                {/* Section 5 Heading sec_three_h3_content_10*/}
+                {blogPost.sec_seven_h3_content_10 ? (
+                  Array.isArray(blogPost.sec_seven_h3_content_10) ? (
+                    blogPost.sec_seven_h3_content_10.map((paragraph, index) => (
+                      <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                    ))
+                  ) : (
+                    <p>{renderParagraphWithLinks(blogPost.sec_seven_h3_content_10)}</p>
+                  ))
+                : null}
+
+                {/* Section 5 Heading h3_11 */}
+                {blogPost.sec_seven_h3_11 ? (
+                  <h3>{blogPost.sec_seven_h3_11}</h3>
+                ): null}
+                {/* Section 5 Heading sec_three_h3_content_11*/}
+                {blogPost.sec_seven_h3_content_11 ? (
+                  Array.isArray(blogPost.sec_seven_h3_content_11) ? (
+                    blogPost.sec_seven_h3_content_11.map((paragraph, index) => (
+                      <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                    ))
+                  ) : (
+                    <p>{renderParagraphWithLinks(blogPost.sec_seven_h3_content_11)}</p>
+                  ))
+                : null}
+                
+                {/* Section 5 Heading h3_12 */}
+                {blogPost.sec_seven_h3_12 ? (
+                  <h3>{blogPost.sec_seven_h3_12}</h3>
+                ): null}
+                {/* Section 5 Heading sec_three_h3_content_12*/}
+                {blogPost.sec_seven_h3_content_12 ? (
+                  Array.isArray(blogPost.sec_seven_h3_content_12) ? (
+                    blogPost.sec_seven_h3_content_12.map((paragraph, index) => (
+                      <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                    ))
+                  ) : (
+                    <p>{renderParagraphWithLinks(blogPost.sec_seven_h3_content_12)}</p>
+                  ))
+                : null}
+
+                {/* Section 5 Heading sec_three_h3_content_13*/}
+                {blogPost.sec_seven_h3_content_13 ? (
+                  Array.isArray(blogPost.sec_seven_h3_content_13) ? (
+                    blogPost.sec_seven_h3_content_13.map((paragraph, index) => (
+                      <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                    ))
+                  ) : (
+                    <p>{renderParagraphWithLinks(blogPost.sec_seven_h3_content_13)}</p>
+                  ))
+                : null}
+
+                
+              </div>
+              ) : null}
+
+              {/* 8th Section */}
+              {blogPost.sec_eight_h2 ? (
+              <div className="row">
+                {/* Section 5 heading */}
+                <h2>{blogPost.sec_eight_h2}</h2>
+                <p>{blogPost.sec_eight_h2_p}</p>
+
+                <div className="col-md-8">
+                  {/* Section 5 Image */}
+                  {blogPost.sec_eight_img ? (
+                    <img src={blogPost.sec_eight_img} alt="image" />
+                  ) : null}
+                </div>
+
+                {/* Section 5 Heading h3_1 */}
+                {blogPost.sec_eight_h3_1 ? (
+                  <h3>{blogPost.sec_eight_h3_1}</h3>
+                ): null}
+                {/* Section 5 Heading sec_three_h3_content_1*/}
+                {blogPost.sec_eight_h3_content_1 ? (
+                  Array.isArray(blogPost.sec_eight_h3_content_1) ? (
+                    blogPost.sec_eight_h3_content_1.map((paragraph, index) => (
+                      <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                    ))
+                  ) : (
+                    <p>{renderParagraphWithLinks(blogPost.sec_eight_h3_content_1)}</p>
+                  )): null}
+
+                {/* section 5 Heading h3_2 */}
+                <h3>{blogPost.sec_eight_h3_2}</h3>
+
+                {/* Section 3 Heading sec_three_h3_content_2*/}
+                {Array.isArray(blogPost.sec_eight_h3_content_2) ? (
+                  blogPost.sec_three_h3_content_2.map((paragraph, index) => (
+                    <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                  ))
+                ) : (
+                  <p>{renderParagraphWithLinks(blogPost.sec_eight_h3_content_2)}</p>
+                )}
+
+                {/* section 3 Heading h3_3 */}
+                <h3>{blogPost.sec_eight_h3_3}</h3>
+
+                {/* Section 3 Heading sec_three_h3_content_3*/}
+                {Array.isArray(blogPost.sec_three_h3_content_3) ? (
+                  blogPost.sec_three_h3_content_3.map((paragraph, index) => (
+                    <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                  ))
+                ) : (
+                  <p>{renderParagraphWithLinks(blogPost.sec_three_h3_content_3)}</p>
+                )}
+                
+                {/* Section 5 Heading h3_4 */}
+                {blogPost.sec_eight_h3_4 ? (
+                  <h3>{blogPost.sec_eight_h3_4}</h3>
+                ): null}
+                {/* Section 5 Heading sec_three_h3_content_4*/}
+                {blogPost.sec_eight_h3_content_4 ? (
+                  Array.isArray(blogPost.sec_eight_h3_content_4) ? (
+                    blogPost.sec_eight_h3_content_4.map((paragraph, index) => (
+                      <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                    ))
+                  ) : (
+                    <p>{renderParagraphWithLinks(blogPost.sec_eight_h3_content_4)}</p>
+                  ))
+                : null}
+
+                {/* Section 5 Heading h3_5 */}
+                {blogPost.sec_eight_h3_5 ? (
+                  <h3>{blogPost.sec_eight_h3_5}</h3>
+                ): null}
+                {/* Section 5 Heading sec_three_h3_content_5*/}
+                {blogPost.sec_eight_h3_content_5 ? (
+                  Array.isArray(blogPost.sec_eight_h3_content_5) ? (
+                    blogPost.sec_eight_h3_content_5.map((paragraph, index) => (
+                      <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                    ))
+                  ) : (
+                    <p>{renderParagraphWithLinks(blogPost.sec_eight_h3_content_5)}</p>
+                  ))
+                : null}
+
+                {/* Section 5 Heading h3_6 */}
+                {blogPost.sec_eight_h3_6 ? (
+                  <h3>{blogPost.sec_eight_h3_6}</h3>
+                ): null}
+                {/* Section 5 Heading sec_three_h3_content_6*/}
+                {blogPost.sec_eight_h3_content_6 ? (
+                  Array.isArray(blogPost.sec_eight_h3_content_6) ? (
+                    blogPost.sec_eight_h3_content_6.map((paragraph, index) => (
+                      <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                    ))
+                  ) : (
+                    <p>{renderParagraphWithLinks(blogPost.sec_eight_h3_content_1)}</p>
+                  ))
+                : null}
+
+                {/* Section 5 Heading h3_7 */}
+                {blogPost.sec_eight_h3_7 ? (
+                  <h3>{blogPost.sec_eight_h3_7}</h3>
+                ): null}
+                {/* Section 5 Heading sec_three_h3_content_1*/}
+                {blogPost.sec_eight_h3_content_7 ? (
+                  Array.isArray(blogPost.sec_eight_h3_content_7) ? (
+                    blogPost.sec_eight_h3_content_7.map((paragraph, index) => (
+                      <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                    ))
+                  ) : (
+                    <p>{renderParagraphWithLinks(blogPost.sec_eight_h3_content_7)}</p>
+                  ))
+                : null}
+
+                {/* Section 5 Heading h3_8 */}
+                {blogPost.sec_eight_h3_8 ? (
+                  <h3>{blogPost.sec_eight_h3_8}</h3>
+                ): null}
+                {/* Section 5 Heading sec_three_h3_content_8*/}
+                {blogPost.sec_eight_h3_content_8 ? (
+                  Array.isArray(blogPost.sec_eight_h3_content_8) ? (
+                    blogPost.sec_eight_h3_content_8.map((paragraph, index) => (
+                      <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                    ))
+                  ) : (
+                    <p>{renderParagraphWithLinks(blogPost.sec_eight_h3_content_8)}</p>
+                  ))
+                : null}
+
+                {/* Section 5 Heading h3_9 */}
+                {blogPost.sec_eight_h3_9 ? (
+                  <h3>{blogPost.sec_eight_h3_9}</h3>
+                ): null}
+                {/* Section 5 Heading sec_three_h3_content_9*/}
+                {blogPost.sec_eight_h3_content_9 ? (
+                  Array.isArray(blogPost.sec_eight_h3_content_9) ? (
+                    blogPost.sec_eight_h3_content_9.map((paragraph, index) => (
+                      <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                    ))
+                  ) : (
+                    <p>{renderParagraphWithLinks(blogPost.sec_eight_h3_content_9)}</p>
+                  ))
+                : null}
+
+                {/* Section 5 Heading h3_10 */}
+                {blogPost.sec_eight_h3_10 ? (
+                  <h3>{blogPost.sec_eight_h3_10}</h3>
+                ): null}
+                {/* Section 5 Heading sec_three_h3_content_10*/}
+                {blogPost.sec_eight_h3_content_10 ? (
+                  Array.isArray(blogPost.sec_eight_h3_content_10) ? (
+                    blogPost.sec_eight_h3_content_10.map((paragraph, index) => (
+                      <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                    ))
+                  ) : (
+                    <p>{renderParagraphWithLinks(blogPost.sec_eight_h3_content_10)}</p>
+                  ))
+                : null}
+
+                {/* Section 5 Heading h3_11 */}
+                {blogPost.sec_eight_h3_11 ? (
+                  <h3>{blogPost.sec_eight_h3_11}</h3>
+                ): null}
+                {/* Section 5 Heading sec_three_h3_content_11*/}
+                {blogPost.sec_eight_h3_content_11 ? (
+                  Array.isArray(blogPost.sec_eight_h3_content_11) ? (
+                    blogPost.sec_eight_h3_content_11.map((paragraph, index) => (
+                      <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                    ))
+                  ) : (
+                    <p>{renderParagraphWithLinks(blogPost.sec_eight_h3_content_11)}</p>
+                  ))
+                : null}
+                
+                {/* Section 5 Heading h3_12 */}
+                {blogPost.sec_eight_h3_12 ? (
+                  <h3>{blogPost.sec_eight_h3_12}</h3>
+                ): null}
+                {/* Section 5 Heading sec_three_h3_content_12*/}
+                {blogPost.sec_eight_h3_content_12 ? (
+                  Array.isArray(blogPost.sec_eight_h3_content_12) ? (
+                    blogPost.sec_eight_h3_content_12.map((paragraph, index) => (
+                      <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                    ))
+                  ) : (
+                    <p>{renderParagraphWithLinks(blogPost.sec_eight_h3_content_12)}</p>
+                  ))
+                : null}
+
+                {/* Section 5 Heading sec_three_h3_content_13*/}
+                {blogPost.sec_eight_h3_content_13 ? (
+                  Array.isArray(blogPost.sec_eight_h3_content_13) ? (
+                    blogPost.sec_eight_h3_content_13.map((paragraph, index) => (
+                      <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
+                    ))
+                  ) : (
+                    <p>{renderParagraphWithLinks(blogPost.sec_eight_h3_content_13)}</p>
+                  ))
+                : null}
+
+                
+              </div>
+              ) : null}
             </div>
             <div className="cs_post_share_wrapper">
               <div className="cs_post_tags cs_style_1">
