@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInJumeirahGolfEstates.json';
+import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInTheSprings.json';
 import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../../../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
@@ -18,8 +18,7 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 
-
-const AcRepairInJumeirahIslandsDetail = ({ subtitle, title, bgImg }) => {
+const AcRepairInTheVillaDetail = ({ subtitle, title, bgImg }) => {
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "/img/testimonialbg.jpg"
@@ -76,8 +75,8 @@ const AcRepairInJumeirahIslandsDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
         <HelmetProvider>
-            <title>AC Services in Jumeirah Islands - AC Maintenance Dubai</title>
-            <meta name="description" content="Call FAJ 043300002. If you are looking for best ac services in jumeirah islands dubai and centralized fcu air conditioning system repairing nearby"></meta>
+            <title>AC Services In The Springs - #1 Central AC Repair And Fix</title>
+            <meta name="description" content="Get sameday ac services in the springs dubai. We are experts in central & split air conditioner maintenance & ac repairs near me Dubai 043300002"></meta>
         </HelmetProvider>
         <HeaderForm />
         <div className="cs_service_details">
@@ -106,8 +105,8 @@ const AcRepairInJumeirahIslandsDetail = ({ subtitle, title, bgImg }) => {
                 <div className="container">
                     <div className="row gx-md-5">
                         <div className="col-md-6">
-                            <h3 className="cs_fs_24 mb-1">Best AC Repair in  Jumeirah Islands</h3>
-                            <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>in  Jumeirah Islands, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
+                            <h3 className="cs_fs_24 mb-1">Best AC Repair in The Springs</h3>
+                            <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>in The Springs, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
                             <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                             <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
                             <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
@@ -536,4 +535,4 @@ const AcRepairInJumeirahIslandsDetail = ({ subtitle, title, bgImg }) => {
   )
 }
 
-export default AcRepairInJumeirahIslandsDetail
+export default AcRepairInTheVillaDetail
