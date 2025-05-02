@@ -110,6 +110,7 @@ import AcRepairInTheVilla from "../Pages/AcPages/AcLocation/AcRepairInTheVilla";
 import AcRepairInJumeirahBeachResidence from "../Pages/AcPages/AcLocation/AcRepairInJumeirahBeachResidence";
 
 import OvenRepair from "../Pages/KitchenEquipPages/OvenRepair";
+import AcRepairInJumeirahHeights from "../Pages/AcPages/AcLocation/AcRepairInJumeirahHeights";
 export const router = createHashRouter([
   {
     path: "/",
@@ -542,6 +543,10 @@ export const router = createHashRouter([
       {
         path: "/ac-services-in-the-villa/",
         element: <AcRepairInTheVilla/>,
+      },
+      {
+        path: "/ac-services-in-jumeirah-heights/",
+        element: <AcRepairInJumeirahHeights/>,
       },
     ],
   }
