@@ -145,43 +145,21 @@ const WestpointAcRepair = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-          <h3 className="cs_fs_30">Westpoint Air Con Service Quality Workmanship </h3>
+            <h3 className="cs_fs_30">Why is Westpoint AC Maintenance Service Important in Dubai?</h3>
             <div className="row align-items-center">
-              <div className="col-md-6">
-                <p>Air conditioners that are people-friendly are environmentally friendly. And, Westpoint air con is one of them. Central Westpoint air conditioner is an intelligent choice when it comes to beating humidity and heat indoors. Just like every other aircon the requirement for Westpoint air conditioner repair increases as well. Regular maintenance and servicing not only conserve electricity but also helps keep operating your Westpoint air con for many years. Adequate routine maintenance helps to quickly diagnose the issues of your central AC and fix them before they turn into some huge problem.</p>
-                <h3 className="cs_fs_24">Westpoint Window Air Conditioner Error Codes</h3>
-                <p>If you see these fault codes on your air conditioner you should call an expert company right away. Because the pro in air condition maintenance creates a difference and gets things done right for you.</p>
-                <ul className="d-flex flex-wrap column-gap-4">
-                <li>Error Code: E0</li>
-						<li>Error Code: E1</li>
-						<li>Error Code: E2</li>
-						<li>Error Code: E3</li>
-						<li>Error Code: E4</li>
-						<li>Error Code: E5</li>
-						<li>Error Code: E6</li>
-						<li>Error Code: E7</li>
-						<li>Error Code: E8</li>
-						<li>Error Code: E9</li>
-						<li>Error Code: EA</li>
-						<li>Error Code: P0</li>
-						<li>Error Code: P1</li>
-						<li>Error Code: P2</li>
-						<li>Error Code: P3</li>
-						<li>Error Code: P4</li>
-						<li>Error Code: P5</li>
-						<li>Error Code: P6</li>
-						<li>Error Code: P7</li>
-						<li>Error Code: P8</li>
-						<li>Error Code: P9</li>
-						<li>Error Code: Pc</li>
+            <div className="col-md-6">
+                <ul className="mb-0">
+                  <li><strong>Extreme Weather Conditions:</strong> Dubai experiences high temperatures, especially in the summer, where a Westpoint split air conditioner is not just a luxury but a necessity. Regular AC maintenance ensures that your Westpoint Split AC systems operate efficiently, providing reliable cooling when it's needed most.</li>
+                  <li><strong>Energy Efficiency:</strong> Well-maintained Westpoint split AC run efficiently, lowering energy bills. Routine checks identify issues that may increase energy consumption.</li>
+                  <li><strong>Extended Lifespan:</strong> Regular West Point air conditioner maintenance extends the life of your West Point wall mounted AC, helping to avoid costly west point aircon repair</li>
                 </ul>
+                <p>In summary, Westpoint ductless AC repair and cleaning service is crucial for comfort and cost-effectiveness in Dubai's climate, ensuring smooth and efficient Westpoint AC performance.</p>
               </div>
-              <div className="col-md-6 text-center text-md-end">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-service.jpg`} alt="Westpoint Ac Repair" />
-                
+              <div className="col-md-6">
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/toshiba-ac-repair.jpg`} alt="Westpoint Ac Repair" />
               </div>
             </div>
-
+            
           </div>
         </section> 
         {/* Common Signs Your AC May Need Maintenanc */}
@@ -285,47 +263,7 @@ const WestpointAcRepair = ({ subtitle, title, bgImg }) => {
 
         {/* A Quick Guide to Understanding and Fixing Your AC Problems */}
         <QuickGuide />
-        <section className="section cs_py_30">
-          <div className="container">
-          <h3 className="cs_fs_30">Get A Full Fledged Expert Service Of Westpoint HVAC</h3>
-            <div className="row align-items-center">
-            <div className="col-xl-6">
-                  <p>While modern HVAC systems are manufactured to deliver year-long service. However, issues with air condition can and will arise. Here are some common problems which are faced by several homeowners, businesses, etc.</p>
-                  <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span><strong>Blown Is Fused:</strong> One reason your Westpoint HVAC is not functioning is because of blown fuses. Fuses are mainly designed to protect the compressor and unit’s motor or ac engine from overheating. Due to that, the breaker gets flipped off which indicates a huge problem with your HVAC air con.</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span><strong>Unclean Air Filters:</strong> Dirty ac filters make your Westpoint HVAC aircon to under-perform and eventually freeze. Air filters must be regularly changed otherwise, airflow can be decreased significantly. For exceptional services, FAJ is available on the other side of a single call. Don’t let your air condition issues disturb your comfort and your important work. Let us keep your air conditioning in optimal condition, and make sure you and your loved ones enjoy cool and fresh air.</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span><strong>Poor Refrigerant:</strong> In HVAC ac refrigerant leaks happen and it is caused by system vibration during operation. Leaks always require repairing whether it is in lines or coils. Our expert team takes good care of your property and makes sure to gently handle it. Give your HVAC air conditioning the care it deserves!</span>
-                    </li>
-                  </ul>
-                </div>
-                <div className="col-xl-6">
-                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Midea-ac-repair.jpg`} alt="Westpoint Ac Repair" />
-                </div>
-                
-            </div>
-          </div>
-          <section className="section">
-          <div className="container">
-            <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
-                  <WhatsappIconButton />
-                  <CallNowButton />
-                </div>
-              </div>
-          </div>
-        </section>
-        </section>
+        
         
          {/* The Benefits Of Regular AC Service*/}
          <BenefitAcMaintenance />

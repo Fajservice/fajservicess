@@ -252,7 +252,7 @@ section#get-quote {
   background: #d04140;
   padding: 16px 0;
   border-radius: 5px;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
 }
 
 .inner-acsvs-dis-sec a {
@@ -876,5 +876,11 @@ p a {
   /* background-color: var(--bg-dark-blue); */
   display: flex;
   align-items: center;
+
+}
+
+.cs_slider_container .brnadlogo-coffeemachine-service img{
+max-height: 117px !important;
+/* padding: 20px; */
 
 }

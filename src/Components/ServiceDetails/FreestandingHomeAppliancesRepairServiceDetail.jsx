@@ -788,7 +788,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
           </div>
         </section>
 
-        <section className="section cs_py_30 bg-dark-blue text-light">
+        {/* <section className="section cs_py_30 bg-dark-blue text-light">
           <div className="container text-center">
             <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
             <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers! </p>
@@ -802,7 +802,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
             </a>
 
           </div>
-        </section>
+        </section> */}
 
         {/* white section with AC image */}
         {/* <section className="section cs_py_30">

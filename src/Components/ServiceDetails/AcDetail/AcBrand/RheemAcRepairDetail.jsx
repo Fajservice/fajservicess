@@ -146,46 +146,26 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
         {/* Why is AC Maintenance Service Important in Dubai? */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h3>
-            <p>
-              Regular air conditioner (AC) maintenance service in Dubai is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you, contact us.
-            </p>
-
+            <h3 className="cs_fs_30">Why is Rheem AC Maintenance Service Important in Dubai?</h3>
             <div className="row align-items-center">
               <div className="col-md-6">
                 {/* <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/What-is-covered-in-an-AC-Maintenance-Contract.jpg`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/What-is-covered-in-an-AC-Maintenance-Contract.jpg`} alt="Rheem Ac Repair" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
-                    <li> <strong> Extreme Weather: </strong> Experiences high temperatures over 40°C (104°F) in summer. Regular maintenance keeps air conditioner systems efficient during these conditions.</li>
-
-                    <li> <strong> Energy Efficiency: </strong> A well-maintained AC unit operates more efficiently, using less energy and lowering both electricity bills.</li>
-
-                    <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend your air condition unit’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
-                    <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
-                    <li> <strong> Enhanced Comfort: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li> 
+                    <li>Understanding the extent of Rheem AC maintenance service in Dubai is crucial for keeping your home comfortable.</li>
+                    <li>Regular Rheem air conditioner maintenance not only prolongs the lifespan of your Rheem VRF air conditioning unit but also improves efficiency, ensuring you enjoy consistent cooling during the hot months.</li>
+                    <li>Taking proactive steps to maintain your central Rheem AC will save you money in the long run by reducing energy costs and preventing costly Rheem AC repair in Dubai.</li>
+                    <li>Don’t wait for issues to arise—invest in Rheem AC cleaning service and maintenance today for a cooler, more comfortable living environment!</li>
+                    <li>Cost savings from regular Rheem air conditioner maintenance or error fixes can identify issues early, preventing costly Rheem HVAC repair in Dubai and reducing the need for unit replacements.</li>
                 </ul>
               </div>
             </div>
+            <p>Overall, Rheem AC repair and cleaning services are essential for maintaining comfort and efficiency in residential and commercial spaces across Dubai.</p>
           </div>
         </section>
-        {/* <section className="section cs_py_30 bg-light-gray">
-          <div className="container">
-          <h3 className="cs_fs_30">Rheem Air Con Service Quality Workmanship </h3>
-            <div className="row align-items-center">
-              <div className="col-md-6">
-                
-                <p>FAJ is working consistently since 2010 to make its customers satisfied and comfortable. Getting the best Rheem ac repair service in Dubai is not easy especially when you are in urgent need. Our superior workmanship is what makes us different from others. In the need of immediate help, we are present and we provide unbeatable service to our customers. With our regular maintenance service keep your Rheem air con running smoothly and swiftly. <br />Breathing fresh air is the right of everyone. Getting top-quality fresh air requires the best air con. Rheem can provide healthy air to its buyers. In Dubai, Rheem is the leading brand. So, if you have Rheem air conditioning at your home or office and looking for its repairs. Why not look for a top-quality service provider for a top ac brand?</p>
-              </div>
-              <div className="col-md-6 text-center text-md-end">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/rheem-ac-repair-service.jpg`} alt="Rheem Ac Repair" />
-                
-              </div>
-            </div>
-
-          </div>
-        </section>  */}
+       
         {/* Common Signs Your AC May Need Maintenanc */}
         <section className="section cs_py_30">
             <div className="container">
@@ -278,73 +258,6 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
 
         {/* A Quick Guide to Understanding and Fixing Your AC Problems */}
         <QuickGuide />
-        <section className="section cs_py_30 bg-light-gray">
-          <div className="container">
-            <h3 className="cs_fs_30">Why is Rheem AC Maintenance Service Important in Dubai?</h3>
-            <p>
-              Regular air conditioner (AC) maintenance service in Dubai is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you, contact us.
-            </p>
-
-            <div className="row align-items-center">
-              <div className="col-md-6">
-                {/* <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/What-is-covered-in-an-AC-Maintenance-Contract.jpg`} alt="Post Image" />
-              </div>
-              <div className="col-md-6">
-                <ul className="mb-0">
-                    <li> <strong> Extreme Weather: </strong> Experiences high temperatures over 40°C (104°F) in summer. Regular maintenance keeps air conditioner systems efficient during these conditions.</li>
-
-                    <li> <strong> Energy Efficiency: </strong> A well-maintained AC unit operates more efficiently, using less energy and lowering both electricity bills.</li>
-
-                    <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend your air condition unit’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
-                    <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
-                    <li> <strong> Enhanced Comfort: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li> 
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/* <section className="section cs_py_30">
-          <div className="container">
-          <h3 className="cs_fs_30">Get A Full Fledged Expert Service Of Rheem HVAC</h3>
-          <p>While modern HVAC systems are manufactured to deliver year-long service. However, issues with air condition can and will arise. Here are some common problems which are faced by several homeowners, businesses, etc.</p>
-            <div className="row align-items-center">
-                <div className="col-xl-6">
-                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/rheem-ac-repair-dubai.jpg`} alt="Rheem Ac Repair" />
-                </div>
-                <div className="col-xl-6">
-                 
-                  <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span><strong>Blown Is Fused:</strong> One reason your Rheem HVAC is not functioning is because of blown fuses. Fuses are mainly designed to protect the compressor and unit’s motor or ac engine from overheating. Due to that, the breaker gets flipped off which indicates a huge problem with your HVAC air con.</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span><strong>Unclean Air Filters:</strong> Dirty ac filters make your Rheem HVAC aircon to under-perform and eventually freeze. Air filters must be regularly changed otherwise, airflow can be decreased significantly. For exceptional services, FAJ is available on the other side of a single call. Don’t let your air condition issues disturb your comfort and your important work. Let us keep your air conditioning in optimal condition, and make sure you and your loved ones enjoy cool and fresh air.</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span><strong>Poor Refrigerant:</strong> In HVAC ac refrigerant leaks happen and it is caused by system vibration during operation. Leaks always require repairing whether it is in lines or coils. Our expert team takes good care of your property and makes sure to gently handle it. Give your HVAC air conditioning the care it deserves!</span>
-                    </li>
-                  </ul>
-                </div>
-            </div>
-          </div>
-          <section className="section">
-          <div className="container">
-            <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
-                  <WhatsappIconButton />
-                  <CallNowButton />
-                </div>
-              </div>
-          </div>
-        </section>
-        </section> */}
         
          {/* The Benefits Of Regular AC Service*/}
          <BenefitAcMaintenance />

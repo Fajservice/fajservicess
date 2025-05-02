@@ -145,20 +145,28 @@ const PanasonicAcRepair = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-          <h3 className="cs_fs_30">Panasonic Air Con Service Quality Workmanship </h3>
+            <h3 className="cs_fs_30">Why is Panasonic AC Maintenance Service Important in Dubai?</h3>
             <div className="row align-items-center">
+            <div className="col-md-6">
+                <ul className="mb-0">
+                    <li>In the hot and humid climate of Dubai, maintaining your Panasonic air conditioner system is crucial.</li> 
+                    <li>Central Panasonic AC Maintenance and Service ensures your unit operates efficiently, providing you with reliable comfort.</li> 
+                    <li>Regular Panasonic air maintenance not only helps prevent costly breakdowns or errors but also extends the lifespan of your Panasonic AC unit.</li> 
+                    <li>With FAJ expert AC technicians and top-notch Panasonic central AC cleaning service, Panasonic air conditioners are optimal performance, giving you peace of mind during the sweltering summer months in Dubai.</li> 
+                    <li>Invest in your comfort and the longevity of your system by choosing Panasonic AC repair and cleaning service today!</li>
+                </ul>
+              </div>
               <div className="col-md-6">
-                
-                <p>FAJ is working consistently since 2010 to make its customers satisfied and comfortable. Getting the best Panasonic ac repair service in Dubai is not easy especially when you are in urgent need. Our superior workmanship is what makes us different from others. In the need of immediate help, we are present and we provide unbeatable service to our customers. With our regular maintenance service keep your Panasonic air con running smoothly and swiftly. <br />Breathing fresh air is the right of everyone. Getting top-quality fresh air requires the best air con. Panasonic can provide healthy air to its buyers. In Dubai, Panasonic is the leading brand. So, if you have Panasonic air conditioning at your home or office and looking for its repairs. Why not look for a top-quality service provider for a top ac brand? <br />F A J Technical Services L.L.C is a top-notch company providing mind-blowing Panasonic ac repair in Dubai. We understand the necessity of properly functioning air. Our team of experienced technicians ensures to provide optimal performance of Panasonic air con and an enjoyable indoor environment all year round.</p>
+                {/* <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Panasonic Ac Repair" />
               </div>
-              <div className="col-md-6 text-center text-md-end">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-service.jpg`} alt="Panasonic Ac Repair" />
-                
-              </div>
+              
             </div>
-
+            <p>
+            Don’t let the heat overwhelm you—ensure your home AC remains a cool cover with Panasonic HVAC reliable maintenance services. Take the proactive step towards comfort today!
+            </p>
           </div>
-        </section> 
+        </section>
         {/* Common Signs Your AC May Need Maintenanc */}
         <section className="section cs_py_30">
             <div className="container">
@@ -260,62 +268,6 @@ const PanasonicAcRepair = ({ subtitle, title, bgImg }) => {
 
         {/* A Quick Guide to Understanding and Fixing Your AC Problems */}
         <QuickGuide />
-        
-        <section className="section cs_py_30 bg-dark-blue text-light">
-          <div className="container">
-            <div className="row">
-                <div className="col-md-6">
-                    <h3 className="cs_fs_24 text-light">Exceptional Repairing Of Panasonic Centralized Air Conditioning (Air Con)</h3>
-                    <p>To provide more comfort to you, potential and timely repair is indispensable. After proper repair, your air con offers great cooling performance. Regular maintenance of your centralized ac extends its lifetime and improves functions. Not many offer Panasonic ac repair in Dubai. However, FAJ is unique and experienced in providing exceptional service, maintenance, and fixing of your aircon. Get instant access to a potentially trained, highly skilled professional for optimal and fast air condition repairing.</p>
-                </div>
-                <div className="col-md-6">
-                    <h3 className="cs_fs_24 text-light">Cost Effective VRV Installation And Operation (Panasonic Aircon) AC</h3>
-                    <p>VRF Panasonic air conditioning is called ideal for small and large spaces. It is the most advanced air system worldwide and popular as well. It is significantly equipped with modern technology and, results in energy efficiency. To install this Panasonic VRF ac an exceptionally trained team is required. To get the advantage of better comfort and a sustainable cooled environment accurate installation and operation is a key.</p>    
-                </div>
-            </div>
-          </div>
-        </section>
-        <section className="section cs_py_30">
-          <div className="container">
-          <h3 className="cs_fs_30">Get A Full Fledged Expert Service Of Panasonic HVAC</h3>
-          <p>While modern HVAC systems are manufactured to deliver year-long service. However, issues with air condition can and will arise. Here are some common problems which are faced by several homeowners, businesses, etc.</p>
-            <div className="row align-items-center">
-                <div className="col-xl-6">
-                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/toshiba-ac-repair.jpg`} alt="Panasonic Ac Repair" />
-                </div>
-                <div className="col-xl-6">
-                 
-                  <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span><strong>Blown Is Fused:</strong> One reason your Panasonic HVAC is not functioning is because of blown fuses. Fuses are mainly designed to protect the compressor and unit’s motor or ac engine from overheating. Due to that, the breaker gets flipped off which indicates a huge problem with your HVAC air con.</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span><strong>Unclean Air Filters:</strong> Dirty ac filters make your Panasonic HVAC aircon to under-perform and eventually freeze. Air filters must be regularly changed otherwise, airflow can be decreased significantly. For exceptional services, FAJ is available on the other side of a single call. Don’t let your air condition issues disturb your comfort and your important work. Let us keep your air conditioning in optimal condition, and make sure you and your loved ones enjoy cool and fresh air.</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span><strong>Poor Refrigerant:</strong> In HVAC ac refrigerant leaks happen and it is caused by system vibration during operation. Leaks always require repairing whether it is in lines or coils. Our expert team takes good care of your property and makes sure to gently handle it. Give your HVAC air conditioning the care it deserves!</span>
-                    </li>
-                  </ul>
-                </div>
-            </div>
-          </div>
-          <section className="section">
-          <div className="container">
-            <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
-                  <WhatsappIconButton />
-                  <CallNowButton />
-                </div>
-              </div>
-          </div>
-        </section>
-        </section>
         
          {/* The Benefits Of Regular AC Service*/}
          <BenefitAcMaintenance />

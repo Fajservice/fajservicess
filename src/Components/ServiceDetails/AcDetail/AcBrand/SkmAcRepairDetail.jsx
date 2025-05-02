@@ -145,20 +145,22 @@ const SkmAcRepair = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-          <h3 className="cs_fs_30">Skm Air Con Service Quality Workmanship </h3>
+            <h3 className="cs_fs_30">Why is SKM AC Maintenance Service Important in Dubai?</h3>
             <div className="row align-items-center">
-              <div className="col-md-6">
-                
-                <p>FAJ is working consistently since 2010 to make its customers satisfied and comfortable. Getting the best Skm ac repair service in Dubai is not easy especially when you are in urgent need. Our superior workmanship is what makes us different from others. In the need of immediate help, we are present and we provide unbeatable service to our customers. With our regular maintenance service keep your Skm air con running smoothly and swiftly. <br />Breathing fresh air is the right of everyone. Getting top-quality fresh air requires the best air con. Skm can provide healthy air to its buyers. In Dubai, Skm is the leading brand. So, if you have Skm air conditioning at your home or office and looking for its repairs. Why not look for a top-quality service provider for a top ac brand? <br />F A J Technical Services L.L.C is a top-notch company providing mind-blowing Skm ac repair in Dubai. We understand the necessity of properly functioning air. Our team of experienced technicians ensures to provide optimal performance of Skm air con and an enjoyable indoor environment all year round.</p>
+            <div className="col-md-6">
+                <ul className="mb-0">
+                  <li>When it comes to surviving the sweltering heat of Dubai, a well-functioning SKM air conditioner system isn't just a luxury—it's a necessity!</li> 
+                  <li>This is where SKM AC Maintenance Service shines. Regular maintenance ensures that your SKM central AC runs at peak efficiency, helping you stay cool while keeping energy bills in check.</li> 
+                  <li>But that's not all. Routine inspections and servicing can extend the lifespan of your unit, prevent costly breakdowns, and improve indoor air quality, making your home a healthier place to live.</li> 
+                  <li>Plus, in a city famous for its soaring temperatures, a reliable SKM Package AC repair and service can offer you peace of mind. So, don’t underestimate the power of professional split and central SKM AC maintenance—trust SKM air conditioning to keep you cool and comfortable all year round!</li>
+                </ul>
               </div>
-              <div className="col-md-6 text-center text-md-end">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-service.jpg`} alt="Skm Ac Repair" />
-                
+              <div className="col-md-6">
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/skm-ac-repair.jpeg`} alt="SKM Ac Repair" />
               </div>
             </div>
-
           </div>
-        </section> 
+        </section>
         {/* Common Signs Your AC May Need Maintenanc */}
         <section className="section cs_py_30">
             <div className="container">
@@ -257,91 +259,12 @@ const SkmAcRepair = ({ subtitle, title, bgImg }) => {
 
             </div>
         </section>
-
         {/* A Quick Guide to Understanding and Fixing Your AC Problems */}
         <QuickGuide />
-        
-        <section className="section cs_py_30 bg-dark-blue text-light">
-          <div className="container">
-            <div className="row">
-                <div className="col-md-6">
-                    <h3 className="cs_fs_24 text-light">Exceptional Repairing Of Skm Centralized Air Conditioning (Air Con)</h3>
-                    <p>To provide more comfort to you, potential and timely repair is indispensable. After proper repair, your air con offers great cooling performance. Regular maintenance of your centralized ac extends its lifetime and improves functions. Not many offer Skm ac repair in Dubai. However, FAJ is unique and experienced in providing exceptional service, maintenance, and fixing of your aircon. Get instant access to a potentially trained, highly skilled professional for optimal and fast air condition repairing.</p>
-                </div>
-                <div className="col-md-6">
-                    <h3 className="cs_fs_24 text-light">Cost Effective VRV Installation And Operation (Skm Aircon) AC</h3>
-                    <p>VRF Skm air conditioning is called ideal for small and large spaces. It is the most advanced air system worldwide and popular as well. It is significantly equipped with modern technology and, results in energy efficiency. To install this Skm VRF ac an exceptionally trained team is required. To get the advantage of better comfort and a sustainable cooled environment accurate installation and operation is a key.</p>    
-                </div>
-                <div className="col-md-12">
-                    <h3 className="cs_fs_24 text-light">Different Models Of Skm Ducted Aircon</h3>
-                    <p>Several types/ models of Skm ducted ac are available in the market. Choosing the best one which is suitable for your house or office is an art. Expert advice clears all doubts and helps you to get the right aircon for your place.</p>
-                </div>
-                <div className="col-md-6">
-                    <h4 className="cs_fs_18 text-light">Inverter Skm Ducted</h4>
-                    <p>This type of air conditioner has an efficient and compact design. This one is ideal to install in the tight roof space of the modern home.</p>
-                </div>
-                <div className="col-md-6">
-                    <h4 className="cs_fs_18 text-light">Premium Inverter Ducted</h4>
-                    <p>This ducted air con has remarkable energy performance and the ability to perform functions quite innovatively. We are skilled enough in installing, repairing, fixing, and maintenance of these kinds of air conditioners.</p>    
-                </div>
-                <div className="col-md-6">
-                    <h4 className="cs_fs_18 text-light">Bulkhead System</h4>
-                    <p>This model is best for drop ceilings and shallow ceilings. Optimal for bedroom air conditioning and ideal where discreet installation is a preference.</p>
-                </div>
-                <div className="col-md-6">
-                    <h4 className="cs_fs_18 text-light">Slimline Ducted</h4>
-                    <p>It has freedom of design and unparalleled flexibility. FAJ is the most reliable and ideal one for installing and maintenance of these ac machines.</p>    
-                </div>
-            </div>
-          </div>
-        </section>
-
-        
-        <section className="section cs_py_30">
-          <div className="container">
-          <h3 className="cs_fs_30">Get A Full Fledged Expert Service Of Skm HVAC</h3>
-            <div className="row align-items-center">
-                <div className="col-xl-6">
-                  <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/daikin-ac-repair.jpg`} alt="Skm Ac Repair" />
-                </div>
-                <div className="col-xl-6">
-                  <p>While modern HVAC systems are manufactured to deliver year-long service. However, issues with air condition can and will arise. Here are some common problems which are faced by several homeowners, businesses, etc.</p>
-                  <ul className="cs_list cs_style_1 cs_fs_16 cs_mp_0">
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span><strong>Blown Is Fused:</strong> One reason your Skm HVAC is not functioning is because of blown fuses. Fuses are mainly designed to protect the compressor and unit’s motor or ac engine from overheating. Due to that, the breaker gets flipped off which indicates a huge problem with your HVAC air con.</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span><strong>Unclean Air Filters:</strong> Dirty ac filters make your Skm HVAC aircon to under-perform and eventually freeze. Air filters must be regularly changed otherwise, airflow can be decreased significantly. For exceptional services, FAJ is available on the other side of a single call. Don’t let your air condition issues disturb your comfort and your important work. Let us keep your air conditioning in optimal condition, and make sure you and your loved ones enjoy cool and fresh air.</span>
-                    </li>
-                    <li>
-                      <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-                        <i className="bi bi-check"></i></span>
-                      <span><strong>Poor Refrigerant:</strong> In HVAC ac refrigerant leaks happen and it is caused by system vibration during operation. Leaks always require repairing whether it is in lines or coils. Our expert team takes good care of your property and makes sure to gently handle it. Give your HVAC air conditioning the care it deserves!</span>
-                    </li>
-                  </ul>
-                </div>
-            </div>
-          </div>
-          <section className="section">
-          <div className="container">
-            <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
-                  <WhatsappIconButton />
-                  <CallNowButton />
-                </div>
-              </div>
-          </div>
-        </section>
-        </section>
-        
-         {/* The Benefits Of Regular AC Service*/}
-         <BenefitAcMaintenance />
-          {/*Why Choose F A J Technical Services L.L.C? */}
-          <ACWhyChooseUs/>
+        {/* The Benefits Of Regular AC Service*/}
+        <BenefitAcMaintenance />
+        {/*Why Choose F A J Technical Services L.L.C? */}
+        <ACWhyChooseUs/>
         {/* Practical Tips to Improve Energy Efficiency */}
         <section className="section cs_py_30 bg-dark-blue text-light">
             <div className="container text-center">
