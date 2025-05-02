@@ -8,6 +8,8 @@ import CallNowButton from '../Buttons/CallNowButton';
 import GetQuoteButton from "../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
+import AppliancesTechnicalInspectionFee from "../ApplianceCommons/AppliancesTechnicalInspectionFee.jsx";
+import AppliancesAppointmentCol from "../ApplianceCommons/AppliancesAppointmentCol.jsx";
 
 import Slider from "react-slick";
 import testimonial_data from '../../Data/AcData/AcTestimonial/AcServiceTestimonials.json';
@@ -88,7 +90,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
 
     autoplay: true,
     autoplaySpeed: 5000,
-    pauseOnHover: true, 
+    pauseOnHover: true,
     // cssEase: 'linear',
 
     responsive: [
@@ -144,7 +146,6 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
         <MaintenanceContract />
 
         {/* Best Home Appliance Service Center */}
-
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
@@ -158,71 +159,17 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
                   <br /> We're nearby and can get your appliances fixed quickly and efficiently.
                 </p>
 
-
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Appliance Technical Inspection Fee</h3>
-                <p className="mb-0">
-                  The technical inspection fee is AED 157, which covers diagnosis, transportation, and reinstallation in Dubai premises.
-                  <br />
-                  Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.
-                </p>
+                <AppliancesTechnicalInspectionFee></AppliancesTechnicalInspectionFee>
               </div>
 
               <div className="col-md-6 ">
                 {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.jpg`} alt="Post Image" />
-
               </div>
             </div>
-
-            <div className="appointment-col border-small-top pt-3">
-              <p>
-                If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.
-                <br />  
-                Timing: Mon-Sat 8:00 AM to 6:00 PM - Sunday 12:00 PM to 6:00 PM. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.
-                <br />
-                <a href="https://www.google.com/maps/dir//Warehouse+No+-+S-02+Gate+35+Street+18b+-+Al+Quoz+-+Al+Quoz+Industrial+Area+4+-+Dubai+-+United+Arab+Emirates/@25.1105958,55.1452595,22158m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x3e5f699a600aceeb:0xa6121b25d557aa94!2m2!1d55.227661!2d25.1106186?entry=ttu&g_ep=EgoyMDI1MDQyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank"
-                >FAJ location</a> is easy access from Al Khail Road and Sheikh Zayed Road Drop appliance drop it off at the workshop and <strong>get discount</strong> on the technical inspection fee & service.
-              </p>
-              <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
-                  <WhatsappIconButton />
-                  <CallNowButton />
-                </div>
-              </div>
-            </div>
+            <AppliancesAppointmentCol></AppliancesAppointmentCol>
           </div>
-        </section>
-
-
-        <section className="section cs_py_30">
-          <div className="container">
-            <FAJACPrice></FAJACPrice>
-          </div>
-        </section>
-
-
-        {/* The Most Common Reasons for Appliance Breakdowns */}
-        <section className="section cs_py_30 bg-light-gray">
-          <div className="container">
-            <h3 className="cs_fs_30">The Most Common Reasons for Appliance Breakdowns</h3>
-            <p>
-              Let's face it, modern life revolves around our appliances. From the refrigerator that keeps our food fresh to the washing machine that handles endless piles of laundry, these gadgets are indispensable. But what happens when they break down? It's not just an inconvenience; it can throw a wrench in our entire routine.
-            </p>
-            <div className="row align-items-center">
-              <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/dishwasher.webp`} alt="Post Image" />
-              </div>
-              <div className="col-md-6">
-                <ul className="mb-0">
-                  <li> <strong>Refrigerator Common Issues: </strong> Common problems with refrigerators include cooling issues, insufficient cooling, or door issues. </li>
-                  <li> <strong>Washing Machines Common Issues: </strong> Common problems include drainage issues and spin cycle failures. </li>
-                  <li> <strong> Dishwashers Common Issues: </strong> They may have problems with draining, leading to water pooling at the bottom, or  they might not clean dishes effectively. </li><li> <strong> Ovens and Stoves Common Issues: </strong> Ovens and stoves often face problems with heating elements or ignition. This  can result in the oven not heating up properly or the stove failing to ignite. </li>
-                  <li> <strong> Coffee Machine Common Issues: </strong> Coffee makers may stop brewing properly or start leaking. </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
+        </section>       
 
         {/* The Most Common Problems with Home Appliances */}
         <section className="section cs_py_30">
@@ -331,46 +278,28 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
           </div>
         </section>
 
-        {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
+        {/* The Most Common Reasons for Appliance Breakdowns */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h3>
-
+            <h3 className="cs_fs_30">The Most Common Reasons for Appliance Breakdowns</h3>
+            <p>
+              Let's face it, modern life revolves around our appliances. From the refrigerator that keeps our food fresh to the washing machine that handles endless piles of laundry, these gadgets are indispensable. But what happens when they break down? It's not just an inconvenience; it can throw a wrench in our entire routine.
+            </p>
             <div className="row align-items-center">
-              <div className="col-xl-6">
-                <iframe
-                  className="bordered-img blue-border"
-                  width="100%"
-                  height="350"
-                  src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
+              <div className="col-md-6">
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/dishwasher.webp`} alt="Post Image" />
               </div>
-
-              <div className="col-xl-6">
-                <p className='mb-0'>We specialize in all types and brands of home appliances, including built-in units.</p>
-                <p className='mb-0'><strong>Our services include:</strong></p>
-                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                  <li> <strong>  Installation: </strong> Expert installation of various types and brands of home appliances, ensuring optimal performance and efficiency. </li>
-                  <li> <strong> Diagnostics: </strong> Comprehensive fault-finding services to effectively diagnose issues. We provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
-                  <li> <strong> Repair Service: </strong> Efficient repair services for all appliance components, ensuring a quick resolution to issues such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions! </li>
-                  <li> <strong> Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for
-                    the annual maintenance of your appliances. </li>
-                  <p className="mb-0">
-                    Regular maintenance is essential for optimal performance, efficiency, and longevity of your home appliances.
-                  </p>
+              <div className="col-md-6">
+                <ul className="mb-0">
+                  <li> <strong>Refrigerator Common Issues: </strong> Common problems with refrigerators include cooling issues, insufficient cooling, or door issues. </li>
+                  <li> <strong>Washing Machines Common Issues: </strong> Common problems include drainage issues and spin cycle failures. </li>
+                  <li> <strong> Dishwashers Common Issues: </strong> They may have problems with draining, leading to water pooling at the bottom, or  they might not clean dishes effectively. </li><li> <strong> Ovens and Stoves Common Issues: </strong> Ovens and stoves often face problems with heating elements or ignition. This  can result in the oven not heating up properly or the stove failing to ignite. </li>
+                  <li> <strong> Coffee Machine Common Issues: </strong> Coffee makers may stop brewing properly or start leaking. </li>
                 </ul>
-
-
               </div>
-
-
             </div>
           </div>
-        </section >
+        </section>
 
         {/* The Benefits Of appliances Service Dubai */}
         <section className="section cs_py_30 appliances-benifit-sec">
@@ -457,6 +386,42 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
             </div>
           </div>
         </section>
+
+         {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
+         <section className="section cs_py_30 bg-light-gray">
+          <div className="container">
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h3>
+
+            <div className="row align-items-center">
+              <div className="col-xl-6">
+                <p className='mb-0'>We specialize in all types and brands of home appliances, including built-in units.</p>
+                <p className='mb-0'><strong>Our services include:</strong></p>
+                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
+                  <li> <strong>  Installation: </strong> Expert installation of various types and brands of home appliances, ensuring optimal performance and efficiency. </li>
+                  <li> <strong> Diagnostics: </strong> Comprehensive fault-finding services to effectively diagnose issues. We provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
+                  <li> <strong> Repair Service: </strong> Efficient repair services for all appliance components, ensuring a quick resolution to issues such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions! </li>
+                  <li> <strong> Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for
+                    the annual maintenance of your appliances. </li>
+                  <p className="mb-0">
+                    Regular maintenance is essential for optimal performance, efficiency, and longevity of your home appliances.
+                  </p>
+                </ul>
+              </div>
+              <div className="col-xl-6">
+                <iframe
+                  className="bordered-img blue-border"
+                  width="100%"
+                  height="350"
+                  src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </section >
 
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
@@ -842,7 +807,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
         {/* Brands section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
           <div className="container">
-           
+
             <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
               data-variable-width="0" data-xs-slides="1" data-sm-slides="1" data-md-slides="1" data-lg-slides="2"
               data-add-slides="2" data-slides-per-view="responsive">

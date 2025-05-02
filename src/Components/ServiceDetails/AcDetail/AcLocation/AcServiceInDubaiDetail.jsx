@@ -118,17 +118,17 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
-                  <ul className="mb-0">
-                  <li>Higher electricity bills </li>
-                  <li>Air is not blowing cold</li>
-                  <li>Drips from your air conditioner</li>
-                </ul>
+                    <ul className="mb-0">
+                      <li>Higher electricity bills </li>
+                      <li>Air is not blowing cold</li>
+                      <li>Drips from your air conditioner</li>
+                    </ul>
                   </div>
                   <div className="col-sm-6">
-                  <ul className="mb-0">
-                  <li>Loss of AC performance</li>
-                  <li>Poor AC airflow, making noises</li>
-                </ul>
+                    <ul className="mb-0">
+                      <li>Loss of AC performance</li>
+                      <li>Poor AC airflow, making noises</li>
+                    </ul>
                   </div>
                 </div>
                 {/* <ul className="mb-0">
@@ -178,18 +178,18 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
- <li> <strong> Extreme Weather: </strong> Experiences high temperatures over 40°C (104°F) in summer. Regular maintenance keeps air conditioner systems efficient during these conditions.</li>
+                  <li> <strong> Extreme Weather: </strong> Experiences high temperatures over 40°C (104°F) in summer. Regular maintenance keeps air conditioner systems efficient during these conditions.</li>
 
- <li> <strong> Energy Efficiency: </strong> A well-maintained AC unit operates more efficiently, using less energy and lowering both electricity bills.</li>
+                  <li> <strong> Energy Efficiency: </strong> A well-maintained AC unit operates more efficiently, using less energy and lowering both electricity bills.</li>
 
- <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend your air condition unit’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
- <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
- <li> <strong> Enhanced Comfort: </strong> Regular
- AC servicing in Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
+                  <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend your air condition unit’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
+                  <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
+                  <li> <strong> Enhanced Comfort: </strong> Regular
+                    AC servicing in Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
 
 
 
-                
+
                 </ul>
               </div>
             </div>
