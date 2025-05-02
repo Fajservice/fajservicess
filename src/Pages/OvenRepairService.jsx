@@ -1,7 +1,7 @@
 import BreadCumb from "../Components/Common/BreadCumb";
-import OvenRepairDetail from "../Components/ServiceDetails/OvenRepairDetail";
+import OvenRepairServiceDetail from "../Components/ServiceDetails/OvenRepairServiceDetail";
 
-const OvenRepair = () => {
+const OvenRepairService = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
@@ -10,9 +10,9 @@ const OvenRepair = () => {
                 Title="Gas & Electrical Oven Repair Service"
             ></BreadCumb> 
 
-            <OvenRepairDetail></OvenRepairDetail>        
+            <OvenRepairServiceDetail></OvenRepairServiceDetail>        
         </div>
     );
 };
 
-export default OvenRepair;
+export default OvenRepairService;

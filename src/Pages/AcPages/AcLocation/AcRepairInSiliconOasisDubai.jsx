@@ -1,7 +1,6 @@
 import React from 'react'
 import BreadCumb from "../../../Components/Common/BreadCumb";
-import AcRepairInTheVillaDetail from '../../../Components/ServiceDetails/AcDetail/AcLocation/AcRepairInTheVillaDetail';
-const AcRepairInTheVilla = () => {
+const AcRepairInSiliconOasisDubai = () => {
   return (
     <div className="serviceDetails">
     <BreadCumb
@@ -13,4 +12,4 @@ const AcRepairInTheVilla = () => {
   )
 }
 
-export default AcRepairInTheVilla
+export default AcRepairInSiliconOasisDubai
