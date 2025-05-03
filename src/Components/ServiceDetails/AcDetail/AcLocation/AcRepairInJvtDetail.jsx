@@ -1,11 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairinAlJafiliya.json';
+import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInJaeblAliIndustrialArea.json';
 import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../../../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
-import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMaintenance";
 import QuickGuide from "../../../QuickGuide/QuickGuide";
@@ -13,14 +12,13 @@ import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
-import testimonial from '../../../../Data/AcData/AcFaqs/AcServiceInDubai.json';
+import testimonial from '../../../../Data/AcData/AcTestimonial/AcServiceTestimonials.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
 
-
-const AcRepairInJumeirahGolfEstatesDetail = ({ subtitle, title, bgImg }) => {
+const AcRepairInJvtDetail = ({ subtitle, title, bgImg }) => {
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "/img/testimonialbg.jpg"
@@ -77,8 +75,8 @@ const AcRepairInJumeirahGolfEstatesDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
     <HelmetProvider>
-        <title>AC Services In Jumeirah Golf Estates - #1 Inverter AC Fix</title>
-        <meta name="description" content="Are you finding for ac services in jumeirah golf estates dubai? Call 043300002 for your inverter and central air conditioner repair & maintenance.."></meta>
+        <title>Best AC Services In JVT Dubai - #1 AC Maintenance - A/C Fix</title>
+        <meta name="description" content="Gas Filling and AC Services in Umm Suqeim Dubai. Call an 043300002 for AC compressor fixing, motor repair and general maintenance near me.."></meta>
     </HelmetProvider>
     <HeaderForm />
     <div className="cs_service_details">
@@ -107,8 +105,8 @@ const AcRepairInJumeirahGolfEstatesDetail = ({ subtitle, title, bgImg }) => {
             <div className="container">
                 <div className="row gx-md-5">
                     <div className="col-md-6">
-                        <h3 className="cs_fs_24 mb-1">Best AC Repair in Dubai</h3>
-                        <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> in Jumeirah Golf Estates, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
+                        <h3 className="cs_fs_24 mb-1">Best AC Repair in JVT</h3>
+                        <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> in JVT, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
                         <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                         <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
                         <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
@@ -295,9 +293,8 @@ const AcRepairInJumeirahGolfEstatesDetail = ({ subtitle, title, bgImg }) => {
         {/* Why choose us AC */}
         <ACWhyChooseUs />
 
-
         {/* We specialise in air conditioning services for the following brands */}
-        <WeSpecialise />
+       <WeSpecialise />
 
         <section className="section cs_py_30 bg-dark-blue text-light">
             <div className="container text-center">
@@ -443,4 +440,4 @@ const AcRepairInJumeirahGolfEstatesDetail = ({ subtitle, title, bgImg }) => {
   )
 }
 
-export default AcRepairInJumeirahGolfEstatesDetail
+export default AcRepairInJvtDetail

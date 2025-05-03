@@ -294,7 +294,6 @@ const AcRepairInJumeirahVillageDetail = ({ subtitle, title, bgImg }) => {
                 {/* Why choose us AC */}
                 <ACWhyChooseUs />
 
-
                 {/* We specialise in air conditioning services for the following brands */}
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
