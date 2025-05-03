@@ -111,6 +111,12 @@ import AcRepairInJumeirahBeachResidence from "../Pages/AcPages/AcLocation/AcRepa
 
 import OvenRepair from "../Pages/KitchenEquipPages/OvenRepair";
 import AcRepairInJumeirahHeights from "../Pages/AcPages/AcLocation/AcRepairInJumeirahHeights";
+import AcRepairInQuozIndustrialArea from "../Pages/AcPages/AcLocation/AcRepairInQuozIndustrialArea";
+import AcRepairInTheLakes from "../Pages/AcPages/AcLocation/AcRepairInTheLakes";
+import AcRepairInBurjKhalifaLake from "../Pages/AcPages/AcLocation/AcRepairInBurjKhalifaLake";
+import AcRepairInUmmSuqeim from "../Pages/AcPages/AcLocation/AcRepairInUmmSuqeim";
+import AcRepairInJvt from "../Pages/AcPages/AcLocation/AcRepairInJvt";
+import AcRepairInJumeirah from "../Pages/AcPages/AcLocation/AcRepairInJumeirah";
 export const router = createHashRouter([
   {
     path: "/",
@@ -547,6 +553,30 @@ export const router = createHashRouter([
       {
         path: "/ac-services-in-jumeirah-heights/",
         element: <AcRepairInJumeirahHeights/>,
+      },
+      {
+        path: "/ac-services-in-al-quoz-industrial-area/",
+        element: <AcRepairInQuozIndustrialArea/>,
+      },
+      {
+        path: "/ac-services-in-the-lakes/",
+        element: <AcRepairInTheLakes />,
+      },
+      {
+        path: "/ac-services-in-the-lakes/",
+        element: <AcRepairInBurjKhalifaLake />,
+      },
+      {
+        path: "/ac-services-in-umm-suqeim/",
+        element: <AcRepairInUmmSuqeim />,
+      },
+      {
+        path: "/ac-services-in-jvt/",
+        element: <AcRepairInJvt />,
+      },
+      {
+        path: "/ac-services-in-jumeirah/",
+        element: <AcRepairInJumeirah />,
       },
     ],
   }
