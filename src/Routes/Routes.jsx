@@ -117,6 +117,8 @@ import AcRepairInBurjKhalifaLake from "../Pages/AcPages/AcLocation/AcRepairInBur
 import AcRepairInUmmSuqeim from "../Pages/AcPages/AcLocation/AcRepairInUmmSuqeim";
 import AcRepairInJvt from "../Pages/AcPages/AcLocation/AcRepairInJvt";
 import AcRepairInJumeirah from "../Pages/AcPages/AcLocation/AcRepairInJumeirah";
+import AcRepairInJebelAli from "../Pages/AcPages/AcLocation/AcRepairInJebelAli";
+import AcRepairInEmiratesHills from "../Pages/AcPages/AcLocation/AcRepairInEmiratesHills";
 export const router = createHashRouter([
   {
     path: "/",
@@ -577,6 +579,18 @@ export const router = createHashRouter([
       {
         path: "/ac-services-in-jumeirah/",
         element: <AcRepairInJumeirah />,
+      },
+      {
+        path: "/ac-services-in-jumeirah/",
+        element: <AcRepairInJumeirah />,
+      },
+      {
+        path: "/ac-services-in-jebel-ali/",
+        element: <AcRepairInJebelAli />,
+      },
+      {
+        path: "/ac-services-in-emirates-hills/",
+        element: <AcRepairInEmiratesHills />,
       },
     ],
   }
