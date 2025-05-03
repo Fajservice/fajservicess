@@ -52,12 +52,10 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
     slidesToScroll: 1,
     arrows: false,
     swipeToSlide: true,
-
-    // autoplay: true,
-    // autoplaySpeed: 0,
-    // speed: 8000,
-    // pauseOnHover: true,
-    // cssEase: 'linear',
+    autoplay: true,
+    autoplaySpeed: 5000,
+    pauseOnHover: true,
+    
 
     responsive: [
       {
@@ -126,7 +124,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
         <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">Get Professional Coffee Machine Repair Across Dubai, Sharjah, and Abu Dhabi</h2>
+            <h2 className="cs_fs_30"> Expert Coffee Machine Repair in Dubai, Sharjah and Abu Dhabi</h2>
             <p>
               Since 2010, FAJ has been providing reliable and trusted expertise in installation and maintenance, specializing in coffee machine repair and service in Dubai, serving homes, offices, restaurants, and cafes.
 
@@ -163,7 +161,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
                 </p>
 
 
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">
+                <h3 className="cs_fs_18 mb-1 pt-3 border-small-top">
                   Coffee Machine Servicing and Maintenance Contract
                 </h3>
                 <p className="mb-0">
@@ -203,19 +201,12 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
           </div>
         </section>
 
-
-        <section className="section cs_py_30">
-          <div className="container">
-            <FAJACPrice></FAJACPrice>
-          </div>
-        </section>
-
         {/* Why is the Importance of Coffee Machine Maintenance in Dubai? */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">Why is the Importance of Coffee Machine Maintenance in Dubai?</h3>
             <p className="">
-              Regular maintenance of coffee machines is vital for businesses in Dubai. It ensures consistent coffee quality, prolongs machine lifespan, and reduces downtime and repair costs.
+            Regular maintenance of coffee machine is essential for business. It ensures the quality of coffee, extends the machine’s lifespan, and reduces repair costs.
             </p>
 
             <div className="row align-items-center">
@@ -230,154 +221,17 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
                   <li> <strong> Maintaining Efficiency: </strong> Consistent upkeep ensures optimal performance and reduces energy consumption. </li>
                   <li> <strong> Professional Service for Commercial Use: </strong> Commercial machines need specialized maintenance for safety and performance </li>
                   <li> <strong> Importance in Commercial Kitchens: </strong> In the UAE, reliable maintenance of coffee machines is crucial for beverage service. </li>
-                  <li> <strong> Home Use: </strong> Regular maintenance enhances quality and extends the lifespan of coffee machines.   Professional servicing ensures safety, efficiency, and reliability for both home and business users in Dubai. </li>
+                  <li> <strong> Home Use: </strong> Regular maintenance enhances coffee machine quality and lifespan. Professional servicing benefits home and business users in Dubai.  </li>
                 </ul>
               </div>
             </div>
           </div>
         </section>
 
-
-        {/* Hire Professional Coffee Machine Repair Across Dubai - Sharjah - Abu Dhabi */}
-        {/* <section className="section cs_py_30 bg-light-gray">
-          <div className="container">
-            <h3 className="cs_fs_30">Hire Professional Coffee Machine Repair Across Dubai - Sharjah - Abu Dhabi</h3>
-            <p>
-              Do you have problems with your coffee maker? There's nowhere else to look! We provide excellent coffee machine fixing services by using qualified specialists committed to carefully and precisely mending your device. Don't allow your routine to be interrupted by a broken coffee maker. For dependable repairs, get in touch with us right now, and soon you can enjoy your favorite drink!
-            </p>
-            <div className="row align-items-center">
-              <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/coffee-machine-service.jpg`} alt="Post Image" />
-              </div>
-              <div className="col-md-6">
-                <h4>Searching For Coffee Machine Repair Service Near Me</h4>
-                <p>Do you require nearby Espresso coffee machine repair near me? This is the place where your search stops! For all of your coffee-related issues, our knowledgeable experts are on call and can offer professional solutions that are customized to meet your requirements. Count on us to provide timely and dependable service right at your door, regardless of the size of the issue. Have uninterrupted coffee enjoyment with FAJ Professional by your side and bid adieu to coffee machine troubles.</p>
-              </div>
-
-              <div className="col-12 mt-3">
-                <h4>Espresso Technician: Fixes All Your Coffee Related Issues
-                </h4>
-                <p>Our knowledgeable experts are experts at identifying and provide any espresso coffee machine repair, guaranteeing that your espresso machine performs at its best. Our professionals have the necessary skills and commitment to provide outstanding espresso machine maintenance, whether they are solving typical issues or executing complex fixes. Rely on us to keep your Eureka Espresso grinder flowing smoothly, every time, and don't allow coffee machine problems to ruin your day.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section> */}
-
-        {/* The Most Common Problems with Home Appliances */}
-        <section className="section cs_py_30">
-          <div className="container">
-            <h3 className="text-center">The Most Common Problems with Home Appliances   </h3>
-            <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Problem</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Most fridge malfunctions are related to cooling issues, including problems with the defrost system, fan motor, compressor, or coils.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishwashers Problem</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">The most issues with dishwashers are bad cleaning and drying. Common water leaks and drainage. Some electrical issues or PCB failures.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Washing Machine Problem
-                    </h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">A common issue with washing machines is drainage problems, leaks, and PCB faulty. Also, broken belt or faulty door switch or drum from spinning.</p>
-                  </div>
-                </div>
-              </div>
-
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Tumble Dryer Problem</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Dryers can stop the drum from spinning and often make noise without drying clothes properly. Common issues are a broken heating element or control board.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Stove Problem</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Uneven heating or flame issues, such as a broken burner element, bad switch, or electric gas, are the most common problems with stoves.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Ovens Problems</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-o">
-                    Most ovens face issues like poor heating, burners not igniting, ignition failure in gas models, broken knobs, and faulty controllers or valves.
-                    </p>
-                    {/* <p className="p-2 mb-0">Most ovens have common problems like not heating properly, burners not igniting, ignition issues on gas models, broken knobs, and faulty controllers or valves.</p> */}
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Freezer Problem</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Common issues with a freezer include water leaks, no ice, a malfunctioning ice maker, a malfunctioning PCB, motor, or compressor, and less cooling.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Machine Problem</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Whether they are drip or single-serve coffee makers, there are a few reasons why water flow in coffee makers is often slow or nonexistent.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div id="get-quote" className="mb-0 mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
-                <WhatsappIconButton />
-              </div>
-            </div>
-
-          </div>
-        </section>
-
-        {/* Coffee Machine Service and Maintenance */}
+        {/* HERE ARE THE SERVICES WE OFFER FOR COFFEE MACHINES AND ESPRESSO MACHINES*/}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="cs_fs_30">Coffee Machine Service and Maintenance   </h3>
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR COFFEE MACHINES AND ESPRESSO  </h3>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -394,28 +248,21 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
               </div>
 
               <div className="col-xl-6">
-                {/* <p className='mb-0'><strong>Our services include:</strong></p> */}
-                <p className='mb-0'>
-                  Your search has come to an end! We recognize the significance of a well-functioning coffee machine, espresso grinder, coffee grinder, or espresso machine, whether for commercial coffee machine, office, or home use.
+                <p className='mb-0'>We specialise in all types and brands of Coffee Machines, including Coffee Machine </p>
+                <p className='mb-0'><strong>Our services include: </strong></p>
+                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
+                  <li> <strong>  Installation: </strong> Expert installation of various types and brands of coffee machines, ensuring optimal performance and efficiency.</li>
 
-                  <br />  You can say goodbye to coffee machine problems with our dependable espresso machine repair services across Dubai, Sharjah, Furaijah, Ras Al Khaimah, Abu Dhabi. Our professional experts can diagnose and repair a wide range of coffee machne difficulties, allowing you to enjoy your favourite cup of coffee without disruption.
+                  <li> <strong> Diagnostics: </strong> Thorough fault finding to diagnose issues effectively. We provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
 
-                  <br />  Choose FAJ Technical Service L.L.C for high-quality coffee machine repairs in Dubai. We have been in the industry since 2010, and our devoted staff of experts can handle a wide range of brands and models. We take pleasure in exceeding customer expectations by providing timely, dependable, and cost-effective solutions.
-                </p>
-                {/* <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                  <li> <strong>  Installation: </strong> Expert installation of various types and brands of home appliances, ensuring optimal performance and efficiency. </li>
-                  <li> <strong> Diagnostics: </strong> Comprehensive fault-finding services to effectively diagnose issues. We provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
-                  <li> <strong> Repair Service: </strong> Efficient repair services for all appliance components, ensuring a quick resolution to issues such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions! </li>
-                  <li> <strong> Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for
-                    the annual maintenance of your appliances. </li>
+                  <li> <strong> Repair Service: </strong> Efficient repair services for all coffee machine components, ensuring quick resolution of any issues, such as leaks, electrical failures, and system malfunctions.</li>
+
+                  <li> <strong> Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for the annual maintenance of the espresso machine. </li>
                   <p className="mb-0">
-                    Regular maintenance is essential for optimal performance, efficiency, and longevity of your home appliances.
+                  Regular maintenance is essential for optimal performance, efficiency, and longevity of your coffee machine.
                   </p>
-                </ul> */}
-
-
+                </ul>
               </div>
-
 
             </div>
           </div>
@@ -504,6 +351,127 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* The Most Common Problems of Coffee Machines */}
+        <section className="section cs_py_30 bg-light-gray">
+          <div className="container">
+            <h3 className="text-center">The Most Common Problems of Coffee Machines   </h3>
+            <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Water Leaking </h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                    Coffee Machine / espresso machine water leakage issues can be caused by worn-out seals, loose connections, or cracks in the water reservoir or tubing.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Machine Descaling</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">Regular coffee machine descaling for your espresso machine with a descaling solution can remove mineral buildup, which is a common cause of clogs and leaks.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Machine Cleaning </h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">Regular coffee machine cleaning service of the filter basket, coffee grinder, and other parts can prevent clogs and improve the coffee taste.</p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Bad Coffee Taste</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0"> Poor quality beans, improper brewing parameters (such as grind size and ratio), or case machine’s internal components can result in bad-tasting coffee.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Loud or Unusual Noises</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0"> 
+                    
+                    Noise from the coffee machine, Low water levels, the espresso machine being placed on a hard surface, or heating issues can lead to unexpected noises.
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Brewing Issues</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-o">
+                    Weak Coffee is often a common problem, typically due to improper grind size, over-extraction, under-extraction, or using stale espresso machine coffee beans.
+                    </p>
+                   
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Slow Coffee Flow</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+    
+                    This issue of coffee machine or espresso or automatic coffee machine can stem from clogs, incorrect grind size, or problems with the coffee machine’s pump.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className="box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Professional Help</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                    
+                    For more complex issues or if you are unable to troubleshoot the problem yourself, contact FAJ qualified coffee machine repair technician for maintenance.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="get-quote" className="mb-0 mt-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3">
+                <WhatsappIconButton />
+              </div>
+            </div>
+
           </div>
         </section>
 
@@ -881,12 +849,10 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
           </div>
         </section>
 
-        {/* Choose a domestic or professional coffee machine repairs service near you */}
+        {/* CHOOSE  DOMESTIC OR PROFESSIONAL COFFEE MACHINE REPAIR SERVICE */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3>Choose a domestic or professional coffee machine repairs service near you</h3>
-
-
+            <h3>CHOOSE  DOMESTIC OR PROFESSIONAL COFFEE MACHINE REPAIR SERVICE</h3>
             <div class="row">
               <div class="col-sm-4">
                 <ul class="">
@@ -942,84 +908,6 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
           </div>
         </section>
 
-
-        {/* <section className="section cs_py_30 bg-dark-blue text-light">
-          <div className="container text-center">
-            <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
-            <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers! </p>
-            <a
-              href="files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
-              className="btn-green-yellow"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Click Here to Save on Energy Bills
-            </a>
-
-          </div>
-        </section> */}
-
-        {/* white section with AC image */}
-        {/* <section className="section cs_py_30">
-          <div className="container text-center">
-            <div className="row">
-              <div className="col-lg-4">
-                <div className="acsvs-sec-prefoot-sec-cone">
-                  <h3 className="cs_fs_20 mb-0">COOLING &amp; HEATING</h3>
-                  <span className="mb-5">Stay comfortable all year round</span>
-                  <div className="mb-5"></div>
-                  <h3 className="cs_fs_20 mb-0">BETTER AIR QUALITY</h3>
-                  <span className="mb-5">Reduce humidity, pollen and dust</span>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="acsvs-sec-prefoot-sec-ctwo">
-
-                  <img className="" src={`${import.meta.env.BASE_URL}/img/benafit-acimg.jpg`} alt="Post Image" />
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="acsvs-sec-prefoot-sec-cthree">
-                  <h3 className="cs_fs_20 mb-0">PROTECT YOUR PROPERTY</h3>
-                  <span className="mb-5">Prevent damage to electronics and furnishings</span>
-                  <div className="mb-5"></div>
-                  <h3 className="cs_fs_20 mb-0">QUIET AND SECURE</h3>
-                  <span className="mb-5">No need to leave windows open</span>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </section> */}
-
-        {/* Brands section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
-          <div className="container">
-
-            <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
-              data-variable-width="0" data-xs-slides="1" data-sm-slides="1" data-md-slides="1" data-lg-slides="2"
-              data-add-slides="2" data-slides-per-view="responsive">
-              <div className="cs_slider_wrapper">
-                <Slider {...settingBrands}>
-                  {brandsLogo_data.map((item, index) => (
-                    <div key={index} className="cs_slide wow fadeInLeft">
-
-                      <div className="brandslogo-slide-container">
-                        <div className="brnadlogo-coffeemachine-service">
-                          <img className="w-100" src={`${import.meta.env.BASE_URL}${item.logo}`} alt="Avatar" />
-                        </div>
-                      </div>
-
-                    </div>
-                  ))}
-                </Slider>
-
-              </div>
-            </div>
-          </div>
-          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
-        </section>
-
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" data-background={`${import.meta.env.BASE_URL}${bgImg}`}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
@@ -1073,6 +961,35 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
           </div>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
         </section>
+
+        {/* Brands section */}
+        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
+          <div className="container">
+
+            <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
+              data-variable-width="0" data-xs-slides="1" data-sm-slides="1" data-md-slides="1" data-lg-slides="2"
+              data-add-slides="2" data-slides-per-view="responsive">
+              <div className="cs_slider_wrapper">
+                <Slider {...settingBrands}>
+                  {brandsLogo_data.map((item, index) => (
+                    <div key={index} className="cs_slide wow fadeInLeft">
+
+                      <div className="brandslogo-slide-container">
+                        <div className="brnadlogo-coffeemachine-service">
+                          <img className="w-100" src={`${import.meta.env.BASE_URL}${item.logo}`} alt="Avatar" />
+                        </div>
+                      </div>
+
+                    </div>
+                  ))}
+                </Slider>
+
+              </div>
+            </div>
+          </div>
+          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
+        </section>
+
 
         {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">
