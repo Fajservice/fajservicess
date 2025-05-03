@@ -5,8 +5,7 @@ const HobRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                // bgImg="/img/page_heading_1.jpg"
-                bgImg="/img/ac_service-bannerbg.jpg"
+                bgImg="/img/banners/hob.jpg"
                 Title="Hob Repair Service Dubai"
             ></BreadCumb> 
 

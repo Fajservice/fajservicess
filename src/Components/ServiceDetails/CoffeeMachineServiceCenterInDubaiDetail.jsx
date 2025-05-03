@@ -267,11 +267,11 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
           </div>
         </section >
 
-        {/* The Benefits Of appliances Service Dubai */}
+        {/* The Benefits Of Coffee Machines Service Dubai */}
         <section className="section cs_py_30 appliances-benifit-sec">
           <div className="container">
             <div className="row justify-content-center">
-              <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai
+              <h3 className="cs_fs_30 mb-0">The Benefits Of Coffee Machines Service Dubai
               </h3>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
@@ -293,7 +293,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
                       </h4>
-                      <p className="small">Regular maintenance helps your appliances run smoothly and efficiently, delivering the best results every time.
+                      <p className="small">Regular maintenance helps your Coffee Machines run smoothly and efficiently, delivering the best results every time.
                       </p>
                     </div>
                   </div>
@@ -305,7 +305,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
                         <img src={`${import.meta.env.BASE_URL}/img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
-                      <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                      <p className="small">Energy efficient Coffee machines translate to monthly savings on utility bills, putting more money back in your pocket.</p>
                     </div>
                   </div>
                 </div>
@@ -328,8 +328,8 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}/img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h4>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Extending Coffee Machine Lifespan</h4>
+                      <p className="small">Proper care and timely servicing can significantly increase life of your home Coffee Machines, delaying the need for replacements.</p>
 
                     </div>
 
@@ -344,7 +344,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                       </h4>
-                      <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                      <p className="small">Knowing your Coffee Machines are in top condition gives you confidence and removes the stress of unexpected failures.</p>
                     </div>
                   </div>
                 </div>
