@@ -1,59 +1,156 @@
 [
- {
-  "logo": "/img/brandslogo/arzum_okka_535x.png"
- },
- {
-  "logo": "/img/brandslogo/blendtec-logo-vector_535x.png"
- },
- {
-  "logo": "/img/brandslogo/brema-logo-1_535x.png"
- },
- {
-  "logo": "/img/brandslogo/Convotherm_535x.png"
- },
- {
-  "logo": "/img/brandslogo/crownsteam-1_535x.png"
- },
- {
-  "logo": "/img/brandslogo/DeLonghi-Logo_535x.png"
- },
- {
-  "logo": "/img/brandslogo/Grindmaster-Cecilware-Coffee-Maker-Machine-Brewer-Repair_1_535x.png"
- },
- {
-  "logo": "/img/brandslogo/image__3_-removebg-preview_375x.png"
- },
- {
-  "logo": "/img/brandslogo/image__2_-removebg-preview_535x.png"
- },
- {
-  "logo": "/img/brandslogo/image__5_-removebg-preview_535x.png"
- },
- {
-  "logo": "/img/brandslogo/image_1_bd3436c0-fc5f-4a5c-b28d-1242d5a763b8_535x.png"
- },
- {
-  "logo": "/img/brandslogo/image_3_535x.png"
- },
- {
-  "logo": "/img/brandslogo/image_7_535x.png"
- },
- {
-  "logo": "/img/brandslogo/image_15acad31-1faf-4c85-922d-efe6221e21c0_535x.png"
- },
- {
-  "logo": "/img/brandslogo/logo-1_535x.png"
- },
- {
-  "logo": "/img/brandslogo/SIS-No-Tag-1536x1024_535x.jpg"
- },
- {
-  "logo": "/img/brandslogo/speed-queen-vector-logo_1_535x.png"
- },
- {
-  "logo": "/img/brandslogo/victoria-arduino-logo_535x.png"
- },
- {
-  "logo": "/img/brandslogo/whirlpool_535x.png"
- }
+    {
+        "logo": "/img/brandslogo/Admiral.png"
+    },
+    {
+        "logo": "/img/brandslogo/AEG.png"
+    },
+    {
+        "logo": "/img/brandslogo/AFTRON.png"
+    },
+    {
+        "logo": "/img/brandslogo/Ariston.png"
+    },
+    {
+        "logo": "/img/brandslogo/BAUMATIC.png"
+    },
+    {
+        "logo": "/img/brandslogo/beko.png"
+    },
+    {
+        "logo": "/img/brandslogo/bertazzoni.png"
+    },
+    {
+        "logo": "/img/brandslogo/Blomberg.png"
+    },
+    {
+        "logo": "/img/brandslogo/bompani.png"
+    },
+    {
+        "logo": "/img/brandslogo/Bosch.png"
+    },
+    {
+        "logo": "/img/brandslogo/Boston.png"
+    },
+    {
+        "logo": "/img/brandslogo/Brandt.png"
+    },
+    {
+        "logo": "/img/brandslogo/daewoo.png"
+    },
+    {
+        "logo": "/img/brandslogo/DeDietrichLogo.png"
+    },
+    {
+        "logo": "/img/brandslogo/electrolux.png"
+    },
+    {
+        "logo": "/img/brandslogo/elica.png"
+    },
+    {
+        "logo": "/img/brandslogo/faber.png"
+    },
+    {
+        "logo": "/img/brandslogo/fagor.png"
+    },
+    {
+        "logo": "/img/brandslogo/fisher-&-paykel.png"
+    },
+    {
+        "logo": "/img/brandslogo/foster.png"
+    },
+    {
+        "logo": "/img/brandslogo/gaggenau.png"
+    },
+    {
+        "logo": "/img/brandslogo/gibson.png"
+    },
+    {
+        "logo": "/img/brandslogo/gorenje.png"
+    },
+    {
+        "logo": "/img/brandslogo/haier.png"
+    },
+    {
+        "logo": "/img/brandslogo/hisense.png"
+    },
+    {
+        "logo": "/img/brandslogo/hitachi.png"
+    },
+    {
+        "logo": "/img/brandslogo/hoover.png"
+    },
+    {
+        "logo": "/img/brandslogo/indesit.png"
+    },
+    {
+        "logo": "/img/brandslogo/Kelvinator.png"
+    },
+    {
+        "logo": "/img/brandslogo/Kenmore.png"
+    },
+    {
+        "logo": "/img/brandslogo/LG.png"
+    },
+    {
+        "logo": "/img/brandslogo/Marvel.png"
+    },
+    {
+        "logo": "/img/brandslogo/Maytag.png"
+    },
+    {
+        "logo": "/img/brandslogo/Miele.png"
+    },
+    {
+        "logo": "/img/brandslogo/Neff.png"
+    },
+    {
+        "logo": "/img/brandslogo/Panasonic.png"
+    },
+    {
+        "logo": "/img/brandslogo/Samsung.png"
+    },
+    {
+        "logo": "/img/brandslogo/Sanyo.png"
+    },
+    {
+        "logo": "/img/brandslogo/Sears.png"
+    },
+    {
+        "logo": "/img/brandslogo/Sharp.png"
+    },
+    {
+        "logo": "/img/brandslogo/Siemens.png"
+    },
+    {
+        "logo": "/img/brandslogo/Smeg.png"
+    },
+    {
+        "logo": "/img/brandslogo/Teka.png"
+    },
+    {
+        "logo": "/img/brandslogo/Terim.png"
+    },
+    {
+        "logo": "/img/brandslogo/Thermador.png"
+    },
+    {
+        "logo": "/img/brandslogo/Toshiba.png"
+    },
+    {
+        "logo": "/img/brandslogo/unimac.png"
+    },
+    {
+        "logo": "/img/brandslogo/viking.png"
+    },
+    {
+        "logo": "/img/brandslogo/Whirlpool.png"
+    },
+    {
+        "logo": "/img/brandslogo/Wolf.png"
+    },
+    {
+        "logo": "/img/brandslogo/Zanussi.png"
+    }
+    
 ]

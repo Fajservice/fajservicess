@@ -185,9 +185,8 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
                 <br />
                 Timing: Mon-Sat 8:00 AM to 6:00 PM - Sunday 12:00 PM to 6:00 PM. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.
               </p>
-              <p className="appointment-col border-small-top pt-3">
-                The FAJ workshop is conveniently located near both Al Khail Road and Sheikh Zayed Road.
-                When you drop off your coffee machine at the workshop, you will receive a discount on the technical inspection fee and other services.
+             
+              <p className="appointment-col border-small-top pt-3" >The <a href="https://www.google.com/maps/dir//Warehouse+No+-+S-02+Gate+35+Street+18b+-+Al+Quoz+-+Al+Quoz+Industrial+Area+4+-+Dubai+-+United+Arab+Emirates/@25.1105958,55.1452595,22158m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x3e5f699a600aceeb:0xa6121b25d557aa94!2m2!1d55.227661!2d25.1106186?entry=ttu&g_ep=EgoyMDI1MDQyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" > FAJ workshop</a> is conveniently located near both Al Khail Road and Sheikh Zayed Road. When you drop off your coffee machine at the workshop, you will receive a <strong>discount</strong> on the technical inspection fee and other services.
               </p>
 
               <div id="get-quote" className=" mt-3">
@@ -215,13 +214,13 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
-                  <li> <strong> Preventing Breakdowns: </strong> Routine maintenance, including cleaning and descaling, reduces the chance of costly repairs and downtime, which can impact revenue. </li>
+                  <li> <strong> Preventing Breakdowns: </strong> Routine maintenance, including cleaning and descaling, reduces costly repairs and downtime, impacting revenue. </li>
                   <li> <strong> Extending Lifespan: </strong> Regular maintenance prolongs machine life, saving on replacement costs. </li>
                   <li> <strong> Lowering Maintenance Costs: </strong> Addressing minor issues early can prevent larger, more expensive repairs. </li>
                   <li> <strong> Maintaining Efficiency: </strong> Consistent upkeep ensures optimal performance and reduces energy consumption. </li>
                   <li> <strong> Professional Service for Commercial Use: </strong> Commercial machines need specialized maintenance for safety and performance </li>
                   <li> <strong> Importance in Commercial Kitchens: </strong> In the UAE, reliable maintenance of coffee machines is crucial for beverage service. </li>
-                  <li> <strong> Home Use: </strong> Regular maintenance enhances coffee machine quality and lifespan. Professional servicing benefits home and business users in Dubai.  </li>
+                  <li> <strong> Home Use: </strong> Regular maintenance improves coffee machine quality and lifespan. Professional servicing benefits home and business users in Dubai.  </li>
                 </ul>
               </div>
             </div>
@@ -808,7 +807,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
         </section> */}
 
         {/* Common Coffee Machines & Espresso Machines Faults We Repair */}
-        <section className="section cs_py_30 bg-light-gray">
+        {/* <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3>Common Coffee Machines & Espresso Machines Faults We Repair</h3>
             <p>FAJ Technical Servicing L.L.C. is a reputable coffee machine service center across Dubai - Sharjah - Abu Dhabi, espresso machines, coffee grinders, and espresso blenders, providing expert repairs for a wide range of manufacturers, including cafe shop coffee machines. Our skilled technicians deal with a wide range of typical coffee machine repair issues, assuring prompt and dependable service. We address the following common flaws:</p>
@@ -837,20 +836,11 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
 
               When a failure occurs, many coffee machines display error messages or codes. Our technicians have experience to detecting these signs and determining the underlying problem, which could be connected to water flow, pressure, sensors, or other components. </p>
 
-
-
-            <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
-                <GetQuoteButton />
-                <CallNowButton />
-              </div>
-            </div>
-
           </div>
-        </section>
+        </section> */}
 
         {/* CHOOSE  DOMESTIC OR PROFESSIONAL COFFEE MACHINE REPAIR SERVICE */}
-        <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3>CHOOSE  DOMESTIC OR PROFESSIONAL COFFEE MACHINE REPAIR SERVICE</h3>
             <div class="row">
@@ -905,7 +895,42 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
               </div>
             </div>
 
+            <div id="get-quote" className=" mt-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3">
+                <GetQuoteButton />
+                <CallNowButton />
+              </div>
+            </div>
+
           </div>
+        </section>
+
+         {/* Brands section */}
+         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
+          <div className="container">
+
+            <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
+              data-variable-width="0" data-xs-slides="1" data-sm-slides="1" data-md-slides="1" data-lg-slides="2"
+              data-add-slides="2" data-slides-per-view="responsive">
+              <div className="cs_slider_wrapper">
+                <Slider {...settingBrands}>
+                  {brandsLogo_data.map((item, index) => (
+                    <div key={index} className="cs_slide wow fadeInLeft">
+
+                      <div className="brandslogo-slide-container">
+                        <div className="brnadlogo-coffeemachine-service">
+                          <img className="w-100" src={`${import.meta.env.BASE_URL}${item.logo}`} alt="Avatar" />
+                        </div>
+                      </div>
+
+                    </div>
+                  ))}
+                </Slider>
+
+              </div>
+            </div>
+          </div>
+          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
         </section>
 
         {/* testimobial section */}
@@ -961,35 +986,6 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
           </div>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
         </section>
-
-        {/* Brands section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
-          <div className="container">
-
-            <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
-              data-variable-width="0" data-xs-slides="1" data-sm-slides="1" data-md-slides="1" data-lg-slides="2"
-              data-add-slides="2" data-slides-per-view="responsive">
-              <div className="cs_slider_wrapper">
-                <Slider {...settingBrands}>
-                  {brandsLogo_data.map((item, index) => (
-                    <div key={index} className="cs_slide wow fadeInLeft">
-
-                      <div className="brandslogo-slide-container">
-                        <div className="brnadlogo-coffeemachine-service">
-                          <img className="w-100" src={`${import.meta.env.BASE_URL}${item.logo}`} alt="Avatar" />
-                        </div>
-                      </div>
-
-                    </div>
-                  ))}
-                </Slider>
-
-              </div>
-            </div>
-          </div>
-          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
-        </section>
-
 
         {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">

@@ -56,12 +56,6 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
     autoplaySpeed: 5000,
     pauseOnHover: true,
 
-    // autoplay: true,
-    // autoplaySpeed: 0,
-    // speed: 8000,
-    // pauseOnHover: true,
-    // cssEase: 'linear',
-
     responsive: [
       {
         breakpoint: 1399,
@@ -129,10 +123,11 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2>
+            <h2 className="cs_fs_30">Professional Coffee Machine Repairs in Dubai, Sharjah, and Abu Dhabi</h2>
             <p>
-              We have been offering trustworthy appliance repair services since 2010. And we understand that appliances can break down unexpectedly, so we offer budget-friendly solutions. Our trained technicians are available throughout Dubai to repair large appliances at your location.
-
+              FAJ Company, established in 2010, offers international standard services for the installation and repair of commercial appliances and coffee machines.
+              We provide planned maintenance contracts (AMC) for coffee machines, espresso machines, and vending machines used in cafes, restaurants, and catering services.
+              <br /> At Commercial Coffee Machine Repairs, we are committed to helping you achieve your ideal cup of coffee efficiently. Whether installing, repairing, or refurbishing machines, we prioritise quality and professionalism.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -147,17 +142,22 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
         {/* Maintenance Contract */}
         <MaintenanceContract />
 
-        {/* Coffee Machine Repair & Maintenance */}
+        {/* Coffee Machine Repair & Maintenance  */}
 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
                 {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" /> */}
-                <h3 className="cs_fs_24 mb-1">Coffee Machine Repair & Maintenance</h3>
+                <h3 className="cs_fs_24 mb-1">Coffee Machine Repair & Maintenance </h3>
 
                 <p className="mb-2">
-                  Look no further if you're looking for the best coffee machine repairs in Dubai for both businesses and residents. Any coffee machine problems you may run into can be handled by our knowledgeable and committed staff in Dubai. We have experience with many brands and models and know how to get it running smoothly again. Thus, why do you delay? Give us a call, and in no time at all, your coffee machine will be back on your kitchen counter and a part of your everyday routine.
+                  If you're searching for the best coffee machine repairs in Dubai for both businesses and residents, you've come to the right place.
+                  <br />Our knowledgeable and dedicated team can handle any coffee machine issues you may encounter.
+                  With experience across various brands and models, we know how to get your machine running smoothly again.
+                  <br />
+                  So why wait? Give us a call, and we'll have your coffee machine back on your kitchen counter in no time, ready to be part of your daily routine.
+
                 </p>
                 {/* <ul>
                   <li>  Quick Reply on WhatsApp Chat: +971 50 609 7717 </li>
@@ -167,14 +167,15 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
                 </ul> */}
 
 
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs you need a coffee machine repair service </h3>
+                <h3 className="cs_fs_18 mb-1 pt-3 border-small-top">Coffee Machine Servicing and AMC Contract </h3>
                 <p className="mb-0">
-                Before contacting a coffee maker repair service agency, consider these solutions if your coffee maker is acting strangely. Make sure the power outlet is operational and that the device is plugged in first. If there is no electricity, the machine itself is probably not the issue. Let's now examine the bean hopper and the water tank in more detail. To make sure we are positioned correctly, empty, refill, and reseat them. Descale the device to get rid of any accumulated mineral deposits while you're at it.
+                  Whatever you need, we’ve got you covered. A scheduled commercial coffee machine de-casing, cleaning service, or maintenance contract for your professional coffee machine is essential for ensuring smooth operation throughout the year, including necessary cleaning and descaling.
                   <br />
-                  Sometimes all it takes to have your coffee maker happy brewing again is a quick clean and descale. A clogged spray head or water line could be the problem if it's still not working, Contact the coffee machine repair near me. Keep an eye out for clues like leaks, strange noises, or inconsistent brewing. Our skilled diagnosticians can quickly locate and provide coffee machine service, halting additional harm and increasing the coffee maker's lifespan. If you are searching for a coffee machine service near me, choose us because we provide the best coffee machine services in town.
-                 </p>
-                
-                
+                  Regular maintenance is vital for any coffee machine, whether it’s in an office, café, or restaurant. We’re here to make your life easier.
+
+                </p>
+
+
               </div>
 
               <div className="col-md-6 ">
@@ -185,13 +186,15 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
             </div>
 
             <div className="appointment-col border-small-top pt-3">
-            <h3 className="cs_fs_24 mb-1">Expert coffee maker repair</h3>
-              {/* <p>
+
+              <p>
                 If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.
-                <br />
-                Timing: Mon-Sat 8:00 AM to 6:00 PM - Sunday 12:00 PM to 6:00 PM. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.
-              </p> */}
-              <p>It's not hard to get the top coffee machine repair services in Dubai. To begin, look up repair services in your neighborhood on the internet. Examine their website, go through the ratings and reviews, and contrast the costs and offerings. Asking friends and relatives for suggestions is also a smart move. You can get in touch with the repair companies you've narrowed down your list of favorites and get quotes. This can help you determine how much it will cost and what services they offer. Additionally, you can look up the repair professionals' credentials and ask for references. Our team consists of seasoned experts who have a deep love for coffee and a thorough understanding of the subtle differences between different coffee makers. Regardless of the type of coffee maker you own—a high-tech single-serve unit or a conventional drip machine—our professionals promise accurate coffee machine maintenance and efficient repairs so your machine works like new. We provide quick coffee repair near me solutions.</p>
+                <br />Timing: Mon-Sat 8:00 AM to 6:00 PM - Sunday 12:00 PM to 6:00 PM. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.
+
+              </p>
+
+              <p className="appointment-col border-small-top pt-3" >The <a href="https://www.google.com/maps/dir//Warehouse+No+-+S-02+Gate+35+Street+18b+-+Al+Quoz+-+Al+Quoz+Industrial+Area+4+-+Dubai+-+United+Arab+Emirates/@25.1105958,55.1452595,22158m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x3e5f699a600aceeb:0xa6121b25d557aa94!2m2!1d55.227661!2d25.1106186?entry=ttu&g_ep=EgoyMDI1MDQyOS4wIKXMDSoASAFQAw%3D%3D" > FAJ workshop</a> is conveniently located near both Al Khail Road and Sheikh Zayed Road. When you drop off your coffee machine at the workshop, you will receive a <strong>discount</strong> on the technical inspection fee and other services.
+              </p>
 
               <div id="get-quote" className=" mt-3">
                 <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -203,42 +206,45 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-
+      
+        {/* WWhat is the Importance of Coffee Machine Maintenance in Dubai? */}
         <section className="section cs_py_30">
           <div className="container">
-            <FAJACPrice></FAJACPrice>
-          </div>
-        </section>
+            <h3 className="cs_fs_30">What is the Importance of Coffee Machine Maintenance in Dubai?</h3>
+            <p className="">
+            Regular maintenance of coffee machines is crucial for businesses in Dubai, where quality coffee matters.
+It ensures consistent beverage quality, extends machine lifespan, and reduces downtime and repair costs, ultimately enhancing customer satisfaction. 
 
-
-        {/* Why choose us for commercial coffee machine repairs? */}
-        <section className="section cs_py_30 bg-light-gray">
-          <div className="container">
-            <h3 className="cs_fs_30">Why choose us for commercial coffee machine repairs?</h3>
+            </p>
 
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/coffee-machine-service.jpg`} alt="Post Image" />
               </div>
               <div className="col-md-6">
-                {/* <h4>Searching For Coffee Machine Repair Service Near Me</h4> */}
-                <p>
-                  Do you own a business and your commercial coffee maker is giving you trouble? Have faith in our commercial coffee machine repair expertise. We give special attention to the demands of companies, providing specialized commercial coffee machine service that reduce downtime. For expert, dependable, and cost-effective commercial coffee machine repairs, pick us.
-                  <br />
-                  You can leave it to the professionals and concentrate on other things instead of attempting to resolve the problem on your own. The professionals can quickly identify and provide coffee machine repair service, so your coffee maker will be operational in no time. We are the best solution to your repair coffee machine near me problem.
-                </p>
+                <ul className="mb-0">
 
-                {/* <ul className="mb-0">
-                  <li> <strong>Refrigerator Common Issues: </strong> Common problems with refrigerators include cooling issues, insufficient cooling, or door issues. </li>
-                  <li> <strong>Washing Machines Common Issues: </strong> Common problems include drainage issues and spin cycle failures. </li>
-                  <li> <strong> Dishwashers Common Issues: </strong> They may have problems with draining, leading to water pooling at the bottom, or  they might not clean dishes effectively. </li><li> <strong> Ovens and Stoves Common Issues: </strong> Ovens and stoves often face problems with heating elements or ignition. This  can result in the oven not heating up properly or the stove failing to ignite. </li>
-                  <li> <strong> Coffee Machine Common Issues: </strong> Coffee makers may stop brewing properly or start leaking. </li>
-                </ul> */}
+<li> <strong> Importance in Commercial Kitchens: </strong> In the UAE, reliable maintenance of coffee machines is important for providing high-quality beverage service.</li>
+<li> <strong> Professional Service for Commercial Use: </strong> Commercial coffee machines require specialised maintenance to ensure safety and performance.</li>
+<li> <strong> Preventing Breakdowns: </strong> Routine maintenance, including cleaning and descaling, minimises the likelihood of costly repairs and downtime, which can negatively impact revenue.</li>
+<li> <strong> Extending Lifespan: </strong> Regular maintenance helps prolong the life of the machines, leading to savings on replacement costs.</li>
+<li> <strong> Lowering Maintenance Costs: </strong> Addressing minor issues early can prevent larger, more expensive repairs.</li>
+<li> <strong> Maintaining Efficiency: </strong> Consistent upkeep ensures optimal performance and reduces energy consumption, making operations more cost-effective. </li>
+<li> <strong> Restaurant Use: </strong> For restaurant users, regular maintenance enhances coffee quality and extends the lifespan of the machines.
+Professional servicing also ensures safety, efficiency, and reliability for Dubai's home and business users</li>
 
+
+
+
+
+                
+                </ul>
               </div>
             </div>
           </div>
         </section>
+
+
 
         {/* The Most Common Problems with Coffee Machines */}
         <section className="section cs_py_30">
@@ -481,10 +487,10 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
         </section>
 
         <section className="section cs_py_30 bg-light-gray">
-        <div className="container">
-          <h3>Searching for coffee machine repair service near me</h3>
-          <p>People in Dubai lead fast-paced lives and are constantly on the go. Coffee is essential in this situation to keep individuals alert and rejuvenated. Coffee makers are essential items that should not be disregarded in any setting, whether it be home or business. However, what happens if your coffee machine malfunctions? There's no need to panic because the city provides a range of expert coffee machine repair near me. We know how important it is to have a working coffee maker, and our carefully positioned service centers guarantee that assistance is never far away. With our proximity-based repair services, you can benefit from quick fixes and convenience.</p>
-        </div>
+          <div className="container">
+            <h3>Searching for coffee machine repair service near me</h3>
+            <p>People in Dubai lead fast-paced lives and are constantly on the go. Coffee is essential in this situation to keep individuals alert and rejuvenated. Coffee makers are essential items that should not be disregarded in any setting, whether it be home or business. However, what happens if your coffee machine malfunctions? There's no need to panic because the city provides a range of expert coffee machine repair near me. We know how important it is to have a working coffee maker, and our carefully positioned service centers guarantee that assistance is never far away. With our proximity-based repair services, you can benefit from quick fixes and convenience.</p>
+          </div>
         </section>
 
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
