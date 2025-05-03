@@ -8,8 +8,8 @@ import CallNowButton from '../../Buttons/CallNowButton';
 import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../../BenefitAcMaintenance/BenefitAcMaintenance";
-import QuickGuide from "../../QuickGuide/QuickGuide"
-import ACWhychooseUs from "../../WhyChooseUS/ACWhyChooseUs"
+import QuickGuide from "../../QuickGuide/QuickGuide";
+import ACWhychooseUs from "../../WhyChooseUS/ACWhyChooseUs";
 
 import Slider from "react-slick";
 import testimonial_data from '../../../Data/AcData/AcTestimonial/AcServiceTestimonials.json';
@@ -52,6 +52,9 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
     slidesToScroll: 1,
     arrows: false,
     swipeToSlide: true,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    pauseOnHover: true,
     responsive: [
       {
         breakpoint: 1399,

@@ -55,6 +55,10 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
     slidesToScroll: 1,
     arrows: false,
     swipeToSlide: true,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    pauseOnHover: true,
+    
     responsive: [
       {
         breakpoint: 1399,

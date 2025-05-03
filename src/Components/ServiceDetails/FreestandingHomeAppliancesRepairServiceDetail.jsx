@@ -13,7 +13,7 @@ import AppliancesAppointmentCol from "../ApplianceCommons/AppliancesAppointmentC
 
 import Slider from "react-slick";
 import testimonial_data from '../../Data/AcData/AcTestimonial/AcServiceTestimonials.json';
-import brandsLogo_data from '../../Data/BrandsLogo.json';
+import brandsLogo_data from '../../Data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../Headeform/HeaderForm";
@@ -54,6 +54,9 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
     slidesToScroll: 1,
     arrows: false,
     swipeToSlide: true,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    pauseOnHover: true,
 
     // autoplay: true,
     // autoplaySpeed: 0,
