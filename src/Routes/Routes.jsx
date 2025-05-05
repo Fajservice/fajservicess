@@ -164,7 +164,7 @@ export const router = createHashRouter([
         element: <CoffeeMachineServiceCenterInDubai></CoffeeMachineServiceCenterInDubai>,
       }, 
       {
-        path: "/coffee-machine-repair/",
+        path: "/coffee-machine-repairs/",
         element: <CommercialCoffeeMachineRepair></CommercialCoffeeMachineRepair>,
       },
       {

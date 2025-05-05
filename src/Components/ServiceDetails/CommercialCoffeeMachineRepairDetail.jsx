@@ -148,7 +148,6 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" /> */}
                 <h3 className="cs_fs_24 mb-1">Coffee Machine Repair & Maintenance </h3>
 
                 <p className="mb-2">
@@ -159,12 +158,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
                   So why wait? Give us a call, and we'll have your coffee machine back on your kitchen counter in no time, ready to be part of your daily routine.
 
                 </p>
-                {/* <ul>
-                  <li>  Quick Reply on WhatsApp Chat: +971 50 609 7717 </li>
-                  <li>  Coffee Machine & Espresso Machine Services Available from Monday to Saturday </li>
-                  <li>  FAJ location is easy access from Al Khail Road and Sheikh Zayed Road </li>
-                  <li>  Drop the automatic coffee machine / coffee maker or espresso machine off at the workshop and get discount on the technical inspection fee & service. </li>
-                </ul> */}
+               
 
 
                 <h3 className="cs_fs_18 mb-1 pt-3 border-small-top">Coffee Machine Servicing and AMC Contract </h3>
@@ -180,7 +174,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
 
               <div className="col-md-6 ">
                 {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/coffee-maker-repair-services.jpg`} alt="Post Image" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/What-is-the-Importance-of-Coffee-Machine-Maintenance-in-Dubai.jpg`} alt="Post Image" />
 
               </div>
             </div>
@@ -206,14 +200,14 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-      
+
         {/* WWhat is the Importance of Coffee Machine Maintenance in Dubai? */}
         <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">What is the Importance of Coffee Machine Maintenance in Dubai?</h3>
             <p className="">
-            Regular maintenance of coffee machines is crucial for businesses in Dubai, where quality coffee matters.
-It ensures consistent beverage quality, extends machine lifespan, and reduces downtime and repair costs, ultimately enhancing customer satisfaction. 
+              Regular maintenance of coffee machines is crucial for businesses in Dubai, where quality coffee matters.
+              It ensures consistent beverage quality, extends machine lifespan, and reduces downtime and repair costs, ultimately enhancing customer satisfaction.
 
             </p>
 
@@ -224,20 +218,19 @@ It ensures consistent beverage quality, extends machine lifespan, and reduces do
               <div className="col-md-6">
                 <ul className="mb-0">
 
-<li> <strong> Importance in Commercial Kitchens: </strong> In the UAE, reliable maintenance of coffee machines is important for providing high-quality beverage service.</li>
-<li> <strong> Professional Service for Commercial Use: </strong> Commercial coffee machines require specialised maintenance to ensure safety and performance.</li>
-<li> <strong> Preventing Breakdowns: </strong> Routine maintenance, including cleaning and descaling, minimises the likelihood of costly repairs and downtime, which can negatively impact revenue.</li>
-<li> <strong> Extending Lifespan: </strong> Regular maintenance helps prolong the life of the machines, leading to savings on replacement costs.</li>
-<li> <strong> Lowering Maintenance Costs: </strong> Addressing minor issues early can prevent larger, more expensive repairs.</li>
-<li> <strong> Maintaining Efficiency: </strong> Consistent upkeep ensures optimal performance and reduces energy consumption, making operations more cost-effective. </li>
-<li> <strong> Restaurant Use: </strong> For restaurant users, regular maintenance enhances coffee quality and extends the lifespan of the machines.
-Professional servicing also ensures safety, efficiency, and reliability for Dubai's home and business users</li>
+                  <li> <strong> Importance in Commercial Kitchens: </strong> In the UAE, reliable maintenance of coffee machines is important for providing high-quality beverage service.</li>
+                  <li> <strong> Professional Service for Commercial Use: </strong> Commercial coffee machines require specialised maintenance to ensure safety and performance.</li>
+                  <li> <strong> Preventing Breakdowns: </strong> Routine maintenance, including cleaning and descaling, minimises the likelihood of costly repairs and downtime, which can negatively impact revenue.</li>
+                  <li> <strong> Extending Lifespan: </strong> Regular maintenance helps prolong the life of the machines, leading to savings on replacement costs.</li>
+                  <li> <strong> Lowering Maintenance Costs: </strong> Addressing minor issues early can prevent larger, more expensive repairs.</li>
+                  <li> <strong> Maintaining Efficiency: </strong> Consistent upkeep ensures optimal performance and reduces energy consumption, making operations more cost-effective. </li>
+                  <li> <strong> Restaurant Use: </strong> Regular maintenance boosts coffee quality and extends machine lifespan while ensuring safety and reliability for businesses.</li>
 
 
 
 
 
-                
+
                 </ul>
               </div>
             </div>
@@ -246,19 +239,20 @@ Professional servicing also ensures safety, efficiency, and reliability for Duba
 
 
 
-        {/* The Most Common Problems with Coffee Machines */}
-        <section className="section cs_py_30">
+        {/* The Most Common Problems with Espresso Machines */}
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="text-center">The Most Common Problems with Coffee Machines   </h3>
+            <h3 className="text-center">The Most Common Problems with Espresso Machines   </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Filter Coffee Machine Problems</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Most fridge malfunctions are related to cooling issues, including problems with the defrost system, fan motor, compressor, or coils.</p>
+                    <p className="p-2 mb-0">With filter coffee machines, a key factor to monitor is the heating plate. After brewing your pot of coffee, it’s common to leave it on the heating plate to keep it warm.
+                  </p>
                   </div>
                 </div>
               </div>
@@ -266,11 +260,10 @@ Professional servicing also ensures safety, efficiency, and reliability for Duba
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishwashers Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Capsule Coffee Machine Problems</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">The most issues with dishwashers are bad cleaning and drying. Common water leaks and drainage. Some electrical issues or PCB failures.
-                    </p>
+                    <p className="p-2 mb-0"> Capsule coffee machines are simple and reliable, but don't last forever, especially lesser-known brands. A key complication is programming cup sizes.</p>
                   </div>
                 </div>
               </div>
@@ -278,11 +271,11 @@ Professional servicing also ensures safety, efficiency, and reliability for Duba
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Washing Machine Problem
-                    </h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1"> Safety Valve Releasing Steam </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">A common issue with washing machines is drainage problems, leaks, and PCB faulty. Also, broken belt or faulty door switch or drum from spinning.</p>
+                    <p className="p-2 mb-0">
+                    Moka pot users may experience the safety valve on the lower chamber releasing steam during the brewing process. This issue can occur for several reasons.</p>
                   </div>
                 </div>
               </div>
@@ -291,10 +284,11 @@ Professional servicing also ensures safety, efficiency, and reliability for Duba
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Tumble Dryer Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Bitter or Burnt Coffee</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Dryers can stop the drum from spinning and often make noise without drying clothes properly. Common issues are a broken heating element or control board.</p>
+                    <p className="p-2 mb-0"> 
+                    If your coffee tastes bitter or burnt, it can be quite frustrating. This usually happens for two main reasons.</p>
                   </div>
                 </div>
               </div>
@@ -302,10 +296,11 @@ Professional servicing also ensures safety, efficiency, and reliability for Duba
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Stove Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Grounds in the Cup</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Uneven heating or flame issues, such as a broken burner element, bad switch, or electric gas, are the most common problems with stoves.</p>
+                    <p className="p-2 mb-0">
+                    Discovering coffee grounds in your cup can be an unpleasant surprise when using a moka pot. This issue can arise from two primary causes.</p>
                   </div>
                 </div>
               </div>
@@ -313,10 +308,11 @@ Professional servicing also ensures safety, efficiency, and reliability for Duba
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Ovens Problems</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Espresso Machine Issues</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Most ovens have common problems like not heating properly, burners not igniting, ignition issues on gas models, broken knobs, and faulty controllers or valves.</p>
+                    <p className="p-2 mb-0">
+                    Espresso machines can experience various problems that affect their functionality and the quality of the coffee produced.</p>
                   </div>
                 </div>
               </div>
@@ -324,10 +320,11 @@ Professional servicing also ensures safety, efficiency, and reliability for Duba
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Freezer Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Vending Machine Problems</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Common issues with a freezer include water leaks, no ice, a malfunctioning ice maker, a malfunctioning PCB, motor, or compressor, and less cooling.</p>
+                    <p className="p-2 mb-0">
+                    Coffee vending machines, despite their simple design, tend to have a high number of issues. These machines are prone to several product-related faults.</p>
                   </div>
                 </div>
               </div>
@@ -335,10 +332,10 @@ Professional servicing also ensures safety, efficiency, and reliability for Duba
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Machine Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Automatic Coffee Machine Problems</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Whether they are drip or single-serve coffee makers, there are a few reasons why water flow in coffee makers is often slow or nonexistent.</p>
+                    <p className="p-2 mb-0">Automatic coffee machines utilise whole coffee beans, exposing them to the oils in the beans. This is a concern that many other types of coffee machines don't face.</p>
                   </div>
                 </div>
               </div>
@@ -353,10 +350,10 @@ Professional servicing also ensures safety, efficiency, and reliability for Duba
           </div>
         </section>
 
-        {/* Coffee Machine Service and Maintenance */}
-        <section className="section cs_py_30 bg-light-gray">
+        {/* HERE ARE THE SERVICES WE OFFER FOR COFFEE MACHINES AND ESPRESSO MACHINES*/}
+        <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">Coffee Machine Service and Maintenance   </h3>
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR COFFEE MACHINES AND ESPRESSO  </h3>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -373,38 +370,32 @@ Professional servicing also ensures safety, efficiency, and reliability for Duba
               </div>
 
               <div className="col-xl-6">
-                {/* <p className='mb-0'><strong>Our services include:</strong></p> */}
-                <p className='mb-0'>
-                  Your search has come to an end! We recognize the significance of a well-functioning coffee machine, espresso grinder, coffee grinder, or espresso machine, whether for commercial coffee machine, office, or home use.
+                <p className='mb-0'>We specialise in all types and brands of Coffee Machines, including espresso machine </p>
+                <p className='mb-0'><strong>Our services include: </strong></p>
+                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
+                  
+                  <li> <strong>  Installation: </strong> Expert installation of various types and brands of coffee machines, ensuring optimal performance and efficiency.</li>
 
-                  <br />  You can say goodbye to coffee machine problems with our dependable espresso machine repair services across Dubai, Sharjah, Furaijah, Ras Al Khaimah, Abu Dhabi. Our professional experts can diagnose and repair a wide range of coffee machne difficulties, allowing you to enjoy your favourite cup of coffee without disruption.
+                  <li> <strong> Diagnostics: </strong> Thorough fault finding to diagnose issues effectively. We provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
 
-                  <br />  Choose FAJ Technical Service L.L.C for high-quality coffee machine repairs in Dubai. We have been in the industry since 2010, and our devoted staff of experts can handle a wide range of brands and models. We take pleasure in exceeding customer expectations by providing timely, dependable, and cost-effective solutions.
-                </p>
-                {/* <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                  <li> <strong>  Installation: </strong> Expert installation of various types and brands of home appliances, ensuring optimal performance and efficiency. </li>
-                  <li> <strong> Diagnostics: </strong> Comprehensive fault-finding services to effectively diagnose issues. We provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
-                  <li> <strong> Repair Service: </strong> Efficient repair services for all appliance components, ensuring a quick resolution to issues such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions! </li>
-                  <li> <strong> Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for
-                    the annual maintenance of your appliances. </li>
+                  <li> <strong> Repair Service: </strong> Efficient repair services for all coffee machine components, ensuring quick resolution of any issues, such as leaks, electrical failures, and system malfunctions.</li>
+
+                  <li> <strong> Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for the annual maintenance of the espresso machine. </li>
                   <p className="mb-0">
-                    Regular maintenance is essential for optimal performance, efficiency, and longevity of your home appliances.
+                  Regular maintenance is essential for optimal performance, efficiency, and longevity of your coffee machine.
                   </p>
-                </ul> */}
-
-
+                </ul>
               </div>
-
 
             </div>
           </div>
         </section >
 
         {/* The Benefits Of appliances Service Dubai */}
-        <section className="section cs_py_30 appliances-benifit-sec">
+        <section className="section cs_py_30 appliances-benifit-sec bg-light-gray ">
           <div className="container">
             <div className="row justify-content-center">
-              <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai
+              <h3 className="cs_fs_30 mb-0">The Benefits Of Coffee Machines Service Dubai
               </h3>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
@@ -426,7 +417,7 @@ Professional servicing also ensures safety, efficiency, and reliability for Duba
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
                       </h4>
-                      <p className="small">Regular maintenance helps your appliances run smoothly and efficiently, delivering the best results every time.
+                      <p className="small">Regular maintenance helps your coffee machines run smoothly and efficiently, delivering the best results every time.
                       </p>
                     </div>
                   </div>
@@ -438,7 +429,7 @@ Professional servicing also ensures safety, efficiency, and reliability for Duba
                         <img src={`${import.meta.env.BASE_URL}/img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
-                      <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                      <p className="small">Energy efficient coffee machine translate to monthly savings on utility bills, putting more money back in your pocket.</p>
                     </div>
                   </div>
                 </div>
@@ -461,8 +452,8 @@ Professional servicing also ensures safety, efficiency, and reliability for Duba
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}/img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h4>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Coffee Machines Lifespan</h4>
+                      <p className="small">Proper care and timely servicing can significantly increase life of your home coffee machine, delaying the need for replacements.</p>
 
                     </div>
 
@@ -477,19 +468,12 @@ Professional servicing also ensures safety, efficiency, and reliability for Duba
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                       </h4>
-                      <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                      <p className="small">Knowing your coffee machines are in top condition gives you confidence and removes the stress of unexpected failures.</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-
-        <section className="section cs_py_30 bg-light-gray">
-          <div className="container">
-            <h3>Searching for coffee machine repair service near me</h3>
-            <p>People in Dubai lead fast-paced lives and are constantly on the go. Coffee is essential in this situation to keep individuals alert and rejuvenated. Coffee makers are essential items that should not be disregarded in any setting, whether it be home or business. However, what happens if your coffee machine malfunctions? There's no need to panic because the city provides a range of expert coffee machine repair near me. We know how important it is to have a working coffee maker, and our carefully positioned service centers guarantee that assistance is never far away. With our proximity-based repair services, you can benefit from quick fixes and convenience.</p>
           </div>
         </section>
 
@@ -518,7 +502,7 @@ Professional servicing also ensures safety, efficiency, and reliability for Duba
                   </div>
                   <div className="usptext">
                     <h3 className="">Confidence</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
+                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your coffee machine runs smoothly and providing peace of mind.</p>
                   </div>
                 </div>
 
@@ -529,7 +513,7 @@ Professional servicing also ensures safety, efficiency, and reliability for Duba
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive</p>
+                    <p>Choose a day and time for your coffee machine repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive</p>
                   </div>
                 </div>
 
@@ -537,7 +521,7 @@ Professional servicing also ensures safety, efficiency, and reliability for Duba
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}/img/fajteam-1.jpg`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}/img/Coffee-Machine-Repair-&-Maintenance.jpg`} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
@@ -548,7 +532,7 @@ Professional servicing also ensures safety, efficiency, and reliability for Duba
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are experts in appliance repair this is why most major brands trust us to handle their service and maintenance needs.</p>
+                    <p>We are experts in coffee machine repair this is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -558,7 +542,7 @@ Professional servicing also ensures safety, efficiency, and reliability for Duba
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same Dubai location</p>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two coffee machine at the same Dubai location</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -567,69 +551,71 @@ Professional servicing also ensures safety, efficiency, and reliability for Duba
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our skilled appliance technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
+                    <p>Our skilled coffee machine technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
                   </div>
                 </div>
               </div>
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}/img/fajteam.jpg`} alt="FAJ icon service" />
+                <img className="blue-border-2" src={`${import.meta.env.BASE_URL}/img/Coffee-Machine-Repair-&-Maintenance.jpg`} alt="FAJ icon service" />
               </div>
             </div>
           </div>
         </section>
 
-
-
-        {/* Following are the types and Brands of chiller FAJ can be handle */}
-        <section className="section cs_py_30 bg-light-gray">
+         {/* CHOOSE COMMERCIAL ESPRESSO AND COFFEE MACHINE REPAIR SERVICE */}
+         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-
-            <h3>Following are the types and Brands of chiller FAJ can be handle</h3>
-
-
+            <h3>CHOOSE COMMERCIAL ESPRESSO AND COFFEE MACHINE REPAIR SERVICE</h3>
             <div class="row">
               <div class="col-sm-4">
                 <ul class="">
-                  <li>  Appia Coffee Machine</li>
-                  <li>  Baratza Coffee Machine</li>
-                  <li> Conti coffee machine</li>
-                  <li>  Dr coffee machine</li>
-                  <li>  Appia Life 2 / 3 Group Volumetric Black</li>
-                  <li> Carimali Espresso Coffee Machines. </li>
-
+                  
+                  <li class="">La Pavoni Espresso Repair and Service</li>
+                  <li class="">Beko Coffee Machine Repair and Cleaning</li>
+                  <li class="">Marco Coffee Machine Repair and Service</li>
+                  <li class="">Teka Coffee Machine Repair and Descaling</li>
+                  <li class="">Jura Coffee Machine Repair and Servicing</li>
+                  <li class="">Dr.Coffee Machine Repair and Maintenance</li>
+                  <li class="">Appia Coffee Machine Repair and Descaling</li>
+                  <li class="">Bezzera Coffee Machine Repair and Cleaning</li>
+                  <li class="">Breville Coffee Machine Repair and Cleaning</li>
+                  <li class="">Melitta Coffee Machine Repair and Descaling</li>
+                  <li class="">Conti Coffee Machine Repair and Installation</li>
+                  <li class="">Ascaso Coffee Machine Repair and Maintenance</li>
+                  <li class="">Lelit Coffee Machine Repair and Cleaning Service</li>
+                  <li class="">Cafematic Automatic Coffee Machine Repairs and Maintenance</li>
+                  <li class="">Farenheit Epsilon Super Automatic Coffee Machine, Espresso Maker</li>
                 </ul>
               </div>
-
-
               <div class="col-sm-4">
                 <ul class="acsvs-exp-new-p">
-                  <li>  ECOBOILER T30 </li>
-                  <li>  Lamarzocco Coffee machine </li>
-                  <li>  Marco coffee machine </li>
-                  <li>  PUQPRESS coffee machine </li>
-                  <li> Espresso Coffee Machines Brands </li>
-                  <li>  ASCASO Espresso Coffee Machines. </li>
+                  <li class="">Bosch Machine Repair and Maintenance</li>
+                  <li class="">Breville Coffee Machine Repair and Fixing</li>
+                  <li class="">Seimens Coffee Machine Repair and Cleaning</li>
+                  <li class="">Armiali Coffee Machine Repairs and Servicing</li>
+                  <li class="">Espresso Southeast Coffee Machine Repair and Fix</li>
+                  <li class="">La Marzocco Coffee Machine Repair and Maintenance</li>
+                  <li class="">Isomac Coffee Machine &amp; Espresso Repair and Fix</li>
+                  <li class="">ECM Coffee Machine &amp; Espresso Repair and Servicing</li>
+                  <li class=""><a href="#/delonghi-coffee-machine-repair/">Delonghi Coffee Machine &amp; Espresso Repair</a> and Service</li>
+                  <li class="">Animo with Water Filter Coffee Machine Repair and Service</li>
+                  <li class="">Rancilio Volumetric Espresso Machine Repair and Servicing</li>
                 </ul>
               </div>
-
-
               <div class="col-sm-4">
                 <ul class="acsvs-exp-new-p">
-
-                  <li> BEZZERA Espresso Coffee Machines. </li>
-
-                  <li>  ECM Espresso Coffee Machines. </li>
-
-                  <li> JURA Automatic Coffee Machines. </li>
-
-                  <li>  LA PAVONI Espresso Coffee Machines. </li>
-
-                  <li>  LELIT Espresso Coffee Machines. </li>
-
-                  <li> Isomac Espresso Coffee Machines. </li>
-
+                  <li class="">Orhcestrale Espresso Machines Repair and Fix</li>
+                  <li class="">Astoria Loft Espresso Machine Repair and Fixing</li>
+                  <li class="">Rocket Espresso Machine Repair and Descaling</li>
+                  <li class="">Magister Espresso Machines Repair and Maintenance</li>
+                  <li class="">Nuova Simonelli Coffee Machine Repair and Servicing</li>
+                  <li class="">Victoria Arduino Coffee Machine Repair and Service</li>
+                  <li class="">Gaggia Automatic Coffee Machine Repair near me</li>
+                  <li class="">Rocket Appartmento Machine Repair and Descaling</li>
+                  <li class="">Illy Saeco Royal Coffee Machine Repair and Service</li>
+                  <li class="">Sage Coffee Machine &amp; Espresso Repair and Cleaning</li>
 
                 </ul>
               </div>
@@ -643,58 +629,7 @@ Professional servicing also ensures safety, efficiency, and reliability for Duba
             </div>
 
           </div>
-        </section >
-
-
-
-        {/* <section className="section cs_py_30 bg-dark-blue text-light">
-          <div className="container text-center">
-            <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
-            <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers! </p>
-            <a
-              href="files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
-              className="btn-green-yellow"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Click Here to Save on Energy Bills
-            </a>
-
-          </div>
-        </section> */}
-
-        {/* white section with AC image */}
-        {/* <section className="section cs_py_30">
-          <div className="container text-center">
-            <div className="row">
-              <div className="col-lg-4">
-                <div className="acsvs-sec-prefoot-sec-cone">
-                  <h3 className="cs_fs_20 mb-0">COOLING &amp; HEATING</h3>
-                  <span className="mb-5">Stay comfortable all year round</span>
-                  <div className="mb-5"></div>
-                  <h3 className="cs_fs_20 mb-0">BETTER AIR QUALITY</h3>
-                  <span className="mb-5">Reduce humidity, pollen and dust</span>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="acsvs-sec-prefoot-sec-ctwo">
-
-                  <img className="" src={`${import.meta.env.BASE_URL}/img/benafit-acimg.jpg`} alt="Post Image" />
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="acsvs-sec-prefoot-sec-cthree">
-                  <h3 className="cs_fs_20 mb-0">PROTECT YOUR PROPERTY</h3>
-                  <span className="mb-5">Prevent damage to electronics and furnishings</span>
-                  <div className="mb-5"></div>
-                  <h3 className="cs_fs_20 mb-0">QUIET AND SECURE</h3>
-                  <span className="mb-5">No need to leave windows open</span>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </section> */}
+        </section>
 
         {/* Brands section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">

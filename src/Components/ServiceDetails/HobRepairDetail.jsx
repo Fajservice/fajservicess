@@ -17,6 +17,7 @@ import brandsLogo_data from '../../Data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../Headeform/HeaderForm";
+import AppliancesAppointmentCol from "../ApplianceCommons/AppliancesAppointmentCol";
 
 // import { Link } from "react-router-dom";
 
@@ -131,9 +132,12 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2>
+            <h2 className="cs_fs_30">Choose Hob Service Center for Same-Day Repair in Dubai</h2>
             <p>
-              We have been offering trustworthy appliance repair services since 2010. And we understand that appliances can break down unexpectedly, so we offer budget-friendly solutions. Our trained technicians are available throughout Dubai to repair large appliances at your location.
+
+              Since 2010, we have been providing reliable hob repair services. We recognise that hobs can break down unexpectedly, so we provide high-quality and affordable repairs. Our trained technicians are available throughout Dubai and Sharjah to repair your gas or electric cooking stove at your location.
+
+
 
             </p>
 
@@ -149,29 +153,30 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
         {/* Maintenance Contract */}
         <MaintenanceContract />
 
-        {/* Cooking Range Repair Nearby You */}
+        {/* Same Day Cooking Range Repair and Service */}
 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
                 {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" /> */}
-                <h3 className="cs_fs_24 mb-1">Cooking Range Repair Nearby You</h3>
+                <h3 className="cs_fs_24 mb-1">Same Day Cooking Range Repair and Service</h3>
 
                 <p className="mb-2">
-
-                  It’s common to face issues with cooking appliances from time to time, whether your induction hob suddenly stops working, your gas stove won’t stay lit when you need it, or your electric hob keeps turning on and off.
+                  It’s pretty standard to experience issues with cooking appliances from time to time.
+                  Whether your induction hob suddenly stops working, your gas stove won’t stay lit when you need it, or your electric hob keeps turning on and off, it’s essential to manage these problems promptly.
                   <br />
-                  The important thing to remember is that these problems should be addressed by a qualified technician. Fast Services can help you arrange a professional <Link to="/gas-cooker-repair-service/"> gas range repair </Link> to fix your faulty cooker
+                  FAJ offers fast Services and can assist you in arranging a professional gas range repair to fix your faulty cooker.
 
                 </p>
 
 
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Gas Stove Technical Inspection Fee</h3>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Cooking Stove Technical Inspection Fee </h3>
                 <p className="mb-0">
                   The technical inspection fee is AED 157, which covers diagnosis, transportation, and reinstallation in Dubai premises.
                   <br />
                   Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.
+
                 </p>
               </div>
 
@@ -182,81 +187,83 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
               </div>
             </div>
 
-            <div className="appointment-col border-small-top pt-3">
+            <AppliancesAppointmentCol></AppliancesAppointmentCol>
+          
+
+            {/* <div className="appointment-col border-small-top pt-3">
               <p>
-                If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.
-                <br />
-                Timing: Mon-Sat 8:00 AM to 6:00 PM - Sunday 12:00 PM to 6:00 PM. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.
+              If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.
+              <br />
+              Timing: Mon - Sat 8:00 AM to 6:00 PM, Sunday 12:00 PM to 6:00 PM. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.
               </p>
+              
               <div id="get-quote" className=" mt-3">
                 <div className="container d-flex justify-content-center align-items-center gap-3">
                   <WhatsappIconButton />
                   <CallNowButton />
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
 
 
+
+        {/* Why is Induction Hob Maintenance Service Important in Dubai? */}
         <section className="section cs_py_30">
           <div className="container">
-            <FAJACPrice></FAJACPrice>
-          </div>
-        </section>
-
-
-        {/* Most common Cooker faults: */}
-        <section className="section cs_py_30 bg-light-gray">
-          <div className="container">
-            <h3 className="cs_fs_30">Most common Cooker faults:</h3>
-            {/* <p>
-                          Let's face it, modern life revolves around our appliances. From the refrigerator that keeps our food fresh to the washing machine that handles endless piles of laundry, these gadgets are indispensable. But what happens when they break down? It's not just an inconvenience; it can throw a wrench in our entire routine.
-                        </p> */}
+            <h3 className="cs_fs_30">Why is Induction Hob Maintenance Service Important in Dubai?</h3>
+            <p>
+            Proper induction hob maintenance is essential for extending its lifespan and enhancing efficiency, especially in Dubai’s climate. Here are the main benefits:
+                        </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Hob-Repair-Service-in-Dubai-UAE.jpeg`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Cooking-Range-Repair-Nearby-You.jpg`} alt="Post Image" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
-                  <li> Hot plate not working or Doors not closing</li>
-                  <li> Thermostats or Lid Switches not working</li>
-                  <li> Flame failure devices (FFDs)</li>
-                  <li> Flame supervision devices (FSDs)</li>
-                  <li> Thermocouple or Spark plugs not working</li>
-                  <li> Burners and burner caps not working</li>
-                  <li> Ignition generators or Printed Circuit Boards not working</li>
-                  <li> Yellow flame getting</li>
+
+<li> <strong>  Hob Extended Lifespan: </strong> Regular maintenance helps the induction hob last longer, saving on replacement costs. </li>
+<li> <strong>  Stove Improved Efficiency: </strong> A well-maintained induction hob uses less energy, leading to lower utility bills, which is essential in Dubai. </li>
+<li> <strong>  Hob Preventing Costly Repair: </strong> Catching minor issues early prevents them from escalating into expensive repairs. </li>
+<li> <strong>  Stove Preserving induction hob Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
+<li> <strong>  Cooker Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious. </li>
+<li> <strong>  Hob Cost-Effective: </strong> Maintenance costs are lower than early replacements or major repairs.  Investing in induction hob care ensures safety and efficiency and is a smart economic choice in Dubai. </li>
+<li> <strong>  Cooker Energy Efficiency: </strong> Regularly maintaining your induction hob can improve its efficiency and save you money. </li>
+
                 </ul>
               </div>
             </div>
           </div>
         </section>
 
-        {/* The Most Common Problems with Home Appliances */}
-        <section className="section cs_py_30">
+        {/* The Most Common Problems with Induction / Hob */}
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="text-center">The Most Common Problems with Home Appliances   </h3>
+            <h3 className="text-center">The Most Common Problems with Induction / Hob   </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">E8 Error Code</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Most fridge malfunctions are related to cooling issues, including problems with the defrost system, fan motor, compressor, or coils.</p>
+                    <p className="p-2 mb-0">
+                    This indicates a communication issue in the stove/hob, often related to loose wiring or a faulty control board (PCB)</p>
                   </div>
                 </div>
               </div>
 
+
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishwashers Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Incorrect Cookware</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">The most issues with dishwashers are bad cleaning and drying. Common water leaks and drainage. Some electrical issues or PCB failures.
+                    <p className="p-2 mb-0">
+                    Induction electric hobs require magnetic cookware to function correctly, and non-magnetic cookware may not heat properly.
                     </p>
                   </div>
                 </div>
@@ -265,11 +272,12 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Washing Machine Problem
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Burner Discoloration
                     </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">A common issue with washing machines is drainage problems, leaks, and PCB faulty. Also, broken belt or faulty door switch or drum from spinning.</p>
+                    <p className="p-2 mb-0">
+                    This can be caused by burnt-on food from the induction hob, cookware residue, or heat marks.</p>
                   </div>
                 </div>
               </div>
@@ -278,10 +286,11 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Tumble Dryer Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Error Code</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Dryers can stop the drum from spinning and often make noise without drying clothes properly. Common issues are a broken heating element or control board.</p>
+                    <p className="p-2 mb-0">
+                    Difficulty Sharing Power Between Burners: This may be indicated by an E8 error code and could mean a blown fuse on the main board</p>
                   </div>
                 </div>
               </div>
@@ -289,10 +298,24 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Stove Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Flashing "E" Symbol</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Uneven heating or flame issues, such as a broken burner element, bad switch, or electric gas, are the most common problems with stoves.</p>
+                    <p className="p-2 mb-0">
+                    This often indicates a stuck PCB electronic board, switch or button. Also, check the electrical wiring from inside the unit.</p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Hob Not Responsive</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0"> 
+                    If the hob doesn't respond to touch, it could be due to a blown or tripped switch affecting the power supply or an inside wiring issue.</p>
                   </div>
                 </div>
               </div>
@@ -300,21 +323,11 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Ovens Problems</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Hob Not Heating Properly</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Most ovens have common problems like not heating properly, burners not igniting, ignition issues on gas models, broken knobs, and faulty controllers or valves.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Freezer Problem</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Common issues with a freezer include water leaks, no ice, a malfunctioning ice maker, a malfunctioning PCB, motor, or compressor, and less cooling.</p>
+                    <p className="p-2 mb-0">
+                    This can occur if the cookware is not magnetic or sits unevenly on the cooking zone or hot plate.</p>
                   </div>
                 </div>
               </div>
@@ -322,10 +335,11 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Machine Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Hob Overheating</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Whether they are drip or single-serve coffee makers, there are a few reasons why water flow in coffee makers is often slow or nonexistent.</p>
+                    <p className="p-2 mb-0">
+                    This can happen if the heat is not circulated correctly or if there's a fan or heating thermostat issue.</p>
                   </div>
                 </div>
               </div>
@@ -340,10 +354,10 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/*Why should you choose us? */}
-        <section className="section cs_py_30 bg-light-gray">
+        {/*HERE ARE THE SERVICES WE OFFER FOR INDUCTION HOB */}
+        <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">Why should you choose us?   </h3>
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR INDUCTION HOB   </h3>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -360,11 +374,12 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-xl-6">
-                <p className='mb-0'>
-                  Gas Stove repair is a regular necessity in Dubai, and it is important to choose a reputable service provider who will fix your problem quickly and efficiently. We take pride in being the go-to option for your entire gas stove repair Dubai needs. Our professionals have the knowledge and skills to diagnose and repair any problem with your stove. Our team can handle everything from damaged heating elements to faulty thermostats. We use modern tools and procedures to repair your stove fast and efficiently.
+                <p className="mb-0">
+                We specialise in all types and brands of induction hobs, including built-in units.
                 </p>
-                {/* <p className='mb-0'><strong>Our services include:</strong></p> */}
-                {/* <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
+              
+                <p className='mb-0'><strong>Our services include:</strong></p>
+                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
                   <li> <strong>  Installation: </strong> Expert installation of various types and brands of home appliances, ensuring optimal performance and efficiency. </li>
                   <li> <strong> Diagnostics: </strong> Comprehensive fault-finding services to effectively diagnose issues. We provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
                   <li> <strong> Repair Service: </strong> Efficient repair services for all appliance components, ensuring a quick resolution to issues such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions! </li>
@@ -373,7 +388,7 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
                   <p className="mb-0">
                     Regular maintenance is essential for optimal performance, efficiency, and longevity of your home appliances.
                   </p>
-                </ul> */}
+                </ul>
 
 
               </div>
@@ -384,7 +399,7 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
         </section >
 
         {/* The Benefits Of appliances Service Dubai */}
-        <section className="section cs_py_30 appliances-benifit-sec">
+        <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
               <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai
@@ -469,22 +484,7 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        <section className="section cs_py_30 bg-dark-blue text-light">
-          <div className="container text-center">
-            <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
-            <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
-            <a
-              href="files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
-              className="btn-green-yellow"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Click Here to Save on Energy Bills
-            </a>
-
-
-          </div>
-        </section>
+       
 
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
@@ -574,7 +574,7 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* We specialise in Hob services for the following brands  */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray ">
           <div className="container">
             <h3>We specialise in Hob services for the following brands </h3>
             <div className="row">
@@ -819,65 +819,33 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
 
 
 
-        {/* white section with AC image */}
-        {/* <section className="section cs_py_30">
-          <div className="container text-center">
-            <div className="row">
-              <div className="col-lg-4">
-                <div className="acsvs-sec-prefoot-sec-cone">
-                  <h3 className="cs_fs_20 mb-0">COOLING &amp; HEATING</h3>
-                  <span className="mb-5">Stay comfortable all year round</span>
-                  <div className="mb-5"></div>
-                  <h3 className="cs_fs_20 mb-0">BETTER AIR QUALITY</h3>
-                  <span className="mb-5">Reduce humidity, pollen and dust</span>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="acsvs-sec-prefoot-sec-ctwo">
-
-                  <img className="" src={`${import.meta.env.BASE_URL}/img/benafit-acimg.jpg`} alt="Post Image" />
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="acsvs-sec-prefoot-sec-cthree">
-                  <h3 className="cs_fs_20 mb-0">PROTECT YOUR PROPERTY</h3>
-                  <span className="mb-5">Prevent damage to electronics and furnishings</span>
-                  <div className="mb-5"></div>
-                  <h3 className="cs_fs_20 mb-0">QUIET AND SECURE</h3>
-                  <span className="mb-5">No need to leave windows open</span>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </section> */}
-
-        {/* Brands section */}
-        {/* <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
-          <div className="container">
-           
-            <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
-              data-variable-width="0" data-xs-slides="1" data-sm-slides="1" data-md-slides="1" data-lg-slides="2"
-              data-add-slides="2" data-slides-per-view="responsive">
-              <div className="cs_slider_wrapper">
-                <Slider {...settingBrands}>
-                  {brandsLogo_data.map((item, index) => (
-                    <div key={index} className="cs_slide wow fadeInLeft">
-
-                      <div className="brandslogo-slide-container">
-                        <div className="brnadlogo">
-                          <img className="w-100" src={`${import.meta.env.BASE_URL}${item.logo}`} alt="Avatar" />
-                        </div>
-                      </div>
-
-                    </div>
-                  ))}
-                </Slider>
-
-              </div>
-            </div>
-          </div>
-        </section> */}
+       {/* Brands section */}
+               <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
+                 <div className="container">
+       
+                   <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
+                     data-variable-width="0" data-xs-slides="1" data-sm-slides="1" data-md-slides="1" data-lg-slides="2"
+                     data-add-slides="2" data-slides-per-view="responsive">
+                     <div className="cs_slider_wrapper">
+                       <Slider {...settingBrands}>
+                         {brandsLogo_data.map((item, index) => (
+                           <div key={index} className="cs_slide wow fadeInLeft">
+       
+                             <div className="brandslogo-slide-container">
+                               <div className="brnadlogo">
+                                 <img className="w-100" src={`${import.meta.env.BASE_URL}${item.logo}`} alt="Avatar" />
+                               </div>
+                             </div>
+       
+                           </div>
+                         ))}
+                       </Slider>
+       
+                     </div>
+                   </div>
+                 </div>
+                 {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
+               </section>
 
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" data-background={`${import.meta.env.BASE_URL}${bgImg}`}>
