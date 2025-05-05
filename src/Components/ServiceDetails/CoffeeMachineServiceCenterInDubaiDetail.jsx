@@ -16,8 +16,6 @@ import loadBackgroudImages from "../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../Headeform/HeaderForm";
 
-// import { Link } from "react-router-dom";
-
 const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => {
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -137,7 +135,6 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
                 <WhatsappIconButton />
               </div>
             </div>
-            {/*  */}
           </div>
         </section>
 
@@ -226,134 +223,8 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
           </div>
         </section>
 
-        {/* HERE ARE THE SERVICES WE OFFER FOR COFFEE MACHINES AND ESPRESSO MACHINES*/}
-        <section className="section cs_py_30 bg-light-gray">
-          <div className="container">
-            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR COFFEE MACHINES AND ESPRESSO  </h3>
-
-            <div className="row align-items-center">
-              <div className="col-xl-6">
-                <iframe
-                  className="bordered-img blue-border"
-                  width="100%"
-                  height="350"
-                  src="https://www.youtube.com/embed/IjckdZLs_Qg"
-                  title="FAJ Videos"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
-              </div>
-
-              <div className="col-xl-6">
-                <p className='mb-0'>We specialise in all types and brands of Coffee Machines, including espresso machine </p>
-                <p className='mb-0'><strong>Our services include: </strong></p>
-                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                  <li> <strong>  Installation: </strong> Expert installation of various types and brands of coffee machines, ensuring optimal performance and efficiency.</li>
-
-                  <li> <strong> Diagnostics: </strong> Thorough fault finding to diagnose issues effectively. We provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
-
-                  <li> <strong> Repair Service: </strong> Efficient repair services for all coffee machine components, ensuring quick resolution of any issues, such as leaks, electrical failures, and system malfunctions.</li>
-
-                  <li> <strong> Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for the annual maintenance of the espresso machine. </li>
-                  <p className="mb-0">
-                  Regular maintenance is essential for optimal performance, efficiency, and longevity of your coffee machine.
-                  </p>
-                </ul>
-              </div>
-
-            </div>
-          </div>
-        </section >
-
-        {/* The Benefits Of Coffee Machines Service Dubai */}
-        <section className="section cs_py_30 appliances-benifit-sec">
-          <div className="container">
-            <div className="row justify-content-center">
-              <h3 className="cs_fs_30 mb-0">The Benefits Of Coffee Machines Service Dubai
-              </h3>
-              <div className="row gx-3 gy-5 mt-0">
-                <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}/img/icons/Ensuring-Safety.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h4>
-                      <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}/img/icons/Optimal-Performance.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
-                      </h4>
-                      <p className="small">Regular maintenance helps your Coffee Machines run smoothly and efficiently, delivering the best results every time.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}/img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
-                      <p className="small">Energy efficient Coffee machines translate to monthly savings on utility bills, putting more money back in your pocket.</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}/img/icons/Saving-Money-on-Repair.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h4>
-                      <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
-                    </div>
-
-                  </div>
-                </div>
-                <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}/img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Coffee Machine Lifespan</h4>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your Coffee Machines, delaying the need for replacements.</p>
-
-                    </div>
-
-                  </div>
-                </div>
-
-                <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}/img/icons/Peace-of-Mind.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
-                      </h4>
-                      <p className="small">Knowing your Coffee Machines are in top condition gives you confidence and removes the stress of unexpected failures.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* The Most Common Problems of Coffee Machines */}
-        <section className="section cs_py_30 bg-light-gray">
+         {/* The Most Common Problems of Coffee Machines */}
+         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="text-center">The Most Common Problems of Coffee Machines   </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -472,6 +343,136 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
 
           </div>
         </section>
+
+        {/* HERE ARE THE SERVICES WE OFFER FOR COFFEE MACHINES AND ESPRESSO MACHINES*/}
+        <section className="section cs_py_30">
+          <div className="container">
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR COFFEE MACHINES AND ESPRESSO  </h3>
+
+            <div className="row align-items-center">
+              <div className="col-xl-6">
+                <iframe
+                  className="bordered-img blue-border"
+                  width="100%"
+                  height="350"
+                  src="https://www.youtube.com/embed/IjckdZLs_Qg"
+                  title="FAJ Videos"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
+              </div>
+
+              <div className="col-xl-6">
+                <p className='mb-0'>We specialise in all types and brands of Coffee Machines, including espresso machine </p>
+                <p className='mb-0'><strong>Our services include: </strong></p>
+                <ul className="mb-0">
+                  <li> <strong>  Installation: </strong> Expert installation of various types and brands of coffee machines, ensuring optimal performance and efficiency.</li>
+
+                  <li> <strong> Diagnostics: </strong> Thorough fault finding to diagnose issues effectively. We provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
+
+                  <li> <strong> Repair Service: </strong> Efficient repair services for all coffee machine components, ensuring quick resolution of any issues, such as leaks, electrical failures, and system malfunctions.</li>
+
+                  <li> <strong> Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for the annual maintenance of the espresso machine. </li>
+                  <p className="mb-0">
+                  Regular maintenance is essential for optimal performance, efficiency, and longevity of your coffee machine.
+                  </p>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </section >
+
+        
+
+        {/* The Benefits Of Coffee Machines Service Dubai */}
+        <section className="section cs_py_30 appliances-benifit-sec bg-dark-blue">
+          <div className="container">
+            <div className="row justify-content-center">
+              <h3 className="cs_fs_30 mb-0 text-light">The Benefits Of Coffee Machines Service Dubai
+              </h3>
+              <div className="row gx-3 gy-5 mt-0">
+                <div className="col-md-4 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block">
+                        <img src={`${import.meta.env.BASE_URL}/img/icons/Ensuring-Safety.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h4>
+                      <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block">
+                        <img src={`${import.meta.env.BASE_URL}/img/icons/Optimal-Performance.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
+                      </h4>
+                      <p className="small">Regular maintenance helps your Coffee Machines run smoothly and efficiently, delivering the best results every time.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block">
+                        <img src={`${import.meta.env.BASE_URL}/img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
+                      <p className="small">Energy efficient Coffee machines translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-md-4 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block">
+                        <img src={`${import.meta.env.BASE_URL}/img/icons/Saving-Money-on-Repair.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h4>
+                      <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
+                    </div>
+
+                  </div>
+                </div>
+                <div className="col-md-4 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block">
+                        <img src={`${import.meta.env.BASE_URL}/img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Coffee Machine Lifespan</h4>
+                      <p className="small">Proper care and timely servicing can significantly increase life of your Coffee Machines, delaying the need for replacements.</p>
+
+                    </div>
+
+                  </div>
+                </div>
+
+                <div className="col-md-4 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block">
+                        <img src={`${import.meta.env.BASE_URL}/img/icons/Peace-of-Mind.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
+                      </h4>
+                      <p className="small">Knowing your Coffee Machines are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+       
 
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">

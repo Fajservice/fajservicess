@@ -240,7 +240,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
 
 
         {/* The Most Common Problems with Espresso Machines */}
-        <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="text-center">The Most Common Problems with Espresso Machines   </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -351,7 +351,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* HERE ARE THE SERVICES WE OFFER FOR COFFEE MACHINES AND ESPRESSO MACHINES*/}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR COFFEE MACHINES AND ESPRESSO  </h3>
 
@@ -392,7 +392,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
         </section >
 
         {/* The Benefits Of appliances Service Dubai */}
-        <section className="section cs_py_30 appliances-benifit-sec">
+        <section className="section cs_py_30 appliances-benifit-sec bg-light-gray ">
           <div className="container">
             <div className="row justify-content-center">
               <h3 className="cs_fs_30 mb-0">The Benefits Of Coffee Machines Service Dubai
@@ -417,7 +417,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
                       </h4>
-                      <p className="small">Regular maintenance helps your Coffee machines run smoothly and efficiently, delivering the best results every time.
+                      <p className="small">Regular maintenance helps your coffee machines run smoothly and efficiently, delivering the best results every time.
                       </p>
                     </div>
                   </div>
@@ -429,7 +429,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
                         <img src={`${import.meta.env.BASE_URL}/img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
-                      <p className="small">Energy efficient Coffee machine translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                      <p className="small">Energy efficient coffee machine translate to monthly savings on utility bills, putting more money back in your pocket.</p>
                     </div>
                   </div>
                 </div>
@@ -502,7 +502,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Confidence</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your Coffee machine runs smoothly and providing peace of mind.</p>
+                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your coffee machine runs smoothly and providing peace of mind.</p>
                   </div>
                 </div>
 
@@ -513,7 +513,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your Coffee machine repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive</p>
+                    <p>Choose a day and time for your coffee machine repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive</p>
                   </div>
                 </div>
 
@@ -532,7 +532,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are experts in Coffee machine repair this is why most major brands trust us to handle their service and maintenance needs.</p>
+                    <p>We are experts in coffee machine repair this is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -551,7 +551,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our skilled Coffee machine technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
+                    <p>Our skilled coffee machine technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
                   </div>
                 </div>
               </div>
