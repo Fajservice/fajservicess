@@ -10,7 +10,7 @@ import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
-import testimonial_data from '../../Data/AcData/AcTestimonial/AcServiceTestimonials.json';
+import testimonial_data from '../../Data/CommercialCoffeeMAchineReapairTestimonials.json';
 import brandsLogo_data from '../../Data/coffeemachineServicebrand.json';
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
@@ -123,7 +123,6 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
 
         <section className="section cs_py_30">
           <div className="container">
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30"> Expert Coffee Machine Repair in Dubai, Sharjah and Abu Dhabi</h2>
             <p>
               Since 2010, FAJ has been providing reliable and trusted expertise in installation and maintenance, specializing in coffee machine repair and service in Dubai, serving homes, offices, restaurants, and cafes.
@@ -247,7 +246,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
               </div>
 
               <div className="col-xl-6">
-                <p className='mb-0'>We specialise in all types and brands of Coffee Machines, including Coffee Machine </p>
+                <p className='mb-0'>We specialise in all types and brands of Coffee Machines, including espresso machine </p>
                 <p className='mb-0'><strong>Our services include: </strong></p>
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
                   <li> <strong>  Installation: </strong> Expert installation of various types and brands of coffee machines, ensuring optimal performance and efficiency.</li>
@@ -328,8 +327,8 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}/img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Extending Coffee Machine Lifespan</h4>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your home Coffee Machines, delaying the need for replacements.</p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Coffee Machine Lifespan</h4>
+                      <p className="small">Proper care and timely servicing can significantly increase life of your Coffee Machines, delaying the need for replacements.</p>
 
                     </div>
 
@@ -429,7 +428,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Brewing Issues</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-o">
+                    <p className="p-2 mb-0">
                     Weak Coffee is often a common problem, typically due to improper grind size, over-extraction, under-extraction, or using stale espresso machine coffee beans.
                     </p>
                    
@@ -499,7 +498,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
                   </div>
                   <div className="usptext">
                     <h3 className="">Confidence</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your coffee machines runs smoothly and providing peace of mind.</p>
+                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your coffee machine runs smoothly and providing peace of mind.</p>
                   </div>
                 </div>
 
@@ -510,7 +509,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your coffee machines repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive</p>
+                    <p>Choose a day and time for your coffee machine repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive</p>
                   </div>
                 </div>
 
@@ -518,7 +517,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}/img/fajteam-1.jpg`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}/img/Coffee-Machine-Repair-&-Maintenance.jpg`} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
@@ -529,7 +528,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are experts in   repair this is why most major brands trust us to handle their service and maintenance needs.</p>
+                    <p>We are experts in coffee machine repair this is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -555,289 +554,13 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}/img/fajteam.jpg`} alt="FAJ icon service" />
+                <img className="" src={`${import.meta.env.BASE_URL}/img/Coffee-Machine-Repair-&-Maintenance.jpg`} alt="FAJ icon service" />
               </div>
             </div>
           </div>
         </section>
 
-        {/* We specialise in Appliances services for the following brands */}
-        {/* <section className="section cs_py_30 bg-light-gray">
-          <div className="container">
-            <h3>We specialise in Appliances services for the following brands</h3>
-            <div className="row">
-              <div className="col-12">
-                <p className="mb-0">
-                  <Link to="/lg-fridge-repair-in-dubai-lg-washing-machine-repair-in-dubai-lg-cooker-repair-in-dubai-lg-oven-repair-in-dubai-lg-appliances-maintenance-in-dubai-lg-refrigerator-fix-repairs-service-in-dubai-lg-dishwa/">
-                    <b>LG Appliance Service</b>
-                  </Link>
-                  : FAJ is here to support you when things go wrong. We understand that your LG appliances are essential for daily life, keeping your food fresh and meals cooked.
-                </p>
-                <p className="mb-0">
-                  <Link to="/samsung-fridge-repair-in-dubai-samsung-washing-machine-repair-in-dubai-samsung-cooker-repair-in-dubai-samsung-oven-repair-in-dubai-samsung-appliances-maintenance-in-dubai-samsung-refrigerator-fix-repa/">
-                    <b>Samsung Appliance Service</b>
-                  </Link>
-                  : If you are facing any problems with your Samsung refrigerator, washer dryer, or dishwasher, contact the FAJ team for same-day repair service in Dubai.
-                </p>
-                <p className="mb-0">
-                  <Link to="/electrolux-home-appliances-repair/">
-                    <b>Electrolux Appliance Service</b>
-                  </Link>
-                  : When you need Electrolux appliance repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE.
-                </p>
-                <p className="mb-0">
-                  <Link to="/bosch-home-appliances-repair/">
-                    <b>Bosch Appliance Service</b>
-                  </Link>
-                  : If you are looking for the best Bosch refrigerator repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch home appliance repair and are recognized as the leading Bosch cooking range, Washing machine, refrigerator service provider in the area.
-                </p>
-                <p className="mb-0">
-                  <Link to="/viking-appliances-service/">
-                    <b>Viking Appliance Service</b>
-                  </Link>
-                  : Your Viking appliances may require repair or maintenance and we can help. For high-quality Viking refrigerator, range or oven repair in Dubai, rely on FAJ.
-                </p>
-                <p className="mb-0">
-                  <Link to="/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b>Daewoo Appliance Service</b>
-                  </Link>
-                  : We provide expert services for Daewoo appliance repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo refrigerator, dishwasher, dryer and more.
-                </p>
-                <p className="mb-0">
-                  <Link to="/siemens-home-appliances-repair/">
-                    <b>Siemens Appliance Service</b>
-                  </Link>
-                  : Are you concerned about your Siemens washing machine malfunctioning and searching for a reliable Siemens appliances company in Dubai? Contact us for same-day service!
-                </p>
-                <p className="mb-0">
-                  <Link to="/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b>Teka Appliance Service</b>
-                  </Link>
-                  : If you're searching for the best Teka appliances repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
-                </p>
-
-                <br />
-                <p>
-                  <a href="#/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/">AEG</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/ariston-fridge-repair-in-dubai-ariston-washing-machine-repair-in-dubai-ariston-cooker-repair-in-dubai-ariston-oven-repair-in-dubai-ariston-appliances-maintenance-in-dubai-ariston-refrigerator-fix-repa/">Ariston</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/beko-fridge-repair-in-dubai-beko-washing-machine-repair-in-dubai-beko-cooker-repair-in-dubai-beko-oven-repair-in-dubai-beko-appliances-maintenance-in-dubai-beko-refrigerator-fix-repairs-service-in-dub/">Beko</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/blomberg-fridge-repair-in-dubai-blomberg-washing-machine-repair-in-dubai-blomberg-cooker-repair-in-dubai-blomberg-oven-repair-in-dubai-blomberg-appliances-maintenance-in-dubai-blomberg-refrigerator-fi/">Blomberg</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/faber-appliances-service/">Faber</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/fagor-fridge-repair-in-dubai-fagor-washing-machine-repair-in-dubai-fagor-cooker-repair-in-dubai-fagor-oven-repair-in-dubai-fagor-appliances-maintenance-in-dubai-fagor-refrigerator-fix-repairs-service/">Fagor</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/fisher-and-paykel-fridge-repair-in-dubai-fisher-and-paykel-washing-machine-repair-in-dubai-fisher-and-paykel-cooker-repair-in-dubai-fisher-and-paykel-oven-repair-in-dubai-fisher-and-paykel-appliances/">Fisher and Paykel</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/foster-appliances-services-foster-dishwasher-repair-service-in-dubai-foster-cooking-range-repair-service-in-dubai-foster-cooktop-repair-service-in-dubai-foster-oven-repair-in-dubai-foster-rangetop-r/">Foster</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/gaggenau-fridge-repair-in-dubai-gaggenau-washing-machine-repair-in-dubai-gaggenau-cooker-repair-in-dubai-gaggenau-oven-repair-in-dubai-gaggenau-appliances-maintenance-in-dubai-gaggenau-refrigerator-fi/">Gaggenau</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/hitachi-fridge-repair-in-dubai-hitachi-washing-machine-repair-in-dubai-hitachi-cooker-repair-in-dubai-hitachi-oven-repair-in-dubai-hitachi-appliances-maintenance-in-dubai-hitachi-refrigerator-fix-repa/">Hitachi</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/hoover-fridge-repair-in-dubai-hoover-washing-machine-repair-in-dubai-hoover-cooker-repair-in-dubai-hoover-oven-repair-in-dubai-hoover-appliances-maintenance-in-dubai-hoover-refrigerator-fix-repairs-se/">Hoover</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-oven-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa/">Indesit</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub/">Neff</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/">Smeg</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/sub-zero-fridge-repair-in-dubai-sub-zero-washing-machine-repair-in-dubai-sub-zero-cooker-repair-in-dubai-sub-zero-oven-repair-in-dubai-sub-zero-appliances-maintenance-in-dubai-sub-zero-refrigerator-fi/">Sub Zero</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/terim-appliances-service/">Terim</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/whirlpool-fridge-repair-in-dubai-whirlpool-washing-machine-repair-in-dubai-whirlpool-cooker-repair-in-dubai-whirlpool-oven-repair-in-dubai-whirlpool-appliances-maintenance-in-dubai-whirlpool-refrigera/">Whirlpool</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/zanussi-fridge-repair-in-dubai-zanussi-washing-machine-repair-in-dubai-zanussi-cooker-repair-in-dubai-zanussi-oven-repair-in-dubai-zanussi-appliances-maintenance-in-dubai-zanussi-refrigerator-fix-repa/">Zanussi</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="https://fajservice.ae/de-dietrich-appliance-repair-service/">De Dietrich</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/baumatic-appliances/">Baumatic</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/bertazzoni-refrigerator-repair-in-dubai-bertazzoni-appliances-service-bertazzoni-fridge-repair-in-dubai-bertazzoni-washing-machine-washer-bertazzoni-dryer-repair-in-dubai-bertazzoni-dishwasher-cooker/">Bertazzoni</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/bompani-fridge-repair-in-dubai-bompani-washing-machine-repair-in-dubai-bompani-cooker-repair-in-dubai-bompani-oven-repair-in-dubai-bompani-appliances-maintenance-in-dubai-bompani-refrigerator-fix-repa/">Bompani</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/boston-refrigerator-repair-in-dubai-boston-appliances-service-boston-fridge-repair-in-dubai-boston-washing-machine-washer-boston-dryer-repair-in-dubai-boston-dishwasher-cooker/">Boston</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/brandt-fridge-repair-in-dubai-brandt-washing-machine-repair-in-dubai-brandt-cooker-repair-in-dubai-brandt-oven-repair-in-dubai-brandt-appliances-maintenance-in-dubai-brandt-refrigerator-fix-repairs-se/">Brandt</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/gibson-fridge-repair-in-dubai-gibson-washing-machine-repair-in-dubai-gibson-cooker-repair-in-dubai-gibson-oven-repair-in-dubai-gibson-appliances-maintenance-in-dubai-gibson-refrigerator-fix-repairs-se/">Gibson</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/gorenje-fridge-repair-in-dubai-gorenje-washing-machine-repair-in-dubai-gorenje-cooker-repair-in-dubai-gorenje-oven-repair-in-dubai-gorenje-appliances-maintenance-in-dubai-gorenje-refrigerator-fix-repa/">Gorenje</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/hisense-fridge-repair-in-dubai-hisense-washing-machine-repair-in-dubai-hisense-cooker-repair-in-dubai-hisense-oven-repair-in-dubai-hisense-appliances-maintenance-in-dubai-hisense-refrigerator-fix-repa/">Hisense</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/kelvinator-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Kelvinator</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/kenmore-appliances-service/">Kenmore</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/panasonic-fridge-repair-in-dubai-panasonic-washing-machine-repair-in-dubai-panasonic-cooker-repair-in-dubai-panasonic-oven-repair-in-dubai-panasonic-appliances-maintenance-in-dubai-panasonic-refrigera/">Panasonic</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/sanyo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Sanyo</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/sears-home-appliances-installation-maintenance-repair-fix-service-in-dubai/">Sears</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/wolf-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Wolf</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/haier-fridge-repair-in-dubai-haier-washing-machine-repair-in-dubai-haier-cooker-repair-in-dubai-haier-oven-repair-in-dubai-haier-appliances-maintenance-in-dubai-haier-refrigerator-fix-repairs-service/">Haier</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/elica-appliances-service/">Elica</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/marvel-fridge-repair-in-dubai-marvel-washing-machine-repair-in-dubai-marvel-cooker-repair-in-dubai-marvel-oven-repair-in-dubai-marvel-appliances-maintenance-in-dubai-marvel-refrigerator-fix-repairs-se/">Marvel</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/miele-fridge-repair-in-dubai-miele-washing-machine-repair-in-dubai-miele-cooker-repair-in-dubai-miele-oven-repair-in-dubai-miele-appliances-maintenance-in-dubai-miele-refrigerator-fix-repairs-service/">Miele</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/maytag-fridge-repair-in-dubai-maytag-washing-machine-repair-in-dubai-maytag-cooker-repair-in-dubai-maytag-oven-repair-in-dubai-maytag-appliances-maintenance-in-dubai-maytag-refrigerator-fix-repairs-se/">Maytag</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/toshiba-home-appliance-installation-maintenance-repair-fix-service-in-dubai-2/">Toshiba</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/thermador-appliances-service/">Thermador</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/sharp-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Sharp</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/admiral-fridge-repair-in-dubai-admiral-washing-machine-repair-in-dubai-admiral-cooker-repair-in-dubai-admiral-oven-repair-in-dubai-admiral-appliances-maintenance-in-dubai-admiral-refrigerator-fix-repa/">Admiral</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/aftron-fridge-repair-in-dubai-aftron-washing-machine-repair-in-dubai-aftron-cooker-repair-in-dubai-aftron-oven-repair-in-dubai-aftron-appliances-maintenance-in-dubai-aftron-refrigerator-fix-repairs-se/">Aftron</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/unimac-washing-machine-repair-in-dubai-unimac-dryer-repair-in-dubai-unimac-washer-dryer-repair-in-dubai-unimac-maintenance-in-dubai-unimac-laundry-service-in-dubai-unimac-dubai/">Unimac</a></p>
-
-              </div>
-
-            </div>
-
-            <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
-                <GetQuoteButton />
-                <CallNowButton />
-              </div>
-            </div>
-
-          </div>
-        </section> */}
-
-        {/* Common Coffee Machines & Espresso Machines Faults We Repair */}
-        {/* <section className="section cs_py_30 bg-light-gray">
-          <div className="container">
-            <h3>Common Coffee Machines & Espresso Machines Faults We Repair</h3>
-            <p>FAJ Technical Servicing L.L.C. is a reputable coffee machine service center across Dubai - Sharjah - Abu Dhabi, espresso machines, coffee grinders, and espresso blenders, providing expert repairs for a wide range of manufacturers, including cafe shop coffee machines. Our skilled technicians deal with a wide range of typical coffee machine repair issues, assuring prompt and dependable service. We address the following common flaws:</p>
-
-            <p> <h4 className="cs_fs_18 d-inline"> <strong>  No Power: </strong> </h4>
-
-              If your coffee machine does not turn on or displays no sign of power, we can diagnose and fix electrical problems, defective wiring, or malfunctioning power switches. </p>
-
-            <p> <h4 className="cs_fs_18 d-inline"> <strong>  Water Leakage: </strong> </h4>
-
-              Water leaking is a typical issue in coffee makers, and it can cause by defective seals, weak connections, or a faulty water reservoir. Our professionals can find the cause of the leak and perform the required repairs. </p>
-
-            <p> <h4 className="cs_fs_18 d-inline"> <strong> Brewing Problems: </strong> </h4>
-
-              Problems with the brewing process, such as weak coffee, irregular water flow, or no coffee production, might be caused by clogged filters, malfunctioning valves, or pump problems. We can identify and address these issues to ensure a proper brewing experience. </p>
-
-            <p> <h4 className="cs_fs_18 d-inline"> <strong> Grinder Malfunction: </strong> </h4>
-
-              If your coffee machine has a built-in grinder that isn’t working properly, we can inspect and repair it. Our professionals are excellent at fixing difficulties including uneven grinding and excessive noise. </p>
-
-            <p> <h4 className="cs_fs_18 d-inline"> <strong> Temperature Issues: </strong> </h4>
-
-              Temperature control is critical for optimal coffee brewing. If your machine fails to reach the proper temperature or produces coffee that is too hot or too cold, we can address issues with the heating element or thermostat. </p>
-
-            <p> <h4 className="cs_fs_18 d-inline"> <strong> Error Messages: </strong> </h4>
-
-              When a failure occurs, many coffee machines display error messages or codes. Our technicians have experience to detecting these signs and determining the underlying problem, which could be connected to water flow, pressure, sensors, or other components. </p>
-
-          </div>
-        </section> */}
+       
 
         {/* CHOOSE  DOMESTIC OR PROFESSIONAL COFFEE MACHINE REPAIR SERVICE */}
         <section className="section cs_py_30 bg-light-gray">
