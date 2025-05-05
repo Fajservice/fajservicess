@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/OvenRepairFaqs.json';
+import data from '../../../Data/GasRangeFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
@@ -10,14 +10,14 @@ import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import Slider from "react-slick";
-import testimonial_data from '../../../Data/OvenRepairTestimonials.json';
+import testimonial_data from '../../../Data/GasRangeTestimonials.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
 
 // import { Link } from "react-router-dom";
 
-const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
+const GasRangeDetail = ({ subtitle, title, bgImg }) => {
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "/img/testimonialbg.jpg"
@@ -118,8 +118,8 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Oven Repair & Maintenance Services in Dubai | FAJ</title>
-        <meta name="description" content="Looking for oven repair near me in Dubai? FAJ offers expert oven repair services for homes and businesses. Call us at 043300002"></meta>
+        <title>Commercial Kitchen Gas Cooker Repair - Restaurant Range, Stove</title>
+        <meta name="description" content="Need gas cooker repairs near me in Dubai? FAJ offers expert gas cooker repair, maintenance, and service for commercial kitchens. Call now 04 3300002!"></meta>
       </HelmetProvider>
       <HeaderForm />
 
@@ -128,8 +128,8 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">Do you want an oven repair that does not cause a fortune?</h2>
-            <p>We at FAJ Professional are honored to be your first choice when you need trustworthy oven repair services in Dubai. Our committed group of expert technicians has the knowledge required to handle a wide variety of oven-related problems. We offer quick, cost-effective repair services that are customized to your unique requirements. Whether you need help with an electric oven that isn't working properly, a gas range oven, or even a microwave, we can fix all of them. We guarantee service that puts your needs first, so you can rely on us to fix your oven at your door.</p>
+            <h2 className="cs_fs_30">Do you want an Gas Range repair that does not cause a fortune?</h2>
+            <p>Are you having trouble finding reliable gas cooker repair services? Now worry not. FAJ Professional provides the best cooker repair and maintenance services. We are a top provider of cooker repair and maintenance services. We are a dependable and trustworthy partner for people and companies looking for professional solutions for their gas cooker-related needs. Trust us for cooker repairs because we have made a strong commitment to quality and customer satisfaction.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -149,8 +149,8 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Oven Repair" /> */}
-                <h3 className="cs_fs_24 mb-1">Cooking Range Repair Nearby You</h3>
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Gas Cooker Repair" /> */}
+                <h3 className="cs_fs_24 mb-1">Gas Range Repair Nearby You</h3>
 
                 <p className="mb-2">
 
@@ -170,8 +170,8 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Oven Repair" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/kitchen-equipment.jpg`} alt="Oven Repair" />
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Gas Cooker Repair" /> */}
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/kitchen-equipment.jpg`} alt="Gas Cooker Repair" />
 
               </div>
             </div>
@@ -194,15 +194,15 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
         {/* Most common Cooker faults: */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">Reliable Oven repair Dubai</h3>
-            <p>FAJ Professional is a reliable partner when it comes to oven repair services in Dubai. Our dedicated team of technicians critically examines the problem and then recommends suitable repairs according to the needs of the machine. We put a high priority on client satisfaction, offering you a seamless and reliable experience for any oven repair needs in Dubai and the neighboring areas. FAJ Professional is the go-to source for trustworthy and proficient oven repair services. As we strive to be at the top of the highest standards of professionalism and customer service.</p>
+            <h3 className="cs_fs_30">Reliable gas cooker repair in Dubai</h3>
+            <p>We set out on this journey to raise the bar for gas cooker repair services. We are committed to delivering exceptional repair and maintenance services that surpass the expectations of our clients. We have developed our knowledge over the years and put together a group of remarkable technicians who are not only experts but also provide the best kitchen solutions. Trust FAJ Professional and you will not be disappointed.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Hob-Repair-Service-in-Dubai-UAE.jpeg`} alt="Oven Repair" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/cooker.webp`} alt="Gas Cooker Repair" />
               </div>
               <div className="col-md-6">
-                <h4>Searching for Oven repair near me</h4>
-                <p>If you're looking for microwave oven repair near me right now, FAJ Professional is the only company you need to contact. Our technicians are always prepared to respond quickly to your location, and we provide comprehensive oven repair solutions. Our technicians are strategically located. Our dedication to your convenience means that, no matter where you are, your oven will receive the attention it deserves. People get exhausted and tired by searching for a microwave repair shop near me. We are here to save you from that trouble. We are the go-to solution to all your microwave repair near me problems.</p>
+                <h4>Gas stove maintenance</h4>
+                <p>We support taking preventative action to eliminate possible problems before they start. With the help of our preventive maintenance programs, you can extend the life of your gas cooker and reduce the chance of malfunctions. Being your reliable partner for all gas cooker maintenance and repairs is something we at FAJ Professional take great pride in. Our dedication to reliability is an important aspect of our service, so you can rely on us to provide excellent solutions any time your gas cooker has problems.</p>
               </div>
             </div>
           </div>
@@ -318,9 +318,8 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
         {/*Why should you choose us? */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="cs_fs_30">Signs you need an Electric oven repair</h3>
-            <p>
-                It's critical to identify the warning signals that point to the need for expert repair when your electric oven begins to malfunction. Uneven cooking, fluctuating temperatures, or any odd noises made while the appliance is operating could be indications of underlying problems. Furthermore, it's time to think about electric oven repair if your oven doesn't heat up or frequently loses power. Ignoring these indicators could result in additional damage and affect how well your appliance works. By taking quick action to address these warning indicators and using FAJ Professional's skilled repair services, you can ensure the working of your electric oven. Regarding electric oven maintenance, FAJ Professional is your trusted partner. Because we specialize in fixing electrical components, you can be sure that your electric oven will operate safely, efficiently, and with the performance you expect.</p>
+            <h3 className="cs_fs_30">Want a commercial gas cooker repairs</h3>
+            <p>If you want stoves gas cooker repairs, our staff is prepared to handle the job with ease. We streamline the entire process, from helping you choose the ideal servicing for your needs to making sure the maintenance goes without a hitch. Since gas cooker problems can occur at any time, we provide emergency repair services. You can feel secure knowing that pressing issues are handled quickly thanks to our quick response. We think that providing our customers with knowledge is important. We provide advice on how to extend the life of your appliance, maintenance tips, and usage guidelines for gas cookers as part of our service.</p>
             <div className="row align-items-center">
               <div className="col-xl-6">
                 <iframe
@@ -336,44 +335,26 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-xl-6">
-                
-                <h4>Gas range oven repair and maintenance</h4>
-                <p>Our technicians are skilled in providing thorough gas oven repair. Gas range ovens require specialized care. For safe and efficient gas range oven repair that gets your appliance operating at its best, you can rely on FAJ Professional. In order to get gas oven service and repair, FAJ Professional is an excellent service provider dedicated to making sure your appliance operates at its best. Our skilled technicians specialize in fixing problems unique to gas range ovens, like malfunctioning burners, thermostats, or uneven heating. In our gas oven repair service, we put safety and effectiveness first. We provide comprehensive gas oven service, part replacements, and adjustments as necessary. Whether your gas range oven needs emergency repairs or regular upkeep, you can rely on FAJ Professional to provide affordable solutions that will improve the performance and lifespan of your machine.</p>
+                <p className="mb-0">Following are the types of gas cookers to which we provide services.</p>
+                <ul>
+                  <li>Built-in gas cooker</li>
+                  <li>Freestanding Cooker</li>
+                  <li>Gas Cook top</li>
+                  <li>Gas Range Cooker</li>
+                  <li>LPG Range Cooker</li>
+                  <li>Dual Fuel Range Cooker</li>
+                  <li>Cooktop gas stove</li>
+                  <li>Freestanding range cooker</li>
+                  <li>Burner gas cooker</li>
+                  <li>Burner gas stove</li>
+                  <li>Gas stove</li>
+                  <li>Freestanding range</li>
+                  <li>Burner gas</li>
+                  <li>Cooking stove</li>
+                </ul>
               </div>
 
 
-            </div>
-          </div>
-        </section >
-        <section className="section cs_py_30 bg-dark-blue text-light">
-          <div className="container">
-            <h3 className="cs_fs_30 text-light">We Deal in all Types</h3>
-            <p>FAJ Professional's versatility is evident in the range of oven types we handle and the comprehensive oven maintenance services we provide for different appliance models and brands. Because of the experience on our team, we can handle the complexities of various oven glass repair and wall oven repair and provide a solution for any requirement.</p>
-            <div className="row text-light">
-              <div className="col-md-6">
-                <h4 className="text-light">Convection oven repair</h4>
-                <p>Convection oven repair is FAJ Professional's area of expertise. They provide knowledgeable services to address problems unique to convection models. Our knowledgeable specialists guarantee accurate diagnostics and workable solutions because they comprehend the intricacies of convection ovens. We offer dependable convection oven repair services that are customized to meet the specific needs of your appliance, whether the issue is a broken fan or inconsistent temperature.</p>
-              </div>
-              <div className="col-md-6">
-                <h4 className="text-light">Industrial oven repair</h4>
-                <p>FAJ Professional is the company to call when you need industrial oven repair services. We understand that industrial ovens are essential for a variety of applications. Our skilled technicians have a lot of experience diagnosing and fixing industrial ovens, so there's less downtime and maximum efficiency. You can rely on us for thorough services that bring longevity and efficiency to the forefront of industrial oven repair.</p>
-              </div>
-              <div className="col-md-6">
-                <h4 className="text-light">Restaurant oven repair</h4>
-                <p>An oven that doesn’t work well can cause havoc in the hectic kitchen of a restaurant. FAJ Professional offers expert restaurant oven repair services, taking care of problems quickly to maintain the efficiency of your kitchen. With a dedication to efficiency and quality, we serve a wide range of restaurant oven repair needs, from fine dining to quick-service restaurants.</p>
-              </div>
-              <div className="col-md-6">
-                <h4 className="text-light">Kitchen oven repair</h4>
-                <p>When problems arise with your kitchen oven, FAJ Professional provides trustworthy repair services to get it working again. Our knowledgeable specialists are proficient in identifying and resolving a variety of kitchen oven issues, including malfunctioning heating components and control problems. You can rely on us to fix your kitchen oven quickly and effectively, ensuring optimal performance from your appliance.</p>
-              </div>
-              <div className="col-md-6">
-                <h4 className="text-light">Stove oven repair near me</h4>
-                <p>Do you need "stove oven repair near me" services? You only need to look at FAJ Professional. Professional stove oven repair is delivered right to your door with our easy and fast services. Our knowledgeable technicians guarantee prompt and dependable solutions to get your stove oven back in working order because we recognize the urgency of repairs.</p>
-              </div>
-              <div className="col-md-6">
-                <h4 className="text-light">Commercial oven repair</h4>
-                <p>FAJ Professional serves businesses with accuracy and professionalism by extending its expertise to commercial oven repair. Our knowledgeable staff handles commercial oven problems in a comprehensive manner, from bakeries to catering services, and offers prompt repairs that support the smooth running of your commercial kitchen.</p>
-              </div>
             </div>
           </div>
         </section>
@@ -829,7 +810,7 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                  <img className="" src={`${import.meta.env.BASE_URL}/img/benafit-acimg.jpg`} alt="Oven Repair" />
+                  <img className="" src={`${import.meta.env.BASE_URL}/img/benafit-acimg.jpg`} alt="Gas Cooker Repair" />
                 </div>
               </div>
               <div className="col-lg-4">
@@ -969,5 +950,5 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
   );
 };
 
-export default OvenRepairDetail;
+export default GasRangeDetail;
 
