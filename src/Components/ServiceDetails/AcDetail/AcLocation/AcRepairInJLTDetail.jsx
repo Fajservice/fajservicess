@@ -20,8 +20,7 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
 
 
-
-const AcRepairInJebelAliFreeZoneDetail = ({ subtitle, title, bgImg }) => {
+const AcRepairInJLTdETAIL = ({ subtitle, title, bgImg }) => {
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "/img/testimonialbg.jpg"
@@ -75,10 +74,10 @@ const AcRepairInJebelAliFreeZoneDetail = ({ subtitle, title, bgImg }) => {
             }
         ]
     };
-    return (
-        <>
+  return (
+    <>
         <HelmetProvider>
-            <title>AC Services In Jebel Ali Free Zone - Central Aircon Fixing</title>
+            <title>AC Services In JLT - Central Aircon Fixing</title>
             <meta name="description" content="Are you finding AC Services in Jebel Ali Free Zone Dubai? Call 043300002 for ceiling, HVAC, central air conditioner repair & maintenance near me"></meta>
         </HelmetProvider>
         <HeaderForm />
@@ -108,8 +107,8 @@ const AcRepairInJebelAliFreeZoneDetail = ({ subtitle, title, bgImg }) => {
                 <div className="container">
                     <div className="row gx-md-5">
                         <div className="col-md-6">
-                            <h3 className="cs_fs_24 mb-1">Best AC Repair in Dubai</h3>
-                            <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> in Jebel Ali Free Zone, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
+                            <h3 className="cs_fs_24 mb-1">Best AC Repair in JLT</h3>
+                            <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> in JLT, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
                             <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                             <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
                             <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
@@ -297,7 +296,7 @@ const AcRepairInJebelAliFreeZoneDetail = ({ subtitle, title, bgImg }) => {
             <ACWhyChooseUs />
 
 
-            {/* We specialise in air conditioning services for the following brands */}
+             {/* We specialise in air conditioning services for the following brands */}
             <WeSpecialise />
 
             <section className="section cs_py_30 bg-dark-blue text-light">
@@ -441,7 +440,7 @@ const AcRepairInJebelAliFreeZoneDetail = ({ subtitle, title, bgImg }) => {
 
         </div>
     </>
-    )
+  )
 }
 
-export default AcRepairInJebelAliFreeZoneDetail
+export default AcRepairInJLTdETAIL

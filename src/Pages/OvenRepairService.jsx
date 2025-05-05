@@ -7,7 +7,7 @@ const OvenRepairService = () => {
             <BreadCumb
                 // bgImg="/img/page_heading_1.jpg"
                 bgImg="/img/banners/Oven-Repair-Service.jpg"
-                Title="Gas & Electrical Oven Repair Service"
+                Title="Gas & Electrical Oven Repair Service in Dubai"
             ></BreadCumb> 
 
             <OvenRepairServiceDetail></OvenRepairServiceDetail>        
