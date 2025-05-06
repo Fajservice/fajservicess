@@ -106,8 +106,8 @@ const AcRepairInAlTawarDetail = ({ subtitle, title, bgImg }) => {
                     <div className="container">
                         <div className="row gx-md-5">
                             <div className="col-md-6">
-                                <h3 className="cs_fs_24 mb-1">Best AC Repair in Al Tawar</h3>
-                                <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>in Al Tawar, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
+                                <h3 className="cs_fs_24 mb-1">Best AC Repair in AlTawar</h3>
+                                <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> in Al Tawar, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
                                 <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
                                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
