@@ -119,6 +119,12 @@ import AcRepairInJvt from "../Pages/AcPages/AcLocation/AcRepairInJvt";
 import AcRepairInJumeirah from "../Pages/AcPages/AcLocation/AcRepairInJumeirah";
 import AcRepairInJebelAli from "../Pages/AcPages/AcLocation/AcRepairInJebelAli";
 import AcRepairInEmiratesHills from "../Pages/AcPages/AcLocation/AcRepairInEmiratesHills";
+import AcRepairInJLT from "../Pages/AcPages/AcLocation/AcRepairInJLT";
+import AcRepairInIndexTowerDifc from "../Pages/AcPages/AcLocation/AcRepairInIndexTowerDifc";
+import AcRepairInAlRashidiya from "../Pages/AcPages/AcLocation/AcRepairInAlRashidiya";
+import HotPlateRepair from "../Pages/KitchenEquipPages/HotPlateRepair";
+import PizzaOvenMaintenance from "../Pages/KitchenEquipPages/PizzaOvenMaintenance";
+import GasRangeRepair from "../Pages/KitchenEquipPages/GasRangeRepair";
 export const router = createHashRouter([
   {
     path: "/",
@@ -175,6 +181,18 @@ export const router = createHashRouter([
       {
         path: "/oven-repair/",
         element: <OvenRepair />
+      },
+      {
+        path: "/hot-plate-repair/",
+        element: <HotPlateRepair />
+      },
+      {
+        path: "/pizza-oven-maintenance/",
+        element: <PizzaOvenMaintenance />
+      },
+      {
+        path: "/gas-cooker-repair/",
+        element: <GasRangeRepair />
       },
       {
         path: "/washing-machine-repair-service-dubai/",
@@ -591,6 +609,18 @@ export const router = createHashRouter([
       {
         path: "/ac-services-in-emirates-hills/",
         element: <AcRepairInEmiratesHills />,
+      },
+      {
+        path: "/ac-services-jlt/",
+        element: <AcRepairInJLT />,
+      },
+      {
+        path: "/ac-services-in-index-tower-difc/",
+        element: <AcRepairInIndexTowerDifc />,
+      },
+      {
+        path: "/ac-services-in-al-rashidiya/",
+        element: <AcRepairInAlRashidiya />,
       },
     ],
   }

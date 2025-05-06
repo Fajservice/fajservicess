@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/OvenRepairFaqs.json';
+import data from '../../../Data/PizzaOvenMaintenanceFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
@@ -10,14 +10,14 @@ import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import Slider from "react-slick";
-import testimonial_data from '../../../Data/OvenRepairTestimonials.json';
+import testimonial_data from '../../../Data/PizzaOvenMaintenanceTestimonials.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
 
 // import { Link } from "react-router-dom";
 
-const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
+const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "/img/testimonialbg.jpg"
@@ -118,8 +118,8 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Oven Repair & Maintenance Services in Dubai | FAJ</title>
-        <meta name="description" content="Looking for oven repair near me in Dubai? FAJ offers expert oven repair services for homes and businesses. Call us at 043300002"></meta>
+        <title>Commercial Pizza Oven Maintenance & Repair Servicing Dubai</title>
+        <meta name="description" content="FAJ offers reliable pizza oven maintenance and repair services in Dubai. Call 04 3300002 to book your commercial or residential pizza oven AMC today."></meta>
       </HelmetProvider>
       <HeaderForm />
 
@@ -128,8 +128,8 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">Do you want an oven repair that does not cause a fortune?</h2>
-            <p>We at FAJ Professional are honored to be your first choice when you need trustworthy oven repair services in Dubai. Our committed group of expert technicians has the knowledge required to handle a wide variety of oven-related problems. We offer quick, cost-effective repair services that are customized to your unique requirements. Whether you need help with an electric oven that isn't working properly, a gas range oven, or even a microwave, we can fix all of them. We guarantee service that puts your needs first, so you can rely on us to fix your oven at your door.</p>
+            <h2 className="cs_fs_30">Do you want an Pizza Oven repair that does not cause a fortune?</h2>
+            <p>Do you want a pizza oven maintenance that is pocket friendly? FAJ Technical Services LLC are experts in repairing and maintaining services. Being the top experts in pizza oven repair, we do it with perfection. Our knowledgeable technicians make sure your pizza oven runs smoothly and produces the deliciously crispy crusts and cheesy treats you want. For excellent repairs that improve your pizza experience, trust FAJ Technical Services LLC. We care about the quality of your appliances.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -143,14 +143,14 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
         {/* Maintenance Contract */}
         <MaintenanceContract />
 
-        {/* Cooking Range Repair Nearby You */}
+        {/* Pizza Oven Repair Nearby You */}
 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Oven Repair" /> */}
-                <h3 className="cs_fs_24 mb-1">Cooking Range Repair Nearby You</h3>
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Pizza Oven Maintenance" /> */}
+                <h3 className="cs_fs_24 mb-1">Pizza Oven Repair Nearby You</h3>
 
                 <p className="mb-2">
 
@@ -161,7 +161,7 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
                 </p>
 
 
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Gas Stove Technical Inspection Fee</h3>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Pizza Oven Technical Inspection Fee</h3>
                 <p className="mb-0">
                   The technical inspection fee is AED 157, which covers diagnosis, transportation, and reinstallation in Dubai premises.
                   <br />
@@ -170,8 +170,8 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Oven Repair" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/kitchen-equipment.jpg`} alt="Oven Repair" />
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Pizza Oven Maintenance" /> */}
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/kitchen-equipment.jpg`} alt="Pizza Oven Maintenance" />
 
               </div>
             </div>
@@ -194,15 +194,15 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
         {/* Most common Cooker faults: */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">Reliable Oven repair Dubai</h3>
-            <p>FAJ Professional is a reliable partner when it comes to oven repair services in Dubai. Our dedicated team of technicians critically examines the problem and then recommends suitable repairs according to the needs of the machine. We put a high priority on client satisfaction, offering you a seamless and reliable experience for any oven repair needs in Dubai and the neighboring areas. FAJ Professional is the go-to source for trustworthy and proficient oven repair services. As we strive to be at the top of the highest standards of professionalism and customer service.</p>
+            <h3 className="cs_fs_30">Reliable Pizza oven repair service</h3>
+            <p>FAJ Professional has a top-notch pizza oven service. Our team of skilled technicians is expert at handling a wide range of gas pizza oven repair problems. We can help with everything from electrical problems to inconsistent heating. We are aware of how important it is to keep your pizza oven working, and our devoted staff is committed to offering timely and effective repair services. If you are searching for pizza oven repair near me, then stop wasting your time. You can rely on us to get reliable solutions that guarantee your pizza oven operates at its peak efficiency and consistently produces perfectly cooked pizzas.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Hob-Repair-Service-in-Dubai-UAE.jpeg`} alt="Oven Repair" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Hob-Repair-Service-in-Dubai-UAE.jpeg`} alt="Pizza Oven Maintenance" />
               </div>
               <div className="col-md-6">
-                <h4>Searching for Oven repair near me</h4>
-                <p>If you're looking for microwave oven repair near me right now, FAJ Professional is the only company you need to contact. Our technicians are always prepared to respond quickly to your location, and we provide comprehensive oven repair solutions. Our technicians are strategically located. Our dedication to your convenience means that, no matter where you are, your oven will receive the attention it deserves. People get exhausted and tired by searching for a microwave repair shop near me. We are here to save you from that trouble. We are the go-to solution to all your microwave repair near me problems.</p>
+                <h4>Expert Pizza Oven technician</h4>
+                <p>With extensive knowledge and experience in maintaining a wide variety of pizza ovens, from classic brick models to modern, high-tech units, our technicians bring unmatched expertise to the table. Our specialists handle every repair with accuracy and efficiency because they receive ongoing training and stay up-to-date on the newest developments in the industry. Their passion for fixing things enables them to precisely identify problems, resolving anything from control panel glitches to heating element malfunctions. They make sure that each component is inspected and brought back to full functioning with extreme care. Our team recognizes the importance of client satisfaction. In addition to their superior technical abilities, our technicians place a high value on providing exceptional customer service.</p>
               </div>
             </div>
           </div>
@@ -318,9 +318,8 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
         {/*Why should you choose us? */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="cs_fs_30">Signs you need an Electric oven repair</h3>
-            <p>
-                It's critical to identify the warning signals that point to the need for expert repair when your electric oven begins to malfunction. Uneven cooking, fluctuating temperatures, or any odd noises made while the appliance is operating could be indications of underlying problems. Furthermore, it's time to think about electric oven repair if your oven doesn't heat up or frequently loses power. Ignoring these indicators could result in additional damage and affect how well your appliance works. By taking quick action to address these warning indicators and using FAJ Professional's skilled repair services, you can ensure the working of your electric oven. Regarding electric oven maintenance, FAJ Professional is your trusted partner. Because we specialize in fixing electrical components, you can be sure that your electric oven will operate safely, efficiently, and with the performance you expect.</p>
+            <h3 className="cs_fs_30">Searching for pizza oven repair near me</h3>
+            
             <div className="row align-items-center">
               <div className="col-xl-6">
                 <iframe
@@ -336,44 +335,18 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-xl-6">
-                
-                <h4>Gas range oven repair and maintenance</h4>
-                <p>Our technicians are skilled in providing thorough gas oven repair. Gas range ovens require specialized care. For safe and efficient gas range oven repair that gets your appliance operating at its best, you can rely on FAJ Professional. In order to get gas oven service and repair, FAJ Professional is an excellent service provider dedicated to making sure your appliance operates at its best. Our skilled technicians specialize in fixing problems unique to gas range ovens, like malfunctioning burners, thermostats, or uneven heating. In our gas oven repair service, we put safety and effectiveness first. We provide comprehensive gas oven service, part replacements, and adjustments as necessary. Whether your gas range oven needs emergency repairs or regular upkeep, you can rely on FAJ Professional to provide affordable solutions that will improve the performance and lifespan of your machine.</p>
+                <p>If you're looking for "pizza oven service near me," FAJ Professional is the place to go. We recognize how crucial it is to have a trustworthy local service provider. Our teams are positioned strategically to guarantee timely service requests and effective resolution of your pizza oven repair needs. You can rely on us to provide a prompt and practical resolution to your pizza oven problems.</p>
+                <p class="mb-0 pb-0">Following are the types of pizza oven.</p>
+                <ul class="mt-0">
+                    <li>brick pizza oven</li>
+                    <li>wood fired pizza oven</li>
+                    <li>electric pizza oven</li>
+                    <li>electric stone pizza oven</li>
+                    <li>gas pizza oven</li>
+                </ul>
               </div>
 
 
-            </div>
-          </div>
-        </section >
-        <section className="section cs_py_30 bg-dark-blue text-light">
-          <div className="container">
-            <h3 className="cs_fs_30 text-light">We Deal in all Types</h3>
-            <p>FAJ Professional's versatility is evident in the range of oven types we handle and the comprehensive oven maintenance services we provide for different appliance models and brands. Because of the experience on our team, we can handle the complexities of various oven glass repair and wall oven repair and provide a solution for any requirement.</p>
-            <div className="row text-light">
-              <div className="col-md-6">
-                <h4 className="text-light">Convection oven repair</h4>
-                <p>Convection oven repair is FAJ Professional's area of expertise. They provide knowledgeable services to address problems unique to convection models. Our knowledgeable specialists guarantee accurate diagnostics and workable solutions because they comprehend the intricacies of convection ovens. We offer dependable convection oven repair services that are customized to meet the specific needs of your appliance, whether the issue is a broken fan or inconsistent temperature.</p>
-              </div>
-              <div className="col-md-6">
-                <h4 className="text-light">Industrial oven repair</h4>
-                <p>FAJ Professional is the company to call when you need industrial oven repair services. We understand that industrial ovens are essential for a variety of applications. Our skilled technicians have a lot of experience diagnosing and fixing industrial ovens, so there's less downtime and maximum efficiency. You can rely on us for thorough services that bring longevity and efficiency to the forefront of industrial oven repair.</p>
-              </div>
-              <div className="col-md-6">
-                <h4 className="text-light">Restaurant oven repair</h4>
-                <p>An oven that doesn’t work well can cause havoc in the hectic kitchen of a restaurant. FAJ Professional offers expert restaurant oven repair services, taking care of problems quickly to maintain the efficiency of your kitchen. With a dedication to efficiency and quality, we serve a wide range of restaurant oven repair needs, from fine dining to quick-service restaurants.</p>
-              </div>
-              <div className="col-md-6">
-                <h4 className="text-light">Kitchen oven repair</h4>
-                <p>When problems arise with your kitchen oven, FAJ Professional provides trustworthy repair services to get it working again. Our knowledgeable specialists are proficient in identifying and resolving a variety of kitchen oven issues, including malfunctioning heating components and control problems. You can rely on us to fix your kitchen oven quickly and effectively, ensuring optimal performance from your appliance.</p>
-              </div>
-              <div className="col-md-6">
-                <h4 className="text-light">Stove oven repair near me</h4>
-                <p>Do you need "stove oven repair near me" services? You only need to look at FAJ Professional. Professional stove oven repair is delivered right to your door with our easy and fast services. Our knowledgeable technicians guarantee prompt and dependable solutions to get your stove oven back in working order because we recognize the urgency of repairs.</p>
-              </div>
-              <div className="col-md-6">
-                <h4 className="text-light">Commercial oven repair</h4>
-                <p>FAJ Professional serves businesses with accuracy and professionalism by extending its expertise to commercial oven repair. Our knowledgeable staff handles commercial oven problems in a comprehensive manner, from bakeries to catering services, and offers prompt repairs that support the smooth running of your commercial kitchen.</p>
-              </div>
             </div>
           </div>
         </section>
@@ -606,8 +579,8 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
 
                 <p className="mb-0">
                   <Link to="/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b> Daewoo Cooking Range Repair</b>
-                  </Link>: We provide expert services for Daewoo appliance repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo cooking range, refrigerator, washing machine, dryer and more.
+                    <b> Daewoo Pizza Oven Repair</b>
+                  </Link>: We provide expert services for Daewoo appliance repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo Pizza Oven, refrigerator, washing machine, dryer and more.
                 </p>
 
                 <p className="mb-0">
@@ -829,7 +802,7 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                  <img className="" src={`${import.meta.env.BASE_URL}/img/benafit-acimg.jpg`} alt="Oven Repair" />
+                  <img className="" src={`${import.meta.env.BASE_URL}/img/benafit-acimg.jpg`} alt="Pizza Oven Maintenance" />
                 </div>
               </div>
               <div className="col-lg-4">
@@ -969,5 +942,5 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
   );
 };
 
-export default OvenRepairDetail;
+export default PizzaOvenMaintenanceDetail;
 

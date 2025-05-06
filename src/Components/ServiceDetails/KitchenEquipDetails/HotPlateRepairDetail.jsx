@@ -1,23 +1,22 @@
-
-
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/OvenRepairFaqs.json';
+import data from '../../../Data/HotPlateRepairFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
 import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
+
 import Slider from "react-slick";
-import testimonial_data from '../../../Data/OvenRepairTestimonials.json';
+import testimonial_data from '../../../Data/HotPlateRepairTestimonials.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
 
 // import { Link } from "react-router-dom";
 
-const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
+const HotPlateRepairDetail = ({ subtitle, title, bgImg }) => {
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "/img/testimonialbg.jpg"
@@ -118,8 +117,8 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Oven Repair & Maintenance Services in Dubai | FAJ</title>
-        <meta name="description" content="Looking for oven repair near me in Dubai? FAJ offers expert oven repair services for homes and businesses. Call us at 043300002"></meta>
+        <title>Commercial Hot Plate Repair & Maintenance Services</title>
+        <meta name="description" content="Reliable hot plate repair in Dubai, Get in touch with FAJ for fast cafe & restaurant hot plate service & maintenance near you. Call us now!"></meta>
       </HelmetProvider>
       <HeaderForm />
 
@@ -128,8 +127,8 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">Do you want an oven repair that does not cause a fortune?</h2>
-            <p>We at FAJ Professional are honored to be your first choice when you need trustworthy oven repair services in Dubai. Our committed group of expert technicians has the knowledge required to handle a wide variety of oven-related problems. We offer quick, cost-effective repair services that are customized to your unique requirements. Whether you need help with an electric oven that isn't working properly, a gas range oven, or even a microwave, we can fix all of them. We guarantee service that puts your needs first, so you can rely on us to fix your oven at your door.</p>
+            <h2 className="cs_fs_30">What actually is a hot plate?</h2>
+            <p>A hot plate is an essential piece of electrical kitchen equipment used to bake, heat, cook food or boil liquids at your facility. These machines come in many sizes and capacities for your domestic, industrial and commercial needs. As it involves electronics it is bound to fail at some point in its life, requiring you to look for a commercial hot plate repair and maintenance expert. Many technological advances made it possible for us to cook food using electricity making these hot plates and induction cooktops a true engineering marvel.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -149,19 +148,13 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Oven Repair" /> */}
-                <h3 className="cs_fs_24 mb-1">Cooking Range Repair Nearby You</h3>
-
+                <h3 className="cs_fs_24 mb-1">Hot Plate Repair Nearby You</h3>
                 <p className="mb-2">
-
                   It’s common to face issues with cooking appliances from time to time, whether your induction hob suddenly stops working, your gas stove won’t stay lit when you need it, or your electric hob keeps turning on and off.
                   <br />
                   The important thing to remember is that these problems should be addressed by a qualified technician. Fast Services can help you arrange a professional <Link to="/gas-cooker-repair-service/"> gas range repair </Link> to fix your faulty cooker
-
                 </p>
-
-
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Gas Stove Technical Inspection Fee</h3>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Hot Plate Technical Inspection Fee</h3>
                 <p className="mb-0">
                   The technical inspection fee is AED 157, which covers diagnosis, transportation, and reinstallation in Dubai premises.
                   <br />
@@ -170,8 +163,8 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Oven Repair" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/kitchen-equipment.jpg`} alt="Oven Repair" />
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Hot Plate Repair" /> */}
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/hot-plate-repair.png`} alt="Hot Plate Repair" />
 
               </div>
             </div>
@@ -194,15 +187,38 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
         {/* Most common Cooker faults: */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">Reliable Oven repair Dubai</h3>
-            <p>FAJ Professional is a reliable partner when it comes to oven repair services in Dubai. Our dedicated team of technicians critically examines the problem and then recommends suitable repairs according to the needs of the machine. We put a high priority on client satisfaction, offering you a seamless and reliable experience for any oven repair needs in Dubai and the neighboring areas. FAJ Professional is the go-to source for trustworthy and proficient oven repair services. As we strive to be at the top of the highest standards of professionalism and customer service.</p>
+            <h3 className="cs_fs_30">Is it worth repairing my kitchen hot plate?</h3>
+            <p>Whenever someone is faced with an equipment failure, the first thought in his / her mind is whether to bear any repair costs and face future failures or just to replace my equipment all together? Let us inform you that a timely electric hot plate repair and servicing is always cheaper than bearing the cost of replacing a unit all together. A quality fix will completely rejuvenate your induction cooktop ensuring refurbishment of all the faulty components. This activity will increase the operational life of your equipment by 40%. If you are unsure of hot plate repair near me give us a call.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Hob-Repair-Service-in-Dubai-UAE.jpeg`} alt="Oven Repair" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Hob-Repair-Service-in-Dubai-UAE.jpeg`} alt="Hot Plate Repair" />
               </div>
               <div className="col-md-6">
-                <h4>Searching for Oven repair near me</h4>
-                <p>If you're looking for microwave oven repair near me right now, FAJ Professional is the only company you need to contact. Our technicians are always prepared to respond quickly to your location, and we provide comprehensive oven repair solutions. Our technicians are strategically located. Our dedication to your convenience means that, no matter where you are, your oven will receive the attention it deserves. People get exhausted and tired by searching for a microwave repair shop near me. We are here to save you from that trouble. We are the go-to solution to all your microwave repair near me problems.</p>
+                <h3 className="cs_fs_20 mb-1">Signs that your induction cooker / hot plate needs repair:</h3>
+                <p className="mb-2">A commercial hot plate experiences quite rigorous daily use and hence it becomes prone to wear & tear. Let us guide you if your hot plate or induction cooker needs a professional hot plate repair and maintenance service.</p>
+                <div className="row">
+                  <div className="col-sm-6">
+                    <ul className="mb-0">
+                      <li>Hot plate not heating</li>
+                      <li>Equipment not powering on</li>
+                      <li>Cracked glass top</li>
+                      <li>Controls not working</li>
+                      <li>Broken knobs</li>
+                      <li>No or flickering lights</li>
+                      <li>Equipment overheating</li>
+                    </ul>
+                  </div>
+                  <div className="col-sm-6">
+                    <ul className="mb-0">
+                      <li>Timer not working</li>
+                      <li>Uneven cooking</li>
+                      <li>Sparking or ticking noises</li>
+                      <li>Induction coils not working</li>
+                      <li>Dysfunctional PCBs</li>
+                      <li>Short circuits</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -275,10 +291,10 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Ovens Problems</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Hot Plates Problems</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Most ovens have common problems like not heating properly, burners not igniting, ignition issues on gas models, broken knobs, and faulty controllers or valves.</p>
+                    <p className="p-2 mb-0">Most Hot Plates have common problems like not heating properly, burners not igniting, ignition issues on gas models, broken knobs, and faulty controllers or valves.</p>
                   </div>
                 </div>
               </div>
@@ -318,9 +334,7 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
         {/*Why should you choose us? */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="cs_fs_30">Signs you need an Electric oven repair</h3>
-            <p>
-                It's critical to identify the warning signals that point to the need for expert repair when your electric oven begins to malfunction. Uneven cooking, fluctuating temperatures, or any odd noises made while the appliance is operating could be indications of underlying problems. Furthermore, it's time to think about electric oven repair if your oven doesn't heat up or frequently loses power. Ignoring these indicators could result in additional damage and affect how well your appliance works. By taking quick action to address these warning indicators and using FAJ Professional's skilled repair services, you can ensure the working of your electric oven. Regarding electric oven maintenance, FAJ Professional is your trusted partner. Because we specialize in fixing electrical components, you can be sure that your electric oven will operate safely, efficiently, and with the performance you expect.</p>
+            <h3 className="cs_fs_30">Choose FAJ for all your hot and induction cooker repair solutions:</h3>
             <div className="row align-items-center">
               <div className="col-xl-6">
                 <iframe
@@ -336,47 +350,14 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-xl-6">
-                
-                <h4>Gas range oven repair and maintenance</h4>
-                <p>Our technicians are skilled in providing thorough gas oven repair. Gas range ovens require specialized care. For safe and efficient gas range oven repair that gets your appliance operating at its best, you can rely on FAJ Professional. In order to get gas oven service and repair, FAJ Professional is an excellent service provider dedicated to making sure your appliance operates at its best. Our skilled technicians specialize in fixing problems unique to gas range ovens, like malfunctioning burners, thermostats, or uneven heating. In our gas oven repair service, we put safety and effectiveness first. We provide comprehensive gas oven service, part replacements, and adjustments as necessary. Whether your gas range oven needs emergency repairs or regular upkeep, you can rely on FAJ Professional to provide affordable solutions that will improve the performance and lifespan of your machine.</p>
+                <p>With a 100% customer satisfaction rate and decades of presence in the Dubai & UAE market, we can proudly say that we are the best in this field. Our expert team of technicians are highly knowledgeable and actively ready to take up any commercial hot plate repair and maintenance project. Our technician experts are well versed with numerous brands of induction hobs such as LG, Bosch, Siemens, Prestige, Geepas, Krypton and many others.
+                With the client’s peace of mind in our focus, we always replace faulty components with original and OEMs with valid backup warranties. We also provide follow ups in case of requirement for the commercial hot plate repair and maintenance services we perform. We provide highly affordable market competitive rates for our services without sacrificing quality. We understand the trouble of having a broken hot plate. This is why we ensure swift service, completing fixes the same-day or next-day to get your equipment up and running. Get in touch with our team to book an inspection and we’ll send over expert technicians at your door step in no time.</p>
               </div>
 
 
             </div>
           </div>
         </section >
-        <section className="section cs_py_30 bg-dark-blue text-light">
-          <div className="container">
-            <h3 className="cs_fs_30 text-light">We Deal in all Types</h3>
-            <p>FAJ Professional's versatility is evident in the range of oven types we handle and the comprehensive oven maintenance services we provide for different appliance models and brands. Because of the experience on our team, we can handle the complexities of various oven glass repair and wall oven repair and provide a solution for any requirement.</p>
-            <div className="row text-light">
-              <div className="col-md-6">
-                <h4 className="text-light">Convection oven repair</h4>
-                <p>Convection oven repair is FAJ Professional's area of expertise. They provide knowledgeable services to address problems unique to convection models. Our knowledgeable specialists guarantee accurate diagnostics and workable solutions because they comprehend the intricacies of convection ovens. We offer dependable convection oven repair services that are customized to meet the specific needs of your appliance, whether the issue is a broken fan or inconsistent temperature.</p>
-              </div>
-              <div className="col-md-6">
-                <h4 className="text-light">Industrial oven repair</h4>
-                <p>FAJ Professional is the company to call when you need industrial oven repair services. We understand that industrial ovens are essential for a variety of applications. Our skilled technicians have a lot of experience diagnosing and fixing industrial ovens, so there's less downtime and maximum efficiency. You can rely on us for thorough services that bring longevity and efficiency to the forefront of industrial oven repair.</p>
-              </div>
-              <div className="col-md-6">
-                <h4 className="text-light">Restaurant oven repair</h4>
-                <p>An oven that doesn’t work well can cause havoc in the hectic kitchen of a restaurant. FAJ Professional offers expert restaurant oven repair services, taking care of problems quickly to maintain the efficiency of your kitchen. With a dedication to efficiency and quality, we serve a wide range of restaurant oven repair needs, from fine dining to quick-service restaurants.</p>
-              </div>
-              <div className="col-md-6">
-                <h4 className="text-light">Kitchen oven repair</h4>
-                <p>When problems arise with your kitchen oven, FAJ Professional provides trustworthy repair services to get it working again. Our knowledgeable specialists are proficient in identifying and resolving a variety of kitchen oven issues, including malfunctioning heating components and control problems. You can rely on us to fix your kitchen oven quickly and effectively, ensuring optimal performance from your appliance.</p>
-              </div>
-              <div className="col-md-6">
-                <h4 className="text-light">Stove oven repair near me</h4>
-                <p>Do you need "stove oven repair near me" services? You only need to look at FAJ Professional. Professional stove oven repair is delivered right to your door with our easy and fast services. Our knowledgeable technicians guarantee prompt and dependable solutions to get your stove oven back in working order because we recognize the urgency of repairs.</p>
-              </div>
-              <div className="col-md-6">
-                <h4 className="text-light">Commercial oven repair</h4>
-                <p>FAJ Professional serves businesses with accuracy and professionalism by extending its expertise to commercial oven repair. Our knowledgeable staff handles commercial oven problems in a comprehensive manner, from bakeries to catering services, and offers prompt repairs that support the smooth running of your commercial kitchen.</p>
-              </div>
-            </div>
-          </div>
-        </section>
         {/* The Benefits Of appliances Service Dubai */}
         <section className="section cs_py_30 appliances-benifit-sec">
           <div className="container">
@@ -466,7 +447,7 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30 bg-dark-blue text-light">
           <div className="container text-center">
             <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
-            <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
+            <p>Learn easy and prHot Plate ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
             <a
               href="files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
               className="btn-green-yellow"
@@ -575,7 +556,7 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12">
 
                 <p className="mb-0">
-                  <Link to="/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/">
+                  <Link to="/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-Hot Plate-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/">
                     <b>Smeg Cooker Repair</b>
                   </Link>: FAJ is here to support you when things go wrong. We understand that your Smeg appliances are essential for daily life, keeping your food fresh and meals cooked.
                 </p>
@@ -583,25 +564,25 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
                 <p className="mb-0">
                   <Link to="/siemens-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
                     <b>Siemens Cooker Repair</b>
-                  </Link>:If you are facing any problems with your Siemens oven, stove, refrigerator, washer dryer, or dishwasher, contact the FAJ team for same-day repair service in Dubai.
+                  </Link>:If you are facing any problems with your Siemens Hot Plate, stove, refrigerator, washer dryer, or dishwasher, contact the FAJ team for same-day repair service in Dubai.
                 </p>
 
                 <p className="mb-0">
-                  <Link to="/la-germania-cooking-range-repair-in-dubai-la-germania-oven-repair-in-dubai-la-germania-cooker-repair-in-dubai-la-germania-cooker-oven-maintenance-service-in-dubai-refrigerator-repair-in-dubai-fridge-r/">
+                  <Link to="/la-germania-cooking-range-repair-in-dubai-la-germania-Hot Plate-repair-in-dubai-la-germania-cooker-repair-in-dubai-la-germania-cooker-Hot Plate-maintenance-service-in-dubai-refrigerator-repair-in-dubai-fridge-r/">
                     <b> La Germania Stove and Cooker Repair</b>
-                  </Link>: When you need La Germania oven repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE.
+                  </Link>: When you need La Germania Hot Plate repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE.
                 </p>
 
                 <p className="mb-0">
                   <Link to="/bosch-home-appliances-repair/">
                     <b> Bosch Stove Repair</b>
-                  </Link>: If you are looking for the best Bosch appliance repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch oven repair and are recognized as the leading Bosch appliance service provider in the area.
+                  </Link>: If you are looking for the best Bosch appliance repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch Hot Plate repair and are recognized as the leading Bosch appliance service provider in the area.
                 </p>
 
                 <p className="mb-0">
                   <Link to="/viking-appliances-service/">
-                    <b> Viking Range and Oven Repair</b>
-                  </Link>: Your Viking appliances may require repair or maintenance and we can help. For high-quality Viking stove and oven repair in Dubai, rely on FAJ.
+                    <b> Viking Range and Hot Plate Repair</b>
+                  </Link>: Your Viking appliances may require repair or maintenance and we can help. For high-quality Viking stove and Hot Plate repair in Dubai, rely on FAJ.
                 </p>
 
                 <p className="mb-0">
@@ -611,7 +592,7 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
                 </p>
 
                 <p className="mb-0">
-                  <Link to="/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub/">
+                  <Link to="/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-Hot Plate-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub/">
                     <b> Neff Gas Stove Repair</b>
                   </Link>: Are you concerned about your Neff appliance malfunctioning and searching for a reliable Neff Gas Stove repair company in Dubai? Contact us for same-day service!
                 </p>
@@ -619,25 +600,25 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
                 <p className="mb-0">
                   <Link to="/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
                     <b> Teka Gas Stove Repair</b>
-                  </Link>: If you're searching for the best Teka appliance repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka gas stove, refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
+                  </Link>: If you're searching for the best Teka appliance repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka gas stove, refrigerators, washing machines, and Hot Plate repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
                 </p>
 
 
                 <br />
 
-                <p><a href="#/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/">AEG</a>
+                <p><a href="#/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-Hot Plate-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/">AEG</a>
 
                   <span>&nbsp;-&nbsp;</span>
 
-                  <a href="#/ariston-fridge-repair-in-dubai-ariston-washing-machine-repair-in-dubai-ariston-cooker-repair-in-dubai-ariston-oven-repair-in-dubai-ariston-appliances-maintenance-in-dubai-ariston-refrigerator-fix-repa/">Ariston</a>
+                  <a href="#/ariston-fridge-repair-in-dubai-ariston-washing-machine-repair-in-dubai-ariston-cooker-repair-in-dubai-ariston-Hot Plate-repair-in-dubai-ariston-appliances-maintenance-in-dubai-ariston-refrigerator-fix-repa/">Ariston</a>
 
                   <span>&nbsp;-&nbsp;</span>
 
-                  <a href="#/beko-fridge-repair-in-dubai-beko-washing-machine-repair-in-dubai-beko-cooker-repair-in-dubai-beko-oven-repair-in-dubai-beko-appliances-maintenance-in-dubai-beko-refrigerator-fix-repairs-service-in-dub/">Beko</a>
+                  <a href="#/beko-fridge-repair-in-dubai-beko-washing-machine-repair-in-dubai-beko-cooker-repair-in-dubai-beko-Hot Plate-repair-in-dubai-beko-appliances-maintenance-in-dubai-beko-refrigerator-fix-repairs-service-in-dub/">Beko</a>
 
                   <span>&nbsp;-&nbsp;</span>
 
-                  <a href="#/blomberg-fridge-repair-in-dubai-blomberg-washing-machine-repair-in-dubai-blomberg-cooker-repair-in-dubai-blomberg-oven-repair-in-dubai-blomberg-appliances-maintenance-in-dubai-blomberg-refrigerator-fi/">Blomberg</a>
+                  <a href="#/blomberg-fridge-repair-in-dubai-blomberg-washing-machine-repair-in-dubai-blomberg-cooker-repair-in-dubai-blomberg-Hot Plate-repair-in-dubai-blomberg-appliances-maintenance-in-dubai-blomberg-refrigerator-fi/">Blomberg</a>
 
                   <span>&nbsp;-&nbsp;</span>
 
@@ -649,36 +630,36 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
 
                   <span>&nbsp;-&nbsp;</span>
 
-                  <a href="#/fagor-fridge-repair-in-dubai-fagor-washing-machine-repair-in-dubai-fagor-cooker-repair-in-dubai-fagor-oven-repair-in-dubai-fagor-appliances-maintenance-in-dubai-fagor-refrigerator-fix-repairs-service/">Fagor</a>
+                  <a href="#/fagor-fridge-repair-in-dubai-fagor-washing-machine-repair-in-dubai-fagor-cooker-repair-in-dubai-fagor-Hot Plate-repair-in-dubai-fagor-appliances-maintenance-in-dubai-fagor-refrigerator-fix-repairs-service/">Fagor</a>
 
                   <span>&nbsp;-&nbsp;</span>
 
-                  <a href="#/fisher-and-paykel-fridge-repair-in-dubai-fisher-and-paykel-washing-machine-repair-in-dubai-fisher-and-paykel-cooker-repair-in-dubai-fisher-and-paykel-oven-repair-in-dubai-fisher-and-paykel-appliances/">Fisher and Paykel</a>
+                  <a href="#/fisher-and-paykel-fridge-repair-in-dubai-fisher-and-paykel-washing-machine-repair-in-dubai-fisher-and-paykel-cooker-repair-in-dubai-fisher-and-paykel-Hot Plate-repair-in-dubai-fisher-and-paykel-appliances/">Fisher and Paykel</a>
 
                   <span>&nbsp;-&nbsp;</span>
 
-                  <a href="#/foster-appliances-services-foster-dishwasher-repair-service-in-dubai-foster-cooking-range-repair-service-in-dubai-foster-cooktop-repair-service-in-dubai-foster-oven-repair-in-dubai-foster-rangetop-r/">Foster</a>
+                  <a href="#/foster-appliances-services-foster-dishwasher-repair-service-in-dubai-foster-cooking-range-repair-service-in-dubai-foster-cooktop-repair-service-in-dubai-foster-Hot Plate-repair-in-dubai-foster-rangetop-r/">Foster</a>
 
                   <span>&nbsp;-&nbsp;</span>
 
-                  <a href="#/gaggenau-fridge-repair-in-dubai-gaggenau-washing-machine-repair-in-dubai-gaggenau-cooker-repair-in-dubai-gaggenau-oven-repair-in-dubai-gaggenau-appliances-maintenance-in-dubai-gaggenau-refrigerator-fi/">Gaggenau</a>
+                  <a href="#/gaggenau-fridge-repair-in-dubai-gaggenau-washing-machine-repair-in-dubai-gaggenau-cooker-repair-in-dubai-gaggenau-Hot Plate-repair-in-dubai-gaggenau-appliances-maintenance-in-dubai-gaggenau-refrigerator-fi/">Gaggenau</a>
 
                   <span>&nbsp;-&nbsp;</span>
 
-                  <a href="#/hitachi-fridge-repair-in-dubai-hitachi-washing-machine-repair-in-dubai-hitachi-cooker-repair-in-dubai-hitachi-oven-repair-in-dubai-hitachi-appliances-maintenance-in-dubai-hitachi-refrigerator-fix-repa/">Hitachi</a>
+                  <a href="#/hitachi-fridge-repair-in-dubai-hitachi-washing-machine-repair-in-dubai-hitachi-cooker-repair-in-dubai-hitachi-Hot Plate-repair-in-dubai-hitachi-appliances-maintenance-in-dubai-hitachi-refrigerator-fix-repa/">Hitachi</a>
 
                   <span>&nbsp;-&nbsp;</span>
 
-                  <a href="#/hoover-fridge-repair-in-dubai-hoover-washing-machine-repair-in-dubai-hoover-cooker-repair-in-dubai-hoover-oven-repair-in-dubai-hoover-appliances-maintenance-in-dubai-hoover-refrigerator-fix-repairs-se/">Hoover</a>
+                  <a href="#/hoover-fridge-repair-in-dubai-hoover-washing-machine-repair-in-dubai-hoover-cooker-repair-in-dubai-hoover-Hot Plate-repair-in-dubai-hoover-appliances-maintenance-in-dubai-hoover-refrigerator-fix-repairs-se/">Hoover</a>
 
                   <span>&nbsp;-&nbsp;</span>
 
-                  <a href="#/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-oven-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa/">Indesit </a>
-                  |<a href="#/lg-fridge-repair-in-dubai-lg-washing-machine-repair-in-dubai-lg-cooker-repair-in-dubai-lg-oven-repair-in-dubai-lg-appliances-maintenance-in-dubai-lg-refrigerator-fix-repairs-service-in-dubai-lg-dishwa/"> LG</a>
+                  <a href="#/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-Hot Plate-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa/">Indesit </a>
+                  |<a href="#/lg-fridge-repair-in-dubai-lg-washing-machine-repair-in-dubai-lg-cooker-repair-in-dubai-lg-Hot Plate-repair-in-dubai-lg-appliances-maintenance-in-dubai-lg-refrigerator-fix-repairs-service-in-dubai-lg-dishwa/"> LG</a>
 
                   <span>&nbsp;-&nbsp;</span>
 
-                  <a href="#/sub-zero-fridge-repair-in-dubai-sub-zero-washing-machine-repair-in-dubai-sub-zero-cooker-repair-in-dubai-sub-zero-oven-repair-in-dubai-sub-zero-appliances-maintenance-in-dubai-sub-zero-refrigerator-fi/">Sub Zero</a>
+                  <a href="#/sub-zero-fridge-repair-in-dubai-sub-zero-washing-machine-repair-in-dubai-sub-zero-cooker-repair-in-dubai-sub-zero-Hot Plate-repair-in-dubai-sub-zero-appliances-maintenance-in-dubai-sub-zero-refrigerator-fi/">Sub Zero</a>
 
                   <span>&nbsp;-&nbsp;</span>
 
@@ -686,11 +667,11 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
 
                   <span>&nbsp;-&nbsp;</span>
 
-                  <a href="#/whirlpool-fridge-repair-in-dubai-whirlpool-washing-machine-repair-in-dubai-whirlpool-cooker-repair-in-dubai-whirlpool-oven-repair-in-dubai-whirlpool-appliances-maintenance-in-dubai-whirlpool-refrigera/">Whirlpool</a>
+                  <a href="#/whirlpool-fridge-repair-in-dubai-whirlpool-washing-machine-repair-in-dubai-whirlpool-cooker-repair-in-dubai-whirlpool-Hot Plate-repair-in-dubai-whirlpool-appliances-maintenance-in-dubai-whirlpool-refrigera/">Whirlpool</a>
 
                   <span>&nbsp;-&nbsp;</span>
 
-                  <a href="#/zanussi-fridge-repair-in-dubai-zanussi-washing-machine-repair-in-dubai-zanussi-cooker-repair-in-dubai-zanussi-oven-repair-in-dubai-zanussi-appliances-maintenance-in-dubai-zanussi-refrigerator-fix-repa/">Zanussi</a>
+                  <a href="#/zanussi-fridge-repair-in-dubai-zanussi-washing-machine-repair-in-dubai-zanussi-cooker-repair-in-dubai-zanussi-Hot Plate-repair-in-dubai-zanussi-appliances-maintenance-in-dubai-zanussi-refrigerator-fix-repa/">Zanussi</a>
 
                   <span>&nbsp;-&nbsp;</span>
 
@@ -706,7 +687,7 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
 
                   <span>&nbsp;-&nbsp;</span>
 
-                  <a href="#/bompani-fridge-repair-in-dubai-bompani-washing-machine-repair-in-dubai-bompani-cooker-repair-in-dubai-bompani-oven-repair-in-dubai-bompani-appliances-maintenance-in-dubai-bompani-refrigerator-fix-repa/">Bompani</a>
+                  <a href="#/bompani-fridge-repair-in-dubai-bompani-washing-machine-repair-in-dubai-bompani-cooker-repair-in-dubai-bompani-Hot Plate-repair-in-dubai-bompani-appliances-maintenance-in-dubai-bompani-refrigerator-fix-repa/">Bompani</a>
 
                   <span>&nbsp;-&nbsp;</span>
 
@@ -714,19 +695,19 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
 
                   <span>&nbsp;-&nbsp;</span>
 
-                  <a href="#/brandt-fridge-repair-in-dubai-brandt-washing-machine-repair-in-dubai-brandt-cooker-repair-in-dubai-brandt-oven-repair-in-dubai-brandt-appliances-maintenance-in-dubai-brandt-refrigerator-fix-repairs-se/">Brandt</a>
+                  <a href="#/brandt-fridge-repair-in-dubai-brandt-washing-machine-repair-in-dubai-brandt-cooker-repair-in-dubai-brandt-Hot Plate-repair-in-dubai-brandt-appliances-maintenance-in-dubai-brandt-refrigerator-fix-repairs-se/">Brandt</a>
 
                   <span>&nbsp;-&nbsp;</span>
 
-                  <a href="#/gibson-fridge-repair-in-dubai-gibson-washing-machine-repair-in-dubai-gibson-cooker-repair-in-dubai-gibson-oven-repair-in-dubai-gibson-appliances-maintenance-in-dubai-gibson-refrigerator-fix-repairs-se/">Gibson</a>
+                  <a href="#/gibson-fridge-repair-in-dubai-gibson-washing-machine-repair-in-dubai-gibson-cooker-repair-in-dubai-gibson-Hot Plate-repair-in-dubai-gibson-appliances-maintenance-in-dubai-gibson-refrigerator-fix-repairs-se/">Gibson</a>
 
                   <span>&nbsp;-&nbsp;</span>
 
-                  <a href="#/gorenje-fridge-repair-in-dubai-gorenje-washing-machine-repair-in-dubai-gorenje-cooker-repair-in-dubai-gorenje-oven-repair-in-dubai-gorenje-appliances-maintenance-in-dubai-gorenje-refrigerator-fix-repa/">Gorenje</a>
+                  <a href="#/gorenje-fridge-repair-in-dubai-gorenje-washing-machine-repair-in-dubai-gorenje-cooker-repair-in-dubai-gorenje-Hot Plate-repair-in-dubai-gorenje-appliances-maintenance-in-dubai-gorenje-refrigerator-fix-repa/">Gorenje</a>
 
                   <span>&nbsp;-&nbsp;</span>
 
-                  <a href="#/hisense-fridge-repair-in-dubai-hisense-washing-machine-repair-in-dubai-hisense-cooker-repair-in-dubai-hisense-oven-repair-in-dubai-hisense-appliances-maintenance-in-dubai-hisense-refrigerator-fix-repa/">Hisense</a>
+                  <a href="#/hisense-fridge-repair-in-dubai-hisense-washing-machine-repair-in-dubai-hisense-cooker-repair-in-dubai-hisense-Hot Plate-repair-in-dubai-hisense-appliances-maintenance-in-dubai-hisense-refrigerator-fix-repa/">Hisense</a>
 
                   <span>&nbsp;-&nbsp;</span>
 
@@ -738,7 +719,7 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
 
                   <span>&nbsp;-&nbsp;</span>
 
-                  <a href="#/panasonic-fridge-repair-in-dubai-panasonic-washing-machine-repair-in-dubai-panasonic-cooker-repair-in-dubai-panasonic-oven-repair-in-dubai-panasonic-appliances-maintenance-in-dubai-panasonic-refrigera/">Panasonic</a>
+                  <a href="#/panasonic-fridge-repair-in-dubai-panasonic-washing-machine-repair-in-dubai-panasonic-cooker-repair-in-dubai-panasonic-Hot Plate-repair-in-dubai-panasonic-appliances-maintenance-in-dubai-panasonic-refrigera/">Panasonic</a>
 
                   <span>&nbsp;-&nbsp;</span>
 
@@ -754,7 +735,7 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
 
                   <span>&nbsp;-&nbsp;</span>
 
-                  <a href="#/haier-fridge-repair-in-dubai-haier-washing-machine-repair-in-dubai-haier-cooker-repair-in-dubai-haier-oven-repair-in-dubai-haier-appliances-maintenance-in-dubai-haier-refrigerator-fix-repairs-service/">Haier</a>
+                  <a href="#/haier-fridge-repair-in-dubai-haier-washing-machine-repair-in-dubai-haier-cooker-repair-in-dubai-haier-Hot Plate-repair-in-dubai-haier-appliances-maintenance-in-dubai-haier-refrigerator-fix-repairs-service/">Haier</a>
 
                   <span>&nbsp;-&nbsp;</span>
 
@@ -762,15 +743,15 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
 
                   <span>&nbsp;-&nbsp;</span>
 
-                  <a href="#/marvel-fridge-repair-in-dubai-marvel-washing-machine-repair-in-dubai-marvel-cooker-repair-in-dubai-marvel-oven-repair-in-dubai-marvel-appliances-maintenance-in-dubai-marvel-refrigerator-fix-repairs-se/">Marvel</a>
+                  <a href="#/marvel-fridge-repair-in-dubai-marvel-washing-machine-repair-in-dubai-marvel-cooker-repair-in-dubai-marvel-Hot Plate-repair-in-dubai-marvel-appliances-maintenance-in-dubai-marvel-refrigerator-fix-repairs-se/">Marvel</a>
 
                   <span>&nbsp;-&nbsp;</span>
 
-                  <a href="#/miele-fridge-repair-in-dubai-miele-washing-machine-repair-in-dubai-miele-cooker-repair-in-dubai-miele-oven-repair-in-dubai-miele-appliances-maintenance-in-dubai-miele-refrigerator-fix-repairs-service/">Miele</a>
+                  <a href="#/miele-fridge-repair-in-dubai-miele-washing-machine-repair-in-dubai-miele-cooker-repair-in-dubai-miele-Hot Plate-repair-in-dubai-miele-appliances-maintenance-in-dubai-miele-refrigerator-fix-repairs-service/">Miele</a>
 
                   <span>&nbsp;-&nbsp;</span>
 
-                  <a href="#/maytag-fridge-repair-in-dubai-maytag-washing-machine-repair-in-dubai-maytag-cooker-repair-in-dubai-maytag-oven-repair-in-dubai-maytag-appliances-maintenance-in-dubai-maytag-refrigerator-fix-repairs-se/">Maytag</a>
+                  <a href="#/maytag-fridge-repair-in-dubai-maytag-washing-machine-repair-in-dubai-maytag-cooker-repair-in-dubai-maytag-Hot Plate-repair-in-dubai-maytag-appliances-maintenance-in-dubai-maytag-refrigerator-fix-repairs-se/">Maytag</a>
 
                   <span>&nbsp;-&nbsp;</span>
 
@@ -786,11 +767,11 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
 
                   <span>&nbsp;-&nbsp;</span>
 
-                  <a href="#/admiral-fridge-repair-in-dubai-admiral-washing-machine-repair-in-dubai-admiral-cooker-repair-in-dubai-admiral-oven-repair-in-dubai-admiral-appliances-maintenance-in-dubai-admiral-refrigerator-fix-repa/">Admiral</a>
+                  <a href="#/admiral-fridge-repair-in-dubai-admiral-washing-machine-repair-in-dubai-admiral-cooker-repair-in-dubai-admiral-Hot Plate-repair-in-dubai-admiral-appliances-maintenance-in-dubai-admiral-refrigerator-fix-repa/">Admiral</a>
 
                   <span>&nbsp;-&nbsp;</span>
 
-                  <a href="#/aftron-fridge-repair-in-dubai-aftron-washing-machine-repair-in-dubai-aftron-cooker-repair-in-dubai-aftron-oven-repair-in-dubai-aftron-appliances-maintenance-in-dubai-aftron-refrigerator-fix-repairs-se/">Aftron</a>
+                  <a href="#/aftron-fridge-repair-in-dubai-aftron-washing-machine-repair-in-dubai-aftron-cooker-repair-in-dubai-aftron-Hot Plate-repair-in-dubai-aftron-appliances-maintenance-in-dubai-aftron-refrigerator-fix-repairs-se/">Aftron</a>
 
                   <span>&nbsp;-&nbsp;</span>
 
@@ -829,7 +810,7 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                  <img className="" src={`${import.meta.env.BASE_URL}/img/benafit-acimg.jpg`} alt="Oven Repair" />
+                  <img className="" src={`${import.meta.env.BASE_URL}/img/benafit-acimg.jpg`} alt="Hot Plate Repair" />
                 </div>
               </div>
               <div className="col-lg-4">
@@ -969,5 +950,5 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
   );
 };
 
-export default OvenRepairDetail;
+export default HotPlateRepairDetail;
 
