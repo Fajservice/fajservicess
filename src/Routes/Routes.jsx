@@ -221,6 +221,18 @@ export const router = createHashRouter([
         path: "/oven-repair-service/",
         element: <OvenRepairService></OvenRepairService>,
       },
+      {
+        path: "/hot-plate-repair/",
+        element: <HotPlateRepair />
+      },
+      {
+        path: "/pizza-oven-maintenance/",
+        element: <PizzaOvenMaintenance />
+      },
+      {
+        path: "/gas-cooker-repair/",
+        element: <GasRangeRepair />
+      },
 
      
       {
