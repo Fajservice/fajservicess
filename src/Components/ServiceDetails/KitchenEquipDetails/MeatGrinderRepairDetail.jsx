@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/KitchenEquipments/FAQs/PizzaOvenMaintenanceFaqs.json';
+import data from '../../../Data/KitchenEquipments/FAQs/MeatGrinderRepairFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
@@ -10,14 +10,14 @@ import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import Slider from "react-slick";
-import testimonial_data from '../../../Data/KitchenEquipments/Testmonials/PizzaOvenMaintenanceTestimonials.json';
+import testimonial_data from '../../../Data/KitchenEquipments/Testmonials/MeatGrinderRepairTestimonials.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
 
 // import { Link } from "react-router-dom";
 
-const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
+const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "/img/testimonialbg.jpg"
@@ -118,8 +118,8 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Commercial Pizza Oven Maintenance & Repair Servicing Dubai</title>
-        <meta name="description" content="FAJ offers reliable pizza oven maintenance and repair services in Dubai. Call 04 3300002 to book your commercial or residential pizza oven AMC today."></meta>
+        <title>Meat Grinder Repair & Maintenance Services Dubai</title>
+        <meta name="description" content="Need meat grinder repair in Dubai? FAJ offers expert repair services near me. Call us now for fast and reliable meat grinder repair at 043300002."></meta>
       </HelmetProvider>
       <HeaderForm />
 
@@ -127,9 +127,8 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">Do you want an Pizza Oven repair that does not cause a fortune?</h2>
-            <p>Do you want a pizza oven maintenance that is pocket friendly? FAJ Technical Services LLC are experts in repairing and maintaining services. Being the top experts in pizza oven repair, we do it with perfection. Our knowledgeable technicians make sure your pizza oven runs smoothly and produces the deliciously crispy crusts and cheesy treats you want. For excellent repairs that improve your pizza experience, trust FAJ Technical Services LLC. We care about the quality of your appliances.</p>
+            <h2 className="cs_fs_30">Do you want an effective meat grinder repair service in Dubai?</h2>
+            <p>For flawless operation of your appliance, trust FAJ Professional's meat grinder repair services. Our technicians expertly identify and resolve problems, taking care of issues like electrical problems, motor problems, and blade malfunctions. Put your trust in us to bring your meat grinder back to life, offering a more affordable option than purchasing a new one. We put a high priority on client satisfaction and work to prolong the life of your appliance by providing timely service.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -143,25 +142,23 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
         {/* Maintenance Contract */}
         <MaintenanceContract />
 
-        {/* Pizza Oven Repair Nearby You */}
+        {/* Meat Grinder Repair Nearby You */}
 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Pizza Oven Maintenance" /> */}
-                <h3 className="cs_fs_24 mb-1">Pizza Oven Repair Nearby You</h3>
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Meat Grinder Repair" /> */}
+                <h3 className="cs_fs_24 mb-1">Meat Grinder Repair Nearby You</h3>
 
                 <p className="mb-2">
-
                   It’s common to face issues with cooking appliances from time to time, whether your induction hob suddenly stops working, your gas stove won’t stay lit when you need it, or your electric hob keeps turning on and off.
                   <br />
                   The important thing to remember is that these problems should be addressed by a qualified technician. Fast Services can help you arrange a professional <Link to="/gas-cooker-repair-service/"> gas range repair </Link> to fix your faulty cooker
-
                 </p>
 
 
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Pizza Oven Technical Inspection Fee</h3>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Meat Grinder Technical Inspection Fee</h3>
                 <p className="mb-0">
                   The technical inspection fee is AED 157, which covers diagnosis, transportation, and reinstallation in Dubai premises.
                   <br />
@@ -170,8 +167,8 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Pizza Oven Maintenance" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/kitchen-equipment.jpg`} alt="Pizza Oven Maintenance" />
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Meat Grinder Repair" /> */}
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/meat-grinder-repair.jpeg`} alt="Meat Grinder Repair" />
 
               </div>
             </div>
@@ -194,15 +191,15 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
         {/* Most common Cooker faults: */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">Reliable Pizza oven repair service</h3>
-            <p>FAJ Technical Services has a top-notch pizza oven service. Our team of skilled technicians is expert at handling a wide range of gas pizza oven repair problems. We can help with everything from electrical problems to inconsistent heating. We are aware of how important it is to keep your pizza oven working, and our devoted staff is committed to offering timely and effective repair services. If you are searching for pizza oven repair near me, then stop wasting your time. You can rely on us to get reliable solutions that guarantee your pizza oven operates at its peak efficiency and consistently produces perfectly cooked pizzas.</p>
+            <h3 className="cs_fs_30">Searching for a meat grinder repair near me</h3>
+            <p>There's no need to search any farther if you're looking for a reliable meat mixer repair service in your area. FAJ is your go-to local provider for easy and quick appliance repairs for both residential and business use. We can save you time and effort by having our staff respond to your meat grinder problems quickly—just give us a call. Whether the problem is with the motor, blade, pulley, or any other part, our skilled experts investigate its underlying causes and provide a solution that meets your needs completely.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Hob-Repair-Service-in-Dubai-UAE.jpeg`} alt="Pizza Oven Maintenance" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Hob-Repair-Service-in-Dubai-UAE.jpeg`} alt="Meat Grinder Repair" />
               </div>
               <div className="col-md-6">
-                <h4>Expert Pizza Oven technician</h4>
-                <p>With extensive knowledge and experience in maintaining a wide variety of pizza ovens, from classic brick models to modern, high-tech units, our technicians bring unmatched expertise to the table. Our specialists handle every repair with accuracy and efficiency because they receive ongoing training and stay up-to-date on the newest developments in the industry. Their passion for fixing things enables them to precisely identify problems, resolving anything from control panel glitches to heating element malfunctions. They make sure that each component is inspected and brought back to full functioning with extreme care. Our team recognizes the importance of client satisfaction. In addition to their superior technical abilities, our technicians place a high value on providing exceptional customer service.</p>
+                <h4>Meat grinder maintenance service</h4>
+                <p>The lifespan of your meat grinder depends on preventive maintenance, and FAJ Professional is excellent at offering meat mixer maintenance. To guarantee optimum performance, our technicians carry out in-depth inspections, lubricate parts, and replace worn-out components. Frequent meat grinder service keeps your meat grinder operating more efficiently and helps to avoid unexpected malfunctions. For thorough and reasonably priced meat mixer service services that will keep your appliance operating at its best for years to come, rely on FAJ Professional.</p>
               </div>
             </div>
           </div>
@@ -318,7 +315,7 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
         {/*Why should you choose us? */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="cs_fs_30">Searching for pizza oven repair near me</h3>
+            <h3 className="cs_fs_30">Why choose us for keema machine repair?</h3>
             
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -335,18 +332,8 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-xl-6">
-                <p>If you're looking for "pizza oven service near me," FAJ Technical Services is the place to go. We recognize how crucial it is to have a trustworthy local service provider. Our teams are positioned strategically to guarantee timely service requests and effective resolution of your pizza oven repair needs. You can rely on us to provide a prompt and practical resolution to your pizza oven problems.</p>
-                <p class="mb-0 pb-0">Following are the types of pizza oven.</p>
-                <ul class="mt-0">
-                    <li>brick pizza oven</li>
-                    <li>wood fired pizza oven</li>
-                    <li>electric pizza oven</li>
-                    <li>electric stone pizza oven</li>
-                    <li>gas pizza oven</li>
-                </ul>
+                <p className="mb-2">A meat grinder is an essential kitchen tool that you can use to make finely minced beef and other ingredients. If your meat grinder goes out of service. Don’t panic! As we are here to save you from trouble. Our knowledgeable technicians provide thorough repairs because they are familiar with the complexities of keema machines. When choosing FAJ Professional for keema machine repair, efficiency and knowledge are guaranteed. Our team takes care of everything from uneven grinding to structural issues to guarantee your machine runs smoothly and consistently produces finely minced meat. Our dedication to providing prompt, high-quality service and solutions distinguishes us in the repair sector.</p>
               </div>
-
-
             </div>
           </div>
         </section>
@@ -579,8 +566,8 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
 
                 <p className="mb-0">
                   <Link to="/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b> Daewoo Pizza Oven Repair</b>
-                  </Link>: We provide expert services for Daewoo appliance repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo Pizza Oven, refrigerator, washing machine, dryer and more.
+                    <b> Daewoo Meat Grinder Repair</b>
+                  </Link>: We provide expert services for Daewoo appliance repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo Meat Grinder, refrigerator, washing machine, dryer and more.
                 </p>
 
                 <p className="mb-0">
@@ -802,7 +789,7 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                  <img className="" src={`${import.meta.env.BASE_URL}/img/benafit-acimg.jpg`} alt="Pizza Oven Maintenance" />
+                  <img className="" src={`${import.meta.env.BASE_URL}/img/benafit-acimg.jpg`} alt="Meat Grinder Repair" />
                 </div>
               </div>
               <div className="col-lg-4">
@@ -942,5 +929,5 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
   );
 };
 
-export default PizzaOvenMaintenanceDetail;
+export default MeatGrinderRepairDetail;
 

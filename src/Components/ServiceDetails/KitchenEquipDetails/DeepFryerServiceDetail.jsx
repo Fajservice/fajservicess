@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/KitchenEquipments/FAQs/PizzaOvenMaintenanceFaqs.json';
+import data from '../../../Data/KitchenEquipments/FAQs/DeepFryerServiceFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
@@ -10,14 +10,14 @@ import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import Slider from "react-slick";
-import testimonial_data from '../../../Data/KitchenEquipments/Testmonials/PizzaOvenMaintenanceTestimonials.json';
+import testimonial_data from '../../../Data/KitchenEquipments/Testmonials/DeepFryerServiceTestimonials.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
 
 // import { Link } from "react-router-dom";
 
-const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
+const DeepFryerServiceDetail = ({ subtitle, title, bgImg }) => {
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "/img/testimonialbg.jpg"
@@ -118,8 +118,8 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Commercial Pizza Oven Maintenance & Repair Servicing Dubai</title>
-        <meta name="description" content="FAJ offers reliable pizza oven maintenance and repair services in Dubai. Call 04 3300002 to book your commercial or residential pizza oven AMC today."></meta>
+        <title>Gas Deep Fryer Service & Electric Fryer Repair Dubai</title>
+        <meta name="description" content="Need gas deep fryer service in Dubai? FAJ offers reliable commercial deep fryer repair & sustainable solutions. Call now for service at 04 3300002"></meta>
       </HelmetProvider>
       <HeaderForm />
 
@@ -127,9 +127,8 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">Do you want an Pizza Oven repair that does not cause a fortune?</h2>
-            <p>Do you want a pizza oven maintenance that is pocket friendly? FAJ Technical Services LLC are experts in repairing and maintaining services. Being the top experts in pizza oven repair, we do it with perfection. Our knowledgeable technicians make sure your pizza oven runs smoothly and produces the deliciously crispy crusts and cheesy treats you want. For excellent repairs that improve your pizza experience, trust FAJ Technical Services LLC. We care about the quality of your appliances.</p>
+            <h2 className="cs_fs_30">Do you want a top-quality deep fryer service that is also light on your pocket?</h2>
+            <p>Then, you have come to the right place. We at FAJ Technical Services have more than 10 years of experience in repairing and maintaining services. We are a team of skilled and expert technicians who are not only good at their jobs but have the ability to build trusted relationships so that the clients feel at home whenever they hire us. We take high pride in providing top quality service to our clients. Our motto is to ensure that every client is satisfied and content with the repairs. We encourage open communication with our clients. Rely on us, to get the best repairs and maintenance.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -143,25 +142,23 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
         {/* Maintenance Contract */}
         <MaintenanceContract />
 
-        {/* Pizza Oven Repair Nearby You */}
+        {/* Deep Fryer Repair Nearby You */}
 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Pizza Oven Maintenance" /> */}
-                <h3 className="cs_fs_24 mb-1">Pizza Oven Repair Nearby You</h3>
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Deep Fryer Service" /> */}
+                <h3 className="cs_fs_24 mb-1">Deep Fryer Repair Nearby You</h3>
 
                 <p className="mb-2">
-
                   It’s common to face issues with cooking appliances from time to time, whether your induction hob suddenly stops working, your gas stove won’t stay lit when you need it, or your electric hob keeps turning on and off.
                   <br />
                   The important thing to remember is that these problems should be addressed by a qualified technician. Fast Services can help you arrange a professional <Link to="/gas-cooker-repair-service/"> gas range repair </Link> to fix your faulty cooker
-
                 </p>
 
 
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Pizza Oven Technical Inspection Fee</h3>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Deep Fryer Technical Inspection Fee</h3>
                 <p className="mb-0">
                   The technical inspection fee is AED 157, which covers diagnosis, transportation, and reinstallation in Dubai premises.
                   <br />
@@ -170,8 +167,8 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Pizza Oven Maintenance" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/kitchen-equipment.jpg`} alt="Pizza Oven Maintenance" />
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Deep Fryer Service" /> */}
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/commercial-deep-fryer.jpg`} alt="Deep Fryer Service" />
 
               </div>
             </div>
@@ -194,15 +191,15 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
         {/* Most common Cooker faults: */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">Reliable Pizza oven repair service</h3>
-            <p>FAJ Technical Services has a top-notch pizza oven service. Our team of skilled technicians is expert at handling a wide range of gas pizza oven repair problems. We can help with everything from electrical problems to inconsistent heating. We are aware of how important it is to keep your pizza oven working, and our devoted staff is committed to offering timely and effective repair services. If you are searching for pizza oven repair near me, then stop wasting your time. You can rely on us to get reliable solutions that guarantee your pizza oven operates at its peak efficiency and consistently produces perfectly cooked pizzas.</p>
+            <h3 className="cs_fs_30">Commercial deep fryer repair and maintenance</h3>
+            <p>We provide deep fryer repair services that meet your unique requirements. Our expert team is committed to making sure your deep fryer runs well and keeps your kitchen operating efficiently. We stay in constant communication with our clients during the repair process because we value their feedback and openness. We can handle any issues related to your commercial gas deep fryer repair. You can rely on us to provide excellent fryer repair services and long term solutions. Our goal is your satisfaction. Choose FAJ Technical Services because we provide sustainability and effectiveness.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Hob-Repair-Service-in-Dubai-UAE.jpeg`} alt="Pizza Oven Maintenance" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Hob-Repair-Service-in-Dubai-UAE.jpeg`} alt="Deep Fryer Service" />
               </div>
               <div className="col-md-6">
-                <h4>Expert Pizza Oven technician</h4>
-                <p>With extensive knowledge and experience in maintaining a wide variety of pizza ovens, from classic brick models to modern, high-tech units, our technicians bring unmatched expertise to the table. Our specialists handle every repair with accuracy and efficiency because they receive ongoing training and stay up-to-date on the newest developments in the industry. Their passion for fixing things enables them to precisely identify problems, resolving anything from control panel glitches to heating element malfunctions. They make sure that each component is inspected and brought back to full functioning with extreme care. Our team recognizes the importance of client satisfaction. In addition to their superior technical abilities, our technicians place a high value on providing exceptional customer service.</p>
+                <h4>Signs you need commercial fryer repair</h4>
+                <p>You should not ignore any sort of abnormality in your deep fryer because it can lead to serious implications. Inconsistent heating is one of the most common signs. It is obvious that there may be a problem with the heating element or thermostat if your fryer is not heating up evenly. Furthermore, if you notice a decrease in the quality of the frying, like food that cooks more slowly or unevenly, it's probably a sign of deeper issues. This might be connected to problems with the oil filtering system in the fryer, which might require cleaning or replacement. Another red flag is unusual noise coming from your fryer. If any of these issues appear, connect with us to get the fryer repair done as soon as possible.</p>
               </div>
             </div>
           </div>
@@ -318,7 +315,7 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
         {/*Why should you choose us? */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="cs_fs_30">Searching for pizza oven repair near me</h3>
+            <h3 className="cs_fs_30">Kitchen fryer repair at your doorstep</h3>
             
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -335,15 +332,25 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-xl-6">
-                <p>If you're looking for "pizza oven service near me," FAJ Technical Services is the place to go. We recognize how crucial it is to have a trustworthy local service provider. Our teams are positioned strategically to guarantee timely service requests and effective resolution of your pizza oven repair needs. You can rely on us to provide a prompt and practical resolution to your pizza oven problems.</p>
-                <p class="mb-0 pb-0">Following are the types of pizza oven.</p>
-                <ul class="mt-0">
-                    <li>brick pizza oven</li>
-                    <li>wood fired pizza oven</li>
-                    <li>electric pizza oven</li>
-                    <li>electric stone pizza oven</li>
-                    <li>gas pizza oven</li>
-                </ul>
+                <p className="mb-2">Our team is aware of how important commercial deep fryer maintenance is to the success of business.Enjoy trouble free kitchen deep fryer maintenance at your door. Our skilled technicians specialize in identifying and fixing problems with different kinds of kitchen fryers. We can help with anything from electrical problems to uneven heating. We know how important it is for your kitchen's fryer to be operating correctly, and our staff is dedicated to offering fast and effective repair services. When it comes to kitchen fryer repairs, we value your time and strive to deliver quick service.</p>
+                <p class="mb-0 pb-0">We offer repair services for the following types of fryer issues.</p>
+                <div className="row">
+                  <div className="col-md-6">
+                    <ul class="mt-0 my-0">
+                      <li>Gas fryer</li>
+                      <li>Countertop gas deep fryer</li>
+                      <li>Gas deep fryer</li>
+                      <li>Commercial gas deep fryer</li>
+                    </ul>
+                  </div>
+                  <div className="col-md-6">
+                    <ul class="mt-0 my-0">
+                      <li>Electric deep fryer</li>
+                      <li>Industrial electric deep fryer</li>
+                      <li>Commercial electric deep fryer</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
 
 
@@ -579,8 +586,8 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
 
                 <p className="mb-0">
                   <Link to="/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b> Daewoo Pizza Oven Repair</b>
-                  </Link>: We provide expert services for Daewoo appliance repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo Pizza Oven, refrigerator, washing machine, dryer and more.
+                    <b> Daewoo Deep Fryer Repair</b>
+                  </Link>: We provide expert services for Daewoo appliance repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo Deep Fryer, refrigerator, washing machine, dryer and more.
                 </p>
 
                 <p className="mb-0">
@@ -802,7 +809,7 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                  <img className="" src={`${import.meta.env.BASE_URL}/img/benafit-acimg.jpg`} alt="Pizza Oven Maintenance" />
+                  <img className="" src={`${import.meta.env.BASE_URL}/img/benafit-acimg.jpg`} alt="Deep Fryer Service" />
                 </div>
               </div>
               <div className="col-lg-4">
@@ -942,5 +949,5 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
   );
 };
 
-export default PizzaOvenMaintenanceDetail;
+export default DeepFryerServiceDetail;
 
