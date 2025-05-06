@@ -1,11 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInAlWahaCommunity.json';
+import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInAlJafza.json';
 import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../../../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
-import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMaintenance";
 import QuickGuide from "../../../QuickGuide/QuickGuide";
@@ -13,13 +12,13 @@ import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
-import testimonial from '../../../../Data/AcData/AcTestimonial/AcServiceTestimonials.json';
+import testimonial_data from '../../../../Data/AcData/AcTestimonial/AcServiceTestimonials.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
 
-const AcRepairInAlWahaCommunityDetail = ({ subtitle, title, bgImg }) => {
+const AcRepairInDubaiHealthcareCityDetail = ({ subtitle, title, bgImg }) => {
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "/img/testimonialbg.jpg"
@@ -76,8 +75,8 @@ const AcRepairInAlWahaCommunityDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
     <HelmetProvider>
-        <title>Best AC Services In Al Waha Community - AC Maintenance #1</title>
-        <meta name="description" content="FAJ 043300002 AC Services in Al Waha Community Dubai. We are experts in central air conditioner repair and maintenance near me Dubai AC fix"></meta>
+        <title>Best AC Services In Dubai Healthcare City - A/C Repairing #1</title>
+        <meta name="description" content="If you are finding AC Services in Dubai Healthcare City. Contact us 043300002 for Air Conditioner maintenance, repairs near me Dubai A/C fix"></meta>
     </HelmetProvider>
     <HeaderForm />
     <div className="cs_service_details">
@@ -106,8 +105,8 @@ const AcRepairInAlWahaCommunityDetail = ({ subtitle, title, bgImg }) => {
             <div className="container">
                 <div className="row gx-md-5">
                     <div className="col-md-6">
-                        <h3 className="cs_fs_24 mb-1">Best AC Repair in Al Waha Community</h3>
-                        <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> in Al Waha Community, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
+                        <h3 className="cs_fs_24 mb-1">Best AC Repair in Healthcare City</h3>
+                        <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Healthcare City, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
                         <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                         <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
                         <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
@@ -174,10 +173,6 @@ const AcRepairInAlWahaCommunityDetail = ({ subtitle, title, bgImg }) => {
                             <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
                             <li> <strong> Enhanced Comfort: </strong> Regular
                                 AC servicing in Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
-
-
-
-
                         </ul>
                     </div>
                 </div>
@@ -291,6 +286,7 @@ const AcRepairInAlWahaCommunityDetail = ({ subtitle, title, bgImg }) => {
 
         {/* The Benefits Of Regular AC Service*/}
         <BenefitAcMaintenance />
+
         {/* Why choose us AC */}
         <ACWhyChooseUs />
 
@@ -364,7 +360,7 @@ const AcRepairInAlWahaCommunityDetail = ({ subtitle, title, bgImg }) => {
                     data-add-slides="2" data-slides-per-view="responsive">
                     <div className="cs_slider_wrapper">
                         <Slider {...settings}>
-                            {testimonial.map((item, index) => (
+                            {testimonial_data.map((item, index) => (
                                 <div key={index} className="cs_slide wow fadeInLeft">
                                     <div className="cs_testimonial cs_style_1 position-relative">
                                         <div className="cs_testimonial_content cs_white_bg position-relative">
@@ -397,7 +393,6 @@ const AcRepairInAlWahaCommunityDetail = ({ subtitle, title, bgImg }) => {
                     </div>
                 </div>
             </div>
-            {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
         </section>
 
         {/* FAQ's */}
@@ -442,4 +437,4 @@ const AcRepairInAlWahaCommunityDetail = ({ subtitle, title, bgImg }) => {
   )
 }
 
-export default AcRepairInAlWahaCommunityDetail
+export default AcRepairInDubaiHealthcareCityDetail

@@ -78,7 +78,7 @@ const AcRepairInDubaiInternetCityDetail = ({ subtitle, title, bgImg }) => {
         <>
             <HelmetProvider>
                 <title>AC Services Dubai Internet City - AC Repair & Cleaning Dubai</title>
-                <meta name="description" content="Call an 043300002 AC Services in Al Badaa Dubai. FAJ here help in split & central AC (Air Conditioner) cleaning service near me Dubai Fixing aircon"></meta>
+                <meta name="description" content="Get same day ac service in Dubai Internet City and the best FCU, central cooling, ceiling AC repair & maintenance with low cost ac cleaning service"></meta>
             </HelmetProvider>
             <HeaderForm />
             <div className="cs_service_details">

@@ -77,8 +77,8 @@ const AcRepairInImpzDetail = ({ subtitle, title, bgImg }) => {
     return (
         <>
             <HelmetProvider>
-                <title>Appliances Services in IMPZ - Washing Machine Repair Dubai</title>
-                <meta name="description" content="WWe offer best appliance services in IMPZ. Get fridge repair near me in Dubai. Book 043300002 for oven, dishwasher, washing machine maintenance"></meta>
+                <title>Best AC Services In IMPZ - AC Maintenance - AC Repairing #1</title>
+                <meta name="description" content="Call 043300002 AC Services in IMPZ Dubai. We are experts in central & split air conditioner repairing and maintenance near me Dubai AC fixing"></meta>
             </HelmetProvider>
             <HeaderForm />
             <div className="cs_service_details">

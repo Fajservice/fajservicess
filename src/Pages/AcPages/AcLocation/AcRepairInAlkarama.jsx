@@ -1,17 +1,17 @@
 import React from 'react'
 import BreadCumb from "../../../Components/Common/BreadCumb";
-import AcRepairInDipDetail from '../../../Components/ServiceDetails/AcDetail/AcLocation/AcRepairInDipDetail';
-const AcRepairInDip = () => {
+import AcRepairInAlkaramaDetail from '../../../Components/ServiceDetails/AcDetail/AcLocation/AcRepairInAlkaramaDetail';
+const AcRepairInAlkarama = () => {
   return (
     <div className="serviceDetails">
     <BreadCumb
         // bgImg="/img/page_heading_1.jpg"
         bgImg="/img/air-condition.jpg"
-        Title="AC Service in DIP"
+        Title="AC Service in Al Karama"
     ></BreadCumb>
-    <AcRepairInDipDetail />
+    <AcRepairInAlkaramaDetail />
 </div>
   )
 }
 
-export default AcRepairInDip
+export default AcRepairInAlkarama

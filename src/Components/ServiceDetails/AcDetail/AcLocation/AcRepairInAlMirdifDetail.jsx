@@ -80,7 +80,7 @@ const AcRepairInAlMirdifDetail = ({ subtitle, title, bgImg }) => {
     <>
       <HelmetProvider>
         <title>AC Services In Al Mirdif - Inverter AC Repairs Near Me #1</title>
-        <meta name="description" content="Get AC Services in Academy City Dubai. FAJ is here to help you with air conditioner repair near me & ceiling, HVAC maintenance company near me "></meta>
+        <meta name="description" content="FAJ Provides Inverter AC Services in Al Mirdif, Our Technicians are Experts in HVAC Air Condition Maintenance & Repair near me Dubai AC Fixing.."></meta>
       </HelmetProvider>
       <HeaderForm />
       <div className="cs_service_details">

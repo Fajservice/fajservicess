@@ -1,11 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInAlWahaCommunity.json';
+import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInDip.json';
 import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../../../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
-import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMaintenance";
 import QuickGuide from "../../../QuickGuide/QuickGuide";
@@ -19,7 +18,7 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
 
-const AcRepairInAlWahaCommunityDetail = ({ subtitle, title, bgImg }) => {
+const AcRepairInOldTownDetail = ({ subtitle, title, bgImg }) => {
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "/img/testimonialbg.jpg"
@@ -72,12 +71,12 @@ const AcRepairInAlWahaCommunityDetail = ({ subtitle, title, bgImg }) => {
                 }
             }
         ]
-    };
+    }
   return (
     <>
     <HelmetProvider>
-        <title>Best AC Services In Al Waha Community - AC Maintenance #1</title>
-        <meta name="description" content="FAJ 043300002 AC Services in Al Waha Community Dubai. We are experts in central air conditioner repair and maintenance near me Dubai AC fix"></meta>
+        <title>Central AC Services In Old Town Dubai - Air Con Fix Dubai #1</title>
+        <meta name="description" content="Get the Best AC Services in Old Town Dubai with FAJ experts in Central Cooling, FCU, HVAC Air Conditioner Maintenance & Repair near me Dubai"></meta>
     </HelmetProvider>
     <HeaderForm />
     <div className="cs_service_details">
@@ -106,8 +105,8 @@ const AcRepairInAlWahaCommunityDetail = ({ subtitle, title, bgImg }) => {
             <div className="container">
                 <div className="row gx-md-5">
                     <div className="col-md-6">
-                        <h3 className="cs_fs_24 mb-1">Best AC Repair in Al Waha Community</h3>
-                        <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> in Al Waha Community, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
+                        <h3 className="cs_fs_24 mb-1">Best AC Repair in Old Town</h3>
+                        <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> in Old Town, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
                         <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                         <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
                         <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
@@ -442,4 +441,4 @@ const AcRepairInAlWahaCommunityDetail = ({ subtitle, title, bgImg }) => {
   )
 }
 
-export default AcRepairInAlWahaCommunityDetail
+export default AcRepairInOldTownDetail
