@@ -77,7 +77,7 @@ const AcRepairInDipDetail = ({ subtitle, title, bgImg }) => {
         <>
             <HelmetProvider>
                 <title>Best AC Service DIP - Air Conditioning Repair Near Me</title>
-                <meta name="description" content="Call an 043300002 AC Services in Al Badaa Dubai. FAJ here help in split & central AC (Air Conditioner) cleaning service near me Dubai Fixing aircon"></meta>
+                <meta name="description" content="Get sameday AC Services in DIP Dubai. We are experts in central, split, hvac air condition maintenance, repairing near me Dubai AC fix service"></meta>
             </HelmetProvider>
             <HeaderForm />
             <div className="cs_service_details">
