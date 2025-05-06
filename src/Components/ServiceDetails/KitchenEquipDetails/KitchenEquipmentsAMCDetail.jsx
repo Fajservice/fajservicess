@@ -1,23 +1,23 @@
-
-
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/KitchenEquipments/FAQs/FoodWarmerRepairFaqs.json';
+import data from '../../../Data/KitchenEquipments/FAQs/KitchenEquipmentsAMCFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
 import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
+import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol.jsx";
 import Slider from "react-slick";
-import testimonial_data from '../../../Data/KitchenEquipments/Testmonials/FoodWarmerRepairTestimonials.json';
+import testimonial_data from '../../../Data/KitchenEquipments/Testmonials/KitchenEquipmentsAMCTestimonials.json';
+import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
 
 // import { Link } from "react-router-dom";
 
-const FoodWarmerRepairDetail = ({ subtitle, title, bgImg }) => {
+const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "/img/testimonialbg.jpg"
@@ -118,17 +118,17 @@ const FoodWarmerRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Commercial Food Warmer Repair - Bakery Equipment Maintenance</title>
-        <meta name="description" content="Need food warmer repair in Dubai? Call FAJ at 04 3300002 for fast service & maintenance on heated holding cabinets and thermalization."></meta>
+        <title>Best Appliances Service Dubai - Appliance Repair Near Me</title>
+        <meta name="description" content="We offer an appliances repair near you. Get expert in refrigerator, fridge, washing machine, dryer, dishwasher, gas stove, oven service near me Dubai"></meta>
       </HelmetProvider>
       <HeaderForm />
 
       <div className="cs_service_details">
+
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30">Are you facing issues with your food warming equipment?</h2>
-            <p>Worried about facing quality deteriorations of the cooked food? Well you are in the right place as FAJ has got you covered for all your commercial food warmer repair and maintenance needs. We specialize in fixing numerous makes and models of food warmers in Dubai and UAE. Our expertise and decades of hands on food warmer repair and maintenance experience makes us unbeatable in both cost and quality. From countertop food warmers to banquet cabinets, we got you covered for all your repair and servicing issues.
-            </p>
+            <h2 className="cs_fs_30">CHOOSE Kitchen Equipment FOR SAME-DAY REPAIRS IN DUBAI</h2>
+            <p>When it comes to kitchen equipment maintenance, essential items such as cooking ranges, electric hot plates, combi ovens, microwaves, juicers, ice makers, espresso machines, refrigeration units, freezers, chillers, beverage dispensers, blenders, dough mixers, and vacuum packing machines require timely servicing. Inoperable equipment can lead to costly downtime, severely impacting your profitability. Since 2010, FAJ has been committed to providing professional catering equipment maintenance, annual maintenance contracts (AMC), project services, and product sales specifically for hotels, restaurants, and cafés in Dubai and Sharjah. Our goal is to ensure a prompt and efficient response to all your catering equipment repair and service needs. Whether you have an existing service contract with us or need immediate assistance for an emergency breakdown, please contact our Service Department at +971507464712, or conveniently book online for our Planned Preventative Maintenance (PPM) services.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -142,78 +142,29 @@ const FoodWarmerRepairDetail = ({ subtitle, title, bgImg }) => {
         {/* Maintenance Contract */}
         <MaintenanceContract />
 
-        {/* Food Warmer Repair Nearby You */}
-
+        {/* Best Home Appliance Service Center */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <div className="row gx-md-5">
+            <div className="row gx-md-5 mb-2">
               <div className="col-md-6">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Food Warmer Repair" /> */}
-                <h3 className="cs_fs_24 mb-1">Food Warmer Repair Nearby You</h3>
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" /> */}
+                <h3 className="cs_fs_24 mb-1">Commercial Kitchen Equipment Repair</h3>
 
                 <p className="mb-2">
-                  It’s common to face issues with cooking appliances from time to time, whether your induction hob suddenly stops working, your gas stove won’t stay lit when you need it, or your electric hob keeps turning on and off.
-                  <br />
-                  The important thing to remember is that these problems should be addressed by a qualified technician. Fast Services can help you arrange a professional <Link to="/gas-cooker-repair-service/"> gas range repair </Link> to fix your faulty cooker
+                FAJ Technical Services LLC is a rapidly growing company based in Dubai that specializes in commercial catering services for hotels, restaurants, and cafes. We focus on repairing a variety of equipment, including commercial cooking ranges, ovens, dishwashers, refrigeration units, freezers, and chiller units.<br/>
+                Our experienced technicians are available for emergency services as well as annual maintenance contract (AMC) services in Dubai and Sharjah.
                 </p>
-
-
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Food Warmer Technical Inspection Fee</h3>
-                <p className="mb-0">
-                  The technical inspection fee is AED 157, which covers diagnosis, transportation, and reinstallation in Dubai premises.
-                  <br />
-                  Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.
-                </p>
+                <p>We have a standard fee for technical inspections that covers diagnosis and transportation within Dubai and Sharjah. Please note that this fee is non-refundable. This flat rate applies specifically to the technical inspection charge, but it does not include the cost of any repair or spare parts needed.</p>
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Food Warmer Repair" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/food-warmar.jpg`} alt="Food Warmer Repair" />
-
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.jpg`} alt="Post Image" />
               </div>
             </div>
-
-            <div className="appointment-col border-small-top pt-3">
-              <p>
-                If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.
-                <br />
-                Timing: Mon-Sat 8:00 AM to 6:00 PM - Sunday 12:00 PM to 6:00 PM. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.
-              </p>
-              <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
-                  <WhatsappIconButton />
-                  <CallNowButton />
-                </div>
-              </div>
-            </div>
+            <AppliancesAppointmentCol></AppliancesAppointmentCol>
           </div>
-        </section>
-        {/* Most common Cooker faults: */}
-        <section className="section cs_py_30">
-          <div className="container">
-            <h3 className="cs_fs_30">Providing solution to every type of Food Warmer</h3>
-            <p>Can't keep your food product warm enough? You're in luck because FAJ Professional offers food warmer repair and service in commercial, institutional, and industrial sectors. We provide maintenance and repairs for all types of food warmer, including buffet tables and transit cabinets. Give us a call the next time you need food warmer repair, and we can assist. A selection of the types of food warmer we fix are shown below.</p>
-            <div className="row align-items-center">
-              <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Hob-Repair-Service-in-Dubai-UAE.jpeg`} alt="Food Warmer Repair" />
-              </div>
-              <div className="col-md-6">
-                <ul>
-                  <li>commercial hot counter food warmer</li>
-                  <li>Food display warmer</li>
-                  <li>Upright heated food warmer</li>
-                  <li>Food mobile warmer</li>
-                  <li>Mobile electrical food warmer</li>
-                  <li>Commercial electrical food warmer</li>
-                  <li>Restaurant kitchen heated food warmer</li>
-                  <li>Hotel Heated Holding Cabinet Electric Food Warmer</li>
-                  <li>Single door food warmer</li>
-                  <li>Double door food warmer</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
+        </section>       
 
         {/* The Most Common Problems with Home Appliances */}
         <section className="section cs_py_30">
@@ -322,40 +273,59 @@ const FoodWarmerRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/*Why should you choose us? */}
+        {/* Why is Appliance Maintenance Service Important in Dubai? */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="cs_fs_30">What is a commercial food warmer and why does it need servicing?</h3>
-            <p>A food warmer is used to cook food in a slow, low or moderate temperature and also regulates a desired temperature setting for your cooked food. If you are in the business of freshly cooked food provision, then a food warmer is an essential equipment and it requires routine food warmer repair and maintenance. Serving warm food after it's cooked is the key to customer’s satisfaction for these businesses. If the food warming equipment breaks down then you have no option but to call in commercial food warmer repair experts. While it is encouraged to diagnose equipment dysfunctionality, it is never recommended to fix food warming equipment yourself as this can lead to more harm than good.<br/>Some signs that your food warmer is not functioning properly:</p>
+            
+            <h3>Our Expertise in Maintaining Commercial Kitchen Equipment</h3>
+                <p>Our team of well-trained technicians boasts extensive experience and expertise in the field. We specialize in maintaining and servicing a wide range of commercial kitchen equipment, including:</p>
             <div className="row align-items-center">
-              <div className="col-xl-6">
-                <iframe
-                  className="bordered-img blue-border"
-                  width="100%"
-                  height="350"
-                  src="https://www.youtube.com/embed/SLGpswtzn-w"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
+              <div className="col-md-6">
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/dishwasher.webp`} alt="Post Image" />
               </div>
-
-              <div className="col-xl-6">
-                <ul>
-                  <li>Food overheating or underheating</li>
-                  <li>Faulty gasket</li>
-                  <li>Leakage of holding container</li>
-                  <li>Abnormal or loud noises</li>
-                  <li>Temperature gauge is not working</li>
-                  <li>Dials, handles or components broken</li>
-                  <li>Door not closing or malfunctioning</li>
-                </ul>
-                <p>If you require food warmer repair services and your commercial food warming appliance is experiencing any of these issues, feel free to call us and book an inspection. We make sure to send our expert technicians on the same day.</p>
+              <div className="col-md-6">
+                
+                <div className="row">
+                  <div className="col-md-6">
+                    <ul className="mb-0">
+                      <li>Commercial Dishwashers</li>
+                      <li>Commercial Food Processors</li>
+                      <li>Commercial Juicer Machines</li>
+                      <li>Commercial Kitchen Hoods</li>
+                      <li>Commercial Electric Ovens</li>
+                      <li>Commercial Sandwich Grillers</li>
+                      <li>Commercial Gas Ovens</li>
+                      <li>Commercial Food Steamers</li>
+                      <li>Commercial Air Fryer Ovens</li>
+                      <li>Commercial Kitchen Fridges</li>
+                      <li>Commercial Electric Cookers</li>
+                      <li>Commercial Steamer Ovens</li>
+                      <li>Commercial Gas Stoves</li>
+                      <li>Commercial Kitchen Contractors</li>
+                      <li>Commercial Kitchen Refrigerators</li>
+                    </ul>
+                  </div>
+                  <div className="col-md-6">
+                    <ul className="mb-0">
+                      <li>KitchenAid Commercial Mixers</li>
+                      <li>Commercial Kitchen Ranges</li>
+                      <li>Commercial Stove Tops</li>
+                      <li>Commercial Kitchen Steamers</li>
+                      <li>Commercial Orange Juicer Machines</li>
+                      <li>Commercial Electric Pressure Cookers</li>
+                      <li>Commercial Kitchen Grills</li>
+                      <li>Commercial Cooking Ranges</li>
+                      <li>Commercial Electric Stoves</li>
+                      <li>Commercial Kitchen Freezers</li>
+                      <li>Commercial Gas Hobs</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </section>
+
         {/* The Benefits Of appliances Service Dubai */}
         <section className="section cs_py_30 appliances-benifit-sec">
           <div className="container">
@@ -442,22 +412,40 @@ const FoodWarmerRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        <section className="section cs_py_30 bg-dark-blue text-light">
-          <div className="container text-center">
-            <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
-            <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
-            <a
-              href="files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
-              className="btn-green-yellow"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Click Here to Save on Energy Bills
-            </a>
+         {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
+         <section className="section cs_py_30 bg-light-gray">
+          <div className="container">
+            <h3 className="cs_fs_30">Commercial Kitchen Equipment and Maintenance Contracts</h3>
+            <p>At FAJ Technical Services LLC, we understand the pivotal role that commercial kitchen equipment plays in your business’s success. Daily breakdowns can disrupt your operations and compromise the quality of the food you serve to your customers. That’s why we offer top-tier Commercial Kitchen Equipment Maintenance and Repair Services</p>
 
-
+            <div className="row align-items-center">
+              <div className="col-xl-6">
+                <p className='mb-0'><strong>Our expertise encompasses:</strong></p>
+                <ul>
+                  <li> <strong>  Problem Analysis: </strong> Our experts can swiftly diagnose issues with your commercial kitchen equipment. </li>
+                  <li> <strong> Extensive Knowledge: </strong> We understand the intricacies of commercial kitchen equipment and their various uses. </li>
+                  <li> <strong> Effective Maintenance Techniques: </strong> We employ industry-best practices to keep your kitchen equipment in peak condition. </li>
+                  <li> <strong> Time Management: </strong> We value your time and strive for swift service.</li>
+                  <li> <strong> Preventive Maintenance: </strong> Our proactive approach, including preventive maintenance services, helps prevent future breakdowns.</li>
+                  <li> <strong> Customer Satisfaction: </strong> Your satisfaction remains our top priority.</li>
+                </ul>
+                <p>When your commercial kitchen equipment requires attention, trust our expert technicians for reliable maintenance and repair services.</p>
+              </div>
+              <div className="col-xl-6">
+                <iframe
+                  className="bordered-img blue-border"
+                  width="100%"
+                  height="350"
+                  src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
           </div>
-        </section>
+        </section >
 
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
@@ -495,7 +483,7 @@ const FoodWarmerRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive</p>
+                    <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive.</p>
                   </div>
                 </div>
 
@@ -524,7 +512,7 @@ const FoodWarmerRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same Dubai location</p>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same in Dubai location.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -546,65 +534,64 @@ const FoodWarmerRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* We specialise in Hob services for the following brands  */}
+        {/* We specialise in Appliances services for the following brands */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3>We specialise in Hob services for the following brands </h3>
+            <h3>We specialise in Appliances services for the following brands</h3>
             <div className="row">
               <div className="col-12">
-
                 <p className="mb-0">
-                  <Link to="/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/">
-                    <b>Smeg Cooker Repair</b>
-                  </Link>: FAJ is here to support you when things go wrong. We understand that your Smeg appliances are essential for daily life, keeping your food fresh and meals cooked.
+                  <Link to="/lg-fridge-repair-in-dubai-lg-washing-machine-repair-in-dubai-lg-cooker-repair-in-dubai-lg-oven-repair-in-dubai-lg-appliances-maintenance-in-dubai-lg-refrigerator-fix-repairs-service-in-dubai-lg-dishwa/">
+                    <b>LG Appliance Service</b>
+                  </Link>
+                  : FAJ is here to support you when things go wrong. We understand that your LG appliances are essential for daily life, keeping your food fresh and meals cooked.
                 </p>
-
                 <p className="mb-0">
-                  <Link to="/siemens-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b>Siemens Cooker Repair</b>
-                  </Link>:If you are facing any problems with your Siemens oven, stove, refrigerator, washer dryer, or dishwasher, contact the FAJ team for same-day repair service in Dubai.
+                  <Link to="/samsung-fridge-repair-in-dubai-samsung-washing-machine-repair-in-dubai-samsung-cooker-repair-in-dubai-samsung-oven-repair-in-dubai-samsung-appliances-maintenance-in-dubai-samsung-refrigerator-fix-repa/">
+                    <b>Samsung Appliance Service</b>
+                  </Link>
+                  : If you are facing any problems with your Samsung refrigerator, washer dryer, or dishwasher, contact the FAJ team for same-day repair service in Dubai.
                 </p>
-
                 <p className="mb-0">
-                  <Link to="/la-germania-cooking-range-repair-in-dubai-la-germania-oven-repair-in-dubai-la-germania-cooker-repair-in-dubai-la-germania-cooker-oven-maintenance-service-in-dubai-refrigerator-repair-in-dubai-fridge-r/">
-                    <b> La Germania Stove and Cooker Repair</b>
-                  </Link>: When you need La Germania oven repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE.
+                  <Link to="/electrolux-home-appliances-repair/">
+                    <b>Electrolux Appliance Service</b>
+                  </Link>
+                  : When you need Electrolux appliance repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE.
                 </p>
-
                 <p className="mb-0">
                   <Link to="/bosch-home-appliances-repair/">
-                    <b> Bosch Stove Repair</b>
-                  </Link>: If you are looking for the best Bosch appliance repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch oven repair and are recognized as the leading Bosch appliance service provider in the area.
+                    <b>Bosch Appliance Service</b>
+                  </Link>
+                  : If you are looking for the best Bosch refrigerator repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch home appliance repair and are recognized as the leading Bosch cooking range, Washing machine, refrigerator service provider in the area.
                 </p>
-
                 <p className="mb-0">
                   <Link to="/viking-appliances-service/">
-                    <b> Viking Range and Oven Repair</b>
-                  </Link>: Your Viking appliances may require repair or maintenance and we can help. For high-quality Viking stove and oven repair in Dubai, rely on FAJ.
+                    <b>Viking Appliance Service</b>
+                  </Link>
+                  : Your Viking appliances may require repair or maintenance and we can help. For high-quality Viking refrigerator, range or oven repair in Dubai, rely on FAJ.
                 </p>
-
                 <p className="mb-0">
                   <Link to="/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b> Daewoo Food Warmer Repair</b>
-                  </Link>: We provide expert services for Daewoo appliance repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo Food Warmer, refrigerator, washing machine, dryer and more.
+                    <b>Daewoo Appliance Service</b>
+                  </Link>
+                  : We provide expert services for Daewoo appliance repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo refrigerator, dishwasher, dryer and more.
                 </p>
-
                 <p className="mb-0">
-                  <Link to="/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub/">
-                    <b> Neff Gas Stove Repair</b>
-                  </Link>: Are you concerned about your Neff appliance malfunctioning and searching for a reliable Neff Gas Stove repair company in Dubai? Contact us for same-day service!
+                  <Link to="/siemens-home-appliances-repair/">
+                    <b>Siemens Appliance Service</b>
+                  </Link>
+                  : Are you concerned about your Siemens washing machine malfunctioning and searching for a reliable Siemens appliances company in Dubai? Contact us for same-day service!
                 </p>
-
                 <p className="mb-0">
                   <Link to="/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b> Teka Gas Stove Repair</b>
-                  </Link>: If you're searching for the best Teka appliance repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka gas stove, refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
+                    <b>Teka Appliance Service</b>
+                  </Link>
+                  : If you're searching for the best Teka appliances repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
                 </p>
 
-
                 <br />
-
-                <p><a href="#/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/">AEG</a>
+                <p>
+                  <a href="#/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/">AEG</a>
 
                   <span>&nbsp;-&nbsp;</span>
 
@@ -617,10 +604,6 @@ const FoodWarmerRepairDetail = ({ subtitle, title, bgImg }) => {
                   <span>&nbsp;-&nbsp;</span>
 
                   <a href="#/blomberg-fridge-repair-in-dubai-blomberg-washing-machine-repair-in-dubai-blomberg-cooker-repair-in-dubai-blomberg-oven-repair-in-dubai-blomberg-appliances-maintenance-in-dubai-blomberg-refrigerator-fi/">Blomberg</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/electrolux-home-appliances-repair/">Electrolux</a>
 
                   <span>&nbsp;-&nbsp;</span>
 
@@ -652,8 +635,15 @@ const FoodWarmerRepairDetail = ({ subtitle, title, bgImg }) => {
 
                   <span>&nbsp;-&nbsp;</span>
 
-                  <a href="#/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-oven-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa/">Indesit </a>
-                  |<a href="#/lg-fridge-repair-in-dubai-lg-washing-machine-repair-in-dubai-lg-cooker-repair-in-dubai-lg-oven-repair-in-dubai-lg-appliances-maintenance-in-dubai-lg-refrigerator-fix-repairs-service-in-dubai-lg-dishwa/"> LG</a>
+                  <a href="#/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-oven-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa/">Indesit</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub/">Neff</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/">Smeg</a>
 
                   <span>&nbsp;-&nbsp;</span>
 
@@ -773,8 +763,7 @@ const FoodWarmerRepairDetail = ({ subtitle, title, bgImg }) => {
 
                   <span>&nbsp;-&nbsp;</span>
 
-                  <a href="#/unimac-washing-machine-repair-in-dubai-unimac-dryer-repair-in-dubai-unimac-washer-dryer-repair-in-dubai-unimac-maintenance-in-dubai-unimac-laundry-service-in-dubai-unimac-dubai/">Unimac</a>
-                </p>
+                  <a href="#/unimac-washing-machine-repair-in-dubai-unimac-dryer-repair-in-dubai-unimac-washer-dryer-repair-in-dubai-unimac-maintenance-in-dubai-unimac-laundry-service-in-dubai-unimac-dubai/">Unimac</a></p>
 
               </div>
 
@@ -790,7 +779,21 @@ const FoodWarmerRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
+        {/* <section className="section cs_py_30 bg-dark-blue text-light">
+          <div className="container text-center">
+            <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
+            <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers! </p>
+            <a
+              href="files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
+              className="btn-green-yellow"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Click Here to Save on Energy Bills
+            </a>
 
+          </div>
+        </section> */}
 
         {/* white section with AC image */}
         {/* <section className="section cs_py_30">
@@ -808,7 +811,7 @@ const FoodWarmerRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                  <img className="" src={`${import.meta.env.BASE_URL}/img/benafit-acimg.jpg`} alt="Food Warmer Repair" />
+                  <img className="" src={`${import.meta.env.BASE_URL}/img/benafit-acimg.jpg`} alt="Post Image" />
                 </div>
               </div>
               <div className="col-lg-4">
@@ -826,9 +829,9 @@ const FoodWarmerRepairDetail = ({ subtitle, title, bgImg }) => {
         </section> */}
 
         {/* Brands section */}
-        {/* <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
+        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
           <div className="container">
-           
+
             <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
               data-variable-width="0" data-xs-slides="1" data-sm-slides="1" data-md-slides="1" data-lg-slides="2"
               data-add-slides="2" data-slides-per-view="responsive">
@@ -850,7 +853,8 @@ const FoodWarmerRepairDetail = ({ subtitle, title, bgImg }) => {
               </div>
             </div>
           </div>
-        </section> */}
+          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
+        </section>
 
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" data-background={`${import.meta.env.BASE_URL}${bgImg}`}>
@@ -948,5 +952,4 @@ const FoodWarmerRepairDetail = ({ subtitle, title, bgImg }) => {
   );
 };
 
-export default FoodWarmerRepairDetail;
-
+export default KitchenEquipmentsAMCDetail;

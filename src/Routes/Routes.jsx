@@ -120,9 +120,6 @@ import AcRepairInJumeirahBeachResidence from "../Pages/AcPages/AcLocation/AcRepa
 
 import OvenRepair from "../Pages/KitchenEquipPages/OvenRepair";
 import DeepFryerService from "../Pages/KitchenEquipPages/DeepFryerService";
-import MeatGrinderRepair from "../Pages/KitchenEquipPages/MeatGrinderRepair";
-import DoughMixerRepair from "../Pages/KitchenEquipPages/DoughMixerRepair";
-import FoodWarmerRepair from "../Pages/KitchenEquipPages/FoodWarmerRepair";
 import KitchenEquipmentAMC from "../Pages/KitchenEquipPages/KitchenEquipmentAMC";
 import KitchenEquipmentRepair from "../Pages/KitchenEquipPages/KitchenEquipmentRepair";
 
@@ -167,6 +164,10 @@ import AcRepairInDifc from "../Pages/AcPages/AcLocation/AcRepairInDifc";
 import AcRepairInAlBarsha from "../Pages/AcPages/AcLocation/AcRepairInAlBarsha";
 import AcRepairInAlRaffa from "../Pages/AcPages/AcLocation/AcRepairInAlRaffa";
 import AcRepairInOldTown from "../Pages/AcPages/AcLocation/AcRepairInOldTown";
+import FoodWarmerRepair from "../Pages/KitchenEquipPages/FoodWarmerRepair";
+import KitchenEquipmentsAMC from "../Pages/KitchenEquipmentsAMC";
+import MeatGrinderRepair from "../Pages/KitchenEquipPages/MeatGrinderRepair";
+import DoughMixerRepair from "../Pages/KitchenEquipPages/DoughMixerRepair";
 export const router = createHashRouter([
   {
     path: "/",
@@ -228,11 +229,11 @@ export const router = createHashRouter([
       },
       {
         path: "/meat-grinder-repair/",
-        element: <MeatGrinderRepair/>,
+        element: <MeatGrinderRepair ></MeatGrinderRepair>
       },
       {
         path: "/dough-mixer-repair",
-        element: <DoughMixerRepair/>,
+        element: <DoughMixerRepair />
       },
       {
         path: "/food-warmer-repair/",
@@ -299,19 +300,6 @@ export const router = createHashRouter([
       {
         path: "/appliances-amc-service/",
         element: <AppliancesMaintenanceContract />
-      },
-
-      {
-        path: "/hot-plate-repair/",
-        element: <HotPlateRepair />
-      },
-      {
-        path: "/pizza-oven-maintenance/",
-        element: <PizzaOvenMaintenance />
-      },
-      {
-        path: "/gas-cooker-repair/",
-        element: <GasRangeRepair />
       },
       {
         path: "/washing-machine-repair-service-dubai/",
