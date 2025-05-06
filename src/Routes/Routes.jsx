@@ -122,6 +122,12 @@ import AcRepairInEmiratesHills from "../Pages/AcPages/AcLocation/AcRepairInEmira
 import AcRepairInJLT from "../Pages/AcPages/AcLocation/AcRepairInJLT";
 import AcRepairInIndexTowerDifc from "../Pages/AcPages/AcLocation/AcRepairInIndexTowerDifc";
 import AcRepairInAlRashidiya from "../Pages/AcPages/AcLocation/AcRepairInAlRashidiya";
+import HotPlateRepair from "../Pages/KitchenEquipPages/HotPlateRepair";
+import PizzaOvenMaintenance from "../Pages/KitchenEquipPages/PizzaOvenMaintenance";
+import GasRangeRepair from "../Pages/KitchenEquipPages/GasRangeRepair";
+import DeepFryerService from "../Pages/KitchenEquipPages/DeepFryerService";
+import MeatGrinderRepair from "../Pages/KitchenEquipPages/MeatGrinderRepair";
+import DoughMixerRepair from "../Pages/KitchenEquipPages/DoughMixerRepair";
 export const router = createHashRouter([
   {
     path: "/",
@@ -178,6 +184,30 @@ export const router = createHashRouter([
       {
         path: "/oven-repair/",
         element: <OvenRepair />
+      },
+      {
+        path: "/hot-plate-repair/",
+        element: <HotPlateRepair />
+      },
+      {
+        path: "/pizza-oven-maintenance/",
+        element: <PizzaOvenMaintenance />
+      },
+      {
+        path: "/gas-cooker-repair/",
+        element: <GasRangeRepair />
+      },
+      {
+        path: "/deep-fryer-service/",
+        element: <DeepFryerService />
+      },
+      {
+        path: "/meat-grinder-repair/",
+        element: <MeatGrinderRepair />
+      },
+      {
+        path: "/dough-mixer-repair/",
+        element: <DoughMixerRepair />
       },
       {
         path: "/washing-machine-repair-service-dubai/",
