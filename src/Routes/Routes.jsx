@@ -128,6 +128,8 @@ import GasRangeRepair from "../Pages/KitchenEquipPages/GasRangeRepair";
 import DeepFryerService from "../Pages/KitchenEquipPages/DeepFryerService";
 import MeatGrinderRepair from "../Pages/KitchenEquipPages/MeatGrinderRepair";
 import DoughMixerRepair from "../Pages/KitchenEquipPages/DoughMixerRepair";
+import FoodWarmerRepair from "../Pages/KitchenEquipPages/FoodWarmerRepair";
+import KitchenEquipmentsAMC from "../Pages/KitchenEquipmentsAMC";
 export const router = createHashRouter([
   {
     path: "/",
@@ -208,6 +210,14 @@ export const router = createHashRouter([
       {
         path: "/dough-mixer-repair/",
         element: <DoughMixerRepair />
+      },
+      {
+        path: "/food-warmer-repair/",
+        element: <FoodWarmerRepair />
+      },
+      {
+        path: "/commercial-kitchen-equipment-amc/",
+        element: <KitchenEquipmentsAMC />
       },
       {
         path: "/washing-machine-repair-service-dubai/",
