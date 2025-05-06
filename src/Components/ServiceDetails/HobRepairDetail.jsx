@@ -153,14 +153,14 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
         {/* Maintenance Contract */}
         <MaintenanceContract />
 
-        {/* Same Day Cooking Range Repair and Service */}
+        {/* Same Day Cooking Range Repair & Service */}
 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
                 {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" /> */}
-                <h3 className="cs_fs_24 mb-1">Same Day Cooking Range Repair and Service</h3>
+                <h3 className="cs_fs_24 mb-1">Same Day Cooking Range Repair & Service</h3>
 
                 <p className="mb-2">
                   It’s pretty standard to experience issues with cooking appliances from time to time.
@@ -188,7 +188,7 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
             </div>
 
             <AppliancesAppointmentCol></AppliancesAppointmentCol>
-          
+
 
             {/* <div className="appointment-col border-small-top pt-3">
               <p>
@@ -214,8 +214,8 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <h3 className="cs_fs_30">Why is Induction Hob Maintenance Service Important in Dubai?</h3>
             <p>
-            Proper induction hob maintenance is essential for extending its lifespan and enhancing efficiency, especially in Dubai’s climate. Here are the main benefits:
-                        </p>
+              Proper induction hob maintenance is essential for extending its lifespan and enhancing efficiency, especially in Dubai’s climate. Here are the main benefits:
+            </p>
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Cooking-Range-Repair-Nearby-You.jpg`} alt="Post Image" />
@@ -223,13 +223,13 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-md-6">
                 <ul className="mb-0">
 
-<li> <strong>  Hob Extended Lifespan: </strong> Regular maintenance helps the induction hob last longer, saving on replacement costs. </li>
-<li> <strong>  Stove Improved Efficiency: </strong> A well-maintained induction hob uses less energy, leading to lower utility bills, which is essential in Dubai. </li>
-<li> <strong>  Hob Preventing Costly Repair: </strong> Catching minor issues early prevents them from escalating into expensive repairs. </li>
-<li> <strong>  Stove Preserving induction hob Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
-<li> <strong>  Cooker Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious. </li>
-<li> <strong>  Hob Cost-Effective: </strong> Maintenance costs are lower than early replacements or major repairs.  Investing in induction hob care ensures safety and efficiency and is a smart economic choice in Dubai. </li>
-<li> <strong>  Cooker Energy Efficiency: </strong> Regularly maintaining your induction hob can improve its efficiency and save you money. </li>
+                  <li> <strong>  Hob Extended Lifespan: </strong> Regular maintenance helps the induction hob last longer, saving on replacement costs. </li>
+                  <li> <strong>  Stove Improved Efficiency: </strong> A well-maintained induction hob uses less energy, leading to lower utility bills, which is essential in Dubai. </li>
+                  <li> <strong>  Hob Preventing Costly Repair: </strong> Catching minor issues early prevents them from escalating into expensive repairs. </li>
+                  <li> <strong>  Stove Preserving induction hob Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
+                  <li> <strong>  Cooker Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious. </li>
+                  <li> <strong>  Hob Cost-Effective: </strong> Maintenance costs are lower than early replacements or major repairs.  Investing in induction hob care ensures safety and efficiency and is a smart economic choice in Dubai. </li>
+                  <li> <strong>  Cooker Energy Efficiency: </strong> Regularly maintaining your induction hob can improve its efficiency and save you money. </li>
 
                 </ul>
               </div>
@@ -250,7 +250,7 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                    This indicates a communication issue in the stove/hob, often related to loose wiring or a faulty control board (PCB)</p>
+                      This indicates a communication issue in the stove/hob, often related to loose wiring or a faulty control board (PCB)</p>
                   </div>
                 </div>
               </div>
@@ -263,7 +263,7 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                    Induction electric hobs require magnetic cookware to function correctly, and non-magnetic cookware may not heat properly.
+                      Induction electric hobs require magnetic cookware to function correctly, and non-magnetic cookware may not heat properly.
                     </p>
                   </div>
                 </div>
@@ -277,7 +277,7 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                    This can be caused by burnt-on food from the induction hob, cookware residue, or heat marks.</p>
+                      This can be caused by burnt-on food from the induction hob, cookware residue, or heat marks.</p>
                   </div>
                 </div>
               </div>
@@ -290,7 +290,7 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                    Difficulty Sharing Power Between Burners: This may be indicated by an E8 error code and could mean a blown fuse on the main board</p>
+                      Difficulty Sharing Power Between Burners: This may be indicated by an E8 error code and could mean a blown fuse on the main board</p>
                   </div>
                 </div>
               </div>
@@ -302,7 +302,7 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                    This often indicates a stuck PCB electronic board, switch or button. Also, check the electrical wiring from inside the unit.</p>
+                      This often indicates a stuck PCB electronic board, switch or button. Also, check the electrical wiring from inside the unit.</p>
                   </div>
                 </div>
               </div>
@@ -314,8 +314,8 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Hob Not Responsive</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0"> 
-                    If the hob doesn't respond to touch, it could be due to a blown or tripped switch affecting the power supply or an inside wiring issue.</p>
+                    <p className="p-2 mb-0">
+                      If the hob doesn't respond to touch, it could be due to a blown or tripped switch affecting the power supply or an inside wiring issue.</p>
                   </div>
                 </div>
               </div>
@@ -327,7 +327,7 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                    This can occur if the cookware is not magnetic or sits unevenly on the cooking zone or hot plate.</p>
+                      This can occur if the cookware is not magnetic or sits unevenly on the cooking zone or hot plate.</p>
                   </div>
                 </div>
               </div>
@@ -339,7 +339,7 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                    This can happen if the heat is not circulated correctly or if there's a fan or heating thermostat issue.</p>
+                      This can happen if the heat is not circulated correctly or if there's a fan or heating thermostat issue.</p>
                   </div>
                 </div>
               </div>
@@ -375,18 +375,19 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
 
               <div className="col-xl-6">
                 <p className="mb-0">
-                We specialise in all types and brands of induction hobs, including built-in units.
+                  We specialise in all types and brands of induction hobs, including built-in units.
                 </p>
-              
+
                 <p className='mb-0'><strong>Our services include:</strong></p>
-                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                  <li> <strong>  Installation: </strong> Expert installation of various types and brands of home appliances, ensuring optimal performance and efficiency. </li>
-                  <li> <strong> Diagnostics: </strong> Comprehensive fault-finding services to effectively diagnose issues. We provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
-                  <li> <strong> Repair Service: </strong> Efficient repair services for all appliance components, ensuring a quick resolution to issues such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions! </li>
-                  <li> <strong> Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for
-                    the annual maintenance of your appliances. </li>
+                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
+
+                  <li> <strong>  Hob Installation: </strong> We provide professional installation of various types and brands of induction hobs to ensure optimal performance and efficiency./</li>
+                  <li> <strong>  Hob Diagnostics: </strong> Our team offers comprehensive fault-finding services to diagnose any issues effectively. We conduct eligibility assessments and provide detailed quotations to resolve any concerns with your system./</li>
+                  <li> <strong>  Hob Repair Service: </strong> We offer efficient repair services for all cooking hob components. Our team quickly addresses leaks, electrical failures, and system malfunctions./</li>
+                  <li> <strong> Hob Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for the yearly maintenance of your induction hob./</li>
+
                   <p className="mb-0">
-                    Regular maintenance is essential for optimal performance, efficiency, and longevity of your home appliances.
+                    Regular maintenance is essential for the optimal performance, efficiency, and longevity of your hob. Feel free to reach out if you need specific services or have any questions!
                   </p>
                 </ul>
 
@@ -484,7 +485,7 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-       
+
 
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
@@ -522,7 +523,7 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive</p>
+                    <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive.</p>
                   </div>
                 </div>
 
@@ -551,7 +552,7 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same Dubai location</p>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same in Dubai location.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -819,33 +820,33 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
 
 
 
-       {/* Brands section */}
-               <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
-                 <div className="container">
-       
-                   <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
-                     data-variable-width="0" data-xs-slides="1" data-sm-slides="1" data-md-slides="1" data-lg-slides="2"
-                     data-add-slides="2" data-slides-per-view="responsive">
-                     <div className="cs_slider_wrapper">
-                       <Slider {...settingBrands}>
-                         {brandsLogo_data.map((item, index) => (
-                           <div key={index} className="cs_slide wow fadeInLeft">
-       
-                             <div className="brandslogo-slide-container">
-                               <div className="brnadlogo">
-                                 <img className="w-100" src={`${import.meta.env.BASE_URL}${item.logo}`} alt="Avatar" />
-                               </div>
-                             </div>
-       
-                           </div>
-                         ))}
-                       </Slider>
-       
-                     </div>
-                   </div>
-                 </div>
-                 {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
-               </section>
+        {/* Brands section */}
+        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
+          <div className="container">
+
+            <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
+              data-variable-width="0" data-xs-slides="1" data-sm-slides="1" data-md-slides="1" data-lg-slides="2"
+              data-add-slides="2" data-slides-per-view="responsive">
+              <div className="cs_slider_wrapper">
+                <Slider {...settingBrands}>
+                  {brandsLogo_data.map((item, index) => (
+                    <div key={index} className="cs_slide wow fadeInLeft">
+
+                      <div className="brandslogo-slide-container">
+                        <div className="brnadlogo">
+                          <img className="w-100" src={`${import.meta.env.BASE_URL}${item.logo}`} alt="Avatar" />
+                        </div>
+                      </div>
+
+                    </div>
+                  ))}
+                </Slider>
+
+              </div>
+            </div>
+          </div>
+          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
+        </section>
 
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" data-background={`${import.meta.env.BASE_URL}${bgImg}`}>
