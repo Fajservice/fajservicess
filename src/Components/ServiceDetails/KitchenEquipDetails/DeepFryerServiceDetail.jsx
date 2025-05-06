@@ -2,21 +2,18 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/HomeAppData/DishwasherRepairFaqs.json';
+import data from '../../../Data/KitchenEquipments/FAQs/DeepFryerServiceFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
 import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
-
 import Slider from "react-slick";
-import testimonial_data from '../../../Data/HomeAppData/DishwasherRepairTestimonial.json';
-import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
+import testimonial_data from '../../../Data/KitchenEquipments/Testmonials/DeepFryerServiceTestimonials.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
-import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 
 // import { Link } from "react-router-dom";
 
@@ -57,6 +54,12 @@ const DeepFryerServiceDetail = ({ subtitle, title, bgImg }) => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
+
+    // autoplay: true,
+    // autoplaySpeed: 0,
+    // speed: 8000,
+    // pauseOnHover: true,
+    // cssEase: 'linear',
 
     responsive: [
       {
@@ -115,8 +118,8 @@ const DeepFryerServiceDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Best Appliances Service Dubai - Appliance Repair Near Me</title>
-        <meta name="description" content="We offer an appliances repair near you. Get expert in refrigerator, fridge, washing machine, dryer, dishwasher, gas stove, oven service near me Dubai"></meta>
+        <title>Gas Deep Fryer Service & Electric Fryer Repair Dubai</title>
+        <meta name="description" content="Need gas deep fryer service in Dubai? FAJ offers reliable commercial deep fryer repair & sustainable solutions. Call now for service at 04 3300002"></meta>
       </HelmetProvider>
       <HeaderForm />
 
@@ -124,12 +127,8 @@ const DeepFryerServiceDetail = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">Choose Dishwasher Service Center for Same-Day Repairs in Dubai</h2>
-            <p>
-              Since 2010, FAJ has been a trusted name in dishwasher repair and service in Dubai and Sharjah. Our skilled professionals are ready to assist with any brand, using high-quality tools for effective service.
-              <br /> We prioritise repairs over replacements, helping you save money and avoid the hassle of buying a new dishwasher. Rely on our experienced experts for fast and reliable dishwasher maintenance in Dubai!
-            </p>
+            <h2 className="cs_fs_30">Do you want a top-quality deep fryer service that is also light on your pocket?</h2>
+            <p>Then, you have come to the right place. We at FAJ Technical Services have more than 10 years of experience in repairing and maintaining services. We are a team of skilled and expert technicians who are not only good at their jobs but have the ability to build trusted relationships so that the clients feel at home whenever they hire us. We take high pride in providing top quality service to our clients. Our motto is to ensure that every client is satisfied and content with the repairs. We encourage open communication with our clients. Rely on us, to get the best repairs and maintenance.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -143,98 +142,93 @@ const DeepFryerServiceDetail = ({ subtitle, title, bgImg }) => {
         {/* Maintenance Contract */}
         <MaintenanceContract />
 
+        {/* Deep Fryer Repair Nearby You */}
 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" /> */}
-                <h3 className="cs_fs_24 mb-1">Dishwasher Repair and Service Near You</h3>
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Deep Fryer Service" /> */}
+                <h3 className="cs_fs_24 mb-1">Deep Fryer Repair Nearby You</h3>
 
                 <p className="mb-2">
-                  Has your dishwasher stopped working completely? Or is it running, but your dishes and cutlery aren't coming out as clean as they should?
-                  At FAJ, we understand that a machine breakdown is always inconvenient. That's why our team of experts is here to provide dishwasher repair and service appointments near you in Dubai and Sharjah.
-
+                  It’s common to face issues with cooking appliances from time to time, whether your induction hob suddenly stops working, your gas stove won’t stay lit when you need it, or your electric hob keeps turning on and off.
+                  <br />
+                  The important thing to remember is that these problems should be addressed by a qualified technician. Fast Services can help you arrange a professional <Link to="/gas-cooker-repair-service/"> gas range repair </Link> to fix your faulty cooker
                 </p>
 
 
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Dishwasher Technical Inspection Fee </h3>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Deep Fryer Technical Inspection Fee</h3>
                 <p className="mb-0">
                   The technical inspection fee is AED 157, which covers diagnosis, transportation, and reinstallation in Dubai premises.
-                  <br />Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.
-
+                  <br />
+                  Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.
                 </p>
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/dishwasher.webp`} alt="Post Image" />
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Deep Fryer Service" /> */}
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/commercial-deep-fryer.jpg`} alt="Deep Fryer Service" />
 
               </div>
             </div>
 
-            <AppliancesAppointmentCol></AppliancesAppointmentCol>
+            <div className="appointment-col border-small-top pt-3">
+              <p>
+                If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.
+                <br />
+                Timing: Mon-Sat 8:00 AM to 6:00 PM - Sunday 12:00 PM to 6:00 PM. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.
+              </p>
+              <div id="get-quote" className=" mt-3">
+                <div className="container d-flex justify-content-center align-items-center gap-3">
+                  <WhatsappIconButton />
+                  <CallNowButton />
+                </div>
+              </div>
+            </div>
           </div>
         </section>
-
-
-
-        {/* Why  */}
+        {/* Most common Cooker faults: */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">Why is Dishwasher Maintenance Service Important in Dubai?</h3>
-            <p>
-              Proper dishwasher maintenance is essential for extending its lifespan and enhancing efficiency, especially in Dubai’s climate. Here are the main benefits:
-            </p>
+            <h3 className="cs_fs_30">Commercial deep fryer repair and maintenance</h3>
+            <p>We provide deep fryer repair services that meet your unique requirements. Our expert team is committed to making sure your deep fryer runs well and keeps your kitchen operating efficiently. We stay in constant communication with our clients during the repair process because we value their feedback and openness. We can handle any issues related to your commercial gas deep fryer repair. You can rely on us to provide excellent fryer repair services and long term solutions. Our goal is your satisfaction. Choose FAJ Technical Services because we provide sustainability and effectiveness.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Cooking-Range-Repair-Nearby-You.jpg`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Hob-Repair-Service-in-Dubai-UAE.jpeg`} alt="Deep Fryer Service" />
               </div>
               <div className="col-md-6">
-                <ul className="mb-0">
-                  <li> <strong> Dishwasher Extended Lifespan: </strong> Regular maintenance helps the dishwasher last longer, saving on replacement costs. </li>
-                  <li> <strong> Dishwasher Improved Efficiency: </strong> A well-maintained dishwasher uses less energy, leading to lower utility bills, which is essential in Dubai. </li>
-                  <li> <strong> Dishwasher Preventing Costly Repair: </strong> Catching minor issues early prevents them from escalating into expensive repairs. </li>
-                  <li> <strong> Dishwasher Preserving induction hob Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
-                  <li> <strong> Dishwasher Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious. </li>
-                  <li> <strong> Dishwasher Cost-Effective: </strong> Maintenance costs are lower than early replacements or significant repairs. Investing in dishwasher care ensures safety and efficiency and is a wise economic choice in Dubai. </li>
-                  <li> <strong> Dishwasher Energy Efficiency: </strong> Regularly maintaining your dishwasher can improve efficiency and save you money. </li>
-
-                </ul>
+                <h4>Signs you need commercial fryer repair</h4>
+                <p>You should not ignore any sort of abnormality in your deep fryer because it can lead to serious implications. Inconsistent heating is one of the most common signs. It is obvious that there may be a problem with the heating element or thermostat if your fryer is not heating up evenly. Furthermore, if you notice a decrease in the quality of the frying, like food that cooks more slowly or unevenly, it's probably a sign of deeper issues. This might be connected to problems with the oil filtering system in the fryer, which might require cleaning or replacement. Another red flag is unusual noise coming from your fryer. If any of these issues appear, connect with us to get the fryer repair done as soon as possible.</p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Common Problems */}
-        <section className="section cs_py_30 bg-light-gray">
+        {/* The Most Common Problems with Home Appliances */}
+        <section className="section cs_py_30">
           <div className="container">
-            <h3 className="text-center">The Most Common Problems with Dishwashers  </h3>
+            <h3 className="text-center">The Most Common Problems with Home Appliances   </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Drainage Issues</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Problem</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Dishwasher machine water is pooling in the bottom of your dishwasher at the end of every cycle.
-                    </p>
+                    <p className="p-2 mb-0">Most fridge malfunctions are related to cooling issues, including problems with the defrost system, fan motor, compressor, or coils.</p>
                   </div>
                 </div>
               </div>
 
-
-
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Cycle Won’t Start</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishwashers Problem</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      When you press “start”, nothing happens. Your cycle doesn’t begin, and your dishwasher doesn’t seem to respond, despite the display panel appearing normal.
+                    <p className="p-2 mb-0">The most issues with dishwashers are bad cleaning and drying. Common water leaks and drainage. Some electrical issues or PCB failures.
                     </p>
                   </div>
                 </div>
@@ -243,74 +237,11 @@ const DeepFryerServiceDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Water Leaks </h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Washing Machine Problem
+                    </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-
-                      You have noticed water leaking or pooling around your dishwasher when it runs, causing damage to your flooring and the surrounding area.
-
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Excessive Suds                    </h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-
-                      Your dishwasher fills with excess suds when you use it. You may also notice suds remaining in the bottom of the dishwasher after the cycle is finished and excessive residue on your dishes.
-
-
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Door Not Closing</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-
-                      The dishwasher door isn’t closing properly, preventing the cycle from starting.
-
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Not Filling With Water</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-
-                      When you start the dishwasher cycle, the interior doesn’t fill with water, or only fills a small amount.
-
-
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Heating Issues</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-
-                      Your dishwasher is not heating the water sufficiently, leading to cold washes and improperly cleaned dishes. Hot water is needed to properly activate the dishwasher detergent.
-
-
-                    </p>
+                    <p className="p-2 mb-0">A common issue with washing machines is drainage problems, leaks, and PCB faulty. Also, broken belt or faulty door switch or drum from spinning.</p>
                   </div>
                 </div>
               </div>
@@ -319,19 +250,57 @@ const DeepFryerServiceDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishes Not Drying</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Tumble Dryer Problem</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Your dishes come out of the dishwasher still wet, requiring manual drying after every load.
-
-                    </p>
+                    <p className="p-2 mb-0">Dryers can stop the drum from spinning and often make noise without drying clothes properly. Common issues are a broken heating element or control board.</p>
                   </div>
                 </div>
               </div>
 
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Stove Problem</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">Uneven heating or flame issues, such as a broken burner element, bad switch, or electric gas, are the most common problems with stoves.</p>
+                  </div>
+                </div>
+              </div>
 
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Ovens Problems</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">Most ovens have common problems like not heating properly, burners not igniting, ignition issues on gas models, broken knobs, and faulty controllers or valves.</p>
+                  </div>
+                </div>
+              </div>
 
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Freezer Problem</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">Common issues with a freezer include water leaks, no ice, a malfunctioning ice maker, a malfunctioning PCB, motor, or compressor, and less cooling.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className="box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Machine Problem</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">Whether they are drip or single-serve coffee makers, there are a few reasons why water flow in coffee makers is often slow or nonexistent.</p>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
@@ -343,18 +312,18 @@ const DeepFryerServiceDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/*HERE ARE THE SERVICES */}
-        <section className="section cs_py_30">
+        {/*Why should you choose us? */}
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR THE DISHWASHER </h3>
-
+            <h3 className="cs_fs_30">Kitchen fryer repair at your doorstep</h3>
+            
             <div className="row align-items-center">
               <div className="col-xl-6">
                 <iframe
                   className="bordered-img blue-border"
                   width="100%"
                   height="350"
-                  src="https://www.youtube.com/embed/Cye_OFTAT3E"
+                  src="https://www.youtube.com/embed/SLGpswtzn-w"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -363,37 +332,33 @@ const DeepFryerServiceDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-xl-6">
-                <p className="mb-0">
-                  We specialise in all types and brands of dishwashers, including dishwasher machines.
-                </p>
-
-                <p className='mb-0'><strong>Our services include:</strong></p>
-                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                  <li> <strong> Dishwasher Installation: </strong>  Expert installation of various types and brands of dishwashers, ensuring optimal performance and efficiency. </li>
-                  <li> <strong> Dishwasher Diagnostics: </strong>  We conduct thorough fault finding to diagnose issues effectively. We also provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
-
-                  <li> <strong> Dishwasher Repair Service: </strong>  Efficient repair services for all dishwasher machine components, ensuring quick resolution of any issues, such as leaks, electrical failures, and system malfunctions. </li>
-
-                  <li> <strong> Dishwasher Annual Maintenance Contract: </strong>  This contract outlines the terms and services covered for the dishwasher's annual maintenance. </li>
-
-
-
-                  <p className="mb-0">
-                    Regular maintenance is essential for optimal performance, efficiency, and longevity of your dishwasher.
-
-                  </p>
-                </ul>
-
-
+                <p className="mb-2">Our team is aware of how important commercial deep fryer maintenance is to the success of business.Enjoy trouble free kitchen deep fryer maintenance at your door. Our skilled technicians specialize in identifying and fixing problems with different kinds of kitchen fryers. We can help with anything from electrical problems to uneven heating. We know how important it is for your kitchen's fryer to be operating correctly, and our staff is dedicated to offering fast and effective repair services. When it comes to kitchen fryer repairs, we value your time and strive to deliver quick service.</p>
+                <p class="mb-0 pb-0">We offer repair services for the following types of fryer issues.</p>
+                <div className="row">
+                  <div className="col-md-6">
+                    <ul class="mt-0 my-0">
+                      <li>Gas fryer</li>
+                      <li>Countertop gas deep fryer</li>
+                      <li>Gas deep fryer</li>
+                      <li>Commercial gas deep fryer</li>
+                    </ul>
+                  </div>
+                  <div className="col-md-6">
+                    <ul class="mt-0 my-0">
+                      <li>Electric deep fryer</li>
+                      <li>Industrial electric deep fryer</li>
+                      <li>Commercial electric deep fryer</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
 
 
             </div>
           </div>
-        </section >
-
+        </section>
         {/* The Benefits Of appliances Service Dubai */}
-        <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
+        <section className="section cs_py_30 appliances-benifit-sec">
           <div className="container">
             <div className="row justify-content-center">
               <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai
@@ -478,7 +443,22 @@ const DeepFryerServiceDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
+        <section className="section cs_py_30 bg-dark-blue text-light">
+          <div className="container text-center">
+            <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
+            <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
+            <a
+              href="files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
+              className="btn-green-yellow"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Click Here to Save on Energy Bills
+            </a>
 
+
+          </div>
+        </section>
 
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
@@ -516,7 +496,7 @@ const DeepFryerServiceDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive.</p>
+                    <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive</p>
                   </div>
                 </div>
 
@@ -545,7 +525,7 @@ const DeepFryerServiceDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same in Dubai location.</p>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same Dubai location</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -567,68 +547,59 @@ const DeepFryerServiceDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* We specialise  */}
-        <section className="section cs_py_30 bg-light-gray ">
+        {/* We specialise in Hob services for the following brands  */}
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3>We specialise in dishwasher services for the following brands </h3>
+            <h3>We specialise in Hob services for the following brands </h3>
             <div className="row">
               <div className="col-12">
 
                 <p className="mb-0">
                   <Link to="/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/">
-                    <b>LG Dishwasher Repair</b>
-                  </Link>: FAJ is here to support you when things go wrong. We understand that your LG cooker or induction are essential for daily life, helping you prepare meals efficiently and on time.
+                    <b>Smeg Cooker Repair</b>
+                  </Link>: FAJ is here to support you when things go wrong. We understand that your Smeg appliances are essential for daily life, keeping your food fresh and meals cooked.
                 </p>
 
                 <p className="mb-0">
                   <Link to="/siemens-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b>Samsung Dishwasher Repair</b>
-                  </Link>
-                  : If you are facing any problems with your Samsung dishwasher, contact the FAJ team for same-day repair service in Dubai.
-
+                    <b>Siemens Cooker Repair</b>
+                  </Link>:If you are facing any problems with your Siemens oven, stove, refrigerator, washer dryer, or dishwasher, contact the FAJ team for same-day repair service in Dubai.
                 </p>
 
                 <p className="mb-0">
                   <Link to="/la-germania-cooking-range-repair-in-dubai-la-germania-oven-repair-in-dubai-la-germania-cooker-repair-in-dubai-la-germania-cooker-oven-maintenance-service-in-dubai-refrigerator-repair-in-dubai-fridge-r/">
-                    <b> Electrolux Dishwasher Repair</b>
-                  </Link>:  When you need Electrolux dishwasher repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE.
+                    <b> La Germania Stove and Cooker Repair</b>
+                  </Link>: When you need La Germania oven repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE.
                 </p>
 
                 <p className="mb-0">
                   <Link to="/bosch-home-appliances-repair/">
-                    <b> Bosch Dishwasher Repair</b>
-                  </Link>: If you are looking for the best Bosch dishwasher repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch home appliance repair and are recognized as the leading Bosch dishwasher service provider in the area.
-
+                    <b> Bosch Stove Repair</b>
+                  </Link>: If you are looking for the best Bosch appliance repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch oven repair and are recognized as the leading Bosch appliance service provider in the area.
                 </p>
-
 
                 <p className="mb-0">
                   <Link to="/viking-appliances-service/">
-                    <b> Viking Dishwasher Repair</b>
-                  </Link>: Your Viking dishwasher may require repair or maintenance and we can help. For high-quality Viking dishwashers in Dubai, rely on FAJ.
-
+                    <b> Viking Range and Oven Repair</b>
+                  </Link>: Your Viking appliances may require repair or maintenance and we can help. For high-quality Viking stove and oven repair in Dubai, rely on FAJ.
                 </p>
 
                 <p className="mb-0">
                   <Link to="/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b> Daewoo Dishwasher Repair</b>
-                  </Link>: We provide expert services for Daewoo dishwasher repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo refrigerator, dishwasher, dryer and more.
-
+                    <b> Daewoo Deep Fryer Repair</b>
+                  </Link>: We provide expert services for Daewoo appliance repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo Deep Fryer, refrigerator, washing machine, dryer and more.
                 </p>
 
                 <p className="mb-0">
                   <Link to="/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub/">
-                    <b> Siemens Dishwasher Repair</b>
-                  </Link>: Are you concerned about your Siemens dishwasher malfunctioning and searching for a reliable Siemens dishwasher repair company in Dubai? Contact us for same-day service!
-
-
+                    <b> Neff Gas Stove Repair</b>
+                  </Link>: Are you concerned about your Neff appliance malfunctioning and searching for a reliable Neff Gas Stove repair company in Dubai? Contact us for same-day service!
                 </p>
 
                 <p className="mb-0">
                   <Link to="/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b> Teka Dishwasher Repair</b>
-                  </Link>: If you're searching for the best Teka dishwasher repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka dishwashers, refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
-
+                    <b> Teka Gas Stove Repair</b>
+                  </Link>: If you're searching for the best Teka appliance repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka gas stove, refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
                 </p>
 
 
@@ -822,10 +793,43 @@ const DeepFryerServiceDetail = ({ subtitle, title, bgImg }) => {
 
 
 
-        {/* Brands section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
-          <div className="container">
+        {/* white section with AC image */}
+        {/* <section className="section cs_py_30">
+          <div className="container text-center">
+            <div className="row">
+              <div className="col-lg-4">
+                <div className="acsvs-sec-prefoot-sec-cone">
+                  <h3 className="cs_fs_20 mb-0">COOLING &amp; HEATING</h3>
+                  <span className="mb-5">Stay comfortable all year round</span>
+                  <div className="mb-5"></div>
+                  <h3 className="cs_fs_20 mb-0">BETTER AIR QUALITY</h3>
+                  <span className="mb-5">Reduce humidity, pollen and dust</span>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div className="acsvs-sec-prefoot-sec-ctwo">
 
+                  <img className="" src={`${import.meta.env.BASE_URL}/img/benafit-acimg.jpg`} alt="Deep Fryer Service" />
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div className="acsvs-sec-prefoot-sec-cthree">
+                  <h3 className="cs_fs_20 mb-0">PROTECT YOUR PROPERTY</h3>
+                  <span className="mb-5">Prevent damage to electronics and furnishings</span>
+                  <div className="mb-5"></div>
+                  <h3 className="cs_fs_20 mb-0">QUIET AND SECURE</h3>
+                  <span className="mb-5">No need to leave windows open</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section> */}
+
+        {/* Brands section */}
+        {/* <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
+          <div className="container">
+           
             <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
               data-variable-width="0" data-xs-slides="1" data-sm-slides="1" data-md-slides="1" data-lg-slides="2"
               data-add-slides="2" data-slides-per-view="responsive">
@@ -847,8 +851,7 @@ const DeepFryerServiceDetail = ({ subtitle, title, bgImg }) => {
               </div>
             </div>
           </div>
-          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
-        </section>
+        </section> */}
 
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" data-background={`${import.meta.env.BASE_URL}${bgImg}`}>

@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/PizzaOvenMaintenanceFaqs.json';
+import data from '../../../Data/KitchenEquipments/FAQs/PizzaOvenMaintenanceFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
@@ -10,7 +10,7 @@ import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import Slider from "react-slick";
-import testimonial_data from '../../../Data/PizzaOvenMaintenanceTestimonials.json';
+import testimonial_data from '../../../Data/KitchenEquipments/Testmonials/PizzaOvenMaintenanceTestimonials.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
@@ -195,7 +195,7 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">Reliable Pizza oven repair service</h3>
-            <p>FAJ Professional has a top-notch pizza oven service. Our team of skilled technicians is expert at handling a wide range of gas pizza oven repair problems. We can help with everything from electrical problems to inconsistent heating. We are aware of how important it is to keep your pizza oven working, and our devoted staff is committed to offering timely and effective repair services. If you are searching for pizza oven repair near me, then stop wasting your time. You can rely on us to get reliable solutions that guarantee your pizza oven operates at its peak efficiency and consistently produces perfectly cooked pizzas.</p>
+            <p>FAJ Technical Services has a top-notch pizza oven service. Our team of skilled technicians is expert at handling a wide range of gas pizza oven repair problems. We can help with everything from electrical problems to inconsistent heating. We are aware of how important it is to keep your pizza oven working, and our devoted staff is committed to offering timely and effective repair services. If you are searching for pizza oven repair near me, then stop wasting your time. You can rely on us to get reliable solutions that guarantee your pizza oven operates at its peak efficiency and consistently produces perfectly cooked pizzas.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Hob-Repair-Service-in-Dubai-UAE.jpeg`} alt="Pizza Oven Maintenance" />
@@ -335,7 +335,7 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-xl-6">
-                <p>If you're looking for "pizza oven service near me," FAJ Professional is the place to go. We recognize how crucial it is to have a trustworthy local service provider. Our teams are positioned strategically to guarantee timely service requests and effective resolution of your pizza oven repair needs. You can rely on us to provide a prompt and practical resolution to your pizza oven problems.</p>
+                <p>If you're looking for "pizza oven service near me," FAJ Technical Services is the place to go. We recognize how crucial it is to have a trustworthy local service provider. Our teams are positioned strategically to guarantee timely service requests and effective resolution of your pizza oven repair needs. You can rely on us to provide a prompt and practical resolution to your pizza oven problems.</p>
                 <p class="mb-0 pb-0">Following are the types of pizza oven.</p>
                 <ul class="mt-0">
                     <li>brick pizza oven</li>

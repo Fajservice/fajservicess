@@ -5,9 +5,8 @@ const AcRepairInMetha = () => {
   return (
     <div className="serviceDetails">
     <BreadCumb
-        // bgImg="/img/page_heading_1.jpg"
         bgImg="/img/air-condition.jpg"
-        Title="Mehta Premium AC Service"
+        Title="AC Service in Metha"
     ></BreadCumb> 
     <AcRepairInMethaDetail />
 </div>

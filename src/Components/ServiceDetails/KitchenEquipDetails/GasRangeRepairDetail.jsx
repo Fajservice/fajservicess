@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/GasRangeFaqs.json';
+import data from '../../../Data/KitchenEquipments/FAQs/GasRangeFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
@@ -10,7 +10,7 @@ import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import Slider from "react-slick";
-import testimonial_data from '../../../Data/GasRangeTestimonials.json';
+import testimonial_data from '../../../Data/KitchenEquipments/Testmonials/GasRangeTestimonials.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
@@ -129,7 +129,7 @@ const GasRangeDetail = ({ subtitle, title, bgImg }) => {
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30">Do you want an Gas Range repair that does not cause a fortune?</h2>
-            <p>Are you having trouble finding reliable gas cooker repair services? Now worry not. FAJ Professional provides the best cooker repair and maintenance services. We are a top provider of cooker repair and maintenance services. We are a dependable and trustworthy partner for people and companies looking for professional solutions for their gas cooker-related needs. Trust us for cooker repairs because we have made a strong commitment to quality and customer satisfaction.</p>
+            <p>Are you having trouble finding reliable gas cooker repair services? Now worry not. FAJ Technical Services provides the best cooker repair and maintenance services. We are a top provider of cooker repair and maintenance services. We are a dependable and trustworthy partner for people and companies looking for professional solutions for their gas cooker-related needs. Trust us for cooker repairs because we have made a strong commitment to quality and customer satisfaction.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -195,14 +195,14 @@ const GasRangeDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">Reliable gas cooker repair in Dubai</h3>
-            <p>We set out on this journey to raise the bar for gas cooker repair services. We are committed to delivering exceptional repair and maintenance services that surpass the expectations of our clients. We have developed our knowledge over the years and put together a group of remarkable technicians who are not only experts but also provide the best kitchen solutions. Trust FAJ Professional and you will not be disappointed.</p>
+            <p>We set out on this journey to raise the bar for gas cooker repair services. We are committed to delivering exceptional repair and maintenance services that surpass the expectations of our clients. We have developed our knowledge over the years and put together a group of remarkable technicians who are not only experts but also provide the best kitchen solutions. Trust FAJ Technical Services and you will not be disappointed.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/cooker.webp`} alt="Gas Cooker Repair" />
               </div>
               <div className="col-md-6">
                 <h4>Gas stove maintenance</h4>
-                <p>We support taking preventative action to eliminate possible problems before they start. With the help of our preventive maintenance programs, you can extend the life of your gas cooker and reduce the chance of malfunctions. Being your reliable partner for all gas cooker maintenance and repairs is something we at FAJ Professional take great pride in. Our dedication to reliability is an important aspect of our service, so you can rely on us to provide excellent solutions any time your gas cooker has problems.</p>
+                <p>We support taking preventative action to eliminate possible problems before they start. With the help of our preventive maintenance programs, you can extend the life of your gas cooker and reduce the chance of malfunctions. Being your reliable partner for all gas cooker maintenance and repairs is something we at FAJ Technical Services take great pride in. Our dedication to reliability is an important aspect of our service, so you can rely on us to provide excellent solutions any time your gas cooker has problems.</p>
               </div>
             </div>
           </div>

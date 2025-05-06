@@ -7,7 +7,7 @@ const AcRepairInArabianRanches2 = () => {
     <BreadCumb
         // bgImg="/img/page_heading_1.jpg"
         bgImg="/img/air-condition.jpg"
-        Title="AC Service and Repair in Arabian Ranches 2"
+        Title="AC Service in Arabian Ranches 2"
     ></BreadCumb>
     <AcRepairInArabianRanches2Detail />
 </div>

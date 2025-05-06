@@ -5,13 +5,14 @@ const DeepFryerService = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="/img/banners/dishwasher.jpg"
-                Title="Dishwasher Repair and Service in Dubai"
+                // bgImg="/img/page_heading_1.jpg"
+                bgImg="/img/ac_service-bannerbg.jpg"
+                Title="Deep Fryer Service"
             ></BreadCumb> 
 
-            <DeepFryerServiceDetail></DeepFryerServiceDetail>
+            <DeepFryerServiceDetail></DeepFryerServiceDetail>        
         </div>
-    ); 
+    );
 };
 
 export default DeepFryerService;

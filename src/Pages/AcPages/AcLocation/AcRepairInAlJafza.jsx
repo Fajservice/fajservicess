@@ -7,7 +7,7 @@ const AcRepairInAlJafza = () => {
     <BreadCumb
         // bgImg="/img/page_heading_1.jpg"
         bgImg="/img/air-condition.jpg"
-        Title="AC Service and Repair in Al Jafza"
+        Title="AC Service in Al Jafza"
     ></BreadCumb>
     <AcRepairInAlJafzaDetail />
 </div>
