@@ -7,7 +7,7 @@ const AcRepairInJebelAliFreeZone = () => {
             <BreadCumb
                 // bgImg="/img/page_heading_1.jpg"
                 bgImg="/img/air-condition.jpg"
-                Title="AC Service and Repair in Jebel Ali Free Zone Dubai"
+                Title="AC Service in Jebel Ali Free Zone"
             ></BreadCumb>
             <AcRepairInJebelAliFreeZoneDetail />
 

@@ -7,7 +7,7 @@ const AcRepairInDip = () => {
     <BreadCumb
         // bgImg="/img/page_heading_1.jpg"
         bgImg="/img/air-condition.jpg"
-        Title="AC Service and Repair in DIP Dubai"
+        Title="AC Service in DIP Dubai"
     ></BreadCumb>
     <AcRepairInDipDetail />
 </div>
