@@ -8,13 +8,22 @@ import AcServiceInDubai from "../Pages/AcPages/AcLocation/AcServiceInDubai";
 import AcMaintenanceDubai from "../Pages/AcMaintenanceDubai";
 import AcAnnualMaintenanceContract from "../Pages/AcAnnualMaintenanceContract";
 import AcRepairDubai from "../Pages/AcRepairDubai";
-import FreestandingHomeAppliancesRepairService from "../Pages/FreestandingHomeAppliancesRepairService";
+import FreestandingHomeAppliancesRepairService from "../Pages/HomeAppPages/FreestandingHomeAppliancesRepairService";
 import CoffeeMachineServiceCenterInDubai from "../Pages/CoffeeMachineServiceCenterInDubai";
 import CommercialCoffeeMachineRepair from "../Pages/CommercialCoffeeMachineRepair";
 import WashingMachineRepairServiceDubai from "../Pages/WashingMachineRepairServiceDubai";
-import RefrigeratorRepairInDubai from "../Pages/RefrigeratorRepairInDubai";
-import HobRepair from "../Pages/HobRepair";
-import OvenRepairService from "../Pages/OvenRepairService";
+import RefrigeratorRepairInDubai from "../Pages/HomeAppPages/RefrigeratorRepairInDubai";
+import HobRepair from "../Pages/HomeAppPages/HobRepair";
+import OvenRepairService from "../Pages/HomeAppPages/OvenRepairService";
+import GasRangeRepairService from "../Pages/HomeAppPages/GasRangeRepairService";
+import DishwasherRepair from "../Pages/HomeAppPages/DishwasherRepair";
+
+import VacuumCleanerRepair from "../Pages/HomeAppPages/VacuumCleanerRepair";
+import SmallAppliancesRepair from "../Pages/HomeAppPages/SmallAppliancesRepair";
+import IntegratedApplianceRepair from "../Pages/HomeAppPages/IntegratedApplianceRepair";
+import AppliancesMaintenanceContract from "../Pages/HomeAppPages/AppliancesMaintenanceContract";
+
+
 import ColdRoomRepair from "../Pages/ColdRoomRepair";
 import ServicesPage from "../Pages/ServicesPage";
 import ProjectPage from "../Pages/ProjectPage";
@@ -110,6 +119,20 @@ import AcRepairInTheVilla from "../Pages/AcPages/AcLocation/AcRepairInTheVilla";
 import AcRepairInJumeirahBeachResidence from "../Pages/AcPages/AcLocation/AcRepairInJumeirahBeachResidence";
 
 import OvenRepair from "../Pages/KitchenEquipPages/OvenRepair";
+import DeepFryerService from "../Pages/KitchenEquipPages/DeepFryerService";
+import MeatGrinderRepair from "../Pages/KitchenEquipPages/MeatGrinderRepair";
+import DoughMixerRepair from "../Pages/KitchenEquipPages/DoughMixerRepair";
+import FoodWarmerRepair from "../Pages/KitchenEquipPages/FoodWarmerRepair";
+import KitchenEquipmentAMC from "../Pages/KitchenEquipPages/KitchenEquipmentAMC";
+import KitchenEquipmentRepair from "../Pages/KitchenEquipPages/KitchenEquipmentRepair";
+
+
+import  IceMakerRepair from "../Pages/RefrigerationEquipPages/IceMakerRepair";
+import  RefrigerationAMCServices from "../Pages/RefrigerationEquipPages/RefrigerationAMCServices";
+import  WalkInRefrigerationServices from "../Pages/RefrigerationEquipPages/WalkInRefrigerationServices";
+import  FreezerAndChillerMaintenance from "../Pages/RefrigerationEquipPages/FreezerAndChillerMaintenance";
+import  CommercialRefrigeratorRepair from "../Pages/RefrigerationEquipPages/CommercialRefrigeratorRepair";
+
 import AcRepairInJumeirahHeights from "../Pages/AcPages/AcLocation/AcRepairInJumeirahHeights";
 import AcRepairInQuozIndustrialArea from "../Pages/AcPages/AcLocation/AcRepairInQuozIndustrialArea";
 import AcRepairInTheLakes from "../Pages/AcPages/AcLocation/AcRepairInTheLakes";
@@ -178,10 +201,87 @@ export const router = createHashRouter([
         path: "/oven-repair-service/",
         element: <OvenRepairService></OvenRepairService>,
       },
+
+     
+      {
+        path: "/deep-fryer-service/",
+        element: <DeepFryerService/>,
+      },
+      {
+        path: "/meat-grinder-repair/",
+        element: <MeatGrinderRepair/>,
+      },
+      {
+        path: "/dough-mixer-repair",
+        element: <DoughMixerRepair/>,
+      },
+      {
+        path: "/food-warmer-repair/",
+        element: <FoodWarmerRepair/>,
+      },
+      {
+        path: "/commercial-kitchen-equipment-amc/",
+        element: <KitchenEquipmentAMC/>,
+      },
+      {
+        path: "/commercial-cooking-appliances-repair-service/",
+        element: <KitchenEquipmentRepair/>,
+      },
+
+      {
+        path: "/ice-maker-repair/",
+        element: <IceMakerRepair/>,
+      },
+      {
+        path: "/commercial-freezer-chiller-amc-service/",
+        element: <RefrigerationAMCServices/>,
+      },
+
+      {
+        path: "/walk-in-freezer-display-freezer-open-freezer-maintenance/",
+        element: <WalkInRefrigerationServices/>,
+      },
+      {
+        path: "/freezer-chiller-repair-service/",
+        element: <FreezerAndChillerMaintenance/>,
+      },
+      {
+        path: "/commercial-refrigeration-services/",
+        element: <CommercialRefrigeratorRepair/>,
+      },
+
+      {
+        path: "/gas-cooker-repair-service/",
+        element: <GasRangeRepairService></GasRangeRepairService>,
+      },
+      {
+        path: "/dishwasher-repair-service/",
+        element: <DishwasherRepair/>
+      },      
       {
         path: "/oven-repair/",
         element: <OvenRepair />
       },
+
+      {
+        path: "/robot-vacuum-cleaner-repair/",
+        element: <VacuumCleanerRepair />
+      },
+      {
+        path: "/small-home-appliances-service-center-in-dubai/",
+        element: <SmallAppliancesRepair />
+      },
+
+      {
+        path: "/built-in-appliances-repair-service/",
+        element: <IntegratedApplianceRepair />
+      },
+
+      {
+        path: "/appliances-amc-service/",
+        element: <AppliancesMaintenanceContract />
+      },
+
       {
         path: "/hot-plate-repair/",
         element: <HotPlateRepair />
@@ -194,6 +294,10 @@ export const router = createHashRouter([
         path: "/gas-cooker-repair/",
         element: <GasRangeRepair />
       },
+
+      
+
+
       {
         path: "/washing-machine-repair-service-dubai/",
         element: <WashingMachineRepairServiceDubai></WashingMachineRepairServiceDubai>,

@@ -1,5 +1,5 @@
-import BreadCumb from "../Components/Common/BreadCumb";
-import OvenRepairServiceDetail from "../Components/ServiceDetails/OvenRepairServiceDetail";
+import BreadCumb from "../../Components/Common/BreadCumb";
+import OvenRepairServiceDetail from "../../Components/ServiceDetails/HomeAppDetails/OvenRepairServiceDetail";
 
 const OvenRepairService = () => {
     return (
@@ -9,8 +9,8 @@ const OvenRepairService = () => {
                 bgImg="/img/banners/Oven-Repair-Service.jpg"
                 Title="Gas & Electrical Oven Repair Service in Dubai"
             ></BreadCumb> 
+            <OvenRepairServiceDetail></OvenRepairServiceDetail>
 
-            <OvenRepairServiceDetail></OvenRepairServiceDetail>        
         </div>
     );
 };

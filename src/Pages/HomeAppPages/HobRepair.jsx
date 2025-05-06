@@ -1,5 +1,5 @@
-import BreadCumb from "../Components/Common/BreadCumb";
-import HobRepairDetail from "../Components/ServiceDetails/HobRepairDetail";
+import BreadCumb from "../../Components/Common/BreadCumb";
+import HobRepairDetail from "../../Components/ServiceDetails/HomeAppDetails/HobRepairDetail"
 
 const HobRepair = () => {
     return (
@@ -9,7 +9,7 @@ const HobRepair = () => {
                 Title="Hob Repair Service Dubai"
             ></BreadCumb> 
 
-            <HobRepairDetail></HobRepairDetail>        
+            <HobRepairDetail></HobRepairDetail>
         </div>
     );
 };

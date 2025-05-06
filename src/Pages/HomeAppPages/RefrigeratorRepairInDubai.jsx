@@ -1,5 +1,5 @@
-import BreadCumb from "../Components/Common/BreadCumb";
-import RefrigeratorRepairInDubaiDetails from "../Components/ServiceDetails/RefrigeratorRepairInDubaiDetails";
+import BreadCumb from "../../Components/Common/BreadCumb";
+import RefrigeratorRepairInDubaiDetails from "../../Components/ServiceDetails/HomeAppDetails/RefrigeratorRepairInDubaiDetails";
 
 const RefrigeratorRepairInDubai = () => {
     return (

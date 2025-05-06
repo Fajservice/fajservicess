@@ -2,26 +2,25 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../Data/HobRepairFaqs.json';
+import data from '../../../Data/HomeAppData/DishwasherRepairFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
-import FAJACPrice from '../Miscellaneous/FAJACPrice';
-import Serviceappointemnt from '../Contact/Serviceappointemnt';
-import CallNowButton from '../Buttons/CallNowButton';
-import GetQuoteButton from "../Buttons/GetQuoteButton";
-import WhatsappIconButton from "../Buttons/WhatsappIconButton";
-import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
+import Serviceappointemnt from '../../Contact/Serviceappointemnt';
+import CallNowButton from '../../Buttons/CallNowButton';
+import GetQuoteButton from "../../Buttons/GetQuoteButton";
+import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
+import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
-import testimonial_data from '../../Data/HobrepairTestimonials.json';
-import brandsLogo_data from '../../Data/AppliancesBrandsLogo.json';
-import loadBackgroudImages from "../Common/loadBackgroudImages";
+import testimonial_data from '../../../Data/HomeAppData/DishwasherRepairTestimonial.json';
+import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
+import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
-import HeaderForm from "../Headeform/HeaderForm";
-import AppliancesAppointmentCol from "../ApplianceCommons/AppliancesAppointmentCol";
+import HeaderForm from "../../Headeform/HeaderForm";
+import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 
 // import { Link } from "react-router-dom";
 
-const HobRepairDetail = ({ subtitle, title, bgImg }) => {
+const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "/img/testimonialbg.jpg"
@@ -58,12 +57,6 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
-
-    // autoplay: true,
-    // autoplaySpeed: 0,
-    // speed: 8000,
-    // pauseOnHover: true,
-    // cssEase: 'linear',
 
     responsive: [
       {
@@ -132,13 +125,10 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">Choose Hob Service Center for Same-Day Repair in Dubai</h2>
+            <h2 className="cs_fs_30">Choose Dishwasher Service Center for Same-Day Repairs in Dubai</h2>
             <p>
-
-              Since 2010, we have been providing reliable hob repair services. We recognise that hobs can break down unexpectedly, so we provide high-quality and affordable repairs. Our trained technicians are available throughout Dubai and Sharjah to repair your gas or electric cooking stove at your location.
-
-
-
+              Since 2010, FAJ has been a trusted name in dishwasher repair and service in Dubai and Sharjah. Our skilled professionals are ready to assist with any brand, using high-quality tools for effective service.
+              <br /> We prioritise repairs over replacements, helping you save money and avoid the hassle of buying a new dishwasher. Rely on our experienced experts for fast and reliable dishwasher maintenance in Dubai!
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -153,68 +143,48 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
         {/* Maintenance Contract */}
         <MaintenanceContract />
 
-        {/* Same Day Cooking Range Repair & Service */}
 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
                 {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" /> */}
-                <h3 className="cs_fs_24 mb-1">Same Day Cooking Range Repair & Service</h3>
+                <h3 className="cs_fs_24 mb-1">Dishwasher Repair and Service Near You</h3>
 
                 <p className="mb-2">
-                  It’s pretty standard to experience issues with cooking appliances from time to time.
-                  Whether your induction hob suddenly stops working, your gas stove won’t stay lit when you need it, or your electric hob keeps turning on and off, it’s essential to manage these problems promptly.
-                  <br />
-                  FAJ offers fast Services and can assist you in arranging a professional gas range repair to fix your faulty cooker.
+                  Has your dishwasher stopped working completely? Or is it running, but your dishes and cutlery aren't coming out as clean as they should?
+                  At FAJ, we understand that a machine breakdown is always inconvenient. That's why our team of experts is here to provide dishwasher repair and service appointments near you in Dubai and Sharjah.
 
                 </p>
 
 
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Cooking Stove Technical Inspection Fee </h3>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Dishwasher Technical Inspection Fee </h3>
                 <p className="mb-0">
                   The technical inspection fee is AED 157, which covers diagnosis, transportation, and reinstallation in Dubai premises.
-                  <br />
-                  Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.
+                  <br />Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.
 
                 </p>
               </div>
 
               <div className="col-md-6 ">
                 {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/kitchen-equipment.jpg`} alt="Post Image" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/dishwasher.webp`} alt="Post Image" />
 
               </div>
             </div>
 
             <AppliancesAppointmentCol></AppliancesAppointmentCol>
-
-
-            {/* <div className="appointment-col border-small-top pt-3">
-              <p>
-              If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.
-              <br />
-              Timing: Mon - Sat 8:00 AM to 6:00 PM, Sunday 12:00 PM to 6:00 PM. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.
-              </p>
-              
-              <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
-                  <WhatsappIconButton />
-                  <CallNowButton />
-                </div>
-              </div>
-            </div> */}
           </div>
         </section>
 
 
 
-        {/* Why is Induction Hob Maintenance Service Important in Dubai? */}
+        {/* Why  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">Why is Induction Hob Maintenance Service Important in Dubai?</h3>
+            <h3 className="cs_fs_30">Why is Dishwasher Maintenance Service Important in Dubai?</h3>
             <p>
-              Proper induction hob maintenance is essential for extending its lifespan and enhancing efficiency, especially in Dubai’s climate. Here are the main benefits:
+              Proper dishwasher maintenance is essential for extending its lifespan and enhancing efficiency, especially in Dubai’s climate. Here are the main benefits:
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
@@ -222,14 +192,13 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
-
-                  <li> <strong>  Hob Extended Lifespan: </strong> Regular maintenance helps the induction hob last longer, saving on replacement costs. </li>
-                  <li> <strong>  Stove Improved Efficiency: </strong> A well-maintained induction hob uses less energy, leading to lower utility bills, which is essential in Dubai. </li>
-                  <li> <strong>  Hob Preventing Costly Repair: </strong> Catching minor issues early prevents them from escalating into expensive repairs. </li>
-                  <li> <strong>  Stove Preserving induction hob Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
-                  <li> <strong>  Cooker Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious. </li>
-                  <li> <strong>  Hob Cost-Effective: </strong> Maintenance costs are lower than early replacements or major repairs.  Investing in induction hob care ensures safety and efficiency and is a smart economic choice in Dubai. </li>
-                  <li> <strong>  Cooker Energy Efficiency: </strong> Regularly maintaining your induction hob can improve its efficiency and save you money. </li>
+                  <li> <strong> Dishwasher Extended Lifespan: </strong> Regular maintenance helps the dishwasher last longer, saving on replacement costs. </li>
+                  <li> <strong> Dishwasher Improved Efficiency: </strong> A well-maintained dishwasher uses less energy, leading to lower utility bills, which is essential in Dubai. </li>
+                  <li> <strong> Dishwasher Preventing Costly Repair: </strong> Catching minor issues early prevents them from escalating into expensive repairs. </li>
+                  <li> <strong> Dishwasher Preserving induction hob Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
+                  <li> <strong> Dishwasher Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious. </li>
+                  <li> <strong> Dishwasher Cost-Effective: </strong> Maintenance costs are lower than early replacements or significant repairs. Investing in dishwasher care ensures safety and efficiency and is a wise economic choice in Dubai. </li>
+                  <li> <strong> Dishwasher Energy Efficiency: </strong> Regularly maintaining your dishwasher can improve efficiency and save you money. </li>
 
                 </ul>
               </div>
@@ -237,33 +206,35 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* The Most Common Problems with Induction / Hob */}
+        {/* Common Problems */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="text-center">The Most Common Problems with Induction / Hob   </h3>
+            <h3 className="text-center">The Most Common Problems with Dishwashers  </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">E8 Error Code</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Drainage Issues</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      This indicates a communication issue in the stove/hob, often related to loose wiring or a faulty control board (PCB)</p>
+                      Dishwasher machine water is pooling in the bottom of your dishwasher at the end of every cycle.
+                    </p>
                   </div>
                 </div>
               </div>
 
 
+
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Incorrect Cookware</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Cycle Won’t Start</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Induction electric hobs require magnetic cookware to function correctly, and non-magnetic cookware may not heat properly.
+                      When you press “start”, nothing happens. Your cycle doesn’t begin, and your dishwasher doesn’t seem to respond, despite the display panel appearing normal.
                     </p>
                   </div>
                 </div>
@@ -272,12 +243,74 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Burner Discoloration
-                    </h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Water Leaks </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      This can be caused by burnt-on food from the induction hob, cookware residue, or heat marks.</p>
+
+                      You have noticed water leaking or pooling around your dishwasher when it runs, causing damage to your flooring and the surrounding area.
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Excessive Suds                    </h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+
+                      Your dishwasher fills with excess suds when you use it. You may also notice suds remaining in the bottom of the dishwasher after the cycle is finished and excessive residue on your dishes.
+
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Door Not Closing</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+
+                      The dishwasher door isn’t closing properly, preventing the cycle from starting.
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Not Filling With Water</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+
+                      When you start the dishwasher cycle, the interior doesn’t fill with water, or only fills a small amount.
+
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Heating Issues</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+
+                      Your dishwasher is not heating the water sufficiently, leading to cold washes and improperly cleaned dishes. Hot water is needed to properly activate the dishwasher detergent.
+
+
+                    </p>
                   </div>
                 </div>
               </div>
@@ -286,63 +319,19 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Error Code</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishes Not Drying</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Difficulty Sharing Power Between Burners: This may be indicated by an E8 error code and could mean a blown fuse on the main board</p>
-                  </div>
-                </div>
-              </div>
+                      Your dishes come out of the dishwasher still wet, requiring manual drying after every load.
 
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Flashing "E" Symbol</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      This often indicates a stuck PCB electronic board, switch or button. Also, check the electrical wiring from inside the unit.</p>
+                    </p>
                   </div>
                 </div>
               </div>
 
 
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Hob Not Responsive</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      If the hob doesn't respond to touch, it could be due to a blown or tripped switch affecting the power supply or an inside wiring issue.</p>
-                  </div>
-                </div>
-              </div>
 
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Hob Not Heating Properly</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      This can occur if the cookware is not magnetic or sits unevenly on the cooking zone or hot plate.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Hob Overheating</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      This can happen if the heat is not circulated correctly or if there's a fan or heating thermostat issue.</p>
-                  </div>
-                </div>
-              </div>
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
@@ -354,10 +343,10 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/*HERE ARE THE SERVICES WE OFFER FOR INDUCTION HOB */}
+        {/*HERE ARE THE SERVICES */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR INDUCTION HOB   </h3>
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR THE DISHWASHER </h3>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -365,7 +354,7 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
                   className="bordered-img blue-border"
                   width="100%"
                   height="350"
-                  src="https://www.youtube.com/embed/SLGpswtzn-w"
+                  src="https://www.youtube.com/embed/Cye_OFTAT3E"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -375,19 +364,23 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
 
               <div className="col-xl-6">
                 <p className="mb-0">
-                  We specialise in all types and brands of induction hobs, including built-in units.
+                  We specialise in all types and brands of dishwashers, including dishwasher machines.
                 </p>
 
                 <p className='mb-0'><strong>Our services include:</strong></p>
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
+                  <li> <strong> Dishwasher Installation: </strong>  Expert installation of various types and brands of dishwashers, ensuring optimal performance and efficiency. </li>
+                  <li> <strong> Dishwasher Diagnostics: </strong>  We conduct thorough fault finding to diagnose issues effectively. We also provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
 
-                  <li> <strong>  Hob Installation: </strong> We provide professional installation of various types and brands of induction hobs to ensure optimal performance and efficiency./</li>
-                  <li> <strong>  Hob Diagnostics: </strong> Our team offers comprehensive fault-finding services to diagnose any issues effectively. We conduct eligibility assessments and provide detailed quotations to resolve any concerns with your system./</li>
-                  <li> <strong>  Hob Repair Service: </strong> We offer efficient repair services for all cooking hob components. Our team quickly addresses leaks, electrical failures, and system malfunctions./</li>
-                  <li> <strong> Hob Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for the yearly maintenance of your induction hob./</li>
+                  <li> <strong> Dishwasher Repair Service: </strong>  Efficient repair services for all dishwasher machine components, ensuring quick resolution of any issues, such as leaks, electrical failures, and system malfunctions. </li>
+
+                  <li> <strong> Dishwasher Annual Maintenance Contract: </strong>  This contract outlines the terms and services covered for the dishwasher's annual maintenance. </li>
+
+
 
                   <p className="mb-0">
-                    Regular maintenance is essential for the optimal performance, efficiency, and longevity of your hob. Feel free to reach out if you need specific services or have any questions!
+                    Regular maintenance is essential for optimal performance, efficiency, and longevity of your dishwasher.
+
                   </p>
                 </ul>
 
@@ -574,59 +567,68 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* We specialise in Hob services for the following brands  */}
+        {/* We specialise  */}
         <section className="section cs_py_30 bg-light-gray ">
           <div className="container">
-            <h3>We specialise in Hob services for the following brands </h3>
+            <h3>We specialise in dishwasher services for the following brands </h3>
             <div className="row">
               <div className="col-12">
 
                 <p className="mb-0">
                   <Link to="/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/">
-                    <b>Smeg Cooker Repair</b>
-                  </Link>: FAJ is here to support you when things go wrong. We understand that your Smeg appliances are essential for daily life, keeping your food fresh and meals cooked.
+                    <b>LG Dishwasher Repair</b>
+                  </Link>: FAJ is here to support you when things go wrong. We understand that your LG cooker or induction are essential for daily life, helping you prepare meals efficiently and on time.
                 </p>
 
                 <p className="mb-0">
                   <Link to="/siemens-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b>Siemens Cooker Repair</b>
-                  </Link>:If you are facing any problems with your Siemens oven, stove, refrigerator, washer dryer, or dishwasher, contact the FAJ team for same-day repair service in Dubai.
+                    <b>Samsung Dishwasher Repair</b>
+                  </Link>
+                  : If you are facing any problems with your Samsung dishwasher, contact the FAJ team for same-day repair service in Dubai.
+
                 </p>
 
                 <p className="mb-0">
                   <Link to="/la-germania-cooking-range-repair-in-dubai-la-germania-oven-repair-in-dubai-la-germania-cooker-repair-in-dubai-la-germania-cooker-oven-maintenance-service-in-dubai-refrigerator-repair-in-dubai-fridge-r/">
-                    <b> La Germania Stove and Cooker Repair</b>
-                  </Link>: When you need La Germania oven repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE.
+                    <b> Electrolux Dishwasher Repair</b>
+                  </Link>:  When you need Electrolux dishwasher repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE.
                 </p>
 
                 <p className="mb-0">
                   <Link to="/bosch-home-appliances-repair/">
-                    <b> Bosch Stove Repair</b>
-                  </Link>: If you are looking for the best Bosch appliance repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch oven repair and are recognized as the leading Bosch appliance service provider in the area.
+                    <b> Bosch Dishwasher Repair</b>
+                  </Link>: If you are looking for the best Bosch dishwasher repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch home appliance repair and are recognized as the leading Bosch dishwasher service provider in the area.
+
                 </p>
+
 
                 <p className="mb-0">
                   <Link to="/viking-appliances-service/">
-                    <b> Viking Range and Oven Repair</b>
-                  </Link>: Your Viking appliances may require repair or maintenance and we can help. For high-quality Viking stove and oven repair in Dubai, rely on FAJ.
+                    <b> Viking Dishwasher Repair</b>
+                  </Link>: Your Viking dishwasher may require repair or maintenance and we can help. For high-quality Viking dishwashers in Dubai, rely on FAJ.
+
                 </p>
 
                 <p className="mb-0">
                   <Link to="/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b> Daewoo Cooking Range Repair</b>
-                  </Link>: We provide expert services for Daewoo appliance repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo cooking range, refrigerator, washing machine, dryer and more.
+                    <b> Daewoo Dishwasher Repair</b>
+                  </Link>: We provide expert services for Daewoo dishwasher repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo refrigerator, dishwasher, dryer and more.
+
                 </p>
 
                 <p className="mb-0">
                   <Link to="/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub/">
-                    <b> Neff Gas Stove Repair</b>
-                  </Link>: Are you concerned about your Neff appliance malfunctioning and searching for a reliable Neff Gas Stove repair company in Dubai? Contact us for same-day service!
+                    <b> Siemens Dishwasher Repair</b>
+                  </Link>: Are you concerned about your Siemens dishwasher malfunctioning and searching for a reliable Siemens dishwasher repair company in Dubai? Contact us for same-day service!
+
+
                 </p>
 
                 <p className="mb-0">
                   <Link to="/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b> Teka Gas Stove Repair</b>
-                  </Link>: If you're searching for the best Teka appliance repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka gas stove, refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
+                    <b> Teka Dishwasher Repair</b>
+                  </Link>: If you're searching for the best Teka dishwasher repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka dishwashers, refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
+
                 </p>
 
 
@@ -944,5 +946,5 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
   );
 };
 
-export default HobRepairDetail;
+export default DishwasherRepairDetailDetail;
 
