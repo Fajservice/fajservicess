@@ -142,6 +142,11 @@ import AcRepairInAlWarqa from "../Pages/AcPages/AcLocation/AcRepairInAlWarqa";
 import AcRepairInDubailandTheVillaPoint from "../Pages/AcPages/AcLocation/AcRepairInDubailandTheVillaPoint";
 import AcRepairInAlWasl from "../Pages/AcPages/AcLocation/AcRepairInAlWasl";
 import AcRepairInInvestmentsPark from "../Pages/AcPages/AcLocation/AcRepairInInvestmentsPark";
+import AcRepairInAlaweer from "../Pages/AcPages/AcLocation/AcRepairInAlaweer";
+import AcRepairInDifc from "../Pages/AcPages/AcLocation/AcRepairInDifc";
+import AcRepairInAlBarsha from "../Pages/AcPages/AcLocation/AcRepairInAlBarsha";
+import AcRepairInAlRaffa from "../Pages/AcPages/AcLocation/AcRepairInAlRaffa";
+import AcRepairInOldTown from "../Pages/AcPages/AcLocation/AcRepairInOldTown";
 export const router = createHashRouter([
   {
     path: "/",
@@ -706,6 +711,30 @@ export const router = createHashRouter([
       {
         path: "/ac-services-in-dubai-investments-park/",
         element: <AcRepairInInvestmentsPark />,
+      },
+      {
+        path: "/ac-services-in-al-aweer/",
+        element: <AcRepairInAlaweer />,
+      },
+      {
+        path: "/ac-services-in-difc/",
+        element: <AcRepairInDifc />,
+      },
+      {
+        path: "/ac-repair-in-al-barsha-air-condition-maintenance-in-al-barsha-air-conditioning-fix-amc-service-in-al-barsha-dubai/",
+        element: <AcRepairInAlBarsha />,
+      },
+      {
+        path: "/ac-repair-in-al-barsha-air-condition-maintenance-in-al-barsha-air-conditioning-fix-amc-service-in-al-barsha-dubai/",
+        element: <AcRepairInAlBarsha />,
+      },
+      {
+        path: "/ac-services-in-al-raffa/",
+        element: <AcRepairInAlRaffa />,
+      },
+      {
+        path: "/ac-services-in-old-town-dubai/",
+        element: <AcRepairInOldTown />,
       },
     ],
   }
