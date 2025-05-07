@@ -1,7 +1,7 @@
 import React from 'react'
 import BreadCumb from "../../../Components/Common/BreadCumb";
 import AcRepairInRasAlKhorIndustrialAreaDetail from '../../../Components/ServiceDetails/AcDetail/AcLocation/AcRepairInRasAlKhorIndustrialAreaDetail';
-const AcRepairInAlKhorIndustrialArea = () => {
+const AcRepairInRasAlKhorIndustrialArea = () => {
   return (
     <div className="serviceDetails">
     <BreadCumb
@@ -13,4 +13,4 @@ const AcRepairInAlKhorIndustrialArea = () => {
   )
 }
 
-export default AcRepairInRasAlKhorIndustrialArea
+export default AcRepairInRasAlKhorIndustrialArea;

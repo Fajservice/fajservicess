@@ -1,6 +1,5 @@
 import BreadCumb from "../../Components/Common/BreadCumb.jsx";
 import MeatGrinderRepairDetail from "../../Components/ServiceDetails/KitchenEquipDetails/MeatGrinderRepairDetail.jsx";
-
 const MeatGrinderRepair = () => {
     return (
         <div className="serviceDetails">

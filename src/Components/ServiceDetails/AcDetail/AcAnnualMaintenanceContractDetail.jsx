@@ -342,7 +342,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
                   <li>  Get a 10% discount on service work   </li>
                   <li>  Receive a 10% discount on labor charges    </li>
                   <li> Get  10% discount on replacement of part   </li>
-                  <li>  Major and minor service withAC repair work   </li>
+                  <li>  Major and minor service with AC repair work   </li>
                   <li> No trip charge for regular AC repair during normal working hours   </li>
                   <li> Enjoy a 10% discount on materials and parts not covered by warranty    </li>
                   <li> A guarantee is provided from the date of repair for all customer-ordered repairs   </li>

@@ -1,5 +1,5 @@
-import BreadCumb from "../Components/Common/BreadCumb";
-import FreestandingHomeAppliancesRepairServiceDetail from "../Components/ServiceDetails/FreestandingHomeAppliancesRepairServiceDetail";
+import BreadCumb from "../../Components/Common/BreadCumb";
+import FreestandingHomeAppliancesRepairServiceDetail from "../../Components/ServiceDetails/HomeAppDetails/FreestandingHomeAppliancesRepairServiceDetail";
 
 const FreestandingHomeAppliancesRepairService = () => {
     return (

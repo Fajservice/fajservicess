@@ -1,24 +1,26 @@
+
+
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../Data/commercialcoffeemachinesrepairFaqs.json';
+import data from '../../../Data/HomeAppData/HobRepairFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
-import FAJACPrice from '../Miscellaneous/FAJACPrice';
-import Serviceappointemnt from '../Contact/Serviceappointemnt';
-import CallNowButton from '../Buttons/CallNowButton';
-import GetQuoteButton from "../Buttons/GetQuoteButton";
-import WhatsappIconButton from "../Buttons/WhatsappIconButton";
-import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
+import Serviceappointemnt from '../../Contact/Serviceappointemnt';
+import CallNowButton from '../../Buttons/CallNowButton';
+import GetQuoteButton from "../../Buttons/GetQuoteButton";
+import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
+import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
-import testimonial_data from '../../Data/CommercialCoffeeMAchineReapairTestimonials.json';
-import brandsLogo_data from '../../Data/coffeemachineServicebrand.json';
-import loadBackgroudImages from "../Common/loadBackgroudImages";
+import testimonial_data from '../../../Data/HomeAppData/HobrepairTestimonials.json';
+import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
+import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
-import HeaderForm from "../Headeform/HeaderForm";
+import HeaderForm from "../../Headeform/HeaderForm";
+import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 
 // import { Link } from "react-router-dom";
 
-const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
+const HobRepairDetail = ({ subtitle, title, bgImg }) => {
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "/img/testimonialbg.jpg"
@@ -55,6 +57,12 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
+
+    // autoplay: true,
+    // autoplaySpeed: 0,
+    // speed: 8000,
+    // pauseOnHover: true,
+    // cssEase: 'linear',
 
     responsive: [
       {
@@ -123,11 +131,13 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">Professional Coffee Machine Repairs in Dubai, Sharjah, and Abu Dhabi</h2>
+            <h2 className="cs_fs_30">Choose Hob Service Center for Same-Day Repair in Dubai</h2>
             <p>
-              FAJ Company, established in 2010, offers international standard services for the installation and repair of commercial appliances and coffee machines.
-              We provide planned maintenance contracts (AMC) for coffee machines, espresso machines, and vending machines used in cafes, restaurants, and catering services.
-              <br /> At Commercial Coffee Machine Repairs, we are committed to helping you achieve your ideal cup of coffee efficiently. Whether installing, repairing, or refurbishing machines, we prioritise quality and professionalism.
+
+              Since 2010, we have been providing reliable hob repair services. We recognise that hobs can break down unexpectedly, so we provide high-quality and affordable repairs. Our trained technicians are available throughout Dubai and Sharjah to repair your gas or electric cooking stove at your location.
+
+
+
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -142,94 +152,83 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
         {/* Maintenance Contract */}
         <MaintenanceContract />
 
-        {/* Coffee Machine Repair & Maintenance  */}
+        {/* Same Day Cooking Range Repair & Service */}
 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Coffee Machine Repair & Maintenance </h3>
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" /> */}
+                <h3 className="cs_fs_24 mb-1">Same Day Cooking Range Repair & Service</h3>
 
                 <p className="mb-2">
-                  If you're searching for the best coffee machine repairs in Dubai for both businesses and residents, you've come to the right place.
-                  <br />Our knowledgeable and dedicated team can handle any coffee machine issues you may encounter.
-                  With experience across various brands and models, we know how to get your machine running smoothly again.
+                  It’s pretty standard to experience issues with cooking appliances from time to time.
+                  Whether your induction hob suddenly stops working, your gas stove won’t stay lit when you need it, or your electric hob keeps turning on and off, it’s essential to manage these problems promptly.
                   <br />
-                  So why wait? Give us a call, and we'll have your coffee machine back on your kitchen counter in no time, ready to be part of your daily routine.
+                  FAJ offers fast Services and can assist you in arranging a professional gas range repair to fix your faulty cooker.
 
                 </p>
 
 
-
-                <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Coffee Machine Servicing and AMC Contract </h3>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Cooking Stove Technical Inspection Fee </h3>
                 <p className="mb-0">
-                  Whatever you need, we’ve got you covered. A scheduled commercial coffee machine de-casing, cleaning service, or maintenance contract for your professional coffee machine is essential for ensuring smooth operation throughout the year, including necessary cleaning and descaling.
+                  The technical inspection fee is AED 157, which covers diagnosis, transportation, and reinstallation in Dubai premises.
                   <br />
-                  Regular maintenance is vital for any coffee machine, whether it’s in an office, café, or restaurant. We’re here to make your life easier.
+                  Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.
 
                 </p>
-
-
               </div>
 
               <div className="col-md-6 ">
                 {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/What-is-the-Importance-of-Coffee-Machine-Maintenance-in-Dubai.jpg`} alt="Post Image" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/kitchen-equipment.jpg`} alt="Post Image" />
 
               </div>
             </div>
 
-            <div className="appointment-col border-small-top pt-3">
+            <AppliancesAppointmentCol></AppliancesAppointmentCol>
 
+
+            {/* <div className="appointment-col border-small-top pt-3">
               <p>
-                If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.
-                <br />Timing: Mon-Sat 8:00 AM to 6:00 PM - Sunday 12:00 PM to 6:00 PM. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.
-
+              If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.
+              <br />
+              Timing: Mon - Sat 8:00 AM to 6:00 PM, Sunday 12:00 PM to 6:00 PM. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.
               </p>
-
-              <p className="appointment-col border-small-top pt-3" >The <a href="https://www.google.com/maps/dir//Warehouse+No+-+S-02+Gate+35+Street+18b+-+Al+Quoz+-+Al+Quoz+Industrial+Area+4+-+Dubai+-+United+Arab+Emirates/@25.1105958,55.1452595,22158m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x3e5f699a600aceeb:0xa6121b25d557aa94!2m2!1d55.227661!2d25.1106186?entry=ttu&g_ep=EgoyMDI1MDQyOS4wIKXMDSoASAFQAw%3D%3D" > FAJ workshop</a> is conveniently located near both Al Khail Road and Sheikh Zayed Road. When you drop off your coffee machine at the workshop, you will receive a <strong>discount</strong> on the technical inspection fee and other services.
-              </p>
-
+              
               <div id="get-quote" className=" mt-3">
                 <div className="container d-flex justify-content-center align-items-center gap-3">
                   <WhatsappIconButton />
                   <CallNowButton />
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
 
 
-        {/* WWhat is the Importance of Coffee Machine Maintenance in Dubai? */}
+
+        {/* Why is Induction Hob Maintenance Service Important in Dubai? */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">What is the Importance of Coffee Machine Maintenance in Dubai?</h3>
-            <p className="">
-              Regular maintenance of coffee machines is crucial for businesses in Dubai, where quality coffee matters.
-              It ensures consistent beverage quality, extends machine lifespan, and reduces downtime and repair costs, ultimately enhancing customer satisfaction.
-
+            <h3 className="cs_fs_30">Why is Induction Hob Maintenance Service Important in Dubai?</h3>
+            <p>
+              Proper induction hob maintenance is essential for extending its lifespan and enhancing efficiency, especially in Dubai’s climate. Here are the main benefits:
             </p>
-
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/coffee-machine-service.jpg`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Cooking-Range-Repair-Nearby-You.jpg`} alt="Post Image" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
 
-                  <li> <strong> Importance in Commercial Kitchens: </strong> In the UAE, reliable maintenance of coffee machines is important for providing high-quality beverage service.</li>
-                  <li> <strong> Professional Service for Commercial Use: </strong> Commercial coffee machines require specialised maintenance to ensure safety and performance.</li>
-                  <li> <strong> Preventing Breakdowns: </strong> Routine maintenance, including cleaning and descaling, minimises the likelihood of costly repairs and downtime, which can negatively impact revenue.</li>
-                  <li> <strong> Extending Lifespan: </strong> Regular maintenance helps prolong the life of the machines, leading to savings on replacement costs.</li>
-                  <li> <strong> Lowering Maintenance Costs: </strong> Addressing minor issues early can prevent larger, more expensive repairs.</li>
-                  <li> <strong> Maintaining Efficiency: </strong> Consistent upkeep ensures optimal performance and reduces energy consumption, making operations more cost-effective. </li>
-                  <li> <strong> Restaurant Use: </strong> Regular maintenance boosts coffee quality and extends machine lifespan while ensuring safety and reliability for businesses.</li>
-
-
-
-
-
+                  <li> <strong>  Hob Extended Lifespan: </strong> Regular maintenance helps the induction hob last longer, saving on replacement costs. </li>
+                  <li> <strong>  Stove Improved Efficiency: </strong> A well-maintained induction hob uses less energy, leading to lower utility bills, which is essential in Dubai. </li>
+                  <li> <strong>  Hob Preventing Costly Repair: </strong> Catching minor issues early prevents them from escalating into expensive repairs. </li>
+                  <li> <strong>  Stove Preserving induction hob Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
+                  <li> <strong>  Cooker Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious. </li>
+                  <li> <strong>  Hob Cost-Effective: </strong> Maintenance costs are lower than early replacements or major repairs.  Investing in induction hob care ensures safety and efficiency and is a smart economic choice in Dubai. </li>
+                  <li> <strong>  Cooker Energy Efficiency: </strong> Regularly maintaining your induction hob can improve its efficiency and save you money. </li>
 
                 </ul>
               </div>
@@ -237,21 +236,33 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-
-
-        {/* The Most Common Problems with Espresso Machines */}
+        {/* The Most Common Problems with Induction / Hob */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="text-center">The Most Common Problems with Espresso Machines   </h3>
+            <h3 className="text-center">The Most Common Problems with Induction / Hob   </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Filter Coffee Machine Problems</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">E8 Error Code</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">With filter coffee machines, a key factor to monitor is the heating plate. After brewing your pot of coffee, it’s common to leave it on the heating plate to keep it warm.
+                    <p className="p-2 mb-0">
+                      This indicates a communication issue in the stove/hob, often related to loose wiring or a faulty control board (PCB)</p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Incorrect Cookware</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      Induction electric hobs require magnetic cookware to function correctly, and non-magnetic cookware may not heat properly.
                     </p>
                   </div>
                 </div>
@@ -260,22 +271,12 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Capsule Coffee Machine Problems</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0"> Capsule coffee machines are simple and reliable, but don't last forever, especially lesser-known brands. A key complication is programming cup sizes.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1"> Safety Valve Releasing Steam </h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Burner Discoloration
+                    </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Moka pot users may experience the safety valve on the lower chamber releasing steam during the brewing process. This issue can occur for several reasons.</p>
+                      This can be caused by burnt-on food from the induction hob, cookware residue, or heat marks.</p>
                   </div>
                 </div>
               </div>
@@ -284,11 +285,11 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Bitter or Burnt Coffee</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Error Code</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      If your coffee tastes bitter or burnt, it can be quite frustrating. This usually happens for two main reasons.</p>
+                      Difficulty Sharing Power Between Burners: This may be indicated by an E8 error code and could mean a blown fuse on the main board</p>
                   </div>
                 </div>
               </div>
@@ -296,11 +297,24 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Grounds in the Cup</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Flashing "E" Symbol</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Discovering coffee grounds in your cup can be an unpleasant surprise when using a moka pot. This issue can arise from two primary causes.</p>
+                      This often indicates a stuck PCB electronic board, switch or button. Also, check the electrical wiring from inside the unit.</p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Hob Not Responsive</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      If the hob doesn't respond to touch, it could be due to a blown or tripped switch affecting the power supply or an inside wiring issue.</p>
                   </div>
                 </div>
               </div>
@@ -308,23 +322,11 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Espresso Machine Issues</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Hob Not Heating Properly</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Espresso machines can experience various problems that affect their functionality and the quality of the coffee produced.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Vending Machine Problems</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Coffee vending machines, despite their simple design, tend to have a high number of issues. These machines are prone to several product-related faults.</p>
+                      This can occur if the cookware is not magnetic or sits unevenly on the cooking zone or hot plate.</p>
                   </div>
                 </div>
               </div>
@@ -332,10 +334,11 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Automatic Coffee Machine Problems</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Hob Overheating</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Automatic coffee machines utilise whole coffee beans, exposing them to the oils in the beans. This is a concern that many other types of coffee machines don't face.</p>
+                    <p className="p-2 mb-0">
+                      This can happen if the heat is not circulated correctly or if there's a fan or heating thermostat issue.</p>
                   </div>
                 </div>
               </div>
@@ -350,10 +353,10 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* HERE ARE THE SERVICES WE OFFER FOR COFFEE AND ESPRESSO MACHINES  */}
+        {/*HERE ARE THE SERVICES WE OFFER FOR INDUCTION HOB */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30"> HERE ARE THE SERVICES WE OFFER FOR COFFEE AND ESPRESSO MACHINES </h3>
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR INDUCTION HOB   </h3>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -361,8 +364,8 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
                   className="bordered-img blue-border"
                   width="100%"
                   height="350"
-                  src="https://www.youtube.com/embed/IjckdZLs_Qg"
-                  title="FAJ Videos"
+                  src="https://www.youtube.com/embed/SLGpswtzn-w"
+                  title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
@@ -370,30 +373,36 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-xl-6">
-                <p className='mb-0'>We specialise in all types and brands of coffee makers and espresso machines, including:
+                <p className="mb-0">
+                  We specialise in all types and brands of induction hobs, including built-in units.
                 </p>
-                {/* <p className='mb-0'><strong>Our services include: </strong></p> */}
-                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                  <li> <strong> Installation: </strong> We provide professional installation for various coffee and espresso machines, ensuring optimal performance. </li>
-                  <li> <strong> Cleaning and Maintenance: </strong> Proper maintenance of your espresso or coffee machine is essential for brewing great coffee and ensuring a long service life. </li>
-                  <li> <strong> Descaling Espresso Machine: </strong> Descaling your espresso machine or coffee machine when prompted is essential. Removing limescale is necessary to maintain the machine's performance. </li>
-                  <li> <strong> Coffee Equipment: </strong> We offer coffee grinders, descalers, coffee brewers, and coffee roaster services.  </li>
-                  <li> <strong> Repair Service: </strong> We provide efficient repair services for all coffee machine components, quickly resolving leaks, errors, electrical failures, and malfunctions. </li>
-                  <li> <strong> Annual Maintenance Contract: </strong> This contract details the annual maintenance terms for your espresso machine. Regular maintenance is essential for optimal performance and longevity.
 
-                  </li>
+                <p className='mb-0'><strong>Our services include:</strong></p>
+                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
+
+                  <li> <strong>  Hob Installation: </strong> We provide professional installation of various types and brands of induction hobs to ensure optimal performance and efficiency./</li>
+                  <li> <strong>  Hob Diagnostics: </strong> Our team offers comprehensive fault-finding services to diagnose any issues effectively. We conduct eligibility assessments and provide detailed quotations to resolve any concerns with your system./</li>
+                  <li> <strong>  Hob Repair Service: </strong> We offer efficient repair services for all cooking hob components. Our team quickly addresses leaks, electrical failures, and system malfunctions./</li>
+                  <li> <strong> Hob Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for the yearly maintenance of your induction hob./</li>
+
+                  <p className="mb-0">
+                    Regular maintenance is essential for the optimal performance, efficiency, and longevity of your hob. Feel free to reach out if you need specific services or have any questions!
+                  </p>
                 </ul>
+
+
               </div>
+
 
             </div>
           </div>
         </section >
 
         {/* The Benefits Of appliances Service Dubai */}
-        <section className="section cs_py_30 appliances-benifit-sec bg-light-gray ">
+        <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
-              <h3 className="cs_fs_30 mb-0">The Benefits Of Coffee Machines Service Dubai
+              <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai
               </h3>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
@@ -415,7 +424,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
                       </h4>
-                      <p className="small">Regular maintenance helps your coffee machines run smoothly and efficiently, delivering the best results every time.
+                      <p className="small">Regular maintenance helps your appliances run smoothly and efficiently, delivering the best results every time.
                       </p>
                     </div>
                   </div>
@@ -427,7 +436,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
                         <img src={`${import.meta.env.BASE_URL}/img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
-                      <p className="small">Energy efficient coffee machine translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                      <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
                     </div>
                   </div>
                 </div>
@@ -450,8 +459,8 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}/img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Coffee Machines Lifespan</h4>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your home coffee machine, delaying the need for replacements.</p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h4>
+                      <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
 
                     </div>
 
@@ -466,7 +475,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                       </h4>
-                      <p className="small">Knowing your coffee machines are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                      <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
                     </div>
                   </div>
                 </div>
@@ -474,6 +483,8 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
             </div>
           </div>
         </section>
+
+
 
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
@@ -500,7 +511,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Confidence</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your coffee machine runs smoothly and providing peace of mind.</p>
+                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
                   </div>
                 </div>
 
@@ -511,7 +522,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your coffee machine repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive.</p>
+                    <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive.</p>
                   </div>
                 </div>
 
@@ -519,7 +530,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}/img/Coffee-Machine-Repair-&-Maintenance.jpg`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}/img/fajteam-1.jpg`} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
@@ -530,7 +541,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are experts in coffee machine repair this is why most major brands trust us to handle their service and maintenance needs.</p>
+                    <p>We are experts in appliance repair this is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -540,7 +551,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two coffee machine at the same in Dubai location.</p>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same in Dubai location.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -549,74 +560,251 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our skilled coffee machine technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
+                    <p>Our skilled appliance technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
                   </div>
                 </div>
               </div>
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="blue-border-2" src={`${import.meta.env.BASE_URL}/img/Coffee-Machine-Repair-&-Maintenance.jpg`} alt="FAJ icon service" />
+                <img className="" src={`${import.meta.env.BASE_URL}/img/fajteam.jpg`} alt="FAJ icon service" />
               </div>
             </div>
           </div>
         </section>
 
-        {/* CHOOSE COMMERCIAL ESPRESSO AND COFFEE MACHINE REPAIR SERVICE */}
-        <section className="section cs_py_30 bg-light-gray">
+        {/* We specialise in Hob services for the following brands  */}
+        <section className="section cs_py_30 bg-light-gray ">
           <div className="container">
-            <h3>CHOOSE COMMERCIAL ESPRESSO AND COFFEE MACHINE REPAIR SERVICE</h3>
-            <div class="row">
-              <div class="col-sm-4">
-                <ul class="">
+            <h3>We specialise in Hob services for the following brands </h3>
+            <div className="row">
+              <div className="col-12">
 
-                  <li class="">La Pavoni Espresso Repair and Service</li>
-                  <li class="">Beko Coffee Machine Repair and Cleaning</li>
-                  <li class="">Marco Coffee Machine Repair and Service</li>
-                  <li class="">Teka Coffee Machine Repair and Descaling</li>
-                  <li class="">Jura Coffee Machine Repair and Servicing</li>
-                  <li class="">Dr.Coffee Machine Repair and Maintenance</li>
-                  <li class="">Appia Coffee Machine Repair and Descaling</li>
-                  <li class="">Bezzera Coffee Machine Repair and Cleaning</li>
-                  <li class="">Breville Coffee Machine Repair and Cleaning</li>
-                  <li class="">Melitta Coffee Machine Repair and Descaling</li>
-                  <li class="">Conti Coffee Machine Repair and Installation</li>
-                  <li class="">Ascaso Coffee Machine Repair and Maintenance</li>
-                  <li class="">Lelit Coffee Machine Repair and Cleaning Service</li>
-                  <li class="">Cafematic Automatic Coffee Machine Repairs and Maintenance</li>
-                  <li class="">Farenheit Epsilon Super Automatic Coffee Machine, Espresso Maker</li>
-                </ul>
-              </div>
-              <div class="col-sm-4">
-                <ul class="acsvs-exp-new-p">
-                  <li class="">Bosch Machine Repair and Maintenance</li>
-                  <li class="">Breville Coffee Machine Repair and Fixing</li>
-                  <li class="">Seimens Coffee Machine Repair and Cleaning</li>
-                  <li class="">Armiali Coffee Machine Repairs and Servicing</li>
-                  <li class="">Espresso Southeast Coffee Machine Repair and Fix</li>
-                  <li class="">La Marzocco Coffee Machine Repair and Maintenance</li>
-                  <li class="">Isomac Coffee Machine &amp; Espresso Repair and Fix</li>
-                  <li class="">ECM Coffee Machine &amp; Espresso Repair and Servicing</li>
-                  <li class=""><a href="#/delonghi-coffee-machine-repair/">Delonghi Coffee Machine &amp; Espresso Repair</a> and Service</li>
-                  <li class="">Animo with Water Filter Coffee Machine Repair and Service</li>
-                  <li class="">Rancilio Volumetric Espresso Machine Repair and Servicing</li>
-                </ul>
-              </div>
-              <div class="col-sm-4">
-                <ul class="acsvs-exp-new-p">
-                  <li class="">Orhcestrale Espresso Machines Repair and Fix</li>
-                  <li class="">Astoria Loft Espresso Machine Repair and Fixing</li>
-                  <li class="">Rocket Espresso Machine Repair and Descaling</li>
-                  <li class="">Magister Espresso Machines Repair and Maintenance</li>
-                  <li class="">Nuova Simonelli Coffee Machine Repair and Servicing</li>
-                  <li class="">Victoria Arduino Coffee Machine Repair and Service</li>
-                  <li class="">Gaggia Automatic Coffee Machine Repair near me</li>
-                  <li class="">Rocket Appartmento Machine Repair and Descaling</li>
-                  <li class="">Illy Saeco Royal Coffee Machine Repair and Service</li>
-                  <li class="">Sage Coffee Machine &amp; Espresso Repair and Cleaning</li>
+                <p className="mb-0">
+                  <Link to="/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/">
+                    <b>Smeg Cooker Repair</b>
+                  </Link>: FAJ is here to support you when things go wrong. We understand that your Smeg appliances are essential for daily life, keeping your food fresh and meals cooked.
+                </p>
 
-                </ul>
+                <p className="mb-0">
+                  <Link to="/siemens-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
+                    <b>Siemens Cooker Repair</b>
+                  </Link>:If you are facing any problems with your Siemens oven, stove, refrigerator, washer dryer, or dishwasher, contact the FAJ team for same-day repair service in Dubai.
+                </p>
+
+                <p className="mb-0">
+                  <Link to="/la-germania-cooking-range-repair-in-dubai-la-germania-oven-repair-in-dubai-la-germania-cooker-repair-in-dubai-la-germania-cooker-oven-maintenance-service-in-dubai-refrigerator-repair-in-dubai-fridge-r/">
+                    <b> La Germania Stove and Cooker Repair</b>
+                  </Link>: When you need La Germania oven repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE.
+                </p>
+
+                <p className="mb-0">
+                  <Link to="/bosch-home-appliances-repair/">
+                    <b> Bosch Stove Repair</b>
+                  </Link>: If you are looking for the best Bosch appliance repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch oven repair and are recognized as the leading Bosch appliance service provider in the area.
+                </p>
+
+                <p className="mb-0">
+                  <Link to="/viking-appliances-service/">
+                    <b> Viking Range and Oven Repair</b>
+                  </Link>: Your Viking appliances may require repair or maintenance and we can help. For high-quality Viking stove and oven repair in Dubai, rely on FAJ.
+                </p>
+
+                <p className="mb-0">
+                  <Link to="/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
+                    <b> Daewoo Cooking Range Repair</b>
+                  </Link>: We provide expert services for Daewoo appliance repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo cooking range, refrigerator, washing machine, dryer and more.
+                </p>
+
+                <p className="mb-0">
+                  <Link to="/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub/">
+                    <b> Neff Gas Stove Repair</b>
+                  </Link>: Are you concerned about your Neff appliance malfunctioning and searching for a reliable Neff Gas Stove repair company in Dubai? Contact us for same-day service!
+                </p>
+
+                <p className="mb-0">
+                  <Link to="/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
+                    <b> Teka Gas Stove Repair</b>
+                  </Link>: If you're searching for the best Teka appliance repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka gas stove, refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
+                </p>
+
+
+                <br />
+
+                <p><a href="#/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/">AEG</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/ariston-fridge-repair-in-dubai-ariston-washing-machine-repair-in-dubai-ariston-cooker-repair-in-dubai-ariston-oven-repair-in-dubai-ariston-appliances-maintenance-in-dubai-ariston-refrigerator-fix-repa/">Ariston</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/beko-fridge-repair-in-dubai-beko-washing-machine-repair-in-dubai-beko-cooker-repair-in-dubai-beko-oven-repair-in-dubai-beko-appliances-maintenance-in-dubai-beko-refrigerator-fix-repairs-service-in-dub/">Beko</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/blomberg-fridge-repair-in-dubai-blomberg-washing-machine-repair-in-dubai-blomberg-cooker-repair-in-dubai-blomberg-oven-repair-in-dubai-blomberg-appliances-maintenance-in-dubai-blomberg-refrigerator-fi/">Blomberg</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/electrolux-home-appliances-repair/">Electrolux</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/faber-appliances-service/">Faber</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/fagor-fridge-repair-in-dubai-fagor-washing-machine-repair-in-dubai-fagor-cooker-repair-in-dubai-fagor-oven-repair-in-dubai-fagor-appliances-maintenance-in-dubai-fagor-refrigerator-fix-repairs-service/">Fagor</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/fisher-and-paykel-fridge-repair-in-dubai-fisher-and-paykel-washing-machine-repair-in-dubai-fisher-and-paykel-cooker-repair-in-dubai-fisher-and-paykel-oven-repair-in-dubai-fisher-and-paykel-appliances/">Fisher and Paykel</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/foster-appliances-services-foster-dishwasher-repair-service-in-dubai-foster-cooking-range-repair-service-in-dubai-foster-cooktop-repair-service-in-dubai-foster-oven-repair-in-dubai-foster-rangetop-r/">Foster</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/gaggenau-fridge-repair-in-dubai-gaggenau-washing-machine-repair-in-dubai-gaggenau-cooker-repair-in-dubai-gaggenau-oven-repair-in-dubai-gaggenau-appliances-maintenance-in-dubai-gaggenau-refrigerator-fi/">Gaggenau</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/hitachi-fridge-repair-in-dubai-hitachi-washing-machine-repair-in-dubai-hitachi-cooker-repair-in-dubai-hitachi-oven-repair-in-dubai-hitachi-appliances-maintenance-in-dubai-hitachi-refrigerator-fix-repa/">Hitachi</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/hoover-fridge-repair-in-dubai-hoover-washing-machine-repair-in-dubai-hoover-cooker-repair-in-dubai-hoover-oven-repair-in-dubai-hoover-appliances-maintenance-in-dubai-hoover-refrigerator-fix-repairs-se/">Hoover</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-oven-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa/">Indesit </a>
+                  |<a href="#/lg-fridge-repair-in-dubai-lg-washing-machine-repair-in-dubai-lg-cooker-repair-in-dubai-lg-oven-repair-in-dubai-lg-appliances-maintenance-in-dubai-lg-refrigerator-fix-repairs-service-in-dubai-lg-dishwa/"> LG</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/sub-zero-fridge-repair-in-dubai-sub-zero-washing-machine-repair-in-dubai-sub-zero-cooker-repair-in-dubai-sub-zero-oven-repair-in-dubai-sub-zero-appliances-maintenance-in-dubai-sub-zero-refrigerator-fi/">Sub Zero</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/terim-appliances-service/">Terim</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/whirlpool-fridge-repair-in-dubai-whirlpool-washing-machine-repair-in-dubai-whirlpool-cooker-repair-in-dubai-whirlpool-oven-repair-in-dubai-whirlpool-appliances-maintenance-in-dubai-whirlpool-refrigera/">Whirlpool</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/zanussi-fridge-repair-in-dubai-zanussi-washing-machine-repair-in-dubai-zanussi-cooker-repair-in-dubai-zanussi-oven-repair-in-dubai-zanussi-appliances-maintenance-in-dubai-zanussi-refrigerator-fix-repa/">Zanussi</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="https://fajservice.ae/de-dietrich-appliance-repair-service/">De Dietrich</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/baumatic-appliances/">Baumatic</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/bertazzoni-refrigerator-repair-in-dubai-bertazzoni-appliances-service-bertazzoni-fridge-repair-in-dubai-bertazzoni-washing-machine-washer-bertazzoni-dryer-repair-in-dubai-bertazzoni-dishwasher-cooker/">Bertazzoni</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/bompani-fridge-repair-in-dubai-bompani-washing-machine-repair-in-dubai-bompani-cooker-repair-in-dubai-bompani-oven-repair-in-dubai-bompani-appliances-maintenance-in-dubai-bompani-refrigerator-fix-repa/">Bompani</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/boston-refrigerator-repair-in-dubai-boston-appliances-service-boston-fridge-repair-in-dubai-boston-washing-machine-washer-boston-dryer-repair-in-dubai-boston-dishwasher-cooker/">Boston</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/brandt-fridge-repair-in-dubai-brandt-washing-machine-repair-in-dubai-brandt-cooker-repair-in-dubai-brandt-oven-repair-in-dubai-brandt-appliances-maintenance-in-dubai-brandt-refrigerator-fix-repairs-se/">Brandt</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/gibson-fridge-repair-in-dubai-gibson-washing-machine-repair-in-dubai-gibson-cooker-repair-in-dubai-gibson-oven-repair-in-dubai-gibson-appliances-maintenance-in-dubai-gibson-refrigerator-fix-repairs-se/">Gibson</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/gorenje-fridge-repair-in-dubai-gorenje-washing-machine-repair-in-dubai-gorenje-cooker-repair-in-dubai-gorenje-oven-repair-in-dubai-gorenje-appliances-maintenance-in-dubai-gorenje-refrigerator-fix-repa/">Gorenje</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/hisense-fridge-repair-in-dubai-hisense-washing-machine-repair-in-dubai-hisense-cooker-repair-in-dubai-hisense-oven-repair-in-dubai-hisense-appliances-maintenance-in-dubai-hisense-refrigerator-fix-repa/">Hisense</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/kelvinator-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Kelvinator</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/kenmore-appliances-service/">Kenmore</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/panasonic-fridge-repair-in-dubai-panasonic-washing-machine-repair-in-dubai-panasonic-cooker-repair-in-dubai-panasonic-oven-repair-in-dubai-panasonic-appliances-maintenance-in-dubai-panasonic-refrigera/">Panasonic</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/sanyo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Sanyo</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/sears-home-appliances-installation-maintenance-repair-fix-service-in-dubai/">Sears</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/wolf-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Wolf</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/haier-fridge-repair-in-dubai-haier-washing-machine-repair-in-dubai-haier-cooker-repair-in-dubai-haier-oven-repair-in-dubai-haier-appliances-maintenance-in-dubai-haier-refrigerator-fix-repairs-service/">Haier</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/elica-appliances-service/">Elica</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/marvel-fridge-repair-in-dubai-marvel-washing-machine-repair-in-dubai-marvel-cooker-repair-in-dubai-marvel-oven-repair-in-dubai-marvel-appliances-maintenance-in-dubai-marvel-refrigerator-fix-repairs-se/">Marvel</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/miele-fridge-repair-in-dubai-miele-washing-machine-repair-in-dubai-miele-cooker-repair-in-dubai-miele-oven-repair-in-dubai-miele-appliances-maintenance-in-dubai-miele-refrigerator-fix-repairs-service/">Miele</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/maytag-fridge-repair-in-dubai-maytag-washing-machine-repair-in-dubai-maytag-cooker-repair-in-dubai-maytag-oven-repair-in-dubai-maytag-appliances-maintenance-in-dubai-maytag-refrigerator-fix-repairs-se/">Maytag</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/toshiba-home-appliance-installation-maintenance-repair-fix-service-in-dubai-2/">Toshiba</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/thermador-appliances-service/">Thermador</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/sharp-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Sharp</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/admiral-fridge-repair-in-dubai-admiral-washing-machine-repair-in-dubai-admiral-cooker-repair-in-dubai-admiral-oven-repair-in-dubai-admiral-appliances-maintenance-in-dubai-admiral-refrigerator-fix-repa/">Admiral</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/aftron-fridge-repair-in-dubai-aftron-washing-machine-repair-in-dubai-aftron-cooker-repair-in-dubai-aftron-oven-repair-in-dubai-aftron-appliances-maintenance-in-dubai-aftron-refrigerator-fix-repairs-se/">Aftron</a>
+
+                  <span>&nbsp;-&nbsp;</span>
+
+                  <a href="#/unimac-washing-machine-repair-in-dubai-unimac-dryer-repair-in-dubai-unimac-washer-dryer-repair-in-dubai-unimac-maintenance-in-dubai-unimac-laundry-service-in-dubai-unimac-dubai/">Unimac</a>
+                </p>
+
               </div>
+
             </div>
 
             <div id="get-quote" className=" mt-3">
@@ -629,10 +817,11 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
+
+
         {/* Brands section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
           <div className="container">
-            <h3> We worked with all of these brands </h3>
 
             <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
               data-variable-width="0" data-xs-slides="1" data-sm-slides="1" data-md-slides="1" data-lg-slides="2"
@@ -643,7 +832,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
                     <div key={index} className="cs_slide wow fadeInLeft">
 
                       <div className="brandslogo-slide-container">
-                        <div className="brnadlogo-coffeemachine-service">
+                        <div className="brnadlogo">
                           <img className="w-100" src={`${import.meta.env.BASE_URL}${item.logo}`} alt="Avatar" />
                         </div>
                       </div>
@@ -754,4 +943,5 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
   );
 };
 
-export default CommercialCoffeeMachineRepairDetail;
+export default HobRepairDetail;
+
