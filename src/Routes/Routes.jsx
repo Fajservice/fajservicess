@@ -11,7 +11,7 @@ import AcRepairDubai from "../Pages/AcRepairDubai";
 import FreestandingHomeAppliancesRepairService from "../Pages/HomeAppPages/FreestandingHomeAppliancesRepairService";
 import CoffeeMachineServiceCenterInDubai from "../Pages/CoffeeMachineServiceCenterInDubai";
 import CommercialCoffeeMachineRepair from "../Pages/CommercialCoffeeMachineRepair";
-import WashingMachineRepairServiceDubai from "../Pages/WashingMachineRepairServiceDubai";
+import WashingMachineRepairServiceDubai from "../Pages/HomeAppPages/WashingMachineRepairServiceDubai";
 import RefrigeratorRepairInDubai from "../Pages/HomeAppPages/RefrigeratorRepairInDubai";
 import HobRepair from "../Pages/HomeAppPages/HobRepair";
 import OvenRepairService from "../Pages/HomeAppPages/OvenRepairService";
