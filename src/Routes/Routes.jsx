@@ -158,7 +158,6 @@ import AcRepairInAlBarsha from "../Pages/AcPages/AcLocation/AcRepairInAlBarsha";
 import AcRepairInAlRaffa from "../Pages/AcPages/AcLocation/AcRepairInAlRaffa";
 import AcRepairInOldTown from "../Pages/AcPages/AcLocation/AcRepairInOldTown";
 import FoodWarmerRepair from "../Pages/KitchenEquipPages/FoodWarmerRepair";
-import KitchenEquipmentsAMC from "../Pages/KitchenEquipmentsAMC";
 import MeatGrinderRepair from "../Pages/KitchenEquipPages/MeatGrinderRepair";
 import DoughMixerRepair from "../Pages/KitchenEquipPages/DoughMixerRepair";
 export const router = createHashRouter([
