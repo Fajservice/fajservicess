@@ -17,13 +17,10 @@ import HobRepair from "../Pages/HomeAppPages/HobRepair";
 import OvenRepairService from "../Pages/HomeAppPages/OvenRepairService";
 import GasRangeRepairService from "../Pages/HomeAppPages/GasRangeRepairService";
 import DishwasherRepair from "../Pages/HomeAppPages/DishwasherRepair";
-
 import VacuumCleanerRepair from "../Pages/HomeAppPages/VacuumCleanerRepair";
 import SmallAppliancesRepair from "../Pages/HomeAppPages/SmallAppliancesRepair";
 import IntegratedApplianceRepair from "../Pages/HomeAppPages/IntegratedApplianceRepair";
 import AppliancesMaintenanceContract from "../Pages/HomeAppPages/AppliancesMaintenanceContract";
-
-
 import ColdRoomRepair from "../Pages/ColdRoomRepair";
 import ServicesPage from "../Pages/ServicesPage";
 import ProjectPage from "../Pages/ProjectPage";
@@ -33,7 +30,7 @@ import TeamDetailsPage from "../Pages/TeamDetailsPage";
 import BlogPage from "../Pages/BlogPage";
 import ContactPage from "../Pages/ContactPage";
 import BlogDetailsPage from "../Pages/BlogDetailsPage";
-import DubaiAcServicePriceList from "../Pages/DubaiAcServicePriceList"
+import DubaiAcServicePriceList from "../Pages/DubaiAcServicePriceList";
 import AcRepairInRitz from "../Pages/AcPages/AcLocation/AcRepairInRitz";
 import ColemenAcRepair from "../Pages/AcPages/AcBrand/ColemenAcRepair";
 import AcRepairInSiliconOasis from "../Pages/AcPages/AcLocation/AcRepairInSiliconOasis";
@@ -117,19 +114,15 @@ import HaierAcRepair from "../Pages/AcPages/AcBrand/HaierAcRepair";
 import TCLAcRepair from "../Pages/AcPages/AcBrand/TCLAcRepair";
 import AcRepairInTheVilla from "../Pages/AcPages/AcLocation/AcRepairInTheVilla";
 import AcRepairInJumeirahBeachResidence from "../Pages/AcPages/AcLocation/AcRepairInJumeirahBeachResidence";
-
 import OvenRepair from "../Pages/KitchenEquipPages/OvenRepair";
 import DeepFryerService from "../Pages/KitchenEquipPages/DeepFryerService";
 import KitchenEquipmentAMC from "../Pages/KitchenEquipPages/KitchenEquipmentAMC";
 import KitchenEquipmentRepair from "../Pages/KitchenEquipPages/KitchenEquipmentRepair";
-
-
 import  IceMakerRepair from "../Pages/RefrigerationEquipPages/IceMakerRepair";
 import  RefrigerationAMCServices from "../Pages/RefrigerationEquipPages/RefrigerationAMCServices";
 import  WalkInRefrigerationServices from "../Pages/RefrigerationEquipPages/WalkInRefrigerationServices";
 import  FreezerAndChillerMaintenance from "../Pages/RefrigerationEquipPages/FreezerAndChillerMaintenance";
 import  CommercialRefrigeratorRepair from "../Pages/RefrigerationEquipPages/CommercialRefrigeratorRepair";
-
 import AcRepairInJumeirahHeights from "../Pages/AcPages/AcLocation/AcRepairInJumeirahHeights";
 import AcRepairInQuozIndustrialArea from "../Pages/AcPages/AcLocation/AcRepairInQuozIndustrialArea";
 import AcRepairInTheLakes from "../Pages/AcPages/AcLocation/AcRepairInTheLakes";
@@ -165,9 +158,12 @@ import AcRepairInAlBarsha from "../Pages/AcPages/AcLocation/AcRepairInAlBarsha";
 import AcRepairInAlRaffa from "../Pages/AcPages/AcLocation/AcRepairInAlRaffa";
 import AcRepairInOldTown from "../Pages/AcPages/AcLocation/AcRepairInOldTown";
 import FoodWarmerRepair from "../Pages/KitchenEquipPages/FoodWarmerRepair";
-import KitchenEquipmentsAMC from "../Pages/KitchenEquipmentsAMC";
 import MeatGrinderRepair from "../Pages/KitchenEquipPages/MeatGrinderRepair";
 import DoughMixerRepair from "../Pages/KitchenEquipPages/DoughMixerRepair";
+import AcRepairInDubaiInternationalFinancialCenter from "../Pages/AcPages/AcLocation/AcRepairInDubaiInternationalFinancialCenter";
+import AcRepairInBurDubai from "../Pages/AcPages/AcLocation/AcRepairInBurDubai";
+import AcRepairInSiliconOasisDubai from "../Pages/AcPages/AcLocation/AcRepairInSiliconOasisDubai";
+import AcRepairInDubailandMazayaQueue from "../Pages/AcPages/AcLocation/AcRepairInDubailandMazayaQueue";
 export const router = createHashRouter([
   {
     path: "/",
@@ -233,15 +229,13 @@ export const router = createHashRouter([
         path: "/gas-cooker-repair/",
         element: <GasRangeRepair />
       },
-
-     
       {
         path: "/deep-fryer-service/",
         element: <DeepFryerService/>,
       },
       {
         path: "/meat-grinder-repair/",
-        element: <MeatGrinderRepair ></MeatGrinderRepair>
+        element: <MeatGrinderRepair  />
       },
       {
         path: "/dough-mixer-repair",
@@ -259,7 +253,6 @@ export const router = createHashRouter([
         path: "/commercial-cooking-appliances-repair-service/",
         element: <KitchenEquipmentRepair/>,
       },
-
       {
         path: "/ice-maker-repair/",
         element: <IceMakerRepair/>,
@@ -268,7 +261,6 @@ export const router = createHashRouter([
         path: "/commercial-freezer-chiller-amc-service/",
         element: <RefrigerationAMCServices/>,
       },
-
       {
         path: "/walk-in-freezer-display-freezer-open-freezer-maintenance/",
         element: <WalkInRefrigerationServices/>,
@@ -281,7 +273,6 @@ export const router = createHashRouter([
         path: "/commercial-refrigeration-services/",
         element: <CommercialRefrigeratorRepair/>,
       },
-
       {
         path: "/gas-cooker-repair-service/",
         element: <GasRangeRepairService></GasRangeRepairService>,
@@ -294,7 +285,6 @@ export const router = createHashRouter([
         path: "/oven-repair/",
         element: <OvenRepair />
       },
-
       {
         path: "/robot-vacuum-cleaner-repair/",
         element: <VacuumCleanerRepair />
@@ -303,12 +293,10 @@ export const router = createHashRouter([
         path: "/small-home-appliances-service-center-in-dubai/",
         element: <SmallAppliancesRepair />
       },
-
       {
         path: "/built-in-appliances-repair-service/",
         element: <IntegratedApplianceRepair />
       },
-
       {
         path: "/appliances-amc-service/",
         element: <AppliancesMaintenanceContract />
@@ -810,16 +798,36 @@ export const router = createHashRouter([
         element: <AcRepairInAlBarsha />,
       },
       {
-        path: "/ac-repair-in-al-barsha-air-condition-maintenance-in-al-barsha-air-conditioning-fix-amc-service-in-al-barsha-dubai/",
-        element: <AcRepairInAlBarsha />,
-      },
-      {
         path: "/ac-services-in-al-raffa/",
         element: <AcRepairInAlRaffa />,
       },
       {
-        path: "/ac-services-in-old-town-dubai/",
-        element: <AcRepairInOldTown />,
+        path: "/ac-services-in-dubai-international-financial-centre/",
+        element: <AcRepairInDubaiInternationalFinancialCenter />,
+      },
+      {
+        path: "/ac-services-in-bur-dubai/",
+        element: <AcRepairInBurDubai />,
+      },
+      {
+        path: "/ac-services-in-silicon-oasis-dubai/",
+        element: <AcRepairInSiliconOasisDubai />,
+      },
+      {
+        path: "/ac-services-in-burj-khalifa-lake/",
+        element: <AcRepairInBurjKhalifaLake />,
+      },
+      {
+        path: "/ac-services-in-dubailand-mazaya-queue/",
+        element: <AcRepairInDubailandMazayaQueue />,
+      },
+      {
+        path: "/ac-services-in-al-bada/",
+        element: <AcRepairInAlBadaa />,
+      },
+      {
+        path: "/ac-services-in-mudon/",
+        element: <AcRepairInMudon />,
       },
     ],
   }

@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/HomeAppData/DishwasherRepairFaqs.json';
+import data from '../../../Data/KitchenEquipments/FAQs/KitchenEquipmentRepairFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
@@ -11,7 +11,7 @@ import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
-import testimonial_data from '../../../Data/HomeAppData/DishwasherRepairTestimonial.json';
+import testimonial_data from '../../../Data/KitchenEquipments/Testmonials/KitchenEquipmentRepairTestimonials.json';
 import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
@@ -115,8 +115,8 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Best Appliances Service Dubai - Appliance Repair Near Me</title>
-        <meta name="description" content="We offer an appliances repair near you. Get expert in refrigerator, fridge, washing machine, dryer, dishwasher, gas stove, oven service near me Dubai"></meta>
+        <title>Commercial Cooking | Kitchen Equipment Repair & AMC ServiceRepair Service Dubai #1</title>
+        <meta name="description" content="Need expert kitchen equipment repair? FAJ offers commercial cooking appliance services and maintenance of stove, gas range, oven services Dubai"></meta>
       </HelmetProvider>
       <HeaderForm />
 
@@ -125,11 +125,8 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">Choose Dishwasher Service Center for Same-Day Repairs in Dubai</h2>
-            <p>
-              Since 2010, FAJ has been a trusted name in dishwasher repair and service in Dubai and Sharjah. Our skilled professionals are ready to assist with any brand, using high-quality tools for effective service.
-              <br /> We prioritise repairs over replacements, helping you save money and avoid the hassle of buying a new dishwasher. Rely on our experienced experts for fast and reliable dishwasher maintenance in Dubai!
-            </p>
+            <h2 className="cs_fs_30">Kitchen Equipment Repair and Maintenance Services in Dubai and Sharjah</h2>
+            <p>When it comes to commercial kitchen equipment such as cooking ranges, electric hot plates, combi ovens, microwaves, juicers, ice makers, espresso or coffee machines, refrigeration units, freezers, chillers, beverage dispensers, blenders, dough mixers, and vacuum packing machines, we understand how crucial quick maintenance and service are. Equipment that isn’t working leads to downtime, which can significantly impact your profits.<br />Since 2010, FAJ has been providing professional catering equipment maintenance, annual maintenance contracts (AMC), project services, and product sales to hotels, restaurants, and cafés in Dubai and Sharjah. We are committed to offering you a prompt and efficient response for the repair and servicing of your catering equipment.< br />Whether you have a contract with us or just need an emergency breakdown call out please contact our Service Department at +971507464712 or book online about our Planned Preventative Maintenance (PPM) services.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -146,24 +143,12 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <div className="row gx-md-5">
+            <div className="row gx-md-5 mb-2">
               <div className="col-md-6">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" /> */}
-                <h3 className="cs_fs_24 mb-1">Dishwasher Repair and Service Near You</h3>
-
-                <p className="mb-2">
-                  Has your dishwasher stopped working completely? Or is it running, but your dishes and cutlery aren't coming out as clean as they should?
-                  At FAJ, we understand that a machine breakdown is always inconvenient. That's why our team of experts is here to provide dishwasher repair and service appointments near you in Dubai and Sharjah.
-
-                </p>
-
-
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Dishwasher Technical Inspection Fee </h3>
-                <p className="mb-0">
-                  The technical inspection fee is AED 157, which covers diagnosis, transportation, and reinstallation in Dubai premises.
-                  <br />Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.
-
-                </p>
+                <h3 className="cs_fs_20 mb-1">Commercial Catering Equipment Maintenance</h3>
+                <p className="mb-2">FAJ Technical Services LLC is a rapidly growing company in Dubai that specializes in commercial catering services for hotels, restaurants, and cafes. We focus on repairing commercial cooking ranges, ovens, dishwashers, refrigeration units, freezers, and chiller equipment. Our team of experienced technicians is available for emergency services as well as annual maintenance contract (AMC) services in Dubai and Sharjah.</p>
+                <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Kitchen Equipment Technical Inspection Fee</h3>
+                <p className="mb-0">We have a standard fee for technical inspections that covers diagnosis and transportation within Dubai and Sharjah. Please note that this fee is non-refundable. This flat rate applies specifically to the technical inspection charge, but it does not include the cost of any repair or spare parts needed.</p>
               </div>
 
               <div className="col-md-6 ">
@@ -182,25 +167,24 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, bgImg }) => {
         {/* Why  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">Why is Dishwasher Maintenance Service Important in Dubai?</h3>
-            <p>
-              Proper dishwasher maintenance is essential for extending its lifespan and enhancing efficiency, especially in Dubai’s climate. Here are the main benefits:
-            </p>
+            <h3 className="cs_fs_30">Commercial Kitchen Equipment Repair</h3>
+            <p>Efficient and well-maintained equipment is required to run successfully commercial Kitchen equipment. Breakdowns on a daily basis can potentially disturb the bottom line. So, you cannot deliver quality food to your customers. It is important to have the best Commercial Kitchen Equipment Repair Services to maintain your Kitchen appliances. So, FAJ Technical Services LLC is offering Commercial Cooking Equipment Repair Services in Dubai. We have a team of well-trained technicians who will look after your kitchen appliances. We are working in appliance repair since 2010. So due to our vast experience, we can handle each kind of problem regarding your kitchen appliances or equipment.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Cooking-Range-Repair-Nearby-You.jpg`} alt="Post Image" />
               </div>
               <div className="col-md-6">
+                <h3 className="cs_fs_20">Our Expertise in Commercial Food Equipment Repair</h3>
+                <p>Commercially used Kitchen Equipment is complex and requires experience for perfect diagnosis and maintenance. So, our expertise in kitchen appliances is mentioned below:</p>
                 <ul className="mb-0">
-                  <li> <strong> Dishwasher Extended Lifespan: </strong> Regular maintenance helps the dishwasher last longer, saving on replacement costs. </li>
-                  <li> <strong> Dishwasher Improved Efficiency: </strong> A well-maintained dishwasher uses less energy, leading to lower utility bills, which is essential in Dubai. </li>
-                  <li> <strong> Dishwasher Preventing Costly Repair: </strong> Catching minor issues early prevents them from escalating into expensive repairs. </li>
-                  <li> <strong> Dishwasher Preserving induction hob Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
-                  <li> <strong> Dishwasher Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious. </li>
-                  <li> <strong> Dishwasher Cost-Effective: </strong> Maintenance costs are lower than early replacements or significant repairs. Investing in dishwasher care ensures safety and efficiency and is a wise economic choice in Dubai. </li>
-                  <li> <strong> Dishwasher Energy Efficiency: </strong> Regularly maintaining your dishwasher can improve efficiency and save you money. </li>
-
+                  <li>Problem analyzing skills</li>
+                  <li>Knowledge of equipment and its uses</li>
+                  <li>Kitchen appliances repair techniques</li>
+                  <li>Time management skills</li>
+                  <li>Preventative maintenance</li>
+                  <li>Customer satisfaction</li>
                 </ul>
+                <p>When your commercial kitchen appliances malfunction, then you need to call expert technicians for commercial cooking equipment repair services.</p>
               </div>
             </div>
           </div>
@@ -224,9 +208,6 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                 </div>
               </div>
-
-
-
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
@@ -347,7 +328,6 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR THE DISHWASHER </h3>
-
             <div className="row align-items-center">
               <div className="col-xl-6">
                 <iframe
