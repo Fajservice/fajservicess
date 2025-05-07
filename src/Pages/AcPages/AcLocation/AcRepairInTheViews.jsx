@@ -1,6 +1,6 @@
 import React from 'react'
 import BreadCumb from "../../../Components/Common/BreadCumb";
-import AcRepairInTheviewsDetail from '../../../Components/ServiceDetails/AcDetail/AcLocation/AcRepairInTheviewsDetail';
+import AcRepairInTheViewsDetail from '../../../Components/ServiceDetails/AcDetail/AcLocation/AcRepairInTheViewsDetail';
 
 const AcRepairInTheViews = () => {
   return (

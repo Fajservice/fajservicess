@@ -1,6 +1,6 @@
 import React from 'react'
 import BreadCumb from "../../../Components/Common/BreadCumb";
-import AcRepairInMankhoolDetail from './AcRepairInMankhoolDetail';
+import AcRepairInMankhoolDetail from '../../../Components/ServiceDetails/AcDetail/AcLocation/AcRepairInMankhoolDetail';
 const AcRepairInMankhool = () => {
   return (
     <div className="serviceDetails">
