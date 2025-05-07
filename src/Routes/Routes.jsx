@@ -147,6 +147,7 @@ import AcRepairInDifc from "../Pages/AcPages/AcLocation/AcRepairInDifc";
 import AcRepairInAlBarsha from "../Pages/AcPages/AcLocation/AcRepairInAlBarsha";
 import AcRepairInAlRaffa from "../Pages/AcPages/AcLocation/AcRepairInAlRaffa";
 import AcRepairInOldTown from "../Pages/AcPages/AcLocation/AcRepairInOldTown";
+import AcRepairInDubaiInternationalFinancialCenter from "../Pages/AcPages/AcLocation/AcRepairInDubaiInternationalFinancialCenter";
 export const router = createHashRouter([
   {
     path: "/",
@@ -733,8 +734,8 @@ export const router = createHashRouter([
         element: <AcRepairInAlRaffa />,
       },
       {
-        path: "/ac-services-in-old-town-dubai/",
-        element: <AcRepairInOldTown />,
+        path: "/ac-services-in-dubai-international-financial-centre/",
+        element: <AcRepairInDubaiInternationalFinancialCenter />,
       },
     ],
   }
