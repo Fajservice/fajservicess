@@ -18,6 +18,7 @@ import OvenRepairService from "../Pages/HomeAppPages/OvenRepairService";
 import GasRangeRepairService from "../Pages/HomeAppPages/GasRangeRepairService";
 import DishwasherRepair from "../Pages/HomeAppPages/DishwasherRepair";
 
+import FoodWarmerRepair from "../Pages/KitchenEquipPages/FoodWarmerRepair";
 import VacuumCleanerRepair from "../Pages/HomeAppPages/VacuumCleanerRepair";
 import SmallAppliancesRepair from "../Pages/HomeAppPages/SmallAppliancesRepair";
 import IntegratedApplianceRepair from "../Pages/HomeAppPages/IntegratedApplianceRepair";
@@ -164,6 +165,10 @@ import AcRepairInDifc from "../Pages/AcPages/AcLocation/AcRepairInDifc";
 import AcRepairInAlBarsha from "../Pages/AcPages/AcLocation/AcRepairInAlBarsha";
 import AcRepairInAlRaffa from "../Pages/AcPages/AcLocation/AcRepairInAlRaffa";
 import AcRepairInOldTown from "../Pages/AcPages/AcLocation/AcRepairInOldTown";
+
+import MeatGrinderRepair from "../Pages/KitchenEquipPages/MeatGrinderRepair";
+import DoughMixerRepair from "../Pages/KitchenEquipPages/DoughMixerRepair";
+import AcRepairInDubaiInternationalFinancialCenter from "../Pages/AcPages/AcLocation/AcRepairInDubaiInternationalFinancialCenter";
 export const router = createHashRouter([
   {
     path: "/",
@@ -237,7 +242,7 @@ export const router = createHashRouter([
       },
       {
         path: "/meat-grinder-repair/",
-        element: <MeatGrinderRepair ></MeatGrinderRepair>
+        element: <MeatGrinderRepair  />
       },
       {
         path: "/dough-mixer-repair",
