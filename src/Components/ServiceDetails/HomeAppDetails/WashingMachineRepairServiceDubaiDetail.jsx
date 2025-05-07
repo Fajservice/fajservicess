@@ -2,8 +2,9 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/HomeAppData/DishwasherRepairFaqs.json';
+import data from '../../../Data/HomeAppData/OvenRepairServiceFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
+import FAJACPrice from '../../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
 import GetQuoteButton from "../../Buttons/GetQuoteButton";
@@ -11,8 +12,9 @@ import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
-import testimonial_data from '../../../Data/HomeAppData/DishwasherRepairTestimonial.json';
+import testimonial_data from '../../../Data/HomeAppData/OvenRepairServiceTestimonials.json';
 import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
+
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
@@ -20,7 +22,7 @@ import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointme
 
 // import { Link } from "react-router-dom";
 
-const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
+const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, bgImg }) => {
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "/img/testimonialbg.jpg"
@@ -57,6 +59,12 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
+
+    // autoplay: true,
+    // autoplaySpeed: 0,
+    // speed: 8000,
+    // pauseOnHover: true,
+    // cssEase: 'linear',
 
     responsive: [
       {
@@ -125,10 +133,13 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">Choose Dishwasher Service Center for Same-Day Repairs in Dubai</h2>
+            <h2 className="cs_fs_30">Select Oven Service Center for Same-Day Repairs in Dubai</h2>
             <p>
-              Since 2010, FAJ has been a trusted name in dishwasher repair and service in Dubai and Sharjah. Our skilled professionals are ready to assist with any brand, using high-quality tools for effective service.
-              <br /> We prioritise repairs over replacements, helping you save money and avoid the hassle of buying a new dishwasher. Rely on our experienced experts for fast and reliable dishwasher maintenance in Dubai!
+              If you're having issues with your oven, it's important to locate a trustworthy and high-quality oven repair service. Our company in Dubai is focused on providing quick, effective, and affordable repairs for all your oven repair requirements.
+              <br />
+              With over a decade of experience since 2010 in maintenance of ovens of various types and brands, our skilled team employs the latest tools and techniques to diagnose and fix problems efficiently.
+              This ensures you can return to your busy life in Dubai and Sharjah without much delay.
+
 
             </p>
 
@@ -144,61 +155,62 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
         {/* Maintenance Contract */}
         <MaintenanceContract />
 
+        {/* Cooking Range Repair Nearby You */}
 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Dishwasher Repair and Service Near You </h3>
+                <h3 className="cs_fs_24 mb-1">Get Oven Repair & Service Near by You</h3>
 
                 <p className="mb-2">
-                  Has your dishwasher stopped working completely? Or is it running, but your dishes and cutlery aren't coming out as clean as they should?
-                  At FAJ, we understand that a machine breakdown is always inconvenient. That's why our team of experts is here to provide dishwasher repair and service appointments near you in Dubai and Sharjah.
+
+                  Ovens are among the most frequently used kitchen appliances, as we rely on them to cook our food.
+                  <br />  When an oven breaks down, it can significantly impact our daily routines. Therefore, it's essential to find an oven repair and service specialist near you as quickly as possible, whether you are in Dubai or Sharjah!
                 </p>
 
 
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Dishwasher Technical Inspection Fee </h3>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Oven Technical Inspection Fee</h3>
                 <p className="mb-0">
+
                   The technical inspection fee is AED 157, which covers diagnosis, transportation, and reinstallation in Dubai premises.
                   <br />Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.
-
 
                 </p>
               </div>
 
               <div className="col-md-6 ">
                 {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/dishwasher.webp`} alt="Post Image" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/kitchen-equipment.jpg`} alt="Post Image" />
 
               </div>
             </div>
-
-            <AppliancesAppointmentCol></AppliancesAppointmentCol>
+            <AppliancesAppointmentCol />
           </div>
         </section>
 
 
-
-        {/* Why  */}
+        {/* Why is Oven Maintenance Service Important in Dubai? */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">Why is Dishwasher Maintenance Service Important in Dubai?</h3>
+            <h3 className="cs_fs_30">Why is Oven Maintenance Service Important in Dubai? </h3>
             <p>
-              Proper dishwasher maintenance is essential for extending its lifespan and enhancing efficiency, especially in Dubai’s climate. Here are the main benefits:
+              Regular maintenance is crucial in Dubai because of the frequent use of appliances and the city's climate. It ensures the longevity and optimal performance of the oven while reducing the risk of gas leaks and fire hazards. Here’s a detailed explanation:
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Cooking-Range-Repair-Nearby-You.jpg`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/oven-Range-Repair-Nearby-You-oven.jpg`} alt="Post Image" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
-                  <li> <strong> Dishwasher Extended Lifespan: </strong> Regular maintenance helps the dishwasher last longer, saving on replacement costs. </li>
-                  <li> <strong> Dishwasher Improved Efficiency: </strong> A well-maintained dishwasher uses less energy, leading to lower utility bills, which is essential in Dubai. </li>
-                  <li> <strong> Dishwasher Preventing Costly Repair: </strong> Catching minor issues early prevents them from escalating into expensive repairs. </li>
-                  <li> <strong> Dishwasher Preserving induction hob Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
-                  <li> <strong> Dishwasher Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious. </li>
-                  <li> <strong> Dishwasher Cost-Effective: </strong> Maintenance costs are lower than early replacements or significant repairs. Investing in dishwasher care ensures safety and efficiency and is a wise economic choice in Dubai. </li>
-                  <li> <strong> Dishwasher Energy Efficiency: </strong> Regularly maintaining your dishwasher can improve efficiency and save you money. </li>
+
+                  <li> <strong>Oven Heavy Use and Versatility: </strong> Ovens are vital for cooking and baking in homes and commercial kitchens, like those in hotels and bakeries in Dubai. Regular maintenance is essential for optimal performance.</li>
+                  <li> <strong>Oven Safety: </strong> Oven maintenance is crucial for safety, especially with gas ovens. Regular inspections can catch leaks or faulty controls that may create fire hazards.</li>
+                  <li> <strong>Oven Efficiency: </strong> Regular maintenance of the heating element and thermostat ensures efficiency, leading to energy savings and lower utility bills.</li>
+                  <li> <strong>Oven Preventative Measures: </strong> Regular maintenance, such as cleaning and inspections, prevents minor issues from becoming major repairs, saving time and money.</li>
+                  <li> <strong>Oven Long-term Use: </strong> Regular maintenance can extend your oven's lifespan and save you replacement costs.
+                    By prioritising oven maintenance, residents and businesses in Dubai can ensure their ovens function safely and efficiently.</li>
+
 
                 </ul>
               </div>
@@ -206,36 +218,21 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* Common Problems */}
+
+
+        {/* The Most Common Problems With Oven */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="text-center">The Most Common Problems with Dishwashers  </h3>
+            <h3 className="text-center">The Most Common Problems With Oven   </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Drainage Issues</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Won't Turn On</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Dishwasher machine water is pooling in the bottom of your dishwasher at the end of every cycle.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Cycle Won’t Start</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      When you press “start”, nothing happens. Your cycle doesn’t begin, and your dishwasher doesn’t seem to respond, despite the display panel appearing normal.
-                    </p>
+                    <p className="p-2 mb-0">This issue may be caused by a tripped circuit breaker, a blown fuse, or problems with the oven's control board or power supply.</p>
                   </div>
                 </div>
               </div>
@@ -243,56 +240,11 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Water Leaks </h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Defective Oven Light</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-
-                      You have noticed water leaking or pooling around your dishwasher when it runs, causing damage to your flooring and the surrounding area.
-
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Excessive Suds                    </h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-
-                      Your dishwasher fills with excess suds when you use it. You may also notice suds remaining in the bottom of the dishwasher after the cycle is finished and excessive residue on your dishes.
-
-
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Door Not Closing</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-
-                      The dishwasher door isn’t closing properly, preventing the cycle from starting.
-
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Not Filling With Water</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-
-                      When you start the dishwasher cycle, the interior doesn’t fill with water, or only fills a small amount.
-
+Typically, a simple bulb replacement can resolve this issue or cause some power not to get.
 
                     </p>
                   </div>
@@ -302,15 +254,13 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Heating Issues</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Doesn't Heat Up
+                    </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-
-                      Your dishwasher is not heating the water sufficiently, leading to cold washes and improperly cleaned dishes. Hot water is needed to properly activate the dishwasher detergent.
-
-
-                    </p>
+This could result from a faulty heating element, a broken thermostat, or a malfunction in the ignition system of gas ovens.
+</p>
                   </div>
                 </div>
               </div>
@@ -319,19 +269,67 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishes Not Drying</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">ven Doesn't Heat</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Your dishes come out of the dishwasher still wet, requiring manual drying after every load.
-
-                    </p>
+                    <p className="p-2 mb-0">O
+The oven doesn't Heat to the Correct Temperature. Possible causes include a faulty thermostat, miscalibration, or issues with the control panel.
+</p>
                   </div>
                 </div>
               </div>
 
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Food Doesn't Cook Evenly</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+This can occur due to factors such as incorrect rack placement, blocked vents, or a faulty thermostat.
+</p>
+                  </div>
+                </div>
+              </div>
 
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Door Won't Close</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+Problems with the door hinges, seals, or latch mechanism can prevent the door from closing properly.
+</p>
+                  </div>
+                </div>
+              </div>
 
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Self-Cleaning Problems</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+Self-cleaning ovens sometimes experience issues during the cleaning cycle, which may require resetting or professional assistance.
+</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className="box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Broken Oven Rack</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+A broken or damaged rack can reduce the oven's efficiency and hinder cooking capabilities.
+</p>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
@@ -343,10 +341,12 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/*HERE ARE THE SERVICES */}
-        <section className="section cs_py_30">
+        {/* HERE ARE THE SERVICES WE OFFER FOR THE OVEN */}
+        <section className="section cs_py_30 ">
           <div className="container">
-            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR THE DISHWASHER </h3>
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR THE OVEN
+            </h3>
+            <p></p>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -354,7 +354,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
                   className="bordered-img blue-border"
                   width="100%"
                   height="350"
-                  src="https://www.youtube.com/embed/Cye_OFTAT3E"
+                  src="https://www.youtube.com/embed/SLGpswtzn-w"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -363,23 +363,20 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-xl-6">
-                <p className="mb-0">
-                  We specialise in all types and brands of dishwashers, including dishwasher machines.
+               
+                <p className='mb-0'>We specialise in all types and brands of ovens, including built-in units.
                 </p>
-
                 <p className='mb-0'><strong>Our services include:</strong></p>
+               
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                  <li> <strong> Dishwasher Installation: </strong>  Expert installation of various types and brands of dishwashers, ensuring optimal performance and efficiency. </li>
-                  <li> <strong> Dishwasher Diagnostics: </strong>  We conduct thorough fault finding to diagnose issues effectively. We also provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
-
-                  <li> <strong> Dishwasher Repair Service: </strong>  Efficient repair services for all dishwasher machine components, ensuring quick resolution of any issues, such as leaks, electrical failures, and system malfunctions. </li>
-
-                  <li> <strong> Dishwasher Annual Maintenance Contract: </strong>  This contract outlines the terms and services covered for the dishwasher's annual maintenance. </li>
 
 
-
+ <li> <strong> Oven Installation: </strong> Expert installation of various types and brands of ovens, ensuring optimal performance and efficiency.</li>
+ <li> <strong> Diagnostics: </strong> Comprehensive fault-finding services to effectively diagnose issues. We provide eligibility assessments and detailed quotations to      address any concerns with your system.</li>
+ <li> <strong> Oven Repair Service: </strong> Efficient repair services for all oven components, ensuring a quick resolution to leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions!</li>
+ <li> <strong> Oven Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for your oven's annual maintenance.</li>
                   <p className="mb-0">
-                    Regular maintenance is essential for optimal performance, efficiency, and longevity of your dishwasher.
+                  Regular oven maintenance is essential for optimal performance, efficiency, and longevity of your oven.
 
                   </p>
                 </ul>
@@ -396,7 +393,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
-              <h3 className="cs_fs_30 mb-0">The Benefits Of Dishwasher Service Dubai
+              <h3 className="cs_fs_30 mb-0">The Benefits Of Oven Service Dubai
               </h3>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
@@ -418,7 +415,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
                       </h4>
-                      <p className="small">Regular maintenance helps your dishwasher run smoothly and efficiently, delivering the best results every time.
+                      <p className="small">Regular maintenance helps your oven run smoothly and efficiently, delivering the best results every time.
                       </p>
                     </div>
                   </div>
@@ -430,7 +427,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
                         <img src={`${import.meta.env.BASE_URL}/img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
-                      <p className="small">Energy efficient dishwasher translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                      <p className="small">Energy efficient oven translate to monthly savings on utility bills, putting more money back in your pocket.</p>
                     </div>
                   </div>
                 </div>
@@ -453,8 +450,8 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}/img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Extending dishwasher Lifespan</h4>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your home dishwasher, delaying the need for replacements.</p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Extending oven Lifespan</h4>
+                      <p className="small">Proper care and timely servicing can significantly increase life of your home oven, delaying the need for replacements.</p>
 
                     </div>
 
@@ -469,7 +466,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                       </h4>
-                      <p className="small">Knowing your dishwasher are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                      <p className="small">Knowing your oven are in top condition gives you confidence and removes the stress of unexpected failures.</p>
                     </div>
                   </div>
                 </div>
@@ -478,7 +475,9 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* CHOOSE US  */}
+       
+
+        {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
           <div className="container container-md container-sm">
             <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2>
@@ -503,7 +502,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Confidence</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your dishwasher runs smoothly and providing peace of mind.</p>
+                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your oven runs smoothly and providing peace of mind.</p>
                   </div>
                 </div>
 
@@ -514,7 +513,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your dishwasher repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive.</p>
+                    <p>Choose a day and time for your oven repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive.</p>
                   </div>
                 </div>
 
@@ -533,7 +532,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are experts in dishwasher repair this is why most major brands trust us to handle their service and maintenance needs.</p>
+                    <p>We are experts in oven repair this is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -543,7 +542,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two dishwasher at the same in Dubai location.</p>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two oven at the same in Dubai location.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -552,7 +551,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our skilled dishwasher technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
+                    <p>Our skilled oven technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
                   </div>
                 </div>
               </div>
@@ -565,68 +564,55 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* We specialise  */}
-        <section className="section cs_py_30 bg-light-gray ">
+        {/* We specialise in Oven services for the following brands  */}
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3>We specialise in dishwasher services for the following brands </h3>
+            <h3>We specialise in Oven services for the following brands </h3>
             <div className="row">
               <div className="col-12">
 
                 <p className="mb-0">
                   <Link to="/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/">
-                    <b>LG Dishwasher Repair</b>
-                  </Link>: FAJ is here to support you when things go wrong. We understand that your LG cooker or induction are essential for daily life, helping you prepare meals efficiently and on time.
+                    <b>Smeg Oven Repair</b>
+                  </Link>: FAJ is here to assist you when things go wrong. We understand that your Smeg oven is essential for daily life, helping keep your food fresh and your meals prepared
                 </p>
 
                 <p className="mb-0">
                   <Link to="/siemens-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b>Samsung Dishwasher Repair</b>
-                  </Link>
-                  : If you are facing any problems with your Samsung dishwasher, contact the FAJ team for same-day repair service in Dubai.
-
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/la-germania-cooking-range-repair-in-dubai-la-germania-oven-repair-in-dubai-la-germania-cooker-repair-in-dubai-la-germania-cooker-oven-maintenance-service-in-dubai-refrigerator-repair-in-dubai-fridge-r/">
-                    <b> Electrolux Dishwasher Repair</b>
-                  </Link>:  When you need Electrolux dishwasher repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE.
+                    <b>Siemens Oven Repair</b>
+                  </Link>: If you're experiencing issues with your oven, stove, refrigerator, washer, dryer, or dishwasher, reach out to the FAJ team for same-day repair service in Dubai.
                 </p>
 
                 <p className="mb-0">
                   <Link to="/bosch-home-appliances-repair/">
-                    <b> Bosch Dishwasher Repair</b>
-                  </Link>: If you are looking for the best Bosch dishwasher repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch home appliance dishwasher and are recognized as the leading Bosch dishwasher service provider in the area.
-
+                    <b> La Germania Gas Oven Repair</b>
+                  </Link>: When you need La Germania oven repair in Dubai, For La Germania oven, range repair in Dubai, our qualified technicians are available throughout 
                 </p>
-
 
                 <p className="mb-0">
                   <Link to="/viking-appliances-service/">
-                    <b> Viking Dishwasher Repair</b>
-                  </Link>: Your Viking dishwasher may require repair or maintenance and we can help. For high-quality Viking dishwashers in Dubai, rely on FAJ.
+                    <b> Viking Stove and Oven Repair</b>
+                  </Link>: Your Viking appliances may need repair or maintenance, and we can help. For high-quality Viking stove and oven repair in Dubai, trust FAJ.
 
                 </p>
 
                 <p className="mb-0">
                   <Link to="/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b> Daewoo Dishwasher Repair</b>
-                  </Link>: We provide expert services for Daewoo dishwasher repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo refrigerator, dishwasher, dryer and more.
-
+                    <b> Daewoo Oven Repair</b>
+                  </Link>: We offer expert Daewoo oven repair services in Dubai. Our experienced technicians possess the knowledge and skills to diagnose and repair issues with Daewoo ovens, refrigerators, washing machines, dryers, and more.
                 </p>
 
                 <p className="mb-0">
                   <Link to="/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub/">
-                    <b> Siemens Dishwasher Repair</b>
-                  </Link>: Are you concerned about your Siemens dishwasher malfunctioning and searching for a reliable Siemens dishwasher repair company in Dubai? Contact us for same-day service!
-
+                    <b> Neff Oven Repair</b>
+                  </Link>: Are you worried about your Neff oven malfunctioning and looking for a trustworthy Neff oven repair company in Dubai? Contact us for same-day service!
 
                 </p>
 
                 <p className="mb-0">
                   <Link to="/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b> Teka Dishwasher Repair</b>
-                  </Link>: If you're searching for the best Teka dishwasher repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka dishwashers, refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
-
+                    <b> Teka Stove and Oven Repair</b>
+                  </Link>: If you're looking for the best Teka oven repair company in Dubai, FAJ is the perfect choice. They are well-known for providing outstanding service for Teka refrigerators, washing machines, and ovens. FAJ is recognized as the leading Teka appliance service provider in the region.
                 </p>
 
 
@@ -820,6 +806,9 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
 
 
 
+       
+
+
         {/* Brands section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
           <div className="container">
@@ -944,5 +933,5 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
   );
 };
 
-export default DishwasherRepairDetailDetail;
+export default WashingMachineRepairServiceDubaiDetail;
 

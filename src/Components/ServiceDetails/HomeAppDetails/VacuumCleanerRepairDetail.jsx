@@ -11,7 +11,7 @@ import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
-import testimonial_data from '../../../Data/HomeAppData/HobrepairTestimonials.json';
+import testimonial_data from '../../../Data/HomeAppData/VacuumCleanerHomeappTestimonials.json';
 import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
@@ -57,13 +57,6 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
-
-    // autoplay: true,
-    // autoplaySpeed: 0,
-    // speed: 8000,
-    // pauseOnHover: true,
-    // cssEase: 'linear',
-
     responsive: [
       {
         breakpoint: 1399,
@@ -131,12 +124,11 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">Choose Hob Service Center for Same-Day Repair in Dubai</h2>
+            <h2 className="cs_fs_30"> Robot Vacuum Cleaner Repair and Service in Dubai, Sharjah, and Abu Dhabi</h2>
             <p>
 
-              Since 2010, we have been providing reliable hob repair services. We recognise that hobs can break down unexpectedly, so we provide high-quality and affordable repairs. Our trained technicians are available throughout Dubai and Sharjah to repair your gas or electric cooking stove at your location.
-
-
+              FAJ is a reliable company established in 2010. We provide all types of vacuum cleaners. At FAJ, we are committed to your right to repair your robotic vacuum cleaner by offering affordable repair and servicing options.
+              <br />We aim to help you avoid costly replacements and reduce waste. We provide comprehensive error fixing, repair, and servicing for robot vacuum cleaners, along with the necessary parts and products throughout Dubai, Abu Dhabi, and Sharjah. FAJ offers all your robot vacuum cleaner repair and maintenance needs under one roof.
 
             </p>
 
@@ -152,181 +144,85 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
         {/* Maintenance Contract */}
         <MaintenanceContract />
 
-        {/* Same Day Cooking Range Repair & Service */}
+        {/*heading 1 */}
 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" /> */}
-                <h3 className="cs_fs_24 mb-1">Same Day Cooking Range Repair & Service</h3>
+                <h3 className="cs_fs_24 mb-1">Select Your Vacuum Cleaner Repair</h3>
 
                 <p className="mb-2">
-                  It’s pretty standard to experience issues with cooking appliances from time to time.
-                  Whether your induction hob suddenly stops working, your gas stove won’t stay lit when you need it, or your electric hob keeps turning on and off, it’s essential to manage these problems promptly.
-                  <br />
-                  FAJ offers fast Services and can assist you in arranging a professional gas range repair to fix your faulty cooker.
+                  We understand that a vacuum cleaner breakdown is never convenient. Our expert technicians are here to provide efficient vacuum repair services. Roborock, Dreame Robot, Eufy Robot, Ecovacs Deebot, Roomba, Narwal, Dyson Robot Vacuum Cleaner Repair and Service Center in Dubai
 
                 </p>
 
 
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Cooking Stove Technical Inspection Fee </h3>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Vacuum Cleaner Technical Inspection Fee
+                </h3>
                 <p className="mb-0">
-                  The technical inspection fee is AED 157, which covers diagnosis, transportation, and reinstallation in Dubai premises.
-                  <br />
-                  Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.
+                  The technical inspection fee covers diagnosis, transportation, and reinstallation on Dubai premises.
+                  <br />Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.
 
                 </p>
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/kitchen-equipment.jpg`} alt="Post Image" />
 
               </div>
             </div>
 
             <AppliancesAppointmentCol></AppliancesAppointmentCol>
-
-
-            {/* <div className="appointment-col border-small-top pt-3">
-              <p>
-              If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.
-              <br />
-              Timing: Mon - Sat 8:00 AM to 6:00 PM, Sunday 12:00 PM to 6:00 PM. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.
-              </p>
-              
-              <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
-                  <WhatsappIconButton />
-                  <CallNowButton />
-                </div>
-              </div>
-            </div> */}
           </div>
         </section>
 
 
 
-        {/* Why is Induction Hob Maintenance Service Important in Dubai? */}
+        {/* Why is */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">Why is Induction Hob Maintenance Service Important in Dubai?</h3>
-            <p>
-              Proper induction hob maintenance is essential for extending its lifespan and enhancing efficiency, especially in Dubai’s climate. Here are the main benefits:
-            </p>
+            <h3 className="cs_fs_30">Why is Vacuum Cleaner Maintenance Service Important in Dubai?</h3>
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Cooking-Range-Repair-Nearby-You.jpg`} alt="Post Image" />
               </div>
               <div className="col-md-6">
+                <p>
+                  Vacuum cleaner maintenance is crucial for its longevity and performance and to ensure your home is cleaned effectively and safely.
+
+                  <br /> Here's why vacuum cleaner maintenance is important:
+                </p>
                 <ul className="mb-0">
-
-                  <li> <strong>  Hob Extended Lifespan: </strong> Regular maintenance helps the induction hob last longer, saving on replacement costs. </li>
-                  <li> <strong>  Stove Improved Efficiency: </strong> A well-maintained induction hob uses less energy, leading to lower utility bills, which is essential in Dubai. </li>
-                  <li> <strong>  Hob Preventing Costly Repair: </strong> Catching minor issues early prevents them from escalating into expensive repairs. </li>
-                  <li> <strong>  Stove Preserving induction hob Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
-                  <li> <strong>  Cooker Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious. </li>
-                  <li> <strong>  Hob Cost-Effective: </strong> Maintenance costs are lower than early replacements or major repairs.  Investing in induction hob care ensures safety and efficiency and is a smart economic choice in Dubai. </li>
-                  <li> <strong>  Cooker Energy Efficiency: </strong> Regularly maintaining your induction hob can improve its efficiency and save you money. </li>
-
+                  <li><strong> Vacuum Cleaner Extended Lifespan: </strong> Regular maintenance, like cleaning filters and emptying the dustbin, can extend your vacuum's lifespan. </li>
+                  <li><strong> Vacuum Cleaner Improved Performance: </strong> Regularly cleaning filters and bags, and clearing the brush roll ensures the vacuum operates efficiently. </li>
+                  <li><strong> Vacuum Cleaner Reduced Repair Costs: </strong> Addressing minor issues through routine maintenance can prevent them from escalating into costly repairs. </li>
+                  <li><strong> Vacuum Cleaner Quieter Operation: </strong> A well-maintained vacuum runs more quietly, reducing noise disturbance.  </li>
+                  <li><strong> Vacuum Cleaner Saves Time and Effort: </strong>
+                    Maintenance saves time and effort on cleaning and repairs by preventing breakdowns and ensuring optimal performance. </li>
                 </ul>
               </div>
             </div>
           </div>
         </section>
 
-        {/* The Most Common Problems with Induction / Hob */}
+        {/* Problems  */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="text-center">The Most Common Problems with Induction / Hob   </h3>
+            <h3 className="text-center">Common Vacuum Cleaners That May Require Maintenance   </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
+                <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">E8 Error Code</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Battery Degradation</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      This indicates a communication issue in the stove/hob, often related to loose wiring or a faulty control board (PCB)</p>
-                  </div>
-                </div>
-              </div>
 
+                      Over time, batteries naturally lose their capacity to hold a charge, which can affect the performance of your automatic vacuum cleaner.
 
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Incorrect Cookware</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Induction electric hobs require magnetic cookware to function correctly, and non-magnetic cookware may not heat properly.
                     </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Burner Discoloration
-                    </h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      This can be caused by burnt-on food from the induction hob, cookware residue, or heat marks.</p>
-                  </div>
-                </div>
-              </div>
-
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Error Code</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Difficulty Sharing Power Between Burners: This may be indicated by an E8 error code and could mean a blown fuse on the main board</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Flashing "E" Symbol</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      This often indicates a stuck PCB electronic board, switch or button. Also, check the electrical wiring from inside the unit.</p>
-                  </div>
-                </div>
-              </div>
-
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Hob Not Responsive</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      If the hob doesn't respond to touch, it could be due to a blown or tripped switch affecting the power supply or an inside wiring issue.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Hob Not Heating Properly</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      This can occur if the cookware is not magnetic or sits unevenly on the cooking zone or hot plate.</p>
                   </div>
                 </div>
               </div>
@@ -334,14 +230,100 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Hob Overheating</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Connectivity Issues</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      This can happen if the heat is not circulated correctly or if there's a fan or heating thermostat issue.</p>
+
+                      To address connectivity issues, ensure that your Wi Fi network is functioning correctly and that the vacuum is within range. Try restarting both your router and the vacuum.
+                    </p>
                   </div>
                 </div>
               </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className="box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Inspect and Clean Sensors</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+
+                      The next step in diagnosing your robot floor cleaner is to wipe the sensors, which are primarily located on the front and bottom of the device.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className="box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Navigation Mapping Errors</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      Advanced robot vacuums, like any robotic vacuum, use AI algorithms to create navigation maps. Mapping errors may arise from sensor misalignment or interference.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className="box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Faulty Charging Dock</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      A faulty charging dock can also affect the charging process. Damage or malfunctions within the dock may prevent it from delivering a proper charge to the vacuum cleaner.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className="box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Loss of Suction</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      If your vacuum cleaner is losing suction power, the issue might be clogged filters, a full dustbin or bag, or a malfunction within the suction system.
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className="box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Resetting Your Robot Vacuum</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      If your robot vacuum can't recognise obstacles, check to see if the sensors are clean. Dirty sensors may hinder their ability to detect obstacles properly.
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className="box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dirty Charging Contacts</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      Accumulated dust and debris on the charging contacts can be a common issue. To maintain proper charging functionality, ensure you regularly clean the docking station.
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
@@ -353,10 +335,10 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/*HERE ARE THE SERVICES WE OFFER FOR INDUCTION HOB */}
+        {/*HERE ARE  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR INDUCTION HOB   </h3>
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR ROBOTIC VACUUM CLEANERS  </h3>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -374,20 +356,20 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
 
               <div className="col-xl-6">
                 <p className="mb-0">
-                  We specialise in all types and brands of induction hobs, including built-in units.
+                  In Dubai, vacuum cleaner services provide repair, maintenance, and servicing to extend the lifespan of your vacuum cleaner.
+                  These services can range from quick fixes to comprehensive overhauls, with some companies specializing specifically in robotic vacuum cleaners.
+                  Here’s a detailed overview of vacuum cleaner services offered in Dubai, UAE: Service Options:
                 </p>
 
-                <p className='mb-0'><strong>Our services include:</strong></p>
+                {/* <p className='mb-0'><strong>Our services include:</strong></p> */}
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
+                  <li> <strong> Vacuum Cleaner Repair: </strong> This service addresses issues such as motor problems, hose blockages, and faulty attachments. </li>
+                  <li> <strong> Vacuum Cleaner Servicing: </strong> Regular maintenance includes cleaning, inspecting parts, and ensuring optimal performance. </li>
+                  <li> <strong> Comprehensive Repair Packages: </strong> These packages offer a wide range of services, including diagnostics, cleaning, and potential part replacements. </li>
 
-                  <li> <strong>  Hob Installation: </strong> We provide professional installation of various types and brands of induction hobs to ensure optimal performance and efficiency./</li>
-                  <li> <strong>  Hob Diagnostics: </strong> Our team offers comprehensive fault-finding services to diagnose any issues effectively. We conduct eligibility assessments and provide detailed quotations to resolve any concerns with your system./</li>
-                  <li> <strong>  Hob Repair Service: </strong> We offer efficient repair services for all cooking hob components. Our team quickly addresses leaks, electrical failures, and system malfunctions./</li>
-                  <li> <strong> Hob Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for the yearly maintenance of your induction hob./</li>
-
-                  <p className="mb-0">
+                  {/* <p className="mb-0">
                     Regular maintenance is essential for the optimal performance, efficiency, and longevity of your hob. Feel free to reach out if you need specific services or have any questions!
-                  </p>
+                  </p> */}
                 </ul>
 
 
@@ -398,11 +380,11 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section >
 
-        {/* The Benefits Of appliances Service Dubai */}
+        {/* The Benefits  */}
         <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
-              <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai
+              <h3 className="cs_fs_30 mb-0">The Benefits Of vacuum cleaner Service Dubai
               </h3>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
@@ -424,7 +406,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
                       </h4>
-                      <p className="small">Regular maintenance helps your appliances run smoothly and efficiently, delivering the best results every time.
+                      <p className="small">Regular maintenance helps your vacuum cleaner run smoothly and efficiently, delivering the best results every time.
                       </p>
                     </div>
                   </div>
@@ -436,7 +418,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                         <img src={`${import.meta.env.BASE_URL}/img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
-                      <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                      <p className="small">Energy efficient vacuum cleaner translate to monthly savings on utility bills, putting more money back in your pocket.</p>
                     </div>
                   </div>
                 </div>
@@ -459,8 +441,8 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}/img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h4>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Extending vacuum cleaner Lifespan</h4>
+                      <p className="small">Proper care and timely servicing can significantly increase life of your home vacuum cleaner, delaying the need for replacements.</p>
 
                     </div>
 
@@ -475,7 +457,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                       </h4>
-                      <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                      <p className="small">Knowing your vacuum cleaner are in top condition gives you confidence and removes the stress of unexpected failures.</p>
                     </div>
                   </div>
                 </div>
@@ -486,7 +468,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
 
 
 
-        {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
+        {/* CHOOSE US */}
         <section className="section cs_py_30">
           <div className="container container-md container-sm">
             <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2>
@@ -511,7 +493,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Confidence</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
+                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your vacuum cleaner runs smoothly and providing peace of mind.</p>
                   </div>
                 </div>
 
@@ -522,7 +504,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive.</p>
+                    <p>Choose a day and time for your vacuum cleaner repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive.</p>
                   </div>
                 </div>
 
@@ -541,7 +523,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are experts in appliance repair this is why most major brands trust us to handle their service and maintenance needs.</p>
+                    <p>We are experts in vacuum cleaner repair this is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -551,7 +533,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same in Dubai location.</p>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two vacuum cleaner at the same in Dubai location.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -560,7 +542,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our skilled appliance technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
+                    <p>Our skilled vacuum cleaner technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
                   </div>
                 </div>
               </div>
@@ -573,12 +555,12 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* We specialise in Hob services for the following brands  */}
+        {/* We specialise   */}
         <section className="section cs_py_30 bg-light-gray ">
           <div className="container">
-            <h3>We specialise in Hob services for the following brands </h3>
+            <h3>We specialise in vacuum cleaner services for the following brands</h3>
             <div className="row">
-              <div className="col-12">
+              {/* <div className="col-12">               
 
                 <p className="mb-0">
                   <Link to="/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/">
@@ -803,8 +785,49 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                   <a href="#/unimac-washing-machine-repair-in-dubai-unimac-dryer-repair-in-dubai-unimac-washer-dryer-repair-in-dubai-unimac-maintenance-in-dubai-unimac-laundry-service-in-dubai-unimac-dubai/">Unimac</a>
                 </p>
 
+              </div> */}
+              <div className="col-sm-4">
+                <ul>
+                  <li>Miele Vacuum Repairs</li>
+                  <li>Braun Vacuum Cleaner Fix</li>
+                  <li>EZVIZ Vacuum Repair Shop</li>
+                  <li>Green Lion Repair Near You</li>
+                  <li>Polaris Vacuum Maintenance</li>
+                  <li>irobot Vacuum Cleaner Repairs</li>
+                  <li>Midea Vacuum Cleaner Repairs</li>
+                  <li>Philips Vacuum Cleaner Service</li>
+                  <li>Switchbot Repair Shop Vacuum</li>
+                  <li>Kenwood Vacuum Cleaner Repairs</li>
+                  <li>Ecovacs Deebot Vacuum Cleaner Repair and Cleaning</li>               
+                </ul>
               </div>
-
+              <div className="col-sm-4">
+                <ul>
+                  <li>Milagrow Anker Repair and Cleaning</li>
+                  <li>Eufy Vacuum Cleaner Repair and Fix</li>
+                  <li>Eureka Vacuum Repair and Servicing</li>
+                  <li>Versuni Vacuum Cleaner Maintenance</li>
+                  <li>Philips Vacuum Cleaner Repair Service</li>
+                  <li>Roborock Vacuum Cleaner Repair Shop</li>
+                  <li>Narwal Vacuum Cleaner Repair Service</li>
+                  <li>Black & Decker Vacuum Cleaner Repair</li>
+                  <li>Hitachi Vacuum Cleaner Service Center</li>
+                  <li>Dreame Vacuum Cleaner Repair Near Me</li>
+                  <li>iRobot Roomba Combo Vacuum Cleaner Repair and Service</li>
+                </ul>
+              </div>
+              <div className="col-sm-4">
+                <ul>
+                <li>Ecovacs Deebot Vacuum Cleaner Repairing</li>
+                  <li>Karcher Vacuum Cleaner Repair and Service</li>
+                  <li>Dyson Vacuum Cleaner Repair and Cleaning</li>
+                  <li>Hitachi Vacuum Cleaner Repair and Cleaning</li>
+                  <li>Roborock Vacuum Cleaner Repair and Cleaning</li>
+                  <li>Deebot Vacuum Cleaner Repair and Maintenance</li>
+                  <li>iRobot Roomba Vacuum Cleaner Repair and Service</li>
+                  <li>Xiaomi Robot Vacuum Cleaner Repair and Servicing</li>              
+                </ul>
+              </div>
             </div>
 
             <div id="get-quote" className=" mt-3">
