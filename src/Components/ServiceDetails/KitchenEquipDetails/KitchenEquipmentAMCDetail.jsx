@@ -127,8 +127,8 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30">CHOOSE Kitchen Equipment FOR SAME-DAY REPAIRS IN DUBAI</h2>
-            <p>When it comes to kitchen equipment maintenance, essential items such as cooking ranges, electric hot plates, combi ovens, microwaves, juicers, ice makers, espresso machines, refrigeration units, freezers, chillers, beverage dispensers, blenders, dough mixers, and vacuum packing machines require timely servicing. Inoperable equipment can lead to costly downtime, severely impacting your profitability. Since 2010, FAJ has been committed to providing professional catering equipment maintenance, annual maintenance contracts (AMC), project services, and product sales specifically for hotels, restaurants, and cafés in Dubai and Sharjah. Our goal is to ensure a prompt and efficient response to all your catering equipment repair and service needs. Whether you have an existing service contract with us or need immediate assistance for an emergency breakdown, please contact our Service Department at +971507464712, or conveniently book online for our Planned Preventative Maintenance (PPM) services.</p>
+            <h2 className="cs_fs_30">Experts in Appliances and Kitchen Equipment AMC Services</h2>
+            <p>FAJ has been providing commercial kitchen equipment and appliance maintenance contract services in Dubai, Sharjah, and Abu Dhabi since 2010.Regular Planned Preventive Maintenance (PPM) is essential for keeping appliances efficient and minimising unexpected failures.<br />As appliances age, they become more prone to breakdowns, often at inconvenient times.<br />With FAJ Appliance Services, our annual Domestic or Commercial Appliances Contract offers peace of mind by providing a predictable budget for maintenance, helping you avoid unexpected repair costs. Contact us today to book a technician for an inspection and arrange your Appliances AMC Services Contract Cover to start now.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -147,19 +147,15 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row gx-md-5 mb-2">
               <div className="col-md-6">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" /> */}
-                <h3 className="cs_fs_24 mb-1">Commercial Kitchen Equipment Repair</h3>
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Kitchen Equipments AMC" /> */}
+                <h3 className="cs_fs_24 mb-1">Explore FAJ’s Annual Appliances Maintenance Contract</h3>
 
-                <p className="mb-2">
-                FAJ Technical Services LLC is a rapidly growing company based in Dubai that specializes in commercial catering services for hotels, restaurants, and cafes. We focus on repairing a variety of equipment, including commercial cooking ranges, ovens, dishwashers, refrigeration units, freezers, and chiller units.<br/>
-                Our experienced technicians are available for emergency services as well as annual maintenance contract (AMC) services in Dubai and Sharjah.
-                </p>
-                <p>We have a standard fee for technical inspections that covers diagnosis and transportation within Dubai and Sharjah. Please note that this fee is non-refundable. This flat rate applies specifically to the technical inspection charge, but it does not include the cost of any repair or spare parts needed.</p>
+                <p className="mb-2">Our annual maintenance contract ensures that your kitchen equipment, both domestic and commercial, receives top-notch care from our expert team of professionals in the UAE.<br />We have been repairing, cleaning, and maintaining a wide range of equipment, including freezers, chillers, gas ranges, stoves, pizza ovens, hot plates, hoods, mixers, blenders, food processors, grinders, snack equipment, beverage equipment, bakeware, microwaves, ovens, and cooktops. Our experienced technicians utilise advanced techniques to keep your home and business running optimally throughout the year.<br />If you’re interested in learning more about our AMC options, please feel free to contact us.</p>
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.jpg`} alt="Post Image" />
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Kitchen Equipments AMC" /> */}
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.jpg`} alt="Kitchen Equipments AMC" />
               </div>
             </div>
             <AppliancesAppointmentCol></AppliancesAppointmentCol>
@@ -169,16 +165,16 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
         {/* The Most Common Problems with Home Appliances */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="text-center">The Most Common Problems with Home Appliances   </h3>
+            <h3 className="text-center">Common Kitchen Equipment Problems That May Require Maintenance</h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Poor Maintenance</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Most fridge malfunctions are related to cooling issues, including problems with the defrost system, fan motor, compressor, or coils.</p>
+                    <p className="p-2 mb-0">Ignoring regular maintenance of kitchen equipment can cause wear and tear, impacting its efficiency and lifespan.</p>
                   </div>
                 </div>
               </div>
@@ -186,10 +182,10 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishwashers Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Equipment Failure</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">The most issues with dishwashers are bad cleaning and drying. Common water leaks and drainage. Some electrical issues or PCB failures.
+                    <p className="p-2 mb-0">In the hospitality industry, commercial kitchen equipment is a crucial asset. Its design optimizes operations, so any failure can cause significant disruptions.
                     </p>
                   </div>
                 </div>
@@ -198,11 +194,10 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Washing Machine Problem
-                    </h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Improper Storage</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">A common issue with washing machines is drainage problems, leaks, and PCB faulty. Also, broken belt or faulty door switch or drum from spinning.</p>
+                    <p className="p-2 mb-0">To prevent food contamination, it's essential to store food at the correct temperatures, label and date all items, and use appropriate storage containers.</p>
                   </div>
                 </div>
               </div>
@@ -211,10 +206,10 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Tumble Dryer Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Food Poisoning</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Dryers can stop the drum from spinning and often make noise without drying clothes properly. Common issues are a broken heating element or control board.</p>
+                    <p className="p-2 mb-0">Foodborne illness occurs when food contaminated with harmful bacteria, viruses, or poisons is finished. Examples include aflatoxins in peanuts, toxic mushrooms, and unboiled kidney beans.</p>
                   </div>
                 </div>
               </div>
@@ -222,10 +217,10 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Stove Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Leaking Appliances</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Uneven heating or flame issues, such as a broken burner element, bad switch, or electric gas, are the most common problems with stoves.</p>
+                    <p className="p-2 mb-0">Leaks in kitchen appliances are usually due to damaged gaskets, seals, or hoses. If you spot a leak, turn off the appliance and the water supply to prevent damage.</p>
                   </div>
                 </div>
               </div>
@@ -233,10 +228,10 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Ovens Problems</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Commercial Kitchen Fires</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Most ovens have common problems like not heating properly, burners not igniting, ignition issues on gas models, broken knobs, and faulty controllers or valves.</p>
+                    <p className="p-2 mb-0">Commercial kitchen fires pose a serious hazard in the restaurant industry, occurring frequently and leading to devastating consequences.</p>
                   </div>
                 </div>
               </div>
@@ -244,10 +239,10 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Freezer Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Equipment Overheating</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Common issues with a freezer include water leaks, no ice, a malfunctioning ice maker, a malfunctioning PCB, motor, or compressor, and less cooling.</p>
+                    <p className="p-2 mb-0">Overheating is a common issue with commercial kitchen equipment like ovens and fryers, often resulting from various performance-affecting factors.</p>
                   </div>
                 </div>
               </div>
@@ -255,10 +250,10 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Machine Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Electrical Issues</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Whether they are drip or single-serve coffee makers, there are a few reasons why water flow in coffee makers is often slow or nonexistent.</p>
+                    <p className="p-2 mb-0">As we enhance kitchen efficiency with electrical appliances, increased reliance can lead to issues that need prompt attention to ensure safety and functionality.</p>
                   </div>
                 </div>
               </div>
@@ -276,53 +271,26 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
         {/* Why is Appliance Maintenance Service Important in Dubai? */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            
-            <h3>Our Expertise in Maintaining Commercial Kitchen Equipment</h3>
-                <p>Our team of well-trained technicians boasts extensive experience and expertise in the field. We specialize in maintaining and servicing a wide range of commercial kitchen equipment, including:</p>
+            <h3>Peace of Mind with Annual Maintenance Contracts</h3>
+                <p>Your kitchen equipment and appliances are essential for comfort in your home or business. Like other appliances, they need regular maintenance to operate efficiently and prevent breakdowns. FAJ provides comprehensive annual maintenance contracts (AMC) for café, catering, and restaurant kitchen equipment to ensure your appliances operate smoothly year-round. With our kitchen equipment AMC services, you can enjoy consistent comfort in your space. Experience exceptional peace of mind as we care for your appliances, ensuring optimal performance, energy efficiency, and longevity. Our comprehensive maintenance contract package allows you to say goodbye to unexpected breakdowns. Routine inspections and maintenance of your kitchen equipment are crucial for maintaining efficiency.</p>
+                <h3>HERE ARE THE MAINTENANCE SERVICES WE OFFER FOR KITCHEN EQUIPMENTS</h3>
+                <p>Here are some key points to consider for maintaining commercial kitchen equipment:</p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/dishwasher.webp`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/dishwasher.webp`} alt="Kitchen Equipments AMC" />
               </div>
               <div className="col-md-6">
                 
-                <div className="row">
-                  <div className="col-md-6">
-                    <ul className="mb-0">
-                      <li>Commercial Dishwashers</li>
-                      <li>Commercial Food Processors</li>
-                      <li>Commercial Juicer Machines</li>
-                      <li>Commercial Kitchen Hoods</li>
-                      <li>Commercial Electric Ovens</li>
-                      <li>Commercial Sandwich Grillers</li>
-                      <li>Commercial Gas Ovens</li>
-                      <li>Commercial Food Steamers</li>
-                      <li>Commercial Air Fryer Ovens</li>
-                      <li>Commercial Kitchen Fridges</li>
-                      <li>Commercial Electric Cookers</li>
-                      <li>Commercial Steamer Ovens</li>
-                      <li>Commercial Gas Stoves</li>
-                      <li>Commercial Kitchen Contractors</li>
-                      <li>Commercial Kitchen Refrigerators</li>
-                    </ul>
-                  </div>
-                  <div className="col-md-6">
-                    <ul className="mb-0">
-                      <li>KitchenAid Commercial Mixers</li>
-                      <li>Commercial Kitchen Ranges</li>
-                      <li>Commercial Stove Tops</li>
-                      <li>Commercial Kitchen Steamers</li>
-                      <li>Commercial Orange Juicer Machines</li>
-                      <li>Commercial Electric Pressure Cookers</li>
-                      <li>Commercial Kitchen Grills</li>
-                      <li>Commercial Cooking Ranges</li>
-                      <li>Commercial Electric Stoves</li>
-                      <li>Commercial Kitchen Freezers</li>
-                      <li>Commercial Gas Hobs</li>
-                    </ul>
-                  </div>
-                </div>
+                <ul>
+                  <li> <strong> Service Scheduling: </strong>  Regular maintenance should be scheduled at specific intervals, such as weekly, monthly, or quarterly, depending on the equipment type and its usage. </li>
+                  <li> <strong> Preventive Maintenance: </strong>  This involves cleaning, lubricating, and inspecting kitchen equipment to identify and resolve potential issues before they escalate into major problems. </li>
+                  <li> <strong> Repair and Replacements: </strong>  Timely repairs or replacements are essential to prevent equipment failure and reduce downtime. </li>
+                  <li> <strong> Safety: </strong>  Safety should be a top priority when maintaining equipment. Staff should be trained on proper safety procedures and equipment should be regularly inspected for potential hazards. </li>
+                  <li> <strong> Professional Assistance: </strong>   FAJ professional technician for major repairs and maintenance is important, especially for equipment requiring specialized skills. </li>
+                </ul>
               </div>
             </div>
+            <p>We provide hotel kitchen equipment maintenance in the UAE to ensure safe operations and extend kitchen equipment life.</p>
           </div>
         </section>
 
@@ -415,21 +383,18 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
          {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
          <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="cs_fs_30">Commercial Kitchen Equipment and Maintenance Contracts</h3>
-            <p>At FAJ Technical Services LLC, we understand the pivotal role that commercial kitchen equipment plays in your business’s success. Daily breakdowns can disrupt your operations and compromise the quality of the food you serve to your customers. That’s why we offer top-tier Commercial Kitchen Equipment Maintenance and Repair Services</p>
+            <h3 className="cs_fs_30">The Importance of Kitchen Equipment Maintenance Contract Service</h3>
+            <p>In a commercial kitchen, keeping your equipment efficient and safe is essential. Regular maintenance is not merely a routine task but a vital necessity that can greatly affect your business.</p>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
-                <p className='mb-0'><strong>Our expertise encompasses:</strong></p>
                 <ul>
-                  <li> <strong>  Problem Analysis: </strong> Our experts can swiftly diagnose issues with your commercial kitchen equipment. </li>
-                  <li> <strong> Extensive Knowledge: </strong> We understand the intricacies of commercial kitchen equipment and their various uses. </li>
-                  <li> <strong> Effective Maintenance Techniques: </strong> We employ industry-best practices to keep your kitchen equipment in peak condition. </li>
-                  <li> <strong> Time Management: </strong> We value your time and strive for swift service.</li>
-                  <li> <strong> Preventive Maintenance: </strong> Our proactive approach, including preventive maintenance services, helps prevent future breakdowns.</li>
-                  <li> <strong> Customer Satisfaction: </strong> Your satisfaction remains our top priority.</li>
+                  <li> <strong>  Ensures Compliance </strong> Food safety is vital for food service businesses. Regular equipment maintenance prevents contamination and ensures hygienic food preparation. </li>
+                  <li> <strong> Enhances Efficiency and Productivity </strong> In a bustling kitchen, effective equipment is crucial for maintaining productivity and satisfying customer demands. </li>
+                  <li> <strong> Enhances Safety for Staff </strong> A safe working environment is crucial for your staff's well-being. Regular maintenance helps prevent accidents and injuries from faulty equipment. </li>
+                  <li> <strong> Maintains Consistent Food Quality </strong> Consistent food quality is vital for customer satisfaction and repeat business. Regular maintenance ensures your equipment functions properly for uniform cooking results.</li>
+                  <li> <strong> Cost Savings on Repairs </strong> Addressing minor issues quickly can save your business on repairs and emergency calls. Regular kitchen maintenance is essential for the longevity, efficiency, and safety of your equipment.</li>
                 </ul>
-                <p>When your commercial kitchen equipment requires attention, trust our expert technicians for reliable maintenance and repair services.</p>
               </div>
               <div className="col-xl-6">
                 <iframe
@@ -534,240 +499,45 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
+        <section className="section cs_py_30 ">
+          <div className="container">
+            <h3 className="cs_fs_30">What is included in an appliance maintenance Contract?</h3>
+            <p className="mb-0">
+            When considering the maintenance of appliances and commercial kitchen equipment, it's important to understand what an appliance contract should include. While many kitchen equipment contractor packages offer these services, the specifics can change.
+            </p>
+
+            <div className="row align-items-center">
+              <div className="col-md-6">
+                <p>
+                  In this discussion, we will explore the key components of appliance maintenance, highlight their importance, and explain why regular maintenance is important for the longevity of your equipment.
+                </p>
+                <ul className="acsvs-exp-spl-para tick-ul mb-0">
+                  <li> Priority service for repair calls</li>
+                  <li>Get a 10% discount on service work</li>
+                  <li>Receive a 10% discount on labor charges</li>
+                  <li>Get 10% discount on the replacement of the part</li>
+                  <li>Major and minor service with kitchen equipment repair work</li>
+                  <li>No trip charge for regular appliance repair during normal working hours</li>
+                  <li>Enjoy a 10% discount on materials and parts not covered by warranty</li>
+                  <li>A guarantee is provided from the date of repair for all customer-ordered repairs</li>
+                </ul>
+              </div>
+              <div className="col-md-6 text-center text-md-end">
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/about_img_2.jpg`} alt="Kitchen Equipments AMC" />
+              </div>
+            </div>
+          </div>
+        </section>
         {/* We specialise in Appliances services for the following brands */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3>We specialise in Appliances services for the following brands</h3>
-            <div className="row">
-              <div className="col-12">
-                <p className="mb-0">
-                  <Link to="/lg-fridge-repair-in-dubai-lg-washing-machine-repair-in-dubai-lg-cooker-repair-in-dubai-lg-oven-repair-in-dubai-lg-appliances-maintenance-in-dubai-lg-refrigerator-fix-repairs-service-in-dubai-lg-dishwa/">
-                    <b>LG Appliance Service</b>
-                  </Link>
-                  : FAJ is here to support you when things go wrong. We understand that your LG appliances are essential for daily life, keeping your food fresh and meals cooked.
-                </p>
-                <p className="mb-0">
-                  <Link to="/samsung-fridge-repair-in-dubai-samsung-washing-machine-repair-in-dubai-samsung-cooker-repair-in-dubai-samsung-oven-repair-in-dubai-samsung-appliances-maintenance-in-dubai-samsung-refrigerator-fix-repa/">
-                    <b>Samsung Appliance Service</b>
-                  </Link>
-                  : If you are facing any problems with your Samsung refrigerator, washer dryer, or dishwasher, contact the FAJ team for same-day repair service in Dubai.
-                </p>
-                <p className="mb-0">
-                  <Link to="/electrolux-home-appliances-repair/">
-                    <b>Electrolux Appliance Service</b>
-                  </Link>
-                  : When you need Electrolux appliance repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE.
-                </p>
-                <p className="mb-0">
-                  <Link to="/bosch-home-appliances-repair/">
-                    <b>Bosch Appliance Service</b>
-                  </Link>
-                  : If you are looking for the best Bosch refrigerator repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch home appliance repair and are recognized as the leading Bosch cooking range, Washing machine, refrigerator service provider in the area.
-                </p>
-                <p className="mb-0">
-                  <Link to="/viking-appliances-service/">
-                    <b>Viking Appliance Service</b>
-                  </Link>
-                  : Your Viking appliances may require repair or maintenance and we can help. For high-quality Viking refrigerator, range or oven repair in Dubai, rely on FAJ.
-                </p>
-                <p className="mb-0">
-                  <Link to="/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b>Daewoo Appliance Service</b>
-                  </Link>
-                  : We provide expert services for Daewoo appliance repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo refrigerator, dishwasher, dryer and more.
-                </p>
-                <p className="mb-0">
-                  <Link to="/siemens-home-appliances-repair/">
-                    <b>Siemens Appliance Service</b>
-                  </Link>
-                  : Are you concerned about your Siemens washing machine malfunctioning and searching for a reliable Siemens appliances company in Dubai? Contact us for same-day service!
-                </p>
-                <p className="mb-0">
-                  <Link to="/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b>Teka Appliance Service</b>
-                  </Link>
-                  : If you're searching for the best Teka appliances repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
-                </p>
-
-                <br />
-                <p>
-                  <a href="#/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/">AEG</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/ariston-fridge-repair-in-dubai-ariston-washing-machine-repair-in-dubai-ariston-cooker-repair-in-dubai-ariston-oven-repair-in-dubai-ariston-appliances-maintenance-in-dubai-ariston-refrigerator-fix-repa/">Ariston</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/beko-fridge-repair-in-dubai-beko-washing-machine-repair-in-dubai-beko-cooker-repair-in-dubai-beko-oven-repair-in-dubai-beko-appliances-maintenance-in-dubai-beko-refrigerator-fix-repairs-service-in-dub/">Beko</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/blomberg-fridge-repair-in-dubai-blomberg-washing-machine-repair-in-dubai-blomberg-cooker-repair-in-dubai-blomberg-oven-repair-in-dubai-blomberg-appliances-maintenance-in-dubai-blomberg-refrigerator-fi/">Blomberg</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/faber-appliances-service/">Faber</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/fagor-fridge-repair-in-dubai-fagor-washing-machine-repair-in-dubai-fagor-cooker-repair-in-dubai-fagor-oven-repair-in-dubai-fagor-appliances-maintenance-in-dubai-fagor-refrigerator-fix-repairs-service/">Fagor</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/fisher-and-paykel-fridge-repair-in-dubai-fisher-and-paykel-washing-machine-repair-in-dubai-fisher-and-paykel-cooker-repair-in-dubai-fisher-and-paykel-oven-repair-in-dubai-fisher-and-paykel-appliances/">Fisher and Paykel</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/foster-appliances-services-foster-dishwasher-repair-service-in-dubai-foster-cooking-range-repair-service-in-dubai-foster-cooktop-repair-service-in-dubai-foster-oven-repair-in-dubai-foster-rangetop-r/">Foster</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/gaggenau-fridge-repair-in-dubai-gaggenau-washing-machine-repair-in-dubai-gaggenau-cooker-repair-in-dubai-gaggenau-oven-repair-in-dubai-gaggenau-appliances-maintenance-in-dubai-gaggenau-refrigerator-fi/">Gaggenau</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/hitachi-fridge-repair-in-dubai-hitachi-washing-machine-repair-in-dubai-hitachi-cooker-repair-in-dubai-hitachi-oven-repair-in-dubai-hitachi-appliances-maintenance-in-dubai-hitachi-refrigerator-fix-repa/">Hitachi</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/hoover-fridge-repair-in-dubai-hoover-washing-machine-repair-in-dubai-hoover-cooker-repair-in-dubai-hoover-oven-repair-in-dubai-hoover-appliances-maintenance-in-dubai-hoover-refrigerator-fix-repairs-se/">Hoover</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-oven-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa/">Indesit</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub/">Neff</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/">Smeg</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/sub-zero-fridge-repair-in-dubai-sub-zero-washing-machine-repair-in-dubai-sub-zero-cooker-repair-in-dubai-sub-zero-oven-repair-in-dubai-sub-zero-appliances-maintenance-in-dubai-sub-zero-refrigerator-fi/">Sub Zero</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/terim-appliances-service/">Terim</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/whirlpool-fridge-repair-in-dubai-whirlpool-washing-machine-repair-in-dubai-whirlpool-cooker-repair-in-dubai-whirlpool-oven-repair-in-dubai-whirlpool-appliances-maintenance-in-dubai-whirlpool-refrigera/">Whirlpool</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/zanussi-fridge-repair-in-dubai-zanussi-washing-machine-repair-in-dubai-zanussi-cooker-repair-in-dubai-zanussi-oven-repair-in-dubai-zanussi-appliances-maintenance-in-dubai-zanussi-refrigerator-fix-repa/">Zanussi</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="https://fajservice.ae/de-dietrich-appliance-repair-service/">De Dietrich</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/baumatic-appliances/">Baumatic</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/bertazzoni-refrigerator-repair-in-dubai-bertazzoni-appliances-service-bertazzoni-fridge-repair-in-dubai-bertazzoni-washing-machine-washer-bertazzoni-dryer-repair-in-dubai-bertazzoni-dishwasher-cooker/">Bertazzoni</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/bompani-fridge-repair-in-dubai-bompani-washing-machine-repair-in-dubai-bompani-cooker-repair-in-dubai-bompani-oven-repair-in-dubai-bompani-appliances-maintenance-in-dubai-bompani-refrigerator-fix-repa/">Bompani</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/boston-refrigerator-repair-in-dubai-boston-appliances-service-boston-fridge-repair-in-dubai-boston-washing-machine-washer-boston-dryer-repair-in-dubai-boston-dishwasher-cooker/">Boston</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/brandt-fridge-repair-in-dubai-brandt-washing-machine-repair-in-dubai-brandt-cooker-repair-in-dubai-brandt-oven-repair-in-dubai-brandt-appliances-maintenance-in-dubai-brandt-refrigerator-fix-repairs-se/">Brandt</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/gibson-fridge-repair-in-dubai-gibson-washing-machine-repair-in-dubai-gibson-cooker-repair-in-dubai-gibson-oven-repair-in-dubai-gibson-appliances-maintenance-in-dubai-gibson-refrigerator-fix-repairs-se/">Gibson</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/gorenje-fridge-repair-in-dubai-gorenje-washing-machine-repair-in-dubai-gorenje-cooker-repair-in-dubai-gorenje-oven-repair-in-dubai-gorenje-appliances-maintenance-in-dubai-gorenje-refrigerator-fix-repa/">Gorenje</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/hisense-fridge-repair-in-dubai-hisense-washing-machine-repair-in-dubai-hisense-cooker-repair-in-dubai-hisense-oven-repair-in-dubai-hisense-appliances-maintenance-in-dubai-hisense-refrigerator-fix-repa/">Hisense</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/kelvinator-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Kelvinator</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/kenmore-appliances-service/">Kenmore</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/panasonic-fridge-repair-in-dubai-panasonic-washing-machine-repair-in-dubai-panasonic-cooker-repair-in-dubai-panasonic-oven-repair-in-dubai-panasonic-appliances-maintenance-in-dubai-panasonic-refrigera/">Panasonic</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/sanyo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Sanyo</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/sears-home-appliances-installation-maintenance-repair-fix-service-in-dubai/">Sears</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/wolf-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Wolf</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/haier-fridge-repair-in-dubai-haier-washing-machine-repair-in-dubai-haier-cooker-repair-in-dubai-haier-oven-repair-in-dubai-haier-appliances-maintenance-in-dubai-haier-refrigerator-fix-repairs-service/">Haier</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/elica-appliances-service/">Elica</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/marvel-fridge-repair-in-dubai-marvel-washing-machine-repair-in-dubai-marvel-cooker-repair-in-dubai-marvel-oven-repair-in-dubai-marvel-appliances-maintenance-in-dubai-marvel-refrigerator-fix-repairs-se/">Marvel</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/miele-fridge-repair-in-dubai-miele-washing-machine-repair-in-dubai-miele-cooker-repair-in-dubai-miele-oven-repair-in-dubai-miele-appliances-maintenance-in-dubai-miele-refrigerator-fix-repairs-service/">Miele</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/maytag-fridge-repair-in-dubai-maytag-washing-machine-repair-in-dubai-maytag-cooker-repair-in-dubai-maytag-oven-repair-in-dubai-maytag-appliances-maintenance-in-dubai-maytag-refrigerator-fix-repairs-se/">Maytag</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/toshiba-home-appliance-installation-maintenance-repair-fix-service-in-dubai-2/">Toshiba</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/thermador-appliances-service/">Thermador</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/sharp-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Sharp</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/admiral-fridge-repair-in-dubai-admiral-washing-machine-repair-in-dubai-admiral-cooker-repair-in-dubai-admiral-oven-repair-in-dubai-admiral-appliances-maintenance-in-dubai-admiral-refrigerator-fix-repa/">Admiral</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/aftron-fridge-repair-in-dubai-aftron-washing-machine-repair-in-dubai-aftron-cooker-repair-in-dubai-aftron-oven-repair-in-dubai-aftron-appliances-maintenance-in-dubai-aftron-refrigerator-fix-repairs-se/">Aftron</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/unimac-washing-machine-repair-in-dubai-unimac-dryer-repair-in-dubai-unimac-washer-dryer-repair-in-dubai-unimac-maintenance-in-dubai-unimac-laundry-service-in-dubai-unimac-dubai/">Unimac</a></p>
-
-              </div>
-
-            </div>
+            <h3>We are proud to have successfully served a variety of sectors since 2010, offering a range of repair and annual maintenance contract (AMC) services.</h3>
+            <ul>
+              <li> <strong>  Client Sectors: </strong> Leisure and Hospitality, Education, Defence, Industrial, Healthcare, Public Sector, Retail, Commercial, Cloud/Dark Kitchens, Restaurants, Hotels, Bakeries, Shops, Coffee Shops, Catering, Medical Facilities, and Labor Camps. Our commitment to excellence spans across these diverse industries.</li>
+              <li> <strong> Baking Equipment: </strong> Combi ovens, Convection ovens, High-Speed ovens, Compact ovens, Pizza ovens, Rational ovens, Commercial ovens, and Steamers. </li>
+              <li> <strong> Refrigeration Equipment: </strong> Refrigerated and freezer cabinets, Refrigerated and freezer counters, Saladette refrigerated counters, Pastry and bakery lines, Blast chillers and freezers, Crosswise blast chiller freezers, Ice makers, Walk-in cooler cold rooms, Commercial refrigerators, Commercial freezers, Ice machines, Blast chillers and blast freezers. This list covers the essential types of refrigeration equipment used in the food service industry.</li>
+              <li> <strong>Food Preparation:</strong> Vegetable peelers, washers, dryers, cutters, mixers, slicers, planetary mixers, dough kneaders, sheeters, vacuum packers, stainless steel fabrication, blenders, and salamander broilers.Other Services: Coffee Machines, Coffee Equipment, Espresso Machines, Coffee Grinders, Electrical Services, Plumbing (MEP), Air Conditioning Systems (AC), Commercial Dishwashers, Glasswashers, Water Boilers, Dishwasher Machines, Griddles.</li>
+            </ul>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -811,7 +581,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                  <img className="" src={`${import.meta.env.BASE_URL}/img/benafit-acimg.jpg`} alt="Post Image" />
+                  <img className="" src={`${import.meta.env.BASE_URL}/img/benafit-acimg.jpg`} alt="Kitchen Equipments AMC" />
                 </div>
               </div>
               <div className="col-lg-4">

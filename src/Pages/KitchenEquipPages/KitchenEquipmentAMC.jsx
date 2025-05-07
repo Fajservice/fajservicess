@@ -7,9 +7,8 @@ const KitchenEquipmentAMC = () => {
             <BreadCumb
                 bgImg="/img/banners/annual-maintenance-contract-(AMC).jpg"
 
-                Title="Kitchen Equipments Annual Maintenance Contract"
+                Title="KITCHEN EQUIPMENT AND APPLIANCES AMC SERVICES"
             ></BreadCumb> 
-
             <KitchenEquipmentAMCDetail></KitchenEquipmentAMCDetail>
         </div>
     ); 
