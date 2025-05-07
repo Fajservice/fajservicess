@@ -20,7 +20,7 @@ import WeSpecialise from "./WeSpecialise/WeSpecialise";
 
 const AcRepairInTheViewsDetail = ({ subtitle, title, bgImg }) => {
     subtitle = "Testimonial"
-    titl = "What our clients say About Us"
+    title = "What our clients say About Us"
     bgImg = "/img/testimonialbg.jpg"
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
