@@ -164,6 +164,25 @@ import AcRepairInDubaiInternationalFinancialCenter from "../Pages/AcPages/AcLoca
 import AcRepairInBurDubai from "../Pages/AcPages/AcLocation/AcRepairInBurDubai";
 import AcRepairInSiliconOasisDubai from "../Pages/AcPages/AcLocation/AcRepairInSiliconOasisDubai";
 import AcRepairInDubailandMazayaQueue from "../Pages/AcPages/AcLocation/AcRepairInDubailandMazayaQueue";
+import AcRepairInDownTown from "../Pages/AcPages/AcLocation/AcRepairInDowntown";
+import AcRepairInNadAlSheba from "../Pages/AcPages/AcLocation/AcRepairInNadAlSheba";
+import AcRepairInAlBarari from "../Pages/AcPages/AcLocation/AcRepairInAlBarari";
+import AcRepairInBaySquare from "../Pages/AcPages/AcLocation/AcRepairInBaySquare";
+import AcRepairInMediaCity from "../Pages/AcPages/AcLocation/AcRepairInMediaCity";
+import AcRepairInUmmRamool from "../Pages/AcPages/AcLocation/AcRepairInUmmRamool";
+import AcRepairInCedreVillasSiliconOasisDubai from "../Pages/AcPages/AcLocation/AcRepairInCedreVillasSiliconOasisDubai";
+import AcRepairInMotorCity from "../Pages/AcPages/AcLocation/AcRepairInMotorCity";
+import AcRepairInVictoryHeights from "../Pages/AcPages/AcLocation/AcRepairInVictoryHeights";
+import AcRepairInRemraam2 from "../Pages/AcPages/AcLocation/AcRepairInRemraam2";
+import AcRepairInAlSafa from "../Pages/AcPages/AcLocation/AcRepairInAlSafa";
+import AcRepairInRemraan from "../Pages/AcPages/AcLocation/AcRepairInRemraam";
+import AcRepairInRemraam from "../Pages/AcPages/AcLocation/AcRepairInRemraam";
+import AcRepairInJqe from "../Pages/AcPages/AcLocation/AcRepairInJqe";
+import AcRepairInDubaiSportCity from "../Pages/AcPages/AcLocation/AcRepairInDubaiSportCity";
+import AcRepairInDubaiMarina from "../Pages/AcPages/AcLocation/AcRepairInDubaiMarina";
+import AcRepairInJebelAliVillage from "../Pages/AcPages/AcLocation/AcRepairInJebelAliVillage";
+import AcRepairInMankhool from "../Pages/AcPages/AcLocation/AcRepairInMankhool";
+import AcRepairInTheViews from "../Pages/AcPages/AcLocation/AcRepairInTheViews";
 export const router = createHashRouter([
   {
     path: "/",
@@ -828,6 +847,78 @@ export const router = createHashRouter([
       {
         path: "/ac-services-in-mudon/",
         element: <AcRepairInMudon />,
+      },
+      {
+        path: "/ac-services-in-nad-al-sheba/",
+        element: <AcRepairInNadAlSheba />,
+      },
+      {
+        path: "/ac-services-in-downtown/",
+        element: <AcRepairInDownTown />,
+      },
+      {
+        path: "/ac-services-in-al-barari/",
+        element: <AcRepairInAlBarari />,
+      },
+      {
+        path: "/ac-services-in-bay-square/",
+        element: <AcRepairInBaySquare />,
+      },
+      {
+        path: "/ac-services-in-media-city/",
+        element: <AcRepairInMediaCity />,
+      },
+      {
+        path: "/ac-services-in-umm-ramool/",
+        element: <AcRepairInUmmRamool />,
+      },
+      {
+        path: "/ac-services-in-cedre-villas-silicon-oasis-dubai/",
+        element: <AcRepairInCedreVillasSiliconOasisDubai />,
+      },
+      {
+        path: "/ac-services-in-motor-city/",
+        element: <AcRepairInMotorCity />,
+      },
+      {
+        path: "/ac-services-in-victory-heights/",
+        element: <AcRepairInVictoryHeights />,
+      },
+      {
+        path: "/ac-services-in-remraam-2/",
+        element: <AcRepairInRemraam2 />,
+      },
+      {
+        path: "/ac-services-in-al-safa/",
+        element: <AcRepairInAlSafa />,
+      },
+      {
+        path: "/ac-services-in-remraam/",
+        element: <AcRepairInRemraam />,
+      },
+      {
+        path: "/ac-services-in-jge/",
+        element: <AcRepairInJqe />,
+      },
+      {
+        path: "/ac-services-in-dubai-sport-city/",
+        element: <AcRepairInDubaiSportCity />,
+      },
+      {
+        path: "/ac-services-in-dubai-marina/",
+        element: <AcRepairInDubaiMarina />,
+      },
+      {
+        path: "/ac-services-in-jebel-ali-village/",
+        element: <AcRepairInJebelAliVillage />,
+      },
+      {
+        path: "/ac-services-in-mankhool/",
+        element: <AcRepairInMankhool />,
+      },
+      {
+        path: "/ac-services-in-the-views/",
+        element: <AcRepairInTheViews />,
       },
     ],
   }
