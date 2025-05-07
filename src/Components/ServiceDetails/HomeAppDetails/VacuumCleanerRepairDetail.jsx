@@ -168,7 +168,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/kitchen-equipment.jpg`} alt="Post Image" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/Same-Day--vaccum-cleaner-Repair-&-Service.jpg`} alt="Post Image" />
 
               </div>
             </div>
