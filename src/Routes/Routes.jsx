@@ -160,6 +160,7 @@ import AcRepairInOldTown from "../Pages/AcPages/AcLocation/AcRepairInOldTown";
 import FoodWarmerRepair from "../Pages/KitchenEquipPages/FoodWarmerRepair";
 import MeatGrinderRepair from "../Pages/KitchenEquipPages/MeatGrinderRepair";
 import DoughMixerRepair from "../Pages/KitchenEquipPages/DoughMixerRepair";
+import AcRepairInDubaiInternationalFinancialCenter from "../Pages/AcPages/AcLocation/AcRepairInDubaiInternationalFinancialCenter";
 export const router = createHashRouter([
   {
     path: "/",
@@ -231,7 +232,7 @@ export const router = createHashRouter([
       },
       {
         path: "/meat-grinder-repair/",
-        element: <MeatGrinderRepair ></MeatGrinderRepair>
+        element: <MeatGrinderRepair  />
       },
       {
         path: "/dough-mixer-repair",
@@ -802,8 +803,8 @@ export const router = createHashRouter([
         element: <AcRepairInAlRaffa />,
       },
       {
-        path: "/ac-services-in-old-town-dubai/",
-        element: <AcRepairInOldTown />,
+        path: "/ac-services-in-dubai-international-financial-centre/",
+        element: <AcRepairInDubaiInternationalFinancialCenter />,
       },
     ],
   }
