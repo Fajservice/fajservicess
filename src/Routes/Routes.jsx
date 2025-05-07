@@ -169,6 +169,9 @@ import AcRepairInOldTown from "../Pages/AcPages/AcLocation/AcRepairInOldTown";
 import MeatGrinderRepair from "../Pages/KitchenEquipPages/MeatGrinderRepair";
 import DoughMixerRepair from "../Pages/KitchenEquipPages/DoughMixerRepair";
 import AcRepairInDubaiInternationalFinancialCenter from "../Pages/AcPages/AcLocation/AcRepairInDubaiInternationalFinancialCenter";
+import AcRepairInBurDubai from "../Pages/AcPages/AcLocation/AcRepairInBurDubai";
+import AcRepairInSiliconOasisDubai from "../Pages/AcPages/AcLocation/AcRepairInSiliconOasisDubai";
+import AcRepairInDubailandMazayaQueue from "../Pages/AcPages/AcLocation/AcRepairInDubailandMazayaQueue";
 export const router = createHashRouter([
   {
     path: "/",
@@ -811,16 +814,36 @@ export const router = createHashRouter([
         element: <AcRepairInAlBarsha />,
       },
       {
-        path: "/ac-repair-in-al-barsha-air-condition-maintenance-in-al-barsha-air-conditioning-fix-amc-service-in-al-barsha-dubai/",
-        element: <AcRepairInAlBarsha />,
-      },
-      {
         path: "/ac-services-in-al-raffa/",
         element: <AcRepairInAlRaffa />,
       },
       {
         path: "/ac-services-in-dubai-international-financial-centre/",
         element: <AcRepairInDubaiInternationalFinancialCenter />,
+      },
+      {
+        path: "/ac-services-in-bur-dubai/",
+        element: <AcRepairInBurDubai />,
+      },
+      {
+        path: "/ac-services-in-silicon-oasis-dubai/",
+        element: <AcRepairInSiliconOasisDubai />,
+      },
+      {
+        path: "/ac-services-in-burj-khalifa-lake/",
+        element: <AcRepairInBurjKhalifaLake />,
+      },
+      {
+        path: "/ac-services-in-dubailand-mazaya-queue/",
+        element: <AcRepairInDubailandMazayaQueue />,
+      },
+      {
+        path: "/ac-services-in-al-bada/",
+        element: <AcRepairInAlBadaa />,
+      },
+      {
+        path: "/ac-services-in-mudon/",
+        element: <AcRepairInMudon />,
       },
     ],
   }
