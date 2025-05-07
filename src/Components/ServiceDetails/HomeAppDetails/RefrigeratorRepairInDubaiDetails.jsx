@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/refrigeratorfaqs.json';
+import data from '../../../Data/HomeAppData/HomeappRefrigeratorServicefaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
@@ -10,6 +10,7 @@ import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import Slider from "react-slick";
 import testimonial_data from '../../../Data/RefrigeratorTestimonials.json';
+import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 
@@ -71,6 +72,39 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
     ]
   };
 
+  const settingBrands = {
+    dots: false,
+    infinite: true,
+    slidesToShow: 6,
+    arrows: false,
+
+    autoplay: true,
+    autoplaySpeed: 5000,
+    pauseOnHover: true,
+    // cssEase: 'linear',
+
+    responsive: [
+      {
+        breakpoint: 1399,
+        settings: {
+          slidesToShow: 6,
+        }
+      },
+      {
+        breakpoint: 1199,
+        settings: {
+          slidesToShow: 4,
+        }
+      }, {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        }
+      }
+    ]
+  };
+
+
   return (
     <>
       <HelmetProvider>
@@ -86,11 +120,10 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
-            <p>F A J Technical Services L.L.C is a leading AC repair company in Dubai, providing reliable air conditioner services tailored to the UAE's hot climate.
-              <br />
-              Our trained professionals ensure a comfortable environment for living, learning, working, and playing.
-              When your air conditioning system fails, we’re here to help. Choose FAJ for all your AC repair needs in Dubai.
+            <h2 className="cs_fs_30">Choose Refrigerator Service Center for Same Day Repair in Dubai</h2>
+            <p>Since 2010, FAJ has established itself as the go-to reference for refrigerator repair and service in Dubai and Sharjah.
+              We prioritise repairs over replacements, helping you save money and avoid the bother of buying a new fridge or freezer.
+              Rely on our experienced experts for fast and reliable refrigerator maintenance in Dubai!
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -105,18 +138,21 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
         {/* Maintenance Contract */}
         <MaintenanceContract />
 
-        {/* Refrigerator Repair & Service Nearby You */}
+        {/* Refrigerator Repair & Service Near You */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" /> */}
-                <h3 className="cs_fs_24 mb-1">Refrigerator Repair & Service Nearby You</h3>
-                <p className="mb-2">Is your fridge or freezer not cooling properly? Has your food spoiled?
-                  You can easily book online refrigerator repair in Dubai / Sharjah near me service with FAJ Experts.</p>
-                <p> We repair most major brands of refrigerators and freezers, offering same-day fridge service at affordable prices. Choose a time slot that works best for you!.</p>
+                <h3 className="cs_fs_24 mb-1">Refrigerator Repair & Service Near You</h3>
+                <p className="mb-2">Is your fridge or freezer not cooling properly? Has your food spoilt?
+                  You can easily book online refrigerator repair in Dubai / Sharjah near me service with FAJ Experts.
+                  We repair most major brands of refrigerators and freezers, offering same-day fridge service at affordable prices. Choose a time slot that works best for you!
+                </p>
                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fridge Technical Inspection Fee</h3>
-                <p className="mb-2">The technical inspection fee is AED 157, which covers diagnosis, transportation, and reinstallation in Dubai premises. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.</p>
+                <p className="mb-2">
+                  The technical inspection fee is AED 157, which covers diagnosis, transportation, and reinstallation in Dubai premises.
+                  Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.
+                </p>
               </div>
 
               <div className="col-md-6 ">
@@ -139,19 +175,12 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
         </section>
 
 
-
-        {/* Price */}
+        {/*why */}
         <section className="section cs_py_30">
           <div className="container">
-            <FAJACPrice></FAJACPrice>
-          </div>
-        </section>
-
-
-        {/*Signs Your Refrigerator Needs Service */}
-        <section className="section cs_py_30 bg-light-gray">
-          <div className="container">
-            <h3 className="cs_fs_30">Signs Your Refrigerator Needs Service </h3>
+            <h3 className="cs_fs_30">Why is Refrigerator Maintenance Service Important in Dubai? </h3>
+            <p>Proper refrigerator maintenance is essential for extending its lifespan and improving efficiency, especially given Dubai's climate. Here are the key benefits:
+            </p>
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Commercial-refrigeration-service.jpg`} alt="Post Image" />
@@ -159,34 +188,38 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-md-6">
 
                 <ul className="mb-0">
-                  <li> <strong>Inadequate Cooling:</strong> If your fridge isn't staying cold enough, it might be due to a faulty thermostat or compressor.</li>
 
-                  <li> <strong>Excessive Frost:</strong> Too much ice buildup could indicate a problem with the defrost system.</li>
+                  <li> <strong> Refrigerator Extended Lifespan: </strong> Regular maintenance helps prolong the life of your refrigerator, ultimately saving you money on replacement costs. </li>
+                  <li> <strong> Fridge Freezer Improved Efficiency: </strong> A well-maintained refrigerator operates more efficiently, consuming less energy and leading to lower utility bills, which is especially important in Dubai. </li>
+                  <li> <strong> Refrigerator Preventing Costly Repairs: </strong> Addressing minor issues promptly can prevent them from escalating into expensive repairs. </li>
+                  <li> <strong> Preserving Appliance Integrity: </strong> Routine cleaning prevents dust buildup, which can negatively affect performance. </li>
+                  <li> <strong> Refrigerator Early Problem Detection: </strong> Regular checks help identify potential issues before they become significant problems. </li>
+                  <li> <strong> Refrigerator Cost-Effectiveness: </strong> Maintenance costs are generally lower than those of early replacements or major repairs. Investing in refrigerator care is a smart economic choice in Dubai, ensuring safety and efficiency. </li>
+                  <li> <strong> Refrigerator Energy Efficiency: </strong> Routine maintenance can boost your refrigerator’s energy efficiency, helping you save money in the long run. </li>
 
-                  <li> <strong>Strange Noises:</strong> Unusual sounds like rattling or buzzing could mean trouble with the compressor or fan motor.</li>
 
-                  <li> <strong>Leaks or Moisture:</strong> Puddles of water inside or around the fridge could signal a leaky door seal or water line.</li>
-                  <li> <strong>Frequent Cycling:</strong> If your fridge is running constantly, it might be struggling with a faulty thermostat or compressor.</li>
-                  <li><strong>Odors:</strong> Lingering smells despite cleaning may point to mold or bacteria growth inside the fridge.</li>
                 </ul>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Our Refrigerator Repair Service */}
-        <section className="section cs_py_30">
+        {/* problems */}
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="text-center">Our Refrigerator Repair Service</h3>
+            <h3 className="text-center">The Most Common Problems with the Refrigerator and Freezer</h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">General Repair & Maintenance</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Not Cooling Properly</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">We give your fridge some extra care with regular check-ups & small fixes to make sure it stays in perfect shape.</p>
+                    <p className="p-2 mb-0">
+                      A common issue with refrigerators is their inability to reach the desired temperature, which several factors can cause.
+
+                    </p>
                   </div>
                 </div>
               </div>
@@ -194,10 +227,12 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Fixing</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Water Leaking from Refrigerator</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Let us get your new fridge set up just right so it fits perfectly in your kitchen and keeps your food nice and cool.</p>
+                    <p className="p-2 mb-0">
+                      A common issue with refrigerators is water leakage, often caused by a blocked defrost drain or a faulty water supply line.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -205,10 +240,13 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Repair Near Me</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Freezing Food</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">When your fridge decides to act up out of the blue, call us to save the day and your food.</p>
+                    <p className="p-2 mb-0">
+
+                      If your refrigerator is freezing food, it’s likely due to a faulty temperature control thermostat, which regulates the cooling voltage.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -216,10 +254,34 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Cooling System Repair </h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Fridge Overheating</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">We can fix any problems to keep your fridge cold so your food stays fresh and tasty.</p>
+                    <p className="p-2 mb-0">
+
+                      Fridge overheating can damage the compressor and other components of your refrigerator. It is essential to address this issue promptly.
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Defective Thermostat</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+
+                      Check the thermostat—someone may have bumped it or adjusted it without you knowing.
+
+                    </p>
                   </div>
                 </div>
               </div>
@@ -227,10 +289,15 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Compressor Replacement</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Fridge Running Constantly</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">If your fridge's compressor isn't working right, we can bring it back to life and make sure everything stays cool.</p>
+                    <p className="p-2 mb-0">
+
+                      If your fridge is running constantly, there could be a couple of reasons:
+
+
+                    </p>
                   </div>
                 </div>
               </div>
@@ -238,36 +305,40 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Water Leak Repair</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dirty Condenser Coils</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Call us to stop any leaks in your fridge's tracks to keep your kitchen dry and your food safe.</p>
+                    <p className="p-2 mb-0">
+
+
+
+                      Ensure that these coils are clean, as this can affect cooling efficiency.
+
+                    </p>
                   </div>
                 </div>
               </div>
+
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Defrost System Repair
-                    </h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Door Seal Issues</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">We can fix up your fridge's defrost system so it can keep things chilly without getting too frosty.</p>
+                    <p className="p-2 mb-0">
+
+                      A worn door seal can cause temperature fluctuations and energy waste. Inspect the seal regularly to ensure proper functioning.
+
+                    </p>
                   </div>
                 </div>
               </div>
 
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Fan Motor Repair </h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Let us get your fridge's fan motor back in action so it can keep air flowing and your food fresh.</p>
-                  </div>
-                </div>
-              </div>
+
+
+
+
             </div>
             <div id="get-quote" className="mb-0 mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -278,10 +349,13 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* Refrigerator Repair and Maintenance Service in Duba */}
-        <section className="section cs_py_30 bg-light-gray">
+
+        {/* HERE ARE THE SERVICES */}
+        <section className="section cs_py_30 ">
           <div className="container">
-            <h3 className="cs_fs_30">Refrigerator Repair and Maintenance Service in Duba</h3>
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR THE REFRIGERATOR  </h3>
+            <p></p>
+
             <div className="row align-items-center">
               <div className="col-xl-6">
                 <iframe
@@ -297,39 +371,36 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-xl-6">
-                <p className='mb-0'>One of the appliances we use on a daily basis in our homes is the refrigerator, which is used to prevent food waste. We won't be able to keep food fresh for very long if our refrigerator breaks down. A major issue is also having cold water. Furthermore, you and your entire family have a serious issue if you store food for urgent needs. With FAJ Professional, experience the best home service refrigerator repair. Our knowledgeable specialists are skilled at quickly identifying and resolving problems, so your refrigerator will continue to function flawlessly. At FAJ, we put your convenience first by providing perfect cool refrigeration services to maintain the best possible condition for your appliances.</p>
-                {/* <p className='mb-0'><strong>Our services include:</strong></p>
-                        <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-1">
 
-                            <li>
-                                <strong>Installation:</strong>  Expert installation of various types and brands of HVAC systems, ensuring optimal performance and efficiency.
-                            </li>
+                <p className='mb-0'>We specialise in all types and brands of refrigerators, including fridge freezers.
+                </p>
+                <p className='mb-0'><strong>Our services include:</strong></p>
 
-                            <li>
-                                <strong>Diagnostics:</strong> Thorough fault finding to diagnose issues effectively. We provide eligibility assessments and detailed quotations to address any concerns with your system.
-                            </li>
+                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
+                  <li><strong> Refrigerator Installation: </strong> Expert installation for various types and brands of refrigerators, ensuring optimal performance and efficiency. </li>
+                  <li><strong> Refrigerator Diagnostics: </strong> We conduct thorough diagnostics to identify issues effectively. We also provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
+                  <li><strong> Refrigerator Repair Service: </strong> Efficient repair services for all fridge freezer components, ensuring a quick resolution to issues such as leaks, electrical failures, and system malfunctions. </li>
+                  <li><strong> Refrigerator Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for annual maintenance of your refrigerator. </li>
 
-                            <li>
-                                <strong>Repair Service:</strong> Efficient repair services for all HVAC components, ensuring quick resolution of any issues, such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions!
-                            </li>
+                  <p className="mb-0">
+                    Regular oven maintenance is essential for optimal performance, efficiency, and longevity of your oven.
 
-                            <li>
-                                <strong>Annual Maintenance Contract:</strong> This contract outlines the terms and services covered for the annual maintenance of air conditioning units. Regular maintenance is essential for optimal performance, efficiency, and longevity of your air conditioning system.
-                            </li>
-                          
-                        </ul> */}
+                  </p>
+                </ul>
 
 
               </div>
+
+
             </div>
           </div>
-        </section>
+        </section >
 
-        {/* The Benefits Of appliances Service Dubai */}
-        <section className="section cs_py_30 appliances-benifit-sec">
+        {/* The Benefits  */}
+        <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
-              <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai
+              <h3 className="cs_fs_30 mb-0">The Benefits Of Refrigerator Service Dubai
               </h3>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
@@ -351,7 +422,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
                       </h4>
-                      <p className="small">Regular maintenance helps your appliances run smoothly and efficiently, delivering the best results every time.
+                      <p className="small">Regular maintenance helps your refrigerator run smoothly and efficiently, delivering the best results every time.
                       </p>
                     </div>
                   </div>
@@ -363,7 +434,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
                         <img src={`${import.meta.env.BASE_URL}/img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
-                      <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                      <p className="small">Energy efficient refrigerator translate to monthly savings on utility bills, putting more money back in your pocket.</p>
                     </div>
                   </div>
                 </div>
@@ -386,8 +457,8 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}/img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h4>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Extending refrigerator Lifespan</h4>
+                      <p className="small">Proper care and timely servicing can significantly increase life of your home refrigerator, delaying the need for replacements.</p>
 
                     </div>
 
@@ -402,7 +473,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                       </h4>
-                      <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                      <p className="small">Knowing your refrigerator are in top condition gives you confidence and removes the stress of unexpected failures.</p>
                     </div>
                   </div>
                 </div>
@@ -411,29 +482,13 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        <section className="section cs_py_30 bg-dark-blue text-light">
-          <div className="container text-center">
-            <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
-            <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
-            <a
-              href="files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
-              className="btn-green-yellow"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Click Here to Save on Energy Bills
-            </a>
-
-          </div>
-        </section>
 
 
-
-
-        {/*Select FAJ for Quick Service, Efficienc  */}
+        {/* CHOOSE US  */}
         <section className="section cs_py_30">
           <div className="container container-md container-sm">
-            <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR  NEEDS!</h2>
+            <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2>
+
             <div className="usps align-items-center	">
               {/* <!-- First Column --> */}
               <div className="uspcol col-1">
@@ -444,7 +499,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Reliable, Priority, and Quick</h3>
-                    <p>You can count on efficient service! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
+                    <p>	You can count on efficient service! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
                   </div>
                 </div>
 
@@ -454,8 +509,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Confidence</h3>
-                    <p>With <a href="#/ac-annual-maintenance-contract/">annual maintenance contract</a>, you get a full year of service, ensuring your AC runs smoothly and providing peace of mind.
-                    </p>
+                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your refrigerator runs smoothly and providing peace of mind.</p>
                   </div>
                 </div>
 
@@ -466,8 +520,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your AC repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive..
-                    </p>
+                    <p>Choose a day and time for your refrigerator repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive.</p>
                   </div>
                 </div>
 
@@ -475,9 +528,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}/img/fajteam.jpg`} alt="FAJ icon service" />
-                {/* <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}/img/fajteam-1.jpg`} alt="FAJ icon service" /> */}
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}/img/fajteam-1.jpg`} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
@@ -488,7 +539,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are experts in AC repair. This is why most major brands trust us to handle their service and maintenance needs.</p>
+                    <p>We are experts in refrigerator repair this is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -498,8 +549,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>We are dedicated to ensuring customer satisfaction with timely service, prompt issue resolution, and affordable prices.</p>
-
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two refrigerator at the same in Dubai location.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -508,23 +558,20 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our skilled AC technicians are highly trained, and we provide excellent service for a variety of major AC brands efficiently.
-                    </p>
+                    <p>Our skilled refrigerator technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
                   </div>
                 </div>
               </div>
+
+              {/* <!-- Delimit mobile --> */}
+              <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
+                <img className="" src={`${import.meta.env.BASE_URL}/img/fajteam.jpg`} alt="FAJ icon service" />
+              </div>
             </div>
-            {/* <!-- Delimit mobile --> */}
-            <div className="col-12 uspdelimit w-100 text-center d-block d-none-1199 Xd-xl-none">
-              <img className="blue-border-2 w-100" src={`${import.meta.env.BASE_URL}/img/fajteam.jpg`} alt="FAJ icon service" />
-
-
-            </div>
-
           </div>
         </section>
 
-        {/* We specialise in Refrigerator services for the following brands */}
+        {/* We specialise  */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3>We specialise in Refrigerator services for the following brands</h3>
@@ -665,39 +712,34 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
+        {/* Brands section */}
+        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
+          <div className="container">
 
-        {/* white section with AC image */}
-        <section className="section cs_py_30">
-          <div className="container text-center">
-            <div className="row">
-              <div className="col-lg-4">
-                <div className="acsvs-sec-prefoot-sec-cone">
-                  <h3 className="cs_fs_20 mb-0">COOLING &amp; HEATING</h3>
-                  <span className="mb-5">Stay comfortable all year round</span>
-                  <div className="mb-5"></div>
-                  <h3 className="cs_fs_20 mb-0">BETTER AIR QUALITY</h3>
-                  <span className="mb-5">Reduce humidity, pollen and dust</span>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="acsvs-sec-prefoot-sec-ctwo">
+            <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
+              data-variable-width="0" data-xs-slides="1" data-sm-slides="1" data-md-slides="1" data-lg-slides="2"
+              data-add-slides="2" data-slides-per-view="responsive">
+              <div className="cs_slider_wrapper">
+                <Slider {...settingBrands}>
+                  {brandsLogo_data.map((item, index) => (
+                    <div key={index} className="cs_slide wow fadeInLeft">
 
-                  <img className="" src={`${import.meta.env.BASE_URL}/img/benafit-acimg.jpg`} alt="Post Image" />
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="acsvs-sec-prefoot-sec-cthree">
-                  <h3 className="cs_fs_20 mb-0">PROTECT YOUR PROPERTY</h3>
-                  <span className="mb-5">Prevent damage to electronics and furnishings</span>
-                  <div className="mb-5"></div>
-                  <h3 className="cs_fs_20 mb-0">QUIET AND SECURE</h3>
-                  <span className="mb-5">No need to leave windows open</span>
-                </div>
+                      <div className="brandslogo-slide-container">
+                        <div className="brnadlogo">
+                          <img className="w-100" src={`${import.meta.env.BASE_URL}${item.logo}`} alt="Avatar" />
+                        </div>
+                      </div>
+
+                    </div>
+                  ))}
+                </Slider>
+
               </div>
             </div>
-
           </div>
+          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
         </section>
+
 
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" data-background={`${import.meta.env.BASE_URL}${bgImg}`}>

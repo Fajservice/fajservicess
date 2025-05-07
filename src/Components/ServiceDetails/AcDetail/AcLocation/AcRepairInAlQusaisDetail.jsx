@@ -43,6 +43,35 @@ const AcRepairInAlQusaisDetail = ({ subtitle, title, bgImg }) => {
     useEffect(() => {
         loadBackgroudImages();
     }, []);
+
+    const settings = {
+        dots: false,
+        infinite: true,
+        speed: 600,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        arrows: false,
+        swipeToSlide: true,
+        responsive: [
+            {
+                breakpoint: 1399,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 1199,
+                settings: {
+                    slidesToShow: 2,
+                }
+            }, {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    };
     return (
         <>
             <HelmetProvider>
@@ -316,9 +345,9 @@ const AcRepairInAlQusaisDetail = ({ subtitle, title, bgImg }) => {
                     </div>
                 </section>
 
-                {/* testimobial section */}
-                <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" data-background={`${import.meta.env.BASE_URL}${bgImg}`}>
-                    {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
+                {/* testi section */}
+                <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed   position-relative cs_py_30" data-background={`${import.meta.env.BASE_URL}${bgImg}`}>
+
                     <div className="container">
                         <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
                             <h3 className="cs_section_subtitle cs_fs_18 text-black cs_semibold text-uppercase cs_mb_12 wow fadeInDown">

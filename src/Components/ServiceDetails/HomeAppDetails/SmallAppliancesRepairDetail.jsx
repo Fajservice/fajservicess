@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/HomeAppData/OvenRepairServiceFaqs.json';
+import data from '../../../Data/HomeAppData/SmallAppliancesFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
@@ -11,7 +11,7 @@ import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
-import testimonial_data from '../../../Data/HomeAppData/OvenRepairServiceTestimonials.json';
+import testimonial_data from '../../../Data/HomeAppData/SmallAppliancesRepairTestimonials.json';
 import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
 
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
@@ -118,7 +118,6 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, bgImg }) => {
     ]
   };
 
-
   return (
     <>
       <HelmetProvider>
@@ -132,14 +131,11 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">Select Oven Service Center for Same-Day Repairs in Dubai</h2>
+            <h2 className="cs_fs_30">Dubai's Best Small Appliances Service Center Near You</h2>
             <p>
-              If you're having issues with your oven, it's important to locate a trustworthy and high-quality oven repair service. Our company in Dubai is focused on providing quick, effective, and affordable repairs for all your oven repair requirements.
-              <br />
-              With over a decade of experience since 2010 in maintenance of ovens of various types and brands, our skilled team employs the latest tools and techniques to diagnose and fix problems efficiently.
-              This ensures you can return to your busy life in Dubai and Sharjah without much delay.
-
-
+              Do you need small appliance repair? If you're looking for a reliable and trusted service, look no further than FAJ Technical Services LLC, established in 2010.
+              We understand the inconvenience caused by a malfunctioning appliance, which is why we offer fast and professional small home appliance repair services in your area.
+              <br />Our skilled technicians quickly diagnose and repair electrical appliances, getting them back to optimal performance in no time.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -154,27 +150,26 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, bgImg }) => {
         {/* Maintenance Contract */}
         <MaintenanceContract />
 
-        {/* Cooking Range Repair Nearby You */}
+        {/* heading 1 */}
 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Get Oven Repair & Service Near by You</h3>
+                <h3 className="cs_fs_24 mb-1">Small Appliance Repair and Maintenance</h3>
 
                 <p className="mb-2">
 
-                  Ovens are among the most frequently used kitchen appliances, as we rely on them to cook our food.
-                  <br />  When an oven breaks down, it can significantly impact our daily routines. Therefore, it's essential to find an oven repair and service specialist near you as quickly as possible, whether you are in Dubai or Sharjah!
+                  Small appliances are important for daily use, and if they are damaged, it can affect your routine. FAJ provides expert service for kitchen appliances such as stand mixers, blenders, kettles, toasters, air fryers, microwave ovens, ice crushers, food processors, vacuum cleaners, cigar cabinet fridges, steam irons, and other electronic appliance repairs and fixes nearby in Dubai.
+
                 </p>
 
 
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Oven Technical Inspection Fee</h3>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Household Appliances Technical Inspection Fee</h3>
                 <p className="mb-0">
 
-                  The technical inspection fee is AED 157, which covers diagnosis, transportation, and reinstallation in Dubai premises.
+                  The technical inspection fee covers diagnosis, transportation, and reinstallation on Dubai premises.
                   <br />Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.
-
                 </p>
               </div>
 
@@ -189,28 +184,27 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, bgImg }) => {
         </section>
 
 
-        {/* Why is Oven Maintenance Service Important in Dubai? */}
+        {/* Why is */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">Why is Oven Maintenance Service Important in Dubai? </h3>
+            <h3 className="cs_fs_30">Why is Kitchen Appliances Maintenance Service Important in Dubai?</h3>
             <p>
-              Regular maintenance is crucial in Dubai because of the frequent use of appliances and the city's climate. It ensures the longevity and optimal performance of the oven while reducing the risk of gas leaks and fire hazards. Here’s a detailed explanation:
+              Regular maintenance helps identify and resolve minor issues before they escalate into major problems, thereby reducing the risk of breakdowns, electrical fires, or gas leaks.
+
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/oven-Range-Repair-Nearby-You-oven.jpg`} alt="Post Image" />
               </div>
               <div className="col-md-6">
+                <p>
+                  Here's a more detailed look at why maintenance is important:
+                </p>
                 <ul className="mb-0">
-
-                  <li> <strong>Oven Heavy Use and Versatility: </strong> Ovens are vital for cooking and baking in homes and commercial kitchens, like those in hotels and bakeries in Dubai. Regular maintenance is essential for optimal performance.</li>
-                  <li> <strong>Oven Safety: </strong> Oven maintenance is crucial for safety, especially with gas ovens. Regular inspections can catch leaks or faulty controls that may create fire hazards.</li>
-                  <li> <strong>Oven Efficiency: </strong> Regular maintenance of the heating element and thermostat ensures efficiency, leading to energy savings and lower utility bills.</li>
-                  <li> <strong>Oven Preventative Measures: </strong> Regular maintenance, such as cleaning and inspections, prevents minor issues from becoming major repairs, saving time and money.</li>
-                  <li> <strong>Oven Long-term Use: </strong> Regular maintenance can extend your oven's lifespan and save you replacement costs.
-                    By prioritising oven maintenance, residents and businesses in Dubai can ensure their ovens function safely and efficiently.</li>
-
-
+                  <li> <strong>  Safety: </strong> Faulty appliances can lead to serious safety risks like fires, gas leaks, and water damage. Regular maintenance can help identify and resolve these issues early. </li>
+                  <li> <strong>  Longevity: </strong> Regular maintenance prevents wear and tear, prolonging appliance lifespan. Routine technician check-ups can catch minor issues before they escalate.  </li>
+                  <li> <strong>  Convenience: </strong> In the busy city of Dubai, a reliable appliance repair service is essential for prompt solutions to malfunctions. Regular maintenance can prevent breakdowns, reducing urgent repairs and downtime. </li>
+                  <li> <strong>  Efficiency: </strong> Regular cleaning can improve appliance efficiency. For example, cleaning refrigerator coils enhances cooling and reduces energy use. </li>
                 </ul>
               </div>
             </div>
@@ -219,32 +213,20 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, bgImg }) => {
 
 
 
-        {/* The Most Common Problems With Oven */}
+        {/* Problems */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="text-center">The Most Common Problems With Oven   </h3>
+            <h3 className="text-center">Common Kitchen Appliance Problems That May Require Maintenance    </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Won't Turn On</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">This issue may be caused by a tripped circuit breaker, a blown fuse, or problems with the oven's control board or power supply.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Defective Oven Light</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Small Appliances </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-Typically, a simple bulb replacement can resolve this issue or cause some power not to get.
-
+                      Small appliances can cause house fires. Even kettles may catch fire if they are poorly made or have faulty parts, and they can also lead to electric shocks.
                     </p>
                   </div>
                 </div>
@@ -253,27 +235,12 @@ Typically, a simple bulb replacement can resolve this issue or cause some power 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Doesn't Heat Up
-                    </h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Failure to Heat </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-This could result from a faulty heating element, a broken thermostat, or a malfunction in the ignition system of gas ovens.
-</p>
-                  </div>
-                </div>
-              </div>
-
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">ven Doesn't Heat</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">O
-The oven doesn't Heat to the Correct Temperature. Possible causes include a faulty thermostat, miscalibration, or issues with the control panel.
-</p>
+                      Heating appliances like microwaves and ovens may not heat properly due to a faulty heating element, interlock system malfunction, or control panel.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -281,12 +248,12 @@ The oven doesn't Heat to the Correct Temperature. Possible causes include a faul
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Food Doesn't Cook Evenly</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1"> Control Panel Problems</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-This can occur due to factors such as incorrect rack placement, blocked vents, or a faulty thermostat.
-</p>
+                      Unresponsive displays or buttons may signal a failing control panel, affecting the appliance's functionality.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -294,12 +261,12 @@ This can occur due to factors such as incorrect rack placement, blocked vents, o
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Door Won't Close</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1"> Excessive Noise </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-Problems with the door hinges, seals, or latch mechanism can prevent the door from closing properly.
-</p>
+                      Loud or unusual noises coming from appliances may indicate worn-out parts, loose components, or blockages.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -307,25 +274,51 @@ Problems with the door hinges, seals, or latch mechanism can prevent the door fr
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Self-Cleaning Problems</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1"> Specific Function Failures:</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-Self-cleaning ovens sometimes experience issues during the cleaning cycle, which may require resetting or professional assistance.
-</p>
+                      Microwaves, ovens, and mixers often show common issues like improper heating or ineffective cleaning due to various factors.
+                    </p>
                   </div>
                 </div>
               </div>
 
               <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
+                <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Broken Oven Rack</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1"> Electrical Problems:</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-A broken or damaged rack can reduce the oven's efficiency and hinder cooking capabilities.
-</p>
+                      Small or large appliances not turning on may be due to a blown fuse or wiring issues.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1"> Malfunctioning Components:</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      Appliance components, like the oven's heating element or the washing machine's motor, can fail and cause malfunctions.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Extension Leads </h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      Extension leads can be a fire hazard when used with unsuitable appliances. If your fuse box trips often or you smell burning, unplug the extension lead immediately.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -340,12 +333,13 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
           </div>
         </section>
 
-        {/* HERE ARE THE SERVICES WE OFFER FOR THE OVEN */}
+        {/* HERE ARE  */}
         <section className="section cs_py_30 ">
           <div className="container">
-            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR THE OVEN
-            </h3>
-            <p></p>
+            <h3 className="cs_fs_30">Common Kitchen Appliance Problems That May Require Maintenance         </h3>
+            <p className='mb-0'>The search results indicate that the company primarily offers repair and maintenance services for household appliances such as stand mixers, blenders, kettles, toasters, air fryers, microwave ovens, ice crushers, food processors, vacuum cleaners, cigar cabinet fridges, steam irons, and other electronic appliance
+
+            </p>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -353,7 +347,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                   className="bordered-img blue-border"
                   width="100%"
                   height="350"
-                  src="https://www.youtube.com/embed/SLGpswtzn-w"
+                  src="https://www.youtube.com/embed/nkqs5jeMQl0"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -362,25 +356,15 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
               </div>
 
               <div className="col-xl-6">
-               
-                <p className='mb-0'>We specialise in all types and brands of ovens, including built-in units.
-                </p>
-                <p className='mb-0'><strong>Our services include:</strong></p>
-               
+                <p className='mb-0'><strong>Our services include: </strong></p>
+
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
+                  <li> <strong>Repair Services: </strong> FAJ specialises in repairing household appliances, with skilled technicians available to diagnose and fix issues across brands.</li>
+                  <li> <strong>Specific Appliance Repairs: </strong> They may specialize in repairing specific appliances, such as mixers, blenders, steam irons, cigar fridges, air fryers, and ice makers.</li>
+                  <li> <strong>Possible Additional Services: </strong> FAJ primarily focuses on repairs but may also offer maintenance services, like inspections and minor fixes, to keep appliances running smoothly. For specific details on their services and availability, it would be helpful to.</li>
+                  <li> <strong>Contact them directly: </strong> They probably have a contact number or email listed on their website for inquiries about specific services.</li>
 
-
- <li> <strong> Oven Installation: </strong> Expert installation of various types and brands of ovens, ensuring optimal performance and efficiency.</li>
- <li> <strong> Diagnostics: </strong> Comprehensive fault-finding services to effectively diagnose issues. We provide eligibility assessments and detailed quotations to      address any concerns with your system.</li>
- <li> <strong> Oven Repair Service: </strong> Efficient repair services for all oven components, ensuring a quick resolution to leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions!</li>
- <li> <strong> Oven Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for your oven's annual maintenance.</li>
-                  <p className="mb-0">
-                  Regular oven maintenance is essential for optimal performance, efficiency, and longevity of your oven.
-
-                  </p>
                 </ul>
-
-
               </div>
 
 
@@ -474,7 +458,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
           </div>
         </section>
 
-       
+
 
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
@@ -563,231 +547,64 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
           </div>
         </section>
 
-        {/* We specialise in Oven services for the following brands  */}
+        {/* We specialise  */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3>We specialise in Oven services for the following brands </h3>
+            <h3>We specialize in small appliance services for the following types </h3>
             <div className="row">
+              
               <div className="col-12">
-
-                <p className="mb-0">
-                  <Link to="/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/">
-                    <b>Smeg Oven Repair</b>
-                  </Link>: FAJ is here to assist you when things go wrong. We understand that your Smeg oven is essential for daily life, helping keep your food fresh and your meals prepared
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/siemens-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b>Siemens Oven Repair</b>
-                  </Link>: If you're experiencing issues with your oven, stove, refrigerator, washer, dryer, or dishwasher, reach out to the FAJ team for same-day repair service in Dubai.
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/bosch-home-appliances-repair/">
-                    <b> La Germania Gas Oven Repair</b>
-                  </Link>: When you need La Germania oven repair in Dubai, For La Germania oven, range repair in Dubai, our qualified technicians are available throughout 
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/viking-appliances-service/">
-                    <b> Viking Stove and Oven Repair</b>
-                  </Link>: Your Viking appliances may need repair or maintenance, and we can help. For high-quality Viking stove and oven repair in Dubai, trust FAJ.
-
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b> Daewoo Oven Repair</b>
-                  </Link>: We offer expert Daewoo oven repair services in Dubai. Our experienced technicians possess the knowledge and skills to diagnose and repair issues with Daewoo ovens, refrigerators, washing machines, dryers, and more.
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub/">
-                    <b> Neff Oven Repair</b>
-                  </Link>: Are you worried about your Neff oven malfunctioning and looking for a trustworthy Neff oven repair company in Dubai? Contact us for same-day service!
-
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b> Teka Stove and Oven Repair</b>
-                  </Link>: If you're looking for the best Teka oven repair company in Dubai, FAJ is the perfect choice. They are well-known for providing outstanding service for Teka refrigerators, washing machines, and ovens. FAJ is recognized as the leading Teka appliance service provider in the region.
-                </p>
-
-
-                <br />
-
-                <p><a href="#/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/">AEG</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/ariston-fridge-repair-in-dubai-ariston-washing-machine-repair-in-dubai-ariston-cooker-repair-in-dubai-ariston-oven-repair-in-dubai-ariston-appliances-maintenance-in-dubai-ariston-refrigerator-fix-repa/">Ariston</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/beko-fridge-repair-in-dubai-beko-washing-machine-repair-in-dubai-beko-cooker-repair-in-dubai-beko-oven-repair-in-dubai-beko-appliances-maintenance-in-dubai-beko-refrigerator-fix-repairs-service-in-dub/">Beko</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/blomberg-fridge-repair-in-dubai-blomberg-washing-machine-repair-in-dubai-blomberg-cooker-repair-in-dubai-blomberg-oven-repair-in-dubai-blomberg-appliances-maintenance-in-dubai-blomberg-refrigerator-fi/">Blomberg</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/electrolux-home-appliances-repair/">Electrolux</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/faber-appliances-service/">Faber</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/fagor-fridge-repair-in-dubai-fagor-washing-machine-repair-in-dubai-fagor-cooker-repair-in-dubai-fagor-oven-repair-in-dubai-fagor-appliances-maintenance-in-dubai-fagor-refrigerator-fix-repairs-service/">Fagor</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/fisher-and-paykel-fridge-repair-in-dubai-fisher-and-paykel-washing-machine-repair-in-dubai-fisher-and-paykel-cooker-repair-in-dubai-fisher-and-paykel-oven-repair-in-dubai-fisher-and-paykel-appliances/">Fisher and Paykel</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/foster-appliances-services-foster-dishwasher-repair-service-in-dubai-foster-cooking-range-repair-service-in-dubai-foster-cooktop-repair-service-in-dubai-foster-oven-repair-in-dubai-foster-rangetop-r/">Foster</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/gaggenau-fridge-repair-in-dubai-gaggenau-washing-machine-repair-in-dubai-gaggenau-cooker-repair-in-dubai-gaggenau-oven-repair-in-dubai-gaggenau-appliances-maintenance-in-dubai-gaggenau-refrigerator-fi/">Gaggenau</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/hitachi-fridge-repair-in-dubai-hitachi-washing-machine-repair-in-dubai-hitachi-cooker-repair-in-dubai-hitachi-oven-repair-in-dubai-hitachi-appliances-maintenance-in-dubai-hitachi-refrigerator-fix-repa/">Hitachi</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/hoover-fridge-repair-in-dubai-hoover-washing-machine-repair-in-dubai-hoover-cooker-repair-in-dubai-hoover-oven-repair-in-dubai-hoover-appliances-maintenance-in-dubai-hoover-refrigerator-fix-repairs-se/">Hoover</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-oven-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa/">Indesit </a>
-                  |<a href="#/lg-fridge-repair-in-dubai-lg-washing-machine-repair-in-dubai-lg-cooker-repair-in-dubai-lg-oven-repair-in-dubai-lg-appliances-maintenance-in-dubai-lg-refrigerator-fix-repairs-service-in-dubai-lg-dishwa/"> LG</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/sub-zero-fridge-repair-in-dubai-sub-zero-washing-machine-repair-in-dubai-sub-zero-cooker-repair-in-dubai-sub-zero-oven-repair-in-dubai-sub-zero-appliances-maintenance-in-dubai-sub-zero-refrigerator-fi/">Sub Zero</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/terim-appliances-service/">Terim</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/whirlpool-fridge-repair-in-dubai-whirlpool-washing-machine-repair-in-dubai-whirlpool-cooker-repair-in-dubai-whirlpool-oven-repair-in-dubai-whirlpool-appliances-maintenance-in-dubai-whirlpool-refrigera/">Whirlpool</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/zanussi-fridge-repair-in-dubai-zanussi-washing-machine-repair-in-dubai-zanussi-cooker-repair-in-dubai-zanussi-oven-repair-in-dubai-zanussi-appliances-maintenance-in-dubai-zanussi-refrigerator-fix-repa/">Zanussi</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="https://fajservice.ae/de-dietrich-appliance-repair-service/">De Dietrich</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/baumatic-appliances/">Baumatic</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/bertazzoni-refrigerator-repair-in-dubai-bertazzoni-appliances-service-bertazzoni-fridge-repair-in-dubai-bertazzoni-washing-machine-washer-bertazzoni-dryer-repair-in-dubai-bertazzoni-dishwasher-cooker/">Bertazzoni</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/bompani-fridge-repair-in-dubai-bompani-washing-machine-repair-in-dubai-bompani-cooker-repair-in-dubai-bompani-oven-repair-in-dubai-bompani-appliances-maintenance-in-dubai-bompani-refrigerator-fix-repa/">Bompani</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/boston-refrigerator-repair-in-dubai-boston-appliances-service-boston-fridge-repair-in-dubai-boston-washing-machine-washer-boston-dryer-repair-in-dubai-boston-dishwasher-cooker/">Boston</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/brandt-fridge-repair-in-dubai-brandt-washing-machine-repair-in-dubai-brandt-cooker-repair-in-dubai-brandt-oven-repair-in-dubai-brandt-appliances-maintenance-in-dubai-brandt-refrigerator-fix-repairs-se/">Brandt</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/gibson-fridge-repair-in-dubai-gibson-washing-machine-repair-in-dubai-gibson-cooker-repair-in-dubai-gibson-oven-repair-in-dubai-gibson-appliances-maintenance-in-dubai-gibson-refrigerator-fix-repairs-se/">Gibson</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/gorenje-fridge-repair-in-dubai-gorenje-washing-machine-repair-in-dubai-gorenje-cooker-repair-in-dubai-gorenje-oven-repair-in-dubai-gorenje-appliances-maintenance-in-dubai-gorenje-refrigerator-fix-repa/">Gorenje</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/hisense-fridge-repair-in-dubai-hisense-washing-machine-repair-in-dubai-hisense-cooker-repair-in-dubai-hisense-oven-repair-in-dubai-hisense-appliances-maintenance-in-dubai-hisense-refrigerator-fix-repa/">Hisense</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/kelvinator-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Kelvinator</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/kenmore-appliances-service/">Kenmore</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/panasonic-fridge-repair-in-dubai-panasonic-washing-machine-repair-in-dubai-panasonic-cooker-repair-in-dubai-panasonic-oven-repair-in-dubai-panasonic-appliances-maintenance-in-dubai-panasonic-refrigera/">Panasonic</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/sanyo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Sanyo</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/sears-home-appliances-installation-maintenance-repair-fix-service-in-dubai/">Sears</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/wolf-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Wolf</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/haier-fridge-repair-in-dubai-haier-washing-machine-repair-in-dubai-haier-cooker-repair-in-dubai-haier-oven-repair-in-dubai-haier-appliances-maintenance-in-dubai-haier-refrigerator-fix-repairs-service/">Haier</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/elica-appliances-service/">Elica</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/marvel-fridge-repair-in-dubai-marvel-washing-machine-repair-in-dubai-marvel-cooker-repair-in-dubai-marvel-oven-repair-in-dubai-marvel-appliances-maintenance-in-dubai-marvel-refrigerator-fix-repairs-se/">Marvel</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/miele-fridge-repair-in-dubai-miele-washing-machine-repair-in-dubai-miele-cooker-repair-in-dubai-miele-oven-repair-in-dubai-miele-appliances-maintenance-in-dubai-miele-refrigerator-fix-repairs-service/">Miele</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/maytag-fridge-repair-in-dubai-maytag-washing-machine-repair-in-dubai-maytag-cooker-repair-in-dubai-maytag-oven-repair-in-dubai-maytag-appliances-maintenance-in-dubai-maytag-refrigerator-fix-repairs-se/">Maytag</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/toshiba-home-appliance-installation-maintenance-repair-fix-service-in-dubai-2/">Toshiba</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/thermador-appliances-service/">Thermador</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/sharp-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Sharp</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/admiral-fridge-repair-in-dubai-admiral-washing-machine-repair-in-dubai-admiral-cooker-repair-in-dubai-admiral-oven-repair-in-dubai-admiral-appliances-maintenance-in-dubai-admiral-refrigerator-fix-repa/">Admiral</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/aftron-fridge-repair-in-dubai-aftron-washing-machine-repair-in-dubai-aftron-cooker-repair-in-dubai-aftron-oven-repair-in-dubai-aftron-appliances-maintenance-in-dubai-aftron-refrigerator-fix-repairs-se/">Aftron</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/unimac-washing-machine-repair-in-dubai-unimac-dryer-repair-in-dubai-unimac-washer-dryer-repair-in-dubai-unimac-maintenance-in-dubai-unimac-laundry-service-in-dubai-unimac-dubai/">Unimac</a>
-                </p>
+                <ul>
+                  <li>
+                    <strong>Vacuum Cleaner Repair and Service: </strong>
+                    Is your vacuum cleaner not performing as it should? Our repair services can help! We fix all issues, including motor problems, faulty switches, and clogged hoses.
+                  </li>
+
+                  <li>
+                    <strong>Hair Dryer Repair and Service: </strong>
+                    Welcome to FAJ Technical Services LLC, your go-to for hair dryer repair. We specialize in fixing issues and restoring your appliance. Contact us for reliable service today!
+                  </li>
+
+                  <li>
+                    <strong>Coffee Maker Repair Me: </strong>
+                    Having trouble with a noisy juicer? We offer affordable juicer and blender repair services in Dubai. Our team can fix issues like jammed mechanisms and electrical glitches.
+                  </li>
+
+                  <li>
+                    <strong>Juicer Blender Repair Near Me: </strong>
+                    Is your juicer noisy or not working properly? We offer affordable juicer and blender repair services in Dubai. Our experts can fix issues like jammed mechanisms and electrical glitches. Trust us to restore your appliances quickly!
+                  </li>
+
+                  <li>
+                    <strong>Steam Iron Box Repair Near Me: </strong>
+                    If your electric iron isn’t working properly, we provide repair services in Dubai. Our expertise includes fixing heating elements, thermostats, and faulty wiring, so you can enjoy wrinkle-free clothes again.
+                  </li>
+
+                  <li>
+                    <strong>Toaster Repair Near Me: </strong>
+                    If your electric iron isn’t working well, we offer repair services in Dubai. Our experts can help you get wrinkle-free clothes again by addressing heating elements, thermostat issues, and faulty wiring.
+                  </li>
+
+                  <li>
+                    <strong>Kitchen Stand Mixer Repairs Near Me: </strong>
+                    Welcome to Premium Kitchen Stand Mixer Repair Services! Since 2010, we’ve been providing expert repairs for stand and hand mixers in Dubai. Let us help you get your mixer working again and keep your space tidy!
+                  </li>
+
+                  <li>
+                    <strong>Water Dispenser Repair Near Me: </strong>
+                    We provide expert water dispenser repair services to restore your hot showers. Don’t let a broken dispenser dampen your spirits—let us help get it working perfectly again!
+                  </li>
+
+                  <li>
+                    <strong>Microwave Oven Repair Near Me: </strong>
+                    We specialize in repairing small home appliances, including microwaves. Our mission is to deliver quality repairs at affordable prices, fixed as quickly as possible. Enjoy hot pizzas and reheated coffee with our efficient microwave repair services!
+                  </li>
+
+                  <li>
+                    <strong>Electric Kettle Repair: </strong>
+                    If your electric kettle isn’t heating properly, you need a reliable repair service. Our experts specialize in diagnosing and fixing issues like faulty heating elements and power switches, quickly restoring your kettle’s functionality.
+                  </li>
+                </ul>
 
               </div>
 
@@ -801,15 +618,10 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
             </div>
 
           </div>
-        </section>
-
-
-
-       
-
+        </section >
 
         {/* Brands section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
+        < section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" >
           <div className="container">
 
             <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
@@ -834,12 +646,11 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
             </div>
           </div>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
-        </section>
+        </section >
 
         {/* testimobial section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" data-background={`${import.meta.env.BASE_URL}${bgImg}`}>
-          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
-          <div className="container">
+        < section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" data-background={`${import.meta.env.BASE_URL}${bgImg}`}>
+          <div className="container" >
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
               <h3 className="cs_section_subtitle cs_fs_18 text-black cs_semibold text-uppercase cs_mb_12 wow fadeInDown">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -886,48 +697,47 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
 
               </div>
             </div>
-          </div>
-          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
-        </section>
+          </div >
+      </section >
 
-        {/* FAQ's */}
-        <section className="section cs_py_30  bg-dark-blue text-light">
-          <div className="container">
-            <h3 className="cs_fs_30 text-light">FAQ's</h3>
+      {/* FAQ's */}
+      < section className="section cs_py_30  bg-dark-blue text-light" >
+        <div className="container">
+          <h3 className="cs_fs_30 text-light">FAQ's</h3>
 
-            <div className="cs_accordians_wrapper cs_style_1 p-0">
+          <div className="cs_accordians_wrapper cs_style_1 p-0">
 
-              {data.map((item, index) => (
-                <div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`} >
-                  <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
-                    <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
-                    <span className="cs_accordian_toggle">
-                      <i className="bi bi-eye text-light"></i>
-                      <i className="bi bi-eye-slash text-light"></i>
-                    </span>
-                  </div>
-                  <div className="cs_accordian_body" ref={accordionContentRef}>
-                    {/* <p className="mb-0">{item.desc.replace(/\n/g, '<br>')}</p> */}
-                    <p className="mb-0"
-                      dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
-                    ></p>
-                  </div>
+            {data.map((item, index) => (
+              <div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`} >
+                <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
+                  <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
+                  <span className="cs_accordian_toggle">
+                    <i className="bi bi-eye text-light"></i>
+                    <i className="bi bi-eye-slash text-light"></i>
+                  </span>
                 </div>
-              ))}
+                <div className="cs_accordian_body" ref={accordionContentRef}>
+                  {/* <p className="mb-0">{item.desc.replace(/\n/g, '<br>')}</p> */}
+                  <p className="mb-0"
+                    dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
+                  ></p>
+                </div>
+              </div>
+            ))}
 
-            </div>
           </div>
-        </section>
+        </div>
+      </section >
 
-        <section className="section cs_py_30">
-          <Serviceappointemnt
-            subtitle2="Contact us"
-            title2="Book and Appointment"
-          ></Serviceappointemnt>
+      <section className="section cs_py_30">
+        <Serviceappointemnt
+          subtitle2="Contact us"
+          title2="Book and Appointment"
+        ></Serviceappointemnt>
 
-        </section>
+      </section>
 
-      </div >
+    </div >
     </>
   );
 };

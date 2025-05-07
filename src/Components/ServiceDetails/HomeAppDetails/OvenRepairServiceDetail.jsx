@@ -393,7 +393,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
         <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
-              <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai
+              <h3 className="cs_fs_30 mb-0">The Benefits Of Oven Service Dubai
               </h3>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
@@ -415,7 +415,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
                       </h4>
-                      <p className="small">Regular maintenance helps your appliances run smoothly and efficiently, delivering the best results every time.
+                      <p className="small">Regular maintenance helps your oven run smoothly and efficiently, delivering the best results every time.
                       </p>
                     </div>
                   </div>
@@ -427,7 +427,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                         <img src={`${import.meta.env.BASE_URL}/img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
-                      <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                      <p className="small">Energy efficient oven translate to monthly savings on utility bills, putting more money back in your pocket.</p>
                     </div>
                   </div>
                 </div>
@@ -450,8 +450,8 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}/img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h4>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Extending oven Lifespan</h4>
+                      <p className="small">Proper care and timely servicing can significantly increase life of your home oven, delaying the need for replacements.</p>
 
                     </div>
 
@@ -466,7 +466,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                       </h4>
-                      <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                      <p className="small">Knowing your oven are in top condition gives you confidence and removes the stress of unexpected failures.</p>
                     </div>
                   </div>
                 </div>
@@ -502,7 +502,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                   </div>
                   <div className="usptext">
                     <h3 className="">Confidence</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
+                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your oven runs smoothly and providing peace of mind.</p>
                   </div>
                 </div>
 
@@ -513,7 +513,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive.</p>
+                    <p>Choose a day and time for your oven repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive.</p>
                   </div>
                 </div>
 
@@ -532,7 +532,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are experts in appliance repair this is why most major brands trust us to handle their service and maintenance needs.</p>
+                    <p>We are experts in oven repair this is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -542,7 +542,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same in Dubai location.</p>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two oven at the same in Dubai location.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -551,7 +551,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our skilled appliance technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
+                    <p>Our skilled oven technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
                   </div>
                 </div>
               </div>
