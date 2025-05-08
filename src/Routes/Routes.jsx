@@ -973,6 +973,10 @@ export const router = createHashRouter([
         path: "/ac-services-in-old-town-dubai/",
         element: <AcRepairInOldTown />,
       },
+      {
+        path: "/ac-services-in-dubai-international-financial-centre/",
+        element: <AcRepairInDubaiInternationalFinancialCenter />,
+      },
     ],
   }
 ], {
