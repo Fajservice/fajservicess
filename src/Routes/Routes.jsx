@@ -4,7 +4,7 @@ import {
 import Main from "../Layout/Main";
 import Home from "../Pages/Home";
 import AboutPage from "../Pages/AboutPage";
-import AcServiceInDubai from "../Pages/AcPages/AcLocation/AcServiceInDubai";
+import AcServiceInDubai from "../Pages/AcPages/AcServiceInDubai";
 import AcMaintenanceDubai from "../Pages/AcMaintenanceDubai";
 import AcAnnualMaintenanceContract from "../Pages/AcAnnualMaintenanceContract";
 import AcRepairDubai from "../Pages/AcRepairDubai";
@@ -186,6 +186,15 @@ import AcRepairInDubaiMarina from "../Pages/AcPages/AcLocation/AcRepairInDubaiMa
 import AcRepairInJebelAliVillage from "../Pages/AcPages/AcLocation/AcRepairInJebelAliVillage";
 import AcRepairInMankhool from "../Pages/AcPages/AcLocation/AcRepairInMankhool";
 import AcRepairInTheViews from "../Pages/AcPages/AcLocation/AcRepairInTheViews";
+import AcRepairInPalmJumeirah from "../Pages/AcPages/AcLocation/AcRepairInPalmJumeirah";
+import AcRepairInJvc from "../Pages/AcPages/AcLocation/AcRepairInJvc";
+import AcRepairInAlMamzar from "../Pages/AcPages/AcLocation/AcRepairInAlMamzar";
+import AcRepairInAlMizhar from "../Pages/AcPages/AcLocation/AcRepairInAlMizhar";
+import AcRepairInDamacHills from "../Pages/AcPages/AcLocation/AcRepairInDamacHills";
+import AcRepairInDubaiHillsEstate from "../Pages/AcPages/AcLocation/AcRepairInDubaiHillsEstate";
+import AcRepairInProductionCity from "../Pages/AcPages/AcLocation/AcRepairInProductionCity";
+import AcRepairandServiceInEmiratesHills from "../Pages/AcPages/AcLocation/AcRepairandServiceInEmiratesHills";
+import AcRepairandServiceInTownSquare from "../Pages/AcPages/AcLocation/AcRepairandServiceInTownSquare";
 export const router = createHashRouter([
   {
     path: "/",
@@ -935,6 +944,50 @@ export const router = createHashRouter([
       {
         path: "/ac-services-in-the-views/",
         element: <AcRepairInTheViews />,
+      },
+      {
+        path: "/ac-services-in-palm-jumeirah/",
+        element: <AcRepairInPalmJumeirah />,
+      },
+      {
+        path: "/ac-services-in-jvc/",
+        element: <AcRepairInJvc />,
+      },
+      {
+        path: "/ac-repair-and-ac-service-in-al-mamzar/",
+        element: <AcRepairInAlMamzar />,
+      },
+      {
+        path: "/ac-repair-and-ac-service-in-al-mizhar/",
+        element: <AcRepairInAlMizhar />,
+      },
+      {
+        path: "/ac-repair-and-ac-service-in-al-mizhar/",
+        element: <AcRepairInAlMizhar />,
+      },
+      {
+        path: "/ac-repair-and-ac-service-in-damac-hills/",
+        element: <AcRepairInDamacHills />,
+      },
+      {
+        path: "/ac-repair-and-ac-service-in-dubai-hills-estate/",
+        element: <AcRepairInDubaiHillsEstate />,
+      },
+      {
+        path: "/ac-repair-and-ac-service-in-dubai-production-city/",
+        element: <AcRepairInProductionCity />,
+      },
+      {
+        path: "/ac-repair-and-ac-service-in-emirates-hills/",
+        element: <AcRepairandServiceInEmiratesHills />,
+      },
+      {
+        path: "/ac-repair-and-ac-service-in-town-square/",
+        element: <AcRepairandServiceInTownSquare />,
+      },
+      {
+        path: "/ac-services-in-old-town-dubai/",
+        element: <AcRepairInOldTown />,
       },
     ],
   }
