@@ -195,7 +195,7 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, bgImg }) => {
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/oven-Range-Repair-Nearby-You-oven.jpg`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/washing-machine-repair.webp`} alt="Post Image" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">

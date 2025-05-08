@@ -592,6 +592,7 @@ p a {
   padding: 41px 17px 20px
 }
 
+
 .icon-img-block {
   height: 65px;
   width: 65px;
@@ -610,14 +611,20 @@ p a {
   background-color: #fff;
 }
 
-.icon-img-block-icon {
+/* .icon-img-block.amc-icon-block {
+  height: 85px;
+  width: 85px;
+ 
+  border: none;
+  background-color: white;
+} */
+
+.icon-img-block-icon{
   max-height: inherit !important;
   object-fit: contain !important;
   width: auto !important;
   padding: 10px;
-  /*     
-  height: 35px;
-  width: 35px; */
+
 }
 
 
