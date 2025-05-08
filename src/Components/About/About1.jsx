@@ -24,7 +24,7 @@ const About1 = ({img1,img2,img3,expNumber,expYers,expTitle,expTitleYear,telLink,
                       <span className="cs_fs_36">{expTitle}</span>
                       <span className="cs_fs_50">{expTitleYear}</span>
                    </h2>
-                   <p>{expDescrip}</p>
+                   <p className="cs_fs_16">{expDescrip}</p>
                  </div>
                  <a href={telLink} className="cs_phone_call cs_heading_color">
                    <div className="cs_phone_icon cs_fs_20 cs_accent_color cs_center cs_radius_50">
