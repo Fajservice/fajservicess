@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/HomeAppData/HomeappRefrigeratorServicefaqs.json';
+import data from '../../../Data/HomeAppData/FAQs/HomeappRefrigeratorServicefaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
@@ -9,7 +9,8 @@ import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import Slider from "react-slick";
-import testimonial_data from '../../../Data/RefrigeratorTestimonials.json';
+import testimonial_data from '../../../Data/HomeAppData/Testmonials/RefrigeratorTestimonials.json';
+
 import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
@@ -108,11 +109,9 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Refrigerator Repair Near Me
-          <span>&nbsp;-&nbsp;</span>   Fridge Repair Service Dubai
+        <title>Refrigerator Repair Near Me Fridge Repair Service Dubai
         </title>
-        <meta name="description" content="Book refrigerator repair near you. Call now at 
-+971 50 746 4712 FAJ experts to get same day fridge repair & maintenance in Dubai. Freezer fix & service center."></meta>
+        <meta name="description" content="Book refrigerator repair near you. Call now at +971 50 746 4712 FAJ experts to get same day fridge repair & maintenance in Dubai. Freezer fix & service center."></meta>
       </HelmetProvider>
 
       <div className="cs_service_details">

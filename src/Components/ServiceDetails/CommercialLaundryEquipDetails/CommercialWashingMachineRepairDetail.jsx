@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/HomeAppData/FAQs/HobRepairFaqs.json';
+import data from '../../../Data/CommercialLaundryEquipData/FAQs/CommercialWashingMachineRepairFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
@@ -11,7 +11,7 @@ import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
-import testimonial_data from '../../../Data/HomeAppData/Testmonials/VacuumCleanerHomeappTestimonials.json';
+import testimonial_data from '../../../Data/CommercialLaundryEquipData/Testmonials/CommercialWashingMachineRepairTestimonial.json';
 import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
@@ -20,7 +20,7 @@ import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointme
 
 // import { Link } from "react-router-dom";
 
-const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
+const CommercialWashingMachineRepairDetail = ({ subtitle, title, bgImg }) => {
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "/img/testimonialbg.jpg"
@@ -57,6 +57,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
+
     responsive: [
       {
         breakpoint: 1399,
@@ -114,8 +115,8 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Best Appliances Service Dubai - Appliance Repair Near Me</title>
-        <meta name="description" content="We offer an appliances repair near you. Get expert in refrigerator, fridge, washing machine, dryer, dishwasher, gas stove, oven service near me Dubai"></meta>
+        <title>Commercial Washing Machine Repair & Maintenance Services</title>
+        <meta name="description" content="Looking for commercial washing machine repairs near me? Call FAJ at 04 3300002 for quick service & AMC on stacked, coin-operated & barrier washers."></meta>
       </HelmetProvider>
       <HeaderForm />
 
@@ -124,12 +125,10 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30"> Robot Vacuum Cleaner Repair and Service in Dubai, Sharjah, and Abu Dhabi</h2>
+            <h2 className="cs_fs_30">Choose Dishwasher Service Center for Same-Day Repairs in Dubai</h2>
             <p>
-
-              FAJ is a reliable company established in 2010. We provide all types of vacuum cleaners. At FAJ, we are committed to your right to repair your robotic vacuum cleaner by offering affordable repair and servicing options.
-              <br />We aim to help you avoid costly replacements and reduce waste. We provide comprehensive error fixing, repair, and servicing for robot vacuum cleaners, along with the necessary parts and products throughout Dubai, Abu Dhabi, and Sharjah. FAJ offers all your robot vacuum cleaner repair and maintenance needs under one roof.
-
+              Since 2010, FAJ has been a trusted name in dishwasher repair and service in Dubai and Sharjah. Our skilled professionals are ready to assist with any brand, using high-quality tools for effective service.
+              <br /> We prioritise repairs over replacements, helping you save money and avoid the hassle of buying a new dishwasher. Rely on our experienced experts for fast and reliable dishwasher maintenance in Dubai!
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -144,31 +143,32 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
         {/* Maintenance Contract */}
         <MaintenanceContract />
 
-        {/*heading 1 */}
 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Select Your Vacuum Cleaner Repair</h3>
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" /> */}
+                <h3 className="cs_fs_24 mb-1">Dishwasher Repair and Service Near You</h3>
 
                 <p className="mb-2">
-                  We understand that a vacuum cleaner breakdown is never convenient. Our expert technicians are here to provide efficient vacuum repair services. Roborock, Dreame Robot, Eufy Robot, Ecovacs Deebot, Roomba, Narwal, Dyson Robot Vacuum Cleaner Repair and Service Center in Dubai
+                  Has your dishwasher stopped working completely? Or is it running, but your dishes and cutlery aren't coming out as clean as they should?
+                  At FAJ, we understand that a machine breakdown is always inconvenient. That's why our team of experts is here to provide dishwasher repair and service appointments near you in Dubai and Sharjah.
 
                 </p>
 
 
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Vacuum Cleaner Technical Inspection Fee
-                </h3>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Dishwasher Technical Inspection Fee </h3>
                 <p className="mb-0">
-                  The technical inspection fee covers diagnosis, transportation, and reinstallation on Dubai premises.
+                  The technical inspection fee is AED 157, which covers diagnosis, transportation, and reinstallation in Dubai premises.
                   <br />Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.
 
                 </p>
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/Same-Day--vaccum-cleaner-Repair-&-Service.jpg`} alt="Post Image" />
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/dishwasher.webp`} alt="Post Image" />
 
               </div>
             </div>
@@ -179,48 +179,120 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
 
 
 
-        {/* Why is */}
+        {/* Why  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">Why is Vacuum Cleaner Maintenance Service Important in Dubai?</h3>
+            <h3 className="cs_fs_30">Why is Dishwasher Maintenance Service Important in Dubai?</h3>
+            <p>
+              Proper dishwasher maintenance is essential for extending its lifespan and enhancing efficiency, especially in Dubai’s climate. Here are the main benefits:
+            </p>
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Cooking-Range-Repair-Nearby-You.jpg`} alt="Post Image" />
               </div>
               <div className="col-md-6">
-                <p>
-                  Vacuum cleaner maintenance is crucial for its longevity and performance and to ensure your home is cleaned effectively and safely.
-
-                  <br /> Here's why vacuum cleaner maintenance is important:
-                </p>
                 <ul className="mb-0">
-                  <li><strong> Vacuum Cleaner Extended Lifespan: </strong> Regular maintenance, like cleaning filters and emptying the dustbin, can extend your vacuum's lifespan. </li>
-                  <li><strong> Vacuum Cleaner Improved Performance: </strong> Regularly cleaning filters and bags, and clearing the brush roll ensures the vacuum operates efficiently. </li>
-                  <li><strong> Vacuum Cleaner Reduced Repair Costs: </strong> Addressing minor issues through routine maintenance can prevent them from escalating into costly repairs. </li>
-                  <li><strong> Vacuum Cleaner Quieter Operation: </strong> A well-maintained vacuum runs more quietly, reducing noise disturbance.  </li>
-                  <li><strong> Vacuum Cleaner Saves Time and Effort: </strong>
-                    Maintenance saves time and effort on cleaning and repairs by preventing breakdowns and ensuring optimal performance. </li>
+                  <li> <strong> Dishwasher Extended Lifespan: </strong> Regular maintenance helps the dishwasher last longer, saving on replacement costs. </li>
+                  <li> <strong> Dishwasher Improved Efficiency: </strong> A well-maintained dishwasher uses less energy, leading to lower utility bills, which is essential in Dubai. </li>
+                  <li> <strong> Dishwasher Preventing Costly Repair: </strong> Catching minor issues early prevents them from escalating into expensive repairs. </li>
+                  <li> <strong> Dishwasher Preserving induction hob Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
+                  <li> <strong> Dishwasher Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious. </li>
+                  <li> <strong> Dishwasher Cost-Effective: </strong> Maintenance costs are lower than early replacements or significant repairs. Investing in dishwasher care ensures safety and efficiency and is a wise economic choice in Dubai. </li>
+                  <li> <strong> Dishwasher Energy Efficiency: </strong> Regularly maintaining your dishwasher can improve efficiency and save you money. </li>
+
                 </ul>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Problems  */}
+        {/* Common Problems */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="text-center">Common Vacuum Cleaners That May Require Maintenance   </h3>
+            <h3 className="text-center">The Most Common Problems with Dishwashers  </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
+                <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Battery Degradation</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Drainage Issues</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      Dishwasher machine water is pooling in the bottom of your dishwasher at the end of every cycle.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Cycle Won’t Start</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      When you press “start”, nothing happens. Your cycle doesn’t begin, and your dishwasher doesn’t seem to respond, despite the display panel appearing normal.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Water Leaks </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
 
-                      Over time, batteries naturally lose their capacity to hold a charge, which can affect the performance of your automatic vacuum cleaner.
+                      You have noticed water leaking or pooling around your dishwasher when it runs, causing damage to your flooring and the surrounding area.
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Excessive Suds                    </h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+
+                      Your dishwasher fills with excess suds when you use it. You may also notice suds remaining in the bottom of the dishwasher after the cycle is finished and excessive residue on your dishes.
+
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Door Not Closing</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+
+                      The dishwasher door isn’t closing properly, preventing the cycle from starting.
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Not Filling With Water</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+
+                      When you start the dishwasher cycle, the interior doesn’t fill with water, or only fills a small amount.
+
 
                     </p>
                   </div>
@@ -228,67 +300,15 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
+                <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Connectivity Issues</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Heating Issues</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
 
-                      To address connectivity issues, ensure that your Wi Fi network is functioning correctly and that the vacuum is within range. Try restarting both your router and the vacuum.
-                    </p>
-                  </div>
-                </div>
-              </div>
+                      Your dishwasher is not heating the water sufficiently, leading to cold washes and improperly cleaned dishes. Hot water is needed to properly activate the dishwasher detergent.
 
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Inspect and Clean Sensors</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-
-                      The next step in diagnosing your robot floor cleaner is to wipe the sensors, which are primarily located on the front and bottom of the device.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Navigation Mapping Errors</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Advanced robot vacuums, like any robotic vacuum, use AI algorithms to create navigation maps. Mapping errors may arise from sensor misalignment or interference.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Faulty Charging Dock</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      A faulty charging dock can also affect the charging process. Damage or malfunctions within the dock may prevent it from delivering a proper charge to the vacuum cleaner.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Loss of Suction</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      If your vacuum cleaner is losing suction power, the issue might be clogged filters, a full dustbin or bag, or a malfunction within the suction system.
 
                     </p>
                   </div>
@@ -297,32 +317,20 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
 
 
               <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
+                <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Resetting Your Robot Vacuum</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishes Not Drying</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      If your robot vacuum can't recognise obstacles, check to see if the sensors are clean. Dirty sensors may hinder their ability to detect obstacles properly.
+                      Your dishes come out of the dishwasher still wet, requiring manual drying after every load.
 
                     </p>
                   </div>
                 </div>
               </div>
 
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dirty Charging Contacts</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Accumulated dust and debris on the charging contacts can be a common issue. To maintain proper charging functionality, ensure you regularly clean the docking station.
 
-                    </p>
-                  </div>
-                </div>
-              </div>
 
             </div>
 
@@ -335,10 +343,10 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/*HERE ARE  */}
+        {/*HERE ARE THE SERVICES */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR ROBOTIC VACUUM CLEANERS  </h3>
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR THE DISHWASHER </h3>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -346,7 +354,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                   className="bordered-img blue-border"
                   width="100%"
                   height="350"
-                  src="https://www.youtube.com/embed/SLGpswtzn-w"
+                  src="https://www.youtube.com/embed/Cye_OFTAT3E"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -356,20 +364,24 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
 
               <div className="col-xl-6">
                 <p className="mb-0">
-                  In Dubai, vacuum cleaner services provide repair, maintenance, and servicing to extend the lifespan of your vacuum cleaner.
-                  These services can range from quick fixes to comprehensive overhauls, with some companies specializing specifically in robotic vacuum cleaners.
-                  Here’s a detailed overview of vacuum cleaner services offered in Dubai, UAE: Service Options:
+                  We specialise in all types and brands of dishwashers, including dishwasher machines.
                 </p>
 
-                {/* <p className='mb-0'><strong>Our services include:</strong></p> */}
+                <p className='mb-0'><strong>Our services include:</strong></p>
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                  <li> <strong> Vacuum Cleaner Repair: </strong> This service addresses issues such as motor problems, hose blockages, and faulty attachments. </li>
-                  <li> <strong> Vacuum Cleaner Servicing: </strong> Regular maintenance includes cleaning, inspecting parts, and ensuring optimal performance. </li>
-                  <li> <strong> Comprehensive Repair Packages: </strong> These packages offer a wide range of services, including diagnostics, cleaning, and potential part replacements. </li>
+                  <li> <strong> Dishwasher Installation: </strong>  Expert installation of various types and brands of dishwashers, ensuring optimal performance and efficiency. </li>
+                  <li> <strong> Dishwasher Diagnostics: </strong>  We conduct thorough fault finding to diagnose issues effectively. We also provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
 
-                  {/* <p className="mb-0">
-                    Regular maintenance is essential for the optimal performance, efficiency, and longevity of your hob. Feel free to reach out if you need specific services or have any questions!
-                  </p> */}
+                  <li> <strong> Dishwasher Repair Service: </strong>  Efficient repair services for all dishwasher machine components, ensuring quick resolution of any issues, such as leaks, electrical failures, and system malfunctions. </li>
+
+                  <li> <strong> Dishwasher Annual Maintenance Contract: </strong>  This contract outlines the terms and services covered for the dishwasher's annual maintenance. </li>
+
+
+
+                  <p className="mb-0">
+                    Regular maintenance is essential for optimal performance, efficiency, and longevity of your dishwasher.
+
+                  </p>
                 </ul>
 
 
@@ -380,11 +392,11 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section >
 
-        {/* The Benefits  */}
+        {/* The Benefits Of appliances Service Dubai */}
         <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
-              <h3 className="cs_fs_30 mb-0">The Benefits Of vacuum cleaner Service Dubai
+              <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai
               </h3>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
@@ -406,7 +418,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
                       </h4>
-                      <p className="small">Regular maintenance helps your vacuum cleaner run smoothly and efficiently, delivering the best results every time.
+                      <p className="small">Regular maintenance helps your appliances run smoothly and efficiently, delivering the best results every time.
                       </p>
                     </div>
                   </div>
@@ -418,7 +430,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                         <img src={`${import.meta.env.BASE_URL}/img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
-                      <p className="small">Energy efficient vacuum cleaner translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                      <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
                     </div>
                   </div>
                 </div>
@@ -441,8 +453,8 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}/img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Extending vacuum cleaner Lifespan</h4>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your home vacuum cleaner, delaying the need for replacements.</p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h4>
+                      <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
 
                     </div>
 
@@ -457,7 +469,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                       </h4>
-                      <p className="small">Knowing your vacuum cleaner are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                      <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
                     </div>
                   </div>
                 </div>
@@ -468,7 +480,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
 
 
 
-        {/* CHOOSE US */}
+        {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
           <div className="container container-md container-sm">
             <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2>
@@ -493,7 +505,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Confidence</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your vacuum cleaner runs smoothly and providing peace of mind.</p>
+                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
                   </div>
                 </div>
 
@@ -504,7 +516,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your vacuum cleaner repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive.</p>
+                    <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive.</p>
                   </div>
                 </div>
 
@@ -523,7 +535,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are experts in vacuum cleaner repair this is why most major brands trust us to handle their service and maintenance needs.</p>
+                    <p>We are experts in appliance repair this is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -533,7 +545,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two vacuum cleaner at the same in Dubai location.</p>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same in Dubai location.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -542,7 +554,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our skilled vacuum cleaner technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
+                    <p>Our skilled appliance technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
                   </div>
                 </div>
               </div>
@@ -555,59 +567,68 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* We specialise   */}
+        {/* We specialise  */}
         <section className="section cs_py_30 bg-light-gray ">
           <div className="container">
-            <h3>We specialise in vacuum cleaner services for the following brands</h3>
+            <h3>We specialise in dishwasher services for the following brands </h3>
             <div className="row">
-              {/* <div className="col-12">               
+              <div className="col-12">
 
                 <p className="mb-0">
                   <Link to="/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/">
-                    <b>Smeg Cooker Repair</b>
-                  </Link>: FAJ is here to support you when things go wrong. We understand that your Smeg appliances are essential for daily life, keeping your food fresh and meals cooked.
+                    <b>LG Dishwasher Repair</b>
+                  </Link>: FAJ is here to support you when things go wrong. We understand that your LG cooker or induction are essential for daily life, helping you prepare meals efficiently and on time.
                 </p>
 
                 <p className="mb-0">
                   <Link to="/siemens-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b>Siemens Cooker Repair</b>
-                  </Link>:If you are facing any problems with your Siemens oven, stove, refrigerator, washer dryer, or dishwasher, contact the FAJ team for same-day repair service in Dubai.
+                    <b>Samsung Dishwasher Repair</b>
+                  </Link>
+                  : If you are facing any problems with your Samsung dishwasher, contact the FAJ team for same-day repair service in Dubai.
+
                 </p>
 
                 <p className="mb-0">
                   <Link to="/la-germania-cooking-range-repair-in-dubai-la-germania-oven-repair-in-dubai-la-germania-cooker-repair-in-dubai-la-germania-cooker-oven-maintenance-service-in-dubai-refrigerator-repair-in-dubai-fridge-r/">
-                    <b> La Germania Stove and Cooker Repair</b>
-                  </Link>: When you need La Germania oven repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE.
+                    <b> Electrolux Dishwasher Repair</b>
+                  </Link>:  When you need Electrolux dishwasher repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE.
                 </p>
 
                 <p className="mb-0">
                   <Link to="/bosch-home-appliances-repair/">
-                    <b> Bosch Stove Repair</b>
-                  </Link>: If you are looking for the best Bosch appliance repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch oven repair and are recognized as the leading Bosch appliance service provider in the area.
+                    <b> Bosch Dishwasher Repair</b>
+                  </Link>: If you are looking for the best Bosch dishwasher repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch home appliance repair and are recognized as the leading Bosch dishwasher service provider in the area.
+
                 </p>
+
 
                 <p className="mb-0">
                   <Link to="/viking-appliances-service/">
-                    <b> Viking Range and Oven Repair</b>
-                  </Link>: Your Viking appliances may require repair or maintenance and we can help. For high-quality Viking stove and oven repair in Dubai, rely on FAJ.
+                    <b> Viking Dishwasher Repair</b>
+                  </Link>: Your Viking dishwasher may require repair or maintenance and we can help. For high-quality Viking dishwashers in Dubai, rely on FAJ.
+
                 </p>
 
                 <p className="mb-0">
                   <Link to="/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b> Daewoo Cooking Range Repair</b>
-                  </Link>: We provide expert services for Daewoo appliance repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo cooking range, refrigerator, washing machine, dryer and more.
+                    <b> Daewoo Dishwasher Repair</b>
+                  </Link>: We provide expert services for Daewoo dishwasher repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo refrigerator, dishwasher, dryer and more.
+
                 </p>
 
                 <p className="mb-0">
                   <Link to="/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub/">
-                    <b> Neff Gas Stove Repair</b>
-                  </Link>: Are you concerned about your Neff appliance malfunctioning and searching for a reliable Neff Gas Stove repair company in Dubai? Contact us for same-day service!
+                    <b> Siemens Dishwasher Repair</b>
+                  </Link>: Are you concerned about your Siemens dishwasher malfunctioning and searching for a reliable Siemens dishwasher repair company in Dubai? Contact us for same-day service!
+
+
                 </p>
 
                 <p className="mb-0">
                   <Link to="/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b> Teka Gas Stove Repair</b>
-                  </Link>: If you're searching for the best Teka appliance repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka gas stove, refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
+                    <b> Teka Dishwasher Repair</b>
+                  </Link>: If you're searching for the best Teka dishwasher repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka dishwashers, refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
+
                 </p>
 
 
@@ -785,49 +806,8 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                   <a href="#/unimac-washing-machine-repair-in-dubai-unimac-dryer-repair-in-dubai-unimac-washer-dryer-repair-in-dubai-unimac-maintenance-in-dubai-unimac-laundry-service-in-dubai-unimac-dubai/">Unimac</a>
                 </p>
 
-              </div> */}
-              <div className="col-sm-4">
-                <ul>
-                  <li>Miele Vacuum Repairs</li>
-                  <li>Braun Vacuum Cleaner Fix</li>
-                  <li>EZVIZ Vacuum Repair Shop</li>
-                  <li>Green Lion Repair Near You</li>
-                  <li>Polaris Vacuum Maintenance</li>
-                  <li>irobot Vacuum Cleaner Repairs</li>
-                  <li>Midea Vacuum Cleaner Repairs</li>
-                  <li>Philips Vacuum Cleaner Service</li>
-                  <li>Switchbot Repair Shop Vacuum</li>
-                  <li>Kenwood Vacuum Cleaner Repairs</li>
-                  <li>Ecovacs Deebot Vacuum Cleaner Repair and Cleaning</li>               
-                </ul>
               </div>
-              <div className="col-sm-4">
-                <ul>
-                  <li>Milagrow Anker Repair and Cleaning</li>
-                  <li>Eufy Vacuum Cleaner Repair and Fix</li>
-                  <li>Eureka Vacuum Repair and Servicing</li>
-                  <li>Versuni Vacuum Cleaner Maintenance</li>
-                  <li>Philips Vacuum Cleaner Repair Service</li>
-                  <li>Roborock Vacuum Cleaner Repair Shop</li>
-                  <li>Narwal Vacuum Cleaner Repair Service</li>
-                  <li>Black & Decker Vacuum Cleaner Repair</li>
-                  <li>Hitachi Vacuum Cleaner Service Center</li>
-                  <li>Dreame Vacuum Cleaner Repair Near Me</li>
-                  <li>iRobot Roomba Combo Vacuum Cleaner Repair and Service</li>
-                </ul>
-              </div>
-              <div className="col-sm-4">
-                <ul>
-                <li>Ecovacs Deebot Vacuum Cleaner Repairing</li>
-                  <li>Karcher Vacuum Cleaner Repair and Service</li>
-                  <li>Dyson Vacuum Cleaner Repair and Cleaning</li>
-                  <li>Hitachi Vacuum Cleaner Repair and Cleaning</li>
-                  <li>Roborock Vacuum Cleaner Repair and Cleaning</li>
-                  <li>Deebot Vacuum Cleaner Repair and Maintenance</li>
-                  <li>iRobot Roomba Vacuum Cleaner Repair and Service</li>
-                  <li>Xiaomi Robot Vacuum Cleaner Repair and Servicing</li>              
-                </ul>
-              </div>
+
             </div>
 
             <div id="get-quote" className=" mt-3">
@@ -966,5 +946,5 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
   );
 };
 
-export default VacuumCleanerRepairDetail;
+export default CommercialWashingMachineRepairDetail;
 

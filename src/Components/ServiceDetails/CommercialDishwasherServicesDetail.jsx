@@ -1,26 +1,24 @@
-
-
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/HomeAppData/FAQs/HobRepairFaqs.json';
+import data from '../../Data/commercialcoffeemachinesrepairFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
-import Serviceappointemnt from '../../Contact/Serviceappointemnt';
-import CallNowButton from '../../Buttons/CallNowButton';
-import GetQuoteButton from "../../Buttons/GetQuoteButton";
-import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
-import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
+import FAJACPrice from '../Miscellaneous/FAJACPrice';
+import Serviceappointemnt from '../Contact/Serviceappointemnt';
+import CallNowButton from '../Buttons/CallNowButton';
+import GetQuoteButton from "../Buttons/GetQuoteButton";
+import WhatsappIconButton from "../Buttons/WhatsappIconButton";
+import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
-import testimonial_data from '../../../Data/HomeAppData/Testmonials/VacuumCleanerHomeappTestimonials.json';
-import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
-import loadBackgroudImages from "../../Common/loadBackgroudImages";
+import testimonial_data from '../../Data/CommercialCoffeeMAchineReapairTestimonials.json';
+import brandsLogo_data from '../../Data/coffeemachineServicebrand.json';
+import loadBackgroudImages from "../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
-import HeaderForm from "../../Headeform/HeaderForm";
-import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
+import HeaderForm from "../Headeform/HeaderForm";
 
 // import { Link } from "react-router-dom";
 
-const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
+const CommercialDishwasherServicesDetail = ({ subtitle, title, bgImg }) => {
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "/img/testimonialbg.jpg"
@@ -57,6 +55,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
+
     responsive: [
       {
         breakpoint: 1399,
@@ -124,12 +123,11 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30"> Robot Vacuum Cleaner Repair and Service in Dubai, Sharjah, and Abu Dhabi</h2>
+            <h2 className="cs_fs_30">Professional Coffee Machine Repairs in Dubai, Sharjah, and Abu Dhabi</h2>
             <p>
-
-              FAJ is a reliable company established in 2010. We provide all types of vacuum cleaners. At FAJ, we are committed to your right to repair your robotic vacuum cleaner by offering affordable repair and servicing options.
-              <br />We aim to help you avoid costly replacements and reduce waste. We provide comprehensive error fixing, repair, and servicing for robot vacuum cleaners, along with the necessary parts and products throughout Dubai, Abu Dhabi, and Sharjah. FAJ offers all your robot vacuum cleaner repair and maintenance needs under one roof.
-
+              FAJ Company, established in 2010, offers international standard services for the installation and repair of commercial appliances and coffee machines.
+              We provide planned maintenance contracts (AMC) for coffee machines, espresso machines, and vending machines used in cafes, restaurants, and catering services.
+              <br /> At Commercial Coffee Machine Repairs, we are committed to helping you achieve your ideal cup of coffee efficiently. Whether installing, repairing, or refurbishing machines, we prioritise quality and professionalism.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -144,85 +142,189 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
         {/* Maintenance Contract */}
         <MaintenanceContract />
 
-        {/*heading 1 */}
+        {/* Coffee Machine Repair & Maintenance  */}
 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Select Your Vacuum Cleaner Repair</h3>
+                <h3 className="cs_fs_24 mb-1">Coffee Machine Repair & Maintenance </h3>
 
                 <p className="mb-2">
-                  We understand that a vacuum cleaner breakdown is never convenient. Our expert technicians are here to provide efficient vacuum repair services. Roborock, Dreame Robot, Eufy Robot, Ecovacs Deebot, Roomba, Narwal, Dyson Robot Vacuum Cleaner Repair and Service Center in Dubai
+                  If you're searching for the best coffee machine repairs in Dubai for both businesses and residents, you've come to the right place.
+                  <br />Our knowledgeable and dedicated team can handle any coffee machine issues you may encounter.
+                  With experience across various brands and models, we know how to get your machine running smoothly again.
+                  <br />
+                  So why wait? Give us a call, and we'll have your coffee machine back on your kitchen counter in no time, ready to be part of your daily routine.
 
                 </p>
 
 
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Vacuum Cleaner Technical Inspection Fee
-                </h3>
+
+                <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Coffee Machine Servicing and AMC Contract </h3>
                 <p className="mb-0">
-                  The technical inspection fee covers diagnosis, transportation, and reinstallation on Dubai premises.
-                  <br />Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.
+                  Whatever you need, we’ve got you covered. A scheduled commercial coffee machine de-casing, cleaning service, or maintenance contract for your professional coffee machine is essential for ensuring smooth operation throughout the year, including necessary cleaning and descaling.
+                  <br />
+                  Regular maintenance is vital for any coffee machine, whether it’s in an office, café, or restaurant. We’re here to make your life easier.
 
                 </p>
+
+
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/Same-Day--vaccum-cleaner-Repair-&-Service.jpg`} alt="Post Image" />
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/What-is-the-Importance-of-Coffee-Machine-Maintenance-in-Dubai.jpg`} alt="Post Image" />
 
               </div>
             </div>
 
-            <AppliancesAppointmentCol></AppliancesAppointmentCol>
+            <div className="appointment-col border-small-top pt-3">
+
+              <p>
+                If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.
+                <br />Timing: Mon-Sat 8:00 AM to 6:00 PM - Sunday 12:00 PM to 6:00 PM. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.
+
+              </p>
+
+              <p className="appointment-col border-small-top pt-3" >The <a href="https://www.google.com/maps/dir//Warehouse+No+-+S-02+Gate+35+Street+18b+-+Al+Quoz+-+Al+Quoz+Industrial+Area+4+-+Dubai+-+United+Arab+Emirates/@25.1105958,55.1452595,22158m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x3e5f699a600aceeb:0xa6121b25d557aa94!2m2!1d55.227661!2d25.1106186?entry=ttu&g_ep=EgoyMDI1MDQyOS4wIKXMDSoASAFQAw%3D%3D" > FAJ workshop</a> is conveniently located near both Al Khail Road and Sheikh Zayed Road. When you drop off your coffee machine at the workshop, you will receive a <strong>discount</strong> on the technical inspection fee and other services.
+              </p>
+
+              <div id="get-quote" className=" mt-3">
+                <div className="container d-flex justify-content-center align-items-center gap-3">
+                  <WhatsappIconButton />
+                  <CallNowButton />
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 
 
-
-        {/* Why is */}
+        {/* WWhat is the Importance of Coffee Machine Maintenance in Dubai? */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">Why is Vacuum Cleaner Maintenance Service Important in Dubai?</h3>
+            <h3 className="cs_fs_30">What is the Importance of Coffee Machine Maintenance in Dubai?</h3>
+            <p className="">
+              Regular maintenance of coffee machines is crucial for businesses in Dubai, where quality coffee matters.
+              It ensures consistent beverage quality, extends machine lifespan, and reduces downtime and repair costs, ultimately enhancing customer satisfaction.
+
+            </p>
+
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Cooking-Range-Repair-Nearby-You.jpg`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/coffee-machine-service.jpg`} alt="Post Image" />
               </div>
               <div className="col-md-6">
-                <p>
-                  Vacuum cleaner maintenance is crucial for its longevity and performance and to ensure your home is cleaned effectively and safely.
-
-                  <br /> Here's why vacuum cleaner maintenance is important:
-                </p>
                 <ul className="mb-0">
-                  <li><strong> Vacuum Cleaner Extended Lifespan: </strong> Regular maintenance, like cleaning filters and emptying the dustbin, can extend your vacuum's lifespan. </li>
-                  <li><strong> Vacuum Cleaner Improved Performance: </strong> Regularly cleaning filters and bags, and clearing the brush roll ensures the vacuum operates efficiently. </li>
-                  <li><strong> Vacuum Cleaner Reduced Repair Costs: </strong> Addressing minor issues through routine maintenance can prevent them from escalating into costly repairs. </li>
-                  <li><strong> Vacuum Cleaner Quieter Operation: </strong> A well-maintained vacuum runs more quietly, reducing noise disturbance.  </li>
-                  <li><strong> Vacuum Cleaner Saves Time and Effort: </strong>
-                    Maintenance saves time and effort on cleaning and repairs by preventing breakdowns and ensuring optimal performance. </li>
+
+                  <li> <strong> Importance in Commercial Kitchens: </strong> In the UAE, reliable maintenance of coffee machines is important for providing high-quality beverage service.</li>
+                  <li> <strong> Professional Service for Commercial Use: </strong> Commercial coffee machines require specialised maintenance to ensure safety and performance.</li>
+                  <li> <strong> Preventing Breakdowns: </strong> Routine maintenance, including cleaning and descaling, minimises the likelihood of costly repairs and downtime, which can negatively impact revenue.</li>
+                  <li> <strong> Extending Lifespan: </strong> Regular maintenance helps prolong the life of the machines, leading to savings on replacement costs.</li>
+                  <li> <strong> Lowering Maintenance Costs: </strong> Addressing minor issues early can prevent larger, more expensive repairs.</li>
+                  <li> <strong> Maintaining Efficiency: </strong> Consistent upkeep ensures optimal performance and reduces energy consumption, making operations more cost-effective. </li>
+                  <li> <strong> Restaurant Use: </strong> Regular maintenance boosts coffee quality and extends machine lifespan while ensuring safety and reliability for businesses.</li>
+
+
+
+
+
+
                 </ul>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Problems  */}
+
+
+        {/* The Most Common Problems with Espresso Machines */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="text-center">Common Vacuum Cleaners That May Require Maintenance   </h3>
+            <h3 className="text-center">The Most Common Problems with Espresso Machines   </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
+                <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Battery Degradation</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Filter Coffee Machine Problems</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">With filter coffee machines, a key factor to monitor is the heating plate. After brewing your pot of coffee, it’s common to leave it on the heating plate to keep it warm.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Capsule Coffee Machine Problems</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0"> Capsule coffee machines are simple and reliable, but don't last forever, especially lesser-known brands. A key complication is programming cup sizes.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1"> Safety Valve Releasing Steam </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
+                      Moka pot users may experience the safety valve on the lower chamber releasing steam during the brewing process. This issue can occur for several reasons.</p>
+                  </div>
+                </div>
+              </div>
 
-                      Over time, batteries naturally lose their capacity to hold a charge, which can affect the performance of your automatic vacuum cleaner.
 
-                    </p>
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Bitter or Burnt Coffee</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      If your coffee tastes bitter or burnt, it can be quite frustrating. This usually happens for two main reasons.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Grounds in the Cup</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      Discovering coffee grounds in your cup can be an unpleasant surprise when using a moka pot. This issue can arise from two primary causes.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Espresso Machine Issues</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      Espresso machines can experience various problems that affect their functionality and the quality of the coffee produced.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Vending Machine Problems</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      Coffee vending machines, despite their simple design, tend to have a high number of issues. These machines are prone to several product-related faults.</p>
                   </div>
                 </div>
               </div>
@@ -230,100 +332,13 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Connectivity Issues</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Automatic Coffee Machine Problems</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-
-                      To address connectivity issues, ensure that your Wi Fi network is functioning correctly and that the vacuum is within range. Try restarting both your router and the vacuum.
-                    </p>
+                    <p className="p-2 mb-0">Automatic coffee machines utilise whole coffee beans, exposing them to the oils in the beans. This is a concern that many other types of coffee machines don't face.</p>
                   </div>
                 </div>
               </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Inspect and Clean Sensors</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-
-                      The next step in diagnosing your robot floor cleaner is to wipe the sensors, which are primarily located on the front and bottom of the device.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Navigation Mapping Errors</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Advanced robot vacuums, like any robotic vacuum, use AI algorithms to create navigation maps. Mapping errors may arise from sensor misalignment or interference.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Faulty Charging Dock</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      A faulty charging dock can also affect the charging process. Damage or malfunctions within the dock may prevent it from delivering a proper charge to the vacuum cleaner.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Loss of Suction</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      If your vacuum cleaner is losing suction power, the issue might be clogged filters, a full dustbin or bag, or a malfunction within the suction system.
-
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Resetting Your Robot Vacuum</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      If your robot vacuum can't recognise obstacles, check to see if the sensors are clean. Dirty sensors may hinder their ability to detect obstacles properly.
-
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dirty Charging Contacts</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Accumulated dust and debris on the charging contacts can be a common issue. To maintain proper charging functionality, ensure you regularly clean the docking station.
-
-                    </p>
-                  </div>
-                </div>
-              </div>
-
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
@@ -335,10 +350,10 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/*HERE ARE  */}
+        {/* HERE ARE THE SERVICES WE OFFER FOR COFFEE AND ESPRESSO MACHINES  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR ROBOTIC VACUUM CLEANERS  </h3>
+            <h3 className="cs_fs_30"> HERE ARE THE SERVICES WE OFFER FOR COFFEE AND ESPRESSO MACHINES </h3>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -346,8 +361,8 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                   className="bordered-img blue-border"
                   width="100%"
                   height="350"
-                  src="https://www.youtube.com/embed/SLGpswtzn-w"
-                  title="YouTube video player"
+                  src="https://www.youtube.com/embed/IjckdZLs_Qg"
+                  title="FAJ Videos"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
@@ -355,36 +370,30 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-xl-6">
-                <p className="mb-0">
-                  In Dubai, vacuum cleaner services provide repair, maintenance, and servicing to extend the lifespan of your vacuum cleaner.
-                  These services can range from quick fixes to comprehensive overhauls, with some companies specializing specifically in robotic vacuum cleaners.
-                  Here’s a detailed overview of vacuum cleaner services offered in Dubai, UAE: Service Options:
+                <p className='mb-0'>We specialise in all types and brands of coffee makers and espresso machines, including:
                 </p>
-
-                {/* <p className='mb-0'><strong>Our services include:</strong></p> */}
+                {/* <p className='mb-0'><strong>Our services include: </strong></p> */}
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                  <li> <strong> Vacuum Cleaner Repair: </strong> This service addresses issues such as motor problems, hose blockages, and faulty attachments. </li>
-                  <li> <strong> Vacuum Cleaner Servicing: </strong> Regular maintenance includes cleaning, inspecting parts, and ensuring optimal performance. </li>
-                  <li> <strong> Comprehensive Repair Packages: </strong> These packages offer a wide range of services, including diagnostics, cleaning, and potential part replacements. </li>
+                  <li> <strong> Installation: </strong> We provide professional installation for various coffee and espresso machines, ensuring optimal performance. </li>
+                  <li> <strong> Cleaning and Maintenance: </strong> Proper maintenance of your espresso or coffee machine is essential for brewing great coffee and ensuring a long service life. </li>
+                  <li> <strong> Descaling Espresso Machine: </strong> Descaling your espresso machine or coffee machine when prompted is essential. Removing limescale is necessary to maintain the machine's performance. </li>
+                  <li> <strong> Coffee Equipment: </strong> We offer coffee grinders, descalers, coffee brewers, and coffee roaster services.  </li>
+                  <li> <strong> Repair Service: </strong> We provide efficient repair services for all coffee machine components, quickly resolving leaks, errors, electrical failures, and malfunctions. </li>
+                  <li> <strong> Annual Maintenance Contract: </strong> This contract details the annual maintenance terms for your espresso machine. Regular maintenance is essential for optimal performance and longevity.
 
-                  {/* <p className="mb-0">
-                    Regular maintenance is essential for the optimal performance, efficiency, and longevity of your hob. Feel free to reach out if you need specific services or have any questions!
-                  </p> */}
+                  </li>
                 </ul>
-
-
               </div>
-
 
             </div>
           </div>
         </section >
 
-        {/* The Benefits  */}
-        <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
+        {/* The Benefits Of appliances Service Dubai */}
+        <section className="section cs_py_30 appliances-benifit-sec bg-light-gray ">
           <div className="container">
             <div className="row justify-content-center">
-              <h3 className="cs_fs_30 mb-0">The Benefits Of vacuum cleaner Service Dubai
+              <h3 className="cs_fs_30 mb-0">The Benefits Of Coffee Machines Service Dubai
               </h3>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
@@ -406,7 +415,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
                       </h4>
-                      <p className="small">Regular maintenance helps your vacuum cleaner run smoothly and efficiently, delivering the best results every time.
+                      <p className="small">Regular maintenance helps your coffee machines run smoothly and efficiently, delivering the best results every time.
                       </p>
                     </div>
                   </div>
@@ -418,7 +427,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                         <img src={`${import.meta.env.BASE_URL}/img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
-                      <p className="small">Energy efficient vacuum cleaner translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                      <p className="small">Energy efficient coffee machine translate to monthly savings on utility bills, putting more money back in your pocket.</p>
                     </div>
                   </div>
                 </div>
@@ -441,8 +450,8 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}/img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Extending vacuum cleaner Lifespan</h4>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your home vacuum cleaner, delaying the need for replacements.</p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Coffee Machines Lifespan</h4>
+                      <p className="small">Proper care and timely servicing can significantly increase life of your home coffee machine, delaying the need for replacements.</p>
 
                     </div>
 
@@ -457,7 +466,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                       </h4>
-                      <p className="small">Knowing your vacuum cleaner are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                      <p className="small">Knowing your coffee machines are in top condition gives you confidence and removes the stress of unexpected failures.</p>
                     </div>
                   </div>
                 </div>
@@ -466,9 +475,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-
-
-        {/* CHOOSE US */}
+        {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
           <div className="container container-md container-sm">
             <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2>
@@ -493,7 +500,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Confidence</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your vacuum cleaner runs smoothly and providing peace of mind.</p>
+                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your coffee machine runs smoothly and providing peace of mind.</p>
                   </div>
                 </div>
 
@@ -504,7 +511,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your vacuum cleaner repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive.</p>
+                    <p>Choose a day and time for your coffee machine repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive.</p>
                   </div>
                 </div>
 
@@ -512,7 +519,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}/img/fajteam-1.jpg`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}/img/Coffee-Machine-Repair-&-Maintenance.jpg`} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
@@ -523,7 +530,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are experts in vacuum cleaner repair this is why most major brands trust us to handle their service and maintenance needs.</p>
+                    <p>We are experts in coffee machine repair this is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -533,7 +540,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two vacuum cleaner at the same in Dubai location.</p>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two coffee machine at the same in Dubai location.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -542,290 +549,72 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our skilled vacuum cleaner technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
+                    <p>Our skilled coffee machine technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
                   </div>
                 </div>
               </div>
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}/img/fajteam.jpg`} alt="FAJ icon service" />
+                <img className="blue-border-2" src={`${import.meta.env.BASE_URL}/img/Coffee-Machine-Repair-&-Maintenance.jpg`} alt="FAJ icon service" />
               </div>
             </div>
           </div>
         </section>
 
-        {/* We specialise   */}
-        <section className="section cs_py_30 bg-light-gray ">
+        {/* CHOOSE COMMERCIAL ESPRESSO AND COFFEE MACHINE REPAIR SERVICE */}
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3>We specialise in vacuum cleaner services for the following brands</h3>
-            <div className="row">
-              {/* <div className="col-12">               
-
-                <p className="mb-0">
-                  <Link to="/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/">
-                    <b>Smeg Cooker Repair</b>
-                  </Link>: FAJ is here to support you when things go wrong. We understand that your Smeg appliances are essential for daily life, keeping your food fresh and meals cooked.
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/siemens-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b>Siemens Cooker Repair</b>
-                  </Link>:If you are facing any problems with your Siemens oven, stove, refrigerator, washer dryer, or dishwasher, contact the FAJ team for same-day repair service in Dubai.
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/la-germania-cooking-range-repair-in-dubai-la-germania-oven-repair-in-dubai-la-germania-cooker-repair-in-dubai-la-germania-cooker-oven-maintenance-service-in-dubai-refrigerator-repair-in-dubai-fridge-r/">
-                    <b> La Germania Stove and Cooker Repair</b>
-                  </Link>: When you need La Germania oven repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE.
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/bosch-home-appliances-repair/">
-                    <b> Bosch Stove Repair</b>
-                  </Link>: If you are looking for the best Bosch appliance repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch oven repair and are recognized as the leading Bosch appliance service provider in the area.
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/viking-appliances-service/">
-                    <b> Viking Range and Oven Repair</b>
-                  </Link>: Your Viking appliances may require repair or maintenance and we can help. For high-quality Viking stove and oven repair in Dubai, rely on FAJ.
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b> Daewoo Cooking Range Repair</b>
-                  </Link>: We provide expert services for Daewoo appliance repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo cooking range, refrigerator, washing machine, dryer and more.
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub/">
-                    <b> Neff Gas Stove Repair</b>
-                  </Link>: Are you concerned about your Neff appliance malfunctioning and searching for a reliable Neff Gas Stove repair company in Dubai? Contact us for same-day service!
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b> Teka Gas Stove Repair</b>
-                  </Link>: If you're searching for the best Teka appliance repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka gas stove, refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
-                </p>
-
-
-                <br />
-
-                <p><a href="#/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/">AEG</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/ariston-fridge-repair-in-dubai-ariston-washing-machine-repair-in-dubai-ariston-cooker-repair-in-dubai-ariston-oven-repair-in-dubai-ariston-appliances-maintenance-in-dubai-ariston-refrigerator-fix-repa/">Ariston</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/beko-fridge-repair-in-dubai-beko-washing-machine-repair-in-dubai-beko-cooker-repair-in-dubai-beko-oven-repair-in-dubai-beko-appliances-maintenance-in-dubai-beko-refrigerator-fix-repairs-service-in-dub/">Beko</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/blomberg-fridge-repair-in-dubai-blomberg-washing-machine-repair-in-dubai-blomberg-cooker-repair-in-dubai-blomberg-oven-repair-in-dubai-blomberg-appliances-maintenance-in-dubai-blomberg-refrigerator-fi/">Blomberg</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/electrolux-home-appliances-repair/">Electrolux</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/faber-appliances-service/">Faber</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/fagor-fridge-repair-in-dubai-fagor-washing-machine-repair-in-dubai-fagor-cooker-repair-in-dubai-fagor-oven-repair-in-dubai-fagor-appliances-maintenance-in-dubai-fagor-refrigerator-fix-repairs-service/">Fagor</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/fisher-and-paykel-fridge-repair-in-dubai-fisher-and-paykel-washing-machine-repair-in-dubai-fisher-and-paykel-cooker-repair-in-dubai-fisher-and-paykel-oven-repair-in-dubai-fisher-and-paykel-appliances/">Fisher and Paykel</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/foster-appliances-services-foster-dishwasher-repair-service-in-dubai-foster-cooking-range-repair-service-in-dubai-foster-cooktop-repair-service-in-dubai-foster-oven-repair-in-dubai-foster-rangetop-r/">Foster</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/gaggenau-fridge-repair-in-dubai-gaggenau-washing-machine-repair-in-dubai-gaggenau-cooker-repair-in-dubai-gaggenau-oven-repair-in-dubai-gaggenau-appliances-maintenance-in-dubai-gaggenau-refrigerator-fi/">Gaggenau</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/hitachi-fridge-repair-in-dubai-hitachi-washing-machine-repair-in-dubai-hitachi-cooker-repair-in-dubai-hitachi-oven-repair-in-dubai-hitachi-appliances-maintenance-in-dubai-hitachi-refrigerator-fix-repa/">Hitachi</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/hoover-fridge-repair-in-dubai-hoover-washing-machine-repair-in-dubai-hoover-cooker-repair-in-dubai-hoover-oven-repair-in-dubai-hoover-appliances-maintenance-in-dubai-hoover-refrigerator-fix-repairs-se/">Hoover</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-oven-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa/">Indesit </a>
-                  |<a href="#/lg-fridge-repair-in-dubai-lg-washing-machine-repair-in-dubai-lg-cooker-repair-in-dubai-lg-oven-repair-in-dubai-lg-appliances-maintenance-in-dubai-lg-refrigerator-fix-repairs-service-in-dubai-lg-dishwa/"> LG</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/sub-zero-fridge-repair-in-dubai-sub-zero-washing-machine-repair-in-dubai-sub-zero-cooker-repair-in-dubai-sub-zero-oven-repair-in-dubai-sub-zero-appliances-maintenance-in-dubai-sub-zero-refrigerator-fi/">Sub Zero</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/terim-appliances-service/">Terim</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/whirlpool-fridge-repair-in-dubai-whirlpool-washing-machine-repair-in-dubai-whirlpool-cooker-repair-in-dubai-whirlpool-oven-repair-in-dubai-whirlpool-appliances-maintenance-in-dubai-whirlpool-refrigera/">Whirlpool</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/zanussi-fridge-repair-in-dubai-zanussi-washing-machine-repair-in-dubai-zanussi-cooker-repair-in-dubai-zanussi-oven-repair-in-dubai-zanussi-appliances-maintenance-in-dubai-zanussi-refrigerator-fix-repa/">Zanussi</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="https://fajservice.ae/de-dietrich-appliance-repair-service/">De Dietrich</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/baumatic-appliances/">Baumatic</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/bertazzoni-refrigerator-repair-in-dubai-bertazzoni-appliances-service-bertazzoni-fridge-repair-in-dubai-bertazzoni-washing-machine-washer-bertazzoni-dryer-repair-in-dubai-bertazzoni-dishwasher-cooker/">Bertazzoni</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/bompani-fridge-repair-in-dubai-bompani-washing-machine-repair-in-dubai-bompani-cooker-repair-in-dubai-bompani-oven-repair-in-dubai-bompani-appliances-maintenance-in-dubai-bompani-refrigerator-fix-repa/">Bompani</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/boston-refrigerator-repair-in-dubai-boston-appliances-service-boston-fridge-repair-in-dubai-boston-washing-machine-washer-boston-dryer-repair-in-dubai-boston-dishwasher-cooker/">Boston</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/brandt-fridge-repair-in-dubai-brandt-washing-machine-repair-in-dubai-brandt-cooker-repair-in-dubai-brandt-oven-repair-in-dubai-brandt-appliances-maintenance-in-dubai-brandt-refrigerator-fix-repairs-se/">Brandt</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/gibson-fridge-repair-in-dubai-gibson-washing-machine-repair-in-dubai-gibson-cooker-repair-in-dubai-gibson-oven-repair-in-dubai-gibson-appliances-maintenance-in-dubai-gibson-refrigerator-fix-repairs-se/">Gibson</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/gorenje-fridge-repair-in-dubai-gorenje-washing-machine-repair-in-dubai-gorenje-cooker-repair-in-dubai-gorenje-oven-repair-in-dubai-gorenje-appliances-maintenance-in-dubai-gorenje-refrigerator-fix-repa/">Gorenje</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/hisense-fridge-repair-in-dubai-hisense-washing-machine-repair-in-dubai-hisense-cooker-repair-in-dubai-hisense-oven-repair-in-dubai-hisense-appliances-maintenance-in-dubai-hisense-refrigerator-fix-repa/">Hisense</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/kelvinator-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Kelvinator</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/kenmore-appliances-service/">Kenmore</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/panasonic-fridge-repair-in-dubai-panasonic-washing-machine-repair-in-dubai-panasonic-cooker-repair-in-dubai-panasonic-oven-repair-in-dubai-panasonic-appliances-maintenance-in-dubai-panasonic-refrigera/">Panasonic</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/sanyo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Sanyo</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/sears-home-appliances-installation-maintenance-repair-fix-service-in-dubai/">Sears</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/wolf-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Wolf</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/haier-fridge-repair-in-dubai-haier-washing-machine-repair-in-dubai-haier-cooker-repair-in-dubai-haier-oven-repair-in-dubai-haier-appliances-maintenance-in-dubai-haier-refrigerator-fix-repairs-service/">Haier</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/elica-appliances-service/">Elica</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/marvel-fridge-repair-in-dubai-marvel-washing-machine-repair-in-dubai-marvel-cooker-repair-in-dubai-marvel-oven-repair-in-dubai-marvel-appliances-maintenance-in-dubai-marvel-refrigerator-fix-repairs-se/">Marvel</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/miele-fridge-repair-in-dubai-miele-washing-machine-repair-in-dubai-miele-cooker-repair-in-dubai-miele-oven-repair-in-dubai-miele-appliances-maintenance-in-dubai-miele-refrigerator-fix-repairs-service/">Miele</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/maytag-fridge-repair-in-dubai-maytag-washing-machine-repair-in-dubai-maytag-cooker-repair-in-dubai-maytag-oven-repair-in-dubai-maytag-appliances-maintenance-in-dubai-maytag-refrigerator-fix-repairs-se/">Maytag</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/toshiba-home-appliance-installation-maintenance-repair-fix-service-in-dubai-2/">Toshiba</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/thermador-appliances-service/">Thermador</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/sharp-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Sharp</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/admiral-fridge-repair-in-dubai-admiral-washing-machine-repair-in-dubai-admiral-cooker-repair-in-dubai-admiral-oven-repair-in-dubai-admiral-appliances-maintenance-in-dubai-admiral-refrigerator-fix-repa/">Admiral</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/aftron-fridge-repair-in-dubai-aftron-washing-machine-repair-in-dubai-aftron-cooker-repair-in-dubai-aftron-oven-repair-in-dubai-aftron-appliances-maintenance-in-dubai-aftron-refrigerator-fix-repairs-se/">Aftron</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/unimac-washing-machine-repair-in-dubai-unimac-dryer-repair-in-dubai-unimac-washer-dryer-repair-in-dubai-unimac-maintenance-in-dubai-unimac-laundry-service-in-dubai-unimac-dubai/">Unimac</a>
-                </p>
-
-              </div> */}
-              <div className="col-sm-4">
-                <ul>
-                  <li>Miele Vacuum Repairs</li>
-                  <li>Braun Vacuum Cleaner Fix</li>
-                  <li>EZVIZ Vacuum Repair Shop</li>
-                  <li>Green Lion Repair Near You</li>
-                  <li>Polaris Vacuum Maintenance</li>
-                  <li>irobot Vacuum Cleaner Repairs</li>
-                  <li>Midea Vacuum Cleaner Repairs</li>
-                  <li>Philips Vacuum Cleaner Service</li>
-                  <li>Switchbot Repair Shop Vacuum</li>
-                  <li>Kenwood Vacuum Cleaner Repairs</li>
-                  <li>Ecovacs Deebot Vacuum Cleaner Repair and Cleaning</li>               
+            <h3>CHOOSE COMMERCIAL ESPRESSO AND COFFEE MACHINE REPAIR SERVICE</h3>
+            <div class="row">
+              <div class="col-sm-4">
+                <ul class="">
+
+                  <li class="">La Pavoni Espresso Repair and Service</li>
+                  <li class="">Beko Coffee Machine Repair and Cleaning</li>
+                  <li class="">Marco Coffee Machine Repair and Service</li>
+                  <li class="">Teka Coffee Machine Repair and Descaling</li>
+                  <li class="">Jura Coffee Machine Repair and Servicing</li>
+                  <li class="">Dr.Coffee Machine Repair and Maintenance</li>
+                  <li class="">Appia Coffee Machine Repair and Descaling</li>
+                  <li class="">Bezzera Coffee Machine Repair and Cleaning</li>
+                  <li class="">Breville Coffee Machine Repair and Cleaning</li>
+                  <li class="">Melitta Coffee Machine Repair and Descaling</li>
+                  <li class="">Conti Coffee Machine Repair and Installation</li>
+                  <li class="">Ascaso Coffee Machine Repair and Maintenance</li>
+                  <li class="">Lelit Coffee Machine Repair and Cleaning Service</li>
+                  <li class="">Cafematic Automatic Coffee Machine Repairs and Maintenance</li>
+                  <li class="">Farenheit Epsilon Super Automatic Coffee Machine, Espresso Maker</li>
                 </ul>
               </div>
-              <div className="col-sm-4">
-                <ul>
-                  <li>Milagrow Anker Repair and Cleaning</li>
-                  <li>Eufy Vacuum Cleaner Repair and Fix</li>
-                  <li>Eureka Vacuum Repair and Servicing</li>
-                  <li>Versuni Vacuum Cleaner Maintenance</li>
-                  <li>Philips Vacuum Cleaner Repair Service</li>
-                  <li>Roborock Vacuum Cleaner Repair Shop</li>
-                  <li>Narwal Vacuum Cleaner Repair Service</li>
-                  <li>Black & Decker Vacuum Cleaner Repair</li>
-                  <li>Hitachi Vacuum Cleaner Service Center</li>
-                  <li>Dreame Vacuum Cleaner Repair Near Me</li>
-                  <li>iRobot Roomba Combo Vacuum Cleaner Repair and Service</li>
+              <div class="col-sm-4">
+                <ul class="acsvs-exp-new-p">
+                  <li class="">Bosch Machine Repair and Maintenance</li>
+                  <li class="">Breville Coffee Machine Repair and Fixing</li>
+                  <li class="">Seimens Coffee Machine Repair and Cleaning</li>
+                  <li class="">Armiali Coffee Machine Repairs and Servicing</li>
+                  <li class="">Espresso Southeast Coffee Machine Repair and Fix</li>
+                  <li class="">La Marzocco Coffee Machine Repair and Maintenance</li>
+                  <li class="">Isomac Coffee Machine &amp; Espresso Repair and Fix</li>
+                  <li class="">ECM Coffee Machine &amp; Espresso Repair and Servicing</li>
+                  <li class=""><a href="#/delonghi-coffee-machine-repair/">Delonghi Coffee Machine &amp; Espresso Repair</a> and Service</li>
+                  <li class="">Animo with Water Filter Coffee Machine Repair and Service</li>
+                  <li class="">Rancilio Volumetric Espresso Machine Repair and Servicing</li>
                 </ul>
               </div>
-              <div className="col-sm-4">
-                <ul>
-                <li>Ecovacs Deebot Vacuum Cleaner Repairing</li>
-                  <li>Karcher Vacuum Cleaner Repair and Service</li>
-                  <li>Dyson Vacuum Cleaner Repair and Cleaning</li>
-                  <li>Hitachi Vacuum Cleaner Repair and Cleaning</li>
-                  <li>Roborock Vacuum Cleaner Repair and Cleaning</li>
-                  <li>Deebot Vacuum Cleaner Repair and Maintenance</li>
-                  <li>iRobot Roomba Vacuum Cleaner Repair and Service</li>
-                  <li>Xiaomi Robot Vacuum Cleaner Repair and Servicing</li>              
+              <div class="col-sm-4">
+                <ul class="acsvs-exp-new-p">
+                  <li class="">Orhcestrale Espresso Machines Repair and Fix</li>
+                  <li class="">Astoria Loft Espresso Machine Repair and Fixing</li>
+                  <li class="">Rocket Espresso Machine Repair and Descaling</li>
+                  <li class="">Magister Espresso Machines Repair and Maintenance</li>
+                  <li class="">Nuova Simonelli Coffee Machine Repair and Servicing</li>
+                  <li class="">Victoria Arduino Coffee Machine Repair and Service</li>
+                  <li class="">Gaggia Automatic Coffee Machine Repair near me</li>
+                  <li class="">Rocket Appartmento Machine Repair and Descaling</li>
+                  <li class="">Illy Saeco Royal Coffee Machine Repair and Service</li>
+                  <li class="">Sage Coffee Machine &amp; Espresso Repair and Cleaning</li>
+
                 </ul>
               </div>
             </div>
@@ -840,11 +629,10 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-
-
         {/* Brands section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
           <div className="container">
+            <h3> We worked with all of these brands </h3>
 
             <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
               data-variable-width="0" data-xs-slides="1" data-sm-slides="1" data-md-slides="1" data-lg-slides="2"
@@ -855,7 +643,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                     <div key={index} className="cs_slide wow fadeInLeft">
 
                       <div className="brandslogo-slide-container">
-                        <div className="brnadlogo">
+                        <div className="brnadlogo-coffeemachine-service">
                           <img className="w-100" src={`${import.meta.env.BASE_URL}${item.logo}`} alt="Avatar" />
                         </div>
                       </div>
@@ -966,5 +754,4 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
   );
 };
 
-export default VacuumCleanerRepairDetail;
-
+export default CommercialDishwasherServicesDetail;

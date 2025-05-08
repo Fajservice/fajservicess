@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/HomeAppData/GasRangeRepairServiceFaqs.json';
+import data from '../../../Data/HomeAppData/FAQs/GasRangeRepairServiceFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
@@ -11,7 +11,7 @@ import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
-import testimonial_data from '../../../Data/HomeAppData/GasRangeRepairServiceTestimonial.json';
+import testimonial_data from '../../../Data/HomeAppData/Testmonials/GasRangeRepairServiceTestimonial.json';
 import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
@@ -115,8 +115,8 @@ const GasRangeRepairServiceDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Best Appliances Service Dubai - Appliance Repair Near Me</title>
-        <meta name="description" content="We offer an appliances repair near you. Get expert in refrigerator, fridge, washing machine, dryer, dishwasher, gas stove, oven service near me Dubai"></meta>
+        <title>Best Gas Cooker Repair - Cooking Range Service Near Me</title>
+        <meta name="description" content="Are you looking for gas cooker repair Dubai? Dail 043300002 for gas stove, electric stove repair service. Get fast fix cooking range, induction repairs"></meta>
       </HelmetProvider>
       <HeaderForm />
 

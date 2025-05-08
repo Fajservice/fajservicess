@@ -113,8 +113,8 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Best Appliances Service Dubai - Appliance Repair Near Me</title>
-        <meta name="description" content="We offer an appliances repair near you. Get expert in refrigerator, fridge, washing machine, dryer, dishwasher, gas stove, oven service near me Dubai"></meta>
+        <title>Coffee Machine Repair & Maintenance Services Dubai</title>
+        <meta name="description" content="Get fast & reliable coffee machine repair in Dubai. Our experts in espresso machines for office & commercial maintenance services. Call now 04 3300002"></meta>
       </HelmetProvider>
       <HeaderForm />
 

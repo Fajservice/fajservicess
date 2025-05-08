@@ -118,11 +118,11 @@ import OvenRepair from "../Pages/KitchenEquipPages/OvenRepair";
 import DeepFryerService from "../Pages/KitchenEquipPages/DeepFryerService";
 import KitchenEquipmentAMC from "../Pages/KitchenEquipPages/KitchenEquipmentAMC";
 import KitchenEquipmentRepair from "../Pages/KitchenEquipPages/KitchenEquipmentRepair";
-import  IceMakerRepair from "../Pages/RefrigerationEquipPages/IceMakerRepair";
-import  RefrigerationAMCServices from "../Pages/RefrigerationEquipPages/RefrigerationAMCServices";
-import  WalkInRefrigerationServices from "../Pages/RefrigerationEquipPages/WalkInRefrigerationServices";
-import  FreezerAndChillerMaintenance from "../Pages/RefrigerationEquipPages/FreezerAndChillerMaintenance";
-import  CommercialRefrigeratorRepair from "../Pages/RefrigerationEquipPages/CommercialRefrigeratorRepair";
+import IceMakerRepair from "../Pages/RefrigerationEquipPages/IceMakerRepair";
+import RefrigerationAMCServices from "../Pages/RefrigerationEquipPages/RefrigerationAMCServices";
+import WalkInRefrigerationServices from "../Pages/RefrigerationEquipPages/WalkInRefrigerationServices";
+import FreezerAndChillerMaintenance from "../Pages/RefrigerationEquipPages/FreezerAndChillerMaintenance";
+import CommercialRefrigeratorRepair from "../Pages/RefrigerationEquipPages/CommercialRefrigeratorRepair";
 import AcRepairInJumeirahHeights from "../Pages/AcPages/AcLocation/AcRepairInJumeirahHeights";
 import AcRepairInQuozIndustrialArea from "../Pages/AcPages/AcLocation/AcRepairInQuozIndustrialArea";
 import AcRepairInTheLakes from "../Pages/AcPages/AcLocation/AcRepairInTheLakes";
@@ -160,6 +160,9 @@ import AcRepairInOldTown from "../Pages/AcPages/AcLocation/AcRepairInOldTown";
 import FoodWarmerRepair from "../Pages/KitchenEquipPages/FoodWarmerRepair";
 import MeatGrinderRepair from "../Pages/KitchenEquipPages/MeatGrinderRepair";
 import DoughMixerRepair from "../Pages/KitchenEquipPages/DoughMixerRepair";
+import CommercialDishwasherServices from "../Pages/CommercialDishwasherServices.jsx";
+import CommercialWashingMachineRepair from "../Pages/CommercialLaundryEquipPages/CommercialWashingMachineRepair";
+import CommercialLaundryEquipmentService from "../Pages/CommercialLaundryEquipPages/CommercialLaundryEquipmentService";
 import AcRepairInDubaiInternationalFinancialCenter from "../Pages/AcPages/AcLocation/AcRepairInDubaiInternationalFinancialCenter";
 import AcRepairInBurDubai from "../Pages/AcPages/AcLocation/AcRepairInBurDubai";
 import AcRepairInSiliconOasisDubai from "../Pages/AcPages/AcLocation/AcRepairInSiliconOasisDubai";
@@ -223,7 +226,7 @@ export const router = createHashRouter([
       {
         path: "/coffee-machine-service-center-in-dubai/",
         element: <CoffeeMachineServiceCenterInDubai></CoffeeMachineServiceCenterInDubai>,
-      }, 
+      },
       {
         path: "/coffee-machine-repairs/",
         element: <CommercialCoffeeMachineRepair></CommercialCoffeeMachineRepair>,
@@ -250,47 +253,60 @@ export const router = createHashRouter([
       },
       {
         path: "/deep-fryer-service/",
-        element: <DeepFryerService/>,
+        element: <DeepFryerService />,
       },
       {
         path: "/meat-grinder-repair/",
-        element: <MeatGrinderRepair  />
+        element: <MeatGrinderRepair />
       },
       {
         path: "/dough-mixer-repair",
         element: <DoughMixerRepair />
       },
       {
+        path: "/commercial-dishwasher-repair/",
+        element: <CommercialDishwasherServices />
+      },
+      {
+        path: "/commercial-washing-machine-repair/",
+        element: <CommercialWashingMachineRepair />
+      },
+      {
+        path: "/commercial-laundry-equipment-service/",
+        element: <CommercialLaundryEquipmentService />
+      },
+
+      {
         path: "/food-warmer-repair/",
-        element: <FoodWarmerRepair/>,
+        element: <FoodWarmerRepair />,
       },
       {
         path: "/commercial-kitchen-equipment-amc/",
-        element: <KitchenEquipmentAMC/>,
+        element: <KitchenEquipmentAMC />,
       },
       {
         path: "/commercial-cooking-appliances-repair-service/",
-        element: <KitchenEquipmentRepair/>,
+        element: <KitchenEquipmentRepair />,
       },
       {
         path: "/ice-maker-repair/",
-        element: <IceMakerRepair/>,
+        element: <IceMakerRepair />,
       },
       {
         path: "/commercial-freezer-chiller-amc-service/",
-        element: <RefrigerationAMCServices/>,
+        element: <RefrigerationAMCServices />,
       },
       {
         path: "/walk-in-freezer-display-freezer-open-freezer-maintenance/",
-        element: <WalkInRefrigerationServices/>,
+        element: <WalkInRefrigerationServices />,
       },
       {
         path: "/freezer-chiller-repair-service/",
-        element: <FreezerAndChillerMaintenance/>,
+        element: <FreezerAndChillerMaintenance />,
       },
       {
         path: "/commercial-refrigeration-services/",
-        element: <CommercialRefrigeratorRepair/>,
+        element: <CommercialRefrigeratorRepair />,
       },
       {
         path: "/gas-cooker-repair-service/",
@@ -298,8 +314,8 @@ export const router = createHashRouter([
       },
       {
         path: "/dishwasher-repair-service/",
-        element: <DishwasherRepair/>
-      },      
+        element: <DishwasherRepair />
+      },
       {
         path: "/oven-repair/",
         element: <OvenRepair />
@@ -534,175 +550,175 @@ export const router = createHashRouter([
       },
       {
         path: "/ac-services-in-umm-al-sheif/",
-        element: <AcRepairInUmmAlSheif/>,
+        element: <AcRepairInUmmAlSheif />,
       },
       {
         path: "/ac-services-in-the-greens/",
-        element: <AcRepairinTheGreens/>,
+        element: <AcRepairinTheGreens />,
       },
       {
         path: "/ac-services-in-al-jafiliya/",
-        element: <AcRepairinAlJafiliya/>,
+        element: <AcRepairinAlJafiliya />,
       },
       {
         path: "/ac-services-in-the-meadows/",
-        element: <AcRepairinTheMeadows/>,
+        element: <AcRepairinTheMeadows />,
       },
       {
         path: "/ac-services-in-academy-city/",
-        element: <AcRepairInAcademyCity/>,
+        element: <AcRepairInAcademyCity />,
       },
       {
         path: "/ac-services-in-limestone-house-difc/",
-        element: <AcRepairInLimestoneHouseDifc/>,
+        element: <AcRepairInLimestoneHouseDifc />,
       },
       {
         path: "/ac-services-in-jumeirah-village-triangle/",
-        element: <AcRepairInJumeriahVillageTriangle/>,
+        element: <AcRepairInJumeriahVillageTriangle />,
       },
       {
         path: "/ac-services-in-arabian-ranches-2/",
-        element: <AcRepairInArabianRanches2/>,
+        element: <AcRepairInArabianRanches2 />,
       },
       {
         path: "/ac-services-in-dubai-studio-city/",
-        element: <AcRepairInDubaiStudioCity/>,
+        element: <AcRepairInDubaiStudioCity />,
       },
       {
         path: "/ac-services-jumeirah-islands/",
-        element: <AcRepairInJumeirahIslands/>,
+        element: <AcRepairInJumeirahIslands />,
       },
       {
         path: "/ac-repair-al-qusais/",
-        element: <AcRepairInAlQusais/>,
+        element: <AcRepairInAlQusais />,
       },
       {
         path: "/ac-services-in-the-springs/",
-        element: <AcRepairInTheSprings/>,
+        element: <AcRepairInTheSprings />,
       },
       {
         path: "/ac-services-in-al-mirdif/",
-        element: <AcRepairInAlMirdif/>,
+        element: <AcRepairInAlMirdif />,
       },
       {
         path: "/ac-services-in-international-media-and-production-zone/",
-        element: <AcRepairInInternationalMediaAndProductionZone/>,
+        element: <AcRepairInInternationalMediaAndProductionZone />,
       },
       {
         path: "/ac-services-in-jumeirah-village-circle/",
-        element: <AcRepairInJumeirahVillageCircle/>,
+        element: <AcRepairInJumeirahVillageCircle />,
       },
       {
         path: "/ac-services-in-business-bay/",
-        element: <AcRepairInBusinessBay/>,
+        element: <AcRepairInBusinessBay />,
       },
       {
         path: "/ac-services-in-arabian-ranches/",
-        element: <AcRepairInArabianRanches/>,
+        element: <AcRepairInArabianRanches />,
       },
       {
         path: "/ac-services-in-dip/",
-        element: <AcRepairInDip/>,
+        element: <AcRepairInDip />,
       },
       {
         path: "/ac-services-in-discovery-gardens/",
-        element: <AcRepairInDiscoveryGardens/>,
+        element: <AcRepairInDiscoveryGardens />,
       },
       {
         path: "/ac-services-in-al-waha-community/",
-        element: <AcRepairInAlWahaCommunity/>,
+        element: <AcRepairInAlWahaCommunity />,
       },
       {
         path: "/ac-services-in-hudaiba/",
-        element: <AcRepairInHudaiba/>,
+        element: <AcRepairInHudaiba />,
       },
       {
         path: "/ac-services-in-impz/",
-        element: <AcRepairInImpz/>,
+        element: <AcRepairInImpz />,
       },
       {
         path: "/ac-services-in-al-satwa/",
-        element: <AcRepairInAlSatwa/>,
+        element: <AcRepairInAlSatwa />,
       },
       {
         path: "/ac-repair-in-jafza-air-condition-maintenance-in-jafza-air-conditioning-fix-amc-service-in-jebel-ali-free-zone-dubai/",
-        element: <AcRepairInAlJafza/>,
+        element: <AcRepairInAlJafza />,
       },
       {
         path: "/ac-services-in-al-khawaneej/",
-        element: <AcRepairInAlKhawaneej/>,
+        element: <AcRepairInAlKhawaneej />,
       },
       {
         path: "/ac-services-in-al-manara/",
-        element: <AcRepairInAlManara/>,
+        element: <AcRepairInAlManara />,
       },
       {
         path: "/ac-services-in-jumeirah-golf-estates/",
-        element: <AcRepairInJumeirahGolfEstates/>,
+        element: <AcRepairInJumeirahGolfEstates />,
       },
       {
         path: "/ac-services-in-layan-community/",
-        element: <AcRepairInLayanCommunity/>,
+        element: <AcRepairInLayanCommunity />,
       },
       {
         path: "/ac-services-in-al-badaa/",
-        element: <AcRepairInAlBadaa/>,
+        element: <AcRepairInAlBadaa />,
       },
       {
         path: "/ac-services-dubai-internet-city/",
-        element: <AcRepairInDubaiInternetCity/>,
+        element: <AcRepairInDubaiInternetCity />,
       },
       {
         path: "/ac-services-in-jumeirah-lake-towers/",
-        element: <AcRepairInJumeirahLakeTowers/>,
+        element: <AcRepairInJumeirahLakeTowers />,
       },
       {
         path: "/ac-services-in-al-tawar/",
-        element: <AcRepairinAlTawar/>,
+        element: <AcRepairinAlTawar />,
       },
       {
         path: "/ac-services-in-al-barsha-south/",
-        element: <AcRepairInAlBarshaSouth/>,
+        element: <AcRepairInAlBarshaSouth />,
       },
       {
         path: "/ac-services-in-the-gardens/",
-        element: <AcRepairInGardens/>,
+        element: <AcRepairInGardens />,
       },
       {
         path: "/ac-services-in-jbr/",
-        element: <AcRepairInJBR/>,
+        element: <AcRepairInJBR />,
       },
       {
         path: "/ac-services-in-flamingo-villas/",
-        element: <AcRepairInFlamingoVillas/>,
+        element: <AcRepairInFlamingoVillas />,
       },
       {
         path: "/ac-services-in-al-quoz/",
-        element: <AcRepairInAlQuoz/>,
+        element: <AcRepairInAlQuoz />,
       },
       {
         path: "/ac-services-in-jebel-ali-dip/",
-        element: <AcRepairInJebelAliDip/>,
+        element: <AcRepairInJebelAliDip />,
       },
       {
         path: "/ac-services-in-al-sufouh/",
-        element: <AcRepairInSufouh/>,
+        element: <AcRepairInSufouh />,
       },
       {
         path: "/ac-services-in-jumeirah-beach-residence/",
-        element: <AcRepairInJumeirahBeachResidence/>,
+        element: <AcRepairInJumeirahBeachResidence />,
       },
       {
         path: "/ac-services-in-the-villa/",
-        element: <AcRepairInTheVilla/>,
+        element: <AcRepairInTheVilla />,
       },
       {
         path: "/ac-services-in-jumeirah-heights/",
-        element: <AcRepairInJumeirahHeights/>,
+        element: <AcRepairInJumeirahHeights />,
       },
       {
         path: "/ac-services-in-al-quoz-industrial-area/",
-        element: <AcRepairInQuozIndustrialArea/>,
+        element: <AcRepairInQuozIndustrialArea />,
       },
       {
         path: "/ac-services-in-the-lakes/",
@@ -774,19 +790,19 @@ export const router = createHashRouter([
       },
       {
         path: "/ac-services-in-deira/",
-        element: <AcRepairInDeira/>,
+        element: <AcRepairInDeira />,
       },
       {
         path: "/ac-services-in-al-furjan/",
-        element: <AcRepairInAlFurjan/>,
+        element: <AcRepairInAlFurjan />,
       },
       {
         path: "/ac-services-jumeirah-park/",
-        element: <AcRepairInJumeirahPark/>,
+        element: <AcRepairInJumeirahPark />,
       },
       {
         path: "/ac-services-in-ras-al-khor-industrial-area/",
-        element: <AcRepairInRasAlKhorIndustrialArea/>,
+        element: <AcRepairInRasAlKhorIndustrialArea />,
       },
       {
         path: "/ac-services-in-al-warqa/",
