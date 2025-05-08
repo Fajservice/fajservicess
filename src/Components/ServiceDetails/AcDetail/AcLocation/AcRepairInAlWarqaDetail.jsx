@@ -12,7 +12,7 @@ import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
-import testimonial from '../../../../Data/AcData/AcTestimonial/AcServiceInDubai.json';
+import testimonial from '../../../../Data/AcData/AcTestimonial/AcServiceTestimonials.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
