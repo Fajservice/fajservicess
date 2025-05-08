@@ -112,8 +112,8 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
   return (
     <>
       <HelmetProvider>
-        <title>Best Appliances Service Dubai - Appliance Repair Near Me</title>
-        <meta name="description" content="We offer an appliances repair near you. Get expert in refrigerator, fridge, washing machine, dryer, dishwasher, gas stove, oven service near me Dubai"></meta>
+        <title>Coffee Machine Service Center Dubai - Coffee Machine Repair</title>
+        <meta name="description" content="FAJ coffee machine service center in Dubai. Call 04 3300002 Get home / office Espresso & restaurant or cafe Coffee machine repair & maintenance"></meta>
       </HelmetProvider>
       <HeaderForm />
 

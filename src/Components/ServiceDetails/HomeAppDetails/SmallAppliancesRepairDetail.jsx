@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/HomeAppData/SmallAppliancesFaqs.json';
+import data from '../../../Data/HomeAppData/FAQs/SmallAppliancesFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
@@ -11,7 +11,7 @@ import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
-import testimonial_data from '../../../Data/HomeAppData/SmallAppliancesRepairTestimonials.json';
+import testimonial_data from '../../../Data/HomeAppData/Testmonials/SmallAppliancesRepairTestimonials.json';
 import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
 
 import loadBackgroudImages from "../../Common/loadBackgroudImages";

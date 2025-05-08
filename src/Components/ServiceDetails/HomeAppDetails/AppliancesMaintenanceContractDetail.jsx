@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/HomeAppData/AMCFaqs.json';
+import data from '../../../Data/HomeAppData/FAQs/AMCFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
@@ -11,7 +11,7 @@ import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
-import testimonial_data from '../../../Data/HomeAppData/AMCTestimonial.json';
+import testimonial_data from '../../../Data/HomeAppData/Testmonials/AMCTestimonial.json';
 import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
@@ -115,8 +115,8 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Best Appliances Service Dubai - Appliance Repair Near Me</title>
-        <meta name="description" content="We offer an appliances repair near you. Get expert in refrigerator, fridge, washing machine, dryer, dishwasher, gas stove, oven service near me Dubai"></meta>
+        <title>Best Appliances AMC Service Dubai -#1 Maintenance Contract</title>
+        <meta name="description" content="Time to get comfortable! with appliances AMC service in Dubai FAJ experts in kitchen appliances, freezer, chiller, cooking appliances maintenance"></meta>
       </HelmetProvider>
       <HeaderForm />
 

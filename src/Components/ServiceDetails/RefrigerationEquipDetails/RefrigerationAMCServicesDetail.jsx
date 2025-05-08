@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/HomeAppData/DishwasherRepairFaqs.json';
+import data from '../../../Data/RefrigerationEquipData/FAQs/RefrigerationAMCServicesFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
@@ -11,7 +11,7 @@ import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
-import testimonial_data from '../../../Data/HomeAppData/DishwasherRepairTestimonial.json';
+import testimonial_data from '../../../Data/RefrigerationEquipData/Testmonials/RefrigerationAMCServicesTestimonial.json';
 import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
@@ -124,11 +124,10 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">Choose Dishwasher Service Center for Same-Day Repairs in Dubai</h2>
+            <h2 className="cs_fs_30">Choose Commercial Freezer Chiller AMC Service Service Center for Same-Day Repairs in Dubai</h2>
             <p>
-              Since 2010, FAJ has been a trusted name in dishwasher repair and service in Dubai and Sharjah. Our skilled professionals are ready to assist with any brand, using high-quality tools for effective service.
-              <br /> We prioritise repairs over replacements, helping you save money and avoid the hassle of buying a new dishwasher. Rely on our experienced experts for fast and reliable dishwasher maintenance in Dubai!
+              Since 2010, FAJ has been a trusted name in Freezer repair and service in Dubai and Sharjah. Our skilled professionals are ready to assist with any brand, using high-quality tools for effective service.
+              <br /> We prioritise repairs over replacements, helping you save money and avoid the hassle of buying a new Freezer. Rely on our experienced experts for fast and reliable dishwasher maintenance in Dubai!
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -136,7 +135,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, bgImg }) => {
                 <WhatsappIconButton />
               </div>
             </div>
-            {/*  */}
+
           </div>
         </section>
 
@@ -182,9 +181,9 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, bgImg }) => {
         {/* Why  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">Why is Dishwasher Maintenance Service Important in Dubai?</h3>
+            <h3 className="cs_fs_30">Contract Work     </h3>
             <p>
-              Proper dishwasher maintenance is essential for extending its lifespan and enhancing efficiency, especially in Dubai’s climate. Here are the main benefits:
+              We offer tailor made maintenance contracts that can suit the requirements and budgets of any business or individual. Even if we didnt install the unit, we’re happy to quote you for our services to maintain it.
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
@@ -192,14 +191,14 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, bgImg }) => {
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
-                  <li> <strong> Dishwasher Extended Lifespan: </strong> Regular maintenance helps the dishwasher last longer, saving on replacement costs. </li>
-                  <li> <strong> Dishwasher Improved Efficiency: </strong> A well-maintained dishwasher uses less energy, leading to lower utility bills, which is essential in Dubai. </li>
-                  <li> <strong> Dishwasher Preventing Costly Repair: </strong> Catching minor issues early prevents them from escalating into expensive repairs. </li>
-                  <li> <strong> Dishwasher Preserving induction hob Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
-                  <li> <strong> Dishwasher Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious. </li>
-                  <li> <strong> Dishwasher Cost-Effective: </strong> Maintenance costs are lower than early replacements or significant repairs. Investing in dishwasher care ensures safety and efficiency and is a wise economic choice in Dubai. </li>
-                  <li> <strong> Dishwasher Energy Efficiency: </strong> Regularly maintaining your dishwasher can improve efficiency and save you money. </li>
-
+                  <p>As a contracted customer, you will also have priority on the call out system. No matter the size of your system or the terms of the contract, you can rest assured that you’re being looked after by honest, hard-working and experienced professionals. Contact our team today to find out how we can help you with your refrigeration maintenance!
+                  </p>
+                  <strong>  Annual Maintenance Contract Services for:</strong>
+                  <li>  All refrigeration system </li>
+                  <li>  Commercial freezers, chillers, refrigerators, fridges </li>
+                  <li> All cooking appliances </li>
+                  <li>  Commercial Freezer Chiller AMC Service </li>
+                  <li> Dishwasher and glass washer machine </li>
                 </ul>
               </div>
             </div>

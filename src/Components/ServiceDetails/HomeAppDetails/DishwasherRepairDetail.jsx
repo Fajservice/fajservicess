@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/HomeAppData/DishwasherRepairFaqs.json';
+import data from '../../../Data/HomeAppData/FAQs/DishwasherRepairFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
@@ -11,7 +11,7 @@ import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
-import testimonial_data from '../../../Data/HomeAppData/DishwasherRepairTestimonial.json';
+import testimonial_data from '../../../Data/HomeAppData/Testmonials/DishwasherRepairTestimonial.json';
 import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
@@ -115,8 +115,9 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Best Appliances Service Dubai - Appliance Repair Near Me</title>
-        <meta name="description" content="We offer an appliances repair near you. Get expert in refrigerator, fridge, washing machine, dryer, dishwasher, gas stove, oven service near me Dubai"></meta>
+        <title>Best Dishwasher Repair Service In Dubai - Dish Wash Fix #1</title>
+        <meta name="description" content="Dishwasher repair service in Dubai FAJ is here to help
+         with integrated dishwasher fix service and dish washer machine maintenance call +971507464712"></meta>
       </HelmetProvider>
       <HeaderForm />
 

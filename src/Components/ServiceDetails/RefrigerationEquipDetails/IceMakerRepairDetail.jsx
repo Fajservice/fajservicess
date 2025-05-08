@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/HomeAppData/DishwasherRepairFaqs.json';
+import data from '../../../Data/RefrigerationEquipData/FAQs/IceMakerRepairFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
@@ -11,7 +11,7 @@ import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
-import testimonial_data from '../../../Data/HomeAppData/DishwasherRepairTestimonial.json';
+import testimonial_data from '../../../Data/RefrigerationEquipData/Testmonials/IceMakerRepairTestimonial.json';
 import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
@@ -125,10 +125,10 @@ const IceMakerRepairDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">Choose Dishwasher Service Center for Same-Day Repairs in Dubai</h2>
+            <h2 className="cs_fs_30">Choose Ice Maker Service Center for Same-Day Repairs in Dubai</h2>
             <p>
-              Since 2010, FAJ has been a trusted name in dishwasher repair and service in Dubai and Sharjah. Our skilled professionals are ready to assist with any brand, using high-quality tools for effective service.
-              <br /> We prioritise repairs over replacements, helping you save money and avoid the hassle of buying a new dishwasher. Rely on our experienced experts for fast and reliable dishwasher maintenance in Dubai!
+              Since 2010, FAJ has been a trusted name in ice maker repair and service in Dubai and Sharjah. Our skilled professionals are ready to assist with any brand, using high-quality tools for effective service.
+              <br /> We prioritise repairs over replacements, helping you save money and avoid the hassle of buying a new ice maker. Rely on our experienced experts for fast and reliable ice maker maintenance in Dubai!
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -149,16 +149,23 @@ const IceMakerRepairDetail = ({ subtitle, title, bgImg }) => {
             <div className="row gx-md-5">
               <div className="col-md-6">
                 {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" /> */}
-                <h3 className="cs_fs_24 mb-1">Dishwasher Repair and Service Near You</h3>
+                <h3 className="cs_fs_24 mb-1">Signs you need an ice maker repair</h3>
 
                 <p className="mb-2">
-                  Has your dishwasher stopped working completely? Or is it running, but your dishes and cutlery aren't coming out as clean as they should?
-                  At FAJ, we understand that a machine breakdown is always inconvenient. That's why our team of experts is here to provide dishwasher repair and service appointments near you in Dubai and Sharjah.
-
+                  Following are the scenarios when it is time to get the repair done.
                 </p>
+                <ul>
+                  <li>  Decreased formation of ice. </li>
+                  <li>  Unusual sounds made while the machine is operating. </li>
+                  <li> Leakage of water. </li>
+                  <li> Ice that tastes or smells strange. </li>
+                  <li> Ice appears hazy or discolored. </li>
+                  <li> The machine is not turning on. </li>
+                  <li> Excessive ice accumulation or frost. </li>
+                </ul>
 
 
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Dishwasher Technical Inspection Fee </h3>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">ICE Maker Technical Inspection Fee </h3>
                 <p className="mb-0">
                   The technical inspection fee is AED 157, which covers diagnosis, transportation, and reinstallation in Dubai premises.
                   <br />Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.
@@ -346,7 +353,7 @@ const IceMakerRepairDetail = ({ subtitle, title, bgImg }) => {
         {/*HERE ARE THE SERVICES */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR THE DISHWASHER </h3>
+            <h3 className="cs_fs_30">Top Quality Ice maker service provided by us </h3>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -364,22 +371,26 @@ const IceMakerRepairDetail = ({ subtitle, title, bgImg }) => {
 
               <div className="col-xl-6">
                 <p className="mb-0">
-                  We specialise in all types and brands of dishwashers, including dishwasher machines.
+                  We specialise in all types and brands of ice makers.
                 </p>
 
-                <p className='mb-0'><strong>Our services include:</strong></p>
+                {/* <p className='mb-0'><strong>Our services include:</strong></p> */}
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                  <li> <strong> Dishwasher Installation: </strong>  Expert installation of various types and brands of dishwashers, ensuring optimal performance and efficiency. </li>
+                  {/* <li> <strong> Dishwasher Installation: </strong>  Expert installation of various types and brands of dishwashers, ensuring optimal performance and efficiency. </li>
                   <li> <strong> Dishwasher Diagnostics: </strong>  We conduct thorough fault finding to diagnose issues effectively. We also provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
 
                   <li> <strong> Dishwasher Repair Service: </strong>  Efficient repair services for all dishwasher machine components, ensuring quick resolution of any issues, such as leaks, electrical failures, and system malfunctions. </li>
 
-                  <li> <strong> Dishwasher Annual Maintenance Contract: </strong>  This contract outlines the terms and services covered for the dishwasher's annual maintenance. </li>
+                  <li> <strong> Dishwasher Annual Maintenance Contract: </strong>  This contract outlines the terms and services covered for the dishwasher's annual maintenance. </li> */}
+                  <p>
+
+                    It can be overwhelming and expensive to replace your ice maker, but don't worry, FAJ Professional is here to provide you commercial ice maker repair services. In addition to correctly configuring your machine, our experts optimize its performance by taking into account where and how you use it. To make good ice, use clean water. We use specialized water filters to ensure that your ice is pure and free of odd tastes. Do you wish your machine could do more? Whatever you need, we provide excellent ice maker machine repair services. Additionally, using a lower energy ice maker benefits your pocket. We examine the exact need of your machine and offer reliable ice-maker repair service. Prior to making any repairs, we notify you of the issue and the associated costs. It's preferable to avoid issues than to address them afterwards. We take care of problems before they become serious and we can take pride in being the best ice maker repair in Dubai.
+                  </p>
 
 
 
                   <p className="mb-0">
-                    Regular maintenance is essential for optimal performance, efficiency, and longevity of your dishwasher.
+                    Regular maintenance is essential for optimal performance, efficiency, and longevity of your ice maker.
 
                   </p>
                 </ul>
