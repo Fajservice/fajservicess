@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/HomeAppData/OvenRepairServiceFaqs.json';
+import data from '../../../Data/HomeAppData/WashingmachineRepairServiceFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
@@ -133,14 +133,11 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">Select Oven Service Center for Same-Day Repairs in Dubai</h2>
+            <h2 className="cs_fs_30">Experts Washing Machine Repair and Service Center in Dubai</h2>
             <p>
-              If you're having issues with your oven, it's important to locate a trustworthy and high-quality oven repair service. Our company in Dubai is focused on providing quick, effective, and affordable repairs for all your oven repair requirements.
-              <br />
-              With over a decade of experience since 2010 in maintenance of ovens of various types and brands, our skilled team employs the latest tools and techniques to diagnose and fix problems efficiently.
-              This ensures you can return to your busy life in Dubai and Sharjah without much delay.
-
-
+              Since 2010, FAJ Technical Services LLC has offered reliable installation, maintenance, and repair for all brands of washing machines, dryers, and laundry systems in Dubai, Sharjah, and Abu Dhabi.
+              <br /> Our experts are here to assist with any issues, from top-loading and front-loading washers to compact models. You can trust us to keep your washing machine running smoothly.
+              You can rely on us for both routine repairs and emergency services. Contact us now for reliable services at competitive prices!
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -161,27 +158,25 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Get Oven Repair & Service Near by You</h3>
+                <h3 className="cs_fs_24 mb-1">Same Day Washing Machine Repair Available Near You</h3>
 
                 <p className="mb-2">
-
-                  Ovens are among the most frequently used kitchen appliances, as we rely on them to cook our food.
-                  <br />  When an oven breaks down, it can significantly impact our daily routines. Therefore, it's essential to find an oven repair and service specialist near you as quickly as possible, whether you are in Dubai or Sharjah!
+                  We recognise how important your washing machine is to your daily routine.
+                  That's why we provide dependable washing machine repair and maintenance services in Dubai and Sharjah.
+                  <br />With our high-quality washer and dryer repair services and expert support, we are committed to ensuring that your premium washing machine operates smoothly for years to come.
                 </p>
 
 
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Oven Technical Inspection Fee</h3>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Washing Machine Technical Inspection Fee</h3>
                 <p className="mb-0">
-
                   The technical inspection fee is AED 157, which covers diagnosis, transportation, and reinstallation in Dubai premises.
                   <br />Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.
-
                 </p>
               </div>
 
               <div className="col-md-6 ">
                 {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/kitchen-equipment.jpg`} alt="Post Image" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.jpg`} alt="Post Image" />
 
               </div>
             </div>
@@ -190,28 +185,25 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, bgImg }) => {
         </section>
 
 
-        {/* Why is Oven Maintenance Service Important in Dubai? */}
+        {/* Why is */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">Why is Oven Maintenance Service Important in Dubai? </h3>
+            <h3 className="cs_fs_30">Why is Washing Machine Maintenance Service Important in Dubai?</h3>
             <p>
-              Regular maintenance is crucial in Dubai because of the frequent use of appliances and the city's climate. It ensures the longevity and optimal performance of the oven while reducing the risk of gas leaks and fire hazards. Here’s a detailed explanation:
+              Washing machine service in Dubai is crucial for maintaining efficiency, extending lifespan, and avoiding costly repairs. Regular servicing detects potential issues early, ensuring smooth operation.
+              Here's a more detailed look at why:
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/oven-Range-Repair-Nearby-You-oven.jpg`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/washing-machine-repair.webp`} alt="Post Image" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
-
-                  <li> <strong>Oven Heavy Use and Versatility: </strong> Ovens are vital for cooking and baking in homes and commercial kitchens, like those in hotels and bakeries in Dubai. Regular maintenance is essential for optimal performance.</li>
-                  <li> <strong>Oven Safety: </strong> Oven maintenance is crucial for safety, especially with gas ovens. Regular inspections can catch leaks or faulty controls that may create fire hazards.</li>
-                  <li> <strong>Oven Efficiency: </strong> Regular maintenance of the heating element and thermostat ensures efficiency, leading to energy savings and lower utility bills.</li>
-                  <li> <strong>Oven Preventative Measures: </strong> Regular maintenance, such as cleaning and inspections, prevents minor issues from becoming major repairs, saving time and money.</li>
-                  <li> <strong>Oven Long-term Use: </strong> Regular maintenance can extend your oven's lifespan and save you replacement costs.
-                    By prioritising oven maintenance, residents and businesses in Dubai can ensure their ovens function safely and efficiently.</li>
-
-
+                  <li><strong> Washing Machine Prevents Breakdowns: </strong> Regular maintenance helps prevent breakdowns by managing minor issues before they escalate into major problems.</li>
+                  <li><strong> Washing Machine Improves Efficiency: </strong> Promptly addressing issues can greatly increase the lifespan of your washing machine.</li>
+                  <li><strong> Washing Machine Extends Lifespan: </strong> Addressing problems quickly can greatly increase the lifespan of your washing machine.</li>
+                  <li><strong> Washer Ensures Clean Clothes: </strong> Regular cleaning of the drum and components prevents mold and mildew that can cause odours in clothes.</li>
+                  <li><strong> Washer Dryer Safety: </strong> Regular maintenance can help identify and resolve safety issues, such as loose fittings or leaks.</li>
                 </ul>
               </div>
             </div>
@@ -220,31 +212,20 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, bgImg }) => {
 
 
 
-        {/* The Most Common Problems With Oven */}
+        {/* Problems */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="text-center">The Most Common Problems With Oven   </h3>
+            <h3 className="text-center"> Common Washing Machine Problems That May Require Maintenance  </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Won't Turn On</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">This issue may be caused by a tripped circuit breaker, a blown fuse, or problems with the oven's control board or power supply.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Defective Oven Light</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Worn or Damaged Hoses</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-Typically, a simple bulb replacement can resolve this issue or cause some power not to get.
+                      Inspect the drain and fill hoses for cracks, loose connections, or damage.
 
                     </p>
                   </div>
@@ -254,27 +235,13 @@ Typically, a simple bulb replacement can resolve this issue or cause some power 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Doesn't Heat Up
-                    </h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Loose Connections</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-This could result from a faulty heating element, a broken thermostat, or a malfunction in the ignition system of gas ovens.
-</p>
-                  </div>
-                </div>
-              </div>
+                      Ensure all connections are tight and secure, especially at the water inlet valve.
 
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">ven Doesn't Heat</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">O
-The oven doesn't Heat to the Correct Temperature. Possible causes include a faulty thermostat, miscalibration, or issues with the control panel.
-</p>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -282,12 +249,12 @@ The oven doesn't Heat to the Correct Temperature. Possible causes include a faul
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Food Doesn't Cook Evenly</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Faulty Door Seals or Gaskets</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-This can occur due to factors such as incorrect rack placement, blocked vents, or a faulty thermostat.
-</p>
+                      Check for cracks or damage in the rubber seals and gaskets around the door.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -295,12 +262,13 @@ This can occur due to factors such as incorrect rack placement, blocked vents, o
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Door Won't Close</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Faulty Drain Pump</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-Problems with the door hinges, seals, or latch mechanism can prevent the door from closing properly.
-</p>
+                      A malfunctioning drain pump can prevent water from draining properly.
+
+                    </p>
                   </div>
                 </div>
               </div>
@@ -308,28 +276,55 @@ Problems with the door hinges, seals, or latch mechanism can prevent the door fr
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Self-Cleaning Problems</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Clogged Drain Hose or Pump</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-Self-cleaning ovens sometimes experience issues during the cleaning cycle, which may require resetting or professional assistance.
-</p>
+                      Clean the drain hose and check for clogs or blockages in the drain pump.
+                    </p>
                   </div>
                 </div>
               </div>
 
               <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
+                <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Broken Oven Rack</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Door Won't Open</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-A broken or damaged rack can reduce the oven's efficiency and hinder cooking capabilities.
-</p>
+                      A faulty pressure switch, blockage in the pressure system, or a jammed door can prevent the door from opening.
+                    </p>
                   </div>
                 </div>
               </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Loud Noises</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      Grinding, rumbling, or humming noises can indicate problems with the motor or bearings.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Drum Doesn't Rotate</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      A malfunctioning motor or worn motor brushes can prevent the drum from spinning.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
@@ -341,11 +336,10 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
           </div>
         </section>
 
-        {/* HERE ARE THE SERVICES WE OFFER FOR THE OVEN */}
+        {/* HERE ARE */}
         <section className="section cs_py_30 ">
           <div className="container">
-            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR THE OVEN
-            </h3>
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR WASHING MACHINES  </h3>
             <p></p>
 
             <div className="row align-items-center">
@@ -354,7 +348,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                   className="bordered-img blue-border"
                   width="100%"
                   height="350"
-                  src="https://www.youtube.com/embed/SLGpswtzn-w"
+                  src="https://www.youtube.com/embed/EnSAQA_AjzY"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -363,22 +357,23 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
               </div>
 
               <div className="col-xl-6">
-               
-                <p className='mb-0'>We specialise in all types and brands of ovens, including built-in units.
+
+                <p className='mb-0'>At FAJ, we are your reliable partner for washing machine maintenance in Dubai. Our comprehensive spare parts warranty ensures your machine is well cared for.
+                  Our qualified technicians offer flexible home repair appointments to fit your schedule and efficiently resolve most issues on the first visit
+                  Washing Machine Services:
+
                 </p>
-                <p className='mb-0'><strong>Our services include:</strong></p>
-               
+
+
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
 
 
- <li> <strong> Oven Installation: </strong> Expert installation of various types and brands of ovens, ensuring optimal performance and efficiency.</li>
- <li> <strong> Diagnostics: </strong> Comprehensive fault-finding services to effectively diagnose issues. We provide eligibility assessments and detailed quotations to      address any concerns with your system.</li>
- <li> <strong> Oven Repair Service: </strong> Efficient repair services for all oven components, ensuring a quick resolution to leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions!</li>
- <li> <strong> Oven Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for your oven's annual maintenance.</li>
-                  <p className="mb-0">
-                  Regular oven maintenance is essential for optimal performance, efficiency, and longevity of your oven.
+                  <li><strong> Washing Machine Repair Service: </strong> We are focusing on resolving issues such as non-functioning machines, leaks, drainage problems, and other malfunctions.</li>
+                  <li><strong> Washing Machine Installation: </strong> Make sure that the washing machine is properly connected to the water supply, drainage, and power sources</li>
+                  <li><strong> Washing Machine Maintenance Contract: </strong> To prevent future issues and maintain optimal performance, it is important to regularly clean the filters, hoses, and pumps.</li>
+                  <li><strong> Additional Services: </strong> Depending on the service provider, this may include solutions for water leakage, deep cleaning, and more.</li>
 
-                  </p>
+
                 </ul>
 
 
@@ -393,7 +388,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
         <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
-              <h3 className="cs_fs_30 mb-0">The Benefits Of Oven Service Dubai
+              <h3 className="cs_fs_30 mb-0">The Benefits Of washing machine Service Dubai
               </h3>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
@@ -415,7 +410,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
                       </h4>
-                      <p className="small">Regular maintenance helps your oven run smoothly and efficiently, delivering the best results every time.
+                      <p className="small">Regular maintenance helps your washing machine  run smoothly and efficiently, delivering the best results every time.
                       </p>
                     </div>
                   </div>
@@ -427,7 +422,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                         <img src={`${import.meta.env.BASE_URL}/img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
-                      <p className="small">Energy efficient oven translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                      <p className="small">Energy efficient washing machine translate to monthly savings on utility bills, putting more money back in your pocket.</p>
                     </div>
                   </div>
                 </div>
@@ -450,8 +445,8 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}/img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Extending oven Lifespan</h4>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your home oven, delaying the need for replacements.</p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Extending washing machine Lifespan</h4>
+                      <p className="small">Proper care and timely servicing can significantly increase life of your home washing machine, delaying the need for replacements.</p>
 
                     </div>
 
@@ -466,7 +461,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                       </h4>
-                      <p className="small">Knowing your oven are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                      <p className="small">Knowing your washing machines are in top condition gives you confidence and removes the stress of unexpected failures.</p>
                     </div>
                   </div>
                 </div>
@@ -475,7 +470,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
           </div>
         </section>
 
-       
+
 
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
@@ -502,7 +497,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                   </div>
                   <div className="usptext">
                     <h3 className="">Confidence</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your oven runs smoothly and providing peace of mind.</p>
+                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your washing machine runs smoothly and providing peace of mind.</p>
                   </div>
                 </div>
 
@@ -513,7 +508,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your oven repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive.</p>
+                    <p>Choose a day and time for your washing machine repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive.</p>
                   </div>
                 </div>
 
@@ -532,7 +527,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are experts in oven repair this is why most major brands trust us to handle their service and maintenance needs.</p>
+                    <p>We are experts in wahing machine repair this is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -542,7 +537,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two oven at the same in Dubai location.</p>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two washing machine at the same in Dubai location.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -551,7 +546,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our skilled oven technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
+                    <p>Our skilled washing machine technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
                   </div>
                 </div>
               </div>
@@ -564,62 +559,62 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
           </div>
         </section>
 
-        {/* We specialise in Oven services for the following brands  */}
+        {/* We specialise   */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3>We specialise in Oven services for the following brands </h3>
+            <h3> We specialise in Refrigerator services for the following brands </h3>
             <div className="row">
               <div className="col-12">
 
                 <p className="mb-0">
-                  <Link to="/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/">
-                    <b>Smeg Oven Repair</b>
-                  </Link>: FAJ is here to assist you when things go wrong. We understand that your Smeg oven is essential for daily life, helping keep your food fresh and your meals prepared
+                  <Link to="/lg-fridge-repair-in-dubai-lg-washing-machine-repair-in-dubai-lg-cooker-repair-in-dubai-lg-oven-repair-in-dubai-lg-appliances-maintenance-in-dubai-lg-refrigerator-fix-repairs-service-in-dubai-lg-dishwa/">
+                    <b>LG Washing Machine Repair</b>
+                  </Link>: FAJ is here to support you when things go wrong. We understand that your LG washing machine is essential for daily life,ensuring your laundry is clean and well-maintained.
                 </p>
 
                 <p className="mb-0">
-                  <Link to="/siemens-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b>Siemens Oven Repair</b>
-                  </Link>: If you're experiencing issues with your oven, stove, refrigerator, washer, dryer, or dishwasher, reach out to the FAJ team for same-day repair service in Dubai.
+                  <Link to="/samsung-fridge-repair-in-dubai-samsung-washing-machine-repair-in-dubai-samsung-cooker-repair-in-dubai-samsung-oven-repair-in-dubai-samsung-appliances-maintenance-in-dubai-samsung-refrigerator-fix-repa/">
+                    <b>Samsung Washing Machine Repair</b>
+                  </Link>: If you are facing any problems with your washing machine, washer dryer, contact the FAJ team for same-day repair service in Dubai.
+                </p>
+                <p className="mb-0">
+                  <Link to="/electrolux-home-appliances-repair/">
+                    <b>Electrolux Washing Machine Repair</b>
+                  </Link>: When you need Electrolux washing machine repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE.
                 </p>
 
                 <p className="mb-0">
                   <Link to="/bosch-home-appliances-repair/">
-                    <b> La Germania Gas Oven Repair</b>
-                  </Link>: When you need La Germania oven repair in Dubai, For La Germania oven, range repair in Dubai, our qualified technicians are available throughout 
+                    <b>Bosch Washing Machine Repair</b>
+                  </Link>: If you are looking for the best Bosch washing machine repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch home appliance repair and are recognized as the leading Bosch washing machine service provider in the area.
                 </p>
 
                 <p className="mb-0">
                   <Link to="/viking-appliances-service/">
-                    <b> Viking Stove and Oven Repair</b>
-                  </Link>: Your Viking appliances may need repair or maintenance, and we can help. For high-quality Viking stove and oven repair in Dubai, trust FAJ.
-
+                    <b>Viking Washing Machine Repair</b>
+                  </Link>: Your Viking appliances may require repair or maintenance, and we can help. For high-quality Viking washing machine repair in Dubai, rely on FAJ.
                 </p>
 
                 <p className="mb-0">
                   <Link to="/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b> Daewoo Oven Repair</b>
-                  </Link>: We offer expert Daewoo oven repair services in Dubai. Our experienced technicians possess the knowledge and skills to diagnose and repair issues with Daewoo ovens, refrigerators, washing machines, dryers, and more.
+                    <b>Daewoo Washing Machine Repair</b>
+                  </Link>: We provide expert services for Daewoo washing machine repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo refrigerator, dishwasher, dryer and more.
                 </p>
 
                 <p className="mb-0">
-                  <Link to="/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub/">
-                    <b> Neff Oven Repair</b>
-                  </Link>: Are you worried about your Neff oven malfunctioning and looking for a trustworthy Neff oven repair company in Dubai? Contact us for same-day service!
-
+                  <Link to="/siemens-home-appliances-repair/">
+                    <b>Siemens Washing Machine Repair</b>
+                  </Link>: Are you concerned about your Siemens washing machine malfunctioning and searching for a reliable Siemens washing machine repair company in Dubai? Contact us for same-day service!
                 </p>
 
                 <p className="mb-0">
                   <Link to="/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b> Teka Stove and Oven Repair</b>
-                  </Link>: If you're looking for the best Teka oven repair company in Dubai, FAJ is the perfect choice. They are well-known for providing outstanding service for Teka refrigerators, washing machines, and ovens. FAJ is recognized as the leading Teka appliance service provider in the region.
+                    <b>Teka Washing Machine Repair</b>
+                  </Link>: If you're searching for the best Teka washing machine repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
                 </p>
-
-
                 <br />
 
                 <p><a href="#/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/">AEG</a>
-
                   <span>&nbsp;-&nbsp;</span>
 
                   <a href="#/ariston-fridge-repair-in-dubai-ariston-washing-machine-repair-in-dubai-ariston-cooker-repair-in-dubai-ariston-oven-repair-in-dubai-ariston-appliances-maintenance-in-dubai-ariston-refrigerator-fix-repa/">Ariston</a>
@@ -806,7 +801,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
 
 
 
-       
+
 
 
         {/* Brands section */}

@@ -28,7 +28,7 @@ const Blog1 = () => {
                         <span className="cs_heading_color">{item.admin}</span>
                       </div>
                     </div>
-                    <h3 className="cs_fs_20 cs_semibold cs_mb_5">
+                    <h3 className="cs_fs_20 cs_mb_5">
                       <Link to={`/blog/${item.slug}`}>{item.title}</Link>
                     </h3>
                     <p className="cs_mb_15">{item.shortdesc}</p>

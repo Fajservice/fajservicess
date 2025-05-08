@@ -7,8 +7,8 @@ const WashingMachineRepairServiceDubai = () => {
         <div className="serviceDetails">
             <BreadCumb
                 // bgImg="/img/page_heading_1.jpg"
-                bgImg="/img/banners/Oven-Repair-Service.jpg"
-                Title="Gas & Electrical Oven Repair Service in Dubai"
+                bgImg="/img/banners/washing-machine.jpg"
+                Title="Washing Machine Repair Service in Dubai"
             ></BreadCumb> 
             <WashingMachineRepairServiceDubaiDetail></WashingMachineRepairServiceDubaiDetail>
 
