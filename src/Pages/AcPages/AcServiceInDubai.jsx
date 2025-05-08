@@ -1,6 +1,6 @@
 import React from 'react'
-import BreadCumb from "../../../Components/Common/BreadCumb";
-import AcServiceInDubaiDetail from "../../../Components/ServiceDetails/AcDetail/AcServiceInDubaiDetail";
+import BreadCumb from "../../Components/Common/BreadCumb";
+import AcServiceInDubaiDetail from "../../Components/ServiceDetails/AcDetail/AcServiceInDubaiDetail";
 
 const AcServiceInDubai = () => {
     return (

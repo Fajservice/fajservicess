@@ -76,7 +76,7 @@ const AcRepairInDubailandMazayaQueueDetail = ({ subtitle, title, bgImg }) => {
     <>
     <HelmetProvider>
         <title>AC Services In Dubailand Mazaya Queue Point - AC Error Fix</title>
-        <meta name="description" content="Call an 043300002 AC Services in Al Badaa Dubai. FAJ here help in split & central AC (Air Conditioner) cleaning service near me Dubai Fixing aircon"></meta>
+        <meta name="description" content="AC Services in Dubailand Mazaya Queue. We are experts in York central air conditioner repair & maintenance near me Dubai AC fix Call 043300002"></meta>
     </HelmetProvider>
     <HeaderForm />
     <div className="cs_service_details">
