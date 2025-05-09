@@ -80,7 +80,7 @@ const AcRepairInBurDubaiDetail = ({ subtitle, title, bgImg }) => {
     <>
       <HelmetProvider>
         <title>Best AC Services In Bur Dubai - Air Conditioning Fix #1</title>
-        <meta name="description" content="Are You Finding AC Services in Al Quoz? Call an 043300002 for Central, HVAC Maintenance, Split Air Conditioner Repair & Aircon Servicing Nearby."></meta>
+        <meta name="description" content="Are You Finding AC Services in Bur Dubai? Call an 043300002 for Central, HVAC Maintenance, Split Air Conditioner Repair & Aircon Servicing Nearby."></meta>
       </HelmetProvider>
       <HeaderForm />
       <div className="cs_service_details">
