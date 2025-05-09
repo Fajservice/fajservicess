@@ -134,7 +134,7 @@ const About2 = ({img1,img2,expNumber,expTitle,exYear,subTitle,Title,Content,box1
                   </div>
                 </div>
                 <div className="cs_about_btns">
-                  <Link to="/about" className="cs_btn cs_style_1 wow fadeInLeft">
+                  <Link to="/about-us/" className="cs_btn cs_style_1 wow fadeInLeft">
                     <span>Read more</span>
                     <i className="bi bi-arrow-right"></i> 
                   </Link>
