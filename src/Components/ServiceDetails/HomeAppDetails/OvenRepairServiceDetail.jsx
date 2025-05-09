@@ -123,8 +123,8 @@ const OvenRepairServiceDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Best Appliances Service Dubai - Appliance Repair Near Me</title>
-        <meta name="description" content="We offer an appliances repair near you. Get expert in refrigerator, fridge, washing machine, dryer, dishwasher, gas stove, oven service near me Dubai"></meta>
+        <title>Best Gas Oven Repair Dubai - Electric Oven Service Near Me</title>
+        <meta name="description" content="Get same day oven repair in Dubai. FAJ professional reliable conventional, steam oven maintenance service near me. Dail 043300002 for fix oven"></meta>
       </HelmetProvider>
       <HeaderForm />
 

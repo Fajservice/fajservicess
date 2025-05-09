@@ -5,8 +5,7 @@ const KitchenEquipmentAMC = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="/img/banners/annual-maintenance-contract-(AMC).jpg"
-
+                bgImg="/img/banners/kitchen equipments/Kitchen-Equipment-AMC.jpg"
                 Title="KITCHEN EQUIPMENT AND APPLIANCES AMC SERVICES"
             ></BreadCumb> 
             <KitchenEquipmentAMCDetail></KitchenEquipmentAMCDetail>

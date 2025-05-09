@@ -115,8 +115,8 @@ const GasRangeRepairServiceDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Best Gas Cooker Repair - Cooking Range Service Near Me</title>
-        <meta name="description" content="Are you looking for gas cooker repair Dubai? Dail 043300002 for gas stove, electric stove repair service. Get fast fix cooking range, induction repairs"></meta>
+        <title>Commercial Kitchen Gas Cooker Repair - Fix Restaurant Range</title>
+        <meta name="description" content="FAJ experts in commercial catering equipment maintenance in Dubai. AMC for gas cookers, electric stoves, ranges, hotplates & kitchen appliances."></meta>
       </HelmetProvider>
       <HeaderForm />
 

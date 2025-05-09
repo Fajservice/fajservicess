@@ -114,8 +114,8 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Best Appliances Service Dubai - Appliance Repair Near Me</title>
-        <meta name="description" content="We offer an appliances repair near you. Get expert in refrigerator, fridge, washing machine, dryer, dishwasher, gas stove, oven service near me Dubai"></meta>
+        <title>Robot Vacuum Cleaner Repair - Best Vacuum Cleaner Service</title>
+        <meta name="description" content="Need Robot Vacuum Cleaner Repair? FAJ provides expert for Xiaomi, Roomba, TP-Link, Eufy, and Anker vacuum services. Book now at 043300002!"></meta>
       </HelmetProvider>
       <HeaderForm />
 
@@ -185,7 +185,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
             <h3 className="cs_fs_30">Why is Vacuum Cleaner Maintenance Service Important in Dubai?</h3>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Cooking-Range-Repair-Nearby-You.jpg`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/why home app.jpg`} alt="Post Image" />
               </div>
               <div className="col-md-6">
                 <p>
@@ -346,7 +346,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                   className="bordered-img blue-border"
                   width="100%"
                   height="350"
-                  src="https://www.youtube.com/embed/SLGpswtzn-w"
+                  src="https://www.youtube.com/embed/M9ghmjMAJ3E"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

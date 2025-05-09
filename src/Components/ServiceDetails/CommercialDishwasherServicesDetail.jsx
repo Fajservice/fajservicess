@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../Data/commercialcoffeemachinesrepairFaqs.json';
+import data from '../../Data/CommercialDishwasherServiceFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
@@ -86,7 +86,6 @@ const CommercialDishwasherServicesDetail = ({ subtitle, title, bgImg }) => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
-    // cssEase: 'linear',
 
     responsive: [
       {
@@ -113,8 +112,8 @@ const CommercialDishwasherServicesDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Best Appliances Service Dubai - Appliance Repair Near Me</title>
-        <meta name="description" content="We offer an appliances repair near you. Get expert in refrigerator, fridge, washing machine, dryer, dishwasher, gas stove, oven service near me Dubai"></meta>
+        <title>Commercial Dishwasher Repair and Maintenance Service Dubai</title>
+        <meta name="description" content="Get fast commercial dishwasher repair in Dubai. We service Fagor, Electrolux, Meiko, Elettrobar, Hobart & more. AMC & maintenance available."></meta>
       </HelmetProvider>
       <HeaderForm />
 

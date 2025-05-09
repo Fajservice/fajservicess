@@ -562,7 +562,7 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, bgImg }) => {
         {/* We specialise   */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3> We specialise in Refrigerator services for the following brands </h3>
+            <h3> We specialise in Washing Machine services for the following brands </h3>
             <div className="row">
               <div className="col-12">
 

@@ -55,12 +55,6 @@ const DeepFryerServiceDetail = ({ subtitle, title, bgImg }) => {
     autoplaySpeed: 5000,
     pauseOnHover: true,
 
-    // autoplay: true,
-    // autoplaySpeed: 0,
-    // speed: 8000,
-    // pauseOnHover: true,
-    // cssEase: 'linear',
-
     responsive: [
       {
         breakpoint: 1399,
@@ -91,7 +85,6 @@ const DeepFryerServiceDetail = ({ subtitle, title, bgImg }) => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
-    // cssEase: 'linear',
 
     responsive: [
       {
@@ -118,8 +111,8 @@ const DeepFryerServiceDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Gas Deep Fryer Service & Electric Fryer Repair Dubai</title>
-        <meta name="description" content="Need gas deep fryer service in Dubai? FAJ offers reliable commercial deep fryer repair & sustainable solutions. Call now for service at 04 3300002"></meta>
+        <title>Top Deep Fryer Repair And Maintenance Service in Dubai </title>
+        <meta name="description" content="Experience quick and reliable deep fryer service in Dubai, UAE with FAJ Technical Services LLC. Enjoy the sustainable repairs, Give us a call now 043300002."></meta>
       </HelmetProvider>
       <HeaderForm />
 

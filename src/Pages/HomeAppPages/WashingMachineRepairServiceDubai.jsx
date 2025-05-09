@@ -6,7 +6,6 @@ const WashingMachineRepairServiceDubai = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                // bgImg="/img/page_heading_1.jpg"
                 bgImg="/img/banners/washing-machine.jpg"
                 Title="Washing Machine Repair Service in Dubai"
             ></BreadCumb> 

@@ -55,12 +55,6 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
     autoplaySpeed: 5000,
     pauseOnHover: true,
 
-    // autoplay: true,
-    // autoplaySpeed: 0,
-    // speed: 8000,
-    // pauseOnHover: true,
-    // cssEase: 'linear',
-
     responsive: [
       {
         breakpoint: 1399,
@@ -91,7 +85,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
-    // cssEase: 'linear',
+
 
     responsive: [
       {
@@ -118,8 +112,8 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Meat Grinder Repair & Maintenance Services Dubai</title>
-        <meta name="description" content="Need meat grinder repair in Dubai? FAJ offers expert repair services near me. Call us now for fast and reliable meat grinder repair at 043300002."></meta>
+        <title>Meat Grinder Repair Services Dubai | FAJ Professional</title>
+        <meta name="description" content="Trust FAJ Professional and avail top-quality Meat Grinder Repair Services in Dubai, UAE. Join hands with us now and give us a call 043300002."></meta>
       </HelmetProvider>
       <HeaderForm />
 

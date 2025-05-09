@@ -115,9 +115,8 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Best Dishwasher Repair Service In Dubai - Dish Wash Fix #1</title>
-        <meta name="description" content="Dishwasher repair service in Dubai FAJ is here to help
-         with integrated dishwasher fix service and dish washer machine maintenance call +971507464712"></meta>
+        <title>Best Dishwasher Repair Service In Dubai - Dish Wash Fix #1        </title>
+        <meta name="description" content="Dishwasher repair service in Dubai FAJ is here to help with integrated dishwasher fix service and dish washer machine maintenance call +971507464712"></meta>
       </HelmetProvider>
       <HeaderForm />
 
