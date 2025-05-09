@@ -76,8 +76,8 @@ const AcRepairInJumeirahBeachResidenceDetail = ({ subtitle, title, bgImg }) => {
     return (
         <>
             <HelmetProvider>
-                <title>AC Services in Jumeirah Beach Residence - Aircon Maintenance Dubai Near Me</title>
-                <meta name="description" content="AC Services in Jumeirah Beach Residence Dubai. We are experts in central & split air conditioner repairs and maintenance service in my location dubai 043300002"></meta>
+                <title>AC Services in Jumeirah Beach Residence - Aircon Repair</title>
+                <meta name="description" content="AC Services in Jumeirah Beach Residence Dubai. We are experts in central & split air conditioner repairs and maintenance service in my location dubai."></meta>
             </HelmetProvider>
             <HeaderForm />
             <div className="cs_service_details">
