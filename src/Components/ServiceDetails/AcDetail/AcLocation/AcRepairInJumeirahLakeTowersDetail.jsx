@@ -106,7 +106,7 @@ const AcRepairInJumeirahLakeTowersDetail = ({ subtitle, title, bgImg }) => {
                         <div className="row gx-md-5">
                             <div className="col-md-6">
                                 <h3 className="cs_fs_24 mb-1">Best AC Repair in Jumeirah Lake Towers</h3>
-                                <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>in Jumeirah Lake Towers, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
+                                <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> in Jumeirah Lake Towers, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
                                 <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
                                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
@@ -134,7 +134,7 @@ const AcRepairInJumeirahLakeTowersDetail = ({ subtitle, title, bgImg }) => {
                         </div>
 
                         <div className="appointment-col border-small-top pt-3">
-                            <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/ac-service-in-dubai/"><b>AC cleaning service</b></Link> , repair, or maintenance. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+                            <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/ac-service-in-dubai/"><b>AC cleaning service</b></Link>, repair, or maintenance. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
                             <div id="get-quote" className=" mt-3">
                                 <div className="container d-flex justify-content-center align-items-center gap-3">
                                     <WhatsappIconButton />

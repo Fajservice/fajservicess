@@ -76,8 +76,8 @@ const AcRepairInJumeirahBeachResidenceDetail = ({ subtitle, title, bgImg }) => {
     return (
         <>
             <HelmetProvider>
-                <title>AC Services in Al Sufouh - Aircon Maintenance Dubai Near Me</title>
-                <meta name="description" content="AC Services in Al Sufouh Dubai. We are experts in central & split air conditioner repairs and maintenance service in my location dubai 043300002"></meta>
+                <title>AC Services in Jumeirah Beach Residence - Aircon Repair</title>
+                <meta name="description" content="AC Services in Jumeirah Beach Residence Dubai. We are experts in central & split air conditioner repairs and maintenance service in my location dubai."></meta>
             </HelmetProvider>
             <HeaderForm />
             <div className="cs_service_details">
@@ -106,8 +106,8 @@ const AcRepairInJumeirahBeachResidenceDetail = ({ subtitle, title, bgImg }) => {
                     <div className="container">
                         <div className="row gx-md-5">
                             <div className="col-md-6">
-                                <h3 className="cs_fs_24 mb-1">Best AC Repair in Al Sufouh</h3>
-                                <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> in Al Sufouh, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
+                                <h3 className="cs_fs_24 mb-1">Best AC Repair in Dubai</h3>
+                                <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> in Jumeirah Beach Residence, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
                                 <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
                                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>

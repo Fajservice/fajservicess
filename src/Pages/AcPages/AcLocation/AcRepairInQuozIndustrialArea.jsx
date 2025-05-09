@@ -1,14 +1,14 @@
 import React from 'react'
 import BreadCumb from "../../../Components/Common/BreadCumb";
-import AcRepairInAlQuozDetail from '../../../Components/ServiceDetails/AcDetail/AcLocation/AcRepairInAlQuozDetail';
+import AcRepairInRasAlKhorIndustrialAreaDetail from '../../../Components/ServiceDetails/AcDetail/AcLocation/AcRepairInRasAlKhorIndustrialAreaDetail';
 const AcRepairInQuozIndustrialArea = () => {
   return (
     <div className="serviceDetails">
     <BreadCumb
         bgImg="/img/air-condition.jpg"
-        Title="AC Service in Al Quoz"
+        Title="AC Service in Al Quoz Industrial Area"
     ></BreadCumb>
-    <AcRepairInAlQuozDetail />
+    <AcRepairInRasAlKhorIndustrialAreaDetail />
 </div>
   )
 }

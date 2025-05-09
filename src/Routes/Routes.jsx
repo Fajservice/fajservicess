@@ -5,7 +5,6 @@ import Main from "../Layout/Main";
 import Home from "../Pages/Home";
 import AboutPage from "../Pages/AboutPage";
 import AcMaintenanceDubai from "../Pages/AcMaintenanceDubai";
-import AcServiceInDubai from "../Pages/AcServiceInDubai";
 import AcAnnualMaintenanceContract from "../Pages/AcAnnualMaintenanceContract";
 import AcRepairDubai from "../Pages/AcRepairDubai";
 import FreestandingHomeAppliancesRepairService from "../Pages/HomeAppPages/FreestandingHomeAppliancesRepairService";
@@ -167,7 +166,6 @@ import AcRepairInDubaiInternationalFinancialCenter from "../Pages/AcPages/AcLoca
 import AcRepairInBurDubai from "../Pages/AcPages/AcLocation/AcRepairInBurDubai";
 import AcRepairInSiliconOasisDubai from "../Pages/AcPages/AcLocation/AcRepairInSiliconOasisDubai";
 import AcRepairInDubailandMazayaQueue from "../Pages/AcPages/AcLocation/AcRepairInDubailandMazayaQueue";
-import AcRepairInDownTown from "../Pages/AcPages/AcLocation/AcRepairInDowntown";
 import AcRepairInNadAlSheba from "../Pages/AcPages/AcLocation/AcRepairInNadAlSheba";
 import AcRepairInAlBarari from "../Pages/AcPages/AcLocation/AcRepairInAlBarari";
 import AcRepairInBaySquare from "../Pages/AcPages/AcLocation/AcRepairInBaySquare";
@@ -195,9 +193,10 @@ import AcRepairInDubaiHillsEstate from "../Pages/AcPages/AcLocation/AcRepairInDu
 import AcRepairInProductionCity from "../Pages/AcPages/AcLocation/AcRepairInProductionCity";
 import AcRepairandServiceInEmiratesHills from "../Pages/AcPages/AcLocation/AcRepairandServiceInEmiratesHills";
 import AcRepairandServiceInTownSquare from "../Pages/AcPages/AcLocation/AcRepairandServiceInTownSquare";
-// import AcServiceInDubai from "../Pages/AcPages/AcLocation/AcServiceInDubai";
-import IndesitWashingMachine from "../Pages/AppliancesPage/AppliancesBrand/IndesitWashingMachine.jsx";
+import AcServiceInDubai from "../Pages/AcServiceInDubai.jsx";
 import BBQService from "../Pages/HomeAppPages/BBQService.jsx";
+import IndesitWashingMachine from "../Pages/AppliancesPage/AppliancesBrand/IndesitWashingMachine.jsx";
+import AcRepairInDownTown from "../Pages/AcPages/AcLocation/AcRepairInDowntown.jsx";
 export const router = createHashRouter([
   {
     path: "/",
@@ -1003,6 +1002,10 @@ export const router = createHashRouter([
       {
         path: "/ac-services-in-dubai-international-financial-centre/",
         element: <AcRepairInDubaiInternationalFinancialCenter />,
+      },
+      {
+        path: "/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-oven-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa/",
+        element: <IndesitWashingMachine />,
       },
     ],
   }

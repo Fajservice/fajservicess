@@ -13,12 +13,13 @@ const Process = () => {
     <section className="cs_bg_filed" data-background={`${import.meta.env.BASE_URL}/img/processbg.jpg`}>
       <div className="cs_height_80 cs_height_lg_80"></div>
       <div className="container">
-        <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
+        <div className="cs_section_heading cs_style_1 text-center">
           <SectionTitle2
-            SubTitle="Working Process"
-            Title="Our Shimpol Working Process"
+            SubTitle="Our Values"
+            Title="Our Professional Working Process"
           ></SectionTitle2>
         </div>
+        <p className="text-center cs_mb_47">Our beliefs drive our actions, while our convictions define our purpose and passion.</p>
         <div className="row cs_row_gap_30 cs_gap_y_30">
         {data.map((item, i) => (
           <div key={i} className="col-xl-3 col-md-6">

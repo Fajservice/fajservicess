@@ -77,7 +77,7 @@ const AcRepairInArabianRanches2Detail = ({ subtitle, title, bgImg }) => {
         <>
             <HelmetProvider>
                 <title>AC Services In Arabian Ranches 2 - Aircon Fix - Ac Repair #1</title>
-                <meta name="description" content="Are you finding for AC Services in Arabian Ranches Dubai? Dail 043300002 for Carrier, LG air conditioning repair and maintenance near me. AC fix"></meta>
+                <meta name="description" content="Are you finding for AC Services in Arabian Ranches 2 Dubai? Dail 043300002 for Carrier, LG air conditioning repair and maintenance near me. AC fix"></meta>
             </HelmetProvider>
             <HeaderForm />
             <div className="cs_service_details">

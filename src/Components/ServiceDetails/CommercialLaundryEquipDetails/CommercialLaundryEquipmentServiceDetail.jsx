@@ -1,5 +1,4 @@
 
-
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../Data/CommercialLaundryEquipData/FAQs/CommercialLaundryEquipmentServiceFaqs.json';

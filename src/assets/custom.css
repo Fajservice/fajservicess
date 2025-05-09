@@ -22,7 +22,14 @@
     max-width: 1140px;
   }
 }
-
+.cs_brand img {
+  max-width: 160px;
+}
+.cs_brands_wrapper {
+  padding: 50px;
+  gap: 40px 40px;
+  justify-content: center;
+}
 /* SVG Animation */
 .toolssvgmove {
   -webkit-animation: spinAnimation 7s linear infinite;
@@ -31,8 +38,6 @@
   object-fit: contain !important;
   width: auto !important;
 }
-
-
 @-webkit-keyframes spinAnimation {
   0% {
     -webkit-transform: rotateX(-20deg) rotateY(0deg);

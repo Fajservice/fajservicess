@@ -78,7 +78,7 @@ const AcRepairInSiliconOasisDetail = ({ subtitle, title, bgImg }) => {
         <>
         <HelmetProvider>
             <title>Best AC Services In Silicon Oasis Dubai - Aircon Repairs #1</title>
-            <meta name="description" content="Are you finding AC Services in Jebel Ali Free Zone Dubai? Call 043300002 for ceiling, HVAC, central air conditioner repair & maintenance near me"></meta>
+            <meta name="description" content="Are you finding AC Services in Silicon Oasis Dubai? Call 043300002 for ceiling, HVAC, central air conditioner repair & maintenance near me"></meta>
         </HelmetProvider>
         <HeaderForm />
         <div className="cs_service_details">

@@ -132,7 +132,7 @@ const ServiceDetails = () => {
                     <p className="cs_white_color cs_mb_5">Requesting A Call</p>
                     <a href="tel:+111(564)56825" className="cs_call_text cs_fs_30 cs_bold cs_heading_font cs_mb_23">+111 (564) 568 25</a>
                     <p className="cs_card_subtitle cs_white_color cs_mb_33">Invest in high-quality diagnostic tools, lifts, and other essential repair equipment certified mechanics and provide</p>
-                    <Link to="/about" className="cs_card_btn">
+                    <Link to="/about-us/" className="cs_card_btn">
                       <span>Read more</span>
                       <span><i className="bi bi-arrow-right"></i></span>
                     </Link>
