@@ -1,6 +1,6 @@
-import React from 'react'
 import BreadCumb from "../../../Components/Common/BreadCumb";
 import IndesitWashingMachineDetail from '../../../Components/ServiceDetails/AppliancesDetail/AppliancesBrand/IndesitWashingMachineDetail';
+
 const IndesitWashingMachine = () => {
   return (
     <div className="serviceDetails">
@@ -11,7 +11,7 @@ const IndesitWashingMachine = () => {
 
     <IndesitWashingMachineDetail />        
 </div>
-  )
-}
+  );
+};
 
-export default IndesitWashingMachine
+export default IndesitWashingMachine;
