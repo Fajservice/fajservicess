@@ -1,29 +1,22 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInBusinessBay.json';
+import data from '../../Data/AcData/AcFaqs/AcServiceInDubaiFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
-import FAJACPrice from '../../../Miscellaneous/FAJACPrice';
-import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
-import CallNowButton from '../../../Buttons/CallNowButton';
-import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
-import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMaintenance";
-import QuickGuide from "../../../QuickGuide/QuickGuide";
-import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
-import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
+import FAJACPrice from '../Miscellaneous/FAJACPrice';
+import Serviceappointemnt from '../Contact/Serviceappointemnt';
+import CallNowButton from '../Buttons/CallNowButton';
+import WhatsappIconButton from "../Buttons/WhatsappIconButton";
+import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
+import QuickGuide from "../QuickGuide/QuickGuide";
+import ACWhyChooseUs from "../WhyChooseUS/ACWhyChooseUs";
+import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
-<<<<<<< HEAD:src/Components/ServiceDetails/AcDetail/AcServiceInDubaiDetail.jsx
-import testimonial from '../../../Data/AcData/AcTestimonial/AcServiceTestimonials.json'
-import loadBackgroudImages from "../../Common/loadBackgroudImages";
-=======
-import testimonial from '../../../../Data/AcData/AcTestimonial/AcServiceTestimonials.json';
-import loadBackgroudImages from "../../../Common/loadBackgroudImages";
->>>>>>> df8883921ec6ac9947b92afdb59ad2ad82e325cc:src/Components/ServiceDetails/AcDetail/AcLocation/AcServiceInDubaiDetail.jsx
+import testimonial from '../../Data/AcData/AcTestimonial/AcServiceTestimonials.json';
+import loadBackgroudImages from "../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
-import HeaderForm from "../../../Headeform/HeaderForm";
-import WeSpecialise from "./WeSpecialise/WeSpecialise";
-
-
+import HeaderForm from "../Headeform/HeaderForm";
+import WeSpecialise from "./AcDetail/AcLocation/WeSpecialise/WeSpecialise";
 
 const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
   subtitle = "Testimonial"
