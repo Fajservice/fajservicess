@@ -153,8 +153,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                 <h3 className="cs_fs_24 mb-1">Select Your Vacuum Cleaner Repair</h3>
 
                 <p className="mb-2">
-                  We understand that a vacuum cleaner breakdown is never convenient. Our expert technicians are here to provide efficient vacuum repair services. Roborock, Dreame Robot, Eufy Robot, Ecovacs Deebot, Roomba, Narwal, Dyson Robot Vacuum Cleaner Repair and Service Center in Dubai
-
+                  We understand that a vacuum cleaner breakdown is never convenient. Our expert technicians are here to provide efficient vacuum repair services. Roborock, Dreame Robot, Eufy Robot, Ecovacs Deebot, Roomba, Narwal, Dyson Robot Vacuum Cleaner Repair and Service Center in Dubai.
                 </p>
 
 
@@ -188,7 +187,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/why home app.jpg`} alt="Post Image" />
               </div>
               <div className="col-md-6">
-                <p>
+                <p className="mb-0">
                   Vacuum cleaner maintenance is crucial for its longevity and performance and to ensure your home is cleaned effectively and safely.
 
                   <br /> Here's why vacuum cleaner maintenance is important:
@@ -357,8 +356,11 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-xl-6">
                 <p className="mb-0">
                   In Dubai, vacuum cleaner services provide repair, maintenance, and servicing to extend the lifespan of your vacuum cleaner.
+                  <br />
                   These services can range from quick fixes to comprehensive overhauls, with some companies specializing specifically in robotic vacuum cleaners.
-                  Here’s a detailed overview of vacuum cleaner services offered in Dubai, UAE: Service Options:
+                  <br />
+                  Here’s a detailed overview of vacuum cleaner services offered in Dubai, UAE:
+                   {/* Service Options: */}
                 </p>
 
                 {/* <p className='mb-0'><strong>Our services include:</strong></p> */}
@@ -441,8 +443,8 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}/img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Extending vacuum cleaner Lifespan</h4>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your home vacuum cleaner, delaying the need for replacements.</p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">vacuum cleaner Lifespan</h4>
+                      <p className="small">Proper care and timely servicing can significantly increase life of your vacuum cleaner, delaying the need for replacements.</p>
 
                     </div>
 
@@ -533,7 +535,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two vacuum cleaner at the same in Dubai location.</p>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two vacuum cleaner at the same location in Dubai.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -798,7 +800,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                   <li>Philips Vacuum Cleaner Service</li>
                   <li>Switchbot Repair Shop Vacuum</li>
                   <li>Kenwood Vacuum Cleaner Repairs</li>
-                  <li>Ecovacs Deebot Vacuum Cleaner Repair and Cleaning</li>               
+                  <li>Ecovacs Deebot Vacuum Cleaner Repair and Cleaning</li>
                 </ul>
               </div>
               <div className="col-sm-4">
@@ -818,14 +820,14 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
               </div>
               <div className="col-sm-4">
                 <ul>
-                <li>Ecovacs Deebot Vacuum Cleaner Repairing</li>
+                  <li>Ecovacs Deebot Vacuum Cleaner Repairing</li>
                   <li>Karcher Vacuum Cleaner Repair and Service</li>
                   <li>Dyson Vacuum Cleaner Repair and Cleaning</li>
                   <li>Hitachi Vacuum Cleaner Repair and Cleaning</li>
                   <li>Roborock Vacuum Cleaner Repair and Cleaning</li>
                   <li>Deebot Vacuum Cleaner Repair and Maintenance</li>
                   <li>iRobot Roomba Vacuum Cleaner Repair and Service</li>
-                  <li>Xiaomi Robot Vacuum Cleaner Repair and Servicing</li>              
+                  <li>Xiaomi Robot Vacuum Cleaner Repair and Servicing</li>
                 </ul>
               </div>
             </div>

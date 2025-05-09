@@ -12,7 +12,7 @@ import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
 import testimonial_data from '../../../Data/RefrigerationEquipData/Testmonials/IceMakerRepairTestimonial.json';
-import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
+import brandsLogo_data from '../../../Data/IceMakersBrandsLogo.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
@@ -88,8 +88,6 @@ const IceMakerRepairDetail = ({ subtitle, title, bgImg }) => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
-    // cssEase: 'linear',
-
     responsive: [
       {
         breakpoint: 1399,
@@ -125,10 +123,11 @@ const IceMakerRepairDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">Choose Ice Maker Service Center for Same-Day Repairs in Dubai</h2>
+            <h2 className="cs_fs_30">We provide top-quality repair and maintenance services for ice maker machines</h2>
             <p>
-              Since 2010, FAJ has been a trusted name in ice maker repair and service in Dubai and Sharjah. Our skilled professionals are ready to assist with any brand, using high-quality tools for effective service.
-              <br /> We prioritise repairs over replacements, helping you save money and avoid the hassle of buying a new ice maker. Rely on our experienced experts for fast and reliable ice maker maintenance in Dubai!
+              If you need urgent ice maker repair service in Dubai, you've come to the right place! FAJ has been a trusted maintenance provider since 2010. We also specialise in commercial ice machine repairs, ensuring that businesses always have a reliable supply of ice.
+              <br />If your ice maker is not working properly, contact FAJ Professionals! We prioritise customer satisfaction and offer customised solutions for all your ice maker repair and maintenance needs in Dubai.
+
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -148,28 +147,16 @@ const IceMakerRepairDetail = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" /> */}
-                <h3 className="cs_fs_24 mb-1">Signs you need an ice maker repair</h3>
+                <h3 className="cs_fs_24 mb-1">Reliable Fast Ice Maker Machine Services in Dubai</h3>
 
                 <p className="mb-2">
-                  Following are the scenarios when it is time to get the repair done.
+                  Our experts are highly skilled and always work to a high-quality standard. We regularly provide ice machine servicing and repair services for a wide range of ice machine brands, including those used in restaurants, cafes, shops, hotels, and other establishments.
                 </p>
-                <ul>
-                  <li>  Decreased formation of ice. </li>
-                  <li>  Unusual sounds made while the machine is operating. </li>
-                  <li> Leakage of water. </li>
-                  <li> Ice that tastes or smells strange. </li>
-                  <li> Ice appears hazy or discolored. </li>
-                  <li> The machine is not turning on. </li>
-                  <li> Excessive ice accumulation or frost. </li>
-                </ul>
 
-
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">ICE Maker Technical Inspection Fee </h3>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Ice Machine Service and Maintenance </h3>
                 <p className="mb-0">
-                  The technical inspection fee is AED 157, which covers diagnosis, transportation, and reinstallation in Dubai premises.
-                  <br />Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.
-
+                  The technical inspection fee includes diagnosis, transportation, and reinstallation at your premises in Dubai. Please note that this fee is non-refundable and is a flat rate.
+                  <br />However, it does not cover the cost of any repair, cleaning service and parts that may need to be replaced. Please contact us.
                 </p>
               </div>
 
@@ -189,23 +176,25 @@ const IceMakerRepairDetail = ({ subtitle, title, bgImg }) => {
         {/* Why  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">Why is Dishwasher Maintenance Service Important in Dubai?</h3>
-            <p>
+            <h3 className="cs_fs_30">Why is Ice Maker Machine Maintenance Service Important in Dubai?</h3>
+            {/* <p>
               Proper dishwasher maintenance is essential for extending its lifespan and enhancing efficiency, especially in Dubai’s climate. Here are the main benefits:
-            </p>
+            </p> */}
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Cooking-Range-Repair-Nearby-You.jpg`} alt="Post Image" />
               </div>
               <div className="col-md-6">
+                <p className="mb-0">
+                  Regular maintenance of ice machines offers essential benefits that can positively impact your operations and bottom line.
+                </p>
                 <ul className="mb-0">
-                  <li> <strong> Dishwasher Extended Lifespan: </strong> Regular maintenance helps the dishwasher last longer, saving on replacement costs. </li>
-                  <li> <strong> Dishwasher Improved Efficiency: </strong> A well-maintained dishwasher uses less energy, leading to lower utility bills, which is essential in Dubai. </li>
-                  <li> <strong> Dishwasher Preventing Costly Repair: </strong> Catching minor issues early prevents them from escalating into expensive repairs. </li>
-                  <li> <strong> Dishwasher Preserving induction hob Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
-                  <li> <strong> Dishwasher Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious. </li>
-                  <li> <strong> Dishwasher Cost-Effective: </strong> Maintenance costs are lower than early replacements or significant repairs. Investing in dishwasher care ensures safety and efficiency and is a wise economic choice in Dubai. </li>
-                  <li> <strong> Dishwasher Energy Efficiency: </strong> Regularly maintaining your dishwasher can improve efficiency and save you money. </li>
+                  <li><strong>  Reduced Repairs: </strong> Regular maintenance prevents minor issues from escalating, reducing repair frequency and costs for ice machines.</li>
+                  <li><strong>  Enhanced Efficiency: </strong> Maintaining your ice machine in optimal condition ensures it operates efficiently, consumes less energy, and lowers operational costs.</li>
+                  <li><strong>  Extended Lifespan: </strong> Well-maintained extends machine lifespan, boosts returns, and delays costly replacements.</li>
+                  <li><strong>  Consistent Ice Quality: </strong> Regular maintenance keeps your ice clean and free of impurities, improving the taste and safety of your drinks.</li>
+                  <li><strong>  Health and Safety Compliance: </strong> Regular cleaning and sanitizing prevent bacteria and mold, ensuring your ice meets health and safety standards.</li>
+                  <li><strong>  Optimized Performance: </strong> Expert maintenance services include detailed inspections and adjustments that ensure your machine operates smoothly and efficiently.</li>
 
                 </ul>
               </div>
@@ -216,32 +205,17 @@ const IceMakerRepairDetail = ({ subtitle, title, bgImg }) => {
         {/* Common Problems */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="text-center">The Most Common Problems with Dishwashers  </h3>
+            <h3 className="text-center">The Most Common Problems with the Ice Maker Machine  </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Drainage Issues</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Clogged Ice Maker  </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Dishwasher machine water is pooling in the bottom of your dishwasher at the end of every cycle.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Cycle Won’t Start</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      When you press “start”, nothing happens. Your cycle doesn’t begin, and your dishwasher doesn’t seem to respond, despite the display panel appearing normal.
+                      One common problem with ice makers is a clogged water filter that needs to be replaced or cleaned. Ensure that there is sufficient water flowing.
                     </p>
                   </div>
                 </div>
@@ -250,56 +224,60 @@ const IceMakerRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Water Leaks </h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">No Ice Cube</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-
-                      You have noticed water leaking or pooling around your dishwasher when it runs, causing damage to your flooring and the surrounding area.
-
                     </p>
                   </div>
                 </div>
               </div>
+
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Excessive Suds                    </h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Defective Water Inlet Valve</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-
-                      Your dishwasher fills with excess suds when you use it. You may also notice suds remaining in the bottom of the dishwasher after the cycle is finished and excessive residue on your dishes.
-
-
+                    <p className="p-2 mb-0">Defective Water Inlet Valve: The inlet valve allows water into the ice maker. Blockages or damage can stop water flow.
                     </p>
                   </div>
                 </div>
               </div>
+
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Door Not Closing</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Ice Machine Freezing Over</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-
-                      The dishwasher door isn’t closing properly, preventing the cycle from starting.
-
                     </p>
                   </div>
                 </div>
               </div>
+
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Not Filling With Water</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Ice Does Not Form Properly</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
+                      The ice maker may struggle to produce ice at its intended rate when the ice machine temperatures are set too high.
+                    </p>
+                  </div>
+                </div>
+              </div>
 
-                      When you start the dishwasher cycle, the interior doesn’t fill with water, or only fills a small amount.
-
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Making Strange Noises</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      To address low water temperature in the storage tray, reset the ice-making cycle and restart the machine after turning it off.
 
                     </p>
                   </div>
@@ -309,35 +287,30 @@ const IceMakerRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Heating Issues</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Faulty Ice Mold</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-
-                      Your dishwasher is not heating the water sufficiently, leading to cold washes and improperly cleaned dishes. Hot water is needed to properly activate the dishwasher detergent.
-
+                      Check the mold if there’s no ice in the tray. If ice is present but not dropping, it may indicate an issue.
 
                     </p>
                   </div>
                 </div>
               </div>
-
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishes Not Drying</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Ice Machine Won't Operate</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Your dishes come out of the dishwasher still wet, requiring manual drying after every load.
+                      A common reason ice machines fail is an electrical fault in either the parts or the water components.
 
                     </p>
                   </div>
                 </div>
               </div>
-
-
 
             </div>
 
@@ -353,7 +326,7 @@ const IceMakerRepairDetail = ({ subtitle, title, bgImg }) => {
         {/*HERE ARE THE SERVICES */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">Top Quality Ice maker service provided by us </h3>
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR THE ICE MAKER MACHINE </h3>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -371,27 +344,19 @@ const IceMakerRepairDetail = ({ subtitle, title, bgImg }) => {
 
               <div className="col-xl-6">
                 <p className="mb-0">
-                  We specialise in all types and brands of ice makers.
-                </p>
-
-                {/* <p className='mb-0'><strong>Our services include:</strong></p> */}
+                  We specialise in all types and brands of commercial ice maker machines, including built-in ice makers.
+                  <br /><strong>Our services include:</strong></p>
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                  {/* <li> <strong> Dishwasher Installation: </strong>  Expert installation of various types and brands of dishwashers, ensuring optimal performance and efficiency. </li>
-                  <li> <strong> Dishwasher Diagnostics: </strong>  We conduct thorough fault finding to diagnose issues effectively. We also provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
-
-                  <li> <strong> Dishwasher Repair Service: </strong>  Efficient repair services for all dishwasher machine components, ensuring quick resolution of any issues, such as leaks, electrical failures, and system malfunctions. </li>
-
-                  <li> <strong> Dishwasher Annual Maintenance Contract: </strong>  This contract outlines the terms and services covered for the dishwasher's annual maintenance. </li> */}
-                  <p>
-
-                    It can be overwhelming and expensive to replace your ice maker, but don't worry, FAJ Professional is here to provide you commercial ice maker repair services. In addition to correctly configuring your machine, our experts optimize its performance by taking into account where and how you use it. To make good ice, use clean water. We use specialized water filters to ensure that your ice is pure and free of odd tastes. Do you wish your machine could do more? Whatever you need, we provide excellent ice maker machine repair services. Additionally, using a lower energy ice maker benefits your pocket. We examine the exact need of your machine and offer reliable ice-maker repair service. Prior to making any repairs, we notify you of the issue and the associated costs. It's preferable to avoid issues than to address them afterwards. We take care of problems before they become serious and we can take pride in being the best ice maker repair in Dubai.
-                  </p>
 
 
+
+                  <li> <strong> Ice Machine Installation: </strong> Professional installation of various brands and types of ice machines for optimal performance and efficiency. </li>
+                  <li> <strong> Ice Maker Diagnostics: </strong> We provide thorough fault-finding services to diagnose issues, along with eligibility assessments and detailed quotes to address any system concerns. </li>
+                  <li> <strong> Ice Machine Repair Service: </strong> Prompt and effective repair services for all ice machine components, addressing issues such as leaks, electrical failures, and system malfunctions. Feel free to contact us for specific services or if you have any questions! </li>
+                  <li> <strong> Ice Maker Annual Maintenance Contract: </strong> This contract details the terms and services for the annual maintenance of your ice maker machine. </li>
 
                   <p className="mb-0">
-                    Regular maintenance is essential for optimal performance, efficiency, and longevity of your ice maker.
-
+                    Regular maintenance is crucial for ensuring the optimal performance, efficiency, and longevity of your ice machine.
                   </p>
                 </ul>
 
@@ -403,7 +368,7 @@ const IceMakerRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section >
 
-        {/* The Benefits Of appliances Service Dubai */}
+        {/* The Benefits O */}
         <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
@@ -556,7 +521,7 @@ const IceMakerRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same in Dubai location.</p>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same location in Dubai.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -581,71 +546,29 @@ const IceMakerRepairDetail = ({ subtitle, title, bgImg }) => {
         {/* We specialise  */}
         <section className="section cs_py_30 bg-light-gray ">
           <div className="container">
-            <h3>We specialise in dishwasher services for the following brands </h3>
+            <h3>We specialise in Ice Machine and Ice Cube Maker services for the following brands </h3>
             <div className="row">
               <div className="col-12">
 
-                <p className="mb-0">
-                  <Link to="/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/">
-                    <b>LG Dishwasher Repair</b>
-                  </Link>: FAJ is here to support you when things go wrong. We understand that your LG cooker or induction are essential for daily life, helping you prepare meals efficiently and on time.
-                </p>
+                {/* <p className="mb-0">
+                  <Link to="//"><b> </b></Link>:
+                </p> */}
 
-                <p className="mb-0">
-                  <Link to="/siemens-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b>Samsung Dishwasher Repair</b>
-                  </Link>
-                  : If you are facing any problems with your Samsung dishwasher, contact the FAJ team for same-day repair service in Dubai.
+                <p className="mb-0"><b> Hoshizaki Ice Maker Repair </b>: FAJ is here to support you when things go wrong. We understand that your Hoshizaki ice cuber maker is essential for daily life, keeping your food fresh.</p>
+                <p className="mb-0"><b> Brema Ice Cube Maker Services </b>: If you are experiencing issues with your Brema ice maker, please contact the FAJ team for same-day repair service in Dubai.</p>
+                <p className="mb-0"><b> Simag Ice Machine Maintenance </b>: For Simag ice cube machine repair in Dubai, our team of professional and qualified technicians is available throughout the UAE.</p>
+                <p className="mb-0"><b> Brice Ice Flake Machine Repair </b>: If you're searching for the best Brice ice maker repair company in Dubai, FAJ is the top choice. They are renowned for delivering exceptional service for all Brice ice maker repairs and are recognized as the leading service provider in the area.</p>
+                <p className="mb-0"><b> Alinia Ice Machine Service </b>: If you are searching for the best Alinia repair company in Dubai, FAJ is the perfect choice. They are renowned for their exceptional service in repairing Alinia ice makers and are recognized as the leading provider of Alinia ice cube maker services in the area.</p>
+                <p className="mb-0"><b> Coolbaby Ice Maker Service </b>: Your Coolbaby ice cube maker may need repair or maintenance, and we can assist you. For high-quality Coolbaby ice machine repair in Dubai, trust FAJ.</p>
+                <p className="mb-0"><b> Scotsman Ice Maker Machine Repair Service </b>: We offer expert services for Scotsman ice machine repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Scotsman ice makers and more.</p>
+                <p className="mb-0"><b> Commercial Ice Maker and Ice Machine Maintenance </b>: Are you worried about your commercial ice maker malfunctioning and looking for a dependable company in Dubai? Contact us for same-day service!</p>
+                <p className="mb-0"><b> Electrolux Professional Ice Machine Repair Service </b>: If you're looking for the top Electrolux professional ice machine repair company in Dubai, FAJ is the perfect choice. They are well-known for providing outstanding service for Electrolux professional ice maker repairs. FAJ has established itself as the leading service provider for Electrolux professional ice machines in the area.</p>
 
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/la-germania-cooking-range-repair-in-dubai-la-germania-oven-repair-in-dubai-la-germania-cooker-repair-in-dubai-la-germania-cooker-oven-maintenance-service-in-dubai-refrigerator-repair-in-dubai-fridge-r/">
-                    <b> Electrolux Dishwasher Repair</b>
-                  </Link>:  When you need Electrolux dishwasher repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE.
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/bosch-home-appliances-repair/">
-                    <b> Bosch Dishwasher Repair</b>
-                  </Link>: If you are looking for the best Bosch dishwasher repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch home appliance repair and are recognized as the leading Bosch dishwasher service provider in the area.
-
-                </p>
-
-
-                <p className="mb-0">
-                  <Link to="/viking-appliances-service/">
-                    <b> Viking Dishwasher Repair</b>
-                  </Link>: Your Viking dishwasher may require repair or maintenance and we can help. For high-quality Viking dishwashers in Dubai, rely on FAJ.
-
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b> Daewoo Dishwasher Repair</b>
-                  </Link>: We provide expert services for Daewoo dishwasher repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo refrigerator, dishwasher, dryer and more.
-
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub/">
-                    <b> Siemens Dishwasher Repair</b>
-                  </Link>: Are you concerned about your Siemens dishwasher malfunctioning and searching for a reliable Siemens dishwasher repair company in Dubai? Contact us for same-day service!
-
-
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b> Teka Dishwasher Repair</b>
-                  </Link>: If you're searching for the best Teka dishwasher repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka dishwashers, refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
-
-                </p>
 
 
                 <br />
 
-                <p><a href="#/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/">AEG</a>
+                {/* <p><a href="#/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/">AEG</a>
 
                   <span>&nbsp;-&nbsp;</span>
 
@@ -815,7 +738,7 @@ const IceMakerRepairDetail = ({ subtitle, title, bgImg }) => {
                   <span>&nbsp;-&nbsp;</span>
 
                   <a href="#/unimac-washing-machine-repair-in-dubai-unimac-dryer-repair-in-dubai-unimac-washer-dryer-repair-in-dubai-unimac-maintenance-in-dubai-unimac-laundry-service-in-dubai-unimac-dubai/">Unimac</a>
-                </p>
+                </p> */}
 
               </div>
 

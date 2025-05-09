@@ -78,7 +78,7 @@ const AcRepairInJLTdETAIL = ({ subtitle, title, bgImg }) => {
     <>
         <HelmetProvider>
             <title>AC Services In JLT - Central Aircon Fixing</title>
-            <meta name="description" content="Are you finding AC Services in Jebel Ali Free Zone Dubai? Call 043300002 for ceiling, HVAC, central air conditioner repair & maintenance near me"></meta>
+            <meta name="description" content="Are you finding AC Services in JLT? Call 043300002 for ceiling, HVAC, central air conditioner repair & maintenance near me"></meta>
         </HelmetProvider>
         <HeaderForm />
         <div className="cs_service_details">

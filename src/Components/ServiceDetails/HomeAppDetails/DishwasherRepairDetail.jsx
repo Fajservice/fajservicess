@@ -153,6 +153,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
 
                 <p className="mb-2">
                   Has your dishwasher stopped working completely? Or is it running, but your dishes and cutlery aren't coming out as clean as they should?
+                  <br />
                   At FAJ, we understand that a machine breakdown is always inconvenient. That's why our team of experts is here to provide dishwasher repair and service appointments near you in Dubai and Sharjah.
                 </p>
 
@@ -454,7 +455,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
                         <img src={`${import.meta.env.BASE_URL}/img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Extending dishwasher Lifespan</h4>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your home dishwasher, delaying the need for replacements.</p>
+                      <p className="small">Proper care and timely servicing can significantly increase life of your dishwasher, delaying the need for replacements.</p>
 
                     </div>
 
@@ -543,7 +544,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two dishwasher at the same in Dubai location.</p>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two dishwasher at the same location in Dubai.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -575,7 +576,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
                 <p className="mb-0">
                   <Link to="/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/">
                     <b>LG Dishwasher Repair</b>
-                  </Link>: FAJ is here to support you when things go wrong. We understand that your LG cooker or induction are essential for daily life, helping you prepare meals efficiently and on time.
+                  </Link>: FAJ is here to support you when things go wrong. We understand that your LG dishwasher is essential to daily life, keeping your dishes clean and ready for every meal.
                 </p>
 
                 <p className="mb-0">

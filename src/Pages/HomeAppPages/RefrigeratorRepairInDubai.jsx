@@ -5,8 +5,8 @@ const RefrigeratorRepairInDubai = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="/img/page_heading_1.jpg"
-                Title="Refrigerator Repair Near Me"
+                bgImg="/img/banners/refrigerator.jpg"
+                Title="Refrigerator Repair and Service in Dubai"
             ></BreadCumb> 
             <RefrigeratorRepairInDubaiDetails></RefrigeratorRepairInDubaiDetails>           
         </div>

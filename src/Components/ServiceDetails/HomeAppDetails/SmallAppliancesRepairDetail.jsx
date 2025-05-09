@@ -133,7 +133,7 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, bgImg }) => {
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30">Dubai's Best Small Appliances Service Center Near You</h2>
             <p>
-              Do you need small appliance repair? If you're looking for a reliable and trusted service, look no further than FAJ Technical Services LLC, established in 2010.
+              Do you need small appliance repair? If you're looking for a reliable and trusted service, look no further than F A J Technical Services L.L.C, established in 2010.
               We understand the inconvenience caused by a malfunctioning appliance, which is why we offer fast and professional small home appliance repair services in your area.
               <br />Our skilled technicians quickly diagnose and repair electrical appliances, getting them back to optimal performance in no time.
             </p>
@@ -175,7 +175,7 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, bgImg }) => {
 
               <div className="col-md-6 ">
                 {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/kitchen-equipment.jpg`} alt="Post Image" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/stand mixer.webp`} alt="Post Image" />
 
               </div>
             </div>
@@ -525,7 +525,7 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same in Dubai location.</p>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same location in Dubai.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -577,8 +577,7 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, bgImg }) => {
 
                   <li>
                     <strong>Steam Iron Box Repair Near Me: </strong>
-                    Is your toaster not heating or burning toast? We offer expert toaster repair in Dubai. Our technicians fix heating elements, timers, and wiring to restore your toaster to full working order.
-                    ya replace kar dia ga content jab time milay. </li>
+                    Is your toaster not heating or burning toast? We offer expert toaster repair in Dubai. Our technicians fix heating elements, timers, and wiring to restore your toaster to full working order.</li>
                   <li>
                     <strong>Toaster Repair Near Me: </strong>
                     If your electric iron isn’t working well, we offer repair services in Dubai. Our experts can help you get wrinkle-free clothes again by addressing heating elements, thermostat issues, and faulty wiring.

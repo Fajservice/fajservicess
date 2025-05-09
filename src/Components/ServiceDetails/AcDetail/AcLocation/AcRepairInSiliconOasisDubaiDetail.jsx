@@ -75,8 +75,8 @@ const AcRepairInSiliconOasisDubaiDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
     <HelmetProvider>
-        <title>Best AC Services In Silicon Oasis Dubai - Aircon Repairs #1</title>
-        <meta name="description" content="We offer air conditioning regas and AC Services in Silicon Oasis Dubai.Call us 043300002 Fix ac error, air condition general cleaning service nearby"></meta>
+        <title>AC Services In Dubai Silicon Oasis - Air Conditioner Fix #1</title>
+        <meta name="description" content="If you urgently need AC Services in Dubai Silicon Oasis, Dail now 043300002 ceiling & central air conditioning maintenance near me Dubai Aircon"></meta>
     </HelmetProvider>
     <HeaderForm />
     <div className="cs_service_details">

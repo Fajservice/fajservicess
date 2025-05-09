@@ -247,10 +247,12 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Filter Coffee Machine Problems</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Water Leaking</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">With filter coffee machines, a key factor to monitor is the heating plate. After brewing your pot of coffee, it’s common to leave it on the heating plate to keep it warm.
+                    <p className="p-2 mb-0">
+                      Leaking is common in commercial coffee machines, usually from worn seals or loose fittings. Check the seals to begin troubleshooting.
+
                     </p>
                   </div>
                 </div>
@@ -259,10 +261,13 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Capsule Coffee Machine Problems</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Excessive Steam Release</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0"> Capsule coffee machines are simple and reliable, but don't last forever, especially lesser-known brands. A key complication is programming cup sizes.</p>
+                    <p className="p-2 mb-0">
+                      Steam escaping from unexpected areas of your coffee machine can be concerning and often needs attention.
+
+                    </p>
                   </div>
                 </div>
               </div>
@@ -270,36 +275,13 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1"> Safety Valve Releasing Steam </h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Poor Espresso Extraction</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Moka pot users may experience the safety valve on the lower chamber releasing steam during the brewing process. This issue can occur for several reasons.</p>
-                  </div>
-                </div>
-              </div>
+                      If your espresso shots are consistently under-extracted or over-extracted, it can affect the flavor and quality of your coffee.
 
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Bitter or Burnt Coffee</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      If your coffee tastes bitter or burnt, it can be quite frustrating. This usually happens for two main reasons.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Grounds in the Cup</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Discovering coffee grounds in your cup can be an unpleasant surprise when using a moka pot. This issue can arise from two primary causes.</p>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -311,7 +293,9 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Espresso machines can experience various problems that affect their functionality and the quality of the coffee produced.</p>
+                      Espresso machines can experience various problems that affect their functionality and the quality of the coffee produced
+                      .
+                    </p>
                   </div>
                 </div>
               </div>
@@ -319,25 +303,61 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Vending Machine Problems</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Machine Not Running On</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Coffee vending machines, despite their simple design, tend to have a high number of issues. These machines are prone to several product-related faults.</p>
+                      Check the power source: Make sure your coffee machine is plugged in and the outlet is working. A loose connection might be the issue.
+
+                    </p>
                   </div>
                 </div>
               </div>
 
               <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
+                <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Automatic Coffee Machine Problems</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Tastes Bad</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Automatic coffee machines utilise whole coffee beans, exposing them to the oils in the beans. This is a concern that many other types of coffee machines don't face.</p>
+                    <p className="p-2 mb-0">
+                      Clean the machine regularly to prevent residue buildup that affects the taste of your coffee.
+
+                    </p>
                   </div>
                 </div>
               </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Grinder Malfunctions</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      In machines with built-in grinders, malfunctions can disrupt coffee production, especially if the grinder stops working.
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Brewing Quality Coffee</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+
+                      A coffee machine that isn’t brewing may have an empty water reservoir. Check that it is filled and properly seated.
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
@@ -450,7 +470,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
                         <img src={`${import.meta.env.BASE_URL}/img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Coffee Machines Lifespan</h4>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your home coffee machine, delaying the need for replacements.</p>
+                      <p className="small">Proper care and timely servicing can significantly increase life of your coffee machine, delaying the need for replacements.</p>
 
                     </div>
 
@@ -539,7 +559,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two coffee machine at the same in Dubai location.</p>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two coffee machine at the same location in Dubai.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
