@@ -76,7 +76,7 @@ const AcRepairInJvtDetail = ({ subtitle, title, bgImg }) => {
     <>
     <HelmetProvider>
         <title>Best AC Services In JVT Dubai - #1 AC Maintenance - A/C Fix</title>
-        <meta name="description" content="Gas Filling and AC Services in Umm Suqeim Dubai. Call an 043300002 for AC compressor fixing, motor repair and general maintenance near me.."></meta>
+        <meta name="description" content="Gas Filling and AC Services in JVT. Call an 043300002 for AC compressor fixing, motor repair and general maintenance near me.."></meta>
     </HelmetProvider>
     <HeaderForm />
     <div className="cs_service_details">
