@@ -256,11 +256,10 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
                     <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Food Poisoning</h3>
-                  </div>
+                  </div>  
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-
-                      Foodborne illness occurs when food contaminated with harmful bacteria, viruses, or poisons is finished. Examples include aflatoxins in peanuts, toxic mushrooms, and unboiled kidney beans.
+                      Foodborne illness occurs when food contaminated with harmful bacteria, viruses, or toxins is consumed. Examples include aflatoxins and raw kidney beans.
                     </p>
                   </div>
                 </div>
@@ -556,7 +555,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same in Dubai location.</p>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same location in Dubai.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">

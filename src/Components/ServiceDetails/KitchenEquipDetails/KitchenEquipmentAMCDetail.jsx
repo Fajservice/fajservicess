@@ -160,7 +160,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
             </div>
             <AppliancesAppointmentCol></AppliancesAppointmentCol>
           </div>
-        </section>       
+        </section>
 
         {/* The Most Common Problems with Home Appliances */}
         <section className="section cs_py_30">
@@ -272,15 +272,15 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3>Peace of Mind with Annual Maintenance Contracts</h3>
-                <p>Your kitchen equipment and appliances are essential for comfort in your home or business. Like other appliances, they need regular maintenance to operate efficiently and prevent breakdowns. FAJ provides comprehensive annual maintenance contracts (AMC) for café, catering, and restaurant kitchen equipment to ensure your appliances operate smoothly year-round. With our kitchen equipment AMC services, you can enjoy consistent comfort in your space. Experience exceptional peace of mind as we care for your appliances, ensuring optimal performance, energy efficiency, and longevity. Our comprehensive maintenance contract package allows you to say goodbye to unexpected breakdowns. Routine inspections and maintenance of your kitchen equipment are crucial for maintaining efficiency.</p>
-                <h3>HERE ARE THE MAINTENANCE SERVICES WE OFFER FOR KITCHEN EQUIPMENTS</h3>
-                <p>Here are some key points to consider for maintaining commercial kitchen equipment:</p>
+            <p>Your kitchen equipment and appliances are essential for comfort in your home or business. Like other appliances, they need regular maintenance to operate efficiently and prevent breakdowns. FAJ provides comprehensive annual maintenance contracts (AMC) for café, catering, and restaurant kitchen equipment to ensure your appliances operate smoothly year-round. With our kitchen equipment AMC services, you can enjoy consistent comfort in your space. Experience exceptional peace of mind as we care for your appliances, ensuring optimal performance, energy efficiency, and longevity. Our comprehensive maintenance contract package allows you to say goodbye to unexpected breakdowns. Routine inspections and maintenance of your kitchen equipment are crucial for maintaining efficiency.</p>
+            <h3>HERE ARE THE MAINTENANCE SERVICES WE OFFER FOR KITCHEN EQUIPMENTS</h3>
+            <p>Here are some key points to consider for maintaining commercial kitchen equipment:</p>
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/dishwasher.webp`} alt="Kitchen Equipments AMC" />
               </div>
               <div className="col-md-6">
-                
+
                 <ul>
                   <li> <strong> Service Scheduling: </strong>  Regular maintenance should be scheduled at specific intervals, such as weekly, monthly, or quarterly, depending on the equipment type and its usage. </li>
                   <li> <strong> Preventive Maintenance: </strong>  This involves cleaning, lubricating, and inspecting kitchen equipment to identify and resolve potential issues before they escalate into major problems. </li>
@@ -294,68 +294,70 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* The Benefits Of appliances Service Dubai */}
+        {/* Benefits */}
         <section className="section cs_py_30 appliances-benifit-sec">
           <div className="container">
             <div className="row justify-content-center">
-              <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai
+              <h3 className="cs_fs_30 mb-0">Benefits Of Regular Appliance Service and Maintenance in Dubai
               </h3>
               <div className="row gx-3 gy-5 mt-0">
-                <div className="col-md-4 mb-2">
+
+                <div className="col-md-3 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}/img/icons/Ensuring-Safety.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      <div className="icon-img-block border-0">
+                        <img src={`${import.meta.env.BASE_URL}/img/icons/24x7b.jpg`} alt="24x7" className="rounded shadow" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h4>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">24×7 days a week service</h4>
                       <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
                     </div>
                   </div>
                 </div>
-                <div className="col-md-4 mb-2">
+
+                <div className="col-md-3 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}/img/icons/Optimal-Performance.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      <div className="icon-img-block border-0">
+                        <img src={`${import.meta.env.BASE_URL}/img/icons/annual-contract-b.jpg`} alt="annual contract icon" className="rounded shadow" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
-                      </h4>
-                      <p className="small">Regular maintenance helps your appliances run smoothly and efficiently, delivering the best results every time.
+                      <h4 className="text-uppercase mb-2 cs_fs_18">    Annual maintenance contracts </h4>
+                      <p className="small">Regular maintenance helps your appliances  run smoothly and efficiently, delivering the best results every time.
                       </p>
                     </div>
                   </div>
                 </div>
-                <div className="col-md-4 mb-2">
+
+                <div className="col-md-3 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}/img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      <div className="icon-img-block border-0">
+                        <img src={`${import.meta.env.BASE_URL}/img/icons/trained-b.jpg`} alt="trained icon" className="rounded shadow" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
+                      <h4 className="text-uppercase mb-2 cs_fs_18"> Well trained & certified technicians </h4>
                       <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
                     </div>
                   </div>
                 </div>
 
-                <div className="col-md-4 mb-2">
+                <div className="col-md-3 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}/img/icons/Saving-Money-on-Repair.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      <div className="icon-img-block border-0">
+                        <img src={`${import.meta.env.BASE_URL}/img/icons/installation-b.jpg`} alt="installation icon" className="rounded shadow" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h4>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Installation, testing & commissioning of commercial kitchens </h4>
                       <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
                     </div>
-
                   </div>
                 </div>
-                <div className="col-md-4 mb-2">
+
+                <div className="col-md-3 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}/img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      <div className="icon-img-block border-0">
+                        <img src={`${import.meta.env.BASE_URL}/img/icons/call.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h4>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">On-call services for kitchen equipment</h4>
                       <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
 
                     </div>
@@ -363,39 +365,57 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                 </div>
 
-                <div className="col-md-4 mb-2">
+                <div className="col-md-3 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}/img/icons/Peace-of-Mind.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      <div className="icon-img-block border-0">
+                        <img src={`${import.meta.env.BASE_URL}/img/icons/gearicon.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
-                      </h4>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Availability of genuine spare parts </h4>
                       <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
                     </div>
                   </div>
                 </div>
+
+                <div className="col-md-3 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block border-0">
+                        <img src={`${import.meta.env.BASE_URL}/img/icons/wellicon.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18"> Well versed in handling MEP services for kitchen projects</h4>
+                      <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-md-3 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block border-0">
+                        <img src={`${import.meta.env.BASE_URL}/img/icons/wellstar.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Complete maintenance solutions</h4>
+                      <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                    </div>
+                  </div>
+                </div>
+
+
               </div>
             </div>
           </div>
         </section>
 
-         {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
-         <section className="section cs_py_30 bg-light-gray">
+        {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="cs_fs_30">The Importance of Kitchen Equipment Maintenance Contract Service</h3>
-            <p>In a commercial kitchen, keeping your equipment efficient and safe is essential. Regular maintenance is not merely a routine task but a vital necessity that can greatly affect your business.</p>
+            <p>
+              In a commercial kitchen, keeping your equipment efficient and safe is essential. Regular maintenance is not merely a routine task but a vital necessity that can greatly affect your business.
+            </p>
 
             <div className="row align-items-center">
-              <div className="col-xl-6">
-                <ul>
-                  <li> <strong>  Ensures Compliance </strong> Food safety is vital for food service businesses. Regular equipment maintenance prevents contamination and ensures hygienic food preparation. </li>
-                  <li> <strong> Enhances Efficiency and Productivity </strong> In a bustling kitchen, effective equipment is crucial for maintaining productivity and satisfying customer demands. </li>
-                  <li> <strong> Enhances Safety for Staff </strong> A safe working environment is crucial for your staff's well-being. Regular maintenance helps prevent accidents and injuries from faulty equipment. </li>
-                  <li> <strong> Maintains Consistent Food Quality </strong> Consistent food quality is vital for customer satisfaction and repeat business. Regular maintenance ensures your equipment functions properly for uniform cooking results.</li>
-                  <li> <strong> Cost Savings on Repairs </strong> Addressing minor issues quickly can save your business on repairs and emergency calls. Regular kitchen maintenance is essential for the longevity, efficiency, and safety of your equipment.</li>
-                </ul>
-              </div>
               <div className="col-xl-6">
                 <iframe
                   className="bordered-img blue-border"
@@ -408,6 +428,17 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
                   allowFullScreen
                 ></iframe>
               </div>
+
+              <div className="col-xl-6">
+                <ul>
+                  <li> <strong>  Ensures Compliance </strong> Food safety is vital for food service businesses. Regular equipment maintenance prevents contamination and ensures hygienic food preparation. </li>
+                  <li> <strong> Enhances Efficiency and Productivity </strong> In a bustling kitchen, effective equipment is crucial for maintaining productivity and satisfying customer demands. </li>
+                  <li> <strong> Enhances Safety for Staff </strong> A safe working environment is crucial for your staff's well-being. Regular maintenance helps prevent accidents and injuries from faulty equipment. </li>
+                  <li> <strong> Maintains Consistent Food Quality </strong> Consistent food quality is vital for customer satisfaction and repeat business. Regular maintenance ensures your equipment functions properly for uniform cooking results.</li>
+                  <li> <strong> Cost Savings on Repairs </strong> Addressing minor issues quickly can save your business on repairs and emergency calls. Regular kitchen maintenance is essential for the longevity, efficiency, and safety of your equipment.</li>
+                </ul>
+              </div>
+
             </div>
           </div>
         </section >
@@ -477,7 +508,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same in Dubai location.</p>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same location in Dubai.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -503,7 +534,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <h3 className="cs_fs_30">What is included in an appliance maintenance Contract?</h3>
             <p className="mb-0">
-            When considering the maintenance of appliances and commercial kitchen equipment, it's important to understand what an appliance contract should include. While many kitchen equipment contractor packages offer these services, the specifics can change.
+              When considering the maintenance of appliances and commercial kitchen equipment, it's important to understand what an appliance contract should include. While many kitchen equipment contractor packages offer these services, the specifics can change.
             </p>
 
             <div className="row align-items-center">

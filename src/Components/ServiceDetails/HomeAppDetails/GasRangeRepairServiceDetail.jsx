@@ -453,8 +453,8 @@ const GasRangeRepairServiceDetail = ({ subtitle, title, bgImg }) => {
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}/img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Extending cooking range Lifespan</h4>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your home cooking range, delaying the need for replacements.</p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">cooking range Lifespan</h4>
+                      <p className="small">Proper care and timely servicing can significantly increase life of your cooking range, delaying the need for replacements.</p>
 
                     </div>
 
@@ -545,7 +545,7 @@ const GasRangeRepairServiceDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two cooking range at the same in Dubai location.</p>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two cooking range at the same location in Dubai.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -602,15 +602,14 @@ const GasRangeRepairServiceDetail = ({ subtitle, title, bgImg }) => {
                 <p className="mb-0">
                   <Link to="/viking-appliances-service/">
                     <b> Viking Gas Range Repair</b>
-                  </Link>: 
+                  </Link>
                   : Your Viking appliances may require repair or maintenance and we can help. For high-quality Viking cooking range or oven repair in Dubai, rely on FAJ. 
                 </p>
 
                 <p className="mb-0">
                   <Link to="/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
                     <b> Daewoo Cooking Range Repair</b>
-                  </Link>: W
-                  We provide expert services for Daewoo cooking range repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo stove, refrigerator, washing machine, dryer and more.
+                  </Link>: We provide expert services for Daewoo cooking range repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo stove, refrigerator, washing machine, dryer and more.
                    </p>
 
                 <p className="mb-0">

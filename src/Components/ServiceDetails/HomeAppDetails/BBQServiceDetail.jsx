@@ -510,7 +510,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two oven at the same in Dubai location.</p>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two oven at the same location in Dubai.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
