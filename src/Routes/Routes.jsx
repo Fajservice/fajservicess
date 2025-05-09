@@ -196,6 +196,7 @@ import AcRepairandServiceInEmiratesHills from "../Pages/AcPages/AcLocation/AcRep
 import AcRepairandServiceInTownSquare from "../Pages/AcPages/AcLocation/AcRepairandServiceInTownSquare";
 import AcServiceInDubai from "../Pages/AcPages/AcLocation/AcServiceInDubai";
 import IndesitWashingMachine from "../Pages/AppliancesPage/AppliancesBrand/IndesitWashingMachine.jsx";
+import BBQService from "../Pages/HomeAppPages/BBQService.jsx";
 export const router = createHashRouter([
   {
     path: "/",
@@ -244,6 +245,10 @@ export const router = createHashRouter([
       {
         path: "/hob-repair-service/",
         element: <HobRepair></HobRepair>,
+      },
+      {
+        path: "/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/",
+        element: <BBQService />
       },
       {
         path: "/oven-repair-service/",
