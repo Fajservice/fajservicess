@@ -77,8 +77,8 @@ const AcRepairInHudaibaDetail = ({ subtitle, title, bgImg }) => {
     return (
         <>
             <HelmetProvider>
-                <title>Appliances Services in Hudaiba - Washing Machine Repair</title>
-                <meta name="description" content="Looking for appliance service in Hudaiba. Call 043300002 for fridge repair near me in Dubai. Get fix washing machine, dishwasher, refrigerator"></meta>
+                <title>AC Services In Hudaiba - Emergency AC Repair Service Nearby</title>
+                <meta name="description" content="Quick and Best Price AC Services in Hudaiba Dubai. We are experts in central & split AC (Air Condition) repairing service near me Dubai Fix A/C"></meta>
             </HelmetProvider>
             <HeaderForm />
             <div className="cs_service_details">
