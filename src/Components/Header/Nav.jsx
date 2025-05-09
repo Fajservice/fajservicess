@@ -119,6 +119,16 @@ export default function Nav({ setMobileToggle }) {
                     </Link>
                   </li>
                   <li className='cs_light cs_fs_16'>
+                    <Link to="/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/" onClick={() => setMobileToggle(false)}>
+                      BBQ Repair Service
+                    </Link>
+                  </li>
+                  <li className='cs_light cs_fs_16'>
+                    <Link to="/cigar-cabinet-humidifier-repair/" onClick={() => setMobileToggle(false)}>
+                      Cigar Cabinet Humidifier Repair
+                    </Link>
+                  </li>
+                  <li className='cs_light cs_fs_16'>
                     <Link to="/appliances-amc-service/" onClick={() => setMobileToggle(false)}>
                     Appliances Maintenance Contract
                     </Link>
