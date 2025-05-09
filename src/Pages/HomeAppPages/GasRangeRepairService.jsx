@@ -6,7 +6,7 @@ const GasRangeRepairService = () => {
         <div className="serviceDetails">
             <BreadCumb
                 bgImg="/img/banners/gas-range-repair.jpg"
-                Title="Gas Cooker Repair Near Me Dubai"
+                Title="Gas Cooker Repair"
             ></BreadCumb> 
 
             <GasRangeRepairServiceDetail></GasRangeRepairServiceDetail>

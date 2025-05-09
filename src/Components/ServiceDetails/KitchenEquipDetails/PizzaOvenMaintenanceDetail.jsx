@@ -119,7 +119,7 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
     <>
       <HelmetProvider>
         <title>Commercial Pizza Oven Maintenance & Repair Servicing Dubai</title>
-        <meta name="description" content="FAJ offers reliable pizza oven maintenance and repair services in Dubai. Call 04 3300002 to book your commercial or residential pizza oven AMC today."></meta>
+        <meta name="description" content="We specialize in commercial pizza oven maintenance in Dubai. Call FAJ 043300002 for pizza oven repair service & annual maintenance contract (AMC)."></meta>
       </HelmetProvider>
       <HeaderForm />
 

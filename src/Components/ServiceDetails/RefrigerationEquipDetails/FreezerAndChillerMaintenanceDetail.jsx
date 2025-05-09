@@ -115,8 +115,8 @@ const FreezerAndChillerMaintenanceDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Best Appliances Service Dubai - Appliance Repair Near Me</title>
-        <meta name="description" content="We offer an appliances repair near you. Get expert in refrigerator, fridge, washing machine, dryer, dishwasher, gas stove, oven service near me Dubai"></meta>
+        <title>Best Freezer Chiller Repair Service - Repair & Maintenance</title>
+        <meta name="description" content="Freezer chiller repair service and we are experts in walk in cooler, commercial freezer, restaurant fridge, medical refrigerator maintenance in Dubai"></meta>
       </HelmetProvider>
       <HeaderForm />
 

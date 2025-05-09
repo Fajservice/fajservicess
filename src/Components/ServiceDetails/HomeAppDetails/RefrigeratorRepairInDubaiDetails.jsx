@@ -109,9 +109,8 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Refrigerator Repair Near Me Fridge Repair Service Dubai
-        </title>
-        <meta name="description" content="Book refrigerator repair near you. Call now at +971 50 746 4712 FAJ experts to get same day fridge repair & maintenance in Dubai. Freezer fix & service center."></meta>
+        <title>Refrigerator Repair Near Me | Fridge Repair Service Dubai    </title>
+        <meta name="description" content="Book refrigerator repair near you. Call now at 043300002 FAJ experts to get same day fridge repair & maintenance in Dubai. Freezer fix & service center."></meta>
       </HelmetProvider>
 
       <div className="cs_service_details">

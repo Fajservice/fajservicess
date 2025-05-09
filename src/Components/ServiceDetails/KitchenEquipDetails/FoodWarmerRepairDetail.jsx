@@ -55,12 +55,6 @@ const FoodWarmerRepairDetail = ({ subtitle, title, bgImg }) => {
     autoplaySpeed: 5000,
     pauseOnHover: true,
 
-    // autoplay: true,
-    // autoplaySpeed: 0,
-    // speed: 8000,
-    // pauseOnHover: true,
-    // cssEase: 'linear',
-
     responsive: [
       {
         breakpoint: 1399,
@@ -91,7 +85,6 @@ const FoodWarmerRepairDetail = ({ subtitle, title, bgImg }) => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
-    // cssEase: 'linear',
 
     responsive: [
       {
@@ -118,8 +111,8 @@ const FoodWarmerRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Commercial Food Warmer Repair - Bakery Equipment Maintenance</title>
-        <meta name="description" content="Need food warmer repair in Dubai? Call FAJ at 04 3300002 for fast service & maintenance on heated holding cabinets and thermalization."></meta>
+        <title>Commercial Food Warmer Repair - Warming Equipment Service</title>
+        <meta name="description" content="FAJ offers expert food warmer repair in Dubai. We service heated holding cabinets, proofers, thermalizers & more. Call now for fast, reliable help!"></meta>
       </HelmetProvider>
       <HeaderForm />
 

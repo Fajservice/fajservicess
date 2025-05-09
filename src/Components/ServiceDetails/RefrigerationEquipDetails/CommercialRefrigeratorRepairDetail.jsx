@@ -115,8 +115,8 @@ const CommercialRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Best Appliances Service Dubai - Appliance Repair Near Me</title>
-        <meta name="description" content="We offer an appliances repair near you. Get expert in refrigerator, fridge, washing machine, dryer, dishwasher, gas stove, oven service near me Dubai"></meta>
+        <title>Commercial Refrigeration Service - Food Chiller Repair Dubai</title>
+        <meta name="description" content="Looking for a commercial refrigeration service in Dubai? Dail 043300002 for walk in cooler, chiller, and cold room repair and maintenance near me"></meta>
       </HelmetProvider>
       <HeaderForm />
 

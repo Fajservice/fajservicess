@@ -5,7 +5,7 @@ const CommercialRefrigeratorRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="/img/banners/dishwasher.jpg"
+                bgImg="/img/banners/Refrigeration Equipment Services/Commercial-Refrigerator-Repair.jpg"
                 Title="Dishwasher Repair and Service in Dubai"
             ></BreadCumb> 
 

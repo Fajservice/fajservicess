@@ -121,8 +121,8 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Best Appliances Service Dubai - Appliance Repair Near Me</title>
-        <meta name="description" content="We offer an appliances repair near you. Get expert in refrigerator, fridge, washing machine, dryer, dishwasher, gas stove, oven service near me Dubai"></meta>
+        <title>Small Home Appliances Service – Household Repair Near Me</title>
+        <meta name="description" content="Get same day small home appliances repair. FAJ Experts for cigar dehumidifier, iron box, toaster, microwave, air fryer, water dispenser service near me"></meta>
       </HelmetProvider>
       <HeaderForm />
 
@@ -552,7 +552,7 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <h3>We specialize in small appliance services for the following types </h3>
             <div className="row">
-              
+
               <div className="col-12">
                 <ul>
                   <li>
@@ -567,7 +567,7 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, bgImg }) => {
 
                   <li>
                     <strong>Coffee Maker Repair Me: </strong>
-                    Having trouble with a noisy juicer? We offer affordable juicer and blender repair services in Dubai. Our team can fix issues like jammed mechanisms and electrical glitches.
+                    Get reliable coffee maker repair near you in Dubai. We fix leaks, power issues, and brewing faults for all major brands. Fast, affordable service by expert technicians.
                   </li>
 
                   <li>
@@ -577,9 +577,8 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, bgImg }) => {
 
                   <li>
                     <strong>Steam Iron Box Repair Near Me: </strong>
-                    If your electric iron isn’t working properly, we provide repair services in Dubai. Our expertise includes fixing heating elements, thermostats, and faulty wiring, so you can enjoy wrinkle-free clothes again.
-                  </li>
-
+                    Is your toaster not heating or burning toast? We offer expert toaster repair in Dubai. Our technicians fix heating elements, timers, and wiring to restore your toaster to full working order.
+                    ya replace kar dia ga content jab time milay. </li>
                   <li>
                     <strong>Toaster Repair Near Me: </strong>
                     If your electric iron isn’t working well, we offer repair services in Dubai. Our experts can help you get wrinkle-free clothes again by addressing heating elements, thermostat issues, and faulty wiring.
@@ -698,46 +697,46 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, bgImg }) => {
               </div>
             </div>
           </div >
-      </section >
+        </section >
 
-      {/* FAQ's */}
-      < section className="section cs_py_30  bg-dark-blue text-light" >
-        <div className="container">
-          <h3 className="cs_fs_30 text-light">FAQ's</h3>
+        {/* FAQ's */}
+        < section className="section cs_py_30  bg-dark-blue text-light" >
+          <div className="container">
+            <h3 className="cs_fs_30 text-light">FAQ's</h3>
 
-          <div className="cs_accordians_wrapper cs_style_1 p-0">
+            <div className="cs_accordians_wrapper cs_style_1 p-0">
 
-            {data.map((item, index) => (
-              <div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`} >
-                <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
-                  <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
-                  <span className="cs_accordian_toggle">
-                    <i className="bi bi-eye text-light"></i>
-                    <i className="bi bi-eye-slash text-light"></i>
-                  </span>
+              {data.map((item, index) => (
+                <div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`} >
+                  <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
+                    <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
+                    <span className="cs_accordian_toggle">
+                      <i className="bi bi-eye text-light"></i>
+                      <i className="bi bi-eye-slash text-light"></i>
+                    </span>
+                  </div>
+                  <div className="cs_accordian_body" ref={accordionContentRef}>
+                    {/* <p className="mb-0">{item.desc.replace(/\n/g, '<br>')}</p> */}
+                    <p className="mb-0"
+                      dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
+                    ></p>
+                  </div>
                 </div>
-                <div className="cs_accordian_body" ref={accordionContentRef}>
-                  {/* <p className="mb-0">{item.desc.replace(/\n/g, '<br>')}</p> */}
-                  <p className="mb-0"
-                    dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
-                  ></p>
-                </div>
-              </div>
-            ))}
+              ))}
 
+            </div>
           </div>
-        </div>
-      </section >
+        </section >
 
-      <section className="section cs_py_30">
-        <Serviceappointemnt
-          subtitle2="Contact us"
-          title2="Book and Appointment"
-        ></Serviceappointemnt>
+        <section className="section cs_py_30">
+          <Serviceappointemnt
+            subtitle2="Contact us"
+            title2="Book and Appointment"
+          ></Serviceappointemnt>
 
-      </section>
+        </section>
 
-    </div >
+      </div >
     </>
   );
 };

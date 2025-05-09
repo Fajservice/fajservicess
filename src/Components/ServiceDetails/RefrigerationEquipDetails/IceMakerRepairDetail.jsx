@@ -115,8 +115,8 @@ const IceMakerRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Best Appliances Service Dubai - Appliance Repair Near Me</title>
-        <meta name="description" content="We offer an appliances repair near you. Get expert in refrigerator, fridge, washing machine, dryer, dishwasher, gas stove, oven service near me Dubai"></meta>
+        <title>Commercial Ice Maker Repair - Ice Machine Service in Dubai</title>
+        <meta name="description" content="FAJ provides commercial ice maker Dubai. Expert in restaurant, hotel, industrail hoshizaki, scotsman, foster ice machine maintenance contract service."></meta>
       </HelmetProvider>
       <HeaderForm />
 

@@ -29,7 +29,7 @@ const ColdRoomRepair = () => {
         <>
             <HelmetProvider>
                 <title>Cold Room Repair - Walk in Cooler Maintenance Service Dubai</title>
-                <meta name="description" content="Get reliable cold room repair in Dubai. Expert service & maintenance contract for cold storage & refrigeration systems. Call FAJ 050 7464712"></meta>
+                <meta name="description" content="Get reliable cold room repair in Dubai. Expert service & maintenance contract for cold storage & refrigeration systems. Call FAJ 04 3300002"></meta>
             </HelmetProvider>
             <HeaderForm />
             <section>

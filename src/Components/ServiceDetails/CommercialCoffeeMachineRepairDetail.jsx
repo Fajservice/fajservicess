@@ -86,7 +86,6 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
-    // cssEase: 'linear',
 
     responsive: [
       {
@@ -113,8 +112,8 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Coffee Machine Repair & Maintenance Services Dubai</title>
-        <meta name="description" content="Get fast & reliable coffee machine repair in Dubai. Our experts in espresso machines for office & commercial maintenance services. Call now 04 3300002"></meta>
+        <title>Commercial Coffee Machine Repair - Expresso Machine Service</title>
+        <meta name="description" content="FAJ provides fast commercial coffee machine repair, espresso, coffee grinder, roaster machine servicing in Dubai & annual maintenance contract (AMC)."></meta>
       </HelmetProvider>
       <HeaderForm />
 

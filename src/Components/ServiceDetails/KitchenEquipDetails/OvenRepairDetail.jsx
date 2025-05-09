@@ -118,8 +118,8 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Oven Repair & Maintenance Services in Dubai | FAJ</title>
-        <meta name="description" content="Looking for oven repair near me in Dubai? FAJ offers expert oven repair services for homes and businesses. Call us at 043300002"></meta>
+        <title>Oven Repair and Maintenance Services in Dubai </title>
+        <meta name="description" content="Best oven repair services, get in touch with FAJ Technical services LLC to enjoy top-quality repairs in Dubai, UAE. Give us a call 043300002."></meta>
       </HelmetProvider>
       <HeaderForm />
 

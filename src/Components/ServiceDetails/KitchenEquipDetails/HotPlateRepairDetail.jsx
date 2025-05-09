@@ -54,12 +54,6 @@ const HotPlateRepairDetail = ({ subtitle, title, bgImg }) => {
     autoplaySpeed: 5000,
     pauseOnHover: true,
 
-    // autoplay: true,
-    // autoplaySpeed: 0,
-    // speed: 8000,
-    // pauseOnHover: true,
-    // cssEase: 'linear',
-
     responsive: [
       {
         breakpoint: 1399,
@@ -90,7 +84,6 @@ const HotPlateRepairDetail = ({ subtitle, title, bgImg }) => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
-    // cssEase: 'linear',
 
     responsive: [
       {
@@ -117,8 +110,8 @@ const HotPlateRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Commercial Hot Plate Repair & Maintenance Services</title>
-        <meta name="description" content="Reliable hot plate repair in Dubai, Get in touch with FAJ for fast cafe & restaurant hot plate service & maintenance near you. Call us now!"></meta>
+        <title>Top Commercial Hot Plate Repair Service in Dubai</title>
+        <meta name="description" content="The most reliable commercial hot plate repair services in Dubai and UAE. Call us to book an inspection and find out more about our services."></meta>
       </HelmetProvider>
       <HeaderForm />
 
