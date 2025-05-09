@@ -166,7 +166,6 @@ import AcRepairInDubaiInternationalFinancialCenter from "../Pages/AcPages/AcLoca
 import AcRepairInBurDubai from "../Pages/AcPages/AcLocation/AcRepairInBurDubai";
 import AcRepairInSiliconOasisDubai from "../Pages/AcPages/AcLocation/AcRepairInSiliconOasisDubai";
 import AcRepairInDubailandMazayaQueue from "../Pages/AcPages/AcLocation/AcRepairInDubailandMazayaQueue";
-import AcRepairInDownTown from "../Pages/AcPages/AcLocation/AcRepairInDowntown";
 import AcRepairInNadAlSheba from "../Pages/AcPages/AcLocation/AcRepairInNadAlSheba";
 import AcRepairInAlBarari from "../Pages/AcPages/AcLocation/AcRepairInAlBarari";
 import AcRepairInBaySquare from "../Pages/AcPages/AcLocation/AcRepairInBaySquare";
@@ -197,6 +196,7 @@ import AcRepairandServiceInTownSquare from "../Pages/AcPages/AcLocation/AcRepair
 import AcServiceInDubai from "../Pages/AcServiceInDubai.jsx";
 import BBQService from "../Pages/HomeAppPages/BBQService.jsx";
 import IndesitWashingMachine from "../Pages/AppliancesPage/AppliancesBrand/IndesitWashingMachine.jsx";
+import AcRepairInDownTown from "../Pages/AcPages/AcLocation/AcRepairInDowntown.jsx";
 export const router = createHashRouter([
   {
     path: "/",
