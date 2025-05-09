@@ -457,24 +457,10 @@ const AcRepairInAlRashidiyaDetail = ({ subtitle, title, bgImg }) => {
                 </section>
 
             </div>
-<<<<<<< HEAD
-        </section>
-
-        <section className="section cs_py_30">
-            <Serviceappointemnt
-                subtitle2="Contact us"
-                title2="Book An Appointment"
-            ></Serviceappointemnt>
-
-        </section>
-
-    </div>
-</>
-  )
-=======
+       
         </>
     )
->>>>>>> 8d8ceed080862f4fee7ae16a87f2c2b2129e0dc8
+
 }
 
 export default AcRepairInAlRashidiyaDetail
