@@ -342,7 +342,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
 
                     <ol type="1">
                       <li> The AC fan isn’t working </li>
-                      <li> The AC control panel is faoty </li>
+                      <li> The AC control panel is faulty </li>
                       <li> The air conditioner never turns off </li>
                       <li> The air conditioner won’t switch on </li>
                       <li> Your air conditioner is blowing hot air </li>
@@ -602,7 +602,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <Serviceappointemnt
             subtitle2="Contact us"
-            title2="Book and Appointment"
+            title2="Book An Appointment"
           ></Serviceappointemnt>
 
         </section>

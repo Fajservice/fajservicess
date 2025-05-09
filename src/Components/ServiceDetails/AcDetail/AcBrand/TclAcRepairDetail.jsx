@@ -403,7 +403,7 @@ const TCLAcRepair = ({ subtitle, title, bgImg }) => {
         <div className="section cs_py_30">
           <Serviceappointemnt
               subtitle2="Contact us"
-              title2="Book and Appointment"
+              title2="Book An Appointment"
           ></Serviceappointemnt>     
         
         </div>

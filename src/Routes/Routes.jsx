@@ -197,6 +197,8 @@ import AcRepairandServiceInTownSquare from "../Pages/AcPages/AcLocation/AcRepair
 import AcServiceInDubai from "../Pages/AcServiceInDubai.jsx";
 import BBQService from "../Pages/HomeAppPages/BBQService.jsx";
 import IndesitWashingMachine from "../Pages/AppliancesPage/AppliancesBrand/IndesitWashingMachine.jsx";
+import PortfolioPage from "../Pages/PortfolioPage.jsx";
+import CigarcabnitService from "../Pages/HomeAppPages/CigarcabnitService.jsx";
 export const router = createHashRouter([
   {
     path: "/",
@@ -249,6 +251,14 @@ export const router = createHashRouter([
       {
         path: "/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/",
         element: <BBQService />
+      },
+      {
+        path: "/cigar-cabinet-humidifier-repair/",
+        element: <CigarcabnitService />
+      },
+      {
+        path: "/our-portfolio/",
+        element: <PortfolioPage />
       },
       {
         path: "/oven-repair-service/",

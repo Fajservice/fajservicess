@@ -80,7 +80,7 @@ const Home = () => {
                 img="/img/contact-us-image.jpg"
                 client="Happy Clients"
                 subtitle2="Contact us"
-                title2="Book and Appointment"
+                title2="Book An Appointment"
             ></Contact1>
             <Testimonial1
                 subtitle="Testimonial"

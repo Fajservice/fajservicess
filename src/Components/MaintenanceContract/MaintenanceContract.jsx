@@ -13,7 +13,7 @@ const MaintenanceContract = () => {
                                     <li>Limited and Unlimited Callout Or Breakdown Attending</li>
                                     <li>2 and 3 Times PPM Services</li>
                                     <li>Included and Excluded Spare Parts / Materials</li>
-                                    <li>With MEP and with MEP Services</li>
+                                    <li>With MEP and without MEP Services</li>
                                 </ul>
                                 <a href="mailto:info@fajservices.ae" className="amc-box-button">Get a quick quote </a>
                             </div>
@@ -27,7 +27,7 @@ const MaintenanceContract = () => {
                                     <li>Limited and Unlimited Callout Or Breakdown Attending</li>
                                     <li>1 and 2 Times PPM Services</li>
                                     <li>Included and Excluded Spare Parts / Materials</li>
-                                    <li>With MEP and with MEP Services</li>
+                                    <li>With MEP and without MEP Services</li>
                                 </ul>
                                 <a href="mailto:info@fajservices.ae" className="amc-box-button">Get a quick quote </a>
                             </div>
@@ -41,7 +41,7 @@ const MaintenanceContract = () => {
                                     <li>Limited and Unlimited Callout Or Breakdown Attending</li>
                                     <li>1 Times PPM Services</li>
                                     <li>Included and Excluded Spare Parts / Materials</li>
-                                    <li>With MEP and with MEP Services</li>
+                                    <li>With MEP and without MEP Services</li>
                                 </ul>
                                 <a href="mailto:info@fajservices.ae" className="amc-box-button">Get a quick quote </a>
                             </div>

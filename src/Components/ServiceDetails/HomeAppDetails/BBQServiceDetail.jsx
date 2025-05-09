@@ -132,8 +132,8 @@ const BBQServiceDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">Barbecue Repair - Best BBQ Grill Maintenance Services Dubai</h2>
-            <p>The barbecue repair service provided by FAJ Company is your quick solution for getting your BBQ back in working order, so you can cook your favorite steaks again. We are located near you in Dubai. If your barbecue is malfunctioning, please contact our cusotmer service for assistance.<br />However, there are many other situations that may require barbeque grill repair services. Some issues may simply affect the performance of your appliance and could compromise the quality of your barbeque results. Other issues, however, could pose a significant safety risk.</p>
+            <h2 className="cs_fs_30">A Quality Service for BBQ Grill Maintenance and Repair in Dubai</h2>
+            <p>FAJ has been providing reliable barbecue grill repair, maintenance, and cleaning services in Dubai and Sharjah since 2010. Our quick barbeque grill repair service near you helps you get your BBQ grill back in working order so you can enjoy cooking your favourite meals. If your barbecue is malfunctioning, please contact our customer service. The gas or electric barbecue grill may require repairs due to performance issues that affect cooking quality or pose safety risks.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -155,17 +155,9 @@ const BBQServiceDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-md-6">
                 <h3 className="cs_fs_24 mb-1">Barbeque Repair & BBQ Grill Cleaning Service</h3>
 
-                <p className="mb-2">We are well-versed in all major brands of BBQ grill equipment, including high-end luxury models. Therefore, we provide barbeque grill repair services for appliances of any brand, with a specific focus on the following:</p>
-                <ul>
-                  <li>Char Broil Gas Grill Grill Servicing</li>
-                  <li>Alfresco Grills, Victory Barbeque Repair</li>
-                  <li>Weber Genesis Barbeque Cleaning Service</li>
-                  <li>Barbecue Napoleon Prestige Maintenance</li>
-                  <li>Napoleon BBQ Grill Repair Service Near me</li>
-                  <li>Broil King Regal Gas BBQ Grill Cleaning Service</li>
-                  <li>Lynx Professional Built-In Natural Gas Grill Service</li>
-                  <li>Saber & Traeger Timberline Wood Pellet Grill BBQ Fix</li>
-                </ul>
+                <p className="mb-2">We are knowledgeable about all major brands of BBQ grill equipment, including both high-end luxury models and free-standing or built-in BBQ grills. As a result, we offer BBQ grill repair services for gas and electric grills of any brand, with a special focus on quality and effectiveness.</p>
+                <h3>BBQ Technical Inspection Fee</h3>
+                <p>The technical inspection fee covers diagnosis, transportation, and reinstallation at your location in Dubai. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repairs for a coffee machine, stand mixer, or robot vacuum cleaner, please contact us. </p>
               </div>
 
               <div className="col-md-6 ">
@@ -182,25 +174,19 @@ const BBQServiceDetail = ({ subtitle, title, bgImg }) => {
         {/* Why is Oven Maintenance Service Important in Dubai? */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">BBQ Grill Repair and Maintenance Service</h3>
+            <h3 className="cs_fs_30">Why is BBQ Grill Regular Maintenance Service Important in Dubai?</h3>
+            <p>Grilling is more than just cooking; it's a lifestyle. To fully enjoy barbecued delights, proper grill maintenance is essential, as a well-kept grill is key to a perfect barbecue.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Barbeque-Repairs-services.jpg`} alt="BBQ Repair Service" />
               </div>
               <div className="col-md-6">
-                <p>Is the barbecue not working properly? Common problems with gas grill barbeques include</p>
-                <ul className="mb-0">
-                  <li>BBQ won't start</li>
-                  <li>BBQ not burning</li>
-                  <li>BBQ not cooking</li>
-                  <li>BBQ not sparking</li>
-                  <li>BBQ keep going out</li>
-                  <li>Barbecue uneven heat</li>
-                  <li>Barbecue gas not flowing</li>
-                  <li>Barbecue low heat or flame</li>
-                  <li>Barbeque gas grill igniter is bad</li>
-                  <li>BBQ burners not working properly</li>
-                </ul>
+              <ul>
+                <li><strong>Benefits of Regular Cleaning: </strong>Regular grill cleaning boosts performance by removing residue, ensuring even heat distribution, and preventing flare-ups. It also reduces bacterial contamination for a healthier dining experience.</li>
+                <li><strong>Seasonal Check-ups for Longevity:</strong> As seasons change, your grill's needs do too. Seasonal check-ups&mdash;like inspecting burners and gas lines&mdash;ensure optimal performance and longevity.</li>
+                <li><strong>Extending the Lifespan of Grill Parts:</strong> Each part is essential for grilling. Oiling hinges and tightening bolts can extend your grill's life.</li>
+                <li><strong>Safety First:</strong> Clean Grills Prevent Accidents. A clean grill is a safe grill. Regular maintenance prevents flare-ups and ensures safe grilling.</li>
+              </ul>
               </div>
             </div>
           </div>
@@ -211,16 +197,16 @@ const BBQServiceDetail = ({ subtitle, title, bgImg }) => {
         {/* The Most Common Problems With Oven */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="text-center">The Most Common Problems With Oven   </h3>
+            <h3 className="text-center">Common Barbecue Grill Problems That May Require Maintenance</h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Won't Turn On</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">The grill is not heating up</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">This issue may be caused by a tripped circuit breaker, a blown fuse, or problems with the oven's control board or power supply.</p>
+                    <p className="p-2 mb-0">Does the grill start but not heat above 200-250 degrees? This often relates to a safety feature in gas grills.</p>
                   </div>
                 </div>
               </div>
@@ -228,12 +214,48 @@ const BBQServiceDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Defective Oven Light</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Uneven heating</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">Uneven Heating. Does your grill have hot and cold spots? This issue is often caused by clogged or damaged burners.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Yellow or orange flame
+                    </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-Typically, a simple bulb replacement can resolve this issue or cause some power not to get.
+                    For a gas grill, the flame should be blue with yellow tips. Yellow or orange flames suggest a poor gas and air mixture.
+</p>
+                  </div>
+                </div>
+              </div>
 
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Leaking gas</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">Check the burners of your gas grill for corrosion or blockages, as these can cause uneven heating. Also, ensure the ignition system is working properly.
+</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Ignition problems</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">Ignition Issues. If your grill won’t light, it’s likely due to the ignition system, possibly needing a new battery.
                     </p>
                   </div>
                 </div>
@@ -242,27 +264,10 @@ Typically, a simple bulb replacement can resolve this issue or cause some power 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Doesn't Heat Up
-                    </h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Defective grill</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-This could result from a faulty heating element, a broken thermostat, or a malfunction in the ignition system of gas ovens.
-</p>
-                  </div>
-                </div>
-              </div>
-
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">ven Doesn't Heat</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">O
-The oven doesn't Heat to the Correct Temperature. Possible causes include a faulty thermostat, miscalibration, or issues with the control panel.
-</p>
+                    <p className="p-2 mb-0">A defective barbecue grill can cause serious injuries, such as burns and carbon monoxide poisoning.</p>
                   </div>
                 </div>
               </div>
@@ -270,38 +275,10 @@ The oven doesn't Heat to the Correct Temperature. Possible causes include a faul
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Food Doesn't Cook Evenly</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Low flame from burners</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-This can occur due to factors such as incorrect rack placement, blocked vents, or a faulty thermostat.
-</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Door Won't Close</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-Problems with the door hinges, seals, or latch mechanism can prevent the door from closing properly.
-</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Self-Cleaning Problems</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-Self-cleaning ovens sometimes experience issues during the cleaning cycle, which may require resetting or professional assistance.
-</p>
+                    <p className="p-2 mb-0">A common service issue is the low flame output from grill burners.</p>
                   </div>
                 </div>
               </div>
@@ -309,12 +286,10 @@ Self-cleaning ovens sometimes experience issues during the cleaning cycle, which
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Broken Oven Rack</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Regulator problems</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-A broken or damaged rack can reduce the oven's efficiency and hinder cooking capabilities.
-</p>
+                    <p className="p-2 mb-0">Blockage in the Regulator Hose: A reader reported issues with his Uniflame 5-burner grill. Everything worked.</p>
                   </div>
                 </div>
               </div>
@@ -332,9 +307,8 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
         {/* HERE ARE THE SERVICES WE OFFER FOR THE OVEN */}
         <section className="section cs_py_30 ">
           <div className="container">
-            <h3 className="cs_fs_30">Now Available: Smoker BBQ Repair & Gas BBQ Grill Service
-            </h3>
-            <p className='mb-0'>We at FAJ Professional take great satisfaction in providing a variety of BBQ grill services to suit your requirements. We provide all types of services, including electric bbq grill dubai and smoker bbq repair etc. Get in touch with us right now to find out more about our extensive services for barbecuing and to see how we can improve your grilling adventures!</p>
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR BARBECUE GRILLS.</h3>
+            <p className='mb-0'>We specialize in all types and brands of BBQ grills, including built-in models.</p>
             <div className="row align-items-center">
               <div className="col-xl-6">
                 <iframe
@@ -350,8 +324,13 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
               </div>
 
               <div className="col-xl-6">
-                <h3 className="cs_fs_20">Get Professional BBQ Grill Cleaning & Service Dubai</h3>
-                <p>We are the only company you should trust for bbq cleaning in top condition. In Dubai, our team of knowledgeable specialists clean barbecue grill in an extensive manner. Put an end to the headache of having to scrub and scrape off tough oil and dirt yourself; instead, let our professionals do Bbq grill cleaning. With our meticulous grill cleaning techniques, we guarantee that your barbeque grill will always look immaculate and function well, providing you with the greatest possible grilling experience. To arrange for your barbecue cleaning session and take pleasure in hassle-free grilling, contact us right now!</p>
+                <p className="mb-0"><strong>Our services include:</strong></p>
+                <ul>
+                  <li><strong>BBQ Grill Installation: </strong>Professional installation of various BBQ grill brands for optimal performance.</li>
+                  <li><strong>BBQ Grill Diagnostics:</strong> We conduct thorough fault finding to effectively diagnose issues. Our services include eligibility assessments and detailed quotations to address concerns with your BBQ.</li>
+                  <li><strong>BBQ Grill Repair Service:</strong> Efficient repair services for all barbecue grill components, ensuring quick resolution of issues such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions!</li>
+                  <li><strong>BBQ Grill Annual Maintenance Contract:</strong> This contract outlines the terms and services provided for the annual maintenance of your barbeque grill. Regular maintenance is essential for ensuring optimal performance, efficiency, and longevity of your barbeque.</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -361,84 +340,18 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
         <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
-              <h3 className="cs_fs_30 mb-0">The Benefits Of BBQ Service Dubai
-              </h3>
-              <div className="row gx-3 gy-5 mt-0">
-                <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}/img/icons/Ensuring-Safety.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h4>
-                      <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}/img/icons/Optimal-Performance.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
-                      </h4>
-                      <p className="small">Regular maintenance helps your oven run smoothly and efficiently, delivering the best results every time.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}/img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
-                      <p className="small">Energy efficient oven translate to monthly savings on utility bills, putting more money back in your pocket.</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}/img/icons/Saving-Money-on-Repair.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h4>
-                      <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
-                    </div>
-
-                  </div>
-                </div>
-                <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}/img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Extending oven Lifespan</h4>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your home oven, delaying the need for replacements.</p>
-
-                    </div>
-
-                  </div>
-                </div>
-
-                <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}/img/icons/Peace-of-Mind.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
-                      </h4>
-                      <p className="small">Knowing your oven are in top condition gives you confidence and removes the stress of unexpected failures.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <h3 className="cs_fs_30 mb-0">Tips for Preparing for Your BBQ</h3>
+              <p>Before you start the grill, you might find our tips below helpful.</p>
+              <ul>
+                <li><strong>Clean the grill:&nbsp;</strong>Inspect and clean your barbecue if it's been outside for a while. Even after use, it's a good idea to clean and dry it. Always follow the manufacturer's maintenance instructions.</li>
+                <li><strong>Cooking on Charcoal:&nbsp;</strong>If using charcoal instead of gas, make sure the coals are glowing red with a grey, powdery surface before cooking.</li>
+                <li><strong>Defrosting Meat:&nbsp;</strong>Frozen meat can cook unevenly on a BBQ. For best results, defrost it overnight in a lipped dish in the fridge. If you're short on time, use the microwave's defrost setting. Cook and eat the meat within 24 hours of defrosting.</li>
+                <li><strong>Check the Use-by Dates:&nbsp;</strong>The use-by date on food packaging is important for safety, as consuming food past this date can cause illness. Best before dates indicate quality; while food is safe to eat after this date, it may not taste as good.</li>
+                <li><strong>Cook BBQ Meat Properly:&nbsp;</strong>Properly cooking food at the right temperature and time is crucial to eliminate harmful bacteria. Different meats have specific cooking requirements.</li>
+                <li><strong>Serving Food Safely at a BBQ:&nbsp;</strong>To ensure food safety, use separate raw meat, cooked meat, and ready-to-eat foods, such as salads. Store these items in the fridge or in a cool bag with ice packs until it's time to serve. Keep any cool items out of direct sunlight until serving.</li>
+                <li><strong>Bacteria and Cross Contamination:&nbsp;</strong>Leftover food on your grill poses serious risks. Bacteria can grow on old residue and contaminate new food. Additionally, cross-contamination with allergenic foods, like last night&rsquo;s fish, could lead to severe consequences, such as anaphylactic shock..</li>
+                <li><strong>Rust Prevention:&nbsp;</strong>Your grills are made of metal, so if you don&rsquo;t clean them often, they will rust&mdash;especially cast iron. Regular cleaning will help prolong their lifespan.</li>
+              </ul>
             </div>
           </div>
         </section>
@@ -469,7 +382,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                     <img className="" src={`${import.meta.env.BASE_URL}/img/icons/experts.png`} alt="We Are Experts" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">Confidence</h3>
+                    <h3 className="">Feeling Of Calm</h3>
                     <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your oven runs smoothly and providing peace of mind.</p>
                   </div>
                 </div>
@@ -481,7 +394,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your oven repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive.</p>
+                    <p>Choose a day and time for your oven repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
                   </div>
                 </div>
 
@@ -535,7 +448,18 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
         {/* We specialise in Oven services for the following brands  */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3>We specialise in BBQ services for the following brands </h3>
+            <h3>We specialise in BArbecue repair services for the following brands:</h3>
+            <ul>
+              <li><strong>Char Broil Gas Grill Service and Repair: </strong>FAJ offers reliable Char-Broil gas grill cleaning and services in Dubai, with professionals who are experts in freestanding and built-in Char-Broil gas grill barbeques.</li>
+              <li><strong>Weber Genesis Barbeque Gas Burner Repair and Service:</strong> Located in Dubai, FAJ is your premier destination for Weber Genesis BBQ grill repair. We specialize in Weber Genesis barbecues, offering comprehensive services that include maintenance and repair.</li>
+              <li><strong>Barbecue Napoleon Prestige BBQ Grill Servicing: </strong>The Barbecue Napoleon Prestige BBQ Grill repair service ensures your worries are addressed because you are in the right place. FAJ prioritizes efficiency and reliability.</li>
+              <li><strong>Napoleon BBQ Grill Maintenance Service:</strong> Rely on our expert team to effectively address all issues with your Napoleon BBQ grill cleaning service and restore its functionality.</li>
+              <li><strong>Broil King Regal Gas BBQ Grill Cleaning Service:</strong> With extensive knowledge of the Broil King Regal Gas BBQ Grill, we provide effective repairs to ensure your unit runs smoothly.</li>
+              <li><strong>Lynx Professional Built-In Natural Gas Grill Repair Service:</strong> No matter the issue with your Lynx Professional Built-In Natural Gas Barbecue Grill, our experts can accurately diagnose and fix it.</li>
+              <li><strong>Boretti Imperatore Gas BBQ Burner Repair: </strong>Is your Boretti Imperatore gas BBQ burner not working? A malfunctioning Boretti Imperatore gas BBQ burner can be a hassle! FAJ can repair your Boretti Imperatore gas BBQ burner quickly!</li>
+              <li><strong>Cal Flame &ndash; BBQ Built In Grills Repairs: </strong>Cal Flame - BBQ Built-In Grill Cleaning and Maintenance Services require specialized expertise, as only trained professionals can effectively handle these tasks. We offer a hassle-free repair service for Cal Flame - BBQ Built-In Grills.</li>
+              <li><strong>Broilmaster Built In Gas Grill BBQ Repair and Service</strong>: Unlock the key to maintaining your Broilmaster Built-In Gas BBQ Grill for optimal performance in Dubai! Our expert services for Broilmaster Built In Gas Grills ensure that your grill operates efficiently, providing you with comfort and peace of mind.</li>
+            </ul>
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <GetQuoteButton />
@@ -658,7 +582,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
         <section className="section cs_py_30">
           <Serviceappointemnt
             subtitle2="Contact us"
-            title2="Book and Appointment"
+            title2="Book An Appointment"
           ></Serviceappointemnt>
 
         </section>

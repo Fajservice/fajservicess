@@ -25,7 +25,7 @@ const WhyChooseUS = () => {
                     <img className="" src={`${import.meta.env.BASE_URL}/img/icons/experts.png`} alt="We Are Experts" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">Confidence</h3>
+                    <h3 className="">Feeling Of Calm</h3>
                     <p>With <a href="#/ac-annual-maintenance-contract/">annual maintenance contract</a>, you get a full year of service, ensuring your AC runs smoothly and providing peace of mind.
                     </p>
                   </div>
@@ -38,7 +38,7 @@ const WhyChooseUS = () => {
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your AC repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive.
+                    <p>Choose a day and time for your AC repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.
                     </p>
                   </div>
                 </div>

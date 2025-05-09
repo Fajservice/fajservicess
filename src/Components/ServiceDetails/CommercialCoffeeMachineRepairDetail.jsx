@@ -498,7 +498,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
                     <img className="" src={`${import.meta.env.BASE_URL}/img/icons/experts.png`} alt="We Are Experts" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">Confidence</h3>
+                    <h3 className="">Feeling Of Calm</h3>
                     <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your coffee machine runs smoothly and providing peace of mind.</p>
                   </div>
                 </div>
@@ -510,7 +510,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your coffee machine repair in Dubai or Sharjah. With a 3-4 window for when our technician will arrive.</p>
+                    <p>Choose a day and time for your coffee machine repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
                   </div>
                 </div>
 
@@ -743,7 +743,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <Serviceappointemnt
             subtitle2="Contact us"
-            title2="Book and Appointment"
+            title2="Book An Appointment"
           ></Serviceappointemnt>
 
         </section>
