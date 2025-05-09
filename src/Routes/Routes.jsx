@@ -4,7 +4,6 @@ import {
 import Main from "../Layout/Main";
 import Home from "../Pages/Home";
 import AboutPage from "../Pages/AboutPage";
-import AcServiceInDubai from "../Pages/AcPages/AcServiceInDubai";
 import AcMaintenanceDubai from "../Pages/AcMaintenanceDubai";
 import AcAnnualMaintenanceContract from "../Pages/AcAnnualMaintenanceContract";
 import AcRepairDubai from "../Pages/AcRepairDubai";
@@ -195,6 +194,8 @@ import AcRepairInDubaiHillsEstate from "../Pages/AcPages/AcLocation/AcRepairInDu
 import AcRepairInProductionCity from "../Pages/AcPages/AcLocation/AcRepairInProductionCity";
 import AcRepairandServiceInEmiratesHills from "../Pages/AcPages/AcLocation/AcRepairandServiceInEmiratesHills";
 import AcRepairandServiceInTownSquare from "../Pages/AcPages/AcLocation/AcRepairandServiceInTownSquare";
+import AcServiceInDubai from "../Pages/AcPages/AcLocation/AcServiceInDubai";
+import IndesitWashingMachine from "../Pages/AppliancesPage/AppliancesBrand/IndesitWashingMachine.jsx";
 export const router = createHashRouter([
   {
     path: "/",
@@ -214,7 +215,7 @@ export const router = createHashRouter([
       },
       {
         path: "/ac-service-in-dubai/",
-        element: <AcServiceInDubai></AcServiceInDubai>,
+        element: <AcServiceInDubai />,
       },
       {
         path: "/ac-maintenance-dubai/",
@@ -504,6 +505,10 @@ export const router = createHashRouter([
       {
         path: "/tcl-ac-repair-in-dubai/",
         element: <TCLAcRepair />
+      },
+      {
+        path: "/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-oven-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa/",
+        element: <IndesitWashingMachine />
       },
       {
         path: "/project",
