@@ -198,7 +198,7 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/why home app.jpg`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/stand mixer.webp`} alt="Post Image" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -271,9 +271,7 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Built-in Dryers can stop the drum from spinning and often make noise without drying clothes properly. Common issues are a broken heating element or control board.
-
-
+                    Built-in dryers may stop spinning or make noise without drying clothes properly, often due to a broken heating element or faulty control board.
                     </p>
                   </div>
                 </div>
@@ -302,7 +300,7 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Most integrated ovens have common problems like not heating properly, burners not igniting, ignition issues on gas models, broken knobs, and faulty controllers or valves.
+                    Most integrated ovens face common issues such as poor heating, burner ignition failure, broken knobs, and faulty controllers or gas valves.
 
                     </p>
                   </div>
@@ -418,7 +416,7 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
                       </h4>
-                      <p className="small">Regular maintenance helps your build in built in appliances run smoothly and efficiently, delivering the best results every time.
+                      <p className="small">Regular maintenance helps your built in appliances run smoothly and efficiently, delivering the best results every time.
                       </p>
                     </div>
                   </div>
@@ -430,7 +428,7 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                         <img src={`${import.meta.env.BASE_URL}/img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
-                      <p className="small">Energy efficient build in built in appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                      <p className="small">Energy efficient built in appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
                     </div>
                   </div>
                 </div>
@@ -454,7 +452,7 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                         <img src={`${import.meta.env.BASE_URL}/img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h4>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your home build in built in appliances, delaying the need for replacements.</p>
+                      <p className="small">Proper care and timely servicing can significantly increase life of your home built in appliances, delaying the need for replacements.</p>
 
                     </div>
 
@@ -469,7 +467,7 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                       </h4>
-                      <p className="small">Knowing your build in built in appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                      <p className="small">Knowing your built in appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
                     </div>
                   </div>
                 </div>
@@ -545,7 +543,7 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two build in build in built in appliances at the same in Dubai location.</p>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two built in appliances at the same location in Dubai.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">

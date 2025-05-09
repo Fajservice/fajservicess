@@ -1,42 +1,42 @@
 [
   {
-    "title": "Do robot vacuums work without the internet?",
-    "desc": "Yes, most robot vacuums can perform basic cleaning functions without an active Wi-Fi or internet connection. After the initial setup, you can typically press a physical \"Clean\" button to start a cleaning cycle. However, advanced features such as app control, scheduling, and smart mapping require an internet connection."
+      "title": "How do induction hobs work?",
+      "desc": "Induction hobs generate a magnetic field that heats the cookware directly, rather than heating the hob itself."
   },
   {
-    "title": "How long do robot vacuums run?",
-    "desc": "Wi-Fi connected models like the 900 and S9 series can clean for up to two hours on the lowest cleaning setting, though the Power Boost feature will deplete the battery more quickly. Wi-Fi connected models from the E, 600, and 800 series can run for up to 90 minutes, while non-Wi-Fi connected models from the 500, 600, 700, and 800 series typically last up to 60 minutes."
+      "title": "What cookware is needed for induction hobs?",
+      "desc": "You will need cookware made of ferrous metals, such as cast iron or stainless steel, that can be attracted to a magnet."
   },
   {
-    "title": "Can robot vacuums work without electricity?",
-    "desc": "Currently, all robots rely on electricity and computer chips to function. A robotic \"brain\" made up of algorithms and software interprets information, which is then relayed to the hardware through an encoder, allowing the robot to perform actions."
+      "title": "Are induction hobs safe?",
+      "desc": "Yes, induction hobs are generally considered safe because the surface remains cool, and heat is transferred directly to the pan."
   },
   {
-    "title": "How high can robot vacuum cleaner climb?",
-    "desc": "Typically, robot vacuums can handle a maximum door threshold height of 15–20 mm. The thresholds used in American homes vary by manufacturer, ranging from 6 mm to 25 mm or more."
+      "title": "Are there any downsides to induction hobs?",
+      "desc": "You might need to buy new cookware, and some users find induction hobs noisy, especially at high temperatures."
   },
   {
-    "title": "Which robot vacuum cleaner is the best?",
-    "desc": "Best overall: Ecovacs Deebot T30S Combo\nBest robot vacuum and mop combo, best for hardwood floors: Yeedi M12 Pro+\nBest Shark robovac: Shark PowerDetect Never Touch Pro\nBest value: Eufy 3-in-1 E20\nBest Roomba: iRobot Roomba Combo J7 Plus"
+      "title": "How long do induction hobs last?",
+      "desc": "With proper maintenance, induction hobs can last between 10 to 15 years."
   },
   {
-    "title": "How do I choose a robot vacuum cleaner?",
-    "desc": "Suction Power: Measured in Pascals (Pa), the higher the Pa, the more dirt it can collect. To choose a robot vacuum based on suction power, consider the types of flooring in your home, as different flooring types require varying suction levels; hard floors and tiles typically need less suction compared to plush carpets."
+      "title": "What happens if I use a non-compatible pan on an induction hob?",
+      "desc": "If you use a pan that is not compatible, nothing will happen; the hob will not heat the pan unless it has a magnetic base."
   },
   {
-    "title": "What is a robot vacuum cleaner called?",
-    "desc": "A robotic vacuum cleaner, sometimes referred to as a robovac or a Roomba (a generic trademark), is an autonomous vacuum cleaner equipped with a limited vacuum floor cleaning system, sensors, robotic drives, programmable controllers, and cleaning routines."
+      "title": "How do I clean an induction hob?",
+      "desc": "Induction hobs are generally easy to clean. Many models come with a quick clean feature, allowing you to wipe away spills and stains before they set."
   },
   {
-    "title": "What are the features of robotic vacuum cleaners?",
-    "desc": "Navigation Technology: Robots use various sensors for navigation. Mapping, obstacle avoidance, suction power & brushes, mopping, object identification technology, customizable cleaning settings, and pet mode are common features."
+      "title": "What cannot be cooked on induction?",
+      "desc": "Aluminium or aluminium-clad, copper or copper-clad, aluminium foil, glass/ceramic, and some stainless steel products cannot be used (because they will not attract and hold a magnet)."
   },
   {
-    "title": "Does a robot vacuum need Wi-Fi?",
-    "desc": "Yes, a robot cleaner can operate without Wi-Fi and perform comprehensive home cleanups, spot cleanups, and return to the dock with the push of a button. Additionally, it can respond to basic voice commands."
+      "title": "Can I leave the induction hob on overnight?",
+      "desc": "As previously explained, without a pan, there is no heat; you can't leave an induction hob on unintentionally unless you also leave the pan in place."
   },
   {
-    "title": "Which robot vacuums work offline?",
-    "desc": "A standout model is the Eufy 11S, which is one of the few popular brands that offers a completely offline model. It has been tested and is recommended as a decent budget-friendly robot vacuum. If full offline functionality is important to you, this is a good choice."
+      "title": "Can we boil eggs on an induction?",
+      "desc": "Place the eggs in a pot and cover with cold water by an inch. Bring to a gentle boil over medium-high heat. Setting number 6 is good if you're using induction."
   }
 ]

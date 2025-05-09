@@ -5,7 +5,7 @@ import CallNowButton from '../Buttons/CallNowButton';
 const AppliancesAppointmentCol = () => {
     return (
         <>
-            <div className="appointment-col border-small-top pt-3">
+            <div className="appointment-col border-small-top pt-3 mt-3">
               <p>
                 If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.
                 <br />  

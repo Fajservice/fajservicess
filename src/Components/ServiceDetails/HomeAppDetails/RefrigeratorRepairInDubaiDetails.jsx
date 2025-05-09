@@ -14,6 +14,7 @@ import testimonial_data from '../../../Data/HomeAppData/Testmonials/Refrigerator
 import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
+import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 
 const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
   subtitle = "Testimonial"
@@ -142,7 +143,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
             <div className="row gx-md-5">
               <div className="col-md-6">
                 <h3 className="cs_fs_24 mb-1">Refrigerator Repair & Service Near You</h3>
-                <p className="mb-2">Is your fridge or freezer not cooling properly? Has your food spoilt?
+                <p className="mb-2">Is your fridge or freezer not cooling properly? Has your food spoild?
                   You can easily book online refrigerator repair in Dubai / Sharjah near me service with FAJ Experts.
                   We repair most major brands of refrigerators and freezers, offering same-day fridge service at affordable prices. Choose a time slot that works best for you!
                 </p>
@@ -159,16 +160,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
 
               </div>
             </div>
-
-            <div className="appointment-col border-small-top pt-3">
-              <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection/callout fees, Refrigerator Repair service near you, or maintenance, please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
-              <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
-                  <WhatsappIconButton />
-                  <CallNowButton />
-                </div>
-              </div>
-            </div>
+            <AppliancesAppointmentCol/>
           </div>
         </section>
 
@@ -181,18 +173,18 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Commercial-refrigeration-service.jpg`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/techfridge.jpg`} alt="Post Image" />
               </div>
               <div className="col-md-6">
 
                 <ul className="mb-0">
 
-                  <li> <strong> Refrigerator Extended Lifespan: </strong> Regular maintenance helps prolong the life of your refrigerator, ultimately saving you money on replacement costs. </li>
+                  <li> <strong> Refrigerator Extended Lifespan: </strong> Regular maintenance helps prolong life of your refrigerator, ultimately saving you money on replacement costs. </li>
                   <li> <strong> Fridge Freezer Improved Efficiency: </strong> A well-maintained refrigerator operates more efficiently, consuming less energy and leading to lower utility bills, which is especially important in Dubai. </li>
                   <li> <strong> Refrigerator Preventing Costly Repairs: </strong> Addressing minor issues promptly can prevent them from escalating into expensive repairs. </li>
                   <li> <strong> Preserving Appliance Integrity: </strong> Routine cleaning prevents dust buildup, which can negatively affect performance. </li>
                   <li> <strong> Refrigerator Early Problem Detection: </strong> Regular checks help identify potential issues before they become significant problems. </li>
-                  <li> <strong> Refrigerator Cost-Effectiveness: </strong> Maintenance costs are generally lower than those of early replacements or major repairs. Investing in refrigerator care is a smart economic choice in Dubai, ensuring safety and efficiency. </li>
+                  {/* <li> <strong> Refrigerator Cost-Effectiveness: </strong> Maintenance costs are generally lower than those of early replacements or major repairs. Investing in refrigerator care is a smart economic choice in Dubai, ensuring safety and efficiency. </li> */}
                   <li> <strong> Refrigerator Energy Efficiency: </strong> Routine maintenance can boost your refrigerator’s energy efficiency, helping you save money in the long run. </li>
 
 
@@ -381,7 +373,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
                   <li><strong> Refrigerator Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for annual maintenance of your refrigerator. </li>
 
                   <p className="mb-0">
-                    Regular oven maintenance is essential for optimal performance, efficiency, and longevity of your oven.
+                  Regular maintenance is essential for optimal refrigerator performance, efficiency, and longevity.
 
                   </p>
                 </ul>
@@ -456,7 +448,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
                         <img src={`${import.meta.env.BASE_URL}/img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Extending refrigerator Lifespan</h4>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your home refrigerator, delaying the need for replacements.</p>
+                      <p className="small">Proper care and timely servicing can significantly increase life of your refrigerator, delaying the need for replacements.</p>
 
                     </div>
 
@@ -547,7 +539,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two refrigerator at the same in Dubai location.</p>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two refrigerator at the same location in Dubai.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -577,28 +569,28 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-12">
 
                 <p className="mb-0">
-                  <Link to="/lg-fridge-repair-in-dubai-lg-washing-machine-repair-in-dubai-lg-cooker-repair-in-dubai-lg-oven-repair-in-dubai-lg-appliances-maintenance-in-dubai-lg-refrigerator-fix-repairs-service-in-dubai-lg-dishwa/"><b>LG Refrigerator Repair</b></Link>: FAJ is here to support you when things go wrong. We understand that your LG appliances are essential for daily life, keeping your food fresh and meals cooked.
+                  <Link to="/lg-fridge-repair-in-dubai-lg-washing-machine-repair-in-dubai-lg-cooker-repair-in-dubai-lg-oven-repair-in-dubai-lg-appliances-maintenance-in-dubai-lg-refrigerator-fix-repairs-service-in-dubai-lg-dishwa/"><b>LG Refrigerator Repair</b></Link>: FAJ is here to support you when things go wrong. We understand that your LG refrigerator is essential for daily life, preserving your food and ensuring your meals are always prepared.
                 </p>
                 <p className="mb-0">
                   <Link to="/samsung-fridge-repair-in-dubai-samsung-washing-machine-repair-in-dubai-samsung-cooker-repair-in-dubai-samsung-oven-repair-in-dubai-samsung-appliances-maintenance-in-dubai-samsung-refrigerator-fix-repa/"><b>Samsung Refrigerator Repair</b></Link>: If you are facing any problems with your Samsung refrigerator, washer dryer, or dishwasher, contact the FAJ team for same-day repair service in Dubai.
                 </p>
                 <p className="mb-0">
-                  <Link to="/electrolux-home-appliances-repair/"><b>Electrolux Refrigerator Repair</b></Link>: When you need Electrolux appliance repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE.
+                  <Link to="/electrolux-home-appliances-repair/"><b>Electrolux Refrigerator Repair</b></Link>: When you need Electrolux refrigerator repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE.
                 </p>
                 <p className="mb-0">
-                  <Link to="/bosch-home-appliances-repair/"><b>Bosch Refrigerator Repair</b></Link>: If you are looking for the best Bosch appliance repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch home appliance repair and are recognized as the leading Bosch appliance service provider in the area.
+                  <Link to="/bosch-home-appliances-repair/"><b>Bosch Refrigerator Repair</b></Link>: If you are looking for the best Bosch appliance repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch  refrigerator repair and are recognized as the leading Bosch refrigerator service provider in the area.
                 </p>
                 <p className="mb-0">
-                  <Link to="/viking-appliances-service/"><b>Viking Fridge Freezer Repair</b></Link>: Your Viking appliances may require repair or maintenance and we can help. For high-quality Viking Fridge Freezer repair in Dubai, rely on FAJ.
+                  <Link to="/viking-appliances-service/"><b>Viking Fridge Freezer Repair</b></Link>: Your Viking refrigerator may require repair or maintenance and we can help. For high-quality Viking Fridge Freezer repair in Dubai, rely on FAJ.
                 </p>
                 <p className="mb-0">
-                  <Link to="/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/"><b>Daewoo Refrigerator Repair</b></Link>: We provide expert services for Daewoo appliance repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo refrigerator, washing machine, dryer and more.
+                  <Link to="/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/"><b>Daewoo Refrigerator Repair</b></Link>: We provide expert services for Daewoo refrigerator repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo refrigerator, washing machine, dryer and more.
                 </p>
                 <p className="mb-0">
-                  <Link to="/siemens-home-appliances-repair/"><b>Siemens Refrigerator Repair</b></Link>: Are you concerned about your Siemens appliance malfunctioning and searching for a reliable Siemens refrigerator repair company in Dubai? Contact us for same-day service!
+                  <Link to="/siemens-home-appliances-repair/"><b>Siemens Refrigerator Repair</b></Link>: Are you concerned about your Siemens refrigerator malfunctioning and searching for a reliable Siemens refrigerator repair company in Dubai? Contact us for same-day service!
                 </p>
                 <p className="mb-0">
-                  <Link to="/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/"><b>Teka Refrigerator Repair</b></Link>: If you're searching for the best Teka appliance repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
+                  <Link to="/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/"><b>Teka Refrigerator Repair</b></Link>: If you're searching for the best Teka refrigerator repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka refrigerator service provider in the area.
                 </p>
 
                 <br />

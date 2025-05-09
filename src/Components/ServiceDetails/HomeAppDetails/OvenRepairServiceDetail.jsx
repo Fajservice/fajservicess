@@ -206,9 +206,10 @@ const OvenRepairServiceDetail = ({ subtitle, title, bgImg }) => {
 
                   <li> <strong>Oven Heavy Use and Versatility: </strong> Ovens are vital for cooking and baking in homes and commercial kitchens, like those in hotels and bakeries in Dubai. Regular maintenance is essential for optimal performance.</li>
                   <li> <strong>Oven Safety: </strong> Oven maintenance is crucial for safety, especially with gas ovens. Regular inspections can catch leaks or faulty controls that may create fire hazards.</li>
-                  <li> <strong>Oven Efficiency: </strong> Regular maintenance of the heating element and thermostat ensures efficiency, leading to energy savings and lower utility bills.</li>
+                  <li> <strong>Oven Efficiency: </strong> Regular maintenance of heating element and thermostat ensures efficiency, leading to energy savings and lower utility bills.</li>
                   <li> <strong>Oven Preventative Measures: </strong> Regular maintenance, such as cleaning and inspections, prevents minor issues from becoming major repairs, saving time and money.</li>
                   <li> <strong>Oven Long-term Use: </strong> Regular maintenance can extend your oven's lifespan and save you replacement costs.
+                    <br />
                     By prioritising oven maintenance, residents and businesses in Dubai can ensure their ovens function safely and efficiently.</li>
 
 
@@ -229,7 +230,7 @@ const OvenRepairServiceDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Won't Turn On</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Won't Turn On</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">This issue may be caused by a tripped circuit breaker, a blown fuse, or problems with the oven's control board or power supply.</p>
@@ -240,12 +241,11 @@ const OvenRepairServiceDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Defective Oven Light</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Defective Oven Light</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-Typically, a simple bulb replacement can resolve this issue or cause some power not to get.
-
+                    This issue is often resolved by simply replacing the bulb, but it could also be caused by a power supply problem.
                     </p>
                   </div>
                 </div>
@@ -254,13 +254,13 @@ Typically, a simple bulb replacement can resolve this issue or cause some power 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Doesn't Heat Up
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Doesn't Heat Up
                     </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-This could result from a faulty heating element, a broken thermostat, or a malfunction in the ignition system of gas ovens.
-</p>
+                      This could result from a faulty heating element, a broken thermostat, or a malfunction in the ignition system of gas ovens.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -269,25 +269,12 @@ This could result from a faulty heating element, a broken thermostat, or a malfu
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">ven Doesn't Heat</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">O
-The oven doesn't Heat to the Correct Temperature. Possible causes include a faulty thermostat, miscalibration, or issues with the control panel.
-</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Food Doesn't Cook Evenly</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">ven Doesn't Heat</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-This can occur due to factors such as incorrect rack placement, blocked vents, or a faulty thermostat.
-</p>
+                      The oven doesn't Heat to the Correct Temperature. Possible causes include a faulty thermostat, miscalibration, or issues with the control panel.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -295,12 +282,12 @@ This can occur due to factors such as incorrect rack placement, blocked vents, o
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Door Won't Close</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Food Doesn't Cook Evenly</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-Problems with the door hinges, seals, or latch mechanism can prevent the door from closing properly.
-</p>
+                      This can occur due to factors such as incorrect rack placement, blocked vents, or a faulty thermostat.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -308,12 +295,25 @@ Problems with the door hinges, seals, or latch mechanism can prevent the door fr
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Self-Cleaning Problems</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Door Won't Close</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-Self-cleaning ovens sometimes experience issues during the cleaning cycle, which may require resetting or professional assistance.
-</p>
+                      Problems with the door hinges, seals, or latch mechanism can prevent the door from closing properly.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Self-Cleaning Problems</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      Self-cleaning ovens sometimes experience issues during the cleaning cycle, which may require resetting or professional assistance.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -321,12 +321,12 @@ Self-cleaning ovens sometimes experience issues during the cleaning cycle, which
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Broken Oven Rack</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Broken Oven Rack</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-A broken or damaged rack can reduce the oven's efficiency and hinder cooking capabilities.
-</p>
+                    A broken or damaged rack can significantly reduce the oven's efficiency and hinder overall cooking capabilities.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -363,20 +363,20 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
               </div>
 
               <div className="col-xl-6">
-               
+
                 <p className='mb-0'>We specialise in all types and brands of ovens, including built-in units.
                 </p>
                 <p className='mb-0'><strong>Our services include:</strong></p>
-               
+
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
 
 
- <li> <strong> Oven Installation: </strong> Expert installation of various types and brands of ovens, ensuring optimal performance and efficiency.</li>
- <li> <strong> Diagnostics: </strong> Comprehensive fault-finding services to effectively diagnose issues. We provide eligibility assessments and detailed quotations to      address any concerns with your system.</li>
- <li> <strong> Oven Repair Service: </strong> Efficient repair services for all oven components, ensuring a quick resolution to leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions!</li>
- <li> <strong> Oven Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for your oven's annual maintenance.</li>
+                  <li> <strong> Oven Installation: </strong> Expert installation of various types and brands of ovens, ensuring optimal performance and efficiency.</li>
+                  <li> <strong> Diagnostics: </strong> Comprehensive fault-finding services to effectively diagnose issues. We provide eligibility assessments and detailed quotations to      address any concerns with your system.</li>
+                  <li> <strong> Oven Repair Service: </strong> Efficient repair services for all oven components, ensuring a quick resolution to leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions!</li>
+                  <li> <strong> Oven Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for your oven's annual maintenance.</li>
                   <p className="mb-0">
-                  Regular oven maintenance is essential for optimal performance, efficiency, and longevity of your oven.
+                    Regular oven maintenance is essential for optimal performance, efficiency, and longevity of your oven.
 
                   </p>
                 </ul>
@@ -451,7 +451,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                         <img src={`${import.meta.env.BASE_URL}/img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Extending oven Lifespan</h4>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your home oven, delaying the need for replacements.</p>
+                      <p className="small">Proper care and timely servicing can significantly increase life of your oven, delaying the need for replacements.</p>
 
                     </div>
 
@@ -475,7 +475,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
           </div>
         </section>
 
-       
+
 
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
@@ -542,7 +542,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two oven at the same in Dubai location.</p>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two oven at the same location in Dubai.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -574,7 +574,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                 <p className="mb-0">
                   <Link to="/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/">
                     <b>Smeg Oven Repair</b>
-                  </Link>: FAJ is here to assist you when things go wrong. We understand that your Smeg oven is essential for daily life, helping keep your food fresh and your meals prepared
+                  </Link>: FAJ is here to assist you when things go wrong. We understand that your Smeg oven is essential for daily life, helping keep your food fresh and your meals prepared.
                 </p>
 
                 <p className="mb-0">
@@ -586,14 +586,19 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                 <p className="mb-0">
                   <Link to="/bosch-home-appliances-repair/">
                     <b> La Germania Gas Oven Repair</b>
-                  </Link>: When you need La Germania oven repair in Dubai, For La Germania oven, range repair in Dubai, our qualified technicians are available throughout 
+                  </Link>: When you need La Germania oven repair in Dubai, For La Germania oven, range repair in Dubai, our qualified technicians are available throughout the UAE.
+                </p>
+
+                <p className="mb-0">
+                  <Link to="/bosch-home-appliances-repair/">
+                    <b> Bosch Electric Oven Repai</b>
+                  </Link>: If you're searching for the best Bosch electric oven repair company in Dubai, FAJ is the perfect choice. They are renowned for delivering exceptional service for all Bosch oven repairs and are recognized as the leading Bosch appliance service provider in the region.
                 </p>
 
                 <p className="mb-0">
                   <Link to="/viking-appliances-service/">
                     <b> Viking Stove and Oven Repair</b>
                   </Link>: Your Viking appliances may need repair or maintenance, and we can help. For high-quality Viking stove and oven repair in Dubai, trust FAJ.
-
                 </p>
 
                 <p className="mb-0">
@@ -806,7 +811,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
 
 
 
-       
+
 
 
         {/* Brands section */}
