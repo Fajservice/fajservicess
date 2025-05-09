@@ -195,7 +195,7 @@ import AcRepairInProductionCity from "../Pages/AcPages/AcLocation/AcRepairInProd
 import AcRepairandServiceInEmiratesHills from "../Pages/AcPages/AcLocation/AcRepairandServiceInEmiratesHills";
 import AcRepairandServiceInTownSquare from "../Pages/AcPages/AcLocation/AcRepairandServiceInTownSquare";
 import AcServiceInDubai from "../Pages/AcPages/AcLocation/AcServiceInDubai";
-import IndesitWashingMachine from "../Pages/AppliancesPage/IndesitWashingMachine.jsx";
+import IndesitWashingMachine from "../Pages/AppliancesPage/AppliancesBrand/IndesitWashingMachine.jsx";
 export const router = createHashRouter([
   {
     path: "/",

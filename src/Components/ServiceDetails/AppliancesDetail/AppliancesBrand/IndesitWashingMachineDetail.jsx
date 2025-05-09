@@ -1,20 +1,20 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/AppliancesData/AppliancesFaqs/Indesitfaqs.json';
+import data from '../../../../Data/AppliancesData/AppliancesFaqs/Indesitfaqs.json';
 import { HelmetProvider } from "react-helmet-async";
-import Serviceappointemnt from '../../Contact/Serviceappointemnt.jsx';
-import CallNowButton from '../../Buttons/CallNowButton.jsx';
-import GetQuoteButton from "../../Buttons/GetQuoteButton.jsx";
-import WhatsappIconButton from "../../Buttons/WhatsappIconButton.jsx";
-import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract.jsx";
-import AppliancesTechnicalInspectionFee from "../../ApplianceCommons/AppliancesTechnicalInspectionFee.jsx";
-import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol.jsx";
+import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
+import CallNowButton from '../../../Buttons/CallNowButton.jsx';
+import GetQuoteButton from "../../../Buttons/GetQuoteButton.jsx";
+import WhatsappIconButton from "../../../Buttons/WhatsappIconButton.jsx";
+import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract.jsx";
+import AppliancesTechnicalInspectionFee from "../../../ApplianceCommons/AppliancesTechnicalInspectionFee.jsx";
+import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol.jsx";
 
 import Slider from "react-slick";
-import testimonial_data from '../../../Data/AppliancesData/AppliancesTestimonial/IndesitTestimonials.json';
-import loadBackgroudImages from "../../Common/loadBackgroudImages.jsx";
+import testimonial_data from '../../../../Data/AppliancesData/AppliancesTestimonial/IndesitTestimonials.json';
+import loadBackgroudImages from "../../../Common/loadBackgroudImages.jsx";
 import parse from 'html-react-parser';
-import HeaderForm from "../../Headeform/HeaderForm.jsx";
+import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 
 const IndesitWashingMachineDetail = ({ subtitle, title, bgImg }) => {
   subtitle = "Testimonial"
