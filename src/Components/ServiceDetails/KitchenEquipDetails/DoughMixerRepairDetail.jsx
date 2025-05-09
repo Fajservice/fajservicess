@@ -55,12 +55,6 @@ const DoughMixerRepairDetail = ({ subtitle, title, bgImg }) => {
     autoplaySpeed: 5000,
     pauseOnHover: true,
 
-    // autoplay: true,
-    // autoplaySpeed: 0,
-    // speed: 8000,
-    // pauseOnHover: true,
-    // cssEase: 'linear',
-
     responsive: [
       {
         breakpoint: 1399,
@@ -91,7 +85,6 @@ const DoughMixerRepairDetail = ({ subtitle, title, bgImg }) => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
-    // cssEase: 'linear',
 
     responsive: [
       {
@@ -118,8 +111,8 @@ const DoughMixerRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Commercial Dough Mixer Repair - Bakery Equipment Maintenance</title>
-        <meta name="description" content="Get FAJ dough mixer repair in Dubai. Expert service for dough mixer repair near me, food & kitchen equipment. Reliable AMC. Call now at 04 3300002!"></meta>
+        <title>Commercial Dough Mixer Repair - Bakery Equipment Service</title>
+        <meta name="description" content="FAJ provides best dough mixer repair. Call for commercial food, kitchen equipment, food preparation equipment annual maintenance service (AMC) in Dubai."></meta>
       </HelmetProvider>
       <HeaderForm />
 

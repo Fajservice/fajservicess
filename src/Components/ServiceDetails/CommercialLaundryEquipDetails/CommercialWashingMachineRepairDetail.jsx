@@ -115,8 +115,8 @@ const CommercialWashingMachineRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Commercial Washing Machine Repair & Maintenance Services</title>
-        <meta name="description" content="Looking for commercial washing machine repairs near me? Call FAJ at 04 3300002 for quick service & AMC on stacked, coin-operated & barrier washers."></meta>
+        <title>Commercial Washing Machine and Laundry Equipment Service</title>
+        <meta name="description" content="FAJ's fast response commercial washing machine repair in Dubai & stacked washer dryer, barrier washing machine maintenance contract service (AMC)."></meta>
       </HelmetProvider>
       <HeaderForm />
 

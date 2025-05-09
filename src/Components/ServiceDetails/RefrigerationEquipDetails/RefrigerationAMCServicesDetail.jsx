@@ -115,8 +115,8 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Best Appliances Service Dubai - Appliance Repair Near Me</title>
-        <meta name="description" content="We offer an appliances repair near you. Get expert in refrigerator, fridge, washing machine, dryer, dishwasher, gas stove, oven service near me Dubai"></meta>
+        <title>Refrigeration Annual Maintenance Contract Service In Dubai</title>
+        <meta name="description" content="FAJ fully experts in commercial freezer & chiller amc service in dubai. We offer freezer, cold room, refrigerator, commercial kitchen equipment maintenance"></meta>
       </HelmetProvider>
       <HeaderForm />
 

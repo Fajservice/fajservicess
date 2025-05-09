@@ -122,8 +122,8 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Best Appliances Service Dubai - Appliance Repair Near Me</title>
-        <meta name="description" content="We offer an appliances repair near you. Get expert in refrigerator, fridge, washing machine, dryer, dishwasher, gas stove, oven service near me Dubai"></meta>
+        <title>Built-in Appliances Repair Dubai - Refrigerator Service</title>
+        <meta name="description" content="We offer (Integrated) built-in appliance repair Dubai. Book an fridge, washing machine, dishwasher, stove cooktop oven fix service center near me"></meta>
       </HelmetProvider>
       <HeaderForm />
 
@@ -359,7 +359,7 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                   className="bordered-img blue-border"
                   width="100%"
                   height="350"
-                  src="https://www.youtube.com/embed/45IUOnKHjKw"
+                  src="https://www.youtube.com/embed/9T9CIvMIsfw"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

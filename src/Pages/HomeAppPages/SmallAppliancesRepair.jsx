@@ -5,7 +5,6 @@ const SmallAppliancesRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                // bgImg="/img/page_heading_1.jpg"
                 bgImg="/img/banners/Oven-Repair-Service.jpg"
                 Title="Small Home Appliances Service Center in Dubai"
             ></BreadCumb> 

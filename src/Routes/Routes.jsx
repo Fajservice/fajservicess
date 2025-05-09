@@ -194,7 +194,8 @@ import AcRepairInDubaiHillsEstate from "../Pages/AcPages/AcLocation/AcRepairInDu
 import AcRepairInProductionCity from "../Pages/AcPages/AcLocation/AcRepairInProductionCity";
 import AcRepairandServiceInEmiratesHills from "../Pages/AcPages/AcLocation/AcRepairandServiceInEmiratesHills";
 import AcRepairandServiceInTownSquare from "../Pages/AcPages/AcLocation/AcRepairandServiceInTownSquare";
-import AcServiceInDubai from "../Pages/AcPages/AcLocation/AcServiceInDubai";
+import AcServiceInDubai from "../Pages/AcServiceInDubai.jsx";
+import BBQService from "../Pages/HomeAppPages/BBQService.jsx";
 import IndesitWashingMachine from "../Pages/AppliancesPage/AppliancesBrand/IndesitWashingMachine.jsx";
 export const router = createHashRouter([
   {
@@ -244,6 +245,10 @@ export const router = createHashRouter([
       {
         path: "/hob-repair-service/",
         element: <HobRepair></HobRepair>,
+      },
+      {
+        path: "/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/",
+        element: <BBQService />
       },
       {
         path: "/oven-repair-service/",
@@ -505,6 +510,10 @@ export const router = createHashRouter([
       {
         path: "/tcl-ac-repair-in-dubai/",
         element: <TCLAcRepair />
+      },
+      {
+        path: "/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-oven-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa/",
+        element: <IndesitWashingMachine />
       },
       {
         path: "/project",
