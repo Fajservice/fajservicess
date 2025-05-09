@@ -21,7 +21,7 @@ const Home2 = () => {
                 conetnt="Repair times vary depending on the service, but most
             standard repairs are completed within a few hours your satisfaction and peace of mind."
                 btnname="Read more"
-                btnurl="/about"
+                btnurl="/about-us/"
                 videoname="Watch Our Story"
             ></HeroBanner2>
             <About2

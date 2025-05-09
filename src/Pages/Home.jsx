@@ -52,7 +52,7 @@ const Home = () => {
                 img1="/img/feature_img_1.webp"
                 content="Squeaking, grinding noises, or a spongy brake pedal are car common indicators that your brakes need attention Slow an  engine cranking."
                 btnName="Read more"
-                btnUrl="/about"
+                btnUrl="/about-us/"
                 img2="/img/whywechoose2.jpg"
                 img3="/img/whychooseus.jpg"
             ></Choose1>
@@ -87,9 +87,10 @@ const Home = () => {
                 title="What our clients say <br> About Us"
                 bgImg="/img/testimonialbg.jpg"
             ></Testimonial1>
-            <Pricing1></Pricing1>
-            <Process></Process>
+            {/* <Pricing1></Pricing1> */}
             <Blog3></Blog3>
+            
+            <Process></Process>
         </div>
         </>
         
