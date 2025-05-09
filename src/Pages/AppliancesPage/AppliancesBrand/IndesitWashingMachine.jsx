@@ -1,6 +1,8 @@
 import React from 'react'
-import BreadCumb from "../../Components/Common/BreadCumb";
-import IndesitWashingMachineDetail from '../../Components/ServiceDetails/AppliancesDetail/IndesitWashingMachineDetail';
+import BreadCumb from "../../../Components/Common/BreadCumb";
+import IndesitWashingMachineDetail from '../../../Components/ServiceDetails/AppliancesDetail/AppliancesBrand/IndesitWashingMachineDetail';
+
+
 const IndesitWashingMachine = () => {
   return (
     <div className="serviceDetails">
