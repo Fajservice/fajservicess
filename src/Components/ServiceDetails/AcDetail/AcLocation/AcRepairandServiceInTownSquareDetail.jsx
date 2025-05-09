@@ -19,6 +19,15 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
 
 const AcRepairandServiceInTownSquareDetail = ({ subtitle, title, bgImg }) => {
+
+    // For SEO
+    const titleSeo = "AC Repair and Service in Town Square - Gree AC Maintenance";
+    const description = "Get same day AC repair and service in Town Square Dubai. Call now 043300002 for your Gree air conditioner repairs and fix Gree AC error near you Dubai";
+    const Author = "Faj Technical Servcies";
+    const Keyword = "AC services Al Rashidiya, AC maintenance Dubai, inverter AC repair, split AC service, central AC maintenance, Dubai AC technician";
+    const URL = "https://fajservices.com/ac-services-in-al-rashidiya";
+
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "/img/testimonialbg.jpg"
@@ -75,8 +84,19 @@ const AcRepairandServiceInTownSquareDetail = ({ subtitle, title, bgImg }) => {
   return (
       <>
         <HelmetProvider>
-            <title>AC Repair and Service in Town Square - Gree AC Maintenance</title>
-            <meta name="description" content="Get same day AC repair and service in Town Square Dubai. Call now 043300002 for your Gree air conditioner repairs and fix Gree AC error near you Dubai"></meta>
+                <title>{titleSeo}</title>
+                <meta name="description" content={description}></meta>
+                <meta name="keywords" content={Keyword} />
+                <meta name="author" content={Author} />
+                <meta name="robots" content="index, follow" />
+
+                <linK rel="canonical" href={titleSeo} />
+                <meta property="og:type" content="website" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="og:title" content={titleSeo} />
+                <meta property="og:description" content={description} />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content={URL} />
         </HelmetProvider>
         <HeaderForm />
         <div className="cs_service_details">

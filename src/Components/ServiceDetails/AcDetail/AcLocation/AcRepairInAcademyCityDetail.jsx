@@ -19,6 +19,14 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
 
 const AcRepairInAcademyCityDetail = ({ subtitle, title, bgImg }) => {
+
+    // For SEO
+    const titleSeo = "AC Service In Academy City - AC Regas - Fix AC Errors Dubai";
+    const description = "Get AC Services in Academy City Dubai. FAJ is here to help you with air conditioner repair near me & ceiling, HVAC maintenance company near me";
+    const Author = "Faj Technical Servcies";
+    const Keyword = "AC services Al Rashidiya, AC maintenance Dubai, inverter AC repair, split AC service, central AC maintenance, Dubai AC technician";
+    const URL = "https://fajservices.com/ac-services-in-academy-city/";
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "/img/testimonialbg.jpg"
@@ -75,8 +83,20 @@ const AcRepairInAcademyCityDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
     <HelmetProvider>
-        <title>AC Service In Academy City - AC Regas - Fix AC Errors Dubai</title>
-        <meta name="description" content="Get AC Services in Academy City Dubai. FAJ is here to help you with air conditioner repair near me & ceiling, HVAC maintenance company near me"></meta>
+    
+                <title>{titleSeo}</title>
+                <meta name="description" content={description}></meta>
+                <meta name="keywords" content={Keyword} />
+                <meta name="author" content={Author} />
+                <meta name="robots" content="index, follow" />
+
+                <linK rel="canonical" href={titleSeo} />
+                <meta property="og:type" content="website" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="og:title" content={titleSeo} />
+                <meta property="og:description" content={description} />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content={URL} />
     </HelmetProvider>
     <HeaderForm />
     <div className="cs_service_details">
