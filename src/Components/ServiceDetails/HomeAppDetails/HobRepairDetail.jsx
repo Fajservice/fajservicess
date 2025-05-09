@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/HomeAppData/HobRepairFaqs.json';
+import data from '../../../Data/HomeAppData/FAQs/HobRepairFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
@@ -11,7 +11,7 @@ import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
-import testimonial_data from '../../../Data/HomeAppData/HobrepairTestimonials.json';
+import testimonial_data from '../../../Data/HomeAppData/Testmonials/HobrepairTestimonials.json';
 import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
@@ -121,8 +121,8 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Best Appliances Service Dubai - Appliance Repair Near Me</title>
-        <meta name="description" content="We offer an appliances repair near you. Get expert in refrigerator, fridge, washing machine, dryer, dishwasher, gas stove, oven service near me Dubai"></meta>
+        <title>Best Gas & Electric Hob Repair Service In Dubai #1 Stove Fix </title>
+        <meta name="description" content="Having issues with your cooking appliance? Dail 043300002 for hob repair service in dubai and electric stove, cooking range fix near me in dubai"></meta>
       </HelmetProvider>
       <HeaderForm />
 

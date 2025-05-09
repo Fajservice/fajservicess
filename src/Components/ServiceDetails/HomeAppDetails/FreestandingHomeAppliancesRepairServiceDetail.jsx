@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/HomeAppData/FreestandingHomeAppliancesRepairService.json';
+import data from '../../../Data/HomeAppData/FAQs/FreestandingHomeAppliancesRepairServiceFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../../Miscellaneous/FAJACPrice.jsx';
 import Serviceappointemnt from '../../Contact/Serviceappointemnt.jsx';
@@ -12,7 +12,7 @@ import AppliancesTechnicalInspectionFee from "../../ApplianceCommons/AppliancesT
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol.jsx";
 
 import Slider from "react-slick";
-import testimonial_data from '../../../Data/HomeAppData/FreestandingHomeAppliancesRepairServiceTestimonials.json';
+import testimonial_data from '../../../Data/HomeAppData/Testmonials/FreestandingHomeAppliancesRepairServiceTestimonials.json';
 import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages.jsx";
 import parse from 'html-react-parser';
@@ -172,7 +172,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
             </div>
             <AppliancesAppointmentCol></AppliancesAppointmentCol>
           </div>
-        </section>       
+        </section>
 
         {/* The Most Common Problems with Home Appliances */}
         <section className="section cs_py_30">
@@ -286,7 +286,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
           <div className="container">
             <h3 className="cs_fs_30">Why is Appliance Maintenance Service Important in Dubai?</h3>
             <p className="">
-            Proper appliance maintenance is essential for extending lifespan and enhancing efficiency, especially in Dubai’s climate. Here are the main benefits:
+              Proper appliance maintenance is essential for extending lifespan and enhancing efficiency, especially in Dubai’s climate. Here are the main benefits:
             </p>
 
             <div className="row align-items-center">
@@ -394,8 +394,8 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
           </div>
         </section>
 
-         {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
-         <section className="section cs_py_30 bg-light-gray">
+        {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h3>
 

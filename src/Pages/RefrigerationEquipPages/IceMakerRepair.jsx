@@ -5,8 +5,8 @@ const IceMakerRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="/img/banners/dishwasher.jpg"
-                Title="Dishwasher Repair and Service in Dubai"
+                bgImg="/img/banners/Refrigeration Equipment Services/Ice-Maker-Repair.jpg"
+                Title="Ice Maker Repair"
             ></BreadCumb> 
 
             <IceMakerRepairDetail></IceMakerRepairDetail>

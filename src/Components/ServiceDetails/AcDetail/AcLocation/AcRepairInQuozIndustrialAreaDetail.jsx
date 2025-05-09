@@ -80,7 +80,7 @@ const AcRepairInQuozIndustrialAreaDetail = ({ subtitle, title, bgImg }) => {
     <>
     <HelmetProvider>
       <title>Best AC Services in Al Quoz Industrial Area Dubai Near Me</title>
-      <meta name="description" content="Call now on 043300002 for AC Services in Al Quoz Industrial Area - Book an your Air Conditioner Maintenance & Aircon Repair Near me in Dubai"></meta>
+      <meta name="description" content="Get the Best AC Services in Old Town Dubai with FAJ experts in Central Cooling, FCU, HVAC Air Conditioner Maintenance & Repair near me Dubai"></meta>
     </HelmetProvider>
     <HeaderForm />
     <div className="cs_service_details">

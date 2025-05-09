@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/HomeAppData/IntegratedAppliancesRepairServiceFaqs.json';
+import data from '../../../Data/HomeAppData/FAQs/IntegratedAppliancesRepairServiceFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
@@ -12,7 +12,7 @@ import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
-import testimonial_data from '../../../Data/HomeAppData/IntegratedAppliancesRepairServiceTestimonials.json';
+import testimonial_data from '../../../Data/HomeAppData/Testmonials/IntegratedAppliancesRepairServiceTestimonials.json';
 import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
 
 import loadBackgroudImages from "../../Common/loadBackgroudImages";

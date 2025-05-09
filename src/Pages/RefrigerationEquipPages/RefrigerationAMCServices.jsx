@@ -5,8 +5,9 @@ const RefrigerationAMCServices = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="/img/banners/dishwasher.jpg"
-                Title="Dishwasher Repair and Service in Dubai"
+                bgImg="/img/banners/Refrigeration Equipment Services/Refrigeration-AMC-Services.jpg"
+
+                Title="Commercial Freezer Chiller AMC Service"
             ></BreadCumb> 
 
             <RefrigerationAMCServicesDetail></RefrigerationAMCServicesDetail>

@@ -5,7 +5,6 @@ import { HelmetProvider } from "react-helmet-async";
 import FAJACPrice from '../../../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
-import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMaintenance";
 import QuickGuide from "../../../QuickGuide/QuickGuide";
@@ -13,7 +12,7 @@ import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
-import testimonial from '../../../../Data/AcData/AcFaqs/AcServiceInDubai.json';
+import testimonial from '../../../../Data/AcData/AcTestimonial/AcServiceTestimonials.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
