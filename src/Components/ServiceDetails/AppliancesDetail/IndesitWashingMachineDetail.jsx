@@ -1,8 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/HomeAppData/FreestandingHomeAppliancesRepairService.json';
+import data from '../../../Data/AppliancesData/AppliancesFaqs/Indesitfaqs.json';
 import { HelmetProvider } from "react-helmet-async";
-import FAJACPrice from '../../Miscellaneous/FAJACPrice.jsx';
 import Serviceappointemnt from '../../Contact/Serviceappointemnt.jsx';
 import CallNowButton from '../../Buttons/CallNowButton.jsx';
 import GetQuoteButton from "../../Buttons/GetQuoteButton.jsx";
@@ -12,8 +11,7 @@ import AppliancesTechnicalInspectionFee from "../../ApplianceCommons/AppliancesT
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol.jsx";
 
 import Slider from "react-slick";
-import testimonial_data from '../../../Data/HomeAppData/FreestandingHomeAppliancesRepairServiceTestimonials.json';
-import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
+import testimonial_data from '../../../Data/AppliancesData/AppliancesTestimonial/IndesitTestimonials.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages.jsx";
 import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm.jsx";
@@ -143,10 +141,10 @@ const IndesitWashingMachineDetail = ({ subtitle, title, bgImg }) => {
         <div className="container">
           <div className="row gx-md-5">
             <div className="col-md-6">
-              <h3 className="cs_fs_24 mb-1">Best Washing Machine Repair in Indesit</h3>
+              <h3 className="cs_fs_24 mb-1">Best Indesit Washing Machine Repair </h3>
 
               <p className="mb-2">
-                If you need appliance repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
+                If you need Indesit Appliance Repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
                 <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
                 <br /> We're nearby and can get your appliances fixed quickly and efficiently.
               </p>
@@ -166,7 +164,7 @@ const IndesitWashingMachineDetail = ({ subtitle, title, bgImg }) => {
       {/* The Most Common Problems with Home Appliances */}
       <section className="section cs_py_30">
         <div className="container">
-          <h3 className="text-center">The Most Common Problems with Home Appliances   </h3>
+          <h3 className="text-center">The Most Common Problems with Indesit Home Appliances   </h3>
           <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
             <div className="col-12 col-md-4 col-lg-3">
@@ -228,7 +226,7 @@ const IndesitWashingMachineDetail = ({ subtitle, title, bgImg }) => {
       {/* Why is Appliance Maintenance Service Important in Dubai? */}
       <section className="section cs_py_30 bg-light-gray">
         <div className="container">
-          <h3 className="cs_fs_30">Why is Appliance Maintenance Service Important in Dubai?</h3>
+          <h3 className="cs_fs_30">Why is Indesit Appliance Maintenance Service Important in Dubai?</h3>
           <p className="">
           Proper appliance maintenance is essential for extending lifespan and enhancing efficiency, especially in Dubai’s climate. Here are the main benefits:
           </p>
@@ -256,7 +254,7 @@ const IndesitWashingMachineDetail = ({ subtitle, title, bgImg }) => {
       <section className="section cs_py_30 appliances-benifit-sec">
         <div className="container">
           <div className="row justify-content-center">
-            <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai
+            <h3 className="cs_fs_30 mb-0">The Benefits Of Indesit appliances Service Dubai
             </h3>
             <div className="row gx-3 gy-5 mt-0">
               <div className="col-md-4 mb-2">
@@ -341,7 +339,7 @@ const IndesitWashingMachineDetail = ({ subtitle, title, bgImg }) => {
        {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
        <section className="section cs_py_30 bg-light-gray">
         <div className="container">
-          <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h3>
+          <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR Indesit HOME APPLIANCES</h3>
 
           <div className="row align-items-center">
             <div className="col-xl-6">
@@ -429,7 +427,7 @@ const IndesitWashingMachineDetail = ({ subtitle, title, bgImg }) => {
                 </div>
                 <div className="usptext">
                   <h3 className="">We Are Experts</h3>
-                  <p>We are experts in appliance repair this is why most major brands trust us to handle their service and maintenance needs.</p>
+                  <p>We are experts in Indesit appliance repair this is why most major brands trust us to handle their service and maintenance needs.</p>
                 </div>
               </div>
               <div className="uspitem">
