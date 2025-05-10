@@ -5,7 +5,7 @@ const CommercialCoffeeMachineRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="/img/banners/commercial-coffee-machine-services.jpg"
+                bgImg="img/banners/commercial-coffee-machine-services.jpg"
                 Title="Commercial Coffee Machine Repair"
             ></BreadCumb> 
 

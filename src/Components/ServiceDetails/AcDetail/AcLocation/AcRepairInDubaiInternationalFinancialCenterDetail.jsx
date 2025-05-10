@@ -18,7 +18,7 @@ import WeSpecialise from "./WeSpecialise/WeSpecialise";
 const AcRepairInDubaiInternationalFinancialCenterDetail = ({ subtitle, title, bgImg }) => {
     subtitle = "Testimonial"
     title = "What our clients say About Us"
-    bgImg = "/img/testimonialbg.jpg"
+    bgImg = "img/testimonialbg.jpg"
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -125,7 +125,7 @@ const AcRepairInDubaiInternationalFinancialCenterDetail = ({ subtitle, title, bg
                     </div>
 
                     <div className="col-md-6 ">
-                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/Experts-AC-Service-and-Maintenance.jpg`} alt="Post Image" />
+                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.jpg`} alt="Post Image" />
 
                     </div>
                 </div>
@@ -158,7 +158,7 @@ const AcRepairInDubaiInternationalFinancialCenterDetail = ({ subtitle, title, bg
 
                 <div className="row align-items-center">
                     <div className="col-md-6">
-                        <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/What-is-covered-in-an-AC-Maintenance-Contract.jpg`} alt="Post Image" />
+                        <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.jpg`} alt="Post Image" />
                     </div>
                     <div className="col-md-6">
                         <ul className="mb-0">
@@ -325,7 +325,7 @@ const AcRepairInDubaiInternationalFinancialCenterDetail = ({ subtitle, title, bg
                     <div className="col-lg-4">
                         <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                            <img className="" src={`${import.meta.env.BASE_URL}/img/benafit-acimg.jpg`} alt="Post Image" />
+                            <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Post Image" />
                         </div>
                     </div>
                     <div className="col-lg-4">
@@ -382,7 +382,7 @@ const AcRepairInDubaiInternationalFinancialCenterDetail = ({ subtitle, title, bg
                                             </div>
                                             <blockquote className="cs_fs_16">{item.desc}</blockquote>
                                             <div className="cs_quote_icon position-absolute">
-                                                <img src={`${import.meta.env.BASE_URL}/img/icons/quote_1_blue.svg`} alt="Quote Icon" />
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`} alt="Quote Icon" />
                                             </div>
                                         </div>
                                     </div>

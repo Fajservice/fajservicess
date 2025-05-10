@@ -21,7 +21,7 @@ import HeaderForm from "../Headeform/HeaderForm";
 const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
   subtitle = "Testimonial"
   title = "What our clients say About Us"
-  bgImg = "/img/testimonialbg.jpg"
+  bgImg = "img/testimonialbg.jpg"
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -90,7 +90,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
+            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
             <p>F A J Technical Services L.L.C is a leading AC repair company in Dubai, providing reliable air conditioner services tailored to the UAE's hot climate.
               <br />
@@ -114,7 +114,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Post Image" /> */}
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/reem-ac-service.jpg`} alt="Post Image" /> */}
                 <h3 className="cs_fs_24 mb-1">Select Air Conditioner Repair & Service</h3>
                 <p className="mb-2">We understand the urgency of responding promptly when an air conditioner failure impacts your critical cooling system, especially when people depend on it. Our expert and experienced AC technicians are dedicated to delivering the best AC repair and service in Dubai.</p>
                 <p>Choose FAJ for professional AC repair and maintenance for both residential and commercial units in your area.</p>
@@ -140,8 +140,8 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/ac-repair-2.jpg`} alt="Post Image" />
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-repair-2.jpg`} alt="Post Image" />
 
               </div>
             </div>
@@ -174,7 +174,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/5-Reasons-Your-AC-Might-Need-Repairs-This-Summer.jpg`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/5-Reasons-Your-AC-Might-Need-Repairs-This-Summer.jpg`} alt="Post Image" />
               </div>
               <div className="col-md-6">
 
@@ -501,7 +501,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                  <img className="" src={`${import.meta.env.BASE_URL}/img/benafit-acimg.jpg`} alt="Post Image" />
+                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Post Image" />
                 </div>
               </div>
               <div className="col-lg-4">
@@ -557,7 +557,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
                           </div>
                           <blockquote className="cs_fs_16">{item.desc}</blockquote>
                           <div className="cs_quote_icon position-absolute">
-                            <img src={`${import.meta.env.BASE_URL}/img/icons/quote_1_blue.svg`} alt="Quote Icon" />
+                            <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`} alt="Quote Icon" />
                           </div>
                         </div>
                       </div>

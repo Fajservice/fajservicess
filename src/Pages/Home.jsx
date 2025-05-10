@@ -23,9 +23,9 @@ const Home = () => {
         <div className="homepage">
             <HeroBanner1></HeroBanner1>
             <About1
-                img1="/img/about_img_1.jpg"
-                img2="/img/about_img_2.jpg"
-                img3="/img/about_img_3.jpg"
+                img1="img/about_img_1.jpg"
+                img2="img/about_img_2.jpg"
+                img3="img/about_img_3.jpg"
                 expNumber="FAJ"
                 expYers="was established"
                 expTitle="Since"
@@ -49,20 +49,20 @@ const Home = () => {
             ></About1>
             <Services1></Services1>
             <Choose1
-                img1="/img/feature_img_1.webp"
+                img1="img/feature_img_1.webp"
                 content="Squeaking, grinding noises, or a spongy brake pedal are car common indicators that your brakes need attention Slow an  engine cranking."
                 btnName="Read more"
-                btnUrl="/about-us/"
-                img2="/img/whywechoose2.jpg"
-                img3="/img/whychooseus.jpg"
+                btnUrl="about-us/"
+                img2="img/whywechoose2.jpg"
+                img3="img/whychooseus.jpg"
             ></Choose1>
             <BeforeAfter 
                 title="Recent Completed Projects"
                 subTitle="Before & after"
-                bgImg="/img/background-image-2.jpg"
-                beforeImg="/img/after_img_1.jpg"
+                bgImg="img/background-image-2.jpg"
+                beforeImg="img/after_img_1.jpg"
                 afterTitle="After"
-                afterImg="/img/before_img_1.jpg"
+                afterImg="img/before_img_1.jpg"
                 beforeTitle="Before"
             ></BeforeAfter>
             <Project1></Project1>
@@ -77,7 +77,7 @@ const Home = () => {
                 number1="+971 50 746 4712"
                 number1Link="tel:+971507464712"
                 clientNumber="5,400"
-                img="/img/contact-us-image.jpg"
+                img="img/contact-us-image.jpg"
                 client="Happy Clients"
                 subtitle2="Contact us"
                 title2="Book An Appointment"
@@ -85,7 +85,7 @@ const Home = () => {
             <Testimonial1
                 subtitle="Testimonial"
                 title="What our clients say <br> About Us"
-                bgImg="/img/testimonialbg.jpg"
+                bgImg="img/testimonialbg.jpg"
             ></Testimonial1>
             {/* <Pricing1></Pricing1> */}
             <Blog3></Blog3>

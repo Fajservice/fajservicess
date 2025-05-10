@@ -9,13 +9,13 @@ const AboutPage = () => {
     return (
         <div>
            <BreadCumb
-                bgImg="/img/page_heading_1.jpg"
+                bgImg="img/page_heading_1.jpg"
                 Title="About Us"
             ></BreadCumb>            
            <About1
-                img1="/img/about_img_1.jpg"
-                img2="/img/about_img_2.jpg"
-                img3="/img/about_img_3.jpg"
+                img1="img/about_img_1.jpg"
+                img2="img/about_img_2.jpg"
+                img3="img/about_img_3.jpg"
                 expNumber="FAJ"
                 expYers="was established"
                 expTitle="Since"
@@ -40,7 +40,7 @@ const AboutPage = () => {
              <Testimonial1
                 subtitle="Testimonial"
                 title="What our clients say <br> About Us"
-                bgImg="/img/testimonialbg.jpg"
+                bgImg="img/testimonialbg.jpg"
             ></Testimonial1>
             <Brand1></Brand1>
             <Process></Process>

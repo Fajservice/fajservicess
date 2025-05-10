@@ -14,7 +14,7 @@ const Contact = ({Title,subTitle,address,email,emailLink,number,numberLink,numbe
                     <p className="cs_mb_25">{subTitle}</p>
                     <div className="cs_iconbox cs_style_1 cs_type_1 cs_mb_18">
                       <div className="cs_iconbox_icon cs_center">
-                        <img src={`${import.meta.env.BASE_URL}/img/icons/location.svg`} alt="Location Icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/location.svg`} alt="Location Icon" />
                       </div>
                       <div className="cs_iconbox_info">
                         <p className="mb-0">{address}</p>
@@ -22,7 +22,7 @@ const Contact = ({Title,subTitle,address,email,emailLink,number,numberLink,numbe
                     </div>
                     <div className="cs_iconbox cs_style_1 cs_type_1 cs_mb_18">
                       <div className="cs_iconbox_icon cs_center">
-                        <img src={`${import.meta.env.BASE_URL}/img/icons/mail_open.svg`} alt="Mail Icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/mail_open.svg`} alt="Mail Icon" />
                       </div>
                       <div className="cs_iconbox_info">
                         <a  href={emailLink}>{email}</a>
@@ -30,7 +30,7 @@ const Contact = ({Title,subTitle,address,email,emailLink,number,numberLink,numbe
                     </div>
                     <div className="cs_iconbox cs_style_1 cs_type_1">
                       <div className="cs_iconbox_icon cs_center">
-                        <img src={`${import.meta.env.BASE_URL}/img/icons/phone-call.svg`} alt="Phone Icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/phone-call.svg`} alt="Phone Icon" />
                       </div>
                       <div className="cs_iconbox_info">
                         <a className="cs_tab active" href={numberLink}>{number}</a><b/>

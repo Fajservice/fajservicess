@@ -127,7 +127,7 @@ const ServiceDetails = () => {
                   <div className="cs_card cs_style_6">
                     <h3 className="cs_fs_30 cs_white_color cs_mb_30">Emergency Car Repair Services</h3>
                     <div className="cs_card_icon cs_center cs_mb_32">
-                      <img src="/img/icons/phone-call_2.svg" alt="Phone Icon" />
+                      <img src="img/icons/phone-call_2.svg" alt="Phone Icon" />
                     </div>
                     <p className="cs_white_color cs_mb_5">Requesting A Call</p>
                     <a href="tel:+111(564)56825" className="cs_call_text cs_fs_30 cs_bold cs_heading_font cs_mb_23">+111 (564) 568 25</a>

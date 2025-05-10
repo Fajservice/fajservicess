@@ -1,6 +1,4 @@
-import {
-  createHashRouter,
-} from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 import Main from "../Layout/Main";
 import Home from "../Pages/Home";
 import AboutPage from "../Pages/AboutPage";
@@ -199,7 +197,7 @@ import IndesitWashingMachine from "../Pages/AppliancesPage/AppliancesBrand/Indes
 import AcRepairInDownTown from "../Pages/AcPages/AcLocation/AcRepairInDowntown.jsx";
 import PortfolioPage from "../Pages/PortfolioPage.jsx";
 import CigarcabnitService from "../Pages/HomeAppPages/CigarcabnitService.jsx";
-export const router = createHashRouter([
+export const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,

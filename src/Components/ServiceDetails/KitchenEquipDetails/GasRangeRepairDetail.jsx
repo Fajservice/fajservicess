@@ -20,7 +20,7 @@ import HeaderForm from "../../Headeform/HeaderForm";
 const GasRangeDetail = ({ subtitle, title, bgImg }) => {
   subtitle = "Testimonial"
   title = "What our clients say About Us"
-  bgImg = "/img/testimonialbg.jpg"
+  bgImg = "img/testimonialbg.jpg"
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -127,7 +127,7 @@ const GasRangeDetail = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
+            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30">Do you want an Gas Range repair that does not cause a fortune?</h2>
             <p>Are you having trouble finding reliable gas cooker repair services? Now worry not. FAJ Technical Services provides the best cooker repair and maintenance services. We are a top provider of cooker repair and maintenance services. We are a dependable and trustworthy partner for people and companies looking for professional solutions for their gas cooker-related needs. Trust us for cooker repairs because we have made a strong commitment to quality and customer satisfaction.</p>
 
@@ -149,7 +149,7 @@ const GasRangeDetail = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/reem-ac-service.jpg`} alt="Gas Cooker Repair" /> */}
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/reem-ac-service.jpg`} alt="Gas Cooker Repair" /> */}
                 <h3 className="cs_fs_24 mb-1">Gas Range Repair Nearby You</h3>
 
                 <p className="mb-2">
@@ -170,8 +170,8 @@ const GasRangeDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Gas Cooker Repair" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/kitchen-equipment.jpg`} alt="Gas Cooker Repair" />
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.jpg`} alt="Gas Cooker Repair" /> */}
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/kitchen-equipment.jpg`} alt="Gas Cooker Repair" />
 
               </div>
             </div>
@@ -198,7 +198,7 @@ const GasRangeDetail = ({ subtitle, title, bgImg }) => {
             <p>We set out on this journey to raise the bar for gas cooker repair services. We are committed to delivering exceptional repair and maintenance services that surpass the expectations of our clients. We have developed our knowledge over the years and put together a group of remarkable technicians who are not only experts but also provide the best kitchen solutions. Trust FAJ Technical Services and you will not be disappointed.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/cooker.webp`} alt="Gas Cooker Repair" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/cooker.webp`} alt="Gas Cooker Repair" />
               </div>
               <div className="col-md-6">
                 <h4>Gas stove maintenance</h4>
@@ -369,7 +369,7 @@ const GasRangeDetail = ({ subtitle, title, bgImg }) => {
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}/img/icons/Ensuring-Safety.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h4>
                       <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
@@ -380,7 +380,7 @@ const GasRangeDetail = ({ subtitle, title, bgImg }) => {
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}/img/icons/Optimal-Performance.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
                       </h4>
@@ -393,7 +393,7 @@ const GasRangeDetail = ({ subtitle, title, bgImg }) => {
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}/img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
                       <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
@@ -405,7 +405,7 @@ const GasRangeDetail = ({ subtitle, title, bgImg }) => {
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}/img/icons/Saving-Money-on-Repair.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h4>
                       <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
@@ -417,7 +417,7 @@ const GasRangeDetail = ({ subtitle, title, bgImg }) => {
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}/img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h4>
                       <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
@@ -431,7 +431,7 @@ const GasRangeDetail = ({ subtitle, title, bgImg }) => {
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}/img/icons/Peace-of-Mind.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                       </h4>
@@ -471,7 +471,7 @@ const GasRangeDetail = ({ subtitle, title, bgImg }) => {
               <div className="uspcol col-1">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}/img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
 
                   </div>
                   <div className="usptext">
@@ -482,7 +482,7 @@ const GasRangeDetail = ({ subtitle, title, bgImg }) => {
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}/img/icons/experts.png`} alt="We Are Experts" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
@@ -493,7 +493,7 @@ const GasRangeDetail = ({ subtitle, title, bgImg }) => {
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}/img/icons/full-control.webp`} alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
@@ -505,14 +505,14 @@ const GasRangeDetail = ({ subtitle, title, bgImg }) => {
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}/img/fajteam-1.jpg`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.jpg`} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}/img/icons/value.png`} alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
@@ -521,7 +521,7 @@ const GasRangeDetail = ({ subtitle, title, bgImg }) => {
                 </div>
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}/img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
 
                   </div>
                   <div className="usptext">
@@ -531,7 +531,7 @@ const GasRangeDetail = ({ subtitle, title, bgImg }) => {
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}/img/icons/trustworthy.png`} alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
@@ -542,7 +542,7 @@ const GasRangeDetail = ({ subtitle, title, bgImg }) => {
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}/img/fajteam.jpg`} alt="FAJ icon service" />
+                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.jpg`} alt="FAJ icon service" />
               </div>
             </div>
           </div>
@@ -810,7 +810,7 @@ const GasRangeDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                  <img className="" src={`${import.meta.env.BASE_URL}/img/benafit-acimg.jpg`} alt="Gas Cooker Repair" />
+                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Gas Cooker Repair" />
                 </div>
               </div>
               <div className="col-lg-4">
@@ -894,7 +894,7 @@ const GasRangeDetail = ({ subtitle, title, bgImg }) => {
                           </div>
                           <blockquote className="cs_fs_16">{item.desc}</blockquote>
                           <div className="cs_quote_icon position-absolute">
-                            <img src={`${import.meta.env.BASE_URL}/img/icons/quote_1_blue.svg`} alt="Quote Icon" />
+                            <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`} alt="Quote Icon" />
                           </div>
                         </div>
                       </div>

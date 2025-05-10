@@ -19,7 +19,7 @@ import HeaderForm from "../../Headeform/HeaderForm";
 const HotPlateRepairDetail = ({ subtitle, title, bgImg }) => {
   subtitle = "Testimonial"
   title = "What our clients say About Us"
-  bgImg = "/img/testimonialbg.jpg"
+  bgImg = "img/testimonialbg.jpg"
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -119,7 +119,7 @@ const HotPlateRepairDetail = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}/img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
+            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30">What actually is a hot plate?</h2>
             <p>A hot plate is an essential piece of electrical kitchen equipment used to bake, heat, cook food or boil liquids at your facility. These machines come in many sizes and capacities for your domestic, industrial and commercial needs. As it involves electronics it is bound to fail at some point in its life, requiring you to look for a commercial hot plate repair and maintenance expert. Many technological advances made it possible for us to cook food using electricity making these hot plates and induction cooktops a true engineering marvel.</p>
 
@@ -156,8 +156,8 @@ const HotPlateRepairDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Hot Plate Repair" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/hot-plate-repair.png`} alt="Hot Plate Repair" />
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.jpg`} alt="Hot Plate Repair" /> */}
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/hot-plate-repair.png`} alt="Hot Plate Repair" />
 
               </div>
             </div>
@@ -184,7 +184,7 @@ const HotPlateRepairDetail = ({ subtitle, title, bgImg }) => {
             <p>Whenever someone is faced with an equipment failure, the first thought in his / her mind is whether to bear any repair costs and face future failures or just to replace my equipment all together? Let us inform you that a timely electric hot plate repair and servicing is always cheaper than bearing the cost of replacing a unit all together. A quality fix will completely rejuvenate your induction cooktop ensuring refurbishment of all the faulty components. This activity will increase the operational life of your equipment by 40%. If you are unsure of hot plate repair near me give us a call.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/Hob-Repair-Service-in-Dubai-UAE.jpeg`} alt="Hot Plate Repair" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Hob-Repair-Service-in-Dubai-UAE.jpeg`} alt="Hot Plate Repair" />
               </div>
               <div className="col-md-6">
                 <h3 className="cs_fs_20 mb-1">Signs that your induction cooker / hot plate needs repair:</h3>
@@ -362,7 +362,7 @@ const HotPlateRepairDetail = ({ subtitle, title, bgImg }) => {
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}/img/icons/Ensuring-Safety.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h4>
                       <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
@@ -373,7 +373,7 @@ const HotPlateRepairDetail = ({ subtitle, title, bgImg }) => {
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}/img/icons/Optimal-Performance.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
                       </h4>
@@ -386,7 +386,7 @@ const HotPlateRepairDetail = ({ subtitle, title, bgImg }) => {
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}/img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
                       <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
@@ -398,7 +398,7 @@ const HotPlateRepairDetail = ({ subtitle, title, bgImg }) => {
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}/img/icons/Saving-Money-on-Repair.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h4>
                       <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
@@ -410,7 +410,7 @@ const HotPlateRepairDetail = ({ subtitle, title, bgImg }) => {
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}/img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h4>
                       <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
@@ -424,7 +424,7 @@ const HotPlateRepairDetail = ({ subtitle, title, bgImg }) => {
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}/img/icons/Peace-of-Mind.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                       </h4>
@@ -464,7 +464,7 @@ const HotPlateRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="uspcol col-1">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}/img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
 
                   </div>
                   <div className="usptext">
@@ -475,7 +475,7 @@ const HotPlateRepairDetail = ({ subtitle, title, bgImg }) => {
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}/img/icons/experts.png`} alt="We Are Experts" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
@@ -486,7 +486,7 @@ const HotPlateRepairDetail = ({ subtitle, title, bgImg }) => {
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}/img/icons/full-control.webp`} alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
@@ -498,14 +498,14 @@ const HotPlateRepairDetail = ({ subtitle, title, bgImg }) => {
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}/img/fajteam-1.jpg`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.jpg`} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}/img/icons/value.png`} alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
@@ -514,7 +514,7 @@ const HotPlateRepairDetail = ({ subtitle, title, bgImg }) => {
                 </div>
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}/img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
 
                   </div>
                   <div className="usptext">
@@ -524,7 +524,7 @@ const HotPlateRepairDetail = ({ subtitle, title, bgImg }) => {
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}/img/icons/trustworthy.png`} alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
@@ -535,7 +535,7 @@ const HotPlateRepairDetail = ({ subtitle, title, bgImg }) => {
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}/img/fajteam.jpg`} alt="FAJ icon service" />
+                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.jpg`} alt="FAJ icon service" />
               </div>
             </div>
           </div>
@@ -803,7 +803,7 @@ const HotPlateRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                  <img className="" src={`${import.meta.env.BASE_URL}/img/benafit-acimg.jpg`} alt="Hot Plate Repair" />
+                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Hot Plate Repair" />
                 </div>
               </div>
               <div className="col-lg-4">
@@ -887,7 +887,7 @@ const HotPlateRepairDetail = ({ subtitle, title, bgImg }) => {
                           </div>
                           <blockquote className="cs_fs_16">{item.desc}</blockquote>
                           <div className="cs_quote_icon position-absolute">
-                            <img src={`${import.meta.env.BASE_URL}/img/icons/quote_1_blue.svg`} alt="Quote Icon" />
+                            <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`} alt="Quote Icon" />
                           </div>
                         </div>
                       </div>

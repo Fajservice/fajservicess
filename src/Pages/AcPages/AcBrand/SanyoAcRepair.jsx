@@ -5,8 +5,8 @@ const SanyoAcRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="/img/acbrands/sanyo-ac-repair.jpg"
-                // bgImg="/img/ac_service-bannerbg.jpg"
+                bgImg="img/acbrands/sanyo-ac-repair.jpg"
+                // bgImg="img/ac_service-bannerbg.jpg"
                 Title="Sanyo AC Repair in Dubai - Air Conditioner Service Near Me"
             ></BreadCumb> 
             <SanyoAcRepairDetail></SanyoAcRepairDetail>           

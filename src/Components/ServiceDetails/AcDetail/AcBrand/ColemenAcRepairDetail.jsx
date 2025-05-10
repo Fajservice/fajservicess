@@ -17,7 +17,7 @@ import Slider from "react-slick";
 const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
   subtitle="Testimonial"
   title="What our clients say <br> About Us"
-  bgImg="/img/testimonialbg.jpg"
+  bgImg="img/testimonialbg.jpg"
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -122,7 +122,7 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
                       </div>
 
                     <div className="col-md-6">
-                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/Experts-AC-Service-and-Maintenance.jpg`} alt="Coleman Ac Repair" />
+                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.jpg`} alt="Coleman Ac Repair" />
                         
                     </div>
                 </div>
@@ -159,8 +159,8 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
                 </ul>
               </div>
               <div className="col-md-6">
-                {/* <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}/img/indoor-ac-servicing.jpg`} alt="Coleman Ac Repair" />
+                {/* <img className="blue-border" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.jpg`} alt="Coleman Ac Repair" />
               </div>
               
             </div>
@@ -298,7 +298,7 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
                     <div className="col-lg-4">
                         <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                            <img className="" src={`${import.meta.env.BASE_URL}/img/benafit-acimg.jpg`} alt="Post Image" />
+                            <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Post Image" />
                         </div>
                     </div>
                     <div className="col-lg-4">
@@ -353,7 +353,7 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
                             </div>
                             <blockquote className="cs_fs_16">{item.desc}</blockquote>
                             <div className="cs_quote_icon position-absolute">
-                              <img src={`${import.meta.env.BASE_URL}/img/icons/quote_1.svg`} alt="Quote Icon" />
+                              <img src={`${import.meta.env.BASE_URL}img/icons/quote_1.svg`} alt="Quote Icon" />
                             </div>
                           </div>
                         </div>

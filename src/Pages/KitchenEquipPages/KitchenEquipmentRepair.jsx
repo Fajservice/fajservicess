@@ -5,7 +5,7 @@ const KitchenEquipmentRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="/img/banners/kitchen equipments/Kitchen-Equipment-Repair.jpg"
+                bgImg="img/banners/kitchen equipments/Kitchen-Equipment-Repair.jpg"
                 Title="Kitchen Equipments Service and Repair Dubai"
             ></BreadCumb> 
 

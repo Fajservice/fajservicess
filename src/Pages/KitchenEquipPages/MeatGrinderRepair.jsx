@@ -4,7 +4,7 @@ const MeatGrinderRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="/img/banners/kitchen equipments/meat-grinder.jpg"
+                bgImg="img/banners/kitchen equipments/meat-grinder.jpg"
                 Title="Meat Grinder Repair"
             ></BreadCumb> 
 

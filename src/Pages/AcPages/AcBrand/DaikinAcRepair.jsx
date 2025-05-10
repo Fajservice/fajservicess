@@ -5,8 +5,8 @@ const DaikinAcRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="/img/acbrands/Diakin-AC-bg.jpg"
-                // bgImg="/img/ac_service-bannerbg.jpg"
+                bgImg="img/acbrands/Diakin-AC-bg.jpg"
+                // bgImg="img/ac_service-bannerbg.jpg"
                 Title="Daikin AC Repair Near Me - Air Conditioner Maintenance"
             ></BreadCumb> 
             <DaikinAcRepairDetail></DaikinAcRepairDetail>           

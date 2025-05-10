@@ -5,7 +5,7 @@ const ColdRoomRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="/img/ac_service-bannerbg.jpg"
+                bgImg="img/ac_service-bannerbg.jpg"
 
                 Title="Cold Room Repair"
             ></BreadCumb> 

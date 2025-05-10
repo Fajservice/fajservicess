@@ -131,8 +131,7 @@ const Form1 = () => {
 
         {/* ✅ reCAPTCHA */}
         <div className="col-12 d-flex justify-content-center mb-3">
-          <ReCAPTCHA sitekey="6Lco6CIrAAAAAC9ZHw4Vb8Wg4AwBaHZOw_OGfx9z
-" onChange={handleCaptchaChange} />
+          <ReCAPTCHA sitekey="6Lce-TMrAAAAAL04oTGMxqzUhR01YMvHwr8WzNFQ" onChange={handleCaptchaChange} />
         </div>
 
         <div className="col-12">

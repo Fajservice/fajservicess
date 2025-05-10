@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Footer1 = () => {
     return (
-        <footer className="cs_footer cs_style_1 cs_bg_filed cs_heading_bg" data-src={`${import.meta.env.BASE_URL}/img/footer_bg.jpg`}>
+        <footer className="cs_footer cs_style_1 cs_bg_filed cs_heading_bg" data-src={`${import.meta.env.BASE_URL}img/footer_bg.jpg`}>
         <div className="cs_main_footer cs_white_color">
           <div className="container">
             <div className="cs_footer_row">
@@ -115,7 +115,7 @@ const Footer1 = () => {
                 Copyright © 2025 <a href="https://www.fajitsolutions.com/">FAJ IT SOLITIONS</a>. All Rights Reserved.
               </div>
               <div>
-                <img src={`${import.meta.env.BASE_URL}/img/payment_card.svg`} alt="" />
+                <img src={`${import.meta.env.BASE_URL}img/payment_card.svg`} alt="" />
               </div>
             </div>
           </div>

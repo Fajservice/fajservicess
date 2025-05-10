@@ -37,7 +37,7 @@ const Form2 = () => {
               </form>
             </div>
             <div className="cs_newsletter_shape position-absolute">
-              <img src={`${import.meta.env.BASE_URL}/img/shapes/newsletter_shape_1.svg`} alt="Newsletter Shape" />
+              <img src={`${import.meta.env.BASE_URL}img/shapes/newsletter_shape_1.svg`} alt="Newsletter Shape" />
             </div>
           </div>
         </div>

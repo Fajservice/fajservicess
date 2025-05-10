@@ -5,7 +5,7 @@ const TeamPage = () => {
     return (
         <div>
             <BreadCumb
-                bgImg="/img/page_heading_1.jpg"
+                bgImg="img/page_heading_1.jpg"
                 Title="Team"
             ></BreadCumb>    
             <Team2></Team2>             

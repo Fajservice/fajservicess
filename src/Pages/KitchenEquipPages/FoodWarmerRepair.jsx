@@ -5,7 +5,7 @@ const FoodWarmerRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-               bgImg="/img/banners/kitchen equipments/food-warmer.jpg"
+               bgImg="img/banners/kitchen equipments/food-warmer.jpg"
                 Title="Food Warmer Repair"
             ></BreadCumb> 
 

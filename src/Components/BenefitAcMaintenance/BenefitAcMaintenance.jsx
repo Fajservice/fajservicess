@@ -15,7 +15,7 @@ const BenefitAcMaintenance = () => {
                     <div className="col-md-4 mb-2">
                         <div className="d-flex flex-column align-items-center px-2">
                             <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                <img src={`${import.meta.env.BASE_URL}/img/icons/cooling1.jpg`} alt="Cooling Efficiency" className="img-fluid rounded-circle border border-4 border-info" />
+                                <img src={`${import.meta.env.BASE_URL}img/icons/cooling1.jpg`} alt="Cooling Efficiency" className="img-fluid rounded-circle border border-4 border-info" />
                             </div>
                             <h4 className="text-uppercase mb-2 fs-6 text-white">COOLING EFFICIENCY</h4>
                             <p className="small">We carry out a complete assessment of the cooling efficiency using a temperature gun.</p>
@@ -25,7 +25,7 @@ const BenefitAcMaintenance = () => {
                     <div className="col-md-4 mb-2">
                         <div className="d-flex flex-column align-items-center px-2">
                             <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                <img src={`${import.meta.env.BASE_URL}/img/icons/disinfection.jpg`} alt="Disinfect Components" className="img-fluid rounded-circle border border-4 border-warning" />
+                                <img src={`${import.meta.env.BASE_URL}img/icons/disinfection.jpg`} alt="Disinfect Components" className="img-fluid rounded-circle border border-4 border-warning" />
                             </div>
                             <h4 className="text-uppercase mb-2 fs-6 text-white">DISINFECT COMPONENTS</h4>
                             <p className="small">All hardware components are tested and disinfected, including filters and vents.</p>
@@ -35,7 +35,7 @@ const BenefitAcMaintenance = () => {
                     <div className="col-md-4 mb-2">
                         <div className="d-flex flex-column align-items-center px-2">
                             <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                <img src={`${import.meta.env.BASE_URL}/img/icons/fan.jpg`} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
+                                <img src={`${import.meta.env.BASE_URL}img/icons/fan.jpg`} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
                             </div>
                             <h4 className="text-uppercase mb-2 fs-6 text-white">FAN ASSESSMENT</h4>
                             <p className="small">We ensure the fan works correctly with no blockages in the evaporator coil.</p>
@@ -45,7 +45,7 @@ const BenefitAcMaintenance = () => {
                     <div className="col-md-4 mb-2">
                         <div className="d-flex flex-column align-items-center px-2">
                             <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                <img src={`${import.meta.env.BASE_URL}/img/icons/thermo.jpg`} alt="Thermostat Check" className="img-fluid rounded-circle border border-4 border-primary" />
+                                <img src={`${import.meta.env.BASE_URL}img/icons/thermo.jpg`} alt="Thermostat Check" className="img-fluid rounded-circle border border-4 border-primary" />
                             </div>
                             <h4 className="text-uppercase mb-2 fs-6 text-white">THERMOSTAT CHECK</h4>
                             <p className="small">We use a laser temperature gauge to ensure thermostats operate correctly.</p>
@@ -55,7 +55,7 @@ const BenefitAcMaintenance = () => {
                     <div className="col-md-4 mb-2">
                         <div className="d-flex flex-column align-items-center px-2">
                             <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                <img src={`${import.meta.env.BASE_URL}/img/icons/airflow.jpg`} alt="Airflow Balance" className="img-fluid rounded-circle border border-4 border-danger" />
+                                <img src={`${import.meta.env.BASE_URL}img/icons/airflow.jpg`} alt="Airflow Balance" className="img-fluid rounded-circle border border-4 border-danger" />
                             </div>
                             <h4 className="text-uppercase mb-2 fs-6 text-white">AIRFLOW BALANCE</h4>
                             <p className="small">We ensure you get optimal air flow around each room as needed.</p>
@@ -65,7 +65,7 @@ const BenefitAcMaintenance = () => {
                     <div className="col-md-4 mb-2">
                         <div className="d-flex flex-column align-items-center px-2">
                             <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                <img src={`${import.meta.env.BASE_URL}/img/icons/customer.jpg`} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
+                                <img src={`${import.meta.env.BASE_URL}img/icons/customer.jpg`} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
                             </div>
                             <h4 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h4>
                             <p className="small">Our team provides vital feedback on your AC's health and any needed repairs.</p>

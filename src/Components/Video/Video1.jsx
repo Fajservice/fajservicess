@@ -35,7 +35,7 @@ const Video1 = () => {
             </a>
           </div>
           <div className="cs_video_shape_1 position-absolute">
-            <img src={`${import.meta.env.BASE_URL}/img/shapes/video_shape_1.svg`} alt="Video Shapw" />
+            <img src={`${import.meta.env.BASE_URL}img/shapes/video_shape_1.svg`} alt="Video Shapw" />
           </div>
         </div>
         <VideoModal

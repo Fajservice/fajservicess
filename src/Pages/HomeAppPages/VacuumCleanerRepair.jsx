@@ -7,7 +7,7 @@ const VacuumCleanerRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="/img/banners/robot-vacuum.jpg"
+                bgImg="img/banners/robot-vacuum.jpg"
                 Title="Robot Vacuum Cleaner Repair & Service Center"
             ></BreadCumb>
 

@@ -5,8 +5,8 @@ const LennoxAcRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="/img/acbrands/Lennox-ac-repair.jpg"
-                // bgImg="/img/ac_service-bannerbg.jpg"
+                bgImg="img/acbrands/Lennox-ac-repair.jpg"
+                // bgImg="img/ac_service-bannerbg.jpg"
                 Title="Lennox AC Repair in Dubai and Air Conditioning Maintenance"
             ></BreadCumb> 
             <LennoxAcRepairDetail></LennoxAcRepairDetail>           

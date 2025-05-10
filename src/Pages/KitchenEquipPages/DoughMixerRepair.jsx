@@ -5,7 +5,7 @@ const DoughMixerRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-               bgImg="/img/banners/kitchen equipments/dough-mixer.jpg"
+               bgImg="img/banners/kitchen equipments/dough-mixer.jpg"
                 Title="Dough Mixer Repair"
             ></BreadCumb> 
 

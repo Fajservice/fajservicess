@@ -5,8 +5,8 @@ const BryantAcRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="/img/acbrands/bryant-ac-bg.jpg"
-                // bgImg="/img/ac_service-bannerbg.jpg"
+                bgImg="img/acbrands/bryant-ac-bg.jpg"
+                // bgImg="img/ac_service-bannerbg.jpg"
                 Title="Bryant AC Repair in Dubai - HVAC Maintenance"
             ></BreadCumb> 
             <BryantAcRepairDetail></BryantAcRepairDetail>           

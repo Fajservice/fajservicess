@@ -5,8 +5,8 @@ const PanasonicAcRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="/img/acbrands/Panasonic-AC-bg.jpg"
-                // bgImg="/img/ac_service-bannerbg.jpg"
+                bgImg="img/acbrands/Panasonic-AC-bg.jpg"
+                // bgImg="img/ac_service-bannerbg.jpg"
                 Title="Panasonic AC Repair in Dubai"
             ></BreadCumb> 
             <PanasonicAcRepairDetail></PanasonicAcRepairDetail>           
