@@ -1,5 +1,3 @@
-
-
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../Data/KitchenEquipments/FAQs/OvenRepairFaqs.json';
@@ -14,8 +12,8 @@ import testimonial_data from '../../../Data/KitchenEquipments/Testmonials/OvenRe
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
+import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 
-// import { Link } from "react-router-dom";
 
 const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
   subtitle = "Testimonial"
@@ -55,12 +53,6 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
     autoplaySpeed: 5000,
     pauseOnHover: true,
 
-    // autoplay: true,
-    // autoplaySpeed: 0,
-    // speed: 8000,
-    // pauseOnHover: true,
-    // cssEase: 'linear',
-
     responsive: [
       {
         breakpoint: 1399,
@@ -91,8 +83,6 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
-    // cssEase: 'linear',
-
     responsive: [
       {
         breakpoint: 1399,
@@ -127,111 +117,94 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">Do you want an oven repair that does not cause a fortune?</h2>
-            <p>We at FAJ Technical Services are honored to be your first choice when you need trustworthy oven repair services in Dubai. Our committed group of expert technicians has the knowledge required to handle a wide variety of oven-related problems. We offer quick, cost-effective repair services that are customized to your unique requirements. Whether you need help with an electric oven that isn't working properly, a gas range oven, or even a microwave, we can fix all of them. We guarantee service that puts your needs first, so you can rely on us to fix your oven at your door.</p>
+            <h2 className="cs_fs_30">Professional Catering Technicians Provide Quality Servicing for Commercial Ovens</h2>
+            <p>
+              Looking for affordable oven repair? At FAJ Professional, we've been serving Dubai since 2010, offering trustworthy repair solutions.
+              Our skilled technicians can handle various oven issues, including electric, gas range, and electric ovens.
+              <br />We provide prompt and cost-effective service tailored to your needs, ensuring reliable repairs right at your door.
+
+            </p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
               </div>
             </div>
-            {/*  */}
           </div>
         </section>
 
         {/* Maintenance Contract */}
         <MaintenanceContract />
 
-        {/* Cooking Range Repair Nearby You */}
+        {/* heading*/}
 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/reem-ac-service.jpg`} alt="Oven Repair" /> */}
-                <h3 className="cs_fs_24 mb-1">Cooking Range Repair Nearby You</h3>
-
+                <h3 className="cs_fs_24 mb-1">Commercial Combi Oven Maintenance</h3>
                 <p className="mb-2">
-
-                  It’s common to face issues with cooking appliances from time to time, whether your induction hob suddenly stops working, your gas stove won’t stay lit when you need it, or your electric hob keeps turning on and off.
-                  <br />
-                  The important thing to remember is that these problems should be addressed by a qualified technician. Fast Services can help you arrange a professional <Link to="/gas-cooker-repair-service/"> gas range repair </Link> to fix your faulty cooker
+                  We repair all types of commercial kitchen ovens, including gas and electric models. Our specialised team of commercial oven technicians carries essential spare parts, enabling us to assist you whenever you need it.
+                  <br />Our goal is to help keep your business running smoothly. We offer commercial oven repair services in Dubai.
 
                 </p>
 
 
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Gas Stove Technical Inspection Fee</h3>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Oven Technical Inspection Fee</h3>
                 <p className="mb-0">
-                  The technical inspection fee is AED 157, which covers diagnosis, transportation, and reinstallation in Dubai premises.
-                  <br />
-                  Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.
-                </p>
+                  The technical inspection fee which covers diagnosis, transportation, and reinstallation in Dubai premises.
+                  <br />Please note that this fee is non-refundable.</p>
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.jpg`} alt="Oven Repair" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/kitchen-equipment.jpg`} alt="Oven Repair" />
-
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/kitchen-equipment.jpg`} alt="Oven Repair" />
               </div>
             </div>
 
-            <div className="appointment-col border-small-top pt-3">
-              <p>
-                If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.
-                <br />
-                Timing: Mon-Sat 8:00 AM to 6:00 PM - Sunday 12:00 PM to 6:00 PM. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.
-              </p>
-              <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
-                  <WhatsappIconButton />
-                  <CallNowButton />
-                </div>
-              </div>
-            </div>
+            <AppliancesAppointmentCol></AppliancesAppointmentCol>
+
           </div>
         </section>
-        {/* Most common Cooker faults: */}
+        {/*: */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">Reliable Oven repair Dubai</h3>
-            <p>FAJ Technical Services is a reliable partner when it comes to oven repair services in Dubai. Our dedicated team of technicians critically examines the problem and then recommends suitable repairs according to the needs of the machine. We put a high priority on client satisfaction, offering you a seamless and reliable experience for any oven repair needs in Dubai and the neighboring areas. FAJ Technical Services is the go-to source for trustworthy and proficient oven repair services. As we strive to be at the top of the highest standards of professionalism and customer service.</p>
+            <h3 className="cs_fs_30">Why is Oven Maintenance Service Important in Dubai?</h3>
+            <p>
+              Regular maintenance of commercial ovens is essential for safe and efficient operation.
+            </p>
+
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Hob-Repair-Service-in-Dubai-UAE.jpeg`} alt="Oven Repair" />
               </div>
               <div className="col-md-6">
-                <h4>Searching for Oven repair near me</h4>
-                <p>If you're looking for microwave oven repair near me right now, FAJ Technical Services is the only company you need to contact. Our technicians are always prepared to respond quickly to your location, and we provide comprehensive oven repair solutions. Our technicians are strategically located. Our dedication to your convenience means that, no matter where you are, your oven will receive the attention it deserves. People get exhausted and tired by searching for a microwave repair shop near me. We are here to save you from that trouble. We are the go-to solution to all your microwave repair near me problems.</p>
+                <ul>
+                  <li><strong> Efficiency: </strong> Regular maintenance ensures the oven heats evenly and accurately, which reduces energy waste and provides consistent baking results. </li>
+                  <li><strong> Food Quality: </strong> A clean oven prevents unwanted flavors and ensures proper baking, essential for a positive customer experience. </li>
+                  <li><strong> Reduced Downtime: </strong> Preventive maintenance can help identify potential issues before they lead to expensive repairs or breakdowns. </li>
+                  <li><strong> Cost Savings with Maintenance Contract: </strong> Regular maintenance can extend the oven's lifespan and lower repair costs, ultimately saving businesses money over time. </li>
+                  <li><strong> Hygiene: </strong> Regular cleaning prevents bacteria and other contaminants, ensuring a safe cooking environment. </li>
+                </ul>
               </div>
             </div>
           </div>
         </section>
 
-        {/* The Most Common Problems with Home Appliances */}
+        {/*  Problems */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="text-center">The Most Common Problems with Home Appliances   </h3>
+            <h3 className="text-center">Common Commercial Oven Problems That May Require Maintenance </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Broken Oven Door</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Most fridge malfunctions are related to cooling issues, including problems with the defrost system, fan motor, compressor, or coils.</p>
-                  </div>
-                </div>
-              </div>
+                    <p className="p-2 mb-0">
+                      If your food is not cooking evenly or is undercooked, the issue may be related to the door of your commercial oven. For optimal cooking.
 
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishwashers Problem</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">The most issues with dishwashers are bad cleaning and drying. Common water leaks and drainage. Some electrical issues or PCB failures.
                     </p>
                   </div>
                 </div>
@@ -240,23 +213,13 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Washing Machine Problem
-                    </h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Not Heating</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">A common issue with washing machines is drainage problems, leaks, and PCB faulty. Also, broken belt or faulty door switch or drum from spinning.</p>
-                  </div>
-                </div>
-              </div>
+                    <p className="p-2 mb-0">
+                      You guessed it! The most obvious issue is that it may not heat to the desired temperature, even when switched on.
 
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Tumble Dryer Problem</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Dryers can stop the drum from spinning and often make noise without drying clothes properly. Common issues are a broken heating element or control board.</p>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -264,10 +227,12 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Stove Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Uneven Cooking</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Uneven heating or flame issues, such as a broken burner element, bad switch, or electric gas, are the most common problems with stoves.</p>
+                    <p className="p-2 mb-0">
+                      Food often cooks unevenly, burning on one side while remaining undercooked on the other due to poor heat distribution.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -275,10 +240,13 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Ovens Problems</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Keeps Sparking</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Most ovens have common problems like not heating properly, burners not igniting, ignition issues on gas models, broken knobs, and faulty controllers or valves.</p>
+                    <p className="p-2 mb-0">
+                      If you hear continuous clicking and your gas oven is sparking, the problem might be the ignition dial.
+
+                    </p>
                   </div>
                 </div>
               </div>
@@ -286,24 +254,58 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Freezer Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Broken Oven Thermostat</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Common issues with a freezer include water leaks, no ice, a malfunctioning ice maker, a malfunctioning PCB, motor, or compressor, and less cooling.</p>
+                    <p className="p-2 mb-0">
+                      Cooking at the right temperature is vital for delicious meals, as incorrect temperatures can lead to overcooking or undercooking.
+
+                    </p>
                   </div>
                 </div>
               </div>
 
               <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
+                <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Machine Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Broken Heating Elements</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Whether they are drip or single-serve coffee makers, there are a few reasons why water flow in coffee makers is often slow or nonexistent.</p>
+                    <p className="p-2 mb-0">
+                      Possible causes include faulty heating elements, a broken thermostat, clogged burners, or electrical issues. For gas ovens, it may be the igniter.
+
+                    </p>
                   </div>
                 </div>
               </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Broken Oven Fan</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      A malfunctioning electric oven fan can lead to uneven cooking. Oven fans circulate heated air around the oven cavity to ensure even cooking.
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Broken Door Seal</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      The oven door seal, also known as a gasket, creates an airtight seal between the oven door and the oven cavity.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
@@ -315,12 +317,11 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/*Why should you choose us? */}
+        {/*Why  */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="cs_fs_30">Signs you need an Electric oven repair</h3>
-            <p>
-                It's critical to identify the warning signals that point to the need for expert repair when your electric oven begins to malfunction. Uneven cooking, fluctuating temperatures, or any odd noises made while the appliance is operating could be indications of underlying problems. Furthermore, it's time to think about electric oven repair if your oven doesn't heat up or frequently loses power. Ignoring these indicators could result in additional damage and affect how well your appliance works. By taking quick action to address these warning indicators and using FAJ Technical Services's skilled repair services, you can ensure the working of your electric oven. Regarding electric oven maintenance, FAJ Technical Services is your trusted partner. Because we specialize in fixing electrical components, you can be sure that your electric oven will operate safely, efficiently, and with the performance you expect.</p>
+            <h3 className="cs_fs_30">Comprehensive Commercial Oven Repair Services in Dubai</h3>
+
             <div className="row align-items-center">
               <div className="col-xl-6">
                 <iframe
@@ -336,16 +337,25 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-xl-6">
-                
-                <h4>Gas range oven repair and maintenance</h4>
-                <p>Our technicians are skilled in providing thorough gas oven repair. Gas range ovens require specialized care. For safe and efficient gas range oven repair that gets your appliance operating at its best, you can rely on FAJ Technical Services. In order to get gas oven service and repair, FAJ Technical Services is an excellent service provider dedicated to making sure your appliance operates at its best. Our skilled technicians specialize in fixing problems unique to gas range ovens, like malfunctioning burners, thermostats, or uneven heating. In our gas oven repair service, we put safety and effectiveness first. We provide comprehensive gas oven service, part replacements, and adjustments as necessary. Whether your gas range oven needs emergency repairs or regular upkeep, you can rely on FAJ Technical Services to provide affordable solutions that will improve the performance and lifespan of your machine.</p>
+                <p className="mb-0">We provide repair services for a wide range of commercial ovens, including:</p>
+                <ul>
+                  <li><strong> Oven Installation: </strong>   Professional installation of various types and brands of gas and electric ovens, ensuring optimal performance and efficiency. </li>
+                  <li><strong> Oven Diagnostics: </strong>   We perform thorough diagnostics and provide eligibility assessments and detailed quotes to address any oven issues. </li>
+                  <li><strong> Oven Repair Service: </strong>   Reliable professional oven repair services for all components, ensuring quick resolution of issues like leaks, electrical failures, and malfunctions. Feel free to contact us for specific services or any questions! </li>
+                  <li><strong> Oven Annual Maintenance Contract: </strong>   This contract outlines the terms and services covered for the annual maintenance of catering ovens. </li>
+
+                </ul>
+
               </div>
 
 
             </div>
           </div>
         </section >
-        <section className="section cs_py_30 bg-dark-blue text-light">
+
+        {/* We Deal in all Types */}
+
+        {/* <section className="section cs_py_30 bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">We Deal in all Types</h3>
             <p>FAJ Technical Services's versatility is evident in the range of oven types we handle and the comprehensive oven maintenance services we provide for different appliance models and brands. Because of the experience on our team, we can handle the complexities of various oven glass repair and wall oven repair and provide a solution for any requirement.</p>
@@ -376,12 +386,13 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
               </div>
             </div>
           </div>
-        </section>
-        {/* The Benefits Of appliances Service Dubai */}
+        </section> */}
+
+        {/* The Benefits */}
         <section className="section cs_py_30 appliances-benifit-sec">
           <div className="container">
             <div className="row justify-content-center">
-              <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai
+              <h3 className="cs_fs_30 mb-0">Benefits Of Regular Oven Service and Maintenance in Dubai
               </h3>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
@@ -390,8 +401,10 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h4>
-                      <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">HEATING EFFICIENCY</h4>
+                      <p className="small">
+                        We conduct a thorough assessment of heating efficiency using a temperature gun.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -401,9 +414,10 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
-                      </h4>
-                      <p className="small">Regular maintenance helps your appliances run smoothly and efficiently, delivering the best results every time.
+                      <h4 className="text-uppercase mb-2 cs_fs_18">  DISINFECT COMPONENTS   </h4>
+                      <p className="small">
+                        All hardware components, including the individual parts and the oven, are carefully tested and disinfected to ensure safety and reliability.
+
                       </p>
                     </div>
                   </div>
@@ -414,8 +428,10 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
-                      <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">FAN ASSESSMENT</h4>
+                      <p className="small">
+                        We make sure that the fan operates properly and that there are no blockages in the burner or heating element.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -426,8 +442,10 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h4>
-                      <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">HERMOSTAT CHECK</h4>
+                      <p className="small">T
+                        We use a laser temperature gauge to confirm that thermostats are functioning properly.
+                      </p>
                     </div>
 
                   </div>
@@ -438,8 +456,10 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h4>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">AIRFLOW BALANCE</h4>
+                      <p className="small">
+                        We ensure that you receive optimal airflow around each oven part as required.
+                      </p>
 
                     </div>
 
@@ -452,9 +472,10 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
-                      </h4>
-                      <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">CUSTOMER FEEDBACK </h4>
+                      <p className="small">
+                        Our team offers essential feedback on the condition of your oven and any necessary repair.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -495,7 +516,7 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Reliable, Priority, and Quick</h3>
-                    <p>	You can count on efficient service! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
+                    <p>	You can rely on prompt service! Our same-day repairs or next-day visits ensure that your needs are addressed swiftly.</p>
                   </div>
                 </div>
 
@@ -504,8 +525,10 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
                     <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
+                    <h3 className="">Confidence</h3>
+                    <p>
+                      With an oven annual maintenance contract, you receive a full year of service, ensuring oven operates smoothly and providing peace of mind.
+                    </p>
                   </div>
                 </div>
 
@@ -516,7 +539,7 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
+                    <p>Schedule your oven repair in Dubai or Sharjah by choosing a specific day and time. Our technician will arrive within a 3-4 hour window.</p>
                   </div>
                 </div>
 
@@ -535,7 +558,7 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are experts in appliance repair this is why most major brands trust us to handle their service and maintenance needs.</p>
+                    <p>We specialise in oven repair, which is why most major brands rely on us for their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -545,7 +568,9 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same location in Dubai.</p>
+                    <p>
+                      We are committed to providing customer satisfaction through timely service, quick issue resolution, and competitive pricing.
+                    </p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -554,7 +579,7 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our skilled appliance technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
+                    <p>Our expert oven technicians are well-trained, providing efficient service for various major oven brands.</p>
                   </div>
                 </div>
               </div>
@@ -567,14 +592,14 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* We specialise in Hob services for the following brands  */}
+        {/* We specialise   */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3>We specialise in Hob services for the following brands </h3>
+            <h3>We specialize in commercial oven services for the following brands </h3>
             <div className="row">
               <div className="col-12">
 
-                <p className="mb-0">
+                {/* <p className="mb-0">
                   <Link to="/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/">
                     <b>Smeg Cooker Repair</b>
                   </Link>: FAJ is here to support you when things go wrong. We understand that your Smeg appliances are essential for daily life, keeping your food fresh and meals cooked.
@@ -620,10 +645,10 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
                   <Link to="/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
                     <b> Teka Gas Stove Repair</b>
                   </Link>: If you're searching for the best Teka appliance repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka gas stove, refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
-                </p>
+                </p> */}
 
 
-                <br />
+                {/* <br />
 
                 <p><a href="#/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/">AEG</a>
 
@@ -795,8 +820,17 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
                   <span>&nbsp;-&nbsp;</span>
 
                   <a href="#/unimac-washing-machine-repair-in-dubai-unimac-dryer-repair-in-dubai-unimac-washer-dryer-repair-in-dubai-unimac-maintenance-in-dubai-unimac-laundry-service-in-dubai-unimac-dubai/">Unimac</a>
-                </p>
-
+                </p> */}
+                <ul>
+                  <li> <strong> Rational Oven Combi Repair and Service : </strong> FAJ offers reliable Rational Oven repair and services in Dubai, with professionals who are experts in Rational professional oven maintenance.</li>
+                  <li> <strong> Capinox Gas Oven Maintenance Service: </strong> Discover FAJ in Dubai, your go-to solution for Capinox Gas Oven repair and maintenance! We proudly specialize in Capinox Gas Ovens, ensuring top-notch service and expertise for all your needs. We're here to help you!</li>
+                  <li> <strong> Forni Fiorini Rack Oven Servicing and Repair: </strong> The Forni Fiorini Rack Oven service and repair ensures you don't have to worry because you are in the right place. FAJ is where efficiency and reliability are prioritized.</li>
+                  <li> <strong> Tecnodom Steam Convection Oven Repair Near you: </strong> Depend on our skilled team to quickly resolve any issues with your Tecnodom Steam Convection Oven, restoring it to optimal performance.</li>
+                  <li> <strong> Convection Oven Krystal Repair and Service : </strong> With our expert understanding of the Convection Oven Krystal, we deliver reliable repairs that will have your unit functioning flawlessly. Trust us to enhance your cooking experience by ensuring your oven performs at its best every time.</li>
+                  <li> <strong> Commercial Cake Bakery Pizza one Layer two Layers Oven Service: </strong> No matter the challenges with your commercial cake bakery pizza oven—whether it's a single-layer cake or a stunning three-layer creation—our experienced team is here to help! We’ll identify maintenance needs and provide tailored solutions to ensure your baked goods shine and bring joy to all.</li>
+                  <li> <strong> Convotherm Combi Oven - Professional Service and Maintenance: </strong> Is your Convotherm Combi Oven not working? You don’t have to endure uncomfortable temperatures or suffer losses due to faulty equipment – FAJ will get your Convotherm Combi Oven back up and running quickly!</li>
+                  <li> <strong> Tecnoeka Electric Combi Oven Service and Repair: </strong> Tecnoeka Electric Combi Oven service in Dubai requires expert help, as only specialists know how to address its issues. We offer hassle-free oven repair service</li>
+                </ul>
               </div>
 
             </div>
