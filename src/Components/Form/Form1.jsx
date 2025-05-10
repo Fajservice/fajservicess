@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import ReCAPTCHA from 'react-google-recaptcha';
 
 const Form1 = () => {
+  const recaptchaRef = useRef(null);
+
   const [status, setStatus] = useState({
     submitted: false,
     submitting: false,
@@ -16,26 +18,27 @@ const Form1 = () => {
     message: ''
   });
 
-  const [captchaToken, setCaptchaToken] = useState(null);
-
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData(prevData => ({ ...prevData, [name]: value }));
   };
 
-  const handleCaptchaChange = (token) => {
-    setCaptchaToken(token);
-  };
-
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setStatus(prevStatus => ({ ...prevStatus, submitting: true }));
 
-    if (!captchaToken) {
-      alert("Please complete the reCAPTCHA.");
+    // Trigger invisible reCAPTCHA challenge
+    if (recaptchaRef.current) {
+      recaptchaRef.current.execute();
+    }
+  };
+
+  const onReCAPTCHAChange = async (token) => {
+    if (!token) {
+      alert("Captcha failed. Please try again.");
+      setStatus({ submitted: false, submitting: false, info: { error: true, msg: "Captcha failed." } });
       return;
     }
-
-    setStatus(prevStatus => ({ ...prevStatus, submitting: true }));
 
     const data = new FormData();
     data.append('Name', formData.name);
@@ -43,7 +46,7 @@ const Form1 = () => {
     data.append('Phone', formData.phone);
     data.append('Message', formData.message);
     data.append('_subject', 'Inquiry & Fajservices');
-    data.append('_captcha', 'false'); // FormSubmit's own captcha disabled
+    data.append('_captcha', 'false'); // Disable FormSubmit's own captcha
     data.append('_template', 'table');
     data.append('_cc', 'info@fajservices.ae');
     data.append('_from_name', 'Inquire');
@@ -70,7 +73,7 @@ const Form1 = () => {
         message: ''
       });
 
-      setCaptchaToken(null); // Reset CAPTCHA
+      recaptchaRef.current.reset(); // Reset reCAPTCHA
     } catch (error) {
       console.error('Submission error:', error);
       setStatus({
@@ -96,7 +99,6 @@ const Form1 = () => {
       )}
 
       <form className="row cs_row_gap_30 cs_gap_y_30" id="cs_form" onSubmit={handleSubmit}>
-        {/* form fields */}
         <div className="col-sm-6">
           <input type="text" name="name" placeholder="Your Name" className="cs_form_field cs_radius_5"
             value={formData.name} onChange={handleChange} required />
@@ -129,14 +131,19 @@ const Form1 = () => {
             value={formData.message} onChange={handleChange} required></textarea>
         </div>
 
-        {/* ✅ reCAPTCHA */}
-        <div className="col-12 d-flex justify-content-center mb-3">
-          <ReCAPTCHA sitekey="6Lco6CIrAAAAAC9ZHw4Vb8Wg4AwBaHZOw_OGfx9z
-" onChange={handleCaptchaChange} />
-        </div>
+        {/* ✅ Invisible reCAPTCHA */}
+        <ReCAPTCHA
+          ref={recaptchaRef}
+          sitekey="6LeWuDQrAAAAAA2kK9zRDfujrKPB8zdR6_mTOrdD"
+          size="invisible"
+          badge="bottomright"
+          onChange={onReCAPTCHAChange}
+        />
 
         <div className="col-12">
-          <button type="submit" className="cs_btn cs_style_1" disabled={status.submitting}>
+          <button type="submit" className="cs_btn cs_style_1" disabled={status.submitting} data-sitekey="reCAPTCHA_site_key"
+            data-callback='onSubmit'
+            data-action='submit'>
             <span>{status.submitting ? 'Submitting...' : 'Submit'}</span>
             {!status.submitting && <i className="bi bi-arrow-right"></i>}
           </button>
