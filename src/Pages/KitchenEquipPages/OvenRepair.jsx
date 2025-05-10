@@ -6,7 +6,7 @@ const OvenRepair = () => {
         <div className="serviceDetails">
             <BreadCumb
                 bgImg="/img/banners/kitchen equipments/oven.jpg"
-                Title="Oven Repair"
+                Title="Commercial Oven Repair and Maintenance Services"
             ></BreadCumb> 
 
             <OvenRepairDetail></OvenRepairDetail>        
