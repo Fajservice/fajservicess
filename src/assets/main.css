@@ -1300,7 +1300,7 @@ textarea {
     height: 79px;
   }
   .cs_height_lg_80 {
-    height: 80px;
+    height: 40px;
   }
   .cs_height_lg_81 {
     height: 81px;
@@ -2061,7 +2061,7 @@ textarea {
 .cs_list.cs_style_1 .cs_list_icon {
   width: 18px;
   height: 18px;
-  margin-top: 5px;
+  /* margin-top: 5px; */
   border: 2px solid var(--accent-color);
   -webkit-box-flex: 0;
       -ms-flex: none;

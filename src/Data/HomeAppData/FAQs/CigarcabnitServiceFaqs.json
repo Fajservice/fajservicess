@@ -1,18 +1,38 @@
 [
     {
-        "title": "What are common problems with cigar cabinet humidifiers?",
-        "desc": "Common issues include inconsistent humidity levels, unresponsive controls, leaks, unusual noises, or the unit not turning on. If you notice any of these, it's time to get it checked."
+        "title": "How long will a cigar last in a cigar humidor?",
+        "desc": "If you maintain your cigar humidor properly under ideal conditions, cigars can last for many years—potentially indefinitely—allowing you to build a lasting collection."
     },
     {
-        "title": "How do I know if my humidifier needs repair?",
-        "desc": "If your humidifier shows signs like fluctuating humidity, leaks, or power issues, it’s best to call for professional repair before the problem gets worse."
+        "title": "What are the rules for a cigar humidor?",
+        "desc": "The standard guideline is to maintain 70°F temperature and 70% relative humidity in your humidor to keep cigars in optimal condition for extended periods."
     },
     {
-        "title": "Can I fix my cigar cabinet humidifier myself?",
-        "desc": "DIY fixes might work temporarily, but professional repair ensures a long-lasting solution and prevents further damage to your cigars"
+        "title": "Is it better to leave cigars wrapped in a humidor?",
+        "desc": "Leaving the wrapper on helps preserve humidity during travel, but removing it inside the humidor can enhance moisture exchange for long-term storage."
     },
     {
-        "title": "How long does it take to repair a cigar cabinet humidifier?",
-        "desc": "Most repairs can be done quickly, often within 24 hours, so your humidifier will be back in action without delay."
+        "title": "Can dry cigars be revived in a cigar humidor?",
+        "desc": "Yes, storing them in a well-maintained humidor or using a rehydration pack can gradually restore moisture, though success depends on how dry and damaged the cigars are."
+    },
+    {
+        "title": "Is it OK to store cigars in a box in a cigar cabinet humidor?",
+        "desc": "Yes, you can store cigars in their original box as long as the box is kept inside a properly maintained humidor or cigar cabinet."
+    },
+    {
+        "title": "How do I maintain my cigar humidor cabinet?",
+        "desc": "Keep humidity between 65% and 72%, ideally around 70%, and maintain a consistent temperature near 70°F to ensure your humidor performs effectively."
+    },
+    {
+        "title": "Can I keep cigars fresh without a humidor?",
+        "desc": "Yes, placing cigars in a sealed Ziploc bag with a humidity pack and storing it in a dark area can keep them fresh for several weeks."
+    },
+    {
+        "title": "How often should I moisten my humidor?",
+        "desc": "Rehydrate your humidifier when humidity drops below 67%. Regularly inspect cigars—at least three times a week—to ensure they are neither too dry nor overly moist."
+    },
+    {
+        "title": "What humidity is best for cigars?",
+        "desc": "The ideal relative humidity is generally between 62% and 70%, with modern preferences leaning toward 65–68% for better burn and reduced mold risk."
     }
 ]

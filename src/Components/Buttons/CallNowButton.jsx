@@ -3,7 +3,7 @@
 // import './CallNowButton.css'; // Import the CSS file
 import React, { useState } from 'react';
 
-const CallNowButton = ({ phone = 'tel:+971507464712' }) => {
+const CallNowButton = ({ phone = 'tel:+97143300002' }) => {
         const [hovered, setHovered] = useState(false);
     
     return (

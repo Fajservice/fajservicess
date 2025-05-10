@@ -111,8 +111,8 @@ const Footer1 = () => {
         <div className="cs_footer_bottom cs_white_color">
           <div className="container">
             <div className="cs_footer_bottom_in">
-              <div className="cs_footer_copyright">
-                Copyright © 2025 <a href="https://www.fajitsolutions.com/">FAJ IT SOLITIONS</a>. All Rights Reserved.
+              <div className="cs_footer_copyright text-light">
+                Copyright © 2025 <a className="text-light" href="https://www.fajitsolutions.com/">FAJ IT SOLITIONS</a>. All Rights Reserved.
               </div>
               <div>
                 <img src={`${import.meta.env.BASE_URL}img/payment_card.svg`} alt="" />

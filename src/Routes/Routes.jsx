@@ -112,7 +112,6 @@ import TCLAcRepair from "../Pages/AcPages/AcBrand/TCLAcRepair";
 import AcRepairInTheVilla from "../Pages/AcPages/AcLocation/AcRepairInTheVilla";
 import AcRepairInJumeirahBeachResidence from "../Pages/AcPages/AcLocation/AcRepairInJumeirahBeachResidence";
 import OvenRepair from "../Pages/KitchenEquipPages/OvenRepair";
-import DeepFryerService from "../Pages/KitchenEquipPages/DeepFryerService";
 import KitchenEquipmentAMC from "../Pages/KitchenEquipPages/KitchenEquipmentAMC";
 import KitchenEquipmentRepair from "../Pages/KitchenEquipPages/KitchenEquipmentRepair";
 import IceMakerRepair from "../Pages/RefrigerationEquipPages/IceMakerRepair";
@@ -132,8 +131,6 @@ import AcRepairInEmiratesHills from "../Pages/AcPages/AcLocation/AcRepairInEmira
 import AcRepairInJLT from "../Pages/AcPages/AcLocation/AcRepairInJLT";
 import AcRepairInIndexTowerDifc from "../Pages/AcPages/AcLocation/AcRepairInIndexTowerDifc";
 import AcRepairInAlRashidiya from "../Pages/AcPages/AcLocation/AcRepairInAlRashidiya";
-import HotPlateRepair from "../Pages/KitchenEquipPages/HotPlateRepair";
-import PizzaOvenMaintenance from "../Pages/KitchenEquipPages/PizzaOvenMaintenance";
 import GasRangeRepair from "../Pages/KitchenEquipPages/GasRangeRepair";
 import AcRepairInAlkarama from "../Pages/AcPages/AcLocation/AcRepairInAlkarama";
 import AcRepairInsouthRidge from "../Pages/AcPages/AcLocation/AcRepairInsouthRidge";
@@ -174,7 +171,6 @@ import AcRepairInMotorCity from "../Pages/AcPages/AcLocation/AcRepairInMotorCity
 import AcRepairInVictoryHeights from "../Pages/AcPages/AcLocation/AcRepairInVictoryHeights";
 import AcRepairInRemraam2 from "../Pages/AcPages/AcLocation/AcRepairInRemraam2";
 import AcRepairInAlSafa from "../Pages/AcPages/AcLocation/AcRepairInAlSafa";
-import AcRepairInRemraan from "../Pages/AcPages/AcLocation/AcRepairInRemraam";
 import AcRepairInRemraam from "../Pages/AcPages/AcLocation/AcRepairInRemraam";
 import AcRepairInJqe from "../Pages/AcPages/AcLocation/AcRepairInJqe";
 import AcRepairInDubaiSportCity from "../Pages/AcPages/AcLocation/AcRepairInDubaiSportCity";
@@ -251,7 +247,7 @@ export const router = createBrowserRouter([
         element: <BBQService />
       },
       {
-        path: "/cigar-cabinet-humidifier-repair/",
+        path: "/cigar-humidor-repair/",
         element: <CigarcabnitService />
       },
       {
@@ -263,20 +259,8 @@ export const router = createBrowserRouter([
         element: <OvenRepairService></OvenRepairService>,
       },
       {
-        path: "/hot-plate-repair/",
-        element: <HotPlateRepair />
-      },
-      {
-        path: "/pizza-oven-maintenance/",
-        element: <PizzaOvenMaintenance />
-      },
-      {
-        path: "/gas-cooker-repair/",
+        path: "/cooking-equipment-service/",
         element: <GasRangeRepair />
-      },
-      {
-        path: "/deep-fryer-service/",
-        element: <DeepFryerService />,
       },
       {
         path: "/meat-grinder-repair/",

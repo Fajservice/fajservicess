@@ -129,7 +129,8 @@ const CigarcabnitServiceDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
-            <p>A cigar cabinet humidifier is essential for keeping your cigars fresh and flavorful. But what do you do if it stops working? Do you need to buy a new one? Our cigar cabinet humidifier fix administrations in Dubai can save you cash and get your humidifier working like new.<br />With years of experience we are confided in specialists in fixing humidifiers Whether it’s a broken sensor, uneven humidity, or power problems, we can handle it all. Our skilled experts utilize top-quality devices and strategies to fix humidifiers from every significant brand. We fix your humidifier as opposed to replacing it!</p>
+            <h3>Quality Cigar Humidor Cabinet Repair and Service in Dubai</h3>
+            <p>Since 2010, FAJ has provided expert repair and maintenance for top cigar fridges and humidors. If your cigar cabinet fridge is not working, don't buy a new one! Our repair services in Dubai can save you money and restore your humidor to like-new condition. With years of experience, we handle issues like broken sensors, uneven humidity, and power problems. Our skilled team uses high-quality tools to fix built in cigar refrigerator from all major brands, focusing on repairs rather than replacements. </p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -149,17 +150,13 @@ const CigarcabnitServiceDetail = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Common Issues with Cigar Cabinet Humidifiers</h3>
+                <h3 className="cs_fs_24 mb-1">Cigar Humidor Repair and Service Near You</h3>
 
-                <p className="mb-2">Your humidifier might need repair if you notice:</p>
-                <ul>
-                  <li>Inconsistent humidity levels inside the cabinet.</li>
-                  <li>Unresponsive controls or display malfunctions.</li>
-                  <li>Leaking or excessive condensation.</li>
-                  <li>Unusual noises during operation.</li>
-                  <li>Power failures or the unit not turning on.</li>
-                </ul>
-                <p>If your humidifier shows any of these signs, don’t wait! Addressing the problem early prevents further damage to your cigars.</p>
+                <p className="mb-2">Enjoy top-notch service for your cigar humidors with us. We provide reliable repair services to ensure your humidors operate at peak performance. Whether you have a walk-in humidor, a freestanding unit, or a built-in cigar humidor, we are here to help. Our services are available in Dubai, Sharjah, and Abu Dhabi. </p>
+                <h3 className="cs_fs_24">
+                Cigar Cabinet Technical Inspection Fee
+                </h3>
+                <p>The technical inspection fee starting from AED 375 covers diagnosis, transportation, and reinstallation at your location in Dubai. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repairs for a coffee machine, stand mixer, or robot vacuum cleaner, please contact us.</p>
               </div>
 
               <div className="col-md-6 ">
@@ -176,18 +173,20 @@ const CigarcabnitServiceDetail = ({ subtitle, title, bgImg }) => {
         {/* Why is Oven Maintenance Service Important in Dubai? */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">Why Choose Our Cigar Cabinet Humidifier Repair Services?</h3>
+            <h3 className="cs_fs_30">Why is it important to maintain a cigar humidor in Dubai?</h3>
+            <p>Regular maintenance of a cigar humidor is essential for your use. It ensures the quality of the cigars, extends the lifespan of the cigar cabinet fridge, and reduces repair costs.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}img/cigarcabnitrepairservice.jpeg`} alt="Cigarcabnit Repair Service" />
               </div>
               <div className="col-md-6">
-                <ul>
-                  <li><strong>Expert Technicians:&nbsp;</strong>Our team consists of highly trained professionals with extensive knowledge of cigar cabinet humidifiers. No issue is too complex for our experts to handle.</li>
-                  <li><strong>Fast and Reliable Service:&nbsp;</strong>We understand the importance of maintaining your cigar collection. That&rsquo;s why we aim to repair your humidifier quickly, often within 24 hours, without compromising quality.</li>
-                  <li><strong>Long-term Solutions:&nbsp;</strong>DIY fixes may work temporarily, but our expert repairs ensure a long-lasting solution. Plus, we offer service warranties for peace of mind.</li>
-                  <li><strong>Comprehensive Brand Support:&nbsp;</strong>Our skilled technicians can repair humidifiers from a wide range of brands, ensuring precise diagnosis and solutions tailored to your specific model.</li>
-                </ul>
+              <ul>
+                <li><strong>Cigar Humidor Preventing Breakdowns: </strong>Regular maintenance, which includes cleaning and descaling, helps minimize expensive repairs and reduces downtime.</li>
+                <li><strong>Cigar Humidor Extending Lifespan: </strong>Regular maintenance extends the lifespan of a cigar cabinet, which helps save on replacement costs.</li>
+                <li><strong>Cigar Humidor Lowering Maintenance Costs: </strong>Addressing small issues early can help prevent larger and more costly repairs later on.</li>
+                <li><strong>Cigar Humidor Maintaining Efficiency: </strong>Regular maintenance ensures optimal performance and helps reduce energy consumption.</li>
+                <li><strong>Cigar Humidor Home Use: </strong>Regular maintenance enhances the quality and lifespan of cigar cabinet refrigerators. Professional servicing is beneficial for both home and business users in Dubai.</li>
+              </ul>
               </div>
             </div>
           </div>
@@ -198,16 +197,16 @@ const CigarcabnitServiceDetail = ({ subtitle, title, bgImg }) => {
         {/* The Most Common Problems With Oven */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="text-center">The Most Common Problems With Oven   </h3>
+            <h3 className="text-center">The Most Common Problems of Cigar Cabinet Humidor</h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Won't Turn On</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Ignoring Humidity Levels</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">This issue may be caused by a tripped circuit breaker, a blown fuse, or problems with the oven's control board or power supply.</p>
+                    <p className="p-2 mb-0">After seasoning your humidor, it's important to maintain the humidity level. Many new owners mistakenly "set and forget", leading to dried-out or mouldy cigars.</p>
                   </div>
                 </div>
               </div>
@@ -215,12 +214,11 @@ const CigarcabnitServiceDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Defective Oven Light</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Overcrowding the Humidor</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-Typically, a simple bulb replacement can resolve this issue or cause some power not to get.
-
+                    While it's tempting to fill your humidor completely with cigars, it's best to avoid overcrowding, as it can cause various issues.
                     </p>
                   </div>
                 </div>
@@ -229,13 +227,12 @@ Typically, a simple bulb replacement can resolve this issue or cause some power 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Doesn't Heat Up
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Storing Cigars in an Incorrect Zone
                     </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-This could result from a faulty heating element, a broken thermostat, or a malfunction in the ignition system of gas ovens.
-</p>
+                    <p className="p-2 mb-0">The location of your humidor is crucial to maintaining cigar quality. Many people mistakenly store it in unsuitable environments, harming the taste of their cigars.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -244,12 +241,10 @@ This could result from a faulty heating element, a broken thermostat, or a malfu
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">ven Doesn't Heat</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Wrong Humidification Solution</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">O
-The oven doesn't Heat to the Correct Temperature. Possible causes include a faulty thermostat, miscalibration, or issues with the control panel.
-</p>
+                    <p className="p-2 mb-0">Not all humidification solutions are equal. Using the wrong type can cause flavor issues or even damage your humidor.</p>
                   </div>
                 </div>
               </div>
@@ -257,12 +252,10 @@ The oven doesn't Heat to the Correct Temperature. Possible causes include a faul
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Food Doesn't Cook Evenly</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Not Regularly Monitoring Humidor</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-This can occur due to factors such as incorrect rack placement, blocked vents, or a faulty thermostat.
-</p>
+                    <p className="p-2 mb-0">Setting up your humidor is just the first step. Regularly check the internal environment to keep your cigars in top condition.</p>
                   </div>
                 </div>
               </div>
@@ -270,12 +263,10 @@ This can occur due to factors such as incorrect rack placement, blocked vents, o
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Door Won't Close</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">OHumidor Door Open Too Often</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-Problems with the door hinges, seals, or latch mechanism can prevent the door from closing properly.
-</p>
+                    <p className="p-2 mb-0">It's tempting to show off or admire your cigars, but frequent opening of your humidor can lead to problems.</p>
                   </div>
                 </div>
               </div>
@@ -283,12 +274,10 @@ Problems with the door hinges, seals, or latch mechanism can prevent the door fr
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Self-Cleaning Problems</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Cigars Lacking Proper Packaging</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-Self-cleaning ovens sometimes experience issues during the cleaning cycle, which may require resetting or professional assistance.
-</p>
+                    <p className="p-2 mb-0">Cigar enthusiasts often mistakenly remove cigars from their original packaging before storing them in a humidor.</p>
                   </div>
                 </div>
               </div>
@@ -296,12 +285,10 @@ Self-cleaning ovens sometimes experience issues during the cleaning cycle, which
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Broken Oven Rack</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Not Seasoning Cigar Humidor</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-A broken or damaged rack can reduce the oven's efficiency and hinder cooking capabilities.
-</p>
+                    <p className="p-2 mb-0">Seasoning is a crucial step in setting up a new humidor. Skipping this process can lead to dry cigars or unpleasant tastes.</p>
                   </div>
                 </div>
               </div>
@@ -319,9 +306,8 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
         {/* HERE ARE THE SERVICES WE OFFER FOR THE OVEN */}
         <section className="section cs_py_30 ">
           <div className="container">
-            <h3 className="cs_fs_30">Now Available: Smoker Cigar Cabinet Repair Service
-            </h3>
-            <p className='mb-0'>We at FAJ Professional take great satisfaction in providing a variety of Cigar Cabinet grill services to suit your requirements. We provide all types of services, including electric Cigar Cabinet grill dubai and smoker Cigar Cabinet repair etc. Get in touch with us right now to find out more about our extensive services for barbecuing and to see how we can improve your grilling adventures!</p>
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR CIGAR CABINET HUMIDOUR AND CIGAR FRIDGE</h3>
+            <p className='mb-0'>We specialise in all types and brands of Cigar cabinet humidor, including cigar walk in chiller:</p>
             <div className="row align-items-center">
               <div className="col-xl-6">
                 <iframe
@@ -337,8 +323,13 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
               </div>
 
               <div className="col-xl-6">
-                <h3 className="cs_fs_20">Get Professional Cigar Cabinet Grill Cleaning & Service Dubai</h3>
-                <p>We are the only company you should trust for Cigar Cabinet cleaning in top condition. In Dubai, our team of knowledgeable specialists clean barbecue grill in an extensive manner. Put an end to the headache of having to scrub and scrape off tough oil and dirt yourself; instead, let our professionals do Cigar Cabinet grill cleaning. With our meticulous grill cleaning techniques, we guarantee that your barbeque grill will always look immaculate and function well, providing you with the greatest possible grilling experience. To arrange for your barbecue cleaning session and take pleasure in hassle-free grilling, contact us right now!</p>
+                <p className="mb-1"><strong>Our services include:</strong></p>
+                <ul>
+                    <li><strong>Cigar Cabinet Humidor Installation: </strong>Expert installation of various types and brands of cigar walk-in chillers and spare parts, ensuring optimal performance and efficiency.</li>
+                    <li><strong>Cigar Cabinet Humidor Diagnostics: </strong>We thoroughly diagnose issues and offer eligibility assessments with detailed quotes for your built-in cigar refrigerator.</li>
+                    <li><strong>Cigar Cabinet Humidor Repair Service: </strong>Efficient repair services for all cigar humidifier components, ensuring quick resolution of issues such as leaks, electrical failures, and system malfunctions.</li>
+                    <li><strong>Cigar Cabinet Humidor Annual Maintenance Contract: </strong>This contract outlines the terms and services covered for the annual maintenance of the built-in cigar humidor, cigar walk-in chiller, and cigar refrigerator.</li>
+                    </ul>
               </div>
             </div>
           </div>
@@ -370,7 +361,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
                       </h4>
-                      <p className="small">Regular maintenance helps your oven run smoothly and efficiently, delivering the best results every time.
+                      <p className="small">Regular maintenance ensures your cigar cabinet humidor operates efficiently, providing optimal results every time.
                       </p>
                     </div>
                   </div>
@@ -382,7 +373,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                         <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
-                      <p className="small">Energy efficient oven translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                      <p className="small">Energy-efficient cigar humidors translate to monthly savings on utility bills, putting more money back in your pocket.</p>
                     </div>
                   </div>
                 </div>
@@ -405,11 +396,9 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Extending oven Lifespan</h4>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your home oven, delaying the need for replacements.</p>
-
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Cigar Humidor Lifespan</h4>
+                      <p className="small">Timely servicing and proper care can greatly extend the life of your cigar humidor, postponing the need for replacements.</p>
                     </div>
-
                   </div>
                 </div>
 
@@ -421,7 +410,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                       </h4>
-                      <p className="small">Knowing your oven are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                      <p className="small">Knowing that your cigar humidor is in top condition gives you confidence and removes the stress of unexpected failures.</p>
                     </div>
                   </div>
                 </div>
@@ -456,8 +445,8 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                     <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your oven runs smoothly and providing peace of mind.</p>
+                    <h3 className="">Confidence</h3>
+                    <p>With a maintenance contract, you receive a full year of service, ensuring your cigar humidor operates smoothly and providing you with peace of mind.</p>
                   </div>
                 </div>
 
@@ -468,7 +457,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your oven repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
+                    <p>Choose a day and time for your cigar humidor repair in Dubai or Sharjah, with a 3-4 hour window for when our technician will arrive.</p>
                   </div>
                 </div>
 
@@ -487,7 +476,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are experts in Cigar Cabinet repair this is why most major brands trust us to handle their service and maintenance needs.</p>
+                    <p>We specialize in repairing cigar humidor cabinets, which is why major brands trust us for their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -497,7 +486,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two oven at the same in Dubai location.</p>
+                    <p>The inspection fee covers diagnosis, transport, and reinstallation of cigar humidors in Dubai and Sharjah.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -506,7 +495,7 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our skilled oven technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
+                    <p>Our experienced technicians for cigar humidors provide exceptional service for several top brands.</p>
                   </div>
                 </div>
               </div>
@@ -518,7 +507,20 @@ A broken or damaged rack can reduce the oven's efficiency and hinder cooking cap
             </div>
           </div>
         </section>
-
+        <section className="section cs_py_30 bg-light-gray">
+          <div className="container">
+            <h3>We specialise in air conditioning services for the following brands</h3>
+            <ul>
+                <li><strong>Airo Fridgador Cabinet Repair Service</strong>: FAJ offers reliable airo fridgador cabinet repair and services in Dubai, with professionals who are experts in Airo fridgador cigar cabinet maintenance.</li>
+                <li><strong>Raching Cigar Humidor Repair and Service</strong>: Located in Dubai, FAJ is your trusted destination for raching cigar humidor services. We specialize in electronic humidor repairs and maintenance, offering comprehensive solutions to meet your needs.</li>
+                <li><strong>Liebherr Cigar Humidor Maintenance Service</strong>: The Liebherr cigar cabinet humidor service ensures you won&rsquo;t have to&nbsp;worry because you are in the right place. FAJ prioritizes efficiency and reliability.</li>
+                <li><strong>Hemingway Premium Electric Cigar Humidor Repair and Service</strong>: Rely on our expert team to promptly resolve any issues with your Hemingway Premium Electric Cigar Humidor and restore its functionality.</li>
+                <li><strong>Electric Cigar Humidor Service and Repair:</strong> With extensive knowledge of electric cigar humidors, we provide effective repairs to keep your unit running smoothly.</li>
+                <li><strong>Vevor Electric Cigar Humidor Service and Repair</strong>: No matter the problem with your Vevor Electric Cigar Humidor, our experts can diagnose and fix it accurately.</li>
+                <li><strong>Humidor Cigar Cabinet Refrigerator and Maintenance</strong>: Is your Humidor Cigar Cabinet Refrigerator not working properly? Don't suffer through uncomfortable temperatures or risk losses due to faulty equipment. FAJ can restore your Humidor Cigar Cabinet Refrigerator quickly!</li>
+            </ul>
+          </div>
+        </section>
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" data-background={`${import.meta.env.BASE_URL}${bgImg}`}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}

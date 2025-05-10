@@ -12,9 +12,9 @@ const ServicesPage = () => {
                 Title="Services"
             ></BreadCumb>
             <Services3></Services3>
-            <Video1></Video1>
+            {/* <Video1></Video1>
             <Form2></Form2>
-            <Pricing1></Pricing1>
+            <Pricing1></Pricing1> */}
         </div>
     );
 };

@@ -94,6 +94,11 @@ export default function Nav({ setMobileToggle }) {
                     </Link>
                   </li>
                   <li className='cs_light cs_fs_16'>
+                    <Link to="/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/" onClick={() => setMobileToggle(false)}>
+                      BBQ Repair Service
+                    </Link>
+                  </li>
+                  <li className='cs_light cs_fs_16'>
                     <Link to="/robot-vacuum-cleaner-repair/" onClick={() => setMobileToggle(false)}>
                       Vacuum Cleaner Repair
                     </Link>
@@ -119,18 +124,13 @@ export default function Nav({ setMobileToggle }) {
                     </Link>
                   </li>
                   <li className='cs_light cs_fs_16'>
-                    <Link to="/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/" onClick={() => setMobileToggle(false)}>
-                      BBQ Repair Service
-                    </Link>
-                  </li>
-                  <li className='cs_light cs_fs_16'>
-                    <Link to="/cigar-cabinet-humidifier-repair/" onClick={() => setMobileToggle(false)}>
-                      Cigar Cabinet Humidifier Repair
+                    <Link to="/cigar-humidor-repair/" onClick={() => setMobileToggle(false)}>
+                      Cigar Humidor Repair
                     </Link>
                   </li>
                   <li className='cs_light cs_fs_16'>
                     <Link to="/appliances-amc-service/" onClick={() => setMobileToggle(false)}>
-                    Appliances Maintenance Contract
+                      Appliances Maintenance Contract
                     </Link>
                   </li>
                 </ul>
@@ -144,52 +144,38 @@ export default function Nav({ setMobileToggle }) {
                 <ul>
                   <li className='cs_light cs_fs_16'>
                     <Link to="/oven-repair/" onClick={() => setMobileToggle(false)}>
-                    Oven Repair
+                      Oven Repair
                     </Link>
                   </li>
-                  <li className='cs_light cs_fs_16'>
-                    <Link to="/hot-plate-repair/" onClick={() => setMobileToggle(false)}>
-                    Hot Plate Repair
-                    </Link>
-                  </li>
-                  <li className='cs_light cs_fs_16'>
-                    <Link to="/pizza-oven-maintenance/" onClick={() => setMobileToggle(false)}>
-                    Pizza Oven Repair
-                    </Link>
-                  </li>
-                  <li className='cs_light cs_fs_16'>
-                    <Link to="/gas-cooker-repair/" onClick={() => setMobileToggle(false)}>
-                      Gas Range Repair
-                    </Link>
-                  </li>
-                  <li className='cs_light cs_fs_16'>
-                    <Link to="/deep-fryer-service/" onClick={() => setMobileToggle(false)}>
-                    Deep Fryer Service
-                    </Link>
-                  </li>
+                  
                   <li className='cs_light cs_fs_16'>
                     <Link to="/meat-grinder-repair/" onClick={() => setMobileToggle(false)}>
-                    Meat Grinder Repair
+                      Meat Grinder Repair
                     </Link>
                   </li>
                   <li className='cs_light cs_fs_16'>
                     <Link to="/dough-mixer-repair/" onClick={() => setMobileToggle(false)}>
-                    Dough Mixer Repair
+                      Dough Mixer Repair
                     </Link>
                   </li> 
                   <li className='cs_light cs_fs_16'>
                     <Link to="/food-warmer-repair/" onClick={() => setMobileToggle(false)}>
-                    Food Warmer Repair
+                      Food Warmer Repair
                     </Link>
                   </li>
                   <li className='cs_light cs_fs_16'>
                     <Link to="/commercial-kitchen-equipment-amc/" onClick={() => setMobileToggle(false)}>
-                    Kitchen Equipment AMC
+                      Kitchen Equipment AMC
                     </Link>
                   </li>
                   <li className='cs_light cs_fs_16'>
                     <Link to="/commercial-cooking-appliances-repair-service/" onClick={() => setMobileToggle(false)}>
-                    Kitchen Equipment Repair 
+                      Kitchen Equipment Repair 
+                    </Link>
+                  </li>
+                  <li className='cs_light cs_fs_16'>
+                    <Link to="/cooking-equipment-service/" onClick={() => setMobileToggle(false)}>
+                      Cooking Equipment Service
                     </Link>
                   </li>
                 </ul>

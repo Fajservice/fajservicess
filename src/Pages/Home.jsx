@@ -4,7 +4,6 @@ import Blog3 from "../Components/Blog/Blog3";
 import Choose1 from "../Components/Choose/Choose1";
 import Contact1 from "../Components/Contact/Contact";
 import HeroBanner1 from "../Components/HeroBanner/HeroBanner1";
-import Pricing1 from "../Components/Pricing/Pricing1";
 import Process from "../Components/Process/Process";
 import Project1 from "../Components/Project/Project1";
 import Services1 from "../Components/Services/Services1";

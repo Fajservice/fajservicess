@@ -231,7 +231,9 @@ section#get-quote {
   background-color: var(--bg-dark-blue);
   border-radius: 50%;
 }
-
+.cs_footer_row .cs_footer_col a:hover {
+  color: #ffffffa3;
+}
 @media screen and (max-width: 767px) {
   .border-small-left::before {
 
@@ -728,6 +730,10 @@ p a {
   .col-2,
   .col-3 {
     width: 80%;
+  }
+  .cs_about.cs_style_1 .cs_esperience_text:after {
+      opacity: 0.7 !important;
+      z-index: -1 !important;
   }
 }
 

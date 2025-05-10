@@ -40,7 +40,7 @@ const BlogDetails = () => {
           return (
             <>
               {beforeLinkText}
-              <a href={url} target="_blank" rel="noopener noreferrer">{linkText}</a>
+              <Link to={url} target="_blank" rel="noopener noreferrer">{linkText}</Link>
               {afterLinkText}
             </>
           );
@@ -1657,10 +1657,10 @@ const BlogDetails = () => {
               <div className="cs_post_socials">
                 <h3 className="cs_fs_24 cs_semibold">Share:</h3>
                 <div className="cs_social_btns cs_style_1">
-                  <a href="#" className="cs_center cs_radius_50"><i className="bi bi-facebook"></i></a>
-                  <a href="#" className="cs_center cs_radius_50"><i className="bi bi-youtube"></i></a>
-                  <a href="#" className="cs_center cs_radius_50"><i className="bi bi-twitter"></i></a>
-                  <a href="#" className="cs_center cs_radius_50"><i className="bi bi-linkedin"></i></a>
+                  <Link to="#" className="cs_center cs_radius_50"><i className="bi bi-facebook"></i></Link>
+                  <Link to="#" className="cs_center cs_radius_50"><i className="bi bi-youtube"></i></Link>
+                  <Link to="#" className="cs_center cs_radius_50"><i className="bi bi-twitter"></i></Link>
+                  <Link to="#" className="cs_center cs_radius_50"><i className="bi bi-linkedin"></i></Link>
                 </div>
               </div>
             </div>
@@ -1678,7 +1678,7 @@ const BlogDetails = () => {
                       <span className="cs_heading_color">10 Oct, 2024</span>
                     </div>
                     <p className="mb-0">Most repairs can be completed within a few hours, but complex issues might take longer. We always aim a for same-day service when possible.</p>
-                    <a href="#" className="cs_reply_btn cs_heading_bg cs_fs_14 cs_bold cs_white_color text-uppercase">Reply</a>
+                    <Link to="#" className="cs_reply_btn cs_heading_bg cs_fs_14 cs_bold cs_white_color text-uppercase">Reply</Link>
                   </div>
                 </li>
                 <li className="cs_comment_body position-relative">
@@ -1692,7 +1692,7 @@ const BlogDetails = () => {
                       <span className="cs_heading_color">15 Oct, 2024</span>
                     </div>
                     <p className="mb-0">We offer free estimates before any repairs begin, so you know exactly what to expect on all part and labor, ensuring your peace of mind.</p>
-                    <a href="#" className="cs_reply_btn cs_heading_bg cs_fs_14 cs_bold cs_white_color text-uppercase">Reply</a>
+                    <Link to="#" className="cs_reply_btn cs_heading_bg cs_fs_14 cs_bold cs_white_color text-uppercase">Reply</Link>
                   </div>
                 </li>
                 <li className="cs_comment_body position-relative">
@@ -1706,7 +1706,7 @@ const BlogDetails = () => {
                       <span className="cs_heading_color">20 Oct, 2024</span>
                     </div>
                     <p className="mb-0">Tire rotation is typically recommended every 6,000 to 8,000 miles to ensure even wear and extend the life of your tires  more serious that needs attention.</p>
-                    <a href="#" className="cs_reply_btn cs_heading_bg cs_fs_14 cs_bold cs_white_color text-uppercase">Reply</a>
+                    <Link to="#" className="cs_reply_btn cs_heading_bg cs_fs_14 cs_bold cs_white_color text-uppercase">Reply</Link>
                   </div>
                 </li>
               </ul>
@@ -1747,24 +1747,24 @@ const BlogDetails = () => {
                 <div className="cs_separator"></div>
                 <h3 className="cs_sidebar_title cs_fs_30 cs_mb_43">All Services</h3>
                 <ul className="cs_categories cs_fs_18 cs_semibold cs_mp_0">
-                  <li><Link to="/service/service-details">
-                    <span>Structural Mastery</span>
+                  <li><Link to="/ac-service-in-dubai/">
+                    <span>Air Conditioning Services</span>
                     <span><i className="bi bi-arrow-right"></i></span>
                   </Link></li>
-                  <li><Link to="/service/service-details">
-                    <span>Foundation Forte</span>
+                  <li><Link to="/appliances-repair-service/">
+                    <span>Home Appliances Repair Services</span>
                     <span><i className="bi bi-arrow-right"></i></span>
                   </Link></li>
-                  <li><Link to="/service/service-details">
-                    <span>Build Smart Solutions</span>
+                  <li><Link to="/commercial-laundry-equipment-service/">
+                    <span>Laundry Equipment Service</span>
                     <span><i className="bi bi-arrow-right"></i></span>
                   </Link></li>
-                  <li><Link to="/service/service-details">
-                    <span>Precision Builds</span>
+                  <li><Link to="/coffee-machine-service-center-in-dubai/">
+                    <span>Coffee Machine Services</span>
                     <span><i className="bi bi-arrow-right"></i></span>
                   </Link></li>
-                  <li><Link to="/service/service-details">
-                    <span>Apex Remodeling</span>
+                  <li><Link to="/commercial-cooking-appliances-repair-service/">
+                    <span>Kitchen Equipment Repair</span>
                     <span><i className="bi bi-arrow-right"></i></span>
                   </Link></li>
                 </ul>
@@ -1794,15 +1794,15 @@ const BlogDetails = () => {
                 <div className="cs_sidebar_tags">
                   <h3 className="cs_sidebar_title cs_fs_30 cs_mb_43">Popular Tags</h3>
                   <div className="cs_tags_links cs_fs_14 cs_semibold cs_heading_font">
-                    <a href="#" className="cs_tag_link cs_white_bg">Popular</a>
-                    <a href="#" className="cs_tag_link cs_white_bg">Car</a>
-                    <a href="#" className="cs_tag_link cs_white_bg">Auto Parts</a>
-                    <a href="#" className="cs_tag_link cs_white_bg">Services</a>
-                    <a href="#" className="cs_tag_link cs_white_bg">Repairs</a>
-                    <a href="#" className="cs_tag_link cs_white_bg">Dealer</a>
-                    <a href="#" className="cs_tag_link cs_white_bg">Oil</a>
-                    <a href="#" className="cs_tag_link cs_white_bg">Icon</a>
-                    <a href="#" className="cs_tag_link cs_white_bg">Bike</a>
+                    <Link to="#" className="cs_tag_link cs_white_bg">Popular</Link>
+                    <Link to="#" className="cs_tag_link cs_white_bg">Car</Link>
+                    <Link to="#" className="cs_tag_link cs_white_bg">Auto Parts</Link>
+                    <Link to="#" className="cs_tag_link cs_white_bg">Services</Link>
+                    <Link to="#" className="cs_tag_link cs_white_bg">Repairs</Link>
+                    <Link to="#" className="cs_tag_link cs_white_bg">Dealer</Link>
+                    <Link to="#" className="cs_tag_link cs_white_bg">Oil</Link>
+                    <Link to="#" className="cs_tag_link cs_white_bg">Icon</Link>
+                    <Link to="#" className="cs_tag_link cs_white_bg">Bike</Link>
                   </div>
                 </div>
               </div>
