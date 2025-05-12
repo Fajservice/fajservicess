@@ -83,6 +83,7 @@ const About1 = ({img1,img2,img3,expNumber,expYers,expTitle,expTitleYear,telLink,
            </div>
          </div>
          <div className="cs_height_80 cs_height_lg_80"></div>
+         <div className="cs_height_80 cs_height_lg_80"></div>
         </section>
     );
 };
