@@ -53,7 +53,7 @@ const BreadCumb = ({ bgImg, Title }) => {
     data.append('page_url', window.location.href);
 
     try {
-      await fetch('https://formsubmit.co/faisaljuma01@gmail.com', {
+      await fetch('https://formsubmit.co/info@fajservices.ae', {
         method: 'POST',
         body: data,
         mode: 'no-cors'
@@ -86,7 +86,7 @@ const BreadCumb = ({ bgImg, Title }) => {
   return (
     <section
       className="cs_page_heading cs_bg_filed cs_primary_bg"
-      data-background={`${import.meta.env.BASE_URL}${bgImg}`}
+      style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}
     >
       <div className="container">
         {/* Main row */}

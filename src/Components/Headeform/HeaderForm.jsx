@@ -50,7 +50,7 @@ const HeaderForm = () => {
     data.append('page_url', window.location.href);
 
     try {
-      await fetch('https://formsubmit.co/faisaljuma01@gmail.com', {
+      await fetch('https://formsubmit.co/info@fajservices.ae', {
         method: 'POST',
         body: data,
       });
@@ -117,8 +117,7 @@ const HeaderForm = () => {
               </div>
               {/* ✅ reCAPTCHA */}
               <div className="col-12 d-flex justify-content-center mb-3">
-                <ReCAPTCHA sitekey="6Lco6CIrAAAAAC9ZHw4Vb8Wg4AwBaHZOw_OGfx9z
-                " onChange={handleCaptchaChange} />
+                <ReCAPTCHA sitekey="6LeWuDQrAAAAAA2kK9zRDfujrKPB8zdR6_mTOrdD" onChange={handleCaptchaChange} />
 
               </div>
             </div>

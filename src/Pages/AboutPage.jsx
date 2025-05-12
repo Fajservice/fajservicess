@@ -2,7 +2,6 @@ import About1 from "../Components/About/About1";
 import Brand1 from "../Components/Brand/Brand1";
 import BreadCumb from "../Components/Common/BreadCumb";
 import Process from "../Components/Process/Process";
-import Team1 from "../Components/Team/Team1";
 import Testimonial1 from "../Components/Testimonial/Testimonial1";
 
 const AboutPage = () => {

@@ -53,7 +53,7 @@ const Form1 = () => {
     data.append('page_url', window.location.href);
 
     try {
-      await fetch('https://formsubmit.co/faisaljuma01@gmail.com', {
+      await fetch('https://formsubmit.co/info@fajservices.ae', {
         method: 'POST',
         body: data,
         mode: 'no-cors'
