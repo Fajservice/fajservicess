@@ -5,7 +5,7 @@ const ElicaAppliancesService = () => {
   return (
     <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/small-home.avif"
+        bgImg="img/banners/ac-maintenance.avif"
         Title="Indesit Washing Machine Repair & Service"
     ></BreadCumb>
 
