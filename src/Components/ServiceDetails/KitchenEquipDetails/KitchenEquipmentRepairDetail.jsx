@@ -208,8 +208,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      An bad ventilation system that is too small or unsuitable for your kitchen equipment can cause serious problems.
-
+                      A bad or inadequate ventilation system that is too small or unsuitable for your kitchen equipment can cause serious problems.
                     </p>
                   </div>
                 </div>
@@ -222,8 +221,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Leaks are often caused by damaged gaskets, seals, or hoses. To fix this, turn off the commercial cooking appliance and ensure the water ...
-
+                      Leaks are often caused by damaged gaskets, seals, or hoses. To fix this, turn off the commercial cooking appliance and ensure the water is off.
                     </p>
                   </div>
                 </div>
@@ -249,7 +247,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Unequal heat distribution can lead to undercooked or overcooked food. The cooking range does not reach the selected temperature.
+                      Unequal heat distribution can lead to undercooked or overcooked food. The cooking range often does not reach the selected temperature.
                     </p>
                   </div>
                 </div>
@@ -262,7 +260,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Regular cleaning & maintenance is essential. Set a routine to clean hoods, ducts, and all kitchen covers, such as floors, countertops, and equipment.
+                      Regular cleaning & maintenance are essential. Set a routine to clean hoods, ducts, and all kitchen covers, such as floors, countertops, and equipment.
                     </p>
                   </div>
                 </div>
@@ -275,7 +273,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      As a food industry professional, it's your duty to ensure your employees know how to safely and efficiently operate all equipment.
+                      As a food industry professional, it's your duty to ensure your employees clearly know how to safely and efficiently operate all equipment.
                     </p>
                   </div>
                 </div>
@@ -288,7 +286,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Electrical issues can affect equipment by either oversupplying or undersupplying the required voltage and amperage.
+                      Electrical issues can seriously affect equipment by either oversupplying or undersupplying the required voltage and amperage.
                     </p>
                   </div>
                 </div>
@@ -301,7 +299,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      When kitchen cooking equipment is not regularly and properly serviced, it becomes much more prone to unnecessary wear and tear. Issues such.
+                      When kitchen cooking equipment is not regularly and properly serviced, it becomes much more prone to unnecessary wear and tear.
                     </p>
                   </div>
                 </div>
