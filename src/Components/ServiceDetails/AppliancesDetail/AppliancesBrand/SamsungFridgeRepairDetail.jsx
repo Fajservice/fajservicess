@@ -1,20 +1,18 @@
 import { useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, parsePath } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
-
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
-
 import Slider from "react-slick";
-import testimonial_data from '../../../../Data/AppliancesData/AppliancesTestimonial/IndesitTestimonials.json';
+import testimonial_data from '../../../../Data/AppliancesData/AppliancesTestimonial/AppliancesTestimonials.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
-const VikingAppliancesServiceDetail = ({ subtitle, title, bgImg }) => {
+const SamsungFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -105,10 +103,10 @@ const VikingAppliancesServiceDetail = ({ subtitle, title, bgImg }) => {
     ]
   };
   return (
-      <>
+     <>
     <HelmetProvider>
-      <title>Vikiing appliances Service - Refrigerator Repair - Oven Fix</title>
-      <meta name="description" content="Get expert Viking appliance service in Dubai. Fast & reliable Viking refrigerator, freezer, diswasher, stove, oven maintenance service. Dail 043300002"></meta>
+      <title>Samsung Fridge Repair Dubai - Washing Machine Service - FAJ</title>
+      <meta name="description" content="Looking for Samsung Fridge Repair in Dubai? Call 043300002 for quick Samsung washing machine repair, dryer, refrigerator, stove & dishwasher service"></meta>
     </HelmetProvider>
     <HeaderForm />
 
@@ -116,10 +114,8 @@ const VikingAppliancesServiceDetail = ({ subtitle, title, bgImg }) => {
     {/* intro */}
       <section className="section cs_py_30">
         <div className="container">
-{/* 
-          <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2> */}
           <p>
-          Viking appliances are the best among the other brands out there. Still, products of the best brands even do not last endlessly. In addition, we are all sure that our appliances break down when we need them the most. Reasonably, your first reaction will be to see if your appliance is repairable. You can fix minor issues, but mostly, you cannot. So why worry? We are the best Indesit appliance repair service provider in Dubai. We are the most experienced industry experts serving since 2010 in Dubai. With hands-on experience with all home appliances, you can expect successful and swift repairs from us. Indesit Fridge Repair in Dubai So, contact us today to get your repair appointment. Enjoy superior Indesit appliance repair with FAJ Technical Services LLC.
+          Samsung  appliances are the best among the other brands out there. Still, products of the best brands even do not last endlessly. In addition, we are all sure that our appliances break down when we need them the most. Reasonably, your first reaction will be to see if your appliance is repairable. You can fix minor issues, but mostly, you cannot. So why worry? We are the best Samsung  appliance repair service provider in Dubai. We are the most experienced industry experts serving since 2010 in Dubai. With hands-on experience with all home appliances, you can expect successful and swift repairs from us. Samsung  Fridge Repair in Dubai So, contact us today to get your repair appointment. Enjoy superior Samsung  appliance repair with FAJ Technical Services LLC.
           </p>
 
           <div id="get-quote" className=" mt-3">
@@ -139,10 +135,10 @@ const VikingAppliancesServiceDetail = ({ subtitle, title, bgImg }) => {
         <div className="container">
           <div className="row gx-md-5">
             <div className="col-md-6">
-              <h3 className="cs_fs_24 mb-1">Best Indesit Washing Machine Repair </h3>
+              <h3 className="cs_fs_24 mb-1">Best Samsung  Washing Machine Repair </h3>
 
               <p className="mb-2">
-                If you need Indesit Appliance Repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
+                If you need Samsung  Appliance Repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
                 <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
                 <br /> We're nearby and can get your appliances fixed quickly and efficiently.
               </p>
@@ -151,7 +147,6 @@ const VikingAppliancesServiceDetail = ({ subtitle, title, bgImg }) => {
             </div>
 
             <div className="col-md-6 ">
-              {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Post Image" /> */}
               <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} alt="Post Image" />
             </div>
           </div>
@@ -162,7 +157,7 @@ const VikingAppliancesServiceDetail = ({ subtitle, title, bgImg }) => {
       {/* The Most Common Problems with Home Appliances */}
       <section className="section cs_py_30">
         <div className="container">
-          <h3 className="text-center">The Most Common Problems with Indesit Home Appliances   </h3>
+          <h3 className="text-center">The Most Common Problems with Samsung  Home Appliances   </h3>
           <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
             <div className="col-12 col-md-4 col-lg-3">
@@ -225,9 +220,9 @@ const VikingAppliancesServiceDetail = ({ subtitle, title, bgImg }) => {
       <section className="section cs_py_30 bg-light-gray">
         <div className="container">
 
-          <h3 className="cs_fs_30">Why is Indesit Appliance Maintenance Service Important in Dubai?</h3>
+          <h3 className="cs_fs_30">Why is Samsung  Appliance Maintenance Service Important in Dubai?</h3>
           <p className="">
-          Our all-inclusive repair services include diagnosis, repairs, installations, and maintenance. That is why we are the most in-demand indesit appliances maintenance in Dubai provider.
+          Our all-inclusive repair services include diagnosis, repairs, installations, and maintenance. That is why we are the most in-demand Samsung  appliances maintenance in Dubai provider.
           </p>
 
           <div className="row align-items-center">
@@ -236,9 +231,9 @@ const VikingAppliancesServiceDetail = ({ subtitle, title, bgImg }) => {
             </div>
             <div className="col-md-6">
               <ul className="mb-0">
-                <li> <strong>  Viking Washing Machine Repair in Dubai:-: </strong> Regular maintenance helps appliances last longer, saving on replacement costs.</li>
-                <li> <strong>  Viking Fridge Repair in Dubai: </strong> we are fully confident of getting your fridge running back in no time. </li>
-                <li> <strong>  Viking Cooker Repair in Dubai: </strong> Catching minor issues early prevents them from escalating into expensive repair. </li>
+                <li> <strong>  Samsung  Washing Machine Repair in Dubai:-: </strong> Regular maintenance helps appliances last longer, saving on replacement costs.</li>
+                <li> <strong>  Samsung  Fridge Repair in Dubai: </strong> we are fully confident of getting your fridge running back in no time. </li>
+                <li> <strong>  Samsung  Cooker Repair in Dubai: </strong> Catching minor issues early prevents them from escalating into expensive repair. </li>
                 <li> <strong>  Preserving Appliance Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
                 <li> <strong>  Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious.</li>
                 <li> <strong>  Cost-Effective: </strong> Maintenance costs are lower than early replacements or major repair. Investing in appliance care ensures safety and efficiency and is a smart economic choice in Dubai.</li>
@@ -253,7 +248,7 @@ const VikingAppliancesServiceDetail = ({ subtitle, title, bgImg }) => {
       <section className="section cs_py_30 appliances-benifit-sec">
         <div className="container">
           <div className="row justify-content-center">
-            <h3 className="cs_fs_30 mb-0">The Benefits Of Indesit appliances Service Dubai
+            <h3 className="cs_fs_30 mb-0">The Benefits Of Samsung  appliances Service Dubai
             </h3>
             <div className="row gx-3 gy-5 mt-0">
               <div className="col-md-4 mb-2">
@@ -338,7 +333,7 @@ const VikingAppliancesServiceDetail = ({ subtitle, title, bgImg }) => {
        {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
        <section className="section cs_py_30 bg-light-gray">
         <div className="container">
-          <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR Indesit HOME APPLIANCES</h3>
+          <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR Samsung  HOME APPLIANCES</h3>
 
           <div className="row align-items-center">
             <div className="col-xl-6">
@@ -426,7 +421,7 @@ const VikingAppliancesServiceDetail = ({ subtitle, title, bgImg }) => {
                 </div>
                 <div className="usptext">
                   <h3 className="">We Are Experts</h3>
-                  <p>We are experts in Viking appliance repair this is why most major brands trust us to handle their service and maintenance needs.</p>
+                  <p>We are experts in Samsung  appliance repair this is why most major brands trust us to handle their service and maintenance needs.</p>
                 </div>
               </div>
               <div className="uspitem">
@@ -493,7 +488,6 @@ const VikingAppliancesServiceDetail = ({ subtitle, title, bgImg }) => {
                               <i className="bi bi-star-fill"></i>
                             </div>
                             <h3 className="cs_fs_24 cs_mb_1">{item.title}</h3>
-                            {/* <p className="cs_fs_14 cs_heading_color mb-0">{item.subTitle}</p> */}
                           </div>
                         </div>
                         <blockquote className="cs_fs_16">{item.desc}</blockquote>
@@ -529,7 +523,6 @@ const VikingAppliancesServiceDetail = ({ subtitle, title, bgImg }) => {
                   </span>
                 </div>
                 <div className="cs_accordian_body" ref={accordionContentRef}>
-                  {/* <p className="mb-0">{item.desc.replace(/\n/g, '<br>')}</p> */}
                   <p className="mb-0"
                     dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
                   ></p>
@@ -554,4 +547,4 @@ const VikingAppliancesServiceDetail = ({ subtitle, title, bgImg }) => {
   )
 }
 
-export default VikingAppliancesServiceDetail
+export default SamsungFridgeRepairDetail
