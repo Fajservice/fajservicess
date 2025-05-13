@@ -5,7 +5,7 @@ const DeepFryerService = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/banners/kitchen equipments/deep-fryer.avif"
+                bgImg="img/banners/kitchen-equipments-banners/deep-fryer.avif"
                 Title="Deep Fryer Service"
             ></BreadCumb> 
 

@@ -329,7 +329,7 @@ const AcRepairInInternationalMediaAndProductionZoneDetail = ({ subtitle, title, 
                             <div className="col-lg-4">
                                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                                    <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.avif`} alt="Post Image" />
+                                    <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Post Image" />
                                 </div>
                             </div>
                             <div className="col-lg-4">
