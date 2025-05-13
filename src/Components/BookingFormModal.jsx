@@ -6,7 +6,7 @@ const BookingFormModal = ({ isOpen, onClose }) => {
     contactNumber: '',
     email: '',
     postcode: '',
-    service: 'Air Con',
+    service: '',
     details: ''
   });
 
@@ -69,7 +69,7 @@ const BookingFormModal = ({ isOpen, onClose }) => {
             border: 'none',
             fontSize: '30px',
             cursor: 'pointer',
-            color: 'Red',
+            color: 'white',
             backgroundColor: 'black'
           }}
         >
@@ -146,7 +146,7 @@ const BookingFormModal = ({ isOpen, onClose }) => {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  placeholder="example@server.ae"
+                  placeholder="Email"
                   required
                   style={{
                     width: '100%',
@@ -200,10 +200,14 @@ const BookingFormModal = ({ isOpen, onClose }) => {
                       backgroundColor: 'white'
                     }}
                   >
-                    <option value="Air Con">Air Con</option>
-                    <option value="Plumbing">Plumbing</option>
-                    <option value="Heating">Heating</option>
-                    <option value="Electrical">Electrical</option>
+                    <option value="Air Conditioning Maintenance Service">Air Conditioning Maintenance Service</option>
+                    <option value="Home Appliances Repair Service">Home Appliances Repair Service</option>
+                    <option value="Baumatic Appliances Repair Service">Baumatic Appliances Repair Service</option>
+                    <option value="Commercial Appliances Service">Commercial Appliances Service</option>
+                    <option value="Freezer Maintenance Service">Freezer Maintenance Service</option>
+                    <option value="Food Chiller Service">Food Chiller Service</option>
+                    <option value="AMC Service">AMC Service</option>
+                    <option value="Other">Other</option>
                   </select>
                   <div style={{
                     position: 'absolute',
@@ -239,13 +243,6 @@ const BookingFormModal = ({ isOpen, onClose }) => {
                   }}
                 />
               </div>
-            </div>
-
-            <div style={{ fontSize: '12px', marginBottom: '20px' }}>
-              By using this contact form you agree to the Pimlico Plumbers Ltd{' '}
-              <a href="#" style={{ color: '#3366cc', textDecoration: 'underline' }}>Terms & Conditions</a>,
-              and use of your details in accordance with our{' '}
-              <a href="#" style={{ color: '#3366cc', textDecoration: 'underline' }}>Privacy Policy</a>
             </div>
 
             <button

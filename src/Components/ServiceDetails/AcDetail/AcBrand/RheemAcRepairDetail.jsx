@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcBrand/RheemAcRepairfaq.json';
 import { HelmetProvider } from "react-helmet-async";
-import FAJACPrice from '../../../Miscellaneous/FAJACPrice';
+
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
@@ -140,11 +140,7 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
             </div>
         </section>
 
-        <section className="section cs_py_30">
-          <div className="container">
-            <FAJACPrice></FAJACPrice>
-          </div>
-        </section>
+        
 
         {/* Why is AC Maintenance Service Important in Dubai? */}
         <section className="section cs_py_30 bg-light-gray">
@@ -313,6 +309,7 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
                     </div>
                 </div>
             </div>
+            
         </section> 
          {/* testimobial section */}
           <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative" data-background={`${import.meta.env.BASE_URL}${bgImg}`}>

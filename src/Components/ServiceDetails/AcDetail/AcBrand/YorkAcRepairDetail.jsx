@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcBrand/YorkAcRepairfaq.json';
 import { HelmetProvider } from "react-helmet-async";
-import FAJACPrice from '../../../Miscellaneous/FAJACPrice';
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
@@ -12,6 +11,7 @@ import Slider from "react-slick";
 import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMaintenance";
 import QuickGuide from "../../../QuickGuide/QuickGuide";
 import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
+import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 
 const YorkAcRepair =  ({ subtitle, title, bgImg }) => {
   subtitle="Testimonial"
@@ -139,11 +139,7 @@ const YorkAcRepair =  ({ subtitle, title, bgImg }) => {
             </div>
         </section>
 
-        <section className="section cs_py_30">
-          <div className="container">
-            <FAJACPrice></FAJACPrice>
-          </div>
-        </section>
+        
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="cs_fs_30">Why is York AC Maintenance Service Important in Dubai?</h3>

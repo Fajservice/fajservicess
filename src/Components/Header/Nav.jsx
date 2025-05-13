@@ -99,6 +99,11 @@ export default function Nav({ setMobileToggle }) {
                     </Link>
                   </li>
                   <li className='cs_light cs_fs_16'>
+                    <Link to="/cigar-humidor-repair/" onClick={() => setMobileToggle(false)}>
+                      Cigar Humidor Repair
+                    </Link>
+                  </li>
+                  <li className='cs_light cs_fs_16'>
                     <Link to="/robot-vacuum-cleaner-repair/" onClick={() => setMobileToggle(false)}>
                       Vacuum Cleaner Repair
                     </Link>
@@ -121,11 +126,6 @@ export default function Nav({ setMobileToggle }) {
                   <li className='cs_light cs_fs_16'>
                     <Link to="/appliances-repair-service/" onClick={() => setMobileToggle(false)}>
                       Free Standing Appliance Repair
-                    </Link>
-                  </li>
-                  <li className='cs_light cs_fs_16'>
-                    <Link to="/cigar-humidor-repair/" onClick={() => setMobileToggle(false)}>
-                      Cigar Humidor Repair
                     </Link>
                   </li>
                   <li className='cs_light cs_fs_16'>

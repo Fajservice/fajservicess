@@ -49,7 +49,7 @@ const WashingMachineRepairServiceDubaiDetails = () => {
                   <div className="col-md-6">
                   <img src={`${import.meta.env.BASE_URL}img/Appliances-Repair-Services-Technical-Inspection-Fee.avif`} alt="Post Image" />
                   <h4 className="cs_fs_18">Technical Inspection Fee</h4>
-                    <p>The technical inspection fee is AED 157, which covers diagnosis, transportation, and reinstallation in Dubai premises. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts.</p>
+                    <p>We have a standard technical inspection fee starting from AED 157 to 320 (depending on the appliance) that covers diagnosis, transportation, and reinstallation of the same appliance. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts.</p>
                     <p>If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.</p>
                   </div>
                   <div className="col-md-6">

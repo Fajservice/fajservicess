@@ -1,5 +1,8 @@
 import { HelmetProvider } from "react-helmet-async";
-import FAJACPrice from '../../../Miscellaneous/FAJACPrice';
+import { useEffect, useRef, useState } from "react";
+import { Link, parsePath } from "react-router-dom";
+import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInDubaiInternetCity.json';
+
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
@@ -142,11 +145,7 @@ const AcRepairInDubaiInternationalFinancialCenterDetail = ({ subtitle, title, bg
             </div>
         </section>
 
-        <section className="section cs_py_30">
-            <div className="container">
-                <FAJACPrice></FAJACPrice>
-            </div>
-        </section>
+        
 
         {/* Why is AC Maintenance Service Important in Dubai? */}
         <section className="section cs_py_30 bg-light-gray">

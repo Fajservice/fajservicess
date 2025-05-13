@@ -7,7 +7,7 @@ const AcRepairInJumeirahHeights = () => {
         <div className="serviceDetails">
         <BreadCumb
             // bgImg="img/page_heading_1.avif"
-            bgImg="img/air-condition.avif"
+            bgImg="img/air-condition.jpg"
             Title="AC Service in Jumeirah Heights"
         ></BreadCumb>
         <AcRepairInJumeirahHeightsDetail />

@@ -157,7 +157,7 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}/img/kitchen-equipment.avif`} alt="Oven Repair" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/kitchen-equipment.avif`} alt="Oven Repair" />
               </div>
             </div>
 

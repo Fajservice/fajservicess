@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../Data/HomeAppData/FAQs/HomeappRefrigeratorServicefaqs.json';
 import { HelmetProvider } from "react-helmet-async";
-import FAJACPrice from '../../Miscellaneous/FAJACPrice';
+
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
 import GetQuoteButton from "../../Buttons/GetQuoteButton";
@@ -149,8 +149,8 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
                 </p>
                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fridge Technical Inspection Fee</h3>
                 <p className="mb-2">
-                  The technical inspection fee is AED 157, which covers diagnosis, transportation, and reinstallation in Dubai premises.
-                  Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.
+                  We have a standard technical inspection fee starting from AED 157 to 320 (depending on the appliance) that covers diagnosis, transportation, and reinstallation of the same appliance.
+                  Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any repair/parts. Also, get repairs from us for your coffee machine, stand mixer, or robot vacuum.
                 </p>
               </div>
 

@@ -21,7 +21,7 @@ const Video1 = () => {
 	  };
 
     return (
-        <section className="cs_video cs_style_1 cs_bg_filed position-relative" data-background={`${import.meta.env.BASE_URL}/img/video_bg_1.avif`}>
+        <section className="cs_video cs_style_1 cs_bg_filed position-relative" data-background={`${import.meta.env.BASE_URL}img/video_bg_1.avif`}>
         <div className="container">
           <div className="cs_video_overlay cs_heading_bg position-absolute"></div>
           <div className="cs_video_content">

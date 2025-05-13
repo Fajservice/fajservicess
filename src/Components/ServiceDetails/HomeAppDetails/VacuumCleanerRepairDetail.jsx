@@ -161,7 +161,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                 </h3>
                 <p className="mb-0">
                   The technical inspection fee covers diagnosis, transportation, and reinstallation on Dubai premises.
-                  <br />Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repair for coffee machine, stand mixer, or robot vacuum cleaner, please contact us.
+                  <br />Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any repair/parts. Also, get repairs from us for your coffee machine, stand mixer, or robot vacuum.
 
                 </p>
               </div>

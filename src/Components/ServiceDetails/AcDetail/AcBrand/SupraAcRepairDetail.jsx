@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcServiceInDubai.json';
 import { HelmetProvider } from "react-helmet-async";
-import FAJACPrice from '../../../Miscellaneous/FAJACPrice';
+
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
@@ -139,11 +139,7 @@ const SupraAcRepair = ({ subtitle, title, bgImg }) => {
             </div>
         </section>
 
-        <section className="section cs_py_30">
-          <div className="container">
-            <FAJACPrice></FAJACPrice>
-          </div>
-        </section>
+        
 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">

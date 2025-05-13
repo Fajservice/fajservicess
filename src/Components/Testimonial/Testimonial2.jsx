@@ -11,7 +11,7 @@ const Testimonial2 = () => {
     const [isActive, setIsActive] = useState('tab2');
 
     return (
-        <section className="cs_tabs cs_style_2 cs_bg_filed position-relative" data-background={`${import.meta.env.BASE_URL}/img/testimonial_bg_2.avif`} >
+        <section className="cs_tabs cs_style_2 cs_bg_filed position-relative" data-background={`${import.meta.env.BASE_URL}img/testimonial_bg_2.avif`} >
         <div className="cs_tabs_overlay cs_heading_bg position-absolute"></div>
         <div className="cs_height_80 cs_height_lg_80"></div>
         <div className="container">
