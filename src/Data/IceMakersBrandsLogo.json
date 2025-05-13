@@ -1,7 +1,6 @@
 [
-    
     {
-        "logo": "img/brandslogo/icemaker/Brema.avif"
+        "logo": "/img/brandslogo/icemaker/Brema.avif"
     },
     {
         "logo": "img/brandslogo/icemaker/Electrolux.avif"
@@ -30,5 +29,4 @@
     {
         "logo": "img/brandslogo/icemaker/Simag.avif"
     }
-    
 ]

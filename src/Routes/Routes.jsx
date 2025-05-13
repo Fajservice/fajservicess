@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Main from "../Layout/Main";
 import Home from "../Pages/Home";
 import AboutPage from "../Pages/AboutPage";
+import AcTonnageCalculator from "../Pages/AcTonnageCalculator";
 import AcMaintenanceDubai from "../Pages/AcMaintenanceDubai";
 import AcAnnualMaintenanceContract from "../Pages/AcAnnualMaintenanceContract";
 import AcRepairDubai from "../Pages/AcRepairDubai";
@@ -190,6 +191,8 @@ import AcRepairandServiceInTownSquare from "../Pages/AcPages/AcLocation/AcRepair
 import AcServiceInDubai from "../Pages/AcServiceInDubai.jsx";
 import BBQService from "../Pages/HomeAppPages/BBQService.jsx";
 import IndesitWashingMachine from "../Pages/AppliancesPage/AppliancesBrand/IndesitWashingMachine.jsx";
+import ElicaAppliancesService from "../Pages/AppliancesPage/AppliancesBrand/ElicaAppliancesService.jsx";
+
 import AcRepairInDownTown from "../Pages/AcPages/AcLocation/AcRepairInDowntown.jsx";
 import PortfolioPage from "../Pages/PortfolioPage.jsx";
 import CigarcabnitService from "../Pages/HomeAppPages/CigarcabnitService.jsx";
@@ -206,6 +209,10 @@ export const router = createBrowserRouter([
       {
         path: "/about-us/",
         element: <AboutPage></AboutPage>,
+      },
+      {
+        path: "/ac-tonnage-calculator/",
+        element: <AcTonnageCalculator/>
       },
       {
         path: "*",
@@ -511,6 +518,11 @@ export const router = createBrowserRouter([
       {
         path: "/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-oven-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa/",
         element: <IndesitWashingMachine />
+      },
+
+      {
+        path: "/elica-appliances-service/",
+        element: <ElicaAppliancesService />
       },
       {
         path: "/project",
