@@ -5,7 +5,7 @@ const CommercialWashingMachineRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/banners/Commercial Laundry Equipment Services/Washing-Machine-Repair.jpg"
+                bgImg="img/banners/Commercial Laundry Equipment Services/Washing-Machine-Repair.avif"
                 Title="Commercial Washing Machine Repair"
             ></BreadCumb>
 

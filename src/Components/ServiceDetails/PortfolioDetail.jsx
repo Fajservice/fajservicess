@@ -47,7 +47,7 @@ const PortfolioDetail = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
+            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
             <p>F A J Technical Services was established in May 2010 as an air conditioning systems maintenance company in Dubai. It has now gradually grown as a competitive technical services provider in Dubai, Abu Dhabi, and Sharjah. We focus on the International quality of technical services for air conditioning, refrigeration units, domestic & commercial appliances, MEP services, installation services, AMC maintenance, repair services, PPM services & annual maintenance contract services for industrial, commercial, and domestic use. Our company has gone from strength to strength, gaining the highly acclaimed Trusted Trader endorsements in 2024. We are committed to providing our customers calm, satisfaction & happiness. Our professional technical teams will provide you with their expertise and knowledge giving you peace of mind for all your appliances repair. First preference is given to our AMC customers, Al our services are carried out quickly and efficiently.We aim to make a positive impact through our innovations, efficient operations, relationships, voluntary contributions, and various other ways in which we engage with our business partners and society at large.</p>
 
             <div id="get-quote" className=" mt-3">

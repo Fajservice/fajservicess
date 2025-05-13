@@ -5,7 +5,7 @@ const BlogComments = () => {
             <ul className="cs_comment_list cs_heading_font cs_mp_0">
             <li className="cs_comment_body position-relative">
                 <div className="cs_comment_thumbnail">
-                <img src={`${import.meta.env.BASE_URL}img/avatar_9.jpg`} alt="Image" />
+                <img src={`${import.meta.env.BASE_URL}img/avatar_9.avif`} alt="Image" />
                 </div>
                 <div className="cs_comment_info">
                 <h3 className="cs_fs_20 cs_semibold cs_mb_9">Leslie Alexander</h3>
@@ -19,7 +19,7 @@ const BlogComments = () => {
             </li>
             <li className="cs_comment_body position-relative">
                 <div className="cs_comment_thumbnail">
-                <img src={`${import.meta.env.BASE_URL}img/avatar_10.jpg`} alt="Image" />
+                <img src={`${import.meta.env.BASE_URL}img/avatar_10.avif`} alt="Image" />
                 </div>
                 <div className="cs_comment_info">
                 <h3 className="cs_fs_20 cs_semibold cs_mb_9">Cameron Williamson</h3>
@@ -33,7 +33,7 @@ const BlogComments = () => {
             </li>
             <li className="cs_comment_body position-relative">
                 <div className="cs_comment_thumbnail">
-                <img src={`${import.meta.env.BASE_URL}img/avatar_11.jpg`} alt="Image" />
+                <img src={`${import.meta.env.BASE_URL}img/avatar_11.avif`} alt="Image" />
                 </div>
                 <div className="cs_comment_info">
                 <h3 className="cs_fs_20 cs_semibold cs_mb_9">Darlene Robertson</h3>

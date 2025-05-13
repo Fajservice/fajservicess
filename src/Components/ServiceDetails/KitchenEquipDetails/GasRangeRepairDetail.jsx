@@ -127,7 +127,7 @@ const GasRangeDetail = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
+            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30">Do you want an Gas Range repair that does not cause a fortune?</h2>
             <p>Are you having trouble finding reliable gas cooker repair services? Now worry not. FAJ Technical Services provides the best cooker repair and maintenance services. We are a top provider of cooker repair and maintenance services. We are a dependable and trustworthy partner for people and companies looking for professional solutions for their gas cooker-related needs. Trust us for cooker repairs because we have made a strong commitment to quality and customer satisfaction.</p>
 
@@ -149,7 +149,7 @@ const GasRangeDetail = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/reem-ac-service.jpg`} alt="Gas Cooker Repair" /> */}
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/reem-ac-service.avif`} alt="Gas Cooker Repair" /> */}
                 <h3 className="cs_fs_24 mb-1">Gas Range Repair Nearby You</h3>
 
                 <p className="mb-2">
@@ -170,8 +170,8 @@ const GasRangeDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.jpg`} alt="Gas Cooker Repair" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/kitchen-equipment.jpg`} alt="Gas Cooker Repair" />
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Gas Cooker Repair" /> */}
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/kitchen-equipment.avif`} alt="Gas Cooker Repair" />
 
               </div>
             </div>
@@ -505,7 +505,7 @@ const GasRangeDetail = ({ subtitle, title, bgImg }) => {
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.jpg`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
@@ -542,7 +542,7 @@ const GasRangeDetail = ({ subtitle, title, bgImg }) => {
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.jpg`} alt="FAJ icon service" />
+                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
               </div>
             </div>
           </div>
@@ -810,7 +810,7 @@ const GasRangeDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Gas Cooker Repair" />
+                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.avif`} alt="Gas Cooker Repair" />
                 </div>
               </div>
               <div className="col-lg-4">

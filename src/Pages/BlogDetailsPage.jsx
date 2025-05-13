@@ -94,7 +94,7 @@ const BlogDetailsPage = () => {
     return (
         <div>
              <BreadCumb
-                bgImg="img/page_heading_1.jpg"
+                bgImg="img/page_heading_1.avif"
                 Title={blogPost.title}
             ></BreadCumb> 
             <BlogDetails></BlogDetails>     

@@ -128,7 +128,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
+            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
             <h3>Quality Cigar Humidor Cabinet Repair and Service in Dubai</h3>
             <p>Since 2010, FAJ has provided expert repair and maintenance for top cigar fridges and humidors. If your cigar cabinet fridge is not working, don't buy a new one! Our repair services in Dubai can save you money and restore your humidor to like-new condition. With years of experience, we handle issues like broken sensors, uneven humidity, and power problems. Our skilled team uses high-quality tools to fix built in cigar refrigerator from all major brands, focusing on repairs rather than replacements. </p>
 
@@ -160,8 +160,8 @@ const CigarcabnitServiceDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.jpg`} alt="Cigarcabnit Repair Service" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/cigarcabnitrepair.jpeg`} alt="Cigarcabnit Repair Service" />
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Cigarcabnit Repair Service" /> */}
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/cigarcabnitrepair.avif`} alt="Cigarcabnit Repair Service" />
 
               </div>
             </div>
@@ -177,7 +177,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, bgImg }) => {
             <p>Regular maintenance of a cigar humidor is essential for your use. It ensures the quality of the cigars, extends the lifespan of the cigar cabinet fridge, and reduces repair costs.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/cigarcabnitrepairservice.jpeg`} alt="Cigarcabnit Repair Service" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/cigarcabnitrepairservice.avif`} alt="Cigarcabnit Repair Service" />
               </div>
               <div className="col-md-6">
               <ul>
@@ -465,7 +465,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, bgImg }) => {
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.jpg`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
@@ -502,7 +502,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, bgImg }) => {
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.jpg`} alt="FAJ icon service" />
+                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
               </div>
             </div>
           </div>

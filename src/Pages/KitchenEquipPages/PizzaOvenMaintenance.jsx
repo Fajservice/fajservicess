@@ -5,7 +5,7 @@ const PizzaOvenMaintenance = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/banners/kitchen equipments/pizza-oven.jpg"
+                bgImg="img/banners/kitchen equipments/pizza-oven.avif"
                 Title="Pizza Oven Maintenance"
             ></BreadCumb> 
 

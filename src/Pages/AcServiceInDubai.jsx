@@ -6,7 +6,7 @@ const AcServiceInDubai = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/banners/ac-service.jpg"
+                bgImg="img/banners/ac-service.avif"
                 Title="Ac Service in Dubai"
             ></BreadCumb>
             <AcServiceInDubaiDetail />

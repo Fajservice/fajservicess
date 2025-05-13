@@ -151,8 +151,8 @@ const IndesitWashingMachineDetail = ({ subtitle, title, bgImg }) => {
             </div>
 
             <div className="col-md-6 ">
-              {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
-              <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.jpg`} alt="Post Image" />
+              {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Post Image" /> */}
+              <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} alt="Post Image" />
             </div>
           </div>
           <AppliancesAppointmentCol></AppliancesAppointmentCol>
@@ -415,7 +415,7 @@ const IndesitWashingMachineDetail = ({ subtitle, title, bgImg }) => {
 
             {/* <!-- Delimit Section --> */}
             <div className="uspdelimit col-2 d-none d-xl-block">
-              <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.jpg`} alt="FAJ icon service" />
+              <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
             </div>
 
             {/* <!-- Second Column --> */}
@@ -452,7 +452,7 @@ const IndesitWashingMachineDetail = ({ subtitle, title, bgImg }) => {
 
             {/* <!-- Delimit mobile --> */}
             <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-              <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.jpg`} alt="FAJ icon service" />
+              <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
             </div>
           </div>
         </div>

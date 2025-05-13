@@ -87,7 +87,7 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
+            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
             <p>F A J Technical Services L.L.C is a leading AC repair company in Dubai, providing reliable air conditioner services tailored to the UAE's hot climate.
               <br />
@@ -112,14 +112,14 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row g-5">
               <div className="col-md-6">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-repair.jpg`} alt="Post Image" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-repair.avif`} alt="Post Image" />
                 <h3 className="cs_fs_24 mb-1 mt-3">Select Air Conditioner Repair & Service</h3>
                 <p>We understand the urgency of responding promptly when an air conditioner failure impacts your critical cooling system, especially when people depend on it. Our expert and experienced AC technicians are dedicated to delivering the best AC repair and service in Dubai.</p>
                 <p>Choose FAJ for professional AC repair and maintenance for both residential and commercial units in your area.</p>
               </div>
 
               <div className="col-md-6 border-small-left">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-repair-2.jpg`} alt="Post Image" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-repair-2.avif`} alt="Post Image" />
                 <h3 className="cs_fs_24 mb-1 mt-3">Top Signs Need An AC Repair in Dubai</h3>
                 <p>When you realize your air conditioner isn't working well in the summer, it can be frustrating. Minor signs are often overlooked, but they can lead to major problems that require repairs, especially in Dubai's heat.</p>
                 <ul>
@@ -172,7 +172,7 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg }) => {
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/ac-repair-3.jpg`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/ac-repair-3.avif`} alt="Post Image" />
               </div>
               <div className="col-md-6">
               
@@ -469,7 +469,7 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg }) => {
                 </ul>
               </div>
               <div className="col-md-6 text-center text-md-end">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance-in-Dubai.jpeg`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance-in-Dubai.avif`} alt="Post Image" />
               </div>
             </div>
           </div>
@@ -604,7 +604,7 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Post Image" />
+                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.avif`} alt="Post Image" />
                 </div>
               </div>
               <div className="col-lg-4">

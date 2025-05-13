@@ -5,7 +5,7 @@ const ProjectPage = () => {
     return (
         <div>
             <BreadCumb
-                bgImg="img/page_heading_1.jpg"
+                bgImg="img/page_heading_1.avif"
                 Title="Project"
             ></BreadCumb>   
             <Project3></Project3>

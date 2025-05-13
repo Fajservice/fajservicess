@@ -5,7 +5,7 @@ const PortfolioPage = () => {
     return (
         <div>
            <BreadCumb
-                bgImg="img/banners/Portfolio.jpg"
+                bgImg="img/banners/Portfolio.avif"
                 Title="Our Portfolio"
             ></BreadCumb>     
             <PortfolioDetail />      

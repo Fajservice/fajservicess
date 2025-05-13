@@ -38,7 +38,7 @@ const ColdRoomRepair = () => {
                     <div className="row cs_row_gap_30 cs_gap_y_60">
                         <div className="col-xl-8 col-lg-7">
                             <div className="cs_service_details">
-                                {/* <img src={`${import.meta.env.BASE_URL}img/cold-room-repair-banner.jpg`} alt="Service Banner" /> */}
+                                {/* <img src={`${import.meta.env.BASE_URL}img/cold-room-repair-banner.avif`} alt="Service Banner" /> */}
                                 <h2 className="cs_fs_30">Cold Room Repair</h2>
                                 <p>Is your existing cold room getting old or acting wary? You might be thinking of a replacement but it might cost a fortune. This is where FAJ comes in. Need not to worry, as our diverse and experienced range of services has got you covered. Confused about “cold room service near me”, then you’ve landed on the right page. Give us a call to book our technicians for your freezer repair inspection so we can carry out cold room repair, refurbishment and maintenance services. Being used in super markets, restaurants, butcheries, hotels, hospitals, etc it is essential to conduct periodic maintenance. With our decades of experience in UAE and Dubai, we ensure that all your cold room repair and service solutions are resolved under the same roof. With our highly skilled and trained team of cold room technicians, you can trust our services with complete trust and reliability.</p>
                                 <div id="get-quote" className="mb-5 mt-3">
@@ -49,12 +49,12 @@ const ColdRoomRepair = () => {
                                 </div>
                                 <div className="row">
                                     <div className="col-md-6">
-                                        <img src={`${import.meta.env.BASE_URL}img/Cold-Room-Door-Repair.jpg`} alt="Post Image" />
+                                        <img src={`${import.meta.env.BASE_URL}img/Cold-Room-Door-Repair.avif`} alt="Post Image" />
                                         <h3 className="cs_fs_24">Cold Room Door Repair</h3>
                                         <p>With a focus on Cold Room Door Repair, FAJ Technical Services provides quick and effective solutions to guarantee the best possible performance from your cold storage units. Our knowledgeable technicians are proficient in identifying and resolving problems with cold room doors, including malfunctioning hinges, seals, or electrical parts. In order to reduce temperature swings and protect the integrity of stored goods, we place a high priority on timely repairs. You can rely on us to provide dependable service that will enhance the smooth functioning of your cold rooms and preserve the product quality and safety. Cold rooms are designed to maintain temperature ranges between 15°C to – 40°C, therefore any failure could cause havoc.</p>
                                     </div>
                                     <div className="col-md-6">
-                                        <img src={`${import.meta.env.BASE_URL}img/Cold-Room-Repairs-and-Maintenance-Services.jpg`} alt="Post Image" />
+                                        <img src={`${import.meta.env.BASE_URL}img/Cold-Room-Repairs-and-Maintenance-Services.avif`} alt="Post Image" />
                                         <h3 className="cs_fs_24">Cold Room Repairs and Maintenance Services</h3>
                                         <p>Let us guide you on why cold room repairs and maintenance is essential for optimal cooling and freezing operations. A cold room repair process involves recognizing any issues that are causing the temperature deviations from the desired range. If not done timely, it might lead to issues such as PCB failures, low or no cooling, over cooling, gas leakages, mechanical malfunctions, door hinge breakages or losing and revenue loss. In addition, an unserviced cold room will lead to a lower operational life and increased energy usage. UAE and Dubai being energy efficient states, we will ensure that your cold room freezer and chillers keep working in top notch conditions.</p>
                                     </div>
@@ -69,7 +69,7 @@ const ColdRoomRepair = () => {
                 <p>Ready to Beat the Heat? Look no further! Find the best AC Repair in Dubai and keep yourself cool all summer long. Our expert AC technicians ensure fast, reliable services to get your AC up and running.Our service guarantees a comfortable home or office environment, even during the scorching heat of Dubai. Plus, with our affordable rates and transparent pricing, you can trust that you're getting the best value for your money.Don't suffer through another day of sweltering temperatures. Click below to schedule your AC repair and maintenance now and experience instant relief! Stay cool, Dubai!</p> */}
                                 <div className="row">
                                     <div className="col-xl-6">
-                                        <img src={`${import.meta.env.BASE_URL}img/cold-room.png`} alt="Post Image" />
+                                        <img src={`${import.meta.env.BASE_URL}img/cold-room.avif`} alt="Post Image" />
                                         
                                         <p>Majority of service providers in this field are either inexperienced or way too expensive. Without compromising quality, we provide the most cost effective cold room maintenance solutions to our valued clients. Our highly trained technicians are fully equipped with extensive knowledge, experience and vital tools to carry out extremely complex and all kinds of cold room repairs. In order to offer cold room repair services, one must deeply understand cold room refrigeration systems.</p>
                                     </div>
@@ -88,7 +88,7 @@ const ColdRoomRepair = () => {
                                 </div>
                                 <h3 className="cs_fs_24">Reliable Solution to every type of cold room</h3>
                                 <p>In case of a breakdown, malfunctioning or an improper functioning cold room unit feel free to reach us through our helplines, Whatsapp or contact form. Our team works 7 days a week to ensure timely, efficient and swift responses to all types of cold room.</p>
-                                <img src={`${import.meta.env.BASE_URL}img/Reliable-Solution-to-every-type-of-cold-room.jpg`} alt="Post Image" />
+                                <img src={`${import.meta.env.BASE_URL}img/Reliable-Solution-to-every-type-of-cold-room.avif`} alt="Post Image" />
 
                                 <h4 className="cs_fs_20">Walk in cooler</h4>
                                 <p>FAJ Technical Services ensures the seamless operation of your walk-in cooler with expert repairs. Our technicians address issues promptly, preserving the optimal temperature for your stored goods. Trust us for efficient and reliable walk-in cooler repairs, contributing to the longevity and efficiency of your cooling unit.</p>

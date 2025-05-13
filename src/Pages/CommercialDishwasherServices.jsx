@@ -5,7 +5,7 @@ const CommercialDishwasherServices = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/banners/Commercial Dishwasher Services/Commercial-Dishwasher-Services.jpg"
+                bgImg="img/banners/Commercial Dishwasher Services/Commercial-Dishwasher-Services.avif"
                 Title="Commercial Dishwasher Repair"
             ></BreadCumb> 
 

@@ -90,7 +90,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
+            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30" style={{ fontSize: "25px" }}>SELECT FAJ EXPERTS FOR A TAILORED COOLING SOLUTION THAT FITS YOUR SPACE PERFECTLY!</h2>
             <p>
               F A J Technical Services L.L.C is a top AC maintenance company in Dubai, offering reliable AC services tailored for the UAE's hot climate. Our trained professionals are dedicated to ensuring a comfortable environment for living, learning, working, and playing. If your air conditioning system fails, we are here to help. Trust FAJ for all your AC maintenance and repair needs in Dubai.
@@ -114,7 +114,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/reem-ac-service.jpg`} alt="Post Image" /> */}
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/reem-ac-service.avif`} alt="Post Image" /> */}
                 <h3 className="cs_fs_24 mb-1">AC Maintenance for the Best Cooling</h3>
 
                 <p className="mb-2">Regular AC maintenance in Dubai is essential to ensure that your air conditioner unit continues to function properly. Over time, filters and coils can become dirty and clogged, leading to a decline in cooling performance.</p>
@@ -145,8 +145,8 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-repair-2.jpg`} alt="Post Image" />
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Post Image" /> */}
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-repair-2.avif`} alt="Post Image" />
 
               </div>
             </div>
@@ -179,8 +179,8 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.jpg`} alt="Post Image" />
-                {/* <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance-in-Dubai.jpeg`} alt="Post Image" /> */}
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Post Image" />
+                {/* <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance-in-Dubai.avif`} alt="Post Image" /> */}
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -472,7 +472,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Post Image" />
+                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.avif`} alt="Post Image" />
                 </div>
               </div>
               <div className="col-lg-4">

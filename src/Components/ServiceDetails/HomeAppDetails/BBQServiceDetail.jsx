@@ -131,7 +131,7 @@ const BBQServiceDetail = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
+            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30">A Quality Service for BBQ Grill Maintenance and Repair in Dubai</h2>
             <p>FAJ has been providing reliable barbecue grill repair, maintenance, and cleaning services in Dubai and Sharjah since 2010. Our quick barbeque grill repair service near you helps you get your BBQ grill back in working order so you can enjoy cooking your favourite meals. If your barbecue is malfunctioning, please contact our customer service. The gas or electric barbecue grill may require repairs due to performance issues that affect cooking quality or pose safety risks.</p>
 
@@ -161,8 +161,8 @@ const BBQServiceDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.jpg`} alt="BBQ Repair Service" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Barbeque-Repair.jpg`} alt="BBQ Repair Service" />
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="BBQ Repair Service" /> */}
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Barbeque-Repair.avif`} alt="BBQ Repair Service" />
 
               </div>
             </div>
@@ -178,7 +178,7 @@ const BBQServiceDetail = ({ subtitle, title, bgImg }) => {
             <p>Grilling is more than just cooking; it's a lifestyle. To fully enjoy barbecued delights, proper grill maintenance is essential, as a well-kept grill is key to a perfect barbecue.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Barbeque-Repairs-services.jpg`} alt="BBQ Repair Service" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Barbeque-Repairs-services.avif`} alt="BBQ Repair Service" />
               </div>
               <div className="col-md-6">
               <ul>
@@ -402,7 +402,7 @@ const BBQServiceDetail = ({ subtitle, title, bgImg }) => {
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.jpg`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
@@ -439,7 +439,7 @@ const BBQServiceDetail = ({ subtitle, title, bgImg }) => {
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.jpg`} alt="FAJ icon service" />
+                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
               </div>
             </div>
           </div>

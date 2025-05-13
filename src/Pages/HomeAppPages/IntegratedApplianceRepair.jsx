@@ -5,7 +5,7 @@ const IntegratedApplianceRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/banners/built-in-appliances.jpg"
+                bgImg="img/banners/built-in-appliances.avif"
                 Title="Built-in Appliances Repair Service Dubai"
             ></BreadCumb> 
             <IntegratedApplianceRepairDetail></IntegratedApplianceRepairDetail>

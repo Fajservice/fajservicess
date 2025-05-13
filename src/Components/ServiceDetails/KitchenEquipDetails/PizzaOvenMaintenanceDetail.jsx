@@ -127,7 +127,7 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
+            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30">Do you want an Pizza Oven repair that does not cause a fortune?</h2>
             <p>Do you want a pizza oven maintenance that is pocket friendly? FAJ Technical Services LLC are experts in repairing and maintaining services. Being the top experts in pizza oven repair, we do it with perfection. Our knowledgeable technicians make sure your pizza oven runs smoothly and produces the deliciously crispy crusts and cheesy treats you want. For excellent repairs that improve your pizza experience, trust FAJ Technical Services LLC. We care about the quality of your appliances.</p>
 
@@ -149,7 +149,7 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/reem-ac-service.jpg`} alt="Pizza Oven Maintenance" /> */}
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/reem-ac-service.avif`} alt="Pizza Oven Maintenance" /> */}
                 <h3 className="cs_fs_24 mb-1">Pizza Oven Repair Nearby You</h3>
 
                 <p className="mb-2">
@@ -170,8 +170,8 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.jpg`} alt="Pizza Oven Maintenance" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/kitchen-equipment.jpg`} alt="Pizza Oven Maintenance" />
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Pizza Oven Maintenance" /> */}
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/kitchen-equipment.avif`} alt="Pizza Oven Maintenance" />
 
               </div>
             </div>
@@ -198,7 +198,7 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
             <p>FAJ Technical Services has a top-notch pizza oven service. Our team of skilled technicians is expert at handling a wide range of gas pizza oven repair problems. We can help with everything from electrical problems to inconsistent heating. We are aware of how important it is to keep your pizza oven working, and our devoted staff is committed to offering timely and effective repair services. If you are searching for pizza oven repair near me, then stop wasting your time. You can rely on us to get reliable solutions that guarantee your pizza oven operates at its peak efficiency and consistently produces perfectly cooked pizzas.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Hob-Repair-Service-in-Dubai-UAE.jpeg`} alt="Pizza Oven Maintenance" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Hob-Repair-Service-in-Dubai-UAE.avif`} alt="Pizza Oven Maintenance" />
               </div>
               <div className="col-md-6">
                 <h4>Expert Pizza Oven technician</h4>
@@ -497,7 +497,7 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.jpg`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
@@ -534,7 +534,7 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.jpg`} alt="FAJ icon service" />
+                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
               </div>
             </div>
           </div>
@@ -802,7 +802,7 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Pizza Oven Maintenance" />
+                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.avif`} alt="Pizza Oven Maintenance" />
                 </div>
               </div>
               <div className="col-lg-4">

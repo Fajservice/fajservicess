@@ -77,7 +77,7 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
+            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
             <p>F A J Technical Services L.L.C is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
               <br />
@@ -123,7 +123,7 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
                       </div>
 
                     <div className="col-md-6">
-                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.jpg`} alt="Samsung Ac Repair" />
+                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Samsung Ac Repair" />
                         
                     </div>
                 </div>
@@ -161,8 +161,8 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
                 </ul>
               </div>
               <div className="col-md-6">
-                {/* <img className="blue-border" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.jpg`} alt="Post Image" /> */}
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/fujitsu-ac-service.jpg`} alt="Samsung Ac Repair" />
+                {/* <img className="blue-border" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Post Image" /> */}
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/fujitsu-ac-service.avif`} alt="Samsung Ac Repair" />
               </div>
             </div>
           </div>
@@ -304,7 +304,7 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
                     <div className="col-lg-4">
                         <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                            <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Post Image" />
+                            <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.avif`} alt="Post Image" />
                         </div>
                     </div>
                     <div className="col-lg-4">

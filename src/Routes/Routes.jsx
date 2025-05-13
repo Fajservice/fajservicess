@@ -193,6 +193,7 @@ import IndesitWashingMachine from "../Pages/AppliancesPage/AppliancesBrand/Indes
 import AcRepairInDownTown from "../Pages/AcPages/AcLocation/AcRepairInDowntown.jsx";
 import PortfolioPage from "../Pages/PortfolioPage.jsx";
 import CigarcabnitService from "../Pages/HomeAppPages/CigarcabnitService.jsx";
+import { Navigate } from "react-router-dom";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -205,6 +206,10 @@ export const router = createBrowserRouter([
       {
         path: "/about-us/",
         element: <AboutPage></AboutPage>,
+      },
+      {
+        path: "*",
+        element: <Navigate to="/" replace />,
       },
       {
         path: "/services/",

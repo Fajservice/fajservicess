@@ -9,7 +9,7 @@ const Footer2 = () => {
       }, []);
 
     return (
-        <footer className="cs_footer cs_style_1 cs_type_1 cs_bg_filed cs_heading_bg" data-background="img/footer_bg_2.jpg">
+        <footer className="cs_footer cs_style_1 cs_type_1 cs_bg_filed cs_heading_bg" data-background="img/footer_bg_2.avif">
         <div className="container">
           <div className="cs_footer_top">
             <ul className="cs_footer_contact_info_list cs_mp_0">
@@ -129,7 +129,7 @@ const Footer2 = () => {
                     <li>
                       <div className="cs_recent_post">
                         <Link to="/blog/blog-details" className="cs_recent_post_thumb">
-                          <img src="/assets/img/recent_post_1.jpg" alt="Recent Post Image" />
+                          <img src="/assets/img/recent_post_1.avif" alt="Recent Post Image" />
                         </Link>
                         <div className="cs_recent_post_right">
                           <h3 className="cs_white_color cs_fs_16 cs_medium cs_mb_5">
@@ -143,7 +143,7 @@ const Footer2 = () => {
                     <li>
                       <div className="cs_recent_post">
                         <Link to="/blog/blog-details" className="cs_recent_post_thumb">
-                          <img src="/assets/img/recent_post_2.jpg" alt="Recent Post Image" />
+                          <img src="/assets/img/recent_post_2.avif" alt="Recent Post Image" />
                         </Link>
                         <div className="cs_recent_post_right">
                           <h3 className="cs_white_color cs_fs_16 cs_medium cs_mb_5">

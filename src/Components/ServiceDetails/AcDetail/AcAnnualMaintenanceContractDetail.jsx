@@ -87,7 +87,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.jpeg`} alt="Service Banner" /> */}
+            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30">Essential Air Conditioner Maintenance Contract Services</h2>
 
             <p>
@@ -114,7 +114,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/reem-ac-service.jpg`} alt="Post Image" /> */}
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/reem-ac-service.avif`} alt="Post Image" /> */}
                 <h3 className="cs_fs_24 mb-1">Annual AC Maintenance Contract - AMC </h3>
                 <p className="mb-2">
                   Ensure consistent efficiency for your AC system with an Annual Maintenance Contract (AMC).
@@ -127,7 +127,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Select-Air-Conditioner-Repair-&-Service.jpg`} alt="Post Image" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Select-Air-Conditioner-Repair-&-Service.avif`} alt="Post Image" />
               </div>
             </div>
 
@@ -167,7 +167,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Peace-of-Mind-with-Annual-Maintenance-Contracts.jpg`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Peace-of-Mind-with-Annual-Maintenance-Contracts.avif`} alt="Post Image" />
               </div>
               <div className="col-md-6">
                 <p className="mb-0">
@@ -307,7 +307,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
             <h3 className="cs_fs_30">The Importance of AC Maintenance Contract Service</h3>
             <div className="row">
               <div className="col-xl-6">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-repair-2.jpg`} alt="Post Image" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-repair-2.avif`} alt="Post Image" />
               </div>
               <div className="col-xl-6">
                 <ul>
@@ -350,7 +350,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
                 </ul>
               </div>
               <div className="col-md-6 text-center text-md-end">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/The-Importance-of-AC-Maintenance-Contract-Service.jpg`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/The-Importance-of-AC-Maintenance-Contract-Service.avif`} alt="Post Image" />
               </div>
             </div>
           </div>
@@ -500,7 +500,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Post Image" />
+                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.avif`} alt="Post Image" />
                 </div>
               </div>
               <div className="col-lg-4">

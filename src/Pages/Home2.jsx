@@ -15,7 +15,7 @@ const Home2 = () => {
     return (
         <div className="homepage2">
             <HeroBanner2
-                bgimg="img/hero_bg_1.jpg"
+                bgimg="img/hero_bg_1.avif"
                 subtitle="Battery Check & Replace"
                 title="Your Car’s Health is Our Mission"
                 conetnt="Repair times vary depending on the service, but most
@@ -25,8 +25,8 @@ const Home2 = () => {
                 videoname="Watch Our Story"
             ></HeroBanner2>
             <About2
-                img1="img/about_img_4.jpg"
-                img2="img/about_img_5.jpg"
+                img1="img/about_img_4.avif"
+                img2="img/about_img_5.avif"
                 expNumber="58"
                 expTitle="EXPER"
                 exYear="STA 1980"
@@ -37,7 +37,7 @@ const Home2 = () => {
                 boxContent1="Squeaking, grinding noises, or a soft brake pedal are common signs Kind warranty on most services."
                 box2="Engine Diagnostics"
                 boxContent2="Slow engine crank, dim headlights, and a battery warning light are kinds typical signs."
-                avatar="img/avatar_1.png"
+                avatar="img/avatar_1.avif"
                 name="Ronald Richards"
                 designation="Founder CEO"
             ></About2>

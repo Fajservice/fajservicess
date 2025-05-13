@@ -48,8 +48,8 @@ const WhyChooseUS = () => {
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
               
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/ACServicescomponent.jpg`} alt="FAJ icon service" />
-                {/* <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.jpg`} alt="FAJ icon service" /> */}
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/ACServicescomponent.avif`} alt="FAJ icon service" />
+                {/* <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" /> */}
               </div>
 
               {/* <!-- Second Column --> */}
@@ -89,7 +89,7 @@ const WhyChooseUS = () => {
 
               {/* <!-- Delimit mobile --> */}
               {/* <div className="col-12 uspdelimit w-100 text-center d-block d-none-769 Xd-xl-none">
-                <img className="blue-border-2 w-100" src={`${import.meta.env.BASE_URL}img/fajteam.jpg`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
 
 
               </div> */}
@@ -97,7 +97,7 @@ const WhyChooseUS = () => {
             </div>
             {/* <!-- Delimit mobile --> */}
             <div className="col-12 uspdelimit w-100 text-center d-block d-none-1199 Xd-xl-none">
-                <img className="blue-border-2 w-100" src={`${import.meta.env.BASE_URL}img/fajteam.jpg`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
 
 
               </div>

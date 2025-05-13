@@ -16,15 +16,15 @@ const Home = () => {
         <Helmet>
             <title>FAJ / AC Repair In Dubai - Freezer Service Appliances Fix</title>
             <meta name="description" content="FAJ Established in 2010, / We offer professional AC Repair, Freezer, Refrigerator, Fridge, Washing Machine Maintenance Service Company Dubai"/>
-            <link rel="icon" href="/assets/images/icons/FAJ-Logo.png" sizes="32x32"></link>
-            <link rel="icon" href="/assets/images/icons/FAJ-Logo.png" sizes="192x192"></link>
+            <link rel="icon" href="/assets/images/icons/FAJ-Logo.avif" sizes="32x32"></link>
+            <link rel="icon" href="/assets/images/icons/FAJ-Logo.avif" sizes="192x192"></link>
         </Helmet>
         <div className="homepage">
             <HeroBanner1></HeroBanner1>
             <About1
-                img1="img/about_img_1.jpg"
-                img2="img/about_img_2.jpg"
-                img3="img/about_img_3.jpg"
+                img1="img/about_img_1.avif"
+                img2="img/about_img_2.avif"
+                img3="img/about_img_3.avif"
                 expNumber="FAJ"
                 expYers="was established"
                 expTitle="Since"
@@ -52,16 +52,16 @@ const Home = () => {
                 content="Squeaking, grinding noises, or a spongy brake pedal are car common indicators that your brakes need attention Slow an  engine cranking."
                 btnName="Read more"
                 btnUrl="about-us/"
-                img2="img/whywechoose2.jpg"
-                img3="img/whychooseus.jpg"
+                img2="img/whywechoose2.avif"
+                img3="img/whychooseus.avif"
             ></Choose1>
             <BeforeAfter 
                 title="Recent Completed Projects"
                 subTitle="Before & after"
-                bgImg="img/background-image-2.jpg"
-                beforeImg="img/after_img_1.jpg"
+                bgImg="img/background-image-2.avif"
+                beforeImg="img/after_img_1.avif"
                 afterTitle="After"
-                afterImg="img/before_img_1.jpg"
+                afterImg="img/before_img_1.avif"
                 beforeTitle="Before"
             ></BeforeAfter>
             <Project1></Project1>
@@ -76,7 +76,7 @@ const Home = () => {
                 number1="+971 50 746 4712"
                 number1Link="tel:+971507464712"
                 clientNumber="5,400"
-                img="img/contact-us-image.jpg"
+                img="img/contact-us-image.avif"
                 client="Happy Clients"
                 subtitle2="Contact us"
                 title2="Book An Appointment"

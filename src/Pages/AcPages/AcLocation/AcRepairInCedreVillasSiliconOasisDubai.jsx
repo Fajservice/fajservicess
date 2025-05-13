@@ -5,7 +5,7 @@ const AcRepairInCedreVillasSiliconOasisDubai = () => {
   return (
     <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/air-condition.jpg"
+        bgImg="img/air-condition.avif"
         Title="AC Service in Cedre Villas Silicon Oasis Dubai"
     ></BreadCumb>
     <AcRepairInCedreVillasSiliconOasisDubaiDetail />

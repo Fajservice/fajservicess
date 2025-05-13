@@ -5,7 +5,7 @@ const IceMakerRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/banners/Refrigeration Equipment Services/Ice-Maker-Repair.jpg"
+                bgImg="img/banners/Refrigeration Equipment Services/Ice-Maker-Repair.avif"
                 Title="Ice Maker Repair – Ice Machine Service "
             ></BreadCumb> 
 

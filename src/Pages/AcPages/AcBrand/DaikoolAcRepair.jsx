@@ -5,8 +5,8 @@ const DaikoolAcRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/acbrands/Daikool-AC-bg.jpg"
-                // bgImg="img/ac_service-bannerbg.jpg"
+                bgImg="img/acbrands/Daikool-AC-bg.avif"
+                // bgImg="img/ac_service-bannerbg.avif"
                 Title="Daikool AC Repair in Dubai - Air Conditioning Service Near Me"
             ></BreadCumb> 
             <DaikoolAcRepairDetail></DaikoolAcRepairDetail>           

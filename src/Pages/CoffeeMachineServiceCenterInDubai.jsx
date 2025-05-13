@@ -5,7 +5,7 @@ const CoffeeMachineServiceCenterInDubai = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/banners/coffee-machine-services.jpg"
+                bgImg="img/banners/coffee-machine-services.avif"
                 Title="Coffee Machine Service Center in Dubai "
             ></BreadCumb> 
 

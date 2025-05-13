@@ -5,8 +5,8 @@ const AftronAcRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/acbrands/Aftron-AC-bg.jpg"
-                // bgImg="img/ac_service-bannerbg.jpg"
+                bgImg="img/acbrands/Aftron-AC-bg.avif"
+                // bgImg="img/ac_service-bannerbg.avif"
                 Title="Aftron AC Repair Maintenance Service In Dubai"
             ></BreadCumb> 
             <AftronAcRepairDetail></AftronAcRepairDetail>           

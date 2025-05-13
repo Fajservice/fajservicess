@@ -141,7 +141,7 @@ const DeepFryerServiceDetail = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/reem-ac-service.jpg`} alt="Deep Fryer Service" /> */}
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/reem-ac-service.avif`} alt="Deep Fryer Service" /> */}
                 <h3 className="cs_fs_24 mb-1">Deep Fryer Repair Nearby You</h3>
 
                 <p className="mb-2">
@@ -160,8 +160,8 @@ const DeepFryerServiceDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.jpg`} alt="Deep Fryer Service" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/commercial-deep-fryer.jpg`} alt="Deep Fryer Service" />
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Deep Fryer Service" /> */}
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/commercial-deep-fryer.avif`} alt="Deep Fryer Service" />
 
               </div>
             </div>
@@ -188,7 +188,7 @@ const DeepFryerServiceDetail = ({ subtitle, title, bgImg }) => {
             <p>We provide deep fryer repair services that meet your unique requirements. Our expert team is committed to making sure your deep fryer runs well and keeps your kitchen operating efficiently. We stay in constant communication with our clients during the repair process because we value their feedback and openness. We can handle any issues related to your commercial gas deep fryer repair. You can rely on us to provide excellent fryer repair services and long term solutions. Our goal is your satisfaction. Choose FAJ Technical Services because we provide sustainability and effectiveness.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Hob-Repair-Service-in-Dubai-UAE.jpeg`} alt="Deep Fryer Service" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Hob-Repair-Service-in-Dubai-UAE.avif`} alt="Deep Fryer Service" />
               </div>
               <div className="col-md-6">
                 <h4>Signs you need commercial fryer repair</h4>
@@ -497,7 +497,7 @@ const DeepFryerServiceDetail = ({ subtitle, title, bgImg }) => {
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.jpg`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
@@ -534,7 +534,7 @@ const DeepFryerServiceDetail = ({ subtitle, title, bgImg }) => {
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.jpg`} alt="FAJ icon service" />
+                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
               </div>
             </div>
           </div>
@@ -802,7 +802,7 @@ const DeepFryerServiceDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Deep Fryer Service" />
+                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.avif`} alt="Deep Fryer Service" />
                 </div>
               </div>
               <div className="col-lg-4">

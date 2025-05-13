@@ -5,8 +5,8 @@ const AcRepairDubai = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                // bgImg="img/page_heading_1.jpg"
-                bgImg="img/banners/ac-repair.jpg"
+                // bgImg="img/page_heading_1.avif"
+                bgImg="img/banners/ac-repair.avif"
                 Title="AC Repair in Dubai - AC Maintenance and Service Available Near You"
             ></BreadCumb> 
             <AcRepairDubaiDetail></AcRepairDubaiDetail>

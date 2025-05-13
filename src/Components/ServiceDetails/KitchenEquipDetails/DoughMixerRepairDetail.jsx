@@ -141,7 +141,7 @@ const DoughMixerRepairDetail = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/reem-ac-service.jpg`} alt="Dough Mixer Repair" /> */}
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/reem-ac-service.avif`} alt="Dough Mixer Repair" /> */}
                 <h3 className="cs_fs_24 mb-1">Dough Mixer Repair Nearby You</h3>
 
                 <p className="mb-2">
@@ -160,8 +160,8 @@ const DoughMixerRepairDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.jpg`} alt="Dough Mixer Repair" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/dough-mixer-repair.png`} alt="Dough Mixer Repair" />
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Dough Mixer Repair" /> */}
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/dough-mixer-repair.avif`} alt="Dough Mixer Repair" />
 
               </div>
             </div>
@@ -188,7 +188,7 @@ const DoughMixerRepairDetail = ({ subtitle, title, bgImg }) => {
             <p>A commercial dough mixer, also called food mixer, blends a number of ingredients together to make cookies, cakes, muffins, breads, desserts, and other foods in your kitchens. Because of their versatility, they have become a favorite tool for people in the food businesses. They are motorized mixers which are used to mix things rather than cook food. Being a piece of electronics they are prone to failures and we are always here for your commercial dough mixer repair solutions. We are your best bet for your dough mixer repair solutions.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Hob-Repair-Service-in-Dubai-UAE.jpeg`} alt="Dough Mixer Repair" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Hob-Repair-Service-in-Dubai-UAE.avif`} alt="Dough Mixer Repair" />
               </div>
               <div className="col-md-6">
                 <h4>Repair or Replace. Which is better?</h4>
@@ -498,7 +498,7 @@ const DoughMixerRepairDetail = ({ subtitle, title, bgImg }) => {
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.jpg`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
@@ -535,7 +535,7 @@ const DoughMixerRepairDetail = ({ subtitle, title, bgImg }) => {
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.jpg`} alt="FAJ icon service" />
+                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
               </div>
             </div>
           </div>
@@ -803,7 +803,7 @@ const DoughMixerRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Dough Mixer Repair" />
+                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.avif`} alt="Dough Mixer Repair" />
                 </div>
               </div>
               <div className="col-lg-4">

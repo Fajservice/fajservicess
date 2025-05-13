@@ -7,7 +7,7 @@ const ContactPage = () => {
     return (
         <div>
             <BreadCumb
-                bgImg="img/page_heading_1.jpg"
+                bgImg="img/page_heading_1.avif"
                 Title="Contact"
             ></BreadCumb> 
             <Contact1
@@ -21,7 +21,7 @@ const ContactPage = () => {
                 number1="+971 50 746 4712"
                 number1Link="tel:+971507464712"
                 clientNumber="5,400"
-                img="img/contact-us-image.jpg"
+                img="img/contact-us-image.avif"
                 client="Happy Clients"
                 subtitle2="Contact us"
                 title2="Book An Appointment"

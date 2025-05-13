@@ -5,8 +5,8 @@ const BlueStarAcRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/acbrands/Blue-star-ac-bg.jpg"
-                // bgImg="img/ac_service-bannerbg.jpg"
+                bgImg="img/acbrands/Blue-star-ac-bg.avif"
+                // bgImg="img/ac_service-bannerbg.avif"
                 Title="Blue Star AC Repair Dubai - AC Maintenance Services"
             ></BreadCumb> 
             <BlueStarAcRepairDetail></BlueStarAcRepairDetail>           

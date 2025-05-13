@@ -142,7 +142,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/reem-ac-service.jpg`} alt="Meat Grinder Repair" /> */}
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/reem-ac-service.avif`} alt="Meat Grinder Repair" /> */}
                 <h3 className="cs_fs_24 mb-1">Meat Grinder Repair Nearby You</h3>
 
                 <p className="mb-2">
@@ -161,8 +161,8 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.jpg`} alt="Meat Grinder Repair" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/meat-grinder-repair.jpeg`} alt="Meat Grinder Repair" />
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Meat Grinder Repair" /> */}
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/meat-grinder-repair.avif`} alt="Meat Grinder Repair" />
 
               </div>
             </div>
@@ -189,7 +189,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
             <p>There's no need to search any farther if you're looking for a reliable meat mixer repair service in your area. FAJ is your go-to local provider for easy and quick appliance repairs for both residential and business use. We can save you time and effort by having our staff respond to your meat grinder problems quickly—just give us a call. Whether the problem is with the motor, blade, pulley, or any other part, our skilled experts investigate its underlying causes and provide a solution that meets your needs completely.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Hob-Repair-Service-in-Dubai-UAE.jpeg`} alt="Meat Grinder Repair" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Hob-Repair-Service-in-Dubai-UAE.avif`} alt="Meat Grinder Repair" />
               </div>
               <div className="col-md-6">
                 <h4>Meat grinder maintenance service</h4>
@@ -478,7 +478,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.jpg`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
@@ -515,7 +515,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.jpg`} alt="FAJ icon service" />
+                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
               </div>
             </div>
           </div>
@@ -783,7 +783,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Meat Grinder Repair" />
+                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.avif`} alt="Meat Grinder Repair" />
                 </div>
               </div>
               <div className="col-lg-4">

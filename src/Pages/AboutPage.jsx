@@ -7,14 +7,29 @@ import Testimonial1 from "../Components/Testimonial/Testimonial1";
 const AboutPage = () => {
     return (
         <div>
-           <BreadCumb
-                bgImg="img/page_heading_1.jpg"
-                Title="About Us"
-            ></BreadCumb>            
+            <section
+                    className="cs_page_heading cs_bg_filed cs_primary_bg"
+                    style={{ backgroundImage: `url(${import.meta.env.BASE_URL}img/page_heading_1.avif)` }}
+                    >
+                    <div className="container h-100">
+                        {/* Main row */}
+                        <div className="row align-items-center h-100">
+                            <div className="col-md-12 d-flex justify-content-center align-items-center">
+                                <h1 className="cs_white_color text-center" style={{ fontSize: "clamp(1.75rem, 5vw, 2.625rem)" }}>
+                                    COMMITTED TO DELIVERING EXCELLENCE SINCE 2010
+                                </h1>
+                            </div>
+                        {/* Form section */}
+                        </div>
+                    </div>
+
+                    {/* Extra padding div to ensure proper spacing after the section */}
+                    <div className="pb-3 d-md-none"></div>
+                    </section>          
            <About1
-                img1="img/about_img_1.jpg"
-                img2="img/about_img_2.jpg"
-                img3="img/about_img_3.jpg"
+                img1="img/about_img_1.avif"
+                img2="img/about_img_2.avif"
+                img3="img/about_img_3.avif"
                 expNumber="FAJ"
                 expYers="was established"
                 expTitle="Since"
