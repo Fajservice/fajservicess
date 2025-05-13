@@ -14,15 +14,15 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
-const ElicaAppliancesServiceDetail = ({ subtitle, title, bgImg }) => {
+const AristonFrideRepairDetail = ({ subtitle, title, bgImg }) => {
 
 
   // For SEO
-  const titleSeo = "Elica Appliances Service - Elica Hob Repair - Hood Fixing";
-  const description = "To book your Elica appliances service Dubai. FAJ offering an Elica hob, stove, cooker, oven, hood, repair, maintenance and fix near me. Call 043300002";
+  const titleSeo = "Ariston Fridge Repair - Ariston Washing Machine Service";
+  const description = "Ariston Fridge Repair Dubai - We offer expert washing machines, water heaters, dishwashers, dryers, ovens, and stove repair services.";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://fajservices.com/elica-appliances-service/";
+  const URL = "https://fajservices.com/ariston-fridge-repair-in-dubai-ariston-washing-machine-repair-in-dubai-ariston-cooker-repair-in-dubai-ariston-oven-repair-in-dubai-ariston-appliances-maintenance-in-dubai-ariston-refrigerator-fix-repa/";
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -140,7 +140,7 @@ const ElicaAppliancesServiceDetail = ({ subtitle, title, bgImg }) => {
             {/* 
           <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2> */}
             <p>
-              Elica appliances are the best among the other brands out there. Still, products of the best brands even do not last endlessly. In addition, we are all sure that our appliances break down when we need them the most. Reasonably, your first reaction will be to see if your appliance is repairable. You can fix minor issues, but mostly, you cannot. So why worry? We are the best Elica appliance repair service provider in Dubai. We are the most experienced industry experts serving since 2010 in Dubai. With hands-on experience with all home appliances, you can expect successful and swift repairs from us. Elica Fridge Repair in Dubai So, contact us today to get your repair appointment. Enjoy superior Elica appliance repair with FAJ Technical Services LLC.
+              Ariston appliances are the best among the other brands out there. Still, products of the best brands even do not last endlessly. In addition, we are all sure that our appliances break down when we need them the most. Reasonably, your first reaction will be to see if your appliance is repairable. You can fix minor issues, but mostly, you cannot. So why worry? We are the best Ariston appliance repair service provider in Dubai. We are the most experienced industry experts serving since 2010 in Dubai. With hands-on experience with all home appliances, you can expect successful and swift repairs from us. Ariston Fridge Repair in Dubai So, contact us today to get your repair appointment. Enjoy superior Ariston appliance repair with FAJ Technical Services LLC.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -160,10 +160,10 @@ const ElicaAppliancesServiceDetail = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Best Elica Washing Machine Repair </h3>
+                <h3 className="cs_fs_24 mb-1">Best Ariston Washing Machine Repair </h3>
 
                 <p className="mb-2">
-                  If you need Elica Appliance Repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
+                  If you need Ariston Appliance Repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
                   <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
                   <br /> We're nearby and can get your appliances fixed quickly and efficiently.
                 </p>
@@ -184,7 +184,7 @@ const ElicaAppliancesServiceDetail = ({ subtitle, title, bgImg }) => {
         {/* The Most Common Problems with Home Appliances */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="text-center">The Most Common Problems with Elica Home Appliances   </h3>
+            <h3 className="text-center">The Most Common Problems with Ariston Home Appliances   </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
@@ -247,9 +247,9 @@ const ElicaAppliancesServiceDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
 
-            <h3 className="cs_fs_30">Why is Elica Appliance Maintenance Service Important in Dubai?</h3>
+            <h3 className="cs_fs_30">Why is Ariston Appliance Maintenance Service Important in Dubai?</h3>
             <p className="">
-              Our all-inclusive repair services include diagnosis, repairs, installations, and maintenance. That is why we are the most in-demand Elica appliances maintenance in Dubai provider.
+              Our all-inclusive repair services include diagnosis, repairs, installations, and maintenance. That is why we are the most in-demand Ariston appliances maintenance in Dubai provider.
             </p>
 
             <div className="row align-items-center">
@@ -258,9 +258,9 @@ const ElicaAppliancesServiceDetail = ({ subtitle, title, bgImg }) => {
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
-                  <li> <strong>  Elica Washing Machine Repair in Dubai:-: </strong> Regular maintenance helps appliances last longer, saving on replacement costs.</li>
-                  <li> <strong>  Elica Fridge Repair in Dubai: </strong> we are fully confident of getting your fridge running back in no time. </li>
-                  <li> <strong>  Elica Cooker Repair in Dubai: </strong> Catching minor issues early prevents them from escalating into expensive repair. </li>
+                  <li> <strong>  Ariston Washing Machine Repair in Dubai:-: </strong> Regular maintenance helps appliances last longer, saving on replacement costs.</li>
+                  <li> <strong>  Ariston Fridge Repair in Dubai: </strong> we are fully confident of getting your fridge running back in no time. </li>
+                  <li> <strong>  Ariston Cooker Repair in Dubai: </strong> Catching minor issues early prevents them from escalating into expensive repair. </li>
                   <li> <strong>  Preserving Appliance Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
                   <li> <strong>  Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious.</li>
                   <li> <strong>  Cost-Effective: </strong> Maintenance costs are lower than early replacements or major repair. Investing in appliance care ensures safety and efficiency and is a smart economic choice in Dubai.</li>
@@ -275,7 +275,7 @@ const ElicaAppliancesServiceDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30 appliances-benifit-sec">
           <div className="container">
             <div className="row justify-content-center">
-              <h3 className="cs_fs_30 mb-0">The Benefits Of Elica appliances Service Dubai
+              <h3 className="cs_fs_30 mb-0">The Benefits Of Ariston appliances Service Dubai
               </h3>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
@@ -360,7 +360,7 @@ const ElicaAppliancesServiceDetail = ({ subtitle, title, bgImg }) => {
         {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR Elica HOME APPLIANCES</h3>
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR Ariston HOME APPLIANCES</h3>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -448,7 +448,7 @@ const ElicaAppliancesServiceDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are experts in Elica appliance repair this is why most major brands trust us to handle their service and maintenance needs.</p>
+                    <p>We are experts in Ariston appliance repair this is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -576,4 +576,4 @@ const ElicaAppliancesServiceDetail = ({ subtitle, title, bgImg }) => {
   )
 }
 
-export default ElicaAppliancesServiceDetail;
+export default AristonFrideRepairDetail;
