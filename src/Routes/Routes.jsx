@@ -197,6 +197,7 @@ import AcRepairInDownTown from "../Pages/AcPages/AcLocation/AcRepairInDowntown.j
 import PortfolioPage from "../Pages/PortfolioPage.jsx";
 import CigarcabnitService from "../Pages/HomeAppPages/CigarcabnitService.jsx";
 import { Navigate } from "react-router-dom";
+import VikingAppliancesService from "../Pages/AppliancesPage/AppliancesBrand/VikingAppliancesService.jsx";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -1015,6 +1016,10 @@ export const router = createBrowserRouter([
       {
         path: "/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-oven-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa/",
         element: <IndesitWashingMachine />,
+      },
+      {
+        path: "/viking-appliances-service/",
+        element: <VikingAppliancesService />,
       },
     ],
   }
