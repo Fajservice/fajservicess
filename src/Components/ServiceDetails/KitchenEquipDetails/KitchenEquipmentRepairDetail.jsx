@@ -374,7 +374,9 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, bgImg }) => {
                         <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Enhanced Food Quality</h4>
-                      <p className="small">Kitchen equipment condition directly affects food quality, so proper maintenance is essential.</p>
+                      <p className="small">
+                        Kitchen equipment condition directly affects overall food quality, so proper and regular maintenance is essential
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -387,7 +389,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, bgImg }) => {
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Improved Workplace Safety </h4>
                       <p className="small">
-                        Food safety is essential for food service businesses. Regular kitchen equipment maintenance prevents contamination and ensures safe food preparation.
+                        Regular kitchen equipment maintenance prevents contamination, reduces accidents, and ensures safe food preparation.
                       </p>
                     </div>
                   </div>
@@ -399,7 +401,10 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, bgImg }) => {
                         <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} alt="Ensures Compliance" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Ensures Compliance</h4>
-                      <p className="small">Food safety is essential for any food service business. Regular maintenance of kitchen equipment prevents contamination and ensures safety.</p>
+                      <p className="small">
+                        Food safety is essential for any food business. Regular maintenance of kitchen equipment prevents contamination and ensures safety.
+
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -411,7 +416,9 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, bgImg }) => {
                         <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Reduced utility costs</h4>
-                      <p className="small">Equipment that uses electricity, gas, or water operates more efficiently when kept clean and serviced regularly.</p>
+                      <p className="small">
+                        Equipment that uses electricity, gas, or water operates more efficiently when kept clean and serviced regularly.
+                      </p>
                     </div>
 
                   </div>
@@ -423,7 +430,8 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, bgImg }) => {
                         <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Improve Speed of Operations</h4>
-                      <p className="small">A restaurant kitchen is a busy place that needs quick turnarounds to meet customer demands. Inefficiency can lead to delays and dissatisfaction.</p>
+                      <p className="small">A restaurant kitchen is a busy place that needs quick turnarounds to meet customer demands. Inefficiency can lead to delays and dissatisfaction.
+                      </p>
 
                     </div>
 
@@ -540,11 +548,78 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, bgImg }) => {
         {/* We specialise  */}
         <section className="section cs_py_30 bg-light-gray ">
           <div className="container">
-            <h3>We specialise in dishwasher services for the following brands </h3>
+            <h3> We specialise in catering and cooking equipment services for the following brands</h3>
             <div className="row">
               <div className="col-12">
+                <p className="mb-0">
+                  <strong>
+                    Professional Cooking Range Repair and Service: </strong> When your gas range breaks down, you need a team that responds quickly.
+                  <br />Our experienced technicians are fully qualified to diagnose and repair all types of commercial cookers, from gas to electric models. We aim to get you back up and running with minimal disruption.
+                </p>
 
                 <p className="mb-0">
+                  <strong>
+                    Angelo Gas Cooking Range Burners Repairs: </strong> Addressing small issues promptly prevents them from escalating into major problems.
+                  <br />We conduct repairs such as adjusting thermostats, replacing worn seals, and fixing faulty burners during maintenance service.
+
+
+                </p>
+
+                <p className="mb-0">
+                  <strong>
+                    Commercial Table Top Gas Stove Hotel Restaurant Kitchen: </strong> Are you starting a new catering business or in need of professional catering equipment repairs?
+                  FAJ offers a wide range of catering equipment services and reliable repair plans in Dubai.
+                  <br />Our expertise includes cookers, stoves, ovens, food warmers, and fryers. Explore our specialized services today.
+                  With a focus on accuracy and reliability, we ensure that your essential kitchen equipment receives top-notch repair services.
+
+                </p>
+
+                <p className="mb-0">
+                  <strong>
+                    Gas Cooking Range Burner: </strong> Discover our commercial cooking equipment services, including repairs and maintenance.
+                  <br />We specialize in maintaining gas stoves, hot plates, induction hobs, and ovens, ensuring they work efficiently.
+                  Experience hassle-free solutions that keep your kitchen appliances running smoothly.
+
+
+                </p>
+
+                <p className="mb-0">
+                  <strong>
+                    Vulcan Natural Gas Burner Range Ovens: </strong> As a trusted service provider for gas cookers, stoves, and ovens, we offer a variety of options in our store to suit your commercial cooking and catering needs. Explore our selection of cooking appliances designed to meet all your culinary requirements with ease.
+                </p>
+
+                <p className="mb-0">
+                  <strong>
+                    Commercial Cooking Equipment Maintenance: </strong> Our highly experienced engineers are available to assist with all your commercial kitchen equipment needs.
+                 <br /> We provide maintenance, repair, call-out, and installation services for a wide range of equipment, including combi ovens, range ovens, convection ovens, grills, griddles, pizza ovens, and more.
+                </p>
+
+                <p className="mb-0">
+                  <strong>
+                    Pitco Gas Fryer Repair and Services: </strong> Our professional technician is an expert in Pitco gas fryers. Contact us via call, WhatsApp, or email for commercial deep fryer equipment repairs and servicing.
+                </p>
+
+                <p className="mb-">
+                  <strong>
+                    Electrolux Professional Cooking Appliances Maintenance Service: </strong> We are committed to ensuring minimal downtime for your Electrolux Professional Cooking equipment, including cooking ranges, induction hobs, hot plates, and ovens.
+                <br />  Our services are available to help your business keep running smoothly.
+                  Trusted Commercial Cooking Equipment Repair:
+                  To Keep Your Kitchen Running Smoothly
+                  Reliable repairs for commercial cooking equipment are essential for maintaining efficiency in professional kitchens.
+                 <br /> At FAJ Service Dubai, we specialize in repairing a wide range of cooking appliances, including ovens, stoves, fryers, and grills.
+                  Whether you run a restaurant, hotel, or catering business, our expert technicians are dedicated to ensuring that your equipment operates efficiently and safely.
+                </p>
+                <p className="mb-0">
+                  Commercial Induction Cooker | Counter top Electric Plates | MC Appliance | Corporation cooking appliances | Mirabake Jiangsu Province Baking Proofers, ovens | Kitchen Guys Ranges, Cooktops, Wall Ovens | American Range Commercial Stoves, Ovens, Fryers, Griddles, Broilers, Cheesemelters | Vulcan Equipment Ranges Fryers, Griddles, Combi Ovens, Steamers, Charbroilers | Turbo Air refrigerators and freezers, food prep tables | Omcan Pizza Ovens, Meat Slicers, Ice makers, Spiral Mixers |
+Webstaurant Store: Refrigeration units, Ranges, Food Prep Equipment | Thermador Cooking Appliances | Henny Penny: Perfecting Fried Food with Pressure Fryers | Taylor: Master of Frozen Desserts and Grilled Foods | Vulcan: The Backbone of Professional Kitchens | Hobart: Your Go-To for Dishwashers and Mixers | True Refrigeration: The Ultimate Cold Storage Solution
+
+                </p>
+
+              </div>
+              {/* <div className="col-12">
+
+
+                 <p className="mb-0">
                   <Link to="/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/">
                     <b>LG Dishwasher Repair</b>
                   </Link>: FAJ is here to support you when things go wrong. We understand that your LG cooker or induction are essential for daily life, helping you prepare meals efficiently and on time.
@@ -774,9 +849,9 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, bgImg }) => {
                   <span>&nbsp;-&nbsp;</span>
 
                   <a href="#/unimac-washing-machine-repair-in-dubai-unimac-dryer-repair-in-dubai-unimac-washer-dryer-repair-in-dubai-unimac-maintenance-in-dubai-unimac-laundry-service-in-dubai-unimac-dubai/">Unimac</a>
-                </p>
+                </p> 
 
-              </div>
+              </div> */}
 
             </div>
 
@@ -821,7 +896,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* testimobial section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" data-background={`${import.meta.env.BASE_URL}${bgImg}`}>
+        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">

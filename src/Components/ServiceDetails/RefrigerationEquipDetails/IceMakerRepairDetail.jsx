@@ -215,7 +215,7 @@ const IceMakerRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      One common problem with ice makers is a clogged water filter that needs to be replaced or cleaned. Ensure that there is sufficient water flowing.
+                      A common problem with ice makers is clogged water filter that needs to be replaced or cleaned. Ensure sufficient water flow.
                     </p>
                   </div>
                 </div>
@@ -228,6 +228,7 @@ const IceMakerRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
+                      If your ice maker isn't making ice or cubes are stuck, check the fill tubes. If cup and tube at the back are frozen, look for blockages.
                     </p>
                   </div>
                 </div>
@@ -239,7 +240,8 @@ const IceMakerRepairDetail = ({ subtitle, title, bgImg }) => {
                     <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Defective Water Inlet Valve</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Defective Water Inlet Valve: The inlet valve allows water into the ice maker. Blockages or damage can stop water flow.
+                    <p className="p-2 mb-0">
+                      The inlet valve controls water flow into the ice maker. Blockages or damage can block flow, preventing entry and halting ice production.
                     </p>
                   </div>
                 </div>
@@ -252,6 +254,7 @@ const IceMakerRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
+                      Either the temperature setting is too low, or the water inlet tube has frozen. If it's the former, it's a simple fix.
                     </p>
                   </div>
                 </div>
@@ -291,8 +294,7 @@ const IceMakerRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Check the mold if there’s no ice in the tray. If ice is present but not dropping, it may indicate an issue.
-
+                      Check the mold if there’s no ice in the tray. If ice is present but not dropping, it may indicate a possible mechanical issue. 
                     </p>
                   </div>
                 </div>
@@ -305,7 +307,7 @@ const IceMakerRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      A common reason ice machines fail is an electrical fault in either the parts or the water components.
+                      A common reason ice machines fail is often due to an electrical fault in either the components or the water system.
 
                     </p>
                   </div>
@@ -785,7 +787,7 @@ const IceMakerRepairDetail = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* testimobial section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" data-background={`${import.meta.env.BASE_URL}${bgImg}`}>
+        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
