@@ -6,7 +6,7 @@ const ElicaAppliancesService = () => {
     <div className="serviceDetails">
     <BreadCumb
         bgImg="img/banners/ac-maintenance.avif"
-        Title="Indesit Washing Machine Repair & Service"
+        Title="Elica Appliances Service - Elica Hob Repair - Hood Fixing"
     ></BreadCumb>
 
     <ElicaAppliancesServiceDetail />        
