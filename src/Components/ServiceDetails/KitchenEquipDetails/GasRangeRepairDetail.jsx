@@ -198,7 +198,7 @@ const GasRangeDetail = ({ subtitle, title, bgImg }) => {
             <p>We set out on this journey to raise the bar for gas cooker repair services. We are committed to delivering exceptional repair and maintenance services that surpass the expectations of our clients. We have developed our knowledge over the years and put together a group of remarkable technicians who are not only experts but also provide the best kitchen solutions. Trust FAJ Technical Services and you will not be disappointed.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/cooker.webp`} alt="Gas Cooker Repair" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/cooker.avif`} alt="Gas Cooker Repair" />
               </div>
               <div className="col-md-6">
                 <h4>Gas stove maintenance</h4>
@@ -493,7 +493,7 @@ const GasRangeDetail = ({ subtitle, title, bgImg }) => {
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.avif`} alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
