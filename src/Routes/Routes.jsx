@@ -204,6 +204,15 @@ import SubZeroFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/SubZero
 import HitachiFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/HitachiFridgeRepair.jsx";
 import GaggenauFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/GaggenauFridgeRepair.jsx";
 
+// import WhirlpoolFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/WhirlpoolFridgeRepair.jsx";
+// import FosterAppliancesServices from "../Pages/AppliancesPage/AppliancesBrand/FosterAppliancesServices.jsx";
+// import TekaHomeAppInstllation from "../Pages/AppliancesPage/AppliancesBrand/TekaHomeAppInstllation.jsx";
+// import GorenjeFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/GorenjeFridgeRepair.jsx";
+// import MieleFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/MieleFridgeRepair.jsx";
+// import WolfHomeAppMaintenance from "../Pages/AppliancesPage/AppliancesBrand/WolfHomeAppMaintenance.jsx";
+// import ToshibaHomeAppMaintenance from "../Pages/AppliancesPage/AppliancesBrand/ToshibaHomeAppMaintenance.jsx";
+// import GibsoneFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/GibsoneFridgeRepair.jsx";
+
 
 
 import AcRepairInDownTown from "../Pages/AcPages/AcLocation/AcRepairInDowntown.jsx";
@@ -598,6 +607,38 @@ export const router = createBrowserRouter([
         path:"/gaggenau-fridge-repair-in-dubai-gaggenau-washing-machine-repair-in-dubai-gaggenau-cooker-repair-in-dubai-gaggenau-oven-repair-in-dubai-gaggenau-appliances-maintenance-in-dubai-gaggenau-refrigerator-fi/",
         element: <GaggenauFridgeRepair/>
       },
+      // {
+      //   path: "",
+      //   element: <WhirlpoolFridgeRepair/>,
+      // },
+      //   {
+      //   path: "",
+      //   element: <FosterAppliancesServices/>,
+      // },
+      //   {
+      //   path: "",
+      //   element: <TekaHomeAppInstllation/>,
+      // },
+      //   {
+      //   path: "",
+      //   element: <GorenjeFridgeRepair/>,
+      // },
+      //   {
+      //   path: "",
+      //   element: <MieleFridgeRepair/>,
+      // },
+      //   {
+      //   path: "",
+      //   element: <WolfHomeAppMaintenance/>,
+      // },
+      // {
+      //   path: "",
+      //   element: <ToshibaHomeAppMaintenance/>,
+      // },
+      // {
+      //   path: "",
+      //   element: <GibsoneFridgeRepair/>,
+      // },
 
       {
         path: "/project",
