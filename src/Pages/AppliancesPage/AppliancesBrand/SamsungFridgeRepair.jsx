@@ -4,13 +4,13 @@ import SamsungFridgeRepairDetail from '../../../Components/ServiceDetails/Applia
 const SamsungFridgeRepair = () => {
   return (
     <div className="serviceDetails">
-    <BreadCumb
-        bgImg="img/banners/small-home.avif"
+      <BreadCumb
+        bgImg="img/banners/homeappliancesbrands/sumsung.avif"
         Title="Samsung Fridge Repair in Dubai"
-    ></BreadCumb>
+      ></BreadCumb>
 
-    <SamsungFridgeRepairDetail />     
-</div>
+      <SamsungFridgeRepairDetail />
+    </div>
   )
 }
 

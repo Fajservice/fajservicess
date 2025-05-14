@@ -123,8 +123,8 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Best Appliances Service Dubai - Appliance Repair Near Me</title>
-        <meta name="description" content="We offer an appliances repair near you. Get expert in refrigerator, fridge, washing machine, dryer, dishwasher, gas stove, oven service near me Dubai"></meta>
+        <title>Washing Machine Repair & Maintenance Services Dubai FAJ</title>
+        <meta name="description" content="Sameday Washing Machine Repair Dubai. Book now 043300002 Get Quality Washing Machine Repair near me with Reliable Washer Dryer"></meta>
       </HelmetProvider>
       <HeaderForm />
 

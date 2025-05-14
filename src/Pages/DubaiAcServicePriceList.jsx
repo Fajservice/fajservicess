@@ -128,7 +128,7 @@ const DubaiAcServicePriceList = () => {
                                         <div id="acsvs-sec03" className="text-center mb-3" style={{ display: 'block' }}>
                                             <p className="acsvs-sec-feat-p1">Cost AC Cleaning Services</p>
                                             <p className="acsvs-sec-feat-p2">Chilled Water FCU AC</p>
-                                            <p className="acsvs-sec-feat-p3">Price Starting From <strong>210.00 <sup>AED</sup></strong></p>
+                                            <p className="acsvs-sec-feat-p3">Price Starting From <strong>195.00 <sup>AED</sup></strong></p>
                                             <a className="btn btn-dgreen" id="plus_two" style={{ display: 'block' }} onClick={myFunctThree}><span>View Detail</span></a>
                                         </div>
                                         <div id="acsvs-sec04" style={{ display: 'none' }}>

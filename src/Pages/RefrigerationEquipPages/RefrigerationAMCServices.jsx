@@ -5,7 +5,7 @@ const RefrigerationAMCServices = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/banners/Refrigeration Equipment Services/Refrigeration-AMC-Services.avif"
+                bgImg="img/banners/Refrigeration-Equipment-Services/Refrigeration-AMC-Services.avif"
 
                 Title="Commercial Freezer Chiller AMC Service"
             ></BreadCumb> 

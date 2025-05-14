@@ -5,7 +5,7 @@ const NeffFridgeRepair = () => {
   return (
     <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/ac-maintenance.avif"
+        bgImg="img/banners/homeappliancesbrands/Neff.avif"
         Title="Neff Fridge Repair & Service"
     ></BreadCumb>
 

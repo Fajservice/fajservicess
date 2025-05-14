@@ -5,7 +5,7 @@ const ElicaAppliancesService = () => {
   return (
     <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/ac-maintenance.avif"
+        bgImg="img/banners/homeappliancesbrands/Elica.avif"
         Title="Elica Appliances Service - Elica Hob Repair - Hood Fixing"
     ></BreadCumb>
 

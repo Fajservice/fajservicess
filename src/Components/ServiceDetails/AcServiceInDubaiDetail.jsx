@@ -81,7 +81,7 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
     <>
       <HelmetProvider>
         <title>AC Service in Dubai - Get AC Repair & Maintenance | FAJ Co</title>
-        <meta name="description" content=" We specialize in AC repair, service, and central & split air conditioner maintenance in Dubai. Call at 043300002 for your home & office A/C fix"></meta>
+        <meta name="description" content=" We specialize in AC repair, service, and central & split air condition maintenance in Dubai. Call at 043300002 for your home & office A/C fix"></meta>
       </HelmetProvider>
       <HeaderForm />
       <div className="cs_service_details">
