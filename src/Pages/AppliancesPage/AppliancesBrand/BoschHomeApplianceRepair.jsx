@@ -4,7 +4,7 @@ const BoschHomeApplianceRepair = () => {
   return (
    <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/small-home.avif"
+        bgImg="img/banners/homeappliancesbrands/Bosch.avif"
         Title="Bosch Washing Machine Repair & Service"
     ></BreadCumb>
 

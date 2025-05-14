@@ -5,7 +5,7 @@ const SiemensHomeAppliance = () => {
   return (
    <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/Siemens(2).avif"
+        bgImg="img/banners/homeappliancesbrands/Siemens-2.avif"
         Title="Siemens Home Appliance"
     ></BreadCumb>
 

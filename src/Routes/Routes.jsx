@@ -117,8 +117,8 @@ import KitchenEquipmentAMC from "../Pages/KitchenEquipPages/KitchenEquipmentAMC"
 import KitchenEquipmentRepair from "../Pages/KitchenEquipPages/KitchenEquipmentRepair";
 import IceMakerRepair from "../Pages/RefrigerationEquipPages/IceMakerRepair";
 import RefrigerationAMCServices from "../Pages/RefrigerationEquipPages/RefrigerationAMCServices";
-import WalkInRefrigerationServices from "../Pages/RefrigerationEquipPages/WalkInRefrigerationServices";
-import FreezerAndChillerMaintenance from "../Pages/RefrigerationEquipPages/FreezerAndChillerMaintenance";
+// import WalkInRefrigerationServices from "../Pages/RefrigerationEquipPages/WalkInRefrigerationServices";
+// import FreezerAndChillerMaintenance from "../Pages/RefrigerationEquipPages/FreezerAndChillerMaintenance";
 import CommercialRefrigeratorRepair from "../Pages/RefrigerationEquipPages/CommercialRefrigeratorRepair";
 import AcRepairInJumeirahHeights from "../Pages/AcPages/AcLocation/AcRepairInJumeirahHeights";
 import AcRepairInQuozIndustrialArea from "../Pages/AcPages/AcLocation/AcRepairInQuozIndustrialArea";
@@ -152,9 +152,9 @@ import AcRepairInDifc from "../Pages/AcPages/AcLocation/AcRepairInDifc";
 import AcRepairInAlBarsha from "../Pages/AcPages/AcLocation/AcRepairInAlBarsha";
 import AcRepairInAlRaffa from "../Pages/AcPages/AcLocation/AcRepairInAlRaffa";
 import AcRepairInOldTown from "../Pages/AcPages/AcLocation/AcRepairInOldTown";
-import FoodWarmerRepair from "../Pages/KitchenEquipPages/FoodWarmerRepair";
+// import FoodWarmerRepair from "../Pages/KitchenEquipPages/FoodWarmerRepair";
+// import DoughMixerRepair from "../Pages/KitchenEquipPages/DoughMixerRepair";
 import MeatGrinderRepair from "../Pages/KitchenEquipPages/MeatGrinderRepair";
-import DoughMixerRepair from "../Pages/KitchenEquipPages/DoughMixerRepair";
 import CommercialDishwasherServices from "../Pages/CommercialDishwasherServices.jsx";
 import CommercialWashingMachineRepair from "../Pages/CommercialLaundryEquipPages/CommercialWashingMachineRepair";
 import CommercialLaundryEquipmentService from "../Pages/CommercialLaundryEquipPages/CommercialLaundryEquipmentService";
@@ -319,10 +319,7 @@ export const router = createBrowserRouter([
         path: "/meat-grinder-repair/",
         element: <MeatGrinderRepair />
       },
-      {
-        path: "/dough-mixer-repair",
-        element: <DoughMixerRepair />
-      },
+      
       {
         path: "/commercial-dishwasher-repair/",
         element: <CommercialDishwasherServices />
@@ -336,10 +333,14 @@ export const router = createBrowserRouter([
         element: <CommercialLaundryEquipmentService />
       },
 
-      {
-        path: "/food-warmer-repair/",
-        element: <FoodWarmerRepair />,
-      },
+      // {
+      //   path: "/food-warmer-repair/",
+      //   element: <FoodWarmerRepair />,
+      // },
+      // {
+      //   path: "/dough-mixer-repair",
+      //   element: <DoughMixerRepair />
+      // },
       {
         path: "/commercial-kitchen-equipment-amc/",
         element: <KitchenEquipmentAMC />,
@@ -356,14 +357,14 @@ export const router = createBrowserRouter([
         path: "/commercial-freezer-chiller-amc-service/",
         element: <RefrigerationAMCServices />,
       },
-      {
-        path: "/walk-in-freezer-display-freezer-open-freezer-maintenance/",
-        element: <WalkInRefrigerationServices />,
-      },
-      {
-        path: "/freezer-chiller-repair-service/",
-        element: <FreezerAndChillerMaintenance />,
-      },
+      // {
+      //   path: "/walk-in-freezer-display-freezer-open-freezer-maintenance/",
+      //   element: <WalkInRefrigerationServices />,
+      // },
+      // {
+      //   path: "/freezer-chiller-repair-service/",
+      //   element: <FreezerAndChillerMaintenance />,
+      // },
       {
         path: "/commercial-refrigeration-services/",
         element: <CommercialRefrigeratorRepair />,

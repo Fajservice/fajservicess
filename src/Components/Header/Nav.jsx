@@ -154,16 +154,6 @@ export default function Nav({ setMobileToggle }) {
                     </Link>
                   </li>
                   <li className='cs_light cs_fs_16'>
-                    <Link to="/dough-mixer-repair/" onClick={() => setMobileToggle(false)}>
-                      Dough Mixer Repair
-                    </Link>
-                  </li> 
-                  <li className='cs_light cs_fs_16'>
-                    <Link to="/food-warmer-repair/" onClick={() => setMobileToggle(false)}>
-                      Food Warmer Repair
-                    </Link>
-                  </li>
-                  <li className='cs_light cs_fs_16'>
                     <Link to="/commercial-kitchen-equipment-amc/" onClick={() => setMobileToggle(false)}>
                       Kitchen Equipment AMC
                     </Link>
@@ -197,16 +187,7 @@ export default function Nav({ setMobileToggle }) {
                     Refrigeration AMC Services
                     </Link>
                   </li>
-                  <li className='cs_light cs_fs_16'>
-                    <Link to="/walk-in-freezer-display-freezer-open-freezer-maintenance/" onClick={() => setMobileToggle(false)}>
-                    Walk in Refrigeration Services
-                    </Link>
-                  </li>
-                  <li className='cs_light cs_fs_16'>
-                    <Link to="/freezer-chiller-repair-service/" onClick={() => setMobileToggle(false)}>
-                    Freezer & Chiller Maintenance
-                    </Link>
-                  </li>
+                  
                   <li className='cs_light cs_fs_16'>
                     <Link to="/commercial-refrigeration-services/" onClick={() => setMobileToggle(false)}>
                     Commercial Refrigerator Repair

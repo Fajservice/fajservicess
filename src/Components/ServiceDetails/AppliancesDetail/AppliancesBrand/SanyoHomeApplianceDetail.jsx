@@ -143,7 +143,8 @@ const SanyoHomeApplianceDetail = ({ subtitle, title, bgImg }) => {
                     <br /> We're nearby and can get your appliances fixed quickly and efficiently.
                   </p>
     
-                  <AppliancesTechnicalInspectionFee></AppliancesTechnicalInspectionFee>
+                   <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Equipment Technical Inspection Fee</h3>
+                <p className="mb-0">The technical inspection fee which covers diagnosis, transportation, and reinstallation in Dubai premises. Please note that this fee is non-refundable.</p>
                 </div>
     
                 <div className="col-md-6 ">

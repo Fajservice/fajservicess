@@ -5,7 +5,7 @@ const TerimAppliance = () => {
   return (
    <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/small-home.avif"
+        bgImg="img/banners/homeappliancesbrands/Terim.avif"
         Title="Terim Appliance Services"
     ></BreadCumb>
 
