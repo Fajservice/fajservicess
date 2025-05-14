@@ -3,9 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
-  "homepage": "/dist/",
+  "homepage": "https://github.com/Fajservice/fajservicess",
   "bugs": {
-    "url": "https://www.fajservices.ae/issues"
+    "url": "https://github.com/Fajservice/fajservicess/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fajservice/fajservicess.git"
   },
   "license": "ISC",
   "author": "",
