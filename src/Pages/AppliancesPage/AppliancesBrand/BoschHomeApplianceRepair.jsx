@@ -1,5 +1,6 @@
 import React from 'react'
 import BreadCumb from "../../../Components/Common/BreadCumb";
+import BoschHomeApplianceRepairDetail from "../../../Components/ServiceDetails/AppliancesDetail/AppliancesBrand/BoschHomeApplianceRepairDetail";
 const BoschHomeApplianceRepair = () => {
   return (
    <div className="serviceDetails">
@@ -8,7 +9,7 @@ const BoschHomeApplianceRepair = () => {
         Title="Bosch Washing Machine Repair & Service"
     ></BreadCumb>
 
-    <ElectroluxHomeApplianceDetail />     
+    <BoschHomeApplianceRepairDetail />     
 </div>
   )
 }

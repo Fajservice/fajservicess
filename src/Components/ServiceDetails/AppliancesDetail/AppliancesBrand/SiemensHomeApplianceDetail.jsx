@@ -144,7 +144,7 @@ const SiemensHomeApplianceDetail = ({ subtitle, title, bgImg }) => {
                                     <br /> We're nearby and can get your appliances fixed quickly and efficiently.
                                 </p>
 
-                                <AppliancesTechnicalInspectionFee></AppliancesTechnicalInspectionFee>
+                                
                             </div>
 
                             <div className="col-md-6 ">
