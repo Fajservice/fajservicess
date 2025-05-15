@@ -14,6 +14,14 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
 const BekoFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
+  // For SEO
+    const titleSeo = "Beko Fridge Repair - Beko Washing Machine Service near me";
+    const description = "Beko fridge repair Dubai. FAJ provides various services of Beko washing machine, refrigerator, dishwasher, oven, stove & dryer repair Call 043300002";
+    const Author = "Faj Technical Servcies";
+    const Keyword = "";
+    const URL = "https://fajservices.com/beko-fridge-repair-in-dubai-beko-washing-machine-repair-in-dubai-beko-cooker-repair-in-dubai-beko-oven-repair-in-dubai-beko-appliances-maintenance-in-dubai-beko-refrigerator-fix-repairs-service-in-dub/";
+
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -106,8 +114,19 @@ const BekoFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
      <>
         <HelmetProvider>
-          <title>Beko Fridge Repair - Beko Washing Machine Service near me</title>
-          <meta name="description" content="Beko fridge repair Dubai. FAJ provides various services of Beko washing machine, refrigerator, dishwasher, oven, stove & dryer repair Call 043300002"></meta>
+          <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+        <linK rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
+
         </HelmetProvider>
         <HeaderForm />
     

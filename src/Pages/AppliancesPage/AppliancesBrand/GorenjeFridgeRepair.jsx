@@ -6,7 +6,7 @@ const GorenjeFridgeRepair = () => {
     <div className="serviceDetails">
     <BreadCumb
         bgImg="img/banners/homeappliancesbrands/Gorenja.avif"
-        Title="Gorenja Fridge Repair"
+        Title="Gorenje Fridge Repair"
     ></BreadCumb>
 
     <GorenjeFridgeRepairDetail />        

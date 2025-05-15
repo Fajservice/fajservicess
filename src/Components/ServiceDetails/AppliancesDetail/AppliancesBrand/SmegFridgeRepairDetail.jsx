@@ -15,12 +15,11 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
 const SmegFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
-
-
   // For SEO
   const titleSeo = "Smeg Fridge Repair - Washing Machine Service in Dubai";
   const description = "Looking for Smeg fridge repair in Dubai? Dail 043300002 for Semg washing machine, dishwasher, refrigerator, cooking range, oven repair service nearby";
   const Keyword = "";
+  const Author = "Faj Technical Servcies";
   const URL = "https://fajservices.com/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/";
 
   subtitle = "Testimonial"
@@ -116,19 +115,19 @@ const SmegFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
     <>
       <HelmetProvider>
         <title>{titleSeo}</title>
-                <meta name="description" content={description}></meta>
-                <meta name="keywords" content={Keyword} />
-                <meta name="author" content={Author} />
-                <meta name="robots" content="index, follow" />
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
 
-                <linK rel="canonical" href={titleSeo} />
-                <meta property="og:type" content="website" />
-                <meta property="og:locale" content="en_US" />
-                <meta property="og:title" content={titleSeo} />
-                <meta property="og:description" content={description} />
-                <meta property="og:type" content="website" />
-                <meta property="og:url" content={URL} />
-        
+        <linK rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
+
       </HelmetProvider>
       <HeaderForm />
 

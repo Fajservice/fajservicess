@@ -15,8 +15,6 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
 const MaytagFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
-
-
   // For SEO
   const titleSeo = "Maytag Fridge Repair Dubai - Washing Machine Dryer Service";
   const description = "We specialize in Maytag Fridge Repair Dubai & May Tag appliance, refrigerator, freezer, washing machine, dryer maintenance service near me 043300002";

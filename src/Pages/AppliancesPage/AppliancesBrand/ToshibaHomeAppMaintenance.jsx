@@ -6,7 +6,7 @@ const ToshibaHomeAppMaintenance = () => {
     <div className="serviceDetails">
     <BreadCumb
         bgImg="img/banners/homeappliancesbrands/toshiba.avif"
-        Title=""
+        Title="Toshiba Home Appliances & Maintenance"
     ></BreadCumb>
 
     <ToshibaHomeAppMaintenanceDetail />        

@@ -6,7 +6,7 @@ const WhirlpoolFridgeRepair = () => {
     <div className="serviceDetails">
     <BreadCumb
         bgImg="img/banners/homeappliancesbrands/whirlpool.avif"
-        Title=""
+        Title="Whirl Pool Fridge Repair"
     ></BreadCumb>
 
     <WhirlpoolFridgeRepairDetail />        

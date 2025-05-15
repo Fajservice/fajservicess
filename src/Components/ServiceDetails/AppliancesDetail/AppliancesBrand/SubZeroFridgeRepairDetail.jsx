@@ -15,8 +15,6 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
 const SubZeroFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
-
-
   // For SEO
   const titleSeo = "Sub Zero Fridge Repair - Best Refrigerator Repair Service";
   const description = "Looking for Sub Zero fridge repair in Dubai? FAJ offers expert in refrigerator & freezer maintenance services near you in Dubai. Dail 043300002";
