@@ -573,6 +573,7 @@ const BlogDetails = () => {
               <div className="row">
                 {/* Section 5 heading */}
                 <h2>{blogPost.sec_five_h2}</h2>
+                
                 <h3>{blogPost.sec_five_h3}</h3>
                 <p>{blogPost.sec_five_h2_p}</p>
 

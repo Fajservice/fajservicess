@@ -1,5 +1,6 @@
 import React from 'react'
 import BreadCumb from "../../../Components/Common/BreadCumb";
+import DaewooHomeApplianceDetail from '../../../Components/ServiceDetails/AppliancesDetail/AppliancesBrand/DaewooHomeApplianceDetail';
 const DaewooHomeApplianceRepair = () => {
   return (
      <div className="serviceDetails">
@@ -8,7 +9,7 @@ const DaewooHomeApplianceRepair = () => {
         Title="Daewoo Home Appliace Repair"
     ></BreadCumb>
 
-    <HooverFridgeRepairDetail />     
+    <DaewooHomeApplianceDetail />     
 </div>
   )
 }

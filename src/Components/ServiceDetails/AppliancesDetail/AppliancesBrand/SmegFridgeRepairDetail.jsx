@@ -21,6 +21,7 @@ const SmegFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
   const titleSeo = "Smeg Fridge Repair - Washing Machine Service in Dubai";
   const description = "Looking for Smeg fridge repair in Dubai? Dail 043300002 for Semg washing machine, dishwasher, refrigerator, cooking range, oven repair service nearby";
   const Keyword = "";
+  const Author = "admin";
   const URL = "https://fajservices.com/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/";
 
   subtitle = "Testimonial"
