@@ -772,7 +772,7 @@ const IceMakerRepairDetail = ({ subtitle, title, bgImg }) => {
 
                       <div className="brandslogo-slide-container">
                         <div className="brnadlogo">
-                          <img className="w-100" src={`${import.meta.env.BASE_URL}${item.logo}`} alt="Avatar" />
+                          <img className="w-100" src={`${item.logo}`} alt="Avatar" />
                         </div>
                       </div>
 

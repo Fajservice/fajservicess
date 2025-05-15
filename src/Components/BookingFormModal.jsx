@@ -1,12 +1,21 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
+import ReCAPTCHA from 'react-google-recaptcha';
 
 const BookingFormModal = ({ isOpen, onClose }) => {
+  const recaptchaRef = useRef(null);
+
+  const [status, setStatus] = useState({
+    submitted: false,
+    submitting: false,
+    info: { error: false, msg: null }
+  });
+
   const [formData, setFormData] = useState({
     name: '',
     contactNumber: '',
     email: '',
     postcode: '',
-    service: '',
+    service: 'Air Con',
     details: ''
   });
 
@@ -20,10 +29,47 @@ const BookingFormModal = ({ isOpen, onClose }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
-    
-    // Reset form and close modal
+    setStatus(prev => ({ ...prev, submitting: true }));
+
+    if (recaptchaRef.current) {
+      recaptchaRef.current.execute();
+    }
+  };
+
+  const onReCAPTCHAChange = async (token) => {
+  if (!token) {
+    alert("Captcha failed. Please try again.");
+    setStatus({ submitted: false, submitting: false, info: { error: true, msg: "Captcha failed." } });
+    return;
+  }
+
+  const data = new FormData();
+  data.append('Name', formData.name);
+  data.append('Phone', formData.contactNumber);
+  data.append('Email', formData.email);
+  data.append('Postcode', formData.postcode);
+  data.append('Service', formData.service);
+  data.append('Details', formData.details);
+  data.append('_subject', 'Booking Request');
+  data.append('_captcha', 'false');
+  data.append('_template', 'table');
+  data.append('_cc', 'info@fajservices.ae');
+  data.append('_from_name', 'Booking Form');
+  data.append('page_url', window.location.href);
+
+  try {
+    await fetch('https://formsubmit.co/info@fajservices.ae', {
+      method: 'POST',
+      body: data,
+      mode: 'no-cors'
+    });
+
+    setStatus({
+      submitted: true,
+      submitting: false,
+      info: { error: false, msg: "Booking request submitted successfully!" }
+    });
+
     setFormData({
       name: '',
       contactNumber: '',
@@ -32,8 +78,19 @@ const BookingFormModal = ({ isOpen, onClose }) => {
       service: 'Air Con',
       details: ''
     });
-    onClose();
-  };
+
+    recaptchaRef.current.reset();
+    // onClose(); ❌ removed this line to keep the modal open
+
+  } catch (error) {
+    console.error('Submission error:', error);
+    setStatus({
+      submitted: false,
+      submitting: false,
+      info: { error: true, msg: "There was a problem. Please try again later." }
+    });
+  }
+};
 
   if (!isOpen) return null;
 
@@ -69,7 +126,7 @@ const BookingFormModal = ({ isOpen, onClose }) => {
             border: 'none',
             fontSize: '30px',
             cursor: 'pointer',
-            color: 'white',
+            color: 'White',
             backgroundColor: 'black'
           }}
         >
@@ -88,6 +145,18 @@ const BookingFormModal = ({ isOpen, onClose }) => {
         </div>
 
         <div style={{ padding: '20px' }}>
+          {status.info.error && (
+            <div className="alert alert-danger mb-4" role="alert">
+              {status.info.msg}
+            </div>
+          )}
+
+          {status.submitted && !status.info.error && (
+            <div className="alert alert-success mb-4" role="alert">
+              {status.info.msg}
+            </div>
+          )}
+
           <p style={{ textAlign: 'center', marginBottom: '20px' }}>
             <strong>Can't call us?</strong> You can still request a booking by filling out the form below:
           </p>
@@ -125,7 +194,7 @@ const BookingFormModal = ({ isOpen, onClose }) => {
                   name="contactNumber"
                   value={formData.contactNumber}
                   onChange={handleChange}
-                  placeholder="+971 1234 56789"
+                  placeholder="Phone Number"
                   required
                   style={{
                     width: '100%',
@@ -138,7 +207,7 @@ const BookingFormModal = ({ isOpen, onClose }) => {
 
               <div style={{ flex: '1 1 45%' }}>
                 <label htmlFor="email" style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>
-                  EMAIL ADDRESS <span style={{ color: '#ed1c24' }}>*</span>
+                  EMAIL
                 </label>
                 <input
                   type="email"
@@ -146,8 +215,7 @@ const BookingFormModal = ({ isOpen, onClose }) => {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  placeholder="Email"
-                  required
+                  placeholder="example@example.com"
                   style={{
                     width: '100%',
                     padding: '10px',
@@ -159,7 +227,7 @@ const BookingFormModal = ({ isOpen, onClose }) => {
 
               <div style={{ flex: '1 1 45%' }}>
                 <label htmlFor="postcode" style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>
-                  City/Area
+                  POSTCODE
                 </label>
                 <input
                   type="text"
@@ -167,7 +235,7 @@ const BookingFormModal = ({ isOpen, onClose }) => {
                   name="postcode"
                   value={formData.postcode}
                   onChange={handleChange}
-                  placeholder="Dubai, xxx"
+                  placeholder="E.g. 00000"
                   style={{
                     width: '100%',
                     padding: '10px',
@@ -179,28 +247,21 @@ const BookingFormModal = ({ isOpen, onClose }) => {
 
               <div style={{ flex: '1 1 100%' }}>
                 <label htmlFor="service" style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>
-                  SERVICE <span style={{ color: '#ed1c24' }}>*</span>
+                  SERVICE REQUIRED
                 </label>
-                <div style={{
-                  position: 'relative',
-                  width: '100%'
-                }}>
-                  <select
-                    id="service"
-                    name="service"
-                    value={formData.service}
-                    onChange={handleChange}
-                    required
-                    style={{
-                      width: '100%',
-                      padding: '10px',
-                      border: '1px solid #ddd',
-                      borderRadius: '4px',
-                      appearance: 'none',
-                      backgroundColor: 'white'
-                    }}
-                  >
-                    <option value="Air Conditioning Maintenance Service">Air Conditioning Maintenance Service</option>
+                <select
+                  id="service"
+                  name="service"
+                  value={formData.service}
+                  onChange={handleChange}
+                  style={{
+                    width: '100%',
+                    padding: '10px',
+                    border: '1px solid #ddd',
+                    borderRadius: '4px'
+                  }}
+                >
+                   <option value="Air Conditioning Maintenance Service">Air Conditioning Maintenance Service</option>
                     <option value="Home Appliances Repair Service">Home Appliances Repair Service</option>
                     <option value="Baumatic Appliances Repair Service">Baumatic Appliances Repair Service</option>
                     <option value="Commercial Appliances Service">Commercial Appliances Service</option>
@@ -208,57 +269,55 @@ const BookingFormModal = ({ isOpen, onClose }) => {
                     <option value="Food Chiller Service">Food Chiller Service</option>
                     <option value="AMC Service">AMC Service</option>
                     <option value="Other">Other</option>
-                  </select>
-                  <div style={{
-                    position: 'absolute',
-                    right: '10px',
-                    top: '50%',
-                    transform: 'translateY(-50%)',
-                    pointerEvents: 'none'
-                  }}>
-                    <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M1 1L6 6L11 1" stroke="#333" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                    </svg>
-                  </div>
-                </div>
+                </select>
               </div>
 
               <div style={{ flex: '1 1 100%' }}>
                 <label htmlFor="details" style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>
-                  DETAILS ABOUT THE ISSUE YOU'RE HAVING
+                  DETAILS
                 </label>
                 <textarea
                   id="details"
                   name="details"
                   value={formData.details}
                   onChange={handleChange}
-                  placeholder="Describe the issue you are experiencing, when it happens, etc"
-                  rows={4}
+                  rows="4"
+                  placeholder="Any additional details"
                   style={{
                     width: '100%',
                     padding: '10px',
                     border: '1px solid #ddd',
-                    borderRadius: '4px',
-                    resize: 'vertical'
+                    borderRadius: '4px'
                   }}
                 />
               </div>
             </div>
 
+            {/* ✅ Invisible reCAPTCHA */}
+            <ReCAPTCHA
+              ref={recaptchaRef}
+              sitekey="6Le2yTkrAAAAAGhNjcIJgpsRIRp_SbtL8xpQ5aHG"
+              size="invisible"
+              badge="bottomright"
+              onChange={onReCAPTCHAChange}
+            />
+
             <button
               type="submit"
+              disabled={status.submitting}
               style={{
+                width: '100%',
+                padding: '12px',
                 backgroundColor: '#00334E',
                 color: 'white',
-                padding: '10px 20px',
+                fontWeight: 'bold',
+                fontSize: '16px',
                 border: 'none',
                 borderRadius: '4px',
-                cursor: 'pointer',
-                fontWeight: 'bold',
-                fontSize: '14px'
+                cursor: 'pointer'
               }}
             >
-              SEND BOOKING REQUEST
+              {status.submitting ? 'Submitting...' : 'Submit Booking'}
             </button>
           </form>
         </div>

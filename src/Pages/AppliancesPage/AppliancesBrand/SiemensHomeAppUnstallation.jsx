@@ -5,7 +5,7 @@ const SiemensHomeAppUnstallation = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/banners/ac-maintenance.avif"
+                bgImg="img/banners/homeappliancesbrands/siemens.avif"
                 Title="Siemens Home Appliance Repair"
             ></BreadCumb>
 

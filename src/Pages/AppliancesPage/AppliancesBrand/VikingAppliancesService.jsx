@@ -4,13 +4,13 @@ import VikingAppliancesServiceDetail from '../../../Components/ServiceDetails/Ap
 const VikingAppliancesService = () => {
   return (
     <div className="serviceDetails">
-    <BreadCumb
-        bgImg="img/banners/small-home.avif"
+      <BreadCumb
+        bgImg="img/banners/homeappliancesbrands/viking.avif"
         Title="Viking Appliances Service"
-    ></BreadCumb>
+      ></BreadCumb>
 
-    <VikingAppliancesServiceDetail />     
-</div>
+      <VikingAppliancesServiceDetail />
+    </div>
   )
 }
 

@@ -141,7 +141,7 @@ const BreadCumb = ({ bgImg, Title }) => {
                     {/* ✅ reCAPTCHA */}
                     <ReCAPTCHA
                       ref={recaptchaRef}
-                      sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+                      sitekey="6Le2yTkrAAAAAGhNjcIJgpsRIRp_SbtL8xpQ5aHG"
                       size="invisible"
                       badge="bottomright"
                       onChange={onReCAPTCHAChange}

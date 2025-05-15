@@ -134,7 +134,7 @@ const Form1 = () => {
         {/* ✅ Invisible reCAPTCHA */}
         <ReCAPTCHA
           ref={recaptchaRef}
-          sitekey="6LeWuDQrAAAAAA2kK9zRDfujrKPB8zdR6_mTOrdD"
+          sitekey="6Le2yTkrAAAAAGhNjcIJgpsRIRp_SbtL8xpQ5aHG"
           size="invisible"
           badge="bottomright"
           onChange={onReCAPTCHAChange}

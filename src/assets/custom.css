@@ -903,3 +903,118 @@ max-height: 117px !important;
 /* padding: 20px; */
 
 }
+
+.floating-menu{
+	position: fixed;
+    bottom: 10px;
+    right: 10px!important;
+}
+.floating-menu .flt-ul-icon{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.floating-menu .flt-icon-url{
+	text-decoration: none;
+	color: #fff;
+}
+.floating-menu .flt-icon-text{
+	display: none;
+}
+.floating-menu .flt-icon{
+	font-size: 24px;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+	margin-top: 5px;
+	border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+.floating-menu .flt-icon-wh{
+	background: #06d755;
+	color: #fff;
+}
+.floating-menu .flt-icon-cl{
+	background: #264f69;
+	color: #fff;
+}
+.floating-menu .flt-icon-fb{
+	background: #128be0;
+	color: #fff;
+}
+.floating-menu .flt-icon-en{
+	background: #f6b200;
+	color: #fff;
+}
+.floating-menu .flt-icon-tw{
+	background: #128be0;
+	color: #fff;
+}
+@media (max-width:991px){
+	.floating-menu{
+		display: none;
+	}
+}
+/*Mobile CTA Button*/
+@media (min-width:991px){
+	.mobile-whatsapp{
+		display: none;
+	}
+}
+.mobile-whatsapp{
+	border-top: 1px solid #fff;
+    position: fixed !important;
+    width: 100%;
+    bottom: 0;
+    z-index: 100;
+}
+.mobile-whatsapp .cta-nav{
+	width:50%;
+	float:left;
+}
+.mobile-whatsapp .cta-nav a{
+	color:#fff;
+	text-decoration:none;
+}
+.mobile-whatsapp .mob-callus{
+	background: #264f69
+}
+.mobile-whatsapp .mob-whatsapp{
+	background: #06d755;
+}
+.button-whatsapp{
+    display: inline-flex;
+    height: 40px;
+    line-height: 1.2em;
+    font-size: 14px;
+	font-weight: 700;
+	font-family: "Muli", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 0 20px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1.5px;
+    position: relative;
+    text-align: center;
+    transition-property: all!important;
+    transition-duration: .5s!important;
+    transition-delay: 0s!important;
+    outline: none;
+    background-color: #018fa3;
+}
+.mobile-whatsapp .button-whatsapp{
+	margin: 0 auto;
+    background: none;
+    display: flex;
+    height: 50px;
+	font-size: 18px;
+}
+/*End Mobile Whatsapp Icon*/
+/*Mobile CTA Ends Here*/

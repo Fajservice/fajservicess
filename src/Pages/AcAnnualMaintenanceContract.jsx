@@ -5,7 +5,8 @@ const AcAnnualMaintenanceContract = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/banners/amc.avif"
+                bgImg="img/banners/annual-maintenance-contractAMC.avif"
+
 
                 Title="AC Annual Maintenance Contract"
             ></BreadCumb> 

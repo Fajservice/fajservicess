@@ -120,7 +120,46 @@ const Footer1 = () => {
             </div>
           </div>
         </div>
+        <div class="mobile-whatsapp">
+	<div class="navbar-end flex">
+		<div class="cta-nav mob-callus">
+			<a href="tel:+97143300002" target="_blank" class="button-whatsapp"><i class="bi bi-telephone  mr-2"></i></a>
+		</div>
+		<div class="cta-nav mob-whatsapp">
+			<a href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=FAJ-Services" target="_blank" class="button-whatsapp"><i class="bi bi-whatsapp mr-2"></i></a>
+		</div>
+	</div>
+</div>
+        <div className="floating-menu">
+          <ul className="flt-ul-icon">
+              <li>
+                  <a href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello-FAJ-Services" target="_blank" className="flt-icon-url">
+                      <div className="flt-icon flt-icon-wh">
+                          <i className="bi bi-whatsapp"></i>
+                              <span className="flt-icon-text">+971507464712</span>
+                      </div>
+                  </a>
+              </li>
+              <li>
+                  <a href="tel:+97143300002" target="_self" className="flt-icon-url">
+                      <div className="flt-icon flt-icon-cl">
+                          <i className="bi bi-telephone"></i>
+                              <div className="flt-icon-text">+97143300002</div>
+                      </div>
+                  </a>
+              </li>
+              <li>
+                  <a href="mailto:info@fajservices.ae" target="_self" className="flt-icon-url">
+                      <div className="flt-icon flt-icon-en">
+                          <i className="bi bi-envelope"></i>
+                              <div className="flt-icon-text">info@fajservices.ae</div>
+                      </div>
+                  </a>
+              </li>
+          </ul>
+      </div>
       </footer>
+     
     );
 };
 
