@@ -306,7 +306,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/24x7b.avif`} alt="24x7" className="rounded shadow" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/24x7b.jpg`} alt="24x7" className="rounded shadow" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">24×7 days a week service</h4>
                       <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
@@ -318,7 +318,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/annual-contract-b.avif`} alt="annual contract icon" className="rounded shadow" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/annual-contract-b.jpg`} alt="annual contract icon" className="rounded shadow" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">    Annual maintenance contracts </h4>
                       <p className="small">Regular maintenance helps your appliances  run smoothly and efficiently, delivering the best results every time.
@@ -331,7 +331,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/trained-b.avif`} alt="trained icon" className="rounded shadow" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/trained-b.jpg`} alt="trained icon" className="rounded shadow" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18"> Well trained & certified technicians </h4>
                       <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
@@ -343,7 +343,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/installation-b.avif`} alt="installation icon" className="rounded shadow" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/installation-b.jpg`} alt="installation icon" className="rounded shadow" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Installation, testing & commissioning of commercial kitchens </h4>
                       <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
@@ -355,7 +355,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/call.avif`} alt="Cooling Efficiency" className="rounded shadow" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/call.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">On-call services for kitchen equipment</h4>
                       <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
@@ -369,7 +369,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/gearicon.avif`} alt="Cooling Efficiency" className="rounded shadow" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/gearicon.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Availability of genuine spare parts </h4>
                       <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
@@ -381,7 +381,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/wellicon.avif`} alt="Cooling Efficiency" className="rounded shadow" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/wellicon.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18"> Well versed in handling MEP services for kitchen projects</h4>
                       <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
@@ -393,7 +393,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/wellstar.avif`} alt="Cooling Efficiency" className="rounded shadow" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/wellstar.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Complete maintenance solutions</h4>
                       <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>

@@ -106,7 +106,7 @@ const DaewooHomeApplianceDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
             <HelmetProvider>
-                <title>Daewoo Home Appliance Repair & Washing Machine Service</title>
+                <title></title>
                 <meta name="description" content="Daewoo home appliances service Dubai. Get fast Daewoo refrigerator repair,  Daewoo washing machine repair dishwasher, fridge service center nearme"></meta>
             </HelmetProvider>
             <HeaderForm />

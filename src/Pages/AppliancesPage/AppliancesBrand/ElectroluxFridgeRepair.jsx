@@ -5,7 +5,7 @@ const ElectroluxFridgeRepair = () => {
   return (
      <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/public/img/banners/homeappliancesbrands/fisher-and-paykal.avif public/img/banners/homeappliancesbrands/Electrolux.avif.avif"
+        bgImg="img/banners/homeappliancesbrands/Electrolux.avif"
         Title="Electrolux Refrigerator Repair Dubai and Washing Machine Service"
     ></BreadCumb>
 

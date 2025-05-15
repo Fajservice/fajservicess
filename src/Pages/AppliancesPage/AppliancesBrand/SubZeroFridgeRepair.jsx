@@ -6,7 +6,7 @@ const SubZeroFridgeRepair = () => {
     <div className="serviceDetails">
     <BreadCumb
         bgImg="img/banners/homeappliancesbrands/Subzero-fridge-repair.avif"
-        Title="Sub Zero Fridge Repair"
+        Title="Sub Zero AC Repair in Dubai - Emergency AC Service Near Me"
     ></BreadCumb>
 
     <SubZeroFridgeRepairDetail />        

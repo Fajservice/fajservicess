@@ -190,6 +190,7 @@ import AcRepairandServiceInEmiratesHills from "../Pages/AcPages/AcLocation/AcRep
 import AcRepairandServiceInTownSquare from "../Pages/AcPages/AcLocation/AcRepairandServiceInTownSquare";
 import AcServiceInDubai from "../Pages/AcServiceInDubai.jsx";
 import BBQService from "../Pages/HomeAppPages/BBQService.jsx";
+
 import IndesitWashingMachine from "../Pages/AppliancesPage/AppliancesBrand/IndesitWashingMachine.jsx";
 import ElicaAppliancesService from "../Pages/AppliancesPage/AppliancesBrand/ElicaAppliancesService.jsx";
 import FagorFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/FagorFridgeRepair.jsx";
@@ -232,6 +233,23 @@ import BoschHomeApplianceRepair from "../Pages/AppliancesPage/AppliancesBrand/Bo
 import FosterAppliance from "../Pages/AppliancesPage/AppliancesBrand/FosterAppliance.jsx";
 import SamsungHomeApplianceRepair from "../Pages/AppliancesPage/AppliancesBrand/SamsungHomeApplianceRepair.jsx";
 import ElectroluxFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/ElectroluxFridgeRepair.jsx";
+import AdmiralFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/AdmiralFridgeRepair.jsx";
+import BompaniFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/BompaniFridgeRepair.jsx";
+import KenmoreAppliancesService from "../Pages/AppliancesPage/AppliancesBrand/KenmoreAppliancesService.jsx";
+import SharpHomeAppliancesInstallation from "../Pages/AppliancesPage/AppliancesBrand/SharpHomeAppliancesInstallation.jsx";
+import UnimacWashingMachineRepair from "../Pages/AppliancesPage/AppliancesBrand/UnimacWashingMachineRepair.jsx";
+import HaierFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/HaierFridgeRepair.jsx";
+import BaumaticAppliances from "../Pages/AppliancesPage/AppliancesBrand/BaumaticAppliances.jsx";
+import FaberAppliancesService from "../Pages/AppliancesPage/AppliancesBrand/FaberAppliancesService.jsx";
+import MarvelFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/MarvelFridgeRepair.jsx";
+import BrandtFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/BrandtFridgeRepair.jsx";
+import ThemadorAppliancesService from "../Pages/AppliancesPage/AppliancesBrand/ThemadorAppliancesService.jsx";
+import BertazzoniRefrigeratorRepair from "../Pages/AppliancesPage/AppliancesBrand/BertazzoniRefrigeratorRepair.jsx";
+import BostonRefrigeratorRepair from "../Pages/AppliancesPage/AppliancesBrand/BostonRefrigeratorRepair.jsx";
+import KelvinatorHomeAppInstallation from "../Pages/AppliancesPage/AppliancesBrand/KelvinatorHomeAppInstallation.jsx";
+import ZanussiFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/ZanussiFridgeRepair.jsx";
+import SearsHomeAppInstallation from "../Pages/AppliancesPage/AppliancesBrand/SearsHomeAppInstallation.jsx";
+
 
 import AcRepairInDownTown from "../Pages/AcPages/AcLocation/AcRepairInDowntown.jsx";
 import PortfolioPage from "../Pages/PortfolioPage.jsx";
@@ -253,7 +271,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/ac-tonnage-calculator/",
-        element: <AcTonnageCalculator/>
+        element: <AcTonnageCalculator />
       },
       {
         path: "*",
@@ -319,7 +337,7 @@ export const router = createBrowserRouter([
         path: "/meat-grinder-repair/",
         element: <MeatGrinderRepair />
       },
-      
+
       {
         path: "/commercial-dishwasher-repair/",
         element: <CommercialDishwasherServices />
@@ -568,75 +586,75 @@ export const router = createBrowserRouter([
       },
       {
         path: "/fagor-fridge-repair-in-dubai-fagor-washing-machine-repair-in-dubai-fagor-cooker-repair-in-dubai-fagor-oven-repair-in-dubai-fagor-appliances-maintenance-in-dubai-fagor-refrigerator-fix-repairs-service/",
-        element: <FagorFridgeRepair/>,
+        element: <FagorFridgeRepair />,
       },
       {
-        path:"/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub/",
-        element: <NeffFridgeRepair/>
+        path: "/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub/",
+        element: <NeffFridgeRepair />
       },
       {
-        path:"/ariston-fridge-repair-in-dubai-ariston-washing-machine-repair-in-dubai-ariston-cooker-repair-in-dubai-ariston-oven-repair-in-dubai-ariston-appliances-maintenance-in-dubai-ariston-refrigerator-fix-repa/",
-        element: <AristonFrideRepair/>
+        path: "/ariston-fridge-repair-in-dubai-ariston-washing-machine-repair-in-dubai-ariston-cooker-repair-in-dubai-ariston-oven-repair-in-dubai-ariston-appliances-maintenance-in-dubai-ariston-refrigerator-fix-repa/",
+        element: <AristonFrideRepair />
       },
       {
-        path:"/fisher-and-paykel-fridge-repair-in-dubai-fisher-and-paykel-washing-machine-repair-in-dubai-fisher-and-paykel-cooker-repair-in-dubai-fisher-and-paykel-oven-repair-in-dubai-fisher-and-paykel-appliances/",
-        element: <FisherPaykelFridgeRepair/>
+        path: "/fisher-and-paykel-fridge-repair-in-dubai-fisher-and-paykel-washing-machine-repair-in-dubai-fisher-and-paykel-cooker-repair-in-dubai-fisher-and-paykel-oven-repair-in-dubai-fisher-and-paykel-appliances/",
+        element: <FisherPaykelFridgeRepair />
       },
       {
-        path:"/siemens-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
-        element: <SiemensHomeAppUnstallation/>
+        path: "/siemens-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
+        element: <SiemensHomeAppUnstallation />
       },
       {
-        path:"/maytag-fridge-repair-in-dubai-maytag-washing-machine-repair-in-dubai-maytag-cooker-repair-in-dubai-maytag-oven-repair-in-dubai-maytag-appliances-maintenance-in-dubai-maytag-refrigerator-fix-repairs-se/",
-        element: <MaytagFridgeRepair/>
+        path: "/maytag-fridge-repair-in-dubai-maytag-washing-machine-repair-in-dubai-maytag-cooker-repair-in-dubai-maytag-oven-repair-in-dubai-maytag-appliances-maintenance-in-dubai-maytag-refrigerator-fix-repairs-se/",
+        element: <MaytagFridgeRepair />
       },
       {
-        path:"/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/",
-        element: <SmegFridgeRepair/>
+        path: "/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/",
+        element: <SmegFridgeRepair />
       },
       {
-        path:"/sub-zero-fridge-repair-in-dubai-sub-zero-washing-machine-repair-in-dubai-sub-zero-cooker-repair-in-dubai-sub-zero-oven-repair-in-dubai-sub-zero-appliances-maintenance-in-dubai-sub-zero-refrigerator-fi/",
-        element: <SubZeroFridgeRepair/>
+        path: "/sub-zero-fridge-repair-in-dubai-sub-zero-washing-machine-repair-in-dubai-sub-zero-cooker-repair-in-dubai-sub-zero-oven-repair-in-dubai-sub-zero-appliances-maintenance-in-dubai-sub-zero-refrigerator-fi/",
+        element: <SubZeroFridgeRepair />
       },
       {
-        path:"/hitachi-fridge-repair-in-dubai-hitachi-washing-machine-repair-in-dubai-hitachi-cooker-repair-in-dubai-hitachi-oven-repair-in-dubai-hitachi-appliances-maintenance-in-dubai-hitachi-refrigerator-fix-repa/",
-        element: <HitachiFridgeRepair/>
+        path: "/hitachi-fridge-repair-in-dubai-hitachi-washing-machine-repair-in-dubai-hitachi-cooker-repair-in-dubai-hitachi-oven-repair-in-dubai-hitachi-appliances-maintenance-in-dubai-hitachi-refrigerator-fix-repa/",
+        element: <HitachiFridgeRepair />
       },
       {
-        path:"/gaggenau-fridge-repair-in-dubai-gaggenau-washing-machine-repair-in-dubai-gaggenau-cooker-repair-in-dubai-gaggenau-oven-repair-in-dubai-gaggenau-appliances-maintenance-in-dubai-gaggenau-refrigerator-fi/",
-        element: <GaggenauFridgeRepair/>
+        path: "/gaggenau-fridge-repair-in-dubai-gaggenau-washing-machine-repair-in-dubai-gaggenau-cooker-repair-in-dubai-gaggenau-oven-repair-in-dubai-gaggenau-appliances-maintenance-in-dubai-gaggenau-refrigerator-fi/",
+        element: <GaggenauFridgeRepair />
       },
       {
         path: "/whirlpool-fridge-repair-in-dubai-whirlpool-washing-machine-repair-in-dubai-whirlpool-cooker-repair-in-dubai-whirlpool-oven-repair-in-dubai-whirlpool-appliances-maintenance-in-dubai-whirlpool-refrigera/",
-        element: <WhirlpoolFridgeRepair/>,
+        element: <WhirlpoolFridgeRepair />,
       },
-        {
+      {
         path: "/foster-appliances-services-foster-dishwasher-repair-service-in-dubai-foster-cooking-range-repair-service-in-dubai-foster-cooktop-repair-service-in-dubai-foster-oven-repair-in-dubai-foster-rangetop-r/",
-        element: <FosterAppliancesServices/>,
+        element: <FosterAppliancesServices />,
       },
       {
         path: "/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
-        element: <TekaHomeAppInstllation/>,
+        element: <TekaHomeAppInstllation />,
       },
-        {
+      {
         path: "/gorenje-fridge-repair-in-dubai-gorenje-washing-machine-repair-in-dubai-gorenje-cooker-repair-in-dubai-gorenje-oven-repair-in-dubai-gorenje-appliances-maintenance-in-dubai-gorenje-refrigerator-fix-repa/",
-        element: <GorenjeFridgeRepair/>,
+        element: <GorenjeFridgeRepair />,
       },
       {
         path: "/miele-fridge-repair-in-dubai-miele-washing-machine-repair-in-dubai-miele-cooker-repair-in-dubai-miele-oven-repair-in-dubai-miele-appliances-maintenance-in-dubai-miele-refrigerator-fix-repairs-service/",
-        element: <MieleFridgeRepair/>,
+        element: <MieleFridgeRepair />,
       },
       {
         path: "/wolf-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
-        element: <WolfHomeAppMaintenance/>,
+        element: <WolfHomeAppMaintenance />,
       },
       {
         path: "/toshiba-home-appliance-installation-maintenance-repair-fix-service-in-dubai-2/",
-        element: <ToshibaHomeAppMaintenance/>,
+        element: <ToshibaHomeAppMaintenance />,
       },
       {
         path: "/gibson-fridge-repair-in-dubai-gibson-washing-machine-repair-in-dubai-gibson-cooker-repair-in-dubai-gibson-oven-repair-in-dubai-gibson-appliances-maintenance-in-dubai-gibson-refrigerator-fix-repairs-se/",
-        element: <GibsoneFridgeRepair/>,
+        element: <GibsoneFridgeRepair />,
       },
 
       {
@@ -1157,11 +1175,11 @@ export const router = createBrowserRouter([
       },
       {
         path: "/bosch-home-appliances-repair/",
-        element: <BoschHomeAppliance/>,
+        element: <BoschHomeAppliance />,
       },
       {
         path: "/hisense-fridge-repair-in-dubai-hisense-washing-machine-repair-in-dubai-hisense-cooker-repair-in-dubai-hisense-oven-repair-in-dubai-hisense-appliances-maintenance-in-dubai-hisense-refrigerator-fix-repa/",
-        element: <HisenseFridgeRepair/>,
+        element: <HisenseFridgeRepair />,
       },
       {
         path: "/panasonic-fridge-repair-in-dubai-panasonic-washing-machine-repair-in-dubai-panasonic-cooker-repair-in-dubai-panasonic-oven-repair-in-dubai-panasonic-appliances-maintenance-in-dubai-panasonic-refrigera/",
@@ -1185,7 +1203,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "aftron-fridge-repair-in-dubai-aftron-washing-machine-repair-in-dubai-aftron-cooker-repair-in-dubai-aftron-oven-repair-in-dubai-aftron-appliances-maintenance-in-dubai-aftron-refrigerator-fix-repairs-se/",
-        element: <AftronFridgeRepair/>,
+        element: <AftronFridgeRepair />,
       },
       {
         path: "/hoover-fridge-repair-in-dubai-hoover-washing-machine-repair-in-dubai-hoover-cooker-repair-in-dubai-hoover-oven-repair-in-dubai-hoover-appliances-maintenance-in-dubai-hoover-refrigerator-fix-repairs-se/",
@@ -1214,6 +1232,72 @@ export const router = createBrowserRouter([
       {
         path: "/electrolux-fridge-repair-in-dubai-electrolux-washing-machine-repair-in-dubai-electrolux-cooker-repair-in-dubai-electrolux-oven-repair-in-dubai-electrolux-appliances-maintenance-in-dubai-electrolux-ref/",
         element: <ElectroluxFridgeRepair />,
+      },
+
+      {
+        path: "/admiral-fridge-repair-in-dubai-admiral-washing-machine-repair-in-dubai-admiral-cooker-repair-in-dubai-admiral-oven-repair-in-dubai-admiral-appliances-maintenance-in-dubai-admiral-refrigerator-fix-repa/",
+        element: <AdmiralFridgeRepair />,
+      },
+      {
+        path: "/bompani-fridge-repair-in-dubai-bompani-washing-machine-repair-in-dubai-bompani-cooker-repair-in-dubai-bompani-oven-repair-in-dubai-bompani-appliances-maintenance-in-dubai-bompani-refrigerator-fix-repa/",
+        element: <BompaniFridgeRepair />,
+      },
+      {
+        path: "/kenmore-appliances-service/",
+        element: <KenmoreAppliancesService />,
+      },
+      {
+        path: "/sharp-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
+        element: <SharpHomeAppliancesInstallation />,
+      },
+      {
+        path: "/unimac-washing-machine-repair-in-dubai-unimac-dryer-repair-in-dubai-unimac-washer-dryer-repair-in-dubai-unimac-maintenance-in-dubai-unimac-laundry-service-in-dubai-unimac-dubai/",
+        element: <UnimacWashingMachineRepair />,
+      },
+      {
+        path: "/haier-fridge-repair-in-dubai-haier-washing-machine-repair-in-dubai-haier-cooker-repair-in-dubai-haier-oven-repair-in-dubai-haier-appliances-maintenance-in-dubai-haier-refrigerator-fix-repairs-service/",
+        element: <HaierFridgeRepair />,
+      },
+      {
+        path: "/baumatic-appliances/",
+        element: <BaumaticAppliances />,
+      },
+      {
+        path: "/faber-appliances-service/",
+        element: <FaberAppliancesService />,
+      },
+      {
+        path: "/marvel-fridge-repair-in-dubai-marvel-washing-machine-repair-in-dubai-marvel-cooker-repair-in-dubai-marvel-oven-repair-in-dubai-marvel-appliances-maintenance-in-dubai-marvel-refrigerator-fix-repairs-se/",
+        element: <MarvelFridgeRepair />,
+      },
+      {
+        path: "/brandt-fridge-repair-in-dubai-brandt-washing-machine-repair-in-dubai-brandt-cooker-repair-in-dubai-brandt-oven-repair-in-dubai-brandt-appliances-maintenance-in-dubai-brandt-refrigerator-fix-repairs-se/",
+        element: <BrandtFridgeRepair />,
+      },
+      
+      {
+        path: "/thermador-appliances-service/",
+        element: <ThemadorAppliancesService />,
+      },
+      {
+        path: "/bertazzoni-refrigerator-repair-in-dubai-bertazzoni-appliances-service-bertazzoni-fridge-repair-in-dubai-bertazzoni-washing-machine-washer-bertazzoni-dryer-repair-in-dubai-bertazzoni-dishwasher-cooker/",
+        element: <BertazzoniRefrigeratorRepair />,
+      },
+      {
+        path: "/boston-refrigerator-repair-in-dubai-boston-appliances-service-boston-fridge-repair-in-dubai-boston-washing-machine-washer-boston-dryer-repair-in-dubai-boston-dishwasher-cooker/",
+        element: <BostonRefrigeratorRepair />,
+      },
+      {
+        path: "/kelvinator-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
+        element: <KelvinatorHomeAppInstallation />,
+      },
+      {
+        path: "/zanussi-fridge-repair-in-dubai-zanussi-washing-machine-repair-in-dubai-zanussi-cooker-repair-in-dubai-zanussi-oven-repair-in-dubai-zanussi-appliances-maintenance-in-dubai-zanussi-refrigerator-fix-repa/",
+        element: <ZanussiFridgeRepair />,
+      },
+      {
+        path: "/sears-home-appliances-installation-maintenance-repair-fix-service-in-dubai/",
+        element: <SearsHomeAppInstallation />,
       },
     ],
   }

@@ -16,7 +16,6 @@ import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppoin
 
 const SiemensHomeAppUnstallationDetail = ({ subtitle, title, bgImg }) => {
 
-
   // For SEO
   const titleSeo = "Siemens Home Appliances Repair – Washing Machine Repair";
   const description = "Are you looking for Siemens home appliance service? we experts Siemens washing machine repair, Siemens refrigerator, fridge, dishwasher repair dubai";
@@ -117,19 +116,19 @@ const SiemensHomeAppUnstallationDetail = ({ subtitle, title, bgImg }) => {
     <>
       <HelmetProvider>
         <title>{titleSeo}</title>
-                <meta name="description" content={description}></meta>
-                <meta name="keywords" content={Keyword} />
-                <meta name="author" content={Author} />
-                <meta name="robots" content="index, follow" />
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
 
-                <linK rel="canonical" href={titleSeo} />
-                <meta property="og:type" content="website" />
-                <meta property="og:locale" content="en_US" />
-                <meta property="og:title" content={titleSeo} />
-                <meta property="og:description" content={description} />
-                <meta property="og:type" content="website" />
-                <meta property="og:url" content={URL} />
-        
+        <linK rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
+
       </HelmetProvider>
       <HeaderForm />
 

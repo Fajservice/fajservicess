@@ -15,8 +15,6 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
 const FisherPaykelFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
-
-
   // For SEO
   const titleSeo = "Fisher and Paykel Fridge Repair & Dishwasher Services Dubai";
   const description = "Fisher and Paykel Fridge Repair Dubai. Get expert Fisher Paykel refrigerator, washing machine service, dishwasher, stove, and oven repairs near me";

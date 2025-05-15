@@ -15,8 +15,6 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
 const GaggenauFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
-
-
   // For SEO
   const titleSeo = "Gaggenau Fridge Repair – Cooker & Oven Service Dubai";
   const description = "Gaggenau Fridge Repair Dubai - Specializing in Gaggenau refrigerator repair, oven repair, stove fix, washing machine, and dishwasher repair. 043300002";

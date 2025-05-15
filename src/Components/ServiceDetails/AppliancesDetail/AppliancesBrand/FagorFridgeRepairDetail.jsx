@@ -15,8 +15,6 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
 const FagorFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
-
-
   // For SEO
   const titleSeo = "Fagor Fridge Repair - Dishwasher Service - Ice Machine";
   const description = "Fagor Fridge Repair Dubai. Get fast and reliable Fagor refrigerator, washing machine, dryer, dishwasher, ice maker, cooker & oven maintenance service";

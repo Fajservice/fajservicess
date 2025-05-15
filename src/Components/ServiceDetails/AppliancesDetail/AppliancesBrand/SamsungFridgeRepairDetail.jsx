@@ -13,6 +13,13 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
 const SamsungFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
+        // For SEO
+    const titleSeo = "Samsung Fridge Repair Dubai - Washing Machine Service - FAJ";
+    const description = "Looking for Samsung Fridge Repair in Dubai? Call 043300002 for quick Samsung washing machine repair, dryer, refrigerator, stove & dishwasher service";
+    const Author = "Faj Technical Servcies";
+    const Keyword = "";
+    const URL = "https://fajservices.com/samsung-fridge-repair-in-dubai-samsung-washing-machine-repair-in-dubai-samsung-cooker-repair-in-dubai-samsung-oven-repair-in-dubai-samsung-appliances-maintenance-in-dubai-samsung-refrigera";
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -105,8 +112,19 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
      <>
     <HelmetProvider>
-      <title>Samsung Fridge Repair Dubai - Washing Machine Service - FAJ</title>
-      <meta name="description" content="Looking for Samsung Fridge Repair in Dubai? Call 043300002 for quick Samsung washing machine repair, dryer, refrigerator, stove & dishwasher service"></meta>
+       <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+        <linK rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
+
     </HelmetProvider>
     <HeaderForm />
 

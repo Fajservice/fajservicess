@@ -15,8 +15,6 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
 const HitachiFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
-
-
   // For SEO
   const titleSeo = "Hitachi Fridge Repair - Refrigerator Service Near Me";
   const description = "Hitachi Fridge Repair Dubai - Get professional Hitachi refrigerator, freezer repair, dishwasher, washing machine, cooker & oven service near me";

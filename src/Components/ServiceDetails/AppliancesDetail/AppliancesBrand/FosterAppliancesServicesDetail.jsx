@@ -16,11 +16,11 @@ import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppoin
 
 const FosterAppliancesServicesDetail = ({ subtitle, title, bgImg }) => {
 
-
   // For SEO
   const titleSeo = "Foster Appliances Services – Dishwasher Repair Dubai - Oven";
   const description = "Foster Appliances Services Dubai.  Expert maintenance for Foster dishwasher, stove, hob, oven, fridge repair, and Foster appliance fix near you.";
   const Keyword = "";
+  const Author = "Faj Technical Servcies";
   const URL = "https://fajservices.com/foster-appliances-services-foster-dishwasher-repair-service-in-dubai-foster-cooking-range-repair-service-in-dubai-foster-cooktop-repair-service-in-dubai-foster-oven-repair-in-dubai-foster-rangetop-r/";
 
   subtitle = "Testimonial"

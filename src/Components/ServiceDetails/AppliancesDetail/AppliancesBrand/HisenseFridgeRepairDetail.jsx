@@ -14,6 +14,14 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
 const HisenseFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
+    // For SEO
+    const titleSeo = "Hisense Fridge Repair In Dubai - Washing Machine Service";
+    const description = "We provide the best Hisense fridge repair in dubai. Dail 043300002 for hisense washing machine, refrigerator, dishwasher, stove oven fix service near me";
+    const Author = "Faj Technical Servcies";
+    const Keyword = "";
+    const URL = "https://fajservices.com/hisense-fridge-repair-in-dubai-hisense-washing-machine-repair-in-dubai-hisense-cooker-repair-in-dubai-hisense-oven-repair-in-dubai-hisense-appliances-maintenance-in-dubai-hisense-refrigerator-fix-repa/";
+
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "img/testimonialbg.jpg"
@@ -106,9 +114,18 @@ const HisenseFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
     return (
         <>
             <HelmetProvider>
-                <title>Hisense Fridge Repair In Dubai - Washing Machine Service</title>
-                <meta name="description" content="We provide the best Hisense fridge repair in dubai. Dail 043300002 for hisense washing machine, refrigerator, dishwasher, stove oven fix service near me"></meta>
-            </HelmetProvider>
+                <title>{titleSeo}</title>
+                <meta name="description" content={description}></meta>
+                <meta name="keywords" content={Keyword} />
+                <meta name="author" content={Author} />
+                <meta name="robots" content="index, follow" />
+                <linK rel="canonical" href={titleSeo} />
+                <meta property="og:type" content="website" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="og:title" content={titleSeo} />
+                <meta property="og:description" content={description} />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content={URL} /></HelmetProvider>
             <HeaderForm />
 
             <div className="cs_service_details">

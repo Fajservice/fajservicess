@@ -5,7 +5,7 @@ const GaggenauFridgeRepair = () => {
   return (
     <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/Gorenja.avif"
+        bgImg="img/banners/homeappliancesbrands/Gaggenau.avif"
         Title="Gaggenau Fridge Repair & Service"
     ></BreadCumb>
 
