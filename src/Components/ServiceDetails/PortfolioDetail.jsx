@@ -47,41 +47,7 @@ const PortfolioDetail = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
-            <p>F A J Technical Services was established in May 2010 as an air conditioning systems maintenance company in Dubai. It has now gradually grown as a competitive technical services provider in Dubai, Abu Dhabi, and Sharjah. We focus on the International quality of technical services for air conditioning, refrigeration units, domestic & commercial appliances, MEP services, installation services, AMC maintenance, repair services, PPM services & annual maintenance contract services for industrial, commercial, and domestic use. Our company has gone from strength to strength, gaining the highly acclaimed Trusted Trader endorsements in 2024. We are committed to providing our customers calm, satisfaction & happiness. Our professional technical teams will provide you with their expertise and knowledge giving you peace of mind for all your appliances repair. First preference is given to our AMC customers, Al our services are carried out quickly and efficiently.We aim to make a positive impact through our innovations, efficient operations, relationships, voluntary contributions, and various other ways in which we engage with our business partners and society at large.</p>
-
-            <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
-                <WhatsappIconButton />
-              </div>
-            </div>
-            {/*  */}
-          </div>
-        </section>
-        <section className="section cs_py_30 bg-light-gray">
-          <div className="container">
-              <div className="row">
-                <div className="col-md-6">
-                  <h3>Our Values</h3>
-                  <p>At F A J Technical Services L.L.C, we live and work by “HITES” values.</p>
-                  <h4>Honesty</h4>
-                  <p>Form honest, transparent, ethical relationships with our customers, sub-contractors, suppliers, and colleagues.</p>
-                  <h4>Initiative</h4>
-                  <p>Dare to take initiative, suggest solutions and drive long-term value</p>
-                  <h4>Teamwork</h4>
-                  <p>Collaborate for success. Help each other perform, grow and develop. Empower, coach and train our people to be the best they can be</p>
-                </div>
-                <div className="col-md-6">
-                  <h3>Vision & Mission</h3>
-                  <p>We aim to provide solutions that are:</p>
-                  <h4>Vision & Mission</h4>
-                  <p>Provide innovative solutions in order to create maximum value and benefits beyond our contractual obligation.</p>
-                  <h4>Greener</h4>
-                  <p>Practical and scientific actions to help resolve the global challenges of energy production and <a href="https://www.google.com/search?q=faj+technical+services+l.l.c&amp;authuser=1&amp;sxsrf=AJOqlzUBcQcOaaKHSwQ5emcZC7HgQkeIrQ%3A1678784435677&amp;ei=szcQZLT4KJagkdUP8vOHsAM&amp;ved=0ahUKEwj0ncWvh9v9AhUWUKQEHfL5ATYQ4dUDCA8&amp;oq=faj+technical+services+l.l.c&amp;gs_lcp=Cgxnd3Mtd2l6LXNlcnAQDEoECEEYAFAAWABgAGgAcAF4AIABAIgBAJIBAJgBAA&amp;sclient=gws-wiz-serp#lpc=lpc" target="_blank" rel="noopener">conservation</a>.</p>
-                  <h4>Cost-Effective</h4>
-                  <p>Deliver services in the most cost-effective manner possible while still ensuring the highest standard of quality.</p>
-                </div>
-              </div>
+            <p>At FAJ Technical Services LLC, we are dedicated to providing comprehensive technical services, including installation, maintenance, and MEP services that enhance operational efficiency and sustainability. Our commitment to innovation and customer satisfaction aligns with your needs.</p>
           </div>
         </section>
         
@@ -92,397 +58,397 @@ const PortfolioDetail = ({ subtitle, title, bgImg }) => {
                 <div className="row">
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/NTDE.png" />
+                      <img src="/dist/img/portfolio-clients/NTDE.png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/Belhasa-real-estate.jpeg" />
+                      <img src="/dist/img/portfolio-clients/Belhasa-real-estate.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/Millennium.jpeg" />
+                      <img src="/dist/img/portfolio-clients/Millennium.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/abensal.jpg" />
+                      <img src="/dist/img/portfolio-clients/abensal.jpg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/tornatech-1.png" />
+                      <img src="/dist/img/portfolio-clients/tornatech-1.png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/holidayinn.jpeg" />
+                      <img src="/dist/img/portfolio-clients/holidayinn.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/partyzone.jpeg" />
+                      <img src="/dist/img/portfolio-clients/partyzone.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/imperial.jpeg" />
+                      <img src="/dist/img/portfolio-clients/imperial.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/pomegranate.jpeg" />
+                      <img src="/dist/img/portfolio-clients/pomegranate.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/emirates-catering.png" />
+                      <img src="/dist/img/portfolio-clients/emirates-catering.png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/roseleaf.jpeg" />
+                      <img src="/dist/img/portfolio-clients/roseleaf.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/z-cars.jpeg" />
+                      <img src="/dist/img/portfolio-clients/z-cars.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/AirForce.jpeg" />
+                      <img src="/dist/img/portfolio-clients/AirForce.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/transguard.jpeg" />
+                      <img src="/dist/img/portfolio-clients/transguard.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/tsm.jpeg" />
+                      <img src="/dist/img/portfolio-clients/tsm.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/tirinity.jpeg" />
+                      <img src="/dist/img/portfolio-clients/tirinity.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/silver.jpeg" />
+                      <img src="/dist/img/portfolio-clients/silver.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/takeda.jpeg" />
+                      <img src="/dist/img/portfolio-clients/takeda.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/cherwell.png" />
+                      <img src="/dist/img/portfolio-clients/cherwell.png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/mfl.jpeg" />
+                      <img src="/dist/img/portfolio-clients/mfl.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/sakr.jpeg" />
+                      <img src="/dist/img/portfolio-clients/sakr.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/ace.jpeg" />
+                      <img src="/dist/img/portfolio-clients/ace.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/uniworld.jpeg" />
+                      <img src="/dist/img/portfolio-clients/uniworld.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/mirchi.jpeg" />
+                      <img src="/dist/img/portfolio-clients/mirchi.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/desert.jpeg" />
+                      <img src="/dist/img/portfolio-clients/desert.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/fratelli.jpeg" />
+                      <img src="/dist/img/portfolio-clients/fratelli.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/VIKAS.jpeg" />
+                      <img src="/dist/img/portfolio-clients/VIKAS.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/core-me.jpeg" />
+                      <img src="/dist/img/portfolio-clients/core-me.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/autohaus.jpeg" />
+                      <img src="/dist/img/portfolio-clients/autohaus.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/AKAS.jpeg" />
+                      <img src="/dist/img/portfolio-clients/AKAS.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/MOBH.jpeg" />
+                      <img src="/dist/img/portfolio-clients/MOBH.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/gtech.jpeg" />
+                      <img src="/dist/img/portfolio-clients/gtech.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/layaly.jpeg" />
+                      <img src="/dist/img/portfolio-clients/layaly.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/seatrade.jpeg" />
+                      <img src="/dist/img/portfolio-clients/seatrade.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/accuro.png" />
+                      <img src="/dist/img/portfolio-clients/accuro.png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/max.jpeg" />
+                      <img src="/dist/img/portfolio-clients/max.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/zaya.jpeg" />
+                      <img src="/dist/img/portfolio-clients/zaya.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/al-rawabi.png" />
+                      <img src="/dist/img/portfolio-clients/al-rawabi.png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/six.jpeg" />
+                      <img src="/dist/img/portfolio-clients/six.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/watts.jpeg" />
+                      <img src="/dist/img/portfolio-clients/watts.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/mammaitalia.jpeg" />
+                      <img src="/dist/img/portfolio-clients/mammaitalia.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/kabab.jpeg" />
+                      <img src="/dist/img/portfolio-clients/kabab.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/urbantails.jpeg" />
+                      <img src="/dist/img/portfolio-clients/urbantails.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/al-thika.jpeg" />
+                      <img src="/dist/img/portfolio-clients/al-thika.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/dkint.jpeg" />
+                      <img src="/dist/img/portfolio-clients/dkint.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/dpworld.jpeg" />
+                      <img src="/dist/img/portfolio-clients/dpworld.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/goldensun.jpeg" />
+                      <img src="/dist/img/portfolio-clients/goldensun.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/ubl.png" />
+                      <img src="/dist/img/portfolio-clients/ubl.png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/berts.jpeg" />
+                      <img src="/dist/img/portfolio-clients/berts.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/beanstalk.jpeg" />
+                      <img src="/dist/img/portfolio-clients/beanstalk.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/reliance.png" />
+                      <img src="/dist/img/portfolio-clients/reliance.png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/BSBG.png" />
+                      <img src="/dist/img/portfolio-clients/BSBG.png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/al-rayan.png" />
+                      <img src="/dist/img/portfolio-clients/al-rayan.png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/golden-gate.png" />
+                      <img src="/dist/img/portfolio-clients/golden-gate.png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/neuro-spinal-hospital.png" />
+                      <img src="/dist/img/portfolio-clients/neuro-spinal-hospital.png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/Majid-al-futtaim.png" />
+                      <img src="/dist/img/portfolio-clients/Majid-al-futtaim.png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/cmc.png" />
+                      <img src="/dist/img/portfolio-clients/cmc.png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/saken-properties.png" />
+                      <img src="/dist/img/portfolio-clients/saken-properties.png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/al-yousaf-motor.png" />
+                      <img src="/dist/img/portfolio-clients/al-yousaf-motor.png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/EMS.png" />
+                      <img src="/dist/img/portfolio-clients/EMS.png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/caramel-group.png" />
+                      <img src="/dist/img/portfolio-clients/caramel-group.png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/obegi.png" />
+                      <img src="/dist/img/portfolio-clients/obegi.png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/concordia.png" />
+                      <img src="/dist/img/portfolio-clients/concordia.png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/driven-properties.png" />
+                      <img src="/dist/img/portfolio-clients/driven-properties.png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/foodie-co.png" />
+                      <img src="/dist/img/portfolio-clients/foodie-co.png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/mattress.png" />
+                      <img src="/dist/img/portfolio-clients/mattress.png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/al-baraa.png" />
+                      <img src="/dist/img/portfolio-clients/al-baraa.png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/inaya.png" />
+                      <img src="/dist/img/portfolio-clients/inaya.png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/droo.png" />
+                      <img src="/dist/img/portfolio-clients/droo.png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/cerruti.png" />
+                      <img src="/dist/img/portfolio-clients/cerruti.png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/jafza.png" />
+                      <img src="/dist/img/portfolio-clients/jafza.png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/high-mark.png" />
+                      <img src="/dist/img/portfolio-clients/high-mark.png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/shein.jpeg" />
+                      <img src="/dist/img/portfolio-clients/shein.jpeg" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/1 (1).png" />
+                      <img src="/dist/img/portfolio-clients/1 (1).png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/2.png" />
+                      <img src="/dist/img/portfolio-clients/2.png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/3.png" />
+                      <img src="/dist/img/portfolio-clients/3.png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/4.png" />
+                      <img src="/dist/img/portfolio-clients/4.png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/5.png" />
+                      <img src="/dist/img/portfolio-clients/5.png" />
                     </div>
                   </div>
                   <div className="col p-0">
                     <div className="portfolio-clnts-img">
-                      <img src="/img/portfolio-clients/6.png" />
+                      <img src="/dist/img/portfolio-clients/6.png" />
                     </div>
                   </div>
                 </div>
@@ -498,7 +464,7 @@ const PortfolioDetail = ({ subtitle, title, bgImg }) => {
                     <div className="portfolio-projects-infobox">
                       <div className="row">
                         <div className="col-lg-3 col-4">
-                          <img src="/img/portfolio-projects/AirForce.jpeg" />
+                          <img src="/dist/img/portfolio-projects/AirForce.jpeg" />
                         </div>
                         <div className="col-lg-9 col-8">
                           <h5 className="portfolio-pjt-info-box-title">USA AIR FORCE DHAFRAH AIR BASE – ABU DHABI</h5>
@@ -511,7 +477,7 @@ const PortfolioDetail = ({ subtitle, title, bgImg }) => {
                     <div className="portfolio-projects-infobox">
                       <div className="row">
                         <div className="col-lg-3 col-4">
-                          <img src="/img/portfolio-projects/AirForce.jpeg" />
+                          <img src="/dist/img/portfolio-projects/AirForce.jpeg" />
                         </div>
                         <div className="col-lg-9 col-8">
                           <h5 className="portfolio-pjt-info-box-title">USA AIR FORCE DHAFRAH AIR BASE – ABU DHABI</h5>
@@ -524,7 +490,7 @@ const PortfolioDetail = ({ subtitle, title, bgImg }) => {
                     <div className="portfolio-projects-infobox">
                       <div className="row">
                         <div className="col-lg-3 col-4">
-                          <img src="/img/portfolio-projects/nex.png" />
+                          <img src="/dist/img/portfolio-projects/nex.png" />
                         </div>
                         <div className="col-lg-9 col-8">
                           <h5 className="portfolio-pjt-info-box-title">USA NAVY BY NEX EXCHANGE – DUBAI</h5>
@@ -537,7 +503,7 @@ const PortfolioDetail = ({ subtitle, title, bgImg }) => {
                     <div className="portfolio-projects-infobox">
                       <div className="row">
                         <div className="col-lg-3 col-4">
-                          <img src="/img/portfolio-projects/china.jpg" />
+                          <img src="/dist/img/portfolio-projects/china.jpg" />
                         </div>
                         <div className="col-lg-9 col-8">
                           <h5 className="portfolio-pjt-info-box-title">CHINA PETROLEUM BUREAU DUBAI</h5>
@@ -550,7 +516,7 @@ const PortfolioDetail = ({ subtitle, title, bgImg }) => {
                     <div className="portfolio-projects-infobox">
                       <div className="row">
                         <div className="col-lg-3 col-4">
-                          <img src="/img/portfolio-projects/canadian.jpg" />
+                          <img src="/dist/img/portfolio-projects/canadian.jpg" />
                         </div>
                         <div className="col-lg-9 col-8">
                           <h5 className="portfolio-pjt-info-box-title">CANADIAN UNIVERSITY</h5>
@@ -563,7 +529,7 @@ const PortfolioDetail = ({ subtitle, title, bgImg }) => {
                     <div className="portfolio-projects-infobox">
                       <div className="row">
                         <div className="col-lg-3 col-4">
-                          <img src="/img/portfolio-projects/ibis.jpg" />
+                          <img src="/dist/img/portfolio-projects/ibis.jpg" />
                         </div>
                         <div className="col-lg-9 col-8">
                           <h5 className="portfolio-pjt-info-box-title">HOTEL IBIS WORLD TRADE CENTRE DUBAI</h5>
@@ -576,7 +542,7 @@ const PortfolioDetail = ({ subtitle, title, bgImg }) => {
                     <div className="portfolio-projects-infobox">
                       <div className="row">
                         <div className="col-lg-3 col-4">
-                          <img src="/img/portfolio-projects/jazeera.jpg" />
+                          <img src="/dist/img/portfolio-projects/jazeera.jpg" />
                         </div>
                         <div className="col-lg-9 col-8">
                           <h5 className="portfolio-pjt-info-box-title">UNIVERSITY OF JAZEERA</h5>
@@ -589,7 +555,7 @@ const PortfolioDetail = ({ subtitle, title, bgImg }) => {
                     <div className="portfolio-projects-infobox">
                       <div className="row">
                         <div className="col-lg-3 col-4">
-                          <img src="/img/portfolio-projects/parkside.png" />
+                          <img src="/dist/img/portfolio-projects/parkside.png" />
                         </div>
                         <div className="col-lg-9 col-8">
                           <h5 className="portfolio-pjt-info-box-title">PARKSIDE SUITES HOTEL APARTMENTS LLC</h5>
@@ -602,7 +568,7 @@ const PortfolioDetail = ({ subtitle, title, bgImg }) => {
                     <div className="portfolio-projects-infobox">
                       <div className="row">
                         <div className="col-lg-3 col-4">
-                          <img src="/img/portfolio-projects/middlesex.jpg" />
+                          <img src="/dist/img/portfolio-projects/middlesex.jpg" />
                         </div>
                         <div className="col-lg-9 col-8">
                           <h5 className="portfolio-pjt-info-box-title">Middlesex University</h5>
@@ -615,7 +581,7 @@ const PortfolioDetail = ({ subtitle, title, bgImg }) => {
                     <div className="portfolio-projects-infobox">
                       <div className="row">
                         <div className="col-lg-3 col-4">
-                          <img src="/img/portfolio-projects/crowneplaza.jpg" />
+                          <img src="/dist/img/portfolio-projects/crowneplaza.jpg" />
                         </div>
                         <div className="col-lg-9 col-8">
                           <h5 className="portfolio-pjt-info-box-title">Crowne Plaza Hotels</h5>
@@ -628,7 +594,7 @@ const PortfolioDetail = ({ subtitle, title, bgImg }) => {
                     <div className="portfolio-projects-infobox">
                       <div className="row">
                         <div className="col-lg-3 col-4">
-                          <img src="/img/portfolio-projects/repton.png" />
+                          <img src="/dist/img/portfolio-projects/repton.png" />
                         </div>
                         <div className="col-lg-9 col-8">
                           <h5 className="portfolio-pjt-info-box-title">REPTON SCHOOL</h5>
@@ -641,7 +607,7 @@ const PortfolioDetail = ({ subtitle, title, bgImg }) => {
                     <div className="portfolio-projects-infobox">
                       <div className="row">
                         <div className="col-lg-3 col-4">
-                          <img src="/img/portfolio-projects/dukes.jpg" />
+                          <img src="/dist/img/portfolio-projects/dukes.jpg" />
                         </div>
                         <div className="col-lg-9 col-8">
                           <h5 className="portfolio-pjt-info-box-title">Dukes Hotels</h5>
@@ -654,7 +620,7 @@ const PortfolioDetail = ({ subtitle, title, bgImg }) => {
                     <div className="portfolio-projects-infobox">
                       <div className="row">
                         <div className="col-lg-3 col-4">
-                          <img src="/img/portfolio-projects/fawaz.jpg" />
+                          <img src="/dist/img/portfolio-projects/fawaz.jpg" />
                         </div>
                         <div className="col-lg-9 col-8">
                           <h5 className="portfolio-pjt-info-box-title">Fawaz Trading and Engineering Services.CO LLC</h5>
@@ -667,7 +633,7 @@ const PortfolioDetail = ({ subtitle, title, bgImg }) => {
                     <div className="portfolio-projects-infobox">
                       <div className="row">
                         <div className="col-lg-3 col-4">
-                          <img src="/img/portfolio-projects/movenpick.jpg" />
+                          <img src="/dist/img/portfolio-projects/movenpick.jpg" />
                         </div>
                         <div className="col-lg-9 col-8">
                           <h5 className="portfolio-pjt-info-box-title">Movenpick Hotels</h5>
@@ -680,7 +646,7 @@ const PortfolioDetail = ({ subtitle, title, bgImg }) => {
                     <div className="portfolio-projects-infobox">
                       <div className="row">
                         <div className="col-lg-3 col-4">
-                          <img src="/img/portfolio-projects/baumatic.jpg" />
+                          <img src="/dist/img/portfolio-projects/baumatic.jpg" />
                         </div>
                         <div className="col-lg-9 col-8">
                           <h5 className="portfolio-pjt-info-box-title">BAUMATIC MIDDLE EAST</h5>
@@ -693,7 +659,7 @@ const PortfolioDetail = ({ subtitle, title, bgImg }) => {
                     <div className="portfolio-projects-infobox">
                       <div className="row">
                         <div className="col-lg-3 col-4">
-                          <img src="/img/portfolio-projects/eminence.jpg" />
+                          <img src="/dist/img/portfolio-projects/eminence.jpg" />
                         </div>
                         <div className="col-lg-9 col-8">
                           <h5 className="portfolio-pjt-info-box-title">Eminence International Contracting Co LLC</h5>
@@ -706,7 +672,7 @@ const PortfolioDetail = ({ subtitle, title, bgImg }) => {
                     <div className="portfolio-projects-infobox">
                       <div className="row">
                         <div className="col-lg-3 col-4">
-                          <img src="/img/portfolio-projects/transguard.jpeg" />
+                          <img src="/dist/img/portfolio-projects/transguard.jpeg" />
                         </div>
                         <div className="col-lg-9 col-8">
                           <h5 className="portfolio-pjt-info-box-title">TRANSGUARD GROUP LLC</h5>
@@ -719,7 +685,7 @@ const PortfolioDetail = ({ subtitle, title, bgImg }) => {
                     <div className="portfolio-projects-infobox">
                       <div className="row">
                         <div className="col-lg-3 col-4">
-                          <img src="/img/portfolio-projects/alstom.jpg" />
+                          <img src="/dist/img/portfolio-projects/alstom.jpg" />
                         </div>
                         <div className="col-lg-9 col-8">
                           <h5 className="portfolio-pjt-info-box-title">ALSTOM</h5>
@@ -732,7 +698,7 @@ const PortfolioDetail = ({ subtitle, title, bgImg }) => {
                     <div className="portfolio-projects-infobox">
                       <div className="row">
                         <div className="col-lg-3 col-4">
-                          <img src="/img/portfolio-projects/bertoni.jpg" />
+                          <img src="/dist/img/portfolio-projects/bertoni.jpg" />
                         </div>
                         <div className="col-lg-9 col-8">
                           <h5 className="portfolio-pjt-info-box-title">BERTONI LLC</h5>
@@ -745,7 +711,7 @@ const PortfolioDetail = ({ subtitle, title, bgImg }) => {
                     <div className="portfolio-projects-infobox">
                       <div className="row">
                         <div className="col-lg-3 col-4">
-                          <img src="/img/portfolio-projects/dubai-properties.jpg" />
+                          <img src="/dist/img/portfolio-projects/dubai-properties.jpg" />
                         </div>
                         <div className="col-lg-9 col-8">
                           <h5 className="portfolio-pjt-info-box-title">Dubai Properties</h5>
@@ -758,7 +724,7 @@ const PortfolioDetail = ({ subtitle, title, bgImg }) => {
                     <div className="portfolio-projects-infobox">
                       <div className="row">
                         <div className="col-lg-3 col-4">
-                          <img src="/img/portfolio-projects/nandos.jpg" />
+                          <img src="/dist/img/portfolio-projects/nandos.jpg" />
                         </div>
                         <div className="col-lg-9 col-8">
                           <h5 className="portfolio-pjt-info-box-title">NANDO’S</h5>
@@ -771,7 +737,7 @@ const PortfolioDetail = ({ subtitle, title, bgImg }) => {
                     <div className="portfolio-projects-infobox">
                       <div className="row">
                         <div className="col-lg-3 col-4">
-                          <img src="/img/portfolio-projects/tsm.jpeg" />
+                          <img src="/dist/img/portfolio-projects/tsm.jpeg" />
                         </div>
                         <div className="col-lg-9 col-8">
                           <h5 className="portfolio-pjt-info-box-title">TALAL SUPERMARKET</h5>
@@ -784,7 +750,7 @@ const PortfolioDetail = ({ subtitle, title, bgImg }) => {
                     <div className="portfolio-projects-infobox">
                       <div className="row">
                         <div className="col-lg-3 col-4">
-                          <img src="/img/portfolio-projects/eskinita.jpg" />
+                          <img src="/dist/img/portfolio-projects/eskinita.jpg" />
                         </div>
                         <div className="col-lg-9 col-8">
                           <h5 className="portfolio-pjt-info-box-title">ESKINITA RESTAURANT AT WELCOME HOTEL</h5>
@@ -797,7 +763,7 @@ const PortfolioDetail = ({ subtitle, title, bgImg }) => {
                     <div className="portfolio-projects-infobox">
                       <div className="row">
                         <div className="col-lg-3 col-4">
-                          <img src="/img/portfolio-projects/partyzone.jpeg" />
+                          <img src="/dist/img/portfolio-projects/partyzone.jpeg" />
                         </div>
                         <div className="col-lg-9 col-8">
                           <h5 className="portfolio-pjt-info-box-title">Party Zone LLC</h5>
@@ -810,7 +776,7 @@ const PortfolioDetail = ({ subtitle, title, bgImg }) => {
                     <div className="portfolio-projects-infobox">
                       <div className="row">
                         <div className="col-lg-3 col-4">
-                          <img src="/img/portfolio-projects/uniworld.png" />
+                          <img src="/dist/img/portfolio-projects/uniworld.png" />
                         </div>
                         <div className="col-lg-9 col-8">
                           <h5 className="portfolio-pjt-info-box-title">Uniworld Medical FZE</h5>
@@ -823,7 +789,7 @@ const PortfolioDetail = ({ subtitle, title, bgImg }) => {
                     <div className="portfolio-projects-infobox">
                       <div className="row">
                         <div className="col-lg-3 col-4">
-                          <img src="/img/portfolio-projects/beirut.jpg" />
+                          <img src="/dist/img/portfolio-projects/beirut.jpg" />
                         </div>
                         <div className="col-lg-9 col-8">
                           <h5 className="portfolio-pjt-info-box-title">BEIRUT RESTAURANT & GRILLS</h5>
@@ -836,7 +802,7 @@ const PortfolioDetail = ({ subtitle, title, bgImg }) => {
                     <div className="portfolio-projects-infobox">
                       <div className="row">
                         <div className="col-lg-3 col-4">
-                          <img src="/img/portfolio-projects/nmc.png" />
+                          <img src="/dist/img/portfolio-projects/nmc.png" />
                         </div>
                         <div className="col-lg-9 col-8">
                           <h5 className="portfolio-pjt-info-box-title">NMC Hospital</h5>
@@ -854,9 +820,7 @@ const PortfolioDetail = ({ subtitle, title, bgImg }) => {
             subtitle2="Contact us"
             title2="Book An Appointment"
           ></Serviceappointemnt>
-
         </section>
-
       </div >
     </>
   );

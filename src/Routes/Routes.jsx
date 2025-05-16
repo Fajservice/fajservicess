@@ -117,9 +117,7 @@ import KitchenEquipmentAMC from "../Pages/KitchenEquipPages/KitchenEquipmentAMC"
 import KitchenEquipmentRepair from "../Pages/KitchenEquipPages/KitchenEquipmentRepair";
 import IceMakerRepair from "../Pages/RefrigerationEquipPages/IceMakerRepair";
 import RefrigerationAMCServices from "../Pages/RefrigerationEquipPages/RefrigerationAMCServices";
-// import WalkInRefrigerationServices from "../Pages/RefrigerationEquipPages/WalkInRefrigerationServices";
-// import FreezerAndChillerMaintenance from "../Pages/RefrigerationEquipPages/FreezerAndChillerMaintenance";
-import CommercialRefrigeratorRepair from "../Pages/RefrigerationEquipPages/CommercialRefrigeratorRepair";
+import CommercialRefrigerationMaintence from "../Pages/RefrigerationEquipPages/CommercialRefrigerationMaintence";
 import AcRepairInJumeirahHeights from "../Pages/AcPages/AcLocation/AcRepairInJumeirahHeights";
 import AcRepairInQuozIndustrialArea from "../Pages/AcPages/AcLocation/AcRepairInQuozIndustrialArea";
 import AcRepairInTheLakes from "../Pages/AcPages/AcLocation/AcRepairInTheLakes";
@@ -152,8 +150,6 @@ import AcRepairInDifc from "../Pages/AcPages/AcLocation/AcRepairInDifc";
 import AcRepairInAlBarsha from "../Pages/AcPages/AcLocation/AcRepairInAlBarsha";
 import AcRepairInAlRaffa from "../Pages/AcPages/AcLocation/AcRepairInAlRaffa";
 import AcRepairInOldTown from "../Pages/AcPages/AcLocation/AcRepairInOldTown";
-// import FoodWarmerRepair from "../Pages/KitchenEquipPages/FoodWarmerRepair";
-// import DoughMixerRepair from "../Pages/KitchenEquipPages/DoughMixerRepair";
 import MeatGrinderRepair from "../Pages/KitchenEquipPages/MeatGrinderRepair";
 import CommercialDishwasherServices from "../Pages/CommercialDishwasherServices.jsx";
 import CommercialWashingMachineRepair from "../Pages/CommercialLaundryEquipPages/CommercialWashingMachineRepair";
@@ -190,7 +186,6 @@ import AcRepairandServiceInEmiratesHills from "../Pages/AcPages/AcLocation/AcRep
 import AcRepairandServiceInTownSquare from "../Pages/AcPages/AcLocation/AcRepairandServiceInTownSquare";
 import AcServiceInDubai from "../Pages/AcServiceInDubai.jsx";
 import BBQService from "../Pages/HomeAppPages/BBQService.jsx";
-
 import IndesitWashingMachine from "../Pages/AppliancesPage/AppliancesBrand/IndesitWashingMachine.jsx";
 import ElicaAppliancesService from "../Pages/AppliancesPage/AppliancesBrand/ElicaAppliancesService.jsx";
 import FagorFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/FagorFridgeRepair.jsx";
@@ -211,7 +206,6 @@ import MieleFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/MieleFrid
 import WolfHomeAppMaintenance from "../Pages/AppliancesPage/AppliancesBrand/WolfHomeAppMaintenance.jsx";
 import ToshibaHomeAppMaintenance from "../Pages/AppliancesPage/AppliancesBrand/ToshibaHomeAppMaintenance.jsx";
 import GibsoneFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/GibsoneFridgeRepair.jsx";
-
 import VikingAppliancesService from "../Pages/AppliancesPage/AppliancesBrand/VikingAppliancesService.jsx";
 import SamsungFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/SamsungFridgeRepair.jsx";
 import SanyoHomeAppliance from "../Pages/AppliancesPage/AppliancesBrand/SanyoHomeAppliance.jsx";
@@ -350,15 +344,6 @@ export const router = createBrowserRouter([
         path: "/commercial-laundry-equipment-service/",
         element: <CommercialLaundryEquipmentService />
       },
-
-      // {
-      //   path: "/food-warmer-repair/",
-      //   element: <FoodWarmerRepair />,
-      // },
-      // {
-      //   path: "/dough-mixer-repair",
-      //   element: <DoughMixerRepair />
-      // },
       {
         path: "/commercial-kitchen-equipment-amc/",
         element: <KitchenEquipmentAMC />,
@@ -375,17 +360,9 @@ export const router = createBrowserRouter([
         path: "/commercial-freezer-chiller-amc-service/",
         element: <RefrigerationAMCServices />,
       },
-      // {
-      //   path: "/walk-in-freezer-display-freezer-open-freezer-maintenance/",
-      //   element: <WalkInRefrigerationServices />,
-      // },
-      // {
-      //   path: "/freezer-chiller-repair-service/",
-      //   element: <FreezerAndChillerMaintenance />,
-      // },
       {
-        path: "/commercial-refrigeration-services/",
-        element: <CommercialRefrigeratorRepair />,
+        path: "/commercial-refrigeration-maintenance/",
+        element: <CommercialRefrigerationMaintence />,
       },
       {
         path: "/gas-cooker-repair-service/",
@@ -1199,7 +1176,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
-        element: <DaewooHomeAppliance />,
+        element: <DaewooHomeApplianceRepair />,
       },
       {
         path: "aftron-fridge-repair-in-dubai-aftron-washing-machine-repair-in-dubai-aftron-cooker-repair-in-dubai-aftron-oven-repair-in-dubai-aftron-appliances-maintenance-in-dubai-aftron-refrigerator-fix-repairs-se/",
@@ -1215,7 +1192,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/daewoo-home-appliances-repair/",
-        element: <DaewooHomeApplianceRepair />,
+        element: <DaewooHomeAppliance />,
       },
       {
         path: "/bosch-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
