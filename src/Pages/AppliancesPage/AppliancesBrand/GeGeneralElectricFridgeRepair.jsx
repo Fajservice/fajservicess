@@ -1,0 +1,17 @@
+import BreadCumb from "../../../Components/Common/BreadCumb";
+import GeGeneralElectricFridgeRepairDetail from '../../../Components/ServiceDetails/AppliancesDetail/AppliancesBrand/GeGeneralElectricFridgeRepairDetail';
+
+const GeGeneralElectricFridgeRepair = () => {
+  return (
+    <div className="serviceDetails">
+      <BreadCumb
+        bgImg="img/banners/homeappliancesbrands/Gegeneral.avif"
+        Title="GeGenral Fridge Repair & Service"
+      ></BreadCumb>
+
+      <GeGeneralElectricFridgeRepairDetail />
+    </div>
+  );
+};
+
+export default GeGeneralElectricFridgeRepair;

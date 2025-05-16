@@ -4,13 +4,13 @@ import BertazzoniRefrigeratorRepairDetail from '../../../Components/ServiceDetai
 const BertazzoniRefrigeratorRepair = () => {
   return (
     <div className="serviceDetails">
-    <BreadCumb
+      <BreadCumb
         bgImg="img/banners/homeappliancesbrands/bertazzoni.avif"
         Title="Bertazzoni Refrigerator Repair"
-    ></BreadCumb>
+      ></BreadCumb>
 
-    <BertazzoniRefrigeratorRepairDetail />        
-</div>
+      <BertazzoniRefrigeratorRepairDetail />
+    </div>
   );
 };
 

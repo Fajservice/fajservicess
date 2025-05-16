@@ -4,13 +4,13 @@ import KelvinatorHomeAppInstallationDetail from '../../../Components/ServiceDeta
 const KelvinatorHomeAppInstallation = () => {
   return (
     <div className="serviceDetails">
-    <BreadCumb
+      <BreadCumb
         bgImg="img/banners/homeappliancesbrands/Kelvinator.avif"
         Title="Kelvinator Home Appliances Installation"
-    ></BreadCumb>
+      ></BreadCumb>
 
-    <KelvinatorHomeAppInstallationDetail />        
-</div>
+      <KelvinatorHomeAppInstallationDetail />
+    </div>
   );
 };
 

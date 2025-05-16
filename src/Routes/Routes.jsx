@@ -224,8 +224,8 @@ import SiemensHomeAppliance from "../Pages/AppliancesPage/AppliancesBrand/Siemen
 import TerimAppliance from "../Pages/AppliancesPage/AppliancesBrand/TerimAppliance.jsx";
 import BlombergFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/BlombergFridgeRepair.jsx";
 import DaewooHomeAppliance from "../Pages/AppliancesPage/AppliancesBrand/DaewooHomeAppliance.jsx";
-
 import AftronFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/AftronFridgeRepair.jsx";
+
 import HooverFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/HooverFridgeRepair.jsx";
 import LgFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/LgFridgeRepair.jsx";
 import DaewooHomeApplianceRepair from "../Pages/AppliancesPage/AppliancesBrand/DaewooHomeApplianceRepair.jsx";
@@ -249,6 +249,25 @@ import BostonRefrigeratorRepair from "../Pages/AppliancesPage/AppliancesBrand/Bo
 import KelvinatorHomeAppInstallation from "../Pages/AppliancesPage/AppliancesBrand/KelvinatorHomeAppInstallation.jsx";
 import ZanussiFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/ZanussiFridgeRepair.jsx";
 import SearsHomeAppInstallation from "../Pages/AppliancesPage/AppliancesBrand/SearsHomeAppInstallation.jsx";
+
+import BaumaticRefrigeratorRepair from "../Pages/AppliancesPage/AppliancesBrand/BaumaticRefrigeratorRepair.jsx";
+import GeGeneralElectricFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/GeGeneralElectricFridgeRepair.jsx";
+import KitchenaidRefrigeratorRepair from "../Pages/AppliancesPage/AppliancesBrand/KitchenaidRefrigeratorRepair.jsx";
+import WestpointFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/WestpointFridgeRepair.jsx";
+import LiebherrRefrigeratorRepair from "../Pages/AppliancesPage/AppliancesBrand/LiebherrRefrigeratorRepair.jsx";
+import WhiteWestinghouseFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/WhiteWestinghouseFridgeRepair.jsx";
+import SpeedQueenWashingMachineRepair from "../Pages/AppliancesPage/AppliancesBrand/SpeedQueenWashingMachineRepair.jsx";
+import FrankeAppliancesRepairService from "../Pages/AppliancesPage/AppliancesBrand/FrankeAppliancesRepairService.jsx";
+
+import IfbRefrigeratorRepair from "../Pages/AppliancesPage/AppliancesBrand/IfbRefrigeratorRepair.jsx";
+import KitchenaidStandMixerRepairService from "../Pages/AppliancesPage/AppliancesBrand/KitchenaidStandMixerRepairService.jsx";
+import KenwoodStandMixerRepairService from "../Pages/AppliancesPage/AppliancesBrand/KenwoodStandMixerRepairService.jsx";
+import CandyRefrigeratorRepair from "../Pages/AppliancesPage/AppliancesBrand/CandyRefrigeratorRepair.jsx";
+import HotpointRefrigeratorRepair from "../Pages/AppliancesPage/AppliancesBrand/HotpointRefrigeratorRepair.jsx";
+import DeDietrichFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/DeDietrichFridgeRepair.jsx";
+import SmegMixerRepairService from "../Pages/AppliancesPage/AppliancesBrand/SmegMixerRepairService.jsx";
+import LaGermaniaCookingRangeRepair from "../Pages/AppliancesPage/AppliancesBrand/LaGermaniaCookingRangeRepair.jsx";
+import DelonghiCoffeeMachineRepair from "../Pages/AppliancesPage/AppliancesBrand/DelonghiCoffeeMachineRepair.jsx";
 
 
 import AcRepairInDownTown from "../Pages/AcPages/AcLocation/AcRepairInDowntown.jsx";
@@ -1298,6 +1317,75 @@ export const router = createBrowserRouter([
       {
         path: "/sears-home-appliances-installation-maintenance-repair-fix-service-in-dubai/",
         element: <SearsHomeAppInstallation />,
+      },
+
+      {
+        path: "/baumatic-refrigerator-repair-in-dubai-fridge-repair-in-dubai-washing-machine-repair-in-dubai-dishwasher-cooker-oven-repairs-fix-service-in-dubai-error/",
+        element: <BaumaticRefrigeratorRepair/>,
+      },
+      {
+        path: "/ge-general-electric-fridge-repair-in-dubai-ge-general-electric-washing-machine-repair-in-dubai-ge-general-electric-cooker-repair-in-dubai-ge-general-electric-oven-repair-in-dubai-ge-general-electric-a/",
+        element: <GeGeneralElectricFridgeRepair/>,
+      },
+      {
+        path: "/kitchenaid-refrigerator-repair-in-dubai-fridge-repair-in-dubai-kitchenaid-freezer-maintenance-in-dubai-washing-machine-repair-in-dubai-dishwasher-kitchenaid-cooker-oven-repairs-fix-service-in-dubai/",
+        element: <KitchenaidRefrigeratorRepair/>,
+      },
+      {
+        path: "/westpoint-fridge-repair-in-dubai-westpoint-washing-machine-repair-in-dubai-westpoint-cooker-repair-in-dubai-westpoint-oven-repair-in-dubai-westpoint-refrigerator-fix-repairs-service-in-dubai-west-poin/",
+        element: <WestpointFridgeRepair/>,
+      },
+      {
+        path: "/liebherr-refrigerator-repair-in-dubai-liebherr-fridge-repair-in-dubai-liebherr-freezer-maintenance-service-in-dubai/",
+        element: <LiebherrRefrigeratorRepair/>,
+      },
+      {
+        path: "/white-westinghouse-fridge-repair-in-dubai-white-westinghouse-washing-machine-repair-in-dubai-white-westinghouse-cooker-repair-in-dubai-white-westinghouse-oven-repair-in-dubai-white-westinghouse-applia/",
+        element: <WhiteWestinghouseFridgeRepair/>,
+      },
+      {
+        path: "/speed-queen-washing-machine-repair-in-dubai-speed-queen-dryer-repair-in-dubai-speed-queen-washer-dryer-repair-in-dubai-maintenance-fix-service-in-dubai/",
+        element: <SpeedQueenWashingMachineRepair/>,
+      },
+      {
+        path: "/franke-appliances-repair-service-in-dubai/",
+        element: <FrankeAppliancesRepairService/>,
+      },
+      {
+        path: "/ifb-refrigerator-repair-in-dubai-fridge-repair-in-dubai-washing-machine-repair-in-dubai-dishwasher-cooker-oven-repairs-fix-service-in-dubai/",
+        element: <IfbRefrigeratorRepair/>,
+      },
+      {
+        path: "/kitchenaid-stand-mixer-repair-service-near-me-dubai/",
+        element: <KitchenaidStandMixerRepairService/>,
+      },
+      {
+        path: "/kenwood-stand-mixer-repair-service-near-me-dubai/",
+        element: <KenwoodStandMixerRepairService/>,
+      },
+      {
+        path: "/candy-refrigerator-repair-in-dubai-fridge-repair-in-dubai-washing-machine-repair-in-dubai-dishwasher-cooker-oven-repairs-fix-service-in-dubai/",
+        element: <CandyRefrigeratorRepair/>,
+      },
+      {
+        path: "/hotpoint-refrigerator-repair-in-dubai-hotpoint-fridge-repair-in-dubai-hotpoint-washing-machine-repair-in-dubai-hotpoint-dishwasher-cooker-oven-repairs-fix-service-in-dubai/",
+        element: <HotpointRefrigeratorRepair/>,
+      },
+      {
+        path: "/de-dietrich-fridge-repair-in-dubai-de-dietrich-washing-machine-repair-in-dubai-de-dietrich-cooker-repair-in-dubai-de-dietrich-oven-repair-in-dubai-de-dietrich-appliances-maintenance-in-dubai-de-dietri/",
+        element: <DeDietrichFridgeRepair/>,
+      },
+      {
+        path: "/smeg-mixer-repair-service-near-me-dubai/",
+        element: <SmegMixerRepairService/>,
+      },
+      {
+        path: "/la-germania-cooking-range-repair-in-dubai-la-germania-oven-repair-in-dubai-la-germania-cooker-repair-in-dubai-la-germania-cooker-oven-maintenance-service-in-dubai-refrigerator-repair-in-dubai-fridge-r/",
+        element: <LaGermaniaCookingRangeRepair/>,
+      },
+      {
+        path: "/delonghi-coffee-machine-repair/",
+        element: <DelonghiCoffeeMachineRepair/>,
       },
     ],
   }
