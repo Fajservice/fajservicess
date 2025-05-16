@@ -4,13 +4,13 @@ import MarvelFridgeRepairDetail from '../../../Components/ServiceDetails/Applian
 const MarvelFridgeRepair = () => {
   return (
     <div className="serviceDetails">
-    <BreadCumb
+      <BreadCumb
         bgImg="img/banners/homeappliancesbrands/marvel.avif"
         Title="Marvel Fridge Repair"
-    ></BreadCumb>
+      ></BreadCumb>
 
-    <MarvelFridgeRepairDetail />        
-</div>
+      <MarvelFridgeRepairDetail />
+    </div>
   );
 };
 

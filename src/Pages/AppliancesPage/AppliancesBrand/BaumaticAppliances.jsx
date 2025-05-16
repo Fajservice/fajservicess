@@ -4,13 +4,13 @@ import BaumaticAppliancesDetail from '../../../Components/ServiceDetails/Applian
 const BaumaticAppliances = () => {
   return (
     <div className="serviceDetails">
-    <BreadCumb
+      <BreadCumb
         bgImg="img/banners/homeappliancesbrands/Baumatic-banner.avif"
         Title="Baumatic Appliances"
-    ></BreadCumb>
+      ></BreadCumb>
 
-    <BaumaticAppliancesDetail />        
-</div>
+      <BaumaticAppliancesDetail />
+    </div>
   );
 };
 

@@ -13,6 +13,14 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 const FosterApplianceDetail = ({ subtitle, title, bgImg }) => {
+    // For SEO
+    const titleSeo = "Foster Appliances Service - Foster Dishwasher Repair Dubai";
+    const description = "Get Reliable Foster appliances service in Dubai. We provide refrigerator, dishwasher, washing machine, stove, oven repair & maintenance Call 043300002";
+    const Author = "Faj Technical Servcies";
+    const Keyword = "";
+    const URL = "https://fajservices.com/foster-appliances-service/";
+
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "img/testimonialbg.jpg"
@@ -102,11 +110,21 @@ const FosterApplianceDetail = ({ subtitle, title, bgImg }) => {
             }
         ]
     };
-  return (
-   <>
+    return (
+        <>
             <HelmetProvider>
-                <title>Foster Appliances Service - Foster Dishwasher Repair Dubai</title>
-                <meta name="description" content="Get Reliable Foster appliances service in Dubai. We provide refrigerator, dishwasher, washing machine, stove, oven repair & maintenance Call 043300002"></meta>
+                <title>{titleSeo}</title>
+                <meta name="description" content={description}></meta>
+                <meta name="keywords" content={Keyword} />
+                <meta name="author" content={Author} />
+                <meta name="robots" content="index, follow" />
+                <linK rel="canonical" href={titleSeo} />
+                <meta property="og:type" content="website" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="og:title" content={titleSeo} />
+                <meta property="og:description" content={description} />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content={URL} />
             </HelmetProvider>
             <HeaderForm />
 
@@ -143,8 +161,8 @@ const FosterApplianceDetail = ({ subtitle, title, bgImg }) => {
                                     <br /> We're nearby and can get your appliances fixed quickly and efficiently.
                                 </p>
 
-                                 <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Equipment Technical Inspection Fee</h3>
-                <p className="mb-0">The technical inspection fee which covers diagnosis, transportation, and reinstallation in Dubai premises. Please note that this fee is non-refundable.</p>
+                                <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Equipment Technical Inspection Fee</h3>
+                                <p className="mb-0">The technical inspection fee which covers diagnosis, transportation, and reinstallation in Dubai premises. Please note that this fee is non-refundable.</p>
                             </div>
 
                             <div className="col-md-6 ">
@@ -545,7 +563,7 @@ const FosterApplianceDetail = ({ subtitle, title, bgImg }) => {
 
             </div >
         </>
-  )
+    )
 }
 
 export default FosterApplianceDetail

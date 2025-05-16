@@ -4,13 +4,13 @@ import BostonRefrigeratorRepairDetail from '../../../Components/ServiceDetails/A
 const BostonRefrigeratorRepair = () => {
   return (
     <div className="serviceDetails">
-    <BreadCumb
+      <BreadCumb
         bgImg="img/banners/homeappliancesbrands/Boston.avif"
         Title="Boston Refrigerator Repair"
-    ></BreadCumb>
+      ></BreadCumb>
 
-    <BostonRefrigeratorRepairDetail />        
-</div>
+      <BostonRefrigeratorRepairDetail />
+    </div>
   );
 };
 

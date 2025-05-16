@@ -14,6 +14,13 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
 const SiemensHomeApplianceDetail = ({ subtitle, title, bgImg }) => {
+    // For SEO
+    const titleSeo = "Siemens Washing Machine Repair – Refrigerator Service Dubai";
+    const description = "Get Siemens home appliances Repair - FAJ Experts Siemens fridges, Simenes dishwasher, dryer, washing machine, stove service near me 04 3300002";
+    const Author = "Faj Technical Servcies";
+    const Keyword = "";
+    const URL = "https://fajservices.com/siemens-home-appliance-installation-maintenance-repair-fix-service-in-dubai/";
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "img/testimonialbg.jpg"
@@ -103,12 +110,22 @@ const SiemensHomeApplianceDetail = ({ subtitle, title, bgImg }) => {
             }
         ]
     };
-  return (
-     <>
+    return (
+        <>
             <HelmetProvider>
-                <title>Siemens Washing Machine Repair – Refrigerator Service Dubai</title>
-                <meta name="description" content="Get Siemens home appliances Repair - FAJ Experts Siemens fridges, Simenes dishwasher, dryer, washing machine, stove service near me 04 3300002"></meta>
-            </HelmetProvider>
+
+                <title>{titleSeo}</title>
+                <meta name="description" content={description}></meta>
+                <meta name="keywords" content={Keyword} />
+                <meta name="author" content={Author} />
+                <meta name="robots" content="index, follow" />
+                <linK rel="canonical" href={titleSeo} />
+                <meta property="og:type" content="website" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="og:title" content={titleSeo} />
+                <meta property="og:description" content={description} />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content={URL} /></HelmetProvider>
             <HeaderForm />
 
             <div className="cs_service_details">
@@ -144,8 +161,8 @@ const SiemensHomeApplianceDetail = ({ subtitle, title, bgImg }) => {
                                     <br /> We're nearby and can get your appliances fixed quickly and efficiently.
                                 </p>
 
-                                 <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Equipment Technical Inspection Fee</h3>
-                <p className="mb-0">The technical inspection fee which covers diagnosis, transportation, and reinstallation in Dubai premises. Please note that this fee is non-refundable.</p>
+                                <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Equipment Technical Inspection Fee</h3>
+                                <p className="mb-0">The technical inspection fee which covers diagnosis, transportation, and reinstallation in Dubai premises. Please note that this fee is non-refundable.</p>
                             </div>
 
                             <div className="col-md-6 ">
@@ -546,7 +563,7 @@ const SiemensHomeApplianceDetail = ({ subtitle, title, bgImg }) => {
 
             </div >
         </>
-  )
+    )
 }
 
 export default SiemensHomeApplianceDetail

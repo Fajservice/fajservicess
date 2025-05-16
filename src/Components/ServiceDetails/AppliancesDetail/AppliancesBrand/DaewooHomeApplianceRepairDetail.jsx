@@ -14,6 +14,13 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
 const DaewooHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
+    // For SEO
+    const titleSeo = "Daewoo Home Appliances Repair - Washing Machine Repair";
+    const description = "Daewoo Home Appliances Repair - Washing Machine Repair";
+    const Author = "Faj Technical Servcies";
+    const Keyword = "";
+    const URL = "https://fajservices.com/daewoo-home-appliances-repair/";
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "img/testimonialbg.jpg"
@@ -103,11 +110,22 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
             }
         ]
     };
-  return (
-    <>
+    return (
+        <>
             <HelmetProvider>
-                <title>Daewoo Home Appliances Repair - Washing Machine Repair</title>
-                <meta name="description" content="Daewoo appliances repair Dubai. We are experts in Daewoo refrigerator, fridge, washing machine, dishwasher, and oven fix repair near me Dubai."></meta>
+
+                <title>{titleSeo}</title>
+                <meta name="description" content={description}></meta>
+                <meta name="keywords" content={Keyword} />
+                <meta name="author" content={Author} />
+                <meta name="robots" content="index, follow" />
+                <linK rel="canonical" href={titleSeo} />
+                <meta property="og:type" content="website" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="og:title" content={titleSeo} />
+                <meta property="og:description" content={description} />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content={URL} />
             </HelmetProvider>
             <HeaderForm />
 
@@ -143,8 +161,8 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                                     <br /> We are local and can quickly resolve any issues you may have.
                                 </p>
 
-                                 <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Daewoo Appliances Technical Inspection Fee</h3>
-                                    <p className="mb-0">We have a standard technical inspection fee starting from AED 157 to 320 (depending on the appliance) that covers diagnosis, transportation, and reinstallation of the same appliance. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any repairs/parts. Also, get repairs from us for your coffee machine, stand mixer, or robot vacuum.
+                                <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Daewoo Appliances Technical Inspection Fee</h3>
+                                <p className="mb-0">We have a standard technical inspection fee starting from AED 157 to 320 (depending on the appliance) that covers diagnosis, transportation, and reinstallation of the same appliance. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any repairs/parts. Also, get repairs from us for your coffee machine, stand mixer, or robot vacuum.
 </p>
                             </div>
 
@@ -586,7 +604,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
 
             </div >
         </>
-  )
+    )
 }
 
 export default DaewooHomeApplianceRepairDetail

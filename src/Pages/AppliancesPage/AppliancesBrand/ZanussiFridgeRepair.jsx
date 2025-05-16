@@ -4,13 +4,13 @@ import ZanussiFridgeRepairDetail from '../../../Components/ServiceDetails/Applia
 const ZanussiFridgeRepair = () => {
   return (
     <div className="serviceDetails">
-    <BreadCumb
+      <BreadCumb
         bgImg="img/banners/homeappliancesbrands/Zanussi.avif"
         Title="Zanussi Fridge Repair"
-    ></BreadCumb>
+      ></BreadCumb>
 
-    <ZanussiFridgeRepairDetail />        
-</div>
+      <ZanussiFridgeRepairDetail />
+    </div>
   );
 };
 

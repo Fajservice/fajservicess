@@ -14,6 +14,14 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
 const BlombergFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
+    // For SEO
+    const titleSeo = "Blomberg Fridge Repair - Washing Machine Service Dubai";
+    const description = "Blomberg fridge repair Dubai - Fast, reliable Blomberg washing machine, refrigerator, dishwasher repair, and Blomberg cooker & oven service near you.";
+    const Author = "Faj Technical Servcies";
+    const Keyword = "";
+    const URL = "https://fajservices.com/blomberg-fridge-repair-in-dubai-blomberg-washing-machine-repair-in-dubai-blomberg-cooker-repair-in-dubai-blomberg-oven-repair-in-dubai-blomberg-appliances-maintenance-in-dubai-blomberg-refrigerator-fi/";
+
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "img/testimonialbg.jpg"
@@ -103,11 +111,21 @@ const BlombergFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
             }
         ]
     };
-  return (
-    <>
+    return (
+        <>
             <HelmetProvider>
-                <title>Blomberg Fridge Repair - Washing Machine Service Dubai</title>
-                <meta name="description" content="Blomberg fridge repair Dubai - Fast, reliable Blomberg washing machine, refrigerator, dishwasher repair, and Blomberg cooker & oven service near you."></meta>
+                <title>{titleSeo}</title>
+                <meta name="description" content={description}></meta>
+                <meta name="keywords" content={Keyword} />
+                <meta name="author" content={Author} />
+                <meta name="robots" content="index, follow" />
+                <linK rel="canonical" href={titleSeo} />
+                <meta property="og:type" content="website" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="og:title" content={titleSeo} />
+                <meta property="og:description" content={description} />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content={URL} />
             </HelmetProvider>
             <HeaderForm />
 
@@ -144,8 +162,8 @@ const BlombergFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
                                     <br /> We're nearby and can get your appliances fixed quickly and efficiently.
                                 </p>
 
-                                 <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Equipment Technical Inspection Fee</h3>
-                <p className="mb-0">The technical inspection fee which covers diagnosis, transportation, and reinstallation in Dubai premises. Please note that this fee is non-refundable.</p>
+                                <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Equipment Technical Inspection Fee</h3>
+                                <p className="mb-0">The technical inspection fee which covers diagnosis, transportation, and reinstallation in Dubai premises. Please note that this fee is non-refundable.</p>
                             </div>
 
                             <div className="col-md-6 ">
@@ -546,7 +564,7 @@ const BlombergFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
 
             </div >
         </>
-  )
+    )
 }
 
 export default BlombergFridgeRepairDetail

@@ -4,13 +4,13 @@ import HaierFridgeRepairDetail from '../../../Components/ServiceDetails/Applianc
 const HaierFridgeRepair = () => {
   return (
     <div className="serviceDetails">
-    <BreadCumb
+      <BreadCumb
         bgImg="img/banners/homeappliancesbrands/Haier-fridge-repair.avif"
         Title="Haier Fridge Repair"
-    ></BreadCumb>
+      ></BreadCumb>
 
-    <HaierFridgeRepairDetail />        
-</div>
+      <HaierFridgeRepairDetail />
+    </div>
   );
 };
 

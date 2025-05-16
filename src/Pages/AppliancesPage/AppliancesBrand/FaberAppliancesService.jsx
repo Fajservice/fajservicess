@@ -4,13 +4,13 @@ import FaberAppliancesServiceDetail from '../../../Components/ServiceDetails/App
 const FaberAppliancesService = () => {
   return (
     <div className="serviceDetails">
-    <BreadCumb
+      <BreadCumb
         bgImg="img/banners/homeappliancesbrands/Faber.avif"
         Title="Faber Appliances Service"
-    ></BreadCumb>
+      ></BreadCumb>
 
-    <FaberAppliancesServiceDetail />        
-</div>
+      <FaberAppliancesServiceDetail />
+    </div>
   );
 };
 

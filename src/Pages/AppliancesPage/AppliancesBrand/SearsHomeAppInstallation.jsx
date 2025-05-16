@@ -4,13 +4,13 @@ import SearsHomeAppInstallationDetail from '../../../Components/ServiceDetails/A
 const SearsHomeAppInstallation = () => {
   return (
     <div className="serviceDetails">
-    <BreadCumb
+      <BreadCumb
         bgImg="img/banners/homeappliancesbrands/Sears.avif"
         Title="Sear sHome Appliances Installation"
-    ></BreadCumb>
+      ></BreadCumb>
 
-    <SearsHomeAppInstallationDetail />        
-</div>
+      <SearsHomeAppInstallationDetail />
+    </div>
   );
 };
 
