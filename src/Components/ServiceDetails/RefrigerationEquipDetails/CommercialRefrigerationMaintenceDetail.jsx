@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/RefrigerationEquipData/FAQs/CommercialRefrigeratorRepairFaqs.json';
+import data from '../../../Data/RefrigerationEquipData/FAQs/CommercialRefrigerationMaintenceFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
@@ -11,7 +11,7 @@ import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
-import testimonial_data from '../../../Data/RefrigerationEquipData/Testmonials/CommercialRefrigeratorRepairTestimonial.json';
+import testimonial_data from '../../../Data/RefrigerationEquipData/Testmonials/CommercialRefrigerationMaintenceTestimonial.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
@@ -19,7 +19,7 @@ import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointme
 
 // import { Link } from "react-router-dom";
 
-const CommercialRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
+const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, bgImg }) => {
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -123,11 +123,8 @@ const CommercialRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
 
           <section className="section cs_py_30">
             <div className="container">
-              <h2 className="cs_fs_30">Choose Commercial Refrigeration Service Service Center for Same-Day Repairs in Dubai</h2>
-              <p>
-                Since 2010, FAJ has been a trusted name in Freezer repair and service in Dubai and Sharjah. Our skilled professionals are ready to assist with any brand, using high-quality tools for effective service.
-                <br /> We prioritise repairs over replacements, helping you save money and avoid the hassle of buying a new Freezer. Rely on our experienced experts for fast and reliable dishwasher maintenance in Dubai!
-              </p>
+              <h2 className="cs_fs_30">Professional Commercial Refrigeration Maintenance & Repair</h2>
+              <p>Commercial refrigeration maintenance and repairs are essential for businesses like biomedical facilities, pharmacies, supermarkets, restaurants, hotels, and food processing plants, ensuring product freshness and safety.<br />F A J Technical Services L.L.C, established in 2010, is recognised for its reliability and flexibility. We respond promptly to refrigeration breakdowns and work diligently to address issues of any size. Our services include repairing and servicing walk-in coolers, walk-in chillers, freezers, and commercial refrigerators.<br />Timely maintenance boosts efficiency and extends equipment lifespan. At FAJ, we highlight the importance of preventative measures in commercial refrigeration to avoid costly failures. We also provide installation services for commercial chillers and freezers. </p>
 
               <div id="get-quote" className=" mt-3">
                 <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -141,81 +138,73 @@ const CommercialRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
           {/* Maintenance Contract */}
           <MaintenanceContract />
 
-
           <section className="section cs_py_30 bg-light-gray">
-            <div className="container">
-              {/* <div className="row gx-md-5">
-                <div className="col-md-6">
-                  <h3 className="cs_fs_24 mb-1">Dishwasher Repair and Service Near You</h3>
+          <div className="container">
+            <div className="row gx-md-5">
+              <div className="col-md-6">
+                <h3 className="cs_fs_24 mb-1">Experts Freezer and Chiller Repair</h3>
 
-                  <p className="mb-2">
-                    Has your dishwasher stopped working completely? Or is it running, but your dishes and cutlery aren't coming out as clean as they should?
-                    At FAJ, we understand that a machine breakdown is always inconvenient. That's why our team of experts is here to provide dishwasher repair and service appointments near you in Dubai and Sharjah.
+                <p className="mb-2">
+                Our skilled experts consistently uphold high-quality standards. We provide repair and maintenance services for various types of freezers and chillers, including under-counter catering, vegetable, fruit, display, blast, walk-in, and beverage cooler units across diverse industries in Dubai and Sharjah, UAE.
+                </p>
 
-                  </p>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Refrigeration System Maintenance</h3>
+                <p className="mb-0">
+                We have a standard fee for technical inspections that includes diagnosis and transportation to your premises. Please note that this fee is non-refundable and is a flat rate. However, it does not cover the cost of any repair, cleaning service or parts.
+                </p>
+              </div>
 
-
-                  <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Dishwasher Technical Inspection Fee </h3>
-                  <p className="mb-0">
-                    We have a standard technical inspection fee starting from AED 157 to 320 (depending on the appliance) that covers diagnosis, transportation, and reinstallation of the same appliance.
-                    <br />Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any repair/parts. Also, get repairs from us for your coffee machine, stand mixer, or robot vacuum.
-
-                  </p>
-                </div>
-
-                <div className="col-md-6 ">
-                  <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/dishwasher.avif`} alt="Post Image" />
-
-                </div>
-              </div> */}
-
-              <AppliancesAppointmentCol></AppliancesAppointmentCol>
+              <div className="col-md-6 ">
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Post Image" /> */}
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Refrigerator-Appliances-to-Repair.avif`} alt="commercial refrigeration maintenance" />
+              </div>
             </div>
-          </section>
+
+            <AppliancesAppointmentCol></AppliancesAppointmentCol>
+          </div>
+        </section>
 
 
 
           {/* Why  */}
-          {/* <section className="section cs_py_30">
+          <section className="section cs_py_30">
             <div className="container">
-              <h3 className="cs_fs_30">Contract Work     </h3>
+              <h3 className="cs_fs_30">Why is Commercial Refrigeration Maintenance Important in Dubai?</h3>
               <p>
-                We offer tailor made maintenance contracts that can suit the requirements and budgets of any business or individual. Even if we didnt install the unit, we’re happy to quote you for our services to maintain it.
+              Maintaining commercial refrigeration systems, like freezers and chillers, includes basic tasks such as service. Hiring professionals for regular maintenance is essential for an effective Planned Preventative Maintenance (PPM) schedule.
               </p>
               <div className="row align-items-center">
                 <div className="col-md-6">
-                  <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Cooking-Range-Repair-Nearby-You.avif`} alt="Post Image" />
+                  <img className="blue-border" src={`${import.meta.env.BASE_URL}img/commercialrefrigerationmaintenance.avif`} alt="Post Image" />
                 </div>
                 <div className="col-md-6">
                   <ul className="mb-0">
-                    <p>As a contracted customer, you will also have priority on the call out system. No matter the size of your system or the terms of the contract, you can rest assured that you’re being looked after by honest, hard-working and experienced professionals. Contact our team today to find out how we can help you with your refrigeration maintenance!
-                    </p>
-                    <strong>  Annual Maintenance Contract Services for:</strong>
-                    <li>  All refrigeration system </li>
-                    <li>  Commercial freezers, chillers, refrigerators, fridges </li>
-                    <li> All cooking appliances </li>
-                    <li>  Commercial Refrigeration Service Service </li>
-                    <li> Dishwasher and glass washer machine </li>
+                    <li><strong>Identifying issues early:</strong> Regular professional maintenance of your fridge helps catch issues early.</li>
+                    <li><strong>Energy efficiency</strong>: Make sure your refrigerator is operating efficiently and not wasting electricity.</li>
+                    <li><strong>Saving money in the long run:</strong> Regular servicing of commercial refrigeration can prevent costly repairs.</li>
+                    <li><strong>Compliance with product safety standards</strong>: If you store food in a commercial freezer or chiller, ensure compliance with food safety regulations. A professional service can assist you.</li>
+                    <li><strong>Damage control</strong>: Inspecting for potential hazards, including possible harmful leaks from your refrigeration system.</li>
+                    <li><strong>Peace of mind:</strong> Ensuring your commercial freezer and chiller work well gives you peace of mind to focus on your business</li>
                   </ul>
                 </div>
               </div>
             </div>
-          </section> */}
+          </section>
 
           {/* Common Problems */}
-          {/* <section className="section cs_py_30 bg-light-gray">
+          <section className="section cs_py_30 bg-light-gray">
             <div className="container">
-              <h3 className="text-center">The Most Common Problems with Dishwashers  </h3>
+              <h3 className="text-center">The Most Common Problems with the Freezer and Chiller</h3>
               <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
                 <div className="col-12 col-md-4 col-lg-3">
                   <div className=" box-content-container rounded border shadow">
                     <div className="text-center">
-                      <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Drainage Issues</h3>
+                      <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Not Cooling</h3>
                     </div>
                     <div className="inner-apcs-feat-desc">
                       <p className="p-2 mb-0">
-                        Dishwasher machine water is pooling in the bottom of your dishwasher at the end of every cycle.
+                      Cooling failure is a common issue in freezers and chillers, often due to a faulty compressor, motor problems, or the need for gas and maintenance.
                       </p>
                     </div>
                   </div>
@@ -226,11 +215,11 @@ const CommercialRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
                 <div className="col-12 col-md-4 col-lg-3">
                   <div className=" box-content-container rounded border shadow">
                     <div className="text-center">
-                      <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Cycle Won’t Start</h3>
+                      <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Cycle Strange Noises</h3>
                     </div>
                     <div className="inner-apcs-feat-desc">
                       <p className="p-2 mb-0">
-                        When you press “start”, nothing happens. Your cycle doesn’t begin, and your dishwasher doesn’t seem to respond, despite the display panel appearing normal.
+                      Unusual sounds may indicate mechanical problems, such as issues with electric devices, the compressor, or the fan motor.
                       </p>
                     </div>
                   </div>
@@ -239,58 +228,40 @@ const CommercialRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
                 <div className="col-12 col-md-4 col-lg-3">
                   <div className=" box-content-container rounded border shadow">
                     <div className="text-center">
-                      <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Water Leaks </h3>
+                      <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Ice Buildup Concerns</h3>
                     </div>
                     <div className="inner-apcs-feat-desc">
-                      <p className="p-2 mb-0">
-
-                        You have noticed water leaking or pooling around your dishwasher when it runs, causing damage to your flooring and the surrounding area.
-
-                      </p>
+                      <p className="p-2 mb-0">Ice buildup can occur if the door is frequently opened, does not seal correctly, or if a thermostat, sensor, or basic maintenance service is required.</p>
                     </div>
                   </div>
                 </div>
                 <div className="col-12 col-md-4 col-lg-3">
                   <div className=" box-content-container rounded border shadow">
                     <div className="text-center">
-                      <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Excessive Suds                    </h3>
+                      <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Water Leaks Problems</h3>
                     </div>
                     <div className="inner-apcs-feat-desc">
-                      <p className="p-2 mb-0">
-
-                        Your dishwasher fills with excess suds when you use it. You may also notice suds remaining in the bottom of the dishwasher after the cycle is finished and excessive residue on your dishes.
-
-
-                      </p>
+                      <p className="p-2 mb-0">Water leaking from your refrigeration unit may be caused by a blocked defrost drain, a faulty pan, or a defective drain heater.</p>
                     </div>
                   </div>
                 </div>
                 <div className="col-12 col-md-4 col-lg-3">
                   <div className=" box-content-container rounded border shadow">
                     <div className="text-center">
-                      <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Door Not Closing</h3>
+                      <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Electricity Issues</h3>
                     </div>
                     <div className="inner-apcs-feat-desc">
-                      <p className="p-2 mb-0">
-
-                        The dishwasher door isn’t closing properly, preventing the cycle from starting.
-
-                      </p>
+                      <p className="p-2 mb-0">If your unit frequently trips the circuit breaker, there may be an issue with the compressor, motor, or wiring. It's essential to address this safety risk promptly.</p>
                     </div>
                   </div>
                 </div>
                 <div className="col-12 col-md-4 col-lg-3">
                   <div className=" box-content-container rounded border shadow">
                     <div className="text-center">
-                      <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Not Filling With Water</h3>
+                      <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Temperature Problem</h3>
                     </div>
                     <div className="inner-apcs-feat-desc">
-                      <p className="p-2 mb-0">
-
-                        When you start the dishwasher cycle, the interior doesn’t fill with water, or only fills a small amount.
-
-
-                      </p>
+                      <p className="p-2 mb-0">Frequent temperature changes can spoil your goods. Ensure thermostat, sensor, or gas system is working properly and maintain even setting.</p>
                     </div>
                   </div>
                 </div>
@@ -298,15 +269,10 @@ const CommercialRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
                 <div className="col-12 col-md-4 col-lg-3">
                   <div className=" box-content-container rounded border shadow">
                     <div className="text-center">
-                      <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Heating Issues</h3>
+                      <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Motor Runs Always</h3>
                     </div>
                     <div className="inner-apcs-feat-desc">
-                      <p className="p-2 mb-0">
-
-                        Your dishwasher is not heating the water sufficiently, leading to cold washes and improperly cleaned dishes. Hot water is needed to properly activate the dishwasher detergent.
-
-
-                      </p>
+                      <p className="p-2 mb-0">A running motor may indicate that the unit is struggling to maintain temperature. Check the door seals and consider professional servicing.</p>
                     </div>
                   </div>
                 </div>
@@ -315,21 +281,14 @@ const CommercialRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
                 <div className="col-12 col-md-4 col-lg-3">
                   <div className=" box-content-container rounded border shadow">
                     <div className="text-center">
-                      <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishes Not Drying</h3>
+                      <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Compressor Won’t Start</h3>
                     </div>
                     <div className="inner-apcs-feat-desc">
-                      <p className="p-2 mb-0">
-                        Your dishes come out of the dishwasher still wet, requiring manual drying after every load.
-
-                      </p>
+                      <p className="p-2 mb-0">If the compressor won’t start, check that power is connected and inspect the circuit breaker. For help with pressurising refrigerant gas, seek professional assistance.</p>
                     </div>
                   </div>
                 </div>
-
-
-
               </div>
-
               <div id="get-quote" className="mb-0 mt-3">
                 <div className="container d-flex justify-content-center align-items-center gap-3">
                   <WhatsappIconButton />
@@ -337,20 +296,20 @@ const CommercialRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
             </div>
-          </section> */}
+          </section>
 
           {/*HERE ARE THE SERVICES */}
-          {/* <section className="section cs_py_30">
+          <section className="section cs_py_30">
             <div className="container">
-              <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR THE DISHWASHER </h3>
-
+              <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR THE REFRIGERATION</h3>
+              <p>We specialise in all types and brands of commercial freezer and chiller, including built-in refrigeration.</p>
               <div className="row align-items-center">
                 <div className="col-xl-6">
                   <iframe
                     className="bordered-img blue-border"
                     width="100%"
                     height="350"
-                    src="https://www.youtube.com/embed/Cye_OFTAT3E"
+                    src="https://www.youtube.com/embed/boj7h-gOf7M?si=c7yjz-nkqAeHFdYC"
                     title="YouTube video player"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -359,41 +318,27 @@ const CommercialRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
                 </div>
 
                 <div className="col-xl-6">
-                  <p className="mb-0">
-                    We specialise in all types and brands of dishwashers, including dishwasher machines.
-                  </p>
 
                   <p className='mb-0'><strong>Our services include:</strong></p>
                   <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                    <li> <strong> Dishwasher Installation: </strong>  Expert installation of various types and brands of dishwashers, ensuring optimal performance and efficiency. </li>
-                    <li> <strong> Dishwasher Diagnostics: </strong>  We conduct thorough fault finding to diagnose issues effectively. We also provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
-
-                    <li> <strong> Dishwasher Repair Service: </strong>  Efficient repair services for all dishwasher machine components, ensuring quick resolution of any issues, such as leaks, electrical failures, and system malfunctions. </li>
-
-                    <li> <strong> Dishwasher Annual Maintenance Contract: </strong>  This contract outlines the terms and services covered for the dishwasher's annual maintenance. </li>
-
-
-
-                    <p className="mb-0">
-                      Regular maintenance is essential for optimal performance, efficiency, and longevity of your dishwasher.
-
-                    </p>
+                    <li><strong>Freezer and Chiller Installation: </strong>Professional installation of various brands and types of chillers and freezers for optimal performance and efficiency.</li>
+                    <li><strong>Chiller and Freezer Diagnostics: </strong>We offer comprehensive fault-finding services to identify issues, along with eligibility assessments and detailed quotes to resolve any system concerns.</li>
+                    <li><strong>Freezer and Chiller Repair Service: </strong>We offer prompt and effective repair services for all freezer and chiller components, addressing issues such as leaks, electrical failures, and system malfunctions.</li>
+                    <li><strong>Refrigeration Annual Maintenance Contract: </strong>This contract outlines the terms and services for the annual maintenance of your refrigeration system.</li>
                   </ul>
-
-
+                  <p className="mb-0">Regular maintenance is essential for optimal performance, efficiency, and longevity of your freezer and chiller.</p>
                 </div>
 
 
               </div>
             </div>
-          </section > */}
+          </section >
 
           {/* The Benefits Of appliances Service Dubai */}
-          {/* <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
+          <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
             <div className="container">
               <div className="row justify-content-center">
-                <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai
-                </h3>
+                <h3 className="cs_fs_30 mb-0">Benefits Of Regular Refrigeration Maintenance in Dubai</h3>
                 <div className="row gx-3 gy-5 mt-0">
                   <div className="col-md-4 mb-2">
                     <div className="">
@@ -472,7 +417,7 @@ const CommercialRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
                 </div>
               </div>
             </div>
-          </section> */}
+          </section>
 
 
 
@@ -491,7 +436,7 @@ const CommercialRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
                     </div>
                     <div className="usptext">
                       <h3 className="">Reliable, Priority, and Quick</h3>
-                      <p>	You can count on efficient service! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
+                      <p>You can rely on prompt service! Our same-day repairs or next-day appointments guarantee that your needs are addressed swiftly.</p>
                     </div>
                   </div>
 
@@ -512,7 +457,7 @@ const CommercialRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
                     </div>
                     <div className="usptext">
                       <h3 className="">You Are in Control</h3>
-                      <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
+                      <p>Schedule your chiller and freezer repair in Dubai or Sharjah for a specific day and time, with our technician arriving within a 3-4 hour window.</p>
                     </div>
                   </div>
 
@@ -541,7 +486,7 @@ const CommercialRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
                     </div>
                     <div className="usptext">
                       <h3 className="">Great Value</h3>
-                      <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same location in Dubai.</p>
+                      <p>We are committed to ensuring customer satisfaction through timely service, quick issue resolution, and competitive prices.</p>
                     </div>
                   </div>
                   <div className="uspitem mb-0">
@@ -564,243 +509,29 @@ const CommercialRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
           </section>
 
           {/* We specialise  */}
-          {/* <section className="section cs_py_30 bg-light-gray ">
+          <section className="section cs_py_30 bg-light-gray ">
             <div className="container">
-              <h3>We specialise in dishwasher services for the following brands </h3>
+              <h3>We specialize in refrigeration services for the following types:</h3>
               <div className="row">
                 <div className="col-12">
 
-                  <p className="mb-0">
-                    <Link to="/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/">
-                      <b>LG Dishwasher Repair</b>
-                    </Link>: FAJ is here to support you when things go wrong. We understand that your LG cooker or induction are essential for daily life, helping you prepare meals efficiently and on time.
-                  </p>
-
-                  <p className="mb-0">
-                    <Link to="/siemens-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                      <b>Samsung Dishwasher Repair</b>
-                    </Link>
-                    : If you are facing any problems with your Samsung dishwasher, contact the FAJ team for same-day repair service in Dubai.
-
-                  </p>
-
-                  <p className="mb-0">
-                    <Link to="/la-germania-cooking-range-repair-in-dubai-la-germania-oven-repair-in-dubai-la-germania-cooker-repair-in-dubai-la-germania-cooker-oven-maintenance-service-in-dubai-refrigerator-repair-in-dubai-fridge-r/">
-                      <b> Electrolux Dishwasher Repair</b>
-                    </Link>:  When you need Electrolux dishwasher repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE.
-                  </p>
-
-                  <p className="mb-0">
-                    <Link to="/bosch-home-appliances-repair/">
-                      <b> Bosch Dishwasher Repair</b>
-                    </Link>: If you are looking for the best Bosch dishwasher repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch home appliance repair and are recognized as the leading Bosch dishwasher service provider in the area.
-
-                  </p>
-
-
-                  <p className="mb-0">
-                    <Link to="/viking-appliances-service/">
-                      <b> Viking Dishwasher Repair</b>
-                    </Link>: Your Viking dishwasher may require repair or maintenance and we can help. For high-quality Viking dishwashers in Dubai, rely on FAJ.
-
-                  </p>
-
-                  <p className="mb-0">
-                    <Link to="/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                      <b> Daewoo Dishwasher Repair</b>
-                    </Link>: We provide expert services for Daewoo dishwasher repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo refrigerator, dishwasher, dryer and more.
-
-                  </p>
-
-                  <p className="mb-0">
-                    <Link to="/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub/">
-                      <b> Siemens Dishwasher Repair</b>
-                    </Link>: Are you concerned about your Siemens dishwasher malfunctioning and searching for a reliable Siemens dishwasher repair company in Dubai? Contact us for same-day service!
-
-
-                  </p>
-
-                  <p className="mb-0">
-                    <Link to="/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                      <b> Teka Dishwasher Repair</b>
-                    </Link>: If you're searching for the best Teka dishwasher repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka dishwashers, refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
-
-                  </p>
-
-
-                  <br />
-
-                  <p><a href="#/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/">AEG</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/ariston-fridge-repair-in-dubai-ariston-washing-machine-repair-in-dubai-ariston-cooker-repair-in-dubai-ariston-oven-repair-in-dubai-ariston-appliances-maintenance-in-dubai-ariston-refrigerator-fix-repa/">Ariston</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/beko-fridge-repair-in-dubai-beko-washing-machine-repair-in-dubai-beko-cooker-repair-in-dubai-beko-oven-repair-in-dubai-beko-appliances-maintenance-in-dubai-beko-refrigerator-fix-repairs-service-in-dub/">Beko</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/blomberg-fridge-repair-in-dubai-blomberg-washing-machine-repair-in-dubai-blomberg-cooker-repair-in-dubai-blomberg-oven-repair-in-dubai-blomberg-appliances-maintenance-in-dubai-blomberg-refrigerator-fi/">Blomberg</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/electrolux-home-appliances-repair/">Electrolux</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/faber-appliances-service/">Faber</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/fagor-fridge-repair-in-dubai-fagor-washing-machine-repair-in-dubai-fagor-cooker-repair-in-dubai-fagor-oven-repair-in-dubai-fagor-appliances-maintenance-in-dubai-fagor-refrigerator-fix-repairs-service/">Fagor</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/fisher-and-paykel-fridge-repair-in-dubai-fisher-and-paykel-washing-machine-repair-in-dubai-fisher-and-paykel-cooker-repair-in-dubai-fisher-and-paykel-oven-repair-in-dubai-fisher-and-paykel-appliances/">Fisher and Paykel</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/foster-appliances-services-foster-dishwasher-repair-service-in-dubai-foster-cooking-range-repair-service-in-dubai-foster-cooktop-repair-service-in-dubai-foster-oven-repair-in-dubai-foster-rangetop-r/">Foster</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/gaggenau-fridge-repair-in-dubai-gaggenau-washing-machine-repair-in-dubai-gaggenau-cooker-repair-in-dubai-gaggenau-oven-repair-in-dubai-gaggenau-appliances-maintenance-in-dubai-gaggenau-refrigerator-fi/">Gaggenau</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/hitachi-fridge-repair-in-dubai-hitachi-washing-machine-repair-in-dubai-hitachi-cooker-repair-in-dubai-hitachi-oven-repair-in-dubai-hitachi-appliances-maintenance-in-dubai-hitachi-refrigerator-fix-repa/">Hitachi</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/hoover-fridge-repair-in-dubai-hoover-washing-machine-repair-in-dubai-hoover-cooker-repair-in-dubai-hoover-oven-repair-in-dubai-hoover-appliances-maintenance-in-dubai-hoover-refrigerator-fix-repairs-se/">Hoover</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-oven-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa/">Indesit </a>
-                    |<a href="#/lg-fridge-repair-in-dubai-lg-washing-machine-repair-in-dubai-lg-cooker-repair-in-dubai-lg-oven-repair-in-dubai-lg-appliances-maintenance-in-dubai-lg-refrigerator-fix-repairs-service-in-dubai-lg-dishwa/"> LG</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/sub-zero-fridge-repair-in-dubai-sub-zero-washing-machine-repair-in-dubai-sub-zero-cooker-repair-in-dubai-sub-zero-oven-repair-in-dubai-sub-zero-appliances-maintenance-in-dubai-sub-zero-refrigerator-fi/">Sub Zero</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/terim-appliances-service/">Terim</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/whirlpool-fridge-repair-in-dubai-whirlpool-washing-machine-repair-in-dubai-whirlpool-cooker-repair-in-dubai-whirlpool-oven-repair-in-dubai-whirlpool-appliances-maintenance-in-dubai-whirlpool-refrigera/">Whirlpool</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/zanussi-fridge-repair-in-dubai-zanussi-washing-machine-repair-in-dubai-zanussi-cooker-repair-in-dubai-zanussi-oven-repair-in-dubai-zanussi-appliances-maintenance-in-dubai-zanussi-refrigerator-fix-repa/">Zanussi</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="https://fajservice.ae/de-dietrich-appliance-repair-service/">De Dietrich</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/baumatic-appliances/">Baumatic</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/bertazzoni-refrigerator-repair-in-dubai-bertazzoni-appliances-service-bertazzoni-fridge-repair-in-dubai-bertazzoni-washing-machine-washer-bertazzoni-dryer-repair-in-dubai-bertazzoni-dishwasher-cooker/">Bertazzoni</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/bompani-fridge-repair-in-dubai-bompani-washing-machine-repair-in-dubai-bompani-cooker-repair-in-dubai-bompani-oven-repair-in-dubai-bompani-appliances-maintenance-in-dubai-bompani-refrigerator-fix-repa/">Bompani</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/boston-refrigerator-repair-in-dubai-boston-appliances-service-boston-fridge-repair-in-dubai-boston-washing-machine-washer-boston-dryer-repair-in-dubai-boston-dishwasher-cooker/">Boston</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/brandt-fridge-repair-in-dubai-brandt-washing-machine-repair-in-dubai-brandt-cooker-repair-in-dubai-brandt-oven-repair-in-dubai-brandt-appliances-maintenance-in-dubai-brandt-refrigerator-fix-repairs-se/">Brandt</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/gibson-fridge-repair-in-dubai-gibson-washing-machine-repair-in-dubai-gibson-cooker-repair-in-dubai-gibson-oven-repair-in-dubai-gibson-appliances-maintenance-in-dubai-gibson-refrigerator-fix-repairs-se/">Gibson</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/gorenje-fridge-repair-in-dubai-gorenje-washing-machine-repair-in-dubai-gorenje-cooker-repair-in-dubai-gorenje-oven-repair-in-dubai-gorenje-appliances-maintenance-in-dubai-gorenje-refrigerator-fix-repa/">Gorenje</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/hisense-fridge-repair-in-dubai-hisense-washing-machine-repair-in-dubai-hisense-cooker-repair-in-dubai-hisense-oven-repair-in-dubai-hisense-appliances-maintenance-in-dubai-hisense-refrigerator-fix-repa/">Hisense</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/kelvinator-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Kelvinator</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/kenmore-appliances-service/">Kenmore</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/panasonic-fridge-repair-in-dubai-panasonic-washing-machine-repair-in-dubai-panasonic-cooker-repair-in-dubai-panasonic-oven-repair-in-dubai-panasonic-appliances-maintenance-in-dubai-panasonic-refrigera/">Panasonic</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/sanyo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Sanyo</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/sears-home-appliances-installation-maintenance-repair-fix-service-in-dubai/">Sears</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/wolf-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Wolf</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/haier-fridge-repair-in-dubai-haier-washing-machine-repair-in-dubai-haier-cooker-repair-in-dubai-haier-oven-repair-in-dubai-haier-appliances-maintenance-in-dubai-haier-refrigerator-fix-repairs-service/">Haier</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/elica-appliances-service/">Elica</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/marvel-fridge-repair-in-dubai-marvel-washing-machine-repair-in-dubai-marvel-cooker-repair-in-dubai-marvel-oven-repair-in-dubai-marvel-appliances-maintenance-in-dubai-marvel-refrigerator-fix-repairs-se/">Marvel</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/miele-fridge-repair-in-dubai-miele-washing-machine-repair-in-dubai-miele-cooker-repair-in-dubai-miele-oven-repair-in-dubai-miele-appliances-maintenance-in-dubai-miele-refrigerator-fix-repairs-service/">Miele</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/maytag-fridge-repair-in-dubai-maytag-washing-machine-repair-in-dubai-maytag-cooker-repair-in-dubai-maytag-oven-repair-in-dubai-maytag-appliances-maintenance-in-dubai-maytag-refrigerator-fix-repairs-se/">Maytag</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/toshiba-home-appliance-installation-maintenance-repair-fix-service-in-dubai-2/">Toshiba</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/thermador-appliances-service/">Thermador</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/sharp-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Sharp</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/admiral-fridge-repair-in-dubai-admiral-washing-machine-repair-in-dubai-admiral-cooker-repair-in-dubai-admiral-oven-repair-in-dubai-admiral-appliances-maintenance-in-dubai-admiral-refrigerator-fix-repa/">Admiral</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/aftron-fridge-repair-in-dubai-aftron-washing-machine-repair-in-dubai-aftron-cooker-repair-in-dubai-aftron-oven-repair-in-dubai-aftron-appliances-maintenance-in-dubai-aftron-refrigerator-fix-repairs-se/">Aftron</a>
-
-                    <span>&nbsp;-&nbsp;</span>
-
-                    <a href="#/unimac-washing-machine-repair-in-dubai-unimac-dryer-repair-in-dubai-unimac-washer-dryer-repair-in-dubai-unimac-maintenance-in-dubai-unimac-laundry-service-in-dubai-unimac-dubai/">Unimac</a>
-                  </p>
+                <p className="mb-0"><strong>Walk in Refrigeration Maintenance: </strong>Walk-in refrigeration, including cold storage rooms and freezers, is essential for many businesses and industries worldwide.&nbsp;However, without regular maintenance and preventative measures, these systems can fail. Contact us for services.</p>
+                <p className="mb-0"><strong>Cold Room Repair and Service:</strong> Maintenance and refurbishment work should always be performed by a trained expert. Many businesses may struggle to find the specialized staff needed to ensure that their refrigeration systems and cold rooms are repaired efficiently and safely by FAJ experts.</p>
+                <p className="mb-0"><strong>Commercial Refrigeration Maintenance Services:</strong> Efficient refrigeration is crucial in any kitchen; it helps keep your supplies fresh, maintains a pleasant environment, and ensures customer safety. With proper maintenance, you can also extend the lifespan of your refrigerator and potentially save money over time. This article outlines the key aspects of commercial refrigerator maintenance.</p>
+                <p className="mb-0"><strong>Biomedical Equipment Repair &amp; Maintenance Services: </strong>At FAJ, we recognize that repairing and maintaining biomedical equipment requires specialized expertise and knowledge.&nbsp;That&rsquo;s why we provide a comprehensive range of services for repairing and maintaining biomedical chillers, freezers, refrigerators, and fridges. We ensure that your medical equipment is installed correctly, maintained regularly, and repaired promptly whenever necessary.</p>
+                <p className="mb-0"><strong>Freezer and Chiller Service Urgency / Plan:</strong> We provide emergency call-out services as well as scheduled maintenance contracts for various businesses, including restaurants, supermarkets, cafes, hotels, flower shops, pharmacies, hospitals, colleges, universities, catering services, and the food and beverage industry.&nbsp;Our expertise also extends to the electricity production, chemical and petrochemical sectors, pharmaceutical industry, cold storage and logistics, energy industry, and bakery equipment.</p>
+                <p className="mb-0"><strong>Display Refrigerators Repairing and Servicing</strong>: If you are looking for maintenance, service, or repair of your display chiller and display freezer, contact FAJ for same-day service to run your smoothly business.</p>
+                <p className="mb-0"><strong>Undercounter Refrigerators Service and Repair: </strong>If you require repairs or servicing for your under-counter refrigerator, chiller, or freezer, reach out to FAJ for reliable maintenance services in Dubai. These appliances are frequently found in offices, and break rooms, where they are used to store packaged snacks, cooking ingredients, and chill soft beverages.</p>
+                <p className="mb-0"><strong>Restaurant Commercial Fridge:</strong> We provide fast and affordable repair services for commercial fridges and freezers for your restaurant or cafe in Dubai and Sharjah.</p>
+                <p className="mb-0"><strong>Commercial Chiller Maintenance &amp; Repairs:</strong> Ensure your commercial refrigeration systems operate smoothly and reliably with our expert services. We provide regular maintenance and urgent repair services for critical refrigeration equipment, guaranteeing optimal condition, minimal downtime, and asset protection.</p>
+                <p className="mb-0"><strong>Van Refrigeration Repair and Refrigerated Truck Maintenance:</strong> FAJ provides reliable van refrigeration repair and refrigerated truck maintenance services in Dubai. Our professionals are experts in van refrigeration and refrigerated truck services.</p>
+                <p className="mb-0"><strong>Blast Freezer Repair and Service:</strong> Located in Dubai, FAJ is your premier choice for blast freezer repair services. We specialize in blast refrigeration systems, offering a full range of services from repairs to maintenance.</p>
+                <p className="mb-0"><strong>Blast Chiller Service and Repair</strong>: The blast chiller service guarantees your peace of mind. FAJ prioritizes efficiency and reliability.</p>
+                <p className="mb-0"><strong>Vegetable and Fruit Chiller Maintenance Services:</strong> Count on our expert team to swiftly fix any issues with your fruit and vegetable chiller and refrigerator, restoring its functionality.</p>
+                <p className="mb-0"><strong>Beverage Cooler Repair and Services:</strong> With extensive knowledge of beverage cooler maintenance and services, we offer effective repairs to ensure your unit operates smoothly.</p>
+                <p className="mb-0"><strong>Free Standing Freezer and Display Freezer Service and Repair</strong>: No matter the problem with your Freezer and Display Freezer maintenance, our experts can accurately diagnose and repair it.</p>
+                <p className="mb-0"><strong>Restaurant Fridge Repairs Refrigerator Service</strong>: Is your restaurant fridge or refrigerator not functioning? There's no need to endure unpleasant temperatures and stuffy cooling or suffer losses due to malfunctioning equipment &ndash; FAJ will get your restaurant fridge or refrigerator back up and running in no time!</p>
+                <p className="mb-0"><strong>Sushi Refrigerator and Chiller Service and Repair:</strong> Maintenance and repair services for sushi refrigerators and chillers in Dubai require specialised expertise, as only professionals can effectively address issues with sushi fridges. We offer a hassle-free sushi refrigerator repair service.<br /><strong>Catering Freezer and Chiller Repairs and Service: </strong>Are you looking for relief from the scorching heat? Discover how to keep your catering freezer and chiller running smoothly in Dubai! Our expert services ensure that your catering refrigerator and fridge stay cool and efficient, providing you with comfort and peace of mind.</p>
 
                 </div>
 
@@ -814,7 +545,7 @@ const CommercialRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
             </div>
-          </section> */}
+          </section>
 
 
 
@@ -876,7 +607,7 @@ const CommercialRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
           </section>
 
           {/* FAQ's */}
-          {/* <section className="section cs_py_30  bg-dark-blue text-light">
+          <section className="section cs_py_30  bg-dark-blue text-light">
             <div className="container">
               <h3 className="cs_fs_30 text-light">FAQ's</h3>
 
@@ -901,7 +632,7 @@ const CommercialRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
 
               </div>
             </div>
-          </section> */}
+          </section>
 
           <section className="section cs_py_30">
             <Serviceappointemnt
@@ -916,5 +647,5 @@ const CommercialRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
   );
 };
 
-export default CommercialRefrigeratorRepairDetail;
+export default CommercialRefrigerationMaintenceDetail;
 

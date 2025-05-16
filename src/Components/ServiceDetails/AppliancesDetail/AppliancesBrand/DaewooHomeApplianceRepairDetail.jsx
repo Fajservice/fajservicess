@@ -133,9 +133,8 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <p>
-                            Daewoo appliances are the best among the other brands out there. Still, products of the best brands even do not last endlessly. In addition, we are all sure that our appliances break down when we need them the most. Reasonably, your first reaction will be to see if your appliance is repairable. You can fix minor issues, but mostly, you cannot. So why worry? We are the best Daewoo   appliance repair service provider in Dubai. We are the most experienced industry experts serving since 2010 in Dubai. With hands-on experience with all home appliances, you can expect successful and swift repairs from us. Daewoo   Fridge Repair in Dubai So, contact us today to get your repair appointment. Enjoy superior Daewoo   appliance repair with FAJ Technical Services LLC.
-                        </p>
+                        <h2 className="cs_fs_30">Professional Daewoo Home Appliances Service and Repair</h2>
+                        <p>Are you having trouble finding a local appliance technician who specializes in Daewoo kitchen appliances? At FAJ Technical Services, we have been providing reliable and affordable services since 2010. We operate with a wide network of thoroughly vetted, qualified, and experienced service professionals. Whenever possible, we will send a technician who is familiar with your specific daewoo appliance. </p>
 
                         <div id="get-quote" className=" mt-3">
                             <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -154,16 +153,17 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                     <div className="container">
                         <div className="row gx-md-5">
                             <div className="col-md-6">
-                                <h3 className="cs_fs_24 mb-1">Best Daewoo   Washing Machine Repair </h3>
+                                <h3 className="cs_fs_24 mb-1">Daewoo Washing Machine Repair Near You</h3>
 
                                 <p className="mb-2">
-                                    If you need Daewoo   Appliance Repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
-                                    <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
-                                    <br /> We're nearby and can get your appliances fixed quickly and efficiently.
+                                    If you need repair services for your Daewoo appliances, we’ve got you covered! Choose FAJ for quick and affordable service.
+                                    <br />Whether your built-in Daewoo washing machine won’t drain, your Daewoo fridge won’t cool, your oven won’t heat, or your Daewoo dishwasher won’t turn on, our expert repair service team in  Dubai and Sharjah is ready to assist you.
+                                    <br /> We are local and can quickly resolve any issues you may have.
                                 </p>
 
-                                <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Equipment Technical Inspection Fee</h3>
-                                <p className="mb-0">The technical inspection fee which covers diagnosis, transportation, and reinstallation in Dubai premises. Please note that this fee is non-refundable.</p>
+                                <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Daewoo Appliances Technical Inspection Fee</h3>
+                                <p className="mb-0">We have a standard technical inspection fee starting from AED 157 to 320 (depending on the appliance) that covers diagnosis, transportation, and reinstallation of the same appliance. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any repairs/parts. Also, get repairs from us for your coffee machine, stand mixer, or robot vacuum.
+</p>
                             </div>
 
                             <div className="col-md-6 ">
@@ -177,16 +177,16 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                 {/* The Most Common Problems with Home Appliances */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h3 className="text-center">The Most Common Problems with Daewoo   Home Appliances   </h3>
+                        <h3 className="text-center">The Most Common Problems with Daewoo Appliances</h3>
                         <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Problem</h3>
+                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Daewoo Refrigerator</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
-                                        <p className="p-2 mb-0">Most fridge malfunctions are related to cooling issues, including problems with the defrost system, fan motor, compressor, or coils.</p>
+                                        <p className="p-2 mb-0">Common malfunctions of Daewoo refrigerators often involve cooling issues, such as problems with the defrost, fan motor, compressor, or coils.</p>
                                     </div>
                                 </div>
                             </div>
@@ -194,10 +194,10 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishwashers Problem</h3>
+                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Daewoo Dishwasher</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
-                                        <p className="p-2 mb-0">The most issues with dishwashers are bad cleaning and drying. Common water leaks and drainage. Some electrical issues or PCB failures.
+                                        <p className="p-2 mb-0">Common issues with Daewoo dishwasher include poor cleaning and drying, water leaks, drainage problems, and occasional electrical or PCB failures.
                                         </p>
                                     </div>
                                 </div>
@@ -206,11 +206,11 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Washing Machine Problem
+                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Daewoo Washing Machine
                                         </h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
-                                        <p className="p-2 mb-0">A common issue with washing machines is drainage problems, leaks, and PCB faulty. Also, broken belt or faulty door switch or drum from spinning.</p>
+                                        <p className="p-2 mb-0">Common issues with Daewoo washing machines include drainage problems, leaks, faulty PCBs, and issues with the belt, door switch, or drum spinning.</p>
                                     </div>
                                 </div>
                             </div>
@@ -219,10 +219,50 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Stove Problem</h3>
+                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Daewoo Tumble Dryer</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
-                                        <p className="p-2 mb-0">Uneven heating or flame issues, such as a broken burner element, bad switch, or electric gas, are the most common problems with stoves.</p>
+                                        <p className="p-2 mb-0">Daewoo dryers may stop spinning and can make noise while failing to dry clothes. Common issues include a faulty heating element or control board.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-12 col-md-4 col-lg-3">
+                                <div className=" box-content-container rounded border shadow">
+                                    <div className="text-center">
+                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Daewoo Cooker / Stove</h3>
+                                    </div>
+                                    <div className="inner-apcs-feat-desc">
+                                        <p className="p-2 mb-0">Common issues with Daewoo stoves include uneven heating and flame problems, such as a broken burner element, faulty switch, or an electric gas malfunction.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-12 col-md-4 col-lg-3">
+                                <div className=" box-content-container rounded border shadow">
+                                    <div className="text-center">
+                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Daewoo Oven</h3>
+                                    </div>
+                                    <div className="inner-apcs-feat-desc">
+                                        <p className="p-2 mb-0">Daewoo ovens often have issues like improper heating, unignited burners, ignition problems in gas models, and faulty knobs or controls.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-12 col-md-4 col-lg-3">
+                                <div className=" box-content-container rounded border shadow">
+                                    <div className="text-center">
+                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Daewoo Freezer</h3>
+                                    </div>
+                                    <div className="inner-apcs-feat-desc">
+                                        <p className="p-2 mb-0">Common Daewoo freezer issues include water leaks, insufficient ice, a faulty ice maker, and reduced cooling efficiency.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-12 col-md-4 col-lg-3">
+                                <div className=" box-content-container rounded border shadow">
+                                    <div className="text-center">
+                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Machine Problem</h3>
+                                    </div>
+                                    <div className="inner-apcs-feat-desc">
+                                        <p className="p-2 mb-0">There are several reasons why water flow in coffee makers, whether drip or single-serve, is often slow or absent.</p>
                                     </div>
                                 </div>
                             </div>
