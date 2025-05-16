@@ -442,8 +442,8 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">HERMOSTAT CHECK</h4>
-                      <p className="small">T
+                      <h4 className="text-uppercase mb-2 cs_fs_18">THERMOSTAT CHECK</h4>
+                      <p className="small">
                         We use a laser temperature gauge to confirm that thermostats are functioning properly.
                       </p>
                     </div>

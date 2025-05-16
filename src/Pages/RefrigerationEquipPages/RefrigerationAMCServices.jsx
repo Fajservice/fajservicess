@@ -7,7 +7,7 @@ const RefrigerationAMCServices = () => {
             <BreadCumb
                 bgImg="img/banners/Refrigeration-Equipment-Services/Refrigeration-AMC-Services.avif"
 
-                Title="Commercial Freezer Chiller AMC Service"
+                Title="Commercial Refrigeration Maintenance Contract Services"
             ></BreadCumb> 
 
             <RefrigerationAMCServicesDetail></RefrigerationAMCServicesDetail>
