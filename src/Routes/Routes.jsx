@@ -211,7 +211,6 @@ import MieleFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/MieleFrid
 import WolfHomeAppMaintenance from "../Pages/AppliancesPage/AppliancesBrand/WolfHomeAppMaintenance.jsx";
 import ToshibaHomeAppMaintenance from "../Pages/AppliancesPage/AppliancesBrand/ToshibaHomeAppMaintenance.jsx";
 import GibsoneFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/GibsoneFridgeRepair.jsx";
-
 import VikingAppliancesService from "../Pages/AppliancesPage/AppliancesBrand/VikingAppliancesService.jsx";
 import SamsungFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/SamsungFridgeRepair.jsx";
 import SanyoHomeAppliance from "../Pages/AppliancesPage/AppliancesBrand/SanyoHomeAppliance.jsx";
@@ -225,6 +224,7 @@ import SiemensHomeAppliance from "../Pages/AppliancesPage/AppliancesBrand/Siemen
 import TerimAppliance from "../Pages/AppliancesPage/AppliancesBrand/TerimAppliance.jsx";
 import BlombergFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/BlombergFridgeRepair.jsx";
 import DaewooHomeAppliance from "../Pages/AppliancesPage/AppliancesBrand/DaewooHomeAppliance.jsx";
+
 import AftronFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/AftronFridgeRepair.jsx";
 import HooverFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/HooverFridgeRepair.jsx";
 import LgFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/LgFridgeRepair.jsx";

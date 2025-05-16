@@ -11,9 +11,16 @@ import testimonial_data from '../../../../Data/AppliancesData/AppliancesTestimon
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
-import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
+import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";      
+// For SEO
+const titleSeo = "Panasonic Fridge Repair Dubai - Washing Machine Service";
+const description = "If you're searching for a reliable Panasonic fridge Repair in Dubai. Call-FAJ 043300002 for Panasonic washing machine, dishwasher, refrigerator service";
+const Author = "Faj Technical Servcies";
+const Keyword = "";
+const URL = "https://fajservices.com/panasonic-fridge-repair-in-dubai-panasonic-washing-machine-repair-in-dubai-panasonic-cooker-repair-in-dubai-panasonic-oven-repair-in-dubai-panasonic-appliances-maintenance-in-dubai-panasonic-refrigera/";
 
 const PanasonicFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "img/testimonialbg.jpg"
@@ -103,11 +110,22 @@ const PanasonicFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
             }
         ]
     };
-  return (
-    <>
+    return (
+        <>
             <HelmetProvider>
-                <title>Panasonic Fridge Repair Dubai - Washing Machine Service</title>
-                <meta name="description" content="If you're searching for a reliable Panasonic fridge Repair in Dubai. Call-FAJ 043300002 for Panasonic washing machine, dishwasher, refrigerator service"></meta>
+                <title>{titleSeo}</title>
+                <meta name="description" content={description}></meta>
+                <meta name="keywords" content={Keyword} />
+                <meta name="author" content={Author} />
+                <meta name="robots" content="index, follow" />
+                <linK rel="canonical" href={titleSeo} />
+                <meta property="og:type" content="website" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="og:title" content={titleSeo} />
+                <meta property="og:description" content={description} />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content={URL} />
+
             </HelmetProvider>
             <HeaderForm />
 
@@ -144,8 +162,8 @@ const PanasonicFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
                                     <br /> We're nearby and can get your appliances fixed quickly and efficiently.
                                 </p>
 
-                                 <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Equipment Technical Inspection Fee</h3>
-                <p className="mb-0">The technical inspection fee which covers diagnosis, transportation, and reinstallation in Dubai premises. Please note that this fee is non-refundable.</p>
+                                <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Equipment Technical Inspection Fee</h3>
+                                <p className="mb-0">The technical inspection fee which covers diagnosis, transportation, and reinstallation in Dubai premises. Please note that this fee is non-refundable.</p>
                             </div>
 
                             <div className="col-md-6 ">
@@ -546,7 +564,7 @@ const PanasonicFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
 
             </div >
         </>
-  )
+    )
 }
 
 export default PanasonicFridgeRepairDetail

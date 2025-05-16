@@ -4,13 +4,13 @@ import AftronFridgeRepairDetail from '../../../Components/ServiceDetails/Applian
 const AftronFridgeRepair = () => {
   return (
     <div className="serviceDetails">
-    <BreadCumb
+      <BreadCumb
         bgImg="img/banners/homeappliancesbrands/Aftron.avif"
         Title="WE’RE HERE FOR YOU EVERY STEP OF THE WAY."
-    ></BreadCumb>
+      ></BreadCumb>
 
-    <AftronFridgeRepairDetail />     
-</div>
+      <AftronFridgeRepairDetail />
+    </div>
   )
 }
 

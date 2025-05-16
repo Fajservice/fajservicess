@@ -14,6 +14,13 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
 const DaewooHomeApplianceDetail = ({ subtitle, title, bgImg }) => {
+    // For SEO
+    const titleSeo = "Daewoo Home Appliance Repair & Washing Machine Service";
+    const description = "Daewoo home appliances service Dubai. Get fast Daewoo refrigerator repair,  Daewoo washing machine repair dishwasher, fridge service center nearme";
+    const Author = "Faj Technical Servcies";
+    const Keyword = "";
+    const URL = "https://fajservices.com/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/";
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "img/testimonialbg.jpg"
@@ -103,11 +110,24 @@ const DaewooHomeApplianceDetail = ({ subtitle, title, bgImg }) => {
             }
         ]
     };
-  return (
-    <>
+    return (
+        <>
             <HelmetProvider>
-                <title></title>
-                <meta name="description" content="Daewoo home appliances service Dubai. Get fast Daewoo refrigerator repair,  Daewoo washing machine repair dishwasher, fridge service center nearme"></meta>
+
+                <title>{titleSeo}</title>
+                <meta name="description" content={description}></meta>
+                <meta name="keywords" content={Keyword} />
+                <meta name="author" content={Author} />
+                <meta name="robots" content="index, follow" />
+                <linK rel="canonical" href={titleSeo} />
+                <meta property="og:type" content="website" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="og:title" content={titleSeo} />
+                <meta property="og:description" content={description} />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content={URL} />
+
+
             </HelmetProvider>
             <HeaderForm />
 
@@ -144,8 +164,8 @@ const DaewooHomeApplianceDetail = ({ subtitle, title, bgImg }) => {
                                     <br /> We're nearby and can get your appliances fixed quickly and efficiently.
                                 </p>
 
-                                 <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Equipment Technical Inspection Fee</h3>
-                <p className="mb-0">The technical inspection fee which covers diagnosis, transportation, and reinstallation in Dubai premises. Please note that this fee is non-refundable.</p>
+                                <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Equipment Technical Inspection Fee</h3>
+                                <p className="mb-0">The technical inspection fee which covers diagnosis, transportation, and reinstallation in Dubai premises. Please note that this fee is non-refundable.</p>
                             </div>
 
                             <div className="col-md-6 ">
@@ -546,7 +566,7 @@ const DaewooHomeApplianceDetail = ({ subtitle, title, bgImg }) => {
 
             </div >
         </>
-  )
+    )
 }
 
 export default DaewooHomeApplianceDetail
