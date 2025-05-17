@@ -896,10 +896,6 @@ export const router = createBrowserRouter([
         element: <AcRepairInJumeirah />,
       },
       {
-        path: "/ac-services-in-jumeirah/",
-        element: <AcRepairInJumeirah />,
-      },
-      {
         path: "/ac-services-in-jebel-ali/",
         element: <AcRepairInJebelAli />,
       },

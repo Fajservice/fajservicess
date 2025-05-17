@@ -78,8 +78,8 @@ const AcRepairInJumeirahVillageCircleDetail = ({ subtitle, title, bgImg }) => {
     return (
         <>
             <HelmetProvider>
-                <title>Best Appliances Services in Jumeirah Village Circle</title>
-                <meta name="description" content="Looking for appliance service in Jumeirah Village Circle. Get fridge repair near me in Dubai. Call 043300002 to fix washing machine & oven"></meta>
+                <title>Best AC Services In Jumeirah Village Circle - #1 AC Fixing</title>
+                <meta name="description" content="If you are looking for the best ac services in jumeirah village circle dubai. Call 043300002 for centralized a/c system repairing & aircon maintenance"></meta>
             </HelmetProvider>
             <HeaderForm />
             <div className="cs_service_details">
@@ -131,13 +131,13 @@ const AcRepairInJumeirahVillageCircleDetail = ({ subtitle, title, bgImg }) => {
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Post Image" />
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Ac Repair in Jumeirah Village Circle" />
 
                             </div>
                         </div>
 
                         <div className="appointment-col border-small-top pt-3">
-                            <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/ac-service-in-dubai/"><b>AC cleaning service</b></Link> , repair, or maintenance. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+                            <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/ac-service-in-dubai/"><b>AC cleaning service</b></Link>, repair, or maintenance. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
                             <div id="get-quote" className=" mt-3">
                                 <div className="container d-flex justify-content-center align-items-center gap-3">
                                     <WhatsappIconButton />
@@ -160,7 +160,7 @@ const AcRepairInJumeirahVillageCircleDetail = ({ subtitle, title, bgImg }) => {
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Post Image" />
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Ac Service in Jumeirah Village Circle" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">
@@ -172,10 +172,6 @@ const AcRepairInJumeirahVillageCircleDetail = ({ subtitle, title, bgImg }) => {
                                     <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
                                     <li> <strong> Enhanced Comfort: </strong> Regular
                                         AC servicing in Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
-
-
-
-
                                 </ul>
                             </div>
                         </div>
