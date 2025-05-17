@@ -17,6 +17,15 @@ import parse from 'html-react-parser';
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 
 const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
+
+  // For SEO
+  const titleSeo = "Refrigerator Repair Near Me | Fridge Repair Service Dubai";
+  const description = "Book refrigerator repair near you. Call now at 043300002 FAJ experts to get same day fridge repair & maintenance in Dubai. Freezer fix & service center.";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://fajservices.com/refrigerator-repair-service/";
+
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -83,7 +92,6 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
-    // cssEase: 'linear',
 
     responsive: [
       {
@@ -110,8 +118,19 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Refrigerator Repair Near Me | Fridge Repair Service Dubai    </title>
-        <meta name="description" content="Book refrigerator repair near you. Call now at 043300002 FAJ experts to get same day fridge repair & maintenance in Dubai. Freezer fix & service center."></meta>
+
+        <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+        <linK rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
       </HelmetProvider>
 
       <div className="cs_service_details">
@@ -160,7 +179,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
 
               </div>
             </div>
-            <AppliancesAppointmentCol/>
+            <AppliancesAppointmentCol />
           </div>
         </section>
 
@@ -373,7 +392,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
                   <li><strong> Refrigerator Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for annual maintenance of your refrigerator. </li>
 
                   <p className="mb-0">
-                  Regular maintenance is essential for optimal refrigerator performance, efficiency, and longevity.
+                    Regular maintenance is essential for optimal refrigerator performance, efficiency, and longevity.
 
                   </p>
                 </ul>

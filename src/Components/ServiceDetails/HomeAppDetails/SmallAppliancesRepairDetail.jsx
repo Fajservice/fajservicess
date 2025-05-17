@@ -22,6 +22,14 @@ import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointme
 // import { Link } from "react-router-dom";
 
 const SmallAppliancesRepairDetail = ({ subtitle, title, bgImg }) => {
+
+  // For SEO
+  const titleSeo = "Small Home Appliances Service – Household Repair Near Me";
+  const description = "Get same day small home appliances repair. FAJ Experts for cigar dehumidifier, iron box, toaster, microwave, air fryer, water dispenser service near me";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://fajservices.com/small-home-appliances-service-center-in-dubai/";
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -59,12 +67,6 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, bgImg }) => {
     autoplaySpeed: 5000,
     pauseOnHover: true,
 
-    // autoplay: true,
-    // autoplaySpeed: 0,
-    // speed: 8000,
-    // pauseOnHover: true,
-    // cssEase: 'linear',
-
     responsive: [
       {
         breakpoint: 1399,
@@ -95,7 +97,6 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, bgImg }) => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
-    // cssEase: 'linear',
 
     responsive: [
       {
@@ -121,8 +122,20 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Small Home Appliances Service – Household Repair Near Me</title>
-        <meta name="description" content="Get same day small home appliances repair. FAJ Experts for cigar dehumidifier, iron box, toaster, microwave, air fryer, water dispenser service near me"></meta>
+
+        <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+        <linK rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
+
       </HelmetProvider>
       <HeaderForm />
 

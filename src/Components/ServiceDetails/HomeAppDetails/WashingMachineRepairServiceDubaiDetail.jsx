@@ -23,6 +23,15 @@ import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointme
 // import { Link } from "react-router-dom";
 
 const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, bgImg }) => {
+
+  // For SEO
+  const titleSeo = "Washing Machine Repair & Maintenance Services Dubai FAJ";
+  const description = "Sameday Washing Machine Repair Dubai. Book now 043300002 Get Quality Washing Machine Repair near me with Reliable Washer Dryer";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://fajservices.com/washing-machine-repair-service-dubai/";
+
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -60,12 +69,6 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, bgImg }) => {
     autoplaySpeed: 5000,
     pauseOnHover: true,
 
-    // autoplay: true,
-    // autoplaySpeed: 0,
-    // speed: 8000,
-    // pauseOnHover: true,
-    // cssEase: 'linear',
-
     responsive: [
       {
         breakpoint: 1399,
@@ -96,8 +99,6 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, bgImg }) => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
-    // cssEase: 'linear',
-
     responsive: [
       {
         breakpoint: 1399,
@@ -123,8 +124,19 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Washing Machine Repair & Maintenance Services Dubai FAJ</title>
-        <meta name="description" content="Sameday Washing Machine Repair Dubai. Book now 043300002 Get Quality Washing Machine Repair near me with Reliable Washer Dryer"></meta>
+
+        <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+        <linK rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
       </HelmetProvider>
       <HeaderForm />
 

@@ -2,10 +2,35 @@ import Brand1 from "../Components/Brand/Brand1";
 import Process from "../Components/Process/Process";
 import Testimonial1 from "../Components/Testimonial/Testimonial1";
 import { Link } from "react-router-dom";
+import { HelmetProvider } from "react-helmet-async";
+
 
 const AboutPage = () => {
+     // For SEO
+    const titleSeo = "About Us - Appliances Service Center - #1 AC Repair Company";
+    const description = "About Us, FAJ Technical Services LLC was established in 2010 as an Air Conditioner System, Appliances, Installation Repair Maintenance Service";
+    const Author = "Faj Technical Servcies";
+    const Keyword = "";
+    const URL = "https://fajservices.com/about-us/";
+
     return (
         <div>
+            <HelmetProvider>
+                    <title>{titleSeo}</title>
+                    <meta name="description" content={description}></meta>
+                    <meta name="keywords" content={Keyword} />
+                    <meta name="author" content={Author} />
+                    <meta name="robots" content="index, follow" />
+                    <linK rel="canonical" href={titleSeo} />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:title" content={titleSeo} />
+                    <meta property="og:description" content={description} />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:url" content={URL} />
+            
+                  </HelmetProvider>
+
             <section
                 className="cs_page_heading cs_bg_filed cs_primary_bg"
                 style={{ backgroundImage: `url(${import.meta.env.BASE_URL}img/page_heading_1.avif)` }}

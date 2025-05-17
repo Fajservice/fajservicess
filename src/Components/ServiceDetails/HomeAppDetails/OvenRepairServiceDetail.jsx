@@ -23,6 +23,15 @@ import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointme
 // import { Link } from "react-router-dom";
 
 const OvenRepairServiceDetail = ({ subtitle, title, bgImg }) => {
+
+
+  // For SEO
+  const titleSeo = "Best Gas Oven Repair Dubai - Electric Oven Service Near Me";
+  const description = "Get same day oven repair in Dubai. FAJ professional reliable conventional, steam oven maintenance service near me. Dail 043300002 for fix oven";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://fajservices.com/oven-repair-service/";
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -60,12 +69,6 @@ const OvenRepairServiceDetail = ({ subtitle, title, bgImg }) => {
     autoplaySpeed: 5000,
     pauseOnHover: true,
 
-    // autoplay: true,
-    // autoplaySpeed: 0,
-    // speed: 8000,
-    // pauseOnHover: true,
-    // cssEase: 'linear',
-
     responsive: [
       {
         breakpoint: 1399,
@@ -96,7 +99,6 @@ const OvenRepairServiceDetail = ({ subtitle, title, bgImg }) => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
-    // cssEase: 'linear',
 
     responsive: [
       {
@@ -123,8 +125,19 @@ const OvenRepairServiceDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Best Gas Oven Repair Dubai - Electric Oven Service Near Me</title>
-        <meta name="description" content="Get same day oven repair in Dubai. FAJ professional reliable conventional, steam oven maintenance service near me. Dail 043300002 for fix oven"></meta>
+
+        <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+        <linK rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
       </HelmetProvider>
       <HeaderForm />
 
@@ -245,7 +258,7 @@ const OvenRepairServiceDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                    This issue is often resolved by simply replacing the bulb, but it could also be caused by a power supply problem.
+                      This issue is often resolved by simply replacing the bulb, but it could also be caused by a power supply problem.
                     </p>
                   </div>
                 </div>
@@ -325,7 +338,7 @@ const OvenRepairServiceDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                    A broken or damaged rack can significantly reduce the oven's efficiency and hinder overall cooking capabilities.
+                      A broken or damaged rack can significantly reduce the oven's efficiency and hinder overall cooking capabilities.
                     </p>
                   </div>
                 </div>

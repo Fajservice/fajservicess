@@ -7,11 +7,11 @@ const GasRangeRepairService = () => {
             <BreadCumb
                 bgImg="img/banners/gas-range-repair.avif"
                 Title="Gas Cooker Repair"
-            ></BreadCumb> 
+            ></BreadCumb>
 
             <GasRangeRepairServiceDetail></GasRangeRepairServiceDetail>
         </div>
-    ); 
+    );
 };
 
 export default GasRangeRepairService;

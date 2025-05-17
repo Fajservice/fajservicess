@@ -7,11 +7,11 @@ const KitchenEquipmentRepair = () => {
             <BreadCumb
                 bgImg="img/banners/kitchen-equipments/Kitchen-Equipment-Repair.avif"
                 Title="Commercial Cooking Equipment Repair and Maintenance Service Dubai "
-            ></BreadCumb> 
+            ></BreadCumb>
 
             <KitchenEquipmentRepairDetail></KitchenEquipmentRepairDetail>
         </div>
-    ); 
+    );
 };
 
 export default KitchenEquipmentRepair;

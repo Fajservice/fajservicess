@@ -7,8 +7,8 @@ const RefrigeratorRepairInDubai = () => {
             <BreadCumb
                 bgImg="img/banners/refrigerator.avif"
                 Title="Refrigerator Repair and Service in Dubai"
-            ></BreadCumb> 
-            <RefrigeratorRepairInDubaiDetails></RefrigeratorRepairInDubaiDetails>           
+            ></BreadCumb>
+            <RefrigeratorRepairInDubaiDetails></RefrigeratorRepairInDubaiDetails>
         </div>
     );
 };

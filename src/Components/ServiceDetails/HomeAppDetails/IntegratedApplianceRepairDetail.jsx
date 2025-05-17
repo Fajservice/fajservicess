@@ -22,6 +22,15 @@ import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointme
 
 
 const IntegratedApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
+
+  // For SEO
+  const titleSeo = "Built-in Appliances Repair Dubai - Refrigerator Service";
+  const description = "We offer (Integrated) built-in appliance repair Dubai. Book an fridge, washing machine, dishwasher, stove cooktop oven fix service center near me";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://fajservices.com/built-in-appliances-repair-service/";
+
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -59,12 +68,6 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
     autoplaySpeed: 5000,
     pauseOnHover: true,
 
-    // autoplay: true,
-    // autoplaySpeed: 0,
-    // speed: 8000,
-    // pauseOnHover: true,
-    // cssEase: 'linear',
-
     responsive: [
       {
         breakpoint: 1399,
@@ -95,7 +98,6 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
-    // cssEase: 'linear',
 
     responsive: [
       {
@@ -122,8 +124,19 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Built-in Appliances Repair Dubai - Refrigerator Service</title>
-        <meta name="description" content="We offer (Integrated) built-in appliance repair Dubai. Book an fridge, washing machine, dishwasher, stove cooktop oven fix service center near me"></meta>
+
+        <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+        <linK rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
       </HelmetProvider>
       <HeaderForm />
 
@@ -271,7 +284,7 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                    Built-in dryers may stop spinning or make noise without drying clothes properly, often due to a broken heating element or faulty control board.
+                      Built-in dryers may stop spinning or make noise without drying clothes properly, often due to a broken heating element or faulty control board.
                     </p>
                   </div>
                 </div>
@@ -300,7 +313,7 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                    Most integrated ovens face common issues such as poor heating, burner ignition failure, broken knobs, and faulty controllers or gas valves.
+                      Most integrated ovens face common issues such as poor heating, burner ignition failure, broken knobs, and faulty controllers or gas valves.
 
                     </p>
                   </div>
@@ -571,12 +584,12 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
             <h3> We are specialise in Appliances services for the following brands </h3>
             <div className="row">
               <div className="col-12">
-    
+
                 <p className="mb-0">
                   <Link to="/lg-fridge-repair-in-dubai-lg-washing-machine-repair-in-dubai-lg-cooker-repair-in-dubai-lg-oven-repair-in-dubai-lg-appliances-maintenance-in-dubai-lg-refrigerator-fix-repairs-service-in-dubai-lg-dishwa/">
                     <b>LG Appliance Service</b>
                   </Link>: FAJ is here to support you when things go wrong. We understand that your LG appliances are essential for daily life, keeping your food fresh and meals cooked.
-                  </p>
+                </p>
 
                 <p className="mb-0">
                   <Link to="/samsung-fridge-repair-in-dubai-samsung-washing-machine-repair-in-dubai-samsung-cooker-repair-in-dubai-samsung-oven-repair-in-dubai-samsung-appliances-maintenance-in-dubai-samsung-refrigerator-fix-repa/">

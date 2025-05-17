@@ -20,6 +20,14 @@ import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointme
 
 
 const KitchenEquipmentRepairDetail = ({ subtitle, title, bgImg }) => {
+
+  // For SEO
+  const titleSeo = "Commercial Cooking | Kitchen Equipment Repair & AMC Service";
+  const description = "Need expert kitchen equipment repair? FAJ offers commercial cooking appliance services and maintenance of stove, gas range, oven services Dubai";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://fajservices.com/commercial-cooking-appliances-repair-service/";
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -114,8 +122,18 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Commercial Cooking | Kitchen Equipment Repair & AMC ServiceRepair Service Dubai #1</title>
-        <meta name="description" content="Need expert kitchen equipment repair? FAJ offers commercial cooking appliance services and maintenance of stove, gas range, oven services Dubai"></meta>
+        <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+        <linK rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
       </HelmetProvider>
       <HeaderForm />
 
@@ -591,7 +609,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, bgImg }) => {
                 <p className="mb-0">
                   <strong>
                     Commercial Cooking Equipment Maintenance: </strong> Our highly experienced engineers are available to assist with all your commercial kitchen equipment needs.
-                 <br /> We provide maintenance, repair, call-out, and installation services for a wide range of equipment, including combi ovens, range ovens, convection ovens, grills, griddles, pizza ovens, and more.
+                  <br /> We provide maintenance, repair, call-out, and installation services for a wide range of equipment, including combi ovens, range ovens, convection ovens, grills, griddles, pizza ovens, and more.
                 </p>
 
                 <p className="mb-0">
@@ -602,16 +620,16 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, bgImg }) => {
                 <p className="mb-">
                   <strong>
                     Electrolux Professional Cooking Appliances Maintenance Service: </strong> We are committed to ensuring minimal downtime for your Electrolux Professional Cooking equipment, including cooking ranges, induction hobs, hot plates, and ovens.
-                <br />  Our services are available to help your business keep running smoothly.
+                  <br />  Our services are available to help your business keep running smoothly.
                   Trusted Commercial Cooking Equipment Repair:
                   To Keep Your Kitchen Running Smoothly
                   Reliable repairs for commercial cooking equipment are essential for maintaining efficiency in professional kitchens.
-                 <br /> At FAJ Service Dubai, we specialize in repairing a wide range of cooking appliances, including ovens, stoves, fryers, and grills.
+                  <br /> At FAJ Service Dubai, we specialize in repairing a wide range of cooking appliances, including ovens, stoves, fryers, and grills.
                   Whether you run a restaurant, hotel, or catering business, our expert technicians are dedicated to ensuring that your equipment operates efficiently and safely.
                 </p>
                 <p className="mb-0">
                   Commercial Induction Cooker | Counter top Electric Plates | MC Appliance | Corporation cooking appliances | Mirabake Jiangsu Province Baking Proofers, ovens | Kitchen Guys Ranges, Cooktops, Wall Ovens | American Range Commercial Stoves, Ovens, Fryers, Griddles, Broilers, Cheesemelters | Vulcan Equipment Ranges Fryers, Griddles, Combi Ovens, Steamers, Charbroilers | Turbo Air refrigerators and freezers, food prep tables | Omcan Pizza Ovens, Meat Slicers, Ice makers, Spiral Mixers |
-Webstaurant Store: Refrigeration units, Ranges, Food Prep Equipment | Thermador Cooking Appliances | Henny Penny: Perfecting Fried Food with Pressure Fryers | Taylor: Master of Frozen Desserts and Grilled Foods | Vulcan: The Backbone of Professional Kitchens | Hobart: Your Go-To for Dishwashers and Mixers | True Refrigeration: The Ultimate Cold Storage Solution
+                  Webstaurant Store: Refrigeration units, Ranges, Food Prep Equipment | Thermador Cooking Appliances | Henny Penny: Perfecting Fried Food with Pressure Fryers | Taylor: Master of Frozen Desserts and Grilled Foods | Vulcan: The Backbone of Professional Kitchens | Hobart: Your Go-To for Dishwashers and Mixers | True Refrigeration: The Ultimate Cold Storage Solution
 
                 </p>
 

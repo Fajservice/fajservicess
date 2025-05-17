@@ -16,6 +16,15 @@ import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointme
 
 
 const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
+
+  // For SEO
+  const titleSeo = "Oven Repair & Maintenance Services in Dubai | FAJ";
+  const description = "Looking for oven repair near me in Dubai? FAJ offers expert oven repair services for homes and businesses. Call us at 043300002";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://fajservices.com/oven-repair/";
+
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -108,8 +117,18 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Oven Repair and Maintenance Services in Dubai </title>
-        <meta name="description" content="Best oven repair services, get in touch with FAJ Technical services LLC to enjoy top-quality repairs in Dubai, UAE. Give us a call 043300002."></meta>
+        <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+        <linK rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
       </HelmetProvider>
       <HeaderForm />
 

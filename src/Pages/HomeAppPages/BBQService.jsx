@@ -8,7 +8,7 @@ const BBQService = () => {
                 // bgImg="img/page_heading_1.avif"
                 bgImg="img/banners/BBQ.avif"
                 Title="Barbecue Repair – Best BBQ Grill Cleaning Service Dubai"
-            ></BreadCumb> 
+            ></BreadCumb>
             <BBQServiceDetail></BBQServiceDetail>
 
         </div>

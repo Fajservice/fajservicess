@@ -22,6 +22,14 @@ import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointme
 // import { Link } from "react-router-dom";
 
 const BBQServiceDetail = ({ subtitle, title, bgImg }) => {
+
+  // For SEO
+  const titleSeo = "Barbecue Repair - Best BBQ Grill Cleaning Service Near Me";
+  const description = "Barbeque Repair Dubai. Our team offers professional BBQ cleaning services, BBQ repair, Weber repair, and electric BBQ grill repair Dubai.";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://fajservices.com/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/";
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -59,12 +67,6 @@ const BBQServiceDetail = ({ subtitle, title, bgImg }) => {
     autoplaySpeed: 5000,
     pauseOnHover: true,
 
-    // autoplay: true,
-    // autoplaySpeed: 0,
-    // speed: 8000,
-    // pauseOnHover: true,
-    // cssEase: 'linear',
-
     responsive: [
       {
         breakpoint: 1399,
@@ -95,7 +97,6 @@ const BBQServiceDetail = ({ subtitle, title, bgImg }) => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
-    // cssEase: 'linear',
 
     responsive: [
       {
@@ -122,8 +123,20 @@ const BBQServiceDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Barbecue Repair - Best BBQ Grill Cleaning Service Near Me</title>
-        <meta name="description" content="Barbeque Repair Dubai. Our team offers professional BBQ cleaning services, BBQ repair, Weber repair, and electric BBQ grill repair Dubai."></meta>
+
+        <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+        <linK rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
+
       </HelmetProvider>
       <HeaderForm />
 
@@ -181,12 +194,12 @@ const BBQServiceDetail = ({ subtitle, title, bgImg }) => {
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Barbeque-Repairs-services.avif`} alt="BBQ Repair Service" />
               </div>
               <div className="col-md-6">
-              <ul>
-                <li><strong>Benefits of Regular Cleaning: </strong>Regular grill cleaning boosts performance by removing residue, ensuring even heat distribution, and preventing flare-ups. It also reduces bacterial contamination for a healthier dining experience.</li>
-                <li><strong>Seasonal Check-ups for Longevity:</strong> As seasons change, your grill's needs do too. Seasonal check-ups&mdash;like inspecting burners and gas lines&mdash;ensure optimal performance and longevity.</li>
-                <li><strong>Extending the Lifespan of Grill Parts:</strong> Each part is essential for grilling. Oiling hinges and tightening bolts can extend your grill's life.</li>
-                <li><strong>Safety First:</strong> Clean Grills Prevent Accidents. A clean grill is a safe grill. Regular maintenance prevents flare-ups and ensures safe grilling.</li>
-              </ul>
+                <ul>
+                  <li><strong>Benefits of Regular Cleaning: </strong>Regular grill cleaning boosts performance by removing residue, ensuring even heat distribution, and preventing flare-ups. It also reduces bacterial contamination for a healthier dining experience.</li>
+                  <li><strong>Seasonal Check-ups for Longevity:</strong> As seasons change, your grill's needs do too. Seasonal check-ups&mdash;like inspecting burners and gas lines&mdash;ensure optimal performance and longevity.</li>
+                  <li><strong>Extending the Lifespan of Grill Parts:</strong> Each part is essential for grilling. Oiling hinges and tightening bolts can extend your grill's life.</li>
+                  <li><strong>Safety First:</strong> Clean Grills Prevent Accidents. A clean grill is a safe grill. Regular maintenance prevents flare-ups and ensures safe grilling.</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -230,8 +243,8 @@ const BBQServiceDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                    For a gas grill, the flame should be blue with yellow tips. Yellow or orange flames suggest a poor gas and air mixture.
-</p>
+                      For a gas grill, the flame should be blue with yellow tips. Yellow or orange flames suggest a poor gas and air mixture.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -244,7 +257,7 @@ const BBQServiceDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Check the burners of your gas grill for corrosion or blockages, as these can cause uneven heating. Also, ensure the ignition system is working properly.
-</p>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -356,7 +369,7 @@ const BBQServiceDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-       
+
 
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">

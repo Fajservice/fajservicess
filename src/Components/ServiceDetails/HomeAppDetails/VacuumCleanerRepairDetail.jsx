@@ -21,6 +21,15 @@ import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointme
 // import { Link } from "react-router-dom";
 
 const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
+
+  // For SEO
+  const titleSeo = "Robot Vacuum Cleaner Repair - Best Vacuum Cleaner Services";
+  const description = "Need Robot Vacuum Cleaner Repair? FAJ provides expert for Xiaomi, Roomba, TP-Link, Eufy, and Anker vacuum services. Book now at 043300002!";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://fajservices.com/robot-vacuum-cleaner-repair/";
+
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -114,8 +123,19 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Robot Vacuum Cleaner Repair - Best Vacuum Cleaner Service</title>
-        <meta name="description" content="Need Robot Vacuum Cleaner Repair? FAJ provides expert for Xiaomi, Roomba, TP-Link, Eufy, and Anker vacuum services. Book now at 043300002!"></meta>
+
+        <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+        <linK rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
       </HelmetProvider>
       <HeaderForm />
 
@@ -360,7 +380,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                   These services can range from quick fixes to comprehensive overhauls, with some companies specializing specifically in robotic vacuum cleaners.
                   <br />
                   Here’s a detailed overview of vacuum cleaner services offered in Dubai, UAE:
-                   {/* Service Options: */}
+                  {/* Service Options: */}
                 </p>
 
                 {/* <p className='mb-0'><strong>Our services include:</strong></p> */}

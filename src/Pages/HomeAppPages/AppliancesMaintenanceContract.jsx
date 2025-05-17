@@ -5,10 +5,10 @@ const AppliancesMaintenanceContract = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                
+
                 bgImg="img/banners/amc.avif"
                 Title="KITCHEN EQUIPMENT AND APPLIANCES AMC SERVICES"
-            ></BreadCumb> 
+            ></BreadCumb>
             <AppliancesMaintenanceContractDetail></AppliancesMaintenanceContractDetail>
 
         </div>

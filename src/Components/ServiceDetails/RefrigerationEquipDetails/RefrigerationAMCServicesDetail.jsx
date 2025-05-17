@@ -21,6 +21,14 @@ import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointme
 // import { Link } from "react-router-dom";
 
 const RefrigerationAMCServicesDetail = ({ subtitle, title, bgImg }) => {
+
+  // For SEO
+  const titleSeo = "Refrigeration Annual Maintenance Contract Service In Dubai";
+  const description = "FAJ fully experts in commercial freezer & chiller amc service in dubai. We offer freezer, cold room, refrigerator, commercial kitchen equipment maintenance";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://fajservices.com/commercial-refrigeration-maintenance-contact-services/";
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -114,8 +122,19 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Refrigeration Annual Maintenance Contract Service In Dubai</title>
-        <meta name="description" content="FAJ fully experts in commercial freezer & chiller amc service in dubai. We offer freezer, cold room, refrigerator, commercial kitchen equipment maintenance"></meta>
+
+        <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+        <linK rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
       </HelmetProvider>
       <HeaderForm />
 
@@ -149,24 +168,23 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Commercial Combi Oven Maintenance</h3>
+                <h3 className="cs_fs_24 mb-1">Discover the Advantages of FAJ's Annual Refrigeration Maintenance Contract Services</h3>
                 <p className="mb-2">
-                  We repair all types of commercial kitchen ovens, including gas and electric models. Our specialised team of commercial oven technicians carries essential spare parts, enabling us to assist you whenever you need it.
-                  <br />Our goal is to help keep your business running smoothly. We offer commercial oven repair services in Dubai.
-                </p>
+                  Our commercial freezer, cold room, walk-in chiller, and cold storage annual maintenance contract ensure that your commercial refrigerator, fridge, chiller, and freezer needs are met with the highest level of care.
+                  <br />
+                  With extensive expertise in refrigeration unit maintenance, our team includes some of the finest professionals in the UAE.
+                  <br />
+                  Since 2010, we have been repairing, cleaning, and maintaining a wide range of commercial chillers and freezers.
+                  <br />Our technicians are experienced and use advanced technology to keep your commercial refrigeration equipment in optimal condition. If you would like to learn more about our AMC options, please feel free to contact us.
 
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Oven Technical Inspection Fee</h3>
-                <p className="mb-0">
-                  The technical inspection fee which covers diagnosis, transportation, and reinstallation in Dubai premises.
-                  <br />Please note that this fee is non-refundable.</p>
+
+                </p>
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/kitchen-equipment.avif`} alt="Oven Repair" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/commercial-ref -mc.jpg`} alt="Oven Repair" />
               </div>
             </div>
-
-            <AppliancesAppointmentCol></AppliancesAppointmentCol>
 
           </div>
         </section>
@@ -205,7 +223,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/*  Problems */}
-        <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="text-center">Common Refrigeration Problems That May Require Maintenance </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -230,7 +248,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                     The compressor is essential for any commercial refrigerator or freezer system. If it fails completely, the unit will no longer keep products cold.
+                      The compressor is essential for any commercial refrigerator or freezer system. If it fails completely, the unit will no longer keep products cold.
                     </p>
                   </div>
                 </div>
@@ -329,7 +347,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/*Why  */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">Refrigeration Preventative Maintenance Programmes</h3>
             <p className="mb-0">At FAJ, we believe proactive maintenance is the most cost-effective way to manage systems.</p>
@@ -368,43 +386,8 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section >
 
-        {/* We Deal in all Types */}
-
-        {/* <section className="section cs_py_30 bg-dark-blue text-light">
-          <div className="container">
-            <h3 className="cs_fs_30 text-light">We Deal in all Types</h3>
-            <p>FAJ Technical Services's versatility is evident in the range of oven types we handle and the comprehensive oven maintenance services we provide for different appliance models and brands. Because of the experience on our team, we can handle the complexities of various oven glass repair and wall oven repair and provide a solution for any requirement.</p>
-            <div className="row text-light">
-              <div className="col-md-6">
-                <h4 className="text-light">Convection oven repair</h4>
-                <p>Convection oven repair is FAJ Technical Services's area of expertise. They provide knowledgeable services to address problems unique to convection models. Our knowledgeable specialists guarantee accurate diagnostics and workable solutions because they comprehend the intricacies of convection ovens. We offer dependable convection oven repair services that are customized to meet the specific needs of your appliance, whether the issue is a broken fan or inconsistent temperature.</p>
-              </div>
-              <div className="col-md-6">
-                <h4 className="text-light">Industrial oven repair</h4>
-                <p>FAJ Technical Services is the company to call when you need industrial oven repair services. We understand that industrial ovens are essential for a variety of applications. Our skilled technicians have a lot of experience diagnosing and fixing industrial ovens, so there's less downtime and maximum efficiency. You can rely on us for thorough services that bring longevity and efficiency to the forefront of industrial oven repair.</p>
-              </div>
-              <div className="col-md-6">
-                <h4 className="text-light">Restaurant oven repair</h4>
-                <p>An oven that doesn’t work well can cause havoc in the hectic kitchen of a restaurant. FAJ Technical Services offers expert restaurant oven repair services, taking care of problems quickly to maintain the efficiency of your kitchen. With a dedication to efficiency and quality, we serve a wide range of restaurant oven repair needs, from fine dining to quick-service restaurants.</p>
-              </div>
-              <div className="col-md-6">
-                <h4 className="text-light">Kitchen oven repair</h4>
-                <p>When problems arise with your kitchen oven, FAJ Technical Services provides trustworthy repair services to get it working again. Our knowledgeable specialists are proficient in identifying and resolving a variety of kitchen oven issues, including malfunctioning heating components and control problems. You can rely on us to fix your kitchen oven quickly and effectively, ensuring optimal performance from your appliance.</p>
-              </div>
-              <div className="col-md-6">
-                <h4 className="text-light">Stove oven repair near me</h4>
-                <p>Do you need "stove oven repair near me" services? You only need to look at FAJ Technical Services. Professional stove oven repair is delivered right to your door with our easy and fast services. Our knowledgeable technicians guarantee prompt and dependable solutions to get your stove oven back in working order because we recognize the urgency of repairs.</p>
-              </div>
-              <div className="col-md-6">
-                <h4 className="text-light">Commercial oven repair</h4>
-                <p>FAJ Technical Services serves businesses with accuracy and professionalism by extending its expertise to commercial oven repair. Our knowledgeable staff handles commercial oven problems in a comprehensive manner, from bakeries to catering services, and offers prompt repairs that support the smooth running of your commercial kitchen.</p>
-              </div>
-            </div>
-          </div>
-        </section> */}
-
         {/* The Benefits */}
-        <section className="section cs_py_30 appliances-benifit-sec">
+        <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
               <h3 className="cs_fs_30 mb-0">Benefits Of Regular Refrigeration Maintenance in Dubai  </h3>
@@ -413,7 +396,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, bgImg }) => {
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/coolicon.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Cooling EFFICIENCY</h4>
                       <p className="small">
@@ -453,7 +436,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, bgImg }) => {
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/thermo.jpg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">THERMOSTAT CHECK</h4>
                       <p className="small">
@@ -494,23 +477,6 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, bgImg }) => {
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-
-        <section className="section cs_py_30 bg-dark-blue text-light">
-          <div className="container text-center">
-            <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
-            <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
-            <a
-              href="files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
-              className="btn-green-yellow"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Click Here to Save on Energy Bills
-            </a>
-
-
           </div>
         </section>
 
@@ -842,41 +808,41 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, bgImg }) => {
                 </p> */}
                 <ul>
 
-<li> <strong>  Walk-in Refrigeration Maintenance Contract: </strong> Walk-in refrigeration systems, such as cold storage rooms and freezers, are vital for numerous businesses and industries globally. However, without regular maintenance and preventative measures, these systems can experience failures. Contact us for professional services. </li>
+                  <li> <strong>  Walk-in Refrigeration Maintenance Contract: </strong> Walk-in refrigeration systems, such as cold storage rooms and freezers, are vital for numerous businesses and industries globally. However, without regular maintenance and preventative measures, these systems can experience failures. Contact us for professional services. </li>
 
-<li> <strong>  Cold Room AMC Service: </strong> Maintenance and refurbishment work should always be conducted by trained professionals. Many businesses may struggle to find specialised staff who can ensure that their refrigeration systems and cold rooms are repaired efficiently and safely by FAJ experts. </li>
+                  <li> <strong>  Cold Room AMC Service: </strong> Maintenance and refurbishment work should always be conducted by trained professionals. Many businesses may struggle to find specialised staff who can ensure that their refrigeration systems and cold rooms are repaired efficiently and safely by FAJ experts. </li>
 
-<li> <strong>  Commercial Refrigeration Maintenance Services: </strong> Efficient refrigeration is essential in any kitchen. It helps keep your supplies fresh, maintains a pleasant environment, and ensures customer safety. By properly maintaining and repairing your refrigerator, you can extend its lifespan and potentially save money in the long run. This article outlines the key aspects of maintaining a commercial refrigerator. </li>
+                  <li> <strong>  Commercial Refrigeration Maintenance Services: </strong> Efficient refrigeration is essential in any kitchen. It helps keep your supplies fresh, maintains a pleasant environment, and ensures customer safety. By properly maintaining and repairing your refrigerator, you can extend its lifespan and potentially save money in the long run. This article outlines the key aspects of maintaining a commercial refrigerator. </li>
 
-<li> <strong>  Biomedical Equipment Maintenance Services and Repair: </strong> At FAJ, we understand that repairing and maintaining biomedical equipment demands specialised expertise and knowledge. That’s why we offer a comprehensive range of services for the repair and maintenance of biomedical chillers, freezers, refrigerators, and fridges.  We ensure that your medical equipment is installed correctly, maintained regularly, and repaired promptly when needed. </li>
+                  <li> <strong>  Biomedical Equipment Maintenance Services and Repair: </strong> At FAJ, we understand that repairing and maintaining biomedical equipment demands specialised expertise and knowledge. That’s why we offer a comprehensive range of services for the repair and maintenance of biomedical chillers, freezers, refrigerators, and fridges.  We ensure that your medical equipment is installed correctly, maintained regularly, and repaired promptly when needed. </li>
 
-<li> <strong>  Freezer and Chiller PPM Service Plan Urgency: </strong> We provide emergency call-out services and scheduled maintenance contracts for a diverse range of businesses. Our clients include restaurants, supermarkets, cafes, hotels, flower shops, pharmacies, hospitals, colleges, universities, catering services, and the food and beverage industry. Additionally, our expertise extends to the electricity production, chemical and petrochemical sectors, pharmaceutical industry, cold storage and logistics, energy industry, and bakery equipment. </li>
+                  <li> <strong>  Freezer and Chiller PPM Service Plan Urgency: </strong> We provide emergency call-out services and scheduled maintenance contracts for a diverse range of businesses. Our clients include restaurants, supermarkets, cafes, hotels, flower shops, pharmacies, hospitals, colleges, universities, catering services, and the food and beverage industry. Additionally, our expertise extends to the electricity production, chemical and petrochemical sectors, pharmaceutical industry, cold storage and logistics, energy industry, and bakery equipment. </li>
 
-<li> <strong>  Display Refrigerators AMC Contract and Service: </strong> If you need a maintenance contract, service, or repair for your display chiller and display freezer, contact FAJ for same-day service to keep your business running smoothly. </li>
+                  <li> <strong>  Display Refrigerators AMC Contract and Service: </strong> If you need a maintenance contract, service, or repair for your display chiller and display freezer, contact FAJ for same-day service to keep your business running smoothly. </li>
 
-<li> <strong>  Undercounter Refrigerators Service and Repair: </strong>  If you require repairs or service for your under-counter refrigerator, chiller, or freezer, reach out to FAJ for reliable maintenance services in Dubai. These appliances are frequently found in offices and break rooms, where they are used to store packaged snacks, cooking ingredients, and chill soft beverages.</li>
+                  <li> <strong>  Undercounter Refrigerators Service and Repair: </strong>  If you require repairs or service for your under-counter refrigerator, chiller, or freezer, reach out to FAJ for reliable maintenance services in Dubai. These appliances are frequently found in offices and break rooms, where they are used to store packaged snacks, cooking ingredients, and chill soft beverages.</li>
 
- <li> <strong> Restaurant Commercial Fridge Annual Contract: </strong> We offer quick and cost-effective repair services for commercial fridges and freezers in your restaurant or café located in Dubai and Sharjah.</li>
+                  <li> <strong> Restaurant Commercial Fridge Annual Contract: </strong> We offer quick and cost-effective repair services for commercial fridges and freezers in your restaurant or café located in Dubai and Sharjah.</li>
 
- <li> <strong> Commercial Chiller Maintenance & Repair: </strong> Ensure your commercial refrigeration systems operate smoothly and reliably with our expert PPM services contract. We provide regular maintenance plan and urgent repair services for critical refrigeration equipment, guaranteeing optimal condition, minimal downtime, and asset protection.</li>
+                  <li> <strong> Commercial Chiller Maintenance & Repair: </strong> Ensure your commercial refrigeration systems operate smoothly and reliably with our expert PPM services contract. We provide regular maintenance plan and urgent repair services for critical refrigeration equipment, guaranteeing optimal condition, minimal downtime, and asset protection.</li>
 
- <li> <strong> Van Refrigeration Repair and Refrigerated Truck Maintenance: </strong> FAJ offers dependable maintenance services for van refrigeration and refrigerated trucks in Dubai. Our professionals specialize in van refrigeration and refrigerated truck services.</li>
+                  <li> <strong> Van Refrigeration Repair and Refrigerated Truck Maintenance: </strong> FAJ offers dependable maintenance services for van refrigeration and refrigerated trucks in Dubai. Our professionals specialize in van refrigeration and refrigerated truck services.</li>
 
- <li> <strong> Blast Freezer Annual Maintenance and Service Contract: </strong> Located in Dubai, FAJ is your top choice for annual blast freezer services. We specialize in blast refrigeration systems, providing a comprehensive range of preventive maintenance services, from repairs to routine maintenance.</li>
+                  <li> <strong> Blast Freezer Annual Maintenance and Service Contract: </strong> Located in Dubai, FAJ is your top choice for annual blast freezer services. We specialize in blast refrigeration systems, providing a comprehensive range of preventive maintenance services, from repairs to routine maintenance.</li>
 
-<li> <strong>  Blast Chiller AMC Service and Repair: </strong> The planned preventive maintenance service for blast chillers guarantees your peace of mind. FAJ prioritizes efficiency and reliability.</li>
+                  <li> <strong>  Blast Chiller AMC Service and Repair: </strong> The planned preventive maintenance service for blast chillers guarantees your peace of mind. FAJ prioritizes efficiency and reliability.</li>
 
- <li> <strong> Vegetable and Fruit Chiller Maintenance Service Contract: </strong> Rely on our expert team to quickly resolve any issues with your fruit and vegetable chiller under the annual maintenance contract, restoring its functionality.</li>
+                  <li> <strong> Vegetable and Fruit Chiller Maintenance Service Contract: </strong> Rely on our expert team to quickly resolve any issues with your fruit and vegetable chiller under the annual maintenance contract, restoring its functionality.</li>
 
-<li> <strong>  Beverage Cooler AMC Services: </strong> With extensive knowledge of beverage cooler maintenance contracts and services, we provide effective repairs to ensure your unit operates smoothly.</li>
+                  <li> <strong>  Beverage Cooler AMC Services: </strong> With extensive knowledge of beverage cooler maintenance contracts and services, we provide effective repairs to ensure your unit operates smoothly.</li>
 
-<li> <strong>  Free-Standing Freezer and Display Freezer Service and Repair: </strong> Our experts can accurately diagnose and repair any issues with your freezer and display freezer through annual maintenance contracts that offer different packages.</li>
+                  <li> <strong>  Free-Standing Freezer and Display Freezer Service and Repair: </strong> Our experts can accurately diagnose and repair any issues with your freezer and display freezer through annual maintenance contracts that offer different packages.</li>
 
-<li> <strong>  Restaurant Fridge PPM Service, Refrigerator AMC Service: </strong> Is your restaurant fridge or refrigerator not functioning? There's no need to endure uncomfortable temperatures or suffer losses due to faulty equipment. With our annual maintenance contract service in Dubai and Sharjah, FAJ will have your restaurant fridge or refrigerator up and running in no time!</li>
+                  <li> <strong>  Restaurant Fridge PPM Service, Refrigerator AMC Service: </strong> Is your restaurant fridge or refrigerator not functioning? There's no need to endure uncomfortable temperatures or suffer losses due to faulty equipment. With our annual maintenance contract service in Dubai and Sharjah, FAJ will have your restaurant fridge or refrigerator up and running in no time!</li>
 
-<li> <strong>  Sushi Refrigerator and Chiller Service and Repair: </strong> Maintenance and repair services for sushi refrigerators and chillers in Dubai require specialized expertise, as only professionals can effectively address issues with sushi fridges. We provide a hassle-free repair service for sushi refrigerators.</li>
+                  <li> <strong>  Sushi Refrigerator and Chiller Service and Repair: </strong> Maintenance and repair services for sushi refrigerators and chillers in Dubai require specialized expertise, as only professionals can effectively address issues with sushi fridges. We provide a hassle-free repair service for sushi refrigerators.</li>
 
-<li> <strong>  Catering Freezer and Chiller Repairs and Service: </strong> Are you seeking relief from the intense heat? Learn how to keep your catering freezer and chiller operating smoothly in Dubai! Our expert services ensure that your catering refrigerator and fridge remain cool and efficient, providing you with comfort and peace of mind.</li>
+                  <li> <strong>  Catering Freezer and Chiller Repairs and Service: </strong> Are you seeking relief from the intense heat? Learn how to keep your catering freezer and chiller operating smoothly in Dubai! Our expert services ensure that your catering refrigerator and fridge remain cool and efficient, providing you with comfort and peace of mind.</li>
 
                 </ul>
               </div>
@@ -893,40 +859,6 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-
-
-        {/* white section with AC image */}
-        {/* <section className="section cs_py_30">
-          <div className="container text-center">
-            <div className="row">
-              <div className="col-lg-4">
-                <div className="acsvs-sec-prefoot-sec-cone">
-                  <h3 className="cs_fs_20 mb-0">COOLING &amp; HEATING</h3>
-                  <span className="mb-5">Stay comfortable all year round</span>
-                  <div className="mb-5"></div>
-                  <h3 className="cs_fs_20 mb-0">BETTER AIR QUALITY</h3>
-                  <span className="mb-5">Reduce humidity, pollen and dust</span>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="acsvs-sec-prefoot-sec-ctwo">
-
-                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Oven Repair" />
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="acsvs-sec-prefoot-sec-cthree">
-                  <h3 className="cs_fs_20 mb-0">PROTECT YOUR PROPERTY</h3>
-                  <span className="mb-5">Prevent damage to electronics and furnishings</span>
-                  <div className="mb-5"></div>
-                  <h3 className="cs_fs_20 mb-0">QUIET AND SECURE</h3>
-                  <span className="mb-5">No need to leave windows open</span>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </section> */}
 
         {/* Brands section */}
         {/* <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">

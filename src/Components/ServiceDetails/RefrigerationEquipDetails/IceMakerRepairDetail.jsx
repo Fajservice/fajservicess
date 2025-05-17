@@ -21,6 +21,14 @@ import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointme
 // import { Link } from "react-router-dom";
 
 const IceMakerRepairDetail = ({ subtitle, title, bgImg }) => {
+
+  // For SEO
+  const titleSeo = "Commercial Ice Maker Repair - Maintenance Services";
+  const description = "Reliable ice maker repair in Dubai. Contact FAJ for a fast ice maker repair service near me. We are specializing in Hoshizaki, Scotsman";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://fajservices.com/ice-maker-repair/";
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -113,8 +121,19 @@ const IceMakerRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Commercial Ice Maker Repair - Ice Machine Service in Dubai</title>
-        <meta name="description" content="FAJ provides commercial ice maker Dubai. Expert in restaurant, hotel, industrail hoshizaki, scotsman, foster ice machine maintenance contract service."></meta>
+
+        <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+        <linK rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
       </HelmetProvider>
       <HeaderForm />
 
@@ -294,7 +313,7 @@ const IceMakerRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Check the mold if there’s no ice in the tray. If ice is present but not dropping, it may indicate a possible mechanical issue. 
+                      Check the mold if there’s no ice in the tray. If ice is present but not dropping, it may indicate a possible mechanical issue.
                     </p>
                   </div>
                 </div>

@@ -16,8 +16,17 @@ import testimonial_data from '../../../Data/AcData/AcTestimonial/AcServiceTestim
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
-  
+
 const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
+
+  // For SEO
+  const titleSeo = "Best AC Annual Maintenance Contract Service Dubai AC AMC #1";
+  const description = "We also offer an (Air Conditioner) AC Annual Maintenance Contract Service ( AMC ) in Dubai Comprehensive Plan of HVAC, Central, Split AC. 043300002";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://fajservices.com/ac-annual-maintenance-contract/";
+
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -79,8 +88,19 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Best AC Annual Maintenance Contract Service Dubai AC AMC #1</title>
-        <meta name="description" content="We also offer an (Air Conditioner) AC Annual Maintenance Contract Service ( AMC ) in Dubai Comprehensive Plan of HVAC, Central, Split AC. +971 50 746 4712"></meta>
+
+        <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+        <linK rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
       </HelmetProvider>
 
       <div className="cs_service_details">
@@ -91,8 +111,8 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
             <h2 className="cs_fs_30">Essential Air Conditioner Maintenance Contract Services</h2>
 
             <p>
-              At F A J Technical Services L.L.C, customer satisfaction is our top priority. We offer a straightforward and cost-effective annual maintenance contract that covers all essential maintenance for your home and business. 
-              
+              At F A J Technical Services L.L.C, customer satisfaction is our top priority. We offer a straightforward and cost-effective annual maintenance contract that covers all essential maintenance for your home and business.
+
               Our contract includes year-round AC servicing, along with qualified support for plumbing and electrical repairs (MEP). We believe our essential maintenance contract is one of the best maintenance packages available in Dubai.
               <br />Our highly skilled team of fully qualified and specialized technicians is ready to provide the same level of service and workmanship that our customers have come to expect from FAJ. Additionally, we offer emergency assistance 365 days a year.
 
@@ -152,7 +172,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        
+
 
         {/* Peace of Mind with Annual Maintenance Contracts */}
         <section className="section cs_py_30 bg-light-gray">
