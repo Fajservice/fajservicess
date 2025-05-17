@@ -8,7 +8,7 @@ const CigarcabnitService = () => {
                 // bgImg="img/page_heading_1.avif"
                 bgImg="img/banners/Cigar-cabnet.avif"
                 Title="Cigar Cabinet Humidifier Repair Across Dubai - Sharjah - Abu Dhabi"
-            ></BreadCumb> 
+            ></BreadCumb>
             <CigarcabnitServiceDetail></CigarcabnitServiceDetail>
 
         </div>

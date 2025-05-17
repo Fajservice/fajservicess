@@ -7,10 +7,10 @@ const KitchenEquipmentAMC = () => {
             <BreadCumb
                 bgImg="img/banners/kitchen-equipments-banners/Kitchen-Equipment-AMC.avif"
                 Title="KITCHEN EQUIPMENT AND APPLIANCES AMC SERVICES"
-            ></BreadCumb> 
+            ></BreadCumb>
             <KitchenEquipmentAMCDetail></KitchenEquipmentAMCDetail>
         </div>
-    ); 
+    );
 };
 
 export default KitchenEquipmentAMC;

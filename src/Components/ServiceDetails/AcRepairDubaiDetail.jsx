@@ -19,6 +19,14 @@ import HeaderForm from "../Headeform/HeaderForm";
 
 
 const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
+
+  // For SEO
+  const titleSeo = "AC Repair Dubai - Reliable AC Fixing - AC Repair Near Me";
+  const description = "If your air conditioner not cooling! It is time to contact FAJ to get fix split or central AC Repair Dubai. Book 043300002 emergency ac repair";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://fajservices.com/ac-repair-dubai/";
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -55,7 +63,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
-    
+
     responsive: [
       {
         breakpoint: 1399,
@@ -81,8 +89,18 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>AC Repair Dubai - Reliable AC Fixing - AC Repair Near Me</title>
-        <meta name="description" content="If your air conditioner not cooling! It is time to contact FAJ to get fix split or central AC Repair Dubai. Book 043300002 emergency ac repair"></meta>
+        <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+        <Link rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
       </HelmetProvider>
 
       <HeaderForm />
@@ -158,7 +176,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        
+
 
         {/*FAJ: Creating the Perfect Temperature All Year Round */}
         <section className="section cs_py_30 bg-light-gray">
@@ -182,7 +200,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
                   <li> <strong>Increased Energy Bills:</strong> A spike in bills often means your AC is working inefficiently.</li>
                 </ul>
                 <p>
-                Stay alert for these signs to maintain your AC. If you notice any issues, consult a professional technician for help.
+                  Stay alert for these signs to maintain your AC. If you notice any issues, consult a professional technician for help.
 
                 </p>
               </div>
@@ -348,7 +366,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
                       <li> The air conditioner isn’t cooling even though it’s running </li>
                       <li>The air conditioner is leaking, or it’s not reducing humidity </li>
                     </ol>
-                  </div>  
+                  </div>
 
 
                   <p className="mb-0">
@@ -365,7 +383,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
 
         <BenefitAcMaintenance />
 
-        <ACWhyChooseUs/>
+        <ACWhyChooseUs />
 
 
         {/* We specialise in air conditioning Repair services for the following brands */}

@@ -21,6 +21,14 @@ import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointme
 // import { Link } from "react-router-dom";
 
 const GasRangeRepairServiceDetail = ({ subtitle, title, bgImg }) => {
+
+  // For SEO
+  const titleSeo = "Best Gas Cooker Repair - Cooking Range Service Near Me";
+  const description = "Are you looking for gas cooker repair Dubai? Dail 043300002 for gas stove, electric stove repair service. Get fast fix cooking range, induction repairs";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://fajservices.com/gas-cooker-repair-service/";
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -88,7 +96,6 @@ const GasRangeRepairServiceDetail = ({ subtitle, title, bgImg }) => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
-    // cssEase: 'linear',
 
     responsive: [
       {
@@ -115,8 +122,19 @@ const GasRangeRepairServiceDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Commercial Kitchen Gas Cooker Repair - Fix Restaurant Range</title>
-        <meta name="description" content="FAJ experts in commercial catering equipment maintenance in Dubai. AMC for gas cookers, electric stoves, ranges, hotplates & kitchen appliances."></meta>
+
+        <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+        <Link rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
       </HelmetProvider>
       <HeaderForm />
 
@@ -585,7 +603,7 @@ const GasRangeRepairServiceDetail = ({ subtitle, title, bgImg }) => {
                     <b>Samsung Cooker Repair</b>
                   </Link>
                   : If you are facing any problems with your Samsung cooker, stove, washer dryer, or dishwasher, contact the FAJ team for same-day repair service in Dubai.
-                  </p>
+                </p>
 
                 <p className="mb-0">
                   <Link to="/la-germania-cooking-range-repair-in-dubai-la-germania-oven-repair-in-dubai-la-germania-cooker-repair-in-dubai-la-germania-cooker-oven-maintenance-service-in-dubai-refrigerator-repair-in-dubai-fridge-r/">
@@ -603,14 +621,14 @@ const GasRangeRepairServiceDetail = ({ subtitle, title, bgImg }) => {
                   <Link to="/viking-appliances-service/">
                     <b> Viking Gas Range Repair</b>
                   </Link>
-                  : Your Viking appliances may require repair or maintenance and we can help. For high-quality Viking cooking range or oven repair in Dubai, rely on FAJ. 
+                  : Your Viking appliances may require repair or maintenance and we can help. For high-quality Viking cooking range or oven repair in Dubai, rely on FAJ.
                 </p>
 
                 <p className="mb-0">
                   <Link to="/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
                     <b> Daewoo Cooking Range Repair</b>
                   </Link>: We provide expert services for Daewoo cooking range repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo stove, refrigerator, washing machine, dryer and more.
-                   </p>
+                </p>
 
                 <p className="mb-0">
                   <Link to="/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub/">
@@ -623,7 +641,7 @@ const GasRangeRepairServiceDetail = ({ subtitle, title, bgImg }) => {
                   <Link to="/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
                     <b> Teka Cooker Repair</b>
                   </Link>: If you're searching for the best Teka cooking range repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka cookers, refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
-                  
+
                 </p>
 
 

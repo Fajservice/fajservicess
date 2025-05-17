@@ -18,6 +18,14 @@ import HeaderForm from "../../Headeform/HeaderForm";
 // import { Link } from "react-router-dom";
 
 const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
+
+  // For SEO
+  const titleSeo = "Meat Grinder Repair & Maintenance Services Dubai";
+  const description = "Need meat grinder repair in Dubai? FAJ offers expert repair services near me. Call us now for fast and reliable meat grinder repair at 043300002";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://fajservices.com/meat-grinder-repair/";
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -112,8 +120,19 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Meat Grinder Repair Services Dubai | FAJ Professional</title>
-        <meta name="description" content="Trust FAJ Professional and avail top-quality Meat Grinder Repair Services in Dubai, UAE. Join hands with us now and give us a call 043300002."></meta>
+
+        <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+        <Link rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
       </HelmetProvider>
       <HeaderForm />
 
@@ -310,7 +329,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="cs_fs_30">Why choose us for keema machine repair?</h3>
-            
+
             <div className="row align-items-center">
               <div className="col-xl-6">
                 <iframe

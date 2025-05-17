@@ -20,6 +20,15 @@ import parse from 'html-react-parser';
 // import { Link } from "react-router-dom";
 
 const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
+
+
+  // For SEO
+  const titleSeo = "AC Maintenance Dubai - Air Conditioner Cleaning Service";
+  const description = "Reliable & quality in ac maintenance Dubai, We are experts in HVAC, split, central cooling, VRV, VRF air con maintenance & ac fix Call 043300002";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://fajservices.com/ac-maintenance-dubai/";
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -81,8 +90,18 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>AC Maintenance Dubai - Air Conditioning Cleaning Service</title>
-        <meta name="description" content="Reliable & quality in ac maintenance Dubai, We are experts in HVAC, split, central cooling, VRV, VRF air con maintenance & ac fix Call +971 50 746 4712"></meta>
+        <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+        <Link rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
       </HelmetProvider>
 
 
@@ -163,7 +182,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        
+
 
 
         {/* Why Do You Need Regular AC Maintenance in Dubai? */}
@@ -347,7 +366,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
             </h3>
             <div className="row">
               <div className="col-12">
-                <p className="mb-0">  
+                <p className="mb-0">
                   <Link to="/lg-ac-repair-in-dubai/"><b>LG Air Conditioner Maintenance</b></Link>: FAJ offers reliable LG AC Maintenance, and services in Dubai. With professionals, who are experts in split, vrf and central air conditioning units.
                 </p>
                 <p className="mb-0">

@@ -8,11 +8,11 @@ const RefrigerationAMCServices = () => {
                 bgImg="img/banners/Refrigeration-Equipment-Services/Refrigeration-AMC-Services.avif"
 
                 Title="Commercial Refrigeration Maintenance Contract Services"
-            ></BreadCumb> 
+            ></BreadCumb>
 
             <RefrigerationAMCServicesDetail></RefrigerationAMCServicesDetail>
         </div>
-    ); 
+    );
 };
 
 export default RefrigerationAMCServices;

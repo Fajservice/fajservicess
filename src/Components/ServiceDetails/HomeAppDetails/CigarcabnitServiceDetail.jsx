@@ -19,6 +19,13 @@ import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointme
 // import { Link } from "react-router-dom";
 
 const CigarcabnitServiceDetail = ({ subtitle, title, bgImg }) => {
+  // For SEO
+  const titleSeo = "Cigar Cabinet Humidifier Repair - Dehumidifier Service";
+  const description = "FAJ expert in Cigar cabinet humidifier repair. Dail 043300002 for Dehumidifier, cigar fridge, cooler, refrigerator, electric humidor maintenance service Dubai";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://fajservices.com/cigar-humidor-repair/";
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -55,12 +62,6 @@ const CigarcabnitServiceDetail = ({ subtitle, title, bgImg }) => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
-
-    // autoplay: true,
-    // autoplaySpeed: 0,
-    // speed: 8000,
-    // pauseOnHover: true,
-    // cssEase: 'linear',
 
     responsive: [
       {
@@ -119,8 +120,20 @@ const CigarcabnitServiceDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Cigar Cabinet Humidifier Repair - Dehumidifier Service</title>
-        <meta name="description" content="FAJ expert in Cigar cabinet humidifier repair. Dail 043300002 for Dehumidifier, cigar fridge, cooler, refrigerator, electric humidor maintenance service Dubai"></meta>
+        <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+        <Link rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
+
+
       </HelmetProvider>
       <HeaderForm />
 
@@ -154,7 +167,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, bgImg }) => {
 
                 <p className="mb-2">Enjoy top-notch service for your cigar humidors with us. We provide reliable repair services to ensure your humidors operate at peak performance. Whether you have a walk-in humidor, a freestanding unit, or a built-in cigar humidor, we are here to help. Our services are available in Dubai, Sharjah, and Abu Dhabi. </p>
                 <h3 className="cs_fs_24">
-                Cigar Cabinet Technical Inspection Fee
+                  Cigar Cabinet Technical Inspection Fee
                 </h3>
                 <p>The technical inspection fee starting from AED 375 covers diagnosis, transportation, and reinstallation at your location in Dubai. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repairs for a coffee machine, stand mixer, or robot vacuum cleaner, please contact us.</p>
               </div>
@@ -180,13 +193,13 @@ const CigarcabnitServiceDetail = ({ subtitle, title, bgImg }) => {
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}img/cigarcabnitrepairservice.avif`} alt="Cigarcabnit Repair Service" />
               </div>
               <div className="col-md-6">
-              <ul>
-                <li><strong>Cigar Humidor Preventing Breakdowns: </strong>Regular maintenance, which includes cleaning and descaling, helps minimize expensive repairs and reduces downtime.</li>
-                <li><strong>Cigar Humidor Extending Lifespan: </strong>Regular maintenance extends the lifespan of a cigar cabinet, which helps save on replacement costs.</li>
-                <li><strong>Cigar Humidor Lowering Maintenance Costs: </strong>Addressing small issues early can help prevent larger and more costly repairs later on.</li>
-                <li><strong>Cigar Humidor Maintaining Efficiency: </strong>Regular maintenance ensures optimal performance and helps reduce energy consumption.</li>
-                <li><strong>Cigar Humidor Home Use: </strong>Regular maintenance enhances the quality and lifespan of cigar cabinet refrigerators. Professional servicing is beneficial for both home and business users in Dubai.</li>
-              </ul>
+                <ul>
+                  <li><strong>Cigar Humidor Preventing Breakdowns: </strong>Regular maintenance, which includes cleaning and descaling, helps minimize expensive repairs and reduces downtime.</li>
+                  <li><strong>Cigar Humidor Extending Lifespan: </strong>Regular maintenance extends the lifespan of a cigar cabinet, which helps save on replacement costs.</li>
+                  <li><strong>Cigar Humidor Lowering Maintenance Costs: </strong>Addressing small issues early can help prevent larger and more costly repairs later on.</li>
+                  <li><strong>Cigar Humidor Maintaining Efficiency: </strong>Regular maintenance ensures optimal performance and helps reduce energy consumption.</li>
+                  <li><strong>Cigar Humidor Home Use: </strong>Regular maintenance enhances the quality and lifespan of cigar cabinet refrigerators. Professional servicing is beneficial for both home and business users in Dubai.</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -218,7 +231,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                    While it's tempting to fill your humidor completely with cigars, it's best to avoid overcrowding, as it can cause various issues.
+                      While it's tempting to fill your humidor completely with cigars, it's best to avoid overcrowding, as it can cause various issues.
                     </p>
                   </div>
                 </div>
@@ -325,11 +338,11 @@ const CigarcabnitServiceDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-xl-6">
                 <p className="mb-1"><strong>Our services include:</strong></p>
                 <ul>
-                    <li><strong>Cigar Cabinet Humidor Installation: </strong>Expert installation of various types and brands of cigar walk-in chillers and spare parts, ensuring optimal performance and efficiency.</li>
-                    <li><strong>Cigar Cabinet Humidor Diagnostics: </strong>We thoroughly diagnose issues and offer eligibility assessments with detailed quotes for your built-in cigar refrigerator.</li>
-                    <li><strong>Cigar Cabinet Humidor Repair Service: </strong>Efficient repair services for all cigar humidifier components, ensuring quick resolution of issues such as leaks, electrical failures, and system malfunctions.</li>
-                    <li><strong>Cigar Cabinet Humidor Annual Maintenance Contract: </strong>This contract outlines the terms and services covered for the annual maintenance of the built-in cigar humidor, cigar walk-in chiller, and cigar refrigerator.</li>
-                    </ul>
+                  <li><strong>Cigar Cabinet Humidor Installation: </strong>Expert installation of various types and brands of cigar walk-in chillers and spare parts, ensuring optimal performance and efficiency.</li>
+                  <li><strong>Cigar Cabinet Humidor Diagnostics: </strong>We thoroughly diagnose issues and offer eligibility assessments with detailed quotes for your built-in cigar refrigerator.</li>
+                  <li><strong>Cigar Cabinet Humidor Repair Service: </strong>Efficient repair services for all cigar humidifier components, ensuring quick resolution of issues such as leaks, electrical failures, and system malfunctions.</li>
+                  <li><strong>Cigar Cabinet Humidor Annual Maintenance Contract: </strong>This contract outlines the terms and services covered for the annual maintenance of the built-in cigar humidor, cigar walk-in chiller, and cigar refrigerator.</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -419,7 +432,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-       
+
 
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
@@ -511,13 +524,13 @@ const CigarcabnitServiceDetail = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <h3>We specialise in air conditioning services for the following brands</h3>
             <ul>
-                <li><strong>Airo Fridgador Cabinet Repair Service</strong>: FAJ offers reliable airo fridgador cabinet repair and services in Dubai, with professionals who are experts in Airo fridgador cigar cabinet maintenance.</li>
-                <li><strong>Raching Cigar Humidor Repair and Service</strong>: Located in Dubai, FAJ is your trusted destination for raching cigar humidor services. We specialize in electronic humidor repairs and maintenance, offering comprehensive solutions to meet your needs.</li>
-                <li><strong>Liebherr Cigar Humidor Maintenance Service</strong>: The Liebherr cigar cabinet humidor service ensures you won&rsquo;t have to&nbsp;worry because you are in the right place. FAJ prioritizes efficiency and reliability.</li>
-                <li><strong>Hemingway Premium Electric Cigar Humidor Repair and Service</strong>: Rely on our expert team to promptly resolve any issues with your Hemingway Premium Electric Cigar Humidor and restore its functionality.</li>
-                <li><strong>Electric Cigar Humidor Service and Repair:</strong> With extensive knowledge of electric cigar humidors, we provide effective repairs to keep your unit running smoothly.</li>
-                <li><strong>Vevor Electric Cigar Humidor Service and Repair</strong>: No matter the problem with your Vevor Electric Cigar Humidor, our experts can diagnose and fix it accurately.</li>
-                <li><strong>Humidor Cigar Cabinet Refrigerator and Maintenance</strong>: Is your Humidor Cigar Cabinet Refrigerator not working properly? Don't suffer through uncomfortable temperatures or risk losses due to faulty equipment. FAJ can restore your Humidor Cigar Cabinet Refrigerator quickly!</li>
+              <li><strong>Airo Fridgador Cabinet Repair Service</strong>: FAJ offers reliable airo fridgador cabinet repair and services in Dubai, with professionals who are experts in Airo fridgador cigar cabinet maintenance.</li>
+              <li><strong>Raching Cigar Humidor Repair and Service</strong>: Located in Dubai, FAJ is your trusted destination for raching cigar humidor services. We specialize in electronic humidor repairs and maintenance, offering comprehensive solutions to meet your needs.</li>
+              <li><strong>Liebherr Cigar Humidor Maintenance Service</strong>: The Liebherr cigar cabinet humidor service ensures you won&rsquo;t have to&nbsp;worry because you are in the right place. FAJ prioritizes efficiency and reliability.</li>
+              <li><strong>Hemingway Premium Electric Cigar Humidor Repair and Service</strong>: Rely on our expert team to promptly resolve any issues with your Hemingway Premium Electric Cigar Humidor and restore its functionality.</li>
+              <li><strong>Electric Cigar Humidor Service and Repair:</strong> With extensive knowledge of electric cigar humidors, we provide effective repairs to keep your unit running smoothly.</li>
+              <li><strong>Vevor Electric Cigar Humidor Service and Repair</strong>: No matter the problem with your Vevor Electric Cigar Humidor, our experts can diagnose and fix it accurately.</li>
+              <li><strong>Humidor Cigar Cabinet Refrigerator and Maintenance</strong>: Is your Humidor Cigar Cabinet Refrigerator not working properly? Don't suffer through uncomfortable temperatures or risk losses due to faulty equipment. FAJ can restore your Humidor Cigar Cabinet Refrigerator quickly!</li>
             </ul>
           </div>
         </section>

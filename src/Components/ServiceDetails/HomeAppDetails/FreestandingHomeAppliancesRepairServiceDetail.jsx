@@ -21,6 +21,16 @@ import HeaderForm from "../../Headeform/HeaderForm.jsx";
 // import { Link } from "react-router-dom";
 
 const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg }) => {
+
+
+  // For SEO
+  const titleSeo = "Best Appliances Service Dubai - Appliance Repair Near Me";
+  const description = "We offer an appliances repair service center near you. Get expert in refrigerator, fridge, washing machine, dryer, dishwasher, oven repair near me Dubai";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://fajservices.com/appliances-repair-service/";
+
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -58,12 +68,6 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
     autoplaySpeed: 5000,
     pauseOnHover: true,
 
-    // autoplay: true,
-    // autoplaySpeed: 0,
-    // speed: 8000,
-    // pauseOnHover: true,
-    // cssEase: 'linear',
-
     responsive: [
       {
         breakpoint: 1399,
@@ -94,7 +98,6 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
-    // cssEase: 'linear',
 
     responsive: [
       {
@@ -121,8 +124,19 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
   return (
     <>
       <HelmetProvider>
-        <title>Best Appliances Service Dubai - Appliance Repair Near Me</title>
-        <meta name="description" content="We offer an appliances repair near you. Get expert in refrigerator, fridge, washing machine, dryer, dishwasher, gas stove, oven service near me Dubai"></meta>
+
+        <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+        <Link rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
       </HelmetProvider>
       <HeaderForm />
 
@@ -162,7 +176,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, bgImg 
                   <br /> We're nearby and can get your appliances fixed quickly and efficiently.
                 </p>
 
-                 <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Equipment Technical Inspection Fee</h3>
+                <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Equipment Technical Inspection Fee</h3>
                 <p className="mb-0">The technical inspection fee which covers diagnosis, transportation, and reinstallation in Dubai premises. Please note that this fee is non-refundable.</p>
               </div>
 

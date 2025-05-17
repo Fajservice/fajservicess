@@ -21,6 +21,15 @@ import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointme
 // import { Link } from "react-router-dom";
 
 const HobRepairDetail = ({ subtitle, title, bgImg }) => {
+
+  // For SEO
+  const titleSeo = "Best Gas & Electric Hob Repair Service In Dubai #1 Stove Fix";
+  const description = "Having issues with your cooking appliance? Dail 043300002 for hob repair service in dubai and electric stove, cooking range fix near me in dubai";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://fajservices.com/hob-repair-service/"
+
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -58,12 +67,6 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
     autoplaySpeed: 5000,
     pauseOnHover: true,
 
-    // autoplay: true,
-    // autoplaySpeed: 0,
-    // speed: 8000,
-    // pauseOnHover: true,
-    // cssEase: 'linear',
-
     responsive: [
       {
         breakpoint: 1399,
@@ -94,7 +97,6 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
-    // cssEase: 'linear',
 
     responsive: [
       {
@@ -121,8 +123,19 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Best Gas & Electric Hob Repair Service In Dubai #1 Stove Fix </title>
-        <meta name="description" content="Having issues with your cooking appliance? Dail 043300002 for hob repair service in dubai and electric stove, cooking range fix near me in dubai"></meta>
+
+        <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+        <Link rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
       </HelmetProvider>
       <HeaderForm />
 
@@ -276,7 +289,7 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                    This can be caused by burnt-on food from the induction hob, stubborn cookware residue, or unsightly heat marks.</p>
+                      This can be caused by burnt-on food from the induction hob, stubborn cookware residue, or unsightly heat marks.</p>
                   </div>
                 </div>
               </div>
@@ -326,7 +339,7 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                    This can occur if the cookware is not sufficiently magnetic or sits unevenly on the cooking zone or hot plate.</p>
+                      This can occur if the cookware is not sufficiently magnetic or sits unevenly on the cooking zone or hot plate.</p>
                   </div>
                 </div>
               </div>
@@ -338,7 +351,7 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                    This can happen if the heat is not circulated properly or if there's a problem with the fan or heating thermostat.</p>
+                      This can happen if the heat is not circulated properly or if there's a problem with the fan or heating thermostat.</p>
                   </div>
                 </div>
               </div>

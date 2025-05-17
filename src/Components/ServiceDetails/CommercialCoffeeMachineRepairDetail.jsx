@@ -19,6 +19,17 @@ import HeaderForm from "../Headeform/HeaderForm";
 // import { Link } from "react-router-dom";
 
 const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
+
+  // For SEO
+  const titleSeo = "Coffee Machine Repair & Maintenance Services Dubai";
+  const description = "Get fast & reliable coffee machine repair in Dubai. Our experts in espresso machines for office & commercial maintenance services. Call now 04 3300002";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://fajservices.com/coffee-machine-repair/";
+
+
+
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -112,8 +123,18 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Commercial Coffee Machine Repair - Expresso Machine Service</title>
-        <meta name="description" content="FAJ provides fast commercial coffee machine repair, espresso, coffee grinder, roaster machine servicing in Dubai & annual maintenance contract (AMC)."></meta>
+        <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+        <Link rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
       </HelmetProvider>
       <HeaderForm />
 
