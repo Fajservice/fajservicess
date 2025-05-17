@@ -104,7 +104,7 @@ const AcRepairInAlMizharDetail = ({ subtitle, title, bgImg }) => {
             <div className="container">
                 <div className="row gx-md-5">
                     <div className="col-md-6">
-                        <h3 className="cs_fs_24 mb-1">Best AC Repair inAl Mizhar</h3>
+                        <h3 className="cs_fs_24 mb-1">Best AC Repair in Al Mizhar</h3>
                         <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> in Al Mizhar, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
                         <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                         <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
