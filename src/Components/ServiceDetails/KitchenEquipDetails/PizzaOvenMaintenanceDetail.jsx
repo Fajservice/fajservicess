@@ -336,8 +336,8 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
 
               <div className="col-xl-6">
                 <p>If you're looking for "pizza oven service near me," FAJ Technical Services is the place to go. We recognize how crucial it is to have a trustworthy local service provider. Our teams are positioned strategically to guarantee timely service requests and effective resolution of your pizza oven repair needs. You can rely on us to provide a prompt and practical resolution to your pizza oven problems.</p>
-                <p class="mb-0 pb-0">Following are the types of pizza oven.</p>
-                <ul class="mt-0">
+                <p className="mb-0 pb-0">Following are the types of pizza oven.</p>
+                <ul className="mt-0">
                     <li>brick pizza oven</li>
                     <li>wood fired pizza oven</li>
                     <li>electric pizza oven</li>

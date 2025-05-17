@@ -6,9 +6,9 @@ const MeatGrinderRepair = () => {
             <BreadCumb
                 bgImg="img/banners/kitchen-equipments-banners/meat-grinder.avif"
                 Title="Meat Grinder Repair"
-            ></BreadCumb> 
+            ></BreadCumb>
 
-            <MeatGrinderRepairDetail></MeatGrinderRepairDetail>        
+            <MeatGrinderRepairDetail></MeatGrinderRepairDetail>
         </div>
     );
 };

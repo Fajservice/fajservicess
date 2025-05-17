@@ -17,6 +17,16 @@ import parse from 'html-react-parser';
 import HeaderForm from "../Headeform/HeaderForm";
 
 const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => {
+
+  // For SEO
+  const titleSeo = "Coffee Machine Service Center Dubai - Coffee Machine Repair";
+  const description = "FAJ coffee machine service center in Dubai. Call 04 3300002 Get home / office Espresso & restaurant or cafe Coffee machine repair & maintenance";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://fajservices.com/coffee-machine-service-center-in-dubai/";
+
+
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -53,7 +63,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
-    
+
 
     responsive: [
       {
@@ -112,8 +122,18 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
   return (
     <>
       <HelmetProvider>
-        <title>Coffee Machine Service Center Dubai - Coffee Machine Repair</title>
-        <meta name="description" content="FAJ coffee machine service center in Dubai. Call 04 3300002 Get home / office Espresso & restaurant or cafe Coffee machine repair & maintenance"></meta>
+        <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+        <Link rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
       </HelmetProvider>
       <HeaderForm />
 
@@ -181,7 +201,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
                 <br />
                 Timing: Mon-Sat 8:00 AM to 6:00 PM - Sunday 12:00 PM to 6:00 PM. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.
               </p>
-             
+
               <p className="appointment-col border-small-top pt-3" >The <a href="https://www.google.com/maps/dir//Warehouse+No+-+S-02+Gate+35+Street+18b+-+Al+Quoz+-+Al+Quoz+Industrial+Area+4+-+Dubai+-+United+Arab+Emirates/@25.1105958,55.1452595,22158m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x3e5f699a600aceeb:0xa6121b25d557aa94!2m2!1d55.227661!2d25.1106186?entry=ttu&g_ep=EgoyMDI1MDQyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" > FAJ workshop</a> is conveniently located near both Al Khail Road and Sheikh Zayed Road. When you drop off your coffee machine at the workshop, you will receive a <strong>discount</strong> on the technical inspection fee and other services.
               </p>
 
@@ -201,9 +221,9 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
         <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">Why Coffee Machine Maintenance Important in Dubai?
-</h3>
+            </h3>
             <p className="">
-            Regular maintenance of coffee machine is essential for business. It ensures the quality of coffee, extends the machine’s lifespan, and reduces repair costs.
+              Regular maintenance of coffee machine is essential for business. It ensures the quality of coffee, extends the machine’s lifespan, and reduces repair costs.
             </p>
 
             <div className="row align-items-center">
@@ -225,8 +245,8 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
           </div>
         </section>
 
-         {/* The Most Common Problems of Coffee Machines */}
-         <section className="section cs_py_30 bg-light-gray">
+        {/* The Most Common Problems of Coffee Machines */}
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="text-center">The Most Common Problems of Coffee Machines   </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -238,7 +258,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                    Coffee Machine / espresso machine water leakage issues can be caused by worn-out seals, loose connections, or cracks in the water reservoir or tubing.
+                      Coffee Machine / espresso machine water leakage issues can be caused by worn-out seals, loose connections, or cracks in the water reservoir or tubing.
                     </p>
                   </div>
                 </div>
@@ -286,9 +306,9 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
                     <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Loud or Unusual Noises</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0"> 
-                    
-                    Noise from the coffee machine, Low water levels, the espresso machine being placed on a hard surface, or heating issues can lead to unexpected noises.
+                    <p className="p-2 mb-0">
+
+                      Noise from the coffee machine, Low water levels, the espresso machine being placed on a hard surface, or heating issues can lead to unexpected noises.
 
                     </p>
                   </div>
@@ -302,9 +322,9 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                    Weak Coffee is often a common problem, typically due to improper grind size, over-extraction, under-extraction, or using stale espresso machine coffee beans.
+                      Weak Coffee is often a common problem, typically due to improper grind size, over-extraction, under-extraction, or using stale espresso machine coffee beans.
                     </p>
-                   
+
                   </div>
                 </div>
               </div>
@@ -316,8 +336,8 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-    
-                    This issue of coffee machine or espresso or automatic coffee machine can stem from clogs, incorrect grind size, or problems with the coffee machine’s pump.</p>
+
+                      This issue of coffee machine or espresso or automatic coffee machine can stem from clogs, incorrect grind size, or problems with the coffee machine’s pump.</p>
                   </div>
                 </div>
               </div>
@@ -329,8 +349,8 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                    
-                    For more complex issues or if you are unable to troubleshoot the problem yourself, contact FAJ qualified coffee machine repair technician for maintenance.
+
+                      For more complex issues or if you are unable to troubleshoot the problem yourself, contact FAJ qualified coffee machine repair technician for maintenance.
                     </p>
                   </div>
                 </div>
@@ -377,7 +397,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
 
                   <li> <strong> Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for the annual maintenance of the espresso machine. </li>
                   <p className="mb-0">
-                  Regular maintenance is essential for optimal performance, efficiency, and longevity of your coffee machine.
+                    Regular maintenance is essential for optimal performance, efficiency, and longevity of your coffee machine.
                   </p>
                 </ul>
               </div>
@@ -386,7 +406,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
           </div>
         </section >
 
-        
+
 
         {/* The Benefits Of Coffee Machines Service Dubai */}
         <section className="section cs_py_30 appliances-benifit-sec bg-dark-blue">
@@ -474,7 +494,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
           </div>
         </section>
 
-       
+
 
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
@@ -563,59 +583,59 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
           </div>
         </section>
 
-       
+
 
         {/* CHOOSE  DOMESTIC OR PROFESSIONAL COFFEE MACHINE REPAIR SERVICE */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3>CHOOSE  DOMESTIC OR PROFESSIONAL COFFEE MACHINE REPAIR SERVICE</h3>
-            <div class="row">
-              <div class="col-sm-4">
-                <ul class="">
-                  <li class="">Ascaso Coffee Machine Repair and Maintenance</li>
-                  <li class="">Marco Coffee Machine Repair and Service</li>
-                  <li class="">Appia Coffee Machine Repair and Descaling&nbsp;</li>
-                  <li class="">Lelit Coffee Machine Repair and Cleaning Service</li>
-                  <li class="">Conti Coffee Machine Repair and Installation</li>
-                  <li class="">Teka Coffee Machine Repair and Descaling</li>
-                  <li class="">Bezzera Coffee Machine Repair and Cleaning</li>
-                  <li class="">Jura Coffee Machine Repair and Servicing</li>
-                  <li class="">La Pavoni Espresso Repair and Service</li>
-                  <li class="">Dr.Coffee Machine Repair and Maintenance</li>
-                  <li class="">Beko Coffee Machine Repair and Cleaning</li>
-                  <li class="">Breville Coffee Machine Repair and Cleaning</li>
-                  <li class="">Melitta Coffee Machine Repair and Descaling</li>
-                  <li class="">Cafematic Automatic Coffee Machine Repairs and Maintenance</li>
-                  <li class="">Farenheit Epsilon Super Automatic Coffee Machine, Espresso Maker</li>
+            <div className="row">
+              <div className="col-sm-4">
+                <ul className="">
+                  <li className="">Ascaso Coffee Machine Repair and Maintenance</li>
+                  <li className="">Marco Coffee Machine Repair and Service</li>
+                  <li className="">Appia Coffee Machine Repair and Descaling&nbsp;</li>
+                  <li className="">Lelit Coffee Machine Repair and Cleaning Service</li>
+                  <li className="">Conti Coffee Machine Repair and Installation</li>
+                  <li className="">Teka Coffee Machine Repair and Descaling</li>
+                  <li className="">Bezzera Coffee Machine Repair and Cleaning</li>
+                  <li className="">Jura Coffee Machine Repair and Servicing</li>
+                  <li className="">La Pavoni Espresso Repair and Service</li>
+                  <li className="">Dr.Coffee Machine Repair and Maintenance</li>
+                  <li className="">Beko Coffee Machine Repair and Cleaning</li>
+                  <li className="">Breville Coffee Machine Repair and Cleaning</li>
+                  <li className="">Melitta Coffee Machine Repair and Descaling</li>
+                  <li className="">Cafematic Automatic Coffee Machine Repairs and Maintenance</li>
+                  <li className="">Farenheit Epsilon Super Automatic Coffee Machine, Espresso Maker</li>
                 </ul>
               </div>
-              <div class="col-sm-4">
-                <ul class="acsvs-exp-new-p">
-                  <li class="">Espresso Southeast Coffee Machine Repair and Fix</li>
-                  <li class="">Bosch Machine Repair and Maintenance</li>
-                  <li class="">Armiali Coffee Machine Repairs and Servicing&nbsp;</li>
-                  <li class="">Breville Coffee Machine Repair and Fixing</li>
-                  <li class="">Isomac Coffee Machine &amp; Espresso Repair and Fix</li>
-                  <li class="">ECM Coffee Machine &amp; Espresso Repair and Servicing</li>
-                  <li class=""><a href="#/delonghi-coffee-machine-repair/">Delonghi Coffee Machine &amp; Espresso Repair</a> and Service</li>
-                  <li class="">La Marzocco Coffee Machine Repair and Maintenance</li>
-                  <li class="">Seimens Coffee Machine Repair and Cleaning</li>
-                  <li class="">Animo with Water Filter Coffee Machine Repair and Service</li>
-                  <li class="">Rancilio Volumetric Espresso Machine Repair and Servicing</li>
+              <div className="col-sm-4">
+                <ul className="acsvs-exp-new-p">
+                  <li className="">Espresso Southeast Coffee Machine Repair and Fix</li>
+                  <li className="">Bosch Machine Repair and Maintenance</li>
+                  <li className="">Armiali Coffee Machine Repairs and Servicing&nbsp;</li>
+                  <li className="">Breville Coffee Machine Repair and Fixing</li>
+                  <li className="">Isomac Coffee Machine &amp; Espresso Repair and Fix</li>
+                  <li className="">ECM Coffee Machine &amp; Espresso Repair and Servicing</li>
+                  <li className=""><a href="#/delonghi-coffee-machine-repair/">Delonghi Coffee Machine &amp; Espresso Repair</a> and Service</li>
+                  <li className="">La Marzocco Coffee Machine Repair and Maintenance</li>
+                  <li className="">Seimens Coffee Machine Repair and Cleaning</li>
+                  <li className="">Animo with Water Filter Coffee Machine Repair and Service</li>
+                  <li className="">Rancilio Volumetric Espresso Machine Repair and Servicing</li>
                 </ul>
               </div>
-              <div class="col-sm-4">
-                <ul class="acsvs-exp-new-p">
-                  <li class="">Astoria Loft Espresso Machine Repair and Fixing</li>
-                  <li class="">Rocket Espresso Machine Repair and Descaling</li>
-                  <li class="">Magister Espresso Machines Repair and Maintenance</li>
-                  <li class="">Nuova Simonelli Coffee Machine Repair and Servicing</li>
-                  <li class="">Victoria Arduino Coffee Machine Repair and Service</li>
-                  <li class="">Gaggia Automatic Coffee Machine Repair near me</li>
-                  <li class="">Orhcestrale Espresso Machines Repair and Fix</li>
-                  <li class="">Rocket Appartmento Machine Repair and Descaling</li>
-                  <li class="">Illy Saeco Royal Coffee Machine Repair and Service</li>
-                  <li class="">Sage Coffee Machine &amp; Espresso Repair and Cleaning</li>
+              <div className="col-sm-4">
+                <ul className="acsvs-exp-new-p">
+                  <li className="">Astoria Loft Espresso Machine Repair and Fixing</li>
+                  <li className="">Rocket Espresso Machine Repair and Descaling</li>
+                  <li className="">Magister Espresso Machines Repair and Maintenance</li>
+                  <li className="">Nuova Simonelli Coffee Machine Repair and Servicing</li>
+                  <li className="">Victoria Arduino Coffee Machine Repair and Service</li>
+                  <li className="">Gaggia Automatic Coffee Machine Repair near me</li>
+                  <li className="">Orhcestrale Espresso Machines Repair and Fix</li>
+                  <li className="">Rocket Appartmento Machine Repair and Descaling</li>
+                  <li className="">Illy Saeco Royal Coffee Machine Repair and Service</li>
+                  <li className="">Sage Coffee Machine &amp; Espresso Repair and Cleaning</li>
 
                 </ul>
               </div>
@@ -631,8 +651,8 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
           </div>
         </section>
 
-         {/* Brands section */}
-         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
+        {/* Brands section */}
+        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
           <div className="container">
 
             <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"

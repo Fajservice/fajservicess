@@ -15,8 +15,6 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
 const AdmiralFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
-
-
     // For SEO
     const titleSeo = "Admiral Fridge Repair In Dubai - Washing Machine Service";
     const description = "Looking for Admiral fridge repair Dubai. We are offering refrigerator, dryer, dishwasher, cooker, and oven service near me Call now at 043300002";
@@ -120,7 +118,7 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
                 <meta name="keywords" content={Keyword} />
                 <meta name="author" content={Author} />
                 <meta name="robots" content="index, follow" />
-                <linK rel="canonical" href={titleSeo} />
+                <Link rel="canonical" href={titleSeo} />
                 <meta property="og:type" content="website" />
                 <meta property="og:locale" content="en_US" />
                 <meta property="og:title" content={titleSeo} />

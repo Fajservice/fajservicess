@@ -7,9 +7,9 @@ const FreestandingHomeAppliancesRepairService = () => {
             <BreadCumb
                 bgImg="img/banners/small-home.avif"
                 Title="Home Appliance Repair and Service in Dubai"
-            ></BreadCumb> 
+            ></BreadCumb>
 
-            <FreestandingHomeAppliancesRepairServiceDetail />        
+            <FreestandingHomeAppliancesRepairServiceDetail />
         </div>
     );
 };

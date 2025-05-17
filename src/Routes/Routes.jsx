@@ -220,7 +220,6 @@ import TerimAppliance from "../Pages/AppliancesPage/AppliancesBrand/TerimApplian
 import BlombergFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/BlombergFridgeRepair.jsx";
 import DaewooHomeAppliance from "../Pages/AppliancesPage/AppliancesBrand/DaewooHomeAppliance.jsx";
 import AftronFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/AftronFridgeRepair.jsx";
-
 import HooverFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/HooverFridgeRepair.jsx";
 import LgFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/LgFridgeRepair.jsx";
 import DaewooHomeApplianceRepair from "../Pages/AppliancesPage/AppliancesBrand/DaewooHomeApplianceRepair.jsx";
@@ -244,7 +243,6 @@ import BostonRefrigeratorRepair from "../Pages/AppliancesPage/AppliancesBrand/Bo
 import KelvinatorHomeAppInstallation from "../Pages/AppliancesPage/AppliancesBrand/KelvinatorHomeAppInstallation.jsx";
 import ZanussiFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/ZanussiFridgeRepair.jsx";
 import SearsHomeAppInstallation from "../Pages/AppliancesPage/AppliancesBrand/SearsHomeAppInstallation.jsx";
-
 import BaumaticRefrigeratorRepair from "../Pages/AppliancesPage/AppliancesBrand/BaumaticRefrigeratorRepair.jsx";
 import GeGeneralElectricFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/GeGeneralElectricFridgeRepair.jsx";
 import KitchenaidRefrigeratorRepair from "../Pages/AppliancesPage/AppliancesBrand/KitchenaidRefrigeratorRepair.jsx";
@@ -253,7 +251,6 @@ import LiebherrRefrigeratorRepair from "../Pages/AppliancesPage/AppliancesBrand/
 import WhiteWestinghouseFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/WhiteWestinghouseFridgeRepair.jsx";
 import SpeedQueenWashingMachineRepair from "../Pages/AppliancesPage/AppliancesBrand/SpeedQueenWashingMachineRepair.jsx";
 import FrankeAppliancesRepairService from "../Pages/AppliancesPage/AppliancesBrand/FrankeAppliancesRepairService.jsx";
-
 import IfbRefrigeratorRepair from "../Pages/AppliancesPage/AppliancesBrand/IfbRefrigeratorRepair.jsx";
 import KitchenaidStandMixerRepairService from "../Pages/AppliancesPage/AppliancesBrand/KitchenaidStandMixerRepairService.jsx";
 import KenwoodStandMixerRepairService from "../Pages/AppliancesPage/AppliancesBrand/KenwoodStandMixerRepairService.jsx";
@@ -377,7 +374,7 @@ export const router = createBrowserRouter([
         element: <IceMakerRepair />,
       },
       {
-        path: "/commercial-freezer-chiller-amc-service/",
+        path: "/commercial-refrigeration-maintenance-contact-services/",
         element: <RefrigerationAMCServices />,
       },
       {

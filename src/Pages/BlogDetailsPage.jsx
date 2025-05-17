@@ -21,20 +21,20 @@ const BlogDetailsPage = () => {
     }, [slug]);
   
     // const renderParagraphWithLinks = (paragraph) => {
-    //   // Handle external links with url attribute <link url="https://...">text</link>
-    //   if (typeof paragraph === 'string' && paragraph.includes('<link url="')) {
+    //   // Handle external links with url attribute <Link url="https://...">text</Link>
+    //   if (typeof paragraph === 'string' && paragraph.includes('<Link url="')) {
     //     try {
-    //       const linkStartIndex = paragraph.indexOf('<link url="');
-    //       const urlStartIndex = linkStartIndex + '<link url="'.length;
+    //       const linkStartIndex = paragraph.indexOf('<Link url="');
+    //       const urlStartIndex = linkStartIndex + '<Link url="'.length;
     //       const urlEndIndex = paragraph.indexOf('">', urlStartIndex);
     //       const url = paragraph.substring(urlStartIndex, urlEndIndex);
   
     //       const linkTextStartIndex = urlEndIndex + 2; // Skip the ">
-    //       const linkTextEndIndex = paragraph.indexOf('</link>', linkTextStartIndex);
+    //       const linkTextEndIndex = paragraph.indexOf('</Link>', linkTextStartIndex);
     //       const linkText = paragraph.substring(linkTextStartIndex, linkTextEndIndex);
   
     //       const beforeLinkText = paragraph.substring(0, linkStartIndex);
-    //       const afterLinkText = paragraph.substring(linkTextEndIndex + '</link>'.length);
+    //       const afterLinkText = paragraph.substring(linkTextEndIndex + '</Link>'.length);
   
     //       // If external link (starts with http or https)
     //       if (url.startsWith('http://') || url.startsWith('https://')) {
@@ -61,14 +61,14 @@ const BlogDetailsPage = () => {
     //     }
     //   }
   
-    //   Check if paragraph has simple <link> tags (for internal blog links)
-    //   if (typeof paragraph === 'string' && paragraph.includes('<link>')) {
+    //   Check if paragraph has simple <Link> tags (for internal blog links)
+    //   if (typeof paragraph === 'string' && paragraph.includes('<Link>')) {
     //     // Split the content by the opening tag
-    //     const parts = paragraph.split('<link>');
+    //     const parts = paragraph.split('<Link>');
     //     const beforeLink = parts[0];
   
     //     // Split the remaining content by the closing tag
-    //     const linkParts = parts[1].split('</link>');
+    //     const linkParts = parts[1].split('</Link>');
     //     // const linkText = linkParts[0];
     //     const afterLink = linkParts[1] || '';
   

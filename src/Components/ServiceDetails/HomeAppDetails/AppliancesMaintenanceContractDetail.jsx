@@ -21,6 +21,16 @@ import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointme
 // import { Link } from "react-router-dom";
 
 const AppliancesMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
+
+
+  // For SEO
+  const titleSeo = "Best Appliances AMC Service Dubai -#1 Maintenance Contract";
+  const description = "Time to get comfortable! with appliances AMC service in Dubai FAJ experts in kitchen appliances, freezer, chiller, cooking appliances maintenance";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://fajservices.com/appliances-amc-service/";
+
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -88,7 +98,6 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
-    // cssEase: 'linear',
 
     responsive: [
       {
@@ -115,8 +124,19 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Best Appliances AMC Service Dubai -#1 Maintenance Contract</title>
-        <meta name="description" content="Time to get comfortable! with appliances AMC service in Dubai FAJ experts in kitchen appliances, freezer, chiller, cooking appliances maintenance"></meta>
+
+        <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+        <Link rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
       </HelmetProvider>
       <HeaderForm />
 
@@ -256,7 +276,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
                     <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Food Poisoning</h3>
-                  </div>  
+                  </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
                       Foodborne illness occurs when food contaminated with harmful bacteria, viruses, or toxins is consumed. Examples include aflatoxins and raw kidney beans.
@@ -387,7 +407,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/24x7b.avif`} alt="24x7" className="rounded shadow" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/24x7b.jpg`} alt="24x7" className="rounded shadow" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">24×7 days a week service</h4>
                       <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
@@ -399,7 +419,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/annual-contract-b.avif`} alt="annual contract icon" className="rounded shadow" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/annual-contract-b.jpg`} alt="annual contract icon" className="rounded shadow" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">    Annual maintenance contracts </h4>
                       <p className="small">Regular maintenance helps your appliances  run smoothly and efficiently, delivering the best results every time.
@@ -412,7 +432,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/trained-b.avif`} alt="trained icon" className="rounded shadow" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/trained-b.jpg`} alt="trained icon" className="rounded shadow" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18"> Well trained & certified technicians </h4>
                       <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
@@ -424,7 +444,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/installation-b.avif`} alt="installation icon" className="rounded shadow" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/installation-b.jpg`} alt="installation icon" className="rounded shadow" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Installation, testing & commissioning of commercial kitchens </h4>
                       <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
@@ -436,7 +456,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/call.avif`} alt="Cooling Efficiency" className="rounded shadow" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/call.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">On-call services for kitchen equipment</h4>
                       <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
@@ -450,7 +470,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/gearicon.avif`} alt="Cooling Efficiency" className="rounded shadow" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/gearicon.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Availability of genuine spare parts </h4>
                       <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
@@ -462,7 +482,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/wellicon.avif`} alt="Cooling Efficiency" className="rounded shadow" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/wellicon.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18"> Well versed in handling MEP services for kitchen projects</h4>
                       <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
@@ -474,7 +494,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/wellstar.avif`} alt="Cooling Efficiency" className="rounded shadow" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/wellstar.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Complete maintenance solutions</h4>
                       <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>

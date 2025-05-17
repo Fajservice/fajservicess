@@ -21,6 +21,15 @@ import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointme
 // import { Link } from "react-router-dom";
 
 const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
+
+  // For SEO
+  const titleSeo = "Best Dishwasher Repair Service In Dubai - Dish Wash Fix #1";
+  const description = "Dishwasher repair service in Dubai FAJ is here to help with integrated dishwasher fix service and dish washer machine maintenance call 043300002";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://fajservices.com/dishwasher-repair-service/";
+
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -88,7 +97,6 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
-    // cssEase: 'linear',
 
     responsive: [
       {
@@ -115,8 +123,18 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Best Dishwasher Repair Service In Dubai - Dish Wash Fix #1        </title>
-        <meta name="description" content="Dishwasher repair service in Dubai FAJ is here to help with integrated dishwasher fix service and dish washer machine maintenance call +971507464712"></meta>
+        <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+        <Link rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
       </HelmetProvider>
       <HeaderForm />
 

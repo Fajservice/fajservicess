@@ -7,7 +7,7 @@ const IntegratedApplianceRepair = () => {
             <BreadCumb
                 bgImg="img/banners/built-in-appliances.avif"
                 Title="Built-in Appliances Repair Service Dubai"
-            ></BreadCumb> 
+            ></BreadCumb>
             <IntegratedApplianceRepairDetail></IntegratedApplianceRepairDetail>
 
         </div>

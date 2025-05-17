@@ -95,7 +95,7 @@ const AcRepairandServiceInEmiratesHillsDetail = ({ subtitle, title, bgImg }) => 
                 <meta name="author" content={Author} />
                 <meta name="robots" content="index, follow" />
 
-                <linK rel="canonical" href={titleSeo} />
+                <Link rel="canonical" href={titleSeo} />
                 <meta property="og:type" content="website" />
                 <meta property="og:locale" content="en_US" />
                 <meta property="og:title" content={titleSeo} />

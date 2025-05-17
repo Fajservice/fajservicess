@@ -7,11 +7,11 @@ const CommercialRefrigerationMaintence = () => {
             <BreadCumb
                 bgImg="img/banners/Refrigeration-Equipment-Services/Commercial-Refrigerator-Repair.avif"
                 Title="Commercial Refrigeration Maintenance and Services"
-            ></BreadCumb> 
+            ></BreadCumb>
 
             <CommercialRefrigerationMaintenceDetail></CommercialRefrigerationMaintenceDetail>
         </div>
-    ); 
+    );
 };
 
 export default CommercialRefrigerationMaintence;

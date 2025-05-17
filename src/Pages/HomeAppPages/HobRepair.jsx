@@ -7,7 +7,7 @@ const HobRepair = () => {
             <BreadCumb
                 bgImg="img/banners/hob.avif"
                 Title="Hob Repair Service Dubai"
-            ></BreadCumb> 
+            ></BreadCumb>
 
             <HobRepairDetail></HobRepairDetail>
         </div>

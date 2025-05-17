@@ -6,8 +6,8 @@ const GasRangeRepair = () => {
             <BreadCumb
                 bgImg="img/banners/kitchen-equipments-banners/gas-range.avif"
                 Title="Gas Range Repair"
-            ></BreadCumb> 
-            <GasRangeDetail />       
+            ></BreadCumb>
+            <GasRangeDetail />
         </div>
     );
 };

@@ -1,0 +1,55 @@
+[
+    {
+      "title": "What is the most common problem with a Daewoo washing machine?",
+      "desc": "Daewoo washing machines may experience issues such as leaking, noise, movement, failure to spin, not filling with water, door not opening, or not draining due to clogs."
+    },
+    {
+      "title": "How can I reset my Daewoo washing machine?",
+      "desc": "Step 1: Unplug the washer from the outlet. Step 2: Plug it back into the wall socket. Step 3: Open and close the washer door six times to reset the system's components."
+    },
+    {
+      "title": "How to fix Daewoo washing machine error code LE?",
+      "desc": "The LE error indicates the door opened during operation. To resolve it, close the door firmly. If the SE error appears, it means the safety switch opened before the spin stage began."
+    },
+    {
+      "title": "What is the most common fridge failure?",
+      "desc": "Common Daewoo refrigerator problems include insufficient cooling, blocked vents, dirty condenser coils, faulty fan motors, control panel problems, power issues, and bad placement."
+    },
+    {
+      "title": "Why is my Daewoo fridge not cooling?",
+      "desc": "Ensure the fridge is plugged in and has power. Confirm correct temperature settings and check that the doors seal properly. If issues persist, contact a technician."
+    },
+    {
+      "title": "Why is my Daewoo fridge freezer beeping?",
+      "desc": "Overfilling may prevent the doors from closing, triggering a beeping alarm. Also, check door seals for damage or dirt that might prevent proper closure."
+    },
+    {
+      "title": "How do I clear the error code on my Daewoo dishwasher?",
+      "desc": "Step 1: Turn off or unplug the dishwasher. Step 2: Wait a few minutes. Step 3: Turn it back on. Step 4: Check if the error persists."
+    },
+    {
+      "title": "What is the most common Daewoo dishwasher fault?",
+      "desc": "Common faults include leaking, poor drainage, unclean dishes, bad odors, and general performance issues, often resolvable through cleaning and maintenance."
+    },
+    {
+      "title": "Why is my Daewoo stove electricity not working?",
+      "desc": "Check your breaker or fuse box. Reset or replace as needed. If the oven powers on, the issue was electrical. Also inspect bake/broil wiring near the element."
+    },
+    {
+      "title": "What can cause a Daewoo stove to stop working?",
+      "desc": "Common issues include lack of gas supply, power interruptions, or dirty burners. Open gas valves, reset breakers, and clean burners to resolve problems."
+    },
+    {
+      "title": "What are Daewoo washing machine error codes?",
+      "desc": "Common codes include:\n- LOC/LC: Control Lock activated\n- dET: Detergent cartridge not detected\n- Int: Cycle paused/canceled\n- rL/F34: Items in washer during Clean cycle\n- Sud/Sd: Too many suds\n- F5 E2: Door lock issue\n- F7 E1: Motor speed sensor error\n- F8 E1/LO FL: Low water flow\n- F8 E2: Dispenser system error\n- F9 E1: Drain time too long\n- E2: Overfilling error\n- E5: High voltage (possible PCB issue)\n- E6: Motor or PCB failure\n- E7: Drum rotating wrong direction\n- E8: Drive motor error\n- E9: Pressure sensor fault\n- H2: Wash temperature sensor fault\n- H4: Heating element overheating\n- H6: Heating element not heating\n- H8: Heating without water detected\n- IE: Water inlet failure\n- LE: Door not closed securely\n- OE: Water drainage failure"
+    },
+    {
+      "title": "What are Daewoo fridge freezer error codes?",
+      "desc": "Common codes include:\n- F1: Fan temperature sensor error\n- r1: Ambient temperature sensor error\n- rt: RT temperature sensor error\n- D1: D temperature sensor error\n- dr: Fridge door sensor fault\n- dF: Freezer door sensor fault\n- dH: Homebar door switch fault\n- C1: Abnormal cycle\n- F3: Defrost return abnormal\n- d2: Forced defrost mode"
+    },
+    {
+      "title": "What are Daewoo washing machine error codes?",
+      "desc": "Common error codes:\n- E01: Door not properly closed\n- E02: Water inlet error\n- E03: Drainage error\n- E04: Temperature sensor fault\n- E05: Overflow error\n- E06: Heating element malfunction\n- E07: Turbidity sensor error\n- E08: Spray arm issue\n- E09: Softener system fault\n- E10: Communication error\n- E11: Detergent dispenser issue\n- E12: Door seal leakage\n- E13: Water hardness sensor fault\n- E14: Motor overload\n- E15: Load detection error\n- E16: Child lock error\n- E17: Salt refill indicator\n- E18: Rinse aid refill indicator\n- E19: Internal fan fault\n- E20: Anti-flood device activated"
+    }
+  ]
+  
