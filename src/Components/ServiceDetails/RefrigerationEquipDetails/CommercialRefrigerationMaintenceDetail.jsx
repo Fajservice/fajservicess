@@ -549,7 +549,6 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, bgImg }) => {
 
 
 
-          {/* Brands section */}
          
 
           {/* testimobial section */}

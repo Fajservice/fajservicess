@@ -16,8 +16,8 @@ const Home = () => {
         <Helmet>
             <title>FAJ / AC Repair In Dubai - Freezer Service Appliances Fix</title>
             <meta name="description" content="FAJ Established in 2010, / We offer professional AC Repair, Freezer, Refrigerator, Fridge, Washing Machine Maintenance Service Company Dubai"/>
-            <link rel="icon" href="/assets/images/icons/FAJ-Logo.avif" sizes="32x32"></link>
-            <link rel="icon" href="/assets/images/icons/FAJ-Logo.avif" sizes="192x192"></link>
+            <Link rel="icon" href="/assets/images/icons/FAJ-Logo.avif" sizes="32x32"></Link>
+            <Link rel="icon" href="/assets/images/icons/FAJ-Logo.avif" sizes="192x192"></Link>
         </Helmet>
         <div className="homepage">
             <HeroBanner1></HeroBanner1>

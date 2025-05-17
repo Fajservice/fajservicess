@@ -6,7 +6,7 @@ const SamsungFridgeRepair = () => {
     <div className="serviceDetails">
       <BreadCumb
         bgImg="img/banners/homeappliancesbrands/samsung.avif"
-        Title="Samsung Fridge Repair in Dubai"
+        Title="Samsung Home Appliance Repair Service and Installation"
       ></BreadCumb>
 
       <SamsungFridgeRepairDetail />

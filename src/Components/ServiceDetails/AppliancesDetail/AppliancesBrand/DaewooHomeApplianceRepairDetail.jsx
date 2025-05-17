@@ -1,10 +1,12 @@
 import React from 'react'
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
+import data from '../../../../Data/AppliancesData/AppliancesFaqs/DaewooAppliancesFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
+import GetQuoteButton from "../../../Buttons/GetQuoteButton";
+import CallNowButton from "../../../Buttons/CallNowButton";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 import Slider from "react-slick";
 import testimonial_data from '../../../../Data/AppliancesData/AppliancesTestimonial/AppliancesTestimonials.json';
@@ -15,8 +17,8 @@ import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppoin
 
 const DaewooHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
     // For SEO
-    const titleSeo = "Daewoo Home Appliances Repair - Washing Machine Repair";
-    const description = "Daewoo Home Appliances Repair - Washing Machine Repair";
+    const titleSeo = "Daewoo Home Appliance Repair & Washing Machine Service";
+    const description = "Daewoo home appliances service Dubai. Get fast Daewoo refrigerator repair,  Daewoo washing machine repair dishwasher, fridge service center near me";
     const Author = "Faj Technical Servcies";
     const Keyword = "";
     const URL = "https://fajservices.com/daewoo-home-appliances-repair/";
@@ -119,7 +121,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                 <meta name="keywords" content={Keyword} />
                 <meta name="author" content={Author} />
                 <meta name="robots" content="index, follow" />
-                <linK rel="canonical" href={titleSeo} />
+                <Link rel="canonical" href={titleSeo} />
                 <meta property="og:type" content="website" />
                 <meta property="og:locale" content="en_US" />
                 <meta property="og:title" content={titleSeo} />
@@ -134,7 +136,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                 <section className="section cs_py_30">
                     <div className="container">
                         <h2 className="cs_fs_30">Professional Daewoo Home Appliances Service and Repair</h2>
-                        <p>Are you having trouble finding a local appliance technician who specializes in Daewoo kitchen appliances? At FAJ Technical Services, we have been providing reliable and affordable services since 2010. We operate with a wide network of thoroughly vetted, qualified, and experienced service professionals. Whenever possible, we will send a technician who is familiar with your specific daewoo appliance. </p>
+                        <p>Are you having trouble finding a local Daewoo appliance technician who specializes in Daewoo kitchen appliances? At FAJ Technical Services, we have been providing reliable and affordable services since 2010. We operate with a wide network of thoroughly vetted, qualified, and experienced service professionals. Whenever possible, we will send a technician who is familiar with your specific Daewoo appliance. </p>
 
                         <div id="get-quote" className=" mt-3">
                             <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -162,12 +164,11 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                                 </p>
 
                                 <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Daewoo Appliances Technical Inspection Fee</h3>
-                                <p className="mb-0">We have a standard technical inspection fee starting from AED 157 to 320 (depending on the appliance) that covers diagnosis, transportation, and reinstallation of the same appliance. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any repairs/parts. Also, get repairs from us for your coffee machine, stand mixer, or robot vacuum.
-</p>
+                                <p className="mb-0">We have a standard technical inspection fee starting from AED 157 to 320 (depending on the appliance) that covers diagnosis, transportation, and reinstallation of the same appliance. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any repairs/parts. Also, get repairs from us for your coffee machine, stand mixer, or robot vacuum. </p>
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} alt="Post Image" />
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} alt="Daewoo Fridge Repair" />
                             </div>
                         </div>
                         <AppliancesAppointmentCol></AppliancesAppointmentCol>
@@ -280,20 +281,20 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
 
-                        <h3 className="cs_fs_30">Why is Daewoo   Appliance Maintenance Service Important in Dubai?</h3>
+                        <h3 className="cs_fs_30">Why is Daewoo Appliance Maintenance Service Important in Dubai?</h3>
                         <p className="">
-                            Our all-inclusive repair services include diagnosis, repairs, installations, and maintenance. That is why we are the most in-demand Daewoo   appliances maintenance in Dubai provider.
+                            Our all-inclusive repair services include diagnosis, repairs, installations, and maintenance. That is why we are the most in-demand Daewoo appliances maintenance in Dubai provider.
                         </p>
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher.avif`} alt="Post Image" />
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher.avif`} alt="Daewoo Fridge Repair" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">
-                                    <li> <strong>  Daewoo   Washing Machine Repair in Dubai:-: </strong> Regular maintenance helps appliances last longer, saving on replacement costs.</li>
-                                    <li> <strong>  Daewoo   Fridge Repair in Dubai: </strong> we are fully confident of getting your fridge running back in no time. </li>
-                                    <li> <strong>  Daewoo   Cooker Repair in Dubai: </strong> Catching minor issues early prevents them from escalating into expensive repair. </li>
+                                    <li> <strong>  Daewoo Washing Machine Repair in Dubai:-: </strong> Regular maintenance helps appliances last longer, saving on replacement costs.</li>
+                                    <li> <strong>  Daewoo Fridge Repair in Dubai: </strong> we are fully confident of getting your fridge running back in no time. </li>
+                                    <li> <strong>  Daewoo Cooker Repair in Dubai: </strong> Catching minor issues early prevents them from escalating into expensive repair. </li>
                                     <li> <strong>  Preserving Appliance Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
                                     <li> <strong>  Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious.</li>
                                     <li> <strong>  Cost-Effective: </strong> Maintenance costs are lower than early replacements or major repair. Investing in appliance care ensures safety and efficiency and is a smart economic choice in Dubai.</li>
@@ -308,7 +309,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                 <section className="section cs_py_30 appliances-benifit-sec">
                     <div className="container">
                         <div className="row justify-content-center">
-                            <h3 className="cs_fs_30 mb-0">The Benefits Of Daewoo   appliances Service Dubai
+                            <h3 className="cs_fs_30 mb-0">The Benefits Of Daewoo appliances Service Dubai
                             </h3>
                             <div className="row gx-3 gy-5 mt-0">
                                 <div className="col-md-4 mb-2">
@@ -318,7 +319,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                                                 <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h4 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h4>
-                                            <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
+                                            <p className="small">Regular inspections are vital for preventing electrical faults, gas leaks, and other hazards, ensuring the safety of your premises.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -342,7 +343,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                                                 <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
-                                            <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                                            <p className="small">Energy-efficient Daewoo appliances lead to monthly savings on utility bills, allowing you to keep more money in your pocket.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -354,7 +355,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                                                 <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h4 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h4>
-                                            <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
+                                            <p className="small">Preventive services identify issues early, minimizing breakdowns and repairs while extending the lifespan of Daewoo appliances.</p>
                                         </div>
 
                                     </div>
@@ -366,7 +367,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                                                 <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h4 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h4>
-                                            <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
+                                            <p className="small">Proper maintenance and timely servicing can greatly extend the lifespan of your Daewoo appliances, postponing the need for replacements.</p>
 
                                         </div>
 
@@ -381,7 +382,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                                             </div>
                                             <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                                             </h4>
-                                            <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                                            <p className="small">Ensuring your Daewoo appliances are functioning well boosts your confidence and reduces the stress of unexpected failures.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -393,21 +394,18 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                 {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
-                        <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR Daewoo   HOME APPLIANCES</h3>
+                        <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR Daewoo HOME APPLIANCES</h3>
 
                         <div className="row align-items-center">
                             <div className="col-xl-6">
-                                <p className='mb-0'>We specialize in all types and brands of home appliances, including built-in units.</p>
+                                <p className='mb-0'>We specialise in all types of Daewoo appliances, including built-in Daewoo appliances.</p>
                                 <p className='mb-0'><strong>Our services include:</strong></p>
                                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                                    <li> <strong>  Installation: </strong> Expert installation of various types and brands of home appliances, ensuring optimal performance and efficiency. </li>
-                                    <li> <strong> Diagnostics: </strong> Comprehensive fault-finding services to effectively diagnose issues. We provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
-                                    <li> <strong> Repair Service: </strong> Efficient repair services for all appliance components, ensuring a quick resolution to issues such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions! </li>
-                                    <li> <strong> Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for
-                                        the annual maintenance of your appliances. </li>
-                                    <p className="mb-0">
-                                        Regular maintenance is essential for optimal performance, efficiency, and longevity of your home appliances.
-                                    </p>
+                                    <li> <strong>  Daewoo Appliance Installation: </strong> Expert installation of various types and brands of home appliances, ensuring optimal performance and efficiency. </li>
+                                    <li> <strong> Daewoo Appliance Diagnostics: </strong> Comprehensive fault-finding services to effectively diagnose issues. We provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
+                                    <li> <strong> Daewoo Appliance Repair Service: </strong> Efficient repair services for all appliance components, ensuring a quick resolution to issues such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions! </li>
+                                    <li> <strong> Daewoo Appliance Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for the annual maintenance of your appliances. </li>
+                                    <p className="mb-0">Regular maintenance is crucial for ensuring your Daewoo home appliances perform optimally, run efficiently, and last longer.</p>
                                 </ul>
                             </div>
                             <div className="col-xl-6">
@@ -441,7 +439,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Reliable, Priority, and Quick</h3>
-                                        <p>	You can count on efficient service! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
+                                        <p>You can rely on prompt service! Our same-day repairs or next-day service visits ensure your needs are addressed swiftly.</p>
                                     </div>
                                 </div>
 
@@ -451,7 +449,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Feeling Of Calm</h3>
-                                        <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
+                                        <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you receive a full year of service, ensuring that your Daewoo appliance operates smoothly and providing peace of mind.</p>
                                     </div>
                                 </div>
 
@@ -481,7 +479,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">We Are Experts</h3>
-                                        <p>We are experts in Daewoo   appliance repair this is why most major brands trust us to handle their service and maintenance needs.</p>
+                                        <p>We are specialists in Daewoo appliance repair, which is why most major brands trust us to manage their service and maintenance needs.</p>
                                     </div>
                                 </div>
                                 <div className="uspitem">
@@ -491,7 +489,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Great Value</h3>
-                                        <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same location in Dubai.</p>
+                                        <p>The inspection fee covers diagnosis, transportation, and reinstallation for up to two Daewoo appliances at the same location in Dubai.</p>
                                     </div>
                                 </div>
                                 <div className="uspitem mb-0">
@@ -500,7 +498,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Trustworthy</h3>
-                                        <p>Our skilled appliance technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
+                                        <p>Our experienced Daewoo appliance technicians are well-trained, providing excellent service for various major Daewoo appliances.</p>
                                     </div>
                                 </div>
                             </div>
@@ -512,6 +510,36 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                         </div>
                     </div>
                 </section>
+                
+                  {/* We specialise  */}
+          <section className="section cs_py_30 bg-light-gray ">
+            <div className="container">
+              <h3>We specialise in Daewoo appliance services of the following types:</h3>
+              <div className="row">
+                <div className="col-12">
+                <p className="mb-0"><strong>Daewoo Washing Machine Repair Near You in Dubai: </strong>FAJ is here to support you when things go wrong. We understand that your Daewoo washing machine is essential for daily life, keeping your laundry clean.</p>
+                <p className="mb-0"><strong>Daewoo Fridge Repair Near You in Dubai</strong>: If you are experiencing issues with your Daewoo refrigerator, please contact the FAJ team for same-day Daewoo refrigerator repair service in Dubai.</p>
+                <p className="mb-0"><strong>Daewoo Freezer Repair Near You in Dubai</strong>: For Daewoo freezer repair and service in Dubai and Sharjah, our team of qualified technicians is available.</p>
+                <p className="mb-0"><strong>Daewoo Home Appliance Service Center Near You</strong>: If you are looking for the best repair service for Daewoo washer dryer in Dubai, FAJ is an excellent choice.&nbsp;They are renowned for their outstanding service in repairing Daewoo fridge freezer and are recognized as the leading provider for the repair of Daewoo cooking ranges, stove fixes, induction, cooktop fixes, washing machines repair, and refrigerator repairs in the area.</p>
+                <p className="mb-0"><strong>Daewoo Dishwasher Repair Near You in Dubai</strong>: Your Daewoo dishwasher may need repair or maintenance. For high-quality integrated Daewoo dishwasher repair and service center in Dubai, rely on FAJ.</p>
+                <p className="mb-0"><strong>Daewoo Cooking Range and Oven Repair Near You:</strong> We offer expert repair services for Daewoo cooking ranges and ovens in Dubai. Our skilled technicians are knowledgeable and experienced in diagnosing and fixing issues with Daewoo refrigerators, dishwashers, dryers, and more.</p>
+                <p className="mb-0"><strong>Daewoo Dryer Repair and Service Near You:</strong> Are you worried about your Daewoo dryer not working properly? Looking for a reliable Daewoo laundry machine company in Dubai? Contact us for same-day service!</p>
+                <p className="mb-0"><strong>Daewoo Oven Repair Near Me Dubai: </strong>If you are looking for the best company for Daewoo oven repairs in Dubai, FAJ is the perfect choice. They are well-known for providing exceptional service for Daewoo oven repairs. FAJ is recognized as the leading service center for Daewoo ovens in the area.</p>
+                </div>
+
+              </div>
+              <h3>We offer service for Daewoo appliances in the Dubai area.</h3>
+             <p><a href="https://www.fajservices.ae/appliances-services-in-business-bay/">Business Bay</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-marina/">Dubai Marina</a> | <a href="https://www.fajservices.ae/appliances-services-in-palm-jumeirah/">Palm Jumeirah</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-hills-estate/">Dubai Hills Estate</a> | <a href="https://www.fajservices.ae/appliances-services-in-damac-hills/">Damac Hills</a> | <a href="https://www.fajservices.ae/appliances-services-in-al-barari/">Al Barari</a> | <a href="https://www.fajservices.ae/appliances-services-in-al-barsha/">Al Barsha</a> | <a href="https://www.fajservices.ae/appliances-services-in-al-safa/">Al Safa</a> | <a href="https://www.fajservices.ae/appliances-services-in-arabian-ranches/">Arabian Ranches</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-silicon-oasis/">Dubai Silicon Oasis</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-investments-park/">Dubai Investments Park</a> | <a href="https://www.fajservices.ae/appliances-services-in-dip/">DIP</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-production-city/">Dubai Production City</a> | <a href="https://www.fajservices.ae/appliances-services-in-impzy/">IMPZ</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-sports-city/">Dubai Sports City</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-studio-city/">Dubai Studio City</a> | <a href="https://www.fajservices.ae/appliances-services-in-jbr/">JBR</a> - <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-beach-residence/">Jumeirah Beach Residence</a> | <a href="https://www.fajservices.ae/appliances-services-in-jlt/">JLT</a> - <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-lake-towers/">Jumeirah Lake Towers</a> | <a href="https://www.fajservices.ae/appliances-services-in-jvc/">JVC</a> - <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-village-circle/">Jumeirah Village Circle</a> | <a href="https://www.fajservices.ae/appliances-services-in-jvt/">JVT</a> - <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-village-triangle/">Jumeirah Village Triangle</a> | <a href="https://www.fajservices.ae/appliances-services-in-jebel-ali-village/">Jebel Ali Village</a> | <a href="https://www.fajservices.ae/appliances-services-in-jumeirah/">Jumeirah</a> | <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-golf-estates/">Jumeirah Golf Estates</a> | <a href="https://www.fajservices.ae/appliances-services-in-the-meadows/">Meadows</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-motor-city/">Motor City</a> | <a href="https://www.fajservices.ae/appliances-services-in-town-square/">Town Square</a> | <a href="https://www.fajservices.ae/ac-services-in-emirates-hills/">Emirates Hills</a> | <a href="https://www.fajservices.ae/appliances-services-in-umm-suqeim/">Umm Suqeim</a> |</p>
+              <div id="get-quote" className=" mt-3">
+                <div className="container d-flex justify-content-center align-items-center gap-3">
+                  <GetQuoteButton />
+                  <CallNowButton />
+                </div>
+              </div>
+
+            </div>
+          </section>
+
 
                 {/* testimobial section */}
                 <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>

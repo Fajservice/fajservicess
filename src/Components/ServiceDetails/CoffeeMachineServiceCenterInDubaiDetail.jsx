@@ -569,53 +569,53 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3>CHOOSE  DOMESTIC OR PROFESSIONAL COFFEE MACHINE REPAIR SERVICE</h3>
-            <div class="row">
-              <div class="col-sm-4">
-                <ul class="">
-                  <li class="">Ascaso Coffee Machine Repair and Maintenance</li>
-                  <li class="">Marco Coffee Machine Repair and Service</li>
-                  <li class="">Appia Coffee Machine Repair and Descaling&nbsp;</li>
-                  <li class="">Lelit Coffee Machine Repair and Cleaning Service</li>
-                  <li class="">Conti Coffee Machine Repair and Installation</li>
-                  <li class="">Teka Coffee Machine Repair and Descaling</li>
-                  <li class="">Bezzera Coffee Machine Repair and Cleaning</li>
-                  <li class="">Jura Coffee Machine Repair and Servicing</li>
-                  <li class="">La Pavoni Espresso Repair and Service</li>
-                  <li class="">Dr.Coffee Machine Repair and Maintenance</li>
-                  <li class="">Beko Coffee Machine Repair and Cleaning</li>
-                  <li class="">Breville Coffee Machine Repair and Cleaning</li>
-                  <li class="">Melitta Coffee Machine Repair and Descaling</li>
-                  <li class="">Cafematic Automatic Coffee Machine Repairs and Maintenance</li>
-                  <li class="">Farenheit Epsilon Super Automatic Coffee Machine, Espresso Maker</li>
+            <div className="row">
+              <div className="col-sm-4">
+                <ul className="">
+                  <li className="">Ascaso Coffee Machine Repair and Maintenance</li>
+                  <li className="">Marco Coffee Machine Repair and Service</li>
+                  <li className="">Appia Coffee Machine Repair and Descaling&nbsp;</li>
+                  <li className="">Lelit Coffee Machine Repair and Cleaning Service</li>
+                  <li className="">Conti Coffee Machine Repair and Installation</li>
+                  <li className="">Teka Coffee Machine Repair and Descaling</li>
+                  <li className="">Bezzera Coffee Machine Repair and Cleaning</li>
+                  <li className="">Jura Coffee Machine Repair and Servicing</li>
+                  <li className="">La Pavoni Espresso Repair and Service</li>
+                  <li className="">Dr.Coffee Machine Repair and Maintenance</li>
+                  <li className="">Beko Coffee Machine Repair and Cleaning</li>
+                  <li className="">Breville Coffee Machine Repair and Cleaning</li>
+                  <li className="">Melitta Coffee Machine Repair and Descaling</li>
+                  <li className="">Cafematic Automatic Coffee Machine Repairs and Maintenance</li>
+                  <li className="">Farenheit Epsilon Super Automatic Coffee Machine, Espresso Maker</li>
                 </ul>
               </div>
-              <div class="col-sm-4">
-                <ul class="acsvs-exp-new-p">
-                  <li class="">Espresso Southeast Coffee Machine Repair and Fix</li>
-                  <li class="">Bosch Machine Repair and Maintenance</li>
-                  <li class="">Armiali Coffee Machine Repairs and Servicing&nbsp;</li>
-                  <li class="">Breville Coffee Machine Repair and Fixing</li>
-                  <li class="">Isomac Coffee Machine &amp; Espresso Repair and Fix</li>
-                  <li class="">ECM Coffee Machine &amp; Espresso Repair and Servicing</li>
-                  <li class=""><a href="#/delonghi-coffee-machine-repair/">Delonghi Coffee Machine &amp; Espresso Repair</a> and Service</li>
-                  <li class="">La Marzocco Coffee Machine Repair and Maintenance</li>
-                  <li class="">Seimens Coffee Machine Repair and Cleaning</li>
-                  <li class="">Animo with Water Filter Coffee Machine Repair and Service</li>
-                  <li class="">Rancilio Volumetric Espresso Machine Repair and Servicing</li>
+              <div className="col-sm-4">
+                <ul className="acsvs-exp-new-p">
+                  <li className="">Espresso Southeast Coffee Machine Repair and Fix</li>
+                  <li className="">Bosch Machine Repair and Maintenance</li>
+                  <li className="">Armiali Coffee Machine Repairs and Servicing&nbsp;</li>
+                  <li className="">Breville Coffee Machine Repair and Fixing</li>
+                  <li className="">Isomac Coffee Machine &amp; Espresso Repair and Fix</li>
+                  <li className="">ECM Coffee Machine &amp; Espresso Repair and Servicing</li>
+                  <li className=""><a href="#/delonghi-coffee-machine-repair/">Delonghi Coffee Machine &amp; Espresso Repair</a> and Service</li>
+                  <li className="">La Marzocco Coffee Machine Repair and Maintenance</li>
+                  <li className="">Seimens Coffee Machine Repair and Cleaning</li>
+                  <li className="">Animo with Water Filter Coffee Machine Repair and Service</li>
+                  <li className="">Rancilio Volumetric Espresso Machine Repair and Servicing</li>
                 </ul>
               </div>
-              <div class="col-sm-4">
-                <ul class="acsvs-exp-new-p">
-                  <li class="">Astoria Loft Espresso Machine Repair and Fixing</li>
-                  <li class="">Rocket Espresso Machine Repair and Descaling</li>
-                  <li class="">Magister Espresso Machines Repair and Maintenance</li>
-                  <li class="">Nuova Simonelli Coffee Machine Repair and Servicing</li>
-                  <li class="">Victoria Arduino Coffee Machine Repair and Service</li>
-                  <li class="">Gaggia Automatic Coffee Machine Repair near me</li>
-                  <li class="">Orhcestrale Espresso Machines Repair and Fix</li>
-                  <li class="">Rocket Appartmento Machine Repair and Descaling</li>
-                  <li class="">Illy Saeco Royal Coffee Machine Repair and Service</li>
-                  <li class="">Sage Coffee Machine &amp; Espresso Repair and Cleaning</li>
+              <div className="col-sm-4">
+                <ul className="acsvs-exp-new-p">
+                  <li className="">Astoria Loft Espresso Machine Repair and Fixing</li>
+                  <li className="">Rocket Espresso Machine Repair and Descaling</li>
+                  <li className="">Magister Espresso Machines Repair and Maintenance</li>
+                  <li className="">Nuova Simonelli Coffee Machine Repair and Servicing</li>
+                  <li className="">Victoria Arduino Coffee Machine Repair and Service</li>
+                  <li className="">Gaggia Automatic Coffee Machine Repair near me</li>
+                  <li className="">Orhcestrale Espresso Machines Repair and Fix</li>
+                  <li className="">Rocket Appartmento Machine Repair and Descaling</li>
+                  <li className="">Illy Saeco Royal Coffee Machine Repair and Service</li>
+                  <li className="">Sage Coffee Machine &amp; Espresso Repair and Cleaning</li>
 
                 </ul>
               </div>

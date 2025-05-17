@@ -326,10 +326,10 @@ const DeepFryerServiceDetail = ({ subtitle, title, bgImg }) => {
 
               <div className="col-xl-6">
                 <p className="mb-2">Our team is aware of how important commercial deep fryer maintenance is to the success of business.Enjoy trouble free kitchen deep fryer maintenance at your door. Our skilled technicians specialize in identifying and fixing problems with different kinds of kitchen fryers. We can help with anything from electrical problems to uneven heating. We know how important it is for your kitchen's fryer to be operating correctly, and our staff is dedicated to offering fast and effective repair services. When it comes to kitchen fryer repairs, we value your time and strive to deliver quick service.</p>
-                <p class="mb-0 pb-0">We offer repair services for the following types of fryer issues.</p>
+                <p className="mb-0 pb-0">We offer repair services for the following types of fryer issues.</p>
                 <div className="row">
                   <div className="col-md-6">
-                    <ul class="mt-0 my-0">
+                    <ul className="mt-0 my-0">
                       <li>Gas fryer</li>
                       <li>Countertop gas deep fryer</li>
                       <li>Gas deep fryer</li>
@@ -337,7 +337,7 @@ const DeepFryerServiceDetail = ({ subtitle, title, bgImg }) => {
                     </ul>
                   </div>
                   <div className="col-md-6">
-                    <ul class="mt-0 my-0">
+                    <ul className="mt-0 my-0">
                       <li>Electric deep fryer</li>
                       <li>Industrial electric deep fryer</li>
                       <li>Commercial electric deep fryer</li>

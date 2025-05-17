@@ -120,13 +120,13 @@ const Footer1 = () => {
             </div>
           </div>
         </div>
-        <div class="mobile-whatsapp">
-	<div class="navbar-end flex">
-		<div class="cta-nav mob-callus">
-			<a href="tel:+97143300002" target="_blank" class="button-whatsapp"><i class="bi bi-telephone  mr-2"></i></a>
+        <div className="mobile-whatsapp">
+	<div className="navbar-end flex">
+		<div className="cta-nav mob-callus">
+			<a href="tel:+97143300002" target="_blank" className="button-whatsapp"><i className="bi bi-telephone  mr-2"></i></a>
 		</div>
-		<div class="cta-nav mob-whatsapp">
-			<a href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=FAJ-Services" target="_blank" class="button-whatsapp"><i class="bi bi-whatsapp mr-2"></i></a>
+		<div className="cta-nav mob-whatsapp">
+			<a href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=FAJ-Services" target="_blank" className="button-whatsapp"><i className="bi bi-whatsapp mr-2"></i></a>
 		</div>
 	</div>
 </div>

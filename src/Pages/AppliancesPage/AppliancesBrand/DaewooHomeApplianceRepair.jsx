@@ -11,7 +11,6 @@ const DaewooHomeApplianceRepair = () => {
         Title="Daewoo Home Appliance Repair Service and Installation"
       ></BreadCumb>
       {/* DaewooHomeApplianceDetail */}
-      {/* <DaewooHomeApplianceDetail></DaewooHomeApplianceDetail> */}
       <DaewooHomeApplianceRepairDetail></DaewooHomeApplianceRepairDetail>
     </div>
   )
