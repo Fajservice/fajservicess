@@ -179,11 +179,12 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, bgImg }) => {
                 </p>
 
 
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Washing Machine Technical Inspection Fee</h3>
-                <p className="mb-0">
-                  We have a standard technical inspection fee starting from AED 157 to 320 (depending on the appliance) that covers diagnosis, transportation, and reinstallation of the same appliance.
-                  <br />Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any repair/parts. Also, get repairs from us for your coffee machine, stand mixer, or robot vacuum.
-                </p>
+                <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">EXPRESS & EMERGENCY Washing Machine REPAIR SERVICE</h3>
+                <p className="mb-2"><b>Terms & Conditions:</b>There is a callout fee that applies, ranging from AED 175 to 320 depending on appliance, for diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any repair/parts. Also, get repairs from us for your coffee machine, stand mixer, or robot vacuum.
+</p>
+                <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br/>
+<b>We provide 2-month service warranty</b><br/>
+and <small>3-month parts warranty</small> as standard.</p>
               </div>
 
               <div className="col-md-6 ">

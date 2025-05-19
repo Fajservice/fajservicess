@@ -109,12 +109,9 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
-            <p>F A J Technical Services L.L.C is a leading AC repair company in Dubai, providing reliable air conditioner services tailored to the UAE's hot climate.
-              <br />
-              Our trained professionals ensure a comfortable environment for living, learning, working, and playing.
-              When your air conditioning system fails, we’re here to help. Choose FAJ for all your AC repair needs in Dubai.
-            </p>
+            <h2 className="cs_fs_30">FAJ experts in AC repair are here to provide optimal cooling for your space.</h2>
+            <p>FAJ Experts provides AC repair and maintenance services in Dubai. Since 2010, FAJ Technical Services LLC has been dedicated to delivering high-quality cooling solutions. Our experienced facilities team specializes in HVAC repairing, maintaining, servicing, and installing a wide range of residential and commercial air conditioning units in Dubai and Sharjah.<br />
+            An air conditioner repair more than just a cooling purpose; it plays a essential role in keeping a comfortable indoor environment year-round. To ensure that your air conditioner system functions optimally, regular AC repairs and cleaning services are essential. We provide professional air conditioner repair services in Dubai to keep your system operating smoothly and efficiently.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -134,27 +131,13 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-md-6">
                 {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/reem-ac-service.avif`} alt="Post Image" /> */}
                 <h3 className="cs_fs_24 mb-1">Select Air Conditioner Repair & Service</h3>
-                <p className="mb-2">We understand the urgency of responding promptly when an air conditioner failure impacts your critical cooling system, especially when people depend on it. Our expert and experienced AC technicians are dedicated to delivering the best AC repair and service in Dubai.</p>
-                <p>Choose FAJ for professional AC repair and maintenance for both residential and commercial units in your area.</p>
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Signs Need An AC Repair in Dubai</h3>
-                <p className="mb-2">When you realize your air conditioner isn't working well in the summer, it can be frustrating. Minor signs are often overlooked, but they can lead to major problems that require repairs, especially in Dubai's heat.</p>
-                <div className="row">
-
-                  <div className="col-sm-6">
-                    <ul className="mb-0">
-                      <li>Leaks of gas</li>
-                      <li>Insufficient Cooling</li>
-                      <li>Water around your AC unit</li>
-                    </ul>
-                  </div>
-
-                  <div className="col-sm-6">
-                    <ul className="mb-0">
-                      <li>AC blowing warm air</li>
-                      <li>Strange Noises From The AC</li>
-                    </ul>
-                  </div>
-                </div>
+                <p className="mb-1">We understand the urgency of responding promptly when an air conditioner failure impacts your critical cooling system, especially when people depend on it. Our expert and experienced AC technicians are dedicated to delivering the best AC repair and service in Dubai.</p>
+                <p className="mb-1">Choose FAJ for professional AC repair and maintenance for both residential and commercial units in your area.</p>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
+                <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
+                <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br/>
+<b>We provide 2-month service warranty</b><br/>
+and <small>3-month parts warranty</small> as standard.</p>
               </div>
 
               <div className="col-md-6 ">

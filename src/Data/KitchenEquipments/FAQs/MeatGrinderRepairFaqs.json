@@ -1,22 +1,42 @@
 [
     {
-        "title": "What are the benefits of fixing my meat grinder rather than purchasing a new one?",
-        "desc": "Fixing your meat grinder might be a more affordable option. When compared to buying a new appliance, our knowledgeable technicians at FAJ evaluate the problem and provide effective repairs, saving you money."
+        "title": "Why does my mixer grinder keep tripping the circuit breaker?",
+        "desc": "If your mixer grinder keeps tripping the circuit breaker, it may be due to an overloaded motor or electrical faults. First, ensure you are not using the grinder for tasks beyond its capacity. If the issue continues, it could indicate a problem with the wiring or motor that requires professional assistance."
     },
     {
-        "title": "How can I determine whether my meat grinder requires maintenance?",
-        "desc": "Odd noises, reduced grinding efficiency, or electrical problems are warning signs. It's time to get in touch with FAJ for a comprehensive inspection and repair if you see any of these problems."
+        "title": "What should I do if my mixer grinder makes a grinding noise?",
+        "desc": "A grinding noise may suggest an issue with the blades, motor, or jar of your appliance. First, inspect the blades for any damage or misalignment. Next, ensure that the jar is securely locked in place. If the grinding noise persists, it may be necessary to replace the motor or blades."
     },
     {
-        "title": "Can FAJ fix meat grinders used in both commercial and residential settings?",
-        "desc": "Absolutely, both home and commercial meat grinders can be repaired and maintained by our knowledgeable technicians. We customize our offerings to fit each client's unique needs."
+        "title": "How do I fix a mixer grinder that won’t turn on?",
+        "desc": "If your mixer grinder won’t turn on, start by checking the power supply to ensure the plug is securely connected. Next, examine the fuse, as a blown fuse could be the problem. If the grinder still doesn’t work after these checks, the motor or switch may need replacement or repair."
     },
     {
-        "title": "What is included in the maintenance service for a meat grinder?",
-        "desc": "We replace any worn-out parts, lubricate moving parts, and perform a thorough inspection as part of our maintenance service. By doing this, you can make sure your meat grinder works well and lasts longer."
+        "title": "Why is my mixer grinder vibrating excessively?",
+        "desc": "Excessive vibration may be caused by an uneven distribution of ingredients, a damaged blade, or an unstable surface. First, ensure that the jar is securely attached and that the blades are intact. If the problem continues, the base or motor may require inspection or servicing."
     },
     {
-        "title": "How soon can my meat grinder be fixed by you?",
-        "desc": "Prompt service is our team's top priority at FAJ. The complexity of the problem determines how long it will take to fix, but we work to finish repairs as soon as possible without sacrificing quality."
+        "title": "How can I fix a mixer grinder that leaks?",
+        "desc": "A leaking mixer grinder often has a damaged gasket or an improperly sealed jar. To address this, inspect the rubber seals for any cracks and replace them if needed. Additionally, make sure the jar is correctly aligned and check for any obstructions in the lid to prevent leaks during operation."
+    },
+    {
+        "title": "What causes the mixer grinder to stop working midway?",
+        "desc": "If your mixer grinder stops working unexpectedly, it may be because the motor has overheated, the thermal switch has tripped, or it is overloaded. Allow the appliance to cool down for 10 to 15 minutes before trying again. If the problem persists, this may indicate an issue with the motor or the switch."
+    },
+    {
+        "title": "Why Is My Mixer Grinder Taking Longer Than Usual to Grind?",
+        "desc": "If your mixer grinder is taking longer to grind, the issue may be due to dull blades, a clogged motor, or overloading. Make sure the motor isn’t being strained by too many ingredients at once. Sharpen or replace the blades if needed to restore its efficiency."
+    },
+    {
+        "title": "How Can I Prevent My Mixer Grinder From Overheating?",
+        "desc": "To prevent overheating, avoid overloading the mixer grinder and allow it to run for short breaks. Make sure to let the motor cool down before using it again, and clean the blades regularly. If overheating persists, consider upgrading to a model with improved cooling features."
+    },
+    {
+        "title": "What Should I Do If My Mixer Grinder Is Spilling Ingredients?",
+        "desc": "Spills can happen if the lid is not securely sealed or if the jar is too full. Make sure the lid is properly locked and that the jar isn’t overloaded. Always grind in smaller batches if needed to prevent spills, and ensure that the appliance is used correctly."
+    },
+    {
+        "title": "How Can I Fix a Mixer Grinder That Is Not Grinding Properly?",
+        "desc": "Poor grinding performance can occur due to dull blades or an underpowered motor. To improve this, regularly sharpen the blades or replace them if they are worn out. Additionally, make sure to use the appropriate jar and settings for the specific task to achieve the best grinding results."
     }
-] 
+]

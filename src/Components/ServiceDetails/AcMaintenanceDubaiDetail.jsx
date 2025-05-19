@@ -110,11 +110,9 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30" style={{ fontSize: "25px" }}>SELECT FAJ EXPERTS FOR A TAILORED COOLING SOLUTION THAT FITS YOUR SPACE PERFECTLY!</h2>
-            <p>
-              F A J Technical Services L.L.C is a top AC maintenance company in Dubai, offering reliable AC services tailored for the UAE's hot climate. Our trained professionals are dedicated to ensuring a comfortable environment for living, learning, working, and playing. If your air conditioning system fails, we are here to help. Trust FAJ for all your AC maintenance and repair needs in Dubai.
-
-            </p>
+            <h2 className="cs_fs_30" style={{ fontSize: "25px" }}>Choose FAJ Experts for AC maintenance to find the perfect cooling solution.</h2>
+            <p>FAJ Technical Services LLC has been providing AC maintenance services in Dubai since 2010. Our experienced team specializes in HVAC maintenance, repair, and installation for residential and commercial air conditioning units in Dubai and Sharjah, ensuring efficient cooling solutions for our clients.<br />
+            An air conditioner unit is essential for maintainance a comfortable indoor environment year-round. Regular AC maintenance, including repairs and cleaning, is necessary for optimal performance. Our professional air conditioner maintenance services in Dubai are designed to ensure your system operates efficiently, enhancing the quality of your indoor atmosphere.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -136,31 +134,15 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
                 {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/reem-ac-service.avif`} alt="Post Image" /> */}
                 <h3 className="cs_fs_24 mb-1">AC Maintenance for the Best Cooling</h3>
 
-                <p className="mb-2">Regular AC maintenance in Dubai is essential to ensure that your air conditioner unit continues to function properly. Over time, filters and coils can become dirty and clogged, leading to a decline in cooling performance.</p>
-                <p>This can also result in issues such as water leakage from the indoor unit and unpleasant odors. So, what is the solution? If you're searching for a reliable AC maintenance company in Dubai to take care of your home or office aircon needs, look no further.</p>
+                <p className="mb-1">Regular AC maintenance in Dubai is essential to ensure that your air conditioner unit continues to function properly. Over time, filters and coils can become dirty and clogged, leading to a decline in cooling performance.</p>
+                <p className="mb-1">This can also result in issues such as water leakage from the indoor unit and unpleasant odors. So, what is the solution? If you're searching for a reliable AC maintenance company in Dubai to take care of your home or office aircon needs, look no further.</p>
 
 
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Top Signs Need An AC Maintenance</h3>
-                <p className="mb-2">Why do things break down at inconvenient times, like AC failing on a hot summer night? AC Maintaining unit from the start is crucial.
-                  Let’s explore the signs that indicate it may be time for air conditioner maintenance.</p>
-                <div className="row">
-                  <div className="col-sm-6">
-                    <ul className="mb-0">
-                      <li> Bad odors </li>
-                      <li> High humidity</li>
-                      <li> Insufficient airflow</li>
-                    </ul>
-                  </div>
-
-                  <div className="col-sm-6">
-                    <ul className="mb-0">
-                      <li> Warm air from vents </li>
-                      <li> Frequent cycles </li>
-                      <li>Water leaks </li>
-                    </ul>
-                  </div>
-
-                </div>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
+                <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
+                <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br/>
+<b>We provide 2-month service warranty</b><br/>
+and <small>3-month parts warranty</small> as standard.</p>
               </div>
 
               <div className="col-md-6 ">

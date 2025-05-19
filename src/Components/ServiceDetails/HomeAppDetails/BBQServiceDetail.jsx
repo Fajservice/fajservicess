@@ -175,7 +175,7 @@ const BBQServiceDetail = ({ subtitle, title, bgImg }) => {
 
               <div className="col-md-6 ">
                 {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="BBQ Repair Service" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Barbeque-Repair.avif`} alt="BBQ Repair Service" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Barbeque-Repair.jpg`} alt="BBQ Repair Service" />
 
               </div>
             </div>
@@ -191,7 +191,7 @@ const BBQServiceDetail = ({ subtitle, title, bgImg }) => {
             <p>Grilling is more than just cooking; it's a lifestyle. To fully enjoy barbecued delights, proper grill maintenance is essential, as a well-kept grill is key to a perfect barbecue.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Barbeque-Repairs-services.avif`} alt="BBQ Repair Service" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/bbq.avif`} alt="BBQ Repair Service" />
               </div>
               <div className="col-md-6">
                 <ul>
