@@ -6,7 +6,7 @@ const SanyoHomeAppliance = () => {
    <div className="serviceDetails">
     <BreadCumb
         bgImg="img/banners/homeappliancesbrands/sanyo.avif"
-        Title="Sanyo Home Appliance"
+        Title="Sanyo Home Appliance Repair and services"
     ></BreadCumb>
 
     <SanyoHomeApplianceDetail />     

@@ -8,7 +8,7 @@ import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
-import testimonial_data from '../../../../Data/AppliancesData/AppliancesTestimonial/IndesitTestimonials.json';
+import testimonial_data from '../../../../Data/AppliancesData/AppliancesTestimonial/AppliancesTestimonials.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
@@ -18,7 +18,7 @@ const VikingAppliancesServiceDetail = ({ subtitle, title, bgImg }) => {
 
 
   // For SEO
-  const titleSeo = "Unimac Washing Mac/sharp-home-appliance-installation-maintenance-repair-fix-service-in-dubai/hine Repair in Dubai - Dryer AMC Service";
+  const titleSeo = "Viking Appliances Service - Refrigerator Repair - Oven Fix";
   const description = "Get expert Viking appliance service in Dubai. Fast & reliable Viking refrigerator, freezer, diswasher, stove, oven maintenance service. Dail 043300002";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
@@ -139,7 +139,7 @@ const VikingAppliancesServiceDetail = ({ subtitle, title, bgImg }) => {
             {/* 
           <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2> */}
             <p>
-              Viking appliances are the best among the other brands out there. Still, products of the best brands even do not last endlessly. In addition, we are all sure that our appliances break down when we need them the most. Reasonably, your first reaction will be to see if your appliance is repairable. You can fix minor issues, but mostly, you cannot. So why worry? We are the best Indesit appliance repair service provider in Dubai. We are the most experienced industry experts serving since 2010 in Dubai. With hands-on experience with all home appliances, you can expect successful and swift repairs from us. Indesit Fridge Repair in Dubai So, contact us today to get your repair appointment. Enjoy superior Indesit appliance repair with FAJ Technical Services LLC.
+              Viking appliances are the best among the other brands out there. Still, products of the best brands even do not last endlessly. In addition, we are all sure that our appliances break down when we need them the most. Reasonably, your first reaction will be to see if your appliance is repairable. You can fix minor issues, but mostly, you cannot. So why worry? We are the best Viking appliance repair service provider in Dubai. We are the most experienced industry experts serving since 2010 in Dubai. With hands-on experience with all home appliances, you can expect successful and swift repairs from us. Viking Fridge Repair in Dubai So, contact us today to get your repair appointment. Enjoy superior Viking appliance repair with FAJ Technical Services LLC.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -159,10 +159,10 @@ const VikingAppliancesServiceDetail = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Best Indesit Washing Machine Repair </h3>
+                <h3 className="cs_fs_24 mb-1">Best Viking Washing Machine Repair </h3>
 
                 <p className="mb-2">
-                  If you need Indesit Appliance Repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
+                  If you need Viking Appliance Repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
                   <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
                   <br /> We're nearby and can get your appliances fixed quickly and efficiently.
                 </p>
@@ -187,7 +187,7 @@ and <small>3-month parts warranty</small> as standard.</p>
         {/* The Most Common Problems with Home Appliances */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="text-center">The Most Common Problems with Indesit Home Appliances   </h3>
+            <h3 className="text-center">The Most Common Problems with Viking Home Appliances   </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
@@ -250,9 +250,9 @@ and <small>3-month parts warranty</small> as standard.</p>
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
 
-            <h3 className="cs_fs_30">Why is Indesit Appliance Maintenance Service Important in Dubai?</h3>
+            <h3 className="cs_fs_30">Why is Viking Appliance Maintenance Service Important in Dubai?</h3>
             <p className="">
-              Our all-inclusive repair services include diagnosis, repairs, installations, and maintenance. That is why we are the most in-demand indesit appliances maintenance in Dubai provider.
+              Our all-inclusive repair services include diagnosis, repairs, installations, and maintenance. That is why we are the most in-demand Viking appliances maintenance in Dubai provider.
             </p>
 
             <div className="row align-items-center">
@@ -278,7 +278,7 @@ and <small>3-month parts warranty</small> as standard.</p>
         <section className="section cs_py_30 appliances-benifit-sec">
           <div className="container">
             <div className="row justify-content-center">
-              <h3 className="cs_fs_30 mb-0">The Benefits Of Indesit appliances Service Dubai
+              <h3 className="cs_fs_30 mb-0">The Benefits Of Viking appliances Service Dubai
               </h3>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
@@ -363,7 +363,7 @@ and <small>3-month parts warranty</small> as standard.</p>
         {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR Indesit HOME APPLIANCES</h3>
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR Viking HOME APPLIANCES</h3>
 
             <div className="row align-items-center">
               <div className="col-xl-6">

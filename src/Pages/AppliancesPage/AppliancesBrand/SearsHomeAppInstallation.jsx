@@ -6,7 +6,7 @@ const SearsHomeAppInstallation = () => {
     <div className="serviceDetails">
       <BreadCumb
         bgImg="img/banners/homeappliancesbrands/Sears.avif"
-        Title="Sear sHome Appliances Installation"
+        Title="Sears Home Appliances Installation Services in Dubai"
       ></BreadCumb>
 
       <SearsHomeAppInstallationDetail />

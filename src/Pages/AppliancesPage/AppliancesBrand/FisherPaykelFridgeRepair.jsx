@@ -6,7 +6,7 @@ const FisherPaykelFridgeRepair = () => {
     <div className="serviceDetails">
     <BreadCumb
         bgImg="img/banners/homeappliancesbrands/fisher-and-paykal.avif"
-        Title="Fisher and Paykel Fridge Repair & Service"
+        Title="Fisher & Paykel Fridge Repair & Service"
     ></BreadCumb>
 
     <FisherPaykelFridgeRepairDetail />        

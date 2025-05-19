@@ -6,7 +6,7 @@ const GeGeneralElectricFridgeRepair = () => {
     <div className="serviceDetails">
       <BreadCumb
         bgImg="img/banners/homeappliancesbrands/Gegeneral.avif"
-        Title="GeGenral Fridge Repair & Service"
+        Title="GE General Electric Fridge Repair & Service"
       ></BreadCumb>
 
       <GeGeneralElectricFridgeRepairDetail />

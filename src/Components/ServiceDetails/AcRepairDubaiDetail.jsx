@@ -108,9 +108,8 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30">FAJ experts in AC repair are here to provide optimal cooling for your space.</h2>
-            <p>FAJ Experts provides AC repair and maintenance services in Dubai. Since 2010, FAJ Technical Services LLC has been dedicated to delivering high-quality cooling solutions. Our experienced facilities team specializes in HVAC repairing, maintaining, servicing, and installing a wide range of residential and commercial air conditioning units in Dubai and Sharjah.<br />
+            <p>FAJ Experts provides AC repair and maintenance services in Dubai. Since 2010, F A J Technical Services L.L.C. has been dedicated to delivering high-quality cooling solutions. Our experienced facilities team specializes in HVAC repairing, maintaining, servicing, and installing a wide range of residential and commercial air conditioning units in Dubai and Sharjah.<br />
             An air conditioner repair more than just a cooling purpose; it plays a essential role in keeping a comfortable indoor environment year-round. To ensure that your air conditioner system functions optimally, regular AC repairs and cleaning services are essential. We provide professional air conditioner repair services in Dubai to keep your system operating smoothly and efficiently.</p>
 
             <div id="get-quote" className=" mt-3">
@@ -129,7 +128,6 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/reem-ac-service.avif`} alt="Post Image" /> */}
                 <h3 className="cs_fs_24 mb-1">Select Air Conditioner Repair & Service</h3>
                 <p className="mb-1">We understand the urgency of responding promptly when an air conditioner failure impacts your critical cooling system, especially when people depend on it. Our expert and experienced AC technicians are dedicated to delivering the best AC repair and service in Dubai.</p>
                 <p className="mb-1">Choose FAJ for professional AC repair and maintenance for both residential and commercial units in your area.</p>
@@ -141,8 +139,7 @@ and <small>3-month parts warranty</small> as standard.</p>
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Post Image" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-repair-2.avif`} alt="Post Image" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-repair-2.avif`} alt="AC Repair In Dubai" />
 
               </div>
             </div>
@@ -171,7 +168,7 @@ and <small>3-month parts warranty</small> as standard.</p>
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/5-Reasons-Your-AC-Might-Need-Repairs-This-Summer.avif`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/5-Reasons-Your-AC-Might-Need-Repairs-This-Summer.avif`} alt="AC Repairing" />
               </div>
               <div className="col-md-6">
 

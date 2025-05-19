@@ -17,7 +17,7 @@ import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppoin
 const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
   // For SEO
   const titleSeo = "White Westinghouse Fridge Repair Dubai - Freezer Service ";
-  const description = "FAJ has delivered quality White Westinghouse Fridge Repair in Dubai. Dail 043300002 for refrigerator, washing machine, dryer maintenance service near";
+  const description = "FAJ has delivered qualityWhite Westinghouse Fridge Repair in Dubai. Dail 043300002 for refrigerator, washing machine, dryer maintenance service near";
   const Keyword = "";
   const Author = "Faj Technical Servcies";
   const URL = "https://fajservices.com/white-westinghouse-fridge-repair-in-dubai-white-westinghouse-washing-machine-repair-in-dubai-white-westinghouse-cooker-repair-in-dubai-white-westinghouse-oven-repair-in-dubai-white-westinghouse-applia/";
@@ -137,7 +137,7 @@ const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
             {/* 
           <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2> */}
             <p>
-              White Westing appliances are the best among the other brands out there. Still, products of the best brands even do not last endlessly. In addition, we are all sure that our appliances break down when we need them the most. Reasonably, your first reaction will be to see if your appliance is repairable. You can fix minor issues, but mostly, you cannot. So why worry? We are the best White Westing appliance repair service provider in Dubai. We are the most experienced industry experts serving since 2010 in Dubai. With hands-on experience with all home appliances, you can expect successful and swift repairs from us. White Westing Fridge Repair in Dubai So, contact us today to get your repair appointment. Enjoy superior White Westing appliance repair with FAJ Technical Services LLC.
+              White Westinghouse appliances are the best among the other brands out there. Still, products of the best brands even do not last endlessly. In addition, we are all sure that our appliances break down when we need them the most. Reasonably, your first reaction will be to see if your appliance is repairable. You can fix minor issues, but mostly, you cannot. So why worry? We are the best White Westinghouse appliance repair service provider in Dubai. We are the most experienced industry experts serving since 2010 in Dubai. With hands-on experience with all home appliances, you can expect successful and swift repairs from us. White Westinghouse Fridge Repair in Dubai So, contact us today to get your repair appointment. Enjoy superior White Westinghouse appliance repair with FAJ Technical Services LLC.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -157,20 +157,20 @@ const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Best White Westing Washing Machine Repair </h3>
+                <h3 className="cs_fs_24 mb-1">Best White Westinghouse Washing Machine Repair </h3>
 
                 <p className="mb-2">
-                  If you need White Westing Appliance Repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
+                  If you need White Westinghouse Appliance Repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
                   <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
                   <br /> We're nearby and can get your appliances fixed quickly and efficiently.
                 </p>
 
                 <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">EXPRESS & EMERGENCY Appliance REPAIR SERVICE</h3>
                 <p className="mb-2"><b>Terms & Conditions:</b>There is a callout fee that applies, ranging from AED 175 to 320 depending on appliance, for diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any repair/parts. Also, get repairs from us for your coffee machine, stand mixer, or robot vacuum.
-</p>
-                <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br/>
-<b>We provide 2-month service warranty</b><br/>
-and <small>3-month parts warranty</small> as standard.</p>
+                </p>
+                <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
+                  <b>We provide 2-month service warranty</b><br />
+                  and <small>3-month parts warranty</small> as standard.</p>
               </div>
 
               <div className="col-md-6 ">
@@ -185,7 +185,7 @@ and <small>3-month parts warranty</small> as standard.</p>
         {/* The Most Common Problems with Home Appliances */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="text-center">The Most Common Problems with White Westing Home Appliances   </h3>
+            <h3 className="text-center">The Most Common Problems with White Westinghouse Home Appliances   </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
@@ -248,9 +248,9 @@ and <small>3-month parts warranty</small> as standard.</p>
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
 
-            <h3 className="cs_fs_30">Why is White Westing Appliance Maintenance Service Important in Dubai?</h3>
+            <h3 className="cs_fs_30">Why is White Westinghouse Appliance Maintenance Service Important in Dubai?</h3>
             <p className="">
-              Our all-inclusive repair services include diagnosis, repairs, installations, and maintenance. That is why we are the most in-demand White Westing appliances maintenance in Dubai provider.
+              Our all-inclusive repair services include diagnosis, repairs, installations, and maintenance. That is why we are the most in-demand White Westinghouse appliances maintenance in Dubai provider.
             </p>
 
             <div className="row align-items-center">
@@ -259,9 +259,9 @@ and <small>3-month parts warranty</small> as standard.</p>
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
-                  <li> <strong>  White Westing Washing Machine Repair in Dubai:-: </strong> Regular maintenance helps appliances last longer, saving on replacement costs.</li>
-                  <li> <strong>  White Westing Fridge Repair in Dubai: </strong> we are fully confident of getting your fridge running back in no time. </li>
-                  <li> <strong>  White Westing Cooker Repair in Dubai: </strong> Catching minor issues early prevents them from escalating into expensive repair. </li>
+                  <li> <strong>  White Westinghouse Washing Machine Repair in Dubai:-: </strong> Regular maintenance helps appliances last longer, saving on replacement costs.</li>
+                  <li> <strong>  White Westinghouse Fridge Repair in Dubai: </strong> we are fully confident of getting your fridge running back in no time. </li>
+                  <li> <strong>  White Westinghouse Cooker Repair in Dubai: </strong> Catching minor issues early prevents them from escalating into expensive repair. </li>
                   <li> <strong>  Preserving Appliance Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
                   <li> <strong>  Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious.</li>
                   <li> <strong>  Cost-Effective: </strong> Maintenance costs are lower than early replacements or major repair. Investing in appliance care ensures safety and efficiency and is a smart economic choice in Dubai.</li>
@@ -276,7 +276,7 @@ and <small>3-month parts warranty</small> as standard.</p>
         <section className="section cs_py_30 appliances-benifit-sec">
           <div className="container">
             <div className="row justify-content-center">
-              <h3 className="cs_fs_30 mb-0">The Benefits Of White Westing appliances Service Dubai
+              <h3 className="cs_fs_30 mb-0">The Benefits Of White Westinghouse appliances Service Dubai
               </h3>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
@@ -361,7 +361,7 @@ and <small>3-month parts warranty</small> as standard.</p>
         {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR White Westing HOME APPLIANCES</h3>
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR White Westinghouse HOME APPLIANCES</h3>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -449,7 +449,7 @@ and <small>3-month parts warranty</small> as standard.</p>
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are experts in White Westing appliance repair this is why most major brands trust us to handle their service and maintenance needs.</p>
+                    <p>We are experts in White Westinghouse appliance repair this is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">

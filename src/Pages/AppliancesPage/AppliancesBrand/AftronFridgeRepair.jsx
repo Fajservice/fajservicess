@@ -6,7 +6,7 @@ const AftronFridgeRepair = () => {
     <div className="serviceDetails">
       <BreadCumb
         bgImg="img/banners/homeappliancesbrands/Aftron.avif"
-        Title="WE’RE HERE FOR YOU EVERY STEP OF THE WAY."
+        Title="Aftron Appliance Repair Services Dubai"
       ></BreadCumb>
 
       <AftronFridgeRepairDetail />

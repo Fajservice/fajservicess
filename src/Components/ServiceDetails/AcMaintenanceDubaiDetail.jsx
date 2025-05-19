@@ -109,9 +109,8 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30" style={{ fontSize: "25px" }}>Choose FAJ Experts for AC maintenance to find the perfect cooling solution.</h2>
-            <p>FAJ Technical Services LLC has been providing AC maintenance services in Dubai since 2010. Our experienced team specializes in HVAC maintenance, repair, and installation for residential and commercial air conditioning units in Dubai and Sharjah, ensuring efficient cooling solutions for our clients.<br />
+            <p>F A J Technical Services L.L.C. has been providing AC maintenance services in Dubai since 2010. Our experienced team specializes in HVAC maintenance, repair, and installation for residential and commercial air conditioning units in Dubai and Sharjah, ensuring efficient cooling solutions for our clients.<br />
             An air conditioner unit is essential for maintainance a comfortable indoor environment year-round. Regular AC maintenance, including repairs and cleaning, is necessary for optimal performance. Our professional air conditioner maintenance services in Dubai are designed to ensure your system operates efficiently, enhancing the quality of your indoor atmosphere.</p>
 
             <div id="get-quote" className=" mt-3">
@@ -131,7 +130,6 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/reem-ac-service.avif`} alt="Post Image" /> */}
                 <h3 className="cs_fs_24 mb-1">AC Maintenance for the Best Cooling</h3>
 
                 <p className="mb-1">Regular AC maintenance in Dubai is essential to ensure that your air conditioner unit continues to function properly. Over time, filters and coils can become dirty and clogged, leading to a decline in cooling performance.</p>
@@ -146,8 +144,7 @@ and <small>3-month parts warranty</small> as standard.</p>
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Post Image" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-repair-2.avif`} alt="Post Image" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-repair-2.avif`} alt="AC Maintenance" />
 
               </div>
             </div>
@@ -176,8 +173,7 @@ and <small>3-month parts warranty</small> as standard.</p>
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Post Image" />
-                {/* <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance-in-Dubai.avif`} alt="Post Image" /> */}
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Ac Service" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -189,7 +185,7 @@ and <small>3-month parts warranty</small> as standard.</p>
                   <li> <strong>Extends Unit Life: </strong> Preventive maintenance increases the lifespan of your AC system, saving money in the long term. </li>
                   {/* <li> <strong>Keeps Indoor Air Quality Healthy: </strong> Clean filters and components reduce dust, allergens, and pollutants in your home. </li> */}
                 </ul>
-                {/* <p className="mb-0">Don’t compromise on comfort—contact a professional AC maintenance service in Dubai like F A J Technical Services L.L.C before any major fault occurs.</p> */}
+                {/* <p className="mb-0">Don’t compromise on comfort—contact a professional AC maintenance service in Dubai like F A J Technical Services L.L.C. before any major fault occurs.</p> */}
 
               </div>
             </div>
@@ -469,7 +465,7 @@ and <small>3-month parts warranty</small> as standard.</p>
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Post Image" />
+                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Air conditioner services" />
                 </div>
               </div>
               <div className="col-lg-4">

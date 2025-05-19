@@ -6,7 +6,7 @@ const BoschHomeAppliance = () => {
     <div className="serviceDetails">
     <BreadCumb
         bgImg="img/banners/homeappliancesbrands/Bosch.avif"
-        Title="Bosch Home Appliances"
+        Title="Bosch Home Appliances Repair"
     ></BreadCumb>
 
     <BoschHomeApplianceDetail/>     
