@@ -167,9 +167,11 @@ const CigarcabnitServiceDetail = ({ subtitle, title, bgImg }) => {
 
                 <p className="mb-2">Enjoy top-notch service for your cigar humidors with us. We provide reliable repair services to ensure your humidors operate at peak performance. Whether you have a walk-in humidor, a freestanding unit, or a built-in cigar humidor, we are here to help. Our services are available in Dubai, Sharjah, and Abu Dhabi. </p>
                 <h3 className="cs_fs_24">
-                  Cigar Cabinet Technical Inspection Fee
+                EXPRESS & EMERGENCY Cigar Cabinet REPAIR SERVICE
                 </h3>
-                <p>The technical inspection fee starting from AED 375 covers diagnosis, transportation, and reinstallation at your location in Dubai. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repairs for a coffee machine, stand mixer, or robot vacuum cleaner, please contact us.</p>
+                <p>The technical inspection fee starting from AED 375 covers diagnosis, transportation, and reinstallation at your location in Dubai. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repairs for a coffee machine, stand mixer, or robot vacuum cleaner, please contact us.</p> <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br/>
+<b>We provide 2-month service warranty</b><br/>
+and <small>3-month parts warranty</small> as standard.</p>
               </div>
 
               <div className="col-md-6 ">
