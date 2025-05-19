@@ -267,6 +267,10 @@ import PortfolioPage from "../Pages/PortfolioPage.jsx";
 import CigarcabnitService from "../Pages/HomeAppPages/CigarcabnitService.jsx";
 import { Navigate } from "react-router-dom";
 import AppliancesServiceInAlMamzar from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServiceInAlMamzar.jsx";
+import AppliancesServiceInAlMizhar from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServiceInAlMizhar.jsx";
+import AppliancesServiceInDamacHills from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServiceInDamacHills.jsx";
+import AppliancesServiceInDubaiHillsEstate from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServiceInDubaiHillsEstate.jsx";
+import AppliancesServiceInDubaiProductionCity from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServiceInDubaiProductionCity.jsx";
 
 export const router = createBrowserRouter([
   {
@@ -1362,6 +1366,22 @@ export const router = createBrowserRouter([
       {
         path: "/appliances-services-in-al-mamzar/",
         element: <AppliancesServiceInAlMamzar/>,
+      },
+      {
+        path: "/appliances-services-in-al-mizhar/",
+        element: <AppliancesServiceInAlMizhar/>,
+      },
+      {
+        path: "/appliances-services-in-damac-hills/",
+        element: <AppliancesServiceInDamacHills/>,
+      },
+      {
+        path: "/appliances-services-in-dubai-hills-estate/",
+        element: <AppliancesServiceInDubaiHillsEstate/>,
+      },
+      {
+        path: "/appliances-services-in-dubai-production-city/",
+        element: <AppliancesServiceInDubaiProductionCity/>,
       },
     ],
   }
