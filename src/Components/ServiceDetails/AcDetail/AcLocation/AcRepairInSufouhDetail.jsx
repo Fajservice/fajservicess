@@ -128,7 +128,7 @@ const AcRepairInSufouhDetail = ({ subtitle, title, bgImg }) => {
                     </div>
 
                     <div className="col-md-6 ">
-                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Post Image" />
+                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Ac Repair in Sufouh" />
 
                     </div>
                 </div>
@@ -157,7 +157,7 @@ const AcRepairInSufouhDetail = ({ subtitle, title, bgImg }) => {
 
                 <div className="row align-items-center">
                     <div className="col-md-6">
-                        <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Post Image" />
+                        <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Ac Servcie in Sufouh" />
                     </div>
                     <div className="col-md-6">
                         <ul className="mb-0">

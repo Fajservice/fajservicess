@@ -266,6 +266,7 @@ import AcRepairInDownTown from "../Pages/AcPages/AcLocation/AcRepairInDowntown.j
 import PortfolioPage from "../Pages/PortfolioPage.jsx";
 import CigarcabnitService from "../Pages/HomeAppPages/CigarcabnitService.jsx";
 import { Navigate } from "react-router-dom";
+import AppliancesServiceInAlMamzar from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServiceInAlMamzar.jsx";
 
 export const router = createBrowserRouter([
   {
@@ -896,10 +897,6 @@ export const router = createBrowserRouter([
         element: <AcRepairInJumeirah />,
       },
       {
-        path: "/ac-services-in-jumeirah/",
-        element: <AcRepairInJumeirah />,
-      },
-      {
         path: "/ac-services-in-jebel-ali/",
         element: <AcRepairInJebelAli />,
       },
@@ -1361,6 +1358,10 @@ export const router = createBrowserRouter([
       {
         path: "/delonghi-coffee-machine-repair/",
         element: <DelonghiCoffeeMachineRepair/>,
+      },
+      {
+        path: "/appliances-services-in-al-mamzar/",
+        element: <AppliancesServiceInAlMamzar/>,
       },
     ],
   }

@@ -176,7 +176,7 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, bgImg }) => {
 
               <div className="col-md-6 ">
                 {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Post Image" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Refrigerator-Appliances-to-Repair.avif`} alt="commercial refrigeration maintenance" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/commercialrefrigerationmaintenance.avif`} alt="commercial refrigeration maintenance" />
               </div>
             </div>
 
@@ -195,7 +195,7 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, bgImg }) => {
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/commercialrefrigerationmaintenance.avif`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Commercial-refrigeration-service-maintenance.jpeg`} alt="Commercial Refrigeration Service" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">

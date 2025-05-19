@@ -106,7 +106,7 @@ const AcRepairInArabianRanchesDetail = ({ subtitle, title, bgImg }) => {
                     <div className="container">
                         <div className="row gx-md-5">
                             <div className="col-md-6">
-                                <h3 className="cs_fs_24 mb-1">Best AC Repair inArabian Ranches</h3>
+                                <h3 className="cs_fs_24 mb-1">Best AC Repair in Arabian Ranches</h3>
                                 <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> in Arabian Ranches, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
                                 <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
@@ -129,7 +129,7 @@ const AcRepairInArabianRanchesDetail = ({ subtitle, title, bgImg }) => {
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Post Image" />
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Ac Repair in Ranches Detail" />
 
                             </div>
                         </div>
@@ -158,7 +158,7 @@ const AcRepairInArabianRanchesDetail = ({ subtitle, title, bgImg }) => {
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Post Image" />
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Ac Service in Arabian Ranches" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">
