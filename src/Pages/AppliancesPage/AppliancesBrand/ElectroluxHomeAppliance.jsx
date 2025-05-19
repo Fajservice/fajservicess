@@ -6,7 +6,7 @@ const ElectroluxHomeAppliance = () => {
     <div className="serviceDetails">
     <BreadCumb
         bgImg="img/banners/homeappliancesbrands/Electrolux-2.avif"
-        Title="Electrolux Home Appliance"
+        Title="Electrolux Home Appliance Repair in Dubai"
     ></BreadCumb>
 
     <ElectroluxHomeApplianceDetail />     

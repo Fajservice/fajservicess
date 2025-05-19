@@ -6,8 +6,7 @@ const DaikinAcRepair = () => {
         <div className="serviceDetails">
             <BreadCumb
                 bgImg="img/acbrands/Diakin-AC-bg.avif"
-                // bgImg="img/ac_service-bannerbg.avif"
-                Title="Daikin AC Repair Near Me - Air Conditioner Maintenance"
+                Title="Daikin AC Repair in Dubai and AC Maintenance Services"
             ></BreadCumb> 
             <DaikinAcRepairDetail></DaikinAcRepairDetail>           
         </div>

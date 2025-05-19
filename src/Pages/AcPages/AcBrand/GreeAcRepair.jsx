@@ -6,8 +6,7 @@ const GreeAcRepair = () => {
         <div className="serviceDetails">
             <BreadCumb
                 bgImg="img/acbrands/Gree-AC-bg.avif"
-                // bgImg="img/ac_service-bannerbg.avif"
-                Title="Best Gree AC Repair in Dubai - Air Conditioner Maintenance"
+                Title="Best Gree AC Repair in Dubai – Air Conditioner Maintenance"
             ></BreadCumb> 
             <GreeAcRepairDetail></GreeAcRepairDetail>           
         </div>

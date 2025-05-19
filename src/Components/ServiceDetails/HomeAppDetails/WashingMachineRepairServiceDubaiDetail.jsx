@@ -147,7 +147,7 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, bgImg }) => {
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30">Experts Washing Machine Repair and Service Center in Dubai</h2>
             <p>
-              Since 2010, FAJ Technical Services LLC has offered reliable installation, maintenance, and repair for all brands of washing machines, dryers, and laundry systems in Dubai, Sharjah, and Abu Dhabi.
+              Since 2010, F A J Technical Services L.L.C. has offered reliable installation, maintenance, and repair for all brands of washing machines, dryers, and laundry systems in Dubai, Sharjah, and Abu Dhabi.
               <br /> Our experts are here to assist with any issues, from top-loading and front-loading washers to compact models. You can trust us to keep your washing machine running smoothly.
               You can rely on us for both routine repairs and emergency services. Contact us now for reliable services at competitive prices!
             </p>

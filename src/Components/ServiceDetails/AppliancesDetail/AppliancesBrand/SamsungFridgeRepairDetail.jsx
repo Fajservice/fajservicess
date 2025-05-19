@@ -135,7 +135,7 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
       <section className="section cs_py_30">
         <div className="container">
           <h2>Professional Samsung Home Appliances Service and Repair</h2>
-          <p>If you're searching for a knowledgeable local technician specializing in Samsung appliances, you’ve come to the right place. FAJ Technical Services LLC has been delivering dependable and cost-effective solutions since 2010. We offer a network of qualified and trusted professionals who are dedicated to understanding the unique requirements of Samsung appliance repair and near-me service. Our primary goal is to connect you with a skilled Samsung technician in Dubai and Sharjah who is well-versed in the workings of Samsung appliances. Your satisfaction is our top priority! </p>
+          <p>If you're searching for a knowledgeable local technician specializing in Samsung appliances, you’ve come to the right place. F A J Technical Services L.L.C. has been delivering dependable and cost-effective solutions since 2010. We offer a network of qualified and trusted professionals who are dedicated to understanding the unique requirements of Samsung appliance repair and near-me service. Our primary goal is to connect you with a skilled Samsung technician in Dubai and Sharjah who is well-versed in the workings of Samsung appliances. Your satisfaction is our top priority! </p>
 
           <div id="get-quote" className=" mt-3">
             <div className="container d-flex justify-content-center align-items-center gap-3">

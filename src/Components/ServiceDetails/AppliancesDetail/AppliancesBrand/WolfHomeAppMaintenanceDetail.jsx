@@ -18,7 +18,7 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, bgImg }) => {
 
 
   // For SEO
-  const titleSeo = "WolfHomeAppMaintenanceDetail";
+  const titleSeo = "Wolf Home Appliances Service - Gas Cooker & Oven Service";
   const description = "Get same day Wolf home Appliance maintenance. Call 043300002 for Wolf cooking range, gas stove, electric cooker, electric oven service near me Dubai";
   const Author = "Faj Technical Servcies";
   const Keyword = "";

@@ -6,8 +6,7 @@ const RheemAcRepair = () => {
         <div className="serviceDetails">
             <BreadCumb
                 bgImg="img/acbrands/rheem-ac-bg.avif"
-                // bgImg="img/ac_service-bannerbg.avif"
-                Title="Rheem AC Repair in Dubai - Air Conditioner Maintenance and Service Near by You"
+                Title="Best Rheem AC Maintenance in Dubai – AC Repair Service"
             ></BreadCumb> 
             <RheemAcRepairDetail></RheemAcRepairDetail>           
         </div>

@@ -108,9 +108,8 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">Pressional AC Service and Repair in Dubai</h2>
-            <p>FAJ Technical Services LLC has been operating since 2010. Our dedicated facilities team has extensive experience in AC servicing, maintaining, repairing, and installing various residential and commercial air conditioner units in Dubai and Sharjah.<br />
+            <h2 className="cs_fs_30">Professional AC Service and Repair in Dubai</h2>
+            <p>F A J Technical Services L.L.C. has been operating since 2010. Our dedicated facilities team has extensive experience in AC servicing, maintaining, repairing, and installing various residential and commercial air conditioner units in Dubai and Sharjah.<br />
             An air conditioner is not just a cooling unit; it is essential for air conditioner service and maintenance a comfortable indoor environment throughout the year. To ensure your unit operates at its best, regular AC cleaning service are required. We offer professional air conditioner services in Dubai to keep your system running smoothly and efficiently.</p>
 
             <div id="get-quote" className=" mt-3">
@@ -118,7 +117,6 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
                 <WhatsappIconButton />
               </div>
             </div>
-            {/*  */}
           </div>
         </section>
 
@@ -131,7 +129,6 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/reem-ac-service.avif`} alt="Ac Service" /> */}
                 <h3 className="cs_fs_24 mb-1">Experts AC Service and Maintenance</h3>
                 <p className="mb-1">When considering AC service in Dubai, it is vital to hire a qualified and reliable AC technician who can effectively address your needs at home or in your business place.</p>
                 <p className="mb-1">FAJ Experts in comprehensive air conditioner (AC) service, and maintenance, ensuring that you receive the highest quality care for your cooling systems.</p>
@@ -144,8 +141,7 @@ and <small>3-month parts warranty</small> as standard.</p>
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Ac Service" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Ac Service" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Experts AC Service and Maintenance" />
 
               </div>
             </div>
@@ -174,8 +170,7 @@ and <small>3-month parts warranty</small> as standard.</p>
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                {/* <img className="blue-border" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Ac Service" /> */}
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Ac Service" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Ac Maintenance in dubai" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">

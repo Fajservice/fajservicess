@@ -18,8 +18,8 @@ const UnimacWashingMachineRepairDetail = ({ subtitle, title, bgImg }) => {
 
 
     // For SEO
-    const titleSeo = "Unimac Washing Mac/sharp-home-appliance-installation-maintenance-repair-fix-service-in-dubai/hine Repair in Dubai - Dryer AMC Service";
-    const description = "FAJ offering Unimac Washing Machine Repair in Dubai. Unimac Washer Dryer, Laundry Machine Maintenance Service Call now 043300002";
+    const titleSeo = "Unimac Washing Machine Repair in Dubai - Dryer AMC Service ";
+    const description = "FAJ offering Unimac Washing Machine repair in Dubai. Unimac washer dryer, laundry machine annual maintenance contract and service Call now 043300002";
     const Author = "Faj Technical Servcies";
     const Keyword = "";
     const URL = "https://fajservices.com/unimac-washing-machine-repair-in-dubai-unimac-dryer-repair-in-dubai-unimac-washer-dryer-repair-in-dubai-unimac-maintenance-in-dubai-unimac-laundry-service-in-dubai-unimac-dubai/";
