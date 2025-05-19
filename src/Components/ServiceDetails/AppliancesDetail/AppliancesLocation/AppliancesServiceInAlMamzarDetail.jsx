@@ -21,11 +21,10 @@ const AppliancesServiceInAlMamzarDetail = ({ subtitle, title, bgImg }) => {
 
 
   // For SEO
-  const titleSeo = "Best Appliances Service Dubai - Appliance Repair Near Me";
-  const description = "We offer an appliances repair service center near you. Get expert in refrigerator, fridge, washing machine, dryer, dishwasher, oven repair near me Dubai";
-  const Author = "Faj Technical Servcies";
+  const titleSeo = "Appliances Services In Al Mamzar - Washing Machine Repair";
+  const description = "Get appliance services in Al Mamzar. FAJ experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher, oven";
   const Keyword = "";
-  const URL = "https://fajservices.com/appliances-repair-service/";
+  const URL = "https://www.fajservices.ae/appliances-services-in-al-mamzar/";
 
 
   subtitle = "Testimonial"
@@ -139,7 +138,6 @@ const AppliancesServiceInAlMamzarDetail = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2>
             <p>
               Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
@@ -162,8 +160,7 @@ const AppliancesServiceInAlMamzarDetail = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/reem-ac-service.avif`} alt="Post Image" /> */}
-                <h3 className="cs_fs_24 mb-1">Best Home Appliance Service Center</h3>
+                <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Al Mamzar</h3>
 
                 <p className="mb-2">
                   If you need appliance repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
@@ -176,7 +173,6 @@ const AppliancesServiceInAlMamzarDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Post Image" /> */}
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} alt="Post Image" />
               </div>
             </div>
