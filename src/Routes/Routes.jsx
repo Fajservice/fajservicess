@@ -260,8 +260,6 @@ import DeDietrichFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/DeDi
 import SmegMixerRepairService from "../Pages/AppliancesPage/AppliancesBrand/SmegMixerRepairService.jsx";
 import LaGermaniaCookingRangeRepair from "../Pages/AppliancesPage/AppliancesBrand/LaGermaniaCookingRangeRepair.jsx";
 import DelonghiCoffeeMachineRepair from "../Pages/AppliancesPage/AppliancesBrand/DelonghiCoffeeMachineRepair.jsx";
-
-
 import AcRepairInDownTown from "../Pages/AcPages/AcLocation/AcRepairInDowntown.jsx";
 import PortfolioPage from "../Pages/PortfolioPage.jsx";
 import CigarcabnitService from "../Pages/HomeAppPages/CigarcabnitService.jsx";
@@ -272,6 +270,9 @@ import AppliancesServiceInDamacHills from "../Pages/AppliancesPage/AppliancesLoc
 import AppliancesServiceInDubaiHillsEstate from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServiceInDubaiHillsEstate.jsx";
 import AppliancesServiceInDubaiProductionCity from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServiceInDubaiProductionCity.jsx";
 
+import FajPriceList from "../Pages/FajPriceList.jsx";
+import AppliancesServiceInTownSquare from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServiceInTownSquare.jsx";
+import AppliancesServiceInAlGhadeerCommunity from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServiceInAlGhadeerCommunity.jsx";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -296,6 +297,10 @@ export const router = createBrowserRouter([
       {
         path: "/services/",
         element: <ServicesPage />,
+      },
+      {
+        path: "/faj-price-list/",
+        element: <FajPriceList />,
       },
       {
         path: "/ac-service-in-dubai/",
@@ -1382,6 +1387,18 @@ export const router = createBrowserRouter([
       {
         path: "/appliances-services-in-dubai-production-city/",
         element: <AppliancesServiceInDubaiProductionCity/>,
+      },
+      {
+        path: "/appliances-services-in-town-square/",
+        element: <AppliancesServiceInTownSquare/>,
+      },
+      {
+        path: "/appliances-services-in-business-bay/",
+        element: <AppliancesServiceInTownSquare/>,
+      },
+      {
+        path: "/appliances-services-in-al-ghadeer-community/",
+        element: <AppliancesServiceInAlGhadeerCommunity/>,
       },
     ],
   }

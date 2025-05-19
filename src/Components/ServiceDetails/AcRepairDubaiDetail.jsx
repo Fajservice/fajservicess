@@ -129,20 +129,19 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/reem-ac-service.avif`} alt="Post Image" /> */}
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/reem-ac-service.avif`} alt="Ac Repair " /> */}
                 <h3 className="cs_fs_24 mb-1">Select Air Conditioner Repair & Service</h3>
                 <p className="mb-1">We understand the urgency of responding promptly when an air conditioner failure impacts your critical cooling system, especially when people depend on it. Our expert and experienced AC technicians are dedicated to delivering the best AC repair and service in Dubai.</p>
                 <p className="mb-1">Choose FAJ for professional AC repair and maintenance for both residential and commercial units in your area.</p>
                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
                 <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
                 <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br/>
-<b>We provide 2-month service warranty</b><br/>
-and <small>3-month parts warranty</small> as standard.</p>
+                <b>We provide 2-month service warranty</b><br/>
+                and <small>3-month parts warranty</small> as standard.</p>
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Post Image" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-repair-2.avif`} alt="Post Image" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-repair-2.avif`} alt="Ac Repair " />
 
               </div>
             </div>
@@ -171,7 +170,7 @@ and <small>3-month parts warranty</small> as standard.</p>
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/5-Reasons-Your-AC-Might-Need-Repairs-This-Summer.avif`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/5-Reasons-Your-AC-Might-Need-Repairs-This-Summer.avif`} alt="Ac Repair " />
               </div>
               <div className="col-md-6">
 
@@ -498,7 +497,7 @@ and <small>3-month parts warranty</small> as standard.</p>
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Post Image" />
+                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Ac Repair " />
                 </div>
               </div>
               <div className="col-lg-4">

@@ -23,6 +23,7 @@ const AppliancesServiceInDubaiProductionCityDetail = ({ subtitle, title, bgImg }
     // For SEO
     const titleSeo = "Appliances Services In Dubai Production City - Washing Machine Repair";
     const description = "Get appliance services in Dubai Production City. FAJ experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher, oven";
+    const Author = "Faj Technical Servcies";
     const Keyword = "";
     const URL = "https://www.fajservices.ae/appliances-services-in-dubai-production-city";
 
@@ -138,7 +139,7 @@ const AppliancesServiceInDubaiProductionCityDetail = ({ subtitle, title, bgImg }
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2>
+                        <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI Production City</h2>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
