@@ -3,8 +3,6 @@ import { Link, parsePath } from "react-router-dom";
 import data from '../../../Data/KitchenEquipments/FAQs/MeatGrinderRepairFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
-import CallNowButton from '../../Buttons/CallNowButton';
-import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import Slider from "react-slick";

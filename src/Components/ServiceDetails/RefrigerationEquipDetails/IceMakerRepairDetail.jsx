@@ -154,7 +154,6 @@ const IceMakerRepairDetail = ({ subtitle, title, bgImg }) => {
                 <WhatsappIconButton />
               </div>
             </div>
-            {/*  */}
           </div>
         </section>
 
@@ -181,7 +180,7 @@ const IceMakerRepairDetail = ({ subtitle, title, bgImg }) => {
 
               <div className="col-md-6 ">
                 {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Post Image" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/dishwasher.avif`} alt="Post Image" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/icemaker2.avif`} alt="Post Image" />
 
               </div>
             </div>
@@ -201,7 +200,7 @@ const IceMakerRepairDetail = ({ subtitle, title, bgImg }) => {
             </p> */}
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Cooking-Range-Repair-Nearby-You.avif`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/newicemaker.avif`} alt="Post Image" />
               </div>
               <div className="col-md-6">
                 <p className="mb-0">
