@@ -318,7 +318,7 @@ and <small>3-month parts warranty</small> as standard.</p>
                 </ul>
               </div>
               <div className="col-md-6 text-center text-md-end">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance-in-Dubai.avif`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance-in-Dubai.avif`} alt="Ac Service" />
               </div>
             </div>
           </div>
@@ -363,7 +363,7 @@ and <small>3-month parts warranty</small> as standard.</p>
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Post Image" />
+                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Ac Service" />
                 </div>
               </div>
               <div className="col-lg-4">
