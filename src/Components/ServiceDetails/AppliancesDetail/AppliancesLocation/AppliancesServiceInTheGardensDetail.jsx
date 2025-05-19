@@ -17,15 +17,15 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages.jsx";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 
-const AppliancesServiceInAlMamzarDetail = ({ subtitle, title, bgImg }) => {
+const AppliancesServiceInTheGardensDetail = ({ subtitle, title, bgImg }) => {
 
 
   // For SEO
-  const titleSeo = "Appliances Services In Al Mamzar - Washing Machine Repair";
-  const description = "Get appliance services in Al Mamzar. FAJ experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher, oven";
+  const titleSeo = "Appliances Services in The Gardens - Refrigerator Repair";
+  const description = "We offer appliance services in The Gardens. Need refrigerator, washing machine, fridge repair near me? Call 043300002 for quick solutions!";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://www.fajservices.ae/appliances-services-in-al-mamzar/";
+  const URL = "https://www.fajservices.ae/appliances-services-in-the-gardens";
 
 
   subtitle = "Testimonial"
@@ -117,7 +117,7 @@ const AppliancesServiceInAlMamzarDetail = ({ subtitle, title, bgImg }) => {
     ]
   };
   return (
-    <>
+     <>
       <HelmetProvider>
 
         <title>{titleSeo}</title>
@@ -138,7 +138,7 @@ const AppliancesServiceInAlMamzarDetail = ({ subtitle, title, bgImg }) => {
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN Al Mamzar</h2>
+            <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN Dubai</h2>
             <p>
               Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
             </p>
@@ -896,4 +896,4 @@ const AppliancesServiceInAlMamzarDetail = ({ subtitle, title, bgImg }) => {
   )
 }
 
-export default AppliancesServiceInAlMamzarDetail
+export default AppliancesServiceInTheGardensDetail

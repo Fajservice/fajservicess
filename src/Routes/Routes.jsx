@@ -273,6 +273,8 @@ import AppliancesServiceInDubaiProductionCity from "../Pages/AppliancesPage/Appl
 import FajPriceList from "../Pages/FajPriceList.jsx";
 import AppliancesServiceInTownSquare from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServiceInTownSquare.jsx";
 import AppliancesServiceInAlGhadeerCommunity from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServiceInAlGhadeerCommunity.jsx";
+import AppliancesServiceInLimestoneHouseDifc from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServiceInLimestoneHouseDifc.jsx";
+import AppliancesServiceInInternationalMediaAndProductionZone from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServiceInInternationalMediaAndProductionZone.jsx";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -1399,6 +1401,18 @@ export const router = createBrowserRouter([
       {
         path: "/appliances-services-in-al-ghadeer-community/",
         element: <AppliancesServiceInAlGhadeerCommunity/>,
+      },
+      {
+        path: "/appliances-services-in-the-gardens/",
+        element: <AppliancesServiceInTheGardens/>,
+      },
+      {
+        path: "/appliances-services-in-the-limestone-house-difc/",
+        element: <AppliancesServiceInLimestoneHouseDifc/>,
+      },
+      {
+        path: "/appliances-services-in-international-media-and-production-zone/",
+        element: <AppliancesServiceInInternationalMediaAndProductionZone/>,
       },
     ],
   }
