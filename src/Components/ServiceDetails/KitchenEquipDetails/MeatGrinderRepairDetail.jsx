@@ -1,5 +1,3 @@
-
-
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../Data/KitchenEquipments/FAQs/MeatGrinderRepairFaqs.json';
@@ -14,6 +12,7 @@ import testimonial_data from '../../../Data/KitchenEquipments/Testmonials/MeatGr
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
+import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 
 // import { Link } from "react-router-dom";
 
@@ -140,8 +139,13 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30">Do you want an effective meat grinder repair service in Dubai?</h2>
-            <p>For flawless operation of your appliance, trust FAJ Professional's meat grinder repair services. Our technicians expertly identify and resolve problems, taking care of issues like electrical problems, motor problems, and blade malfunctions. Put your trust in us to bring your meat grinder back to life, offering a more affordable option than purchasing a new one. We put a high priority on client satisfaction and work to prolong the life of your appliance by providing timely service.</p>
+            <h2 className="cs_fs_30">Experts Commercial Meat Grinder Machine Maintenance Service</h2>
+            <p>
+              Experience reliable and fast maintenance services in Dubai with FAJ, a registered company since 2010. If you need effective meat grinder repair, trust the professionals at FAJ to ensure your grinder operates perfectly.
+              <br />
+              Our skilled technicians can address electrical issues, motor malfunctions, and blade problems, repairing your meat grinder to working order at a fraction of the cost of purchasing a new one. We prioritize customer satisfaction and timely service to help extend the life of your appliance.
+
+            </p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -161,22 +165,22 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/reem-ac-service.avif`} alt="Meat Grinder Repair" /> */}
-                <h3 className="cs_fs_24 mb-1">Meat Grinder Repair Nearby You</h3>
+
+                <h3 className="cs_fs_24 mb-1">Restaurant Grinder Technical Inspection Fee</h3>
 
                 <p className="mb-2">
-                  It’s common to face issues with cooking appliances from time to time, whether your induction hob suddenly stops working, your gas stove won’t stay lit when you need it, or your electric hob keeps turning on and off.
-                  <br />
-                  The important thing to remember is that these problems should be addressed by a qualified technician. Fast Services can help you arrange a professional <Link to="/gas-cooker-repair-service/"> gas range repair </Link> to fix your faulty cooker
+                  We have a standard technical inspection fee that covers the diagnosis, transportation, and reinstallation of the same appliance.
+                  <br />Please note that this fee is non-refundable. However, it does not include the cost of any repairs or parts.
+
                 </p>
 
 
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Meat Grinder Technical Inspection Fee</h3>
+                {/* <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Meat Grinder Technical Inspection Fee</h3>
                 <p className="mb-0">
                   We have a standard technical inspection fee starting from AED 157 to 320 (depending on the appliance) that covers diagnosis, transportation, and reinstallation of the same appliance.
                   <br />
                   Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any repair/parts. Also, get repairs from us for your coffee machine, stand mixer, or robot vacuum.
-                </p>
+                </p> */}
               </div>
 
               <div className="col-md-6 ">
@@ -184,64 +188,51 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/meat-grinder-repair.avif`} alt="Meat Grinder Repair" />
 
               </div>
-            </div>
 
-            <div className="appointment-col border-small-top pt-3">
-              <p>
-                If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.
-                <br />
-                Timing: Mon-Sat 8:00 AM to 6:00 PM - Sunday 12:00 PM to 6:00 PM. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.
-              </p>
-              <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
-                  <WhatsappIconButton />
-                  <CallNowButton />
-                </div>
-              </div>
+              <AppliancesAppointmentCol></AppliancesAppointmentCol>
             </div>
           </div>
         </section>
         {/* Most common Cooker faults: */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">Searching for a meat grinder repair near me</h3>
-            <p>There's no need to search any farther if you're looking for a reliable meat mixer repair service in your area. FAJ is your go-to local provider for easy and quick appliance repairs for both residential and business use. We can save you time and effort by having our staff respond to your meat grinder problems quickly—just give us a call. Whether the problem is with the motor, blade, pulley, or any other part, our skilled experts investigate its underlying causes and provide a solution that meets your needs completely.</p>
+            <h3 className="cs_fs_30">Why is maintenance service for meat grinder machines important in Dubai?</h3>
+            <p>
+              To ensure your meat grinder operates efficiently, it is important to perform regular maintenance.
+              Here are key daily checks to ensure it stays in optimal condition:
+            </p>
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Hob-Repair-Service-in-Dubai-UAE.avif`} alt="Meat Grinder Repair" />
               </div>
               <div className="col-md-6">
-                <h4>Meat grinder maintenance service</h4>
-                <p>The lifespan of your meat grinder depends on preventive maintenance, and FAJ Professional is excellent at offering meat mixer maintenance. To guarantee optimum performance, our technicians carry out in-depth inspections, lubricate parts, and replace worn-out components. Frequent meat grinder service keeps your meat grinder operating more efficiently and helps to avoid unexpected malfunctions. For thorough and reasonably priced meat mixer service services that will keep your appliance operating at its best for years to come, rely on FAJ Professional.</p>
+                <ul>
+                  <li> <strong> Hygiene and Cleaning: </strong> Clean the machine before and after each shift to prevent contamination and maintain hygiene standards, especially when handling food. </li>
+                  <li> <strong> Examine Key Components: </strong> Check the screw, perforated plate, blades, and pre-cutting plates for wear and damage. Regular checks and proper installation are essential to prevent inefficiency and breakdowns. </li>
+                  <li> <strong> Lubrication Maintenance: </strong> Before starting work, check that the gearbox oil covers the oil window. Replace the oil every 1,000 operating hours or every six months if unused. For the first use, change the oil after 200 hours. </li>
+                  <li> <strong> Avoid Running Unloaded: </strong> Always use the grinder with meat to avoid blade damage. </li>
+                  By following these daily maintenance steps, you’ll keep your frozen meat grinder in optimal condition, reducing repair costs and improving efficiency.
+
+                </ul>
               </div>
             </div>
           </div>
         </section>
 
-        {/* The Most Common Problems with Home Appliances */}
+        {/*  Problems */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="text-center">The Most Common Problems with Home Appliances   </h3>
+            <h3 className="text-center"> Common Problems with Commercial Meat Grinders That May Require Maintenance  </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Grinder Not Starting</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Most fridge malfunctions are related to cooling issues, including problems with the defrost system, fan motor, compressor, or coils.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishwashers Problem</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">The most issues with dishwashers are bad cleaning and drying. Common water leaks and drainage. Some electrical issues or PCB failures.
+                    <p className="p-2 mb-0">
+                      If your mixer grinder does not start, first check the power supply. It might be due to a defective switch or motor. In such cases.
                     </p>
                   </div>
                 </div>
@@ -250,23 +241,26 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Washing Machine Problem
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Overheating During Use</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      Overheating in mixer grinders occurs with prolonged use. Continuous operation strains the motor and causes overheating.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Loud Noise or Vibration
                     </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">A common issue with washing machines is drainage problems, leaks, and PCB faulty. Also, broken belt or faulty door switch or drum from spinning.</p>
-                  </div>
-                </div>
-              </div>
-
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Tumble Dryer Problem</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Dryers can stop the drum from spinning and often make noise without drying clothes properly. Common issues are a broken heating element or control board.</p>
+                    <p className="p-2 mb-0">
+                      If your mixer grinder is unusually loud or vibrates excessively, check the blades and attachments, or see if the jar is loose or damaged.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -274,10 +268,12 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Stove Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Sticking or Jamming</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Uneven heating or flame issues, such as a broken burner element, bad switch, or electric gas, are the most common problems with stoves.</p>
+                    <p className="p-2 mb-0">
+                      When grinding, ingredients may get stuck due to overloading or wrong jar. To prevent this, don’t overload and choose correct jar.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -285,10 +281,12 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Ovens Problems</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">No Grinding or Blending</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Most ovens have common problems like not heating properly, burners not igniting, ignition issues on gas models, broken knobs, and faulty controllers or valves.</p>
+                    <p className="p-2 mb-0">
+                      If your mixer grinder isn't blending or grinding effectively, it may be due to dull blades, a weak motor, or worn-out parts.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -296,10 +294,25 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Freezer Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Leakage from the Jar</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Common issues with a freezer include water leaks, no ice, a malfunctioning ice maker, a malfunctioning PCB, motor, or compressor, and less cooling.</p>
+                    <p className="p-2 mb-0">
+                      Leaks from the jar can occur if the gasket or seal is damaged or worn out, often leading to spills and messes while grinding.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Lack of Maintenance</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      Ignoring maintenance causes parts to stick and blades to lose efficiency. Food and grease buildup create friction and jams.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -307,10 +320,12 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Machine Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Burning Smell Issue</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Whether they are drip or single-serve coffee makers, there are a few reasons why water flow in coffee makers is often slow or nonexistent.</p>
+                    <p className="p-2 mb-0">
+                      A burning smell usually indicates an electrical issue, wiring fault, short circuit, internal damage, or an overheated motor.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -328,7 +343,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
         {/*Why should you choose us? */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="cs_fs_30">Why choose us for keema machine repair?</h3>
+            <h3 className="cs_fs_30">Comprehensive Repair Services for Meat Grinder in Dubai</h3>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -344,18 +359,26 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
                 ></iframe>
               </div>
 
+
               <div className="col-xl-6">
-                <p className="mb-2">A meat grinder is an essential kitchen tool that you can use to make finely minced beef and other ingredients. If your meat grinder goes out of service. Don’t panic! As we are here to save you from trouble. Our knowledgeable technicians provide thorough repairs because they are familiar with the complexities of keema machines. When choosing FAJ Professional for keema machine repair, efficiency and knowledge are guaranteed. Our team takes care of everything from uneven grinding to structural issues to guarantee your machine runs smoothly and consistently produces finely minced meat. Our dedication to providing prompt, high-quality service and solutions distinguishes us in the repair sector.</p>
+                <p className="mb-0">
+                  We offer repair services for a variety of commercial cooking meat grinder machines, including:
+                </p>
+                <ul>
+                  <li> <strong> Spare Parts Installation: </strong>   Professional installation of spare parts for meat grinder machines ensures optimal performance and efficiency. </li>
+                  <li> <strong> Commercial Meat Grinder Diagnostics: </strong>   We conduct thorough diagnostics and eligibility assessments, providing detailed quotes to resolve any issues with meat grinders. </li>
+                  <li> <strong> Meat Grinder Machine Repair Service: </strong>   We provide expert repair services for meat grinders, addressing all components. Our quick solutions cover issues such as leaks, electrical failures, and malfunctions. Please reach out with any specific service requests or questions! </li>
+                  <li> <strong> Meat Grinder Equipment AMC: </strong>   This contract outlines the terms and services for the annual maintenance of the catering meat grinder machine. Regular maintenance is essential for ensuring optimal performance, efficiency, and longevity of your kitchen restaurant meat grinder machine. </li>
+                </ul>
               </div>
             </div>
           </div>
         </section>
-        {/* The Benefits Of appliances Service Dubai */}
+        {/*  Benefits */}
         <section className="section cs_py_30 appliances-benifit-sec">
           <div className="container">
             <div className="row justify-content-center">
-              <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai
-              </h3>
+              <h3 className="cs_fs_30 mb-0">Benefits of Regular Commercial Meat Grinder Service and Maintenance in Dubai</h3>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
                   <div className="">
@@ -363,8 +386,10 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h4>
-                      <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Enhanced Food Quality</h4>
+                      <p className="small">
+                        The condition of a meat grinder machine significantly impacts food quality; therefore, regular maintenance is crucial.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -374,9 +399,10 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
-                      </h4>
-                      <p className="small">Regular maintenance helps your appliances run smoothly and efficiently, delivering the best results every time.
+                      <h4 className="text-uppercase mb-2 cs_fs_18"> Improved Workplace Safety </h4>
+                      <p className="small">
+                        Regular maintenance of restaurant kitchen grinders helps prevent contamination, reduces the risk of mishaps, and ensures safe food preparation.
+
                       </p>
                     </div>
                   </div>
@@ -387,8 +413,10 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
-                      <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Ensures Compliance</h4>
+                      <p className="small">
+                        Food safety is crucial for any food business. Regular maintenance of meat grinders prevents contamination and ensures safety.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -399,8 +427,10 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h4>
-                      <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Reduced utility costs</h4>
+                      <p className="small">
+                        An electric meat grinder operates more efficiently and safely at peak performance when it is kept clean and serviced regularly.
+                      </p>
                     </div>
 
                   </div>
@@ -411,8 +441,11 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h4>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Improve Speed of Operations</h4>
+                      <p className="small">
+                        A restaurant meat grinder requires quick turnarounds to meet customer demands, as inefficiency causes delays and dissatisfaction.
+
+                      </p>
 
                     </div>
 
@@ -425,31 +458,16 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Commercial Grinder Maintenance
                       </h4>
-                      <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                      <p className="small">
+                        Regular cleaning and maintenance of commercial meat grinders are essential to extend their lifespan and reduce costs.
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-
-        <section className="section cs_py_30 bg-dark-blue text-light">
-          <div className="container text-center">
-            <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
-            <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
-            <a
-              href="files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
-              className="btn-green-yellow"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Click Here to Save on Energy Bills
-            </a>
-
-
           </div>
         </section>
 
@@ -541,7 +559,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* We specialise in Hob services for the following brands  */}
-        <section className="section cs_py_30 bg-light-gray">
+        {/* <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3>We specialise in Hob services for the following brands </h3>
             <div className="row">
@@ -782,45 +800,10 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
             </div>
 
           </div>
-        </section>
-
-
-
-        {/* white section with AC image */}
-        {/* <section className="section cs_py_30">
-          <div className="container text-center">
-            <div className="row">
-              <div className="col-lg-4">
-                <div className="acsvs-sec-prefoot-sec-cone">
-                  <h3 className="cs_fs_20 mb-0">COOLING &amp; HEATING</h3>
-                  <span className="mb-5">Stay comfortable all year round</span>
-                  <div className="mb-5"></div>
-                  <h3 className="cs_fs_20 mb-0">BETTER AIR QUALITY</h3>
-                  <span className="mb-5">Reduce humidity, pollen and dust</span>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="acsvs-sec-prefoot-sec-ctwo">
-
-                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Meat Grinder Repair" />
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="acsvs-sec-prefoot-sec-cthree">
-                  <h3 className="cs_fs_20 mb-0">PROTECT YOUR PROPERTY</h3>
-                  <span className="mb-5">Prevent damage to electronics and furnishings</span>
-                  <div className="mb-5"></div>
-                  <h3 className="cs_fs_20 mb-0">QUIET AND SECURE</h3>
-                  <span className="mb-5">No need to leave windows open</span>
-                </div>
-              </div>
-            </div>
-
-          </div>
         </section> */}
 
         {/* Brands section */}
-        {/* <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
+        {/*<section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
           <div className="container">
            
             <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
@@ -943,4 +926,3 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
 };
 
 export default MeatGrinderRepairDetail;
-
