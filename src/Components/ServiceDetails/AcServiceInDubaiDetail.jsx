@@ -131,7 +131,7 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/reem-ac-service.avif`} alt="Post Image" /> */}
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/reem-ac-service.avif`} alt="Ac Service" /> */}
                 <h3 className="cs_fs_24 mb-1">Experts AC Service and Maintenance</h3>
                 <p className="mb-1">When considering AC service in Dubai, it is vital to hire a qualified and reliable AC technician who can effectively address your needs at home or in your business place.</p>
                 <p className="mb-1">FAJ Experts in comprehensive air conditioner (AC) service, and maintenance, ensuring that you receive the highest quality care for your cooling systems.</p>
@@ -144,8 +144,8 @@ and <small>3-month parts warranty</small> as standard.</p>
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Post Image" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Post Image" />
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Ac Service" /> */}
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Ac Service" />
 
               </div>
             </div>
@@ -174,8 +174,8 @@ and <small>3-month parts warranty</small> as standard.</p>
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                {/* <img className="blue-border" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Post Image" /> */}
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Post Image" />
+                {/* <img className="blue-border" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Ac Service" /> */}
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Ac Service" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -323,7 +323,7 @@ and <small>3-month parts warranty</small> as standard.</p>
                 </ul>
               </div>
               <div className="col-md-6 text-center text-md-end">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance-in-Dubai.avif`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance-in-Dubai.avif`} alt="Ac Service" />
               </div>
             </div>
           </div>
@@ -368,7 +368,7 @@ and <small>3-month parts warranty</small> as standard.</p>
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Post Image" />
+                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Ac Service" />
                 </div>
               </div>
               <div className="col-lg-4">

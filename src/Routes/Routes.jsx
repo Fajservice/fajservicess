@@ -260,14 +260,12 @@ import DeDietrichFridgeRepair from "../Pages/AppliancesPage/AppliancesBrand/DeDi
 import SmegMixerRepairService from "../Pages/AppliancesPage/AppliancesBrand/SmegMixerRepairService.jsx";
 import LaGermaniaCookingRangeRepair from "../Pages/AppliancesPage/AppliancesBrand/LaGermaniaCookingRangeRepair.jsx";
 import DelonghiCoffeeMachineRepair from "../Pages/AppliancesPage/AppliancesBrand/DelonghiCoffeeMachineRepair.jsx";
-
-
 import AcRepairInDownTown from "../Pages/AcPages/AcLocation/AcRepairInDowntown.jsx";
 import PortfolioPage from "../Pages/PortfolioPage.jsx";
 import CigarcabnitService from "../Pages/HomeAppPages/CigarcabnitService.jsx";
 import { Navigate } from "react-router-dom";
 import AppliancesServiceInAlMamzar from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServiceInAlMamzar.jsx";
-
+import FajPriceList from "../Pages/FajPriceList.jsx";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -292,6 +290,10 @@ export const router = createBrowserRouter([
       {
         path: "/services/",
         element: <ServicesPage />,
+      },
+      {
+        path: "/faj-price-list/",
+        element: <FajPriceList />,
       },
       {
         path: "/ac-service-in-dubai/",
