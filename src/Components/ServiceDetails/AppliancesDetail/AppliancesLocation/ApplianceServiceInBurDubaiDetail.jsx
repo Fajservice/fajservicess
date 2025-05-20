@@ -17,15 +17,15 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages.jsx";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 
-const AppliancesServiceInDubaiProductionCityDetail = ({ subtitle, title, bgImg }) => {
+const ApplianceServiceInBurDubaiDetail = ({ subtitle, title, bgImg }) => {
 
 
     // For SEO
-    const titleSeo = "Appliances Services In Dubai Production City - Washing Machine Repair";
-    const description = "Get appliance services in Dubai Production City. FAJ experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher, oven";
-    const Author = "Faj Technical Servcies";
+    const titleSeo = "Appliances Services in Bur Dubai - Fridge Repair Near Me";
+    const description = "We are experts in appliance services in Bur Dubai. Get the best refrigerator repair near me. Contact 043300002 to fix your washing machine & oven";
+     const Author = "Faj Technical Servcies";
     const Keyword = "";
-    const URL = "https://www.fajservices.ae/appliances-services-in-dubai-production-city";
+    const URL = "https://www.fajservices.ae/appliances-services-in-the-villa";
 
 
     subtitle = "Testimonial"
@@ -116,8 +116,8 @@ const AppliancesServiceInDubaiProductionCityDetail = ({ subtitle, title, bgImg }
             }
         ]
     };
-    return (
-        <>
+  return (
+   <>
             <HelmetProvider>
 
                 <title>{titleSeo}</title>
@@ -139,7 +139,7 @@ const AppliancesServiceInDubaiProductionCityDetail = ({ subtitle, title, bgImg }
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI Production City</h2>
+                        <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
@@ -150,37 +150,6 @@ const AppliancesServiceInDubaiProductionCityDetail = ({ subtitle, title, bgImg }
                             </div>
                         </div>
                         {/*  */}
-                    </div>
-                </section>
-
-                
-
-                {/* Best Home Appliance Service Center */}
-                <section className="section cs_py_30 bg-light-gray">
-                    <div className="container">
-                        <div className="row gx-md-5">
-                            <div className="col-md-6">
-                                <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai Production City</h3>
-
-                                <p className="mb-2">
-                                    If you need appliance repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
-                                    <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
-                                    <br /> We're nearby and can get your appliances fixed quickly and efficiently.
-                                </p>
-
-                                <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">EXPRESS & EMERGENCY Appliance REPAIR SERVICE</h3>
-                                <p className="mb-2"><b>Terms & Conditions:</b>There is a callout fee that applies, ranging from AED 175 to 320 depending on appliance, for diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any repair/parts. Also, get repairs from us for your coffee machine, stand mixer, or robot vacuum.
-                                </p>
-                                <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
-                                    <b>We provide 2-month service warranty</b><br />
-                                    and <small>3-month parts warranty</small> as standard.</p>
-                            </div>
-
-                            <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} alt="Post Image" />
-                            </div>
-                        </div>
-                        <AppliancesAppointmentCol></AppliancesAppointmentCol>
                     </div>
                 </section>
 
@@ -293,6 +262,35 @@ const AppliancesServiceInDubaiProductionCityDetail = ({ subtitle, title, bgImg }
 
                 {/* Maintenance Contract */}
                 <MaintenanceContract />
+
+                {/* Best Home Appliance Service Center */}
+                <section className="section cs_py_30 bg-light-gray">
+                    <div className="container">
+                        <div className="row gx-md-5">
+                            <div className="col-md-6">
+                                <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai</h3>
+
+                                <p className="mb-2">
+                                    If you need appliance repair, FAJ is your best choice for fast and affordable service in Bur Dubai and Sharjah.
+                                    <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
+                                    <br /> We're nearby and can get your appliances fixed quickly and efficiently.
+                                </p>
+
+                                <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">EXPRESS & EMERGENCY Appliance REPAIR SERVICE</h3>
+                                <p className="mb-2"><b>Terms & Conditions:</b>There is a callout fee that applies, ranging from AED 175 to 320 depending on appliance, for diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any repair/parts. Also, get repairs from us for your coffee machine, stand mixer, or robot vacuum.
+                                </p>
+                                <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
+                                    <b>We provide 2-month service warranty</b><br />
+                                    and <small>3-month parts warranty</small> as standard.</p>
+                            </div>
+
+                            <div className="col-md-6 ">
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} alt="Post Image" />
+                            </div>
+                        </div>
+                        <AppliancesAppointmentCol></AppliancesAppointmentCol>
+                    </div>
+                </section>
 
                 {/* Why is Appliance Maintenance Service Important in Dubai? */}
                 <section className="section cs_py_30 bg-light-gray">
@@ -896,7 +894,7 @@ const AppliancesServiceInDubaiProductionCityDetail = ({ subtitle, title, bgImg }
 
             </div >
         </>
-    )
+  )
 }
 
-export default AppliancesServiceInDubaiProductionCityDetail
+export default ApplianceServiceInBurDubaiDetail
