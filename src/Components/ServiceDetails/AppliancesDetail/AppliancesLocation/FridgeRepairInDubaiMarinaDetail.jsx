@@ -17,15 +17,15 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages.jsx";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 
-const AppliancesServiceInAlMamzarDetail = ({ subtitle, title, bgImg }) => {
+const FridgeRepairInDubaiMarinaDetail = ({ subtitle, title, bgImg }) => {
 
 
   // For SEO
-  const titleSeo = "Appliances Services In Al Mamzar - Washing Machine Repair";
-  const description = "Get appliance services in Al Mamzar. FAJ experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher, oven";
+  const titleSeo = "Get Fridge Repair Dubai Marina - Washing Machine Service";
+  const description = "Get same day fridge repair Dubai Marina and reliable service center of refrigerator, dryer, cooker, oven, dishwasher, washing machine fix Dubai Marina ";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://www.fajservices.ae/appliances-services-in-al-mamzar/";
+  const URL = "https://www.fajservices.ae/fridge-repair-in-dubai-marina-washing-machine-repair-in-dubai-marina-dishwasher-repair-in-dubai-marina-refrigerator-repair-maintenance-in-dubai-marina-cooker-oven-repair-fix-service-in-cooking-range-e/";
 
 
   subtitle = "Testimonial"
@@ -159,7 +159,7 @@ const AppliancesServiceInAlMamzarDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-md-6">
                 <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai</h3>
                 <p className="mb-2">
-                  If you need appliance repair, FAJ is your best choice for fast and affordable service in Al Mamzar Dubai and Sharjah.
+                  If you need appliance repair, FAJ is your best choice for fast and affordable service in Dubai Marina and Sharjah.
                   <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
                   <br /> We're nearby and can get your appliances fixed quickly and efficiently.
                 </p>
@@ -894,4 +894,4 @@ const AppliancesServiceInAlMamzarDetail = ({ subtitle, title, bgImg }) => {
   )
 }
 
-export default AppliancesServiceInAlMamzarDetail
+export default FridgeRepairInDubaiMarinaDetail

@@ -17,15 +17,15 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages.jsx";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 
-const AppliancesServiceInAlMamzarDetail = ({ subtitle, title, bgImg }) => {
+const WashingMachineRepairAlBarshaDetail = ({ subtitle, title, bgImg }) => {
 
 
   // For SEO
-  const titleSeo = "Appliances Services In Al Mamzar - Washing Machine Repair";
-  const description = "Get appliance services in Al Mamzar. FAJ experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher, oven";
+  const titleSeo = "Washing Machine Repair in Al Barsha - Refrigerator Service";
+  const description = "Get best washing machine repair in Al Barsha. Dail 043300002 for Samsung, Siemens, Bosch, LG, Daewoo washing machine & fridge repair near me";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://www.fajservices.ae/appliances-services-in-al-mamzar/";
+  const URL = "https://www.fajservices.ae/washing-machine-repair-al-barsha-dubai-fridge-repair-al-barsha-dubai-refrigerator-repairing-al-barsha-dubai-cooker-stove-oven-cooking-range-repairs-fix-service-centre-al-barsha-dubai-dishwasher-inst-2/";
 
 
   subtitle = "Testimonial"
@@ -157,9 +157,9 @@ const AppliancesServiceInAlMamzarDetail = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai</h3>
+                <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in  Dubai</h3>
                 <p className="mb-2">
-                  If you need appliance repair, FAJ is your best choice for fast and affordable service in Al Mamzar Dubai and Sharjah.
+                  If you need appliance repair, FAJ is your best choice for fast and affordable service in AlBarsha Dubai and Sharjah.
                   <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
                   <br /> We're nearby and can get your appliances fixed quickly and efficiently.
                 </p>
@@ -894,4 +894,4 @@ const AppliancesServiceInAlMamzarDetail = ({ subtitle, title, bgImg }) => {
   )
 }
 
-export default AppliancesServiceInAlMamzarDetail
+export default WashingMachineRepairAlBarshaDetail

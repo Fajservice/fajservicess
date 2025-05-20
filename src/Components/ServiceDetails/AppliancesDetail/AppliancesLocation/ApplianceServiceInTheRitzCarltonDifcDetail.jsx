@@ -17,15 +17,15 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages.jsx";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 
-const AppliancesServiceInTownSquareDetail = ({ subtitle, title, bgImg }) => {
+const ApplianceServiceInTheRitzCarltonDifcDetail = ({ subtitle, title, bgImg }) => {
 
 
     // For SEO
-    const titleSeo = "Appliances Services In Town Square - Washing Machine Repair";
-    const description = "Get appliance services in Town Square. FAJ experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher, oven";
+    const titleSeo = "Best Appliances Services in The Ritz Carlton DIFC Near Me";
+    const description = "Get best appliance services in The Ritz Carlton DIFC. Experts in fridge repair near me in Dubai. Call 043300002 for washing machine, oven & dishwasher fix";
     const Author = "Faj Technical Servcies";
     const Keyword = "";
-    const URL = "https://www.fajservices.ae/appliances-services-in-town-square";
+    const URL = "https://www.fajservices.ae/appliances-services-in-the-ritz-carlton-difc";
 
 
     subtitle = "Testimonial"
@@ -117,7 +117,7 @@ const AppliancesServiceInTownSquareDetail = ({ subtitle, title, bgImg }) => {
         ]
     };
   return (
-       <>
+    <>
                 <HelmetProvider>
     
                     <title>{titleSeo}</title>
@@ -139,7 +139,7 @@ const AppliancesServiceInTownSquareDetail = ({ subtitle, title, bgImg }) => {
     
                     <section className="section cs_py_30">
                         <div className="container">
-                            <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI Town Square</h2>
+                            <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2>
                             <p>
                                 Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                             </p>
@@ -268,10 +268,10 @@ const AppliancesServiceInTownSquareDetail = ({ subtitle, title, bgImg }) => {
                         <div className="container">
                             <div className="row gx-md-5">
                                 <div className="col-md-6">
-                                    <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai Town Square</h3>
+                                    <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai</h3>
     
                                     <p className="mb-2">
-                                        If you need appliance repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
+                                        If you need appliance repair, FAJ is your best choice for fast and affordable service in The Ritz Carlton Dubai and Sharjah.
                                         <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
                                         <br /> We're nearby and can get your appliances fixed quickly and efficiently.
                                     </p>
@@ -897,4 +897,4 @@ const AppliancesServiceInTownSquareDetail = ({ subtitle, title, bgImg }) => {
   )
 }
 
-export default AppliancesServiceInTownSquareDetail
+export default ApplianceServiceInTheRitzCarltonDifcDetail

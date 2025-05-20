@@ -17,15 +17,15 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages.jsx";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 
-const AppliancesServiceInTownSquareDetail = ({ subtitle, title, bgImg }) => {
+const AppliancesServicesInJumeirahVillageDetail = ({ subtitle, title, bgImg }) => {
 
 
     // For SEO
-    const titleSeo = "Appliances Services In Town Square - Washing Machine Repair";
-    const description = "Get appliance services in Town Square. FAJ experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher, oven";
+    const titleSeo = "Appliances Services in Jumeirah Village - Fridge Repair";
+    const description = "Need appliance Service in Jumeirah Village. we provide refrigerator, washing machine repair near me, dryer cooker oven & more. Book now 043300002";
     const Author = "Faj Technical Servcies";
     const Keyword = "";
-    const URL = "https://www.fajservices.ae/appliances-services-in-town-square";
+    const URL = "https://www.fajservices.ae/appliances-services-in-jumeirah-village/";
 
 
     subtitle = "Testimonial"
@@ -117,7 +117,7 @@ const AppliancesServiceInTownSquareDetail = ({ subtitle, title, bgImg }) => {
         ]
     };
   return (
-       <>
+    <>
                 <HelmetProvider>
     
                     <title>{titleSeo}</title>
@@ -139,7 +139,7 @@ const AppliancesServiceInTownSquareDetail = ({ subtitle, title, bgImg }) => {
     
                     <section className="section cs_py_30">
                         <div className="container">
-                            <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI Town Square</h2>
+                            <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2>
                             <p>
                                 Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                             </p>
@@ -152,7 +152,39 @@ const AppliancesServiceInTownSquareDetail = ({ subtitle, title, bgImg }) => {
                             {/*  */}
                         </div>
                     </section>
-
+    
+                    {/* Maintenance Contract */}
+                    <MaintenanceContract />
+    
+                    {/* Best Home Appliance Service Center */}
+                    <section className="section cs_py_30 bg-light-gray">
+                        <div className="container">
+                            <div className="row gx-md-5">
+                                <div className="col-md-6">
+                                    <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai</h3>
+    
+                                    <p className="mb-2">
+                                        If you need appliance repair, FAJ is your best choice for fast and affordable service in Jumeirah Village Dubai and Sharjah.
+                                        <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
+                                        <br /> We're nearby and can get your appliances fixed quickly and efficiently.
+                                    </p>
+    
+                                    <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">EXPRESS & EMERGENCY Appliance REPAIR SERVICE</h3>
+                                    <p className="mb-2"><b>Terms & Conditions:</b>There is a callout fee that applies, ranging from AED 175 to 320 depending on appliance, for diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any repair/parts. Also, get repairs from us for your coffee machine, stand mixer, or robot vacuum.
+                                    </p>
+                                    <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
+                                        <b>We provide 2-month service warranty</b><br />
+                                        and <small>3-month parts warranty</small> as standard.</p>
+                                </div>
+    
+                                <div className="col-md-6 ">
+                                    <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} alt="Post Image" />
+                                </div>
+                            </div>
+                            <AppliancesAppointmentCol></AppliancesAppointmentCol>
+                        </div>
+                    </section>
+    
                     {/* The Most Common Problems with Home Appliances */}
                     <section className="section cs_py_30">
                         <div className="container">
@@ -257,38 +289,6 @@ const AppliancesServiceInTownSquareDetail = ({ subtitle, title, bgImg }) => {
                                 </div>
                             </div>
     
-                        </div>
-                    </section>
-    
-                    {/* Maintenance Contract */}
-                    <MaintenanceContract />
-    
-                    {/* Best Home Appliance Service Center */}
-                    <section className="section cs_py_30 bg-light-gray">
-                        <div className="container">
-                            <div className="row gx-md-5">
-                                <div className="col-md-6">
-                                    <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai Town Square</h3>
-    
-                                    <p className="mb-2">
-                                        If you need appliance repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
-                                        <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
-                                        <br /> We're nearby and can get your appliances fixed quickly and efficiently.
-                                    </p>
-    
-                                    <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">EXPRESS & EMERGENCY Appliance REPAIR SERVICE</h3>
-                                    <p className="mb-2"><b>Terms & Conditions:</b>There is a callout fee that applies, ranging from AED 175 to 320 depending on appliance, for diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any repair/parts. Also, get repairs from us for your coffee machine, stand mixer, or robot vacuum.
-                                    </p>
-                                    <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
-                                        <b>We provide 2-month service warranty</b><br />
-                                        and <small>3-month parts warranty</small> as standard.</p>
-                                </div>
-    
-                                <div className="col-md-6 ">
-                                    <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} alt="Post Image" />
-                                </div>
-                            </div>
-                            <AppliancesAppointmentCol></AppliancesAppointmentCol>
                         </div>
                     </section>
     
@@ -773,6 +773,55 @@ const AppliancesServiceInTownSquareDetail = ({ subtitle, title, bgImg }) => {
                         </div>
                     </section>
     
+                    {/* <section className="section cs_py_30 bg-dark-blue text-light">
+                      <div className="container text-center">
+                        <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
+                        <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers! </p>
+                        <a
+                          href="files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
+                          className="btn-green-yellow"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Click Here to Save on Energy Bills
+                        </a>
+            
+                      </div>
+                    </section> */}
+    
+                    {/* white section with AC image */}
+                    {/* <section className="section cs_py_30">
+                      <div className="container text-center">
+                        <div className="row">
+                          <div className="col-lg-4">
+                            <div className="acsvs-sec-prefoot-sec-cone">
+                              <h3 className="cs_fs_20 mb-0">COOLING &amp; HEATING</h3>
+                              <span className="mb-5">Stay comfortable all year round</span>
+                              <div className="mb-5"></div>
+                              <h3 className="cs_fs_20 mb-0">BETTER AIR QUALITY</h3>
+                              <span className="mb-5">Reduce humidity, pollen and dust</span>
+                            </div>
+                          </div>
+                          <div className="col-lg-4">
+                            <div className="acsvs-sec-prefoot-sec-ctwo">
+            
+                              <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Post Image" />
+                            </div>
+                          </div>
+                          <div className="col-lg-4">
+                            <div className="acsvs-sec-prefoot-sec-cthree">
+                              <h3 className="cs_fs_20 mb-0">PROTECT YOUR PROPERTY</h3>
+                              <span className="mb-5">Prevent damage to electronics and furnishings</span>
+                              <div className="mb-5"></div>
+                              <h3 className="cs_fs_20 mb-0">QUIET AND SECURE</h3>
+                              <span className="mb-5">No need to leave windows open</span>
+                            </div>
+                          </div>
+                        </div>
+            
+                      </div>
+                    </section> */}
+    
                     {/* Brands section */}
                     <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
                         <div className="container">
@@ -897,4 +946,4 @@ const AppliancesServiceInTownSquareDetail = ({ subtitle, title, bgImg }) => {
   )
 }
 
-export default AppliancesServiceInTownSquareDetail
+export default AppliancesServicesInJumeirahVillageDetail

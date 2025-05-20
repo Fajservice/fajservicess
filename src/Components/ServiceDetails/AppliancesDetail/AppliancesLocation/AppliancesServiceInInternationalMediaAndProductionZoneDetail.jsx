@@ -17,15 +17,15 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages.jsx";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 
-const AppliancesServiceInAlMamzarDetail = ({ subtitle, title, bgImg }) => {
+const AppliancesServiceInInternationalMediaAndProductionZoneDetail = ({ subtitle, title, bgImg }) => {
 
 
   // For SEO
-  const titleSeo = "Appliances Services In Al Mamzar - Washing Machine Repair";
-  const description = "Get appliance services in Al Mamzar. FAJ experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher, oven";
+  const titleSeo = "Appliances Services in The Gardens - Refrigerator Repair";
+  const description = "We offer appliance services in The Gardens. Need refrigerator, washing machine, fridge repair near me? Call 043300002 for quick solutions!";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://www.fajservices.ae/appliances-services-in-al-mamzar/";
+  const URL = "https://www.fajservices.ae/appliances-services-in-the-gardens";
 
 
   subtitle = "Testimonial"
@@ -117,7 +117,7 @@ const AppliancesServiceInAlMamzarDetail = ({ subtitle, title, bgImg }) => {
     ]
   };
   return (
-    <>
+     <>
       <HelmetProvider>
 
         <title>{titleSeo}</title>
@@ -151,15 +151,16 @@ const AppliancesServiceInAlMamzarDetail = ({ subtitle, title, bgImg }) => {
             {/*  */}
           </div>
         </section>
-        
+
         {/* Best Home Appliance Service Center */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai</h3>
+                <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Al Mamzar</h3>
+
                 <p className="mb-2">
-                  If you need appliance repair, FAJ is your best choice for fast and affordable service in Al Mamzar Dubai and Sharjah.
+                  If you need appliance repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
                   <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
                   <br /> We're nearby and can get your appliances fixed quickly and efficiently.
                 </p>
@@ -889,9 +890,10 @@ const AppliancesServiceInAlMamzarDetail = ({ subtitle, title, bgImg }) => {
           ></Serviceappointemnt>
 
         </section>
+
       </div >
     </>
   )
 }
 
-export default AppliancesServiceInAlMamzarDetail
+export default AppliancesServiceInInternationalMediaAndProductionZoneDetail
