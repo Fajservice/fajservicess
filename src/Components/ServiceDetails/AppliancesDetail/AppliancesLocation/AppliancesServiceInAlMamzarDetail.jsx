@@ -138,7 +138,7 @@ const AppliancesServiceInAlMamzarDetail = ({ subtitle, title, bgImg }) => {
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN Al Mamzar</h2>
+            <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN Dubai</h2>
             <p>
               Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
             </p>
@@ -151,19 +151,15 @@ const AppliancesServiceInAlMamzarDetail = ({ subtitle, title, bgImg }) => {
             {/*  */}
           </div>
         </section>
-
-        {/* Maintenance Contract */}
-        <MaintenanceContract />
-
+        
         {/* Best Home Appliance Service Center */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Al Mamzar</h3>
-
+                <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai</h3>
                 <p className="mb-2">
-                  If you need appliance repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
+                  If you need appliance repair, FAJ is your best choice for fast and affordable service in Al Mamzar Dubai and Sharjah.
                   <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
                   <br /> We're nearby and can get your appliances fixed quickly and efficiently.
                 </p>
@@ -290,6 +286,9 @@ const AppliancesServiceInAlMamzarDetail = ({ subtitle, title, bgImg }) => {
 
           </div>
         </section>
+
+        {/* Maintenance Contract */}
+        <MaintenanceContract />
 
         {/* Why is Appliance Maintenance Service Important in Dubai? */}
         <section className="section cs_py_30 bg-light-gray">
@@ -890,7 +889,6 @@ const AppliancesServiceInAlMamzarDetail = ({ subtitle, title, bgImg }) => {
           ></Serviceappointemnt>
 
         </section>
-
       </div >
     </>
   )
