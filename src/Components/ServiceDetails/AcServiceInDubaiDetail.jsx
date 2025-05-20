@@ -22,7 +22,7 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
 
   // For SEO
   const titleSeo = "AC Service in Dubai - Get AC Repair & Maintenance | FAJ Co";
-  const description = "We specialize in AC repair, service, and central & split air condition maintenance in Dubai. Call at 043300002 for your home & office A/C fix";
+  const description = "We specialize in AC repair, service, and central & split air conditioner maintenance in Dubai. Call at 043300002 for your home & office A/C fix";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
   const URL = "https://fajservices.com/ac-service-in-dubai/";
@@ -109,8 +109,8 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             <h2 className="cs_fs_30">Professional AC Service and Repair in Dubai</h2>
-            <p>F A J Technical Services L.L.C. has been operating since 2010. Our dedicated facilities team has extensive experience in AC servicing, maintaining, repairing, and installing various residential and commercial air conditioner units in Dubai and Sharjah.<br />
-            An air conditioner is not just a cooling unit; it is essential for air conditioner service and maintenance a comfortable indoor environment throughout the year. To ensure your unit operates at its best, regular AC cleaning service are required. We offer professional air conditioner services in Dubai to keep your system running smoothly and efficiently.</p>
+            <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
+            <a href="/"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in AC servicing, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -120,23 +120,34 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* Maintenance Contract */}
-        <MaintenanceContract />
+        
 
 
         {/* Experts AC Service and Maintenance */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
                 <h3 className="cs_fs_24 mb-1">Experts AC Service and Maintenance</h3>
                 <p className="mb-1">When considering AC service in Dubai, it is vital to hire a qualified and reliable AC technician who can effectively address your needs at home or in your business place.</p>
                 <p className="mb-1">FAJ Experts in comprehensive air conditioner (AC) service, and maintenance, ensuring that you receive the highest quality care for your cooling systems.</p>
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
-                <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
-                <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br/>
-<b>We provide 2-month service warranty</b><br/>
-and <small>3-month parts warranty</small> as standard.</p>
+                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
+                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                <div className="row">
+                    <div className="col-sm-6">
+                        <ul className="mb-0">
+                            <li>Higher electricity bills </li>
+                            <li>Air is not blowing cold</li>
+                            <li>Drips from your air conditioner</li>
+                        </ul>
+                    </div>
+                    <div className="col-sm-6">
+                        <ul className="mb-0">
+                            <li>Loss of AC performance</li>
+                            <li>Poor AC airflow, making noises</li>
+                        </ul>
+                    </div>
+                </div>
                 
               </div>
 
@@ -158,10 +169,11 @@ and <small>3-month parts warranty</small> as standard.</p>
           </div>
         </section>
 
+        {/* Maintenance Contract */}
+        <MaintenanceContract />
 
-
-        {/* Why is AC Maintenance Service Important in Dubai? */}
-        <section className="section cs_py_30 bg-light-gray">
+         {/* Why is AC Maintenance Service Important in Dubai? */}
+       <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h3>
             <p>
@@ -327,7 +339,6 @@ and <small>3-month parts warranty</small> as standard.</p>
 
         {/* Why choose us AC */}
         <ACWhyChooseUs />
-
 
         {/* We specialise in air conditioning services for the following brands */}
         <WeSpecialise />

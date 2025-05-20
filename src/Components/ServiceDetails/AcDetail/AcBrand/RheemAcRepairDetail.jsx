@@ -95,11 +95,8 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* Maintenance Contract */}
-        <MaintenanceContract />
-
         {/* 2 cols */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
@@ -111,14 +108,23 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
                   The FAJ team is dedicated to ensuring a comfortable temperature for you all year round.
                 </p>
 
-                <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
-
-
-                <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
-                <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
-                  <b>We provide 2-month service warranty</b><br />
-                  and <small>3-month parts warranty</small> as standard.</p>
-              </div>
+                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
+                            <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                            <div className="row">
+                                <div className="col-sm-6">
+                                    <ul className="mb-0">
+                                        <li>Higher electricity bills </li>
+                                        <li>Air is not blowing cold</li>
+                                        <li>Drips from your air conditioner</li>
+                                    </ul>
+                                </div>
+                                <div className="col-sm-6">
+                                    <ul className="mb-0">
+                                        <li>Loss of AC performance</li>
+                                        <li>Poor AC airflow, making noises</li>
+                                    </ul>
+                                </div>
+                            </div></div>
 
               <div className="col-md-6 ">
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Daikin AC Service" />
@@ -127,7 +133,8 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
             <AppliancesAppointmentCol></AppliancesAppointmentCol>
           </div>
         </section>
-
+          {/* Maintenance Contract */}
+        <MaintenanceContract />
          {/* Why*/}
         <section className="section cs_py_30">
           <div className="container">
@@ -489,6 +496,11 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
         {/* We specialise  */}
         <section className="section cs_py_30 bg-light-gray ">
           <div className="container">
+ <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
+                <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
+                <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br/>
+                <b>We provide 2-month service warranty</b><br/>
+                and <small>3-month parts warranty</small> as standard.</p>
             <h3>We specialise in Rheem air conditioning services for the following types</h3>
             <div className="row">
               <div className="col-12">

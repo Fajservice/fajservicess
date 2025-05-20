@@ -90,23 +90,33 @@ const YorkAcRepair =  ({ subtitle, title, bgImg }) => {
             {/*  */}
           </div>
         </section>
-
-        {/* Maintenance Contract */}
-        <MaintenanceContract/>
-
-        {/* Experts AC Service and Maintenance */}
-        <section className="section cs_py_30 bg-light-gray">
+       
+       
+               {/* Experts AC Service and Maintenance */}
+               <section className="section cs_py_30 bg-light-gray mb-4">
             <div className="container">
                 <div className="row gx-md-5">
                     <div className="col-md-6">
                         <h3 className="cs_fs_24 mb-1">Best York AC Repair in Dubai</h3>
                         <p className="mb-2">When it comes to York <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Dubai, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
                         <p>We specialize in York air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
-                        <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
-                <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
-                <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br/>
-<b>We provide 2-month service warranty</b><br/>
-and <small>3-month parts warranty</small> as standard.</p>
+                         <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
+                            <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                            <div className="row">
+                                <div className="col-sm-6">
+                                    <ul className="mb-0">
+                                        <li>Higher electricity bills </li>
+                                        <li>Air is not blowing cold</li>
+                                        <li>Drips from your air conditioner</li>
+                                    </ul>
+                                </div>
+                                <div className="col-sm-6">
+                                    <ul className="mb-0">
+                                        <li>Loss of AC performance</li>
+                                        <li>Poor AC airflow, making noises</li>
+                                    </ul>
+                                </div>
+                            </div>
                       </div>
 
                     <div className="col-md-6">

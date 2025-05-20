@@ -122,11 +122,9 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* Maintenance Contract */}
-        <MaintenanceContract />
 
         {/* AC Maintenance for the Best Cooling*/}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
@@ -136,11 +134,23 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
                 <p className="mb-1">This can also result in issues such as water leakage from the indoor unit and unpleasant odors. So, what is the solution? If you're searching for a reliable AC maintenance company in Dubai to take care of your home or office aircon needs, look no further.</p>
 
 
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
-                <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
-                <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br/>
-<b>We provide 2-month service warranty</b><br/>
-and <small>3-month parts warranty</small> as standard.</p>
+                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
+                            <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                            <div className="row">
+                                <div className="col-sm-6">
+                                    <ul className="mb-0">
+                                        <li>Higher electricity bills </li>
+                                        <li>Air is not blowing cold</li>
+                                        <li>Drips from your air conditioner</li>
+                                    </ul>
+                                </div>
+                                <div className="col-sm-6">
+                                    <ul className="mb-0">
+                                        <li>Loss of AC performance</li>
+                                        <li>Poor AC airflow, making noises</li>
+                                    </ul>
+                                </div>
+                            </div>
               </div>
 
               <div className="col-md-6 ">
@@ -162,6 +172,8 @@ and <small>3-month parts warranty</small> as standard.</p>
         </section>
 
 
+        {/* Maintenance Contract */}
+        <MaintenanceContract />
 
 
         {/* Why Do You Need Regular AC Maintenance in Dubai? */}
@@ -340,6 +352,11 @@ and <small>3-month parts warranty</small> as standard.</p>
         {/* We specialise in AC  maintenance services for the following brands.*/}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
+          <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
+                <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
+                <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br/>
+                <b>We provide 2-month service warranty</b><br/>
+                and <small>3-month parts warranty</small> as standard.</p>
             <h3>We specialise in AC maintenance services for the following brands
             </h3>
             <div className="row">
@@ -371,6 +388,8 @@ and <small>3-month parts warranty</small> as standard.</p>
                 <p className="mb-0">
                   <Link to="/mitsubishi-ac-repair-in-dubai/"><b>Mitsubishi Air Conditioner Maintenance and Service</b></Link>: Seeking relief from scorching heat? Discover the secret to keeping your Mitsubishi AC running smoothly in Dubai! Our expert Mitsubishi AC services ensure your AC stays cool and efficient, providing comfort and peace of mind.
                 </p>
+                <p className="mb-0"><b>Carrier AC Repair and Service in Dubai</b>: We understand how essential Carrier air conditioning is for your home or business. FAJ provides fast and reliable Carrier air conditioner maintenance services that are both efficient and dependable.
+Typically, regular cleaning service of your Carrier VRF (Variable Refrigerant Flow), central, split, package unit, or cassette type units in Dubai and Sharjah is sufficient to keep your system running smoothly. However, if your Carrier air conditioning system experiences a breakdown, fault, or malfunction, it can negatively affect your indoor environment.</p>
                 <br />
                 <p className="mb-0">
                   <Link to="/sanyo-ac-repair-in-dubai-sanyo-ac-maintenance-in-dubai-sanyo-ac-fix-in-dubai-sanyo-ac-service-in-dubai-sanyo-air-condition-repair-in-dubai-sanyo-air-condition-maintenance-in-dubai-sanyo-air-condition/">Sanyo AC Maintenance Dubai</Link>

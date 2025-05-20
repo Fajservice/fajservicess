@@ -167,12 +167,9 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
                   <br /> We're nearby and can get your appliances fixed quickly and efficiently.
                 </p>
 
-                <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">EXPRESS & EMERGENCY Appliance REPAIR SERVICE</h3>
-                <p className="mb-2"><b>Terms & Conditions:</b>There is a callout fee that applies, ranging from AED 175 to 320 depending on appliance, for diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any repair/parts. Also, get repairs from us for your coffee machine, stand mixer, or robot vacuum.
-</p>
-                <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br/>
-<b>We provide 2-month service warranty</b><br/>
-and <small>3-month parts warranty</small> as standard.</p>
+                <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service
+                </h3>
+                <p className="mb-2">At <a href="/">FAJ Technical Services LLC</a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
               </div>
 
               <div className="col-md-6 ">
