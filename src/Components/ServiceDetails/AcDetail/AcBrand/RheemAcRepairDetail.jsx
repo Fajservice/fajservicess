@@ -98,7 +98,7 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
         {/* Maintenance Contract */}
         <MaintenanceContract />
 
-        {/* Best Home Appliance Service Center */}
+        {/* 2 cols */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
@@ -128,8 +128,39 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* Problems  */}
+         {/* Why*/}
         <section className="section cs_py_30">
+          <div className="container">
+
+            <h3 className="cs_fs_30">Why is Rheem AC Maintenance Service Important in Dubai?</h3>
+            <p className="">
+              Regular maintenance of Rheem air conditioners in Dubai is vital for optimal performance. FAJ provides services to keep your system running efficiently. Trust us to ensure your Rheem AC performs at its best.
+              For nearby maintenance, please contact us.
+            </p>
+
+            <div className="row align-items-center">
+              <div className="col-md-6">
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/ac amc.avif`} alt="daikin Airconditioner Repair" />
+              </div>
+              <div className="col-md-6">
+                <ul className="mb-0">
+
+                  <li> <strong> Extreme Weather: </strong>  In summer, temperatures can exceed 40°C (104°F). Routine maintenance ensures Rheem air conditioner systems operate efficiently under these conditions.</li>
+                  <li> <strong> Energy Efficiency: </strong> A well-maintained Rheem AC unit operates more efficiently, saving energy and lowering electricity bills.</li>
+                  <li> <strong> Longevity of Equipment: </strong> Regular maintenance of your Rheem air conditioner can extend its lifespan, decrease the need for expensive repairs and replacements, and ultimately save you money.
+                  </li>
+                  <li> <strong> Improved Air Quality: </strong>  Regular Rheem <a href="https://www.fajservices.ae/ac-maintenance-dubai/"> AC maintenance </a>of units prevents dust and allergens from accumulating, ensuring cleaner air.</li>
+                  <li> <strong> Enhanced Comfort: </strong> Regular Rheem air conditioner maintenance in Dubai ensures daily comfort, efficiency, and consistent cooling.</li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        {/* Problems  */}
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="text-center">Common Rheem AC Problems That May Require Maintenance</h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -244,129 +275,7 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
               </div>
             </div>
           </div>
-        </section>
-
-        {/* Why*/}
-        <section className="section cs_py_30 bg-light-gray">
-          <div className="container">
-
-            <h3 className="cs_fs_30">Why is Rheem AC Maintenance Service Important in Dubai?</h3>
-            <p className="">
-              Regular maintenance of Rheem air conditioners in Dubai is vital for optimal performance. FAJ provides services to keep your system running efficiently. Trust us to ensure your Rheem AC performs at its best.
-              For nearby maintenance, please contact us.
-            </p>
-
-            <div className="row align-items-center">
-              <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/ac amc.avif`} alt="daikin Airconditioner Repair" />
-              </div>
-              <div className="col-md-6">
-                <ul className="mb-0">
-
-                  <li> <strong> Extreme Weather: </strong>  In summer, temperatures can exceed 40°C (104°F). Routine maintenance ensures Rheem air conditioner systems operate efficiently under these conditions.</li>
-                  <li> <strong> Energy Efficiency: </strong> A well-maintained Rheem AC unit operates more efficiently, saving energy and lowering electricity bills.</li>
-                  <li> <strong> Longevity of Equipment: </strong> Regular maintenance of your Rheem air conditioner can extend its lifespan, decrease the need for expensive repairs and replacements, and ultimately save you money.
-                  </li>
-                  <li> <strong> Improved Air Quality: </strong>  Regular Rheem <a href="https://www.fajservices.ae/ac-maintenance-dubai/"> AC maintenance </a>of units prevents dust and allergens from accumulating, ensuring cleaner air.</li>
-                  <li> <strong> Enhanced Comfort: </strong> Regular Rheem air conditioner maintenance in Dubai ensures daily comfort, efficiency, and consistent cooling.</li>
-
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/*  Benefits */}
-        <section className="section cs_py_30 appliances-benifit-sec">
-          <div className="container">
-            <div className="row justify-content-center">
-              <h3 className="cs_fs_30 mb-0"> Benefits Of Regular Rheem AC Service and Maintenance in Dubai </h3>
-              <div className="row gx-3 gy-5 mt-0">
-                <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/cooling1.jpg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">COOLING EFFICIENCY</h4>
-                      <p className="small">We conduct a thorough evaluation of cooling efficiency using a temperature gun.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">DISINFECT COMPONENTS    </h4>
-                      <p className="small">
-                        All hardware components have been tested and disinfected, including the filters and vents.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/fan.jpg`} alt="FAN ASSESSMENT" className="icon-img-block-icon" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">FAN ASSESSMENT</h4>
-                      <p className="small">
-                        We make sure that the fan operates properly and that there are no blockages in the evaporator coil.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/thermo.jpg`} alt="THERMOSTAT CHECK" className="icon-img-block-icon" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">THERMOSTAT CHECK</h4>
-                      <p className="small">
-                        We use a laser temperature gauge to verify that the thermostats are operating correctly.
-                      </p>
-                    </div>
-
-                  </div>
-                </div>
-                <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">AIRFLOW BALANCE</h4>
-                      <p className="small">
-
-                        We make sure that each room receives the optimal airflow it needs.
-
-                      </p>
-
-                    </div>
-
-                  </div>
-                </div>
-
-                <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">CUSTOMER FEEDBACK  </h4>
-                      <p className="small">Our team provides vital feedback on your Rheem AC's health and any needed repairs.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        </section>       
 
         {/* HERE  */}
         <section className="section cs_py_30 bg-light-gray">
@@ -402,6 +311,94 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
           </div>
         </section >
 
+         {/*  Benefits */}
+        <section className="section cs_py_30" style={{ backgroundColor: "#00334E", color: "white" }}>
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-10 text-center">
+                <h3 className="cs_fs_30 text-light">Benefits Of Regular Rheem AC Service and Maintenance in Dubai </h3>
+
+                <div className="row mt-4 gx-4 gy-4">
+                  <div className="col-md-4 mb-2">
+                    <div className="d-flex flex-column align-items-center px-2">
+                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
+                        <img src={`${import.meta.env.BASE_URL}img/icons/cooling1.jpg`} alt="Cooling Efficiency" className="img-fluid rounded-circle border border-4 border-info" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 fs-6 text-white">COOLING EFFICIENCY</h4>
+                      <p className="small">
+                        We conduct a thorough evaluation of cooling efficiency using a temperature gun.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="col-md-4 mb-2">
+                    <div className="d-flex flex-column align-items-center px-2">
+                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
+                        <img src={`${import.meta.env.BASE_URL}img/icons/disinfection.jpg`} alt="Disinfect Components" className="img-fluid rounded-circle border border-4 border-warning" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 fs-6 text-white">DISINFECT COMPONENTS</h4>
+                      <p className="small">
+                        All hardware components have been tested and disinfected, including the filters and vents.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="col-md-4 mb-2">
+                    <div className="d-flex flex-column align-items-center px-2">
+                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
+                        <img src={`${import.meta.env.BASE_URL}img/icons/fan.jpg`} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 fs-6 text-white">FAN ASSESSMENT</h4>
+                      <p className="small">
+                        We make sure that the fan operates properly and that there are no blockages in the evaporator coil.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="col-md-4 mb-2">
+                    <div className="d-flex flex-column align-items-center px-2">
+                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
+                        <img src={`${import.meta.env.BASE_URL}img/icons/thermo.jpg`} alt="Thermostat Check" className="img-fluid rounded-circle border border-4 border-primary" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 fs-6 text-white">THERMOSTAT CHECK</h4>
+                      <p className="small">
+                        We use a laser temperature gauge to verify that the thermostats are operating correctly.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="col-md-4 mb-2">
+                    <div className="d-flex flex-column align-items-center px-2">
+                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
+                        <img src={`${import.meta.env.BASE_URL}img/icons/airflow.jpg`} alt="Airflow Balance" className="img-fluid rounded-circle border border-4 border-danger" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 fs-6 text-white">AIRFLOW BALANCE</h4>
+                      <p className="small">
+                        We make sure that each room receives the optimal airflow it needs.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="col-md-4 mb-2">
+                    <div className="d-flex flex-column align-items-center px-2">
+                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
+                        <img src={`${import.meta.env.BASE_URL}img/icons/customer.jpg`} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h4>
+                      <p className="small">
+                        Our team provides vital feedback on your Rheem AC's health and any needed repairs.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="text-center mb-4">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
           <div className="container container-md container-sm">
@@ -427,7 +424,7 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you receive a full year of service, ensuring that your Daewoo appliance operates smoothly and providing peace of mind.</p>
+                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you receive a full year of service, ensuring that your  Rheem AC operates smoothly and providing peace of mind.</p>
                   </div>
                 </div>
 
@@ -457,7 +454,7 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are specialists in Daewoo appliance repair, which is why most major brands trust us to manage their service and maintenance needs.</p>
+                    <p>We are specialists in  Rheem AC repair, which is why most major brands trust us to manage their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -467,7 +464,7 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>The inspection fee covers diagnosis, transportation, and reinstallation for up to two Daewoo appliances at the same location in Dubai.</p>
+                    <p>The inspection fee covers diagnosis, transportation, and reinstallation for up to two  Rheem ACs at the same location in Dubai.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -476,7 +473,7 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our experienced Daewoo appliance technicians are well-trained, providing excellent service for various major Daewoo appliances.</p>
+                    <p>Our experienced  Rheem AC technicians are well-trained, providing excellent service for various major  Rheem ACs.</p>
                   </div>
                 </div>
               </div>

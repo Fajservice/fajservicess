@@ -1,0 +1,46 @@
+[
+    {
+        "title": "When should I do AC maintenance?",
+        "desc": "According to FAJ Engineer Malik Tayyeb, it’s generally recommended to have your Midea air conditioner serviced twice a year: once in the spring and once in the fall. This maintenance ensures that the unit is clean, that all parts are functioning properly, and that the system operates at its best efficiency."
+    },
+    {
+        "title": "How many times does Midea AC needs to be serviced?",
+        "desc": "It is generally recommended to service your air conditioning unit at least twice a year, particularly at the start of summer. This ensures that your Midea AC will operate efficiently when you need it the most. Air conditioners are made up of several complex electronic components that require regular maintenance to function at their best."
+    },
+    {
+        "title": "How do I reset my Midea AC error?",
+        "desc": "Press the TEST button. You will hear a click as the RESET button pops out. Next, press the RESET button."
+    },
+    {
+        "title": "Why is my Midea air conditioner blinking?",
+        "desc": "The blue blinking light on a Midea air conditioner typically indicates a problem with the temperature sensor. This could mean that the sensor is malfunctioning or that the room's temperature is not being accurately measured."
+    },
+    {
+        "title": "Why is my Midea AC showing EL and OC?",
+        "desc": "The \"EC\" or \"EL 0C\" code indicates an error caused by low refrigerant levels. This issue can occur in a new installation for several reasons. One common reason is that the valves on the outdoor unit are not fully open, which prevents the refrigerant from flowing from the outdoor unit into the system."
+    },
+    {
+        "title": "What is the Midea AC oC fault code?",
+        "desc": "An overcurrent (oC) fault occurs when the output current exceeds the overcurrent detection level, typically between 180% and 200% of the drive's rated current, depending on the model. Possible causes for this fault include: the load being too heavy."
+    },
+    {
+        "title": "Why is my Midea air conditioner not turning on?",
+        "desc": "Check to see if the cord is properly plugged in, as it may have a loose connection or be unplugged. Secure the plug and test whether your air conditioning unit functions correctly. If it still doesn’t work, inspect the breaker box for any tripped circuit breakers that may have occurred during the restart. If you find a tripped breaker, flip the switch back to restore power."
+    },
+    {
+        "title": "What is error EP in Midea Air Conditioning?",
+        "desc": "The EP indicates that there is a failure alarm for the discharge temperature sensor of the copper pipe."
+    },
+    {
+        "title": "How to fix Midea aircon?",
+        "desc": "Turn off the power to the aircon unit for a few minutes, then turn it back on. Check the air filters to see if they are dirty or clogged. Check the wiring and connections between the indoor and outdoor units. Inspect the temperature sensor(s) to see if they are functioning properly."
+    },
+    {
+        "title": "What does AC fault mean?",
+        "desc": "An AC fault occurs when there is a significant flow of alternating current from an electrical source under abnormal conditions. This current can be induced onto a structure even without a direct metallic connection, such as when pipelines run alongside power lines in a shared corridor."
+    },
+    {
+        "title": "What are error codes in AC?",
+        "desc": "Air Conditioner (AC) Error Code\nError Code Diagnosis\n3-0: Temporary stop due to dehumidifying operation\n5-0: Heat exchanger thermistor open circuit error\n5-1: Outdoor temperature thermistor open circuit error\n5-2: Suction thermistor open circuit error"
+    }
+]
