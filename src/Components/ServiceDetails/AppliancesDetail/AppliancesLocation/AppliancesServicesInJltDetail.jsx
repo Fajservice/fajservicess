@@ -17,15 +17,15 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages.jsx";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 
-const AppliancesServicesInFalconCityDubaiDetail = ({ subtitle, title, bgImg }) => {
+const AppliancesServicesInJltDetail = ({ subtitle, title, bgImg }) => {
 
 
   // For SEO
-  const titleSeo = "";
-  const description = "";
+  const titleSeo = "Appliances Services in JLT Jumeirah Lake Towers Near me";
+  const description = "Best appliance services in JLT Jumeirah Lake Towers. Experts in fridge repair near me in Dubai. Call 043300002 for washing machine & dishwasher fix";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://www.fajservices.ae";
+  const URL = "https://www.fajservices.ae/appliances-services-in-jlt/";
 
 
   subtitle = "Testimonial"
@@ -159,14 +159,17 @@ const AppliancesServicesInFalconCityDubaiDetail = ({ subtitle, title, bgImg }) =
               <div className="col-md-6">
                 <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai</h3>
                 <p className="mb-2">
-                  If you need appliance repair, FAJ is your best choice for fast and affordable service in Falcon City Dubai and Sharjah.
+                  If you need appliance repair, FAJ is your best choice for fast and affordable service in JLT Dubai and Sharjah.
                   <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
                   <br /> We're nearby and can get your appliances fixed quickly and efficiently.
                 </p>
 
-                <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service
-                </h3>
-                <p className="mb-2">At <a href="/">FAJ Technical Services LLC</a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
+                <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">EXPRESS & EMERGENCY Appliance REPAIR SERVICE</h3>
+                <p className="mb-2"><b>Terms & Conditions:</b>There is a callout fee that applies, ranging from AED 175 to 320 depending on appliance, for diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any repair/parts. Also, get repairs from us for your coffee machine, stand mixer, or robot vacuum.
+                </p>
+                <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
+                  <b>We provide 2-month service warranty</b><br />
+                  and <small>3-month parts warranty</small> as standard.</p>
               </div>
 
               <div className="col-md-6 ">
@@ -891,4 +894,4 @@ const AppliancesServicesInFalconCityDubaiDetail = ({ subtitle, title, bgImg }) =
   )
 }
 
-export default AppliancesServicesInFalconCityDubaiDetail
+export default AppliancesServicesInJltDetail

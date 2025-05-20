@@ -275,6 +275,13 @@ import AppliancesServiceInTownSquare from "../Pages/AppliancesPage/AppliancesLoc
 import AppliancesServiceInAlGhadeerCommunity from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServiceInAlGhadeerCommunity.jsx";
 import AppliancesServiceInLimestoneHouseDifc from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServiceInLimestoneHouseDifc.jsx";
 import AppliancesServiceInInternationalMediaAndProductionZone from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServiceInInternationalMediaAndProductionZone.jsx";
+import AppliancesServicesInJlt from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServicesInJlt.jsx";
+import AppliancesServicesInTheViews from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServicesInTheViews.jsx";
+import AppliancesServicesInAlSafa from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServicesInAlSafa.jsx";
+
+import AppliancesServicesInJumeirah from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServicesInJumeirah.jsx";
+import AppliancesServicesInDiscoveryGardens from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServicesInDiscoveryGardens.jsx";
+import AppliancesServicesInTheLakes from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServicesInTheLakes.jsx";
 import AppliancesServicesInJumeirahGolfEstates from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServicesInJumeirahGolfEstates.jsx";
 import HomeAppliancesServiceCentreInJltDubai from "../Pages/AppliancesPage/AppliancesLocation/HomeAppliancesServiceCentreInJltDubai.jsx";
 import AppliancesServicesInEmiratesHills from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServicesInEmiratesHills.jsx";
@@ -1468,9 +1475,34 @@ export const router = createBrowserRouter([
         element: <AppliancesServiceInInternationalMediaAndProductionZone />,
       },
       {
+        path: "/appliances-services-in-jlt/",
+        element: <AppliancesServicesInJlt />,
+      },
+      {
+        path: "/appliances-services-in-the-views/",
+        element: <AppliancesServicesInTheViews />,
+      },
+      {
+        path: "/appliances-services-in-al-safa/",
+        element: <AppliancesServicesInAlSafa />,
+      },
+      {
+        path: "/appliances-services-in-jumeirah/",
+        element: <AppliancesServicesInJumeirah />,
+      },
+      {
+        path: "/appliances-services-in-discovery-gardens/",
+        element: <AppliancesServicesInDiscoveryGardens />,
+      },
+      {
+        path: "/appliances-services-in-the-lakes/",
+        element: <AppliancesServicesInTheLakes />,
+      },
+
+      {
         path: "/appliances-services-in-jumeirah-golf-estates/",
         element: <AppliancesServicesInJumeirahGolfEstates />,
-      },  
+      },
       {
         path: "/home-appliances-installation-maintenance-repair-fix-service-centre-in-jlt-dubai/",
         element: < HomeAppliancesServiceCentreInJltDubai />,
@@ -1585,11 +1617,11 @@ export const router = createBrowserRouter([
       },
       {
         path: "/appliances-services-in-the-ritz-carlton-difc/",
-        element: <ApplianceServiceInTheRitzCarltonDifc/>,
+        element: <ApplianceServiceInTheRitzCarltonDifc />,
       },
       {
         path: "/appliances-services-in-oud-metha/",
-        element: <ApplianceServiceInOudMetha/>,
+        element: <ApplianceServiceInOudMetha />,
       },
       {
         path: "/appliances-services-in-umm-al-sheif/",
@@ -1625,7 +1657,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/appliances-services-in-bur-dubai/",
-        element: <ApplianceServiceInBurDubai/>,
+        element: <ApplianceServiceInBurDubai />,
       },
       {
         path: "/appliances-services-in-jumeirah-village-triangle/",
