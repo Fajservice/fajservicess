@@ -326,10 +326,10 @@ import ApplianceServiceInJvt from "../Pages/AppliancesPage/AppliancesLocation/Ap
 import ApplianceServiceInNadAlSheba from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInNadAlSheba.jsx";
 import ApplianceServiceInDubaiMarina from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInDubaiMarina.jsx";
 import ApplianceServiceInAlBarsha from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInAlBarsha.jsx";
-import ApplianceServiceInArabianRanchesDetail from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInArabianRanches.jsx";
 import ApplianceServiceInArabianRanches from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInArabianRanches.jsx";
 import ApplianceServiceInJumeirahVillageCircle from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInJumeirahVillageCircle.jsx";
 import ApplianceServiceInDubaiMotorCity from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInDubaiMotorCity.jsx";
+import ApplianceServiceInDubaiSiliconOasis from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInDubaiSiliconOasis";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -640,7 +640,6 @@ export const router = createBrowserRouter([
         path: "/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-oven-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa/",
         element: <IndesitWashingMachine />
       },
-
       {
         path: "/elica-appliances-service/",
         element: <ElicaAppliancesService />
@@ -717,7 +716,6 @@ export const router = createBrowserRouter([
         path: "/gibson-fridge-repair-in-dubai-gibson-washing-machine-repair-in-dubai-gibson-cooker-repair-in-dubai-gibson-oven-repair-in-dubai-gibson-appliances-maintenance-in-dubai-gibson-refrigerator-fix-repairs-se/",
         element: <GibsoneFridgeRepair />,
       },
-
       {
         path: "/project",
         element: <ProjectPage></ProjectPage>,
@@ -1469,8 +1467,6 @@ export const router = createBrowserRouter([
         path: "/appliances-services-in-international-media-and-production-zone/",
         element: <AppliancesServiceInInternationalMediaAndProductionZone />,
       },
-<<<<<<< HEAD
-
       {
         path: "/appliances-services-in-jumeirah-golf-estates/",
         element: <AppliancesServicesInJumeirahGolfEstates />,
@@ -1552,6 +1548,10 @@ export const router = createBrowserRouter([
         element: <AppliancesServicesInFalconCityDubai />,
       },
       {
+        path: "/appliances-services-in-arabian-ranches/",
+        element: <ApplianceServiceInArabianRanches />
+      },
+      {
         path: "/washing-machine-repair-in-al-quoz-refrigerator-repair-in-al-quoz-fridge-repair-in-al-quoz-dishwasher-oven-cooker-stove-appliance-maintenance-fix-service-in-al-quoz-dubai/",
         element: <WashingMachineRepairInAlQuoz />,
       },
@@ -1582,8 +1582,7 @@ export const router = createBrowserRouter([
       {
         path: "/fridge-repair-dubai-marina/",
         element: <FridgeRepairDubaiMarina />,
-      }
-=======
+      },
       {
         path: "/appliances-services-in-the-ritz-carlton-difc/",
         element: <ApplianceServiceInTheRitzCarltonDifc/>,
@@ -1680,7 +1679,6 @@ export const router = createBrowserRouter([
         path: "/appliances-services-in-dubai-motor-city/",
         element: <ApplianceServiceInDubaiMotorCity />,
       },
->>>>>>> 4e3266f27e47ab11c1aafc2328ba7e3a3405473f
     ],
   }
 ], {
