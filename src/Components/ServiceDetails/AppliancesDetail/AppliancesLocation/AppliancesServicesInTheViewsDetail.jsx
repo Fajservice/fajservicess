@@ -17,15 +17,15 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages.jsx";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 
-const AppliancesServicesInFalconCityDubaiDetail = ({ subtitle, title, bgImg }) => {
+const AppliancesServicesInTheViewsDetail = ({ subtitle, title, bgImg }) => {
 
 
   // For SEO
-  const titleSeo = "";
-  const description = "";
+  const titleSeo = "Appliances Services in The Views - Washing Machine Repair";
+  const description = "We offer best appliance services in The Views. Get washing machine repair near me in Dubai. Book 043300002 for fridge, oven, dishwasher maintenance";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://www.fajservices.ae";
+  const URL = "https://www.fajservices.ae/appliances-services-in-the-views/";
 
 
   subtitle = "Testimonial"
@@ -159,7 +159,7 @@ const AppliancesServicesInFalconCityDubaiDetail = ({ subtitle, title, bgImg }) =
               <div className="col-md-6">
                 <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai</h3>
                 <p className="mb-2">
-                  If you need appliance repair, FAJ is your best choice for fast and affordable service in Falcon City Dubai and Sharjah.
+                  If you need appliance repair, FAJ is your best choice for fast and affordable service in The Views Dubai and Sharjah.
                   <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
                   <br /> We're nearby and can get your appliances fixed quickly and efficiently.
                 </p>
@@ -894,4 +894,4 @@ const AppliancesServicesInFalconCityDubaiDetail = ({ subtitle, title, bgImg }) =
   )
 }
 
-export default AppliancesServicesInFalconCityDubaiDetail
+export default AppliancesServicesInTheViewsDetail
