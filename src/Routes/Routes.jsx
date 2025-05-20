@@ -275,6 +275,7 @@ import AppliancesServiceInTownSquare from "../Pages/AppliancesPage/AppliancesLoc
 import AppliancesServiceInAlGhadeerCommunity from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServiceInAlGhadeerCommunity.jsx";
 import AppliancesServiceInLimestoneHouseDifc from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServiceInLimestoneHouseDifc.jsx";
 import AppliancesServiceInInternationalMediaAndProductionZone from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServiceInInternationalMediaAndProductionZone.jsx";
+import AppliancesServiceInBusinessBay from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServiceInBusinessBay.jsx";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -1396,7 +1397,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/appliances-services-in-business-bay/",
-        element: <AppliancesServiceInTownSquare/>,
+        element: <AppliancesServiceInBusinessBay/>,
       },
       {
         path: "/appliances-services-in-al-ghadeer-community/",
