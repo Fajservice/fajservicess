@@ -1,0 +1,15 @@
+import AppliancesServicesInRemraamDetail from "../../../Components/ServiceDetails/AppliancesDetail/AppliancesLocation/AppliancesServicesInRemraamDetail";
+import BreadCumb from "../../../Components/Common/BreadCumb";
+const AppliancesServicesInRemraam = () => {
+  return (
+     <div className="serviceDetails">
+            <BreadCumb
+                bgImg="img/banners/small-home.avif"
+                Title="Appliances Services In Remraam">
+            </BreadCumb>
+            <AppliancesServicesInRemraamDetail />
+    </div>
+  )
+}
+
+export default AppliancesServicesInRemraam
