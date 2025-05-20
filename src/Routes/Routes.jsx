@@ -336,7 +336,39 @@ import ApplianceServiceInAlBarsha from "../Pages/AppliancesPage/AppliancesLocati
 import ApplianceServiceInArabianRanches from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInArabianRanches.jsx";
 import ApplianceServiceInJumeirahVillageCircle from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInJumeirahVillageCircle.jsx";
 import ApplianceServiceInDubaiMotorCity from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInDubaiMotorCity.jsx";
-import ApplianceServiceInDubaiSiliconOasis from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInDubaiSiliconOasis";
+import ApplianceServiceInAlWasl from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInAlWasl.jsx";
+import ApplianceServiceInJebelAliDip from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInJebelAliDip.jsx";
+import ApplianceServiceInAcademyCity from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInAcademyCity.jsx";
+import ApplianceServiceInDubailandTheVilla from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInDubailandTheVilla.jsx";
+import ApplianceServiceInJvc from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInJvc.jsx";
+import ApplianceServiceInDeira from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInDeira.jsx";
+import ApplianceServiceInJumeirahBeachResidence from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInJumeirahBeachResidence.jsx";
+import ApplianceServiceInJge from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInJge.jsx";
+import ApplianceServiceInHudaiba from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInHudaiba.jsx";
+import ApplianceServiceInJebelAliFreeZone from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInJebelAliFreeZone.jsx";
+import ApplianceServiceInDubaiSportCity from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInDubaiSportCity.jsx";
+import ApplianceServiceInDubaiInternetCity from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInDubaiInternetCity.jsx";
+import ApplianceServiceInJbrDubai from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInJbrDubai.jsx";
+import ApplianceServiceInMudon from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInMudon.jsx";
+import ApplianceServiceInJebelAli from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInJebelAli.jsx";
+import ApplianceServiceInDip from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInDip.jsx";
+import ApplianceServiceInIndexTowerDifc from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInIndexTowerDifc.jsx";
+import ApplianceServiceInImpzy from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInImpzy.jsx";
+import ApplianceServiceInJbr from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInJbr.jsx";
+import ApplianceServiceInFlamingoVillasDubai from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInFlamingoVillasDubai.jsx";
+import ApplianceServiceInCedreVillasSiliconOasisDubai from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInCedreVillasSiliconOasisDubai.jsx";
+import ApplianceServiceInAlKaram from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInAlKaram.jsx";
+import ApplianceServiceInTheGreens from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInTheGreens.jsx";
+import ApplianceServiceInArabianRanches2 from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInArabianRanches2.jsx";
+import ApplianceServiceInJumeirahLakeTowers from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInJumeirahLakeTowers.jsx";
+import ApplianceServiceInDubaiMediaCity from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInDubaiMediaCity.jsx";
+import ApplianceServiceInMeadows from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInMeadows.jsx";
+import ApplianceServiceInDubaiStudioCity from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInDubaiStudioCity.jsx";
+import AppliancesServicesInAlSufouh from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServicesInAlSufouh.jsx";
+import AppliancesServicesInAlBada from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServicesInAlBada.jsx";
+import ApplianceServiceInDubaiSiliconOasis from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInDubaiSiliconOasis.jsx";
+import ApplianceServiceInLayanComminity from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInLayanComminity.jsx";
+import ApplianceServiceInDubailandMazayaQueuePoint from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInDubailandMazayaQueuePoint.jsx";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -1710,6 +1742,138 @@ export const router = createBrowserRouter([
       {
         path: "/appliances-services-in-dubai-motor-city/",
         element: <ApplianceServiceInDubaiMotorCity />,
+      },
+      {
+        path: "/appliances-services-in-al-wasl/",
+        element: <ApplianceServiceInAlWasl />,
+      },
+      {
+        path: "/appliances-services-in-jebel-ali-dip/",
+        element: <ApplianceServiceInJebelAliDip />,
+      },
+      {
+        path: "/appliances-services-in-academy-city/",
+        element: <ApplianceServiceInAcademyCity />,
+      },
+      {
+        path: "/appliances-services-in-dubailand-the-villa/",
+        element: <ApplianceServiceInDubailandTheVilla/>,
+      },
+      {
+        path: "/ApplianceServiceInLayanComminity/",
+        element: <ApplianceServiceInLayanComminity/>,
+      },
+      {
+        path: "/appliances-services-in-layan-community/",
+        element: <ApplianceServiceInLayanComminity/>,
+      },
+      {
+        path: "/appliances-services-in-jvc/",
+        element: <ApplianceServiceInJvc/>,
+      },
+      {
+        path: "/appliances-services-in-deira/",
+        element: <ApplianceServiceInDeira />,
+      },
+      {
+        path: "/appliances-services-in-jumeirah-beach-residence/",
+        element: <ApplianceServiceInJumeirahBeachResidence />,
+      },
+      {
+        path: "/appliances-services-in-jge/",
+        element: <ApplianceServiceInJge />,
+      },
+      {
+        path: "/appliances-services-in-hudaiba/",
+        element: <ApplianceServiceInHudaiba />,
+      },
+      {
+        path: "/appliances-services-in-jebel-ali-free-zone/",
+        element: <ApplianceServiceInJebelAliFreeZone />,
+      },
+      {
+        path: "/appliances-services-in-dubai-sports-city/",
+        element: <ApplianceServiceInDubaiSportCity />,
+      },
+      {
+        path: "/appliances-services-in-dubai-internet-city/",
+        element: <ApplianceServiceInDubaiInternetCity />,
+      },
+      {
+        path: "/appliances-washing-machine-fridge-dishwasher-service-jbr-dubai/",
+        element: <ApplianceServiceInJbrDubai/>,
+      },
+      {
+        path: "/appliances-services-in-mudon/",
+        element: <ApplianceServiceInMudon />,
+      },
+      {
+        path: "/appliances-services-in-jebel-ali/",
+        element: <ApplianceServiceInJebelAli />,
+      },
+      {
+        path: "/appliances-services-in-dip/",
+        element: <ApplianceServiceInDip />,
+      },
+      {
+        path: "/appliances-services-in-index-tower-difc/",
+        element: <ApplianceServiceInIndexTowerDifc />,
+      },
+      {
+        path: "/appliances-services-in-impzy/",
+        element: <ApplianceServiceInImpzy />,
+      },
+      {
+        path: "/appliances-services-in-jbr/",
+        element: <ApplianceServiceInJbr />,
+      },
+      {
+        path: "/appliances-services-in-dubailand-mazaya-queue-point/",
+        element: <ApplianceServiceInDubailandMazayaQueuePoint />,
+      },
+      {
+        path: "/appliances-services-in-flamingo-villas-dubai/",
+        element: <ApplianceServiceInFlamingoVillasDubai />,
+      },
+      {
+        path: "/appliances-services-in-cedre-villas-silicon-oasis-dubai/",
+        element: <ApplianceServiceInCedreVillasSiliconOasisDubai />,
+      },
+      {
+        path: "/appliances-services-in-al-karama/",
+        element: <ApplianceServiceInAlKaram />,
+      },
+      {
+        path: "/appliances-services-in-the-greens/",
+        element: <ApplianceServiceInTheGreens />,
+      },
+      {
+        path: "/appliances-services-in-arabian-ranches-2/",
+        element: <ApplianceServiceInArabianRanches2 />,
+      },
+      {
+        path: "/appliances-services-in-jumeirah-lake-towers/",
+        element: <ApplianceServiceInJumeirahLakeTowers />,
+      },
+      {
+        path: "/appliances-services-in-dubai-media-city/",
+        element: <ApplianceServiceInDubaiMediaCity />,
+      },
+      {
+        path: "/appliances-services-in-the-meadows/",
+        element: <ApplianceServiceInMeadows />,
+      },
+      {
+        path: "/appliances-services-in-dubai-studio-city/",
+        element: <ApplianceServiceInDubaiStudioCity />,
+      },
+      {
+        path: "/appliances-services-in-al-sufouh/",
+        element: <AppliancesServicesInAlSufouh />,
+      },
+      {
+        path: "/appliances-services-in-al-bada/",
+        element: <AppliancesServicesInAlBada />,
       },
     ],
   }
