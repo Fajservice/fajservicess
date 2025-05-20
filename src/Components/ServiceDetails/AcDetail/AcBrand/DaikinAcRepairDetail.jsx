@@ -17,9 +17,9 @@ import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppoin
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 
 const DaikinAcRepair = ({ subtitle, title, bgImg }) => {
-  subtitle="Testimonial"
-  title="What our clients say <br> About Us"
-  bgImg="img/testimonialbg.jpg"
+  subtitle = "Testimonial"
+  title = "What our clients say <br> About Us"
+  bgImg = "img/testimonialbg.jpg"
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -72,9 +72,9 @@ const DaikinAcRepair = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-      <title>Daikin Ac Repair in Dubai -  Air Conditioner Maintenance</title>
-      <meta name="description" content="Relax with Daikin AC. Call 0507464712 for Daikin Ac Repair in Dubai We are experts in HVAC, Central Air Conditioner maintenance service near me"/>
-      </HelmetProvider>     
+        <title>Daikin Ac Repair in Dubai -  Air Conditioner Maintenance</title>
+        <meta name="description" content="Relax with Daikin AC. Call 0507464712 for Daikin Ac Repair in Dubai We are experts in HVAC, Central Air Conditioner maintenance service near me" />
+      </HelmetProvider>
 
       <div className="cs_service_details">
         {/* intro */}
@@ -82,8 +82,8 @@ const DaikinAcRepair = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <h2 className="cs_fs_30">Professional Daikin AC Repair and Maintenance Services in Dubai</h2>
             <p><a href="https://www.fajservices.ae/"> F A J Technical Services L.L.C</a> has been serving the community since 2010. Our dedicated facilities team has extensive experience in the Daikin Air Conditioner repair, maintenance, and installation for both residential and commercial properties in Dubai and Sharjah.
-            <br />
-             A Daikin air conditioner is essential for maintaining year-round indoor comfort. To ensure optimal performance, regular Daikin AC maintenance service is required in Dubai with professional Daikin AC cleaning services available to help keep your air conditioning running efficiently.
+              <br />
+              A Daikin air conditioner is essential for maintaining year-round indoor comfort. To ensure optimal performance, regular Daikin AC maintenance service is required in Dubai with professional Daikin AC cleaning services available to help keep your air conditioning running efficiently.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -98,7 +98,7 @@ const DaikinAcRepair = ({ subtitle, title, bgImg }) => {
         {/* Maintenance Contract */}
         <MaintenanceContract />
 
-        {/* Best Home Appliance Service Center */}
+        {/* col 2 */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
@@ -110,9 +110,9 @@ const DaikinAcRepair = ({ subtitle, title, bgImg }) => {
                   <br />
 
                   We are the experts in Daikin <a href="/ac-repair-dubai/">AC repair</a>, service, and maintenance across Dubai and Sharjah.
-Count the FAJ team to deliver exceptional service and ensure your comfort throughout the year.
+                  Count the FAJ team to deliver exceptional service and ensure your comfort throughout the year.
 
-</p>
+                </p>
 
 
                 <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
@@ -128,12 +128,42 @@ Count the FAJ team to deliver exceptional service and ensure your comfort throug
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/daikin-ac-repair.avif`} alt="Daikin AC Service" />
               </div>
             </div>
-            <AppliancesAppointmentCol/>
+            <AppliancesAppointmentCol />
           </div>
         </section>
 
-        {/* Problems  */}
-        <section className="section cs_py_30">
+        {/* Why*/}
+        <section className="section cs_py_30 ">
+          <div className="container">
+
+            <h3 className="cs_fs_30">Why is Daikin AC Maintenance Service Important in Dubai?</h3>
+            <p className="">
+              To keep your Daikin air conditioner running efficiently in Dubai, regular <a href="https://www.fajservices.ae/ac-maintenance-dubai/"> AC maintenance </a>is key. At FAJ, our experienced team is here to ensure your comfort.
+              <br />For convenient AC maintenance in your area, contact us!
+
+            </p>
+
+            <div className="row align-items-center">
+              <div className="col-md-6">
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/ac amc.avif`} alt="daikin Airconditioner Repair" />
+              </div>
+              <div className="col-md-6">
+                <ul className="mb-0">
+
+                  <li> <strong> Extreme Weather: </strong>  During summer, temperatures can reach over 40°C (104°F). Regular maintenance ensures that Daikin air conditioning systems operate efficiently in these conditions.</li>
+                  <li> <strong> Energy Efficiency: </strong>  A well-maintained Daikin air conditioning unit operates more efficiently, helping to save energy and reduce electricity bills.</li>
+                  <li> <strong> Longevity of Equipment: </strong> Regular maintenance for your Daikin air conditioner service can extend its lifespan, reduce the need for costly repairs and replacements, and ultimately save you money. </li>
+                  <li> <strong> Improved Air Quality: </strong> Regular of Daikin AC maintenance services units prevents dust and allergens, ensuring cleaner air.</li>
+                  <li> <strong> Enhanced Comfort: </strong> Regular of Daikin air conditioning maintenance in Dubai is essential for ensuring daily comfort, efficiency, and consistent cooling.</li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+         {/* Problems  */}
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="text-center">Common Daikin AC Problems That May Require Maintenance</h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -234,7 +264,7 @@ Count the FAJ team to deliver exceptional service and ensure your comfort throug
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                     High energy bills without an increase in usage may indicate inefficiency in the Daikin AC due to dirty filters, duct leaks, or other issues.
+                      High energy bills without an increase in usage may indicate inefficiency in the Daikin AC due to dirty filters, duct leaks, or other issues.
                     </p>
                   </div>
                 </div>
@@ -249,132 +279,8 @@ Count the FAJ team to deliver exceptional service and ensure your comfort throug
           </div>
         </section>
 
-        {/* Why*/}
-        <section className="section cs_py_30 bg-light-gray">
-          <div className="container">
-
-            <h3 className="cs_fs_30">Why is Daikin AC Maintenance Service Important in Dubai?</h3>
-            <p className="">
-              To keep your Daikin air conditioner running efficiently in Dubai, regular <a href="https://www.fajservices.ae/ac-maintenance-dubai/"> AC maintenance </a>is key. At FAJ, our experienced team is here to ensure your comfort.
-<br />For convenient AC maintenance in your area, contact us!
-
-            </p>
-
-            <div className="row align-items-center">
-              <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/ac amc.avif`} alt="daikin Airconditioner Repair" />
-              </div>
-              <div className="col-md-6">
-                <ul className="mb-0">
-
-                  <li> <strong> Extreme Weather: </strong>  During summer, temperatures can reach over 40°C (104°F). Regular maintenance ensures that Daikin air conditioning systems operate efficiently in these conditions.</li>
-                  <li> <strong> Energy Efficiency: </strong>  A well-maintained Daikin air conditioning unit operates more efficiently, helping to save energy and reduce electricity bills.</li>
-                  <li> <strong> Longevity of Equipment: </strong> Regular maintenance for your Daikin air conditioner service can extend its lifespan, reduce the need for costly repairs and replacements, and ultimately save you money. </li>
-                  <li> <strong> Improved Air Quality: </strong> Regular of Daikin AC maintenance services units prevents dust and allergens, ensuring cleaner air.</li>
-                  <li> <strong> Enhanced Comfort: </strong> Regular of Daikin air conditioning maintenance in Dubai is essential for ensuring daily comfort, efficiency, and consistent cooling.</li>
-
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/*  Benefits */}
-        <section className="section cs_py_30 appliances-benifit-sec">
-          <div className="container">
-            <div className="row justify-content-center">
-              <h3 className="cs_fs_30 mb-0"> Benefits Of Regular Daikin AC Service and Maintenance in Dubai </h3>
-              <div className="row gx-3 gy-5 mt-0">
-                <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/cooling1.jpg`} alt="Cooling Efficiency" className="icon-img-block-icon" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">COOLING EFFICIENCY</h4>
-                      <p className="small">
-                        We conduct a thorough evaluation of cooling efficiency using a temperature gun.
-                        </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">DISINFECT COMPONENTS    </h4>
-                      <p className="small">
-                        All hardware components have been tested and disinfected, including the filters and vents.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/fan.jpg`} alt="FAN ASSESSMENT" className="icon-img-block-icon" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">FAN ASSESSMENT</h4>
-                      <p className="small">
-                        We make sure that the fan operates properly and that there are no blockages in the evaporator coil.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/thermo.jpg`} alt="THERMOSTAT CHECK" className="icon-img-block-icon" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">THERMOSTAT CHECK</h4>
-                      <p className="small">
-                        We use a laser temperature gauge to verify that the thermostats are operating correctly.
-                      </p>
-                    </div>
-
-                  </div>
-                </div>
-                <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">AIRFLOW BALANCE</h4>
-                      <p className="small">
-                        We make sure that each room receives the optimal airflow it needs.
-                      </p>
-
-                    </div>
-
-                  </div>
-                </div>
-
-                <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">CUSTOMER FEEDBACK  </h4>
-                      <p className="small">
-                        Our team provides vital feedback on your Daikin AC's health and any needed repairs.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* HERE  */}
-        <section className="section cs_py_30 bg-light-gray">
+         {/* HERE  */}
+        <section className="section cs_py_30 ">
           <div className="container">
             <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR DAIKIN AIR CONDITIONER SYSTEMS</h3>
 
@@ -383,10 +289,10 @@ Count the FAJ team to deliver exceptional service and ensure your comfort throug
                 <p className='mb-0'>We specialize in various types and brands of HVAC systems, including Fresh Air Handling Units (FAHU).</p>
                 <p className='mb-0'><strong>Our services include:</strong></p>
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-<li> <strong> Daikin AC Installation: </strong> Professional installation of various Daikin air conditioning systems to guarantee optimal performance. </li>
-<li> <strong> Daikin AC Diagnostics: </strong> Comprehensive fault diagnosis to accurately identify issues. We offer eligibility assessments and detailed quotes to address any concerns regarding your system. </li>
-<li> <strong> Daikin AC Repair Service: </strong> We provide prompt and effective repair services for all Daikin AC components, addressing issues such as leaks, electrical failures, and system malfunctions. Contact us for specific services or any questions you may have! </li>
-<li> <strong> Daikin AC Annual Maintenance Contract: </strong> This contract details the terms and services for Daikin <a href="https://www.fajservices.ae/ac-annual-maintenance-contract/">AC annual maintenance</a>. Regular maintenance of Daikin AC systems (AMC / PPM) is essential for ensuring optimal performance, efficiency, and longevity. </li>
+                  <li> <strong> Daikin AC Installation: </strong> Professional installation of various Daikin air conditioning systems to guarantee optimal performance. </li>
+                  <li> <strong> Daikin AC Diagnostics: </strong> Comprehensive fault diagnosis to accurately identify issues. We offer eligibility assessments and detailed quotes to address any concerns regarding your system. </li>
+                  <li> <strong> Daikin AC Repair Service: </strong> We provide prompt and effective repair services for all Daikin AC components, addressing issues such as leaks, electrical failures, and system malfunctions. Contact us for specific services or any questions you may have! </li>
+                  <li> <strong> Daikin AC Annual Maintenance Contract: </strong> This contract details the terms and services for Daikin <a href="https://www.fajservices.ae/ac-annual-maintenance-contract/">AC annual maintenance</a>. Regular maintenance of Daikin AC systems (AMC / PPM) is essential for ensuring optimal performance, efficiency, and longevity. </li>
 
 
                 </ul>
@@ -406,6 +312,94 @@ Count the FAJ team to deliver exceptional service and ensure your comfort throug
             </div>
           </div>
         </section >
+
+        {/*  Benefits */}
+        <section className="section cs_py_30" style={{ backgroundColor: "#00334E", color: "white" }}>
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-10 text-center">
+                <h3 className="cs_fs_30 text-light">Benefits Of Regular Midea AC Service and Maintenance in Dubai </h3>
+
+                <div className="row mt-4 gx-4 gy-4">
+                  <div className="col-md-4 mb-2">
+                    <div className="d-flex flex-column align-items-center px-2">
+                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
+                        <img src={`${import.meta.env.BASE_URL}img/icons/cooling1.jpg`} alt="Cooling Efficiency" className="img-fluid rounded-circle border border-4 border-info" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 fs-6 text-white">COOLING EFFICIENCY</h4>
+                      <p className="small">
+                        We conduct a thorough evaluation of cooling efficiency using a temperature gun.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="col-md-4 mb-2">
+                    <div className="d-flex flex-column align-items-center px-2">
+                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
+                        <img src={`${import.meta.env.BASE_URL}img/icons/disinfection.jpg`} alt="Disinfect Components" className="img-fluid rounded-circle border border-4 border-warning" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 fs-6 text-white">DISINFECT COMPONENTS</h4>
+                      <p className="small">
+                        All hardware components have been tested and disinfected, including the filters and vents.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="col-md-4 mb-2">
+                    <div className="d-flex flex-column align-items-center px-2">
+                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
+                        <img src={`${import.meta.env.BASE_URL}img/icons/fan.jpg`} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 fs-6 text-white">FAN ASSESSMENT</h4>
+                      <p className="small">
+                        We make sure that the fan operates properly and that there are no blockages in the evaporator coil.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="col-md-4 mb-2">
+                    <div className="d-flex flex-column align-items-center px-2">
+                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
+                        <img src={`${import.meta.env.BASE_URL}img/icons/thermo.jpg`} alt="Thermostat Check" className="img-fluid rounded-circle border border-4 border-primary" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 fs-6 text-white">THERMOSTAT CHECK</h4>
+                      <p className="small">
+                        We use a laser temperature gauge to verify that the thermostats are operating correctly.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="col-md-4 mb-2">
+                    <div className="d-flex flex-column align-items-center px-2">
+                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
+                        <img src={`${import.meta.env.BASE_URL}img/icons/airflow.jpg`} alt="Airflow Balance" className="img-fluid rounded-circle border border-4 border-danger" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 fs-6 text-white">AIRFLOW BALANCE</h4>
+                      <p className="small">
+                        We make sure that each room receives the optimal airflow it needs.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="col-md-4 mb-2">
+                    <div className="d-flex flex-column align-items-center px-2">
+                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
+                        <img src={`${import.meta.env.BASE_URL}img/icons/customer.jpg`} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h4>
+                      <p className="small">
+                        Our team provides vital feedback on your Daikin AC's health and any needed repairs.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="text-center mb-4">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>       
 
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
@@ -432,7 +426,7 @@ Count the FAJ team to deliver exceptional service and ensure your comfort throug
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you receive a full year of service, ensuring that your Daewoo appliance operates smoothly and providing peace of mind.</p>
+                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you receive a full year of service, ensuring that your Daikin AC operates smoothly and providing peace of mind.</p>
                   </div>
                 </div>
 
@@ -462,7 +456,7 @@ Count the FAJ team to deliver exceptional service and ensure your comfort throug
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are specialists in Daewoo appliance repair, which is why most major brands trust us to manage their service and maintenance needs.</p>
+                    <p>We are specialists in Daikin AC repair, which is why most major brands trust us to manage their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -472,7 +466,7 @@ Count the FAJ team to deliver exceptional service and ensure your comfort throug
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>The inspection fee covers diagnosis, transportation, and reinstallation for up to two Daewoo appliances at the same location in Dubai.</p>
+                    <p>The inspection fee covers diagnosis, transportation, and reinstallation for up to two Daikin ACs at the same location in Dubai.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -481,7 +475,7 @@ Count the FAJ team to deliver exceptional service and ensure your comfort throug
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our experienced Daewoo appliance technicians are well-trained, providing excellent service for various major Daewoo appliances.</p>
+                    <p>Our experienced Daikin AC technicians are well-trained, providing excellent service for various major Daikin ACs.</p>
                   </div>
                 </div>
               </div>
@@ -500,16 +494,16 @@ Count the FAJ team to deliver exceptional service and ensure your comfort throug
             <h3>We specialise in Daikin air conditioning services for the following types</h3>
             <div className="row">
               <div className="col-12">
-      
-<p className="mb-0"> <strong> Daikin Split Air Conditioner Service: </strong> FAJ provides dependable Daikin AC repair and maintenance services in Dubai. Our team consists of professionals specializing in Daikin split systems, Daikin VRV, and Daikin central air conditioning units. </p>
-<p className="mb-0"> <strong> Daikin Central Air Conditioner Repair and Service: </strong> FAJ is a Dubai-based service provider specializing in Daikin AC repair services. The company focuses on Daikin air conditioning systems and offers a range of services, including repairs and regular maintenance. </p>
-<p className="mb-0"> <strong> Daikin AC Service and Repair: </strong> Daikin AC service offers peace of mind with skilled professionals. At FAJ, we prioritize efficiency and reliability in all our work. Our expert team ensures that your air conditioning system operates at its best, whether you require maintenance, repairs, or installation. Trust us with your HVAC needs—your comfort is our highest priority. </p>
-<p className="mb-0"> <strong> Daikin Inverter Air Conditioner Maintenance: </strong> Rely on our expert team to swiftly address any issues with your Daikin air conditioner and restore its full functionality. </p>
-<p className="mb-0"> <strong> Daikin HVAC Repair: </strong> We have extensive knowledge of Daikin air conditioning systems, providing reliable repairs to ensure your unit operates efficiently. </p>
-<p className="mb-0"> <strong> Daikin Ceiling AC Service and Repair: </strong> Our experts can accurately diagnose and fix any issues with your Daikin air conditioner. </p>
-<p className="mb-0"> <strong> Daikin VRV (Variable Refrigerant Volume) System Service and Repair: </strong> The Daikin VRV (Variable Refrigerant Volume) System repair and service ensures your peace of mind because you are in the right place. FAJ prioritizes efficiency and reliability. </p>
-<p className="mb-0"> <strong> Daikin Ducted Split AC Service and Repair: </strong> Daikin ducted split AC service in Dubai requires specialist assistance, as only experts can effectively address air conditioning issues. We provide hassle-free Daikin air conditioning repair services. </p>
-<p className="mb-0"> <strong> Daikin Wall-Mounted Air Conditioner Service and Repair: </strong> Beat the scorching heat with optimal Daikin AC cleaning service and fixing error in Dubai! Our professional Daikin AC services ensure your unit operates efficiently, providing comfort and peace of mind. </p>
+
+                <p className="mb-0"> <strong> Daikin Split Air Conditioner Service: </strong> FAJ provides dependable Daikin AC repair and maintenance services in Dubai. Our team consists of professionals specializing in Daikin split systems, Daikin VRV, and Daikin central air conditioning units. </p>
+                <p className="mb-0"> <strong> Daikin Central Air Conditioner Repair and Service: </strong> FAJ is a Dubai-based service provider specializing in Daikin AC repair services. The company focuses on Daikin air conditioning systems and offers a range of services, including repairs and regular maintenance. </p>
+                <p className="mb-0"> <strong> Daikin AC Service and Repair: </strong> Daikin AC service offers peace of mind with skilled professionals. At FAJ, we prioritize efficiency and reliability in all our work. Our expert team ensures that your air conditioning system operates at its best, whether you require maintenance, repairs, or installation. Trust us with your HVAC needs—your comfort is our highest priority. </p>
+                <p className="mb-0"> <strong> Daikin Inverter Air Conditioner Maintenance: </strong> Rely on our expert team to swiftly address any issues with your Daikin air conditioner and restore its full functionality. </p>
+                <p className="mb-0"> <strong> Daikin HVAC Repair: </strong> We have extensive knowledge of Daikin air conditioning systems, providing reliable repairs to ensure your unit operates efficiently. </p>
+                <p className="mb-0"> <strong> Daikin Ceiling AC Service and Repair: </strong> Our experts can accurately diagnose and fix any issues with your Daikin air conditioner. </p>
+                <p className="mb-0"> <strong> Daikin VRV (Variable Refrigerant Volume) System Service and Repair: </strong> The Daikin VRV (Variable Refrigerant Volume) System repair and service ensures your peace of mind because you are in the right place. FAJ prioritizes efficiency and reliability. </p>
+                <p className="mb-0"> <strong> Daikin Ducted Split AC Service and Repair: </strong> Daikin ducted split AC service in Dubai requires specialist assistance, as only experts can effectively address air conditioning issues. We provide hassle-free Daikin air conditioning repair services. </p>
+                <p className="mb-0"> <strong> Daikin Wall-Mounted Air Conditioner Service and Repair: </strong> Beat the scorching heat with optimal Daikin AC cleaning service and fixing error in Dubai! Our professional Daikin AC services ensure your unit operates efficiently, providing comfort and peace of mind. </p>
 
                 <p>
                   <a href="https://www.fajservices.ae/ac-repair-in-al-barsha-air-condition-maintenance-in-al-barsha-air-conditioning-fix-amc-service-in-al-barsha-dubai/">Al Barsha</a> &nbsp;|&nbsp;
@@ -642,6 +636,7 @@ Count the FAJ team to deliver exceptional service and ensure your comfort throug
           </div>
         </section>
 
+        {/* contact */}
         <section className="section cs_py_30">
           <Serviceappointemnt
             subtitle2="Contact us"
@@ -650,8 +645,8 @@ Count the FAJ team to deliver exceptional service and ensure your comfort throug
 
         </section>
 
-      </div >     
-      
+      </div >
+
     </>
   );
 };

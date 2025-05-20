@@ -6,8 +6,7 @@ const MideaAcRepair = () => {
         <div className="serviceDetails">
             <BreadCumb
                 bgImg="img/acbrands/midea-ac-bg.avif"
-                // bgImg="img/ac_service-bannerbg.avif"
-                Title="Midea AC Repair in Dubai - Air Conditioner Maintenance Near Me"
+                Title="Best Midea AC Repair in Dubai – AC Maintenance Service"
             ></BreadCumb> 
             <MideaAcRepairDetail></MideaAcRepairDetail>           
         </div>
