@@ -307,6 +307,29 @@ import FridgeRepairDubaiMarina from "../Pages/AppliancesPage/AppliancesLocation/
 
 import AppliancesServiceInBusinessBay from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServiceInBusinessBay.jsx";
 import AppliancesServiceInTheGardens from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServiceInTheGardens.jsx";
+import ApplianceServiceInTheRitzCarltonDifc from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInTheRitzCarltonDifc.jsx";
+import ApplianceServiceInOudMetha from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInOudMetha.jsx";
+import ApplianceServiceInUmmAlSheif from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInUmmAlSheif.jsx";
+import ApplianceServiceInUmmSuqeim from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInUmmSuqeim.jsx";
+import ApplianceServiceInJebelAliIndustrialArea from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInJebelAliIndustrialArea.jsx";
+import ApplianceServiceInJumeriahDubai from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInJumeriahDubai.jsx";
+import ApplianceServiceInJumeriahHeights from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInJumeriahHeights.jsx";
+import ApplianceServiceInTheVilla from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInTheVilla.jsx";
+import ApplianceServiceInBurDubai from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInBurDubai.jsx";
+import ApplianceServiceInAlWahaCommunity from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInAlWahaCommunity.jsx";
+import ApplianceServiceInJumeirahVillageTriangle from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInJumeirahVillageTriangle.jsx";
+import ApplianceServiceInMankhool from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInMankhool.jsx";
+import ApplianceServiceInTheSprings from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInTheSprings.jsx";
+import ApplianceServiceInAlManara from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInAlManara.jsx";
+import ApplianceServiceInAlbarari from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInAlbarari.jsx";
+import ApplianceServiceInJvt from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInJvt.jsx";
+import ApplianceServiceInNadAlSheba from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInNadAlSheba.jsx";
+import ApplianceServiceInDubaiMarina from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInDubaiMarina.jsx";
+import ApplianceServiceInAlBarsha from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInAlBarsha.jsx";
+import ApplianceServiceInArabianRanchesDetail from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInArabianRanches.jsx";
+import ApplianceServiceInArabianRanches from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInArabianRanches.jsx";
+import ApplianceServiceInJumeirahVillageCircle from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInJumeirahVillageCircle.jsx";
+import ApplianceServiceInDubaiMotorCity from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInDubaiMotorCity.jsx";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -1446,6 +1469,7 @@ export const router = createBrowserRouter([
         path: "/appliances-services-in-international-media-and-production-zone/",
         element: <AppliancesServiceInInternationalMediaAndProductionZone />,
       },
+<<<<<<< HEAD
 
       {
         path: "/appliances-services-in-jumeirah-golf-estates/",
@@ -1559,6 +1583,104 @@ export const router = createBrowserRouter([
         path: "/fridge-repair-dubai-marina/",
         element: <FridgeRepairDubaiMarina />,
       }
+=======
+      {
+        path: "/appliances-services-in-the-ritz-carlton-difc/",
+        element: <ApplianceServiceInTheRitzCarltonDifc/>,
+      },
+      {
+        path: "/appliances-services-in-oud-metha/",
+        element: <ApplianceServiceInOudMetha/>,
+      },
+      {
+        path: "/appliances-services-in-umm-al-sheif/",
+        element: <ApplianceServiceInUmmAlSheif />,
+      },
+      {
+        path: "/appliances-services-in-umm-suqeim/",
+        element: <ApplianceServiceInUmmSuqeim />,
+      },
+      {
+        path: "/appliances-services-in-jebel-ali-industrial-area/",
+        element: <ApplianceServiceInJebelAliIndustrialArea />,
+      },
+      {
+        path: "/home-appliances-installation-maintenance-repair-fix-service-centre-in-jumeirah-dubai/",
+        element: <ApplianceServiceInJumeriahDubai />,
+      },
+      {
+        path: "/appliances-services-in-jumeirah-heights/",
+        element: <ApplianceServiceInJumeriahHeights />,
+      },
+      {
+        path: "/appliances-services-in-dubai-silicon-oasis/",
+        element: <ApplianceServiceInDubaiSiliconOasis />,
+      },
+      {
+        path: "/appliances-services-in-the-villa/",
+        element: <ApplianceServiceInTheVilla />,
+      },
+      {
+        path: "/appliances-services-in-al-waha-community/",
+        element: <ApplianceServiceInAlWahaCommunity />,
+      },
+      {
+        path: "/appliances-services-in-bur-dubai/",
+        element: <ApplianceServiceInBurDubai/>,
+      },
+      {
+        path: "/appliances-services-in-jumeirah-village-triangle/",
+        element: <ApplianceServiceInJumeirahVillageTriangle />,
+      },
+      {
+        path: "/appliances-services-in-mankhool/",
+        element: <ApplianceServiceInMankhool />,
+      },
+      {
+        path: "/appliances-services-in-the-springs/",
+        element: <ApplianceServiceInTheSprings />,
+      },
+      {
+        path: "/appliances-services-in-al-manara/",
+        element: <ApplianceServiceInAlManara />,
+      },
+      {
+        path: "/appliances-services-in-al-barari/",
+        element: <ApplianceServiceInAlbarari />,
+      },
+      {
+        path: "/appliances-services-in-jvt/",
+        element: <ApplianceServiceInJvt />,
+      },
+      {
+        path: "/appliances-services-in-jvt/",
+        element: <ApplianceServiceInJvt />,
+      },
+      {
+        path: "/appliances-services-in-nad-al-sheba/",
+        element: <ApplianceServiceInNadAlSheba />,
+      },
+      {
+        path: "/appliances-services-in-dubai-marina/",
+        element: <ApplianceServiceInDubaiMarina />,
+      },
+      {
+        path: "/appliances-services-in-al-barsha/",
+        element: <ApplianceServiceInAlBarsha />,
+      },
+      {
+        path: "/appliances-services-in-arabian-ranches/",
+        element: <ApplianceServiceInArabianRanches />,
+      },
+      {
+        path: "/appliances-services-in-jumeirah-village-circle/",
+        element: <ApplianceServiceInJumeirahVillageCircle />,
+      },
+      {
+        path: "/appliances-services-in-dubai-motor-city/",
+        element: <ApplianceServiceInDubaiMotorCity />,
+      },
+>>>>>>> 4e3266f27e47ab11c1aafc2328ba7e3a3405473f
     ],
   }
 ], {
