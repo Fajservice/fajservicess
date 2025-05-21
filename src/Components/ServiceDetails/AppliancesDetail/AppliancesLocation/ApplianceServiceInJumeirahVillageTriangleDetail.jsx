@@ -154,8 +154,7 @@ const ApplianceServiceInJumeirahVillageTriangleDetail = ({ subtitle, title, bgIm
                    </section>
    
                    
-                   {/* Maintenance Contract */}
-                   <MaintenanceContract />
+                  
    
                    {/* Best Home Appliance Service Center */}
                    <section className="section cs_py_30 bg-light-gray">
@@ -288,6 +287,9 @@ const ApplianceServiceInJumeirahVillageTriangleDetail = ({ subtitle, title, bgIm
    
                        </div>
                    </section>
+
+                    {/* Maintenance Contract */}
+                   <MaintenanceContract />
    
                    {/* Why is Appliance Maintenance Service Important in Dubai? */}
                    <section className="section cs_py_30 bg-light-gray">

@@ -151,7 +151,7 @@ const AppliancesServicesInPalmJumeirahDetail = ({ subtitle, title, bgImg }) => {
             {/*  */}
           </div>
         </section>
-        
+
         {/* Best Home Appliance Service Center */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
@@ -177,7 +177,7 @@ const AppliancesServicesInPalmJumeirahDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-         {/* The Most Common Problems with Home Appliances */}
+        {/* The Most Common Problems with Home Appliances */}
         <section className="section cs_py_30">
           <div className="container">
             <h3 className="text-center">The Most Common Problems with Home Appliances   </h3>

@@ -153,7 +153,38 @@ const ApplianceServiceInDipDetail = ({ subtitle, title, bgImg }) => {
                                    </div>
                                </section>
                
-                               {/* The Most Common Problems with Home Appliances */}
+                              
+               
+                               {/* Best Home Appliance Service Center */}
+                               <section className="section cs_py_30 bg-light-gray">
+                                   <div className="container">
+                                       <div className="row gx-md-5">
+                                           <div className="col-md-6">
+                                               <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai</h3>
+               
+                                               <p className="mb-2">
+                                                   If you need appliance repair, FAJ is your best choice for fast and affordable service in DIP Dubai and Sharjah.
+                                                   <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
+                                                   <br /> We're nearby and can get your appliances fixed quickly and efficiently.
+                                               </p>
+               
+                                               <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">EXPRESS & EMERGENCY Appliance REPAIR SERVICE</h3>
+                                               <p className="mb-2"><b>Terms & Conditions:</b>There is a callout fee that applies, ranging from AED 175 to 320 depending on appliance, for diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any repair/parts. Also, get repairs from us for your coffee machine, stand mixer, or robot vacuum.
+                                               </p>
+                                               <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
+                                                   <b>We provide 2-month service warranty</b><br />
+                                                   and <small>3-month parts warranty</small> as standard.</p>
+                                           </div>
+               
+                                           <div className="col-md-6 ">
+                                               <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} alt="Post Image" />
+                                           </div>
+                                       </div>
+                                       <AppliancesAppointmentCol></AppliancesAppointmentCol>
+                                   </div>
+                               </section>
+
+                                {/* The Most Common Problems with Home Appliances */}
                                <section className="section cs_py_30">
                                    <div className="container">
                                        <h3 className="text-center">The Most Common Problems with Home Appliances   </h3>
@@ -262,35 +293,6 @@ const ApplianceServiceInDipDetail = ({ subtitle, title, bgImg }) => {
                
                                {/* Maintenance Contract */}
                                <MaintenanceContract />
-               
-                               {/* Best Home Appliance Service Center */}
-                               <section className="section cs_py_30 bg-light-gray">
-                                   <div className="container">
-                                       <div className="row gx-md-5">
-                                           <div className="col-md-6">
-                                               <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai</h3>
-               
-                                               <p className="mb-2">
-                                                   If you need appliance repair, FAJ is your best choice for fast and affordable service in DIP Dubai and Sharjah.
-                                                   <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
-                                                   <br /> We're nearby and can get your appliances fixed quickly and efficiently.
-                                               </p>
-               
-                                               <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">EXPRESS & EMERGENCY Appliance REPAIR SERVICE</h3>
-                                               <p className="mb-2"><b>Terms & Conditions:</b>There is a callout fee that applies, ranging from AED 175 to 320 depending on appliance, for diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any repair/parts. Also, get repairs from us for your coffee machine, stand mixer, or robot vacuum.
-                                               </p>
-                                               <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
-                                                   <b>We provide 2-month service warranty</b><br />
-                                                   and <small>3-month parts warranty</small> as standard.</p>
-                                           </div>
-               
-                                           <div className="col-md-6 ">
-                                               <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} alt="Post Image" />
-                                           </div>
-                                       </div>
-                                       <AppliancesAppointmentCol></AppliancesAppointmentCol>
-                                   </div>
-                               </section>
                
                                {/* Why is Appliance Maintenance Service Important in Dubai? */}
                                <section className="section cs_py_30 bg-light-gray">

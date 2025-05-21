@@ -152,8 +152,7 @@ const AppliancesServicesInAlJafiliyaDetail = ({ subtitle, title, bgImg }) => {
                         </div>
                     </section>
     
-                    {/* Maintenance Contract */}
-                    <MaintenanceContract />
+                    
     
                     {/* Best Home Appliance Service Center */}
                     <section className="section cs_py_30 bg-light-gray">
@@ -287,6 +286,9 @@ const AppliancesServicesInAlJafiliyaDetail = ({ subtitle, title, bgImg }) => {
     
                         </div>
                     </section>
+
+                    {/* Maintenance Contract */}
+                    <MaintenanceContract />
     
                     {/* Why is Appliance Maintenance Service Important in Dubai? */}
                     <section className="section cs_py_30 bg-light-gray">
