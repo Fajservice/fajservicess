@@ -80,7 +80,7 @@ const LgAcRepair = ({ subtitle, title, bgImg }) => {
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30">Beat the heat this summer with professional LG AC repair and service in Dubai!</h2>
+            <h1 className="cs_fs_30">LG AC Repair in Dubai – LG AC Maintenance Service</h1>
             <p>
               For year-round comfort, it's essential to address issues such as sticky summer days, stuffy nights, and allergens in the air.
               <br />Since 2010, <a href="https://www.fajservices.ae/"> F A J Technical Services L.L.C</a> has been a trusted provider of LG air conditioning solutions in Dubai and Sharjah. Our skilled team specialises in LG AC cleaning service, maintenance, repairs, and installation of a diverse range of residential and commercial LG AC units. We are committed to ensuring that your air conditioning system operates at peak performance, promoting a comfortable indoor environment.

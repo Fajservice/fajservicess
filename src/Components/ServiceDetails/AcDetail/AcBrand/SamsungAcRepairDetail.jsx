@@ -80,7 +80,7 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30">Beat the heat this summer with Expert Samsung AC repair and service in Dubai!</h2>
+            <h1 className="cs_fs_30">Samsung AC Repair in Dubai – Samsung AC Maintenance Service</h1>
             <p>
 
               Maintaining comfort throughout the year requires addressing various challenges, including high humidity on summer days, warm nights, and indoor allergens.

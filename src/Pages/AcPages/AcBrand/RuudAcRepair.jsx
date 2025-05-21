@@ -6,7 +6,6 @@ const RuudAcRepair = () => {
         <div className="serviceDetails">
             <BreadCumb
                 bgImg="img/acbrands/Ruud-ac-bg.avif"
-                // bgImg="img/ac_service-bannerbg.avif"
                 Title="Ruud AC Repair in Dubai - Air Conditioner Maintenance Service Near You"
             ></BreadCumb> 
             <RuudAcRepairDetail></RuudAcRepairDetail>           
