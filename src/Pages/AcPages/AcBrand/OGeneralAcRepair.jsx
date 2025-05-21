@@ -6,8 +6,7 @@ const OGeneralAcRepair = () => {
         <div className="serviceDetails">
             <BreadCumb
                 bgImg="img/acbrands/ogeneral-ac-bg.avif"
-                // bgImg="img/ac_service-bannerbg.avif"
-                Title="O General AC Repair Dubai - Air Conditioner Service Near Me"
+                Title="O General AC Repair in Dubai – AC Maintenance Service"
             ></BreadCumb> 
             <OGeneralAcRepairDetail></OGeneralAcRepairDetail>           
         </div>

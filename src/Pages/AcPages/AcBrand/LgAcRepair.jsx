@@ -6,8 +6,7 @@ const LgAcRepair = () => {
         <div className="serviceDetails">
             <BreadCumb
                 bgImg="img/acbrands/LG-AC-repair-in-dubai.avif"
-                // bgImg="img/ac_service-bannerbg.avif"
-                Title="LG AC Repair in Dubai - LG AC Maintenance Services Near Me"
+                Title="LG AC Repair in Dubai – LG AC Maintenance Service"
             ></BreadCumb> 
             <LgAcRepairDetail></LgAcRepairDetail>           
         </div>
