@@ -78,8 +78,9 @@ const OGeneralAcRepair = ({ subtitle, title, bgImg }) => {
 
       <div className="cs_service_details">
         <section className="section cs_py_30">
+
           <div className="container">
-            <h2 className="cs_fs_30">Stay Cool This Summer with Expert O General AC Repair and Service in Dubai!</h2>
+            <h2 className="fs_cs_30">O General AC Repair in Dubai – AC Maintenance Service</h2>
             <p>
               Enjoy enhanced comfort year-round by eliminating sticky summer days, stuffy nights, and allergens with clean air.
               <br />
@@ -125,7 +126,7 @@ const OGeneralAcRepair = ({ subtitle, title, bgImg }) => {
                     </ul>
                   </div>
                 </div>
-                
+
               </div>
 
               <div className="col-md-6">

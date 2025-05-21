@@ -127,7 +127,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30">CHOOSE Kitchen Equipment FOR SAME-DAY REPAIRS IN DUBAI</h2>
+            <h1 className="cs_fs_30">Kitchen Equipments Annual Maintenance Contract</h1>
             <p>When it comes to kitchen equipment maintenance, essential items such as cooking ranges, electric hot plates, combi ovens, microwaves, juicers, ice makers, espresso machines, refrigeration units, freezers, chillers, beverage dispensers, blenders, dough mixers, and vacuum packing machines require timely servicing. Inoperable equipment can lead to costly downtime, severely impacting your profitability. Since 2010, FAJ has been committed to providing professional catering equipment maintenance, annual maintenance contracts (AMC), project services, and product sales specifically for hotels, restaurants, and cafés in Dubai and Sharjah. Our goal is to ensure a prompt and efficient response to all your catering equipment repair and service needs. Whether you have an existing service contract with us or need immediate assistance for an emergency breakdown, please contact our Service Department at +971507464712, or conveniently book online for our Planned Preventative Maintenance (PPM) services.</p>
 
             <div id="get-quote" className=" mt-3">

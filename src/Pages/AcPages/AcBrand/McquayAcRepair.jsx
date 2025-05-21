@@ -6,7 +6,6 @@ const McquayAcRepair = () => {
         <div className="serviceDetails">
             <BreadCumb
                 bgImg="img/acbrands/mcquay-ac-repair.avif"
-                // bgImg="img/ac_service-bannerbg.avif"
                 Title="McQuay AC Repair in Dubai - Air Conditioner Maintenance Near Me"
             ></BreadCumb> 
             <McquayAcRepairDetail></McquayAcRepairDetail>           

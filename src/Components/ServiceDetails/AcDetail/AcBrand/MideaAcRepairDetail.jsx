@@ -80,7 +80,7 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30">Professional Midea AC Maintenance and Repair Services in Dubai</h2>
+            <h1 className="cs_fs_30">Best Midea AC Repair in Dubai – AC Maintenance Service</h1>
             <p>
               F A J Technical Services L.L.C has been serving the community since 2010. Our dedicated facilities team has extensive experience in Midea AC repair, maintenance, and installation in both residential and commercial properties in Dubai and Sharjah.
               <br />A Midea air conditioner is essential for maintaining year-round indoor comfort. To ensure optimal performance, regular Air Conditioner maintenanc is important. In Dubai, professional cleaning services for Midea units are available to keep your system running efficiently.
