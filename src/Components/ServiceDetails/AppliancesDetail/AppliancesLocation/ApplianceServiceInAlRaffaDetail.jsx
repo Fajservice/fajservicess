@@ -158,7 +158,7 @@ const ApplianceServiceInAlRaffaDetail = ({ subtitle, title, bgImg }) => {
                            <div className="container">
                                <div className="row gx-md-5">
                                    <div className="col-md-6">
-                                       <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in JVT</h3>
+                                       <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai</h3>
        
                                        <p className="mb-2">
                                            If you need appliance repair, FAJ is your best choice for fast and affordable service in Al Raffa Dubai and Sharjah.

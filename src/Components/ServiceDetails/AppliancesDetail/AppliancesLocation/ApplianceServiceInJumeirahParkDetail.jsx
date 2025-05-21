@@ -17,15 +17,15 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages.jsx";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 
-const ApplianceServiceInJebelAliDipDetail = ({ subtitle, title, bgImg }) => {
+const ApplianceServiceInJumeirahParkDetail = ({ subtitle, title, bgImg }) => {
 
 
     // For SEO
-    const titleSeo = "Appliances Services in Jebel Ali DIP - Refrigerator repair";
-    const description = "Best appliance services in Jebel Ali DIP. FAJ specializes in fridge repair near me in Dubai. Call 043300002 for reliable washing machine & oven fix ";
+    const titleSeo = "Appliances Services in Jumeirah Park - Refrigerator Repair";
+    const description = "We offer best appliance services in Jumeirah Park. Get fridge repair near me in Dubai. Book 043300002 for oven & washing machine maintenance";
     const Author = "Faj Technical Servcies";
     const Keyword = "";
-    const URL = "https://www.fajservices.ae/appliances-services-in-jebel-ali-dip";
+    const URL = "https://www.fajservices.ae/appliances-services-in-jumeirah-park";
 
 
     subtitle = "Testimonial"
@@ -85,7 +85,6 @@ const ApplianceServiceInJebelAliDipDetail = ({ subtitle, title, bgImg }) => {
             }
         ]
     };
-
     const settingBrands = {
         dots: false,
         infinite: true,
@@ -153,8 +152,6 @@ const ApplianceServiceInJebelAliDipDetail = ({ subtitle, title, bgImg }) => {
                     </div>
                 </section>
 
-
-
                 {/* Best Home Appliance Service Center */}
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
@@ -163,7 +160,7 @@ const ApplianceServiceInJebelAliDipDetail = ({ subtitle, title, bgImg }) => {
                                 <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai</h3>
 
                                 <p className="mb-2">
-                                    If you need appliance repair, FAJ is your best choice for fast and affordable service in Jebel Ali Dip Dubai and Sharjah.
+                                    If you need appliance repair, FAJ is your best choice for fast and affordable service in Jumeirah Park Dubai and Sharjah.
                                     <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
                                     <br /> We're nearby and can get your appliances fixed quickly and efficiently.
                                 </p>
@@ -899,4 +896,4 @@ const ApplianceServiceInJebelAliDipDetail = ({ subtitle, title, bgImg }) => {
     )
 }
 
-export default ApplianceServiceInJebelAliDipDetail
+export default ApplianceServiceInJumeirahParkDetail

@@ -16,9 +16,9 @@ import brandsLogo_data from '../../../../Data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages.jsx";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
+import BreadCumb from "../../../Common/BreadCumb.jsx";
 
-const ApplianceServiceInArabianRanches2Detail = ({ subtitle, title, bgImg }) => {
-
+const ApplianceServiceInArabianRanches2Detail = ({ bgImg, title, subtitle }) => {
 
     // For SEO
     const titleSeo = "Appliances Services in Arabian Ranches 2 - Fridge Repair";
@@ -116,6 +116,8 @@ const ApplianceServiceInArabianRanches2Detail = ({ subtitle, title, bgImg }) => 
             }
         ]
     };
+
+
   return (
     <>
                            <HelmetProvider>
@@ -136,10 +138,9 @@ const ApplianceServiceInArabianRanches2Detail = ({ subtitle, title, bgImg }) => 
                            <HeaderForm />
                
                            <div className="cs_service_details">
-               
                                <section className="section cs_py_30">
                                    <div className="container">
-                                       <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2>
+                                       <h1 className="cs_fs_30">Appliances Services in Arabian Ranches 2</h1>
                                        <p>
                                            Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                                        </p>
@@ -152,8 +153,6 @@ const ApplianceServiceInArabianRanches2Detail = ({ subtitle, title, bgImg }) => 
                                        {/*  */}
                                    </div>
                                </section>
-               
-                              
                
                                {/* Best Home Appliance Service Center */}
                                <section className="section cs_py_30 bg-light-gray">
@@ -800,12 +799,11 @@ const ApplianceServiceInArabianRanches2Detail = ({ subtitle, title, bgImg }) => 
                                            </div>
                                        </div>
                                    </div>
-                                   {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
+
                                </section>
                
                                {/* testimobial section */}
                                <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
-                                   {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                                    <div className="container">
                                        <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
                                            <h3 className="cs_section_subtitle cs_fs_18 text-black cs_semibold text-uppercase cs_mb_12 wow fadeInDown">
@@ -838,7 +836,7 @@ const ApplianceServiceInArabianRanches2Detail = ({ subtitle, title, bgImg }) => 
                                                                                <i className="bi bi-star-fill"></i>
                                                                            </div>
                                                                            <h3 className="cs_fs_24 cs_mb_1">{item.title}</h3>
-                                                                           {/* <p className="cs_fs_14 cs_heading_color mb-0">{item.subTitle}</p> */}
+                                                                       
                                                                        </div>
                                                                    </div>
                                                                    <blockquote className="cs_fs_16">{item.desc}</blockquote>
@@ -854,7 +852,7 @@ const ApplianceServiceInArabianRanches2Detail = ({ subtitle, title, bgImg }) => 
                                            </div>
                                        </div>
                                    </div>
-                                   {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
+
                                </section>
                
                                {/* FAQ's */}
@@ -874,7 +872,6 @@ const ApplianceServiceInArabianRanches2Detail = ({ subtitle, title, bgImg }) => 
                                                        </span>
                                                    </div>
                                                    <div className="cs_accordian_body" ref={accordionContentRef}>
-                                                       {/* <p className="mb-0">{item.desc.replace(/\n/g, '<br>')}</p> */}
                                                        <p className="mb-0"
                                                            dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
                                                        ></p>

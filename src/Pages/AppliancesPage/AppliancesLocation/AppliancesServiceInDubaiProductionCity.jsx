@@ -1,4 +1,5 @@
 import BreadCumb from "../../../Components/Common/BreadCumb";
+import AppliancesServiceInDubaiProductionCityDetail from "../../../Components/ServiceDetails/AppliancesDetail/AppliancesLocation/AppliancesServiceInDubaiProductionCityDetail";
 
 const AppliancesServiceInDubaiProductionCity = () => {
   return (
@@ -7,7 +8,7 @@ const AppliancesServiceInDubaiProductionCity = () => {
                 bgImg="img/banners/small-home.avif"
                 Title="Home Appliance Service in Dubai Production City">
             </BreadCumb>
-            <AppliancesServiceInDubaiHillsEstateDetail/>
+            <AppliancesServiceInDubaiProductionCityDetail/>
     </div>
   )
 }

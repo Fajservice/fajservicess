@@ -7,7 +7,7 @@ const ApplianceServiceInIndexTowerDifc = () => {
                   bgImg="img/banners/small-home.avif"
                   Title="Home Appliance Service in Index Tower Difc">
               </BreadCumb>
-              <ApplianceServiceInDipDetail />
+              <ApplianceServiceIndifc/>
     </div>
   )
 }
