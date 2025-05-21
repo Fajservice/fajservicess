@@ -5,7 +5,7 @@ const FaberAppliancesService = () => {
   return (
     <div className="serviceDetails">
       <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/Faber.avif"
+        bgImg="img/banners/homeappliancesbrands/Faber-appliance-repair-faj.avif"
         Title="Faber Appliances Service"
       ></BreadCumb>
 

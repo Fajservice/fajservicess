@@ -5,7 +5,7 @@ const SmegMixerRepairService = () => {
   return (
     <div className="serviceDetails">
       <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/SmegMixerRepairService.avif"
+        bgImg="img/banners/homeappliancesbrands/Smeg-mixer-repair-faj.avif"
         Title="Smeg Mixer Repair Service"
       ></BreadCumb>
 

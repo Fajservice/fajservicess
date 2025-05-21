@@ -5,7 +5,7 @@ const ColemenAcRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/acbrands/coleman-ac-bg.avif"
+                bgImg="img/acbrands/coleman-ac-repai-faj.avif"
                 // bgImg="img/ac_service-bannerbg.avif"
                 Title="Coleman AC Repair in Dubai - Central AC Service"
             ></BreadCumb> 

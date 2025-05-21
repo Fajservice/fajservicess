@@ -5,7 +5,7 @@ const KenmoreAppliancesService = () => {
   return (
     <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/Kenmore.avif"
+        bgImg="img/banners/homeappliancesbrands/KENMORE-refrigerator-repair-faj.avif"
         Title="Kenmore Appliances Service"
     ></BreadCumb>
 

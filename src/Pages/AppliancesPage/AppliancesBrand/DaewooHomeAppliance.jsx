@@ -5,7 +5,7 @@ const DaewooHomeAppliance = () => {
   return (
    <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/Daewoo.avif"
+        bgImg="img/banners/homeappliancesbrands/Deawoo-home-appliance-repair-faj.avif"
         Title="Daewoo Home Appliances Installation & Repair Dubai"
     ></BreadCumb>
 

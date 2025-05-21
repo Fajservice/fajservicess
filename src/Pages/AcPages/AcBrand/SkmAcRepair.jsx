@@ -5,7 +5,7 @@ const SkmAcRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/acbrands/SKM-AC-bg.avif"
+                bgImg="img/acbrands/SKM-ac-repair-faj.avif"
                 Title="SKM AC Repair in Dubai - SKM Air Conditioner Service Near You"
             ></BreadCumb> 
             <SkmAcRepairDetail></SkmAcRepairDetail>           

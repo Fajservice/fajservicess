@@ -5,7 +5,7 @@ const SmegFridgeRepair = () => {
   return (
     <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/smeg.avif"
+        bgImg="img/banners/homeappliancesbrands/Smeg-appliance-repair-faj.avif"
         Title="Smeg Fridge Repair & Service"
     ></BreadCumb>
 

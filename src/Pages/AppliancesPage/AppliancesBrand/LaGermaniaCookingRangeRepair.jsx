@@ -5,7 +5,7 @@ const LaGermaniaCookingRangeRepair = () => {
   return (
     <div className="serviceDetails">
       <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/LaGermaniaCookingRangeRepair.avif"
+        bgImg="img/banners/homeappliancesbrands/La-Germania-cooker-Repair-Service-faj.avif"
         Title="LaGermania Cooking Range Repair"
       ></BreadCumb>
 

@@ -7,7 +7,7 @@ const PanasonicFridgeRepair = () => {
   return (
     <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/Panasonic.avif"
+        bgImg="img/banners/homeappliancesbrands/Panasonic-appliance-repair-faj.avif"
         Title="Panasonic Fridge Repair"
     ></BreadCumb>
 

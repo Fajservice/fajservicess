@@ -5,7 +5,7 @@ const YorkAcRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/ac_service-bannerbg.avif"
+                bgImg="img/acbrands/york-ac-repair-faj.avif"
                 Title="York AC Repair in Dubai - Air Conditioning Maintenance Near Me"
             ></BreadCumb> 
             <YorkAcRepairDetail></YorkAcRepairDetail>           

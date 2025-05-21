@@ -5,7 +5,7 @@ const AristonFrideRepair = () => {
   return (
     <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/Ariston.avif"
+        bgImg="img/banners/homeappliancesbrands/Ariston-fridge-repair-faj.avif"
         Title="Ariston Washing Machine Repair"
     ></BreadCumb>
 

@@ -5,7 +5,7 @@ const BekoFridgeRepair = () => {
   return (
      <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/Beko.avif"
+        bgImg="img/banners/homeappliancesbrands/beko-Fridge-repair-faj.avif"
         Title="Beko Fridge Repair in Dubai"
     ></BreadCumb>
 

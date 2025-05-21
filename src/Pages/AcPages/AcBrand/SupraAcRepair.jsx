@@ -5,7 +5,7 @@ const SupraAcRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/acbrands/supra-ac-bg.avif"
+                bgImg="img/acbrands/supra-ac-repair-faj.avif"
                 Title="Supra AC Repair in Dubai - Central AC Service"
             ></BreadCumb> 
             <SupraAcRepairDetail></SupraAcRepairDetail>           

@@ -5,7 +5,7 @@ const ZanussiFridgeRepair = () => {
   return (
     <div className="serviceDetails">
       <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/Zanussi.avif"
+        bgImg="img/banners/homeappliancesbrands/zanussi-oven-repair-faj.avif"
         Title="Zanussi Fridge Repair"
       ></BreadCumb>
 

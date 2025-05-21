@@ -5,7 +5,7 @@ const BaumaticAppliances = () => {
   return (
     <div className="serviceDetails">
       <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/Baumatic-banner.avif"
+        bgImg="img/banners/homeappliancesbrands/Baumatic-Appliance-repair-faj.avif"
         Title="Baumatic Appliances Repair in dubai"
       ></BreadCumb>
 

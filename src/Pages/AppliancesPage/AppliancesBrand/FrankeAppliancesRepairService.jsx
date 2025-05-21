@@ -5,7 +5,7 @@ const FrankeAppliancesRepairService = () => {
   return (
     <div className="serviceDetails">
       <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/FrankeAppliancesRepairService.avif"
+        bgImg="img/banners/homeappliancesbrands/Franke-appliances-repair-faj.avif"
         Title="Franke Fridge Repair & Service"
       ></BreadCumb>
 

@@ -5,7 +5,7 @@ const CrafftAcRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/acbrands/craft-ac-bg.avif"
+                bgImg="img/acbrands/Craft-ac-repair-faj.avif"
                 // bgImg="img/ac_service-bannerbg.avif"
                 Title="Crafft AC Repair in Dubai - AC Cleaning Service Near you"
             ></BreadCumb> 

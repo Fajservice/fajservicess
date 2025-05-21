@@ -5,7 +5,7 @@ const MitsubishiAcRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/acbrands/Mitsubishi-AC-bg.avif"
+                bgImg="img/acbrands/Mitsubishi-ac-repair-faj.avif"
                 Title="Mitsubishi AC Repair in Dubai – AC Maintenance Service"
             ></BreadCumb> 
             <MitsubishiAcRepairDetail></MitsubishiAcRepairDetail>           
