@@ -46,7 +46,6 @@ const AboutPage = () => {
                     {/* Form section */}
                     </div>
                 </div>
-                {/* Extra padding div to ensure proper spacing after the section */}
                 <div className="pb-3 d-md-none"></div>
             </section>  
             <section className="section cs_py_30 bg-dark-blue">

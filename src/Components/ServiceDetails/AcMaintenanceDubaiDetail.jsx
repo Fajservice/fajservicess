@@ -109,7 +109,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30" style={{ fontSize: "25px" }}>Choose FAJ Experts for AC maintenance to find the perfect cooling solution.</h2>
+            <h1 className="cs_fs_30" style={{ fontSize: "25px" }}>AC MAINTENANCE IN DUBAI - AC MAINTENANCE AND SERVICE NEAR YOU</h1>
             <p>F A J Technical Services L.L.C. has been providing AC maintenance services in Dubai since 2010. Our experienced team specializes in HVAC maintenance, repair, and installation for residential and commercial air conditioning units in Dubai and Sharjah, ensuring efficient cooling solutions for our clients.<br />
             An air conditioner unit is essential for maintainance a comfortable indoor environment year-round. Regular AC maintenance, including repairs and cleaning, is necessary for optimal performance. Our professional air conditioner maintenance services in Dubai are designed to ensure your system operates efficiently, enhancing the quality of your indoor atmosphere.</p>
 
