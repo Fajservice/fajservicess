@@ -525,10 +525,10 @@ export const router = createBrowserRouter([
         path: "/refrigerator-repair-service/",
         element: <RefrigeratorRepairInDubai></RefrigeratorRepairInDubai>,
       },
-      {
-        path: "/cold-room-repair/",
-        element: <ColdRoomRepair></ColdRoomRepair>,
-      },
+      // {
+      //   path: "/cold-room-repair/",
+      //   element: <ColdRoomRepair></ColdRoomRepair>,
+      // },
       {
         path: "/coleman-ac-repair-in-dubai-coleman-ac-maintenance-in-dubai-coleman-ac-fix-in-dubai-coleman-ac-service-in-dubai-coleman-air-condition-repair-in-dubai-coleman-air-condition-maintenance-in-dubai-coleman/",
         element: <ColemenAcRepair></ColemenAcRepair>,

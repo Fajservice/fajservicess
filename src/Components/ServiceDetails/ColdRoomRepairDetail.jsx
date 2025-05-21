@@ -38,7 +38,7 @@ const ColdRoomRepair = () => {
                     <div className="row cs_row_gap_30 cs_gap_y_60">
                         <div className="col-xl-8 col-lg-7">
                             <div className="cs_service_details">
-                                {/* <img src={`${import.meta.env.BASE_URL}img/cold-room-repair-banner.avif`} alt="Service Banner" /> */}
+                              
                                 <h2 className="cs_fs_30">Cold Room Repair</h2>
                                 <p>Is your existing cold room getting old or acting wary? You might be thinking of a replacement but it might cost a fortune. This is where FAJ comes in. Need not to worry, as our diverse and experienced range of services has got you covered. Confused about “cold room service near me”, then you’ve landed on the right page. Give us a call to book our technicians for your freezer repair inspection so we can carry out cold room repair, refurbishment and maintenance services. Being used in super markets, restaurants, butcheries, hotels, hospitals, etc it is essential to conduct periodic maintenance. With our decades of experience in UAE and Dubai, we ensure that all your cold room repair and service solutions are resolved under the same roof. With our highly skilled and trained team of cold room technicians, you can trust our services with complete trust and reliability.</p>
                                 <div id="get-quote" className="mb-5 mt-3">

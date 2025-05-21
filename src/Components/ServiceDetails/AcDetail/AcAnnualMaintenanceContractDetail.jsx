@@ -107,7 +107,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30">Essential Air Conditioner Maintenance Contract Services</h2>
+            <h1 className="cs_fs_30">AC Annual Maintenance Contract</h1>
 
             <p>
               At F A J Technical Services L.L.C, customer satisfaction is our top priority. We offer a straightforward and cost-effective annual maintenance contract that covers all essential maintenance for your home and business.
