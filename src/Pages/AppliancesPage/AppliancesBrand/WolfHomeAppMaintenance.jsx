@@ -6,8 +6,7 @@ const WolfHomeAppMaintenance = () => {
     <div className="serviceDetails">
     <BreadCumb
         bgImg="img/banners/homeappliancesbrands/wolf-cooking-range-repair-faj.avif"
-        Title="Wolf Home Appliances Repair and Services in dubai
-"
+        Title="Wolf Home Appliances Repair and Services in dubai"
     ></BreadCumb>
 
     <WolfHomeAppMaintenanceDetail />        

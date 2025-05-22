@@ -132,6 +132,7 @@ const AftronFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
+                        <h1 className="cs_fs_30">Aftron Appliance Repair Services Dubai</h1>
                         <p>
                             Aftron  appliances are the best among the other brands out there. Still, products of the best brands even do not last endlessly. In addition, we are all sure that our appliances break down when we need them the most. Reasonably, your first reaction will be to see if your appliance is repairable. You can fix minor issues, but mostly, you cannot. So why worry? We are the best Aftron  appliance repair service provider in Dubai. We are the most experienced industry experts serving since 2010 in Dubai. With hands-on experience with all home appliances, you can expect successful and swift repairs from us. Aftron  Fridge Repair in Dubai So, contact us today to get your repair appointment. Enjoy superior Aftron  appliance repair with FAJ Technical Services LLC.
                         </p>

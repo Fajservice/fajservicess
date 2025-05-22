@@ -135,7 +135,8 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h2 className="cs_fs_30">Professional Daewoo Home Appliances Service and Repair</h2>
+                        <h1 className="cs_fs_30">Daewoo Home Appliance Repair Service and Installation</h1>
+                        {/* <h2 className="cs_fs_30">Professional Daewoo Home Appliances Service and Repair</h2> */}
                         <p>Are you having trouble finding a local Daewoo appliance technician who specializes in Daewoo kitchen appliances? At FAJ Technical Services, we have been providing reliable and affordable services since 2010. We operate with a wide network of thoroughly vetted, qualified, and experienced service professionals. Whenever possible, we will send a technician who is familiar with your specific Daewoo appliance. </p>
 
                         <div id="get-quote" className=" mt-3">

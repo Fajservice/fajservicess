@@ -134,6 +134,7 @@ const LiebherrRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
+            <h1 className="cs_fs_30">Liebherr Refrigerator Repair & Service</h1>
             {/* 
           <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2> */}
             <p>
