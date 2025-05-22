@@ -38,7 +38,6 @@ const BreadCumb = ({ bgImg, mobileBgImg, Title }) => {
           position: 'relative'
         }}
       >
-        {/* Mobile overlay for better text readability */}
         <div 
           className="mobile-overlay"
           style={{
@@ -67,7 +66,6 @@ const BreadCumb = ({ bgImg, mobileBgImg, Title }) => {
                   {Title}
                 </h1>
                 
-                {/* Mobile-specific decorative element */}
                 <div className="mobile-decoration">
                   <div 
                     className="decoration-line mx-auto"
@@ -85,7 +83,7 @@ const BreadCumb = ({ bgImg, mobileBgImg, Title }) => {
         </div>
       </div>
 
-      {/* CSS Styles */}
+
       <style jsx>{`
         .desktop-banner, .mobile-banner {
           display: flex;
