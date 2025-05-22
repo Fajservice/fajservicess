@@ -10,7 +10,7 @@ const BreadCumb = ({ bgImg, mobileBgImg, Title }) => {
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
-          minHeight: '400px',
+          minHeight: '100%',
           position: 'relative'
         }}
       >
@@ -33,11 +33,11 @@ const BreadCumb = ({ bgImg, mobileBgImg, Title }) => {
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
-          minHeight: '250px',
+          maxWidth: '100%',
+          maxHeight: '100rem',
           position: 'relative'
         }}
       >
-        {/* Mobile overlay for better text readability */}
         <div 
           className="mobile-overlay"
           style={{
@@ -66,7 +66,6 @@ const BreadCumb = ({ bgImg, mobileBgImg, Title }) => {
                   {Title}
                 </h1>
                 
-                {/* Mobile-specific decorative element */}
                 <div className="mobile-decoration">
                   <div 
                     className="decoration-line mx-auto"
@@ -84,7 +83,7 @@ const BreadCumb = ({ bgImg, mobileBgImg, Title }) => {
         </div>
       </div>
 
-      {/* CSS Styles */}
+
       <style jsx>{`
         .desktop-banner, .mobile-banner {
           display: flex;
