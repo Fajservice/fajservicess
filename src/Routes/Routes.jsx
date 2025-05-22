@@ -371,6 +371,7 @@ import ApplianceServiceInLayanComminity from "../Pages/AppliancesPage/Appliances
 import ApplianceServiceInDubailandMazayaQueuePoint from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInDubailandMazayaQueuePoint.jsx";
 import ApplianceServiceInAlRaffa from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInAlRaffa.jsx";
 import ApplianceServiceInDifc from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInDifc.jsx";
+import ApplianceServiceInJumeirahPark from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInJumeirahPark.jsx";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -1884,6 +1885,10 @@ export const router = createBrowserRouter([
       {
         path: "/appliances-services-in-difc/",
         element: <ApplianceServiceInDifc />,
+      },
+      {
+        path: "/appliances-services-in-jumeirah-park/",
+        element: <ApplianceServiceInJumeirahPark />,
       },
     ],
   }

@@ -1,4 +1,5 @@
 import BreadCumb from "../../../Components/Common/BreadCumb";
+import ApplianceServiceInJumeirahParkDetail from "../../../Components/ServiceDetails/AppliancesDetail/AppliancesLocation/ApplianceServiceInJumeirahParkDetail";
 
 const ApplianceServiceInJumeirahPark = () => {
   return (
@@ -7,7 +8,7 @@ const ApplianceServiceInJumeirahPark = () => {
                 bgImg="img/banners/small-home.avif"
                 Title="Home Appliance Service in Deira">
             </BreadCumb>
-            <ApplianceServiceInDifcDetail />
+            <ApplianceServiceInJumeirahParkDetail />
     </div>
   )
 }
