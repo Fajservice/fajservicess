@@ -138,7 +138,8 @@ const AppliancesServicesInJumeirahGolfEstatesDetail = ({ subtitle, title, bgImg 
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN Dubai</h2>
+            <h1 className="cs_fs_30">Appliances Services In Jumeirah Golf Estates</h1>
+            {/* <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN Dubai</h2> */}
             <p>
               Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
             </p>
@@ -151,7 +152,7 @@ const AppliancesServicesInJumeirahGolfEstatesDetail = ({ subtitle, title, bgImg 
             {/*  */}
           </div>
         </section>
-        
+
         {/* Best Home Appliance Service Center */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
@@ -177,7 +178,7 @@ const AppliancesServicesInJumeirahGolfEstatesDetail = ({ subtitle, title, bgImg 
           </div>
         </section>
 
-         {/* The Most Common Problems with Home Appliances */}
+        {/* The Most Common Problems with Home Appliances */}
         <section className="section cs_py_30">
           <div className="container">
             <h3 className="text-center">The Most Common Problems with Home Appliances   </h3>
