@@ -8,11 +8,7 @@ const ApplianceServiceInIndexTowerDifc = () => {
                   bgImg="img/banners/small-home.avif"
                   Title="Home Appliance Service in Index Tower Difc">
               </BreadCumb>
-<<<<<<< HEAD
               <ApplianceServiceInIndexTowerDifcDetail/>
-=======
-              <ApplianceServiceInIndexTowerDifcDetail></ApplianceServiceInIndexTowerDifcDetail>
->>>>>>> 98bff98debb6793249093a2c4457ee2c0c1889d7
     </div>
   )
 }
