@@ -133,6 +133,7 @@ const ElectroluxHomeApplianceDetail = ({ subtitle, title, bgImg }) => {
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
+            <h1 className="cs_fs_30">Electrolux Home Appliance Repair in Dubai</h1>
             <p>
               Electrolux  appliances are the best among the other brands out there. Still, products of the best brands even do not last endlessly. In addition, we are all sure that our appliances break down when we need them the most. Reasonably, your first reaction will be to see if your appliance is repairable. You can fix minor issues, but mostly, you cannot. So why worry? We are the best Electrolux  appliance repair service provider in Dubai. We are the most experienced industry experts serving since 2010 in Dubai. With hands-on experience with all home appliances, you can expect successful and swift repairs from us. Electrolux  Fridge Repair in Dubai So, contact us today to get your repair appointment. Enjoy superior Electrolux  appliance repair with FAJ Technical Services LLC.
             </p>

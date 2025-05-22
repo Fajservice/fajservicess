@@ -140,7 +140,11 @@ const ApplianceServiceInIndexTowerDifcDetail = ({ subtitle, title, bgImg }) => {
                 <section className="section cs_py_30">
                     <div className="container">
                         <h1 className="cs_fs_30">Home Appliance Service in Index Tower Difc</h1>
+<<<<<<< HEAD
                         {/* <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2> */}
+=======
+                        {/* <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-D  AY REPAIRS IN DUBAI</h2> */}
+>>>>>>> 98bff98debb6793249093a2c4457ee2c0c1889d7
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
