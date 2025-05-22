@@ -5,7 +5,7 @@ const SanyoHomeAppliance = () => {
   return (
    <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/sanyo.avif"
+        bgImg="img/banners/homeappliancesbrands/sanyo-appliance-repair-faj.avif"
         Title="Sanyo Home Appliance Repair and services"
     ></BreadCumb>
 

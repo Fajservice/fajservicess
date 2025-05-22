@@ -5,7 +5,7 @@ const BlombergFridgeRepair = () => {
   return (
     <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/Blomberg.avif"
+        bgImg="img/banners/homeappliancesbrands/Blomberg-Fridge-Repair-faj.avif"
         Title="Blomberg Fridge Repair"
     ></BreadCumb>
 

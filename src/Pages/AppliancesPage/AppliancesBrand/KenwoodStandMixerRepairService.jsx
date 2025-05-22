@@ -5,7 +5,7 @@ const KenwoodStandMixerRepairService = () => {
   return (
     <div className="serviceDetails">
       <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/KenwoodStandMixerRepairService.avif"
+        bgImg="img/banners/homeappliancesbrands/Kenwood-mixer-repair-service-faj.avif"
         Title="Kenwood StandMixer RepairService"
       ></BreadCumb>
 

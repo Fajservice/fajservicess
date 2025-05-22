@@ -5,7 +5,7 @@ const WolfHomeAppMaintenance = () => {
   return (
     <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/Wolf.avif"
+        bgImg="img/banners/homeappliancesbrands/wolf-cooking-range-repair-faj.avif"
         Title="Wolf Home Appliances Repair and Services in dubai
 "
     ></BreadCumb>

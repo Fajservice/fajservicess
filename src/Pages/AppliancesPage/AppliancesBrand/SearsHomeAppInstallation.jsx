@@ -5,7 +5,7 @@ const SearsHomeAppInstallation = () => {
   return (
     <div className="serviceDetails">
       <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/Sears.avif"
+        bgImg="img/banners/homeappliancesbrands/Sears-appliance-repair-faj.avif"
         Title="Sears Home Appliances Installation Services in Dubai"
       ></BreadCumb>
 

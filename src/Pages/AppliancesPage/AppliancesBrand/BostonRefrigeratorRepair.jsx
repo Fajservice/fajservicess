@@ -5,7 +5,7 @@ const BostonRefrigeratorRepair = () => {
   return (
     <div className="serviceDetails">
       <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/Boston.avif"
+        bgImg="img/banners/homeappliancesbrands/boston-refrigerator-repair-Faj.avif"
         Title="Boston Refrigerator Repair"
       ></BreadCumb>
 

@@ -5,7 +5,7 @@ const HotpointRefrigeratorRepair = () => {
   return (
     <div className="serviceDetails">
       <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/Hotpoint-Refrigerator-Repair.avif"
+        bgImg="img/banners/homeappliancesbrands/Hotpoint-refrigerator repair-faj.avif"
         Title="Hotpoint Refrigerator Repair"
       ></BreadCumb>
 

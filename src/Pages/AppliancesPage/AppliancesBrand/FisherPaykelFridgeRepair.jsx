@@ -5,7 +5,7 @@ const FisherPaykelFridgeRepair = () => {
   return (
     <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/fisher-and-paykal.avif"
+        bgImg="img/banners/homeappliancesbrands/Fisher-and-Paykel-Fridge-repair-faj.avif"
         Title="Fisher & Paykel Fridge Repair & Service"
     ></BreadCumb>
 

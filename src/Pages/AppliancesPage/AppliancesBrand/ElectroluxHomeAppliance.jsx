@@ -5,7 +5,7 @@ const ElectroluxHomeAppliance = () => {
   return (
     <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/Electrolux-2.avif"
+        bgImg="img/banners/homeappliancesbrands/Electrolux-appliances-repair-faj.avif"
         Title="Electrolux Home Appliance Repair in Dubai"
     ></BreadCumb>
 

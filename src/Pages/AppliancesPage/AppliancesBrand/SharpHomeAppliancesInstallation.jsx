@@ -5,7 +5,7 @@ const SharpHomeAppliancesInstallation = () => {
   return (
     <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/Sharp.avif"
+        bgImg="img/banners/homeappliancesbrands/sharp-appliance-repair-faj.avif"
         Title="Sharp Home Appliances Installation"
     ></BreadCumb>
 

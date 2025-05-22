@@ -5,7 +5,7 @@ const LiebherrRefrigeratorRepair = () => {
   return (
     <div className="serviceDetails">
       <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/Liebherr-RefrigeratorRepair.avif"
+        bgImg="img/banners/homeappliancesbrands/Liebherr-appliances-repair-faj.avif"
         Title="Liebherr Refrigerator Repair & Service"
       ></BreadCumb>
 

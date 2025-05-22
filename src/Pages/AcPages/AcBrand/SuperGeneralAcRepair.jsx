@@ -5,7 +5,7 @@ const SuperGeneralAcRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/acbrands/Super-General-AC-Repair-in-Dubai-banner.avif"
+                bgImg="img/acbrands/Super-General-AC-Repair-faj.avif"
                 Title="Super General Ac Repair in Dubai - Air Conditioner Maintenance and Service Near Me"
             ></BreadCumb> 
             <SuperGeneralAcRepairDetail></SuperGeneralAcRepairDetail>           

@@ -5,7 +5,7 @@ const NikaiAcRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/acbrands/Nikai-AC-bg.avif"
+                bgImg="img/acbrands/Nikai-ac-repair-faj.avif"
                 Title="Nikai AC Repair in Dubai - Air Conditioner Maintenance Near Me"
             ></BreadCumb> 
             <NikaiAcRepairDetail></NikaiAcRepairDetail>           

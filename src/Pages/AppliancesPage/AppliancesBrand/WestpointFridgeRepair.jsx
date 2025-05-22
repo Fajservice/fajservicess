@@ -5,7 +5,7 @@ const WestpointFridgeRepair = () => {
   return (
     <div className="serviceDetails">
       <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/WestpointFridgeRepair.avif"
+        bgImg="img/banners/homeappliancesbrands/westpoint-appliance-repair-faj.avif"
         Title="Westpoint Fridge Repair & Service"
       ></BreadCumb>
 

@@ -5,7 +5,7 @@ const FujitsuAcRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/acbrands/Fujitsu-AC-bg.avif"
+                bgImg="img/acbrands/Fujitsu-ac-repair-faj.avif"
                 // bgImg="img/ac_service-bannerbg.avif"
                 Title="Fujitsu AC Repair in Dubai Air Conditioner Service Near Me"
             ></BreadCumb> 

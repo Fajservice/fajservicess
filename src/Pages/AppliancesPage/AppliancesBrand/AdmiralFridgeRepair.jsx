@@ -5,7 +5,7 @@ const AdmiralFridgeRepair = () => {
   return (
     <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/admiral-ac-repair.avif"
+        bgImg="img/banners/homeappliancesbrands/Admiral-Fridge-repair-faj.avif"
         Title="Admiral Fridge Repair"
     ></BreadCumb>
 

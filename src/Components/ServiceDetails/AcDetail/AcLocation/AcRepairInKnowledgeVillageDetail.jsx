@@ -73,8 +73,8 @@ const AcRepairInKnowledgeVillageDetail = ({ subtitle, title, bgImg }) => {
             }
         ]
     }
-  return (
-    <>
+    return (
+        <>
             <HelmetProvider>
                 <title>AC Services In Knowledge Village - Air Conditioning Repairs</title>
                 <meta name="description" content="FAJ 043300002 AC Services in Knowledge Village Dubai. We are experts in central & split air condition repair and maintenance nearby Dubai AC fix"></meta>
@@ -84,9 +84,10 @@ const AcRepairInKnowledgeVillageDetail = ({ subtitle, title, bgImg }) => {
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2>
-            <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
-            <a href="/"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in AC servicing, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
+                        <h1 className="cs_fs_30">AC Service in Knowledge Village</h1>
+                        {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
+                        <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
+                            <a href="/"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in AC servicing, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 
                         <div id="get-quote" className=" mt-3">
                             <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -141,12 +142,12 @@ const AcRepairInKnowledgeVillageDetail = ({ subtitle, title, bgImg }) => {
                         </div>
                     </div>
                 </section>
-   
-           {/* Maintenance Contract */}
-           <MaintenanceContract />
-   
-           {/* Why is AC Maintenance Service Important in Dubai? */}
-           <section className="section cs_py_30 bg-light-gray">
+
+                {/* Maintenance Contract */}
+                <MaintenanceContract />
+
+                {/* Why is AC Maintenance Service Important in Dubai? */}
+                <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
                         <h3 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h3>
                         <p>
@@ -432,7 +433,7 @@ const AcRepairInKnowledgeVillageDetail = ({ subtitle, title, bgImg }) => {
 
             </div>
         </>
-  )
+    )
 }
 
 export default AcRepairInKnowledgeVillageDetail

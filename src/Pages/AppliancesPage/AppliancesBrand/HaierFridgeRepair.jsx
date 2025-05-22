@@ -5,7 +5,7 @@ const HaierFridgeRepair = () => {
   return (
     <div className="serviceDetails">
       <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/Haier-fridge-repair.avif"
+        bgImg="img/banners/homeappliancesbrands/Haier-Fridge-repair-faj.avif"
         Title="Haier Fridge Repair"
       ></BreadCumb>
 

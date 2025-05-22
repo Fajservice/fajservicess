@@ -5,7 +5,7 @@ const WestpointAcRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/ac_service-bannerbg.avif"
+                bgImg="img/acbrands/westpoint-ac-repair-faj.avif"
                 Title="Westpoint AC Repair in Dubai - AC Maintenance and Services"
             ></BreadCumb> 
             <WestpointAcRepairDetail></WestpointAcRepairDetail>           
