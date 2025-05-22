@@ -10,7 +10,7 @@ const BreadCumb = ({ bgImg, mobileBgImg, Title }) => {
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
-          minHeight: '300px',
+          minHeight: '100%',
           position: 'relative'
         }}
       >
