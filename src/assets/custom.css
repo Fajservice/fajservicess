@@ -764,7 +764,7 @@ p a {
   }
 
   .cs_page_heading {
-    height: 65px;
+    height: 122px;
   }
 
   .cs_logo_bg_shape img {
@@ -1051,4 +1051,10 @@ max-height: 117px !important;
   height: 154px;
   padding: 15px;
   max-width: inherit;
+}
+tr.Window.Ton-3, tr.Split.Ton-4, tr.Central.Ton-4, tr.Chill.Ton-4, tr.Inverter.Ton-4 {
+    border-bottom: 5px solid #000;
+}
+.faj-price-table td {
+    border: 1px solid #000;
 }
