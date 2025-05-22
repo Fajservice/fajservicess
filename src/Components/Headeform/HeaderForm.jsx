@@ -92,10 +92,10 @@ const HeaderForm = () => {
           {status.info.msg}
         </div>
       )}
-      <div className="d-block d-md-none mt-4 p-3 p-sm-4 rounded" style={{ backgroundColor: "rgba(255, 255, 255, 0.3)" }}>
+      <div className="d-block d-md-none p-3 p-sm-4 rounded" style={{ backgroundColor: "rgba(255, 255, 255, 0.3)", marginTop:"4.2rem" }}>
         <form onSubmit={handleSubmit}>
           <div className="row align-items-center">
-            <div className="col-12 col-md-6">
+            <div className="col-12 col-md-6" style={{marginTop:"1.1rem"}}>
               <div className="mb-3">
 
                 <input type="text" name="name" className="form-control" id="name" placeholder="Enter your name" value={formData.name} onChange={handleChange} required />
