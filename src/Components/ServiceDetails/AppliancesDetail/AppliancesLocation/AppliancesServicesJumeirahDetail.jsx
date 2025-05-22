@@ -17,7 +17,7 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages.jsx";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 
-const AppliancesServicesInJumeirahDetail = ({ subtitle, title, bgImg }) => {
+const AppliancesServicesJumeirahDetail = ({ subtitle, title, bgImg }) => {
 
 
     // For SEO
@@ -139,7 +139,7 @@ const AppliancesServicesInJumeirahDetail = ({ subtitle, title, bgImg }) => {
     
                     <section className="section cs_py_30">
                         <div className="container">
-                            <h1 className="cs_fs_30">Appliances Services In Jumeirah</h1>
+                            <h1 className="cs_fs_30">Appliances Services Jumeirah</h1>
                             {/* <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2> */}
                             <p>
                                 Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
@@ -949,4 +949,4 @@ const AppliancesServicesInJumeirahDetail = ({ subtitle, title, bgImg }) => {
   )
 }
 
-export default AppliancesServicesInJumeirahDetail
+export default AppliancesServicesJumeirahDetail

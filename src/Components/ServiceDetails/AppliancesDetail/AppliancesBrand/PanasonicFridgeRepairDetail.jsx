@@ -11,7 +11,7 @@ import testimonial_data from '../../../../Data/AppliancesData/AppliancesTestimon
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
-import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";      
+import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 // For SEO
 const titleSeo = "Panasonic Fridge Repair Dubai - Washing Machine Service";
 const description = "If you're searching for a reliable Panasonic fridge Repair in Dubai. Call-FAJ 043300002 for Panasonic washing machine, dishwasher, refrigerator service";
@@ -133,6 +133,7 @@ const PanasonicFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
+                        <h1 className="cs_fs_30">Panasonic Fridge Repair</h1>
                         <p>
                             Panasonic  appliances are the best among the other brands out there. Still, products of the best brands even do not last endlessly. In addition, we are all sure that our appliances break down when we need them the most. Reasonably, your first reaction will be to see if your appliance is repairable. You can fix minor issues, but mostly, you cannot. So why worry? We are the best Panasonic  appliance repair service provider in Dubai. We are the most experienced industry experts serving since 2010 in Dubai. With hands-on experience with all home appliances, you can expect successful and swift repairs from us. Panasonic  Fridge Repair in Dubai So, contact us today to get your repair appointment. Enjoy superior Panasonic  appliance repair with FAJ Technical Services LLC.
                         </p>

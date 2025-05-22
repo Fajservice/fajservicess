@@ -84,6 +84,7 @@ import SuperGeneralAcRepair from "../Pages/AcPages/AcBrand/SuperGeneralAcRepair"
 import ToshibaAcRepair from "../Pages/AcPages/AcBrand/ToshibaAcRepair";
 import LgAcRepair from "../Pages/AcPages/AcBrand/LgAcRepair";
 import AftronAcRepair from "../Pages/AcPages/AcBrand/AftronAcRepair";
+import FrigidaireRefrigeratorRepair from "../Pages/AcPages/AcBrand/FrigidaireRefrigeratorRepair";
 import PanasonicAcRepair from "../Pages/AcPages/AcBrand/PanasonicAcRepair";
 import WhirlpoolAcRepair from "../Pages/AcPages/AcBrand/WhirlpoolAcRepair";
 import SamsungAcRepair from "../Pages/AcPages/AcBrand/SamsungAcRepair";
@@ -280,6 +281,7 @@ import AppliancesServicesInTheViews from "../Pages/AppliancesPage/AppliancesLoca
 import AppliancesServicesInAlSafa from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServicesInAlSafa.jsx";
 
 import AppliancesServicesInJumeirah from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServicesInJumeirah.jsx";
+import AppliancesServicesJumeirah from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServicesJumeirah.jsx";
 import AppliancesServicesInDiscoveryGardens from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServicesInDiscoveryGardens.jsx";
 import AppliancesServicesInTheLakes from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServicesInTheLakes.jsx";
 import AppliancesServicesInJumeirahGolfEstates from "../Pages/AppliancesPage/AppliancesLocation/AppliancesServicesInJumeirahGolfEstates.jsx";
@@ -525,10 +527,10 @@ export const router = createBrowserRouter([
         path: "/refrigerator-repair-service/",
         element: <RefrigeratorRepairInDubai></RefrigeratorRepairInDubai>,
       },
-      // {
-      //   path: "/cold-room-repair/",
-      //   element: <ColdRoomRepair></ColdRoomRepair>,
-      // },
+      {
+        path: "/cold-room-repair/",
+        element: <ColdRoomRepair></ColdRoomRepair>,
+      },
       {
         path: "/coleman-ac-repair-in-dubai-coleman-ac-maintenance-in-dubai-coleman-ac-fix-in-dubai-coleman-ac-service-in-dubai-coleman-air-condition-repair-in-dubai-coleman-air-condition-maintenance-in-dubai-coleman/",
         element: <ColemenAcRepair></ColemenAcRepair>,
@@ -600,6 +602,10 @@ export const router = createBrowserRouter([
       {
         path: "/aftron-ac-repair-maintenance-service-in-dubai-2/",
         element: <AftronAcRepair />
+      },
+      {
+        path: "/frigidaire-refrigerator-repair-in-dubai-fridge-repair-in-dubai-washing-machine-repair-in-dubai-dishwasher-cooker-oven-repairs-fix-service-in-dubai/",
+        element: <FrigidaireRefrigeratorRepair />
       },
       {
         path: "/panasonic-ac-repair-in-dubai-panasonic-ac-maintenance-in-dubai-panasonic-ac-fix-in-dubai-panasonic-ac-service-in-dubai-panasonic-air-condition-repair-in-dubai-panasonic-air-condition-maintenance-in-du/",
@@ -1298,7 +1304,7 @@ export const router = createBrowserRouter([
         element: <DaewooHomeApplianceRepair />,
       },
       {
-        path: "aftron-fridge-repair-in-dubai-aftron-washing-machine-repair-in-dubai-aftron-cooker-repair-in-dubai-aftron-oven-repair-in-dubai-aftron-appliances-maintenance-in-dubai-aftron-refrigerator-fix-repairs-se/",
+        path: "/aftron-fridge-repair-in-dubai-aftron-washing-machine-repair-in-dubai-aftron-cooker-repair-in-dubai-aftron-oven-repair-in-dubai-aftron-appliances-maintenance-in-dubai-aftron-refrigerator-fix-repairs-se/",
         element: <AftronFridgeRepair />,
       },
       {
@@ -1521,8 +1527,12 @@ export const router = createBrowserRouter([
         element: <AppliancesServicesInAlSafa />,
       },
       {
-        path: "/appliances-services-in-jumeirah/",
+        path: "/appliances-services-in-jumeirah-park/",
         element: <AppliancesServicesInJumeirah />,
+      },
+      {
+        path: "/appliances-services-jumeirah/",
+        element: <AppliancesServicesJumeirah />,
       },
       {
         path: "/appliances-services-in-discovery-gardens/",
