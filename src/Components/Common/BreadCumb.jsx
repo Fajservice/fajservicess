@@ -17,9 +17,9 @@ const BreadCumb = ({ bgImg, mobileBgImg, Title }) => {
         <div className="container h-100">
           <div className="row align-items-center h-100">
             <div className="col-12 col-md-6 mt-4 mb-4 d-flex justify-content-center">
-              <h1 className="cs_white_color text-center" style={{ fontSize: "clamp(1.75rem, 5vw, 2.625rem)" }}>
+              {/* <h1 className="cs_white_color text-center" style={{ fontSize: "clamp(1.75rem, 5vw, 2.625rem)" }}>
                 {Title}
-              </h1>
+              </h1> */}
             </div>
           </div>
         </div>
@@ -35,6 +35,7 @@ const BreadCumb = ({ bgImg, mobileBgImg, Title }) => {
           backgroundRepeat: 'no-repeat',
           maxWidth: '100%',
           maxHeight: '100rem',
+          minHeight: '122px',
           position: 'relative'
         }}
       >
@@ -55,7 +56,7 @@ const BreadCumb = ({ bgImg, mobileBgImg, Title }) => {
           <div className="row align-items-center h-100">
             <div className="col-12">
               <div className="mobile-banner-content text-center py-4" style={{ position: 'relative', zIndex: 2 }}>
-                <h1 
+                {/* <h1 
                   className="cs_white_color mb-3" 
                   style={{ 
                     fontSize: "clamp(1.5rem, 6vw, 2rem)",
@@ -64,9 +65,9 @@ const BreadCumb = ({ bgImg, mobileBgImg, Title }) => {
                   }}
                 >
                   {Title}
-                </h1>
+                </h1> */}
                 
-                <div className="mobile-decoration">
+                {/* <div className="mobile-decoration">
                   <div 
                     className="decoration-line mx-auto"
                     style={{
@@ -76,7 +77,7 @@ const BreadCumb = ({ bgImg, mobileBgImg, Title }) => {
                       borderRadius: "2px"
                     }}
                   ></div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
