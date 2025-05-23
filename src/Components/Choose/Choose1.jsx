@@ -41,9 +41,9 @@ const Choose1 = ({img1,content,btnName,btnUrl,img2,img3}) => {
 
             <div className="col-xl-4 wow fadeInRight">
               <div className="cs_features_thumbnail_2 position-relative">
-                <img src={`${import.meta.env.BASE_URL}${img2}`} alt="Feature Image" />
+                <img src={`${import.meta.env.BASE_URL}${img2}`} loading="lazy" alt="Feature Image" />
                 <div className="cs_features_thumbnail_3">
-                  <img src={`${import.meta.env.BASE_URL}${img3}`} alt="Feature Image" />
+                  <img src={`${import.meta.env.BASE_URL}${img3}`} loading="lazy" alt="Feature Image" />
                 </div>
               </div>
             </div>

@@ -82,7 +82,7 @@ const Testimonial1 = ({subtitle,title,bgImg}) => {
                     </div>
                     <blockquote className="cs_fs_16">{item.desc}</blockquote>
                     <div className="cs_quote_icon position-absolute">
-                      <img src={`${import.meta.env.BASE_URL}img/icons/quote_1.svg`} alt="Quote Icon" />
+                      <img src={`${import.meta.env.BASE_URL}img/icons/quote_1.svg`} loading="lazy" alt="Quote Icon" />
                     </div>
                   </div>
                 </div>

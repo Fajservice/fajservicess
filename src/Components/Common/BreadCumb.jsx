@@ -1,11 +1,10 @@
 const BreadCumb = ({ bgImg, mobileBgImg, Title }) => {
-
   return (
     <section className="cs_page_heading cs_bg_filed cs_primary_bg">
       {/* Desktop Banner */}
-      <div 
+      <div
         className="desktop-banner d-none d-md-block"
-        style={{ 
+        style={{
           backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
@@ -24,11 +23,10 @@ const BreadCumb = ({ bgImg, mobileBgImg, Title }) => {
           </div>
         </div>
       </div>
-
       {/* Mobile Banner */}
-      <div 
+      <div
         className="mobile-banner d-block d-md-none"
-        style={{ 
+        style={{
           backgroundImage: `url(${import.meta.env.BASE_URL}${mobileBgImg || bgImg})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
@@ -39,7 +37,7 @@ const BreadCumb = ({ bgImg, mobileBgImg, Title }) => {
           position: 'relative'
         }}
       >
-        <div 
+        {/* <div
           className="mobile-overlay"
           style={{
             position: "absolute",
@@ -50,8 +48,7 @@ const BreadCumb = ({ bgImg, mobileBgImg, Title }) => {
             backgroundColor: "rgba(0, 0, 0, 0.3)",
             zIndex: 1
           }}
-        ></div>
-
+        ></div> */}
         <div className="container h-100">
           <div className="row align-items-center h-100">
             <div className="col-12">
@@ -83,36 +80,21 @@ const BreadCumb = ({ bgImg, mobileBgImg, Title }) => {
           </div>
         </div>
       </div>
-
-
-      <style jsx>{`
+      <style>{`
         .desktop-banner, .mobile-banner {
           display: flex;
           align-items: center;
         }
-        
         @media (max-width: 767.98px) {
           .mobile-decoration {
             animation: fadeInUp 0.6s ease-out 0.3s both;
           }
         }
-        
-        @keyframes fadeInUp {
-          from {
-            opacity: 0;
-            transform: translateY(20px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
         }
       `}</style>
-
       {/* Extra padding div to ensure proper spacing after the section */}
       <div className="pb-3 d-md-none"></div>
     </section>
   );
 };
-
 export default BreadCumb;
