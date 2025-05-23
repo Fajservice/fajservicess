@@ -15,8 +15,16 @@ import parse from 'html-react-parser';
 import Slider from "react-slick";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
+import HeaderForm from "../../../Headeform/HeaderForm";
 
 const DaikinAcRepair = ({ subtitle, title, bgImg }) => {
+  // For SEO
+  const titleSeo = "Daikin Ac Repair in Dubai - Air Conditioner Maintenance";
+  const description = "Relax with Daikin AC. Call 0507464712 for Daikin Ac Repair in Dubai We are experts in HVAC, Central Air Conditioner maintenance service near me";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://fajservices.com/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con/";
+
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -72,9 +80,22 @@ const DaikinAcRepair = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Daikin Ac Repair in Dubai -  Air Conditioner Maintenance</title>
-        <meta name="description" content="Relax with Daikin AC. Call 0507464712 for Daikin Ac Repair in Dubai We are experts in HVAC, Central Air Conditioner maintenance service near me" />
+        <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+
+        <Link rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
+
       </HelmetProvider>
+      <HeaderForm />
 
       <div className="cs_service_details">
         {/* intro */}
@@ -113,23 +134,23 @@ const DaikinAcRepair = ({ subtitle, title, bgImg }) => {
                 </p>
 
 
-                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
-                            <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
-                            <div className="row">
-                                <div className="col-sm-6">
-                                    <ul className="mb-0">
-                                        <li>Higher electricity bills </li>
-                                        <li>Air is not blowing cold</li>
-                                        <li>Drips from your air conditioner</li>
-                                    </ul>
-                                </div>
-                                <div className="col-sm-6">
-                                    <ul className="mb-0">
-                                        <li>Loss of AC performance</li>
-                                        <li>Poor AC airflow, making noises</li>
-                                    </ul>
-                                </div>
-                            </div></div>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
+                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                <div className="row">
+                  <div className="col-sm-6">
+                    <ul className="mb-0">
+                      <li>Higher electricity bills </li>
+                      <li>Air is not blowing cold</li>
+                      <li>Drips from your air conditioner</li>
+                    </ul>
+                  </div>
+                  <div className="col-sm-6">
+                    <ul className="mb-0">
+                      <li>Loss of AC performance</li>
+                      <li>Poor AC airflow, making noises</li>
+                    </ul>
+                  </div>
+                </div></div>
 
               <div className="col-md-6 ">
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/daikin-ac-repair.avif`} alt="Daikin AC Service" />
@@ -138,8 +159,8 @@ const DaikinAcRepair = ({ subtitle, title, bgImg }) => {
             <AppliancesAppointmentCol />
           </div>
         </section>
-         {/* Maintenance Contract */}
-         <MaintenanceContract />
+        {/* Maintenance Contract */}
+        <MaintenanceContract />
         {/* Why*/}
         <section className="section cs_py_30 ">
           <div className="container">
@@ -170,7 +191,7 @@ const DaikinAcRepair = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-         {/* Problems  */}
+        {/* Problems  */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="text-center">Common Daikin AC Problems That May Require Maintenance</h3>
@@ -287,7 +308,7 @@ const DaikinAcRepair = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-         {/* HERE  */}
+        {/* HERE  */}
         <section className="section cs_py_30 ">
           <div className="container">
             <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR DAIKIN AIR CONDITIONER SYSTEMS</h3>
@@ -407,7 +428,7 @@ const DaikinAcRepair = ({ subtitle, title, bgImg }) => {
               </div>
             </div>
           </div>
-        </section>       
+        </section>
 
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
@@ -499,11 +520,11 @@ const DaikinAcRepair = ({ subtitle, title, bgImg }) => {
         {/* We specialise  */}
         <section className="section cs_py_30 bg-light-gray ">
           <div className="container">
- <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
-                <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
-                <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br/>
-                <b>We provide 2-month service warranty</b><br/>
-                and <small>3-month parts warranty</small> as standard.</p>
+            <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
+            <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
+            <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
+              <b>We provide 2-month service warranty</b><br />
+              and <small>3-month parts warranty</small> as standard.</p>
             <h3>We specialise in Daikin air conditioning services for the following types</h3>
             <div className="row">
               <div className="col-12">

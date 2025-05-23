@@ -53,9 +53,9 @@ const BreadCumb = ({ bgImg, mobileBgImg, Title }) => {
           <div className="row align-items-center h-100">
             <div className="col-12">
               <div className="mobile-banner-content text-center py-4" style={{ position: 'relative', zIndex: 2 }}>
-                {/* <h1
-                  className="cs_white_color mb-3"
-                  style={{
+                {/* <h1 
+                  className="cs_white_color mb-3" 
+                  style={{ 
                     fontSize: "clamp(1.5rem, 6vw, 2rem)",
                     textShadow: "2px 2px 4px rgba(0,0,0,0.5)",
                     fontWeight: "600"
@@ -63,8 +63,9 @@ const BreadCumb = ({ bgImg, mobileBgImg, Title }) => {
                 >
                   {Title}
                 </h1> */}
+                
                 {/* <div className="mobile-decoration">
-                  <div
+                  <div 
                     className="decoration-line mx-auto"
                     style={{
                       width: "60px",
