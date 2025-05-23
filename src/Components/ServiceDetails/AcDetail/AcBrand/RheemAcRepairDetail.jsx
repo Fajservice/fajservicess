@@ -6,17 +6,22 @@ import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
-import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMaintenance";
-import QuickGuide from "../../../QuickGuide/QuickGuide";
-import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 import testimonial_data_Rheem from '../../../../Data/AcData/AcTestimonial/RheemAcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
+import HeaderForm from "../../../Headeform/HeaderForm";
 
 const RheemAcRepair = ({ subtitle, title, bgImg }) => {
+  // For SEO
+  const titleSeo = "Rheem AC Repair in Dubai - Air Conditioner Maintenance Near";
+  const description = "Best Rheem Air Conditioning in UAE. Call at 043300002 for Sameday of Your Rheem AC (Air Conditioner) Repair, Maintenance & Service in Dubai";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://www.fajservices.ae/rheem-ac-maintenance-in-dubai/";
+
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -72,9 +77,22 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Rheem AC Repair in Dubai - Air Conditioner Maintenance Near</title>
-        <meta name="description" content="Best Rheem Air Conditioning in UAE. Call at 043300002 for Sameday of Your Rheem AC (Air Conditioner) Repair, Maintenance & Service in Dubai" />
+        <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+
+        <Link rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
+
       </HelmetProvider>
+      <HeaderForm />
 
       <div className="cs_service_details">
         {/* intro */}
@@ -125,7 +143,7 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
                     </ul>
                   </div>
                 </div>
-                </div>
+              </div>
 
               <div className="col-md-6 ">
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Daikin AC Service" />

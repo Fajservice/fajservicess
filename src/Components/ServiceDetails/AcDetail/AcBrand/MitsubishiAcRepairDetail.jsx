@@ -6,15 +6,23 @@ import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
-import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 import testimonial_data_MitsubishiAc from '../../../../Data/AcData/AcTestimonial/MitsubishiAcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
+import HeaderForm from "../../../Headeform/HeaderForm";
 
 const MitsubishiAcRepair = ({ subtitle, title, bgImg }) => {
+
+  // For SEO
+  const titleSeo = "Mitsubishi AC Repair in Dubai - Air Conditioner Maintenance";
+  const description = "Are you finding Mitsubishi AC repair in Dubai? Call FAJ Expert 043300002 for central, HVAC, VRF air conditioner maintenance and ac cleaning service near me";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://www.fajservices.ae/mitsubishi-ac-repair-in-dubai/";
+
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -69,10 +77,24 @@ const MitsubishiAcRepair = ({ subtitle, title, bgImg }) => {
   };
   return (
     <>
+
       <HelmetProvider>
-        <title>Mitsubishi AC Repair in Dubai - Air Conditioner Maintenance</title>
-        <meta name="description" content="Are you finding Mitsubishi AC repair in Dubai? Call FAJ Expert 043300002 for central, HVAC, VRF air conditioner maintenance and ac cleaning service near me" />
+        <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+
+        <Link rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
+
       </HelmetProvider>
+      <HeaderForm />
 
       <div className="cs_service_details">
         {/* intro */}
@@ -93,7 +115,7 @@ const MitsubishiAcRepair = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-       
+
 
         {/* 2 col */}
         <section className="section cs_py_30 bg-light-gray mb-4">
@@ -107,23 +129,23 @@ const MitsubishiAcRepair = ({ subtitle, title, bgImg }) => {
                   <br />Our team specializes in the cleaning service Mitsubishi air conditioner across Dubai and Sharjah. At FAJ, we are committed to providing reliable fix that ensures your comfort throughout the year.
                 </p>
 
-                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
-                            <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
-                            <div className="row">
-                                <div className="col-sm-6">
-                                    <ul className="mb-0">
-                                        <li>Higher electricity bills </li>
-                                        <li>Air is not blowing cold</li>
-                                        <li>Drips from your air conditioner</li>
-                                    </ul>
-                                </div>
-                                <div className="col-sm-6">
-                                    <ul className="mb-0">
-                                        <li>Loss of AC performance</li>
-                                        <li>Poor AC airflow, making noises</li>
-                                    </ul>
-                                </div>
-                            </div></div>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
+                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                <div className="row">
+                  <div className="col-sm-6">
+                    <ul className="mb-0">
+                      <li>Higher electricity bills </li>
+                      <li>Air is not blowing cold</li>
+                      <li>Drips from your air conditioner</li>
+                    </ul>
+                  </div>
+                  <div className="col-sm-6">
+                    <ul className="mb-0">
+                      <li>Loss of AC performance</li>
+                      <li>Poor AC airflow, making noises</li>
+                    </ul>
+                  </div>
+                </div></div>
 
               <div className="col-md-6 ">
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac filter.avif`} alt="Mitsubshi AC Service" />
@@ -132,8 +154,8 @@ const MitsubishiAcRepair = ({ subtitle, title, bgImg }) => {
             <AppliancesAppointmentCol></AppliancesAppointmentCol>
           </div>
         </section>
-         {/* Maintenance Contract */}
-         <MaintenanceContract />
+        {/* Maintenance Contract */}
+        <MaintenanceContract />
         {/* Why*/}
         <section className="section cs_py_30">
           <div className="container">
@@ -299,10 +321,10 @@ const MitsubishiAcRepair = ({ subtitle, title, bgImg }) => {
                 <p className='mb-0'>We specialize in different types and brands of HVAC systems, including Fresh Air Handling Units (FAHU)...</p>
                 <p className='mb-0'><strong>Our services include:</strong></p>
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-<li> <strong> Mitsubishi AC Installation: </strong> Professional installation of different Mitsubishi air conditioning systems to guarantee optimal performance. </li>
-<li> <strong> Mitsubishi AC Inspection: </strong> Comprehensive fault diagnosis to identify issues accurately. We provide detailed quotes and eligibility assessments to address concerns regarding your system. </li>
-<li> <strong> Mitsubishi AC Repair Service: </strong> We offer fast and effective repair services for all Mitsubishi AC components, addressing issues such as leaks, electrical failures, and system malfunctions. Please contact us for specific services or any questions you may have! </li>
-<li> <strong> Mitsubishi AC Annual Maintenance Contract: </strong> This contract outlines the terms and services for Mitsubishi AC annual maintenance.  </li>
+                  <li> <strong> Mitsubishi AC Installation: </strong> Professional installation of different Mitsubishi air conditioning systems to guarantee optimal performance. </li>
+                  <li> <strong> Mitsubishi AC Inspection: </strong> Comprehensive fault diagnosis to identify issues accurately. We provide detailed quotes and eligibility assessments to address concerns regarding your system. </li>
+                  <li> <strong> Mitsubishi AC Repair Service: </strong> We offer fast and effective repair services for all Mitsubishi AC components, addressing issues such as leaks, electrical failures, and system malfunctions. Please contact us for specific services or any questions you may have! </li>
+                  <li> <strong> Mitsubishi AC Annual Maintenance Contract: </strong> This contract outlines the terms and services for Mitsubishi AC annual maintenance.  </li>
 
 
                   <p className="mb-0"> Regular air conditioning maintenance (AMC/PPM) is crucial for the optimal performance, efficiency, and longevity of your system.</p>
@@ -502,31 +524,31 @@ const MitsubishiAcRepair = ({ subtitle, title, bgImg }) => {
         {/* We specialise  */}
         <section className="section cs_py_30 bg-light-gray ">
           <div className="container">
-              <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
-                <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
-                <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br/>
-                <b>We provide 2-month service warranty</b><br/>
-                and <small>3-month parts warranty</small> as standard.</p>
+            <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
+            <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
+            <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
+              <b>We provide 2-month service warranty</b><br />
+              and <small>3-month parts warranty</small> as standard.</p>
             <h3>We specialise in Mitsubishi air conditioning services for the following types</h3>
             <div className="row">
               <div className="col-12">
 
-<p className="mb-0"> 
-  <strong> Mitsubishi Split Air Conditioner Service: </strong> 
-  FAJ offers reliable repair and maintenance for Mitsubishi AC units in Dubai.
-   Our expert team specializes in Mitsubishi split systems, VRF solutions, and central air conditioning, ensuring optimal performance and comfort. Count on us for efficient solutions, whether for routine maintenance or urgent repairs. </p>
+                <p className="mb-0">
+                  <strong> Mitsubishi Split Air Conditioner Service: </strong>
+                  FAJ offers reliable repair and maintenance for Mitsubishi AC units in Dubai.
+                  Our expert team specializes in Mitsubishi split systems, VRF solutions, and central air conditioning, ensuring optimal performance and comfort. Count on us for efficient solutions, whether for routine maintenance or urgent repairs. </p>
 
-<p className="mb-0"> <strong> Mitsubishi Central Air Conditioner Repair and Service: </strong> FAJ is a reputable service provider in Dubai, specializing in Mitsubishi air conditioning systems. They deliver reliable repairs and thorough maintenance services to ensure your AC operates efficiently. Committed to quality and customer satisfaction, FAJ focuses on keeping your space cool and comfortable, even in the hottest weather. </p>
-<p className="mb-0"> <strong> Mitsubishi AC Service and Repair: </strong> Mitsubishi AC Service offers peace of mind with our skilled technicians. At FAJ, we focus on efficient and reliable air conditioning services, including maintenance, repair, and installation. Trust our expert team to keep your HVAC system running smoothly and ensure your comfort year-round! </p>
-<p className="mb-0"> <strong> Mitsubishi Inverter Air Conditioner Maintenance: </strong> Depend on our expert team to promptly resolve any issues with your Mitsubishi air conditioner and restore its full functionality. </p>
-<p className="mb-0"> <strong> Mitsubishi HVAC Repair: </strong> We have extensive knowledge of Mitsubishi cassette type and package unit AC systems, and we provide reliable repair to ensure your unit operates efficiently. </p>
-<p className="mb-0"> <strong> Mitsubishi Ceiling AC Service and Repair: </strong> Our experts can accurately diagnose and fix any issues with your Mitsubishi air conditioner. </p>
-<p className="mb-0"> <strong> Mitsubishi VRF (Variable Refrigerant Flow) System Service and Repair: </strong> FAJ's Mitsubishi Variable Refrigerant Flow (VRF) System service offers reliable and efficient HVAC solutions tailored to your needs. Our skilled team prioritizes your comfort and satisfaction, ensuring exceptional service and peace of mind. Trust us to handle your climate control with expertise and care. </p>
-<p className="mb-0"> <strong> Mitsubishi Ducted Split AC Service and Repair: </strong> When it comes to repairing and maintaining Mitsubishi ducted split AC repair and maintenance service in Dubai, having expert assistance is essential for optimal performance. Our team of highly skilled technicians is dedicated to diagnosing and resolving a wide range of AC issues, ensuring minimal disruption to your daily life. You can trust us to provide the relief you need quickly and reliably. </p>
-<p className="mb-0"> <strong> Mitsubishi Wall-Mounted Air Conditioner Service and Repair: </strong> Beat Dubai's intense heat with our expert Mitsubishi AC services. We ensure your unit operates efficiently, keeping your indoor space cool and comfortable while temperatures soar outside. </p>
+                <p className="mb-0"> <strong> Mitsubishi Central Air Conditioner Repair and Service: </strong> FAJ is a reputable service provider in Dubai, specializing in Mitsubishi air conditioning systems. They deliver reliable repairs and thorough maintenance services to ensure your AC operates efficiently. Committed to quality and customer satisfaction, FAJ focuses on keeping your space cool and comfortable, even in the hottest weather. </p>
+                <p className="mb-0"> <strong> Mitsubishi AC Service and Repair: </strong> Mitsubishi AC Service offers peace of mind with our skilled technicians. At FAJ, we focus on efficient and reliable air conditioning services, including maintenance, repair, and installation. Trust our expert team to keep your HVAC system running smoothly and ensure your comfort year-round! </p>
+                <p className="mb-0"> <strong> Mitsubishi Inverter Air Conditioner Maintenance: </strong> Depend on our expert team to promptly resolve any issues with your Mitsubishi air conditioner and restore its full functionality. </p>
+                <p className="mb-0"> <strong> Mitsubishi HVAC Repair: </strong> We have extensive knowledge of Mitsubishi cassette type and package unit AC systems, and we provide reliable repair to ensure your unit operates efficiently. </p>
+                <p className="mb-0"> <strong> Mitsubishi Ceiling AC Service and Repair: </strong> Our experts can accurately diagnose and fix any issues with your Mitsubishi air conditioner. </p>
+                <p className="mb-0"> <strong> Mitsubishi VRF (Variable Refrigerant Flow) System Service and Repair: </strong> FAJ's Mitsubishi Variable Refrigerant Flow (VRF) System service offers reliable and efficient HVAC solutions tailored to your needs. Our skilled team prioritizes your comfort and satisfaction, ensuring exceptional service and peace of mind. Trust us to handle your climate control with expertise and care. </p>
+                <p className="mb-0"> <strong> Mitsubishi Ducted Split AC Service and Repair: </strong> When it comes to repairing and maintaining Mitsubishi ducted split AC repair and maintenance service in Dubai, having expert assistance is essential for optimal performance. Our team of highly skilled technicians is dedicated to diagnosing and resolving a wide range of AC issues, ensuring minimal disruption to your daily life. You can trust us to provide the relief you need quickly and reliably. </p>
+                <p className="mb-0"> <strong> Mitsubishi Wall-Mounted Air Conditioner Service and Repair: </strong> Beat Dubai's intense heat with our expert Mitsubishi AC services. We ensure your unit operates efficiently, keeping your indoor space cool and comfortable while temperatures soar outside. </p>
 
 
-              
+
                 <p>
                   <a href="https://www.fajservices.ae/ac-repair-in-al-barsha-air-condition-maintenance-in-al-barsha-air-conditioning-fix-amc-service-in-al-barsha-dubai/">Al Barsha</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-jebel-ali/">Jebel Ali</a> &nbsp;|&nbsp;
