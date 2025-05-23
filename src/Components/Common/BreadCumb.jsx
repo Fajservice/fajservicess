@@ -1,4 +1,4 @@
-const BreadCumb = ({ bgImg, mobileBgImg, Title }) => {
+const BreadCumb = ({ bgImg, mobileBgImg }) => {
 
   return (
     <section className="cs_page_heading cs_bg_filed cs_primary_bg">
@@ -39,7 +39,7 @@ const BreadCumb = ({ bgImg, mobileBgImg, Title }) => {
           position: 'relative'
         }}
       >
-        <div 
+        {/* <div 
           className="mobile-overlay"
           style={{
             position: "absolute",
@@ -50,7 +50,7 @@ const BreadCumb = ({ bgImg, mobileBgImg, Title }) => {
             backgroundColor: "rgba(0, 0, 0, 0.3)",
             zIndex: 1
           }}
-        ></div>
+        ></div> */}
 
         <div className="container h-100">
           <div className="row align-items-center h-100">
@@ -85,7 +85,7 @@ const BreadCumb = ({ bgImg, mobileBgImg, Title }) => {
       </div>
 
 
-      <style jsx>{`
+      <style>{`
         .desktop-banner, .mobile-banner {
           display: flex;
           align-items: center;

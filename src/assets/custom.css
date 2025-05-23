@@ -798,7 +798,18 @@ p a {
 }
 
 @media screen and (max-width: 576px) {
-
+  .cs_site_header.cs_style_1 .cs_btn{
+    font-size: 12px !important;
+  }
+  .cs_logo_bg_shape {
+    right: -35px;
+  }
+  .cs_site_branding {
+    max-width: 150px;
+  }
+  .cs_site_header.cs_style_1 .cs_main_header_right {
+    padding-right: 40px;
+  }
   .cs_service_details h2,
   .cs_fs_30,
   h3,

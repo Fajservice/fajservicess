@@ -7192,15 +7192,16 @@ label {
   .cs_site_header.cs_style_1 .cs_top_header_left {
     display: none;
  }
- .cs_site_header.cs_style_1 .cs_main_header_right{
+ /* .cs_site_header.cs_style_1 .cs_main_header_right{
   display: none
- }
+ } */
 
 }
 @media screen and (max-width: 575px) {
-  .cs_site_header.cs_style_1 .cs_btn span {
+  /* .cs_site_header.cs_style_1 .cs_btn span {
     display: none;
- }
+ } */
+  
   .cs_site_header.cs_style_1 .cs_btn svg {
     margin-right: 0;
     width: 20px;

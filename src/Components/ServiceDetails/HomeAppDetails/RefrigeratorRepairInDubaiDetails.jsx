@@ -15,6 +15,7 @@ import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
+import HeaderForm from "../../Headeform/HeaderForm";
 
 const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
 
@@ -132,7 +133,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
         <meta property="og:type" content="website" />
         <meta property="og:url" content={URL} />
       </HelmetProvider>
-
+      <HeaderForm />
       <div className="cs_service_details">
 
         <section className="section cs_py_30">
@@ -153,8 +154,6 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* Maintenance Contract */}
-        <MaintenanceContract />
 
         {/* Refrigerator Repair & Service Near You */}
         <section className="section cs_py_30 bg-light-gray">
@@ -748,6 +747,8 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
         </section>
 
 
+        {/* Maintenance Contract */}
+        <MaintenanceContract />
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}

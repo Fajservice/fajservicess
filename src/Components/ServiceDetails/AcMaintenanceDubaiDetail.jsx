@@ -16,6 +16,7 @@ import Slider from "react-slick";
 import testimonial_data from '../../Data/AcData/AcTestimonial/AcServiceTestimonials.json';
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
+import HeaderForm from "../Headeform/HeaderForm";
 
 // import { Link } from "react-router-dom";
 
@@ -103,7 +104,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
         <meta property="og:type" content="website" />
         <meta property="og:url" content={URL} />
       </HelmetProvider>
-
+      <HeaderForm />
 
       <div className="cs_service_details">
 
@@ -172,8 +173,6 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
         </section>
 
 
-        {/* Maintenance Contract */}
-        <MaintenanceContract />
 
 
         {/* Why Do You Need Regular AC Maintenance in Dubai? */}
@@ -501,6 +500,8 @@ Typically, regular cleaning service of your Carrier VRF (Variable Refrigerant Fl
           </div>
         </section>
 
+        {/* Maintenance Contract */}
+        <MaintenanceContract />
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}

@@ -5,7 +5,8 @@ const FreestandingHomeAppliancesRepairService = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/banners/small-home.avif"
+                bgImg="img/banners/free-standing-home-appliances-repair.avif"
+                mobileBgImg="img/banners/free-standing-home-appliances-repair-mob.avif"
                 Title="Home Appliance Repair and Service in Dubai"
             ></BreadCumb>
 

@@ -1,8 +1,9 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react';
 import ReCAPTCHA from 'react-google-recaptcha';
 
 
 const HeaderForm = () => {
+  const recaptchaRef = useRef(null);
   const [status, setStatus] = useState({
     submitted: false,
     submitting: false,
@@ -26,14 +27,27 @@ const HeaderForm = () => {
   const handleCaptchaChange = (token) => {
     setCaptchaToken(token);
   };
-
-  const handleSubmit = async (e) => {
+ const handleSubmit = async (e) => {
     e.preventDefault();
+    setStatus(prevStatus => ({ ...prevStatus, submitting: true }));
 
-    if (!captchaToken) {
-      alert("Please complete the reCAPTCHA.");
+    // Trigger invisible reCAPTCHA challenge
+    if (recaptchaRef.current) {
+      recaptchaRef.current.execute();
+    }
+  };
+
+  const onReCAPTCHAChange = async (token) => {
+    if (!token) {
+      alert("Captcha failed. Please try again.");
+      setStatus({ submitted: false, submitting: false, info: { error: true, msg: "Captcha failed." } });
       return;
     }
+
+    // if (!captchaToken) {
+    //   alert("Please complete the reCAPTCHA.");
+    //   return;
+    // }
 
     setStatus(prevStatus => ({ ...prevStatus, submitting: true }));
 
@@ -92,32 +106,39 @@ const HeaderForm = () => {
           {status.info.msg}
         </div>
       )}
-      <div className="d-block d-md-none p-3 p-sm-4 rounded" style={{ backgroundColor: "rgba(255, 255, 255, 0.3)", marginTop:"4.2rem" }}>
+      <div className="d-block d-md-none p-3 p-sm-4 rounded" style={{ backgroundColor: "rgb(242 242 242)" }}>
         <form onSubmit={handleSubmit}>
           <div className="row align-items-center">
-            <div className="col-12 col-md-6" style={{marginTop:"1.1rem"}}>
-              <div className="mb-3">
+            <div className="col-12 col-md-6" style={{marginTop:"0.1rem"}}>
+              <div className="mb-2">
 
                 <input type="text" name="name" className="form-control" id="name" placeholder="Enter your name" value={formData.name} onChange={handleChange} required />
               </div>
-              <div className="mb-3">
+              <div className="mb-2">
 
                 <input type="tel" name="phone" className="form-control" id="phone" placeholder="Enter your phone number" pattern="[0-9]*" inputMode="numeric" value={formData.phone} onChange={handleChange}
                   onKeyPress={(e) => { if (!/[0-9]/.test(e.key)) e.preventDefault(); }} required />
               </div>
-              <div className="mb-3">
+              <div className="mb-2">
 
                 <input type="email" name="email" className="form-control" id="email" placeholder="Enter your email" value={formData.email} onChange={handleChange} required />
               </div>
             </div>
 
             <div className="col-12 col-md-6">
-              <div className="mb-3">
+              <div className="mb-2">
                 <textarea name="message" className="form-control h-100" id="message" rows="5" placeholder="Type your message here..." value={formData.message} onChange={handleChange} required></textarea>
               </div>
               {/* ✅ reCAPTCHA */}
               <div className="col-12 d-flex justify-content-center mb-3">
-                <ReCAPTCHA sitekey="6LeWuDQrAAAAAA2kK9zRDfujrKPB8zdR6_mTOrdD" onChange={handleCaptchaChange} />
+                {/* ✅ Invisible reCAPTCHA */}
+                <ReCAPTCHA
+                  ref={recaptchaRef}
+                  sitekey="6Le2yTkrAAAAAGhNjcIJgpsRIRp_SbtL8xpQ5aHG"
+                  size="invisible"
+                  badge="bottomright"
+                  onChange={onReCAPTCHAChange}
+                />
 
               </div>
             </div>
@@ -127,7 +148,9 @@ const HeaderForm = () => {
               <button type="submit"
                 className="cs_btn cs_style_1 rounded"
                 style={{ width: '150px', height: '40px' }}
-                disabled={status.submitting}>
+                disabled={status.submitting} data-sitekey="reCAPTCHA_site_key"
+            data-callback='onSubmit'
+            data-action='submit'>
                 <span>{status.submitting ? 'Submitting...' : 'Submit'}</span>
                 {!status.submitting && <i className="bi bi-arrow-right"></i>}
               </button>

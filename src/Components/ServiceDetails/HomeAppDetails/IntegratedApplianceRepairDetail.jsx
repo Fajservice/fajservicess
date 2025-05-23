@@ -145,7 +145,9 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">Select Oven Service Center for Same-Day Repairs in Dubai</h2>
+            {/* <h2 className="cs_fs_30">Select Oven Service Center for Same-Day Repairs in Dubai</h2>
+             */}
+             <h1 className="cs_fs_36">Built-in Appliances Repair Service Dubai</h1>
             <p>
               IFAJ Technical Services L.L.C. has been providing reliable and quality services, including installation, repair, and maintenance of built-in appliances, since 2010. We have completed projects in Dubai, Sharjah, and Abu Dhabi.
               <br />
@@ -164,8 +166,6 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* Maintenance Contract */}
-        <MaintenanceContract />
 
         {/* heading 1 */}
 
@@ -850,7 +850,9 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
         </section>
-
+        
+        {/* Maintenance Contract */}
+        <MaintenanceContract />
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}

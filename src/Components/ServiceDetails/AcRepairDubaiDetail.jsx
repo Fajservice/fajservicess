@@ -167,8 +167,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
         </section>
 
         
-        {/* Maintenance Contract */}
-        <MaintenanceContract />
+       
 
         {/*FAJ: Creating the Perfect Temperature All Year Round */}
         <section className="section cs_py_30 bg-light-gray">
@@ -529,7 +528,8 @@ Typically, regular cleaning service of your Carrier VRF (Variable Refrigerant Fl
 
           </div>
         </section>
-
+         {/* Maintenance Contract */}
+        <MaintenanceContract />
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
           <div className="container">

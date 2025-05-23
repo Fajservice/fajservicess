@@ -5,7 +5,7 @@ const HotPlateRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/banners/kitchen-equipments-banners/hot-plate.avif"
+                bgImg="img/banners/kitchen-equipments/hot-plate.avif"
                 Title="Hot Plate Repair"
             ></BreadCumb> 
 
