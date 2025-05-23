@@ -137,8 +137,9 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
+            <h1 className="cs_fs_30"> Refrigerator Repair and Service in Dubai</h1>
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">Choose Refrigerator Service Center for Same Day Repair in Dubai</h2>
+            {/* <h2 className="cs_fs_30">Choose Refrigerator Service Center for Same Day Repair in Dubai</h2> */}
             <p>Since 2010, FAJ has established itself as the go-to reference for refrigerator repair and service in Dubai and Sharjah.
               We prioritise repairs over replacements, helping you save money and avoid the bother of buying a new fridge or freezer.
               Rely on our experienced experts for fast and reliable refrigerator maintenance in Dubai!

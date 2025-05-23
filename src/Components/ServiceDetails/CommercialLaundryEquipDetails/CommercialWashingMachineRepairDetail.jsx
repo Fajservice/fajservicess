@@ -143,8 +143,8 @@ const CommercialWashingMachineRepairDetail = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">Choose Commercial Washing Machine Service Center for Same-Day Repairs in Dubai</h2>
+            <h1 className="cs_fs_30">Commercial Washing Machine Repair</h1>
+            {/* <h2 className="cs_fs_30">Choose Commercial Washing Machine Service Center for Same-Day Repairs in Dubai</h2> */}
             <p>
               Since 2010, FAJ has been a trusted name in Commercial Washing Machine repair and service in Dubai and Sharjah. Our skilled professionals are ready to assist with any brand, using high-quality tools for effective service.
               <br /> We prioritise repairs over replacements, helping you save money and avoid the hassle of buying a new Commercial Washing Machine. Rely on our experienced experts for fast and reliable Commercial Washing Machine maintenance in Dubai!

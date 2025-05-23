@@ -142,8 +142,8 @@ const GasRangeRepairServiceDetail = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">SELECT A COOKING APPLIANCE SERVICE CENTRE IN DUBAI FOR SAME-DAY REPAIR</h2>
+            <h1 className="cs_fs_30">/gas-cooker-repair-service/</h1>
+            {/* <h2 className="cs_fs_30">SELECT A COOKING APPLIANCE SERVICE CENTRE IN DUBAI FOR SAME-DAY REPAIR</h2> */}
             <p>
               Since 2010, F A J has supported you when things go wrong. We understand that your cooking appliances are essential for daily life.
               The induction cooktop, stove, or range is often key to an enjoyable cooking experience in a modern kitchen. After all, home-cooked meals are an excellent way to bring family and friends together. When your cooker breaks down, it can be both inconvenient and frustrating.

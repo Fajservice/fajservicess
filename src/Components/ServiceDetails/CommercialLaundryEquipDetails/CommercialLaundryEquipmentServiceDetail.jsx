@@ -15,7 +15,6 @@ import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
-import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 
 // import { Link } from "react-router-dom";
 
@@ -141,8 +140,9 @@ const WalkInRefrigerationServicesDetail = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
+            <h1 className="cs_fs_30">Commercial Laundry Equipment Service</h1>
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">Choose Commercial Laundry Service Center for Same-Day Repairs in Dubai</h2>
+            {/* <h2 className="cs_fs_30">Choose Commercial Laundry Service Center for Same-Day Repairs in Dubai</h2> */}
             <p>
               Since 2010, FAJ has been a trusted name in Commercial Laundry repair and service in Dubai and Sharjah. Our skilled professionals are ready to assist with any brand, using high-quality tools for effective service.
               <br /> We prioritise repairs over replacements, helping you save money and avoid the hassle of buying a new Commercial Laundry. Rely on our experienced experts for fast and reliable Commercial Laundry maintenance in Dubai!
@@ -156,9 +156,6 @@ const WalkInRefrigerationServicesDetail = ({ subtitle, title, bgImg }) => {
             {/*  */}
           </div>
         </section>
-
-        {/* Maintenance Contract */}
-        <MaintenanceContract />
 
 
 
@@ -201,7 +198,6 @@ const WalkInRefrigerationServicesDetail = ({ subtitle, title, bgImg }) => {
                     <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
                   </div>
                 </div>
-
               </div>
 
               {/* <!-- Delimit Section --> */}
@@ -248,7 +244,8 @@ const WalkInRefrigerationServicesDetail = ({ subtitle, title, bgImg }) => {
             </div>
           </div>
         </section>
-
+{/* Maintenance Contract */}
+        <MaintenanceContract />
 
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>

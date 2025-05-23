@@ -144,8 +144,9 @@ const BBQServiceDetail = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
+            <h1 className="cs_fs_30">Barbecue Repair – Best BBQ Grill Cleaning Service Dubai</h1>
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">A Quality Service for BBQ Grill Maintenance and Repair in Dubai</h2>
+            {/* <h2 className="cs_fs_30">A Quality Service for BBQ Grill Maintenance and Repair in Dubai</h2> */}
             <p>FAJ has been providing reliable barbecue grill repair, maintenance, and cleaning services in Dubai and Sharjah since 2010. Our quick barbeque grill repair service near you helps you get your BBQ grill back in working order so you can enjoy cooking your favourite meals. If your barbecue is malfunctioning, please contact our customer service. The gas or electric barbecue grill may require repairs due to performance issues that affect cooking quality or pose safety risks.</p>
 
             <div id="get-quote" className=" mt-3">
