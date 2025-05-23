@@ -155,8 +155,7 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
             <AppliancesAppointmentCol></AppliancesAppointmentCol>
           </div>
         </section>
-        {/* Maintenance Contract */}
-        <MaintenanceContract />
+
         {/* Why*/}
         <section className="section cs_py_30">
           <div className="container">
@@ -334,7 +333,7 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
                   <li> <strong> Gree AC Repair Service: </strong> Prompt and effective repair services for all Gree AC components, addressing issues like leaks, electrical failures, and system malfunctions. Contact us for specific services or any questions you may have! </li>
                   <li> <strong> Gree AC Annual Maintenance Contract: </strong> This contract details the terms and services for annual maintenance of Gree air conditioner units. Regular maintenance is crucial for the optimal performance, efficiency, and longevity of your air conditioning system. </li>
                 </ul>
-                <p className="mb-0"> Regular maintenance is crucial for the optimal performance, efficiency, and longevity of your air conditioning system..</p>
+                <p className="mb-0"> Regular maintenance is crucial for the optimal performance, efficiency, and longevity of your air conditioning system.</p>
               </div>
 
             </div>
@@ -529,6 +528,8 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
             <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
               <b>We provide 2-month service warranty</b><br />
               and <small>3-month parts warranty</small> as standard.</p>
+            
+            
             <h3>We specialise in Gree air conditioning services for the following types</h3>
             <div className="row">
               <div className="col-12">
@@ -593,6 +594,9 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
 
         <Practicaltip></Practicaltip>
         <AcProperties></AcProperties>
+
+        {/* Maintenance Contract */}
+        <MaintenanceContract />
 
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
@@ -683,8 +687,6 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
         </section>
 
       </div >
-
-
 
     </>
   );
