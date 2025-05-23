@@ -179,7 +179,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, bgImg }) => {
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/5-Reasons-Your-AC-Might-Need-Repairs-This-Summer.avif`} alt="AC Repairing" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/ac-repairing.avif`} alt="AC Repairing" />
               </div>
               <div className="col-md-6">
 

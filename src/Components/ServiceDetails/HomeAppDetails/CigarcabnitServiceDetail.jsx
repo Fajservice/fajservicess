@@ -142,8 +142,10 @@ const CigarcabnitServiceDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
-            <h3>Quality Cigar Humidor Cabinet Repair and Service in Dubai</h3>
-            <p>Since 2010, FAJ has provided expert repair and maintenance for top cigar fridges and humidors. If your cigar cabinet fridge is not working, don't buy a new one! Our repair services in Dubai can save you money and restore your humidor to like-new condition. With years of experience, we handle issues like broken sensors, uneven humidity, and power problems. Our skilled team uses high-quality tools to fix built in cigar refrigerator from all major brands, focusing on repairs rather than replacements. </p>
+            <h3>Premium Cigar Humidor Repair and Service Center in Dubai.</h3>
+            <p>Since 2010, FAJ has been providing expert repair and maintenance for top cigar humidors and professional cigar storage. If your cigar cabinet humidor is not working, don’t buy a new one!<br />
+FAJ is an authorized service center for <a href="https://afidanoshop.com/collections/all">Afidano Cigar Humidors</a>, providing in warranty and out-of-warranty repair, maintenance service in Dubai, Sharjah, and Abu Dhabi since 2024.<br />
+Our experienced team can fix problems like broken sensors, uneven humidity, and power problems, restoring your humidor to like-new condition. We use genuine spare parts and high-quality tools, focusing on repairs rather than replacements.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -164,11 +166,12 @@ const CigarcabnitServiceDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-md-6">
                 <h3 className="cs_fs_24 mb-1">Cigar Humidor Repair and Service Near You</h3>
 
-                <p className="mb-2">Enjoy top-notch service for your cigar humidors with us. We provide reliable repair services to ensure your humidors operate at peak performance. Whether you have a walk-in humidor, a freestanding unit, or a built-in cigar humidor, we are here to help. Our services are available in Dubai, Sharjah, and Abu Dhabi. </p>
-                <h3 className="cs_fs_24">
+                <p className="mb-2">Experience excellent service of cigar humidors with us. We offer reliable repair to ensure your humidors are functioning at their best.
+Whether you have a walk-in humidor, a freestanding unit, or a built-in cigar humidor, we are here to assist you.</p>
+                <h3 className="cs_fs_24 mb-1">
                 EXPRESS & EMERGENCY Cigar Cabinet REPAIR SERVICE
                 </h3>
-                <p>The technical inspection fee starting from AED 375 covers diagnosis, transportation, and reinstallation at your location in Dubai. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repairs for a coffee machine, stand mixer, or robot vacuum cleaner, please contact us.</p> <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br/>
+                <p><b>Terms & Conditions:</b>There is a callout fee that applies, ranging from AED 365 to 530 depending on unit, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p> <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br/>
 <b>We provide 2-month service warranty</b><br/>
 and <small>3-month parts warranty</small> as standard.</p>
               </div>
@@ -179,7 +182,17 @@ and <small>3-month parts warranty</small> as standard.</p>
 
               </div>
             </div>
-            <AppliancesAppointmentCol />
+            <div className="appointment-col border-small-top pt-3">
+                <p className="appointment-col">The <a href="https://www.google.com/maps/dir//Warehouse+No+-+S-02+Gate+35+Street+18b+-+Al+Quoz+-+Al+Quoz+Industrial+Area+4+-+Dubai+-+United+Arab+Emirates/@25.1105958,55.1452595,22158m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x3e5f699a600aceeb:0xa6121b25d557aa94!2m2!1d55.227661!2d25.1106186?entry=ttu&g_ep=EgoyMDI1MDQyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank"
+                  >FAJ workshop</a> is conveniently located near both Al Khail Road and Sheikh Zayed Road. When you drop off your appliance at the workshop, you will receive a <strong>discount</strong> on the technical inspection fee and other services.
+                </p>
+                <div id="get-quote" className="mt-3">
+                  <div className="container d-flex justify-content-center align-items-center gap-3">
+                    <WhatsappIconButton/>
+                    <CallNowButton/>
+                  </div>
+                </div>
+              </div>
           </div>
         </section>
 
@@ -241,11 +254,11 @@ and <small>3-month parts warranty</small> as standard.</p>
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Storing Cigars in an Incorrect Zone
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Incorrect Cigar Storage
                     </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">The location of your humidor is crucial to maintaining cigar quality. Many people mistakenly store it in unsuitable environments, harming the taste of their cigars.
+                    <p className="p-2 mb-0">The location of your humidor is crucial for maintaining cigar quality. Many store it in unsuitable places, harming the cigars' taste.
                     </p>
                   </div>
                 </div>
@@ -266,7 +279,7 @@ and <small>3-month parts warranty</small> as standard.</p>
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Not Regularly Monitoring Humidor</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Humidor Monitoring Neglect</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Setting up your humidor is just the first step. Regularly check the internal environment to keep your cigars in top condition.</p>
@@ -288,7 +301,7 @@ and <small>3-month parts warranty</small> as standard.</p>
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Cigars Lacking Proper Packaging</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Improper Cigar Packaging</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Cigar enthusiasts often mistakenly remove cigars from their original packaging before storing them in a humidor.</p>
@@ -328,7 +341,7 @@ and <small>3-month parts warranty</small> as standard.</p>
                   className="bordered-img blue-border"
                   width="100%"
                   height="350"
-                  src="https://www.youtube.com/embed/-9QrAXOJkRY?si=Godeo3hC2uCVihx8"
+                  src="https://www.youtube.com/embed/boj7h-gOf7M?si=0HYuG6UENnnUN6ze"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -523,7 +536,7 @@ and <small>3-month parts warranty</small> as standard.</p>
         </section>
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3>We specialise in air conditioning services for the following brands</h3>
+            <h3>We specialise in Cigar Cabinet services for the following brands</h3>
             <ul>
               <li><strong>Airo Fridgador Cabinet Repair Service</strong>: FAJ offers reliable airo fridgador cabinet repair and services in Dubai, with professionals who are experts in Airo fridgador cigar cabinet maintenance.</li>
               <li><strong>Raching Cigar Humidor Repair and Service</strong>: Located in Dubai, FAJ is your trusted destination for raching cigar humidor services. We specialize in electronic humidor repairs and maintenance, offering comprehensive solutions to meet your needs.</li>
@@ -535,9 +548,9 @@ and <small>3-month parts warranty</small> as standard.</p>
             </ul>
           </div>
         </section>
-        {/* Maintenance Contract */}
+         {/* Maintenance Contract */}
         <MaintenanceContract />
-        {/* testimobial section */}
+{/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">

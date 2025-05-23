@@ -16,6 +16,13 @@ import Slider from "react-slick";
 import HeaderForm from "../../../Headeform/HeaderForm";
 
 const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
+  // For SEO
+  const titleSeo = "";
+  const description = "";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://fajservices.com";
+
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -71,8 +78,20 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Best Frigidaire AC Repair Maintenance Service In Dubai FAJ - #1</title>
-        <meta name="description" content="In hot summer time are you looking Air Conditioning Fix? Call Now 043300002 for Expert in Frigidaire AC Repair Maintenance Service in Dubai" />
+        <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+
+        <Link rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
+
       </HelmetProvider>
       <HeaderForm />
 
@@ -139,8 +158,6 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* Maintenance Contract */}
-        <MaintenanceContract />
 
         {/* Why is AC Maintenance Service Important in Dubai? */}
         <section className="section cs_py_30 bg-light-gray">
@@ -319,7 +336,10 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
             </div>
           </div>
         </section>
-        {/* testimobial section */}
+        
+        {/* Maintenance Contract */}
+        <MaintenanceContract />
+{/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
           <div className="cs_height_80 cs_height_Frigidaire_80"></div>
           <div className="container">

@@ -15,8 +15,16 @@ import parse from 'html-react-parser';
 import Slider from "react-slick";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
+import HeaderForm from "../../../Headeform/HeaderForm";
 
 const MideaAcRepair = ({ subtitle, title, bgImg }) => {
+  // For SEO
+  const titleSeo = "Midea AC Repair in Dubai - AC Maintenance and Services";
+  const description = "Get best Midea AC repair in Dubai. We are exprt in central split AC (Air Conditioning) Maintenance Services near me, Aircon cleaning.";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://www.fajservices.ae/midea-ac-installation-maintenance-repair-fix-service-in-dubai/";
+
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -71,10 +79,24 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
   };
   return (
     <>
+
       <HelmetProvider>
-        <title>Midea AC Repair in Dubai - AC Maintenance and Services</title>
-        <meta name="description" content="Get best Midea AC repair in Dubai. We are exprt in central split AC (Air Conditioning) Maintenance Services near me, Aircon cleaning." />
+        <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+
+        <Link rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
+
       </HelmetProvider>
+      <HeaderForm />
 
       <div className="cs_service_details">
         {/* intro */}
@@ -109,23 +131,23 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
 
                 </p>
 
-                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
-                            <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
-                            <div className="row">
-                                <div className="col-sm-6">
-                                    <ul className="mb-0">
-                                        <li>Higher electricity bills </li>
-                                        <li>Air is not blowing cold</li>
-                                        <li>Drips from your air conditioner</li>
-                                    </ul>
-                                </div>
-                                <div className="col-sm-6">
-                                    <ul className="mb-0">
-                                        <li>Loss of AC performance</li>
-                                        <li>Poor AC airflow, making noises</li>
-                                    </ul>
-                                </div>
-                            </div></div>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
+                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                <div className="row">
+                  <div className="col-sm-6">
+                    <ul className="mb-0">
+                      <li>Higher electricity bills </li>
+                      <li>Air is not blowing cold</li>
+                      <li>Drips from your air conditioner</li>
+                    </ul>
+                  </div>
+                  <div className="col-sm-6">
+                    <ul className="mb-0">
+                      <li>Loss of AC performance</li>
+                      <li>Poor AC airflow, making noises</li>
+                    </ul>
+                  </div>
+                </div></div>
 
               <div className="col-md-6 ">
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac filter.avif`} alt="Midea AC Service" />
@@ -134,8 +156,7 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
             <AppliancesAppointmentCol></AppliancesAppointmentCol>
           </div>
         </section>
-       {/* Maintenance Contract */}
-       <MaintenanceContract />
+       
         {/* Why*/}
         <section className="section cs_py_30">
           <div className="container">
@@ -324,7 +345,7 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
           </div>
         </section >
 
-         {/*  Benefits */}
+        {/*  Benefits */}
         <section className="section cs_py_30" style={{ backgroundColor: "#00334E", color: "white" }}>
           <div className="container">
             <div className="row justify-content-center">
@@ -500,11 +521,11 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
         {/* We specialise  */}
         <section className="section cs_py_30 bg-light-gray ">
           <div className="container">
- <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
-                <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
-                <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br/>
-                <b>We provide 2-month service warranty</b><br/>
-                and <small>3-month parts warranty</small> as standard.</p>
+            <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
+            <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
+            <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
+              <b>We provide 2-month service warranty</b><br />
+              and <small>3-month parts warranty</small> as standard.</p>
             <h3>We specialise in Midea air conditioning services for the following types</h3>
             <div className="row">
               <div className="col-12">
@@ -568,7 +589,10 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
         </section>
 
 
-        {/* testimobial section */}
+        
+        {/* Maintenance Contract */}
+        <MaintenanceContract />
+{/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">

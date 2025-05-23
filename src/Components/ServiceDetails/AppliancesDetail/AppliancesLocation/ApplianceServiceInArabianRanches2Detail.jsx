@@ -291,9 +291,6 @@ const ApplianceServiceInArabianRanches2Detail = ({ bgImg, title, subtitle }) => 
                                    </div>
                                </section>
                
-                               {/* Maintenance Contract */}
-                               <MaintenanceContract />
-               
                                {/* Why is Appliance Maintenance Service Important in Dubai? */}
                                <section className="section cs_py_30 bg-light-gray">
                                    <div className="container">
@@ -803,7 +800,10 @@ const ApplianceServiceInArabianRanches2Detail = ({ bgImg, title, subtitle }) => 
 
                                </section>
                
-                               {/* testimobial section */}
+                               
+        {/* Maintenance Contract */}
+        <MaintenanceContract />
+{/* testimobial section */}
                                <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
                                    <div className="container">
                                        <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">

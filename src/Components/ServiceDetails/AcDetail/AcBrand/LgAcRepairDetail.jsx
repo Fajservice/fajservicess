@@ -15,8 +15,16 @@ import parse from 'html-react-parser';
 import Slider from "react-slick";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
+import HeaderForm from "../../../Headeform/HeaderForm";
 
 const LgAcRepair = ({ subtitle, title, bgImg }) => {
+  // For SEO
+  const titleSeo = "LG AC Repair in Dubai - Air Conditioner Maintenance Service";
+  const description = "Do you want to book an LG AC repair in Dubai? Call Now 043300002 our team is experts in central, VRF & split air condition maintenance services near me.";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://www.fajservices.ae/lg-ac-repair-in-dubai/";
+
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -72,10 +80,22 @@ const LgAcRepair = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>LG AC Repair in Dubai - Air Conditioner Maintenance Service</title>
-        <meta name="description" content="Do you want to book an LG AC repair in Dubai? Call Now 043300002 our team is experts in central, VRF & split air condition maintenance services near me." />
-      </HelmetProvider>
+        <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
 
+        <Link rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
+
+      </HelmetProvider>
+      <HeaderForm />
       <div className="cs_service_details">
         {/* intro */}
         <section className="section cs_py_30">
@@ -135,8 +155,7 @@ const LgAcRepair = ({ subtitle, title, bgImg }) => {
             <AppliancesAppointmentCol></AppliancesAppointmentCol>
           </div>
         </section>
-        {/* Maintenance Contract */}
-        <MaintenanceContract />
+       
         {/* Why*/}
         <section className="section cs_py_30">
           <div className="container">
@@ -563,12 +582,15 @@ const LgAcRepair = ({ subtitle, title, bgImg }) => {
                 <CallNowButton />
               </div>
             </div>
-    
+
           </div>
         </section>
 
 
-        {/* testimobial section */}
+        
+        {/* Maintenance Contract */}
+        <MaintenanceContract />
+{/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">

@@ -3,9 +3,9 @@ const BreadCumb = ({ bgImg, mobileBgImg }) => {
   return (
     <section className="cs_page_heading cs_bg_filed cs_primary_bg">
       {/* Desktop Banner */}
-      <div 
+      <div
         className="desktop-banner d-none d-md-block"
-        style={{ 
+        style={{
           backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
@@ -24,11 +24,10 @@ const BreadCumb = ({ bgImg, mobileBgImg }) => {
           </div>
         </div>
       </div>
-
       {/* Mobile Banner */}
-      <div 
+      <div
         className="mobile-banner d-block d-md-none"
-        style={{ 
+        style={{
           backgroundImage: `url(${import.meta.env.BASE_URL}${mobileBgImg || bgImg})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
@@ -90,29 +89,16 @@ const BreadCumb = ({ bgImg, mobileBgImg }) => {
           display: flex;
           align-items: center;
         }
-        
         @media (max-width: 767.98px) {
           .mobile-decoration {
             animation: fadeInUp 0.6s ease-out 0.3s both;
           }
         }
-        
-        @keyframes fadeInUp {
-          from {
-            opacity: 0;
-            transform: translateY(20px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
         }
       `}</style>
-
       {/* Extra padding div to ensure proper spacing after the section */}
       <div className="pb-3 d-md-none"></div>
     </section>
   );
 };
-
 export default BreadCumb;

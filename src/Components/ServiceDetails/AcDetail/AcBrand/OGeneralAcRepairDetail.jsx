@@ -15,8 +15,16 @@ import parse from 'html-react-parser';
 import Slider from "react-slick";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
+import HeaderForm from "../../../Headeform/HeaderForm";
 
 const OGeneralAcRepair = ({ subtitle, title, bgImg }) => {
+  // For SEO
+  const titleSeo = "O General AC Repair Dubai - Air Conditioner Service Near Me";
+  const description = "Get Best O General AC repair in Dubai. We are experts in central, vrf O G split air conditioner maintenance and cleaning service near you Book an 043300002";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://www.fajservices.ae/o-general-ac-repair-in-dubai-o-general-ac-maintenance-in-dubai-o-general-ac-fix-in-dubai-o-general-ac-service-in-dubai-o-general-air-condition-repair-in-dubai-o-general-air-condition-maintenance-in-du/";
+
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -72,9 +80,22 @@ const OGeneralAcRepair = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>O General AC Repair Dubai - Air Conditioner Service Near Me</title>
-        <meta name="description" content="Get Best O General AC repair in Dubai. We are experts in central, vrf O G split air conditioner maintenance and cleaning service near you Book an 043300002" />
+        <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+
+        <Link rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
+
       </HelmetProvider>
+      <HeaderForm />
 
       <div className="cs_service_details">
         <section className="section cs_py_30">
@@ -96,9 +117,6 @@ const OGeneralAcRepair = ({ subtitle, title, bgImg }) => {
             {/*  */}
           </div>
         </section>
-
-        {/* Maintenance Contract */}
-        <MaintenanceContract />
 
         {/* 2 cols */}
         <section className="section cs_py_30 bg-light-gray mb-4">
@@ -138,10 +156,7 @@ const OGeneralAcRepair = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* Maintenance Contract */}
-        <MaintenanceContract />
-
-        {/* Why */}
+        {/* Why*/}
         <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">Why is O General AC Maintenance Service Important in Dubai?</h3>

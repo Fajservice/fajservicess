@@ -92,7 +92,6 @@ const Home = () => {
             <Process></Process>
         </div>
         </>
-        
     );
 };
 

@@ -2,21 +2,25 @@ import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcBrand/SamsungAcRepairfaq.json';
 import { HelmetProvider } from "react-helmet-async";
-
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
-import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMaintenance";
-import QuickGuide from "../../../QuickGuide/QuickGuide";
-import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 import testimonial_data_SamsungAc from '../../../../Data/AcData/AcTestimonial/SamsungAcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
+import HeaderForm from "../../../Headeform/HeaderForm";
 
 const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
+  // For SEO
+  const titleSeo = "Samsung AC Repair in Dubai - Air Conditioner Service Near";
+  const description = "Get expert Samsung AC repair in Dubai. Get FAJ experts an 043300002 for central, VRF, split (AC) air conditioner maintenance and cleaning service near by you.";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://www.fajservices.ae/samsung-ac-repair-in-dubai/";
+
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -71,10 +75,25 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
   };
   return (
     <>
+
+
       <HelmetProvider>
-        <title>Samsung AC Repair in Dubai - Air Conditioner Service Near</title>
-        <meta name="description" content="Get expert Samsung AC repair in Dubai. Get FAJ experts an 043300002 for central, VRF, split (AC) air conditioner maintenance and cleaning service near by you." />
+        <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+
+        <Link rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
+
       </HelmetProvider>
+      <HeaderForm />
 
       <div className="cs_service_details">
         {/* intro */}
@@ -136,8 +155,7 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
             <AppliancesAppointmentCol></AppliancesAppointmentCol>
           </div>
         </section>
-        {/* Maintenance Contract */}
-        <MaintenanceContract />
+       
         {/* Why*/}
         <section className="section cs_py_30">
           <div className="container">
@@ -570,7 +588,10 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
         </section>
 
 
-        {/* testimobial section */}
+        
+        {/* Maintenance Contract */}
+        <MaintenanceContract />
+{/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">

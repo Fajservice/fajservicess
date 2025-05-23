@@ -6,17 +6,24 @@ import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
-import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMaintenance";
-import QuickGuide from "../../../QuickGuide/QuickGuide";
-import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 import testimonial_data_GreeAc from '../../../../Data/AcData/AcTestimonial/GreeAcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
+import HeaderForm from "../../../Headeform/HeaderForm";
+import Practicaltip from "../../../Common/Practicaltip";
+import AcProperties from "../../../Common/AcProperties";
 
 const GreeAcRepair = ({ subtitle, title, bgImg }) => {
+  // For SEO
+  const titleSeo = "Gree AC Repair in Dubai - AC Maintenance Service Near Me";
+  const description = "To Get Fast Gree AC Repair in Dubai and air conditioner maintenance service near me. Call Us on 043300002 Our technicians are experts in fixing errors";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://fajservices.com/gree-ac-repair-in-dubai/";
+
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -72,9 +79,22 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Gree AC Repair in Dubai - AC Maintenance Service Near Me</title>
-        <meta name="description" content="To Get Fast Gree AC Repair in Dubai and air conditioner maintenance service near me. Call Us on 043300002 Our technicians are experts in fixing errors" />
+        <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+
+        <Link rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
+
       </HelmetProvider>
+      <HeaderForm />
 
       <div className="cs_service_details">
         {/* intro */}
@@ -95,7 +115,7 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-       
+
 
         {/* 2 col */}
         <section className="section cs_py_30 bg-light-gray mb-4">
@@ -110,23 +130,23 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
 
                 </p>
 
-                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
-                            <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
-                            <div className="row">
-                                <div className="col-sm-6">
-                                    <ul className="mb-0">
-                                        <li>Higher electricity bills </li>
-                                        <li>Air is not blowing cold</li>
-                                        <li>Drips from your air conditioner</li>
-                                    </ul>
-                                </div>
-                                <div className="col-sm-6">
-                                    <ul className="mb-0">
-                                        <li>Loss of AC performance</li>
-                                        <li>Poor AC airflow, making noises</li>
-                                    </ul>
-                                </div>
-                            </div></div>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
+                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                <div className="row">
+                  <div className="col-sm-6">
+                    <ul className="mb-0">
+                      <li>Higher electricity bills </li>
+                      <li>Air is not blowing cold</li>
+                      <li>Drips from your air conditioner</li>
+                    </ul>
+                  </div>
+                  <div className="col-sm-6">
+                    <ul className="mb-0">
+                      <li>Loss of AC performance</li>
+                      <li>Poor AC airflow, making noises</li>
+                    </ul>
+                  </div>
+                </div></div>
 
               <div className="col-md-6 ">
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac filter.avif`} alt="Gree AC Service" />
@@ -135,8 +155,7 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
             <AppliancesAppointmentCol></AppliancesAppointmentCol>
           </div>
         </section>
-         {/* Maintenance Contract */}
-         <MaintenanceContract />
+       
         {/* Why*/}
         <section className="section cs_py_30">
           <div className="container">
@@ -294,19 +313,6 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
 
             <div className="row align-items-center">
               <div className="col-xl-6">
-                <p className='mb-0'>We specialize in various types and brands of HVAC systems, including Fresh Air Handling Units (FAHU).</p>
-                <p className='mb-0'><strong>Our services include:</strong></p>
-                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                  <li> <strong> Gree AC Installation: </strong> Professional installation of various Gree AC systems for peak performance. </li>
-                  <li> <strong> Gree AC Diagnostics: </strong> Comprehensive fault finding to accurately diagnose issues. We offer eligibility assessments and detailed quotes to address any concerns with your system. </li>
-                  <li> <strong> Gree AC Repair Service: </strong> Prompt and effective repair services for all Gree AC components, addressing issues like leaks, electrical failures, and system malfunctions. Contact us for specific services or any questions you may have! </li>
-                  <li> <strong> Gree AC Annual Maintenance Contract: </strong> This contract details the terms and services for annual maintenance of Gree air conditioner units. Regular maintenance is crucial for the optimal performance, efficiency, and longevity of your air conditioning system. </li>
-
-
-                  <p className="mb-0"> Regular maintenance is crucial for the optimal performance, efficiency, and longevity of your air conditioning system..</p>
-                </ul>
-              </div>
-              <div className="col-xl-6">
                 <iframe
                   className="bordered-img blue-border"
                   width="100%"
@@ -318,6 +324,18 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
                   allowFullScreen
                 ></iframe>
               </div>
+              <div className="col-xl-6">
+                <p className='mb-0'>We specialize in various types and brands of HVAC systems, including Fresh Air Handling Units (FAHU).</p>
+                <p className='mb-0'><strong>Our services include:</strong></p>
+                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
+                  <li> <strong> Gree AC Installation: </strong> Professional installation of various Gree AC systems for peak performance. </li>
+                  <li> <strong> Gree AC Diagnostics: </strong> Comprehensive fault finding to accurately diagnose issues. We offer eligibility assessments and detailed quotes to address any concerns with your system. </li>
+                  <li> <strong> Gree AC Repair Service: </strong> Prompt and effective repair services for all Gree AC components, addressing issues like leaks, electrical failures, and system malfunctions. Contact us for specific services or any questions you may have! </li>
+                  <li> <strong> Gree AC Annual Maintenance Contract: </strong> This contract details the terms and services for annual maintenance of Gree air conditioner units. Regular maintenance is crucial for the optimal performance, efficiency, and longevity of your air conditioning system. </li>
+                </ul>
+                <p className="mb-0"> Regular maintenance is crucial for the optimal performance, efficiency, and longevity of your air conditioning system..</p>
+              </div>
+
             </div>
           </div>
         </section >
@@ -410,11 +428,11 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
+        {/* CHOOSE US  */}
         <section className="section cs_py_30">
-          <div className="container container-md container-sm">
-            <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2>
 
+          <div className="container container-md container-sm">
+            <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR  NEEDS!</h2>
             <div className="usps align-items-center	">
               {/* <!-- First Column --> */}
               <div className="uspcol col-1">
@@ -425,7 +443,7 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Reliable, Priority, and Quick</h3>
-                    <p>You can rely on prompt service! Our same-day repairs or next-day service visits ensure your needs are addressed swiftly.</p>
+                    <p>You can count on efficient service! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
                   </div>
                 </div>
 
@@ -435,10 +453,10 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you receive a full year of service, ensuring that your Gree Ac operates smoothly and providing peace of mind.</p>
+                    <p>With <a href="/ac-annual-maintenance-contract/">annual maintenance contract</a>, you get a full year of service, ensuring your Gree AC runs smoothly and providing peace of mind.
+                    </p>
                   </div>
                 </div>
-
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
@@ -446,7 +464,8 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
+                    <p>Choose a day and time for your Gree AC repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.
+                    </p>
                   </div>
                 </div>
 
@@ -454,7 +473,8 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
+
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/ACServicescomponent.avif`} alt="Ac Maintenance Services" />
               </div>
 
               {/* <!-- Second Column --> */}
@@ -465,7 +485,7 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are specialists in Gree Ac repair, which is why most major brands trust us to manage their service and maintenance needs.</p>
+                    <p>We are experts in Gree AC repair. This is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -475,7 +495,8 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>The inspection fee covers diagnosis, transportation, and reinstallation for up to two Gree AC's at the same location in Dubai.</p>
+                    <p>We are dedicated to ensuring customer satisfaction with timely service, prompt issue resolution, and affordable prices.</p>
+
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -484,15 +505,17 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our experienced Gree Ac technicians are well-trained, providing excellent service for various major Gree AC's.</p>
+                    <p>Our skilled AC technicians are highly trained, and we provide excellent service for a variety of major AC brands efficiently.
+                    </p>
                   </div>
                 </div>
               </div>
 
-              {/* <!-- Delimit mobile --> */}
-              <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
-              </div>
+
+            </div>
+            {/* <!-- Delimit mobile --> */}
+            <div className="col-12 uspdelimit w-100 text-center d-block d-none-1199 Xd-xl-none">
+              <img className="blue-border-2 w-100" src={`${import.meta.env.BASE_URL}img/ACServicescomponent.avif`} alt="Ac Maintenance Services" />
             </div>
           </div>
         </section>
@@ -500,11 +523,11 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
         {/* We specialise  */}
         <section className="section cs_py_30 bg-light-gray ">
           <div className="container">
- <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
-                <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
-                <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br/>
-                <b>We provide 2-month service warranty</b><br/>
-                and <small>3-month parts warranty</small> as standard.</p>
+            <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
+            <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
+            <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
+              <b>We provide 2-month service warranty</b><br />
+              and <small>3-month parts warranty</small> as standard.</p>
             <h3>We specialise in Gree air conditioning services for the following types</h3>
             <div className="row">
               <div className="col-12">
@@ -567,10 +590,14 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
+        <Practicaltip></Practicaltip>
+        <AcProperties></AcProperties>
 
-        {/* testimobial section */}
+        
+        {/* Maintenance Contract */}
+        <MaintenanceContract />
+{/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
-          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
               <h3 className="cs_section_subtitle cs_fs_18 text-black cs_semibold text-uppercase cs_mb_12 wow fadeInDown">

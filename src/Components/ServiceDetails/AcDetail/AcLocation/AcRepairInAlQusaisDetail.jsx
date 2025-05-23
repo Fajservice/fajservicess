@@ -142,9 +142,6 @@ const AcRepairInAlQusaisDetail = ({ subtitle, title, bgImg }) => {
                     </div>
                 </section>
    
-           {/* Maintenance Contract */}
-           <MaintenanceContract />
-   
            {/* Why is AC Maintenance Service Important in Dubai? */}
            <section className="section cs_py_30 bg-light-gray">
                     <div className="container">

@@ -30,7 +30,7 @@ const Contact = ({Title,subTitle,address,email,emailLink,number,numberLink,numbe
                     </div>
                     <div className="cs_iconbox cs_style_1 cs_type_1">
                       <div className="cs_iconbox_icon cs_center">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/phone-call.svg`} alt="Phone Icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/phone-call.svg`} loading="lazy" alt="Phone Icon" />
                       </div>
                       <div className="cs_iconbox_info">
                         <a className="cs_tab active" href={numberLink}>{number}</a><b/>
@@ -39,7 +39,7 @@ const Contact = ({Title,subTitle,address,email,emailLink,number,numberLink,numbe
                     </div>
                   </div>
                   <div className="cs_contact_thumbnail wow fadeInUp">
-                    <img src={`${import.meta.env.BASE_URL}${img}`} alt="Contact Image" />
+                    <img src={`${import.meta.env.BASE_URL}${img}`} loading="lazy" alt="Contact Image" />
                   </div>
                   <div className="cs_client_info_wapper cs_white_bg">
                     <h3 className="cs_fs_30 cs_accent_color">{clientNumber}</h3>

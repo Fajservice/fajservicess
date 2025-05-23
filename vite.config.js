@@ -7,5 +7,23 @@ export default defineConfig({
     port: 5173, // or any port you're using
   },
   plugins: [react()],
+  build: {
+    target: 'esnext',
+    minify: 'esbuilt',
+    sourcemap: false,
+    chunkiSizeWarningLimit: 1000,
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('node_modules')) {
+            return 'vendor';
+          }
+          if (id.includes('/src/pagse')) {
+            return 'pages';
+          }
+        }
+      }
+    }
+  },
   //  base: '/dist/',
 })

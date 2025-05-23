@@ -157,8 +157,6 @@ const CrafftAcRepair = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* Maintenance Contract */}
-        <MaintenanceContract />
 
         {/* Why is AC Maintenance Service Important in Dubai? */}
         <section className="section cs_py_30 bg-light-gray">
@@ -341,7 +339,10 @@ const CrafftAcRepair = ({ subtitle, title, bgImg }) => {
             </div>
           </div>
         </section>
-        {/* testimobial section */}
+        
+        {/* Maintenance Contract */}
+        <MaintenanceContract />
+{/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
           <div className="cs_height_80 cs_height_Crafft_80"></div>
           <div className="container">

@@ -13,8 +13,16 @@ import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContrac
 import testimonial_data_HaierAc from '../../../../Data/AcData/AcTestimonial/HaierAcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";
+import HeaderForm from "../../../Headeform/HeaderForm";
 
 const HaierAcRepair = ({ subtitle, title, bgImg }) => {
+// For SEO
+const titleSeo = "Haier AC Repair in Dubai - Air Conditioner Service Nearby";
+const description = "Haier is the top AC Company. Call us for your Haier AC Repair in Dubai and Best Air Condition Maintenance Services near me 043300002";
+const Author = "Faj Technical Servcies";
+const Keyword = "";
+const URL = "https://fajservices.com/haier-ac-repair-in-dubai-haier-ac-maintenance-in-dubai-haier-ac-fix-in-dubai-haier-ac-service-in-dubai-haier-air-condition-repair-in-dubai-haier-air-condition-maintenance-in-dubai-haier-air-condition/";
+
   subtitle="Testimonial"
   title="What our clients say <br> About Us"
   bgImg="img/testimonialbg.jpg"
@@ -69,10 +77,24 @@ const HaierAcRepair = ({ subtitle, title, bgImg }) => {
   };
   return (
     <>
-      <HelmetProvider>
-        <title>Haier AC Repair in Dubai - Air Conditioner Service Nearby</title>
-        <meta name="description" content="Haier is the top AC Company. Call us for your Haier AC Repair in Dubai and Best Air Condition Maintenance Services near me 043300002"/>
-      </HelmetProvider>
+      
+<HelmetProvider>
+<title>{titleSeo}</title>
+<meta name="description" content={description}></meta>
+<meta name="keywords" content={Keyword} />
+<meta name="author" content={Author} />
+<meta name="robots" content="index, follow" />
+
+<Link rel="canonical" href={titleSeo} />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:title" content={titleSeo} />
+<meta property="og:description" content={description} />
+<meta property="og:type" content="website" />
+<meta property="og:url" content={URL} />
+
+</HelmetProvider>
+<HeaderForm />
 
       <div className="cs_service_details">
         <section className="section cs_py_30">
@@ -137,9 +159,6 @@ const HaierAcRepair = ({ subtitle, title, bgImg }) => {
             </div>
         </section>
 
-        {/* Maintenance Contract */}
-           <MaintenanceContract />
-        
          {/* Why is AC Maintenance Service Important in Dubai? */}
        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
@@ -315,7 +334,10 @@ const HaierAcRepair = ({ subtitle, title, bgImg }) => {
                 </div>
             </div>
         </section> 
-         {/* testimobial section */}
+         
+        {/* Maintenance Contract */}
+        <MaintenanceContract />
+{/* testimobial section */}
           <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
             <div className="cs_height_80 cs_height_Haier_80"></div>
             <div className="container">
