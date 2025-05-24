@@ -451,7 +451,9 @@ and <small>3-month parts warranty</small> as standard.</p>
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
           <div className="container container-md container-sm">
-            <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2>
+            
+            <h1 className="cs_fs_30">Cigar Cabinet Humidifier Repair Across Dubai - Sharjah - Abu Dhabi</h1>
+            {/* <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2> */}
 
             <div className="usps align-items-center	">
               {/* <!-- First Column --> */}

@@ -143,8 +143,10 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
+            
+            <h1 className="cs_fs_30">Robot Vacuum Cleaner Repair & Service Center</h1>
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30"> Robot Vacuum Cleaner Repair and Service in Dubai, Sharjah, and Abu Dhabi</h2>
+            {/* <h2 className="cs_fs_30"> Robot Vacuum Cleaner Repair and Service in Dubai, Sharjah, and Abu Dhabi</h2> */}
             <p>
 
               FAJ is a reliable company established in 2010. We provide all types of vacuum cleaners. At FAJ, we are committed to your right to repair your robotic vacuum cleaner by offering affordable repair and servicing options.

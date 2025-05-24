@@ -137,7 +137,8 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30">Experts Commercial Meat Grinder Machine Maintenance Service</h2>
+            <h1 className="cs_fs_30">Meat Grinder Machine Repair and Service</h1>
+            {/* <h2 className="cs_fs_30">Experts Commercial Meat Grinder Machine Maintenance Service</h2> */}
             <p>
               Experience reliable and fast maintenance services in Dubai with FAJ, a registered company since 2010. If you need effective meat grinder repair, trust the professionals at FAJ to ensure your grinder operates perfectly.
               <br />

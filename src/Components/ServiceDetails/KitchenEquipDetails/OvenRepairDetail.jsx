@@ -136,7 +136,8 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30">Professional Catering Technicians Provide Quality Servicing for Commercial Ovens</h2>
+            <h1 className="cs_fs_30">Commercial Oven Repair and Maintenance Services</h1>
+            {/* <h2 className="cs_fs_30">Professional Catering Technicians Provide Quality Servicing for Commercial Ovens</h2> */}
             <p>
               Looking for affordable oven repair? At FAJ Professional, we've been serving Dubai since 2010, offering trustworthy repair solutions.
               Our skilled technicians can handle various oven issues, including electric, gas range, and electric ovens.
