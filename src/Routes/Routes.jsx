@@ -374,6 +374,7 @@ import ApplianceServiceInDubailandMazayaQueuePoint from "../Pages/AppliancesPage
 import ApplianceServiceInAlRaffa from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInAlRaffa.jsx";
 import ApplianceServiceInDifc from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInDifc.jsx";
 import ApplianceServiceInJumeirahPark from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInJumeirahPark.jsx";
+import { PopupProvider } from "../Components/PopupContext.jsx";
 export const router = createBrowserRouter([
   {
     path: "/",
