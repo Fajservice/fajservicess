@@ -16,70 +16,62 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
 const DaewooHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
-    // For SEO
-    const titleSeo = "Daewoo Home Appliance Repair & Washing Machine Service";
-    const description = "Daewoo home appliances service Dubai. Get fast Daewoo refrigerator repair,  Daewoo washing machine repair dishwasher, fridge service center near me";
-    const Author = "Faj Technical Servcies";
-    const Keyword = "";
-    const URL = "https://fajservices.com/daewoo-home-appliances-repair/";
+  subtitle = "Testimonial"
+  title = "What our clients say About Us"
+  bgImg = "img/testimonialbg.jpg"
+  const accordionContentRef = useRef(null);
+  const [openItemIndex, setOpenItemIndex] = useState(-1);
+  const [firstItemOpen, setFirstItemOpen] = useState(true);
 
-    subtitle = "Testimonial"
-    title = "What our clients say About Us"
-    bgImg = "img/testimonialbg.jpg"
-    const accordionContentRef = useRef(null);
-    const [openItemIndex, setOpenItemIndex] = useState(-1);
-    const [firstItemOpen, setFirstItemOpen] = useState(true);
+  const handleItemClick = index => {
+    if (index === openItemIndex) {
+      setOpenItemIndex(-1);
+    } else {
+      setOpenItemIndex(index);
+    }
+  };
+  useEffect(() => {
+    if (firstItemOpen) {
+      setOpenItemIndex(0);
+      setFirstItemOpen(false);
+    }
+  }, [firstItemOpen]);
 
-    const handleItemClick = index => {
-        if (index === openItemIndex) {
-            setOpenItemIndex(-1);
-        } else {
-            setOpenItemIndex(index);
+  useEffect(() => {
+    loadBackgroudImages();
+  }, []);
+
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 600,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    arrows: false,
+    swipeToSlide: true,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    pauseOnHover: true,
+    responsive: [
+      {
+        breakpoint: 1399,
+        settings: {
+          slidesToShow: 2,
         }
-    };
-    useEffect(() => {
-        if (firstItemOpen) {
-            setOpenItemIndex(0);
-            setFirstItemOpen(false);
+      },
+      {
+        breakpoint: 1199,
+        settings: {
+          slidesToShow: 2,
         }
-    }, [firstItemOpen]);
-
-    useEffect(() => {
-        loadBackgroudImages();
-    }, []);
-
-    const settings = {
-        dots: false,
-        infinite: true,
-        speed: 600,
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        arrows: false,
-        swipeToSlide: true,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        pauseOnHover: true,
-
-        responsive: [
-            {
-                breakpoint: 1399,
-                settings: {
-                    slidesToShow: 2,
-                }
-            },
-            {
-                breakpoint: 1199,
-                settings: {
-                    slidesToShow: 2,
-                }
-            }, {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                }
-            }
-        ]
-    };
+      }, {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ]
+  };
 
     const settingBrands = {
         dots: false,
@@ -90,7 +82,6 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
         autoplay: true,
         autoplaySpeed: 5000,
         pauseOnHover: true,
-        // cssEase: 'linear',
 
         responsive: [
             {

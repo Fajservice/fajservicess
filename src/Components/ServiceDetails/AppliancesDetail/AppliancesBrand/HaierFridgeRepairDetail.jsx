@@ -15,70 +15,62 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
 const HaierFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
-    // For SEO
-    const titleSeo = "Haier Fridge Repair in Dubai - Washing Machine Service";
-    const description = "FAJ offering Haier fridge repair in Dubai. Call 043300002 for Haier washing machine repair near me, refrigerator, dishwasher, microwave, oven fix service";
-    const Author = "Faj Technical Servcies";
-    const Keyword = "";
-    const URL = "https://fajservices.com/haier-fridge-repair-in-dubai-haier-washing-machine-repair-in-dubai-haier-cooker-repair-in-dubai-haier-oven-repair-in-dubai-haier-appliances-maintenance-in-dubai-haier-refrigerator-fix-repairs-service/";
+  subtitle = "Testimonial"
+  title = "What our clients say About Us"
+  bgImg = "img/testimonialbg.jpg"
+  const accordionContentRef = useRef(null);
+  const [openItemIndex, setOpenItemIndex] = useState(-1);
+  const [firstItemOpen, setFirstItemOpen] = useState(true);
 
-    subtitle = "Testimonial"
-    title = "What our clients say About Us"
-    bgImg = "img/testimonialbg.jpg"
-    const accordionContentRef = useRef(null);
-    const [openItemIndex, setOpenItemIndex] = useState(-1);
-    const [firstItemOpen, setFirstItemOpen] = useState(true);
+  const handleItemClick = index => {
+    if (index === openItemIndex) {
+      setOpenItemIndex(-1);
+    } else {
+      setOpenItemIndex(index);
+    }
+  };
+  useEffect(() => {
+    if (firstItemOpen) {
+      setOpenItemIndex(0);
+      setFirstItemOpen(false);
+    }
+  }, [firstItemOpen]);
 
-    const handleItemClick = index => {
-        if (index === openItemIndex) {
-            setOpenItemIndex(-1);
-        } else {
-            setOpenItemIndex(index);
+  useEffect(() => {
+    loadBackgroudImages();
+  }, []);
+
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 600,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    arrows: false,
+    swipeToSlide: true,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    pauseOnHover: true,
+    responsive: [
+      {
+        breakpoint: 1399,
+        settings: {
+          slidesToShow: 2,
         }
-    };
-    useEffect(() => {
-        if (firstItemOpen) {
-            setOpenItemIndex(0);
-            setFirstItemOpen(false);
+      },
+      {
+        breakpoint: 1199,
+        settings: {
+          slidesToShow: 2,
         }
-    }, [firstItemOpen]);
-
-    useEffect(() => {
-        loadBackgroudImages();
-    }, []);
-
-    const settings = {
-        dots: false,
-        infinite: true,
-        speed: 600,
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        arrows: false,
-        swipeToSlide: true,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        pauseOnHover: true,
-
-        responsive: [
-            {
-                breakpoint: 1399,
-                settings: {
-                    slidesToShow: 2,
-                }
-            },
-            {
-                breakpoint: 1199,
-                settings: {
-                    slidesToShow: 2,
-                }
-            }, {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                }
-            }
-        ]
-    };
+      }, {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ]
+  };
 
     const settingBrands = {
         dots: false,
