@@ -220,13 +220,10 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Not Cooling Properly</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Fridge Not Cooling</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      A common issue with refrigerators is their inability to reach the desired temperature, which several factors can cause.
-
-                    </p>
+                    <p className="p-2 mb-0">If the refrigerator coils are hot but the fridge isn't cooling, there may be a problem with the gas, thermostat, or the fridge coils.</p>
                   </div>
                 </div>
               </div>
@@ -234,7 +231,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Water Leaking from Refrigerator</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Water Leaking</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -250,10 +247,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Freezing Food</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-
-                      If your refrigerator is freezing food, it’s likely due to a faulty temperature control thermostat, which regulates the cooling voltage.
-                    </p>
+                    <p className="p-2 mb-0">If your refrigerator is freezing food, it’s likely due to a faulty temperature control thermostat that regulates the cooling voltage.</p>
                   </div>
                 </div>
               </div>
@@ -264,11 +258,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Fridge Overheating</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-
-                      Fridge overheating can damage the compressor and other components of your refrigerator. It is essential to address this issue promptly.
-
-                    </p>
+                    <p className="p-2 mb-0">Fridge overheating can damage the compressor and other parts of your refrigerator. It is essential to address this issue promptly.</p>
                   </div>
                 </div>
               </div>
@@ -284,11 +274,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Defective Thermostat</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-
-                      Check the thermostat—someone may have bumped it or adjusted it without you knowing.
-
-                    </p>
+                    <p className="p-2 mb-0">Defective temperature control thermostat, PCB, and compressor issues usually require a repair technician to address.</p>
                   </div>
                 </div>
               </div>
@@ -595,7 +581,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
                   <Link to="/electrolux-home-appliances-repair/"><b>Electrolux Refrigerator Repair</b></Link>: When you need Electrolux refrigerator repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE.
                 </p>
                 <p className="mb-0">
-                  <Link to="/bosch-home-appliances-repair/"><b>Bosch Refrigerator Repair</b></Link>: If you are looking for the best Bosch appliance repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch  refrigerator repair and are recognized as the leading Bosch refrigerator service provider in the area.
+                  <Link to="/bosch-home-appliances-repair/"><b>Bosch Refrigerator Repair</b></Link>: If you are looking for the best Bosch appliance repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch refrigerator repair and service provider in the area.
                 </p>
                 <p className="mb-0">
                   <Link to="/viking-appliances-service/"><b>Viking Fridge Freezer Repair</b></Link>: Your Viking refrigerator may require repair or maintenance and we can help. For high-quality Viking Fridge Freezer repair in Dubai, rely on FAJ.

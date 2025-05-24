@@ -12,7 +12,7 @@ import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
 import testimonial_data from '../../../Data/HomeAppData/Testmonials/VacuumCleanerHomeappTestimonials.json';
-import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
+import brandsLogo_data from '../../../Data/vacuumcleanerphoto.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
@@ -90,7 +90,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
   const settingBrands = {
     dots: false,
     infinite: true,
-    slidesToShow: 6,
+    slidesToShow: 4,
     arrows: false,
 
     autoplay: true,
@@ -102,13 +102,13 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
       {
         breakpoint: 1399,
         settings: {
-          slidesToShow: 6,
+          slidesToShow: 4,
         }
       },
       {
         breakpoint: 1199,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 3,
         }
       }, {
         breakpoint: 768,
@@ -200,7 +200,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
             <h3 className="cs_fs_30">Why is Vacuum Cleaner Maintenance Service Important in Dubai?</h3>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/why home app.avif`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/inspection-robot-vacuum-cleaner.avif`} alt="inspection robot vacuum cleaner" />
               </div>
               <div className="col-md-6">
                 <p className="mb-0">
@@ -233,11 +233,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Battery Degradation</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-
-                      Over time, batteries naturally lose their capacity to hold a charge, which can affect the performance of your automatic vacuum cleaner.
-
-                    </p>
+                    <p className="p-2 mb-0">Over time, batteries naturally lose their capacity to hold a full charge, which can affect the overall performance of your automatic vacuum cleaner.</p>
                   </div>
                 </div>
               </div>
@@ -248,10 +244,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Connectivity Issues</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-
-                      To address connectivity issues, ensure that your Wi Fi network is functioning correctly and that the vacuum is within range. Try restarting both your router and the vacuum.
-                    </p>
+                    <p className="p-2 mb-0">To fix connectivity issues, ensure supply Wi-Fi is working and the vacuum is in range. Restart both the router and the vacuum if needed.</p>
                   </div>
                 </div>
               </div>
@@ -276,9 +269,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Navigation Mapping Errors</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Advanced robot vacuums, like any robotic vacuum, use AI algorithms to create navigation maps. Mapping errors may arise from sensor misalignment or interference.
-                    </p>
+                    <p className="p-2 mb-0">Advanced robotic vacuums use AI algorithms for precise navigation mapping, but errors can occasionally occur due to sensor misalignment.</p>
                   </div>
                 </div>
               </div>
@@ -289,9 +280,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Faulty Charging Dock</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      A faulty charging dock can also affect the charging process. Damage or malfunctions within the dock may prevent it from delivering a proper charge to the vacuum cleaner.
-                    </p>
+                    <p className="p-2 mb-0">A faulty robot vacuum charging dock can impair the charging process, preventing the vacuum cleaner from receiving a proper charge.</p>
                   </div>
                 </div>
               </div>
@@ -317,10 +306,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Resetting Your Robot Vacuum</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      If your robot vacuum can't recognise obstacles, check to see if the sensors are clean. Dirty sensors may hinder their ability to detect obstacles properly.
-
-                    </p>
+                    <p className="p-2 mb-0">If your robot vacuum can't recognise obstacles, check to see if the sensors are clean. Dirty sensors may hinder their ability to detect obstacles properly.</p>
                   </div>
                 </div>
               </div>
@@ -578,232 +564,6 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <h3>We specialise in vacuum cleaner services for the following brands</h3>
             <div className="row">
-              {/* <div className="col-12">               
-
-                <p className="mb-0">
-                  <Link to="/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/">
-                    <b>Smeg Cooker Repair</b>
-                  </Link>: FAJ is here to support you when things go wrong. We understand that your Smeg appliances are essential for daily life, keeping your food fresh and meals cooked.
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/siemens-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b>Siemens Cooker Repair</b>
-                  </Link>:If you are facing any problems with your Siemens oven, stove, refrigerator, washer dryer, or dishwasher, contact the FAJ team for same-day repair service in Dubai.
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/la-germania-cooking-range-repair-in-dubai-la-germania-oven-repair-in-dubai-la-germania-cooker-repair-in-dubai-la-germania-cooker-oven-maintenance-service-in-dubai-refrigerator-repair-in-dubai-fridge-r/">
-                    <b> La Germania Stove and Cooker Repair</b>
-                  </Link>: When you need La Germania oven repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE.
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/bosch-home-appliances-repair/">
-                    <b> Bosch Stove Repair</b>
-                  </Link>: If you are looking for the best Bosch appliance repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch oven repair and are recognized as the leading Bosch appliance service provider in the area.
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/viking-appliances-service/">
-                    <b> Viking Range and Oven Repair</b>
-                  </Link>: Your Viking appliances may require repair or maintenance and we can help. For high-quality Viking stove and oven repair in Dubai, rely on FAJ.
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b> Daewoo Cooking Range Repair</b>
-                  </Link>: We provide expert services for Daewoo appliance repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo cooking range, refrigerator, washing machine, dryer and more.
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub/">
-                    <b> Neff Gas Stove Repair</b>
-                  </Link>: Are you concerned about your Neff appliance malfunctioning and searching for a reliable Neff Gas Stove repair company in Dubai? Contact us for same-day service!
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b> Teka Gas Stove Repair</b>
-                  </Link>: If you're searching for the best Teka appliance repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka gas stove, refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
-                </p>
-
-
-                <br />
-
-                <p><a href="#/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/">AEG</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/ariston-fridge-repair-in-dubai-ariston-washing-machine-repair-in-dubai-ariston-cooker-repair-in-dubai-ariston-oven-repair-in-dubai-ariston-appliances-maintenance-in-dubai-ariston-refrigerator-fix-repa/">Ariston</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/beko-fridge-repair-in-dubai-beko-washing-machine-repair-in-dubai-beko-cooker-repair-in-dubai-beko-oven-repair-in-dubai-beko-appliances-maintenance-in-dubai-beko-refrigerator-fix-repairs-service-in-dub/">Beko</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/blomberg-fridge-repair-in-dubai-blomberg-washing-machine-repair-in-dubai-blomberg-cooker-repair-in-dubai-blomberg-oven-repair-in-dubai-blomberg-appliances-maintenance-in-dubai-blomberg-refrigerator-fi/">Blomberg</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/electrolux-home-appliances-repair/">Electrolux</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/faber-appliances-service/">Faber</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/fagor-fridge-repair-in-dubai-fagor-washing-machine-repair-in-dubai-fagor-cooker-repair-in-dubai-fagor-oven-repair-in-dubai-fagor-appliances-maintenance-in-dubai-fagor-refrigerator-fix-repairs-service/">Fagor</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/fisher-and-paykel-fridge-repair-in-dubai-fisher-and-paykel-washing-machine-repair-in-dubai-fisher-and-paykel-cooker-repair-in-dubai-fisher-and-paykel-oven-repair-in-dubai-fisher-and-paykel-appliances/">Fisher and Paykel</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/foster-appliances-services-foster-dishwasher-repair-service-in-dubai-foster-cooking-range-repair-service-in-dubai-foster-cooktop-repair-service-in-dubai-foster-oven-repair-in-dubai-foster-rangetop-r/">Foster</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/gaggenau-fridge-repair-in-dubai-gaggenau-washing-machine-repair-in-dubai-gaggenau-cooker-repair-in-dubai-gaggenau-oven-repair-in-dubai-gaggenau-appliances-maintenance-in-dubai-gaggenau-refrigerator-fi/">Gaggenau</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/hitachi-fridge-repair-in-dubai-hitachi-washing-machine-repair-in-dubai-hitachi-cooker-repair-in-dubai-hitachi-oven-repair-in-dubai-hitachi-appliances-maintenance-in-dubai-hitachi-refrigerator-fix-repa/">Hitachi</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/hoover-fridge-repair-in-dubai-hoover-washing-machine-repair-in-dubai-hoover-cooker-repair-in-dubai-hoover-oven-repair-in-dubai-hoover-appliances-maintenance-in-dubai-hoover-refrigerator-fix-repairs-se/">Hoover</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-oven-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa/">Indesit </a>
-                  |<a href="#/lg-fridge-repair-in-dubai-lg-washing-machine-repair-in-dubai-lg-cooker-repair-in-dubai-lg-oven-repair-in-dubai-lg-appliances-maintenance-in-dubai-lg-refrigerator-fix-repairs-service-in-dubai-lg-dishwa/"> LG</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/sub-zero-fridge-repair-in-dubai-sub-zero-washing-machine-repair-in-dubai-sub-zero-cooker-repair-in-dubai-sub-zero-oven-repair-in-dubai-sub-zero-appliances-maintenance-in-dubai-sub-zero-refrigerator-fi/">Sub Zero</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/terim-appliances-service/">Terim</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/whirlpool-fridge-repair-in-dubai-whirlpool-washing-machine-repair-in-dubai-whirlpool-cooker-repair-in-dubai-whirlpool-oven-repair-in-dubai-whirlpool-appliances-maintenance-in-dubai-whirlpool-refrigera/">Whirlpool</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/zanussi-fridge-repair-in-dubai-zanussi-washing-machine-repair-in-dubai-zanussi-cooker-repair-in-dubai-zanussi-oven-repair-in-dubai-zanussi-appliances-maintenance-in-dubai-zanussi-refrigerator-fix-repa/">Zanussi</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="https://fajservice.ae/de-dietrich-appliance-repair-service/">De Dietrich</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/baumatic-appliances/">Baumatic</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/bertazzoni-refrigerator-repair-in-dubai-bertazzoni-appliances-service-bertazzoni-fridge-repair-in-dubai-bertazzoni-washing-machine-washer-bertazzoni-dryer-repair-in-dubai-bertazzoni-dishwasher-cooker/">Bertazzoni</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/bompani-fridge-repair-in-dubai-bompani-washing-machine-repair-in-dubai-bompani-cooker-repair-in-dubai-bompani-oven-repair-in-dubai-bompani-appliances-maintenance-in-dubai-bompani-refrigerator-fix-repa/">Bompani</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/boston-refrigerator-repair-in-dubai-boston-appliances-service-boston-fridge-repair-in-dubai-boston-washing-machine-washer-boston-dryer-repair-in-dubai-boston-dishwasher-cooker/">Boston</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/brandt-fridge-repair-in-dubai-brandt-washing-machine-repair-in-dubai-brandt-cooker-repair-in-dubai-brandt-oven-repair-in-dubai-brandt-appliances-maintenance-in-dubai-brandt-refrigerator-fix-repairs-se/">Brandt</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/gibson-fridge-repair-in-dubai-gibson-washing-machine-repair-in-dubai-gibson-cooker-repair-in-dubai-gibson-oven-repair-in-dubai-gibson-appliances-maintenance-in-dubai-gibson-refrigerator-fix-repairs-se/">Gibson</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/gorenje-fridge-repair-in-dubai-gorenje-washing-machine-repair-in-dubai-gorenje-cooker-repair-in-dubai-gorenje-oven-repair-in-dubai-gorenje-appliances-maintenance-in-dubai-gorenje-refrigerator-fix-repa/">Gorenje</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/hisense-fridge-repair-in-dubai-hisense-washing-machine-repair-in-dubai-hisense-cooker-repair-in-dubai-hisense-oven-repair-in-dubai-hisense-appliances-maintenance-in-dubai-hisense-refrigerator-fix-repa/">Hisense</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/kelvinator-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Kelvinator</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/kenmore-appliances-service/">Kenmore</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/panasonic-fridge-repair-in-dubai-panasonic-washing-machine-repair-in-dubai-panasonic-cooker-repair-in-dubai-panasonic-oven-repair-in-dubai-panasonic-appliances-maintenance-in-dubai-panasonic-refrigera/">Panasonic</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/sanyo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Sanyo</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/sears-home-appliances-installation-maintenance-repair-fix-service-in-dubai/">Sears</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/wolf-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Wolf</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/haier-fridge-repair-in-dubai-haier-washing-machine-repair-in-dubai-haier-cooker-repair-in-dubai-haier-oven-repair-in-dubai-haier-appliances-maintenance-in-dubai-haier-refrigerator-fix-repairs-service/">Haier</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/elica-appliances-service/">Elica</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/marvel-fridge-repair-in-dubai-marvel-washing-machine-repair-in-dubai-marvel-cooker-repair-in-dubai-marvel-oven-repair-in-dubai-marvel-appliances-maintenance-in-dubai-marvel-refrigerator-fix-repairs-se/">Marvel</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/miele-fridge-repair-in-dubai-miele-washing-machine-repair-in-dubai-miele-cooker-repair-in-dubai-miele-oven-repair-in-dubai-miele-appliances-maintenance-in-dubai-miele-refrigerator-fix-repairs-service/">Miele</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/maytag-fridge-repair-in-dubai-maytag-washing-machine-repair-in-dubai-maytag-cooker-repair-in-dubai-maytag-oven-repair-in-dubai-maytag-appliances-maintenance-in-dubai-maytag-refrigerator-fix-repairs-se/">Maytag</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/toshiba-home-appliance-installation-maintenance-repair-fix-service-in-dubai-2/">Toshiba</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/thermador-appliances-service/">Thermador</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/sharp-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Sharp</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/admiral-fridge-repair-in-dubai-admiral-washing-machine-repair-in-dubai-admiral-cooker-repair-in-dubai-admiral-oven-repair-in-dubai-admiral-appliances-maintenance-in-dubai-admiral-refrigerator-fix-repa/">Admiral</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/aftron-fridge-repair-in-dubai-aftron-washing-machine-repair-in-dubai-aftron-cooker-repair-in-dubai-aftron-oven-repair-in-dubai-aftron-appliances-maintenance-in-dubai-aftron-refrigerator-fix-repairs-se/">Aftron</a>
-
-                  <span>&nbsp;-&nbsp;</span>
-
-                  <a href="#/unimac-washing-machine-repair-in-dubai-unimac-dryer-repair-in-dubai-unimac-washer-dryer-repair-in-dubai-unimac-maintenance-in-dubai-unimac-laundry-service-in-dubai-unimac-dubai/">Unimac</a>
-                </p>
-
-              </div> */}
               <div className="col-sm-4">
                 <ul>
                   <li>Miele Vacuum Repairs</li>
@@ -861,7 +621,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, bgImg }) => {
 
 
         {/* Brands section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
+        <section className="cs_slider cs_team_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
           <div className="container">
 
             <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"

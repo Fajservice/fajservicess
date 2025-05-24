@@ -130,32 +130,28 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, bgImg }) => {
             <div className="row gx-md-5">
               <div className="col-md-6">
                 <h3 className="cs_fs_24 mb-1">AC Maintenance for the Best Cooling</h3>
-
                 <p className="mb-1">Regular AC maintenance in Dubai is essential to ensure that your air conditioner unit continues to function properly. Over time, filters and coils can become dirty and clogged, leading to a decline in cooling performance.</p>
                 <p className="mb-1">This can also result in issues such as water leakage from the indoor unit and unpleasant odors. So, what is the solution? If you're searching for a reliable AC maintenance company in Dubai to take care of your home or office aircon needs, look no further.</p>
-
-
                  <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
-                            <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
-                            <div className="row">
-                                <div className="col-sm-6">
-                                    <ul className="mb-0">
-                                        <li>Higher electricity bills </li>
-                                        <li>Air is not blowing cold</li>
-                                        <li>Drips from your air conditioner</li>
-                                    </ul>
-                                </div>
-                                <div className="col-sm-6">
-                                    <ul className="mb-0">
-                                        <li>Loss of AC performance</li>
-                                        <li>Poor AC airflow, making noises</li>
-                                    </ul>
-                                </div>
-                            </div>
+                  <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                  <div className="row">
+                      <div className="col-sm-6">
+                          <ul className="mb-0">
+                              <li>Higher electricity bills </li>
+                              <li>Air is not blowing cold</li>
+                              <li>Drips from your air conditioner</li>
+                          </ul>
+                      </div>
+                      <div className="col-sm-6">
+                          <ul className="mb-0">
+                              <li>Loss of AC performance</li>
+                              <li>Poor AC airflow, making noises</li>
+                          </ul>
+                      </div>
+                  </div>
               </div>
-
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-repair-2.avif`} alt="AC Maintenance" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-maintenance-faj.avif`} alt="AC Maintenance" />
 
               </div>
             </div>

@@ -821,6 +821,11 @@ p a {
     min-height: auto;
     max-height: 185px;
   }
+  .cs_team_slider img {
+    max-height: 150px !important;
+    object-fit: cover;
+    min-height: 150px;
+  }
 }
 
 .gradient-amc-bg {
@@ -1068,4 +1073,9 @@ tr.Window.Ton-3, tr.Split.Ton-4, tr.Central.Ton-4, tr.Chill.Ton-4, tr.Inverter.T
 }
 .faj-price-table td {
     border: 1px solid #000;
+}
+.cs_team_slider img {
+    max-height: 200px !important;
+    object-fit: cover;
+    min-height: 200px;
 }
