@@ -6,9 +6,6 @@ import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
-import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMaintenance";
-import QuickGuide from "../../../QuickGuide/QuickGuide";
-import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 import testimonial_data_Midea from '../../../../Data/AcData/AcTestimonial/MideaAcServiceTestimonials.json';
 import parse from 'html-react-parser';
@@ -16,6 +13,8 @@ import Slider from "react-slick";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import HeaderForm from "../../../Headeform/HeaderForm";
+import Practicaltip from "../../../Common/Practicaltip";
+import AcProperties from "../../../Common/AcProperties";
 
 const MideaAcRepair = ({ subtitle, title, bgImg }) => {
   // For SEO
@@ -123,7 +122,7 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Midea Air Conditioner Maintenance and Servicing </h3>
+                <h3 className="cs_fs_24 mb-1">Midea Ac Maintenance and Servicing </h3>
 
                 <p className="mb-2">
                   When it comes to Midea AC repair, it is essential to hire a professional and reliable technician for your home or office.
@@ -156,7 +155,7 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
             <AppliancesAppointmentCol></AppliancesAppointmentCol>
           </div>
         </section>
-       
+
         {/* Why*/}
         <section className="section cs_py_30">
           <div className="container">
@@ -334,7 +333,7 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
                   className="bordered-img blue-border"
                   width="100%"
                   height="350"
-                  src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
+                  src="https://www.youtube.com/embed/sxBhB1_gxYA?si=Fk3OIwPHCHAsktx-"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -434,8 +433,7 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
           <div className="container container-md container-sm">
-            <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2>
-
+            <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR  NEEDS!</h2>
             <div className="usps align-items-center	">
               {/* <!-- First Column --> */}
               <div className="uspcol col-1">
@@ -446,7 +444,7 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Reliable, Priority, and Quick</h3>
-                    <p>You can rely on prompt service! Our same-day repairs or next-day service visits ensure your needs are addressed swiftly.</p>
+                    <p>You can count on efficient service! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
                   </div>
                 </div>
 
@@ -456,10 +454,10 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you receive a full year of service, ensuring that your Midea AC operates smoothly and providing peace of mind.</p>
+                    <p>With <a href="/ac-annual-maintenance-contract/">annual maintenance contract</a>, you get a full year of service, ensuring your AC runs smoothly and providing peace of mind.
+                    </p>
                   </div>
                 </div>
-
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
@@ -467,7 +465,8 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
+                    <p>Choose a day and time for your Midea AC repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.
+                    </p>
                   </div>
                 </div>
 
@@ -475,7 +474,8 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
+
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/ACServicescomponent.avif`} alt="Ac Maintenance Services" />
               </div>
 
               {/* <!-- Second Column --> */}
@@ -486,7 +486,7 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are specialists in Midea AC repair, which is why most major brands trust us to manage their service and maintenance needs.</p>
+                    <p>We are experts in Midea AC repair. This is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -496,7 +496,8 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>The inspection fee covers diagnosis, transportation, and reinstallation for up to two Midea AC's at the same location in Dubai.</p>
+                    <p>We are dedicated to ensuring customer satisfaction with timely service, prompt issue resolution, and affordable prices.</p>
+
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -505,15 +506,17 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our experienced Midea AC technicians are well-trained, providing excellent service for various major Midea AC's.</p>
+                    <p>Our skilled AC technicians are highly trained, and we provide excellent service for a variety of major AC brands efficiently.
+                    </p>
                   </div>
                 </div>
               </div>
 
-              {/* <!-- Delimit mobile --> */}
-              <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
-              </div>
+
+            </div>
+            {/* <!-- Delimit mobile --> */}
+            <div className="col-12 uspdelimit w-100 text-center d-block d-none-1199 Xd-xl-none">
+              <img className="blue-border-2 w-100" src={`${import.meta.env.BASE_URL}img/ACServicescomponent.avif`} alt="Ac Maintenance Services" />
             </div>
           </div>
         </section>
@@ -526,7 +529,7 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
             <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
               <b>We provide 2-month service warranty</b><br />
               and <small>3-month parts warranty</small> as standard.</p>
-            <h3>We specialise in Midea air conditioning services for the following types</h3>
+            <h3>We specialise in Midea ac services for the following types</h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"><strong>  Midea Split Air Conditioner Service: </strong> FAJ provides dependable repair and maintenance services for Midea AC units in Dubai. Our team consists of professionals specializing in Midea split systems, Midea VRF, and Midea central air conditioning units. </p>
@@ -558,10 +561,14 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
                   <a href="https://www.fajservices.ae/ac-services-in-impz/">IMPZ</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-dubai-sport-city/">Dubai Sports City</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-dubai-studio-city/">Dubai Studio City</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jbr/">JBR - Jumeirah Beach Residence</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-jlt/">JLT - Jumeirah Lake Towers</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jvc/">JVC - Jumeirah Village Circle</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-village-triangle/">JVT - Jumeirah Village Triangle</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jbr/">JBR</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-beach-residence/">Jumeirah Beach Residence</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-jlt//">JLT</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-lake-towers/">Jumeirah Lake Towers</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jvc/">JVC</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-village-circle/">Jumeirah Village Circle</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jvt/">JVT</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-village-triangle/">Jumeirah Village Triangle</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-jebel-ali-village/">Jebel Ali Village</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-palm-jumeirah/">Jumeirah</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-jumeirah-golf-estates/">Jumeirah Golf Estates</a> &nbsp;|&nbsp;
@@ -589,12 +596,14 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
         </section>
 
 
-        
+        <Practicaltip></Practicaltip>
+        <AcProperties></AcProperties>
+
         {/* Maintenance Contract */}
+
         <MaintenanceContract />
-{/* testimobial section */}
+        {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
-          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
               <h3 className="cs_section_subtitle cs_fs_18 text-black cs_semibold text-uppercase cs_mb_12 wow fadeInDown">
@@ -642,7 +651,6 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
               </div>
             </div>
           </div>
-          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
         </section>
 
         {/* FAQ's */}
