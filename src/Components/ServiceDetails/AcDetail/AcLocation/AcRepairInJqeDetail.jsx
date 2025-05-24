@@ -45,13 +45,16 @@ const AcRepairInJqeDetail = ({ subtitle, title, bgImg }) => {
     }, []);
 
     const settings = {
-        dots: false,
+       dots: false,
         infinite: true,
         speed: 600,
         slidesToShow: 2,
         slidesToScroll: 1,
         arrows: false,
         swipeToSlide: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        pauseOnHover: true,
         responsive: [
             {
                 breakpoint: 1399,

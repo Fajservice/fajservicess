@@ -19,6 +19,15 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
 
 const AcRepairInRasAlKhorIndustrialAreaDetail = ({ subtitle, title, bgImg }) => {
+
+    // For SEO
+    const titleSeo = "AC Services In  Ras Al Khor Industrial Area - AC Repair #1";
+    const description = "AC Services in Ras Al Khor Industrial Area - Call Experts in Ceiling & Split Air Conditioner Maintenance & Repair near me Dubai AC Fixing Dubai";
+    const Author = "Faj Technical Servcies";
+    const Keyword = "";
+    const URL = "https://fajservices.com/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/";
+
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "img/testimonialbg.jpg"
@@ -52,6 +61,9 @@ const AcRepairInRasAlKhorIndustrialAreaDetail = ({ subtitle, title, bgImg }) => 
         slidesToScroll: 1,
         arrows: false,
         swipeToSlide: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        pauseOnHover: true,
         responsive: [
             {
                 breakpoint: 1399,
@@ -72,11 +84,21 @@ const AcRepairInRasAlKhorIndustrialAreaDetail = ({ subtitle, title, bgImg }) => 
             }
         ]
     }
-  return (
-    <>
+    return (
+        <>
             <HelmetProvider>
-                <title>AC Services In Ras Al Khor Industrial Area - AC Repair #1</title>
-                <meta name="description" content="AC Services in Ras Al Khor Industrial Area - Call Experts in Ceiling & Split Air Conditioner Maintenance & Repair near me Dubai AC Fixing Dubai"></meta>
+                <title>{titleSeo}</title>
+                <meta name="description" content={description}></meta>
+                <meta name="keywords" content={Keyword} />
+                <meta name="author" content={Author} />
+                <meta name="robots" content="index, follow" />
+                <Link rel="canonical" href={titleSeo} />
+                <meta property="og:type" content="website" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="og:title" content={titleSeo} />
+                <meta property="og:description" content={description} />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content={URL} />
             </HelmetProvider>
             <HeaderForm />
             <div className="cs_service_details">
@@ -84,9 +106,8 @@ const AcRepairInRasAlKhorIndustrialAreaDetail = ({ subtitle, title, bgImg }) => 
                 <section className="section cs_py_30">
                     <div className="container">
                         <h1 className="cs_fs_30">AC Service in Ras Al Khor Industrial Area</h1>
-                        {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
-            <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
-            <a href="/"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in AC servicing, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
+                        <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
+                            <a href="/"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in AC servicing, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 
                         <div id="get-quote" className=" mt-3">
                             <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -141,9 +162,9 @@ const AcRepairInRasAlKhorIndustrialAreaDetail = ({ subtitle, title, bgImg }) => 
                         </div>
                     </div>
                 </section>
-   
-           {/* Why is AC Maintenance Service Important in Dubai? */}
-           <section className="section cs_py_30 bg-light-gray">
+
+                {/* Why is AC Maintenance Service Important in Dubai? */}
+                <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
                         <h3 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h3>
                         <p>
@@ -336,10 +357,10 @@ const AcRepairInRasAlKhorIndustrialAreaDetail = ({ subtitle, title, bgImg }) => 
                     </div>
                 </section>
 
-                
-        {/* Maintenance Contract */}
-        <MaintenanceContract />
-{/* testimobial section */}
+
+                {/* Maintenance Contract */}
+                <MaintenanceContract />
+                {/* testimobial section */}
                 <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                     <div className="container">
@@ -432,7 +453,7 @@ const AcRepairInRasAlKhorIndustrialAreaDetail = ({ subtitle, title, bgImg }) => 
 
             </div>
         </>
-  )
+    )
 }
 
 export default AcRepairInRasAlKhorIndustrialAreaDetail

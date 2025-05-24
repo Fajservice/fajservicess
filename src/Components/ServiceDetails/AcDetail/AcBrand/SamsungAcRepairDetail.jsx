@@ -12,6 +12,8 @@ import Slider from "react-slick";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import HeaderForm from "../../../Headeform/HeaderForm";
+import Practicaltip from "../../../Common/Practicaltip";
+import AcProperties from "../../../Common/AcProperties";
 
 const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
   // For SEO
@@ -121,7 +123,7 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Samsung Air Conditioner Maintenance and Servicing</h3>
+                <h3 className="cs_fs_24 mb-1">Samsung AC Maintenance and Servicing</h3>
 
                 <p className="mb-2">
                   In Dubai, professional Samsung AC repair services are available, and it is essential to hire a qualified technician.
@@ -149,7 +151,7 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Daikin AC Service" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Samsung AC Service" />
               </div>
             </div>
             <AppliancesAppointmentCol></AppliancesAppointmentCol>
@@ -161,7 +163,7 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
           <div className="container">
 
             <h3 className="cs_fs_30">Why is Samsung AC Maintenance Service Important in Dubai?</h3>
-            <p className="">
+            <p className="mb-0">
               To ensure your Samsung central air conditioner runs smoothly in Dubai's heat, regular aircon maintenance is essential. At FAJ, we offer expert ac services to ensure optimal cooling and comfort year-round. We're here to help your system perform at its best!
 
             </p>
@@ -307,7 +309,7 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
         {/* HERE  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR SAMSUNG AIR CONDITIONER SYSTEMS</h3>
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR SAMSUNG AC SYSTEMS</h3>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -327,7 +329,7 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
                   className="bordered-img blue-border"
                   width="100%"
                   height="350"
-                  src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
+                  src="https://www.youtube.com/embed/sxBhB1_gxYA?si=Fk3OIwPHCHAsktx-"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -429,8 +431,7 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
           <div className="container container-md container-sm">
-            <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2>
-
+            <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR  NEEDS!</h2>
             <div className="usps align-items-center	">
               {/* <!-- First Column --> */}
               <div className="uspcol col-1">
@@ -441,7 +442,7 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Reliable, Priority, and Quick</h3>
-                    <p>You can rely on prompt service! Our same-day repairs or next-day service visits ensure your needs are addressed swiftly.</p>
+                    <p>You can count on efficient service! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
                   </div>
                 </div>
 
@@ -451,10 +452,10 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you receive a full year of service, ensuring that your  Samsung AC operates smoothly and providing peace of mind.</p>
+                    <p>With <a href="/ac-annual-maintenance-contract/">annual maintenance contract</a>, you get a full year of service, ensuring your AC runs smoothly and providing peace of mind.
+                    </p>
                   </div>
                 </div>
-
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
@@ -462,7 +463,8 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
+                    <p>Choose a day and time for your Samsung AC repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.
+                    </p>
                   </div>
                 </div>
 
@@ -470,7 +472,8 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
+
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/ACServicescomponent.avif`} alt="Ac Maintenance Services" />
               </div>
 
               {/* <!-- Second Column --> */}
@@ -481,7 +484,7 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are specialists in  Samsung AC repair, which is why most major brands trust us to manage their service and maintenance needs.</p>
+                    <p>We are experts in Samsung AC repair. This is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -491,7 +494,8 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>The inspection fee covers diagnosis, transportation, and reinstallation for up to two  Samsung ACs at the same location in Dubai.</p>
+                    <p>We are dedicated to ensuring customer satisfaction with timely service, prompt issue resolution, and affordable prices.</p>
+
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -500,15 +504,17 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our experienced  Samsung AC technicians are well-trained, providing excellent service for various major  Samsung ACs.</p>
+                    <p>Our skilled AC technicians are highly trained, and we provide excellent service for a variety of major AC brands efficiently.
+                    </p>
                   </div>
                 </div>
               </div>
 
-              {/* <!-- Delimit mobile --> */}
-              <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
-              </div>
+
+            </div>
+            {/* <!-- Delimit mobile --> */}
+            <div className="col-12 uspdelimit w-100 text-center d-block d-none-1199 Xd-xl-none">
+              <img className="blue-border-2 w-100" src={`${import.meta.env.BASE_URL}img/ACServicescomponent.avif`} alt="Ac Maintenance Services" />
             </div>
           </div>
         </section>
@@ -523,20 +529,19 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
               and <small>3-month parts warranty</small> as standard.</p>
 
 
-            <h3>We specialise in Samsung air conditioning services for the following types</h3>
+            <h3>We specialise in Samsung ac services for the following types</h3>
             <div className="row">
               <div className="col-12">
-                <li>  <strong>  Samsung Split Air Conditioner Service: </strong> FAJ is a trusted provider of Samsung split air conditioner repair and maintenance in Dubai. Our skilled technicians specialize in Samsung VRF systems and central AC units, ensuring optimal performance. Whether for routine maintenance or urgent repairs, we are dedicated to delivering exceptional service tailored to your needs. </li>
-                <li>  <strong>  Samsung Central Air Conditioner Repair and Service: </strong> FAJ is a premier service provider specializing in the repair and maintenance of Samsung air conditioner in Dubai. The company is committed to addressing the diverse needs of its clientele, whether they require routine AC maintenance or urgent repairs. With a focus on professionalism and expertise, FAJ ensures high-quality service and customer satisfaction. </li>
-                <li>  <strong>  Samsung AC Service and Repair: </strong> Samsung AC Service provides peace of mind with our skilled technicians. At FAJ, we specialize in efficient and reliable Samsung AC maintenance, repair, and installation. You can trust our expert team to keep your HVAC system running smoothly and ensure your comfort throughout the year! </li>
-                <li>  <strong>  Samsung Inverter Air Conditioner Maintenance: </strong> Count on our dedicated team to promptly resolve any concerns with your Samsung air conditioner maintenance and bring it back to peak performance! </li>
-                <li>  <strong>  Samsung HVAC Repair: </strong> We have extensive expertise in Samsung cassette and package unit AC systems, providing reliable repairs to ensure your unit operates efficiently. </li>
-                <li>  <strong>  Samsung Ceiling AC Service and Repair: </strong> Our specialists can quickly diagnose and resolve any issues with your Samsung ceiling AC repair and service. </li>
-                <li>  <strong>  Samsung VRF (Variable Refrigerant Flow) System Service and Repair: </strong> FAJ's Samsung Variable Refrigerant Flow (VRF) repair and maintenance services provide efficient HVAC solutions tailored to your needs. Our expert team prioritizes your comfort and satisfaction, ensuring reliable service and peace of mind in managing your climate control requirements. </li>
-                <li>  <strong> Samsung Ducted Split AC Service and Repair: </strong> For reliable Samsung AC repair and maintenance in Dubai, our experienced technicians are ready to assist you. With expertise in diagnosing a variety of Samsung AC issues and resolving error codes, we guarantee minimal disruption to your comfort. Trust us for prompt and effective service that delivers the cooling relief you need. </li>
-                <li>  <strong>  Samsung Wall-Mounted Air Conditioner Service and Repair: </strong> Stay cool in the extreme heat of Dubai with our professional Samsung air conditioning repair and maintenance services. We are dedicated to ensuring your unit operates at its best, helping you maintain a comfortable indoor environment even when outdoor temperatures soar. </li>
 
-
+                <p className="mb-0">  <strong>  Samsung Split Air Conditioner Service: </strong> FAJ is a trusted provider of Samsung split air conditioner repair and maintenance in Dubai. Our skilled technicians specialize in Samsung VRF systems and central AC units, ensuring optimal performance. Whether for routine maintenance or urgent repairs, we are dedicated to delivering exceptional service tailored to your needs. </p>
+                <p className="mb-0">  <strong>  Samsung Central Air Conditioner Repair and Service: </strong> FAJ is a premier service provider specializing in the repair and maintenance of Samsung air conditioner in Dubai. The company is committed to addressing the diverse needs of its clientele, whether they require routine AC maintenance or urgent repairs. With a focus on professionalism and expertise, FAJ ensures high-quality service and customer satisfaction. </p>
+                <p className="mb-0">  <strong>  Samsung AC Service and Repair: </strong> Samsung AC Service provides peace of mind with our skilled technicians. At FAJ, we specialize in efficient and reliable Samsung AC maintenance, repair, and installation. You can trust our expert team to keep your HVAC system running smoothly and ensure your comfort throughout the year! </p>
+                <p className="mb-0">  <strong>  Samsung Inverter Air Conditioner Maintenance: </strong> Count on our dedicated team to promptly resolve any concerns with your Samsung air conditioner maintenance and bring it back to peak performance! </p>
+                <p className="mb-0">  <strong>  Samsung HVAC Repair: </strong> We have extensive expertise in Samsung cassette and package unit AC systems, providing reliable repairs to ensure your unit operates efficiently. </p>
+                <p className="mb-0">  <strong>  Samsung Ceiling AC Service and Repair: </strong> Our specialists can quickly diagnose and resolve any issues with your Samsung ceiling AC repair and service. </p>
+                <p className="mb-0">  <strong>  Samsung VRF (Variable Refrigerant Flow) System Service and Repair: </strong> FAJ's Samsung Variable Refrigerant Flow (VRF) repair and maintenance services provide efficient HVAC solutions tailored to your needs. Our expert team prioritizes your comfort and satisfaction, ensuring reliable service and peace of mind in managing your climate control requirements. </p>
+                <p className="mb-0">  <strong> Samsung Ducted Split AC Service and Repair: </strong> For reliable Samsung AC repair and maintenance in Dubai, our experienced technicians are ready to assist you. With expertise in diagnosing a variety of Samsung AC issues and resolving error codes, we guarantee minimal disruption to your comfort. Trust us for prompt and effective service that delivers the cooling relief you need. </p>
+                <p className="">  <strong>  Samsung Wall-Mounted Air Conditioner Service and Repair: </strong> Stay cool in the extreme heat of Dubai with our professional Samsung air conditioning repair and maintenance services. We are dedicated to ensuring your unit operates at its best, helping you maintain a comfortable indoor environment even when outdoor temperatures soar. </p>
 
                 <p>
                   <a href="https://www.fajservices.ae/ac-repair-in-al-barsha-air-condition-maintenance-in-al-barsha-air-conditioning-fix-amc-service-in-al-barsha-dubai/">Al Barsha</a> &nbsp;|&nbsp;
@@ -557,10 +562,14 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
                   <a href="https://www.fajservices.ae/ac-services-in-impz/">IMPZ</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-dubai-sport-city/">Dubai Sports City</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-dubai-studio-city/">Dubai Studio City</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jbr/">JBR - Jumeirah Beach Residence</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-jlt/">JLT - Jumeirah Lake Towers</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jvc/">JVC - Jumeirah Village Circle</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-village-triangle/">JVT - Jumeirah Village Triangle</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jbr/">JBR</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-beach-residence/">Jumeirah Beach Residence</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-jlt//">JLT</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-lake-towers/">Jumeirah Lake Towers</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jvc/">JVC</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-village-circle/">Jumeirah Village Circle</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jvt/">JVT</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-village-triangle/">Jumeirah Village Triangle</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-jebel-ali-village/">Jebel Ali Village</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-palm-jumeirah/">Jumeirah</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-jumeirah-golf-estates/">Jumeirah Golf Estates</a> &nbsp;|&nbsp;
@@ -573,6 +582,7 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
                   <a href="https://www.fajservices.ae/ac-services-in-ras-al-khor-industrial-area/">Ras Al Khor</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-deira/">Deira</a>
                 </p>
+
               </div>
 
             </div>
@@ -587,6 +597,9 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
+
+        <Practicaltip></Practicaltip>
+        <AcProperties></AcProperties>
 
         
         {/* Maintenance Contract */}

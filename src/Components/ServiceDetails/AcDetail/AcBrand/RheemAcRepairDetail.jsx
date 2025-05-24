@@ -120,7 +120,7 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Rheem Air Conditioner Maintenance and Servicing</h3>
+                <h3 className="cs_fs_24 mb-1">Rheem Ac Maintenance and Servicing</h3>
 
                 <p className="mb-2">
                   When it comes to Rheem <a href="/ac-repair-dubai/">AC repair</a>, hiring a professional and reliable Rheem AC technician for your home or office is essential.
@@ -148,13 +148,13 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Daikin AC Service" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Rheem AC Service" />
               </div>
             </div>
             <AppliancesAppointmentCol></AppliancesAppointmentCol>
           </div>
         </section>
-       
+
         {/* Why*/}
         <section className="section cs_py_30">
           <div className="container">
@@ -315,7 +315,7 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
                   className="bordered-img blue-border"
                   width="100%"
                   height="350"
-                  src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
+                  src="https://www.youtube.com/embed/sxBhB1_gxYA?si=Fk3OIwPHCHAsktx-"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -333,7 +333,7 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
                   <li> <strong> Rheem AC Annual Maintenance Contract: </strong> This contract outlines the terms and services for the Rheem AC annual maintenance. Regular Rheem AC (AMC / PPM) maintenance is essential for optimal performance, efficiency, and longevity of your air conditioning system. </li>
                 </ul>
               </div>
-              
+
             </div>
           </div>
         </section >
@@ -450,7 +450,7 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With <a href="/ac-annual-maintenance-contract/">annual maintenance contract</a>, you get a full year of service, ensuring your Rheem AC runs smoothly and providing peace of mind.
+                    <p>With <a href="/ac-annual-maintenance-contract/">annual maintenance contract</a>, you get a full year of service, ensuring your AC runs smoothly and providing peace of mind.
                     </p>
                   </div>
                 </div>
@@ -525,7 +525,7 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
             <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
               <b>We provide 2-month service warranty</b><br />
               and <small>3-month parts warranty</small> as standard.</p>
-            <h3>We specialise in Rheem air conditioning services for the following types</h3>
+            <h3>We specialise in Rheem ac services for the following types</h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"><strong>  Rheem Split Air Conditioner Service:</strong> FAJ offers reliable repair and maintenance services for Rheem AC units in Dubai. Our team is composed of professionals who specialize in Rheem split systems, Rheem VRF, and Rheem central air conditioning units. </p>
@@ -558,10 +558,14 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
                   <a href="https://www.fajservices.ae/ac-services-in-impz/">IMPZ</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-dubai-sport-city/">Dubai Sports City</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-dubai-studio-city/">Dubai Studio City</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jbr/">JBR - Jumeirah Beach Residence</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-jlt/">JLT - Jumeirah Lake Towers</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jvc/">JVC - Jumeirah Village Circle</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-village-triangle/">JVT - Jumeirah Village Triangle</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jbr/">JBR</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-beach-residence/">Jumeirah Beach Residence</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-jlt//">JLT</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-lake-towers/">Jumeirah Lake Towers</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jvc/">JVC</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-village-circle/">Jumeirah Village Circle</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jvt/">JVT</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-village-triangle/">Jumeirah Village Triangle</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-jebel-ali-village/">Jebel Ali Village</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-palm-jumeirah/">Jumeirah</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-jumeirah-golf-estates/">Jumeirah Golf Estates</a> &nbsp;|&nbsp;
@@ -591,10 +595,10 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
         <Practicaltip></Practicaltip>
         <AcProperties></AcProperties>
 
-        
+
         {/* Maintenance Contract */}
         <MaintenanceContract />
-{/* testimobial section */}
+        {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">

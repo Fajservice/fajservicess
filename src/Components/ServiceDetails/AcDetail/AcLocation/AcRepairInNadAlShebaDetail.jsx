@@ -45,13 +45,16 @@ const AcRepairInNadAlShebaDetail = ({ subtitle, title, bgImg }) => {
     }, []);
 
     const settings = {
-        dots: false,
-        infinite: true,
-        speed: 600,
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        arrows: false,
-        swipeToSlide: true,
+       dots: false,
+    infinite: true,
+    speed: 600,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    arrows: false,
+    swipeToSlide: true,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    pauseOnHover: true,
         responsive: [
             {
                 breakpoint: 1399,
@@ -84,7 +87,6 @@ const AcRepairInNadAlShebaDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
             <div className="container">
                 <h1 className="cs_fs_30">AC Service in Nad Al Sheba</h1>
-                {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
             <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
             <a href="/"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in AC servicing, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 
@@ -102,7 +104,7 @@ const AcRepairInNadAlShebaDetail = ({ subtitle, title, bgImg }) => {
             <div className="container">
                 <div className="row gx-md-5">
                     <div className="col-md-6">
-                        <h3 className="cs_fs_24 mb-1">Best AC Repair in Nad Al Shebay</h3>
+                        <h3 className="cs_fs_24 mb-1">Best AC Repair in Nad Al Sheba</h3>
                         <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> in Nad Al Sheba, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
                         <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                         <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>

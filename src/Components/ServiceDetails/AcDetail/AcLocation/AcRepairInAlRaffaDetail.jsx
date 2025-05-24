@@ -19,56 +19,89 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
 
 const AcRepairInAlRaffaDetail = ({ subtitle, title, bgImg }) => {
-    subtitle = "Testimonial"
-    title = "What our clients say About Us"
-    bgImg = "img/testimonialbg.jpg"
+  subtitle = "Testimonial"
+  title = "What our clients say About Us"
+  bgImg = "img/testimonialbg.jpg"
+  const accordionContentRef = useRef(null);
+  const [openItemIndex, setOpenItemIndex] = useState(-1);
+  const [firstItemOpen, setFirstItemOpen] = useState(true);
 
-    const accordionContentRef = useRef(null);
-    const [openItemIndex, setOpenItemIndex] = useState(-1);
-    const [firstItemOpen, setFirstItemOpen] = useState(true);
+  const handleItemClick = index => {
+    if (index === openItemIndex) {
+      setOpenItemIndex(-1);
+    } else {
+      setOpenItemIndex(index);
+    }
+  };
+  useEffect(() => {
+    if (firstItemOpen) {
+      setOpenItemIndex(0);
+      setFirstItemOpen(false);
+    }
+  }, [firstItemOpen]);
 
-    const handleItemClick = index => {
-        if (index === openItemIndex) {
-            setOpenItemIndex(-1);
-        } else {
-            setOpenItemIndex(index);
+  useEffect(() => {
+    loadBackgroudImages();
+  }, []);
+
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 600,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    arrows: false,
+    swipeToSlide: true,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    pauseOnHover: true,
+    responsive: [
+      {
+        breakpoint: 1399,
+        settings: {
+          slidesToShow: 2,
         }
-    };
-    useEffect(() => {
-        if (firstItemOpen) {
-            setOpenItemIndex(0);
-            setFirstItemOpen(false);
+      },
+      {
+        breakpoint: 1199,
+        settings: {
+          slidesToShow: 2,
         }
-    }, [firstItemOpen]);
+      }, {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ]
+  };
 
-    useEffect(() => {
-        loadBackgroudImages();
-    }, []);
-
-    const settings = {
+    const settingBrands = {
         dots: false,
         infinite: true,
-        speed: 600,
-        slidesToShow: 2,
-        slidesToScroll: 1,
+        slidesToShow: 6,
         arrows: false,
-        swipeToSlide: true,
+
+        autoplay: true,
+        autoplaySpeed: 5000,
+        pauseOnHover: true,
+
         responsive: [
             {
                 breakpoint: 1399,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 6,
                 }
             },
             {
                 breakpoint: 1199,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 4,
                 }
             }, {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                 }
             }
         ]
