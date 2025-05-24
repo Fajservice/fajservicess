@@ -5,7 +5,7 @@ import CallNowButton from '../Buttons/CallNowButton';
 const AppliancesAppointmentCol = () => {
     return (
         <>
-            <div className="appointment-col border-small-top pt-3">
+            <div className="appointment-col border-small-top pt-3 mt-2">
               <p className="appointment-col">
               
               If you need repairs for your coffee machine, stand mixer, or robot vacuum, please contact us.
