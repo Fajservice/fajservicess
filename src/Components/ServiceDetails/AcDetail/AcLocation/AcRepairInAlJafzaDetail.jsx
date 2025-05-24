@@ -20,6 +20,16 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
 
 const AcRepairInAlJafzaDetail = ({ subtitle, title, bgImg }) => {
+
+
+    // For SEO
+    const titleSeo = "Appliances Services In Town Square - Washing Machine Repair";
+    const description = "Get appliance services in Town Square. FAJ experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher, oven";
+    const Author = "Faj Technical Servcies";
+    const Keyword = "";
+    const URL = "https://www.fajservices.ae/appliances-services-in-town-square";
+
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "img/testimonialbg.jpg"
@@ -46,13 +56,17 @@ const AcRepairInAlJafzaDetail = ({ subtitle, title, bgImg }) => {
     }, []);
 
     const settings = {
-        dots: false,
+       dots: false,
         infinite: true,
         speed: 600,
         slidesToShow: 2,
         slidesToScroll: 1,
         arrows: false,
         swipeToSlide: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        pauseOnHover: true,
+
         responsive: [
             {
                 breakpoint: 1399,
@@ -76,7 +90,7 @@ const AcRepairInAlJafzaDetail = ({ subtitle, title, bgImg }) => {
     return (
         <>
             <HelmetProvider>
-                <title>Ac Repair In Al Jafza - Air Conditioner Maintenance Service</title>
+                <title>Ac Repair In Jafza - Air Conditioner Maintenance Service</title>
                 <meta name="description" content="Finding exemplary Central & Split Ac Repair in Jafza Dubai can be difficult, however. But that's why we're here to help with aircon cleaning service "></meta>
             </HelmetProvider>
             <HeaderForm />
@@ -103,8 +117,8 @@ const AcRepairInAlJafzaDetail = ({ subtitle, title, bgImg }) => {
                     <div className="container">
                         <div className="row gx-md-5">
                             <div className="col-md-6">
-                                <h3 className="cs_fs_24 mb-1">Best AC Repair in Al Jafza</h3>
-                                <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Al Jafza, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
+                                <h3 className="cs_fs_24 mb-1">Best AC Repair in Jafza</h3>
+                                <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Jafza, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
                                 <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
                                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>

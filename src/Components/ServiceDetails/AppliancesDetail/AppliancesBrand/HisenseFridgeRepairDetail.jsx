@@ -14,71 +14,62 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
 const HisenseFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
-    // For SEO
-    const titleSeo = "Hisense Fridge Repair In Dubai - Washing Machine Service";
-    const description = "We provide the best Hisense fridge repair in dubai. Dail 043300002 for hisense washing machine, refrigerator, dishwasher, stove oven fix service near me";
-    const Author = "Faj Technical Servcies";
-    const Keyword = "";
-    const URL = "https://fajservices.com/hisense-fridge-repair-in-dubai-hisense-washing-machine-repair-in-dubai-hisense-cooker-repair-in-dubai-hisense-oven-repair-in-dubai-hisense-appliances-maintenance-in-dubai-hisense-refrigerator-fix-repa/";
+  subtitle = "Testimonial"
+  title = "What our clients say About Us"
+  bgImg = "img/testimonialbg.jpg"
+  const accordionContentRef = useRef(null);
+  const [openItemIndex, setOpenItemIndex] = useState(-1);
+  const [firstItemOpen, setFirstItemOpen] = useState(true);
 
+  const handleItemClick = index => {
+    if (index === openItemIndex) {
+      setOpenItemIndex(-1);
+    } else {
+      setOpenItemIndex(index);
+    }
+  };
+  useEffect(() => {
+    if (firstItemOpen) {
+      setOpenItemIndex(0);
+      setFirstItemOpen(false);
+    }
+  }, [firstItemOpen]);
 
-    subtitle = "Testimonial"
-    title = "What our clients say About Us"
-    bgImg = "img/testimonialbg.jpg"
-    const accordionContentRef = useRef(null);
-    const [openItemIndex, setOpenItemIndex] = useState(-1);
-    const [firstItemOpen, setFirstItemOpen] = useState(true);
+  useEffect(() => {
+    loadBackgroudImages();
+  }, []);
 
-    const handleItemClick = index => {
-        if (index === openItemIndex) {
-            setOpenItemIndex(-1);
-        } else {
-            setOpenItemIndex(index);
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 600,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    arrows: false,
+    swipeToSlide: true,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    pauseOnHover: true,
+    responsive: [
+      {
+        breakpoint: 1399,
+        settings: {
+          slidesToShow: 2,
         }
-    };
-    useEffect(() => {
-        if (firstItemOpen) {
-            setOpenItemIndex(0);
-            setFirstItemOpen(false);
+      },
+      {
+        breakpoint: 1199,
+        settings: {
+          slidesToShow: 2,
         }
-    }, [firstItemOpen]);
-
-    useEffect(() => {
-        loadBackgroudImages();
-    }, []);
-
-    const settings = {
-        dots: false,
-        infinite: true,
-        speed: 600,
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        arrows: false,
-        swipeToSlide: true,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        pauseOnHover: true,
-
-        responsive: [
-            {
-                breakpoint: 1399,
-                settings: {
-                    slidesToShow: 2,
-                }
-            },
-            {
-                breakpoint: 1199,
-                settings: {
-                    slidesToShow: 2,
-                }
-            }, {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                }
-            }
-        ]
-    };
+      }, {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ]
+  };
 
     const settingBrands = {
         dots: false,
@@ -89,7 +80,6 @@ const HisenseFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
         autoplay: true,
         autoplaySpeed: 5000,
         pauseOnHover: true,
-        // cssEase: 'linear',
 
         responsive: [
             {

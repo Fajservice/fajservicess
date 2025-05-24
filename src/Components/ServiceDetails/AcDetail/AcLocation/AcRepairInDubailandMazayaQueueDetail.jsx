@@ -19,6 +19,13 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
 
 const AcRepairInDubailandMazayaQueueDetail = ({ subtitle, title, bgImg }) => {
+    
+    // For SEO
+    const titleSeo = "AC Services In Dubailand Mazaya Queue - AC Error Fix";
+    const description = "AC Services in Dubailand Mazaya Queue. We are experts in York central air conditioner repair & maintenance near me Dubai AC fix Call 043300002";
+    const Author = "Faj Technical Servcies";
+    const Keyword = "";
+    const URL = "https://fajservices.com/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/";
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "img/testimonialbg.jpg"
@@ -45,13 +52,16 @@ const AcRepairInDubailandMazayaQueueDetail = ({ subtitle, title, bgImg }) => {
     }, []);
 
     const settings = {
-        dots: false,
+       dots: false,
         infinite: true,
         speed: 600,
         slidesToShow: 2,
         slidesToScroll: 1,
         arrows: false,
         swipeToSlide: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        pauseOnHover: true,
         responsive: [
             {
                 breakpoint: 1399,
@@ -75,8 +85,18 @@ const AcRepairInDubailandMazayaQueueDetail = ({ subtitle, title, bgImg }) => {
     return (
         <>
             <HelmetProvider>
-                <title>AC Services In Dubailand Mazaya Queue Point - AC Error Fix</title>
-                <meta name="description" content="AC Services in Dubailand Mazaya Queue. We are experts in York central air conditioner repair & maintenance near me Dubai AC fix Call 043300002"></meta>
+                 <title>{titleSeo}</title>
+                <meta name="description" content={description}></meta>
+                <meta name="keywords" content={Keyword} />
+                <meta name="author" content={Author} />
+                <meta name="robots" content="index, follow" />
+                <Link rel="canonical" href={titleSeo} />
+                <meta property="og:type" content="website" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="og:title" content={titleSeo} />
+                <meta property="og:description" content={description} />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content={URL} />
             </HelmetProvider>
             <HeaderForm />
             <div className="cs_service_details">
@@ -84,7 +104,6 @@ const AcRepairInDubailandMazayaQueueDetail = ({ subtitle, title, bgImg }) => {
                 <section className="section cs_py_30">
                     <div className="container">
                         <h1 className="cs_fs_30">AC Service in Dubailand Mazaya Queue</h1>
-                        {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="/"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in AC servicing, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 
@@ -102,8 +121,8 @@ const AcRepairInDubailandMazayaQueueDetail = ({ subtitle, title, bgImg }) => {
                     <div className="container">
                         <div className="row gx-md-5">
                             <div className="col-md-6">
-                                <h3 className="cs_fs_24 mb-1">Best AC Repair in Dubai</h3>
-                                <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> in Dubailand Mazaya Queue Point, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
+                                <h3 className="cs_fs_24 mb-1">Best AC Repair in Dubailand Mazaya Queue</h3>
+                                <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> in Dubailand Mazaya Queue, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
                                 <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
                                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>

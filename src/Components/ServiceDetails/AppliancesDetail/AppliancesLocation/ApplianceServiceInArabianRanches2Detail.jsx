@@ -54,7 +54,7 @@ const ApplianceServiceInArabianRanches2Detail = ({ bgImg, title, subtitle }) => 
     }, []);
 
     const settings = {
-        dots: false,
+       dots: false,
         infinite: true,
         speed: 600,
         slidesToShow: 2,

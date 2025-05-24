@@ -20,6 +20,16 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
 
 const AcRepairInAlkaramaDetail = ({ subtitle, title, bgImg }) => {
+
+
+    // For SEO
+    const titleSeo = "Appliances Services In Town Square - Washing Machine Repair";
+    const description = "Get appliance services in Town Square. FAJ experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher, oven";
+    const Author = "Faj Technical Servcies";
+    const Keyword = "";
+    const URL = "https://www.fajservices.ae/appliances-services-in-town-square";
+
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "img/testimonialbg.jpg"
@@ -46,13 +56,17 @@ const AcRepairInAlkaramaDetail = ({ subtitle, title, bgImg }) => {
     }, []);
 
     const settings = {
-        dots: false,
+       dots: false,
         infinite: true,
         speed: 600,
         slidesToShow: 2,
         slidesToScroll: 1,
         arrows: false,
         swipeToSlide: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        pauseOnHover: true,
+
         responsive: [
             {
                 breakpoint: 1399,

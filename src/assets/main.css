@@ -1410,6 +1410,10 @@ textarea {
   font-size: 16px;
   line-height: 1.425em;
 }
+.cs_fs_17 {
+  font-size: 17px;
+  line-height: 1.425em;
+}
 
 .cs_fs_18 {
   font-size: 18px;
@@ -1426,6 +1430,14 @@ textarea {
   }
   .cs_fs_18{
     font-size: 16px;
+    line-height: 1em;
+  }
+  .cs_fs_16{
+    font-size: 14px;
+    line-height: 1em;
+  }
+  .cs_fs_17{
+    font-size: 15px;
     line-height: 1em;
   }
  
@@ -7091,9 +7103,12 @@ label {
  }
   .cs_nav .cs_nav_list a {
     display: block;
-    padding: 5px 20px;
+    padding: 8px 20px;
     font-weight: 500;
  }
+ ul.cs_fs_18.custom_border_drop, ul.cs_fs_18.custom_border_drop ul {
+    border-top: 1px solid #ffffff70;
+}
  .cs_nav .cs_nav_list{
   line-height: 1.3em;
 }

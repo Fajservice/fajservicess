@@ -115,19 +115,16 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-
-
         {/* 2 col */}
         <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Gree Air Conditioner Maintenance and Servicing</h3>
+                <h3 className="cs_fs_24 mb-1">Gree AC Maintenance and Servicing</h3>
 
                 <p className="mb-2">
                   When it comes to Gree <a href="/ac-repair-dubai/">AC repair</a>, it is important to hire a professional and reliable Gree AC technician for your home or office.
                   <br />We specialise in Gree air conditioner (AC) repair, service, and maintenance throughout Dubai and Sharjah. The FAJ team is committed to ensuring a comfortable temperature for you all year round.
-
                 </p>
 
                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
@@ -161,7 +158,7 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
           <div className="container">
 
             <h3 className="cs_fs_30">Why is Gree AC Maintenance Service Important in Dubai?</h3>
-            <p className="">
+            <p className="mb-0">
               Regular maintenance of Gree air conditioners (AC) in Dubai is essential for optimal performance. FAJ provides comprehensive services to ensure your system operates efficiently. With our proactive approach, you can be confident that your Gree AC is functioning at its best. If you need Gree <a href="/ac-maintenance-dubai/"> AC maintenance near you</a> , please contact us.
             </p>
 
@@ -174,9 +171,9 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
 
                   <li> <strong> Extreme Weather: </strong> In the summer, temperatures can exceed 40°C (104°F). Routine maintenance helps ensure that Gree air conditioner systems operate efficiently in these conditions.</li>
                   <li> <strong> Energy Efficiency: </strong> A well-maintained Gree AC unit functions more efficiently, conserving energy and reducing electricity bills.</li>
-                  <li> <strong> Longevity of Equipment: </strong> Regular <a href="/ac-maintenance-dubai/">AC maintenance</a> of your Gree air conditioner unit can extend its lifespan, reduce the need for costly repairs and replacements, and ultimately save you money.</li>
+                  <li> <strong> Longevity of Equipment: </strong> Regular <strong> <a href="/ac-maintenance-dubai/">AC maintenance</a></strong> of your Gree air conditioner unit can extend its lifespan, reduce the need for costly repairs and replacements, and ultimately save you money.</li>
                   <li> <strong> Improved Air Quality: </strong> Regular maintenance prevents the accumulation of dust and allergens, which helps to ensure cleaner air.</li>
-                  <li> <strong> Enhanced Comfort: </strong> Regular Gree <a href="/ac-service-in-dubai/">AC servicing in Dubai</a> ensures comfort, efficiency, and consistent cooling daily.</li>
+                  <li> <strong> Enhanced Comfort: </strong> Regular Gree <strong> <a href="/ac-service-in-dubai/" className="fw-">AC servicing in Dubai</a></strong> ensures comfort, efficiency, and consistent cooling daily.</li>
 
                 </ul>
               </div>
@@ -317,7 +314,7 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
                   className="bordered-img blue-border"
                   width="100%"
                   height="350"
-                  src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
+                  src="https://www.youtube.com/embed/sxBhB1_gxYA?si=Fk3OIwPHCHAsktx-"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -430,7 +427,6 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
 
         {/* CHOOSE US  */}
         <section className="section cs_py_30">
-
           <div className="container container-md container-sm">
             <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR  NEEDS!</h2>
             <div className="usps align-items-center	">
@@ -453,7 +449,7 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With <a href="/ac-annual-maintenance-contract/">annual maintenance contract</a>, you get a full year of service, ensuring your Gree AC runs smoothly and providing peace of mind.
+                    <p>With <a href="/ac-annual-maintenance-contract/">annual maintenance contract</a>, you get a full year of service, ensuring your AC runs smoothly and providing peace of mind.
                     </p>
                   </div>
                 </div>
@@ -528,9 +524,9 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
             <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
               <b>We provide 2-month service warranty</b><br />
               and <small>3-month parts warranty</small> as standard.</p>
-            
-            
-            <h3>We specialise in Gree air conditioning services for the following types</h3>
+
+
+            <h3>We specialise in Gree AC services for the following types</h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"><strong>   Gree Split Air Conditioner Service: </strong> FAJ provides dependable repair and maintenance services for Gree AC units in Dubai. Our team consists of professionals who are experts in Gree split systems, Gree VRF, and Gree central air conditioning units.</p>
@@ -541,7 +537,7 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
                 <p className="mb-0"><strong>   Gree Ceiling AC Service and Repair: </strong> No matter what the issue is with your Gree air conditioner, our experts can accurately diagnose and fix it.</p>
                 <p className="mb-0"><strong>   Gree AC Service and Maintenance: </strong> Is your AC not working? Don’t endure uncomfortable temperatures and stuffy air, or risk damage to your equipment—FAJ can get your Gree air conditioning functioning again in no time!</p>
                 <p className="mb-0"><strong>   Gree Ducted Split AC Service and Repair: </strong> Gree ducted split AC service in Dubai requires expert assistance, as only specialists know how to address air conditioning issues. We provide a hassle-free Gree air conditioning repair service and fix errors.</p>
-                <p className="mb-0"><strong>   Gree Wall-Mounted Air Conditioner Service and Repair: </strong> Looking for relief from the scorching heat? Discover how to keep your Gree AC running smoothly in Dubai! Our expert Gree AC services ensure your unit remains cool and efficient, providing comfort and peace of mind.  </p>
+                <p className=""><strong>   Gree Wall-Mounted Air Conditioner Service and Repair: </strong> Looking for relief from the scorching heat? Discover how to keep your Gree AC running smoothly in Dubai! Our expert Gree AC services ensure your unit remains cool and efficient, providing comfort and peace of mind.  </p>
 
                 <p>
                   <a href="https://www.fajservices.ae/ac-repair-in-al-barsha-air-condition-maintenance-in-al-barsha-air-conditioning-fix-amc-service-in-al-barsha-dubai/">Al Barsha</a> &nbsp;|&nbsp;
@@ -562,10 +558,14 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
                   <a href="https://www.fajservices.ae/ac-services-in-impz/">IMPZ</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-dubai-sport-city/">Dubai Sports City</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-dubai-studio-city/">Dubai Studio City</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jbr/">JBR - Jumeirah Beach Residence</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-jlt/">JLT - Jumeirah Lake Towers</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jvc/">JVC - Jumeirah Village Circle</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-village-triangle/">JVT - Jumeirah Village Triangle</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jbr/">JBR</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-beach-residence/">Jumeirah Beach Residence</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-jlt//">JLT</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-lake-towers/">Jumeirah Lake Towers</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jvc/">JVC</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-village-circle/">Jumeirah Village Circle</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jvt/">JVT</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-village-triangle/">Jumeirah Village Triangle</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-jebel-ali-village/">Jebel Ali Village</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-palm-jumeirah/">Jumeirah</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-jumeirah-golf-estates/">Jumeirah Golf Estates</a> &nbsp;|&nbsp;
@@ -678,6 +678,7 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
+        {/* Contact */}
         <section className="section cs_py_30">
           <Serviceappointemnt
             subtitle2="Contact us"
