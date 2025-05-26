@@ -18,7 +18,7 @@ const SanyoHomeApplianceDetail = ({ subtitle, title, bgImg }) => {
   const description = "If you're searching for reliable Sanyo fridge repair in Dubai. Call-FAJ 043300002 for Sanyo washing machine, dishwasher oven fix service nearme";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://fajservices.com/sanyo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/";
+  const URL = "https://www.fajservices.com/sanyo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/";
 
 
   subtitle = "Testimonial"
@@ -161,7 +161,7 @@ const SanyoHomeApplianceDetail = ({ subtitle, title, bgImg }) => {
 
                 <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service
                 </h3>
-                <p className="mb-2">At <a href="/">FAJ Technical Services LLC</a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
+                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services LLC</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
               </div>
 
               <div className="col-md-6 ">

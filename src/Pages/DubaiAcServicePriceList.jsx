@@ -1,355 +1,418 @@
-import BreadCumb from "../Components/Common/BreadCumb";
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 
+const ServiceCard = ({ title, subtitle, price, color, details, whatsappLink }) => {
+  const [isExpanded, setIsExpanded] = useState(false);
+  const buttonClass = `btn btn-${color}`;
 
-const DubaiAcServicePriceList = () => {
-
-    // Your toggle functions go here
-    const myFunctOne = () => {
-        document.getElementById("acsvs-sec01").style.display = "none";
-        document.getElementById("acsvs-sec02").style.display = "block";
-    };
-
-    const myFunctTwo = () => {
-        document.getElementById("acsvs-sec02").style.display = "none";
-        document.getElementById("acsvs-sec01").style.display = "block";
-    };
-
-    const myFunctThree = () => {
-        document.getElementById("acsvs-sec03").style.display = "none";
-        document.getElementById("acsvs-sec04").style.display = "block";
-    };
-
-    const myFunctFour = () => {
-        document.getElementById("acsvs-sec04").style.display = "none";
-        document.getElementById("acsvs-sec03").style.display = "block";
-    };
-
-    const myFunctFive = () => {
-        document.getElementById("acsvs-sec04").style.display = "none";
-        document.getElementById("acsvs-sec03").style.display = "block";
-    };
-
-
-    const myFunctSix = () => {
-        document.getElementById("acsvs-sec04").style.display = "none";
-        document.getElementById("acsvs-sec03").style.display = "block";
-    };
-
-    const myFunctSeven = () => {
-        document.getElementById("acsvs-sec04").style.display = "none";
-        document.getElementById("acsvs-sec03").style.display = "block";
-    };
-
-    const myFunctEight = () => {
-        document.getElementById("acsvs-sec04").style.display = "none";
-        document.getElementById("acsvs-sec03").style.display = "block";
-    };
-
-    const myFunctNine = () => {
-        document.getElementById("acsvs-sec04").style.display = "none";
-        document.getElementById("acsvs-sec03").style.display = "block";
-    };
-
-    const myFunctTen = () => {
-        document.getElementById("acsvs-sec04").style.display = "none";
-        document.getElementById("acsvs-sec03").style.display = "block";
-    };
-
-
-    const myFunctEleven = () => {
-        document.getElementById("acsvs-sec04").style.display = "none";
-        document.getElementById("acsvs-sec03").style.display = "block";
-    };
-
-    const myFunctTwelve = () => {
-        document.getElementById("acsvs-sec04").style.display = "none";
-        document.getElementById("acsvs-sec03").style.display = "block";
-    };
-
-
-
-
-
-    return (
-        <div>
-            <div className="container">
-                <div className="acsvs-dis-sec-inner mt-3">
-                    <div className="row">
-                        <div className="col-sm-12">
-                            <div className="inner-acsvs-dis-sec">
-                                <p className="acsvs-dis-sec-inner-p text-center mb-0">Get 5% to 10% <strong>DISCOUNT</strong> on General Service of 3 to 5 AC units</p>
-                            </div>
-                        </div>
-                    </div>
+  return (
+    <div className="col-lg-4 mb-4">
+      <div className="inner-acsvs-sec-feat">
+        <div className="avsvs-sec-feat-sub">
+          <div className={color}>
+            {!isExpanded ? (
+              <div className="text-center p-3">
+                <p className="acsvs-sec-feat-p1">{title}</p>
+                <p className="acsvs-sec-feat-p2">{subtitle}</p>
+                <p className="acsvs-sec-feat-p3">
+                  Price Starting From: <strong>{price} <sup>AED</sup></strong>
+                </p>
+                <button className={buttonClass} onClick={() => setIsExpanded(true)}>
+                  View Detail
+                </button>
+              </div>
+            ) : (
+              <div className="p-3">
+                {details}
+                <div className="mt-3">
+                  <a
+                    href={whatsappLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`${buttonClass} w-100 d-block text-center`}
+                  >
+                    Book Now
+                  </a>
                 </div>
-            </div>
-
-            <div className="container">
-                <div className="acsvs-sec-feat-inner">
-                    <div className="row gx-lg-3">
-                        <div className="col-lg-4">
-                            <div className="inner-acsvs-sec-feat">
-                                <div className="avsvs-sec-feat-sub">
-                                    <div className="d-blue">
-                                        <div id="acsvs-sec01" className="text-center mb-3" style={{ display: 'block' }}>
-                                            <p className="acsvs-sec-feat-p1">Technical Inspection Fee <b style={{ textTransform: 'math-auto' }}>1 to 3 AC <sup><small>units</small></sup></b></p>
-                                            <p className="acsvs-sec-feat-p2">Central AC - Split AC - HVAC</p>
-                                            <p className="acsvs-sec-feat-p3">Price Starting From <strong>157.00 <sup>AED</sup></strong></p>
-                                            <a className="btn btn-dblue" id="plus_one" style={{ display: 'block' }} onClick={myFunctOne}><span>View Detail</span></a>
-                                        </div>
-                                        <div id="acsvs-sec02" style={{ display: 'none' }}>
-                                            <ul className="dft_para_format acsvs-sec-down">
-                                                <li className="faj_li">AC thermostat not working</li>
-                                                <li className="faj_li">Rectification Aircon power trip</li>
-                                                <li className="faj_li">Rectification Air flow problems</li>
-                                                <li className="faj_li">Rectification of AC water leakage</li>
-                                                <li className="faj_li">Rectification of AC displayed error</li>
-                                                <li className="faj_li">Rectification Sound problems from A/C</li>
-                                                <li className="faj_li">Rectification of AC not cooling/overcooling</li>
-                                            </ul>
-                                            <div className="pdt-24">
-                                                <a href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" target="_blank" className="btn btn-dblue w-100 txt-18">Book Now</a>
-                                            </div>
-                                            <div className="mgt-18">
-                                                <a id="minus_one" onClick={myFunctTwo} className="btn btn-dblue w-100">View Less</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4">
-                            <div className="inner-acsvs-sec-feat">
-                                <div className="avsvs-sec-feat-sub">
-                                    <div className="d-green">
-                                        <div id="acsvs-sec03" className="text-center mb-3" style={{ display: 'block' }}>
-                                            <p className="acsvs-sec-feat-p1">Cost AC Cleaning Services</p>
-                                            <p className="acsvs-sec-feat-p2">Chilled Water FCU AC</p>
-                                            <p className="acsvs-sec-feat-p3">Price Starting From <strong>195.00 <sup>AED</sup></strong></p>
-                                            <a className="btn btn-dgreen" id="plus_two" style={{ display: 'block' }} onClick={myFunctThree}><span>View Detail</span></a>
-                                        </div>
-                                        <div id="acsvs-sec04" style={{ display: 'none' }}>
-                                            <ul className="dft_para_format acsvs-sec-down">
-                                                <li className="faj_li">Check and clean the filters &amp; valve strainer.</li>
-                                                <li className="faj_li">Visually check the condition of the drain pan.</li>
-                                                <li className="faj_li">Rectify noise, knocks, vibrations &amp; actuator valve.</li>
-                                                <li className="faj_li">Check air return grill and air supply grill for air quality.</li>
-                                                <li className="faj_li">Check the functionality of actuator valves &amp; thermostat.</li>
-                                                <li className="faj_li">Unusually high energy bills to check Duct Leaks, Filters and Failing parts.</li>
-                                                <li className="faj_li">Check the insulations on the pipeline, if damaged will recommend replacement (Additional cost for replacement of insulation).</li>
-                                            </ul>
-                                            <div className="pdt-24">
-                                                <a href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" target="_blank" className="btn btn-dgreen w-100 txt-18">Book Now</a>
-                                            </div>
-                                            <div className="mgt-18">
-                                                <a id="minus_two" onClick={myFunctFour} className="btn btn-dgreen w-100">View Less</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4">
-                            <div className="inner-acsvs-sec-feat">
-                                <div className="avsvs-sec-feat-sub">
-                                    <div className="l-green">
-                                        <div id="acsvs-sec05" className="text-center mb-3" style={{ display: 'block' }}>
-                                            <p className="acsvs-sec-feat-p1">Cost Home AC / Office AC Unit Servicing</p>
-                                            <p className="acsvs-sec-feat-p2">Central AC &amp; Split AC 1.5 to 3.5 Ton</p>
-                                            <p className="acsvs-sec-feat-p3">Price Starting From <strong>235.00 <sup>AED</sup></strong></p>
-                                            <a className="btn btn-lgreen" id="plus_three" style={{ display: 'block' }} onClick={myFunctFive}><span>View Detail</span></a>
-                                        </div>
-                                        <div id="acsvs-sec06" style={{ display: 'none' }}>
-                                            <ul className="dft_para_format acsvs-sec-down">
-                                                <li className="faj_li">Cleaning of standard air filters.</li>
-                                                <li className="faj_li">Check and adjust the gas level.</li>
-                                                <li className="faj_li">Visually check the condition of the drain pan.</li>
-                                                <li className="faj_li">Pressure wash &amp; complete service outdoor unit.</li>
-                                                <li className="faj_li">Check compressor &amp; motor working performance.</li>
-                                                <li className="faj_li">Check the functioning thermostat and electric components.</li>
-                                                <li className="faj_li">Inspect pipe, shut off valves and valve actuator for any leaks.</li>
-                                            </ul>
-                                            <div className="pdt-24">
-                                                <a href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" target="_blank" className="btn btn-lgreen w-100 txt-18">Book Now</a>
-                                            </div>
-                                            <div className="mgt-18">
-                                                <a id="minus_three" onClick={myFunctSix} className="btn btn-lgreen w-100">View Less</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4">
-                            <div className="inner-acsvs-sec-feat">
-                                <div className="avsvs-sec-feat-sub">
-                                    <div className="d-purple">
-                                        <div id="acsvs-sec07" className="text-center mb-3" style={{ display: 'block' }}>
-                                            <p className="acsvs-sec-feat-p1">Cost Home AC / Office AC Unit Servicing</p>
-                                            <p className="acsvs-sec-feat-p2">Central &amp; Split 4.0 to 5.0 Ton</p>
-                                            <p className="acsvs-sec-feat-p3">Price Starting From <strong>365.00 <sup>AED</sup></strong></p>
-                                            <a className="btn btn-dpurple" id="plus_four" style={{ display: 'block' }} onClick={myFunctSeven}><span>View Detail</span></a>
-                                        </div>
-                                        <div id="acsvs-sec08" style={{ display: 'none' }}>
-                                            <ul className="dft_para_format acsvs-sec-down">
-                                                <li className="faj_li">Cleaning of standard air filters.</li>
-                                                <li className="faj_li">Check and adjust the gas level.</li>
-                                                <li className="faj_li">Visually check the condition of the drain pan.</li>
-                                                <li className="faj_li">Pressure wash &amp; complete service outdoor unit</li>
-                                                <li className="faj_li">Check compressor &amp; motor working performance.</li>
-                                                <li className="faj_li">Check the functioning thermostat and electric components.</li>
-                                                <li className="faj_li">Inspect pipe, shut off valves and valve actuator for any leaks.</li>
-                                            </ul>
-                                            <div className="pdt-24">
-                                                <a href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" target="_blank" className="btn btn-dpurple w-100 txt-18">Book Now</a>
-                                            </div>
-                                            <div className="mgt-18">
-                                                <a id="minus_four" onClick={myFunctEight} className="btn btn-dpurple w-100">View Less</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4">
-                            <div className="inner-acsvs-sec-feat">
-                                <div className="avsvs-sec-feat-sub">
-                                    <div className="l-blue">
-                                        <div id="acsvs-sec09" className="text-center mb-3" style={{ display: 'block' }}>
-                                            <p className="acsvs-sec-feat-p1">Cost Commercial AC Unit Servicing</p>
-                                            <p className="acsvs-sec-feat-p2">Central AC &amp; Duct Split AC 6.0 to 10 Ton</p>
-                                            <p className="acsvs-sec-feat-p3">Price Starting From <strong>489.00 <sup>AED</sup></strong></p>
-                                            <a className="btn btn-lblue" id="plus_five" style={{ display: 'block' }} onClick={myFunctNine}><span>View Detail</span></a>
-                                        </div>
-                                        <div id="acsvs-sec010" style={{ display: 'none' }}>
-                                            <ul className="dft_para_format acsvs-sec-down">
-                                                <li className="faj_li">Cleaning of standard air filters.</li>
-                                                <li className="faj_li">Check and adjust the gas level.</li>
-                                                <li className="faj_li">Visually check the condition of the drain pan.</li>
-                                                <li className="faj_li">Pressure wash &amp; complete service outdoor unit.</li>
-                                                <li className="faj_li">Check compressor &amp; motor working performance.</li>
-                                                <li className="faj_li">Check the functioning thermostat and electric components.</li>
-                                                <li className="faj_li">Inspect pipe, shut off valves and valve actuator for any leaks.</li>
-                                            </ul>
-                                            <div className="pdt-24">
-                                                <a href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" target="_blank" className="btn btn-lblue w-100 txt-18">Book Now</a>
-                                            </div>
-                                            <div className="mgt-18">
-                                                <a id="minus_five" onClick={myFunctTen} className="btn btn-lblue w-100">View Less</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4">
-                            <div className="inner-acsvs-sec-feat">
-                                <div className="avsvs-sec-feat-sub">
-                                    <div className="d-orange">
-                                        <div id="acsvs-sec11" className="text-center mb-3" style={{ display: 'block' }}>
-                                            <p className="acsvs-sec-feat-p1">Cost VRV &amp; VRF AC Unit Servicing</p>
-                                            <p className="acsvs-sec-feat-p2">2.0 to 5.0 Ton</p>
-                                            <p className="acsvs-sec-feat-p3">Price Starting From <strong>380.00 <sup>AED</sup></strong></p>
-                                            <a className="btn btn-dorange" id="plus_six" style={{ display: 'block' }} onClick={myFunctEleven}><span>View Detail</span></a>
-                                        </div>
-                                        <div id="acsvs-sec12" style={{ display: 'none' }}>
-                                            <ul className="dft_para_format acsvs-sec-down">
-                                                <li className="faj_li">Cleaning of standard air filters.</li>
-                                                <li className="faj_li">Check and adjust the gas level.</li>
-                                                <li className="faj_li">Pressure wash &amp; complete service outdoor unit.</li>
-                                                <li className="faj_li">Check the voltage and specific gravity and faulty connections</li>
-                                                <li className="faj_li">Check compressor-associated tubing, compressor suction &amp; motor.</li>
-                                                <li className="faj_li">Check the sound of the motor and component within the inverters board</li>
-                                                <li className="faj_li">Check variable speed compressor, expansion valve, error, and condensing &amp; evaporator safety valves pcb and sensors.</li>
-                                            </ul>
-                                            <div className="pdt-24">
-                                                <a href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello" target="_blank" className="btn btn-dorange w-100 txt-18">Book Now</a>
-                                            </div>
-                                            <div className="mgt-18">
-                                                <a id="minus_six" onClick={myFunctTwelve} className="btn btn-dorange w-100">View Less</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div className="mt-2">
+                  <button
+                    className={`${buttonClass} w-100`}
+                    onClick={() => setIsExpanded(false)}
+                  >
+                    View Less
+                  </button>
                 </div>
-            </div>
-
-            <div className="container mb-3">
-
-                <div className="row border-adius-gray p-0 g-0">
-                    <div className="col-sm-4 text-center d-flex justify-content-center align-items-center p-3 rounded-start border technical-col">
-                        <h3 className="cs_fs_20 mb-0">Why is AC Technical Inspection Necessary?</h3>
-                    </div>
-                    <div className="col-sm-8 border d-flex align-items-center p-3 rounded-end border">
-                        <p className="acsvs-exp-one-para mb-0">
-                        Regular AC inspections diagnose potential issues early, ensuring peak performance and extending your unit's lifespan. By maintaining energy efficiency, inspections reduce energy bills and enhance overall system reliability. They also help improve indoor air quality by identifying and eliminating dust and mold, creating a healthier environment for your home or office.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-
-            <div className="container mb-3">
-
-                <div className="row border-adius-gray p-0 g-0">
-                    <div className="col-sm-4 text-center d-flex justify-content-center align-items-center p-3 rounded-start border tcleaning-col">
-                        <h3 className="cs_fs_20 mb-0">Why is AC Cleaning Service Important?</h3>
-                    </div>
-                    <div className="col-sm-8 border d-flex align-items-center p-3 rounded-end border">
-                        <p className="acsvs-exp-one-para mb-0">AC service involves thorough cleaning, checking refrigerant levels, and ensuring all components function properly. Regular servicing boosts efficiency, lowering energy bills and enhancing cooling performance. It prevents unexpected breakdowns, ensuring your comfort is never compromised. Additionally, it extends the unit’s life, making it a cost-effective investment. </p>
-                    </div>
-                </div>
-
-            </div>
-
-            <div className="container mb-3">
-
-                <div className="row border-adius-gray p-0 g-0">
-                    <div className="col-sm-4 text-center d-flex justify-content-center align-items-center p-3 rounded-start border technical-col">
-                        <h3 className="cs_fs_20 mb-0">Why is AC Repair Required?</h3>
-                    </div>
-                    <div className="col-sm-8 border d-flex align-items-center p-3 rounded-end border">
-                        <p className="acsvs-exp-one-para mb-0">AC repair focuses on fixing specific issues like faulty wiring, refrigerant leaks, or broken parts. Air conditioner repairs restore your unit’s functionality, prevent further damage, and ensure consistent cooling. Early intervention can save you from higher repair costs or the need for a complete replacement, ensuring long-term comfort and efficiency. </p>
-                    </div>
-                </div>
-
-            </div>
-
-            <div className="container mb-3">
-
-                <div className="row border-adius-gray p-0 g-0">
-                    <div className="col-sm-4 text-center d-flex justify-content-center align-items-center p-3 rounded-start border technical-col">
-                        <h3 className="cs_fs_20 mb-0">Why is AC Maintenance Important?</h3>
-                    </div>
-                    <div className="col-sm-8 border d-flex align-items-center p-3 rounded-end border">
-                        <p className="acsvs-exp-one-para mb-0">AC maintenance includes tasks like cleaning filters, checking system controls, and inspecting coils. It ensures your unit runs efficiently, reducing energy consumption and operational costs. Regular maintenance minimizes wear and tear, preventing breakdowns and extending the system’s lifespan. Its essential approach ensures reliable, long-term performance.</p>
-                    </div>
-                </div>
-
-            </div>
-
-
-
-
-
-
-
-
-
-
+              </div>
+            )}
+          </div>
         </div>
-    );
+      </div>
+    </div>
+  );
 };
 
-export default DubaiAcServicePriceList;
+const ACServiceSection = () => {
+  const technicalServices = [
+    {
+      "title": "AC Technical Inspection Fee 1.5 to 3.0 Ton",
+      "subtitle": "Window and Split AC",
+      "price": "167.00",
+      "color": "d-blue",
+      "details": "AC inspection and diagnosis of insufficient cooling, over cooling, coils, thermostat/sensor, air filter, compressor, indoor/outdoor motors, capacitor, water leakage, drain pan, refrigerant level, airflow issues, strange noises, verifying thermostat settings, and AC electrical control."
+    },
+    {
+      "title": "AC Technical Inspection Fee 1.5 to 3.0 Ton",
+      "subtitle": "Chilled Water FCU AC",
+      "price": "195.00",
+      "color": "d-green",
+      "details": "AC inspection and diagnosis of insufficient cooling, over cooling, coils, valve strainer, actuator valve, supply grill for air quality. thermostat/sensor, air filter, capacitor, water leakage, drain pan, airflow issues, strange noises, verifying thermostat settings, AC electrical control and electric components, pipe, shutoff valves."
+    },
+    {
+      "title": "AC Technical Inspection Fee 1.5 to 3.5 Ton",
+      "subtitle": "Ducted / Central AC",
+      "price": "195.00",
+      "color": "l-green",
+      "details": "AC inspection and diagnosis of insufficient cooling, over cooling, coils, thermostat/sensor, air filter, compressor, indoor/outdoor motors, capacitor, water leakage, drain pan, refrigerant level, airflow issues, strange noises, verifying thermostat settings, AC electrical control, electric components and pipe, shutoff valves, and actuator valve."
+    },
+    {
+      "title": "AC Technical Inspection Fee 2.0 to 3.5 Ton",
+      "subtitle": "Inverter AC",
+      "price": "215.00",
+      "color": "d-purple",
+      "details": "AC inspection and diagnosis of insufficient cooling, over cooling, coils, PCB, thermostat/sensor, air filter, compressor, indoor/outdoor motors, capacitor, water leakage, drain pan, refrigerant level, airflow issues, strange noises, verifying thermostat settings, AC electrical control, electric components and pipes, shutoff valves, and actuator valves."
+    },
+    {
+      "title": "AC Technical Inspection Fee 2.5 to 5.0 Ton",
+      "subtitle": "VRV / VRF AC",
+      "price": "535.00",
+      "color": "l-blue",
+      "details": "AC inspection and diagnosis of insufficient cooling, over cooling, inverter board, electric components, coils, PCB, thermostat/sensor, air filter, compressors, indoor/outdoor motors, capacitor, water leakage, drain pan, refrigerant level, airflow issues, strange noises, verifying thermostat settings, AC electrical control, and pipes, shutoff valves, and actuator valves, condensate pump, branch controller."
+    },
+    {
+      "title": "AC Technical Inspection Fee 2.5 to 3.5 Ton",
+      "subtitle": "Package Unit / Cassette AC",
+      "price": "320.00",
+      "color": "d-orange",
+      "details": "AC inspection and diagnosis of insufficient cooling, over cooling, inverter board, electric components, coils, PCB, thermostat/sensor, air filter, compressors, indoor/outdoor motors, capacitor, relay, water leakage, drain pan, refrigerant level, airflow issues, strange noises, verifying thermostat settings, AC electrical control, and pipes, shutoff valves, and actuator valves, condensate pump, branch controller."
+    }
+  ];
+
+  const cleaningServices = [
+    {
+      "title": "AC Cleaning Service Cost of 1.5 to 3.0 Ton",
+      "subtitle": "Window and Split AC",
+      "price": "230.00",
+      "color": "d-blue",
+      "details": {
+        "included": "Servicing includes cleaning the condenser coil and filter to remove dust, sand, and dirt, as well as cleaning the drain line and water tray. Refrigerants will be topped up if required. Additionally, we will inspect the performance of the compressor, indoor and outdoor motors, cooling sensor, airflow issues, supply grill air quality, electrical connections, thermistor, PCB, and other AC components.",
+        "benefits": [
+          "Improve Indoor Air Quality & Flow",
+          "Prevent Mold, Bacterial & Allergen Growth",
+          "Increase Energy Efficiency & Potential Savings on Utility Bills",
+          "Extend the Lifespan of Your AC and Peace of Mind"
+        ]
+      }
+    },
+    {
+      "title": "AC Cleaning Service Cost of 1.5 to 3.0 Ton",
+      "subtitle": "Chilled Water FCU AC",
+      "price": "275.00",
+      "color": "d-green",
+      "details": {
+        "included": "Servicing of the filters to remove dust, sand, and dirt. Clean the drain line water tray, along with the strainer valve and actuator valve. Inspect the performance of the strainer valve, actuator, and supply grill air quality. Check the thermostat and sensors, look for airflow issues and any unusual noises, and verify the thermostat settings.",
+        "benefits": [
+          "Improve Indoor Air Quality & Flow",
+          "Prevent Mold, Bacterial & Allergen Growth",
+          "Increase Energy Efficiency & Potential Savings on Utility Bills",
+          "Extend the Lifespan of Your AC and Peace of Mind"
+        ]
+      }
+    },
+    {
+      "title": "AC Cleaning Service Cost of 1.5 to 3.5 Ton",
+      "subtitle": "Ducted / Central AC",
+      "price": "315.00",
+      "color": "l-green",
+      "details": {
+        "included": "Servicing includes cleaning the condenser coil and filter to remove dust, sand, and dirt, as well as cleaning the drain line and water tray. Refrigerants will be topped up if required. Additionally, we will inspect the performance of the compressor, indoor and outdoor motors, cooling sensor, airflow issues, supply grill air quality, PCB, and other AC components.",
+        "benefits": [
+          "Improve Indoor Air Quality & Flow",
+          "Prevent Mold, Bacterial & Allergen Growth",
+          "Increase Energy Efficiency & Potential Savings on Utility Bills",
+          "Extend the Lifespan of Your AC and Peace of Mind"
+        ]
+      }
+    },
+    {
+      "title": "AC Cleaning Service Cost of 2.0 to 3.5 Ton",
+      "subtitle": "Inverter AC",
+      "price": "345.00",
+      "color": "d-purple",
+      "details": {
+        "included": "Servicing includes cleaning the condenser coil and filter to remove dust, sand, and dirt, as well as cleaning the drain line and water tray. Refrigerants will be topped up if required. Additionally, we will inspect the performance of the inverter compressor, inverter indoor and outdoor motors, cooling sensor, airflow issues, supply grill air quality, float switch, electrical connections, thermistor, PCB, and other AC components.",
+        "benefits": [
+          "Improve Indoor Air Quality & Flow",
+          "Prevent Mold, Bacterial & Allergen Growth",
+          "Increase Energy Efficiency & Potential Savings on Utility Bills",
+          "Extend the Lifespan of Your AC and Peace of Mind"
+        ]
+      }
+    },
+    {
+      "title": "AC Cleaning Service Cost of 2.5 to 5.0 Ton",
+      "subtitle": "VRV / VRF AC",
+      "price": "765.00",
+      "color": "l-blue",
+      "details": {
+        "included": "Servicing includes cleaning the condenser coil and filter to remove dust, sand, and dirt, as well as cleaning the drain line and water tray. Refrigerant will be topped up if required. Additionally, we will inspect the performance of the inverter compressor, inverter indoor and outdoor motors, cooling sensor, airflow issues, supply grill air quality, float switch, electrical connections, thermistor, PCB, and other AC components.",
+        "benefits": [
+          "Improve Indoor Air Quality & Flow",
+          "Prevent Mold, Bacterial & Allergen Growth",
+          "Increase Energy Efficiency & Potential Savings on Utility Bills",
+          "Extend the Lifespan of Your AC and Peace of Mind"
+        ]
+      }
+    },
+    {
+      "title": "AC Cleaning Service Cost of Fee 2.5 to 3.5 Ton",
+      "subtitle": "Package Unit / Cassette AC",
+      "price": "535.00",
+      "color": "d-orange",
+      "details": {
+        "included": "Servicing includes cleaning the condenser coil and filter to remove dust, sand, and dirt, as well as cleaning the drain line and water tray. Refrigerants will be topped up if required. Additionally, we will inspect the performance of the compressor, indoor and outdoor motors, cooling sensor, PCB, and other AC components.",
+        "benefits": [
+          "Improve Indoor Air Quality & Flow",
+          "Prevent Mold, Bacterial & Allergen Growth",
+          "Increase Energy Efficiency & Potential Savings on Utility Bills",
+          "Extend the Lifespan of Your AC and Peace of Mind"
+        ]
+      }
+    }
+  ];
+
+  return (
+    <>
+       {/* Importance Section */}
+       <section className='section pt-3'>
+            <div className='container'>
+                <h1 className='text-center'>Dubai AC Service Price List</h1>
+            </div>
+       </section>
+      <section id="importance-section" className="py-5 bg-dark-blue">
+        <div className="container">
+          <div className="row text-light">
+            <div className="col-md-4 border-right">
+              <h2 className="mb-0 text-light">Why AC Inspection is Necessary?</h2>
+            </div>
+            <div className="col-md-8">
+              <p>Regular AC inspections diagnose potential issues early, ensuring peak performance and extending your unit's lifespan. By maintaining energy efficiency, inspections reduce energy bills and enhance overall system reliability. They also help improve indoor air quality by identifying and eliminating dust and mold, creating a healthier environment for your home or office.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Technical Inspection Section */}
+      <section id="technical-inspection" className='py-4 bg-light-gray'>
+        <div className="container">
+          <div className="terms-box">
+            <h6>TERMS AND CONDITIONS OF TECHNICAL INSPECTION</h6>
+            <p className="terms-text">
+              The AC technical inspection fee includes an on-site visit to diagnose the air conditioner unit by the technical team, with transportation charges to the Dubai premises. This amount will be deducted from the total cost in the final invoice if the customer needs any AC service in repair work/maintenance/cleaning service, or part replacement at the same time visit, not a second visit, and the second visit cost will be separate. Please note that this AC technical inspection fee is non-refundable. However, it does not cover the cost of carpentry work, gypsum ceiling access work for the AC unit, AC repair work, maintenance, or part replacement. And FAJ will provide quotation to the customer once the inspection is completed on-site.
+            </p>
+          </div>
+        </div>
+    </section>  
+    <section id="technical-inspection" className='py-2'>
+        <div className="container">
+          <div className="row gx-lg-3">
+            {technicalServices.map((service, index) => (
+              <ServiceCard key={`tech-${index}`} {...service} />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Importance Section */}
+      <section id="importance-section" className="py-5 bg-dark-blue">
+        <div className="container">
+          <div className="row  text-light">
+            <div className="col-md-4 border-right">
+              <h2 className="mb-0 text-light">Why AC Service is Important?</h2>
+            </div>
+            <div className="col-md-8">
+              <p>
+                AC service involves thorough cleaning, checking refrigerant levels, and ensuring all 
+                components function properly. Regular servicing boosts efficiency, lowers energy bills, 
+                and prevents unexpected breakdowns.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Cleaning Service Section */}
+      <section id="cleaning-service" className='bg-light-gray py-4'>
+        <div className="container">
+          <div className="terms-box">
+            <h6>TERMS AND CONDITIONS OF CLEANING SERVICE</h6>
+            <p className="terms-text">
+              The AC cleaning service fee includes an on-site visit to cleaning service the air conditioner unit by the technical team, with transportation charges to the Dubai premises. Please note that this AC cleaning service charge is non-refundable.The AC cleaning service does not cover the cost of any on-site carpentry work, gypsum ceiling access work for the AC unit, repair/maintenance/installation or spare part replacement; any additional work required on faulty AC unit will be quoted separately, and FAJ will quote accordingly to the customer with details.
+            </p>
+          </div>
+        </div>
+    </section>
+    <section id="cleaning-service" className='py-2'>
+        <div className="container">
+          <div className="row gx-lg-3">
+            {cleaningServices.map((service, index) => (
+              <ServiceCard key={`clean-${index}`} {...service} />
+            ))}
+          </div>
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default ACServiceSection;
+// Complete Technical Services Array
+const technicalServices = [
+  // Previous entries...
+  {
+    title: "AC Technical Inspection Fee 1.5 to 3.5 Ton",
+    subtitle: "Ducted / Central AC",
+    price: "195.00",
+    color: "l-green",
+    details: (
+      <p className="px-4">
+        AC inspection and diagnosis of insufficient cooling, over cooling, coils, thermostat/sensor,
+        air filter, compressor, indoor/outdoor motors, capacitor, water leakage, drain pan,
+        refrigerant level, airflow issues, strange noises, verifying thermostat settings,
+        AC electrical control, pipes, and shutoff valves.
+      </p>
+    )
+  },
+  {
+    title: "AC Technical Inspection Fee 2.0 to 3.5 Ton",
+    subtitle: "Inverter AC",
+    price: "215.00",
+    color: "d-purple",
+    details: (
+      <p className="px-4">
+        AC inspection and diagnosis of insufficient cooling, over cooling, coils, PCB,
+        thermostat/sensor, air filter, compressor, motors, capacitor, water leakage,
+        drain pan, refrigerant level, airflow issues, strange noises, electrical components,
+        pipes, and valves.
+      </p>
+    )
+  },
+  {
+    title: "AC Technical Inspection Fee 2.5 to 5.0 Ton",
+    subtitle: "VRV/VRF AC",
+    price: "535.00",
+    color: "l-blue",
+    details: (
+      <p className="px-4">
+        AC inspection and diagnosis of inverter board, electric components, coils, PCB,
+        compressors, motors, capacitor, refrigerant level, condensate pump,
+        branch controller, and system controls.
+      </p>
+    )
+  },
+  {
+    title: "AC Technical Inspection Fee 2.5 to 3.5 Ton",
+    subtitle: "Package Unit/Cassette AC",
+    price: "320.00",
+    color: "d-orange",
+    details: (
+      <p className="px-4">
+        AC inspection and diagnosis of inverter board, electric components, coils,
+        PCB, compressors, motors, capacitor, relay, water leakage, drain pan,
+        refrigerant level, and system controls.
+      </p>
+    )
+  }
+];
+
+// Complete Cleaning Services Array
+const cleaningServices = [
+  // Previous entries...
+  {
+    title: "AC Cleaning Service Cost of 1.5 to 3.5 Ton",
+    subtitle: "Ducted / Central AC",
+    price: "315.00",
+    color: "l-green",
+    details: (
+      <>
+        <p className="mb-0 px-3">
+          <b>Included:</b><br />
+          Complete cleaning of condenser coils, drain lines, and water trays.
+          Inspection of electrical components, airflow systems, and thermostat settings.
+        </p>
+        <ul className="mt-2">
+          <li>Enhanced air distribution</li>
+          <li>Reduced energy consumption</li>
+          <li>Prevention of microbial growth</li>
+        </ul>
+      </>
+    )
+  },
+  {
+    title: "AC Cleaning Service Cost of 2.0 to 3.5 Ton",
+    subtitle: "Inverter AC",
+    price: "345.00",
+    color: "d-purple",
+    details: (
+      <>
+        <p className="mb-0 px-3">
+          <b>Included:</b><br />
+          Specialized cleaning for inverter components, PCB maintenance,
+          and thorough system diagnostics along with standard cleaning.
+        </p>
+        <ul className="mt-2">
+          <li>Optimized inverter performance</li>
+          <li>Improved temperature control</li>
+          <li>Extended component lifespan</li>
+        </ul>
+      </>
+    )
+  },
+  {
+    title: "AC Cleaning Service Cost of 2.5 to 5.0 Ton",
+    subtitle: "VRV/VRF AC",
+    price: "765.00",
+    color: "l-blue",
+    details: (
+      <>
+        <p className="mb-0 px-3">
+          <b>Included:</b><br />
+          Comprehensive cleaning of complex VRV/VRF systems including branch controllers,
+          condensate pumps, and multi-zone components.
+        </p>
+        <ul className="mt-2">
+          <li>Maintained system efficiency</li>
+          <li>Prevention of refrigerant leaks</li>
+          <li>Enhanced multi-zone performance</li>
+        </ul>
+      </>
+    )
+  },
+  {
+    title: "AC Cleaning Service Cost of 2.5 to 3.5 Ton",
+    subtitle: "Package Unit/Cassette AC",
+    price: "535.00",
+    color: "d-orange",
+    details: (
+      <>
+        <p className="mb-0 px-3">
+          <b>Included:</b><br />
+          Specialized cleaning for cassette units including blower wheels,
+          drain pans, and hidden components with accessibility challenges.
+        </p>
+        <ul className="mt-2">
+          <li>Improved airflow pattern</li>
+          <li>Reduced operational noise</li>
+          <li>Enhanced cooling capacity</li>
+        </ul>
+      </>
+    )
+  }
+];

@@ -21,7 +21,7 @@ const titleSeo = "Haier AC Repair in Dubai - Air Conditioner Service Nearby";
 const description = "Haier is the top AC Company. Call us for your Haier AC Repair in Dubai and Best Air Condition Maintenance Services near me 043300002";
 const Author = "Faj Technical Servcies";
 const Keyword = "";
-const URL = "https://fajservices.com/haier-ac-repair-in-dubai-haier-ac-maintenance-in-dubai-haier-ac-fix-in-dubai-haier-ac-service-in-dubai-haier-air-condition-repair-in-dubai-haier-air-condition-maintenance-in-dubai-haier-air-condition/";
+const URL = "https://www.fajservices.com/haier-ac-repair-in-dubai-haier-ac-maintenance-in-dubai-haier-ac-fix-in-dubai-haier-ac-service-in-dubai-haier-air-condition-repair-in-dubai-haier-air-condition-maintenance-in-dubai-haier-air-condition/";
 
   subtitle="Testimonial"
   title="What our clients say <br> About Us"
@@ -100,7 +100,7 @@ const URL = "https://fajservices.com/haier-ac-repair-in-dubai-haier-ac-maintenan
         <section className="section cs_py_30">
           <div className="container">
             <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
-            <p>F A J Technical Services L.L.C. is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
+            <p><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C.</b></a> is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
               <br />
               Our skilled AC technicians can handle all types and models of Haier air conditioning units, ensuring your home or business stays cool and comfortable.</p>
 

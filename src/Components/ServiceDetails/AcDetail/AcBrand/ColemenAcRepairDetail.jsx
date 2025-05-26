@@ -20,7 +20,7 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
   const description = "Relax with Coleman. Call 043300002 for Coleman Ac Repair in Dubai We are experts in HVAC, Central Air Conditioner maintenance service near me";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://fajservices.com/coleman-ac-repair-in-dubai-coleman-ac-maintenance-in-dubai-coleman-ac-fix-in-dubai-coleman-ac-service-in-dubai-coleman-air-condition-repair-in-dubai-coleman-air-condition-maintenance-in-dubai-coleman/";
+  const URL = "https://www.fajservices.com/coleman-ac-repair-in-dubai-coleman-ac-maintenance-in-dubai-coleman-ac-fix-in-dubai-coleman-ac-service-in-dubai-coleman-air-condition-repair-in-dubai-coleman-air-condition-maintenance-in-dubai-coleman/";
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
@@ -98,7 +98,7 @@ const ColemenAcRepair = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Coleman AC Repair in Dubai - Central AC Service</h1>
-            <p>F A J Technical Services L.L.C. is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
+            <p><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C.</b></a> is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
               <br />
               Our skilled AC technicians can handle all types and models of Coleman air conditioning units, ensuring your home or business stays cool and comfortable.</p>
 

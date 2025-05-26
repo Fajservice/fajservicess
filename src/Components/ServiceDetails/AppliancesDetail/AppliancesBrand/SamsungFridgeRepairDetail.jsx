@@ -20,7 +20,7 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
   const description = "Looking for Samsung Fridge Repair in Dubai? Call 043300002 for quick Samsung washing machine repair, dryer, refrigerator, stove & dishwasher service";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://fajservices.com/samsung-fridge-repair-in-dubai-samsung-washing-machine-repair-in-dubai-samsung-cooker-repair-in-dubai-samsung-oven-repair-in-dubai-samsung-appliances-maintenance-in-dubai-samsung-refrigera";
+  const URL = "https://www.fajservices.com/samsung-fridge-repair-in-dubai-samsung-washing-machine-repair-in-dubai-samsung-cooker-repair-in-dubai-samsung-oven-repair-in-dubai-samsung-appliances-maintenance-in-dubai-samsung-refrigera";
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -136,7 +136,7 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <h1 className="cs_fs_30">Samsung Home Appliance Repair Service and Installation</h1>
             <h2>Professional Samsung Home Appliances Service and Repair</h2>
-            <p>If you're searching for a knowledgeable local technician specializing in Samsung appliances, you’ve come to the right place. F A J Technical Services L.L.C. has been delivering dependable and cost-effective solutions since 2010. We offer a network of qualified and trusted professionals who are dedicated to understanding the unique requirements of Samsung appliance repair and near-me service. Our primary goal is to connect you with a skilled Samsung technician in Dubai and Sharjah who is well-versed in the workings of Samsung appliances. Your satisfaction is our top priority! </p>
+            <p>If you're searching for a knowledgeable local technician specializing in Samsung appliances, you’ve come to the right place. <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C.</b></a> has been delivering dependable and cost-effective solutions since 2010. We offer a network of qualified and trusted professionals who are dedicated to understanding the unique requirements of Samsung appliance repair and near-me service. Our primary goal is to connect you with a skilled Samsung technician in Dubai and Sharjah who is well-versed in the workings of Samsung appliances. Your satisfaction is our top priority! </p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">

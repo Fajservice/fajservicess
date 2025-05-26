@@ -25,7 +25,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
   const description = "We also offer an (Air Conditioner) AC Annual Maintenance Contract Service ( AMC ) in Dubai Comprehensive Plan of HVAC, Central, Split AC. 043300002";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://fajservices.com/ac-annual-maintenance-contract/";
+  const URL = "https://www.fajservices.com/ac-annual-maintenance-contract/";
 
 
   subtitle = "Testimonial"

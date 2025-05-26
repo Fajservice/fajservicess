@@ -24,7 +24,7 @@ const GasRangeDetail = ({ subtitle, title, bgImg }) => {
   const description = "Need gas cooker repairs near me in Dubai? FAJ offers expert gas cooker repair, maintenance, and service for commercial kitchens. Call now 04 3300002!";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://fajservices.com/cooking-equipment-service/";
+  const URL = "https://www.fajservices.com/cooking-equipment-service/";
 
 
   subtitle = "Testimonial"

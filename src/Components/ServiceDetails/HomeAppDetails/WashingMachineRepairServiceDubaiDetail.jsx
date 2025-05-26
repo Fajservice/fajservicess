@@ -29,7 +29,7 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, bgImg }) => {
   const description = "Sameday Washing Machine Repair Dubai. Book now 043300002 Get Quality Washing Machine Repair near me with Reliable Washer Dryer";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://fajservices.com/washing-machine-repair-service-dubai/";
+  const URL = "https://www.fajservices.com/washing-machine-repair-service-dubai/";
 
 
   subtitle = "Testimonial"
@@ -148,7 +148,7 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, bgImg }) => {
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
             {/* <h2 className="cs_fs_30">Experts Washing Machine Repair and Service Center in Dubai</h2> */}
             <p>
-              Since 2010, F A J Technical Services L.L.C. has offered reliable installation, maintenance, and repair for all brands of washing machines, dryers, and laundry systems in Dubai, Sharjah, and Abu Dhabi.
+              Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C.</b></a> has offered reliable installation, maintenance, and repair for all brands of washing machines, dryers, and laundry systems in Dubai, Sharjah, and Abu Dhabi.
               <br /> Our experts are here to assist with any issues, from top-loading and front-loading washers to compact models. You can trust us to keep your washing machine running smoothly.
               You can rely on us for both routine repairs and emergency services. Contact us now for reliable services at competitive prices!
             </p>
@@ -180,7 +180,7 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, bgImg }) => {
 
                 <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service
                 </h3>
-                <p className="mb-2">At <a href="/">FAJ Technical Services LLC</a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
+                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services LLC</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
               </div>
 
               <div className="col-md-6 ">

@@ -20,7 +20,7 @@ const CrafftAcRepair = ({ subtitle, title, bgImg }) => {
   const description = "Get best Crafft AC Repair in Dubai. Call 043300002 FAJ technicians for central, split air conditioner (AC) maintenance service in your area Dubai, Sharjah";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://fajservices.com/crafft-ac-repair-in-dubai-crafft-ac-maintenance-in-dubai-crafft-ac-fix-in-dubai-crafft-ac-service-in-dubai-crafft-air-condition-repair-in-dubai-crafft-air-condition-maintenance-in-dubai-crafft-air-con/";
+  const URL = "https://www.fajservices.com/crafft-ac-repair-in-dubai-crafft-ac-maintenance-in-dubai-crafft-ac-fix-in-dubai-crafft-ac-service-in-dubai-crafft-air-condition-repair-in-dubai-crafft-air-condition-maintenance-in-dubai-crafft-air-con/";
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
@@ -98,7 +98,7 @@ const CrafftAcRepair = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             <h2 className="cs_fs_30">Crafft AC Repair in Dubai - AC Cleaning Service Near you</h2>
-            <p>F A J Technical Services L.L.C. is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
+            <p><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C.</b></a> is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
               <br />
               Our skilled AC technicians can handle all types and models of Crafft air conditioning units, ensuring your home or business stays cool and comfortable.</p>
 

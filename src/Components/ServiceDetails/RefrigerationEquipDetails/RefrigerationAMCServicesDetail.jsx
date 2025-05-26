@@ -27,7 +27,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, bgImg }) => {
   const description = "FAJ fully experts in commercial freezer & chiller amc service in dubai. We offer freezer, cold room, refrigerator, commercial kitchen equipment maintenance";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://fajservices.com/commercial-refrigeration-maintenance-contact-services/";
+  const URL = "https://www.fajservices.com/commercial-refrigeration-maintenance-contact-services/";
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

@@ -15,7 +15,7 @@ const PortfolioDetail = ({ subtitle, title, bgImg }) => {
   const description = "FAJ Technical Services LLC, established in 2010, offers supply, installation, and spare parts for air conditioning and refrigeration appliances in Dubai.";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://fajservices.com/our-portfolio/";
+  const URL = "https://www.fajservices.com/our-portfolio/";
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

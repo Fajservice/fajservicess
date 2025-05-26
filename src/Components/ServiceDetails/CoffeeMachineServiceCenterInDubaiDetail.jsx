@@ -23,7 +23,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
   const description = "FAJ coffee machine service center in Dubai. Call 04 3300002 Get home / office Espresso & restaurant or cafe Coffee machine repair & maintenance";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://fajservices.com/coffee-machine-service-center-in-dubai/";
+  const URL = "https://www.fajservices.com/coffee-machine-service-center-in-dubai/";
 
 
 

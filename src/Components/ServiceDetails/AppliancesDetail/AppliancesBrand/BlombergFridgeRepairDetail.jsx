@@ -19,7 +19,7 @@ const BlombergFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
     const description = "Blomberg fridge repair Dubai - Fast, reliable Blomberg washing machine, refrigerator, dishwasher repair, and Blomberg cooker & oven service near you.";
     const Author = "Faj Technical Servcies";
     const Keyword = "";
-    const URL = "https://fajservices.com/blomberg-fridge-repair-in-dubai-blomberg-washing-machine-repair-in-dubai-blomberg-cooker-repair-in-dubai-blomberg-oven-repair-in-dubai-blomberg-appliances-maintenance-in-dubai-blomberg-refrigerator-fi/";
+    const URL = "https://www.fajservices.com/blomberg-fridge-repair-in-dubai-blomberg-washing-machine-repair-in-dubai-blomberg-cooker-repair-in-dubai-blomberg-oven-repair-in-dubai-blomberg-appliances-maintenance-in-dubai-blomberg-refrigerator-fi/";
 
 
     subtitle = "Testimonial"
@@ -161,7 +161,7 @@ const BlombergFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
                                 </p>
 
                                 <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service</h3>
-                <p className="mb-2">At <a href="/">FAJ Technical Services LLC</a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
+                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services LLC</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
                             </div>
 
                             <div className="col-md-6 ">

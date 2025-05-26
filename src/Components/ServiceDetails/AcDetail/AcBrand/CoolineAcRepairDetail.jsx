@@ -20,7 +20,7 @@ const CoolineAcRepair = ({ subtitle, title, bgImg }) => {
   const description = "Get emergency Cooline AC repair in Dubai by FAJ Co, We are experts in HVAC, central air conditioning maintenance service near you Dubai UAE";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://fajservices.com/cooline-ac-repair-in-dubai-cooline-ac-maintenance-in-dubai-cooline-ac-fix-in-dubai-cooline-ac-service-in-dubai-cooline-air-condition-repair-in-dubai-cooline-air-condition-maintenance-in-dubai-cooline/";
+  const URL = "https://www.fajservices.com/cooline-ac-repair-in-dubai-cooline-ac-maintenance-in-dubai-cooline-ac-fix-in-dubai-cooline-ac-service-in-dubai-cooline-air-condition-repair-in-dubai-cooline-air-condition-maintenance-in-dubai-cooline/";
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
@@ -98,7 +98,7 @@ const CoolineAcRepair = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Cooline AC Repair In Dubai - AC Cleaning Service Near Me</h1>
-            <p>F A J Technical Services L.L.C. is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
+            <p><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C.</b></a> is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
               <br />
               Our skilled AC technicians can handle all types and models of Cooline air conditioning units, ensuring your home or business stays cool and comfortable.</p>
 

@@ -149,7 +149,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
                 <h3 className="cs_fs_24 mb-1">Commercial Kitchen Equipment Repair</h3>
 
                 <p className="mb-2">
-                F A J Technical Services L.L.C. is a rapidly growing company based in Dubai that specializes in commercial catering services for hotels, restaurants, and cafes. We focus on repairing a variety of equipment, including commercial cooking ranges, ovens, dishwashers, refrigeration units, freezers, and chiller units.<br/>
+                <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C.</b></a> is a rapidly growing company based in Dubai that specializes in commercial catering services for hotels, restaurants, and cafes. We focus on repairing a variety of equipment, including commercial cooking ranges, ovens, dishwashers, refrigeration units, freezers, and chiller units.<br/>
                 Our experienced technicians are available for emergency services as well as annual maintenance contract (AMC) services in Dubai and Sharjah.
                 </p>
                 <p>We have a standard fee for technical inspections that covers diagnosis and transportation within Dubai and Sharjah. Please note that this fee is non-refundable. This flat rate applies specifically to the technical inspection charge, but it does not include the cost of any repair or spare parts needed.</p>

@@ -28,7 +28,7 @@ const BBQServiceDetail = ({ subtitle, title, bgImg }) => {
   const description = "Barbeque Repair Dubai. Our team offers professional BBQ cleaning services, BBQ repair, Weber repair, and electric BBQ grill repair Dubai.";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://fajservices.com/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/";
+  const URL = "https://www.fajservices.com/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/";
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

@@ -26,7 +26,7 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, bgImg }) => {
   const description = "Looking for a commercial refrigeration service in Dubai? Dail 043300002 for walk in cooler, chiller, and cold room repair and maintenance near me";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://fajservices.com/commercial-refrigeration-maintenance/";
+  const URL = "https://www.fajservices.com/commercial-refrigeration-maintenance/";
   
   subtitle = "Testimonial"
   title = "What our clients say About Us"

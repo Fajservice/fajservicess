@@ -19,7 +19,7 @@ const BekoFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
     const description = "Beko fridge repair Dubai. FAJ provides various services of Beko washing machine, refrigerator, dishwasher, oven, stove & dryer repair Call 043300002";
     const Author = "Faj Technical Servcies";
     const Keyword = "";
-    const URL = "https://fajservices.com/beko-fridge-repair-in-dubai-beko-washing-machine-repair-in-dubai-beko-cooker-repair-in-dubai-beko-oven-repair-in-dubai-beko-appliances-maintenance-in-dubai-beko-refrigerator-fix-repairs-service-in-dub/";
+    const URL = "https://www.fajservices.com/beko-fridge-repair-in-dubai-beko-washing-machine-repair-in-dubai-beko-cooker-repair-in-dubai-beko-oven-repair-in-dubai-beko-appliances-maintenance-in-dubai-beko-refrigerator-fix-repairs-service-in-dub/";
 
 
   subtitle = "Testimonial"
@@ -163,7 +163,7 @@ const BekoFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
     
                    <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service
                 </h3>
-                <p className="mb-2">At <a href="/">FAJ Technical Services LLC</a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
+                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services LLC</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
                 </div>
     
                 <div className="col-md-6 ">

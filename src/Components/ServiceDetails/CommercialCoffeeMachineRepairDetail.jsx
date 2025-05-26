@@ -25,7 +25,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
   const description = "Get fast & reliable coffee machine repair in Dubai. Our experts in espresso machines for office & commercial maintenance services. Call now 04 3300002";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://fajservices.com/coffee-machine-repair/";
+  const URL = "https://www.fajservices.com/coffee-machine-repair/";
 
 
 

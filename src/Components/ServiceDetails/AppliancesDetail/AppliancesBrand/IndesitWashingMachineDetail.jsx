@@ -20,7 +20,7 @@ const IndesitWashingMachineDetail = ({ subtitle, title, bgImg }) => {
   const description = "Indesit Fridge Repair Dubai - Get expert Indesit washing machine repair, refrigerator, cooker, oven dryer repair service near me. Dail 043300002";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://fajservices.com/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-oven-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa/";
+  const URL = "https://www.fajservices.com/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-oven-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa/";
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

@@ -25,7 +25,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
   const description = "Get FAJ reliable your commercial kitchen equipment AMC services in Dubai, UAE, with specialized gas stove, oven, cooker maintenance contract service";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://fajservices.com/commercial-kitchen-equipment-amc/";
+  const URL = "https://www.fajservices.com/commercial-kitchen-equipment-amc/";
 
 
 

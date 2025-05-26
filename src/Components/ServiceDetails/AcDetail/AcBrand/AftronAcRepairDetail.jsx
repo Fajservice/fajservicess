@@ -21,7 +21,7 @@ const AftronAcRepair = ({ subtitle, title, bgImg }) => {
   const description = "In hot summer time are you looking Air Conditioning Fix? Call Now 043300002 for Expert in Aftron AC Repair Maintenance Service in Dubai";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://fajservices.com";
+  const URL = "https://www.fajservices.com";
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"

@@ -27,7 +27,7 @@ const CommercialWashingMachineRepairDetail = ({ subtitle, title, bgImg }) => {
   const description = "FAJ's fast response commercial washing machine repair in Dubai & stacked washer dryer, barrier washing machine maintenance contract service (AMC).";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://fajservices.com/commercial-washing-machine-repair/";
+  const URL = "https://www.fajservices.com/commercial-washing-machine-repair/";
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

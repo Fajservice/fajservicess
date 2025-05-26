@@ -25,7 +25,7 @@ const WalkInRefrigerationServicesDetail = ({ subtitle, title, bgImg }) => {
   const description = "Need commercial laundry equipment service in Dubai? FAJ offers dryer, washer, ironing machine repair & maintenance. Get best amc services";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://fajservices.com/commercial-laundry-equipment-service/";
+  const URL = "https://www.fajservices.com/commercial-laundry-equipment-service/";
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

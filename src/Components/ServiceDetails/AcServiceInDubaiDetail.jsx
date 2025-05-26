@@ -27,7 +27,7 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
   const description = "We specialize in AC repair, service, and central & split air conditioner maintenance in Dubai. Call at 043300002 for your home & office A/C fix";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://fajservices.com/ac-service-in-dubai/";
+  const URL = "https://www.fajservices.com/ac-service-in-dubai/";
 
 
   subtitle = "Testimonial"
@@ -112,7 +112,7 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <h2 className="cs_fs_30">Ac Service in Dubai</h2>
             <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
-            <a href="/"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in AC servicing, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
+            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in AC servicing, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">

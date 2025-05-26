@@ -27,7 +27,7 @@ const IceMakerRepairDetail = ({ subtitle, title, bgImg }) => {
   const description = "Reliable ice maker repair in Dubai. Contact FAJ for a fast ice maker repair service near me. We are specializing in Hoshizaki, Scotsman";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://fajservices.com/ice-maker-repair/";
+  const URL = "https://www.fajservices.com/ice-maker-repair/";
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

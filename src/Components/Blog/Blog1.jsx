@@ -9,7 +9,7 @@ const Blog1 = () => {
   const description = "Welcome to FAJ Services blog! Expert insights, tips, and tricks for homeowners. Explore projects, maintenance, and services for home comfort.";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://fajservices.com/blogs/";
+  const URL = "https://www.fajservices.com/blogs/";
 
 
   return (

@@ -21,7 +21,7 @@ const FosterAppliancesServicesDetail = ({ subtitle, title, bgImg }) => {
   const description = "Foster Appliances Services Dubai.  Expert maintenance for Foster dishwasher, stove, hob, oven, fridge repair, and Foster appliance fix near you.";
   const Keyword = "";
   const Author = "Faj Technical Servcies";
-  const URL = "https://fajservices.com/foster-appliances-services-foster-dishwasher-repair-service-in-dubai-foster-cooking-range-repair-service-in-dubai-foster-cooktop-repair-service-in-dubai-foster-oven-repair-in-dubai-foster-rangetop-r/";
+  const URL = "https://www.fajservices.com/foster-appliances-services-foster-dishwasher-repair-service-in-dubai-foster-cooking-range-repair-service-in-dubai-foster-cooktop-repair-service-in-dubai-foster-oven-repair-in-dubai-foster-rangetop-r/";
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -167,7 +167,7 @@ const FosterAppliancesServicesDetail = ({ subtitle, title, bgImg }) => {
 
                 <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service
                 </h3>
-                <p className="mb-2">At <a href="/">FAJ Technical Services LLC</a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
+                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services LLC</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
               </div>
 
               <div className="col-md-6 ">

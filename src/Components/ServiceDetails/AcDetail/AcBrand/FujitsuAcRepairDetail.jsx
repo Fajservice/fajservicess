@@ -21,7 +21,7 @@ const FujitsuAcRepair = ({ subtitle, title, bgImg }) => {
   const description = "Fujitsu AC is a trusted brand. Call us 043300002 for Fujitsu AC Repair in Dubai and Central & Split Air Conditioner (AC) Maintenance Service nearby You.";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://fajservices.com/fujitsu-ac-repair-in-dubai-fujitsu-ac-maintenance-in-dubai-fujitsu-ac-fix-in-dubai-fujitsu-ac-service-in-dubai-fujitsu-air-condition-repair-in-dubai-fujitsu-air-condition-maintenance-in-dubai-fujitsu/";
+  const URL = "https://www.fajservices.com/fujitsu-ac-repair-in-dubai-fujitsu-ac-maintenance-in-dubai-fujitsu-ac-fix-in-dubai-fujitsu-ac-service-in-dubai-fujitsu-air-condition-repair-in-dubai-fujitsu-air-condition-maintenance-in-dubai-fujitsu/";
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
@@ -100,7 +100,7 @@ const FujitsuAcRepair = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             <h2 className="cs_fs_30">Fujitsu AC Repair in Dubai Air Conditioner Service Near Me</h2>
-            <p>F A J Technical Services L.L.C. is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
+            <p><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C.</b></a> is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
               <br />
               Our skilled AC technicians can handle all types and models of Fujitsu air conditioning units, ensuring your home or business stays cool and comfortable.</p>
 

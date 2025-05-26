@@ -22,7 +22,7 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
   const description = "To Get Fast Gree AC Repair in Dubai and air conditioner maintenance service near me. Call Us on 043300002 Our technicians are experts in fixing errors";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://fajservices.com/gree-ac-repair-in-dubai/";
+  const URL = "https://www.fajservices.com/gree-ac-repair-in-dubai/";
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"

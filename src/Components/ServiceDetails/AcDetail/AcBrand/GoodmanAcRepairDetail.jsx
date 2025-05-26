@@ -22,7 +22,7 @@ const GoodmanAcRepair = ({ subtitle, title, bgImg }) => {
   const description = "Looking on Goodman Ac Repair in Dubai Call: 0433000002 for central, HVAC, split air conditioner Services in your location & ac maintenance";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://fajservices.com/goodman-ac-repair-in-dubai-goodman-ac-maintenance-in-dubai-goodman-ac-fix-in-dubai-goodman-ac-service-in-dubai-goodman-air-condition-repair-in-dubai-goodman-air-condition-maintenance-in-dubai-goodman/";
+  const URL = "https://www.fajservices.com/goodman-ac-repair-in-dubai-goodman-ac-maintenance-in-dubai-goodman-ac-fix-in-dubai-goodman-ac-service-in-dubai-goodman-air-condition-repair-in-dubai-goodman-air-condition-maintenance-in-dubai-goodman/";
 
 
   subtitle = "Testimonial"
@@ -101,7 +101,7 @@ const GoodmanAcRepair = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Goodman AC Maintenance Services in Dubai​</h1>
-            <p>F A J Technical Services L.L.C. is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
+            <p><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C.</b></a> is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
               <br />
               Our skilled AC technicians can handle all types and models of Goodman air conditioning units, ensuring your home or business stays cool and comfortable.</p>
 

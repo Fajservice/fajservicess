@@ -11,7 +11,7 @@ const AboutPage = () => {
     const description = "About Us, F A J Technical Services L.L.C. was established in 2010 as an Air Conditioner System, Appliances, Installation Repair Maintenance Service";
     const Author = "Faj Technical Servcies";
     const Keyword = "";
-    const URL = "https://fajservices.com/about-us/";
+    const URL = "https://www.fajservices.com/about-us/";
 
     return (
         <div>

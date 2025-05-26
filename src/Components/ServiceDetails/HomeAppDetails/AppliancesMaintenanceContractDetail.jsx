@@ -28,7 +28,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
   const description = "Time to get comfortable! with appliances AMC service in Dubai FAJ experts in kitchen appliances, freezer, chiller, cooking appliances maintenance";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://fajservices.com/appliances-amc-service/";
+  const URL = "https://www.fajservices.com/appliances-amc-service/";
 
 
   subtitle = "Testimonial"

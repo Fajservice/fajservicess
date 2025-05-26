@@ -24,7 +24,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, bgImg }) => {
   const description = "FAJ expert in Cigar cabinet humidifier repair. Dail 043300002 for Dehumidifier, cigar fridge, cooler, refrigerator, electric humidor maintenance service Dubai";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://fajservices.com/cigar-humidor-repair/";
+  const URL = "https://www.fajservices.com/cigar-humidor-repair/";
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

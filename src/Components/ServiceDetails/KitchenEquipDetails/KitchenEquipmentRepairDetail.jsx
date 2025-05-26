@@ -26,7 +26,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, bgImg }) => {
   const description = "Need expert kitchen equipment repair? FAJ offers commercial cooking appliance services and maintenance of stove, gas range, oven services Dubai";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://fajservices.com/commercial-cooking-appliances-repair-service/";
+  const URL = "https://www.fajservices.com/commercial-cooking-appliances-repair-service/";
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

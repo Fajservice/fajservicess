@@ -21,7 +21,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
   const description = "Need meat grinder repair in Dubai? FAJ offers expert repair services near me. Call us now for fast and reliable meat grinder repair at 043300002";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://fajservices.com/meat-grinder-repair/";
+  const URL = "https://www.fajservices.com/meat-grinder-repair/";
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
