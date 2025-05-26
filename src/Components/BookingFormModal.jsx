@@ -15,7 +15,7 @@ const BookingFormModal = ({ isOpen, onClose }) => {
     contactNumber: '',
     email: '',
     postcode: '',
-    service: 'Air Con',
+    service: 'Air Conditioning Maintenance Service',
     details: ''
   });
 
@@ -27,70 +27,166 @@ const BookingFormModal = ({ isOpen, onClose }) => {
     }));
   };
 
+  // Alternative: Add a fallback submission method
+  const handleDirectSubmit = () => {
+    console.log('Direct submission fallback'); // Debug log
+    
+    const data = new FormData();
+    data.append('Name', formData.name);
+    data.append('Phone', formData.contactNumber);
+    data.append('Email', formData.email);
+    data.append('Postcode', formData.postcode);
+    data.append('Service', formData.service);
+    data.append('Details', formData.details);
+    data.append('_subject', 'Booking Request');
+    data.append('_captcha', 'false');
+    data.append('_template', 'table');
+    data.append('_cc', 'faisaljuma.techservices@gmail.com'); // Change to your Gmail
+    data.append('_from_name', 'Booking Form');
+    data.append('page_url', window.location.href);
+
+    // Use fetch with proper promise handling
+    fetch('https://formsubmit.co/info@fajservices.ae', { // Change to your Gmail
+      method: 'POST',
+      body: data,
+      mode: 'no-cors'
+    })
+    .then(() => {
+      console.log('Direct form submitted successfully');
+      
+      setStatus({
+        submitted: true,
+        submitting: false,
+        info: { error: false, msg: "Booking request submitted successfully!" }
+      });
+
+      setFormData({
+        name: '',
+        contactNumber: '',
+        email: '',
+        postcode: '',
+        service: 'Air Conditioning Maintenance Service',
+        details: ''
+      });
+    })
+    .catch((error) => {
+      console.error('Direct submission error:', error);
+      setStatus({
+        submitted: false,
+        submitting: false,
+        info: { error: true, msg: "There was a problem. Please try again later." }
+      });
+    });
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setStatus(prev => ({ ...prev, submitting: true }));
 
+    console.log('Form submission started'); // Debug log
+
+    // Add timeout for reCAPTCHA
+    const recaptchaTimeout = setTimeout(() => {
+      console.log('reCAPTCHA timeout, proceeding with direct submission');
+      handleDirectSubmit();
+    }, 3000); // 3 second timeout
+
+    // Trigger invisible reCAPTCHA challenge
     if (recaptchaRef.current) {
-      recaptchaRef.current.execute();
+      console.log('Executing reCAPTCHA'); // Debug log
+      try {
+        const executePromise = recaptchaRef.current.execute();
+        if (executePromise && executePromise.catch) {
+          executePromise.catch((error) => {
+            console.error('reCAPTCHA execution promise error:', error);
+            clearTimeout(recaptchaTimeout);
+            handleDirectSubmit();
+          });
+        }
+      } catch (error) {
+        console.error('reCAPTCHA execution error:', error);
+        clearTimeout(recaptchaTimeout);
+        handleDirectSubmit();
+      }
+    } else {
+      console.error('reCAPTCHA ref not found');
+      clearTimeout(recaptchaTimeout);
+      handleDirectSubmit();
     }
   };
 
-  const onReCAPTCHAChange = async (token) => {
-  if (!token) {
-    alert("Captcha failed. Please try again.");
-    setStatus({ submitted: false, submitting: false, info: { error: true, msg: "Captcha failed." } });
-    return;
-  }
+  const onReCAPTCHAChange = (token) => {
+    console.log('reCAPTCHA token received:', token ? 'Valid' : 'Invalid/Null'); // Debug log
 
-  const data = new FormData();
-  data.append('Name', formData.name);
-  data.append('Phone', formData.contactNumber);
-  data.append('Email', formData.email);
-  data.append('Postcode', formData.postcode);
-  data.append('Service', formData.service);
-  data.append('Details', formData.details);
-  data.append('_subject', 'Booking Request');
-  data.append('_captcha', 'false');
-  data.append('_template', 'table');
-  data.append('_cc', 'info@fajservices.ae');
-  data.append('_from_name', 'Booking Form');
-  data.append('page_url', window.location.href);
+    // Clear any existing timeout since reCAPTCHA responded
+    if (window.recaptchaTimeout) {
+      clearTimeout(window.recaptchaTimeout);
+    }
 
-  try {
-    await fetch('https://formsubmit.co/info@fajservices.ae', {
+    if (!token || token === null) {
+      console.log('No reCAPTCHA token or null token, proceeding with direct submission');
+      handleDirectSubmit();
+      return;
+    }
+
+    const data = new FormData();
+    data.append('Name', formData.name);
+    data.append('Phone', formData.contactNumber);
+    data.append('Email', formData.email);
+    data.append('Postcode', formData.postcode);
+    data.append('Service', formData.service);
+    data.append('Details', formData.details);
+    data.append('_subject', 'Booking Request');
+    data.append('_captcha', 'false');
+    data.append('_template', 'table');
+    data.append('_cc', 'faisaljuma.techservices@gmail.com'); // Change to your Gmail
+    data.append('_from_name', 'Booking Form');
+    data.append('page_url', window.location.href);
+    data.append('g-recaptcha-response', token); // Add reCAPTCHA token
+
+    console.log('Submitting form data to FormSubmit with reCAPTCHA'); // Debug log
+
+    // Use fetch with proper promise handling
+    fetch('https://formsubmit.co/info@fajservices.ae', { // Change to your Gmail
       method: 'POST',
       body: data,
       mode: 'no-cors'
-    });
+    })
+    .then(() => {
+      console.log('Form submitted successfully with reCAPTCHA');
 
-    setStatus({
-      submitted: true,
-      submitting: false,
-      info: { error: false, msg: "Booking request submitted successfully!" }
-    });
+      setStatus({
+        submitted: true,
+        submitting: false,
+        info: { error: false, msg: "Booking request submitted successfully!" }
+      });
 
-    setFormData({
-      name: '',
-      contactNumber: '',
-      email: '',
-      postcode: '',
-      service: 'Air Con',
-      details: ''
-    });
+      setFormData({
+        name: '',
+        contactNumber: '',
+        email: '',
+        postcode: '',
+        service: 'Air Conditioning Maintenance Service',
+        details: ''
+      });
 
-    recaptchaRef.current.reset();
-    // onClose(); ❌ removed this line to keep the modal open
-
-  } catch (error) {
-    console.error('Submission error:', error);
-    setStatus({
-      submitted: false,
-      submitting: false,
-      info: { error: true, msg: "There was a problem. Please try again later." }
+      if (recaptchaRef.current) {
+        try {
+          recaptchaRef.current.reset();
+        } catch (resetError) {
+          console.warn('reCAPTCHA reset error:', resetError);
+        }
+      }
+    })
+    .catch((error) => {
+      console.error('Submission error:', error);
+      setStatus({
+        submitted: false,
+        submitting: false,
+        info: { error: true, msg: "There was a problem. Please try again later." }
+      });
     });
-  }
-};
+  };
 
   if (!isOpen) return null;
 
@@ -189,7 +285,7 @@ const BookingFormModal = ({ isOpen, onClose }) => {
                   CONTACT NUMBER <span style={{ color: '#ed1c24' }}>*</span>
                 </label>
                 <input
-                  type="tel"
+                  type="text"
                   id="contactNumber"
                   name="contactNumber"
                   value={formData.contactNumber}
@@ -293,7 +389,7 @@ const BookingFormModal = ({ isOpen, onClose }) => {
               </div>
             </div>
 
-            {/* ✅ Invisible reCAPTCHA */}
+            {/* Invisible reCAPTCHA */}
             <ReCAPTCHA
               ref={recaptchaRef}
               sitekey="6Le2yTkrAAAAAGhNjcIJgpsRIRp_SbtL8xpQ5aHG"

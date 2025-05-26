@@ -36,7 +36,7 @@ const Form1 = () => {
     data.append('_subject', 'Inquiry & Fajservices');
     data.append('_captcha', 'false');
     data.append('_template', 'table');
-    data.append('_cc', 'martincharles775@gmail.com');
+    data.append('_cc', 'faisaljuma.techservices@gmail.com');
     data.append('_from_name', 'Inquire');
     data.append('page_url', window.location.href);
 
@@ -129,7 +129,7 @@ const Form1 = () => {
     data.append('_subject', 'Inquiry & Fajservices');
     data.append('_captcha', 'false');
     data.append('_template', 'table');
-    data.append('_cc', 'martincharles775@gmail.com');
+    data.append('_cc', 'faisaljuma.techservices@gmail.com');
     data.append('_from_name', 'Inquire');
     data.append('page_url', window.location.href);
     data.append('g-recaptcha-response', token); // Add reCAPTCHA token

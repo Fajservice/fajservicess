@@ -14,7 +14,6 @@ const ApplianceSpecialise = () => {
                 <b>We provide 2-month service warranty</b><br/>
                 and <small>3-month parts warranty</small> as standard.</p>
           <h3>We specialise in air conditioning services for the following brands</h3>
-                        <h3>We are specialise in Appliances services for the following brands</h3>
                         <div className="row">
                             <div className="col-12">
                                 <p className="mb-0">
