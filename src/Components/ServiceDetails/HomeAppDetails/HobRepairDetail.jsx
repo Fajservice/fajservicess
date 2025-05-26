@@ -190,22 +190,6 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
             </div>
 
             <AppliancesAppointmentCol></AppliancesAppointmentCol>
-
-
-            {/* <div className="appointment-col border-small-top pt-3">
-              <p>
-              If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.
-              <br />
-              Timing: Mon - Sat 8:00 AM to 6:00 PM, Sunday 12:00 PM to 6:00 PM. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.
-              </p>
-              
-              <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
-                  <WhatsappIconButton />
-                  <CallNowButton />
-                </div>
-              </div>
-            </div> */}
           </div>
         </section>
 
@@ -220,7 +204,7 @@ const HobRepairDetail = ({ subtitle, title, bgImg }) => {
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Cooking-Range-Repair-Nearby-You.avif`} alt="Hob Repair Servcie" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/hob-repair-service.avif`} alt="Hob Repair Servcie" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
