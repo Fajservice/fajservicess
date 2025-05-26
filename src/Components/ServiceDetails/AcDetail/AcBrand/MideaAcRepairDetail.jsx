@@ -313,6 +313,18 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
 
             <div className="row align-items-center">
               <div className="col-xl-6">
+                <iframe
+                  className="bordered-img blue-border"
+                  width="100%"
+                  height="350"
+                  src="https://www.youtube.com/embed/sxBhB1_gxYA?si=Fk3OIwPHCHAsktx-"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <div className="col-xl-6">
                 <p className='mb-0'>We specialize in different types and brands of HVAC systems, including Fresh Air Handling Units (FAHU).</p>
                 <p className='mb-0'><strong>Our services include:</strong></p>
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
@@ -325,21 +337,9 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
                   </p>
 
 
-                  <p className="mb-0"> Regular maintenance is crucial for the optimal performance, efficiency, and longevity of your air conditioning system..</p>
                 </ul>
               </div>
-              <div className="col-xl-6">
-                <iframe
-                  className="bordered-img blue-border"
-                  width="100%"
-                  height="350"
-                  src="https://www.youtube.com/embed/sxBhB1_gxYA?si=Fk3OIwPHCHAsktx-"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
-              </div>
+              
             </div>
           </div>
         </section >
@@ -542,7 +542,7 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
                 <p className="mb-0"><strong>  Midea Ducted Split AC Service and Repair: </strong> For Midea ducted split air conditioning systems in Dubai, expert help is crucial. Our skilled technicians specialize in diagnosing and fixing air conditioning issues, offering fast and reliable repair services. We focus on delivering efficient solutions to restore your comfort with minimal hassle. </p>
                 <p className=""><strong>  Midea Wall-Mounted Air Conditioner Service and Repair: </strong> Looking for relief from Dubai's intense heat? Ensure your Midea AC runs efficiently with our expert services. We keep your unit cool and reliable, so you can enjoy comfort indoors while the temperatures soar outside. </p>
 
-                <p>
+               <p>
                   <a href="https://www.fajservices.ae/ac-repair-in-al-barsha-air-condition-maintenance-in-al-barsha-air-conditioning-fix-amc-service-in-al-barsha-dubai/">Al Barsha</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-jebel-ali/">Jebel Ali</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-repair-in-jafza-air-condition-maintenance-in-jafza-air-conditioning-fix-amc-service-in-jebel-ali-free-zone-dubai/">JAFZA</a> &nbsp;|&nbsp;

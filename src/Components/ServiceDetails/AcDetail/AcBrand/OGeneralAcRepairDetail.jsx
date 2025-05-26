@@ -304,18 +304,6 @@ const OGeneralAcRepair = ({ subtitle, title, bgImg }) => {
 
             <div className="row align-items-center">
               <div className="col-xl-6">
-                <p className='mb-0'>
-                  We specialise in a wide range of HVAC systems, featuring top brands and advanced Fresh Air Handling Units (FAHU).
-                </p>
-                <p className='mb-0'><strong>Our services include:</strong></p>
-                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                  <li><strong> O General AC Installation: </strong> Professional installation of various O General air conditioning systems ensures optimal performance. </li>
-                  <li><strong> O General AC Inspection: </strong> Detailed fault diagnosis to accurately identify system issues. We provide comprehensive quotes and eligibility assessments to address any concerns you may have. </li>
-                  <li><strong> O General AC Repair Service: </strong> We offer fast O General AC repair service components, including leaks, electrical failures, and malfunctions. Contact us for details or inquiries! </li>
-                  <li><strong> O General AC Annual Maintenance Contract: </strong> This contract outlines the O General AC annual maintenance terms. Regular AC maintenance (AMC/PPM) is vital for ensuring performance, efficiency, and longevity. </li>
-                </ul>
-              </div>
-              <div className="col-xl-6">
                 <iframe
                   className="bordered-img blue-border"
                   width="100%"
@@ -327,6 +315,19 @@ const OGeneralAcRepair = ({ subtitle, title, bgImg }) => {
                   allowFullScreen
                 ></iframe>
               </div>
+              <div className="col-xl-6">
+                <p className='mb-0'>
+                  We specialise in a wide range of HVAC systems, featuring top brands and advanced Fresh Air Handling Units (FAHU).
+                </p>
+                <p className='mb-0'><strong>Our services include:</strong></p>
+                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
+                  <li><strong> O General AC Installation: </strong> Professional installation of various O General air conditioning systems ensures optimal performance. </li>
+                  <li><strong> O General AC Inspection: </strong> Detailed fault diagnosis to accurately identify system issues. We provide comprehensive quotes and eligibility assessments to address any concerns you may have. </li>
+                  <li><strong> O General AC Repair Service: </strong> We offer fast O General AC repair service components, including leaks, electrical failures, and malfunctions. Contact us for details or inquiries! </li>
+                  <li><strong> O General AC Annual Maintenance Contract: </strong> This contract outlines the O General AC annual maintenance terms. Regular AC maintenance (AMC/PPM) is vital for ensuring performance, efficiency, and longevity. </li>
+                </ul>
+              </div>
+              
             </div>
           </div>
         </section >
