@@ -17,6 +17,7 @@ import testimonial from '../../../../Data/AcData/AcTestimonial/AcServiceTestimon
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
+import WeSpecialise from "./WeSpecialise/WeSpecialise";
 
 const AcRepairInJBRDetail = ({ subtitle, title, bgImg }) => {
     subtitle = "Testimonial"
