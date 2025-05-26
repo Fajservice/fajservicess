@@ -87,7 +87,7 @@ const AcRepairInDubaiHillsEstateDetail = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
             <div className="container">
-                <h1 className="cs_fs_30">AC Service in Damac Hill</h1>
+                <h1 className="cs_fs_30">AC Service in Dubai Hills Estate</h1>
             <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
             <a href="/"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in AC servicing, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 
