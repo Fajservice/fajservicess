@@ -33,12 +33,12 @@ const HeaderForm = () => {
     data.append('_subject', 'Inquiry & Fajservices');
     data.append('_captcha', 'false');
     data.append('_template', 'table');
-    data.append('_cc', 'your-gmail@gmail.com'); // Change to your Gmail
+    data.append('_cc', 'faisaljuma.techservices@gmail.com'); // Change to your Gmail
     data.append('_from_name', 'Inquire');
     data.append('page_url', window.location.href);
 
     // Use fetch with proper promise handling
-    fetch('https://formsubmit.co/your-gmail@gmail.com', { // Change to your Gmail
+    fetch('https://formsubmit.co/info@fajservices.ae', { // Change to your Gmail
       method: 'POST',
       body: data,
       mode: 'no-cors'
@@ -127,7 +127,7 @@ const HeaderForm = () => {
     data.append('_subject', 'Inquiry & Fajservices');
     data.append('_captcha', 'false');
     data.append('_template', 'table');
-    data.append('_cc', 'your-gmail@gmail.com'); // Change to your Gmail
+    data.append('_cc', 'faisaljuma.techservices@gmail.com'); // Change to your Gmail
     data.append('_from_name', 'Inquire');
     data.append('page_url', window.location.href);
     data.append('g-recaptcha-response', token); // Add reCAPTCHA token
@@ -135,7 +135,7 @@ const HeaderForm = () => {
     console.log('Submitting form data to FormSubmit with reCAPTCHA'); // Debug log
 
     // Use fetch with proper promise handling
-    fetch('https://formsubmit.co/your-gmail@gmail.com', { // Change to your Gmail
+    fetch('https://formsubmit.co/info@fajservices.ae', { // Change to your Gmail
       method: 'POST',
       body: data,
       mode: 'no-cors'
