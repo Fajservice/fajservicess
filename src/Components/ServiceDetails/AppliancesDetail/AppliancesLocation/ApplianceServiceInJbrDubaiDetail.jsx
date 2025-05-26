@@ -17,6 +17,7 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages.jsx";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 import WeSpecialise from "../../AcDetail/AcLocation/WeSpecialise/WeSpecialise.jsx";
+import ApplianceSpecialise from "./Appliance specialise/ApplianceSpecialise.jsx";
 
 const ApplianceServiceInJbrDubaiDetail = ({ subtitle, title, bgImg }) => {
 
@@ -529,8 +530,8 @@ const ApplianceServiceInJbrDubaiDetail = ({ subtitle, title, bgImg }) => {
                     </div>
                 </section>
 
-                {/* We specialise in air conditioning services for the following brands */}
-                <WeSpecialise />
+                {/* We are specialise in Appliances services for the following brands */}
+                <ApplianceSpecialise />
 
                 {/* Brands section */}
                 <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
