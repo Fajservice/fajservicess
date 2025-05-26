@@ -1,6 +1,6 @@
 import React from 'react'
 import BreadCumb from "../../../Components/Common/BreadCumb";
-import AcRepairInRasAlKhorIndustrialAreaDetail from '../../../Components/ServiceDetails/AcDetail/AcLocation/AcRepairInRasAlKhorIndustrialAreaDetail';
+import AcRepairInQuozIndustrialAreaDetail from '../../../Components/ServiceDetails/AcDetail/AcLocation/AcRepairInQuozIndustrialAreaDetail';
 const AcRepairInQuozIndustrialArea = () => {
   return (
     <div className="serviceDetails">
@@ -8,7 +8,7 @@ const AcRepairInQuozIndustrialArea = () => {
         bgImg="img/air-condition.jpg"
         Title="AC Service in Al Quoz Industrial Area"
     ></BreadCumb>
-    <AcRepairInRasAlKhorIndustrialAreaDetail />
+    <AcRepairInQuozIndustrialAreaDetail />
 </div>
   )
 }
