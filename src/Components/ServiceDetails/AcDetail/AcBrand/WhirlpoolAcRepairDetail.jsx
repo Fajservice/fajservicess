@@ -1,16 +1,13 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import data from '../../../../Data/AcData/AcFaqs/AcBrand/WhiteWestingHouseAcRepairfaq.json';
+import data from '../../../../Data/AcData/AcFaqs/AcBrand/WhirpoolAcRepairfaq.json';
 import { HelmetProvider } from "react-helmet-async";
 
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
-import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMaintenance";
-import QuickGuide from "../../../QuickGuide/QuickGuide";
-import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
-import testimonial_data_WhiteWestingHouseAc from '../../../../Data/AcData/AcTestimonial/WhiteWestingHouseAcServiceTestimonials.json';
+import testimonial_data_Super_General from '../../../../Data/AcData/AcTestimonial/WhirpoolAcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";
 import HeaderForm from "../../../Headeform/HeaderForm";
@@ -19,13 +16,13 @@ import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
 
-const WhiteWestingHouseAcRepair = ({ subtitle, title, bgImg }) => {
+const WhirpoolAcRepair = ({ subtitle, title, bgImg }) => {
   // For SEO
-  const titleSeo = "White Westinghouse Ac Repair In Dubai - #1 Ac Service Near";
-  const description = "We are offering White Westinghouse Ac Repair in Dubai, Call us 043300002 for Air Conditioner Maintenance near me Dubai Air Con Servicing";
+  const titleSeo = "Whirlpool Air Condition Repair in Dubai - AC Maintenance";
+  const description = "FAJ Offering Whirlpool AC repair in Dubai We are experts in Split Air Conditioner Maintenance Service nearby & Air con Fixing 043300002";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://www.fajservices.ae/white-westinghouse-ac-repair-in-dubai-white-westinghouse-ac-maintenance-in-dubai-white-westinghouse-ac-fix-in-dubai-white-westinghouse-ac-service-in-dubai-white-westinghouse-air-condition-repair-in-du/";
+  const URL = "https://www.fajservices.ae/whirlpool-air-condition-repair-in-dubai-ac-maintenance-in-dubai-air-conditioning-fix-repairs-service-in-dubai/";
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
@@ -99,18 +96,14 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, bgImg }) => {
       </HelmetProvider>
       <HeaderForm />
 
-
       <div className="cs_service_details">
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Westinghouse AC Repair and Maintenance Service in Dubai </h1>
+            <h1 className="cs_fs_30">Whirlpool Air Conditioner Repair and Services in Dubai</h1>
             <p>
-              For year-round comfort, it’s important to effectively manage challenges like summer humidity, warm nights, and indoor allergens.
-              <br />Since our founding in 2010, <a href="https://www.fajservices.ae/">F A J Technical Services L.L.C</a> has emerged as a leading provider of White Westinghouse air conditioning solutions in Dubai and Sharjah.
-              <br />Our highly skilled team is dedicated to delivering top-notch AC repair, service cleaning, maintenance, and installation for both residential and commercial AC units.
-              We prioritize optimizing the efficiency of your air conditioning system, ensuring that your indoor environment remains refreshing and comfortable throughout the year. Trust us to elevate your comfort and peace of mind.
-
+              Ensuring year-round comfort requires effective management of challenges such as summer humidity, warm nights, and indoor allergens.
+              <br />Since its founding in 2010, <a href="https://www.fajservices.ae/">F A J Technical Services L.L.C</a> has been a trusted provider of Whirlpool air conditioner solutions in Dubai and Sharjah. Our skilled team offers a range of Whirlpool AC repair, cleaning services, maintenance, and installation for both residential and commercial units. We are committed to optimising the performance of your air conditioning system to enhance indoor comfort.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -127,11 +120,12 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">White Westinghouse Air Conditioner Maintenance and Services </h3>
+                <h3 className="cs_fs_24 mb-1">Whirlpool Air Conditioner Maintenance and Service</h3>
 
                 <p className="mb-2">
-                  If you are located in Dubai and need AC repair services for White Westinghouse air conditioners, FAJ is prepared to assist you.
-                  <br />Our team of experts is committed to ensuring that your air conditioning systems operate efficiently in both Dubai and Sharjah, offering reliable solutions that promote optimal indoor comfort throughout the year.
+                  If you're in Dubai and need Whirlpool <a href="https://www.fajservices.ae/ac-repair-dubai/">air conditioner repair</a>, FAJ is here for you!
+                  <br /> Our expert team ensures your AC systems run smoothly in Dubai and Sharjah, providing reliable solutions for optimal indoor comfort year-round. Enjoy a cool, refreshing environment with our help!
+
                 </p>
 
                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
@@ -153,7 +147,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, bgImg }) => {
                 </div></div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac filter.avif`} alt="White Westinghouse AC Service" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac filter.avif`} alt="Whirlpool AC Service" />
               </div>
             </div>
             <AppliancesAppointmentCol></AppliancesAppointmentCol>
@@ -164,24 +158,23 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
 
-            <h3 className="cs_fs_30">Why is White Westinghouse AC Maintenance Service Important in Dubai?</h3>
+            <h3 className="cs_fs_30">Why is Whirlpool AC Maintenance Service Important in Dubai?</h3>
             <p className="mb-0">
-              To guarantee your White Westinghouse central air conditioner functions efficiently in Dubai's intense heat, regular <a href="/ac-maintenance-dubai/"> AC maintenance </a>  is essential. At FAJ, we offer expert aircon services designed to enhance your system’s performance and comfort year-round. Trust us to keep your air conditioner operating at its best.
+              To guarantee your Whirlpool central air conditioner functions efficiently in Dubai's intense heat, regular <a href="https://www.fajservices.ae/ac-maintenance-dubai/"> AC maintenance</a> is essential. At FAJ, we offer expert aircon services designed to enhance your system’s performance and comfort year-round. Trust us to keep your air conditioner operating at its best.
             </p>
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/ac amc.avif`} alt="White Westinghouse Airconditioner Repair" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/ac amc.avif`} alt="Whirlpool Airconditioner Repair" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
 
-                  <li> <strong>  Extreme Weather: </strong> As summer approaches, we can expect temperatures to soar above 40°C (104°F), creating discomfort. It's essential to ensure that your White Westinghouse air conditioning systems are primed for optimal performance. </li>
-                  <li> <strong>  Energy Efficiency: </strong> A well-maintained White Westinghouse air conditioner operates efficiently, resulting in significant energy savings and lower DEWA electricity costs. </li>
-                  <li> <strong>  Longevity of Equipment: </strong> Keeping up with the White Westinghouse AC maintenance is really important for getting the best performance and efficiency. It helps lower repair costs and can save money for both homes and businesses. </li>
-                  <li> <strong>  Improved Air Quality: </strong> Routine White Westinghouse air conditioner cleaning service prevents dust and allergens from getting in, resulting in improved air quality. </li>
+                  <li> <strong>  Extreme Weather: </strong> As summer approaches, we can expect temperatures to soar above 40°C (104°F), creating discomfort. It's essential to ensure that your Whirlpool air conditioning systems are primed for optimal performance. </li>
+                  <li> <strong>  Energy Efficiency: </strong> A well-maintained Whirlpool air conditioner operates efficiently, resulting in significant energy savings and lower DEWA electricity costs. </li>
+                  <li> <strong>  Longevity of Equipment: </strong> Keeping up with the Whirlpool AC maintenance is really important for getting the best performance and efficiency. It helps lower repair costs and can save money for both homes and businesses. </li>
+                  <li> <strong>  Improved Air Quality: </strong> Routine Whirlpool air conditioner cleaning service prevents dust and allergens from getting in, resulting in improved air quality. </li>
                   <li> <strong>  Enhanced Comfort: </strong> Regular air conditioner maintenance in Dubai is vital for optimal efficiency and a comfortable indoor environment. </li>
-
 
                 </ul>
               </div>
@@ -192,7 +185,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, bgImg }) => {
         {/* Problems  */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="text-center">Common White Westinghouse AC Problems That May Require Maintenance</h3>
+            <h3 className="text-center">Common Whirlpool  AC Problems That May Require Maintenance</h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
@@ -203,7 +196,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Reduced airflow from a White Westinghouse air conditioner may indicate a clogged filter or faulty fan, which should be fixed for efficient cooling.
+                      Reduced airflow from a Whirlpool air conditioner may indicate a clogged filter or faulty fan, which should be fixed for efficient cooling.
                     </p>
                   </div>
                 </div>
@@ -216,8 +209,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      If your White Westinghouse AC is blowing warm air, it may be experiencing issues with the compressor, refrigerant levels, or ductwork.
-
+                      If your Whirlpool AC is blowing warm air, it may be experiencing issues with the compressor, refrigerant levels, or ductwork.
                     </p>
                   </div>
                 </div>
@@ -230,7 +222,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Unusual sounds like grinding, squeaking, or banging from your White Westinghouse AC may indicate mechanical issues that require attention.
+                      Unusual sounds like grinding, squeaking, or banging from your Whirlpool AC may indicate mechanical issues that require attention.
                     </p>
                   </div>
                 </div>
@@ -268,7 +260,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      A White Westinghouse air conditioner that does not reduce humidity may have cooling capacity issues or may not be operating properly.
+                      A Whirlpool air conditioner that does not reduce humidity may have cooling capacity issues or may not be operating properly.
                     </p>
                   </div>
                 </div>
@@ -280,7 +272,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Water pooling around the White Westinghouse AC or dripping from the vents may indicate a blocked drain or frozen coils.
+                      Water pooling around the Whirlpool AC or dripping from the vents may indicate a blocked drain or frozen coils.
                     </p>
                   </div>
                 </div>
@@ -292,7 +284,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      High energy bills without increased usage may indicate inefficiencies in White Westinghouse air conditioning due to dirty filters or duct leaks.
+                      High energy bills without increased usage may indicate inefficiencies in Whirlpool air conditioning due to dirty filters or duct leaks.
                     </p>
                   </div>
                 </div>
@@ -310,7 +302,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, bgImg }) => {
         {/* HERE  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR White Westinghouse AIR CONDITIONER SYSTEMS</h3>
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR WHIRLPOOL AIR CONDITIONER SYSTEMS</h3>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -329,12 +321,13 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, bgImg }) => {
                 <p className='mb-0'>Effective air conditioning systems are essential for maintaining a comfortable and effective environment in commercial environments.</p>
                 <p className='mb-0'><strong>Our services include:</strong></p>
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                  <li> <strong> White Westinghouse AC Installation: </strong> The professional installation of various White Westinghouse air conditioning systems ensures optimal performance. </li>
-                  <li> <strong> White Westinghouse AC Inspection: </strong> We offer accurate fault diagnosis to pinpoint system issues, along with comprehensive quotes and eligibility assessments to address your concerns. </li>
-                  <li> <strong> White Westinghouse AC Repair Service: </strong> We offer fast repair services for White Westinghouse air conditioners, addressing leaks, electrical problems, and malfunctions. Contact us for further details or inquiries! </li>
-                  <li> <strong> White Westinghouse AC Annual Maintenance Contract: </strong> The contract specifies the annual maintenance terms for White Westinghouse air conditioners.  </li>
+                  <li> <strong> Whirlpool AC Installation: </strong> The professional installation of various Whirlpool air conditioning systems ensures optimal performance. </li>
+                  <li> <strong> Whirlpool AC Diagnostics: </strong> We offer accurate fault diagnosis to pinpoint system issues, along with comprehensive quotes and eligibility assessments to address your concerns.
+                  </li>
+                  <li> <strong> Whirlpool AC Repair Service: </strong> We offer fast repair services for Whirlpool air conditioners, addressing leaks, electrical problems, and malfunctions. Contact us for further details or inquiries!</li>
+                  <li> <strong> Whirlpool AC Annual Maintenance Contract: </strong>  The contract specifies the annual maintenance terms for Whirlpool air conditioners.  </li>
                 </ul>
-                <p className="mb-0"> Regular maintenance, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is vital for optimal performance and durability.</p>
+                <p className="mb-0">Regular maintenance, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is vital for optimal performance and durability.</p>
               </div>
 
             </div>
@@ -346,7 +339,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-10 text-center">
-                <h3 className="cs_fs_30 text-light">Benefits Of Regular White Westinghouse AC Service and Maintenance in Dubai </h3>
+                <h3 className="cs_fs_30 text-light">Benefits Of Regular Whirlpool AC Service and Maintenance in Dubai </h3>
 
                 <div className="row mt-4 gx-4 gy-4">
                   <div className="col-md-4 mb-2">
@@ -416,7 +409,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, bgImg }) => {
                       </div>
                       <h4 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h4>
                       <p className="small">
-                        Our team provides vital feedback on your White Westinghouse AC's health and any needed repairs.
+                        Our team provides vital feedback on your Whirlpool AC's health and any needed repairs.
                       </p>
                     </div>
                   </div>
@@ -464,7 +457,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your White Westinghouse AC repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.
+                    <p>Choose a day and time for your Whirlpool AC repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.
                     </p>
                   </div>
                 </div>
@@ -485,7 +478,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are experts in White Westinghouse AC repair. This is why most major brands trust us to handle their service and maintenance needs.</p>
+                    <p>We are experts in Whirlpool AC repair. This is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -530,26 +523,27 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, bgImg }) => {
               and <small>3-month parts warranty</small> as standard.</p>
 
 
-            <h3>We specialise in White Westinghouse AC services for the following types</h3>
+            <h3>We specialise in Whirlpool AC services for the following types</h3>
             <div className="row">
               <div className="col-12">
-                <p className="mb-0"><strong>   White Westinghouse Air Conditioner Installation Service in Dubai:</strong> A comprehensive solution for your cooling needs. We specialize in high-quality White Westinghouse AC installation services in Dubai and Sharjah. Our consultation process helps you choose the right model based on your space and budget. Our experts assess factors like room size and AC insulation to recommend the best unit for optimal performance.</p>
-                <p className="mb-0"><strong>   Our installation services include: </strong> </p>
+                <p className="mb-0"><strong>  Whirlpool Air Conditioner Installation Service in Dubai: </strong>
+                  A comprehensive solution for your cooling needs. We specialize in high-quality Whirlpool <a href="https://www.fajservices.ae/ac-service-in-dubai/">AC installation services</a> in Dubai and Sharjah. Our consultation process helps you choose the right model based on your space and budget. Our experts assess factors like room size and AC insulation to recommend the best unit for optimal performance.
+                </p>
 
-                <p className="mb-0"> <strong>  Climate Check: </strong> Understanding your unique requirements based on the local climate and your building's features.</p>
-                <p className="mb-0"> <strong>  Expert AC Installation: </strong> Our skilled AC technicians ensure that the AC installation is performed to the highest standards, adhering to all safety protocols.</p>
-                <p className="mb-0"> <strong>  Post-Installation Support: </strong> We provide advice on operating your new air conditioner, including tips on energy efficiency and maintenance.</p>
-                <p className="mb-0"> <strong>  Warranty and Service Packages: </strong> To ensure your peace of mind, we offer warranty options and additional service packages for maintenance and repair in Dubai and Sharjah.</p>
-                <p className="mb-0"> <strong>  White Westinghouse AC AMC Services in Dubai: </strong> We offer comprehensive air conditioning AMC (Annual Maintenance Contract) and PPM (Planned Preventive Maintenance) services, along with repair support, throughout the year for both contract and non-contract customers. While we are dedicated to serving all our clients, please note that those with service contracts may receive priority assistance.</p>
-                <p className="mb-0"> <strong>  White Westinghouse Air Conditioner Repair in Dubai: </strong> Stay cool during the hot Dubai summer with our expert White Westinghouse inverter <a href="https://www.fajservices.ae/ac-repair-dubai/"> AC repair</a> in Dubai and Sharjah. Our team provides efficient and reliable cooling solutions tailored to your needs. We guide you through the selection and installation process for optimal comfort. Contact us today to schedule your installation and beat the heat!</p>
-                <p className="mb-0"> <strong>  White Westinghouse AC Cleaning Service in Dubai: </strong> AC Deep cleaning your air conditioner brings several key benefits: </p>
-                <p className="mb-0"> <strong>  Improved Air Quality: </strong> It removes dust, allergens, and bacteria, leading to healthier air, especially for those with allergies.</p>
-                <p className="mb-0"> <strong>  Reduced Energy Consumption: </strong> A clean unit operates more efficiently, lowering your electricity bills.</p>
-                <p className="mb-0"> <strong>  Extended Lifespan: </strong> Regular AC maintenance prevents wear and tear, prolonging the life of your AC and minimising costly repairs.</p>
-                <p className="mb-0"> <strong>  Odour Elimination: </strong> It eliminates mold and mildew, resulting in fresher indoor air.</p>
-                <p className="mb-0"> <strong>  Reduced Mold Growth: </strong> Regular cleaning prevents the growth of mold and bacteria, which is crucial in humid climates.</p>
-                <p className=""> <strong>  Better Breathing: </strong> Cleaner air improves overall well-being. In short, deep cleaning your AC is an investment in your health, comfort, and energy efficiency.</p>
-
+                <p className="mb-0"><strong>  Our installation services include: </strong></p>
+                <p class="mb-0"> <strong>   Climate Check: </strong> Understanding your unique requirements based on the local climate and your building's features. </p>
+                <p class="mb-0"> <strong>   Expert AC Installation: </strong> Our skilled AC technicians ensure that the AC installation is performed to the highest standards, adhering to all safety protocols. </p>
+                <p class="mb-0"> <strong>   Post-Installation Support: </strong> We provide advice on operating your new air conditioner, including tips on energy efficiency and maintenance. </p>
+                <p class="mb-0"> <strong>   Warranty and Service Packages: </strong> To ensure your peace of mind, we offer warranty options and additional service packages for maintenance and repair in Dubai and Sharjah. </p>
+                <p class="mb-0"> <strong>   Whirlpool AC AMC Services in Dubai: </strong> We offer comprehensive air conditioning AMC (Annual Maintenance Contract) and PPM (Planned Preventive Maintenance) services, along with repair support, throughout the year for both contract and non-contract customers. While we are dedicated to serving all our clients, please note that those with service contracts may receive priority assistance. </p>
+                <p class="mb-0"> <strong>   Whirlpool Air Conditioner Repair in Dubai: </strong> Stay cool during the hot Dubai summer with our expert Whirlpool inverter AC repair in Dubai and Sharjah. Our team provides efficient and reliable cooling solutions tailored to your needs. We guide you through the selection and installation process for optimal comfort. Contact us today to schedule your installation and beat the heat! </p>
+                <p class="mb-0"> <strong>   Whirlpool AC Cleaning Service in Dubai: </strong> AC Deep cleaning your air conditioner brings several key benefits:  </p>
+                <p class="mb-0"> <strong>   Improved Air Quality: </strong> It removes dust, allergens, and bacteria, leading to healthier air, especially for those with allergies. </p>
+                <p class="mb-0"> <strong>   Reduced Energy Consumption: </strong> A clean unit operates more efficiently, lowering your electricity bills. </p>
+                <p class="mb-0"> <strong>   Extended Lifespan: </strong> Regular AC maintenance prevents wear and tear, prolonging the life of your AC and minimising costly repairs. </p>
+                <p class="mb-0"> <strong>   Odour Elimination: </strong> It eliminates mold and mildew, resulting in fresher indoor air. </p>
+                <p class="mb-0"> <strong>   Reduced Mold Growth: </strong> Regular cleaning prevents the growth of mold and bacteria, which is crucial in humid climates. </p>
+                <p class="mb-0"> <strong>   Better Breathing: </strong> Cleaner air improves overall well-being. In short, deep cleaning your AC is an investment in your health, comfort, and energy efficiency. </p>
 
                 <p>
                   <a href="https://www.fajservices.ae/ac-repair-in-al-barsha-air-condition-maintenance-in-al-barsha-air-conditioning-fix-amc-service-in-al-barsha-dubai/">Al Barsha</a> &nbsp;|&nbsp;
@@ -627,7 +621,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, bgImg }) => {
               data-add-slides="2" data-slides-per-view="responsive">
               <div className="cs_slider_wrapper">
                 <Slider {...settings}>
-                  {testimonial_data_WhiteWestingHouseAc.map((item, index) => (
+                  {testimonial_data_Super_General.map((item, index) => (
                     <div key={index} className="cs_slide wow fadeInLeft">
                       <div className="cs_testimonial cs_style_1 position-relative">
                         <div className="cs_testimonial_content cs_white_bg position-relative">
@@ -701,8 +695,10 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, bgImg }) => {
 
       </div >
 
+
+
     </>
   );
 };
 
-export default WhiteWestingHouseAcRepair;
+export default WhirpoolAcRepair;
