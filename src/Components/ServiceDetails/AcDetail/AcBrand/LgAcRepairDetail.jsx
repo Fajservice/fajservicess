@@ -314,16 +314,6 @@ const LgAcRepair = ({ subtitle, title, bgImg }) => {
 
             <div className="row align-items-center">
               <div className="col-xl-6">
-                <p className='mb-0'>We offer a variety of HVAC systems, highlighting top brands and advanced Fresh Air Handling Units (FAHU).</p>
-                <p className='mb-0'><strong>Our services include:</strong></p>
-                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                  <li><strong> LG AC Installation: </strong> The professional installation of diverse LG air conditioning systems guarantees optimal performance. </li>
-                  <li><strong> LG AC Inspection: </strong> We provide precise fault diagnosis to identify system issues, along with detailed quotes and eligibility assessments to address your concerns. </li>
-                  <li><strong> LG AC Repair Service: </strong> We provide quick repair services for LG air conditioner, addressing leaks, electrical issues, and malfunctions. Contact us for more details or inquiries! </li>
-                  <li><strong> LG AC Annual Maintenance Contract: </strong> The contract outlines the annual maintenance terms for LG air conditioners. Regular AC maintenance (AMC/PPM) is crucial for optimal performance and longevity. </li>
-                </ul>
-              </div>
-              <div className="col-xl-6">
                 <iframe
                   className="bordered-img blue-border"
                   width="100%"
@@ -335,6 +325,17 @@ const LgAcRepair = ({ subtitle, title, bgImg }) => {
                   allowFullScreen
                 ></iframe>
               </div>
+              <div className="col-xl-6">
+                <p className='mb-0'>We offer a variety of HVAC systems, highlighting top brands and advanced Fresh Air Handling Units (FAHU).</p>
+                <p className='mb-0'><strong>Our services include:</strong></p>
+                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
+                  <li><strong> LG AC Installation: </strong> The professional installation of diverse LG air conditioning systems guarantees optimal performance. </li>
+                  <li><strong> LG AC Inspection: </strong> We provide precise fault diagnosis to identify system issues, along with detailed quotes and eligibility assessments to address your concerns. </li>
+                  <li><strong> LG AC Repair Service: </strong> We provide quick repair services for LG air conditioner, addressing leaks, electrical issues, and malfunctions. Contact us for more details or inquiries! </li>
+                  <li><strong> LG AC Annual Maintenance Contract: </strong> The contract outlines the annual maintenance terms for LG air conditioners. Regular AC maintenance (AMC/PPM) is crucial for optimal performance and longevity. </li>
+                </ul>
+              </div>
+              
             </div>
           </div>
         </section >

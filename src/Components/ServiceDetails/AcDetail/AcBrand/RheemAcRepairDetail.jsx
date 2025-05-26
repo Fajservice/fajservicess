@@ -493,7 +493,6 @@ const RheemAcRepair = ({ subtitle, title, bgImg }) => {
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
                     <p>We are dedicated to ensuring customer satisfaction with timely service, prompt issue resolution, and affordable prices.</p>
-
                   </div>
                 </div>
                 <div className="uspitem mb-0">

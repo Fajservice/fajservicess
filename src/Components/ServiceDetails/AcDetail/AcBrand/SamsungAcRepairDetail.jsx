@@ -313,18 +313,6 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
 
             <div className="row align-items-center">
               <div className="col-xl-6">
-                <p className='mb-0'>We offer a variety of HVAC systems, particularly advanced Fresh Air Handling Units (FAHU).</p>
-                <p className='mb-0'><strong>Our services include:</strong></p>
-                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                  <li> <strong> Samsung AC Installation: </strong> The professional installation of various Samsung air conditioning systems ensures optimal performance.</li>
-                  <li> <strong> Samsung AC Inspection: </strong> We offer accurate fault diagnosis to pinpoint system issues, along with comprehensive quotes and eligibility assessments to address your concerns.</li>
-                  <li> <strong> Samsung AC Repair Service: </strong> We offer fast repair services for Samsung air conditioners, addressing leaks, electrical problems, and malfunctions. Contact us for further details or inquiries!</li>
-                  <li> <strong> Samsung AC Annual Maintenance Contract: </strong> The contract specifies the annual maintenance terms for Samsung air conditioners. Regular maintenance, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is vital for optimal performance and durability.</li>
-
-
-                </ul>
-              </div>
-              <div className="col-xl-6">
                 <iframe
                   className="bordered-img blue-border"
                   width="100%"
@@ -336,6 +324,19 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
                   allowFullScreen
                 ></iframe>
               </div>
+              <div className="col-xl-6">
+                <p className='mb-0'>We offer a variety of HVAC systems, particularly advanced Fresh Air Handling Units (FAHU).</p>
+                <p className='mb-0'><strong>Our services include:</strong></p>
+                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
+                  <li> <strong> Samsung AC Installation: </strong> The professional installation of various Samsung air conditioning systems ensures optimal performance.</li>
+                  <li> <strong> Samsung AC Inspection: </strong> We offer accurate fault diagnosis to pinpoint system issues, along with comprehensive quotes and eligibility assessments to address your concerns.</li>
+                  <li> <strong> Samsung AC Repair Service: </strong> We offer fast repair services for Samsung air conditioners, addressing leaks, electrical problems, and malfunctions. Contact us for further details or inquiries!</li>
+                  <li> <strong> Samsung AC Annual Maintenance Contract: </strong> The contract specifies the annual maintenance terms for Samsung air conditioners. Regular maintenance, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is vital for optimal performance and durability.</li>
+
+
+                </ul>
+              </div>
+              
             </div>
           </div>
         </section >

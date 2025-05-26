@@ -328,7 +328,7 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
                   <li> <strong> Gree AC Installation: </strong> Professional installation of various Gree AC systems for peak performance. </li>
                   <li> <strong> Gree AC Diagnostics: </strong> Comprehensive fault finding to accurately diagnose issues. We offer eligibility assessments and detailed quotes to address any concerns with your system. </li>
                   <li> <strong> Gree AC Repair Service: </strong> Prompt and effective repair services for all Gree AC components, addressing issues like leaks, electrical failures, and system malfunctions. Contact us for specific services or any questions you may have! </li>
-                  <li> <strong> Gree AC Annual Maintenance Contract: </strong> This contract details the terms and services for annual maintenance of Gree air conditioner units. Regular maintenance is crucial for the optimal performance, efficiency, and longevity of your air conditioning system. </li>
+                  <li> <strong> Gree AC Annual Maintenance Contract: </strong> This contract details the terms and services for annual maintenance of Gree air conditioner units. </li>
                 </ul>
                 <p className="mb-0"> Regular maintenance is crucial for the optimal performance, efficiency, and longevity of your air conditioning system.</p>
               </div>

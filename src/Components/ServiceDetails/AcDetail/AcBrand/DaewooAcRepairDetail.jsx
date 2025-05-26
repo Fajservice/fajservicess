@@ -528,25 +528,23 @@ const DaewooAcRepair = ({ subtitle, title, bgImg }) => { // For SEO
             <h3>We specialise in Daewoo air conditioning services for the following</h3>
             <div className="row">
               <div className="col-12">
- 
+
                 <p className="mb-0"><strong> Daewoo Air Conditioner Installation Service in Dubai:: </strong> A Comprehensive Solution for Your Cooling Needs. We specialize in high-quality Daewoo AC installation services in Dubai and Sharjah. Our consultation process helps you choose the right model based on your space and budget. Our experts assess factors like room size and AC insulation to recommend the best unit for optimal performance.</p>
                 <p className="mb-0"> <strong>Our installation services include:</strong></p>
 
-<p className="mb-0"> <strong>  Climate Check: </strong> Understanding your unique requirements based on the local climate and your building's features. </p>
-<p className="mb-0"> <strong>  Expert AC Installation: </strong> Our skilled AC technicians ensure that the AC installation is performed to the highest standards, adhering to all safety protocols. </p>
-<p className="mb-0"> <strong>  Post-Installation Support: </strong> We provide advice on operating your new air conditioner, including tips on energy efficiency and maintenance. </p>
-<p className="mb-0"> <strong>  Warranty and Service Packages: </strong> To ensure your peace of mind, we offer warranty options and additional service packages for maintenance and repair in Dubai and Sharjah. </p>
-<p className="mb-0"> <strong>  Daewoo AC AMC Services in Dubai: </strong> We offer comprehensive air conditioning AMC (Annual Maintenance Contract) and PPM (Planned Preventive Maintenance) services, along with repair support, throughout the year for both contract and non-contract customers. While we are dedicated to serving all our clients, please note that those with service contracts may receive priority assistance. </p>
-<p className="mb-0"> <strong>  Daewoo Air Conditioner Repair in Dubai: </strong> Stay cool during the hot Dubai summer with our expert Daewoo inverter AC repair in Dubai and Sharjah. Our team provides efficient and reliable cooling solutions tailored to your needs. We guide you through the selection and installation process for optimal comfort. Contact us today to schedule your installation and beat the heat! </p>
-<p className="mb-0"> <strong>  Daewoo AC Cleaning Service in Dubai: </strong> AC Deep cleaning your air conditioner brings several key benefits: </p>
-<p className="mb-0"> <strong>  Improved Air Quality: </strong> It removes dust, allergens, and bacteria, leading to healthier air, especially for those with allergies. </p>
-<p className="mb-0"> <strong>  Reduced Energy Consumption: </strong> A clean unit operates more efficiently, lowering your electricity bills. </p>
-<p className="mb-0"> <strong>  Extended Lifespan: </strong> Regular AC maintenance prevents wear and tear, prolonging the life of your AC and minimising costly repairs. </p>
- <p className="mb-0"> <strong> Odour Elimination: </strong> It eliminates mold and mildew, resulting in fresher indoor air. </p>
-<p className="mb-0"> <strong>  Reduced Mold Growth: </strong> Regular cleaning prevents the growth of mold and bacteria, which is crucial in humid climates. </p>
-<p className="mb-0"> <strong>  Better Breathing: </strong> Cleaner air improves overall well-being. In short, deep cleaning your AC is an investment in your health, comfort, and energy efficiency. </p>
-
-
+                <p className="mb-0"> <strong>  Climate Check: </strong> Understanding your unique requirements based on the local climate and your building's features. </p>
+                <p className="mb-0"> <strong>  Expert AC Installation: </strong> Our skilled AC technicians ensure that the AC installation is performed to the highest standards, adhering to all safety protocols. </p>
+                <p className="mb-0"> <strong>  Post-Installation Support: </strong> We provide advice on operating your new air conditioner, including tips on energy efficiency and maintenance. </p>
+                <p className="mb-0"> <strong>  Warranty and Service Packages: </strong> To ensure your peace of mind, we offer warranty options and additional service packages for maintenance and repair in Dubai and Sharjah. </p>
+                <p className="mb-0"> <strong>  Daewoo AC AMC Services in Dubai: </strong> We offer comprehensive air conditioning AMC (Annual Maintenance Contract) and PPM (Planned Preventive Maintenance) services, along with repair support, throughout the year for both contract and non-contract customers. While we are dedicated to serving all our clients, please note that those with service contracts may receive priority assistance. </p>
+                <p className="mb-0"> <strong>  Daewoo Air Conditioner Repair in Dubai: </strong> Stay cool during the hot Dubai summer with our expert Daewoo inverter AC repair in Dubai and Sharjah. Our team provides efficient and reliable cooling solutions tailored to your needs. We guide you through the selection and installation process for optimal comfort. Contact us today to schedule your installation and beat the heat! </p>
+                <p className="mb-0"> <strong>  Daewoo AC Cleaning Service in Dubai: </strong> AC Deep cleaning your air conditioner brings several key benefits: </p>
+                <p className="mb-0"> <strong>  Improved Air Quality: </strong> It removes dust, allergens, and bacteria, leading to healthier air, especially for those with allergies. </p>
+                <p className="mb-0"> <strong>  Reduced Energy Consumption: </strong> A clean unit operates more efficiently, lowering your electricity bills. </p>
+                <p className="mb-0"> <strong>  Extended Lifespan: </strong> Regular AC maintenance prevents wear and tear, prolonging the life of your AC and minimising costly repairs. </p>
+                <p className="mb-0"> <strong> Odour Elimination: </strong> It eliminates mold and mildew, resulting in fresher indoor air. </p>
+                <p className="mb-0"> <strong>  Reduced Mold Growth: </strong> Regular cleaning prevents the growth of mold and bacteria, which is crucial in humid climates. </p>
+                <p className="mb"> <strong>  Better Breathing: </strong> Cleaner air improves overall well-being. In short, deep cleaning your AC is an investment in your health, comfort, and energy efficiency. </p>
 
                 <p>
                   <a href="https://www.fajservices.ae/ac-repair-in-al-barsha-air-condition-maintenance-in-al-barsha-air-conditioning-fix-amc-service-in-al-barsha-dubai/">Al Barsha</a> &nbsp;|&nbsp;
@@ -567,10 +565,14 @@ const DaewooAcRepair = ({ subtitle, title, bgImg }) => { // For SEO
                   <a href="https://www.fajservices.ae/ac-services-in-impz/">IMPZ</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-dubai-sport-city/">Dubai Sports City</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-dubai-studio-city/">Dubai Studio City</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jbr/">JBR - Jumeirah Beach Residence</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-jlt/">JLT - Jumeirah Lake Towers</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jvc/">JVC - Jumeirah Village Circle</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-village-triangle/">JVT - Jumeirah Village Triangle</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jbr/">JBR</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-beach-residence/">Jumeirah Beach Residence</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-jlt//">JLT</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-lake-towers/">Jumeirah Lake Towers</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jvc/">JVC</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-village-circle/">Jumeirah Village Circle</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jvt/">JVT</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-village-triangle/">Jumeirah Village Triangle</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-jebel-ali-village/">Jebel Ali Village</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-palm-jumeirah/">Jumeirah</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-jumeirah-golf-estates/">Jumeirah Golf Estates</a> &nbsp;|&nbsp;
@@ -583,6 +585,7 @@ const DaewooAcRepair = ({ subtitle, title, bgImg }) => { // For SEO
                   <a href="https://www.fajservices.ae/ac-services-in-ras-al-khor-industrial-area/">Ras Al Khor</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-deira/">Deira</a>
                 </p>
+                
               </div>
 
             </div>
