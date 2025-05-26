@@ -181,21 +181,21 @@ section#get-quote {
 }
 
 .cs_nav .cs_nav_list>li.menu-item-has-children .custom_border_drop .menu-item-has-children>a::after {
-  content: "\f282";
-  font-family: bootstrap-icons !important;
-  font-weight: 900;
-  display: inline-block;
-  border-left: 0;
-  border-top: 0;
-  margin-left: 6px;
-  position: absolute;
-  top: 10px;
-  font-size: 9px;
-  color: currentColor;
-  left: 95%;
-  height: fit-content;
-  width: auto;
-  transition: transform 0.3s ease;
+    content: "\f282";
+    font-family: bootstrap-icons !important;
+    font-weight: 900;
+    display: inline-block;
+    border-left: 0;
+    border-top: 0;
+    margin-left: 6px;
+    position: absolute;
+    top: 15px;
+    font-size: 10px;
+    color: #000;
+    left: 95%;
+    height: fit-content;
+    width: auto;
+    transition: transform 0.3s ease;
 }
 
 .cs_nav .cs_nav_list>li.menu-item-has-children .custom_border_drop .menu-item-has-children:hover>a::after {
@@ -242,6 +242,12 @@ section#get-quote {
     width: 260px;
     height: 4px;
   }
+  .cs_nav .cs_nav_list li {
+    border-bottom: 1px solid #ffffff70;
+}
+.cs_nav .cs_nav_list li:last-child{
+  border-bottom: 0px;
+}
 }
 
 @media screen and (min-width: 768px) {
@@ -671,7 +677,7 @@ p a {
   }
 
   .cs_nav .cs_nav_list ul a {
-    padding: 5px 10px;
+    padding: 8px 10px;
     line-height: 1.2;
   }
 
@@ -820,6 +826,11 @@ p a {
   .box-content-container {
     min-height: auto;
     max-height: 185px;
+  }
+  .cs_team_slider img {
+    max-height: 150px !important;
+    object-fit: cover;
+    min-height: 150px;
   }
 }
 
@@ -1068,4 +1079,9 @@ tr.Window.Ton-3, tr.Split.Ton-4, tr.Central.Ton-4, tr.Chill.Ton-4, tr.Inverter.T
 }
 .faj-price-table td {
     border: 1px solid #000;
+}
+.cs_team_slider img {
+    max-height: 200px !important;
+    object-fit: cover;
+    min-height: 200px;
 }

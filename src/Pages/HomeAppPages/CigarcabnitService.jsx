@@ -6,7 +6,8 @@ const CigarcabnitService = () => {
         <div className="serviceDetails">
             <BreadCumb
                 // bgImg="img/page_heading_1.avif"
-                bgImg="img/banners/Cigar-cabnet.avif"
+                bgImg="img/banners/cigar-cabnit-repair.avif"
+                mobileBgImg="img/banners/cigar-cabnit-repair-mob.avif"
                 Title="Cigar Cabinet Humidifier Repair Across Dubai - Sharjah - Abu Dhabi"
             ></BreadCumb>
             <CigarcabnitServiceDetail></CigarcabnitServiceDetail>

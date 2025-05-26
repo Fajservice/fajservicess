@@ -12,13 +12,13 @@ export default function Nav({ setMobileToggle }) {
           Services
         </Link>
         <DropDown>
-          <ul className='cs_fs_18 custom_border_drop'>
+          <ul className='cs_fs_17 custom_border_drop'>
             <li className="menu-item-has-children">
               <Link className='px-3 mb-0' onClick={() => setMobileToggle(false)}>
                 Air Conditioning Services
               </Link>
               <DropDown>
-                <ul>
+                <ul className='cs_fs_16'>
                   <li className='cs_light cs_fs_16'>
                     <Link to="/ac-repair-dubai/" onClick={() => setMobileToggle(false)}>
                       AC Repair
@@ -47,7 +47,7 @@ export default function Nav({ setMobileToggle }) {
                 Coffee Machine Services
               </Link>
               <DropDown>
-                <ul>
+                <ul className='cs_fs_16'>
                   <li className='cs_light cs_fs_16'>
                     <Link to="/coffee-machine-service-center-in-dubai/" onClick={() => setMobileToggle(false)}>
                     Coffee Machine Services
@@ -66,7 +66,7 @@ export default function Nav({ setMobileToggle }) {
                 Home Appliances Services
               </a>
               <DropDown>
-                <ul>
+                <ul className='cs_fs_16'>
                   <li className='cs_light cs_fs_16'>
                     <Link to="/hob-repair-service/" onClick={() => setMobileToggle(false)}>
                       Hob Repair
@@ -141,7 +141,7 @@ export default function Nav({ setMobileToggle }) {
                 Kitchen Equipment Services
               </Link>
               <DropDown>
-                <ul>
+                <ul className='cs_fs_16'>
                   <li className='cs_light cs_fs_16'>
                     <Link to="/oven-repair/" onClick={() => setMobileToggle(false)}>
                       Oven Repair
@@ -176,7 +176,7 @@ export default function Nav({ setMobileToggle }) {
                 Refrigeration Equipment Services
               </Link>
               <DropDown>
-                <ul>
+                <ul className='cs_fs_16'>
                   <li className='cs_light cs_fs_16'>
                     <Link to="/ice-maker-repair/" onClick={() => setMobileToggle(false)}>
                     Ice Maker Repair
@@ -207,7 +207,7 @@ export default function Nav({ setMobileToggle }) {
               Commercial Laundry Equipment Services
               </a>
               <DropDown>
-                <ul>
+                <ul className='cs_fs_16'>
                   <li className='cs_light cs_fs_16'>
                     <Link to="/commercial-washing-machine-repair/" onClick={() => setMobileToggle(false)}>
                     Washing Machine Repair

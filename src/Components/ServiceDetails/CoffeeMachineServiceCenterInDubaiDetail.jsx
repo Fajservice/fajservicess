@@ -616,7 +616,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
                   <li className="">Breville Coffee Machine Repair and Fixing</li>
                   <li className="">Isomac Coffee Machine &amp; Espresso Repair and Fix</li>
                   <li className="">ECM Coffee Machine &amp; Espresso Repair and Servicing</li>
-                  <li className=""><a href="#/delonghi-coffee-machine-repair/">Delonghi Coffee Machine &amp; Espresso Repair</a> and Service</li>
+                  <li className=""><a href="/delonghi-coffee-machine-repair/">Delonghi Coffee Machine &amp; Espresso Repair</a> and Service</li>
                   <li className="">La Marzocco Coffee Machine Repair and Maintenance</li>
                   <li className="">Seimens Coffee Machine Repair and Cleaning</li>
                   <li className="">Animo with Water Filter Coffee Machine Repair and Service</li>
