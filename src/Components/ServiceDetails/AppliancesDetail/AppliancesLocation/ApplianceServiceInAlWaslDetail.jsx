@@ -19,13 +19,6 @@ import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 import ApplianceSpecialise from "./Appliance specialise/ApplianceSpecialise.jsx";
 
 const ApplianceServiceInAlWaslDetail = ({ subtitle, title, bgImg }) => {
-    // For SEO
-    const titleSeo = " Appliances Services in Al Wasl - Washing Machine Repair ";
-    const description = "We are experts appliance service in Al Wasl, Dubai. Get refrigerator repair near me. Book 043300002 to fix your dishwasher, washing machine.";
-    const Author = "Faj Technical Servcies";
-    const Keyword = "";
-    const URL = "https://www.fajservices.com/appliances-services-in-al-wasl/";
-
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "img/testimonialbg.jpg"
@@ -113,8 +106,6 @@ const ApplianceServiceInAlWaslDetail = ({ subtitle, title, bgImg }) => {
             }
         ]
     };
-    
-
     return (
         <>
             <HelmetProvider>

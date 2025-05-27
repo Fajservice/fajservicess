@@ -19,13 +19,6 @@ import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 import ApplianceSpecialise from "./Appliance specialise/ApplianceSpecialise.jsx";
 
 const ApplianceServiceInJebelAliFreeZoneDetail = ({ subtitle, title, bgImg }) => {
-    // For SEO
-    const titleSeo = "Appliances Services in Jebel Ali Free Zone -Fridge Repair";
-    const description = "Get appliance services in Jebel Ali Free Zone. FAJ experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher";
-    const Author = "Faj Technical Servcies";
-    const Keyword = "";
-    const URL = "https://www.fajservices.com/appliances-services-in-jebel-ali-free-zone/";
-
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "img/testimonialbg.jpg"
@@ -78,37 +71,6 @@ const ApplianceServiceInJebelAliFreeZoneDetail = ({ subtitle, title, bgImg }) =>
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 1,
-                }
-            }
-        ]
-    };
-    const settingBrands = {
-        dots: false,
-        infinite: true,
-        slidesToShow: 6,
-        arrows: false,
-
-        autoplay: true,
-        autoplaySpeed: 5000,
-        pauseOnHover: true,
-        // cssEase: 'linear',
-
-        responsive: [
-            {
-                breakpoint: 1399,
-                settings: {
-                    slidesToShow: 6,
-                }
-            },
-            {
-                breakpoint: 1199,
-                settings: {
-                    slidesToShow: 4,
-                }
-            }, {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 2,
                 }
             }
         ]

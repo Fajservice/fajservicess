@@ -19,14 +19,6 @@ import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 import ApplianceSpecialise from "./Appliance specialise/ApplianceSpecialise.jsx";
 
 const ApplianceServiceInDeiraDetail = ({ subtitle, title, bgImg }) => {
-    // For SEO
-const titleSeo = "Appliances Services in Deira - Refrigerator Repair Dubai";
-const description = "Expert appliance services in Deira. Get refrigerator repair near me in Dubai. Contact 043300002 to fix your washing machine, cooker, and dishwasher";
-const Author = "Faj Technical Servcies";
-const Keyword = "";
-const URL = "https://www.fajservices.com/appliances-services-in-deira/";
-
-
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "img/testimonialbg.jpg"
