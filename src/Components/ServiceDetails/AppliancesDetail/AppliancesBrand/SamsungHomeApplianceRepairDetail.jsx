@@ -14,6 +14,13 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
 const SamsungHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
+    // For SEO
+const titleSeo = "Samsung Appliances Repair - Samsung Refrigerator Service";
+const description = "Trouble with your Samsung home appliances? FAJ provides Samsung washing machine, dryer, fridge, dishwasher service near me dubai. Dail 043300002";
+const Author = "Faj Technical Servcies";
+const Keyword = "";
+const URL = "https://www.fajservices.com/samsung-home-appliances-repair/";
+    
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"

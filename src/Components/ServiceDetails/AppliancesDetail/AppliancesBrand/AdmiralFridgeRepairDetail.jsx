@@ -15,6 +15,13 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
 const AdmiralFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
+// For SEO
+const titleSeo = "Admiral Fridge Repair In Dubai - Washing Machine Service";
+const description = "Looking for Admiral fridge repair Dubai. We are offering refrigerator, dryer, dishwasher, cooker, and oven service near me Call now at 043300002";
+const Author = "Faj Technical Servcies";
+const Keyword = "";
+const URL = "https://www.fajservices.com/admiral-fridge-repair-in-dubai-admiral-washing-machine-repair-in-dubai-admiral-cooker-repair-in-dubai-admiral-oven-repair-in-dubai-admiral-appliances-maintenance-in-dubai-admiral-refrigerator-fix-repa/";
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"

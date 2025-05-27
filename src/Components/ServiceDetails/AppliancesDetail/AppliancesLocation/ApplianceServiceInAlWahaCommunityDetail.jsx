@@ -19,6 +19,14 @@ import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 import ApplianceSpecialise from "./Appliance specialise/ApplianceSpecialise.jsx";
 
 const ApplianceServiceInAlWahaCommunityDetail = ({ subtitle, title, bgImg }) => {
+    // For SEO
+    const titleSeo = "Appliances Services In Al Waha Community - Fridge Repair";
+    const description = "Get the best appliance services in Al Waha Community. Call 043300002 for washing machine repair near me in Dubai, we also fix fridge, dishwasher";
+    const Author = "Faj Technical Servcies";
+    const Keyword = "";
+    const URL = "https://www.fajservices.com/appliances-services-in-al-waha-community/";
+
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "img/testimonialbg.jpg"
@@ -75,6 +83,38 @@ const ApplianceServiceInAlWahaCommunityDetail = ({ subtitle, title, bgImg }) => 
             }
         ]
     };
+
+    const settingBrands = {
+        dots: false,
+        infinite: true,
+        slidesToShow: 6,
+        arrows: false,
+
+        autoplay: true,
+        autoplaySpeed: 5000,
+        pauseOnHover: true,
+        // cssEase: 'linear',
+
+        responsive: [
+            {
+                breakpoint: 1399,
+                settings: {
+                    slidesToShow: 6,
+                }
+            },
+            {
+                breakpoint: 1199,
+                settings: {
+                    slidesToShow: 4,
+                }
+            }, {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                }
+            }
+        ]
+    };
     return (
         <>
             <HelmetProvider>
@@ -126,9 +166,9 @@ const ApplianceServiceInAlWahaCommunityDetail = ({ subtitle, title, bgImg }) => 
                                     <br /> We're nearby and can get your appliances fixed quickly and efficiently.
                                 </p>
 
-                               <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service
-                </h3>
-                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services LLC</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
+                                <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service
+                                </h3>
+                                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services LLC</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
                             </div>
 
                             <div className="col-md-6 ">

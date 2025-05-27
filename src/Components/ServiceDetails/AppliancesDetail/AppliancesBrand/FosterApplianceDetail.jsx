@@ -13,6 +13,13 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 const FosterApplianceDetail = ({ subtitle, title, bgImg }) => {
+    // For SEO
+const titleSeo = "Foster Appliances Service - Foster Dishwasher Repair Dubai";
+const description = "Get Reliable Foster appliances service in Dubai. We provide refrigerator, dishwasher, washing machine, stove, oven repair & maintenance Call 043300002";
+const Author = "Faj Technical Servcies";
+const Keyword = "";
+const URL = "https://www.fajservices.com/foster-appliances-service/";
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"

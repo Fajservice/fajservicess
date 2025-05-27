@@ -14,6 +14,14 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
 const AftronFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
+
+    // For SEO
+const titleSeo = "Aftron Fridge Repair Dubai - Washing Machine Service Near";
+const description = "We provide reliable Aftron fridge repair in Dubai. Book on 043300002 for refrigerator, dishwasher, cooking range, oven service & fixing near me.";
+const Author = "Faj Technical Servcies";
+const Keyword = "";
+const URL = "https://www.fajservices.com/aftron-fridge-repair-in-dubai-aftron-washing-machine-repair-in-dubai-aftron-cooker-repair-in-dubai-aftron-oven-repair-in-dubai-aftron-appliances-maintenance-in-dubai-aftron-refrigerator-fix-repairs-se/";
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"

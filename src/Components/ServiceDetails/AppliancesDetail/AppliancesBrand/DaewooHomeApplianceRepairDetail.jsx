@@ -16,6 +16,13 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
 const DaewooHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
+    // For SEO
+const titleSeo = "Daewoo Home Appliance Repair & Washing Machine Service";
+const description = "Daewoo home appliances service Dubai. Get fast Daewoo refrigerator repair,  Daewoo washing machine repair dishwasher, fridge service center nearme";
+const Author = "Faj Technical Servcies";
+const Keyword = "";
+const URL = "https://www.fajservices.com/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/";
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"

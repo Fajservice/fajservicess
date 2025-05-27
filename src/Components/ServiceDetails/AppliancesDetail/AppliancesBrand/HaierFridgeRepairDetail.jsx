@@ -15,6 +15,12 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
 const HaierFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
+    // For SEO
+const titleSeo = "Haier Fridge Repair in Dubai - Washing Machine Service";
+const description = "FAJ offering Haier fridge repair in Dubai. Call 043300002 for Haier washing machine repair near me, refrigerator, dishwasher, microwave, oven fix service";
+const Author = "Faj Technical Servcies";
+const Keyword = "";
+const URL = "https://www.fajservices.com/haier-fridge-repair-in-dubai-haier-washing-machine-repair-in-dubai-haier-cooker-repair-in-dubai-haier-oven-repair-in-dubai-haier-appliances-maintenance-in-dubai-haier-refrigerator-fix-repairs-service/";
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"

@@ -3,6 +3,7 @@ import Main from "../Layout/Main";
 import Home from "../Pages/Home";
 import AboutPage from "../Pages/AboutPage";
 import AcTonnageCalculator from "../Pages/AcTonnageCalculator";
+import Orphan from "../Pages/Orphan";
 import AcMaintenanceDubai from "../Pages/AcMaintenanceDubai";
 import AcAnnualMaintenanceContract from "../Pages/AcAnnualMaintenanceContract";
 import AcRepairDubai from "../Pages/AcRepairDubai";
@@ -393,6 +394,14 @@ export const router = createBrowserRouter([
       {
         path: "/ac-tonnage-calculator/",
         element: <AcTonnageCalculator />
+      },
+      {
+        path: "/about-us/",
+        element: <AboutPage></AboutPage>,
+      },
+      {
+        path: "/orphan/",
+        element: <Orphan />
       },
       {
         path: "*",
@@ -1773,19 +1782,19 @@ export const router = createBrowserRouter([
       },
       {
         path: "/appliances-services-in-dubailand-the-villa/",
-        element: <ApplianceServiceInDubailandTheVilla/>,
+        element: <ApplianceServiceInDubailandTheVilla />,
       },
       {
         path: "/ApplianceServiceInLayanComminity/",
-        element: <ApplianceServiceInLayanComminity/>,
+        element: <ApplianceServiceInLayanComminity />,
       },
       {
         path: "/appliances-services-in-layan-community/",
-        element: <ApplianceServiceInLayanComminity/>,
+        element: <ApplianceServiceInLayanComminity />,
       },
       {
         path: "/appliances-services-in-jvc/",
-        element: <ApplianceServiceInJvc/>,
+        element: <ApplianceServiceInJvc />,
       },
       {
         path: "/appliances-services-in-deira/",
@@ -1817,7 +1826,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/appliances-washing-machine-fridge-dishwasher-service-jbr-dubai/",
-        element: <ApplianceServiceInJbrDubai/>,
+        element: <ApplianceServiceInJbrDubai />,
       },
       {
         path: "/appliances-services-in-mudon/",

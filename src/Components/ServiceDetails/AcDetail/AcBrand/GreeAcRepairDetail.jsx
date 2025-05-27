@@ -101,8 +101,8 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Best Gree AC Repair in Dubai – Air Conditioner Maintenance</h1>
-            <p>Our company, <a href="https://www.fajservices.ae/"> F A J Technical Services L.L.C</a>, has been established since 2010. We have a dedicated facilities team with extensive experience in AC repair, maintenance services, and installation in Dubai and Sharjah for various residential and commercial air conditioning units. </p>
-            <p>
+            <p>Our company, <a href="https://www.fajservices.ae/"> F A J Technical Services L.L.C</a>, has been established since 2010. We have a dedicated facilities team with extensive experience in AC repair, maintenance services, and installation in Dubai and Sharjah for various residential and commercial air conditioning units. 
+            <br />
               A Gree air conditioner is more than just a cooling device; it's essential for maintaining a comfortable indoor environment throughout the year. To ensure your unit operates at its best, regular servicing is crucial. We offer professional Gree air conditioner servicing in Dubai to keep your system running smoothly and efficiently.
             </p>
 
@@ -159,7 +159,7 @@ const GreeAcRepair = ({ subtitle, title, bgImg }) => {
 
             <h3 className="cs_fs_30">Why is Gree AC Maintenance Service Important in Dubai?</h3>
             <p className="mb-0">
-              Regular maintenance of Gree air conditioners (AC) in Dubai is essential for optimal performance. FAJ provides comprehensive services to ensure your system operates efficiently. With our proactive approach, you can be confident that your Gree AC is functioning at its best. If you need Gree <a href="/ac-maintenance-dubai/"> AC maintenance near you</a> , please contact us.
+              Regular maintenance of Gree air conditioners (AC) in Dubai is essential for optimal performance. FAJ provides comprehensive services to ensure your system operates efficiently. With our proactive approach, you can be confident that your Gree AC is functioning at its best. If you need Gree <a href="/ac-maintenance-dubai/"> AC maintenance near you</a>, please contact us.
             </p>
 
             <div className="row align-items-center">
