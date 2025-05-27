@@ -20,6 +20,13 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
 
 const AcRepairInAlSatwaDetail = ({ subtitle, title, bgImg }) => {
+
+    const titleSeo = "Appliances Services in Al Satwa - Washing Machine Repair";
+    const description = "Appliance services in Al Satwa, Dubai. Experts in refrigerator repair near me. Contact 043300002 to fix washing machine, oven & dishwasher";
+    const Author = "Faj Technical Services";
+    const Keyword = "";
+    const URL = "https://www.fajservices.ae/appliances-services-in-al-satwa";
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "img/testimonialbg.jpg"
@@ -79,8 +86,19 @@ const AcRepairInAlSatwaDetail = ({ subtitle, title, bgImg }) => {
     return (
         <>
             <HelmetProvider>
-                <title>Best AC Service Al Satwa - Air Conditioning Repair Near Me</title>
-                <meta name="description" content="Call an 043300002 AC Services in Al Satwa Dubai. FAJ here help in split & central AC (Air Conditioner) cleaning service near me Dubai Fixing aircon"></meta>
+                 <title>{titleSeo}</title>
+                       <meta name="description" content={description}></meta>
+                       <meta name="keywords" content={Keyword} />
+                       <meta name="author" content={Author} />
+                       <meta name="robots" content="index, follow" />
+               
+                       <Link rel="canonical" href={titleSeo} />
+                       <meta property="og:type" content="website" />
+                       <meta property="og:locale" content="en_US" />
+                       <meta property="og:title" content={titleSeo} />
+                       <meta property="og:description" content={description} />
+                       <meta property="og:type" content="website" />
+                       <meta property="og:url" content={URL} />
             </HelmetProvider>
             <HeaderForm />
             <div className="cs_service_details">

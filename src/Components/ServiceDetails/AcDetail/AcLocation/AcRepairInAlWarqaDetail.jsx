@@ -18,6 +18,14 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
 const AcRepairInAlWarqaDetail = ({ subtitle, title, bgImg }) => {
+
+     // For SEO
+    const titleSeo = "AC Services In Al Warqa - Air Conditioning Maintenance #1";
+    const description = "Have you a cooling problem? Call us on 043300002 for AC Services in Al Warqa. With Experts in Central Unit Air Conditioning Maintenance, Repair..";
+    const Keyword = "";
+    const URL = "https://www.fajservices.ae/ac-services-in-al-warqa";
+
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "img/testimonialbg.jpg"
@@ -77,8 +85,19 @@ const AcRepairInAlWarqaDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
     <HelmetProvider>
-        <title>AC Services In Al Warqa - Air Conditioning Maintenance #1</title>
-        <meta name="description" content="Have you a cooling problem? Call us on 043300002 for AC Services in Al Warqa. With Experts in Central Unit Air Conditioning Maintenance, Repair.."></meta>
+       <title>{titleSeo}</title>
+                       <meta name="description" content={description}></meta>
+                       <meta name="keywords" content={Keyword} />
+                       <meta name="author" content={Author} />
+                       <meta name="robots" content="index, follow" />
+               
+                       <Link rel="canonical" href={titleSeo} />
+                       <meta property="og:type" content="website" />
+                       <meta property="og:locale" content="en_US" />
+                       <meta property="og:title" content={titleSeo} />
+                       <meta property="og:description" content={description} />
+                       <meta property="og:type" content="website" />
+                       <meta property="og:url" content={URL} />
     </HelmetProvider>
     <HeaderForm />
     <div className="cs_service_details">

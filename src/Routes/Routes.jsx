@@ -1220,10 +1220,6 @@ export const router = createBrowserRouter([
         element: <AcRepairInAlMizhar />,
       },
       {
-        path: "/ac-repair-and-ac-service-in-al-mizhar/",
-        element: <AcRepairInAlMizhar />,
-      },
-      {
         path: "/ac-repair-and-ac-service-in-damac-hills/",
         element: <AcRepairInDamacHills />,
       },

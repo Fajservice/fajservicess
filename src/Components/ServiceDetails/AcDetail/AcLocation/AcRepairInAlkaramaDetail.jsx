@@ -1,11 +1,10 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInAlJafza.json';
 import { HelmetProvider } from "react-helmet-async";
 
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
-import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMaintenance";
 import QuickGuide from "../../../QuickGuide/QuickGuide";
@@ -23,11 +22,11 @@ const AcRepairInAlkaramaDetail = ({ subtitle, title, bgImg }) => {
 
 
     // For SEO
-    const titleSeo = "Appliances Services In Town Square - Washing Machine Repair";
-    const description = "Get appliance services in Town Square. FAJ Experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher, oven";
-    const Author = "Faj Technical Servcies";
+    const titleSeo = "AC Services In Al Karama - AC Maintenance - AC Repairs #1";
+    const description = "Installing, Maintaining and AC Services in Al Karama Dubai Call 043300002 for central & split Air Conditioner maintenance, repair near me Dubai";
+    const Author = "Faj Technical Services";
     const Keyword = "";
-    const URL = "https://www.fajservices.ae/appliances-services-in-town-square";
+    const URL = "https://www.fajservices.ae/ac-services-in-al-karama/";
 
 
     subtitle = "Testimonial"
@@ -90,8 +89,19 @@ const AcRepairInAlkaramaDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
     <HelmetProvider>
-        <title>AC Services In Al Karama - AC Maintenance - AC Repairs #1</title>
-        <meta name="description" content="Installing, Maintaining and AC Services in Al Karama Dubai Call 043300002 for central & split Air Conditioner maintenance, repair near me Dubai"></meta>
+          <title>{titleSeo}</title>
+                <meta name="description" content={description}></meta>
+                <meta name="keywords" content={Keyword} />
+                <meta name="author" content={Author} />
+                <meta name="robots" content="index, follow" />
+
+                <Link rel="canonical" href={titleSeo} />
+                <meta property="og:type" content="website" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="og:title" content={titleSeo} />
+                <meta property="og:description" content={description} />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content={URL} />
     </HelmetProvider>
     <HeaderForm />
     <div className="cs_service_details">

@@ -19,62 +19,71 @@ import WeSpecialise from "./WeSpecialise/WeSpecialise";
 import HeaderForm from "../../../Headeform/HeaderForm";
 
 const AcRepairInAlRaffaDetail = ({ subtitle, title, bgImg }) => {
-  subtitle = "Testimonial"
-  title = "What our clients say About Us"
-  bgImg = "img/testimonialbg.jpg"
-  const accordionContentRef = useRef(null);
-  const [openItemIndex, setOpenItemIndex] = useState(-1);
-  const [firstItemOpen, setFirstItemOpen] = useState(true);
 
-  const handleItemClick = index => {
-    if (index === openItemIndex) {
-      setOpenItemIndex(-1);
-    } else {
-      setOpenItemIndex(index);
-    }
-  };
-  useEffect(() => {
-    if (firstItemOpen) {
-      setOpenItemIndex(0);
-      setFirstItemOpen(false);
-    }
-  }, [firstItemOpen]);
+    // For SEO
+    const titleSeo = "Best AC Services in Al Raffa Near Me - AC Repair Dubai";
+    const description = "Book an 043300002. AC Services in Al Raffa Dubai. We are here help in central & split AC (Air Condition) maintenance & service near me Dubai";
+    const Author = "Faj Technical Servcies";
+    const Keyword = "";
+    const URL = "https://www.fajservices.ae/ac-services-in-al-raffa";
 
-  useEffect(() => {
-    loadBackgroudImages();
-  }, []);
 
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    arrows: false,
-    swipeToSlide: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 2,
+    subtitle = "Testimonial"
+    title = "What our clients say About Us"
+    bgImg = "img/testimonialbg.jpg"
+    const accordionContentRef = useRef(null);
+    const [openItemIndex, setOpenItemIndex] = useState(-1);
+    const [firstItemOpen, setFirstItemOpen] = useState(true);
+
+    const handleItemClick = index => {
+        if (index === openItemIndex) {
+            setOpenItemIndex(-1);
+        } else {
+            setOpenItemIndex(index);
         }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 2,
+    };
+    useEffect(() => {
+        if (firstItemOpen) {
+            setOpenItemIndex(0);
+            setFirstItemOpen(false);
         }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
-  };
+    }, [firstItemOpen]);
+
+    useEffect(() => {
+        loadBackgroudImages();
+    }, []);
+
+    const settings = {
+        dots: false,
+        infinite: true,
+        speed: 600,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        arrows: false,
+        swipeToSlide: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        pauseOnHover: true,
+        responsive: [
+            {
+                breakpoint: 1399,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 1199,
+                settings: {
+                    slidesToShow: 2,
+                }
+            }, {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    };
 
     const settingBrands = {
         dots: false,
@@ -106,274 +115,285 @@ const AcRepairInAlRaffaDetail = ({ subtitle, title, bgImg }) => {
             }
         ]
     };
-  return (
-    <>
-    <HelmetProvider>
-        <title>Best AC Services in Al Raffa Near Me - AC Repair Dubai </title>
-        <meta name="description" content="Book an 043300002. AC Services in Al Raffa Dubai. We are here help in central & split AC (Air Condition) maintenance & service near me Dubai"></meta>
-    </HelmetProvider>
-    <HeaderForm />
-    <div className="cs_service_details">
+    return (
+        <>
+            <HelmetProvider>
+                <title>{titleSeo}</title>
+                       <meta name="description" content={description}></meta>
+                       <meta name="keywords" content={Keyword} />
+                       <meta name="author" content={Author} />
+                       <meta name="robots" content="index, follow" />
+               
+                       <Link rel="canonical" href={titleSeo} />
+                       <meta property="og:type" content="website" />
+                       <meta property="og:locale" content="en_US" />
+                       <meta property="og:title" content={titleSeo} />
+                       <meta property="og:description" content={description} />
+                       <meta property="og:type" content="website" />
+                       <meta property="og:url" content={URL} />
+            </HelmetProvider>
+            <HeaderForm />
+            <div className="cs_service_details">
 
-        <section className="section cs_py_30">
-            <div className="container">
-                <h1 className="cs_fs_30">AC Service in Al Raffa</h1>
-                {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
-            <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
-            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
+                <section className="section cs_py_30">
+                    <div className="container">
+                        <h1 className="cs_fs_30">AC Service in Al Raffa</h1>
+                        {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
+                        <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
+                            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 
-                <div id="get-quote" className=" mt-3">
-                    <div className="container d-flex justify-content-center align-items-center gap-3">
-                        <WhatsappIconButton />
+                        <div id="get-quote" className=" mt-3">
+                            <div className="container d-flex justify-content-center align-items-center gap-3">
+                                <WhatsappIconButton />
+                            </div>
+                        </div>
+                        {/*  */}
                     </div>
-                </div>
-                {/*  */}
-            </div>
-        </section>
+                </section>
 
                 {/* Experts AC Service and Maintenance */}
                 <section className="section cs_py_30 bg-light-gray mb-4">
-            <div className="container">
-                <div className="row gx-md-5">
-                    <div className="col-md-6">
-                        <h3 className="cs_fs_24 mb-1">Best AC Repair in Al Raffa</h3>
-                        <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> in Al Raffa, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
-                        <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
-                        <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
-                        <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                    <div className="container">
+                        <div className="row gx-md-5">
+                            <div className="col-md-6">
+                                <h3 className="cs_fs_24 mb-1">Best AC Repair in Al Raffa</h3>
+                                <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> in Al Raffa, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
+                                <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
+                                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
+                                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
+                                <div className="row">
+                                    <div className="col-sm-6">
+                                        <ul className="mb-0">
+                                            <li>Higher electricity bills </li>
+                                            <li>Air is not blowing cold</li>
+                                            <li>Drips from your air conditioner</li>
+                                        </ul>
+                                    </div>
+                                    <div className="col-sm-6">
+                                        <ul className="mb-0">
+                                            <li>Loss of AC performance</li>
+                                            <li>Poor AC airflow, making noises</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-md-6 ">
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Post Image" />
+
+                            </div>
+                        </div>
+
+                        <div className="appointment-col border-small-top pt-3">
+                            <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/ac-service-in-dubai/"><b>AC cleaning service</b></Link>, repair, or maintenance. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+                            <div id="get-quote" className=" mt-3">
+                                <div className="container d-flex justify-content-center align-items-center gap-3">
+                                    <WhatsappIconButton />
+                                    <CallNowButton />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                {/* Why is AC Maintenance Service Important in Dubai? */}
+                <section className="section cs_py_30 bg-light-gray">
+                    <div className="container">
+                        <h3 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h3>
+                        <p>
+                            Regular air conditioner (AC) maintenance service in Dubai is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you, contact us.
+                        </p>
+
+                        <div className="row align-items-center">
+                            <div className="col-md-6">
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Post Image" />
+                            </div>
+                            <div className="col-md-6">
+                                <ul className="mb-0">
+                                    <li> <strong> Extreme Weather: </strong> Experiences high temperatures over 40°C (104°F) in summer. Regular maintenance keeps air conditioner systems efficient during these conditions.</li>
+
+                                    <li> <strong> Energy Efficiency: </strong> A well-maintained AC unit operates more efficiently, using less energy and lowering both electricity bills.</li>
+
+                                    <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend your air condition unit’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
+                                    <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
+                                    <li> <strong> Enhanced Comfort: </strong> Regular <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a> in Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
+
+
+
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                {/* Common AC Problems That May Require Maintenance */}
+                <section className="section cs_py_30">
+                    <div className="container">
+                        <h3 className="text-center">Common AC Problems That May Require Maintenance</h3>
+                        <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
+
+                            <div className="col-12 col-md-4 col-lg-3">
+                                <div className=" box-content-container rounded border shadow">
+                                    <div className="text-center">
+                                        <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Weak Airflow</h3>
+                                    </div>
+                                    <div className="inner-apcs-feat-desc">
+                                        <p className="p-2 mb-0">If you notice <a href="https://www.youtube.com/watch?v=qnByeIsc3lY"><b>reduced airflow</b></a> coming from your vents, it could indicate a problem with your AC system, such as a clogged filter or malfunctioning fan.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-12 col-md-4 col-lg-3">
+                                <div className=" box-content-container rounded border shadow">
+                                    <div className="text-center">
+                                        <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Warm Air</h3>
+                                    </div>
+                                    <div className="inner-apcs-feat-desc">
+                                        <p className="p-2 mb-0">If your AC blows warm or room temperature air instead of cold, it could indicate compressor, refrigerant, or ductwork issues.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-12 col-md-4 col-lg-3">
+                                <div className=" box-content-container rounded border shadow">
+                                    <div className="text-center">
+                                        <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Strange Noises</h3>
+                                    </div>
+                                    <div className="inner-apcs-feat-desc">
+                                        <p className="p-2 mb-0">Unusual sounds like grinding, squealing, or banging coming from your AC unit can indicate mechanical problems that require attention.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-12 col-md-4 col-lg-3">
+                                <div className=" box-content-container rounded border shadow">
+                                    <div className="text-center">
+                                        <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Foul Odors</h3>
+                                    </div>
+                                    <div className="inner-apcs-feat-desc">
+                                        <p className="p-2 mb-0">Musty or foul odors emanating from the vents could suggest mold or mildew growth within the system, which needs to be addressed quickly.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-12 col-md-4 col-lg-3">
+                                <div className=" box-content-container rounded border shadow">
+                                    <div className="text-center">
+                                        <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Frequent Cycling</h3>
+                                    </div>
+                                    <div className="inner-apcs-feat-desc">
+                                        <p className="p-2 mb-0">It may signal difficulty maintaining desired temperatures due to issues like dirty filters, low refrigerant levels, or a faulty thermostat.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-12 col-md-4 col-lg-3">
+                                <div className=" box-content-container rounded border shadow">
+                                    <div className="text-center">
+                                        <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">High Humidity Levels</h3>
+                                    </div>
+                                    <div className="inner-apcs-feat-desc">
+                                        <p className="p-2 mb-0">An air conditioner that fails to adequately reduce indoor humidity levels may indicate issues with its cooling capacity or improper operation.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-12 col-md-4 col-lg-3">
+                                <div className=" box-content-container rounded border shadow">
+                                    <div className="text-center">
+                                        <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Leaking Water</h3>
+                                    </div>
+                                    <div className="inner-apcs-feat-desc">
+                                        <p className="p-2 mb-0">Water pooling around AC or dripping from vents could indicate blocked condensate drain, frozen coils, or other issues.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-12 col-md-4 col-lg-3">
+                                <div className="box-content-container rounded border shadow">
+                                    <div className="text-center">
+                                        <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Increased Energy Bills</h3>
+                                    </div>
+                                    <div className="inner-apcs-feat-desc">
+                                        <p className="p-2 mb-0">High energy bills without increase in usage could indicate the inefficiency of your AC due to dirty filters, duct leaks, or other problems.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="get-quote" className="mb-0 mt-3">
+                            <div className="container d-flex justify-content-center align-items-center gap-3">
+                                <WhatsappIconButton />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                {/* A Quick Guide to Understanding and Fixing Your AC Problems */}
+                <QuickGuide />
+
+                {/* The Benefits Of Regular AC Service*/}
+                <BenefitAcMaintenance />
+                {/* Why choose us AC */}
+                <ACWhyChooseUs />
+
+
+                {/* We specialise in air conditioning services for the following brands */}
+                <WeSpecialise />
+
+                <section className="section cs_py_30 bg-dark-blue text-light">
+                    <div className="container text-center">
+                        <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
+                        <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
+                        <a
+                            href="files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
+                            className="btn-green-yellow"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Click Here to Save on Energy Bills
+                        </a>
+
+                    </div>
+                </section>
+
+                <section className="section cs_py_30">
+                    <div className="container text-center">
                         <div className="row">
-                            <div className="col-sm-6">
-                                <ul className="mb-0">
-                                    <li>Higher electricity bills </li>
-                                    <li>Air is not blowing cold</li>
-                                    <li>Drips from your air conditioner</li>
-                                </ul>
+                            <div className="col-lg-4">
+                                <div className="acsvs-sec-prefoot-sec-cone">
+                                    <h3 className="cs_fs_20 mb-0">COOLING &amp; HEATING</h3>
+                                    <span className="mb-5">Stay comfortable all year round</span>
+                                    <div className="mb-5"></div>
+                                    <h3 className="cs_fs_20 mb-0">BETTER AIR QUALITY</h3>
+                                    <span className="mb-5">Reduce humidity, pollen and dust</span>
+                                </div>
                             </div>
-                            <div className="col-sm-6">
-                                <ul className="mb-0">
-                                    <li>Loss of AC performance</li>
-                                    <li>Poor AC airflow, making noises</li>
-                                </ul>
+                            <div className="col-lg-4">
+                                <div className="acsvs-sec-prefoot-sec-ctwo">
+
+                                    <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Post Image" />
+                                </div>
                             </div>
-                        </div>
-                    </div>
-
-                    <div className="col-md-6 ">
-                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Post Image" />
-
-                    </div>
-                </div>
-
-                <div className="appointment-col border-small-top pt-3">
-                    <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/ac-service-in-dubai/"><b>AC cleaning service</b></Link>, repair, or maintenance. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
-                    <div id="get-quote" className=" mt-3">
-                        <div className="container d-flex justify-content-center align-items-center gap-3">
-                            <WhatsappIconButton />
-                            <CallNowButton />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-                 {/* Why is AC Maintenance Service Important in Dubai? */}
-         <section className="section cs_py_30 bg-light-gray">
-          <div className="container">
-            <h3 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h3>
-                <p>
-                    Regular air conditioner (AC) maintenance service in Dubai is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you, contact us.
-                </p>
-
-                <div className="row align-items-center">
-                    <div className="col-md-6">
-                        <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Post Image" />
-                    </div>
-                    <div className="col-md-6">
-                        <ul className="mb-0">
-                            <li> <strong> Extreme Weather: </strong> Experiences high temperatures over 40°C (104°F) in summer. Regular maintenance keeps air conditioner systems efficient during these conditions.</li>
-
-                            <li> <strong> Energy Efficiency: </strong> A well-maintained AC unit operates more efficiently, using less energy and lowering both electricity bills.</li>
-
-                            <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend your air condition unit’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
-                            <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
-                            <li> <strong> Enhanced Comfort: </strong> Regular <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a> in Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
-
-
-
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        {/* Common AC Problems That May Require Maintenance */}
-        <section className="section cs_py_30">
-            <div className="container">
-                <h3 className="text-center">Common AC Problems That May Require Maintenance</h3>
-                <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
-
-                    <div className="col-12 col-md-4 col-lg-3">
-                        <div className=" box-content-container rounded border shadow">
-                            <div className="text-center">
-                                <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Weak Airflow</h3>
-                            </div>
-                            <div className="inner-apcs-feat-desc">
-                                <p className="p-2 mb-0">If you notice <a href="https://www.youtube.com/watch?v=qnByeIsc3lY"><b>reduced airflow</b></a> coming from your vents, it could indicate a problem with your AC system, such as a clogged filter or malfunctioning fan.</p>
+                            <div className="col-lg-4">
+                                <div className="acsvs-sec-prefoot-sec-cthree">
+                                    <h3 className="cs_fs_20 mb-0">PROTECT YOUR PROPERTY</h3>
+                                    <span className="mb-5">Prevent damage to electronics and furnishings</span>
+                                    <div className="mb-5"></div>
+                                    <h3 className="cs_fs_20 mb-0">QUIET AND SECURE</h3>
+                                    <span className="mb-5">No need to leave windows open</span>
+                                </div>
                             </div>
                         </div>
+
                     </div>
-
-                    <div className="col-12 col-md-4 col-lg-3">
-                        <div className=" box-content-container rounded border shadow">
-                            <div className="text-center">
-                                <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Warm Air</h3>
-                            </div>
-                            <div className="inner-apcs-feat-desc">
-                                <p className="p-2 mb-0">If your AC blows warm or room temperature air instead of cold, it could indicate compressor, refrigerant, or ductwork issues.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-12 col-md-4 col-lg-3">
-                        <div className=" box-content-container rounded border shadow">
-                            <div className="text-center">
-                                <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Strange Noises</h3>
-                            </div>
-                            <div className="inner-apcs-feat-desc">
-                                <p className="p-2 mb-0">Unusual sounds like grinding, squealing, or banging coming from your AC unit can indicate mechanical problems that require attention.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-12 col-md-4 col-lg-3">
-                        <div className=" box-content-container rounded border shadow">
-                            <div className="text-center">
-                                <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Foul Odors</h3>
-                            </div>
-                            <div className="inner-apcs-feat-desc">
-                                <p className="p-2 mb-0">Musty or foul odors emanating from the vents could suggest mold or mildew growth within the system, which needs to be addressed quickly.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-12 col-md-4 col-lg-3">
-                        <div className=" box-content-container rounded border shadow">
-                            <div className="text-center">
-                                <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Frequent Cycling</h3>
-                            </div>
-                            <div className="inner-apcs-feat-desc">
-                                <p className="p-2 mb-0">It may signal difficulty maintaining desired temperatures due to issues like dirty filters, low refrigerant levels, or a faulty thermostat.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-12 col-md-4 col-lg-3">
-                        <div className=" box-content-container rounded border shadow">
-                            <div className="text-center">
-                                <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">High Humidity Levels</h3>
-                            </div>
-                            <div className="inner-apcs-feat-desc">
-                                <p className="p-2 mb-0">An air conditioner that fails to adequately reduce indoor humidity levels may indicate issues with its cooling capacity or improper operation.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-12 col-md-4 col-lg-3">
-                        <div className=" box-content-container rounded border shadow">
-                            <div className="text-center">
-                                <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Leaking Water</h3>
-                            </div>
-                            <div className="inner-apcs-feat-desc">
-                                <p className="p-2 mb-0">Water pooling around AC or dripping from vents could indicate blocked condensate drain, frozen coils, or other issues.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-12 col-md-4 col-lg-3">
-                        <div className="box-content-container rounded border shadow">
-                            <div className="text-center">
-                                <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Increased Energy Bills</h3>
-                            </div>
-                            <div className="inner-apcs-feat-desc">
-                                <p className="p-2 mb-0">High energy bills without increase in usage could indicate the inefficiency of your AC due to dirty filters, duct leaks, or other problems.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="get-quote" className="mb-0 mt-3">
-                    <div className="container d-flex justify-content-center align-items-center gap-3">
-                        <WhatsappIconButton />
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        {/* A Quick Guide to Understanding and Fixing Your AC Problems */}
-        <QuickGuide />
-
-        {/* The Benefits Of Regular AC Service*/}
-        <BenefitAcMaintenance />
-        {/* Why choose us AC */}
-        <ACWhyChooseUs />
+                </section>
 
 
-        {/* We specialise in air conditioning services for the following brands */}
-        <WeSpecialise />
-
-        <section className="section cs_py_30 bg-dark-blue text-light">
-            <div className="container text-center">
-                <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
-                <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
-                <a
-                    href="files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
-                    className="btn-green-yellow"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Click Here to Save on Energy Bills
-                </a>
-
-            </div>
-        </section>
-
-        <section className="section cs_py_30">
-            <div className="container text-center">
-                <div className="row">
-                    <div className="col-lg-4">
-                        <div className="acsvs-sec-prefoot-sec-cone">
-                            <h3 className="cs_fs_20 mb-0">COOLING &amp; HEATING</h3>
-                            <span className="mb-5">Stay comfortable all year round</span>
-                            <div className="mb-5"></div>
-                            <h3 className="cs_fs_20 mb-0">BETTER AIR QUALITY</h3>
-                            <span className="mb-5">Reduce humidity, pollen and dust</span>
-                        </div>
-                    </div>
-                    <div className="col-lg-4">
-                        <div className="acsvs-sec-prefoot-sec-ctwo">
-
-                            <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Post Image" />
-                        </div>
-                    </div>
-                    <div className="col-lg-4">
-                        <div className="acsvs-sec-prefoot-sec-cthree">
-                            <h3 className="cs_fs_20 mb-0">PROTECT YOUR PROPERTY</h3>
-                            <span className="mb-5">Prevent damage to electronics and furnishings</span>
-                            <div className="mb-5"></div>
-                            <h3 className="cs_fs_20 mb-0">QUIET AND SECURE</h3>
-                            <span className="mb-5">No need to leave windows open</span>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        
-        {/* Maintenance Contract */}
-        <MaintenanceContract />
-{/* testimobial section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed   position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
+                {/* Maintenance Contract */}
+                <MaintenanceContract />
+                {/* testimobial section */}
+                <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed   position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
 
                     <div className="container">
                         <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
@@ -426,46 +446,46 @@ const AcRepairInAlRaffaDetail = ({ subtitle, title, bgImg }) => {
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                 </section>
 
-        {/* FAQ's */}
-        <section className="section cs_py_30  bg-dark-blue text-light">
-            <div className="container">
-                <h3 className="cs_fs_30 text-light">FAQ's</h3>
+                {/* FAQ's */}
+                <section className="section cs_py_30  bg-dark-blue text-light">
+                    <div className="container">
+                        <h3 className="cs_fs_30 text-light">FAQ's</h3>
 
-                <div className="cs_accordians_wrapper cs_style_1 p-0">
+                        <div className="cs_accordians_wrapper cs_style_1 p-0">
 
-                    {data.map((item, index) => (
-                        <div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`} >
-                            <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
-                                <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
-                                <span className="cs_accordian_toggle">
-                                    <i className="bi bi-eye text-light"></i>
-                                    <i className="bi bi-eye-slash text-light"></i>
-                                </span>
-                            </div>
-                            <div className="cs_accordian_body" ref={accordionContentRef}>
-                                {/* <p className="mb-0">{item.desc.replace(/\n/g, '<br>')}</p> */}
-                                <p className="mb-0"
-                                    dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
-                                ></p>
-                            </div>
+                            {data.map((item, index) => (
+                                <div key={index} className={`cs_accordian cs_style_1 cs_type_1 ${index === openItemIndex ? "active" : ""}`} >
+                                    <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
+                                        <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
+                                        <span className="cs_accordian_toggle">
+                                            <i className="bi bi-eye text-light"></i>
+                                            <i className="bi bi-eye-slash text-light"></i>
+                                        </span>
+                                    </div>
+                                    <div className="cs_accordian_body" ref={accordionContentRef}>
+                                        {/* <p className="mb-0">{item.desc.replace(/\n/g, '<br>')}</p> */}
+                                        <p className="mb-0"
+                                            dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
+                                        ></p>
+                                    </div>
+                                </div>
+                            ))}
+
                         </div>
-                    ))}
+                    </div>
+                </section>
 
-                </div>
+                <section className="section cs_py_30">
+                    <Serviceappointemnt
+                        subtitle2="Contact us"
+                        title2="Book An Appointment"
+                    ></Serviceappointemnt>
+
+                </section>
+
             </div>
-        </section>
-
-        <section className="section cs_py_30">
-            <Serviceappointemnt
-                subtitle2="Contact us"
-                title2="Book An Appointment"
-            ></Serviceappointemnt>
-
-        </section>
-
-    </div>
-</>
-  )
+        </>
+    )
 }
 
 export default AcRepairInAlRaffaDetail

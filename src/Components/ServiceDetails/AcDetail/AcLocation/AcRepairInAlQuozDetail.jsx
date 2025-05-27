@@ -5,7 +5,6 @@ import { HelmetProvider } from "react-helmet-async";
 
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
-import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMaintenance";
 import QuickGuide from "../../../QuickGuide/QuickGuide";
@@ -20,9 +19,18 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
 
 const AcRepairInAlQuozDetail = ({ subtitle, title, bgImg }) => {
+
+  const titleSeo = "AC Services Near Me #1 - AC Repair Al Quoz";
+  const description = "Are You Finding AC Services in Al Quoz? Call an 043300002 for Central, HVAC Maintenance, Split Air Conditioner Repair & Aircon Servicing Nearby.";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://www.fajservices.ae/ac-services-in-al-quoz";
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"
+
+  
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -79,8 +87,19 @@ const AcRepairInAlQuozDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>AC Services Near Me #1 - AC Repair Al Quoz</title>
-        <meta name="description" content="Are You Finding AC Services in Al Quoz? Call an 043300002 for Central, HVAC Maintenance, Split Air Conditioner Repair & Aircon Servicing Nearby."></meta>
+         <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+
+        <Link rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
       </HelmetProvider>
       <HeaderForm />
       <div className="cs_service_details">

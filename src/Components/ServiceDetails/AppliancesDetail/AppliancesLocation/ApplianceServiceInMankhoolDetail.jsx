@@ -157,7 +157,7 @@ const ApplianceServiceInMankhoolDetail = ({ subtitle, title, bgImg }) => {
 
 
 
-                {/* Best Home Appliance Service Center */}
+                 {/* Best Home Appliance Service Center */}
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
                         <div className="row gx-md-5">
@@ -165,14 +165,14 @@ const ApplianceServiceInMankhoolDetail = ({ subtitle, title, bgImg }) => {
                                 <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai</h3>
 
                                 <p className="mb-2">
-                                    If you need appliance repair, FAJ is your best choice for fast and affordable service in Jumeirah Village Triangle Dubai and Sharjah.
+                                    If you need appliance repair, FAJ is your best choice for fast and affordable service in Cedre Villas Silicon Oasis Dubai and Sharjah.
                                     <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
                                     <br /> We're nearby and can get your appliances fixed quickly and efficiently.
                                 </p>
 
                                 <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service
                                 </h3>
-                                <p className="mb-2">At <a href="/">FAJ Technical Services LLC</a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
+                                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services LLC</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
                             </div>
 
                             <div className="col-md-6 ">
