@@ -26,6 +26,8 @@ const AcRepairInDubailandMazayaQueueDetail = ({ subtitle, title, bgImg }) => {
     const Author = "Faj Technical Servcies";
     const Keyword = "";
     const URL = "https://www.fajservices.com/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/";
+
+    
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "img/testimonialbg.jpg"
