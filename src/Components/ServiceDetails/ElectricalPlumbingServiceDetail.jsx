@@ -1,6 +1,9 @@
+
+
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../Data/CommercialDishwasherServiceFaqs.json';
+import data from '../../Data/ElectricalPlumbingServiceFAQs.json';
+
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import CallNowButton from '../Buttons/CallNowButton';
@@ -9,21 +12,22 @@ import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
-import testimonial_data from '../../Data/CommercialCoffeeMAchineReapairTestimonials.json';
-import brandsLogo_data from '../../Data/coffeemachineServicebrand.json';
+import testimonial_data from '../../Data/ElectricalPlumbingServicesTestimonials.json';
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../ApplianceCommons/AppliancesAppointmentCol";
 
-const CommercialDishwasherServicesDetail = ({ subtitle, title, bgImg }) => {
+// import { Link } from "react-router-dom";
+
+const ElectricalPlumbingServiceDetail = ({ subtitle, title, bgImg }) => {
 
   // For SEO
-  const titleSeo = "Commercial Dishwasher Repair and Maintenance Service Dubai";
-  const description = "Get fast commercial dishwasher repair in Dubai. We service Fagor, Electrolux, Meiko, Elettrobar, Hobart & more. AMC & maintenance available";
+  const titleSeo = "title";
+  const description = "Faj Technical Servcies";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://www.fajservices.com/commercial-dishwasher-repair/";
+  const URL = "https://www.fajservices.com/";
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -92,6 +96,7 @@ const CommercialDishwasherServicesDetail = ({ subtitle, title, bgImg }) => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
+    // cssEase: 'linear',
 
     responsive: [
       {
@@ -117,6 +122,7 @@ const CommercialDishwasherServicesDetail = ({ subtitle, title, bgImg }) => {
 
   return (
     <>
+
       <HelmetProvider>
         <title>{titleSeo}</title>
         <meta name="description" content={description}></meta>
@@ -138,10 +144,9 @@ const CommercialDishwasherServicesDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
-            <h1 className="cs_fs_30">Commercial Dishwasher Repair</h1>
+            <h1 className="cs_fs_30">Electrical Plumbing Service Dubai</h1>
             <p>
-              Since 2010, FAJ has been a trusted name in dishwasher repair and service in Dubai and Sharjah. Our skilled professionals are ready to assist with any brand, using high-quality tools for effective service.
-              <br /> We prioritise repairs over replacements, helping you save money and avoid the hassle of buying a new dishwasher. Rely on our experienced experts for fast and reliable dishwasher maintenance in Dubai!
+              Plumbing is any system that carries liquids for a wide range of functions. The most general uses of plumbing are heating and cooling, waste removal, and potable water delivery; nevertheless, plumbing is not limited to these applications. Plumbing operates pipes, faucets, valves, fixtures and fittings, showers, taps, tanks, and other systems to convey water.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -160,25 +165,29 @@ const CommercialDishwasherServicesDetail = ({ subtitle, title, bgImg }) => {
             <div className="row gx-md-5">
               <div className="col-md-6">
                 {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/reem-ac-service.avif`} alt="Post Image" /> */}
-                <h3 className="cs_fs_24 mb-1">Dishwasher Repair and Service Near You</h3>
+                <h3 className="cs_fs_24 mb-1">Dubai Electrical Plumbing Services</h3>
 
                 <p className="mb-2">
-                  Has your dishwasher stopped working completely? Or is it running, but your dishes and cutlery aren't coming out as clean as they should?
-                  At FAJ, we understand that a machine breakdown is always inconvenient. That's why our team of experts is here to provide dishwasher repair and service appointments near you in Dubai and Sharjah.
+                  Plumbing issues can occur in our home at any time. The plumbing system in your home requires frequent Plumbing Maintenance and conservation. Effective Electrical Plumbing Services and maintenance can save you a lot of money in the long term.
+
+                  <br /> If you have any plumbing problems in your home or business place, it is important to contact a professional plumber straight away even if the issue seems small. A minor leak in a pipe could be a sign of an emergency and it will escalate later if not rectified immediately.
+                  <br />
+                  F A J have an experienced team of professional plumbers who are ready to give rapid support. Our best electrical plumbing services in Dubai include fitting, repairing and maintaining pipes, water pump repair & maintenance, fixing leaked faucets, taps, showers, sink plugs and drain plugs.
 
                 </p>
 
 
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Dishwasher Technical Inspection Fee </h3>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Electrical Services in Dubai</h3>
                 <p className="mb-0">
-                  We have a standard technical inspection fee starting from AED 157 to 320 (depending on the appliance) that covers diagnosis, transportation, and reinstallation of the same appliance.
-                  <br />Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any repair/parts. Also, get repairs from us for your coffee machine, stand mixer, or robot vacuum.
+                  Electrical rewiring can be dangerous, which is why it’s important that rewires are only ever carried out by specialists. <br />
+
+                  Our electrical maintenance company provides the best electrical services in Dubai, UAE and our electrician teams are some of the most experienced in the UAE and routinely perform preventative and reactive maintenance to systems in thousands of homes each week. We understand common problems that can affect your Electrical systems such as:
 
                 </p>
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Post Image" /> */}
+               
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/dishwasher.avif`} alt="Post Image" />
 
               </div>
@@ -191,7 +200,7 @@ const CommercialDishwasherServicesDetail = ({ subtitle, title, bgImg }) => {
 
 
         {/* Why  */}
-        <section className="section cs_py_30">
+        {/* <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">Why is Dishwasher Maintenance Service Important in Dubai?</h3>
             <p>
@@ -215,10 +224,10 @@ const CommercialDishwasherServicesDetail = ({ subtitle, title, bgImg }) => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Common Problems */}
-        <section className="section cs_py_30 bg-light-gray">
+        {/* <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="text-center">The Most Common Problems with Dishwashers  </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -352,10 +361,10 @@ const CommercialDishwasherServicesDetail = ({ subtitle, title, bgImg }) => {
             </div>
 
           </div>
-        </section>
+        </section> */}
 
         {/*HERE ARE THE SERVICES */}
-        <section className="section cs_py_30">
+        {/* <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR THE DISHWASHER </h3>
 
@@ -401,10 +410,10 @@ const CommercialDishwasherServicesDetail = ({ subtitle, title, bgImg }) => {
 
             </div>
           </div>
-        </section >
+        </section > */}
 
         {/* The Benefits Of appliances Service Dubai */}
-        <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
+        {/* <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
               <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai
@@ -487,7 +496,7 @@ const CommercialDishwasherServicesDetail = ({ subtitle, title, bgImg }) => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
 
 
@@ -833,33 +842,7 @@ const CommercialDishwasherServicesDetail = ({ subtitle, title, bgImg }) => {
 
 
 
-        {/* Brands section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
-          <div className="container">
 
-            <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
-              data-variable-width="0" data-xs-slides="1" data-sm-slides="1" data-md-slides="1" data-lg-slides="2"
-              data-add-slides="2" data-slides-per-view="responsive">
-              <div className="cs_slider_wrapper">
-                <Slider {...settingBrands}>
-                  {brandsLogo_data.map((item, index) => (
-                    <div key={index} className="cs_slide wow fadeInLeft">
-
-                      <div className="brandslogo-slide-container">
-                        <div className="brnadlogo">
-                          <img className="w-100" src={`${import.meta.env.BASE_URL}${item.logo}`} alt="Avatar" />
-                        </div>
-                      </div>
-
-                    </div>
-                  ))}
-                </Slider>
-
-              </div>
-            </div>
-          </div>
-          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
-        </section>
         {/* Maintenance Contract */}
         <MaintenanceContract />
 
@@ -956,7 +939,9 @@ const CommercialDishwasherServicesDetail = ({ subtitle, title, bgImg }) => {
 
       </div >
     </>
+
   );
 };
 
-export default CommercialDishwasherServicesDetail;
+export default ElectricalPlumbingServiceDetail;
+

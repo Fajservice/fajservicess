@@ -1,30 +1,37 @@
+
+
 import { useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
-import data from '../../../../Data/AcData/AcFaqs/AcBrand/FrididaireAcRepairfaq.json';
+import { Link, parsePath } from "react-router-dom";
+import data from '../../../Data/DubaiData/FAQs/RefrigeratorRepairNearMeFaqs.json';
+
 import { HelmetProvider } from "react-helmet-async";
+import Serviceappointemnt from '../../Contact/Serviceappointemnt';
+import CallNowButton from '../../Buttons/CallNowButton';
+import GetQuoteButton from "../../Buttons/GetQuoteButton";
+import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
+import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 
-import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
-import CallNowButton from '../../../Buttons/CallNowButton';
-import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
-import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMaintenance";
-import QuickGuide from "../../../QuickGuide/QuickGuide";
-import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
-import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
-import testimonial_data_Frigidaire from '../../../../Data/AcData/AcTestimonialFrigidaireAcServiceTestimonials.json';
-import parse from 'html-react-parser';
 import Slider from "react-slick";
-import HeaderForm from "../../../Headeform/HeaderForm";
+import testimonial_data from '../../../Data/DubaiData/Testmonials/RefrigeratorRepairNearMeTestimonial.json';
+import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
+import loadBackgroudImages from "../../Common/loadBackgroudImages";
+import parse from 'html-react-parser';
+import HeaderForm from "../../Headeform/HeaderForm";
+import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 
-const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
+// import { Link } from "react-router-dom";
+
+const RefrigeratorRepairNearMeDetail = ({ subtitle, title, bgImg }) => {
+
   // For SEO
-  const titleSeo = "";
-  const description = "";
+  const titleSeo = "title";
+  const description = "Faj Technical Servcies";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://www.fajservices.com";
+  const URL = "https://www.fajservices.com/";
 
   subtitle = "Testimonial"
-  title = "What our clients say <br> About Us"
+  title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
@@ -44,6 +51,10 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
     }
   }, [firstItemOpen]);
 
+  useEffect(() => {
+    loadBackgroudImages();
+  }, []);
+
   const settings = {
     dots: false,
     infinite: true,
@@ -55,6 +66,7 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
+
     responsive: [
       {
         breakpoint: 1399,
@@ -68,13 +80,47 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
           slidesToShow: 2,
         }
       }, {
-        breakpoint: 575,
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
         }
       }
     ]
   };
+
+  const settingBrands = {
+    dots: false,
+    infinite: true,
+    slidesToShow: 6,
+    arrows: false,
+
+    autoplay: true,
+    autoplaySpeed: 5000,
+    pauseOnHover: true,
+    // cssEase: 'linear',
+
+    responsive: [
+      {
+        breakpoint: 1399,
+        settings: {
+          slidesToShow: 6,
+        }
+      },
+      {
+        breakpoint: 1199,
+        settings: {
+          slidesToShow: 4,
+        }
+      }, {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        }
+      }
+    ]
+  };
+
+
   return (
     <>
       <HelmetProvider>
@@ -83,7 +129,6 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
         <meta name="keywords" content={Keyword} />
         <meta name="author" content={Author} />
         <meta name="robots" content="index, follow" />
-
         <Link rel="canonical" href={titleSeo} />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="en_US" />
@@ -96,12 +141,13 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
       <HeaderForm />
 
       <div className="cs_service_details">
+
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Frigidaire AC Repair Maintenance Service In Dubai</h1>
-            <p><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C.</b></a> is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
-              <br />
-              Our <a href="https://www.facebook.com/ACRepairUAE"><b>skilled AC technicians</b></a> can handle all types and models of Frigidaire air conditioning units, ensuring your home or business stays cool and comfortable.</p>
+            <h1 className="cs_fs_30">Refrigerator Repair Near ME</h1>
+            {/* <h2 className="cs_fs_30">Choose Commercial Washing Machine Service Center for Same-Day Repairs in Dubai</h2> */}
+            <p>
+              Since 2010, FAJ has been a trusted name in AC repair and service in Dubai and Sharjah. </p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -112,236 +158,99 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-
-        {/* Experts AC Service and Maintenance */}
-        <section className="section cs_py_30 bg-light-gray mb-4">
-          <div className="container">
-            <div className="row gx-md-5">
-              <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Best Frigidaire AC Repair in Dubai</h3>
-                <p className="mb-2">When it comes to Frigidaire <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Dubai, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
-                <p>We specialize in Frigidaire air conditioner (AC) repair, service, and maintenance in Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
-                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
-                <div className="row">
-                  <div className="col-sm-6">
-                    <ul className="mb-0">
-                      <li>Higher electricity bills </li>
-                      <li>Air is not blowing cold</li>
-                      <li>Drips from your air conditioner</li>
-                    </ul>
-                  </div>
-                  <div className="col-sm-6">
-                    <ul className="mb-0">
-                      <li>Loss of AC performance</li>
-                      <li>Poor AC airflow, making noises</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-md-6">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Frigidaire Ac Repair" />
-
-              </div>
-            </div>
-
-            <div className="appointment-col border-small-top pt-3">
-              <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/ac-service-in-dubai/"><b>AC cleaning service</b></Link> , repair, or maintenance. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
-              <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
-                  <WhatsappIconButton />
-                  <CallNowButton />
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-
-        {/* Why is AC Maintenance Service Important in Dubai? */}
-        <section className="section cs_py_30 bg-light-gray">
-          <div className="container">
-            <h3 className="cs_fs_30">Why is Frigidaire AC Maintenance Service Important in Dubai?</h3>
-            <div className="row align-items-center">
-              <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Frigidaire Ac Repair" />
-              </div>
-
-              <div className="col-md-6">
-                <ul className="mb-0">
-                  <li> <strong> Extreme Weather Conditions: </strong> Dubai experiences high temperatures, especially in the summer, where an Frigidaire split air conditioner is not just a luxury but a necessity. Regular ac maintenance ensures that your Frigidaire Split AC systems operate efficiently, providing reliable cooling when it's needed most.</li>
-                  <li> <strong> Energy Efficiency:  </strong> Well-maintained Frigidaire split AC run efficiently, lowering energy bills. Routine checks identify issues that may increase energy consumption.</li>
-                  <li> <strong> Extended Lifespan: </strong>Regular Frigidaire air conditioner maintenance extends the life of your Frigidaire wall mounted AC, helping to avoid costly Frigidaire aircon repair</li>
-                </ul>
-                <p>
-                  In summary, Frigidaire ductless AC repair and cleaning service is crucial for comfort and cost-effectiveness in Dubai's climate, ensuring smooth and efficient Frigidaire AC performance.
-                </p>
-              </div>
-
-
-            </div>
-          </div>
-        </section>
-        {/* Common Signs Your AC May Need Maintenanc */}
+        {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
-          <div className="container">
-            <h3 className="text-center">Common AC Problems That May Require Maintenance
-            </h3>
-            <div className="row gx-lg-3 gy-lg-4">
-              <div className="col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Weak Airflow</h3>
+          <div className="container container-md container-sm">
+            <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2>
+
+            <div className="usps align-items-center	">
+              {/* <!-- First Column --> */}
+              <div className="uspcol col-1">
+                <div className="uspitem">
+                  <div className="uspicon">
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
+
                   </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">If you notice <a href="https://www.youtube.com/watch?v=qnByeIsc3lY"><b>reduced airflow</b></a> coming from your vents, it could indicate a problem with your AC system, such as a clogged filter or malfunctioning fan.</p>
+                  <div className="usptext">
+                    <h3 className="">Reliable, Priority, and Quick</h3>
+                    <p>	You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
+                  </div>
+                </div>
+
+                <div className="uspitem">
+                  <div className="uspicon">
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
+                  </div>
+                  <div className="usptext">
+                    <h3 className="">Feeling Of Calm</h3>
+                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
+                  </div>
+                </div>
+
+
+                <div className="uspitem mb-0">
+                  <div className="uspicon">
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
+                  </div>
+                  <div className="usptext">
+                    <h3 className="">You Are in Control</h3>
+                    <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
+                  </div>
+                </div>
+
+              </div>
+
+              {/* <!-- Delimit Section --> */}
+              <div className="uspdelimit col-2 d-none d-xl-block">
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
+              </div>
+
+              {/* <!-- Second Column --> */}
+              <div className="uspcol col-3">
+                <div className="uspitem">
+                  <div className="uspicon">
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
+                  </div>
+                  <div className="usptext">
+                    <h3 className="">We Are Experts</h3>
+                    <p>We are experts in appliance repair this is why most major brands trust us to handle their service and maintenance needs.</p>
+                  </div>
+                </div>
+                <div className="uspitem">
+                  <div className="uspicon">
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
+
+                  </div>
+                  <div className="usptext">
+                    <h3 className="">Great Value</h3>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same location in Dubai.</p>
+                  </div>
+                </div>
+                <div className="uspitem mb-0">
+                  <div className="uspicon">
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
+                  </div>
+                  <div className="usptext">
+                    <h3 className="">Trustworthy</h3>
+                    <p>Our skilled appliance technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
                   </div>
                 </div>
               </div>
 
-              <div className="col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Warm Air</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">If your AC blows warm or room temperature air instead of cold, it could indicate compressor, refrigerant, or ductwork issues.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Strange Noises</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Unusual sounds like grinding, squealing, or banging coming from your AC unit can indicate mechanical problems that require attention.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Foul Odors</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Musty or foul odors emanating from the vents could suggest mold or mildew growth within the system, which needs to be addressed quickly.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Frequent Cycling</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">It may signal difficulty maintaining desired temperatures due to issues like dirty filters, low refrigerant levels, or a faulty thermostat.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">High Humidity Levels</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">An air conditioner that fails to adequately reduce indoor humidity levels may indicate issues with its cooling capacity or improper operation.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Leaking Water</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Water pooling around AC or dripping from vents could indicate blocked condensate drain, frozen coils, or other issues.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Increased Energy Bills</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">High energy bills without increase in usage could indicate the inefficiency of your AC due to dirty filters, duct leaks, or other problems.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-          </div>
-        </section>
-        {/* A Quick Guide to Understanding and Fixing Your AC Problems */}
-        <QuickGuide />
-
-        {/* The Benefits Of Regular AC Service*/}
-        <BenefitAcMaintenance />
-        {/*Why Choose F A J Technical Services L.L.C? */}
-        <ACWhyChooseUs />
-        {/* Practical Tips to Improve Energy Efficiency */}
-        <section className="section cs_py_30 bg-dark-blue text-light">
-          <div className="container text-center">
-            <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
-            <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
-            <a
-              href="files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
-              className="btn-green-yellow"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Click Here to Save on Energy Bills
-            </a>
-
-          </div>
-        </section>
-
-        {/* cooling */}
-        <section className="section cs_py_30">
-          <div className="container text-center">
-            <div className="row">
-              <div className="col-lg-4">
-                <div className="acsvs-sec-prefoot-sec-cone">
-                  <h3 className="cs_fs_20 mb-0">COOLING &amp; HEATING</h3>
-                  <span className="mb-5">Stay comfortable all year round</span>
-                  <div className="mb-5"></div>
-                  <h3 className="cs_fs_20 mb-0">BETTER AIR QUALITY</h3>
-                  <span className="mb-5">Reduce humidity, pollen and dust</span>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="acsvs-sec-prefoot-sec-ctwo">
-
-                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Frigidaire Ac Service" />
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="acsvs-sec-prefoot-sec-cthree">
-                  <h3 className="cs_fs_20 mb-0">PROTECT YOUR PROPERTY</h3>
-                  <span className="mb-5">Prevent damage to electronics and furnishings</span>
-                  <div className="mb-5"></div>
-                  <h3 className="cs_fs_20 mb-0">QUIET AND SECURE</h3>
-                  <span className="mb-5">No need to leave windows open</span>
-                </div>
+              {/* <!-- Delimit mobile --> */}
+              <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
+                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
               </div>
             </div>
           </div>
         </section>
-        
+
         {/* Maintenance Contract */}
-        <MaintenanceContract />
+<MaintenanceContract />
+
 {/* testimobial section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
-          <div className="cs_height_80 cs_height_Frigidaire_80"></div>
+        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
+          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
               <h3 className="cs_section_subtitle cs_fs_18 text-black cs_semibold text-uppercase cs_mb_12 wow fadeInDown">
@@ -357,7 +266,7 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
               data-add-slides="2" data-slides-per-view="responsive">
               <div className="cs_slider_wrapper">
                 <Slider {...settings}>
-                  {testimonial_data_Frigidaire.map((item, index) => (
+                  {testimonial_data.map((item, index) => (
                     <div key={index} className="cs_slide wow fadeInLeft">
                       <div className="cs_testimonial cs_style_1 position-relative">
                         <div className="cs_testimonial_content cs_white_bg position-relative">
@@ -374,12 +283,12 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
                                 <i className="bi bi-star-fill"></i>
                               </div>
                               <h3 className="cs_fs_24 cs_mb_1">{item.title}</h3>
-                              <p className="cs_fs_14 cs_heading_color mb-0">{item.subTitle}</p>
+                              {/* <p className="cs_fs_14 cs_heading_color mb-0">{item.subTitle}</p> */}
                             </div>
                           </div>
                           <blockquote className="cs_fs_16">{item.desc}</blockquote>
                           <div className="cs_quote_icon position-absolute">
-                            <img src={`${import.meta.env.BASE_URL}img/icons/quote_1.svg`} alt="Quote Icon" />
+                            <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`} alt="Quote Icon" />
                           </div>
                         </div>
                       </div>
@@ -390,10 +299,11 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
               </div>
             </div>
           </div>
-          <div className="cs_height_80 cs_height_Frigidaire_80"></div>
+          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
         </section>
 
-        <div className="section cs_py_30  bg-dark-blue text-light">
+        {/* FAQ's */}
+        <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ's</h3>
 
@@ -409,29 +319,30 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, bgImg }) => {
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>
-                    <p className="mb-0">{item.desc}</p>
+                    {/* <p className="mb-0">{item.desc.replace(/\n/g, '<br>')}</p> */}
+                    <p className="mb-0"
+                      dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
+                    ></p>
                   </div>
                 </div>
               ))}
 
             </div>
           </div>
-        </div>
-        <div className="section cs_py_30">
+        </section>
+
+        <section className="section cs_py_30">
           <Serviceappointemnt
             subtitle2="Contact us"
             title2="Book An Appointment"
           ></Serviceappointemnt>
 
-        </div>
+        </section>
 
-
-      </div>
-
-
-
+      </div >
     </>
   );
 };
 
-export default FrigidaireRefrigeratorRepairDetail;
+export default RefrigeratorRepairNearMeDetail;
+

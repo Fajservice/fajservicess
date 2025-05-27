@@ -1,5 +1,5 @@
 import BreadCumb from "../../../Components/Common/BreadCumb";
-import FrigidaireRefrigeratorRepairDetail from "../../../Components/ServiceDetails/AcDetail/AcBrand/FrigidaireRefrigeratorRepairDetail";
+import FrigidaireRefrigeratorRepairDetail from "../../../Components/ServiceDetails/AppliancesDetail/AppliancesBrand/FrigidaireRefrigeratorRepairDetail";
 
 const FrigidaireRefrigeratorRepair = () => {
     return (

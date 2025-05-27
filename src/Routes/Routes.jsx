@@ -6,7 +6,17 @@ import AcTonnageCalculator from "../Pages/AcTonnageCalculator";
 import Orphan from "../Pages/Orphan";
 import AcMaintenanceDubai from "../Pages/AcMaintenanceDubai";
 import AcAnnualMaintenanceContract from "../Pages/AcAnnualMaintenanceContract";
+import ElectricalPlumbingService from "../Pages/ElectricalPlumbingService";
+
+
 import AcRepairDubai from "../Pages/AcRepairDubai";
+import NearMe from "../Pages/Dubai/NearMe.jsx";
+import AcRepairNearMe from "../Pages/Dubai/AcRepairNearMe.jsx";
+
+import RefrigeratorRepairNearMe from "../Pages/Dubai/RefrigeratorRepairNearMe.jsx";
+import WashingMachineRepairNearMe from "../Pages/Dubai/WashingMachineRepairNearMe.jsx";
+
+
 import FreestandingHomeAppliancesRepairService from "../Pages/HomeAppPages/FreestandingHomeAppliancesRepairService";
 import CoffeeMachineServiceCenterInDubai from "../Pages/CoffeeMachineServiceCenterInDubai";
 import CommercialCoffeeMachineRepair from "../Pages/CommercialCoffeeMachineRepair";
@@ -85,7 +95,7 @@ import SuperGeneralAcRepair from "../Pages/AcPages/AcBrand/SuperGeneralAcRepair"
 import ToshibaAcRepair from "../Pages/AcPages/AcBrand/ToshibaAcRepair";
 import LgAcRepair from "../Pages/AcPages/AcBrand/LgAcRepair";
 import AftronAcRepair from "../Pages/AcPages/AcBrand/AftronAcRepair";
-import FrigidaireRefrigeratorRepair from "../Pages/AcPages/AcBrand/FrigidaireRefrigeratorRepair";
+import FrigidaireRefrigeratorRepair from "../Pages/AppliancesPage/AppliancesBrand/FrigidaireRefrigeratorRepair.jsx";
 import PanasonicAcRepair from "../Pages/AcPages/AcBrand/PanasonicAcRepair";
 import WhirlpoolAcRepair from "../Pages/AcPages/AcBrand/WhirlpoolAcRepair";
 import SamsungAcRepair from "../Pages/AcPages/AcBrand/SamsungAcRepair";
@@ -428,9 +438,32 @@ export const router = createBrowserRouter([
         element: <AcAnnualMaintenanceContract />,
       },
       {
+        path: "/electrical-plumbing-service/",
+        element: <ElectricalPlumbingService />,
+      },
+      {
         path: "/ac-repair-dubai/",
         element: <AcRepairDubai></AcRepairDubai>,
       },
+
+      {
+        path: "/dubai/near-me/",
+        element: <NearMe></NearMe>,
+      },
+      {
+        path: "/dubai/ac-repair-near-me/",
+        element: <AcRepairNearMe></AcRepairNearMe>,
+      },
+      {
+        path: "/dubai/refrigerator-repair-near-me/",
+        element: <RefrigeratorRepairNearMe></RefrigeratorRepairNearMe>,
+      },
+      {
+        path: "/dubai/washing-machine-repair-near-me/",
+        element: <WashingMachineRepairNearMe></WashingMachineRepairNearMe>
+      },
+
+
       {
         path: "/appliances-repair-service/",
         element: <FreestandingHomeAppliancesRepairService></FreestandingHomeAppliancesRepairService>,
@@ -471,7 +504,6 @@ export const router = createBrowserRouter([
         path: "/meat-grinder-repair/",
         element: <MeatGrinderRepair />
       },
-
       {
         path: "/commercial-dishwasher-repair/",
         element: <CommercialDishwasherServices />
