@@ -21,6 +21,14 @@ import WeSpecialise from "./WeSpecialise/WeSpecialise";
 
 
 const AcRepairInJLTdETAIL = ({ subtitle, title, bgImg }) => {
+
+    // For SEO
+    const titleSeo = "Best AC Service JLT Near Me - Air Con Repair & Maintenance";
+    const description = "Get best AC service JLT near me. Air Con repair & maintenance experts for central AC maintenance & repair. Call 043300002 for reliable fixed AC";
+    const Author = "Faj Technical Services";
+    const Keyword = "";
+    const URL = "https://www.fajservices.ae/ac-services-jlt";
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "img/testimonialbg.jpg"
@@ -80,8 +88,21 @@ const AcRepairInJLTdETAIL = ({ subtitle, title, bgImg }) => {
     return (
         <>
             <HelmetProvider>
-                <title>AC Services In JLT - Central Aircon Fixing</title>
-                <meta name="description" content="Are you finding AC Services in JLT? Call 043300002 for ceiling, HVAC, central air conditioner repair & maintenance near me"></meta>
+              <HelmetProvider>
+                <title>{titleSeo}</title>
+                <meta name="description" content={description}></meta>
+                <meta name="keywords" content={Keyword} />
+                <meta name="author" content={Author} />
+                <meta name="robots" content="index, follow" />
+
+                <Link rel="canonical" href={titleSeo} />
+                <meta property="og:type" content="website" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="og:title" content={titleSeo} />
+                <meta property="og:description" content={description} />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content={URL} />
+            </HelmetProvider>
             </HelmetProvider>
             <HeaderForm />
             <div className="cs_service_details">

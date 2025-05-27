@@ -20,6 +20,15 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
 
 const AcRepairInJumeirahBeachResidenceDetail = ({ subtitle, title, bgImg }) => {
+
+    // For SEO
+    const titleSeo = "AC Services In Jumeirah Beach Residence - Aircon Fixing #1";
+    const description = "If you have a fcu system that is in need of repair, call us at 043300002 for ac services in jumeirah beach residence dubai. Air con maintenance";
+    const Author = "Faj Technical Services";
+    const Keyword = "";
+    const URL = "https://www.fajservices.ae/ac-services-in-jumeirah-beach-residence";
+
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "img/testimonialbg.jpg"
@@ -79,8 +88,19 @@ const AcRepairInJumeirahBeachResidenceDetail = ({ subtitle, title, bgImg }) => {
     return (
         <>
             <HelmetProvider>
-                <title>AC Services in Jumeirah Beach Residence - Aircon Repair</title>
-                <meta name="description" content="AC Services in Jumeirah Beach Residence Dubai. We are experts in central & split air conditioner repairs and maintenance service in my location dubai."></meta>
+                 <title>{titleSeo}</title>
+                <meta name="description" content={description}></meta>
+                <meta name="keywords" content={Keyword} />
+                <meta name="author" content={Author} />
+                <meta name="robots" content="index, follow" />
+
+                <Link rel="canonical" href={titleSeo} />
+                <meta property="og:type" content="website" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="og:title" content={titleSeo} />
+                <meta property="og:description" content={description} />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content={URL} />
             </HelmetProvider>
             <HeaderForm />
             <div className="cs_service_details">
