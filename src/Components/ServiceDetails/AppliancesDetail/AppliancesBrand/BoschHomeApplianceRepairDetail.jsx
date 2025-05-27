@@ -14,6 +14,12 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
 const BoschHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
+    // For SEO
+const titleSeo = "Bosch Appliance - Fridge & Washing Machine Repair Service";
+const description = "Bosch home appliancs services. Expert Bosch washing machine repair, Bosch refrigerator, fridge, oven, cooker, dishwasher service near you Dubai";
+const Author = "Faj Technical Servcies";
+const Keyword = "";
+const URL = "https://www.fajservices.com/bosch-home-appliance-installation-maintenance-repair-fix-service-in-dubai/";
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"

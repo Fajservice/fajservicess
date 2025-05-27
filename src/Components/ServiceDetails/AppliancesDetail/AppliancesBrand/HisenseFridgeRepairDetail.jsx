@@ -14,62 +14,70 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
 const HisenseFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
-  subtitle = "Testimonial"
-  title = "What our clients say About Us"
-  bgImg = "img/testimonialbg.jpg"
-  const accordionContentRef = useRef(null);
-  const [openItemIndex, setOpenItemIndex] = useState(-1);
-  const [firstItemOpen, setFirstItemOpen] = useState(true);
+    // For SEO
+    const titleSeo = "Hisense Fridge Repair In Dubai - Washing Machine Service";
+    const description = "We provide the best Hisense fridge repair in dubai. Dail 043300002 for hisense washing machine, refrigerator, dishwasher, stove oven fix service near me";
+    const Author = "Faj Technical Servcies";
+    const Keyword = "";
+    const URL = "https://www.fajservices.com/hisense-fridge-repair-in-dubai-hisense-washing-machine-repair-in-dubai-hisense-cooker-repair-in-dubai-hisense-oven-repair-in-dubai-hisense-appliances-maintenance-in-dubai-hisense-refrigerator-fix-repa/";
 
-  const handleItemClick = index => {
-    if (index === openItemIndex) {
-      setOpenItemIndex(-1);
-    } else {
-      setOpenItemIndex(index);
-    }
-  };
-  useEffect(() => {
-    if (firstItemOpen) {
-      setOpenItemIndex(0);
-      setFirstItemOpen(false);
-    }
-  }, [firstItemOpen]);
 
-  useEffect(() => {
-    loadBackgroudImages();
-  }, []);
+    subtitle = "Testimonial"
+    title = "What our clients say About Us"
+    bgImg = "img/testimonialbg.jpg"
+    const accordionContentRef = useRef(null);
+    const [openItemIndex, setOpenItemIndex] = useState(-1);
+    const [firstItemOpen, setFirstItemOpen] = useState(true);
 
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    arrows: false,
-    swipeToSlide: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 2,
+    const handleItemClick = index => {
+        if (index === openItemIndex) {
+            setOpenItemIndex(-1);
+        } else {
+            setOpenItemIndex(index);
         }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 2,
+    };
+    useEffect(() => {
+        if (firstItemOpen) {
+            setOpenItemIndex(0);
+            setFirstItemOpen(false);
         }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
-  };
+    }, [firstItemOpen]);
+
+    useEffect(() => {
+        loadBackgroudImages();
+    }, []);
+
+    const settings = {
+        dots: false,
+        infinite: true,
+        speed: 600,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        arrows: false,
+        swipeToSlide: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        pauseOnHover: true,
+        responsive: [
+            {
+                breakpoint: 1399,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 1199,
+                settings: {
+                    slidesToShow: 2,
+                }
+            }, {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    };
 
     const settingBrands = {
         dots: false,
@@ -150,7 +158,7 @@ const HisenseFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
                                 </p>
 
                                 <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service</h3>
-                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services LLC</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
+                                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services LLC</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
                             </div>
 
                             <div className="col-md-6 ">
@@ -460,10 +468,10 @@ const HisenseFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
                     </div>
                 </section>
 
-                
-        {/* Maintenance Contract */}
-        <MaintenanceContract />
-{/* testimobial section */}
+
+                {/* Maintenance Contract */}
+                <MaintenanceContract />
+                {/* testimobial section */}
                 <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                     <div className="container">

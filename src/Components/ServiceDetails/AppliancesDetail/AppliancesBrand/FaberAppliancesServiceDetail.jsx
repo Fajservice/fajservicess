@@ -15,6 +15,12 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
 const FaberAppliancesServiceDetail = ({ subtitle, title, bgImg }) => {
+    // For SEO
+const titleSeo = "Faber Appliances Service Dubai - Faber Oven Repair";
+const description = "Faber Appliance Service. Get reliable Faber oven repair Dubai, cooking range repair, hood, dishwasher, washing machine, refrigerator. fridge repairs";
+const Author = "Faj Technical Servcies";
+const Keyword = "";
+const URL = "https://www.fajservices.com/faber-appliances-service/";
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"

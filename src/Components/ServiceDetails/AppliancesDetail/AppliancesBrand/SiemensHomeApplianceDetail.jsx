@@ -14,6 +14,12 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
 const SiemensHomeApplianceDetail = ({ subtitle, title, bgImg }) => {
+    // For SEO
+const titleSeo = "Siemens Washing Machine Repair – Refrigerator Service Dubai";
+const description = "Get Siemens home appliances Repair - FAJ Experts Siemens fridges, Simenes dishwasher, dryer, washing machine, stove service near me 04 3300002";
+const Author = "Faj Technical Servcies";
+const Keyword = "";
+const URL = "https://www.fajservices.com/siemens-home-appliances-repair/";
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"

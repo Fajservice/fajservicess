@@ -19,6 +19,14 @@ import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 import ApplianceSpecialise from "./Appliance specialise/ApplianceSpecialise.jsx";
 
 const ApplianceServiceInAlWahaCommunityDetail = ({ subtitle, title, bgImg }) => {
+    // For SEO
+    const titleSeo = "Appliances Services In Al Waha Community - Fridge Repair";
+    const description = "Get the best appliance services in Al Waha Community. Call 043300002 for washing machine repair near me in Dubai, we also fix fridge, dishwasher";
+    const Author = "Faj Technical Servcies";
+    const Keyword = "";
+    const URL = "https://www.fajservices.com/appliances-services-in-al-waha-community/";
+
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "img/testimonialbg.jpg"
@@ -71,6 +79,38 @@ const ApplianceServiceInAlWahaCommunityDetail = ({ subtitle, title, bgImg }) => 
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 1,
+                }
+            }
+        ]
+    };
+
+    const settingBrands = {
+        dots: false,
+        infinite: true,
+        slidesToShow: 6,
+        arrows: false,
+
+        autoplay: true,
+        autoplaySpeed: 5000,
+        pauseOnHover: true,
+        // cssEase: 'linear',
+
+        responsive: [
+            {
+                breakpoint: 1399,
+                settings: {
+                    slidesToShow: 6,
+                }
+            },
+            {
+                breakpoint: 1199,
+                settings: {
+                    slidesToShow: 4,
+                }
+            }, {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
                 }
             }
         ]

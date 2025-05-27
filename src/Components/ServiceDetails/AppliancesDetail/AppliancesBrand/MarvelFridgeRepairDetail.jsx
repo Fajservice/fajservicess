@@ -15,6 +15,13 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
 const MarvelFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
+    // For SEO
+const titleSeo = "Best Marvel Fridge Repair In Dubai - Oven Fix Service #1";
+const description = "Marvel Fridge Repair in Dubai.Call for Refrigerator, Washing Machine, Dishwasher Cooking Range, Stove Oven Fix Service Near Me 043300002";
+const Author = "Faj Technical Servcies";
+const Keyword = "";
+const URL = "https://www.fajservices.com/marvel-fridge-repair-in-dubai-marvel-washing-machine-repair-in-dubai-marvel-cooker-repair-in-dubai-marvel-oven-repair-in-dubai-marvel-appliances-maintenance-in-dubai-marvel-refrigerator-fix-repairs-se/";
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"

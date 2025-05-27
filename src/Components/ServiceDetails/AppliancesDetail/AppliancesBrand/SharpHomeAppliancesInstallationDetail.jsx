@@ -15,6 +15,13 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
 const SharpHomeAppliancesInstallationDetail = ({ subtitle, title, bgImg }) => {
+    // For SEO
+const titleSeo = "Sharp Home Appliance Service - Refrigerator Repair Dubai";
+const description = "FAJ offering Sharp home appliance service in Dubai. Call 043300002 for Sharp washing machine, dryer, fridge, oven, vacuum cleaner repair near me";
+const Author = "Faj Technical Servcies";
+const Keyword = "";
+const URL = "https://www.fajservices.com/sharp-home-appliance-installation-maintenance-repair-fix-service-in-dubai/";
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"
