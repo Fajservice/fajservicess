@@ -596,7 +596,7 @@ const OvenRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our expert oven technicians are well-trained, providing efficient service for various major oven brands.</p>
+                    <p>Our expert oven technicians are well-trained, providing <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a> for various major oven brands.</p>
                   </div>
                 </div>
               </div>

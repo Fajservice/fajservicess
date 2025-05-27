@@ -206,7 +206,7 @@ const DaikinAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      If you notice reduced airflow from your vents, it may indicate an issue with your Daikin AC system, such as a clogged filter or a malfunctioning fan.
+                      If you notice <a href="https://www.youtube.com/watch?v=qnByeIsc3lY"><b>reduced airflow</b></a> from your vents, it may indicate an issue with your Daikin AC system, such as a clogged filter or a malfunctioning fan.
                     </p>
                   </div>
                 </div>
@@ -447,7 +447,7 @@ const DaikinAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Reliable, Priority, and Quick</h3>
-                    <p>You can count on efficient service! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
+                    <p>You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
                   </div>
                 </div>
 
@@ -509,7 +509,7 @@ const DaikinAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our skilled AC technicians are highly trained, and we provide excellent service for a variety of major AC brands efficiently.
+                    <p>Our <a href="https://www.facebook.com/ACRepairUAE"><b>skilled AC technicians</b></a> are highly trained, and we provide excellent service for a variety of major AC brands efficiently.
                     </p>
                   </div>
                 </div>

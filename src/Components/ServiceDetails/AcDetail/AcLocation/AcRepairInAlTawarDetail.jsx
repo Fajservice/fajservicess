@@ -90,7 +90,7 @@ const AcRepairInAlTawarDetail = ({ subtitle, title, bgImg }) => {
                         <h1 className="cs_fs_30"> AC Service in Al Tawar</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
             <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
-            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in AC servicing, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
+            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 
                         <div id="get-quote" className=" mt-3">
                             <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -166,8 +166,7 @@ const AcRepairInAlTawarDetail = ({ subtitle, title, bgImg }) => {
 
                                     <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend your air condition unit’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
                                     <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
-                                    <li> <strong> Enhanced Comfort: </strong> Regular
-                                        AC servicing in Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
+                                    <li> <strong> Enhanced Comfort: </strong> Regular <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a> in Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
 
 
 
@@ -190,7 +189,7 @@ const AcRepairInAlTawarDetail = ({ subtitle, title, bgImg }) => {
                                         <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Weak Airflow</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
-                                        <p className="p-2 mb-0">If you notice reduced airflow coming from your vents, it could indicate a problem with your AC system, such as a clogged filter or malfunctioning fan.</p>
+                                        <p className="p-2 mb-0">If you notice <a href="https://www.youtube.com/watch?v=qnByeIsc3lY"><b>reduced airflow</b></a> coming from your vents, it could indicate a problem with your AC system, such as a clogged filter or malfunctioning fan.</p>
                                     </div>
                                 </div>
                             </div>

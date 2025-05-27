@@ -13,6 +13,7 @@ import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContrac
 import testimonial_data_CrafftAc from '../../../../Data/AcData/AcTestimonial/CrafftAcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";
+import HeaderForm from "../../../Headeform/HeaderForm";
 
 const CrafftAcRepair = ({ subtitle, title, bgImg }) => {
   // For SEO
@@ -100,7 +101,7 @@ const CrafftAcRepair = ({ subtitle, title, bgImg }) => {
             <h2 className="cs_fs_30">Crafft AC Repair in Dubai - AC Cleaning Service Near you</h2>
             <p><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C.</b></a> is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
               <br />
-              Our skilled AC technicians can handle all types and models of Crafft air conditioning units, ensuring your home or business stays cool and comfortable.</p>
+              Our <a href="https://www.facebook.com/ACRepairUAE"><b>skilled AC technicians</b></a> can handle all types and models of Crafft air conditioning units, ensuring your home or business stays cool and comfortable.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -199,7 +200,7 @@ const CrafftAcRepair = ({ subtitle, title, bgImg }) => {
                     <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Weak Airflow</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">If you notice reduced airflow coming from your vents, it could indicate a problem with your AC system, such as a clogged filter or malfunctioning fan.</p>
+                    <p className="p-2 mb-0">If you notice <a href="https://www.youtube.com/watch?v=qnByeIsc3lY"><b>reduced airflow</b></a> coming from your vents, it could indicate a problem with your AC system, such as a clogged filter or malfunctioning fan.</p>
                   </div>
                 </div>
               </div>

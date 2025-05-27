@@ -88,7 +88,7 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">THE FAJ EXPERTS ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
+            <h2 className="cs_fs_30">THE <a href="https://www.facebook.com/FAJTechnicalServicesLLC"><b>FAJ Experts</b></a> ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
             <p><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C.</b></a> is a leading AC repair company in Dubai, providing reliable air conditioner services tailored to the UAE's hot climate.
               <br />
               Our trained professionals ensure a comfortable environment for living, learning, working, and playing.
@@ -197,7 +197,7 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg }) => {
                     <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Weak Airflow</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">If you notice reduced airflow coming from your vents, it could indicate a problem with your AC system, such as a clogged filter or malfunctioning fan.</p>
+                    <p className="p-2 mb-0">If you notice <a href="https://www.youtube.com/watch?v=qnByeIsc3lY"><b>reduced airflow</b></a> coming from your vents, it could indicate a problem with your AC system, such as a clogged filter or malfunctioning fan.</p>
                   </div>
                 </div>
               </div>
@@ -391,7 +391,7 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg }) => {
 
                 <h4>Low airflow</h4>
                 <p>
-                  The airflow from the AC used to hit you directly, but it is no longer even close to you. It means that something unusual has started to affect your AC. Reduced airflow indicates that it must be maintained.</p>
+                  The airflow from the AC used to hit you directly, but it is no longer even close to you. It means that something unusual has started to affect your AC. <a href="https://www.youtube.com/watch?v=qnByeIsc3lY"><b>reduced airflow</b></a> indicates that it must be maintained.</p>
 
                 <h4>Looking for the best AC Repair / AC fixing Company in Dubai?</h4>
                 <p>Looking for the best AC Repair / AC fixing Company in Dubai?
@@ -453,7 +453,7 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg }) => {
             <h3 className="cs_fs_30">Why Choose F A J Technical Services L.L.C?</h3>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <h4 className="cs_fs_24">We provide quick, efficient service and peace of mind</h4>
+                <h4 className="cs_fs_24">We provide quick, <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a> and peace of mind</h4>
                 <ul className="acsvs-exp-spl-para tick-ul mb-0">
                   <li><b>We get the job done on time</b> thanks to our larger team and dedicated parts warehouse</li>
                   <li><b>All our AC technicians are fully qualified</b> and extensively trained by us to address all types of AC issues.</li>

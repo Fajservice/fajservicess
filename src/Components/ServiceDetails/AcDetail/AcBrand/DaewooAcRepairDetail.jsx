@@ -199,7 +199,7 @@ const DaewooAcRepair = ({ subtitle, title, bgImg }) => { // For SEO
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Reduced airflow from a Daewoo air conditioner may indicate a clogged filter or faulty fan, which should be fixed for efficient cooling.
+                      <a href="https://www.youtube.com/watch?v=qnByeIsc3lY"><b>Reduced airflow</b></a> from a Daewoo air conditioner may indicate a clogged filter or faulty fan, which should be fixed for efficient cooling.
                     </p>
                   </div>
                 </div>
@@ -439,7 +439,7 @@ const DaewooAcRepair = ({ subtitle, title, bgImg }) => { // For SEO
                   </div>
                   <div className="usptext">
                     <h3 className="">Reliable, Priority, and Quick</h3>
-                    <p>You can count on efficient service! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
+                    <p>You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
                   </div>
                 </div>
 
@@ -501,7 +501,7 @@ const DaewooAcRepair = ({ subtitle, title, bgImg }) => { // For SEO
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our skilled AC technicians are highly trained, and we provide excellent service for a variety of major AC brands efficiently.
+                    <p>Our <a href="https://www.facebook.com/ACRepairUAE"><b>skilled AC technicians</b></a> are highly trained, and we provide excellent service for a variety of major AC brands efficiently.
                     </p>
                   </div>
                 </div>

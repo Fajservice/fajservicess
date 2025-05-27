@@ -112,7 +112,7 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
           <div className="container">
             <h2 className="cs_fs_30">Ac Service in Dubai</h2>
             <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
-            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in AC servicing, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
+            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -132,7 +132,7 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
               <div className="col-md-6">
                 <h3 className="cs_fs_24 mb-1">Experts AC Service and Maintenance</h3>
                 <p className="mb-1">When considering AC service in Dubai, it is vital to hire a qualified and reliable AC technician who can effectively address your needs at home or in your business place.</p>
-                <p className="mb-1">FAJ Experts in comprehensive air conditioner (AC) service, and maintenance, ensuring that you receive the highest quality care for your cooling systems.</p>
+                <p className="mb-1"><a href="https://www.facebook.com/FAJTechnicalServicesLLC"><b>FAJ Experts</b></a> in comprehensive air conditioner (AC) service, and maintenance, ensuring that you receive the highest quality care for your cooling systems.</p>
                  <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                 <div className="row">
@@ -193,8 +193,7 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
 
                   <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend your air condition unit’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
                   <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
-                  <li> <strong> Enhanced Comfort: </strong> Regular
-                    AC servicing in Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
+                  <li> <strong> Enhanced Comfort: </strong> Regular <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a> in Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
 
 
 
@@ -217,7 +216,7 @@ const AcServiceInDubai = ({ subtitle, title, bgImg }) => {
                     <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Weak Airflow</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">If you notice reduced airflow coming from your vents, it could indicate a problem with your AC system, such as a clogged filter or malfunctioning fan.</p>
+                    <p className="p-2 mb-0">If you notice <a href="https://www.youtube.com/watch?v=qnByeIsc3lY"><b>reduced airflow</b></a> coming from your vents, it could indicate a problem with your AC system, such as a clogged filter or malfunctioning fan.</p>
                   </div>
                 </div>
               </div>

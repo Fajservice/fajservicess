@@ -171,7 +171,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
 
                 <p className="mb-2">When your coffee machine breaks down or stops working, it can disrupt your daily   routine.
                   <br />
-                  That’s where our expert technician comes in. FAJ expert offers fast and efficient services near you to restore optimal performance. We handle issues like coffee machine descaling, cleaning service, water leakage, Steam wand, noise, poor coffee quality, and grinding problems. Let us help get your coffee machine back on track.
+                  That’s where our expert technician comes in. FAJ expert offers fast and <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>s near you to restore optimal performance. We handle issues like coffee machine descaling, cleaning service, water leakage, Steam wand, noise, poor coffee quality, and grinding problems. Let us help get your coffee machine back on track.
 
                 </p>
 
@@ -510,7 +510,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
                   </div>
                   <div className="usptext">
                     <h3 className="">Reliable, Priority, and Quick</h3>
-                    <p>	You can count on efficient service! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
+                    <p>	You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
                   </div>
                 </div>
 

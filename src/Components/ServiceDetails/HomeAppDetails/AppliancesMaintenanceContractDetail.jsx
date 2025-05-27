@@ -25,7 +25,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
 
   // For SEO
   const titleSeo = "Best Appliances AMC Service Dubai -#1 Maintenance Contract";
-  const description = "Time to get comfortable! with appliances AMC service in Dubai FAJ experts in kitchen appliances, freezer, chiller, cooking appliances maintenance";
+  const description = "Time to get comfortable! with appliances AMC service in Dubai FAJ Experts in kitchen appliances, freezer, chiller, cooking appliances maintenance";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
   const URL = "https://www.fajservices.com/appliances-amc-service/";
@@ -524,7 +524,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Reliable, Priority, and Quick</h3>
-                    <p>	You can count on efficient service! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
+                    <p>	You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
                   </div>
                 </div>
 

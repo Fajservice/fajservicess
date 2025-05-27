@@ -18,7 +18,7 @@ import AcProperties from "../../../Common/AcProperties";
 const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
   // For SEO
   const titleSeo = "Samsung AC Repair in Dubai - Air Conditioner Service Near";
-  const description = "Get expert Samsung AC repair in Dubai. Get FAJ experts an 043300002 for central, VRF, split (AC) air conditioner maintenance and cleaning service near by you.";
+  const description = "Get expert Samsung AC repair in Dubai. Get FAJ Experts an 043300002 for central, VRF, split (AC) air conditioner maintenance and cleaning service near by you.";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
   const URL = "https://www.fajservices.ae/samsung-ac-repair-in-dubai/";
@@ -202,7 +202,7 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Reduced airflow from Samsung AC vents may indicate a problem, such as a clogged filter or a faulty fan, which should be addressed to ensure efficient cooling.
+                      <a href="https://www.youtube.com/watch?v=qnByeIsc3lY"><b>Reduced airflow</b></a> from Samsung AC vents may indicate a problem, such as a clogged filter or a faulty fan, which should be addressed to ensure efficient cooling.
                     </p>
                   </div>
                 </div>
@@ -443,7 +443,7 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Reliable, Priority, and Quick</h3>
-                    <p>You can count on efficient service! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
+                    <p>You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
                   </div>
                 </div>
 
@@ -505,7 +505,7 @@ const SamsungAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our skilled AC technicians are highly trained, and we provide excellent service for a variety of major AC brands efficiently.
+                    <p>Our <a href="https://www.facebook.com/ACRepairUAE"><b>skilled AC technicians</b></a> are highly trained, and we provide excellent service for a variety of major AC brands efficiently.
                     </p>
                   </div>
                 </div>

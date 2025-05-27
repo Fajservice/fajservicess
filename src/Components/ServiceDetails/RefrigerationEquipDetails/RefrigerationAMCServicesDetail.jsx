@@ -588,7 +588,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, bgImg }) => {
 
                   <li> <strong>  Walk-in Refrigeration Maintenance Contract: </strong> Walk-in refrigeration systems, such as cold storage rooms and freezers, are vital for numerous businesses and industries globally. However, without regular maintenance and preventative measures, these systems can experience failures. Contact us for professional services. </li>
 
-                  <li> <strong>  Cold Room AMC Service: </strong> Maintenance and refurbishment work should always be conducted by trained professionals. Many businesses may struggle to find specialised staff who can ensure that their refrigeration systems and cold rooms are repaired efficiently and safely by FAJ experts. </li>
+                  <li> <strong>  Cold Room AMC Service: </strong> Maintenance and refurbishment work should always be conducted by trained professionals. Many businesses may struggle to find specialised staff who can ensure that their refrigeration systems and cold rooms are repaired efficiently and safely by <a href="https://www.facebook.com/FAJTechnicalServicesLLC"><b>FAJ Experts</b></a>. </li>
 
                   <li> <strong>  Commercial Refrigeration Maintenance Services: </strong> Efficient refrigeration is essential in any kitchen. It helps keep your supplies fresh, maintains a pleasant environment, and ensures customer safety. By properly maintaining and repairing your refrigerator, you can extend its lifespan and potentially save money in the long run. This article outlines the key aspects of maintaining a commercial refrigerator. </li>
 

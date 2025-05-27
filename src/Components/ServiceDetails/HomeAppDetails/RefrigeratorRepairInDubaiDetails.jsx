@@ -21,7 +21,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
 
   // For SEO
   const titleSeo = "Refrigerator Repair Near Me | Fridge Repair Service Dubai";
-  const description = "Book refrigerator repair near you. Call now at 043300002 FAJ experts to get same day fridge repair & maintenance in Dubai. Freezer fix & service center.";
+  const description = "Book refrigerator repair near you. Call now at 043300002 FAJ Experts to get same day fridge repair & maintenance in Dubai. Freezer fix & service center.";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
   const URL = "https://www.fajservices.com/refrigerator-repair-service/";
@@ -492,7 +492,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Reliable, Priority, and Quick</h3>
-                    <p>	You can count on efficient service! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
+                    <p>	You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
                   </div>
                 </div>
 

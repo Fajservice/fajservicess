@@ -195,7 +195,7 @@ const HitachiAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Reduced airflow from a Hitachi air conditioner may indicate a clogged filter or faulty fan, which should be fixed for efficient cooling.
+                      <a href="https://www.youtube.com/watch?v=qnByeIsc3lY"><b>Reduced airflow</b></a> from a Hitachi air conditioner may indicate a clogged filter or faulty fan, which should be fixed for efficient cooling.
                     </p>
                   </div>
                 </div>
@@ -435,7 +435,7 @@ const HitachiAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Reliable, Priority, and Quick</h3>
-                    <p>You can count on efficient service! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
+                    <p>You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
                   </div>
                 </div>
 
@@ -497,7 +497,7 @@ const HitachiAcRepair = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our skilled AC technicians are highly trained, and we provide excellent service for a variety of major AC brands efficiently.
+                    <p>Our <a href="https://www.facebook.com/ACRepairUAE"><b>skilled AC technicians</b></a> are highly trained, and we provide excellent service for a variety of major AC brands efficiently.
                     </p>
                   </div>
                 </div>
@@ -529,7 +529,7 @@ const HitachiAcRepair = ({ subtitle, title, bgImg }) => {
                 <p className="mb-0"><strong>  Our installation services include: </strong> </p>
 
 <p className="mb-0"> <strong>  Climate Check: </strong> Understanding your unique requirements based on the local climate and your building's features. </p>
-<p className="mb-0"> <strong>  Expert AC Installation: </strong> Our skilled AC technicians ensure that the AC installation is performed to the highest standards, adhering to all safety protocols. </p>
+<p className="mb-0"> <strong>  Expert AC Installation: </strong> Our <a href="https://www.facebook.com/ACRepairUAE"><b>skilled AC technicians</b></a> ensure that the AC installation is performed to the highest standards, adhering to all safety protocols. </p>
 <p className="mb-0"> <strong>  Post-Installation Support: </strong> We provide advice on operating your new air conditioner, including tips on energy efficiency and maintenance. </p>
 <p className="mb-0"> <strong>  Warranty and Service Packages: </strong> To ensure your peace of mind, we offer warranty options and additional service packages for maintenance and repair in Dubai and Sharjah. </p>
 <p className="mb-0"> <strong>  Hitachi AC AMC Services in Dubai: </strong> We offer comprehensive air conditioning AMC (Annual Maintenance Contract) and PPM (Planned Preventive Maintenance) services, along with repair support, throughout the year for both contract and non-contract customers. While we are dedicated to serving all our clients, please note that those with service contracts may receive priority assistance. </p>
