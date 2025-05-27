@@ -19,6 +19,14 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
 
 const AcRepairInCedreVillasSiliconOasisDubaiDetail = ({ subtitle, title, bgImg }) => {
+
+    // For SEO
+    const titleSeo = "AC Services In Cedre Villas Silicon Oasis Dubai - Gas Fill 1";
+    const description = "AC Gas Leak Problem or Not Working? Call an 043300002 and get fast AC Services in Cedre Villas Silicon Oasis Dubai centralized air condition fix";
+    const Author = "Faj Technical Services";
+    const Keyword = "";
+    const URL = "https://www.fajservices.ae/ac-services-in-cedre-villas-silicon-oasis-dubai";
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "img/testimonialbg.jpg"
@@ -78,8 +86,19 @@ const AcRepairInCedreVillasSiliconOasisDubaiDetail = ({ subtitle, title, bgImg }
   return (
     <>
             <HelmetProvider>
-                <title>AC Services In Cedre Villas Silicon Oasis Dubai - Gas Fill 1</title>
-                <meta name="description" content="AC Gas Leak Problem or Not Working? Call an 043300002 and get fast AC Services in Cedre Villas Silicon Oasis Dubai centralized air condition fix"></meta>
+                <title>{titleSeo}</title>
+                       <meta name="description" content={description}></meta>
+                       <meta name="keywords" content={Keyword} />
+                       <meta name="author" content={Author} />
+                       <meta name="robots" content="index, follow" />
+               
+                       <Link rel="canonical" href={titleSeo} />
+                       <meta property="og:type" content="website" />
+                       <meta property="og:locale" content="en_US" />
+                       <meta property="og:title" content={titleSeo} />
+                       <meta property="og:description" content={description} />
+                       <meta property="og:type" content="website" />
+                       <meta property="og:url" content={URL} />
             </HelmetProvider>
             <HeaderForm />
             <div className="cs_service_details">

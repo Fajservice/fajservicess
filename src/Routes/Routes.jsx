@@ -378,6 +378,7 @@ import ApplianceServiceInJumeirahPark from "../Pages/AppliancesPage/AppliancesLo
 import { PopupProvider } from "../Components/PopupContext.jsx";
 import ApplianceServiceInJebelAliIndustrialAreaDetail from "../Components/ServiceDetails/AppliancesDetail/AppliancesLocation/ApplianceServiceInJebelAliIndustrialAreaDetail.jsx";
 import AcRepairInJebelAliIndustrialAreaDetail from "../Components/ServiceDetails/AcDetail/AcLocation/AcRepairInJebelAliIndustrialAreaDetail.jsx";
+import AcRepairInJebelAliIndustrialArea from "../Pages/AcPages/AcLocation/AcRepairInJebelAliIndustrialArea.jsx";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -1910,7 +1911,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/ac-services-in-jebel-ali-industrial-area/",
-        element: <AcRepairInJebelAliIndustrialAreaDetail />,
+        element: <AcRepairInJebelAliIndustrialArea />,
       },
     ],
   }

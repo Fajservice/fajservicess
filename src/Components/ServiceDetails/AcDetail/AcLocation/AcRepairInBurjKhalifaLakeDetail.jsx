@@ -19,6 +19,15 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
 
 const AcRepairInBurjKhalifaLakeDetail = ({ subtitle, title, bgImg }) => {
+
+    // For SEO
+    const titleSeo = "Best AC Services In Burj Khalifa Lake - Air Con Fixing #1";
+    const description = "Best AC Services in Burj Khalifa Lake Dubai - FAJ experts here for your Central HVAC, Split Chiller FCU Air Condition Repair & Maintenance Dubai";
+    const Author = "Faj Technical Services";
+    const Keyword = "";
+    const URL = "https://www.fajservices.ae/ac-services-in-burj-khalifa-lake/";
+
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "img/testimonialbg.jpg"
@@ -78,8 +87,19 @@ const AcRepairInBurjKhalifaLakeDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
     <HelmetProvider>
-        <title>Best AC Services In Burj Khalifa Lake - Air Con Fixing #1</title>
-        <meta name="description" content="Best AC Services in Burj Khalifa Lake Dubai - FAJ Experts here for your Central HVAC, Split Chiller FCU Air Condition Repair & Maintenance Dubai"></meta>
+        <title>{titleSeo}</title>
+                       <meta name="description" content={description}></meta>
+                       <meta name="keywords" content={Keyword} />
+                       <meta name="author" content={Author} />
+                       <meta name="robots" content="index, follow" />
+               
+                       <Link rel="canonical" href={titleSeo} />
+                       <meta property="og:type" content="website" />
+                       <meta property="og:locale" content="en_US" />
+                       <meta property="og:title" content={titleSeo} />
+                       <meta property="og:description" content={description} />
+                       <meta property="og:type" content="website" />
+                       <meta property="og:url" content={URL} />
     </HelmetProvider>
     <HeaderForm />
     <div className="cs_service_details">

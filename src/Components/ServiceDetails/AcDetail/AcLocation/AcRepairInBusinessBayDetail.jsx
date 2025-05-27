@@ -20,6 +20,15 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
 
 const AcRepairInBusinessBayDetail = ({ subtitle, title, bgImg }) => {
+
+     // For SEO
+    const titleSeo = "Best AC Services In Bur Dubai - Air Conditioning Fix #1";
+    const description = "Book Fast & Reliable AC Services in Bur Dubai - Call us 043300002 for window and split AC (Air Conditioner) maintenance service near me Dubai";
+    const Author = "Faj Technical Services";
+    const Keyword = "";
+    const URL = "https://www.fajservices.ae/ac-repair-al-qusais";
+
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "img/testimonialbg.jpg"
@@ -79,8 +88,19 @@ const AcRepairInBusinessBayDetail = ({ subtitle, title, bgImg }) => {
     return (
         <>
             <HelmetProvider>
-                <title>Best AC Services In Business Bay - Air Con Repair #1</title>
-                <meta name="description" content="FAJ offer professional AC Services in Business Bay, We are experts in HVAC, Central Cooling FCU Air Conditioner Maintenance & Repair in Dubai"></meta>
+                 <title>{titleSeo}</title>
+                       <meta name="description" content={description}></meta>
+                       <meta name="keywords" content={Keyword} />
+                       <meta name="author" content={Author} />
+                       <meta name="robots" content="index, follow" />
+               
+                       <Link rel="canonical" href={titleSeo} />
+                       <meta property="og:type" content="website" />
+                       <meta property="og:locale" content="en_US" />
+                       <meta property="og:title" content={titleSeo} />
+                       <meta property="og:description" content={description} />
+                       <meta property="og:type" content="website" />
+                       <meta property="og:url" content={URL} />
             </HelmetProvider>
             <HeaderForm />
             <div className="cs_service_details">
