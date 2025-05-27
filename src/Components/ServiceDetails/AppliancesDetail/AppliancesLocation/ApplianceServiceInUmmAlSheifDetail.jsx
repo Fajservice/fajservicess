@@ -158,7 +158,7 @@ const ApplianceServiceInUmmAlSheifDetail = ({ subtitle, title, bgImg }) => {
 
 
 
-                {/* Best Home Appliance Service Center */}
+                 {/* Best Home Appliance Service Center */}
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
                         <div className="row gx-md-5">
@@ -166,7 +166,7 @@ const ApplianceServiceInUmmAlSheifDetail = ({ subtitle, title, bgImg }) => {
                                 <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai</h3>
 
                                 <p className="mb-2">
-                                    If you need appliance repair, FAJ is your best choice for fast and affordable service in Umm Al Sheif Dubai and Sharjah.
+                                    If you need appliance repair, FAJ is your best choice for fast and affordable service in Cedre Villas Silicon Oasis Dubai and Sharjah.
                                     <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
                                     <br /> We're nearby and can get your appliances fixed quickly and efficiently.
                                 </p>

@@ -20,6 +20,14 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
 
 const AcRepairInDeiraDetail = ({ subtitle, title, bgImg }) => {
+
+    // For SEO
+    const titleSeo = "AC Services In Deira - A/C Maintenance - AC Repair Ac Fix #1";
+    const description = "T:043300002 Efficient Air Conditioning Repairs and AC Services in Deira Dubai. Central & Split Maintenance Near Me and Aircon Compressor Fixing";
+    const Author = "Faj Technical Services";
+    const Keyword = "";
+    const URL = "https://www.fajservices.ae/ac-services-in-deira";
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "img/testimonialbg.jpg"
@@ -46,7 +54,7 @@ const AcRepairInDeiraDetail = ({ subtitle, title, bgImg }) => {
     }, []);
 
     const settings = {
-       dots: false,
+        dots: false,
         infinite: true,
         speed: 600,
         slidesToShow: 2,
@@ -76,11 +84,22 @@ const AcRepairInDeiraDetail = ({ subtitle, title, bgImg }) => {
             }
         ]
     }
-  return (
-    <>
+    return (
+        <>
             <HelmetProvider>
-                <title>AC Services In Deira - A/C Maintenance - AC Repair Ac Fix #1</title>
-                <meta name="description" content="T:043300002 Efficient Air Conditioning Repairs and AC Services in Deira Dubai. Central & Split Maintenance Near Me and Aircon Compressor Fixing"></meta>
+                <title>{titleSeo}</title>
+                <meta name="description" content={description}></meta>
+                <meta name="keywords" content={Keyword} />
+                <meta name="author" content={Author} />
+                <meta name="robots" content="index, follow" />
+
+                <Link rel="canonical" href={titleSeo} />
+                <meta property="og:type" content="website" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="og:title" content={titleSeo} />
+                <meta property="og:description" content={description} />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content={URL} />
             </HelmetProvider>
             <HeaderForm />
             <div className="cs_service_details">
@@ -89,8 +108,8 @@ const AcRepairInDeiraDetail = ({ subtitle, title, bgImg }) => {
                     <div className="container">
                         <h1 className="cs_fs_30">AC Service in Deira</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
-            <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
-            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
+                        <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
+                            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 
                         <div id="get-quote" className=" mt-3">
                             <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -145,9 +164,9 @@ const AcRepairInDeiraDetail = ({ subtitle, title, bgImg }) => {
                         </div>
                     </div>
                 </section>
-   
-           {/* Why is AC Maintenance Service Important in Dubai? */}
-           <section className="section cs_py_30 bg-light-gray">
+
+                {/* Why is AC Maintenance Service Important in Dubai? */}
+                <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
                         <h3 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h3>
                         <p>
@@ -339,10 +358,10 @@ const AcRepairInDeiraDetail = ({ subtitle, title, bgImg }) => {
                     </div>
                 </section>
 
-                
-        {/* Maintenance Contract */}
-        <MaintenanceContract />
-{/* testimobial section */}
+
+                {/* Maintenance Contract */}
+                <MaintenanceContract />
+                {/* testimobial section */}
                 <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                     <div className="container">
@@ -435,7 +454,7 @@ const AcRepairInDeiraDetail = ({ subtitle, title, bgImg }) => {
 
             </div>
         </>
-  )
+    )
 }
 
 export default AcRepairInDeiraDetail

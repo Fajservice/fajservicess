@@ -21,6 +21,15 @@ import WeSpecialise from "./WeSpecialise/WeSpecialise";
 
 
 const AcRepairInHudaibaDetail = ({ subtitle, title, bgImg }) => {
+
+    // For SEO
+    const titleSeo = "AC Services In Hudaiba - Emergency AC Repair Service Nearby";
+    const description = "Quick and Best Price AC Services in Hudaiba Dubai. We are experts in central & split AC (Air Condition) repairing service near me Dubai Fix A/C";
+    const Author = "Faj Technical Services";
+    const Keyword = "";
+    const URL = "https://www.fajservices.ae/ac-services-in-hudaiba";
+
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "img/testimonialbg.jpg"
@@ -80,8 +89,19 @@ const AcRepairInHudaibaDetail = ({ subtitle, title, bgImg }) => {
     return (
         <>
             <HelmetProvider>
-                <title>AC Services In Hudaiba - Emergency AC Repair Service Nearby</title>
-                <meta name="description" content="Quick and Best Price AC Services in Hudaiba Dubai. We are experts in central & split AC (Air Condition) repairing service near me Dubai Fix A/C"></meta>
+                <title>{titleSeo}</title>
+                <meta name="description" content={description}></meta>
+                <meta name="keywords" content={Keyword} />
+                <meta name="author" content={Author} />
+                <meta name="robots" content="index, follow" />
+
+                <Link rel="canonical" href={titleSeo} />
+                <meta property="og:type" content="website" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="og:title" content={titleSeo} />
+                <meta property="og:description" content={description} />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content={URL} />
             </HelmetProvider>
             <HeaderForm />
             <div className="cs_service_details">

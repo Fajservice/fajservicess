@@ -19,6 +19,15 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
 
 const AcRepairInDubailandTheVillaPointDetail = ({ subtitle, title, bgImg }) => {
+
+    // For SEO
+    const titleSeo = "AC Services In Dubailand The Villa Point - Aircon Fixing";
+    const description = "FAJ is here to help you with AC Services in Dubailand The Villa Point. Dail 043300002 for central air conditioning maintenance nearby in Dubai";
+    const Author = "Faj Technical Services";
+    const Keyword = "";
+    const URL = "https://www.fajservices.ae/ac-services-in-dubailand-the-villa-point";
+
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "img/testimonialbg.jpg"
@@ -78,8 +87,19 @@ const AcRepairInDubailandTheVillaPointDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
     <HelmetProvider>
-        <title>AC Services In Dubailand The Villa Point - Aircon Fixing</title>
-        <meta name="description" content="FAJ is here to help you with AC Services in Dubailand The Villa Point. Dail 043300002 for central air conditioning maintenance nearby in Dubai"></meta>
+        <title>{titleSeo}</title>
+                <meta name="description" content={description}></meta>
+                <meta name="keywords" content={Keyword} />
+                <meta name="author" content={Author} />
+                <meta name="robots" content="index, follow" />
+
+                <Link rel="canonical" href={titleSeo} />
+                <meta property="og:type" content="website" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="og:title" content={titleSeo} />
+                <meta property="og:description" content={description} />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content={URL} />
     </HelmetProvider>
     <HeaderForm />
     <div className="cs_service_details">

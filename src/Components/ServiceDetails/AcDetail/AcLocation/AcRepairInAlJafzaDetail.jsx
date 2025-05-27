@@ -23,11 +23,11 @@ const AcRepairInAlJafzaDetail = ({ subtitle, title, bgImg }) => {
 
 
     // For SEO
-    const titleSeo = "Appliances Services In Town Square - Washing Machine Repair";
-    const description = "Get appliance services in Town Square. FAJ Experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher, oven";
+    const titleSeo = "Ac Repair In Al Jafza - Air Conditioner Maintenance Service";
+    const description = "Finding exemplary Central & Split Ac Repair in Jafza Dubai can be difficult, however. But that's why we're here to help with aircon cleaning service";
     const Author = "Faj Technical Servcies";
     const Keyword = "";
-    const URL = "https://www.fajservices.ae/appliances-services-in-town-square";
+    const URL = "https://www.fajservices.ae/ac-repair-in-jafza-air-condition-maintenance-in-jafza-air-conditioning-fix-amc-service-in-jebel-ali-free-zone-dubai";
 
 
     subtitle = "Testimonial"
@@ -90,8 +90,19 @@ const AcRepairInAlJafzaDetail = ({ subtitle, title, bgImg }) => {
     return (
         <>
             <HelmetProvider>
-                <title>Ac Repair In Jafza - Air Conditioner Maintenance Service</title>
-                <meta name="description" content="Finding exemplary Central & Split Ac Repair in Jafza Dubai can be difficult, however. But that's why we're here to help with aircon cleaning service "></meta>
+             <title>{titleSeo}</title>
+                <meta name="description" content={description}></meta>
+                <meta name="keywords" content={Keyword} />
+                <meta name="author" content={Author} />
+                <meta name="robots" content="index, follow" />
+
+                <Link rel="canonical" href={titleSeo} />
+                <meta property="og:type" content="website" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="og:title" content={titleSeo} />
+                <meta property="og:description" content={description} />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content={URL} />
             </HelmetProvider>
             <HeaderForm />
             <div className="cs_service_details">

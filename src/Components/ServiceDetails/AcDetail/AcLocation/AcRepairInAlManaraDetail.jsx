@@ -24,11 +24,11 @@ const AcRepairInAlManaraDetail = ({ subtitle, title, bgImg }) => {
 
 
     // For SEO
-    const titleSeo = "Appliances Services In Town Square - Washing Machine Repair";
-    const description = "Get appliance services in Town Square. FAJ Experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher, oven";
-    const Author = "Faj Technical Servcies";
+    const titleSeo = "Best AC Services In Al Manara - Repair Service AC Dubai #1";
+    const description = "Book Sharjah AC and Dubai AC Services in Al Manara. Call 043300002 for inverter, multi-split AC (Air Conditioner) repair service near me location";
+    const Author = "Faj Technical Services";
     const Keyword = "";
-    const URL = "https://www.fajservices.ae/appliances-services-in-town-square";
+    const URL = "https://www.fajservices.ae/ac-services-in-al-manara";
 
 
     subtitle = "Testimonial"
@@ -91,8 +91,18 @@ const AcRepairInAlManaraDetail = ({ subtitle, title, bgImg }) => {
     return (
         <>
             <HelmetProvider>
-                <title>Best AC Services In Al Manara - Repair Service AC Dubai #1</title>
-                <meta name="description" content="Book Sharjah AC and Dubai AC Services in Al Manara. Call 043300002 for inverter, multi-split AC (Air Conditioner) repair service near me location "></meta>
+                 <title>{titleSeo}</title>
+                <meta name="description" content={description}></meta>
+                <meta name="keywords" content={Keyword} />
+                <meta name="author" content={Author} />
+                <meta name="robots" content="index, follow" />
+                <Link rel="canonical" href={titleSeo} />
+                <meta property="og:type" content="website" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="og:title" content={titleSeo} />
+                <meta property="og:description" content={description} />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content={URL} />
             </HelmetProvider>
             <HeaderForm />
             <div className="cs_service_details">
