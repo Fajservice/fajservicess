@@ -18,18 +18,18 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
 
-const AcRepairInDubaiInternationalFinancialCenterDetail = ({ subtitle, title, bgImg }) => {
+const AcRepairInDubaiInternationalFinancialCenterDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const titleSeo = "AC Services In Dubai International Financial Centre";
-    const description = "Book an 043300002. AC Services in Dubai International Financial Centre. We are experts in central AC maintenance service near me Dubai AC fix";
-    const Author = "Faj Technical Services";
-    const Keyword = "";
-    const URL = "https://www.fajservices.ae/ac-services-in-dubai-international-financial-centre/";
+    const metatitle = String(titleSeo || "AC Services In Dubai International Financial Centre");
+    const metadescription = String(description || "Book an 043300002. AC Services in Dubai International Financial Centre. We are experts in central AC maintenance service near me Dubai AC fix");
+    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaKeyword = String(Keyword || "");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-dubai-international-financial-centre");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
-    bgImg = "img/testimonialbg.jpg"
+    reviewsbg = "img/testimonialbg.jpg"
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);

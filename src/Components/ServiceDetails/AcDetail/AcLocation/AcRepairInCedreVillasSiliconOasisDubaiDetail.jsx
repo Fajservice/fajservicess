@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInBusinessBay.json';
-import { HelmetProvider } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
@@ -18,18 +18,18 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
 
-const AcRepairInCedreVillasSiliconOasisDubaiDetail = ({ subtitle, title, bgImg }) => {
+const AcRepairInCedreVillasSiliconOasisDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const titleSeo = "AC Services In Cedre Villas Silicon Oasis Dubai - Gas Fill 1";
-    const description = "AC Gas Leak Problem or Not Working? Call an 043300002 and get fast AC Services in Cedre Villas Silicon Oasis Dubai centralized air condition fix";
-    const Author = "Faj Technical Services";
-    const Keyword = "";
-    const URL = "https://www.fajservices.ae/ac-services-in-cedre-villas-silicon-oasis-dubai";
+    const metatitle = String(titleSeo || "AC Services In Cedre Villas Silicon Oasis Dubai - Gas Fill 1");
+    const metadescription = String(description || "AC Gas Leak Problem or Not Working? Call an 043300002 and get fast AC Services in Cedre Villas Silicon Oasis Dubai centralized air condition fix");
+    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaKeyword = String(Keyword || "");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-cedre-villas-silicon-oasis-dubai");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
-    bgImg = "img/testimonialbg.jpg"
+    reviewsbg = "img/testimonialbg.jpg"
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -53,7 +53,7 @@ const AcRepairInCedreVillasSiliconOasisDubaiDetail = ({ subtitle, title, bgImg }
     }, []);
 
     const settings = {
-       dots: false,
+        dots: false,
         infinite: true,
         speed: 600,
         slidesToShow: 2,
@@ -83,22 +83,23 @@ const AcRepairInCedreVillasSiliconOasisDubaiDetail = ({ subtitle, title, bgImg }
             }
         ]
     };
-  return (
-    <>
+    return (
+        <>
             <HelmetProvider>
-                <title>{titleSeo}</title>
-                       <meta name="description" content={description}></meta>
-                       <meta name="keywords" content={Keyword} />
-                       <meta name="author" content={Author} />
-                       <meta name="robots" content="index, follow" />
-               
-                       <Link rel="canonical" href={titleSeo} />
-                       <meta property="og:type" content="website" />
-                       <meta property="og:locale" content="en_US" />
-                       <meta property="og:title" content={titleSeo} />
-                       <meta property="og:description" content={description} />
-                       <meta property="og:type" content="website" />
-                       <meta property="og:url" content={URL} />
+                <Helmet>
+                    <title>{metatitle}</title>
+                    <meta name="description" content={metadescription}></meta>
+                    <meta name="keywords" content={metaKeyword} />
+                    <meta name="author" content={metaAuthor} />
+                    <meta name="robots" content="index, follow" />
+
+                    <link rel="canonical" href={metaURL} />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:title" content={metatitle} />
+                    <meta property="og:description" content={metadescription} />
+                    <meta property="og:url" content={metaURL} />
+                </Helmet>
             </HelmetProvider>
             <HeaderForm />
             <div className="cs_service_details">
@@ -107,8 +108,8 @@ const AcRepairInCedreVillasSiliconOasisDubaiDetail = ({ subtitle, title, bgImg }
                     <div className="container">
                         <h1 className="cs_fs_30">AC Service in Cedre Villas Silicon Oasis Dubai</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
-            <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
-            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
+                        <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
+                            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 
                         <div id="get-quote" className=" mt-3">
                             <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -163,9 +164,9 @@ const AcRepairInCedreVillasSiliconOasisDubaiDetail = ({ subtitle, title, bgImg }
                         </div>
                     </div>
                 </section>
-   
-           {/* Why is AC Maintenance Service Important in Dubai? */}
-           <section className="section cs_py_30 bg-light-gray">
+
+                {/* Why is AC Maintenance Service Important in Dubai? */}
+                <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
                         <h3 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h3>
                         <p>
@@ -357,11 +358,11 @@ const AcRepairInCedreVillasSiliconOasisDubaiDetail = ({ subtitle, title, bgImg }
                     </div>
                 </section>
 
-                
-        {/* Maintenance Contract */}
-        <MaintenanceContract />
-{/* testimobial section */}
-                <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
+
+                {/* Maintenance Contract */}
+                <MaintenanceContract />
+                {/* testimobial section */}
+                <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                     <div className="container">
                         <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
@@ -453,7 +454,7 @@ const AcRepairInCedreVillasSiliconOasisDubaiDetail = ({ subtitle, title, bgImg }
 
             </div>
         </>
-  )
+    )
 }
 
 export default AcRepairInCedreVillasSiliconOasisDubaiDetail
