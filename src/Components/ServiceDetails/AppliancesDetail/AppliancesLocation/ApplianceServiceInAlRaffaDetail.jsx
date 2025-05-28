@@ -19,6 +19,13 @@ import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 import ApplianceSpecialise from "./Appliance specialise/ApplianceSpecialise.jsx";
 
 const ApplianceServiceInAlRaffaDetail = ({ subtitle, title, bgImg }) => {
+    // For SEO
+    const titleSeo = "Appliances Services in Al Raffa - Fridge Repair Near Me";
+    const description = "Get Appliances Services in Al Raffa. We specilize in fridge repair near me, Call 043300002 to fix washing machine, dishwasher and oven.";
+    const Author = "Faj Technical Servcies";
+    const Keyword = "";
+    const URL = "https://www.fajservices.ae/appliances-services-in-al-raffa/";
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     bgImg = "img/testimonialbg.jpg"
@@ -71,6 +78,37 @@ const ApplianceServiceInAlRaffaDetail = ({ subtitle, title, bgImg }) => {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 1,
+                }
+            }
+        ]
+    };
+
+    const settingBrands = {
+        dots: false,
+        infinite: true,
+        slidesToShow: 6,
+        arrows: false,
+
+        autoplay: true,
+        autoplaySpeed: 5000,
+        pauseOnHover: true,
+
+        responsive: [
+            {
+                breakpoint: 1399,
+                settings: {
+                    slidesToShow: 6,
+                }
+            },
+            {
+                breakpoint: 1199,
+                settings: {
+                    slidesToShow: 4,
+                }
+            }, {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
                 }
             }
         ]
