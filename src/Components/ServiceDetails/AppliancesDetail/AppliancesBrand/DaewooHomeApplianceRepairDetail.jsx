@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/DaewooAppliancesFaqs.json';
-import { HelmetProvider } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
@@ -15,70 +15,70 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
-const DaewooHomeApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
+const DaewooHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+
     // For SEO
-const titleSeo = "Daewoo Home Appliance Repair & Washing Machine Service";
-const description = "Daewoo home appliances service Dubai. Get fast Daewoo refrigerator repair,  Daewoo washing machine repair dishwasher, fridge service center nearme";
-const Author = "Faj Technical Servcies";
-const Keyword = "";
-const URL = "https://www.fajservices.com/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/";
+    const metatitle = String(titleSeo || "Daewoo Home Appliance Repair & Washing Machine Service");
+    const metadescription = String(description || "Daewoo home appliances service Dubai. Get fast Daewoo refrigerator repair,  Daewoo washing machine repair dishwasher, fridge service center nearme");
+    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaKeyword = String(Keyword || "Daewoo Washing Machine Service, Daewoo Home Appliance Repair");
+    const metaURL = String(URL || "https://www.fajservices.ae/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/");
+    subtitle = "Testimonial"
+    title = "What our clients say About Us"
+    reviewsbg = "img/testimonialbg.jpg"
+    const accordionContentRef = useRef(null);
+    const [openItemIndex, setOpenItemIndex] = useState(-1);
+    const [firstItemOpen, setFirstItemOpen] = useState(true);
 
-  subtitle = "Testimonial"
-  title = "What our clients say About Us"
-  bgImg = "img/testimonialbg.jpg"
-  const accordionContentRef = useRef(null);
-  const [openItemIndex, setOpenItemIndex] = useState(-1);
-  const [firstItemOpen, setFirstItemOpen] = useState(true);
-
-  const handleItemClick = index => {
-    if (index === openItemIndex) {
-      setOpenItemIndex(-1);
-    } else {
-      setOpenItemIndex(index);
-    }
-  };
-  useEffect(() => {
-    if (firstItemOpen) {
-      setOpenItemIndex(0);
-      setFirstItemOpen(false);
-    }
-  }, [firstItemOpen]);
-
-  useEffect(() => {
-    loadBackgroudImages();
-  }, []);
-
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    arrows: false,
-    swipeToSlide: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 2,
+    const handleItemClick = index => {
+        if (index === openItemIndex) {
+            setOpenItemIndex(-1);
+        } else {
+            setOpenItemIndex(index);
         }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 2,
+    };
+    useEffect(() => {
+        if (firstItemOpen) {
+            setOpenItemIndex(0);
+            setFirstItemOpen(false);
         }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
-  };
+    }, [firstItemOpen]);
+
+    useEffect(() => {
+        loadBackgroudImages();
+    }, []);
+
+    const settings = {
+        dots: false,
+        infinite: true,
+        speed: 600,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        arrows: false,
+        swipeToSlide: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        pauseOnHover: true,
+        responsive: [
+            {
+                breakpoint: 1399,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 1199,
+                settings: {
+                    slidesToShow: 2,
+                }
+            }, {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    };
 
     const settingBrands = {
         dots: false,
@@ -113,19 +113,19 @@ const URL = "https://www.fajservices.com/daewoo-home-appliance-installation-main
     return (
         <>
             <HelmetProvider>
-
-                <title>{titleSeo}</title>
-                <meta name="description" content={description}></meta>
-                <meta name="keywords" content={Keyword} />
-                <meta name="author" content={Author} />
-                <meta name="robots" content="index, follow" />
-                <Link rel="canonical" href={titleSeo} />
-                <meta property="og:type" content="website" />
-                <meta property="og:locale" content="en_US" />
-                <meta property="og:title" content={titleSeo} />
-                <meta property="og:description" content={description} />
-                <meta property="og:type" content="website" />
-                <meta property="og:url" content={URL} />
+                <Helmet>
+                    <title>{metatitle}</title>
+                    <meta name="description" content={metadescription}></meta>
+                    <meta name="keywords" content={metaKeyword} />
+                    <meta name="author" content={metaAuthor} />
+                    <meta name="robots" content="index, follow" />
+                    <link rel="canonical" href={metaURL} />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:title" content={metatitle} />
+                    <meta property="og:description" content={metadescription} />
+                    <meta property="og:url" content={metaURL} />
+                </Helmet>
             </HelmetProvider>
             <HeaderForm />
 
@@ -506,42 +506,42 @@ const URL = "https://www.fajservices.com/daewoo-home-appliance-installation-main
                         </div>
                     </div>
                 </section>
-                
-                  {/* We specialise  */}
-          <section className="section cs_py_30 bg-light-gray ">
-            <div className="container">
-              <h3>We specialise in Daewoo appliance services of the following types:</h3>
-              <div className="row">
-                <div className="col-12">
-                <p className="mb-0"><strong>Daewoo Washing Machine Repair Near You in Dubai: </strong>FAJ is here to support you when things go wrong. We understand that your Daewoo washing machine is essential for daily life, keeping your laundry clean.</p>
-                <p className="mb-0"><strong>Daewoo Fridge Repair Near You in Dubai</strong>: If you are experiencing issues with your Daewoo refrigerator, please contact the FAJ team for same-day Daewoo refrigerator repair service in Dubai.</p>
-                <p className="mb-0"><strong>Daewoo Freezer Repair Near You in Dubai</strong>: For Daewoo freezer repair and service in Dubai and Sharjah, our team of qualified technicians is available.</p>
-                <p className="mb-0"><strong>Daewoo Home Appliance Service Center Near You</strong>: If you are looking for the best repair service for Daewoo washer dryer in Dubai, FAJ is an excellent choice.&nbsp;They are renowned for their outstanding service in repairing Daewoo fridge freezer and are recognized as the leading provider for the repair of Daewoo cooking ranges, stove fixes, induction, cooktop fixes, washing machines repair, and refrigerator repairs in the area.</p>
-                <p className="mb-0"><strong>Daewoo Dishwasher Repair Near You in Dubai</strong>: Your Daewoo dishwasher may need repair or maintenance. For high-quality integrated Daewoo dishwasher repair and service center in Dubai, rely on FAJ.</p>
-                <p className="mb-0"><strong>Daewoo Cooking Range and Oven Repair Near You:</strong> We offer expert repair services for Daewoo cooking ranges and ovens in Dubai. Our skilled technicians are knowledgeable and experienced in diagnosing and fixing issues with Daewoo refrigerators, dishwashers, dryers, and more.</p>
-                <p className="mb-0"><strong>Daewoo Dryer Repair and Service Near You:</strong> Are you worried about your Daewoo dryer not working properly? Looking for a reliable Daewoo laundry machine company in Dubai? Contact us for same-day service!</p>
-                <p className="mb-0"><strong>Daewoo Oven Repair Near Me Dubai: </strong>If you are looking for the best company for Daewoo oven repairs in Dubai, FAJ is the perfect choice. They are well-known for providing exceptional service for Daewoo oven repairs. FAJ is recognized as the leading service center for Daewoo ovens in the area.</p>
-                </div>
 
-              </div>
-              <h3>We offer service for Daewoo appliances in the Dubai area.</h3>
-             <p><a href="https://www.fajservices.ae/appliances-services-in-business-bay/">Business Bay</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-marina/">Dubai Marina</a> | <a href="https://www.fajservices.ae/appliances-services-in-palm-jumeirah/">Palm Jumeirah</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-hills-estate/">Dubai Hills Estate</a> | <a href="https://www.fajservices.ae/appliances-services-in-damac-hills/">Damac Hills</a> | <a href="https://www.fajservices.ae/appliances-services-in-al-barari/">Al Barari</a> | <a href="https://www.fajservices.ae/appliances-services-in-al-barsha/">Al Barsha</a> | <a href="https://www.fajservices.ae/appliances-services-in-al-safa/">Al Safa</a> | <a href="https://www.fajservices.ae/appliances-services-in-arabian-ranches/">Arabian Ranches</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-silicon-oasis/">Dubai Silicon Oasis</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-investments-park/">Dubai Investments Park</a> | <a href="https://www.fajservices.ae/appliances-services-in-dip/">DIP</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-production-city/">Dubai Production City</a> | <a href="https://www.fajservices.ae/appliances-services-in-impzy/">IMPZ</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-sports-city/">Dubai Sports City</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-studio-city/">Dubai Studio City</a> | <a href="https://www.fajservices.ae/appliances-services-in-jbr/">JBR</a> - <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-beach-residence/">Jumeirah Beach Residence</a> | <a href="https://www.fajservices.ae/appliances-services-in-jlt/">JLT</a> - <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-lake-towers/">Jumeirah Lake Towers</a> | <a href="https://www.fajservices.ae/appliances-services-in-jvc/">JVC</a> - <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-village-circle/">Jumeirah Village Circle</a> | <a href="https://www.fajservices.ae/appliances-services-in-jvt/">JVT</a> - <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-village-triangle/">Jumeirah Village Triangle</a> | <a href="https://www.fajservices.ae/appliances-services-in-jebel-ali-village/">Jebel Ali Village</a> | <a href="https://www.fajservices.ae/appliances-services-in-jumeirah/">Jumeirah</a> | <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-golf-estates/">Jumeirah Golf Estates</a> | <a href="https://www.fajservices.ae/appliances-services-in-the-meadows/">Meadows</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-motor-city/">Motor City</a> | <a href="https://www.fajservices.ae/appliances-services-in-town-square/">Town Square</a> | <a href="https://www.fajservices.ae/ac-services-in-emirates-hills/">Emirates Hills</a> | <a href="https://www.fajservices.ae/appliances-services-in-umm-suqeim/">Umm Suqeim</a> |</p>
-              <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
-                  <GetQuoteButton />
-                  <CallNowButton />
-                </div>
-              </div>
+                {/* We specialise  */}
+                <section className="section cs_py_30 bg-light-gray ">
+                    <div className="container">
+                        <h3>We specialise in Daewoo appliance services of the following types:</h3>
+                        <div className="row">
+                            <div className="col-12">
+                                <p className="mb-0"><strong>Daewoo Washing Machine Repair Near You in Dubai: </strong>FAJ is here to support you when things go wrong. We understand that your Daewoo washing machine is essential for daily life, keeping your laundry clean.</p>
+                                <p className="mb-0"><strong>Daewoo Fridge Repair Near You in Dubai</strong>: If you are experiencing issues with your Daewoo refrigerator, please contact the FAJ team for same-day Daewoo refrigerator repair service in Dubai.</p>
+                                <p className="mb-0"><strong>Daewoo Freezer Repair Near You in Dubai</strong>: For Daewoo freezer repair and service in Dubai and Sharjah, our team of qualified technicians is available.</p>
+                                <p className="mb-0"><strong>Daewoo Home Appliance Service Center Near You</strong>: If you are looking for the best repair service for Daewoo washer dryer in Dubai, FAJ is an excellent choice.&nbsp;They are renowned for their outstanding service in repairing Daewoo fridge freezer and are recognized as the leading provider for the repair of Daewoo cooking ranges, stove fixes, induction, cooktop fixes, washing machines repair, and refrigerator repairs in the area.</p>
+                                <p className="mb-0"><strong>Daewoo Dishwasher Repair Near You in Dubai</strong>: Your Daewoo dishwasher may need repair or maintenance. For high-quality integrated Daewoo dishwasher repair and service center in Dubai, rely on FAJ.</p>
+                                <p className="mb-0"><strong>Daewoo Cooking Range and Oven Repair Near You:</strong> We offer expert repair services for Daewoo cooking ranges and ovens in Dubai. Our skilled technicians are knowledgeable and experienced in diagnosing and fixing issues with Daewoo refrigerators, dishwashers, dryers, and more.</p>
+                                <p className="mb-0"><strong>Daewoo Dryer Repair and Service Near You:</strong> Are you worried about your Daewoo dryer not working properly? Looking for a reliable Daewoo laundry machine company in Dubai? Contact us for same-day service!</p>
+                                <p className="mb-0"><strong>Daewoo Oven Repair Near Me Dubai: </strong>If you are looking for the best company for Daewoo oven repairs in Dubai, FAJ is the perfect choice. They are well-known for providing exceptional service for Daewoo oven repairs. FAJ is recognized as the leading service center for Daewoo ovens in the area.</p>
+                            </div>
 
-            </div>
-          </section>
+                        </div>
+                        <h3>We offer service for Daewoo appliances in the Dubai area.</h3>
+                        <p><a href="https://www.fajservices.ae/appliances-services-in-business-bay/">Business Bay</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-marina/">Dubai Marina</a> | <a href="https://www.fajservices.ae/appliances-services-in-palm-jumeirah/">Palm Jumeirah</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-hills-estate/">Dubai Hills Estate</a> | <a href="https://www.fajservices.ae/appliances-services-in-damac-hills/">Damac Hills</a> | <a href="https://www.fajservices.ae/appliances-services-in-al-barari/">Al Barari</a> | <a href="https://www.fajservices.ae/appliances-services-in-al-barsha/">Al Barsha</a> | <a href="https://www.fajservices.ae/appliances-services-in-al-safa/">Al Safa</a> | <a href="https://www.fajservices.ae/appliances-services-in-arabian-ranches/">Arabian Ranches</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-silicon-oasis/">Dubai Silicon Oasis</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-investments-park/">Dubai Investments Park</a> | <a href="https://www.fajservices.ae/appliances-services-in-dip/">DIP</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-production-city/">Dubai Production City</a> | <a href="https://www.fajservices.ae/appliances-services-in-impzy/">IMPZ</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-sports-city/">Dubai Sports City</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-studio-city/">Dubai Studio City</a> | <a href="https://www.fajservices.ae/appliances-services-in-jbr/">JBR</a> - <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-beach-residence/">Jumeirah Beach Residence</a> | <a href="https://www.fajservices.ae/appliances-services-in-jlt/">JLT</a> - <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-lake-towers/">Jumeirah Lake Towers</a> | <a href="https://www.fajservices.ae/appliances-services-in-jvc/">JVC</a> - <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-village-circle/">Jumeirah Village Circle</a> | <a href="https://www.fajservices.ae/appliances-services-in-jvt/">JVT</a> - <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-village-triangle/">Jumeirah Village Triangle</a> | <a href="https://www.fajservices.ae/appliances-services-in-jebel-ali-village/">Jebel Ali Village</a> | <a href="https://www.fajservices.ae/appliances-services-in-jumeirah/">Jumeirah</a> | <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-golf-estates/">Jumeirah Golf Estates</a> | <a href="https://www.fajservices.ae/appliances-services-in-the-meadows/">Meadows</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-motor-city/">Motor City</a> | <a href="https://www.fajservices.ae/appliances-services-in-town-square/">Town Square</a> | <a href="https://www.fajservices.ae/ac-services-in-emirates-hills/">Emirates Hills</a> | <a href="https://www.fajservices.ae/appliances-services-in-umm-suqeim/">Umm Suqeim</a> |</p>
+                        <div id="get-quote" className=" mt-3">
+                            <div className="container d-flex justify-content-center align-items-center gap-3">
+                                <GetQuoteButton />
+                                <CallNowButton />
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
 
 
-                
-        {/* Maintenance Contract */}
-        <MaintenanceContract />
-{/* testimobial section */}
-                <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
+
+                {/* Maintenance Contract */}
+                <MaintenanceContract />
+                {/* testimobial section */}
+                <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                     <div className="container">
                         <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">

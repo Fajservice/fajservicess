@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInDip.json';
-import { HelmetProvider } from "react-helmet-async";
+import { HelmetProvider, Helmet } from "react-helmet-async";
 
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
@@ -18,10 +18,18 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
 
-const AcRepairInAlFurjanDetail = ({ subtitle, title, bgImg }) => {
+const AcRepairInAlFurjanDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+
+    // For SEO
+    const metatitle = String(titleSeo || "AC Services In Al Furjan - Air Conditioner Repairing #1");
+    const metadescription = String(description || "Are you looking for AC Services in Al Furjan Villas Dubai? Dail 043300002 for LG, Carrier air conditioner repair & maintenance near me in dubai");
+    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaKeyword = String(Keyword || "");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-furjan");
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
-    bgImg = "img/testimonialbg.jpg"
+    reviewsbg = "img/testimonialbg.jpg"
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -77,9 +85,21 @@ const AcRepairInAlFurjanDetail = ({ subtitle, title, bgImg }) => {
     }
   return (
     <>
-            <HelmetProvider>
-                <title>AC Services In Al Furjan - Air Conditioner Repairing #1</title>
-                <meta name="description" content="Are you looking for AC Services in Al Furjan Villas Dubai? Dail 043300002 for LG, Carrier air conditioner repair & maintenance near me in dubai"></meta>
+             <HelmetProvider>
+                <Helmet>
+                 <title>{metatitle}</title>
+                       <meta name="description" content={metadescription}></meta>
+                       <meta name="keywords" content={metaKeyword} />
+                       <meta name="author" content={metaAuthor} />
+                       <meta name="robots" content="index, follow" />
+               
+                       <link rel="canonical" href={metaURL} />
+                       <meta property="og:type" content="website" />
+                       <meta property="og:locale" content="en_US" />
+                       <meta property="og:title" content={metatitle} />
+                       <meta property="og:description" content={metadescription} />
+                       <meta property="og:url" content={metaURL} />
+                       </Helmet>
             </HelmetProvider>
             <HeaderForm />
             <div className="cs_service_details">
@@ -342,7 +362,7 @@ const AcRepairInAlFurjanDetail = ({ subtitle, title, bgImg }) => {
         {/* Maintenance Contract */}
         <MaintenanceContract />
 {/* testimobial section */}
-                <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
+                <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                     <div className="container">
                         <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">

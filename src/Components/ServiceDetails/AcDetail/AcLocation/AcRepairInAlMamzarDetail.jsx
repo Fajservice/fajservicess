@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInDip.json';
-import { HelmetProvider } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
@@ -18,18 +18,18 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
 
-const AcRepairInAlMamzarDetail = ({ subtitle, title, bgImg }) => {
+const AcRepairInAlMamzarDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const titleSeo = "AC Repair and Service in Al Mamzar - Gree AC Maintenance";
-    const description = "Get same day AC repair and service in Al Mamzar Dubai. Call now 043300002 for your Gree air conditioner repairs and fix Gree AC error near you Dubai";
-    const Author = "Faj Technical Servcies";
-    const Keyword = "";
-    const URL = "https://www.fajservices.ae/ac-repair-and-ac-service-in-al-mamzar";
+    const metatitle = String(titleSeo || "AC Repair and Service in Al Mamzar - Gree AC Maintenance");
+    const metadescription = String(description || "Get same day AC repair and service in Al Mamzar Dubai. Call now 043300002 for your Gree air conditioner repairs and fix Gree AC error near you Dubai");
+    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaKeyword = String(Keyword || "");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-repair-and-ac-service-in-al-mamzar");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
-    bgImg = "img/testimonialbg.jpg"
+    reviewsbg = "img/testimonialbg.jpg"
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -86,20 +86,21 @@ const AcRepairInAlMamzarDetail = ({ subtitle, title, bgImg }) => {
     return (
         <>
             <HelmetProvider>
-                <title>{titleSeo}</title>
-                       <meta name="description" content={description}></meta>
-                       <meta name="keywords" content={Keyword} />
-                       <meta name="author" content={Author} />
-                       <meta name="robots" content="index, follow" />
-               
-                       <Link rel="canonical" href={titleSeo} />
-                       <meta property="og:type" content="website" />
-                       <meta property="og:locale" content="en_US" />
-                       <meta property="og:title" content={titleSeo} />
-                       <meta property="og:description" content={description} />
-                       <meta property="og:type" content="website" />
-                       <meta property="og:url" content={URL} />
-            </HelmetProvider>
+                            <Helmet>
+                             <title>{metatitle}</title>
+                                   <meta name="description" content={metadescription}></meta>
+                                   <meta name="keywords" content={metaKeyword} />
+                                   <meta name="author" content={metaAuthor} />
+                                   <meta name="robots" content="index, follow" />
+                           
+                                   <link rel="canonical" href={metaURL} />
+                                   <meta property="og:type" content="website" />
+                                   <meta property="og:locale" content="en_US" />
+                                   <meta property="og:title" content={metatitle} />
+                                   <meta property="og:description" content={metadescription} />
+                                   <meta property="og:url" content={metaURL} />
+                                   </Helmet>
+                        </HelmetProvider>
             <HeaderForm />
             <div className="cs_service_details">
 
@@ -361,7 +362,7 @@ const AcRepairInAlMamzarDetail = ({ subtitle, title, bgImg }) => {
                 {/* Maintenance Contract */}
                 <MaintenanceContract />
                 {/* testimobial section */}
-                <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
+                <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                     <div className="container">
                         <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
