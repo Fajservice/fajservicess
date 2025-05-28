@@ -148,7 +148,6 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, bgImg }) => {
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
             {/* <h2 className="cs_fs_30">Select Oven Service Center for Same-Day Repairs in Dubai</h2>
              */}
-             <h1 className="cs_fs_36">Built-in Appliances Repair Service Dubai</h1>
             <p>
               FAJ Technical Services L.L.C. has been providing reliable and quality services, including installation, repair, and maintenance of built-in appliances, since 2010. We have completed projects in Dubai, Sharjah, and Abu Dhabi.
               <br />

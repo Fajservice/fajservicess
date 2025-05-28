@@ -164,14 +164,16 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
                 <h3 className="cs_fs_24 mb-1">Explore FAJ’s Annual Appliances Maintenance Contract</h3>
 
                 <p className="mb-2">Our annual maintenance contract ensures that your kitchen equipment, both domestic and commercial, receives top-notch care from our expert team of professionals in the UAE.<br />We have been repairing, cleaning, and maintaining a wide range of equipment, including freezers, chillers, gas ranges, stoves, pizza ovens, hot plates, hoods, mixers, blenders, food processors, grinders, snack equipment, beverage equipment, bakeware, microwaves, ovens, and cooktops. Our experienced technicians utilise advanced techniques to keep your home and business running optimally throughout the year.<br />If you’re interested in learning more about our AMC options, please feel free to contact us.</p>
+                
               </div>
 
               <div className="col-md-6 ">
                 {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Kitchen Equipments AMC" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} alt="Kitchen Equipments AMC" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/commercial-kitchen-equipment-amc.jpg`} alt="Kitchen Equipments AMC" />
               </div>
             </div>
-            <AppliancesAppointmentCol></AppliancesAppointmentCol>
+            <h3 className="cs_fs_24 mb-1 border-small-top pt-3">Planned Preventive Maintenance (PPM) Services</h3>
+                <p className="mb-2">Our catering equipment technician can provide your business with a customised Planned Preventive Maintenance Package designed to keep your catering, cooking line, baking line, and refrigeration equipment compliant and running efficiently.< br/> This proactive approach reduces the likelihood of unexpected breakdowns and associated costs. Our Planned Preventive Maintenance Package includes maintenance, repair services, and testing. It is ideal for hotels, restaurants, canteens, and other venues in the hospitality and education sectors looking to ensure their equipment operates smoothly and to prevent breakdowns.</p>
           </div>
         </section>
 
@@ -321,56 +323,18 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
                       <div className="icon-img-block border-0">
                         <img src={`${import.meta.env.BASE_URL}img/icons/24x7b.jpg`} alt="24x7" className="rounded shadow" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">24×7 days a week service</h4>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Routine Service</h4>
                       <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
                     </div>
                   </div>
                 </div>
-
-                <div className="col-md-3 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/annual-contract-b.jpg`} alt="annual contract icon" className="rounded shadow" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">    Annual maintenance contracts </h4>
-                      <p className="small">Regular maintenance helps your appliances  run smoothly and efficiently, delivering the best results every time.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-md-3 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/trained-b.jpg`} alt="trained icon" className="rounded shadow" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18"> Well trained & certified technicians </h4>
-                      <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-md-3 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/installation-b.jpg`} alt="installation icon" className="rounded shadow" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Installation, testing & commissioning of commercial kitchens </h4>
-                      <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
-                    </div>
-                  </div>
-                </div>
-
                 <div className="col-md-3 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
                         <img src={`${import.meta.env.BASE_URL}img/icons/call.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">On-call services for kitchen equipment</h4>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">On-call services</h4>
                       <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
 
                     </div>
@@ -384,37 +348,66 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
                       <div className="icon-img-block border-0">
                         <img src={`${import.meta.env.BASE_URL}img/icons/gearicon.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Availability of genuine spare parts </h4>
-                      <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Genuine Spare Parts</h4>
+                      <p className="small">Knowing your commercial kitchen equipment is in top condition gives you confidence and removes the stress of unexpected failures.</p>
                     </div>
                   </div>
                 </div>
-
-                <div className="col-md-3 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/wellicon.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18"> Well versed in handling MEP services for kitchen projects</h4>
-                      <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
-                    </div>
-                  </div>
-                </div>
-
                 <div className="col-md-3 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
                         <img src={`${import.meta.env.BASE_URL}img/icons/wellstar.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Complete maintenance solutions</h4>
-                      <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Maintenance Costs</h4>
+                      <p className="small">High-quality equipment may be more expensive initially, but it typically breaks down less frequently and requires fewer repairs.</p>
                     </div>
                   </div>
                 </div>
-
-
+                <div className="col-md-3 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block border-0">
+                        <img src={`${import.meta.env.BASE_URL}img/icons/trained-b.jpg`} alt="trained icon" className="rounded shadow" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Increased Efficiency</h4>
+                      <p className="small">Commercial kitchen equipment can improve the efficiency of daily tasks in your kitchen. · Lower Maintenance Costs · Superior Quality.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-3 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block border-0">
+                        <img src={`${import.meta.env.BASE_URL}img/icons/wellicon.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Cost Efficiency</h4>
+                      <p className="small">FAJ a Save hand maintenance. Here’s a cost comparison of renting vs. owning a commercial kitchen: as a renter, you avoid high startup equipment costs.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-3 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block border-0">
+                        <img src={`${import.meta.env.BASE_URL}img/icons/annual-contract-b.jpg`} alt="annual contract icon" className="rounded shadow" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Report and Updates</h4>
+                      <p className="small">FAJ is issuing a report on the status and upkeep of commercial kitchen equipment, emphasizing necessary actions for enhancing efficiency and safety.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-3 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block border-0">
+                        <img src={`${import.meta.env.BASE_URL}img/icons/installation-b.jpg`} alt="installation icon" className="rounded shadow" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Experts and Trained Team</h4>
+                      <p className="small">FAJ employs technicians to provide customers with effective maintenance and repair services for commercial kitchen equipment to ensure satisfaction.</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

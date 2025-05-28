@@ -1,7 +1,7 @@
 import BreadCumb from "../../Components/Common/BreadCumb";
-import GasRangeRepairServiceDetail from "../../Components/ServiceDetails/HomeAppDetails/GasRangeRepairServiceDetail"
+import GasRangeRepairDetail from "../../Components/ServiceDetails/HomeAppDetails/GasRangeRepairDetail"
 
-const GasRangeRepairService = () => {
+const GasRangeRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
@@ -9,9 +9,9 @@ const GasRangeRepairService = () => {
                 Title="Gas Cooker Repair"
             ></BreadCumb>
 
-            <GasRangeRepairServiceDetail></GasRangeRepairServiceDetail>
+            <GasRangeRepairDetail></GasRangeRepairDetail>
         </div>
     );
 };
 
-export default GasRangeRepairService;
+export default GasRangeRepair;

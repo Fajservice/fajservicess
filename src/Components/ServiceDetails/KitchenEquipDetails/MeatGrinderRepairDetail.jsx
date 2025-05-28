@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../Data/KitchenEquipments/FAQs/MeatGrinderRepairFaqs.json';
-import { HelmetProvider } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
@@ -14,18 +14,17 @@ import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointme
 
 // import { Link } from "react-router-dom";
 
-const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
-
+const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , description, Author, Keyword, URL }) => {
   // For SEO
-  const titleSeo = "Meat Grinder Repair & Maintenance Services Dubai";
-  const description = "Need meat grinder repair in Dubai? FAJ offers expert repair services near me. Call us now for fast and reliable meat grinder repair at 043300002";
-  const Author = "Faj Technical Servcies";
-  const Keyword = "";
-  const URL = "https://www.fajservices.com/meat-grinder-repair/";
+  const metatitle = String(titleSeo || "Meat Grinder Repair & Maintenance Services Dubai");
+  const metadescription = String(description || "Need meat grinder repair in Dubai? FAJ offers expert repair services near me. Call us now for fast and reliable meat grinder repair at 043300002");
+  const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
+  const metaKeyword = String(Keyword || "Meat Grinder Repair, Meat Grinder Service, Meat Grinder Maintenance");
+  const metaURL = String(URL || "https://www.fajservices.com/meat-grinder-repair/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
-  bgImg = "img/testimonialbg.jpg"
+  reviewsbg = "img/testimonialbg.jpg"
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -117,19 +116,19 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-
-        <title>{titleSeo}</title>
-        <meta name="description" content={description}></meta>
-        <meta name="keywords" content={Keyword} />
-        <meta name="author" content={Author} />
-        <meta name="robots" content="index, follow" />
-        <Link rel="canonical" href={titleSeo} />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:title" content={titleSeo} />
-        <meta property="og:description" content={description} />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={URL} />
+          <Helmet>
+            <title>{metatitle}</title>
+            <meta name="description" content={metadescription}></meta>
+            <meta name="keywords" content={metaKeyword} />
+            <meta name="author" content={metaAuthor} />
+            <meta name="robots" content="index, follow" />
+            <link rel="canonical" href={metaURL} />
+            <meta property="og:type" content="website" />
+            <meta property="og:locale" content="en_US" />
+            <meta property="og:title" content={metatitle} />
+            <meta property="og:description" content={metadescription} />
+            <meta property="og:url" content={metaURL} />
+          </Helmet>
       </HelmetProvider>
       <HeaderForm />
 
@@ -173,12 +172,10 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
                 </p>
 
 
-                {/* <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Meat Grinder Technical Inspection Fee</h3>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top"> Commercial Meat Grinder Repair Near You</h3>
                 <p className="mb-0">
-                  We have a standard technical inspection fee starting from AED 157 to 320 (depending on the appliance) that covers diagnosis, transportation, and reinstallation of the same appliance.
-                  <br />
-                  Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any repair/parts. Also, get repairs from us for your coffee machine, stand mixer, or robot vacuum.
-                </p> */}
+                  Has your butcher equipment or machinery broken down? Look no further than System Food Machinery for your meat grinder services. For over 16 years, we have been providing butcher machine repair in Dubai, along with repairs for other meat and vegetable preparation equipment. We are dedicated to delivering high-quality breakdown, repair, and recovery services for food equipment and machinery.
+                </p>
               </div>
 
               <div className="col-md-6 ">
@@ -559,7 +556,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, bgImg }) => {
         {/* Maintenance Contract */}
         <MaintenanceContract />
 {/* testimobial section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
+        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">

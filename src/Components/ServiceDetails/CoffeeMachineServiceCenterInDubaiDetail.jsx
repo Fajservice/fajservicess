@@ -141,7 +141,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, bgImg }) => 
 
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30"> Coffee Machine Service Center in Dubai</h2>
+            <h1 className="cs_fs_30"> Coffee Machine Service Center in Dubai</h1>
             <p>
               Since 2010, FAJ has been providing reliable and trusted expertise in installation and maintenance, specializing in coffee machine repair and service in Dubai, serving homes, offices, restaurants, and cafes.
 

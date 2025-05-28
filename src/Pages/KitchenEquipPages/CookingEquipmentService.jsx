@@ -1,15 +1,15 @@
 import BreadCumb from "../../Components/Common/BreadCumb.jsx";
-import GasRangeDetail from "../../Components/ServiceDetails/KitchenEquipDetails/GasRangeRepairDetail.jsx";
-const GasRangeRepair = () => {
+import CookingEquipmentServiceDetail from "../../Components/ServiceDetails/KitchenEquipDetails/CookingEquipmentServiceDetail.jsx";
+const CookingEquipmentService = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
                 bgImg="img/banners/kitchen-equipments/Cooking-Equipment-repair.avif"
                 Title="Gas Range Repair"
             ></BreadCumb>
-            <GasRangeDetail />
+            <CookingEquipmentServiceDetail />
         </div>
     );
 };
 
-export default GasRangeRepair;
+export default CookingEquipmentService;
