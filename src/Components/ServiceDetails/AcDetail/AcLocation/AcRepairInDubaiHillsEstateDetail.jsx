@@ -22,13 +22,6 @@ import WeSpecialise from "./WeSpecialise/WeSpecialise";
 const AcRepairInDubaiHillsEstateDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const titleSeo = "AC Repair and Service in Dubai Hills Estate - Gree AC Maintenance";
-    const description = "Get same day AC repair and service in Dubai Hills Estate Dubai. Call now 043300002 for your Gree air conditioner repairs and fix Gree AC error near you Dubai";
-    const Author = "Faj Technical Services";
-    const Keyword = "";
-    const URL = "https://www.fajservices.ae/ac-repair-and-ac-service-in-dubai-hills-estate/";
-
-    // For SEO
     const metatitle = String(titleSeo || "AC Repair and Service in Dubai Hills Estate - Gree AC Maintenance");
     const metadescription = String(description || "Get same day AC repair and service in Dubai Hills Estate Dubai. Call now 043300002 for your Gree air conditioner repairs and fix Gree AC error near you Dubai");
     const metaAuthor = String(Author || "Faj Technical Services");
