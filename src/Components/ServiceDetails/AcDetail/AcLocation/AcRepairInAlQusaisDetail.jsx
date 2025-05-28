@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInAlQusais.json';
-import { HelmetProvider } from "react-helmet-async";
+import { HelmetProvider, Helmet } from "react-helmet-async";
 
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
@@ -9,7 +9,6 @@ import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMaintenance";
 import QuickGuide from "../../../QuickGuide/QuickGuide";
 import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
-import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
 import testimonial from '../../../../Data/AcData/AcTestimonial/AcServiceTestimonials.json';
@@ -18,20 +17,20 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
 
-const AcRepairInAlQusaisDetail = ({ subtitle, title, bgImg }) => {
+const AcRepairInAlQusaisDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
 
     // For SEO
-    const titleSeo = "Expert AC Repair in Al Qusais - Get Central AC Service";
-    const description = "Get top-notch AC repair in Al Qusais with experts. We offer cost-effective solutions for all your HVAC, split & central air conditioner Dubai 043300002ac-repair-al-qusais";
-    const Author = "Faj Technical Services";
-    const Keyword = "";
-    const URL = "https://www.fajservices.ae/ac-repair-al-qusais";
+    const metatitle = String(titleSeo || "Expert AC Repair in Al Qusais - Get Central AC Service");
+    const metadescription = String(description || "Get top-notch AC repair in Al Qusais with experts. We offer cost-effective solutions for all your HVAC, split & central air conditioner Dubai 043300002ac-repair-al-qusais");
+    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaKeyword = String(Keyword || "");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-repair-al-qusais");
 
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
-    bgImg = "img/testimonialbg.jpg"
+    reviewsbg = "img/testimonialbg.jpg"
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -89,19 +88,20 @@ const AcRepairInAlQusaisDetail = ({ subtitle, title, bgImg }) => {
     return (
         <>
             <HelmetProvider>
-                 <title>{titleSeo}</title>
-                       <meta name="description" content={description}></meta>
-                       <meta name="keywords" content={Keyword} />
-                       <meta name="author" content={Author} />
+                <Helmet>
+                 <title>{metatitle}</title>
+                       <meta name="description" content={metadescription}></meta>
+                       <meta name="keywords" content={metaKeyword} />
+                       <meta name="author" content={metaAuthor} />
                        <meta name="robots" content="index, follow" />
                
-                       <Link rel="canonical" href={titleSeo} />
+                       <link rel="canonical" href={metaURL} />
                        <meta property="og:type" content="website" />
                        <meta property="og:locale" content="en_US" />
-                       <meta property="og:title" content={titleSeo} />
-                       <meta property="og:description" content={description} />
-                       <meta property="og:type" content="website" />
-                       <meta property="og:url" content={URL} />
+                       <meta property="og:title" content={metatitle} />
+                       <meta property="og:description" content={metadescription} />
+                       <meta property="og:url" content={metaURL} />
+                       </Helmet>
             </HelmetProvider>
             <HeaderForm />
             <div className="cs_service_details">
@@ -361,7 +361,7 @@ const AcRepairInAlQusaisDetail = ({ subtitle, title, bgImg }) => {
                 </section>
 
                 {/* testi section */}
-                <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed   position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
+                <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed   position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
 
                     <div className="container">
                         <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">

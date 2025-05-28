@@ -512,7 +512,6 @@ const ApplianceServiceInAlRaffaDetail = ({ subtitle, title, bgImg }) => {
                                         </div>
                                     ))}
                                 </Slider>
-
                             </div>
                         </div>
                     </div>

@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairinAlJafiliya.json';
-import { HelmetProvider } from "react-helmet-async";
+import { HelmetProvider, Helmet } from "react-helmet-async";
 
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
@@ -22,11 +22,11 @@ const AcRepairinAlJafiliyaDetail = ({ subtitle, title, bgImg }) => {
 
 
     // For SEO
-    const titleSeo = "Appliances Services in Al Jafiliya - Washing Machine Repair";
-    const description = "We offer best appliance services in Al Jafiliya. Get washing machine repair near me in Dubai. Book 043300002 for fridge, oven, dishwasher maintenance.";
-    const Author = "Faj Technical Servcies";
-    const Keyword = "";
-    const URL = "https://www.fajservices.ae/ac-services-in-al-jafiliya";
+    const metatitle = String(titleSeo || "Best AC Services In Al Jafiliya - Air Conditioning Repairs 1");
+    const metadescription = String(description || "We offer best appliance services in Al Jafiliya. Get washing machine repair near me in Dubai. Book 043300002 for fridge, oven, dishwasher maintenance.");
+    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaKeyword = String(Keyword || "");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-jafiliya");
 
 
     subtitle = "Testimonial"
@@ -90,19 +90,20 @@ const AcRepairinAlJafiliyaDetail = ({ subtitle, title, bgImg }) => {
     return (
         <>
             <HelmetProvider>
-               <title>{titleSeo}</title>
-                <meta name="description" content={description}></meta>
-                <meta name="keywords" content={Keyword} />
-                <meta name="author" content={Author} />
-                <meta name="robots" content="index, follow" />
-
-                <Link rel="canonical" href={titleSeo} />
-                <meta property="og:type" content="website" />
-                <meta property="og:locale" content="en_US" />
-                <meta property="og:title" content={titleSeo} />
-                <meta property="og:description" content={description} />
-                <meta property="og:type" content="website" />
-                <meta property="og:url" content={URL} />
+                <Helmet>
+                 <title>{metatitle}</title>
+                       <meta name="description" content={metadescription}></meta>
+                       <meta name="keywords" content={metaKeyword} />
+                       <meta name="author" content={metaAuthor} />
+                       <meta name="robots" content="index, follow" />
+               
+                       <link rel="canonical" href={metaURL} />
+                       <meta property="og:type" content="website" />
+                       <meta property="og:locale" content="en_US" />
+                       <meta property="og:title" content={metatitle} />
+                       <meta property="og:description" content={metadescription} />
+                       <meta property="og:url" content={metaURL} />
+                       </Helmet>
             </HelmetProvider>
             <HeaderForm />
             <div className="cs_service_details">

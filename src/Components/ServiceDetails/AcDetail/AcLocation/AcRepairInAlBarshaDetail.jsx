@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInDip.json';
-import { HelmetProvider } from "react-helmet-async";
+import { HelmetProvider, Helmet } from "react-helmet-async";
 
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
@@ -18,10 +18,18 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
 
-const AcRepairInAlBarshaDetail = ({ subtitle, title, bgImg }) => {
+const AcRepairInAlBarshaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+
+    // For SEO
+    const metatitle = String(titleSeo || "Appliances Services In Al Barsha - Washing Machine Repair");
+    const metadescription = String(description || "Get appliance services in Al Barsha. FAJ experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher, oven");
+    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaKeyword = String(Keyword || "");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-barsha");
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
-    bgImg = "img/testimonialbg.jpg"
+    reviewsbg = "img/testimonialbg.jpg"
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -78,9 +86,21 @@ const AcRepairInAlBarshaDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
     <HelmetProvider>
-        <title>Get AC Repair In Al Barsha - Air Con Service Near Me</title>
-        <meta name="description" content="Find AC Repair in Al Barsha in your area who can help with your central & split air conditioner maintenance, aircon cleaning service Dubai. Dail 043300002"></meta>
-    </HelmetProvider>
+                <Helmet>
+                 <title>{metatitle}</title>
+                       <meta name="description" content={metadescription}></meta>
+                       <meta name="keywords" content={metaKeyword} />
+                       <meta name="author" content={metaAuthor} />
+                       <meta name="robots" content="index, follow" />
+               
+                       <link rel="canonical" href={metaURL} />
+                       <meta property="og:type" content="website" />
+                       <meta property="og:locale" content="en_US" />
+                       <meta property="og:title" content={metatitle} />
+                       <meta property="og:description" content={metadescription} />
+                       <meta property="og:url" content={metaURL} />
+                       </Helmet>
+            </HelmetProvider>
     <HeaderForm />
     <div className="cs_service_details">
 
@@ -342,7 +362,7 @@ const AcRepairInAlBarshaDetail = ({ subtitle, title, bgImg }) => {
         {/* Maintenance Contract */}
         <MaintenanceContract />
 {/* testimobial section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
+        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
             {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
             <div className="container">
                 <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
