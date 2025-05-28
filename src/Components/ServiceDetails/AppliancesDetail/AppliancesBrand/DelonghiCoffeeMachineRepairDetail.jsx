@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
+import data from '../../../../Data/AppliancesData/AppliancesFaqs/delonghicoffeemachineFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 
@@ -13,6 +13,8 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
+import GetQuoteButton from "../../../Buttons/GetQuoteButton";
+import CallNowButton from "../../../Buttons/CallNowButton";
 
 const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
   // For SEO
@@ -134,11 +136,12 @@ const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Delonghi Coffee Machine Repair</h1>
+            <h1 className="cs_fs_30">Expert DeLonghi Coffee Machine Repair and Service in Dubai</h1>
             {/* 
           <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2> */}
             <p>
-              Delonghi appliances are the best among the other brands out there. Still, products of the best brands even do not last endlessly. In addition, we are all sure that our appliances break down when we need them the most. Reasonably, your first reaction will be to see if your appliance is repairable. You can fix minor issues, but mostly, you cannot. So why worry? We are the best Delonghi appliance repair service provider in Dubai. We are the most experienced industry experts serving since 2010 in Dubai. With hands-on experience with all home appliances, you can expect successful and swift repairs from us. Delonghi Fridge Repair in Dubai So, contact us today to get your repair appointment. Enjoy superior Delonghi appliance repair with FAJ Technical Services LLC.
+              At De’Longhi, we take pride in offering services that meet the diverse needs of coffee lovers in Dubai, UAE. Since 2010, <a href="https://www.fajservices.ae/">F A J Technical Services L.L.C</a> has been providing a range of DeLonghi coffee machine repair and maintenance services, including cleaning and descaling.<br />Whether you enjoy single-origin coffees or premium ground blends, we are here to assist you. Whether you prefer brewing your coffee at the push of a button or mastering the art of coffee-making with a manual machine, we hope you enjoy many years of use from your De’Longhi coffee machine.
+
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -151,44 +154,71 @@ const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* Best Home Appliance Service Center */}
-        {/* <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Best Delonghi Washing Machine Repair </h3>
+                <h3 className="cs_fs_24 mb-1">DeLonghi Coffee Machine Serving and Descaling</h3>
 
                 <p className="mb-2">
-                  If you need Delonghi Appliance Repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
-                  <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
-                  <br /> We're nearby and can get your appliances fixed quickly and efficiently.
+                  When your DeLonghi coffee machine breaks down, it can disrupt your routine. FAJ offers fast and efficient DeLonghi coffee machine repair services near you.< br />
+We specialise in DeLonghi espresso machine descaling, cleaning, water leaks, steam wand issues, noise, poor coffee quality, and grinding problems. Let us help get your coffee machine back in shape.
+
                 </p>
 
-                <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service
-                </h3>
-                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services LLC</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
+                <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">DeLonghi Coffee Machine Repair and Maintenance Contract</h3>
+                <p className="mb-2">We are here to help with whatever you need. A scheduled AMC service contract for your DeLonghi coffee machine covering cleaning and descaling is essential for smooth operation year-round.< br />
+Regular maintenance is important for all types of coffee machines, whether for home, office, café, or restaurant use. Let us make your life easier.
+</p>
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} alt="Post Image" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/coffee-machine-service.avif`} alt="Delonghi coffee machine repair" />
               </div>
             </div>
             <AppliancesAppointmentCol></AppliancesAppointmentCol>
           </div>
-        </section> */}
+        </section>
+        
+         {/* Why is Appliance Maintenance Service Important in Dubai? */}
+        <section className="section cs_py_30 ">
+          <div className="container">
+
+            <h3 className="cs_fs_30">What is the Importance of DeLonghi Coffee Machine Maintenance in Dubai?</h3>
+            <p className="">Regular maintenance of a DeLonghi coffee machine is crucial for businesses. It ensures coffee quality, extends the machine’s lifespan, and minimises repair costs.</p>
+
+            <div className="row align-items-center">
+              <div className="col-md-6">
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/coffee machine.avif`} alt="delongi coffee machine repair" />
+              </div>
+              <div className="col-md-6">
+                <ul className="mb-0">
+                  <li><strong>Preventing Breakdowns: </strong>Routine DeLonghi coffee maker maintenance, including cleaning and descaling, reduces costly repairs and downtime, impacting revenue.</li>
+                  <li><strong>Extending Lifespan:</strong> Regular maintenance prolongs machine life, saving on replacement costs.</li>
+                  <li><strong>Lowering Maintenance Costs: </strong>Addressing minor issues early can prevent larger, more expensive repairs.</li>
+                  <li><strong>Maintaining Efficiency:</strong> Consistent upkeep ensures optimal performance and reduces energy consumption.</li>
+                  <li><strong>Professional Service for Commercial Use:</strong> Commercial machines need <a href="https://www.fajservices.ae/coffee-machine-repairs/">specialised maintenance</a> for safety and performance</li>
+                  <li><strong>Importance in Commercial Kitchens:</strong> In the UAE, proper maintenance of DeLonghi coffee machines is essential service. Regular upkeep improves their quality and lifespan, benefiting both home and business users in Dubai.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
 
         {/* The Most Common Problems with Home Appliances */}
-        {/* <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="text-center">The Most Common Problems with Delonghi Home Appliances   </h3>
+            <h3 className="text-center">The Most Common Problems of De Longhi Coffee Machines</h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Water Leaking</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Most fridge malfunctions are related to cooling issues, including problems with the defrost system, fan motor, compressor, or coils.</p>
+                    <p className="p-2 mb-0">Water leakage issues in coffee or espresso machines can be caused by worn-out seals, loose connections, or cracks in the water reservoir or tubing.</p>
                   </div>
                 </div>
               </div>
@@ -196,10 +226,10 @@ const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishwashers Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Machine Descaling</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">The most issues with dishwashers are bad cleaning and drying. Common water leaks and drainage. Some electrical issues or PCB failures.
+                    <p className="p-2 mb-0">Regular De Longhi coffee machine descaling for your espresso machine with a descaling solution can remove mineral buildup, which is a common cause of clogs and leaks.
                     </p>
                   </div>
                 </div>
@@ -208,11 +238,11 @@ const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Washing Machine Problem
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Machine Cleaning
                     </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">A common issue with washing machines is drainage problems, leaks, and PCB faulty. Also, broken belt or faulty door switch or drum from spinning.</p>
+                    <p className="p-2 mb-0">Regular DeLonghi coffee machine cleaning service of the filter basket, coffee grinder, and other parts can prevent clogs and improve the coffee taste.</p>
                   </div>
                 </div>
               </div>
@@ -221,13 +251,58 @@ const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Stove Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Bad Coffee Taste</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Uneven heating or flame issues, such as a broken burner element, bad switch, or electric gas, are the most common problems with stoves.</p>
+                    <p className="p-2 mb-0">Poor quality beans, improper brewing parameters (such as grind size and ratio), or case De Longhi machine’s internal components can result in bad-tasting coffee.</p>
                   </div>
                 </div>
               </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Loud or Unusual Noises</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">Noise from the De Longhi coffee machine, Low water levels, the espresso machine being placed on a hard surface, or heating issues can lead to unexpected noises.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Brewing Issues</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">Weak Coffee is often a common problem, typically due to improper grind size, over-extraction, under-extraction, or using stale espresso machine coffee beans.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Slow Coffee Flow</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">This issue of coffee machine or De Longhi espresso or automatic coffee machine can stem from clogs, incorrect grind size, or problems with the coffee machine’s pump.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Professional Help</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">For more complex issues or if you are unable to troubleshoot the problem yourself, contact FAJ qualified <a href="https://www.fajservices.ae/coffee-machine-service-center-in-dubai/">coffee machine repair</a> technician for maintenance.</p>
+                  </div>
+                </div>
+              </div>
+
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
@@ -236,42 +311,48 @@ const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
 
-        {/* Why is Appliance Maintenance Service Important in Dubai? */}
-        {/* <section className="section cs_py_30 bg-light-gray">
+       
+         {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
+        <section className="section cs_py_30">
           <div className="container">
-
-            <h3 className="cs_fs_30">Why is Delonghi Appliance Maintenance Service Important in Dubai?</h3>
-            <p className="">
-              Our all-inclusive repair services include diagnosis, repairs, installations, and maintenance. That is why we are the most in-demand Delonghi appliances maintenance in Dubai provider.
-            </p>
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR COFFEE MACHINES AND ESPRESSO MACHINES</h3>
 
             <div className="row align-items-center">
-              <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher.avif`} alt="Post Image" />
-              </div>
-              <div className="col-md-6">
-                <ul className="mb-0">
-                  <li> <strong>  Delonghi Washing Machine Repair in Dubai:-: </strong> Regular maintenance helps appliances last longer, saving on replacement costs.</li>
-                  <li> <strong>  Delonghi Fridge Repair in Dubai: </strong> we are fully confident of getting your fridge running back in no time. </li>
-                  <li> <strong>  Delonghi Cooker Repair in Dubai: </strong> Catching minor issues early prevents them from escalating into expensive repair. </li>
-                  <li> <strong>  Preserving Appliance Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
-                  <li> <strong>  Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious.</li>
-                  <li> <strong>  Cost-Effective: </strong> Maintenance costs are lower than early replacements or major repair. Investing in appliance care ensures safety and efficiency and is a smart economic choice in Dubai.</li>
-                  <li> <strong>  Energy Efficiency: </strong> Regularly maintaining your appliances, can improve their efficiency and save you money.</li>
+              <div className="col-xl-6">
+                <p className='mb-0'>We specialise in all types and models of De Longhi coffee machines, including espresso machines</p>
+                <p className='mb-0'><strong>Our services include:</strong></p>
+                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
+                 <li><strong>Installation: </strong>Professional installation of different DeLonghi coffee machines for peak performance.</li>
+<li><strong>De Longhi Diagnostics: </strong>We perform thorough fault-finding to effectively diagnose issues. Our services include eligibility assessments and detailed quotations to address any concerns regarding your system.</li>
+<li><strong>De Longhi Repair Service: </strong>Quick and efficient De&rsquo;Longhi coffee machines repair services and addressing issues like leaks, electrical failures, and system malfunctions. Reach us with any questions or to request services!</li>
+<li><strong>De Longhi Annual Maintenance Contract: </strong>This contract specifies the terms and services for the annual maintenance of the De Longhi espresso machine.</li>
+                  <p className="mb-0">
+                    Regular maintenance is crucial for ensuring optimal performance, efficiency, and longevity of your De Longhi coffee machine.
+                  </p>
                 </ul>
+              </div>
+              <div className="col-xl-6">
+                <iframe
+                  className="bordered-img blue-border"
+                  width="100%"
+                  height="350"
+                  src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
               </div>
             </div>
           </div>
-        </section> */}
-
+        </section >
         {/* The Benefits Of appliances Service Dubai */}
-        {/* <section className="section cs_py_30 appliances-benifit-sec">
+        <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
-              <h3 className="cs_fs_30 mb-0">The Benefits Of Delonghi appliances Service Dubai
-              </h3>
+              <h3 className="cs_fs_30 mb-0">The Benefits Of De'Longhi Coffee Machines Service in Dubai</h3>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
                   <div className="">
@@ -280,7 +361,7 @@ const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
                         <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h4>
-                      <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
+                      <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe</p>
                     </div>
                   </div>
                 </div>
@@ -327,8 +408,8 @@ const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h4>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Coffee Machine Lifespan</h4>
+                      <p className="small">Proper care and timely servicing can significantly increase life of your coffee machines, delaying the need for replacements.</p>
 
                     </div>
 
@@ -350,43 +431,9 @@ const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
 
-        {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
-        {/* <section className="section cs_py_30 bg-light-gray">
-          <div className="container">
-            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR Delonghi HOME APPLIANCES</h3>
-
-            <div className="row align-items-center">
-              <div className="col-xl-6">
-                <p className='mb-0'>We specialize in all types and brands of home appliances, including built-in units.</p>
-                <p className='mb-0'><strong>Our services include:</strong></p>
-                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                  <li> <strong>  Installation: </strong> Expert installation of various types and brands of home appliances, ensuring optimal performance and efficiency. </li>
-                  <li> <strong> Diagnostics: </strong> Comprehensive fault-finding services to effectively diagnose issues. We provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
-                  <li> <strong> Repair Service: </strong> Efficient repair services for all appliance components, ensuring a quick resolution to issues such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions! </li>
-                  <li> <strong> Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for
-                    the annual maintenance of your appliances. </li>
-                  <p className="mb-0">
-                    Regular maintenance is essential for optimal performance, efficiency, and longevity of your home appliances.
-                  </p>
-                </ul>
-              </div>
-              <div className="col-xl-6">
-                <iframe
-                  className="bordered-img blue-border"
-                  width="100%"
-                  height="350"
-                  src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
-              </div>
-            </div>
-          </div>
-        </section > */}
+       
 
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
@@ -443,7 +490,7 @@ const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are experts in Delonghi appliance repair this is why most major brands trust us to handle their service and maintenance needs.</p>
+                    <p>We are experts in Delonghi coffee machine repair. This is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -475,7 +522,33 @@ const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        
+        <section className="section cs_py_30 bg-light-gray">
+                    <div className="container">
+                
+          <h3>We specialise in DeLonghi Coffee Machines Repair services for the following Types:</h3>
+                        <div className="row">
+                            <div className="col-12">
+                                <p className="mb-0"><strong>DeLonghi Magnifica Star Fully Automatic Coffee Machine Repair</strong>: FAJ provides dependable repair and service for De Longhi Magnifica coffee machines in Dubai. Our team consists of professionals who specialise in DeLonghi Magnifica and automatic coffee machines.</p>
+<p className="mb-0"><strong>DeLonghi Eletta Coffee Machine Repair and Service</strong>: FAJ, located in Dubai, is your reliable destination for DeLonghi Eletta coffee machine repair services across Dubai, Sharjah, and Abu Dhabi. We specialise in the DeLonghi Eletta coffee machine and provide comprehensive services, including maintenance and repairs.</p>
+<p className="mb-0"><strong>DeLonghi La Specialista Service and Repair</strong>: The DeLonghi La Specialista service and repair ensures you don't have to worry because you are in the right place. FAJ prioritises efficiency and reliability.</p>
+<p className="mb-0"><strong>DeLonghi Espresso Machines Descaling and Servicing:</strong> Count on our experienced team to effectively resolve all issues with your DeLonghi espresso machines through descaling and servicing to restore functionality.</p>
+<p className="mb-0"><strong>De'Longhi Espresso Machines Cleaning and Services</strong>: We have extensive knowledge of DeLonghi espresso machine cleaning and repair services, providing effective repairs to keep your unit running smoothly..</p>
+<p className="mb-0"><strong>DeLonghi Dinamica Plus Espresso Machine Repair and Service: </strong>No matter the issue with your DeLonghi Dinamica Plus espresso machine, our experts can accurately diagnose and fix it.</p>
+<p className="mb-0"><strong>Delonghi Coffee Machine Repair and Service</strong>: Has your De'Longhi PrimaDonna, De'Longhi Magnifica start fully automatic coffee, De'Longhi Eletta, or De'Longhi espresso machine stopped working? Don&rsquo;t settle for disappointing coffee! Get your De'Longhi espresso maker and automatic coffee machine running again quickly with the help of <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ's expert technician</a>!</p>
+
+                            </div>
+
+                        </div>
+
+                        <div id="get-quote" className=" mt-3">
+                            <div className="container d-flex justify-content-center align-items-center gap-3">
+                                <GetQuoteButton />
+                                <CallNowButton />
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
         {/* Maintenance Contract */}
         <MaintenanceContract />
 {/* testimobial section */}
@@ -533,7 +606,7 @@ const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* FAQ's */}
-        {/* <section className="section cs_py_30  bg-dark-blue text-light">
+        <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ's</h3>
 
@@ -558,7 +631,7 @@ const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
 
             </div>
           </div>
-        </section> */}
+        </section>
 
         <section className="section cs_py_30">
           <Serviceappointemnt

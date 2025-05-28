@@ -10,7 +10,7 @@ import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol.jsx";
 import Slider from "react-slick";
 import testimonial_data from '../../../Data/KitchenEquipments/Testmonials/KitchenEquipmentsAMCTestimonials.json';
-import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
+// import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
@@ -595,7 +595,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
 
 
         {/* Brands section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
+        {/* <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
           <div className="container">
 
             <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
@@ -619,8 +619,8 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
               </div>
             </div>
           </div>
-          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
-        </section>
+          
+        </section> */}
         {/* Maintenance Contract */}
         <MaintenanceContract />
 {/* testimobial section */}

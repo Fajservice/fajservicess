@@ -149,10 +149,10 @@ const Footer1 = () => {
                   </a>
               </li>
               <li>
-                  <a href="mailto:info@fajservices.ae" target="_self" className="flt-icon-url">
+                  <a href="https://smartfaj.vercel.app/" target="_blank" className="flt-icon-url">
                       <div className="flt-icon flt-icon-en">
-                          <i className="bi bi-envelope"></i>
-                              <div className="flt-icon-text">info@fajservices.ae</div>
+                          <i className="bi bi-android"></i>
+                              <div className="flt-icon-text">Chat with FAJ BOT</div>
                       </div>
                   </a>
               </li>

@@ -5,7 +5,8 @@ const DelonghiCoffeeMachineRepair = () => {
   return (
     <div className="serviceDetails">
       <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/DelonghiCoffeeMachineRepair.avif"
+        mobileBgImg="img/banners/homeappliancesbrands/mobile/DelonghiCoffeeMachineRepair.avif"
+        bgImg="img/banners/homeappliancesbrands/desktop/DelonghiCoffeeMachineRepair.avif"
         Title="Delonghi Coffee Machine Repair"
       ></BreadCumb>
 

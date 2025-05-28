@@ -5,7 +5,8 @@ const TraneAcRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/acbrands/Trane-AC-Repair-faj.avif"
+                bgImg="img/acbrands/desktop/Trane-ac-repair-faj.avif"
+                mobileBgImg="img/acbrands/mobile/Trane-ac-repair-faj.avif"
                 Title="Trane Ac Repair in Dubai - Air Conditioner Maintenance and Service Near Me"
             ></BreadCumb> 
             <TraneAcRepairDetail></TraneAcRepairDetail>           
