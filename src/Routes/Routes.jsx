@@ -142,7 +142,7 @@ import AcRepairInEmiratesHills from "../Pages/AcPages/AcLocation/AcRepairInEmira
 import AcRepairInJLT from "../Pages/AcPages/AcLocation/AcRepairInJLT";
 import AcRepairInIndexTowerDifc from "../Pages/AcPages/AcLocation/AcRepairInIndexTowerDifc";
 import AcRepairInAlRashidiya from "../Pages/AcPages/AcLocation/AcRepairInAlRashidiya";
-import GasRangeRepair from "../Pages/KitchenEquipPages/GasRangeRepair";
+import CookingEquipmentService from "../Pages/KitchenEquipPages/CookingEquipmentService";
 import AcRepairInAlkarama from "../Pages/AcPages/AcLocation/AcRepairInAlkarama";
 import AcRepairInsouthRidge from "../Pages/AcPages/AcLocation/AcRepairInsouthRidge";
 import AcRepairInNadAlHammar from "../Pages/AcPages/AcLocation/AcRepairInNadAlHammar";
@@ -499,7 +499,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/cooking-equipment-service/",
-        element: <GasRangeRepair />
+        element: <CookingEquipmentService />
       },
       {
         path: "/meat-grinder-repair/",
@@ -522,7 +522,7 @@ export const router = createBrowserRouter([
         element: <KitchenEquipmentAMC />,
       },
       {
-        path: "/commercial-cooking-appliances-repair-service/",
+        path: "/commercial-kitchen-equipment-maintenance-services/",
         element: <KitchenEquipmentRepair />,
       },
       {

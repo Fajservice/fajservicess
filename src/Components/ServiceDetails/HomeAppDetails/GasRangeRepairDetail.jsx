@@ -2,22 +2,33 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/KitchenEquipments/FAQs/PizzaOvenMaintenanceFaqs.json';
+import data from '../../../Data/HomeAppData/FAQs/GasRangeRepairServiceFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
 import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
+
 import Slider from "react-slick";
-import testimonial_data from '../../../Data/KitchenEquipments/Testmonials/PizzaOvenMaintenanceTestimonials.json';
+import testimonial_data from '../../../Data/HomeAppData/Testmonials/GasRangeRepairServiceTestimonial.json';
+import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
+import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 
 // import { Link } from "react-router-dom";
 
-const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
+const GasRangeRepairDetail = ({ subtitle, title, bgImg }) => {
+
+  // For SEO
+  const titleSeo = "Best Gas Cooker Repair - Cooking Range Service Near Me";
+  const description = "Are you looking for gas cooker repair Dubai? Dail 043300002 for gas stove, electric stove repair service. Get fast fix cooking range, induction repairs";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://www.fajservices.com/gas-cooker-repair-service/";
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   bgImg = "img/testimonialbg.jpg"
@@ -55,12 +66,6 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
     autoplaySpeed: 5000,
     pauseOnHover: true,
 
-    // autoplay: true,
-    // autoplaySpeed: 0,
-    // speed: 8000,
-    // pauseOnHover: true,
-    // cssEase: 'linear',
-
     responsive: [
       {
         breakpoint: 1399,
@@ -91,7 +96,6 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
-    // cssEase: 'linear',
 
     responsive: [
       {
@@ -118,8 +122,19 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>Commercial Pizza Oven Maintenance & Repair Servicing Dubai</title>
-        <meta name="description" content="We specialize in commercial pizza oven maintenance in Dubai. Call FAJ 043300002 for pizza oven repair service & annual maintenance contract (AMC)."></meta>
+
+        <title>{titleSeo}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="keywords" content={Keyword} />
+        <meta name="author" content={Author} />
+        <meta name="robots" content="index, follow" />
+        <Link rel="canonical" href={titleSeo} />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={titleSeo} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={URL} />
       </HelmetProvider>
       <HeaderForm />
 
@@ -127,9 +142,15 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
-            <h2 className="cs_fs_30">Do you want an Pizza Oven repair that does not cause a fortune?</h2>
-            <p>Do you want a pizza oven maintenance that is pocket friendly? <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C.</b></a> are experts in repairing and maintaining services. Being the top experts in pizza oven repair, we do it with perfection. Our knowledgeable technicians make sure your pizza oven runs smoothly and produces the deliciously crispy crusts and cheesy treats you want. For excellent repairs that improve your pizza experience, trust FAJ Technical Services LLC. We care about the quality of your appliances.</p>
+            <h1 className="cs_fs_30">gas cooker repair service</h1>
+            {/* <h2 className="cs_fs_30">SELECT A COOKING APPLIANCE SERVICE CENTRE IN DUBAI FOR SAME-DAY REPAIR</h2> */}
+            <p>
+              Since 2010, F A J has supported you when things go wrong. We understand that your cooking appliances are essential for daily life.
+              The induction cooktop, stove, or range is often key to an enjoyable cooking experience in a modern kitchen. After all, home-cooked meals are an excellent way to bring family and friends together. When your cooker breaks down, it can be both inconvenient and frustrating.
+              <br /> Let F A J technicians in your area help you get those quality meals back on the table with our reliable repair services.
+
+
+            </p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -140,95 +161,81 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* Pizza Oven Repair Nearby You */}
+
 
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/reem-ac-service.avif`} alt="Pizza Oven Maintenance" /> */}
-                <h3 className="cs_fs_24 mb-1">Pizza Oven Repair Nearby You</h3>
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/reem-ac-service.avif`} alt="Post Image" /> */}
+                <h3 className="cs_fs_24 mb-1">Reliable Cooking Range Repair & Service</h3>
 
                 <p className="mb-2">
-
-                  It’s common to face issues with cooking appliances from time to time, whether your induction hob suddenly stops working, your gas stove won’t stay lit when you need it, or your electric hob keeps turning on and off.
-                  <br />
-                  The important thing to remember is that these problems should be addressed by a qualified technician. Fast Services can help you arrange a professional <Link to="/gas-cooker-repair-service/"> gas range repair </Link> to fix your faulty cooker
+                  Gas stoves are essential in our kitchens, helping us create delicious meals every day. When a cooking range stops working, it can throw our routines off balance.
+                  <br /> That's why finding a trustworthy cooktop repair specialist nearby is crucial, whether you’re in the vibrant cities of Dubai or Sharjah. We're here to help you get back to cooking confidently and easily!
 
                 </p>
 
 
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Pizza Oven Technical Inspection Fee</h3>
-                <p className="mb-0">
-                  We have a standard technical inspection fee starting from AED 157 to 320 (depending on the appliance) that covers diagnosis, transportation, and reinstallation of the same appliance.
-                  <br />
-                  Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any repair/parts. Also, get repairs from us for your coffee machine, stand mixer, or robot vacuum.
-                </p>
+                <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service
+                </h3>
+                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services LLC</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Pizza Oven Maintenance" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/kitchen-equipment.avif`} alt="Pizza Oven Maintenance" />
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Post Image" /> */}
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/cooker.avif`} alt="Gas Cooker repair" />
 
               </div>
             </div>
 
-            <div className="appointment-col border-small-top pt-3">
-              <p>
-                If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.
-                <br />
-                Timing: Mon-Sat 8:00 AM to 6:00 PM - Sunday 12:00 PM to 6:00 PM. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.
-              </p>
-              <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
-                  <WhatsappIconButton />
-                  <CallNowButton />
-                </div>
-              </div>
-            </div>
+            <AppliancesAppointmentCol></AppliancesAppointmentCol>
           </div>
         </section>
-        {/* Most common Cooker faults: */}
+
+
+
+        {/* Why is Cooking Range Maintenance Service Important in Dubai? */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">Reliable Pizza oven repair service</h3>
-            <p>FAJ Technical Services has a top-notch pizza oven service. Our team of skilled technicians is expert at handling a wide range of gas pizza oven repair problems. We can help with everything from electrical problems to inconsistent heating. We are aware of how important it is to keep your pizza oven working, and our devoted staff is committed to offering timely and effective repair services. If you are searching for pizza oven repair near me, then stop wasting your time. You can rely on us to get reliable solutions that guarantee your pizza oven operates at its peak efficiency and consistently produces perfectly cooked pizzas.</p>
+            <h3 className="cs_fs_30">Why is Cooking Range Maintenance Service Important in Dubai?</h3>
+            <p>
+              Proper gas range maintenance is essential for extending its lifespan and enhancing efficiency, especially in Dubai’s climate. Here are the main benefits:
+
+            </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Hob-Repair-Service-in-Dubai-UAE.avif`} alt="Pizza Oven Maintenance" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/gas-cooker-repair-service.avif`} alt="gas cooker repair service" />
               </div>
               <div className="col-md-6">
-                <h4>Expert Pizza Oven technician</h4>
-                <p>With extensive knowledge and experience in maintaining a wide variety of pizza ovens, from classic brick models to modern, high-tech units, our technicians bring unmatched expertise to the table. Our specialists handle every repair with accuracy and efficiency because they receive ongoing training and stay up-to-date on the newest developments in the industry. Their passion for fixing things enables them to precisely identify problems, resolving anything from control panel glitches to heating element malfunctions. They make sure that each component is inspected and brought back to full functioning with extreme care. Our team recognizes the importance of client satisfaction. In addition to their superior technical abilities, our technicians place a high value on providing exceptional customer service.</p>
+                <ul className="mb-0">
+                  <li> <strong> Gas Range Extended Lifespan: </strong> Regular maintenance helps the gas stove last longer, saving on replacement costs. </li>
+                  <li> <strong> Cooker Improved Efficiency: </strong> A well-maintained cooking range uses less energy, leading to lower utility bills, which is essential in Dubai. </li>
+                  <li> <strong> Stove Preventing Costly Repair: </strong> Catching minor issues early prevents them from escalating into expensive repairs. </li>
+                  <li> <strong> Cooking Range Preserving induction hob Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
+                  <li> <strong> Range Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious. </li>
+                  <li> <strong> Range Cost-Effective: </strong> Maintenance costs are lower than early replacements or major repairs. Investing in an electric stove cover ensures safety and efficiency and is a smart economic choice in Dubai. </li>
+                  <li> <strong> Cooker Energy Efficiency: </strong> Regularly maintaining your cooker can improve its efficiency and save you money. </li>
+                </ul>
               </div>
             </div>
           </div>
         </section>
 
-        {/* The Most Common Problems with Home Appliances */}
-        <section className="section cs_py_30">
+        {/* Common Problems */}
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="text-center">The Most Common Problems with Home Appliances   </h3>
+            <h3 className="text-center">THE MOST COMMON PROBLEMS WITH THE COOKING RANGE </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Problem</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Gas Burner Issues</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Most fridge malfunctions are related to cooling issues, including problems with the defrost system, fan motor, compressor, or coils.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishwashers Problem</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">The most issues with dishwashers are bad cleaning and drying. Common water leaks and drainage. Some electrical issues or PCB failures.
+                    <p className="p-2 mb-0">
+                      This is another gas cooker problem. The burner has an issue where the flames are uneven or only partly ignited. They also tend to get blocked.
                     </p>
                   </div>
                 </div>
@@ -237,11 +244,62 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Washing Machine Problem
-                    </h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Noisy Burners</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">A common issue with washing machines is drainage problems, leaks, and PCB faulty. Also, broken belt or faulty door switch or drum from spinning.</p>
+                    <p className="p-2 mb-0">Noisy burner flames may result from too much air or gas flow through valves, which can be hazardous and affect safe operation.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Low Gas Flame</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">Whether you have a gas stove or cooktop, slow heating can be frustrating and time-consuming when preparing food or cooking meals.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Gas leaks</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">Gas leaks are serious and must not be ignored. If you smell gas even when the cooker is turned off, it may indicate a dangerous leak in the gas line or connection.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Broken Door Seal</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">A broken door seal can cause heat to escape, leading to inefficient cooking and potential damage to control knobs.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Ignition Problem</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">A common issue is when the burner won't ignite despite the igniter being activated. Other gas cooker problems also arise in Dubai.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Gas Smell</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">Gas leaks can occur from lines or pipes, posing serious safety risks. Before attempting any repairs, check if the burners are working correctly.</p>
                   </div>
                 </div>
               </div>
@@ -250,57 +308,16 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Tumble Dryer Problem</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Gas Supply Disruption</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Dryers can stop the drum from spinning and often make noise without drying clothes properly. Common issues are a broken heating element or control board.</p>
+                    <p className="p-2 mb-0">To resolve issues, open the gas supply valve, reset the circuit breakers, and clean the burner heads. Also, check the igniter electrodes and spark ignitions.</p>
                   </div>
                 </div>
               </div>
 
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Stove Problem</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Uneven heating or flame issues, such as a broken burner element, bad switch, or electric gas, are the most common problems with stoves.</p>
-                  </div>
-                </div>
-              </div>
 
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Ovens Problems</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Most ovens have common problems like not heating properly, burners not igniting, ignition issues on gas models, broken knobs, and faulty controllers or valves.</p>
-                  </div>
-                </div>
-              </div>
 
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Freezer Problem</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Common issues with a freezer include water leaks, no ice, a malfunctioning ice maker, a malfunctioning PCB, motor, or compressor, and less cooling.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Machine Problem</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Whether they are drip or single-serve coffee makers, there are a few reasons why water flow in coffee makers is often slow or nonexistent.</p>
-                  </div>
-                </div>
-              </div>
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
@@ -312,11 +329,11 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/*Why should you choose us? */}
-        <section className="section cs_py_30 bg-light-gray">
+        {/*HERE ARE THE SERVICES */}
+        <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">Searching for pizza oven repair near me</h3>
-            
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR THE COOKING RANGE </h3>
+
             <div className="row align-items-center">
               <div className="col-xl-6">
                 <iframe
@@ -332,26 +349,39 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-xl-6">
-                <p>If you're looking for "pizza oven service near me," FAJ Technical Services is the place to go. We recognize how crucial it is to have a trustworthy local service provider. Our teams are positioned strategically to guarantee timely service requests and effective resolution of your pizza oven repair needs. You can rely on us to provide a prompt and practical resolution to your pizza oven problems.</p>
-                <p className="mb-0 pb-0">Following are the types of pizza oven.</p>
-                <ul className="mt-0">
-                    <li>brick pizza oven</li>
-                    <li>wood fired pizza oven</li>
-                    <li>electric pizza oven</li>
-                    <li>electric stone pizza oven</li>
-                    <li>gas pizza oven</li>
+                <p className="mb-0">
+                  We specialise in all types and brands of gas/electric cookers, including built-in units.
+                </p>
+
+                <p className='mb-0'><strong>Our services include:</strong></p>
+                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
+
+                  <li> <strong> Cooker Installation:</strong> Expert installation of various types and brands of stoves, ensuring optimal performance and efficiency. </li>
+                  <li> <strong> Stove Diagnostics:</strong> Comprehensive fault-finding services to effectively diagnose issues. We provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
+                  <li> <strong> Gas Range Repair Service:</strong> Efficient repair services for all appliance components, ensuring a quick resolution to leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions! </li>
+                  <li> <strong> Stove Annual Maintenance Contract:</strong> This contract outlines the terms and services covered for the annual maintenance of your cooking range. </li>
+
+
+
+                  <p className="mb-0">
+                    Regular maintenance is essential for optimal cooking range performance, efficiency, and longevity.
+
+                  </p>
                 </ul>
+
+
               </div>
 
 
             </div>
           </div>
-        </section>
+        </section >
+
         {/* The Benefits Of appliances Service Dubai */}
-        <section className="section cs_py_30 appliances-benifit-sec">
+        <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
-              <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai
+              <h3 className="cs_fs_30 mb-0">The Benefits Of cooking range Service Dubai
               </h3>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
@@ -373,7 +403,7 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
                       </h4>
-                      <p className="small">Regular maintenance helps your appliances run smoothly and efficiently, delivering the best results every time.
+                      <p className="small">Regular maintenance helps your cooking range run smoothly and efficiently, delivering the best results every time.
                       </p>
                     </div>
                   </div>
@@ -385,7 +415,7 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
                         <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
-                      <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                      <p className="small">Energy efficient cooking range translate to monthly savings on utility bills, putting more money back in your pocket.</p>
                     </div>
                   </div>
                 </div>
@@ -408,8 +438,8 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h4>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">cooking range Lifespan</h4>
+                      <p className="small">Proper care and timely servicing can significantly increase life of your cooking range, delaying the need for replacements.</p>
 
                     </div>
 
@@ -424,7 +454,7 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                       </h4>
-                      <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                      <p className="small">Knowing your cooking range are in top condition gives you confidence and removes the stress of unexpected failures.</p>
                     </div>
                   </div>
                 </div>
@@ -433,22 +463,7 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        <section className="section cs_py_30 bg-dark-blue text-light">
-          <div className="container text-center">
-            <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
-            <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
-            <a
-              href="files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
-              className="btn-green-yellow"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Click Here to Save on Energy Bills
-            </a>
 
-
-          </div>
-        </section>
 
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
@@ -475,7 +490,7 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
+                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your cooking range runs smoothly and providing peace of mind.</p>
                   </div>
                 </div>
 
@@ -486,7 +501,7 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
+                    <p>Choose a day and time for your cooking range repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
                   </div>
                 </div>
 
@@ -505,7 +520,7 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are experts in appliance repair this is why most major brands trust us to handle their service and maintenance needs.</p>
+                    <p>We are experts in cooking range repair this is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -515,7 +530,7 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same location in Dubai.</p>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two cooking range at the same location in Dubai.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -524,7 +539,7 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our skilled appliance technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
+                    <p>Our skilled cooking range technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
                   </div>
                 </div>
               </div>
@@ -537,59 +552,63 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* We specialise in Hob services for the following brands  */}
-        <section className="section cs_py_30 bg-light-gray">
+        {/* We specialise  */}
+        <section className="section cs_py_30 bg-light-gray ">
           <div className="container">
-            <h3>We specialise in Hob services for the following brands </h3>
+            <h3>We specialise in Gas Cooker services for the following brands </h3>
             <div className="row">
               <div className="col-12">
 
                 <p className="mb-0">
                   <Link to="/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/">
-                    <b>Smeg Cooker Repair</b>
-                  </Link>: FAJ is here to support you when things go wrong. We understand that your Smeg appliances are essential for daily life, keeping your food fresh and meals cooked.
+                    <b>LG Stove Repair</b>
+                  </Link>: FAJ is here to support you when things go wrong. We understand that your LG cooker or induction are essential for daily life, helping you prepare meals efficiently and on time.
                 </p>
 
                 <p className="mb-0">
                   <Link to="/siemens-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b>Siemens Cooker Repair</b>
-                  </Link>:If you are facing any problems with your Siemens oven, stove, refrigerator, washer dryer, or dishwasher, contact the FAJ team for same-day repair service in Dubai.
+                    <b>Samsung Cooker Repair</b>
+                  </Link>
+                  : If you are facing any problems with your Samsung cooker, stove, washer dryer, or dishwasher, contact the FAJ team for same-day repair service in Dubai.
                 </p>
 
                 <p className="mb-0">
                   <Link to="/la-germania-cooking-range-repair-in-dubai-la-germania-oven-repair-in-dubai-la-germania-cooker-repair-in-dubai-la-germania-cooker-oven-maintenance-service-in-dubai-refrigerator-repair-in-dubai-fridge-r/">
-                    <b> La Germania Stove and Cooker Repair</b>
-                  </Link>: When you need La Germania oven repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE.
-                </p>
+                    <b> Electrolux Gas Stove Repair</b>
+                  </Link>: When you need Electrolux gas stove repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE. </p>
 
                 <p className="mb-0">
                   <Link to="/bosch-home-appliances-repair/">
                     <b> Bosch Stove Repair</b>
-                  </Link>: If you are looking for the best Bosch appliance repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch oven repair and are recognized as the leading Bosch appliance service provider in the area.
+                  </Link>: If you are looking for the best Bosch appliance repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch Cooker repair and are recognized as the leading Bosch appliance service provider in the area.
                 </p>
+
 
                 <p className="mb-0">
                   <Link to="/viking-appliances-service/">
-                    <b> Viking Range and Oven Repair</b>
-                  </Link>: Your Viking appliances may require repair or maintenance and we can help. For high-quality Viking stove and oven repair in Dubai, rely on FAJ.
+                    <b> Viking Gas Range Repair</b>
+                  </Link>
+                  : Your Viking appliances may require repair or maintenance and we can help. For high-quality Viking cooking range or oven repair in Dubai, rely on FAJ.
                 </p>
 
                 <p className="mb-0">
                   <Link to="/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b> Daewoo Pizza Oven Repair</b>
-                  </Link>: We provide expert services for Daewoo appliance repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo Pizza Oven, refrigerator, washing machine, dryer and more.
+                    <b> Daewoo Cooking Range Repair</b>
+                  </Link>: We provide expert services for Daewoo cooking range repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo stove, refrigerator, washing machine, dryer and more.
                 </p>
 
                 <p className="mb-0">
                   <Link to="/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub/">
-                    <b> Neff Gas Stove Repair</b>
-                  </Link>: Are you concerned about your Neff appliance malfunctioning and searching for a reliable Neff Gas Stove repair company in Dubai? Contact us for same-day service!
+                    <b> Siemens Stove Repair</b>
+                  </Link>: Are you concerned about your Siemens stove malfunctioning and searching for a reliable Siemens stove repair company in Dubai? Contact us for same-day service!
+
                 </p>
 
                 <p className="mb-0">
                   <Link to="/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b> Teka Gas Stove Repair</b>
-                  </Link>: If you're searching for the best Teka appliance repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka gas stove, refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
+                    <b> Teka Cooker Repair</b>
+                  </Link>: If you're searching for the best Teka cooking range repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka cookers, refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
+
                 </p>
 
 
@@ -783,43 +802,10 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
 
 
 
-        {/* white section with AC image */}
-        {/* <section className="section cs_py_30">
-          <div className="container text-center">
-            <div className="row">
-              <div className="col-lg-4">
-                <div className="acsvs-sec-prefoot-sec-cone">
-                  <h3 className="cs_fs_20 mb-0">COOLING &amp; HEATING</h3>
-                  <span className="mb-5">Stay comfortable all year round</span>
-                  <div className="mb-5"></div>
-                  <h3 className="cs_fs_20 mb-0">BETTER AIR QUALITY</h3>
-                  <span className="mb-5">Reduce humidity, pollen and dust</span>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="acsvs-sec-prefoot-sec-ctwo">
-
-                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Pizza Oven Maintenance" />
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="acsvs-sec-prefoot-sec-cthree">
-                  <h3 className="cs_fs_20 mb-0">PROTECT YOUR PROPERTY</h3>
-                  <span className="mb-5">Prevent damage to electronics and furnishings</span>
-                  <div className="mb-5"></div>
-                  <h3 className="cs_fs_20 mb-0">QUIET AND SECURE</h3>
-                  <span className="mb-5">No need to leave windows open</span>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </section> */}
-
         {/* Brands section */}
-        {/* <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
+        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
           <div className="container">
-           
+
             <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
               data-variable-width="0" data-xs-slides="1" data-sm-slides="1" data-md-slides="1" data-lg-slides="2"
               data-add-slides="2" data-slides-per-view="responsive">
@@ -841,10 +827,10 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
               </div>
             </div>
           </div>
-        </section> */}
-
+          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
+        </section>
         
-        {/* Maintenance Contract */}
+         {/* Maintenance Contract */}
         <MaintenanceContract />
 {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
@@ -942,5 +928,5 @@ const PizzaOvenMaintenanceDetail = ({ subtitle, title, bgImg }) => {
   );
 };
 
-export default PizzaOvenMaintenanceDetail;
+export default GasRangeRepairDetail;
 

@@ -142,7 +142,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
-            <h3>Premium Cigar Humidor Repair and Service Center in Dubai.</h3>
+            <h1 className="cs_fs_30">Premium Cigar Humidor Repair and Service Center in Dubai.</h1>
             <p>Since 2010, FAJ has been providing expert repair and maintenance for top cigar humidors and professional cigar storage. If your cigar cabinet humidor is not working, don’t buy a new one!<br />
 FAJ is an authorized service center for <a href="https://afidanoshop.com/collections/all">Afidano Cigar Humidors</a>, providing in warranty and out-of-warranty repair, maintenance service in Dubai, Sharjah, and Abu Dhabi since 2024.<br />
 Our experienced team can fix problems like broken sensors, uneven humidity, and power problems, restoring your humidor to like-new condition. We use genuine spare parts and high-quality tools, focusing on repairs rather than replacements.</p>
@@ -452,7 +452,7 @@ and <small>3-month parts warranty</small> as standard.</p>
         <section className="section cs_py_30">
           <div className="container container-md container-sm">
             
-            <h1 className="cs_fs_30">Cigar Cabinet Humidifier Repair Across Dubai - Sharjah - Abu Dhabi</h1>
+            <h3 className="cs_fs_30">Cigar Cabinet Humidifier Repair Across Dubai - Sharjah - Abu Dhabi</h3>
             {/* <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2> */}
 
             <div className="usps align-items-center	">

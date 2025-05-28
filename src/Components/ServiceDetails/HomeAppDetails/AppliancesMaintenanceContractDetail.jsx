@@ -144,7 +144,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">ITCHEN EQUIPMENT AND APPLIANCES AMC SERVICES</h1>
+            <h1 className="cs_fs_30">KITCHEN EQUIPMENT AND APPLIANCES AMC SERVICES</h1>
             {/* <h2 className="cs_fs_30">Experts in Appliances and Kitchen Equipment AMC Services</h2> */}
             <p>
               FAJ has been providing commercial kitchen equipment and appliance maintenance contract services in Dubai, Sharjah, and Abu Dhabi since 2010.

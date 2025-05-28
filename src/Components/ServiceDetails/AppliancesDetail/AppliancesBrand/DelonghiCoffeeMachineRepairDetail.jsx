@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/delonghicoffeemachineFaqs.json';
-import { HelmetProvider } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
@@ -16,17 +16,17 @@ import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppoin
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import CallNowButton from "../../../Buttons/CallNowButton";
 
-const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
+const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , description, Author, Keyword, URL }) => {
   // For SEO
-  const titleSeo = "Delonghi Coffee Machine Repair & Maintenance Services";
-  const description = "De'longhi coffee machine repair Dubai. Trusted De Longhi coffee machine & espresso maintenance & services near you. Fix descaling & cleaning near me";
-  const Author = "Faj Technical Servcies";
-  const Keyword = "";
-  const URL = "https://www.fajservices.com/delonghi-coffee-machine-repair/";
+  const metatitle = String(titleSeo || "Delonghi Coffee Machine Repair & Maintenance Services");
+  const metadescription = String(description || "De'longhi coffee machine repair Dubai. Trusted De Longhi coffee machine & espresso maintenance & services near you. Fix descaling & cleaning near me");
+  const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
+  const metaKeyword = String(Keyword || "Delonghi Coffee Machine Repair, Delonghi Coffee Machine Service, Delonghi Coffee Machine Maintenance");
+  const metaURL = String(URL || "https://www.fajservices.com/delonghi-coffee-machine-repair/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
-  bgImg = "img/testimonialbg.jpg"
+  reviewsbg = "img/testimonialbg.jpg"
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -116,19 +116,19 @@ const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>{titleSeo}</title>
-        <meta name="description" content={description}></meta>
-        <meta name="keywords" content={Keyword} />
-        <meta name="author" content={Author} />
-        <meta name="robots" content="index, follow" />
-        <Link rel="canonical" href={titleSeo} />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:title" content={titleSeo} />
-        <meta property="og:description" content={description} />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={URL} />
-
+        <Helmet>
+          <title>{metatitle}</title>
+          <meta name="description" content={metadescription}></meta>
+          <meta name="keywords" content={metaKeyword} />
+          <meta name="author" content={metaAuthor} />
+          <meta name="robots" content="index, follow" />
+          <link rel="canonical" href={metaURL} />
+          <meta property="og:type" content="website" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:title" content={metatitle} />
+          <meta property="og:description" content={metadescription} />
+          <meta property="og:url" content={metaURL} />
+        </Helmet>
       </HelmetProvider>
       <HeaderForm />
 
@@ -185,8 +185,7 @@ Regular maintenance is important for all types of coffee machines, whether for h
           <div className="container">
 
             <h3 className="cs_fs_30">What is the Importance of DeLonghi Coffee Machine Maintenance in Dubai?</h3>
-            <p className="">Regular maintenance of a DeLonghi coffee machine is crucial for businesses. It ensures coffee quality, extends the machine’s lifespan, and minimises repair costs.</p>
-
+            <p className="mb-2">Regular maintenance of a DeLonghi coffee machine is crucial for businesses. It ensures coffee quality, extends the machine’s lifespan, and minimises repair costs.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}img/delonghi-coffee-machine-service.avif`} alt="delongi coffee machine repair" />
@@ -197,7 +196,7 @@ Regular maintenance is important for all types of coffee machines, whether for h
                   <li><strong>Extending Lifespan:</strong> Regular maintenance prolongs machine life, saving on replacement costs.</li>
                   <li><strong>Lowering Maintenance Costs: </strong>Addressing minor issues early can prevent larger, more expensive repairs.</li>
                   <li><strong>Maintaining Efficiency:</strong> Consistent upkeep ensures optimal performance and reduces energy consumption.</li>
-                  <li><strong>Professional Service for Commercial Use:</strong> Commercial machines need <a href="https://www.fajservices.ae/coffee-machine-repairs/">specialised maintenance</a> for safety and performance</li>
+                  <li><strong>Professional Service for Commercial Use:</strong> Commercial machines need <a href="https://www.fajservices.ae/coffee-machine-repairs/" style={{textDecoration:"underline"}}><b>specialised maintenance</b></a> for safety and performance</li>
                   <li><strong>Importance in Commercial Kitchens:</strong> In the UAE, proper maintenance of DeLonghi coffee machines is essential service. Regular upkeep improves their quality and lifespan, benefiting both home and business users in Dubai.</li>
                 </ul>
               </div>
@@ -229,7 +228,7 @@ Regular maintenance is important for all types of coffee machines, whether for h
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Machine Descaling</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Regular De Longhi coffee machine descaling for your espresso machine with a descaling solution can remove mineral buildup, which is a common cause of clogs and leaks.
+                    <p className="p-2 mb-0">Descaling your coffee machine regularly with a suitable cleaning solution can effectively remove mineral buildup, which can lead to clogs and leaks.
                     </p>
                   </div>
                 </div>
@@ -287,7 +286,7 @@ Regular maintenance is important for all types of coffee machines, whether for h
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Slow Coffee Flow</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">This issue of coffee machine or De Longhi espresso or automatic coffee machine can stem from clogs, incorrect grind size, or problems with the coffee machine’s pump.</p>
+                    <p className="p-2 mb-0">Issues with coffee machines, such as De Longhi espresso or automatic makers, can be caused by clogs, incorrect grind sizes, or pump problems.</p>
                   </div>
                 </div>
               </div>
@@ -321,6 +320,18 @@ Regular maintenance is important for all types of coffee machines, whether for h
 
             <div className="row align-items-center">
               <div className="col-xl-6">
+                <iframe
+                  className="bordered-img blue-border"
+                  width="100%"
+                  height="350"
+                  src="https://www.youtube.com/embed/IjckdZLs_Qg?si=-hiJX-pD_w7neMon"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <div className="col-xl-6">
                 <p className='mb-0'>We specialise in all types and models of De Longhi coffee machines, including espresso machines</p>
                 <p className='mb-0'><strong>Our services include:</strong></p>
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
@@ -333,18 +344,7 @@ Regular maintenance is important for all types of coffee machines, whether for h
                   </p>
                 </ul>
               </div>
-              <div className="col-xl-6">
-                <iframe
-                  className="bordered-img blue-border"
-                  width="100%"
-                  height="350"
-                  src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
-              </div>
+              
             </div>
           </div>
         </section >
@@ -361,7 +361,7 @@ Regular maintenance is important for all types of coffee machines, whether for h
                         <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h4>
-                      <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe</p>
+                      <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
                     </div>
                   </div>
                 </div>
@@ -373,7 +373,7 @@ Regular maintenance is important for all types of coffee machines, whether for h
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
                       </h4>
-                      <p className="small">Regular maintenance helps your appliances run smoothly and efficiently, delivering the best results every time.
+                      <p className="small">Regular maintenance helps your coffee machines run smoothly and efficiently, delivering the best results every time.
                       </p>
                     </div>
                   </div>
@@ -385,7 +385,7 @@ Regular maintenance is important for all types of coffee machines, whether for h
                         <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
-                      <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                      <p className="small">Energy-efficient coffee machines translate to monthly savings on utility bills, putting more money back in your pocket.</p>
                     </div>
                   </div>
                 </div>
@@ -424,7 +424,7 @@ Regular maintenance is important for all types of coffee machines, whether for h
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                       </h4>
-                      <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                      <p className="small">Knowing your coffee machines are in top condition gives you confidence and removes the stress of unexpected failures.</p>
                     </div>
                   </div>
                 </div>
@@ -460,7 +460,7 @@ Regular maintenance is important for all types of coffee machines, whether for h
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
+                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your coffee machine runs smoothly and providing peace of mind.</p>
                   </div>
                 </div>
 
@@ -471,7 +471,7 @@ Regular maintenance is important for all types of coffee machines, whether for h
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
+                    <p>Choose a day and time for your coffee machine repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
                   </div>
                 </div>
 
@@ -500,7 +500,7 @@ Regular maintenance is important for all types of coffee machines, whether for h
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same location in Dubai.</p>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two coffee machines at the same location in Dubai.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -509,7 +509,7 @@ Regular maintenance is important for all types of coffee machines, whether for h
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our skilled appliance technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
+                    <p>Our skilled coffee machine technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
                   </div>
                 </div>
               </div>
@@ -522,7 +522,7 @@ Regular maintenance is important for all types of coffee machines, whether for h
           </div>
         </section>
 
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray mb-4">
                     <div className="container">
                 
           <h3>We specialise in DeLonghi Coffee Machines Repair services for the following Types:</h3>
@@ -552,7 +552,7 @@ Regular maintenance is important for all types of coffee machines, whether for h
         {/* Maintenance Contract */}
         <MaintenanceContract />
 {/* testimobial section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
+        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
