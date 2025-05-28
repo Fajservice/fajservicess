@@ -135,8 +135,10 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Samsung Home Appliance Repair Service and Installation</h1>
-            <h2>Professional Samsung Home Appliances Service and Repair</h2>
-            <p>If you're searching for a knowledgeable local technician specializing in Samsung appliances, you’ve come to the right place. <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C.</b></a> has been delivering dependable and cost-effective solutions since 2010. We offer a network of qualified and trusted professionals who are dedicated to understanding the unique requirements of Samsung appliance repair and near-me service. Our primary goal is to connect you with a skilled Samsung technician in Dubai and Sharjah who is well-versed in the workings of Samsung appliances. Your satisfaction is our top priority! </p>
+            {/* <h2>Professional Samsung Home Appliances Service and Repair</h2> */}
+            <p>If you're searching for a knowledgeable local technician specializing in Samsung appliances, you’ve come to the right place. <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been delivering dependable and cost-effective solutions since 2010. We offer a network of qualified and trusted professionals who are dedicated to understanding the unique requirements of Samsung appliance repair and near-me service.
+              <br />
+              Our primary goal is to connect you with a skilled Samsung technician in Dubai and Sharjah who is well-versed in the workings of Samsung appliances. Your satisfaction is our top priority! </p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -147,7 +149,7 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* Best Home Appliance Service Center */}
+        {/* 2 cols */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
@@ -155,8 +157,8 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
                 <h3 className="cs_fs_24 mb-1">Samsung Washing Machine Repair</h3>
 
                 <p className="mb-2">
-                  If you're experiencing issues with your Samsung appliances, our repair team is here to help! FAJ provides quick and affordable solutions for a range of problems, including Samsung washing machines that won’t drain, Samsung refrigerators that aren’t cooling, ovens that won’t heat, and Samsung dishwashers that won’t turn on.<br />Get reliable Samsung appliance repair in Dubai and Sharjah; we provide trusted solutions for any appliance issue you may have.
-
+                  If you're experiencing issues with your Samsung appliances, our repair team is here to help! FAJ provides quick and affordable solutions for a range of problems, including Samsung washing machines that won’t drain, Samsung refrigerators that aren’t cooling, ovens that won’t heat, and Samsung dishwashers that won’t turn on.
+                  <br />Get reliable Samsung appliance repair in Dubai and Sharjah; we provide trusted solutions for any appliance issue you may have.
                 </p>
 
                 <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Samsung Appliances Technical Inspection Fee</h3>
@@ -171,8 +173,34 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* The Most Common Problems with Home Appliances */}
+        {/* Why */}
         <section className="section cs_py_30">
+          <div className="container">
+
+            <h3 className="cs_fs_30">Why is Samsung Appliance Maintenance Service Important in Dubai?</h3>
+            <p className="">Our extensive repair services include diagnosis, repairs, installations, and maintenance. This positions us as the leading provider of Samsung appliance maintenance in Dubai.</p>
+
+            <div className="row align-items-center">
+              <div className="col-md-6">
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher.avif`} alt="Samsung Washing Machine Repair" />
+              </div>
+              <div className="col-md-6">
+                <ul className="mb-0">
+                  <li><strong>Samsung Washing Machine Repair in Dubai: </strong>Regular maintenance can prolong your Samsung washing machine's lifespan, saving you money.</li>
+                  <li><strong>Samsung Fridge Repair in Dubai: </strong>We are confident that we can quickly get your Samsung refrigerator up and running again.</li>
+                  <li><strong>Samsung Stove / Oven Repair in Dubai: </strong>Catching minor issues early can help prevent them from escalating into expensive repairs.</li>
+                  <li><strong>Samsung Dishwasher Repair in Dubai: </strong>Regular maintenance helps minimise potential problems and improves overall performance.</li>
+                  <li><strong>Early Problem Detection: </strong>Regular inspections can help identify potential problems before they escalate into serious issues.</li>
+                  <li><strong>Cost-Effective: </strong>Maintaining appliances is more cost-effective than replacing or making major repairs, ensuring safety and efficiency in Dubai.</li>
+                  <li><strong>Energy Efficiency: </strong>Regular maintenance of your Samsung appliances can enhance efficiency and save you money.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Problems */}
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="text-center">The Most Common Problems with Samsung Appliances</h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -273,37 +301,49 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* Why is Appliance Maintenance Service Important in Dubai? */}
-        <section className="section cs_py_30 bg-light-gray">
+        {/* HERE ARE  */}
+        <section className="section cs_py_30">
           <div className="container">
-
-            <h3 className="cs_fs_30">Why is Samsung Appliance Maintenance Service Important in Dubai?</h3>
-            <p className="">Our extensive repair services include diagnosis, repairs, installations, and maintenance. This positions us as the leading provider of Samsung appliance maintenance in Dubai.</p>
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR SAMSUNG APPLIANCES</h3>
 
             <div className="row align-items-center">
-              <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher.avif`} alt="Samsung Washing Machine Repair" />
+              <div className="col-xl-6">
+                <iframe
+                  className="bordered-img blue-border"
+                  width="100%"
+                  height="350"
+                  src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
               </div>
-              <div className="col-md-6">
-                <ul className="mb-0">
-                  <li><strong>Samsung Washing Machine Repair in Dubai: </strong>Regular maintenance can prolong your Samsung washing machine's lifespan, saving you money.</li>
-                  <li><strong>Samsung Fridge Repair in Dubai: </strong>We are confident that we can quickly get your Samsung refrigerator up and running again.</li>
-                  <li><strong>Samsung Stove / Oven Repair in Dubai: </strong>Catching minor issues early can help prevent them from escalating into expensive repairs.</li>
-                  <li><strong>Samsung Dishwasher Repair in Dubai: </strong>Regular maintenance helps minimise potential problems and improves overall performance.</li>
-                  <li><strong>Early Problem Detection: </strong>Regular inspections can help identify potential problems before they escalate into serious issues.</li>
-                  <li><strong>Cost-Effective: </strong>Maintaining appliances is more cost-effective than replacing or making major repairs, ensuring safety and efficiency in Dubai.</li>
-                  <li><strong>Energy Efficiency: </strong>Regular maintenance of your Samsung appliances can enhance efficiency and save you money.</li>
+
+              <div className="col-xl-6">
+                <p className='mb-0'>We specialize in all types of Samsung appliances, including built-in models.
+                  <br />
+                  <strong>Our services include:</strong>
+                </p>
+
+                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
+                  <li><strong>Samsung Appliance Installation: </strong>Expert installation of various types and brands of Samsung home appliances to ensure their optimal performance and efficiency.</li>
+                  <li><strong>Samsung Appliance Diagnostics: </strong>We offer expert diagnostics and eligibility assessments, along with detailed quotes for issues related to Samsung appliances.</li>
+                  <li><strong>Samsung Appliance Repair Service: </strong>We offer fast and effective repair service for Samsung appliances, quickly addressing leaks, electrical issues, and malfunctions. Contact us for details about specific services or any questions you may have!</li>
+                  <li><strong>Samsung Appliance Annual Maintenance Contract: </strong>This contract outlines the terms for the annual maintenance of your Samsung appliances, ensuring they function smoothly throughout the year. Enjoy peace of mind with professional care.</li>
                 </ul>
+                <p className="mb-0">Regular maintenance is essential for keeping your Samsung home appliances operating efficiently, performing well, and lasting longer.</p>
               </div>
+
             </div>
           </div>
-        </section>
+        </section >
 
-        {/* The Benefits Of appliances Service Dubai */}
-        <section className="section cs_py_30 appliances-benifit-sec">
+        {/* Benefits */}
+        <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
-              <h3 className="cs_fs_30 mb-0">The Benefits of Samsung appliances Service Dubai</h3>
+              <h3 className="cs_fs_30 mb-0">The Benefits of Samsung appliances Service In Dubai</h3>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
                   <div className="">
@@ -384,41 +424,8 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
-        <section className="section cs_py_30 bg-light-gray">
-          <div className="container">
-            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR SAMSUNG APPLIANCES</h3>
-
-            <div className="row align-items-center">
-              <div className="col-xl-6">
-                <p className='mb-0'>We specialize in all types of Samsung appliances, including built-in models.</p>
-                <p className='mb-0'><strong>Our services include:</strong></p>
-                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                  <li><strong>Samsung Appliance Installation: </strong>Expert installation of various types and brands of Samsung home appliances to ensure their optimal performance and efficiency.</li>
-                  <li><strong>Samsung Appliance Diagnostics: </strong>We offer expert diagnostics and eligibility assessments, along with detailed quotes for issues related to Samsung appliances.</li>
-                  <li><strong>Samsung Appliance Repair Service: </strong>We offer fast and effective repair service for Samsung appliances, quickly addressing leaks, electrical issues, and malfunctions. Contact us for details about specific services or any questions you may have!</li>
-                  <li><strong>Samsung Appliance Annual Maintenance Contract: </strong>This contract outlines the terms for the annual maintenance of your Samsung appliances, ensuring they function smoothly throughout the year. Enjoy peace of mind with professional care.</li>
-                </ul>
-              </div>
-              <div className="col-xl-6">
-                <iframe
-                  className="bordered-img blue-border"
-                  width="100%"
-                  height="350"
-                  src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
-              </div>
-              <p className="mb-0">Regular maintenance is essential for keeping your Samsung home appliances operating efficiently, performing well, and lasting longer.</p>
-            </div>
-          </div>
-        </section >
-
-        {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
-        <section className="section cs_py_30">
+        {/* CHOOSE US  */}
+        < section className="section cs_py_30" >
           <div className="container container-md container-sm">
             <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2>
 
@@ -502,16 +509,26 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
               </div>
             </div>
           </div>
-        </section>
+        </section >
+
         {/* We specialise  */}
-        <section className="section cs_py_30 bg-light-gray ">
+        < section className="section cs_py_30 bg-light-gray mb-5" >
           <div className="container">
-            <h3>We specialise in Samsung appliance services of the following types:</h3>
+            <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
+            <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.
+            <br />
+            Timing: Mon-Sat 8:00 AM to 6:00 PM - Sunday 12:00 PM to 6:00 PM. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.
+            </p>
+            <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
+              <b>We provide 2-month service warranty</b><br />
+              and <small>3-month parts warranty</small> as standard.</p>
+
+            <h3>We specialise in Samsung appliance services of the following types</h3>
             <div className="row">
               <div className="col-12">
-                <p className="mb-0"><strong>Samsung Washing Machine Repair Near You in Dubai: </strong>FAJ is here to support you when issues arise. We understand that your Samsung washing machine is vital for daily life, ensuring your laundry stays clean. Contact us for the best Samsung washing machine service center near me in Dubai</p>
+                <p className="mb-0"><strong>Samsung Washing Machine Repair Near You in Dubai: </strong>FAJ is here to support you when issues arise. We understand that your Samsung washing machine is vital for daily life, ensuring your laundry stays clean. Contact us for the best Samsung washing machine service center near me in Dubai.</p>
                 <p className="mb-0"><strong>Samsung Fridge Repair Near You in Dubai</strong>: If you are having problems with your Samsung refrigerator, please contact the FAJ team for same-day Samsung refrigerator repair service in Dubai.</p>
-                <p><strong>Samsung Freezer Repair Near You in Dubai</strong>: Our team of qualified technicians is available for Samsung freezer repair and service in Dubai and Sharjah.</p>
+                <p className="mb-0"><strong>Samsung Freezer Repair Near You in Dubai</strong>: Our team of qualified technicians is available for Samsung freezer repair and service in Dubai and Sharjah.</p>
                 <p className="mb-0"><strong>Samsung Home Appliance Service Center Near You</strong>: If you are seeking the best repair service Samsung washer dryer in Dubai, FAJ is an excellent choice. They are well-known for their exceptional service in repairing Samsung fridge freezer and are recognized as the leading provider for repairs of fix Samsung cooking range, stove fixes, induction cooktops, repair Samsung washing machines, and Samsung refrigerator in the area.</p>
                 <p className="mb-0"><strong>Samsung Dishwasher Repair Near You in Dubai</strong>: If you're experiencing issues with your Samsung dishwasher, it might be time for some repair or maintenance. For reliable and top-notch service, consider FAJ's Samsung service center in Dubai, which specializes in integrated Samsung dishwasher repairs. They offer expert assistance to ensure your appliance functions optimally.</p>
                 <p className="mb-0"><strong>Samsung Cooking Range and Oven Repair Near You:</strong> We provide expert repair service Samsung cooking range and ovens in Dubai. Our skilled technicians are experienced in diagnosing and fixing issues with Samsung refrigerator repair, fix Samsung dishwasher , Samsung dryer fixer, and more.</p>
@@ -520,8 +537,9 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
             </div>
-            <h4>We offer service for Samsung appliances in the Dubai area.</h4>
-            <p><a href="https://www.fajservices.ae/appliances-services-in-business-bay/">Business Bay</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-marina/">Dubai Marina</a> | <a href="https://www.fajservices.ae/appliances-services-in-palm-jumeirah/">Palm Jumeirah</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-hills-estate/">Dubai Hills Estate</a> | <a href="https://www.fajservices.ae/appliances-services-in-damac-hills/">Damac Hills</a> | <a href="https://www.fajservices.ae/appliances-services-in-al-barari/">Al Barari</a> | <a href="https://www.fajservices.ae/appliances-services-in-al-barsha/">Al Barsha</a> | <a href="https://www.fajservices.ae/appliances-services-in-al-safa/">Al Safa</a> | <a href="https://www.fajservices.ae/appliances-services-in-arabian-ranches/">Arabian Ranches</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-silicon-oasis/">Dubai Silicon Oasis</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-investments-park/">Dubai Investments Park</a> | <a href="https://www.fajservices.ae/appliances-services-in-dip/">DIP</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-production-city/">Dubai Production City</a> | <a href="https://www.fajservices.ae/appliances-services-in-impzy/">IMPZ</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-sports-city/">Dubai Sports City</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-studio-city/">Dubai Studio City</a> | <a href="https://www.fajservices.ae/appliances-services-in-jbr/">JBR</a> - <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-beach-residence/">Jumeirah Beach Residence</a> | <a href="https://www.fajservices.ae/appliances-services-in-jlt/">JLT</a> - <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-lake-towers/">Jumeirah Lake Towers</a> | <a href="https://www.fajservices.ae/appliances-services-in-jvc/">JVC</a> - <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-village-circle/">Jumeirah Village Circle</a> | <a href="https://www.fajservices.ae/appliances-services-in-jvt/">JVT</a> - <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-village-triangle/">Jumeirah Village Triangle</a> | <a href="https://www.fajservices.ae/appliances-services-in-jebel-ali-village/">Jebel Ali Village</a> | <a href="https://www.fajservices.ae/appliances-services-in-jumeirah/">Jumeirah</a> | <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-golf-estates/">Jumeirah Golf Estates</a> | <a href="https://www.fajservices.ae/appliances-services-in-the-meadows/">Meadows</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-motor-city/">Motor City</a> | <a href="https://www.fajservices.ae/appliances-services-in-town-square/">Town Square</a> | <a href="https://www.fajservices.ae/ac-services-in-emirates-hills/">Emirates Hills</a> | <a href="https://www.fajservices.ae/appliances-services-in-umm-suqeim/">Umm Suqeim</a> |</p>
+
+            <h4>We offer service for Samsung appliances in the Dubai area</h4>
+            <p><a href="https://www.fajservices.ae/appliances-services-in-business-bay/">Business Bay</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-marina/">Dubai Marina</a> | <a href="https://www.fajservices.ae/appliances-services-in-palm-jumeirah/">Palm Jumeirah</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-hills-estate/">Dubai Hills Estate</a> | <a href="https://www.fajservices.ae/appliances-services-in-damac-hills/">Damac Hills</a> | <a href="https://www.fajservices.ae/appliances-services-in-al-barari/">Al Barari</a> | <a href="https://www.fajservices.ae/appliances-services-in-al-barsha/">Al Barsha</a> | <a href="https://www.fajservices.ae/appliances-services-in-al-safa/">Al Safa</a> | <a href="https://www.fajservices.ae/appliances-services-in-arabian-ranches/">Arabian Ranches</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-silicon-oasis/">Dubai Silicon Oasis</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-investments-park/">Dubai Investments Park</a> | <a href="https://www.fajservices.ae/appliances-services-in-dip/">DIP</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-production-city/">Dubai Production City</a> | <a href="https://www.fajservices.ae/appliances-services-in-impzy/">IMPZ</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-sports-city/">Dubai Sports City</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-studio-city/">Dubai Studio City</a> | <a href="https://www.fajservices.ae/appliances-services-in-jbr/">JBR</a> | <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-beach-residence/">Jumeirah Beach Residence</a> | <a href="https://www.fajservices.ae/appliances-services-in-jlt/">JLT</a> | <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-lake-towers/">Jumeirah Lake Towers</a> | <a href="https://www.fajservices.ae/appliances-services-in-jvc/">JVC</a> | <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-village-circle/">Jumeirah Village Circle</a> | <a href="https://www.fajservices.ae/appliances-services-in-jvt/">JVT</a> | <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-village-triangle/">Jumeirah Village Triangle</a> | <a href="https://www.fajservices.ae/appliances-services-in-jebel-ali-village/">Jebel Ali Village</a> | <a href="https://www.fajservices.ae/appliances-services-in-jumeirah/">Jumeirah</a> | <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-golf-estates/">Jumeirah Golf Estates</a> | <a href="https://www.fajservices.ae/appliances-services-in-the-meadows/">Meadows</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-motor-city/">Motor City</a> | <a href="https://www.fajservices.ae/appliances-services-in-town-square/">Town Square</a> | <a href="https://www.fajservices.ae/ac-services-in-emirates-hills/">Emirates Hills</a> | <a href="https://www.fajservices.ae/appliances-services-in-umm-suqeim/">Umm Suqeim</a></p>
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <GetQuoteButton />
@@ -530,14 +548,15 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
             </div>
 
           </div>
-        </section>
-        
+        </section >
+
         {/* Maintenance Contract */}
-        <MaintenanceContract />
-{/* testimobial section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
+        < MaintenanceContract />
+        
+        {/* testimobial section */}
+        < section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
-          <div className="container">
+          < div className="container" >
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
               <h3 className="cs_section_subtitle cs_fs_18 text-black cs_semibold text-uppercase cs_mb_12 wow fadeInDown">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -583,12 +602,12 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
 
               </div>
             </div>
-          </div>
+          </div >
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
-        </section>
+        </section >
 
         {/* FAQ's */}
-        <section className="section cs_py_30  bg-dark-blue text-light">
+        < section className="section cs_py_30  bg-dark-blue text-light" >
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ's</h3>
 
@@ -613,8 +632,9 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
 
             </div>
           </div>
-        </section>
+        </section >
 
+        {/* contact */}
         <section className="section cs_py_30">
           <Serviceappointemnt
             subtitle2="Contact us"
