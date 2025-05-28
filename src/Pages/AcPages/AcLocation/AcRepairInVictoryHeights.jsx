@@ -5,7 +5,8 @@ const AcRepairInVictoryHeights = () => {
   return (
     <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/air-condition.jpg"
+bgImg="img/banners/ac-banner-desktop-faj.avif"
+mobileBgImg="img/banners/ac-banner-mobile-faj.avif"
         Title="AC Service in Victory Heights"
     ></BreadCumb>
     <AcRepairInVictoryHeightsDetail />

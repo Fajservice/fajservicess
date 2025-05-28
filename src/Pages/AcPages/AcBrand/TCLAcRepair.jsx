@@ -5,7 +5,8 @@ const TCLAcRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/acbrands/tcl-ac-repair-faj.avif"
+                bgImg="img/acbrands/desktop/tcl-ac-repair-faj.avif"
+                mobileBgImg="img/acbrands/mobile/tcl-ac-repair-faj.avif"
                 Title="TCL AC Repair in Dubai - HVAC Maintenance"
             ></BreadCumb> 
             <TCLAcRepairDetail></TCLAcRepairDetail>           

@@ -5,7 +5,8 @@ const ToshibaAcRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/acbrands/Toshiba-ac-repair-faj.avif"
+                bgImg="img/acbrands/desktop/toshiba-ac-repair-faj.avif"
+                mobileBgImg="img/acbrands/mobile/toshiba-ac-repair-faj.avif"
                 Title="Toshiba AC Repair in Dubai - AC Maintenance Service Near Me"
             ></BreadCumb> 
             <ToshibaAcRepairDetail></ToshibaAcRepairDetail>           

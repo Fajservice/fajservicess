@@ -5,8 +5,8 @@ const DaewooAcRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/acbrands/Daewoo-Ac-repair-faj.avif"
-                // bgImg="img/ac_service-bannerbg.avif"
+                bgImg="img/acbrands/desktop/daewoo-ac-repair-faj.avif"
+                mobileBgImg="img/acbrands/mobile/daewoo-ac-repair-faj.avif"
                 Title="Beat the heat this summer with Expert Daewoo AC repair and service in Dubai!"
             ></BreadCumb> 
             <DaewooAcRepairDetail></DaewooAcRepairDetail>           

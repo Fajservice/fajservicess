@@ -5,8 +5,8 @@ const HitachiAcRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/acbrands/hitachi-ac-repair-faj.avif"
-                // bgImg="img/banners/homeappliancesbrands/coleman.jpg"
+                bgImg="img/acbrands/desktop/hitachi-ac-repair-faj.avif"
+                mobileBgImg="img/acbrands/mobile/hitachi-ac-repair-faj.avif"
                 Title="Hitachi AC Repair in Dubai - Air Conditioner Maintenance Near Me"
             ></BreadCumb> 
             <HitachiAcRepairDetail></HitachiAcRepairDetail>           

@@ -5,7 +5,8 @@ const SamsungAcRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/acbrands/samsung-ac-repair-faj.avif"
+                bgImg="img/acbrands/desktop/mitsubishi-ac-repair-faj.avif"
+                mobileBgImg="img/acbrands/mobile/mitsubishi-ac-repair-faj.avif"
                 Title="Samsung AC Repair in Dubai  – Samsung AC Maintenance Service"
             ></BreadCumb> 
             <SamsungAcRepairDetail></SamsungAcRepairDetail>           

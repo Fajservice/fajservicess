@@ -5,8 +5,8 @@ const CoolineAcRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/acbrands/Cooline-ac-repair-faj.avif"
-                // bgImg="img/ac_service-bannerbg.avif"
+                bgImg="img/acbrands/desktop/cooline-ac-repair-faj.avif"
+                mobileBgImg="img/acbrands/mobile/coolline-ac-repair-faj.avif"
                 Title="Cooline AC Repair In Dubai - AC Cleaning Service Near Me"
             ></BreadCumb> 
             <CoolineAcRepairDetail></CoolineAcRepairDetail>           

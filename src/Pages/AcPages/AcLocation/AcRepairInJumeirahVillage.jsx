@@ -6,8 +6,8 @@ const AcRepairInJumeirahVillage = () => {
   return (
     <div className="serviceDetails">
       <BreadCumb
-        // bgImg="img/page_heading_1.avif"
-        bgImg="img/air-condition.jpg"
+bgImg="img/banners/ac-banner-desktop-faj.avif"
+mobileBgImg="img/banners/ac-banner-mobile-faj.avif"
         Title="AC Service in Jumeirah Village Dubai"
       ></BreadCumb>
       <AcRepairInJumeirahVillageDetail />

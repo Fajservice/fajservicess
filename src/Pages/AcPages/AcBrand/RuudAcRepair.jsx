@@ -5,7 +5,8 @@ const RuudAcRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/acbrands/ruud-ac-repair-faj.avif"
+                bgImg="img/acbrands/desktop/ruud-ac-repair-faj.avif"
+                mobileBgImg="img/acbrands/mobile/ruud-ac-repair-faj.avif"
                 Title="Ruud AC Repair in Dubai - Air Conditioner Maintenance Service Near You"
             ></BreadCumb> 
             <RuudAcRepairDetail></RuudAcRepairDetail>           
