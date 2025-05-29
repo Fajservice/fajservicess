@@ -10,7 +10,7 @@ import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
 import testimonial_data from '../../Data/CommercialCoffeeMAchineReapairTestimonials.json';
-import brandsLogo_data from '../../Data/coffeemachineServicebrand.json';
+// import brandsLogo_data from '../../Data/coffeemachineServicebrand.json';
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../Headeform/HeaderForm";
@@ -180,7 +180,7 @@ const CommercialDishwasherServicesDetail = ({ subtitle, title, reviewsbg, titleS
 
               <div className="col-md-6 ">
                 {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Post Image" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/dishwasher.avif`} alt="Post Image" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/commercial-dishwasher-service.avif`} alt="Post Image" />
 
               </div>
             </div>
@@ -200,7 +200,7 @@ const CommercialDishwasherServicesDetail = ({ subtitle, title, reviewsbg, titleS
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Cooking-Range-Repair-Nearby-You.avif`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/commercial-dishwasher-repair.avif`} alt="Post Image" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -580,7 +580,7 @@ const CommercialDishwasherServicesDetail = ({ subtitle, title, reviewsbg, titleS
         </section>
 
         {/* We specialise  */}
-        <section className="section cs_py_30 bg-light-gray ">
+        <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">
             <h3>We specialise in dishwasher services for the following brands </h3>
             <div className="row">
@@ -835,9 +835,8 @@ const CommercialDishwasherServicesDetail = ({ subtitle, title, reviewsbg, titleS
 
 
         {/* Brands section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
+        {/* <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
           <div className="container">
-
             <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
               data-variable-width="0" data-xs-slides="1" data-sm-slides="1" data-md-slides="1" data-lg-slides="2"
               data-add-slides="2" data-slides-per-view="responsive">
@@ -859,8 +858,7 @@ const CommercialDishwasherServicesDetail = ({ subtitle, title, reviewsbg, titleS
               </div>
             </div>
           </div>
-          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
-        </section>
+        </section> */}
         {/* Maintenance Contract */}
         <MaintenanceContract />
 

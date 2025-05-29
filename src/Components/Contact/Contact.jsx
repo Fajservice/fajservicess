@@ -39,7 +39,7 @@ const Contact = ({Title,subTitle,address,email,emailLink,number,numberLink,numbe
                     </div>
                   </div>
                   <div className="cs_contact_thumbnail wow fadeInUp">
-                    <img src={`${import.meta.env.BASE_URL}${img}`} loading="lazy" alt="Contact Image" />
+                    <img className="img-position" src={`${import.meta.env.BASE_URL}${img}`} loading="lazy" alt="Contact Image" />
                   </div>
                   <div className="cs_client_info_wapper cs_white_bg">
                     <h3 className="cs_fs_30 cs_accent_color">{clientNumber}</h3>

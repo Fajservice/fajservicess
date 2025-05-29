@@ -5,7 +5,8 @@ const CommercialRefrigerationMaintence = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/banners/Refrigeration-Equipment-Services/Commercial-Refrigerator-Repair.avif"
+                bgImg="img/banners/Refrigeration-Equipment-Services/Commercial-Refrigeration-Maintenance-and-Services-FAJ.avif"
+                mobileBgImg="img/banners/Refrigeration-Equipment-Services/Commercial-Refrigeration-Maintenance-and-Services-FAJ-Mobile.avif"
                 Title="Commercial Refrigeration Maintenance and Services"
             ></BreadCumb>
 
