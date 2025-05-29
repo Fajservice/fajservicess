@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
-import { HelmetProvider } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
 import CallNowButton from '../../../Buttons/CallNowButton.jsx';
 import GetQuoteButton from "../../../Buttons/GetQuoteButton.jsx";
@@ -18,20 +18,18 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 import ApplianceSpecialise from "./Appliance specialise/ApplianceSpecialise.jsx";
 
-const ApplianceServiceInAlKaramDetail = ({ subtitle, title, bgImg }) => {
-
+const ApplianceServiceInAlKaramDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const titleSeo = "Appliances Services in Al Karama - Fridge Repair Service";
-    const description = "FAJ offers appliance service in Al Karama. Call 043300002 for fridge repair near me in Dubai. Get to fix washing machine, refrigerator, vacuum cleaner";
-    const Author = "Faj Technical Servcies";
-    const Keyword = "";
-    const URL = "https://www.fajservices.ae/appliances-services-in-al-karama";
-
+    const metatitle = String(titleSeo || " Appliances Services in Al Karama - Fridge Repair Service");
+    const metadescription = String(description || "FAJ offers appliance service in Al Karama. Call 043300002 for fridge repair near me in Dubai. Get to fix washing machine, refrigerator, vacuum cleaner");
+    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaKeyword = String(Keyword || "Repair Services");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-karama");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
-    bgImg = "img/testimonialbg.jpg"
+    reviewsbg = "img/testimonialbg.jpg"
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -141,7 +139,7 @@ const ApplianceServiceInAlKaramDetail = ({ subtitle, title, bgImg }) => {
                 <section className="section cs_py_30">
                     <div className="container">
                         <h1 className="cs_fs_30">Home Appliance Service in Al Karam</h1>
-                        <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2>
+                        {/* <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2> */}
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
@@ -559,7 +557,7 @@ const ApplianceServiceInAlKaramDetail = ({ subtitle, title, bgImg }) => {
                 {/* Maintenance Contract */}
                 <MaintenanceContract />
                 {/* testimobial section */}
-                <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
+                <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                     <div className="container">
                         <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">

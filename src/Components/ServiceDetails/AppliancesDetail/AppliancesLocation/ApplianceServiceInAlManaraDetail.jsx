@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
-import { HelmetProvider } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
 import CallNowButton from '../../../Buttons/CallNowButton.jsx';
 import GetQuoteButton from "../../../Buttons/GetQuoteButton.jsx";
@@ -18,20 +18,17 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 import ApplianceSpecialise from "./Appliance specialise/ApplianceSpecialise.jsx";
 
-const ApplianceServiceInAlManaraDetail = ({ subtitle, title, bgImg }) => {
-
-
+const ApplianceServiceInAlManaraDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
     // For SEO
-    const titleSeo = "Appliance Services in Al Manara - Washing Machine​ Repair Dubai";
-    const description = "Best Appliance Services in Manara. Get refrigerator repair near me in Dubai. Call 043300002 to fix your washing machine, dishwasher and stove";
-    const Author = "Faj Technical Servcies";
-    const Keyword = "";
-    const URL = "https://www.fajservices.ae/appliances-services-in-the-springs";
-
+    const metatitle = String(titleSeo || "Appliance Services in Al Manara - Washing Machine​ Repair Dubai");
+    const metadescription = String(description || " Best Appliance Services in Manara. Get refrigerator repair near me in Dubai. Call 043300002 to fix your washing machine, dishwasher and stove");
+    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaKeyword = String(Keyword || "Repair Services");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-springs");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
-    bgImg = "img/testimonialbg.jpg"
+    reviewsbg = "img/testimonialbg.jpg"
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -559,7 +556,7 @@ const ApplianceServiceInAlManaraDetail = ({ subtitle, title, bgImg }) => {
                 {/* Maintenance Contract */}
                 <MaintenanceContract />
                 {/* testimobial section */}
-                <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
+                <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                     <div className="container">
                         <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
