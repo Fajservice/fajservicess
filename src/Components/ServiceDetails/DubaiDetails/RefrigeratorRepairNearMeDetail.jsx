@@ -28,7 +28,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, bgImg }) => {
   const description = "Faj Technical Servcies";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
-  const URL = "https://www.fajservices.com/";
+  const URL = "https://www.fajservices.ae/";
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

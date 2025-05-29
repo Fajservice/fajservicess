@@ -22,8 +22,8 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo , des
   const metatitle = String(titleSeo || "Commercial Kitchen Equipment AMC Contract Services | FAJ");
   const metadescription = String(description || "Get FAJ reliable your commercial kitchen equipment AMC services in Dubai, UAE, with specialized gas stove, oven, cooker maintenance contract service");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
-  const metaKeyword = String(Keyword || "Delonghi Coffee Machine Repair, Delonghi Coffee Machine Service, Delonghi Coffee Machine Maintenance");
-  const metaURL = String(URL || "https://www.fajservices.com/commercial-kitchen-equipment-amc/");
+  const metaKeyword = String(Keyword || "Kitchen Equipment AMC Contract Services");
+  const metaURL = String(URL || "https://www.fajservices.ae/commercial-kitchen-equipment-amc/");
 
 
 

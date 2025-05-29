@@ -20,8 +20,8 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo , 
   const metatitle = String(titleSeo || "Commercial Kitchen Gas Cooker Repair - Restaurant Range, Stove");
   const metadescription = String(description || "Need gas cooker repairs near me in Dubai? FAJ offers expert gas cooker repair, maintenance, and service for commercial kitchens. Call now 04 3300002!");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
-  const metaKeyword = String(Keyword || "Delonghi Coffee Machine Repair, Delonghi Coffee Machine Service, Delonghi Coffee Machine Maintenance");
-  const metaURL = String(URL || "https://www.fajservices.com/cooking-equipment-service/");
+  const metaKeyword = String(Keyword || "Commercial Kitchen Gas Cooker Repair");
+  const metaURL = String(URL || "https://www.fajservices.ae/cooking-equipment-service/");
 
 
   subtitle = "Testimonial"
