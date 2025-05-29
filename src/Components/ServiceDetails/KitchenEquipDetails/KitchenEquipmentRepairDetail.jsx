@@ -176,13 +176,13 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Post Image" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/dishwasher.avif`} alt="Post Image" />
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Commercial Cooking Equipment Repair" /> */}
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/kitchen-equip-amc-service.avif`} alt="Commercial Cooking Equipment Repair" />
 
               </div>
             </div>
-
-            <AppliancesAppointmentCol></AppliancesAppointmentCol>
+                <h3 className="cs_fs_24 mb-1 border-small-top pt-3">Planned Preventive Maintenance (PPM) Services</h3>
+                <p className="mb-2">Our catering equipment technician can provide your business with a customised Planned Preventive Maintenance Package designed to keep your catering, cooking line, baking line, and refrigeration equipment compliant and running efficiently.< br/> This proactive approach reduces the likelihood of unexpected breakdowns and associated costs. Our Planned Preventive Maintenance Package includes maintenance, repair services, and testing. It is ideal for hotels, restaurants, canteens, and other venues in the hospitality and education sectors looking to ensure their equipment operates smoothly and to prevent breakdowns.</p>
           </div>
         </section>
 
@@ -195,7 +195,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, bgImg }) => {
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Cooking-Range-Repair-Nearby-You.avif`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/kitchen-equip-amc-repair.avif`} alt="Commercial Cooking Equipment Repair" />
               </div>
               <div className="col-md-6">
                 <p>Regular maintenance of commercial kitchen cooking equipment is essential for safe and efficient operation.</p>

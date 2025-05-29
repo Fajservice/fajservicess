@@ -163,18 +163,19 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
             <div className="row gx-md-5">
               <div className="col-md-6">
 
-                <h3 className="cs_fs_24 mb-1">Restaurant Grinder Technical Inspection Fee</h3>
+                
 
+
+                <h3 className="cs_fs_24 mb-1 "> Commercial Meat Grinder Repair Near You</h3>
                 <p className="mb-2">
+                  Has your butcher equipment or machinery broken down? Look no further than System Food Machinery for your meat grinder services. For over 16 years, we have been providing butcher machine repair in Dubai, along with repairs for other meat and vegetable preparation equipment. We are dedicated to delivering high-quality breakdown, repair, and recovery services for food equipment and machinery.
+                </p>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Restaurant Grinder Technical Inspection Fee</h3>
+
+                <p className="mb-0">
                   We have a standard technical inspection fee that covers the diagnosis, transportation, and reinstallation of the same appliance.
                   <br />Please note that this fee is non-refundable. However, it does not include the cost of any repairs or parts.
 
-                </p>
-
-
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top"> Commercial Meat Grinder Repair Near You</h3>
-                <p className="mb-0">
-                  Has your butcher equipment or machinery broken down? Look no further than System Food Machinery for your meat grinder services. For over 16 years, we have been providing butcher machine repair in Dubai, along with repairs for other meat and vegetable preparation equipment. We are dedicated to delivering high-quality breakdown, repair, and recovery services for food equipment and machinery.
                 </p>
               </div>
 
@@ -198,7 +199,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Hob-Repair-Service-in-Dubai-UAE.avif`} alt="Meat Grinder Repair" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/meat-grinder-repair-service.avif`} alt="Meat Grinder Repair" />
               </div>
               <div className="col-md-6">
                 <ul>

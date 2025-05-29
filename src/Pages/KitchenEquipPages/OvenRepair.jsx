@@ -5,7 +5,8 @@ const OvenRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/banners/kitchen-equipments/oven.avif"
+                bgImg="img/banners/kitchen-equipments/commercial-oven-repair-service.avif"
+                mobileBgImg="img/banners/kitchen-equipments/commercial-oven-repair.avif"
                 Title="Commercial Oven Repair and Maintenance Services"
             ></BreadCumb>
 
