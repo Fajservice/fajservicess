@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
-import { HelmetProvider } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
@@ -12,18 +12,19 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
-// For SEO
-const titleSeo = "Panasonic Fridge Repair Dubai - Washing Machine Service";
-const description = "If you're searching for a reliable Panasonic fridge Repair in Dubai. Call-FAJ 043300002 for Panasonic washing machine, dishwasher, refrigerator service";
-const Author = "Faj Technical Servcies";
-const Keyword = "";
-const URL = "https://www.fajservices.com/panasonic-fridge-repair-in-dubai-panasonic-washing-machine-repair-in-dubai-panasonic-cooker-repair-in-dubai-panasonic-oven-repair-in-dubai-panasonic-appliances-maintenance-in-dubai-panasonic-refrigera/";
 
-const PanasonicFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
+const PanasonicFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+    // For SEO
+    const metatitle = String(titleSeo || "Panasonic Fridge Repair Dubai - Washing Machine Service");
+    const metadescription = String(description || "If you're searching for a reliable Panasonic fridge Repair in Dubai. Call-FAJ 043300002 for Panasonic washing machine, dishwasher, refrigerator service ");
+    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaKeyword = String(Keyword || "Panasonic Fridge Repair Services");
+    const metaURL = String(URL || "https://www.fajservices.ae/panasonic-fridge-repair-in-dubai-panasonic-washing-machine-repair-in-dubai-panasonic-cooker-repair-in-dubai-panasonic-oven-repair-in-dubai-panasonic-appliances-maintenance-in-dubai-panasonic-refrigera/");
+
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
-    bgImg = "img/testimonialbg.jpg"
+    reviewsbg = "img/testimonialbg.jpg"
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -47,7 +48,7 @@ const PanasonicFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
     }, []);
 
     const settings = {
-       dots: false,
+        dots: false,
         infinite: true,
         speed: 600,
         slidesToShow: 2,
@@ -113,19 +114,19 @@ const PanasonicFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
     return (
         <>
             <HelmetProvider>
-                <title>{titleSeo}</title>
-                <meta name="description" content={description}></meta>
-                <meta name="keywords" content={Keyword} />
-                <meta name="author" content={Author} />
-                <meta name="robots" content="index, follow" />
-                <Link rel="canonical" href={titleSeo} />
-                <meta property="og:type" content="website" />
-                <meta property="og:locale" content="en_US" />
-                <meta property="og:title" content={titleSeo} />
-                <meta property="og:description" content={description} />
-                <meta property="og:type" content="website" />
-                <meta property="og:url" content={URL} />
-
+                <Helmet>
+                    <title>{metatitle}</title>
+                    <meta name="description" content={metadescription}></meta>
+                    <meta name="keywords" content={metaKeyword} />
+                    <meta name="author" content={metaAuthor} />
+                    <meta name="robots" content="index, follow" />
+                    <link rel="canonical" href={metaURL} />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:title" content={metatitle} />
+                    <meta property="og:description" content={metadescription} />
+                    <meta property="og:url" content={metaURL} />
+                </Helmet>
             </HelmetProvider>
             <HeaderForm />
 
@@ -161,7 +162,7 @@ const PanasonicFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
                                 </p>
 
                                 <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service</h3>
-                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services LLC</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
+                                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services LLC</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
                             </div>
 
                             <div className="col-md-6 ">
@@ -471,11 +472,11 @@ const PanasonicFridgeRepairDetail = ({ subtitle, title, bgImg }) => {
                     </div>
                 </section>
 
-                
-        {/* Maintenance Contract */}
-        <MaintenanceContract />
-{/* testimobial section */}
-                <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
+
+                {/* Maintenance Contract */}
+                <MaintenanceContract />
+                {/* testimobial section */}
+                <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                     <div className="container">
                         <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
