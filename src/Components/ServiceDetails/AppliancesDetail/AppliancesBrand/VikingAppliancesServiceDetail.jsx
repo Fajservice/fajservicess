@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
-import { HelmetProvider } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
@@ -14,20 +14,18 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
-const VikingAppliancesServiceDetail = ({ subtitle, title, bgImg }) => {
-
+const VikingAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const titleSeo = "Viking Appliances Service - Refrigerator Repair - Oven Fix";
-  const description = "Get expert Viking appliance service in Dubai. Fast & reliable Viking refrigerator, freezer, diswasher, stove, oven maintenance service. Dail 043300002";
-  const Author = "Faj Technical Servcies";
-  const Keyword = "";
-  const URL = "https://www.fajservices.com/viking-appliances-service/";
-
+  const metatitle = String(titleSeo || "Viking Appliances Service - Refrigerator Repair - Oven Fix");
+  const metadescription = String(description || "Get expert Viking appliance service in Dubai. Fast & reliable Viking refrigerator, freezer, diswasher, stove, oven maintenance service. Dail 043300002");
+  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaKeyword = String(Keyword || "Viking Appliances Service Repair Services in dubai");
+  const metaURL = String(URL || "https://www.fajservices.ae/viking-appliances-service/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
-  bgImg = "img/testimonialbg.jpg"
+  reviewsbg = "img/testimonialbg.jpg"
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -117,19 +115,21 @@ const VikingAppliancesServiceDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>{titleSeo}</title>
-        <meta name="description" content={description}></meta>
-        <meta name="keywords" content={Keyword} />
-        <meta name="author" content={Author} />
-        <meta name="robots" content="index, follow" />
-        <Link rel="canonical" href={titleSeo} />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:title" content={titleSeo} />
-        <meta property="og:description" content={description} />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={URL} />
+        <Helmet>
+          <title>{metatitle}</title>
+          <meta name="description" content={metadescription}></meta>
+          <meta name="keywords" content={metaKeyword} />
+          <meta name="author" content={metaAuthor} />
+          <meta name="robots" content="index, follow" />
+          <link rel="canonical" href={metaURL} />
+          <meta property="og:type" content="website" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:title" content={metatitle} />
+          <meta property="og:description" content={metadescription} />
+          <meta property="og:url" content={metaURL} />
+        </Helmet>
       </HelmetProvider>
+
       <HeaderForm />
 
       <div className="cs_service_details">
@@ -478,11 +478,11 @@ const VikingAppliancesServiceDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
 
-        
+
         {/* Maintenance Contract */}
         <MaintenanceContract />
-{/* testimobial section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
+        {/* testimobial section */}
+        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">

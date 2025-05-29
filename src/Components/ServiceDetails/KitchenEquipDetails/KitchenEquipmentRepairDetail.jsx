@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../Data/KitchenEquipments/FAQs/KitchenEquipmentRepairFaqs.json';
-import { HelmetProvider } from "react-helmet-async";
+import {Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
 import GetQuoteButton from "../../Buttons/GetQuoteButton";
@@ -19,18 +19,17 @@ import HeaderForm from "../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 
 
-const KitchenEquipmentRepairDetail = ({ subtitle, title, bgImg }) => {
-
+const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , description, Author, Keyword, URL }) => {
   // For SEO
-  const titleSeo = "Commercial Cooking | Kitchen Equipment Repair & AMC Service";
-  const description = "Need expert kitchen equipment repair? FAJ offers commercial cooking appliance services and maintenance of stove, gas range, oven services Dubai";
-  const Author = "Faj Technical Servcies";
-  const Keyword = "";
-  const URL = "https://www.fajservices.com/commercial-cooking-appliances-repair-service/";
+  const metatitle = String(titleSeo || "Commercial Cooking | Kitchen Equipment Repair & AMC Service");
+  const metadescription = String(description || "Need expert kitchen equipment repair? FAJ offers commercial cooking appliance services and maintenance of stove, gas range, oven services Dubai");
+  const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
+  const metaKeyword = String(Keyword || "Kitchen Equipment Repair, Commercial Cooking Equipment Repair");
+  const metaURL = String(URL || "https://www.fajservices.ae/commercial-cooking-appliances-repair-service/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
-  bgImg = "img/testimonialbg.jpg"
+  reviewsbg = "img/testimonialbg.jpg"
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -122,19 +121,20 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>{titleSeo}</title>
-        <meta name="description" content={description}></meta>
-        <meta name="keywords" content={Keyword} />
-        <meta name="author" content={Author} />
-        <meta name="robots" content="index, follow" />
-        <Link rel="canonical" href={titleSeo} />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:title" content={titleSeo} />
-        <meta property="og:description" content={description} />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={URL} />
-      </HelmetProvider>
+                    <Helmet>
+                      <title>{metatitle}</title>
+                      <meta name="description" content={metadescription}></meta>
+                      <meta name="keywords" content={metaKeyword} />
+                      <meta name="author" content={metaAuthor} />
+                      <meta name="robots" content="index, follow" />
+                      <link rel="canonical" href={metaURL} />
+                      <meta property="og:type" content="website" />
+                      <meta property="og:locale" content="en_US" />
+                      <meta property="og:title" content={metatitle} />
+                      <meta property="og:description" content={metadescription} />
+                      <meta property="og:url" content={metaURL} />
+                    </Helmet>
+                  </HelmetProvider>
       <HeaderForm />
 
       <div className="cs_service_details">
@@ -176,13 +176,13 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Post Image" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/dishwasher.avif`} alt="Post Image" />
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Commercial Cooking Equipment Repair" /> */}
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/kitchen-equip-amc-service.avif`} alt="Commercial Cooking Equipment Repair" />
 
               </div>
             </div>
-
-            <AppliancesAppointmentCol></AppliancesAppointmentCol>
+                <h3 className="cs_fs_24 mb-1 border-small-top pt-3">Planned Preventive Maintenance (PPM) Services</h3>
+                <p className="mb-2">Our catering equipment technician can provide your business with a customised Planned Preventive Maintenance Package designed to keep your catering, cooking line, baking line, and refrigeration equipment compliant and running efficiently.< br/> This proactive approach reduces the likelihood of unexpected breakdowns and associated costs. Our Planned Preventive Maintenance Package includes maintenance, repair services, and testing. It is ideal for hotels, restaurants, canteens, and other venues in the hospitality and education sectors looking to ensure their equipment operates smoothly and to prevent breakdowns.</p>
           </div>
         </section>
 
@@ -195,7 +195,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, bgImg }) => {
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Cooking-Range-Repair-Nearby-You.avif`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/kitchen-equip-amc-repair.avif`} alt="Commercial Cooking Equipment Repair" />
               </div>
               <div className="col-md-6">
                 <p>Regular maintenance of commercial kitchen cooking equipment is essential for safe and efficient operation.</p>
@@ -679,7 +679,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, bgImg }) => {
          {/* Maintenance Contract */}
         <MaintenanceContract />
 {/* testimobial section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
+        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">

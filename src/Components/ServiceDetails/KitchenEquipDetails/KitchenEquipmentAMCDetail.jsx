@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../Data/KitchenEquipments/FAQs/KitchenEquipmentsAMCFaqs.json';
-import { HelmetProvider } from "react-helmet-async";
+import {Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
 import GetQuoteButton from "../../Buttons/GetQuoteButton";
@@ -17,21 +17,20 @@ import HeaderForm from "../../Headeform/HeaderForm";
 
 // import { Link } from "react-router-dom";
 
-const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
-
-
+const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo , description, Author, Keyword, URL }) => {
   // For SEO
-  const titleSeo = "Commercial Kitchen Equipment AMC Contract Services | FAJ";
-  const description = "Get FAJ reliable your commercial kitchen equipment AMC services in Dubai, UAE, with specialized gas stove, oven, cooker maintenance contract service";
-  const Author = "Faj Technical Servcies";
-  const Keyword = "";
-  const URL = "https://www.fajservices.com/commercial-kitchen-equipment-amc/";
+  const metatitle = String(titleSeo || "Commercial Kitchen Equipment AMC Contract Services | FAJ");
+  const metadescription = String(description || "Get FAJ reliable your commercial kitchen equipment AMC services in Dubai, UAE, with specialized gas stove, oven, cooker maintenance contract service");
+  const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
+  const metaKeyword = String(Keyword || "Kitchen Equipment AMC Contract Services");
+  const metaURL = String(URL || "https://www.fajservices.ae/commercial-kitchen-equipment-amc/");
+
 
 
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
-  bgImg = "img/testimonialbg.jpg"
+  reviewsbg = "img/testimonialbg.jpg"
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -121,20 +120,21 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
 
   return (
     <>
-      <HelmetProvider>
-        <title>{titleSeo}</title>
-        <meta name="description" content={description}></meta>
-        <meta name="keywords" content={Keyword} />
-        <meta name="author" content={Author} />
-        <meta name="robots" content="index, follow" />
-        <Link rel="canonical" href={titleSeo} />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:title" content={titleSeo} />
-        <meta property="og:description" content={description} />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={URL} />
-      </HelmetProvider>
+       <HelmetProvider>
+              <Helmet>
+                <title>{metatitle}</title>
+                <meta name="description" content={metadescription}></meta>
+                <meta name="keywords" content={metaKeyword} />
+                <meta name="author" content={metaAuthor} />
+                <meta name="robots" content="index, follow" />
+                <link rel="canonical" href={metaURL} />
+                <meta property="og:type" content="website" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="og:title" content={metatitle} />
+                <meta property="og:description" content={metadescription} />
+                <meta property="og:url" content={metaURL} />
+              </Helmet>
+            </HelmetProvider>
       <HeaderForm />
 
       <div className="cs_service_details">
@@ -169,7 +169,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
 
               <div className="col-md-6 ">
                 {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Kitchen Equipments AMC" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/commercial-kitchen-equipment-amc.jpg`} alt="Kitchen Equipments AMC" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/commercial-kitchen-equipment-amc.avif`} alt="Kitchen Equipments AMC" />
               </div>
             </div>
             <h3 className="cs_fs_24 mb-1 border-small-top pt-3">Planned Preventive Maintenance (PPM) Services</h3>
@@ -224,7 +224,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Food Poisoning</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Foodborne illness occurs when food contaminated with harmful bacteria, viruses, or poisons is finished. Examples include aflatoxins in peanuts, toxic mushrooms, and unboiled kidney beans.</p>
+                    <p className="p-2 mb-0">Foodborne illness happens when contaminated food is consumed. Examples include aflatoxins in peanuts, toxic mushrooms, and raw kidney beans.</p>
                   </div>
                 </div>
               </div>
@@ -292,7 +292,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
             <p>Here are some key points to consider for maintaining commercial kitchen equipment:</p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher.avif`} alt="Kitchen Equipments AMC" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/kitchen-equip-amc-service.avif`} alt="Kitchen Equipments AMC" />
               </div>
               <div className="col-md-6">
 
@@ -382,7 +382,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
                         <img src={`${import.meta.env.BASE_URL}img/icons/wellicon.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Cost Efficiency</h4>
-                      <p className="small">FAJ a Save hand maintenance. Here’s a cost comparison of renting vs. owning a commercial kitchen: as a renter, you avoid high startup equipment costs.</p>
+                      <p className="small">FAJ a Save hand maintenance. Here’s a cost comparison: a commercial kitchen helps you avoid high startup equipment costs.</p>
                     </div>
                   </div>
                 </div>
@@ -393,7 +393,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
                         <img src={`${import.meta.env.BASE_URL}img/icons/annual-contract-b.jpg`} alt="annual contract icon" className="rounded shadow" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Report and Updates</h4>
-                      <p className="small">FAJ is issuing a report on the status and upkeep of commercial kitchen equipment, emphasizing necessary actions for enhancing efficiency and safety.</p>
+                      <p className="small">FAJ is releasing a report on the condition of commercial kitchen equipment, outlining actions to enhance efficiency and safety.</p>
                     </div>
                   </div>
                 </div>
@@ -403,8 +403,8 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
                       <div className="icon-img-block border-0">
                         <img src={`${import.meta.env.BASE_URL}img/icons/installation-b.jpg`} alt="installation icon" className="rounded shadow" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Experts and Trained Team</h4>
-                      <p className="small">FAJ employs technicians to provide customers with effective maintenance and repair services for commercial kitchen equipment to ensure satisfaction.</p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Experts and Trained</h4>
+                      <p className="small">FAJ technicians to provide customers with effective maintenance, repair for commercial kitchen equipment to ensure satisfaction.</p>
                     </div>
                   </div>
                 </div>
@@ -566,9 +566,9 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
           </div>
         </section>
         {/* We are specialise in Appliances services for the following brands */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">
-            <h3>We are proud to have successfully served a variety of sectors since 2010, offering a range of repair and annual maintenance contract (AMC) services.</h3>
+            <h3>We specialize in commercial equipments services for the following brands</h3>
             <ul>
               <li> <strong>  Client Sectors: </strong> Leisure and Hospitality, Education, Defence, Industrial, Healthcare, Public Sector, Retail, Commercial, Cloud/Dark Kitchens, Restaurants, Hotels, Bakeries, Shops, Coffee Shops, Catering, Medical Facilities, and Labor Camps. Our commitment to excellence spans across these diverse industries.</li>
               <li> <strong> Baking Equipment: </strong> Combi ovens, Convection ovens, High-Speed ovens, Compact ovens, Pizza ovens, Rational ovens, Commercial ovens, and Steamers. </li>
@@ -617,7 +617,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, bgImg }) => {
         {/* Maintenance Contract */}
         <MaintenanceContract />
 {/* testimobial section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
+        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">

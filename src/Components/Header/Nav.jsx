@@ -164,7 +164,7 @@ export default function Nav({ setMobileToggle }) {
                     </Link>
                   </li>
                   <li className='cs_light cs_fs_16'>
-                    <Link to="/cooking-equipment-service/" onClick={() => setMobileToggle(false)}>
+                    <Link to="/commercial-cooking-appliances-repair-service/" onClick={() => setMobileToggle(false)}>
                       Cooking Equipment Service
                     </Link>
                   </li>

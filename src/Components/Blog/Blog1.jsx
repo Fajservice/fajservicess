@@ -1,33 +1,34 @@
 import { Link } from 'react-router-dom';
 import data from '../../Data/blog.json';
-import { HelmetProvider } from "react-helmet-async";
+import {Helmet, HelmetProvider } from "react-helmet-async";
 
 
-const Blog1 = () => {
+const Blog1 = ({titleSeo , description, Author, Keyword, URL }) => {
   // For SEO
-  const titleSeo = "Discover The Ultimate Guide To Home Maintenance - FAJ Blogs";
-  const description = "Welcome to FAJ Services blog! Expert insights, tips, and tricks for homeowners. Explore projects, maintenance, and services for home comfort.";
-  const Author = "Faj Technical Servcies";
-  const Keyword = "";
-  const URL = "https://www.fajservices.com/blogs/";
+  const metatitle = String(titleSeo || "Discover The Ultimate Guide To Home Maintenance - FAJ Blogs");
+  const metadescription = String(description || "Welcome to FAJ Services blog! Expert insights, tips, and tricks for homeowners. Explore projects, maintenance, and services for home comfort.");
+  const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
+  const metaKeyword = String(Keyword || "Latest Blogs");
+  const metaURL = String(URL || "https://www.fajservices.ae/blogs/");
+
 
 
   return (
     <>
-      <HelmetProvider>
-        <title>{titleSeo}</title>
-        <meta name="description" content={description}></meta>
-        <meta name="keywords" content={Keyword} />
-        <meta name="author" content={Author} />
-        <meta name="robots" content="index, follow" />
-        <Link rel="canonical" href={titleSeo} />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:title" content={titleSeo} />
-        <meta property="og:description" content={description} />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={URL} />
-
+       <HelmetProvider>
+        <Helmet>
+          <title>{metatitle}</title>
+          <meta name="description" content={metadescription}></meta>
+          <meta name="keywords" content={metaKeyword} />
+          <meta name="author" content={metaAuthor} />
+          <meta name="robots" content="index, follow" />
+          <link rel="canonical" href={metaURL} />
+          <meta property="og:type" content="website" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:title" content={metatitle} />
+          <meta property="og:description" content={metadescription} />
+          <meta property="og:url" content={metaURL} />
+        </Helmet>
       </HelmetProvider>
 
 

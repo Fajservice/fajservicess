@@ -498,7 +498,7 @@ export const router = createBrowserRouter([
         element: <OvenRepairService></OvenRepairService>,
       },
       {
-        path: "/cooking-equipment-service/",
+        path: "/commercial-cooking-appliances-repair-service/",
         element: <CookingEquipmentService />
       },
       {
