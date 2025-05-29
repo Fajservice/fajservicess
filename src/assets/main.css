@@ -7057,25 +7057,25 @@ label {
   .cs_site_header_full_width .container {
     padding: 0 15px;
  }
-  .cs-munu_dropdown_toggle {
+ .cs-munu_dropdown_toggle {
     position: absolute;
     height: 30px;
-    width: 30px;
-    right: 20px;
-    top: 5px;
- }
+    width: 100%;
+    right: 0px;
+    top: 0px;
+}
   .cs-munu_dropdown_toggle:before, .cs-munu_dropdown_toggle:after {
     content: '';
     display: block;
     position: absolute;
-    left: 50%;
+    left: 95%;
     top: 50%;
     transform: translate(-50%, -50%);
     height: 2px;
     width: 10px;
     background-color: #fff;
     transition: all 0.3s ease;
- }
+}
   .cs-munu_dropdown_toggle:before {
     transform: translate(-50%, -50%) rotate(90deg);
  }

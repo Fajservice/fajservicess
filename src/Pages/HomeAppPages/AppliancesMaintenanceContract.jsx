@@ -6,7 +6,8 @@ const AppliancesMaintenanceContract = () => {
         <div className="serviceDetails">
             <BreadCumb
 
-                bgImg="img/banners/amc.avif"
+                bgImg="img/banners/kitchen-equipments-and-appliances-amc.avif"
+                mobileBgImg="img/banners/kitchen-equipments-and-appliances-amc-mobile.avif"
                 Title="KITCHEN EQUIPMENT AND APPLIANCES AMC SERVICES"
             ></BreadCumb>
             <AppliancesMaintenanceContractDetail></AppliancesMaintenanceContractDetail>

@@ -174,26 +174,23 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, title
 
                 <p className="mb-2">
                   If you need AMC services for kitchen equipment and appliances, contact us for the best and most reliable service throughout the year.
-                  Enjoy peace of mind knowing that your kitchen equipment and appliances are running smoothly for your business.
-                  <br />We’ve got you covered with cooking, baking, cooling, refrigeration, laundry equipment, ice makers, dishwashers, and other appliances.
+                  Enjoy peace of mind knowing that your kitchen equipment and appliances are running smoothly for your business. We’ve got you covered with cooking, baking, cooling, refrigeration, laundry equipment, ice makers, dishwashers, and other appliances.
 
                 </p>
 
 
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Explore FAJ’s Annual Appliances Maintenance Contract</h3>
+                <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Planned Preventative Maintenance (PPM) Services</h3>
                 <p className="mb-0">
-                  Our annual maintenance contract ensures that your kitchen equipment, both domestic and commercial, receives top-notch care from our expert team of professionals in the UAE.
-                  <br /> We have been repairing, cleaning, and maintaining a wide range of equipment, including freezers, chillers, gas ranges, stoves, pizza ovens, hot plates, hoods, mixers, blenders, food processors, grinders, snack equipment, beverage equipment, bakeware, microwaves, ovens, and cooktops. Our experienced technicians utilise advanced techniques to keep your home and business running optimally throughout the year.
-                  <br />If you’re interested in learning more about our AMC options, please feel free to contact us.
-                </p>
+                  Our appliances technician can create a customized Planned Preventative Maintenance Package for your house or business properties. <br/>
+                  This package is created to keep your washing machines, dryers, dishwashers, ovens, refrigerators, and coffee machines running efficiently. By taking a proactive approach, you can reduce the likelihood of unexpected breakdowns and the costs associated with them.<br/>
+                  Our Planned Preventative Maintenance Package includes repair, maintenance, and testing, making it ideal for both major and small appliances across all properties. This package ensures that your air conditioning system operates smoothly and helps prevent breakdowns.</p>
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/dishwasher.avif`} alt="Post Image" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} alt="Post Image" />
               </div>
             </div>
 
-            <AppliancesAppointmentCol></AppliancesAppointmentCol>
           </div>
         </section>
 
@@ -437,19 +434,6 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, title
                     </div>
                   </div>
                 </div>
-
-                <div className="col-md-3 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/installation-b.jpg`} alt="installation icon" className="rounded shadow" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Installation, testing & commissioning of commercial kitchens </h4>
-                      <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
-                    </div>
-                  </div>
-                </div>
-
                 <div className="col-md-3 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
@@ -463,18 +447,21 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, title
 
                   </div>
                 </div>
-
                 <div className="col-md-3 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/gearicon.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/installation-b.jpg`} alt="installation icon" className="rounded shadow" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Availability of genuine spare parts </h4>
-                      <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Installation, testing & commissioning of commercial kitchens </h4>
+                      <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
                     </div>
                   </div>
                 </div>
+
+                
+
+                
 
                 <div className="col-md-3 mb-2">
                   <div className="">
@@ -487,7 +474,17 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, title
                     </div>
                   </div>
                 </div>
-
+                <div className="col-md-3 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block border-0">
+                        <img src={`${import.meta.env.BASE_URL}img/icons/gearicon.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Availability of genuine spare parts </h4>
+                      <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                    </div>
+                  </div>
+                </div>
                 <div className="col-md-3 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
