@@ -369,7 +369,7 @@ const HitachiFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                   <li> <strong> Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for
                     the annual maintenance of your appliances. </li>
                   <p className="mb-0">
-                    Regular maintenance is essential for optimal performance, efficiency, and longevity of your home appliances.
+                    <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for optimal performance, efficiency, and longevity of your home appliances.
                   </p>
                 </ul>
               </div>

@@ -125,7 +125,7 @@ const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
 
                 <p className="mb-2">
                   When it comes to Gree <a href="/ac-repair-dubai/">AC repair</a>, it is important to hire a professional and reliable Gree AC technician for your home or office.
-                  <br />We specialise in Gree air conditioner (AC) repair, service, and maintenance throughout Dubai and Sharjah. The FAJ team is committed to ensuring a comfortable temperature for you all year round.
+                  <br />We specialise in Gree air conditioner (AC) repair, service, and maintenance throughout Dubai and Sharjah. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is committed to ensuring a comfortable temperature for you all year round.
                 </p>
 
                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>

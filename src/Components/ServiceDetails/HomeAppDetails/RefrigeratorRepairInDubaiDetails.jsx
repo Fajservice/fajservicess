@@ -375,7 +375,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
                   <li><strong> Refrigerator Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for annual maintenance of your refrigerator. </li>
 
                   <p className="mb-0">
-                    Regular maintenance is essential for optimal refrigerator performance, efficiency, and longevity.
+                    <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for optimal refrigerator performance, efficiency, and longevity.
 
                   </p>
                 </ul>

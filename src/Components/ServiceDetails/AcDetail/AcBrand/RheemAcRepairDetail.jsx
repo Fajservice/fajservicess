@@ -126,7 +126,7 @@ const RheemAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                 <p className="mb-2">
                   When it comes to Rheem <a href="/ac-repair-dubai/">AC repair</a>, hiring a professional and reliable Rheem AC technician for your home or office is essential.
                   <br />We specialize in Rheem air conditioner (AC) repair, service, and maintenance throughout Dubai and Sharjah.
-                  The FAJ team is dedicated to ensuring a comfortable temperature for you all year round.
+                  The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature for you all year round.
                 </p>
 
                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
