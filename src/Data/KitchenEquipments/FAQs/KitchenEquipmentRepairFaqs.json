@@ -1,38 +1,58 @@
 [
-    {
-        "title": "What is the most important piece of equipment in a commercial kitchen?",
-        "desc": "Commercial ranges are essential in professional kitchens, enabling chefs to cook multiple dishes at different heat levels simultaneously."
-    },
-    {
-        "title": "Why is cooking equipment important?",
-        "desc": "Using high-quality kitchen equipment allows for precise temperature control, consistent cooking methods, and optimal food preparation techniques. This leads to consistently high-quality dishes, enhancing customer satisfaction and strengthening brand reputation."
-    },
-    {
-        "title": "What is commercial cooking equipment?",
-        "desc": "Ovens, grills, and hobs are essential in every kitchen. While deep fryers, salamander broilers, steam tables, and griddles are popular, they are not always needed in every kitchen. Additionally, some cooking equipment is required only for preparing specialized dishes."
-    },
-    {
-        "title": "What material is used to make most commercial kitchen equipment?",
-        "desc": "304 Stainless Steel is a type of austenitic steel that is especially favored in the foodservice industry because of its corrosion resistance, ease of cleaning, and ability to endure humid environments."
-    },
-    {
-        "title": "How long should commercial kitchen equipment last?",
-        "desc": "The core of the kitchen is its cooking equipment, which includes ovens, ranges, and gas stovetops. These items are essential in the food production process and have an average lifespan of 10 to 15 years."
-    },
-    {
-        "title": "What equipment is needed in a restaurant kitchen?",
-        "desc": "Ovens: Ovens are likely the first pieces of equipment that come to mind when considering restaurant cooking tools. Ranges and Ventilation: Ranges are essential for various cooking methods, and proper ventilation is crucial for maintaining air quality in the kitchen. Food Processors: These are invaluable for efficiently preparing ingredients. Mixers: Mixers are necessary for baking and other food preparation tasks. Slicers: Slicers help with quickly preparing meats, cheeses, and vegetables. Food Prep Counters and Cutting Boards: These surfaces are vital for food preparation and maintaining hygiene. Freezers and Refrigerators: Proper storage equipment is important for preserving food quality and safety. Safety Equipment: This includes items like fire extinguishers and first aid kits to ensure a safe working environment."
-    },
-    {
-        "title": "What is cooking equipment designed for?",
-        "desc": "Cooking equipment should be designed to take advantage of our knowledge regarding how different factors influence food during the cooking process. This approach will allow food processors to create methods that not only meet essential food safety standards but also enhance quality and maximize production efficiency."
-    },
-    {
-        "title": "What is induction cooking equipment?",
-        "desc": "Induction ranges provide a fast, efficient, and precise cooking method that is perfect for commercial kitchens. They use electromagnetic energy to heat the cookware directly, rather than warming the surface of the range itself. This direct heating leads to quicker heating times and improved temperature control."
-    },
-    {
-        "title": "What is HoReCa equipment?",
-        "desc": "HoReCa products encompass a wide range of essential items for the hospitality and food industry. These include commercial kitchen equipment, tableware, linens, and cleaning supplies. Additionally, the industry features food and beverage ingredients as well as technology solutions."
-    }
+  {
+    "title": "What are the general requirements for equipment maintenance?",
+    "desc": "<ul><li>Regular cleaning and inspection</li><li>Timely repairs or replacements when needed</li><li>Adhering to the manufacturer's recommendations</li><li>Following safety protocols while handling or operating equipment</li></ul>"
+  },
+  {
+    "title": "What is the maintenance checklist?",
+    "desc": "Maintenance checklists are crucial for ensuring that machines, equipment, or facilities operate safely and efficiently. They provide a detailed list of tasks to be completed regularly, helping to ensure that the equipment is in good working condition and does not pose any safety risks."
+  },
+  {
+    "title": "What is a PPM checklist?",
+    "desc": "A preventive maintenance checklist consists of a series of tasks designed for the regular inspection of physical assets. It helps ensure that equipment functions properly and is ready for use when needed. Preventive maintenance involves proactively checking and inspecting equipment to avoid costly emergency repairs."
+  },
+  {
+    "title": "What is a maintenance inspection?",
+    "desc": "As a crucial part of a maintenance program, inspections involve tasks that assess the condition of equipment. They help determine what tools, materials, and labor are needed for servicing. A maintenance inspection is the process of evaluating the condition of equipment or machines."
+  },
+  {
+    "title": "Is bleach allowed in a commercial kitchen?",
+    "desc": "Although detergents and bleach can effectively clean surfaces, they are unsuitable for use in commercial kitchens. These substances can be corrosive and potentially harmful to your health."
+  },
+  {
+    "title": "What products should be under the hood in a commercial kitchen?",
+    "desc": "Type I hoods are required for equipment that produces smoke or grease-laden fumes, including fryers, ranges, griddles, convection ovens, tilt skillets, and broilers."
+  },
+  {
+    "title": "How do you ventilate a commercial kitchen?",
+    "desc": "Wall-mounted hoods are generally a safer choice compared to overhead hoods. It is important to attach the kitchen vent hood directly above the ovens to optimize the effectiveness of the ventilation system. Additionally, incorporating makeup air is a crucial aspect of proper ventilation."
+  },
+  {
+    "title": "What is the high risk equipment in the kitchen?",
+    "desc": "Hot oil, boiling water, and certain chemicals can pose kitchen hazards, along with hot pans, ovens, and griddles. Contact with these items can result in skin burns."
+  },
+  {
+    "title": "What are the risks of working in a kitchen?",
+    "desc": "<ul><li>Slips, Trips, and Falls</li><li>Fire Safety</li><li>Burns and Scalds</li><li>Sharp Objects</li><li>Biological Hazards</li><li>Chemicals</li><li>Manual Handling</li><li>Environmental Hazards</li></ul>"
+  },
+  {
+    "title": "How should food be stored in a commercial kitchen?",
+    "desc": "<ul><li><strong>Keep it cold:</strong> Always store perishable foods at the correct temperature to prevent the growth of harmful bacteria.</li><li><strong>Keep it clean:</strong> Ensure your storage areas are kept clean and free of pests.</li><li><strong>Keep it separate:</strong> Raw foods should be stored away from cooked foods to prevent cross-contamination.</li></ul>"
+  },
+  {
+    "title": "What are the four major systems in a commercial kitchen?",
+    "desc": "The kitchen is the area where all food preparation, cooking, and plating occur. To ensure smooth operations, it is essential to have the necessary commercial kitchen equipment, as well as four major systems in place:<ul><li>Ventilation</li><li>Refrigeration</li><li>Plumbing</li><li>Electrical systems</li></ul>"
+  },
+  {
+    "title": "What is food preparation in commercial kitchen?",
+    "desc": "In commercial kitchens, food preparation involves organizing and setting up the necessary ingredients and equipment to efficiently perform cooking tasks."
+  },
+  {
+    "title": "What are the 3 sinks in a commercial kitchen?",
+    "desc": "As the name suggests, the 3-compartment sink method utilizes three distinct sink compartments, each designated for a specific step in the warewashing process:<ul><li>Wash</li><li>Rinse</li><li>Sanitize</li></ul>"
+  },
+  {
+    "title": "Do you need ventilation in a commercial kitchen?",
+    "desc": "Here are the key regulations and rules for commercial kitchen ventilation:<ul><li>All hot air and cooking fumes must be removed from the kitchen.</li><li>Clean and cool air needs to be circulated throughout the space.</li><li>The ventilation system should be designed to prevent employee discomfort.</li><li>The system must be regularly maintained and cleaned.</li></ul>"
+  }
 ]

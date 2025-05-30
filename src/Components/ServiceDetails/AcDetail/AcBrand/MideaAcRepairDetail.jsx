@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/MideaAcFaqs.json';
-import { HelmetProvider } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
@@ -16,17 +16,18 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
 
-const MideaAcRepair = ({ subtitle, title, bgImg }) => {
+const MideaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+
   // For SEO
-  const titleSeo = "Midea AC Repair in Dubai - AC Maintenance and Services";
-  const description = "Get best Midea AC repair in Dubai. We are exprt in central split AC (Air Conditioning) Maintenance Services near me, Aircon cleaning.";
-  const Author = "Faj Technical Servcies";
-  const Keyword = "";
-  const URL = "https://www.fajservices.ae/midea-ac-installation-maintenance-repair-fix-service-in-dubai/";
+  const metatitle = String(titleSeo || "Midea AC Repair in Dubai - AC Maintenance and Services");
+  const metadescription = String(description || "Get best Midea AC repair in Dubai. We are exprt in central split AC (Air Conditioning) Maintenance Services near me, Aircon cleaning.");
+  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaKeyword = String(Keyword || "");
+  const metaURL = String(URL || "https://www.fajservices.ae/midea-ac-installation-maintenance-repair-fix-service-in-dubai");
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
-  bgImg = "img/testimonialbg.jpg"
+  reviewsbg = "img/testimonialbg.jpg"
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -80,20 +81,20 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
     <>
 
       <HelmetProvider>
-        <title>{titleSeo}</title>
-        <meta name="description" content={description}></meta>
-        <meta name="keywords" content={Keyword} />
-        <meta name="author" content={Author} />
-        <meta name="robots" content="index, follow" />
+        <Helmet>
+          <title>{metatitle}</title>
+          <meta name="description" content={metadescription}></meta>
+          <meta name="keywords" content={metaKeyword} />
+          <meta name="author" content={metaAuthor} />
+          <meta name="robots" content="index, follow" />
 
-        <Link rel="canonical" href={titleSeo} />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:title" content={titleSeo} />
-        <meta property="og:description" content={description} />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={URL} />
-
+          <link rel="canonical" href={metaURL} />
+          <meta property="og:type" content="website" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:title" content={metatitle} />
+          <meta property="og:description" content={metadescription} />
+          <meta property="og:url" content={metaURL} />
+        </Helmet>
       </HelmetProvider>
       <HeaderForm />
 
@@ -339,7 +340,7 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
 
                 </ul>
               </div>
-              
+
             </div>
           </div>
         </section >
@@ -542,7 +543,7 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
                 <p className="mb-0"><strong>  Midea Ducted Split AC Service and Repair: </strong> For Midea ducted split air conditioning systems in Dubai, expert help is crucial. Our skilled technicians specialize in diagnosing and fixing air conditioning issues, offering fast and reliable repair services. We focus on delivering efficient solutions to restore your comfort with minimal hassle. </p>
                 <p className=""><strong>  Midea Wall-Mounted Air Conditioner Service and Repair: </strong> Looking for relief from Dubai's intense heat? Ensure your Midea AC runs efficiently with our expert services. We keep your unit cool and reliable, so you can enjoy comfort indoors while the temperatures soar outside. </p>
 
-               <p>
+                <p>
                   <a href="https://www.fajservices.ae/ac-repair-in-al-barsha-air-condition-maintenance-in-al-barsha-air-conditioning-fix-amc-service-in-al-barsha-dubai/">Al Barsha</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-jebel-ali/">Jebel Ali</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-repair-in-jafza-air-condition-maintenance-in-jafza-air-conditioning-fix-amc-service-in-jebel-ali-free-zone-dubai/">JAFZA</a> &nbsp;|&nbsp;
@@ -603,7 +604,7 @@ const MideaAcRepair = ({ subtitle, title, bgImg }) => {
 
         <MaintenanceContract />
         {/* testimobial section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
+        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
               <h3 className="cs_section_subtitle cs_fs_18 text-black cs_semibold text-uppercase cs_mb_12 wow fadeInDown">

@@ -12,7 +12,7 @@ import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
 import testimonial_data from '../../../Data/KitchenEquipments/Testmonials/KitchenEquipmentRepairTestimonials.json';
-import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
+// import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
@@ -141,11 +141,11 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Commercial Cooking Equipment Repair and Maintenance Service Dubai</h1>
+            <h1 className="cs_fs_30">Commercial Kitchen Equipment Maintenance Services</h1>
             {/* <h2 className="cs_fs_30">Commercial Cooking Equipment Repair and Maintenance Service in Dubai</h2> */}
-            <p>
-              FAJ, established in 2010, specialises in minimising downtime for the catering industry through repair and annual maintenance contracts. Our catering division supplies, installs, repairs, and maintains commercial catering and warewashing equipment.
-              <br />We provide services ranging from emergency repairs on electric and gas catering appliances to complete commercial kitchen installations, as well as repair and maintenance services tailored to businesses of all sizes.
+            <p>Kitchen Equipment Maintenance Solutions, a division of FAJ Technical Services LLC established in 2010, specialises in the repair and maintenance of food service equipment within the commercial kitchen sector in Dubai, UAE.<br />
+            Our primary objective is to ensure the optimal functioning of our clients' commercial kitchen equipment maintenance services and repair while fully complying with all regulatory requirements in Dubai.<br />
+            We are a reliable provider of repair, maintenance, and servicing, catering to a diverse range of establishments, including restaurants, hotels, and kitchens in schools, colleges, and hospitals.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -164,12 +164,8 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
           <div className="container">
             <div className="row gx-md-5 mb-2">
               <div className="col-md-6">
-                <h3 className="cs_fs_20 mb-1">Commercial Catering Equipment Services</h3>
-                <p className="mb-2">
-                  We know how important it is to have your catering equipment serviced, maintained, and repaired promptly, as downtime can break your profits.
-                  <br />
-                  We have implemented a cloud-based Field Service and annual maintenance contract (AMC) to provide efficient and transparent service for all breakdowns and kitchen maintenance.
-                </p>
+                <h3 className="cs_fs_20 mb-1">Catering Equipment Maintenance Services</h3>
+                <p className="mb-2">We know that quick service and repair of your catering equipment is essential, as downtime can severely affect your profits.<br /> The catering industry is fast-paced and highly demanding, which is why we at FAJ prioritise minimising downtime and ensuring smooth operations. This includes servicing freezers, chillers, ovens, ranges, hoods, ice makers, dishwashers, and air conditioning units.</p>
 
                 <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Cooking Equipment Technical Inspection Fee</h3>
                 <p className="mb-0">The technical inspection fee which covers diagnosis, transportation, and reinstallation in Dubai premises. Please note that this fee is non-refundable.</p>
@@ -182,7 +178,8 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
               </div>
             </div>
                 <h3 className="cs_fs_24 mb-1 border-small-top pt-3">Planned Preventive Maintenance (PPM) Services</h3>
-                <p className="mb-2">Our catering equipment technician can provide your business with a customised Planned Preventive Maintenance Package designed to keep your catering, cooking line, baking line, and refrigeration equipment compliant and running efficiently.< br/> This proactive approach reduces the likelihood of unexpected breakdowns and associated costs. Our Planned Preventive Maintenance Package includes maintenance, repair services, and testing. It is ideal for hotels, restaurants, canteens, and other venues in the hospitality and education sectors looking to ensure their equipment operates smoothly and to prevent breakdowns.</p>
+                <p className="mb-2">Our catering equipment technician can provide your business with a customised Planned Preventive Maintenance Package to keep your catering, warewashing, and refrigeration equipment compliant and running efficiently. This proactive approach reduces the likelihood of unexpected breakdowns and associated costs.<br />Our Planned Preventive Maintenance Package, which includes maintenance, repair, and testing, is ideal for any restaurant, canteen, or hospitality venue looking to ensure its equipment operates smoothly and prevent breakdowns.</p>
+
           </div>
         </section>
 
@@ -191,20 +188,21 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
         {/* Why  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">Why is Cooking Equipment Maintenance Service Important in Dubai?</h3>
+            <h3 className="cs_fs_30">Why is Commercial Kitchen Equipment Maintenance Important in Dubai?</h3>
 
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}img/kitchen-equip-amc-repair.avif`} alt="Commercial Cooking Equipment Repair" />
               </div>
               <div className="col-md-6">
-                <p>Regular maintenance of commercial kitchen cooking equipment is essential for safe and efficient operation.</p>
+                <p>Keeping your professional kitchen equipment regularly maintained is important to ensure the longevity of your equipment, that your customers receive high-quality food, and to minimise costly downtime in your business.</p>
                 <ul className="mb-0">
-                  <li> <strong> Efficiency: </strong> Regular maintenance ensures that the hot plates, gas range, cooker, stove, deep fryer, and hood heat evenly and accurately, reducing energy waste and providing consistent cooking results. </li>
-                  <li> <strong> Food Quality: </strong> A clean commercial cooking appliance prevents unwanted flavours and ensures proper cooking and baking, which are essential for a positive customer experience. </li>
-                  <li> <strong> Reduced Downtime: </strong> Preventive maintenance (AMC) helps identify potential issues before they result in costly repair or breakdowns. </li>
-                  <li> <strong> Cost Savings with Maintenance Contract: </strong> Regular maintenance can extend the lifespan of commercial cooking ranges, stoves, hobs, induction, hot plates, deep fryers, and chimneys while also lowering repair costs. This ultimately saves businesses money over time. </li>
-                  <li> <strong> Hygiene: </strong> Regular cleaning helps prevent bacteria and other contaminants, ensuring a safe environment for cooking and baking. </li>
+                  <li><strong>Identifying Issues Early:</strong> Regular professional maintenance of your kitchen equipment helps catch problems early.</li>
+                  <li><strong>Energy Efficiency:</strong> Ensure that your catering equipment is operating efficiently to avoid wasting electricity.</li>
+                  <li><strong>Saving Money in the Long Run:</strong> Regular servicing of restaurant equipment can prevent costly repairs down the line.</li>
+                  <li><strong>Compliance with Product Safety Standards</strong>: If you store food in commercial appliances, make sure they comply with food safety regulations. A professional service can assist with this.</li>
+                  <li><strong>Damage Control:</strong> Regularly inspect for potential hazards, including any harmful leaks from your kitchen equipment.</li>
+                  <li><strong>Peace of Mind: </strong>Ensuring that your professional kitchen equipment functions properly gives you peace of mind, allowing you to focus on your business.</li>
                 </ul>
 
               </div>
@@ -215,17 +213,83 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
         {/* Common Problems */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="text-center">Common Problems with Commercial Cooking Equipment That May Require Maintenance  </h3>
+            <h3 className="text-center">The Most Common Problems with Commercial Kitchen Equipment</h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1"> Improper Ventilation</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigeration</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">Refrigeration equipment, such as walk-in freezers and chillers, is vital in the kitchen. Malfunctions in refrigeration can lead to significant issues.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Equipment Failure</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">Commercial kitchen equipment is a crucial asset for businesses. The kitchen is designed to maximise efficiency and energy.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Poor Maintenance</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">Commercial kitchens generate heat and grease. Proper ventilation is crucial to prevent overheating, poor air quality, and fire risks.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Electrical Problems</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">Ensure your kitchen has a proper electrical setup. Consult an electrician to assess power needs and avoid circuit overloads.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Uneven Cooking</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">Many kitchens neglect regular calibration, causing ovens, grills, and fryers to lose their settings and resulting in inconsistent cooking temperatures.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Conclusion</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">Explore our Electric Stoves and Ovens. Avoiding common cooking or baking equipment mistakes keeps your kitchen efficient.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Improper ventilation</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      A bad or inadequate ventilation system that is too small or unsuitable for your kitchen equipment can cause serious problems.
+                      Ductwork is a crucial part of the kitchen ventilation system, and inadequate installation can lead to serious problems.
                     </p>
                   </div>
                 </div>
@@ -234,90 +298,10 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1"> Leaking Appliance</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Leaking Appliance</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Leaks are often caused by damaged gaskets, seals, or hoses. To fix this, turn off the commercial cooking appliance and ensure the water is off.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1"> Equipment Failure</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      As a business, your commercial kitchen equipment is your key asset. Your kitchen has been designed to ensure optimal functionality and efficiency.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Uneven Cooking </h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Unequal heat distribution can lead to undercooked or overcooked food. The cooking range often does not reach the selected temperature.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1"> Routine Cleaning </h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Regular cleaning & maintenance are essential. Set a routine to clean hoods, ducts, and all kitchen covers, such as floors, countertops, and equipment.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Employee Failure </h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      As a food industry professional, it's your duty to ensure your employees clearly know how to safely and efficiently operate all equipment.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Electrical Problems </h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Electrical issues can seriously affect equipment by either oversupplying or undersupplying the required voltage and amperage.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1"> Poor Maintenance</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      When kitchen cooking equipment is not regularly and properly serviced, it becomes much more prone to unnecessary wear and tear.
-                    </p>
+                    <p className="p-2 mb-0">Leaks are often caused by damaged or worn gaskets, seals, or hoses. To fix this, turn off the appliance and shut off the water supply.</p>
                   </div>
                 </div>
               </div>
@@ -337,7 +321,10 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
         {/*HERE ARE */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30"> Comprehensive Repair Services for Commercial Cooking Equipment in Dubai </h3>
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR THE COMMERCIAL KITCHEN EQUIPMENT</h3>
+            <p className="mb-0">
+              We specialise in all types and brands of commercial kitchen equipment, including built-in commercial appliances.
+            </p>
             <div className="row align-items-center">
               <div className="col-xl-6">
                 <iframe
@@ -353,118 +340,119 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
               </div>
 
               <div className="col-xl-6">
-                <p className="mb-0">
-                  We offer repair services for a variety of commercial cooking equipment, including.
-                </p>
+                
 
                 <p className='mb-0'><strong>Our services include:</strong></p>
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                  <li> <strong> Commercial Cooking Equipment Installation: </strong> Professional installation of a variety of gas and electric commercial cooking equipment, ensuring optimal performance and efficiency. </li>
-                  <li> <strong> Commercial Cooking Equipment Diagnostics: </strong> We perform comprehensive diagnostics, eligibility assessments, and provide detailed quotes to resolve any oven issues. </li>
-                  <li> <strong> Commercial Cooking Equipment Repair Service: </strong> Professional cooking range, stove, hood, and deep fryer repair services for all components, ensuring quick resolution of issues such as leaks, electrical failures, and malfunctions. Feel free to contact us with specific service requests or any questions! </li>
-                  <li> <strong> Commercial Cooking Equipment AMC: </strong> This contract details the terms and services for annual maintenance of catering cooking equipment. </li>
+                  <li><strong>Kitchen Equipment Installation: </strong>Professional installation of various brands and types of professional kitchen equipment for optimal performance and efficiency.</li>
+<li><strong>Kitchen Equipment Diagnostics: </strong>We provide thorough fault-finding services to identify issues, perform eligibility assessments, and provide detailed quotes to address system concerns.</li>
+<li><strong>Kitchen Equipment Repair Service: </strong>We provide prompt and effective repair services for all restaurant kitchen equipment components, addressing issues such as leaks, electrical failures, and system malfunctions.</li>
+<li><strong>Kitchen Equipment Annual Maintenance Contract: </strong>This contract outlines the terms and services for the annual maintenance of your commercial kitchen equipment system.</li>
                   <p className="mb-0">
-                    Regular maintenance is crucial for the optimal performance, efficiency, and longevity of your kitchen restaurant cooking equipment.
-                    Benefits of Regular Commercial Cooking Equipment Service and Maintenance in Dubai.
+                    Regular maintenance is essential for optimal performance, efficiency, and longevity of your Professional Kitchen Equipment
                   </p>
-
                 </ul>
-
-
               </div>
-
             </div>
           </div>
         </section >
 
-        {/* The Benefits*/}
+        {/* Benefits */}
         <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
-              <h3 className="cs_fs_30 mb-0"> Benefits of Regular Commercial Cooking Equipment Service and Maintenance in Dubai </h3>
+              <h3 className="cs_fs_30 mb-0">Benefits Of Regular Appliance Service and Maintenance in Dubai
+              </h3>
               <div className="row gx-3 gy-5 mt-0">
 
-                <div className="col-md-4 mb-2">
+                <div className="col-md-3 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      <div className="icon-img-block border-0">
+                        <img src={`${import.meta.env.BASE_URL}img/icons/24x7b.jpg`} alt="24x7" className="rounded shadow" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Enhanced Food Quality</h4>
-                      <p className="small">
-                        Kitchen equipment condition directly affects overall food quality, so proper and regular maintenance is essential
-                      </p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Routine Service</h4>
+                      <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
                     </div>
                   </div>
                 </div>
-
-                <div className="col-md-4 mb-2">
+                <div className="col-md-3 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      <div className="icon-img-block border-0">
+                        <img src={`${import.meta.env.BASE_URL}img/icons/call.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Improved Workplace Safety </h4>
-                      <p className="small">
-                        Regular kitchen equipment maintenance prevents contamination, reduces accidents, and ensures safe food preparation.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} alt="Ensures Compliance" className="icon-img-block-icon" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Ensures Compliance</h4>
-                      <p className="small">
-                        Food safety is essential for any food business. Regular maintenance of kitchen equipment prevents contamination and ensures safety.
-
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Reduced utility costs</h4>
-                      <p className="small">
-                        Equipment that uses electricity, gas, or water operates more efficiently when kept clean and serviced regularly.
-                      </p>
-                    </div>
-
-                  </div>
-                </div>
-                <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
-                      </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Improve Speed of Operations</h4>
-                      <p className="small">A restaurant kitchen is a busy place that needs quick turnarounds to meet customer demands. Inefficiency can lead to delays and dissatisfaction.
-                      </p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">On-call services</h4>
+                      <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
 
                     </div>
 
                   </div>
                 </div>
 
-                <div className="col-md-4 mb-2">
+                <div className="col-md-3 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      <div className="icon-img-block border-0">
+                        <img src={`${import.meta.env.BASE_URL}img/icons/gearicon.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Commercial Kitchen Maintenance  </h4>
-                      <p className="small">
-                        Commercial kitchen equipment is costly, so regular cleaning and maintenance are essential for extending its lifespan and minimizing expenses.
-                      </p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Genuine Spare Parts</h4>
+                      <p className="small">Knowing your commercial kitchen equipment is in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-3 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block border-0">
+                        <img src={`${import.meta.env.BASE_URL}img/icons/wellstar.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Maintenance Costs</h4>
+                      <p className="small">High-quality equipment may be more expensive initially, but it typically breaks down less frequently and requires fewer repairs.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-3 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block border-0">
+                        <img src={`${import.meta.env.BASE_URL}img/icons/trained-b.jpg`} alt="trained icon" className="rounded shadow" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Increased Efficiency</h4>
+                      <p className="small">Commercial kitchen equipment can improve the efficiency of daily tasks in your kitchen. · Lower Maintenance Costs · Superior Quality</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-3 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block border-0">
+                        <img src={`${import.meta.env.BASE_URL}img/icons/wellicon.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Cost Efficiency</h4>
+                      <p className="small">FAJ a Save hand maintenance. Here’s a cost comparison of renting vs. owning a commercial kitchen: as a renter, you avoid high startup equipment costs..</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-3 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block border-0">
+                        <img src={`${import.meta.env.BASE_URL}img/icons/annual-contract-b.jpg`} alt="annual contract icon" className="rounded shadow" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Report and Updates</h4>
+                      <p className="small">FAJ is issuing a report on the status and upkeep of commercial kitchen equipment, emphasising necessary actions for enhancing efficiency and safety.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-3 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block border-0">
+                        <img src={`${import.meta.env.BASE_URL}img/icons/installation-b.jpg`} alt="installation icon" className="rounded shadow" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Experts and Trained</h4>
+                      <p className="small">FAJ employs technicians to provide customers with effective maintenance and repair services for commercial kitchen equipment to ensure satisfaction.</p>
                     </div>
                   </div>
                 </div>
@@ -472,8 +460,6 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
             </div>
           </div>
         </section>
-
-
 
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
@@ -500,7 +486,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
+                    <p>	With an annual maintenance contract, you get a full year of service, ensuring your kitchen equipment runs smoothly and providing peace of mind.</p>
                   </div>
                 </div>
 
@@ -511,7 +497,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
+                    <p>Choose a day and time for your kitchen appliance repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
                   </div>
                 </div>
 
@@ -530,7 +516,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are experts in appliance repair this is why most major brands trust us to handle their service and maintenance needs.</p>
+                    <p>We are experts in catering equipment repair. This is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -540,7 +526,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same location in Dubai.</p>
+                    <p>We are dedicated to ensuring customer satisfaction with timely service, prompt issue resolution, and affordable prices.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -549,7 +535,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our skilled appliance technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
+                    <p>Our skilled kitchen equipment technicians are highly trained, and we provide excellent service for a variety of major appliance brands efficiently.</p>
                   </div>
                 </div>
               </div>
@@ -563,74 +549,17 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
         </section>
 
         {/* We specialise  */}
-        <section className="section cs_py_30 bg-light-gray ">
+        <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">
-            <h3> We specialise in catering and cooking equipment services for the following brands</h3>
+            <h3>WE SPECIALISE IN COMMERCIAL KITCHEN EQUIPMENT SERVICES FOR THE FOLLOWING</h3>
             <div className="row">
               <div className="col-12">
-                <p className="mb-0">
-                  <strong>
-                    Professional Cooking Range Repair and Service: </strong> When your gas range breaks down, you need a team that responds quickly.
-                  <br />Our experienced technicians are fully qualified to diagnose and repair all types of commercial cookers, from gas to electric models. We aim to get you back up and running with minimal disruption.
-                </p>
-
-                <p className="mb-0">
-                  <strong>
-                    Angelo Gas Cooking Range Burners Repairs: </strong> Addressing small issues promptly prevents them from escalating into major problems.
-                  <br />We conduct repairs such as adjusting thermostats, replacing worn seals, and fixing faulty burners during maintenance service.
-
-
-                </p>
-
-                <p className="mb-0">
-                  <strong>
-                    Commercial Table Top Gas Stove Hotel Restaurant Kitchen: </strong> Are you starting a new catering business or in need of professional catering equipment repairs?
-                  FAJ offers a wide range of catering equipment services and reliable repair plans in Dubai.
-                  <br />Our expertise includes cookers, stoves, ovens, food warmers, and fryers. Explore our specialized services today.
-                  With a focus on accuracy and reliability, we ensure that your essential kitchen equipment receives top-notch repair services.
-
-                </p>
-
-                <p className="mb-0">
-                  <strong>
-                    Gas Cooking Range Burner: </strong> Discover our commercial cooking equipment services, including repairs and maintenance.
-                  <br />We specialize in maintaining gas stoves, hot plates, induction hobs, and ovens, ensuring they work efficiently.
-                  Experience hassle-free solutions that keep your kitchen appliances running smoothly.
-
-
-                </p>
-
-                <p className="mb-0">
-                  <strong>
-                    Vulcan Natural Gas Burner Range Ovens: </strong> As a trusted service provider for gas cookers, stoves, and ovens, we offer a variety of options in our store to suit your commercial cooking and catering needs. Explore our selection of cooking appliances designed to meet all your culinary requirements with ease.
-                </p>
-
-                <p className="mb-0">
-                  <strong>
-                    Commercial Cooking Equipment Maintenance: </strong> Our highly experienced engineers are available to assist with all your commercial kitchen equipment needs.
-                  <br /> We provide maintenance, repair, call-out, and installation services for a wide range of equipment, including combi ovens, range ovens, convection ovens, grills, griddles, pizza ovens, and more.
-                </p>
-
-                <p className="mb-0">
-                  <strong>
-                    Pitco Gas Fryer Repair and Services: </strong> Our professional technician is an expert in Pitco gas fryers. Contact us via call, WhatsApp, or email for commercial deep fryer equipment repairs and servicing.
-                </p>
-
-                <p className="mb-">
-                  <strong>
-                    Electrolux Professional Cooking Appliances Maintenance Service: </strong> We are committed to ensuring minimal downtime for your Electrolux Professional Cooking equipment, including cooking ranges, induction hobs, hot plates, and ovens.
-                  <br />  Our services are available to help your business keep running smoothly.
-                  Trusted Commercial Cooking Equipment Repair:
-                  To Keep Your Kitchen Running Smoothly
-                  Reliable repairs for commercial cooking equipment are essential for maintaining efficiency in professional kitchens.
-                  <br /> At FAJ Service Dubai, we specialize in repairing a wide range of cooking appliances, including ovens, stoves, fryers, and grills.
-                  Whether you run a restaurant, hotel, or catering business, our expert technicians are dedicated to ensuring that your equipment operates efficiently and safely.
-                </p>
-                <p className="mb-0">
-                  Commercial Induction Cooker | Counter top Electric Plates | MC Appliance | Corporation cooking appliances | Mirabake Jiangsu Province Baking Proofers, ovens | Kitchen Guys Ranges, Cooktops, Wall Ovens | American Range Commercial Stoves, Ovens, Fryers, Griddles, Broilers, Cheesemelters | Vulcan Equipment Ranges Fryers, Griddles, Combi Ovens, Steamers, Charbroilers | Turbo Air refrigerators and freezers, food prep tables | Omcan Pizza Ovens, Meat Slicers, Ice makers, Spiral Mixers |
-                  Webstaurant Store: Refrigeration units, Ranges, Food Prep Equipment | Thermador Cooking Appliances | Henny Penny: Perfecting Fried Food with Pressure Fryers | Taylor: Master of Frozen Desserts and Grilled Foods | Vulcan: The Backbone of Professional Kitchens | Hobart: Your Go-To for Dishwashers and Mixers | True Refrigeration: The Ultimate Cold Storage Solution
-
-                </p>
+                <p className="mb-0"><strong>Restaurant Kitchen Equipment Maintenance in Dubai</strong>: FAJ provides reliable maintenance and services in Dubai and Sharjah. Our team is made up of professionals who are experts in a variety of kitchen equipment, including countertop induction cookers, beverage dispensers, ice cream makers, gas ranges, refrigerated equipment, display counters, food service equipment, pantry equipment, food processing machinery, cooking lines, bakery lines, and coffee and bar equipment.</p>
+<p className="mb-0"><strong>Hotels Kitchen Equipment Maintenance Contract (AMC) in Dubai</strong>: Based in Dubai, FAJ is your go-to destination for maintenance services for walk-in coolers, chillers, freezers, commercial gas ranges, professional ovens, microwaves, grinders, mixers, dishwashers, and glasswashers. We specialise in air conditioning systems and various lines of equipment, including Bakery equipment, Beverage, Blenders, Coffee line(espresso and coffee machines), Cooking ranges, Cold room, Dishwashing, Ovens, Food Processing, and Laundry equipment. Our comprehensive MEP (mechanical, electrical and plumbing services cover everything from repairs to regular maintenance contract services and PPM.</p>
+<p className="mb-0"><strong>Professional Kitchen Equipment Repair and Maintenance Service</strong>: Our professional equipment includes a commercial dishwasher, commercial ice maker, glass washer, pizza oven, deep fryer, convection oven, dough mixer, and meat mixer cleaning services in Dubai.</p>
+<p className="mb-0">In addition, we provide electric and plumbing maintenance services, so you can have peace of mind knowing you&rsquo;re in the right place. FAJ is dedicated to prioritising efficiency and reliability.</p>
+<p className="mb-0"><strong>Catering Equipment Maintenance and Repair Service in Dubai: </strong>Trust on our skilled team to efficiently resolve any issues with your catering equipment, including air conditioners, refrigeration systems, cold storage units, espresso machines, commercial coffee machines, chillers, freezers, dishwashers, ice makers, pizza ovens, convection ovens, commercial hoods, kitchen chimneys, countertop induction cookers, beverage dispensers, ice cream makers, gas ranges, refrigerated equipment, display counters, food service equipment, pantry equipment, food processing equipment, cooking lines, bakery lines, Orange Juicer, Slush Machine Single, Automatic Citrus Juicer with Lever, Proofer, Planetary Mixer, Electric Fryer, Conveyor Dishwasher, Under Counter Dishwasher, Electric Convection Oven, Electric Convection Steamer, Electric Pizza Oven 4 Deck, Gas Combi Oven 6 Trays, Electric Pizza Oven Double Deck, Convection Oven with Deck Oven, Rational Gas Combi Oven, Gas Pizza Oven Double Deck, Hood Type Dishwasher, Pancake Machine, Coffee Grinder, Bar Cooler, Toaster and coffee and Bar lines. We will restore functionality and ensure everything operates smoothly.</p>
+<p className="mb-0"><strong>MKN, Rational, Ozti, Alto-Shaam, Amana Commercial, Bakers Pride, Convotherm, Professional Electrolux, Fagor, Hobart, Conti, Caplain, Fri-Jado, Spaa, Empero, Menumaster Commercial, Unox, Capinox, Simonelli, Hoshizaki, Dr. Coffee, Bunn, Venix, La Marzocco, De'Longhi, Jura, Anmo, Marco, Feema, Conveyor, Zanussi, Meiko, Elframo, Brema, Eurfrigor, Follett, Foster's, Icetech, Simag, Wolf, Smeg, Viking, True Star, Salva, Miska, Irinox, GBG, Cooktek, Toastmaster, Lincat, Helia Smoker, Faema, Cino, Blendtec, Wells, Tekno Stamap, Hamilton Beach, Williams, Trubchif, Pitco, Josper, Hamilton Beach, Gemm, Berto's, Victoria, Scotsman, Kromo, Hatco, Coreco, La Cimbali, Antunes, Zumex, Santos, Middleby, Jordao, Sesmon, Nemco Food, Matick Pastry, Klimasan, Robot Coupe, Roller Grill, Santos, KitchenAid, Server, Aristarco, Brema, American Range, and Pizza Group</strong></p>
 
               </div>
               
@@ -649,7 +578,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
 
 
         {/* Brands section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
+        {/* <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
           <div className="container">
 
             <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
@@ -673,8 +602,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
               </div>
             </div>
           </div>
-          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
-        </section>
+        </section> */}
 
          {/* Maintenance Contract */}
         <MaintenanceContract />
