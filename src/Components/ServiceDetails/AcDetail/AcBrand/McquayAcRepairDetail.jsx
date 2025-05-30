@@ -16,12 +16,6 @@ import Slider from "react-slick";
 import HeaderForm from "../../../Headeform/HeaderForm";
 
 const McQuayAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
-  // For SEO
-  const titleSeo = "McQuay AC Repair in Dubai - Air Conditioner Maintenance";
-  const description = "We can also provide ongoing maintenance and on-demand McQuay AC repair in Dubai and AC (Air Conditioner) services near me. Call 043300002";
-  const Author = "Faj Technical Servcies";
-  const Keyword = "";
-  const URL = "/mcquay-ac-repair-in-dubai-mcquay-ac-maintenance-in-dubai-mcquay-ac-fix-in-dubai-mcquay-ac-service-in-dubai-mcquay-air-condition-repair-in-dubai-mcquay-air-condition-maintenance-in-dubai-mcquay-air-con/";
 
   // For SEO
   const metatitle = String(titleSeo || "McQuay AC Repair in Dubai - Air Conditioner Maintenance");
