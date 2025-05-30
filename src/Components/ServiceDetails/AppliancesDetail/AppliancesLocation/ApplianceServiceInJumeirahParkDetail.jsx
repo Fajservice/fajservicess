@@ -1,15 +1,11 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
-import { HelmetProvider } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
-import CallNowButton from '../../../Buttons/CallNowButton.jsx';
-import GetQuoteButton from "../../../Buttons/GetQuoteButton.jsx";
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton.jsx";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract.jsx";
-// import AppliancesTechnicalInspectionFee from "../../ApplianceCommons/AppliancesTechnicalInspectionFee.jsx";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol.jsx";
-
 import Slider from "react-slick";
 import testimonial_data from '../../../../Data/HomeAppData/Testmonials/FreestandingHomeAppliancesRepairServiceTestimonials.json';
 import brandsLogo_data from '../../../../Data/AppliancesBrandsLogo.json';
@@ -18,79 +14,119 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 import ApplianceSpecialise from "./Appliance specialise/ApplianceSpecialise.jsx";
 
-const ApplianceServiceInJumeirahParkDetail = ({ subtitle, title, bgImg }) => {
-  subtitle = "Testimonial"
-  title = "What our clients say About Us"
-  bgImg = "img/testimonialbg.jpg"
-  const accordionContentRef = useRef(null);
-  const [openItemIndex, setOpenItemIndex] = useState(-1);
-  const [firstItemOpen, setFirstItemOpen] = useState(true);
+const ApplianceServiceInJumeirahParkDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
-  const handleItemClick = index => {
-    if (index === openItemIndex) {
-      setOpenItemIndex(-1);
-    } else {
-      setOpenItemIndex(index);
-    }
-  };
-  useEffect(() => {
-    if (firstItemOpen) {
-      setOpenItemIndex(0);
-      setFirstItemOpen(false);
-    }
-  }, [firstItemOpen]);
+    // For SEO
+    const metatitle = String(titleSeo || "Appliances Services in Jumeirah Park - Refrigerator Repair");
+    const metadescription = String(description || "We offer best appliance services in Jumeirah Park. Get fridge repair near me in Dubai. Book 043300002 for oven & washing machine maintenance");
+    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaKeyword = String(Keyword || "Repair Services in Jumerah Park");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah-park/");
 
-  useEffect(() => {
-    loadBackgroudImages();
-  }, []);
+    subtitle = "Testimonial"
+    title = "What our clients say About Us"
+    reviewsbg = "img/testimonialbg.jpg"
+    const accordionContentRef = useRef(null);
+    const [openItemIndex, setOpenItemIndex] = useState(-1);
+    const [firstItemOpen, setFirstItemOpen] = useState(true);
 
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    arrows: false,
-    swipeToSlide: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 2,
+    const handleItemClick = index => {
+        if (index === openItemIndex) {
+            setOpenItemIndex(-1);
+        } else {
+            setOpenItemIndex(index);
         }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 2,
+    };
+    useEffect(() => {
+        if (firstItemOpen) {
+            setOpenItemIndex(0);
+            setFirstItemOpen(false);
         }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
-  };
+    }, [firstItemOpen]);
+
+    useEffect(() => {
+        loadBackgroudImages();
+    }, []);
+
+    const settings = {
+        dots: false,
+        infinite: true,
+        speed: 600,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        arrows: false,
+        swipeToSlide: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        pauseOnHover: true,
+        responsive: [
+            {
+                breakpoint: 1399,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 1199,
+                settings: {
+                    slidesToShow: 2,
+                }
+            }, {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    };
+
+    const settingBrands = {
+        dots: false,
+        infinite: true,
+        slidesToShow: 6,
+        arrows: false,
+
+        autoplay: true,
+        autoplaySpeed: 5000,
+        pauseOnHover: true,
+
+        responsive: [
+            {
+                breakpoint: 1399,
+                settings: {
+                    slidesToShow: 6,
+                }
+            },
+            {
+                breakpoint: 1199,
+                settings: {
+                    slidesToShow: 4,
+                }
+            }, {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                }
+            }
+        ]
+    };
+
     return (
         <>
             <HelmetProvider>
-
-                <title>{titleSeo}</title>
-                <meta name="description" content={description}></meta>
-                <meta name="keywords" content={Keyword} />
-                <meta name="author" content={Author} />
-                <meta name="robots" content="index, follow" />
-                <Link rel="canonical" href={titleSeo} />
-                <meta property="og:type" content="website" />
-                <meta property="og:locale" content="en_US" />
-                <meta property="og:title" content={titleSeo} />
-                <meta property="og:description" content={description} />
-                <meta property="og:type" content="website" />
-                <meta property="og:url" content={URL} />
+                <Helmet>
+                    <title>{metatitle}</title>
+                    <meta name="description" content={metadescription}></meta>
+                    <meta name="keywords" content={metaKeyword} />
+                    <meta name="author" content={metaAuthor} />
+                    <meta name="robots" content="index, follow" />
+                    <link rel="canonical" href={metaURL} />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:title" content={metatitle} />
+                    <meta property="og:description" content={metadescription} />
+                    <meta property="og:url" content={metaURL} />
+                </Helmet>
             </HelmetProvider>
             <HeaderForm />
 
@@ -98,7 +134,7 @@ const ApplianceServiceInJumeirahParkDetail = ({ subtitle, title, bgImg }) => {
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Jumeirah Park</h1>
+                        <h1 className="cs_fs_30"> Home Appliance Service in Jumeirah Park</h1>
                         {/* <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2> */}
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
@@ -113,7 +149,7 @@ const ApplianceServiceInJumeirahParkDetail = ({ subtitle, title, bgImg }) => {
                     </div>
                 </section>
 
-                 {/* Best Home Appliance Service Center */}
+                {/* Best Home Appliance Service Center */}
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
                         <div className="row gx-md-5">
@@ -513,11 +549,11 @@ const ApplianceServiceInJumeirahParkDetail = ({ subtitle, title, bgImg }) => {
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                 </section>
 
-                
-        {/* Maintenance Contract */}
-        <MaintenanceContract />
-{/* testimobial section */}
-                <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
+
+                {/* Maintenance Contract */}
+                <MaintenanceContract />
+                {/* testimobial section */}
+                <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                     <div className="container">
                         <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
