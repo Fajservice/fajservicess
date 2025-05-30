@@ -183,7 +183,7 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher.avif`} alt="Samsung Washing Machine Repair" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} alt="Samsung Washing Machine Repair" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">

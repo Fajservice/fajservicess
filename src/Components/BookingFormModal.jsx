@@ -392,7 +392,7 @@ const BookingFormModal = ({ isOpen, onClose }) => {
             {/* Invisible reCAPTCHA */}
             <ReCAPTCHA
               ref={recaptchaRef}
-              sitekey="6Le2yTkrAAAAAGhNjcIJgpsRIRp_SbtL8xpQ5aHG"
+              sitekey="6Lc3iU4rAAAAAA0jw06XlEnCQsXoc_vxT8piZLLX"
               size="invisible"
               badge="bottomright"
               onChange={onReCAPTCHAChange}

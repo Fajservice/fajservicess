@@ -1644,8 +1644,8 @@ const BlogDetails = () => {
             </div>
             <div className="cs_post_share_wrapper">
               <div className="cs_post_tags cs_style_1">
-                <h3 className="cs_fs_24 cs_semibold">Tags:</h3>
-                <div className="cs_tags_links cs_fs_14 cs_semibold cs_heading_font">
+                <h3 className="cs_fs_24">Tags:</h3>
+                <div className="cs_tags_links cs_fs_14 cs_heading_font">
                   {Array.isArray(blogPost.sec_tag_content) ? (
                     blogPost.sec_tag_content.map((paragraph, index) => (
                       <p key={index} className="cs_tag_link cs_accent_bg_light cs_mb_1">{renderParagraphWithLinks(paragraph)}</p>
@@ -1656,7 +1656,7 @@ const BlogDetails = () => {
                 </div>
               </div>
               <div className="cs_post_socials">
-                <h3 className="cs_fs_24 cs_semibold">Share:</h3>
+                <h3 className="cs_fs_24">Share:</h3>
                 <div className="cs_social_btns cs_style_1">
                   <Link to="#" className="cs_center cs_radius_50"><i className="bi bi-facebook"></i></Link>
                   <Link to="#" className="cs_center cs_radius_50"><i className="bi bi-youtube"></i></Link>
@@ -1774,7 +1774,7 @@ const BlogDetails = () => {
                 <div className="cs_separator"></div>
                 <h3 className="cs_sidebar_title cs_fs_30 cs_mb_43">Recent Posts</h3>
                 <div className="cs_recent_post_wrapper">
-                  {data.slice(0, 3).map((post, index) => (
+                  {data.slice(0, 10).map((post, index) => (
                     <div className="cs_recent_post" key={index}>
                       <Link to={`/blog/${post.slug}`} className="cs_recent_post_thumb">
                         <img src={post.img} alt="Recent Post Image" />
@@ -1782,29 +1782,12 @@ const BlogDetails = () => {
                       <div className="cs_recent_post_right">
                         <p className="cs_recent_posted_by cs_fs_14">
                           <i className="bi bi-calendar-fill"></i>{post.date}</p>
-                        <h3 className="cs_fs_18 cs_semibold mb-0">
+                        <h3 className="cs_fs_18 mb-0">
                           <Link to={`/blog/${post.slug}`}>{post.title}</Link>
                         </h3>
                       </div>
                     </div>
                   ))}
-                </div>
-              </div>
-              <div className="cs_sidebar_widget cs_accent_bg_light position-relative">
-                <div className="cs_separator"></div>
-                <div className="cs_sidebar_tags">
-                  <h3 className="cs_sidebar_title cs_fs_30 cs_mb_43">Popular Tags</h3>
-                  <div className="cs_tags_links cs_fs_14 cs_semibold cs_heading_font">
-                    <Link to="#" className="cs_tag_link cs_white_bg">Popular</Link>
-                    <Link to="#" className="cs_tag_link cs_white_bg">Car</Link>
-                    <Link to="#" className="cs_tag_link cs_white_bg">Auto Parts</Link>
-                    <Link to="#" className="cs_tag_link cs_white_bg">Services</Link>
-                    <Link to="#" className="cs_tag_link cs_white_bg">Repairs</Link>
-                    <Link to="#" className="cs_tag_link cs_white_bg">Dealer</Link>
-                    <Link to="#" className="cs_tag_link cs_white_bg">Oil</Link>
-                    <Link to="#" className="cs_tag_link cs_white_bg">Icon</Link>
-                    <Link to="#" className="cs_tag_link cs_white_bg">Bike</Link>
-                  </div>
                 </div>
               </div>
             </div>

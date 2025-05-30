@@ -194,7 +194,7 @@ and 3-month parts warranty as standard.</small> </b>
             <p>Regular maintenance of commercial kitchen cooking equipment is essential for safe and efficient operation.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/cooker.avif`} alt="Gas Cooker Repair" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/commercial-cooking-appliances-repair-service.avif`} alt="Gas Cooker Repair" />
               </div>
               <div className="col-md-6">
                 <ul>

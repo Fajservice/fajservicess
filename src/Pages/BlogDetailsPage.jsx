@@ -1,5 +1,5 @@
 import BlogDetails from "../Components/BlogDetails/BlogDetails";
-import BreadCumb from "../Components/Common/BreadCumb";
+// import BreadCumb from "../Components/Common/BreadCumb";
 import { useEffect, useState } from "react";
 import data from "../Data/blog.json";
 import { Link, useParams } from "react-router-dom";
@@ -93,10 +93,10 @@ const BlogDetailsPage = () => {
     }
     return (
         <div>
-             <BreadCumb
+             {/* <BreadCumb
                 bgImg="img/page_heading_1.avif"
                 Title={blogPost.title}
-            ></BreadCumb> 
+            ></BreadCumb>  */}
             <BlogDetails></BlogDetails>     
         </div>
     );

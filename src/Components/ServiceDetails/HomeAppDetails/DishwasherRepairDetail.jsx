@@ -180,7 +180,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/dishwasher.avif`} alt="Dishwasher Repair" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/dishwasher-repair.avif`} alt="Dishwasher Repair" />
 
               </div>
             </div>

@@ -1089,3 +1089,6 @@ tr.Window.Ton-3, tr.Split.Ton-4, tr.Central.Ton-4, tr.Chill.Ton-4, tr.Inverter.T
     font-size: 12px;
     line-height: 1.3;
 }
+.img-position{
+  object-position: 60px;
+}

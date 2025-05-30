@@ -248,7 +248,7 @@ const HeaderForm = () => {
               <div className="col-12 d-flex justify-content-center mb-3">
                 <ReCAPTCHA
                   ref={recaptchaRef}
-                  sitekey="6Le2yTkrAAAAAGhNjcIJgpsRIRp_SbtL8xpQ5aHG"
+                  sitekey="6Lc3iU4rAAAAAA0jw06XlEnCQsXoc_vxT8piZLLX"
                   size="invisible"
                   badge="bottomright"
                   onChange={onReCAPTCHAChange}
