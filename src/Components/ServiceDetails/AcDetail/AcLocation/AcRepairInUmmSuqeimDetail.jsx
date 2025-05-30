@@ -147,7 +147,7 @@ const AcRepairInUmmSuqeimDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Post Image" />
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Ac Repair in UmmeSuqeim" />
 
                             </div>
                         </div>
@@ -174,7 +174,7 @@ const AcRepairInUmmSuqeimDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Post Image" />
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Ac service in Umme Suqeim" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">
