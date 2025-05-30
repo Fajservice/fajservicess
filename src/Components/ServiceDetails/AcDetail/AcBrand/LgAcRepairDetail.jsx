@@ -1,14 +1,11 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcBrand/LgAcRepairfaq.json';
-import { HelmetProvider } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
-import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMaintenance";
-import QuickGuide from "../../../QuickGuide/QuickGuide";
-import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 import testimonial_LG from '../../../../Data/AcData/AcTestimonial/LgAcServiceTestimonials.json';
 import parse from 'html-react-parser';
@@ -19,17 +16,18 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AcProperties from "../../../Common/AcProperties";
 import Practicaltip from "../../../Common/Practicaltip";
 
-const LgAcRepair = ({ subtitle, title, bgImg }) => {
+const LgAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+
   // For SEO
-  const titleSeo = "LG AC Repair in Dubai - Air Conditioner Maintenance Service";
-  const description = "Do you want to book an LG AC repair in Dubai? Call Now 043300002 our team is experts in central, VRF & split air condition maintenance services near me.";
-  const Author = "Faj Technical Servcies";
-  const Keyword = "";
-  const URL = "https://www.fajservices.ae/lg-ac-repair-in-dubai/";
+  const metatitle = String(titleSeo || "LG AC Repair in Dubai - Air Conditioner Maintenance Service");
+  const metadescription = String(description || "Do you want to book an LG AC repair in Dubai? Call Now 043300002 our team is experts in central, VRF & split air condition maintenance services near me.");
+  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaKeyword = String(Keyword || "");
+  const metaURL = String(URL || "https://www.fajservices.ae/lg-ac-repair-in-dubai");
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
-  bgImg = "img/testimonialbg.jpg"
+  reviewsbg = "img/testimonialbg.jpg"
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -82,20 +80,20 @@ const LgAcRepair = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>{titleSeo}</title>
-        <meta name="description" content={description}></meta>
-        <meta name="keywords" content={Keyword} />
-        <meta name="author" content={Author} />
-        <meta name="robots" content="index, follow" />
+        <Helmet>
+          <title>{metatitle}</title>
+          <meta name="description" content={metadescription}></meta>
+          <meta name="keywords" content={metaKeyword} />
+          <meta name="author" content={metaAuthor} />
+          <meta name="robots" content="index, follow" />
 
-        <Link rel="canonical" href={titleSeo} />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:title" content={titleSeo} />
-        <meta property="og:description" content={description} />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={URL} />
-
+          <link rel="canonical" href={metaURL} />
+          <meta property="og:type" content="website" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:title" content={metatitle} />
+          <meta property="og:description" content={metadescription} />
+          <meta property="og:url" content={metaURL} />
+        </Helmet>
       </HelmetProvider>
       <HeaderForm />
       <div className="cs_service_details">
@@ -335,7 +333,7 @@ const LgAcRepair = ({ subtitle, title, bgImg }) => {
                   <li><strong> LG AC Annual Maintenance Contract: </strong> The contract outlines the annual maintenance terms for LG air conditioners. Regular AC maintenance (AMC/PPM) is crucial for optimal performance and longevity. </li>
                 </ul>
               </div>
-              
+
             </div>
           </div>
         </section >
@@ -430,7 +428,7 @@ const LgAcRepair = ({ subtitle, title, bgImg }) => {
 
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
-         <div className="container container-md container-sm">
+          <div className="container container-md container-sm">
             <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR  NEEDS!</h2>
             <div className="usps align-items-center	">
               {/* <!-- First Column --> */}
@@ -603,7 +601,7 @@ const LgAcRepair = ({ subtitle, title, bgImg }) => {
         <MaintenanceContract />
 
         {/* testimobial section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
+        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">

@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
-import { HelmetProvider } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
 import CallNowButton from '../../../Buttons/CallNowButton.jsx';
 import GetQuoteButton from "../../../Buttons/GetQuoteButton.jsx";
@@ -19,20 +19,18 @@ import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 import ApplianceSpecialise from "./Appliance specialise/ApplianceSpecialise.jsx";
 
 
-const ApplianceServiceInJumeriahDubaiDetail = ({ subtitle, title, bgImg }) => {
-
+const ApplianceServiceInJumeriahDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const titleSeo = "Home Appliances Service in Jumeirah - Washing Machine Repair";
-    const description = "FAJ offering home appliances service in Jumeirah. Book an 043300002 for Siemens, Bosch, Daewoo, Electrolux, Teka refrigerator, fridge, oven repair.";
-    const Author = "Faj Technical Servcies";
-    const Keyword = "";
-    const URL = "https://www.fajservices.ae/home-appliances-installation-maintenance-repair-fix-service-centre-in-jumeirah-dubai";
-
+    const metatitle = String(titleSeo || "Home Appliances Service in Jumeirah - Washing Machine Repair");
+    const metadescription = String(description || "FAJ offering home appliances service in Jumeirah. Book an 043300002 for Siemens, Bosch, Daewoo, Electrolux, Teka refrigerator, fridge, oven repair.");
+    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaKeyword = String(Keyword || "Repair Services in Jumerirah Dubai");
+    const metaURL = String(URL || "https://www.fajservices.ae/home-appliances-installation-maintenance-repair-fix-service-centre-in-jumeirah-dubai");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
-    bgImg = "img/testimonialbg.jpg"
+    reviewsbg = "img/testimonialbg.jpg"
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -121,19 +119,19 @@ const ApplianceServiceInJumeriahDubaiDetail = ({ subtitle, title, bgImg }) => {
     return (
         <>
             <HelmetProvider>
-
-                <title>{titleSeo}</title>
-                <meta name="description" content={description}></meta>
-                <meta name="keywords" content={Keyword} />
-                <meta name="author" content={Author} />
-                <meta name="robots" content="index, follow" />
-                <Link rel="canonical" href={titleSeo} />
-                <meta property="og:type" content="website" />
-                <meta property="og:locale" content="en_US" />
-                <meta property="og:title" content={titleSeo} />
-                <meta property="og:description" content={description} />
-                <meta property="og:type" content="website" />
-                <meta property="og:url" content={URL} />
+                <Helmet>
+                    <title>{metatitle}</title>
+                    <meta name="description" content={metadescription}></meta>
+                    <meta name="keywords" content={metaKeyword} />
+                    <meta name="author" content={metaAuthor} />
+                    <meta name="robots" content="index, follow" />
+                    <link rel="canonical" href={metaURL} />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:title" content={metatitle} />
+                    <meta property="og:description" content={metadescription} />
+                    <meta property="og:url" content={metaURL} />
+                </Helmet>
             </HelmetProvider>
             <HeaderForm />
 
@@ -562,7 +560,7 @@ const ApplianceServiceInJumeriahDubaiDetail = ({ subtitle, title, bgImg }) => {
                 {/* Maintenance Contract */}
                 <MaintenanceContract />
                 {/* testimobial section */}
-                <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
+                <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                     <div className="container">
                         <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">

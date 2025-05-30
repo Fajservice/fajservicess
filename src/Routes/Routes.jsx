@@ -1569,7 +1569,7 @@ export const router = createBrowserRouter([
         element: <AppliancesServicesInAlSafa />,
       },
       {
-        path: "/appliances-services-in-jumeirah-park/",
+        path: "/appliances-services-in-jumeirah/",
         element: <AppliancesServicesInJumeirah />,
       },
       {

@@ -31,7 +31,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   reviewsbg = "img/testimonialbg.jpg"
-  // toolsicon="img/icons/tools.svg"
+
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -127,7 +127,6 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
           </div>
         </section>
 
-
         {/* Annual AC Maintenance Contract - AMC */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
@@ -145,7 +144,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Select-Air-Conditioner-Repair-&-Service.avif`} alt="Annual AC Maintenance" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Select-Air-Conditioner-Repair-&-Service.avif`} alt="Annual AC Maintenance" loading="lazy" />
               </div>
             </div>
 
@@ -170,8 +169,6 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
           </div>
         </section>
 
-
-
         {/* Peace of Mind with Annual Maintenance Contracts */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
@@ -181,7 +178,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Peace-of-Mind-with-Annual-Maintenance-Contracts.avif`} alt="Annual Maintenance Contracts with peace of mind" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Peace-of-Mind-with-Annual-Maintenance-Contracts.avif`} alt="Annual Maintenance Contracts with peace of mind" loading="lazy" />
               </div>
               <div className="col-md-6">
                 <p className="mb-0">

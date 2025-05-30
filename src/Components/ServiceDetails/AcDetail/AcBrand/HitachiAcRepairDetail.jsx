@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcBrand/HitachiAcRepairfaq.json';
-import { HelmetProvider } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
@@ -15,17 +15,18 @@ import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
 
-const HitachiAcRepair = ({ subtitle, title, bgImg }) => {
+const HitachiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+
   // For SEO
-  const titleSeo = "Hitachi AC Repair in Dubai - Air Conditioner Maintenance";
-  const description = "Hitachi AC Repair in Dubai.The Best Hitachi AC in UAE. Call us for AC (Air Conditioner) Maintenance Service neaby Dubai. Call us 043300002";
-  const Author = "Faj Technical Servcies";
-  const Keyword = "";
-  const URL = "https://www.fajservices.ae/hitachi-ac-repair-in-dubai-hitachi-ac-maintenance-in-dubai-hitachi-ac-fix-in-dubai-hitachi-ac-service-in-dubai-hitachi-air-condition-repair-in-dubai-hitachi-air-condition-maintenance-in-dubai-hitachi/";
+  const metatitle = String(titleSeo || "Hitachi AC Repair in Dubai - Air Conditioner Maintenance");
+  const metadescription = String(description || "Hitachi AC Repair in Dubai.The Best Hitachi AC in UAE. Call us for AC (Air Conditioner) Maintenance Service neaby Dubai. Call us 043300002");
+  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaKeyword = String(Keyword || "");
+  const metaURL = String(URL || "https://www.fajservices.ae/hitachi-ac-repair-in-dubai-hitachi-ac-maintenance-in-dubai-hitachi-ac-fix-in-dubai-hitachi-ac-service-in-dubai-hitachi-air-condition-repair-in-dubai-hitachi-air-condition-maintenance-in-dubai-hitachi/");
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
-  bgImg = "img/testimonialbg.jpg"
+  reviewsbg = "img/testimonialbg.jpg"
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -78,20 +79,20 @@ const HitachiAcRepair = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>{titleSeo}</title>
-        <meta name="description" content={description}></meta>
-        <meta name="keywords" content={Keyword} />
-        <meta name="author" content={Author} />
-        <meta name="robots" content="index, follow" />
+        <Helmet>
+          <title>{metatitle}</title>
+          <meta name="description" content={metadescription}></meta>
+          <meta name="keywords" content={metaKeyword} />
+          <meta name="author" content={metaAuthor} />
+          <meta name="robots" content="index, follow" />
 
-        <Link rel="canonical" href={titleSeo} />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:title" content={titleSeo} />
-        <meta property="og:description" content={description} />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={URL} />
-
+          <link rel="canonical" href={metaURL} />
+          <meta property="og:type" content="website" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:title" content={metatitle} />
+          <meta property="og:description" content={metadescription} />
+          <meta property="og:url" content={metaURL} />
+        </Helmet>
       </HelmetProvider>
       <HeaderForm />
 
@@ -178,7 +179,7 @@ const HitachiAcRepair = ({ subtitle, title, bgImg }) => {
                   <li> <strong>  Enhanced Comfort: </strong> Regular air conditioner maintenance in Dubai is vital for optimal efficiency and a comfortable indoor environment. </li>
                 </ul>
               </div>
-              
+
             </div>
           </div>
         </section>
@@ -528,19 +529,19 @@ const HitachiAcRepair = ({ subtitle, title, bgImg }) => {
                 </p>
                 <p className="mb-0"><strong>  Our installation services include: </strong> </p>
 
-<p className="mb-0"> <strong>  Climate Check: </strong> Understanding your unique requirements based on the local climate and your building's features. </p>
-<p className="mb-0"> <strong>  Expert AC Installation: </strong> Our <a href="https://www.facebook.com/ACRepairUAE"><b>skilled AC technicians</b></a> ensure that the AC installation is performed to the highest standards, adhering to all safety protocols. </p>
-<p className="mb-0"> <strong>  Post-Installation Support: </strong> We provide advice on operating your new air conditioner, including tips on energy efficiency and maintenance. </p>
-<p className="mb-0"> <strong>  Warranty and Service Packages: </strong> To ensure your peace of mind, we offer warranty options and additional service packages for maintenance and repair in Dubai and Sharjah. </p>
-<p className="mb-0"> <strong>  Hitachi AC AMC Services in Dubai: </strong> We offer comprehensive air conditioning AMC (Annual Maintenance Contract) and PPM (Planned Preventive Maintenance) services, along with repair support, throughout the year for both contract and non-contract customers. While we are dedicated to serving all our clients, please note that those with service contracts may receive priority assistance. </p>
-<p className="mb-0"> <strong>  Hitachi Air Conditioner Repair in Dubai: </strong> Stay cool during the hot Dubai summer with our expert Hitachi inverter AC repair in Dubai and Sharjah. Our team provides efficient and reliable cooling solutions tailored to your needs. We guide you through the selection and installation process for optimal comfort. Contact us today to schedule your installation and beat the heat! </p>
-<p className="mb-0"> <strong>  Hitachi AC Cleaning Service in Dubai: </strong> AC Deep cleaning your air conditioner brings several key benefits. </p>
-<p className="mb-0"> <strong>  Improved Air Quality: </strong> It removes dust, allergens, and bacteria, leading to healthier air, especially for those with allergies. </p>
-<p className="mb-0"> <strong>  Reduced Energy Consumption: </strong> A clean unit operates more efficiently, lowering your electricity bills. </p>
-<p className="mb-0"> <strong>  Extended Lifespan: </strong> Regular AC maintenance prevents wear and tear, prolonging the life of your AC and minimising costly repairs. </p>
-<p className="mb-0"> <strong>  Odour Elimination: </strong> It eliminates mold and mildew, resulting in fresher indoor air.</p>
-<p className="mb-0"> <strong>  Reduced Mold Growth: </strong> Regular cleaning prevents the growth of mold and bacteria, which is crucial in humid climates. </p>
-<p className="">     <strong>  Better Breathing: </strong> Cleaner air improves overall well-being. In short, deep cleaning your AC is an investment in your health, comfort, and energy efficiency. </p>
+                <p className="mb-0"> <strong>  Climate Check: </strong> Understanding your unique requirements based on the local climate and your building's features. </p>
+                <p className="mb-0"> <strong>  Expert AC Installation: </strong> Our <a href="https://www.facebook.com/ACRepairUAE"><b>skilled AC technicians</b></a> ensure that the AC installation is performed to the highest standards, adhering to all safety protocols. </p>
+                <p className="mb-0"> <strong>  Post-Installation Support: </strong> We provide advice on operating your new air conditioner, including tips on energy efficiency and maintenance. </p>
+                <p className="mb-0"> <strong>  Warranty and Service Packages: </strong> To ensure your peace of mind, we offer warranty options and additional service packages for maintenance and repair in Dubai and Sharjah. </p>
+                <p className="mb-0"> <strong>  Hitachi AC AMC Services in Dubai: </strong> We offer comprehensive air conditioning AMC (Annual Maintenance Contract) and PPM (Planned Preventive Maintenance) services, along with repair support, throughout the year for both contract and non-contract customers. While we are dedicated to serving all our clients, please note that those with service contracts may receive priority assistance. </p>
+                <p className="mb-0"> <strong>  Hitachi Air Conditioner Repair in Dubai: </strong> Stay cool during the hot Dubai summer with our expert Hitachi inverter AC repair in Dubai and Sharjah. Our team provides efficient and reliable cooling solutions tailored to your needs. We guide you through the selection and installation process for optimal comfort. Contact us today to schedule your installation and beat the heat! </p>
+                <p className="mb-0"> <strong>  Hitachi AC Cleaning Service in Dubai: </strong> AC Deep cleaning your air conditioner brings several key benefits. </p>
+                <p className="mb-0"> <strong>  Improved Air Quality: </strong> It removes dust, allergens, and bacteria, leading to healthier air, especially for those with allergies. </p>
+                <p className="mb-0"> <strong>  Reduced Energy Consumption: </strong> A clean unit operates more efficiently, lowering your electricity bills. </p>
+                <p className="mb-0"> <strong>  Extended Lifespan: </strong> Regular AC maintenance prevents wear and tear, prolonging the life of your AC and minimising costly repairs. </p>
+                <p className="mb-0"> <strong>  Odour Elimination: </strong> It eliminates mold and mildew, resulting in fresher indoor air.</p>
+                <p className="mb-0"> <strong>  Reduced Mold Growth: </strong> Regular cleaning prevents the growth of mold and bacteria, which is crucial in humid climates. </p>
+                <p className="">     <strong>  Better Breathing: </strong> Cleaner air improves overall well-being. In short, deep cleaning your AC is an investment in your health, comfort, and energy efficiency. </p>
 
 
 
@@ -604,7 +605,7 @@ const HitachiAcRepair = ({ subtitle, title, bgImg }) => {
         <MaintenanceContract />
 
         {/* testimobial section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
+        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
           <div className="cs_height_80 cs_height_Hitachi_80"></div>
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">

@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcBrand/YorkAcRepairfaq.json';
-import { HelmetProvider } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
@@ -14,18 +14,19 @@ import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 import HeaderForm from "../../../Headeform/HeaderForm";
 
-const YorkAcRepair = ({ subtitle, title, bgImg }) => {
+const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+
   // For SEO
-  const titleSeo = "York AC Repair in Dubai - Air Conditioner Maintenance Near";
-  const description = "Are you need help in York AC Repair in Dubai? Call at 043300002 with FAJ Expert of HVAC, Central, VRF, (AC) air conditioner maintenance and services in Dubai";
-  const Author = "Faj Technical Servcies";
-  const Keyword = "";
-  const URL = "https://www.fajservices.ae/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten/";
+  const metatitle = String(titleSeo || "York AC Repair in Dubai - Air Conditioner Maintenance Near");
+  const metadescription = String(description || "Are you need help in York AC Repair in Dubai? Call at 043300002 with FAJ Expert of HVAC, Central, VRF, (AC) air conditioner maintenance and services in Dubai");
+  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaKeyword = String(Keyword || "");
+  const metaURL = String(URL || "https://www.fajservices.ae/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten");
 
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
-  bgImg = "img/testimonialbg.jpg"
+  reviewsbg = "img/testimonialbg.jpg"
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -78,26 +79,25 @@ const YorkAcRepair = ({ subtitle, title, bgImg }) => {
   return (
     <>
       <HelmetProvider>
-        <title>{titleSeo}</title>
-        <meta name="description" content={description}></meta>
-        <meta name="keywords" content={Keyword} />
-        <meta name="author" content={Author} />
-        <meta name="robots" content="index, follow" />
+        <Helmet>
+          <title>{metatitle}</title>
+          <meta name="description" content={metadescription}></meta>
+          <meta name="keywords" content={metaKeyword} />
+          <meta name="author" content={metaAuthor} />
+          <meta name="robots" content="index, follow" />
 
-        <Link rel="canonical" href={titleSeo} />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:title" content={titleSeo} />
-        <meta property="og:description" content={description} />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={URL} />
-
+          <link rel="canonical" href={metaURL} />
+          <meta property="og:type" content="website" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:title" content={metatitle} />
+          <meta property="og:description" content={metadescription} />
+          <meta property="og:url" content={metaURL} />
+        </Helmet>
       </HelmetProvider>
       <HeaderForm />
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
             <h1 className="cs_fs_30">York AC Repair in Dubai - Air Conditioning Maintenance Near Me</h1>
             <p><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C.</b></a> is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
               <br />
@@ -141,7 +141,7 @@ const YorkAcRepair = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-md-6">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="York Ac Repair" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="York Ac Repair" loading="lazy" />
 
               </div>
             </div>
@@ -180,7 +180,7 @@ const YorkAcRepair = ({ subtitle, title, bgImg }) => {
                 </ul>
               </div>
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/toshiba-ac-repair.avif`} alt="Trane Ac Repair" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/toshiba-ac-repair.avif`} alt="Trane Ac Repair" loading="lazy" />
               </div>
             </div>
             <p>Investing in York Air Conditioner Repair is essential for efficiency, comfort, air quality, and cost-effectiveness in Dubai’s climate.</p>
@@ -328,7 +328,7 @@ const YorkAcRepair = ({ subtitle, title, bgImg }) => {
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Post Image" />
+                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Post Image" loading="lazy" />
                 </div>
               </div>
               <div className="col-lg-4">
@@ -343,11 +343,11 @@ const YorkAcRepair = ({ subtitle, title, bgImg }) => {
             </div>
           </div>
         </section>
-        
+
         {/* Maintenance Contract */}
         <MaintenanceContract />
-{/* testimobial section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
+        {/* testimobial section */}
+        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
@@ -370,7 +370,7 @@ const YorkAcRepair = ({ subtitle, title, bgImg }) => {
                         <div className="cs_testimonial_content cs_white_bg position-relative">
                           <div className="cs_testimonial_header cs_mb_35">
                             <div className="cs_testimonial_thumbnail">
-                              <img src={`${import.meta.env.BASE_URL}${item.img1}`} alt="Avatar" />
+                              <img src={`${import.meta.env.BASE_URL}${item.img1}`} alt="Avatar" loading="lazy" />
                             </div>
                             <div className="cs_testimonial_info">
                               <div className="rating-area" >
@@ -386,7 +386,7 @@ const YorkAcRepair = ({ subtitle, title, bgImg }) => {
                           </div>
                           <blockquote className="cs_fs_16">{item.desc}</blockquote>
                           <div className="cs_quote_icon position-absolute">
-                            <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`} alt="Quote Icon" />
+                            <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`} alt="Quote Icon" loading="lazy" />
                           </div>
                         </div>
                       </div>

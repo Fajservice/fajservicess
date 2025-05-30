@@ -150,7 +150,7 @@ const AcRepairandServiceInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, t
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="AC Repair in Emirates Hills" />
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="AC Repair in Emirates Hills" loading="lazy" />
 
                             </div>
                         </div>
@@ -179,7 +179,7 @@ const AcRepairandServiceInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, t
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="AC Service in Emirates Hills" />
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="AC Service in Emirates Hills" loading="lazy" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">

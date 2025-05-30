@@ -1,15 +1,13 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
-import { HelmetProvider } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
 import CallNowButton from '../../../Buttons/CallNowButton.jsx';
 import GetQuoteButton from "../../../Buttons/GetQuoteButton.jsx";
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton.jsx";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract.jsx";
-// import AppliancesTechnicalInspectionFee from "../../ApplianceCommons/AppliancesTechnicalInspectionFee.jsx";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol.jsx";
-
 import Slider from "react-slick";
 import testimonial_data from '../../../../Data/HomeAppData/Testmonials/FreestandingHomeAppliancesRepairServiceTestimonials.json';
 import brandsLogo_data from '../../../../Data/AppliancesBrandsLogo.json';
@@ -18,20 +16,17 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 import ApplianceSpecialise from "./Appliance specialise/ApplianceSpecialise.jsx";
 
-const ApplianceServiceInJebelAliIndustrialAreaDetail = ({ subtitle, title, bgImg }) => {
-
-
+const ApplianceServiceInJebelAliIndustrialAreaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
     // For SEO
-    const titleSeo = "Best Appliances Services in Jebel Ali Industrial Area";
-    const description = "Best appliance services in Jebel Ali Industrial Area. Call 043300002 for fridge repair near me in Dubai. FAJ offers to fix dishwasher, washing machine ";
-    const Author = "Faj Technical Servcies";
-    const Keyword = "";
-    const URL = "https://www.fajservices.ae/appliances-services-in-umm-suqeim";
-
+    const metatitle = String(titleSeo || "Best Appliances Services in Jebel Ali Industrial Area");
+    const metadescription = String(description || "Best appliance services in Jebel Ali Industrial Area. Call 043300002 for fridge repair near me in Dubai. FAJ offers to fix dishwasher, washing machine");
+    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaKeyword = String(Keyword || "Repair Services in Jebel Ali Industrial area");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jebel-ali-industrial-area/");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
-    bgImg = "img/testimonialbg.jpg"
+    reviewsbg = "img/testimonialbg.jpg"
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -120,19 +115,19 @@ const ApplianceServiceInJebelAliIndustrialAreaDetail = ({ subtitle, title, bgImg
     return (
         <>
             <HelmetProvider>
-
-                <title>{titleSeo}</title>
-                <meta name="description" content={description}></meta>
-                <meta name="keywords" content={Keyword} />
-                <meta name="author" content={Author} />
-                <meta name="robots" content="index, follow" />
-                <Link rel="canonical" href={titleSeo} />
-                <meta property="og:type" content="website" />
-                <meta property="og:locale" content="en_US" />
-                <meta property="og:title" content={titleSeo} />
-                <meta property="og:description" content={description} />
-                <meta property="og:type" content="website" />
-                <meta property="og:url" content={URL} />
+                <Helmet>
+                    <title>{metatitle}</title>
+                    <meta name="description" content={metadescription}></meta>
+                    <meta name="keywords" content={metaKeyword} />
+                    <meta name="author" content={metaAuthor} />
+                    <meta name="robots" content="index, follow" />
+                    <link rel="canonical" href={metaURL} />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:title" content={metatitle} />
+                    <meta property="og:description" content={metadescription} />
+                    <meta property="og:url" content={metaURL} />
+                </Helmet>
             </HelmetProvider>
             <HeaderForm />
 
@@ -559,7 +554,7 @@ const ApplianceServiceInJebelAliIndustrialAreaDetail = ({ subtitle, title, bgImg
                 {/* Maintenance Contract */}
                 <MaintenanceContract />
                 {/* testimobial section */}
-                <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
+                <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                     <div className="container">
                         <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">

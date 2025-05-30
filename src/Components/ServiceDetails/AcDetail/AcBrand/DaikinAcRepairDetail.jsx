@@ -6,9 +6,6 @@ import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
-import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMaintenance";
-import QuickGuide from "../../../QuickGuide/QuickGuide";
-import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 import testimonial_data_Daikin from '../../../../Data/AcData/AcTestimonial/DaikinAcServiceTestimonials.json';
 import parse from 'html-react-parser';
@@ -19,17 +16,18 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AcProperties from "../../../Common/AcProperties";
 import Practicaltip from "../../../Common/Practicaltip";
 
-const DaikinAcRepair = ({ subtitle, title, bgImg }) => {
+const DaikinAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+
   // For SEO
-  const titleSeo = "Daikin Ac Repair in Dubai - Air Conditioner Maintenance";
-  const description = "Relax with Daikin AC. Call 0507464712 for Daikin Ac Repair in Dubai We are experts in HVAC, Central Air Conditioner maintenance service near me";
-  const Author = "Faj Technical Servcies";
-  const Keyword = "";
-  const URL = "https://www.fajservices.com/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con/";
+    const metatitle = String(titleSeo || "Daikin Ac Repair in Dubai - Air Conditioner Maintenance");
+    const metadescription = String(description || "Relax with Daikin AC. Call 0507464712 for Daikin Ac Repair in Dubai We are experts in HVAC, Central Air Conditioner maintenance service near me");
+    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaKeyword = String(Keyword || "");
+    const metaURL = String(URL || "https://www.fajservices.com/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con");
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
-  bgImg = "img/testimonialbg.jpg"
+  reviewsbg = "img/testimonialbg.jpg"
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -607,7 +605,7 @@ const DaikinAcRepair = ({ subtitle, title, bgImg }) => {
         {/* Maintenance Contract */}
         <MaintenanceContract />
         {/* testimobial section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
+        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
