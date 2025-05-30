@@ -89,29 +89,29 @@ const AcRepairInAcademyCityDetail = ({ subtitle, title, reviewsbg, titleSeo, des
         <>
             <HelmetProvider>
                 <Helmet>
-                 <title>{metatitle}</title>
-                       <meta name="description" content={metadescription}></meta>
-                       <meta name="keywords" content={metaKeyword} />
-                       <meta name="author" content={metaAuthor} />
-                       <meta name="robots" content="index, follow" />
-               
-                       <link rel="canonical" href={metaURL} />
-                       <meta property="og:type" content="website" />
-                       <meta property="og:locale" content="en_US" />
-                       <meta property="og:title" content={metatitle} />
-                       <meta property="og:description" content={metadescription} />
-                       <meta property="og:url" content={metaURL} />
-                       </Helmet>
+                    <title>{metatitle}</title>
+                    <meta name="description" content={metadescription}></meta>
+                    <meta name="keywords" content={metaKeyword} />
+                    <meta name="author" content={metaAuthor} />
+                    <meta name="robots" content="index, follow" />
+
+                    <link rel="canonical" href={metaURL} />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:title" content={metatitle} />
+                    <meta property="og:description" content={metadescription} />
+                    <meta property="og:url" content={metaURL} />
+                </Helmet>
             </HelmetProvider>
 
             <HeaderForm />
             <div className="cs_service_details">
 
-        <section className="section cs_py_30">
-            <div className="container">
-                <h1 className="cs_fs_30">AC Service in Academy City</h1>
-            <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
-            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
+                <section className="section cs_py_30">
+                    <div className="container">
+                        <h1 className="cs_fs_30">AC Service in Academy City</h1>
+                        <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
+                            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 
                         <div id="get-quote" className=" mt-3">
                             <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -150,8 +150,7 @@ const AcRepairInAcademyCityDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Post Image" />
-
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Ac Repair in Academy City" loading="lazy" />
                             </div>
                         </div>
 
@@ -177,7 +176,7 @@ const AcRepairInAcademyCityDetail = ({ subtitle, title, reviewsbg, titleSeo, des
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Post Image" />
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Ac Service in Academy City" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">
@@ -188,7 +187,6 @@ const AcRepairInAcademyCityDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                                     <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend your air condition unit’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
                                     <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
                                     <li> <strong> Enhanced Comfort: </strong> Regular <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a> in Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
-
                                 </ul>
                             </div>
                         </div>
@@ -339,8 +337,7 @@ const AcRepairInAcademyCityDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                             </div>
                             <div className="col-lg-4">
                                 <div className="acsvs-sec-prefoot-sec-ctwo">
-
-                                    <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Post Image" />
+                                    <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} />
                                 </div>
                             </div>
                             <div className="col-lg-4">
