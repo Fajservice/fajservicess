@@ -20,7 +20,7 @@ const HomeAppliancesServiceCentreInJltDubaiDetail = ({ subtitle, title, reviewsb
   const metatitle = String(titleSeo || "Home Appliances Service in JLT - Refrigerator Repair Dubai");
   const metadescription = String(description || "FAJ offers home appliances service in JLT, Dail 043300002 for Electrolux, LG, Daewoo, Bosch, Teka fridge, washing machine, oven, dishwasher repair");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "Fridge Repair Dubai, Washing machine repair, Appliances repair and services ");
+  const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in JLT Dubai – Home Appliance Installation, Maintenance & Service Centre in JLT Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/home-appliances-installation-maintenance-repair-fix-service-centre-in-jlt-dubai/");
 
   subtitle = "Testimonial"
