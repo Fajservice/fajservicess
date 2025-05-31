@@ -127,7 +127,7 @@ const MideaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
 
                 <p className="mb-2">
                   When it comes to Midea AC repair, it is essential to hire a professional and reliable technician for your home or office.
-                  <br />We specialize in the AC fixing service, and maintenance of Midea air conditioners throughout Dubai and Sharjah. The FAJ team is dedicated to ensuring a comfortable temperature for you all year round.
+                  <br />We specialize in the AC fixing service, and maintenance of Midea air conditioners throughout Dubai and Sharjah. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature for you all year round.
 
                 </p>
 

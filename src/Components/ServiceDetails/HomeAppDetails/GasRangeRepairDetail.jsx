@@ -364,7 +364,7 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
 
                   <p className="mb-0">
-                    Regular maintenance is essential for optimal cooking range performance, efficiency, and longevity.
+                    <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for optimal cooking range performance, efficiency, and longevity.
 
                   </p>
                 </ul>

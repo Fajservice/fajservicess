@@ -339,7 +339,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
                   <li><strong>BBQ Grill Installation: </strong>Professional installation of various BBQ grill brands for optimal performance.</li>
                   <li><strong>BBQ Grill Diagnostics:</strong> We conduct thorough fault finding to effectively diagnose issues. Our services include eligibility assessments and detailed quotations to address concerns with your BBQ.</li>
                   <li><strong>BBQ Grill Repair Service:</strong> Efficient repair services for all barbecue grill components, ensuring quick resolution of issues such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions!</li>
-                  <li><strong>BBQ Grill Annual Maintenance Contract:</strong> This contract outlines the terms and services provided for the annual maintenance of your barbeque grill. Regular maintenance is essential for ensuring optimal performance, efficiency, and longevity of your barbeque.</li>
+                  <li><strong>BBQ Grill Annual Maintenance Contract:</strong> This contract outlines the terms and services provided for the annual maintenance of your barbeque grill. <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for ensuring optimal performance, efficiency, and longevity of your barbeque.</li>
                 </ul>
               </div>
             </div>

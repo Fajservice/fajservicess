@@ -349,7 +349,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
 <li><strong>Kitchen Equipment Repair Service: </strong>We provide prompt and effective repair services for all restaurant kitchen equipment components, addressing issues such as leaks, electrical failures, and system malfunctions.</li>
 <li><strong>Kitchen Equipment Annual Maintenance Contract: </strong>This contract outlines the terms and services for the annual maintenance of your commercial kitchen equipment system.</li>
                   <p className="mb-0">
-                    Regular maintenance is essential for optimal performance, efficiency, and longevity of your Professional Kitchen Equipment
+                    <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for optimal performance, efficiency, and longevity of your Professional Kitchen Equipment
                   </p>
                 </ul>
               </div>

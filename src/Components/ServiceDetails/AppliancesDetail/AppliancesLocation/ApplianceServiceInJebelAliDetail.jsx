@@ -2,12 +2,9 @@ import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
-import CallNowButton from '../../../Buttons/CallNowButton.jsx';
-import GetQuoteButton from "../../../Buttons/GetQuoteButton.jsx";
+import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx'; 
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton.jsx";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract.jsx";
-// import AppliancesTechnicalInspectionFee from "../../ApplianceCommons/AppliancesTechnicalInspectionFee.jsx";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol.jsx";
 
 import Slider from "react-slick";
@@ -417,7 +414,7 @@ const ApplianceServiceInJebelAliDetail = ({ subtitle, title, reviewsbg, titleSeo
                                     <li> <strong> Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for
                                         the annual maintenance of your appliances. </li>
                                     <p className="mb-0">
-                                        Regular maintenance is essential for optimal performance, efficiency, and longevity of your home appliances.
+                                        <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for optimal performance, efficiency, and longevity of your home appliances.
                                     </p>
                                 </ul>
                             </div>

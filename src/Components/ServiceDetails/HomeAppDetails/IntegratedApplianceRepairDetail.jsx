@@ -388,7 +388,7 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
 
 
                   <p className="mb-0">
-                    Regular maintenance is essential for optimal performance, efficiency, and longevity of your home appliances.
+                    <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for optimal performance, efficiency, and longevity of your home appliances.
                   </p>
                 </ul>
               </div>

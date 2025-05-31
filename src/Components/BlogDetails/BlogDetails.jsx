@@ -93,7 +93,7 @@ const BlogDetails = () => {
 
   return (
     <section>
-      <div className="cs_height_80 cs_height_lg_40"></div>
+      <div className="cs_height_40 cs_height_lg_40"></div>
       <div className="container">
         <div className="row cs_row_gap_30 cs_gap_y_60">
           <div className="col-xl-8 col-lg-7">
@@ -1737,13 +1737,13 @@ const BlogDetails = () => {
           </div>
           <aside className="col-xl-4 col-lg-5">
             <div className="cs_sidebar cs_style_1">
-              <div className="cs_sidebar_widget cs_accent_bg_light position-relative p-0">
+              {/* <div className="cs_sidebar_widget cs_accent_bg_light position-relative p-0">
                 <form action="#" className="cs_search">
                   <input type="text" placeholder="Search...." />
                   <span className="cs_search_icon cs_center cs_accent_bg cs_fs_24 cs_white_color">
                     <i className="bi bi-search"></i></span>
                 </form>
-              </div>
+              </div> */}
               <div className="cs_sidebar_widget cs_accent_bg_light position-relative">
                 <div className="cs_separator"></div>
                 <h3 className="cs_sidebar_title cs_fs_30 cs_mb_43">All Services</h3>
@@ -1782,7 +1782,7 @@ const BlogDetails = () => {
                       <div className="cs_recent_post_right">
                         <p className="cs_recent_posted_by cs_fs_14">
                           <i className="bi bi-calendar-fill"></i>{post.date}</p>
-                        <h3 className="cs_fs_18 mb-0">
+                        <h3 className="cs_fs_14 mb-0">
                           <Link to={`/blog/${post.slug}`}>{post.title}</Link>
                         </h3>
                       </div>

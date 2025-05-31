@@ -347,7 +347,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
             <div className="row align-items-center">
               <div className="col-md-6">
                 <p className="" >
-                  We’ll explore the key components of AC maintenance, their importance, and why regular maintenance is essential for your system’s longevity.</p>
+                  We’ll explore the key components of AC maintenance, their importance, and why <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for your system’s longevity.</p>
                 <ul className="acsvs-exp-spl-para tick-ul mb-0">
                   <li>  Priority service for repair calls    </li>
                   <li>  Get a 10% discount on service work   </li>

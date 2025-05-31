@@ -160,7 +160,7 @@ const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
         <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">Why is O General AC Maintenance Service Important in Dubai?</h3>
-            <p className="mb-0">To keep your O General air conditioner running efficiently in Dubai's heat, regular maintenance is essential. At FAJ, we provide expert services tailored for O General ACs, ensuring your unit delivers optimal cooling and comfort all year round.
+            <p className="mb-0">To keep your O General air conditioner running efficiently in Dubai's heat, <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential. At FAJ, we provide expert services tailored for O General ACs, ensuring your unit delivers optimal cooling and comfort all year round.
               <br />
               Here to help keep your system running at its best!
             </p>
