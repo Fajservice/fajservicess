@@ -5,7 +5,6 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
-import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMaintenance";
 import QuickGuide from "../../../QuickGuide/QuickGuide";
@@ -33,7 +32,7 @@ const AcRepairInJumeriahVillageTriangleDetail = ({ subtitle, title, reviewsbg, t
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
-    bgIreviewsbgmg = "img/testimonialbg.jpg"
+    reviewsbg = "img/testimonialbg.jpg"
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);

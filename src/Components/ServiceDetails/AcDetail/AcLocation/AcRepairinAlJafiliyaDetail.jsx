@@ -18,20 +18,20 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
 
-const AcRepairinAlJafiliyaDetail = ({ subtitle, title, bgImg }) => {
+const AcRepairinAlJafiliyaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
 
     // For SEO
     const metatitle = String(titleSeo || "Best AC Services In Al Jafiliya - Air Conditioning Repairs 1");
     const metadescription = String(description || "We offer best appliance services in Al Jafiliya. Get washing machine repair near me in Dubai. Book 043300002 for fridge, oven, dishwasher maintenance.");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || "AC Repair, Air Conditioning Service in Al Jafiliya, AC Maintenance & AC Installation in Al Jafiliya");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-jafiliya");
 
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
-    bgImg = "img/testimonialbg.jpg"
+    reviewsbg = "img/testimonialbg.jpg"
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -363,7 +363,7 @@ const AcRepairinAlJafiliyaDetail = ({ subtitle, title, bgImg }) => {
         {/* Maintenance Contract */}
         <MaintenanceContract />
 {/* testimobial section */}
-                <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
+                <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                     <div className="container">
                         <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">

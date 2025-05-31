@@ -24,7 +24,7 @@ const AcRepairinTheGreensDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
     const metatitle = String(titleSeo || "AC Services In The Greens -#1 A/C Maintenance - A/C Repair");
     const metadescription = String(description || "If you are looking for best ac services in the greens dubai. Call FAJ 043300002 for emergency centralized fcu a/c system repairing and servicing.");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || "AC Repair, Air Conditioning Service in The Greens, AC Maintenance & AC Installation in The Greens");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-the-greens");
 
     subtitle = "Testimonial"
