@@ -329,7 +329,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, title
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      As we enhance kitchen efficiency with electrical appliances, increased reliance can lead to issues that need prompt attention to ensure safety and functionality.
+                      As we enhance <a href="/orphan/">kitchen</a> efficiency with electrical appliances, increased reliance can lead to issues that need prompt attention to ensure safety and functionality.
                     </p>
                   </div>
                 </div>
