@@ -55,7 +55,7 @@ const AcRepairandServiceInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, t
 
 
     const settings = {
-       dots: false,
+        dots: false,
         infinite: true,
         speed: 600,
         slidesToShow: 2,
@@ -90,19 +90,19 @@ const AcRepairandServiceInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, t
         <>
             <HelmetProvider>
                 <Helmet>
-                 <title>{metatitle}</title>
-                       <meta name="description" content={metadescription}></meta>
-                       <meta name="keywords" content={metaKeyword} />
-                       <meta name="author" content={metaAuthor} />
-                       <meta name="robots" content="index, follow" />
-               
-                       <link rel="canonical" href={metaURL} />
-                       <meta property="og:type" content="website" />
-                       <meta property="og:locale" content="en_US" />
-                       <meta property="og:title" content={metatitle} />
-                       <meta property="og:description" content={metadescription} />
-                       <meta property="og:url" content={metaURL} />
-                       </Helmet>
+                    <title>{metatitle}</title>
+                    <meta name="description" content={metadescription}></meta>
+                    <meta name="keywords" content={metaKeyword} />
+                    <meta name="author" content={metaAuthor} />
+                    <meta name="robots" content="index, follow" />
+
+                    <link rel="canonical" href={metaURL} />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:title" content={metatitle} />
+                    <meta property="og:description" content={metadescription} />
+                    <meta property="og:url" content={metaURL} />
+                </Helmet>
             </HelmetProvider>
             <HeaderForm />
             <div className="cs_service_details">
@@ -359,10 +359,10 @@ const AcRepairandServiceInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, t
                     </div>
                 </section>
 
-                
-        {/* Maintenance Contract */}
-        <MaintenanceContract />
-{/* testimobial section */}
+
+                {/* Maintenance Contract */}
+                <MaintenanceContract />
+                {/* testimobial section */}
                 <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                     <div className="container">

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import AIHandsetWidget from "../AIHandsetWidget.jsx/AIHandsetWidget";
 
 const Footer1 = () => {
     return (
@@ -131,6 +132,7 @@ const Footer1 = () => {
 	</div>
 </div>
         <div className="floating-menu">
+           <AIHandsetWidget />
           <ul className="flt-ul-icon">
               <li>
                   <a href="https://api.whatsapp.com/send?phone=+971507464712&amp;text=Hello-FAJ-Services" target="_blank" className="flt-icon-url">
@@ -149,15 +151,19 @@ const Footer1 = () => {
                   </a>
               </li>
               <li>
-                  <a href="https://smartfaj.vercel.app/" target="_blank" className="flt-icon-url">
+                  {/* <a href="https://smartfaj.vercel.app/" target="_blank" className="flt-icon-url">
                       <div className="flt-icon flt-icon-en">
                           <i className="bi bi-android"></i>
                               <div className="flt-icon-text">Chat with FAJ BOT</div>
                       </div>
-                  </a>
+                  </a> */}
+
+                  
               </li>
           </ul>
+                  
       </div>
+     
       </footer>
      
     );

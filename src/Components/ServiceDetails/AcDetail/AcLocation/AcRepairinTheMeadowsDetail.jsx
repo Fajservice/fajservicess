@@ -25,7 +25,7 @@ const AcRepairinTheMeadowsDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
     const metatitle = String(titleSeo || "AC Services In The Meadows - #1 AC Repair And Service");
     const metadescription = String(description || "Best AC Services in The Meadows, Book Now 043300002 for your Ceiling and HVAC Air Conditioning Maintenance and Fix Water Leakage Problem");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || "AC Repair, Air Conditioning Service in The Meadows, AC Maintenance & AC Installation in The Meadows");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-the-meadows");
 
     subtitle = "Testimonial"

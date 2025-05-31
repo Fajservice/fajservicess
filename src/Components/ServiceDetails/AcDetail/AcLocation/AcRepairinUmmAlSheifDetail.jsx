@@ -24,7 +24,7 @@ const AcRepairinUmmAlSheifDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
     const metatitle = String(titleSeo || "Best AC Services In Umm Al Sheif - Air Con Repairing #1");
     const metadescription = String(description || "Water Leakage Issue or AC Services in Umm Al Sheif Dubai ? Call 043300002 offering best air conditioning maintenance near me in my area dubai");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || "AC Repair, Air Conditioning Service in Umm Al Sheif, AC Maintenance & AC Installation in Umm Al Sheif");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-umm-al-sheif");
 
     subtitle = "Testimonial"
