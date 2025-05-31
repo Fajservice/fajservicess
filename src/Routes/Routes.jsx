@@ -30,7 +30,6 @@ import VacuumCleanerRepair from "../Pages/HomeAppPages/VacuumCleanerRepair";
 import SmallAppliancesRepair from "../Pages/HomeAppPages/SmallAppliancesRepair";
 import IntegratedApplianceRepair from "../Pages/HomeAppPages/IntegratedApplianceRepair";
 import AppliancesMaintenanceContract from "../Pages/HomeAppPages/AppliancesMaintenanceContract";
-import ColdRoomRepair from "../Pages/ColdRoomRepair";
 import ServicesPage from "../Pages/ServicesPage";
 import ProjectPage from "../Pages/ProjectPage";
 import ProjectDetailsPage from "../Pages/ProjectDetailsPage";
@@ -572,10 +571,6 @@ export const router = createBrowserRouter([
       {
         path: "/refrigerator-repair-service/",
         element: <RefrigeratorRepairInDubai></RefrigeratorRepairInDubai>,
-      },
-      {
-        path: "/cold-room-repair/",
-        element: <ColdRoomRepair></ColdRoomRepair>,
       },
       {
         path: "/coleman-ac-repair-in-dubai-coleman-ac-maintenance-in-dubai-coleman-ac-fix-in-dubai-coleman-ac-service-in-dubai-coleman-air-condition-repair-in-dubai-coleman-air-condition-maintenance-in-dubai-coleman/",

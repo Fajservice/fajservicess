@@ -9,7 +9,6 @@ import CallNowButton from '../../Buttons/CallNowButton';
 import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
-
 import Slider from "react-slick";
 import testimonial_data from '../../../Data/HomeAppData/Testmonials/VacuumCleanerHomeappTestimonials.json';
 import brandsLogo_data from '../../../Data/vacuumcleanerphoto.json';
@@ -18,7 +17,6 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 
-// import { Link } from "react-router-dom";
 
 const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => { 
   // For SEO
@@ -145,13 +143,8 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
           <div className="container">
             
             <h1 className="cs_fs_30">Robot Vacuum Cleaner Repair & Service Center</h1>
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
-            {/* <h2 className="cs_fs_30"> Robot Vacuum Cleaner Repair and Service in Dubai, Sharjah, and Abu Dhabi</h2> */}
-            <p>
-
-              FAJ is a reliable company established in 2010. We provide all types of vacuum cleaners. At FAJ, we are committed to your right to repair your robotic vacuum cleaner by offering affordable repair and servicing options.
+            <p>FAJ is a reliable company established in 2010. We provide all types of vacuum cleaners. At FAJ, we are committed to your right to repair your robotic vacuum cleaner by offering affordable repair and servicing options.
               <br />We aim to help you avoid costly replacements and reduce waste. We provide comprehensive error fixing, repair, and servicing for robot vacuum cleaners, along with the necessary parts and products throughout Dubai, Abu Dhabi, and Sharjah. FAJ offers all your robot vacuum cleaner repair and maintenance needs under one roof.
-
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -183,7 +176,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Same-Day-vaccum-cleaner-Repair-&-Service.avif`} alt="Post Image" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Same-Day-vaccum-cleaner-Repair-&-Service.avif`} alt="Vacuum Cleaner Repair" loading="lazy" />
 
               </div>
             </div>
@@ -200,7 +193,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
             <h3 className="cs_fs_30">Why is Vacuum Cleaner Maintenance Service Important in Dubai?</h3>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/inspection-robot-vacuum-cleaner.avif`} alt="inspection robot vacuum cleaner" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/inspection-robot-vacuum-cleaner.avif`} alt="inspection robot vacuum cleaner" loading="lazy" />
               </div>
               <div className="col-md-6">
                 <p className="mb-0">
@@ -362,18 +355,12 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                   These services can range from quick fixes to comprehensive overhauls, with some companies specializing specifically in robotic vacuum cleaners.
                   <br />
                   Here’s a detailed overview of vacuum cleaner services offered in Dubai, UAE:
-                  {/* Service Options: */}
                 </p>
 
-                {/* <p className='mb-0'><strong>Our services include:</strong></p> */}
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
                   <li> <strong> Vacuum Cleaner Repair: </strong> This service addresses issues such as motor problems, hose blockages, and faulty attachments. </li>
                   <li> <strong> Vacuum Cleaner Servicing: </strong> Regular maintenance includes cleaning, inspecting parts, and ensuring optimal performance. </li>
                   <li> <strong> Comprehensive Repair Packages: </strong> These packages offer a wide range of services, including diagnostics, cleaning, and potential part replacements. </li>
-
-                  {/* <p className="mb-0">
-                    <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for the optimal performance, efficiency, and longevity of your hob. Feel free to reach out if you need specific services or have any questions!
-                  </p> */}
                 </ul>
 
 
@@ -395,7 +382,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h4>
                       <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
@@ -406,7 +393,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
                       </h4>
@@ -419,7 +406,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
                       <p className="small">Energy efficient vacuum cleaner translate to monthly savings on utility bills, putting more money back in your pocket.</p>
@@ -431,7 +418,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h4>
                       <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
@@ -443,7 +430,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">vacuum cleaner Lifespan</h4>
                       <p className="small">Proper care and timely servicing can significantly increase life of your vacuum cleaner, delaying the need for replacements.</p>
@@ -457,7 +444,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                       </h4>
@@ -482,7 +469,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
               <div className="uspcol col-1">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" loading="lazy" />
 
                   </div>
                   <div className="usptext">
@@ -493,7 +480,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" loading="lazy" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
@@ -504,7 +491,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" loading="lazy" />
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
@@ -516,14 +503,14 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" loading="lazy" />
               </div>
 
               {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" loading="lazy" />
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
@@ -532,7 +519,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                 </div>
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" loading="lazy" />
 
                   </div>
                   <div className="usptext">
@@ -542,7 +529,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" loading="lazy" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
@@ -553,7 +540,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
+                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" loading="lazy" />
               </div>
             </div>
           </div>
@@ -634,7 +621,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
                       <div className="brandslogo-slide-container">
                         <div className="brnadlogo">
-                          <img className="w-100" src={`${import.meta.env.BASE_URL}${item.logo}`} alt="Avatar" />
+                          <img className="w-100" src={`${import.meta.env.BASE_URL}${item.logo}`} alt="Avatar" loading="lazy" />
                         </div>
                       </div>
 
@@ -652,7 +639,6 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
         <MaintenanceContract />
 {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
-          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
               <h3 className="cs_section_subtitle cs_fs_18 text-black cs_semibold text-uppercase cs_mb_12 wow fadeInDown">
@@ -674,7 +660,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                         <div className="cs_testimonial_content cs_white_bg position-relative">
                           <div className="cs_testimonial_header cs_mb_35">
                             <div className="cs_testimonial_thumbnail">
-                              <img src={`${import.meta.env.BASE_URL}${item.img1}`} alt="Avatar" />
+                              <img src={`${import.meta.env.BASE_URL}${item.img1}`} alt="Avatar" loading="lazy" />
                             </div>
                             <div className="cs_testimonial_info">
                               <div className="rating-area" >
@@ -685,12 +671,11 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                                 <i className="bi bi-star-fill"></i>
                               </div>
                               <h3 className="cs_fs_24 cs_mb_1">{item.title}</h3>
-                              {/* <p className="cs_fs_14 cs_heading_color mb-0">{item.subTitle}</p> */}
                             </div>
                           </div>
                           <blockquote className="cs_fs_16">{item.desc}</blockquote>
                           <div className="cs_quote_icon position-absolute">
-                            <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`} alt="Quote Icon" />
+                            <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`} alt="Quote Icon" loading="lazy" />
                           </div>
                         </div>
                       </div>
@@ -701,7 +686,6 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
               </div>
             </div>
           </div>
-          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
         </section>
 
         {/* FAQ's */}
@@ -721,7 +705,6 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>
-                    {/* <p className="mb-0">{item.desc.replace(/\n/g, '<br>')}</p> */}
                     <p className="mb-0"
                       dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
                     ></p>

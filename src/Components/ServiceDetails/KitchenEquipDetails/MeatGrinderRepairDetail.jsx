@@ -12,8 +12,6 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 
-// import { Link } from "react-router-dom";
-
 const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Meat Grinder Repair & Maintenance Services Dubai");
@@ -137,7 +135,6 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Meat Grinder Machine Repair and Service</h1>
-            {/* <h2 className="cs_fs_30">Experts Commercial Meat Grinder Machine Maintenance Service</h2> */}
             <p>
               Experience reliable and fast maintenance services in Dubai with FAJ, a registered company since 2010. If you need effective meat grinder repair, trust the professionals at FAJ to ensure your grinder operates perfectly.
               <br />
@@ -162,10 +159,6 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-
-                
-
-
                 <h3 className="cs_fs_24 mb-1 "> Commercial Meat Grinder Repair Near You</h3>
                 <p className="mb-2">
                   Has your butcher equipment or machinery broken down? Look no further than System Food Machinery for your meat grinder services. For over 16 years, we have been providing butcher machine repair in Dubai, along with repairs for other meat and vegetable preparation equipment. We are dedicated to delivering high-quality breakdown, repair, and recovery services for food equipment and machinery.
@@ -180,8 +173,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Meat Grinder Repair" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/meat-grinder-repair.avif`} alt="Meat Grinder Repair" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/meat-grinder-repair.avif`} alt="Meat Grinder Repair" loading="lazy" />
 
               </div>
 
@@ -199,7 +191,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/meat-grinder-repair-service.avif`} alt="Meat Grinder Repair" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/meat-grinder-repair-service.avif`} alt="Meat Grinder Repair" loading="lazy" />
               </div>
               <div className="col-md-6">
                 <ul>
@@ -380,7 +372,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Enhanced Food Quality</h4>
                       <p className="small">
@@ -393,7 +385,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18"> Improved Workplace Safety </h4>
                       <p className="small">
@@ -407,7 +399,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Ensures Compliance</h4>
                       <p className="small">
@@ -421,7 +413,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Reduced utility costs</h4>
                       <p className="small">
@@ -435,7 +427,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Improve Speed of Operations</h4>
                       <p className="small">
@@ -452,7 +444,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Commercial Grinder Maintenance
                       </h4>
@@ -477,7 +469,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
               <div className="uspcol col-1">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" loading="lazy" />
 
                   </div>
                   <div className="usptext">
@@ -488,7 +480,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" loading="lazy" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
@@ -499,7 +491,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" loading="lazy" />
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
@@ -511,14 +503,14 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" loading="lazy" />
               </div>
 
               {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" loading="lazy" />
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
@@ -527,7 +519,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
                 </div>
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" loading="lazy" />
 
                   </div>
                   <div className="usptext">
@@ -537,7 +529,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" loading="lazy" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
@@ -548,7 +540,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
+                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" loading="lazy" />
               </div>
             </div>
           </div>
@@ -580,7 +572,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
                         <div className="cs_testimonial_content cs_white_bg position-relative">
                           <div className="cs_testimonial_header cs_mb_35">
                             <div className="cs_testimonial_thumbnail">
-                              <img src={`${import.meta.env.BASE_URL}${item.img1}`} alt="Avatar" />
+                              <img src={`${import.meta.env.BASE_URL}${item.img1}`} alt="Avatar" loading="lazy" />
                             </div>
                             <div className="cs_testimonial_info">
                               <div className="rating-area" >
@@ -591,12 +583,11 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
                                 <i className="bi bi-star-fill"></i>
                               </div>
                               <h3 className="cs_fs_24 cs_mb_1">{item.title}</h3>
-                              {/* <p className="cs_fs_14 cs_heading_color mb-0">{item.subTitle}</p> */}
                             </div>
                           </div>
                           <blockquote className="cs_fs_16">{item.desc}</blockquote>
                           <div className="cs_quote_icon position-absolute">
-                            <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`} alt="Quote Icon" />
+                            <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`} alt="Quote Icon" loading="lazy" />
                           </div>
                         </div>
                       </div>
@@ -627,7 +618,6 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>
-                    {/* <p className="mb-0">{item.desc.replace(/\n/g, '<br>')}</p> */}
                     <p className="mb-0"
                       dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
                     ></p>

@@ -168,8 +168,8 @@ const LiebherrRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`}  loading="lazy" alt="Post Image" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`}  loading="lazy" alt="Post Image" />
+                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Post Image" /> */}
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/techfridge.avif`} alt="Post Image" />
               </div>
             </div>
             <AppliancesAppointmentCol></AppliancesAppointmentCol>

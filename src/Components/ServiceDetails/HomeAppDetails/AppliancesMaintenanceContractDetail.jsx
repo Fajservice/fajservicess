@@ -187,7 +187,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, title
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} alt="Post Image" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} alt="Appliances AMC Services" loading="lazy" />
               </div>
             </div>
 
@@ -205,7 +205,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, title
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Cooking-Range-Repair-Nearby-You.avif`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/Cooking-Range-Repair-Nearby-You.avif`} alt="Appliances AMC Services" loading="lazy" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -402,7 +402,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, title
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/24x7b.jpg`} alt="24x7" className="rounded shadow" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/24x7b.jpg`} alt="24x7" className="rounded shadow" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">24×7 days a week service</h4>
                       <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
@@ -414,7 +414,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, title
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/annual-contract-b.jpg`} alt="annual contract icon" className="rounded shadow" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/annual-contract-b.jpg`} alt="annual contract icon" className="rounded shadow" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">    Annual maintenance contracts </h4>
                       <p className="small">Regular maintenance helps your appliances  run smoothly and efficiently, delivering the best results every time.
@@ -427,7 +427,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, title
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/trained-b.jpg`} alt="trained icon" className="rounded shadow" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/trained-b.jpg`} alt="trained icon" className="rounded shadow" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18"> Well trained & certified technicians </h4>
                       <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
@@ -438,7 +438,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, title
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/call.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/call.jpg`} alt="Cooling Efficiency" className="rounded shadow" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">On-call services for kitchen equipment</h4>
                       <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
@@ -451,7 +451,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, title
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/installation-b.jpg`} alt="installation icon" className="rounded shadow" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/installation-b.jpg`} alt="installation icon" className="rounded shadow" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Installation, testing & commissioning of commercial kitchens </h4>
                       <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
@@ -467,7 +467,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, title
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/wellicon.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/wellicon.jpg`} alt="Cooling Efficiency" className="rounded shadow" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18"> Well versed in handling MEP services for kitchen projects</h4>
                       <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
@@ -478,7 +478,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, title
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/gearicon.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/gearicon.jpg`} alt="Cooling Efficiency" className="rounded shadow" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Availability of genuine spare parts </h4>
                       <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
@@ -489,7 +489,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, title
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/wellstar.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/wellstar.jpg`} alt="Cooling Efficiency" className="rounded shadow" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Complete maintenance solutions</h4>
                       <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
@@ -537,7 +537,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, title
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" loading="lazy" />
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
@@ -549,14 +549,14 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, title
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" loading="lazy" />
               </div>
 
               {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" loading="lazy" />
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
@@ -565,7 +565,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, title
                 </div>
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" loading="lazy" />
 
                   </div>
                   <div className="usptext">
@@ -575,7 +575,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, title
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" loading="lazy" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
@@ -586,7 +586,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, title
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
+                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" loading="lazy" />
               </div>
             </div>
           </div>

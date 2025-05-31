@@ -20,7 +20,6 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 
-// import { Link } from "react-router-dom";
 
 const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => { 
   // For SEO
@@ -144,8 +143,6 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, ti
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Washing Machine Repair Service in Dubai</h1>
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
-            {/* <h2 className="cs_fs_30">Experts Washing Machine Repair and Service Center in Dubai</h2> */}
             <p>
               Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C.</b></a> has offered reliable installation, maintenance, and repair for all brands of washing machines, dryers, and laundry systems in Dubai, Sharjah, and Abu Dhabi.
               <br /> Our experts are here to assist with any issues, from top-loading and front-loading washers to compact models. You can trust us to keep your washing machine running smoothly.
@@ -183,8 +180,7 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, ti
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Post Image" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} alt="Post Image" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} alt="Washing Machine Repair" loading="lazy" />
 
               </div>
             </div>
@@ -203,7 +199,7 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, ti
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/washing-machine-repair.avif`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/washing-machine-repair.avif`} alt="Washing Machine Repair" loading="lazy" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -384,7 +380,7 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, ti
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h4>
                       <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
@@ -395,7 +391,7 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, ti
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
                       </h4>
@@ -408,7 +404,7 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, ti
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
                       <p className="small">Energy efficient washing machine translate to monthly savings on utility bills, putting more money back in your pocket.</p>
@@ -420,7 +416,7 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, ti
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h4>
                       <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
@@ -432,7 +428,7 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, ti
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Extending washing machine Lifespan</h4>
                       <p className="small">Proper care and timely servicing can significantly increase life of your home washing machine, delaying the need for replacements.</p>
@@ -446,7 +442,7 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, ti
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                       </h4>
@@ -471,7 +467,7 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, ti
               <div className="uspcol col-1">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" loading="lazy" />
 
                   </div>
                   <div className="usptext">
@@ -482,7 +478,7 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, ti
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" loading="lazy" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
@@ -493,7 +489,7 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, ti
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" loading="lazy" />
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
@@ -505,14 +501,14 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, ti
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" loading="lazy" />
               </div>
 
               {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" loading="lazy" />
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
@@ -521,7 +517,7 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, ti
                 </div>
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" loading="lazy" />
 
                   </div>
                   <div className="usptext">
@@ -531,7 +527,7 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, ti
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" loading="lazy" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
@@ -542,7 +538,7 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, ti
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
+                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" loading="lazy" />
               </div>
             </div>
           </div>
@@ -807,7 +803,7 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, ti
 
                       <div className="brandslogo-slide-container">
                         <div className="brnadlogo">
-                          <img className="w-100" src={`${import.meta.env.BASE_URL}${item.logo}`} alt="Avatar" />
+                          <img className="w-100" src={`${import.meta.env.BASE_URL}${item.logo}`} alt="Avatar" loading="lazy" />
                         </div>
                       </div>
 
@@ -818,7 +814,6 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, ti
               </div>
             </div>
           </div>
-          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
         </section>
         
         {/* Maintenance Contract */}
@@ -847,7 +842,7 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, ti
                         <div className="cs_testimonial_content cs_white_bg position-relative">
                           <div className="cs_testimonial_header cs_mb_35">
                             <div className="cs_testimonial_thumbnail">
-                              <img src={`${import.meta.env.BASE_URL}${item.img1}`} alt="Avatar" />
+                              <img src={`${import.meta.env.BASE_URL}${item.img1}`} alt="Avatar" loading="lazy" />
                             </div>
                             <div className="cs_testimonial_info">
                               <div className="rating-area" >
@@ -858,12 +853,11 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, ti
                                 <i className="bi bi-star-fill"></i>
                               </div>
                               <h3 className="cs_fs_24 cs_mb_1">{item.title}</h3>
-                              {/* <p className="cs_fs_14 cs_heading_color mb-0">{item.subTitle}</p> */}
                             </div>
                           </div>
                           <blockquote className="cs_fs_16">{item.desc}</blockquote>
                           <div className="cs_quote_icon position-absolute">
-                            <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`} alt="Quote Icon" />
+                            <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`} alt="Quote Icon" loading="lazy" />
                           </div>
                         </div>
                       </div>
@@ -874,7 +868,6 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, ti
               </div>
             </div>
           </div>
-          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
         </section>
 
         {/* FAQ's */}
@@ -894,7 +887,6 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, ti
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>
-                    {/* <p className="mb-0">{item.desc.replace(/\n/g, '<br>')}</p> */}
                     <p className="mb-0"
                       dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
                     ></p>

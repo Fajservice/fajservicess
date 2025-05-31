@@ -9,14 +9,11 @@ import CallNowButton from '../../Buttons/CallNowButton';
 import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
-
 import Slider from "react-slick";
 import testimonial_data from '../../../Data/KitchenEquipments/Testmonials/KitchenEquipmentRepairTestimonials.json';
-// import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
-import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 
 
 const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , description, Author, Keyword, URL }) => {
@@ -142,7 +139,6 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Commercial Kitchen Equipment Maintenance Services</h1>
-            {/* <h2 className="cs_fs_30">Commercial Cooking Equipment Repair and Maintenance Service in Dubai</h2> */}
             <p>Kitchen Equipment Maintenance Solutions, a division of FAJ Technical Services LLC established in 2010, specialises in the repair and maintenance of food service equipment within the commercial kitchen sector in Dubai, UAE.<br />
             Our primary objective is to ensure the optimal functioning of our clients' commercial kitchen equipment maintenance services and repair while fully complying with all regulatory requirements in Dubai.<br />
             We are a reliable provider of repair, maintenance, and servicing, catering to a diverse range of establishments, including restaurants, hotels, and kitchens in schools, colleges, and hospitals.
@@ -172,8 +168,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Commercial Cooking Equipment Repair" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/kitchen-equip-amc-service.avif`} alt="Commercial Cooking Equipment Repair" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/kitchen-equip-amc-service.avif`} alt="Commercial Cooking Equipment Repair" loading="lazy" />
 
               </div>
             </div>
@@ -192,7 +187,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/kitchen-equip-amc-repair.avif`} alt="Commercial Cooking Equipment Repair" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/kitchen-equip-amc-repair.avif`} alt="Commercial Cooking Equipment Repair" loading="lazy" />
               </div>
               <div className="col-md-6">
                 <p>Keeping your professional kitchen equipment regularly maintained is important to ensure the longevity of your equipment, that your customers receive high-quality food, and to minimise costly downtime in your business.</p>
@@ -369,7 +364,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/24x7b.jpg`} alt="24x7" className="rounded shadow" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/24x7b.jpg`} alt="24x7" className="rounded shadow" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Routine Service</h4>
                       <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
@@ -380,7 +375,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/call.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/call.jpg`} alt="Cooling Efficiency" className="rounded shadow" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">On-call services</h4>
                       <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
@@ -394,7 +389,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/gearicon.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/gearicon.jpg`} alt="Cooling Efficiency" className="rounded shadow" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Genuine Spare Parts</h4>
                       <p className="small">Knowing your commercial kitchen equipment is in top condition gives you confidence and removes the stress of unexpected failures.</p>
@@ -405,7 +400,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/wellstar.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/wellstar.jpg`} alt="Cooling Efficiency" className="rounded shadow" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Maintenance Costs</h4>
                       <p className="small">High-quality equipment may be more expensive initially, but it typically breaks down less frequently and requires fewer repairs.</p>
@@ -416,7 +411,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/trained-b.jpg`} alt="trained icon" className="rounded shadow" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/trained-b.jpg`} alt="trained icon" className="rounded shadow" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Increased Efficiency</h4>
                       <p className="small">Commercial kitchen equipment can improve the efficiency of daily tasks in your kitchen. · Lower Maintenance Costs · Superior Quality</p>
@@ -427,7 +422,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/wellicon.jpg`} alt="Cooling Efficiency" className="rounded shadow" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/wellicon.jpg`} alt="Cooling Efficiency" className="rounded shadow" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Cost Efficiency</h4>
                       <p className="small">FAJ a Save hand maintenance. Here’s a cost comparison of renting vs. owning a commercial kitchen: as a renter, you avoid high startup equipment costs..</p>
@@ -438,7 +433,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/annual-contract-b.jpg`} alt="annual contract icon" className="rounded shadow" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/annual-contract-b.jpg`} alt="annual contract icon" className="rounded shadow" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Report and Updates</h4>
                       <p className="small">FAJ is issuing a report on the status and upkeep of commercial kitchen equipment, emphasising necessary actions for enhancing efficiency and safety.</p>
@@ -449,7 +444,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/installation-b.jpg`} alt="installation icon" className="rounded shadow" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/installation-b.jpg`} alt="installation icon" className="rounded shadow" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Experts and Trained</h4>
                       <p className="small">FAJ employs technicians to provide customers with effective maintenance and repair services for commercial kitchen equipment to ensure satisfaction.</p>
@@ -471,7 +466,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
               <div className="uspcol col-1">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" loading="lazy" />
 
                   </div>
                   <div className="usptext">
@@ -482,7 +477,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" loading="lazy" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
@@ -493,7 +488,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" loading="lazy" />
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
@@ -505,14 +500,14 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" loading="lazy" />
               </div>
 
               {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" loading="lazy" />
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
@@ -521,7 +516,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
                 </div>
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" loading="lazy" />
 
                   </div>
                   <div className="usptext">
@@ -531,7 +526,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" loading="lazy" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
@@ -542,7 +537,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
+                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" loading="lazy" />
               </div>
             </div>
           </div>
@@ -576,34 +571,6 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
           </div>
         </section>
 
-
-        {/* Brands section */}
-        {/* <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
-          <div className="container">
-
-            <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
-              data-variable-width="0" data-xs-slides="1" data-sm-slides="1" data-md-slides="1" data-lg-slides="2"
-              data-add-slides="2" data-slides-per-view="responsive">
-              <div className="cs_slider_wrapper">
-                <Slider {...settingBrands}>
-                  {brandsLogo_data.map((item, index) => (
-                    <div key={index} className="cs_slide wow fadeInLeft">
-
-                      <div className="brandslogo-slide-container">
-                        <div className="brnadlogo">
-                          <img className="w-100" src={`${import.meta.env.BASE_URL}${item.logo}`} alt="Avatar" />
-                        </div>
-                      </div>
-
-                    </div>
-                  ))}
-                </Slider>
-
-              </div>
-            </div>
-          </div>
-        </section> */}
-
          {/* Maintenance Contract */}
         <MaintenanceContract />
 {/* testimobial section */}
@@ -630,7 +597,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
                         <div className="cs_testimonial_content cs_white_bg position-relative">
                           <div className="cs_testimonial_header cs_mb_35">
                             <div className="cs_testimonial_thumbnail">
-                              <img src={`${import.meta.env.BASE_URL}${item.img1}`} alt="Avatar" />
+                              <img src={`${import.meta.env.BASE_URL}${item.img1}`} alt="Avatar" loading="lazy" />
                             </div>
                             <div className="cs_testimonial_info">
                               <div className="rating-area" >
@@ -646,7 +613,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
                           </div>
                           <blockquote className="cs_fs_16">{item.desc}</blockquote>
                           <div className="cs_quote_icon position-absolute">
-                            <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`} alt="Quote Icon" />
+                            <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`} alt="Quote Icon" loading="lazy" />
                           </div>
                         </div>
                       </div>
@@ -657,7 +624,6 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
               </div>
             </div>
           </div>
-          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
         </section>
 
         {/* FAQ's */}
@@ -677,7 +643,6 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>
-                    {/* <p className="mb-0">{item.desc.replace(/\n/g, '<br>')}</p> */}
                     <p className="mb-0"
                       dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
                     ></p>

@@ -18,7 +18,6 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 
-// import { Link } from "react-router-dom";
 
 const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , description, Author, Keyword, URL }) => {
   // For SEO
@@ -179,7 +178,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/icemaker2.avif`} alt="Post Image" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/icemaker2.avif`} alt="Ice Maker Repair" loading="lazy" />
 
               </div>
             </div>
@@ -194,12 +193,9 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
         <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">Why is Ice Maker Machine Maintenance Service Important in Dubai?</h3>
-            {/* <p>
-              Proper dishwasher maintenance is essential for extending its lifespan and enhancing efficiency, especially in Dubai’s climate. Here are the main benefits:
-            </p> */}
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/newicemaker.avif`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/newicemaker.avif`} alt="Ice Maker Repair" loading="lazy" />
               </div>
               <div className="col-md-6">
                 <p className="mb-0">
@@ -398,7 +394,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h4>
                       <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
@@ -409,7 +405,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
                       </h4>
@@ -422,7 +418,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
                       <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
@@ -434,7 +430,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h4>
                       <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
@@ -446,7 +442,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h4>
                       <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
@@ -460,7 +456,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                       </h4>
@@ -485,7 +481,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
               <div className="uspcol col-1">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" loading="lazy" />
 
                   </div>
                   <div className="usptext">
@@ -496,7 +492,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" loading="lazy" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
@@ -507,7 +503,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" loading="lazy" />
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
@@ -519,14 +515,14 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} alt="FAJ icon service" loading="lazy" />
               </div>
 
               {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" loading="lazy" />
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
@@ -535,7 +531,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
                 </div>
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" loading="lazy" />
 
                   </div>
                   <div className="usptext">
@@ -545,7 +541,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" loading="lazy" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
@@ -556,7 +552,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" />
+                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} alt="FAJ icon service" loading="lazy" />
               </div>
             </div>
           </div>
@@ -568,10 +564,6 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
             <h3>We specialise in Ice Machine and Ice Cube Maker services for the following brands </h3>
             <div className="row">
               <div className="col-12">
-
-                {/* <p className="mb-0">
-                  <Link to="//"><b> </b></Link>:
-                </p> */}
 
                 <p className="mb-0"><b> Hoshizaki Ice Maker Repair </b>: FAJ is here to support you when things go wrong. We understand that your Hoshizaki ice cuber maker is essential for daily life, keeping your food fresh.</p>
                 <p className="mb-0"><b> Brema Ice Cube Maker Services </b>: If you are experiencing issues with your Brema ice maker, please contact the FAJ team for same-day repair service in Dubai.</p>
@@ -616,7 +608,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
 
                       <div className="brandslogo-slide-container">
                         <div className="brnadlogo">
-                          <img className="w-100" src={`${item.logo}`} alt="Avatar" />
+                          <img className="w-100" src={`${item.logo}`} alt="Avatar" loading="lazy" />
                         </div>
                       </div>
 
@@ -627,7 +619,6 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
               </div>
             </div>
           </div>
-          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
         </section>
          {/* Maintenance Contract */}
         <MaintenanceContract />
@@ -655,7 +646,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
                         <div className="cs_testimonial_content cs_white_bg position-relative">
                           <div className="cs_testimonial_header cs_mb_35">
                             <div className="cs_testimonial_thumbnail">
-                              <img src={`${import.meta.env.BASE_URL}${item.img1}`} alt="Avatar" />
+                              <img src={`${import.meta.env.BASE_URL}${item.img1}`} alt="Avatar" loading="lazy" />
                             </div>
                             <div className="cs_testimonial_info">
                               <div className="rating-area" >
@@ -671,7 +662,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
                           </div>
                           <blockquote className="cs_fs_16">{item.desc}</blockquote>
                           <div className="cs_quote_icon position-absolute">
-                            <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`} alt="Quote Icon" />
+                            <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`} alt="Quote Icon" loading="lazy" />
                           </div>
                         </div>
                       </div>
@@ -682,7 +673,6 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
               </div>
             </div>
           </div>
-          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
         </section>
 
         {/* FAQ's */}
@@ -702,7 +692,6 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>
-                    {/* <p className="mb-0">{item.desc.replace(/\n/g, '<br>')}</p> */}
                     <p className="mb-0"
                       dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
                     ></p>
