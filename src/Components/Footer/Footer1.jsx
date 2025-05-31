@@ -116,7 +116,7 @@ const Footer1 = () => {
                 Copyright © 2025 <a className="text-light" href="https://www.fajitsolutions.com/">FAJ IT SOLITIONS</a>. All Rights Reserved.
               </div>
               <div>
-                <img src={`${import.meta.env.BASE_URL}img/payment_card.svg`} alt="" />
+                <img src={`${import.meta.env.BASE_URL}img/icons/payment_card.png`} alt="" />
               </div>
             </div>
           </div>
