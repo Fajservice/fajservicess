@@ -1,5 +1,5 @@
-import AppliancesServicesInAlBadaaDetail from "../../../Components/ServiceDetails/AppliancesDetail/AppliancesLocation/AppliancesServicesInAlBadaaDetail.jsx";
 import BreadCumb from "../../../Components/Common/BreadCumb";
+import AppliancesServicesInAlBadaaDetail from "../../../Components/ServiceDetails/AppliancesDetail/AppliancesLocation/AppliancesServicesInAlBadaaDetail.jsx";
 const AppliancesServicesInAlBadaa = () => {
   return (
      <div className="serviceDetails">

@@ -21,7 +21,7 @@ const ApplianceServiceInAcademyCityDetail = ({ subtitle, title, reviewsbg, title
     const metatitle = String(titleSeo || "Appliances Services in Academy City - Fridge Repair Dubai");
     const metadescription = String(description || "FAJ offers best appliance services in Academy City. Get washing machine repair near me in Dubai. Call 043300002 for fridge, dishwasher, and oven fix.");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "Appliances Services and Repair in dubai");
+    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Academy City Dubai – Home Appliance Installation, Maintenance & Service Centre in Academy City Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-academy-city");
 
 

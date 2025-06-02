@@ -20,7 +20,7 @@ const ApplianceServiceInTheVillaDetail = ({ subtitle, title, reviewsbg, titleSeo
     const metatitle = String(titleSeo || "Appliances Services in The Villa - Washing Machine Repair");
     const metadescription = String(description || "Looking for appliance service in The Villa. Call 043300002 for fridge repair near me in Dubai. Get fix washing machine, dishwasher, refrigerator");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "Fridge Repair Dubai, Washing machine repair, Appliances repair and services ");
+    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in The Villa Dubai – Home Appliance Installation, Maintenance & Service Centre in The Villa Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-villa");
 
     subtitle = "Testimonial"

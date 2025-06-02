@@ -21,7 +21,7 @@ const AppliancesServicesInTheViewsDetail = ({ subtitle, title, reviewsbg, titleS
   const metatitle = String(titleSeo || "Appliances Services in The Views - Washing Machine Repair");
   const metadescription = String(description || "We offer best appliance services in The Views. Get washing machine repair near me in Dubai. Book 043300002 for fridge, oven, dishwasher maintenance");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "Fridge Repair Dubai, Washing machine repair, Appliances repair and services ");
+  const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in  The Views Dubai – Home Appliance Installation, Maintenance & Service Centre in The Views Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-views/");
 
   subtitle = "Testimonial"

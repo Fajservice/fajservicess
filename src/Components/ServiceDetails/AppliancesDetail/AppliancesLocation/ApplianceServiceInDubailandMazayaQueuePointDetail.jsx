@@ -2,14 +2,10 @@ import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
-import CallNowButton from '../../../Buttons/CallNowButton.jsx';
-import GetQuoteButton from "../../../Buttons/GetQuoteButton.jsx";
+import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx'; 
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton.jsx";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract.jsx";
-// import AppliancesTechnicalInspectionFee from "../../ApplianceCommons/AppliancesTechnicalInspectionFee.jsx";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol.jsx";
-
 import Slider from "react-slick";
 import testimonial_data from '../../../../Data/HomeAppData/Testmonials/FreestandingHomeAppliancesRepairServiceTestimonials.json';
 import brandsLogo_data from '../../../../Data/AppliancesBrandsLogo.json';
@@ -23,7 +19,7 @@ const ApplianceServiceInDubailandMazayaQueuePointDetail = ({ subtitle, title, re
     const metatitle = String(titleSeo || "Best Appliances Services in Dubailand Mazaya Queue Point");
     const metadescription = String(description || "Looking for appliance service in Dubailand Mazaya Queue Point. Call 043300002 for fridge repair near me. Get fix washing machine, dishwasher, Oven");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "Repair Services in Mazaya Queue dubai");
+    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Dubailand Mazaya Queue Point – Home Appliance Installation, Maintenance & Service Centre in Dubailand Mazaya Queue Point");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubailand-mazaya-queue-point");
 
 

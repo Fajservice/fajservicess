@@ -20,7 +20,7 @@ const ApplianceServiceInJumeirahParkDetail = ({ subtitle, title, reviewsbg, titl
     const metatitle = String(titleSeo || "Appliances Services in Jumeirah Park - Refrigerator Repair");
     const metadescription = String(description || "We offer best appliance services in Jumeirah Park. Get fridge repair near me in Dubai. Book 043300002 for oven & washing machine maintenance");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "Repair Services in Jumerah Park");
+    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Jumeirah Park Dubai – Home Appliance Installation, Maintenance & Service Centre in Jumeirah Park Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah-park/");
 
     subtitle = "Testimonial"

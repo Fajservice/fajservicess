@@ -2,14 +2,10 @@ import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
 import {  Helmet, HelmetProvider  } from "react-helmet-async";
-import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
-import CallNowButton from '../../../Buttons/CallNowButton.jsx';
-import GetQuoteButton from "../../../Buttons/GetQuoteButton.jsx";
+import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx'; 
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton.jsx";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract.jsx";
-// import AppliancesTechnicalInspectionFee from "../../ApplianceCommons/AppliancesTechnicalInspectionFee.jsx";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol.jsx";
-
 import Slider from "react-slick";
 import testimonial_data from '../../../../Data/HomeAppData/Testmonials/FreestandingHomeAppliancesRepairServiceTestimonials.json';
 import brandsLogo_data from '../../../../Data/AppliancesBrandsLogo.json';
@@ -23,7 +19,7 @@ const ApplianceServiceInIndexTowerDifcDetail = ({ subtitle, title, reviewsbg, ti
     const metatitle = String(titleSeo || "Appliances Services in Index Tower DIFC - Fridge Repair");
     const metadescription = String(description || "Best appliance services in Index Tower DIFC. FAJ offers fridge repair near me. Call 043300002 for dishwasher, oven, washing machine maintenance");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "Repair Services in Index Tower DIFC");
+    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Index Tower DIFC Dubai – Home Appliance Installation, Maintenance & Service Centre in Index Tower DIFC Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-index-tower-difc/");
 
     subtitle = "Testimonial"

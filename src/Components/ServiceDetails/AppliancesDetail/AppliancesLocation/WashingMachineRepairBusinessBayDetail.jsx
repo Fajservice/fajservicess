@@ -20,7 +20,7 @@ const WashingMachineRepairBusinessBayDetail = ({ subtitle, title, reviewsbg, tit
   const metatitle = String(titleSeo || "Washing Machine Repair Business Bay - Refrigerator Service");
   const metadescription = String(description || "");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "Fridge Repair Dubai, Washing machine repair, Appliances repair and services ");
+  const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Business Bay Dubai – Dishwasher, Oven, Stove Service & Maintenance in Business Bay Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-business-bay-fridge-repair-business-bay-refrigerator-repairing-business-bay-cooker-stove-oven-cooking-range-repairs-fix-service-centre-business-bay-dishwasher-installation-fixin/");
 
   subtitle = "Testimonial"

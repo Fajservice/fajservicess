@@ -20,7 +20,7 @@ const AppliancesServicesInFalconCityDubaiDetail = ({ subtitle, title, reviewsbg,
   const metatitle = String(titleSeo || "Appliances Services in Falcon City - Washing Machine Repair");
   const metadescription = String(description || "We offer best appliance services in Falcon City. Get washing machine repair near me in Dubai. Book 043300002 for fridge, oven, dishwasher maintenance");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "Fridge Repair Dubai, Washing machine repair, Appliances repair and services ");
+  const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Falcon City Dubai – Home Appliance Installation, Maintenance & Service Centre in Falcon City Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-falcon-city-dubai/");
 
   subtitle = "Testimonial"

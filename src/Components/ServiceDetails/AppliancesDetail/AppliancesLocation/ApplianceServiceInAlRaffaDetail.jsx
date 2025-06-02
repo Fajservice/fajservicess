@@ -21,7 +21,7 @@ const ApplianceServiceInAlRaffaDetail = ({ subtitle, title, reviewsbg, titleSeo,
     const metatitle = String(titleSeo || "Appliances Services in Al Raffa - Fridge Repair Near Me ");
     const metadescription = String(description || "Get Appliances Services in Al Raffa. We specilize in fridge repair near me, Call 043300002 to fix washing machine, dishwasher and oven. ");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "Repair Services");
+    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Al Raffa Dubai – Home Appliance Installation, Maintenance & Service Centre in Al Raffa Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-raffa/");
 
     subtitle = "Testimonial"

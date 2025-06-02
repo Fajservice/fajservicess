@@ -2,14 +2,10 @@ import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
-import CallNowButton from '../../../Buttons/CallNowButton.jsx';
-import GetQuoteButton from "../../../Buttons/GetQuoteButton.jsx";
+import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx'; 
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton.jsx";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract.jsx";
-// import AppliancesTechnicalInspectionFee from "../../ApplianceCommons/AppliancesTechnicalInspectionFee.jsx";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol.jsx";
-
 import Slider from "react-slick";
 import testimonial_data from '../../../../Data/HomeAppData/Testmonials/FreestandingHomeAppliancesRepairServiceTestimonials.json';
 import brandsLogo_data from '../../../../Data/AppliancesBrandsLogo.json';
@@ -23,7 +19,7 @@ const ApplianceServiceInMankhoolDetail = ({ subtitle, title, reviewsbg, titleSeo
     const metatitle = String(titleSeo || "Appliances Services in Mankhool -  Washing Machine Repair");
     const metadescription = String(description || "Looking appliance service in Jumeirah Village Triangle in Dubai. FAJ provide refrigerator repair near me, washing machine & more. Call now 043300002");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "Washing machine, Repair Services in Mankhool");
+    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Mankhool Dubai – Home Appliance Installation, Maintenance & Service Centre in Mankhool Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-mankhool/");
 
 

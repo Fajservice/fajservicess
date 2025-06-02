@@ -20,7 +20,7 @@ const ApplianceServiceInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo
     const metatitle = String(titleSeo || " Appliances Services in Bur Dubai - Fridge Repair Near Me");
     const metadescription = String(description || "We are experts in appliance services in Bur Dubai. Get the best refrigerator repair near me. Contact 043300002 to fix your washing machine & oven");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "Repair Services");
+    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Bur Dubai – Home Appliance Installation, Maintenance & Service Centre in Bur Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-bur-dubai/");
 
     subtitle = "Testimonial"

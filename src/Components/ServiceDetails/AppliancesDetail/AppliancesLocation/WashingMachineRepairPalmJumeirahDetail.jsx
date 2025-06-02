@@ -20,7 +20,7 @@ const WashingMachineRepairPalmJumeirahDetail = ({ subtitle, title, reviewsbg, ti
   const metatitle = String(titleSeo || "Washing Machine Repair Palm Jumeirah - Fridge Service Dubai");
   const metadescription = String(description || "FAJ washing machine repair in Palm Jumeirah. Get same day Bosch, LG, Siemens, Teka, Samsung refrigerator dryer, dishwasher, oven, service near you");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "Fridge Repair Dubai, Washing machine repair, Appliances repair and services ");
+  const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Palm Jumeirah – Dishwasher, Cooker maintenance Service Centre  in Palm Jumeirah Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-palm-jumeirah-fridge-repair-palm-jumeirah-refrigerator-repairing-palm-jumeirah-cooker-stove-oven-cooking-range-repairs-fix-service-centre-palm-jumeirah-dishwasher-installation-f/");
 
   subtitle = "Testimonial"

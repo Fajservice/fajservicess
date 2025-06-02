@@ -20,7 +20,7 @@ const AppliancesServicesInTheLakesDetail = ({ subtitle, title, reviewsbg, titleS
     const metatitle = String(titleSeo || "Best Appliances Services in The Lakes - Refrigerator Repair");
     const metadescription = String(description || "Looking for appliances services in The Lakes. Call us now at 043300002 to get fridge, washing machine, refrigerator repair near me in Dubai.");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "Fridge Repair Dubai, Washing machine repair, Appliances repair and services ");
+    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in The Lakes Dubai– Home Appliance Installation, Maintenance & Service Centre in The Lakes Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-lakes/");
 
     subtitle = "Testimonial"

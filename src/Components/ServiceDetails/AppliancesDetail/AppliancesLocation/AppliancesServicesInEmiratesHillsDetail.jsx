@@ -21,7 +21,7 @@ const AppliancesServicesInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, t
 const metatitle = String(titleSeo || "Appliances Services in Emirates Hills - Refrigerator Repair");
 const metadescription = String(description || "Faj offers appliance service in Emirates Hills. Call 043300002 for refrigerator repair near me in Dubai. Get fix washing machine, Coffee machine");
 const metaAuthor = String(Author || "Faj Technical Services");
-const metaKeyword = String(Keyword || "Fridge Repair Dubai, Washing machine repair, Appliances repair and services ");
+const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Emirates Hills Dubai– Home Appliance Installation, Maintenance & Service Centre in Emirates Hills Dubai");
 const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-emirates-hills/");
 
   subtitle = "Testimonial"

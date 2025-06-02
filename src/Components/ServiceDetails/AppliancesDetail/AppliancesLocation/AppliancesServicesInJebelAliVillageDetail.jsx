@@ -20,7 +20,7 @@ const AppliancesServicesInJebelAliVillageDetail = ({ subtitle, title, reviewsbg,
 const metatitle = String(titleSeo || "Appliances Services in Jebel Ali Village - Fridge Repair");
 const metadescription = String(description || "Best appliance services in Jebel Ali Village. FAJ offers fridge repair near me. Call 043300002 for dishwasher, oven, washing machine maintenance");
 const metaAuthor = String(Author || "Faj Technical Services");
-const metaKeyword = String(Keyword || "Fridge Repair Dubai, Washing machine repair, Appliances repair and services ");
+const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Jebel Ali Village Dubai – Home Appliance Installation, Maintenance & Service Centre in Jebel Ali Village Dubai");
 const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jebel-ali-village/");
 
   subtitle = "Testimonial"

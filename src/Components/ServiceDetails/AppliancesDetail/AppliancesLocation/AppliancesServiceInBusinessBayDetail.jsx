@@ -20,7 +20,7 @@ const AppliancesServiceInBusinessBayDetail = ({ subtitle, title, reviewsbg, titl
     const metatitle = String(titleSeo || "Appliances Services in Business Bay - Washing Machine Repair ");
     const metadescription = String(description || "Get the best appliance services in Business Bay. Experts in fridge repair near me in Dubai. Call 043300002 for washing machine, oven & dishwasher fix ");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "Repair Services");
+    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Business Bay Dubai – Dishwasher, Oven, Stove Service & Maintenance in Business Bay Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-business-bay");
 
     subtitle = "Testimonial"

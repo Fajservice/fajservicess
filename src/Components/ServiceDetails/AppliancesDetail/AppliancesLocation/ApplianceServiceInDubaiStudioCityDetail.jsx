@@ -2,12 +2,9 @@ import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
-import CallNowButton from '../../../Buttons/CallNowButton.jsx';
-import GetQuoteButton from "../../../Buttons/GetQuoteButton.jsx";
+import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx'; 
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton.jsx";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract.jsx";
-// import AppliancesTechnicalInspectionFee from "../../ApplianceCommons/AppliancesTechnicalInspectionFee.jsx";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol.jsx";
 
 import Slider from "react-slick";
@@ -23,7 +20,7 @@ const ApplianceServiceInDubaiStudioCityDetail = ({ subtitle, title, reviewsbg, t
     const metatitle = String(titleSeo || "Appliances Services in Dubai Studio City - Fridge Repair");
     const metadescription = String(description || "FAJ offers best appliance service in Dubai Studio City. Get washing machine repair near me. Call 043300002 for dishwasher, oven and fridge fix.");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "Repair Services in Dubai Studio city");
+    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Dubai Studio City – Home Appliance Installation, Maintenance & Service Centre in Dubai Studio City");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-studio-city");
 
 

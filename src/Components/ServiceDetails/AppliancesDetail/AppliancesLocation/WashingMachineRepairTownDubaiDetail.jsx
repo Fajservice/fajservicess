@@ -20,7 +20,7 @@ const WashingMachineRepairTownDubaiDetail = ({ subtitle, title, reviewsbg, title
   const metatitle = String(titleSeo || "Washing Machine Repair Town Dubai - Refrigerator Service");
   const metadescription = String(description || "Get same day washing machine repair in Town Dubai. FAJ offers Bosch, LG, Siemens, Samsung refrigerator dryer, dishwasher, oven service near me");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "Fridge Repair Dubai, Washing machine repair, Appliances repair and services ");
+  const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Town Dubai – Appliance Installation, Maintenance & Fixing in Town Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-town-dubai-fridge-repair-town-dubai-refrigerator-repairing-town-dubai-cooker-stove-oven-cooking-range-repairs-fix-service-centre-town-dubai-dishwasher-installation-fixing-mainte/");
 
   subtitle = "Testimonial"

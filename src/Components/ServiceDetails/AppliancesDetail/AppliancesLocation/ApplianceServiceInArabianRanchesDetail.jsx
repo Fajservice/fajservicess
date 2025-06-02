@@ -21,7 +21,7 @@ const ApplianceServiceInArabianRanchesDetail = ({ subtitle, title, reviewsbg, ti
     const metatitle = String(titleSeo || "Appliances Service in Arabian Ranches - Fridge Repair Dubai");
     const metadescription = String(description || "Same-day appliance services in Arabian Ranches. FAJ offers washing machine repair near me in Dubai. Book 043300002 for fridge, oven, dishwasher fix");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "Repair Services in Arabian Ranches Dubai");
+    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Arabian Ranches Dubai – Home Appliance Installation, Maintenance & Service Centre in Arabian Ranches Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-arabian-ranches");
 
 

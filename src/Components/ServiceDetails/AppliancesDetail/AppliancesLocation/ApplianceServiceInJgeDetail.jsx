@@ -2,12 +2,9 @@ import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
-import CallNowButton from '../../../Buttons/CallNowButton.jsx';
-import GetQuoteButton from "../../../Buttons/GetQuoteButton.jsx";
+import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx'; 
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton.jsx";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract.jsx";
-// import AppliancesTechnicalInspectionFee from "../../ApplianceCommons/AppliancesTechnicalInspectionFee.jsx";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol.jsx";
 
 import Slider from "react-slick";
@@ -24,7 +21,7 @@ const ApplianceServiceInJgeDetail = ({ subtitle, title, reviewsbg, titleSeo, des
     const metatitle = String(titleSeo || "Appliances Services in JGE - Washing Machine Repair Near me");
     const metadescription = String(description || "Looking for appliance service in JGE. Call 043300002 for fridge repair near me in Dubai. Get fix washing machine, dishwasher, refrigerator");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "Repair Services in ");
+    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in JGE Dubai – Home Appliance Installation, Maintenance & Service Centre in JGE Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jge");
 
     subtitle = "Testimonial"
