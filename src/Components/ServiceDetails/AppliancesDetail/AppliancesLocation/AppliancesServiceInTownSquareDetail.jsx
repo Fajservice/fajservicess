@@ -20,7 +20,7 @@ const AppliancesServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, title
     const metatitle = String(titleSeo || "Appliances Services In Town Square - Washing Machine Repair");
     const metadescription = String(description || "Get appliance services in Town Square. FAJ Experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher, oven");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "Fridge Repair Dubai, Washing machine repair, Appliances repair and services ");
+    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Town Square Dubai – Home Appliance Installation, Maintenance & Service Centre in Town Square Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-town-square");
 
     subtitle = "Testimonial"

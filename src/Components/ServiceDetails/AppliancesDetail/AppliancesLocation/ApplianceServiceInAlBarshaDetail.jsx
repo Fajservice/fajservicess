@@ -7,7 +7,6 @@ import CallNowButton from '../../../Buttons/CallNowButton.jsx';
 import GetQuoteButton from "../../../Buttons/GetQuoteButton.jsx";
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton.jsx";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract.jsx";
-// import AppliancesTechnicalInspectionFee from "../../ApplianceCommons/AppliancesTechnicalInspectionFee.jsx";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol.jsx";
 
 import Slider from "react-slick";
@@ -24,7 +23,7 @@ const ApplianceServiceInAlBarshaDetail = ({ subtitle, title, reviewsbg, titleSeo
     const metatitle = String(titleSeo || "Appliances Services In Al Barsha - Washing Machine Repair");
     const metadescription = String(description || "Get appliance services in Al Barsha. FAJ Experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher, oven ");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "Repair Services in Al Barsha");
+    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Al Barsha Dubai– Home Appliance Installation, Maintenance & Service Centre in Al Barsha Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-barsha/");
 
     subtitle = "Testimonial"

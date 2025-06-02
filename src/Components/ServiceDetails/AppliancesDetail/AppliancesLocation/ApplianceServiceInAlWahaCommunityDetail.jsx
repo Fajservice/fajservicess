@@ -2,9 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
-import CallNowButton from '../../../Buttons/CallNowButton.jsx';
-import GetQuoteButton from "../../../Buttons/GetQuoteButton.jsx";
+import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx'; 
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton.jsx";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract.jsx";
 // import AppliancesTechnicalInspectionFee from "../../ApplianceCommons/AppliancesTechnicalInspectionFee.jsx";
@@ -23,7 +21,7 @@ const ApplianceServiceInAlWahaCommunityDetail = ({ subtitle, title, reviewsbg, t
     const metatitle = String(titleSeo || " Appliances Services In Al Waha Community - Fridge Repair");
     const metadescription = String(description || "Get the best appliance services in Al Waha Community. Call 043300002 for washing machine repair near me in Dubai, we also fix fridge, dishwasher ");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "Repair Services In Al Waha Community ");
+    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Al Waha Community Dubai – Home Appliance Installation, Maintenance & Service Centre in Al Waha Community Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-waha-community/");
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -551,7 +549,7 @@ const ApplianceServiceInAlWahaCommunityDetail = ({ subtitle, title, reviewsbg, t
                             </div>
                         </div>
                     </div>
-                    {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
+                     
                 </section>
 
 
@@ -607,7 +605,7 @@ const ApplianceServiceInAlWahaCommunityDetail = ({ subtitle, title, reviewsbg, t
                             </div>
                         </div>
                     </div>
-                    {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
+                     
                 </section>
 
                 {/* FAQ's */}

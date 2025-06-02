@@ -20,7 +20,7 @@ const HomeAppliancesServiceCentreInJltDubaiDetail = ({ subtitle, title, reviewsb
   const metatitle = String(titleSeo || "Home Appliances Service in JLT - Refrigerator Repair Dubai");
   const metadescription = String(description || "FAJ offers home appliances service in JLT, Dail 043300002 for Electrolux, LG, Daewoo, Bosch, Teka fridge, washing machine, oven, dishwasher repair");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in JLT Dubai – Home Appliance Installation, Maintenance & Service Centre in JLT Dubai");
+  const metaKeyword = String(Keyword || " Washing Machine & Fridge Repair in JLT Dubai – Home Appliance Installation, Maintenance & Service Centre in JLT Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/home-appliances-installation-maintenance-repair-fix-service-centre-in-jlt-dubai/");
 
   subtitle = "Testimonial"
@@ -544,7 +544,7 @@ const HomeAppliancesServiceCentreInJltDubaiDetail = ({ subtitle, title, reviewsb
               </div>
             </div>
           </div>
-          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
+            
         </section>
 
 
@@ -552,7 +552,7 @@ const HomeAppliancesServiceCentreInJltDubaiDetail = ({ subtitle, title, reviewsb
         <MaintenanceContract />
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
-          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
+            
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
               <h3 className="cs_section_subtitle cs_fs_18 text-black cs_semibold text-uppercase cs_mb_12 wow fadeInDown">
@@ -601,7 +601,7 @@ const HomeAppliancesServiceCentreInJltDubaiDetail = ({ subtitle, title, reviewsb
               </div>
             </div>
           </div>
-          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
+            
         </section>
 
         {/* FAQ's */}

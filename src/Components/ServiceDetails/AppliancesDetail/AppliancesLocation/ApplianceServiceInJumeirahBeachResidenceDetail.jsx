@@ -2,12 +2,9 @@ import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
-import CallNowButton from '../../../Buttons/CallNowButton.jsx';
-import GetQuoteButton from "../../../Buttons/GetQuoteButton.jsx";
+import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx'; 
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton.jsx";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract.jsx";
-// import AppliancesTechnicalInspectionFee from "../../ApplianceCommons/AppliancesTechnicalInspectionFee.jsx";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol.jsx";
 
 import Slider from "react-slick";
@@ -23,7 +20,7 @@ const ApplianceServiceInJumeirahBeachResidenceDetail = ({ subtitle, title, revie
     const metatitle = String(titleSeo || "Best Appliances Services in Jumeirah Beach Residence");
     const metadescription = String(description || "Get appliance services in Jumeirah Beach Residence. FAJ Experts refrigerator repair near me. Call 043300002 to fix washing machine, dishwasher, oven, fridge");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "Repair Services in ");
+    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Jumeirah Beach Residence Dubai– Home Appliance Installation, Maintenance & Service Centre in Jumeirah Beach Residence Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah-beach-residence");
 
     subtitle = "Testimonial"

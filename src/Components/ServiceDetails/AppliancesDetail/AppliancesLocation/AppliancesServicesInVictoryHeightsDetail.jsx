@@ -20,7 +20,7 @@ const AppliancesServicesInVictoryHeightsDetail = ({ subtitle, title, reviewsbg, 
   const metatitle = String(titleSeo || "Best Appliances Services in Victory Heights - Fridge Repair");
   const metadescription = String(description || "FAJ offers appliance service in Victory Heights. Call 043300002 for refrigerator repair near me in Dubai. Get fix washing machine, coffee machine");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "Fridge Repair Dubai, Washing machine repair, Appliances repair and services ");
+  const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Victory Heights Dubai – Home Appliance Installation, Maintenance & Service Centre in Victory Heights Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-victory-heights/");
 
   subtitle = "Testimonial"

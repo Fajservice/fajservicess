@@ -20,7 +20,7 @@ const AppliancesServiceInLimestoneHouseDifcDetail = ({ subtitle, title, reviewsb
   const metatitle = String(titleSeo || "Appliances Services in The Limestone House DIFC Near Me");
   const metadescription = String(description || "Get appliances services in the Limestone house DIFC. Looking for refrigerator, fridge, washing machine repair and oven fix near me than call at 043300002");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "Fridge Repair Dubai, Washing machine repair, Appliances repair and services ");
+  const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in The Limestone House DIFC Dubai– Home Appliance Installation, Maintenance & Service Centre in The Limestone House DIFC Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-limestone-house-difc");
 
   subtitle = "Testimonial"

@@ -384,9 +384,7 @@ import ApplianceServiceInDubailandMazayaQueuePoint from "../Pages/AppliancesPage
 import ApplianceServiceInAlRaffa from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInAlRaffa.jsx";
 import ApplianceServiceInDifc from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInDifc.jsx";
 import ApplianceServiceInJumeirahPark from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInJumeirahPark.jsx";
-import { PopupProvider } from "../Components/PopupContext.jsx";
-import ApplianceServiceInJebelAliIndustrialAreaDetail from "../Components/ServiceDetails/AppliancesDetail/AppliancesLocation/ApplianceServiceInJebelAliIndustrialAreaDetail.jsx";
-import AcRepairInJebelAliIndustrialAreaDetail from "../Components/ServiceDetails/AcDetail/AcLocation/AcRepairInJebelAliIndustrialAreaDetail.jsx";
+// import { PopupProvider } from "../Components/PopupContext.jsx";
 import AcRepairInJebelAliIndustrialArea from "../Pages/AcPages/AcLocation/AcRepairInJebelAliIndustrialArea.jsx";
 export const router = createBrowserRouter([
   {

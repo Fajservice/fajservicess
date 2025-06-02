@@ -24,7 +24,7 @@ const ApplianceServiceInDeiraDetail = ({ subtitle, title, reviewsbg, titleSeo, d
     const metatitle = String(titleSeo || "Appliances Services in Deira - Refrigerator Repair Dubai");
     const metadescription = String(description || "Expert appliance services in Deira. Get refrigerator repair near me in Dubai. Contact 043300002 to fix your washing machine, cooker, and dishwasher ");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "Repair Services in Deira");
+    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Deira Dubai – Home Appliance Installation, Maintenance & Service Centre in Deira Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae");
 
 

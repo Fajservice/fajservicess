@@ -23,7 +23,7 @@ const ApplianceServiceInHudaibaDetail = ({ subtitle, title, reviewsbg, titleSeo,
     const metatitle = String(titleSeo || "Appliances Services in Hudaiba - Washing Machine Repair");
     const metadescription = String(description || "Looking for appliance service in Hudaiba. Call 043300002 for fridge repair near me in Dubai. Get fix washing machine, dishwasher, refrigerator");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "Repair Services");
+    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Hudaiba Dubai – Home Appliance Installation, Maintenance & Service Centre in Hudaiba Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-hudaiba/");
 
     subtitle = "Testimonial"

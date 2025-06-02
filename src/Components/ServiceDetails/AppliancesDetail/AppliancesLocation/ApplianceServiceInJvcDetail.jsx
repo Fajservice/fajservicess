@@ -2,12 +2,9 @@ import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
-import CallNowButton from '../../../Buttons/CallNowButton.jsx';
-import GetQuoteButton from "../../../Buttons/GetQuoteButton.jsx";
+import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx'; 
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton.jsx";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract.jsx";
-// import AppliancesTechnicalInspectionFee from "../../ApplianceCommons/AppliancesTechnicalInspectionFee.jsx";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol.jsx";
 
 import Slider from "react-slick";
@@ -23,7 +20,7 @@ const ApplianceServiceInJvcDetail = ({ subtitle, title, reviewsbg, titleSeo, des
     const metatitle = String(titleSeo || "Best Appliances Services In JVC Jumeirah Village Circle");
     const metadescription = String(description || "Need appliance Services in JVC. We provide refrigerator repair near me, fridge, fix washing machine, dryer, cooker oven & more. Call us now  043300002");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "Repair Services in JVC ");
+    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in JVC Dubai – Home Appliance Installation, Maintenance & Service Centre in JVC Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jvc/");
     subtitle = "Testimonial"
     title = "What our clients say About Us"

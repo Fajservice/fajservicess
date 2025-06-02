@@ -26,7 +26,7 @@ const AcRepairInDiscoveryGardensDetail = ({ subtitle, title, reviewsbg, titleSeo
     const metatitle = String(titleSeo || "AC Services In Discovery Gardens - Air Conditioner Repairs 1");
     const metadescription = String(description || "Are you finding for AC Services in Discovery Gardens Dubai? Contact us 043300002 for air conditioner repair & maintenance near by in dubai Fix ac");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || "AC Repair in Discovery Gardens, Air Conditioning Service in Discovery Gardens, Air Con Maintenance & AC Installation in Discovery Gardens");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-discovery-gardens");
 
     subtitle = "Testimonial"
@@ -150,7 +150,7 @@ const AcRepairInDiscoveryGardensDetail = ({ subtitle, title, reviewsbg, titleSeo
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Post Image" />
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Ac Repair Service in Discovery Gardens" loading="lazy" />
 
                             </div>
                         </div>
@@ -177,7 +177,7 @@ const AcRepairInDiscoveryGardensDetail = ({ subtitle, title, reviewsbg, titleSeo
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Post Image" />
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Ac Maintenance" loading="lazy" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">
@@ -343,7 +343,7 @@ const AcRepairInDiscoveryGardensDetail = ({ subtitle, title, reviewsbg, titleSeo
                             <div className="col-lg-4">
                                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                                    <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Post Image" />
+                                    <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="ac repair and service dubai" />
                                 </div>
                             </div>
                             <div className="col-lg-4">
@@ -387,7 +387,7 @@ const AcRepairInDiscoveryGardensDetail = ({ subtitle, title, reviewsbg, titleSeo
                                                 <div className="cs_testimonial_content cs_white_bg position-relative">
                                                     <div className="cs_testimonial_header cs_mb_35">
                                                         <div className="cs_testimonial_thumbnail">
-                                                            <img src={`${import.meta.env.BASE_URL}${item.img1}`} alt="Avatar" />
+                                                            <img src={`${import.meta.env.BASE_URL}${item.img1}`} alt="Avatar" loading="lazy"/>
                                                         </div>
                                                         <div className="cs_testimonial_info">
                                                             <div className="rating-area" >

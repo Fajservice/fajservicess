@@ -24,7 +24,7 @@ const AcRepairInBusinessBayDetail = ({ subtitle, title, reviewsbg, titleSeo, des
     const metatitle = String(titleSeo || "Best AC Services In Business Bay - Air Con Repair #1");
     const metadescription = String(description || "FAJ offer professional AC Services in Business Bay, We are experts in HVAC, Central Cooling FCU Air Conditioner Maintenance & Repair in Dubai");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || "AC Repair  in Business Bay, Air Conditioning Service in Business Bay, Air Con Maintenance & AC Installation in Business Bay");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-business-bay");
 
 

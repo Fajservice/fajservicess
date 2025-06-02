@@ -22,7 +22,7 @@ const AppliancesServiceInAlGhadeerCommunityDetail = ({ subtitle, title, reviewsb
     const metatitle = String(titleSeo || "Appliances Services in Al Ghadeer Community - Fridge Repair");
     const metadescription = String(description || "Faj offers appliance service in Al Ghadeer Community. Call 043300002 for refrigerator repair near me in Dubai. Get fix washing machine, Coffee machine");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "Fridge Repair Dubai, Washing machine repair, Appliances repair and services ");
+    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Al Ghadeer Community Dubai – Home Appliance Installation, Maintenance & Service Centre in Al Ghadeer Community Dubai ");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-ghadeer-community/");
 
     subtitle = "Testimonial"

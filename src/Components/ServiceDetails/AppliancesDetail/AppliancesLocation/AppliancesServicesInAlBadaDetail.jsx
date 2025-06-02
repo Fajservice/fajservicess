@@ -20,7 +20,7 @@ const AppliancesServicesInAlBadaDetail = ({ subtitle, title, reviewsbg, titleSeo
     const metatitle = String(titleSeo || "Appliances Services in Al Bada - Refrigerator Repair Dubai");
     const metadescription = String(description || "Same-day appliance service in Al Bada. Get refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, dishwasher, fridge, and oven.");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "Fridge Repair Dubai, Washing machine repair, Appliances repair and services ");
+    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Al Bada Dubai – Home Appliance Installation, Maintenance & Service Centre in Al Bada Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-bada/");
 
     subtitle = "Testimonial"

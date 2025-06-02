@@ -24,7 +24,7 @@ const ApplianceServiceInFlamingoVillasDubaiDetail = ({ subtitle, title, reviewsb
     const metatitle = String(titleSeo || "Best Appliances Services in Flamingo Villas - Fridge Repair");
     const metadescription = String(description || "FAJ offers appliance service in Flamingo Villas. Get fridge repair near me in Dubai. Call 043300002 to fix washing machine, refrigerator, vacuum cleaner ");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "Repair Services in Flamingo Villas");
+    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Flamingo Villas Dubai – Home Appliance Installation, Maintenance & Service Centre in Flamingo Villas Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-flamingo-villas-dubai/");
 
 

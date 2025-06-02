@@ -19,7 +19,7 @@ const AppliancesServicesInJumeirahVillageDetail = ({ subtitle, title, reviewsbg,
     const metatitle = String(titleSeo || "Appliances Services in Jumeirah Village - Fridge Repair");
     const metadescription = String(description || "Need appliance Service in Jumeirah Village. we provide refrigerator, washing machine repair near me, dryer cooker oven & more. Book now 043300002");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "Fridge Repair Dubai, Washing machine repair, Appliances repair and services ");
+    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Jumeirah Village Dubai – Home Appliance Installation, Maintenance & Service Centre in Jumeirah Village Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah-village/");
 
     subtitle = "Testimonial"

@@ -24,7 +24,7 @@ const ApplianceServiceInJumeirahVillageTriangleDetail = ({ subtitle, title, revi
     const metatitle = String(titleSeo || "Best Appliances Services in Jumeirah Village Triangle");
     const metadescription = String(description || "Looking appliance service in Jumeirah Village Triangle in Dubai. FAJ provide refrigerator repair near me, washing machine & more. Call now 043300002");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "Repair Services in Village Triangle Dubai");
+    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Jumeirah Village Triangle Dubai – Home Appliance Installation, Maintenance & Service Centre in Jumeirah Village Triangle Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah-village-triangle/");
 
     subtitle = "Testimonial"

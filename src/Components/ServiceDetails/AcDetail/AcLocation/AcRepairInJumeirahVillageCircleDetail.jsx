@@ -25,7 +25,7 @@ const AcRepairInJumeirahVillageCircleDetail = ({ subtitle, title, reviewsbg, tit
 
     // For SEO
     const metatitle = String(titleSeo || "Best AC Services In Jumeirah Village Circle - #1 AC Fixing");
-    const metadescription = String(description || "If you are looking for the best ac services in jumeirah village circle dubai. Call 043300002 for centralized a/c system repairing & aircon maintenance");
+    const metadescription = String(description || "AC Repair in Jumeirah Village Circle, Air Conditioning Service in Jumeirah Village Circle, Air Con Maintenance & AC Installation in Jumeirah Village Circle");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jumeirah-village");

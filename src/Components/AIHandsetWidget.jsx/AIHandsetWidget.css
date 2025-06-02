@@ -1,16 +1,7 @@
 @keyframes floatUp {
-  0% {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  50% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  100% {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
+   0% { opacity: 0; transform: translateY(10px); }
+    50% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 0; transform: translateY(-10px); }
 }
 
 @keyframes blinkIcon {
@@ -23,8 +14,9 @@
   }
 }
 
-.floatUp {
-  animation: floatUp 2s forwards;
+#ai-popup {
+position: relative;
+ animation: floatUp 5s linear 2s infinite alternate;
 }
 
 .blinking-icon {
@@ -32,5 +24,6 @@
 }
 
 .bg-help {
-  background-color: #00334E !important;
+  background-color: #4EADB7;
+  animation: bghelp infinite ease-in-out;
 }

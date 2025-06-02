@@ -23,7 +23,7 @@ const ApplianceServiceInDifcDetail = ({ subtitle, title, reviewsbg, titleSeo, de
     const metatitle = String(titleSeo || " Best Appliances Services in DIFC- Washing Machine Repair");
     const metadescription = String(description || "We offer best appliance services in DIFC. Get washing machine repair near me in Dubai. Book 043300002 for fridge, oven, dishwasher maintenance");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "Repair Services in DIFC");
+    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in DIFC Dubai – Home Appliance Installation, Maintenance & Service Centre in DIFC Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-difc/");
 
 

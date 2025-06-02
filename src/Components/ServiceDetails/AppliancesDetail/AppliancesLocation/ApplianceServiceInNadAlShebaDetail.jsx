@@ -2,12 +2,9 @@ import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
-import CallNowButton from '../../../Buttons/CallNowButton.jsx';
-import GetQuoteButton from "../../../Buttons/GetQuoteButton.jsx";
+import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx'; 
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton.jsx";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract.jsx";
-// import AppliancesTechnicalInspectionFee from "../../ApplianceCommons/AppliancesTechnicalInspectionFee.jsx";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol.jsx";
 
 import Slider from "react-slick";
@@ -24,7 +21,7 @@ const ApplianceServiceInNadAlShebaDetail = ({ subtitle, title, reviewsbg, titleS
     const metatitle = String(titleSeo || "Appliances Services in Nad Al Sheba - Refrigerator Repair");
     const metadescription = String(description || "Get best appliance services in Nad Al Sheba. Experts in fridge repair near me in Dubai. Call 043300002 for washing machine, oven & dishwasher fix");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "Refrigerator Repair, Repair Services in Nad Al Sheba");
+    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Nad Al Sheba Dubai– Home Appliance Installation, Maintenance & Service Centre in Nad Al Sheba Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-nad-al-sheba");
 
     subtitle = "Testimonial"

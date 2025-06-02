@@ -20,7 +20,7 @@ const AppliancesServiceInAlMamzarDetail = ({ subtitle, title, reviewsbg, titleSe
   const metatitle = String(titleSeo || "Appliances Services In Al Mamzar - Washing Machine Repair");
   const metadescription = String(description || "Get appliance services in Al Mamzar. FAJ Experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher, oven");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "Fridge Repair Dubai, Washing machine repair, Appliances repair and services ");
+  const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Al Mamzar Dubai – Home Appliance Installation, Maintenance & Service Centre in Al Mamzar Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-mamzar/");
 
 

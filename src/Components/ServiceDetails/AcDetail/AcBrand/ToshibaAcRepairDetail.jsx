@@ -16,6 +16,7 @@ import AcProperties from "../../../Common/AcProperties";
 import parse from 'html-react-parser';
 import Slider from "react-slick";
 import HeaderForm from "../../../Headeform/HeaderForm";
+import AcAppointmentCol from "../../../Common/AcAppointmentCol";
 
 const ToshibaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -103,10 +104,11 @@ const ToshibaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Beat the heat this summer with Expert Toshiba AC repair and service in Dubai!</h1>
-            <p>Ensuring year-round comfort requires effective management of challenges such as summer humidity, warm nights, and indoor allergens.
-              <br />
-              Since its founding in 2010, <a href="https://www.fajservices.ae/"> F A J Technical Services L.L.C</a>, has been a trusted provider of Toshiba air conditioner solutions in Dubai and Sharjah. Our skilled team offers a range of Toshiba AC repair, cleaning services, maintenance, and installation for both residential and commercial units. We are committed to optimising the performance of your air conditioning system to enhance indoor comfort.
+            <h1 className="cs_fs_30">Toshiba AC Repair in Dubai and AC Maintenance Service</h1>
+            <p>
+              For year-round comfort, it is essential to effectively address challenges such as humidity, warm nights, and indoor allergens.
+              <br />Since our inception in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"> F A J Technical Services L.L.C </a>has established itself as a trusted leader in Toshiba air conditioning solutions in Dubai and Sharjah. Our highly skilled team is dedicated to providing exceptional services, including AC repair, cleaning service, maintenance, and installation for both residential and commercial settings. We are committed to enhancing the performance of your air conditioner system, ensuring that you enjoy exceptional indoor comfort throughout the year.
+
             </p>
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -123,11 +125,11 @@ const ToshibaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
             <div className="row gx-md-5">
               <div className="col-md-6">
 
-                <h3 className="cs_fs_24 mb-1">Toshiba Air Conditioner Maintenance and Services
-                </h3>
+                <h3 className="cs_fs_24 mb-1">Toshiba Air Conditioner Maintenance and Services </h3>
                 <p className="mb-2">
-                  If you're in Dubai and need Toshiba air conditioner repair, FAJ is here for you!
-                  <br />Our expert team ensures your AC systems run smoothly in Dubai and Sharjah, providing reliable solutions for optimal indoor comfort year-round. Enjoy a cool, refreshing environment with our help!
+                  If you are in Dubai and need Toshiba <a href="https://www.fajservices.ae/ac-repair-dubai/">air conditioner repair</a>, FAJ is ready to assist you!
+                  <br />Our expert team ensures that your AC systems operate smoothly across Dubai and Sharjah, delivering reliable solutions for optimal indoor comfort throughout the year. Enjoy a cool and refreshing environment with our support!
+
                 </p>
 
                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
@@ -152,7 +154,7 @@ const ToshibaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac filter.avif`} alt="Toshiba AC Service" />
               </div>
             </div>
-            <AppliancesAppointmentCol></AppliancesAppointmentCol>
+            <AcAppointmentCol></AcAppointmentCol>
           </div>
         </section>
 

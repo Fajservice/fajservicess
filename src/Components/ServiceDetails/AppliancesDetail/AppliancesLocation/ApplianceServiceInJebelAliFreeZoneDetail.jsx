@@ -2,12 +2,9 @@ import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
-import CallNowButton from '../../../Buttons/CallNowButton.jsx';
-import GetQuoteButton from "../../../Buttons/GetQuoteButton.jsx";
+import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx'; 
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton.jsx";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract.jsx";
-// import AppliancesTechnicalInspectionFee from "../../ApplianceCommons/AppliancesTechnicalInspectionFee.jsx";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol.jsx";
 
 import Slider from "react-slick";
@@ -24,7 +21,7 @@ const ApplianceServiceInJebelAliFreeZoneDetail = ({ subtitle, title, reviewsbg, 
     const metatitle = String(titleSeo || "Appliances Services in Jebel Ali Free Zone -Fridge Repair");
     const metadescription = String(description || "Get appliance services in Jebel Ali Free Zone. FAJ experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "Repair Services in Jebel Ali Free Zone ");
+    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Jebel Ali Free Zone Dubai – Home Appliance Installation, Maintenance & Service Centre in Jebel Ali Free Zone Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jebel-ali-free-zone/");
 
     subtitle = "Testimonial"

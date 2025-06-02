@@ -20,7 +20,7 @@ const WashingMachineRepairInDubaiMarinaDetail = ({ subtitle, title, reviewsbg, t
   const metatitle = String(titleSeo || "Washing Machine Repair Dubai Marina - Refrigerator Service");
   const metadescription = String(description || "FAJ washing machine repair in Dubai Marina. Get same day Bosch, Daewoo, Siemens, Teka, Samsung fridge, dryer, dishwasher, oven service near me");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "Fridge Repair Dubai, Washing machine repair, Appliances repair and services ");
+  const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Dubai Marina – Dishwasher, Oven, Stove Service & Maintenance in Dubai Marina");
   const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-in-dubai-marina-fridge-repair-in-dubai-marina-refrigerator-repairing-in-dubai-marina-cooker-stove-oven-cooking-range-repairs-fix-service-centre-in-dubai-marina-dishwasher-instal/");
 
   subtitle = "Testimonial"
