@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcBrand/GreeAcRepairfaq.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
-
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
@@ -10,11 +9,11 @@ import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContrac
 import testimonial_data_GreeAc from '../../../../Data/AcData/AcTestimonial/GreeAcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";
-import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import HeaderForm from "../../../Headeform/HeaderForm";
 import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
+import AcAppointmentCol from "../../../Common/AcAppointmentCol";
 
 const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -150,7 +149,7 @@ const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac filter.avif`} alt="Gree AC Service" />
               </div>
             </div>
-            <AppliancesAppointmentCol></AppliancesAppointmentCol>
+            <AcAppointmentCol></AcAppointmentCol>
           </div>
         </section>
 

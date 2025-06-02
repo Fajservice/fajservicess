@@ -8,11 +8,12 @@ import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import testimonial_data_york from '../../../../Data/AcData/AcTestimonial/YorkAcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";
-import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMaintenance";
-import QuickGuide from "../../../QuickGuide/QuickGuide";
-import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 import HeaderForm from "../../../Headeform/HeaderForm";
+import AcAppointmentCol from "../../../Common/AcAppointmentCol";
+import GetQuoteButton from "../../../Buttons/GetQuoteButton";
+import Practicaltip from "../../../Common/Practicaltip";
+import AcProperties from "../../../Common/AcProperties";
 
 const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -95,13 +96,18 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
         </Helmet>
       </HelmetProvider>
       <HeaderForm />
+
       <div className="cs_service_details">
+        {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">York AC Repair in Dubai - Air Conditioning Maintenance Near Me</h1>
-            <p><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C.</b></a> is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
+            <h1 className="cs_fs_30">York AC Repair in Dubai – York AC Maintenance Service</h1>
+            <p>
+              Sustaining comfort throughout the year necessitates the effective management of various challenges, such as elevated humidity levels during the summer, warm nights, and the presence of indoor allergens.
               <br />
-              Our <a href="https://www.facebook.com/ACRepairUAE"><b>skilled AC technicians</b></a> can handle all types and models of York air conditioning units, ensuring your home or business stays cool and comfortable.</p>
+              Since its inception in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has established itself as a reliable provider of York air conditioning solutions in the Dubai and Sharjah regions.
+              <br /> Our skilled team is proficient in a comprehensive range of services, including York air conditioning cleaning, maintenance, repair, and installation for both residential and commercial units. We are committed to ensuring that your air conditioning system operates at optimal efficiency, thereby enhancing your indoor comfort.
+            </p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -112,15 +118,17 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
           </div>
         </section>
 
-
-        {/* Experts AC Service and Maintenance */}
+        {/* 2 col */}
         <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Best York AC Repair in Dubai</h3>
-                <p className="mb-2">When it comes to York <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Dubai, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
-                <p>We specialize in York air conditioner (AC) repair, service, and maintenance in Dubai. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
+                <h3 className="cs_fs_24 mb-1">York Air Conditioner Maintenance and Servicing</h3>
+
+                <p className="mb-2">
+                  In Dubai, it is important to hire skilled technicians for <a href="https://www.fajservices.ae/ac-repair-dubai/">York AC repair </a>services. Our team specializes in servicing York AC systems in Dubai and Sharjah, providing reliable solutions that keep your indoor space comfortable all year round while making sure your system runs efficiently.
+                </p>
+
                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                 <div className="row">
@@ -137,68 +145,60 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                       <li>Poor AC airflow, making noises</li>
                     </ul>
                   </div>
-                </div>
-              </div>
+                </div></div>
 
-              <div className="col-md-6">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="York Ac Repair" loading="lazy" />
-
+              <div className="col-md-6 ">
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac filter.avif`} alt="York AC Service" />
               </div>
             </div>
-
-            <div className="appointment-col border-small-top pt-3">
-              <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/ac-service-in-dubai/"><b>AC cleaning service</b></Link> , repair, or maintenance. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
-              <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
-                  <WhatsappIconButton />
-                  <CallNowButton />
-                </div>
-              </div>
-            </div>
+            <AcAppointmentCol></AcAppointmentCol>
           </div>
         </section>
 
-
-        <section className="section cs_py_30 bg-light-gray">
+        {/* Why*/}
+        <section className="section cs_py_30">
           <div className="container">
+
             <h3 className="cs_fs_30">Why is York AC Maintenance Service Important in Dubai?</h3>
+            <p className="mb-0">
+              To ensure the efficient operation of your York central air conditioner maintenance in Dubai's extreme heat, regular service is essential.
+              <br />At FAJ, we offer expert AC services to ensure optimal cooling and comfort year-round.
+              Our team is dedicated to maximizing your system's performance.
+            </p>
+
             <div className="row align-items-center">
               <div className="col-md-6">
-                <ul className="mb-0">
-                  <li>
-                    <strong>Extreme Climate:</strong> Dubai experiences high temperatures, especially during the summer months, making reliable York AC necessary for comfort and safety. Regular maintenance ensures that AC units operate efficiently even in extreme conditions.
-                  </li>
-                  <li>
-                    <strong>Energy Efficiency:</strong> Regular maintenance can help identify and fix issues that might cause air conditioners to work harder than necessary. This not only prolongs the lifespan of the unit but also reduces energy consumption, leading to lower utility bills.
-                  </li>
-                  <li>
-                    <strong>Preventive Measures:</strong> Routine York Air Conditioning maintenance and cleaning service helps detect potential issues early, preventing costly repairs and saving homeowners time and money.
-                  </li>
-                  <li>
-                    <strong>Comfort and Reliability:</strong> Regular York <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a> helps maintain optimal performance, ensuring that it provides the comfort needed during the hottest months.
-                  </li>
-                </ul>
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/ac amc.avif`} alt="york Airconditioner Repair" />
               </div>
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/toshiba-ac-repair.avif`} alt="Trane Ac Repair" loading="lazy" />
+                <ul className="mb-0">
+                  <li> <strong> Extreme Weather: </strong> During excessively warm summer months, temperatures may exceed 40°C (104°F). It is essential to ensure that your York air conditioning systems are operating effectively. </li>
+                  <li> <strong> Energy Efficiency: </strong> A well-maintained York air conditioner runs efficiently, leading to significant energy savings and lower DEWA electricity costs. </li>
+                  <li> <strong> Longevity of Equipment: </strong> Regular York <strong><a href="https://www.fajservices.ae/ac-maintenance-dubai/">AC maintenance</a> </strong> is essential for optimal performance and efficiency, helping to reduce repair costs and save money for both residential and commercial properties. </li>
+                  <li> <strong> Improved Air Quality: </strong> Routine York AC cleaning service not only prevents dust and allergens from entering our spaces but also elevates the air quality we breathe and fosters a healthier environment. </li>
+                  <li> <strong> Enhanced Comfort: </strong> Regular maintenance of York air conditioners in Dubai is essential for optimal comfort and efficiency, ensuring a pleasant indoor environment daily. </li>
+                </ul>
               </div>
             </div>
-            <p>Investing in York Air Conditioner Repair is essential for efficiency, comfort, air quality, and cost-effectiveness in Dubai’s climate.</p>
           </div>
         </section>
-        {/* Common Signs Your AC May Need Maintenanc */}
+
+        {/* Problems  */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="text-center">Common Signs Your AC May Need Maintenance</h3>
+            <h3 className="text-center">Common York AC Problems That May Require Maintenance</h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Weak Airflow</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Weak Airflow
+                    </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">If you notice <a href="https://www.youtube.com/watch?v=qnByeIsc3lY"><b>reduced airflow</b></a> coming from your vents, it could indicate a problem with your AC system, such as a clogged filter or malfunctioning fan.</p>
+                    <p className="p-2 mb-0">
+                      <a href="https://www.youtube.com/watch?v=qnByeIsc3lY">Reduced airflow </a>from York AC ducts may mean a blocked filter or faulty motor. Promptly addressing these issues is essential for efficient cooling and extending the lifespan of your system.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -206,10 +206,12 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Warm Air</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Warm Air</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">If your AC blows warm or room temperature air instead of cold, it could indicate compressor, refrigerant, or ductwork issues.</p>
+                    <p className="p-2 mb-0">
+                      If your York AC is blowing warm air, it may have problems with the compressor, gas levels, or ductwork.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -217,138 +219,383 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Strange Noises</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Strange Noises</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Unusual sounds like grinding, squealing, or banging coming from your AC unit can indicate mechanical problems that require attention.</p>
+                    <p className="p-2 mb-0">
+                      Unusual sounds like grinding, squeaking, or banging from your York AC may indicate mechanical issues that require attention.
+                    </p>
                   </div>
                 </div>
               </div>
+
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Foul Odors</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Foul Odors</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Musty or foul odors emanating from the vents could suggest mold or mildew growth within the system, which needs to be addressed quickly.</p>
+                    <p className="p-2 mb-0">
+                      Unpleasant odors coming from the vents may indicate mold or mildew in the system and should be addressed immediately.
+                    </p>
                   </div>
                 </div>
               </div>
-
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Frequent Cycling</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Frequent Cycling</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">It may signal difficulty maintaining desired temperatures due to issues like dirty filters, low refrigerant levels, or a faulty thermostat.</p>
+                    <p className="p-2 mb-0">
+                      The failure to maintain desired temperatures may indicate problems such as dirty filters, low refrigerant levels, or a malfunctioning thermostat.
+                    </p>
                   </div>
                 </div>
               </div>
-
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">High Humidity Levels</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">High Humidity Levels</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">An air conditioner that fails to adequately reduce indoor humidity levels may indicate issues with its cooling capacity or improper operation.</p>
+                    <p className="p-2 mb-0">
+                      A York air conditioner that does not reduce humidity may have cooling capacity issues or may not be operating properly.
+                    </p>
                   </div>
                 </div>
               </div>
-
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Leaking Water</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Leaking Water</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Water pooling around AC or dripping from vents could indicate blocked condensate drain, frozen coils, or other issues.</p>
+                    <p className="p-2 mb-0">
+                      Water pooling around the York AC or dripping from the vents may indicate a blocked drain or frozen coils.
+                    </p>
                   </div>
                 </div>
               </div>
-
               <div className="col-12 col-md-4 col-lg-3">
-                <div className="box-content-container rounded border shadow">
+                <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Increased Energy Bills</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Increased Energy Bills</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">High energy bills without increase in usage could indicate the inefficiency of your AC due to dirty filters, duct leaks, or other problems.</p>
+                    <p className="p-2 mb-0">
+                      High energy bills without increased usage may indicate inefficiencies in York air conditioning due to dirty filters or duct leaks.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
+
             <div id="get-quote" className="mb-0 mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
               </div>
             </div>
-
           </div>
         </section>
 
-        {/* A Quick Guide to Understanding and Fixing Your AC Problems */}
-        <QuickGuide />
-        {/* The Benefits Of Regular AC Service*/}
-        <BenefitAcMaintenance />
-        {/*Why Choose F A J Technical Services L.L.C? */}
-        <ACWhyChooseUs />
-        {/* Practical Tips to Improve Energy Efficiency */}
-        <section className="section cs_py_30 bg-dark-blue text-light">
-          <div className="container text-center">
-            <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
-            <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
-            <a
-              href="files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
-              className="btn-green-yellow"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Click Here to Save on Energy Bills
-            </a>
-
-          </div>
-        </section>
-
-        {/* cooling */}
+        {/* HERE  */}
         <section className="section cs_py_30">
-          <div className="container text-center">
-            <div className="row">
-              <div className="col-lg-4">
-                <div className="acsvs-sec-prefoot-sec-cone">
-                  <h3 className="cs_fs_20 mb-0">COOLING &amp; HEATING</h3>
-                  <span className="mb-5">Stay comfortable all year round</span>
-                  <div className="mb-5"></div>
-                  <h3 className="cs_fs_20 mb-0">BETTER AIR QUALITY</h3>
-                  <span className="mb-5">Reduce humidity, pollen and dust</span>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="acsvs-sec-prefoot-sec-ctwo">
+          <div className="container">
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR YORK AIR CONDITIONER SYSTEMS</h3>
 
-                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Post Image" loading="lazy" />
-                </div>
+            <div className="row align-items-center">
+              <div className="col-xl-6">
+                <iframe
+                  className="bordered-img blue-border"
+                  width="100%"
+                  height="350"
+                  src="https://www.youtube.com/embed/sxBhB1_gxYA?si=Fk3OIwPHCHAsktx-"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
               </div>
-              <div className="col-lg-4">
-                <div className="acsvs-sec-prefoot-sec-cthree">
-                  <h3 className="cs_fs_20 mb-0">PROTECT YOUR PROPERTY</h3>
-                  <span className="mb-5">Prevent damage to electronics and furnishings</span>
-                  <div className="mb-5"></div>
-                  <h3 className="cs_fs_20 mb-0">QUIET AND SECURE</h3>
-                  <span className="mb-5">No need to leave windows open</span>
+              <div className="col-xl-6">
+                <p className='mb-0'>We are offering central, ducted split systems, FAHU units, and package units, along with all major services in the UAE.</p>
+                <p className='mb-0'><strong>Our services include:</strong></p>
+                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
+                  <li> <strong> York AC Installation: </strong> The professional installation of different York air conditioning systems guarantees optimal performance. </li>
+                  <li> <strong> York AC Inspection: </strong> We provide precise fault diagnosis to identify system issues, along with detailed quotes and eligibility assessments to address your concerns. </li>
+                  <li> <strong> York AC Repair Service: </strong> We offer quick repair services for York air conditioner, fixing leaks, electrical issues, and malfunctions. Contact us for more info! </li>
+                  <li> <strong> York AC Annual Maintenance Contract: </strong> The contract details the annual maintenance requirements for York AC. <strong><a href="https://www.linkedin.com/company/faj-technical-services-llc"> Regular maintenance</a></strong>, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is essential for ensuring optimal performance and longevity. </li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </section >
+
+        {/*  Benefits */}
+        <section className="section cs_py_30" style={{ backgroundColor: "#00334E", color: "white" }}>
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-10 text-center">
+                <h3 className="cs_fs_30 text-light">Benefits of Regular York AC Service and Maintenance in Dubai</h3>
+
+                <div className="row mt-4 gx-4 gy-4">
+                  <div className="col-md-4 mb-2">
+                    <div className="d-flex flex-column align-items-center px-2">
+                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
+                        <img src={`${import.meta.env.BASE_URL}img/icons/cooling1.jpg`} alt="Cooling Efficiency" className="img-fluid rounded-circle border border-4 border-info" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 fs-6 text-white">COOLING EFFICIENCY</h4>
+                      <p className="small">
+                        We conduct a thorough evaluation of cooling efficiency using a temperature gun.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="col-md-4 mb-2">
+                    <div className="d-flex flex-column align-items-center px-2">
+                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
+                        <img src={`${import.meta.env.BASE_URL}img/icons/disinfection.jpg`} alt="Disinfect Components" className="img-fluid rounded-circle border border-4 border-warning" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 fs-6 text-white">DISINFECT COMPONENTS</h4>
+                      <p className="small">
+                        All hardware components have been thoroughly tested and disinfected, including the filters and vents.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="col-md-4 mb-2">
+                    <div className="d-flex flex-column align-items-center px-2">
+                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
+                        <img src={`${import.meta.env.BASE_URL}img/icons/fan.jpg`} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 fs-6 text-white">FAN ASSESSMENT</h4>
+                      <p className="small">
+                        We ensure the fan operates correctly and check for blockages in the evaporator coil.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="col-md-4 mb-2">
+                    <div className="d-flex flex-column align-items-center px-2">
+                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
+                        <img src={`${import.meta.env.BASE_URL}img/icons/thermo.jpg`} alt="Thermostat Check" className="img-fluid rounded-circle border border-4 border-primary" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 fs-6 text-white">THERMOSTAT CHECK</h4>
+                      <p className="small">
+                        We use a laser temperature gauge to ensure that the thermostats are functioning correctly.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="col-md-4 mb-2">
+                    <div className="d-flex flex-column align-items-center px-2">
+                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
+                        <img src={`${import.meta.env.BASE_URL}img/icons/airflow.jpg`} alt="Airflow Balance" className="img-fluid rounded-circle border border-4 border-danger" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 fs-6 text-white">AIRFLOW BALANCE</h4>
+                      <p className="small">
+                        We ensure that every room gets the optimal airflow it requires.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="col-md-4 mb-2">
+                    <div className="d-flex flex-column align-items-center px-2">
+                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
+                        <img src={`${import.meta.env.BASE_URL}img/icons/customer.jpg`} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h4>
+                      <p className="small">
+                        Our team offers essential feedback on the condition of your York AC and any necessary repairs.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="text-center mb-4">
                 </div>
               </div>
             </div>
           </div>
         </section>
 
+        {/* CHOOSE US  */}
+        <section className="section cs_py_30">
+          <div className="container container-md container-sm">
+            <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR  NEEDS!</h2>
+            <div className="usps align-items-center	">
+              {/* <!-- First Column --> */}
+              <div className="uspcol col-1">
+                <div className="uspitem">
+                  <div className="uspicon">
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
+
+                  </div>
+                  <div className="usptext">
+                    <h3 className="">Reliable, Priority, and Quick</h3>
+                    <p>You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
+                  </div>
+                </div>
+
+                <div className="uspitem">
+                  <div className="uspicon">
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
+                  </div>
+                  <div className="usptext">
+                    <h3 className="">Feeling Of Calm</h3>
+                    <p>With <a href="/ac-annual-maintenance-contract/">annual maintenance contract</a>, you get a full year of service, ensuring your AC runs smoothly and providing peace of mind.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="uspitem mb-0">
+                  <div className="uspicon">
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
+                  </div>
+                  <div className="usptext">
+                    <h3 className="">You Are in Control</h3>
+                    <p>Choose a day and time for your York AC repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+
+              {/* <!-- Delimit Section --> */}
+              <div className="uspdelimit col-2 d-none d-xl-block">
+
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/ACServicescomponent.avif`} alt="Ac Maintenance Services" />
+              </div>
+
+              {/* <!-- Second Column --> */}
+              <div className="uspcol col-3">
+                <div className="uspitem">
+                  <div className="uspicon">
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
+                  </div>
+                  <div className="usptext">
+                    <h3 className="">We Are Experts</h3>
+                    <p>We are experts in York AC repair. This is why most major brands trust us to handle their service and maintenance needs.</p>
+                  </div>
+                </div>
+                <div className="uspitem">
+                  <div className="uspicon">
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
+
+                  </div>
+                  <div className="usptext">
+                    <h3 className="">Great Value</h3>
+                    <p>We are dedicated to ensuring customer satisfaction with timely service, prompt issue resolution, and affordable prices.</p>
+
+                  </div>
+                </div>
+                <div className="uspitem mb-0">
+                  <div className="uspicon">
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
+                  </div>
+                  <div className="usptext">
+                    <h3 className="">Trustworthy</h3>
+                    <p>Our <a href="https://www.facebook.com/ACRepairUAE"><b>skilled AC technicians</b></a> are highly trained, and we provide excellent service for a variety of major AC brands efficiently.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+            {/* <!-- Delimit mobile --> */}
+            <div className="col-12 uspdelimit w-100 text-center d-block d-none-1199 Xd-xl-none">
+              <img className="blue-border-2 w-100" src={`${import.meta.env.BASE_URL}img/ACServicescomponent.avif`} alt="Ac Maintenance Services" />
+            </div>
+          </div>
+        </section>
+
+        {/* We specialise  */}
+        <section className="section cs_py_30 bg-light-gray ">
+          <div className="container">
+            <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
+            <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
+            <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
+              <b>We provide 2-month service warranty</b><br />
+              and <small>3-month parts warranty</small> as standard.</p>
+
+            <h3>We specialise in York air conditioning services for the following types</h3>
+            <div className="row">
+              <div className="col-12">
+                <p className=""><strong>  York Split Air Conditioner Service: </strong> FAJ is a reliable provider York AC repair and maintenance services in Dubai. Our trained technicians specialize in York VRF central AC units, providing optimal performance. Whether you need routine aircon maintenance or urgent repairs, we are committed to delivering exceptional, tailored service to meet your needs. Your comfort is our priority. </p>
+                <p className=""><strong>  York Central Air Conditioner Repair and Service: </strong> FAJ is a leading service provider for <a href="https://www.google.com/search?q=faj+technical+llc+gmb&sca_esv=a182306c0b9e7281&sxsrf=AE3TifP6twoVuhedCe8xy_x2cw69ihmDVA%3A1748516672478&ei=QD84aJTtHNeW7_UPw-KsqQY&ved=0ahUKEwiUjZaZxMiNAxVXy7sIHUMxK2UQ4dUDCBA&uact=5&oq=faj+technical+llc+gmb&gs_lp=Egxnd3Mtd2l6LXNlcnAiFWZhaiB0ZWNobmljYWwgbGxjIGdtYjIFECEYoAEyBRAhGKABSIUqUMcEWNoccAF4AZABAJgBlQKgAYgOqgEDMi04uAEDyAEA-AEBmAIJoALEDsICDRAuGLADGMcBGCcYrwHCAgcQIxiwAxgnwgIKEAAYsAMY1gQYR8ICEBAuGIAEGMcBGCcYigUYrwHCAgQQIxgnwgIFEAAYgATCAgYQABgWGB7CAgsQABiABBiGAxiKBcICHRAuGIAEGMcBGIoFGK8BGJcFGNwEGN4EGOAE2AEBwgIIEAAYFhgKGB7CAggQABiABBiiBMICBRAAGO8FwgIEECEYFZgDAIgGAZAGCroGBggBEAEYFJIHBTEuMC44oAeCMrIHAzItOLgHtg7CBwcwLjIuNS4yyAcu&sclient=gws-wiz-serp#lpc=lpc&prid=2987634349969554675&scso=_2j84aLrrB-CG9u8P9oSMgAg_76:372">York air conditioner repair</a> and maintenance in Dubai. The company adeptly meets the needs of its clients, ensuring high-quality service and customer satisfaction, whether for routine maintenance or urgent repair. </p>
+                <p className=""><strong>  York AC Service and Repair: </strong> At York AC Service, we offer you peace of mind through our team of experienced technicians. At FAJ, we focus on providing efficient and dependable York AC maintenance, repair, and installation. You can count on our expert team to keep your HVAC system in top shape, ensuring your comfort all year round! </p>
+                <p className=""><strong>  York Inverter Air Conditioner Maintenance: </strong> Depend on our dedicated team to swiftly address and resolve any issues with your York air conditioner maintenance, ensuring it is restored to peak performance without delay! </p>
+                <p className=""><strong>  York HVAC Repair: </strong> We specialize in York cassette AC and package unit AC systems, offering reliable repairs to ensure your unit operates efficiently. </p>
+                <p className=""><strong>  York Ceiling AC Service and Repair: </strong> Our specialists can quickly diagnose and resolve any issues with your York Ceiling AC repair and ducted split AC service. </p>
+                <p className=""><strong>  York VRF (Variable Refrigerant Flow) System Service and Repair: </strong> FAJ's York Variable Refrigerant Flow (VRF) repair and maintenance services provide customized HVAC solutions. Our expert team prioritizes your comfort and satisfaction, ensuring dependable service for your climate control needs. </p>
+                <p className=""><strong>  York Ducted Split AC Service and Repair: </strong> For reliable York air conditioning repair and maintenance in Dubai, our skilled technicians are ready to assist you.
+                  With expertise in diagnosing various issues and resolving error codes, we ensure minimal disruption to your comfort. Trust us for prompt service that delivers the cooling relief you need. </p>
+                <p className=""><strong>  York Wall-Mounted Air Conditioner Service and Repair: </strong> In Dubai, UAE, where extreme heat is prevalent, maintaining a relaxing indoor climate is essential. Our York air conditioning repair and maintenance, cleaning services assure optimal unit performance, helping you stay cool and comfortable even in high temperatures. </p> 
+
+                <p>
+                  <a href="https://www.fajservices.ae/ac-repair-in-al-barsha-air-condition-maintenance-in-al-barsha-air-conditioning-fix-amc-service-in-al-barsha-dubai/">Al Barsha</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jebel-ali/">Jebel Ali</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-repair-in-jafza-air-condition-maintenance-in-jafza-air-conditioning-fix-amc-service-in-jebel-ali-free-zone-dubai/">JAFZA</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jebel-ali-free-zone/">Jebel Ali Free Zone</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-palm-jumeirah/">Palm Jumeirah</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-repair-and-ac-service-in-dubai-hills-estate/">Dubai Hills Estate</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-repair-and-ac-service-in-damac-hills/">Damac Hills</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-al-barari/">Al Barari</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-al-barsha-south/">Al Barsha South</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-al-safa/">Al Safa</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-arabian-ranches/">Arabian Ranches</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-dubai-silicon-oasis/">Dubai Silicon Oasis</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-dubai-investments-park/">Dubai Investments Park</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-dip/">DIP</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-repair-and-ac-service-in-dubai-production-city/">Dubai Production City</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-impz/">IMPZ</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-dubai-sport-city/">Dubai Sports City</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-dubai-studio-city/">Dubai Studio City</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jbr/">JBR</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-beach-residence/">Jumeirah Beach Residence</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-jlt//">JLT</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-lake-towers/">Jumeirah Lake Towers</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jvc/">JVC</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-village-circle/">Jumeirah Village Circle</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jvt/">JVT</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-village-triangle/">Jumeirah Village Triangle</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jebel-ali-village/">Jebel Ali Village</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-palm-jumeirah/">Jumeirah</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-golf-estates/">Jumeirah Golf Estates</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-the-meadows/">Meadows</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-motor-city/">Motor City</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-repair-and-ac-service-in-town-square/">Town Square</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-emirates-hills/">Emirates Hills</a> &nbsp;|&nbsp;
+                  <a href="">Townhouses</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-umm-suqeim/">Umm Suqeim</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-ras-al-khor-industrial-area/">Ras Al Khor</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-deira/">Deira</a>
+                </p>
+              </div>
+
+            </div>
+
+            <div id="get-quote" className=" mt-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3">
+                <GetQuoteButton></GetQuoteButton>
+                <CallNowButton></CallNowButton>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <Practicaltip></Practicaltip>
+        <AcProperties></AcProperties>
+
         {/* Maintenance Contract */}
         <MaintenanceContract />
+
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
-          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
               <h3 className="cs_section_subtitle cs_fs_18 text-black cs_semibold text-uppercase cs_mb_12 wow fadeInDown">
@@ -370,7 +617,7 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                         <div className="cs_testimonial_content cs_white_bg position-relative">
                           <div className="cs_testimonial_header cs_mb_35">
                             <div className="cs_testimonial_thumbnail">
-                              <img src={`${import.meta.env.BASE_URL}${item.img1}`} alt="Avatar" loading="lazy" />
+                              <img src={`${import.meta.env.BASE_URL}${item.img1}`} alt="Avatar" />
                             </div>
                             <div className="cs_testimonial_info">
                               <div className="rating-area" >
@@ -381,12 +628,11 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                                 <i className="bi bi-star-fill"></i>
                               </div>
                               <h3 className="cs_fs_24 cs_mb_1">{item.title}</h3>
-                              {/* <p className="cs_fs_14 cs_heading_color mb-0">{item.subTitle}</p> */}
                             </div>
                           </div>
                           <blockquote className="cs_fs_16">{item.desc}</blockquote>
                           <div className="cs_quote_icon position-absolute">
-                            <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`} alt="Quote Icon" loading="lazy" />
+                            <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`} alt="Quote Icon" />
                           </div>
                         </div>
                       </div>
@@ -399,7 +645,9 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
           </div>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
         </section>
-        <div className="section cs_py_30  bg-dark-blue text-light">
+
+        {/* FAQ's */}
+        <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ's</h3>
 
@@ -415,26 +663,27 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>
-                    <p className="mb-0">{item.desc}</p>
+                    <p className="mb-0"
+                      dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
+                    ></p>
                   </div>
                 </div>
               ))}
 
             </div>
           </div>
-        </div>
-        <div className="section cs_py_30">
+        </section>
+
+        {/* Contact */}
+        <section className="section cs_py_30">
           <Serviceappointemnt
             subtitle2="Contact us"
             title2="Book An Appointment"
           ></Serviceappointemnt>
 
-        </div>
+        </section>
 
-
-      </div>
-
-
+      </div >
 
     </>
   );
