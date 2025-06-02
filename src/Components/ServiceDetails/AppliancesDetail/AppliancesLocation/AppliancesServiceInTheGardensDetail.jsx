@@ -20,7 +20,7 @@ const AppliancesServiceInTheGardensDetail = ({ subtitle, title, reviewsbg, title
   const metatitle = String(titleSeo || "Appliances Services in The Gardens - Refrigerator Repair");
   const metadescription = String(description || "We offer appliance services in The Gardens. Need refrigerator, washing machine, fridge repair near me? Call 043300002 for quick solutions!");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "Fridge Repair Dubai, Washing machine repair, Appliances repair and services ");
+  const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in The Gardens Dubai– Home Appliance Installation, Maintenance & Service Centre in The Gardens Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-gardens");
 
   subtitle = "Testimonial"

@@ -21,7 +21,7 @@ const ApplianceServiceInUmmAlSheifDetail = ({ subtitle, title, reviewsbg, titleS
     const metatitle = String(titleSeo || "Appliances Services in Umm Al Sheif - Fridge Repair Dubai");
     const metadescription = String(description || "FAJ provides appliance services in Umm Al Sheif. Get fast fridge, dishwasher & washing machine repair near me in Dubai. Call us 043300002.");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "Fridge Repair Dubai, Washing machine repair, Appliances repair and services ");
+    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Umm Al Sheif Dubai – Home Appliance Installation, Maintenance & Service Centre in Umm Al Sheif Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-umm-al-sheif");
 
     subtitle = "Testimonial"

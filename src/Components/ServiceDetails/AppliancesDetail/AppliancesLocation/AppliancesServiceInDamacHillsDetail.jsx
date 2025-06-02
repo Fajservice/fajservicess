@@ -20,7 +20,7 @@ const AppliancesServiceInDamacHillsDetail = ({ subtitle, title, reviewsbg, title
   const metatitle = String(titleSeo || "Appliances Services In Damac Hills - Washing Machine Repair");
   const metadescription = String(description || "Get appliance services in Damac Hills. FAJ Experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher, oven");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "Fridge Repair Dubai, Washing machine repair, Appliances repair and services ");
+  const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in  Damac Hills Dubai – Home Appliance Installation, Maintenance & Service Centre in Damac Hills Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-damac-hills/");
 
   subtitle = "Testimonial"

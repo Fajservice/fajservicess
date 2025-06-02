@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInJaeblAliIndustrialArea.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
-
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
@@ -10,7 +9,6 @@ import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMainten
 import QuickGuide from "../../../QuickGuide/QuickGuide";
 import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
-
 import Slider from "react-slick";
 import testimonial from '../../../../Data/AcData/AcTestimonial/AcServiceTestimonials.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
@@ -24,7 +22,7 @@ const AcRepairInUmmSuqeimDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
     const metatitle = String(titleSeo || "Best AC Services In Umm Suqeim - AC Repair Dubai Near Me #1");
     const metadescription = String(description || "Gas Filling and AC Services in Umm Suqeim Dubai. Call an 043300002 for AC compressor fixing, motor repair and general maintenance near me.");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Umm Suqeim Dubai – Home Appliance Installation, Maintenance & Service Centre in Umm Suqeim Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-umm-suqeim");
 
     subtitle = "Testimonial"

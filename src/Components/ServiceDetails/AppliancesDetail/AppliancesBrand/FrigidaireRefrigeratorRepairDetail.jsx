@@ -22,7 +22,7 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
   const metatitle = String(titleSeo || "Frigidaire Refrigerator Repair");
   const metadescription = String(description || "Frigidaire Refrigerator Repair Services in dubai");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "Frigidaire Refrigerator Repair in dubai");
+  const metaKeyword = String(Keyword || "Frigidaire Refrigerator Repair in Dubai – Washing Machine, Dishwasher, Oven Service Centre");
   const metaURL = String(URL || "https://www.fajservices.ae/frigidaire-refrigerator-repair-in-dubai-fridge-repair-in-dubai-washing-machine-repair-in-dubai-dishwasher-cooker-oven-repairs-fix-service-in-dubai/");
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
@@ -141,7 +141,7 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
               </div>
 
               <div className="col-md-6">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Frigidaire Ac Repair" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`}  loading="lazy" alt="Frigidaire Ac Repair" />
 
               </div>
             </div>
@@ -165,7 +165,7 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
             <h3 className="cs_fs_30">Why is Frigidaire AC Maintenance Service Important in Dubai?</h3>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Frigidaire Ac Repair" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`}  loading="lazy" alt="Frigidaire Ac Repair" />
               </div>
 
               <div className="col-md-6">
@@ -321,7 +321,7 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Frigidaire Ac Service" />
+                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`}  loading="lazy" alt="Frigidaire Ac Service" />
                 </div>
               </div>
               <div className="col-lg-4">
@@ -363,7 +363,7 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
                         <div className="cs_testimonial_content cs_white_bg position-relative">
                           <div className="cs_testimonial_header cs_mb_35">
                             <div className="cs_testimonial_thumbnail">
-                              <img src={`${import.meta.env.BASE_URL}${item.img1}`} alt="Avatar" />
+                              <img src={`${import.meta.env.BASE_URL}${item.img1}`}  loading="lazy" alt="Avatar" />
                             </div>
                             <div className="cs_testimonial_info">
                               <div className="rating-area" >
@@ -379,7 +379,7 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
                           </div>
                           <blockquote className="cs_fs_16">{item.desc}</blockquote>
                           <div className="cs_quote_icon position-absolute">
-                            <img src={`${import.meta.env.BASE_URL}img/icons/quote_1.svg`} alt="Quote Icon" />
+                            <img src={`${import.meta.env.BASE_URL}img/icons/quote_1.svg`}  loading="lazy" alt="Quote Icon" />
                           </div>
                         </div>
                       </div>

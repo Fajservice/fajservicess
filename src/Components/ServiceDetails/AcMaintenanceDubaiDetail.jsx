@@ -2,23 +2,19 @@ import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../Data/AcData/AcFaqs/AcMaintenanceFaqs.json';
 import {Helmet, HelmetProvider } from "react-helmet-async";
-
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import CallNowButton from '../Buttons/CallNowButton';
 import GetQuoteButton from "../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
-import QuickGuide from "../QuickGuide/QuickGuide";
 import ACWhyChooseUs from "../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
-
 import Slider from "react-slick";
 import testimonial_data from '../../Data/AcData/AcTestimonial/AcServiceTestimonials.json';
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../Headeform/HeaderForm";
 
-// import { Link } from "react-router-dom";
 
 const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => { 
   // For SEO
@@ -150,7 +146,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
                   </div>
               </div>
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-maintenance-faj.avif`} alt="AC Maintenance" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-maintenance-faj.avif`} alt="AC Maintenance" loading="lazy" />
 
               </div>
             </div>
@@ -179,7 +175,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Ac Service" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Ac Service" loading="lazy" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -189,9 +185,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
                   <li> <strong>Lower Environmental Impact: </strong> Reduced energy use means less environmental strain—especially important in high-usage areas like Dubai. </li>
                   <li> <strong>Avoids Major Breakdowns: </strong> Routine checks help spot and resolve minor issues before they turn into expensive repairs. </li>
                   <li> <strong>Extends Unit Life: </strong> Preventive maintenance increases the lifespan of your AC system, saving money in the long term. </li>
-                  {/* <li> <strong>Keeps Indoor Air Quality Healthy: </strong> Clean filters and components reduce dust, allergens, and pollutants in your home. </li> */}
                 </ul>
-                {/* <p className="mb-0">Don’t compromise on comfort—contact a professional AC maintenance service in Dubai like F A J Technical Services L.L.C. before any major fault occurs.</p> */}
 
               </div>
             </div>
@@ -478,7 +472,7 @@ Typically, regular cleaning service of your Carrier VRF (Variable Refrigerant Fl
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Air conditioner services" />
+                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Air conditioner services" loading="lazy" />
                 </div>
               </div>
               <div className="col-lg-4">
@@ -521,7 +515,7 @@ Typically, regular cleaning service of your Carrier VRF (Variable Refrigerant Fl
                         <div className="cs_testimonial_content cs_white_bg position-relative">
                           <div className="cs_testimonial_header cs_mb_35">
                             <div className="cs_testimonial_thumbnail">
-                              <img src={`${import.meta.env.BASE_URL}${item.img1}`} alt="Avatar" />
+                              <img src={`${import.meta.env.BASE_URL}${item.img1}`} alt="Avatar" loading="lazy" />
                             </div>
                             <div className="cs_testimonial_info">
                               <div className="rating-area" >
@@ -532,12 +526,11 @@ Typically, regular cleaning service of your Carrier VRF (Variable Refrigerant Fl
                                 <i className="bi bi-star-fill"></i>
                               </div>
                               <h3 className="cs_fs_24 cs_mb_1">{item.title}</h3>
-                              {/* <p className="cs_fs_14 cs_heading_color mb-0">{item.subTitle}</p> */}
                             </div>
                           </div>
                           <blockquote className="cs_fs_16">{item.desc}</blockquote>
                           <div className="cs_quote_icon position-absolute">
-                            <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`} alt="Quote Icon" />
+                            <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`} alt="Quote Icon" loading="lazy" />
                           </div>
                         </div>
                       </div>

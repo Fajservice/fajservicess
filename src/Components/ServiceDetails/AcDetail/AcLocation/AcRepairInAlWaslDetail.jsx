@@ -24,7 +24,7 @@ const AcRepairInAlWaslDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
     const metatitle = String(titleSeo || "Best AC Services In Al Wasl - Air Conditioning Company");
     const metadescription = String(description || "Dial :043300002 Get Best AC Services in Al Wasl Dubai. We are experts in central & split AC (Air Conditioner) repair service near me Dubai");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Al Wasl Dubai – Home Appliance Installation, Maintenance & Service Centre in Al Wasl Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-wasl");
 
 

@@ -18,7 +18,7 @@ const AppliancesServicesInAlSufouhDetail = ({ subtitle, title, reviewsbg, titleS
     const metatitle = String(titleSeo || "Appliances Services in Al Sufouh -  Fridge Repair Near Me");
     const metadescription = String(description || "Best appliance services in Al Sufouh. FAJ specializes in fridge repair near me in Dubai. Call 043300002 for reliable washing machine & oven fix ");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "Fridge Repair Dubai, Washing machine repair, Appliances repair and services ");
+    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Al Sufouh Dubai – Home Appliance Installation, Maintenance & Service Centre in Al Sufouh Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-sufouh");
 
     subtitle = "Testimonial"

@@ -20,7 +20,7 @@ const AppliancesServicesInAlBarshaSouthDetail = ({ subtitle, title, reviewsbg, t
     const metatitle = String(titleSeo || "Appliances Services in Al Barsha South - Fridge Repair");
     const metadescription = String(description || "Looking for appliance service in Al Barsha South. Get fridge repair near me in Dubai. Call 043300002 to fix washing machine, dishwasher, refrigerator");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "Fridge Repair Dubai, Washing machine repair, Appliances repair and services ");
+    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Al Barsha South Dubai– Home Appliance Installation, Maintenance & Service Centre in Al Barsha South Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-barsha-south/");
 
     subtitle = "Testimonial"
