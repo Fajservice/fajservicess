@@ -15,6 +15,7 @@ import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppoin
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
+import AcAppointmentCol from "../../../Common/AcAppointmentCol";
 
 const SubZeroAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -102,10 +103,11 @@ const SubZeroAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Sub Zero Ac Repair in Dubai - AC Maintenance Service Near You</h1>
-            <p><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C.</b></a> is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
-              <br />
-              Our <a href="https://www.facebook.com/ACRepairUAE"><b>skilled AC technicians</b></a> can handle all types and models of SubZero air conditioning units, ensuring your home or business stays cool and comfortable.</p>
+            <h1 className="cs_fs_30">Sub Zero AC Repair and Service in Dubai</h1>
+            <p> 
+              Ensuring year-round comfort requires effective management of challenges such as summer humidity, warm nights, and indoor allergens.
+<br /> Since its founding in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"> F A J Technical Services L.L.C</a> has been a trusted provider of Sub Zero air conditioner solutions in Dubai and Sharjah. Our skilled team offers a range of Sub Zero AC repair, cleaning services, maintenance, and installation for both residential and commercial units. We are committed to optimising the performance of your air conditioning system to enhance indoor comfort.
+            </p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -121,7 +123,7 @@ const SubZeroAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Sub Zero Ac Maintenance and Services</h3>
+                <h3 className="cs_fs_24 mb-1">Sub Zero Air Conditioner Maintenance and Services</h3>
 
                 <p className="mb-2">
                   If you're in Dubai and need Sub Zero <a href="https://www.fajservices.ae/ac-repair-dubai/">air conditioner repair</a>, FAJ is here for you!
@@ -151,7 +153,7 @@ const SubZeroAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac filter.avif`} alt="Sub Zero AC Service" />
               </div>
             </div>
-            <AppliancesAppointmentCol></AppliancesAppointmentCol>
+            <AcAppointmentCol></AcAppointmentCol>
           </div>
         </section>
 
