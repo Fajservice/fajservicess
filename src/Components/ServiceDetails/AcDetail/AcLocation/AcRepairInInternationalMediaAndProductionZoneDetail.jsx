@@ -24,7 +24,7 @@ const AcRepairInInternationalMediaAndProductionZoneDetail = ({ subtitle, title, 
     const metatitle = String(titleSeo || "AC Services In International Media Production Zone Repair");
     const metadescription = String(description || "FAJ 043300002 AC Services in International Media and Production Zone Dubai. We are experts in central air conditioning maintenance near me");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || "AC Repair in International Media and Production Zone, Air Conditioning Service in International Media and Production Zone, Air Con Maintenance & AC Installation in International Media and Production Zone");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-international-media-and-production-zone");
 
     subtitle = "Testimonial"
@@ -148,7 +148,7 @@ const AcRepairInInternationalMediaAndProductionZoneDetail = ({ subtitle, title, 
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Post Image" />
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Ac Repair in International Media and Production Zone" loading="lazy" />
 
                             </div>
                         </div>
@@ -175,7 +175,7 @@ const AcRepairInInternationalMediaAndProductionZoneDetail = ({ subtitle, title, 
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Post Image" />
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Ac Service in International Media and Production Zone" loading="lazy" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">

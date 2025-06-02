@@ -26,7 +26,7 @@ const AcRepairInJumeriahVillageTriangleDetail = ({ subtitle, title, reviewsbg, t
     const metatitle = String(titleSeo || "AC Services In Jumeirah Village Triangle - A/C Repair #1");
     const metadescription = String(description || "FAJ 043300002 AC Services in Jumeirah Village Triangle Dubai. We are experts in central, hvac air conditioning repairs & maintenance near me.");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "AC Repair, Air Conditioning Service in Jumeirah Village Triangle, AC Maintenance & AC Installation in Jumeirah Village Triangle");
+    const metaKeyword = String(Keyword || "AC Repair  in Jumeirah Village Triangle, Air Conditioning Service in Jumeirah Village Triangle, Air Con Maintenance & AC Installation in Jumeirah Village Triangle");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jumeirah-village-triangle");
 
 

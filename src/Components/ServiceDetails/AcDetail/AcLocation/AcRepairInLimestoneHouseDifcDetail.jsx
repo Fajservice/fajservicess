@@ -26,7 +26,7 @@ const AcRepairInLimestoneHouseDifcDetail = ({ subtitle, title, reviewsbg, titleS
     const metatitle = String(titleSeo || "Best AC Services In Limestone House Difc - AC Maintenance #1");
     const metadescription = String(description || "Dial: 043300002 | AC Services in Limestone House DIFC - Get best central & HVAC (Air Conditioner) maintenance service near me area Dubai");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "AC Repair, Air Conditioning Service in Limestone House DIFC, AC Maintenance & AC Installation in Limestone House DIFC");
+    const metaKeyword = String(Keyword || "AC Repair in Limestone House DIFC, Air Conditioning Service in Limestone House DIFC, Air Con Maintenance & AC Installation in Limestone House DIFC");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-limestone-house-difc");
 
     subtitle = "Testimonial"
