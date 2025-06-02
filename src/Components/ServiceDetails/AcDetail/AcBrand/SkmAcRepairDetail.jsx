@@ -526,7 +526,6 @@ const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
             <h3>We specialise in SKM AC services for the following types</h3>
             <div className="row">
               <div className="col-12">
-
                 <p className="mb-0"> <strong>  SKM Split Air Conditioner Service </strong> FAJ is a trusted provider of SKM AC cleaning service and maintenance in Dubai. Our skilled technicians specialise in SKM VRF central AC units, ensuring optimal performance. Whether you need routine <a href="https://www.fajservices.ae/ac-maintenance-dubai/">AC maintenance</a> or urgent repairs, we prioritise delivering personalised service for your comfort. </p>
                 <p className="mb-0"> <strong>  SKM Central Air Conditioner Repair and Service </strong> FAJ is a premier service provider for SKM air conditioner repair and maintenance in Dubai. The company effectively addresses its clients' needs, ensuring high-quality service and customer satisfaction, whether for routine maintenance or urgent repairs. </p>
                 <p className="mb-0"> <strong>  SKM AC Service and Repair </strong> At SKM AC Service, we provide peace of mind with our team of experienced technicians. At FAJ, we specialise in efficient and reliable maintenance, repair, and installation of SKM AC systems. You can trust our expert team to keep your HVAC system in excellent condition, ensuring your comfort throughout the year! </p>
@@ -645,7 +644,7 @@ const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
               </div>
             </div>
           </div>
-          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
+          
         </section>
 
         {/* FAQ's */}
