@@ -160,7 +160,7 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
 
 
         {/* Why is AC Maintenance Service Important in Dubai? */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30 ">
           <div className="container">
             <h3 className="cs_fs_30">Why is Frigidaire AC Maintenance Service Important in Dubai?</h3>
             <div className="row align-items-center">
@@ -184,7 +184,7 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
           </div>
         </section>
         {/* Common Signs Your AC May Need Maintenanc */}
-        <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="text-center">Common AC Problems That May Require Maintenance
             </h3>
@@ -288,6 +288,8 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
         <BenefitAcMaintenance />
         {/*Why Choose F A J Technical Services L.L.C? */}
         <ACWhyChooseUs />
+
+
         {/* Practical Tips to Improve Energy Efficiency */}
         <section className="section cs_py_30 bg-dark-blue text-light">
           <div className="container text-center">
