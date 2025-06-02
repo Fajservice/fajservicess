@@ -26,7 +26,7 @@ const AcRepairInSiliconOasisDetail = ({ subtitle, title, reviewsbg, titleSeo, de
     const metatitle = String(titleSeo || "AC Services In Dubai Silicon Oasis - Air Conditioner Fix #1");
     const metadescription = String(description || "If you urgently need AC Services in Dubai Silicon Oasis, Dail now 043300002 ceiling & central air conditioning maintenance near me Dubai Aircon");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "AC Repair & Air Conditioning Services in Dubai Silicon Oasis");
+    const metaKeyword = String(Keyword || "AC Repair in Dubai Silicon Oasis, Air Conditioning Services in Dubai Silicon Oasis, Air Con Maintenance in  Dubai Silicon Oasis, AC Installation in Dubai Silicon Oasis, AC Technician in Dubai Silicon Oasis");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-dubai-silicon-oasis");
 
 

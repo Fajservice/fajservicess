@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './AIHandsetWidget.css'; // Custom styles will be in this file
-
+import aiicon from '../../../public/img/icons/aiicon.png'
 const AIHandsetWidget = () => {
     useEffect(() => {
         const popup = document.getElementById('ai-popup');
@@ -15,8 +15,8 @@ const AIHandsetWidget = () => {
                 popup?.classList.add('d-none');
                 popup?.classList.remove('floatUp');
                 icon?.classList.remove('blinking-icon');
-            }, 3000);
-        }, 5000);
+            }, 5000);
+        }, 1000);
 
         return () => clearInterval(interval);
     }, []);
@@ -45,7 +45,7 @@ const AIHandsetWidget = () => {
                     style={{
                         width: '45px',
                         height: '45px',
-                        backgroundColor: '#00334E',
+                        backgroundColor: '#4EADB7',
                         transition: 'all 0.3s',
                         position: 'relative',
                         right: '10px'
@@ -54,12 +54,12 @@ const AIHandsetWidget = () => {
                     <div style={{ position: 'relative', width: '30px', height: '30px' }}>
                         <img
                             id="ai-icon"
-                            src="https://cdn-icons-png.flaticon.com/128/69/69890.png"
+                            src={aiicon}
                             alt="AI"
                             style={{
                                 width: '100%',
                                 height: '100%',
-                                filter: 'brightness(0) invert(1)',
+                                filter: 'brightness(4) invert(1)',
                             }}
                         />
                         <span
