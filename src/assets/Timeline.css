@@ -1,0 +1,82 @@
+.timeline-section {
+  padding: 40px 20px;
+  position: relative;
+  text-align: center;
+}
+
+.year-label {
+  font-size: 24px;
+  margin: 20px 0;
+  color: #666;
+}
+
+.timeline-road {
+    position: relative;
+    height: 200px;
+    margin: 40px auto;
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.timeline-arrow {
+  position: absolute;
+  right: 0;
+  top: 90px;
+  width: 0;
+  height: 0;
+  border-left: 20px solid #aaa;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+.timeline-marker {
+  max-width: 180px;
+  
+}
+
+/* .timeline-marker.top {
+  top: -20px;
+}
+
+.timeline-marker.bottom {
+  top: 30px;
+} */
+.timeline-road::before {
+    display: block;
+    content: "";
+    width: 75%;
+    border: 1px solid #000000;
+    position: absolute;
+    top: 48%;
+    left: 12.5%;
+}
+.pin {
+  position: relative;
+  border: 4px solid;
+  border-radius: 50% 50% 50% 0;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  transform: rotate(-45deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pin-date {
+  position: absolute;
+  bottom: 20px;
+  left: 8%;
+  transform: translateX(0%) rotate(45deg);
+  font-size: 24px;
+  margin-bottom: 0px;
+  color: #333;
+}
+
+.pin-content {
+  margin-top: 30px;
+  font-size: 13px;
+  color: #333;
+}

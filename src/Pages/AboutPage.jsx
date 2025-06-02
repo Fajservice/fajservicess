@@ -3,6 +3,7 @@ import Process from "../Components/Process/Process";
 import Testimonial1 from "../Components/Testimonial/Testimonial1";
 import { Link } from "react-router-dom";
 import {Helmet, HelmetProvider } from "react-helmet-async";
+import TimelineSection from "../Components/About/timeline";
 
 
 const AboutPage = ({titleSeo , description, Author, Keyword, URL }) => {
@@ -112,7 +113,11 @@ const AboutPage = ({titleSeo , description, Author, Keyword, URL }) => {
                 </div>
                 <div className="cs_height_80 cs_height_lg_80"></div>
                 <div className="cs_height_80 cs_height_lg_80"></div>
-            </section>        
+            </section>
+            <section className="section cs_py_30 bg-light-gray">
+                <h3 className="text-center">Timeline</h3>
+                <TimelineSection />  
+            </section>  
              <Testimonial1
                 subtitle="Testimonial"
                 title="What our clients say <br> About Us"

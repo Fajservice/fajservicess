@@ -30,7 +30,7 @@ const Project1 = () => {
                 <div key={i} className="col-xl-3 col-md-6 wow fadeInLeft">
                   <div className="cs_card cs_style_2 position-relative">
                     <Link to={item.serviceLink} className="cs_card_thumbnail position-relative">
-                      <img src={`${import.meta.env.BASE_URL}${item.img}`} alt="Portfolio Image" />
+                      <img src={`${import.meta.env.BASE_URL}${item.img}`} loading="lazy" alt="Portfolio Image" />
                     </Link>
                     <div className="cs_card_info cs_white_bg">
                       <h3 className="cs_card_title cs_fs_20 cs_mb_15"><Link to={item.serviceLink}>{item.title}</Link></h3>

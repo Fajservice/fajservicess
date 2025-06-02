@@ -17,7 +17,7 @@ const Choose1 = ({img1,content,btnName,btnUrl,img2,img3}) => {
           <div className="row cs_row_gap_40 cs_gap_y_40 align-items-center">
             <div className="col-xl-4 wow fadeInLeft">
               <div className="cs_features_thumbnail_1 position-relative">
-                <img src={`${import.meta.env.BASE_URL}${img1}`} alt="Feature Image" />
+                <img src={`${import.meta.env.BASE_URL}${img1}`} loading="lazy" alt="Feature Image" />
               </div>
             </div>
             <div className="col-xl-4 wow fadeInDown">
@@ -25,7 +25,7 @@ const Choose1 = ({img1,content,btnName,btnUrl,img2,img3}) => {
               {data.map((item, i) => (
               <div key={i} className="cs_iconbox cs_style_2 cs_mb_12">
                 <div className="cs_iconbox_icon cs_gray_bg cs_center cs_radius_50">
-                  <img src={`${import.meta.env.BASE_URL}${item.img}`} alt="Car Icon" />
+                  <img src={`${import.meta.env.BASE_URL}${item.img}`} loading="lazy" alt="Car Icon" />
                 </div>
                 <div className="cs_iconbox_info">
                   <h3 className="d-flex flex-row bd-highlight cs_fs_18 cs_mb_2">{item.title}</h3>

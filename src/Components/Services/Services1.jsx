@@ -72,11 +72,11 @@ const Services1 = () => {
               <div key={index} className="cs_slide">
                 <div className="cs_card cs_style_1">
                   <div className="cs_card_thumbnail">
-                    <img src={`${import.meta.env.BASE_URL}${item.img}`} alt="Service Image" />
+                    <img src={`${import.meta.env.BASE_URL}${item.img}`} loading="lazy" alt="Service Image" />
                   </div>
                   <div className="cs_card_info cs_white_bg cs_radius_10 text-center">
                     <div className="cs_card_icon cs_center cs_heading_bg cs_mb_22">
-                      <img src={`${import.meta.env.BASE_URL}${item.icon}`} alt="Service Icon" />
+                      <img src={`${import.meta.env.BASE_URL}${item.icon}`} loading="lazy" alt="Service Icon" />
                     </div>
                     <h3 className="cs_card_title cs_fs_20 cs_mb_8">
                       <Link to={item.btnLink}>{item.title}</Link></h3>

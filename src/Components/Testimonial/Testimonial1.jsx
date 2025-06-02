@@ -66,7 +66,7 @@ const Testimonial1 = ({subtitle,title,bgImg}) => {
                   <div className="cs_testimonial_content cs_white_bg position-relative">
                     <div className="cs_testimonial_header cs_mb_35">
                       <div className="cs_testimonial_thumbnail">
-                        <img src={`${import.meta.env.BASE_URL}${item.img1}`} alt="Avatar" />
+                        <img src={`${import.meta.env.BASE_URL}${item.img1}`} loading="lazy" alt="Avatar" />
                       </div>
                       <div className="cs_testimonial_info">
                         <div className="rating-area" >
