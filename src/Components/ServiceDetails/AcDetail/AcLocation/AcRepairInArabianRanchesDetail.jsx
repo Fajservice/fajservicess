@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairinAlJafiliya.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
@@ -24,7 +24,7 @@ const AcRepairInArabianRanchesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
     const metatitle = String(titleSeo || "AC Services In Arabian Ranches - Air Con Repair Near Me #1");
     const metadescription = String(description || "Are you finding for AC Services in Arabian Ranches Dubai? Dail 043300002 for Carrier, LG air conditioning repair and maintenance near me. AC fix");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || "AC Repair in Arabian Ranches, Air Conditioning Service in Arabian Ranches, Air Con Maintenance & AC Installation in Arabian Ranches");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-arabian-ranches");
 
 

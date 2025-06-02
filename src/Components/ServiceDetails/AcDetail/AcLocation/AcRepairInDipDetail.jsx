@@ -1,11 +1,10 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInDip.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
-import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMaintenance";
 import QuickGuide from "../../../QuickGuide/QuickGuide";
@@ -25,7 +24,7 @@ const AcRepairInDipDetail = ({ subtitle, title, reviewsbg, titleSeo, description
     const metatitle = String(titleSeo || "AC Services In DIP Dubai - Air Conditioner Maintenance #1");
     const metadescription = String(description || "Get sameday AC Services in DIP Dubai. We are experts in central, split, hvac air condition maintenance, repairing near me Dubai AC fix service");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || "AC Repair in DIP, Air Conditioning Service in DIP, Air Con Maintenance & AC Installation in DIP");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-dip");
 
 
@@ -151,7 +150,7 @@ const AcRepairInDipDetail = ({ subtitle, title, reviewsbg, titleSeo, description
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Post Image" />
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Ac Repair in Dip" loading="lazy" />
 
                             </div>
                         </div>
@@ -178,7 +177,7 @@ const AcRepairInDipDetail = ({ subtitle, title, reviewsbg, titleSeo, description
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Post Image" />
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Post Image" loading="lazy" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">
@@ -344,7 +343,7 @@ const AcRepairInDipDetail = ({ subtitle, title, reviewsbg, titleSeo, description
                             <div className="col-lg-4">
                                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                                    <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Post Image" />
+                                    <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Post Image" loading="lazy" />
                                 </div>
                             </div>
                             <div className="col-lg-4">
@@ -388,7 +387,7 @@ const AcRepairInDipDetail = ({ subtitle, title, reviewsbg, titleSeo, description
                                                 <div className="cs_testimonial_content cs_white_bg position-relative">
                                                     <div className="cs_testimonial_header cs_mb_35">
                                                         <div className="cs_testimonial_thumbnail">
-                                                            <img src={`${import.meta.env.BASE_URL}${item.img1}`} alt="Avatar" />
+                                                            <img src={`${import.meta.env.BASE_URL}${item.img1}`} alt="Avatar" loading="lazy" />
                                                         </div>
                                                         <div className="cs_testimonial_info">
                                                             <div className="rating-area" >
@@ -404,7 +403,7 @@ const AcRepairInDipDetail = ({ subtitle, title, reviewsbg, titleSeo, description
                                                     </div>
                                                     <blockquote className="cs_fs_16">{item.desc}</blockquote>
                                                     <div className="cs_quote_icon position-absolute">
-                                                        <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`} alt="Quote Icon" />
+                                                        <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`} alt="Quote Icon" loading="lazy" />
                                                     </div>
                                                 </div>
                                             </div>
