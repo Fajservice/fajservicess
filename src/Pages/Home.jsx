@@ -8,17 +8,33 @@ import Process from "../Components/Process/Process";
 import Project1 from "../Components/Project/Project1";
 import Services1 from "../Components/Services/Services1";
 import Testimonial1 from "../Components/Testimonial/Testimonial1";
-import { Helmet } from "react-helmet-async";
 
-const Home = () => {
+import { Helmet, HelmetProvider } from "react-helmet-async";
+
+const Home = ({titleSeo, description, Author, Keyword, URL }) => { 
+  // For SEO
+  const metatitle = String(titleSeo || "FAJ / AC Repair In Dubai - Freezer Service Appliances Fix");
+  const metadescription = String(description || "FAJ Established in 2010, / We offer professional AC Repair, Freezer, Refrigerator, Fridge, Washing Machine Maintenance Service Company Dubai"); 
+  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaKeyword = String(Keyword || "Ac Repair, Ac Repair In Dubai, Ac Repair Service, Ac Service, Washing Machine Repair, Washing Machine Service, Refrigerator Repair, Freezer Repair, Fridge Repair, Appliances Repair, Appliances Service, Appliances Fix, Appliances Maintenance, Appliances Installation, Appliances Dubai");
+  const metaURL = String(URL || "https://www.fajservices.ae/");
     return (
         <>
-        <Helmet>
-          
-            <title>FAJ / AC Repair In Dubai - Freezer Service Appliances Fix</title>
-            <meta name="description" content="FAJ Established in 2010, / We offer professional AC Repair, Freezer, Refrigerator, Fridge, Washing Machine Maintenance Service Company Dubai"/>
-            
-        </Helmet>
+        <HelmetProvider>
+            <Helmet>
+                <title>{metatitle}</title>
+                <meta name="description" content={metadescription}></meta>
+                <meta name="keywords" content={metaKeyword} />
+                <meta name="author" content={metaAuthor} />
+                <meta name="robots" content="index, follow" />
+                <link rel="canonical" href={metaURL} />
+                <meta property="og:type" content="website" />
+                <meta property="og:locale" content="en_US" />
+                <meta property="og:title" content={metatitle} />
+                <meta property="og:description" content={metadescription} />
+                <meta property="og:url" content={metaURL} />
+            </Helmet>
+        </HelmetProvider>
         <div className="homepage">
             <HeroBanner1></HeroBanner1>
             <About1

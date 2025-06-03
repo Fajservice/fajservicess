@@ -19,7 +19,7 @@ const About1 = ({img1,img2,img3,expNumber,expYers,expTitle,expTitleYear,telLink,
                   </picture>
                  </div>
                  <div className="cs_about_thumbnail">
-                   <img src={`${import.meta.env.BASE_URL}${img3}`} alt="About Image" />
+                   <img src={`${import.meta.env.BASE_URL}${img3}`} loading="lazy" alt="About Image" />
                  </div>
                  <div className="cs_esperience_text position-absolute">
                    <h2 className="cs_experience_title mb-0">

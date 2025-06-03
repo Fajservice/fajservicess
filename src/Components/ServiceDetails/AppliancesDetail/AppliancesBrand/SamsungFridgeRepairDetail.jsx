@@ -174,34 +174,10 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
           </div>
         </section>
 
-        {/* Why */}
-        <section className="section cs_py_30">
-          <div className="container">
-
-            <h3 className="cs_fs_30">Why is Samsung Appliance Maintenance Service Important in Dubai?</h3>
-            <p className="">Our extensive repair services include diagnosis, repairs, installations, and maintenance. This positions us as the leading provider of Samsung appliance maintenance in Dubai.</p>
-
-            <div className="row align-items-center">
-              <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`}  loading="lazy" alt="Samsung Washing Machine Repair" />
-              </div>
-              <div className="col-md-6">
-                <ul className="mb-0">
-                  <li><strong>Samsung Washing Machine Repair in Dubai: </strong>Regular maintenance can prolong your Samsung washing machine's lifespan, saving you money.</li>
-                  <li><strong>Samsung Fridge Repair in Dubai: </strong>We are confident that we can quickly get your Samsung refrigerator up and running again.</li>
-                  <li><strong>Samsung Stove / Oven Repair in Dubai: </strong>Catching minor issues early can help prevent them from escalating into expensive repairs.</li>
-                  <li><strong>Samsung Dishwasher Repair in Dubai: </strong>Regular maintenance helps minimise potential problems and improves overall performance.</li>
-                  <li><strong>Early Problem Detection: </strong>Regular inspections can help identify potential problems before they escalate into serious issues.</li>
-                  <li><strong>Cost-Effective: </strong>Maintaining appliances is more cost-effective than replacing or making major repairs, ensuring safety and efficiency in Dubai.</li>
-                  <li><strong>Energy Efficiency: </strong>Regular maintenance of your Samsung appliances can enhance efficiency and save you money.</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
+        
 
         {/* Problems */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30">
           <div className="container">
             <h3 className="text-center">The Most Common Problems with Samsung Appliances</h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -302,46 +278,36 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
           </div>
         </section>
 
-        {/* HERE ARE  */}
-        <section className="section cs_py_30">
+        {/* Why */}
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR SAMSUNG APPLIANCES</h3>
+
+            <h3 className="cs_fs_30">Why is Samsung Appliance Maintenance Service Important in Dubai?</h3>
+            <p className="">Our extensive repair services include diagnosis, repairs, installations, and maintenance. This positions us as the leading provider of Samsung appliance maintenance in Dubai.</p>
 
             <div className="row align-items-center">
-              <div className="col-xl-6">
-                <iframe
-                  className="bordered-img blue-border"
-                  width="100%"
-                  height="350"
-                  src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
+              <div className="col-md-6">
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`}  loading="lazy" alt="Samsung Washing Machine Repair" />
               </div>
-
-              <div className="col-xl-6">
-                <p className='mb-0'>We specialize in all types of Samsung appliances, including built-in models.
-                  <br />
-                  <strong>Our services include:</strong>
-                </p>
-
-                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                  <li><strong>Samsung Appliance Installation: </strong>Expert installation of various types and brands of Samsung home appliances to ensure their optimal performance and efficiency.</li>
-                  <li><strong>Samsung Appliance Diagnostics: </strong>We offer expert diagnostics and eligibility assessments, along with detailed quotes for issues related to Samsung appliances.</li>
-                  <li><strong>Samsung Appliance Repair Service: </strong>We offer fast and effective repair service for Samsung appliances, quickly addressing leaks, electrical issues, and malfunctions. Contact us for details about specific services or any questions you may have!</li>
-                  <li><strong>Samsung Appliance Annual Maintenance Contract: </strong>This contract outlines the terms for the annual maintenance of your Samsung appliances, ensuring they function smoothly throughout the year. Enjoy peace of mind with professional care.</li>
+              <div className="col-md-6">
+                <ul className="mb-0">
+                  <li><strong>Samsung Washing Machine Repair in Dubai: </strong>Regular maintenance can prolong your Samsung washing machine's lifespan, saving you money.</li>
+                  <li><strong>Samsung Fridge Repair in Dubai: </strong>We are confident that we can quickly get your Samsung refrigerator up and running again.</li>
+                  <li><strong>Samsung Stove / Oven Repair in Dubai: </strong>Catching minor issues early can help prevent them from escalating into expensive repairs.</li>
+                  <li><strong>Samsung Dishwasher Repair in Dubai: </strong>Regular maintenance helps minimise potential problems and improves overall performance.</li>
+                  <li><strong>Early Problem Detection: </strong>Regular inspections can help identify potential problems before they escalate into serious issues.</li>
+                  <li><strong>Cost-Effective: </strong>Maintaining appliances is more cost-effective than replacing or making major repairs, ensuring safety and efficiency in Dubai.</li>
+                  <li><strong>Energy Efficiency: </strong>Regular maintenance of your Samsung appliances can enhance efficiency and save you money.</li>
                 </ul>
-                <p className="mb-0">Regular maintenance is essential for keeping your Samsung home appliances operating efficiently, performing well, and lasting longer.</p>
               </div>
-
             </div>
           </div>
-        </section >
+        </section>
+
+       
 
         {/* Benefits */}
-        <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
+        <section className="section cs_py_30 appliances-benifit-sec">
           <div className="container">
             <div className="row justify-content-center">
               <h3 className="cs_fs_30 mb-0">The Benefits of Samsung appliances Service In Dubai</h3>
@@ -424,6 +390,44 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
             </div>
           </div>
         </section>
+
+         {/* HERE ARE  */}
+        <section className="section cs_py_30 bg-light-gray">
+          <div className="container">
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR SAMSUNG APPLIANCES</h3>
+
+            <div className="row align-items-center">
+              <div className="col-xl-6">
+                <iframe
+                  className="bordered-img blue-border"
+                  width="100%"
+                  height="350"
+                  src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
+              </div>
+
+              <div className="col-xl-6">
+                <p className='mb-0'>We specialize in all types of Samsung appliances, including built-in models.
+                  <br />
+                  <strong>Our services include:</strong>
+                </p>
+
+                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
+                  <li><strong>Samsung Appliance Installation: </strong>Expert installation of various types and brands of Samsung home appliances to ensure their optimal performance and efficiency.</li>
+                  <li><strong>Samsung Appliance Diagnostics: </strong>We offer expert diagnostics and eligibility assessments, along with detailed quotes for issues related to Samsung appliances.</li>
+                  <li><strong>Samsung Appliance Repair Service: </strong>We offer fast and effective repair service for Samsung appliances, quickly addressing leaks, electrical issues, and malfunctions. Contact us for details about specific services or any questions you may have!</li>
+                  <li><strong>Samsung Appliance Annual Maintenance Contract: </strong>This contract outlines the terms for the annual maintenance of your Samsung appliances, ensuring they function smoothly throughout the year. Enjoy peace of mind with professional care.</li>
+                </ul>
+                <p className="mb-0">Regular maintenance is essential for keeping your Samsung home appliances operating efficiently, performing well, and lasting longer.</p>
+              </div>
+
+            </div>
+          </div>
+        </section >
 
         {/* CHOOSE US  */}
         < section className="section cs_py_30" >

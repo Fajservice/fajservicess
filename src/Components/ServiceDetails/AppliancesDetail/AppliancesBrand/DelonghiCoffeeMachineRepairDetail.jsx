@@ -204,7 +204,6 @@ Regular maintenance is important for all types of coffee machines, whether for h
           </div>
         </section>
 
-
         {/* The Most Common Problems with Home Appliances */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
@@ -311,7 +310,6 @@ Regular maintenance is important for all types of coffee machines, whether for h
             </div>
           </div>
         </section>
-
        
          {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
         <section className="section cs_py_30">
@@ -348,6 +346,7 @@ Regular maintenance is important for all types of coffee machines, whether for h
             </div>
           </div>
         </section >
+
         {/* The Benefits Of appliances Service Dubai */}
         <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
@@ -432,8 +431,6 @@ Regular maintenance is important for all types of coffee machines, whether for h
             </div>
           </div>
         </section>
-
-       
 
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">

@@ -57,7 +57,7 @@ const Blog3 = () => {
 
           </div>
           <div className="cs_tyres_shape position-absolute">
-            <img src={`${import.meta.env.BASE_URL}img/new-and-update-png-image.png`} loading="lazy" alt="Tyres Image" />
+            <img src={`${import.meta.env.BASE_URL}img/new-and-update-png-image.png`} loading="lazy" alt="AC Service" />
           </div>
         </div>
         <div className="cs_height_80 cs_height_lg_80"></div>

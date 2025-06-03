@@ -141,7 +141,7 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
               </div>
 
               <div className="col-md-6">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`}  loading="lazy" alt="Frigidaire Ac Repair" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} loading="lazy" alt="Frigidaire Ac Repair" />
 
               </div>
             </div>
@@ -160,12 +160,12 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
 
 
         {/* Why is AC Maintenance Service Important in Dubai? */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30 ">
           <div className="container">
             <h3 className="cs_fs_30">Why is Frigidaire AC Maintenance Service Important in Dubai?</h3>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`}  loading="lazy" alt="Frigidaire Ac Repair" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} loading="lazy" alt="Frigidaire Ac Repair" />
               </div>
 
               <div className="col-md-6">
@@ -184,7 +184,7 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
           </div>
         </section>
         {/* Common Signs Your AC May Need Maintenanc */}
-        <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="text-center">Common AC Problems That May Require Maintenance
             </h3>
@@ -281,13 +281,143 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
 
           </div>
         </section>
-        {/* A Quick Guide to Understanding and Fixing Your AC Problems */}
-        <QuickGuide />
+        {/* Here are */}
+        <section className="section cs_py_30">
+          <div className="container">
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR AIR CONDITIONER SYSTEMS</h3>
+            <div className="row">
+              <div className="col-xl-6">
+                <iframe
+                  className="bordered-img blue-border"
+                  width="100%"
+                  height="350"
+                  src="https://www.youtube.com/embed/sxBhB1_gxYA?si=96yf5hxyAA3bct8w"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
+              </div>
 
-        {/* The Benefits Of Regular AC Service*/}
-        <BenefitAcMaintenance />
+              <div className="col-xl-6">
+                <p className='mb-0'>We specialize in all types and brands of HVAC systems, including FAHU.</p>
+                <p className='mb-0'><strong>Our services include:</strong></p>
+                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-1">
+
+                  <li>
+                    <strong>Installation:</strong>  Expert installation of various types and brands of HVAC systems, ensuring optimal performance and efficiency.
+                  </li>
+
+                  <li>
+                    <strong>Diagnostics:</strong> Thorough fault finding to diagnose issues effectively. We provide eligibility assessments and detailed quotations to address any concerns with your system.
+                  </li>
+
+                  <li>
+                    <strong>Repair Service:</strong> Efficient repair services for all HVAC components, ensuring quick resolution of any issues, such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions!
+                  </li>
+
+                  <li>
+                    <strong>Annual Maintenance Contract:</strong> This contract outlines the terms and services covered for the annual maintenance of air conditioning units. Regular maintenance is essential for optimal performance, efficiency, and longevity of your air conditioning system.
+                  </li>
+
+                </ul>
+
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* The Benefits Of appliances Service Dubai */}
+        <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
+          <div className="container">
+            <div className="row justify-content-center">
+              <h3 className="cs_fs_30 mb-0">The Benefits Of Franke appliances Service Dubai
+              </h3>
+              <div className="row gx-3 gy-5 mt-0">
+                <div className="col-md-4 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block">
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h4>
+                      <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block">
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
+                      </h4>
+                      <p className="small">Regular maintenance helps your appliances run smoothly and efficiently, delivering the best results every time.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block">
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
+                      <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-md-4 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block">
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h4>
+                      <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
+                    </div>
+
+                  </div>
+                </div>
+                <div className="col-md-4 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block">
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h4>
+                      <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
+
+                    </div>
+
+                  </div>
+                </div>
+
+                <div className="col-md-4 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block">
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      </div>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
+                      </h4>
+                      <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/*Why Choose F A J Technical Services L.L.C? */}
         <ACWhyChooseUs />
+
+
         {/* Practical Tips to Improve Energy Efficiency */}
         <section className="section cs_py_30 bg-dark-blue text-light">
           <div className="container text-center">
@@ -321,7 +451,7 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`}  loading="lazy" alt="Frigidaire Ac Service" />
+                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} loading="lazy" alt="Frigidaire Ac Service" />
                 </div>
               </div>
               <div className="col-lg-4">
@@ -363,7 +493,7 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
                         <div className="cs_testimonial_content cs_white_bg position-relative">
                           <div className="cs_testimonial_header cs_mb_35">
                             <div className="cs_testimonial_thumbnail">
-                              <img src={`${import.meta.env.BASE_URL}${item.img1}`}  loading="lazy" alt="Avatar" />
+                              <img src={`${import.meta.env.BASE_URL}${item.img1}`} loading="lazy" alt="Avatar" />
                             </div>
                             <div className="cs_testimonial_info">
                               <div className="rating-area" >
@@ -379,7 +509,7 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
                           </div>
                           <blockquote className="cs_fs_16">{item.desc}</blockquote>
                           <div className="cs_quote_icon position-absolute">
-                            <img src={`${import.meta.env.BASE_URL}img/icons/quote_1.svg`}  loading="lazy" alt="Quote Icon" />
+                            <img src={`${import.meta.env.BASE_URL}img/icons/quote_1.svg`} loading="lazy" alt="Quote Icon" />
                           </div>
                         </div>
                       </div>

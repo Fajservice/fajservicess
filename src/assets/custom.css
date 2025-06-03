@@ -815,6 +815,7 @@ p a {
   }
   .cs_site_header.cs_style_1 .cs_main_header_right {
     padding-right: 40px;
+    display: none;
   }
   .cs_service_details h2,
   .cs_fs_30,
