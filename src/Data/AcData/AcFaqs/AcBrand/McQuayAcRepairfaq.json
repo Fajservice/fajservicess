@@ -1,58 +1,42 @@
 [
-  {  
-    "title": "How much is AC service in Dubai?",
-    "desc": "AC service in Dubai typically costs between AED 230 to AED 765 depending on the type of service. Prices vary based on the unit's size and condition, as well as the service provider."
+  {
+    "title": "How to maintain a McQuay AC?",
+    "desc": "To maintain your McQuay AC:\n- Keep coils clean\n- Trim shrubbery around the unit\n- Direct dryer vents away from the AC\n- Seal open ducts and check insulation\n- Replace air filters regularly\n- Adjust the thermostat properly\n- Schedule annual professional maintenance with FAJ HVAC experts"
   },
   {
-    "title": "Why is my AC not cooling in Dubai?",
-    "desc": "Your AC may not be cooling due to dirty filters, low refrigerant levels, or a malfunctioning compressor. A professional technician can diagnose and resolve the issue quickly."
+    "title": "Why does my McQuay air conditioner keep shutting off?",
+    "desc": "Dirty coils and condenser units can cause overheating, making the AC shut off and restart frequently. Ensure the area around the unit is clean and free from debris such as leaves or dirt."
   },
   {
-    "title": "Why is AC repair so expensive?",
-    "desc": "AC repairs can be expensive due to the high cost of parts (like compressors or coils) and specialized labor. The complexity of the repairs and Dubai’s climate, which demands frequent AC use, also adds to the cost."
+    "title": "How do you reset a McQuay AC thermostat?",
+    "desc": "Simultaneously press the up and down arrows on the thermostat. This will reset the unit to its factory settings, so you’ll need to re-enter any custom programming."
   },
   {
-    "title": "Why is my AC giving cool air but not cooling?",
-    "desc": "If your AC is blowing cool air but not cooling the room, it could be due to issues like low refrigerant or clogged filters. A technician can fix this with a proper inspection and maintenance."
+    "title": "How often does my McQuay AC need maintenance?",
+    "desc": "It is recommended to service your McQuay AC twice a year, ideally before summer and winter seasons, to prevent breakdowns and ensure peak efficiency."
   },
   {
-    "title": "How often should AC be cleaned in Dubai?",
-    "desc": "AC units in Dubai should be cleaned every 3-6 months due to high dust levels in the environment. More frequent cleaning may be necessary for homes in dusty areas or with heavy AC use."
+    "title": "How do I know if my AC needs maintenance?",
+    "desc": "Signs your AC needs maintenance include:\n- Unusual noises\n- Reduced cooling\n- High DEWA bills\n- Water leaks\n- Excess humidity\n- Weak airflow"
   },
   {
-    "title": "Which company is best for central AC?",
-    "desc": "F A J Technical Services L.L.C. is one of the best companies for central AC services in Dubai. We offer reliable, professional services to ensure your system runs efficiently."
+    "title": "What is the internal control fault detected by McQuay (Error 93)?",
+    "desc": "Error Code 93 indicates a malfunction in the internal control system, typically due to abnormal outdoor ambient temperature readings or a faulty control board."
   },
   {
-    "title": "What maintenance is needed for AC?",
-    "desc": "AC maintenance includes tasks like cleaning or replacing air filters, checking refrigerant levels, and cleaning coils and drain lines. Regular upkeep ensures your system runs efficiently and prolongs its lifespan."
+    "title": "What does McQuay AC error code E3 or F3 mean?",
+    "desc": "E3 or F3 suggests a thermostat or PCB (Printed Circuit Board) fault. The error affects temperature regulation and may require component replacement."
   },
   {
-    "title": "How can I maintain my AC?",
-    "desc": "Maintain your AC by regularly cleaning or replacing filters, checking for airflow issues, and scheduling professional servicing every 6 months. This helps to improve performance and prevent costly repairs."
+    "title": "What is McQuay AC error code E1?",
+    "desc": "E1 indicates a communication issue between the indoor and outdoor units, potentially caused by faulty wiring or control board failure."
   },
   {
-    "title": "What is routine AC maintenance?",
-    "desc": "Routine AC maintenance typically involves cleaning filters, inspecting the refrigerant, cleaning the coils, and checking the system’s overall performance. Regular maintenance keeps your AC running smoothly."
+    "title": "What does McQuay AC error code E4 mean?",
+    "desc": "E4 refers to a problem with the outdoor temperature sensor or its wiring. Inspect for damage, corrosion, or loose connections. If unresolved, professional service may be needed."
   },
   {
-    "title": "How do I fix my air conditioner that is not cooling?",
-    "desc": "To fix an AC not cooling, check the thermostat, clean or replace the air filter, and ensure the outdoor unit is clear. If issues persist, inspect refrigerant levels, ice buildup, or compressor issues—contact a professional if needed."
-  },
-  {
-    "title": "How often should an air conditioner be serviced?",
-    "desc": "An air conditioner should be serviced at least once a year to maintain optimal performance. In hot climates like Dubai, servicing every 6 months is recommended to ensure efficiency and extend the unit's lifespan."
-  },
-  {
-    "title": "Is AC duct cleaning important in Dubai?",
-    "desc": "Yes, AC duct cleaning is important in Dubai as it improves indoor air quality, increases system efficiency, and prevents the build-up of dust and allergens. Regular cleaning helps your AC perform better."
-  },
-  {
-    "title": "Is AC duct cleaning worth it?",
-    "desc": "Yes, AC duct cleaning is worth it because it enhances air quality, improves the performance of your system, and helps extend the life of your AC unit. It’s a cost-effective investment for long-term benefits."
-  },
-  {
-    "title": "How often should AC ducts be cleaned?",
-    "desc": "AC ducts should be cleaned every 2-3 years, or more frequently if you notice dust accumulation, poor airflow, or a musty smell. Regular cleaning ensures better air quality and system efficiency."
+    "title": "What does McQuay AC error code E6 mean?",
+    "desc": "E6 signals a communication failure between the indoor and outdoor components. Causes may include wiring issues, malfunctioning control boards, or power supply disruptions."
   }
 ]
