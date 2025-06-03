@@ -176,7 +176,7 @@ const ApplianceServiceInDubaiMarinaDetail = ({ subtitle, title, reviewsbg, title
                 </section>
 
                 {/* Why is Appliance Maintenance Service Important in Dubai? */}
-                <section className="section cs_py_30 bg-light-gray">
+                <section className="section cs_py_30">
                     <div className="container">
                         <h3 className="cs_fs_30">Why is Appliance Maintenance Service Important in Dubai?</h3>
                         <p className="">
@@ -203,7 +203,7 @@ const ApplianceServiceInDubaiMarinaDetail = ({ subtitle, title, reviewsbg, title
                 </section>
 
                 {/* The Most Common Problems with Home Appliances */}
-                <section className="section cs_py_30">
+                <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
                         <h3 className="text-center">The Most Common Problems with Home Appliances   </h3>
                         <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -310,7 +310,7 @@ const ApplianceServiceInDubaiMarinaDetail = ({ subtitle, title, reviewsbg, title
                 </section>
 
                 {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
-                <section className="section cs_py_30 bg-light-gray">
+                <section className="section cs_py_30">
                     <div className="container">
                         <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h3>
 
@@ -346,7 +346,7 @@ const ApplianceServiceInDubaiMarinaDetail = ({ subtitle, title, reviewsbg, title
                 </section >
 
                 {/* The Benefits Of appliances Service Dubai */}
-                <section className="section cs_py_30 appliances-benifit-sec">
+                <section className="section cs_py_30 appliances-benifit-sec bg-light-gray bg-light-gray">
                     <div className="container">
                         <div className="row justify-content-center">
                             <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai
@@ -551,8 +551,6 @@ const ApplianceServiceInDubaiMarinaDetail = ({ subtitle, title, reviewsbg, title
                     </div>
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                 </section>
-
-
                 
                 {/* testimobial section */}
                 <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
@@ -611,7 +609,7 @@ const ApplianceServiceInDubaiMarinaDetail = ({ subtitle, title, reviewsbg, title
                 {/* FAQ's */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
                     <div className="container">
-                        <h3 className="cs_fs_30 text-light">FAQ's</h3>
+                        <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
                         <div className="cs_accordians_wrapper cs_style_1 p-0">
 
