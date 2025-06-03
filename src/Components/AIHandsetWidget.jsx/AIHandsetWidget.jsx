@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import './AIHandsetWidget.css'; // Custom styles will be in this file
-// import aiicon from '../../../public/img/icons/aiicon.png'
+import aiicon from '../../../public/img/icons/aiicon.png'
 const AIHandsetWidget = () => {
     useEffect(() => {
         const popup = document.getElementById('ai-popup');
@@ -45,20 +45,20 @@ const AIHandsetWidget = () => {
                     style={{
                         width: '45px',
                         height: '45px',
-                        backgroundColor: '#050A1E',
+                        // backgroundColor: '#050A1E',
                         transition: 'all 0.3s',
                         position: 'relative',
                         right: '10px'
                     }}
                 >
-                    <div style={{ position: 'relative', width: '30px', height: '30px'}}>
+                    <div style={{ position: 'relative', width: '50px', height: '45px'}}>
                         <img
                             id="ai-icon"
-                            src="https://cdn-icons-png.flaticon.com/128/724/724713.png"
+                            src={aiicon}
                             alt="AI"
                             style={{
-                                width: '90%',
-                                height: '90%',
+                                width: '100%',
+                                height: '100%',
                                 // filter: 'brightness(4) invert(1)',
                             }}
                         />
