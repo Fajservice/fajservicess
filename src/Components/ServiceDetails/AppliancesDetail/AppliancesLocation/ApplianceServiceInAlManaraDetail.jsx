@@ -157,8 +157,8 @@ const ApplianceServiceInAlManaraDetail = ({ subtitle, title, reviewsbg, titleSeo
 
                                 <p className="mb-2">
                                     If you need appliance repair, FAJ is your best choice for fast and affordable service in Al Manara Dubai and Sharjah.
-                                    <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
-                                    <br /> We're nearby and can get your appliances fixed quickly and efficiently.
+                                    <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that&apos;s not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
+                                    <br /> We&apos;re nearby and can get your appliances fixed quickly and efficiently.
                                 </p>
 
                                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service
@@ -175,7 +175,7 @@ const ApplianceServiceInAlManaraDetail = ({ subtitle, title, reviewsbg, titleSeo
                 </section>
 
                 {/* Why is Appliance Maintenance Service Important in Dubai? */}
-                <section className="section cs_py_30 bg-light-gray">
+                <section className="section cs_py_30">
                     <div className="container">
                         <h3 className="cs_fs_30">Why is Appliance Maintenance Service Important in Dubai?</h3>
                         <p className="">
@@ -202,7 +202,7 @@ const ApplianceServiceInAlManaraDetail = ({ subtitle, title, reviewsbg, titleSeo
                 </section>
 
                 {/* The Most Common Problems with Home Appliances */}
-                <section className="section cs_py_30">
+                <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
                         <h3 className="text-center">The Most Common Problems with Home Appliances   </h3>
                         <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -308,8 +308,44 @@ const ApplianceServiceInAlManaraDetail = ({ subtitle, title, reviewsbg, titleSeo
                     </div>
                 </section>
 
+                {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
+                <section className="section cs_py_30">
+                    <div className="container">
+                        <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h3>
+
+                        <div className="row align-items-center">
+                            <div className="col-xl-6">
+                                <p className='mb-0'>We specialize in all types and brands of home appliances, including built-in units.</p>
+                                <p className='mb-0'><strong>Our services include:</strong></p>
+                                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
+                                    <li> <strong>  Installation: </strong> Expert installation of various types and brands of home appliances, ensuring optimal performance and efficiency. </li>
+                                    <li> <strong> Diagnostics: </strong> Comprehensive fault-finding services to effectively diagnose issues. We provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
+                                    <li> <strong> Repair Service: </strong> Efficient repair services for all appliance components, ensuring a quick resolution to issues such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions! </li>
+                                    <li> <strong> Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for
+                                        the annual maintenance of your appliances. </li>
+                                    <p className="mb-0">
+                                        <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for optimal performance, efficiency, and longevity of your home appliances.
+                                    </p>
+                                </ul>
+                            </div>
+                            <div className="col-xl-6">
+                                <iframe
+                                    className="bordered-img blue-border"
+                                    width="100%"
+                                    height="350"
+                                    src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
+                                    title="YouTube video player"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowFullScreen
+                                ></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </section >
+
                 {/* The Benefits Of appliances Service Dubai */}
-                <section className="section cs_py_30 appliances-benifit-sec">
+                <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
                     <div className="container">
                         <div className="row justify-content-center">
                             <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai
@@ -393,42 +429,6 @@ const ApplianceServiceInAlManaraDetail = ({ subtitle, title, reviewsbg, titleSeo
                         </div>
                     </div>
                 </section>
-
-                {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
-                <section className="section cs_py_30 bg-light-gray">
-                    <div className="container">
-                        <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h3>
-
-                        <div className="row align-items-center">
-                            <div className="col-xl-6">
-                                <p className='mb-0'>We specialize in all types and brands of home appliances, including built-in units.</p>
-                                <p className='mb-0'><strong>Our services include:</strong></p>
-                                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                                    <li> <strong>  Installation: </strong> Expert installation of various types and brands of home appliances, ensuring optimal performance and efficiency. </li>
-                                    <li> <strong> Diagnostics: </strong> Comprehensive fault-finding services to effectively diagnose issues. We provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
-                                    <li> <strong> Repair Service: </strong> Efficient repair services for all appliance components, ensuring a quick resolution to issues such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions! </li>
-                                    <li> <strong> Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for
-                                        the annual maintenance of your appliances. </li>
-                                    <p className="mb-0">
-                                        <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for optimal performance, efficiency, and longevity of your home appliances.
-                                    </p>
-                                </ul>
-                            </div>
-                            <div className="col-xl-6">
-                                <iframe
-                                    className="bordered-img blue-border"
-                                    width="100%"
-                                    height="350"
-                                    src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
-                                    title="YouTube video player"
-                                    frameBorder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowFullScreen
-                                ></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </section >
 
                 {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
                 <section className="section cs_py_30">
@@ -608,7 +608,7 @@ const ApplianceServiceInAlManaraDetail = ({ subtitle, title, reviewsbg, titleSeo
                 {/* FAQ's */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
                     <div className="container">
-                        <h3 className="cs_fs_30 text-light">FAQ's</h3>
+                        <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
                         <div className="cs_accordians_wrapper cs_style_1 p-0">
 
