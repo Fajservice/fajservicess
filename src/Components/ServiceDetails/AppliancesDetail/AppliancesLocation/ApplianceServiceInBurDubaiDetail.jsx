@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx'; 
+import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton.jsx";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract.jsx";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol.jsx";
@@ -158,8 +158,8 @@ const ApplianceServiceInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo
 
                                 <p className="mb-2">
                                     If you need appliance repair, FAJ is your best choice for fast and affordable service in Bur Dubai and Sharjah.
-                                    <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
-                                    <br /> We're nearby and can get your appliances fixed quickly and efficiently.
+                                    <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that&apos;s not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
+                                    <br /> We&apos;re nearby and can get your appliances fixed quickly and efficiently.
                                 </p>
 
                                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service
@@ -168,10 +168,36 @@ const ApplianceServiceInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`}  loading="lazy" alt="Post Image" />
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} loading="lazy" alt="Post Image" />
                             </div>
                         </div>
                         <AppliancesAppointmentCol></AppliancesAppointmentCol>
+                    </div>
+                </section>
+                {/* Why is Appliance Maintenance Service Important in Dubai? */}
+                <section className="section cs_py_30 bg-light-gray">
+                    <div className="container">
+                        <h3 className="cs_fs_30">Why is Appliance Maintenance Service Important in Dubai?</h3>
+                        <p className="">
+                            Proper appliance maintenance is essential for extending lifespan and enhancing efficiency, especially in Dubai’s climate. Here are the main benefits:
+                        </p>
+
+                        <div className="row align-items-center">
+                            <div className="col-md-6">
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} loading="lazy" alt="Post Image" />
+                            </div>
+                            <div className="col-md-6">
+                                <ul className="mb-0">
+                                    <li> <strong>  Extended Lifespan: </strong> Regular maintenance helps appliances last longer, saving on replacement costs.</li>
+                                    <li> <strong>  Improved Efficiency: </strong> Well-maintained appliances use less energy, leading to lower utility bills, which is essential in Dubai. </li>
+                                    <li> <strong>  Preventing Costly Repair: </strong> Catching minor issues early prevents them from escalating into expensive repair. </li>
+                                    <li> <strong>  Preserving Appliance Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
+                                    <li> <strong>  Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious.</li>
+                                    <li> <strong>  Cost-Effective: </strong> Maintenance costs are lower than early replacements or major repair. Investing in appliance care ensures safety and efficiency and is a smart economic choice in Dubai.</li>
+                                    <li> <strong>  Energy Efficiency: </strong> Regularly maintaining your appliances, can improve their efficiency and save you money.</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </section>
 
@@ -282,119 +308,6 @@ const ApplianceServiceInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo
                     </div>
                 </section>
 
-                {/* Why is Appliance Maintenance Service Important in Dubai? */}
-                <section className="section cs_py_30 bg-light-gray">
-                    <div className="container">
-                        <h3 className="cs_fs_30">Why is Appliance Maintenance Service Important in Dubai?</h3>
-                        <p className="">
-                            Proper appliance maintenance is essential for extending lifespan and enhancing efficiency, especially in Dubai’s climate. Here are the main benefits:
-                        </p>
-
-                        <div className="row align-items-center">
-                            <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`}  loading="lazy" alt="Post Image" />
-                            </div>
-                            <div className="col-md-6">
-                                <ul className="mb-0">
-                                    <li> <strong>  Extended Lifespan: </strong> Regular maintenance helps appliances last longer, saving on replacement costs.</li>
-                                    <li> <strong>  Improved Efficiency: </strong> Well-maintained appliances use less energy, leading to lower utility bills, which is essential in Dubai. </li>
-                                    <li> <strong>  Preventing Costly Repair: </strong> Catching minor issues early prevents them from escalating into expensive repair. </li>
-                                    <li> <strong>  Preserving Appliance Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
-                                    <li> <strong>  Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious.</li>
-                                    <li> <strong>  Cost-Effective: </strong> Maintenance costs are lower than early replacements or major repair. Investing in appliance care ensures safety and efficiency and is a smart economic choice in Dubai.</li>
-                                    <li> <strong>  Energy Efficiency: </strong> Regularly maintaining your appliances, can improve their efficiency and save you money.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                {/* The Benefits Of appliances Service Dubai */}
-                <section className="section cs_py_30 appliances-benifit-sec">
-                    <div className="container">
-                        <div className="row justify-content-center">
-                            <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai
-                            </h3>
-                            <div className="row gx-3 gy-5 mt-0">
-                                <div className="col-md-4 mb-2">
-                                    <div className="">
-                                        <div className="benifit-box-container">
-                                            <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
-                                            </div>
-                                            <h4 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h4>
-                                            <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-md-4 mb-2">
-                                    <div className="">
-                                        <div className="benifit-box-container">
-                                            <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
-                                            </div>
-                                            <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
-                                            </h4>
-                                            <p className="small">Regular maintenance helps your appliances run smoothly and efficiently, delivering the best results every time.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-md-4 mb-2">
-                                    <div className="">
-                                        <div className="benifit-box-container">
-                                            <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
-                                            </div>
-                                            <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
-                                            <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="col-md-4 mb-2">
-                                    <div className="">
-                                        <div className="benifit-box-container">
-                                            <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
-                                            </div>
-                                            <h4 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h4>
-                                            <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div className="col-md-4 mb-2">
-                                    <div className="">
-                                        <div className="benifit-box-container">
-                                            <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
-                                            </div>
-                                            <h4 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h4>
-                                            <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <div className="col-md-4 mb-2">
-                                    <div className="">
-                                        <div className="benifit-box-container">
-                                            <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
-                                            </div>
-                                            <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
-                                            </h4>
-                                            <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
                 {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
@@ -431,6 +344,92 @@ const ApplianceServiceInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo
                     </div>
                 </section >
 
+                {/* The Benefits Of appliances Service Dubai */}
+                <section className="section cs_py_30 appliances-benifit-sec">
+                    <div className="container">
+                        <div className="row justify-content-center">
+                            <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai
+                            </h3>
+                            <div className="row gx-3 gy-5 mt-0">
+                                <div className="col-md-4 mb-2">
+                                    <div className="">
+                                        <div className="benifit-box-container">
+                                            <div className="icon-img-block">
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                            </div>
+                                            <h4 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h4>
+                                            <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-md-4 mb-2">
+                                    <div className="">
+                                        <div className="benifit-box-container">
+                                            <div className="icon-img-block">
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                            </div>
+                                            <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
+                                            </h4>
+                                            <p className="small">Regular maintenance helps your appliances run smoothly and efficiently, delivering the best results every time.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-md-4 mb-2">
+                                    <div className="">
+                                        <div className="benifit-box-container">
+                                            <div className="icon-img-block">
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                            </div>
+                                            <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
+                                            <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="col-md-4 mb-2">
+                                    <div className="">
+                                        <div className="benifit-box-container">
+                                            <div className="icon-img-block">
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                            </div>
+                                            <h4 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h4>
+                                            <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div className="col-md-4 mb-2">
+                                    <div className="">
+                                        <div className="benifit-box-container">
+                                            <div className="icon-img-block">
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                            </div>
+                                            <h4 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h4>
+                                            <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div className="col-md-4 mb-2">
+                                    <div className="">
+                                        <div className="benifit-box-container">
+                                            <div className="icon-img-block">
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                            </div>
+                                            <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
+                                            </h4>
+                                            <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
                 {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
                 <section className="section cs_py_30">
                     <div className="container container-md container-sm">
@@ -441,7 +440,7 @@ const ApplianceServiceInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo
                             <div className="uspcol col-1">
                                 <div className="uspitem">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`}  loading="lazy" alt="Fast, Reliable Service" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} loading="lazy" alt="Fast, Reliable Service" />
 
                                     </div>
                                     <div className="usptext">
@@ -452,7 +451,7 @@ const ApplianceServiceInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo
 
                                 <div className="uspitem">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`}  loading="lazy" alt="We Are Experts" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} loading="lazy" alt="We Are Experts" />
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Feeling Of Calm</h3>
@@ -463,7 +462,7 @@ const ApplianceServiceInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo
 
                                 <div className="uspitem mb-0">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`}  loading="lazy" alt="FAJ icon service" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} loading="lazy" alt="FAJ icon service" />
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">You Are in Control</h3>
@@ -475,14 +474,14 @@ const ApplianceServiceInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`}  loading="lazy" alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} loading="lazy" alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}
                             <div className="uspcol col-3">
                                 <div className="uspitem">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`}  loading="lazy" alt="FAJ icon service" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} loading="lazy" alt="FAJ icon service" />
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">We Are Experts</h3>
@@ -491,7 +490,7 @@ const ApplianceServiceInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo
                                 </div>
                                 <div className="uspitem">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`}  loading="lazy" alt="FAJ icon service" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} loading="lazy" alt="FAJ icon service" />
 
                                     </div>
                                     <div className="usptext">
@@ -501,7 +500,7 @@ const ApplianceServiceInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo
                                 </div>
                                 <div className="uspitem mb-0">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`}  loading="lazy" alt="FAJ icon service" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} loading="lazy" alt="FAJ icon service" />
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Trustworthy</h3>
@@ -512,11 +511,14 @@ const ApplianceServiceInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo
 
                             {/* <!-- Delimit mobile --> */}
                             <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`}  loading="lazy" alt="FAJ icon service" />
+                                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} loading="lazy" alt="FAJ icon service" />
                             </div>
                         </div>
                     </div>
                 </section>
+
+                {/* Maintenance Contract */}
+                <MaintenanceContract />
 
                 {/* We are specialise in Appliances services for the following brands */}
                 <ApplianceSpecialise />
@@ -535,7 +537,7 @@ const ApplianceServiceInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo
 
                                             <div className="brandslogo-slide-container">
                                                 <div className="brnadlogo">
-                                                    <img className="w-100" src={`${import.meta.env.BASE_URL}${item.logo}`}  loading="lazy" alt="Avatar" />
+                                                    <img className="w-100" src={`${import.meta.env.BASE_URL}${item.logo}`} loading="lazy" alt="Avatar" />
                                                 </div>
                                             </div>
 
@@ -546,15 +548,14 @@ const ApplianceServiceInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo
                             </div>
                         </div>
                     </div>
-                     
+
                 </section>
 
 
-                {/* Maintenance Contract */}
-                <MaintenanceContract />
+
                 {/* testimobial section */}
                 <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
-                     
+
                     <div className="container">
                         <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
                             <h3 className="cs_section_subtitle cs_fs_18 text-black cs_semibold text-uppercase cs_mb_12 wow fadeInDown">
@@ -576,7 +577,7 @@ const ApplianceServiceInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo
                                                 <div className="cs_testimonial_content cs_white_bg position-relative">
                                                     <div className="cs_testimonial_header cs_mb_35">
                                                         <div className="cs_testimonial_thumbnail">
-                                                            <img src={`${import.meta.env.BASE_URL}${item.img1}`}  loading="lazy" alt="Avatar" />
+                                                            <img src={`${import.meta.env.BASE_URL}${item.img1}`} loading="lazy" alt="Avatar" />
                                                         </div>
                                                         <div className="cs_testimonial_info">
                                                             <div className="rating-area" >
@@ -592,7 +593,7 @@ const ApplianceServiceInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo
                                                     </div>
                                                     <blockquote className="cs_fs_16">{item.desc}</blockquote>
                                                     <div className="cs_quote_icon position-absolute">
-                                                        <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`}  loading="lazy" alt="Quote Icon" />
+                                                        <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`} loading="lazy" alt="Quote Icon" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -603,13 +604,13 @@ const ApplianceServiceInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo
                             </div>
                         </div>
                     </div>
-                     
+
                 </section>
 
                 {/* FAQ's */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
                     <div className="container">
-                        <h3 className="cs_fs_30 text-light">FAQ's</h3>
+                        <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
                         <div className="cs_accordians_wrapper cs_style_1 p-0">
 
