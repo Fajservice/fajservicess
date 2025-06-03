@@ -19,6 +19,7 @@ import HeaderForm from "../Headeform/HeaderForm";
 import WeSpecialise from "./AcDetail/AcLocation/WeSpecialise/WeSpecialise";
 import Practicaltip from "../Common/Practicaltip";
 import AcProperties from "../Common/AcProperties";
+import FAJACPrice from "../Miscellaneous/FAJACPrice";
 
 const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => { 
   // For SEO
@@ -125,7 +126,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
 
         {/* Experts AC Service and Maintenance */}
-        <section className="section cs_py_30 bg-light-gray mb-4">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
@@ -170,7 +171,11 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
           </div>
         </section>
 
-        
+        <section className="section cs_py_30">
+          <div className="container">
+            <FAJACPrice />
+          </div>
+        </section>
 
          {/* Why is AC Maintenance Service Important in Dubai? */}
        <section className="section cs_py_30 bg-light-gray">

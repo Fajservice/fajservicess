@@ -166,7 +166,12 @@ const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descriptio
           </div>
         </section>
 
-        <FAJACPrice />
+        <section className="section cs_py_30">
+          <div className="container">
+            <FAJACPrice />
+          </div>
+        </section>
+        
        
 
         {/*FAJ: Creating the Perfect Temperature All Year Round */}
