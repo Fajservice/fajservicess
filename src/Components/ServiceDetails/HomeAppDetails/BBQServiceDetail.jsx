@@ -164,12 +164,11 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
                 <h3 className="cs_fs_24 mb-1">Barbeque Repair & BBQ Grill Cleaning Service</h3>
 
                 <p className="mb-2">We are knowledgeable about all major brands of BBQ grill equipment, including both high-end luxury models and free-standing or built-in BBQ grills. As a result, we offer BBQ grill repair services for gas and electric grills of any brand, with a special focus on quality and effectiveness.</p>
-                <h3>BBQ Technical Inspection Fee</h3>
+                <h3 className="cs_fs_24 mb-1">BBQ Technical Inspection Fee</h3>
                 <p>The technical inspection fee covers diagnosis, transportation, and reinstallation at your location in Dubai. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any parts. If you need repairs for a coffee machine, stand mixer, or robot vacuum cleaner, please contact us. </p>
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="BBQ Repair Service" /> */}
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Barbeque-Repair.jpg`} alt="BBQ Repair Service" loading="lazy" />
 
               </div>
@@ -194,6 +193,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
                   <li><strong>Seasonal Check-ups for Longevity:</strong> As seasons change, your grill's needs do too. Seasonal check-ups&mdash;like inspecting burners and gas lines&mdash;ensure optimal performance and longevity.</li>
                   <li><strong>Extending the Lifespan of Grill Parts:</strong> Each part is essential for grilling. Oiling hinges and tightening bolts can extend your grill's life.</li>
                   <li><strong>Safety First:</strong> Clean Grills Prevent Accidents. A clean grill is a safe grill. Regular maintenance prevents flare-ups and ensures safe grilling.</li>
+                  <li><strong>Importance of Using Quality Cleaning Products:</strong>Not all cleaning products are the same. Use high-quality, grill-friendly cleaners that cut through grease without damaging your grill.</li>
                 </ul>
               </div>
             </div>
@@ -316,7 +316,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
         <section className="section cs_py_30 ">
           <div className="container">
             <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR BARBECUE GRILLS.</h3>
-            <p className='mb-0'>We specialize in all types and brands of BBQ grills, including built-in models.</p>
+           
             <div className="row align-items-center">
               <div className="col-xl-6">
                 <iframe
@@ -332,12 +332,13 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
               </div>
 
               <div className="col-xl-6">
+                 <p className='mb-0'>We specialize in all types and brands of BBQ grills, including built-in models.</p>
                 <p className="mb-0"><strong>Our services include:</strong></p>
                 <ul>
                   <li><strong>BBQ Grill Installation: </strong>Professional installation of various BBQ grill brands for optimal performance.</li>
                   <li><strong>BBQ Grill Diagnostics:</strong> We conduct thorough fault finding to effectively diagnose issues. Our services include eligibility assessments and detailed quotations to address concerns with your BBQ.</li>
                   <li><strong>BBQ Grill Repair Service:</strong> Efficient repair services for all barbecue grill components, ensuring quick resolution of issues such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions!</li>
-                  <li><strong>BBQ Grill Annual Maintenance Contract:</strong> This contract outlines the terms and services provided for the annual maintenance of your barbeque grill. <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for ensuring optimal performance, efficiency, and longevity of your barbeque.</li>
+                  <li><strong>BBQ Grill Annual Maintenance Contract:</strong> This contract outlines the terms and services provided for the annual maintenance of your barbeque grill. <a href="https://www.linkedin.com/company/faj-technical-services-llc" style={{ textDecoration: 'underline' }}><b>Regular maintenance</b></a> is essential for ensuring optimal performance, efficiency, and longevity of your barbeque.</li>
                 </ul>
               </div>
             </div>
@@ -349,7 +350,6 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <div className="container">
             <div className="row justify-content-center">
               <h3 className="cs_fs_30 mb-0">Tips for Preparing for Your BBQ</h3>
-              <p>Before you start the grill, you might find our tips below helpful.</p>
               <ul>
                 <li><strong>Clean the grill:&nbsp;</strong>Inspect and clean your barbecue if it's been outside for a while. Even after use, it's a good idea to clean and dry it. Always follow the manufacturer's maintenance instructions.</li>
                 <li><strong>Cooking on Charcoal:&nbsp;</strong>If using charcoal instead of gas, make sure the coals are glowing red with a grey, powdery surface before cooking.</li>
@@ -456,7 +456,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
         {/* We specialise in Oven services for the following brands  */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3>We specialise in BArbecue repair services for the following brands:</h3>
+            <h3>We specialise in BArbecue repair services for the following brands</h3>
             <ul>
               <li><strong>Char Broil Gas Grill Service and Repair: </strong>FAJ offers reliable Char-Broil gas grill cleaning and services in Dubai, with professionals who are experts in freestanding and built-in Char-Broil gas grill barbeques.</li>
               <li><strong>Weber Genesis Barbeque Gas Burner Repair and Service:</strong> Located in Dubai, FAJ is your premier destination for Weber Genesis BBQ grill repair. We specialize in Weber Genesis barbecues, offering comprehensive services that include maintenance and repair.</li>

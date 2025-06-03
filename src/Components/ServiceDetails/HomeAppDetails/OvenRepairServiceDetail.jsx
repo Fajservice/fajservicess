@@ -180,7 +180,7 @@ const OvenRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ovenrepair.avif`} alt="Oven Repair" loading="lazy" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/oven-repair-service.avif`} alt="Oven Repair" loading="lazy" />
 
               </div>
             </div>
@@ -268,7 +268,7 @@ const OvenRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">ven Doesn't Heat</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Doesn't Heat</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">

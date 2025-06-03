@@ -177,7 +177,7 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/cooker.avif`} alt="Gas Cooker repair" loading="lazy" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/gas-cooker-repair-services.avif`} alt="Gas Cooker repair" loading="lazy" />
 
               </div>
             </div>

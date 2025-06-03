@@ -202,10 +202,10 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
                   Regular maintenance of ice machines offers essential benefits that can positively impact your operations and bottom line.
                 </p>
                 <ul className="mb-0">
-                  <li><strong>  Reduced Repairs: </strong> Regular maintenance prevents minor issues from escalating, reducing repair frequency and costs for ice machines.</li>
-                  <li><strong>  Enhanced Efficiency: </strong> Maintaining your ice machine in optimal condition ensures it operates efficiently, consumes less energy, and lowers operational costs.</li>
-                  <li><strong>  Extended Lifespan: </strong> Well-maintained extends machine lifespan, boosts returns, and delays costly replacements.</li>
-                  <li><strong>  Consistent Ice Quality: </strong> Regular maintenance keeps your ice clean and free of impurities, improving the taste and safety of your drinks.</li>
+                  <li><strong>  Reduced Repairs:</strong> Regular maintenance prevents minor issues from escalating, reducing repair frequency and costs for ice machines.</li>
+                  <li><strong>  Enhanced Efficiency:</strong> Maintaining your ice machine in optimal condition ensures it operates efficiently, consumes less energy, and lowers operational costs.</li>
+                  <li><strong>  Extended Lifespan:</strong> Well-maintained extends machine lifespan, boosts returns, and delays costly replacements.</li>
+                  <li><strong>  Consistent Ice Quality:</strong> Regular maintenance keeps your ice clean and free of impurities, improving the taste and safety of your drinks.</li>
                   <li><strong>  Health and Safety Compliance: </strong> Regular cleaning and sanitizing prevent bacteria and mold, ensuring your ice meets health and safety standards.</li>
                   <li><strong>  Optimized Performance: </strong> Expert maintenance services include detailed inspections and adjustments that ensure your machine operates smoothly and efficiently.</li>
 
@@ -349,7 +349,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
                   className="bordered-img blue-border"
                   width="100%"
                   height="350"
-                  src="https://www.youtube.com/embed/Cye_OFTAT3E"
+                  src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -387,7 +387,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
         <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
-              <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai
+              <h3 className="cs_fs_30 mb-0">The Benefits Of Ice Maker Service Dubai
               </h3>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
@@ -507,7 +507,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
+                    <p>Choose a day and time for your Ice Maker repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
                   </div>
                 </div>
 
@@ -526,7 +526,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are experts in appliance repair this is why most major brands trust us to handle their service and maintenance needs.</p>
+                    <p>We are experts in Ice Maker repair this is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -565,15 +565,15 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
             <div className="row">
               <div className="col-12">
 
-                <p className="mb-0"><b> Hoshizaki Ice Maker Repair </b>: FAJ is here to support you when things go wrong. We understand that your Hoshizaki ice cuber maker is essential for daily life, keeping your food fresh.</p>
-                <p className="mb-0"><b> Brema Ice Cube Maker Services </b>: If you are experiencing issues with your Brema ice maker, please contact the FAJ team for same-day repair service in Dubai.</p>
-                <p className="mb-0"><b> Simag Ice Machine Maintenance </b>: For Simag ice cube machine repair in Dubai, our team of professional and qualified technicians is available throughout the UAE.</p>
-                <p className="mb-0"><b> Brice Ice Flake Machine Repair </b>: If you're searching for the best Brice ice maker repair company in Dubai, FAJ is the top choice. They are renowned for delivering exceptional service for all Brice ice maker repairs and are recognized as the leading service provider in the area.</p>
-                <p className="mb-0"><b> Alinia Ice Machine Service </b>: If you are searching for the best Alinia repair company in Dubai, FAJ is the perfect choice. They are renowned for their exceptional service in repairing Alinia ice makers and are recognized as the leading provider of Alinia ice cube maker services in the area.</p>
-                <p className="mb-0"><b> Coolbaby Ice Maker Service </b>: Your Coolbaby ice cube maker may need repair or maintenance, and we can assist you. For high-quality Coolbaby ice machine repair in Dubai, trust FAJ.</p>
-                <p className="mb-0"><b> Scotsman Ice Maker Machine Repair Service </b>: We offer expert services for Scotsman ice machine repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Scotsman ice makers and more.</p>
-                <p className="mb-0"><b> Commercial Ice Maker and Ice Machine Maintenance </b>: Are you worried about your commercial ice maker malfunctioning and looking for a dependable company in Dubai? Contact us for same-day service!</p>
-                <p className="mb-0"><b> Electrolux Professional Ice Machine Repair Service </b>: If you're looking for the top Electrolux professional ice machine repair company in Dubai, FAJ is the perfect choice. They are well-known for providing outstanding service for Electrolux professional ice maker repairs. FAJ has established itself as the leading service provider for Electrolux professional ice machines in the area.</p>
+                <p className="mb-0"><b> Hoshizaki Ice Maker Repair</b>: FAJ is here to support you when things go wrong. We understand that your Hoshizaki ice cuber maker is essential for daily life, keeping your food fresh.</p>
+                <p className="mb-0"><b> Brema Ice Cube Maker Services</b>: If you are experiencing issues with your Brema ice maker, please contact the FAJ team for same-day repair service in Dubai.</p>
+                <p className="mb-0"><b> Simag Ice Machine Maintenance</b>: For Simag ice cube machine repair in Dubai, our team of professional and qualified technicians is available throughout the UAE.</p>
+                <p className="mb-0"><b> Brice Ice Flake Machine Repair</b>: If you're searching for the best Brice ice maker repair company in Dubai, FAJ is the top choice. They are renowned for delivering exceptional service for all Brice ice maker repairs and are recognized as the leading service provider in the area.</p>
+                <p className="mb-0"><b> Alinia Ice Machine Service</b>: If you are searching for the best Alinia repair company in Dubai, FAJ is the perfect choice. They are renowned for their exceptional service in repairing Alinia ice makers and are recognized as the leading provider of Alinia ice cube maker services in the area.</p>
+                <p className="mb-0"><b> Coolbaby Ice Maker Service</b>: Your Coolbaby ice cube maker may need repair or maintenance, and we can assist you. For high-quality Coolbaby ice machine repair in Dubai, trust FAJ.</p>
+                <p className="mb-0"><b> Scotsman Ice Maker Machine Repair Service</b>: We offer expert services for Scotsman ice machine repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Scotsman ice makers and more.</p>
+                <p className="mb-0"><b> Commercial Ice Maker and Ice Machine Maintenance</b>: Are you worried about your commercial ice maker malfunctioning and looking for a dependable company in Dubai? Contact us for same-day service!</p>
+                <p className="mb-0"><b> Electrolux Professional Ice Machine Repair Service</b>: If you're looking for the top Electrolux professional ice machine repair company in Dubai, FAJ is the perfect choice. They are well-known for providing outstanding service for Electrolux professional ice maker repairs. FAJ has established itself as the leading service provider for Electrolux professional ice machines in the area.</p>
 
 
 

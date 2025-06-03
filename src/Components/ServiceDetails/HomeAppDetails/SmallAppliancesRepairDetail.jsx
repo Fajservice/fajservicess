@@ -180,7 +180,7 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/stand mixer.avif`} alt="Small Appliances Repair" loading="lazy" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/small-mixer-repair.avif`} alt="Small Appliances Repair" loading="lazy" />
 
               </div>
             </div>
@@ -199,7 +199,7 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/oven-Range-Repair-Nearby-You-oven.avif`} alt="Small Appliances Repair" loading="lazy" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/small-mixer-service.avif`} alt="Small Appliances Repair" loading="lazy" />
               </div>
               <div className="col-md-6">
                 <p>
@@ -581,10 +581,10 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                   </li>
 
                   <li>
-                    <strong>Steam Iron Box Repair Near Me: </strong>
+                    <strong>Toaster Repair Near Me: </strong>
                     Is your toaster not heating or burning toast? We offer expert toaster repair in Dubai. Our technicians fix heating elements, timers, and wiring to restore your toaster to full working order.</li>
                   <li>
-                    <strong>Toaster Repair Near Me: </strong>
+                    <strong>Steam Iron Box Repair Near Me: </strong>
                     If your electric iron isn’t working well, we offer repair services in Dubai. Our experts can help you get wrinkle-free clothes again by addressing heating elements, thermostat issues, and faulty wiring.
                   </li>
 

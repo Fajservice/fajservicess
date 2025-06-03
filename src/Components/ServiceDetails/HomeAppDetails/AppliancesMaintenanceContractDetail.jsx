@@ -145,14 +145,12 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, title
           <div className="container">
             <h1 className="cs_fs_30">KITCHEN EQUIPMENT AND APPLIANCES AMC SERVICES</h1>
             {/* <h2 className="cs_fs_30">Experts in Appliances and Kitchen Equipment AMC Services</h2> */}
-            <p>
-              FAJ has been providing commercial kitchen equipment and appliance maintenance contract services in Dubai, Sharjah, and Abu Dhabi since 2010.
-              Regular Planned Preventive Maintenance (PPM) is essential for keeping appliances efficient and minimising unexpected failures.
-              <br />As appliances age, they become more prone to breakdowns, often at inconvenient times.
-              With FAJ Appliance Services, our annual Domestic or Commercial Appliances Contract offers peace of mind by providing a predictable budget for maintenance, helping you avoid unexpected repair costs.
-              Contact us today to book a technician for an inspection and arrange your Appliances AMC Services Contract Cover to start now.
-
-            </p>
+            <p>FAJ has been providing commercial kitchen equipment and appliance maintenance contract services in Dubai, Sharjah, and Abu Dhabi since 2010.< br />
+Regular Planned Preventive Maintenance (PPM) is essential for keeping appliances efficient and minimising unexpected failures.
+As appliances age, they become more prone to breakdowns, often at inconvenient times.< br />
+With FAJ Appliance Services, our annual Domestic or Commercial Appliances Contract offers peace of mind by providing a predictable budget for maintenance, helping you avoid unexpected repair costs.< br />
+Contact us today to book a technician for an inspection and arrange your Appliances AMC Services Contract Cover to start now.
+</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -357,7 +355,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, title
                   className="bordered-img blue-border"
                   width="100%"
                   height="350"
-                  src="https://www.youtube.com/embed/Cye_OFTAT3E"
+                  src="https://www.youtube.com/embed/boj7h-gOf7M?si=wNggMssriwyjMGo1"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

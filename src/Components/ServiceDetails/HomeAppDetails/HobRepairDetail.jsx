@@ -210,8 +210,7 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                   <li> <strong>  Stove Preserving induction hob Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
                   <li> <strong>  Cooker Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious. </li>
                   <li> <strong>  Hob Cost-Effective: </strong> Maintenance costs are lower than early replacements or major repairs.  Investing in induction hob care ensures safety and efficiency and is a smart economic choice in Dubai. </li>
-                  <li> <strong>  Cooker Energy Efficiency: </strong> Regularly maintaining your induction hob can improve its efficiency and save you money. </li>
-
+                  
                 </ul>
               </div>
             </div>
@@ -231,7 +230,7 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      This indicates a communication issue in the stove/hob, often related to loose wiring or a faulty control board (PCB)</p>
+                      This indicates a communication issue in the stove/hob, often related to loose wiring or a faulty control board (PCB).</p>
                   </div>
                 </div>
               </div>
@@ -271,7 +270,7 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Difficulty Sharing Power Between Burners: This may be indicated by an E8 error code and could mean a blown fuse on the main board</p>
+                      Difficulty Sharing Power Between Burners: This may be indicated by an E8 error code and could mean a blown fuse on the main board.</p>
                   </div>
                 </div>
               </div>
@@ -362,10 +361,10 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                 <p className='mb-0'><strong>Our services include:</strong></p>
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
 
-                  <li> <strong>  Hob Installation: </strong> We provide professional installation of various types and brands of induction hobs to ensure optimal performance and efficiency.</li>
-                  <li> <strong>  Hob Diagnostics: </strong> Our team offers comprehensive fault-finding services to diagnose any issues effectively. We conduct eligibility assessments and provide detailed quotations to resolve any concerns with your system.</li>
-                  <li> <strong>  Hob Repair Service: </strong> We offer efficient repair services for all cooking hob components. Our team quickly addresses leaks, electrical failures, and system malfunctions.</li>
-                  <li> <strong> Hob Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for the yearly maintenance of your induction hob.</li>
+                  <li> <strong>Hob Installation: </strong>We provide professional installation of various types and brands of induction hobs to ensure optimal performance and efficiency.</li>
+                  <li> <strong>Hob Diagnostics: </strong>Our team offers comprehensive fault-finding services to diagnose any issues effectively. We conduct eligibility assessments and provide detailed quotations to resolve any concerns with your system.</li>
+                  <li> <strong>Hob Repair Service: </strong>We offer efficient repair services for all cooking hob components. Our team quickly addresses leaks, electrical failures, and system malfunctions.</li>
+                  <li> <strong>Hob Annual Maintenance Contract: </strong>This contract outlines the terms and services covered for the yearly maintenance of your induction hob.</li>
 
                   <p className="mb-0">
                     <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for the optimal performance, efficiency, and longevity of your hob. Feel free to reach out if you need specific services or have any questions!
@@ -561,14 +560,14 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
             <h3>We specialise in Hob services for the following brands </h3>
             <div className="row">
               <div className="col-12">
-                <p className="mb-0"><a href="https://www.fajservices.ae/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/"><strong>  Smeg Hob Repair </strong></a>: FAJ is here to support you when things go wrong. We understand that your Smeg induction hob is essential for daily life, helping you prepare meals quickly and efficiently.</p>
-                <p className="mb-0"><a href="https://www.fajservices.ae/siemens-home-appliance-installation-maintenance-repair-fix-service-in-dubai/"><strong>  Siemens Induction Hob Repair </strong></a>: If you are facing any problems with your Siemens hob, oven, stove, refrigerator, washer dryer, or dishwasher, contact the FAJ team for same-day repair service in Dubai.</p>
-                <p className="mb-0"><a href="https://www.fajservices.ae/la-germania-cooking-range-repair-in-dubai-la-germania-oven-repair-in-dubai-la-germania-cooker-repair-in-dubai-la-germania-cooker-oven-maintenance-service-in-dubai-refrigerator-repair-in-dubai-fridge-r/"><strong>  La Germania Hob Repair </strong></a>: When you need La Germania hob repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE. </p>
-                <p className="mb-0"><a href="https://www.fajservices.ae/bosch-home-appliances-repair/"><strong>  Bosch Hob Repair </strong></a>: If you are looking for the best Bosch induction hob repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch home appliance and are recognized as the leading Bosch hob service provider in the area.</p>
-                <p className="mb-0"><a href="https://www.fajservices.ae/viking-appliances-service/"><strong>  Viking Range Repair </strong></a>: Your Viking appliances may require repair or maintenance, and we can help. For high-quality Viking range repair in Dubai, rely on FAJ. </p>
-                <p className="mb-0"><a href="https://www.fajservices.ae/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/"><strong>  Daewoo Hob Repair </strong></a>: We provide expert services for Daewoo hob repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo hob, cooking range, refrigerator, washing machine, dryer and more. </p>
-                <p className="mb-0"><a href="https://www.fajservices.ae/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub/"><strong>  Neff Hob Repair </strong></a>: Are you concerned about your Neff induction hob malfunctioning and searching for a reliable Neff induction hob repair company in Dubai? Contact us for same-day service!</p>
-                <p className=""><a href="https://www.fajservices.ae/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/"><strong>  Teka Induction Hob Repair </strong></a>: If you're searching for the best Teka induction hob repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka gas stove, refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.</p>
+                <p className="mb-0"><a href="https://www.fajservices.ae/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/"><strong>  Smeg Hob Repair</strong></a>: FAJ is here to support you when things go wrong. We understand that your Smeg induction hob is essential for daily life, helping you prepare meals quickly and efficiently.</p>
+                <p className="mb-0"><a href="https://www.fajservices.ae/siemens-home-appliance-installation-maintenance-repair-fix-service-in-dubai/"><strong>  Siemens Induction Hob Repair</strong></a>: If you are facing any problems with your Siemens hob, oven, stove, refrigerator, washer dryer, or dishwasher, contact the FAJ team for same-day repair service in Dubai.</p>
+                <p className="mb-0"><a href="https://www.fajservices.ae/la-germania-cooking-range-repair-in-dubai-la-germania-oven-repair-in-dubai-la-germania-cooker-repair-in-dubai-la-germania-cooker-oven-maintenance-service-in-dubai-refrigerator-repair-in-dubai-fridge-r/"><strong>  La Germania Hob Repair</strong></a>: When you need La Germania hob repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE. </p>
+                <p className="mb-0"><a href="https://www.fajservices.ae/bosch-home-appliances-repair/"><strong>  Bosch Hob Repair</strong></a>: If you are looking for the best Bosch induction hob repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch home appliance and are recognized as the leading Bosch hob service provider in the area.</p>
+                <p className="mb-0"><a href="https://www.fajservices.ae/viking-appliances-service/"><strong>  Viking Range Repair</strong></a>: Your Viking appliances may require repair or maintenance, and we can help. For high-quality Viking range repair in Dubai, rely on FAJ. </p>
+                <p className="mb-0"><a href="https://www.fajservices.ae/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/"><strong>  Daewoo Hob Repair</strong></a>: We provide expert services for Daewoo hob repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo hob, cooking range, refrigerator, washing machine, dryer and more. </p>
+                <p className="mb-0"><a href="https://www.fajservices.ae/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub/"><strong>  Neff Hob Repair</strong></a>: Are you concerned about your Neff induction hob malfunctioning and searching for a reliable Neff induction hob repair company in Dubai? Contact us for same-day service!</p>
+                <p className=""><a href="https://www.fajservices.ae/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/"><strong>  Teka Induction Hob Repair</strong></a>: If you're searching for the best Teka induction hob repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka gas stove, refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.</p>
               
 
                 <p><a href="/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/">AEG</a>

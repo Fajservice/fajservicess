@@ -16,6 +16,7 @@ import testimonial_data from '../../Data/AcData/AcTestimonial/AcServiceTestimoni
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../Headeform/HeaderForm";
+import FAJACPrice from "../Miscellaneous/FAJACPrice";
 
 
 const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => { 
@@ -121,7 +122,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
 
         {/* Select Air Conditioner Repair & Service*/}
-        <section className="section cs_py_30 bg-light-gray mb-4">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
@@ -165,7 +166,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descriptio
           </div>
         </section>
 
-        
+        <FAJACPrice />
        
 
         {/*FAJ: Creating the Perfect Temperature All Year Round */}
@@ -428,17 +429,17 @@ Typically, regular cleaning service of your Carrier VRF (Variable Refrigerant Fl
                   <span>&nbsp;-&nbsp;</span>
                   <Link to="#">Carrier AC Repair</Link>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/midea-ac-installation-maintenance-repair-fix-service-in-dubai/">Midea Air Conditioner Repair Service Near Me</Link>
+                  <a href="/midea-ac-installation-maintenance-repair-fix-service-in-dubai/">Midea Air Conditioner Repair Service Near Me</a>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/lennox-ac-repair-in-dubai-lennox-ac-maintenance-in-dubai-lennox-ac-fix-in-dubai-lennox-ac-service-in-dubai-lennox-air-condition-repair-in-dubai-lennox-air-condition-maintenance-in-dubai-lennox-air-con/">Lennox Air Conditioning Repair</Link>
+                  <a href="/lennox-ac-repair-in-dubai-lennox-ac-maintenance-in-dubai-lennox-ac-fix-in-dubai-lennox-ac-service-in-dubai-lennox-air-condition-repair-in-dubai-lennox-air-condition-maintenance-in-dubai-lennox-air-con/">Lennox Air Conditioning Repair</a>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/goodman-ac-repair-in-dubai-goodman-ac-maintenance-in-dubai-goodman-ac-fix-in-dubai-goodman-ac-service-in-dubai-goodman-air-condition-repair-in-dubai-goodman-air-condition-maintenance-in-dubai-goodman/">Goodman AC Repair Dubai</Link>
+                  <a href="/goodman-ac-repair-in-dubai-goodman-ac-maintenance-in-dubai-goodman-ac-fix-in-dubai-goodman-ac-service-in-dubai-goodman-air-condition-repair-in-dubai-goodman-air-condition-maintenance-in-dubai-goodman/">Goodman AC Repair Dubai</a>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/coleman-ac-repair-in-dubai-coleman-ac-maintenance-in-dubai-coleman-ac-fix-in-dubai-coleman-ac-service-in-dubai-coleman-air-condition-repair-in-dubai-coleman-air-condition-maintenance-in-dubai-coleman/">Coleman AC Reapair Services</Link>
+                  <a href="/coleman-ac-repair-in-dubai-coleman-ac-maintenance-in-dubai-coleman-ac-fix-in-dubai-coleman-ac-service-in-dubai-coleman-air-condition-repair-in-dubai-coleman-air-condition-maintenance-in-dubai-coleman/">Coleman AC Reapair Services</a>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/westpoint-ac-repair-in-dubai-westpoint-ac-maintenance-in-dubai-westpoint-ac-fix-in-dubai-westpoint-ac-service-in-dubai-west-point-air-condition-repair-in-dubai-west-point-air-condition-maintenance-in/">Westpoint Repair</Link>
+                  <a href="/westpoint-ac-repair-in-dubai-westpoint-ac-maintenance-in-dubai-westpoint-ac-fix-in-dubai-westpoint-ac-service-in-dubai-west-point-air-condition-repair-in-dubai-west-point-air-condition-maintenance-in/">Westpoint Repair</a>
                   <span>&nbsp;-&nbsp;</span>
-                  <Link to="/aftron-ac-repair-maintenance-service-in-dubai-2/">Aftron AC Repair Service Near Me</Link>
+                  <a href="/aftron-ac-repair-maintenance-service-in-dubai-2/">Aftron AC Repair Service Near Me</a>
                   <span>&nbsp;-&nbsp;</span>
                   <Link to="/crafft-ac-repair-in-dubai-crafft-ac-maintenance-in-dubai-crafft-ac-fix-in-dubai-crafft-ac-service-in-dubai-crafft-air-condition-repair-in-dubai-crafft-air-condition-maintenance-in-dubai-crafft-air-con/">Crafft AC Repair</Link>
                   <span>&nbsp;-&nbsp;</span>
