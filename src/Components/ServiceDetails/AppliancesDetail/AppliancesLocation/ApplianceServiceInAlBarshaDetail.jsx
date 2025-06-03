@@ -1,10 +1,8 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
-import CallNowButton from '../../../Buttons/CallNowButton.jsx';
-import GetQuoteButton from "../../../Buttons/GetQuoteButton.jsx";
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton.jsx";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract.jsx";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol.jsx";
@@ -138,7 +136,6 @@ const ApplianceServiceInAlBarshaDetail = ({ subtitle, title, reviewsbg, titleSeo
                 <section className="section cs_py_30">
                     <div className="container">
                         <h1 className="cs_fs_30">Home Appliance Service in Al Barsha</h1>
-                        {/* <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2> */}
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
@@ -161,8 +158,8 @@ const ApplianceServiceInAlBarshaDetail = ({ subtitle, title, reviewsbg, titleSeo
 
                                 <p className="mb-2">
                                     If you need appliance repair, FAJ is your best choice for fast and affordable service in Al Barsha Dubai and Sharjah.
-                                    <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
-                                    <br /> We're nearby and can get your appliances fixed quickly and efficiently.
+                                    <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that&apos;s not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
+                                    <br /> We&apos;re nearby and can get your appliances fixed quickly and efficiently.
                                 </p>
 
                                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service
@@ -175,6 +172,33 @@ const ApplianceServiceInAlBarshaDetail = ({ subtitle, title, reviewsbg, titleSeo
                             </div>
                         </div>
                         <AppliancesAppointmentCol></AppliancesAppointmentCol>
+                    </div>
+                </section>
+
+                {/* Why is Appliance Maintenance Service Important in Dubai? */}
+                <section className="section cs_py_30 bg-light-gray">
+                    <div className="container">
+                        <h3 className="cs_fs_30">Why is Appliance Maintenance Service Important in Dubai?</h3>
+                        <p className="">
+                            Proper appliance maintenance is essential for extending lifespan and enhancing efficiency, especially in Dubai’s climate. Here are the main benefits:
+                        </p>
+
+                        <div className="row align-items-center">
+                            <div className="col-md-6">
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} loading="lazy" alt="Post Image" />
+                            </div>
+                            <div className="col-md-6">
+                                <ul className="mb-0">
+                                    <li> <strong>  Extended Lifespan: </strong> Regular maintenance helps appliances last longer, saving on replacement costs.</li>
+                                    <li> <strong>  Improved Efficiency: </strong> Well-maintained appliances use less energy, leading to lower utility bills, which is essential in Dubai. </li>
+                                    <li> <strong>  Preventing Costly Repair: </strong> Catching minor issues early prevents them from escalating into expensive repair. </li>
+                                    <li> <strong>  Preserving Appliance Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
+                                    <li> <strong>  Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious.</li>
+                                    <li> <strong>  Cost-Effective: </strong> Maintenance costs are lower than early replacements or major repair. Investing in appliance care ensures safety and efficiency and is a smart economic choice in Dubai.</li>
+                                    <li> <strong>  Energy Efficiency: </strong> Regularly maintaining your appliances, can improve their efficiency and save you money.</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </section>
 
@@ -285,32 +309,7 @@ const ApplianceServiceInAlBarshaDetail = ({ subtitle, title, reviewsbg, titleSeo
                     </div>
                 </section>
 
-                {/* Why is Appliance Maintenance Service Important in Dubai? */}
-                <section className="section cs_py_30 bg-light-gray">
-                    <div className="container">
-                        <h3 className="cs_fs_30">Why is Appliance Maintenance Service Important in Dubai?</h3>
-                        <p className="">
-                            Proper appliance maintenance is essential for extending lifespan and enhancing efficiency, especially in Dubai’s climate. Here are the main benefits:
-                        </p>
-
-                        <div className="row align-items-center">
-                            <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} loading="lazy" alt="Post Image" />
-                            </div>
-                            <div className="col-md-6">
-                                <ul className="mb-0">
-                                    <li> <strong>  Extended Lifespan: </strong> Regular maintenance helps appliances last longer, saving on replacement costs.</li>
-                                    <li> <strong>  Improved Efficiency: </strong> Well-maintained appliances use less energy, leading to lower utility bills, which is essential in Dubai. </li>
-                                    <li> <strong>  Preventing Costly Repair: </strong> Catching minor issues early prevents them from escalating into expensive repair. </li>
-                                    <li> <strong>  Preserving Appliance Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
-                                    <li> <strong>  Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious.</li>
-                                    <li> <strong>  Cost-Effective: </strong> Maintenance costs are lower than early replacements or major repair. Investing in appliance care ensures safety and efficiency and is a smart economic choice in Dubai.</li>
-                                    <li> <strong>  Energy Efficiency: </strong> Regularly maintaining your appliances, can improve their efficiency and save you money.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                
 
                 {/* The Benefits Of appliances Service Dubai */}
                 <section className="section cs_py_30 appliances-benifit-sec">
@@ -611,7 +610,7 @@ const ApplianceServiceInAlBarshaDetail = ({ subtitle, title, reviewsbg, titleSeo
                 {/* FAQ's */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
                     <div className="container">
-                        <h3 className="cs_fs_30 text-light">FAQ's</h3>
+                        <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
                         <div className="cs_accordians_wrapper cs_style_1 p-0">
 
@@ -625,7 +624,6 @@ const ApplianceServiceInAlBarshaDetail = ({ subtitle, title, reviewsbg, titleSeo
                                         </span>
                                     </div>
                                     <div className="cs_accordian_body" ref={accordionContentRef}>
-                                        {/* <p className="mb-0">{item.desc.replace(/\n/g, '<br>')}</p> */}
                                         <p className="mb-0"
                                             dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
                                         ></p>

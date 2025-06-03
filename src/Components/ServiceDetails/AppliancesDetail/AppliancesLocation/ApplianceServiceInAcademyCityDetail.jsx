@@ -310,42 +310,6 @@ const ApplianceServiceInAcademyCityDetail = ({ subtitle, title, reviewsbg, title
                     </div>
                 </section>
 
-                {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
-                <section className="section cs_py_30">
-                    <div className="container">
-                        <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h3>
-
-                        <div className="row align-items-center">
-                            <div className="col-xl-6">
-                                <p className='mb-0'>We specialize in all types and brands of home appliances, including built-in units.</p>
-                                <p className='mb-0'><strong>Our services include:</strong></p>
-                                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                                    <li> <strong>  Installation: </strong> Expert installation of various types and brands of home appliances, ensuring optimal performance and efficiency. </li>
-                                    <li> <strong> Diagnostics: </strong> Comprehensive fault-finding services to effectively diagnose issues. We provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
-                                    <li> <strong> Repair Service: </strong> Efficient repair services for all appliance components, ensuring a quick resolution to issues such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions! </li>
-                                    <li> <strong> Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for
-                                        the annual maintenance of your appliances. </li>
-                                    <p className="mb-0">
-                                        <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for optimal performance, efficiency, and longevity of your home appliances.
-                                    </p>
-                                </ul>
-                            </div>
-                            <div className="col-xl-6">
-                                <iframe
-                                    className="bordered-img blue-border"
-                                    width="100%"
-                                    height="350"
-                                    src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
-                                    title="YouTube video player"
-                                    frameBorder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowFullScreen
-                                ></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </section >
-
                 {/* The Benefits Of appliances Service Dubai */}
                 <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
                     <div className="container">
@@ -431,6 +395,42 @@ const ApplianceServiceInAcademyCityDetail = ({ subtitle, title, reviewsbg, title
                         </div>
                     </div>
                 </section>
+
+                {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
+                <section className="section cs_py_30">
+                    <div className="container">
+                        <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h3>
+
+                        <div className="row align-items-center">
+                            <div className="col-xl-6">
+                                <p className='mb-0'>We specialize in all types and brands of home appliances, including built-in units.</p>
+                                <p className='mb-0'><strong>Our services include:</strong></p>
+                                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
+                                    <li> <strong>  Installation: </strong> Expert installation of various types and brands of home appliances, ensuring optimal performance and efficiency. </li>
+                                    <li> <strong> Diagnostics: </strong> Comprehensive fault-finding services to effectively diagnose issues. We provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
+                                    <li> <strong> Repair Service: </strong> Efficient repair services for all appliance components, ensuring a quick resolution to issues such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions! </li>
+                                    <li> <strong> Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for
+                                        the annual maintenance of your appliances. </li>
+                                    <p className="mb-0">
+                                        <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for optimal performance, efficiency, and longevity of your home appliances.
+                                    </p>
+                                </ul>
+                            </div>
+                            <div className="col-xl-6">
+                                <iframe
+                                    className="bordered-img blue-border"
+                                    width="100%"
+                                    height="350"
+                                    src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
+                                    title="YouTube video player"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowFullScreen
+                                ></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </section >       
 
                 {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
                 <section className="section cs_py_30">
