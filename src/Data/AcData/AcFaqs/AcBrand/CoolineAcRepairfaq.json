@@ -1,58 +1,46 @@
 [
-  {  
-    "title": "How much is AC service in Dubai?",
-    "desc": "AC service in Dubai typically costs between AED 230 to AED 765 depending on the type of service. Prices vary based on the unit's size and condition, as well as the service provider."
+  {
+    "title": "When should I do AC maintenance?",
+    "desc": "According to FAJ Engineer Malik Tayyeb, it’s recommended to service your Cooline AC twice a year—once in the spring and once in the fall. This ensures the system is clean, efficient, and functioning properly."
   },
   {
-    "title": "Why is my AC not cooling in Dubai?",
-    "desc": "Your AC may not be cooling due to dirty filters, low refrigerant levels, or a malfunctioning compressor. A professional technician can diagnose and resolve the issue quickly."
+    "title": "How many times does Cooline AC need to be serviced?",
+    "desc": "Service your Cooline air conditioner at least twice a year, especially before summer. Regular maintenance supports performance and prevents costly repairs due to wear or electronic faults."
   },
   {
-    "title": "Why is AC repair so expensive?",
-    "desc": "AC repairs can be expensive due to the high cost of parts (like compressors or coils) and specialized labor. The complexity of the repairs and Dubai’s climate, which demands frequent AC use, also adds to the cost."
+    "title": "How do I reset my Cooline AC error?",
+    "desc": "Press the TEST button until you hear a click. Then press the RESET button to restore the unit to normal operation."
   },
   {
-    "title": "Why is my AC giving cool air but not cooling?",
-    "desc": "If your AC is blowing cool air but not cooling the room, it could be due to issues like low refrigerant or clogged filters. A technician can fix this with a proper inspection and maintenance."
+    "title": "Why is my Cooline air conditioner blinking?",
+    "desc": "A blinking blue light often signals a temperature sensor issue. It may be malfunctioning or failing to accurately detect room temperature."
   },
   {
-    "title": "How often should AC be cleaned in Dubai?",
-    "desc": "AC units in Dubai should be cleaned every 3-6 months due to high dust levels in the environment. More frequent cleaning may be necessary for homes in dusty areas or with heavy AC use."
+    "title": "Why is my Cooline AC showing EL and OC?",
+    "desc": "The 'EC' or 'EL 0C' error typically points to low refrigerant levels. This can result from improperly opened outdoor unit valves, preventing proper refrigerant flow during a new installation."
   },
   {
-    "title": "Which company is best for central AC?",
-    "desc": "F A J Technical Services L.L.C. is one of the best companies for central AC services in Dubai. We offer reliable, professional services to ensure your system runs efficiently."
+    "title": "What is the Cooline AC oC fault code?",
+    "desc": "The oC code indicates an overcurrent fault, triggered when output current exceeds 180–200% of the rated level. This could be caused by an overloaded or overworked system."
   },
   {
-    "title": "What maintenance is needed for AC?",
-    "desc": "AC maintenance includes tasks like cleaning or replacing air filters, checking refrigerant levels, and cleaning coils and drain lines. Regular upkeep ensures your system runs efficiently and prolongs its lifespan."
+    "title": "Why is my Cooline air conditioner not turning on?",
+    "desc": "Ensure the power cord is securely connected. If it's plugged in but not working, check the breaker box for tripped circuits and reset them if needed."
   },
   {
-    "title": "How can I maintain my AC?",
-    "desc": "Maintain your AC by regularly cleaning or replacing filters, checking for airflow issues, and scheduling professional servicing every 6 months. This helps to improve performance and prevent costly repairs."
+    "title": "What is the error EP in Cooline Air Conditioning?",
+    "desc": "The EP code refers to a discharge temperature sensor fault on the copper pipe, indicating a failure in detecting or regulating the discharge temperature."
   },
   {
-    "title": "What is routine AC maintenance?",
-    "desc": "Routine AC maintenance typically involves cleaning filters, inspecting the refrigerant, cleaning the coils, and checking the system’s overall performance. Regular maintenance keeps your AC running smoothly."
+    "title": "How to fix Cooline aircon?",
+    "desc": "1. Turn off power for a few minutes and restart.\n2. Clean or replace dirty air filters.\n3. Inspect wiring and sensor connections between units.\n4. Check temperature sensors for proper function."
   },
   {
-    "title": "How do I fix my air conditioner that is not cooling?",
-    "desc": "To fix an AC not cooling, check the thermostat, clean or replace the air filter, and ensure the outdoor unit is clear. If issues persist, inspect refrigerant levels, ice buildup, or compressor issues—contact a professional if needed."
+    "title": "What does AC fault mean?",
+    "desc": "An AC fault refers to abnormal current flow from an electrical source. Even without direct connection, alternating current can affect nearby structures, such as pipelines close to power lines."
   },
   {
-    "title": "How often should an air conditioner be serviced?",
-    "desc": "An air conditioner should be serviced at least once a year to maintain optimal performance. In hot climates like Dubai, servicing every 6 months is recommended to ensure efficiency and extend the unit's lifespan."
-  },
-  {
-    "title": "Is AC duct cleaning important in Dubai?",
-    "desc": "Yes, AC duct cleaning is important in Dubai as it improves indoor air quality, increases system efficiency, and prevents the build-up of dust and allergens. Regular cleaning helps your AC perform better."
-  },
-  {
-    "title": "Is AC duct cleaning worth it?",
-    "desc": "Yes, AC duct cleaning is worth it because it enhances air quality, improves the performance of your system, and helps extend the life of your AC unit. It’s a cost-effective investment for long-term benefits."
-  },
-  {
-    "title": "How often should AC ducts be cleaned?",
-    "desc": "AC ducts should be cleaned every 2-3 years, or more frequently if you notice dust accumulation, poor airflow, or a musty smell. Regular cleaning ensures better air quality and system efficiency."
+    "title": "What are error codes in AC?",
+    "desc": "Example AC error codes:\n3-0: Temporary stop due to dehumidifying\n5-0: Heat exchanger thermistor open\n5-1: Outdoor temperature thermistor open\n5-2: Suction thermistor open"
   }
 ]
