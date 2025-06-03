@@ -12,6 +12,7 @@ import brandsLogo_data from '../../../../Data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages.jsx";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
+import ApplianceSpecialise from "./Appliance specialise/ApplianceSpecialise.jsx";
 
 const AppliancesServicesInAlSufouhDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
     // For SEO
@@ -522,7 +523,7 @@ const AppliancesServicesInAlSufouhDetail = ({ subtitle, title, reviewsbg, titleS
                 </section>
 
                 {/* We are specialise in Appliances services for the following brands */}
-                <ApplianceSpecialise />
+                <ApplianceSpecialise  />
 
                 {/* Brands section */}
                 <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
