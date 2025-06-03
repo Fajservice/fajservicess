@@ -3,14 +3,12 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../Data/ElectricalPlumbingServiceFAQs.json';
-
-import { HelmetProvider } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import CallNowButton from '../Buttons/CallNowButton';
 import GetQuoteButton from "../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
-
 import Slider from "react-slick";
 import testimonial_data from '../../Data/ElectricalPlumbingServicesTestimonials.json';
 import loadBackgroudImages from "../Common/loadBackgroudImages";
@@ -18,16 +16,16 @@ import parse from 'html-react-parser';
 import HeaderForm from "../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../ApplianceCommons/AppliancesAppointmentCol";
 
-// import { Link } from "react-router-dom";
 
 const ElectricalPlumbingServiceDetail = ({ subtitle, title, bgImg }) => {
 
   // For SEO
-  const titleSeo = "title";
-  const description = "Faj Technical Servcies";
-  const Author = "Faj Technical Servcies";
-  const Keyword = "";
-  const URL = "https://www.fajservices.ae/";
+  const metatitle = String(titleSeo || "Electrical Plumbung Services in dubai");
+  const metadescription = String(description || "dubai");
+  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaKeyword = String(Keyword || "");
+  const metaURL = String(URL || "https://www.fajservices.ae/electrical-plumbing-service/");
+
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -124,18 +122,19 @@ const ElectricalPlumbingServiceDetail = ({ subtitle, title, bgImg }) => {
     <>
 
       <HelmetProvider>
-        <title>{titleSeo}</title>
-        <meta name="description" content={description}></meta>
-        <meta name="keywords" content={Keyword} />
-        <meta name="author" content={Author} />
-        <meta name="robots" content="index, follow" />
-        <Link rel="canonical" href={titleSeo} />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:title" content={titleSeo} />
-        <meta property="og:description" content={description} />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={URL} />
+        <Helmet>
+          <title>{metatitle}</title>
+          <meta name="description" content={metadescription}></meta>
+          <meta name="keywords" content={metaKeyword} />
+          <meta name="author" content={metaAuthor} />
+          <meta name="robots" content="index, follow" />
+          <link rel="canonical" href={metaURL} />
+          <meta property="og:type" content="website" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:title" content={metatitle} />
+          <meta property="og:description" content={metadescription} />
+          <meta property="og:url" content={metaURL} />
+        </Helmet>
       </HelmetProvider>
       <HeaderForm />
 
@@ -187,7 +186,7 @@ const ElectricalPlumbingServiceDetail = ({ subtitle, title, bgImg }) => {
               </div>
 
               <div className="col-md-6 ">
-               
+
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/dishwasher.avif`} alt="Post Image" />
 
               </div>
