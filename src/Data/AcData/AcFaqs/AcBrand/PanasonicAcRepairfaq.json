@@ -1,58 +1,58 @@
 [
-  {  
-    "title": "How much is AC service in Dubai?",
-    "desc": "AC service in Dubai typically costs between AED 230 to AED 765 depending on the type of service. Prices vary based on the unit's size and condition, as well as the service provider."
+  {
+    "title": "What are F1, F2, and F3 in Panasonic AC?",
+    "desc": "These are not error codes. If the unit displays F1, F2, or F3, it means the AC is in FAN mode, and the number represents the set fan speed. This is a normal operating condition."
   },
   {
-    "title": "Why is my AC not cooling in Dubai?",
-    "desc": "Your AC may not be cooling due to dirty filters, low refrigerant levels, or a malfunctioning compressor. A professional technician can diagnose and resolve the issue quickly."
+    "title": "What does E4 mean on a Panasonic air conditioner?",
+    "desc": "E4 indicates that the unit is in defrost mode, which is normal during low-temperature operation. However, it could also point to a faulty temperature sensor if it occurs too frequently."
   },
   {
-    "title": "Why is AC repair so expensive?",
-    "desc": "AC repairs can be expensive due to the high cost of parts (like compressors or coils) and specialized labor. The complexity of the repairs and Dubai’s climate, which demands frequent AC use, also adds to the cost."
+    "title": "What is the common problem of a Panasonic air conditioner?",
+    "desc": "Frequent issues include cooling inefficiency, water leaks, strange noises, and error codes. These can be caused by refrigerant leaks, sensor faults, or compressor problems."
   },
   {
-    "title": "Why is my AC giving cool air but not cooling?",
-    "desc": "If your AC is blowing cool air but not cooling the room, it could be due to issues like low refrigerant or clogged filters. A technician can fix this with a proper inspection and maintenance."
+    "title": "Why is my Panasonic AC suddenly not cooling?",
+    "desc": "This could be due to dirty air filters, incorrect thermostat settings, or other internal faults. Clean or replace the filters and ensure the thermostat is set correctly."
+  },
+  {
+    "title": "How do I troubleshoot my Panasonic air conditioner?",
+    "desc": "Start by verifying the thermostat is set to cool mode. Then check and clean the air filter. If problems persist, it may require a professional inspection."
+  },
+  {
+    "title": "What happens if an air conditioner is not serviced?",
+    "desc": "Neglecting AC servicing leads to reduced performance, higher electricity bills, and potential breakdowns. It may also shorten the lifespan of the unit."
+  },
+  {
+    "title": "How do you know AC needs servicing?",
+    "desc": "Signs include blowing warm air, poor airflow, strange noises, and visible dirt on filters or coils. Professional inspection may be required for refrigerant or electrical issues."
+  },
+  {
+    "title": "Why is my AC not cooling after service?",
+    "desc": "This may happen due to remaining issues like clogged filters, refrigerant leaks, faulty thermostat, dirty coils, frozen components, or blocked air ducts."
+  },
+  {
+    "title": "How much does it cost to clean AC in Dubai?",
+    "desc": "Costs range based on unit size:\n- Regular Cleaning: AED 230–580\n- Deep Cleaning: AED 380–830\n- Duct Cleaning & Sanitization: from AED 580\n- Installation: AED 175/hour\n- Repair: AED 150/hour"
   },
   {
     "title": "How often should AC be cleaned in Dubai?",
-    "desc": "AC units in Dubai should be cleaned every 3-6 months due to high dust levels in the environment. More frequent cleaning may be necessary for homes in dusty areas or with heavy AC use."
-  },
-  {
-    "title": "Which company is best for central AC?",
-    "desc": "F A J Technical Services L.L.C. is one of the best companies for central AC services in Dubai. We offer reliable, professional services to ensure your system runs efficiently."
-  },
-  {
-    "title": "What maintenance is needed for AC?",
-    "desc": "AC maintenance includes tasks like cleaning or replacing air filters, checking refrigerant levels, and cleaning coils and drain lines. Regular upkeep ensures your system runs efficiently and prolongs its lifespan."
-  },
-  {
-    "title": "How can I maintain my AC?",
-    "desc": "Maintain your AC by regularly cleaning or replacing filters, checking for airflow issues, and scheduling professional servicing every 6 months. This helps to improve performance and prevent costly repairs."
-  },
-  {
-    "title": "What is routine AC maintenance?",
-    "desc": "Routine AC maintenance typically involves cleaning filters, inspecting the refrigerant, cleaning the coils, and checking the system’s overall performance. Regular maintenance keeps your AC running smoothly."
-  },
-  {
-    "title": "How do I fix my air conditioner that is not cooling?",
-    "desc": "To fix an AC not cooling, check the thermostat, clean or replace the air filter, and ensure the outdoor unit is clear. If issues persist, inspect refrigerant levels, ice buildup, or compressor issues—contact a professional if needed."
-  },
-  {
-    "title": "How often should an air conditioner be serviced?",
-    "desc": "An air conditioner should be serviced at least once a year to maintain optimal performance. In hot climates like Dubai, servicing every 6 months is recommended to ensure efficiency and extend the unit's lifespan."
+    "desc": "Due to constant use, it is recommended to clean your AC 3 to 5 times a year. One major and up to four minor maintenance sessions annually are advised."
   },
   {
     "title": "Is AC duct cleaning important in Dubai?",
-    "desc": "Yes, AC duct cleaning is important in Dubai as it improves indoor air quality, increases system efficiency, and prevents the build-up of dust and allergens. Regular cleaning helps your AC perform better."
+    "desc": "Yes. Clean ducts improve air quality and prevent health issues. In Dubai’s dusty climate, duct cleaning is essential for maintaining a healthy indoor environment."
   },
   {
-    "title": "Is AC duct cleaning worth it?",
-    "desc": "Yes, AC duct cleaning is worth it because it enhances air quality, improves the performance of your system, and helps extend the life of your AC unit. It’s a cost-effective investment for long-term benefits."
+    "title": "Why is AC repair so expensive?",
+    "desc": "High repair costs include technician labor and backend support (e.g., customer service, scheduling, admin). Difficult-to-access units also increase the job's complexity and time."
   },
   {
-    "title": "How often should AC ducts be cleaned?",
-    "desc": "AC ducts should be cleaned every 2-3 years, or more frequently if you notice dust accumulation, poor airflow, or a musty smell. Regular cleaning ensures better air quality and system efficiency."
+    "title": "Can I sleep with wet hair in AC?",
+    "desc": "Sleeping with wet hair under AC is not recommended. It can lead to hair breakage, bacterial growth on the scalp, and worsened dandruff. Always dry your hair before sleeping."
+  },
+  {
+    "title": "Is it OK for an air conditioner to get wet?",
+    "desc": "Yes. Outdoor AC units are designed to handle rain and moisture. Their components are weather-resistant and can function normally under standard outdoor conditions."
   }
 ]

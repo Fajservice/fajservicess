@@ -1,58 +1,50 @@
 [
-  {  
-    "title": "How much is AC service in Dubai?",
-    "desc": "AC service in Dubai typically costs between AED 230 to AED 765 depending on the type of service. Prices vary based on the unit's size and condition, as well as the service provider."
+  {
+    "title": "What are the reasons for AC Ruud not cooling?",
+    "desc": "Common reasons include:\n- Thermostat is set incorrectly\n- Dirty air filter\n- Blocked outdoor condenser unit\n- Damaged heat pump\n- Frozen evaporator coil\n- Refrigerant leak\n- Undersized air conditioner"
   },
   {
-    "title": "Why is my AC not cooling in Dubai?",
-    "desc": "Your AC may not be cooling due to dirty filters, low refrigerant levels, or a malfunctioning compressor. A professional technician can diagnose and resolve the issue quickly."
+    "title": "Why is my central AC not working?",
+    "desc": "Check your main electrical panel for a tripped breaker or blown fuse. Also ensure your thermostat is set correctly, as incorrect settings can prevent the system from turning on."
   },
   {
-    "title": "Why is AC repair so expensive?",
-    "desc": "AC repairs can be expensive due to the high cost of parts (like compressors or coils) and specialized labor. The complexity of the repairs and Dubai’s climate, which demands frequent AC use, also adds to the cost."
+    "title": "How to maintain an AC unit?",
+    "desc": "Basic maintenance steps include:\n1. Shut off power\n2. Remove debris\n3. Clean and straighten fins\n4. Clean area around the unit\n5. Level the unit\n6. Clean evaporator coil and drain"
   },
   {
-    "title": "Why is my AC giving cool air but not cooling?",
-    "desc": "If your AC is blowing cool air but not cooling the room, it could be due to issues like low refrigerant or clogged filters. A technician can fix this with a proper inspection and maintenance."
-  },
-  {
-    "title": "How often should AC be cleaned in Dubai?",
-    "desc": "AC units in Dubai should be cleaned every 3-6 months due to high dust levels in the environment. More frequent cleaning may be necessary for homes in dusty areas or with heavy AC use."
-  },
-  {
-    "title": "Which company is best for central AC?",
-    "desc": "F A J Technical Services L.L.C. is one of the best companies for central AC services in Dubai. We offer reliable, professional services to ensure your system runs efficiently."
-  },
-  {
-    "title": "What maintenance is needed for AC?",
-    "desc": "AC maintenance includes tasks like cleaning or replacing air filters, checking refrigerant levels, and cleaning coils and drain lines. Regular upkeep ensures your system runs efficiently and prolongs its lifespan."
-  },
-  {
-    "title": "How can I maintain my AC?",
-    "desc": "Maintain your AC by regularly cleaning or replacing filters, checking for airflow issues, and scheduling professional servicing every 6 months. This helps to improve performance and prevent costly repairs."
-  },
-  {
-    "title": "What is routine AC maintenance?",
-    "desc": "Routine AC maintenance typically involves cleaning filters, inspecting the refrigerant, cleaning the coils, and checking the system’s overall performance. Regular maintenance keeps your AC running smoothly."
-  },
-  {
-    "title": "How do I fix my air conditioner that is not cooling?",
-    "desc": "To fix an AC not cooling, check the thermostat, clean or replace the air filter, and ensure the outdoor unit is clear. If issues persist, inspect refrigerant levels, ice buildup, or compressor issues—contact a professional if needed."
-  },
-  {
-    "title": "How often should an air conditioner be serviced?",
-    "desc": "An air conditioner should be serviced at least once a year to maintain optimal performance. In hot climates like Dubai, servicing every 6 months is recommended to ensure efficiency and extend the unit's lifespan."
+    "title": "How much does AC maintenance cost in Dubai?",
+    "desc": "Estimated maintenance costs:\n- AC Cleaning: AED 230+\n- Coil Cleaning: AED 250–680\n- Repairs: AED 1,000–4,000 depending on the issue"
   },
   {
     "title": "Is AC duct cleaning important in Dubai?",
-    "desc": "Yes, AC duct cleaning is important in Dubai as it improves indoor air quality, increases system efficiency, and prevents the build-up of dust and allergens. Regular cleaning helps your AC perform better."
+    "desc": "Yes. In dusty climates like Dubai, clean ducts are essential for good indoor air quality. Dirty systems can lead to allergies, respiratory issues, and inefficient cooling."
   },
   {
-    "title": "Is AC duct cleaning worth it?",
-    "desc": "Yes, AC duct cleaning is worth it because it enhances air quality, improves the performance of your system, and helps extend the life of your AC unit. It’s a cost-effective investment for long-term benefits."
+    "title": "How much is AC service in Dubai?",
+    "desc": "Typical service rates:\n- Regular Cleaning: AED 230\n- Duct Cleaning & Sanitization: from AED 550\n- Deep Coil Cleaning: AED 250–830\n- Repairs or Installation: AED 150/hour"
   },
   {
-    "title": "How often should AC ducts be cleaned?",
-    "desc": "AC ducts should be cleaned every 2-3 years, or more frequently if you notice dust accumulation, poor airflow, or a musty smell. Regular cleaning ensures better air quality and system efficiency."
+    "title": "How to check AC problems?",
+    "desc": "Troubleshooting tips:\n1. Check thermostat settings\n2. Close windows and doors\n3. Check circuit breakers\n4. Clean filters\n5. Call technician for gas leak\n6. Open air vents\n7. Clean ducts\n8. Inspect for water leaks"
+  },
+  {
+    "title": "Is AC included in Dewa?",
+    "desc": "In chiller-free apartments, AC is included in the rent. In District Cooling setups, tenants pay separately based on usage, capacity, and metering charges."
+  },
+  {
+    "title": "Can you turn AC off while on vacation?",
+    "desc": "Yes, if temperatures are mild. If it’s hot, set AC to around 80°F (27°C) to avoid heat damage to your home and electronics while saving energy."
+  },
+  {
+    "title": "How much is AC duct cleaning in Dubai?",
+    "desc": "Duct cleaning typically costs between AED 500 and AED 1,740 in Dubai, depending on property size and system condition."
+  },
+  {
+    "title": "What is Ruud AC error code?",
+    "desc": "Here are some common Ruud AC error codes:\nE0: Indoor EEPROM error\nE1: Communication failure\nE3: Indoor fan issue\nE4: Room temp sensor error\nE5: Coil sensor error\nEC: Refrigerant leak\nEE: Water level alarm\nF0–F5: Sensor or overload issues"
+  },
+  {
+    "title": "What is the 3 minute rule for air conditioners?",
+    "desc": "Always wait at least 3 minutes after turning the AC off before turning it back on. This prevents damage and ensures optimal performance. Also, reset the circuit breaker 24 hours before first summer use."
   }
 ]
