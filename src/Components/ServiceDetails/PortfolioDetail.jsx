@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Our Portfolio | AC Repair | Appliances Service Center Dubai");
-  const metadescription = String(description || "FAJ Technical Services LLC, established in 2010, offers supply, installation, and spare parts for air conditioning and refrigeration appliances in Dubai.");
+  const metadescription = String(description || "F A J Technical Services L.L.C, established in 2010, offers supply, installation, and spare parts for air conditioning and refrigeration appliances in Dubai.");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "FAJ Technical Service LLC Portfolio");
   const metaURL = String(URL || "https://www.fajservices.ae/our-portfolio/");
@@ -64,7 +64,7 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
 
         <section className="section cs_py_30">
           <div className="container">
-            <p>At FAJ Technical Services LLC, we are dedicated to providing comprehensive technical services, including installation, maintenance, and MEP services that enhance operational efficiency and sustainability. Our commitment to innovation and customer satisfaction aligns with your needs.</p>
+            <p>At F A J Technical Services L.L.C, we are dedicated to providing comprehensive technical services, including installation, maintenance, and MEP services that enhance operational efficiency and sustainability. Our commitment to innovation and customer satisfaction aligns with your needs.</p>
           </div>
         </section>
 
@@ -667,7 +667,7 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
                       </div>
                       <div className="col-lg-9 col-8">
                         <h5 className="portfolio-pjt-info-box-title">BAUMATIC MIDDLE EAST</h5>
-                        <p className="portfolio-pjt-info-box-para">FAJ Technical Services LLC, Authorized Baumatic Kitchen Appliances Service Partner & Service Center in UAE. <br /><strong>(Since: 2016-2019)</strong></p>
+                        <p className="portfolio-pjt-info-box-para">F A J Technical Services L.L.C, Authorized Baumatic Kitchen Appliances Service Partner & Service Center in UAE. <br /><strong>(Since: 2016-2019)</strong></p>
                       </div>
                     </div>
                   </div>

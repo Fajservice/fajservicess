@@ -3,7 +3,7 @@ import '../../assets/Timeline.css'; // Separate CSS for styling
 
 const timelineData = [
   {
-    title: 'FAJ Technical Services LLC',
+    title: 'F A J Technical Services L.L.C',
     date: '2010',
     // description: 'Enter the description that describes what needs to be done during this phase. It can be an elaborate description of text or a list of activities.',
    
