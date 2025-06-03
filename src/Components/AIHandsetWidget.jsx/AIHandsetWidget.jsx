@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import './AIHandsetWidget.css'; // Custom styles will be in this file
-import aiicon from '../../../public/img/icons/aiicon.png'
+// import aiicon from '../../../public/img/icons/aiicon.png'
 const AIHandsetWidget = () => {
     useEffect(() => {
         const popup = document.getElementById('ai-popup');
@@ -45,21 +45,21 @@ const AIHandsetWidget = () => {
                     style={{
                         width: '45px',
                         height: '45px',
-                        backgroundColor: '#4EADB7',
+                        backgroundColor: '#050A1E',
                         transition: 'all 0.3s',
                         position: 'relative',
                         right: '10px'
                     }}
                 >
-                    <div style={{ position: 'relative', width: '30px', height: '30px' }}>
+                    <div style={{ position: 'relative', width: '30px', height: '30px'}}>
                         <img
                             id="ai-icon"
-                            src={aiicon}
+                            src="https://cdn-icons-png.flaticon.com/128/724/724713.png"
                             alt="AI"
                             style={{
-                                width: '100%',
-                                height: '100%',
-                                filter: 'brightness(4) invert(1)',
+                                width: '90%',
+                                height: '90%',
+                                // filter: 'brightness(4) invert(1)',
                             }}
                         />
                         <span
@@ -71,11 +71,10 @@ const AIHandsetWidget = () => {
                                 fontSize: '10px',
                                 fontWeight: 'bold',
                                 color: 'white',
-                                textShadow: '0 1px 3px rgba(0,0,0,0.4)',
+                                // textShadow: '0 1px 3px rgba(231, 226, 226, 0.4)',
                                 pointerEvents: 'none',
                             }}
                         >
-                            AI
                         </span>
                     </div>
                 </div>

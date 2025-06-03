@@ -2,13 +2,9 @@ import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcBrand/RuudAcRepairfaq.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
-
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
-import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
-import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMaintenance";
-import QuickGuide from "../../../QuickGuide/QuickGuide";
-import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
+import WhatsappIconButton from "../../../Buttons/WhatsappIconButton"; 
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 import testimonial_data_Ruud from '../../../../Data/AcData/AcTestimonial/RuudAcServiceTestimonials.json';
 import parse from 'html-react-parser';
@@ -106,9 +102,8 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Ruud AC Repair in Dubai – Ruud AC Maintenance Service</h1>
-            <p>Our company, <a href="https://www.fajservices.ae/"> F A J Technical Services L.L.C</a>, has been established since 2010. We have a dedicated facilities team with extensive experience in AC repair, maintenance services, and installation in Dubai and Sharjah for various residential and commercial air conditioning units.
-              <br />
-              A Gree air conditioner is more than just a cooling device; it's essential for maintaining a comfortable indoor environment throughout the year. To ensure your unit operates at its best, regular servicing is crucial. We offer professional Gree air conditioner servicing in Dubai to keep your system running smoothly and efficiently.
+            <p>Maintaining comfort year-round involves effectively tackling different challenges, such as high humidity during the summer, warm nights, and indoor allergens.
+              <br />Since its establishment in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has become a trusted provider of Ruud air conditioning solutions in Dubai and Sharjah. Our experienced team offers a wide range of Ruud AC repair, cleaning service, including maintenance and installation for both residential and commercial spaces. We're dedicated to ensuring that your air conditioning operates at peak efficiency, ultimately enhancing your indoor comfort.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -125,11 +120,11 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Gree AC Maintenance and Servicing</h3>
+                <h3 className="cs_fs_24 mb-1">Ruud Air Conditioner Maintenance and Servicing</h3>
 
                 <p className="mb-2">
-                  When it comes to Gree <a href="/ac-repair-dubai/">AC repair</a>, it is important to hire a professional and reliable Gree AC technician for your home or office.
-                  <br />We specialise in Gree air conditioner (AC) repair, service, and maintenance throughout Dubai and Sharjah. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is committed to ensuring a comfortable temperature for you all year round.
+                  In Dubai, hiring skilled AC technicians for Ruud <a href="https://www.fajservices.ae/ac-repair-dubai/">AC repair</a> is essential! Our expert team proudly specializes in servicing Ruud AC systems throughout Dubai and Sharjah.
+                  We’re dedicated to providing reliable solutions that ensure your indoor space stays comfortable year-round and your system operates at peak efficiency.
                 </p>
 
                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
@@ -151,7 +146,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                 </div></div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac filter.avif`} loading="lazy" alt="Gree AC Service" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac filter.avif`} loading="lazy" alt="Rudd AC Service" />
               </div>
             </div>
             <AcAppointmentCol></AcAppointmentCol>
@@ -162,24 +157,26 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
         <section className="section cs_py_30">
           <div className="container">
 
-            <h3 className="cs_fs_30">Why is Gree AC Maintenance Service Important in Dubai?</h3>
+            <h3 className="cs_fs_30">Why is Ruud AC Maintenance Service Important in Dubai?</h3>
             <p className="mb-0">
-              Regular maintenance of Gree air conditioners (AC) in Dubai is essential for optimal performance. FAJ provides comprehensive services to ensure your system operates efficiently. With our proactive approach, you can be confident that your Gree AC is functioning at its best. If you need Gree <a href="/ac-maintenance-dubai/"> AC maintenance near you</a>, please contact us.
+              To ensure the efficient operation of your Ruud central air conditioner maintenance in Dubai's extreme heat, regular service is essential.
+              At FAJ, we offer expert AC services to ensure optimal cooling and comfort year-round.
+              Our team is dedicated to maximizing your system's performance.
+
             </p>
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/ac amc.avif`} loading="lazy" alt="Gree Airconditioner Repair" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/ac amc.avif`} loading="lazy" alt="Rudd Airconditioner Repair" />
               </div>
+
               <div className="col-md-6">
                 <ul className="mb-0">
-
-                  <li> <strong> Extreme Weather: </strong> In the summer, temperatures can exceed 40°C (104°F). Routine maintenance helps ensure that Gree air conditioner systems operate efficiently in these conditions.</li>
-                  <li> <strong> Energy Efficiency: </strong> A well-maintained Gree AC unit functions more efficiently, conserving energy and reducing electricity bills.</li>
-                  <li> <strong> Longevity of Equipment: </strong> Regular <strong> <a href="/ac-maintenance-dubai/">AC maintenance</a></strong> of your Gree air conditioner unit can extend its lifespan, reduce the need for costly repairs and replacements, and ultimately save you money.</li>
-                  <li> <strong> Improved Air Quality: </strong> Regular maintenance prevents the accumulation of dust and allergens, which helps to ensure cleaner air.</li>
-                  <li> <strong> Enhanced Comfort: </strong> Regular Gree <strong> <a href="/ac-service-in-dubai/" className="fw-">AC servicing in Dubai</a></strong> ensures comfort, efficiency, and consistent cooling daily.</li>
-
+                  <li> <strong> Extreme Weather: </strong> During excessively warm summer months, temperatures may exceed 40°C (104°F). It is essential to ensure that your Ruud air conditioning systems are operating effectively. </li>
+                  <li> <strong> Energy Efficiency: </strong> A well-maintained Ruud air conditioner runs efficiently, leading to significant energy savings and lower DEWA electricity costs. </li>
+                  <li> <strong> Longevity of Equipment: </strong> Regular Ruud <a href="https://www.fajservices.ae/ac-maintenance-dubai/">AC maintenance</a> is essential for optimal performance and efficiency, helping to reduce repair costs and save money for both residential and commercial properties. </li>
+                  <li> <strong> Improved Air Quality: </strong> Routine Ruud AC cleaning service not only prevents dust and allergens from entering our spaces, but also elevates the air quality we breathe and fosters a healthier environment. </li>
+                  <li> <strong> Enhanced Comfort: </strong> <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> of Ruud air conditioners in Dubai is essential for optimal comfort and efficiency, ensuring a pleasant indoor environment daily. </li>
                 </ul>
               </div>
             </div>
@@ -189,7 +186,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
         {/* Problems  */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="text-center">Common Gree AC Problems That May Require Maintenance</h3>
+            <h3 className="text-center">Common Ruud AC Problems That May Require Maintenance</h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
@@ -200,7 +197,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      If you notice decreased airflow from your vents, it may signal an issue with your Gree AC system, such as a blocked filter or a faulty fan.
+                      <a href="https://www.youtube.com/watch?v=qnByeIsc3lY">Reduced airflow</a> from Ruud AC ducts may mean a blocked filter or faulty motor. Promptly addressing these issues is essential for efficient cooling and extending the lifespan of your system.
                     </p>
                   </div>
                 </div>
@@ -213,7 +210,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      If your Gree AC is blowing warm or room temperature air instead of cold, it may indicate issues with the compressor, refrigerant, or ductwork.
+                      If your Ruud AC is blowing warm air, it may have problems with the compressor, gas levels, or ductwork.
 
                     </p>
                   </div>
@@ -227,8 +224,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Strange sounds such as grinding, squeaking, or banging from your Gree AC unit can indicate mechanical issues that need attention.
-
+                      Unusual sounds like grinding, squeaking, or banging from your Ruud AC may indicate mechanical issues that require attention.
                     </p>
                   </div>
                 </div>
@@ -242,9 +238,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Musty odors from the vents may signal mold or mildew in the system and should be addressed promptly.
-
-
+                      Unpleasant odors coming from the vents may indicate mold or mildew in the system and should be addressed immediately.
                     </p>
                   </div>
                 </div>
@@ -256,7 +250,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      The inability to maintain desired temperatures may indicate issues such as dirty filters, low refrigerant levels, or a faulty thermostat.
+                      The failure to maintain desired temperatures may indicate problems such as dirty filters, low refrigerant levels, or a malfunctioning thermostat.
                     </p>
                   </div>
                 </div>
@@ -268,7 +262,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      A Gree air conditioner that doesn’t effectively lower humidity may have cooling capacity issues or be operating improperly.
+                      A Ruud air conditioner that does not reduce humidity may have cooling capacity issues or may not be operating properly.
                     </p>
                   </div>
                 </div>
@@ -280,8 +274,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Water pooling around the Gree AC or dripping from vents may indicate a blocked condensate drain, frozen coils, or other issues.
-
+                      Water pooling around the Ruud AC or dripping from the vents may indicate a blocked drain or frozen coils.
                     </p>
                   </div>
                 </div>
@@ -293,7 +286,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      High energy bills without increased usage may indicate Gree AC inefficiency from dirty filters, duct leaks, or other issues.
+                      High energy bills without increased usage may indicate inefficiencies in Ruud air conditioning due to dirty filters or duct leaks.
                     </p>
                   </div>
                 </div>
@@ -311,7 +304,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
         {/* HERE  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR GREE AIR CONDITIONER SYSTEMS</h3>
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR Ruud AIR CONDITIONER SYSTEMS</h3>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -327,15 +320,17 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                 ></iframe>
               </div>
               <div className="col-xl-6">
-                <p className='mb-0'>We specialize in various types and brands of HVAC systems, including Fresh Air Handling Units (FAHU).</p>
+                <p className='mb-0'>We are offering central, ducted split systems, FAHU units, and package units, along with all major services in the UAE.</p>
                 <p className='mb-0'><strong>Our services include:</strong></p>
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                  <li> <strong> Gree AC Installation: </strong> Professional installation of various Gree AC systems for peak performance. </li>
-                  <li> <strong> Gree AC Diagnostics: </strong> Comprehensive fault finding to accurately diagnose issues. We offer eligibility assessments and detailed quotes to address any concerns with your system. </li>
-                  <li> <strong> Gree AC Repair Service: </strong> Prompt and effective repair services for all Gree AC components, addressing issues like leaks, electrical failures, and system malfunctions. Contact us for specific services or any questions you may have! </li>
-                  <li> <strong> Gree AC Annual Maintenance Contract: </strong> This contract details the terms and services for annual maintenance of Gree air conditioner units. </li>
+
+                  <li> <strong>  Ruud AC Installation: </strong> The professional installation of different Ruud air conditioning systems guarantees optimal performance. </li>
+                  <li> <strong>  Ruud AC Inspection: </strong> We provide precise fault diagnosis to identify system issues, along with detailed quotes and eligibility assessments to address your concerns. </li>
+                  <li> <strong>  Ruud AC Repair Service: </strong> We offer quick repair services for Ruud air conditioner, fixing leaks, electrical issues, and malfunctions. Contact us for more info! </li>
+                  <li> <strong>  Ruud AC Annual Maintenance Contract: </strong> The contract details the annual maintenance requirements for Ruud AC. </li>
+
                 </ul>
-                <p className="mb-0"> Regular maintenance is crucial for the optimal performance, efficiency, and longevity of your air conditioning system.</p>
+                <p className="mb-0"> Regular maintenance, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is essential for ensuring optimal performance and longevity.</p>
               </div>
 
             </div>
@@ -347,7 +342,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-10 text-center">
-                <h3 className="cs_fs_30 text-light">Benefits Of Regular Gree AC Service and Maintenance in Dubai </h3>
+                <h3 className="cs_fs_30 text-light">Benefits of Regular Ruud AC Service and Maintenance in Dubai </h3>
 
                 <div className="row mt-4 gx-4 gy-4">
                   <div className="col-md-4 mb-2">
@@ -357,7 +352,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                       </div>
                       <h4 className="text-uppercase mb-2 fs-6 text-white">COOLING EFFICIENCY</h4>
                       <p className="small">
-                        We conduct a thorough evaluation of cooling efficiency using a temperature gun.
+                       We perform a comprehensive assessment of cooling efficiency using a temperature gun.
                       </p>
                     </div>
                   </div>
@@ -369,7 +364,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                       </div>
                       <h4 className="text-uppercase mb-2 fs-6 text-white">DISINFECT COMPONENTS</h4>
                       <p className="small">
-                        All hardware components have been tested and disinfected, including the filters and vents.
+                        All hardware components have been thoroughly tested and disinfected, including the filters and vents.
                       </p>
                     </div>
                   </div>
@@ -381,7 +376,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                       </div>
                       <h4 className="text-uppercase mb-2 fs-6 text-white">FAN ASSESSMENT</h4>
                       <p className="small">
-                        We make sure that the fan operates properly and that there are no blockages in the evaporator coil.
+                        We ensure the fan operates correctly and check for blockages in the evaporator coil.
                       </p>
                     </div>
                   </div>
@@ -393,7 +388,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                       </div>
                       <h4 className="text-uppercase mb-2 fs-6 text-white">THERMOSTAT CHECK</h4>
                       <p className="small">
-                        We use a laser temperature gauge to verify that the thermostats are operating correctly.
+                        We use a laser temperature gauge to ensure that the thermostats are functioning correctly.
                       </p>
                     </div>
                   </div>
@@ -405,7 +400,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                       </div>
                       <h4 className="text-uppercase mb-2 fs-6 text-white">AIRFLOW BALANCE</h4>
                       <p className="small">
-                        We make sure that each room receives the optimal airflow it needs.
+                        We ensure that every room gets the optimal airflow it requires.
                       </p>
                     </div>
                   </div>
@@ -417,7 +412,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                       </div>
                       <h4 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h4>
                       <p className="small">
-                        Our team provides vital feedback on your Gree AC's health and any needed repairs.
+                        Our team offers essential feedback on the condition of your Ruud AC and any necessary repairs.
                       </p>
                     </div>
                   </div>
@@ -465,7 +460,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your Gree AC repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.
+                    <p>Choose a day and time for your Rudd AC repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.
                     </p>
                   </div>
                 </div>
@@ -486,7 +481,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are experts in Gree AC repair. This is why most major brands trust us to handle their service and maintenance needs.</p>
+                    <p>We are experts in Rudd AC repair. This is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -531,19 +526,20 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
               and <small>3-month parts warranty</small> as standard.</p>
 
 
-            <h3>We specialise in Gree AC services for the following types</h3>
+            <h3>We specialise in Ruud air conditioning services for the following types</h3>
             <div className="row">
               <div className="col-12">
-                <p className="mb-0"><strong>   Gree Split Air Conditioner Service: </strong> FAJ provides dependable repair and maintenance services for Gree AC units in Dubai. Our team consists of professionals who are experts in Gree split systems, Gree VRF, and Gree central air conditioning units.</p>
-                <p className="mb-0"><strong>   Gree Central Air Conditioner Repair and Service: </strong> Located in Dubai, FAJ is your premier choice for Gree AC repair services. We specialise in Gree air conditioning systems and provide a range of comprehensive services, from repairs to regular maintenance.</p>
-                <p className="mb-0"><strong>   Gree VRF (Variable Refrigerant Flow) System Service and Repair: </strong> The Gree VRF (Variable Refrigerant Flow) System service guarantees you peace of mind because you are in the right place. Indeed, FAJ prioritises efficiency and reliability.</p>
-                <p className="mb-0"><strong>   Gree Inverter Air Conditioner Maintenance: </strong> Rely on our expert team to quickly fix any problems with your Gree air conditioner and restore its full functionality.</p>
-                <p className="mb-0"><strong>   Gree HVAC Repair: </strong> With in-depth expertise in Gree air conditioning systems, we offer reliable repairs to ensure your unit operates efficiently.</p>
-                <p className="mb-0"><strong>   Gree Ceiling AC Service and Repair: </strong> No matter what the issue is with your Gree air conditioner, our experts can accurately diagnose and fix it.</p>
-                <p className="mb-0"><strong>   Gree AC Service and Maintenance: </strong> Is your AC not working? Don’t endure uncomfortable temperatures and stuffy air, or risk damage to your equipment—FAJ can get your Gree air conditioning functioning again in no time!</p>
-                <p className="mb-0"><strong>   Gree Ducted Split AC Service and Repair: </strong> Gree ducted split AC service in Dubai requires expert assistance, as only specialists know how to address air conditioning issues. We provide a hassle-free Gree air conditioning repair service and fix errors.</p>
-                <p className=""><strong>   Gree Wall-Mounted Air Conditioner Service and Repair: </strong> Looking for relief from the scorching heat? Discover how to keep your Gree AC running smoothly in Dubai! Our expert Gree AC services ensure your unit remains cool and efficient, providing comfort and peace of mind.  </p>
-
+               
+<p className="mb-0"> <strong>   Ruud Split Air Conditioner Service: </strong> FAJ is a reliable provider Ruud AC repair and maintenance services in Dubai. Our trained technicians specialize in Ruud VRF central AC units, providing optimal performance. Whether you need routine aircon maintenance or urgent repairs, we are committed to delivering exceptional, tailored service to meet your needs. Your comfort is our priority.</p>
+<p className="mb-0"> <strong>   Ruud Central Air Conditioner Repair and Service: </strong> FAJ is a leading service provider for Ruud air conditioner repair and maintenance in Dubai. The company adeptly meets the needs of its clients, ensuring high-quality service and customer satisfaction, whether for routine maintenance or urgent repair.</p>
+<p className="mb-0"> <strong>   Ruud AC Service and Repair: </strong> At Ruud AC Service, we offer you peace of mind through our team of experienced technicians. At FAJ, we focus on providing efficient and dependable Ruud AC maintenance, repair, and installation. You can count on our expert team to keep your HVAC system in top shape, ensuring your comfort all year round!</p>
+<p className="mb-0"> <strong>   Ruud Inverter Air Conditioner Maintenance: </strong> Depend on our dedicated team to swiftly address and resolve any issues with your Ruud air conditioner maintenance, ensuring it is restored to peak performance without delay!</p>
+<p className="mb-0"> <strong>  Ruud HVAC Repair: </strong> We specialize in Ruud cassette AC and package unit AC systems, offering reliable repairs to ensure your unit operates efficiently.</p>
+<p className="mb-0"> <strong>   Ruud Ceiling AC Service and Repair: </strong> Our specialists can quickly diagnose and resolve any issues with your Ruud ceiling AC repair and ducted split AC service.</p>
+<p className="mb-0"> <strong>   Ruud VRF (Variable Refrigerant Flow) System Service and Repair: </strong> FAJ's Ruud Variable Refrigerant Flow (VRF) repair and maintenance services provide customized HVAC solutions. Our expert team prioritizes your comfort and satisfaction, ensuring dependable service for your climate control needs.</p>
+<p className="mb-0"> <strong>   Ruud Ducted Split AC Service and Repair: </strong> For reliable Ruud air conditioning repair and maintenance in Dubai, our skilled technicians are ready to assist you. With expertise in diagnosing various issues and resolving error codes, we ensure minimal disruption to your comfort. Trust us for prompt service that delivers the cooling relief you need.</p>
+<p className="mb-0"> <strong>   Ruud Wall-Mounted Air Conditioner Service and Repair: </strong> In Dubai, UAE, where extreme heat is prevalent, maintaining a relaxing indoor climate is essential. Our Ruud air conditioning repair and maintenance, cleaning services assure optimal unit performance, helping you stay cool and comfortable even in high temperatures.</p>
+                
                 <p>
                   <a href="https://www.fajservices.ae/ac-repair-in-al-barsha-air-condition-maintenance-in-al-barsha-air-conditioning-fix-amc-service-in-al-barsha-dubai/">Al Barsha</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-jebel-ali/">Jebel Ali</a> &nbsp;|&nbsp;
