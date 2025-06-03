@@ -1,13 +1,10 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
-import CallNowButton from '../../../Buttons/CallNowButton.jsx';
-import GetQuoteButton from "../../../Buttons/GetQuoteButton.jsx";
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton.jsx";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract.jsx";
-// import AppliancesTechnicalInspectionFee from "../../ApplianceCommons/AppliancesTechnicalInspectionFee.jsx";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol.jsx";
 
 import Slider from "react-slick";

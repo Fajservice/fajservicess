@@ -7,16 +7,11 @@ import Orphan from "../Pages/Orphan";
 import AcMaintenanceDubai from "../Pages/AcMaintenanceDubai";
 import AcAnnualMaintenanceContract from "../Pages/AcAnnualMaintenanceContract";
 import ElectricalPlumbingService from "../Pages/ElectricalPlumbingService";
-
-
 import AcRepairDubai from "../Pages/AcRepairDubai";
 import NearMe from "../Pages/Dubai/NearMe.jsx";
 import AcRepairNearMe from "../Pages/Dubai/AcRepairNearMe.jsx";
-
 import RefrigeratorRepairNearMe from "../Pages/Dubai/RefrigeratorRepairNearMe.jsx";
 import WashingMachineRepairNearMe from "../Pages/Dubai/WashingMachineRepairNearMe.jsx";
-
-
 import FreestandingHomeAppliancesRepairService from "../Pages/HomeAppPages/FreestandingHomeAppliancesRepairService";
 import CoffeeMachineServiceCenterInDubai from "../Pages/CoffeeMachineServiceCenterInDubai";
 import CommercialCoffeeMachineRepair from "../Pages/CommercialCoffeeMachineRepair";
