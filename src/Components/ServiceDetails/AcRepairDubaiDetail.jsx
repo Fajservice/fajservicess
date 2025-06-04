@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../Data/AcData/AcFaqs/AcRepairFaqs.json';
-import {Helmet, HelmetProvider } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import CallNowButton from '../Buttons/CallNowButton';
@@ -19,10 +19,10 @@ import HeaderForm from "../Headeform/HeaderForm";
 import FAJACPrice from "../Miscellaneous/FAJACPrice";
 
 
-const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => { 
+const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "AC Repair Dubai - Reliable AC Fixing - AC Repair Near Me");
-  const metadescription = String(description || "If your air conditioner not cooling! It is time to contact FAJ to get fix split or central AC Repair Dubai. Book 043300002 emergency ac repair"); 
+  const metadescription = String(description || "If your air conditioner not cooling! It is time to contact FAJ to get fix split or central AC Repair Dubai. Book 043300002 emergency ac repair");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Ac Repair, Ac Repair In Dubai, Ac Repair Service");
   const metaURL = String(URL || "https://www.fajservices.ae/ac-repair-dubai/");
@@ -108,9 +108,9 @@ const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">AC Repair in Dubai - AC Maintenance and Service Available Near You</h1>
+            <h1 className="cs_fs_30">AC Repair Dubai - AC Maintenance and Service Available Near You</h1>
             <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
-            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
+              <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -126,25 +126,25 @@ const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descriptio
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Select Air Conditioner Repair & Service</h3>
+                <h2 className="cs_fs_24 mb-1">Select Air Conditioner Repair & Service</h2>
                 <p className="mb-1">We understand the urgency of responding promptly when an air conditioner failure impacts your critical cooling system, especially when people depend on it. Our expert and experienced AC technicians are dedicated to delivering the best AC repair and service in Dubai.</p>
                 <p className="mb-1">Choose FAJ for professional AC repair and maintenance for both residential and commercial units in your area.</p>
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                 <div className="row">
-                    <div className="col-sm-6">
-                        <ul className="mb-0">
-                            <li>Higher electricity bills </li>
-                            <li>Air is not blowing cold</li>
-                            <li>Drips from your air conditioner</li>
-                        </ul>
-                    </div>
-                    <div className="col-sm-6">
-                        <ul className="mb-0">
-                            <li>Loss of AC performance</li>
-                            <li>Poor AC airflow, making noises</li>
-                        </ul>
-                    </div>
+                  <div className="col-sm-6">
+                    <ul className="mb-0">
+                      <li>Higher electricity bills </li>
+                      <li>Air is not blowing cold</li>
+                      <li>Drips from your air conditioner</li>
+                    </ul>
+                  </div>
+                  <div className="col-sm-6">
+                    <ul className="mb-0">
+                      <li>Loss of AC performance</li>
+                      <li>Poor AC airflow, making noises</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
 
@@ -171,13 +171,11 @@ const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descriptio
             <FAJACPrice />
           </div>
         </section>
-        
-       
 
         {/*FAJ: Creating the Perfect Temperature All Year Round */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="cs_fs_30">5 Reasons Your AC Might Need Repairs This Summer </h3>
+            <h2 className="cs_fs_30">5 Reasons Your AC Might Need Repairs This Summer </h2>
             <p>Air conditioning issues are quite common during the summer months. If you're experiencing AC issues this season, it's important to understand what might be happening with your system. Identifying the problem early can prevent it from worsening and ensure your place remains comfortable during the heat. </p>
 
 
@@ -385,11 +383,11 @@ const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descriptio
         {/* We specialise in air conditioning Repair services for the following brands */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-          <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
-                <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
-                <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br/>
-                <b>We provide 2-month service warranty</b><br/>
-                and <small>3-month parts warranty</small> as standard.</p>
+            <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
+            <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
+            <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
+              <b>We provide 2-month service warranty</b><br />
+              and <small>3-month parts warranty</small> as standard.</p>
             <h3>We specialise in AC Repair services for the following brands</h3>
             <div className="row">
               <div className="col-12">
@@ -419,8 +417,8 @@ const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                 </p>
                 <p className="mb-0">
                   <Link to="/mitsubishi-ac-repair-in-dubai/"><b>Mitsubishi Air Conditioner Repair and Service</b></Link>: Seeking relief from scorching heat? Discover the secret to keeping your Mitsubishi AC running smoothly in Dubai! Our expert Mitsubishi AC services ensure your AC stays cool and efficient, providing comfort and peace of mind.</p>
-<p className="mb-0"><b>Carrier AC Repair and Service in Dubai</b>: We understand how essential Carrier air conditioning is for your home or business. FAJ provides fast and reliable Carrier air conditioner maintenance services that are both efficient and dependable.
-Typically, regular cleaning service of your Carrier VRF (Variable Refrigerant Flow), central, split, package unit, or cassette type units in Dubai and Sharjah is sufficient to keep your system running smoothly. However, if your Carrier air conditioning system experiences a breakdown, fault, or malfunction, it can negatively affect your indoor environment.</p>
+                <p className="mb-0"><b>Carrier AC Repair and Service in Dubai</b>: We understand how essential Carrier air conditioning is for your home or business. FAJ provides fast and reliable Carrier air conditioner maintenance services that are both efficient and dependable.
+                  Typically, regular cleaning service of your Carrier VRF (Variable Refrigerant Flow), central, split, package unit, or cassette type units in Dubai and Sharjah is sufficient to keep your system running smoothly. However, if your Carrier air conditioning system experiences a breakdown, fault, or malfunction, it can negatively affect your indoor environment.</p>
                 <br />
 
                 <p className="mb-0">
@@ -533,7 +531,7 @@ Typically, regular cleaning service of your Carrier VRF (Variable Refrigerant Fl
 
           </div>
         </section>
-         {/* Maintenance Contract */}
+        {/* Maintenance Contract */}
         <MaintenanceContract />
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
