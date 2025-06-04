@@ -6,9 +6,8 @@ import {Helmet, HelmetProvider } from "react-helmet-async";
 import TimelineSection from "../Components/About/timeline";
 
 
-const AboutPage = ({titleSeo , description, Author, Keyword, URL }) => {
+const AboutPage = ({ , description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "About Us - Appliances Service Center - #1 AC Repair Company");
   const metadescription = String(description || "About Us, F A J Technical Services L.L.C. was established in 2010 as an Air Conditioner System, Appliances, Installation Repair Maintenance Servic");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "About FAJ Group");
@@ -19,17 +18,17 @@ const AboutPage = ({titleSeo , description, Author, Keyword, URL }) => {
         <div>
              <HelmetProvider>
         <Helmet>
-          <title>{metatitle}</title>
-          <meta name="description" content={metadescription}></meta>
-          <meta name="keywords" content={metaKeyword} />
-          <meta name="author" content={metaAuthor} />
+          <title>About Us - Appliances Service Center - #1 AC Repair Company</title>
+          <meta name="description" content="About Us, F A J Technical Services L.L.C. was established in 2010 as an Air Conditioner System, Appliances, Installation Repair Maintenance Servic"></meta>
+          <meta name="keywords" content="About FAJ Group" />
+          <meta name="author" content="F A J Technical Services L.L.C." />
           <meta name="robots" content="index, follow" />
-          <link rel="canonical" href={metaURL} />
+          <link rel="canonical" href="https://www.fajservices.ae/about-us/" />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content={metatitle} />
-          <meta property="og:description" content={metadescription} />
-          <meta property="og:url" content={metaURL} />
+          <meta property="og:title" content="About Us - Appliances Service Center - #1 AC Repair Company" />
+          <meta property="og:description" content="About Us, F A J Technical Services L.L.C. was established in 2010 as an Air Conditioner System, Appliances, Installation Repair Maintenance Servic" />
+          <meta property="og:url" content="https://www.fajservices.ae/about-us/" />
         </Helmet>
       </HelmetProvider>
 
