@@ -145,11 +145,11 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
           <div className="container">
             <h1 className="cs_fs_30">Built-in Appliances Repair Service Dubai</h1>
             <p>
-              FAJ Technical Services L.L.C. has been providing reliable and quality services, including installation, repair, and maintenance of built-in appliances, since 2010. We have completed projects in Dubai, Sharjah, and Abu Dhabi.
+              FAJ Technical Services L.L.C has been providing reliable and quality services, including installation, repair, and maintenance of built-in appliances, since 2010. We have completed projects in Dubai, Sharjah, and Abu Dhabi.
               <br />
               Home appliances are essential in our daily lives, but regular use can lead to issues that require professional assistance.
               As a trusted provider of built-in appliance repair service, we are committed to delivering high-quality and prompt support to residents in the area.
-              Our team is available year-round to fix or maintain your appliances. For immediate service.
+              Our team is available year-round to fix or maintain your appliances for immediate service.
 
             </p>
 
@@ -184,7 +184,7 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/samll appliances on table repair.avif`} alt="built-in appliances repair" loading="lazy" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/builtin-in-appliances-repair.avif`} alt="built-in appliances repair" loading="lazy" />
 
               </div>
             </div>
@@ -203,7 +203,7 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/stand mixer.avif`} alt="built-in appliances repair" loading="lazy" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/oven-repair-service.avif`} alt="built-in appliances repair" loading="lazy" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -354,7 +354,7 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
         <section className="section cs_py_30 ">
           <div className="container">
             <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR BUILT-IN HOME APPLIANCES      </h3>
-            <p></p>
+            
 
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -371,8 +371,7 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
               </div>
 
               <div className="col-xl-6">
-
-                <p className='mb-0'>We specialise in all types and brands of integrated home appliances, including built-in units.
+                <p className="mb-0">We specialise in all types and brands of integrated home appliances, including built-in units.
                 </p>
                 <p className='mb-0'><strong>Our services include:</strong></p>
 
@@ -592,9 +591,7 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
                 <p className="mb-0">
                   <Link to="/electrolux-home-appliances-repair/">
                     <b>Electrolux Appliance Service</b>
-                  </Link>: When you need Electrolux appliance repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE.
-                  Bosch Appliance Service: If you are looking for the best Bosch refrigerator repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch home appliance repair and are recognized as the leading Bosch cooking range, washing machine, refrigerator service provider in the area.
-                </p>
+                  </Link>: When you need Electrolux appliance repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE.</p>
 
                 <p className="mb-0">
                   <Link to="/bosch-home-appliances-repair/">

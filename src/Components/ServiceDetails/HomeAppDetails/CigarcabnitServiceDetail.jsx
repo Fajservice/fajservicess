@@ -1,12 +1,10 @@
 
 
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
 import data from '../../../Data/HomeAppData/FAQs/CigarcabnitServiceFaqs.json';
 import {Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
-import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import Slider from "react-slick";
@@ -14,9 +12,6 @@ import testimonial_data from '../../../Data/HomeAppData/Testmonials/CigarcabnitS
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
-import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
-
-// import { Link } from "react-router-dom";
 
 const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => { 
   // For SEO
@@ -168,7 +163,7 @@ Whether you have a walk-in humidor, a freestanding unit, or a built-in cigar hum
                 <h3 className="cs_fs_24 mb-1">
                 EXPRESS & EMERGENCY Cigar Cabinet REPAIR SERVICE
                 </h3>
-                <p><b>Terms & Conditions:</b>There is a callout fee that applies, ranging from AED 365 to 530 depending on unit, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p> <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br/>
+                <p><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 365 to 530 depending on unit, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p> <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br/>
 <b>We provide 2-month service warranty</b><br/>
 and <small>3-month parts warranty</small> as standard.</p>
               </div>
@@ -448,9 +443,8 @@ and <small>3-month parts warranty</small> as standard.</p>
         <section className="section cs_py_30">
           <div className="container container-md container-sm">
             
-            <h3 className="cs_fs_30">Cigar Cabinet Humidifier Repair Across Dubai - Sharjah - Abu Dhabi</h3>
-            {/* <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2> */}
-
+            <h3 className="cs_fs_30">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h3>
+            
             <div className="usps align-items-center	">
               {/* <!-- First Column --> */}
               <div className="uspcol col-1">
@@ -474,17 +468,16 @@ and <small>3-month parts warranty</small> as standard.</p>
                     <p>With a maintenance contract, you receive a full year of service, ensuring your cigar humidor operates smoothly and providing you with peace of mind.</p>
                   </div>
                 </div>
-
-
-                <div className="uspitem mb-0">
+                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" loading="lazy" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" loading="lazy" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your cigar humidor repair in Dubai or Sharjah, with a 3-4 hour window for when our technician will arrive.</p>
+                    <h3 className="">Trustworthy</h3>
+                    <p>Our experienced technicians for cigar humidors provide exceptional service for several top brands.</p>
                   </div>
                 </div>
+              
 
               </div>
 
@@ -514,15 +507,16 @@ and <small>3-month parts warranty</small> as standard.</p>
                     <p>The inspection fee covers diagnosis, transport, and reinstallation of cigar humidors in Dubai and Sharjah.</p>
                   </div>
                 </div>
-                <div className="uspitem mb-0">
+                  <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" loading="lazy" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" loading="lazy" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">Trustworthy</h3>
-                    <p>Our experienced technicians for cigar humidors provide exceptional service for several top brands.</p>
+                    <h3 className="">You Are in Control</h3>
+                    <p>Choose a day and time for your cigar humidor repair in Dubai or Sharjah, with a 3-4 hour window for when our technician will arrive.</p>
                   </div>
                 </div>
+               
               </div>
 
               {/* <!-- Delimit mobile --> */}
@@ -532,7 +526,7 @@ and <small>3-month parts warranty</small> as standard.</p>
             </div>
           </div>
         </section>
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">
             <h3>We specialise in Cigar Cabinet services for the following brands</h3>
             <ul>

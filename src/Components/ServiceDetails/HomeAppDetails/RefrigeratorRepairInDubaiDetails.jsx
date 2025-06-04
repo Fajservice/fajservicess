@@ -159,7 +159,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
             <div className="row gx-md-5">
               <div className="col-md-6">
                 <h3 className="cs_fs_24 mb-1">Refrigerator Repair & Service Near You</h3>
-                <p className="mb-2">Is your fridge or freezer not cooling properly? Has your food spoild?
+                <p className="mb-2">Is your fridge or freezer not cooling properly? Has your food spoiled?
                   You can easily book online refrigerator repair in Dubai / Sharjah near me service with FAJ Experts.
                   We repair most major brands of refrigerators and freezers, offering same-day fridge service at affordable prices. Choose a time slot that works best for you!
                 </p>
@@ -229,9 +229,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Water Leaking</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      A common issue with refrigerators is water leakage, often caused by a blocked defrost drain or a faulty water supply line.
-                    </p>
+                    <p className="p-2 mb-0">A common issue with refrigerators is water leakage, often caused by a blocked defrost drain or a faulty water supply line.</p>
                   </div>
                 </div>
               </div>
@@ -271,15 +269,10 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Fridge Running Constantly</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Fridge Running Always</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-
-                      If your fridge is running constantly, there could be a couple of reasons:
-
-
-                    </p>
+                    <p className="p-2 mb-0">If your fridge runs constantly, a faulty thermostat, relay, or sensor might prevent it from reaching the desired temperature as set.</p>
                   </div>
                 </div>
               </div>
@@ -290,13 +283,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dirty Condenser Coils</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-
-
-
-                      Ensure that these coils are clean, as this can affect cooling efficiency.
-
-                    </p>
+                    <p className="p-2 mb-0">Ensure that these condensing coils are clean, as this can affect the compressor's operation, impacting cooling and compressor efficiency.</p>
                   </div>
                 </div>
               </div>
@@ -308,11 +295,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Door Seal Issues</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-
-                      A worn door seal can cause temperature fluctuations and energy waste. Inspect the seal regularly to ensure proper functioning.
-
-                    </p>
+                    <p className="p-2 mb-0">A worn door seal can cause temperature fluctuations and energy waste. Inspect the seal regularly to ensure proper function.</p>
                   </div>
                 </div>
               </div>

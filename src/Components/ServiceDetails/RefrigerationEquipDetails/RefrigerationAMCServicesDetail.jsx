@@ -175,7 +175,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo ,
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/commercial-ref -mc.jpg`} alt="Oven Repair" loading="lazy" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/commercial-ref -mc.jpg`} alt="Refrigeration Maintenance Services" loading="lazy" />
               </div>
             </div>
 
@@ -191,7 +191,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo ,
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/techfridge.avif`} alt="Oven Repair" loading="lazy" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/techfridge.avif`} alt="Refrigeration Maintenance Services" loading="lazy" />
               </div>
               <div className="col-md-6">
                 <p className="mb-0">
@@ -286,10 +286,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo ,
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      The presence of contaminants in the refrigerant can cause the system to operate for longer periods, resulting in increased energy consumption and waste
-
-
-                    </p>
+                      The presence of contaminants in the refrigerant can cause the system to operate for longer periods, resulting in increased energy consumption and waste.</p>
                   </div>
                 </div>
               </div>
@@ -474,28 +471,26 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo ,
             <div className="usps align-items-center	">
               {/* <!-- First Column --> */}
               <div className="uspcol col-1">
+               
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" loading="lazy" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" loading="lazy" />
 
                   </div>
                   <div className="usptext">
-                    <h3 className="">Reliable, Priority, and Quick</h3>
+                    <h3 className="">Great Value</h3>
                     <p>
-                      You can count on our prompt service! We offer same-day repairs and next-day appointments to ensure that your needs are met quickly.
+                      We are dedicated to ensuring customer satisfaction through timely service, quick resolution of issues, and competitive pricing.
                     </p>
                   </div>
                 </div>
-
-                <div className="uspitem">
+               <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" loading="lazy" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" loading="lazy" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">Feeling Of Calm</h3>
-                    <p>
-                      An annual maintenance contract offers a full year of service, ensuring your freezer and chiller operate smoothly for your peace of mind.
-                    </p>
+                    <h3 className="">We Are Experts</h3>
+                    <p>We specialise in freezer and chiller repairs, gaining the trust of major brands for their service needs.</p>
                   </div>
                 </div>
 
@@ -521,24 +516,28 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo ,
 
               {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
-                <div className="uspitem">
+               
+                  <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" loading="lazy" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" loading="lazy" />
                   </div>
                   <div className="usptext">
-                    <h3 className="">We Are Experts</h3>
-                    <p>We specialise in freezer and chiller repairs, gaining the trust of major brands for their service needs.</p>
+                    <h3 className="">Feeling Of Calm</h3>
+                    <p>
+                      An annual maintenance contract offers a full year of service, ensuring your freezer and chiller operate smoothly for your peace of mind.
+                    </p>
                   </div>
                 </div>
-                <div className="uspitem">
+                
+                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" loading="lazy" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" loading="lazy" />
 
                   </div>
                   <div className="usptext">
-                    <h3 className="">Great Value</h3>
+                    <h3 className="">Reliable, Priority, and Quick</h3>
                     <p>
-                      We are dedicated to ensuring customer satisfaction through timely service, quick resolution of issues, and competitive pricing.
+                      You can count on our prompt service! We offer same-day repairs and next-day appointments to ensure that your needs are met quickly.
                     </p>
                   </div>
                 </div>
@@ -564,7 +563,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo ,
         </section>
 
         {/* We specialise   */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">
             <h3>We specialise in refrigeration AMC and PPM for the following types</h3>
             <div className="row">
@@ -660,7 +659,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo ,
                                 <i className="bi bi-star-fill"></i>
                                 <i className="bi bi-star-fill"></i>
                               </div>
-                              <h3 className="cs_fs_24 cs_mb_1">{item.title}</h3>
+                              <h3 className="cs_fs_24 cs_mb_1 text-left">{item.title}</h3>
                               {/* <p className="cs_fs_14 cs_heading_color mb-0">{item.subTitle}</p> */}
                             </div>
                           </div>
