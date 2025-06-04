@@ -1,58 +1,46 @@
 [
-  {  
-    "title": "How much is AC service in Dubai?",
-    "desc": "AC service in Dubai typically costs between AED 230 to AED 765 depending on the type of service. Prices vary based on the unit's size and condition, as well as the service provider."
+  {
+    "title": "When should I do AC maintenance?",
+    "desc": "According to FAJ Engineer Malik Tayyeb, it’s generally recommended to have your Daikool air conditioner serviced twice a year: once in the spring and once in the fall. This maintenance ensures that the unit is clean, that all parts are functioning properly, and that the system operates at its best efficiency."
   },
   {
-    "title": "Why is my AC not cooling in Dubai?",
-    "desc": "Your AC may not be cooling due to dirty filters, low refrigerant levels, or a malfunctioning compressor. A professional technician can diagnose and resolve the issue quickly."
+    "title": "How many times does Daikool AC needs to be serviced?",
+    "desc": "It is generally recommended to service your air conditioning unit at least twice a year, particularly at the start of summer. This ensures that your Daikool AC will operate efficiently when you need it the most. Air conditioners are made up of several complex electronic components that require regular maintenance to function at their best."
   },
   {
-    "title": "Why is AC repair so expensive?",
-    "desc": "AC repairs can be expensive due to the high cost of parts (like compressors or coils) and specialized labor. The complexity of the repairs and Dubai’s climate, which demands frequent AC use, also adds to the cost."
+    "title": "How do I reset my Daikool AC error?",
+    "desc": "Press the TEST button. You will hear a click as the RESET button pops out. Next, press the RESET button."
   },
   {
-    "title": "Why is my AC giving cool air but not cooling?",
-    "desc": "If your AC is blowing cool air but not cooling the room, it could be due to issues like low refrigerant or clogged filters. A technician can fix this with a proper inspection and maintenance."
+    "title": "Why is my Daikool air conditioner blinking?",
+    "desc": "The blue blinking light on a Daikool air conditioner typically indicates a problem with the temperature sensor. This could mean that the sensor is malfunctioning or that the room's temperature is not being accurately measured."
   },
   {
-    "title": "How often should AC be cleaned in Dubai?",
-    "desc": "AC units in Dubai should be cleaned every 3-6 months due to high dust levels in the environment. More frequent cleaning may be necessary for homes in dusty areas or with heavy AC use."
+    "title": "Why is my Daikool AC showing EL and OC?",
+    "desc": "The 'EC' or 'EL 0C' code indicates an error caused by low refrigerant levels. This issue can occur in a new installation for several reasons. One common reason is that the valves on the outdoor unit are not fully open, which prevents the refrigerant from flowing from the outdoor unit into the system."
   },
   {
-    "title": "Which company is best for central AC?",
-    "desc": "F A J Technical Services L.L.C. is one of the best companies for central AC services in Dubai. We offer reliable, professional services to ensure your system runs efficiently."
+    "title": "What is the Daikool AC oC fault code?",
+    "desc": "An overcurrent (oC) fault occurs when the output current exceeds the overcurrent detection level, typically between 180% and 200% of the drive's rated current, depending on the model. Possible causes for this fault include: the load being too heavy."
   },
   {
-    "title": "What maintenance is needed for AC?",
-    "desc": "AC maintenance includes tasks like cleaning or replacing air filters, checking refrigerant levels, and cleaning coils and drain lines. Regular upkeep ensures your system runs efficiently and prolongs its lifespan."
+    "title": "Why is my Daikool air conditioner not turning on?",
+    "desc": "Check to see if the cord is properly plugged in, as it may have a loose connection or be unplugged. Secure the plug and test whether your air conditioning unit functions correctly. If it still doesn’t work, inspect the breaker box for any tripped circuit breakers that may have occurred during the restart. If you find a tripped breaker, flip the switch back to restore power."
   },
   {
-    "title": "How can I maintain my AC?",
-    "desc": "Maintain your AC by regularly cleaning or replacing filters, checking for airflow issues, and scheduling professional servicing every 6 months. This helps to improve performance and prevent costly repairs."
+    "title": "What is error EP in Daikool Air Conditioning?",
+    "desc": "The EP indicates that there is a failure alarm for the discharge temperature sensor of the copper pipe."
   },
   {
-    "title": "What is routine AC maintenance?",
-    "desc": "Routine AC maintenance typically involves cleaning filters, inspecting the refrigerant, cleaning the coils, and checking the system’s overall performance. Regular maintenance keeps your AC running smoothly."
+    "title": "How to fix Daikool aircon?",
+    "desc": "How to fix it:\n- Turn off the power to the aircon unit for a few minutes, then turn it back on.\n- Check the air filters to see if they are dirty or clogged.\n- Check the wiring and connections between the indoor and outdoor units.\n- Inspect the temperature sensor(s) to see if they are functioning properly."
   },
   {
-    "title": "How do I fix my air conditioner that is not cooling?",
-    "desc": "To fix an AC not cooling, check the thermostat, clean or replace the air filter, and ensure the outdoor unit is clear. If issues persist, inspect refrigerant levels, ice buildup, or compressor issues—contact a professional if needed."
+    "title": "What does AC fault mean?",
+    "desc": "An AC fault occurs when there is a significant flow of alternating current from an electrical source under abnormal conditions. This current can be induced onto a structure even without a direct metallic connection, such as when pipelines run alongside power lines in a shared corridor."
   },
   {
-    "title": "How often should an air conditioner be serviced?",
-    "desc": "An air conditioner should be serviced at least once a year to maintain optimal performance. In hot climates like Dubai, servicing every 6 months is recommended to ensure efficiency and extend the unit's lifespan."
-  },
-  {
-    "title": "Is AC duct cleaning important in Dubai?",
-    "desc": "Yes, AC duct cleaning is important in Dubai as it improves indoor air quality, increases system efficiency, and prevents the build-up of dust and allergens. Regular cleaning helps your AC perform better."
-  },
-  {
-    "title": "Is AC duct cleaning worth it?",
-    "desc": "Yes, AC duct cleaning is worth it because it enhances air quality, improves the performance of your system, and helps extend the life of your AC unit. It’s a cost-effective investment for long-term benefits."
-  },
-  {
-    "title": "How often should AC ducts be cleaned?",
-    "desc": "AC ducts should be cleaned every 2-3 years, or more frequently if you notice dust accumulation, poor airflow, or a musty smell. Regular cleaning ensures better air quality and system efficiency."
+    "title": "What are error codes in AC?",
+    "desc": "Air Conditioner (AC) Error Code Diagnosis:\n3-0: Temporary stop due to dehumidifying operation\n5-0: Heat exchanger thermistor open circuit error\n5-1: Outdoor temperature thermistor open circuit error\n5-2: Suction thermistor open circuit error"
   }
 ]
