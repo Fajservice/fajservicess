@@ -17,8 +17,43 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "postbuild": "react-snap"
   },
+  "reactSnap": {
+  "inlineCss": true,
+  "puppeteerArgs": ["--no-sandbox"],
+  "include": [
+    "/about-us",
+    "ac-tonnage-calculator",
+    "/services",
+    "/faj-price-list",
+    "/ac-service-in-dubai",
+    "/ac-maintenance-dubai",
+    "/ac-annual-maintenance-contract",
+    "/electrical-plumbing-service",
+    "/ac-repair-dubai",
+    "/dubai/near-me",
+    "/dubai/ac-repair-near-me",
+    "/dubai/refrigerator-repair-near-me/",
+    "/dubai/washing-machine-repair-near-me/",
+    "/appliances-repair-service",
+    "/coffee-machine-service-center-in-dubai",
+    "/coffee-machine-repairs",
+    "/hob-repair-service",
+    "/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai",
+    "/cigar-humidor-repair",
+    "/our-portfolio",
+    "/oven-repair-service",
+    "/commercial-cooking-appliances-repair-service",
+    "/meat-grinder-repair",
+    "/commercial-dishwasher-repair",
+    "/commercial-washing-machine-repair",
+    "/commercial-laundry-equipment-service",
+    "/commercial-kitchen-equipment-amc"
+
+  ]
+},
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@johanaarstein/react-before-after-slider-component": "^1.1.7",
@@ -35,6 +70,7 @@
     "react-helmet-async": "^2.0.5",
     "react-router-dom": "^6.27.0",
     "react-slick": "^0.30.2",
+    "react-snap": "^1.23.0",
     "slick-carousel": "^1.8.1",
     "sort-by": "^1.2.0"
   },

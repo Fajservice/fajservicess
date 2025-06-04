@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
@@ -14,14 +14,9 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 import ApplianceSpecialise from "./Appliance specialise/ApplianceSpecialise.jsx";
 
-const ApplianceServiceInTheSpringsDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const ApplianceServiceInTheSpringsDetail = ({ subtitle, title, reviewsbg}) => {
 
-    // For SEO
-    const metatitle = String(titleSeo || "Appliances Services in The Springs - Fridge Repair Dubai");
-    const metadescription = String(description || "Get best appliance services in The Springs. Experts in fridge repair near me in Dubai. Call 043300002 for fix washing machine, oven, coffee machine");
-    const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in The Springs Dubai – Home Appliance Installation, Maintenance & Service Centre in The Springs Dubai");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-springs");
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     reviewsbg = "img/testimonialbg.jpg"
@@ -114,17 +109,18 @@ const ApplianceServiceInTheSpringsDetail = ({ subtitle, title, reviewsbg, titleS
         <>
             <HelmetProvider>
                 <Helmet>
-                    <title>{metatitle}</title>
-                    <meta name="description" content={metadescription}></meta>
-                    <meta name="keywords" content={metaKeyword} />
-                    <meta name="author" content={metaAuthor} />
+                    <title>Appliances Services in The Springs - Fridge Repair Dubai</title>
+                    <meta name="description" content="Get best appliance services in The Springs. Experts in fridge repair near me in Dubai. Call 043300002 for fix washing machine, oven, coffee machine"></meta>
+                    <meta name="keywords" content="" />
+                    <meta name="author" content="Faj Technical Services" />
                     <meta name="robots" content="index, follow" />
-                    <link rel="canonical" href={metaURL} />
+                    <link rel="canonical" href="Washing Machine & Fridge Repair in The Springs Dubai – Home Appliance Installation, Maintenance & Service Centre in The Springs Dubai" />
                     <meta property="og:type" content="website" />
                     <meta property="og:locale" content="en_US" />
-                    <meta property="og:title" content={metatitle} />
-                    <meta property="og:description" content={metadescription} />
-                    <meta property="og:url" content={metaURL} />
+                    <meta property="og:title" content="Appliances Services in The Springs - Fridge Repair Dubai" />
+                    <meta property="og:description" content="Get best appliance services in The Springs. Experts in fridge repair near me in Dubai. Call 043300002 for fix washing machine, oven, coffee machine"/>
+                    <meta property="og:url" content="https://www.fajservices.ae/appliances-services-in-the-springs" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />
@@ -159,8 +155,8 @@ const ApplianceServiceInTheSpringsDetail = ({ subtitle, title, reviewsbg, titleS
 
                                 <p className="mb-2">
                                     If you need appliance repair, FAJ is your best choice for fast and affordable service in The Springs Dubai and Sharjah.
-                                    <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
-                                    <br /> We're nearby and can get your appliances fixed quickly and efficiently.
+                                    <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that&apos;s not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
+                                    <br /> We&apos;re nearby and can get your appliances fixed quickly and efficiently.
                                 </p>
 
                                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service
