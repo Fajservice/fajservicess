@@ -6,30 +6,24 @@ import {Helmet, HelmetProvider } from "react-helmet-async";
 import TimelineSection from "../Components/About/timeline";
 
 
-const AboutPage = ({titleSeo , description, Author, Keyword, URL }) => {
-  // For SEO
-  const metatitle = String(titleSeo || "About Us - Appliances Service Center - #1 AC Repair Company");
-  const metadescription = String(description || "About Us, F A J Technical Services L.L.C. was established in 2010 as an Air Conditioner System, Appliances, Installation Repair Maintenance Servic");
-  const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
-  const metaKeyword = String(Keyword || "About FAJ Group");
-  const metaURL = String(URL || "https://www.fajservices.ae/about-us/");
+const AboutPage = () => {
 
 
     return (
         <div>
              <HelmetProvider>
         <Helmet>
-          <title>{metatitle}</title>
-          <meta name="description" content={metadescription}></meta>
-          <meta name="keywords" content={metaKeyword} />
-          <meta name="author" content={metaAuthor} />
+          <title>About Us - Appliances Service Center - #1 AC Repair Company</title>
+          <meta name="description" content="About Us, F A J Technical Services L.L.C. was established in 2010 as an Air Conditioner System, Appliances, Installation Repair Maintenance Servic"></meta>
+          <meta name="keywords" content="About FAJ Group" />
+          <meta name="author" content="F A J Technical Services L.L.C." />
           <meta name="robots" content="index, follow" />
-          <link rel="canonical" href={metaURL} />
+          <link rel="canonical" href="https://www.fajservices.ae/about-us/" />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content={metatitle} />
-          <meta property="og:description" content={metadescription} />
-          <meta property="og:url" content={metaURL} />
+          <meta property="og:title" content="About Us - Appliances Service Center - #1 AC Repair Company" />
+          <meta property="og:description" content="About Us, F A J Technical Services L.L.C. was established in 2010 as an Air Conditioner System, Appliances, Installation Repair Maintenance Servic" />
+          <meta property="og:url" content="https://www.fajservices.ae/about-us/" />
         </Helmet>
       </HelmetProvider>
 
@@ -53,7 +47,7 @@ const AboutPage = ({titleSeo , description, Author, Keyword, URL }) => {
             <section className="section cs_py_30 bg-dark-blue">
                 <div className="container">
                     <h3 className="text-light text-center">Dedicated to Achieving Outstanding Results Across All Industries</h3>
-                    <p className="text-light text-center">In a world where technology seamlessly integrates into our daily lives, F A J Technical Services L.L.C. has been at the forefront of innovation since 2010.<br /> What began as a modest operation focusing on air conditioning systems, domestic appliances, and commercial equipments installation, repair, and annual maintenance services in the UAE has transformed into a leading technical services solutions company.<br /> We serve and empower homes, businesses, and industries throughout Dubai, Sharjah, and Abu Dhabi.<br /> With a relentless pursuit of excellence, we have redefined the standards of technical services, earning the esteemed Trusted Trader endorsement in 2025.<br /> We aim to harmonise technology with everyday life, fostering our customers' peace of mind, satisfaction, and happiness.<br /> Discover how our expert teams, cutting-edge solutions, and customer-centric approach can revolutionise your space and enhance your experience.</p>
+                    <p className="text-light text-center">In a world where technology seamlessly integrates into our daily lives, F A J Technical Services L.L.C. has been at the forefront of innovation since 2010.<br /> What began as a modest operation focusing on air conditioning systems, domestic appliances, and commercial equipments installation, repair, and annual maintenance services in the UAE has transformed into a leading technical services solutions company.<br /> We serve and empower homes, businesses, and industries throughout Dubai, Sharjah, and Abu Dhabi.<br /> With a relentless pursuit of excellence, we have redefined the standards of technical services, earning the esteemed Trusted Trader endorsement in 2025.<br /> We aim to harmonise technology with everyday life, fostering our customers&apos; peace of mind, satisfaction, and happiness.<br /> Discover how our expert teams, cutting-edge solutions, and customer-centric approach can revolutionise your space and enhance your experience.</p>
                 </div>
             </section>
              <section className="cs_about cs_style_1 position-relative">
@@ -99,7 +93,7 @@ const AboutPage = ({titleSeo , description, Author, Keyword, URL }) => {
                             <h3 className="cs_section_subtitle cs_fs_18 text-uppercase cs_mb_12 wow fadeInDown">The Journey of FAJ Group</h3>
                             <h2 className="cs_section_title cs_fs_36 mb-0 wow fadeInUp">From Humble Beginnings to Diversified Excellence</h2>
                             </div>
-                            <p className="cs_mb_40">The FAJ Group's remarkable journey began in 2010 as a small, visionary technical services and sales trading house in Dubai, UAE. Over the past 15 years, our relentless pursuit of growth and innovation has transformed us into a dynamic, multi-entity organisation.  Today, our group comprises over four companies, operating across two main sectors in the UAE and Pakistan. Our diversified portfolio now spans trading (including e-commerce), IT solutions, technical education, HVAC, refrigeration, domestic and commercial appliances/equipments, electronics, and numerous other services – a testament to our unwavering commitment to excellence and progress.</p>
+                            <p className="cs_mb_40">The FAJ Group&apos;s remarkable journey began in 2010 as a small, visionary technical services and sales trading house in Dubai, UAE. Over the past 15 years, our relentless pursuit of growth and innovation has transformed us into a dynamic, multi-entity organisation.  Today, our group comprises over four companies, operating across two main sectors in the UAE and Pakistan. Our diversified portfolio now spans trading (including e-commerce), IT solutions, technical education, HVAC, refrigeration, domestic and commercial appliances/equipments, electronics, and numerous other services – a testament to our unwavering commitment to excellence and progress.</p>
                             
                             <div className="cs_about_btns">
                             <Link to="/about-us/" className="cs_btn cs_style_1 wow fadeInLeft">

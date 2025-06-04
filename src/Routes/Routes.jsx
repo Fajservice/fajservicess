@@ -399,10 +399,6 @@ export const router = createBrowserRouter([
         element: <AcTonnageCalculator />
       },
       {
-        path: "/about-us/",
-        element: <AboutPage></AboutPage>,
-      },
-      {
         path: "/orphan/",
         element: <Orphan />
       },

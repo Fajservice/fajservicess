@@ -15,8 +15,8 @@ const AIHandsetWidget = () => {
                 popup?.classList.add('d-none');
                 popup?.classList.remove('floatUp');
                 icon?.classList.remove('blinking-icon');
-            }, 5000);
-        }, 1000);
+            }, 3000);
+        }, 5000);
 
         return () => clearInterval(interval);
     }, []);
