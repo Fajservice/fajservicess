@@ -7,10 +7,10 @@ const AcProperties = () => {
             <div className="row">
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-cone">
-                  <h3 className="cs_fs_20 mb-0">COOLING &amp; HEATING</h3>
+                  <h4 className="cs_fs_20 mb-0">COOLING &amp; HEATING</h4>
                   <span className="mb-5">Stay comfortable all year round</span>
                   <div className="mb-5"></div>
-                  <h3 className="cs_fs_20 mb-0">BETTER AIR QUALITY</h3>
+                  <h4 className="cs_fs_20 mb-0">BETTER AIR QUALITY</h4>
                   <span className="mb-5">Reduce humidity, pollen and dust</span>
                 </div>
               </div>
@@ -22,10 +22,10 @@ const AcProperties = () => {
               </div>
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-cthree">
-                  <h3 className="cs_fs_20 mb-0">PROTECT YOUR PROPERTY</h3>
+                  <h4 className="cs_fs_20 mb-0">PROTECT YOUR PROPERTY</h4>
                   <span className="mb-5">Prevent damage to electronics and furnishings</span>
                   <div className="mb-5"></div>
-                  <h3 className="cs_fs_20 mb-0">QUIET AND SECURE</h3>
+                  <h4 className="cs_fs_20 mb-0">QUIET AND SECURE</h4>
                   <span className="mb-5">No need to leave windows open</span>
                 </div>
               </div>
