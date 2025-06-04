@@ -226,12 +226,10 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Drainage Issues</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishwasher not Draining</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Dishwasher machine water is pooling in the bottom of your dishwasher at the end of every cycle.
-                    </p>
+                    <p className="p-2 mb-0">A pool of water at the bottom of your dishwasher indicates drainage issues. Always ensure that there are no blockages in the drain hose.</p>
                   </div>
                 </div>
               </div>
@@ -241,12 +239,10 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Cycle Won’t Start</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishwasher Leaks</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      When you press “start”, nothing happens. Your cycle doesn’t begin, and your dishwasher doesn’t seem to respond, despite the display panel appearing normal.
-                    </p>
+                    <p className="p-2 mb-0">Dishwasher leaks can inflict serious damage to your kitchen and need immediate repairs, often due to cracks in the dishwasher's components.</p>
                   </div>
                 </div>
               </div>
@@ -254,14 +250,20 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Water Leaks </h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishwasher not Starting</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-
-                      You have noticed water leaking or pooling around your dishwasher when it runs, causing damage to your flooring and the surrounding area.
-
-                    </p>
+                    <p className="p-2 mb-0">The dishwasher won’t start unless the door is properly closed, and any door seal or latch issues will prevent wash cycles from beginning.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dirty Dishes</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">This usually occurs because you either overloaded the dishwasher or stacked the dishes incorrectly before starting the wash cycle, causing poor cleaning results.</p>
                   </div>
                 </div>
               </div>
@@ -271,39 +273,32 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                     <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Excessive Suds</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Your dishwasher may fill with excess suds during use, leaving suds in the bottom and remains on your dishes after the cycle</p>
+                    <p className="p-2 mb-0">Your dishwasher may fill with excess suds during use, leaving suds in the bottom and remains on your dishes after the cycle.</p>
                   </div>
                 </div>
               </div>
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Door Not Closing</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Smelly Dishwasher</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-
-                      The dishwasher door isn’t closing properly, preventing the cycle from starting.
-
-                    </p>
+                    <p className="p-2 mb-0">Bad dishwasher odors often come from stale, wet food trapped inside. Clean the bottom screen regularly to keep odors fresh and away.</p>
                   </div>
                 </div>
               </div>
+
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Not Filling With Water</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Food Crumbs</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-
-                      When you start the dishwasher cycle, the interior doesn’t fill with water, or only fills a small amount.
-
-
-                    </p>
+                    <p className="p-2 mb-0">If you find food particles on your dishes after washing, check the filter assembly to see if it is blocked. If it is, remove the filter and clean it.</p>
                   </div>
                 </div>
               </div>
+
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
@@ -312,21 +307,6 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">Your dishwasher isn't heating water, leading to cold washes and ineffective cleaning. Hot water is essential for activating the detergent.</p>
-                  </div>
-                </div>
-              </div>
-
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishes Not Drying</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Your dishes come out of the dishwasher still wet, requiring manual drying after every load.
-
-                    </p>
                   </div>
                 </div>
               </div>

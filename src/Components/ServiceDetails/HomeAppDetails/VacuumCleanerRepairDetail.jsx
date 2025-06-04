@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
-import data from '../../../Data/HomeAppData/FAQs/HobRepairFaqs.json';
+import data from '../../../Data/HomeAppData/FAQs/VacuumCleanerHomeappFaqs.json';
 import {Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
@@ -349,13 +349,9 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
               </div>
 
               <div className="col-xl-6">
-                <p className="mb-0">
-                  In Dubai, vacuum cleaner services provide repair, maintenance, and servicing to extend the lifespan of your vacuum cleaner.
-                  <br />
-                  These services can range from quick fixes to comprehensive overhauls, with some companies specializing specifically in robotic vacuum cleaners.
-                  <br />
-                  Here’s a detailed overview of vacuum cleaner services offered in Dubai, UAE:
-                </p>
+                <p className="mb-0">In Dubai, vacuum cleaner services provide repair, maintenance, and servicing to extend the lifespan of your vacuum cleaner.< br />
+These services can range from quick fixes to comprehensive overhauls, with some companies specializing specifically in robotic vacuum cleaners.< br />
+Here’s a detailed overview of vacuum cleaner services offered in Dubai, UAE: <b>Service Options:</b></p>
 
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
                   <li> <strong> Vacuum Cleaner Repair: </strong> This service addresses issues such as motor problems, hose blockages, and faulty attachments. </li>

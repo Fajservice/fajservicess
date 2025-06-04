@@ -17,6 +17,7 @@ import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import HeaderForm from "../../Headeform/HeaderForm";
+import FAJACPrice from "../../Miscellaneous/FAJACPrice";
 
 const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => { 
   // For SEO
@@ -168,7 +169,11 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
             </div>
           </div>
         </section>
-
+         <section className="section cs_py_30">
+          <div className="container">
+            <FAJACPrice />
+          </div>
+        </section>
         {/* Peace of Mind with Annual Maintenance Contracts */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">

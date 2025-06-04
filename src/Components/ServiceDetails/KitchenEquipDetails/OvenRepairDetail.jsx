@@ -162,12 +162,8 @@ const OvenRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , description, 
                 <h3 className="cs_fs_24 mb-1">Commercial Combi Oven Maintenance</h3>
                 <p className="mb-2">
                   We repair all types of commercial kitchen ovens, including gas and electric models. Our specialised team of commercial oven technicians carries essential spare parts, enabling us to assist you whenever you need it.
-                  <br />Our goal is to help keep your business running smoothly. We offer commercial oven repair services in Dubai.
-
-                </p>
-
-
-                <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">EXPRESS & EMERGENCY Oven REPAIR SERVICE</h3>
+                  <br />Our goal is to help keep your business running smoothly. We offer commercial oven repair services in Dubai.</p>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">EXPRESS & EMERGENCY Oven REPAIR SERVICE</h3>
                 <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that appliesapplies for each diagnosis, depending on the capacity applied. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.<br />
 <b>CHOOSE FAJ FOR YOUR PEACE OF MIND<br />
 <small>We provide 2-month service warranty
@@ -180,6 +176,11 @@ and 3-month parts warranty as standard.</small></b></p>
             </div>
             <h3 className="cs_fs_24 mb-1 border-small-top pt-3">Planned Preventive Maintenance (PPM) Services</h3>
                 <p className="mb-2">Our catering equipment technician offers a customized Planned Preventive Maintenance Package created to keep your Combi ovens, Convection ovens, High-Speed ovens, Compact ovens, Pizza ovens, Rational ovens, Commercial ovens, Duck ovens, and Steamers running efficiently and compliant with standards.<br/>This proactive approach helps reduce the likelihood of unexpected breakdowns and the associated costs. Our Planned Preventive Maintenance Package includes maintenance, repair services, and testing. It is ideal for hotels, restaurants, canteens, and other venues in the hospitality and education sectors that want to ensure their equipment operates smoothly and prevent breakdowns.</p>
+                <div id="get-quote" className=" mt-3">
+                  <div className="container d-flex justify-content-center align-items-center gap-3">
+                    <WhatsappIconButton />
+                  </div>
+                </div>
           </div>
         </section>
         {/*: */}
@@ -208,7 +209,7 @@ and 3-month parts warranty as standard.</small></b></p>
         </section>
 
         {/*  Problems */}
-        <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="text-center">Common Commercial Oven Problems That May Require Maintenance </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -335,7 +336,7 @@ and 3-month parts warranty as standard.</small></b></p>
         </section>
 
         {/*Why  */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">Comprehensive Commercial Oven Repair Services in Dubai</h3>
 
@@ -371,7 +372,7 @@ and 3-month parts warranty as standard.</small></b></p>
         </section >
 
         {/* The Benefits */}
-        <section className="section cs_py_30 appliances-benifit-sec">
+        <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
               <h3 className="cs_fs_30 mb-0">Benefits Of Regular Oven Service and Maintenance in Dubai
@@ -463,23 +464,6 @@ and 3-month parts warranty as standard.</small></b></p>
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-
-        <section className="section cs_py_30 bg-dark-blue text-light">
-          <div className="container text-center">
-            <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
-            <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
-            <a
-              href="files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
-              className="btn-green-yellow"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Click Here to Save on Energy Bills
-            </a>
-
-
           </div>
         </section>
 
@@ -580,17 +564,15 @@ and 3-month parts warranty as standard.</small></b></p>
             <h3>We specialize in commercial oven services for the following brands </h3>
             <div className="row">
               <div className="col-12">
-
-                
                 <ul>
-                  <li> <strong> Rational Oven Combi Repair and Service : </strong> FAJ offers reliable Rational Oven repair and services in Dubai, with professionals who are experts in Rational professional oven maintenance.</li>
-                  <li> <strong> Capinox Gas Oven Maintenance Service: </strong> Discover FAJ in Dubai, your go-to solution for Capinox Gas Oven repair and maintenance! We proudly specialize in Capinox Gas Ovens, ensuring top-notch service and expertise for all your needs. We're here to help you!</li>
-                  <li> <strong> Forni Fiorini Rack Oven Servicing and Repair: </strong> The Forni Fiorini Rack Oven service and repair ensures you don't have to worry because you are in the right place. FAJ is where efficiency and reliability are prioritized.</li>
-                  <li> <strong> Tecnodom Steam Convection Oven Repair Near you: </strong> Depend on our skilled team to quickly resolve any issues with your Tecnodom Steam Convection Oven, restoring it to optimal performance.</li>
-                  <li> <strong> Convection Oven Krystal Repair and Service : </strong> With our expert understanding of the Convection Oven Krystal, we deliver reliable repairs that will have your unit functioning flawlessly. Trust us to enhance your cooking experience by ensuring your oven performs at its best every time.</li>
-                  <li> <strong> Commercial Cake Bakery Pizza one Layer two Layers Oven Service: </strong> No matter the challenges with your commercial cake bakery pizza oven—whether it's a single-layer cake or a stunning three-layer creation—our experienced team is here to help! We’ll identify maintenance needs and provide tailored solutions to ensure your baked goods shine and bring joy to all.</li>
-                  <li> <strong> Convotherm Combi Oven - Professional Service and Maintenance: </strong> Is your Convotherm Combi Oven not working? You don’t have to endure uncomfortable temperatures or suffer losses due to faulty equipment – FAJ will get your Convotherm Combi Oven back up and running quickly!</li>
-                  <li> <strong> Tecnoeka Electric Combi Oven Service and Repair: </strong> Tecnoeka Electric Combi Oven service in Dubai requires expert help, as only specialists know how to address its issues. We offer hassle-free oven repair service</li>
+                  <li> <strong> Rational Oven Combi Repair and Service: </strong>FAJ offers reliable Rational Oven repair and services in Dubai, with professionals who are experts in Rational professional oven maintenance.</li>
+                  <li> <strong> Capinox Gas Oven Maintenance Service: </strong>Discover FAJ in Dubai, your go-to solution for Capinox Gas Oven repair and maintenance! We proudly specialize in Capinox Gas Ovens, ensuring top-notch service and expertise for all your needs. We're here to help you!</li>
+                  <li> <strong> Forni Fiorini Rack Oven Servicing and Repair: </strong>The Forni Fiorini Rack Oven service and repair ensures you don't have to worry because you are in the right place. FAJ is where efficiency and reliability are prioritized.</li>
+                  <li> <strong> Tecnodom Steam Convection Oven Repair Near you: </strong>Depend on our skilled team to quickly resolve any issues with your Tecnodom Steam Convection Oven, restoring it to optimal performance.</li>
+                  <li> <strong> Convection Oven Krystal Repair and Service: </strong>With our expert understanding of the Convection Oven Krystal, we deliver reliable repairs that will have your unit functioning flawlessly. Trust us to enhance your cooking experience by ensuring your oven performs at its best every time.</li>
+                  <li> <strong> Commercial Cake Bakery Pizza One Layer Two Layers Oven Service: </strong>No matter the challenges with your commercial cake bakery pizza oven—whether it's a single-layer cake or a stunning three-layer creation—our experienced team is here to help! We’ll identify maintenance needs and provide tailored solutions to ensure your baked goods shine and bring joy to all.</li>
+                  <li> <strong> Convotherm Combi Oven - Professional Service and Maintenance: </strong>Is your Convotherm Combi Oven not working? You don’t have to endure uncomfortable temperatures or suffer losses due to faulty equipment – FAJ will get your Convotherm Combi Oven back up and running quickly!</li>
+                  <li> <strong> Tecnoeka Electric Combi Oven Service and Repair: </strong>Tecnoeka Electric Combi Oven service in Dubai requires expert help, as only specialists know how to address its issues. We offer hassle-free oven repair service</li>
                 </ul>
               </div>
 

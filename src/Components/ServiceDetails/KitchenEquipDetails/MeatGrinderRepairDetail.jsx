@@ -181,7 +181,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
             </div>
           </div>
         </section>
-        {/* Most common Cooker faults: */}
+        {/* why */}
         <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">Why is maintenance service for meat grinder machines important in Dubai?</h3>
@@ -207,8 +207,8 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
           </div>
         </section>
 
-        {/*  Problems */}
-        <section className="section cs_py_30">
+        {/* Common Problems */}
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="text-center"> Common Problems with Commercial Meat Grinders That May Require Maintenance  </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -216,11 +216,11 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Grinder Not Starting</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Grinder Not Starting</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      If your mixer grinder does not start, first check the power supply. It might be due to a defective switch or motor. In such cases.
+                      If your mixer grinder does not start, first check the power supply. It might be due to a defective switch or motor.
                     </p>
                   </div>
                 </div>
@@ -229,7 +229,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Overheating During Use</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Overheating During Use</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -242,7 +242,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Loud Noise or Vibration
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Loud Noise or Vibration
                     </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
@@ -256,7 +256,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Sticking or Jamming</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Sticking or Jamming</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -269,7 +269,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">No Grinding or Blending</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">No Grinding or Blending</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -282,7 +282,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Leakage from the Jar</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Leakage from the Jar</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -295,7 +295,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Lack of Maintenance</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Lack of Maintenance</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -308,7 +308,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Burning Smell Issue</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Burning Smell Issue</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -328,8 +328,8 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
           </div>
         </section>
 
-        {/*Why should you choose us? */}
-        <section className="section cs_py_30 bg-light-gray">
+        {/*video */}
+        <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">Comprehensive Repair Services for Meat Grinder in Dubai</h3>
 
@@ -339,7 +339,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
                   className="bordered-img blue-border"
                   width="100%"
                   height="350"
-                  src="https://www.youtube.com/embed/SLGpswtzn-w"
+                  src="https://www.youtube.com/embed/boj7h-gOf7M?si=wNggMssriwyjMGo1"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -363,7 +363,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
           </div>
         </section>
         {/*  Benefits */}
-        <section className="section cs_py_30 appliances-benifit-sec">
+        <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
               <h3 className="cs_fs_30 mb-0">Benefits of Regular Commercial Meat Grinder Service and Maintenance in Dubai</h3>

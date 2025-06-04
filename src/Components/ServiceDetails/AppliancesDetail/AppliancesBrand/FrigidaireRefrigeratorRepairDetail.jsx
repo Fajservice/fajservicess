@@ -15,6 +15,7 @@ import testimonial_data_Frigidaire from '../../../../Data/AcData/AcTestimonialFr
 import parse from 'html-react-parser';
 import Slider from "react-slick";
 import HeaderForm from "../../../Headeform/HeaderForm";
+import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 
 const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -112,227 +113,162 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
           </div>
         </section>
 
-
-        {/* Experts AC Service and Maintenance */}
-        <section className="section cs_py_30 bg-light-gray mb-4">
+        {/* col 2 */}
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Best Frigidaire AC Repair in Dubai</h3>
-                <p className="mb-2">When it comes to Frigidaire <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Dubai, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
-                <p>We specialize in Frigidaire air conditioner (AC) repair, service, and maintenance in Dubai. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
-                <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
-                <div className="row">
-                  <div className="col-sm-6">
-                    <ul className="mb-0">
-                      <li>Higher electricity bills </li>
-                      <li>Air is not blowing cold</li>
-                      <li>Drips from your air conditioner</li>
-                    </ul>
-                  </div>
-                  <div className="col-sm-6">
-                    <ul className="mb-0">
-                      <li>Loss of AC performance</li>
-                      <li>Poor AC airflow, making noises</li>
-                    </ul>
-                  </div>
-                </div>
+                <h3 className="cs_fs_24 mb-1">Best Frigidaire Washing Machine Repair </h3>
+
+                <p className="mb-2">
+                  If you need Frigidaire Appliance Repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
+                  <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
+                  <br /> We're nearby and can get your appliances fixed quickly and efficiently.
+                </p>
+
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service
+                </h3>
+                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
               </div>
 
-              <div className="col-md-6">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} loading="lazy" alt="Frigidaire Ac Repair" />
-
+              <div className="col-md-6 ">
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} loading="lazy" alt="Post Image" />
               </div>
             </div>
-
-            <div className="appointment-col border-small-top pt-3">
-              <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/ac-service-in-dubai/"><b>AC cleaning service</b></Link> , repair, or maintenance. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
-              <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
-                  <WhatsappIconButton />
-                  <CallNowButton />
-                </div>
-              </div>
-            </div>
+            <AppliancesAppointmentCol></AppliancesAppointmentCol>
           </div>
         </section>
-
-
-        {/* Why is AC Maintenance Service Important in Dubai? */}
+        {/* Why is Appliance Maintenance Service Important in Dubai? */}
         <section className="section cs_py_30 ">
           <div className="container">
-            <h3 className="cs_fs_30">Why is Frigidaire AC Maintenance Service Important in Dubai?</h3>
+
+            <h3 className="cs_fs_30">Why is Frigidaire Appliance Maintenance Service Important in Dubai?</h3>
+            <p className="">
+              Our all-inclusive repair services include diagnosis, repairs, installations, and maintenance. That is why we are the most in-demand Frigidaire appliances maintenance in Dubai provider.
+            </p>
+
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} loading="lazy" alt="Frigidaire Ac Repair" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} loading="lazy" alt="Post Image" />
               </div>
-
               <div className="col-md-6">
                 <ul className="mb-0">
-                  <li> <strong> Extreme Weather Conditions: </strong> Dubai experiences high temperatures, especially in the summer, where an Frigidaire split air conditioner is not just a luxury but a necessity. Regular ac maintenance ensures that your Frigidaire Split AC systems operate efficiently, providing reliable cooling when it's needed most.</li>
-                  <li> <strong> Energy Efficiency:  </strong> Well-maintained Frigidaire split AC run efficiently, lowering energy bills. Routine checks identify issues that may increase energy consumption.</li>
-                  <li> <strong> Extended Lifespan: </strong>Regular Frigidaire air conditioner maintenance extends the life of your Frigidaire wall mounted AC, helping to avoid costly Frigidaire aircon repair</li>
+                  <li> <strong>  Frigidaire Washing Machine Repair in Dubai:-: </strong> Regular maintenance helps appliances last longer, saving on replacement costs.</li>
+                  <li> <strong>  Frigidaire Fridge Repair in Dubai: </strong> we are fully confident of getting your fridge running back in no time. </li>
+                  <li> <strong>  Frigidaire Cooker Repair in Dubai: </strong> Catching minor issues early prevents them from escalating into expensive repair. </li>
+                  <li> <strong>  Preserving Appliance Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
+                  <li> <strong>  Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious.</li>
+                  <li> <strong>  Cost-Effective: </strong> Maintenance costs are lower than early replacements or major repair. Investing in appliance care ensures safety and efficiency and is a smart economic choice in Dubai.</li>
+                  <li> <strong>  Energy Efficiency: </strong> Regularly maintaining your appliances, can improve their efficiency and save you money.</li>
                 </ul>
-                <p>
-                  In summary, Frigidaire ductless AC repair and cleaning service is crucial for comfort and cost-effectiveness in Dubai's climate, ensuring smooth and efficient Frigidaire AC performance.
-                </p>
               </div>
-
-
             </div>
           </div>
         </section>
-        {/* Common Signs Your AC May Need Maintenanc */}
+
+        {/* The Most Common Problems with Home Appliances */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="text-center">Common AC Problems That May Require Maintenance
-            </h3>
-            <div className="row gx-lg-3 gy-lg-4">
-              <div className="col-lg-3">
+            <h3 className="text-center">The Most Common Problems with Frigidaire  Home Appliances   </h3>
+            <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
+
+              <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Weak Airflow</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Problem</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">If you notice <a href="https://www.youtube.com/watch?v=qnByeIsc3lY"><b>reduced airflow</b></a> coming from your vents, it could indicate a problem with your AC system, such as a clogged filter or malfunctioning fan.</p>
+                    <p className="p-2 mb-0">Most fridge malfunctions are related to cooling issues, including problems with the defrost system, fan motor, compressor, or coils.</p>
                   </div>
                 </div>
               </div>
 
-              <div className="col-lg-3">
+              <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Warm Air</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishwashers Problem</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">If your AC blows warm or room temperature air instead of cold, it could indicate compressor, refrigerant, or ductwork issues.</p>
+                    <p className="p-2 mb-0">The most issues with dishwashers are bad cleaning and drying. Common water leaks and drainage. Some electrical issues or PCB failures.
+                    </p>
                   </div>
                 </div>
               </div>
 
-              <div className="col-lg-3">
+              <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Strange Noises</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Washing Machine Problem
+                    </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Unusual sounds like grinding, squealing, or banging coming from your AC unit can indicate mechanical problems that require attention.</p>
+                    <p className="p-2 mb-0">A common issue with washing machines is drainage problems, leaks, and PCB faulty. Also, broken belt or faulty door switch or drum from spinning.</p>
                   </div>
                 </div>
               </div>
 
-              <div className="col-lg-3">
+
+              <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Foul Odors</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Stove Problem</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Musty or foul odors emanating from the vents could suggest mold or mildew growth within the system, which needs to be addressed quickly.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Frequent Cycling</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">It may signal difficulty maintaining desired temperatures due to issues like dirty filters, low refrigerant levels, or a faulty thermostat.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">High Humidity Levels</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">An air conditioner that fails to adequately reduce indoor humidity levels may indicate issues with its cooling capacity or improper operation.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Leaking Water</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Water pooling around AC or dripping from vents could indicate blocked condensate drain, frozen coils, or other issues.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-3">
-                <div className="box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-1">Increased Energy Bills</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">High energy bills without increase in usage could indicate the inefficiency of your AC due to dirty filters, duct leaks, or other problems.</p>
+                    <p className="p-2 mb-0">Uneven heating or flame issues, such as a broken burner element, bad switch, or electric gas, are the most common problems with stoves.</p>
                   </div>
                 </div>
               </div>
             </div>
 
-
+            <div id="get-quote" className="mb-0 mt-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3">
+                <WhatsappIconButton />
+              </div>
+            </div>
           </div>
         </section>
-        {/* Here are */}
-        <section className="section cs_py_30">
+
+        {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
+        <section className="section cs_py_30 ">
           <div className="container">
-            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR AIR CONDITIONER SYSTEMS</h3>
-            <div className="row">
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR Frigidaire HOME APPLIANCES</h3>
+
+            <div className="row align-items-center">
+              <div className="col-xl-6">
+                <p className='mb-0'>We specialize in all types and brands of home appliances, including built-in units.</p>
+                <p className='mb-0'><strong>Our services include:</strong></p>
+                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
+                  <li> <strong>  Installation: </strong> Expert installation of various types and brands of home appliances, ensuring optimal performance and efficiency. </li>
+                  <li> <strong> Diagnostics: </strong> Comprehensive fault-finding services to effectively diagnose issues. We provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
+                  <li> <strong> Repair Service: </strong> Efficient repair services for all appliance components, ensuring a quick resolution to issues such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions! </li>
+                  <li> <strong> Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for
+                    the annual maintenance of your appliances. </li>
+                  <p className="mb-0">
+                    <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for optimal performance, efficiency, and longevity of your home appliances.
+                  </p>
+                </ul>
+              </div>
               <div className="col-xl-6">
                 <iframe
                   className="bordered-img blue-border"
                   width="100%"
                   height="350"
-                  src="https://www.youtube.com/embed/sxBhB1_gxYA?si=96yf5hxyAA3bct8w"
+                  src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
                 ></iframe>
               </div>
-
-              <div className="col-xl-6">
-                <p className='mb-0'>We specialize in all types and brands of HVAC systems, including FAHU.</p>
-                <p className='mb-0'><strong>Our services include:</strong></p>
-                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-1">
-
-                  <li>
-                    <strong>Installation:</strong>  Expert installation of various types and brands of HVAC systems, ensuring optimal performance and efficiency.
-                  </li>
-
-                  <li>
-                    <strong>Diagnostics:</strong> Thorough fault finding to diagnose issues effectively. We provide eligibility assessments and detailed quotations to address any concerns with your system.
-                  </li>
-
-                  <li>
-                    <strong>Repair Service:</strong> Efficient repair services for all HVAC components, ensuring quick resolution of any issues, such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions!
-                  </li>
-
-                  <li>
-                    <strong>Annual Maintenance Contract:</strong> This contract outlines the terms and services covered for the annual maintenance of air conditioning units. Regular maintenance is essential for optimal performance, efficiency, and longevity of your air conditioning system.
-                  </li>
-
-                </ul>
-
-
-              </div>
             </div>
           </div>
-        </section>
+        </section >
 
         {/* The Benefits Of appliances Service Dubai */}
         <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
-              <h3 className="cs_fs_30 mb-0">The Benefits Of Franke appliances Service Dubai
+              <h3 className="cs_fs_30 mb-0">The Benefits Of Frigidaire appliances Service Dubai
               </h3>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
@@ -414,58 +350,94 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
           </div>
         </section>
 
-        {/*Why Choose F A J Technical Services L.L.C? */}
-        <ACWhyChooseUs />
-
-
-        {/* Practical Tips to Improve Energy Efficiency */}
-        <section className="section cs_py_30 bg-dark-blue text-light">
-          <div className="container text-center">
-            <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
-            <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
-            <a
-              href="files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
-              className="btn-green-yellow"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Click Here to Save on Energy Bills
-            </a>
-
-          </div>
-        </section>
-
-        {/* cooling */}
+        {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
-          <div className="container text-center">
-            <div className="row">
-              <div className="col-lg-4">
-                <div className="acsvs-sec-prefoot-sec-cone">
-                  <h3 className="cs_fs_20 mb-0">COOLING &amp; HEATING</h3>
-                  <span className="mb-5">Stay comfortable all year round</span>
-                  <div className="mb-5"></div>
-                  <h3 className="cs_fs_20 mb-0">BETTER AIR QUALITY</h3>
-                  <span className="mb-5">Reduce humidity, pollen and dust</span>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="acsvs-sec-prefoot-sec-ctwo">
+          <div className="container container-md container-sm">
+            <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2>
 
-                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} loading="lazy" alt="Frigidaire Ac Service" />
+            <div className="usps align-items-center	">
+              {/* <!-- First Column --> */}
+              <div className="uspcol col-1">
+                <div className="uspitem">
+                  <div className="uspicon">
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} loading="lazy" alt="Fast, Reliable Service" />
+
+                  </div>
+                  <div className="usptext">
+                    <h3 className="">Reliable, Priority, and Quick</h3>
+                    <p>	You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
+                  </div>
+                </div>
+
+                <div className="uspitem">
+                  <div className="uspicon">
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} loading="lazy" alt="We Are Experts" />
+                  </div>
+                  <div className="usptext">
+                    <h3 className="">Feeling Of Calm</h3>
+                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
+                  </div>
+                </div>
+
+
+                <div className="uspitem mb-0">
+                  <div className="uspicon">
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} loading="lazy" alt="FAJ icon service" />
+                  </div>
+                  <div className="usptext">
+                    <h3 className="">You Are in Control</h3>
+                    <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
+                  </div>
+                </div>
+
+              </div>
+
+              {/* <!-- Delimit Section --> */}
+              <div className="uspdelimit col-2 d-none d-xl-block">
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} loading="lazy" alt="FAJ icon service" />
+              </div>
+
+              {/* <!-- Second Column --> */}
+              <div className="uspcol col-3">
+                <div className="uspitem">
+                  <div className="uspicon">
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} loading="lazy" alt="FAJ icon service" />
+                  </div>
+                  <div className="usptext">
+                    <h3 className="">We Are Experts</h3>
+                    <p>We are experts in Frigidaire appliance repair this is why most major brands trust us to handle their service and maintenance needs.</p>
+                  </div>
+                </div>
+                <div className="uspitem">
+                  <div className="uspicon">
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} loading="lazy" alt="FAJ icon service" />
+
+                  </div>
+                  <div className="usptext">
+                    <h3 className="">Great Value</h3>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same location in Dubai.</p>
+                  </div>
+                </div>
+                <div className="uspitem mb-0">
+                  <div className="uspicon">
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} loading="lazy" alt="FAJ icon service" />
+                  </div>
+                  <div className="usptext">
+                    <h3 className="">Trustworthy</h3>
+                    <p>Our skilled appliance technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
+                  </div>
                 </div>
               </div>
-              <div className="col-lg-4">
-                <div className="acsvs-sec-prefoot-sec-cthree">
-                  <h3 className="cs_fs_20 mb-0">PROTECT YOUR PROPERTY</h3>
-                  <span className="mb-5">Prevent damage to electronics and furnishings</span>
-                  <div className="mb-5"></div>
-                  <h3 className="cs_fs_20 mb-0">QUIET AND SECURE</h3>
-                  <span className="mb-5">No need to leave windows open</span>
-                </div>
+
+              {/* <!-- Delimit mobile --> */}
+              <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
+                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} loading="lazy" alt="FAJ icon service" />
               </div>
             </div>
           </div>
         </section>
+
+
 
         {/* Maintenance Contract */}
         <MaintenanceContract />

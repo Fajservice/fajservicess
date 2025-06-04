@@ -144,7 +144,7 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, ti
           <div className="container">
             <h1 className="cs_fs_30">Washing Machine Repair Service in Dubai</h1>
             <p>
-              Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C.</b></a> has offered reliable installation, maintenance, and repair for all brands of washing machines, dryers, and laundry systems in Dubai, Sharjah, and Abu Dhabi.
+              Since 2010, F A J Technical Services L.L.C has offered reliable installation, maintenance, and repair for all brands of washing machines, dryers, and laundry systems in Dubai, Sharjah, and Abu Dhabi.
               <br /> Our experts are here to assist with any issues, from top-loading and front-loading washers to compact models. You can trust us to keep your washing machine running smoothly.
               You can rely on us for both routine repairs and emergency services. Contact us now for reliable services at competitive prices!
             </p>
@@ -430,7 +430,7 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, ti
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Extending washing machine Lifespan</h4>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">Washing machine Lifespan</h4>
                       <p className="small">Proper care and timely servicing can significantly increase life of your home washing machine, delaying the need for replacements.</p>
 
                     </div>
@@ -482,7 +482,7 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, ti
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your washing machine runs smoothly and providing peace of mind.</p>
+                    <p>With <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your washing machine runs smoothly and providing peace of mind.</p>
                   </div>
                 </div>
 

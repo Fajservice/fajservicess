@@ -151,7 +151,7 @@ const GaggenauFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
           </div>
         </section>
 
-        {/* Best Home Appliance Service Center */}
+        {/* col 2 */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">

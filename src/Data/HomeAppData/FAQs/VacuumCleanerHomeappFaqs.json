@@ -1,38 +1,42 @@
 [
-    {
-      "img1": "img/icons/g-icon.png",
-      "subTitle": "Resident",
-      "title": "John Daly",
-      "desc": "Shakeer sorted my Roborock vacuum after it stopped working. now it's back to 100%. Great service!"
-    },
-    {
-      "img1": "img/icons/g-icon.png",
-      "subTitle": "Resident",
-      "title": "Muhammad Sarhan",
-      "desc": "FAJ Technical repaired my Roborock S7 robot vacuum efficiently. Great service and highly recommended!"
-    },
-    {
-      "img1": "img/icons/g-icon.png",
-      "subTitle": "",
-      "title": "Renish Dhoni",
-      "desc": "Great service, I had checked different places to fix my Ecovacs Deebot Vacuum cleaner but no one wanted to touch it. Come in FAJ Technicals Company!!! Told me they can fix it and beyond expectation they fixed it."
-    },
-    {
-      "img1": "img/icons/g-icon.png",
-      "subTitle": "Resident",
-      "title": "Aamir Hussain",
-      "desc": "It's worth the wait. They fixed my robot vacuum cleaner in great condition. They were honest about the 1-week check-up time. Both Regina and Neha were accommodating and friendly. All in all, the FAJ team did a great job!"
-    },
-    {
-      "img1": "img/icons/g-icon.png",
-      "subTitle": "Homeowner",
-      "title": "Basil Johnthomas",
-      "desc": "The team was excellent and had great knowledge in product troubleshooting. They successfully fixed my UONI Robot vacuum cleaner. Very satisfied with the service!"
-    },
-    {
-      "img1": "img/icons/g-icon.png",
-      "subTitle": "Resident",
-      "title": "Shakeer Mh",
-      "desc": "If you're looking for reliable and fast maintenance service, FAJ Technical Services is what you need. They recently repaired my Roborock vacuum cleaner and were very accommodating to my concerns. Their high-quality service solved the issue perfectly. I'm beyond grateful for their professionalism. Highly recommended!"
-    }
-  ]
+  {
+    "title": "Do robot vacuums work without the internet?",
+    "desc": "Yes, most robot vacuums can perform basic cleaning functions without an active Wi-Fi or internet connection. After the initial setup, you can typically press a physical \"Clean\" button to start a cleaning cycle. However, advanced features such as app control, scheduling, and smart mapping require an internet connection."
+  },
+  {
+    "title": "How long do robot vacuums run?",
+    "desc": "<ul><li>Wi-Fi connected models like the 900 and S9 series can clean for up to two hours on the lowest cleaning setting, though the Power Boost feature will deplete the battery more quickly.</li><li>Wi-Fi connected models from the E, 600, and 800 series can run for up to 90 minutes, while non-Wi-Fi connected models from the 500, 600, 700, and 800 series typically last up to 60 minutes.</li></ul>"
+  },
+  {
+    "title": "Can robots vacuum work without electricity?",
+    "desc": "Currently, all robots rely on electricity and computer chips to function. A robotic \"brain\" made up of algorithms and software interprets information, which is then relayed to the hardware through an encoder, allowing the robot to perform actions."
+  },
+  {
+    "title": "How high can robot vacuum cleaner climb?",
+    "desc": "<ul><li>Typically, robot vacuums can handle a maximum door threshold height of 15-20 mm.</li><li>The thresholds used in American homes vary by manufacturer, ranging from 6 mm to 25 mm or more.</li></ul>"
+  },
+  {
+    "title": "Which robot vacuum cleaner is the best?",
+    "desc": "<ul><li>Best overall: Ecovacs Deebot T30S Combo</li><li>Best robot vacuum and mop combo, best for hardwood floors: Yeedi M12 Pro+</li><li>Best Shark robovac: Shark PowerDetect Never Touch Pro</li><li>Best value: Eufy 3-in-1 E20</li><li>Best Roomba: iRobot Roomba Combo J7 Plus</li></ul>"
+  },
+  {
+    "title": "How do I choose a robot vacuum cleaner?",
+    "desc": "Suction Power: Measured in Pascals (Pa), the higher the Pa, the more dirt it can collect. To choose a robot vacuum based on suction power, consider the types of flooring in your home, as different flooring types require varying suction levels; hard floors and tiles typically need less suction compared to plush carpets."
+  },
+  {
+    "title": "What is a robot vacuum cleaner called?",
+    "desc": "A robotic vacuum cleaner, sometimes referred to as a robovac or a Roomba (a generic trademark), is an autonomous vacuum cleaner equipped with a limited vacuum floor cleaning system, sensors, robotic drives, programmable controllers, and cleaning routines."
+  },
+  {
+    "title": "What are the features of robotic vacuum cleaners?",
+    "desc": "<ul><li>Navigation Technology: Robots use various sensors for navigation. Mapping Obstacle Avoidance</li><li>Suction Power & Brushes Mopping</li><li>Object Identification Technology</li><li>Customizable Cleaning Settings</li><li>Pet Mode</li></ul>"
+  },
+  {
+    "title": "Does a robot vacuum need Wi-Fi?",
+    "desc": "Yes, a robot cleaner can operate without Wi-Fi and perform comprehensive home cleanups, spot cleanups, and return to the dock with the push of a button. Additionally, it can respond to basic voice commands."
+  },
+  {
+    "title": "Which robot vacuums work offline?",
+    "desc": "A standout model is the Eufy 11S, which is one of the few popular brands that offers a completely offline model. It has been tested and is recommended as a decent budget-friendly robot vacuum. If full offline functionality is important to you, this is a good choice."
+  }
+]

@@ -14,6 +14,7 @@ import testimonial_data from '../../Data/AcData/AcTestimonial/AcServiceTestimoni
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../Headeform/HeaderForm";
+import FAJACPrice from "../Miscellaneous/FAJACPrice";
 
 
 const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => { 
@@ -120,7 +121,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
 
 
         {/* AC Maintenance for the Best Cooling*/}
-        <section className="section cs_py_30 bg-light-gray mb-4">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
@@ -163,7 +164,11 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
           </div>
         </section>
 
-
+         <section className="section cs_py_30">
+            <div className="container">
+              <FAJACPrice />
+            </div>
+          </section>
 
 
         {/* Why Do You Need Regular AC Maintenance in Dubai? */}
