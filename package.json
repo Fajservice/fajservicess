@@ -25,7 +25,7 @@
   "puppeteerArgs": ["--no-sandbox"],
   "include": [
     "/about-us",
-    "ac-tonnage-calculator",
+    "/ac-tonnage-calculator",
     "/services",
     "/faj-price-list",
     "/ac-service-in-dubai",
