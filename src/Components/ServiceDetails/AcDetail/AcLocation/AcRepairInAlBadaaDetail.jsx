@@ -5,7 +5,6 @@ import { HelmetProvider, Helmet } from "react-helmet-async";
 
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
-import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMaintenance";
 import QuickGuide from "../../../QuickGuide/QuickGuide";
@@ -27,7 +26,7 @@ const AcRepairInAlBadaaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC services Al Rashidiya, AC maintenance Dubai, inverter AC repair, split AC service, central AC maintenance, Dubai AC technician");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-badaa");
-
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     reviewsbg = "img/testimonialbg.jpg"
@@ -88,19 +87,25 @@ const AcRepairInAlBadaaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
         <>
             <HelmetProvider>
                 <Helmet>
-                 <title>{metatitle}</title>
-                       <meta name="description" content={metadescription}></meta>
-                       <meta name="keywords" content={metaKeyword} />
-                       <meta name="author" content={metaAuthor} />
-                       <meta name="robots" content="index, follow" />
-               
-                       <link rel="canonical" href={metaURL} />
-                       <meta property="og:type" content="website" />
-                       <meta property="og:locale" content="en_US" />
-                       <meta property="og:title" content={metatitle} />
-                       <meta property="og:description" content={metadescription} />
-                       <meta property="og:url" content={metaURL} />
-                       </Helmet>
+                <title>{metatitle}</title>
+          <meta name="description" content={metadescription} />
+          <meta name="keywords" content={metaKeyword} />
+          <meta name="author" content={metaAuthor} />
+          <meta name="robots" content="index, follow" />
+
+          <meta property="og:type" content="website" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:title" content={metatitle} />
+          <meta property="og:description" content={metadescription} />
+          <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
             </HelmetProvider>
             <HeaderForm />
             <div className="cs_service_details">

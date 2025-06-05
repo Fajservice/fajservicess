@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInDip.json';
 import { HelmetProvider, Helmet } from "react-helmet-async";
 
@@ -26,6 +26,8 @@ const AcRepairInAlFurjanDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-furjan");
+    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -83,23 +85,30 @@ const AcRepairInAlFurjanDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
             }
         ]
     }
-  return (
-    <>
-             <HelmetProvider>
+    return (
+        <>
+            <HelmetProvider>
                 <Helmet>
-                 <title>{metatitle}</title>
-                       <meta name="description" content={metadescription}></meta>
-                       <meta name="keywords" content={metaKeyword} />
-                       <meta name="author" content={metaAuthor} />
-                       <meta name="robots" content="index, follow" />
-               
-                       <link rel="canonical" href={metaURL} />
-                       <meta property="og:type" content="website" />
-                       <meta property="og:locale" content="en_US" />
-                       <meta property="og:title" content={metatitle} />
-                       <meta property="og:description" content={metadescription} />
-                       <meta property="og:url" content={metaURL} />
-                       </Helmet>
+                    <title>{metatitle}</title>
+                    <meta name="description" content={metadescription} />
+                    <meta name="keywords" content={metaKeyword} />
+                    <meta name="author" content={metaAuthor} />
+                    <meta name="robots" content="index, follow" />
+
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:title" content={metatitle} />
+                    <meta property="og:description" content={metadescription} />
+                    <meta property="og:url" content={metaURL} />
+                    <meta property="og:image" content={metaImage} />
+
+                    {/* Twitter Card */}
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:title" content={metatitle} />
+                    <meta name="twitter:description" content={metadescription} />
+                    <meta name="twitter:image" content={metaImage} />
+                    <meta name="twitter:url" content={metaURL} />
+                </Helmet>
             </HelmetProvider>
             <HeaderForm />
             <div className="cs_service_details">
@@ -108,8 +117,8 @@ const AcRepairInAlFurjanDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                     <div className="container">
                         <h1 className="cs_fs_30">AC Service in Al Furjan</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
-            <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
-            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
+                        <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
+                            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 
                         <div id="get-quote" className=" mt-3">
                             <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -164,9 +173,9 @@ const AcRepairInAlFurjanDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                         </div>
                     </div>
                 </section>
-   
-           {/* Why is AC Maintenance Service Important in Dubai? */}
-           <section className="section cs_py_30 bg-light-gray">
+
+                {/* Why is AC Maintenance Service Important in Dubai? */}
+                <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
                         <h3 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h3>
                         <p>
@@ -358,10 +367,10 @@ const AcRepairInAlFurjanDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                     </div>
                 </section>
 
-                
-        {/* Maintenance Contract */}
-        <MaintenanceContract />
-{/* testimobial section */}
+
+                {/* Maintenance Contract */}
+                <MaintenanceContract />
+                {/* testimobial section */}
                 <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                     <div className="container">
@@ -454,7 +463,7 @@ const AcRepairInAlFurjanDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
             </div>
         </>
-  )
+    )
 }
 
 export default AcRepairInAlFurjanDetail

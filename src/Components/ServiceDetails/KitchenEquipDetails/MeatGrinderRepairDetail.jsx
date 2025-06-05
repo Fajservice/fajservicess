@@ -12,7 +12,7 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 
-const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , description, Author, Keyword, URL }) => {
+const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Meat Grinder Repair & Maintenance Services Dubai");
   const metadescription = String(description || "Need meat grinder repair in Dubai? FAJ offers expert repair services near me. Call us now for fast and reliable meat grinder repair at 043300002");
@@ -114,19 +114,19 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
   return (
     <>
       <HelmetProvider>
-          <Helmet>
-            <title>{metatitle}</title>
-            <meta name="description" content={metadescription}></meta>
-            <meta name="keywords" content={metaKeyword} />
-            <meta name="author" content={metaAuthor} />
-            <meta name="robots" content="index, follow" />
-            <link rel="canonical" href={metaURL} />
-            <meta property="og:type" content="website" />
-            <meta property="og:locale" content="en_US" />
-            <meta property="og:title" content={metatitle} />
-            <meta property="og:description" content={metadescription} />
-            <meta property="og:url" content={metaURL} />
-          </Helmet>
+        <Helmet>
+          <title>{metatitle}</title>
+          <meta name="description" content={metadescription}></meta>
+          <meta name="keywords" content={metaKeyword} />
+          <meta name="author" content={metaAuthor} />
+          <meta name="robots" content="index, follow" />
+          <link rel="canonical" href={metaURL} />
+          <meta property="og:type" content="website" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:title" content={metatitle} />
+          <meta property="og:description" content={metadescription} />
+          <meta property="og:url" content={metaURL} />
+        </Helmet>
       </HelmetProvider>
       <HeaderForm />
 
@@ -159,11 +159,11 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1 "> Commercial Meat Grinder Repair Near You</h3>
+                <h3 className="cs_fs_24 mb-1 "> Commercial Meat Grinder Repair Nearby </h3>
                 <p className="mb-2">
                   Has your butcher equipment or machinery broken down? Look no further than System Food Machinery for your meat grinder services. For over 16 years, we have been providing butcher machine repair in Dubai, along with repairs for other meat and vegetable preparation equipment. We are dedicated to delivering high-quality breakdown, repair, and recovery services for food equipment and machinery.
                 </p>
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Restaurant Grinder Technical Inspection Fee</h3>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Catering Grinder Technical Inspection Fee</h3>
 
                 <p className="mb-0">
                   We have a standard technical inspection fee that covers the diagnosis, transportation, and reinstallation of the same appliance.
@@ -184,7 +184,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
         {/* why */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">Why is maintenance service for meat grinder machines important in Dubai?</h3>
+            <h3 className="cs_fs_30"> Why is maintenance service for grinder machines important in Dubai?</h3>
             <p>
               To ensure your meat grinder operates efficiently, it is important to perform regular maintenance.
               Here are key daily checks to ensure it stays in optimal condition:
@@ -210,7 +210,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
         {/* Common Problems */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="text-center"> Common Problems with Commercial Meat Grinders That May Require Maintenance  </h3>
+            <h3 className="text-center">Common Problems of Commercial Meat Grinders That May Require Service</h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
@@ -366,7 +366,8 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
         <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
-              <h3 className="cs_fs_30 mb-0">Benefits of Regular Commercial Meat Grinder Service and Maintenance in Dubai</h3>
+              <h3 className="cs_fs_30 mb-0">Benefits of Regular Commercial Grinder Service & Maintenance in Dubai
+              </h3>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
                   <div className="">
@@ -548,7 +549,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descri
 
         {/* Maintenance Contract */}
         <MaintenanceContract />
-{/* testimobial section */}
+        {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">
