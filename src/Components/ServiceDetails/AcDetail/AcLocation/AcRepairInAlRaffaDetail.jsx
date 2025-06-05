@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInDip.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
@@ -26,7 +26,7 @@ const AcRepairInAlRaffaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-raffa");
-
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -84,53 +84,29 @@ const AcRepairInAlRaffaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
             }
         ]
     };
-
-    const settingBrands = {
-        dots: false,
-        infinite: true,
-        slidesToShow: 6,
-        arrows: false,
-
-        autoplay: true,
-        autoplaySpeed: 5000,
-        pauseOnHover: true,
-
-        responsive: [
-            {
-                breakpoint: 1399,
-                settings: {
-                    slidesToShow: 6,
-                }
-            },
-            {
-                breakpoint: 1199,
-                settings: {
-                    slidesToShow: 4,
-                }
-            }, {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 2,
-                }
-            }
-        ]
-    };
     return (
         <>
             <HelmetProvider>
                 <Helmet>
-                    <title>{metatitle}</title>
-                    <meta name="description" content={metadescription}></meta>
+                  <title>{metatitle}</title>
+                    <meta name="description" content={metadescription} />
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
                     <meta name="robots" content="index, follow" />
 
-                    <link rel="canonical" href={metaURL} />
                     <meta property="og:type" content="website" />
                     <meta property="og:locale" content="en_US" />
                     <meta property="og:title" content={metatitle} />
                     <meta property="og:description" content={metadescription} />
                     <meta property="og:url" content={metaURL} />
+                    <meta property="og:image" content={metaImage} />
+
+                    {/* Twitter Card */}
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:title" content={metatitle} />
+                    <meta name="twitter:description" content={metadescription} />
+                    <meta name="twitter:image" content={metaImage} />
+                    <meta name="twitter:url" content={metaURL} />
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />
@@ -139,7 +115,6 @@ const AcRepairInAlRaffaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                 <section className="section cs_py_30">
                     <div className="container">
                         <h1 className="cs_fs_30">AC Service in Al Raffa</h1>
-                        {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 

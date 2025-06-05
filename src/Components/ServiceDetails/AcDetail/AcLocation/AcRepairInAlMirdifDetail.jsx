@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInAlMirdif.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
@@ -20,14 +20,14 @@ import WeSpecialise from "./WeSpecialise/WeSpecialise";
 
 const AcRepairInAlMirdifDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
-    // For SEO
-    const metatitle = String(titleSeo || "AC Services In Al Mirdif - Inverter AC Repairs Near Me #1");
-    const metadescription = String(description || "FAJ Provides Inverter AC Services in Al Mirdif, Our Technicians are Experts in HVAC Air Condition Maintenance & Repair near me Dubai AC Fixing.");
-    const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "AC Repair in Al Mirdif, Air Conditioning Service in Al Mirdif, Air Con Maintenance & AC Installation in Al Mirdif");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-mirdif")
+  // For SEO
+  const metatitle = String(titleSeo || "AC Services In Al Mirdif - Inverter AC Repairs Near Me #1");
+  const metadescription = String(description || "FAJ Provides Inverter AC Services in Al Mirdif, Our Technicians are Experts in HVAC Air Condition Maintenance & Repair near me Dubai AC Fixing.");
+  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaKeyword = String(Keyword || "AC Repair in Al Mirdif, Air Conditioning Service in Al Mirdif, Air Con Maintenance & AC Installation in Al Mirdif");
+  const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-mirdif")
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 
-  
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   reviewsbg = "img/testimonialbg.jpg"
@@ -87,21 +87,28 @@ const AcRepairInAlMirdifDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
   return (
     <>
       <HelmetProvider>
-                      <Helmet>
-                       <title>{metatitle}</title>
-                             <meta name="description" content={metadescription}></meta>
-                             <meta name="keywords" content={metaKeyword} />
-                             <meta name="author" content={metaAuthor} />
-                             <meta name="robots" content="index, follow" />
-                     
-                             <link rel="canonical" href={metaURL} />
-                             <meta property="og:type" content="website" />
-                             <meta property="og:locale" content="en_US" />
-                             <meta property="og:title" content={metatitle} />
-                             <meta property="og:description" content={metadescription} />
-                             <meta property="og:url" content={metaURL} />
-                             </Helmet>
-                  </HelmetProvider>
+        <Helmet>
+          <title>{metatitle}</title>
+          <meta name="description" content={metadescription} />
+          <meta name="keywords" content={metaKeyword} />
+          <meta name="author" content={metaAuthor} />
+          <meta name="robots" content="index, follow" />
+
+          <meta property="og:type" content="website" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:title" content={metatitle} />
+          <meta property="og:description" content={metadescription} />
+          <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
+        </Helmet>
+      </HelmetProvider>
       <HeaderForm />
       <div className="cs_service_details">
 
@@ -110,7 +117,7 @@ const AcRepairInAlMirdifDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
             <h1 className="cs_fs_30">AC Service in Al Mirdif</h1>
             {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
             <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
-            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
+              <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -166,8 +173,8 @@ const AcRepairInAlMirdifDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
           </div>
         </section>
 
-                 {/* Why is AC Maintenance Service Important in Dubai? */}
-       <section className="section cs_py_30 bg-light-gray">
+        {/* Why is AC Maintenance Service Important in Dubai? */}
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h3>
             <p>
@@ -360,10 +367,10 @@ const AcRepairInAlMirdifDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
           </div>
         </section>
 
-        
+
         {/* Maintenance Contract */}
         <MaintenanceContract />
-{/* testimobial section */}
+        {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">
