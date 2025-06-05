@@ -25,6 +25,7 @@ const DaikoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   const metaKeyword = String(Keyword || "");
   const metaURL = String(URL || "https://www.fajservices.com/daikool-ac-repair-in-dubai-daikool-ac-maintenance-in-dubai-daikool-ac-fix-in-dubai-daikool-ac-service-in-dubai-daikool-air-condition-repair-in-dubai-daikool-air-condition-maintenance-in-dubai-daikool/");
   const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   reviewsbg = "img/testimonialbg.jpg"
