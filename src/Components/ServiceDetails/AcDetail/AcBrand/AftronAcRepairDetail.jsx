@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcBrand/AftronAcRepairfaq.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
@@ -24,7 +23,7 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "");
   const metaURL = String(URL || "https://www.fajservices.ae/aftron-ac-repair-maintenance-service-in-dubai-2");
-
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   reviewsbg = "img/testimonialbg.jpg"
@@ -81,18 +80,26 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
     <>
       <HelmetProvider>
         <Helmet>
-          <title>{metatitle}</title>
-          <meta name="description" content={metadescription}></meta>
+           <title>{metatitle}</title>
+          <meta name="description" content={metadescription} />
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
 
-          <link rel="canonical" href={metaURL} />
+
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
           <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
         </Helmet>
       </HelmetProvider>
       <HeaderForm />
@@ -124,7 +131,7 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                 <h3 className="cs_fs_24 mb-1">Aftron Ac Maintenance and Services </h3>
 
                 <p className="mb-2">
-                  If you're in Dubai and require reliable Aftron <a href="https://www.fajservices.ae/ac-repair-dubai/"> air conditioner repair</a>, look no further than FAJ! Our expert team guarantees that your AC systems will operate at peak performance in both Dubai and Sharjah.
+                  If you&apos;re in Dubai and require reliable Aftron <a href="https://www.fajservices.ae/ac-repair-dubai/"> air conditioner repair</a>, look no further than FAJ! Our expert team guarantees that your AC systems will operate at peak performance in both Dubai and Sharjah.
                   We provide trusted solutions to provide your indoor comfort year-round. Enjoy a cool, refreshing setting with our exceptional service!
                 </p>
 
@@ -161,7 +168,7 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
         <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">Why is Aftron AC Maintenance Service Important in Dubai?</h3>
-            <p className="mb-0">To guarantee your Aftron central air conditioner functions efficiently in Dubai's intense heat, regular AC maintenance is essential. At FAJ, we offer expert aircon services designed to enhance your system’s performance and comfort year-round. Trust us to keep your air conditioner operating at its best.
+            <p className="mb-0">To guarantee your Aftron central air conditioner functions efficiently in Dubai&apos;s intense heat, regular AC maintenance is essential. At FAJ, we offer expert aircon services designed to enhance your system’s performance and comfort year-round. Trust us to keep your air conditioner operating at its best.
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
@@ -170,7 +177,7 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
 
               <div className="col-md-6">
                 <ul className="mb-0">
-                  <li> <strong> Extreme Weather: </strong> As summer approaches, we can expect temperatures to soar above 40°C (104°F), creating discomfort. It's essential to ensure that your Aftron air conditioning systems are primed for optimal performance. </li>
+                  <li> <strong> Extreme Weather: </strong> As summer approaches, we can expect temperatures to soar above 40°C (104°F), creating discomfort. It&apos;s essential to ensure that your Aftron air conditioning systems are primed for optimal performance. </li>
                   <li> <strong> Energy Efficiency: </strong> A well-maintained Aftron air conditioner operates efficiently, resulting in significant energy savings and lower DEWA electricity costs. </li>
                   <li> <strong> Longevity of Equipment: </strong> Keeping up with the Aftron AC maintenance is really important for getting the best performance and efficiency. It helps lower repair costs and can save money for both homes and businesses. </li>
                   <li> <strong> Improved Air Quality: </strong> Routine Aftron <a href="https://www.fajservices.ae/ac-service-in-dubai/">air conditioner cleaning service</a> prevents dust and allergens from getting in, resulting in improved air quality. </li>
@@ -405,7 +412,7 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                       </div>
                       <h4 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h4>
                       <p className="small">
-                        Our team provides vital feedback on your Aftron AC's health and any needed repairs.
+                        Our team provides vital feedback on your Aftron AC&apos;s health and any needed repairs.
                       </p>
                     </div>
                   </div>
@@ -515,7 +522,7 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
             <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
             <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
               <b>We provide 2-month service warranty</b><br />
-              and <small>3-month parts warranty</small> as standard.</p>
+              and <small>3-month parts warranty</small>as standard.</p>
 
 
             <h3>We specialise in Aftron AC services for the following types</h3>
@@ -524,7 +531,7 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                 <p className="mb-0"><strong> Aftron Air Conditioner Installation Service in Dubai: </strong>  A comprehensive solution for your cooling needs. We specialize in high-quality Aftron AC installation services in Dubai and Sharjah. Our consultation process helps you choose the right model based on your space and budget. Our experts assess factors like room size and AC insulation to recommend the best unit for optimal performance.</p>
 
                 <p className="mb-0"><strong> Our installation services include:</strong></p>
-                <p className="mb-0"> <strong> Climate Check: </strong> Understanding your unique requirements based on the local climate and your building's features. </p>
+                <p className="mb-0"> <strong> Climate Check: </strong> Understanding your unique requirements based on the local climate and your building&apos;s features. </p>
                 <p className="mb-0"> <strong> Expert AC Installation: </strong> Our skilled AC technicians ensure that the AC installation is performed to the highest standards, adhering to all safety protocols. </p>
                 <p className="mb-0"> <strong> Post-Installation Support: </strong> We provide advice on operating your new air conditioner, including tips on energy efficiency and maintenance. </p>
                 <p className="mb-0"> <strong> Warranty and Service Packages: </strong> To ensure your peace of mind, we offer warranty options and additional service packages for maintenance and repair in Dubai and Sharjah. </p>
@@ -651,7 +658,7 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
 
         <div className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
-            <h3 className="cs_fs_30 text-light">FAQ's</h3>
+            <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 

@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcBrand/DaikinAcRepairfaq.json';
 import { HelmetProvider } from "react-helmet-async";
 
@@ -19,12 +18,12 @@ import Practicaltip from "../../../Common/Practicaltip";
 const DaikinAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-    const metatitle = String(titleSeo || "Daikin Ac Repair in Dubai - Air Conditioner Maintenance");
-    const metadescription = String(description || "Relax with Daikin AC. Call 0507464712 for Daikin Ac Repair in Dubai We are experts in HVAC, Central Air Conditioner maintenance service near me");
-    const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.com/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con");
-
+  const metatitle = String(titleSeo || "Daikin Ac Repair in Dubai - Air Conditioner Maintenance");
+  const metadescription = String(description || "Relax with Daikin AC. Call 0507464712 for Daikin Ac Repair in Dubai We are experts in HVAC, Central Air Conditioner maintenance service near me");
+  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaKeyword = String(Keyword || "");
+  const metaURL = String(URL || "https://www.fajservices.ae/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/daikin-ac-repair.avif");
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   reviewsbg = "img/testimonialbg.jpg"
@@ -80,19 +79,25 @@ const DaikinAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
   return (
     <>
       <HelmetProvider>
-        <title>{titleSeo}</title>
-        <meta name="description" content={description}></meta>
-        <meta name="keywords" content={Keyword} />
-        <meta name="author" content={Author} />
+        <title>{metatitle}</title>
+        <meta name="description" content={metadescription} />
+        <meta name="keywords" content={metaKeyword} />
+        <meta name="author" content={metaAuthor} />
         <meta name="robots" content="index, follow" />
 
-        <Link rel="canonical" href={titleSeo} />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="en_US" />
-        <meta property="og:title" content={titleSeo} />
-        <meta property="og:description" content={description} />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={URL} />
+        <meta property="og:title" content={metatitle} />
+        <meta property="og:description" content={metadescription} />
+        <meta property="og:url" content={metaURL} />
+        <meta property="og:image" content={metaImage} />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={metatitle} />
+        <meta name="twitter:description" content={metadescription} />
+        <meta name="twitter:image" content={metaImage} />
+        <meta name="twitter:url" content={metaURL} />
 
       </HelmetProvider>
       <HeaderForm />
@@ -125,7 +130,7 @@ const DaikinAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                 <h3 className="cs_fs_24 mb-1">Daikin ac Maintenance and Servicing</h3>
 
                 <p className="mb-2">
-                  When it comes to Daikin air conditioner repairs, it's vital to choose a professional and dependable technician for your home or office.
+                  When it comes to Daikin air conditioner repairs, it&apos;s vital to choose a professional and dependable technician for your home or office.
                   <br />
 
                   We are the experts in Daikin <a href="/ac-repair-dubai/">AC repair</a>, service, and maintenance across Dubai and Sharjah.
@@ -338,7 +343,7 @@ const DaikinAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
 
                 </ul>
               </div>
-              
+
             </div>
           </div>
         </section >
@@ -418,7 +423,7 @@ const DaikinAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                       </div>
                       <h4 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h4>
                       <p className="small">
-                        Our team provides vital feedback on your Daikin AC's health and any needed repairs.
+                        Our team provides vital feedback on your Daikin AC&apos;s health and any needed repairs.
                       </p>
                     </div>
                   </div>
@@ -531,7 +536,7 @@ const DaikinAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
             <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
             <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
               <b>We provide 2-month service warranty</b><br />
-              and <small>3-month parts warranty</small> as standard.</p>
+              and <small>3-month parts warranty</small>as standard.</p>
             <h3>We specialise in Daikin ac services for the following types</h3>
             <div className="row">
               <div className="col-12">
@@ -660,7 +665,7 @@ const DaikinAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
         {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
-            <h3 className="cs_fs_30 text-light">FAQ's</h3>
+            <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 
