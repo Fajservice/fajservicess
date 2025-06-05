@@ -17,11 +17,11 @@ import HeaderForm from "../../Headeform/HeaderForm";
 
 const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo , description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Commercial Kitchen Gas Cooker Repair - Restaurant Range, Stove");
-  const metadescription = String(description || "Need gas cooker repairs near me in Dubai? FAJ offers expert gas cooker repair, maintenance, and service for commercial kitchens. Call now 04 3300002!");
+  const metatitle = String(titleSeo || "Professional Commercial Cooking Equipment Repair in Dubai");
+  const metadescription = String(description || "Need commercial cooking equipment repair in Dubai? FAJ provides expert repair, service & maintenance for all kitchen appliances. Call now 04 3300002!");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial Kitchen Gas Cooker Repair");
-  const metaURL = String(URL || "https://www.fajservices.ae/cooking-equipment-service/");
+  const metaURL = String(URL || "https://www.fajservices.ae/commercial-cooking-appliances-repair-service/");
 
 
   subtitle = "Testimonial"
@@ -585,7 +585,7 @@ and 3-month parts warranty as standard.</small> </b>
                                 <i className="bi bi-star-fill"></i>
                                 <i className="bi bi-star-fill"></i>
                               </div>
-                              <h3 className="cs_fs_24 cs_mb_1">{item.title}</h3>
+                              <span className="client_name cs_fs_24 cs_mb_1 text-uppercase" >{item.title}</span>
                               {/* <p className="cs_fs_14 cs_heading_color mb-0">{item.subTitle}</p> */}
                             </div>
                           </div>

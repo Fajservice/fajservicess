@@ -4,7 +4,7 @@ const QuickGuide = () => {
     return (
         <section className="section cs_py_30 bg-light-gray">
             <div className="container">
-                <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR AIR CONDITIONER SYSTEMS</h3>
+                <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR AIR CONDITIONER SYSTEMS</h2>
                 <div className="row">
                     <div className="col-xl-6">
                         <iframe

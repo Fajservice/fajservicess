@@ -72,6 +72,9 @@ h6 {
   font-family: var(--heading-font);
   text-transform: uppercase;
 }
+.client_name{
+  font-family: var(--heading-font);
+}
 
 .cs_service_details h1,
 .cs_service_details h2,

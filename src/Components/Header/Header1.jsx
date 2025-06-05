@@ -126,7 +126,7 @@ export default function Header1({ variant }) {
               <div className="cs_main_header_right">
               <div className="solutek-btn2">
               <a href="#" onClick={openModal} className="cs_btn cs_style_1">
-                  <span>Get a Quote</span>
+                  <span>Book Now</span>
                   <i className="bi bi-arrow-right"></i>
                 </a>             
 					    </div>

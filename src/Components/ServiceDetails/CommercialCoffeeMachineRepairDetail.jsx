@@ -2,13 +2,11 @@ import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../Data/commercialcoffeemachinesrepairFaqs.json';
 import {Helmet, HelmetProvider } from "react-helmet-async";
-
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import CallNowButton from '../Buttons/CallNowButton';
 import GetQuoteButton from "../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
-
 import Slider from "react-slick";
 import testimonial_data from '../../Data/CommercialCoffeeMAchineReapairTestimonials.json';
 import brandsLogo_data from '../../Data/coffeemachineServicebrand.json';
@@ -16,7 +14,6 @@ import loadBackgroudImages from "../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../Headeform/HeaderForm";
 
-// import { Link } from "react-router-dom";
 
 const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , description, Author, Keyword, URL }) => {
   // For SEO
@@ -153,17 +150,14 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
             </div>
             {/*  */}
           </div>
-        </section>
-
-        
+        </section>        
 
         {/* Coffee Machine Repair & Maintenance  */}
-
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Coffee Machine Repair & Maintenance </h3>
+                <h2 className="cs_fs_24 mb-1" style={{fontSize: "24px"}}>Coffee Machine Repair & Maintenance </h2>
 
                 <p className="mb-2">
                   If you're searching for the best coffee machine repairs in Dubai for both businesses and residents, you've come to the right place.
@@ -171,24 +165,18 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                   With experience across various brands and models, we know how to get your machine running smoothly again.
                   <br />
                   So why wait? Give us a call, and we'll have your coffee machine back on your kitchen counter in no time, ready to be part of your daily routine.
-
                 </p>
 
-
-
-                <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Coffee Machine Servicing and AMC Contract </h3>
+                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{fontSize: "24px"}}>Coffee Machine Servicing and AMC Contract </h2>
                 <p className="mb-0">
                   Whatever you need, we’ve got you covered. A scheduled commercial coffee machine de-casing, cleaning service, or maintenance contract for your professional coffee machine is essential for ensuring smooth operation throughout the year, including necessary cleaning and descaling.
                   <br />
                   Regular maintenance is vital for any coffee machine, whether it’s in an office, café, or restaurant. We’re here to make your life easier.
-
                 </p>
-
 
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Post Image" /> */}
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/What-is-the-Importance-of-Coffee-Machine-Maintenance-in-Dubai.avif`} alt="Post Image" />
 
               </div>
@@ -728,7 +716,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                                 <i className="bi bi-star-fill"></i>
                                 <i className="bi bi-star-fill"></i>
                               </div>
-                              <h3 className="cs_fs_24 cs_mb_1">{item.title}</h3>
+                              <span className="client_name cs_fs_24 cs_mb_1 text-uppercase" >{item.title}</span>
                               {/* <p className="cs_fs_14 cs_heading_color mb-0">{item.subTitle}</p> */}
                             </div>
                           </div>

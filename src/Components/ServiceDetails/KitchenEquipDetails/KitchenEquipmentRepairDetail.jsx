@@ -22,7 +22,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
   const metadescription = String(description || "Need expert kitchen equipment repair? FAJ offers commercial cooking appliance services and maintenance of stove, gas range, oven services Dubai");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Kitchen Equipment Repair, Commercial Cooking Equipment Repair");
-  const metaURL = String(URL || "https://www.fajservices.ae/commercial-cooking-appliances-repair-service/");
+  const metaURL = String(URL || "https://www.fajservices.ae/commercial-kitchen-equipment-maintenance-services/");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -607,7 +607,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
                                 <i className="bi bi-star-fill"></i>
                                 <i className="bi bi-star-fill"></i>
                               </div>
-                              <h3 className="cs_fs_24 cs_mb_1">{item.title}</h3>
+                              <span className="client_name cs_fs_24 cs_mb_1 text-uppercase" >{item.title}</span>
                               {/* <p className="cs_fs_14 cs_heading_color mb-0">{item.subTitle}</p> */}
                             </div>
                           </div>
