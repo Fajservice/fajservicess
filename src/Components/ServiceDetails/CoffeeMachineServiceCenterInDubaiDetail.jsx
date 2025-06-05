@@ -707,7 +707,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
                                 <i className="bi bi-star-fill"></i>
                               </div>
                               <span className="client_name cs_fs_24 cs_mb_1 text-uppercase" >{item.title}</span>
-
+                              {/* <p className="cs_fs_14 cs_heading_color mb-0">{item.subTitle}</p> */}
                             </div>
                           </div>
                           <blockquote className="cs_fs_16">{item.desc}</blockquote>

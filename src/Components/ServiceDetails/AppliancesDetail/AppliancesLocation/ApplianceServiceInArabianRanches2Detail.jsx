@@ -587,7 +587,7 @@ const ApplianceServiceInArabianRanches2Detail = ({ subtitle, title, reviewsbg, t
                                                                 <i className="bi bi-star-fill"></i>
                                                                 <i className="bi bi-star-fill"></i>
                                                             </div>
-                                                            <h3 className="cs_fs_24 cs_mb_1">{item.title}</h3>
+                                                            <span className="client_name cs_fs_24 cs_mb_1 text-uppercase" >{item.title}</span>
 
                                                         </div>
                                                     </div>
