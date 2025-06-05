@@ -20,6 +20,7 @@ const SearsHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 const metatitle = String(titleSeo || "Sears Appliances Installation Maintenance Repair Dubai #1");
 const metadescription = String(description || "We are offering Sears Appliance Installation Maintenance Repair Service Dubai. Sears Refrigerator, Fridge, Washing Machine 04300002 "); 
 const metaAuthor = String(Author || "Faj Technical Services");
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
 const metaKeyword = String(Keyword || "Repair Services");
 const metaURL = String(URL || "https://www.fajservices.ae/sears-home-appliances-installation-maintenance-repair-fix-service-in-dubai/");
 
@@ -127,7 +128,15 @@ const metaURL = String(URL || "https://www.fajservices.ae/sears-home-appliances-
 <meta property="og:locale" content="en_US" />
 <meta property="og:title" content={metatitle} />
 <meta property="og:description" content={metadescription} />
-<meta property="og:url" content={metaURL} />
+ <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
 </Helmet>
 </HelmetProvider>
       <HeaderForm />
@@ -171,8 +180,8 @@ const metaURL = String(URL || "https://www.fajservices.ae/sears-home-appliances-
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`}  loading="lazy" alt="Post Image" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`}  loading="lazy" alt="Post Image" />
+                
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`}  loading="lazy" alt="Sears Home Appliances Repair" />
               </div>
             </div>
             <AppliancesAppointmentCol></AppliancesAppointmentCol>
@@ -192,7 +201,7 @@ const metaURL = String(URL || "https://www.fajservices.ae/sears-home-appliances-
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`}  loading="lazy" alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`}  loading="lazy" alt="Sears Home Appliances Repair" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -540,7 +549,7 @@ const metaURL = String(URL || "https://www.fajservices.ae/sears-home-appliances-
         {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
-            <h3 className="cs_fs_30 text-light">FAQ's</h3>
+            <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 
