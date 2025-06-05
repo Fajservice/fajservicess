@@ -19,6 +19,7 @@ const AppliancesServicesInJumeirahVillageDetail = ({ subtitle, title, reviewsbg,
     const metatitle = String(titleSeo || "Appliances Services in Jumeirah Village - Fridge Repair");
     const metadescription = String(description || "Need appliance Service in Jumeirah Village. we provide refrigerator, washing machine repair near me, dryer cooker oven & more. Book now 043300002");
     const metaAuthor = String(Author || "Faj Technical Services");
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Jumeirah Village Dubai – Home Appliance Installation, Maintenance & Service Centre in Jumeirah Village Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah-village/");
 
@@ -125,6 +126,13 @@ const AppliancesServicesInJumeirahVillageDetail = ({ subtitle, title, reviewsbg,
                     <meta property="og:title" content={metatitle} />
                     <meta property="og:description" content={metadescription} />
                     <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />

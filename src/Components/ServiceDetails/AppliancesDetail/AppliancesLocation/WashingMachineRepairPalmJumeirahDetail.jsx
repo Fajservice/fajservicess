@@ -20,6 +20,7 @@ const WashingMachineRepairPalmJumeirahDetail = ({ subtitle, title, reviewsbg, ti
   const metatitle = String(titleSeo || "Washing Machine Repair Palm Jumeirah - Fridge Service Dubai");
   const metadescription = String(description || "FAJ washing machine repair in Palm Jumeirah. Get same day Bosch, LG, Siemens, Teka, Samsung refrigerator dryer, dishwasher, oven, service near you");
   const metaAuthor = String(Author || "Faj Technical Services");
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Palm Jumeirah – Dishwasher, Cooker maintenance Service Centre  in Palm Jumeirah Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-palm-jumeirah-fridge-repair-palm-jumeirah-refrigerator-repairing-palm-jumeirah-cooker-stove-oven-cooking-range-repairs-fix-service-centre-palm-jumeirah-dishwasher-installation-f/");
 
@@ -126,6 +127,13 @@ const WashingMachineRepairPalmJumeirahDetail = ({ subtitle, title, reviewsbg, ti
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
           <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

@@ -20,6 +20,7 @@ const ApplianceServiceInAlRaffaDetail = ({ subtitle, title, reviewsbg, titleSeo,
     const metatitle = String(titleSeo || "Appliances Services in Al Raffa - Fridge Repair Near Me ");
     const metadescription = String(description || "Get Appliances Services in Al Raffa. We specilize in fridge repair near me, Call 043300002 to fix washing machine, dishwasher and oven. ");
     const metaAuthor = String(Author || "Faj Technical Services");
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Al Raffa Dubai – Home Appliance Installation, Maintenance & Service Centre in Al Raffa Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-raffa/");
 
@@ -125,6 +126,13 @@ const ApplianceServiceInAlRaffaDetail = ({ subtitle, title, reviewsbg, titleSeo,
                     <meta property="og:title" content={metatitle} />
                     <meta property="og:description" content={metadescription} />
                     <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />

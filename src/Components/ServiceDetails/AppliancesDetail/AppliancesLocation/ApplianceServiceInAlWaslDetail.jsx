@@ -20,6 +20,7 @@ const ApplianceServiceInAlWaslDetail = ({ subtitle, title, reviewsbg, titleSeo, 
     const metatitle = String(titleSeo || " Appliances Services in Al Wasl - Washing Machine Repair  ");
     const metadescription = String(description || "We are experts appliance service in Al Wasl, Dubai. Get refrigerator repair near me. Book 043300002 to fix your dishwasher, washing machine. ");
     const metaAuthor = String(Author || "Faj Technical Services");
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Al Wasl Dubai – Home Appliance Installation, Maintenance & Service Centre in Al Wasl Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-wasl/");
     subtitle = "Testimonial"
@@ -124,6 +125,13 @@ const ApplianceServiceInAlWaslDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                     <meta property="og:title" content={metatitle} />
                     <meta property="og:description" content={metadescription} />
                     <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />

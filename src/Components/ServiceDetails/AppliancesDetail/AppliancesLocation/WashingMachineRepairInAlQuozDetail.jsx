@@ -20,6 +20,7 @@ const WashingMachineRepairInAlQuozDetail = ({ subtitle, title, reviewsbg, titleS
   const metatitle = String(titleSeo || "Washing Machine Repair in Al Quoz - Refrigerator Service");
   const metadescription = String(description || "FAJ washing machine repair in Al Quoz. Get same day Bosch, Daewoo, LG, Samsung refrigerator, dryer, dishwasher, oven and cooker service near me");
   const metaAuthor = String(Author || "Faj Technical Services");
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Al Quoz – Dishwasher, Oven fix & Maintenance Service in Al Quoz Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-in-al-quoz-refrigerator-repair-in-al-quoz-fridge-repair-in-al-quoz-dishwasher-oven-cooker-stove-appliance-maintenance-fix-service-in-al-quoz-dubai/");
 
@@ -126,6 +127,13 @@ const WashingMachineRepairInAlQuozDetail = ({ subtitle, title, reviewsbg, titleS
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
           <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

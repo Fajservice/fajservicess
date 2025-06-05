@@ -20,6 +20,7 @@ const AppliancesServicesInDubailandMazayaDetail = ({ subtitle, title, reviewsbg,
   const metatitle = String(titleSeo || "Appliances Services in Dubailand Mazaya - Fridge Repair");
   const metadescription = String(description || "Get appliance services in Dubailand Mazaya. FAJ Experts refrigerator repair near me. Call 043300002 to fix washing machine, dishwasher, oven, fridge");
   const metaAuthor = String(Author || "Faj Technical Services");
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Dubailand Mazaya – Home Appliance Installation, Maintenance & Service Centre in Dubailand Mazaya ");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubailand-mazaya/");
 
@@ -126,6 +127,13 @@ const AppliancesServicesInDubailandMazayaDetail = ({ subtitle, title, reviewsbg,
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
           <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

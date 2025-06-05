@@ -21,8 +21,10 @@ const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
   const metadescription = String(description || "To Get Fast Gree AC Repair in Dubai and air conditioner maintenance service near me. Call Us on 043300002 Our technicians are experts in fixing errors");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "");
-  const metaURL = String(URL || "https://www.fajservices.com/gree-ac-repair-in-dubai");
+  const metaURL = String(URL || "https://www.fajservices.ae/gree-ac-repair-in-dubai");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+
+
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   reviewsbg = "img/testimonialbg.jpg"

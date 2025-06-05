@@ -21,6 +21,7 @@ const AppliancesServicesInDubaiHealthcareCityDetail = ({ subtitle, title, review
     const metatitle = String(titleSeo || "Appliances Services in Dubai Healthcare City - Fridge Repair");
     const metadescription = String(description || "We offer best appliance services in Dubai Healthcare City. Get fridge repair near me. Book 043300002 for oven, dishwasher, washing machine maintenance");
     const metaAuthor = String(Author || "Faj Technical Services");
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Dubai – Home Appliance Installation, Maintenance & Service Centre in Dubai Healthcare City");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-healthcare-city/");
 
@@ -127,6 +128,13 @@ const AppliancesServicesInDubaiHealthcareCityDetail = ({ subtitle, title, review
                     <meta property="og:title" content={metatitle} />
                     <meta property="og:description" content={metadescription} />
                     <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />
