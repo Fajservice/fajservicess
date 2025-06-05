@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../Data/KitchenEquipments/FAQs/CookingEquipmentServiceFaqs.json';
-import {Helmet, HelmetProvider } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
 import GetQuoteButton from "../../Buttons/GetQuoteButton";
@@ -15,7 +15,7 @@ import HeaderForm from "../../Headeform/HeaderForm";
 
 // import { Link } from "react-router-dom";
 
-const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo , description, Author, Keyword, URL }) => {
+const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Professional Commercial Cooking Equipment Repair in Dubai");
   const metadescription = String(description || "Need commercial cooking equipment repair in Dubai? FAJ provides expert repair, service & maintenance for all kitchen appliances. Call now 04 3300002!");
@@ -138,9 +138,9 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo , 
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Commercial Cooking Equipment Repair and Maintenance Service Dubai</h1>
-            <p>FAJ, established in 2010, specialises in minimising downtime for the catering industry through repair and annual maintenance contracts. Our catering division supplies, installs, repairs, and maintains commercial catering and warewashing equipment.<br/>
-We provide services ranging from emergency repairs on electric and gas catering appliances to complete commercial kitchen installations, as well as repair and maintenance services tailored to businesses of all sizes
-</p>
+            <p>FAJ, established in 2010, specialises in minimising downtime for the catering industry through repair and annual maintenance contracts. Our catering division supplies, installs, repairs, and maintains commercial catering and warewashing equipment.<br />
+              We provide services ranging from emergency repairs on electric and gas catering appliances to complete commercial kitchen installations, as well as repair and maintenance services tailored to businesses of all sizes
+            </p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -151,7 +151,7 @@ We provide services ranging from emergency repairs on electric and gas catering 
           </div>
         </section>
 
-      
+
         {/* Cooking Range Repair Nearby You */}
 
         <section className="section cs_py_30 bg-light-gray">
@@ -161,16 +161,16 @@ We provide services ranging from emergency repairs on electric and gas catering 
                 <h3 className="cs_fs_24 mb-1">Commercial Catering Equipment Services</h3>
 
                 <p className="mb-2">We know how important it is to have your catering equipment serviced, maintained, and repaired promptly, as downtime can break your profits.<br />
-We have implemented a cloud-based Field Service and annual maintenance contract (AMC) to provide efficient and transparent service for all breakdowns and kitchen maintenance.
-</p>
+                  We have implemented a cloud-based Field Service and annual maintenance contract (AMC) to provide efficient and transparent service for all breakdowns and kitchen maintenance.
+                </p>
 
 
                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">EMERGENCY Cooking Equipments REPAIR</h3>
                 <p className="mb-0">
-                  <b>Terms & Conditions:</b> There is a callout fee that appliesapplies for each diagnosis, depending on the capacity applied. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.<br/>
-<b>CHOOSE FAJ FOR YOUR PEACE OF MIND<br/>
-<small>We provide 2-month service warranty 
-and 3-month parts warranty as standard.</small> </b>
+                  <b>Terms & Conditions:</b> There is a callout fee that appliesapplies for each diagnosis, depending on the capacity applied. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.<br />
+                  <b>CHOOSE FAJ FOR YOUR PEACE OF MIND<br />
+                    <small>We provide 2-month service warranty
+                      and 3-month parts warranty as standard.</small> </b>
                 </p>
               </div>
 
@@ -181,7 +181,7 @@ and 3-month parts warranty as standard.</small> </b>
             </div>
 
             <h3 className="cs_fs_24 mb-1 border-small-top pt-3">Planned Preventive Maintenance (PPM) Services</h3>
-                <p className="mb-2">Our catering equipment technician can provide your business with a customised Planned Preventive Maintenance Package designed to keep your catering, cooking line, baking line, and refrigeration equipment compliant and running efficiently.< br/> This proactive approach reduces the likelihood of unexpected breakdowns and associated costs. Our Planned Preventive Maintenance Package includes maintenance, repair services, and testing. It is ideal for hotels, restaurants, canteens, and other venues in the hospitality and education sectors looking to ensure their equipment operates smoothly and to prevent breakdowns.</p>
+            <p className="mb-2">Our catering equipment technician can provide your business with a customised Planned Preventive Maintenance Package designed to keep your catering, cooking line, baking line, and refrigeration equipment compliant and running efficiently.< br /> This proactive approach reduces the likelihood of unexpected breakdowns and associated costs. Our Planned Preventive Maintenance Package includes maintenance, repair services, and testing. It is ideal for hotels, restaurants, canteens, and other venues in the hospitality and education sectors looking to ensure their equipment operates smoothly and to prevent breakdowns.</p>
           </div>
         </section>
         {/* Most common Cooker faults: */}
@@ -195,11 +195,11 @@ and 3-month parts warranty as standard.</small> </b>
               </div>
               <div className="col-md-6">
                 <ul>
-                    <li><strong>Efficiency:&nbsp;</strong>Regular maintenance ensures that the hot plates, gas range, cooker, stove, deep fryer, and hood heat evenly and accurately, reducing energy waste and providing consistent cooking results.</li>
-                    <li><strong>Food Quality:&nbsp;</strong>A clean commercial cooking appliance prevents unwanted flavours and ensures proper cooking and baking, which are essential for a positive customer experience.</li>
-                    <li><strong>Reduced Downtime:&nbsp;</strong>Preventive maintenance (AMC) helps identify potential issues before they result in costly repair or breakdowns.</li>
-                    <li><strong>Cost Savings with Maintenance Contract:&nbsp;</strong>Regular maintenance can extend the lifespan of commercial cooking ranges, stoves, hobs, induction, hot plates, deep fryers, and chimneys while also lowering repair costs. This ultimately saves businesses money over time.</li>
-                    <li><strong>Hygiene:&nbsp;</strong>Regular cleaning helps prevent bacteria and other contaminants, ensuring a safe environment for cooking and baking.</li>
+                  <li><strong>Efficiency:&nbsp;</strong>Regular maintenance ensures that the hot plates, gas range, cooker, stove, deep fryer, and hood heat evenly and accurately, reducing energy waste and providing consistent cooking results.</li>
+                  <li><strong>Food Quality:&nbsp;</strong>A clean commercial cooking appliance prevents unwanted flavours and ensures proper cooking and baking, which are essential for a positive customer experience.</li>
+                  <li><strong>Reduced Downtime:&nbsp;</strong>Preventive maintenance (AMC) helps identify potential issues before they result in costly repair or breakdowns.</li>
+                  <li><strong>Cost Savings with Maintenance Contract:&nbsp;</strong>Regular maintenance can extend the lifespan of commercial cooking ranges, stoves, hobs, induction, hot plates, deep fryers, and chimneys while also lowering repair costs. This ultimately saves businesses money over time.</li>
+                  <li><strong>Hygiene:&nbsp;</strong>Regular cleaning helps prevent bacteria and other contaminants, ensuring a safe environment for cooking and baking.</li>
                 </ul>
               </div>
             </div>
@@ -209,7 +209,7 @@ and 3-month parts warranty as standard.</small> </b>
         {/* The Most Common Problems with Home Appliances */}
         <section className="section cs_py_30  bg-light-gray">
           <div className="container">
-            <h3 className="text-center">Common Problems with Commercial Cooking Equipment That May Require Maintenance</h3>
+            <h3 className="text-center">Common Problems of Commercial Cooking Equipment That May Require Service</h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
@@ -315,7 +315,7 @@ and 3-month parts warranty as standard.</small> </b>
         {/*Why should you choose us? */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">Comprehensive Repair Services for Commercial Cooking Equipment in Dubai</h3>
+            <h3 className="cs_fs_30">Comprehensive Maintenance of Commercial Cooking Equipment in Dubai</h3>
             <p>We offer repair services for a variety of commercial cooking equipment, including:</p>
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -333,12 +333,12 @@ and 3-month parts warranty as standard.</small> </b>
 
               <div className="col-xl-6">
                 <ul>
-<li><strong>Commercial Cooking Equipment Installation:</strong>Professional installation of a variety of gas and electric commercial cooking equipment, ensuring optimal performance and efficiency.</li>
-<li><strong>Commercial Cooking Equipment Diagnostics:</strong>We perform comprehensive diagnostics, eligibility assessments, and provide detailed quotes to resolve any oven issues.</li>
-<li><strong>Commercial Cooking Equipment Repair Service:</strong>Professional cooking range, stove, hood, and deep fryer repair services for all components, ensuring quick resolution of issues such as leaks, electrical failures, and malfunctions. Feel free to contact us with specific service requests or any questions!</li>
-<li><strong>Commercial Cooking Equipment AMC:</strong>This contract details the terms and services for annual maintenance of catering cooking equipment.</li>
-<p>Regular maintenance is crucial for the optimal performance, efficiency, and longevity of your kitchen restaurant cooking equipment.</p>
-</ul>
+                  <li><strong>Commercial Cooking Equipment Installation:</strong>Professional installation of a variety of gas and electric commercial cooking equipment, ensuring optimal performance and efficiency.</li>
+                  <li><strong>Commercial Cooking Equipment Diagnostics:</strong>We perform comprehensive diagnostics, eligibility assessments, and provide detailed quotes to resolve any oven issues.</li>
+                  <li><strong>Commercial Cooking Equipment Repair Service:</strong>Professional cooking range, stove, hood, and deep fryer repair services for all components, ensuring quick resolution of issues such as leaks, electrical failures, and malfunctions. Feel free to contact us with specific service requests or any questions!</li>
+                  <li><strong>Commercial Cooking Equipment AMC:</strong>This contract details the terms and services for annual maintenance of catering cooking equipment.</li>
+                  <p>Regular maintenance is crucial for the optimal performance, efficiency, and longevity of your kitchen restaurant cooking equipment.</p>
+                </ul>
               </div>
 
 
@@ -349,8 +349,7 @@ and 3-month parts warranty as standard.</small> </b>
         <section className="section cs_py_30 appliances-benifit-sec  bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
-              <h3 className="cs_fs_30 mb-0">Benefits of Regular Commercial Cooking Equipment Maintenance in Dubai
-              </h3>
+              <h3 className="cs_fs_30 mb-0"> Benefits of Regular Catering Cooking Equipment Maintenance in Dubai </h3>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
                   <div className="">
@@ -500,7 +499,7 @@ and 3-month parts warranty as standard.</small> </b>
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" loading="lazy"/>
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" loading="lazy" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
@@ -520,21 +519,21 @@ and 3-month parts warranty as standard.</small> </b>
         {/* We specialise in Hob services for the following brands  */}
         <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">
-            <h3>We specialise in catering and cooking equipment services for the following brands.</h3>
+            <h3>We Specialise in Cooking Equipment Services for the Following Brands</h3>
             <div className="row">
               <div className="col-12">
                 <ul>
-<li><strong>Professional Cooking Range Repair and Service: </strong>When your gas range breaks down, you need a team that responds quickly.&nbsp;Our experienced technicians are fully qualified to diagnose and repair all types of commercial cookers, from gas to electric models. We aim to get you back up and running with minimal disruption.</li>
-<li><strong>Angelo Gas Cooking Range Burners Repairs:</strong> Addressing small issues promptly prevents them from escalating into major problems.&nbsp;We conduct repairs such as adjusting thermostats, replacing worn seals, and fixing faulty burners during maintenance service.</li>
-<li><strong>Commercial Table Top Gas Stove Hotel Restaurant Kitchen:</strong> Are you starting a new catering business or in need of professional catering equipment repairs?<br />FAJ offers a wide range of catering equipment services and reliable repair plans in Dubai. Our expertise includes cookers, stoves, ovens, food warmers, and fryers. Explore our specialized services today. With a focus on accuracy and reliability, we ensure that your essential kitchen equipment receives top-notch repair services.</li>
-<li><strong>Gas Cooking Range Burner:</strong> Discover our commercial cooking equipment services, including repairs and maintenance.&nbsp;We specialize in maintaining gas stoves, hot plates, induction hobs, and ovens, ensuring they work efficiently. Experience hassle-free solutions that keep your kitchen appliances running smoothly.</li>
-<li><strong>Vulcan Natural Gas Burner Range Ovens:</strong> As a trusted service provider for gas cookers, stoves, and ovens, we offer a variety of options in our store to suit your commercial cooking and catering needs. Explore our selection of cooking appliances designed to meet all your culinary requirements with ease.</li>
-<li><strong>Commercial Cooking Equipment Maintenance:</strong> Our highly experienced engineers are available to assist with all your commercial kitchen equipment needs.&nbsp;We provide maintenance, repair, call-out, and installation services for a wide range of equipment, including combi ovens, range ovens, convection ovens, grills, griddles, pizza ovens, and more.</li>
-<li><strong>Pitco Gas Fryer Repair and Services:</strong> Our professional technician is an expert in Pitco gas fryers. Contact us via call, WhatsApp, or email for commercial deep fryer equipment repairs and servicing.</li>
-<li><strong>Electrolux Professional Cooking Appliances Maintenance Service: </strong>We are committed to ensuring minimal downtime for your Electrolux Professional Cooking equipment, including cooking ranges, induction hobs, hot plates, and ovens.&nbsp;Our services are available to help your business keep running smoothly.</li>
-<li><strong>Trusted Commercial Cooking Equipment Repair:&nbsp;</strong>To Keep Your Kitchen Running Smoothly Reliable repairs for commercial cooking equipment are essential for maintaining efficiency in professional kitchens. At FAJ Service Dubai, we specialize in repairing a wide range of cooking appliances, including ovens, stoves, fryers, and grills. Whether you run a restaurant, hotel, or catering business, our expert technicians are dedicated to ensuring that your equipment operates efficiently and safely.</li>
-</ul>
-<p>Commercial Induction Cooker | Counter top Electric Plates | MC Appliance | Corporation cooking appliances | Mirabake Jiangsu Province Baking Proofers, ovens | Kitchen Guys Ranges, Cooktops, Wall Ovens | American Range Commercial Stoves, Ovens, Fryers, Griddles, Broilers, Cheesemelters | Vulcan Equipment Ranges Fryers, Griddles, Combi Ovens, Steamers, Charbroilers | Turbo Air refrigerators and freezers, food prep tables | Omcan Pizza Ovens, Meat Slicers, Ice makers, Spiral Mixers |&nbsp;Webstaurant Store: Refrigeration units, Ranges, Food Prep Equipment | Thermador Cooking Appliances | Henny Penny: Perfecting Fried Food with Pressure Fryers | Taylor: Master of Frozen Desserts and Grilled Foods | Vulcan: The Backbone of Professional Kitchens | Hobart: Your Go-To for Dishwashers and Mixers | True Refrigeration: The Ultimate Cold Storage Solution</p>
+                  <li><strong>Professional Cooking Range Repair and Service: </strong>When your gas range breaks down, you need a team that responds quickly.&nbsp;Our experienced technicians are fully qualified to diagnose and repair all types of commercial cookers, from gas to electric models. We aim to get you back up and running with minimal disruption.</li>
+                  <li><strong>Angelo Gas Cooking Range Burners Repairs:</strong> Addressing small issues promptly prevents them from escalating into major problems.&nbsp;We conduct repairs such as adjusting thermostats, replacing worn seals, and fixing faulty burners during maintenance service.</li>
+                  <li><strong>Commercial Table Top Gas Stove Hotel Restaurant Kitchen:</strong> Are you starting a new catering business or in need of professional catering equipment repairs?<br />FAJ offers a wide range of catering equipment services and reliable repair plans in Dubai. Our expertise includes cookers, stoves, ovens, food warmers, and fryers. Explore our specialized services today. With a focus on accuracy and reliability, we ensure that your essential kitchen equipment receives top-notch repair services.</li>
+                  <li><strong>Gas Cooking Range Burner:</strong> Discover our commercial cooking equipment services, including repairs and maintenance.&nbsp;We specialize in maintaining gas stoves, hot plates, induction hobs, and ovens, ensuring they work efficiently. Experience hassle-free solutions that keep your kitchen appliances running smoothly.</li>
+                  <li><strong>Vulcan Natural Gas Burner Range Ovens:</strong> As a trusted service provider for gas cookers, stoves, and ovens, we offer a variety of options in our store to suit your commercial cooking and catering needs. Explore our selection of cooking appliances designed to meet all your culinary requirements with ease.</li>
+                  <li><strong>Commercial Cooking Equipment Maintenance:</strong> Our highly experienced engineers are available to assist with all your commercial kitchen equipment needs.&nbsp;We provide maintenance, repair, call-out, and installation services for a wide range of equipment, including combi ovens, range ovens, convection ovens, grills, griddles, pizza ovens, and more.</li>
+                  <li><strong>Pitco Gas Fryer Repair and Services:</strong> Our professional technician is an expert in Pitco gas fryers. Contact us via call, WhatsApp, or email for commercial deep fryer equipment repairs and servicing.</li>
+                  <li><strong>Electrolux Professional Cooking Appliances Maintenance Service: </strong>We are committed to ensuring minimal downtime for your Electrolux Professional Cooking equipment, including cooking ranges, induction hobs, hot plates, and ovens.&nbsp;Our services are available to help your business keep running smoothly.</li>
+                  <li><strong>Trusted Commercial Cooking Equipment Repair:&nbsp;</strong>To Keep Your Kitchen Running Smoothly Reliable repairs for commercial cooking equipment are essential for maintaining efficiency in professional kitchens. At FAJ Service Dubai, we specialize in repairing a wide range of cooking appliances, including ovens, stoves, fryers, and grills. Whether you run a restaurant, hotel, or catering business, our expert technicians are dedicated to ensuring that your equipment operates efficiently and safely.</li>
+                </ul>
+                <p>Commercial Induction Cooker | Counter top Electric Plates | MC Appliance | Corporation cooking appliances | Mirabake Jiangsu Province Baking Proofers, ovens | Kitchen Guys Ranges, Cooktops, Wall Ovens | American Range Commercial Stoves, Ovens, Fryers, Griddles, Broilers, Cheesemelters | Vulcan Equipment Ranges Fryers, Griddles, Combi Ovens, Steamers, Charbroilers | Turbo Air refrigerators and freezers, food prep tables | Omcan Pizza Ovens, Meat Slicers, Ice makers, Spiral Mixers |&nbsp;Webstaurant Store: Refrigeration units, Ranges, Food Prep Equipment | Thermador Cooking Appliances | Henny Penny: Perfecting Fried Food with Pressure Fryers | Taylor: Master of Frozen Desserts and Grilled Foods | Vulcan: The Backbone of Professional Kitchens | Hobart: Your Go-To for Dishwashers and Mixers | True Refrigeration: The Ultimate Cold Storage Solution</p>
 
               </div>
 
@@ -550,9 +549,9 @@ and 3-month parts warranty as standard.</small> </b>
           </div>
         </section>
 
-          {/* Maintenance Contract */}
+        {/* Maintenance Contract */}
         <MaintenanceContract />
-{/* testimobial section */}
+        {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
