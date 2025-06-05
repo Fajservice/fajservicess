@@ -164,7 +164,8 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Reliable Fast Ice Maker Machine Services in Dubai</h3>
+                <h3 className="cs_fs_24 mb-1">Ice Maker Machine Maintenance in Dubai
+</h3>
 
                 <p className="mb-2">
                   Our experts are highly skilled and always work to a high-quality standard. We regularly provide ice machine servicing and repair services for a wide range of ice machine brands, including those used in restaurants, cafes, shops, hotels, and other establishments.
@@ -561,7 +562,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
         {/* We specialise  */}
         <section className="section cs_py_30 bg-light-gray ">
           <div className="container">
-            <h3>We specialise in Ice Machine and Ice Cube Maker services for the following brands </h3>
+            <h3> We specialise in Ice Maker Machine Service for the following brands </h3>
             <div className="row">
               <div className="col-12">
 

@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../Data/KitchenEquipments/FAQs/KitchenEquipmentRepairFaqs.json';
-import {Helmet, HelmetProvider } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
 import GetQuoteButton from "../../Buttons/GetQuoteButton";
@@ -16,7 +16,7 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
 
 
-const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , description, Author, Keyword, URL }) => {
+const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Commercial Cooking | Kitchen Equipment Repair & AMC Service");
   const metadescription = String(description || "Need expert kitchen equipment repair? FAJ offers commercial cooking appliance services and maintenance of stove, gas range, oven services Dubai");
@@ -118,20 +118,20 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
   return (
     <>
       <HelmetProvider>
-                    <Helmet>
-                      <title>{metatitle}</title>
-                      <meta name="description" content={metadescription}></meta>
-                      <meta name="keywords" content={metaKeyword} />
-                      <meta name="author" content={metaAuthor} />
-                      <meta name="robots" content="index, follow" />
-                      <link rel="canonical" href={metaURL} />
-                      <meta property="og:type" content="website" />
-                      <meta property="og:locale" content="en_US" />
-                      <meta property="og:title" content={metatitle} />
-                      <meta property="og:description" content={metadescription} />
-                      <meta property="og:url" content={metaURL} />
-                    </Helmet>
-                  </HelmetProvider>
+        <Helmet>
+          <title>{metatitle}</title>
+          <meta name="description" content={metadescription}></meta>
+          <meta name="keywords" content={metaKeyword} />
+          <meta name="author" content={metaAuthor} />
+          <meta name="robots" content="index, follow" />
+          <link rel="canonical" href={metaURL} />
+          <meta property="og:type" content="website" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:title" content={metatitle} />
+          <meta property="og:description" content={metadescription} />
+          <meta property="og:url" content={metaURL} />
+        </Helmet>
+      </HelmetProvider>
       <HeaderForm />
 
       <div className="cs_service_details">
@@ -140,8 +140,8 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
           <div className="container">
             <h1 className="cs_fs_30">Commercial Kitchen Equipment Maintenance Services</h1>
             <p>Kitchen Equipment Maintenance Solutions, a division of F A J Technical Services L.L.C established in 2010, specialises in the repair and maintenance of food service equipment within the commercial kitchen sector in Dubai, UAE.<br />
-            Our primary objective is to ensure the optimal functioning of our clients' commercial kitchen equipment maintenance services and repair while fully complying with all regulatory requirements in Dubai.<br />
-            We are a reliable provider of repair, maintenance, and servicing, catering to a diverse range of establishments, including restaurants, hotels, and kitchens in schools, colleges, and hospitals.
+              Our primary objective is to ensure the optimal functioning of our clients' commercial kitchen equipment maintenance services and repair while fully complying with all regulatory requirements in Dubai.<br />
+              We are a reliable provider of repair, maintenance, and servicing, catering to a diverse range of establishments, including restaurants, hotels, and kitchens in schools, colleges, and hospitals.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -153,7 +153,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
           </div>
         </section>
 
-        
+
 
 
         <section className="section cs_py_30 bg-light-gray">
@@ -163,7 +163,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
                 <h3 className="cs_fs_20 mb-1">Catering Equipment Maintenance Services</h3>
                 <p className="mb-2">We know that quick service and repair of your catering equipment is essential, as downtime can severely affect your profits.<br /> The catering industry is fast-paced and highly demanding, which is why we at FAJ prioritise minimising downtime and ensuring smooth operations. This includes servicing freezers, chillers, ovens, ranges, hoods, ice makers, dishwashers, and air conditioning units.</p>
 
-                <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Cooking Equipment Technical Inspection Fee</h3>
+                <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Commercial Cooking Equipment Call-out</h3>
                 <p className="mb-0">The technical inspection fee which covers diagnosis, transportation, and reinstallation in Dubai premises. Please note that this fee is non-refundable.</p>
               </div>
 
@@ -172,8 +172,8 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
 
               </div>
             </div>
-                <h3 className="cs_fs_24 mb-1 border-small-top pt-3">Planned Preventive Maintenance (PPM) Services</h3>
-                <p className="mb-2">Our catering equipment technician can provide your business with a customised Planned Preventive Maintenance Package to keep your catering, warewashing, and refrigeration equipment compliant and running efficiently. This proactive approach reduces the likelihood of unexpected breakdowns and associated costs.<br />Our Planned Preventive Maintenance Package, which includes maintenance, repair, and testing, is ideal for any restaurant, canteen, or hospitality venue looking to ensure its equipment operates smoothly and prevent breakdowns.</p>
+            <h3 className="cs_fs_24 mb-1 border-small-top pt-3">Planned Preventive Maintenance (PPM) Services</h3>
+            <p className="mb-2">Our catering equipment technician can provide your business with a customised Planned Preventive Maintenance Package to keep your catering, warewashing, and refrigeration equipment compliant and running efficiently. This proactive approach reduces the likelihood of unexpected breakdowns and associated costs.<br />Our Planned Preventive Maintenance Package, which includes maintenance, repair, and testing, is ideal for any restaurant, canteen, or hospitality venue looking to ensure its equipment operates smoothly and prevent breakdowns.</p>
 
           </div>
         </section>
@@ -183,7 +183,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
         {/* Why  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">Why is Commercial Kitchen Equipment Maintenance Important in Dubai?</h3>
+            <h3 className="cs_fs_30">Why is Restaurant Kitchen Equipment Maintenance Important in Dubai?</h3>
 
             <div className="row align-items-center">
               <div className="col-md-6">
@@ -316,7 +316,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
         {/*HERE ARE */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR THE COMMERCIAL KITCHEN EQUIPMENT</h3>
+            <h3 className="cs_fs_30">Here Are the Service We Offer For Commercial Kitchen Equipment</h3>
             <p className="mb-0">
               We specialise in all types and brands of commercial kitchen equipment, including built-in commercial appliances.
             </p>
@@ -335,14 +335,14 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
               </div>
 
               <div className="col-xl-6">
-                
+
 
                 <p className='mb-0'><strong>Our services include:</strong></p>
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
                   <li><strong>Kitchen Equipment Installation: </strong>Professional installation of various brands and types of professional kitchen equipment for optimal performance and efficiency.</li>
-<li><strong>Kitchen Equipment Diagnostics: </strong>We provide thorough fault-finding services to identify issues, perform eligibility assessments, and provide detailed quotes to address system concerns.</li>
-<li><strong>Kitchen Equipment Repair Service: </strong>We provide prompt and effective repair services for all restaurant kitchen equipment components, addressing issues such as leaks, electrical failures, and system malfunctions.</li>
-<li><strong>Kitchen Equipment Annual Maintenance Contract: </strong>This contract outlines the terms and services for the annual maintenance of your commercial kitchen equipment system.</li>
+                  <li><strong>Kitchen Equipment Diagnostics: </strong>We provide thorough fault-finding services to identify issues, perform eligibility assessments, and provide detailed quotes to address system concerns.</li>
+                  <li><strong>Kitchen Equipment Repair Service: </strong>We provide prompt and effective repair services for all restaurant kitchen equipment components, addressing issues such as leaks, electrical failures, and system malfunctions.</li>
+                  <li><strong>Kitchen Equipment Annual Maintenance Contract: </strong>This contract outlines the terms and services for the annual maintenance of your commercial kitchen equipment system.</li>
                   <p className="mb-0">
                     <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for optimal performance, efficiency, and longevity of your Professional Kitchen Equipment
                   </p>
@@ -546,18 +546,18 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
         {/* We specialise  */}
         <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">
-            <h3>WE SPECIALISE IN COMMERCIAL KITCHEN EQUIPMENT SERVICES FOR THE FOLLOWING</h3>
+            <h3>We specialise in Catering Equipment Maintenance for the Following</h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"><strong>Restaurant Kitchen Equipment Maintenance in Dubai</strong>: FAJ provides reliable maintenance and services in Dubai and Sharjah. Our team is made up of professionals who are experts in a variety of kitchen equipment, including countertop induction cookers, beverage dispensers, ice cream makers, gas ranges, refrigerated equipment, display counters, food service equipment, pantry equipment, food processing machinery, cooking lines, bakery lines, and coffee and bar equipment.</p>
-<p className="mb-0"><strong>Hotels Kitchen Equipment Maintenance Contract (AMC) in Dubai</strong>: Based in Dubai, FAJ is your go-to destination for maintenance services for walk-in coolers, chillers, freezers, commercial gas ranges, professional ovens, microwaves, grinders, mixers, dishwashers, and glasswashers. We specialise in air conditioning systems and various lines of equipment, including Bakery equipment, Beverage, Blenders, Coffee line(espresso and coffee machines), Cooking ranges, Cold room, Dishwashing, Ovens, Food Processing, and Laundry equipment. Our comprehensive MEP (mechanical, electrical and plumbing services cover everything from repairs to regular maintenance contract services and PPM.</p>
-<p className="mb-0"><strong>Professional Kitchen Equipment Repair and Maintenance Service</strong>: Our professional equipment includes a commercial dishwasher, commercial ice maker, glass washer, pizza oven, deep fryer, convection oven, dough mixer, and meat mixer cleaning services in Dubai.</p>
-<p className="mb-0">In addition, we provide electric and plumbing maintenance services, so you can have peace of mind knowing you&rsquo;re in the right place. FAJ is dedicated to prioritising efficiency and reliability.</p>
-<p className="mb-0"><strong>Catering Equipment Maintenance and Repair Service in Dubai: </strong>Trust on our skilled team to efficiently resolve any issues with your catering equipment, including air conditioners, refrigeration systems, cold storage units, espresso machines, commercial coffee machines, chillers, freezers, dishwashers, ice makers, pizza ovens, convection ovens, commercial hoods, kitchen chimneys, countertop induction cookers, beverage dispensers, ice cream makers, gas ranges, refrigerated equipment, display counters, food service equipment, pantry equipment, food processing equipment, cooking lines, bakery lines, Orange Juicer, Slush Machine Single, Automatic Citrus Juicer with Lever, Proofer, Planetary Mixer, Electric Fryer, Conveyor Dishwasher, Under Counter Dishwasher, Electric Convection Oven, Electric Convection Steamer, Electric Pizza Oven 4 Deck, Gas Combi Oven 6 Trays, Electric Pizza Oven Double Deck, Convection Oven with Deck Oven, Rational Gas Combi Oven, Gas Pizza Oven Double Deck, Hood Type Dishwasher, Pancake Machine, Coffee Grinder, Bar Cooler, Toaster and coffee and Bar lines. We will restore functionality and ensure everything operates smoothly.</p>
-<p className="mb-0"><strong>MKN, Rational, Ozti, Alto-Shaam, Amana Commercial, Bakers Pride, Convotherm, Professional Electrolux, Fagor, Hobart, Conti, Caplain, Fri-Jado, Spaa, Empero, Menumaster Commercial, Unox, Capinox, Simonelli, Hoshizaki, Dr. Coffee, Bunn, Venix, La Marzocco, De'Longhi, Jura, Anmo, Marco, Feema, Conveyor, Zanussi, Meiko, Elframo, Brema, Eurfrigor, Follett, Foster's, Icetech, Simag, Wolf, Smeg, Viking, True Star, Salva, Miska, Irinox, GBG, Cooktek, Toastmaster, Lincat, Helia Smoker, Faema, Cino, Blendtec, Wells, Tekno Stamap, Hamilton Beach, Williams, Trubchif, Pitco, Josper, Hamilton Beach, Gemm, Berto's, Victoria, Scotsman, Kromo, Hatco, Coreco, La Cimbali, Antunes, Zumex, Santos, Middleby, Jordao, Sesmon, Nemco Food, Matick Pastry, Klimasan, Robot Coupe, Roller Grill, Santos, KitchenAid, Server, Aristarco, Brema, American Range, and Pizza Group</strong></p>
+                <p className="mb-0"><strong>Hotels Kitchen Equipment Maintenance Contract (AMC) in Dubai</strong>: Based in Dubai, FAJ is your go-to destination for maintenance services for walk-in coolers, chillers, freezers, commercial gas ranges, professional ovens, microwaves, grinders, mixers, dishwashers, and glasswashers. We specialise in air conditioning systems and various lines of equipment, including Bakery equipment, Beverage, Blenders, Coffee line(espresso and coffee machines), Cooking ranges, Cold room, Dishwashing, Ovens, Food Processing, and Laundry equipment. Our comprehensive MEP (mechanical, electrical and plumbing services cover everything from repairs to regular maintenance contract services and PPM.</p>
+                <p className="mb-0"><strong>Professional Kitchen Equipment Repair and Maintenance Service</strong>: Our professional equipment includes a commercial dishwasher, commercial ice maker, glass washer, pizza oven, deep fryer, convection oven, dough mixer, and meat mixer cleaning services in Dubai.</p>
+                <p className="mb-0">In addition, we provide electric and plumbing maintenance services, so you can have peace of mind knowing you&rsquo;re in the right place. FAJ is dedicated to prioritising efficiency and reliability.</p>
+                <p className="mb-0"><strong>Catering Equipment Maintenance and Repair Service in Dubai: </strong>Trust on our skilled team to efficiently resolve any issues with your catering equipment, including air conditioners, refrigeration systems, cold storage units, espresso machines, commercial coffee machines, chillers, freezers, dishwashers, ice makers, pizza ovens, convection ovens, commercial hoods, kitchen chimneys, countertop induction cookers, beverage dispensers, ice cream makers, gas ranges, refrigerated equipment, display counters, food service equipment, pantry equipment, food processing equipment, cooking lines, bakery lines, Orange Juicer, Slush Machine Single, Automatic Citrus Juicer with Lever, Proofer, Planetary Mixer, Electric Fryer, Conveyor Dishwasher, Under Counter Dishwasher, Electric Convection Oven, Electric Convection Steamer, Electric Pizza Oven 4 Deck, Gas Combi Oven 6 Trays, Electric Pizza Oven Double Deck, Convection Oven with Deck Oven, Rational Gas Combi Oven, Gas Pizza Oven Double Deck, Hood Type Dishwasher, Pancake Machine, Coffee Grinder, Bar Cooler, Toaster and coffee and Bar lines. We will restore functionality and ensure everything operates smoothly.</p>
+                <p className="mb-0"><strong>MKN, Rational, Ozti, Alto-Shaam, Amana Commercial, Bakers Pride, Convotherm, Professional Electrolux, Fagor, Hobart, Conti, Caplain, Fri-Jado, Spaa, Empero, Menumaster Commercial, Unox, Capinox, Simonelli, Hoshizaki, Dr. Coffee, Bunn, Venix, La Marzocco, De'Longhi, Jura, Anmo, Marco, Feema, Conveyor, Zanussi, Meiko, Elframo, Brema, Eurfrigor, Follett, Foster's, Icetech, Simag, Wolf, Smeg, Viking, True Star, Salva, Miska, Irinox, GBG, Cooktek, Toastmaster, Lincat, Helia Smoker, Faema, Cino, Blendtec, Wells, Tekno Stamap, Hamilton Beach, Williams, Trubchif, Pitco, Josper, Hamilton Beach, Gemm, Berto's, Victoria, Scotsman, Kromo, Hatco, Coreco, La Cimbali, Antunes, Zumex, Santos, Middleby, Jordao, Sesmon, Nemco Food, Matick Pastry, Klimasan, Robot Coupe, Roller Grill, Santos, KitchenAid, Server, Aristarco, Brema, American Range, and Pizza Group</strong></p>
 
               </div>
-              
+
 
             </div>
 
@@ -571,9 +571,9 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , d
           </div>
         </section>
 
-         {/* Maintenance Contract */}
+        {/* Maintenance Contract */}
         <MaintenanceContract />
-{/* testimobial section */}
+        {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">

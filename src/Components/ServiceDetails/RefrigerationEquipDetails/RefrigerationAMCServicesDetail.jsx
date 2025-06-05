@@ -161,7 +161,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo ,
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Discover the Advantages of FAJ's Annual Refrigeration Maintenance Contract Services</h3>
+                <h3 className="cs_fs_24 mb-1"> Explore the Specifics of Faj's Refrigeration Maintenance Service agreement</h3>
                 <p className="mb-2">
                   Our commercial freezer, cold room, walk-in chiller, and cold storage annual maintenance contract ensure that your commercial refrigerator, fridge, chiller, and freezer needs are met with the highest level of care.
                   <br />

@@ -155,7 +155,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo , des
           <div className="container">
             <div className="row gx-md-5 mb-2">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Explore FAJ’s Annual Appliances Maintenance Contract</h3>
+                <h3 className="cs_fs_24 mb-1">Explore FAJ's Appliances Maintenance Agreement</h3>
 
                 <p className="mb-2">Our annual maintenance contract ensures that your kitchen equipment, both domestic and commercial, receives top-notch care from our expert team of professionals in the UAE.<br />We have been repairing, cleaning, and maintaining a wide range of equipment, including freezers, chillers, gas ranges, stoves, pizza ovens, hot plates, hoods, mixers, blenders, food processors, grinders, snack equipment, beverage equipment, bakeware, microwaves, ovens, and cooktops. Our experienced technicians utilise advanced techniques to keep your home and business running optimally throughout the year.<br />If you’re interested in learning more about our AMC options, please feel free to contact us.</p>
                 
@@ -564,7 +564,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo , des
         {/* We are specialise in Appliances services for the following brands */}
         <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">
-            <h3>We specialize in commercial equipments services for the following brands</h3>
+            <h3>We specialise in commercial equipment services for major brands</h3>
             <ul>
               <li> <strong>  Client Sectors: </strong> Leisure and Hospitality, Education, Defence, Industrial, Healthcare, Public Sector, Retail, Commercial, Cloud/Dark Kitchens, Restaurants, Hotels, Bakeries, Shops, Coffee Shops, Catering, Medical Facilities, and Labor Camps. Our commitment to excellence spans across these diverse industries.</li>
               <li> <strong> Baking Equipment: </strong> Combi ovens, Convection ovens, High-Speed ovens, Compact ovens, Pizza ovens, Rational ovens, Commercial ovens, and Steamers. </li>
