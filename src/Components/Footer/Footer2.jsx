@@ -167,7 +167,7 @@ const Footer2 = () => {
                 Copyright © 2024 <a href="#">Cripar</a>. All Rights Reserved.
               </div>
               <div>
-                <img src="/assets/img/payment_card.svg" alt="" />
+                <img src="/assets/img/payment_card.svg" alt="FAJ" />
               </div>
             </div>
           </div>
