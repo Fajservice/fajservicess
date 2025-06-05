@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcBrand/CoolineAcRepairfaq.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
@@ -405,7 +404,7 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                       </div>
                       <h4 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h4>
                       <p className="small">
-                        Our team provides vital feedback on your Cooline AC's health and any needed repairs.
+                        Our team provides vital feedback on your Cooline AC&apos;s health and any needed repairs.
 
                       </p>
                     </div>
@@ -517,7 +516,7 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
             <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
             <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
               <b>We provide 2-month service warranty</b><br />
-              and <small>3-month parts warranty</small> as standard.</p>
+              and <small>3-month parts warranty</small>as standard.</p>
 
 
             <h3>We specialise in Cooline air conditioning services for the following types</h3>
@@ -531,7 +530,7 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                 <p className="mb-0"> <strong> Cooline Ceiling AC Service and Repair: </strong> Our experts can accurately diagnose and fix any issues with your Cooline air conditioner. </p>
                 <p className="mb-0"> <strong> Cooline VRF (Variable Refrigerant Flow) System Service and Repair: </strong> The Cooline Variable Refrigerant Flow (VRF) System service offers you an exceptional level of peace of mind, ensuring that you are in the best hands. At FAJ, we place a strong emphasis on both efficiency and reliability, striving to provide top-notch service that meets your needs. With our expertise in the Cooline VRF System, you can trust that your comfort and satisfaction are our highest priorities. </p>
                 <p className="mb-0"> <strong> Cooline Ducted Split AC Service and Repair: </strong> For Cooline ducted split air conditioning systems in Dubai, expert help is crucial. Our skilled technicians specialize in diagnosing and fixing air conditioning issues, offering fast and reliable repair services. We focus on delivering efficient solutions to restore your comfort with minimal hassle. </p>
-                <p className="mb-0"> <strong> Cooline Wall-Mounted Air Conditioner Service and Repair: </strong> Looking for relief from Dubai's intense heat? Ensure your Cooline AC runs efficiently with our expert services. We keep your unit cool and reliable, so you can enjoy comfort indoors while the temperatures soar outside. </p>
+                <p className="mb-0"> <strong> Cooline Wall-Mounted Air Conditioner Service and Repair: </strong> Looking for relief from Dubai&apos;s intense heat? Ensure your Cooline AC runs efficiently with our expert services. We keep your unit cool and reliable, so you can enjoy comfort indoors while the temperatures soar outside. </p>
 
                 <p>
                   <a href="https://www.fajservices.ae/ac-repair-in-al-barsha-air-condition-maintenance-in-al-barsha-air-conditioning-fix-amc-service-in-al-barsha-dubai/">Al Barsha</a> &nbsp;|&nbsp;
@@ -647,7 +646,7 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
         {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
-            <h3 className="cs_fs_30 text-light">FAQ's</h3>
+            <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 

@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcBrand/CrafftAcRepairfaq.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
@@ -22,8 +21,8 @@ const CrafftAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
   const metadescription = String(description || "Get best Crafft AC Repair in Dubai. Call 043300002 FAJ technicians for central, split air conditioner (AC) maintenance service in your area Dubai, Sharjah");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "");
-  const metaURL = String(URL || "https://www./crafft-ac-repair-in-dubai-crafft-ac-maintenance-in-dubai-crafft-ac-fix-in-dubai-crafft-ac-service-in-dubai-crafft-air-condition-repair-in-dubai-crafft-air-condition-maintenance-in-dubai-crafft-air-con/");
-
+  const metaURL = String(URL || "https://www.fajservices.ae/crafft-ac-repair-in-dubai-crafft-ac-maintenance-in-dubai-crafft-ac-fix-in-dubai-crafft-ac-service-in-dubai-crafft-air-condition-repair-in-dubai-crafft-air-condition-maintenance-in-dubai-crafft-air-con/");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
@@ -82,17 +81,24 @@ const CrafftAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
       <HelmetProvider>
         <Helmet>
           <title>{metatitle}</title>
-          <meta name="description" content={metadescription}></meta>
+          <meta name="description" content={metadescription} />
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
 
-          <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
           <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
         </Helmet>
       </HelmetProvider>
       <HeaderForm />
@@ -126,7 +132,7 @@ const CrafftAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                 <h3 className="cs_fs_24 mb-1">Crafft Air Conditioner Maintenance and Servicing</h3>
 
                 <p className="mb-2">
-                  In Dubai, professional services are available for repairing Crafft air conditioning systems, so it's important to hire a qualified AC technician.
+                  In Dubai, professional services are available for repairing Crafft air conditioning systems, so it&apos;s important to hire a qualified AC technician.
                   <br />Our specialized team services Crafft AC systems in Dubai and Sharjah, ensuring year-round comfort and optimal efficiency.
 
                 </p>
@@ -163,7 +169,7 @@ const CrafftAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
 
             <h3 className="cs_fs_30">Why is Crafft AC Maintenance Service Important in Dubai?</h3>
             <p className="mb-0">
-              To ensure your Crafft central air conditioner runs smoothly in Dubai's heat, regular aircon maintenance is essential. At FAJ, we offer expert <a href="https://www.fajservices.ae/ac-service-in-dubai/">ac services</a> to ensure optimal cooling and comfort year-round. We're here to help your system perform at its best!
+              To ensure your Crafft central air conditioner runs smoothly in Dubai&apos;s heat, regular aircon maintenance is essential. At FAJ, we offer expert <a href="https://www.fajservices.ae/ac-service-in-dubai/">ac services</a> to ensure optimal cooling and comfort year-round. We're here to help your system perform at its best!
             </p>
 
             <div className="row align-items-center">
@@ -650,7 +656,7 @@ const CrafftAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
         {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
-            <h3 className="cs_fs_30 text-light">FAQ's</h3>
+            <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 

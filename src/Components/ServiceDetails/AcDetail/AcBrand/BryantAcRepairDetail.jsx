@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcBrand/BryantAcRepairfaq.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
@@ -21,7 +20,8 @@ const BryantAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
   const metadescription = String(description || "Get Bryant AC repair in Dubai. Book an 043300002 for HVAC maintenance, central unit (air conditioner) AC cleaning service near me with relaibale FAJ");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "");
-  const metaURL = String(URL || "https://www./bryant-ac-repair-in-dubai-bryant-ac-maintenance-in-dubai-bryant-ac-fix-in-dubai-bryant-ac-service-in-dubai-bryant-air-condition-repair-in-dubai-bryant-air-condition-maintenance-in-dubai-bryant-air-con/");
+  const metaURL = String(URL || "https://www.fajservices.com/bryant-ac-repair-in-dubai-bryant-ac-maintenance-in-dubai-bryant-ac-fix-in-dubai-bryant-ac-service-in-dubai-bryant-air-condition-repair-in-dubai-bryant-air-condition-maintenance-in-dubai-bryant-air-con/");
+ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
@@ -80,17 +80,24 @@ const BryantAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
       <HelmetProvider>
         <Helmet>
           <title>{metatitle}</title>
-          <meta name="description" content={metadescription}></meta>
+          <meta name="description" content={metadescription} />
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
 
-          <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
           <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
         </Helmet>
       </HelmetProvider>
       <HeaderForm />
@@ -160,8 +167,8 @@ const BryantAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
 
             <h3 className="cs_fs_30">Why is Bryant AC Maintenance Service Important in Dubai?</h3>
             <p className="mb-0">
-              To ensure the efficient operation of Bryant air conditioners in Dubai's extreme heat, regular servicing is essential. <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ</a> offers professional AC services designed to provide optimal cooling and comfort throughout the year.
-              Our team is dedicated to maximizing your system's performance.
+              To ensure the efficient operation of Bryant air conditioners in Dubai&apos;s extreme heat, regular servicing is essential. <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ</a> offers professional AC services designed to provide optimal cooling and comfort throughout the year.
+              Our team is dedicated to maximizing your system&apos;s performance.
             </p>
 
             <div className="row align-items-center">
@@ -520,7 +527,7 @@ const BryantAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
             <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
             <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
               <b>We provide 2-month service warranty</b><br />
-              and <small>3-month parts warranty</small> as standard.</p>
+              and <small>3-month parts warranty</small>as standard.</p>
 
 
             <h3>We specialise in Bryant air conditioning services for the following types</h3>
@@ -532,7 +539,7 @@ const BryantAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                 <p className="mb-0"> <strong>  Bryant Inverter Air Conditioner Maintenance: </strong> Trust on our dedicated team to quickly address and resolve any issues with your Bryant air conditioner maintenance, ensuring it is restored to optimal performance without delay!</p>
                 <p className="mb-0"> <strong>  Bryant HVAC Repair: </strong> We specialize in Bryant cassette AC and package unit AC systems, offering reliable repairs to ensure your unit operates efficiently.</p>
                 <p className="mb-0"> <strong>  Bryant Ceiling AC Service and Repair: </strong> Our specialists can quickly diagnose and resolve any issues with your Bryant ceiling AC repair and ducted split AC service.</p>
-                <p className="mb-0"> <strong>  Bryant VRF (Variable Refrigerant Flow) System Service and Repair: </strong> FAJ's Bryant Variable Refrigerant Flow (VRF) repair and maintenance services offer tailored HVAC solutions. Our skilled team emphasizes customer comfort and satisfaction, guaranteeing reliable service for your climate control requirements.</p>
+                <p className="mb-0"> <strong>  Bryant VRF (Variable Refrigerant Flow) System Service and Repair: </strong> FAJ&apos;s Bryant Variable Refrigerant Flow (VRF) repair and maintenance services offer tailored HVAC solutions. Our skilled team emphasizes customer comfort and satisfaction, guaranteeing reliable service for your climate control requirements.</p>
                 <p className="mb-0"> <strong>  Bryant Ducted Split AC Service and Repair: </strong> For dependable Bryant air conditioning repair and maintenance services in Dubai, our experienced technicians are prepared to assist you. With a strong proficiency in diagnosing various issues and interpreting error codes, we guarantee minimal disruption to your comfort. Rely on our prompt service to provide the cooling relief you require.</p>
                 <p className="mb-0"> <strong>  Bryant Wall-Mounted Air Conditioner Service and Repair: </strong> In Dubai, UAE, where extreme heat is prevalent, maintaining a relaxing indoor climate is essential. Our Bryant package unit AC repair and maintenance, cleaning services assure optimal unit performance, helping you stay cool and comfortable even in high temperatures.</p>
 
@@ -651,7 +658,7 @@ const BryantAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
         {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
-            <h3 className="cs_fs_30 text-light">FAQ's</h3>
+            <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 

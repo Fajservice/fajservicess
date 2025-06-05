@@ -24,6 +24,7 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "");
   const metaURL = String(URL || "https://www.fajservices.ae/sanyo-ac-repair-in-dubai-sanyo-ac-maintenance-in-dubai-sanyo-ac-fix-in-dubai-sanyo-ac-service-in-dubai-sanyo-air-condition-repair-in-dubai-sanyo-air-condition-maintenance-in-dubai-sanyo-air-condition/");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
@@ -83,17 +84,25 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
       <HelmetProvider>
         <Helmet>
           <title>{metatitle}</title>
-          <meta name="description" content={metadescription}></meta>
+          <meta name="description" content={metadescription} />
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
 
-          <link rel="canonical" href={metaURL} />
+
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
           <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
         </Helmet>
       </HelmetProvider>
       <HeaderForm />
@@ -169,14 +178,13 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
             <div className="row align-items-center">
               <div className="col-md-6">
                 <ul className="mb-0">
-                  <li><strong>Extreme Weather Conditions:</strong> Dubai's climate is characterised by high temperatures, especially in the summer months. <br />Regular maintenance ensures that Sanyo AC operates efficiently, providing reliable cooling when it is needed the most.</li>
+                  <li><strong>Extreme Weather Conditions:</strong> Dubai&apos;s climate is characterised by high temperatures, especially in the summer months. <br />Regular maintenance ensures that Sanyo AC operates efficiently, providing reliable cooling when it is needed the most.</li>
                   <li><strong>Energy Efficiency:</strong> Proper Sanyo AC maintenance checks can help identify issues that reduce the efficiency of AC units. By addressing these problems, homeowners can lower their energy bills and minimise environmental impact.</li>
                   <li><strong>Longevity of Equipment:</strong> Regular maintenance can extend the lifespan of air conditioner. By keeping units in good condition, owners can avoid costly replacements.</li>
                   <li><strong>Preventative Measures:</strong> Scheduled maintenance can catch potential problems or errors before they escalate into major issues. This proactive approach saves time, money, and unnecessary stress during peak usage times.</li>
                 </ul>
               </div>
               <div className="col-md-6">
-                {/* <img className="blue-border" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`} alt="Post Image" /> */}
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}img/fujitsu-ac-service.avif`} alt="Sanyo Ac Repair" />
               </div>
             </div>
@@ -396,7 +404,7 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
 
         <div className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
-            <h3 className="cs_fs_30 text-light">FAQ's</h3>
+            <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 

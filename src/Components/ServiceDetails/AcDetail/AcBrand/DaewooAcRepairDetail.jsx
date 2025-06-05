@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcBrand/DaewooAcRepairfaq.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
@@ -11,7 +10,6 @@ import testimonial_data_Daewoo from '../../../../Data/AcData/AcTestimonial/Daewo
 import parse from 'html-react-parser';
 import Slider from "react-slick";
 import HeaderForm from "../../../Headeform/HeaderForm";
-import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
@@ -24,8 +22,9 @@ const DaewooAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
   const metadescription = String(description || "Are You Looking Best Daewoo AC Repair in Dubai? Call 043300002 get sameday split, central Air Conditioner maintenance, cleaning service near you Dubai");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "");
-  const metaURL = String(URL || "https://www./daewoo-ac-repair-in-dubai-daewoo-ac-maintenance-in-dubai-daewoo-ac-fix-in-dubai-daewoo-ac-service-in-dubai-daewoo-air-condition-repair-in-dubai-daewoo-air-condition-maintenance-in-dubai-daewoo-air-con/");
-
+  const metaURL = String(URL || "https://www.fajservices.ae/daewoo-ac-repair-in-dubai-daewoo-ac-maintenance-in-dubai-daewoo-ac-fix-in-dubai-daewoo-ac-service-in-dubai-daewoo-air-condition-repair-in-dubai-daewoo-air-condition-maintenance-in-dubai-daewoo-air-con/");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+  
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   reviewsbg = "img/testimonialbg.jpg"
@@ -82,18 +81,25 @@ const DaewooAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
     <>
       <HelmetProvider>
         <Helmet>
-          <title>{metatitle}</title>
-          <meta name="description" content={metadescription}></meta>
+           <title>{metatitle}</title>
+          <meta name="description" content={metadescription} />
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
 
-          <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
           <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
         </Helmet>
       </HelmetProvider>
       <HeaderForm />
@@ -117,8 +123,6 @@ const DaewooAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
             {/*  */}
           </div>
         </section>
-
-
 
         {/* 2 col */}
         <section className="section cs_py_30 bg-light-gray mb-4">
