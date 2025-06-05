@@ -20,6 +20,7 @@ const AppliancesServicesInDubaiInvestmentsParkDetail = ({ subtitle, title, revie
     const metatitle = String(titleSeo || "Best Appliances Services in Dubai Investments Park Near Me");
     const metadescription = String(description || "Looking for appliance service in Dubai Investments Park. Call 043300002 for fridge repair near me. Get fix washing machine, dishwasher, Oven");
     const metaAuthor = String(Author || "Faj Technical Services");
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Dubai Investments Park– Home Appliance Installation, Maintenance & Service Centre in Dubai Investments Park");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-investments-park/");
 
@@ -126,6 +127,13 @@ const AppliancesServicesInDubaiInvestmentsParkDetail = ({ subtitle, title, revie
                     <meta property="og:title" content={metatitle} />
                     <meta property="og:description" content={metadescription} />
                     <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />

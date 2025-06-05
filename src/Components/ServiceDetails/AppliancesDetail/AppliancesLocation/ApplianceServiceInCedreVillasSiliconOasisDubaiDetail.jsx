@@ -22,6 +22,7 @@ const ApplianceServiceInCedreVillasSiliconOasisDubaiDetail = ({ subtitle, title,
     const metatitle = String(titleSeo || "Appliances Services in Cedre Villas Silicon Oasis Dubai ");
     const metadescription = String(description || "FAJ provides appliance services in Cedre Villas, Silicon Oasis, Dubai. Get fast washing machine repair & maintenance near me. Book 043300002");
     const metaAuthor = String(Author || "Faj Technical Services");
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Cedre Villas, Silicon Oasis Dubai – Home Appliance Installation, Maintenance & Service Centre in Cedre Villas, Silicon Oasis Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-cedre-villas-silicon-oasis-dubai");
 
@@ -128,6 +129,13 @@ const ApplianceServiceInCedreVillasSiliconOasisDubaiDetail = ({ subtitle, title,
                     <meta property="og:title" content={metatitle} />
                     <meta property="og:description" content={metadescription} />
                     <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />

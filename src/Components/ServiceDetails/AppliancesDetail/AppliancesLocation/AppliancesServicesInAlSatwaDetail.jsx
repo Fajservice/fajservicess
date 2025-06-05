@@ -20,6 +20,7 @@ const AppliancesServicesInAlSatwaDetail = ({ subtitle, title, reviewsbg, titleSe
     const metatitle = String(titleSeo || "Appliances Services in Al Satwa - Washing Machine Repair");
     const metadescription = String(description || "Appliance services in Al Satwa, Dubai. Experts in refrigerator repair near me. Contact 043300002 to fix washing machine, oven & dishwasher");
     const metaAuthor = String(Author || "Faj Technical Services");
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Al Satwa Dubai – Home Appliance Installation, Maintenance & Service Centre in Al Satwa Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-satwa/");
 
@@ -126,6 +127,13 @@ const AppliancesServicesInAlSatwaDetail = ({ subtitle, title, reviewsbg, titleSe
                     <meta property="og:title" content={metatitle} />
                     <meta property="og:description" content={metadescription} />
                     <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />

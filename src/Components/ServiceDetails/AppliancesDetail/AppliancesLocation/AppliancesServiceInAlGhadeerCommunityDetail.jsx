@@ -22,6 +22,7 @@ const AppliancesServiceInAlGhadeerCommunityDetail = ({ subtitle, title, reviewsb
     const metatitle = String(titleSeo || "Appliances Services in Al Ghadeer Community - Fridge Repair");
     const metadescription = String(description || "Faj offers appliance service in Al Ghadeer Community. Call 043300002 for refrigerator repair near me in Dubai. Get fix washing machine, Coffee machine");
     const metaAuthor = String(Author || "Faj Technical Services");
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Al Ghadeer Community Dubai – Home Appliance Installation, Maintenance & Service Centre in Al Ghadeer Community Dubai ");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-ghadeer-community/");
 
@@ -128,6 +129,13 @@ const AppliancesServiceInAlGhadeerCommunityDetail = ({ subtitle, title, reviewsb
                     <meta property="og:title" content={metatitle} />
                     <meta property="og:description" content={metadescription} />
                     <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />

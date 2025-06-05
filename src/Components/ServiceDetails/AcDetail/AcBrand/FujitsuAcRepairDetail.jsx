@@ -22,7 +22,7 @@ const FujitsuAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   const metadescription = String(description || "Fujitsu AC is a trusted brand. Call us 043300002 for Fujitsu AC Repair in Dubai and Central & Split Air Conditioner (AC) Maintenance Service nearby You.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "");
-  const metaURL = String(URL || "https://www.fajservices.com/fujitsu-ac-repair-in-dubai-fujitsu-ac-maintenance-in-dubai-fujitsu-ac-fix-in-dubai-fujitsu-ac-service-in-dubai-fujitsu-air-condition-repair-in-dubai-fujitsu-air-condition-maintenance-in-dubai-fujitsu/");
+  const metaURL = String(URL || "https://www./fujitsu-ac-repair-in-dubai-fujitsu-ac-maintenance-in-dubai-fujitsu-ac-fix-in-dubai-fujitsu-ac-service-in-dubai-fujitsu-air-condition-repair-in-dubai-fujitsu-air-condition-maintenance-in-dubai-fujitsu/");
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"

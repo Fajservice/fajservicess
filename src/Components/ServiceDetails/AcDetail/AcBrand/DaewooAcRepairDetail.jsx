@@ -24,7 +24,7 @@ const DaewooAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
   const metadescription = String(description || "Are You Looking Best Daewoo AC Repair in Dubai? Call 043300002 get sameday split, central Air Conditioner maintenance, cleaning service near you Dubai");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "");
-  const metaURL = String(URL || "https://www.fajservices.com/daewoo-ac-repair-in-dubai-daewoo-ac-maintenance-in-dubai-daewoo-ac-fix-in-dubai-daewoo-ac-service-in-dubai-daewoo-air-condition-repair-in-dubai-daewoo-air-condition-maintenance-in-dubai-daewoo-air-con/");
+  const metaURL = String(URL || "https://www./daewoo-ac-repair-in-dubai-daewoo-ac-maintenance-in-dubai-daewoo-ac-fix-in-dubai-daewoo-ac-service-in-dubai-daewoo-air-condition-repair-in-dubai-daewoo-air-condition-maintenance-in-dubai-daewoo-air-con/");
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"

@@ -23,7 +23,7 @@ const DaikinAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
     const metadescription = String(description || "Relax with Daikin AC. Call 0507464712 for Daikin Ac Repair in Dubai We are experts in HVAC, Central Air Conditioner maintenance service near me");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.com/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con");
+    const metaURL = String(URL || "https://www./daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con");
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"

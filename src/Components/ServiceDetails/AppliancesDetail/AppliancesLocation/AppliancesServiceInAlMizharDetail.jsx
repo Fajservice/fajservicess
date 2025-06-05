@@ -20,6 +20,7 @@ const AppliancesServiceInAlMizharDetail = ({ subtitle, title, reviewsbg, titleSe
   const metatitle = String(titleSeo || "Appliances Services In Al Mizhar - Washing Machine Repair");
   const metadescription = String(description || "Get appliance services in Al Mizhar. FAJ Experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher, oven");
   const metaAuthor = String(Author || "Faj Technical Services");
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Al Mizhar Dubai – Home Appliance Installation, Maintenance & Service Centre in Al Mizhar Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-mizhar");
 
@@ -126,6 +127,13 @@ const AppliancesServiceInAlMizharDetail = ({ subtitle, title, reviewsbg, titleSe
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
           <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

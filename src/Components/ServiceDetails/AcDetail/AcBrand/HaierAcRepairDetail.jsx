@@ -23,7 +23,7 @@ const HaierAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
   const metadescription = String(description || "Haier is the top AC Company. Call us for your Haier AC Repair in Dubai and Best Air Condition Maintenance Services near me 043300002");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "");
-  const metaURL = String(URL || "https://fajservices.com/haier-ac-repair-in-dubai-haier-ac-maintenance-in-dubai-haier-ac-fix-in-dubai-haier-ac-service-in-dubai-haier-air-condition-repair-in-dubai-haier-air-condition-maintenance-in-dubai-haier-air-condition/");
+  const metaURL = String(URL || "https:///haier-ac-repair-in-dubai-haier-ac-maintenance-in-dubai-haier-ac-fix-in-dubai-haier-ac-service-in-dubai-haier-air-condition-repair-in-dubai-haier-air-condition-maintenance-in-dubai-haier-air-condition/");
 
 
   subtitle = "Testimonial"

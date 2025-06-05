@@ -21,6 +21,7 @@ const AppliancesServicesInRemraamDetail = ({ subtitle, title, reviewsbg, titleSe
     const metatitle = String(titleSeo || "Appliances Services in Remraam - Washing Machine Repair");
     const metadescription = String(description || "We offer best appliance services in Remraam. Get fridge repair near me in Dubai. Book 043300002 for oven, dishwasher, washing machine maintenance.");
     const metaAuthor = String(Author || "Faj Technical Services");
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in  in Remraam Dubai – Home Appliance Installation, Maintenance & Service Centre in Remraam Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-remraam/");
 
@@ -127,6 +128,13 @@ const AppliancesServicesInRemraamDetail = ({ subtitle, title, reviewsbg, titleSe
                     <meta property="og:title" content={metatitle} />
                     <meta property="og:description" content={metadescription} />
                     <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />

@@ -21,6 +21,7 @@ const ApplianceServiceInDubaiMediaCityDetail = ({ subtitle, title, reviewsbg, ti
     const metatitle = String(titleSeo || "Appliances Services In Dubai Media City - Fridge Repair");
     const metadescription = String(description || "Best Appliances Services in Dubai Media City. Get Washing Machine Repair Near me. Call now at 043300002. Fridge , refrigerator, oven Fix. ");
     const metaAuthor = String(Author || "Faj Technical Services");
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Dubai Media City – Home Appliance Installation, Maintenance & Service Centre in Dubai Media City");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-media-city/");
 
@@ -128,6 +129,13 @@ const ApplianceServiceInDubaiMediaCityDetail = ({ subtitle, title, reviewsbg, ti
                     <meta property="og:title" content={metatitle} />
                     <meta property="og:description" content={metadescription} />
                     <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />

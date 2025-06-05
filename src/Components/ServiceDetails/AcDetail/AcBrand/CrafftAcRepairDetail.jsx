@@ -22,7 +22,7 @@ const CrafftAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
   const metadescription = String(description || "Get best Crafft AC Repair in Dubai. Call 043300002 FAJ technicians for central, split air conditioner (AC) maintenance service in your area Dubai, Sharjah");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "");
-  const metaURL = String(URL || "https://www.fajservices.com/crafft-ac-repair-in-dubai-crafft-ac-maintenance-in-dubai-crafft-ac-fix-in-dubai-crafft-ac-service-in-dubai-crafft-air-condition-repair-in-dubai-crafft-air-condition-maintenance-in-dubai-crafft-air-con/");
+  const metaURL = String(URL || "https://www./crafft-ac-repair-in-dubai-crafft-ac-maintenance-in-dubai-crafft-ac-fix-in-dubai-crafft-ac-service-in-dubai-crafft-air-condition-repair-in-dubai-crafft-air-condition-maintenance-in-dubai-crafft-air-con/");
 
 
   subtitle = "Testimonial"

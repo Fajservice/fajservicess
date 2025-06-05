@@ -20,6 +20,7 @@ const AppliancesServiceInBusinessBayDetail = ({ subtitle, title, reviewsbg, titl
     const metatitle = String(titleSeo || "Appliances Services in Business Bay - Washing Machine Repair ");
     const metadescription = String(description || "Get the best appliance services in Business Bay. Experts in fridge repair near me in Dubai. Call 043300002 for washing machine, oven & dishwasher fix ");
     const metaAuthor = String(Author || "Faj Technical Services");
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Business Bay Dubai – Dishwasher, Oven, Stove Service & Maintenance in Business Bay Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-business-bay");
 
@@ -126,6 +127,13 @@ const AppliancesServiceInBusinessBayDetail = ({ subtitle, title, reviewsbg, titl
                     <meta property="og:title" content={metatitle} />
                     <meta property="og:description" content={metadescription} />
                     <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />

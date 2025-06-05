@@ -23,7 +23,7 @@ const DaikoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   const metadescription = String(description || "When it comes to Daikool AC Repair in Dubai Call us at 043300002, Get Best Air Conditioning (AC) Maintenance & Service near by Your Location.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "");
-  const metaURL = String(URL || "https://www.fajservices.com/daikool-ac-repair-in-dubai-daikool-ac-maintenance-in-dubai-daikool-ac-fix-in-dubai-daikool-ac-service-in-dubai-daikool-air-condition-repair-in-dubai-daikool-air-condition-maintenance-in-dubai-daikool/");
+  const metaURL = String(URL || "https://www./daikool-ac-repair-in-dubai-daikool-ac-maintenance-in-dubai-daikool-ac-fix-in-dubai-daikool-ac-service-in-dubai-daikool-air-condition-repair-in-dubai-daikool-air-condition-maintenance-in-dubai-daikool/");
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"

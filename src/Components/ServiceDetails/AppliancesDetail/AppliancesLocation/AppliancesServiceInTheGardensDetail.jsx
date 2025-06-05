@@ -20,6 +20,7 @@ const AppliancesServiceInTheGardensDetail = ({ subtitle, title, reviewsbg, title
   const metatitle = String(titleSeo || "Appliances Services in The Gardens - Refrigerator Repair");
   const metadescription = String(description || "We offer appliance services in The Gardens. Need refrigerator, washing machine, fridge repair near me? Call 043300002 for quick solutions!");
   const metaAuthor = String(Author || "Faj Technical Services");
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in The Gardens Dubai– Home Appliance Installation, Maintenance & Service Centre in The Gardens Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-gardens");
 
@@ -126,6 +127,13 @@ const AppliancesServiceInTheGardensDetail = ({ subtitle, title, reviewsbg, title
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
           <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

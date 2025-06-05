@@ -20,6 +20,7 @@ const ApplianceServiceInAlbarariDetail = ({ subtitle, title, reviewsbg, titleSeo
     const metatitle = String(titleSeo || "Appliance Service in Al Barari - Refrigerator Repair Dubai");
     const metadescription = String(description || "FAJ offers best appliance service in Al Barari. Get washing machine repair near me in Dubai. Call 043300002 for fridge, dishwasher, and oven fix.");
     const metaAuthor = String(Author || "Faj Technical Services");
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Al Barari Dubai – Home Appliance Installation, Maintenance & Service Centre in Al Barari Dubai    ");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-barari");
 
@@ -126,6 +127,13 @@ const ApplianceServiceInAlbarariDetail = ({ subtitle, title, reviewsbg, titleSeo
                     <meta property="og:title" content={metatitle} />
                     <meta property="og:description" content={metadescription} />
                     <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />

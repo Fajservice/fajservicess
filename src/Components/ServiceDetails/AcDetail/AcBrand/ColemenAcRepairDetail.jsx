@@ -23,7 +23,7 @@ const ColemenAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   const metadescription = String(description || "Relax with Coleman. Call 043300002 for Coleman Ac Repair in Dubai We are experts in HVAC, Central Air Conditioner maintenance service near me");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "");
-  const metaURL = String(URL || "https://www.fajservices.com/coleman-ac-repair-in-dubai-coleman-ac-maintenance-in-dubai-coleman-ac-fix-in-dubai-coleman-ac-service-in-dubai-coleman-air-condition-repair-in-dubai-coleman-air-condition-maintenance-in-dubai-coleman/");
+  const metaURL = String(URL || "https://www./coleman-ac-repair-in-dubai-coleman-ac-maintenance-in-dubai-coleman-ac-fix-in-dubai-coleman-ac-service-in-dubai-coleman-air-condition-repair-in-dubai-coleman-air-condition-maintenance-in-dubai-coleman/");
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
