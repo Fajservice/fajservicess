@@ -18,6 +18,8 @@ import parse from 'html-react-parser';
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import HeaderForm from "../../Headeform/HeaderForm";
 import FAJACPrice from "../../Miscellaneous/FAJACPrice";
+import Practicaltip from "../../Common/Practicaltip";
+import AcProperties from "../../Common/AcProperties";
 
 const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => { 
   // For SEO
@@ -133,7 +135,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
           <div className="container">
             <div className="row gx-md-5 align-items-center">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Annual AC Maintenance Contract - AMC </h3>
+                <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }}>Annual AC Maintenance Contract - AMC </h2>
                 <p className="mb-2">
                   Ensure consistent efficiency for your AC system with an Annual Maintenance Contract (AMC).
                   <br /> Keep your AC functioning optimally throughout the year with our reliable maintenance contract in Dubai and Sharjah, UAE.
@@ -150,9 +152,9 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
             </div>
 
             <div className="appointment-col border-small-top mt-3 pt-3">
-              <h3 className="cs_fs_24 mb-1 mt-3  ">
+              <h2 className="cs_fs_24 mb-1 mt-3" style={{ fontSize: "24px" }}>
                 Explore the Benefits of FAJ’s Annual AC Maintenance Contract
-              </h3>
+              </h2>
               <p>
                 Our AC annual maintenance contract ensures that your air conditioning needs are met with the utmost care.
                 With extensive knowledge in AC maintenance, our team comprises some of the best professionals in the UAE.
@@ -177,7 +179,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
         {/* Peace of Mind with Annual Maintenance Contracts */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="cs_fs_30">Peace of Mind with Annual Maintenance Contracts</h3>
+            <h2 className="cs_fs_30">Peace of Mind with Annual Maintenance Contracts</h2>
             <p>Your air conditioner is an essential part of your home or office comfort, especially during the scorching summer months. Like any other air conditioning unit, it requires regular maintenance to operate efficiently and to prevent breakdowns.
             </p>
 
@@ -209,7 +211,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
         {/* Common AC Problems That May Require Maintenance */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="text-center">Common AC Problems That May Require Maintenance</h3>
+            <h2 className="text-center">Common AC Problems That May Require Maintenance</h2>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
@@ -314,13 +316,12 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
 
         {/* The Benefits Of Regular AC Service*/}
         <BenefitAcMaintenance />
-
         <ACWhychooseUs />
 
         {/* The Importance of AC Maintenance Contract Service*/}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="cs_fs_30">The Importance of AC Maintenance Contract Service</h3>
+            <h2 className="cs_fs_30">The Importance of AC Maintenance Contract Service</h2>
             <div className="row">
               <div className="col-xl-6">
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-repair-2.avif`} loading="lazy" alt="Air conn maintenance" />
@@ -344,7 +345,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
         {/*What is included in an AC Maintenance Contract?  */}
         <section className="section cs_py_30 ">
           <div className="container">
-            <h3 className="cs_fs_30">What is included in an AC Maintenance Contract?</h3>
+            <h2 className="cs_fs_30">What is included in an AC Maintenance Contract?</h2>
             <p className="mb-0">
               When considering air conditioner maintenance, it’s essential to understand what an AC contract should encompass. While many AC contractor packages offer these services, the details can vary.
             </p>
@@ -484,57 +485,12 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
           </div>
         </section>
 
-        <section className="section cs_py_30 bg-dark-blue text-light">
-          <div className="container text-center">
-            <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
-            <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers! </p>
-            <a
-              href="public/files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
-              className="btn-green-yellow"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Click Here to Save on Energy Bills
-            </a>
+        <Practicaltip></Practicaltip>
+        <AcProperties></AcProperties>
 
-          </div>
-        </section>
-
-        {/* white section with AC image */}
-        <section className="section cs_py_30">
-          <div className="container text-center">
-            <div className="row">
-              <div className="col-lg-4">
-                <div className="acsvs-sec-prefoot-sec-cone">
-                  <h3 className="cs_fs_20 mb-0">COOLING &amp; HEATING</h3>
-                  <span className="mb-5">Stay comfortable all year round</span>
-                  <div className="mb-5"></div>
-                  <h3 className="cs_fs_20 mb-0">BETTER AIR QUALITY</h3>
-                  <span className="mb-5">Reduce humidity, pollen and dust</span>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="acsvs-sec-prefoot-sec-ctwo">
-
-                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Post Image" />
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="acsvs-sec-prefoot-sec-cthree">
-                  <h3 className="cs_fs_20 mb-0">PROTECT YOUR PROPERTY</h3>
-                  <span className="mb-5">Prevent damage to electronics and furnishings</span>
-                  <div className="mb-5"></div>
-                  <h3 className="cs_fs_20 mb-0">QUIET AND SECURE</h3>
-                  <span className="mb-5">No need to leave windows open</span>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </section>
-        
         {/* Maintenance Contract */}
         <MaintenanceContract />
+
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
@@ -552,7 +508,8 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
                 </svg>
 
               </h3>
-              <h2 className="cs_section_title cs_fs_50 text-black mb-0 wow fadeInUp">{parse(title)}</h2>
+              
+              <h3 className="cs_section_title cs_fs_30 text-black mb-0 wow fadeInUp">{parse(title)}</h3>
             </div>
             <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
               data-variable-width="0" data-xs-slides="1" data-sm-slides="1" data-md-slides="1" data-lg-slides="2"
@@ -575,8 +532,8 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
                                 <i className="bi bi-star-fill"></i>
                                 <i className="bi bi-star-fill"></i>
                               </div>
-                              <h3 className="cs_fs_24 cs_mb_1">{item.title}</h3>
-                              {/* <p className="cs_fs_14 cs_heading_color mb-0">{item.subTitle}</p> */}
+                              <span className="client_name cs_fs_24 cs_mb_1 text-uppercase" >{item.title}</span>
+                              
                             </div>
                           </div>
                           <blockquote className="cs_fs_16">{item.desc}</blockquote>
