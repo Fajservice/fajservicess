@@ -24,8 +24,9 @@ const AcRepairInJumeirahHeightsDetail = ({ subtitle, title, reviewsbg, titleSeo,
   const metatitle = String(titleSeo || "AC Services In Jumeirah Heights Dubai - #1 A/C Servicing");
   const metadescription = String(description || "If you are looking for best ac services in jumeirah heights dubai. Call 043300002 for centralized a/c system repairing and a/c fixing in my location");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "");
+  const metaKeyword = String(Keyword || "AC Services In Jumeirah Heights, AC Repair in Jumeirah Heights, AC Maintenance in Jumeirah Heights, Air Conditioning Service in Jumeirah Heights, Centralized A/C System Repairing in Jumeirah Heights, A/C Fixing in Jumeirah Heights");
   const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jumeirah-heights");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 
 
   subtitle = "Testimonial"
@@ -99,7 +100,14 @@ const AcRepairInJumeirahHeightsDetail = ({ subtitle, title, reviewsbg, titleSeo,
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
-          <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

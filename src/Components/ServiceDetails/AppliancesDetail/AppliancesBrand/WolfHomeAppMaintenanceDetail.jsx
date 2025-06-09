@@ -20,7 +20,7 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
   const metadescription = String(description || "Get same day Wolf home Appliance maintenance. Call 043300002 for Wolf cooking range, gas stove, electric cooker, electric oven service near me Dubai ");
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-  const metaKeyword = String(Keyword || "Repair Services");
+  const metaKeyword = String(Keyword || "Wolf home appliance service, Wolf cooker service, Wolf oven service, Wolf gas stove service, Wolf electric cooker service, Wolf electric oven service, Wolf appliance repair Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/wolf-home-appliance-installation-maintenance-repair-fix-service-in-dubai/");
 
   subtitle = "Testimonial"

@@ -24,7 +24,7 @@ const AcRepairInAlaweerDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
     const metatitle = String(titleSeo || "Best AC Service In Al Aweer - Central AC Repair & Maintenance");
     const metadescription = String(description || "Book An AC Service in Al Aweer. We are here to assist you in ceiling & split, HVAC air conditioner maintenance nearby & repair cc Dubai");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "AC services Al Rashidiya, AC maintenance Dubai, inverter AC repair, split AC service, central AC maintenance, Dubai AC technician");
+    const metaKeyword = String(Keyword || "AC Service in Al Aweer, AC Repair in Al Aweer, Central AC Service in Al Aweer, Split AC Service in Al Aweer, HVAC Air Conditioner Maintenance in Al Aweer");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-aweer");
     const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
 

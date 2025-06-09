@@ -21,7 +21,7 @@ const SamsungAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   const metatitle = String(titleSeo || "Samsung AC Repair in Dubai - Air Conditioner Service Near");
   const metadescription = String(description || "Get expert Samsung AC repair in Dubai. Get FAJ Experts an 043300002 for central, VRF, split (AC) air conditioner maintenance and cleaning service near by you.");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "");
+  const metaKeyword = String(Keyword || "Samsung AC Repair, Samsung AC Service, Samsung Air Conditioner Maintenance, Samsung AC Cleaning, Samsung AC Installation, Samsung AC Repair Dubai, Samsung Air Conditioner Service Dubai, Samsung Split AC Repair Dubai, Samsung Central AC Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/samsung-ac-repair-in-dubai/");
   const metaImage = String(Image || "https://www.fajservices.ae/dist/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
 
@@ -91,7 +91,8 @@ const SamsungAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
     <meta name="robots" content="index, follow" />
 
 
-    <meta property="og:type" content="website" />
+    <link rel="canonical" href={metaURL} />
+          <meta property="og:type" content="website" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:title" content={metatitle} />
     <meta property="og:description" content={metadescription} />

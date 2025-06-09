@@ -17,7 +17,6 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 const AcRepairInBurjKhalifaLakeDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
 
@@ -25,8 +24,9 @@ const AcRepairInBurjKhalifaLakeDetail = ({ subtitle, title, reviewsbg, titleSeo,
     const metatitle = String(titleSeo || "Best AC Services In Burj Khalifa Lake - Air Con Fixing #1");
     const metadescription = String(description || "Best AC Services in Burj Khalifa Lake Dubai - FAJ experts here for your Central HVAC, Split Chiller FCU Air Condition Repair & Maintenance Dubai");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || "AC Service in Burj Khalifa Lake, AC Repair in Burj Khalifa Lake, Air Conditioning Service in Burj Khalifa Lake, Air Con Fixing in Burj Khalifa Lake, Central HVAC Service in Burj Khalifa Lake, Split Chiller FCU Air Condition Repair in Burj Khalifa Lake");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-burj-khalifa-lake");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 
 
     subtitle = "Testimonial"

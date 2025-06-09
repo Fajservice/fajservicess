@@ -22,7 +22,7 @@ const AppliancesServicesInPalmJumeirahDetail = ({ subtitle, title, reviewsbg, ti
   const metadescription = String(description || "Same-day appliance service in Palm Jumeirah. Get refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, dishwasher, oven, fridge");
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-  const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Palm Jumeirah Dubai– Home Appliance Installation, Maintenance & Service Centre in Palm Jumeirah Dubai");
+  const metaKeyword = String(Keyword || "Washing Machine in palm jumeirah, Fridge Repair in palm jumeirah, Dishwasher Repair in palm jumeirah, Oven Repair in palm jumeirah, Appliance Service in palm jumeirah, Appliance Repair in palm jumeirah, Appliance Maintenance in palm jumeirah, Appliance Installation in palm jumeirah");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-palm-jumeirah/");
 
   subtitle = "Testimonial"

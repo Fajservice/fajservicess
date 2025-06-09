@@ -22,7 +22,7 @@ const AppliancesServicesInAlBadaaDetail = ({ subtitle, title, reviewsbg, titleSe
     const metadescription = String(description || "We offer best appliance services in Al Badaa. Get fridge repair near me in Dubai. Book 043300002 for oven, dishwasher, washing machine maintenance");
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-    const metaKeyword = String(Keyword || " Washing Machine & Fridge Repair in Al Badaa Dubai – Home Appliance Installation, Maintenance & Service Centre in Al Badaa Dubai ");
+    const metaKeyword = String(Keyword || " Washing Machine in al Badaa, Fridge Repair in al Badaa, Dishwasher Repair in al Badaa, Oven Repair in al Badaa, Appliance Services in al Badaa, Appliance Repair in al Badaa, Appliance Maintenance in al Badaa, Appliance Service Center in al Badaa");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-badaa/");
 
     subtitle = "Testimonial"

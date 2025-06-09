@@ -21,8 +21,14 @@ import Practicaltip from "../Common/Practicaltip";
 import AcProperties from "../Common/AcProperties";
 import FAJACPrice from "../Miscellaneous/FAJACPrice";
 
-const AcServiceInDubai = ({ subtitle, title, reviewsbg}) => { 
-
+const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+  // For SEO
+  const metatitle = String(titleSeo || "AC Service in Dubai - Get AC Repair & Maintenance | FAJ Co");
+  const metadescription = String(description || "We specialize in AC repair, service, and central & split air conditioner maintenance in Dubai. Call at 043300002 for your home & office A/C fix");
+  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaKeyword = String(Keyword || "AC Service, Air Con Service, AC Service in Dubai, Air Conditioning Service");
+  const metaURL = String(URL || "https://www.fajservices.ae/ac-service-in-dubai");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -86,17 +92,24 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg}) => {
     <>
       <HelmetProvider>
         <Helmet>
-          <title>AC Service in Dubai - Get AC Repair & Maintenance | FAJ Co</title>
-          <meta name="description" content="We specialize in AC repair, service, and central & split air conditioner maintenance in Dubai. Call at 043300002 for your home & office A/C fix"></meta>
-          <meta name="keywords" content="AC Service, Air Con Service, AC Service in Dubai, Air Conditioning Service" />
-          <meta name="author" content="Faj Technical Services" />
+          <title>{metatitle}</title>
+          <meta name="description" content={metadescription}></meta>
+          <meta name="keywords" content={metaKeyword} />
+          <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
-          <link rel="canonical" href="https://www.fajservices.ae/ac-service-in-dubai" />
+          <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content="AC Service in Dubai - Get AC Repair & Maintenance | FAJ Co" />
-          <meta property="og:description" content="We specialize in AC repair, service, and central & split air conditioner maintenance in Dubai. Call at 043300002 for your home & office A/C fix" />
-          <meta property="og:url" content="https://www.fajservices.ae/ac-service-in-dubai" />
+          <meta property="og:title" content={metatitle} />
+          <meta property="og:description" content={metadescription} />
+          <meta property="og:image" content={metaImage} />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

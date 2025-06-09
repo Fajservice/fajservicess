@@ -21,7 +21,7 @@ const SuperGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descriptio
   const metatitle = String(titleSeo || "Super General Ac Repair in Dubai - Air Conditioner Maintenance Near");
   const metadescription = String(description || "World #1 Super General AC. Book 043300002 for Super General Ac Repair in Dubai, We are experts in central, HVAC Air Conditioning Maintenance and Cleaning Service Near by you");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "");
+  const metaKeyword = String(Keyword || "Super General Ac Repair in Dubai, Super General AC Maintenance in Dubai, Super General AC Fix in Dubai, Super General AC Service in Dubai, Super General Air Condition Repair in Dubai, Super General Air Con");
   const metaURL = String(URL || "https://www.fajservices.ae/super-general-ac-repair-in-dubai-super-general-ac-maintenance-in-dubai-super-general-ac-fix-in-dubai-super-general-ac-service-in-dubai-super-general-air-condition-repair-in-dubai-super-general-air-con");
   const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
   subtitle = "Testimonial"
@@ -86,6 +86,7 @@ const SuperGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descriptio
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
 
+          <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />

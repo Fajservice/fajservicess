@@ -22,7 +22,7 @@ const AppliancesServicesInJumeirahGolfEstatesDetail = ({ subtitle, title, review
   const metadescription = String(description || "Best appliances services in Jumeirah Golf Estates. Get fast  washing machine repair near me in Dubai. Book 043300002 to fix your refrigerator, & oven");
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-  const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Jumeirah Golf Estates Dubai – Home Appliance Installation, Maintenance & Service Centre in Jumeirah Golf Estates Dubai");
+  const metaKeyword = String(Keyword || "Washing Machine in Jumeirah Golf Estates, Refrigerator in Jumeirah Golf Estates, Oven in Jumeirah Golf Estates, Dishwasher in Jumeirah Golf Estates, Tumble Dryer in Jumeirah Golf Estates, Stove in Jumeirah Golf Estates, Freezer in Jumeirah Golf Estates, Coffee Machine in Jumeirah Golf Estates");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah-golf-estates/");
 
   subtitle = "Testimonial"

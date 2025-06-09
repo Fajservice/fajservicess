@@ -19,7 +19,7 @@ const SamsungHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
     const metadescription = String(description || "Trouble with your Samsung home appliances? FAJ provides Samsung washing machine, dryer, fridge, dishwasher service near me dubai. Dail 043300002");
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-    const metaKeyword = String(Keyword || "Samsung Appliances Repair Services");
+    const metaKeyword = String(Keyword || "Samsung home appliances repair, samsung washing machine repair, samsung fridge repair, samsung dishwasher repair, samsung cooker repair, samsung appliance service near me, samsung appliance maintenance Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/samsung-home-appliances-repair/");
 
     subtitle = "Testimonial"

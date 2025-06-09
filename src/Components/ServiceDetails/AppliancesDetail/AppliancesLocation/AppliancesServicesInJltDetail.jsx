@@ -22,7 +22,7 @@ const AppliancesServicesInJltDetail = ({ subtitle, title, reviewsbg, titleSeo, d
   const metadescription = String(description || "Best appliance services in JLT Jumeirah Lake Towers. Experts in fridge repair near me in Dubai. Call 043300002 for washing machine & dishwasher fix");
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-  const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in JLT Dubai – Home Appliance Installation, Maintenance & Service Centre in JLT Dubai");
+  const metaKeyword = String(Keyword || "Washing Machine in JLT, Fridge Repair in JLT, Dishwasher Repair in JLT, Appliance Services in JLT, Appliance Repair in JLT, Appliance Maintenance in JLT, Appliance Installation in JLT, Home Appliances Service in JLT");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jlt/");
 
   subtitle = "Testimonial"

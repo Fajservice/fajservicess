@@ -21,7 +21,7 @@ const AppliancesServicesInDubaiInvestmentsParkDetail = ({ subtitle, title, revie
     const metadescription = String(description || "Looking for appliance service in Dubai Investments Park. Call 043300002 for fridge repair near me. Get fix washing machine, dishwasher, Oven");
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Dubai Investments Park– Home Appliance Installation, Maintenance & Service Centre in Dubai Investments Park");
+    const metaKeyword = String(Keyword || "Washing Machine in dubai Investments Park, Fridge Repair in Dubai Investments Park, Dishwasher Repair in Dubai Investments Park, Oven Repair in Dubai Investments Park, Appliance Service in Dubai Investments Park, Appliance Repair in Dubai Investments Park");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-investments-park/");
 
     subtitle = "Testimonial"

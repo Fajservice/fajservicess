@@ -22,7 +22,7 @@ const ToshibaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   const metatitle = String(titleSeo || "Toshiba AC Repair in Dubai - AC Maintenance Service Near");
   const metadescription = String(description || "Get same day Toshiba AC Repair in Dubai. Call 043300002 FAJ expert for split and central air conditioner maintenance service near by you with less cost cleaning");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "");
+  const metaKeyword = String(Keyword || "Toshiba AC Repair in Dubai, Toshiba AC Maintenance Service, Toshiba Air Conditioner Repair, Toshiba AC Service Near Me, Toshiba AC Cleaning Service, Toshiba Air Conditioner Installation, Toshiba AC AMC Dubai, Toshiba AC Repair Near Me");
   const metaURL = String(URL || "https://www.fajservices.ae/toshiba-ac-repair-in-dubai-toshiba-ac-maintenance-in-dubai-toshiba-ac-fix-in-dubai-toshiba-ac-service-in-dubai-toshiba-air-condition-repair-in-dubai-toshiba-air-condition-maintenance-in-dubai-toshiba");
  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
   subtitle = "Testimonial"
@@ -88,6 +88,7 @@ const ToshibaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
 
+          <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />

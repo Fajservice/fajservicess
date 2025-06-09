@@ -21,7 +21,7 @@ const HaierAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
   const metatitle = String(titleSeo || "Haier AC Repair in Dubai - Air Conditioner Service Nearby");
   const metadescription = String(description || "Haier is the top AC Company. Call us for your Haier AC Repair in Dubai and Best Air Condition Maintenance Services near me 043300002");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "");
+  const metaKeyword = String(Keyword || "Haier AC Repair in Dubai, Haier Air Conditioner Service, Haier AC Maintenance, Haier AC Fix, Haier Air Condition Repair, Haier Air Condition Maintenance, Haier Air Condition Service");
   const metaURL = String(URL || "https://fajservices.com/haier-ac-repair-in-dubai-haier-ac-maintenance-in-dubai-haier-ac-fix-in-dubai-haier-ac-service-in-dubai-haier-air-condition-repair-in-dubai-haier-air-condition-maintenance-in-dubai-haier-air-condition/");
   const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
 
@@ -88,6 +88,7 @@ const HaierAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
 
+          <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />

@@ -20,7 +20,7 @@ const SiemensHomeAppUnstallationDetail = ({ subtitle, title, reviewsbg, titleSeo
   const metadescription = String(description || "Are you looking for Siemens home appliance service? we experts Siemens washing machine repair, Siemens refrigerator, fridge, dishwasher repair dubai");
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-  const metaKeyword = String(Keyword || "Repair Services");
+  const metaKeyword = String(Keyword || "Siemens home appliance repair, Siemens washing machine repair, Siemens refrigerator repair, Siemens dishwasher repair, Siemens cooker repair, Siemens appliance service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/siemens-home-appliance-installation-maintenance-repair-fix-service-in-dubai/");
 
   subtitle = "Testimonial"

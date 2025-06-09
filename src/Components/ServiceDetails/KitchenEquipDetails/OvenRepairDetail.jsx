@@ -19,6 +19,7 @@ const OvenRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Rational Oven Repair Service, Combi Oven Repair Service, Commercial Oven Repair Service");
   const metaURL = String(URL || "https://www.fajservices.ae/oven-repair/");
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Camercial-Kitchen-Equipment.avif");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -123,7 +124,14 @@ const OvenRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
-          <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

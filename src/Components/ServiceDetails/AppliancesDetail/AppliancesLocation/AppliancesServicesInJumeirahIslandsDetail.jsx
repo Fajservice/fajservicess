@@ -22,7 +22,7 @@ const AppliancesServicesInJumeirahIslandsDetail = ({ subtitle, title, reviewsbg,
   const metadescription = String(description || "Same-day appliances services in Jumeirah Islands. Get refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, dishwasher & fridge");
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-  const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Jumeirah Islands Dubai – Home Appliance Installation, Maintenance & Service Centre in Jumeirah Islands Dubai");
+  const metaKeyword = String(Keyword || "Washing Machine in jumeirah islands, Fridge Repair in Jumeirah Islands, Dishwasher Repair in Jumeirah Islands, Appliances Services in Jumeirah Islands, Appliances Repair in Jumeirah Islands, Appliance Service Center in Jumeirah Islands, Appliance Repair Service in Jumeirah Islands, Appliance Repair in Jumeirah Islands");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah-islands/");
 
   subtitle = "Testimonial"

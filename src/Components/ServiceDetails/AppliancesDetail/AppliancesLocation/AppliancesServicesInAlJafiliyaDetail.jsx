@@ -21,7 +21,7 @@ const AppliancesServicesInAlJafiliyaDetail = ({ subtitle, title, reviewsbg, titl
     const metadescription = String(description || "We offer best appliance services in Al Jafiliya. Get washing machine repair near me in Dubai. Book 043300002 for fridge, oven, dishwasher maintenance.");
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Al Jafiliya Dubai – Home Appliance Installation, Maintenance & Service Centre in Al Jafiliya Dubai");
+    const metaKeyword = String(Keyword || "Washing Machine in al jafiliya, Appliances Services in Al Jafiliya, Appliance Repair in Al Jafiliya, Fridge Repair in Al Jafiliya, Oven Repair in Al Jafiliya, Dishwasher Repair in Al Jafiliya");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-jafiliya/");
 
     subtitle = "Testimonial"

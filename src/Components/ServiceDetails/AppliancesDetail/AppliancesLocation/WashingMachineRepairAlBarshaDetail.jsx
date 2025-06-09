@@ -21,7 +21,7 @@ const WashingMachineRepairAlBarshaDetail = ({ subtitle, title, reviewsbg, titleS
   const metadescription = String(description || "Get best washing machine repair in Al Barsha. Dail 043300002 for Samsung, Siemens, Bosch, LG, Daewoo washing machine & fridge repair near me");
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-  const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Al Barsha Dubai – Dishwasher, Stove, Oven Installation & Service Centre  in Al Barsha Dubai");
+  const metaKeyword = String(Keyword || "Washing Machine in AlBarsha, Washing Machine Repair in Al Barsha, Refrigerator Repair in Al Barsha, Fridge Repair in Al Barsha, Appliance Repair in Dubai, Appliance Service Center in Dubai, Appliance Repair Service in Dubai, Home Appliances Repair in Dubai, Washing Machine Service Center in Dubai, Fridge Service Center in Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-al-barsha-dubai-fridge-repair-al-barsha-dubai-refrigerator-repairing-al-barsha-dubai-cooker-stove-oven-cooking-range-repairs-fix-service-centre-al-barsha-dubai-dishwasher-inst-2/");
 
   subtitle = "Testimonial"

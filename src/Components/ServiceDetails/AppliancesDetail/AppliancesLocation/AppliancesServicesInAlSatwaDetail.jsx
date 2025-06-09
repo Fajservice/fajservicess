@@ -21,7 +21,7 @@ const AppliancesServicesInAlSatwaDetail = ({ subtitle, title, reviewsbg, titleSe
     const metadescription = String(description || "Appliance services in Al Satwa, Dubai. Experts in refrigerator repair near me. Contact 043300002 to fix washing machine, oven & dishwasher");
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Al Satwa Dubai – Home Appliance Installation, Maintenance & Service Centre in Al Satwa Dubai");
+    const metaKeyword = String(Keyword || "Washing Machine in Al Satwa, Refrigerator Repair in Al Satwa, Appliance Repair in Al Satwa, Dishwasher Repair in Al Satwa, Oven Repair in Al Satwa, Appliance Services in Al Satwa, Appliance Maintenance in Al Satwa");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-satwa/");
 
     subtitle = "Testimonial"

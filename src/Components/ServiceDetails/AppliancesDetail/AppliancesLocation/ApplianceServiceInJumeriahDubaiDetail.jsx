@@ -23,7 +23,7 @@ const ApplianceServiceInJumeriahDubaiDetail = ({ subtitle, title, reviewsbg, tit
     const metadescription = String(description || "FAJ offering home appliances service in Jumeirah. Book an 043300002 for Siemens, Bosch, Daewoo, Electrolux, Teka refrigerator, fridge, oven repair.");
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Jumeirah Dubai– Home Appliance Installation, Maintenance & Service Centre in Jumeirah Dubai");
+    const metaKeyword = String(Keyword || "Washing Machine in jumeirah dubai, Refrigerator in jumeirah dubai, Oven in jumeirah dubai, Dishwasher in jumeirah dubai, Tumble Dryer in jumeirah dubai, Stove in jumeirah dubai, Freezer in jumeirah dubai, Coffee Machine in jumeirah dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/home-appliances-installation-maintenance-repair-fix-service-centre-in-jumeirah-dubai");
 
     subtitle = "Testimonial"

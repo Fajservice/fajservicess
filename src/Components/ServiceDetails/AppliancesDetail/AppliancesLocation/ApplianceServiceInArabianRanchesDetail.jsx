@@ -21,7 +21,7 @@ const ApplianceServiceInArabianRanchesDetail = ({ subtitle, title, reviewsbg, ti
     const metadescription = String(description || "Same-day appliance services in Arabian Ranches. FAJ offers washing machine repair near me in Dubai. Book 043300002 for fridge, oven, dishwasher fix");
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Arabian Ranches Dubai – Home Appliance Installation, Maintenance & Service Centre in Arabian Ranches Dubai");
+    const metaKeyword = String(Keyword || "washing machine repair in arabian ranches, refrigerator repair in arabian ranches, appliance repair in arabian ranches, dishwasher repair in arabian ranches, oven repair in arabian ranches, appliance service in arabian ranches, appliance maintenance in arabian ranches");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-arabian-ranches");
 
 

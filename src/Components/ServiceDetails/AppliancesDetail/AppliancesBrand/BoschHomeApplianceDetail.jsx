@@ -20,7 +20,7 @@ const BoschHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
   const metadescription = String(description || "Bosch Home Appliances Repair - Expert Bosch washing machine repair, Bosch refrigerator repair, fridge, Bosch diswasher, stove and oven repair.");
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-  const metaKeyword = String(Keyword || "Bosch Home Appliance service in dubai, Home Appliance Repair");
+  const metaKeyword = String(Keyword || "Bosch Home Appliances Repair, Bosch Washing Machine Repair, Bosch Refrigerator Repair, Bosch Dishwasher Repair, Bosch Stove Repair, Bosch Oven Repair");
   const metaURL = String(URL || "https://www.fajservices.ae/bosch-home-appliances-repair/");
 
   subtitle = "Testimonial"

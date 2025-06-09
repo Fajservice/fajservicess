@@ -23,7 +23,7 @@ const ApplianceServiceInCedreVillasSiliconOasisDubaiDetail = ({ subtitle, title,
     const metadescription = String(description || "FAJ provides appliance services in Cedre Villas, Silicon Oasis, Dubai. Get fast washing machine repair & maintenance near me. Book 043300002");
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Cedre Villas, Silicon Oasis Dubai – Home Appliance Installation, Maintenance & Service Centre in Cedre Villas, Silicon Oasis Dubai");
+    const metaKeyword = String(Keyword || "Washing machine repair in Cedre Villas Silicon Oasis Dubai, refrigerator repair in Cedre Villas Silicon Oasis Dubai, dishwasher repair in Cedre Villas Silicon Oasis Dubai, appliance repair in Cedre Villas Silicon Oasis Dubai, appliance service in Cedre Villas Silicon Oasis Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-cedre-villas-silicon-oasis-dubai");
 
     subtitle = "Testimonial"

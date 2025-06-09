@@ -20,7 +20,7 @@ const SmegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
   const metadescription = String(description || "Looking for Smeg fridge repair in Dubai? Dail 043300002 for Semg washing machine, dishwasher, refrigerator, cooking range, oven repair service nearby");
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-  const metaKeyword = String(Keyword || "Repair Services");
+  const metaKeyword = String(Keyword || "Smeg fridge repair, Smeg washing machine repair, Smeg cooker repair, Smeg oven repair, Smeg appliances maintenance, Smeg refrigerator fix, Smeg appliance service in Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/");
 
 

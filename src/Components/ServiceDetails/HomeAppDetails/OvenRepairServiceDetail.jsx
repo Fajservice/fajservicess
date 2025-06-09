@@ -25,8 +25,9 @@ const OvenRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
   const metatitle = String(titleSeo || "Best Gas Oven Repair Dubai - Electric Oven Service Near Me");
   const metadescription = String(description || "Get same day oven repair in Dubai. FAJ professional reliable conventional, steam oven maintenance service near me. Dail 043300002 for fix oven");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "Gas Oven Repair, Electric Oven Service Near Me, Electric Oven Repair");
+  const metaKeyword = String(Keyword || "Gas Oven Repair Dubai, Electric Oven Service Near Me, Oven Repair Service Dubai, Oven Maintenance Dubai, Steam Oven Repair Dubai, Conventional Oven Repair Dubai, Oven Service Near Me, Best Oven Repair Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/oven-repair-service/");
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/oven-Range-Repair-Nearby-You-oven.avif");
 
 
   subtitle = "Testimonial"
@@ -133,7 +134,14 @@ const OvenRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
-          <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

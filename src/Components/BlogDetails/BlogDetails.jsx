@@ -2,8 +2,10 @@
 import { Link, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import data from "../../Data/blog.json";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
-const BlogDetails = () => {
+const BlogDetails = ({titleSeo , description, Author, Keyword, URL }) => {
+  
   const { slug } = useParams();
   const [blogPost, setBlogPost] = useState(null);
 
@@ -90,8 +92,38 @@ const BlogDetails = () => {
   if (!blogPost) {
     return <div className="container py-5 text-center">Loading...</div>;
   }
-
+// For SEO
+  const metatitle = String(titleSeo || blogPost.metatitle );
+  const metadescription = String(description || blogPost.metadesc);
+  const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
+  const metaKeyword = String(Keyword || "");
+  const metaURL = String(URL || `https://www.fajservices.ae/blog/${blogPost.slug}/`);
+  const metaImage = `https://www.fajservices.ae${blogPost.img}`;
   return (
+    <>
+  <HelmetProvider>
+    <Helmet>
+      <title>{metatitle}</title>
+          <meta name="description" content={metadescription}></meta>
+          <meta name="keywords" content={metaKeyword} />
+          <meta name="author" content={metaAuthor} />
+          <meta name="robots" content="index, follow" />
+          <link rel="canonical" href={metaURL} />
+          <meta property="og:type" content="website" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:title" content={metatitle} />
+          <meta property="og:description" content={metadescription} />
+          <meta property="og:image" content={metaImage} />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
+    </Helmet>
+    </HelmetProvider>
+
     <section>
       <div className="cs_height_40 cs_height_lg_40"></div>
       <div className="container">
@@ -1666,52 +1698,6 @@ const BlogDetails = () => {
               </div>
             </div>
             <div className="cs_comments_area">
-              {/* <h2 className="cs_fs_30 cs_mb_28">{blogPost.comments} Comments</h2>
-              <ul className="cs_comment_list cs_heading_font cs_mp_0">
-                <li className="cs_comment_body position-relative">
-                  <div className="cs_comment_thumbnail">
-                    <img src="/assets/img/avatar_9.avif" alt="Image" />
-                  </div>
-                  <div className="cs_comment_info">
-                    <h3 className="cs_fs_20 cs_semibold cs_mb_9">Leslie Alexander</h3>
-                    <div className="cs_post_meta cs_fs_14 cs_mb_9">
-                      <span className="cs_accent_color"><i className="bi bi-calendar-fill"></i></span>
-                      <span className="cs_heading_color">10 Oct, 2024</span>
-                    </div>
-                    <p className="mb-0">Most repairs can be completed within a few hours, but complex issues might take longer. We always aim a for same-day service when possible.</p>
-                    <Link to="#" className="cs_reply_btn cs_heading_bg cs_fs_14 cs_bold cs_white_color text-uppercase">Reply</Link>
-                  </div>
-                </li>
-                <li className="cs_comment_body position-relative">
-                  <div className="cs_comment_thumbnail">
-                    <img src="/assets/img/avatar_10.avif" alt="Image" />
-                  </div>
-                  <div className="cs_comment_info">
-                    <h3 className="cs_fs_20 cs_semibold cs_mb_9">Cameron Williamson</h3>
-                    <div className="cs_post_meta cs_fs_14 cs_mb_9">
-                      <span className="cs_accent_color"><i className="bi bi-calendar-fill"></i></span>
-                      <span className="cs_heading_color">15 Oct, 2024</span>
-                    </div>
-                    <p className="mb-0">We offer free estimates before any repairs begin, so you know exactly what to expect on all part and labor, ensuring your peace of mind.</p>
-                    <Link to="#" className="cs_reply_btn cs_heading_bg cs_fs_14 cs_bold cs_white_color text-uppercase">Reply</Link>
-                  </div>
-                </li>
-                <li className="cs_comment_body position-relative">
-                  <div className="cs_comment_thumbnail">
-                    <img src="/assets/img/avatar_11.avif" alt="Image" />
-                  </div>
-                  <div className="cs_comment_info">
-                    <h3 className="cs_fs_20 cs_semibold cs_mb_9">Darlene Robertson</h3>
-                    <div className="cs_post_meta cs_fs_14 cs_mb_9">
-                      <span className="cs_accent_color"><i className="bi bi-calendar-fill"></i></span>
-                      <span className="cs_heading_color">20 Oct, 2024</span>
-                    </div>
-                    <p className="mb-0">Tire rotation is typically recommended every 6,000 to 8,000 miles to ensure even wear and extend the life of your tires  more serious that needs attention.</p>
-                    <Link to="#" className="cs_reply_btn cs_heading_bg cs_fs_14 cs_bold cs_white_color text-uppercase">Reply</Link>
-                  </div>
-                </li>
-              </ul>
-              <div className="cs_height_50 cs_height_lg_50"></div> */}
               <div className="cs_form_wrapper cs_style_1 cs_accent_bg_light">
                 <h3 className="cs_fs_30 cs_mb_13">Leave a Reply</h3>
                 <p className="cs_mb_22">Your email Address Not Be Published. Requied Fields are Marked</p>
@@ -1737,13 +1723,6 @@ const BlogDetails = () => {
           </div>
           <aside className="col-xl-4 col-lg-5">
             <div className="cs_sidebar cs_style_1">
-              {/* <div className="cs_sidebar_widget cs_accent_bg_light position-relative p-0">
-                <form action="#" className="cs_search">
-                  <input type="text" placeholder="Search...." />
-                  <span className="cs_search_icon cs_center cs_accent_bg cs_fs_24 cs_white_color">
-                    <i className="bi bi-search"></i></span>
-                </form>
-              </div> */}
               <div className="cs_sidebar_widget cs_accent_bg_light position-relative">
                 <div className="cs_separator"></div>
                 <h3 className="cs_sidebar_title cs_fs_30 cs_mb_43">All Services</h3>
@@ -1796,6 +1775,7 @@ const BlogDetails = () => {
       </div>
       <div className="cs_height_80 cs_height_lg_40"></div>
     </section>
+    </>
   );
 };
 

@@ -20,7 +20,7 @@ const TraneAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
   const metatitle = String(titleSeo || "Trane Ac Repair in Dubai - Air Conditioner Maintenance Near");
   const metadescription = String(description || "World #1 Trane AC. Book 043300002 for Trane Ac Repair in Dubai, We are experts in central, HVAC Air Conditioning Maintenance and Cleaning Service Near by you");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "");
+  const metaKeyword = String(Keyword || "Trane AC Repair, Trane Air Conditioner Maintenance, Trane AC Service, Trane HVAC Repair, Trane Air Conditioning Cleaning Service, Trane AC Installation, Trane AC Repair Dubai, Trane Air Conditioner Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/trane-ac-repair-in-dubai-trane-ac-maintenance-in-dubai-trane-ac-fix-in-dubai-trane-ac-service-in-dubai-trane-air-condition-repair-in-dubai-trane-air-condition-maintenance-in-dubai-trane-air-condition");
  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
 
@@ -86,6 +86,7 @@ const TraneAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
 
+          <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />

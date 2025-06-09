@@ -20,8 +20,9 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
   const metatitle = String(titleSeo || "Professional Commercial Cooking Equipment Repair in Dubai");
   const metadescription = String(description || "Need commercial cooking equipment repair in Dubai? FAJ provides expert repair, service & maintenance for all kitchen appliances. Call now 04 3300002!");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
-  const metaKeyword = String(Keyword || "Commercial Kitchen Gas Cooker Repair");
+  const metaKeyword = String(Keyword || "Commercial Cooking Equipment Repair, Dubai, professional Kitchen Appliances Service, professional Cooking Range Repair, professional Gas Stove Repair, professional Deep Fryer Service, professional Oven Repair, Restaurant Equipment Maintenance");
   const metaURL = String(URL || "https://www.fajservices.ae/commercial-cooking-appliances-repair-service/");
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/commercial-cooking-appliances-repair-service.avif");
 
 
   subtitle = "Testimonial"
@@ -128,7 +129,14 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
-          <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

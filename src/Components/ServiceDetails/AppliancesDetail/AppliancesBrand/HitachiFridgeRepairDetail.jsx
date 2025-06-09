@@ -20,7 +20,7 @@ const HitachiFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
   const metadescription = String(description || "Hitachi Fridge Repair Dubai - Get professional Hitachi refrigerator, freezer repair, dishwasher, washing machine, cooker & oven service near me");
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-  const metaKeyword = String(Keyword || "Hitachi Fridge Repair Services");
+  const metaKeyword = String(Keyword || "Hitachi Fridge Repair, Hitachi Washing Machine Repair, Hitachi Cooker Repair, Hitachi Oven Repair, Hitachi Appliances Maintenance, Hitachi Refrigerator Fix, Hitachi Appliance Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/hitachi-fridge-repair-in-dubai-hitachi-washing-machine-repair-in-dubai-hitachi-cooker-repair-in-dubai-hitachi-oven-repair-in-dubai-hitachi-appliances-maintenance-in-dubai-hitachi-refrigerator-fix-repa/");
 
   subtitle = "Testimonial"

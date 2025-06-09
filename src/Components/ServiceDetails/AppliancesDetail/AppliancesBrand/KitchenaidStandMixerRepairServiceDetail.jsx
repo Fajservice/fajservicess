@@ -19,8 +19,8 @@ const KitchenaidStandMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, t
   const metatitle = String(titleSeo || "KitchenAid Stand Mixer Repair Services and Maintenance");
   const metadescription = String(description || "Kitchenaid Stand Mixer Repair Dubai - Professional Kitchenaid mixer repair, maintenance, and stand mixer servicing near you in Dubai. Dail 043300002");
   const metaAuthor = String(Author || "Faj Technical Services");
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-  const metaKeyword = String(Keyword || "Kitchenaid Repair Services");
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/kitchen-aid-mixer-repair.avif");
+  const metaKeyword = String(Keyword || "Kitchenaid Stand Mixer Repair, Kitchenaid Mixer Repair Dubai, Kitchenaid Appliance Repair, Kitchenaid Mixer Service, Kitchenaid Stand Mixer Maintenance, Kitchenaid Appliance Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/kitchenaid-stand-mixer-repair-service-near-me-dubai/");
 
   subtitle = "Testimonial"
@@ -180,7 +180,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
               <div className="col-md-6 ">
                 
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`}  loading="lazy" alt="KitchenAid Stand Mixer Repair" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/kitchen-aid-mixer-repair.avif`}  loading="lazy" alt="KitchenAid Stand Mixer Repair" />
               </div>
             </div>
             <AppliancesAppointmentCol></AppliancesAppointmentCol>
@@ -200,7 +200,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`}  loading="lazy" alt="KitchenAid Stand Mixer Repair" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/kitchenaid-mixers-repairs.avif`}  loading="lazy" alt="KitchenAid Stand Mixer Repair" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">

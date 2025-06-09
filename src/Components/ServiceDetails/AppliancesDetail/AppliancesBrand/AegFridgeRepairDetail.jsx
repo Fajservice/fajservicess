@@ -20,7 +20,7 @@ const AegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
   const metadescription = String(description || "AEG fridge Repair and washing machine services Dubai. Our skilled team provides services like aeg dishwasher, oven, and dryer repair in Dubai");
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-  const metaKeyword = String(Keyword || "Aeg Fridge Repair, Aed Fridge Services in dubai");
+  const metaKeyword = String(Keyword || "AEG Fridge Repair, AEG Washing Machine Repair, AEG Cooker Repair, AEG Oven Repair, AEG Appliances Maintenance, AEG Refrigerator Fix, AEG Appliance Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/");
 
   subtitle = "Testimonial"

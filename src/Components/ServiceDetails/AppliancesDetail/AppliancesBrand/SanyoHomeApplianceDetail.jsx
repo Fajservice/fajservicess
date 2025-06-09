@@ -18,7 +18,7 @@ const SanyoHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
   const metadescription = String(description || "If you're searching for reliable Sanyo fridge repair in Dubai. Call-FAJ 043300002 for Sanyo washing machine, dishwasher oven fix service nearme");
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-  const metaKeyword = String(Keyword || "Sanyo Home Repair Services");
+  const metaKeyword = String(Keyword || "Sanyo Home Appliance Repair, Sanyo Washing Machine Repair, Sanyo Fridge Repair, Sanyo Dishwasher Repair, Sanyo Oven Repair, Sanyo Cooker Repair, Sanyo Appliance Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/sanyo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/");
 
   subtitle = "Testimonial"

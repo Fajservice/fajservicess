@@ -23,6 +23,7 @@ const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSe
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Delonghi Coffee Machine Repair, Delonghi Coffee Machine Service, Delonghi Coffee Machine Maintenance");
   const metaURL = String(URL || "https://www.fajservices.ae/delonghi-coffee-machine-repair/");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/delonghi-coffee-machine-repair.avif");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

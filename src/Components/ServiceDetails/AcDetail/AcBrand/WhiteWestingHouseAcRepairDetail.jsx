@@ -21,7 +21,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descr
   const metatitle = String(titleSeo || "White Westinghouse Ac Repair In Dubai - #1 Ac Service Near");
   const metadescription = String(description || "We are offering White Westinghouse Ac Repair in Dubai, Call us 043300002 for Air Conditioner Maintenance near me Dubai Air Con Servicing");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "");
+  const metaKeyword = String(Keyword || "White Westinghouse Ac Repair In Dubai, White Westinghouse Ac Maintenance In Dubai, White Westinghouse Ac Fix In Dubai, White Westinghouse Ac Service In Dubai, White Westinghouse Air Condition Repair In Dubai, White Westinghouse Air Conditioner Repair In Dubai, White Westinghouse Air Conditioner Service In Dubai, White Westinghouse Air Conditioner Maintenance In Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/white-westinghouse-ac-repair-in-dubai-white-westinghouse-ac-maintenance-in-dubai-white-westinghouse-ac-fix-in-dubai-white-westinghouse-ac-service-in-dubai-white-westinghouse-air-condition-repair-in-du");
   const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
   subtitle = "Testimonial"
@@ -86,6 +86,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descr
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
 
+          <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />

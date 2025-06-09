@@ -23,8 +23,9 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
   const metatitle = String(titleSeo || "Robot Vacuum Cleaner Repair - Best Vacuum Cleaner Services");
   const metadescription = String(description || "Need Robot Vacuum Cleaner Repair? FAJ provides expert for Xiaomi, Roomba, TP-Link, Eufy, and Anker vacuum services. Book now at 043300002!");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "Robot Vacuum Cleaner Repair, Best Vacuum Cleaner Services, Vacuum Cleaner Repair");
+  const metaKeyword = String(Keyword || "Robot vacuum cleaner repair, vacuum cleaner service, Xiaomi vacuum repair, Roomba vacuum service, TP-Link vacuum cleaner repair, Eufy vacuum cleaner service, Anker vacuum repair");
   const metaURL = String(URL || "https://www.fajservices.ae/robot-vacuum-cleaner-repair/");
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/inspection-robot-vacuum-cleaner.avif");
 
 
 
@@ -132,7 +133,14 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
-          <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

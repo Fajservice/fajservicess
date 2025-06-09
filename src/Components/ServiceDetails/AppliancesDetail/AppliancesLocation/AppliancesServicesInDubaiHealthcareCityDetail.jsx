@@ -22,7 +22,7 @@ const AppliancesServicesInDubaiHealthcareCityDetail = ({ subtitle, title, review
     const metadescription = String(description || "We offer best appliance services in Dubai Healthcare City. Get fridge repair near me. Book 043300002 for oven, dishwasher, washing machine maintenance");
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Dubai – Home Appliance Installation, Maintenance & Service Centre in Dubai Healthcare City");
+    const metaKeyword = String(Keyword || "Washing Machine in Dubai Healthcare City, Fridge Repair Dubai Healthcare City, Dishwasher Repair Dubai Healthcare City, Oven Repair Dubai Healthcare City, Appliance Services in Dubai Healthcare City");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-healthcare-city/");
 
     subtitle = "Testimonial"

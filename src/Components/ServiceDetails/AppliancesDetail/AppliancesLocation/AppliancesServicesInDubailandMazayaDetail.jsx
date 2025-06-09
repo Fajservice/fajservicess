@@ -21,7 +21,7 @@ const AppliancesServicesInDubailandMazayaDetail = ({ subtitle, title, reviewsbg,
   const metadescription = String(description || "Get appliance services in Dubailand Mazaya. FAJ Experts refrigerator repair near me. Call 043300002 to fix washing machine, dishwasher, oven, fridge");
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-  const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Dubailand Mazaya – Home Appliance Installation, Maintenance & Service Centre in Dubailand Mazaya ");
+  const metaKeyword = String(Keyword || "Washing Machine in dubailand mazaya, Fridge Repair in dubailand mazaya, Dishwasher Repair in dubailand mazaya, Oven Repair in dubailand mazaya, Appliances Services in dubailand mazaya, Appliances Service Center in dubailand mazaya, Appliances Repair in dubailand mazaya");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubailand-mazaya/");
 
   subtitle = "Testimonial"

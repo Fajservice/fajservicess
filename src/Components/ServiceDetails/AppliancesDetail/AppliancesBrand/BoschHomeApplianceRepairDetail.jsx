@@ -20,7 +20,7 @@ const BoschHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, 
     const metadescription = String(description || "Bosch home appliancs services. Expert Bosch washing machine repair, Bosch refrigerator, fridge, oven, cooker, dishwasher service near you Dubai");
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-    const metaKeyword = String(Keyword || "Bosch Appliance Repair, Bosh Fridge and Washing Machine Repair Service");
+    const metaKeyword = String(Keyword || "Bosch home appliance repair, Bosch washing machine repair, Bosch fridge repair, Bosch cooker repair, Bosch dishwasher service Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/bosch-home-appliance-installation-maintenance-repair-fix-service-in-dubai/");
 
     subtitle = "Testimonial"

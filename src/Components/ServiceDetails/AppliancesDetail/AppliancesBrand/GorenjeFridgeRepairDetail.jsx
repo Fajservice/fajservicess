@@ -20,7 +20,7 @@ const GorenjeFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
   const metadescription = String(description || "Reliable & same-day Gorenje fridge repair in Dubai. Dail 043300002 for Gorenje washing machine, refrigerator, hob, oven, dishwasher service near me");
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-  const metaKeyword = String(Keyword || "Gorenje appliances repair services");
+  const metaKeyword = String(Keyword || "Gorenje Fridge Repair, Gorenje Washing Machine Repair, Gorenje Cooker Repair, Gorenje Oven Repair, Gorenje Appliances Maintenance, Gorenje Refrigerator Fix, Gorenje Appliance Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/gorenje-fridge-repair-in-dubai-gorenje-washing-machine-repair-in-dubai-gorenje-cooker-repair-in-dubai-gorenje-oven-repair-in-dubai-gorenje-appliances-maintenance-in-dubai-gorenje-refrigerator-fix-repa/");
 
   subtitle = "Testimonial"

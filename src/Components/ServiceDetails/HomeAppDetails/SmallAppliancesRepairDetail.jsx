@@ -23,8 +23,9 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
   const metatitle = String(titleSeo || "Small Home Appliances Service – Household Repair Near Me");
   const metadescription = String(description || "Get same day small home appliances repair. FAJ Experts for cigar dehumidifier, iron box, toaster, microwave, air fryer, water dispenser service near me");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "mixer repair, steam iron repair, air fryer repair");
+  const metaKeyword = String(Keyword || "mixer repair, steam iron repair, toaster repair, microwave oven repair, air fryer repair, water dispenser repair, small home appliances service, household appliance repair near me");
   const metaURL = String(URL || "https://www.fajservices.ae/small-home-appliances-service-center-in-dubai/");
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/small-mixer-service.avif");
 
 
   subtitle = "Testimonial"
@@ -130,7 +131,14 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
-          <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

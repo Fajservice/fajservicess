@@ -21,7 +21,7 @@ const ApplianceServiceInJvtDetail = ({ subtitle, title, reviewsbg, titleSeo, des
     const metadescription = String(description || "Looking for appliance Services in JVT. Call now 043300002 for refrigerator repair near me, fridge, fix washing machine, dishwasher, oven & more.");
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in JVT Dubai – Home Appliance Installation, Maintenance & Service Centre in JVT Dubai");
+    const metaKeyword = String(Keyword || "Washing Machine in JVT, Refrigerator Repair in JVT, Dishwasher Repair in JVT, Oven Repair in JVT, Appliance Service in JVT, Appliance Repair in Jumeirah Village Triangle, Appliance Maintenance in JVT");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jvt/");
 
     subtitle = "Testimonial"

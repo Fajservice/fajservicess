@@ -23,8 +23,9 @@ const WalkInRefrigerationServicesDetail = ({ subtitle, title, reviewsbg, titleSe
   const metatitle = String(titleSeo || "Commercial Laundry Equipment Service - Dryer Maintenance");
   const metadescription = String(description || "Need commercial laundry equipment service in Dubai? FAJ offers dryer, washer, ironing machine repair & maintenance. Get best amc services");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
-  const metaKeyword = String(Keyword || "Commercial Laundry Equipment Repair, Commercial Laundry Equipment Maintenance Service");
+  const metaKeyword = String(Keyword || "Commercial Laundry Equipment Service, Commercial Laundry Equipment Repair, Commercial Laundry Equipment Maintenance, Dryer Repair Dubai, Washer Repair Dubai, Ironing Machine Repair Dubai, Commercial Laundry AMC Services");
   const metaURL = String(URL || "https://www.fajservices.ae/commercial-laundry-equipment-service/");
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/banners/Commercial-Laundry-Equipment-Services/Laundry-Equipment-Service.avif");
 
 
   subtitle = "Testimonial"
@@ -131,7 +132,14 @@ const WalkInRefrigerationServicesDetail = ({ subtitle, title, reviewsbg, titleSe
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
-          <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
         </Helmet>
       </HelmetProvider>
 

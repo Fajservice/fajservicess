@@ -22,7 +22,7 @@ const AppliancesServicesInRemraamDetail = ({ subtitle, title, reviewsbg, titleSe
     const metadescription = String(description || "We offer best appliance services in Remraam. Get fridge repair near me in Dubai. Book 043300002 for oven, dishwasher, washing machine maintenance.");
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in  in Remraam Dubai – Home Appliance Installation, Maintenance & Service Centre in Remraam Dubai");
+    const metaKeyword = String(Keyword || "Washing Machine in Remraam, Appliance Repair in Remraam, Fridge Repair in Remraam, Dishwasher Repair in Remraam, Oven Repair in Remraam, Washing Machine Repair in Remraam, Appliance Services in Remraam");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-remraam/");
 
     subtitle = "Testimonial"

@@ -18,8 +18,9 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
   const metatitle = String(titleSeo || "Cigar Cabinet Humidifier Repair - Dehumidifier Service");
   const metadescription = String(description || "FAJ expert in Cigar cabinet humidifier repair. Dail 043300002 for Dehumidifier, cigar fridge, cooler, refrigerator, electric humidor maintenance service Dubai");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "Cigar Humidor Repair, Cigar Cabinet Humidifier Repair");
+  const metaKeyword = String(Keyword || "Cigar Cabinet Humidifier Repair, Dehumidifier Service, Cigar Fridge Repair, Cigar Cooler Service, Electric Humidor Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/cigar-humidor-repair/");
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/cigarcabnitrepair.avif");
 
 
   subtitle = "Testimonial"
@@ -127,7 +128,14 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
-          <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

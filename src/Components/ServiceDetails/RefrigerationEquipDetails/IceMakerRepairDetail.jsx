@@ -26,6 +26,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Ice Maker Repair, IceMaker Repair, Commercial Ice Maker Repair Service");
   const metaURL = String(URL || "https://www.fajservices.ae/ice-maker-repair/");
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/newicemaker.avif");
 
 
   subtitle = "Testimonial"
@@ -131,8 +132,15 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
                 <meta property="og:locale" content="en_US" />
                 <meta property="og:title" content={metatitle} />
                 <meta property="og:description" content={metadescription} />
-                <meta property="og:url" content={metaURL} />
-              </Helmet>
+               <meta property="og:image" content={metaImage} />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
+        </Helmet>
             </HelmetProvider>
       <HeaderForm />
 

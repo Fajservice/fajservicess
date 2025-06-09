@@ -24,8 +24,9 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
   const metatitle = String(titleSeo || "Best Gas Cooker Repair - Cooking Range Service Near Me");
   const metadescription = String(description || "Are you looking for gas cooker repair Dubai? Dail 043300002 for gas stove, electric stove repair service. Get fast fix cooking range, induction repairs");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "Gas Cooker Repair, Cooking Range Service Near Me, Cooking Range Repair");
+  const metaKeyword = String(Keyword || "Gas Cooker Repair, Gas Stove Repair, Cooking Range Service, Induction Repair, Dubai, Sharjah");
   const metaURL = String(URL || "https://www.fajservices.ae/gas-cooker-repair-service/");
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/gas-cooker-repair-services.avif");
 
 
   subtitle = "Testimonial"
@@ -132,7 +133,14 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
-          <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

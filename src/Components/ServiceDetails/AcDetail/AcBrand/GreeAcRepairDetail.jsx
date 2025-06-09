@@ -20,7 +20,7 @@ const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
   const metatitle = String(titleSeo || "Gree AC Repair in Dubai - AC Maintenance Service Near Me");
   const metadescription = String(description || "To Get Fast Gree AC Repair in Dubai and air conditioner maintenance service near me. Call Us on 043300002 Our technicians are experts in fixing errors");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "");
+  const metaKeyword = String(Keyword || "Gree AC Repair, Gree AC Service, Gree Air Conditioner Maintenance, Gree AC Repair Dubai, Gree AC Service Dubai, Gree Air Conditioner Repair Dubai, Gree AC Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/gree-ac-repair-in-dubai");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
 
@@ -87,6 +87,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filt
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
 
+          <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />

@@ -21,7 +21,7 @@ const WhirpoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
   const metatitle = String(titleSeo || "Whirlpool Air Condition Repair in Dubai - AC Maintenance");
   const metadescription = String(description || "FAJ Offering Whirlpool AC repair in Dubai We are experts in Split Air Conditioner Maintenance Service nearby & Air con Fixing 043300002");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "");
+  const metaKeyword = String(Keyword || "Whirpool Air Conditioner Repair in Dubai, Whirlpool AC Maintenance, Whirlpool AC Service, Whirlpool Air Conditioner Installation, Whirlpool AC Cleaning Service, Whirlpool AC Repair Dubai, Whirlpool AC AMC Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/whirlpool-air-condition-repair-in-dubai-ac-maintenance-in-dubai-air-conditioning-fix-repairs-service-in-dubai");
   const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
   subtitle = "Testimonial"
@@ -86,6 +86,7 @@ const WhirpoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
 
+          <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />
