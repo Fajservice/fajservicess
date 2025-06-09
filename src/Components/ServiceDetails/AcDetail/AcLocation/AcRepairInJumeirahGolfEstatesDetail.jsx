@@ -27,7 +27,7 @@ const AcRepairInJumeirahGolfEstatesDetail = ({ subtitle, title, reviewsbg, title
     const metadescription = String(description || "Are you finding for ac services in jumeirah golf estates dubai? Call 043300002 for your inverter and central air conditioner repair & maintenance..");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jumeirah-golf-estates").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jumeirah-golf-estates/").replace(/\/?$/, '/');
 
 
     subtitle = "Testimonial"

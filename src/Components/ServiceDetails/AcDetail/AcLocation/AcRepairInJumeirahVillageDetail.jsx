@@ -25,7 +25,7 @@ const AcRepairInJumeirahVillageDetail = ({ subtitle, title, reviewsbg, titleSeo,
     const metadescription = String(description || "If you are looking for the best ac services in jumeirah village dubai. Call FAJ 043300002 for low cost central & split a/c system repairing nearby..");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Repair in Jumeirah Village, Air Conditioning Service in Jumeirah Village, Air Con Maintenance in & AC Installation in Jumeirah Village");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jumeirah-village").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jumeirah-village/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

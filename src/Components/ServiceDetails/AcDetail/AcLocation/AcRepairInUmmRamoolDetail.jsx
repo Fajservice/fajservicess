@@ -25,7 +25,7 @@ const AcRepairInUmmRamoolDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
     const metadescription = String(description || "Book Now at 043300002 for the Best AC Services in Umm Ramool, Maintenance or Repair of Central, Split Air Condition and The Compressor Gas");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-umm-ramool").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-umm-ramool/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

@@ -22,7 +22,7 @@ const AppliancesServiceInBusinessBayDetail = ({ subtitle, title, reviewsbg, titl
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in Business Bay, Fridge Repair in Business Bay, Dishwasher Repair in Business Bay, Oven Repair in Business Bay, Appliance Service in Business Bay, Appliance Repair in Business Bay, Home Appliances Service in Business Bay, Home Appliances Repair in Business Bay");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-business-bay").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-business-bay/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

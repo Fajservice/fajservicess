@@ -23,7 +23,7 @@ const ApplianceServiceInOudMethaDetail = ({ subtitle, title, reviewsbg, titleSeo
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in Oud Metha, Appliance Repair in Oud Metha, Appliance Service in Oud Metha, Fridge Repair in Oud Metha, Dishwasher Repair in Oud Metha, Oven Repair in Oud Metha, Home Appliances Service in Oud Metha");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-oud-metha").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-oud-metha/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

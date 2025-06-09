@@ -23,7 +23,7 @@ const ApplianceServiceInDubaiSiliconOasisDetail = ({ subtitle, title, reviewsbg,
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in Dubai Silicon Oasis, Fridge Repair Dubai Silicon Oasis, Dishwasher Repair Dubai Silicon Oasis, Oven Repair Dubai Silicon Oasis, Appliance Service Dubai Silicon Oasis");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-silicon-oasis").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-silicon-oasis/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

@@ -24,7 +24,7 @@ const ApplianceServiceInJumeriahDubaiDetail = ({ subtitle, title, reviewsbg, tit
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in jumeirah dubai, Refrigerator in jumeirah dubai, Oven in jumeirah dubai, Dishwasher in jumeirah dubai, Tumble Dryer in jumeirah dubai, Stove in jumeirah dubai, Freezer in jumeirah dubai, Coffee Machine in jumeirah dubai");
-    const metaURL = String(URL || "https://www.fajservices.ae/home-appliances-installation-maintenance-repair-fix-service-centre-in-jumeirah-dubai").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/home-appliances-installation-maintenance-repair-fix-service-centre-in-jumeirah-dubai/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

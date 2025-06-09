@@ -22,7 +22,7 @@ const ApplianceServiceInDipDetail = ({ subtitle, title, reviewsbg, titleSeo, des
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in DIP, Fridge Repair in DIP, Appliance Service in DIP, Appliance Repair in DIP, Home Appliances Service in DIP, Home Appliances Repair in DIP, Appliance Maintenance in DIP, Appliance Installation in DIP");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dip").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dip/").replace(/\/?$/, '/');
 
 
     subtitle = "Testimonial"

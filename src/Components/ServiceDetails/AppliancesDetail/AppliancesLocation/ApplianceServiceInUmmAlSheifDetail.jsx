@@ -23,7 +23,7 @@ const ApplianceServiceInUmmAlSheifDetail = ({ subtitle, title, reviewsbg, titleS
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in umm al sheif, Fridge Repair in Umm Al Sheif, Dishwasher Repair in Umm Al Sheif, Appliance Service in Umm Al Sheif, Home Appliances Repair in Umm Al Sheif, Appliance Repair Dubai");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-umm-al-sheif").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-umm-al-sheif/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

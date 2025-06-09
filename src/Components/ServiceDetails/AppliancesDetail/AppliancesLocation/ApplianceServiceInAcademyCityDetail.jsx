@@ -23,7 +23,7 @@ const ApplianceServiceInAcademyCityDetail = ({ subtitle, title, reviewsbg, title
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Academy City Dubai – Home Appliance Installation, Maintenance & Service Centre in Academy City Dubai");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-academy-city").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-academy-city/").replace(/\/?$/, '/');
 
 
     subtitle = "Testimonial"

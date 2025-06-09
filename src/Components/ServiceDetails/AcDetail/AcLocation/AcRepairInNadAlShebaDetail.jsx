@@ -25,7 +25,7 @@ const AcRepairInNadAlShebaDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
     const metadescription = String(description || "Fixing AC Error. Best AC Services in Nad Al Sheba & Dubai Hills. Offering air conditioner gas filling and fix compressor. Get fast ac repairing near me");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-nad-al-sheba").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-nad-al-sheba/").replace(/\/?$/, '/');
 
 
     subtitle = "Testimonial"

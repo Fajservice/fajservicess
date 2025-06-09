@@ -22,7 +22,7 @@ const ApplianceServiceInTheVillaDetail = ({ subtitle, title, reviewsbg, titleSeo
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in the villa, Refrigerator in the villa, Dishwasher in the villa, Appliance service in the villa, Appliance repair in the villa, Appliance maintenance in the villa, Appliance installation in the villa");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-villa").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-villa/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

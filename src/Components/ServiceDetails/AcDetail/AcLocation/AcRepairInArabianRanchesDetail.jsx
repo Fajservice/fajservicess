@@ -25,7 +25,7 @@ const AcRepairInArabianRanchesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
     const metadescription = String(description || "Are you finding for AC Services in Arabian Ranches Dubai? Dail 043300002 for Carrier, LG air conditioning repair and maintenance near me. AC fix");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Repair in Arabian Ranches, Air Conditioning Service in Arabian Ranches, Air Con Maintenance & AC Installation in Arabian Ranches");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-arabian-ranches").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-arabian-ranches/").replace(/\/?$/, '/');
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"

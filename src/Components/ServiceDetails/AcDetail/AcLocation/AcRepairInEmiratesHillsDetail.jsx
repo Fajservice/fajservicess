@@ -25,7 +25,7 @@ const AcRepairInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, titleSeo, d
     const metadescription = String(description || "Get your fahu, vrv, vrf or central air conditioning units repaired on an urgent basis. Dail 043300002 for ac services in emirates hills near me dubai");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-emirates-hills").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-emirates-hills/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

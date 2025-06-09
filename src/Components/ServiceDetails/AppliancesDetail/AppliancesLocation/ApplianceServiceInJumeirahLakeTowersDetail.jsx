@@ -23,7 +23,7 @@ const ApplianceServiceInJumeirahLakeTowersDetail = ({ subtitle, title, reviewsbg
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in jumeirah lake towers, Refrigerator in jumeirah lake towers, Dishwasher in jumeirah lake towers, Oven in jumeirah lake towers, Tumble Dryer in jumeirah lake towers, Stove in jumeirah lake towers, Freezer in jumeirah lake towers, Coffee Machine in jumeirah lake towers");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah-lake-towers").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah-lake-towers/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

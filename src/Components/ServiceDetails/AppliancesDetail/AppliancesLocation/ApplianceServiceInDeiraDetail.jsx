@@ -23,7 +23,7 @@ const ApplianceServiceInDeiraDetail = ({ subtitle, title, reviewsbg, titleSeo, d
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "washing machine repair in deira, refrigerator repair in deira, appliance repair in deira, appliance service in deira, appliance maintenance in deira, appliance installation in deira, appliance repair near me, appliance service near me, appliance maintenance near me, appliance installation near me");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-deira").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-deira/").replace(/\/?$/, '/');
 
 
     subtitle = "Testimonial"

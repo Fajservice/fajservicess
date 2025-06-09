@@ -25,7 +25,7 @@ const AcRepairInMudonDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
     const metadescription = String(description || "Call 043300002 AC Services in Mudon Dubai. We are experts in central, hvac air conditioning repairing and maintenance near me Dubai AC fix");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-mudon").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-mudon/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

@@ -25,7 +25,7 @@ const AcRepairInTheSpringsDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
     const metadescription = String(description || "Get sameday ac services in the springs dubai. We are experts in central & split air conditioner maintenance & ac repairs near me Dubai 043300002");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Repair in The Springs, Air Conditioning Service in The Springs, Air Con Maintenance & AC Installation in The Springs");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-the-springs").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-the-springs/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

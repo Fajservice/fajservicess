@@ -25,7 +25,7 @@ const AcRepairInJebelAliDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const metadescription = String(description || "FAJ is here to help with AC Services in Jebel Ali Dubai. Call now 043300002 for central, ducted, hvac split air conditioner repair & maintenance. Fix");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jebel-ali").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jebel-ali/").replace(/\/?$/, '/');
 
 
     subtitle = "Testimonial"

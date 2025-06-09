@@ -22,7 +22,7 @@ const AppliancesServiceInTheGardensDetail = ({ subtitle, title, reviewsbg, title
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Washing Machine in the Gardens, Refrigerator Repair in the Gardens, Appliance Service in the Gardens, Appliance Repair in the Gardens, Appliance Maintenance in the Gardens, Appliance Installation in the Gardens, Appliance AMC in the Gardens, Appliance Service Center in the Gardens, Home Appliances Service in the Gardens");
-  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-gardens").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-gardens/").replace(/\/?$/, '/');
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

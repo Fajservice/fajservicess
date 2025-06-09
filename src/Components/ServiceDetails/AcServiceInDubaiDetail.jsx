@@ -27,7 +27,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
   const metadescription = String(description || "We specialize in AC repair, service, and central & split air conditioner maintenance in Dubai. Call at 043300002 for your home & office A/C fix");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "AC Service, Air Con Service, AC Service in Dubai, Air Conditioning Service");
-  const metaURL = String(URL || "https://www.fajservices.ae/ac-service-in-dubai").replace(/\/?$/, '/').replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/ac-service-in-dubai/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/dist/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
 
   subtitle = "Testimonial"

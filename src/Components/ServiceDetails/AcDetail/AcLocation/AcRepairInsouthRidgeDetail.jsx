@@ -25,7 +25,7 @@ const AcRepairInsouthRidgeDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
     const metadescription = String(description || "Call 043300002 Best AC Services in South Ridge Dubai. Are You Finding for Central Chiller FCU Maintenance Repair in Your Area? Contact us Now");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-south-ridge").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-south-ridge/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

@@ -25,7 +25,7 @@ const AcRepairInIndexTowerDifcDetail = ({ subtitle, title, reviewsbg, titleSeo, 
     const metadescription = String(description || "Ph:043300002. AC Services in Index Tower Difc. Get best and quick HVAC repair service near me Dubai AC fix Air Con repairs");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-index-tower-difc").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-index-tower-difc/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

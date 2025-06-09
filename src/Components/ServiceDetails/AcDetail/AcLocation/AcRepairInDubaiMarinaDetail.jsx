@@ -25,7 +25,7 @@ const AcRepairInDubaiMarinaDetail = ({ subtitle, title, reviewsbg, titleSeo, des
     const metadescription = String(description || "Get it done affordably cost. Dail now 043300002 for ac services in dubai marina and best chiller fcu air conditioner repair & maintenance near me");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-dubai-marina").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-dubai-marina/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

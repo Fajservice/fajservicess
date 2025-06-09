@@ -25,7 +25,7 @@ const AcRepairInJebelAliVillageDetail = ({ subtitle, title, reviewsbg, titleSeo,
     const metadescription = String(description || "Call now 043300002 for AC Services in Jebel Ali Village Dubai. FAJ here to help you package unit, ceiling air conditioner repair & maintenance near.");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jebel-ali-village").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jebel-ali-village/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

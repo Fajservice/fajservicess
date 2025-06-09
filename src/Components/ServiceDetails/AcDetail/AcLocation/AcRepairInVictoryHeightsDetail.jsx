@@ -25,7 +25,7 @@ const AcRepairInVictoryHeightsDetail = ({ subtitle, title, reviewsbg, titleSeo, 
     const metadescription = String(description || "FAJ offers AC services in Victory Heights, Dubai. We specialize in AC repair and maintenance for split and central units. Call us at 043300002.");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-victory-heights").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-victory-heights/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

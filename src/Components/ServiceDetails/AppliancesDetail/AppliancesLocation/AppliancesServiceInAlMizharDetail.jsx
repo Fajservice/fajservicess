@@ -22,7 +22,7 @@ const AppliancesServiceInAlMizharDetail = ({ subtitle, title, reviewsbg, titleSe
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Washing Machine in Al Mizhar, Refrigerator in Al Mizhar, Dishwasher in Al Mizhar, Oven in Al Mizhar, Appliance Repair in Al Mizhar, Appliance Service in Al Mizhar, Appliance Maintenance in Al Mizhar");
-  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-mizhar").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-mizhar/").replace(/\/?$/, '/');
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

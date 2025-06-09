@@ -22,7 +22,7 @@ const ApplianceServiceInArabianRanchesDetail = ({ subtitle, title, reviewsbg, ti
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "washing machine repair in arabian ranches, refrigerator repair in arabian ranches, appliance repair in arabian ranches, dishwasher repair in arabian ranches, oven repair in arabian ranches, appliance service in arabian ranches, appliance maintenance in arabian ranches");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-arabian-ranches").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-arabian-ranches/").replace(/\/?$/, '/');
 
 
     subtitle = "Testimonial"
