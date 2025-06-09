@@ -23,7 +23,7 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   const metadescription = String(description || "Having issues with your cooking appliance? Dail 043300002 for hob repair service in dubai and electric stove, cooking range fix near me in dubai"); 
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Electric Hob Repair, Gas Hob Repair, Gas Hob Service");
-  const metaURL = String(URL || "https://www.fajservices.ae/hob-repair-service/");
+  const metaURL = String(URL || "https://www.fajservices.ae/hob-repair-service/").replace(/\/?$/, '/');
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Hob-Repair-Service-in-Dubai-UAE.avif");
 
 

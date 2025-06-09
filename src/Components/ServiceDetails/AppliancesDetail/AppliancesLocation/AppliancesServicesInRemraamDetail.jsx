@@ -23,7 +23,7 @@ const AppliancesServicesInRemraamDetail = ({ subtitle, title, reviewsbg, titleSe
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in Remraam, Appliance Repair in Remraam, Fridge Repair in Remraam, Dishwasher Repair in Remraam, Oven Repair in Remraam, Washing Machine Repair in Remraam, Appliance Services in Remraam");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-remraam/");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-remraam/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

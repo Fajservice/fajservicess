@@ -25,7 +25,7 @@ const AcRepairInJvtDetail = ({ subtitle, title, reviewsbg, titleSeo, description
     const metadescription = String(description || "T:043300002 for AC Services in JVT Dubai. We are experts in carrier, york central & split AC (Air Conditioner) maintenance & repairs near me Dubai");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jvt/");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jvt/").replace(/\/?$/, '/');
 
 
     subtitle = "Testimonial"

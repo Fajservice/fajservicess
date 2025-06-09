@@ -22,7 +22,7 @@ const SmegMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Smeg mixer repair, Smeg mixer service, Smeg mixer Dubai, Smeg mixer repair Dubai, Smeg mixer service Dubai, Smeg mixer near me, Smeg mixer repair near me, Smeg mixer service near me, Smeg mixer Dubai service, Smeg mixer Dubai repair");
-  const metaURL = String(URL || "https://www.fajservices.ae/smeg-mixer-repair-service-near-me-dubai/");
+  const metaURL = String(URL || "https://www.fajservices.ae/smeg-mixer-repair-service-near-me-dubai/").replace(/\/?$/, '/');
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

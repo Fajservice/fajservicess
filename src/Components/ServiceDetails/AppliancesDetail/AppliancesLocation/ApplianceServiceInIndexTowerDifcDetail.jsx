@@ -21,7 +21,7 @@ const ApplianceServiceInIndexTowerDifcDetail = ({ subtitle, title, reviewsbg, ti
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in Index Tower DIFC, Fridge Repair in Index Tower DIFC, Dishwasher Repair in Index Tower DIFC, Oven Repair in Index Tower DIFC, Appliance Service in Index Tower DIFC, Appliance Maintenance in Index Tower DIFC");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-index-tower-difc/");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-index-tower-difc/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

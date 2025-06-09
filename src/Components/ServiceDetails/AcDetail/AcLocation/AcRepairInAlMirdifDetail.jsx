@@ -25,7 +25,7 @@ const AcRepairInAlMirdifDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
   const metadescription = String(description || "FAJ Provides Inverter AC Services in Al Mirdif, Our Technicians are Experts in HVAC Air Condition Maintenance & Repair near me Dubai AC Fixing.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "AC Repair in Al Mirdif, Air Conditioning Service in Al Mirdif, Air Con Maintenance & AC Installation in Al Mirdif");
-  const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-mirdif")
+  const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-mirdif").replace(/\/?$/, '/')
   const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 
   subtitle = "Testimonial"

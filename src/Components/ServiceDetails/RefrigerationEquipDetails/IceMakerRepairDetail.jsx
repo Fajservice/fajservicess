@@ -25,7 +25,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
   const metadescription = String(description || "Reliable ice maker repair in Dubai. Contact FAJ for a fast ice maker repair service near me. We are specializing in Hoshizaki, Scotsman");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Ice Maker Repair, IceMaker Repair, Commercial Ice Maker Repair Service");
-  const metaURL = String(URL || "https://www.fajservices.ae/ice-maker-repair/");
+  const metaURL = String(URL || "https://www.fajservices.ae/ice-maker-repair/").replace(/\/?$/, '/');
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/newicemaker.avif");
 
 

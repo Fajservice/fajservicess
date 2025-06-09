@@ -22,7 +22,7 @@ const ApplianceServiceInAlbarariDetail = ({ subtitle, title, reviewsbg, titleSeo
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "appliance service in Al Barari, refrigerator repair in al barari, washing machine repair in al barari, dishwasher repair in al barari, oven repair in al barari");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-barari");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-barari").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

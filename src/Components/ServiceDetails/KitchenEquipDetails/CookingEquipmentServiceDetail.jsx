@@ -21,7 +21,7 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
   const metadescription = String(description || "Need commercial cooking equipment repair in Dubai? FAJ provides expert repair, service & maintenance for all kitchen appliances. Call now 04 3300002!");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial Cooking Equipment Repair, Dubai, professional Kitchen Appliances Service, professional Cooking Range Repair, professional Gas Stove Repair, professional Deep Fryer Service, professional Oven Repair, Restaurant Equipment Maintenance");
-  const metaURL = String(URL || "https://www.fajservices.ae/commercial-cooking-appliances-repair-service/");
+  const metaURL = String(URL || "https://www.fajservices.ae/commercial-cooking-appliances-repair-service/").replace(/\/?$/, '/');
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/commercial-cooking-appliances-repair-service.avif");
 
 

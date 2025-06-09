@@ -5,7 +5,7 @@ const HaierAcRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/acbrands/Haier-ac-repair.avif"
+                bgImg="img/acbrands/desktop/haier-ac-repair-faj.avif"
                 mobileBgImg="img/acbrands/mobile/Haier-ac-repair-faj.avif"
                 Title="Haier AC Repair Dubai - AC Cleaning Service Near Me"
             ></BreadCumb> 

@@ -25,7 +25,7 @@ const AcRepairInDubaiInternationalFinancialCenterDetail = ({ subtitle, title, re
     const metadescription = String(description || "Book an 043300002. AC Services in Dubai International Financial Centre. We are experts in central AC maintenance service near me Dubai AC fix");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-dubai-international-financial-centre");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-dubai-international-financial-centre").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

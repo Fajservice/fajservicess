@@ -23,7 +23,7 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, ti
   const metadescription = String(description || "Sameday Washing Machine Repair Dubai. Book now 043300002 Get Quality Washing Machine Repair near me with Reliable Washer Dryer");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Washing Machine Repair, Washing Machine Maintenance, Washing Machine Service");
-  const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-service-dubai/");
+  const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-service-dubai/").replace(/\/?$/, '/');
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/washing-machine-repair.avif");
 
 

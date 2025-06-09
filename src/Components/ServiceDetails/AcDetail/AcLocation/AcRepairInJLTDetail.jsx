@@ -27,7 +27,7 @@ const AcRepairInJLTdETAIL = ({ subtitle, title, reviewsbg, titleSeo, description
     const metadescription = String(description || "Get best AC service JLT near me. Air Con repair & maintenance experts for central AC maintenance & repair. Call 043300002 for reliable fixed AC");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-jlt");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-jlt").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

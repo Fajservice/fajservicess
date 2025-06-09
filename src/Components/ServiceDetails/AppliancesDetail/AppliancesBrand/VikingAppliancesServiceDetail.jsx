@@ -22,7 +22,7 @@ const VikingAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Viking Appliances Service, Viking Refrigerator Repair, Viking Oven Fix, Viking Dishwasher Service, Viking Stove Repair, Viking Appliance Maintenance Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/viking-appliances-service/");
+  const metaURL = String(URL || "https://www.fajservices.ae/viking-appliances-service/").replace(/\/?$/, '/');
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

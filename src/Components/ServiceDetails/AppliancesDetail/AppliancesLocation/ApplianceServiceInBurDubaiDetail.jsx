@@ -22,7 +22,7 @@ const ApplianceServiceInBurDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine repair in bur dubai, Fridge repair near me bur dubai, Appliance service in bur dubai, Appliance repair in bur dubai, Oven repair in bur dubai, Dishwasher repair in bur dubai");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-bur-dubai/");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-bur-dubai/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -142,7 +142,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">appliances-services-in-bur-dubai</h1>
+                        <h1 className="cs_fs_30">appliances services in bur dubai</h1>
                         {/* <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2> */}
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.

@@ -25,7 +25,7 @@ const AcRepairInAlBarshaSouthDetail = ({ subtitle, title, reviewsbg, titleSeo, d
   const metadescription = String(description || "Get top-notch AC repair in Al Qusais with experts. We offer cost-effective solutions for all your HVAC, split & central air conditioner Dubai 043300002ac-repair-al-qusais");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "AC Repair  in Al Barsha South, Air Conditioning Service in Al Barsha South, Air Con Maintenance & AC Installation in Al Barsha South");
-  const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-barsha-south");
+  const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-barsha-south").replace(/\/?$/, '/').replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
 
   subtitle = "Testimonial"

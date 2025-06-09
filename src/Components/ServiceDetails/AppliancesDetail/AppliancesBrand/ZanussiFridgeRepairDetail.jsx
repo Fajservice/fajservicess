@@ -22,7 +22,7 @@ const metadescription = String(description || "Experience Zanussi Fridge Repair 
 const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
 const metaKeyword = String(Keyword || "Zanussi Fridge Repair, Zanussi Washing Machine Repair, Zanussi Cooker Repair, Zanussi Oven Repair, Zanussi Appliances Maintenance, Zanussi Refrigerator Fix, Zanussi Appliance Service Dubai");
-const metaURL = String(URL || "https://www.fajservices.ae/zanussi-fridge-repair-in-dubai-zanussi-washing-machine-repair-in-dubai-zanussi-cooker-repair-in-dubai-zanussi-oven-repair-in-dubai-zanussi-appliances-maintenance-in-dubai-zanussi-refrigerator-fix-repa/");
+const metaURL = String(URL || "https://www.fajservices.ae/zanussi-fridge-repair-in-dubai-zanussi-washing-machine-repair-in-dubai-zanussi-cooker-repair-in-dubai-zanussi-oven-repair-in-dubai-zanussi-appliances-maintenance-in-dubai-zanussi-refrigerator-fix-repa/").replace(/\/?$/, '/');
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

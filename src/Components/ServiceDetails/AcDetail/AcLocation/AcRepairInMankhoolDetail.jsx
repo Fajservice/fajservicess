@@ -27,7 +27,7 @@ const AcRepairInMankhoolDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const metadescription = String(description || "A/C Repair, Maintenance and AC Services in Mankhool. Call 043300002 for Central Air Conditioner, Split A/C Repairing, Servicing in my location");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-mankhool");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-mankhool").replace(/\/?$/, '/');
 
 
     subtitle = "Testimonial"

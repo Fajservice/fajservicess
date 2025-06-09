@@ -25,7 +25,7 @@ const AcRepairInDubailandMazayaQueueDetail = ({ subtitle, title, reviewsbg, titl
     const metadescription = String(description || "AC Services in Dubailand Mazaya Queue. We are experts in York central air conditioner repair & maintenance near me Dubai AC fix Call 043300002");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/https://www./aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg");
+    const metaURL = String(URL || "https://www.fajservices.ae/https://www./aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg").replace(/\/?$/, '/');
 
 
     subtitle = "Testimonial"

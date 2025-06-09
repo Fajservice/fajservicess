@@ -27,7 +27,7 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
   const metadescription = String(description || "Get sameday FAJ AC repair near me in Dubai and Sharjah. Call Us 043300002 for Air Conditioner (AC) cleaning service, maintenance and error fix nearby"); 
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "AC Repair Near Me, AC Service Near Me, Air Conditioner Repair Near Me, Air Conditioner Service Near Me, AC Maintenance Near Me, Split AC Repair Near Me, Split AC Service Near Me, Central AC Repair Near Me, Central AC Service Near Me");
-  const metaURL = String(URL || "https://www.fajservices.ae/dubai/ac-repair-near-me/");
+  const metaURL = String(URL || "https://www.fajservices.ae/dubai/ac-repair-near-me/").replace(/\/?$/, '/');
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 
   subtitle = "Testimonial"

@@ -22,7 +22,7 @@ const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
   const metadescription = String(description || "Get Best O General AC repair in Dubai. We are experts in central, vrf O G split air conditioner maintenance and cleaning service near you Book an 043300002");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Ogeneral AC Repair in Dubai, O General AC Maintenance in Dubai, O General AC Fix in Dubai, O General AC Service in Dubai, O General Air Condition Repair in Dubai, O General Air Condition Maintenance in Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/o-general-ac-repair-in-dubai-o-general-ac-maintenance-in-dubai-o-general-ac-fix-in-dubai-o-general-ac-service-in-dubai-o-general-air-condition-repair-in-dubai-o-general-air-condition-maintenance-in-du/");
+  const metaURL = String(URL || "https://www.fajservices.ae/o-general-ac-repair-in-dubai-o-general-ac-maintenance-in-dubai-o-general-ac-fix-in-dubai-o-general-ac-service-in-dubai-o-general-air-condition-repair-in-dubai-o-general-air-condition-maintenance-in-du/").replace(/\/?$/, '/').replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
 
   subtitle = "Testimonial"

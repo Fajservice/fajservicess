@@ -24,7 +24,7 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
   const metadescription = String(description || "Get same day small home appliances repair. FAJ Experts for cigar dehumidifier, iron box, toaster, microwave, air fryer, water dispenser service near me");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "mixer repair, steam iron repair, toaster repair, microwave oven repair, air fryer repair, water dispenser repair, small home appliances service, household appliance repair near me");
-  const metaURL = String(URL || "https://www.fajservices.ae/small-home-appliances-service-center-in-dubai/");
+  const metaURL = String(URL || "https://www.fajservices.ae/small-home-appliances-service-center-in-dubai/").replace(/\/?$/, '/');
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/small-mixer-service.avif");
 
 

@@ -25,7 +25,7 @@ const AcRepairInJvcDetail = ({ subtitle, title, reviewsbg, titleSeo, description
     const metadescription = String(description || "Get same day AC repair in JVC. Call 043300002 for central, split air conditioner repair & maintenance. Best AC cleaning service near me Dubai");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.aeac-services-in-jvc");
+    const metaURL = String(URL || "https://www.fajservices.aeac-services-in-jvc").replace(/\/?$/, '/');
 
 
     subtitle = "Testimonial"

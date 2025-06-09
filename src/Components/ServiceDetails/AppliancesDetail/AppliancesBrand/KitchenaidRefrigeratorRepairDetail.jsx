@@ -21,7 +21,7 @@ const KitchenaidRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Kitchenaid Refrigerator Repair, Kitchenaid Fridge Repair, Kitchenaid Freezer Maintenance, Kitchenaid Washing Machine Repair, Kitchenaid Dishwasher Repair, Kitchenaid Cooker Oven Repairs, KitchenAid Appliance Service Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/kitchenaid-refrigerator-repair-in-dubai-fridge-repair-in-dubai-kitchenaid-freezer-maintenance-in-dubai-washing-machine-repair-in-dubai-dishwasher-kitchenaid-cooker-oven-repairs-fix-service-in-dubai/");
+  const metaURL = String(URL || "https://www.fajservices.ae/kitchenaid-refrigerator-repair-in-dubai-fridge-repair-in-dubai-kitchenaid-freezer-maintenance-in-dubai-washing-machine-repair-in-dubai-dishwasher-kitchenaid-cooker-oven-repairs-fix-service-in-dubai/").replace(/\/?$/, '/');
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

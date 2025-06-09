@@ -21,7 +21,7 @@ const SubZeroFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Sub Zero Fridge Repair, Sub Zero Washing Machine Repair, Sub Zero Cooker Repair, Sub Zero Oven Repair, Sub Zero Appliances Maintenance, Sub Zero Refrigerator Repair Dubai, Sub Zero Appliance Service Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/sub-zero-fridge-repair-in-dubai-sub-zero-washing-machine-repair-in-dubai-sub-zero-cooker-repair-in-dubai-sub-zero-oven-repair-in-dubai-sub-zero-appliances-maintenance-in-dubai-sub-zero-refrigerator-fi/");
+  const metaURL = String(URL || "https://www.fajservices.ae/sub-zero-fridge-repair-in-dubai-sub-zero-washing-machine-repair-in-dubai-sub-zero-cooker-repair-in-dubai-sub-zero-oven-repair-in-dubai-sub-zero-appliances-maintenance-in-dubai-sub-zero-refrigerator-fi/").replace(/\/?$/, '/');
 
 
   subtitle = "Testimonial"

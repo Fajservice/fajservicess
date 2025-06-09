@@ -24,8 +24,9 @@ const AcRepairInAlKhawaneejDetail = ({ subtitle, title, reviewsbg, titleSeo, des
   const metatitle = String(titleSeo || "AC Services In Al Khawaneej - Repair Inverter AC Dubai #1");
   const metadescription = String(description || "Fast & Reliable AC Services in Al Khawaneej, central, Inverter and split air conditioner maintenance service near me Dubai. Call now at 04330 0002");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "AC Service in Al Khawaneej, AC Repair in Al Khawaneej, AC Maintenance in Al Khawaneej, Inverter AC Service in Al Khawaneej, Split AC Service in Al Khawaneej");
+  const metaKeyword = String(Keyword || "AC Service in Al Khawaneej, AC Repair in Al Khawaneej, AC Maintenance in Al Khawaneej, Inverter AC Service in Al Khawaneej, Split AC Service in Al Khawaneej").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+  const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-khawaneej/").replace(/\/?$/, '/');
 
 
   subtitle = "Testimonial"

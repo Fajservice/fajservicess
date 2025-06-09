@@ -23,7 +23,7 @@ const ApplianceServiceInImpzyDetail = ({ subtitle, title, reviewsbg, titleSeo, d
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in IMPZ, Fridge Repair in IMPZ, Oven Repair in IMPZ, Dishwasher Repair in IMPZ, Appliance Service in IMPZ, Appliance Maintenance in IMPZ");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-impzy");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-impzy").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

@@ -25,12 +25,12 @@ const AcRepairInProductionCityDetail = ({ subtitle, title, reviewsbg, titleSeo, 
     const metadescription = String(description || "Get same day AC repair and service in Dubai Production City Dubai. Call now 043300002 for your Gree air conditioner repairs and fix Gree AC error near you Dubai");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-repair-and-ac-service-in-dubai-production-city");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-repair-and-ac-service-in-dubai-production-city").replace(/\/?$/, '/');
 
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
-    bgreviews = "img/testimonialbg.jpg"
+    reviewsbg = "img/testimonialbg.jpg"
     const accordionContentRef = useRef(null);
     const [openItemIndex, setOpenItemIndex] = useState(-1);
     const [firstItemOpen, setFirstItemOpen] = useState(true);

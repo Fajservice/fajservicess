@@ -21,7 +21,7 @@ const KitchenaidStandMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, t
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/kitchen-aid-mixer-repair.avif");
   const metaKeyword = String(Keyword || "Kitchenaid Stand Mixer Repair, Kitchenaid Mixer Repair Dubai, Kitchenaid Appliance Repair, Kitchenaid Mixer Service, Kitchenaid Stand Mixer Maintenance, Kitchenaid Appliance Service Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/kitchenaid-stand-mixer-repair-service-near-me-dubai/");
+  const metaURL = String(URL || "https://www.fajservices.ae/kitchenaid-stand-mixer-repair-service-near-me-dubai/").replace(/\/?$/, '/');
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

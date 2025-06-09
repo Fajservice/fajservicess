@@ -1,5 +1,5 @@
 import BreadCumb from "../../../Components/Common/BreadCumb";
-import ApplianceServiceInJumeriahDubaiDetail from "../../../Components/ServiceDetails/AppliancesDetail/AppliancesLocation/ApplianceServiceInJumeriahDubaiDetail";
+import ApplianceServiceInJebelAliDipDetail from "../../../Components/ServiceDetails/AppliancesDetail/AppliancesLocation/ApplianceServiceInJebelAliDipDetail";
 
 const ApplianceServiceInJebelAliDip = () => {
   return (
@@ -9,7 +9,7 @@ bgImg="img/banners/appliances-banner-desktop-faj.avif"
 mobileBgImg="img/banners/appliances-banner-mobile-faj.avif"
                 Title="Home Appliance Service in Jabel Ali Dip">
             </BreadCumb>
-            <ApplianceServiceInJumeriahDubaiDetail />
+            <ApplianceServiceInJebelAliDipDetail />
     </div>
   )
 }

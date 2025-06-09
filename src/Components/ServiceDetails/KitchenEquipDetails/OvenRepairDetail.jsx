@@ -18,7 +18,7 @@ const OvenRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
   const metadescription = String(description || "Looking for oven repair near me in Dubai? FAJ offers expert oven repair services for homes and businesses. Call us at 043300002");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Rational Oven Repair Service, Combi Oven Repair Service, Commercial Oven Repair Service");
-  const metaURL = String(URL || "https://www.fajservices.ae/oven-repair/");
+  const metaURL = String(URL || "https://www.fajservices.ae/oven-repair/").replace(/\/?$/, '/');
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Camercial-Kitchen-Equipment.avif");
 
   subtitle = "Testimonial"

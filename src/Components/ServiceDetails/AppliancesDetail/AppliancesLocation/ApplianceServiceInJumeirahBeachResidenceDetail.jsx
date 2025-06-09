@@ -22,7 +22,7 @@ const ApplianceServiceInJumeirahBeachResidenceDetail = ({ subtitle, title, revie
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine Jumeirah Beach Residence, Refrigerator Jumeirah Beach Residence, Dishwasher Jumeirah Beach Residence, Oven Jumeirah Beach Residence, Fridge Jumeirah Beach Residence, Appliance Repair Jumeirah Beach Residence");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah-beach-residence");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah-beach-residence").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

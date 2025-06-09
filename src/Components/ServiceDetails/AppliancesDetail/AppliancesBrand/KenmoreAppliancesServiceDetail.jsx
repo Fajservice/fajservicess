@@ -21,7 +21,7 @@ const KenmoreAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, 
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Kenmore Appliances Service, Kenmore Washing Machine Repair, Kenmore Fridge Repair, Kenmore Cooker Repair, Kenmore Dishwasher Repair, Kenmore Appliance Maintenance Dubai, Kenmore Appliance Repair Dubai");
-    const metaURL = String(URL || "https://www.fajservices.ae/kenmore-appliances-service/");
+    const metaURL = String(URL || "https://www.fajservices.ae/kenmore-appliances-service/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

@@ -24,7 +24,7 @@ const ApplianceServiceInJebelAliDipDetail = ({ subtitle, title, reviewsbg, title
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in Jebel Ali DIP, Refrigerator repair in Jebel Ali DIP, Appliance repair in Jebel Ali DIP, Home appliance service in Jebel Ali DIP, Oven repair in Jebel Ali DIP, Dishwasher repair in Jebel Ali DIP, Fridge repair in Jebel Ali DIP, Washing machine service in Jebel Ali DIP");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jebel-ali-dip/");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jebel-ali-dip/").replace(/\/?$/, '/');
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     reviewsbg = "img/testimonialbg.jpg"
@@ -50,7 +50,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         loadBackgroudImages();
     }, []);
 
-    const settings = {
+   const settings = {
         dots: false,
         infinite: true,
         speed: 600,
@@ -61,6 +61,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         autoplay: true,
         autoplaySpeed: 5000,
         pauseOnHover: true,
+
         responsive: [
             {
                 breakpoint: 1399,
@@ -77,6 +78,37 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 1,
+                }
+            }
+        ]
+    };
+
+    const settingBrands = {
+        dots: false,
+        infinite: true,
+        slidesToShow: 6,
+        arrows: false,
+
+        autoplay: true,
+        autoplaySpeed: 5000,
+        pauseOnHover: true,
+
+        responsive: [
+            {
+                breakpoint: 1399,
+                settings: {
+                    slidesToShow: 6,
+                }
+            },
+            {
+                breakpoint: 1199,
+                settings: {
+                    slidesToShow: 4,
+                }
+            }, {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
                 }
             }
         ]

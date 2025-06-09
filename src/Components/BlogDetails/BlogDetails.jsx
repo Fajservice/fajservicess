@@ -97,7 +97,7 @@ const BlogDetails = ({titleSeo , description, Author, Keyword, URL }) => {
   const metadescription = String(description || blogPost.metadesc);
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "");
-  const metaURL = String(URL || `https://www.fajservices.ae/blog/${blogPost.slug}/`);
+  const metaURL = String(URL || `https://www.fajservices.ae/blog/${blogPost.slug}/`).replace(/\/?$/, '/');
   const metaImage = `https://www.fajservices.ae${blogPost.img}`;
   return (
     <>
@@ -125,7 +125,7 @@ const BlogDetails = ({titleSeo , description, Author, Keyword, URL }) => {
     </HelmetProvider>
 
     <section>
-      <div className="cs_height_40 cs_height_lg_40"></div>
+      <div className="cs_height_40 cs_height_lg_10"></div>
       <div className="container">
         <div className="row cs_row_gap_30 cs_gap_y_60">
           <div className="col-xl-8 col-lg-7">

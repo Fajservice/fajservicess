@@ -22,7 +22,7 @@ const AppliancesServiceInDubaiHillsEstateDetail = ({ subtitle, title, reviewsbg,
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Washing Machinein dubai Hills Estate, Refrigerator Repair Dubai Hills Estate, Dishwasher Repair Dubai Hills Estate, Oven Repair Dubai Hills Estate, Appliance Service Dubai Hills Estate");
-  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-hills-estate/");
+  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-hills-estate/").replace(/\/?$/, '/');
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

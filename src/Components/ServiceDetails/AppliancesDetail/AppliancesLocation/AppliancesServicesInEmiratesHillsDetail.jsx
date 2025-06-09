@@ -23,7 +23,7 @@ const metadescription = String(description || "Faj offers appliance service in E
 const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
 const metaKeyword = String(Keyword || "Washing Machine in Emirates Hills, Refrigerator in Emirates Hills, Dishwasher in Emirates Hills, Tumble Dryer in Emirates Hills, Stove in Emirates Hills, Oven in Emirates Hills, Freezer in Emirates Hills, Coffee Machine in Emirates Hills");
-const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-emirates-hills/");
+const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-emirates-hills/").replace(/\/?$/, '/');
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

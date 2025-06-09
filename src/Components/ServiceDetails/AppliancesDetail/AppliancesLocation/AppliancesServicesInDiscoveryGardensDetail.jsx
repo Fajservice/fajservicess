@@ -23,7 +23,7 @@ const AppliancesServicesInDiscoveryGardensDetail = ({ subtitle, title, reviewsbg
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in Discovery Gardens, Refrigerator Repair in Discovery Gardens, Dishwasher Repair in Discovery Gardens, Stove Repair in Discovery Gardens, Appliance Services in Discovery Gardens, Appliance Repair in Dubai, Appliance Maintenance in Dubai");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-discovery-gardens/");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-discovery-gardens/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

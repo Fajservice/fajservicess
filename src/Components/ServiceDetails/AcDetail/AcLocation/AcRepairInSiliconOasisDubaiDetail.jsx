@@ -25,7 +25,7 @@ const AcRepairInSiliconOasisDubaiDetail = ({ subtitle, title, reviewsbg, titleSe
     const metadescription = String(description || "We offer air conditioning regas and AC Services in Silicon Oasis Dubai.Call us 043300002 Fix ac error, air condition general cleaning service nearby");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-silicon-oasis-dubai");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-silicon-oasis-dubai").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

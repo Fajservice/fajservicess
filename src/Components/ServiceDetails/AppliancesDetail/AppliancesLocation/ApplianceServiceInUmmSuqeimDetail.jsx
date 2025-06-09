@@ -23,7 +23,7 @@ const ApplianceServiceInUmmSuqeimDetail = ({ subtitle, title, reviewsbg, titleSe
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in umm suqeim, Refrigerator in umm suqeim, Oven in umm suqeim, Dishwasher in umm suqeim, Appliances repair in umm suqeim, Appliances service in umm suqeim, Appliances maintenance in umm suqeim, Appliances installation in umm suqeim");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-umm-suqeim");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-umm-suqeim").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

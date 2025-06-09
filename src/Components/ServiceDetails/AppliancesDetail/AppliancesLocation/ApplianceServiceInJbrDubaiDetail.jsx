@@ -22,7 +22,7 @@ const ApplianceServiceInJbrDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in JBR, Fridge in JBR, Dishwasher in JBR, Appliance Service in JBR, Appliance Repair in JBR, Appliance Maintenance in JBR, Appliance Installation in JBR");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-washing-machine-fridge-dishwasher-service-jbr-dubai");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-washing-machine-fridge-dishwasher-service-jbr-dubai").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

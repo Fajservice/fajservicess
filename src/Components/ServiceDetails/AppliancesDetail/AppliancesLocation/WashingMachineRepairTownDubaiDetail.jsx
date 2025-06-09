@@ -22,7 +22,7 @@ const WashingMachineRepairTownDubaiDetail = ({ subtitle, title, reviewsbg, title
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Washing Machine in town Dubai, Washing Machine Repair Town Dubai, Washing Machine Service Town Dubai, Washing Machine Installation Town Dubai, Washing Machine Maintenance Town Dubai, Washing Machine Fixing Town Dubai, Washing Machine Repairing Town Dubai, Washing Machine Service Centre Town Dubai, Washing Machine Technician Town Dubai, Washing Machine Expert Town Dubai, Washing Machine Specialist Town Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-town-dubai-fridge-repair-town-dubai-refrigerator-repairing-town-dubai-cooker-stove-oven-cooking-range-repairs-fix-service-centre-town-dubai-dishwasher-installation-fixing-mainte/");
+  const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-town-dubai-fridge-repair-town-dubai-refrigerator-repairing-town-dubai-cooker-stove-oven-cooking-range-repairs-fix-service-centre-town-dubai-dishwasher-installation-fixing-mainte/").replace(/\/?$/, '/');
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -141,7 +141,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Washing Machine Repair in TownDubai</h1>
+            <h1 className="cs_fs_30">Washing Machine Repair in Town Dubai</h1>
             {/* <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN Dubai</h2> */}
             <p>
               Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.

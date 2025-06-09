@@ -22,7 +22,7 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
   const metadescription = String(description || "Looking for a commercial refrigeration service in Dubai? Dail 043300002 for walk in cooler, chiller, and cold room repair and maintenance near me");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial Refrigeration service, walk in cooler repair, chiller repair, cold room repair, commercial refrigeration maintenance");
-  const metaURL = String(URL || "https://www.fajservices.ae/commercial-refrigeration-maintenance/");
+  const metaURL = String(URL || "https://www.fajservices.ae/commercial-refrigeration-maintenance/").replace(/\/?$/, '/');
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/commercial-ref%20-mc.jpg");
   
   subtitle = "Testimonial"

@@ -23,7 +23,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
   const metadescription = String(description || "Book refrigerator repair near you. Call now at 043300002 FAJ Experts to get same day fridge repair & maintenance in Dubai. Freezer fix & service center.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Refrigerator repair, Fridge repair, Refrigerator service, Freezer repair, Dubai refrigerator repair, Fridge service Dubai, Appliance repair Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/refrigerator-repair-service/");
+  const metaURL = String(URL || "https://www.fajservices.ae/refrigerator-repair-service/").replace(/\/?$/, '/');
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/fridgerepair.avif");
 
 

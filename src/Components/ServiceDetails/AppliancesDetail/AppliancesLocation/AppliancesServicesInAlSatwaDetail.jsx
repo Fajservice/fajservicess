@@ -22,7 +22,7 @@ const AppliancesServicesInAlSatwaDetail = ({ subtitle, title, reviewsbg, titleSe
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in Al Satwa, Refrigerator Repair in Al Satwa, Appliance Repair in Al Satwa, Dishwasher Repair in Al Satwa, Oven Repair in Al Satwa, Appliance Services in Al Satwa, Appliance Maintenance in Al Satwa");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-satwa/");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-satwa/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

@@ -25,7 +25,7 @@ const AcRepairInSufouhDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
     const metadescription = String(description || "AC Services in Al Sufouh Dubai. We are experts in central & split air conditioner repairs and maintenance service in my location dubai 043300002");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-sufouh");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-sufouh").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

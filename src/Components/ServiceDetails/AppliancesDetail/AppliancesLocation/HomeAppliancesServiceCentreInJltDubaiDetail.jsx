@@ -22,7 +22,7 @@ const HomeAppliancesServiceCentreInJltDubaiDetail = ({ subtitle, title, reviewsb
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || " Washing Machine in Jlt, Refrigerator in Jlt, Dishwasher in Jlt, Oven in Jlt, Tumble Dryer in Jlt, Home Appliances Service Centre in Jlt, Home Appliances Repair Service in Jlt, Home Appliances Installation Service in Jlt, Home Appliances Maintenance Service in Jlt");
-  const metaURL = String(URL || "https://www.fajservices.ae/home-appliances-installation-maintenance-repair-fix-service-centre-in-jlt-dubai/");
+  const metaURL = String(URL || "https://www.fajservices.ae/home-appliances-installation-maintenance-repair-fix-service-centre-in-jlt-dubai/").replace(/\/?$/, '/');
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

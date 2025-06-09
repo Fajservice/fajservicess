@@ -26,7 +26,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, title
   const metadescription = String(description || "Time to get comfortable! with appliances AMC service in Dubai FAJ Experts in kitchen appliances, freezer, chiller, cooking appliances maintenance");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Home appliacnes, Appliances AMC, Appliances Maintenance Contract, Kitchen Equipment AMC, Kitchen Appliances AMC, Dubai Appliances Service, Appliance Repair Dubai, Appliance Service Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/appliances-amc-service/");
+  const metaURL = String(URL || "https://www.fajservices.ae/appliances-amc-service/").replace(/\/?$/, '/');
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/dishwasher-repair-service.avif");
   // For SEO
 

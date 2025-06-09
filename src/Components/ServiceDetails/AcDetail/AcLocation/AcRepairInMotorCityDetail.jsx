@@ -25,7 +25,7 @@ const AcRepairInMotorCityDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
     const metadescription = String(description || "T:043300002 FAJ AC Services in Motor City Dubai. We are experts in air conditioner maintenance and repair near me Dubai AC fix Air Con repairs");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-motor-city");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-motor-city").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

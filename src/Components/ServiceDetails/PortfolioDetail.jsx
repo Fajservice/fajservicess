@@ -14,7 +14,7 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
   const metadescription = String(description || "F A J Technical Services L.L.C, established in 2010, offers supply, installation, and spare parts for air conditioning and refrigeration appliances in Dubai.");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "FAJ Technical Service LLC Portfolio");
-  const metaURL = String(URL || "https://www.fajservices.ae/our-portfolio/");
+  const metaURL = String(URL || "https://www.fajservices.ae/our-portfolio/").replace(/\/?$/, '/');
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

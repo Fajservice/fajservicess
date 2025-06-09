@@ -25,7 +25,7 @@ const AcRepairInPalmJumeirahDetail = ({ subtitle, title, reviewsbg, titleSeo, de
     const metadescription = String(description || "If you are looking for Trane or Chiller FCU AC Services in Palm Jumeirah, Call FAJ 043300002 for Air Conditioner Maintenance & Service in Dubai");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-palm-jumeirah")
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-palm-jumeirah").replace(/\/?$/, '/')
 
 
     subtitle = "Testimonial"

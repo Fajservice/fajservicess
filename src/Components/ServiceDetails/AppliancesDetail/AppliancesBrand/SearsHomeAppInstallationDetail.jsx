@@ -22,7 +22,7 @@ const metadescription = String(description || "We are offering Sears Appliance I
 const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
 const metaKeyword = String(Keyword || "Sears Appliance Installation, Sears Appliance Repair, Sears Fridge Repair, Sears Washing Machine Repair, Sears Cooker Repair, Sears Dishwasher Repair, Sears Home Appliances Service Dubai");
-const metaURL = String(URL || "https://www.fajservices.ae/sears-home-appliances-installation-maintenance-repair-fix-service-in-dubai/");
+const metaURL = String(URL || "https://www.fajservices.ae/sears-home-appliances-installation-maintenance-repair-fix-service-in-dubai/").replace(/\/?$/, '/');
 
 
   subtitle = "Testimonial"

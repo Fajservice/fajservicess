@@ -22,7 +22,7 @@ const AppliancesServicesInAlBadaDetail = ({ subtitle, title, reviewsbg, titleSeo
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in al Bada, Refrigerator Repair in al Bada, Dishwasher Repair in al Bada, Oven Repair in al Bada, Appliance Service in al Bada, Appliance Repair in al Bada, Appliance Maintenance in al Bada, Appliance Installation in al Bada");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-bada/");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-bada/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

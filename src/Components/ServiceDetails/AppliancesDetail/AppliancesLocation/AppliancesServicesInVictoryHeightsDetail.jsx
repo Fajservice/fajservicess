@@ -22,7 +22,7 @@ const AppliancesServicesInVictoryHeightsDetail = ({ subtitle, title, reviewsbg, 
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Washing Machine in Victory Heights, Refrigerator in Victory Heights, Dishwasher in Victory Heights, Tumble Dryer in Victory Heights, Stove in Victory Heights, Oven in Victory Heights, Freezer in Victory Heights, Coffee Machine in Victory Heights");
-  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-victory-heights/");
+  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-victory-heights/").replace(/\/?$/, '/');
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

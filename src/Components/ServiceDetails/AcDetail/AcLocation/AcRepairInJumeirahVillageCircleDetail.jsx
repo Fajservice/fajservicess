@@ -28,7 +28,7 @@ const AcRepairInJumeirahVillageCircleDetail = ({ subtitle, title, reviewsbg, tit
     const metadescription = String(description || "AC Repair in Jumeirah Village Circle, Air Conditioning Service in Jumeirah Village Circle, Air Con Maintenance & AC Installation in Jumeirah Village Circle");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jumeirah-village");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jumeirah-village").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

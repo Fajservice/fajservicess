@@ -22,7 +22,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
   const metadescription = String(description || "FAJ coffee machine service center in Dubai. Call 04 3300002 Get home / office Espresso & restaurant or cafe Coffee machine repair & maintenance");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Coffee Machine Repair, Coffee Machine Service, Coffee Machine Descaling, Coffee Machine Service Center");
-  const metaURL = String(URL || "https://www.fajservices.ae/coffee-machine-service-center-in-dubai/");
+  const metaURL = String(URL || "https://www.fajservices.ae/coffee-machine-service-center-in-dubai/").replace(/\/?$/, '/').replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Coffee-machine-servicing-title-image.avif");
 
 

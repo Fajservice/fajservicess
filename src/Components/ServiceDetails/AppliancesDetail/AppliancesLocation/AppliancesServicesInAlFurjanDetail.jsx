@@ -23,7 +23,7 @@ const AppliancesServicesInAlFurjanDetail = ({ subtitle, title, reviewsbg, titleS
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in al furjan, Fridge Repair in al furjan, Dishwasher Repair in al furjan, Oven Repair in al furjan, Appliance Service in al furjan, Appliance Repair in al furjan, Appliance Maintenance in al furjan, Appliance Installation in al furjan");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-furjan/");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-furjan/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

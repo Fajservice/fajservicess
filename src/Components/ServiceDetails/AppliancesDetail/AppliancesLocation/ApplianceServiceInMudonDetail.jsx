@@ -22,7 +22,7 @@ const ApplianceServiceInMudonDetail = ({ subtitle, title, reviewsbg, titleSeo, d
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in Mudon, Fridge Repair in Mudon, Appliance Repair in Mudon, Appliance Service in Mudon, Fridge Service in Mudon, Washing Machine Service in Mudon, Oven Repair in Mudon, Dishwasher Repair in Mudon, Appliance Maintenance in Mudon");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-mudon");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-mudon").replace(/\/?$/, '/');
 
 
     subtitle = "Testimonial"

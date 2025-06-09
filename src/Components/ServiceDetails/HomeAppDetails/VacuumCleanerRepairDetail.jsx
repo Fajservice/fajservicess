@@ -24,7 +24,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
   const metadescription = String(description || "Need Robot Vacuum Cleaner Repair? FAJ provides expert for Xiaomi, Roomba, TP-Link, Eufy, and Anker vacuum services. Book now at 043300002!");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Robot vacuum cleaner repair, vacuum cleaner service, Xiaomi vacuum repair, Roomba vacuum service, TP-Link vacuum cleaner repair, Eufy vacuum cleaner service, Anker vacuum repair");
-  const metaURL = String(URL || "https://www.fajservices.ae/robot-vacuum-cleaner-repair/");
+  const metaURL = String(URL || "https://www.fajservices.ae/robot-vacuum-cleaner-repair/").replace(/\/?$/, '/');
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/inspection-robot-vacuum-cleaner.avif");
 
 

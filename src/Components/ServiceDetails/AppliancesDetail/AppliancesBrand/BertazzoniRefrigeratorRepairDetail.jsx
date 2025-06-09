@@ -19,10 +19,10 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
   // For SEO
   const metatitle = String(titleSeo || "Bertazzoni Refrigerator Repair In Dubai -#1 Oven Fix Service");
   const metadescription = String(description || "Bertazzoni Refrigerator Repair in Dubai -Call 043300002 Experts Bertazzoni Gas Range, Electric Stove, Oven Maintenance Service Near Me.");
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "Faj Technical Services").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Bertazzoni Refrigerator Repair, Bertazzoni Fridge Repair, Bertazzoni Washing Machine Repair, Bertazzoni Dishwasher Repair, Bertazzoni Cooker Repair, Bertazzoni Oven Repair, Bertazzoni Appliance Service Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/bertazzoni-refrigerator-repair-in-dubai-bertazzoni-appliances-service-bertazzoni-fridge-repair-in-dubai-bertazzoni-washing-machine-washer-bertazzoni-dryer-repair-in-dubai-bertazzoni-dishwasher-cooker/");
+  const metaURL = String(URL || "https://www.fajservices.ae/bertazzoni-refrigerator-repair-in-dubai-bertazzoni-appliances-service-bertazzoni-fridge-repair-in-dubai-bertazzoni-washing-machine-washer-bertazzoni-dryer-repair-in-dubai-bertazzoni-dishwasher-cooker/").replace(/\/?$/, '/');
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

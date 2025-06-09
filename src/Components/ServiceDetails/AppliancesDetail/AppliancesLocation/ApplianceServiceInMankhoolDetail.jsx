@@ -21,7 +21,7 @@ const ApplianceServiceInMankhoolDetail = ({ subtitle, title, reviewsbg, titleSeo
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in Mankhool, Refrigerator Repair in Mankhool, Appliance Service in Mankhool, Home Appliance Repair in Mankhool, Appliance Maintenance in Mankhool, Appliance Repair Services in Mankhool, Washing Machine Repair in Mankhool, Refrigerator Service in Mankhool");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-mankhool/");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-mankhool/").replace(/\/?$/, '/');
 
 
     subtitle = "Testimonial"

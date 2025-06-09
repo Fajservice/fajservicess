@@ -22,7 +22,7 @@ const ApplianceServiceInMeadowsDetail = ({ subtitle, title, reviewsbg, titleSeo,
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in the Meadows, Appliance Service in Meadows, Dishwasher Repair in the meadows, Oven Repair the meadows");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-meadows");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-meadows").replace(/\/?$/, '/');
 
 
     subtitle = "Testimonial"

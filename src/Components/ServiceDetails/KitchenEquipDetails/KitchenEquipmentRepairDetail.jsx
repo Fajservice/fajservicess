@@ -22,7 +22,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
   const metadescription = String(description || "Need expert kitchen equipment repair? FAJ offers commercial cooking appliance services and maintenance of stove, gas range, oven services Dubai");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Kitchen Equipment Repair, Commercial Cooking Equipment Repair");
-  const metaURL = String(URL || "https://www.fajservices.ae/commercial-kitchen-equipment-maintenance-services/");
+  const metaURL = String(URL || "https://www.fajservices.ae/commercial-kitchen-equipment-maintenance-services/").replace(/\/?$/, '/');
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/kitchen-equip-amc-service.avif");
 
   subtitle = "Testimonial"

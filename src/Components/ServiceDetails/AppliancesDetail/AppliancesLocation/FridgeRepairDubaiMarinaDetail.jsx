@@ -22,7 +22,7 @@ const FridgeRepairDubaiMarinaDetail = ({ subtitle, title, reviewsbg, titleSeo, d
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Fridge repair in Dubai Marina, refrigerator repair Dubai Marina");
-  const metaURL = String(URL || "https://www.fajservices.ae/fridge-repair-dubai-marina/");
+  const metaURL = String(URL || "https://www.fajservices.ae/fridge-repair-dubai-marina/").replace(/\/?$/, '/');
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

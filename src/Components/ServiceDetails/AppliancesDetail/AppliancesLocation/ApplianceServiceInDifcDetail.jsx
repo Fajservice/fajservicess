@@ -22,7 +22,7 @@ const ApplianceServiceInDifcDetail = ({ subtitle, title, reviewsbg, titleSeo, de
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in DIFC, Appliance Repair DIFC, Appliance Service DIFC, Fridge Repair DIFC, Oven Repair DIFC, Dishwasher Repair DIFC, Washing Machine Repair DIFC");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-difc/");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-difc/").replace(/\/?$/, '/');
 
 
     subtitle = "Testimonial"

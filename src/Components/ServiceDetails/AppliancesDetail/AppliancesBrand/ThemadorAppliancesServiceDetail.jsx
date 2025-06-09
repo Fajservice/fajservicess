@@ -21,7 +21,7 @@ const ThemadorAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo,
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Thermador Appliances Service, Thermador Oven Repair, Thermador Fridge Repair, Thermador Washing Machine Repair, Thermador Dishwasher Repair, Thermador Cooker Repair, Thermador Appliance Maintenance Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/thermador-appliances-service/");
+  const metaURL = String(URL || "https://www.fajservices.ae/thermador-appliances-service/").replace(/\/?$/, '/');
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

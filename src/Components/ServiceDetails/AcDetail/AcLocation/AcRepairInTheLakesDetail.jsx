@@ -26,7 +26,7 @@ const AcRepairInTheLakesDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const metadescription = String(description || " ");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-the-lakes");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-the-lakes").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

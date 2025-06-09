@@ -22,7 +22,7 @@ const ApplianceServiceInAlRaffaDetail = ({ subtitle, title, reviewsbg, titleSeo,
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Appliances Services in Al Raffa, Fridge Repair in al raffa, Washing Machine Repair in al raffa, Dishwasher Repair in al raffa, Oven Repair in al raffa, Appliance Repair in al raffa, Appliance Service in al raffa, Appliance Maintenance in al raffa, Appliance Installation in al raffa");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-raffa/");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-raffa/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

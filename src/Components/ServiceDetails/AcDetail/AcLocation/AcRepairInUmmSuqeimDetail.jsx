@@ -23,7 +23,7 @@ const AcRepairInUmmSuqeimDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
     const metadescription = String(description || "Gas Filling and AC Services in Umm Suqeim Dubai. Call an 043300002 for AC compressor fixing, motor repair and general maintenance near me.");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Umm Suqeim Dubai – Home Appliance Installation, Maintenance & Service Centre in Umm Suqeim Dubai");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-umm-suqeim");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-umm-suqeim").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

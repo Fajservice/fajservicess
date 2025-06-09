@@ -23,7 +23,7 @@ const ApplianceServiceInJebelAliFreeZoneDetail = ({ subtitle, title, reviewsbg, 
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in Jebel Ali Free Zone, Refrigerator Repair in Jebel Ali Free Zone, Dishwasher Repair in Jebel Ali Free Zone, Appliance Service in Jebel Ali Free Zone, Fridge Repair in Jebel Ali Free Zone, Home Appliance Service in Jebel Ali Free Zone");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jebel-ali-free-zone/");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jebel-ali-free-zone/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

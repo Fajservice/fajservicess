@@ -17,19 +17,21 @@ import HeaderForm from "../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../ApplianceCommons/AppliancesAppointmentCol";
 
 
-const ElectricalPlumbingServiceDetail = ({ subtitle, title, bgImg }) => {
+const ElectricalPlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
+ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/banners/electrical-service.jpg");
+  
   const metatitle = String(titleSeo || "Electrical Plumbung Services in dubai");
   const metadescription = String(description || "dubai");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "");
-  const metaURL = String(URL || "https://www.fajservices.ae/electrical-plumbing-service/");
+  const metaURL = String(URL || "https://www.fajservices.ae/electrical-plumbing-service/").replace(/\/?$/, '/');
 
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
-  bgImg = "img/testimonialbg.jpg"
+  reviewsbg = "img/testimonialbg.jpg"
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
@@ -853,7 +855,7 @@ const ElectricalPlumbingServiceDetail = ({ subtitle, title, bgImg }) => {
         <MaintenanceContract />
 
         {/* testimobial section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
+        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">

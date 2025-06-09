@@ -21,7 +21,7 @@ const KelvinatorHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, title
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Kelvinator Home Appliance Service, Kelvinator Home Appliance Repair, Kelvinator Fridge Repair, Kelvinator Washing Machine Repair, Kelvinator Cooker Repair, Kelvinator Dishwasher Repair, Kelvinator Oven Repair, Kelvinator Appliance Installation Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/kelvinator-home-appliance-installation-maintenance-repair-fix-service-in-dubai/");
+  const metaURL = String(URL || "https://www.fajservices.ae/kelvinator-home-appliance-installation-maintenance-repair-fix-service-in-dubai/").replace(/\/?$/, '/');
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

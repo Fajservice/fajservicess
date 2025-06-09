@@ -26,7 +26,7 @@ const AcRepairInKnowledgeVillageDetail = ({ subtitle, title, reviewsbg, titleSeo
     const metadescription = String(description || "FAJ 043300002 AC Services in Knowledge Village Dubai. We are experts in central & split air condition repair and maintenance nearby Dubai AC fix");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-knowledge-village");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-knowledge-village").replace(/\/?$/, '/');
 
 
     subtitle = "Testimonial"

@@ -22,7 +22,7 @@ const ApplianceServiceInJvtDetail = ({ subtitle, title, reviewsbg, titleSeo, des
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in JVT, Refrigerator Repair in JVT, Dishwasher Repair in JVT, Oven Repair in JVT, Appliance Service in JVT, Appliance Repair in Jumeirah Village Triangle, Appliance Maintenance in JVT");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jvt/");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jvt/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
