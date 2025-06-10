@@ -27,6 +27,7 @@ const AcRepairInQuozIndustrialAreaDetail = ({ subtitle, title, reviewsbg, titleS
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "AC Service in Al Quoz Industrial Area, AC Repair in Al Quoz Industrial Area, Air Conditioner Maintenance in Al Quoz Industrial Area, Aircon Repair in Al Quoz Industrial Area, AC Cleaning in Al Quoz Industrial Area, AC Installation in Al Quoz Industrial Area, AC Technician in Al Quoz Industrial Area");
   const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-quoz-industrial-area").replace(/\/?$/, '/');
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

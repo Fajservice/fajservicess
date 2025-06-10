@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInDubaiInternetCity.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
@@ -26,7 +26,7 @@ const AcRepairInDubailandMazayaQueueDetail = ({ subtitle, title, reviewsbg, titl
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "Ac Services In Dubailand Mazaya Queue, AC Repair in Dubailand Mazaya Queue, AC Maintenance in Dubailand Mazaya Queue, York central air conditioner repair, AC fix near me Dubai, AC service near me Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-dubailand-mazaya-queue/").replace(/\/?$/, '/');
-
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

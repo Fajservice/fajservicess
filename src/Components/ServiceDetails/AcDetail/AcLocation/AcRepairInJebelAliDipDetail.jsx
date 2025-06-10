@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInJebelAliFreeZone.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
@@ -26,7 +26,7 @@ const AcRepairInJebelAliDipDetail = ({ subtitle, title, reviewsbg, titleSeo, des
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jebel-ali-dip/").replace(/\/?$/, '/');
-
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -322,7 +322,7 @@ const AcRepairInJebelAliDipDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                         <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
                         <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
                             <b>We provide 2-month service warranty</b><br />
-                            and <small>3-month parts warranty</small> as standard.</p>
+                            and <small>3-month parts warranty</small>as standard.</p>
                         <h3>We specialise in air conditioning services for the following brands</h3>
                         <div className="row">
                             <div className="col-12">

@@ -27,6 +27,8 @@ const AcRepairinTheMeadowsDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Repair in The Meadows, Air Conditioning Service in The Meadows, Air Con Maintenance & AC Installation in The Meadows");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-the-meadows/").replace(/\/?$/, '/');
+    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
+
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -156,7 +158,7 @@ const AcRepairinTheMeadowsDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Ac Repair in Meadows " loading="lazy"/>
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Ac Repair in Meadows " loading="lazy" />
 
                             </div>
                         </div>
@@ -349,7 +351,7 @@ const AcRepairinTheMeadowsDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                             <div className="col-lg-4">
                                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                                    <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="benedit" loading="lazy"/>
+                                    <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="benedit" loading="lazy" />
                                 </div>
                             </div>
                             <div className="col-lg-4">
