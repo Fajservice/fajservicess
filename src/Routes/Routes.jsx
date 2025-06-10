@@ -381,7 +381,7 @@ import ApplianceServiceInDifc from "../Pages/AppliancesPage/AppliancesLocation/A
 import ApplianceServiceInJumeirahPark from "../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInJumeirahPark.jsx";
 // import { PopupProvider } from "../Components/PopupContext.jsx";
 import AcRepairInJebelAliIndustrialArea from "../Pages/AcPages/AcLocation/AcRepairInJebelAliIndustrialArea.jsx";
-export const router = createBrowserRouter([
+export const router = createBrowserRouter ([
   {
     path: "/",
     element: <Main></Main>,
@@ -450,6 +450,7 @@ export const router = createBrowserRouter([
         path: "/dubai/washing-machine-repair-near-me/",
         element: <WashingMachineRepairNearMe></WashingMachineRepairNearMe>
       },
+
       {
         path: "/appliances-repair-service/",
         element: <FreestandingHomeAppliancesRepairService></FreestandingHomeAppliancesRepairService>,
