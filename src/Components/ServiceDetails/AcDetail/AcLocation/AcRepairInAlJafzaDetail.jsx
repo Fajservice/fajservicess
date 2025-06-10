@@ -417,7 +417,7 @@ const AcRepairInAlJafzaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                     </div>
                 </section>
 
-                {/* FAQ's */}
+                {/* FAQ&apos;s */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
                     <div className="container">
                         <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>

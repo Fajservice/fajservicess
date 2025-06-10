@@ -77,36 +77,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         ]
     };
 
-    const settingBrands = {
-        dots: false,
-        infinite: true,
-        slidesToShow: 6,
-        arrows: false,
-
-        autoplay: true,
-        autoplaySpeed: 5000,
-        pauseOnHover: true,
-
-        responsive: [
-            {
-                breakpoint: 1399,
-                settings: {
-                    slidesToShow: 6,
-                }
-            },
-            {
-                breakpoint: 1199,
-                settings: {
-                    slidesToShow: 4,
-                }
-            }, {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 2,
-                }
-            }
-        ]
-    };
+    
     return (
         <>
             <HelmetProvider>
@@ -532,10 +503,14 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                 </section>
 
-                {/* FAQ's */}
+                {/* FAQ&apos;spos;s */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
                     <div className="container">
+<<<<<<< HEAD
+                        <h3 className="cs_fs_30 text-light">FAQ&apos;spos;spos;spos;spos;s</h3>
+=======
                         <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
+>>>>>>> f7cac9378b1ffdba1402e00a12e161e17c3c6314
 
                         <div className="cs_accordians_wrapper cs_style_1 p-0">
 

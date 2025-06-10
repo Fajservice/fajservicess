@@ -17,6 +17,10 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
+<<<<<<< HEAD
+
+=======
+>>>>>>> f7cac9378b1ffdba1402e00a12e161e17c3c6314
 const AcRepairInBurjKhalifaLakeDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
 
@@ -26,7 +30,7 @@ const AcRepairInBurjKhalifaLakeDetail = ({ subtitle, title, reviewsbg, titleSeo,
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Service in Burj Khalifa Lake, AC Repair in Burj Khalifa Lake, Air Conditioning Service in Burj Khalifa Lake, Air Con Fixing in Burj Khalifa Lake, Central HVAC Service in Burj Khalifa Lake, Split Chiller FCU Air Condition Repair in Burj Khalifa Lake");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-burj-khalifa-lake").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 
 
     subtitle = "Testimonial"
@@ -424,7 +428,7 @@ const AcRepairInBurjKhalifaLakeDetail = ({ subtitle, title, reviewsbg, titleSeo,
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                 </section>
 
-                {/* FAQ's */}
+                {/* FAQ&apos;s */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
                     <div className="container">
                         <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>

@@ -112,7 +112,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filt
             <h1 className="cs_fs_30">Best Gree AC Repair in Dubai – Air Conditioner Maintenance</h1>
             <p>Our company, <a href="https://www.fajservices.ae/"> F A J Technical Services L.L.C</a>, has been established since 2010. We have a dedicated facilities team with extensive experience in AC repair, maintenance services, and installation in Dubai and Sharjah for various residential and commercial air conditioning units.
               <br />
-              A Gree air conditioner is more than just a cooling device; it's essential for maintaining a comfortable indoor environment throughout the year. To ensure your unit operates at its best, regular servicing is crucial. We offer professional Gree air conditioner servicing in Dubai to keep your system running smoothly and efficiently.
+              A Gree air conditioner is more than just a cooling device; it&apos;s essential for maintaining a comfortable indoor environment throughout the year. To ensure your unit operates at its best, regular servicing is crucial. We offer professional Gree air conditioner servicing in Dubai to keep your system running smoothly and efficiently.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -421,7 +421,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filt
                       </div>
                       <h4 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h4>
                       <p className="small">
-                        Our team provides vital feedback on your Gree AC's health and any needed repairs.
+                        Our team provides vital feedback on your Gree AC&apos;s health and any needed repairs.
                       </p>
                     </div>
                   </div>
@@ -659,7 +659,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filt
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
         </section>
 
-        {/* FAQ's */}
+        {/* FAQ&apos;s */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
