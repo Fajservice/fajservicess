@@ -450,8 +450,6 @@ export const router = createBrowserRouter([
         path: "/dubai/washing-machine-repair-near-me/",
         element: <WashingMachineRepairNearMe></WashingMachineRepairNearMe>
       },
-
-
       {
         path: "/appliances-repair-service/",
         element: <FreestandingHomeAppliancesRepairService></FreestandingHomeAppliancesRepairService>,

@@ -46,7 +46,7 @@ const AboutPage = () => {
             </section>  
             <section className="section cs_py_30 bg-dark-blue">
                 <div className="container">
-                    <h3 className="text-light text-center">Dedicated to Achieving Outstanding Results Across All Industries</h3>
+                    <h2 className="text-light text-center" style={{fontSize: "30px"}}>Dedicated to Achieving Outstanding Results Across All Industries</h2>
                     <p className="text-light text-center">In a world where technology seamlessly integrates into our daily lives, F A J Technical Services L.L.C. has been at the forefront of innovation since 2010.<br /> What began as a modest operation focusing on air conditioning systems, domestic appliances, and commercial equipments installation, repair, and annual maintenance services in the UAE has transformed into a leading technical services solutions company.<br /> We serve and empower homes, businesses, and industries throughout Dubai, Sharjah, and Abu Dhabi.<br /> With a relentless pursuit of excellence, we have redefined the standards of technical services, earning the esteemed Trusted Trader endorsement in 2025.<br /> We aim to harmonise technology with everyday life, fostering our customers&apos; peace of mind, satisfaction, and happiness.<br /> Discover how our expert teams, cutting-edge solutions, and customer-centric approach can revolutionise your space and enhance your experience.</p>
                 </div>
             </section>

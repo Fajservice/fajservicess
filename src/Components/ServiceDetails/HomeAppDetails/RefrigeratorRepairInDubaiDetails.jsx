@@ -24,7 +24,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Refrigerator repair, Fridge repair, Refrigerator service, Freezer repair, Dubai refrigerator repair, Fridge service Dubai, Appliance repair Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/refrigerator-repair-service/").replace(/\/?$/, '/');
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/fridgerepair.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/fridgerepair.avif");
 
 
   subtitle = "Testimonial"

@@ -20,7 +20,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Kitchen Equipment amc, kitchen equipment maintenance contract, commercial kitchen equipment service, kitchen appliance repair, kitchen equipment repair Dubai, kitchen equipment AMC Dubai, kitchen equipment AMC Abu Dhabi, kitchen equipment AMC Sharjah, gas stove maintenance Dubai, oven maintenance Dubai, cooker maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/commercial-kitchen-equipment-amc/").replace(/\/?$/, '/');
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/kitchen-equip-amc-service.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/kitchen-equip-amc-service.avif");
 
 
 
@@ -356,7 +356,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/kitchen-e
                       <div className="icon-img-block border-0">
                         <img src={`${import.meta.env.BASE_URL}img/icons/24x7b.jpg`} alt="24x7" className="rounded shadow" loading="lazy" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Routine Service</h4>
+                      <h3 className="text-uppercase mb-2 cs_fs_18">Routine Service</h3>
                       <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
                     </div>
                   </div>
@@ -367,7 +367,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/kitchen-e
                       <div className="icon-img-block border-0">
                         <img src={`${import.meta.env.BASE_URL}img/icons/call.jpg`} alt="Cooling Efficiency" className="rounded shadow" loading="lazy" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">On-call services</h4>
+                      <h3 className="text-uppercase mb-2 cs_fs_18">On-call services</h3>
                       <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
 
                     </div>
@@ -381,7 +381,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/kitchen-e
                       <div className="icon-img-block border-0">
                         <img src={`${import.meta.env.BASE_URL}img/icons/gearicon.jpg`} alt="Cooling Efficiency" className="rounded shadow" loading="lazy" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Genuine Spare Parts</h4>
+                      <h3 className="text-uppercase mb-2 cs_fs_18">Genuine Spare Parts</h3>
                       <p className="small">Knowing your commercial kitchen equipment is in top condition gives you confidence and removes the stress of unexpected failures.</p>
                     </div>
                   </div>
@@ -392,7 +392,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/kitchen-e
                       <div className="icon-img-block border-0">
                         <img src={`${import.meta.env.BASE_URL}img/icons/wellstar.jpg`} alt="Cooling Efficiency" className="rounded shadow" loading="lazy" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Maintenance Costs</h4>
+                      <h3 className="text-uppercase mb-2 cs_fs_18">Maintenance Costs</h3>
                       <p className="small">High-quality equipment may be more expensive initially, but it typically breaks down less frequently and requires fewer repairs.</p>
                     </div>
                   </div>
@@ -403,7 +403,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/kitchen-e
                       <div className="icon-img-block border-0">
                         <img src={`${import.meta.env.BASE_URL}img/icons/trained-b.jpg`} alt="trained icon" className="rounded shadow" loading="lazy" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Increased Efficiency</h4>
+                      <h3 className="text-uppercase mb-2 cs_fs_18">Increased Efficiency</h3>
                       <p className="small">Commercial kitchen equipment can improve the efficiency of daily tasks in your kitchen. · Lower Maintenance Costs · Superior Quality.</p>
                     </div>
                   </div>
@@ -414,7 +414,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/kitchen-e
                       <div className="icon-img-block border-0">
                         <img src={`${import.meta.env.BASE_URL}img/icons/wellicon.jpg`} alt="Cooling Efficiency" className="rounded shadow" loading="lazy" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Cost Efficiency</h4>
+                      <h3 className="text-uppercase mb-2 cs_fs_18">Cost Efficiency</h3>
                       <p className="small">FAJ a Save hand maintenance. Here’s a cost comparison: a commercial kitchen helps you avoid high startup equipment costs.</p>
                     </div>
                   </div>
@@ -425,7 +425,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/kitchen-e
                       <div className="icon-img-block border-0">
                         <img src={`${import.meta.env.BASE_URL}img/icons/annual-contract-b.jpg`} alt="annual contract icon" className="rounded shadow" loading="lazy" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Report and Updates</h4>
+                      <h3 className="text-uppercase mb-2 cs_fs_18">Report and Updates</h3>
                       <p className="small">FAJ is releasing a report on the condition of commercial kitchen equipment, outlining actions to enhance efficiency and safety.</p>
                     </div>
                   </div>
@@ -436,7 +436,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/kitchen-e
                       <div className="icon-img-block border-0">
                         <img src={`${import.meta.env.BASE_URL}img/icons/installation-b.jpg`} alt="installation icon" className="rounded shadow" loading="lazy" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Experts and Trained</h4>
+                      <h3 className="text-uppercase mb-2 cs_fs_18">Experts and Trained</h3>
                       <p className="small">FAJ technicians to provide customers with effective maintenance, repair for commercial kitchen equipment to ensure satisfaction.</p>
                     </div>
                   </div>
@@ -562,7 +562,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/kitchen-e
             </div>
           </div>
         </section>
-        
+
         {/* We are specialise in Appliances services for the following brands */}
         <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">
@@ -634,7 +634,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/kitchen-e
 
               </div>
             </div>
-          </div>           
+          </div>
         </section>
 
         {/* FAQ's */}
