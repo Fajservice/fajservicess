@@ -22,7 +22,7 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   const metadescription = String(description || "Get emergency Cooline AC repair in Dubai by FAJ Co, We are experts in HVAC, central air conditioning maintenance service near you Dubai UAE");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Cooline AC Repair, Cooline Air Conditioner Service, Cooline AC Maintenance Dubai, Cooline AC Fix Dubai, Cooline Air Condition Repair Dubai, Cooline Air Condition Maintenance Dubai, Cooline AC Service Dubai, Cooline Air Conditioner Repair Dubai, Cooline Air Conditioner Maintenance Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/cooline-ac-repair-in-dubai-cooline-ac-maintenance-in-dubai-cooline-ac-fix-in-dubai-cooline-ac-service-in-dubai-cooline-air-condition-repair-in-dubai-cooline-air-condition-maintenance-in-dubai-cooline").replace(/\/?$/, '/').replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/cooline-ac-repair-in-dubai-cooline-ac-maintenance-in-dubai-cooline-ac-fix-in-dubai-cooline-ac-service-in-dubai-cooline-air-condition-repair-in-dubai-cooline-air-condition-maintenance-in-dubai-cooline").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/dist/img/https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 
   subtitle = "Testimonial"

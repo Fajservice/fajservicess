@@ -29,7 +29,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descriptio
   const metadescription = String(description || "If your air conditioner not cooling! It is time to contact FAJ to get fix split or central AC Repair Dubai. Book 043300002 emergency ac repair");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Ac Repair, Ac Repair In Dubai, Ac Repair Service");
-  const metaURL = String(URL || "https://www.fajservices.ae/ac-repair-dubai/").replace(/\/?$/, '/').replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/ac-repair-dubai/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/dist/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
 
   subtitle = "Testimonial"

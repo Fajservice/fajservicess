@@ -22,7 +22,7 @@ const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSe
   const metadescription = String(description || "De'longhi coffee machine repair Dubai. Trusted De Longhi coffee machine & espresso maintenance & services near you. Fix descaling & cleaning near me");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Delonghi Coffee Machine Repair, Delonghi Coffee Machine Service, Delonghi Coffee Machine Maintenance");
-  const metaURL = String(URL || "https://www.fajservices.ae/delonghi-coffee-machine-repair/").replace(/\/?$/, '/').replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/delonghi-coffee-machine-repair/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/dist/img/delonghi-coffee-machine-repair.avif");
 
   subtitle = "Testimonial"
