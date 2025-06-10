@@ -75,7 +75,7 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
 
         <section className="section cs_py_30">
           <div className="container">
-            <h3>Our Clients</h3>
+            <h2>Our Clients</h2>
             <div className="portfolio-clnts-dtls">
               <div className="row">
                 <div className="col p-0">
@@ -479,7 +479,7 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
         </section>
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3>Our Projects</h3>
+            <h2>Our Projects</h2>
             <div className="portfolio-projects-cols">
               <div className="row">
                 <div className="col-md-6">
@@ -489,7 +489,7 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
                         <img src="/dist/img/portfolio-projects/AirForce.jpeg" />
                       </div>
                       <div className="col-lg-9 col-8">
-                        <h5 className="portfolio-pjt-info-box-title">USA AIR FORCE DHAFRAH AIR BASE – ABU DHABI</h5>
+                        <h3 className="portfolio-pjt-info-box-title">USA AIR FORCE DHAFRAH AIR BASE – ABU DHABI</h3>
                         <p className="portfolio-pjt-info-box-para">Air Conditioning System, Refrigeration System and Electrical Work, Commercial Laundry Machines &amp; Dryers Services. <br /><strong>(Since: 2013-2018)</strong></p>
                       </div>
                     </div>
@@ -502,7 +502,7 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
                         <img src="/dist/img/portfolio-projects/AirForce.jpeg" />
                       </div>
                       <div className="col-lg-9 col-8">
-                        <h5 className="portfolio-pjt-info-box-title">USA AIR FORCE DHAFRAH AIR BASE – ABU DHABI</h5>
+                        <h3 className="portfolio-pjt-info-box-title">USA AIR FORCE DHAFRAH AIR BASE – ABU DHABI</h3>
                         <p className="portfolio-pjt-info-box-para">Air Conditioning System, Refrigeration System and Electrical Work, Commercial Laundry Machines &amp; Dryers Services. <br /><strong>(Since: 2013-2018)</strong></p>
                       </div>
                     </div>
@@ -515,7 +515,7 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
                         <img src="/dist/img/portfolio-projects/nex.png" />
                       </div>
                       <div className="col-lg-9 col-8">
-                        <h5 className="portfolio-pjt-info-box-title">USA NAVY BY NEX EXCHANGE – DUBAI</h5>
+                        <h3 className="portfolio-pjt-info-box-title">USA NAVY BY NEX EXCHANGE – DUBAI</h3>
                         <p className="portfolio-pjt-info-box-para">ebel Ali Free Zone – Dubai Air Conditioning System, Refrigeration System and Electrical Work, Commercial Laundry Machines & Dryers Services.<strong>(Since: 2016-2021)</strong></p>
                       </div>
                     </div>
@@ -528,7 +528,7 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
                         <img src="/dist/img/portfolio-projects/china.jpg" />
                       </div>
                       <div className="col-lg-9 col-8">
-                        <h5 className="portfolio-pjt-info-box-title">CHINA PETROLEUM BUREAU DUBAI</h5>
+                        <h3 className="portfolio-pjt-info-box-title">CHINA PETROLEUM BUREAU DUBAI</h3>
                         <p className="portfolio-pjt-info-box-para">Air Conditioning, Electrical & Plumbing.</p>
                       </div>
                     </div>
@@ -541,7 +541,7 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
                         <img src="/dist/img/portfolio-projects/canadian.jpg" />
                       </div>
                       <div className="col-lg-9 col-8">
-                        <h5 className="portfolio-pjt-info-box-title">CANADIAN UNIVERSITY</h5>
+                        <h3 className="portfolio-pjt-info-box-title">CANADIAN UNIVERSITY</h3>
                         <p className="portfolio-pjt-info-box-para">308th Road, Behind Shangri-La Sheikh Zayed Road – Dubai LG VRF Air Conditioning & FAHU Services. <br /><strong>(Since: 2016-2017)</strong></p>
                       </div>
                     </div>
@@ -554,7 +554,7 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
                         <img src="/dist/img/portfolio-projects/ibis.jpg" />
                       </div>
                       <div className="col-lg-9 col-8">
-                        <h5 className="portfolio-pjt-info-box-title">HOTEL IBIS WORLD TRADE CENTRE DUBAI</h5>
+                        <h3 className="portfolio-pjt-info-box-title">HOTEL IBIS WORLD TRADE CENTRE DUBAI</h3>
                         <p className="portfolio-pjt-info-box-para">Next to Dubai Convention Center – Dubai <br />Air Conditioning Units Services.</p>
                       </div>
                     </div>
@@ -567,7 +567,7 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
                         <img src="/dist/img/portfolio-projects/jazeera.jpg" />
                       </div>
                       <div className="col-lg-9 col-8">
-                        <h5 className="portfolio-pjt-info-box-title">UNIVERSITY OF JAZEERA</h5>
+                        <h3 className="portfolio-pjt-info-box-title">UNIVERSITY OF JAZEERA</h3>
                         <p className="portfolio-pjt-info-box-para">Al Twar 3, near Dubai International Airport – Dubai SKM Brand Package Air Conditioning Units, Electrical & Plumbing Work Services.</p>
                       </div>
                     </div>
@@ -580,7 +580,7 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
                         <img src="/dist/img/portfolio-projects/parkside.png" />
                       </div>
                       <div className="col-lg-9 col-8">
-                        <h5 className="portfolio-pjt-info-box-title">PARKSIDE SUITES HOTEL APARTMENTS LLC</h5>
+                        <h3 className="portfolio-pjt-info-box-title">PARKSIDE SUITES HOTEL APARTMENTS LLC</h3>
                         <p className="portfolio-pjt-info-box-para">Street No. 1, Zen 3, Building No. 12 Discovery Garden, Dubai Built-in and Freestanding Kitchen Appliances (Refrigerator, Freezer, Washer, Dryer Cooking Unit) Services.</p>
                       </div>
                     </div>
@@ -593,7 +593,7 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
                         <img src="/dist/img/portfolio-projects/middlesex.jpg" />
                       </div>
                       <div className="col-lg-9 col-8">
-                        <h5 className="portfolio-pjt-info-box-title">Middlesex University</h5>
+                        <h3 className="portfolio-pjt-info-box-title">Middlesex University</h3>
                         <p className="portfolio-pjt-info-box-para">Dubai <br />accommodation appliances services <br /><strong>2017</strong></p>
                       </div>
                     </div>
@@ -606,7 +606,7 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
                         <img src="/dist/img/portfolio-projects/crowneplaza.jpg" />
                       </div>
                       <div className="col-lg-9 col-8">
-                        <h5 className="portfolio-pjt-info-box-title">Crowne Plaza Hotels</h5>
+                        <h3 className="portfolio-pjt-info-box-title">Crowne Plaza Hotels</h3>
                         <p className="portfolio-pjt-info-box-para">Dubai <br />Appliances and Laundry Equipments Services <br /><strong>(Since: 2016-Present)</strong></p>
                       </div>
                     </div>
@@ -619,7 +619,7 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
                         <img src="/dist/img/portfolio-projects/repton.png" />
                       </div>
                       <div className="col-lg-9 col-8">
-                        <h5 className="portfolio-pjt-info-box-title">REPTON SCHOOL</h5>
+                        <h3 className="portfolio-pjt-info-box-title">REPTON SCHOOL</h3>
                         <p className="portfolio-pjt-info-box-para">Nad Al Sheba 3 – Dubai <br />Refrigeration Systems & Electrical Work. <br /><strong>(Since: 2013-2014)</strong></p>
                       </div>
                     </div>
@@ -632,7 +632,7 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
                         <img src="/dist/img/portfolio-projects/dukes.jpg" />
                       </div>
                       <div className="col-lg-9 col-8">
-                        <h5 className="portfolio-pjt-info-box-title">Dukes Hotels</h5>
+                        <h3 className="portfolio-pjt-info-box-title">Dukes Hotels</h3>
                         <p className="portfolio-pjt-info-box-para">Dubai <br />Appliances and Laundry Equipments Service <br /><strong>(Since: 2019-Present)</strong></p>
                       </div>
                     </div>
@@ -645,7 +645,7 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
                         <img src="/dist/img/portfolio-projects/fawaz.jpg" />
                       </div>
                       <div className="col-lg-9 col-8">
-                        <h5 className="portfolio-pjt-info-box-title">Fawaz Trading and Engineering Services.CO LLC</h5>
+                        <h3 className="portfolio-pjt-info-box-title">Fawaz Trading and Engineering Services.CO LLC</h3>
                         <p className="portfolio-pjt-info-box-para">Services Partner at Dubai Police (4 Stations & Central Jail), Commercial Laundry Equipment Services. <strong>(2021)</strong></p>
                       </div>
                     </div>
@@ -658,7 +658,7 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
                         <img src="/dist/img/portfolio-projects/movenpick.jpg" />
                       </div>
                       <div className="col-lg-9 col-8">
-                        <h5 className="portfolio-pjt-info-box-title">Movenpick Hotels</h5>
+                        <h3 className="portfolio-pjt-info-box-title">Movenpick Hotels</h3>
                         <p className="portfolio-pjt-info-box-para">Dubai <br />Appliances and Laundry Equipments Services <br /><strong>(Since: 2021-Present)</strong></p>
                       </div>
                     </div>
@@ -671,7 +671,7 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
                         <img src="/dist/img/portfolio-projects/baumatic.jpg" />
                       </div>
                       <div className="col-lg-9 col-8">
-                        <h5 className="portfolio-pjt-info-box-title">BAUMATIC MIDDLE EAST</h5>
+                        <h3 className="portfolio-pjt-info-box-title">BAUMATIC MIDDLE EAST</h3>
                         <p className="portfolio-pjt-info-box-para">F A J Technical Services L.L.C, Authorized Baumatic Kitchen Appliances Service Partner & Service Center in UAE. <br /><strong>(Since: 2016-2019)</strong></p>
                       </div>
                     </div>
@@ -684,7 +684,7 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
                         <img src="/dist/img/portfolio-projects/eminence.jpg" />
                       </div>
                       <div className="col-lg-9 col-8">
-                        <h5 className="portfolio-pjt-info-box-title">Eminence International Contracting Co LLC</h5>
+                        <h3 className="portfolio-pjt-info-box-title">Eminence International Contracting Co LLC</h3>
                         <p className="portfolio-pjt-info-box-para">Jumeirah Golf Estates-Dubai Variable Refrigerant Volume (VRV) & Variable Refrigerant Flow (VRF) Air Conditioning & FAHU Services. Brands: Daikin, Mitsubishi, LG & Trane.</p>
                       </div>
                     </div>
@@ -697,7 +697,7 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
                         <img src="/dist/img/portfolio-projects/transguard.jpeg" />
                       </div>
                       <div className="col-lg-9 col-8">
-                        <h5 className="portfolio-pjt-info-box-title">TRANSGUARD GROUP LLC</h5>
+                        <h3 className="portfolio-pjt-info-box-title">TRANSGUARD GROUP LLC</h3>
                         <p className="portfolio-pjt-info-box-para">TG Accommodations – Dubai <br />Air Conditioning Units Services. <br /><strong>(Since: 2015-2016)</strong></p>
                       </div>
                     </div>
@@ -710,7 +710,7 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
                         <img src="/dist/img/portfolio-projects/alstom.jpg" />
                       </div>
                       <div className="col-lg-9 col-8">
-                        <h5 className="portfolio-pjt-info-box-title">ALSTOM</h5>
+                        <h3 className="portfolio-pjt-info-box-title">ALSTOM</h3>
                         <p className="portfolio-pjt-info-box-para">Dubai tram, Air Conditioning. <br /><strong>(Since: 2016-2018)</strong></p>
                       </div>
                     </div>
@@ -723,7 +723,7 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
                         <img src="/dist/img/portfolio-projects/bertoni.jpg" />
                       </div>
                       <div className="col-lg-9 col-8">
-                        <h5 className="portfolio-pjt-info-box-title">BERTONI LLC</h5>
+                        <h3 className="portfolio-pjt-info-box-title">BERTONI LLC</h3>
                         <p className="portfolio-pjt-info-box-para">Rd B I, DIP 2 – Dubai <br />Air Conditioning System, Refrigeration System, Kitchen Appliances, MEP Services. <br /><strong>(Since: 2015-2018)</strong></p>
                       </div>
                     </div>
@@ -736,7 +736,7 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
                         <img src="/dist/img/portfolio-projects/dubai-properties.jpg" />
                       </div>
                       <div className="col-lg-9 col-8">
-                        <h5 className="portfolio-pjt-info-box-title">Dubai Properties</h5>
+                        <h3 className="portfolio-pjt-info-box-title">Dubai Properties</h3>
                         <p className="portfolio-pjt-info-box-para">Shorooq Mirdif Villas Dubai. <br />Ariston integrated Appliances Services. <br /><strong>(Since: 2016-2018)</strong></p>
                       </div>
                     </div>
@@ -749,7 +749,7 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
                         <img src="/dist/img/portfolio-projects/nandos.jpg" />
                       </div>
                       <div className="col-lg-9 col-8">
-                        <h5 className="portfolio-pjt-info-box-title">NANDO’S</h5>
+                        <h3 className="portfolio-pjt-info-box-title">NANDO’S</h3>
                         <p className="portfolio-pjt-info-box-para">Staff Accommodation Dubai & Sharjah <br />MEP Services, Air Conditioning, and Refrigeration <br /><strong>(Since: 2013-2015)</strong></p>
                       </div>
                     </div>
@@ -762,7 +762,7 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
                         <img src="/dist/img/portfolio-projects/tsm.jpeg" />
                       </div>
                       <div className="col-lg-9 col-8">
-                        <h5 className="portfolio-pjt-info-box-title">TALAL SUPERMARKET</h5>
+                        <h3 className="portfolio-pjt-info-box-title">TALAL SUPERMARKET</h3>
                         <p className="portfolio-pjt-info-box-para">l0C St, Al Karama – Dubai <br />Air Conditioning System & Refrigeration Systems Services <strong>(Since: 2015-2016)</strong></p>
                       </div>
                     </div>
@@ -775,7 +775,7 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
                         <img src="/dist/img/portfolio-projects/eskinita.jpg" />
                       </div>
                       <div className="col-lg-9 col-8">
-                        <h5 className="portfolio-pjt-info-box-title">ESKINITA RESTAURANT AT WELCOME HOTEL</h5>
+                        <h3 className="portfolio-pjt-info-box-title">ESKINITA RESTAURANT AT WELCOME HOTEL</h3>
                         <p className="portfolio-pjt-info-box-para">144 Abu Bakker Al Siddique Rd – Dubai Commercial Kitchen Appliances, Refrigeration System, Electrical & Plumbing Services.</p>
                       </div>
                     </div>
@@ -788,7 +788,7 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
                         <img src="/dist/img/portfolio-projects/partyzone.jpeg" />
                       </div>
                       <div className="col-lg-9 col-8">
-                        <h5 className="portfolio-pjt-info-box-title">Party Zone LLC</h5>
+                        <h3 className="portfolio-pjt-info-box-title">Party Zone LLC</h3>
                         <p className="portfolio-pjt-info-box-para">Dubai, RAK, Abu Dhabi (8 Branches) <br />Air Conditioning System & MEP Services. <br /><strong>(Since: 2015-Present)</strong></p>
                       </div>
                     </div>
@@ -801,7 +801,7 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
                         <img src="/dist/img/portfolio-projects/uniworld.png" />
                       </div>
                       <div className="col-lg-9 col-8">
-                        <h5 className="portfolio-pjt-info-box-title">Uniworld Medical FZE</h5>
+                        <h3 className="portfolio-pjt-info-box-title">Uniworld Medical FZE</h3>
                         <p className="portfolio-pjt-info-box-para">Dubai, Abu Dhabi, UN Air Base <br />Laundry Equipment Services, Air Conditioning, Refrigeration System. <br /><strong>As a Service Partner (Since: 2013-2017)</strong></p>
                       </div>
                     </div>
@@ -814,7 +814,7 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
                         <img src="/dist/img/portfolio-projects/beirut.jpg" />
                       </div>
                       <div className="col-lg-9 col-8">
-                        <h5 className="portfolio-pjt-info-box-title">BEIRUT RESTAURANT & GRILLS</h5>
+                        <h3 className="portfolio-pjt-info-box-title">BEIRUT RESTAURANT & GRILLS</h3>
                         <p className="portfolio-pjt-info-box-para">Rigga Road, Deira, 2nd December St, Al Satwa – Dubai <br />Air Conditioning System, Refrigeration System & Cooking Units Services.</p>
                       </div>
                     </div>
@@ -827,7 +827,7 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
                         <img src="/dist/img/portfolio-projects/nmc.png" />
                       </div>
                       <div className="col-lg-9 col-8">
-                        <h5 className="portfolio-pjt-info-box-title">NMC Hospital</h5>
+                        <h3 className="portfolio-pjt-info-box-title">NMC Hospital</h3>
                         <p className="portfolio-pjt-info-box-para">Dubai <br />Laboratory Refrigeration System <br /><strong>(Since: 2017-Present)</strong></p>
                       </div>
                     </div>

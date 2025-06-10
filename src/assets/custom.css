@@ -1050,7 +1050,7 @@ max-height: 117px !important;
 .portfolio-projects-cols .portfolio-projects-infobox img{
   width: 100px;
 }
-.portfolio-projects-cols .portfolio-projects-infobox h5.portfolio-pjt-info-box-title {
+.portfolio-projects-cols .portfolio-projects-infobox h3.portfolio-pjt-info-box-title {
   font-size: 19px;
   line-height: 1.5rem;
   font-family: Roboto;

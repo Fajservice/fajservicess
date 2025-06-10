@@ -5,18 +5,14 @@ import { Link, parsePath } from "react-router-dom";
 import data from '../../../Data/CommercialLaundryEquipData/FAQs/CommercialWashingMachineRepairFaqs.json';
 import {Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
-import CallNowButton from '../../Buttons/CallNowButton';
-import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
 import testimonial_data from '../../../Data/CommercialLaundryEquipData/Testmonials/CommercialWashingMachineRepairTestimonial.json';
-import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
-import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 
 // import { Link } from "react-router-dom";
 

@@ -9,7 +9,7 @@ const Footer1 = () => {
             <div className="cs_footer_row">
               <div className="cs_footer_col">
                 <div className="cs_footer_widget">
-                  <h4 className="cs_footer_widget_title cs_fs_24 cs_semibold cs_white_color cs_mb_10">About</h4>
+                  <h4 className="cs_footer_widget_title cs_fs_24 cs_white_color cs_mb_10">About</h4>
                   <div className="cs_footer_widget_seperator">
                     <span className="cs_accent_bg"></span>
                     <span className="cs_white_bg"></span>
@@ -36,7 +36,7 @@ const Footer1 = () => {
               </div>
               <div className="cs_footer_col">
                 <div className="cs_footer_widget">
-                  <h4 className="cs_footer_widget_title cs_fs_24 cs_semibold cs_white_color cs_mb_10">Explore</h4>
+                  <h4 className="cs_footer_widget_title cs_fs_24 cs_white_color cs_mb_10">Explore</h4>
                   <div className="cs_footer_widget_seperator">
                     <span className="cs_accent_bg"></span>
                     <span className="cs_white_bg"></span>
@@ -63,7 +63,7 @@ const Footer1 = () => {
               </div>
               <div className="cs_footer_col">
                 <div className="cs_footer_widget">
-                  <h4 className="cs_footer_widget_title cs_fs_24 cs_semibold cs_white_color cs_mb_10">Contact Us</h4>
+                  <h4 className="cs_footer_widget_title cs_fs_24 cs_white_color cs_mb_10">Contact Us</h4>
                   <div className="cs_footer_widget_seperator">
                     <span className="cs_accent_bg"></span>
                     <span className="cs_white_bg"></span>
@@ -88,7 +88,7 @@ const Footer1 = () => {
               </div>
               <div className="cs_footer_col">
                 <div className="cs_footer_widget">
-                  <h4 className="cs_footer_widget_title cs_fs_24 cs_semibold cs_white_color cs_mb_10">Working Hours</h4>
+                  <h4 className="cs_footer_widget_title cs_fs_24 cs_white_color cs_mb_10">Working Hours</h4>
                   <div className="cs_footer_widget_seperator">
                     <span className="cs_accent_bg"></span>
                     <span className="cs_white_bg"></span>
