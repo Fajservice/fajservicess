@@ -381,7 +381,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
         <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
-              <h2 className="cs_fs_30 mb-0">Benefits Of Regular Refrigeration Maintenance in Dubai  </h2>
+              <h2 className="cs_fs_30 mb-0">f Benefits Of Regular Refrigeration Maintenance in Dubai  </h2>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
                   <div className="">
@@ -470,6 +470,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
             </div>
           </div>
         </section>
+
 
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
@@ -575,43 +576,43 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
           <div className="container">
             <h3>We specialise in refrigeration AMC and PPM for the following types</h3>
             <div className="row">
-              <div className="col-12">
+              <div className="col-12"> 
 
-                <p className="mb-0"> <strong>  Walk-in Refrigeration Maintenance Contract: </strong> Walk-in refrigeration systems, such as cold storage rooms and freezers, are vital for numerous businesses and industries globally. However, without regular maintenance and preventative measures, these systems can experience failures. Contact us for professional services. </p>
+                  <p className="mb-0"> <strong>  Walk-in Refrigeration Maintenance Contract: </strong> Walk-in refrigeration systems, such as cold storage rooms and freezers, are vital for numerous businesses and industries globally. However, without regular maintenance and preventative measures, these systems can experience failures. Contact us for professional services. </p>
 
-                <p className="mb-0"> <strong>  Cold Room AMC Service: </strong> Maintenance and refurbishment work should always be conducted by trained professionals. Many businesses may struggle to find specialised staff who can ensure that their refrigeration systems and cold rooms are repaired efficiently and safely by <a href="https://www.facebook.com/FAJTechnicalServicesLLC"><b>FAJ Experts</b></a>. </p>
+                  <p className="mb-0"> <strong>  Cold Room AMC Service: </strong> Maintenance and refurbishment work should always be conducted by trained professionals. Many businesses may struggle to find specialised staff who can ensure that their refrigeration systems and cold rooms are repaired efficiently and safely by <a href="https://www.facebook.com/FAJTechnicalServicesLLC"><b>FAJ Experts</b></a>. </p>
 
-                <p className="mb-0"> <strong>  Commercial Refrigeration Maintenance Services: </strong> Efficient refrigeration is essential in any kitchen. It helps keep your supplies fresh, maintains a pleasant environment, and ensures customer safety. By properly maintaining and repairing your refrigerator, you can extend its lifespan and potentially save money in the long run. This article outlines the key aspects of maintaining a commercial refrigerator. </p>
+                  <p className="mb-0"> <strong>  Commercial Refrigeration Maintenance Services: </strong> Efficient refrigeration is essential in any kitchen. It helps keep your supplies fresh, maintains a pleasant environment, and ensures customer safety. By properly maintaining and repairing your refrigerator, you can extend its lifespan and potentially save money in the long run. This article outlines the key aspects of maintaining a commercial refrigerator. </p>
 
-                <p className="mb-0"> <strong>  Biomedical Equipment Maintenance Services and Repair: </strong> At FAJ, we understand that repairing and maintaining biomedical equipment demands specialised expertise and knowledge. That’s why we offer a comprehensive range of services for the repair and maintenance of biomedical chillers, freezers, refrigerators, and fridges.  We ensure that your medical equipment is installed correctly, maintained regularly, and repaired promptly when needed. </p>
+                  <p className="mb-0"> <strong>  Biomedical Equipment Maintenance Services and Repair: </strong> At FAJ, we understand that repairing and maintaining biomedical equipment demands specialised expertise and knowledge. That’s why we offer a comprehensive range of services for the repair and maintenance of biomedical chillers, freezers, refrigerators, and fridges.  We ensure that your medical equipment is installed correctly, maintained regularly, and repaired promptly when needed. </p>
 
-                <p className="mb-0"> <strong>  Freezer and Chiller PPM Service Plan Urgency: </strong> We provide emergency call-out services and scheduled maintenance contracts for a diverse range of businesses. Our clients include restaurants, supermarkets, cafes, hotels, flower shops, pharmacies, hospitals, colleges, universities, catering services, and the food and beverage industry. Additionally, our expertise extends to the electricity production, chemical and petrochemical sectors, pharmaceutical industry, cold storage and logistics, energy industry, and bakery equipment. </p>
+                  <p className="mb-0"> <strong>  Freezer and Chiller PPM Service Plan Urgency: </strong> We provide emergency call-out services and scheduled maintenance contracts for a diverse range of businesses. Our clients include restaurants, supermarkets, cafes, hotels, flower shops, pharmacies, hospitals, colleges, universities, catering services, and the food and beverage industry. Additionally, our expertise extends to the electricity production, chemical and petrochemical sectors, pharmaceutical industry, cold storage and logistics, energy industry, and bakery equipment. </p>
 
-                <p className="mb-0"> <strong>  Display Refrigerators AMC Contract and Service: </strong> If you need a maintenance contract, service, or repair for your display chiller and display freezer, contact FAJ for same-day service to keep your business running smoothly. </p>
+                  <p className="mb-0"> <strong>  Display Refrigerators AMC Contract and Service: </strong> If you need a maintenance contract, service, or repair for your display chiller and display freezer, contact FAJ for same-day service to keep your business running smoothly. </p>
 
-                <p className="mb-0"> <strong>  Undercounter Refrigerators Service and Repair: </strong>  If you require repairs or service for your under-counter refrigerator, chiller, or freezer, reach out to FAJ for reliable maintenance services in Dubai. These appliances are frequently found in offices and break rooms, where they are used to store packaged snacks, cooking ingredients, and chill soft beverages.</p>
+                  <p className="mb-0"> <strong>  Undercounter Refrigerators Service and Repair: </strong>  If you require repairs or service for your under-counter refrigerator, chiller, or freezer, reach out to FAJ for reliable maintenance services in Dubai. These appliances are frequently found in offices and break rooms, where they are used to store packaged snacks, cooking ingredients, and chill soft beverages.</p>
 
-                <p className="mb-0"> <strong> Restaurant Commercial Fridge Annual Contract: </strong> We offer quick and cost-effective repair services for commercial fridges and freezers in your restaurant or café located in Dubai and Sharjah.</p>
+                  <p className="mb-0"> <strong> Restaurant Commercial Fridge Annual Contract: </strong> We offer quick and cost-effective repair services for commercial fridges and freezers in your restaurant or café located in Dubai and Sharjah.</p>
 
-                <p className="mb-0"> <strong> Commercial Chiller Maintenance & Repair: </strong> Ensure your commercial refrigeration systems operate smoothly and reliably with our expert PPM services contract. We provide regular maintenance plan and urgent repair services for critical refrigeration equipment, guaranteeing optimal condition, minimal downtime, and asset protection.</p>
+                  <p className="mb-0"> <strong> Commercial Chiller Maintenance & Repair: </strong> Ensure your commercial refrigeration systems operate smoothly and reliably with our expert PPM services contract. We provide regular maintenance plan and urgent repair services for critical refrigeration equipment, guaranteeing optimal condition, minimal downtime, and asset protection.</p>
 
-                <p className="mb-0"> <strong> Van Refrigeration Repair and Refrigerated Truck Maintenance: </strong> FAJ offers dependable maintenance services for van refrigeration and refrigerated trucks in Dubai. Our professionals specialize in van refrigeration and refrigerated truck services.</p>
+                  <p className="mb-0"> <strong> Van Refrigeration Repair and Refrigerated Truck Maintenance: </strong> FAJ offers dependable maintenance services for van refrigeration and refrigerated trucks in Dubai. Our professionals specialize in van refrigeration and refrigerated truck services.</p>
 
-                <p className="mb-0"> <strong> Blast Freezer Annual Maintenance and Service Contract: </strong> Located in Dubai, FAJ is your top choice for annual blast freezer services. We specialize in blast refrigeration systems, providing a comprehensive range of preventive maintenance services, from repairs to routine maintenance.</p>
+                  <p className="mb-0"> <strong> Blast Freezer Annual Maintenance and Service Contract: </strong> Located in Dubai, FAJ is your top choice for annual blast freezer services. We specialize in blast refrigeration systems, providing a comprehensive range of preventive maintenance services, from repairs to routine maintenance.</p>
 
-                <p className="mb-0"> <strong>  Blast Chiller AMC Service and Repair: </strong> The planned preventive maintenance service for blast chillers guarantees your peace of mind. FAJ prioritizes efficiency and reliability.</p>
+                  <p className="mb-0"> <strong>  Blast Chiller AMC Service and Repair: </strong> The planned preventive maintenance service for blast chillers guarantees your peace of mind. FAJ prioritizes efficiency and reliability.</p>
 
-                <p className="mb-0"> <strong> Vegetable and Fruit Chiller Maintenance Service Contract: </strong> Rely on our expert team to quickly resolve any issues with your fruit and vegetable chiller under the annual maintenance contract, restoring its functionality.</p>
+                  <p className="mb-0"> <strong> Vegetable and Fruit Chiller Maintenance Service Contract: </strong> Rely on our expert team to quickly resolve any issues with your fruit and vegetable chiller under the annual maintenance contract, restoring its functionality.</p>
 
-                <p className="mb-0"> <strong>  Beverage Cooler AMC Services: </strong> With extensive knowledge of beverage cooler maintenance contracts and services, we provide effective repairs to ensure your unit operates smoothly.</p>
+                  <p className="mb-0"> <strong>  Beverage Cooler AMC Services: </strong> With extensive knowledge of beverage cooler maintenance contracts and services, we provide effective repairs to ensure your unit operates smoothly.</p>
 
-                <p className="mb-0"> <strong>  Free-Standing Freezer and Display Freezer Service and Repair: </strong> Our experts can accurately diagnose and repair any issues with your freezer and display freezer through annual maintenance contracts that offer different packages.</p>
+                  <p className="mb-0"> <strong>  Free-Standing Freezer and Display Freezer Service and Repair: </strong> Our experts can accurately diagnose and repair any issues with your freezer and display freezer through annual maintenance contracts that offer different packages.</p>
 
-                <p className="mb-0"> <strong>  Restaurant Fridge PPM Service, Refrigerator AMC Service: </strong> Is your restaurant fridge or refrigerator not functioning? There's no need to endure uncomfortable temperatures or suffer losses due to faulty equipment. With our annual maintenance contract service in Dubai and Sharjah, FAJ will have your restaurant fridge or refrigerator up and running in no time!</p>
+                  <p className="mb-0"> <strong>  Restaurant Fridge PPM Service, Refrigerator AMC Service: </strong> Is your restaurant fridge or refrigerator not functioning? There's no need to endure uncomfortable temperatures or suffer losses due to faulty equipment. With our annual maintenance contract service in Dubai and Sharjah, FAJ will have your restaurant fridge or refrigerator up and running in no time!</p>
 
-                <p className="mb-0"> <strong>  Sushi Refrigerator and Chiller Service and Repair: </strong> Maintenance and repair services for sushi refrigerators and chillers in Dubai require specialized expertise, as only professionals can effectively address issues with sushi fridges. We provide a hassle-free repair service for sushi refrigerators.</p>
+                  <p className="mb-0"> <strong>  Sushi Refrigerator and Chiller Service and Repair: </strong> Maintenance and repair services for sushi refrigerators and chillers in Dubai require specialized expertise, as only professionals can effectively address issues with sushi fridges. We provide a hassle-free repair service for sushi refrigerators.</p>
 
-                <p className="mb-0"> <strong>  Catering Freezer and Chiller Repairs and Service: </strong> Are you seeking relief from the intense heat? Learn how to keep your catering freezer and chiller operating smoothly in Dubai! Our expert services ensure that your catering refrigerator and fridge remain cool and efficient, providing you with comfort and peace of mind.</p>
+                  <p className="mb-0"> <strong>  Catering Freezer and Chiller Repairs and Service: </strong> Are you seeking relief from the intense heat? Learn how to keep your catering freezer and chiller operating smoothly in Dubai! Our expert services ensure that your catering refrigerator and fridge remain cool and efficient, providing you with comfort and peace of mind.</p>
 
               </div>
 
