@@ -41,13 +41,13 @@ const Form1 = () => {
     data.append('page_url', window.location.href);
 
     try {
-      // Use no-cors mode and don't try to read response
+      // Use no-cors mode and Don&apos;t try to read response
       await fetch('https://formsubmit.co/info@fajservices.ae', {
         method: 'POST',
         body: data,
         mode: 'no-cors'
       }).then(() => {
-        // Don't try to read response with no-cors
+        // Don&apos;t try to read response with no-cors
         console.log('Direct form submitted successfully');
         
         setStatus({
@@ -143,7 +143,7 @@ const Form1 = () => {
         body: data,
         mode: 'no-cors'
       }).then(() => {
-        // Don't try to read response with no-cors
+        // Don&apos;t try to read response with no-cors
         console.log('Form submitted successfully with reCAPTCHA');
 
         setStatus({

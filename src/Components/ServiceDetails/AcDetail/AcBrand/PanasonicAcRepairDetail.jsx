@@ -134,7 +134,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filt
                 <h3 className="cs_fs_24 mb-1">Panasonic Air Conditioner Maintenance and Servicing</h3>
 
                 <p className="mb-2">
-                  In Dubai, expert <a href="https://www.google.com/search?q=faj+technical+llc+gmb&rlz=1C1GCEU_en-GBPK1161PK1162&oq=&gs_lcrp=EgZjaHJvbWUqCQgAECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIPCAYQLhgnGK8BGMcBGOoCMgkIBxAjGCcY6gLSAQsxMjYxMDkzajBqN6gCCLACAfEFIWFyrlbuS08&sourceid=chrome&ie=UTF-8#lpc=lpc&prid=8797444432921166439">Panasonic AC repair services</a> are readily available. It's essential to choose a qualified technician who specializes in Panasonic systems.
+                  In Dubai, expert <a href="https://www.google.com/search?q=faj+technical+llc+gmb&rlz=1C1GCEU_en-GBPK1161PK1162&oq=&gs_lcrp=EgZjaHJvbWUqCQgAECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIPCAYQLhgnGK8BGMcBGOoCMgkIBxAjGCcY6gLSAQsxMjYxMDkzajBqN6gCCLACAfEFIWFyrlbuS08&sourceid=chrome&ie=UTF-8#lpc=lpc&prid=8797444432921166439">Panasonic AC repair services</a> are readily available. it&apos;s essential to choose a qualified technician who specializes in Panasonic systems.
                   Our skilled team focuses on AC servicing and maintenance throughout Dubai and Sharjah. At FAJ, we are dedicated to delivering reliable solutions that enhance your indoor comfort year-round while ensuring your system operates at peak efficiency.
                 </p>
 

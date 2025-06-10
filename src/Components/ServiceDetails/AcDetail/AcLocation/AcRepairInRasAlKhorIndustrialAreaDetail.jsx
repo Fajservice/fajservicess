@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInDip.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
@@ -25,7 +25,7 @@ const AcRepairInRasAlKhorIndustrialAreaDetail = ({ subtitle, title, reviewsbg, t
     const metadescription = String(description || "AC Services in Ras Al Khor Industrial Area - Call Experts in Ceiling & Split Air Conditioner Maintenance & Repair near me Dubai AC Fixing Dubai");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Services in Ras Al Khor Industrial Area, AC Repair in Ras Al Khor Industrial Area, AC Maintenance in Ras Al Khor Industrial Area, Air Conditioner Repair in Ras Al Khor Industrial Area, Air Conditioning Service in Ras Al Khor Industrial Area, Split AC Repair in Ras Al Khor Industrial Area, Ceiling AC Repair in Ras Al Khor Industrial Area, Dubai AC Fixing, Dubai AC Service, Dubai AC Repair");
-    const metaURL = String(URL || "https://www.fajservices.ae/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-ras-al-khor-industrial-area/").replace(/\/?$/, '/');
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"

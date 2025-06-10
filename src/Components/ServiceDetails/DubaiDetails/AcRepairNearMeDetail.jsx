@@ -169,7 +169,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
                     <div className="row gx-md-5">
                       <div className="col-md-6">
                         <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }} >AC Repair and AC Servicing Near Me</h2>
-                        <p className="mb-1">When you need air conditioning repair near you, it's important to select a skilled technician.<br/>
+                        <p className="mb-1">When you need air conditioning repair near you, it&apos;s important to select a skilled technician.<br/>
 Our dedicated team specialises in AC servicing and maintenance throughout Dubai and Sharjah. At FAJ, we are committed to providing reliable solutions that improve your indoor comfort year-round while ensuring your system operates efficiently.
 </p>
                         <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>EXPRESS & EMERGENCY AC REPAIR SERVICE</h2>

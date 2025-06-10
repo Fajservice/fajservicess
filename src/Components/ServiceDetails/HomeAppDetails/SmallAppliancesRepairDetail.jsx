@@ -149,7 +149,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/small-mix
           <div className="container">
             <h1 className="cs_fs_30">Small Home Appliances Service Center in Dubai</h1>
             <p>
-              Do you need small appliance repair? If you're looking for a reliable and trusted service, look no further than F A J Technical Services L.L.C, established in 2010.
+              Do you need small appliance repair? If you&apos;re looking for a reliable and trusted service, look no further than F A J Technical Services L.L.C, established in 2010.
               We understand the inconvenience caused by a malfunctioning appliance, which is why we offer fast and professional small home appliance repair services in your area.
               <br />Our skilled technicians quickly diagnose and repair electrical appliances, getting them back to optimal performance in no time.
             </p>
@@ -205,7 +205,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/small-mix
               </div>
               <div className="col-md-6">
                 <p>
-                  Here's a more detailed look at why maintenance is important:
+                  Here&apos;s a more detailed look at why maintenance is important:
                 </p>
                 <ul className="mb-0">
                   <li> <strong>  Safety: </strong> Faulty appliances can lead to serious safety risks like fires, gas leaks, and water damage. Regular maintenance can help identify and resolve these issues early. </li>

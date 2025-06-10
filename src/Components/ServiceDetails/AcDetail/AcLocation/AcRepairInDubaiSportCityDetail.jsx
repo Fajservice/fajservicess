@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInDip.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
-
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
@@ -10,7 +9,6 @@ import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMainten
 import QuickGuide from "../../../QuickGuide/QuickGuide";
 import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
-
 import Slider from "react-slick";
 import testimonial from '../../../../Data/AcData/AcTestimonial/AcServiceTestimonials.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
@@ -25,7 +23,7 @@ const AcRepairInDubaiSportCityDetail = ({ subtitle, title, reviewsbg, titleSeo, 
     const metadescription = String(description || "We offer best appliance services in Dubai Sports City. Get fridge repair near me. Book 043300002 for oven, dishwasher, washing machine maintenance");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "ac repair in dubai sport city, ac service in dubai sport city, ac maintenance in dubai sport city, ac technician in dubai sport city, ac cleaning in dubai sport city, ac installation in dubai sport city, ac gas refilling in dubai sport city, ac repair near me, ac service near me, ac maintenance near me");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-sports-city/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-dubai-sport-city/").replace(/\/?$/, '/');
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
     subtitle = "Testimonial"
     title = "What our clients say About Us"

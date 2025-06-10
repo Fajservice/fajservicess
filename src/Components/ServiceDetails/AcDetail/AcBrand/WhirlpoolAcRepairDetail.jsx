@@ -131,7 +131,7 @@ const WhirpoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
                 <h3 className="cs_fs_24 mb-1">Whirlpool Air Conditioner Maintenance and Service</h3>
 
                 <p className="mb-2">
-                  If you're in Dubai and need Whirlpool <a href="https://www.fajservices.ae/ac-repair-dubai/">air conditioner repair</a>, FAJ is here for you!
+                  If you&apos;re in Dubai and need Whirlpool <a href="https://www.fajservices.ae/ac-repair-dubai/">air conditioner repair</a>, FAJ is here for you!
                   <br /> Our expert team ensures your AC systems run smoothly in Dubai and Sharjah, providing reliable solutions for optimal indoor comfort year-round. Enjoy a cool, refreshing environment with our help!
 
                 </p>
@@ -178,7 +178,7 @@ const WhirpoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
               <div className="col-md-6">
                 <ul className="mb-0">
 
-                  <li> <strong>  Extreme Weather: </strong> As summer approaches, we can expect temperatures to soar above 40°C (104°F), creating discomfort. It's essential to ensure that your Whirlpool air conditioning systems are primed for optimal performance. </li>
+                  <li> <strong>  Extreme Weather: </strong> As summer approaches, we can expect temperatures to soar above 40°C (104°F), creating discomfort. it&apos;s essential to ensure that your Whirlpool air conditioning systems are primed for optimal performance. </li>
                   <li> <strong>  Energy Efficiency: </strong> A well-maintained Whirlpool air conditioner operates efficiently, resulting in significant energy savings and lower DEWA electricity costs. </li>
                   <li> <strong>  Longevity of Equipment: </strong> Keeping up with the Whirlpool AC maintenance is really important for getting the best performance and efficiency. It helps lower repair costs and can save money for both homes and businesses. </li>
                   <li> <strong>  Improved Air Quality: </strong> Routine Whirlpool air conditioner cleaning service prevents dust and allergens from getting in, resulting in improved air quality. </li>

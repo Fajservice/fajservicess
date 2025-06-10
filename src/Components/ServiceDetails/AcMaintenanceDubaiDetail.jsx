@@ -137,7 +137,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
               <div className="col-md-6">
                 <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }}>AC Maintenance for the Best Cooling</h2>
                 <p className="mb-1">Regular AC maintenance in Dubai is essential to ensure that your air conditioner unit continues to function properly. Over time, filters and coils can become dirty and clogged, leading to a decline in cooling performance.</p>
-                <p className="mb-1">This can also result in issues such as water leakage from the indoor unit and unpleasant odors. So, what is the solution? If you're searching for a reliable AC maintenance company in Dubai to take care of your home or office aircon needs, look no further.</p>
+                <p className="mb-1">This can also result in issues such as water leakage from the indoor unit and unpleasant odors. So, what is the solution? If you&apos;re searching for a reliable AC maintenance company in Dubai to take care of your home or office aircon needs, look no further.</p>
                  <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>Signs You Need An AC Service</h2>
                   <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                   <div className="row">

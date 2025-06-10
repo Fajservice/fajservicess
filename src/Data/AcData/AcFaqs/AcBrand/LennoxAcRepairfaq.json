@@ -21,7 +21,7 @@
   },
   {
     "title": "Is it OK to run AC all night?",
-    "desc": "Running your AC all day and night is generally not recommended. Continuous operation can lead to wear and reduced efficiency. It's better to allow rest periods for your system."
+    "desc": "Running your AC all day and night is generally not recommended. Continuous operation can lead to wear and reduced efficiency. it&apos;s better to allow rest periods for your system."
   },
   {
     "title": "How long can an inverter AC run continuously?",
@@ -41,6 +41,6 @@
   },
   {
     "title": "What is E3 error on Lennox?",
-    "desc": "E3 signifies a problem with the indoor unit’s drain pump. If you're also seeing an E2 code, it points to an outdoor temperature sensor issue that may require replacement."
+    "desc": "E3 signifies a problem with the indoor unit’s drain pump. If you&apos;re also seeing an E2 code, it points to an outdoor temperature sensor issue that may require replacement."
   }
 ]

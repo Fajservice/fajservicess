@@ -141,7 +141,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/cigarcabn
                 </h2>
                 <p><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 365 to 530 depending on unit, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p> <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
                   <b>We provide 2-month service warranty</b><br />
-                  and <small>3-month parts warranty</small> as standard.</p>
+                  and <small>3-month parts warranty</small>as standard.</p>
               </div>
 
               <div className="col-md-6 ">
@@ -150,8 +150,8 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/cigarcabn
               </div>
             </div>
             <div className="appointment-col border-small-top pt-3">
-              <p className="appointment-col">The <a href="https://www.google.com/maps/dir//Warehouse+No+-+S-02+Gate+35+Street+18b+-+Al+Quoz+-+Al+Quoz+Industrial+Area+4+-+Dubai+-+United+Arab+Emirates/@25.1105958,55.1452595,22158m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x3e5f699a600aceeb:0xa6121b25d557aa94!2m2!1d55.227661!2d25.1106186?entry=ttu&g_ep=EgoyMDI1MDQyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank"
-              >FAJ workshop</a> is conveniently located near both Al Khail Road and Sheikh Zayed Road. When you drop off your appliance at the workshop, you will receive a <strong>discount</strong> on the technical inspection fee and other services.
+              <p className="appointment-col">The<a href="https://www.google.com/maps/dir//Warehouse+No+-+S-02+Gate+35+Street+18b+-+Al+Quoz+-+Al+Quoz+Industrial+Area+4+-+Dubai+-+United+Arab+Emirates/@25.1105958,55.1452595,22158m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x3e5f699a600aceeb:0xa6121b25d557aa94!2m2!1d55.227661!2d25.1106186?entry=ttu&g_ep=EgoyMDI1MDQyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank"
+              >FAJ workshop</a> is conveniently located near both Al Khail Road and Sheikh Zayed Road. When you drop off your appliance at the workshop, you will receive a <strong>discount</strong> on the technical inspection fee and other services.
               </p>
               <div id="get-quote" className="mt-3">
                 <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -200,7 +200,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/cigarcabn
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Ignoring Humidity Levels</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">After seasoning your humidor, it's important to maintain the humidity level. Many new owners mistakenly "set and forget", leading to dried-out or mouldy cigars.</p>
+                    <p className="p-2 mb-0">After seasoning your humidor, it&apos;s important to maintain the humidity level. Many new owners mistakenly &quot;set and forget&quot;, leading to dried-out or mouldy cigars.</p>
                   </div>
                 </div>
               </div>
@@ -212,7 +212,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/cigarcabn
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      While it's tempting to fill your humidor completely with cigars, it's best to avoid overcrowding, as it can cause various issues.
+                      While it&apos;s tempting to fill your humidor completely with cigars, it&apos;s best to avoid overcrowding, as it can cause various issues.
                     </p>
                   </div>
                 </div>
@@ -225,7 +225,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/cigarcabn
                     </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">The location of your humidor is crucial for maintaining cigar quality. Many store it in unsuitable places, harming the cigars' taste.
+                    <p className="p-2 mb-0">The location of your humidor is crucial for maintaining cigar quality. Many store it in unsuitable places, harming the cigars&apos; taste.
                     </p>
                   </div>
                 </div>
@@ -260,7 +260,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/cigarcabn
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">OHumidor Door Open Too Often</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">It's tempting to show off or admire your cigars, but frequent opening of your humidor can lead to problems.</p>
+                    <p className="p-2 mb-0">it&apos;s tempting to show off or admire your cigars, but frequent opening of your humidor can lead to problems.</p>
                   </div>
                 </div>
               </div>
@@ -510,7 +510,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/cigarcabn
               <li><strong>Hemingway Premium Electric Cigar Humidor Repair and Service</strong>: Rely on our expert team to promptly resolve any issues with your Hemingway Premium Electric Cigar Humidor and restore its functionality.</li>
               <li><strong>Electric Cigar Humidor Service and Repair:</strong> With extensive knowledge of electric cigar humidors, we provide effective repairs to keep your unit running smoothly.</li>
               <li><strong>Vevor Electric Cigar Humidor Service and Repair</strong>: No matter the problem with your Vevor Electric Cigar Humidor, our experts can diagnose and fix it accurately.</li>
-              <li><strong>Humidor Cigar Cabinet Refrigerator and Maintenance</strong>: Is your Humidor Cigar Cabinet Refrigerator not working properly? Don't suffer through uncomfortable temperatures or risk losses due to faulty equipment. FAJ can restore your Humidor Cigar Cabinet Refrigerator quickly!</li>
+              <li><strong>Humidor Cigar Cabinet Refrigerator and Maintenance</strong>: Is your Humidor Cigar Cabinet Refrigerator not working properly? Don&apos;t suffer through uncomfortable temperatures or risk losses due to faulty equipment. FAJ can restore your Humidor Cigar Cabinet Refrigerator quickly!</li>
             </ul>
           </div>
         </section>

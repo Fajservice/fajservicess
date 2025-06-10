@@ -188,7 +188,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descriptio
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h2 className="cs_fs_30">5 Reasons Your AC Might Need Repairs This Summer </h2>
-            <p>Air conditioning issues are quite common during the summer months. If you're experiencing AC issues this season, it's important to understand what might be happening with your system. Identifying the problem early can prevent it from worsening and ensure your place remains comfortable during the heat. </p>
+            <p>Air conditioning issues are quite common during the summer months. If you&apos;re experiencing AC issues this season, it&apos;s important to understand what might be happening with your system. Identifying the problem early can prevent it from worsening and ensure your place remains comfortable during the heat. </p>
 
 
 

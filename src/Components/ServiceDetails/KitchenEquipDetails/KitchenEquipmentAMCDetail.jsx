@@ -236,7 +236,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Improper Storage</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">To prevent food contamination, it's essential to store food at the correct temperatures, label and date all items, and use appropriate storage containers.</p>
+                    <p className="p-2 mb-0">To prevent food contamination, it&apos;s essential to store food at the correct temperatures, label and date all items, and use appropriate storage containers.</p>
                   </div>
                 </div>
               </div>
@@ -537,7 +537,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
           <div className="container">
             <h2 className="cs_fs_30">What is included in an appliance maintenance Contract?</h2>
             <p className="mb-0">
-              When considering the maintenance of appliances and commercial kitchen equipment, it's important to understand what an appliance contract should include. While many kitchen equipment contractor packages offer these services, the specifics can change.
+              When considering the maintenance of appliances and commercial kitchen equipment, it&apos;s important to understand what an appliance contract should include. While many kitchen equipment contractor packages offer these services, the specifics can change.
             </p>
 
             <div className="row align-items-center">

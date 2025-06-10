@@ -269,7 +269,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/commercia
                     <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Electricity Issues</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">If your unit frequently trips the circuit breaker, there may be an issue with the compressor, motor, or wiring. It's essential to address this safety risk promptly.</p>
+                    <p className="p-2 mb-0">If your unit frequently trips the circuit breaker, there may be an issue with the compressor, motor, or wiring. it&apos;s essential to address this safety risk promptly.</p>
                   </div>
                 </div>
               </div>
@@ -548,7 +548,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/commercia
                 <p className="mb-0"><strong>Vegetable and Fruit Chiller Maintenance Services:</strong> Count on our expert team to swiftly fix any issues with your fruit and vegetable chiller and refrigerator, restoring its functionality.</p>
                 <p className="mb-0"><strong>Beverage Cooler Repair and Services:</strong> With extensive knowledge of beverage cooler maintenance and services, we offer effective repairs to ensure your unit operates smoothly.</p>
                 <p className="mb-0"><strong>Free Standing Freezer and Display Freezer Service and Repair</strong>: No matter the problem with your Freezer and Display Freezer maintenance, our experts can accurately diagnose and repair it.</p>
-                <p className="mb-0"><strong>Restaurant Fridge Repairs Refrigerator Service</strong>: Is your restaurant fridge or refrigerator not functioning? There's no need to endure unpleasant temperatures and stuffy cooling or suffer losses due to malfunctioning equipment &ndash; FAJ will get your restaurant fridge or refrigerator back up and running in no time!</p>
+                <p className="mb-0"><strong>Restaurant Fridge Repairs Refrigerator Service</strong>: Is your restaurant fridge or refrigerator not functioning? THere&apos;s no need to endure unpleasant temperatures and stuffy cooling or suffer losses due to malfunctioning equipment &ndash; FAJ will get your restaurant fridge or refrigerator back up and running in no time!</p>
                 <p className="mb-0"><strong>Sushi Refrigerator and Chiller Service and Repair:</strong> Maintenance and repair services for sushi refrigerators and chillers in Dubai require specialised expertise, as only professionals can effectively address issues with sushi fridges. We offer a hassle-free sushi refrigerator repair service.<br /><strong>Catering Freezer and Chiller Repairs and Service: </strong>Are you looking for relief from the scorching heat? Discover how to keep your catering freezer and chiller running smoothly in Dubai! Our expert services ensure that your catering refrigerator and fridge stay cool and efficient, providing you with comfort and peace of mind.</p>
 
               </div>

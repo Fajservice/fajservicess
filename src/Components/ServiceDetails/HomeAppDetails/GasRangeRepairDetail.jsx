@@ -1,7 +1,7 @@
 
 
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link} from "react-router-dom";
 import data from '../../../Data/HomeAppData/FAQs/GasRangeRepairServiceFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
@@ -287,7 +287,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/gas-cooke
                     <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Ignition Problem</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">A common issue is when the burner won't ignite despite the igniter being activated. Other gas cooker problems also arise in Dubai.</p>
+                    <p className="p-2 mb-0">A common issue is when the burner won&apos;t ignite despite the igniter being activated. Other gas cooker problems also arise in Dubai.</p>
                   </div>
                 </div>
               </div>
@@ -604,7 +604,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/gas-cooke
                 <p className="mb-0">
                   <Link to="/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
                     <b> Teka Cooker Repair</b>
-                  </Link>: If you're searching for the best Teka cooking range repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka cookers, refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
+                  </Link>: If you&apos;re searching for the best Teka cooking range repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka cookers, refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
 
                 </p>
 
