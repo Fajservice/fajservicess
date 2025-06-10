@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInAlJafza.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
@@ -24,10 +24,9 @@ const AcRepairInDubaiHealthcareCityDetail = ({ subtitle, title, reviewsbg, title
     const metatitle = String(titleSeo || "Best AC Services In Dubai Healthcare City - A/C Repairing #1");
     const metadescription = String(description || "If you are finding AC Services in Dubai Healthcare City. Contact us 043300002 for Air Conditioner maintenance, repairs near me Dubai A/C fix");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || "ac service in dubai healthcare city, ac repair in dubai healthcare city, ac maintenance in dubai healthcare city, air conditioning service in dubai healthcare city, air conditioner repair in dubai healthcare city, air conditioning maintenance in dubai healthcare city");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-dubai-healthcare-city/").replace(/\/?$/, '/');
-
-
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     reviewsbg = "img/testimonialbg.jpg"
@@ -89,17 +88,24 @@ const AcRepairInDubaiHealthcareCityDetail = ({ subtitle, title, reviewsbg, title
             <HelmetProvider>
                 <Helmet>
                     <title>{metatitle}</title>
-                    <meta name="description" content={metadescription}></meta>
+                    <meta name="description" content={metadescription} />
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
                     <meta name="robots" content="index, follow" />
 
-                    <link rel="canonical" href={metaURL} />
                     <meta property="og:type" content="website" />
                     <meta property="og:locale" content="en_US" />
                     <meta property="og:title" content={metatitle} />
                     <meta property="og:description" content={metadescription} />
                     <meta property="og:url" content={metaURL} />
+                    <meta property="og:image" content={metaImage} />
+
+                    {/* Twitter Card */}
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:title" content={metatitle} />
+                    <meta name="twitter:description" content={metadescription} />
+                    <meta name="twitter:image" content={metaImage} />
+                    <meta name="twitter:url" content={metaURL} />
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />
@@ -411,7 +417,7 @@ const AcRepairInDubaiHealthcareCityDetail = ({ subtitle, title, reviewsbg, title
                     </div>
                 </section>
 
-                {/* FAQ's */}
+                {/* FAQ&apos;s */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
                     <div className="container">
                         <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>

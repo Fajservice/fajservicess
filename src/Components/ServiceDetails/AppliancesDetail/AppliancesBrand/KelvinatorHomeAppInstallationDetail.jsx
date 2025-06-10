@@ -137,8 +137,8 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
                 <p className="mb-2">
                   If you need Kelvinator Appliance Repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
-                  <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
-                  <br /> We're nearby and can get your appliances fixed quickly and efficiently.
+                  <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that&apos;s not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
+                  <br /> We&apos;re nearby and can get your appliances fixed quickly and efficiently.
                 </p>
 
                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service
@@ -515,7 +515,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
         </section>
 
-        {/* FAQ's */}
+        {/* FAQ&apos;spos;s */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>

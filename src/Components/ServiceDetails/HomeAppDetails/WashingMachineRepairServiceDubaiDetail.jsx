@@ -172,7 +172,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/washing-m
 
                 <p className="mb-2">
                   We recognise how important your washing machine is to your daily routine.
-                  That's why we provide dependable washing machine repair and maintenance services in Dubai and Sharjah.
+                  that&apos;s why we provide dependable washing machine repair and maintenance services in Dubai and Sharjah.
                   <br />With our high-quality washer and dryer repair services and expert support, we are committed to ensuring that your premium washing machine operates smoothly for years to come.
                 </p>
 

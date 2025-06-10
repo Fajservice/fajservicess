@@ -24,9 +24,9 @@ const AcRepairInRasAlKhorIndustrialAreaDetail = ({ subtitle, title, reviewsbg, t
     const metatitle = String(titleSeo || "AC Services In  Ras Al Khor Industrial Area - AC Repair #1");
     const metadescription = String(description || "AC Services in Ras Al Khor Industrial Area - Call Experts in Ceiling & Split Air Conditioner Maintenance & Repair near me Dubai AC Fixing Dubai");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || "AC Services in Ras Al Khor Industrial Area, AC Repair in Ras Al Khor Industrial Area, AC Maintenance in Ras Al Khor Industrial Area, Air Conditioner Repair in Ras Al Khor Industrial Area, Air Conditioning Service in Ras Al Khor Industrial Area, Split AC Repair in Ras Al Khor Industrial Area, Ceiling AC Repair in Ras Al Khor Industrial Area, Dubai AC Fixing, Dubai AC Service, Dubai AC Repair");
     const metaURL = String(URL || "https://www.fajservices.ae/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/").replace(/\/?$/, '/');
-
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -89,17 +89,24 @@ const AcRepairInRasAlKhorIndustrialAreaDetail = ({ subtitle, title, reviewsbg, t
             <HelmetProvider>
                 <Helmet>
                     <title>{metatitle}</title>
-                    <meta name="description" content={metadescription}></meta>
+                    <meta name="description" content={metadescription} />
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
                     <meta name="robots" content="index, follow" />
 
-                    <link rel="canonical" href={metaURL} />
                     <meta property="og:type" content="website" />
                     <meta property="og:locale" content="en_US" />
                     <meta property="og:title" content={metatitle} />
                     <meta property="og:description" content={metadescription} />
                     <meta property="og:url" content={metaURL} />
+                    <meta property="og:image" content={metaImage} />
+
+                    {/* Twitter Card */}
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:title" content={metatitle} />
+                    <meta name="twitter:description" content={metadescription} />
+                    <meta name="twitter:image" content={metaImage} />
+                    <meta name="twitter:url" content={metaURL} />
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />
@@ -415,7 +422,7 @@ const AcRepairInRasAlKhorIndustrialAreaDetail = ({ subtitle, title, reviewsbg, t
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                 </section>
 
-                {/* FAQ's */}
+                {/* FAQ&apos;s */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
                     <div className="container">
                         <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>

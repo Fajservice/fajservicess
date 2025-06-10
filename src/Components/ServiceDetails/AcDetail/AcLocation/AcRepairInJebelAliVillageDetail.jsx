@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInDip.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
@@ -24,9 +24,9 @@ const AcRepairInJebelAliVillageDetail = ({ subtitle, title, reviewsbg, titleSeo,
     const metatitle = String(titleSeo || "AC Services In Jebel Ali Village Dubai - Air Conditioner Fix");
     const metadescription = String(description || "Call now 043300002 for AC Services in Jebel Ali Village Dubai. FAJ here to help you package unit, ceiling air conditioner repair & maintenance near.");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || "ac services in jebel ali village, ac repair in jebel ali village, ac maintenance in jebel ali village, air conditioner service in jebel ali village, air conditioner repair in jebel ali village, air conditioner maintenance in jebel ali village, ac technician in jebel ali village, ac cleaning in jebel ali village, ac installation in jebel ali village, ac gas refilling in jebel ali village");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jebel-ali-village/").replace(/\/?$/, '/');
-
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     reviewsbg = "img/testimonialbg.jpg"
@@ -88,17 +88,24 @@ const AcRepairInJebelAliVillageDetail = ({ subtitle, title, reviewsbg, titleSeo,
             <HelmetProvider>
                 <Helmet>
                     <title>{metatitle}</title>
-                    <meta name="description" content={metadescription}></meta>
+                    <meta name="description" content={metadescription} />
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
                     <meta name="robots" content="index, follow" />
 
-                    <link rel="canonical" href={metaURL} />
                     <meta property="og:type" content="website" />
                     <meta property="og:locale" content="en_US" />
                     <meta property="og:title" content={metatitle} />
                     <meta property="og:description" content={metadescription} />
                     <meta property="og:url" content={metaURL} />
+                    <meta property="og:image" content={metaImage} />
+
+                    {/* Twitter Card */}
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:title" content={metatitle} />
+                    <meta name="twitter:description" content={metadescription} />
+                    <meta name="twitter:image" content={metaImage} />
+                    <meta name="twitter:url" content={metaURL} />
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />
@@ -415,7 +422,7 @@ const AcRepairInJebelAliVillageDetail = ({ subtitle, title, reviewsbg, titleSeo,
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                 </section>
 
-                {/* FAQ's */}
+                {/* FAQ&apos;s */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
                     <div className="container">
                         <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>

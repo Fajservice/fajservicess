@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInAlBadaa.json';
 import { HelmetProvider, Helmet } from "react-helmet-async";
 
@@ -24,9 +24,16 @@ const AcRepairInAlBadaaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
     const metatitle = String(titleSeo || "Best AC Service Al Badaa - Air Conditioning Repair Near Me");
     const metadescription = String(description || "Call an 043300002 AC Services in Al Badaa Dubai. FAJ here help in split & central AC (Air Conditioner) cleaning service near me Dubai Fixing aircon");
     const metaAuthor = String(Author || "Faj Technical Services");
+<<<<<<< HEAD
+    const metaKeyword = String(Keyword || "AC services Al Rashidiya, AC maintenance Dubai, inverter AC repair, split AC service, central AC maintenance, Dubai AC technician");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-badaa");
+    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+
+=======
     const metaKeyword = String(Keyword || "AC Service Al Badaa, AC Repair Al Badaa, Air Conditioning Service Al Badaa, Air Conditioner Repair Al Badaa, Split AC Service Al Badaa, Central AC Service Al Badaa, Aircon Cleaning Al Badaa, Air Conditioner Maintenance Al Badaa");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-badaa").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+>>>>>>> f7cac9378b1ffdba1402e00a12e161e17c3c6314
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     reviewsbg = "img/testimonialbg.jpg"
@@ -87,19 +94,28 @@ const AcRepairInAlBadaaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
         <>
             <HelmetProvider>
                 <Helmet>
-                <title>{metatitle}</title>
-          <meta name="description" content={metadescription} />
-          <meta name="keywords" content={metaKeyword} />
-          <meta name="author" content={metaAuthor} />
-          <meta name="robots" content="index, follow" />
+                    <title>{metatitle}</title>
+                    <meta name="description" content={metadescription} />
+                    <meta name="keywords" content={metaKeyword} />
+                    <meta name="author" content={metaAuthor} />
+                    <meta name="robots" content="index, follow" />
 
-          <meta property="og:type" content="website" />
-          <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content={metatitle} />
-          <meta property="og:description" content={metadescription} />
-          <meta property="og:url" content={metaURL} />
-          <meta property="og:image" content={metaImage} />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:title" content={metatitle} />
+                    <meta property="og:description" content={metadescription} />
+                    <meta property="og:url" content={metaURL} />
+                    <meta property="og:image" content={metaImage} />
 
+<<<<<<< HEAD
+                    {/* Twitter Card */}
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:title" content={metatitle} />
+                    <meta name="twitter:description" content={metadescription} />
+                    <meta name="twitter:image" content={metaImage} />
+                    <meta name="twitter:url" content={metaURL} />
+                </Helmet>
+=======
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:title" content={metatitle} />
@@ -107,6 +123,7 @@ const AcRepairInAlBadaaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
           <meta name="twitter:image" content={metaImage} />
           <meta name="twitter:url" content={metaURL} />
           </Helmet>
+>>>>>>> f7cac9378b1ffdba1402e00a12e161e17c3c6314
             </HelmetProvider>
             <HeaderForm />
             <div className="cs_service_details">
@@ -116,7 +133,11 @@ const AcRepairInAlBadaaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                         <h1 className="cs_fs_30">AC Service in Al Badaa</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
+<<<<<<< HEAD
+                            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
+=======
                         <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
+>>>>>>> f7cac9378b1ffdba1402e00a12e161e17c3c6314
 
                         <div id="get-quote" className=" mt-3">
                             <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -171,9 +192,9 @@ const AcRepairInAlBadaaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                         </div>
                     </div>
                 </section>
-   
-           {/* Why is AC Maintenance Service Important in Dubai? */}
-           <section className="section cs_py_30 bg-light-gray">
+
+                {/* Why is AC Maintenance Service Important in Dubai? */}
+                <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
                         <h3 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h3>
                         <p>
@@ -365,10 +386,10 @@ const AcRepairInAlBadaaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                     </div>
                 </section>
 
-                
-        {/* Maintenance Contract */}
-        <MaintenanceContract />
-{/* testimobial section */}
+
+                {/* Maintenance Contract */}
+                <MaintenanceContract />
+                {/* testimobial section */}
                 <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                     <div className="container">
@@ -422,7 +443,7 @@ const AcRepairInAlBadaaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                 </section>
 
-                {/* FAQ's */}
+                {/* FAQ&apos;s */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
                     <div className="container">
                         <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>

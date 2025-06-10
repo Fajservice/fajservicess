@@ -24,9 +24,9 @@ const AcRepairInMudonDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
     const metatitle = String(titleSeo || "AC Services In Mudon - Air Conditioner Repairing -Aircon Fix");
     const metadescription = String(description || "Call 043300002 AC Services in Mudon Dubai. We are experts in central, hvac air conditioning repairing and maintenance near me Dubai AC fix");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || "ac services in mudon, ac repair in mudon, ac maintenance in mudon, air conditioning services in mudon, air conditioner repair in mudon, aircon fix in mudon, ac service near me mudon, ac technician in mudon, ac cleaning service in mudon");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-mudon/").replace(/\/?$/, '/');
-
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     reviewsbg = "img/testimonialbg.jpg"
@@ -88,17 +88,24 @@ const AcRepairInMudonDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
             <HelmetProvider>
                 <Helmet>
                     <title>{metatitle}</title>
-                    <meta name="description" content={metadescription}></meta>
+                    <meta name="description" content={metadescription} />
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
                     <meta name="robots" content="index, follow" />
 
-                    <link rel="canonical" href={metaURL} />
                     <meta property="og:type" content="website" />
                     <meta property="og:locale" content="en_US" />
                     <meta property="og:title" content={metatitle} />
                     <meta property="og:description" content={metadescription} />
                     <meta property="og:url" content={metaURL} />
+                    <meta property="og:image" content={metaImage} />
+
+                    {/* Twitter Card */}
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:title" content={metatitle} />
+                    <meta name="twitter:description" content={metadescription} />
+                    <meta name="twitter:image" content={metaImage} />
+                    <meta name="twitter:url" content={metaURL} />
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />
@@ -411,7 +418,7 @@ const AcRepairInMudonDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
                     </div>
                 </section>
 
-                {/* FAQ's */}
+                {/* FAQ&apos;s */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
                     <div className="container">
                         <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>

@@ -25,9 +25,9 @@ const AcRepairInKnowledgeVillageDetail = ({ subtitle, title, reviewsbg, titleSeo
     const metatitle = String(titleSeo || "AC Services In Knowledge Village - Air Conditioning Repairs");
     const metadescription = String(description || "FAJ 043300002 AC Services in Knowledge Village Dubai. We are experts in central & split air condition repair and maintenance nearby Dubai AC fix");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || "ac service in knowledge village, ac repair in knowledge village, ac maintenance in knowledge village, ac installation in knowledge village, ac cleaning in knowledge village, ac technician in knowledge village, ac service near me, ac repair near me, ac maintenance near me, ac installation near me, ac cleaning near me, ac technician near me");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-knowledge-village/").replace(/\/?$/, '/');
-
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -90,17 +90,24 @@ const AcRepairInKnowledgeVillageDetail = ({ subtitle, title, reviewsbg, titleSeo
             <HelmetProvider>
                 <Helmet>
                     <title>{metatitle}</title>
-                    <meta name="description" content={metadescription}></meta>
+                    <meta name="description" content={metadescription} />
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
                     <meta name="robots" content="index, follow" />
 
-                    <link rel="canonical" href={metaURL} />
                     <meta property="og:type" content="website" />
                     <meta property="og:locale" content="en_US" />
                     <meta property="og:title" content={metatitle} />
                     <meta property="og:description" content={metadescription} />
                     <meta property="og:url" content={metaURL} />
+                    <meta property="og:image" content={metaImage} />
+
+                    {/* Twitter Card */}
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:title" content={metatitle} />
+                    <meta name="twitter:description" content={metadescription} />
+                    <meta name="twitter:image" content={metaImage} />
+                    <meta name="twitter:url" content={metaURL} />
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />
@@ -417,7 +424,7 @@ const AcRepairInKnowledgeVillageDetail = ({ subtitle, title, reviewsbg, titleSeo
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                 </section>
 
-                {/* FAQ's */}
+                {/* FAQ&apos;s */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
                     <div className="container">
                         <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>

@@ -172,7 +172,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/gas-cooke
 
                 <p className="mb-2">
                   Gas stoves are essential in our kitchens, helping us create delicious meals every day. When a cooking range stops working, it can throw our routines off balance.
-                  <br /> That's why finding a trustworthy cooktop repair specialist nearby is crucial, whether you’re in the vibrant cities of Dubai or Sharjah. We're here to help you get back to cooking confidently and easily!
+                  <br /> that&apos;s why finding a trustworthy cooktop repair specialist nearby is crucial, whether you’re in the vibrant cities of Dubai or Sharjah. We&apos;re here to help you get back to cooking confidently and easily!
 
                 </p>
 

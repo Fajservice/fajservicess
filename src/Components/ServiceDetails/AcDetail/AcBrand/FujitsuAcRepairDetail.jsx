@@ -658,10 +658,14 @@ const FujitsuAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
         </section>
 
-        {/* FAQ's */}
+        {/* FAQ&apos;spos;s */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
+<<<<<<< HEAD
+            <h3 className="cs_fs_30 text-light">FAQ&apos;spos;s</h3>
+=======
             <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
+>>>>>>> f7cac9378b1ffdba1402e00a12e161e17c3c6314
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 

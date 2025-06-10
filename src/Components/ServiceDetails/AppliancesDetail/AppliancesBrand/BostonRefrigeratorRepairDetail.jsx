@@ -18,7 +18,7 @@ const BostonRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
   // For SEO
   const metatitle = String(titleSeo || "Boston Refrigerator Repair In Dubai - Appliances Service #1");
-  const metadescription = String(description || "Looking for an affordable Boston Refrigerator Repair in Dubai. We're a team of appliance maintenance technicians in your local area call 043300002");
+  const metadescription = String(description || "Looking for an affordable Boston Refrigerator Repair in Dubai. We&apos;re a team of appliance maintenance technicians in your local area call 043300002");
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Boston Refrigerator Repair, Boston Fridge Repair in Dubai, Boston Washing Machine Repair, Boston Dishwasher Repair, Boston Cooker Repair, Boston Appliance Service Dubai");
@@ -82,37 +82,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
     ]
   };
 
-  const settingBrands = {
-    dots: false,
-    infinite: true,
-    slidesToShow: 6,
-    arrows: false,
-
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-    // cssEase: 'linear',
-
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 6,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 4,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-        }
-      }
-    ]
-  };
+  
   return (
     <>
       <HelmetProvider>
@@ -169,8 +139,8 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
                 <p className="mb-2">
                   If you need Boston Appliance Repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
-                  <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
-                  <br /> We're nearby and can get your appliances fixed quickly and efficiently.
+                  <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that&apos;s not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
+                  <br /> We&apos;re nearby and can get your appliances fixed quickly and efficiently.
                 </p>
 
                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service
@@ -543,7 +513,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
         </section>
 
-        {/* FAQ's */}
+        {/* FAQ&apos;spos;s */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>

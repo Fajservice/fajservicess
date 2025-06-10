@@ -170,7 +170,7 @@ const CrafftAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
 
             <h3 className="cs_fs_30">Why is Crafft AC Maintenance Service Important in Dubai?</h3>
             <p className="mb-0">
-              To ensure your Crafft central air conditioner runs smoothly in Dubai&apos;s heat, regular aircon maintenance is essential. At FAJ, we offer expert <a href="https://www.fajservices.ae/ac-service-in-dubai/">ac services</a> to ensure optimal cooling and comfort year-round. We're here to help your system perform at its best!
+              To ensure your Crafft central air conditioner runs smoothly in Dubai&apos;s heat, regular aircon maintenance is essential. At FAJ, we offer expert <a href="https://www.fajservices.ae/ac-service-in-dubai/">ac services</a> to ensure optimal cooling and comfort year-round. We&apos;re here to help your system perform at its best!
             </p>
 
             <div className="row align-items-center">
@@ -654,7 +654,7 @@ const CrafftAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
         </section>
 
-        {/* FAQ's */}
+        {/* FAQ&apos;s */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>

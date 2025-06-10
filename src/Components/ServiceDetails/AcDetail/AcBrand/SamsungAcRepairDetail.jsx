@@ -176,7 +176,7 @@ const SamsungAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
 
             <h3 className="cs_fs_30">Why is Samsung AC Maintenance Service Important in Dubai?</h3>
             <p className="mb-0">
-              To ensure your Samsung central air conditioner runs smoothly in Dubai's heat, regular aircon maintenance is essential. At FAJ, we offer expert ac services to ensure optimal cooling and comfort year-round. We're here to help your system perform at its best!
+              To ensure your Samsung central air conditioner runs smoothly in Dubai's heat, regular aircon maintenance is essential. At FAJ, we offer expert ac services to ensure optimal cooling and comfort year-round. We&apos;re here to help your system perform at its best!
 
             </p>
 
@@ -670,7 +670,7 @@ const SamsungAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
         </section>
 
-        {/* FAQ's */}
+        {/* FAQ&apos;s */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>

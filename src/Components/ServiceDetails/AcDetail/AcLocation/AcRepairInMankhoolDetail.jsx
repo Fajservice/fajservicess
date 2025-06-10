@@ -26,9 +26,9 @@ const AcRepairInMankhoolDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const metatitle = String(titleSeo || "AC Services In Mankhool - Aircon Repair And Maintenance #1");
     const metadescription = String(description || "A/C Repair, Maintenance and AC Services in Mankhool. Call 043300002 for Central Air Conditioner, Split A/C Repairing, Servicing in my location");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || "ac service in mankhool, ac repair in mankhool, ac maintenance in mankhool, ac servicing in mankhool, ac cleaning in mankhool, air conditioning service in mankhool, air conditioning repair in mankhool, air conditioning maintenance in mankhool, air conditioning servicing in mankhool, air conditioning cleaning in mankhool");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-mankhool/").replace(/\/?$/, '/');
-
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -91,17 +91,24 @@ const AcRepairInMankhoolDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
             <HelmetProvider>
                 <Helmet>
                     <title>{metatitle}</title>
-                    <meta name="description" content={metadescription}></meta>
+                    <meta name="description" content={metadescription} />
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
                     <meta name="robots" content="index, follow" />
 
-                    <link rel="canonical" href={metaURL} />
                     <meta property="og:type" content="website" />
                     <meta property="og:locale" content="en_US" />
                     <meta property="og:title" content={metatitle} />
                     <meta property="og:description" content={metadescription} />
                     <meta property="og:url" content={metaURL} />
+                    <meta property="og:image" content={metaImage} />
+
+                    {/* Twitter Card */}
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:title" content={metatitle} />
+                    <meta name="twitter:description" content={metadescription} />
+                    <meta name="twitter:image" content={metaImage} />
+                    <meta name="twitter:url" content={metaURL} />
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />
@@ -418,7 +425,7 @@ const AcRepairInMankhoolDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                 </section>
 
-                {/* FAQ's */}
+                {/* FAQ&apos;s */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
                     <div className="container">
                         <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>

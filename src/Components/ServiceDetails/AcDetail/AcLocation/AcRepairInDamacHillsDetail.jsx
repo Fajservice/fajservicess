@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInBusinessBay.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
@@ -24,8 +24,9 @@ const AcRepairInDamacHillsDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
     const metatitle = String(titleSeo || "AC Repair and Service in Damac Hills - Gree AC Maintenance");
     const metadescription = String(description || "Get same day AC repair and service in Damac Hills Dubai. Call now 043300002 for your Gree air conditioner repairs and fix Gree AC error near you Dubai");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || "ac repair in damac hills, ac service in damac hills, ac maintenance in damac hills, gree ac repair in damac hills, gree ac service in damac hills, gree ac maintenance in damac hills, ac technician in damac hills, ac cleaning in damac hills, ac installation in damac hills, ac gas refilling in damac hills");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-repair-and-ac-service-in-damac-hills/").replace(/\/?$/, '/');
+     const metaImage = String(Image || "https://www.fajservices.ae/dist/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -88,17 +89,24 @@ const AcRepairInDamacHillsDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
             <HelmetProvider>
                 <Helmet>
                     <title>{metatitle}</title>
-                    <meta name="description" content={metadescription}></meta>
+                    <meta name="description" content={metadescription} />
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
                     <meta name="robots" content="index, follow" />
 
-                    <link rel="canonical" href={metaURL} />
                     <meta property="og:type" content="website" />
                     <meta property="og:locale" content="en_US" />
                     <meta property="og:title" content={metatitle} />
                     <meta property="og:description" content={metadescription} />
                     <meta property="og:url" content={metaURL} />
+                    <meta property="og:image" content={metaImage} />
+
+                    {/* Twitter Card */}
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:title" content={metatitle} />
+                    <meta name="twitter:description" content={metadescription} />
+                    <meta name="twitter:image" content={metaImage} />
+                    <meta name="twitter:url" content={metaURL} />
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />
@@ -415,7 +423,7 @@ const AcRepairInDamacHillsDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                 </section>
 
-                {/* FAQ's */}
+                {/* FAQ&apos;s */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
                     <div className="container">
                         <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>

@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInJumeirahHeights.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
@@ -424,7 +424,7 @@ const AcRepairInJumeirahHeightsDetail = ({ subtitle, title, reviewsbg, titleSeo,
           </div>
         </section>
 
-        {/* FAQ's */}
+        {/* FAQ&apos;s */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>

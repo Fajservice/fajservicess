@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInDip.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
@@ -24,9 +24,9 @@ const AcRepairInTheViewsDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const metatitle = String(titleSeo || "AC Services In The Views - #1 AC Maintenance - A/C Fixing");
     const metadescription = String(description || "Get it done affordably cost. Call FAJ 043300002 for ac services in the views dubai and the best chiller air conditioner repairs & maintenance dubai");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || "AC Services In The Views, AC Maintenance In The Views, AC Repair In The Views, Air Conditioner Service In The Views, Air Conditioning Service In The Views, Chiller Service In The Views, Chiller Repair In The Views, HVAC Service In The Views, HVAC Repair In The Views");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-the-views/").replace(/\/?$/, '/');
-
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     reviewsbg = "img/testimonialbg.jpg"
@@ -87,18 +87,25 @@ const AcRepairInTheViewsDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
         <>
             <HelmetProvider>
                 <Helmet>
-                    <title>{metatitle}</title>
-                    <meta name="description" content={metadescription}></meta>
+                   <title>{metatitle}</title>
+                    <meta name="description" content={metadescription} />
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
                     <meta name="robots" content="index, follow" />
 
-                    <link rel="canonical" href={metaURL} />
                     <meta property="og:type" content="website" />
                     <meta property="og:locale" content="en_US" />
                     <meta property="og:title" content={metatitle} />
                     <meta property="og:description" content={metadescription} />
                     <meta property="og:url" content={metaURL} />
+                    <meta property="og:image" content={metaImage} />
+
+                    {/* Twitter Card */}
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:title" content={metatitle} />
+                    <meta name="twitter:description" content={metadescription} />
+                    <meta name="twitter:image" content={metaImage} />
+                    <meta name="twitter:url" content={metaURL} />
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />
@@ -415,7 +422,7 @@ const AcRepairInTheViewsDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                 </section>
 
-                {/* FAQ's */}
+                {/* FAQ&apos;s */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
                     <div className="container">
                         <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
