@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import data from '../../../../Data/AcData/AcFaqs/AcBrand/BlueStarAcRepairfaq.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
-
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
@@ -22,7 +21,7 @@ const BlueStarAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
   const metadescription = String(description || "BlueStar #1 Brand in UAE. Call us at 043300002 for BlueStar AC Repair in Dubai, We are experts in HVAC & Central Air Conditioner Maintenance Service near by you.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Bluestar AC Repair in Dubai, BlueStar Air Conditioner Service, BlueStar AC Maintenance, BlueStar AC Installation, BlueStar AC Cleaning Service, BlueStar Air Conditioner Repair Near Me");
-  const metaURL = String(URL || "https://www.fajservices.com/blue-star-ac-repair-in-dubai-blue-star-ac-maintenance-in-dubai-blue-star-ac-fix-in-dubai-blue-star-ac-service-in-dubai-blue-star-air-condition-repair-in-dubai-blue-star-air-condition-maintenance-in-du/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/blue-star-ac-repair-in-dubai-blue-star-ac-maintenance-in-dubai-blue-star-ac-fix-in-dubai-blue-star-ac-service-in-dubai-blue-star-air-condition-repair-in-dubai-blue-star-air-condition-maintenance-in-du/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/dist/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
 
 
