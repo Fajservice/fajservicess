@@ -26,8 +26,9 @@ const AcRepairInDubaiInternetCityDetail = ({ subtitle, title, reviewsbg, titleSe
     const metatitle = String(titleSeo || "AC Services Dubai Internet City - AC Repair & Cleaning Dubai");
     const metadescription = String(description || "Get same day ac service in Dubai Internet City and the best FCU, central cooling, ceiling AC repair & maintenance with low cost ac cleaning service");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || "ac service in dubai internet city, ac repair in dubai internet city, ac cleaning in dubai internet city, ac maintenance in dubai internet city, ac technician in dubai internet city, ac servicing in dubai internet city, ac installation in dubai internet city");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-dubai-internet-city/").replace(/\/?$/, '/');
+    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
 
 
     subtitle = "Testimonial"

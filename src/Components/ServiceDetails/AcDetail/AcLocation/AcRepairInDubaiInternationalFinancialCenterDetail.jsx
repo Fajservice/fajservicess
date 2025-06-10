@@ -24,8 +24,9 @@ const AcRepairInDubaiInternationalFinancialCenterDetail = ({ subtitle, title, re
     const metatitle = String(titleSeo || "AC Services In Dubai International Financial Centre");
     const metadescription = String(description || "Book an 043300002. AC Services in Dubai International Financial Centre. We are experts in central AC maintenance service near me Dubai AC fix");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || "ac service in Dubai International Financial Centre, ac repair in Dubai International Financial Centre, ac maintenance in Dubai International Financial Centre, ac cleaning service in Dubai International Financial Centre, ac technician in Dubai International Financial Centre, ac servicing in Dubai International Financial Centre, central ac maintenance service near me Dubai, ac fix Dubai International Financial Centre");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-dubai-international-financial-centre/").replace(/\/?$/, '/');
+     const metaImage = String(Image || "https://www.fajservices.ae/dist/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

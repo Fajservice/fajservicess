@@ -21,10 +21,10 @@ import WeSpecialise from "./WeSpecialise/WeSpecialise";
 const AcRepairInFlamingoVillasDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Expert AC Repair in Al Qusais - Get Central AC Service");
+    const metatitle = String(titleSeo || "Expert AC Repair in Al Flamingo Villas - Get Central AC Service");
     const metadescription = String(description || "Dial 043300002 AC Services in Flamingo Villas Dubai. We are experts in central & split air conditioning repair and maintenance service near me");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || "ac repair in flamingo villas, ac service in flamingo villas, ac maintenance in flamingo villas, ac cleaning in flamingo villas, ac installation in flamingo villas, central ac service in flamingo villas, split ac service in flamingo villas, ac technician in flamingo villas, ac servicing in flamingo villas, air conditioning service in flamingo villas");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-flamingo-villas/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"

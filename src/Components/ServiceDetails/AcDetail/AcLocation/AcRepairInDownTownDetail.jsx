@@ -24,8 +24,9 @@ const AcRepairInDownTownDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const metatitle = String(titleSeo || "AC Services In Downtown - AC Maintenance Company Dubai #1");
     const metadescription = String(description || "Get top-notch AC repair in Al Qusais with experts. We offer cost-effective solutions for all your HVAC, split & central air conditioner Dubai 043300002ac-repair-al-qusais");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || "ac repair in downtown, ac service in downtown, ac maintenance in downtown, ac installation in downtown, ac cleaning in downtown, ac technician in downtown, air conditioning service in downtown, air conditioner repair in downtown, air conditioner service in downtown, air conditioner maintenance in downtown");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-downtown/").replace(/\/?$/, '/');
+     const metaImage = String(Image || "https://www.fajservices.ae/dist/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

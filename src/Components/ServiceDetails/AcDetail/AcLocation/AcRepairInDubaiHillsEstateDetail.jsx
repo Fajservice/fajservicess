@@ -25,8 +25,9 @@ const AcRepairInDubaiHillsEstateDetail = ({ subtitle, title, reviewsbg, titleSeo
     const metatitle = String(titleSeo || "AC Repair and Service in Dubai Hills Estate - Gree AC Maintenance");
     const metadescription = String(description || "Get same day AC repair and service in Dubai Hills Estate Dubai. Call now 043300002 for your Gree air conditioner repairs and fix Gree AC error near you Dubai");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || "ac repair in dubai hills estate, ac service in dubai hills estate, gree ac maintenance in dubai hills estate, ac repair near me, ac service near me, gree ac repair in dubai hills estate, gree ac service in dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-repair-and-ac-service-in-dubai-hills-estate/").replace(/\/?$/, '/');
+     const metaImage = String(Image || "https://www.fajservices.ae/dist/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

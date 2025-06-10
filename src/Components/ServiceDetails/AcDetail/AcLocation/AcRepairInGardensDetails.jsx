@@ -25,8 +25,9 @@ const AcRepairInGardensDetails = ({ subtitle, title, reviewsbg, titleSeo, descri
     const metatitle = String(titleSeo || "AC Services In The Gardens Dubai - Chiller FCU AC Repairs #1");
     const metadescription = String(description || "Call 043300002 for AC Services in the Gardens Dubai. FAJ here to help central chiller unit maintenance & repair near me Dubai AC fixing");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || "ac service in the gardens, ac repair in the gardens, ac maintenance in the gardens, ac cleaning in the gardens, ac installation in the gardens, ac technician in the gardens, air conditioning service in the gardens, air conditioning repair in the gardens, air conditioning maintenance in the gardens, air conditioning cleaning in the gardens, air conditioning installation in the gardens");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-the-gardens/").replace(/\/?$/, '/');
+    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
 
 
     subtitle = "Testimonial"

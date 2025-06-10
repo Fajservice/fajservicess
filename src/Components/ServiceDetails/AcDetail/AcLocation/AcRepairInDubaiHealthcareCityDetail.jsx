@@ -24,8 +24,9 @@ const AcRepairInDubaiHealthcareCityDetail = ({ subtitle, title, reviewsbg, title
     const metatitle = String(titleSeo || "Best AC Services In Dubai Healthcare City - A/C Repairing #1");
     const metadescription = String(description || "If you are finding AC Services in Dubai Healthcare City. Contact us 043300002 for Air Conditioner maintenance, repairs near me Dubai A/C fix");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || "ac service in dubai healthcare city, ac repair in dubai healthcare city, ac maintenance in dubai healthcare city, air conditioning service in dubai healthcare city, air conditioner repair in dubai healthcare city, air conditioning maintenance in dubai healthcare city");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-dubai-healthcare-city/").replace(/\/?$/, '/');
+     const metaImage = String(Image || "https://www.fajservices.ae/dist/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
 
 
     subtitle = "Testimonial"
