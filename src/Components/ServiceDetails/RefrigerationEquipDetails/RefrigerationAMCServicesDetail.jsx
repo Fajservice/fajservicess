@@ -161,8 +161,6 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
           </div>
         </section>
 
-
-
         {/* heading*/}
 
         <section className="section cs_py_30 bg-light-gray">
@@ -189,7 +187,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
           </div>
         </section>
-        {/*: */}
+
         <section className="section cs_py_30">
           <div className="container">
             <h2 className="cs_fs_30">Peace of Mind with Maintenance Contract of Refrigeration</h2>
@@ -377,92 +375,102 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
           </div>
         </section >
 
-        {/* The Benefits */}
+        {/* Benefits */}
         <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
-              <h2 className="cs_fs_30 mb-0">f Benefits Of Regular Refrigeration Maintenance in Dubai  </h2>
+              <h2 className="cs_fs_30 mb-0">Benefits Of Regular Appliance Service and Maintenance in Dubai
+              </h2>
               <div className="row gx-3 gy-5 mt-0">
-                <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/coolicon.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Cooling EFFICIENCY</h3>
-                      <p className="small">
-                        We carry out a complete assessment of the cooling efficiency using a temperature gun.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">  DISINFECT COMPONENTS   </h3>
-                      <p className="small">
-                        All hardware components are tested and disinfected, including filters and vents.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">FAN ASSESSMENT</h3>
-                      <p className="small">
-                        We ensure the fan works correctly with no blockages in the evaporator coil.
-                      </p>
-                    </div>
-                  </div>
-                </div>
 
-                <div className="col-md-4 mb-2">
+                <div className="col-md-3 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/thermo.jpg`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
+                      <div className="icon-img-block border-0">
+                        <img src={`${import.meta.env.BASE_URL}img/icons/24x7b.jpg`} alt="24x7" className="rounded shadow" loading="lazy" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">THERMOSTAT CHECK</h3>
-                      <p className="small">
-                        We use a laser temperature gauge to ensure that thermostats operate correctly.
-                      </p>
+                      <h3 className="text-uppercase mb-2 cs_fs_18">Routine Service</h3>
+                      <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
                     </div>
-
                   </div>
                 </div>
-                <div className="col-md-4 mb-2">
+                <div className="col-md-3 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
+                      <div className="icon-img-block border-0">
+                        <img src={`${import.meta.env.BASE_URL}img/icons/call.jpg`} alt="Cooling Efficiency" className="rounded shadow" loading="lazy" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">AIRFLOW BALANCE</h3>
-                      <p className="small">
-                        We ensure you get optimal airflow around each room as needed.
-                      </p>
+                      <h3 className="text-uppercase mb-2 cs_fs_18">On-call services</h3>
+                      <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
 
                     </div>
 
                   </div>
                 </div>
 
-                <div className="col-md-4 mb-2">
+                <div className="col-md-3 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
+                      <div className="icon-img-block border-0">
+                        <img src={`${import.meta.env.BASE_URL}img/icons/gearicon.jpg`} alt="Cooling Efficiency" className="rounded shadow" loading="lazy" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">CUSTOMER FEEDBACK </h3>
-                      <p className="small">
-                        Our team provides vital feedback on your refrigeration and any needed repairs.
-                      </p>
+                      <h3 className="text-uppercase mb-2 cs_fs_18">Genuine Spare Parts</h3>
+                      <p className="small">Knowing your commercial kitchen equipment is in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-3 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block border-0">
+                        <img src={`${import.meta.env.BASE_URL}img/icons/wellstar.jpg`} alt="Cooling Efficiency" className="rounded shadow" loading="lazy" />
+                      </div>
+                      <h3 className="text-uppercase mb-2 cs_fs_18">Maintenance Costs</h3>
+                      <p className="small">High-quality equipment may be more expensive initially, but it typically breaks down less frequently and requires fewer repairs.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-3 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block border-0">
+                        <img src={`${import.meta.env.BASE_URL}img/icons/trained-b.jpg`} alt="trained icon" className="rounded shadow" loading="lazy" />
+                      </div>
+                      <h3 className="text-uppercase mb-2 cs_fs_18">Increased Efficiency</h3>
+                      <p className="small">Commercial kitchen equipment can improve the efficiency of daily tasks in your kitchen. · Lower Maintenance Costs · Superior Quality.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-3 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block border-0">
+                        <img src={`${import.meta.env.BASE_URL}img/icons/wellicon.jpg`} alt="Cooling Efficiency" className="rounded shadow" loading="lazy" />
+                      </div>
+                      <h3 className="text-uppercase mb-2 cs_fs_18">Cost Efficiency</h3>
+                      <p className="small">FAJ a Save hand maintenance. Here’s a cost comparison: a commercial kitchen helps you avoid high startup equipment costs.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-3 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block border-0">
+                        <img src={`${import.meta.env.BASE_URL}img/icons/annual-contract-b.jpg`} alt="annual contract icon" className="rounded shadow" loading="lazy" />
+                      </div>
+                      <h3 className="text-uppercase mb-2 cs_fs_18">Report and Updates</h3>
+                      <p className="small">FAJ is releasing a report on the condition of commercial kitchen equipment, outlining actions to enhance efficiency and safety.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-3 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block border-0">
+                        <img src={`${import.meta.env.BASE_URL}img/icons/installation-b.jpg`} alt="installation icon" className="rounded shadow" loading="lazy" />
+                      </div>
+                      <h3 className="text-uppercase mb-2 cs_fs_18">Experts and Trained</h3>
+                      <p className="small">FAJ technicians to provide customers with effective maintenance, repair for commercial kitchen equipment to ensure satisfaction.</p>
                     </div>
                   </div>
                 </div>
@@ -470,7 +478,6 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
             </div>
           </div>
         </section>
-
 
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
@@ -667,7 +674,6 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                                 <i className="bi bi-star-fill"></i>
                               </div>
                               <span className="client_name cs_fs_24 cs_mb_1 text-uppercase" >{item.title}</span>
-                              {/* <p className="cs_fs_14 cs_heading_color mb-0">{item.subTitle}</p> */}
                             </div>
                           </div>
                           <blockquote className="cs_fs_16">{item.desc}</blockquote>
