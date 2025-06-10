@@ -19,7 +19,7 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
 
 
-const AcRepairInJLTdETAIL = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const AcRepairInJLTDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
     const metatitle = String(titleSeo || "Best AC Service JLT Near Me - Air Con Repair & Maintenance");
@@ -466,4 +466,4 @@ const AcRepairInJLTdETAIL = ({ subtitle, title, reviewsbg, titleSeo, description
     )
 }
 
-export default AcRepairInJLTdETAIL
+export default AcRepairInJLTDetail
