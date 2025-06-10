@@ -179,7 +179,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/oven-repa
 
                 <p className="mb-2">
                   If you need integrated appliance repair, we’ve got you covered! Choose FAJ for fast and affordable service.
-                  Whether your built-in washing machine won't drain, your fridge isn't working, your oven isn't heating, or your dishwasher won't turn on, our expert repair team in Dubai and Sharjah is ready to assist you. We are in your area and can quickly resolve any issues you may have.
+                  Whether your built-in washing machine won&apos;t drain, your fridge isn't working, your oven isn't heating, or your dishwasher won&apos;t turn on, our expert repair team in Dubai and Sharjah is ready to assist you. We are in your area and can quickly resolve any issues you may have.
                 </p>
 
 
@@ -625,7 +625,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/oven-repa
                 <p className="mb-0">
                   <Link to="/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
                     <b>Teka Appliance Service</b>
-                  </Link>: If you're searching for the best Teka appliances repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
+                  </Link>: If you&apos;re searching for the best Teka appliances repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
                 </p>
                 <br />
 

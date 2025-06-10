@@ -282,7 +282,7 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Employee Failure</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">As a food industry professional, it's your duty to ensure your employees clearly know how to safely and efficiently operate all equipment.</p>
+                    <p className="p-2 mb-0">As a food industry professional, it&apos;s your duty to ensure your employees clearly know how to safely and efficiently operate all equipment.</p>
                   </div>
                 </div>
               </div>

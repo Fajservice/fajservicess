@@ -198,7 +198,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/washing-m
             <h2 className="cs_fs_30">Why is Washing Machine Maintenance Service Important in Dubai?</h2>
             <p>
               Washing machine service in Dubai is crucial for maintaining efficiency, extending lifespan, and avoiding costly repairs. Regular servicing detects potential issues early, ensuring smooth operation.
-              Here's a more detailed look at why:
+              Here&apos;s a more detailed look at why:
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
@@ -596,7 +596,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/washing-m
                 <p className="mb-0">
                   <Link to="/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
                     <b>Teka Washing Machine Repair</b>
-                  </Link>: If you're searching for the best Teka washing machine repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
+                  </Link>: If you&apos;re searching for the best Teka washing machine repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
                 </p>
                 <br />
 

@@ -1,4 +1,3 @@
-import React from 'react'
 import BreadCumb from "../../../Components/Common/BreadCumb";
 import AcRepairInRasAlKhorIndustrialAreaDetail from '../../../Components/ServiceDetails/AcDetail/AcLocation/AcRepairInRasAlKhorIndustrialAreaDetail';
 const AcRepairInRasAlKhorIndustrialArea = () => {

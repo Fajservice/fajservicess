@@ -175,7 +175,7 @@ const WestpointAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
             <div className="row align-items-center">
               <div className="col-md-6">
                 <ul className="mb-0">
-                  <li><strong>Extreme Weather Conditions:</strong> Dubai experiences high temperatures, especially in the summer, where a Westpoint split air conditioner is not just a luxury but a necessity. Regular AC maintenance ensures that your Westpoint Split AC systems operate efficiently, providing reliable cooling when it's needed most.</li>
+                  <li><strong>Extreme Weather Conditions:</strong> Dubai experiences high temperatures, especially in the summer, where a Westpoint split air conditioner is not just a luxury but a necessity. Regular AC maintenance ensures that your Westpoint Split AC systems operate efficiently, providing reliable cooling when it&apos;s needed most.</li>
                   <li><strong>Energy Efficiency:</strong> Well-maintained Westpoint split AC run efficiently, lowering energy bills. Routine checks identify issues that may increase energy consumption.</li>
                   <li><strong>Extended Lifespan:</strong> Regular West Point air conditioner maintenance extends the life of your West Point wall mounted AC, helping to avoid costly west point aircon repair</li>
                 </ul>

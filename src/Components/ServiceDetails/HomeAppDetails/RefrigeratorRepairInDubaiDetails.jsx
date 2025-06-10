@@ -566,7 +566,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
                   <Link to="/siemens-home-appliances-repair/"><b>Siemens Refrigerator Repair</b></Link>: Are you concerned about your Siemens refrigerator malfunctioning and searching for a reliable Siemens refrigerator repair company in Dubai? Contact us for same-day service!
                 </p>
                 <p className="mb-0">
-                  <Link to="/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/"><b>Teka Refrigerator Repair</b></Link>: If you're searching for the best Teka refrigerator repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka refrigerator service provider in the area.
+                  <Link to="/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/"><b>Teka Refrigerator Repair</b></Link>: If you&apos;re searching for the best Teka refrigerator repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka refrigerator service provider in the area.
                 </p>
 
                 <br />

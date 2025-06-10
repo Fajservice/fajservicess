@@ -152,7 +152,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/oven-Rang
           <div className="container">
             <h1 className="cs_fs_30">Gas & Electrical Oven Repair Service in Dubai</h1>
             <p>
-              If you're having issues with your oven, it's important to locate a trustworthy and high-quality oven repair service. Our company in Dubai is focused on providing quick, effective, and affordable repairs for all your oven repair requirements.
+              If you&apos;re having issues with your oven, it&apos;s important to locate a trustworthy and high-quality oven repair service. Our company in Dubai is focused on providing quick, effective, and affordable repairs for all your oven repair requirements.
               <br />
               With over a decade of experience since 2010 in maintenance of ovens of various types and brands, our skilled team employs the latest tools and techniques to diagnose and fix problems efficiently.
               This ensures you can return to your busy life in Dubai and Sharjah without much delay.</p>
@@ -176,7 +176,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/oven-Rang
                 <h2 className="cs_fs_24 mb-1" style={{fontSize: "24px"}}>Get Oven Repair & Service Near by You</h2>
                 <p className="mb-2">
                   Ovens are among the most frequently used kitchen appliances, as we rely on them to cook our food.
-                  <br />  When an oven breaks down, it can significantly impact our daily routines. Therefore, it's essential to find an oven repair and service specialist near you as quickly as possible, whether you are in Dubai or Sharjah!
+                  <br />  When an oven breaks down, it can significantly impact our daily routines. Therefore, it&apos;s essential to find an oven repair and service specialist near you as quickly as possible, whether you are in Dubai or Sharjah!
                 </p>
 
                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{fontSize: "24px"}}>Fast and Reliable Appliances Service
@@ -231,7 +231,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/oven-Rang
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Won't Turn On</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven won&apos;t Turn On</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">This issue may be caused by a tripped circuit breaker, a blown fuse, or problems with the oven's control board or power supply.</p>
@@ -296,7 +296,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/oven-Rang
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Door Won't Close</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Door won&apos;t Close</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -583,7 +583,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/oven-Rang
                 <p className="mb-0">
                   <Link to="/siemens-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
                     <b>Siemens Oven Repair</b>
-                  </Link>: If you're experiencing issues with your oven, stove, refrigerator, washer, dryer, or dishwasher, reach out to the FAJ team for same-day repair service in Dubai.
+                  </Link>: If you&apos;re experiencing issues with your oven, stove, refrigerator, washer, dryer, or dishwasher, reach out to the FAJ team for same-day repair service in Dubai.
                 </p>
 
                 <p className="mb-0">
@@ -595,7 +595,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/oven-Rang
                 <p className="mb-0">
                   <Link to="/bosch-home-appliances-repair/">
                     <b> Bosch Electric Oven Repair</b>
-                  </Link>: If you're searching for the best Bosch electric oven repair company in Dubai, FAJ is the perfect choice. They are renowned for delivering exceptional service for all Bosch oven repairs and are recognized as the leading Bosch appliance service provider in the region.
+                  </Link>: If you&apos;re searching for the best Bosch electric oven repair company in Dubai, FAJ is the perfect choice. They are renowned for delivering exceptional service for all Bosch oven repairs and are recognized as the leading Bosch appliance service provider in the region.
                 </p>
 
                 <p className="mb-0">
@@ -620,7 +620,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/oven-Rang
                 <p className="mb-0">
                   <Link to="/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
                     <b> Teka Stove and Oven Repair</b>
-                  </Link>: If you're looking for the best Teka oven repair company in Dubai, FAJ is the perfect choice. They are well-known for providing outstanding service for Teka refrigerators, washing machines, and ovens. FAJ is recognized as the leading Teka appliance service provider in the region.
+                  </Link>: If you&apos;re looking for the best Teka oven repair company in Dubai, FAJ is the perfect choice. They are well-known for providing outstanding service for Teka refrigerators, washing machines, and ovens. FAJ is recognized as the leading Teka appliance service provider in the region.
                 </p>
 
 

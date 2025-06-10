@@ -270,7 +270,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Either the temperature setting is too low, or the water inlet tube has frozen. If it's the former, it's a simple fix.
+                      Either the temperature setting is too low, or the water inlet tube has frozen. If it&apos;s the former, it&apos;s a simple fix.
                     </p>
                   </div>
                 </div>
@@ -319,7 +319,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Ice Machine Won't Operate</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Ice Machine won&apos;t Operate</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -569,12 +569,12 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                 <p className="mb-0"><b> Hoshizaki Ice Maker Repair</b>: FAJ is here to support you when things go wrong. We understand that your Hoshizaki ice cuber maker is essential for daily life, keeping your food fresh.</p>
                 <p className="mb-0"><b> Brema Ice Cube Maker Services</b>: If you are experiencing issues with your Brema ice maker, please contact the FAJ team for same-day repair service in Dubai.</p>
                 <p className="mb-0"><b> Simag Ice Machine Maintenance</b>: For Simag ice cube machine repair in Dubai, our team of professional and qualified technicians is available throughout the UAE.</p>
-                <p className="mb-0"><b> Brice Ice Flake Machine Repair</b>: If you're searching for the best Brice ice maker repair company in Dubai, FAJ is the top choice. They are renowned for delivering exceptional service for all Brice ice maker repairs and are recognized as the leading service provider in the area.</p>
+                <p className="mb-0"><b> Brice Ice Flake Machine Repair</b>: If you&apos;re searching for the best Brice ice maker repair company in Dubai, FAJ is the top choice. They are renowned for delivering exceptional service for all Brice ice maker repairs and are recognized as the leading service provider in the area.</p>
                 <p className="mb-0"><b> Alinia Ice Machine Service</b>: If you are searching for the best Alinia repair company in Dubai, FAJ is the perfect choice. They are renowned for their exceptional service in repairing Alinia ice makers and are recognized as the leading provider of Alinia ice cube maker services in the area.</p>
                 <p className="mb-0"><b> Coolbaby Ice Maker Service</b>: Your Coolbaby ice cube maker may need repair or maintenance, and we can assist you. For high-quality Coolbaby ice machine repair in Dubai, trust FAJ.</p>
                 <p className="mb-0"><b> Scotsman Ice Maker Machine Repair Service</b>: We offer expert services for Scotsman ice machine repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Scotsman ice makers and more.</p>
                 <p className="mb-0"><b> Commercial Ice Maker and Ice Machine Maintenance</b>: Are you worried about your commercial ice maker malfunctioning and looking for a dependable company in Dubai? Contact us for same-day service!</p>
-                <p className="mb-0"><b> Electrolux Professional Ice Machine Repair Service</b>: If you're looking for the top Electrolux professional ice machine repair company in Dubai, FAJ is the perfect choice. They are well-known for providing outstanding service for Electrolux professional ice maker repairs. FAJ has established itself as the leading service provider for Electrolux professional ice machines in the area.</p>
+                <p className="mb-0"><b> Electrolux Professional Ice Machine Repair Service</b>: If you&apos;re looking for the top Electrolux professional ice machine repair company in Dubai, FAJ is the perfect choice. They are well-known for providing outstanding service for Electrolux professional ice maker repairs. FAJ has established itself as the leading service provider for Electrolux professional ice machines in the area.</p>
 
 
 

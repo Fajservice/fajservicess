@@ -187,7 +187,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Barbeque-
         <section className="section cs_py_30">
           <div className="container">
             <h2 className="cs_fs_30">Why is BBQ Grill Regular Maintenance Service Important in Dubai?</h2>
-            <p>Grilling is more than just cooking; it's a lifestyle. To fully enjoy barbecued delights, proper grill maintenance is essential, as a well-kept grill is key to a perfect barbecue.</p>
+            <p>Grilling is more than just cooking; it&apos;s a lifestyle. To fully enjoy barbecued delights, proper grill maintenance is essential, as a well-kept grill is key to a perfect barbecue.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}img/bbq.avif`} alt="BBQ Repair Service" loading="lazy" />
@@ -356,12 +356,12 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Barbeque-
             <div className="row justify-content-center">
               <h2 className="cs_fs_30 mb-0">Tips for Preparing for Your BBQ</h2>
               <ul>
-                <li><strong>Clean the grill:&nbsp;</strong>Inspect and clean your barbecue if it's been outside for a while. Even after use, it's a good idea to clean and dry it. Always follow the manufacturer's maintenance instructions.</li>
+                <li><strong>Clean the grill:&nbsp;</strong>Inspect and clean your barbecue if it&apos;s been outside for a while. Even after use, it&apos;s a good idea to clean and dry it. Always follow the manufacturer's maintenance instructions.</li>
                 <li><strong>Cooking on Charcoal:&nbsp;</strong>If using charcoal instead of gas, make sure the coals are glowing red with a grey, powdery surface before cooking.</li>
-                <li><strong>Defrosting Meat:&nbsp;</strong>Frozen meat can cook unevenly on a BBQ. For best results, defrost it overnight in a lipped dish in the fridge. If you're short on time, use the microwave's defrost setting. Cook and eat the meat within 24 hours of defrosting.</li>
+                <li><strong>Defrosting Meat:&nbsp;</strong>Frozen meat can cook unevenly on a BBQ. For best results, defrost it overnight in a lipped dish in the fridge. If you&apos;re short on time, use the microwave's defrost setting. Cook and eat the meat within 24 hours of defrosting.</li>
                 <li><strong>Check the Use-by Dates:&nbsp;</strong>The use-by date on food packaging is important for safety, as consuming food past this date can cause illness. Best before dates indicate quality; while food is safe to eat after this date, it may not taste as good.</li>
                 <li><strong>Cook BBQ Meat Properly:&nbsp;</strong>Properly cooking food at the right temperature and time is crucial to eliminate harmful bacteria. Different meats have specific cooking requirements.</li>
-                <li><strong>Serving Food Safely at a BBQ:&nbsp;</strong>To ensure food safety, use separate raw meat, cooked meat, and ready-to-eat foods, such as salads. Store these items in the fridge or in a cool bag with ice packs until it's time to serve. Keep any cool items out of direct sunlight until serving.</li>
+                <li><strong>Serving Food Safely at a BBQ:&nbsp;</strong>To ensure food safety, use separate raw meat, cooked meat, and ready-to-eat foods, such as salads. Store these items in the fridge or in a cool bag with ice packs until it&apos;s time to serve. Keep any cool items out of direct sunlight until serving.</li>
                 <li><strong>Bacteria and Cross Contamination:&nbsp;</strong>Leftover food on your grill poses serious risks. Bacteria can grow on old residue and contaminate new food. Additionally, cross-contamination with allergenic foods, like last night&rsquo;s fish, could lead to severe consequences, such as anaphylactic shock..</li>
                 <li><strong>Rust Prevention:&nbsp;</strong>Your grills are made of metal, so if you don&rsquo;t clean them often, they will rust&mdash;especially cast iron. Regular cleaning will help prolong their lifespan.</li>
               </ul>

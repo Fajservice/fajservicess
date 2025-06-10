@@ -15,7 +15,7 @@ import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppoin
 const SanyoHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Sanyo Home Appliance Service - Sayno Refrigerator Repair");
-  const metadescription = String(description || "If you're searching for reliable Sanyo fridge repair in Dubai. Call-FAJ 043300002 for Sanyo washing machine, dishwasher oven fix service nearme");
+  const metadescription = String(description || "If you&apos;re searching for reliable Sanyo fridge repair in Dubai. Call-FAJ 043300002 for Sanyo washing machine, dishwasher oven fix service nearme");
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Sanyo Home Appliance Repair, Sanyo Washing Machine Repair, Sanyo Fridge Repair, Sanyo Dishwasher Repair, Sanyo Oven Repair, Sanyo Cooker Repair, Sanyo Appliance Service Dubai");

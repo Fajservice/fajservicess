@@ -204,7 +204,7 @@ const ACServiceSection = () => {
               <h2 className="mb-0 text-light">Why AC Inspection is Necessary?</h2>
             </div>
             <div className="col-md-8">
-              <p>Regular AC inspections diagnose potential issues early, ensuring peak performance and extending your unit's lifespan. By maintaining energy efficiency, inspections reduce energy bills and enhance overall system reliability. They also help improve indoor air quality by identifying and eliminating dust and mold, creating a healthier environment for your home or office.</p>
+              <p>Regular AC inspections diagnose potential issues early, ensuring peak performance and extending your unit&apos;s lifespan. By maintaining energy efficiency, inspections reduce energy bills and enhance overall system reliability. They also help improve indoor air quality by identifying and eliminating dust and mold, creating a healthier environment for your home or office.</p>
             </div>
           </div>
         </div>
