@@ -17,7 +17,7 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
+
 const AcRepairInBurjKhalifaLakeDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
 
@@ -27,7 +27,7 @@ const AcRepairInBurjKhalifaLakeDetail = ({ subtitle, title, reviewsbg, titleSeo,
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-burj-khalifa-lake");
-
+    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -424,10 +424,10 @@ const AcRepairInBurjKhalifaLakeDetail = ({ subtitle, title, reviewsbg, titleSeo,
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                 </section>
 
-                {/* FAQ's */}
+                {/* FAQ&apos;s */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
                     <div className="container">
-                        <h3 className="cs_fs_30 text-light">FAQ's</h3>
+                        <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
                         <div className="cs_accordians_wrapper cs_style_1 p-0">
 
