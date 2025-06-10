@@ -114,12 +114,12 @@ const ApplianceServiceInTheSpringsDetail = ({ subtitle, title, reviewsbg}) => {
                     <meta name="keywords" content="" />
                     <meta name="author" content="Faj Technical Services" />
                     <meta name="robots" content="index, follow" />
-                    <link rel="canonical" href="Washing Machine & Fridge Repair in The Springs Dubai – Home Appliance Installation, Maintenance & Service Centre in The Springs Dubai" />
+                    <link rel="canonical" href="https://www.fajservices.ae/appliances-services-in-the-springs/" />
                     <meta property="og:type" content="website" />
                     <meta property="og:locale" content="en_US" />
                     <meta property="og:title" content="Appliances Services in The Springs - Fridge Repair Dubai" />
                     <meta property="og:description" content="Get best appliance services in The Springs. Experts in fridge repair near me in Dubai. Call 043300002 for fix washing machine, oven, coffee machine"/>
-                    <meta property="og:url" content="https://www.fajservices.ae/appliances-services-in-the-springs" />
+                    <meta property="og:url" content="https://www.fajservices.ae/appliances-services-in-the-springs/" />
                     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
                 </Helmet>
             </HelmetProvider>
