@@ -23,7 +23,8 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   const metadescription = String(description || "Having issues with your cooking appliance? Dail 043300002 for hob repair service in dubai and electric stove, cooking range fix near me in dubai"); 
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Electric Hob Repair, Gas Hob Repair, Gas Hob Service");
-  const metaURL = String(URL || "https://www.fajservices.ae/hob-repair-service/");
+  const metaURL = String(URL || "https://www.fajservices.ae/hob-repair-service/").replace(/\/?$/, '/');
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Hob-Repair-Service-in-Dubai-UAE.avif");
 
 
 
@@ -131,7 +132,14 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
-          <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
         </Helmet>
       </HelmetProvider>
       <HeaderForm />
@@ -835,7 +843,7 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
         {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
-            <h3 className="cs_fs_30 text-light">FAQ's</h3>
+            <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 

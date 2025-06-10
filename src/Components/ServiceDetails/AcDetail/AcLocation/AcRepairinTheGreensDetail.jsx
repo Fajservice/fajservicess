@@ -25,8 +25,8 @@ const AcRepairinTheGreensDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
     const metadescription = String(description || "If you are looking for best ac services in the greens dubai. Call FAJ 043300002 for emergency centralized fcu a/c system repairing and servicing.");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Repair in The Greens, Air Conditioning Service in The Greens, Air Con Maintenance & AC Installation in The Greens");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-the-greens");
- const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-the-greens/").replace(/\/?$/, '/');
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     reviewsbg = "img/testimonialbg.jpg"
@@ -425,7 +425,7 @@ const AcRepairinTheGreensDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                 {/* FAQ&apos;s */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
                     <div className="container">
-                        <h3 className="cs_fs_30 text-light">FAQ&apos;spos;s</h3>
+                        <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
                         <div className="cs_accordians_wrapper cs_style_1 p-0">
 

@@ -21,8 +21,8 @@ const WashingMachineRepairInDubaiMarinaDetail = ({ subtitle, title, reviewsbg, t
   const metadescription = String(description || "FAJ washing machine repair in Dubai Marina. Get same day Bosch, Daewoo, Siemens, Teka, Samsung fridge, dryer, dishwasher, oven service near me");
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-  const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Dubai Marina – Dishwasher, Oven, Stove Service & Maintenance in Dubai Marina");
-  const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-in-dubai-marina-fridge-repair-in-dubai-marina-refrigerator-repairing-in-dubai-marina-cooker-stove-oven-cooking-range-repairs-fix-service-centre-in-dubai-marina-dishwasher-instal/");
+  const metaKeyword = String(Keyword || "Washing Machine in dubai marina, Washing Machine Repair in Dubai Marina, Fridge Repair in Dubai Marina, Refrigerator Repairing in Dubai Marina, Cooker Stove Oven Cooking Range Repairs Fix Service Centre in Dubai Marina, Dishwasher Installation in Dubai Marina, Appliance Repair in Dubai Marina");
+  const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-in-dubai-marina-fridge-repair-in-dubai-marina-refrigerator-repairing-in-dubai-marina-cooker-stove-oven-cooking-range-repairs-fix-service-centre-in-dubai-marina-dishwasher-instal/").replace(/\/?$/, '/');
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -615,7 +615,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
-            <h3 className="cs_fs_30 text-light">FAQ's</h3>
+            <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 

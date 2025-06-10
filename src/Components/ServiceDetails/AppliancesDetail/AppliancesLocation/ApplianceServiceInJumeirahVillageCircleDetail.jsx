@@ -21,8 +21,8 @@ const ApplianceServiceInJumeirahVillageCircleDetail = ({ subtitle, title, review
     const metadescription = String(description || "Looking for appliance service in Jumeirah Village Circle. Get fridge repair near me in Dubai. Call 043300002 to fix washing machine & oven");
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Jumeirah Village Circle Dubai– Home Appliance Installation, Maintenance & Service Centre in Jumeirah Village Circle Dubai");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah-village-circle");
+    const metaKeyword = String(Keyword || "Washing Machine in Jumeirah Village Circle, Fridge Repair in Jumeirah Village Circle, Oven Repair in Jumeirah Village Circle, Appliance Service in Jumeirah Village Circle, Appliance Repair in Jumeirah Village Circle, Home Appliances Service in Jumeirah Village Circle");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah-village-circle/").replace(/\/?$/, '/');
 
 
     subtitle = "Testimonial"

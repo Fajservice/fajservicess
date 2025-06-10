@@ -22,8 +22,8 @@ const ApplianceServiceInUmmAlSheifDetail = ({ subtitle, title, reviewsbg, titleS
     const metadescription = String(description || "FAJ provides appliance services in Umm Al Sheif. Get fast fridge, dishwasher & washing machine repair near me in Dubai. Call us 043300002.");
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Umm Al Sheif Dubai – Home Appliance Installation, Maintenance & Service Centre in Umm Al Sheif Dubai");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-umm-al-sheif");
+    const metaKeyword = String(Keyword || "Washing Machine in umm al sheif, Fridge Repair in Umm Al Sheif, Dishwasher Repair in Umm Al Sheif, Appliance Service in Umm Al Sheif, Home Appliances Repair in Umm Al Sheif, Appliance Repair Dubai");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-umm-al-sheif/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -620,7 +620,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                 {/* FAQ's */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
                     <div className="container">
-                        <h3 className="cs_fs_30 text-light">FAQ's</h3>
+                        <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
                         <div className="cs_accordians_wrapper cs_style_1 p-0">
 

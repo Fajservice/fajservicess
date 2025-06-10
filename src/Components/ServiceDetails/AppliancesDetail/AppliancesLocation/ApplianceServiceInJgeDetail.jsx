@@ -22,8 +22,8 @@ const ApplianceServiceInJgeDetail = ({ subtitle, title, reviewsbg, titleSeo, des
     const metadescription = String(description || "Looking for appliance service in JGE. Call 043300002 for fridge repair near me in Dubai. Get fix washing machine, dishwasher, refrigerator");
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in JGE Dubai – Home Appliance Installation, Maintenance & Service Centre in JGE Dubai");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jge");
+    const metaKeyword = String(Keyword || "Washing Machine in JGE, Appliance Service in JGE, Fridge Repair Near Me, Dishwasher Repair Dubai, Refrigerator Repair Dubai, Home Appliances Service Dubai");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jge/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

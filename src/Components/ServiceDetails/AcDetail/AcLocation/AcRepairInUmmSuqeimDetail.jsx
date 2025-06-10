@@ -23,8 +23,7 @@ const AcRepairInUmmSuqeimDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
     const metadescription = String(description || "Gas Filling and AC Services in Umm Suqeim Dubai. Call an 043300002 for AC compressor fixing, motor repair and general maintenance near me.");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Umm Suqeim Dubai – Home Appliance Installation, Maintenance & Service Centre in Umm Suqeim Dubai");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-umm-suqeim");
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-umm-suqeim/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -422,7 +421,11 @@ const AcRepairInUmmSuqeimDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                 {/* FAQ&apos;s */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
                     <div className="container">
+<<<<<<< HEAD
                         <h3 className="cs_fs_30 text-light">FAQ&apos;spos;spos;s</h3>
+=======
+                        <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
+>>>>>>> f7cac9378b1ffdba1402e00a12e161e17c3c6314
 
                         <div className="cs_accordians_wrapper cs_style_1 p-0">
 

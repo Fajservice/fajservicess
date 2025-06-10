@@ -22,7 +22,8 @@ const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSe
   const metadescription = String(description || "De'longhi coffee machine repair Dubai. Trusted De Longhi coffee machine & espresso maintenance & services near you. Fix descaling & cleaning near me");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Delonghi Coffee Machine Repair, Delonghi Coffee Machine Service, Delonghi Coffee Machine Maintenance");
-  const metaURL = String(URL || "https://www.fajservices.ae/delonghi-coffee-machine-repair/");
+  const metaURL = String(URL || "https://www.fajservices.ae/delonghi-coffee-machine-repair/").replace(/\/?$/, '/');
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/delonghi-coffee-machine-repair.avif");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -127,7 +128,15 @@ const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSe
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
-          <meta property="og:url" content={metaURL} />
+           <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
         </Helmet>
       </HelmetProvider>
       <HeaderForm />
@@ -605,7 +614,11 @@ Regular maintenance is important for all types of coffee machines, whether for h
         {/* FAQ&apos;s */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
+<<<<<<< HEAD
             <h3 className="cs_fs_30 text-light">FAQ&apos;spos;spos;s</h3>
+=======
+            <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
+>>>>>>> f7cac9378b1ffdba1402e00a12e161e17c3c6314
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 

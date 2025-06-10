@@ -21,8 +21,8 @@ const AppliancesServiceInDamacHillsDetail = ({ subtitle, title, reviewsbg, title
   const metadescription = String(description || "Get appliance services in Damac Hills. FAJ Experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher, oven");
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-  const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in  Damac Hills Dubai – Home Appliance Installation, Maintenance & Service Centre in Damac Hills Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-damac-hills/");
+  const metaKeyword = String(Keyword || "Washing Machine in Damac Hills, Refrigerator Repair in Damac Hills, Dishwasher Repair in Damac Hills, Oven Repair in Damac Hills, Appliance Service in Damac Hills, Appliance Repair in Damac Hills, Appliance Maintenance in Damac Hills");
+  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-damac-hills/").replace(/\/?$/, '/');
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -666,7 +666,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
-            <h3 className="cs_fs_30 text-light">FAQ's</h3>
+            <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 

@@ -21,8 +21,8 @@ const metatitle = String(titleSeo || "Appliances Services in Jebel Ali Village -
 const metadescription = String(description || "Best appliance services in Jebel Ali Village. FAJ offers fridge repair near me. Call 043300002 for dishwasher, oven, washing machine maintenance");
 const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Jebel Ali Village Dubai – Home Appliance Installation, Maintenance & Service Centre in Jebel Ali Village Dubai");
-const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jebel-ali-village/");
+const metaKeyword = String(Keyword || "Washing Machine in jebel ali village, Fridge Repair in jebel ali village, Dishwasher Repair in jebel ali village, Oven Repair in jebel ali village, Appliance Services in jebel ali village, Appliances Services in Jebel Ali Village, Appliances Services in Dubai, Appliances Services in Sharjah, Appliances Services in Abu Dhabi");
+const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jebel-ali-village/").replace(/\/?$/, '/');
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -616,7 +616,7 @@ const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in
         {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
-            <h3 className="cs_fs_30 text-light">FAQ's</h3>
+            <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 

@@ -25,8 +25,12 @@ const AcRepairInVictoryHeightsDetail = ({ subtitle, title, reviewsbg, titleSeo, 
     const metadescription = String(description || "FAJ offers AC services in Victory Heights, Dubai. We specialize in AC repair and maintenance for split and central units. Call us at 043300002.");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
+<<<<<<< HEAD
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-victory-heights");
     const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+=======
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-victory-heights/").replace(/\/?$/, '/');
+>>>>>>> f7cac9378b1ffdba1402e00a12e161e17c3c6314
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -423,7 +427,11 @@ const AcRepairInVictoryHeightsDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                 {/* FAQ&apos;spos;s */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
                     <div className="container">
+<<<<<<< HEAD
                         <h3 className="cs_fs_30 text-light">FAQ&apos;spos;spos;spos;s</h3>
+=======
+                        <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
+>>>>>>> f7cac9378b1ffdba1402e00a12e161e17c3c6314
 
                         <div className="cs_accordians_wrapper cs_style_1 p-0">
 

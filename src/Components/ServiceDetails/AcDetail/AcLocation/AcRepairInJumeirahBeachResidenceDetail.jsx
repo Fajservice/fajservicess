@@ -26,8 +26,8 @@ const AcRepairInJumeirahBeachResidenceDetail = ({ subtitle, title, reviewsbg, ti
     const metadescription = String(description || "If you have a fcu system that is in need of repair, call us at 043300002 for ac services in jumeirah beach residence dubai. Air con maintenance");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jumeirah-beach-residence");
- const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jumeirah-beach-residence/").replace(/\/?$/, '/');
+
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

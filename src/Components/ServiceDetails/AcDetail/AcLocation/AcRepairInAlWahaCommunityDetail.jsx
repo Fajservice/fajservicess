@@ -26,7 +26,7 @@ const AcRepairInAlWahaCommunityDetail = ({ subtitle, title, reviewsbg, titleSeo,
     const metadescription = String(description || "FAJ 043300002 AC Services in Al Waha Community Dubai. We are experts in central air conditioner repair and maintenance near me Dubai AC fix");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-waha-community/");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-waha-community/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

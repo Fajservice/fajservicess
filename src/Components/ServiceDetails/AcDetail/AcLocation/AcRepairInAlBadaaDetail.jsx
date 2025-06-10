@@ -24,10 +24,16 @@ const AcRepairInAlBadaaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
     const metatitle = String(titleSeo || "Best AC Service Al Badaa - Air Conditioning Repair Near Me");
     const metadescription = String(description || "Call an 043300002 AC Services in Al Badaa Dubai. FAJ here help in split & central AC (Air Conditioner) cleaning service near me Dubai Fixing aircon");
     const metaAuthor = String(Author || "Faj Technical Services");
+<<<<<<< HEAD
     const metaKeyword = String(Keyword || "AC services Al Rashidiya, AC maintenance Dubai, inverter AC repair, split AC service, central AC maintenance, Dubai AC technician");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-badaa");
     const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
 
+=======
+    const metaKeyword = String(Keyword || "AC Service Al Badaa, AC Repair Al Badaa, Air Conditioning Service Al Badaa, Air Conditioner Repair Al Badaa, Split AC Service Al Badaa, Central AC Service Al Badaa, Aircon Cleaning Al Badaa, Air Conditioner Maintenance Al Badaa");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-badaa").replace(/\/?$/, '/');
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+>>>>>>> f7cac9378b1ffdba1402e00a12e161e17c3c6314
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     reviewsbg = "img/testimonialbg.jpg"
@@ -101,6 +107,7 @@ const AcRepairInAlBadaaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                     <meta property="og:url" content={metaURL} />
                     <meta property="og:image" content={metaImage} />
 
+<<<<<<< HEAD
                     {/* Twitter Card */}
                     <meta name="twitter:card" content="summary_large_image" />
                     <meta name="twitter:title" content={metatitle} />
@@ -108,6 +115,15 @@ const AcRepairInAlBadaaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                     <meta name="twitter:image" content={metaImage} />
                     <meta name="twitter:url" content={metaURL} />
                 </Helmet>
+=======
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
+          </Helmet>
+>>>>>>> f7cac9378b1ffdba1402e00a12e161e17c3c6314
             </HelmetProvider>
             <HeaderForm />
             <div className="cs_service_details">
@@ -117,7 +133,11 @@ const AcRepairInAlBadaaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                         <h1 className="cs_fs_30">AC Service in Al Badaa</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
+<<<<<<< HEAD
                             <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
+=======
+                        <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
+>>>>>>> f7cac9378b1ffdba1402e00a12e161e17c3c6314
 
                         <div id="get-quote" className=" mt-3">
                             <div className="container d-flex justify-content-center align-items-center gap-3">

@@ -25,7 +25,8 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
   const metadescription = String(description || "Reliable ice maker repair in Dubai. Contact FAJ for a fast ice maker repair service near me. We are specializing in Hoshizaki, Scotsman");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Ice Maker Repair, IceMaker Repair, Commercial Ice Maker Repair Service");
-  const metaURL = String(URL || "https://www.fajservices.ae/ice-maker-repair/");
+  const metaURL = String(URL || "https://www.fajservices.ae/ice-maker-repair/").replace(/\/?$/, '/');
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/newicemaker.avif");
 
 
   subtitle = "Testimonial"
@@ -131,8 +132,15 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
                 <meta property="og:locale" content="en_US" />
                 <meta property="og:title" content={metatitle} />
                 <meta property="og:description" content={metadescription} />
-                <meta property="og:url" content={metaURL} />
-              </Helmet>
+               <meta property="og:image" content={metaImage} />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
+        </Helmet>
             </HelmetProvider>
       <HeaderForm />
 
@@ -679,7 +687,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , descripti
         {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
-            <h3 className="cs_fs_30 text-light">FAQ's</h3>
+            <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 

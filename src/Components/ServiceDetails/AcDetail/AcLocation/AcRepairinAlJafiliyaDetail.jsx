@@ -26,7 +26,7 @@ const AcRepairinAlJafiliyaDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
     const metadescription = String(description || "We offer best appliance services in Al Jafiliya. Get washing machine repair near me in Dubai. Book 043300002 for fridge, oven, dishwasher maintenance.");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Repair in Al Jafiliya, Air Conditioning Service in Al Jafiliya, Air Con Maintenance & AC Installation in Al Jafiliya");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-jafiliya");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-jafiliya/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
 
     subtitle = "Testimonial"

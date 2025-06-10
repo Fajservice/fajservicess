@@ -21,8 +21,8 @@ const ApplianceServiceInDubaiSportCityDetail = ({ subtitle, title, reviewsbg, ti
     const metadescription = String(description || "We offer best appliance services in Dubai Sports City. Get fridge repair near me. Book 043300002 for oven, dishwasher, washing machine maintenance");
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Dubai Sports City – Home Appliance Installation, Maintenance & Service Centre in Dubai Sports City");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-sports-city");
+    const metaKeyword = String(Keyword || "Washing Machine in dubai Sports City, Fridge Repair in Dubai Sports City, Dishwasher Repair in Dubai Sports City, Oven Repair in Dubai Sports City, Appliance Service in Dubai Sports City");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-sports-city/").replace(/\/?$/, '/');
 
 
     subtitle = "Testimonial"

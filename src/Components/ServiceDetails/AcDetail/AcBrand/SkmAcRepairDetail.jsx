@@ -22,8 +22,8 @@ const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
   const metatitle = String(titleSeo || "SKM AC Repair in Dubai - SKM Air Conditioner Service Near");
   const metadescription = String(description || "SKM #1 Brand in UAE. Call us at 043300002 for SKM AC Repair in Dubai, We are experts in HVAC & Central Air Conditioner Maintenance Service near by you.");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "");
-  const metaURL = String(URL || "https://www.fajservices.ae/skm-ac-repair-in-dubai-skm-ac-maintenance-in-dubai-skm-ac-fix-in-dubai-skm-ac-service-in-dubai-skm-air-condition-repair-in-dubai-skm-air-condition-maintenance-in-dubai-skm-air-condition-maintenance-in/");
+  const metaKeyword = String(Keyword || "Skm AC Repair, Skm Air Conditioner Service, Skm AC Maintenance, Skm Air Conditioner Repair, Skm Air Conditioner Service Dubai, Skm Air Conditioner Maintenance Dubai, Skm AC Fix Dubai, Skm AC Service Dubai");
+  const metaURL = String(URL || "https://www.fajservices.ae/skm-ac-repair-in-dubai-skm-ac-maintenance-in-dubai-skm-ac-fix-in-dubai-skm-ac-service-in-dubai-skm-air-condition-repair-in-dubai-skm-air-condition-maintenance-in-dubai-skm-air-condition-maintenance-in/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
@@ -89,6 +89,7 @@ const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
           <meta name="robots" content="index, follow" />
 
 
+          <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />

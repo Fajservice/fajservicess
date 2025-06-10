@@ -22,8 +22,8 @@ const ApplianceServiceInDubaiMarinaDetail = ({ subtitle, title, reviewsbg, title
     const metadescription = String(description || "We offer best appliance Dubai Marina. Get washing machine repair near me in Dubai. Book 043300002 for fridge, oven, dishwasher maintenance");
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-    const metaKeyword = String(Keyword || "Repair Services");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-marina");
+    const metaKeyword = String(Keyword || "Washine Machine Repair in Dubai Marina, Refrigerator Repair in Dubai Marina, Dishwasher Repair in Dubai Marina, Oven Repair in Dubai Marina, Appliance Service in Dubai Marina, Appliance Maintenance in Dubai Marina, Appliance Repair in Dubai Marina");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-marina/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

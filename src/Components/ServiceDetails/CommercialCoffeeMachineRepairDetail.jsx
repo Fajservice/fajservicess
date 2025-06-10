@@ -21,7 +21,8 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
   const metadescription = String(description || "Get fast & reliable coffee machine repair in Dubai. Our experts in espresso machines for office & commercial maintenance services. Call now 04 3300002");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial COffee Machine repair, 3 Group Coffee Machine Repair");
-  const metaURL = String(URL || "https://www.fajservices.ae/coffee-machine-repair/");
+  const metaURL = String(URL || "https://www.fajservices.ae/coffee-machine-repair/").replace(/\/?$/, '/');
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Coffee-machine-servicing-title-image.avif");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -127,8 +128,15 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                 <meta property="og:locale" content="en_US" />
                 <meta property="og:title" content={metatitle} />
                 <meta property="og:description" content={metadescription} />
-                <meta property="og:url" content={metaURL} />
-              </Helmet>
+               <meta property="og:image" content={metaImage} />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
+        </Helmet>
             </HelmetProvider>
       <HeaderForm />
 

@@ -21,8 +21,8 @@ const ApplianceServiceInDipDetail = ({ subtitle, title, reviewsbg, titleSeo, des
     const metadescription = String(description || "FAJ offers appliance service in DIP. Call 043300002 for fridge repair near me in Dubai. Get to fix washing machine, refrigerator, vacuum cleaner");
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in DIP Dubai – Home Appliance Installation, Maintenance & Service Centre in DIP Dubai");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dip");
+    const metaKeyword = String(Keyword || "Washing Machine in DIP, Fridge Repair in DIP, Appliance Service in DIP, Appliance Repair in DIP, Home Appliances Service in DIP, Home Appliances Repair in DIP, Appliance Maintenance in DIP, Appliance Installation in DIP");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dip/").replace(/\/?$/, '/');
 
 
     subtitle = "Testimonial"

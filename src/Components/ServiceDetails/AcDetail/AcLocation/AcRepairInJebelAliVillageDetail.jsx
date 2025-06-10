@@ -25,8 +25,8 @@ const AcRepairInJebelAliVillageDetail = ({ subtitle, title, reviewsbg, titleSeo,
     const metadescription = String(description || "Call now 043300002 for AC Services in Jebel Ali Village Dubai. FAJ here to help you package unit, ceiling air conditioner repair & maintenance near.");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jebel-ali-village");
- const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jebel-ali-village/").replace(/\/?$/, '/');
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     reviewsbg = "img/testimonialbg.jpg"
@@ -425,7 +425,11 @@ const AcRepairInJebelAliVillageDetail = ({ subtitle, title, reviewsbg, titleSeo,
                 {/* FAQ&apos;s */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
                     <div className="container">
+<<<<<<< HEAD
                         <h3 className="cs_fs_30 text-light">FAQ&apos;spos;s</h3>
+=======
+                        <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
+>>>>>>> f7cac9378b1ffdba1402e00a12e161e17c3c6314
 
                         <div className="cs_accordians_wrapper cs_style_1 p-0">
 

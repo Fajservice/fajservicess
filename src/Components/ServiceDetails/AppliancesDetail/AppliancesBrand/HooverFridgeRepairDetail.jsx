@@ -18,8 +18,9 @@ const HooverFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
   const metatitle = String(titleSeo || "Hoover Fridge Repair - Washing Machine Service Dubai");
   const metadescription = String(description || "Hoover Fridge Repair Dubai - Expert Hoover washing machine repairs, refrigerator, dishwaher, gas / electric cooker, oven, service near me 043300002");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "Repair Services");
-  const metaURL = String(URL || "https://www.fajservices.ae/hoover-fridge-repair-in-dubai-hoover-washing-machine-repair-in-dubai-hoover-cooker-repair-in-dubai-hoover-oven-repair-in-dubai-hoover-appliances-maintenance-in-dubai-hoover-refrigerator-fix-repairs-se/");
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaKeyword = String(Keyword || "Hoover Fridge Repair, Hoover Washing Machine Repair, Hoover Cooker Repair, Hoover Oven Repair, Hoover Appliances Maintenance, Hoover Refrigerator Fix, Hoover Appliance Service Dubai");
+  const metaURL = String(URL || "https://www.fajservices.ae/hoover-fridge-repair-in-dubai-hoover-washing-machine-repair-in-dubai-hoover-cooker-repair-in-dubai-hoover-oven-repair-in-dubai-hoover-appliances-maintenance-in-dubai-hoover-refrigerator-fix-repairs-se/").replace(/\/?$/, '/');
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -124,7 +125,15 @@ const HooverFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
-          <meta property="og:url" content={metaURL} />
+           <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
         </Helmet>
       </HelmetProvider>
       <HeaderForm />
@@ -166,7 +175,7 @@ const HooverFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`}  loading="lazy" alt="Post Image" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`}  loading="lazy" alt="Hoover Fridge Repair" />
               </div>
             </div>
             <AppliancesAppointmentCol></AppliancesAppointmentCol>
@@ -186,7 +195,7 @@ const HooverFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`}  loading="lazy" alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`}  loading="lazy" alt="Hoover Fridge Repair" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">

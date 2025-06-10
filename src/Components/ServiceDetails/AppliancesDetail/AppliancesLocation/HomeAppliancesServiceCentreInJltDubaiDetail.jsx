@@ -21,8 +21,8 @@ const HomeAppliancesServiceCentreInJltDubaiDetail = ({ subtitle, title, reviewsb
   const metadescription = String(description || "FAJ offers home appliances service in JLT, Dail 043300002 for Electrolux, LG, Daewoo, Bosch, Teka fridge, washing machine, oven, dishwasher repair");
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-  const metaKeyword = String(Keyword || " Washing Machine & Fridge Repair in JLT Dubai – Home Appliance Installation, Maintenance & Service Centre in JLT Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/home-appliances-installation-maintenance-repair-fix-service-centre-in-jlt-dubai/");
+  const metaKeyword = String(Keyword || " Washing Machine in Jlt, Refrigerator in Jlt, Dishwasher in Jlt, Oven in Jlt, Tumble Dryer in Jlt, Home Appliances Service Centre in Jlt, Home Appliances Repair Service in Jlt, Home Appliances Installation Service in Jlt, Home Appliances Maintenance Service in Jlt");
+  const metaURL = String(URL || "https://www.fajservices.ae/home-appliances-installation-maintenance-repair-fix-service-centre-in-jlt-dubai/").replace(/\/?$/, '/');
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -615,7 +615,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
-            <h3 className="cs_fs_30 text-light">FAQ's</h3>
+            <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 

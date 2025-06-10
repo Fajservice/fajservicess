@@ -25,9 +25,9 @@ const AcRepairInQuozIndustrialAreaDetail = ({ subtitle, title, reviewsbg, titleS
   const metatitle = String(titleSeo || "Best AC Services in Al Quoz Industrial Area Dubai Near Me");
   const metadescription = String(description || "Call now on 043300002 for AC Services in Al Quoz Industrial Area - Book an your Air Conditioner Maintenance & Aircon Repair Near me in Dubai");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "");
-  const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-quoz-industrial-area");
- const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+  const metaKeyword = String(Keyword || "AC Service in Al Quoz Industrial Area, AC Repair in Al Quoz Industrial Area, Air Conditioner Maintenance in Al Quoz Industrial Area, Aircon Repair in Al Quoz Industrial Area, AC Cleaning in Al Quoz Industrial Area, AC Installation in Al Quoz Industrial Area, AC Technician in Al Quoz Industrial Area");
+  const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-quoz-industrial-area").replace(/\/?$/, '/');
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   reviewsbg = "img/testimonialbg.jpg"
@@ -99,7 +99,14 @@ const AcRepairInQuozIndustrialAreaDetail = ({ subtitle, title, reviewsbg, titleS
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
-          <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
         </Helmet>
       </HelmetProvider>
       <HeaderForm />
@@ -419,7 +426,7 @@ const AcRepairInQuozIndustrialAreaDetail = ({ subtitle, title, reviewsbg, titleS
         {/* FAQ&apos;s */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
-            <h3 className="cs_fs_30 text-light">FAQ&apos;spos;spos;s</h3>
+            <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 

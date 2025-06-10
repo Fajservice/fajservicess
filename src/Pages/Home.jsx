@@ -17,7 +17,7 @@ const Home = ({titleSeo, description, Author, Keyword, URL }) => {
   const metadescription = String(description || "FAJ Established in 2010, / We offer professional AC Repair, Freezer, Refrigerator, Fridge, Washing Machine Maintenance Service Company Dubai"); 
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Ac Repair, Ac Repair In Dubai, Ac Repair Service, Ac Service, Washing Machine Repair, Washing Machine Service, Refrigerator Repair, Freezer Repair, Fridge Repair, Appliances Repair, Appliances Service, Appliances Fix, Appliances Maintenance, Appliances Installation, Appliances Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/");
+  const metaURL = String(URL || "https://www.fajservices.ae/").replace(/\/?$/, '/');
     return (
         <>
         <HelmetProvider>

@@ -22,8 +22,8 @@ const AppliancesServicesInDiscoveryGardensDetail = ({ subtitle, title, reviewsbg
     const metadescription = String(description || "Best Appliance Services in Discovery Gardens. Get refrigerator repair near me in Dubai. Call 043300002 to fix your washing machine, dishwasher & stove");
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Discovery Gardens Dubai – Home Appliance Installation, Maintenance & Service Centre in Discovery Gardens Dubai");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-discovery-gardens/");
+    const metaKeyword = String(Keyword || "Washing Machine in Discovery Gardens, Refrigerator Repair in Discovery Gardens, Dishwasher Repair in Discovery Gardens, Stove Repair in Discovery Gardens, Appliance Services in Discovery Gardens, Appliance Repair in Dubai, Appliance Maintenance in Dubai");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-discovery-gardens/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -619,7 +619,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                 {/* FAQ's */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
                     <div className="container">
-                        <h3 className="cs_fs_30 text-light">FAQ's</h3>
+                        <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
                         <div className="cs_accordians_wrapper cs_style_1 p-0">
 

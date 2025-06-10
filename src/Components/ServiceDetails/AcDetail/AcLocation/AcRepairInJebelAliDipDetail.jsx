@@ -25,8 +25,8 @@ const AcRepairInJebelAliDipDetail = ({ subtitle, title, reviewsbg, titleSeo, des
     const metadescription = String(description || "Get Fast AC Services in Jebel Ali DIP. FAJ providing central, hvac, split air condition maintenance & repair near me Dubai ac fixing service");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jebel-ali-dip");
- const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jebel-ali-dip/").replace(/\/?$/, '/');
+
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

@@ -9,7 +9,8 @@ const Blog1 = ({titleSeo , description, Author, Keyword, URL }) => {
   const metadescription = String(description || "Welcome to FAJ Services blog! Expert insights, tips, and tricks for homeowners. Explore projects, maintenance, and services for home comfort.");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Latest Blogs");
-  const metaURL = String(URL || "https://www.fajservices.ae/blogs/");
+  const metaURL = String(URL || "https://www.fajservices.ae/blogs/").replace(/\/?$/, '/');
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/page_heading_1.avif");
 
 
 
@@ -27,7 +28,14 @@ const Blog1 = ({titleSeo , description, Author, Keyword, URL }) => {
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
-          <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
         </Helmet>
       </HelmetProvider>
 
@@ -39,7 +47,7 @@ const Blog1 = ({titleSeo , description, Author, Keyword, URL }) => {
             {data.map((item, i) => (
               <div key={i} className="col-lg-4">
                 <div className="cs_post cs_style_1 cs_type_1">
-                  <Link to={`/blog/${item.slug}`} className="cs_post_thumbnail cs_mb_16 position-relative">
+                  <Link to={`/blog/${item.slug}/`} className="cs_post_thumbnail cs_mb_16 position-relative">
                     <img src={item.img} alt="Post Image" />
                     <div className="cs_post_date cs_accent_bg cs_fs_18 cs_semibold cs_white_color cs_center position-absolute">
                       {item.date}

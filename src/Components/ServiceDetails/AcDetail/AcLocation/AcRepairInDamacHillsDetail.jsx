@@ -25,8 +25,8 @@ const AcRepairInDamacHillsDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
     const metadescription = String(description || "Get same day AC repair and service in Damac Hills Dubai. Call now 043300002 for your Gree air conditioner repairs and fix Gree AC error near you Dubai");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-repair-and-ac-service-in-damac-hills");
- const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-repair-and-ac-service-in-damac-hills/").replace(/\/?$/, '/');
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     reviewsbg = "img/testimonialbg.jpg"

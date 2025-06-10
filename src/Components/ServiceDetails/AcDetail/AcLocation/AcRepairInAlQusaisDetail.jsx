@@ -24,7 +24,7 @@ const AcRepairInAlQusaisDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const metadescription = String(description || "Get top-notch AC repair in Al Qusais with experts. We offer cost-effective solutions for all your HVAC, split & central air conditioner Dubai 043300002ac-repair-al-qusais");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Repair in Al Qusais,, Air Conditioning Service in Al Qusais, Air Con Maintenance & AC Installation in Al Qusais");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-repair-al-qusais");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-repair-al-qusais/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
@@ -423,7 +423,11 @@ const AcRepairInAlQusaisDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                 {/* FAQ&apos;spos;s */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
                     <div className="container">
+<<<<<<< HEAD
                         <h3 className="cs_fs_30 text-light">FAQ&apos;spos;s</h3>
+=======
+                        <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
+>>>>>>> f7cac9378b1ffdba1402e00a12e161e17c3c6314
 
                         <div className="cs_accordians_wrapper cs_style_1 p-0">
 

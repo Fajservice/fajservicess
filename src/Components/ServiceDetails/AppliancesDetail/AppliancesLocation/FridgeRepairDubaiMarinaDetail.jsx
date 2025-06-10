@@ -21,8 +21,8 @@ const FridgeRepairDubaiMarinaDetail = ({ subtitle, title, reviewsbg, titleSeo, d
   const metadescription = String(description || "Need fridge repair Dubai Marina? Call FAJ at 043300002 washing machine, dishwasher, refrigerator, and oven repair service near me Dubai Marina");
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-  const metaKeyword = String(Keyword || "Fridge repair in Dubai Marina – Refrigerator maintenance service centre in Dubai Marina");
-  const metaURL = String(URL || "https://www.fajservices.ae/fridge-repair-dubai-marina/");
+  const metaKeyword = String(Keyword || "Fridge repair in Dubai Marina, refrigerator repair Dubai Marina");
+  const metaURL = String(URL || "https://www.fajservices.ae/fridge-repair-dubai-marina/").replace(/\/?$/, '/');
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -615,7 +615,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
-            <h3 className="cs_fs_30 text-light">FAQ's</h3>
+            <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 

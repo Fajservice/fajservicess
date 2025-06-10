@@ -21,8 +21,8 @@ const ApplianceServiceInAlWahaCommunityDetail = ({ subtitle, title, reviewsbg, t
     const metadescription = String(description || "Get the best appliance services in Al Waha Community. Call 043300002 for washing machine repair near me in Dubai, we also fix fridge, dishwasher ");
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Al Waha Community Dubai – Home Appliance Installation, Maintenance & Service Centre in Al Waha Community Dubai");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-waha-community/");
+    const metaKeyword = String(Keyword || "Washing Machine Repair in Al Waha Community, Fridge Repair in Al Waha Community, Dishwasher Repair in Al Waha Community, Appliance Services in Al Waha Community");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-waha-community/").replace(/\/?$/, '/');
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     reviewsbg = "img/testimonialbg.jpg"
@@ -144,7 +144,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in The Villa</h1>
+                        <h1 className="cs_fs_30">Home Appliance Service in Al Waha Community</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>

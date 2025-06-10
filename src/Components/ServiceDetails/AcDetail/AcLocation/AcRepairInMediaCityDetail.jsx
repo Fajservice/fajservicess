@@ -25,8 +25,8 @@ const AcRepairInMediaCityDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
     const metadescription = String(description || "Get it done affordably. Dail now 043300002 for ac services in media city dubai and the best chiller air conditioner repair & maintenance and fix aircon");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-media-city");
- const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-media-city/").replace(/\/?$/, '/');
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     reviewsbg = "img/testimonialbg.jpg"

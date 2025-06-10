@@ -18,8 +18,9 @@ const SiemensHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
     const metatitle = String(titleSeo || "Siemens Washing Machine Repair – Refrigerator Service Dubai ");
     const metadescription = String(description || " Get Siemens home appliances Repair - FAJ Experts Siemens fridges, Simenes dishwasher, dryer, washing machine, stove service near me 04 3300002");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "Siemens Washing Repair Services, iemens home appliances Repair");
-    const metaURL = String(URL || "https://www.fajservices.ae/siemens-home-appliances-repair/");
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaKeyword = String(Keyword || "Siemens home appliances repair, Siemens washing machine repair, Siemens fridge repair, Siemens dishwasher repair, Siemens dryer repair, Siemens stove service Dubai");
+    const metaURL = String(URL || "https://www.fajservices.ae/siemens-home-appliances-repair/").replace(/\/?$/, '/');
 
 
     subtitle = "Testimonial"
@@ -123,7 +124,15 @@ const SiemensHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                     <meta property="og:locale" content="en_US" />
                     <meta property="og:title" content={metatitle} />
                     <meta property="og:description" content={metadescription} />
-                    <meta property="og:url" content={metaURL} />
+                     <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />
@@ -164,7 +173,7 @@ const SiemensHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`}  loading="lazy" alt="Post Image" />
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`}  loading="lazy" alt="Siemens Home Appliances Repair" />
                             </div>
                         </div>
                         <AppliancesAppointmentCol></AppliancesAppointmentCol>
@@ -184,7 +193,7 @@ const SiemensHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`}  loading="lazy" alt="Post Image" />
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`}  loading="lazy" alt="Siemens Home Appliances Repair" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">

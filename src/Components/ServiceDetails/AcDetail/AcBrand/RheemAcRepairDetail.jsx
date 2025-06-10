@@ -21,8 +21,8 @@ const RheemAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
   const metatitle = String(titleSeo || "Rheem AC Repair in Dubai - Air Conditioner Maintenance Near");
   const metadescription = String(description || "Best Rheem Air Conditioning in UAE. Call at 043300002 for Sameday of Your Rheem AC (Air Conditioner) Repair, Maintenance & Service in Dubai");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "");
-  const metaURL = String(URL || "https://www.fajservices.ae/rheem-ac-maintenance-in-dubai");
+  const metaKeyword = String(Keyword || "Rheem AC Repair, Rheem Air Conditioner Service, Rheem AC Maintenance Dubai, Rheem AC Repair Dubai, Rheem Air Conditioning Dubai, Rheem AC Service Dubai, Rheem Air Conditioner Repair Dubai, Rheem AC Installation Dubai, Rheem HVAC Service Dubai");
+  const metaURL = String(URL || "https://www.fajservices.ae/rheem-ac-maintenance-in-dubai").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
@@ -86,6 +86,7 @@ const RheemAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
 
+          <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />

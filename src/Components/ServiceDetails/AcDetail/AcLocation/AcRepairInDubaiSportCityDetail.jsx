@@ -25,8 +25,8 @@ const AcRepairInDubaiSportCityDetail = ({ subtitle, title, reviewsbg, titleSeo, 
     const metadescription = String(description || "We offer best appliance services in Dubai Sports City. Get fridge repair near me. Book 043300002 for oven, dishwasher, washing machine maintenance");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-sports-city");
- const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-sports-city/").replace(/\/?$/, '/');
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     reviewsbg = "img/testimonialbg.jpg"

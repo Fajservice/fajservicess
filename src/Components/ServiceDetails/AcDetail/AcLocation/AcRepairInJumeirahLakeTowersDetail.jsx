@@ -25,8 +25,8 @@ const AcRepairInJumeirahLakeTowersDetail = ({ subtitle, title, reviewsbg, titleS
     const metadescription = String(description || "If you are looking for best ac services in jumeirah lake towers dubai. Call now FAJ 043300002 for centralized air conditioning system servicing..");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jumeirah-lake-towers");
- const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jumeirah-lake-towers/").replace(/\/?$/, '/');
+
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

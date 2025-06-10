@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInBusinessBay.json';
 import { HelmetProvider, Helmet } from "react-helmet-async";
 
@@ -23,8 +24,8 @@ const AcRepairandServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, titl
     const metatitle = String(titleSeo || "AC Repair and Service in Town Square - Gree AC Maintenance");
     const metadescription = String(description || "Get same day AC repair and service in Town Square Dubai. Call now 043300002 for your Gree air conditioner repairs and fix Gree AC error near you Dubai");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "AC services Al Rashidiya, AC maintenance Dubai, inverter AC repair, split AC service, central AC maintenance, Dubai AC technician");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-repair-and-ac-service-in-town-square/");
+    const metaKeyword = String(Keyword || "AC Repair in Town Square, AC Service in Town Square, AC Maintenance in Town Square");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-repair-and-ac-service-in-town-square/").replace(/\/?$/, '/');
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"

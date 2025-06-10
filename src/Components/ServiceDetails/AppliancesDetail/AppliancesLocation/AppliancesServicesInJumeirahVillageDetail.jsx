@@ -20,8 +20,8 @@ const AppliancesServicesInJumeirahVillageDetail = ({ subtitle, title, reviewsbg,
     const metadescription = String(description || "Need appliance Service in Jumeirah Village. we provide refrigerator, washing machine repair near me, dryer cooker oven & more. Book now 043300002");
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Jumeirah Village Dubai – Home Appliance Installation, Maintenance & Service Centre in Jumeirah Village Dubai");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah-village/");
+    const metaKeyword = String(Keyword || "Washing Machine in Jumeirah Village, Refrigerator in Jumeirah Village, Appliance Repair in Jumeirah Village, Appliance Service in Jumeirah Village, Fridge Repair in Jumeirah Village, Washing Machine Repair in Jumeirah Village, Dryer Repair in Jumeirah Village, Cooker Oven Repair in Jumeirah Village");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah-village/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -615,7 +615,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                 {/* FAQ's */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
                     <div className="container">
-                        <h3 className="cs_fs_30 text-light">FAQ's</h3>
+                        <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
                         <div className="cs_accordians_wrapper cs_style_1 p-0">
 

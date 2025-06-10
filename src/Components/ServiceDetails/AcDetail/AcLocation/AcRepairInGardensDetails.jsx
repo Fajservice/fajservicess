@@ -26,8 +26,8 @@ const AcRepairInGardensDetails = ({ subtitle, title, reviewsbg, titleSeo, descri
     const metadescription = String(description || "Call 043300002 for AC Services in the Gardens Dubai. FAJ here to help central chiller unit maintenance & repair near me Dubai AC fixing");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-the-gardens");
- const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-the-gardens/").replace(/\/?$/, '/');
+
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

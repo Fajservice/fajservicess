@@ -27,8 +27,8 @@ const AcRepairInAlManaraDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const metatitle = String(titleSeo || "Best AC Services In Al Manara - Repair Service AC Dubai #1");
     const metadescription = String(description || "Book Sharjah AC and Dubai AC Services in Al Manara. Call 043300002 for inverter, multi-split AC (Air Conditioner) repair service near me location");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-manara");
+    const metaKeyword = String(Keyword || "AC Service in Al Manara, AC Repair in Al Manara, AC Maintenance in Al Manara, Air Conditioning Service in Al Manara, Air Conditioner Repair in Al Manara, Air Conditioning Maintenance in Al Manara, AC Cleaning in Al Manara, AC Installation in Al Manara, Air Conditioning Installation in Al Manara, AC Service Company in Al Manara, Air Conditioning Service Company in Al Manara, AC Repair Company in Al Manara, Air Conditioning Repair Company in Al Manara, AC Maintenance Company in Al Manara, Air Conditioning Maintenance Company in Al Manara");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-manara/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
 
     subtitle = "Testimonial"
@@ -426,7 +426,11 @@ const AcRepairInAlManaraDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                 {/* FAQ&apos;spos;s */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
                     <div className="container">
+<<<<<<< HEAD
                         <h3 className="cs_fs_30 text-light">FAQ&apos;spos;s</h3>
+=======
+                        <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
+>>>>>>> f7cac9378b1ffdba1402e00a12e161e17c3c6314
 
                         <div className="cs_accordians_wrapper cs_style_1 p-0">
 

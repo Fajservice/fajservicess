@@ -21,8 +21,9 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
   const metatitle = String(titleSeo || "Commercial Refrigeration Service - Food Chiller Repair Dubai");
   const metadescription = String(description || "Looking for a commercial refrigeration service in Dubai? Dail 043300002 for walk in cooler, chiller, and cold room repair and maintenance near me");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
-  const metaKeyword = String(Keyword || "Commercial Refrigeration Service, Food Chiller Repair");
-  const metaURL = String(URL || "https://www.fajservices.ae/commercial-refrigeration-maintenance/");
+  const metaKeyword = String(Keyword || "Commercial Refrigeration service, walk in cooler repair, chiller repair, cold room repair, commercial refrigeration maintenance");
+  const metaURL = String(URL || "https://www.fajservices.ae/commercial-refrigeration-maintenance/").replace(/\/?$/, '/');
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/commercial-ref%20-mc.jpg");
   
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -129,8 +130,15 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
                 <meta property="og:locale" content="en_US" />
                 <meta property="og:title" content={metatitle} />
                 <meta property="og:description" content={metadescription} />
-                <meta property="og:url" content={metaURL} />
-              </Helmet>
+               <meta property="og:image" content={metaImage} />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
+        </Helmet>
             </HelmetProvider>
       <HeaderForm />
 
@@ -620,7 +628,7 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
         {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
-            <h3 className="cs_fs_30 text-light">FAQ's</h3>
+            <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 

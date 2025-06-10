@@ -25,8 +25,8 @@ const AcRepairInNadAlHammarDetail = ({ subtitle, title, reviewsbg, titleSeo, des
     const metadescription = String(description || "Get Fast Ac Services in Nad Al Hammar. We are experts in Central & Split Air Conditioning Maintenance Service near me and Ac Fix in Dubai");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-nad-al-hammar");
- const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-nad-al-hammar/").replace(/\/?$/, '/');
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     reviewsbg = "img/testimonialbg.jpg"

@@ -25,8 +25,8 @@ const AcRepairInInvestmentsParkDetail = ({ subtitle, title, reviewsbg, titleSeo,
     const metadescription = String(description || "Dial 043300002 for AC Services in Dubai Investments Park. We are experts in central & split Air Conditioner repair & maintenance near me Dubai");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-dubai-investments-park");
- const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-dubai-investments-park/").replace(/\/?$/, '/');
+
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

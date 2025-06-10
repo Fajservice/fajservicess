@@ -23,8 +23,8 @@ const ApplianceServiceInArabianRanches2Detail = ({ subtitle, title, reviewsbg, t
     const metadescription = String(description || "Looking for appliance services in Arabian Ranches 2? Get expert refrigerator repair near me in Dubai. Call 043300002 to fix your washing machine");
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Arabian Ranches 2 Dubai – Home Appliance Installation, Maintenance & Service Centre in Arabian Ranches 2 Dubai");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-arabian-ranches-2");
+    const metaKeyword = String(Keyword || "Washing Machine Repair in Arabian Ranches 2, Fridge Repair in Arabian Ranches 2, Dishwasher Repair in Arabian Ranches 2, Appliance Service in Arabian Ranches 2, Appliance Repair in Arabian Ranches 2");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-arabian-ranches-2/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

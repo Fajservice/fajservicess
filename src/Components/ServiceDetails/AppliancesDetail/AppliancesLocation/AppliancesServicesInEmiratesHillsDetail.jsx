@@ -22,8 +22,8 @@ const metatitle = String(titleSeo || "Appliances Services in Emirates Hills - Re
 const metadescription = String(description || "Faj offers appliance service in Emirates Hills. Call 043300002 for refrigerator repair near me in Dubai. Get fix washing machine, Coffee machine");
 const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Emirates Hills Dubai– Home Appliance Installation, Maintenance & Service Centre in Emirates Hills Dubai");
-const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-emirates-hills/");
+const metaKeyword = String(Keyword || "Washing Machine in Emirates Hills, Refrigerator in Emirates Hills, Dishwasher in Emirates Hills, Tumble Dryer in Emirates Hills, Stove in Emirates Hills, Oven in Emirates Hills, Freezer in Emirates Hills, Coffee Machine in Emirates Hills");
+const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-emirates-hills/").replace(/\/?$/, '/');
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -616,7 +616,7 @@ const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in
         {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
-            <h3 className="cs_fs_30 text-light">FAQ's</h3>
+            <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 

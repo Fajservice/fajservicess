@@ -21,8 +21,8 @@ const MitsubishiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description,
   const metatitle = String(titleSeo || "Mitsubishi AC Repair in Dubai - Air Conditioner Maintenance");
   const metadescription = String(description || "Are you finding Mitsubishi AC repair in Dubai? Call FAJ Expert 043300002 for central, HVAC, VRF air conditioner maintenance and ac cleaning service near me");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "");
-  const metaURL = String(URL || "https://www.fajservices.ae/mitsubishi-ac-repair-in-dubai/");
+  const metaKeyword = String(Keyword || "Mitsubishi AC Repair, Mitsubishi AC Service, Mitsubishi Air Conditioner Maintenance, Mitsubishi HVAC Repair, Mitsubishi VRF System Service, Mitsubishi Ducted Split AC Repair, Mitsubishi Wall-Mounted AC Service");
+  const metaURL = String(URL || "https://www.fajservices.ae/mitsubishi-ac-repair-in-dubai/").replace(/\/?$/, '/');
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
@@ -87,6 +87,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filt
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
 
+          <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />

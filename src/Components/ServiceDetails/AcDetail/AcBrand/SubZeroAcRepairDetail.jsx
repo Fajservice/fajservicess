@@ -21,8 +21,8 @@ const SubZeroAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   const metatitle = String(titleSeo || "Sub Zero AC Repair in Dubai - Ac Repair & Service Near Me");
   const metadescription = String(description || "Sub Zero Ac repair in Dubai, We are experts in central & split air conditioner maintenance service UAE Aircon fix company FAJ Tech Service");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "");
-  const metaURL = String(URL || "https://www.fajservices.ae/sub-zero-ac-installation-maintenance-repair-fix-service-in-dubai");
+  const metaKeyword = String(Keyword || "Sub Zero AC Repair, Sub Zero AC Service, Sub Zero Air Conditioner Maintenance, Sub Zero AC Installation, Sub Zero AC Cleaning Service, Sub Zero AC Repair Dubai, Sub Zero Air Conditioner Service Dubai, Sub Zero AC Repair Sharjah");
+  const metaURL = String(URL || "https://www.fajservices.ae/sub-zero-ac-installation-maintenance-repair-fix-service-in-dubai").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
@@ -87,6 +87,7 @@ const SubZeroAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
 
+          <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />

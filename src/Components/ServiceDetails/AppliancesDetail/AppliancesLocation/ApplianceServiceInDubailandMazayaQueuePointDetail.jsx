@@ -20,8 +20,8 @@ const ApplianceServiceInDubailandMazayaQueuePointDetail = ({ subtitle, title, re
     const metadescription = String(description || "Looking for appliance service in Dubailand Mazaya Queue Point. Call 043300002 for fridge repair near me. Get fix washing machine, dishwasher, Oven");
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Dubailand Mazaya Queue Point – Home Appliance Installation, Maintenance & Service Centre in Dubailand Mazaya Queue Point");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubailand-mazaya-queue-point");
+    const metaKeyword = String(Keyword || "Washing Machine in dubailand, Fridge Repair in dubailand, Dishwasher Repair in dubailand, Oven Repair in dubailand, Appliance Service in dubailand, Appliance Repair in dubailand, Appliance Service in Dubai Land, Appliance Repair in Dubai Land");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubailand-mazaya-queue-point/").replace(/\/?$/, '/');
 
 
     subtitle = "Testimonial"
@@ -142,7 +142,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">appliances-services-in-dubailand-mazaya-queue-point</h1>
+                        <h1 className="cs_fs_30">appliances services in dubailand mazaya queue point</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>

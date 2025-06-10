@@ -5,7 +5,7 @@ const FrigidaireRefrigeratorRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/banners/homeappliancesbrands/gaggenau-appliances-repair-faj.avif"
+                bgImg="img/banners/homeappliancesbrands/frigidaire-refrigerator-repair-faj.avif"
                 Title="Frigidaire AC Repair Maintenance Service In Dubai"
             ></BreadCumb> 
             <FrigidaireRefrigeratorRepairDetail></FrigidaireRefrigeratorRepairDetail>           

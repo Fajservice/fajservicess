@@ -25,8 +25,8 @@ const AcRepairInDubaiHealthcareCityDetail = ({ subtitle, title, reviewsbg, title
     const metadescription = String(description || "If you are finding AC Services in Dubai Healthcare City. Contact us 043300002 for Air Conditioner maintenance, repairs near me Dubai A/C fix");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-dubai-healthcare-city");
- const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-dubai-healthcare-city/").replace(/\/?$/, '/');
+
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

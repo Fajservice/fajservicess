@@ -25,8 +25,9 @@ const CommercialWashingMachineRepairDetail = ({ subtitle, title, reviewsbg, titl
   const metatitle = String(titleSeo || "Commercial Washing Machine and Laundry Equipment Service");
   const metadescription = String(description || "FAJ's fast response commercial washing machine repair in Dubai & stacked washer dryer, barrier washing machine maintenance contract service (AMC).");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
-  const metaKeyword = String(Keyword || "Commercial Washing Machine Repair, Commercial Laundry Equipment Maintenance Service");
-  const metaURL = String(URL || "https://www.fajservices.ae/commercial-washing-machine-repair/");
+  const metaKeyword = String(Keyword || "Commercial Washing Machine repair, Commercial Washing Machine service, Commercial Washing Machine maintenance, Commercial Washing Machine AMC, Commercial Washing Machine Dubai, Commercial Washing Machine Sharjah, Commercial Washing Machine repair Dubai, Commercial Washing Machine repair Sharjah, Commercial Laundry Equipment Service, Commercial Laundry Equipment Repair");
+  const metaURL = String(URL || "https://www.fajservices.ae/commercial-washing-machine-repair/").replace(/\/?$/, '/');
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/banners/Commercial-Laundry-Equipment-Services/Laundry-Equipment-Service.avif");
 
 
   subtitle = "Testimonial"
@@ -134,7 +135,14 @@ const CommercialWashingMachineRepairDetail = ({ subtitle, title, reviewsbg, titl
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
-          <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
         </Helmet>
       </HelmetProvider>
       <HeaderForm />
@@ -308,7 +316,7 @@ const CommercialWashingMachineRepairDetail = ({ subtitle, title, reviewsbg, titl
         {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
-            <h3 className="cs_fs_30 text-light">FAQ's</h3>
+            <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 

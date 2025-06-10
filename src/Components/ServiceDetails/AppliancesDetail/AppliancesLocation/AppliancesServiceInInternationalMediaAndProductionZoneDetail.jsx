@@ -22,8 +22,8 @@ const AppliancesServiceInInternationalMediaAndProductionZoneDetail = ({ subtitle
   const metadescription = String(description || "We offer appliance services in The Gardens. Need refrigerator, washing machine, fridge repair near me? Call 043300002 for quick solutions!");
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-  const metaKeyword = String(Keyword || "/appliances-services-in-international-media-and-production-zone/");
-  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-gardens");
+  const metaKeyword = String(Keyword || "washing machine repair in The Gardens, refrigerator repair in The Gardens, appliance service in The Gardens, appliance repair in The Gardens, appliance maintenance in The Gardens, appliance installation in The Gardens, appliance AMC in The Gardens");
+  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-gardens/").replace(/\/?$/, '/');
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -617,7 +617,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
-            <h3 className="cs_fs_30 text-light">FAQ's</h3>
+            <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 

@@ -21,8 +21,8 @@ const WashingMachineRepairPalmJumeirahDetail = ({ subtitle, title, reviewsbg, ti
   const metadescription = String(description || "FAJ washing machine repair in Palm Jumeirah. Get same day Bosch, LG, Siemens, Teka, Samsung refrigerator dryer, dishwasher, oven, service near you");
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-  const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Palm Jumeirah – Dishwasher, Cooker maintenance Service Centre  in Palm Jumeirah Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-palm-jumeirah-fridge-repair-palm-jumeirah-refrigerator-repairing-palm-jumeirah-cooker-stove-oven-cooking-range-repairs-fix-service-centre-palm-jumeirah-dishwasher-installation-f/");
+  const metaKeyword = String(Keyword || "Washing Machine in palm jumeirah, Fridge repair in palm jumeirah, Refrigerator repairing in palm jumeirah, Cooker stove oven cooking range repairs fix service centre palm jumeirah, Dishwasher installation in palm jumeirah, Washing machine repair in palm jumeirah, Fridge service in palm jumeirah, Refrigerator service in palm jumeirah, Cooker stove oven cooking range service centre in palm jumeirah, Dishwasher service in palm jumeirah");
+  const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-palm-jumeirah-fridge-repair-palm-jumeirah-refrigerator-repairing-palm-jumeirah-cooker-stove-oven-cooking-range-repairs-fix-service-centre-palm-jumeirah-dishwasher-installation-f/").replace(/\/?$/, '/');
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -141,7 +141,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Washing Machine Repair PalmJumeirah</h1>
+            <h1 className="cs_fs_30">Washing Machine Repair Palm Jumeirah</h1>
             {/* <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN Dubai</h2> */}
             <p>
               Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
@@ -615,7 +615,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
-            <h3 className="cs_fs_30 text-light">FAQ's</h3>
+            <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 

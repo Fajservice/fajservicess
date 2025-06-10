@@ -25,9 +25,7 @@ const AcRepairInTheViewsDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const metadescription = String(description || "Get it done affordably cost. Call FAJ 043300002 for ac services in the views dubai and the best chiller air conditioner repairs & maintenance dubai");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-the-views");
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
-
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-the-views/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

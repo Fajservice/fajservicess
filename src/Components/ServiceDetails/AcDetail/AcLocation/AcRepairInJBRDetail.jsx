@@ -26,8 +26,8 @@ const AcRepairInJBRDetail = ({ subtitle, title, reviewsbg, titleSeo, description
     const metadescription = String(description || "Get quality AC Services in JBR Dubai. We are offering the best chiller fan coil unit air conditioner repair, maintenance and aircon fix Call:043300002");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jbr");
- const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jbr/").replace(/\/?$/, '/');
+
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

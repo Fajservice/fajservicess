@@ -23,8 +23,8 @@ const AppliancesServiceInAlGhadeerCommunityDetail = ({ subtitle, title, reviewsb
     const metadescription = String(description || "Faj offers appliance service in Al Ghadeer Community. Call 043300002 for refrigerator repair near me in Dubai. Get fix washing machine, Coffee machine");
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Al Ghadeer Community Dubai – Home Appliance Installation, Maintenance & Service Centre in Al Ghadeer Community Dubai ");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-ghadeer-community/");
+    const metaKeyword = String(Keyword || "Washing Machine in ghadeer community, Fridge repair in Al Ghadeer Community, Appliance service in Al Ghadeer Community, Appliance repair in Al Ghadeer Community, Appliance maintenance in Al Ghadeer Community, Appliance installation in Al Ghadeer Community");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-ghadeer-community/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -619,7 +619,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                 {/* FAQ's */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
                     <div className="container">
-                        <h3 className="cs_fs_30 text-light">FAQ's</h3>
+                        <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
                         <div className="cs_accordians_wrapper cs_style_1 p-0">
 

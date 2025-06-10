@@ -20,8 +20,9 @@ const SmegMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
   const metatitle = String(titleSeo || "Smeg Mixer Repair Service – Small Appliance Fix in Dubai");
   const metadescription = String(description || "Book an expert Smeg mixer repair Dubai. Our trained team fix Retro Style Quart, Food Processor, Vintage & Dolce Mixer service near you. 043300002");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "Smeg Mixer Repair Services");
-  const metaURL = String(URL || "https://www.fajservices.ae/smeg-mixer-repair-service-near-me-dubai/");
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaKeyword = String(Keyword || "Smeg mixer repair, Smeg mixer service, Smeg mixer Dubai, Smeg mixer repair Dubai, Smeg mixer service Dubai, Smeg mixer near me, Smeg mixer repair near me, Smeg mixer service near me, Smeg mixer Dubai service, Smeg mixer Dubai repair");
+  const metaURL = String(URL || "https://www.fajservices.ae/smeg-mixer-repair-service-near-me-dubai/").replace(/\/?$/, '/');
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -126,7 +127,15 @@ const SmegMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
-          <meta property="og:url" content={metaURL} />
+           <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
         </Helmet>
       </HelmetProvider>
       <HeaderForm />
@@ -170,8 +179,8 @@ const SmegMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`}  loading="lazy" alt="Post Image" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`}  loading="lazy" alt="Post Image" />
+                
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`}  loading="lazy" alt="Smeg Mixer Repair" />
               </div>
             </div>
             <AppliancesAppointmentCol></AppliancesAppointmentCol>
@@ -191,7 +200,7 @@ const SmegMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`}  loading="lazy" alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`}  loading="lazy" alt="Smeg Mixer Repair" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">

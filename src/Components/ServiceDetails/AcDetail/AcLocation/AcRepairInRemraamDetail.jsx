@@ -25,8 +25,8 @@ const AcRepairInRemraamDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
     const metadescription = String(description || "FAJ 043300002 AC Services in Remraam Dubai. We are experts in central, hvac repairs and maintenance near me Dubai AC fixing nearby");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-remraam");
- const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-remraam/").replace(/\/?$/, '/');
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     reviewsbg = "img/testimonialbg.jpg"

@@ -21,8 +21,8 @@ const WashingMachineRepairBusinessBayDetail = ({ subtitle, title, reviewsbg, tit
   const metadescription = String(description || "");
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-  const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Business Bay Dubai – Dishwasher, Oven, Stove Service & Maintenance in Business Bay Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-business-bay-fridge-repair-business-bay-refrigerator-repairing-business-bay-cooker-stove-oven-cooking-range-repairs-fix-service-centre-business-bay-dishwasher-installation-fixin/");
+  const metaKeyword = String(Keyword || "Washing Machine in business bay, Washing Machine Repair in business bay, Washing Machine Service in business bay, Washing Machine Installation in business bay, Washing Machine Maintenance in business bay, Washing Machine AMC in business bay, Refrigerator Repair in business bay, Refrigerator Service in business bay, Refrigerator Installation in business bay, Refrigerator Maintenance in business bay, Refrigerator AMC in business bay");
+  const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-business-bay-fridge-repair-business-bay-refrigerator-repairing-business-bay-cooker-stove-oven-cooking-range-repairs-fix-service-centre-business-bay-dishwasher-installation-fixin/").replace(/\/?$/, '/');
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -141,7 +141,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Washing Machine Repair BusinessBay</h1>
+            <h1 className="cs_fs_30">Washing Machine Repair Business Bay</h1>
             {/* <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN Dubai</h2> */}
             <p>
               Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
@@ -615,7 +615,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
-            <h3 className="cs_fs_30 text-light">FAQ's</h3>
+            <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 

@@ -21,8 +21,8 @@ const SupraAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
   const metatitle = String(titleSeo || "Supra AC Repair Dubai - Supra Split Air Conditioner Service");
   const metadescription = String(description || "Sameday Supra AC repair in Dubai, Our technicians expert in supra split air conditioning maintenance service and fux aircon. Book now 043300002");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "");
-  const metaURL = String(URL || "https://www.fajservices.ae/supra-ac-repair-in-dubai-supra-ac-maintenance-in-dubai-supra-ac-fix-in-dubai-supra-ac-service-in-dubai-supra-air-condition-repair-in-dubai-supra-air-condition-maintenance-in-dubai-supra-air-condition");
+  const metaKeyword = String(Keyword || "Supra AC Repair Dubai, Supra Split Air Conditioner Service, Supra Aircon Maintenance Dubai, Supra AC Fix Dubai, Supra Air Conditioner Repair Dubai, Supra Air Conditioner Service Dubai, Supra AC Service Dubai, Supra AC Maintenance Dubai");
+  const metaURL = String(URL || "https://www.fajservices.ae/supra-ac-repair-in-dubai-supra-ac-maintenance-in-dubai-supra-ac-fix-in-dubai-supra-ac-service-in-dubai-supra-air-condition-repair-in-dubai-supra-air-condition-maintenance-in-dubai-supra-air-condition").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
@@ -87,6 +87,7 @@ const SupraAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
 
+          <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />

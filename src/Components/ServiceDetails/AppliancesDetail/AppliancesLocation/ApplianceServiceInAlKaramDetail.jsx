@@ -22,8 +22,8 @@ const ApplianceServiceInAlKaramDetail = ({ subtitle, title, reviewsbg, titleSeo,
     const metadescription = String(description || "FAJ offers appliance service in Al Karama. Call 043300002 for fridge repair near me in Dubai. Get to fix washing machine, refrigerator, vacuum cleaner");
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Al Karama Dubai – Home Appliance Installation, Maintenance & Service Centre in Al Karama Dubai");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-karama");
+    const metaKeyword = String(Keyword || "appliance service in Al Karama, washing machine repair in al karama, refrigerator repair in al karama");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-karama/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

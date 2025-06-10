@@ -25,8 +25,8 @@ const AcRepairInTheVillaDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const metadescription = String(description || "Are you finding for AC Services in The Villa Dubai? Call 043300002 for HVAC, ducted split air conditioner repair & servicing near me in Dubai");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-the-villa");
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-the-villa/").replace(/\/?$/, '/');
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     reviewsbg = "img/testimonialbg.jpg"

@@ -21,8 +21,8 @@ const ApplianceServiceInAlbarariDetail = ({ subtitle, title, reviewsbg, titleSeo
     const metadescription = String(description || "FAJ offers best appliance service in Al Barari. Get washing machine repair near me in Dubai. Call 043300002 for fridge, dishwasher, and oven fix.");
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Al Barari Dubai – Home Appliance Installation, Maintenance & Service Centre in Al Barari Dubai    ");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-barari");
+    const metaKeyword = String(Keyword || "appliance service in Al Barari, refrigerator repair in al barari, washing machine repair in al barari, dishwasher repair in al barari, oven repair in al barari");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-barari/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

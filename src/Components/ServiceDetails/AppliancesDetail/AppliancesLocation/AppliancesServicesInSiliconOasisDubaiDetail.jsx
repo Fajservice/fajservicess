@@ -21,8 +21,8 @@ const AppliancesServicesInSiliconOasisDubaiDetail = ({ subtitle, title, reviewsb
   const metadescription = String(description || "FAJ offers appliances services in Silicon Oasis Dubai. Get refrigerator, fridge, washing machine repair and oven fix near me. Contact now 043300002.");
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-  const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Silicon Oasis Dubai – Home Appliance Installation, Maintenance & Service Centre in Silicon Oasis Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-silicon-oasis-dubai/");
+  const metaKeyword = String(Keyword || "Washing Machine in silicon oasis, Fridge Repair in silicon oasis, Appliances Services in Silicon Oasis Dubai, Appliance Repair in Silicon Oasis Dubai, Appliance Service Center in Silicon Oasis Dubai, Appliance Repair Service in Silicon Oasis Dubai, Appliance Repair near me, Appliance Service near me, Appliance Repair Dubai, Appliance Service Dubai");
+  const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-silicon-oasis-dubai/").replace(/\/?$/, '/');
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -615,7 +615,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
-            <h3 className="cs_fs_30 text-light">FAQ's</h3>
+            <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 

@@ -25,9 +25,8 @@ const AcRepairinUmmAlSheifDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
     const metadescription = String(description || "Water Leakage Issue or AC Services in Umm Al Sheif Dubai ? Call 043300002 offering best air conditioning maintenance near me in my area dubai");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Repair in Umm Al Sheif, Air Conditioning Service in Umm Al Sheif, Air Con Maintenance & AC Installation in Umm Al Sheif");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-umm-al-sheif");
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
-    
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-umm-al-sheif/").replace(/\/?$/, '/');
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     reviewsbg = "img/testimonialbg.jpg"
@@ -422,7 +421,7 @@ const AcRepairinUmmAlSheifDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                 {/* FAQ&apos;s */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
                     <div className="container">
-                        <h3 className="cs_fs_30 text-light">FAQ&apos;spos;spos;s</h3>
+                        <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
                         <div className="cs_accordians_wrapper cs_style_1 p-0">
 

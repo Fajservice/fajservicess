@@ -23,8 +23,8 @@ const TCLAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
   const metatitle = String(titleSeo || "TCL AC Repair in Dubai - Air Conditioner Service Near Me");
   const metadescription = String(description || "FAJ offering TCL AC repair in Dubai, Contact Us 043300002 for split air conditioner maintenance service near me. Best Aircon fix company nearby");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "");
-  const metaURL = String(URL || "https://www.fajservices.ae/tcl-ac-repair-in-dubai");
+  const metaKeyword = String(Keyword || "TCL AC Repair, TCL Air Conditioner Service, TCL AC Maintenance Dubai, TCL AC Cleaning Service, TCL AC Installation Dubai, TCL AC AMC Dubai, TCL Air Conditioner Repair Dubai, TCL Air Conditioner Service Near Me, Split Air Conditioner Maintenance Service Near Me, Best Aircon Fix Company Nearby");
+  const metaURL = String(URL || "https://www.fajservices.ae/tcl-ac-repair-in-dubai/").replace(/\/?$/, '/');
  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
@@ -88,6 +88,7 @@ const TCLAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
 
+          <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />

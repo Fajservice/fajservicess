@@ -21,8 +21,8 @@ const AppliancesServicesInTecomDetail = ({ subtitle, title, reviewsbg, titleSeo,
     const metadescription = String(description || "We offer appliances services in Tecom Dubai. Do you need refrigerator, washing machine, fridge repair near me. Call at 043300002 to get quick services.");
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in TECOM Dubai– Home Appliance Installation, Maintenance & Service Centre in TECOM Dubai");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-tecom/");
+    const metaKeyword = String(Keyword || "Washing Machine in tecom, refrigerator repair in tecom, appliance repair in tecom, appliance service in tecom, appliance maintenance in tecom, appliance installation in tecom, appliance repair near me, appliance service near me, appliance maintenance near me, appliance installation near me");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-tecom/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -142,7 +142,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">appliances-services-in-tecom</h1>
+                        <h1 className="cs_fs_30">appliances services in tecom</h1>
                         {/* <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2> */}
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
@@ -619,7 +619,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                 {/* FAQ's */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
                     <div className="container">
-                        <h3 className="cs_fs_30 text-light">FAQ's</h3>
+                        <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
                         <div className="cs_accordians_wrapper cs_style_1 p-0">
 

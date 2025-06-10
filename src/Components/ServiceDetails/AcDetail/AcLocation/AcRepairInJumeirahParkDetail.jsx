@@ -25,8 +25,8 @@ const AcRepairInJumeirahParkDetail = ({ subtitle, title, reviewsbg, titleSeo, de
     const metadescription = String(description || "We offer the best ac services jumeirah park dubai Call 043300002 for central & split ac (air conditioner) repair, maintenance near me and Aircon fix");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-jumeirah-park");
- const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-jumeirah-park/").replace(/\/?$/, '/');
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     reviewsbg = "img/testimonialbg.jpg"

@@ -22,8 +22,8 @@ const ApplianceServiceInAlBarshaDetail = ({ subtitle, title, reviewsbg, titleSeo
     const metadescription = String(description || "Get appliance services in Al Barsha. FAJ Experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher, oven ");
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-    const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Al Barsha Dubai– Home Appliance Installation, Maintenance & Service Centre in Al Barsha Dubai");
-    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-barsha/");
+    const metaKeyword = String(Keyword || "appliances services in Al Barsha, washing machine repair in al barsha, refrigerator repair in al barsha, dishwasher repair in al barsha, oven repair in al barsha, appliance repair in al barsha, appliance service center in al barsha, appliance maintenance in al barsha");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-barsha/").replace(/\/?$/, '/');
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

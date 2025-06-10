@@ -25,8 +25,9 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, title
   const metatitle = String(titleSeo || "Best Appliances AMC Service Dubai -#1 Maintenance Contract");
   const metadescription = String(description || "Time to get comfortable! with appliances AMC service in Dubai FAJ Experts in kitchen appliances, freezer, chiller, cooking appliances maintenance");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "Home Appliances AMC, Annual Maintenance Contract");
-  const metaURL = String(URL || "https://www.fajservices.ae/appliances-amc-service/");
+  const metaKeyword = String(Keyword || "Home appliacnes, Appliances AMC, Appliances Maintenance Contract, Kitchen Equipment AMC, Kitchen Appliances AMC, Dubai Appliances Service, Appliance Repair Dubai, Appliance Service Dubai");
+  const metaURL = String(URL || "https://www.fajservices.ae/appliances-amc-service/").replace(/\/?$/, '/');
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/dishwasher-repair-service.avif");
   // For SEO
 
 
@@ -134,7 +135,14 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, title
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
-          <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
         </Helmet>
       </HelmetProvider>
       <HeaderForm />
@@ -929,7 +937,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, title
         {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
-            <h3 className="cs_fs_30 text-light">FAQ's</h3>
+            <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 

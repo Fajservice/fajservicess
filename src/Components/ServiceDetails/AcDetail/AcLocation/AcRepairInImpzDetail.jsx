@@ -26,8 +26,8 @@ const AcRepairInImpzDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
     const metadescription = String(description || "Call 043300002 AC Services in IMPZ Dubai. We are experts in central & split air conditioner repairing and maintenance near me Dubai AC fixing");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-impz");
- const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-impz/").replace(/\/?$/, '/');
+
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

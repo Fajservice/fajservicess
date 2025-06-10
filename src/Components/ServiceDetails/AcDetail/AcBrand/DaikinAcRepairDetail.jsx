@@ -21,8 +21,8 @@ const DaikinAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
   const metatitle = String(titleSeo || "Daikin Ac Repair in Dubai - Air Conditioner Maintenance");
   const metadescription = String(description || "Relax with Daikin AC. Call 0507464712 for Daikin Ac Repair in Dubai We are experts in HVAC, Central Air Conditioner maintenance service near me");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "");
-  const metaURL = String(URL || "https://www.fajservices.ae/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con");
+  const metaKeyword = String(Keyword || "Daikin AC Repair in Dubai, Daikin Air Conditioner Maintenance, Daikin AC Service, Daikin Air Conditioning Repair, Daikin AC Fix, Daikin Air Conditioner Service, Daikin AC Cleaning, Daikin Air Conditioner Installation");
+  const metaURL = String(URL || "https://www.fajservices.ae/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/dist/img/daikin-ac-repair.avif");
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
@@ -85,7 +85,8 @@ const DaikinAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
         <meta name="author" content={metaAuthor} />
         <meta name="robots" content="index, follow" />
 
-        <meta property="og:type" content="website" />
+        <link rel="canonical" href={metaURL} />
+          <meta property="og:type" content="website" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:title" content={metatitle} />
         <meta property="og:description" content={metadescription} />

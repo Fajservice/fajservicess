@@ -25,8 +25,8 @@ const AcRepairInSufouhDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
     const metadescription = String(description || "AC Services in Al Sufouh Dubai. We are experts in central & split air conditioner repairs and maintenance service in my location dubai 043300002");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-sufouh");
- const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-sufouh/").replace(/\/?$/, '/');
+
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     reviewsbg = "img/testimonialbg.jpg"
@@ -425,7 +425,7 @@ const AcRepairInSufouhDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
                 {/* FAQ&apos;spos;spos;s */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
                     <div className="container">
-                        <h3 className="cs_fs_30 text-light">FAQ&apos;spos;spos;spos;s</h3>
+                        <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
                         <div className="cs_accordians_wrapper cs_style_1 p-0">
 

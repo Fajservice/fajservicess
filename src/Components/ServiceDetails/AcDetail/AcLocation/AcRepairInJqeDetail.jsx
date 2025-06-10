@@ -25,8 +25,8 @@ const AcRepairInJqeDetail = ({ subtitle, title, reviewsbg, titleSeo, description
     const metadescription = String(description || "Dial FAJ: 043300002 AC Services in JGE Dubai. We are experts in central & multi split ac (air conditioner) repairs & maintenance service near me");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jge");
- const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jge/").replace(/\/?$/, '/');
+
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

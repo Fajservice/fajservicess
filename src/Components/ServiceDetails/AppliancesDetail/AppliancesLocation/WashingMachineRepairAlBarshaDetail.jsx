@@ -21,8 +21,8 @@ const WashingMachineRepairAlBarshaDetail = ({ subtitle, title, reviewsbg, titleS
   const metadescription = String(description || "Get best washing machine repair in Al Barsha. Dail 043300002 for Samsung, Siemens, Bosch, LG, Daewoo washing machine & fridge repair near me");
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-  const metaKeyword = String(Keyword || "Washing Machine & Fridge Repair in Al Barsha Dubai – Dishwasher, Stove, Oven Installation & Service Centre  in Al Barsha Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-al-barsha-dubai-fridge-repair-al-barsha-dubai-refrigerator-repairing-al-barsha-dubai-cooker-stove-oven-cooking-range-repairs-fix-service-centre-al-barsha-dubai-dishwasher-inst-2/");
+  const metaKeyword = String(Keyword || "Washing Machine in AlBarsha, Washing Machine Repair in Al Barsha, Refrigerator Repair in Al Barsha, Fridge Repair in Al Barsha, Appliance Repair in Dubai, Appliance Service Center in Dubai, Appliance Repair Service in Dubai, Home Appliances Repair in Dubai, Washing Machine Service Center in Dubai, Fridge Service Center in Dubai");
+  const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-al-barsha-dubai-fridge-repair-al-barsha-dubai-refrigerator-repairing-al-barsha-dubai-cooker-stove-oven-cooking-range-repairs-fix-service-centre-al-barsha-dubai-dishwasher-inst-2/").replace(/\/?$/, '/');
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -141,7 +141,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Washing Machine Repair in AlBarsha</h1>
+            <h1 className="cs_fs_30">Washing Machine Repair in Al Barsha</h1>
             {/* <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN Dubai</h2> */}
             <p>
               Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
@@ -615,7 +615,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
-            <h3 className="cs_fs_30 text-light">FAQ's</h3>
+            <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
             <div className="cs_accordians_wrapper cs_style_1 p-0">
 

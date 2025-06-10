@@ -27,8 +27,8 @@ const AcRepairInHudaibaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
     const metadescription = String(description || "Quick and Best Price AC Services in Hudaiba Dubai. We are experts in central & split AC (Air Condition) repairing service near me Dubai Fix A/C");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-hudaiba");
- const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-hudaiba/").replace(/\/?$/, '/');
+
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
