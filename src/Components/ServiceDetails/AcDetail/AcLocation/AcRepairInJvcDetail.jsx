@@ -25,7 +25,7 @@ const AcRepairInJvcDetail = ({ subtitle, title, reviewsbg, titleSeo, description
     const metadescription = String(description || "Get same day AC repair in JVC. Call 043300002 for central, split air conditioner repair & maintenance. Best AC cleaning service near me Dubai");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "ac repair jvc, ac service in jvc, ac maintenance in jvc, ac cleaning service in jvc, ac technician in jvc, ac servicing in jvc, ac repair near me, ac service near me, ac maintenance near me, ac cleaning service near me");
-    const metaURL = String(URL || "https://www.fajservices.aeac-services-in-jvc/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jvc/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
@@ -93,7 +93,6 @@ const AcRepairInJvcDetail = ({ subtitle, title, reviewsbg, titleSeo, description
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
                     <meta name="robots" content="index, follow" />
-
                     <meta property="og:type" content="website" />
                     <meta property="og:locale" content="en_US" />
                     <meta property="og:title" content={metatitle} />
@@ -115,7 +114,6 @@ const AcRepairInJvcDetail = ({ subtitle, title, reviewsbg, titleSeo, description
                 <section className="section cs_py_30">
                     <div className="container">
                         <h1 className="cs_fs_30">AC Service in Jvc</h1>
-                        {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 

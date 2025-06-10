@@ -23,7 +23,7 @@ const WestpointAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
   const metadescription = String(description || "Are You Looking for Westpoint AC repair in Dubai? We are experts in split air conditioner maintenance and service near me Dubai Call 04330 0002");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Westpoint AC repair in Dubai, Westpoint AC maintenance in Dubai, Westpoint AC service in Dubai, Westpoint air conditioner repair in Dubai, Westpoint split AC repair in Dubai, Westpoint wall mounted AC repair in Dubai, Westpoint ductless AC repair in Dubai, Westpoint aircon repair in Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/white-westinghouse-ac-repair-in-dubai-white-westinghouse-ac-maintenance-in-dubai-white-westinghouse-ac-fix-in-dubai-white-westinghouse-ac-service-in-dubai-white-westinghouse-air-condition-repair-in-du/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/westpoint-ac-repair-in-dubai-westpoint-ac-maintenance-in-dubai-westpoint-ac-fix-in-dubai-westpoint-ac-service-in-dubai-west-point-air-condition-repair-in-dubai-west-point-air-condition-maintenance-in/").replace(/\/?$/, '/');
  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
@@ -179,7 +179,7 @@ const WestpointAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
                   <li><strong>Energy Efficiency:</strong> Well-maintained Westpoint split AC run efficiently, lowering energy bills. Routine checks identify issues that may increase energy consumption.</li>
                   <li><strong>Extended Lifespan:</strong> Regular West Point air conditioner maintenance extends the life of your West Point wall mounted AC, helping to avoid costly west point aircon repair</li>
                 </ul>
-                <p>In summary, Westpoint ductless AC repair and cleaning service is crucial for comfort and cost-effectiveness in Dubai's climate, ensuring smooth and efficient Westpoint AC performance.</p>
+                <p>In summary, Westpoint ductless AC repair and cleaning service is crucial for comfort and cost-effectiveness in Dubai&apos;s climate, ensuring smooth and efficient Westpoint AC performance.</p>
               </div>
               <div className="col-md-6">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}img/toshiba-ac-repair.avif`} alt="Westpoint Ac Repair" />
