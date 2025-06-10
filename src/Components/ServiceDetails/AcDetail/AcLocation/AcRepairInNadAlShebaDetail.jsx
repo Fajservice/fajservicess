@@ -24,7 +24,7 @@ const AcRepairInNadAlShebaDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
     const metatitle = String(titleSeo || "AC Services In Nad Al Sheba - Fix AC Problems And Errors");
     const metadescription = String(description || "Fixing AC Error. Best AC Services in Nad Al Sheba & Dubai Hills. Offering air conditioner gas filling and fix compressor. Get fast ac repairing near me");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || " AC Services In Nad Al Sheba, AC Repair in Nad Al Sheba, AC Maintenance in Nad Al Sheba, AC Installation in Nad Al Sheba, Air Conditioner Service in Nad Al Sheba, Air Conditioner Repair in Nad Al Sheba, Air Conditioner Maintenance in Nad Al Sheba, Air Conditioner Installation in Nad Al Sheba");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-nad-al-sheba/").replace(/\/?$/, '/');
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 

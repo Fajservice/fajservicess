@@ -26,7 +26,7 @@ const AcRepairInMankhoolDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const metatitle = String(titleSeo || "AC Services In Mankhool - Aircon Repair And Maintenance #1");
     const metadescription = String(description || "A/C Repair, Maintenance and AC Services in Mankhool. Call 043300002 for Central Air Conditioner, Split A/C Repairing, Servicing in my location");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || "ac service in mankhool, ac repair in mankhool, ac maintenance in mankhool, ac servicing in mankhool, ac cleaning in mankhool, air conditioning service in mankhool, air conditioning repair in mankhool, air conditioning maintenance in mankhool, air conditioning servicing in mankhool, air conditioning cleaning in mankhool");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-mankhool/").replace(/\/?$/, '/');
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 

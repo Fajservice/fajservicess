@@ -25,7 +25,7 @@ const AcRepairInTheLakesDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const metatitle = String(titleSeo || "AC Services In The Lakes - Emergency AC Repair Service #1");
     const metadescription = String(description || " ");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || "AC Services In The Lakes, AC Repair In The Lakes, AC Maintenance In The Lakes, Air Conditioning Services In The Lakes, Air Conditioner Service In The Lakes, Air Conditioner Repair In The Lakes, Air Conditioner Maintenance In The Lakes, AC Installation In The Lakes, AC Cleaning In The Lakes");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-the-lakes/").replace(/\/?$/, '/');
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 
