@@ -17,10 +17,6 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
-<<<<<<< HEAD
-
-=======
->>>>>>> f7cac9378b1ffdba1402e00a12e161e17c3c6314
 const AcRepairInBurjKhalifaLakeDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
 
