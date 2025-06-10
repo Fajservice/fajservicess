@@ -165,8 +165,8 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                 <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai</h3>
                 <p className="mb-2">
                   If you need appliance repair, FAJ is your best choice for fast and affordable service in The Views Dubai and Sharjah.
-                  <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that's not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
-                  <br /> We're nearby and can get your appliances fixed quickly and efficiently.
+                  <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that&apos;s not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
+                  <br /> We&apos;re nearby and can get your appliances fixed quickly and efficiently.
                 </p>
 
                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service</h3>

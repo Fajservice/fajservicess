@@ -21,7 +21,7 @@ const AcRepairInAlJafzaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
 
     // For SEO
     const metatitle = String(titleSeo || "Ac Repair In Al Jafza - Air Conditioner Maintenance Service");
-    const metadescription = String(description || "Finding exemplary Central & Split Ac Repair in Jafza Dubai can be difficult, however. But that's why we're here to help with aircon cleaning service");
+    const metadescription = String(description || "Finding exemplary Central & Split Ac Repair in Jafza Dubai can be difficult, however. But that&apos;s why We&apos;re here to help with aircon cleaning service");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Repair in Jafza, Air Conditioner Maintenance in Jafza, Air Conditioning Fix in JAZA, AMC Service in Jebel Ali Free Zone Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-repair-in-jafza-air-condition-maintenance-in-jafza-air-conditioning-fix-amc-service-in-jebel-ali-free-zone-dubai/").replace(/\/?$/, '/');

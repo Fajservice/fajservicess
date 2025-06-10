@@ -67,7 +67,7 @@ const WashingMachineRepairServiceDubaiDetails = () => {
                   </div>
                 </div>
                 <h2>Washing Machine Repair Near Me</h2>
-                <p>Are you facing issues with your washing machine in Dubai's International City, or are you searching for 'washing machine repair near me'? Look no further than FAJ Services for reliable and prompt washing machine repair services. Our dedicated team specializes in delivering quick and efficient repair services right at your doorstep. At FAJ Services, we understand the inconvenience of a malfunctioning washing machine. That's why we offer quick and efficient repairs for various washing machine models. Whether it's a minor glitch or a major breakdown, our skilled technicians have the expertise to diagnose and fix all washing machine problem efficiently.</p>
+                <p>Are you facing issues with your washing machine in Dubai's International City, or are you searching for 'washing machine repair near me'? Look no further than FAJ Services for reliable and prompt washing machine repair services. Our dedicated team specializes in delivering quick and efficient repair services right at your doorstep. At FAJ Services, we understand the inconvenience of a malfunctioning washing machine. that&apos;s why we offer quick and efficient repairs for various washing machine models. Whether it's a minor glitch or a major breakdown, our skilled technicians have the expertise to diagnose and fix all washing machine problem efficiently.</p>
                 <div className="row">
                   <div className="col-xl-6">
                     <img src={`${import.meta.env.BASE_URL}img/washing-machine-repair.avif`} alt="Post Image" />

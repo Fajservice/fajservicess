@@ -25,8 +25,9 @@ const AcRepairInAlWahaCommunityDetail = ({ subtitle, title, reviewsbg, titleSeo,
     const metatitle = String(titleSeo || "Best AC Services In Al Waha Community - AC Maintenance #1");
     const metadescription = String(description || "FAJ 043300002 AC Services in Al Waha Community Dubai. We are experts in central air conditioner repair and maintenance near me Dubai AC fix");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || "ac service in al waha community, ac repair in al waha community, ac maintenance in al waha community, ac cleaning in al waha community, ac installation in al waha community, ac technician in al waha community, ac servicing in al waha community, ac service near me, ac repair near me, ac maintenance near me, ac cleaning near me, ac installation near me, ac technician near me");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-waha-community/").replace(/\/?$/, '/');
+     const metaImage = String(Image || "https://www.fajservices.ae/dist/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

@@ -25,7 +25,7 @@ const ElectricalPlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo,
   const metatitle = String(titleSeo || "Electrical Plumbung Services in dubai");
   const metadescription = String(description || "dubai");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "");
+  const metaKeyword = String(Keyword || "Electrical Plumbing Services, Dubai, Faj Technical Services, Plumbing, Electrical Services, Home Maintenance");
   const metaURL = String(URL || "https://www.fajservices.ae/electrical-plumbing-service/").replace(/\/?$/, '/');
 
 

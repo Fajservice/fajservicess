@@ -116,7 +116,7 @@ const NikaiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
               Since 2010, <a href="https://www.fajservices.ae/"> F A J Technical Services L.L.C</a> has proudly provided top-notch Nikai air conditioning solutions in Dubai and Sharjah.
               <br />
               Our dedicated team is here to offer a wide range of services, including AC repair, cleaning service, maintenance, and installation for both homes and businesses.
-              We're passionate about optimizing your air conditioning system to elevate your indoor comfort. Let’s make your space a cool haven together!
+              We&apos;re passionate about optimizing your air conditioning system to elevate your indoor comfort. Let’s make your space a cool haven together!
 
             </p>
 

@@ -170,7 +170,7 @@ const CommercialDishwasherServicesDetail = ({ subtitle, title, reviewsbg, titleS
 
                 <p className="mb-2">
                   Has your dishwasher stopped working completely? Or is it running, but your dishes and cutlery aren't coming out as clean as they should?
-                  At FAJ, we understand that a machine breakdown is always inconvenient. That's why our team of experts is here to provide dishwasher repair and service appointments near you in Dubai and Sharjah.
+                  At FAJ, we understand that a machine breakdown is always inconvenient. that&apos;s why our team of experts is here to provide dishwasher repair and service appointments near you in Dubai and Sharjah.
 
                 </p>
 

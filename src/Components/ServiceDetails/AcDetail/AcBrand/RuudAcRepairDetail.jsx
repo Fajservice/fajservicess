@@ -110,7 +110,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
           <div className="container">
             <h1 className="cs_fs_30">Ruud AC Repair in Dubai – Ruud AC Maintenance Service</h1>
             <p>Maintaining comfort year-round involves effectively tackling different challenges, such as high humidity during the summer, warm nights, and indoor allergens.
-              <br />Since its establishment in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has become a trusted provider of Ruud air conditioning solutions in Dubai and Sharjah. Our experienced team offers a wide range of Ruud AC repair, cleaning service, including maintenance and installation for both residential and commercial spaces. We're dedicated to ensuring that your air conditioning operates at peak efficiency, ultimately enhancing your indoor comfort.
+              <br />Since its establishment in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has become a trusted provider of Ruud air conditioning solutions in Dubai and Sharjah. Our experienced team offers a wide range of Ruud AC repair, cleaning service, including maintenance and installation for both residential and commercial spaces. We&apos;re dedicated to ensuring that your air conditioning operates at peak efficiency, ultimately enhancing your indoor comfort.
             </p>
 
             <div id="get-quote" className=" mt-3">

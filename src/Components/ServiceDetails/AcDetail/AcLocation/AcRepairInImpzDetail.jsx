@@ -25,7 +25,7 @@ const AcRepairInImpzDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
     const metatitle = String(titleSeo || "Best AC Services In IMPZ - AC Maintenance - AC Repairing #1");
     const metadescription = String(description || "Call 043300002 AC Services in IMPZ Dubai. We are experts in central & split air conditioner repairing and maintenance near me Dubai AC fixing");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || "ac service in impz, ac repair in impz, ac maintenance in impz, ac servicing in impz, ac cleaning in impz, ac technician in impz, ac installation in impz, ac service near me, ac repair near me, ac maintenance near me, ac servicing near me, ac cleaning near me, ac technician near me");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-impz/").replace(/\/?$/, '/');
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 
