@@ -86,7 +86,6 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
     infinite: true,
     slidesToShow: 6,
     arrows: false,
-
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
