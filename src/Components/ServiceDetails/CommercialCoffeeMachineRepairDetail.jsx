@@ -168,7 +168,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                 <h2 className="cs_fs_24 mb-1" style={{fontSize: "24px"}}>Coffee Machine Repair & Maintenance </h2>
 
                 <p className="mb-2">
-                  If you're searching for the best coffee machine repairs in Dubai for both businesses and residents, you've come to the right place.
+                  If you&apos;re searching for the best coffee machine repairs in Dubai for both businesses and residents, you've come to the right place.
                   <br />Our knowledgeable and dedicated team can handle any coffee machine issues you may encounter.
                   With experience across various brands and models, we know how to get your machine running smoothly again.
                   <br />

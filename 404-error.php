@@ -53,7 +53,7 @@
 		<div className="error404 text-center">
 			<h1 className="error404-h1">404</h1>
 			<h3 className="error404-h3">Page Not Found</h3>
-			<p className="error404-p">We can't find the page you're looking for.</p>
+			<p className="error404-p">We can't find the page you&apos;re looking for.</p>
 			<a href="https://www.fajservices.ae/" className="error404-url">Back to Home</a>
 		</div>
 	</div>

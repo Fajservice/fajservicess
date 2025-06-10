@@ -179,11 +179,11 @@ const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
               <div className="col-md-6">
                 <ul className="mb-0">
-                  <li> <strong> Extreme Weather: </strong> In the summer heat, temperatures can exceed 40°C (104°F), creating an oppressive environment. It's crucial to ensure that your O General AC systems are running at peak performance. </li>
+                  <li> <strong> Extreme Weather: </strong> In the summer heat, temperatures can exceed 40°C (104°F), creating an oppressive environment. it&apos;s crucial to ensure that your O General AC systems are running at peak performance. </li>
                   <li> <strong> Energy Efficiency: </strong> A well-maintained O General air conditioner operates efficiently, yielding significant energy savings and lower Dewa electricity costs. </li>
                   <li> <strong> Longevity of Equipment: </strong> Regular maintenance of O General AC is crucial for optimal performance and longevity. It boosts energy efficiency and lowers repair costs, resulting in savings for residential and commercial property users. </li>
                   <li> <strong> Improved Air Quality: </strong> Routine o general air conditioner cleaning service prevents dust and allergens from getting in, resulting in improved air quality. </li>
-                  <li> <strong> Enhanced Comfort: </strong> Maintaining your original AC service in Dubai is essential for optimal comfort and efficiency. Don't settle for less—commit to regular servicing for a consistently pleasant environment every day. </li>
+                  <li> <strong> Enhanced Comfort: </strong> Maintaining your original AC service in Dubai is essential for optimal comfort and efficiency. Don&apos;t settle for less—commit to regular servicing for a consistently pleasant environment every day. </li>
                 </ul>
               </div>
             </div>

@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInLayanCommunity.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
@@ -25,7 +25,7 @@ const AcRepairInLayanCommunityDetail = ({ subtitle, title, reviewsbg, titleSeo, 
     const metadescription = String(description || "Get top-notch AC repair in Al Qusais with experts. We offer cost-effective solutions for all your HVAC, split & central air conditioner Dubai 043300002ac-repair-al-qusais");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "ac repair al qusais, ac service al qusais, ac maintenance al qusais, ac installation al qusais, central ac service al qusais, split ac service al qusais, air conditioning repair al qusais, air conditioning service al qusais, air conditioning maintenance al qusais");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-repair-al-qusais/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-layan-community/").replace(/\/?$/, '/');
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
     subtitle = "Testimonial"
     title = "What our clients say About Us"

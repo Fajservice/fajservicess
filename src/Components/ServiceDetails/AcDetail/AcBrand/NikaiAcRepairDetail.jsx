@@ -188,7 +188,7 @@ const NikaiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
             <div className="row align-items-center">
               <div className="col-md-6">
                 <ul className="mb-0">
-                  <li> <strong> Extreme Weather Conditions: </strong>Dubai is known for its high temperatures, especially during the summer months. In this climate, a Nikai split air conditioner is not just a luxury; it's a necessity. Regular maintenance ensures that your Nikai Split AC operates efficiently, providing reliable cooling when you need it most.</li>
+                  <li> <strong> Extreme Weather Conditions: </strong>Dubai is known for its high temperatures, especially during the summer months. In this climate, a Nikai split air conditioner is not just a luxury; it&apos;s a necessity. Regular maintenance ensures that your Nikai Split AC operates efficiently, providing reliable cooling when you need it most.</li>
                   <li> <strong> Energy Efficiency: </strong>A well-maintained Nikai split AC runs efficiently, which can help lower your energy bills. Routine checks can identify issues that may lead to increased energy consumption.</li>
                   <li> <strong> Extended Lifespan: </strong>PRegular maintenance of your Nikai wall-mounted AC can extend its lifespan, helping you avoid costly repairs down the line.</li>
                 </ul>

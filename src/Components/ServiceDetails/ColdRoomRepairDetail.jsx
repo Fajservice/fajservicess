@@ -66,7 +66,7 @@ const ColdRoomRepair = () => {
                                     </div>
                                 </div>
                                 {/* <h2>Ready to Beat the Heat? Find the Best AC Repair in Dubai</h2>
-                <p>Ready to Beat the Heat? Look no further! Find the best AC Repair in Dubai and keep yourself cool all summer long. Our expert AC technicians ensure fast, reliable services to get your AC up and running.Our service guarantees a comfortable home or office environment, even during the scorching heat of Dubai. Plus, with our affordable rates and transparent pricing, you can trust that you're getting the best value for your money.Don't suffer through another day of sweltering temperatures. Click below to schedule your AC repair and maintenance now and experience instant relief! Stay cool, Dubai!</p> */}
+                <p>Ready to Beat the Heat? Look no further! Find the best AC Repair in Dubai and keep yourself cool all summer long. Our expert AC technicians ensure fast, reliable services to get your AC up and running.Our service guarantees a comfortable home or office environment, even during the scorching heat of Dubai. Plus, with our affordable rates and transparent pricing, you can trust that you&apos;re getting the best value for your money.Don&apos;t suffer through another day of sweltering temperatures. Click below to schedule your AC repair and maintenance now and experience instant relief! Stay cool, Dubai!</p> */}
                                 <div className="row">
                                     <div className="col-xl-6">
                                         <img src={`${import.meta.env.BASE_URL}img/cold-room.avif`} alt="Post Image" />

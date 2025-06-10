@@ -182,7 +182,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filt
               <div className="col-md-6">
                 <ul className="mb-0">
 
-                  <li> <strong> Extreme Weather: </strong> In the sweltering heat of summer, temperatures can soar above 40°C (104°F), creating an oppressive environment. In such extreme conditions, it's essential to ensure that your Mitsubishi AC systems are running at peak performance.
+                  <li> <strong> Extreme Weather: </strong> In the sweltering heat of summer, temperatures can soar above 40°C (104°F), creating an oppressive environment. In such extreme conditions, it&apos;s essential to ensure that your Mitsubishi AC systems are running at peak performance.
                   </li>
                   <li> <strong> Energy Efficiency: </strong>  A meticulously cared-for Mitsubishi air conditioning unit operates with enhanced efficiency, leading to significant energy savings and lower Dewa electricity bills.</li>
                   <li> <strong> Longevity of Equipment: </strong> Consistent maintenance of Mitsubishi AC plays an important role in extending its lifespan and can lead to substantial savings over time, making it a wise investment for your home or business

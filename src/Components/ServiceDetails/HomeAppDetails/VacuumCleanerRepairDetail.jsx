@@ -1,7 +1,7 @@
 
 
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../../Data/HomeAppData/FAQs/VacuumCleanerHomeappFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
@@ -205,7 +205,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/inspectio
                 <p className="mb-0">
                   Vacuum cleaner maintenance is crucial for its longevity and performance and to ensure your home is cleaned effectively and safely.
 
-                  <br /> Here's why vacuum cleaner maintenance is important:
+                  <br /> Here&apos;s why vacuum cleaner maintenance is important:
                 </p>
                 <ul className="mb-0">
                   <li><strong> Vacuum Cleaner Extended Lifespan: </strong> Regular maintenance, like cleaning filters and emptying the dustbin, can extend your vacuum's lifespan. </li>

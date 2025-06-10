@@ -133,7 +133,7 @@ const DaikoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                 <h3 className="cs_fs_24 mb-1">Daikool Air Conditioner Maintenance and Servicing</h3>
 
                 <p className="mb-2">
-                  When seeking Daikool AC repair services, it's crucial to engage a qualified and dependable technician for your residence or workplace.
+                  When seeking Daikool AC repair services, it&apos;s crucial to engage a qualified and dependable technician for your residence or workplace.
                   <br />Our services focus on the Daikool AC repair and maintenance of Daikool air conditioners across Dubai and Sharjah.
                   The FAJ team is committed to providing efficient solutions to maintain a comfortable indoor climate throughout the year.
 

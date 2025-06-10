@@ -62,7 +62,7 @@ const ApplianceSpecialise = () => {
                                     <Link to="/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
                                         <b>Teka Appliance Service</b>
                                     </Link>
-                                    : If you're searching for the best Teka appliances repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
+                                    : If you&apos;re searching for the best Teka appliances repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
                                 </p>
 
                                 <br />

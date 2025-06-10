@@ -16,7 +16,7 @@ import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppoin
 const PanasonicFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
     // For SEO
     const metatitle = String(titleSeo || "Panasonic Fridge Repair Dubai - Washing Machine Service");
-    const metadescription = String(description || "If you're searching for a reliable Panasonic fridge Repair in Dubai. Call-FAJ 043300002 for Panasonic washing machine, dishwasher, refrigerator service ");
+    const metadescription = String(description || "If you&apos;re searching for a reliable Panasonic fridge Repair in Dubai. Call-FAJ 043300002 for Panasonic washing machine, dishwasher, refrigerator service ");
     const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Panasonic Fridge Repair Dubai, Panasonic Washing Machine Repair Dubai, Panasonic Cooker Repair Dubai, Panasonic Oven Repair Dubai, Panasonic Appliances Maintenance Dubai, Panasonic Refrigerator Service Dubai");

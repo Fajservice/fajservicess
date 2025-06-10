@@ -186,7 +186,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descr
               <div className="col-md-6">
                 <ul className="mb-0">
 
-                  <li> <strong>  Extreme Weather: </strong> As summer approaches, we can expect temperatures to soar above 40°C (104°F), creating discomfort. It's essential to ensure that your White Westinghouse air conditioning systems are primed for optimal performance. </li>
+                  <li> <strong>  Extreme Weather: </strong> As summer approaches, we can expect temperatures to soar above 40°C (104°F), creating discomfort. it&apos;s essential to ensure that your White Westinghouse air conditioning systems are primed for optimal performance. </li>
                   <li> <strong>  Energy Efficiency: </strong> A well-maintained White Westinghouse air conditioner operates efficiently, resulting in significant energy savings and lower DEWA electricity costs. </li>
                   <li> <strong>  Longevity of Equipment: </strong> Keeping up with the White Westinghouse AC maintenance is really important for getting the best performance and efficiency. It helps lower repair costs and can save money for both homes and businesses. </li>
                   <li> <strong>  Improved Air Quality: </strong> Routine White Westinghouse air conditioner cleaning service prevents dust and allergens from getting in, resulting in improved air quality. </li>

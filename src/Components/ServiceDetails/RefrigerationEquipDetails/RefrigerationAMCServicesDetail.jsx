@@ -615,7 +615,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
                   <p className="mb-0"> <strong>  Free-Standing Freezer and Display Freezer Service and Repair: </strong> Our experts can accurately diagnose and repair any issues with your freezer and display freezer through annual maintenance contracts that offer different packages.</p>
 
-                  <p className="mb-0"> <strong>  Restaurant Fridge PPM Service, Refrigerator AMC Service: </strong> Is your restaurant fridge or refrigerator not functioning? There's no need to endure uncomfortable temperatures or suffer losses due to faulty equipment. With our annual maintenance contract service in Dubai and Sharjah, FAJ will have your restaurant fridge or refrigerator up and running in no time!</p>
+                  <p className="mb-0"> <strong>  Restaurant Fridge PPM Service, Refrigerator AMC Service: </strong> Is your restaurant fridge or refrigerator not functioning? THere&apos;s no need to endure uncomfortable temperatures or suffer losses due to faulty equipment. With our annual maintenance contract service in Dubai and Sharjah, FAJ will have your restaurant fridge or refrigerator up and running in no time!</p>
 
                   <p className="mb-0"> <strong>  Sushi Refrigerator and Chiller Service and Repair: </strong> Maintenance and repair services for sushi refrigerators and chillers in Dubai require specialized expertise, as only professionals can effectively address issues with sushi fridges. We provide a hassle-free repair service for sushi refrigerators.</p>
 

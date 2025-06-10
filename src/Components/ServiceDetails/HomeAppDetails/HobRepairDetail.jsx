@@ -324,7 +324,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Hob-Repai
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      This can happen if the heat is not circulated properly or if there's a problem with the fan or heating thermostat.</p>
+                      This can happen if the heat is not circulated properly or if tHere&apos;s a problem with the fan or heating thermostat.</p>
                   </div>
                 </div>
               </div>
@@ -570,7 +570,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Hob-Repai
                 <p className="mb-0"><a href="https://www.fajservices.ae/viking-appliances-service/"><strong>  Viking Range Repair</strong></a>: Your Viking appliances may require repair or maintenance, and we can help. For high-quality Viking range repair in Dubai, rely on FAJ. </p>
                 <p className="mb-0"><a href="https://www.fajservices.ae/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/"><strong>  Daewoo Hob Repair</strong></a>: We provide expert services for Daewoo hob repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo hob, cooking range, refrigerator, washing machine, dryer and more. </p>
                 <p className="mb-0"><a href="https://www.fajservices.ae/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub/"><strong>  Neff Hob Repair</strong></a>: Are you concerned about your Neff induction hob malfunctioning and searching for a reliable Neff induction hob repair company in Dubai? Contact us for same-day service!</p>
-                <p className=""><a href="https://www.fajservices.ae/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/"><strong>  Teka Induction Hob Repair</strong></a>: If you're searching for the best Teka induction hob repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka gas stove, refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.</p>
+                <p className=""><a href="https://www.fajservices.ae/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/"><strong>  Teka Induction Hob Repair</strong></a>: If you&apos;re searching for the best Teka induction hob repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka gas stove, refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.</p>
               
 
                 <p><a href="/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/">AEG</a>
