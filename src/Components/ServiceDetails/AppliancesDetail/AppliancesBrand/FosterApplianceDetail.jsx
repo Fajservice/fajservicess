@@ -508,6 +508,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                     <div className="container">
                         <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
+
                         <div className="cs_accordians_wrapper cs_style_1 p-0">
 
                             {data.map((item, index) => (
