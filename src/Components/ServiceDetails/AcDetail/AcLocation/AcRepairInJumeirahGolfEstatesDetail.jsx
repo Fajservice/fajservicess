@@ -25,7 +25,7 @@ const AcRepairInJumeirahGolfEstatesDetail = ({ subtitle, title, reviewsbg, title
     const metatitle = String(titleSeo || "AC Services In Jumeirah Golf Estates - #1 Inverter AC Fix");
     const metadescription = String(description || "Are you finding for ac services in jumeirah golf estates dubai? Call 043300002 for your inverter and central air conditioner repair & maintenance..");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || " ac services in jumeirah golf estates, ac repair in jumeirah golf estates, ac maintenance in jumeirah golf estates, ac installation in jumeirah golf estates, ac cleaning in jumeirah golf estates, ac service in jumeirah golf estates, ac technician in jumeirah golf estates, ac company in jumeirah golf estates");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jumeirah-golf-estates/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 

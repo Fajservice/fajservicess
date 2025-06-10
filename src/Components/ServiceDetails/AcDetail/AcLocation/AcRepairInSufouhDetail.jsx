@@ -24,7 +24,7 @@ const AcRepairInSufouhDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
     const metatitle = String(titleSeo || "AC Services in Al Sufouh - Aircon Maintenance Dubai Near Me");
     const metadescription = String(description || "AC Services in Al Sufouh Dubai. We are experts in central & split air conditioner repairs and maintenance service in my location dubai 043300002");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaKeyword = String(Keyword || "");
+    const metaKeyword = String(Keyword || "AC Services in Al Sufouh, AC Repair in Al Sufouh, Air Conditioner Maintenance Dubai, Aircon Service Dubai, Split AC Repair Dubai, Central AC Service Dubai, AC Installation Dubai, AC Cleaning Dubai, Air Conditioning Services Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-sufouh/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 
