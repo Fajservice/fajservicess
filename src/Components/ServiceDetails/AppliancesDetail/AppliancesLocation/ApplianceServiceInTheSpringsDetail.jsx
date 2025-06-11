@@ -14,7 +14,14 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 import ApplianceSpecialise from "./Appliance specialise/ApplianceSpecialise.jsx";
 
-const ApplianceServiceInTheSpringsDetail = ({ subtitle, title, reviewsbg}) => {
+const ApplianceServiceInTheSpringsDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL}) => {
+    // For SEO
+    const metatitle = String(titleSeo || "Appliances Services in The Springs - Fridge Repair Dubai");
+    const metadescription = String(description || "Get best appliance services in The Springs. Experts in fridge repair near me in Dubai. Call 043300002 for fix washing machine, oven, coffee machine");
+    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaKeyword = String(Keyword || "Washing Machine in the villa, Refrigerator in the villa, Dishwasher in the villa, Appliance service in the villa, Appliance repair in the villa, Appliance maintenance in the villa, Appliance installation in the villa");
+    const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-springs/").replace(/\/?$/, '/');
 
 
     subtitle = "Testimonial"
@@ -109,20 +116,27 @@ const ApplianceServiceInTheSpringsDetail = ({ subtitle, title, reviewsbg}) => {
         <>
             <HelmetProvider>
                 <Helmet>
-                    <title>Appliances Services in The Springs - Fridge Repair Dubai</title>
-                    <meta name="description" content="Get best appliance services in The Springs. Experts in fridge repair near me in Dubai. Call 043300002 for fix washing machine, oven, coffee machine"></meta>
-                    <meta name="keywords" content="" />
-                    <meta name="author" content="Faj Technical Services" />
+                    <title>{metatitle}</title>
+                    <meta name="description" content={metadescription}></meta>
+                    <meta name="keywords" content={metaKeyword} />
+                    <meta name="author" content={metaAuthor} />
                     <meta name="robots" content="index, follow" />
-                    <link rel="canonical" href="https://www.fajservices.ae/appliances-services-in-the-springs/" />
+                    <link rel="canonical" href={metaURL} />
                     <meta property="og:type" content="website" />
                     <meta property="og:locale" content="en_US" />
-                    <meta property="og:title" content="Appliances Services in The Springs - Fridge Repair Dubai" />
-                    <meta property="og:description" content="Get best appliance services in The Springs. Experts in fridge repair near me in Dubai. Call 043300002 for fix washing machine, oven, coffee machine"/>
-                    <meta property="og:url" content="https://www.fajservices.ae/appliances-services-in-the-springs/" />
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+                    <meta property="og:title" content={metatitle} />
+                    <meta property="og:description" content={metadescription} />
+                    <meta property="og:url" content={metaURL} />
+                    <meta property="og:image" content={metaImage} />
+                    {/* Twitter Card */}
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:title" content={metatitle} />
+                    <meta name="twitter:description" content={metadescription} />
+                    <meta name="twitter:image" content={metaImage} />
+                    <meta name="twitter:url" content={metaURL} />
                 </Helmet>
             </HelmetProvider>
+
             <HeaderForm />
 
             <div className="cs_service_details">

@@ -130,7 +130,7 @@ const CrafftAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }}>Crafft Air Conditioner Maintenance and Servicing</h2>
+                <h2 className="cs_fs_24 mb-1">Crafft Air Conditioner Maintenance and Servicing</h2>
 
                 <p className="mb-2">
                   In Dubai, professional services are available for repairing Crafft air conditioning systems, so it&apos;s important to hire a qualified AC technician.
@@ -138,7 +138,7 @@ const CrafftAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
 
                 </p>
 
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>Signs You Need An AC Service</h2>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top"> Signs You Need An AC Service</h2>
                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
