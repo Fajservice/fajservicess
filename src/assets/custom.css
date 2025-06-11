@@ -1093,3 +1093,8 @@ tr.Window.Ton-3, tr.Split.Ton-4, tr.Central.Ton-4, tr.Chill.Ton-4, tr.Inverter.T
 .img-position{
   object-position: 60px;
 }
+
+/* Remove when all headers done*/
+h2.cs_fs_24{
+  font-size: 24px;
+}

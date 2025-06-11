@@ -129,13 +129,13 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }}>Cooline Air Conditioner Maintenance and Servicing</h2>
+                <h2 className="cs_fs_24 mb-1">Cooline Air Conditioner Maintenance and Servicing</h2>
 
                 <p className="mb-2">
                   For Cooline <a href="https://www.fajservices.ae/ac-repair-dubai/">AC repair</a>, hiring a qualified AC technician is essential. This service specializes in the Cooline AC repair and cleaning service in Dubai and Sharjah, ensuring consistent temperature regulation year-round.
                 </p>
 
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>Signs You Need An AC Service</h2>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
