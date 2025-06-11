@@ -20,7 +20,7 @@ const ApplianceServiceInDipDetail = ({ subtitle, title, reviewsbg, titleSeo, des
     const metatitle = String(titleSeo || "Best Appliances Services in DIP - Fridge Repair Near Me");
     const metadescription = String(description || "FAJ offers appliance service in DIP. Call 043300002 for fridge repair near me in Dubai. Get to fix washing machine, refrigerator, vacuum cleaner");
     const metaAuthor = String(Author || "Faj Technical Services");
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in DIP, Fridge Repair in DIP, Appliance Service in DIP, Appliance Repair in DIP, Home Appliances Service in DIP, Home Appliances Repair in DIP, Appliance Maintenance in DIP, Appliance Installation in DIP");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dip/").replace(/\/?$/, '/');
 
@@ -128,13 +128,13 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                     <meta property="og:title" content={metatitle} />
                     <meta property="og:description" content={metadescription} />
                     <meta property="og:url" content={metaURL} />
-          <meta property="og:image" content={metaImage} />
-          {/* Twitter Card */}
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content={metatitle} />
-          <meta name="twitter:description" content={metadescription} />
-          <meta name="twitter:image" content={metaImage} />
-          <meta name="twitter:url" content={metaURL} />
+                    <meta property="og:image" content={metaImage} />
+                    {/* Twitter Card */}
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:title" content={metatitle} />
+                    <meta name="twitter:description" content={metadescription} />
+                    <meta name="twitter:image" content={metaImage} />
+                    <meta name="twitter:url" content={metaURL} />
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />
@@ -560,7 +560,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                 </section>
 
-                
+
                 {/* testimobial section */}
                 <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}

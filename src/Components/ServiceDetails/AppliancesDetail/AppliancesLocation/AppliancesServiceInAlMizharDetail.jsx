@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
@@ -143,7 +143,6 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Home Appliance Service in Al Mizhar</h1>
-            {/* <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2> */}
             <p>
               Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
             </p>
@@ -180,6 +179,33 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
               </div>
             </div>
             <AppliancesAppointmentCol></AppliancesAppointmentCol>
+          </div>
+        </section>
+
+        {/* Whyis Appliance Maintenance Service Important in Dubai? */}
+        <section className="section cs_py_30 bg-light-gray">
+          <div className="container">
+            <h3 className="cs_fs_30">Why is Appliance Maintenance Service Important in Dubai?</h3>
+            <p className="">
+              Proper appliance maintenance is essential for extending lifespan and enhancing efficiency, especially in Dubai’s climate. Here are the main benefits:
+            </p>
+
+            <div className="row align-items-center">
+              <div className="col-md-6">
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} loading="lazy" alt="Post Image" />
+              </div>
+              <div className="col-md-6">
+                <ul className="mb-0">
+                  <li> <strong>  Extended Lifespan: </strong> Regular maintenance helps appliances last longer, saving on replacement costs.</li>
+                  <li> <strong>  Improved Efficiency: </strong> Well-maintained appliances use less energy, leading to lower utility bills, which is essential in Dubai. </li>
+                  <li> <strong>  Preventing Costly Repair: </strong> Catching minor issues early prevents them from escalating into expensive repair. </li>
+                  <li> <strong>  Preserving Appliance Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
+                  <li> <strong>  Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious.</li>
+                  <li> <strong>  Cost-Effective: </strong> Maintenance costs are lower than early replacements or major repair. Investing in appliance care ensures safety and efficiency and is a smart economic choice in Dubai.</li>
+                  <li> <strong>  Energy Efficiency: </strong> Regularly maintaining your appliances, can improve their efficiency and save you money.</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -290,32 +316,41 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
           </div>
         </section>
 
-        {/* Whyis Appliance Maintenance Service Important in Dubai? */}
+        {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="cs_fs_30">Why is Appliance Maintenance Service Important in Dubai?</h3>
-            <p className="">
-              Proper appliance maintenance is essential for extending lifespan and enhancing efficiency, especially in Dubai’s climate. Here are the main benefits:
-            </p>
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h3>
 
             <div className="row align-items-center">
-              <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} loading="lazy" alt="Post Image" />
-              </div>
-              <div className="col-md-6">
-                <ul className="mb-0">
-                  <li> <strong>  Extended Lifespan: </strong> Regular maintenance helps appliances last longer, saving on replacement costs.</li>
-                  <li> <strong>  Improved Efficiency: </strong> Well-maintained appliances use less energy, leading to lower utility bills, which is essential in Dubai. </li>
-                  <li> <strong>  Preventing Costly Repair: </strong> Catching minor issues early prevents them from escalating into expensive repair. </li>
-                  <li> <strong>  Preserving Appliance Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
-                  <li> <strong>  Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious.</li>
-                  <li> <strong>  Cost-Effective: </strong> Maintenance costs are lower than early replacements or major repair. Investing in appliance care ensures safety and efficiency and is a smart economic choice in Dubai.</li>
-                  <li> <strong>  Energy Efficiency: </strong> Regularly maintaining your appliances, can improve their efficiency and save you money.</li>
+              <div className="col-xl-6">
+                <p className='mb-0'>We specialize in all types and brands of home appliances, including built-in units.</p>
+                <p className='mb-0'><strong>Our services include:</strong></p>
+                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
+                  <li> <strong>  Installation: </strong> Expert installation of various types and brands of home appliances, ensuring optimal performance and efficiency. </li>
+                  <li> <strong> Diagnostics: </strong> Comprehensive fault-finding services to effectively diagnose issues. We provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
+                  <li> <strong> Repair Service: </strong> Efficient repair services for all appliance components, ensuring a quick resolution to issues such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions! </li>
+                  <li> <strong> Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for
+                    the annual maintenance of your appliances. </li>
+                  <p className="mb-0">
+                    <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for optimal performance, efficiency, and longevity of your home appliances.
+                  </p>
                 </ul>
+              </div>
+              <div className="col-xl-6">
+                <iframe
+                  className="bordered-img blue-border"
+                  width="100%"
+                  height="350"
+                  src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
               </div>
             </div>
           </div>
-        </section>
+        </section >
 
         {/* The Benefits Of appliances Service Dubai */}
         <section className="section cs_py_30 appliances-benifit-sec">
@@ -402,42 +437,6 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
             </div>
           </div>
         </section>
-
-        {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
-        <section className="section cs_py_30 bg-light-gray">
-          <div className="container">
-            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h3>
-
-            <div className="row align-items-center">
-              <div className="col-xl-6">
-                <p className='mb-0'>We specialize in all types and brands of home appliances, including built-in units.</p>
-                <p className='mb-0'><strong>Our services include:</strong></p>
-                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                  <li> <strong>  Installation: </strong> Expert installation of various types and brands of home appliances, ensuring optimal performance and efficiency. </li>
-                  <li> <strong> Diagnostics: </strong> Comprehensive fault-finding services to effectively diagnose issues. We provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
-                  <li> <strong> Repair Service: </strong> Efficient repair services for all appliance components, ensuring a quick resolution to issues such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions! </li>
-                  <li> <strong> Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for
-                    the annual maintenance of your appliances. </li>
-                  <p className="mb-0">
-                    <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for optimal performance, efficiency, and longevity of your home appliances.
-                  </p>
-                </ul>
-              </div>
-              <div className="col-xl-6">
-                <iframe
-                  className="bordered-img blue-border"
-                  width="100%"
-                  height="350"
-                  src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
-              </div>
-            </div>
-          </div>
-        </section >
 
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
@@ -526,57 +525,11 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
           </div>
         </section>
 
+        {/* Maintenance Contract */}
+        <MaintenanceContract />
+
         {/* We are specialise in Appliances services for the following brands */}
         <ApplianceSpecialise />
-
-        {/* <section className="section cs_py_30 bg-dark-blue text-light">
-              <div className="container text-center">
-                <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
-                <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers! </p>
-                <a
-                  href="files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
-                  className="btn-green-yellow"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Click Here to Save on Energy Bills
-                </a>
-    
-              </div>
-            </section> */}
-
-        {/* white section with AC image */}
-        {/* <section className="section cs_py_30">
-              <div className="container text-center">
-                <div className="row">
-                  <div className="col-lg-4">
-                    <div className="acsvs-sec-prefoot-sec-cone">
-                      <h3 className="cs_fs_20 mb-0">COOLING &amp; HEATING</h3>
-                      <span className="mb-5">Stay comfortable all year round</span>
-                      <div className="mb-5"></div>
-                      <h3 className="cs_fs_20 mb-0">BETTER AIR QUALITY</h3>
-                      <span className="mb-5">Reduce humidity, pollen and dust</span>
-                    </div>
-                  </div>
-                  <div className="col-lg-4">
-                    <div className="acsvs-sec-prefoot-sec-ctwo">
-    
-                      <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} loading="lazy" alt="Post Image" />
-                    </div>
-                  </div>
-                  <div className="col-lg-4">
-                    <div className="acsvs-sec-prefoot-sec-cthree">
-                      <h3 className="cs_fs_20 mb-0">PROTECT YOUR PROPERTY</h3>
-                      <span className="mb-5">Prevent damage to electronics and furnishings</span>
-                      <div className="mb-5"></div>
-                      <h3 className="cs_fs_20 mb-0">QUIET AND SECURE</h3>
-                      <span className="mb-5">No need to leave windows open</span>
-                    </div>
-                  </div>
-                </div>
-    
-              </div>
-            </section> */}
 
         {/* Brands section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
@@ -607,8 +560,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         </section>
 
 
-        {/* Maintenance Contract */}
-        <MaintenanceContract />
+        
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
 

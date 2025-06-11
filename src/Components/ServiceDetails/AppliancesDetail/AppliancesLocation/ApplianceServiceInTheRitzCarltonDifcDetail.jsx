@@ -436,9 +436,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                             </div>
                         </div>
                     </div>
-                </section>
-
-                
+                </section>           
 
                 {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
                 <section className="section cs_py_30">
