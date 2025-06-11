@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
@@ -21,7 +21,7 @@ const AppliancesServicesInAlFurjanDetail = ({ subtitle, title, reviewsbg, titleS
     const metatitle = String(titleSeo || "Appliances Services in Al Furjan - Fridge Repair Dubai");
     const metadescription = String(description || "Best appliance services in Al Furjan near me. FAJ offers fridge repair Dubai. Call 043300002 for dishwasher, oven, washing machine maintenance");
     const metaAuthor = String(Author || "Faj Technical Services");
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in al furjan, Fridge Repair in al furjan, Dishwasher Repair in al furjan, Oven Repair in al furjan, Appliance Service in al furjan, Appliance Repair in al furjan, Appliance Maintenance in al furjan, Appliance Installation in al furjan");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-furjan/").replace(/\/?$/, '/');
 
@@ -128,13 +128,13 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                     <meta property="og:title" content={metatitle} />
                     <meta property="og:description" content={metadescription} />
                     <meta property="og:url" content={metaURL} />
-          <meta property="og:image" content={metaImage} />
-          {/* Twitter Card */}
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content={metatitle} />
-          <meta name="twitter:description" content={metadescription} />
-          <meta name="twitter:image" content={metaImage} />
-          <meta name="twitter:url" content={metaURL} />
+                    <meta property="og:image" content={metaImage} />
+                    {/* Twitter Card */}
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:title" content={metatitle} />
+                    <meta name="twitter:description" content={metadescription} />
+                    <meta name="twitter:image" content={metaImage} />
+                    <meta name="twitter:url" content={metaURL} />
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />
@@ -527,9 +527,12 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                     </div>
                 </section>
 
+                {/* Maintenance Contract */}
+                <MaintenanceContract />
+
                 {/* We are specialise in Appliances services for the following brands */}
-                <ApplianceSpecialise /> 
-                
+                <ApplianceSpecialise />
+
                 {/* Brands section */}
                 <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
                     <div className="container">
@@ -558,9 +561,6 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
                 </section>
 
-
-                {/* Maintenance Contract */}
-                <MaintenanceContract />
                 {/* testimobial section */}
                 <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
 
