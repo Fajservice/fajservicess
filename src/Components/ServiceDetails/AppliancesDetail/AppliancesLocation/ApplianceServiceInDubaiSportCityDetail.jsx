@@ -20,7 +20,7 @@ const ApplianceServiceInDubaiSportCityDetail = ({ subtitle, title, reviewsbg, ti
     const metatitle = String(titleSeo || "Appliances Services in Dubai Sports City - Fridge Repair");
     const metadescription = String(description || "We offer best appliance services in Dubai Sports City. Get fridge repair near me. Book 043300002 for oven, dishwasher, washing machine maintenance");
     const metaAuthor = String(Author || "Faj Technical Services");
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in dubai Sports City, Fridge Repair in Dubai Sports City, Dishwasher Repair in Dubai Sports City, Oven Repair in Dubai Sports City, Appliance Service in Dubai Sports City");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-sports-city/").replace(/\/?$/, '/');
 
@@ -128,13 +128,13 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                     <meta property="og:title" content={metatitle} />
                     <meta property="og:description" content={metadescription} />
                     <meta property="og:url" content={metaURL} />
-          <meta property="og:image" content={metaImage} />
-          {/* Twitter Card */}
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content={metatitle} />
-          <meta name="twitter:description" content={metadescription} />
-          <meta name="twitter:image" content={metaImage} />
-          <meta name="twitter:url" content={metaURL} />
+                    <meta property="og:image" content={metaImage} />
+                    {/* Twitter Card */}
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:title" content={metatitle} />
+                    <meta name="twitter:description" content={metadescription} />
+                    <meta name="twitter:image" content={metaImage} />
+                    <meta name="twitter:url" content={metaURL} />
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />
@@ -144,7 +144,6 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                 <section className="section cs_py_30">
                     <div className="container">
                         <h1 className="cs_fs_30">Home Appliance Service in Dubai Sport City</h1>
-                        {/* <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2> */}
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
@@ -440,7 +439,6 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                     </div>
                 </section>
 
-
                 {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
                 <section className="section cs_py_30">
                     <div className="container container-md container-sm">
@@ -528,8 +526,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                     </div>
                 </section>
 
-                {/* Maintenance Contract */}
-                <MaintenanceContract />
+                
 
                 {/* We are specialise in Appliances services for the following brands */}
                 <ApplianceSpecialise />
@@ -561,7 +558,10 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                     </div>
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                 </section>
-                
+
+                {/* Maintenance Contract */}
+                <MaintenanceContract />
+
                 {/* testimobial section */}
                 <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}

@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
@@ -525,9 +525,6 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
           </div>
         </section>
 
-        {/* Maintenance Contract */}
-        <MaintenanceContract />
-
         {/* We are specialise in Appliances services for the following brands */}
         <ApplianceSpecialise />
 
@@ -558,6 +555,9 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
           </div>
 
         </section>
+
+          {/* Maintenance Contract */}
+        <MaintenanceContract />
         
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>

@@ -3,16 +3,35 @@ import data from "../../Data/herobanner1.json";
 import { Link } from "react-router-dom";
 
 const HeroBanner1 = () => {
-  // Settings for the slider
   const settings = {
-    dots: true,
-    infinite: true,
-    speed: 900,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    swipeToSlide: true,
-  };
+  dots: true,
+  infinite: true,
+  speed: 900,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  swipeToSlide: true,
+  beforeChange: () => {
+    const activeElement = document.activeElement;
+    if (
+      activeElement &&
+      activeElement.closest &&
+      activeElement.closest(".slick-slide[aria-hidden='false']")
+    ) {
+      activeElement.blur(); // Blur if it's focused inside visible slide
+    }
+  },
+  afterChange: () => {
+    // As a fallback, blur any lingering focused element
+    if (
+      document.activeElement &&
+      document.activeElement !== document.body &&
+      typeof document.activeElement.blur === "function"
+    ) {
+      document.activeElement.blur();
+    }
+  }
+};
 
   return (
     <section className="cs_slider cs_style_1">

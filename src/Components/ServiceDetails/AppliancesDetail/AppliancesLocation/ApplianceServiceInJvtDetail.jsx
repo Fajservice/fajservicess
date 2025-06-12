@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
@@ -20,7 +20,7 @@ const ApplianceServiceInJvtDetail = ({ subtitle, title, reviewsbg, titleSeo, des
     const metatitle = String(titleSeo || "Appliances Services In JVT - Washing Machine Repair");
     const metadescription = String(description || "Looking for appliance Services in JVT. Call now 043300002 for refrigerator repair near me, fridge, fix washing machine, dishwasher, oven & more.");
     const metaAuthor = String(Author || "Faj Technical Services");
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in JVT, Refrigerator Repair in JVT, Dishwasher Repair in JVT, Oven Repair in JVT, Appliance Service in JVT, Appliance Repair in Jumeirah Village Triangle, Appliance Maintenance in JVT");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jvt/").replace(/\/?$/, '/');
 
@@ -127,13 +127,13 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                     <meta property="og:title" content={metatitle} />
                     <meta property="og:description" content={metadescription} />
                     <meta property="og:url" content={metaURL} />
-          <meta property="og:image" content={metaImage} />
-          {/* Twitter Card */}
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content={metatitle} />
-          <meta name="twitter:description" content={metadescription} />
-          <meta name="twitter:image" content={metaImage} />
-          <meta name="twitter:url" content={metaURL} />
+                    <meta property="og:image" content={metaImage} />
+                    {/* Twitter Card */}
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:title" content={metatitle} />
+                    <meta name="twitter:description" content={metadescription} />
+                    <meta name="twitter:image" content={metaImage} />
+                    <meta name="twitter:url" content={metaURL} />
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />
@@ -437,7 +437,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                         </div>
                     </div>
                 </section>
-                
+
                 {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
                 <section className="section cs_py_30">
                     <div className="container container-md container-sm">
@@ -525,9 +525,6 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                     </div>
                 </section>
 
-                {/* Maintenance Contract */}
-                <MaintenanceContract />
-
                 {/* We are specialise in Appliances services for the following brands */}
                 <ApplianceSpecialise />
 
@@ -558,7 +555,10 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                     </div>
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                 </section>
-                
+
+                {/* Maintenance Contract */}
+                <MaintenanceContract />
+
                 {/* testimobial section */}
                 <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
