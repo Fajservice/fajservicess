@@ -14,7 +14,7 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 import ApplianceSpecialise from "./Appliance specialise/ApplianceSpecialise.jsx";
 
-const ApplianceServiceInTheSpringsDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL}) => {
+const ApplianceServiceInTheSpringsDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
     // For SEO
     const metatitle = String(titleSeo || "Appliances Services in The Springs - Fridge Repair Dubai");
     const metadescription = String(description || "Get best appliance services in The Springs. Experts in fridge repair near me in Dubai. Call 043300002 for fix washing machine, oven, coffee machine");
@@ -117,10 +117,11 @@ const ApplianceServiceInTheSpringsDetail = ({ subtitle, title, reviewsbg, titleS
             <HelmetProvider>
                 <Helmet>
                     <title>{metatitle}</title>
-                    <meta name="description" content={metadescription}></meta>
+                    <meta name="description" content={metadescription} />
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
                     <meta name="robots" content="index, follow" />
+
                     <link rel="canonical" href={metaURL} />
                     <meta property="og:type" content="website" />
                     <meta property="og:locale" content="en_US" />
@@ -128,6 +129,7 @@ const ApplianceServiceInTheSpringsDetail = ({ subtitle, title, reviewsbg, titleS
                     <meta property="og:description" content={metadescription} />
                     <meta property="og:url" content={metaURL} />
                     <meta property="og:image" content={metaImage} />
+
                     {/* Twitter Card */}
                     <meta name="twitter:card" content="summary_large_image" />
                     <meta name="twitter:title" content={metatitle} />
