@@ -15,7 +15,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/ac-tonnage-calculator/",
-        element: Components.withSuspense(Components.ContactPage)(),
+        element: Components.withSuspense(Components.AcTonnageCalculator)(),
       },
       {
         path: "/orphan/",

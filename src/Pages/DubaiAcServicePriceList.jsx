@@ -1,10 +1,45 @@
 import { useEffect, useState } from 'react';
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
-const ServiceCard = ({ title, subtitle, price, color, details, whatsappLink }) => {
+
+const ServiceCard = ({ title, subtitle, price, color, details, whatsappLink, titleSeo, description, Author, Keyword, URL }) => {
+
+  // For SEO
+  const metatitle = String(titleSeo || "Dubai Best AC Service Prices - Air Conditioner Maintenance");
+  const metadescription = String(description || "Get the best AC service prices in Dubai with FAJ Technical Services. Our expert team provides top-notch air conditioner maintenance and repair services to keep your home cool and comfortable. Contact us today for affordable rates and reliable service.");
+  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaKeyword = String(Keyword || "Dubai AC Service Prices");
+  const metaURL = String(URL || "https://www.fajservices.ae/lennox-ac-repair-in-dubai-lennox-ac-maintenance-in-dubai-lennox-ac-fix-in-dubai-lennox-ac-service-in-dubai-lennox-air-condition-repair-in-dubai-lennox-air-condition-maintenance-in-dubai-lennox-air-con/").replace(/\/?$/, '/');
+const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
   const [isExpanded, setIsExpanded] = useState(false);
   const buttonClass = `btn btn-${color}`;
 
   return (
+    <>
+          <HelmetProvider>
+            <Helmet>
+              <title>{metatitle}</title>
+              <meta name="description" content={metadescription} />
+              <meta name="keywords" content={metaKeyword} />
+              <meta name="author" content={metaAuthor} />
+              <meta name="robots" content="index, follow" />
+    
+              <link rel="canonical" href={metaURL} />
+              <meta property="og:type" content="website" />
+              <meta property="og:locale" content="en_US" />
+              <meta property="og:title" content={metatitle} />
+              <meta property="og:description" content={metadescription} />
+              <meta property="og:url" content={metaURL} />
+              <meta property="og:image" content={metaImage} />
+    
+              {/* Twitter Card */}
+              <meta name="twitter:card" content="summary_large_image" />
+              <meta name="twitter:title" content={metatitle} />
+              <meta name="twitter:description" content={metadescription} />
+              <meta name="twitter:image" content={metaImage} />
+              <meta name="twitter:url" content={metaURL} />
+            </Helmet>
+          </HelmetProvider>
     <div className="col-lg-4 mb-4">
       <div className="inner-acsvs-sec-feat">
         <div className="avsvs-sec-feat-sub">
@@ -47,6 +82,7 @@ const ServiceCard = ({ title, subtitle, price, color, details, whatsappLink }) =
         </div>
       </div>
     </div>
+    </>
   );
 };
 
