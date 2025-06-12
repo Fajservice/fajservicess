@@ -1,24 +1,40 @@
-import About1 from "../Components/About/About1";
-import BeforeAfter from "../Components/BeforeAfter/BeforeAfter";
-import Blog3 from "../Components/Blog/Blog3";
-import Choose1 from "../Components/Choose/Choose1";
-import Contact1 from "../Components/Contact/Contact";
-import HeroBanner1 from "../Components/HeroBanner/HeroBanner1";
-import Process from "../Components/Process/Process";
-import Project1 from "../Components/Project/Project1";
-import Services1 from "../Components/Services/Services1";
-import Testimonial1 from "../Components/Testimonial/Testimonial1";
-import { Helmet } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
-const Orphan = () => {
+const Orphan = ({titleSeo, description, Author, Keyword, URL }) => {
+    // For SEO
+    const metatitle = String(titleSeo || "FAJ / AC Repair In Dubai");
+    const metadescription = String(description || "FAJ Established in 2010");
+    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaKeyword = String(Keyword || "FAJ");
+    const metaURL = String(URL || "https://www.fajservices.ae/orphan/").replace(/\/?$/, '/');
+
     return (
         <>
-            <Helmet>
-
-                <title>FAJ / AC Repair In Dubai - Freezer Service Appliances Fix</title>
-                <meta name="description" content="FAJ Established in 2010, / We offer professional AC Repair, Freezer, Refrigerator, Fridge, Washing Machine Maintenance Service Company Dubai" />
-
-            </Helmet>
+            <HelmetProvider>
+                           <Helmet>
+                               <title>{metatitle}</title>
+                               <meta name="description" content={metadescription} />
+                               <meta name="keywords" content={metaKeyword} />
+                               <meta name="author" content={metaAuthor} />
+                               <meta name="robots" content="index, follow" />
+           
+                               <link rel="canonical" href={metaURL} />
+                               <meta property="og:type" content="website" />
+                               <meta property="og:locale" content="en_US" />
+                               <meta property="og:title" content={metatitle} />
+                               <meta property="og:description" content={metadescription} />
+                               <meta property="og:url" content={metaURL} />
+                               <meta property="og:image" content={metaImage} />
+           
+                               {/* Twitter Card */}
+                               <meta name="twitter:card" content="summary_large_image" />
+                               <meta name="twitter:title" content={metatitle} />
+                               <meta name="twitter:description" content={metadescription} />
+                               <meta name="twitter:image" content={metaImage} />
+                               <meta name="twitter:url" content={metaURL} />
+                           </Helmet>
+                       </HelmetProvider>
 
             <section
                 className="cs_page_heading cs_bg_filed cs_primary_bg"
@@ -288,10 +304,15 @@ const Orphan = () => {
                             <li><a href="https://www.fajservices.ae/ac-services-in-jbr/">AC Services In JBR - Chilled Water FCU Repair Near Me #1</a></li>
                             <li><a href="https://www.fajservices.ae/marvel-fridge-repair-in-dubai-marvel-washing-machine-repair-in-dubai-marvel-cooker-repair-in-dubai-marvel-oven-repair-in-dubai-marvel-appliances-maintenance-in-dubai-marvel-refrigerator-fix-repairs-se/">Best Marvel Fridge Repair In Dubai - Oven Fix Service #1</a></li>
                             <li><a href="https://www.fajservices.ae/ac-services-in-emirates-hills/">AC Services In Emirates Hills - #1 Air Conditioner Repairs</a></li>
+                            <li><a href="https://www.fajservices.ae/ac-repair-and-ac-service-in-emirates-hills/ ">AC Services In Emirates Hills - #1 Air Conditioner Repairs</a></li>
                             <li><a href="https://www.fajservices.ae/ac-repair-in-al-barsha-air-condition-maintenance-in-al-barsha-air-conditioning-fix-amc-service-in-al-barsha-dubai/">AC Repair In Al Barsha - Air Condition Maintenance Service 1</a></li>
                             <li><a href="https://www.fajservices.ae/fagor-fridge-repair-in-dubai-fagor-washing-machine-repair-in-dubai-fagor-cooker-repair-in-dubai-fagor-oven-repair-in-dubai-fagor-appliances-maintenance-in-dubai-fagor-refrigerator-fix-repairs-service/">Fagor Fridge Repair In Dubai - Washing Machine Service #1</a></li>
                             <li><a href="https://www.fajservices.ae/ac-services-in-al-sufouh/">AC Services In Al Sufouh - Aircon Maintenance And Repairs</a></li>
+                            <li><a href="https://www.fajservices.ae/ac-repair-and-ac-service-in-al-mizhar/">AC Services In Al Mizhar - Aircon Maintenance And Repairs</a></li>
+                            <li><a href="https://www.fajservices.ae/ac-repair-and-ac-service-in-al-mamzar/">AC Services In Al Mamzar - Aircon Maintenance And Repairs</a></li>
                             <li><a href="https://www.fajservices.ae/appliances-services-in-dubai-sports-city/">Appliances Services In Dubai Sports City - Fridge Repair</a></li>
+                            <li><a href="https://www.fajservices.ae/appliances-services-in-al-mamzar/ ">Appliances Services In Al Mamzar - Fridge Repair</a></li>
+                            <li><a href="https://www.fajservices.ae/appliances-services-in-al-mizhar/">Appliances Services In Al Mizhar - Fridge Repair</a></li>
                             <li><a href="https://www.fajservices.ae/appliances-services-in-dubailand-mazaya/">Appliances Services In Dubailand Mazaya - Fridge Repairs</a></li>
                             <li><a href="https://www.fajservices.ae/appliances-services-in-jlt/">Appliances Services In JLT Jumeirah Lake Towers Fridge Fix</a></li>
                             <li><a href="https://www.fajservices.ae/appliances-services-in-layan-community/">Best Appliances Services In Layan Community - Fridge Repair</a></li>
@@ -348,6 +369,8 @@ const Orphan = () => {
                             <li><a href="https://www.fajservices.ae/ac-services-in-business-bay/">AC Services in Business Bay</a></li>
                             <li><a href="https://www.fajservices.ae/ac-services-in-international-media-and-production-zone/">AC Services in International Media and Production Zone</a></li>
                             <li><a href="https://www.fajservices.ae/%D8%AA%D8%B5%D9%84%D9%8A%D8%AD-%D9%85%D9%83%D9%8A%D9%81%D8%A7%D8%AA-%D8%A7%D9%84%D9%87%D9%88%D8%A7%D8%A1-%D8%AE%D8%AF%D9%85%D8%A9-%D9%88%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D8%AF%D8%A8%D9%8A/">شركةتصليح مكيفات الهواء خدمة وصيانة دبي</a></li>
+                            <li><a href="https://www.fajservices.ae/dubai/ac-repair-near-me/">AC Repair Near Me - Expert AC Service and Maintenance</a></li>
+                            <li><a href="https://www.fajservices.ae/dubai/near-me/ ">Near Me</a></li>
                         </ul>
                     </div>
                 </div>
