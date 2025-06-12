@@ -146,8 +146,8 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30"> Refrigerator Repair and Service in Dubai</h1>
-            <p>Since 2010, FAJ has established itself as the go-to reference for refrigerator repair and service in Dubai and Sharjah.
-              We prioritise repairs over replacements, helping you save money and avoid the bother of buying a new fridge or freezer.
+            <p>Since 2010, FAJ has established itself as the go-to reference for  refrigerator, freezer and fridge repair and service in Dubai and Sharjah.
+              We prioritise refrigerator repairs over replacements, helping you save money and avoid the bother of buying a new fridge or freezer.
               Rely on our experienced experts for fast and reliable refrigerator maintenance in Dubai!
             </p>
 
@@ -168,7 +168,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
               <div className="col-md-6">
                 <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }}>Refrigerator Repair & Service Near You</h2>
                 <p className="mb-2">Is your fridge or freezer not cooling properly? Has your food spoiled?
-                  You can easily book online refrigerator repair in Dubai / Sharjah near me service with FAJ Experts.
+                  You can easily book online fridge repair and freezer repair in Dubai / Sharjah near me service with FAJ Experts.
                   We repair most major brands of refrigerators and freezers, offering same-day fridge service at affordable prices. Choose a time slot that works best for you!
                 </p>
                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>Fast and Reliable Appliances Service
@@ -548,19 +548,19 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
                   <Link to="/lg-fridge-repair-in-dubai-lg-washing-machine-repair-in-dubai-lg-cooker-repair-in-dubai-lg-oven-repair-in-dubai-lg-appliances-maintenance-in-dubai-lg-refrigerator-fix-repairs-service-in-dubai-lg-dishwa/"><b>LG Refrigerator Repair</b></Link>: FAJ is here to support you when things go wrong. We understand that your LG refrigerator is essential for daily life, preserving your food and ensuring your meals are always prepared.
                 </p>
                 <p className="mb-0">
-                  <Link to="/samsung-fridge-repair-in-dubai-samsung-washing-machine-repair-in-dubai-samsung-cooker-repair-in-dubai-samsung-oven-repair-in-dubai-samsung-appliances-maintenance-in-dubai-samsung-refrigerator-fix-repa/"><b>Samsung Refrigerator Repair</b></Link>: If you are facing any problems with your Samsung refrigerator, washer dryer, or dishwasher, contact the FAJ team for same-day repair service in Dubai.
+                  <Link to="/samsung-fridge-repair-in-dubai-samsung-washing-machine-repair-in-dubai-samsung-cooker-repair-in-dubai-samsung-oven-repair-in-dubai-samsung-appliances-maintenance-in-dubai-samsung-refrigerator-fix-repa/"><b>Samsung Refrigerator Repair</b></Link>: If you are facing any problems with your Samsung fridge freezer repair, washer dryer, or dishwasher, contact the FAJ team for same-day repair service in Dubai.
                 </p>
                 <p className="mb-0">
                   <Link to="/electrolux-home-appliances-repair/"><b>Electrolux Refrigerator Repair</b></Link>: When you need Electrolux refrigerator repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE.
                 </p>
                 <p className="mb-0">
-                  <Link to="/bosch-home-appliances-repair/"><b>Bosch Refrigerator Repair</b></Link>: If you are looking for the best Bosch appliance repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch refrigerator repair and service provider in the area.
+                  <Link to="/bosch-home-appliances-repair/"><b>Bosch Refrigerator Repair</b></Link>: If you are looking for the best Bosch fridge repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch refrigerator repair and service provider in the area.
                 </p>
                 <p className="mb-0">
                   <Link to="/viking-appliances-service/"><b>Viking Fridge Freezer Repair</b></Link>: Your Viking refrigerator may require repair or maintenance and we can help. For high-quality Viking Fridge Freezer repair in Dubai, rely on FAJ.
                 </p>
                 <p className="mb-0">
-                  <Link to="/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/"><b>Daewoo Refrigerator Repair</b></Link>: We provide expert services for Daewoo refrigerator repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo refrigerator, washing machine, dryer and more.
+                  <Link to="/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/"><b>Daewoo Refrigerator Repair</b></Link>: We provide expert services for Daewoo fridge repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo refrigerator, washing machine, dryer repair service and more.
                 </p>
                 <p className="mb-0">
                   <Link to="/siemens-home-appliances-repair/"><b>Siemens Refrigerator Repair</b></Link>: Are you concerned about your Siemens refrigerator malfunctioning and searching for a reliable Siemens refrigerator repair company in Dubai? Contact us for same-day service!

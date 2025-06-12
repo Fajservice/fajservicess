@@ -129,10 +129,10 @@ const DaewooAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1">Daewoo Air Conditioner Maintenance and Services</h2>
+                <h2 className="cs_fs_24 mb-1">Daewoo Ac Maintenance and Services</h2>
 
                 <p className="mb-2">
-                  If you&apos;re in Dubai and need Daewoo air conditioner repair, FAJ is the solution for you!
+                  If you&apos;re in Dubai and need Daewoo <a href="https://www.fajservices.ae/ac-repair-dubai/"> air conditioner repair</a>, FAJ is the solution for you!
                   Our expert team ensures your AC systems work efficiently in Dubai and Sharjah, providing reliable service for your comfort all year round. Enjoy a cool, refreshing environment with our assistance!
                 </p>
 
@@ -155,7 +155,7 @@ const DaewooAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                 </div></div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac filter.avif`} loading="lazy" alt="Gree AC Service" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac filter.avif`} loading="lazy" alt="Daewoo AC Service" />
               </div>
             </div>
             <AcAppointmentCol></AcAppointmentCol>
@@ -367,7 +367,7 @@ const DaewooAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">DISINFECT COMPONENTS</h3>
                       <p className="small">
-                        All hardware components have been tested and disinfected, including the filters and vents.
+                        All hardware components have been tested and disinfected, including filters and vents.
                       </p>
                     </div>
                   </div>
@@ -532,7 +532,7 @@ const DaewooAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
             <div className="row">
               <div className="col-12">
 
-                <p className="mb-0"><strong> Daewoo Air Conditioner Installation Service in Dubai:: </strong> A Comprehensive Solution for Your Cooling Needs. We specialize in high-quality Daewoo AC installation services in Dubai and Sharjah. Our consultation process helps you choose the right model based on your space and budget. Our experts assess factors like room size and AC insulation to recommend the best unit for optimal performance.</p>
+                <p className="mb-0"><strong> Daewoo Air Conditioner Installation Service in Dubai: </strong> A Comprehensive Solution for Your Cooling Needs. We specialize in high-quality Daewoo AC installation services in Dubai and Sharjah. Our consultation process helps you choose the right model based on your space and budget. Our experts assess factors like room size and AC insulation to recommend the best unit for optimal performance.</p>
                 <p className="mb-0"> <strong>Our installation services include:</strong></p>
 
                 <p className="mb-0"> <strong>  Climate Check: </strong> Understanding your unique requirements based on the local climate and your building's features. </p>
@@ -544,7 +544,7 @@ const DaewooAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                 <p className="mb-0"> <strong>  Daewoo AC Cleaning Service in Dubai: </strong> AC Deep cleaning your air conditioner brings several key benefits: </p>
                 <p className="mb-0"> <strong>  Improved Air Quality: </strong> It removes dust, allergens, and bacteria, leading to healthier air, especially for those with allergies. </p>
                 <p className="mb-0"> <strong>  Reduced Energy Consumption: </strong> A clean unit operates more efficiently, lowering your electricity bills. </p>
-                <p className="mb-0"> <strong>  Extended Lifespan: </strong> Regular AC maintenance prevents wear and tear, prolonging the life of your AC and minimising costly repairs. </p>
+                <p className="mb-0"> <strong>  Extended Lifespan: </strong> Regular <a href="/ac-maintenance-dubai/">AC maintenance</a> prevents wear and tear, prolonging the life of your AC and minimising costly repairs. </p>
                 <p className="mb-0"> <strong> Odour Elimination: </strong> It eliminates mold and mildew, resulting in fresher indoor air. </p>
                 <p className="mb-0"> <strong>  Reduced Mold Growth: </strong> Regular cleaning prevents the growth of mold and bacteria, which is crucial in humid climates. </p>
                 <p className="mb"> <strong>  Better Breathing: </strong> Cleaner air improves overall well-being. In short, deep cleaning your AC is an investment in your health, comfort, and energy efficiency. </p>
