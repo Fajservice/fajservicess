@@ -133,7 +133,7 @@ const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
               <div className="col-md-6">
                 <h2 className="cs_fs_24 mb-1">O General Ac Maintenance and Servicing</h2>
                 <p className="mb-2">For O General air conditioning unit repairs, it’s essential to choose  a skilled technician.
-                  <br />Our dedicated team specialises in AC service and maintenance across Dubai and Sharjah. FAJ is committed to providing reliable solutions that enhance indoor comfort year-round and ensure your system operates efficiently.
+                  <br />Our dedicated team specialises in <a href="https://www.fajservices.ae/ac-repair-dubai/">AC service</a> and maintenance across Dubai and Sharjah. FAJ is committed to providing reliable solutions that enhance indoor comfort year-round and ensure your system operates efficiently.
                 </p>
                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
@@ -308,7 +308,7 @@ const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
         <section className="section cs_py_30">
           <div className="container">
             <h2 className="cs_fs_30">
-              HERE ARE THE SERVICES WE OFFER FOR O GENERAL AIR CONDITIONER SYSTEMS
+              HERE ARE THE SERVICES WE OFFER FOR O GENERAL AC SYSTEMS
             </h2>
 
             <div className="row align-items-center">

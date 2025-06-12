@@ -138,7 +138,7 @@ const SamsungAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                 <h2 className="cs_fs_24 mb-1">Samsung AC Maintenance and Servicing</h2>
 
                 <p className="mb-2">
-                  In Dubai, professional Samsung AC repair services are available, and it is essential to hire a qualified technician.
+                  In Dubai, professional Samsung <a href="https://www.fajservices.ae/ac-repair-dubai/">AC repair</a> services are available, and it is essential to hire a qualified technician.
                   <br />Our specialized team focuses on servicing Samsung AC systems in Dubai and Sharjah. FAJ is committed to delivering reliable solutions that enhance indoor comfort year-round while ensuring optimal system efficiency.
 
                 </p>
