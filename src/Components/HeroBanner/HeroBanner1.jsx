@@ -18,11 +18,11 @@ const HeroBanner1 = () => {
       activeElement.closest &&
       activeElement.closest(".slick-slide[aria-hidden='false']")
     ) {
-      activeElement.blur(); // Blur if it's focused inside visible slide
+      activeElement.blur();
     }
   },
   afterChange: () => {
-    // As a fallback, blur any lingering focused element
+
     if (
       document.activeElement &&
       document.activeElement !== document.body &&
