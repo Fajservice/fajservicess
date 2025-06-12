@@ -15,6 +15,7 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
+import AcAppointmentCol from "../../../Common/AcAppointmentCol";
 
 
 const TCLAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
@@ -133,7 +134,7 @@ const TCLAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1">TCL Air Conditioner Maintenance and Services </h2>
+                <h2 className="cs_fs_24 mb-1">TCL Ac Maintenance and Services </h2>
 
                 <p className="mb-2">
                   If you find yourself in Dubai and are in need of TCL <a href="https://www.fajservices.ae/ac-repair-dubai/">air conditioner repair</a>, look no further than FAJ!
@@ -163,7 +164,7 @@ const TCLAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac filter.avif`} alt="TCL AC Service" />
               </div>
             </div>
-            <AppliancesAppointmentCol></AppliancesAppointmentCol>
+            <AcAppointmentCol></AcAppointmentCol>
           </div>
         </section>
 
@@ -186,7 +187,7 @@ const TCLAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
                   <li> <strong>  Extreme Weather: </strong> As summer approaches, we can expect temperatures to soar above 40°C (104°F), creating discomfort. it&apos;s essential to ensure that your TCL air conditioning systems are primed for optimal performance.</li>
                   <li> <strong>  Energy Efficiency: </strong> A well-maintained TCL air conditioner operates efficiently, resulting in significant energy savings and lower DEWA electricity costs.</li>
                   <li> <strong>  Longevity of Equipment: </strong> Keeping up with the TCL AC maintenance is really important for getting the best performance and efficiency. It helps lower repair costs and can save money for both homes and businesses.</li>
-                  <li> <strong>  Improved Air Quality: </strong> Routine TCL air conditioner cleaning service prevents dust and allergens from getting in, resulting in improved air quality.</li>
+                  <li> <strong>  Improved Air Quality: </strong> Routine TCL <a href="https://www.fajservices.ae/ac-repair-dubai/" className="fw-bolder">air conditioner cleaning service</a> prevents dust and allergens from getting in, resulting in improved air quality.</li>
                   <li> <strong>  Enhanced Comfort: </strong> Regular air conditioner maintenance in Dubai is vital for optimal efficiency and a comfortable indoor environment.</li>
 
 
@@ -541,7 +542,7 @@ const TCLAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
             <h3>We specialise in TCL AC services for the following types</h3>
             <div className="row">
               <div className="col-12">
-                <p className="mb-0"><strong> TCL Air Conditioner Installation Service in Dubai:</strong>A comprehensive solution for your cooling needs. We specialize in high-quality TCL AC installation services in Dubai and Sharjah. Our consultation process helps you choose the right model based on your space and budget. Our experts assess factors like room size and AC insulation to recommend the best unit for optimal performance.</p>
+                <p className="mb-0"><strong> TCL Air Conditioner Installation Service in Dubai:</strong> A comprehensive solution for your cooling needs. We specialize in high-quality TCL AC installation services in Dubai and Sharjah. Our consultation process helps you choose the right model based on your space and budget. Our experts assess factors like room size and AC insulation to recommend the best unit for optimal performance.</p>
                 <p className="mb-0"><strong>Our installation services include: </strong></p>
                 <p className="mb-0"> <strong>  Climate Check:</strong> Understanding your unique requirements based on the local climate and your building's features. </p>
                 <p className="mb-0"> <strong>  Expert AC Installation:</strong> Our <a href="https://www.facebook.com/ACRepairUAE"><b>skilled AC technicians</b></a> ensure that the AC installation is performed to the highest standards, adhering to all safety protocols. </p>

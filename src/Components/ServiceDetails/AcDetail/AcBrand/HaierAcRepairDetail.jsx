@@ -14,6 +14,7 @@ import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppoin
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
+import AcAppointmentCol from "../../../Common/AcAppointmentCol";
 
 const HaierAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -115,13 +116,7 @@ const HaierAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
               Achieving year-round comfort requires managing challenges like summer humidity, warm nights, and indoor allergens.
               <br /> Since our inception in 2010, <a href="https://www.fajservices.ae/"> F A J Technical Services L.L.C</a> has established itself as a reliable and respected provider of Haier air conditioning solutions across the regions of Dubai and Sharjah.
               <br />Our team of skilled technicians is well-equipped to offer a comprehensive range of services, including special Haier AC repair, thorough servicing, routine maintenance, and professional installation for both residential homes and commercial establishments.
-
-
-            </p>
-            <h2 className="cs_fs_30">THE <a href="https://www.facebook.com/FAJTechnicalServicesLLC"><b>FAJ Experts</b></a> ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
-            <p><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C.</b></a> is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
-              <br />
-              Our <a href="https://www.facebook.com/ACRepairUAE"><b>skilled AC technicians</b></a> can handle all types and models of Haier air conditioning units, ensuring your home or business stays cool and comfortable.</p>
+            </p>        
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -167,7 +162,7 @@ const HaierAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac filter.avif`} alt="Gree AC Service" />
               </div>
             </div>
-            <AppliancesAppointmentCol></AppliancesAppointmentCol>
+            <AcAppointmentCol></AcAppointmentCol>
           </div>
         </section>
 
@@ -336,7 +331,7 @@ const HaierAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                 ></iframe>
               </div>
               <div className="col-xl-6">
-                <p className='mb-0'>Effective air conditioning systems are essential for maintaining a comfortable and effective environment in commercial environments</p>
+                <p className='mb-0'>Effective air conditioning systems are essential for maintaining a comfortable and effective environment in commercial environments.</p>
                 <p className='mb-0'><strong>Our services include:</strong></p>
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
                   <li> <strong> Haier AC Installation: </strong> The professional installation of various Haier air conditioning systems ensures optimal performance. </li>
