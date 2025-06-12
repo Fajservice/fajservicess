@@ -1,9 +1,6 @@
 import { lazy, Suspense  } from "react";
 
 export { default as Main } from "../Layout/Main.jsx";
-
-// ========== UTILS COMPONENTS ==========
-// Loading component
 export const LoadingSpinner = () => (
   <div className="flex items-center justify-center min-h-screen">
     <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-blue-500"></div>
@@ -12,7 +9,6 @@ export const LoadingSpinner = () => (
 
 LoadingSpinner.displayName = 'LoadingSpinner';
 
-// Higher-order component for suspense wrapper
 export const withSuspense = (Component) => {
   const WrappedComponent = (props) => (
     <Suspense fallback={<LoadingSpinner />}>

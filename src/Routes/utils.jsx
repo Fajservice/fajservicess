@@ -7,18 +7,15 @@ export const LoadingSpinner = () => (
   </div>
 );
 
-// Add display name for debugging
 LoadingSpinner.displayName = 'LoadingSpinner';
 
-// Higher-order component for suspense wrapper
 export const withSuspense = (Component) => {
   const WrappedComponent = (props) => (
     <Suspense fallback={<LoadingSpinner />}>
       <Component {...props} />
     </Suspense>
   );
-  
-  // Set display name for debugging
+
   WrappedComponent.displayName = `withSuspense(${Component.displayName || Component.name || 'Component'})`;
   
   return WrappedComponent;
