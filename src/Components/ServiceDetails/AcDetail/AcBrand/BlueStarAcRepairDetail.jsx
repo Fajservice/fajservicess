@@ -128,10 +128,10 @@ const BlueStarAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }}>Blue Star Air Conditioner Maintenance and Services </h2>
+                <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }}>Blue Star Ac Maintenance and Services </h2>
 
                 <p className="mb-2">
-                  If you are in Dubai and require professional repair services for Blue Star air conditioners, FAJ is here to help.
+                  If you are in Dubai and require professional repair services for Blue Star air conditioners, <a href="https://www.fajservices.ae/">FAJ</a> is here to help.
                   <br />Our skilled technicians ensure your air conditioning systems operate efficiently, delivering reliable cooling solutions tailored to the climate of Dubai and Sharjah.
                   Trust us to keep your indoor environment comfortable and refreshing all year round.
                 </p>
@@ -308,7 +308,7 @@ const BlueStarAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
         {/* HERE  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR Blue Star AIR CONDITIONER SYSTEMS</h2>
+            <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR Blue Star AC SYSTEMS</h2>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -485,7 +485,7 @@ const BlueStarAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are experts in Blue Start AC repair. This is why most major brands trust us to handle their service and maintenance needs.</p>
+                    <p>We are experts in Blue Star AC repair. This is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -529,8 +529,7 @@ const BlueStarAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
               <b>We provide 2-month service warranty</b><br />
               and <small>3-month parts warranty</small>as standard.</p>
 
-
-            <h3>We specialise in Blue Star air conditioning services for the following</h3>
+            <h3>We specialise in Blue Star ac services for the following</h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"><strong>Blue Star Air Conditioner Installation Service in Dubai:</strong> A Comprehensive Solution for Your Cooling Needs. We specialize in high-quality Blue Star AC installation services in Dubai and Sharjah. Our consultation process helps you choose the right model based on your space and budget. Our experts assess factors like room size and AC insulation to recommend the best unit for optimal performance.</p>

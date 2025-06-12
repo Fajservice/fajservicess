@@ -14,6 +14,7 @@ import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppoin
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
+import AcAppointmentCol from "../../../Common/AcAppointmentCol";
 
 const WhirpoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -128,7 +129,7 @@ const WhirpoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1">Whirlpool Air Conditioner Maintenance and Service</h2>
+                <h2 className="cs_fs_24 mb-1">Whirlpool Maintenance and Service</h2>
 
                 <p className="mb-2">
                   If you&apos;re in Dubai and need Whirlpool <a href="https://www.fajservices.ae/ac-repair-dubai/">air conditioner repair</a>, FAJ is here for you!
@@ -158,7 +159,7 @@ const WhirpoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac filter.avif`} alt="Whirlpool AC Service" />
               </div>
             </div>
-            <AppliancesAppointmentCol></AppliancesAppointmentCol>
+            <AcAppointmentCol></AcAppointmentCol>
           </div>
         </section>
 
@@ -310,7 +311,7 @@ const WhirpoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
         {/* HERE  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR WHIRLPOOL AIR CONDITIONER SYSTEMS</h2>
+            <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR WHIRLPOOL AC SYSTEMS</h2>
 
             <div className="row align-items-center">
               <div className="col-xl-6">

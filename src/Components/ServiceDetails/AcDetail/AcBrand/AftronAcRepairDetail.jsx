@@ -167,7 +167,7 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
         <section className="section cs_py_30">
           <div className="container">
             <h2 className="cs_fs_30">Why is Aftron AC Maintenance Service Important in Dubai?</h2>
-            <p className="mb-0">To guarantee your Aftron central air conditioner functions efficiently in Dubai&apos;s intense heat, regular AC maintenance is essential. At FAJ, we offer expert aircon services designed to enhance your system’s performance and comfort year-round. Trust us to keep your air conditioner operating at its best.
+            <p className="mb-0">To guarantee your Aftron central air conditioner functions efficiently in Dubai&apos;s intense heat, regular <a href="/ac-maintenance-dubai/">AC maintenance</a> is essential. At FAJ, we offer expert aircon services designed to enhance your system’s performance and comfort year-round. Trust us to keep your air conditioner operating at its best.
             </p>
             <div className="row align-items-center">
               <div className="col-md-6">
@@ -179,7 +179,7 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                   <li> <strong> Extreme Weather: </strong> As summer approaches, we can expect temperatures to soar above 40°C (104°F), creating discomfort. It&apos;s essential to ensure that your Aftron air conditioning systems are primed for optimal performance. </li>
                   <li> <strong> Energy Efficiency: </strong> A well-maintained Aftron air conditioner operates efficiently, resulting in significant energy savings and lower DEWA electricity costs. </li>
                   <li> <strong> Longevity of Equipment: </strong> Keeping up with the Aftron AC maintenance is really important for getting the best performance and efficiency. It helps lower repair costs and can save money for both homes and businesses. </li>
-                  <li> <strong> Improved Air Quality: </strong> Routine Aftron <a href="https://www.fajservices.ae/ac-service-in-dubai/">air conditioner cleaning service</a> prevents dust and allergens from getting in, resulting in improved air quality. </li>
+                  <li> <strong> Improved Air Quality: </strong> Routine Aftron <b><a href="https://www.fajservices.ae/ac-service-in-dubai/">air conditioner cleaning service</a></b> prevents dust and allergens from getting in, resulting in improved air quality. </li>
                   <li> <strong> Enhanced Comfort: </strong> Regular air conditioner maintenance in Dubai is vital for optimal efficiency and a comfortable indoor environment. </li>
                 </ul>
               </div>

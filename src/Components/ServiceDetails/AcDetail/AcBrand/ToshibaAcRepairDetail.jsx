@@ -131,7 +131,7 @@ const ToshibaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
             <div className="row gx-md-5">
               <div className="col-md-6">
 
-                <h2 className="cs_fs_24 mb-1">Toshiba Air Conditioner Maintenance and Services </h2>
+                <h2 className="cs_fs_24 mb-1">Toshiba Ac Maintenance and Services </h2>
                 <p className="mb-2">
                   If you are in Dubai and need Toshiba <a href="https://www.fajservices.ae/ac-repair-dubai/">air conditioner repair</a>, FAJ is ready to assist you!
                   <br />Our expert team ensures that your AC systems operate smoothly across Dubai and Sharjah, delivering reliable solutions for optimal indoor comfort throughout the year. Enjoy a cool and refreshing environment with our support!

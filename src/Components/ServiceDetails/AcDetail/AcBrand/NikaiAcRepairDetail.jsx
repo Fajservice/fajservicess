@@ -135,9 +135,9 @@ const NikaiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1">Nikai Air Conditioner Maintenance and Services</h2>
+                <h2 className="cs_fs_24 mb-1">Nikai Ac Maintenance and Services</h2>
                 <p className="mb-2">
-                  If you are in Dubai and require Nikai air conditioner repair services, FAJ offers support.
+                  If you are in Dubai and require Nikai <a href="https://www.fajservices.ae/ac-repair-dubai/"> air conditioner repair</a> services, FAJ offers support.
                   <br />The team specializes in air conditioner maintenance in Dubai and Sharjah, delivering reliable solutions aimed at ensuring optimal indoor comfort throughout the year. Their services are designed to help maintain a cool environment.
                 </p>
                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
@@ -176,7 +176,6 @@ const NikaiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
             </div>
           </div>
         </section>
-
 
         {/* Why */}
         <section className="section cs_py_30 bg-light-gray">
@@ -551,7 +550,7 @@ const NikaiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                 <p className="mb-0"><strong> Post-Installation Support: </strong> We provide advice on operating your new air conditioner, including tips on energy efficiency and maintenance.</p>
                 <p className="mb-0"><strong> Warranty and Service Packages: </strong> To ensure your peace of mind, we offer warranty options and additional service packages for maintenance and repair in Dubai and Sharjah.</p>
                 <p className="mb-0"><strong> Nikai AC AMC Services in Dubai: </strong> We offer comprehensive air conditioning AMC (Annual Maintenance Contract) and PPM (Planned Preventive Maintenance) services, along with repair support, throughout the year for both contract and non-contract customers. While we are dedicated to serving all our clients, please note that those with service contracts may receive priority assistance.</p>
-                <p className="mb-0"><strong> Nikai Air Conditioner Repair in Dubai: </strong> Stay cool during the hot Dubai summer with our expert Nikai inverter AC repair in Dubai and Sharjah. Our team provides efficient and reliable cooling solutions tailored to your needs. We guide you through the selection and installation process for optimal comfort. Contact us today to schedule your installation and beat the heat!</p>
+                <p className="mb-0"><strong> Nikai Air Conditioner Repair in Dubai: </strong> Stay cool during the hot Dubai summer with our expert Nikai inverter <a href="https://www.fajservices.ae/ac-repair-dubai/">AC repair</a> in Dubai and Sharjah. Our team provides efficient and reliable cooling solutions tailored to your needs. We guide you through the selection and installation process for optimal comfort. Contact us today to schedule your installation and beat the heat!</p>
                 <p className="mb-0"><strong> Nikai AC Cleaning Service in Dubai: </strong> AC Deep cleaning your air conditioner brings several key benefits:</p>
                 <p className="mb-0"><strong> Improved Air Quality: </strong> It removes dust, allergens, and bacteria, leading to healthier air, especially for those with allergies.</p>
                 <p className="mb-0"><strong> Reduced Energy Consumption: </strong> A clean unit operates more efficiently, lowering your electricity bills.</p>

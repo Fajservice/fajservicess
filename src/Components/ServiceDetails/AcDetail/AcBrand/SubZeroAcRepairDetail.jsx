@@ -81,7 +81,7 @@ const SubZeroAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
 
       <HelmetProvider>
         <Helmet>
-         <title>{metatitle}</title>
+          <title>{metatitle}</title>
           <meta name="description" content={metadescription} />
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
@@ -110,9 +110,9 @@ const SubZeroAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Sub Zero AC Repair and Service in Dubai</h1>
-            <p> 
+            <p>
               Ensuring year-round comfort requires effective management of challenges such as summer humidity, warm nights, and indoor allergens.
-<br /> Since its founding in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"> F A J Technical Services L.L.C</a> has been a trusted provider of Sub Zero air conditioner solutions in Dubai and Sharjah. Our skilled team offers a range of Sub Zero AC repair, cleaning services, maintenance, and installation for both residential and commercial units. We are committed to optimising the performance of your air conditioning system to enhance indoor comfort.
+              <br /> Since its founding in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"> F A J Technical Services L.L.C</a> has been a trusted provider of Sub Zero air conditioner solutions in Dubai and Sharjah. Our skilled team offers a range of Sub Zero AC repair, cleaning services, maintenance, and installation for both residential and commercial units. We are committed to optimising the performance of your air conditioning system to enhance indoor comfort.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -129,7 +129,7 @@ const SubZeroAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1">Sub Zero Air Conditioner Maintenance and Services</h2>
+                <h2 className="cs_fs_24 mb-1">Sub Zero AC Maintenance and Services</h2>
 
                 <p className="mb-2">
                   If you&apos;re in Dubai and need Sub Zero <a href="https://www.fajservices.ae/ac-repair-dubai/">air conditioner repair</a>, FAJ is here for you!
@@ -169,7 +169,7 @@ const SubZeroAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
 
             <h2 className="cs_fs_30">Why is Sub Zero AC Maintenance Service Important in Dubai?</h2>
             <p className="mb-0">
-              To guarantee your Sub Zero central air conditioner functions efficiently in Dubai's intense heat,<a href="https://www.fajservices.ae/ac-maintenance-dubai/"> regular AC maintenance</a> is essential. At FAJ, we offer expert aircon services designed to enhance your system’s performance and comfort year-round. Trust us to keep your air conditioner operating at its best.
+              To guarantee your Sub Zero central air conditioner functions efficiently in Dubai's intense heat, <a href="https://www.fajservices.ae/ac-maintenance-dubai/">regular AC maintenance</a> is essential. At FAJ, we offer expert aircon services designed to enhance your system’s performance and comfort year-round. Trust us to keep your air conditioner operating at its best.
 
             </p>
 
@@ -310,7 +310,7 @@ const SubZeroAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
         {/* HERE  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30"> HERE ARE THE SERVICES WE OFFER FOR Sub Zero AIR CONDITIONER SYSTEMS </h2>
+            <h2 className="cs_fs_30"> HERE ARE THE SERVICES WE OFFER FOR Sub Zero Ac SYSTEMS </h2>
 
             <div className="row align-items-center">
               <div className="col-xl-6">

@@ -14,6 +14,7 @@ import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppoin
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
+import AcAppointmentCol from "../../../Common/AcAppointmentCol";
 
 const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -109,12 +110,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descr
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
-            <h1 className="cs_fs_30">White Westinghouse AC Repair Service in Dubai</h1>
-            <p><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C.</b></a> is your top choice for AC service in Dubai. With 15 years of experience, we are a trusted provider for AC repair and maintenance across all areas of the city.
-              <br />
-              Our <a href="https://www.facebook.com/ACRepairUAE"><b>skilled AC technicians</b></a> can handle all types and models of White Westinghouse air conditioning units, ensuring your home or business stays cool and comfortable.</p>
-            <h2 className="cs_fs_30">Westinghouse AC Repair and Maintenance Service in Dubai </h2>
+            <h1 className="cs_fs_30">Westinghouse AC Repair and Maintenance Service in Dubai </h1>
             <p>
               For year-round comfort, it’s important to effectively manage challenges like summer humidity, warm nights, and indoor allergens.
               <br />Since our founding in 2010, <a href="https://www.fajservices.ae/">F A J Technical Services L.L.C</a> has emerged as a leading provider of White Westinghouse air conditioning solutions in Dubai and Sharjah.
@@ -137,7 +133,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descr
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1">White Westinghouse Air Conditioner Maintenance and Services </h2>
+                <h2 className="cs_fs_24 mb-1">White Westinghouse Ac Maintenance and Services </h2>
 
                 <p className="mb-2">
                   If you are located in Dubai and need AC repair services for White Westinghouse air conditioners, FAJ is prepared to assist you.
@@ -166,7 +162,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descr
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac filter.avif`} alt="White Westinghouse AC Service" />
               </div>
             </div>
-            <AppliancesAppointmentCol></AppliancesAppointmentCol>
+            <AcAppointmentCol></AcAppointmentCol>
           </div>
         </section>
 
@@ -494,7 +490,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descr
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are experts in White Westinghouse AC repair. This is why most major brands trust us to handle their service and maintenance needs.</p>
+                    <p>We are experts in AC repair. This is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
