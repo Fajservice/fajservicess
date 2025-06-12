@@ -1,42 +1,11 @@
 import Form1 from "../Form/Form1";
-import { Helmet, HelmetProvider } from "react-helmet-async";
 
 
-const Contact = ({Title,subTitle,address,email,emailLink,number,numberLink,number1,number1Link,clientNumber,img,client,title2,subtitle2, titleSeo, description, Author, Keyword, URL }) => {
-    // For SEO
-    const metatitle = String(titleSeo || "Contact Us- #1 Appliances Service Center Near Me Company");
-    const metadescription = String(description || "Contact us, FAJ was established 2010 & expert in appliances maintenance service company in Dubai, Offering repair of fridge, washing machine.");
-    const metaAuthor = String(Author || "Faj Technical Services");
-    const metaImage = String(Image || "https://www.fajservices.ae//dist/img/page_heading_1.avif");
-    const metaKeyword = String(Keyword || "FAJ");
-    const metaURL = String(URL || "https://www.fajservices.ae/contact-us/").replace(/\/?$/, '/');
+const Contact = ({Title,subTitle,address,email,emailLink,number,numberLink,number1,number1Link,clientNumber,img,client,title2,subtitle2 }) => {
+
 
     return (
-        <>
-            <HelmetProvider>
-                           <Helmet>
-                               <title>{metatitle}</title>
-                               <meta name="description" content={metadescription} />
-                               <meta name="keywords" content={metaKeyword} />
-                               <meta name="author" content={metaAuthor} />
-                               <meta name="robots" content="index, follow" />
-           
-                               <link rel="canonical" href={metaURL} />
-                               <meta property="og:type" content="website" />
-                               <meta property="og:locale" content="en_US" />
-                               <meta property="og:title" content={metatitle} />
-                               <meta property="og:description" content={metadescription} />
-                               <meta property="og:url" content={metaURL} />
-                               <meta property="og:image" content={metaImage} />
-           
-                               {/* Twitter Card */}
-                               <meta name="twitter:card" content="summary_large_image" />
-                               <meta name="twitter:title" content={metatitle} />
-                               <meta name="twitter:description" content={metadescription} />
-                               <meta name="twitter:image" content={metaImage} />
-                               <meta name="twitter:url" content={metaURL} />
-                           </Helmet>
-                       </HelmetProvider>
+
         <section>
         <div className="cs_height_80 cs_height_lg_80"></div>
         <div className="container">
@@ -111,7 +80,6 @@ const Contact = ({Title,subTitle,address,email,emailLink,number,numberLink,numbe
         </div>
 
       </section>
-      </>
     );
 };
 
