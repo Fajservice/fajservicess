@@ -3,7 +3,7 @@ import data from '../../../../Data/AcData/AcFaqs/AcBrand/RuudAcRepairfaq.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
-import WhatsappIconButton from "../../../Buttons/WhatsappIconButton"; 
+import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 import testimonial_data_Ruud from '../../../../Data/AcData/AcTestimonial/RuudAcServiceTestimonials.json';
 import parse from 'html-react-parser';
@@ -80,7 +80,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
 
       <HelmetProvider>
         <Helmet>
-         <title>{metatitle}</title>
+          <title>{metatitle}</title>
           <meta name="description" content={metadescription} />
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
@@ -127,7 +127,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1">Ruud Air Conditioner Maintenance and Servicing</h2>
+                <h2 className="cs_fs_24 mb-1">Ruud Ac Maintenance and Servicing</h2>
 
                 <p className="mb-2">
                   In Dubai, hiring skilled AC technicians for Ruud <a href="https://www.fajservices.ae/ac-repair-dubai/">AC repair</a> is essential! Our expert team proudly specializes in servicing Ruud AC systems throughout Dubai and Sharjah.
@@ -153,7 +153,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                 </div></div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac filter.avif`} loading="lazy" alt="Rudd AC Service" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac filter.avif`} loading="lazy" alt="ruud AC Service" />
               </div>
             </div>
             <AcAppointmentCol></AcAppointmentCol>
@@ -165,7 +165,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
           <div className="container">
 
             <h2 className="cs_fs_30">Why is Ruud AC Maintenance Service Important in Dubai?</h2>
-            <p className="mb-0">
+            <p className="">
               To ensure the efficient operation of your Ruud central air conditioner maintenance in Dubai's extreme heat, regular service is essential.
               At FAJ, we offer expert AC services to ensure optimal cooling and comfort year-round.
               Our team is dedicated to maximizing your system's performance.
@@ -174,16 +174,16 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/ac amc.avif`} loading="lazy" alt="Rudd Airconditioner Repair" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/ac amc.avif`} loading="lazy" alt="ruud Airconditioner Repair" />
               </div>
 
               <div className="col-md-6">
                 <ul className="mb-0">
                   <li> <strong> Extreme Weather: </strong> During excessively warm summer months, temperatures may exceed 40°C (104°F). It is essential to ensure that your Ruud air conditioning systems are operating effectively. </li>
                   <li> <strong> Energy Efficiency: </strong> A well-maintained Ruud air conditioner runs efficiently, leading to significant energy savings and lower DEWA electricity costs. </li>
-                  <li> <strong> Longevity of Equipment: </strong> Regular Ruud <a href="https://www.fajservices.ae/ac-maintenance-dubai/">AC maintenance</a> is essential for optimal performance and efficiency, helping to reduce repair costs and save money for both residential and commercial properties. </li>
+                  <li> <strong> Longevity of Equipment: </strong> Regular Ruud <a href="https://www.fajservices.ae/ac-maintenance-dubai/"><b>AC maintenance</b></a> is essential for optimal performance and efficiency, helping to reduce repair costs and save money for both residential and commercial properties. </li>
                   <li> <strong> Improved Air Quality: </strong> Routine Ruud AC cleaning service not only prevents dust and allergens from entering our spaces, but also elevates the air quality we breathe and fosters a healthier environment. </li>
-                  <li> <strong> Enhanced Comfort: </strong> <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> of Ruud air conditioners in Dubai is essential for optimal comfort and efficiency, ensuring a pleasant indoor environment daily. </li>
+                  <li> <strong> Enhanced Comfort: </strong> <a href="https://www.linkedin.com/company/faj-technical-services-llc"><b>Regular maintenance</b></a> of Ruud air conditioners in Dubai is essential for optimal comfort and efficiency, ensuring a pleasant indoor environment daily. </li>
                 </ul>
               </div>
             </div>
@@ -311,7 +311,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
         {/* HERE  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR Ruud AIR CONDITIONER SYSTEMS</h2>
+            <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR Ruud AC SYSTEMS</h2>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -359,7 +359,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">COOLING EFFICIENCY</h3>
                       <p className="small">
-                       We perform a comprehensive assessment of cooling efficiency using a temperature gun.
+                        We perform a comprehensive assessment of cooling efficiency using a temperature gun.
                       </p>
                     </div>
                   </div>
@@ -467,7 +467,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your Rudd AC repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.
+                    <p>Choose a day and time for your ruud AC repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.
                     </p>
                   </div>
                 </div>
@@ -488,7 +488,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are experts in Rudd AC repair. This is why most major brands trust us to handle their service and maintenance needs.</p>
+                    <p>We are experts in ruud AC repair. This is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -533,20 +533,20 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
               and <small>3-month parts warranty</small> as standard.</p>
 
 
-            <h3>We specialise in Ruud air conditioning services for the following types</h3>
+            <h3>We specialise in Ruud ac services for the following types</h3>
             <div className="row">
               <div className="col-12">
-               
-<p className="mb-0"> <strong>   Ruud Split Air Conditioner Service: </strong> FAJ is a reliable provider Ruud AC repair and maintenance services in Dubai. Our trained technicians specialize in Ruud VRF central AC units, providing optimal performance. Whether you need routine aircon maintenance or urgent repairs, we are committed to delivering exceptional, tailored service to meet your needs. Your comfort is our priority.</p>
-<p className="mb-0"> <strong>   Ruud Central Air Conditioner Repair and Service: </strong> FAJ is a leading service provider for Ruud air conditioner repair and maintenance in Dubai. The company adeptly meets the needs of its clients, ensuring high-quality service and customer satisfaction, whether for routine maintenance or urgent repair.</p>
-<p className="mb-0"> <strong>   Ruud AC Service and Repair: </strong> At Ruud AC Service, we offer you peace of mind through our team of experienced technicians. At FAJ, we focus on providing efficient and dependable Ruud AC maintenance, repair, and installation. You can count on our expert team to keep your HVAC system in top shape, ensuring your comfort all year round!</p>
-<p className="mb-0"> <strong>   Ruud Inverter Air Conditioner Maintenance: </strong> Depend on our dedicated team to swiftly address and resolve any issues with your Ruud air conditioner maintenance, ensuring it is restored to peak performance without delay!</p>
-<p className="mb-0"> <strong>  Ruud HVAC Repair: </strong> We specialize in Ruud cassette AC and package unit AC systems, offering reliable repairs to ensure your unit operates efficiently.</p>
-<p className="mb-0"> <strong>   Ruud Ceiling AC Service and Repair: </strong> Our specialists can quickly diagnose and resolve any issues with your Ruud ceiling AC repair and ducted split AC service.</p>
-<p className="mb-0"> <strong>   Ruud VRF (Variable Refrigerant Flow) System Service and Repair: </strong> FAJ's Ruud Variable Refrigerant Flow (VRF) repair and maintenance services provide customized HVAC solutions. Our expert team prioritizes your comfort and satisfaction, ensuring dependable service for your climate control needs.</p>
-<p className="mb-0"> <strong>   Ruud Ducted Split AC Service and Repair: </strong> For reliable Ruud air conditioning repair and maintenance in Dubai, our skilled technicians are ready to assist you. With expertise in diagnosing various issues and resolving error codes, we ensure minimal disruption to your comfort. Trust us for prompt service that delivers the cooling relief you need.</p>
-<p className="mb-0"> <strong>   Ruud Wall-Mounted Air Conditioner Service and Repair: </strong> In Dubai, UAE, where extreme heat is prevalent, maintaining a relaxing indoor climate is essential. Our Ruud air conditioning repair and maintenance, cleaning services assure optimal unit performance, helping you stay cool and comfortable even in high temperatures.</p>
-                
+
+                <p className="mb-0"> <strong>   Ruud Split Air Conditioner Service: </strong> FAJ is a reliable provider Ruud AC repair and maintenance services in Dubai. Our trained technicians specialize in Ruud VRF central AC units, providing optimal performance. Whether you need routine aircon maintenance or urgent repairs, we are committed to delivering exceptional, tailored service to meet your needs. Your comfort is our priority.</p>
+                <p className="mb-0"> <strong>   Ruud Central Air Conditioner Repair and Service: </strong> FAJ is a leading service provider for Ruud air conditioner repair and maintenance in Dubai. The company adeptly meets the needs of its clients, ensuring high-quality service and customer satisfaction, whether for routine maintenance or urgent repair.</p>
+                <p className="mb-0"> <strong>   Ruud AC Service and Repair: </strong> At Ruud AC Service, we offer you peace of mind through our team of experienced technicians. At <a href="https://www.fajservices.ae/">FAJ</a>, we focus on providing efficient and dependable Ruud AC maintenance, repair, and installation. You can count on our expert team to keep your HVAC system in top shape, ensuring your comfort all year round!</p>
+                <p className="mb-0"> <strong>   Ruud Inverter Air Conditioner Maintenance: </strong> Depend on our dedicated team to swiftly address and resolve any issues with your Ruud air conditioner maintenance, ensuring it is restored to peak performance without delay!</p>
+                <p className="mb-0"> <strong>  Ruud HVAC Repair: </strong> We specialize in Ruud cassette AC and package unit AC systems, offering reliable repairs to ensure your unit operates efficiently.</p>
+                <p className="mb-0"> <strong>   Ruud Ceiling AC Service and Repair: </strong> Our specialists can quickly diagnose and resolve any issues with your Ruud ceiling AC repair and ducted split AC service.</p>
+                <p className="mb-0"> <strong>   Ruud VRF (Variable Refrigerant Flow) System Service and Repair: </strong> FAJ's Ruud Variable Refrigerant Flow (VRF) repair and maintenance services provide customized HVAC solutions. Our expert team prioritizes your comfort and satisfaction, ensuring dependable service for your climate control needs.</p>
+                <p className="mb-0"> <strong>   Ruud Ducted Split AC Service and Repair: </strong> For reliable Ruud air conditioning repair and maintenance in Dubai, our skilled technicians are ready to assist you. With expertise in diagnosing various issues and resolving error codes, we ensure minimal disruption to your comfort. Trust us for prompt service that delivers the cooling relief you need.</p>
+                <p className="mb-0"> <strong>   Ruud Wall-Mounted Air Conditioner Service and Repair: </strong> In Dubai, UAE, where extreme heat is prevalent, maintaining a relaxing indoor climate is essential. Our Ruud air conditioning repair and maintenance, cleaning services assure optimal unit performance, helping you stay cool and comfortable even in high temperatures.</p>
+
                 <p>
                   <a href="https://www.fajservices.ae/ac-repair-in-al-barsha-air-condition-maintenance-in-al-barsha-air-conditioning-fix-amc-service-in-al-barsha-dubai/">Al Barsha</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-jebel-ali/">Jebel Ali</a> &nbsp;|&nbsp;

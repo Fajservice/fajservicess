@@ -177,7 +177,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filt
               <div className="col-md-6">
                 <ul className="mb-0">
 
-                  <li> <strong> Extreme Weather: </strong> In the summer, temperatures can exceed 40°C (104°F). Routine maintenance helps ensure that Gree air conditioner systems operate efficiently in these conditions.</li>
+                  <li> <strong> Extreme Weather: </strong> In the summer, temperatures can exceed 40°C (104°F). Routine maintenance helps ensure that Gree AC SYSTEMS operate efficiently in these conditions.</li>
                   <li> <strong> Energy Efficiency: </strong> A well-maintained Gree AC unit functions more efficiently, conserving energy and reducing electricity bills.</li>
                   <li> <strong> Longevity of Equipment: </strong> Regular <strong> <a href="/ac-maintenance-dubai/">AC maintenance</a></strong> of your Gree air conditioner unit can extend its lifespan, reduce the need for costly repairs and replacements, and ultimately save you money.</li>
                   <li> <strong> Improved Air Quality: </strong> Regular maintenance prevents the accumulation of dust and allergens, which helps to ensure cleaner air.</li>
@@ -314,7 +314,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filt
         {/* HERE  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR GREE AIR CONDITIONER SYSTEMS</h3>
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR GREE AC SYSTEMS</h3>
 
             <div className="row align-items-center">
               <div className="col-xl-6">

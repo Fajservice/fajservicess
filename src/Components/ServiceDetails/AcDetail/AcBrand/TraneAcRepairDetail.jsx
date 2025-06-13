@@ -22,7 +22,7 @@ const TraneAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Trane AC Repair, Trane Air Conditioner Maintenance, Trane AC Service, Trane HVAC Repair, Trane Air Conditioning Cleaning Service, Trane AC Installation, Trane AC Repair Dubai, Trane Air Conditioner Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/trane-ac-repair-in-dubai-trane-ac-maintenance-in-dubai-trane-ac-fix-in-dubai-trane-ac-service-in-dubai-trane-air-condition-repair-in-dubai-trane-air-condition-maintenance-in-dubai-trane-air-condition/").replace(/\/?$/, '/');
- const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
@@ -130,7 +130,7 @@ const TraneAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1">Trane Air Conditioner Maintenance and Servicing</h2>
+                <h2 className="cs_fs_24 mb-1">Trane Ac Maintenance and Servicing</h2>
 
                 <p className="mb-2">
                   In Dubai, selecting experienced technicians for Trane <a href="/ac-repair-dubai/">AC repair</a> is important. Our team specializes in servicing Trane AC systems to maintain indoor comfort throughout the year. The focus is on ensuring system efficiency for optimal climate control.
@@ -168,9 +168,8 @@ const TraneAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
           <div className="container">
 
             <h2 className="cs_fs_30">Why is Trane  AC Maintenance Service Important in Dubai?</h2>
-            <p className="mb-0">
-              To ensure the efficient operation of Trane air conditioners in Dubai's extreme heat, regular servicing is essential. <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ</a> offers professional AC services designed to provide optimal cooling and comfort throughout the year.
-              <br />Our team is dedicated to maximizing your system's performance.
+            <p className="">
+              To ensure the efficient operation of Trane air conditioners in Dubai's extreme heat, regular servicing is essential. <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ</a> offers professional AC services designed to provide optimal cooling and comfort throughout the year. Our team is dedicated to maximizing your system's performance.
             </p>
 
             <div className="row align-items-center">
@@ -311,7 +310,7 @@ const TraneAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
         {/* HERE  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR Trane AIR CONDITIONER SYSTEMS</h2>
+            <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR Trane AC SYSTEMS</h2>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -531,10 +530,10 @@ const TraneAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
               and <small>3-month parts warranty</small> as standard.</p>
 
 
-            <h3>We specialise in Trane air conditioning services for the following types</h3>
+            <h3>We specialise in Trane ac services for the following types</h3>
             <div className="row">
               <div className="col-12">
-                <p className="mb-0"><strong>  Trane Split Air Conditioner Service: </strong> FAJ is a reputable provider of Trane air conditioning cleaning services and maintenance in Dubai. Our team of skilled technicians specializes in Trane VRF central air conditioning units, ensuring they operate at optimal levels. Whether you require routine AC maintenance or immediate repairs, we are committed to delivering tailored services that prioritize your comfort.</p>
+                <p className="mb-0"><strong>  Trane Split Air Conditioner Service: </strong> FAJ is a reputable provider of Trane air conditioning cleaning services and maintenance in Dubai. Our team of skilled technicians specializes in Trane VRF central air conditioning units, ensuring they operate at optimal levels. Whether you require routine <a href="/ac-maintenance-dubai/">AC maintenance</a> or immediate repairs, we are committed to delivering tailored services that prioritize your comfort.</p>
                 <p className="mb-0"><strong>  Trane Central Air Conditioner Repair and Service: </strong> FAJ is a leading service provider for Trane air conditioner repair and maintenance in Dubai. Committed to excellence, the company meets the diverse needs of its clients through routine maintenance and urgent repairs. With skilled technicians and a focus on high-quality service, FAJ ensures customer satisfaction while enhancing the performance and longevity of Trane systems.</p>
                 <p className="mb-0"><strong>  Trane AC Service and Repair: </strong> At Trane AC Service, we’re dedicated to providing you with peace of mind through our skilled team of experienced technicians. At FAJ, we focus on delivering efficient and reliable maintenance, repair, and installation services for Trane AC systems. You can count on our knowledgeable team to keep your Trane HVAC system running smoothly, ensuring your comfort all year round!</p>
                 <p className="mb-0"><strong>  Trane Inverter Air Conditioner Maintenance: </strong> Trust our dedicated team to quickly address and resolve any issues with your Trane air conditioner maintenance, ensuring it is restored to optimal performance without delay!</p>

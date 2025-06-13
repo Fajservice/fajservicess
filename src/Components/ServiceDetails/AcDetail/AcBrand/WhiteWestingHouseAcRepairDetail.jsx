@@ -316,7 +316,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descr
         {/* HERE  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR White Westinghouse AIR CONDITIONER SYSTEMS</h2>
+            <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR White Westinghouse AC SYSTEMS</h2>
 
             <div className="row align-items-center">
               <div className="col-xl-6">

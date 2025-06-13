@@ -1,42 +1,42 @@
 [
   {
     "title": "How to maintain a McQuay AC?",
-    "desc": "To maintain your McQuay AC:\n- Keep coils clean\n- Trim shrubbery around the unit\n- Direct dryer vents away from the AC\n- Seal open ducts and check insulation\n- Replace air filters regularly\n- Adjust the thermostat properly\n- Schedule annual professional maintenance with FAJ HVAC experts"
+    "desc": "Tips on Maintaining Your McQuay Air Conditioner:\n- Keep AC coils clean\n- The surrounding shrubbery is kept trimmed\n- Make sure to angle your dryer vent away from your air conditioning unit\n- Check AC duct and seal open spaces\n- Change AC air filter\n- Adjust AC thermostat\n- Schedule an annual maintenance with FAJ McQuay HVAC professional"
   },
   {
     "title": "Why does my McQuay air conditioner keep shutting off?",
-    "desc": "Dirty coils and condenser units can cause overheating, making the AC shut off and restart frequently. Ensure the area around the unit is clean and free from debris such as leaves or dirt."
+    "desc": "When the condenser unit and coils become dirty, they operate less efficiently, which forces the entire system to work harder and may lead to overheating. This can cause the unit to shut off and restart repeatedly. To prevent this, make sure the area around the unit is clear of debris, such as leaves."
   },
   {
     "title": "How do you reset a McQuay AC thermostat?",
-    "desc": "Simultaneously press the up and down arrows on the thermostat. This will reset the unit to its factory settings, so you’ll need to re-enter any custom programming."
+    "desc": "To reset certain models of McQuay thermostats, simultaneously press the up and down arrows. Please be aware that this action will restore the thermostat to its factory settings, meaning you will need to reprogram any customized settings you had previously set."
   },
   {
-    "title": "How often does my McQuay AC need maintenance?",
-    "desc": "It is recommended to service your McQuay AC twice a year, ideally before summer and winter seasons, to prevent breakdowns and ensure peak efficiency."
+    "title": "How often does my AC need maintenance?",
+    "desc": "To minimize the risk of damage or component failure, it is ideal to schedule two maintenance visits per year. This approach also enhances energy efficiency, leading to lower monthly bills. While you can request maintenance anytime by calling us at +971 4 330 0002, certain seasons are more suitable for air conditioning maintenance."
   },
   {
     "title": "How do I know if my AC needs maintenance?",
-    "desc": "Signs your AC needs maintenance include:\n- Unusual noises\n- Reduced cooling\n- High DEWA bills\n- Water leaks\n- Excess humidity\n- Weak airflow"
+    "desc": "AC Signs You Should Schedule Maintenance for Your A/C Unit:\n- Are you noticing strange sounds coming from AC unit?\n- AC unit is no longer cooling home like it used to\n- Dewa bills have increased\n- AC unit is leaking water\n- Noticing excess humidity levels\n- Airflow coming from the AC unit is weak"
   },
   {
-    "title": "What is the internal control fault detected by McQuay (Error 93)?",
-    "desc": "Error Code 93 indicates a malfunction in the internal control system, typically due to abnormal outdoor ambient temperature readings or a faulty control board."
+    "title": "What is the internal control fault detected by McQuay?",
+    "desc": "Error Code: 93 – Internal Control Fault. The sensor detects an abnormal outdoor ambient temperature. The control system is malfunctioning."
   },
   {
-    "title": "What does McQuay AC error code E3 or F3 mean?",
-    "desc": "E3 or F3 suggests a thermostat or PCB (Printed Circuit Board) fault. The error affects temperature regulation and may require component replacement."
+    "title": "What is McQuay AC error code E3 or F3?",
+    "desc": "E3 or F3 - Faulty Thermostat / PCB. This error code suggests that the thermostat of your air conditioner is PCB malfunctioning, which impacts its ability to regulate temperature effectively."
   },
   {
     "title": "What is McQuay AC error code E1?",
-    "desc": "E1 indicates a communication issue between the indoor and outdoor units, potentially caused by faulty wiring or control board failure."
+    "desc": "If an E1 error code appears on your air handler, it indicates a communication error between the indoor unit and the outdoor unit. This issue may be caused by a wiring misstep or a faulty control board in either the indoor or outdoor unit."
   },
   {
-    "title": "What does McQuay AC error code E4 mean?",
-    "desc": "E4 refers to a problem with the outdoor temperature sensor or its wiring. Inspect for damage, corrosion, or loose connections. If unresolved, professional service may be needed."
+    "title": "What is McQuay Air Conditioner E4 code?",
+    "desc": "The E4 code usually indicates an issue with the outdoor temperature sensor or its wiring. Inspect both the sensor and wiring for any damage, and clean off any debris or corrosion. Ensure that all connections are secure. If these steps do not resolve the problem, it's advisable to contact an FAJ McQuay professional for assistance."
   },
   {
-    "title": "What does McQuay AC error code E6 mean?",
-    "desc": "E6 signals a communication failure between the indoor and outdoor components. Causes may include wiring issues, malfunctioning control boards, or power supply disruptions."
+    "title": "What is the error code E6 on a McQuay AC unit?",
+    "desc": "An E6 error code in an air conditioning unit usually indicates a communication failure between the indoor and outdoor components. This disruption can occur due to problems such as faulty wiring, malfunctioning control boards, or power supply issues, all of which can lead to reduced system performance."
   }
 ]

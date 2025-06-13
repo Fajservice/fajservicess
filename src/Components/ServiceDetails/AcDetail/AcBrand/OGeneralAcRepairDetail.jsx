@@ -528,7 +528,7 @@ const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
               <b>We provide 2-month service warranty</b><br />
               and <small>3-month parts warranty</small> as standard.</p>
 
-            <h3>We specialise in O General air conditioning services for the following types</h3>
+            <h3>We specialise in O General ac services for the following types</h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"><strong> O General Split Air Conditioner Service: </strong> FAJ offers reliable repair and maintenance for O General split air conditioner in Dubai. Our expert team specialises in O General VRF and central AC, ensuring optimal performance and comfort. Count on us for both routine AC maintenance and urgent repairs. </p>

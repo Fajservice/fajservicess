@@ -128,11 +128,11 @@ const McQuayAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1">McQuay Air Conditioner Maintenance and Servicing</h2>
+                <h2 className="cs_fs_24 mb-1">McQuay Ac Maintenance and Servicing</h2>
 
                 <p className="mb-2">
                   When addressing McQuay <a href="https://www.fajservices.ae/ac-repair-dubai/">air conditioning repair</a>, it is essential to engage a qualified technician for residential or commercial needs.
-                  We specialize in Mc Quay AC repair and maintenance throughout Dubai and Sharjah. The FAJ team is dedicated to ensuring year-round comfort for our clients.
+                  We specialize in McQuay AC repair and maintenance throughout Dubai and Sharjah. The FAJ team is dedicated to ensuring year-round comfort for our clients.
 
                 </p>
 
@@ -167,7 +167,7 @@ const McQuayAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
           <div className="container">
 
             <h2 className="cs_fs_30">Why is McQuay AC Maintenance Service Important in Dubai?</h2>
-            <p className="mb-0">
+            <p className="">
               <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> of McQuay air conditioners in Dubai is vital for optimal performance. FAJ provides services to keep your system running efficiently. Trust us to ensure your McQuay AC performs at its best.
               For nearby maintenance, please contact us.
 
@@ -180,10 +180,10 @@ const McQuayAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
               <div className="col-md-6">
                 <ul className="mb-0">
 
-                  <li> <strong>  Extreme Weather: </strong> In summer, temperatures can exceed 40°C (104°F). Routine maintenance ensures McQuay air conditioner systems operate efficiently under these conditions. </li>
+                  <li> <strong>  Extreme Weather: </strong> In summer, temperatures can exceed 40°C (104°F). Routine maintenance ensures McQuay AC SYSTEMS operate efficiently under these conditions. </li>
                   <li> <strong>  Energy Efficiency: </strong> A well-maintained McQuay AC unit operates more efficiently, saving energy and lowering electricity bills. </li>
                   <li> <strong>  Longevity of Equipment: </strong> Regular maintenance of your McQuay air conditioner can extend its lifespan, decrease the need for expensive repair and replacements, and ultimately save you money. </li>
-                  <li> <strong>  Improved Air Quality: </strong> Regular McQuay AC maintenance of units prevents dust and allergens from accumulating, ensuring cleaner air. </li>
+                  <li> <strong>  Improved Air Quality: </strong> Regular McQuay <b><a href="/ac-maintenance-dubai/">AC maintenance</a></b> of units prevents dust and allergens from accumulating, ensuring cleaner air. </li>
                   <li> <strong>  Enhanced Comfort: </strong> Regular McQuay air conditioner maintenance in Dubai ensures daily comfort, efficiency, and consistent cooling. </li>
 
                 </ul>
@@ -311,7 +311,7 @@ const McQuayAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
         {/* HERE  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR McQuay AIR CONDITIONER SYSTEMS</h2>
+            <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR McQuay AC SYSTEMS</h2>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -331,7 +331,7 @@ const McQuayAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                 <p className='mb-0'><strong>Our services include:</strong></p>
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
                   <li> <strong>  McQuay AC Installation: </strong> Expert installation of various McQuay air conditioning systems to ensure optimal performance. </li>
-                  <li> <strong>  McQuay AC Diagnostics: </strong> Thorough fault diagnosis to accurately identify issues. We provide eligibility assessments and detailed quotes to address any concerns regarding your system. </li>
+                  <li> <strong>  McQuay AC Diagnostics: </strong> Through fault diagnosis to accurately identify issues. We provide eligibility assessments and detailed quotes to address any concerns regarding your system. </li>
                   <li> <strong>  McQuay AC Repair Service: </strong> Prompt and effective repair services for all McQuay AC components, addressing issues such as leaks, electrical failures, and system malfunctions. Contact us for specific services or any questions you may have! </li>
                   <li> <strong>  McQuay AC Annual Maintenance Contract: </strong> This contract outlines the terms and services for the McQuay AC annual maintenance. </li>
                 </ul>
@@ -530,7 +530,7 @@ const McQuayAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
               and <small>3-month parts warranty</small> as standard.</p>
 
 
-            <h3>We specialise in McQuay air conditioning services for the following types</h3>
+            <h3>We specialise in McQuay ac services for the following types</h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"> <strong>  McQuay Split Air Conditioner Service: </strong> <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ</a> offers reliable repair and maintenance services for McQuay AC units in Dubai. Our team is composed of professionals who specialize in McQuay split systems, McQuay VRF, and McQuay central air conditioning units. </p>
