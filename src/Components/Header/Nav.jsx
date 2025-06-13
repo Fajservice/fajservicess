@@ -1,62 +1,75 @@
+import { startTransition } from 'react';
+import { useNavigate } from 'react-router-dom';
 import DropDown from './DropDown';
-import { Link } from 'react-router-dom';
 
 export default function Nav({ setMobileToggle }) {
+  const navigate = useNavigate();
+
+  // Handle navigation with startTransition
+  const handleNavigation = (path) => {
+    setMobileToggle(false);
+    startTransition(() => {
+      navigate(path);
+    });
+  };
+
   return (
     <ul className="cs_nav_list cs_medium">
       <li>
-        <Link to="/">Home</Link>
+        <a href="/" onClick={(e) => { e.preventDefault(); handleNavigation('/'); }}>
+          Home
+        </a>
       </li>
       <li className="menu-item-has-children">
-        <Link to="/services/" onClick={() => setMobileToggle(false)}>
+        <a href="/services/" onClick={(e) => { e.preventDefault(); handleNavigation('/services/'); }}>
           Services
-        </Link>
+        </a>
         <DropDown>
           <ul className='cs_fs_17 custom_border_drop'>
             <li className="menu-item-has-children">
-              <Link className='px-3 mb-0' onClick={() => setMobileToggle(false)}>
+              <a className='px-3 mb-0' onClick={() => setMobileToggle(false)}>
                 Air Conditioning Services
-              </Link>
+              </a>
               <DropDown>
                 <ul className='cs_fs_16'>
                   <li className='cs_light cs_fs_16'>
-                    <Link to="/ac-repair-dubai/" onClick={() => setMobileToggle(false)}>
+                    <a href="/ac-repair-dubai/" onClick={(e) => { e.preventDefault(); handleNavigation('/ac-repair-dubai/'); }}>
                       AC Repair
-                    </Link>
+                    </a>
                   </li>
                   <li className='cs_light cs_fs_16'>
-                    <Link to="/ac-maintenance-dubai/" onClick={() => setMobileToggle(false)}>
+                    <a href="/ac-maintenance-dubai/" onClick={(e) => { e.preventDefault(); handleNavigation('/ac-maintenance-dubai/'); }}>
                       AC Maintenance
-                    </Link>
+                    </a>
                   </li>
                   <li className='cs_light cs_fs_16'>
-                    <Link to="/ac-service-in-dubai/" onClick={() => setMobileToggle(false)}>
+                    <a href="/ac-service-in-dubai/" onClick={(e) => { e.preventDefault(); handleNavigation('/ac-service-in-dubai/'); }}>
                       AC Cleaning Services
-                    </Link>
+                    </a>
                   </li>
                   <li className='cs_light cs_fs_16'>
-                    <Link to="/ac-annual-maintenance-contract/" onClick={() => setMobileToggle(false)}>
+                    <a href="/ac-annual-maintenance-contract/" onClick={(e) => { e.preventDefault(); handleNavigation('/ac-annual-maintenance-contract/'); }}>
                       AC Maintenance Contract
-                    </Link>
+                    </a>
                   </li>
                 </ul>
               </DropDown>
             </li>
             <li className="menu-item-has-children">
-              <Link className='px-3 mb-0' onClick={() => setMobileToggle(false)}>
+              <a className='px-3 mb-0' onClick={() => setMobileToggle(false)}>
                 Coffee Machine Services
-              </Link>
+              </a>
               <DropDown>
                 <ul className='cs_fs_16'>
                   <li className='cs_light cs_fs_16'>
-                    <Link to="/coffee-machine-service-center-in-dubai/" onClick={() => setMobileToggle(false)}>
-                    Coffee Machine Services
-                    </Link>
+                    <a href="/coffee-machine-service-center-in-dubai/" onClick={(e) => { e.preventDefault(); handleNavigation('/coffee-machine-service-center-in-dubai/'); }}>
+                      Coffee Machine Services
+                    </a>
                   </li>
                   <li className='cs_light cs_fs_16'>
-                    <Link to="/coffee-machine-repairs/" onClick={() => setMobileToggle(false)}>
-                    Commercial Coffee Machine Repair
-                    </Link>
+                    <a href="/coffee-machine-repairs/" onClick={(e) => { e.preventDefault(); handleNavigation('/coffee-machine-repairs/'); }}>
+                      Commercial Coffee Machine Repair
+                    </a>
                   </li>
                 </ul>
               </DropDown>
@@ -68,155 +81,151 @@ export default function Nav({ setMobileToggle }) {
               <DropDown>
                 <ul className='cs_fs_16'>
                   <li className='cs_light cs_fs_16'>
-                    <Link to="/hob-repair-service/" onClick={() => setMobileToggle(false)}>
+                    <a href="/hob-repair-service/" onClick={(e) => { e.preventDefault(); handleNavigation('/hob-repair-service/'); }}>
                       Hob Repair
-                    </Link>
+                    </a>
                   </li>
                   <li className='cs_light cs_fs_16'>
-                    <Link to="/oven-repair-service/" onClick={() => setMobileToggle(false)}>
+                    <a href="/oven-repair-service/" onClick={(e) => { e.preventDefault(); handleNavigation('/oven-repair-service/'); }}>
                       Oven Repair
-                    </Link>
+                    </a>
                   </li>
-                  
                   <li className='cs_light cs_fs_16'>
-                    <Link to="/gas-cooker-repair-service/" onClick={() => setMobileToggle(false)}>
+                    <a href="/gas-cooker-repair-service/" onClick={(e) => { e.preventDefault(); handleNavigation('/gas-cooker-repair-service/'); }}>
                       Gas Range Repair
-                    </Link>
+                    </a>
                   </li>
                   <li className='cs_light cs_fs_16'>
-                    <Link to="/dishwasher-repair-service/" onClick={() => setMobileToggle(false)}>
+                    <a href="/dishwasher-repair-service/" onClick={(e) => { e.preventDefault(); handleNavigation('/dishwasher-repair-service/'); }}>
                       Dishwasher Repair
-                    </Link>
+                    </a>
                   </li>
                   <li className='cs_light cs_fs_16'>
-                    <Link to="/refrigerator-repair-service/" onClick={() => setMobileToggle(false)}>
+                    <a href="/refrigerator-repair-service/" onClick={(e) => { e.preventDefault(); handleNavigation('/refrigerator-repair-service/'); }}>
                       Refrigerator Repair 
-                    </Link>
+                    </a>
                   </li>
                   <li className='cs_light cs_fs_16'>
-                    <Link to="/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/" onClick={() => setMobileToggle(false)}>
+                    <a href="/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/" onClick={(e) => { e.preventDefault(); handleNavigation('/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/'); }}>
                       BBQ Repair Service
-                    </Link>
+                    </a>
                   </li>
                   <li className='cs_light cs_fs_16'>
-                    <Link to="/cigar-humidor-repair/" onClick={() => setMobileToggle(false)}>
+                    <a href="/cigar-humidor-repair/" onClick={(e) => { e.preventDefault(); handleNavigation('/cigar-humidor-repair/'); }}>
                       Cigar Humidor Repair
-                    </Link>
+                    </a>
                   </li>
                   <li className='cs_light cs_fs_16'>
-                    <Link to="/robot-vacuum-cleaner-repair/" onClick={() => setMobileToggle(false)}>
+                    <a href="/robot-vacuum-cleaner-repair/" onClick={(e) => { e.preventDefault(); handleNavigation('/robot-vacuum-cleaner-repair/'); }}>
                       Vacuum Cleaner Repair
-                    </Link>
+                    </a>
                   </li>
                   <li className='cs_light cs_fs_16'>
-                    <Link to="/small-home-appliances-service-center-in-dubai/" onClick={() => setMobileToggle(false)}>
+                    <a href="/small-home-appliances-service-center-in-dubai/" onClick={(e) => { e.preventDefault(); handleNavigation('/small-home-appliances-service-center-in-dubai/'); }}>
                       Small Appliances Repair
-                    </Link>
+                    </a>
                   </li>
                   <li className='cs_light cs_fs_16'>
-                    <Link to="/washing-machine-repair-service-dubai/" onClick={() => setMobileToggle(false)}>
-                    Washing Machine Repair
-                    </Link>
+                    <a href="/washing-machine-repair-service-dubai/" onClick={(e) => { e.preventDefault(); handleNavigation('/washing-machine-repair-service-dubai/'); }}>
+                      Washing Machine Repair
+                    </a>
                   </li>
                   <li className='cs_light cs_fs_16'>
-                    <Link to="/built-in-appliances-repair-service/" onClick={() => setMobileToggle(false)}>
+                    <a href="/built-in-appliances-repair-service/" onClick={(e) => { e.preventDefault(); handleNavigation('/built-in-appliances-repair-service/'); }}>
                       Integrated Appliance Repair
-                    </Link>
+                    </a>
                   </li>
                   <li className='cs_light cs_fs_16'>
-                    <Link to="/appliances-repair-service/" onClick={() => setMobileToggle(false)}>
+                    <a href="/appliances-repair-service/" onClick={(e) => { e.preventDefault(); handleNavigation('/appliances-repair-service/'); }}>
                       Free Standing Appliance Repair
-                    </Link>
+                    </a>
                   </li>
                   <li className='cs_light cs_fs_16'>
-                    <Link to="/appliances-amc-service/" onClick={() => setMobileToggle(false)}>
+                    <a href="/appliances-amc-service/" onClick={(e) => { e.preventDefault(); handleNavigation('/appliances-amc-service/'); }}>
                       Appliances Maintenance Contract
-                    </Link>
+                    </a>
                   </li>
                 </ul>
               </DropDown>
             </li>
             <li className="menu-item-has-children">
-              <Link className='px-3 mb-0' onClick={() => setMobileToggle(false)}>
+              <a className='px-3 mb-0' onClick={() => setMobileToggle(false)}>
                 Kitchen Equipment Services
-              </Link>
+              </a>
               <DropDown>
                 <ul className='cs_fs_16'>
                   <li className='cs_light cs_fs_16'>
-                    <Link to="/oven-repair/" onClick={() => setMobileToggle(false)}>
+                    <a href="/oven-repair/" onClick={(e) => { e.preventDefault(); handleNavigation('/oven-repair/'); }}>
                       Oven Repair
-                    </Link>
+                    </a>
                   </li>
-                  
                   <li className='cs_light cs_fs_16'>
-                    <Link to="/meat-grinder-repair/" onClick={() => setMobileToggle(false)}>
+                    <a href="/meat-grinder-repair/" onClick={(e) => { e.preventDefault(); handleNavigation('/meat-grinder-repair/'); }}>
                       Meat Grinder Repair
-                    </Link>
+                    </a>
                   </li>
                   <li className='cs_light cs_fs_16'>
-                    <Link to="/commercial-kitchen-equipment-amc/" onClick={() => setMobileToggle(false)}>
+                    <a href="/commercial-kitchen-equipment-amc/" onClick={(e) => { e.preventDefault(); handleNavigation('/commercial-kitchen-equipment-amc/'); }}>
                       Kitchen Equipment AMC
-                    </Link>
+                    </a>
                   </li>
                   <li className='cs_light cs_fs_16'>
-                    <Link to="/commercial-kitchen-equipment-maintenance-services/" onClick={() => setMobileToggle(false)}>
+                    <a href="/commercial-kitchen-equipment-maintenance-services/" onClick={(e) => { e.preventDefault(); handleNavigation('/commercial-kitchen-equipment-maintenance-services/'); }}>
                       Kitchen Equipment Repair 
-                    </Link>
+                    </a>
                   </li>
                   <li className='cs_light cs_fs_16'>
-                    <Link to="/commercial-cooking-appliances-repair-service/" onClick={() => setMobileToggle(false)}>
+                    <a href="/commercial-cooking-appliances-repair-service/" onClick={(e) => { e.preventDefault(); handleNavigation('/commercial-cooking-appliances-repair-service/'); }}>
                       Cooking Equipment Service
-                    </Link>
+                    </a>
                   </li>
                 </ul>
               </DropDown>
             </li>
             <li className='menu-item-has-children'>
-              <Link className='px-3 mb-0' onClick={() => setMobileToggle(false)}>
+              <a className='px-3 mb-0' onClick={() => setMobileToggle(false)}>
                 Refrigeration Equipment Services
-              </Link>
+              </a>
               <DropDown>
                 <ul className='cs_fs_16'>
                   <li className='cs_light cs_fs_16'>
-                    <Link to="/ice-maker-repair/" onClick={() => setMobileToggle(false)}>
-                    Ice Maker Repair
-                    </Link>
+                    <a href="/ice-maker-repair/" onClick={(e) => { e.preventDefault(); handleNavigation('/ice-maker-repair/'); }}>
+                      Ice Maker Repair
+                    </a>
                   </li>
                   <li className='cs_light cs_fs_16'>
-                    <Link to="/commercial-refrigeration-maintenance-contact-services/" onClick={() => setMobileToggle(false)}>
-                    Refrigeration AMC Services
-                    </Link>
+                    <a href="/commercial-refrigeration-maintenance-contact-services/" onClick={(e) => { e.preventDefault(); handleNavigation('/commercial-refrigeration-maintenance-contact-services/'); }}>
+                      Refrigeration AMC Services
+                    </a>
                   </li>
-                  
                   <li className='cs_light cs_fs_16'>
-                    <Link to="/commercial-refrigeration-maintenance/" onClick={() => setMobileToggle(false)}>
-                    Commercial Refrigeration Maintenance
-                    </Link>
+                    <a href="/commercial-refrigeration-maintenance/" onClick={(e) => { e.preventDefault(); handleNavigation('/commercial-refrigeration-maintenance/'); }}>
+                      Commercial Refrigeration Maintenance
+                    </a>
                   </li>
                 </ul>
               </DropDown>
             </li>
             <li>
-              <Link to="/commercial-dishwasher-repair/" className='px-3' onClick={() => setMobileToggle(false)}>
+              <a href="/commercial-dishwasher-repair/" className='px-3' onClick={(e) => { e.preventDefault(); handleNavigation('/commercial-dishwasher-repair/'); }}>
                 Commercial Dishwasher Services
-              </Link>
+              </a>
             </li>
-
             <li className="menu-item-has-children">
               <a className='px-3 mb-0' onClick={() => setMobileToggle(false)}>
-              Commercial Laundry Equipment Services
+                Commercial Laundry Equipment Services
               </a>
               <DropDown>
                 <ul className='cs_fs_16'>
                   <li className='cs_light cs_fs_16'>
-                    <Link to="/commercial-washing-machine-repair/" onClick={() => setMobileToggle(false)}>
-                    Washing Machine Repair
-                    </Link>
+                    <a href="/commercial-washing-machine-repair/" onClick={(e) => { e.preventDefault(); handleNavigation('/commercial-washing-machine-repair/'); }}>
+                      Washing Machine Repair
+                    </a>
                   </li>
                   <li className='cs_light cs_fs_16'>
-                    <Link to="/commercial-laundry-equipment-service/" onClick={() => setMobileToggle(false)}>
-                    Laundry Equipment Service
-                    </Link>
+                    <a href="/commercial-laundry-equipment-service/" onClick={(e) => { e.preventDefault(); handleNavigation('/commercial-laundry-equipment-service/'); }}>
+                      Laundry Equipment Service
+                    </a>
                   </li>
                 </ul>
               </DropDown>
@@ -225,39 +234,42 @@ export default function Nav({ setMobileToggle }) {
         </DropDown>
       </li>   
       <li>
-        <Link to="https://careers.fajservices.ae/" onClick={() => setMobileToggle(false)}>
-        Careers
-        </Link>
+        <a href="https://careers.fajservices.ae/" onClick={(e) => { 
+          e.preventDefault(); 
+          setMobileToggle(false);
+          window.open("https://careers.fajservices.ae/", "_blank");
+        }}>
+          Careers
+        </a>
       </li>
       <li>
-        <Link to="/blogs/" onClick={() => setMobileToggle(false)}>
+        <a href="/blogs/" onClick={(e) => { e.preventDefault(); handleNavigation('/blogs/'); }}>
           Blogs
-        </Link>
+        </a>
       </li>
       <li className="menu-item-has-children">
-        <Link onClick={() => setMobileToggle(false)}>
-        About Us
-        </Link>
+        <a onClick={() => setMobileToggle(false)}>
+          About Us
+        </a>
         <DropDown>
           <ul>
             <li>
-              <Link to="/about-us/" onClick={() => setMobileToggle(false)}>
-              About Us
-              </Link>
+              <a href="/about-us/" onClick={(e) => { e.preventDefault(); handleNavigation('/about-us/'); }}>
+                About Us
+              </a>
             </li>
             <li>
-              <Link to="/our-portfolio/" onClick={() => setMobileToggle(false)}>
-              Our Portfolio
-              </Link>
+              <a href="/our-portfolio/" onClick={(e) => { e.preventDefault(); handleNavigation('/our-portfolio/'); }}>
+                Our Portfolio
+              </a>
             </li>
           </ul>
         </DropDown>
-
       </li>        
       <li>
-        <Link to="/contact-us/" onClick={() => setMobileToggle(false)}>
+        <a href="/contact-us/" onClick={(e) => { e.preventDefault(); handleNavigation('/contact-us/'); }}>
           Contact Us
-        </Link>
+        </a>
       </li>
     </ul>
   );

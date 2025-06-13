@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';

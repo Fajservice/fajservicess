@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
@@ -142,7 +142,6 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Washing Machine Repair Business Bay</h1>
-            {/* <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN Dubai</h2> */}
             <p>
               Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
             </p>
@@ -288,7 +287,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
           </div>
         </section>
 
-        {/* Whyis Appliance Maintenance Service Important in Dubai? */}
+        {/* Why is Appliance Maintenance Service Important in Dubai? */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="cs_fs_30">Why is Appliance Maintenance Service Important in Dubai?</h3>
@@ -554,7 +553,6 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
           </div>
 
         </section>
-
 
         {/* Maintenance Contract */}
         <MaintenanceContract />
