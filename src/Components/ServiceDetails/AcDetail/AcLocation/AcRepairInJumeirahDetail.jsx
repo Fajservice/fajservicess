@@ -25,7 +25,7 @@ const AcRepairInJumeirahDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const metadescription = String(description || "T:043300002 Efficient Air Conditioning Repairs and AC Services in Deira Dubai. Central & Split Maintenance Near Me and Aircon Compressor Fixing");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "ac services in deira, ac repair in deira, ac maintenance in deira, ac service near me, ac repair near me, ac maintenance near me, air conditioning services in deira, air conditioning repair in deira, air conditioning maintenance in deira, aircon compressor fixing in deira");
-    const metaURL = String(URL || "https://www.fajservices.ae//ac-services-in-jumeirah/").replace(/\/?$/, '/');
+    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jumeirah/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
