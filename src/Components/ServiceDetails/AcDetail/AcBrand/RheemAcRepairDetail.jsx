@@ -180,7 +180,7 @@ const RheemAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
               <div className="col-md-6">
                 <ul className="mb-0">
 
-                  <li> <strong> Extreme Weather: </strong>  In summer, temperatures can exceed 40°C (104°F). Routine maintenance ensures Rheem air conditioner systems operate efficiently under these conditions.</li>
+                  <li> <strong> Extreme Weather: </strong>  In summer, temperatures can exceed 40°C (104°F). Routine maintenance ensures Rheem AC SYSTEMS operate efficiently under these conditions.</li>
                   <li> <strong> Energy Efficiency: </strong> A well-maintained Rheem AC unit operates more efficiently, saving energy and lowering electricity bills.</li>
                   <li> <strong> Longevity of Equipment: </strong> Regular maintenance of your Rheem air conditioner can extend its lifespan, decrease the need for expensive repairs and replacements, and ultimately save you money.
                   </li>
@@ -315,7 +315,7 @@ const RheemAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
         {/* HERE  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR RHEEM AIR CONDITIONER SYSTEMS</h2>
+            <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR RHEEM AC SYSTEMS</h2>
 
             <div className="row align-items-center">
               <div className="col-xl-6">

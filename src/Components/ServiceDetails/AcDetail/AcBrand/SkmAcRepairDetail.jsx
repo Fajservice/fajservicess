@@ -131,7 +131,7 @@ const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1">SKM Air Conditioner Maintenance and Servicing</h2>
+                <h2 className="cs_fs_24 mb-1">SKM Ac Maintenance and Servicing</h2>
 
                 <p className="mb-2">
                   In Dubai, it&apos;s crucial to choose experienced technicians for SKM <a href="https://www.fajservices.ae/ac-repair-dubai/">AC repair</a>. Our team specializes in servicing SKM AC systems, ensuring your indoor comfort year-round.
@@ -157,7 +157,7 @@ const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
                 </div></div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac filter.avif`} alt="Gree AC Service" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac filter.avif`} alt="SKM AC Service" />
               </div>
             </div>
             <AcAppointmentCol></AcAppointmentCol>
@@ -170,14 +170,14 @@ const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
 
             <h2 className="cs_fs_30">Why is SKM  AC Maintenance Service Important in Dubai?</h2>
             <p className="mb-0">
-              To maintain the efficient operation of SKM air conditioners in Dubai's extreme heat, regular servicing is essential. <a href="https://www.facebook.com/FAJTechnicalServicesLLC"> FAJ </a>  provides expert AC services designed to ensure optimal cooling and comfort throughout the year.
+              To maintain the efficient operation of SKM air conditioners in Dubai's extreme heat, regular servicing is essential. <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ</a>  provides expert AC services designed to ensure optimal cooling and comfort throughout the year.
               Our team is dedicated to maximising your system's performance.
 
             </p>
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/ac amc.avif`} alt="Gree Airconditioner Repair" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/ac amc.avif`} alt=" Airconditioner Repair" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -313,7 +313,7 @@ const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
         {/* HERE  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR SKM AIR CONDITIONER SYSTEMS</h2>
+            <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR SKM AC SYSTEMS</h2>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -335,8 +335,9 @@ const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
                   <li> <strong>  SKM AC Installation: </strong> The professional installation of various SKM air conditioning systems ensures optimal performance.</li>
                   <li> <strong>  SKM AC Inspection: </strong> We provide precise fault diagnosis to identify system issues, along with detailed quotes and eligibility assessments to address your concerns.</li>
                   <li> <strong>  SKM AC Repair Service: </strong> We offer fast repair services for SKM air conditioners, addressing leaks, electrical problems, and malfunctions. Contact us for more information!</li>
-                  <li> <strong>  SKM AC Annual Maintenance Contract: </strong> The contract details the annual maintenance requirements for SKM AC. Regular maintenance, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is essential for ensuring optimal performance and longevity.  </li>
+                  <li> <strong>  SKM AC Annual Maintenance Contract: </strong> The contract details the annual maintenance requirements for SKM AC.</li>
                 </ul>
+                <p className="mb-0"><a href="/ac-maintenance-dubai/">Regular maintenance</a>, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is essential for ensuring optimal performance and longevity.</p>
               </div>
 
             </div>
@@ -535,15 +536,15 @@ const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
             <h3>We specialise in SKM AC services for the following types</h3>
             <div className="row">
               <div className="col-12">
-                <p className="mb-0"> <strong>  SKM Split Air Conditioner Service </strong> FAJ is a trusted provider of SKM AC cleaning service and maintenance in Dubai. Our skilled technicians specialise in SKM VRF central AC units, ensuring optimal performance. Whether you need routine <a href="https://www.fajservices.ae/ac-maintenance-dubai/">AC maintenance</a> or urgent repairs, we prioritise delivering personalised service for your comfort. </p>
-                <p className="mb-0"> <strong>  SKM Central Air Conditioner Repair and Service </strong> FAJ is a premier service provider for SKM air conditioner repair and maintenance in Dubai. The company effectively addresses its clients' needs, ensuring high-quality service and customer satisfaction, whether for routine maintenance or urgent repairs. </p>
-                <p className="mb-0"> <strong>  SKM AC Service and Repair </strong> At SKM AC Service, we provide peace of mind with our team of experienced technicians. At FAJ, we specialise in efficient and reliable maintenance, repair, and installation of SKM AC systems. You can trust our expert team to keep your HVAC system in excellent condition, ensuring your comfort throughout the year! </p>
-                <p className="mb-0"> <strong>  SKM Inverter Air Conditioner Maintenance </strong> Depend on our dedicated team to swiftly address and resolve any issues with your SKM air conditioner maintenance, ensuring it is restored to peak performance without delay! </p>
-                <p className="mb-0"> <strong>  SKM HVAC Repair </strong> We specialize in SKM cassette AC and package unit AC systems, offering reliable repairs to ensure your unit operates efficiently. </p>
-                <p className="mb-0"> <strong>  SKM Ceiling AC Service and Repair </strong> Our specialists can quickly diagnose and resolve any issues with your SKM ceiling AC repair and ducted split AC service. </p>
-                <p className="mb-0"> <strong>  SKM VRF (Variable Refrigerant Flow) System Service and Repair </strong> FAJ's SKM Variable Refrigerant Flow (VRF) repair and maintenance services provide customised HVAC solutions. Our expert team prioritizes your comfort and satisfaction, ensuring dependable service for your climate control needs. </p>
-                <p className="mb-0"> <strong>  SKM Ducted Split AC Service and Repair </strong> For reliable SKM air conditioning repair and maintenance in Dubai, our skilled technicians are ready to assist you. With expertise in diagnosing various issues and resolving error codes, we ensure minimal disruption to your comfort. Trust us for prompt service that delivers the cooling relief you need. </p>
-                <p className=""> <strong>  SKM Wall-Mounted Air Conditioner Service and Repair </strong> In Dubai, UAE, where extreme heat is prevalent, maintaining a relaxing indoor climate is essential. Our SKM package unit AC repair and maintenance, cleaning services assure optimal unit performance, helping you stay cool and comfortable even in high temperatures. </p>
+                <p className="mb-0"> <strong>  SKM Split Air Conditioner Service:</strong> FAJ is a trusted provider of SKM AC cleaning service and maintenance in Dubai. Our skilled technicians specialise in SKM VRF central AC units, ensuring optimal performance. Whether you need routine <a href="https://www.fajservices.ae/ac-maintenance-dubai/">AC maintenance</a> or urgent repairs, we prioritise delivering personalised service for your comfort. </p>
+                <p className="mb-0"> <strong>  SKM Central Air Conditioner Repair and Service:</strong> FAJ is a premier service provider for SKM air conditioner repair and maintenance in Dubai. The company effectively addresses its clients' needs, ensuring high-quality service and customer satisfaction, whether for routine maintenance or urgent repairs. </p>
+                <p className="mb-0"> <strong>  SKM AC Service and Repair:</strong> At SKM AC Service, we provide peace of mind with our team of experienced technicians. At FAJ, we specialise in efficient and reliable maintenance, repair, and installation of SKM AC systems. You can trust our expert team to keep your HVAC system in excellent condition, ensuring your comfort throughout the year! </p>
+                <p className="mb-0"> <strong>  SKM Inverter Air Conditioner Maintenance:</strong> Depend on our dedicated team to swiftly address and resolve any issues with your SKM air conditioner maintenance, ensuring it is restored to peak performance without delay! </p>
+                <p className="mb-0"> <strong>  SKM HVAC Repair:</strong> We specialize in SKM cassette AC and package unit AC systems, offering reliable repairs to ensure your unit operates efficiently. </p>
+                <p className="mb-0"> <strong>  SKM Ceiling AC Service and Repair:</strong> Our specialists can quickly diagnose and resolve any issues with your SKM ceiling AC repair and ducted split AC service. </p>
+                <p className="mb-0"> <strong>  SKM VRF (Variable Refrigerant Flow) System Service and Repair:</strong> FAJ's SKM Variable Refrigerant Flow (VRF) repair and maintenance services provide customised HVAC solutions. Our expert team prioritizes your comfort and satisfaction, ensuring dependable service for your climate control needs. </p>
+                <p className="mb-0"> <strong>  SKM Ducted Split AC Service and Repair:</strong> For reliable SKM air conditioning repair and maintenance in Dubai, our skilled technicians are ready to assist you. With expertise in diagnosing various issues and resolving error codes, we ensure minimal disruption to your comfort. Trust us for prompt service that delivers the cooling relief you need. </p>
+                <p className=""> <strong>  SKM Wall-Mounted Air Conditioner Service and Repair:</strong> In Dubai, UAE, where extreme heat is prevalent, maintaining a relaxing indoor climate is essential. Our SKM package unit AC repair and maintenance, cleaning services assure optimal unit performance, helping you stay cool and comfortable even in high temperatures. </p>
 
                 <p>
                   <a href="https://www.fajservices.ae/ac-repair-in-al-barsha-air-condition-maintenance-in-al-barsha-air-conditioning-fix-amc-service-in-al-barsha-dubai/">Al Barsha</a> &nbsp;|&nbsp;

@@ -109,7 +109,7 @@ const FujitsuAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Fujitsu AC Repair in Dubai and AC Maintenance Services</h1>
-            <p> <a href="https://www.fajservices.ae/"> F A J Technical Services L.L.C</a> has proudly served the community since 2010, building a reputation for excellence in HVAC services. Our skilled team specializes in Fujitsu AC repair, maintenance, and installation for residential and commercial properties in Dubai and Sharjah.
+            <p> <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"> F A J Technical Services L.L.C</a> has proudly served the community since 2010, building a reputation for excellence in HVAC services. Our skilled team specializes in Fujitsu AC repair, maintenance, and installation for residential and commercial properties in Dubai and Sharjah.
               To maintain indoor comfort year-round, we recommend regular maintenance, including inspections and cleaning. Our expert Fujitsu AC cleaning service improves efficiency and air quality while extending the lifespan of your unit. Trust F A J for all your Fujitsu AC needs.
             </p>
 
@@ -127,7 +127,7 @@ const FujitsuAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1" >Fujitsu Air Conditioner Maintenance and Servicing </h2>
+                <h2 className="cs_fs_24 mb-1" >Fujitsu Ac Maintenance and Servicing </h2>
 
                 <p className="mb-2">
                   When seeking Fujitsu air conditioner repairs, it is essential to select a qualified technician for your home or office.
@@ -153,7 +153,7 @@ const FujitsuAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                 </div></div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac filter.avif`} loading="lazy" alt="Fuhitsu AC Service" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac filter.avif`} loading="lazy" alt="Fujitsu AC Service" />
               </div>
             </div>
             <AcAppointmentCol></AcAppointmentCol>
@@ -166,7 +166,7 @@ const FujitsuAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
 
             <h2 className="cs_fs_30">Why is Fujitsu AC Maintenance Service Important in Dubai?</h2>
             <p className="mb-0">
-              To keep your Fujitsu air conditioner running efficiently in Dubai, regular <a href="https://www.fajservices.ae/ac-maintenance-dubai/">AC maintenance</a> is key. <br />At FAJ, our experienced team is here to ensure your comfort.
+              To keep your Fujitsu air conditioner running efficiently in Dubai, regular <a href="https://www.fajservices.ae/ac-maintenance-dubai/">AC maintenance</a> is key. At FAJ, our experienced team is here to ensure your comfort.
               For convenient AC maintenance in your area, contact us!
 
             </p>
@@ -466,7 +466,7 @@ const FujitsuAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your Fuhitsu AC repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.
+                    <p>Choose a day and time for your Fujitsu AC repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.
                     </p>
                   </div>
                 </div>
@@ -487,7 +487,7 @@ const FujitsuAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are experts in Fuhitsu AC repair. This is why most major brands trust us to handle their service and maintenance needs.</p>
+                    <p>We are experts in Fujitsu AC repair. This is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -532,7 +532,7 @@ const FujitsuAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
               and <small>3-month parts warranty</small> as standard.</p>
 
 
-            <h3>We specialise in Fujitsu air conditioning services for the following types</h3>
+            <h3>We specialise in Fujitsu ac services for the following types</h3>
             <div className="row">
               <div className="col-12">
 

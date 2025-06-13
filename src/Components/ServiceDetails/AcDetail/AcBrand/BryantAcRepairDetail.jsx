@@ -1,10 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import data from '../../../../Data/AcData/AcFaqs/AcBrand/BryantAcRepairfaq.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
-
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
-import WhatsappIconButton from "../../../Buttons/WhatsappIconButton"; 
+import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 import testimonial_data_BryantAc from '../../../../Data/AcData/AcTestimonial/BryantAcServiceTestimonials.json';
 import parse from 'html-react-parser';
@@ -129,14 +128,14 @@ const BryantAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1" style={{fontSize: "24px"}}>Bryant Air Conditioner Maintenance and Servicing</h2>
+                <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }}>Bryant Ac Maintenance and Servicing</h2>
 
                 <p className="mb-2">
                   In Dubai, choosing skilled technicians for Bryant <a href="https://www.fajservices.ae/ac-repair-dubai/">AC repair</a> is essential to keep your space comfortable year-round.
                   <br />Our dedicated team excels in servicing Bryant AC systems, prioritizing efficiency to ensure you enjoy the perfect climate control, no matter the season!
                 </p>
 
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{fontSize: "24px"}}>Signs You Need An AC Service</h2>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>Signs You Need An AC Service</h2>
                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
@@ -167,7 +166,7 @@ const BryantAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
           <div className="container">
 
             <h2 className="cs_fs_30">Why is Bryant AC Maintenance Service Important in Dubai?</h2>
-            <p className="mb-0">
+            <p className="">
               To ensure the efficient operation of Bryant air conditioners in Dubai&apos;s extreme heat, regular servicing is essential. <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ</a> offers professional AC services designed to provide optimal cooling and comfort throughout the year.
               Our team is dedicated to maximizing your system&apos;s performance.
             </p>
@@ -216,7 +215,7 @@ const BryantAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      If your Bryant AC is blowing warm air, it may have problems with the compressor, gas levels, or ductwork
+                      If your Bryant AC is blowing warm air, it may have problems with the compressor, gas levels, or ductwork.
                     </p>
                   </div>
                 </div>
@@ -309,7 +308,7 @@ const BryantAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
         {/* HERE  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR Bryant AIR CONDITIONER SYSTEMS</h2>
+            <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR Bryant AC SYSTEMS</h2>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -332,10 +331,10 @@ const BryantAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                   <li> <strong> Bryant AC Installation: </strong> The professional installation of various Bryant air conditioning systems ensures optimal performance. </li>
                   <li> <strong> Bryant AC Inspection: </strong> We provide precise fault diagnosis to identify system issues, along with detailed quotes and eligibility assessments to address your concerns. </li>
                   <li> <strong> Bryant AC Repair Service: </strong> We offer fast repair services for Bryant air conditioners, addressing leaks, electrical problems, and malfunctions. Contact us for more information! </li>
-                  <li> <strong> Bryant AC Annual Maintenance Contract: </strong> The contract details the annual maintenance requirements for Bryant AC. Regular maintenance, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is essential for ensuring optimal performance and longevity. </li>
+                  <li> <strong> Bryant AC Annual Maintenance Contract: </strong> The contract details the annual maintenance requirements for Bryant AC.</li>
 
                 </ul>
-                <p className="mb-0"><a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a>, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is essential for ensuring optimal performance and longevity.</p>
+                <p className="mb-0"><a href="https://www.linkedin.com/company/faj-technical-services-llc"><b>Regular maintenance</b></a>, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is essential for ensuring optimal performance and longevity.</p>
               </div>
 
             </div>
@@ -531,7 +530,7 @@ const BryantAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
               and <small>3-month parts warranty</small>as standard.</p>
 
 
-            <h3>We specialise in Bryant air conditioning services for the following types</h3>
+            <h3>We specialise in Bryant ac services for the following types</h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"> <strong>  Bryant Split Air Conditioner Service: </strong> FAJ is a reputable provider of Bryant air conditioning cleaning services and maintenance in Dubai. Our team of skilled technicians specializes in Bryant VRF central air conditioning units, ensuring they operate at optimal levels. Whether you require routine <a href="https://www.fajservices.ae/ac-maintenance-dubai/">AC maintenance</a> or immediate repairs, we are committed to delivering tailored services that prioritize your comfort.</p>

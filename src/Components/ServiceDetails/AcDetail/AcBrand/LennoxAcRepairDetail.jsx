@@ -3,7 +3,7 @@ import data from '../../../../Data/AcData/AcFaqs/AcBrand/LennoxAcRepairfaq.json'
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
-import WhatsappIconButton from "../../../Buttons/WhatsappIconButton"; 
+import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 import testimonial_data_LennoxAc from '../../../../Data/AcData/AcTestimonial/LennoxAcServiceTestimonials.json';
 import parse from 'html-react-parser';
@@ -23,7 +23,7 @@ const LennoxAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Lennox AC Repair in Dubai, Lennox AC Maintenance in Dubai, Lennox Air Conditioner Service, Lennox Air Conditioner Repair, Lennox Air Conditioner Maintenance, Lennox Air Conditioner Fix, Lennox Air Conditioner Service in Dubai, Lennox Air Conditioning Repair in Dubai, Lennox Air Conditioning Maintenance in Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/lennox-ac-repair-in-dubai-lennox-ac-maintenance-in-dubai-lennox-ac-fix-in-dubai-lennox-ac-service-in-dubai-lennox-air-condition-repair-in-dubai-lennox-air-condition-maintenance-in-dubai-lennox-air-con/").replace(/\/?$/, '/');
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   reviewsbg = "img/testimonialbg.jpg"
@@ -128,7 +128,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filt
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1">Lennox Air Conditioner Maintenance and Servicing </h2>
+                <h2 className="cs_fs_24 mb-1">Lennox Ac Maintenance and Servicing </h2>
 
                 <p className="mb-2">
                   In Dubai, hiring skilled technicians for Lennox AC repair services is essential.
@@ -166,7 +166,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filt
           <div className="container">
 
             <h2 className="cs_fs_30">Why is Lennox  AC Maintenance Service Important in Dubai?</h2>
-            <p className="mb-0">
+            <p className="">
               To ensure your Lennox central air conditioner operates efficiently in Dubai's extreme heat, regular maintenance is essential.
               At <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ</a>, we provide expert AC services designed to maximize cooling and comfort all year round.
               Our team is dedicated to maximizing your system's performance.
@@ -183,7 +183,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filt
                   <li> <strong>  Extreme Weather: </strong> During extremely hot summer months, temperatures can surpass 40°C (104°F). It is crucial to ensure that your Lennox air conditioning systems are functioning efficiently. </li>
                   <li> <strong>  Energy Efficiency: </strong> A properly maintained Lennox air conditioner operates efficiently, resulting in substantial energy savings and reduced DEWA electricity expenses. </li>
                   <li> <strong>  Longevity of Equipment: </strong> Standard Lennox AC maintenance is crucial for optimal performance and efficiency, as it helps reduce repair costs and saves money for both residential and commercial properties. </li>
-                  <li> <strong>  Improved Air Quality: </strong> Routine Lennox <strong><a href="https://www.fajservices.ae/ac-maintenance-dubai/">air conditioning maintenance</a></strong> not only reduces dust and allergens in our spaces but also improves air quality, fostering a healthier environment. </li>
+                  <li> <strong>  Improved Air Quality: </strong> Routine Lennox <strong><a href="https://www.fajservices.ae/ac-maintenance-dubai/" className="text-decoration-underline">air conditioning maintenance</a></strong> not only reduces dust and allergens in our spaces but also improves air quality, fostering a healthier environment. </li>
                   <li> <strong>  Enhanced Comfort: </strong> Regular maintenance of Lennox air conditioners in Dubai is vital for optimal comfort and efficiency, ensuring a pleasant indoor environment. </li>
 
 
@@ -247,7 +247,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filt
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Unpleasant odors from the vents may indicate mold or mildew and should be addressed immediately.
+                      Unpleasant odors from the vents may indicate growing mold or mildew and should be addressed immediately.
                     </p>
                   </div>
                 </div>
@@ -312,7 +312,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filt
         {/* HERE  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR LENNOX AIR CONDITIONER SYSTEMS</h2>
+            <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR LENNOX AC SYSTEMS</h2>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -532,11 +532,11 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filt
               and <small>3-month parts warranty</small> as standard.</p>
 
 
-            <h3>We specialise in Lennox air conditioning services for the following types</h3>
+            <h3>We specialise in Lennox ac services for the following types</h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"><strong>  Lennox Split Air Conditioner Service: </strong> FAJ is a trusted provider of <a href="https://www.google.com/search?q=faj+technical+llc+gmb&rlz=1C1GCEU_en-GBPK1161PK1162&oq=&gs_lcrp=EgZjaHJvbWUqCQgAECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIPCAYQLhgnGK8BGMcBGOoCMgkIBxAjGCcY6gLSAQsyNzQ0OTUwajBqN6gCCLACAfEFNHg2jm1mi9w&sourceid=chrome&ie=UTF-8#lpc=lpc&prid=5820948940647875925">Lennox air conditioning repair</a> and maintenance services in Dubai. Our skilled technicians specialize in Lennox VRF air conditioning units, central AC ensuring optimal performance. Whether for routine maintenance or urgent repairs, we are committed to delivering customized services that prioritize client comfort.</p>
-                <p className="mb-0"><strong>  Lennox Central Air Conditioner Repair and Service: </strong> FAJ is a major service provider specializing in the Lennox AC repair and maintenance in Dubai. The company proficiently addresses the requirements of its clients, guaranteeing exceptional service quality and customer satisfaction, whether for routine aircon maintenance or urgent repair needs.</p>
+                <p className="mb-0"><strong>  Lennox Central Air Conditioner Repair and Service: </strong> FAJ is a major service provider specializing in the Lennox <a href="/ac-repair-dubai/">AC repair</a> and maintenance in Dubai. The company proficiently addresses the requirements of its clients, guaranteeing exceptional service quality and customer satisfaction, whether for routine aircon maintenance or urgent repair needs.</p>
                 <p className="mb-0"><strong>  Lennox AC Service and Repair: </strong> At Lennox AC Service, we bring you peace of mind with our skilled AC technicians. <br /> At FAJ, we are dedicated to delivering efficient and reliable Lennox AC maintenance, repair, and installation. Trust our expert team to keep your HVAC system in prime condition, ensuring your comfort every day of the year! </p>
                 <p className="mb-0"><strong>  Lennox Inverter Air Conditioner Maintenance: </strong> Trust our dedicated team to quickly address and resolve any issues with your Lennox air conditioner maintenance, ensuring it is restored to optimal performance without delay! </p>
                 <p className="mb-0"><strong>  Lennox HVAC Repair: </strong> We specialize in Lennox HVAC, cassette and package unit AC systems, providing reliable repairs to ensure your units operate efficiently.</p>
@@ -653,7 +653,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filt
               </div>
             </div>
           </div>
-          
+
         </section>
 
         {/* FAQ&apos;s */}

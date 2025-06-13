@@ -131,10 +131,10 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1">York Air Conditioner Maintenance and Servicing</h2>
+                <h2 className="cs_fs_24 mb-1">York Ac Maintenance and Servicing</h2>
 
                 <p className="mb-2">
-                  In Dubai, it is important to hire skilled technicians for <a href="https://www.fajservices.ae/ac-repair-dubai/">York AC repair </a>services. Our team specializes in servicing York AC systems in Dubai and Sharjah, providing reliable solutions that keep your indoor space comfortable all year round while making sure your system runs efficiently.
+                  In Dubai, it is important to hire skilled technicians for York <a href="https://www.fajservices.ae/ac-repair-dubai/">AC repair </a>services. Our team specializes in servicing York AC systems in Dubai and Sharjah, providing reliable solutions that keep your indoor space comfortable all year round while making sure your system runs efficiently.
                 </p>
 
                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
@@ -168,7 +168,7 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
           <div className="container">
 
             <h2 className="cs_fs_30">Why is York AC Maintenance Service Important in Dubai?</h2>
-            <p className="mb-0">
+            <p className="">
               To ensure the efficient operation of your York central air conditioner maintenance in Dubai's extreme heat, regular service is essential.
               <br />At FAJ, we offer expert AC services to ensure optimal cooling and comfort year-round.
               Our team is dedicated to maximizing your system's performance.
@@ -182,7 +182,7 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                 <ul className="mb-0">
                   <li> <strong> Extreme Weather: </strong> During excessively warm summer months, temperatures may exceed 40°C (104°F). It is essential to ensure that your York air conditioning systems are operating effectively. </li>
                   <li> <strong> Energy Efficiency: </strong> A well-maintained York air conditioner runs efficiently, leading to significant energy savings and lower DEWA electricity costs. </li>
-                  <li> <strong> Longevity of Equipment: </strong> Regular York <strong><a href="https://www.fajservices.ae/ac-maintenance-dubai/">AC maintenance</a> </strong> is essential for optimal performance and efficiency, helping to reduce repair costs and save money for both residential and commercial properties. </li>
+                  <li> <strong> Longevity of Equipment: </strong> Regular York <strong><a href="/ac-maintenance-dubai/" className="text-decoration_underline">AC maintenance</a> </strong> is essential for optimal performance and efficiency, helping to reduce repair costs and save money for both residential and commercial properties. </li>
                   <li> <strong> Improved Air Quality: </strong> Routine York AC cleaning service not only prevents dust and allergens from entering our spaces but also elevates the air quality we breathe and fosters a healthier environment. </li>
                   <li> <strong> Enhanced Comfort: </strong> Regular maintenance of York air conditioners in Dubai is essential for optimal comfort and efficiency, ensuring a pleasant indoor environment daily. </li>
                 </ul>
@@ -311,7 +311,7 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
         {/* HERE  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR YORK AIR CONDITIONER SYSTEMS</h2>
+            <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR YORK AC SYSTEMS</h2>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -529,7 +529,7 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
               <b>We provide 2-month service warranty</b><br />
               and <small>3-month parts warranty</small> as standard.</p>
 
-            <h3>We specialise in York air conditioning services for the following types</h3>
+            <h3>We specialise in York ac services for the following types</h3>
             <div className="row">
               <div className="col-12">
                 <p className=""><strong>  York Split Air Conditioner Service: </strong> FAJ is a reliable provider York AC repair and maintenance services in Dubai. Our trained technicians specialize in York VRF central AC units, providing optimal performance. Whether you need routine aircon maintenance or urgent repairs, we are committed to delivering exceptional, tailored service to meet your needs. Your comfort is our priority. </p>
