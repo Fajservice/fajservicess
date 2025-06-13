@@ -1,25 +1,17 @@
-import { lazy, Suspense  } from "react";
+import { lazy } from "react";
 
 export { default as Main } from "../Layout/Main.jsx";
+
 export const LoadingSpinner = () => (
-  <div className="flex items-center justify-center min-h-screen">
-    <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-blue-500"></div>
+  <div className="d-flex justify-content-center align-items-center">
+    <div className="text-center">
+      <div className="spinner-border text-primary mb-2" role="status">
+        <span className="visually-hidden">Loading...</span>
+      </div>
+      <p className="text-muted small">Loading content...</p>
+    </div>
   </div>
 );
-
-LoadingSpinner.displayName = 'LoadingSpinner';
-
-export const withSuspense = (Component) => {
-  const WrappedComponent = (props) => (
-    <Suspense fallback={<LoadingSpinner />}>
-      <Component {...props} />
-    </Suspense>
-  );
-  
-  WrappedComponent.displayName = `withSuspense(${Component.displayName || Component.name || 'Component'})`;
-  
-  return WrappedComponent;
-};
 
 export const Home = lazy(() => import("../Pages/Home.jsx"));
 export const AboutPage = lazy(() => import("../Pages/AboutPage.jsx"));
@@ -53,7 +45,7 @@ export const TeamPage = lazy(() => import("../Pages/TeamPage.jsx"));
 export const TeamDetailsPage = lazy(() => import("../Pages/TeamDetailsPage.jsx"));
 export const BlogPage = lazy(() => import("../Pages/BlogPage.jsx"));
 export const ContactPage = lazy(() => import("../Pages/ContactPage.jsx"));
-export const BlogDetailsPage = lazy(() => import("../Pages/BlogDetailsPage.jsx"));
+export { default as BlogDetailsPage } from "../Pages/BlogDetailsPage.jsx";
 export const DubaiAcServicePriceList = lazy(() => import("../Pages/DubaiAcServicePriceList.jsx"));
 export const AcRepairInRitz = lazy(() => import("../Pages/AcPages/AcLocation/AcRepairInRitz.jsx"));
 export const ColemenAcRepair = lazy(() => import("../Pages/AcPages/AcBrand/ColemenAcRepair.jsx"));
