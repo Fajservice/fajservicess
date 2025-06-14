@@ -3,8 +3,8 @@ import { useEffect, useState } from "react";
 import data from "../../Data/blog.json";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
-const BlogDetails = ({titleSeo , description, Author, Keyword, URL }) => {
-  
+const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
+
   const { slug } = useParams();
   const [blogPost, setBlogPost] = useState(null);
 
@@ -88,16 +88,63 @@ const BlogDetails = ({titleSeo , description, Author, Keyword, URL }) => {
     return paragraph;
   };
 
-  // Helper function to safely render content
+
   const renderContent = (content) => {
     if (!content) return null;
-    
+
     if (Array.isArray(content)) {
-      return content.map((paragraph, index) => (
-        <p key={index}>{renderParagraphWithLinks(paragraph)}</p>
-      ));
-    } else {
+      return content.map((item, index) => {
+        // Check if the item is an object with Pros/Cons structure
+        if (typeof item === 'object' && item !== null && (item.Pros || item.Cons)) {
+          return (
+            <div key={index} className="pros-cons-container" style={{
+              display: 'flex',
+              gap: '20px',
+              marginBottom: '15px',
+              padding: '15px',
+              border: '1px solid #e0e0e0',
+              borderRadius: '8px',
+              backgroundColor: '#f9f9f9'
+            }}>
+              {item.Pros && (
+                <div className="pros" style={{
+                  flex: 1,
+                  padding: '10px',
+                  backgroundColor: '#e8f5e8',
+                  borderRadius: '5px',
+                  borderLeft: '4px solid #4caf50'
+                }}>
+                  <strong style={{ color: '#2e7d32' }}>✓ Pro:</strong>{' '}
+                  <span dangerouslySetInnerHTML={{ __html: item.Pros.replace(/^<b>.*?<\/b>:\s*/, '') }} />
+                </div>
+              )}
+              {item.Cons && (
+                <div className="cons" style={{
+                  flex: 1,
+                  padding: '10px',
+                  backgroundColor: '#ffeaea',
+                  borderRadius: '5px',
+                  borderLeft: '4px solid #f44336'
+                }}>
+                  <strong style={{ color: '#c62828' }}>✗ Con:</strong>{' '}
+                  <span dangerouslySetInnerHTML={{ __html: item.Cons.replace(/^<b>.*?<\/b>:\s*/, '') }} />
+                </div>
+              )}
+            </div>
+          );
+        } else if (typeof item === 'string') {
+          // Handle regular string paragraphs
+          return <p key={index}>{renderParagraphWithLinks(item)}</p>;
+        } else {
+          // Handle any other object types by converting to string
+          return <p key={index}>{String(item)}</p>;
+        }
+      });
+    } else if (typeof content === 'string') {
       return <p>{renderParagraphWithLinks(content)}</p>;
+    } else {
+      // Handle single object case
+      return <p>{String(content)}</p>;
     }
   };
 
@@ -106,7 +153,7 @@ const BlogDetails = ({titleSeo , description, Author, Keyword, URL }) => {
   }
 
   // For SEO
-  const metatitle = String(titleSeo || blogPost.metatitle );
+  const metatitle = String(titleSeo || blogPost.metatitle);
   const metadescription = String(description || blogPost.metadesc);
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "");
@@ -167,7 +214,7 @@ const BlogDetails = ({titleSeo , description, Author, Keyword, URL }) => {
                   <div className="row">
                     <h2>{blogPost.sec_two_h2}</h2>
                     {renderContent(blogPost.sec_two_h2_p)}
-                    
+
                     {blogPost.sec_two_img && (
                       <div className="col-md-8">
                         <img src={blogPost.sec_two_img} alt="image" />
@@ -208,9 +255,6 @@ const BlogDetails = ({titleSeo , description, Author, Keyword, URL }) => {
                         {renderContent(blogPost.sec_two_h3_content_5)}
                       </>
                     )}
-
-                    {/* Continue this pattern for all other sections... */}
-                    {/* I'll show a few more examples but you'll need to apply this pattern to ALL sections */}
                   </div>
                 )}
 
@@ -219,7 +263,7 @@ const BlogDetails = ({titleSeo , description, Author, Keyword, URL }) => {
                   <div className="row">
                     <h2>{blogPost.sec_three_h2}</h2>
                     {renderContent(blogPost.sec_three_h2_p)}
-                    
+
                     {blogPost.sec_three_img && (
                       <div className="col-md-8">
                         <img src={blogPost.sec_three_img} alt="image" />
@@ -238,7 +282,7 @@ const BlogDetails = ({titleSeo , description, Author, Keyword, URL }) => {
                 )}
 
                 {/* Apply the same pattern for all other sections: sec_four, sec_five, etc. */}
-                
+
                 {/* Example for conclusion section */}
                 {blogPost.sec_concln_h2 && (
                   <div className="row">

@@ -767,7 +767,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/ac-services-in-al-bada/",
-        element: <Components.AcRepairInAlBadaa/>,
+        element: <Components.AcRepairInAlBada/>,
       },
       {
         path: "/ac-services-in-mudon/",

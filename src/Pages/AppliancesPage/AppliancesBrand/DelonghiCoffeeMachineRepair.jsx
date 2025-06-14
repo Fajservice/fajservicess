@@ -6,7 +6,7 @@ const DelonghiCoffeeMachineRepair = () => {
     <div className="serviceDetails">
       <BreadCumb
         mobileBgImg="img/banners/homeappliancesbrands/mobile/DelonghiCoffeeMachineRepair.avif"
-        bgImg="img/banners/homeappliancesbrands/desktop/DelonghiCoffeeMachineRepair.avif"
+        bgImg="img/banners/homeappliancesbrands/DelonghiCoffeeMachineRepair.avif"
         Title="Delonghi Coffee Machine Repair"
       ></BreadCumb>
 

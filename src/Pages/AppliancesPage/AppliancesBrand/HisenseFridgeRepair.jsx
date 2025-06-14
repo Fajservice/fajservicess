@@ -5,7 +5,7 @@ const HisenseFridgeRepair = () => {
   return (
      <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/desktop/hisense-refrigerator-repair-faj.avif"
+        bgImg="img/banners/homeappliancesbrands/hisense-refrigerator-repair-faj.avif"
         mobileBgImg="img/banners/homeappliancesbrands/mobile/hisense-fridge-repair-faj.avif"
         Title="Hisense Fridge Repair"
     ></BreadCumb>
