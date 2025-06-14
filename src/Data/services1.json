@@ -16,20 +16,20 @@
     "btnLink": "/commercial-refrigeration-maintenance/"
   },
   {
-    "img": "img/coffee-machine-service.avif",
-    "icon": "img/icons/coffee-machine-service.png",
-    "title": "Coffee Machine Services",
-    "desc": "Without coffee, routines can be affected. A broken coffee machine at home, office, or in a restaurant can disrupt productivity and business.We understand the importance of having your coffee or espresso machine work smoothly. Our expert repair team provides maintenance services for various coffee machines.",   
-    "btnText": "READ MORE",
-    "btnLink": "/coffee-machine-service-center-in-dubai/"
-  },
-  {
     "img": "img/Laundry-equipment-services.avif",
     "icon": "img/icons/Laundry-equipment-services.png",
     "title": "Laundry Equipment Services",
     "desc": "We understand that time is of the essence when it comes to laundry system breakdowns, as these issues can significantly impact daily use or the business operation. Contact us for our comprehensive breakdown, repair, and maintenance to keep your business running smoothly.",   
     "btnText": "READ MORE",
     "btnLink": "/commercial-laundry-equipment-service/"
+  },
+  {
+    "img": "img/coffee-machine-service.avif",
+    "icon": "img/icons/coffee-machine-service.png",
+    "title": "Coffee Machine Services",
+    "desc": "Without coffee, routines can be affected. A broken coffee machine at home, office, or in a restaurant can disrupt productivity and business.We understand the importance of having your coffee or espresso machine work smoothly. Our expert repair team provides maintenance services for various coffee machines.",   
+    "btnText": "READ MORE",
+    "btnLink": "/coffee-machine-service-center-in-dubai/"
   },
   {
     "img": "img/kitchen-equipment.avif",
