@@ -11,14 +11,14 @@ import './assets/main.css';
 import './assets/custom.css';
 import { HelmetProvider } from 'react-helmet-async';
 import { PopupProvider } from './Components/PopupContext.jsx';
-import WelcomePopup from './Components/WelcomePopup.jsx';
+// import WelcomePopup from './Components/WelcomePopup.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <PopupProvider>
     <HelmetProvider>
     <RouterProvider router={router} />
-    <WelcomePopup />
+    {/* <WelcomePopup /> */}
     </HelmetProvider>
     </PopupProvider>
   </StrictMode>,

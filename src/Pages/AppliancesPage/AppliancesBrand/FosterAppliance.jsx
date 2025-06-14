@@ -5,7 +5,8 @@ const FosterAppliance = () => {
   return (
   <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/Foster-appliances-service-faj.avif"
+        bgImg="img/banners/homeappliancesbrands/desktop/Foster-appliances-service-faj.avif"
+        mobileBgImg="img/banners/homeappliancesbrands/mobile/Foster-appliances-service-faj.avif"
         Title="Foster Appliances Service & Maintenance"
     ></BreadCumb>
 

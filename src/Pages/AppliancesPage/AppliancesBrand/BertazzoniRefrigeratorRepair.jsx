@@ -5,7 +5,8 @@ const BertazzoniRefrigeratorRepair = () => {
   return (
     <div className="serviceDetails">
       <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/Bertazzoni-refrigerator-repair-faj.avif"
+        bgImg="img/banners/homeappliancesbrands/desktop/Bertazzoni-refrigerator-repair-faj.avif"
+        mobileBgImg="img/banners/homeappliancesbrands/mobile/Bertazzoni-refrigerator-repair-faj.avif"
         Title="Bertazzoni Refrigerator Repair"
       ></BreadCumb>
 

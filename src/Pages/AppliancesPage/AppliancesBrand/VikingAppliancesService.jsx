@@ -5,7 +5,8 @@ const VikingAppliancesService = () => {
   return (
     <div className="serviceDetails">
       <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/VIKING-refrigerator-repair-faj.avif"
+        bgImg="img/banners/homeappliancesbrands/desktop/VIKING-refrigerator-repair-faj.avif"
+        mobileBgImg="img/banners/homeappliancesbrands/mobile/VIKING-refrigerator-repair-faj.avif"
         Title="Viking Appliances Service"
       ></BreadCumb>
 
