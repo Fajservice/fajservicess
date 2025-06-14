@@ -5,8 +5,10 @@ const KitchenEquipmentRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/banners/kitchen-equipments/Kitchen-Equipment-Repair.avif"
                 Title="Commercial Cooking Equipment Repair and Maintenance Service Dubai"
+                bgImg="img/banners/kitchen-equipments/Kitchen-Equipment-Repair.avif"
+                // mobileBgImg="img/banners/kitchen-equipments/commercial-cooking-equipment-repair-faj-mobile.avif"
+
             ></BreadCumb>
 
             <KitchenEquipmentRepairDetail></KitchenEquipmentRepairDetail>
