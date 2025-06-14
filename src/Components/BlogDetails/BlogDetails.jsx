@@ -185,6 +185,7 @@ const BlogDetails = ({titleSeo , description, Author, Keyword, URL }) => {
                       <>
                         <h3>{blogPost.sec_two_h3_2}</h3>
                         {renderContent(blogPost.sec_two_h3_content_2)}
+                        {renderContent(blogPost.sec_two_h3_content_2.Pros)}
                       </>
                     )}
 
