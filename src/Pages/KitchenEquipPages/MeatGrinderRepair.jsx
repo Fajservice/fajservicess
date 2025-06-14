@@ -5,6 +5,8 @@ const MeatGrinderRepair = () => {
         <div className="serviceDetails">
             <BreadCumb
                 bgImg="img/banners/kitchen-equipments/Meet-grinder.avif"
+                // mobileBgImg="img/banners/kitchen-equipments/---.avif"
+
                 Title="Meat Grinder Machine Repair and Service"
             ></BreadCumb>
 
