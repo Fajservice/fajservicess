@@ -5,7 +5,8 @@ const SpeedQueenWashingMachineRepair = () => {
   return (
     <div className="serviceDetails">
       <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/Speed-Queen-washing-machine-repair-faj.avif"
+        bgImg="img/banners/homeappliancesbrands/desktop/Speed-Queen-washing-machine-repair-faj.avif"
+        mobileBgImg="img/banners/homeappliancesbrands/mobile/Speed-Queen-washing-machine-repair-faj.avif"
         Title="Speed Queen Washing Machine Repair"
       ></BreadCumb>
 

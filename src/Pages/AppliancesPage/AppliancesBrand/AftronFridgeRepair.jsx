@@ -5,7 +5,8 @@ const AftronFridgeRepair = () => {
   return (
     <div className="serviceDetails">
       <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/Aftron-Fridge-repair-faj.avif"
+        bgImg="img/banners/homeappliancesbrands/desktop/Aftron-Fridge-repair-faj.avif"
+        mobileBgImg="img/banners/homeappliancesbrands/mobile/Aftron-Fridge-repair-faj.avif"
         Title="Aftron Appliance Repair Services Dubai"
       ></BreadCumb>
 

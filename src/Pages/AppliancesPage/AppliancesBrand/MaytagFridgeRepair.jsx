@@ -5,7 +5,8 @@ const MaytagFridgeRepair = () => {
   return (
     <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/Maytag-appliance-repair-faj.avif"
+        bgImg="img/banners/homeappliancesbrands/desktop/Maytag-appliance-repair-faj.avif"
+        mobileBgImg="img/banners/homeappliancesbrands/mobile/Maytag-appliance-repair-faj.avif"
         Title="Maytag Fridge Repair & Service"
     ></BreadCumb>
 
