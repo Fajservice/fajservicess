@@ -9,19 +9,19 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
   const [blogPost, setBlogPost] = useState(null);
 
   useEffect(() => {
-    // Find the blog post with the matching slug
+
     const post = data.find(item => item.slug === slug);
 
     if (post) {
       setBlogPost(post);
     } else {
-      // If no matching post is found, use the first post as default
+
       setBlogPost(data[0]);
     }
   }, [slug]);
 
   const renderParagraphWithLinks = (paragraph) => {
-    // Handle external links with url attribute <Link url="https://...">text</Link>
+
     if (typeof paragraph === 'string' && paragraph.includes('<Link url="')) {
       try {
         const linkStartIndex = paragraph.indexOf('<Link url="');
@@ -36,7 +36,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
         const beforeLinkText = paragraph.substring(0, linkStartIndex);
         const afterLinkText = paragraph.substring(linkTextEndIndex + '</Link>'.length);
 
-        // If external link (starts with http or https)
+
         if (url.startsWith('http://') || url.startsWith('https://')) {
           return (
             <>
@@ -46,7 +46,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
             </>
           );
         } else {
-          // Internal link with custom URL
+
           return (
             <>
               {beforeLinkText}
@@ -83,8 +83,6 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
         </>
       );
     }
-
-    // Regular paragraph without links
     return paragraph;
   };
 
@@ -94,7 +92,6 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
 
     if (Array.isArray(content)) {
       return content.map((item, index) => {
-        // Check if the item is an object with Pros/Cons structure
         if (typeof item === 'object' && item !== null && (item.Pros || item.Cons)) {
           return (
             <div key={index} className="pros-cons-container" style={{
@@ -114,7 +111,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                   borderRadius: '5px',
                   borderLeft: '4px solid #4caf50'
                 }}>
-                  <strong style={{ color: '#2e7d32' }}>✓ Pro:</strong>{' '}
+                  <strong style={{ color: '#2e7d32' }}>✓ Pros:</strong>{' '}
                   <span dangerouslySetInnerHTML={{ __html: item.Pros.replace(/^<b>.*?<\/b>:\s*/, '') }} />
                 </div>
               )}
@@ -126,7 +123,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                   borderRadius: '5px',
                   borderLeft: '4px solid #f44336'
                 }}>
-                  <strong style={{ color: '#c62828' }}>✗ Con:</strong>{' '}
+                  <strong style={{ color: '#c62828' }}>✗ Cons:</strong>{' '}
                   <span dangerouslySetInnerHTML={{ __html: item.Cons.replace(/^<b>.*?<\/b>:\s*/, '') }} />
                 </div>
               )}
