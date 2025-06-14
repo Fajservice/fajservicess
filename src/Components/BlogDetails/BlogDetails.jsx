@@ -7,7 +7,10 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
 
   const { slug } = useParams();
   const [blogPost, setBlogPost] = useState(null);
+  const shareUrl = `${window.location.origin}/blog/${slug}`;
+  const blogTitle = blogPost?.sec_one_h2 || "";
 
+  const message = `Hello FAJ Services! Check this out: ${blogTitle} - ${shareUrl}`;
   useEffect(() => {
 
     const post = data.find(item => item.slug === slug);
@@ -66,7 +69,6 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
       // Split the content by the opening tag
       const parts = paragraph.split('<Link>');
       const beforeLink = parts[0];
-
       // Split the remaining content by the closing tag
       const linkParts = parts[1].split('</Link>');
       const linkText = linkParts[0];
@@ -85,6 +87,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
     }
     return paragraph;
   };
+
 
 
   const renderContent = (content) => {
@@ -313,13 +316,52 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                     {renderContent(blogPost.sec_tag_content)}
                   </div>
                 </div>
+
                 <div className="cs_post_socials">
                   <h3 className="cs_fs_24">Share:</h3>
                   <div className="cs_social_btns cs_style_1">
-                    <Link to="#" className="cs_center cs_radius_50"><i className="bi bi-facebook"></i></Link>
-                    <Link to="#" className="cs_center cs_radius_50"><i className="bi bi-youtube"></i></Link>
-                    <Link to="#" className="cs_center cs_radius_50"><i className="bi bi-twitter"></i></Link>
-                    <Link to="#" className="cs_center cs_radius_50"><i className="bi bi-linkedin"></i></Link>
+                    {/* Facebook */}
+
+                    <div className="cs_post_socials">
+                      <h3 className="cs_fs_24">Share:</h3>
+                      <div className="cs_social_btns cs_style_1">
+                        <a
+                          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cs_center cs_radius_50"
+                        >
+                          <i className="bi bi-facebook"></i>
+                        </a>
+
+                        <a
+                          href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(blogPost?.sec_one_h2 || '')}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cs_center cs_radius_50"
+                        >
+                          <i className="bi bi-twitter"></i>
+                        </a>
+
+                        <a
+                          href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cs_center cs_radius_50"
+                        >
+                          <i className="bi bi-linkedin"></i>
+                        </a>
+
+                        <a
+                          href={`https://api.whatsapp.com/send?phone=+971507464712&text=${encodeURIComponent(message)}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cs_center cs_radius_50"
+                        >
+                          <i className="bi bi-whatsapp"></i>
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -402,7 +444,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
           </div>
         </div>
         <div className="cs_height_80 cs_height_lg_40"></div>
-      </section>
+      </section >
     </>
   );
 };
