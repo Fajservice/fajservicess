@@ -7,21 +7,24 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
 
   const { slug } = useParams();
   const [blogPost, setBlogPost] = useState(null);
+  const shareUrl = `${window.location.origin}/blog/${slug}`;
+  const blogTitle = blogPost?.sec_one_h2 || "";
 
+  const message = `Hello FAJ Services! Check this out: ${blogTitle} - ${shareUrl}`;
   useEffect(() => {
-    // Find the blog post with the matching slug
+
     const post = data.find(item => item.slug === slug);
 
     if (post) {
       setBlogPost(post);
     } else {
-      // If no matching post is found, use the first post as default
+
       setBlogPost(data[0]);
     }
   }, [slug]);
 
   const renderParagraphWithLinks = (paragraph) => {
-    // Handle external links with url attribute <Link url="https://...">text</Link>
+
     if (typeof paragraph === 'string' && paragraph.includes('<Link url="')) {
       try {
         const linkStartIndex = paragraph.indexOf('<Link url="');
@@ -36,7 +39,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
         const beforeLinkText = paragraph.substring(0, linkStartIndex);
         const afterLinkText = paragraph.substring(linkTextEndIndex + '</Link>'.length);
 
-        // If external link (starts with http or https)
+
         if (url.startsWith('http://') || url.startsWith('https://')) {
           return (
             <>
@@ -46,7 +49,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
             </>
           );
         } else {
-          // Internal link with custom URL
+
           return (
             <>
               {beforeLinkText}
@@ -66,7 +69,6 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
       // Split the content by the opening tag
       const parts = paragraph.split('<Link>');
       const beforeLink = parts[0];
-
       // Split the remaining content by the closing tag
       const linkParts = parts[1].split('</Link>');
       const linkText = linkParts[0];
@@ -83,10 +85,9 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
         </>
       );
     }
-
-    // Regular paragraph without links
     return paragraph;
   };
+
 
 
   const renderContent = (content) => {
@@ -94,7 +95,6 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
 
     if (Array.isArray(content)) {
       return content.map((item, index) => {
-        // Check if the item is an object with Pros/Cons structure
         if (typeof item === 'object' && item !== null && (item.Pros || item.Cons)) {
           return (
             <div key={index} className="pros-cons-container" style={{
@@ -114,7 +114,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                   borderRadius: '5px',
                   borderLeft: '4px solid #4caf50'
                 }}>
-                  <strong style={{ color: '#2e7d32' }}>✓ Pro:</strong>{' '}
+                  <strong style={{ color: '#2e7d32' }}>✓ Pros:</strong>{' '}
                   <span dangerouslySetInnerHTML={{ __html: item.Pros.replace(/^<b>.*?<\/b>:\s*/, '') }} />
                 </div>
               )}
@@ -126,7 +126,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                   borderRadius: '5px',
                   borderLeft: '4px solid #f44336'
                 }}>
-                  <strong style={{ color: '#c62828' }}>✗ Con:</strong>{' '}
+                  <strong style={{ color: '#c62828' }}>✗ Cons:</strong>{' '}
                   <span dangerouslySetInnerHTML={{ __html: item.Cons.replace(/^<b>.*?<\/b>:\s*/, '') }} />
                 </div>
               )}
@@ -316,13 +316,52 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                     {renderContent(blogPost.sec_tag_content)}
                   </div>
                 </div>
+
                 <div className="cs_post_socials">
                   <h3 className="cs_fs_24">Share:</h3>
                   <div className="cs_social_btns cs_style_1">
-                    <Link to="#" className="cs_center cs_radius_50"><i className="bi bi-facebook"></i></Link>
-                    <Link to="#" className="cs_center cs_radius_50"><i className="bi bi-youtube"></i></Link>
-                    <Link to="#" className="cs_center cs_radius_50"><i className="bi bi-twitter"></i></Link>
-                    <Link to="#" className="cs_center cs_radius_50"><i className="bi bi-linkedin"></i></Link>
+                    {/* Facebook */}
+
+                    <div className="cs_post_socials">
+                      <h3 className="cs_fs_24">Share:</h3>
+                      <div className="cs_social_btns cs_style_1">
+                        <a
+                          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cs_center cs_radius_50"
+                        >
+                          <i className="bi bi-facebook"></i>
+                        </a>
+
+                        <a
+                          href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(blogPost?.sec_one_h2 || '')}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cs_center cs_radius_50"
+                        >
+                          <i className="bi bi-twitter"></i>
+                        </a>
+
+                        <a
+                          href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cs_center cs_radius_50"
+                        >
+                          <i className="bi bi-linkedin"></i>
+                        </a>
+
+                        <a
+                          href={`https://api.whatsapp.com/send?phone=+971507464712&text=${encodeURIComponent(message)}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cs_center cs_radius_50"
+                        >
+                          <i className="bi bi-whatsapp"></i>
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -405,7 +444,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
           </div>
         </div>
         <div className="cs_height_80 cs_height_lg_40"></div>
-      </section>
+      </section >
     </>
   );
 };
