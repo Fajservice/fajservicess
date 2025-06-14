@@ -5,7 +5,8 @@ const GibsoneFridgeRepair = () => {
   return (
     <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/Gibson-Fridge-repair-faj.avif"
+        bgImg="img/banners/homeappliancesbrands/desktop/Gibson-Fridge-repair-faj.avif"
+        mobileBgImg="img/banners/homeappliancesbrands/mobile/Gibson-Fridge-repair-faj.avif"
         Title="Gibson Fridge Repair"
     ></BreadCumb>
 

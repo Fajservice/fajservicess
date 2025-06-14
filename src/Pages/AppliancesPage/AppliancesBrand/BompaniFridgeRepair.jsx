@@ -5,7 +5,8 @@ const BompaniFridgeRepair = () => {
   return (
     <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/Bompani-Fridge-repair-faj.avif"
+        bgImg="img/banners/homeappliancesbrands/desktop/Bompani-Fridge-repair-faj.avif"
+        mobileBgImg="img/banners/homeappliancesbrands/mobile/Bompani-Fridge-repair-faj.avif"
         Title="Bompani Fridge Repair"
     ></BreadCumb>
 
