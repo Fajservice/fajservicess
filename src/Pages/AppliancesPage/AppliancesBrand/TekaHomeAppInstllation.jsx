@@ -5,7 +5,8 @@ const TekaHomeAppInstllation = () => {
   return (
     <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/teka-appliance-repair-faj.avif"
+        bgImg="img/banners/homeappliancesbrands/desktop/teka-appliance-repair-faj.avif"
+        mobileBgImg="img/banners/homeappliancesbrands/mobile/teka-appliance-repair-faj.avif"
         Title="Teka Home Appliances Installations"
     ></BreadCumb>
 

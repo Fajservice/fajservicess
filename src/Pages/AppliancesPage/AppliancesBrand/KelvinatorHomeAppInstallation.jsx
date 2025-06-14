@@ -5,7 +5,8 @@ const KelvinatorHomeAppInstallation = () => {
   return (
     <div className="serviceDetails">
       <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/kelvinator-fridge-repair-faj.avif"
+        bgImg="img/banners/homeappliancesbrands/desktop/kelvinator-fridge-repair-faj.avif"
+        mobileBgImg="img/banners/homeappliancesbrands/mobile/kelvinator-fridge-repair-faj.avif"
         Title="Kelvinator Home Appliances Installation"
       ></BreadCumb>
 

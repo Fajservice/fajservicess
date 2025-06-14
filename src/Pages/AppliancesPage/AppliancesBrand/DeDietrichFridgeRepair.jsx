@@ -5,7 +5,8 @@ const DeDietrichFridgeRepair = () => {
   return (
     <div className="serviceDetails">
       <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/de-dietrich-fridge-repair-faj.avif"
+        bgImg="img/banners/homeappliancesbrands/desktop/de-dietrich-fridge-repair-faj.avif"
+        mobileBgImg="img/banners/homeappliancesbrands/mobile/de-dietrich-fridge-repair-faj.avif"
         Title="DeDietrich Fridge Repair"
       ></BreadCumb>
 

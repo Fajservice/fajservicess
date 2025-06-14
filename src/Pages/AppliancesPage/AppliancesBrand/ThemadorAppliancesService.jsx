@@ -5,7 +5,8 @@ const ThemadorAppliancesService = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/banners/homeappliancesbrands/Thermador-appliance-repair-faj.avif"
+                bgImg="img/banners/homeappliancesbrands/desktop/Thermador-appliance-repair-faj.avif"
+                mobileBgImg="img/banners/homeappliancesbrands/mobile/Thermador-appliance-repair-faj.avif"
                 Title="Themador Appliances Service"
             ></BreadCumb>
 

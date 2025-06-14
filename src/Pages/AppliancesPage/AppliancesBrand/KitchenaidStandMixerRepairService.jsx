@@ -5,7 +5,8 @@ const KitchenaidStandMixerRepairService = () => {
   return (
     <div className="serviceDetails">
       <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/Kitchen-aid-standmixer-repair-faj.avif"
+        bgImg="img/banners/homeappliancesbrands/desktop/Kitchen-aid-standmixer-repair-faj.avif"
+        mobileBgImg="img/banners/homeappliancesbrands/mobile/Kitchen-aid-standmixer-repair-faj.avif"
         Title="Kitchenaid StandMixer Repair Service"
       ></BreadCumb>
 

@@ -5,8 +5,9 @@ const KitchenaidRefrigeratorRepair = () => {
   return (
     <div className="serviceDetails">
       <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/kitchenaid-appliance-repair-faj.avif"
-        Title="KitchenKitchenaid Refrigerator Repair & Service"
+        bgImg="img/banners/homeappliancesbrands/desktop/kitchenaid-appliance-repair-faj.avif"
+        mobileBgImg="img/banners/homeappliancesbrands/mobile/kitchenaid-appliance-repair-faj.avif"
+        Title="Kitchenaid Refrigerator Repair & Service"
       ></BreadCumb>
 
       <KitchenaidRefrigeratorRepairDetail />

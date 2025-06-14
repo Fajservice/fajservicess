@@ -5,7 +5,8 @@ const MieleFridgeRepair = () => {
   return (
     <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/miele-appliances-repair-faj.avif"
+        bgImg="img/banners/homeappliancesbrands/desktop/miele-appliances-repair-faj.avif"
+        mobileBgImg="img/banners/homeappliancesbrands/mobile/miele-appliances-repair-faj.avif"
         Title="Miele appliances Repair"
     ></BreadCumb>
 
