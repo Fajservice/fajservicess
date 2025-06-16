@@ -132,10 +132,10 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
                     <div className="container">
                         <div className="row gx-md-5">
                             <div className="col-md-6">
-                                <h3 className="cs_fs_24 mb-1">Best AC Repair in Jebel Ali</h3>
+                                <h2 className="cs_fs_24 mb-1">Best AC Repair in Jebel Ali</h2>
                                 <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> in Jebel Ali, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
                                 <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
-                                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
+                                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
                                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                                 <div className="row">
                                     <div className="col-sm-6">
@@ -175,7 +175,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
                 {/* Why is AC Maintenance Service Important in Dubai? */}
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
-                        <h3 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h3>
+                        <h2 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h2>
                         <p>
                             Regular air conditioner (AC) maintenance service in Dubai is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you, contact us.
                         </p>
@@ -206,7 +206,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
                 {/* Common AC Problems That May Require Maintenance */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h3 className="text-center">Common AC Problems That May Require Maintenance</h3>
+                        <h2 className="text-center">Common AC Problems That May Require Maintenance</h2>
                         <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
                             <div className="col-12 col-md-4 col-lg-3">
