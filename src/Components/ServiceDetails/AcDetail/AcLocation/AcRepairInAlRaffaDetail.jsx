@@ -17,6 +17,7 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
 import HeaderForm from "../../../Headeform/HeaderForm";
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 
 const AcRepairInAlRaffaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -26,7 +27,7 @@ const AcRepairInAlRaffaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Service in Al Raffa, AC Repair in Al Raffa, AC Maintenance in Al Raffa, Air Conditioning Service in Al Raffa, Air Conditioner Repair in Al Raffa, Air Conditioner Maintenance in Al Raffa");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-raffa/").replace(/\/?$/, '/');
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -88,7 +89,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
         <>
             <HelmetProvider>
                 <Helmet>
-                   <title>{metatitle}</title>
+                    <title>{metatitle}</title>
                     <meta name="description" content={metadescription}></meta>
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
@@ -168,6 +169,14 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </section>
+
+
+                {/* AC Price Section */}
+                <section className="section cs_py_30">
+                    <div className="container">
+                        <FAJACPrice></FAJACPrice>
                     </div>
                 </section>
 
