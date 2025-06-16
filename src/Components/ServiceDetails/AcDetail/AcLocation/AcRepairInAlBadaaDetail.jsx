@@ -26,7 +26,7 @@ const AcRepairInAlBadaaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Service Al Badaa, AC Repair Al Badaa, Air Conditioning Service Al Badaa, Air Conditioner Repair Al Badaa, Split AC Service Al Badaa, Central AC Service Al Badaa, Aircon Cleaning Al Badaa, Air Conditioner Maintenance Al Badaa");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-badaa/").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+    const metaImage = "https://www.fajservices.ae/dist/img/ac%20filter.avif";
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     reviewsbg = "img/testimonialbg.jpg"
@@ -87,7 +87,7 @@ const AcRepairInAlBadaaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
         <>
             <HelmetProvider>
                 <Helmet>
-                     <title>{metatitle}</title>
+                    <title>{metatitle}</title>
                     <meta name="description" content={metadescription}></meta>
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
@@ -105,7 +105,7 @@ const AcRepairInAlBadaaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                     <meta name="twitter:description" content={metadescription} />
                     <meta name="twitter:image" content={metaImage} />
                     <meta name="twitter:url" content={metaURL} />
-          </Helmet>
+                </Helmet>
             </HelmetProvider>
             <HeaderForm />
             <div className="cs_service_details">
@@ -115,7 +115,7 @@ const AcRepairInAlBadaaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                         <h1 className="cs_fs_30">AC Service in Al Badaa</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
-                        <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
+                            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 
                         <div id="get-quote" className=" mt-3">
                             <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -311,9 +311,7 @@ const AcRepairInAlBadaaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                 <BenefitAcMaintenance />
                 {/* Why choose us AC */}
                 <ACWhyChooseUs />
-
-
-                {/* We specialise in air conditioning services for the following brands */}
+            
                 <WeSpecialise />
 
                 <section className="section cs_py_30 bg-dark-blue text-light">
