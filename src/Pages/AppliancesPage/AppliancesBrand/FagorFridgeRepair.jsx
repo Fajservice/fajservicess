@@ -5,7 +5,8 @@ const FagorFridgeRepair = () => {
   return (
     <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/Fagor-Fridge-repair-faj.avif"
+        bgImg="img/banners/homeappliancesbrands/desktop/Fagor-Fridge-repair-faj.avif"
+        mobileBgImg="img/banners/homeappliancesbrands/mobile/Fagor-Fridge-repair-faj-mobile.avif"
         Title="Fagor Fridge Repair & Service"
     ></BreadCumb>
 
