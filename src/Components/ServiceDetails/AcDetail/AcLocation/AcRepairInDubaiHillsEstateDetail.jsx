@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInBusinessBay.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
@@ -17,6 +17,7 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 
 
 const AcRepairInDubaiHillsEstateDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
@@ -27,7 +28,7 @@ const AcRepairInDubaiHillsEstateDetail = ({ subtitle, title, reviewsbg, titleSeo
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "ac repair in dubai hills estate, ac service in dubai hills estate, gree ac maintenance in dubai hills estate, ac repair near me, ac service near me, gree ac repair in dubai hills estate, gree ac service in dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-repair-and-ac-service-in-dubai-hills-estate/").replace(/\/?$/, '/');
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     reviewsbg = "img/testimonialbg.jpg"
@@ -88,7 +89,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
         <>
             <HelmetProvider>
                 <Helmet>
-                     <title>{metatitle}</title>
+                    <title>{metatitle}</title>
                     <meta name="description" content={metadescription}></meta>
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
@@ -168,6 +169,13 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </section>
+
+                {/* AC Price Section */}
+                <section className="section cs_py_30">
+                    <div className="container">
+                        <FAJACPrice></FAJACPrice>
                     </div>
                 </section>
 

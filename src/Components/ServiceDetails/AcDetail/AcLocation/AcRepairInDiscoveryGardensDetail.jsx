@@ -18,6 +18,7 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 
 
 const AcRepairInDiscoveryGardensDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
@@ -28,7 +29,7 @@ const AcRepairInDiscoveryGardensDetail = ({ subtitle, title, reviewsbg, titleSeo
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Repair in Discovery Gardens, Air Conditioning Service in Discovery Gardens, Air Con Maintenance & AC Installation in Discovery Gardens");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-discovery-gardens/").replace(/\/?$/, '/');
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     reviewsbg = "img/testimonialbg.jpg"
@@ -89,7 +90,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
         <>
             <HelmetProvider>
                 <Helmet>
-                     <title>{metatitle}</title>
+                    <title>{metatitle}</title>
                     <meta name="description" content={metadescription}></meta>
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
@@ -168,6 +169,13 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </section>
+
+                {/* AC Price Section */}
+                <section className="section cs_py_30">
+                    <div className="container">
+                        <FAJACPrice></FAJACPrice>
                     </div>
                 </section>
 
@@ -391,7 +399,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
                                                 <div className="cs_testimonial_content cs_white_bg position-relative">
                                                     <div className="cs_testimonial_header cs_mb_35">
                                                         <div className="cs_testimonial_thumbnail">
-                                                            <img src={`${import.meta.env.BASE_URL}${item.img1}`} alt="Avatar" loading="lazy"/>
+                                                            <img src={`${import.meta.env.BASE_URL}${item.img1}`} alt="Avatar" loading="lazy" />
                                                         </div>
                                                         <div className="cs_testimonial_info">
                                                             <div className="rating-area" >

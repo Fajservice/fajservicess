@@ -17,6 +17,7 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 
 const AcRepairInJumeirahHeightsDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -172,6 +173,13 @@ const AcRepairInJumeirahHeightsDetail = ({ subtitle, title, reviewsbg, titleSeo,
             </div>
           </div>
         </section>
+
+                {/* AC Price Section */}
+                <section className="section cs_py_30">
+                    <div className="container">  
+                      <FAJACPrice></FAJACPrice>                     
+                    </div>
+                </section>
 
         {/* Why is AC Maintenance Service Important in Dubai? */}
         <section className="section cs_py_30 bg-light-gray">
