@@ -5,7 +5,7 @@ const HooverFridgeRepair = () => {
   return (
     <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/hoover-washing-machine-repair-faj.avif"
+        bgImg="img/banners/homeappliancesbrands/desktop/hoover-washing-machine-repair-faj.avif"
         mobileBgImg="img/banners/homeappliancesbrands/mobile/hoover-washing-machine-repair-faj.avif"
         Title="Fast and Efficient Hoover Repair in Dubai"
     ></BreadCumb>

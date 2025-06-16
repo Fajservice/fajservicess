@@ -5,7 +5,8 @@ const WhiteWestinghouseFridgeRepair = () => {
   return (
     <div className="serviceDetails">
       <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/white-westinghouse-fridge-repair-faj.avif"
+        bgImg="img/banners/homeappliancesbrands/desktop/white-westinghouse-fridge-repair-faj.avif"
+        mobileBgImg="img/banners/homeappliancesbrands/mobile/white-westinghouse-fridge-repair-faj.avif"
         Title="White Westinghous Fridge Repair & Service"
       ></BreadCumb>
 

@@ -17,6 +17,7 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 
 const AcRepairInAlKhawaneejDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -90,24 +91,24 @@ const AcRepairInAlKhawaneejDetail = ({ subtitle, title, reviewsbg, titleSeo, des
     <>
       <HelmetProvider>
         <Helmet>
-           <title>{metatitle}</title>
-                    <meta name="description" content={metadescription}></meta>
-                    <meta name="keywords" content={metaKeyword} />
-                    <meta name="author" content={metaAuthor} />
-                    <meta name="robots" content="index, follow" />
-                    <link rel="canonical" href={metaURL} />
-                    <meta property="og:type" content="website" />
-                    <meta property="og:locale" content="en_US" />
-                    <meta property="og:title" content={metatitle} />
-                    <meta property="og:description" content={metadescription} />
-                    <meta property="og:url" content={metaURL} />
-                    <meta property="og:image" content={metaImage} />
-                    {/* Twitter Card */}
-                    <meta name="twitter:card" content="summary_large_image" />
-                    <meta name="twitter:title" content={metatitle} />
-                    <meta name="twitter:description" content={metadescription} />
-                    <meta name="twitter:image" content={metaImage} />
-                    <meta name="twitter:url" content={metaURL} />
+          <title>{metatitle}</title>
+          <meta name="description" content={metadescription}></meta>
+          <meta name="keywords" content={metaKeyword} />
+          <meta name="author" content={metaAuthor} />
+          <meta name="robots" content="index, follow" />
+          <link rel="canonical" href={metaURL} />
+          <meta property="og:type" content="website" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:title" content={metatitle} />
+          <meta property="og:description" content={metadescription} />
+          <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
         </Helmet>
       </HelmetProvider>
       <HeaderForm />
@@ -171,6 +172,13 @@ const AcRepairInAlKhawaneejDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* AC Price Section */}
+        <section className="section cs_py_30">
+          <div className="container">
+            <FAJACPrice></FAJACPrice>
           </div>
         </section>
 

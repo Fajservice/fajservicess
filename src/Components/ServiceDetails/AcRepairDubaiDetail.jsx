@@ -20,7 +20,6 @@ import HeaderForm from "../Headeform/HeaderForm";
 import FAJACPrice from "../Miscellaneous/FAJACPrice";
 import Practicaltip from "../Common/Practicaltip";
 import AcProperties from "../Common/AcProperties";
-import WeSpecialise from "./AcDetail/AcLocation/WeSpecialise/WeSpecialise";
 
 
 const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {

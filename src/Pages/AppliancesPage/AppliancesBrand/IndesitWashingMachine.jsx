@@ -5,7 +5,7 @@ const IndesitWashingMachine = () => {
   return (
     <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/Indesit-washing-machine-Repair-faj.avif"
+        bgImg="img/banners/homeappliancesbrands/desktop/Indesit-washing-machine-Repair-faj.avif"
         mobileBgImg="img/banners/homeappliancesbrands/mobile/Indesit-washing-machine-Repair-faj.avif"
         Title="Indesit Washing Machine Repair & Service"
     ></BreadCumb>

@@ -5,7 +5,7 @@ const ToshibaHomeAppMaintenance = () => {
   return (
     <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/toshiba-washing-machine-repair-faj.avif"
+        bgImg="img/banners/homeappliancesbrands/desktop/toshiba-washing-machine-repair-faj.avif"
         mobileBgImg="img/banners/homeappliancesbrands/mobile/toshiba-fridge-repair-faj.avif"
         Title="Toshiba Home Appliances & Maintenance"
     ></BreadCumb>

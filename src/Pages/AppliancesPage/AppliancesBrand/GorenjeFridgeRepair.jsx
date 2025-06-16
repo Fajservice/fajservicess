@@ -5,7 +5,7 @@ const GorenjeFridgeRepair = () => {
   return (
     <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/gorenje-washing-machine-repair-faj.avif"
+        bgImg="img/banners/homeappliancesbrands/desktop/gorenje-washing-machine-repair-faj.avif"
         mobileBgImg="img/banners/homeappliancesbrands/mobile/gorenje-fridge-repair-faj.avif"
         Title="Gorenje Fridge Repair"
     ></BreadCumb>

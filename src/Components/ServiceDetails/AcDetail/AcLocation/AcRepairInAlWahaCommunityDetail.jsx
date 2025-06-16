@@ -18,6 +18,7 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 
 const AcRepairInAlWahaCommunityDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -27,7 +28,7 @@ const AcRepairInAlWahaCommunityDetail = ({ subtitle, title, reviewsbg, titleSeo,
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "ac service in al waha community, ac repair in al waha community, ac maintenance in al waha community, ac cleaning in al waha community, ac installation in al waha community, ac technician in al waha community, ac servicing in al waha community, ac service near me, ac repair near me, ac maintenance near me, ac cleaning near me, ac installation near me, ac technician near me");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-waha-community/").replace(/\/?$/, '/');
-     const metaImage = String(Image || "https://www.fajservices.ae/dist/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -89,7 +90,7 @@ const AcRepairInAlWahaCommunityDetail = ({ subtitle, title, reviewsbg, titleSeo,
         <>
             <HelmetProvider>
                 <Helmet>
-                     <title>{metatitle}</title>
+                    <title>{metatitle}</title>
                     <meta name="description" content={metadescription}></meta>
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
@@ -170,6 +171,13 @@ const AcRepairInAlWahaCommunityDetail = ({ subtitle, title, reviewsbg, titleSeo,
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </section>
+
+                {/* AC Price Section */}
+                <section className="section cs_py_30">
+                    <div className="container">
+                        <FAJACPrice></FAJACPrice>
                     </div>
                 </section>
 
