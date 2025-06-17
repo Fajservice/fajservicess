@@ -17,6 +17,7 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 
 
 const AcRepairInRitzDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
@@ -128,7 +129,7 @@ const AcRepairInRitzDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                 </section>
 
                 {/* Experts AC Service and Maintenance */}
-                <section className="section cs_py_30 bg-light-gray mb-4">
+                <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
                         <div className="row gx-md-5">
                             <div className="col-md-6">
@@ -169,6 +170,13 @@ const AcRepairInRitzDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </section>                
+
+                {/* AC Price Section */}
+                <section className="section cs_py_30">
+                    <div className="container">
+                        <FAJACPrice></FAJACPrice>
                     </div>
                 </section>
 
@@ -341,8 +349,7 @@ const AcRepairInRitzDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                             </div>
                             <div className="col-lg-4">
                                 <div className="acsvs-sec-prefoot-sec-ctwo">
-
-                                    <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Post Image" />
+                                    <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Air Con Maintenance & Installation in The Ritz-Carlton DIFC" />
                                 </div>
                             </div>
                             <div className="col-lg-4">

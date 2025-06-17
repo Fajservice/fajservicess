@@ -17,6 +17,7 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 
 const AcRepairInPalmJumeirahDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -26,7 +27,7 @@ const AcRepairInPalmJumeirahDetail = ({ subtitle, title, reviewsbg, titleSeo, de
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Services In Palm Jumeirah, AC Repair in Palm Jumeirah, AC Maintenance in Palm Jumeirah, Central Cooling System in Palm Jumeirah, Trane AC Service in Palm Jumeirah, Chiller FCU AC Service in Palm Jumeirah");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-palm-jumeirah").replace(/\/?$/, '/')
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -88,7 +89,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
         <>
             <HelmetProvider>
                 <Helmet>
-                     <title>{metatitle}</title>
+                    <title>{metatitle}</title>
                     <meta name="description" content={metadescription}></meta>
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
@@ -128,7 +129,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
                 </section>
 
                 {/* Experts AC Service and Maintenance */}
-                <section className="section cs_py_30 bg-light-gray mb-4">
+                <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
                         <div className="row gx-md-5">
                             <div className="col-md-6">
@@ -155,7 +156,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Post Image" />
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="AC Repair in Palm Jumeirah" />
 
                             </div>
                         </div>
@@ -170,6 +171,13 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
                             </div>
                         </div>
                     </div>
+                </section>                
+
+                {/* AC Price Section */}
+                <section className="section cs_py_30">
+                    <div className="container">
+                        <FAJACPrice></FAJACPrice>
+                    </div>
                 </section>
 
                 {/* Why is AC Maintenance Service Important in Dubai? */}
@@ -182,7 +190,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Post Image" />
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Air Conditioning Service in Palm Jumeirah" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">
@@ -313,7 +321,6 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
                 {/* Why choose us AC */}
                 <ACWhyChooseUs />
 
-
                 {/* We specialise in air conditioning services for the following brands */}
                 <WeSpecialise />
 
@@ -347,8 +354,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
                             </div>
                             <div className="col-lg-4">
                                 <div className="acsvs-sec-prefoot-sec-ctwo">
-
-                                    <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Post Image" />
+                                    <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Air Con Maintenance & AC Installation in Palm Jumeirah" />
                                 </div>
                             </div>
                             <div className="col-lg-4">
@@ -361,16 +367,14 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </section>
-
 
                 {/* Maintenance Contract */}
                 <MaintenanceContract />
                 {/* testimobial section */}
                 <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
-                    {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
+                    
                     <div className="container">
                         <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
                             <h3 className="cs_section_subtitle cs_fs_18 text-black cs_semibold text-uppercase cs_mb_12 wow fadeInDown">
@@ -419,7 +423,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
                             </div>
                         </div>
                     </div>
-                    {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
+                    
                 </section>
 
                 {/* FAQ&apos;s */}

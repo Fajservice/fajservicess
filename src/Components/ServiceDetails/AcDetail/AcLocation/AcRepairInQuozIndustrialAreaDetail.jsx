@@ -18,6 +18,7 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 
 const AcRepairInQuozIndustrialAreaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -27,7 +28,7 @@ const AcRepairInQuozIndustrialAreaDetail = ({ subtitle, title, reviewsbg, titleS
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "AC Service in Al Quoz Industrial Area, AC Repair in Al Quoz Industrial Area, Air Conditioner Maintenance in Al Quoz Industrial Area, Aircon Repair in Al Quoz Industrial Area, AC Cleaning in Al Quoz Industrial Area, AC Installation in Al Quoz Industrial Area, AC Technician in Al Quoz Industrial Area");
   const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-quoz-industrial-area").replace(/\/?$/, '/');
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -89,24 +90,24 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
     <>
       <HelmetProvider>
         <Helmet>
-           <title>{metatitle}</title>
-                    <meta name="description" content={metadescription}></meta>
-                    <meta name="keywords" content={metaKeyword} />
-                    <meta name="author" content={metaAuthor} />
-                    <meta name="robots" content="index, follow" />
-                    <link rel="canonical" href={metaURL} />
-                    <meta property="og:type" content="website" />
-                    <meta property="og:locale" content="en_US" />
-                    <meta property="og:title" content={metatitle} />
-                    <meta property="og:description" content={metadescription} />
-                    <meta property="og:url" content={metaURL} />
-                    <meta property="og:image" content={metaImage} />
-                    {/* Twitter Card */}
-                    <meta name="twitter:card" content="summary_large_image" />
-                    <meta name="twitter:title" content={metatitle} />
-                    <meta name="twitter:description" content={metadescription} />
-                    <meta name="twitter:image" content={metaImage} />
-                    <meta name="twitter:url" content={metaURL} />
+          <title>{metatitle}</title>
+          <meta name="description" content={metadescription}></meta>
+          <meta name="keywords" content={metaKeyword} />
+          <meta name="author" content={metaAuthor} />
+          <meta name="robots" content="index, follow" />
+          <link rel="canonical" href={metaURL} />
+          <meta property="og:type" content="website" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:title" content={metatitle} />
+          <meta property="og:description" content={metadescription} />
+          <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
         </Helmet>
       </HelmetProvider>
       <HeaderForm />
@@ -129,7 +130,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
         </section>
 
         {/* Experts AC Service and Maintenance */}
-        <section className="section cs_py_30 bg-light-gray mb-4">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
@@ -156,7 +157,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Post Image" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="PAC Repair in Al Quoz Industrial Area" />
 
               </div>
             </div>
@@ -171,7 +172,14 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
               </div>
             </div>
           </div>
-        </section>
+        </section>                
+
+                {/* AC Price Section */}
+                <section className="section cs_py_30">
+                    <div className="container">
+                        <FAJACPrice></FAJACPrice>
+                    </div>
+                </section>
 
         {/* Why is AC Maintenance Service Important in Dubai? */}
         <section className="section cs_py_30 bg-light-gray">
@@ -183,7 +191,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Air Conditioning Service in Al Quoz Industrial Area" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -349,8 +357,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
               </div>
               <div className="col-lg-4">
                 <div className="acsvs-sec-prefoot-sec-ctwo">
-
-                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Post Image" />
+                  <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Air Con Maintenance & AC Installation in Al Quoz Industrial Area" />
                 </div>
               </div>
               <div className="col-lg-4">

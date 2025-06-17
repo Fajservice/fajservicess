@@ -131,7 +131,7 @@ const AcRepairInJebelAliFreeZoneDetail = ({ subtitle, title, reviewsbg, titleSeo
                 </section>
 
                 {/* Experts AC Service and Maintenance */}
-                <section className="section cs_py_30 bg-light-gray mb-4">
+                <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
                         <div className="row gx-md-5">
                             <div className="col-md-6">
