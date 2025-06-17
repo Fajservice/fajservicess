@@ -17,6 +17,7 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 
 const AcRepairInRemraamDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -88,7 +89,7 @@ const AcRepairInRemraamDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
         <>
             <HelmetProvider>
                 <Helmet>
-                     <title>{metatitle}</title>
+                    <title>{metatitle}</title>
                     <meta name="description" content={metadescription}></meta>
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
@@ -128,7 +129,7 @@ const AcRepairInRemraamDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                 </section>
 
                 {/* Experts AC Service and Maintenance */}
-                <section className="section cs_py_30 bg-light-gray mb-4">
+                <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
                         <div className="row gx-md-5">
                             <div className="col-md-6">
@@ -155,7 +156,7 @@ const AcRepairInRemraamDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Post Image" />
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="AC Repair in Remraam" />
 
                             </div>
                         </div>
@@ -170,6 +171,13 @@ const AcRepairInRemraamDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                             </div>
                         </div>
                     </div>
+                </section>                
+
+                {/* AC Price Section */}
+                <section className="section cs_py_30">
+                    <div className="container">
+                        <FAJACPrice></FAJACPrice>
+                    </div>
                 </section>
 
                 {/* Why is AC Maintenance Service Important in Dubai? */}
@@ -182,7 +190,7 @@ const AcRepairInRemraamDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Post Image" />
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Air Conditioning Service in Remraam" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">
@@ -348,7 +356,7 @@ const AcRepairInRemraamDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                             <div className="col-lg-4">
                                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                                    <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Post Image" />
+                                    <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Air Con Maintenance & AC Installation in Remraam" />
                                 </div>
                             </div>
                             <div className="col-lg-4">

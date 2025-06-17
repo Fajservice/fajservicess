@@ -22,8 +22,8 @@ import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 const AcRepairInAlBarshaSouthDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Expert AC Repair in Al Qusais - Get Central AC Service");
-  const metadescription = String(description || "Best FAJ AC services in Al Barsha South Dubai. We are experts in central and split air conditioning maintenance and repair near me. Call 043300002");
+  const metatitle = String(titleSeo || "AC Services In Al Barsha South - O General AC Repair Service");
+  const metadescription = String(description || "043300002 FAJ AC Services in Al Barsha South Dubai. We are experts in central & split air condition maintenance & repairing near me Dubai AC fix");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "AC Repair  in Al Barsha South, Air Conditioning Service in Al Barsha South, Air Con Maintenance & AC Installation in Al Barsha South");
   const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-barsha-south").replace(/\/?$/, '/');
@@ -129,7 +129,7 @@ const AcRepairInAlBarshaSouthDetail = ({ subtitle, title, reviewsbg, titleSeo, d
         </section>
 
         {/* Experts AC Service and Maintenance */}
-        <section className="section cs_py_30 bg-light-gray mb-4">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">

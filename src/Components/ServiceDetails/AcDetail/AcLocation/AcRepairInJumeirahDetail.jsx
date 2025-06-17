@@ -22,8 +22,8 @@ import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 const AcRepairInJumeirahDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In Deira - A/C Maintenance - AC Repair Ac Fix #1");
-    const metadescription = String(description || "T:043300002 Efficient Air Conditioning Repairs and AC Services in Deira Dubai. Central & Split Maintenance Near Me and Aircon Compressor Fixing");
+    const metatitle = String(titleSeo || "Home Appliances Service in Jumeirah - Washing Machine Repair");
+    const metadescription = String(description || "FAJ offering home appliances service in Jumeirah. Book an 043300002 for Siemens, Bosch, Daewoo, Electrolux, Teka refrigerator, fridge, oven repair");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "ac services in deira, ac repair in deira, ac maintenance in deira, ac service near me, ac repair near me, ac maintenance near me, air conditioning services in deira, air conditioning repair in deira, air conditioning maintenance in deira, aircon compressor fixing in deira");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jumeirah/").replace(/\/?$/, '/');
@@ -129,7 +129,7 @@ const AcRepairInJumeirahDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                 </section>
 
                 {/* Experts AC Service and Maintenance */}
-                <section className="section cs_py_30 bg-light-gray mb-4">
+                <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
                         <div className="row gx-md-5">
                             <div className="col-md-6">

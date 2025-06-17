@@ -18,6 +18,7 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 
 const AcRepairInKnowledgeVillageDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -27,7 +28,7 @@ const AcRepairInKnowledgeVillageDetail = ({ subtitle, title, reviewsbg, titleSeo
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "ac service in knowledge village, ac repair in knowledge village, ac maintenance in knowledge village, ac installation in knowledge village, ac cleaning in knowledge village, ac technician in knowledge village, ac service near me, ac repair near me, ac maintenance near me, ac installation near me, ac cleaning near me, ac technician near me");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-knowledge-village/").replace(/\/?$/, '/');
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -89,7 +90,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
         <>
             <HelmetProvider>
                 <Helmet>
-                     <title>{metatitle}</title>
+                    <title>{metatitle}</title>
                     <meta name="description" content={metadescription}></meta>
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
@@ -129,7 +130,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
                 </section>
 
                 {/* Experts AC Service and Maintenance */}
-                <section className="section cs_py_30 bg-light-gray mb-4">
+                <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
                         <div className="row gx-md-5">
                             <div className="col-md-6">
@@ -170,6 +171,13 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </section>
+
+                {/* AC Price Section */}
+                <section className="section cs_py_30">
+                    <div className="container">
+                        <FAJACPrice></FAJACPrice>
                     </div>
                 </section>
 

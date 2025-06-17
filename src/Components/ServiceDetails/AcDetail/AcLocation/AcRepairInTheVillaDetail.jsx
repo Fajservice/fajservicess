@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInTheVilla.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
-
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
@@ -10,13 +9,13 @@ import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMainten
 import QuickGuide from "../../../QuickGuide/QuickGuide";
 import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
-
 import Slider from "react-slick";
 import testimonial from '../../../../Data/AcData/AcTestimonial/AcServiceTestimonials.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 
 const AcRepairInTheVillaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -26,7 +25,7 @@ const AcRepairInTheVillaDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Services In The Villa Dubai, Central AC Maintenance, AC Repair in The Villa Dubai, Air Conditioning Service in The Villa Dubai, Ducted Split Air Conditioner Repair in The Villa Dubai, HVAC Services in The Villa Dubai, AC Maintenance in The Villa Dubai, Air Conditioner Service in The Villa Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-the-villa/").replace(/\/?$/, '/');
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     reviewsbg = "img/testimonialbg.jpg"
@@ -87,7 +86,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
         <>
             <HelmetProvider>
                 <Helmet>
-                   <title>{metatitle}</title>
+                    <title>{metatitle}</title>
                     <meta name="description" content={metadescription}></meta>
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
@@ -126,7 +125,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
                 </section>
 
                 {/* Experts AC Service and Maintenance */}
-                <section className="section cs_py_30 bg-light-gray mb-4">
+                <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
                         <div className="row gx-md-5">
                             <div className="col-md-6">
@@ -153,7 +152,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Ac Repair in The Villa" loading="lazy" />
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="AC Repair in The Villa" loading="lazy" />
 
                             </div>
                         </div>
@@ -168,6 +167,13 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
                             </div>
                         </div>
                     </div>
+                </section>                
+
+                {/* AC Price Section */}
+                <section className="section cs_py_30">
+                    <div className="container">
+                        <FAJACPrice></FAJACPrice>
+                    </div>
                 </section>
 
                 {/* Why is AC Maintenance Service Important in Dubai? */}
@@ -180,7 +186,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Ac Service in The Villa" loading="lazy" />
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Air Conditioning Service in The Villa" loading="lazy" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">
@@ -346,7 +352,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
                             <div className="col-lg-4">
                                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                                    <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="benefit" loading="lazy" />
+                                    <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Air Con Maintenance & AC Installation in The Villa" loading="lazy" />
                                 </div>
                             </div>
                             <div className="col-lg-4">

@@ -17,14 +17,14 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
-import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice"; 
 
 
 const AcRepairInJebelAliIndustrialAreaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In Deira - A/C Maintenance - AC Repair Ac Fix #1");
-    const metadescription = String(description || "T:043300002 Efficient Air Conditioning Repairs and AC Services in Deira Dubai. Central & Split Maintenance Near Me and Aircon Compressor Fixing");
+    const metatitle = String(titleSeo || "Best Appliances Services in Jebel Ali Industrial Area");
+    const metadescription = String(description || "Best appliance services in Jebel Ali Industrial Area. Call 043300002 for fridge repair near me in Dubai. FAJ offers to fix dishwasher, washing machine");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "ac services in deira, ac repair in deira, ac maintenance in deira, air conditioning services in deira, air conditioning repair in deira, air conditioning maintenance in deira, ac service near me, ac repair near me, ac maintenance near me, air conditioning service near me, air conditioning repair near me, air conditioning maintenance near me");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jebel-ali-industrial-area/").replace(/\/?$/, '/');
@@ -130,7 +130,7 @@ const AcRepairInJebelAliIndustrialAreaDetail = ({ subtitle, title, reviewsbg, ti
                 </section>
 
                 {/* Experts AC Service and Maintenance */}
-                <section className="section cs_py_30 bg-light-gray mb-4">
+                <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
                         <div className="row gx-md-5">
                             <div className="col-md-6">

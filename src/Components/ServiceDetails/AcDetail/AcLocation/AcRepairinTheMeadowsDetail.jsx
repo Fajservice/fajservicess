@@ -17,6 +17,7 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 
 
 const AcRepairinTheMeadowsDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
@@ -90,7 +91,7 @@ const AcRepairinTheMeadowsDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
         <>
             <HelmetProvider>
                 <Helmet>
-                     <title>{metatitle}</title>
+                    <title>{metatitle}</title>
                     <meta name="description" content={metadescription}></meta>
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
@@ -130,7 +131,7 @@ const AcRepairinTheMeadowsDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                 </section>
 
                 {/* Experts AC Service and Maintenance */}
-                <section className="section cs_py_30 bg-light-gray mb-4">
+                <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
                         <div className="row gx-md-5">
                             <div className="col-md-6">
@@ -157,7 +158,7 @@ const AcRepairinTheMeadowsDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Ac Repair in Meadows " loading="lazy" />
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="AC Repair in The Meadows" loading="lazy" />
 
                             </div>
                         </div>
@@ -172,6 +173,13 @@ const AcRepairinTheMeadowsDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                             </div>
                         </div>
                     </div>
+                </section>                
+
+                {/* AC Price Section */}
+                <section className="section cs_py_30">
+                    <div className="container">
+                        <FAJACPrice></FAJACPrice>
+                    </div>
                 </section>
 
                 {/* Why is AC Maintenance Service Important in Dubai? */}
@@ -184,7 +192,7 @@ const AcRepairinTheMeadowsDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Ac Service in total" loading="lazy" />
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Air Conditioning Service in The Meadows" loading="lazy" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">
@@ -350,7 +358,7 @@ const AcRepairinTheMeadowsDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                             <div className="col-lg-4">
                                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                                    <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="benedit" loading="lazy" />
+                                    <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Air Con Maintenance & AC Installation in The Meadows" loading="lazy" />
                                 </div>
                             </div>
                             <div className="col-lg-4">
