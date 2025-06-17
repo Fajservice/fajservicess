@@ -927,6 +927,7 @@ max-height: 117px !important;
 	position: fixed;
     bottom: 60px;
     right: 10px!important;
+    z-index: 9999;
 }
 .floating-menu .flt-ul-icon{
 	margin: 0px;
