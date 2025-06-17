@@ -23,71 +23,50 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
     }
   }, [slug]);
 
-  const renderParagraphWithLinks = (paragraph) => {
+const renderParagraphWithLinks = (paragraph) => {
+  const parts = [];
+  let remainingText = paragraph;
+  let key = 0;
 
-    if (typeof paragraph === 'string' && paragraph.includes('<Link url="')) {
-      try {
-        const linkStartIndex = paragraph.indexOf('<Link url="');
-        const urlStartIndex = linkStartIndex + '<Link url="'.length;
-        const urlEndIndex = paragraph.indexOf('">', urlStartIndex);
-        const url = paragraph.substring(urlStartIndex, urlEndIndex);
+  const tagRegex = /<Link url="(.*?)">(.*?)<\/Link>|<b>(.*?)<\/b>/g;
+  let lastIndex = 0;
+  let match;
 
-        const linkTextStartIndex = urlEndIndex + 2; // Skip the ">
-        const linkTextEndIndex = paragraph.indexOf('</Link>', linkTextStartIndex);
-        const linkText = paragraph.substring(linkTextStartIndex, linkTextEndIndex);
+  while ((match = tagRegex.exec(paragraph)) !== null) {
+    const [fullMatch, linkUrl, linkText, boldText] = match;
 
-        const beforeLinkText = paragraph.substring(0, linkStartIndex);
-        const afterLinkText = paragraph.substring(linkTextEndIndex + '</Link>'.length);
-
-
-        if (url.startsWith('http://') || url.startsWith('https://')) {
-          return (
-            <>
-              {beforeLinkText}
-              <Link to={url} target="_blank" rel="noopener noreferrer">{linkText}</Link>
-              {afterLinkText}
-            </>
-          );
-        } else {
-
-          return (
-            <>
-              {beforeLinkText}
-              <Link to={url}>{linkText}</Link>
-              {afterLinkText}
-            </>
-          );
-        }
-      } catch (e) {
-        console.error("Error parsing link with URL:", e);
-        return paragraph;
-      }
+    // Push text before match
+    if (match.index > lastIndex) {
+      parts.push(paragraph.slice(lastIndex, match.index));
     }
 
-    // Check if paragraph has simple <Link> tags (for internal blog links)
-    if (typeof paragraph === 'string' && paragraph.includes('<Link>')) {
-      // Split the content by the opening tag
-      const parts = paragraph.split('<Link>');
-      const beforeLink = parts[0];
-      // Split the remaining content by the closing tag
-      const linkParts = parts[1].split('</Link>');
-      const linkText = linkParts[0];
-      const afterLink = linkParts[1] || '';
-
-      // Generate the URL slug from link text
-      const slug = linkText.toLowerCase().replace(/\s+/g, '-');
-
-      return (
-        <>
-          {beforeLink}
-          <Link to={`/blog/${slug}`}>{linkText}</Link>
-          {afterLink}
-        </>
+    if (linkUrl && linkText) {
+      const isExternal = linkUrl.startsWith('http');
+      parts.push(
+        isExternal ? (
+          <a key={key++} href={linkUrl} target="_blank" rel="noopener noreferrer">
+            {linkText}
+          </a>
+        ) : (
+          <Link key={key++} to={linkUrl}>
+            {linkText}
+          </Link>
+        )
       );
+    } else if (boldText) {
+      parts.push(<b key={key++}>{boldText}</b>);
     }
-    return paragraph;
-  };
 
+    lastIndex = match.index + fullMatch.length;
+  }
+
+  // Push remaining text after last match
+  if (lastIndex < paragraph.length) {
+    parts.push(paragraph.slice(lastIndex));
+  }
+
+  return <>{parts}</>;
+};
 
 
   const renderContent = (content) => {
@@ -205,7 +184,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                     <span className="cs_heading_color">{blogPost.admin}</span>
                   </div>
                 </div>
-                <h1>{blogPost.title}</h1>
+                <h1 className="cs_fs_30">{blogPost.title}</h1>
                 {renderContent(blogPost.content)}
 
                 {/* 2nd Section */}
@@ -276,11 +255,935 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                       </>
                     )}
 
-                    {/* Apply same pattern for all sec_three sections */}
+                     {blogPost.sec_three_h3_2 && (
+                      <>
+                        <h3>{blogPost.sec_three_h3_2}</h3>
+                        {renderContent(blogPost.sec_three_h3_content_2)}
+                      </>
+                    )}
+
+                    {blogPost.sec_three_h3_3 && (
+                      <>
+                        <h3>{blogPost.sec_three_h3_3}</h3>
+                        {renderContent(blogPost.sec_three_h3_content_3)}
+                      </>
+                    )}
+
+                    {blogPost.sec_three_h3_4 && (
+                      <>
+                        <h3>{blogPost.sec_three_h3_4}</h3>
+                        {renderContent(blogPost.sec_three_h3_content_4)}
+                      </>
+                    )}
+
+                    {blogPost.sec_three_h3_5 && (
+                      <>
+                        <h3>{blogPost.sec_three_h3_5}</h3>
+                        {renderContent(blogPost.sec_three_h3_content_5)}
+                      </>
+                    )}
+
+                    {blogPost.sec_three_h3_6 && (
+                      <>
+                        <h3>{blogPost.sec_three_h3_6}</h3>
+                        {renderContent(blogPost.sec_three_h3_content_6)}
+                      </>
+                    )}
+
+                     {blogPost.sec_three_h3_7 && (
+                      <>
+                        <h3>{blogPost.sec_three_h3_7}</h3>
+                        {renderContent(blogPost.sec_three_h3_content_7)}
+                      </>
+                    )}
+                     {blogPost.sec_three_h3_8 && (
+                      <>
+                        <h3>{blogPost.sec_three_h3_8}</h3>
+                        {renderContent(blogPost.sec_three_h3_content_8)}
+                      </>
+                    )}
+                     {blogPost.sec_three_h3_9 && (
+                      <>
+                        <h3>{blogPost.sec_three_h3_9}</h3>
+                        {renderContent(blogPost.sec_three_h3_content_9)}
+                      </>
+                    )}
+                     {blogPost.sec_three_h3_10 && (
+                      <>
+                        <h3>{blogPost.sec_three_h3_10}</h3>
+                        {renderContent(blogPost.sec_three_h3_content_10)}
+                      </>
+                    )}
                   </div>
                 )}
 
-                {/* Apply the same pattern for all other sections: sec_four, sec_five, etc. */}
+                {/* 4rd Section */}
+                {blogPost.sec_four_h2 && (
+                  <div className="row">
+                    <h2>{blogPost.sec_four_h2}</h2>
+                    {renderContent(blogPost.sec_four_h2_p)}
+
+                    {blogPost.sec_four_img && (
+                      <div className="col-md-8">
+                        <img src={blogPost.sec_four_img} alt="image" />
+                      </div>
+                    )}
+
+                    {blogPost.sec_four_h3_1 && (
+                      <>
+                        <h3>{blogPost.sec_four_h3_1}</h3>
+                        {renderContent(blogPost.sec_four_h3_content_1)}
+                      </>
+                    )}
+
+                     {blogPost.sec_four_h3_2 && (
+                      <>
+                        <h3>{blogPost.sec_four_h3_2}</h3>
+                        {renderContent(blogPost.sec_four_h3_content_2)}
+                      </>
+                    )}
+
+                    {blogPost.sec_four_h3_3 && (
+                      <>
+                        <h3>{blogPost.sec_four_h3_3}</h3>
+                        {renderContent(blogPost.sec_four_h3_content_3)}
+                      </>
+                    )}
+
+                    {blogPost.sec_four_h3_4 && (
+                      <>
+                        <h3>{blogPost.sec_four_h3_4}</h3>
+                        {renderContent(blogPost.sec_four_h3_content_4)}
+                      </>
+                    )}
+
+                    {blogPost.sec_four_h3_5 && (
+                      <>
+                        <h3>{blogPost.sec_four_h3_5}</h3>
+                        {renderContent(blogPost.sec_four_h3_content_5)}
+                      </>
+                    )}
+
+                    {blogPost.sec_four_h3_6 && (
+                      <>
+                        <h3>{blogPost.sec_four_h3_6}</h3>
+                        {renderContent(blogPost.sec_four_h3_content_6)}
+                      </>
+                    )}
+
+                     {blogPost.sec_four_h3_7 && (
+                      <>
+                        <h3>{blogPost.sec_four_h3_7}</h3>
+                        {renderContent(blogPost.sec_four_h3_content_7)}
+                      </>
+                    )}
+                     {blogPost.sec_four_h3_8 && (
+                      <>
+                        <h3>{blogPost.sec_four_h3_8}</h3>
+                        {renderContent(blogPost.sec_four_h3_content_8)}
+                      </>
+                    )}
+                     {blogPost.sec_four_h3_9 && (
+                      <>
+                        <h3>{blogPost.sec_four_h3_9}</h3>
+                        {renderContent(blogPost.sec_four_h3_content_9)}
+                      </>
+                    )}
+                     {blogPost.sec_four_h3_10 && (
+                      <>
+                        <h3>{blogPost.sec_four_h3_10}</h3>
+                        {renderContent(blogPost.sec_four_h3_content_10)}
+                      </>
+                    )}
+                  </div>
+                )}
+
+                {/* 5th Section */}
+                {blogPost.sec_five_h2 && (
+                  <div className="row">
+                    <h2>{blogPost.sec_five_h2}</h2>
+                    {renderContent(blogPost.sec_five_h2_p)}
+
+                    {blogPost.sec_five_img && (
+                      <div className="col-md-8">
+                        <img src={blogPost.sec_five_img} alt="image" />
+                      </div>
+                    )}
+
+                    {blogPost.sec_five_h3_1 && (
+                      <>
+                        <h3>{blogPost.sec_five_h3_1}</h3>
+                        {renderContent(blogPost.sec_five_h3_content_1)}
+                      </>
+                    )}
+
+                     {blogPost.sec_five_h3_2 && (
+                      <>
+                        <h3>{blogPost.sec_five_h3_2}</h3>
+                        {renderContent(blogPost.sec_five_h3_content_2)}
+                      </>
+                    )}
+
+                    {blogPost.sec_five_h3_3 && (
+                      <>
+                        <h3>{blogPost.sec_five_h3_3}</h3>
+                        {renderContent(blogPost.sec_five_h3_content_3)}
+                      </>
+                    )}
+
+                    {blogPost.sec_five_h3_4 && (
+                      <>
+                        <h3>{blogPost.sec_five_h3_4}</h3>
+                        {renderContent(blogPost.sec_five_h3_content_4)}
+                      </>
+                    )}
+
+                    {blogPost.sec_five_h3_5 && (
+                      <>
+                        <h3>{blogPost.sec_five_h3_5}</h3>
+                        {renderContent(blogPost.sec_five_h3_content_5)}
+                      </>
+                    )}
+
+                    {blogPost.sec_five_h3_6 && (
+                      <>
+                        <h3>{blogPost.sec_five_h3_6}</h3>
+                        {renderContent(blogPost.sec_five_h3_content_6)}
+                      </>
+                    )}
+
+                     {blogPost.sec_five_h3_7 && (
+                      <>
+                        <h3>{blogPost.sec_five_h3_7}</h3>
+                        {renderContent(blogPost.sec_five_h3_content_7)}
+                      </>
+                    )}
+                     {blogPost.sec_five_h3_8 && (
+                      <>
+                        <h3>{blogPost.sec_five_h3_8}</h3>
+                        {renderContent(blogPost.sec_five_h3_content_8)}
+                      </>
+                    )}
+                     {blogPost.sec_five_h3_9 && (
+                      <>
+                        <h3>{blogPost.sec_five_h3_9}</h3>
+                        {renderContent(blogPost.sec_five_h3_content_9)}
+                      </>
+                    )}
+                     {blogPost.sec_five_h3_10 && (
+                      <>
+                        <h3>{blogPost.sec_five_h3_10}</h3>
+                        {renderContent(blogPost.sec_five_h3_content_10)}
+                      </>
+                    )}
+                    {blogPost.sec_five_h3_11 && (
+                      <>
+                        <h3>{blogPost.sec_five_h3_11}</h3>
+                        {renderContent(blogPost.sec_five_h3_content_11)}
+                      </>
+                    )}
+                    {blogPost.sec_five_h3_12 && (
+                      <>
+                        <h3>{blogPost.sec_five_h3_12}</h3>
+                        {renderContent(blogPost.sec_five_h3_content_12)}
+                      </>
+                    )}
+                    {blogPost.sec_five_h3_13 && (
+                      <>
+                        <h3>{blogPost.sec_five_h3_13}</h3>
+                        {renderContent(blogPost.sec_five_h3_content_13)}
+                      </>
+                    )}
+                  </div>
+                )}
+
+                 {/* 6th Section */}
+                {blogPost.sec_six_h2 && (
+                  <div className="row">
+                    <h2>{blogPost.sec_six_h2}</h2>
+                    {renderContent(blogPost.sec_six_h2_p)}
+
+                    {blogPost.sec_six_img && (
+                      <div className="col-md-8">
+                        <img src={blogPost.sec_six_img} alt="image" />
+                      </div>
+                    )}
+
+                    {blogPost.sec_six_h3_1 && (
+                      <>
+                        <h3>{blogPost.sec_six_h3_1}</h3>
+                        {renderContent(blogPost.sec_six_h3_content_1)}
+                      </>
+                    )}
+
+                     {blogPost.sec_six_h3_2 && (
+                      <>
+                        <h3>{blogPost.sec_six_h3_2}</h3>
+                        {renderContent(blogPost.sec_six_h3_content_2)}
+                      </>
+                    )}
+
+                    {blogPost.sec_six_h3_3 && (
+                      <>
+                        <h3>{blogPost.sec_six_h3_3}</h3>
+                        {renderContent(blogPost.sec_six_h3_content_3)}
+                      </>
+                    )}
+
+                    {blogPost.sec_six_h3_4 && (
+                      <>
+                        <h3>{blogPost.sec_six_h3_4}</h3>
+                        {renderContent(blogPost.sec_six_h3_content_4)}
+                      </>
+                    )}
+
+                    {blogPost.sec_six_h3_5 && (
+                      <>
+                        <h3>{blogPost.sec_six_h3_5}</h3>
+                        {renderContent(blogPost.sec_six_h3_content_5)}
+                      </>
+                    )}
+
+                    {blogPost.sec_six_h3_6 && (
+                      <>
+                        <h3>{blogPost.sec_six_h3_6}</h3>
+                        {renderContent(blogPost.sec_six_h3_content_6)}
+                      </>
+                    )}
+
+                     {blogPost.sec_six_h3_7 && (
+                      <>
+                        <h3>{blogPost.sec_six_h3_7}</h3>
+                        {renderContent(blogPost.sec_six_h3_content_7)}
+                      </>
+                    )}
+                     {blogPost.sec_six_h3_8 && (
+                      <>
+                        <h3>{blogPost.sec_six_h3_8}</h3>
+                        {renderContent(blogPost.sec_six_h3_content_8)}
+                      </>
+                    )}
+                     {blogPost.sec_six_h3_9 && (
+                      <>
+                        <h3>{blogPost.sec_six_h3_9}</h3>
+                        {renderContent(blogPost.sec_six_h3_content_9)}
+                      </>
+                    )}
+                     {blogPost.sec_six_h3_10 && (
+                      <>
+                        <h3>{blogPost.sec_six_h3_10}</h3>
+                        {renderContent(blogPost.sec_six_h3_content_10)}
+                      </>
+                    )}
+                    {blogPost.sec_six_h3_11 && (
+                      <>
+                        <h3>{blogPost.sec_six_h3_11}</h3>
+                        {renderContent(blogPost.sec_six_h3_content_11)}
+                      </>
+                    )}
+                    {blogPost.sec_six_h3_12 && (
+                      <>
+                        <h3>{blogPost.sec_six_h3_12}</h3>
+                        {renderContent(blogPost.sec_six_h3_content_12)}
+                      </>
+                    )}
+                    {blogPost.sec_six_h3_13 && (
+                      <>
+                        <h3>{blogPost.sec_six_h3_13}</h3>
+                        {renderContent(blogPost.sec_six_h3_content_13)}
+                      </>
+                    )}
+                  </div>
+                )}
+
+                 {/* 7th Section */}
+                {blogPost.sec_seven_h2 && (
+                  <div className="row">
+                    <h2>{blogPost.sec_seven_h2}</h2>
+                    {renderContent(blogPost.sec_seven_h2_p)}
+
+                    {blogPost.sec_seven_img && (
+                      <div className="col-md-8">
+                        <img src={blogPost.sec_seven_img} alt="image" />
+                      </div>
+                    )}
+
+                    {blogPost.sec_seven_h3_1 && (
+                      <>
+                        <h3>{blogPost.sec_seven_h3_1}</h3>
+                        {renderContent(blogPost.sec_seven_h3_content_1)}
+                      </>
+                    )}
+
+                     {blogPost.sec_seven_h3_2 && (
+                      <>
+                        <h3>{blogPost.sec_seven_h3_2}</h3>
+                        {renderContent(blogPost.sec_seven_h3_content_2)}
+                      </>
+                    )}
+
+                    {blogPost.sec_seven_h3_3 && (
+                      <>
+                        <h3>{blogPost.sec_seven_h3_3}</h3>
+                        {renderContent(blogPost.sec_seven_h3_content_3)}
+                      </>
+                    )}
+
+                    {blogPost.sec_seven_h3_4 && (
+                      <>
+                        <h3>{blogPost.sec_seven_h3_4}</h3>
+                        {renderContent(blogPost.sec_seven_h3_content_4)}
+                      </>
+                    )}
+
+                    {blogPost.sec_seven_h3_5 && (
+                      <>
+                        <h3>{blogPost.sec_seven_h3_5}</h3>
+                        {renderContent(blogPost.sec_seven_h3_content_5)}
+                      </>
+                    )}
+
+                    {blogPost.sec_seven_h3_6 && (
+                      <>
+                        <h3>{blogPost.sec_seven_h3_6}</h3>
+                        {renderContent(blogPost.sec_seven_h3_content_6)}
+                      </>
+                    )}
+
+                     {blogPost.sec_seven_h3_7 && (
+                      <>
+                        <h3>{blogPost.sec_seven_h3_7}</h3>
+                        {renderContent(blogPost.sec_seven_h3_content_7)}
+                      </>
+                    )}
+                     {blogPost.sec_seven_h3_8 && (
+                      <>
+                        <h3>{blogPost.sec_seven_h3_8}</h3>
+                        {renderContent(blogPost.sec_seven_h3_content_8)}
+                      </>
+                    )}
+                     {blogPost.sec_seven_h3_9 && (
+                      <>
+                        <h3>{blogPost.sec_seven_h3_9}</h3>
+                        {renderContent(blogPost.sec_seven_h3_content_9)}
+                      </>
+                    )}
+                     {blogPost.sec_seven_h3_10 && (
+                      <>
+                        <h3>{blogPost.sec_seven_h3_10}</h3>
+                        {renderContent(blogPost.sec_seven_h3_content_10)}
+                      </>
+                    )}
+                    {blogPost.sec_seven_h3_11 && (
+                      <>
+                        <h3>{blogPost.sec_seven_h3_11}</h3>
+                        {renderContent(blogPost.sec_seven_h3_content_11)}
+                      </>
+                    )}
+                    {blogPost.sec_seven_h3_12 && (
+                      <>
+                        <h3>{blogPost.sec_seven_h3_12}</h3>
+                        {renderContent(blogPost.sec_seven_h3_content_12)}
+                      </>
+                    )}
+                    {blogPost.sec_seven_h3_13 && (
+                      <>
+                        <h3>{blogPost.sec_seven_h3_13}</h3>
+                        {renderContent(blogPost.sec_seven_h3_content_13)}
+                      </>
+                    )}
+                  </div>
+                )}
+                 {/* 8th Section */}
+                {blogPost.sec_eight_h2 && (
+                  <div className="row">
+                    <h2>{blogPost.sec_eight_h2}</h2>
+                    {renderContent(blogPost.sec_eight_h2_p)}
+
+                    {blogPost.sec_eight_img && (
+                      <div className="col-md-8">
+                        <img src={blogPost.sec_eight_img} alt="image" />
+                      </div>
+                    )}
+
+                    {blogPost.sec_eight_h3_1 && (
+                      <>
+                        <h3>{blogPost.sec_eight_h3_1}</h3>
+                        {renderContent(blogPost.sec_eight_h3_content_1)}
+                      </>
+                    )}
+
+                     {blogPost.sec_eight_h3_2 && (
+                      <>
+                        <h3>{blogPost.sec_eight_h3_2}</h3>
+                        {renderContent(blogPost.sec_eight_h3_content_2)}
+                      </>
+                    )}
+
+                    {blogPost.sec_eight_h3_3 && (
+                      <>
+                        <h3>{blogPost.sec_eight_h3_3}</h3>
+                        {renderContent(blogPost.sec_eight_h3_content_3)}
+                      </>
+                    )}
+
+                    {blogPost.sec_eight_h3_4 && (
+                      <>
+                        <h3>{blogPost.sec_eight_h3_4}</h3>
+                        {renderContent(blogPost.sec_eight_h3_content_4)}
+                      </>
+                    )}
+
+                    {blogPost.sec_eight_h3_5 && (
+                      <>
+                        <h3>{blogPost.sec_eight_h3_5}</h3>
+                        {renderContent(blogPost.sec_eight_h3_content_5)}
+                      </>
+                    )}
+
+                    {blogPost.sec_eight_h3_6 && (
+                      <>
+                        <h3>{blogPost.sec_eight_h3_6}</h3>
+                        {renderContent(blogPost.sec_eight_h3_content_6)}
+                      </>
+                    )}
+
+                     {blogPost.sec_eight_h3_7 && (
+                      <>
+                        <h3>{blogPost.sec_eight_h3_7}</h3>
+                        {renderContent(blogPost.sec_eight_h3_content_7)}
+                      </>
+                    )}
+                     {blogPost.sec_eight_h3_8 && (
+                      <>
+                        <h3>{blogPost.sec_eight_h3_8}</h3>
+                        {renderContent(blogPost.sec_eight_h3_content_8)}
+                      </>
+                    )}
+                     {blogPost.sec_eight_h3_9 && (
+                      <>
+                        <h3>{blogPost.sec_eight_h3_9}</h3>
+                        {renderContent(blogPost.sec_eight_h3_content_9)}
+                      </>
+                    )}
+                     {blogPost.sec_eight_h3_10 && (
+                      <>
+                        <h3>{blogPost.sec_eight_h3_10}</h3>
+                        {renderContent(blogPost.sec_eight_h3_content_10)}
+                      </>
+                    )}
+                    {blogPost.sec_eight_h3_11 && (
+                      <>
+                        <h3>{blogPost.sec_eight_h3_11}</h3>
+                        {renderContent(blogPost.sec_eight_h3_content_11)}
+                      </>
+                    )}
+                    {blogPost.sec_eight_h3_12 && (
+                      <>
+                        <h3>{blogPost.sec_eight_h3_12}</h3>
+                        {renderContent(blogPost.sec_eight_h3_content_12)}
+                      </>
+                    )}
+                    {blogPost.sec_eight_h3_13 && (
+                      <>
+                        <h3>{blogPost.sec_eight_h3_13}</h3>
+                        {renderContent(blogPost.sec_eight_h3_content_13)}
+                      </>
+                    )}
+                  </div>
+                )}
+                 {/* 9th Section */}
+                {blogPost.sec_nine_h2 && (
+                  <div className="row">
+                    <h2>{blogPost.sec_nine_h2}</h2>
+                    {renderContent(blogPost.sec_nine_h2_p)}
+
+                    {blogPost.sec_nine_img && (
+                      <div className="col-md-8">
+                        <img src={blogPost.sec_nine_img} alt="image" />
+                      </div>
+                    )}
+
+                    {blogPost.sec_nine_h3_1 && (
+                      <>
+                        <h3>{blogPost.sec_nine_h3_1}</h3>
+                        {renderContent(blogPost.sec_nine_h3_content_1)}
+                      </>
+                    )}
+
+                     {blogPost.sec_nine_h3_2 && (
+                      <>
+                        <h3>{blogPost.sec_nine_h3_2}</h3>
+                        {renderContent(blogPost.sec_nine_h3_content_2)}
+                      </>
+                    )}
+
+                    {blogPost.sec_nine_h3_3 && (
+                      <>
+                        <h3>{blogPost.sec_nine_h3_3}</h3>
+                        {renderContent(blogPost.sec_nine_h3_content_3)}
+                      </>
+                    )}
+
+                    {blogPost.sec_nine_h3_4 && (
+                      <>
+                        <h3>{blogPost.sec_nine_h3_4}</h3>
+                        {renderContent(blogPost.sec_nine_h3_content_4)}
+                      </>
+                    )}
+
+                    {blogPost.sec_nine_h3_5 && (
+                      <>
+                        <h3>{blogPost.sec_nine_h3_5}</h3>
+                        {renderContent(blogPost.sec_nine_h3_content_5)}
+                      </>
+                    )}
+
+                    {blogPost.sec_nine_h3_6 && (
+                      <>
+                        <h3>{blogPost.sec_nine_h3_6}</h3>
+                        {renderContent(blogPost.sec_nine_h3_content_6)}
+                      </>
+                    )}
+
+                     {blogPost.sec_nine_h3_7 && (
+                      <>
+                        <h3>{blogPost.sec_nine_h3_7}</h3>
+                        {renderContent(blogPost.sec_nine_h3_content_7)}
+                      </>
+                    )}
+                     {blogPost.sec_nine_h3_8 && (
+                      <>
+                        <h3>{blogPost.sec_nine_h3_8}</h3>
+                        {renderContent(blogPost.sec_nine_h3_content_8)}
+                      </>
+                    )}
+                     {blogPost.sec_nine_h3_9 && (
+                      <>
+                        <h3>{blogPost.sec_nine_h3_9}</h3>
+                        {renderContent(blogPost.sec_nine_h3_content_9)}
+                      </>
+                    )}
+                     {blogPost.sec_nine_h3_10 && (
+                      <>
+                        <h3>{blogPost.sec_nine_h3_10}</h3>
+                        {renderContent(blogPost.sec_nine_h3_content_10)}
+                      </>
+                    )}
+                    {blogPost.sec_nine_h3_11 && (
+                      <>
+                        <h3>{blogPost.sec_nine_h3_11}</h3>
+                        {renderContent(blogPost.sec_nine_h3_content_11)}
+                      </>
+                    )}
+                    {blogPost.sec_nine_h3_12 && (
+                      <>
+                        <h3>{blogPost.sec_nine_h3_12}</h3>
+                        {renderContent(blogPost.sec_nine_h3_content_12)}
+                      </>
+                    )}
+                    {blogPost.sec_nine_h3_13 && (
+                      <>
+                        <h3>{blogPost.sec_nine_h3_13}</h3>
+                        {renderContent(blogPost.sec_nine_h3_content_13)}
+                      </>
+                    )}
+                  </div>
+                )}
+                 {/* 10th Section */}
+                {blogPost.sec_ten_h2 && (
+                  <div className="row">
+                    <h2>{blogPost.sec_ten_h2}</h2>
+                    {renderContent(blogPost.sec_ten_h2_p)}
+
+                    {blogPost.sec_ten_img && (
+                      <div className="col-md-8">
+                        <img src={blogPost.sec_ten_img} alt="image" />
+                      </div>
+                    )}
+
+                    {blogPost.sec_ten_h3_1 && (
+                      <>
+                        <h3>{blogPost.sec_ten_h3_1}</h3>
+                        {renderContent(blogPost.sec_ten_h3_content_1)}
+                      </>
+                    )}
+
+                     {blogPost.sec_ten_h3_2 && (
+                      <>
+                        <h3>{blogPost.sec_ten_h3_2}</h3>
+                        {renderContent(blogPost.sec_ten_h3_content_2)}
+                      </>
+                    )}
+
+                    {blogPost.sec_ten_h3_3 && (
+                      <>
+                        <h3>{blogPost.sec_ten_h3_3}</h3>
+                        {renderContent(blogPost.sec_ten_h3_content_3)}
+                      </>
+                    )}
+
+                    {blogPost.sec_ten_h3_4 && (
+                      <>
+                        <h3>{blogPost.sec_ten_h3_4}</h3>
+                        {renderContent(blogPost.sec_ten_h3_content_4)}
+                      </>
+                    )}
+
+                    {blogPost.sec_ten_h3_5 && (
+                      <>
+                        <h3>{blogPost.sec_ten_h3_5}</h3>
+                        {renderContent(blogPost.sec_ten_h3_content_5)}
+                      </>
+                    )}
+
+                    {blogPost.sec_ten_h3_6 && (
+                      <>
+                        <h3>{blogPost.sec_ten_h3_6}</h3>
+                        {renderContent(blogPost.sec_ten_h3_content_6)}
+                      </>
+                    )}
+
+                     {blogPost.sec_ten_h3_7 && (
+                      <>
+                        <h3>{blogPost.sec_ten_h3_7}</h3>
+                        {renderContent(blogPost.sec_ten_h3_content_7)}
+                      </>
+                    )}
+                     {blogPost.sec_ten_h3_8 && (
+                      <>
+                        <h3>{blogPost.sec_ten_h3_8}</h3>
+                        {renderContent(blogPost.sec_ten_h3_content_8)}
+                      </>
+                    )}
+                     {blogPost.sec_ten_h3_9 && (
+                      <>
+                        <h3>{blogPost.sec_ten_h3_9}</h3>
+                        {renderContent(blogPost.sec_ten_h3_content_9)}
+                      </>
+                    )}
+                     {blogPost.sec_ten_h3_10 && (
+                      <>
+                        <h3>{blogPost.sec_ten_h3_10}</h3>
+                        {renderContent(blogPost.sec_ten_h3_content_10)}
+                      </>
+                    )}
+                    {blogPost.sec_ten_h3_11 && (
+                      <>
+                        <h3>{blogPost.sec_ten_h3_11}</h3>
+                        {renderContent(blogPost.sec_ten_h3_content_11)}
+                      </>
+                    )}
+                    {blogPost.sec_ten_h3_12 && (
+                      <>
+                        <h3>{blogPost.sec_ten_h3_12}</h3>
+                        {renderContent(blogPost.sec_ten_h3_content_12)}
+                      </>
+                    )}
+                    {blogPost.sec_ten_h3_13 && (
+                      <>
+                        <h3>{blogPost.sec_ten_h3_13}</h3>
+                        {renderContent(blogPost.sec_ten_h3_content_13)}
+                      </>
+                    )}
+                  </div>
+                )}
+                 {/* 11th Section */}
+                {blogPost.sec_eleven_h2 && (
+                  <div className="row">
+                    <h2>{blogPost.sec_eleven_h2}</h2>
+                    {renderContent(blogPost.sec_eleven_h2_p)}
+
+                    {blogPost.sec_eleven_img && (
+                      <div className="col-md-8">
+                        <img src={blogPost.sec_eleven_img} alt="image" />
+                      </div>
+                    )}
+
+                    {blogPost.sec_eleven_h3_1 && (
+                      <>
+                        <h3>{blogPost.sec_eleven_h3_1}</h3>
+                        {renderContent(blogPost.sec_eleven_h3_content_1)}
+                      </>
+                    )}
+
+                     {blogPost.sec_eleven_h3_2 && (
+                      <>
+                        <h3>{blogPost.sec_eleven_h3_2}</h3>
+                        {renderContent(blogPost.sec_eleven_h3_content_2)}
+                      </>
+                    )}
+
+                    {blogPost.sec_eleven_h3_3 && (
+                      <>
+                        <h3>{blogPost.sec_eleven_h3_3}</h3>
+                        {renderContent(blogPost.sec_eleven_h3_content_3)}
+                      </>
+                    )}
+
+                    {blogPost.sec_eleven_h3_4 && (
+                      <>
+                        <h3>{blogPost.sec_eleven_h3_4}</h3>
+                        {renderContent(blogPost.sec_eleven_h3_content_4)}
+                      </>
+                    )}
+
+                    {blogPost.sec_eleven_h3_5 && (
+                      <>
+                        <h3>{blogPost.sec_eleven_h3_5}</h3>
+                        {renderContent(blogPost.sec_eleven_h3_content_5)}
+                      </>
+                    )}
+
+                    {blogPost.sec_eleven_h3_6 && (
+                      <>
+                        <h3>{blogPost.sec_eleven_h3_6}</h3>
+                        {renderContent(blogPost.sec_eleven_h3_content_6)}
+                      </>
+                    )}
+
+                     {blogPost.sec_eleven_h3_7 && (
+                      <>
+                        <h3>{blogPost.sec_eleven_h3_7}</h3>
+                        {renderContent(blogPost.sec_eleven_h3_content_7)}
+                      </>
+                    )}
+                     {blogPost.sec_eleven_h3_8 && (
+                      <>
+                        <h3>{blogPost.sec_eleven_h3_8}</h3>
+                        {renderContent(blogPost.sec_eleven_h3_content_8)}
+                      </>
+                    )}
+                     {blogPost.sec_eleven_h3_9 && (
+                      <>
+                        <h3>{blogPost.sec_eleven_h3_9}</h3>
+                        {renderContent(blogPost.sec_eleven_h3_content_9)}
+                      </>
+                    )}
+                     {blogPost.sec_eleven_h3_10 && (
+                      <>
+                        <h3>{blogPost.sec_eleven_h3_10}</h3>
+                        {renderContent(blogPost.sec_eleven_h3_content_10)}
+                      </>
+                    )}
+                    {blogPost.sec_eleven_h3_11 && (
+                      <>
+                        <h3>{blogPost.sec_eleven_h3_11}</h3>
+                        {renderContent(blogPost.sec_eleven_h3_content_11)}
+                      </>
+                    )}
+                    {blogPost.sec_eleven_h3_12 && (
+                      <>
+                        <h3>{blogPost.sec_eleven_h3_12}</h3>
+                        {renderContent(blogPost.sec_eleven_h3_content_12)}
+                      </>
+                    )}
+                    {blogPost.sec_eleven_h3_13 && (
+                      <>
+                        <h3>{blogPost.sec_eleven_h3_13}</h3>
+                        {renderContent(blogPost.sec_eleven_h3_content_13)}
+                      </>
+                    )}
+                  </div>
+                )}
+                 {/* 12th Section */}
+                {blogPost.sec_tweleve_h2 && (
+                  <div className="row">
+                    <h2>{blogPost.sec_tweleve_h2}</h2>
+                    {renderContent(blogPost.sec_tweleve_h2_p)}
+
+                    {blogPost.sec_tweleve_img && (
+                      <div className="col-md-8">
+                        <img src={blogPost.sec_tweleve_img} alt="image" />
+                      </div>
+                    )}
+
+                    {blogPost.sec_tweleve_h3_1 && (
+                      <>
+                        <h3>{blogPost.sec_tweleve_h3_1}</h3>
+                        {renderContent(blogPost.sec_tweleve_h3_content_1)}
+                      </>
+                    )}
+
+                     {blogPost.sec_tweleve_h3_2 && (
+                      <>
+                        <h3>{blogPost.sec_tweleve_h3_2}</h3>
+                        {renderContent(blogPost.sec_tweleve_h3_content_2)}
+                      </>
+                    )}
+
+                    {blogPost.sec_tweleve_h3_3 && (
+                      <>
+                        <h3>{blogPost.sec_tweleve_h3_3}</h3>
+                        {renderContent(blogPost.sec_tweleve_h3_content_3)}
+                      </>
+                    )}
+
+                    {blogPost.sec_tweleve_h3_4 && (
+                      <>
+                        <h3>{blogPost.sec_tweleve_h3_4}</h3>
+                        {renderContent(blogPost.sec_tweleve_h3_content_4)}
+                      </>
+                    )}
+
+                    {blogPost.sec_tweleve_h3_5 && (
+                      <>
+                        <h3>{blogPost.sec_tweleve_h3_5}</h3>
+                        {renderContent(blogPost.sec_tweleve_h3_content_5)}
+                      </>
+                    )}
+
+                    {blogPost.sec_tweleve_h3_6 && (
+                      <>
+                        <h3>{blogPost.sec_tweleve_h3_6}</h3>
+                        {renderContent(blogPost.sec_tweleve_h3_content_6)}
+                      </>
+                    )}
+
+                     {blogPost.sec_tweleve_h3_7 && (
+                      <>
+                        <h3>{blogPost.sec_tweleve_h3_7}</h3>
+                        {renderContent(blogPost.sec_tweleve_h3_content_7)}
+                      </>
+                    )}
+                     {blogPost.sec_tweleve_h3_8 && (
+                      <>
+                        <h3>{blogPost.sec_tweleve_h3_8}</h3>
+                        {renderContent(blogPost.sec_tweleve_h3_content_8)}
+                      </>
+                    )}
+                     {blogPost.sec_tweleve_h3_9 && (
+                      <>
+                        <h3>{blogPost.sec_tweleve_h3_9}</h3>
+                        {renderContent(blogPost.sec_tweleve_h3_content_9)}
+                      </>
+                    )}
+                     {blogPost.sec_tweleve_h3_10 && (
+                      <>
+                        <h3>{blogPost.sec_tweleve_h3_10}</h3>
+                        {renderContent(blogPost.sec_tweleve_h3_content_10)}
+                      </>
+                    )}
+                    {blogPost.sec_tweleve_h3_11 && (
+                      <>
+                        <h3>{blogPost.sec_tweleve_h3_11}</h3>
+                        {renderContent(blogPost.sec_tweleve_h3_content_11)}
+                      </>
+                    )}
+                    {blogPost.sec_tweleve_h3_12 && (
+                      <>
+                        <h3>{blogPost.sec_tweleve_h3_12}</h3>
+                        {renderContent(blogPost.sec_tweleve_h3_content_12)}
+                      </>
+                    )}
+                    {blogPost.sec_tweleve_h3_13 && (
+                      <>
+                        <h3>{blogPost.sec_tweleve_h3_13}</h3>
+                        {renderContent(blogPost.sec_tweleve_h3_content_13)}
+                      </>
+                    )}
+                  </div>
+                )}
 
                 {/* Example for conclusion section */}
                 {blogPost.sec_concln_h2 && (
@@ -300,6 +1203,60 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                       <>
                         <h3>{blogPost.sec_faq_h3_1}</h3>
                         {renderContent(blogPost.sec_faq_h3_p_1)}
+                      </>
+                    )}
+                    {blogPost.sec_faq_h3_2 && (
+                      <>
+                        <h3>{blogPost.sec_faq_h3_2}</h3>
+                        {renderContent(blogPost.sec_faq_h3_p_2)}
+                      </>
+                    )}
+                    {blogPost.sec_faq_h3_3 && (
+                      <>
+                        <h3>{blogPost.sec_faq_h3_3}</h3>
+                        {renderContent(blogPost.sec_faq_h3_p_3)}
+                      </>
+                    )}
+                    {blogPost.sec_faq_h3_4 && (
+                      <>
+                        <h3>{blogPost.sec_faq_h3_4}</h3>
+                        {renderContent(blogPost.sec_faq_h3_p_4)}
+                      </>
+                    )}
+                    {blogPost.sec_faq_h3_5 && (
+                      <>
+                        <h3>{blogPost.sec_faq_h3_5}</h3>
+                        {renderContent(blogPost.sec_faq_h3_p_5)}
+                      </>
+                    )}
+                    {blogPost.sec_faq_h3_6 && (
+                      <>
+                        <h3>{blogPost.sec_faq_h3_6}</h3>
+                        {renderContent(blogPost.sec_faq_h3_p_6)}
+                      </>
+                    )}
+                    {blogPost.sec_faq_h3_7 && (
+                      <>
+                        <h3>{blogPost.sec_faq_h3_7}</h3>
+                        {renderContent(blogPost.sec_faq_h3_p_7)}
+                      </>
+                    )}
+                    {blogPost.sec_faq_h3_8 && (
+                      <>
+                        <h3>{blogPost.sec_faq_h3_8}</h3>
+                        {renderContent(blogPost.sec_faq_h3_p_8)}
+                      </>
+                    )}
+                    {blogPost.sec_faq_h3_9 && (
+                      <>
+                        <h3>{blogPost.sec_faq_h3_9}</h3>
+                        {renderContent(blogPost.sec_faq_h3_p_9)}
+                      </>
+                    )}
+                    {blogPost.sec_faq_h3_10 && (
+                      <>
+                        <h3>{blogPost.sec_faq_h3_10}</h3>
+                        {renderContent(blogPost.sec_faq_h3_p_10)}
                       </>
                     )}
 
