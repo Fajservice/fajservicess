@@ -5,7 +5,6 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
-import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMaintenance";
 import QuickGuide from "../../../QuickGuide/QuickGuide";
@@ -28,7 +27,7 @@ const AcRepairInLimestoneHouseDifcDetail = ({ subtitle, title, reviewsbg, titleS
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Repair in Limestone House DIFC, Air Conditioning Service in Limestone House DIFC, Air Con Maintenance & AC Installation in Limestone House DIFC");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-limestone-house-difc/").replace(/\/?$/, '/');
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     reviewsbg = "img/testimonialbg.jpg"
@@ -89,7 +88,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
         <>
             <HelmetProvider>
                 <Helmet>
-                     <title>{metatitle}</title>
+                    <title>{metatitle}</title>
                     <meta name="description" content={metadescription}></meta>
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
@@ -110,6 +109,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />
+
             <div className="cs_service_details">
 
                 <section className="section cs_py_30">
@@ -133,10 +133,10 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
                     <div className="container">
                         <div className="row gx-md-5">
                             <div className="col-md-6">
-                                <h3 className="cs_fs_24 mb-1">Best AC Repair in Dubai</h3>
+                                <h2 className="cs_fs_24 mb-1">Best AC Repair in Dubai</h2>
                                 <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> in Limestone House Difc, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> for your home or office.</p>
                                 <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
-                                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h3>
+                                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
                                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                                 <div className="row">
                                     <div className="col-sm-6">
@@ -156,8 +156,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Post Image" />
-
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="AC Repair service in Lime Stone House DIFC" />
                             </div>
                         </div>
 
@@ -176,28 +175,22 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
                 {/* Why is AC Maintenance Service Important in Dubai? */}
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
-                        <h3 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h3>
+                        <h2 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h2>
                         <p>
                             Regular air conditioner (AC) maintenance service in Dubai is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you, contact us.
                         </p>
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Post Image" />
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Ac Services in Limestine House Difc" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">
                                     <li> <strong> Extreme Weather: </strong> Experiences high temperatures over 40°C (104°F) in summer. Regular maintenance keeps air conditioner systems efficient during these conditions.</li>
-
                                     <li> <strong> Energy Efficiency: </strong> A well-maintained AC unit operates more efficiently, using less energy and lowering both electricity bills.</li>
-
                                     <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend your air condition unit’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
                                     <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
                                     <li> <strong> Enhanced Comfort: </strong> Regular <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a> in Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
-
-
-
-
                                 </ul>
                             </div>
                         </div>
@@ -207,7 +200,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
                 {/* Common AC Problems That May Require Maintenance */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h3 className="text-center">Common AC Problems That May Require Maintenance</h3>
+                        <h2 className="text-center">Common AC Problems That May Require Maintenance</h2>
                         <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
                             <div className="col-12 col-md-4 col-lg-3">
@@ -314,7 +307,6 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
                 {/* Why choose us AC */}
                 <ACWhyChooseUs />
 
-
                 {/* We specialise in air conditioning services for the following brands */}
                 <WeSpecialise />
 
@@ -323,7 +315,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
                         <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
                         <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
                         <a
-                            href="files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
+                            href="https://www.fajservices.ae/dist/files/Practical%20Tips%20to%20Improve%20Energy%20Efficiency%20of%20Your%20AC%20Infographic.pdf"
                             className="btn-green-yellow"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -349,7 +341,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
                             <div className="col-lg-4">
                                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                                    <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Post Image" />
+                                    <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Ac Services in Limestine House Difc" />
                                 </div>
                             </div>
                             <div className="col-lg-4">
@@ -366,9 +358,9 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
                     </div>
                 </section>
 
-
                 {/* Maintenance Contract */}
                 <MaintenanceContract />
+
                 {/* testimobial section */}
                 <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}

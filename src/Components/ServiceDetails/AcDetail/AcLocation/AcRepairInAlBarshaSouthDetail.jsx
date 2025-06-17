@@ -196,9 +196,7 @@ const AcRepairInAlBarshaSouthDetail = ({ subtitle, title, reviewsbg, titleSeo, d
               <div className="col-md-6">
                 <ul className="mb-0">
                   <li> <strong> Extreme Weather: </strong> Experiences high temperatures over 40°C (104°F) in summer. Regular maintenance keeps air conditioner systems efficient during these conditions.</li>
-
                   <li> <strong> Energy Efficiency: </strong> A well-maintained AC unit operates more efficiently, using less energy and lowering both electricity bills.</li>
-
                   <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend your air condition unit’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
                   <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
                   <li> <strong> Enhanced Comfort: </strong> Regular <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a> in Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
@@ -329,7 +327,7 @@ const AcRepairInAlBarshaSouthDetail = ({ subtitle, title, reviewsbg, titleSeo, d
             <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
             <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
             <a
-              href="files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
+              href="https://www.fajservices.ae/dist/files/Practical%20Tips%20to%20Improve%20Energy%20Efficiency%20of%20Your%20AC%20Infographic.pdf"
               className="btn-green-yellow"
               target="_blank"
               rel="noopener noreferrer"

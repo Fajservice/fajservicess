@@ -153,7 +153,7 @@ const AcRepairInDubaiSportCityDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Post Image" />
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="AC Repair in Dubai Sports City" />
 
                             </div>
                         </div>
@@ -173,7 +173,7 @@ const AcRepairInDubaiSportCityDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                 {/* AC Price Section */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <FAJACPrice></FAJACPrice>                       
+                        <FAJACPrice></FAJACPrice>
                     </div>
                 </section>
 
@@ -187,7 +187,7 @@ const AcRepairInDubaiSportCityDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Post Image" />
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Air Conditioning Service in Dubai Sports City" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">
@@ -327,7 +327,7 @@ const AcRepairInDubaiSportCityDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                         <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
                         <p>Learn easy and proven ways to save energy with your AC. Find tips to cut the cost and stay cool all summers!</p>
                         <a
-                            href="files/Practical Tips to Improve Energy Efficiency of Your AC Infographic.pdf"
+                            href="https://www.fajservices.ae/dist/files/Practical%20Tips%20to%20Improve%20Energy%20Efficiency%20of%20Your%20AC%20Infographic.pdf"
                             className="btn-green-yellow"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -353,7 +353,7 @@ const AcRepairInDubaiSportCityDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                             <div className="col-lg-4">
                                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                                    <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Post Image" />
+                                    <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Air Con Maintenance & AC Installation in Dubai Sports City" />
                                 </div>
                             </div>
                             <div className="col-lg-4">

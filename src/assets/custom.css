@@ -927,6 +927,7 @@ max-height: 117px !important;
 	position: fixed;
     bottom: 60px;
     right: 10px!important;
+    z-index: 9999;
 }
 .floating-menu .flt-ul-icon{
 	margin: 0px;
@@ -972,9 +973,12 @@ max-height: 117px !important;
 	color: #fff;
 }
 @media (max-width:991px){
-	.floating-menu{
+	.floating-menu ul.flt-ul-icon{
 		display: none;
 	}
+  div#ai-handset-widget {
+      bottom: 55px !important;
+  }
 }
 /*Mobile CTA Button*/
 @media (min-width:991px){
