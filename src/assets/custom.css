@@ -9,7 +9,6 @@
   --sky-blue-font: #76DCEB;
 
 }
-
 /* OVERRIDE CONTAINER for fix content and width */
 @media (min-width: 1400px) {
   .container {
