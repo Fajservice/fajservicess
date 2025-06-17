@@ -6,7 +6,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 const Services3 = ({titleSeo, description, Author, Keyword, URL }) => {
     // For SEO
     const metatitle = String(titleSeo || "FAJ appliances Repair In Dubai");
-    const metadescription = String(description || "FAJ Established in 2010 is a leading provider of home appliance repair services in Dubai. Our team of skilled technicians is dedicated to delivering high-quality repairs for all major brands and types of appliances, ensuring your home runs smoothly.");
+    const metadescription = String(description || "FAJ, established in 2010, offers expert appliances repair in Dubai. Skilled technicians ensure quality service for all major brands and types.");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "FAJ");
@@ -52,9 +52,9 @@ const Services3 = ({titleSeo, description, Author, Keyword, URL }) => {
                   <div className="cs_card_icon cs_center cs_heading_bg cs_mb_22">
                   <img src={`${import.meta.env.BASE_URL}${item.icon}`} alt="Service Icon" />
                   </div>
-                  <h3 className="cs_card_title cs_fs_24 cs_mb_8">
+                  <h1 className="cs_card_title cs_fs_24 cs_mb_8">
                   <Link to={item.btnLink}>{item.title}</Link>
-                  </h3>
+                  </h1>
                   <p className="cs_card_subtitle cs_mb_18">{item.desc}</p>
                   <Link to={item.btnLink} className="cs_text_btn cs_style_1 cs_bold cs_heading_color">
                     <span className="cs_btn_text text-uppercase">{item.btnText}</span>

@@ -1,31 +1,25 @@
 
 
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../../Data/DubaiData/FAQs/NearMeFaqs.json';
 
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
-import CallNowButton from '../../Buttons/CallNowButton';
-import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
 import testimonial_data from '../../../Data/DubaiData/Testmonials/NearMeTestimonial.json';
-import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
-import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
-
-// import { Link } from "react-router-dom";
 
 const NearMeDetail = ({ subtitle, title, bgImg }) => {
 
   // For SEO
-  const titleSeo = "Near Me";
-  const description = "Faj Technical Servcies";
+  const titleSeo = "Home & Commercial Appliance Repair Near Me – Dubai";
+  const description = "Find trusted home & commercial appliance repair near you in Dubai. FAJ, serving since 2010, delivers reliable service for all major appliance brands.";
   const Author = "Faj Technical Servcies";
   const Keyword = "";
   const URL = "https://www.fajservices.ae/";
@@ -87,39 +81,6 @@ const NearMeDetail = ({ subtitle, title, bgImg }) => {
       }
     ]
   };
-
-  const settingBrands = {
-    dots: false,
-    infinite: true,
-    slidesToShow: 6,
-    arrows: false,
-
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-    // cssEase: 'linear',
-
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 6,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 4,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-        }
-      }
-    ]
-  };
-
 
   return (
     <>
