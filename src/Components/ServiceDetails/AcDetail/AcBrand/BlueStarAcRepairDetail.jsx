@@ -18,7 +18,7 @@ const BlueStarAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
   // For SEO
   const metatitle = String(titleSeo || "BlueStar AC Repair in Dubai - BlueStar Air Conditioner Service Near");
-  const metadescription = String(description || "BlueStar #1 Brand in UAE. Call us at 043300002 for BlueStar AC Repair in Dubai, We are experts in HVAC & Central Air Conditioner Maintenance Service near by you.");
+  const metadescription = String(description || "Best Blue Star AC Repair in Dubai. We are experts in all window and split air conditioner maintenance and ac cleaning service near you. Book 043300002");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Bluestar AC Repair in Dubai, BlueStar Air Conditioner Service, BlueStar AC Maintenance, BlueStar AC Installation, BlueStar AC Cleaning Service, BlueStar Air Conditioner Repair Near Me");
   const metaURL = String(URL || "https://www.fajservices.ae/blue-star-ac-repair-in-dubai-blue-star-ac-maintenance-in-dubai-blue-star-ac-fix-in-dubai-blue-star-ac-service-in-dubai-blue-star-air-condition-repair-in-dubai-blue-star-air-condition-maintenance-in-du/").replace(/\/?$/, '/');
