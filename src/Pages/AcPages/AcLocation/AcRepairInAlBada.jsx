@@ -1,6 +1,6 @@
 import BreadCumb from "../../../Components/Common/BreadCumb";
-import AcRepairInAlBadaaDetail from '../../../Components/ServiceDetails/AcDetail/AcLocation/AcRepairInAlBadaaDetail';
-const AcRepairInAlBadaa = () => {
+import AcRepairInAlBadaDetail from "../../../Components/ServiceDetails/AcDetail/AcLocation/AcRepairInAlBadaDetail";
+const AcRepairInAlBada = () => {
   return (
     <div className="serviceDetails">
       <BreadCumb
@@ -8,9 +8,9 @@ const AcRepairInAlBadaa = () => {
         mobileBgImg="img/banners/ac-banner-mobile-faj.avif"
         Title="AC Service in Al Badaa"
       ></BreadCumb>
-      <AcRepairInAlBadaaDetail />
+      <AcRepairInAlBadaDetail />
     </div>
   )
 }
 
-export default AcRepairInAlBadaa
+export default AcRepairInAlBada

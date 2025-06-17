@@ -169,7 +169,6 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
-          <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />
@@ -320,48 +319,41 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                 <div className="cs_post_socials">
                   <h3 className="cs_fs_24">Share:</h3>
                   <div className="cs_social_btns cs_style_1">
-                    {/* Facebook */}
+                    <a
+                      href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="cs_center cs_radius_50"
+                    >
+                      <i className="bi bi-facebook"></i>
+                    </a>
 
-                    <div className="cs_post_socials">
-                      <h3 className="cs_fs_24">Share:</h3>
-                      <div className="cs_social_btns cs_style_1">
-                        <a
-                          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="cs_center cs_radius_50"
-                        >
-                          <i className="bi bi-facebook"></i>
-                        </a>
+                    <a
+                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(blogPost?.sec_one_h2 || '')}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="cs_center cs_radius_50"
+                    >
+                      <i className="bi bi-twitter"></i>
+                    </a>
 
-                        <a
-                          href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(blogPost?.sec_one_h2 || '')}`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="cs_center cs_radius_50"
-                        >
-                          <i className="bi bi-twitter"></i>
-                        </a>
+                    <a
+                      href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="cs_center cs_radius_50"
+                    >
+                      <i className="bi bi-linkedin"></i>
+                    </a>
 
-                        <a
-                          href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="cs_center cs_radius_50"
-                        >
-                          <i className="bi bi-linkedin"></i>
-                        </a>
-
-                        <a
-                          href={`https://api.whatsapp.com/send?phone=+971507464712&text=${encodeURIComponent(message)}`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="cs_center cs_radius_50"
-                        >
-                          <i className="bi bi-whatsapp"></i>
-                        </a>
-                      </div>
-                    </div>
+                    <a
+                      href={`https://api.whatsapp.com/send?phone=+971507464712&text=${encodeURIComponent(message)}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="cs_center cs_radius_50"
+                    >
+                      <i className="bi bi-whatsapp"></i>
+                    </a>
                   </div>
                 </div>
               </div>

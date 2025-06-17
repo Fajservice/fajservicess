@@ -5,7 +5,8 @@ const SubZeroFridgeRepair = () => {
   return (
     <div className="serviceDetails">
     <BreadCumb
-        bgImg="img/banners/homeappliancesbrands/Subzero-fridge-repair.avif"
+        bgImg="img/banners/homeappliancesbrands/desktop/Subzero-fridge-repair.avif"
+        mobileBgImg="img/banners/homeappliancesbrands/mobile/Subzero-fridge-repair-mobile.avif"
         Title="Sub Zero AC Repair in Dubai - Emergency AC Service Near Me"
     ></BreadCumb>
 

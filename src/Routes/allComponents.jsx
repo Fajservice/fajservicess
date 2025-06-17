@@ -87,6 +87,7 @@ export { default as AcRepairInAlKhawaneej } from "../Pages/AcPages/AcLocation/Ac
 export { default as AcRepairInAlManara } from "../Pages/AcPages/AcLocation/AcRepairInAlManara.jsx";
 export { default as AcRepairInLayanCommunity } from "../Pages/AcPages/AcLocation/AcRepairInLayanCommunity.jsx";
 export { default as AcRepairInAlBadaa } from "../Pages/AcPages/AcLocation/AcRepairInAlBadaa.jsx";
+export { default as AcRepairInAlBada } from "../Pages/AcPages/AcLocation/AcRepairInAlBada.jsx";
 export { default as AcRepairinAlTawar } from "../Pages/AcPages/AcLocation/AcRepairinAlTawar.jsx";
 export { default as AcRepairInJumeirahLakeTowers } from "../Pages/AcPages/AcLocation/AcRepairInJumeirahLakeTowers.jsx";
 export { default as RheemAcRepair } from "../Pages/AcPages/AcBrand/RheemAcRepair.jsx";
