@@ -143,7 +143,7 @@ const ApplianceServiceInDeiraDetail = ({ subtitle, title, reviewsbg, titleSeo, d
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h2 className="cs_fs_30">Home Appliance Service in Deira</h2>
+                        <h1 className="cs_fs_30">Home Appliance Service in Deira</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>

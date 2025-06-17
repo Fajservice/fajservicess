@@ -116,7 +116,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         <>
             <HelmetProvider>
                 <Helmet>
-                    <title></title>
+                    <title>{metatitle}</title>
                     <meta name="description" content={metadescription}></meta>
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />

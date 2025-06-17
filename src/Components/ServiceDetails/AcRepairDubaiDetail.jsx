@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../Data/AcData/AcFaqs/AcRepairFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
@@ -240,7 +240,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      This usually happens after a leak. Your compressor and the rest of your AC system can't run without refrigerant.
+                      This usually happens after a leak. Your compressor and the rest of your AC system can&apos;t run without refrigerant.
 
                     </p>
                   </div>
@@ -398,7 +398,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descriptio
           <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
           <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
             <b>We provide 2-month service warranty</b><br />
-            and <small>3-month parts warranty</small> as standard.</p>
+            and <small>3-month parts warranty</small>as standard.</p>
           <h3>We specialise in air conditioning services for the following brands</h3>
           <div className="row">
             <div className="col-12">

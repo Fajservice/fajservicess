@@ -1,6 +1,5 @@
 import Blog1 from "../Components/Blog/Blog1";
 import BreadCumb from "../Components/Common/BreadCumb";
-import { Helmet, HelmetProvider } from "react-helmet-async";
 
 const BlogPage = () => {
     return (

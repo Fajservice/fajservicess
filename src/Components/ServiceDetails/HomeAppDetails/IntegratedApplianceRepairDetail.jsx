@@ -1,7 +1,7 @@
 
 
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../../Data/HomeAppData/FAQs/IntegratedAppliancesRepairServiceFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
@@ -179,7 +179,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/oven-repa
 
                 <p className="mb-2">
                   If you need integrated appliance repair, we’ve got you covered! Choose FAJ for fast and affordable service.
-                  Whether your built-in washing machine won&apos;t drain, your fridge isn't working, your oven isn't heating, or your dishwasher won&apos;t turn on, our expert repair team in Dubai and Sharjah is ready to assist you. We are in your area and can quickly resolve any issues you may have.
+                  Whether your built-in washing machine won&apos;t drain, your fridge isn&apos;t working, your oven isn&apos;t heating, or your dishwasher won&apos;t turn on, our expert repair team in Dubai and Sharjah is ready to assist you. We are in your area and can quickly resolve any issues you may have.
                 </p>
 
 

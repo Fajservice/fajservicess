@@ -1,14 +1,11 @@
-import { useEffect, useRef, useState } from "react";
+// import { useEffect, useRef, useState } from "react";
 import {Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
-import WhatsappIconButton from "../Buttons/WhatsappIconButton";
-import loadBackgroudImages from "../Common/loadBackgroudImages";
+// import loadBackgroudImages from "../Common/loadBackgroudImages";
 import HeaderForm from "../Headeform/HeaderForm";
 
 
-import { Link } from "react-router-dom";
-
-const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, Author, Keyword, URL }) => {
+const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Our Portfolio | AC Repair | Appliances Service Center Dubai");
   const metadescription = String(description || "F A J Technical Services L.L.C, established in 2010, offers supply, installation, and spare parts for air conditioning and refrigeration appliances in Dubai.");
@@ -16,30 +13,30 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
   const metaKeyword = String(Keyword || "FAJ Technical Service LLC Portfolio");
   const metaURL = String(URL || "https://www.fajservices.ae/our-portfolio/").replace(/\/?$/, '/');
 
-  subtitle = "Testimonial"
-  title = "What our clients say About Us"
-  reviewsbg = "img/testimonialbg.jpg"
-  const accordionContentRef = useRef(null);
-  const [openItemIndex, setOpenItemIndex] = useState(-1);
-  const [firstItemOpen, setFirstItemOpen] = useState(true);
+  // subtitle = "Testimonial"
+  // title = "What our clients say About Us"
+  // reviewsbg = "img/testimonialbg.jpg"
+  // const accordionContentRef = useRef(null);
+  // const [openItemIndex, setOpenItemIndex] = useState(-1);
+  // const [firstItemOpen, setFirstItemOpen] = useState(true);
 
-  const handleItemClick = index => {
-    if (index === openItemIndex) {
-      setOpenItemIndex(-1);
-    } else {
-      setOpenItemIndex(index);
-    }
-  };
-  useEffect(() => {
-    if (firstItemOpen) {
-      setOpenItemIndex(0);
-      setFirstItemOpen(false);
-    }
-  }, [firstItemOpen]);
+  // const handleItemClick = index => {
+  //   if (index === openItemIndex) {
+  //     setOpenItemIndex(-1);
+  //   } else {
+  //     setOpenItemIndex(index);
+  //   }
+  // };
+  // useEffect(() => {
+  //   if (firstItemOpen) {
+  //     setOpenItemIndex(0);
+  //     setFirstItemOpen(false);
+  //   }
+  // }, [firstItemOpen]);
 
-  useEffect(() => {
-    loadBackgroudImages();
-  }, []);
+  // useEffect(() => {
+  //   loadBackgroudImages();
+  // }, []);
 
   return (
     <>
@@ -69,7 +66,7 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
 
         <section className="section cs_py_30">
           <div className="container">
-            <p>At F A J Technical Services L.L.C, we are dedicated to providing comprehensive technical services, including installation, maintenance, and MEP services that enhance operational efficiency and sustainability. Our commitment to innovation and customer satisfaction aligns with your needs.</p>
+            <p>At F A J Technical Services L.L.C, we are dedicated to providing comprehensive technical services, including installation, maintenance, and MEP services that enhance operational efficiency and sustainability. Our commitment to innovation and customer satisfaction aligns with your needs.</p>
           </div>
         </section>
 
@@ -80,12 +77,12 @@ const PortfolioDetail = ({ subtitle, title, reviewsbg, titleSeo , description, A
               <div className="row">
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/NTDE.png" />
+                    <img  src="/dist/img/portfolio-clients/NTDE.png" alt="portfolio" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/Belhasa-real-estate.jpeg" />
+                    <img src="/dist/img/portfolio-clients/Belhasa-real-estate.jpeg" alt="Belhasa-real-estate" />
                   </div>
                 </div>
                 <div className="col p-0">

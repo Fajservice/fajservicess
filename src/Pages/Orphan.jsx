@@ -2,8 +2,8 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 
 const Orphan = ({titleSeo, description, Author, Keyword, URL }) => {
     // For SEO
-    const metatitle = String(titleSeo || "FAJ / AC Repair In Dubai");
-    const metadescription = String(description || "FAJ Established in 2010");
+    const metatitle = String(titleSeo || "Trusted Home & Commercial Appliance Repair in Dubai");
+    const metadescription = String(description || "FAJ, founded in 2010, provides expert home & commercial appliances repair in Dubai. Skilled technicians service all major brands with reliable results.");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "FAJ");
@@ -44,7 +44,7 @@ const Orphan = ({titleSeo, description, Author, Keyword, URL }) => {
             <section>
                 <div className="container my-5">
                     <h1 className="cs_fs_30">Services</h1>
-                    <div class="row">
+                    <div className="row">
                         <ul>
                             <li><a href="https://www.fajservices.ae/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Daewoo Home Appliance Repair Service In Dubai</a></li>
                             <li><a href="https://www.fajservices.ae/electrolux-fridge-repair-in-dubai-electrolux-washing-machine-repair-in-dubai-electrolux-cooker-repair-in-dubai-electrolux-oven-repair-in-dubai-electrolux-appliances-maintenance-in-dubai-electrolux-ref/">Electrolux Fridge Repair In Dubai - Washing Machine</a></li>

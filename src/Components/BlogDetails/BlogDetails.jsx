@@ -184,7 +184,7 @@ const renderParagraphWithLinks = (paragraph) => {
                     <span className="cs_heading_color">{blogPost.admin}</span>
                   </div>
                 </div>
-                <h2>{blogPost.title}</h2>
+                <h1>{blogPost.title}</h1>
                 {renderContent(blogPost.content)}
 
                 {/* 2nd Section */}
