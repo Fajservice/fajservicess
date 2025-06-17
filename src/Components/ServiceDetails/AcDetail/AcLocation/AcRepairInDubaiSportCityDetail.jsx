@@ -20,8 +20,8 @@ import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 const AcRepairInDubaiSportCityDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Services in Dubai Sports City - Fridge Repair");
-    const metadescription = String(description || "We offer best appliance services in Dubai Sports City. Get fridge repair near me. Book 043300002 for oven, dishwasher, washing machine maintenance");
+    const metatitle = String(titleSeo || "AC Services In Dubai Sport City - Air Conditioning Repairs");
+    const metadescription = String(description || "Call 043300002 AC Services in Dubai Sport City. We are experts in air conditioning repairing and maintenance near me Dubai AC fix Air Con repairs");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "ac repair in dubai sport city, ac service in dubai sport city, ac maintenance in dubai sport city, ac technician in dubai sport city, ac cleaning in dubai sport city, ac installation in dubai sport city, ac gas refilling in dubai sport city, ac repair near me, ac service near me, ac maintenance near me");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-dubai-sport-city/").replace(/\/?$/, '/');

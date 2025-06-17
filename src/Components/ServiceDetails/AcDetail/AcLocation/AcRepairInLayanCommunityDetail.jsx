@@ -21,8 +21,8 @@ import WeSpecialise from "./WeSpecialise/WeSpecialise";
 const AcRepairInLayanCommunityDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Expert AC Repair in Al Qusais - Get Central AC Service");
-    const metadescription = String(description || "Best AC services in Layan community, Dubai. We are experts in central, HVAC air conditioning repairs and maintenance near Dubai. Call 043300002");
+    const metatitle = String(titleSeo || "AC Services In Layan Community - Central AC Repairs #1");
+    const metadescription = String(description || "043300002 FAJ AC Services in Layan community Dubai. We are experts in central, hvac air condition repairs and maintenance nearby Dubai AC fix");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "ac repair al qusais, ac service al qusais, ac maintenance al qusais, ac installation al qusais, central ac service al qusais, split ac service al qusais, air conditioning repair al qusais, air conditioning service al qusais, air conditioning maintenance al qusais");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-layan-community/").replace(/\/?$/, '/');

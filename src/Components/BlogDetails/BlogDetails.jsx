@@ -9,7 +9,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  // Memoize share URL and blog title to prevent recalculation
+
   const shareUrl = useMemo(() => 
     blogPost ? `${window.location.origin}/blog/${slug}` : '', 
     [blogPost, slug]
@@ -32,7 +32,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
       if (post) {
         setBlogPost(post);
       } else {
-        // Better fallback handling
+
         if (data && data.length > 0) {
           setBlogPost(data[0]);
         } else {
@@ -47,7 +47,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
     }
   }, [slug]);
 
-  // Fixed regex function with better error handling
+
   const renderParagraphWithLinks = (paragraph) => {
     if (!paragraph || typeof paragraph !== 'string') return paragraph;
     
@@ -67,12 +67,12 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
         }
 
         if (linkUrl && linkText) {
-          // Check if it's a full URL (http/https) or starts with domain
+
           const isFullUrl = linkUrl.startsWith('http://') || linkUrl.startsWith('https://') || linkUrl.startsWith('www.');
           const isAbsolutePath = linkUrl.startsWith('/');
           
           if (isFullUrl) {
-            // Handle full URLs - ensure they use HTTPS
+
             let finalUrl = linkUrl;
             if (linkUrl.startsWith('http://')) {
               finalUrl = linkUrl.replace('http://', 'https://');
@@ -86,7 +86,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
               </a>
             );
           } else if (isAbsolutePath) {
-            // Handle absolute paths - convert to full HTTPS URLs
+
             const fullUrl = `https://www.fajservices.ae${linkUrl}`;
             parts.push(
               <a key={`link-${key++}`} href={fullUrl} target="_blank" rel="noopener noreferrer">
@@ -94,7 +94,6 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
               </a>
             );
           } else {
-            // Handle relative paths with React Router
             parts.push(
               <Link key={`router-link-${key++}`} to={linkUrl}>
                 {linkText}
@@ -108,18 +107,17 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
         lastIndex = match.index + fullMatch.length;
       }
 
-      // Push remaining text after last match
       if (lastIndex < paragraph.length) {
         parts.push(paragraph.slice(lastIndex));
       }
 
-      // Reset regex lastIndex for next use
+
       tagRegex.lastIndex = 0;
 
       return parts.length > 0 ? <>{parts}</> : paragraph;
     } catch (err) {
       console.error("Error parsing paragraph links:", err);
-      return paragraph; // Return original text if parsing fails
+      return paragraph; 
     }
   };
 
@@ -178,7 +176,6 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
     }
   };
 
-  // Helper function to render sections dynamically (reduces code duplication)
   const renderSection = (sectionName) => {
     const h2Key = `${sectionName}_h2`;
     const h2PKey = `${sectionName}_h2_p`;

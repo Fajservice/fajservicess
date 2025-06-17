@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInDip.json';
 import { HelmetProvider, Helmet } from "react-helmet-async";
 
@@ -22,8 +22,8 @@ import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 const AcRepairInAlBarshaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Appliances Services In Al Barsha - Washing Machine Repair");
-    const metadescription = String(description || "Get appliance services in Al Barsha. FAJ experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher, oven");
+    const metatitle = String(titleSeo || "AC Services In Al Barsha South - O General AC Repair Service");
+    const metadescription = String(description || "043300002 FAJ AC Services in Al Barsha South Dubai. We are experts in central & split air condition maintenance & repairing near me Dubai AC fix");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Service in Al Barsha, AC Repair in Al Barsha, Air Conditioning Service in Al Barsha, Air Conditioner Repair in Al Barsha, AC Maintenance in Al Barsha, Air Conditioning Maintenance in Al Barsha, AC Installation in Al Barsha, Air Conditioner Installation in Al Barsha, AC Cleaning in Al Barsha, Air Conditioner Cleaning in Al Barsha");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-repair-in-al-barsha-air-condition-maintenance-in-al-barsha-air-conditioning-fix-amc-service-in-al-barsha-dubai/").replace(/\/?$/, '/');
