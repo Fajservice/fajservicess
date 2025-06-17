@@ -173,7 +173,7 @@ const AcRepairandServiceInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, t
                         </div>
                     </div>
                 </section>
-                
+
                 {/* AC Price Section */}
                 <section className="section cs_py_30">
                     <div className="container">
@@ -191,7 +191,7 @@ const AcRepairandServiceInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, t
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="AC Service in Emirates Hills" loading="lazy" />
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Air Conditioning Service in Emirates Hills" loading="lazy" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">
@@ -354,7 +354,7 @@ const AcRepairandServiceInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, t
                             <div className="col-lg-4">
                                 <div className="acsvs-sec-prefoot-sec-ctwo">
 
-                                    <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Post Image" />
+                                    <img className="" src={`${import.meta.env.BASE_URL}img/benafit-acimg.jpg`} alt="Air Con Maintenance & AC Installation in Emirates Hills" />
                                 </div>
                             </div>
                             <div className="col-lg-4">
