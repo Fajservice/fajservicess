@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../Data/AcData/AcFaqs/AcServiceInDubaiFaqs.json';
 import {Helmet, HelmetProvider } from "react-helmet-async";
 
@@ -16,7 +16,6 @@ import testimonial from '../../Data/AcData/AcTestimonial/AcServiceTestimonials.j
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../Headeform/HeaderForm";
-import WeSpecialise from "./AcDetail/AcLocation/WeSpecialise/WeSpecialise";
 import Practicaltip from "../Common/Practicaltip";
 import AcProperties from "../Common/AcProperties";
 import FAJACPrice from "../Miscellaneous/FAJACPrice";
@@ -208,9 +207,6 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                   <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
                   <li> <strong> Enhanced Comfort: </strong> Regular <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a> in Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
 
-
-
-
                 </ul>
               </div>
             </div>
@@ -335,7 +331,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
           <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
             <b>We provide 2-month service warranty</b><br />
-            and <small>3-month parts warranty</small> as standard.</p>
+            and <small>3-month parts warranty</small>as standard.</p>
           <h3>We specialise in air conditioning services for the following brands</h3>
           <div className="row">
             <div className="col-12">

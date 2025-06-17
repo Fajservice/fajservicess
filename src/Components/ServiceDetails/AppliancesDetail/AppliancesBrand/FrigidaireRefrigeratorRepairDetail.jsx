@@ -3,13 +3,8 @@ import { Link } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/FrididaireAcRepairfaq.json';
 
 import { Helmet, HelmetProvider } from "react-helmet-async";
-
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
-import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
-import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMaintenance";
-import QuickGuide from "../../../QuickGuide/QuickGuide";
-import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 import testimonial_data from '../../../../Data/AcData/AcTestimonialFrigidaireAcServiceTestimonials.json';
 import parse from 'html-react-parser';
@@ -21,7 +16,7 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
 
   // For SEO
   const metatitle = String(titleSeo || "Frigidaire Refrigerator Repair");
-  const metadescription = String(description || "Frigidaire Refrigerator Repair Services in dubai");
+  const metadescription = String(description || "Get same day Frigidaire refrigerator repair in Dubai. Dail 043300002 for washing machine, fridge, oven, cooker, dishwasher maintenance service ");
   const metaAuthor = String(Author || "Faj Technical Services");
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Frigidaire Refrigerator Repair, Frigidaire Fridge Repair, Frigidaire Washing Machine Repair, Frigidaire Dishwasher Repair, Frigidaire Cooker Repair, Frigidaire Oven Repair, Frigidaire Appliance Service Dubai");

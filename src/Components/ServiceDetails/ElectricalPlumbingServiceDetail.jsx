@@ -1,7 +1,7 @@
 
 
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../Data/ElectricalPlumbingServiceFAQs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
@@ -23,7 +23,7 @@ const ElectricalPlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo,
  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/banners/electrical-service.jpg");
   
   const metatitle = String(titleSeo || "Electrical Plumbung Services in dubai");
-  const metadescription = String(description || "dubai");
+  const metadescription = String(description || "Get fast electrical plumbing service in Dubai. We have expert electricians, plumbers near me. Electrical services in office, villa, and apartment. 043300002");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Electrical Plumbing Services, Dubai, Faj Technical Services, Plumbing, Electrical Services, Home Maintenance");
   const metaURL = String(URL || "https://www.fajservices.ae/electrical-plumbing-service/").replace(/\/?$/, '/');
@@ -86,39 +86,6 @@ const ElectricalPlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo,
       }
     ]
   };
-
-  const settingBrands = {
-    dots: false,
-    infinite: true,
-    slidesToShow: 6,
-    arrows: false,
-
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-    // cssEase: 'linear',
-
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 6,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 4,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-        }
-      }
-    ]
-  };
-
 
   return (
     <>

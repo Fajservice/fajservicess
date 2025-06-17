@@ -394,7 +394,7 @@ const BookingFormModal = ({ isOpen, onClose }) => {
               ref={recaptchaRef}
               sitekey="6Lc3iU4rAAAAAA0jw06XlEnCQsXoc_vxT8piZLLX"
               size="invisible"
-              badge="bottomright"
+              badge="bottomleft"
               onChange={onReCAPTCHAChange}
             />
 

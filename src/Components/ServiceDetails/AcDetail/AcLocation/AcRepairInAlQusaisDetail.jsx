@@ -22,7 +22,7 @@ const AcRepairInAlQusaisDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
     // For SEO
     const metatitle = String(titleSeo || "Expert AC Repair in Al Qusais - Get Central AC Service");
-    const metadescription = String(description || "Get top-notch AC repair in Al Qusais with experts. We offer cost-effective solutions for all your HVAC, split & central air conditioner Dubai 043300002ac-repair-al-qusais");
+    const metadescription = String(description || "Get top-notch AC repair in Al Qusais with experts. We offer cost-effective solutions for all your HVAC, split & central air conditioner Dubai 043300002");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Repair in Al Qusais,, Air Conditioning Service in Al Qusais, Air Con Maintenance & AC Installation in Al Qusais");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-repair-al-qusais/").replace(/\/?$/, '/');

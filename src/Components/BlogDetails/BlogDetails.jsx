@@ -1,94 +1,127 @@
 import { Link, useParams } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 import data from "../../Data/blog.json";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
 const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
-
   const { slug } = useParams();
   const [blogPost, setBlogPost] = useState(null);
-  const shareUrl = `${window.location.origin}/blog/${slug}`;
-  const blogTitle = blogPost?.sec_one_h2 || "";
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
-  const message = `Hello FAJ Services! Check this out: ${blogTitle} - ${shareUrl}`;
+  // Memoize share URL and blog title to prevent recalculation
+  const shareUrl = useMemo(() => 
+    blogPost ? `${window.location.origin}/blog/${slug}` : '', 
+    [blogPost, slug]
+  );
+  
+  const blogTitle = useMemo(() => 
+    blogPost?.sec_one_h2 || '', 
+    [blogPost]
+  );
+
+  const message = useMemo(() => 
+    `Hello FAJ Services! Check this out: ${blogTitle} - ${shareUrl}`,
+    [blogTitle, shareUrl]
+  );
+
   useEffect(() => {
-
-    const post = data.find(item => item.slug === slug);
-
-    if (post) {
-      setBlogPost(post);
-    } else {
-
-      setBlogPost(data[0]);
+    try {
+      const post = data.find(item => item.slug === slug);
+      
+      if (post) {
+        setBlogPost(post);
+      } else {
+        // Better fallback handling
+        if (data && data.length > 0) {
+          setBlogPost(data[0]);
+        } else {
+          setError("No blog posts available");
+        }
+      }
+    } catch (err) {
+      setError("Failed to load blog post");
+      console.error("Error loading blog post:", err);
+    } finally {
+      setLoading(false);
     }
   }, [slug]);
 
+  // Fixed regex function with better error handling
   const renderParagraphWithLinks = (paragraph) => {
+    if (!paragraph || typeof paragraph !== 'string') return paragraph;
+    
+    const parts = [];
+    const tagRegex = /<Link url="(.*?)">(.*?)<\/Link>|<b>(.*?)<\/b>/g;
+    let lastIndex = 0;
+    let key = 0;
+    let match;
 
-    if (typeof paragraph === 'string' && paragraph.includes('<Link url="')) {
-      try {
-        const linkStartIndex = paragraph.indexOf('<Link url="');
-        const urlStartIndex = linkStartIndex + '<Link url="'.length;
-        const urlEndIndex = paragraph.indexOf('">', urlStartIndex);
-        const url = paragraph.substring(urlStartIndex, urlEndIndex);
+    try {
+      while ((match = tagRegex.exec(paragraph)) !== null) {
+        const [fullMatch, linkUrl, linkText, boldText] = match;
 
-        const linkTextStartIndex = urlEndIndex + 2; // Skip the ">
-        const linkTextEndIndex = paragraph.indexOf('</Link>', linkTextStartIndex);
-        const linkText = paragraph.substring(linkTextStartIndex, linkTextEndIndex);
-
-        const beforeLinkText = paragraph.substring(0, linkStartIndex);
-        const afterLinkText = paragraph.substring(linkTextEndIndex + '</Link>'.length);
-
-
-        if (url.startsWith('http://') || url.startsWith('https://')) {
-          return (
-            <>
-              {beforeLinkText}
-              <Link to={url} target="_blank" rel="noopener noreferrer">{linkText}</Link>
-              {afterLinkText}
-            </>
-          );
-        } else {
-
-          return (
-            <>
-              {beforeLinkText}
-              <Link to={url}>{linkText}</Link>
-              {afterLinkText}
-            </>
-          );
+        // Push text before match
+        if (match.index > lastIndex) {
+          parts.push(paragraph.slice(lastIndex, match.index));
         }
-      } catch (e) {
-        console.error("Error parsing link with URL:", e);
-        return paragraph;
+
+        if (linkUrl && linkText) {
+          // Check if it's a full URL (http/https) or starts with domain
+          const isFullUrl = linkUrl.startsWith('http://') || linkUrl.startsWith('https://') || linkUrl.startsWith('www.');
+          const isAbsolutePath = linkUrl.startsWith('/');
+          
+          if (isFullUrl) {
+            // Handle full URLs - ensure they use HTTPS
+            let finalUrl = linkUrl;
+            if (linkUrl.startsWith('http://')) {
+              finalUrl = linkUrl.replace('http://', 'https://');
+            } else if (linkUrl.startsWith('www.')) {
+              finalUrl = 'https://' + linkUrl;
+            }
+            
+            parts.push(
+              <a key={`link-${key++}`} href={finalUrl} target="_blank" rel="noopener noreferrer">
+                {linkText}
+              </a>
+            );
+          } else if (isAbsolutePath) {
+            // Handle absolute paths - convert to full HTTPS URLs
+            const fullUrl = `https://www.fajservices.ae${linkUrl}`;
+            parts.push(
+              <a key={`link-${key++}`} href={fullUrl} target="_blank" rel="noopener noreferrer">
+                {linkText}
+              </a>
+            );
+          } else {
+            // Handle relative paths with React Router
+            parts.push(
+              <Link key={`router-link-${key++}`} to={linkUrl}>
+                {linkText}
+              </Link>
+            );
+          }
+        } else if (boldText) {
+          parts.push(<b key={`bold-${key++}`}>{boldText}</b>);
+        }
+
+        lastIndex = match.index + fullMatch.length;
       }
+
+      // Push remaining text after last match
+      if (lastIndex < paragraph.length) {
+        parts.push(paragraph.slice(lastIndex));
+      }
+
+      // Reset regex lastIndex for next use
+      tagRegex.lastIndex = 0;
+
+      return parts.length > 0 ? <>{parts}</> : paragraph;
+    } catch (err) {
+      console.error("Error parsing paragraph links:", err);
+      return paragraph; // Return original text if parsing fails
     }
-
-    // Check if paragraph has simple <Link> tags (for internal blog links)
-    if (typeof paragraph === 'string' && paragraph.includes('<Link>')) {
-      // Split the content by the opening tag
-      const parts = paragraph.split('<Link>');
-      const beforeLink = parts[0];
-      // Split the remaining content by the closing tag
-      const linkParts = parts[1].split('</Link>');
-      const linkText = linkParts[0];
-      const afterLink = linkParts[1] || '';
-
-      // Generate the URL slug from link text
-      const slug = linkText.toLowerCase().replace(/\s+/g, '-');
-
-      return (
-        <>
-          {beforeLink}
-          <Link to={`/blog/${slug}`}>{linkText}</Link>
-          {afterLink}
-        </>
-      );
-    }
-    return paragraph;
   };
-
-
 
   const renderContent = (content) => {
     if (!content) return null;
@@ -133,39 +166,82 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
             </div>
           );
         } else if (typeof item === 'string') {
-          // Handle regular string paragraphs
           return <p key={index}>{renderParagraphWithLinks(item)}</p>;
         } else {
-          // Handle any other object types by converting to string
           return <p key={index}>{String(item)}</p>;
         }
       });
     } else if (typeof content === 'string') {
       return <p>{renderParagraphWithLinks(content)}</p>;
     } else {
-      // Handle single object case
       return <p>{String(content)}</p>;
     }
   };
 
-  if (!blogPost) {
+  // Helper function to render sections dynamically (reduces code duplication)
+  const renderSection = (sectionName) => {
+    const h2Key = `${sectionName}_h2`;
+    const h2PKey = `${sectionName}_h2_p`;
+    const imgKey = `${sectionName}_img`;
+    
+    if (!blogPost[h2Key]) return null;
+
+    return (
+      <div className="row" key={sectionName}>
+        <h2>{blogPost[h2Key]}</h2>
+        {renderContent(blogPost[h2PKey])}
+
+        {blogPost[imgKey] && (
+          <div className="col-md-8">
+            <img src={blogPost[imgKey]} alt="section image" />
+          </div>
+        )}
+
+        {/* Render h3 subsections */}
+        {[...Array(13)].map((_, i) => {
+          const h3Key = `${sectionName}_h3_${i + 1}`;
+          const h3ContentKey = `${sectionName}_h3_content_${i + 1}`;
+          
+          if (!blogPost[h3Key]) return null;
+          
+          return (
+            <div key={`${sectionName}_h3_${i + 1}`}>
+              <h3 className="cs_fs_24">{blogPost[h3Key]}</h3>
+              {renderContent(blogPost[h3ContentKey])}
+            </div>
+          );
+        })}
+      </div>
+    );
+  };
+
+  // Loading and error states
+  if (loading) {
     return <div className="container py-5 text-center">Loading...</div>;
   }
 
-  // For SEO
-  const metatitle = String(titleSeo || blogPost.metatitle);
-  const metadescription = String(description || blogPost.metadesc);
+  if (error) {
+    return <div className="container py-5 text-center text-danger">{error}</div>;
+  }
+
+  if (!blogPost) {
+    return <div className="container py-5 text-center">Blog post not found.</div>;
+  }
+
+  // SEO metadata with proper fallbacks
+  const metatitle = String(titleSeo || blogPost.metatitle || blogPost.title || '');
+  const metadescription = String(description || blogPost.metadesc || '');
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "");
   const metaURL = String(URL || `https://www.fajservices.ae/blog/${blogPost.slug}/`).replace(/\/?$/, '/');
-  const metaImage = `https://www.fajservices.ae${blogPost.img}`;
+  const metaImage = blogPost.img ? `https://www.fajservices.ae${blogPost.img}` : '';
 
   return (
     <>
       <HelmetProvider>
         <Helmet>
           <title>{metatitle}</title>
-          <meta name="description" content={metadescription}></meta>
+          <meta name="description" content={metadescription} />
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
@@ -174,6 +250,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
           <meta property="og:image" content={metaImage} />
+          <meta property="og:url" content={metaURL} />
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
@@ -190,7 +267,8 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
           <div className="row cs_row_gap_30 cs_gap_y_60">
             <div className="col-xl-8 col-lg-7">
               <div className="cs_post_details">
-                <img src={blogPost.img} alt="Post Banner" />
+                {blogPost.img && <img src={blogPost.img} alt="Post Banner" />}
+                
                 <div className="cs_post_meta_wrapper cs_mb_20">
                   <div className="cs_post_meta">
                     <span className="cs_accent_color"><i className="fa-regular fa-calendar-days"></i></span>
@@ -205,84 +283,16 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                     <span className="cs_heading_color">{blogPost.admin}</span>
                   </div>
                 </div>
-                <h2>{blogPost.title}</h2>
+                
+                <h1 className="cs_fs_30">{blogPost.title}</h1>
                 {renderContent(blogPost.content)}
 
-                {/* 2nd Section */}
-                {blogPost.sec_two_h2 && (
-                  <div className="row">
-                    <h2>{blogPost.sec_two_h2}</h2>
-                    {renderContent(blogPost.sec_two_h2_p)}
-
-                    {blogPost.sec_two_img && (
-                      <div className="col-md-8">
-                        <img src={blogPost.sec_two_img} alt="image" />
-                      </div>
-                    )}
-
-                    {blogPost.sec_two_h3_1 && (
-                      <>
-                        <h3>{blogPost.sec_two_h3_1}</h3>
-                        {renderContent(blogPost.sec_two_h3_content_1)}
-                      </>
-                    )}
-
-                    {blogPost.sec_two_h3_2 && (
-                      <>
-                        <h3>{blogPost.sec_two_h3_2}</h3>
-                        {renderContent(blogPost.sec_two_h3_content_2)}
-                      </>
-                    )}
-
-                    {blogPost.sec_two_h3_3 && (
-                      <>
-                        <h3>{blogPost.sec_two_h3_3}</h3>
-                        {renderContent(blogPost.sec_two_h3_content_3)}
-                      </>
-                    )}
-
-                    {blogPost.sec_two_h3_4 && (
-                      <>
-                        <h3>{blogPost.sec_two_h3_4}</h3>
-                        {renderContent(blogPost.sec_two_h3_content_4)}
-                      </>
-                    )}
-
-                    {blogPost.sec_two_h3_5 && (
-                      <>
-                        <h3>{blogPost.sec_two_h3_5}</h3>
-                        {renderContent(blogPost.sec_two_h3_content_5)}
-                      </>
-                    )}
-                  </div>
+                {/* Render sections dynamically */}
+                {['sec_two', 'sec_three', 'sec_four', 'sec_five', 'sec_six', 'sec_seven', 'sec_eight', 'sec_nine', 'sec_ten', 'sec_eleven', 'sec_tweleve'].map(sectionName => 
+                  renderSection(sectionName)
                 )}
 
-                {/* 3rd Section */}
-                {blogPost.sec_three_h2 && (
-                  <div className="row">
-                    <h2>{blogPost.sec_three_h2}</h2>
-                    {renderContent(blogPost.sec_three_h2_p)}
-
-                    {blogPost.sec_three_img && (
-                      <div className="col-md-8">
-                        <img src={blogPost.sec_three_img} alt="image" />
-                      </div>
-                    )}
-
-                    {blogPost.sec_three_h3_1 && (
-                      <>
-                        <h3>{blogPost.sec_three_h3_1}</h3>
-                        {renderContent(blogPost.sec_three_h3_content_1)}
-                      </>
-                    )}
-
-                    {/* Apply same pattern for all sec_three sections */}
-                  </div>
-                )}
-
-                {/* Apply the same pattern for all other sections: sec_four, sec_five, etc. */}
-
-                {/* Example for conclusion section */}
+                {/* Conclusion section */}
                 {blogPost.sec_concln_h2 && (
                   <div className="row">
                     <h2>{blogPost.sec_concln_h2}</h2>
@@ -290,24 +300,30 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                   </div>
                 )}
 
-                {/* Example for FAQ section */}
+                {/* FAQ section */}
                 {blogPost.sec_faq_h2 && (
                   <div className="row">
                     <h2>{blogPost.sec_faq_h2}</h2>
                     {renderContent(blogPost.sec_faq_h2_p)}
 
-                    {blogPost.sec_faq_h3_1 && (
-                      <>
-                        <h3>{blogPost.sec_faq_h3_1}</h3>
-                        {renderContent(blogPost.sec_faq_h3_p_1)}
-                      </>
-                    )}
-
-                    {/* Continue for all FAQ sections */}
+                    {[...Array(10)].map((_, i) => {
+                      const faqH3Key = `sec_faq_h3_${i + 1}`;
+                      const faqPKey = `sec_faq_h3_p_${i + 1}`;
+                      
+                      if (!blogPost[faqH3Key]) return null;
+                      
+                      return (
+                        <div key={`faq_${i + 1}`}>
+                          <h3 className="cs_fs_24">{blogPost[faqH3Key]}</h3>
+                          {renderContent(blogPost[faqPKey])}
+                        </div>
+                      );
+                    })}
                   </div>
                 )}
               </div>
 
+              {/* Share section */}
               <div className="cs_post_share_wrapper">
                 <div className="cs_post_tags cs_style_1">
                   <h3 className="cs_fs_24">Tags:</h3>
@@ -329,7 +345,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                     </a>
 
                     <a
-                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(blogPost?.sec_one_h2 || '')}`}
+                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(blogTitle)}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cs_center cs_radius_50"
@@ -358,6 +374,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                 </div>
               </div>
 
+              {/* Comments section */}
               <div className="cs_comments_area">
                 <div className="cs_form_wrapper cs_style_1 cs_accent_bg_light">
                   <h3 className="cs_fs_30 cs_mb_13">Leave a Reply</h3>
@@ -383,6 +400,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
               </div>
             </div>
 
+            {/* Sidebar */}
             <aside className="col-xl-4 col-lg-5">
               <div className="cs_sidebar cs_style_1">
                 <div className="cs_sidebar_widget cs_accent_bg_light position-relative">
@@ -411,6 +429,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                     </Link></li>
                   </ul>
                 </div>
+                
                 <div className="cs_sidebar_widget cs_accent_bg_light position-relative">
                   <div className="cs_separator"></div>
                   <h3 className="cs_sidebar_title cs_fs_30 cs_mb_43">Recent Posts</h3>
@@ -422,7 +441,8 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                         </Link>
                         <div className="cs_recent_post_right">
                           <p className="cs_recent_posted_by cs_fs_14">
-                            <i className="bi bi-calendar-fill"></i>{post.date}</p>
+                            <i className="bi bi-calendar-fill"></i>{post.date}
+                          </p>
                           <h3 className="cs_fs_14 mb-0">
                             <Link to={`/blog/${post.slug}`}>{post.title}</Link>
                           </h3>
@@ -436,7 +456,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
           </div>
         </div>
         <div className="cs_height_80 cs_height_lg_40"></div>
-      </section >
+      </section>
     </>
   );
 };

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
 
@@ -6,10 +6,10 @@ const ServiceCard = ({ title, subtitle, price, color, details, whatsappLink, tit
 
   // For SEO
   const metatitle = String(titleSeo || "Dubai Best AC Service Prices - Air Conditioner Maintenance");
-  const metadescription = String(description || "Get the best AC service prices in Dubai with FAJ Technical Services. Our expert team provides top-notch air conditioner maintenance and repair services to keep your home cool and comfortable. Contact us today for affordable rates and reliable service.");
+  const metadescription = String(description || "Book 043300002 for affordable AC services in Dubai! We offer reliable maintenance, and repair for central AC, split AC, HVAC, VRV/VRF systems, & more.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Dubai AC Service Prices");
-  const metaURL = String(URL || "https://www.fajservices.ae/lennox-ac-repair-in-dubai-lennox-ac-maintenance-in-dubai-lennox-ac-fix-in-dubai-lennox-ac-service-in-dubai-lennox-air-condition-repair-in-dubai-lennox-air-condition-maintenance-in-dubai-lennox-air-con/").replace(/\/?$/, '/');
+  const metaURL = String(URL || "https://www.fajservices.ae/dubai-ac-service-price-list/").replace(/\/?$/, '/');
 const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
   const [isExpanded, setIsExpanded] = useState(false);
   const buttonClass = `btn btn-${color}`;
@@ -251,7 +251,7 @@ const ACServiceSection = () => {
           <div className="terms-box">
             <h6>TERMS AND CONDITIONS OF TECHNICAL INSPECTION</h6>
             <p className="terms-text">
-              The AC technical inspection fee includes an on-site visit to diagnose the air conditioner unit by the technical team, with transportation charges to the Dubai premises. This amount will be deducted from the total cost in the final invoice if the customer needs any AC service in repair work/maintenance/cleaning service, or part replacement at the same time visit, not a second visit, and the second visit cost will be separate. Please note that this AC technical inspection fee is non-refundable. However, it does not cover the cost of carpentry work, gypsum ceiling access work for the AC unit, AC repair work, maintenance, or part replacement. And FAJ will provide quotation to the customer once the inspection is completed on-site.
+              The AC technical inspection fee includes an on-site visit to diagnose the air conditioner unit by the technical team, with transportation charges to the Dubai premises. This amount will be deducted from the total cost in the final invoice if the customer needs any AC service in repair work/maintenance/cleaning service, or part replacement at the same time visit, not a second visit, and the second visit cost will be separate. Please note that this AC technical inspection fee is non-refundable. However, it does not cover the cost of carpentry work, gypsum ceiling access work for the AC unit, AC repair work, maintenance, or part replacement. And FAJ will provide quotation to the customer once the inspection is completed on-site.
             </p>
           </div>
         </div>
