@@ -203,7 +203,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
           
           return (
             <div key={`${sectionName}_h3_${i + 1}`}>
-              <h3>{blogPost[h3Key]}</h3>
+              <h3 className="cs_fs_24">{blogPost[h3Key]}</h3>
               {renderContent(blogPost[h3ContentKey])}
             </div>
           );
@@ -311,7 +311,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                       
                       return (
                         <div key={`faq_${i + 1}`}>
-                          <h3>{blogPost[faqH3Key]}</h3>
+                          <h3 className="cs_fs_24">{blogPost[faqH3Key]}</h3>
                           {renderContent(blogPost[faqPKey])}
                         </div>
                       );

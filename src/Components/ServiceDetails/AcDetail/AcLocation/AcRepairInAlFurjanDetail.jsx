@@ -17,8 +17,8 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
-import { FajPriceList } from "../../../../Routes/allComponents";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
+import { FajPriceList } from "../../../../Routes/allComponents";
 
 const AcRepairInAlFurjanDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -131,7 +131,7 @@ const AcRepairInAlFurjanDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                 </section>
 
                 {/* Experts AC Service and Maintenance */}
-                <section className="section cs_py_30 bg-light-gray mb-4">
+                <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
                         <div className="row gx-md-5">
                             <div className="col-md-6">
