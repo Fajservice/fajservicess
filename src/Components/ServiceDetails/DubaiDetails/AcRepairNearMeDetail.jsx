@@ -1,34 +1,31 @@
 
 
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
 import data from '../../../Data/AcData/AcFaqs/AcRepairFaqs.json';
-import {Helmet, HelmetProvider } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
-import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
 import testimonial_data from '../../../Data/DubaiData/Testmonials/ACNearMeTestimonial.json';
-import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
-import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 import FAJACPrice from "../../Miscellaneous/FAJACPrice";
+import { Link } from "react-router-dom";
 
 // import { Link } from "react-router-dom";
 
-const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => { 
+const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "AC Repair Near Me - Expert AC Service and Maintenance");
-  const metadescription = String(description || "Get sameday FAJ AC repair near me in Dubai and Sharjah. Call Us 043300002 for Air Conditioner (AC) cleaning service, maintenance and error fix nearby"); 
+  const metadescription = String(description || "Get sameday FAJ AC repair near me in Dubai and Sharjah. Call Us 043300002 for Air Conditioner (AC) cleaning service, maintenance and error fix nearby");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "AC Repair Near Me, AC Service Near Me, Air Conditioner Repair Near Me, Air Conditioner Service Near Me, AC Maintenance Near Me, Split AC Repair Near Me, Split AC Service Near Me, Central AC Repair Near Me, Central AC Service Near Me");
   const metaURL = String(URL || "https://www.fajservices.ae/dubai/ac-repair-near-me/").replace(/\/?$/, '/');
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -88,54 +85,22 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
     ]
   };
 
-  const settingBrands = {
-    dots: false,
-    infinite: true,
-    slidesToShow: 6,
-    arrows: false,
-
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-    // cssEase: 'linear',
-
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 6,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 4,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-        }
-      }
-    ]
-  };
-
 
   return (
     <>
       <HelmetProvider>
-              <Helmet>
-                <title>{metatitle}</title>
-                <meta name="description" content={metadescription}></meta>
-                <meta name="keywords" content={metaKeyword} />
-                <meta name="author" content={metaAuthor} />
-                <meta name="robots" content="index, follow" />
-                <link rel="canonical" href={metaURL} />
-                <meta property="og:type" content="website" />
-                <meta property="og:locale" content="en_US" />
-                <meta property="og:title" content={metatitle} />
-                <meta property="og:description" content={metadescription} />
-               <meta property="og:image" content={metaImage} />
+        <Helmet>
+          <title>{metatitle}</title>
+          <meta name="description" content={metadescription}></meta>
+          <meta name="keywords" content={metaKeyword} />
+          <meta name="author" content={metaAuthor} />
+          <meta name="robots" content="index, follow" />
+          <link rel="canonical" href={metaURL} />
+          <meta property="og:type" content="website" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:title" content={metatitle} />
+          <meta property="og:description" content={metadescription} />
+          <meta property="og:image" content={metaImage} />
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
@@ -144,7 +109,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
           <meta name="twitter:image" content={metaImage} />
           <meta name="twitter:url" content={metaURL} />
         </Helmet>
-            </HelmetProvider>
+      </HelmetProvider>
       <HeaderForm />
 
       <div className="cs_service_details">
@@ -153,7 +118,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
           <div className="container">
             <h1 className="cs_fs_30">Same Day  AC Repair and Service Near Me</h1>
             <p>Transform your living and working spaces into havens of comfort by banishing sweltering summer days, stuffy nights, and annoying allergens with clean, refreshing and cool air.</p>
-<p>Since 2010,<a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been your trusted counterpart for dependable air conditioning solutions in Dubai and Sharjah. Our skilled team offers <a href="https://www.fajservices.ae/ac-repair-dubai/">AC repair near me</a>, <a href="https://www.fajservices.ae/ac-service-in-dubai/">AC cleaning services near me,</a> A/C maintenance near you, and air conditioner installation of a wide range of residential and commercial units, ensuring your comfort and optimal performance all year round. Choose us for a breath of fresh and cool air!</p>
+            <p>Since 2010,<a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been your trusted counterpart for dependable air conditioning solutions in Dubai and Sharjah. Our skilled team offers <a href="https://www.fajservices.ae/ac-repair-dubai/">AC repair near me</a>, <a href="https://www.fajservices.ae/ac-service-in-dubai/">AC cleaning services near me,</a> A/C maintenance near you, and air conditioner installation of a wide range of residential and commercial units, ensuring your comfort and optimal performance all year round. Choose us for a breath of fresh and cool air!</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -163,45 +128,45 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
             {/*  */}
           </div>
         </section>
-         {/* Select Air Conditioner Repair & Service*/}
-                <section className="section cs_py_30 bg-light-gray">
-                  <div className="container">
-                    <div className="row gx-md-5">
-                      <div className="col-md-6">
-                        <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }} >AC Repair and AC Servicing Near Me</h2>
-                        <p className="mb-1">When you need air conditioning repair near you, it&apos;s important to select a skilled technician.<br/>
-Our dedicated team specialises in AC servicing and maintenance throughout Dubai and Sharjah. At FAJ, we are committed to providing reliable solutions that improve your indoor comfort year-round while ensuring your system operates efficiently.
-</p>
-                        <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>EXPRESS & EMERGENCY AC REPAIR SERVICE</h2>
-                        <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320, depending on the capacity for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
-                        <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">CHOOSE FAJ FOR YOUR PEACE OF MIND</h3>
-                        <p><b>We provide 2-month service warranty</b><br />
-and 3-month parts warranty as standard.
-</p>
-                       
-                      </div>
-        
-                      <div className="col-md-6 ">
-                        <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-repair-2.avif`} alt="AC Repair In Dubai" loading="lazy" />
-        
-                      </div>
-                    </div>
-        
-                    <div className="appointment-col border-small-top pt-3">
-                      <div id="get-quote" className=" mt-3">
-                        <div className="container d-flex justify-content-center align-items-center gap-3">
-                          <WhatsappIconButton />
-                          <CallNowButton />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-                 <section className="section cs_py_30">
-                          <div className="container">
-                            <FAJACPrice />
-                          </div>
-                        </section>
+        {/* Select Air Conditioner Repair & Service*/}
+        <section className="section cs_py_30 bg-light-gray">
+          <div className="container">
+            <div className="row gx-md-5">
+              <div className="col-md-6">
+                <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }} >AC Repair and AC Servicing Near Me</h2>
+                <p className="mb-1">When you need air conditioning repair near you, it&apos;s important to select a skilled technician.<br />
+                  Our dedicated team specialises in AC servicing and maintenance throughout Dubai and Sharjah. At FAJ, we are committed to providing reliable solutions that improve your indoor comfort year-round while ensuring your system operates efficiently.
+                </p>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>EXPRESS & EMERGENCY AC REPAIR SERVICE</h2>
+                <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320, depending on the capacity for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">CHOOSE FAJ FOR YOUR PEACE OF MIND</h3>
+                <p><b>We provide 2-month service warranty</b><br />
+                  and 3-month parts warranty as standard.
+                </p>
+
+              </div>
+
+              <div className="col-md-6 ">
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac-repair-2.avif`} alt="AC Repair In Dubai" loading="lazy" />
+
+              </div>
+            </div>
+
+            <div className="appointment-col border-small-top pt-3">
+              <div id="get-quote" className=" mt-3">
+                <div className="container d-flex justify-content-center align-items-center gap-3">
+                  <WhatsappIconButton />
+                  <CallNowButton />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="section cs_py_30">
+          <div className="container">
+            <FAJACPrice />
+          </div>
+        </section>
 
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30  bg-light-gray mb-4">
@@ -291,9 +256,9 @@ and 3-month parts warranty as standard.
         </section>
 
         {/* Maintenance Contract */}
-<MaintenanceContract />
+        <MaintenanceContract />
 
-{/* testimobial section */}
+        {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">

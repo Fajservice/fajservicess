@@ -21,8 +21,8 @@ const NearMeDetail = ({ subtitle, title, bgImg }) => {
   const titleSeo = "Home & Commercial Appliance Repair Near Me – Dubai";
   const description = "Find trusted home & commercial appliance repair near you in Dubai. FAJ, serving since 2010, delivers reliable service for all major appliance brands.";
   const Author = "Faj Technical Servcies";
-  const Keyword = "";
-  const URL = "https://www.fajservices.ae/";
+  const Keyword = "AC repair and Maintenance Service Near me Dubai, Appliances repair Service Dubai";
+  const URL = "https://www.fajservices.ae/dubai/near-me/";
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
