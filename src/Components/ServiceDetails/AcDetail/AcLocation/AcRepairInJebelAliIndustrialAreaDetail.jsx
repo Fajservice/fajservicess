@@ -23,8 +23,8 @@ import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 const AcRepairInJebelAliIndustrialAreaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Best Appliances Services in Jebel Ali Industrial Area");
-    const metadescription = String(description || "Best appliance services in Jebel Ali Industrial Area. Call 043300002 for fridge repair near me in Dubai. FAJ offers to fix dishwasher, washing machine");
+    const metatitle = String(titleSeo || "AC Services In Jebel Ali Industrial Area - Repair Aircon");
+    const metadescription = String(description || "Call 043300002 for AC Services in Jebel Ali Industrial Area Dubai. Central, split HVAC air conditioning maintenance and ac fix servicing Dubai");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "ac services in deira, ac repair in deira, ac maintenance in deira, air conditioning services in deira, air conditioning repair in deira, air conditioning maintenance in deira, ac service near me, ac repair near me, ac maintenance near me, air conditioning service near me, air conditioning repair near me, air conditioning maintenance near me");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jebel-ali-industrial-area/").replace(/\/?$/, '/');
