@@ -16,6 +16,9 @@ import AcProperties from "../../../Common/AcProperties";
 import AcAppointmentCol from "../../../Common/AcAppointmentCol";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
+
+
 const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO

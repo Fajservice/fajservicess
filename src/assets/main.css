@@ -4197,6 +4197,10 @@ textarea {
   gap: 10px;
 }
 
+.cs_post_share_wrapper .cs_tags_links p{
+  margin-bottom: 0px;
+}
+
 .cs_tags_links {
   display: -webkit-box;
   display: -ms-flexbox;
