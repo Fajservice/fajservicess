@@ -156,10 +156,17 @@ const BryantAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                 </div></div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac filter.avif`} loading="lazy" alt="Gree AC Service" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac filter.avif`} loading="lazy" alt="Bryant AC Service" />
               </div>
             </div>
             <AcAppointmentCol></AcAppointmentCol>
+          </div>
+        </section>
+
+        {/* AC Price Section */}
+        <section className="section cs_py_30">
+          <div className="container">
+            <FAJACPrice></FAJACPrice>
           </div>
         </section>
 
@@ -175,7 +182,7 @@ const BryantAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/ac amc.avif`} loading="lazy" alt="Gree Airconditioner Repair" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/ac amc.avif`} loading="lazy" alt="Bryant Airconditioner Repair" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">

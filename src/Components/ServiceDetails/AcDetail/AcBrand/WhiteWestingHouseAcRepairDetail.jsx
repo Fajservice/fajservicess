@@ -115,7 +115,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descr
             <h1 className="cs_fs_30">Westinghouse AC Repair and Maintenance Service in Dubai </h1>
             <p>
               For year-round comfort, it’s important to effectively manage challenges like summer humidity, warm nights, and indoor allergens.
-              <br />Since our founding in 2010, <a href="https://www.fajservices.ae/">F A J Technical Services L.L.C</a> has emerged as a leading provider of White Westinghouse air conditioning solutions in Dubai and Sharjah.
+              <br />Since our founding in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has emerged as a leading provider of White Westinghouse air conditioning solutions in Dubai and Sharjah.
               <br />Our highly skilled team is dedicated to delivering top-notch AC repair, service cleaning, maintenance, and installation for both residential and commercial AC units.
               We prioritize optimizing the efficiency of your air conditioning system, ensuring that your indoor environment remains refreshing and comfortable throughout the year. Trust us to elevate your comfort and peace of mind.
 
@@ -165,6 +165,13 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descr
               </div>
             </div>
             <AcAppointmentCol></AcAppointmentCol>
+          </div>
+        </section>
+
+        {/* AC Price Section */}
+        <section className="section cs_py_30">
+          <div className="container">
+            <FAJACPrice></FAJACPrice>
           </div>
         </section>
 
@@ -342,7 +349,8 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descr
                   <li> <strong> White Westinghouse AC Repair Service: </strong> We offer fast repair services for White Westinghouse air conditioners, addressing leaks, electrical problems, and malfunctions. Contact us for further details or inquiries! </li>
                   <li> <strong> White Westinghouse AC Annual Maintenance Contract: </strong> The contract specifies the annual maintenance terms for White Westinghouse air conditioners.  </li>
                 </ul>
-                <p className="mb-0"> Regular maintenance, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is vital for optimal performance and durability.</p>
+                <p className="mb-0"> <a href="https://www.linkedin.com/company/faj-technical-services-llc
+">Regular maintenance</a>, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is vital for optimal performance and durability.</p>
               </div>
 
             </div>
@@ -544,7 +552,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descr
                 <p className="mb-0"><strong>   Our installation services include: </strong> </p>
 
                 <p className="mb-0"> <strong>  Climate Check: </strong> Understanding your unique requirements based on the local climate and your building's features.</p>
-                <p className="mb-0"> <strong>  Expert AC Installation: </strong> Our <a href="https://www.facebook.com/ACRepairUAE"><b>skilled AC technicians</b></a> ensure that the AC installation is performed to the highest standards, adhering to all safety protocols.</p>
+                <p className="mb-0"> <strong>  Expert AC Installation: </strong> Our skilled AC technicians ensure that the AC installation is performed to the highest standards, adhering to all safety protocols.</p>
                 <p className="mb-0"> <strong>  Post-Installation Support: </strong> We provide advice on operating your new air conditioner, including tips on energy efficiency and maintenance.</p>
                 <p className="mb-0"> <strong>  Warranty and Service Packages: </strong> To ensure your peace of mind, we offer warranty options and additional service packages for maintenance and repair in Dubai and Sharjah.</p>
                 <p className="mb-0"> <strong>  White Westinghouse AC AMC Services in Dubai: </strong> We offer comprehensive air conditioning AMC (Annual Maintenance Contract) and PPM (Planned Preventive Maintenance) services, along with repair support, throughout the year for both contract and non-contract customers. While we are dedicated to serving all our clients, please note that those with service contracts may receive priority assistance.</p>
