@@ -16,6 +16,8 @@ import AcProperties from "../../../Common/AcProperties";
 import Practicaltip from "../../../Common/Practicaltip";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
+
 const NikaiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
 

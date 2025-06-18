@@ -17,6 +17,10 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
 
+
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
+
+
 const WestpointAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
 
