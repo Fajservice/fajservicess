@@ -112,7 +112,7 @@ const DaewooAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
           <div className="container">
             <h1 className="cs_fs_30">Daewoo AC Repair and Maintenance Service in Dubai</h1>
             <p>To achieve year-round comfort, it is imperative to effectively confront challenges such as summer humidity, warm nights, and indoor allergens head-on.
-              <br />Since our founding in 2010, <a href="https://www.fajservices.ae/">F A J Technical Services L.L.C</a>  has established itself as the leading provider of Daewoo air conditioning solutions in Dubai and Sharjah.
+              <br />Since our founding in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a>  has established itself as the leading provider of Daewoo air conditioning solutions in Dubai and Sharjah.
               <br />
               Our skilled team delivers comprehensive services, including AC repair, cleaning services, maintenance, and installation for both residential and commercial units. We are committed to maximizing your air conditioning system’s performance, ensuring that your indoor comfort is always at its best.
             </p>
@@ -164,13 +164,20 @@ const DaewooAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
           </div>
         </section>
 
+        {/* AC Price Section */}
+        <section className="section cs_py_30">
+          <div className="container">
+            <FAJACPrice></FAJACPrice>
+          </div>
+        </section>
+
         {/* Why*/}
         <section className="section cs_py_30">
           <div className="container">
 
             <h2 className="cs_fs_30">Why is Daewoo AC Maintenance Service Important in Dubai?</h2>
             <p className="">
-              To guarantee your Daewoo central air conditioner functions efficiently in Dubai's intense heat, regular AC maintenance is essential. At FAJ, we offer expert aircon services designed to enhance your system’s performance and comfort year-round. Trust us to keep your air conditioner operating at its best.
+              To guarantee your Daewoo central air conditioner functions efficiently in Dubai's intense heat, regular AC maintenance is essential. At <a href="https://fajservices.ae/">FAJ</a>, we offer expert aircon services designed to enhance your system’s performance and comfort year-round. Trust us to keep your air conditioner operating at its best.
             </p>
 
             <div className="row align-items-center">
@@ -318,7 +325,7 @@ const DaewooAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                   className="bordered-img blue-border"
                   width="100%"
                   height="350"
-                  src="https://www.youtube.com/embed/45IUOnKHjKw?si=7ujqAaTZjgQfv4tc"
+                  src="https://www.youtube.com/embed/sxBhB1_gxYA"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -334,7 +341,7 @@ const DaewooAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                   <li> <strong> Daewoo AC Repair Service: </strong> We offer fast repair services for Daewoo air conditioners, addressing leaks, electrical problems, and malfunctions. Contact us for further details or inquiries! </li>
                   <li> <strong> Daewoo AC Annual Maintenance Contract: </strong> The contract specifies the annual maintenance terms for Daewoo air conditioners. </li>
                 </ul>
-                <p className="mb-0"> Regular maintenance, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is vital for optimal performance and durability.
+                <p className="mb-0"><a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a>, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is vital for optimal performance and durability.
                 </p>
               </div>
 

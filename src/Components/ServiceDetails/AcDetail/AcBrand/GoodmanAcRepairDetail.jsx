@@ -24,7 +24,7 @@ const GoodmanAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Goodman AC Repair Dubai, Goodman Air Conditioner Service, Goodman AC Maintenance Dubai, Goodman Air Conditioning Repair, Goodman AC Cleaning");
   const metaURL = String(URL || "https://www.fajservices.ae/goodman-ac-repair-in-dubai-goodman-ac-maintenance-in-dubai-goodman-ac-fix-in-dubai-goodman-ac-service-in-dubai-goodman-air-condition-repair-in-dubai-goodman-air-condition-maintenance-in-dubai-goodman/").replace(/\/?$/, '/');
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
 
 
   subtitle = "Testimonial"
@@ -83,7 +83,7 @@ const GoodmanAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
     <>
       <HelmetProvider>
         <Helmet>
-         <title>{metatitle}</title>
+          <title>{metatitle}</title>
           <meta name="description" content={metadescription} />
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
@@ -133,14 +133,14 @@ const GoodmanAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1" style={{fontSize: "24px"}}>Goodman Ac Maintenance and Servicing</h2>
+                <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }}>Goodman Ac Maintenance and Servicing</h2>
 
                 <p className="mb-2">
                   When it comes to the repair of Goodman air conditioning units, it is crucial to select a highly skilled AC technician.
                   <br />Our dedicated team specializes in air conditioning service and maintenance throughout Dubai and Sharjah. <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ</a> is committed to delivering reliable solutions that enhance indoor comfort throughout the year while ensuring the efficient operation of your system.
                 </p>
 
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{fontSize: "24px"}}>Signs You Need An AC Service</h2>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>Signs You Need An AC Service</h2>
                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                 <div className="row">
                   <div className="col-sm-6">
@@ -166,6 +166,13 @@ const GoodmanAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           </div>
         </section>
 
+        {/* AC Price Section */}
+        <section className="section cs_py_30">
+          <div className="container">
+            <FAJACPrice></FAJACPrice>
+          </div>
+        </section>
+
         {/* Why*/}
         <section className="section cs_py_30">
           <div className="container">
@@ -182,7 +189,7 @@ const GoodmanAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                 <ul className="mb-0">
                   <li> <strong>  Extreme Weather: </strong> In the summer heat, temperatures can exceed 40°C (104°F), creating an oppressive environment. it&apos;s crucial to ensure that your Goodman AC systems are running at peak performance. </li>
                   <li> <strong>  Energy Efficiency: </strong> A well-maintained Goodman air conditioner operates efficiently, yielding significant energy savings and lower Dewa electricity costs. </li>
-                  <li> <strong>  Longevity of Equipment: </strong> <b><a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a></b> of Goodman AC is crucial for optimal performance and longevity. It boosts energy efficiency and lowers repair costs, resulting in savings for residential and commercial property users. </li>
+                  <li> <strong>  Longevity of Equipment: </strong> <a href="https://www.linkedin.com/company/faj-technical-services-llc" className="fw-bold text-decoration-underline">Regular maintenance</a> of Goodman AC is crucial for optimal performance and longevity. It boosts energy efficiency and lowers repair costs, resulting in savings for residential and commercial property users. </li>
                   <li> <strong>  Improved Air Quality: </strong> Routine Goodman air conditioner cleaning service prevents dust and allergens from getting in, resulting in improved air quality. </li>
                   <li> <strong>  Enhanced Comfort: </strong> Maintaining your original AC service in Dubai is essential for optimal comfort and efficiency. Don&apos;t settle for less—commit to regular servicing for a consistently pleasant environment every day. </li>
                 </ul>
@@ -333,7 +340,7 @@ const GoodmanAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
                   <li> <strong> Goodman AC Installation: </strong> Professional installation of various Goodman air conditioning systems ensures optimal performance. </li>
                   <li> <strong> Goodman AC Inspection: </strong> Detailed fault diagnosis to accurately identify system issues. We provide comprehensive quotes and eligibility assessments to address any concerns you may have. </li>
-                  <li> <strong> Goodman AC Repair Service: </strong> We offer fast <a href="https://www.fajservices.ae/ac-repair-dubai/"><b>Goodman AC repair service</b></a> components, including leaks, electrical failures, and malfunctions. Contact us for details or inquiries! </li>
+                  <li> <strong> Goodman AC Repair Service: </strong> We offer fast <a href="https://www.google.com/search?q=faj+technical+llc+gmb&rlz=1C1GCEU_en-GBPK1161PK1162&oq=&gs_lcrp=EgZjaHJvbWUqCQgAECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIPCAYQLhgnGK8BGMcBGOoCMgkIBxAjGCcY6gLSAQsyNzQ0OTUwajBqN6gCCLACAfEFNHg2jm1mi9w&sourceid=chrome&ie=UTF-8" className="fw-bold text-decoration-underline">Goodman AC repair service</a> components, including leaks, electrical failures, and malfunctions. Contact us for details or inquiries! </li>
                   <li> <strong> Goodman AC Annual Maintenance Contract: </strong> This contract outlines the Goodman AC annual maintenance terms. </li>
                 </ul>
                 <p className="mb-0"> Regular AC maintenance (AMC/PPM) is vital for ensuring performance, efficiency, and longevity.</p>

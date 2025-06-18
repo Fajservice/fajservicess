@@ -4,7 +4,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
-import WhatsappIconButton from "../../../Buttons/WhatsappIconButton"; 
+import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 import testimonial_data_Panasonic from '../../../../Data/AcData/AcTestimonial/PanasonicAcServiceTestimonials.json';
 import parse from 'html-react-parser';
@@ -25,7 +25,7 @@ const PanasonicAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Panasonic AC Repair in Dubai, Panasonic AC Maintenance in Dubai, Panasonic AC Fix in Dubai, Panasonic AC Service in Dubai, Panasonic Air Condition Repair in Dubai, Panasonic Air Condition Maintenance in Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/panasonic-ac-repair-in-dubai-panasonic-ac-maintenance-in-dubai-panasonic-ac-fix-in-dubai-panasonic-ac-service-in-dubai-panasonic-air-condition-repair-in-dubai-panasonic-air-condition-maintenance-in-du/").replace(/\/?$/, '/');
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   reviewsbg = "img/testimonialbg.jpg"
@@ -82,7 +82,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filt
     <>
       <HelmetProvider>
         <Helmet>
-           <title>{metatitle}</title>
+          <title>{metatitle}</title>
           <meta name="description" content={metadescription} />
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
@@ -166,14 +166,20 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filt
           </div>
         </section>
 
+        {/* AC Price Section */}
+        <section className="section cs_py_30">
+          <div className="container">
+            <FAJACPrice></FAJACPrice>
+          </div>
+        </section>
+
         {/* Why*/}
         <section className="section cs_py_30">
           <div className="container">
 
             <h2 className="cs_fs_30">Why is Panasonic AC Maintenance Service Important in Dubai?</h2>
             <p className="mb-0">
-              To keep your Panasonic central air conditioner running smoothly in Dubai's heat, <a href="https://www.linkedin.com/company/faj-technical-services-llc">regular maintenance</a> is crucial. At FAJ, we offer expert Panasonic aircon services for ensuring optimal cooling and comfort year-round.
-              <br />Here to help keep your system running at its best!
+              To keep your Panasonic central air conditioner running smoothly in Dubai's heat, <a href="https://www.linkedin.com/company/faj-technical-services-llc">regular maintenance</a> is crucial. At FAJ, we offer expert Panasonic aircon services for ensuring optimal cooling and comfort year-round. Here to help keep your system running at its best!
 
             </p>
 
