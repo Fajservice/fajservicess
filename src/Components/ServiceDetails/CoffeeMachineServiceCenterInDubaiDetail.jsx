@@ -169,10 +169,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
                 <p className="mb-2">When your coffee machine breaks down or stops working, it can disrupt your daily   routine.
                   <br />
                   That’s where our expert technician comes in. FAJ expert offers fast and <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>s near you to restore optimal performance. We handle issues like coffee machine descaling, cleaning service, water leakage, Steam wand, noise, poor coffee quality, and grinding problems. Let us help get your coffee machine back on track.
-
                 </p>
-
-
                 <h2 className="cs_fs_18 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>
                   Coffee Machine Servicing and Maintenance Contract
                 </h2>
@@ -695,17 +692,13 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
                 </div>
               </div>
 
-              {/* <div className="col-12 col-md-4 col-lg-3">
+              <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Loud or Unusual Noises</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dr Coffee Machine Repairs</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-
-                      Noise from the coffee machine, Low water levels, the espresso machine being placed on a hard surface, or heating issues can lead to unexpected noises.
-
-                    </p>
+                    <p className="p-2 mb-0">You can find professional Dr Coffee machine maintenance and descaling services near you.</p>
                   </div>
                 </div>
               </div>
@@ -713,12 +706,10 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Brewing Issues</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">La Marzocco Coffee Machine Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Weak Coffee is often a common problem, typically due to improper grind size, over-extraction, under-extraction, or using stale espresso machine coffee beans.
-                    </p>
+                    <p className="p-2 mb-0">Premier maintenance and cleaning for LA Marzocco espresso machine, including AMC services.</p>
 
                   </div>
                 </div>
@@ -727,12 +718,10 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Slow Coffee Flow</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">La Pavoni Espresso Maintenance</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-
-                      This issue of coffee machine or espresso or automatic coffee machine can stem from clogs, incorrect grind size, or problems with the coffee machine’s pump.</p>
+                    <p className="p-2 mb-0">We offer espresso machine repair, including cleaning services, to keep machine in top shape.</p>
                   </div>
                 </div>
               </div>
@@ -740,16 +729,13 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Professional Help</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">ECM Coffee Machine Servicing</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-
-                      For more complex issues or if you are unable to troubleshoot the problem yourself, contact FAJ qualified coffee machine repair technician for maintenance.
-                    </p>
+                    <p className="p-2 mb-0">Contact us for maintenance and repair services for your ECM coffee machine, including descaling.</p>
                   </div>
                 </div>
-              </div> */}
+              </div>
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
