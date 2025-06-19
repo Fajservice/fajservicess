@@ -111,7 +111,7 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
             <h1 className="cs_fs_30">Aftron AC Repair and Maintenance Service in Dubai</h1>
             <p>Maintaining year-round indoor comfort involves addressing various challenges, including summer humidity, warm nights, and indoor allergens.
               <br />
-              Since its establishment in 2010, <a href="https://www.fajservices.ae/">F A J Technical Services L.L.C</a> has been a reliable provider of Aftron Air Conditioner solutions in Dubai and Sharjah. Our experienced team specializes in a variety of services for Aftron AC cleaning service, repair, maintenance, and installation for both residential and commercial properties.
+              Since its establishment in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been a reliable provider of Aftron Air Conditioner solutions in Dubai and Sharjah. Our experienced team specializes in a variety of services for Aftron AC cleaning service, repair, maintenance, and installation for both residential and commercial properties.
               <br />We are dedicated to optimizing the performance of your air conditioning system to improve indoor comfort effectively.
             </p>
 
@@ -187,7 +187,7 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                   <li> <strong> Extreme Weather: </strong> As summer approaches, we can expect temperatures to soar above 40°C (104°F), creating discomfort. It&apos;s essential to ensure that your Aftron air conditioning systems are primed for optimal performance. </li>
                   <li> <strong> Energy Efficiency: </strong> A well-maintained Aftron air conditioner operates efficiently, resulting in significant energy savings and lower DEWA electricity costs. </li>
                   <li> <strong> Longevity of Equipment: </strong> Keeping up with the Aftron AC maintenance is really important for getting the best performance and efficiency. It helps lower repair costs and can save money for both homes and businesses. </li>
-                  <li> <strong> Improved Air Quality: </strong> Routine Aftron <b><a href="https://www.fajservices.ae/ac-service-in-dubai/">air conditioner cleaning service</a></b> prevents dust and allergens from getting in, resulting in improved air quality. </li>
+                  <li> <strong> Improved Air Quality: </strong> Routine Aftron air conditioner cleaning service prevents dust and allergens from getting in, resulting in improved air quality. </li>
                   <li> <strong> Enhanced Comfort: </strong> Regular air conditioner maintenance in Dubai is vital for optimal efficiency and a comfortable indoor environment. </li>
                 </ul>
               </div>
@@ -336,7 +336,7 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                   <li> <strong>  Aftron AC Repair Service: </strong> We offer fast repair services for Aftron air conditioners, addressing leaks, electrical problems, and malfunctions. Contact us for further details or inquiries! </li>
                   <li> <strong>  Aftron AC Annual Maintenance Contract: </strong> The contract specifies the annual maintenance terms for Aftron air conditioners. </li>
                 </ul>
-                <p className="mb-0"> Regular maintenance, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is vital for optimal performance and durability.
+                <p className="mb-0"><a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a>, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is vital for optimal performance and durability.
                 </p>
               </div>
 

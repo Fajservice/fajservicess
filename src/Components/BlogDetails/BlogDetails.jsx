@@ -335,7 +335,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
 
         {blogPost[imgKey] && (
           <div className="col-md-8">
-            <img src={blogPost[imgKey]} alt="section image" />
+            <img src={blogPost[imgKey]} alt={blogPost.title} />
           </div>
         )}
 
@@ -343,12 +343,18 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
         {[...Array(13)].map((_, i) => {
           const h3Key = `${sectionName}_h3_${i + 1}`;
           const h3ContentKey = `${sectionName}_h3_content_${i + 1}`;
+          const h3ImgKey = `${sectionName}_h3_${i + 1}_img`;
           
           if (!blogPost[h3Key]) return null;
           
           return (
             <div key={`${sectionName}_h3_${i + 1}`}>
-              <h3>{blogPost[h3Key]}</h3>
+              <h3 className="cs_fs_24">{blogPost[h3Key]}</h3>
+              {blogPost[h3ImgKey] && (
+                <div className="col-md-8">
+                  <img src={blogPost[h3ImgKey]} alt={blogPost.title} />
+                </div>
+              )}
               {renderContent(blogPost[h3ContentKey])}
             </div>
           );
