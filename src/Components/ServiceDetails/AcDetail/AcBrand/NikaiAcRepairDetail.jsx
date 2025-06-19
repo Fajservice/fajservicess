@@ -132,7 +132,7 @@ const NikaiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
 
 
         {/* 2 col */}
-        <section className="section cs_py_30 bg-light-gray mb-4">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
@@ -688,7 +688,9 @@ const NikaiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>
-                    <p className="mb-0">{item.desc}</p>
+                    <p className="mb-0"
+                      dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
+                    ></p>
                   </div>
                 </div>
               ))}

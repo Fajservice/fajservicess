@@ -115,7 +115,7 @@ const TCLAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
             <h1 className="cs_fs_30">TCL AC Repair and Maintenance Service in Dubai            </h1>
             <p>
               To achieve year-round comfort, it is imperative to effectively manage challenges such as summer humidity, warm nights, and indoor allergens.
-              <br />Established in 2010, <a href="https://www.fajservices.ae/">F A J Technical Services L.L.C</a> stands as the premier provider of TCL air conditioning solutions in Dubai and Sharjah. Our expert team offers an extensive range of TCL AC repair, cleaning service, maintenance, and installation for both residential and commercial settings.
+              <br />Established in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> stands as the premier provider of TCL air conditioning solutions in Dubai and Sharjah. Our expert team offers an extensive range of TCL AC repair, cleaning service, maintenance, and installation for both residential and commercial settings.
               <br />We are committed to maximizing the performance of your air conditioning system, ensuring optimal indoor comfort at all times.
 
             </p>
@@ -131,7 +131,7 @@ const TCLAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
         </section>
 
         {/* 2 col */}
-        <section className="section cs_py_30 bg-light-gray mb-4">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
@@ -181,7 +181,7 @@ const TCLAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
           <div className="container">
 
             <h2 className="cs_fs_30">Why is TCL AC Maintenance Service Important in Dubai?</h2>
-            <p className="mb-0">
+            <p className="mb-2">
               To guarantee your TCL central air conditioner functions efficiently in Dubai's intense heat, regular <a href="https://www.fajservices.ae/ac-maintenance-dubai/">AC maintenance</a> is essential. At FAJ, we offer expert aircon services designed to enhance your system’s performance and comfort year-round. Trust us to keep your air conditioner operating at its best.
             </p>
 
@@ -195,7 +195,7 @@ const TCLAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
                   <li> <strong>  Extreme Weather: </strong> As summer approaches, we can expect temperatures to soar above 40°C (104°F), creating discomfort. it&apos;s essential to ensure that your TCL air conditioning systems are primed for optimal performance.</li>
                   <li> <strong>  Energy Efficiency: </strong> A well-maintained TCL air conditioner operates efficiently, resulting in significant energy savings and lower DEWA electricity costs.</li>
                   <li> <strong>  Longevity of Equipment: </strong> Keeping up with the TCL AC maintenance is really important for getting the best performance and efficiency. It helps lower repair costs and can save money for both homes and businesses.</li>
-                  <li> <strong>  Improved Air Quality: </strong> Routine TCL <a href="https://www.fajservices.ae/ac-repair-dubai/" className="fw-bolder">air conditioner cleaning service</a> prevents dust and allergens from getting in, resulting in improved air quality.</li>
+                  <li> <strong>  Improved Air Quality: </strong> Routine TCL air conditioner cleaning service prevents dust and allergens from getting in, resulting in improved air quality.</li>
                   <li> <strong>  Enhanced Comfort: </strong> Regular air conditioner maintenance in Dubai is vital for optimal efficiency and a comfortable indoor environment.</li>
 
 
@@ -351,7 +351,7 @@ const TCLAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
                   <li> <strong> TCL AC Repair Service: </strong> We offer fast repair services for TCL air conditioners, addressing leaks, electrical problems, and malfunctions. Contact us for further details or inquiries! </li>
                   <li> <strong> TCL AC Annual Maintenance Contract: </strong> The contract specifies the annual maintenance terms for TCL air conditioners. </li>
                 </ul>
-                <p className="mb-0"> Regular maintenance, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is vital for optimal performance and durability.</p>
+                <p className="mb-0"> <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a>, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is vital for optimal performance and durability.</p>
               </div>
 
             </div>
@@ -553,7 +553,7 @@ const TCLAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
                 <p className="mb-0"><strong> TCL Air Conditioner Installation Service in Dubai:</strong> A comprehensive solution for your cooling needs. We specialize in high-quality TCL AC installation services in Dubai and Sharjah. Our consultation process helps you choose the right model based on your space and budget. Our experts assess factors like room size and AC insulation to recommend the best unit for optimal performance.</p>
                 <p className="mb-0"><strong>Our installation services include: </strong></p>
                 <p className="mb-0"> <strong>  Climate Check:</strong> Understanding your unique requirements based on the local climate and your building's features. </p>
-                <p className="mb-0"> <strong>  Expert AC Installation:</strong> Our <a href="https://www.facebook.com/ACRepairUAE"><b>skilled AC technicians</b></a> ensure that the AC installation is performed to the highest standards, adhering to all safety protocols. </p>
+                <p className="mb-0"> <strong>  Expert AC Installation:</strong> Our skilled AC technicians ensure that the AC installation is performed to the highest standards, adhering to all safety protocols. </p>
                 <p className="mb-0"> <strong>  Post-Installation Support:</strong> We provide advice on operating your new air conditioner, including tips on energy efficiency and maintenance. </p>
                 <p className="mb-0"> <strong>  Warranty and Service Packages:</strong> To ensure your peace of mind, we offer warranty options and additional service packages for maintenance and repair in Dubai and Sharjah. </p>
                 <p className="mb-0"> <strong>  TCL AC AMC Services in Dubai:</strong> We offer comprehensive air conditioning AMC (Annual Maintenance Contract) and PPM (Planned Preventive Maintenance) services, along with repair support, throughout the year for both contract and non-contract customers. While we are dedicated to serving all our clients, please note that those with service contracts may receive priority assistance. </p>
