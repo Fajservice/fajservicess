@@ -14,6 +14,8 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
 import AcAppointmentCol from "../../../Common/AcAppointmentCol";
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
+
 
 const LennoxAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -154,10 +156,17 @@ const LennoxAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                 </div></div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac filter.avif`} loading="lazy" alt="Gree AC Service" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac filter.avif`} loading="lazy" alt="Lennox AC Repair Service" />
               </div>
             </div>
             <AcAppointmentCol></AcAppointmentCol>
+          </div>
+        </section>
+
+        {/* AC Price Section */}
+        <section className="section cs_py_30">
+          <div className="container">
+            <FAJACPrice></FAJACPrice>
           </div>
         </section>
 

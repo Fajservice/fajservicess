@@ -14,6 +14,9 @@ import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import HeaderForm from "../../../Headeform/HeaderForm";
 import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
+import AcAppointmentCol from "../../../Common/AcAppointmentCol";
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
+
 
 const MideaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -160,7 +163,14 @@ const MideaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/ac filter.avif`} alt="Midea AC Service" />
               </div>
             </div>
-            <AppliancesAppointmentCol></AppliancesAppointmentCol>
+            <AcAppointmentCol></AcAppointmentCol>
+          </div>
+        </section>
+
+        {/* AC Price Section */}
+        <section className="section cs_py_30">
+          <div className="container">
+            <FAJACPrice></FAJACPrice>
           </div>
         </section>
 
@@ -181,10 +191,10 @@ const MideaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
               <div className="col-md-6">
                 <ul className="mb-0">
 
-                  <li> <strong> Extreme Weather: </strong> During summer, temperatures can reach over 40°C (104°F). Regular maintenance ensures that Midea air conditioning systems operate efficiently in these conditions.
+                  <li> <strong> Extreme Weather: </strong> During summer, temperatures can reach over 40°C (104°F). <a href="https://www.linkedin.com/company/faj-technical-services-llc" className="fw-bolder text-decoration-underline">Regular maintenance</a> ensures that Midea air conditioning systems operate efficiently in these conditions.
                   </li>
                   <li> <strong> Energy Efficiency: </strong> A well-maintained Midea air conditioning unit runs more efficiently, which helps save energy and reduce electricity bills.</li>
-                  <li> <strong> Longevity of Equipment: </strong> Regular Midea <a href="/ac-maintenance-dubai/">AC maintenance</a> can extend its lifespan, reduce the need for costly repairs and replacements, and ultimately save you money.
+                  <li> <strong> Longevity of Equipment: </strong> Regular Midea <a href="/ac-maintenance-dubai/" className="fw-bolder text-decoration-underline">AC maintenance</a> can extend its lifespan, reduce the need for costly repairs and replacements, and ultimately save you money.
                   </li>
                   <li> <strong> Improved Air Quality: </strong> Regular Midea AC cleaning service prevents the buildup of dust and allergens, ensuring cleaner air quality.
                   </li>
@@ -210,7 +220,7 @@ const MideaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      If you notice a decline in airflow from your vents, it may indicate a problem with your Midea AC system, such as a blocked filter or a faulty fan.
+                      If you notice a decline in airflow from your vents, it may indicate a problem with your Midea AC system, such as a <a href="https://www.youtube.com/watch?v=qnByeIsc3lY">blocked filter</a> or a faulty fan.
                     </p>
                   </div>
                 </div>
@@ -541,8 +551,8 @@ const MideaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"><strong>  Midea Split Air Conditioner Service: </strong> FAJ provides dependable repair and maintenance services for Midea AC units in Dubai. Our team consists of professionals specializing in Midea split systems, Midea VRF, and Midea central air conditioning units. </p>
-                <p className="mb-0"><strong>  Midea Central Air Conditioner Repair and Service: </strong> FAJ is a trusted service provider in Dubai, specializing in Midea air conditioning systems. They offer a range of services, including reliable repairs and regular maintenance, ensuring that your AC runs efficiently and effectively. With a focus on quality, FAJ is dedicated to keeping your space cool and comfortable. </p>
-                <p className="mb-0"><strong>  Midea AC Service and Repair: </strong> Midea <a href="https://www.fajservices.ae/ac-repair-dubai/">AC Service</a> offers peace of mind with our skilled technicians. At FAJ, we prioritize efficiency and reliability in servicing your air conditioning. Whether you need maintenance, repairs, or installation, our expert team is dedicated to keeping your HVAC system running optimally. Trust us for all your comfort needs! </p>
+                <p className="mb-0"><strong>  Midea Central Air Conditioner Repair and Service: </strong> FAJ is a trusted service provider in Dubai, specializing in <a href="https://www.fajservices.ae/ac-repair-dubai/">Midea air conditioning systems</a>. They offer a range of services, including reliable repairs and regular maintenance, ensuring that your AC runs efficiently and effectively. With a focus on quality, FAJ is dedicated to keeping your space cool and comfortable. </p>
+                <p className="mb-0"><strong>  Midea AC Service and Repair: </strong> Midea AC Service offers peace of mind with our skilled technicians. At FAJ, we prioritize efficiency and reliability in servicing your air conditioning. Whether you need maintenance, repairs, or installation, our expert team is dedicated to keeping your HVAC system running optimally. Trust us for all your comfort needs! </p>
                 <p className="mb-0"><strong>  Midea Inverter Air Conditioner Maintenance: </strong> Count on our expert team to quickly fix any problems with your Midea air conditioner and restore its full functionality. </p>
                 <p className="mb-0"><strong>  Midea HVAC Repair: </strong> With extensive knowledge of Midea cassette type and package unit air conditioning systems, we provide reliable repairs to ensure your unit functions efficiently. </p>
                 <p className="mb-0"><strong>  Midea Ceiling AC Service and Repair: </strong> Our experts can accurately diagnose and fix any issues with your Midea air conditioner. </p>

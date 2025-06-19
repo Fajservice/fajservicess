@@ -9,11 +9,12 @@ import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContrac
 import testimonial_data_OGeneralAc from '../../../../Data/AcData/AcTestimonial/OGeneralAcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";
-import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import HeaderForm from "../../../Headeform/HeaderForm";
 import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
+import AcAppointmentCol from "../../../Common/AcAppointmentCol";
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 
 const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -109,11 +110,11 @@ const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
         <section className="section cs_py_30">
 
           <div className="container">
-            <h1 className="fs_cs_30">O General AC Repair in Dubai – AC Maintenance Service</h1>
+            <h1 className=" cs_fs_30">O General AC Repair in Dubai – AC Maintenance Service</h1>
             <p>
               Enjoy enhanced comfort year-round by eliminating sticky summer days, stuffy nights, and allergens with clean air.
               <br />
-              <a href="https://www.fajservices.ae/">F A J Technical Services L.L.C</a> has been providing reliable O General air conditioning solutions in Dubai and Sharjah since 2010. Our expert team is dedicated to O General AC cleaning service, maintenance, repairs, and installation of a wide range of residential and commercial AC units to ensure optimal performance and comfort.
+              <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been providing reliable O General air conditioning solutions in Dubai and Sharjah since 2010. Our expert team is dedicated to O General AC cleaning service, maintenance, repairs, and installation of a wide range of residential and commercial AC units to ensure optimal performance and comfort.
 
             </p>
 
@@ -133,7 +134,7 @@ const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
               <div className="col-md-6">
                 <h2 className="cs_fs_24 mb-1">O General Ac Maintenance and Servicing</h2>
                 <p className="mb-2">For O General air conditioning unit repairs, it’s essential to choose  a skilled technician.
-                  <br />Our dedicated team specialises in <a href="https://www.fajservices.ae/ac-repair-dubai/">AC service</a> and maintenance across Dubai and Sharjah. FAJ is committed to providing reliable solutions that enhance indoor comfort year-round and ensure your system operates efficiently.
+                  <br />Our dedicated team specialises in AC service and maintenance across Dubai and Sharjah. FAJ is committed to providing reliable solutions that enhance indoor comfort year-round and ensure your system operates efficiently.
                 </p>
                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
@@ -159,8 +160,15 @@ const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="O General Ac Repair" />
               </div>
             </div>
-            <AppliancesAppointmentCol></AppliancesAppointmentCol>
+            <AcAppointmentCol></AcAppointmentCol>
 
+          </div>
+        </section>
+
+        {/* AC Price Section */}
+        <section className="section cs_py_30">
+          <div className="container">
+            <FAJACPrice></FAJACPrice>
           </div>
         </section>
 
@@ -531,12 +539,12 @@ const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
             <h3>We specialise in O General ac services for the following types</h3>
             <div className="row">
               <div className="col-12">
-                <p className="mb-0"><strong> O General Split Air Conditioner Service: </strong> FAJ offers reliable repair and maintenance for O General split air conditioner in Dubai. Our expert team specialises in O General VRF and central AC, ensuring optimal performance and comfort. Count on us for both routine AC maintenance and urgent repairs. </p>
+                <p className="mb-0"><strong> O General Split Air Conditioner Service: </strong> FAJ offers reliable repair and maintenance for O General split air conditioner in Dubai. Our expert team specialises in O General VRF and central AC, ensuring optimal performance and comfort. Count on us for both routine <a href="/ac-maintenance-dubai/">AC maintenance</a> and urgent repairs. </p>
                 <p className="mb-0"><strong> O General Central Air Conditioner Repair and Service: </strong> FAJ is a leading aircon service provider in Dubai, specialising in the AC installation, repair, and maintenance of O General air conditioner. Known for its commitment to excellence, the company provides a wide range of ac services aimed at ensuring the optimal efficiency of air conditioning units. </p>
                 <p className="mb-0"><strong> O General AC Service and Repair: </strong> O General AC Service provides peace of mind with our skilled technicians. At FAJ, we specialise in efficient and reliable AC maintenance, repair, and installation. You can trust our expert team to keep your HVAC system running smoothly and ensure your comfort throughout the year! </p>
                 <p className="mb-0"><strong> O General Inverter Air Conditioner Maintenance: </strong> Count on our dedicated team to promptly resolve any concerns with your O General air conditioner maintenance and bring it back to peak performance! </p>
                 <p className="mb-0"><strong> O General HVAC Repair: </strong> We have extensive expertise in O General cassette and package unit AC systems, providing reliable repairs to ensure your unit operates efficiently. </p>
-                <p className="mb-0"><strong> O General Ceiling AC Service and Repair: </strong> Our specialists can quickly diagnose and resolve any issues with your O General ceiling AC repair and service. </p>
+                <p className="mb-0"><strong> O General Ceiling AC Service and Repair: </strong> Our specialists can quickly diagnose and resolve any issues with your O General ceiling <a href="/ac-repair-dubai/">AC repair</a> and service. </p>
                 <p className="mb-0"><strong> O General VRF (Variable Refrigerant Flow) System Service and Repair: </strong> FAJ's O General Variable Refrigerant Flow (VRF) repair and maintenance service provides reliable and efficient HVAC solutions customised to meet your needs. <br />
                   Our skilled team prioritises your comfort and satisfaction, delivering exceptional service and peace of mind. You can trust us to manage your climate control with expertise and care. </p>
                 <p className="mb-0"><strong> O General Ducted Split AC Service and Repair: </strong> For reliable O General ducted split air conditioner (AC) repair and maintenance in Dubai, our skilled technicians are here to help. With expertise in diagnosing a variety of AC issues, we ensure minimal disruption to your comfort. Trust us for quick and effective service that provides the cooling relief you need. </p>
@@ -674,7 +682,9 @@ const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>
-                    <p className="mb-0">{item.desc}</p>
+                    <p className="mb-0"
+                      dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
+                    ></p>
                   </div>
                 </div>
               ))}

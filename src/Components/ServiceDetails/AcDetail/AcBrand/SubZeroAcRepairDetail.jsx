@@ -15,6 +15,9 @@ import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
 import AcAppointmentCol from "../../../Common/AcAppointmentCol";
 
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
+
+
 const SubZeroAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
@@ -160,6 +163,13 @@ const SubZeroAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
               </div>
             </div>
             <AcAppointmentCol></AcAppointmentCol>
+          </div>
+        </section>
+
+        {/* AC Price Section */}
+        <section className="section cs_py_30">
+          <div className="container">
+            <FAJACPrice></FAJACPrice>
           </div>
         </section>
 
@@ -334,7 +344,7 @@ const SubZeroAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                   <li> <strong>  Sub Zero AC Repair Service: </strong> We offer fast repair services for Sub Zero air conditioners, addressing leaks, electrical problems, and malfunctions. Contact us for further details or inquiries! </li>
                   <li> <strong>  Sub Zero AC Annual Maintenance Contract: </strong> The contract specifies the annual maintenance terms for Sub Zero air conditioners.  </li>
                 </ul>
-                <p className="mb-0">  Regular maintenance, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is vital for optimal performance and durability.
+                <p className="mb-0"> <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a>, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is vital for optimal performance and durability.
                 </p>
               </div>
 
@@ -534,12 +544,12 @@ const SubZeroAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
             <h3>We specialise in Sub Zero AC services for the following types</h3>
             <div className="row">
               <div className="col-12">
-                <p className="mb-0"><strong>   Sub Zero Air Conditioner Installation Service in Dubai: </strong> A comprehensive solution for your cooling needs. We specialize in high-quality Sub Zero <a href="https://www.fajservices.ae/ac-service-in-dubai/"> AC installation services</a> in Dubai and Sharjah. Our consultation process helps you choose the right model based on your space and budget. Our experts assess factors like room size and AC insulation to recommend the best unit for optimal performance.</p>
+                <p className="mb-0"><strong>   Sub Zero Air Conditioner Installation Service in Dubai: </strong> A comprehensive solution for your cooling needs. We specialize in high-quality Sub Zero AC installation services in Dubai and Sharjah. Our consultation process helps you choose the right model based on your space and budget. Our experts assess factors like room size and AC insulation to recommend the best unit for optimal performance.</p>
 
                 <p className="mb-0"><strong> Our installation services include:</strong> </p>
 
                 <p className="mb-0"> <strong>  Climate Check: </strong> Understanding your unique requirements based on the local climate and your building's features.</p>
-                <p className="mb-0"> <strong>  Expert AC Installation: </strong> Our <a href="https://www.facebook.com/ACRepairUAE"><b>skilled AC technicians</b></a> ensure that the AC installation is performed to the highest standards, adhering to all safety protocols.</p>
+                <p className="mb-0"> <strong>  Expert AC Installation: </strong> Our skilled AC technicians ensure that the AC installation is performed to the highest standards, adhering to all safety protocols.</p>
                 <p className="mb-0"> <strong>  Post-Installation Support: </strong> We provide advice on operating your new air conditioner, including tips on energy efficiency and maintenance.</p>
                 <p className="mb-0"> <strong>  Warranty and Service Packages: </strong> To ensure your peace of mind, we offer warranty options and additional service packages for maintenance and repair in Dubai and Sharjah.</p>
                 <p className="mb-0"> <strong>  Sub Zero AC AMC Services in Dubai: </strong> We offer comprehensive air conditioning AMC (Annual Maintenance Contract) and PPM (Planned Preventive Maintenance) services, along with repair support, throughout the year for both contract and non-contract customers. While we are dedicated to serving all our clients, please note that those with service contracts may receive priority assistance.</p>

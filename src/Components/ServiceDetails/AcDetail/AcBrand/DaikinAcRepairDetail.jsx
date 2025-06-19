@@ -14,6 +14,9 @@ import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import HeaderForm from "../../../Headeform/HeaderForm";
 import AcProperties from "../../../Common/AcProperties";
 import Practicaltip from "../../../Common/Practicaltip";
+import AcAppointmentCol from "../../../Common/AcAppointmentCol";
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
+
 
 const DaikinAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -86,7 +89,7 @@ const DaikinAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
         <meta name="robots" content="index, follow" />
 
         <link rel="canonical" href={metaURL} />
-          <meta property="og:type" content="website" />
+        <meta property="og:type" content="website" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:title" content={metatitle} />
         <meta property="og:description" content={metadescription} />
@@ -162,7 +165,14 @@ const DaikinAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/daikin-ac-repair.avif`} alt="Daikin AC Service" />
               </div>
             </div>
-            <AppliancesAppointmentCol />
+            <AcAppointmentCol></AcAppointmentCol>
+          </div>
+        </section>
+
+        {/* AC Price Section */}
+        <section className="section cs_py_30">
+          <div className="container">
+            <FAJACPrice></FAJACPrice>
           </div>
         </section>
 
@@ -339,7 +349,7 @@ const DaikinAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                   <li> <strong> Daikin AC Installation: </strong> Professional installation of various Daikin air conditioning systems to guarantee optimal performance. </li>
                   <li> <strong> Daikin AC Diagnostics: </strong> Comprehensive fault diagnosis to accurately identify issues. We offer eligibility assessments and detailed quotes to address any concerns regarding your system. </li>
                   <li> <strong> Daikin AC Repair Service: </strong> We provide prompt and effective repair services for all Daikin AC components, addressing issues such as leaks, electrical failures, and system malfunctions. Contact us for specific services or any questions you may have! </li>
-                  <li> <strong> Daikin AC Annual Maintenance Contract: </strong> This contract details the terms and services for Daikin <a href="https://www.fajservices.ae/ac-annual-maintenance-contract/"><strong>AC annual maintenance</strong></a>. Regular maintenance of Daikin AC systems (AMC / PPM) is essential for ensuring optimal performance, efficiency, and longevity. </li>
+                  <li> <strong> Daikin AC Annual Maintenance Contract: </strong> This contract details the terms and services for Daikin AC annual maintenance. Regular maintenance of Daikin AC systems (AMC / PPM) is essential for ensuring optimal performance, efficiency, and longevity. </li>
 
 
                 </ul>
@@ -354,7 +364,7 @@ const DaikinAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-10 text-center">
-                <h2 className="cs_fs_30 text-light">Benefits Of Regular Midea AC Service and Maintenance in Dubai </h2>
+                <h2 className="cs_fs_30 text-light">Benefits Of Regular Daikin AC Service and Maintenance in Dubai </h2>
 
                 <div className="row mt-4 gx-4 gy-4">
                   <div className="col-md-4 mb-2">
@@ -527,7 +537,7 @@ const DaikinAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
             </div>
           </div>
         </section>
- 
+
         {/* We specialise  */}
         <section className="section cs_py_30 bg-light-gray ">
           <div className="container">
@@ -611,7 +621,7 @@ const DaikinAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
 
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
-          
+
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
               <h3 className="cs_section_subtitle cs_fs_18 text-black cs_semibold text-uppercase cs_mb_12 wow fadeInDown">
@@ -659,7 +669,7 @@ const DaikinAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
               </div>
             </div>
           </div>
-          
+
         </section>
 
         {/* FAQ&apos;spos;s */}

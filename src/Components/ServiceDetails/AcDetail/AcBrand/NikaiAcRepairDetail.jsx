@@ -16,6 +16,8 @@ import AcProperties from "../../../Common/AcProperties";
 import Practicaltip from "../../../Common/Practicaltip";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
+
 const NikaiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
 
@@ -174,6 +176,13 @@ const NikaiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* AC Price Section */}
+        <section className="section cs_py_30">
+          <div className="container">
+            <FAJACPrice></FAJACPrice>
           </div>
         </section>
 

@@ -14,6 +14,9 @@ import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
 import AcAppointmentCol from "../../../Common/AcAppointmentCol";
 
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
+
+
 const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
@@ -160,6 +163,13 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
           </div>
         </section>
 
+        {/* AC Price Section */}
+        <section className="section cs_py_30">
+          <div className="container">
+            <FAJACPrice></FAJACPrice>
+          </div>
+        </section>
+
         {/* Why*/}
         <section className="section cs_py_30">
           <div className="container">
@@ -181,9 +191,9 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                 <ul className="mb-0">
                   <li> <strong> Extreme Weather: </strong> During excessively warm summer months, temperatures may exceed 40°C (104°F). It is essential to ensure that your Ruud air conditioning systems are operating effectively. </li>
                   <li> <strong> Energy Efficiency: </strong> A well-maintained Ruud air conditioner runs efficiently, leading to significant energy savings and lower DEWA electricity costs. </li>
-                  <li> <strong> Longevity of Equipment: </strong> Regular Ruud <a href="https://www.fajservices.ae/ac-maintenance-dubai/"><b>AC maintenance</b></a> is essential for optimal performance and efficiency, helping to reduce repair costs and save money for both residential and commercial properties. </li>
+                  <li> <strong> Longevity of Equipment: </strong> Regular Ruud <a href="https://www.fajservices.ae/ac-maintenance-dubai/" className="fw-bold text-decoration-underline">AC maintenance</a> is essential for optimal performance and efficiency, helping to reduce repair costs and save money for both residential and commercial properties. </li>
                   <li> <strong> Improved Air Quality: </strong> Routine Ruud AC cleaning service not only prevents dust and allergens from entering our spaces, but also elevates the air quality we breathe and fosters a healthier environment. </li>
-                  <li> <strong> Enhanced Comfort: </strong> <a href="https://www.linkedin.com/company/faj-technical-services-llc"><b>Regular maintenance</b></a> of Ruud air conditioners in Dubai is essential for optimal comfort and efficiency, ensuring a pleasant indoor environment daily. </li>
+                  <li> <strong> Enhanced Comfort: </strong> <a href="https://www.linkedin.com/company/faj-technical-services-llc" className="fw-bold text-decoration-underline">Regular maintenance</a> of Ruud air conditioners in Dubai is essential for optimal comfort and efficiency, ensuring a pleasant indoor environment daily. </li>
                 </ul>
               </div>
             </div>
@@ -204,7 +214,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      <a href="https://www.youtube.com/watch?v=qnByeIsc3lY">Reduced airflow</a> from Ruud AC ducts may mean a blocked filter or faulty motor. Promptly addressing these issues is essential for efficient cooling and extending the lifespan of your system.
+                      <a href="https://www.youtube.com/watch?v=qnByeIsc3lY">Reduced airflow</a> from Ruud AC ducts may signal a blocked filter or faulty motor. Addressing these issues ensures efficient cooling and longer system life.
                     </p>
                   </div>
                 </div>
@@ -539,7 +549,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
 
                 <p className="mb-0"> <strong>   Ruud Split Air Conditioner Service: </strong> FAJ is a reliable provider Ruud AC repair and maintenance services in Dubai. Our trained technicians specialize in Ruud VRF central AC units, providing optimal performance. Whether you need routine aircon maintenance or urgent repairs, we are committed to delivering exceptional, tailored service to meet your needs. Your comfort is our priority.</p>
                 <p className="mb-0"> <strong>   Ruud Central Air Conditioner Repair and Service: </strong> FAJ is a leading service provider for Ruud air conditioner repair and maintenance in Dubai. The company adeptly meets the needs of its clients, ensuring high-quality service and customer satisfaction, whether for routine maintenance or urgent repair.</p>
-                <p className="mb-0"> <strong>   Ruud AC Service and Repair: </strong> At Ruud AC Service, we offer you peace of mind through our team of experienced technicians. At <a href="https://www.fajservices.ae/">FAJ</a>, we focus on providing efficient and dependable Ruud AC maintenance, repair, and installation. You can count on our expert team to keep your HVAC system in top shape, ensuring your comfort all year round!</p>
+                <p className="mb-0"> <strong>   Ruud AC Service and Repair: </strong> At Ruud AC Service, we offer you peace of mind through our team of experienced technicians. At <a href="https://fajservices.ae/">FAJ</a>, we focus on providing efficient and dependable Ruud AC maintenance, repair, and installation. You can count on our expert team to keep your HVAC system in top shape, ensuring your comfort all year round!</p>
                 <p className="mb-0"> <strong>   Ruud Inverter Air Conditioner Maintenance: </strong> Depend on our dedicated team to swiftly address and resolve any issues with your Ruud air conditioner maintenance, ensuring it is restored to peak performance without delay!</p>
                 <p className="mb-0"> <strong>  Ruud HVAC Repair: </strong> We specialize in Ruud cassette AC and package unit AC systems, offering reliable repairs to ensure your unit operates efficiently.</p>
                 <p className="mb-0"> <strong>   Ruud Ceiling AC Service and Repair: </strong> Our specialists can quickly diagnose and resolve any issues with your Ruud ceiling AC repair and ducted split AC service.</p>

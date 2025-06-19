@@ -17,6 +17,9 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
 
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
+
+
 const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
 
@@ -173,6 +176,12 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
           </div>
         </section>
 
+        {/* AC Price Section */}
+        <section className="section cs_py_30">
+          <div className="container">
+            <FAJACPrice></FAJACPrice>
+          </div>
+        </section>
 
         {/* Why is AC Maintenance Service Important in Dubai? */}
         <section className="section cs_py_30 bg-light-gray">

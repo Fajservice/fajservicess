@@ -14,6 +14,9 @@ import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import HeaderForm from "../../../Headeform/HeaderForm";
 import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
+import AcAppointmentCol from "../../../Common/AcAppointmentCol";
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
+
 
 const SamsungAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -82,30 +85,30 @@ const SamsungAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
 
 
       <HelmetProvider>
-         <Helmet>
-    
-    <title>{metatitle}</title>
-    <meta name="description" content={metadescription} />
-    <meta name="keywords" content={metaKeyword} />
-    <meta name="author" content={metaAuthor} />
-    <meta name="robots" content="index, follow" />
+        <Helmet>
+
+          <title>{metatitle}</title>
+          <meta name="description" content={metadescription} />
+          <meta name="keywords" content={metaKeyword} />
+          <meta name="author" content={metaAuthor} />
+          <meta name="robots" content="index, follow" />
 
 
-    <link rel="canonical" href={metaURL} />
+          <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:title" content={metatitle} />
-    <meta property="og:description" content={metadescription} />
-    <meta property="og:url" content={metaURL} />
-    <meta property="og:image" content={metaImage} />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:title" content={metatitle} />
+          <meta property="og:description" content={metadescription} />
+          <meta property="og:url" content={metaURL} />
+          <meta property="og:image" content={metaImage} />
 
-    {/* Twitter Card */}
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content={metatitle} />
-    <meta name="twitter:description" content={metadescription} />
-    <meta name="twitter:image" content={metaImage} />
-    <meta name="twitter:url" content={metaURL} />
-  </Helmet>
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metatitle} />
+          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
+        </Helmet>
       </HelmetProvider>
       <HeaderForm />
 
@@ -115,11 +118,9 @@ const SamsungAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <div className="container">
             <h1 className="cs_fs_30">Samsung AC Repair in Dubai – Samsung AC Maintenance Service</h1>
             <p>
-
               Maintaining comfort throughout the year requires addressing various challenges, including high humidity on summer days, warm nights, and indoor allergens.
-              Since its establishment in 2010,  <a href="https://www.fajservices.ae/">F A J Technical Services L.L.C</a> has been a reliable provider of Samsung air conditioning solutions in the Dubai and Sharjah regions. Our experienced team is trained in a variety of services, including Samsung AC cleaning service, maintenance, repair, and installation for both residential and commercial units. We are dedicated to ensuring that your air conditioning system functions at its best, thereby enhancing your indoor comfort.
+              Since its establishment in 2010,  <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been a reliable provider of Samsung air conditioning solutions in the Dubai and Sharjah regions. Our experienced team is trained in a variety of services, including Samsung AC cleaning service, maintenance, repair, and installation for both residential and commercial units. We are dedicated to ensuring that your air conditioning system functions at its best, thereby enhancing your indoor comfort.
             </p>
-
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -166,7 +167,14 @@ const SamsungAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Samsung AC Service" />
               </div>
             </div>
-            <AppliancesAppointmentCol></AppliancesAppointmentCol>
+            <AcAppointmentCol></AcAppointmentCol>
+          </div>
+        </section>
+
+        {/* AC Price Section */}
+        <section className="section cs_py_30">
+          <div className="container">
+            <FAJACPrice></FAJACPrice>
           </div>
         </section>
 
@@ -176,7 +184,7 @@ const SamsungAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
 
             <h2 className="cs_fs_30">Why is Samsung AC Maintenance Service Important in Dubai?</h2>
             <p className="mb-0">
-              To ensure your Samsung central air conditioner runs smoothly in Dubai's heat, regular aircon maintenance is essential. At FAJ, we offer expert ac services to ensure optimal cooling and comfort year-round. We&apos;re here to help your system perform at its best!
+              To ensure your Samsung central air conditioner runs smoothly in Dubai's heat, regular <a href="/ac-maintenance-dubai/">aircon maintenance</a> is essential. At FAJ, we offer expert ac services to ensure optimal cooling and comfort year-round. We&apos;re here to help your system perform at its best!
 
             </p>
 
@@ -343,10 +351,9 @@ const SamsungAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                   <li> <strong> Samsung AC Installation: </strong> The professional installation of various Samsung air conditioning systems ensures optimal performance.</li>
                   <li> <strong> Samsung AC Inspection: </strong> We offer accurate fault diagnosis to pinpoint system issues, along with comprehensive quotes and eligibility assessments to address your concerns.</li>
                   <li> <strong> Samsung AC Repair Service: </strong> We offer fast repair services for Samsung air conditioners, addressing leaks, electrical problems, and malfunctions. Contact us for further details or inquiries!</li>
-                  <li> <strong> Samsung AC Annual Maintenance Contract: </strong> The contract specifies the annual maintenance terms for Samsung air conditioners. Regular maintenance, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is vital for optimal performance and durability.</li>
-
-
+                  <li> <strong> Samsung AC Annual Maintenance Contract: </strong> The contract specifies the annual maintenance terms for Samsung air conditioners. </li>
                 </ul>
+                <p className="mb-0"><a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a>, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is vital for optimal performance and durability.</p>
               </div>
 
             </div>
@@ -554,7 +561,7 @@ const SamsungAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                 <p className="mb-0">  <strong>  Samsung Ceiling AC Service and Repair: </strong> Our specialists can quickly diagnose and resolve any issues with your Samsung ceiling AC repair and service. </p>
                 <p className="mb-0">  <strong>  Samsung VRF (Variable Refrigerant Flow) System Service and Repair: </strong> FAJ's Samsung Variable Refrigerant Flow (VRF) repair and maintenance services provide efficient HVAC solutions tailored to your needs. Our expert team prioritizes your comfort and satisfaction, ensuring reliable service and peace of mind in managing your climate control requirements. </p>
                 <p className="mb-0">  <strong> Samsung Ducted Split AC Service and Repair: </strong> For reliable Samsung AC repair and maintenance in Dubai, our experienced technicians are ready to assist you. With expertise in diagnosing a variety of Samsung AC issues and resolving error codes, we guarantee minimal disruption to your comfort. Trust us for prompt and effective service that delivers the cooling relief you need. </p>
-                <p className="">  <strong>  Samsung Wall-Mounted Air Conditioner Service and Repair: </strong> Stay cool in the extreme heat of Dubai with our professional Samsung air conditioning repair and maintenance services. We are dedicated to ensuring your unit operates at its best, helping you maintain a comfortable indoor environment even when outdoor temperatures soar. </p>
+                <p className="">  <strong>  Samsung Wall-Mounted Air Conditioner Service and Repair: </strong> Stay cool in the extreme heat of Dubai with our professional <a href="/ac-repair-dubai/">Samsung air conditioning repair</a> and maintenance services. We are dedicated to ensuring your unit operates at its best, helping you maintain a comfortable indoor environment even when outdoor temperatures soar. </p>
 
                 <p>
                   <a href="https://www.fajservices.ae/ac-repair-in-al-barsha-air-condition-maintenance-in-al-barsha-air-conditioning-fix-amc-service-in-al-barsha-dubai/">Al Barsha</a> &nbsp;|&nbsp;

@@ -22,8 +22,8 @@ import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 const AcRepairInJumeirahDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Home Appliances Service in Jumeirah - Washing Machine Repair");
-    const metadescription = String(description || "FAJ offering home appliances service in Jumeirah. Book an 043300002 for Siemens, Bosch, Daewoo, Electrolux, Teka refrigerator, fridge, oven repair");
+    const metatitle = String(titleSeo || "Fast AC Services In Jumeirah - Air Condition Repairing");
+    const metadescription = String(description || "Book an 043300002 for Best AC Services in Jumeirah Dubai. We are experts in central & split AC (Air Conditioning) maintenance service near me");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "ac services in deira, ac repair in deira, ac maintenance in deira, ac service near me, ac repair near me, ac maintenance near me, air conditioning services in deira, air conditioning repair in deira, air conditioning maintenance in deira, aircon compressor fixing in deira");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jumeirah/").replace(/\/?$/, '/');

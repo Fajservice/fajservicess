@@ -9,7 +9,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-
+  // Memoize share URL and blog title to prevent recalculation
   const shareUrl = useMemo(() => 
     blogPost ? `${window.location.origin}/blog/${slug}` : '', 
     [blogPost, slug]
@@ -32,7 +32,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
       if (post) {
         setBlogPost(post);
       } else {
-
+        // Better fallback handling
         if (data && data.length > 0) {
           setBlogPost(data[0]);
         } else {
@@ -47,10 +47,19 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
     }
   }, [slug]);
 
-
+  // Enhanced function to handle both custom Link tags and regular HTML
   const renderParagraphWithLinks = (paragraph) => {
     if (!paragraph || typeof paragraph !== 'string') return paragraph;
     
+    // Check if the paragraph contains HTML tags other than our custom Link tags
+    const hasRegularHTML = /<(?!Link|\/Link|b|\/b)[a-zA-Z]/i.test(paragraph);
+    
+    if (hasRegularHTML) {
+      // If it contains regular HTML, we need to parse it differently
+      return renderMixedContent(paragraph);
+    }
+    
+    // Original logic for Link and b tags only
     const parts = [];
     const tagRegex = /<Link url="(.*?)">(.*?)<\/Link>|<b>(.*?)<\/b>/g;
     let lastIndex = 0;
@@ -67,12 +76,12 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
         }
 
         if (linkUrl && linkText) {
-
+          // Check if it's a full URL (http/https) or starts with domain
           const isFullUrl = linkUrl.startsWith('http://') || linkUrl.startsWith('https://') || linkUrl.startsWith('www.');
           const isAbsolutePath = linkUrl.startsWith('/');
           
           if (isFullUrl) {
-
+            // Handle full URLs - ensure they use HTTPS
             let finalUrl = linkUrl;
             if (linkUrl.startsWith('http://')) {
               finalUrl = linkUrl.replace('http://', 'https://');
@@ -86,7 +95,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
               </a>
             );
           } else if (isAbsolutePath) {
-
+            // Handle absolute paths - convert to full HTTPS URLs
             const fullUrl = `https://www.fajservices.ae${linkUrl}`;
             parts.push(
               <a key={`link-${key++}`} href={fullUrl} target="_blank" rel="noopener noreferrer">
@@ -94,6 +103,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
               </a>
             );
           } else {
+            // Handle relative paths with React Router
             parts.push(
               <Link key={`router-link-${key++}`} to={linkUrl}>
                 {linkText}
@@ -107,17 +117,151 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
         lastIndex = match.index + fullMatch.length;
       }
 
+      // Push remaining text after last match
       if (lastIndex < paragraph.length) {
         parts.push(paragraph.slice(lastIndex));
       }
 
-
+      // Reset regex lastIndex for next use
       tagRegex.lastIndex = 0;
 
       return parts.length > 0 ? <>{parts}</> : paragraph;
     } catch (err) {
       console.error("Error parsing paragraph links:", err);
-      return paragraph; 
+      return paragraph; // Return original text if parsing fails
+    }
+  };
+
+  // New function to handle mixed content with HTML and custom Link tags
+  const renderMixedContent = (content) => {
+    try {
+      // First, replace custom Link tags with placeholder tokens
+      let processedContent = content;
+      const linkMap = new Map();
+      let linkCounter = 0;
+      
+      const linkRegex = /<Link url="(.*?)">(.*?)<\/Link>/g;
+      let linkMatch;
+      
+      while ((linkMatch = linkRegex.exec(content)) !== null) {
+        const [fullMatch, linkUrl, linkText] = linkMatch;
+        const token = `__LINK_${linkCounter}__`;
+        linkMap.set(token, { url: linkUrl, text: linkText });
+        processedContent = processedContent.replace(fullMatch, token);
+        linkCounter++;
+        linkRegex.lastIndex = 0; // Reset for next iteration
+        processedContent = content.replace(linkRegex, (match, url, text) => {
+          const token = `__LINK_${linkCounter}__`;
+          linkMap.set(token, { url, text });
+          linkCounter++;
+          return token;
+        });
+        break; // Process one at a time to avoid regex issues
+      }
+      
+      // Now parse the HTML with tokens
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(`<div>${processedContent}</div>`, 'text/html');
+      
+      const convertNodeToReact = (node, index = 0) => {
+        if (node.nodeType === Node.TEXT_NODE) {
+          let text = node.textContent;
+          
+          // Replace link tokens with React components
+          for (const [token, linkData] of linkMap) {
+            if (text.includes(token)) {
+              const parts = text.split(token);
+              if (parts.length > 1) {
+                const result = [];
+                for (let i = 0; i < parts.length; i++) {
+                  if (parts[i]) result.push(parts[i]);
+                  if (i < parts.length - 1) {
+                    // Create the link component
+                    const isFullUrl = linkData.url.startsWith('http://') || linkData.url.startsWith('https://') || linkData.url.startsWith('www.');
+                    const isAbsolutePath = linkData.url.startsWith('/');
+                    
+                    if (isFullUrl) {
+                      let finalUrl = linkData.url;
+                      if (linkData.url.startsWith('http://')) {
+                        finalUrl = linkData.url.replace('http://', 'https://');
+                      } else if (linkData.url.startsWith('www.')) {
+                        finalUrl = 'https://' + linkData.url;
+                      }
+                      
+                      result.push(
+                        <a key={`mixed-link-${index}-${i}`} href={finalUrl} target="_blank" rel="noopener noreferrer">
+                          {linkData.text}
+                        </a>
+                      );
+                    } else if (isAbsolutePath) {
+                      const fullUrl = `https://www.fajservices.ae${linkData.url}`;
+                      result.push(
+                        <a key={`mixed-link-${index}-${i}`} href={fullUrl} target="_blank" rel="noopener noreferrer">
+                          {linkData.text}
+                        </a>
+                      );
+                    } else {
+                      result.push(
+                        <Link key={`mixed-router-link-${index}-${i}`} to={linkData.url}>
+                          {linkData.text}
+                        </Link>
+                      );
+                    }
+                  }
+                }
+                return result;
+              }
+            }
+          }
+          
+          return text;
+        } else if (node.nodeType === Node.ELEMENT_NODE) {
+          const children = Array.from(node.childNodes).map((child, childIndex) => 
+            convertNodeToReact(child, childIndex)
+          ).flat();
+          
+          const props = { key: `element-${index}` };
+          
+          switch (node.tagName.toLowerCase()) {
+            case 'ul':
+              return <ul {...props}>{children}</ul>;
+            case 'ol':
+              return <ol {...props}>{children}</ol>;
+            case 'li':
+              return <li {...props}>{children}</li>;
+            case 'p':
+              return <p {...props}>{children}</p>;
+            case 'div':
+              return <div {...props}>{children}</div>;
+            case 'span':
+              return <span {...props}>{children}</span>;
+            case 'strong':
+            case 'b':
+              return <strong {...props}>{children}</strong>;
+            case 'em':
+            case 'i':
+              return <em {...props}>{children}</em>;
+            case 'br':
+              return <br {...props} />;
+            default:
+              return <span {...props}>{children}</span>;
+          }
+        }
+        
+        return null;
+      };
+      
+      const rootDiv = doc.querySelector('div');
+      const children = Array.from(rootDiv.childNodes).map((child, index) => 
+        convertNodeToReact(child, index)
+      ).flat();
+      
+      return <>{children}</>;
+      
+    } catch (err) {
+      console.error("Error parsing mixed content:", err);
+      // Fallback to dangerouslySetInnerHTML
+      return <div dangerouslySetInnerHTML={{ __html: content }} />;
     }
   };
 
@@ -176,6 +320,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
     }
   };
 
+  // Helper function to render sections dynamically (reduces code duplication)
   const renderSection = (sectionName) => {
     const h2Key = `${sectionName}_h2`;
     const h2PKey = `${sectionName}_h2_p`;
@@ -317,7 +462,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                       
                       return (
                         <div key={`faq_${i + 1}`}>
-                          <h3 className="cs_fs_24">{blogPost[faqH3Key]}</h3>
+                          <h3>{blogPost[faqH3Key]}</h3>
                           {renderContent(blogPost[faqPKey])}
                         </div>
                       );

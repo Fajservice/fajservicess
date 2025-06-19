@@ -16,6 +16,9 @@ import AcProperties from "../../../Common/AcProperties";
 import AcAppointmentCol from "../../../Common/AcAppointmentCol";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
+
+
 const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
@@ -161,6 +164,13 @@ const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
               </div>
             </div>
             <AcAppointmentCol></AcAppointmentCol>
+          </div>
+        </section>
+
+        {/* AC Price Section */}
+        <section className="section cs_py_30">
+          <div className="container">
+            <FAJACPrice></FAJACPrice>
           </div>
         </section>
 
@@ -337,7 +347,7 @@ const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
                   <li> <strong>  SKM AC Repair Service: </strong> We offer fast repair services for SKM air conditioners, addressing leaks, electrical problems, and malfunctions. Contact us for more information!</li>
                   <li> <strong>  SKM AC Annual Maintenance Contract: </strong> The contract details the annual maintenance requirements for SKM AC.</li>
                 </ul>
-                <p className="mb-0"><a href="/ac-maintenance-dubai/">Regular maintenance</a>, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is essential for ensuring optimal performance and longevity.</p>
+                <p className="mb-0"><a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a>, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is essential for ensuring optimal performance and longevity.</p>
               </div>
 
             </div>

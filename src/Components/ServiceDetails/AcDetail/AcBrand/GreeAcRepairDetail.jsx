@@ -13,6 +13,8 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
 import AcAppointmentCol from "../../../Common/AcAppointmentCol";
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
+
 
 const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -22,7 +24,7 @@ const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Gree AC Repair, Gree AC Service, Gree Air Conditioner Maintenance, Gree AC Repair Dubai, Gree AC Service Dubai, Gree Air Conditioner Repair Dubai, Gree AC Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/gree-ac-repair-in-dubai/").replace(/\/?$/, '/');
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
 
 
   subtitle = "Testimonial"
@@ -110,7 +112,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filt
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Best Gree AC Repair in Dubai – Air Conditioner Maintenance</h1>
-            <p>Our company, <a href="https://www.fajservices.ae/"> F A J Technical Services L.L.C</a>, has been established since 2010. We have a dedicated facilities team with extensive experience in AC repair, maintenance services, and installation in Dubai and Sharjah for various residential and commercial air conditioning units.
+            <p>Our company, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"> F A J Technical Services L.L.C</a>, has been established since 2010. We have a dedicated facilities team with extensive experience in AC repair, maintenance services, and installation in Dubai and Sharjah for various residential and commercial air conditioning units.
               A Gree air conditioner is more than just a cooling device; it&apos;s essential for maintaining a comfortable indoor environment throughout the year. To ensure your unit operates at its best, regular servicing is crucial. We offer professional Gree air conditioner servicing in Dubai to keep your system running smoothly and efficiently.
             </p>
 
@@ -161,6 +163,13 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filt
           </div>
         </section>
 
+        {/* AC Price Section */}
+        <section className="section cs_py_30">
+          <div className="container">
+            <FAJACPrice></FAJACPrice>
+          </div>
+        </section>
+
         {/* Why*/}
         <section className="section cs_py_30">
           <div className="container">
@@ -179,9 +188,9 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filt
 
                   <li> <strong> Extreme Weather: </strong> In the summer, temperatures can exceed 40°C (104°F). Routine maintenance helps ensure that Gree AC SYSTEMS operate efficiently in these conditions.</li>
                   <li> <strong> Energy Efficiency: </strong> A well-maintained Gree AC unit functions more efficiently, conserving energy and reducing electricity bills.</li>
-                  <li> <strong> Longevity of Equipment: </strong> Regular <strong> <a href="/ac-maintenance-dubai/">AC maintenance</a></strong> of your Gree air conditioner unit can extend its lifespan, reduce the need for costly repairs and replacements, and ultimately save you money.</li>
+                  <li> <strong> Longevity of Equipment: </strong> Regular AC maintenance of your Gree air conditioner unit can extend its lifespan, reduce the need for costly repairs and replacements, and ultimately save you money.</li>
                   <li> <strong> Improved Air Quality: </strong> Regular maintenance prevents the accumulation of dust and allergens, which helps to ensure cleaner air.</li>
-                  <li> <strong> Enhanced Comfort: </strong> Regular Gree <strong> <a href="/ac-service-in-dubai/" className="fw-">AC servicing in Dubai</a></strong> ensures comfort, efficiency, and consistent cooling daily.</li>
+                  <li> <strong> Enhanced Comfort: </strong> Regular Gree AC servicing in Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
 
                 </ul>
               </div>
@@ -203,7 +212,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filt
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      If you notice decreased airflow from your vents, it may signal an issue with your Gree AC system, such as a blocked filter or a faulty fan.
+                      If you notice decreased airflow from your vents, it may signal an issue with your Gree AC system, such as a <a href="https://www.youtube.com/watch?v=qnByeIsc3lY">blocked filter</a> or a faulty fan.
                     </p>
                   </div>
                 </div>
@@ -338,7 +347,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filt
                   <li> <strong> Gree AC Repair Service: </strong> Prompt and effective repair services for all Gree AC components, addressing issues like leaks, electrical failures, and system malfunctions. Contact us for specific services or any questions you may have! </li>
                   <li> <strong> Gree AC Annual Maintenance Contract: </strong> This contract details the terms and services for annual maintenance of Gree air conditioner units. </li>
                 </ul>
-                <p className="mb-0"> Regular maintenance is crucial for the optimal performance, efficiency, and longevity of your air conditioning system.</p>
+                <p className="mb-0"> <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is crucial for the optimal performance, efficiency, and longevity of your air conditioning system.</p>
               </div>
 
             </div>
@@ -545,7 +554,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filt
                 <p className="mb-0"><strong>   Gree Ceiling AC Service and Repair: </strong> No matter what the issue is with your Gree air conditioner, our experts can accurately diagnose and fix it.</p>
                 <p className="mb-0"><strong>   Gree AC Service and Maintenance: </strong> Is your AC not working? Don’t endure uncomfortable temperatures and stuffy air, or risk damage to your equipment—FAJ can get your Gree air conditioning functioning again in no time!</p>
                 <p className="mb-0"><strong>   Gree Ducted Split AC Service and Repair: </strong> Gree ducted split AC service in Dubai requires expert assistance, as only specialists know how to address air conditioning issues. We provide a hassle-free Gree air conditioning repair service and fix errors.</p>
-                <p className=""><strong>   Gree Wall-Mounted Air Conditioner Service and Repair: </strong> Looking for relief from the scorching heat? Discover how to keep your Gree AC running smoothly in Dubai! Our expert Gree AC services ensure your unit remains cool and efficient, providing comfort and peace of mind.  </p>
+                <p className=""><strong>   Gree Wall-Mounted Air Conditioner Service and Repair: </strong> Looking for relief from the scorching heat? Discover how to keep your Gree AC running smoothly in Dubai! Our expert <a href="/ac-repair-dubai/">Gree AC services</a> ensure your unit remains cool and efficient, providing comfort and peace of mind.  </p>
 
                 <p>
                   <a href="https://www.fajservices.ae/ac-repair-in-al-barsha-air-condition-maintenance-in-al-barsha-air-conditioning-fix-amc-service-in-al-barsha-dubai/">Al Barsha</a> &nbsp;|&nbsp;

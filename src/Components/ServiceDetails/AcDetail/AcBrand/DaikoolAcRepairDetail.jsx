@@ -15,6 +15,8 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
 import AcAppointmentCol from "../../../Common/AcAppointmentCol";
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
+
 
 const DaikoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -82,7 +84,7 @@ const DaikoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
     <>
       <HelmetProvider>
         <Helmet>
-           <title>{metatitle}</title>
+          <title>{metatitle}</title>
           <meta name="description" content={metadescription} />
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
@@ -135,8 +137,7 @@ const DaikoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                 <p className="mb-2">
                   When seeking Daikool AC repair services, it&apos;s crucial to engage a qualified and dependable technician for your residence or workplace.
                   <br />Our services focus on the Daikool AC repair and maintenance of Daikool air conditioners across Dubai and Sharjah.
-                  The <a href="https://fajservices.ae/">FAJ</a> team is committed to providing efficient solutions to maintain a comfortable indoor climate throughout the year.
-
+                  The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ</a> team is committed to providing efficient solutions to maintain a comfortable indoor climate throughout the year.
                 </p>
 
                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" >Signs You Need An AC Service</h2>
@@ -165,6 +166,13 @@ const DaikoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           </div>
         </section>
 
+        {/* AC Price Section */}
+        <section className="section cs_py_30">
+          <div className="container">
+            <FAJACPrice></FAJACPrice>
+          </div>
+        </section>
+
         {/* Why*/}
         <section className="section cs_py_30">
           <div className="container">
@@ -180,14 +188,11 @@ const DaikoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
-
-                  <li> <strong>  Extreme Weather: </strong> During summer, temperatures can reach over 40°C (104°F). <a href="/ac-maintenance-dubai/"> <b>Regular maintenance</b></a> ensures that Daikool air conditioning systems operate efficiently in these conditions. </li>
+                  <li> <strong>  Extreme Weather: </strong> During summer, temperatures can reach over 40°C (104°F). <a href="/ac-maintenance-dubai/" className="fw-bold text-decoration-underline">Regular maintenance</a> ensures that Daikool air conditioning systems operate efficiently in these conditions. </li>
                   <li> <strong>  Energy Efficiency: </strong> A well-maintained Daikool air conditioning unit runs more efficiently, which helps save energy and reduce electricity bills. </li>
-                  <li> <strong>  Longevity of Equipment: </strong> Regular Daikool <b><a href="https://www.fajservices.ae/ac-maintenance-dubai/">AC maintenance</a></b> can extend its lifespan, reduce the need for costly repair and replacements, and ultimately save you money. </li>
+                  <li> <strong>  Longevity of Equipment: </strong> Regular Daikool <a href="https://www.fajservices.ae/ac-maintenance-dubai/" className="fw-bold text-decoration-underline">AC maintenance</a> can extend its lifespan, reduce the need for costly repair and replacements, and ultimately save you money. </li>
                   <li> <strong>  Improved Air Quality: </strong> Regular Daikool AC cleaning service prevents the buildup of dust and allergens, ensuring cleaner air quality. </li>
                   <li> <strong>  Enhanced Comfort: </strong> Regular Daikool AC cleaning service in Dubai ensures comfort, efficiency, and consistent cooling on a daily basis. </li>
-
-
                 </ul>
               </div>
             </div>

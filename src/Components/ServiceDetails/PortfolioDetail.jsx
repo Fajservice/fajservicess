@@ -1,7 +1,6 @@
-// import { useEffect, useRef, useState } from "react";
+
 import {Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
-// import loadBackgroudImages from "../Common/loadBackgroudImages";
 import HeaderForm from "../Headeform/HeaderForm";
 
 
@@ -12,31 +11,6 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "FAJ Technical Service LLC Portfolio");
   const metaURL = String(URL || "https://www.fajservices.ae/our-portfolio/").replace(/\/?$/, '/');
-
-  // subtitle = "Testimonial"
-  // title = "What our clients say About Us"
-  // reviewsbg = "img/testimonialbg.jpg"
-  // const accordionContentRef = useRef(null);
-  // const [openItemIndex, setOpenItemIndex] = useState(-1);
-  // const [firstItemOpen, setFirstItemOpen] = useState(true);
-
-  // const handleItemClick = index => {
-  //   if (index === openItemIndex) {
-  //     setOpenItemIndex(-1);
-  //   } else {
-  //     setOpenItemIndex(index);
-  //   }
-  // };
-  // useEffect(() => {
-  //   if (firstItemOpen) {
-  //     setOpenItemIndex(0);
-  //     setFirstItemOpen(false);
-  //   }
-  // }, [firstItemOpen]);
-
-  // useEffect(() => {
-  //   loadBackgroudImages();
-  // }, []);
 
   return (
     <>
@@ -87,262 +61,265 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/Millennium.jpeg" />
+                    <img src="/dist/img/portfolio-clients/Millennium.jpeg" alt="Millennium" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/abensal.jpg" />
+                    <img src="/dist/img/portfolio-clients/abensal.jpg"
+                    alt="Millennium" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/tornatech-1.png" />
+                    <img src="/dist/img/portfolio-clients/tornatech-1.png" 
+                    alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/holidayinn.jpeg" />
+                    <img src="/dist/img/portfolio-clients/holidayinn.jpeg" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/partyzone.jpeg" />
+                    <img src="/dist/img/portfolio-clients/partyzone.jpeg" 
+                    alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/imperial.jpeg" />
+                    <img src="/dist/img/portfolio-clients/imperial.jpeg" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/pomegranate.jpeg" />
+                    <img src="/dist/img/portfolio-clients/pomegranate.jpeg" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/emirates-catering.png" />
+                    <img src="/dist/img/portfolio-clients/emirates-catering.png" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/roseleaf.jpeg" />
+                    <img src="/dist/img/portfolio-clients/roseleaf.jpeg" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/z-cars.jpeg" />
+                    <img src="/dist/img/portfolio-clients/z-cars.jpeg" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/AirForce.jpeg" />
+                    <img src="/dist/img/portfolio-clients/AirForce.jpeg" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/transguard.jpeg" />
+                    <img src="/dist/img/portfolio-clients/transguard.jpeg" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/tsm.jpeg" />
+                    <img src="/dist/img/portfolio-clients/tsm.jpeg" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/tirinity.jpeg" />
+                    <img src="/dist/img/portfolio-clients/tirinity.jpeg" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/silver.jpeg" />
+                    <img src="/dist/img/portfolio-clients/silver.jpeg" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/takeda.jpeg" />
+                    <img src="/dist/img/portfolio-clients/takeda.jpeg" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/cherwell.png" />
+                    <img src="/dist/img/portfolio-clients/cherwell.png" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/mfl.jpeg" />
+                    <img src="/dist/img/portfolio-clients/mfl.jpeg" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/sakr.jpeg" />
+                    <img src="/dist/img/portfolio-clients/sakr.jpeg" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/ace.jpeg" />
+                    <img src="/dist/img/portfolio-clients/ace.jpeg" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/uniworld.jpeg" />
+                    <img src="/dist/img/portfolio-clients/uniworld.jpeg" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/mirchi.jpeg" />
+                    <img src="/dist/img/portfolio-clients/mirchi.jpeg" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/desert.jpeg" />
+                    <img src="/dist/img/portfolio-clients/desert.jpeg" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/fratelli.jpeg" />
+                    <img src="/dist/img/portfolio-clients/fratelli.jpeg" alt="Millennium" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/VIKAS.jpeg" />
+                    <img src="/dist/img/portfolio-clients/VIKAS.jpeg" alt="Millennium" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/core-me.jpeg" />
+                    <img src="/dist/img/portfolio-clients/core-me.jpeg" alt="Millennium" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/autohaus.jpeg" />
+                    <img src="/dist/img/portfolio-clients/autohaus.jpeg" alt="Millennium" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/AKAS.jpeg" />
+                    <img src="/dist/img/portfolio-clients/AKAS.jpeg" alt="Millennium" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/MOBH.jpeg" />
+                    <img src="/dist/img/portfolio-clients/MOBH.jpeg" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/gtech.jpeg" />
+                    <img src="/dist/img/portfolio-clients/gtech.jpeg" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/layaly.jpeg" />
+                    <img src="/dist/img/portfolio-clients/layaly.jpeg" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/seatrade.jpeg" />
+                    <img src="/dist/img/portfolio-clients/seatrade.jpeg" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/accuro.png" />
+                    <img src="/dist/img/portfolio-clients/accuro.png" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/max.jpeg" />
+                    <img src="/dist/img/portfolio-clients/max.jpeg" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/zaya.jpeg" />
+                    <img src="/dist/img/portfolio-clients/zaya.jpeg" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/al-rawabi.png" />
+                    <img src="/dist/img/portfolio-clients/al-rawabi.png" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/six.jpeg" />
+                    <img src="/dist/img/portfolio-clients/six.jpeg" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/watts.jpeg" />
+                    <img src="/dist/img/portfolio-clients/watts.jpeg" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/mammaitalia.jpeg" />
+                    <img src="/dist/img/portfolio-clients/mammaitalia.jpeg" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/kabab.jpeg" />
+                    <img src="/dist/img/portfolio-clients/kabab.jpeg" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/urbantails.jpeg" />
+                    <img src="/dist/img/portfolio-clients/urbantails.jpeg" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/al-thika.jpeg" />
+                    <img src="/dist/img/portfolio-clients/al-thika.jpeg" alt="Millennium" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/dkint.jpeg" />
+                    <img src="/dist/img/portfolio-clients/dkint.jpeg" alt="Millennium" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/dpworld.jpeg" />
+                    <img src="/dist/img/portfolio-clients/dpworld.jpeg" alt="Millennium" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/goldensun.jpeg" />
+                    <img src="/dist/img/portfolio-clients/goldensun.jpeg" alt="Millennium" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/ubl.png" />
+                    <img src="/dist/img/portfolio-clients/ubl.png" alt="Millennium" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/berts.jpeg" />
+                    <img src="/dist/img/portfolio-clients/berts.jpeg" alt="Millennium" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/beanstalk.jpeg" />
+                    <img src="/dist/img/portfolio-clients/beanstalk.jpeg" alt="Millennium" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/reliance.png" />
+                    <img src="/dist/img/portfolio-clients/reliance.png" alt="Millennium" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/BSBG.png" />
+                    <img src="/dist/img/portfolio-clients/BSBG.png" alt="Millennium" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/al-rayan.png" />
+                    <img src="/dist/img/portfolio-clients/al-rayan.png" alt="Millennium" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/golden-gate.png" />
+                    <img src="/dist/img/portfolio-clients/golden-gate.png" alt="Millennium" />
                   </div>
                 </div>
                 <div className="col p-0">
@@ -352,122 +329,122 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/Majid-al-futtaim.png" />
+                    <img src="/dist/img/portfolio-clients/Majid-al-futtaim.png" alt="Millennium" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/cmc.png" />
+                    <img src="/dist/img/portfolio-clients/cmc.png" alt="Millennium" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/saken-properties.png" />
+                    <img src="/dist/img/portfolio-clients/saken-properties.png" alt="Millennium" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/al-yousaf-motor.png" />
+                    <img src="/dist/img/portfolio-clients/al-yousaf-motor.png" alt="Millennium" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/EMS.png" />
+                    <img src="/dist/img/portfolio-clients/EMS.png" alt="Millennium"  />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/caramel-group.png" />
+                    <img src="/dist/img/portfolio-clients/caramel-group.png" alt="Millennium" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/obegi.png" />
+                    <img src="/dist/img/portfolio-clients/obegi.png" alt="Millennium" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/concordia.png" />
+                    <img src="/dist/img/portfolio-clients/concordia.png" alt="Millennium" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/driven-properties.png" />
+                    <img src="/dist/img/portfolio-clients/driven-properties.png" alt="Millennium" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/foodie-co.png" />
+                    <img src="/dist/img/portfolio-clients/foodie-co.png" alt="Millennium" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/mattress.png" />
+                    <img src="/dist/img/portfolio-clients/mattress.png" alt="Millennium" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/al-baraa.png" />
+                    <img src="/dist/img/portfolio-clients/al-baraa.png" alt="Millennium" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/inaya.png" />
+                    <img src="/dist/img/portfolio-clients/inaya.png" alt="Millennium" />
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/droo.png" />
+                    <img src="/dist/img/portfolio-clients/droo.png" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/cerruti.png" />
+                    <img src="/dist/img/portfolio-clients/cerruti.png" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/jafza.png" />
+                    <img src="/dist/img/portfolio-clients/jafza.png" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/high-mark.png" />
+                    <img src="/dist/img/portfolio-clients/high-mark.png" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/shein.jpeg" />
+                    <img src="/dist/img/portfolio-clients/shein.jpeg" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/1 (1).png" />
+                    <img src="/dist/img/portfolio-clients/1 (1).png" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/2.png" />
+                    <img src="/dist/img/portfolio-clients/2.png" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/3.png" />
+                    <img src="/dist/img/portfolio-clients/3.png" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/4.png" />
+                    <img src="/dist/img/portfolio-clients/4.png" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/5.png" />
+                    <img src="/dist/img/portfolio-clients/5.png" alt="Millennium"/>
                   </div>
                 </div>
                 <div className="col p-0">
                   <div className="portfolio-clnts-img">
-                    <img src="/dist/img/portfolio-clients/6.png" />
+                    <img src="/dist/img/portfolio-clients/6.png" alt="Millennium"/>
                   </div>
                 </div>
               </div>

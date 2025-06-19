@@ -13,6 +13,8 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
 import AcAppointmentCol from "../../../Common/AcAppointmentCol";
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
+
 
 const CrafftAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -161,6 +163,13 @@ const CrafftAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
               </div>
             </div>
             <AcAppointmentCol></AcAppointmentCol>
+          </div>
+        </section>
+
+        {/* AC Price Section */}
+        <section className="section cs_py_30">
+          <div className="container">
+            <FAJACPrice></FAJACPrice>
           </div>
         </section>
 
@@ -533,7 +542,7 @@ const CrafftAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
             <h3>We specialise in Crafft ac services for the following types</h3>
             <div className="row">
               <div className="col-12">
-                <p className="mb-0"> <strong>  Crafft Split Air Conditioner Service: </strong> <a href="https://fajservices.ae/">FAJ</a> is a trusted provider of Crafft split air conditioner repair and maintenance in Dubai. Our skilled technicians specialize in Crafft VRF systems and central AC units, ensuring optimal performance. Whether for routine maintenance or urgent repair, we are dedicated to delivering exceptional service tailored to your needs.</p>
+                <p className="mb-0"> <strong>  Crafft Split Air Conditioner Service: </strong> <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ</a> is a trusted provider of Crafft split air conditioner repair and maintenance in Dubai. Our skilled technicians specialize in Crafft VRF systems and central AC units, ensuring optimal performance. Whether for routine maintenance or urgent repair, we are dedicated to delivering exceptional service tailored to your needs.</p>
                 <p className="mb-0"> <strong>  Crafft Central Air Conditioner Repair and Service: </strong> FAJ is a premier service provider specializing in the repair and maintenance of Crafft air conditioner in Dubai. The company is committed to addressing the diverse needs of its clientele, whether they require routine <a href="/ac-maintenance-dubai/">AC maintenance</a> or urgent repair. With a focus on professionalism and expertise, FAJ ensures high-quality service and customer satisfaction.</p>
                 <p className="mb-0"> <strong>  Crafft AC Service and Repair: </strong> Crafft AC Service provides peace of mind with our skilled technicians. At FAJ, we specialize in efficient and reliable Crafft AC maintenance, repair, and installation. You can trust our expert team to keep your HVAC system running smoothly and ensure your comfort throughout the year!</p>
                 <p className="mb-0"> <strong>  Crafft Inverter Air Conditioner Maintenance: </strong> Count on our dedicated team to promptly resolve any concerns with your Crafft air conditioner maintenance and bring it back to peak performance!</p>

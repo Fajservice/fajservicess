@@ -11,6 +11,7 @@ import Slider from "react-slick";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 import HeaderForm from "../../../Headeform/HeaderForm";
 import AcAppointmentCol from "../../../Common/AcAppointmentCol";
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
@@ -163,6 +164,13 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
           </div>
         </section>
 
+        {/* AC Price Section */}
+        <section className="section cs_py_30">
+          <div className="container">
+            <FAJACPrice></FAJACPrice>
+          </div>
+        </section>
+
         {/* Why*/}
         <section className="section cs_py_30">
           <div className="container">
@@ -182,7 +190,7 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                 <ul className="mb-0">
                   <li> <strong> Extreme Weather: </strong> During excessively warm summer months, temperatures may exceed 40°C (104°F). It is essential to ensure that your York air conditioning systems are operating effectively. </li>
                   <li> <strong> Energy Efficiency: </strong> A well-maintained York air conditioner runs efficiently, leading to significant energy savings and lower DEWA electricity costs. </li>
-                  <li> <strong> Longevity of Equipment: </strong> Regular York <strong><a href="/ac-maintenance-dubai/" className="text-decoration_underline">AC maintenance</a> </strong> is essential for optimal performance and efficiency, helping to reduce repair costs and save money for both residential and commercial properties. </li>
+                  <li> <strong> Longevity of Equipment: </strong> Regular York <a href="/ac-maintenance-dubai/" className="fw-bold text-decoration-underline">AC maintenance</a> is essential for optimal performance and efficiency, helping to reduce repair costs and save money for both residential and commercial properties. </li>
                   <li> <strong> Improved Air Quality: </strong> Routine York AC cleaning service not only prevents dust and allergens from entering our spaces but also elevates the air quality we breathe and fosters a healthier environment. </li>
                   <li> <strong> Enhanced Comfort: </strong> Regular maintenance of York air conditioners in Dubai is essential for optimal comfort and efficiency, ensuring a pleasant indoor environment daily. </li>
                 </ul>
@@ -205,7 +213,7 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      <a href="https://www.youtube.com/watch?v=qnByeIsc3lY">Reduced airflow </a>from York AC ducts may mean a blocked filter or faulty motor. Promptly addressing these issues is essential for efficient cooling and extending the lifespan of your system.
+                      <a href="https://www.youtube.com/watch?v=qnByeIsc3lY">Reduced airflow </a>from York AC ducts may signal a blocked filter or faulty motor. Prompt attention ensures efficient cooling and extends system lifespan.
                     </p>
                   </div>
                 </div>

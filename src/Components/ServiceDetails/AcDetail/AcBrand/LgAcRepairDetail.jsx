@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import data from '../../../../Data/AcData/AcFaqs/AcBrand/LgAcRepairfaq.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
-
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
@@ -9,11 +8,13 @@ import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContrac
 import testimonial_LG from '../../../../Data/AcData/AcTestimonial/LgAcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";
-import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import HeaderForm from "../../../Headeform/HeaderForm";
 import AcProperties from "../../../Common/AcProperties";
 import Practicaltip from "../../../Common/Practicaltip";
+import AcAppointmentCol from "../../../Common/AcAppointmentCol";
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
+
 
 const LgAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -24,7 +25,7 @@ const LgAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author,
   const metaKeyword = String(Keyword || "LG AC Repair in Dubai, LG Air Conditioner Maintenance, LG AC Service, LG Split AC Repair, LG Central AC Service, LG VRF AC Repair, LG Air Conditioning Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/lg-ac-repair-in-dubai").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
-  
+
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"
   reviewsbg = "img/testimonialbg.jpg"
@@ -133,7 +134,7 @@ const LgAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author,
                 <h2 className="cs_fs_24 mb-1">LG AC Maintenance and Servicing</h2>
 
                 <p className="mb-2">
-                  In Dubai, LG air conditioner repair are available. It is imperative to select a qualified LG AC technician.
+                  In Dubai, LG <a href="/ac-repair-dubai/">air conditioner repair</a> are available. It is imperative to select a qualified LG AC technician.
                   <br />Our specialized team focuses on the service and maintenance of LG air conditioning systems throughout Dubai and Sharjah. FAJ is dedicated to delivering reliable solutions that enhance indoor comfort consistently throughout the year, while also ensuring that your system operates with optimal efficiency.
                 </p>
 
@@ -160,7 +161,14 @@ const LgAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author,
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="LG AC Repair Service" />
               </div>
             </div>
-            <AppliancesAppointmentCol></AppliancesAppointmentCol>
+            <AcAppointmentCol></AcAppointmentCol>
+          </div>
+        </section>
+
+        {/* AC Price Section */}
+        <section className="section cs_py_30">
+          <div className="container">
+            <FAJACPrice></FAJACPrice>
           </div>
         </section>
 
@@ -169,8 +177,8 @@ const LgAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author,
           <div className="container">
 
             <h2 className="cs_fs_30">Why is LG AC Maintenance Service Important in Dubai?</h2>
-            <p className="mb-0">
-              To keep your LG central air conditioner running smoothly in Dubai's heat, regular maintenance is crucial. At FAJ, we offer expert LG aircon services for, ensuring optimal cooling and comfort year-round.
+            <p className="">
+              To keep your LG central air conditioner running smoothly in Dubai's heat, <a href="https://www.linkedin.com/company/faj-technical-services-llc">regular maintenance</a> is crucial. At FAJ, we offer expert LG aircon services for, ensuring optimal cooling and comfort year-round.
               Here to help keep your system running at its best!
 
             </p>
@@ -184,13 +192,11 @@ const LgAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author,
                 <ul className="mb-0">
                   <li><strong> Extreme Weather: </strong> During the sweltering summer months, temperatures can soar above 40°C (104°F), resulting in an uncomfortable atmosphere. It’s essential to ensure that your LG air conditioning systems are functioning at their best. </li>
                   <li><strong> Energy Efficiency: </strong> A well-maintained LG air conditioner operates efficiently, yielding significant energy savings and lower Dewa electricity costs. </li>
-                  <li><strong> Longevity of Equipment: </strong> Regular LG AC maintenance is essential for optimal performance and longevity. It enhances energy efficiency, reduces aircon repair costs, and leads to savings for both residential and commercial users. </li>
+                  <li><strong> Longevity of Equipment: </strong> Regular LG <b><a href="/ac-maintenance-dubai/" className="text-decoration-underline">AC maintenance</a></b> is essential for optimal performance and longevity. It enhances energy efficiency, reduces aircon repair costs, and leads to savings for both residential and commercial users. </li>
                   <li><strong> Improved Air Quality: </strong> Routine LG air conditioner cleaning service prevents dust and allergens from getting in, resulting in improved air quality.</li>
                   <li><strong> Enhanced Comfort: </strong> Providing regular LG air conditioner maintenance in Dubai is vital for achieving optimal comfort and efficiency, ensuring a friendly indoor environment daily. </li>
-
                 </ul>
               </div>
-
             </div>
           </div>
         </section>
@@ -541,10 +547,10 @@ const LgAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author,
               <div className="col-12">
                 <p className="mb-0"><strong>  LG Split Air Conditioner Service: </strong> FAJ is your trusted provider for LG split air conditioner repair and maintenance in Dubai. Our expert technicians specialize in LG VRF systems and central AC units, ensuring optimal efficiency and comfort. Whether you need routine maintenance or urgent repairs, we are dedicated to delivering exceptional service tailored to your needs.</p>
                 <p className="mb-0"><strong>  LG Central Air Conditioner Repair and Service: </strong> FAJ is a leading service provider for LG air conditioners in Dubai, specializing in the repair and maintenance of these innovative cooling systems. Whether you need a routine maintenance check or an urgent repair, FAJ is dedicated to meeting the diverse needs of its clients with professionalism and expertise.</p>
-                <p className="mb-0"><strong>  LG AC Service and Repair: </strong> LG AC Service provides peace of mind with our skilled technicians. At FAJ, we specialize in efficient and reliable LG AC maintenance, repair, and installation. You can trust our expert team to keep your HVAC system running smoothly and ensure your comfort throughout the year!</p>
+                <p className="mb-0"><strong>  LG AC Service and Repair: </strong> LG AC Service provides peace of mind with our skilled technicians. At <a href="https://www.fajservices.ae/">FAJ</a>, we specialize in efficient and reliable LG AC maintenance, repair, and installation. You can trust our expert team to keep your HVAC system running smoothly and ensure your comfort throughout the year!</p>
                 <p className="mb-0"><strong>  LG Inverter Air Conditioner Maintenance: </strong> Count on our dedicated team to promptly resolve any concerns with your LG air conditioner maintenance and bring it back to peak performance!</p>
                 <p className="mb-0"><strong>  LG HVAC Repair: </strong> We have extensive expertise in LG cassette and package unit AC systems, providing reliable repairs to ensure your unit operates efficiently.</p>
-                <p className="mb-0"><strong>  LG Ceiling AC Service and Repair: </strong> Our specialists can quickly diagnose and resolve any issues with your LG ceiling AC repair and service.</p>
+                <p className="mb-0"><strong>  LG Ceiling AC Service and Repair: </strong> Our specialists can quickly diagnose and resolve any issues with your LG <a href="/ac-repair-dubai/">ceiling AC repair</a> and service.</p>
                 <p className="mb-0"><strong>  LG VRF (Variable Refrigerant Flow) System Service and Repair: </strong> FAJ's LG Variable Refrigerant Flow (VRF) repair and maintenance services provide efficient HVAC solutions tailored to your needs. Our expert team prioritizes your comfort and satisfaction, ensuring reliable service and peace of mind in managing your climate control requirements.</p>
                 <p className="mb-0"><strong>  LG Ducted Split AC Service and Repair: </strong> For trustworthy repair and maintenance of LG ducted split air conditioners (AC) in Dubai, our skilled technicians are here to help. With expertise in diagnosing a wide range of LG AC issues and error fixes, we ensure minimal disruption to your comfort. Trust us for quick and effective service that provides the cooling relief you need.</p>
                 <p className="mb-0"><strong>  LG Wall-Mounted Air Conditioner Service and Repair: </strong> Mitigate the extreme heat of Dubai through our professional LG air conditioning repair and maintenance services. We are committed to ensuring that your unit operates at optimal efficiency, thereby maintaining a cool and comfortable indoor environment while outdoor temperatures remain elevated.</p>
@@ -610,7 +616,7 @@ const LgAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author,
 
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
-          
+
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
               <h3 className="cs_section_subtitle cs_fs_18 text-black cs_semibold text-uppercase cs_mb_12 wow fadeInDown">
@@ -658,7 +664,7 @@ const LgAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author,
               </div>
             </div>
           </div>
-          
+
         </section>
 
         {/* FAQ&apos;s */}

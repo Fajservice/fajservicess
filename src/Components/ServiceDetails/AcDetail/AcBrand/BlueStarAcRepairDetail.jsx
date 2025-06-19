@@ -13,6 +13,7 @@ import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
 import AcAppointmentCol from "../../../Common/AcAppointmentCol";
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 
 const BlueStarAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -110,7 +111,7 @@ const BlueStarAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <div className="container">
             <h1 className="cs_fs_30">Blue Star AC Repair and Maintenance Service in Dubai</h1>
             <p>Achieving year-round comfort involves effectively addressing challenges like summer humidity, warm nights, and indoor allergens.
-              <br />Since its inception in 2010,   <a href="https://www.fajservices.ae/"> F A J Technical Services L.L.C</a>, has been a reliable provider of Blue Star air conditioner solutions in Dubai and Sharjah.
+              <br />Since its inception in 2010,   <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"> F A J Technical Services L.L.C</a>, has been a reliable provider of Blue Star air conditioner solutions in Dubai and Sharjah.
               <br />Our experienced team delivers a variety of services, including Blue Star AC repair, cleaning, maintenance, and installation, for both residential and commercial units. We are dedicated to maximizing the efficiency of your air conditioning system to improve indoor comfort.
             </p>
 
@@ -131,7 +132,7 @@ const BlueStarAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
                 <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }}>Blue Star Ac Maintenance and Services </h2>
 
                 <p className="mb-2">
-                  If you are in Dubai and require professional repair services for Blue Star air conditioners, <a href="https://www.fajservices.ae/">FAJ</a> is here to help.
+                  If you are in Dubai and require professional repair services for Blue Star air conditioners, <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ</a> is here to help.
                   <br />Our skilled technicians ensure your air conditioning systems operate efficiently, delivering reliable cooling solutions tailored to the climate of Dubai and Sharjah.
                   Trust us to keep your indoor environment comfortable and refreshing all year round.
                 </p>
@@ -162,13 +163,20 @@ const BlueStarAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
           </div>
         </section>
 
+        {/* AC Price Section */}
+        <section className="section cs_py_30">
+          <div className="container">
+            <FAJACPrice></FAJACPrice>
+          </div>
+        </section>
+
         {/* Why*/}
         <section className="section cs_py_30">
           <div className="container">
 
             <h2 className="cs_fs_30">Why is Blue Star AC Maintenance Service Important in Dubai?</h2>
             <p className="">
-              To guarantee your Blue Star central air conditioner functions efficiently in Dubai&apos;s intense heat, regular AC maintenance is essential. At FAJ, we offer expert aircon services designed to enhance your system’s performance and comfort year-round. Trust us to keep your air conditioner operating at its best.
+              To guarantee your Blue Star central air conditioner functions efficiently in Dubai&apos;s intense heat, regular <a href="https://www.linkedin.com/company/faj-technical-services-llc">AC maintenance</a> is essential. At FAJ, we offer expert aircon services designed to enhance your system’s performance and comfort year-round. Trust us to keep your air conditioner operating at its best.
             </p>
 
             <div className="row align-items-center">
@@ -332,7 +340,7 @@ const BlueStarAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
                   <li> <strong> Blue Star AC Repair Service: </strong> We offer fast repair services for Blue Star air conditioners, addressing leaks, electrical problems, and malfunctions. Contact us for further details or inquiries! </li>
                   <li> <strong> Blue Star AC Annual Maintenance Contract: </strong> The contract specifies the annual maintenance terms for Blue Star air conditioners.  </li>
                 </ul>
-                <p className="mb-0"> Regular maintenance, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is vital for optimal performance and durability.
+                <p className="mb-0"><a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a>, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is vital for optimal performance and durability.
                 </p>
               </div>
 
@@ -539,7 +547,7 @@ const BlueStarAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
                 <p className="mb-0"> <strong> Post-Installation Support: </strong> We provide advice on operating your new air conditioner, including tips on energy efficiency and maintenance. </p>
                 <p className="mb-0"> <strong> Warranty and Service Packages: </strong> To ensure your peace of mind, we offer warranty options and additional service packages for maintenance and repair in Dubai and Sharjah. </p>
                 <p className="mb-0"> <strong> Blue Star AC AMC Services in Dubai: </strong> We offer comprehensive air conditioning AMC (Annual Maintenance Contract) and PPM (Planned Preventive Maintenance) services, along with repair support, throughout the year for both contract and non-contract customers. While we are dedicated to serving all our clients, please note that those with service contracts may receive priority assistance. </p>
-                <p className="mb-0"> <strong> Blue Star Air Conditioner Repair in Dubai: </strong> Stay cool during the hot Dubai summer with our expert Blue Star inverter AC repair in Dubai and Sharjah. Our team provides efficient and reliable cooling solutions tailored to your needs. We guide you through the selection and installation process for optimal comfort. Contact us today to schedule your installation and beat the heat! </p>
+                <p className="mb-0"> <strong> Blue Star Air Conditioner Repair in Dubai: </strong> Stay cool during the hot Dubai summer with our expert Blue Star inverter <a href="/ac-repair-dubai/">AC repair</a> in Dubai and Sharjah. Our team provides efficient and reliable cooling solutions tailored to your needs. We guide you through the selection and installation process for optimal comfort. Contact us today to schedule your installation and beat the heat! </p>
                 <p className="mb-0"> <strong> Blue Star AC Cleaning Service in Dubai: </strong> AC Deep cleaning your air conditioner brings several key benefits: </p>
                 <p className="mb-0"> <strong> Improved Air Quality: </strong> It removes dust, allergens, and bacteria, leading to healthier air, especially for those with allergies. </p>
                 <p className="mb-0"> <strong> Reduced Energy Consumption: </strong> A clean unit operates more efficiently, lowering your electricity bills. </p>

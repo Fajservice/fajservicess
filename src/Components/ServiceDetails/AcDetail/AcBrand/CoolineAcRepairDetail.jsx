@@ -14,6 +14,8 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
 import AcAppointmentCol from "../../../Common/AcAppointmentCol";
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
+
 
 const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -161,6 +163,13 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           </div>
         </section>
 
+        {/* AC Price Section */}
+        <section className="section cs_py_30">
+          <div className="container">
+            <FAJACPrice></FAJACPrice>
+          </div>
+        </section>
+
         {/* Why*/}
         <section className="section cs_py_30">
           <div className="container">
@@ -176,9 +185,9 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
-                  <li> <strong>  Extreme Weather: </strong> During summer, temperatures can reach over 40°C (104°F). <a href="https://www.linkedin.com/company/faj-technical-services-llc"><b>Regular maintenance</b></a> ensures that Cooline air conditioning systems operate efficiently in these conditions. </li>
+                  <li> <strong>  Extreme Weather: </strong> During summer, temperatures can reach over 40°C (104°F). <a href="https://www.linkedin.com/company/faj-technical-services-llc" className="fw-bold text-decoration-underline">Regular maintenance</a> ensures that Cooline air conditioning systems operate efficiently in these conditions. </li>
                   <li> <strong>  Energy Efficiency: </strong> A well-maintained Cooline air conditioning unit runs more efficiently, which helps save energy and reduce electricity bills. </li>
-                  <li> <strong>  Longevity of Equipment: </strong> Regular Cooline <a href="https://www.fajservices.ae/ac-maintenance-dubai/"><b>AC maintenance</b></a> can extend its lifespan, reduce the need for costly repairs and replacements, and ultimately save you money. </li>
+                  <li> <strong>  Longevity of Equipment: </strong> Regular Cooline <a href="https://www.fajservices.ae/ac-maintenance-dubai/" className="fw-bold text-decoration-underline">AC maintenance</a> can extend its lifespan, reduce the need for costly repairs and replacements, and ultimately save you money. </li>
                   <li> <strong>  Improved Air Quality: </strong> Regular Cooline AC cleaning service prevents the buildup of dust and allergens, ensuring cleaner air quality. </li>
                   <li> <strong>  Enhanced Comfort: </strong> Regular Cooline AC cleaning service in Dubai ensures comfort, efficiency, and consistent cooling on a daily basis. </li>
                 </ul>

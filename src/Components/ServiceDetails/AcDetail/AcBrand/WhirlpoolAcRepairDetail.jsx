@@ -15,6 +15,8 @@ import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
 import AcAppointmentCol from "../../../Common/AcAppointmentCol";
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
+
 
 const WhirpoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -112,7 +114,7 @@ const WhirpoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
             <h1 className="cs_fs_30">Whirlpool Air Conditioner Repair and Services in Dubai</h1>
             <p>
               Ensuring year-round comfort requires effective management of challenges such as summer humidity, warm nights, and indoor allergens.
-              <br />Since its founding in 2010, <a href="https://www.fajservices.ae/">F A J Technical Services L.L.C</a> has been a trusted provider of Whirlpool air conditioner solutions in Dubai and Sharjah. Our skilled team offers a range of Whirlpool AC repair, cleaning services, maintenance, and installation for both residential and commercial units. We are committed to optimising the performance of your air conditioning system to enhance indoor comfort.
+              <br />Since its founding in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been a trusted provider of Whirlpool air conditioner solutions in Dubai and Sharjah. Our skilled team offers a range of Whirlpool AC repair, cleaning services, maintenance, and installation for both residential and commercial units. We are committed to optimising the performance of your air conditioning system to enhance indoor comfort.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -129,7 +131,7 @@ const WhirpoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1">Whirlpool Maintenance and Service</h2>
+                <h2 className="cs_fs_24 mb-1">Whirlpool AC Maintenance and Service</h2>
 
                 <p className="mb-2">
                   If you&apos;re in Dubai and need Whirlpool <a href="https://www.fajservices.ae/ac-repair-dubai/">air conditioner repair</a>, FAJ is here for you!
@@ -163,12 +165,19 @@ const WhirpoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
           </div>
         </section>
 
+        {/* AC Price Section */}
+        <section className="section cs_py_30">
+          <div className="container">
+            <FAJACPrice></FAJACPrice>
+          </div>
+        </section>
+
         {/* Why*/}
         <section className="section cs_py_30">
           <div className="container">
 
             <h2 className="cs_fs_30">Why is Whirlpool AC Maintenance Service Important in Dubai?</h2>
-            <p className="mb-0">
+            <p className="mb-">
               To guarantee your Whirlpool central air conditioner functions efficiently in Dubai's intense heat, regular <a href="https://www.fajservices.ae/ac-maintenance-dubai/"> AC maintenance</a> is essential. At FAJ, we offer expert aircon services designed to enhance your system’s performance and comfort year-round. Trust us to keep your air conditioner operating at its best.
             </p>
 
@@ -536,12 +545,12 @@ const WhirpoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"><strong>  Whirlpool Air Conditioner Installation Service in Dubai: </strong>
-                  A comprehensive solution for your cooling needs. We specialize in high-quality Whirlpool <a href="https://www.fajservices.ae/ac-service-in-dubai/">AC installation services</a> in Dubai and Sharjah. Our consultation process helps you choose the right model based on your space and budget. Our experts assess factors like room size and AC insulation to recommend the best unit for optimal performance.
+                  A comprehensive solution for your cooling needs. We specialize in high-quality Whirlpool AC installation services in Dubai and Sharjah. Our consultation process helps you choose the right model based on your space and budget. Our experts assess factors like room size and AC insulation to recommend the best unit for optimal performance.
                 </p>
 
                 <p className="mb-0"><strong>  Our installation services include: </strong></p>
                 <p class="mb-0"> <strong>   Climate Check: </strong> Understanding your unique requirements based on the local climate and your building's features. </p>
-                <p class="mb-0"> <strong>   Expert AC Installation: </strong> Our <a href="https://www.facebook.com/ACRepairUAE"><b>skilled AC technicians</b></a> ensure that the AC installation is performed to the highest standards, adhering to all safety protocols. </p>
+                <p class="mb-0"> <strong>   Expert AC Installation: </strong> Our skilled AC technicians ensure that the AC installation is performed to the highest standards, adhering to all safety protocols. </p>
                 <p class="mb-0"> <strong>   Post-Installation Support: </strong> We provide advice on operating your new air conditioner, including tips on energy efficiency and maintenance. </p>
                 <p class="mb-0"> <strong>   Warranty and Service Packages: </strong> To ensure your peace of mind, we offer warranty options and additional service packages for maintenance and repair in Dubai and Sharjah. </p>
                 <p class="mb-0"> <strong>   Whirlpool AC AMC Services in Dubai: </strong> We offer comprehensive air conditioning AMC (Annual Maintenance Contract) and PPM (Planned Preventive Maintenance) services, along with repair support, throughout the year for both contract and non-contract customers. While we are dedicated to serving all our clients, please note that those with service contracts may receive priority assistance. </p>

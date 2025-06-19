@@ -14,6 +14,8 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
 import AcAppointmentCol from "../../../Common/AcAppointmentCol";
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
+
 
 const McQuayAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -162,6 +164,13 @@ const McQuayAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
           </div>
         </section>
 
+        {/* AC Price Section */}
+        <section className="section cs_py_30">
+          <div className="container">
+            <FAJACPrice></FAJACPrice>
+          </div>
+        </section>
+
         {/* Why*/}
         <section className="section cs_py_30">
           <div className="container">
@@ -183,7 +192,7 @@ const McQuayAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                   <li> <strong>  Extreme Weather: </strong> In summer, temperatures can exceed 40°C (104°F). Routine maintenance ensures McQuay AC SYSTEMS operate efficiently under these conditions. </li>
                   <li> <strong>  Energy Efficiency: </strong> A well-maintained McQuay AC unit operates more efficiently, saving energy and lowering electricity bills. </li>
                   <li> <strong>  Longevity of Equipment: </strong> Regular maintenance of your McQuay air conditioner can extend its lifespan, decrease the need for expensive repair and replacements, and ultimately save you money. </li>
-                  <li> <strong>  Improved Air Quality: </strong> Regular McQuay <b><a href="/ac-maintenance-dubai/">AC maintenance</a></b> of units prevents dust and allergens from accumulating, ensuring cleaner air. </li>
+                  <li> <strong>  Improved Air Quality: </strong> Regular McQuay <a href="/ac-maintenance-dubai/" className="fw-bold text-decoration-underline">AC maintenance</a> of units prevents dust and allergens from accumulating, ensuring cleaner air. </li>
                   <li> <strong>  Enhanced Comfort: </strong> Regular McQuay air conditioner maintenance in Dubai ensures daily comfort, efficiency, and consistent cooling. </li>
 
                 </ul>

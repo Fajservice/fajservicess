@@ -15,6 +15,8 @@ import parse from 'html-react-parser';
 import Slider from "react-slick";
 import HeaderForm from "../../../Headeform/HeaderForm";
 import AcAppointmentCol from "../../../Common/AcAppointmentCol";
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
+
 
 const ToshibaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -164,13 +166,20 @@ const ToshibaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           </div>
         </section>
 
+        {/* AC Price Section */}
+        <section className="section cs_py_30">
+          <div className="container">
+            <FAJACPrice></FAJACPrice>
+          </div>
+        </section>
+
         {/* Why*/}
         <section className="section cs_py_30">
           <div className="container">
 
             <h2 className="cs_fs_30">Why is Toshiba AC Maintenance Service Important in Dubai?</h2>
             <p className="">
-              To guarantee your Toshiba central air conditioner functions efficiently in Dubai's intense heat, regular AC maintenance is essential. At FAJ, we offer expert aircon services designed to enhance your system’s performance and comfort year-round. Trust us to keep your air conditioner operating at its best.
+              To guarantee your Toshiba central air conditioner functions efficiently in Dubai's intense heat, regular AC maintenance is essential. At <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ</a>, we offer expert aircon services designed to enhance your system’s performance and comfort year-round. Trust us to keep your air conditioner operating at its best.
             </p>
 
             <div className="row align-items-center">
@@ -181,7 +190,7 @@ const ToshibaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                 <ul className="mb-0">
                   <li> <strong> Extreme Weather: </strong> As summer approaches, we can expect temperatures to soar above 40°C (104°F), creating discomfort. it&apos;s essential to ensure that your Toshiba air conditioning systems are primed for optimal performance. </li>
                   <li> <strong> Energy Efficiency: </strong> A well-maintained Toshiba air conditioner operates efficiently, resulting in significant energy savings and lower DEWA electricity costs. </li>
-                  <li> <strong> Longevity of Equipment: </strong> Keeping up with the Toshiba AC maintenance is really important for getting the best performance and efficiency. It helps lower repair costs and can save money for both homes and businesses. </li>
+                  <li> <strong> Longevity of Equipment: </strong> Keeping up with the Toshiba <a href="/ac-maintenance-dubai/">AC maintenance</a> is really important for getting the best performance and efficiency. It helps lower repair costs and can save money for both homes and businesses. </li>
                   <li> <strong> Improved Air Quality: </strong> Routine Toshiba air conditioner cleaning service prevents dust and allergens from getting in, resulting in improved air quality. </li>
                   <li> <strong> Enhanced Comfort: </strong> Regular air conditioner maintenance in Dubai is vital for optimal efficiency and a comfortable indoor environment. </li>
 
@@ -335,7 +344,7 @@ const ToshibaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                   <li> <strong> Toshiba AC Repair Service: </strong> We offer fast repair services for Toshiba air conditioners, addressing leaks, electrical problems, and malfunctions. Contact us for further details or inquiries! </li>
                   <li> <strong> Toshiba AC Annual Maintenance Contract: </strong> The contract specifies the annual maintenance terms for Toshiba air conditioners. </li>
                 </ul>
-                <p className="mb-0"> Regular maintenance, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is vital for optimal performance and durability.
+                <p className="mb-0"><a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a>, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is vital for optimal performance and durability.
                 </p>
               </div>
 
@@ -539,7 +548,7 @@ const ToshibaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                 <p className="mb-0"><strong> Toshiba Air Conditioner Installation Service in Dubai: </strong> A Comprehensive Solution for Your Cooling Needs. We specialize in high-quality Toshiba AC installation services in Dubai and Sharjah. Our consultation process helps you choose the right model based on your space and budget. Our experts assess factors like room size and AC insulation to recommend the best unit for optimal performance.</p>
                 <p className="mb-0"><strong>Our installation services include:</strong></p>
                 <p className="mb-0"> <strong>  Climate Check: </strong> Understanding your unique requirements based on the local climate and your building's features. </p>
-                <p className="mb-0"> <strong>  Expert AC Installation: </strong> Our <a href="https://www.facebook.com/ACRepairUAE"><b>skilled AC technicians</b></a> ensure that the AC installation is performed to the highest standards, adhering to all safety protocols. </p>
+                <p className="mb-0"> <strong>  Expert AC Installation: </strong> Our skilled AC technicians ensure that the AC installation is performed to the highest standards, adhering to all safety protocols. </p>
                 <p className="mb-0"> <strong>  Post-Installation Support: </strong> We provide advice on operating your new air conditioner, including tips on energy efficiency and maintenance. </p>
                 <p className="mb-0"> <strong>  Warranty and Service Packages: </strong> To ensure your peace of mind, we offer warranty options and additional service packages for maintenance and repair in Dubai and Sharjah. </p>
                 <p className="mb-0"> <strong>  Toshiba AC AMC Services in Dubai: </strong> We offer comprehensive air conditioning AMC (Annual Maintenance Contract) and PPM (Planned Preventive Maintenance) services, along with repair support, throughout the year for both contract and non-contract customers. While we are dedicated to serving all our clients, please note that those with service contracts may receive priority assistance. </p>

@@ -8,8 +8,8 @@ const DaewooAcRepair = () => {
                 bgImg="img/acbrands/desktop/daewoo-ac-repair-faj.avif"
                 mobileBgImg="img/acbrands/mobile/daewoo-ac-repair-faj.avif"
                 Title="Beat the heat this summer with Expert Daewoo AC repair and service in Dubai!"
-            ></BreadCumb> 
-            <DaewooAcRepairDetail></DaewooAcRepairDetail>           
+            ></BreadCumb>
+            <DaewooAcRepairDetail></DaewooAcRepairDetail>
         </div>
     );
 };

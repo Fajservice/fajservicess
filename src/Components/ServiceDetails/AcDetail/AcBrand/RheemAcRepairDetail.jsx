@@ -9,11 +9,12 @@ import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContrac
 import testimonial_data_Rheem from '../../../../Data/AcData/AcTestimonial/RheemAcServiceTestimonials.json';
 import parse from 'html-react-parser';
 import Slider from "react-slick";
-import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import HeaderForm from "../../../Headeform/HeaderForm";
 import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
+import AcAppointmentCol from "../../../Common/AcAppointmentCol";
+import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 
 const RheemAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -80,7 +81,7 @@ const RheemAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
     <>
       <HelmetProvider>
         <Helmet>
-           <title>{metatitle}</title>
+          <title>{metatitle}</title>
           <meta name="description" content={metadescription} />
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
@@ -109,8 +110,8 @@ const RheemAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Best Rheem AC Maintenance in Dubai – AC Repair Service</h1>
-            <p>Our company, <a href="https://www.fajservices.ae/"> F A J Technical Services L.L.C</a> has been serving the community since 2010. Our dedicated facilities team has extensive experience in Rheem AC repair, maintenance, and installation services for both residential and commercial air conditioning units in Dubai and Sharjah.
-            <br />
+            <p>Our company, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been serving the community since 2010. Our dedicated facilities team has extensive experience in Rheem AC repair, maintenance, and installation services for both residential and commercial air conditioning units in Dubai and Sharjah.
+              <br />
               A Rheem air conditioner is essential for maintaining year-round indoor comfort. To ensure optimal performance, regular Rheem AC maintenance is important. In Dubai, professional cleaning services for Rheem units are available to keep your system running efficiently.
             </p>
 
@@ -159,7 +160,14 @@ const RheemAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Rheem AC Service" />
               </div>
             </div>
-            <AppliancesAppointmentCol></AppliancesAppointmentCol>
+            <AcAppointmentCol></AcAppointmentCol>
+          </div>
+        </section>
+
+        {/* AC Price Section */}
+        <section className="section cs_py_30">
+          <div className="container">
+            <FAJACPrice></FAJACPrice>
           </div>
         </section>
 
@@ -169,22 +177,20 @@ const RheemAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
 
             <h2 className="cs_fs_30">Why is Rheem AC Maintenance Service Important in Dubai?</h2>
             <p className="">
-              Regular maintenance of Rheem air conditioners in Dubai is vital for optimal performance. FAJ provides services to keep your system running efficiently. Trust us to ensure your Rheem AC performs at its best.
-              For nearby maintenance, please contact us.
-            </p>
+              <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> of Rheem air conditioners in Dubai is vital for optimal performance. FAJ provides services to keep your system running efficiently. Trust us to ensure your Rheem AC performs at its best.
+              For nearby maintenance, please contact us. </p>
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/ac amc.avif`} alt="daikin Airconditioner Repair" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/ac amc.avif`} alt="Rheem Airconditioner Repair" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
 
                   <li> <strong> Extreme Weather: </strong>  In summer, temperatures can exceed 40°C (104°F). Routine maintenance ensures Rheem AC SYSTEMS operate efficiently under these conditions.</li>
                   <li> <strong> Energy Efficiency: </strong> A well-maintained Rheem AC unit operates more efficiently, saving energy and lowering electricity bills.</li>
-                  <li> <strong> Longevity of Equipment: </strong> Regular maintenance of your Rheem air conditioner can extend its lifespan, decrease the need for expensive repairs and replacements, and ultimately save you money.
-                  </li>
-                  <li> <strong> Improved Air Quality: </strong>  Regular Rheem <a href="https://www.fajservices.ae/ac-maintenance-dubai/"> AC maintenance </a>of units prevents dust and allergens from accumulating, ensuring cleaner air.</li>
+                  <li> <strong> Longevity of Equipment: </strong> Regular maintenance of your Rheem air conditioner can extend its lifespan, decrease the need for expensive repairs and replacements, and ultimately save you money.</li>
+                  <li> <strong> Improved Air Quality: </strong>  Regular Rheem <a href="/ac-maintenance-dubai/" className="fw-bold text-decoration-underline"> AC maintenance </a>of units prevents dust and allergens from accumulating, ensuring cleaner air.</li>
                   <li> <strong> Enhanced Comfort: </strong> Regular Rheem air conditioner maintenance in Dubai ensures daily comfort, efficiency, and consistent cooling.</li>
 
                 </ul>
@@ -208,7 +214,7 @@ const RheemAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      If you notice a drop in airflow from your vents, it may indicate an issue with your Rheem AC system, such as a blocked filter or a malfunctioning fan
+                      If you notice a drop in airflow from your vents, it may indicate an issue with your Rheem AC system, such as <a href="https://www.youtube.com/watch?v=qnByeIsc3lY">blocked filter</a> or a malfunctioning fan
                     </p>
                   </div>
                 </div>
@@ -543,8 +549,7 @@ const RheemAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                 <p className="mb-0"><strong>  Rheem Ceiling AC Service and Repair:</strong> Our experts can accurately diagnose and fix any issues with your Rheem air conditioner. </p>
                 <p className="mb-0"><strong>  Rheem VRF (Variable Refrigerant Flow) System Service and Repair:</strong> The Rheem VRF (Variable Refrigerant Flow) System service guarantees you peace of mind because you are in the right place. Indeed, FAJ prioritises efficiency and reliability. </p>
                 <p className="mb-0"><strong>  Rheem Ducted Split AC Service and Repair:</strong> Rheem ducted split AC service in Dubai requires expert help, as only specialists can effectively address air conditioning issues. We offer hassle-free Rheem air conditioning repair service and error fixing. </p>
-                <p className="mb-0"><strong>  Rheem Wall-Mounted Air Conditioner Service and Repair:</strong> Looking for relief from the scorching heat? Discover how to keep your Rheem AC running smoothly in Dubai! <br />
-                  Our expert Rheem AC services ensure that your unit remains cool and efficient, providing comfort and peace of mind. </p>
+                <p className=""><strong>  Rheem Wall-Mounted Air Conditioner Service and Repair:</strong> Looking for relief from the scorching heat? Discover how to keep your Rheem AC running smoothly in Dubai! Our expert <a href="/ac-service-in-dubai/">Rheem AC services</a> ensure that your unit remains cool and efficient, providing comfort and peace of mind. </p>
 
                 <p>
                   <a href="https://www.fajservices.ae/ac-repair-in-al-barsha-air-condition-maintenance-in-al-barsha-air-conditioning-fix-amc-service-in-al-barsha-dubai/">Al Barsha</a> &nbsp;|&nbsp;
