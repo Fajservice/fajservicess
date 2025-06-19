@@ -6,7 +6,7 @@ const Form3 = () => {
           <input type="text" name="name" placeholder="Your Name" className="cs_form_field cs_white_bg" />
         </div>
         <div className="col-sm-6">
-          <input type="email" name="email" placeholder="Email Address" className="cs_form_field cs_white_bg" />
+          <input type="email" name="email" autoComplete="email" placeholder="Email Address" className="cs_form_field cs_white_bg" />
         </div>
         <div className="col-sm-12">
           <input type="text" name="subject" placeholder="Subject" className="cs_form_field cs_white_bg" />

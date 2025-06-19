@@ -142,7 +142,7 @@ const AppliancesServicesInAlBarshaSouthDetail = ({ subtitle, title, reviewsbg, t
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Appliances Services In AlBarsha South</h1>
+                        <h1 className="cs_fs_30">Appliances Services In Al Barsha South</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
@@ -322,6 +322,18 @@ const AppliancesServicesInAlBarshaSouthDetail = ({ subtitle, title, reviewsbg, t
                         <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h3>
 
                         <div className="row align-items-center">
+                             <div className="col-xl-6">
+                                <iframe
+                                    className="bordered-img blue-border"
+                                    width="100%"
+                                    height="350"
+                                    src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
+                                    title="YouTube video player"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowFullScreen
+                                ></iframe>
+                            </div>
                             <div className="col-xl-6">
                                 <p className='mb-0'>We specialize in all types and brands of home appliances, including built-in units.</p>
                                 <p className='mb-0'><strong>Our services include:</strong></p>
@@ -336,18 +348,7 @@ const AppliancesServicesInAlBarshaSouthDetail = ({ subtitle, title, reviewsbg, t
                                     </p>
                                 </ul>
                             </div>
-                            <div className="col-xl-6">
-                                <iframe
-                                    className="bordered-img blue-border"
-                                    width="100%"
-                                    height="350"
-                                    src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
-                                    title="YouTube video player"
-                                    frameBorder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowFullScreen
-                                ></iframe>
-                            </div>
+                           
                         </div>
                     </div>
                 </section >
@@ -555,7 +556,6 @@ const AppliancesServicesInAlBarshaSouthDetail = ({ subtitle, title, reviewsbg, t
                     </div>
 
                 </section>
-
 
                 {/* Maintenance Contract */}
                 <MaintenanceContract />

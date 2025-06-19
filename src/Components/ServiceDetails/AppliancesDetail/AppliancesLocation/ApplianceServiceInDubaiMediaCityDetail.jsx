@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
@@ -21,7 +21,7 @@ const ApplianceServiceInDubaiMediaCityDetail = ({ subtitle, title, reviewsbg, ti
     const metatitle = String(titleSeo || "Appliances Services In Dubai Media City - Fridge Repair");
     const metadescription = String(description || "Best Appliances Services in Dubai Media City. Get Washing Machine Repair Near me. Call now at 043300002. Fridge , refrigerator, oven Fix. ");
     const metaAuthor = String(Author || "Faj Technical Services");
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing machine repair in Dubai Media City, Fridge repair in Dubai Media City, Appliance repair in Dubai Media City, Home appliance service in Dubai Media City, Appliance maintenance in Dubai Media City, Same day appliance repair in Dubai Media City, Affordable appliance service in Dubai Media City, Reliable appliance repair in Dubai Media City");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-media-city/").replace(/\/?$/, '/');
 
@@ -129,13 +129,13 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                     <meta property="og:title" content={metatitle} />
                     <meta property="og:description" content={metadescription} />
                     <meta property="og:url" content={metaURL} />
-          <meta property="og:image" content={metaImage} />
-          {/* Twitter Card */}
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content={metatitle} />
-          <meta name="twitter:description" content={metadescription} />
-          <meta name="twitter:image" content={metaImage} />
-          <meta name="twitter:url" content={metaURL} />
+                    <meta property="og:image" content={metaImage} />
+                    {/* Twitter Card */}
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:title" content={metatitle} />
+                    <meta name="twitter:description" content={metadescription} />
+                    <meta name="twitter:image" content={metaImage} />
+                    <meta name="twitter:url" content={metaURL} />
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />
@@ -145,7 +145,6 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                 <section className="section cs_py_30">
                     <div className="container">
                         <h1 className="cs_fs_30">Home Appliance Service in Dubai Media City</h1>
-                        {/* <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2> */}
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
@@ -167,7 +166,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                                 <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai</h3>
 
                                 <p className="mb-2">
-                                    If you need appliance repair, FAJ is your best choice for fast and affordable service in Cedre Villas Silicon Oasis Dubai and Sharjah.
+                                    If you need appliance repair, FAJ is your best choice for fast and affordable service in Dubai Media City and Sharjah.
                                     <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that&apos;s not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
                                     <br /> We&apos;re nearby and can get your appliances fixed quickly and efficiently.
                                 </p>
@@ -178,7 +177,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`}  loading="lazy" alt="Post Image" />
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} loading="lazy" alt="Post Image" />
                             </div>
                         </div>
                         <AppliancesAppointmentCol></AppliancesAppointmentCol>
@@ -195,7 +194,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`}  loading="lazy" alt="Post Image" />
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} loading="lazy" alt="Post Image" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">
@@ -325,6 +324,18 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                         <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h3>
 
                         <div className="row align-items-center">
+                              <div className="col-xl-6">
+                                <iframe
+                                    className="bordered-img blue-border"
+                                    width="100%"
+                                    height="350"
+                                    src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
+                                    title="YouTube video player"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowFullScreen
+                                ></iframe>
+                            </div>
                             <div className="col-xl-6">
                                 <p className='mb-0'>We specialize in all types and brands of home appliances, including built-in units.</p>
                                 <p className='mb-0'><strong>Our services include:</strong></p>
@@ -339,18 +350,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                                     </p>
                                 </ul>
                             </div>
-                            <div className="col-xl-6">
-                                <iframe
-                                    className="bordered-img blue-border"
-                                    width="100%"
-                                    height="350"
-                                    src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
-                                    title="YouTube video player"
-                                    frameBorder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowFullScreen
-                                ></iframe>
-                            </div>
+                          
                         </div>
                     </div>
                 </section >
@@ -366,7 +366,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h4 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h4>
                                             <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
@@ -377,7 +377,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
                                             </h4>
@@ -390,7 +390,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
                                             <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
@@ -402,7 +402,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h4 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h4>
                                             <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
@@ -414,7 +414,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h4 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h4>
                                             <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
@@ -428,7 +428,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                                             </h4>
@@ -451,7 +451,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                             <div className="uspcol col-1">
                                 <div className="uspitem">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`}  loading="lazy" alt="Fast, Reliable Service" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} loading="lazy" alt="Fast, Reliable Service" />
 
                                     </div>
                                     <div className="usptext">
@@ -462,7 +462,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
                                 <div className="uspitem">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`}  loading="lazy" alt="We Are Experts" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} loading="lazy" alt="We Are Experts" />
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Feeling Of Calm</h3>
@@ -473,7 +473,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
                                 <div className="uspitem mb-0">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`}  loading="lazy" alt="FAJ icon service" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} loading="lazy" alt="FAJ icon service" />
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">You Are in Control</h3>
@@ -485,14 +485,14 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`}  loading="lazy" alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} loading="lazy" alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}
                             <div className="uspcol col-3">
                                 <div className="uspitem">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`}  loading="lazy" alt="FAJ icon service" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} loading="lazy" alt="FAJ icon service" />
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">We Are Experts</h3>
@@ -501,7 +501,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                                 </div>
                                 <div className="uspitem">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`}  loading="lazy" alt="FAJ icon service" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} loading="lazy" alt="FAJ icon service" />
 
                                     </div>
                                     <div className="usptext">
@@ -511,7 +511,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                                 </div>
                                 <div className="uspitem mb-0">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`}  loading="lazy" alt="FAJ icon service" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} loading="lazy" alt="FAJ icon service" />
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Trustworthy</h3>
@@ -522,7 +522,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
                             {/* <!-- Delimit mobile --> */}
                             <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`}  loading="lazy" alt="FAJ icon service" />
+                                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} loading="lazy" alt="FAJ icon service" />
                             </div>
                         </div>
                     </div>
@@ -545,7 +545,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
                                             <div className="brandslogo-slide-container">
                                                 <div className="brnadlogo">
-                                                    <img className="w-100" src={`${import.meta.env.BASE_URL}${item.logo}`}  loading="lazy" alt="Avatar" />
+                                                    <img className="w-100" src={`${import.meta.env.BASE_URL}${item.logo}`} loading="lazy" alt="Avatar" />
                                                 </div>
                                             </div>
 
@@ -563,7 +563,6 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                 <MaintenanceContract />
                 {/* testimobial section */}
                 <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
-                    {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                     <div className="container">
                         <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
                             <h3 className="cs_section_subtitle cs_fs_18 text-black cs_semibold text-uppercase cs_mb_12 wow fadeInDown">
@@ -585,7 +584,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                                                 <div className="cs_testimonial_content cs_white_bg position-relative">
                                                     <div className="cs_testimonial_header cs_mb_35">
                                                         <div className="cs_testimonial_thumbnail">
-                                                            <img src={`${import.meta.env.BASE_URL}${item.img1}`}  loading="lazy" alt="Avatar" />
+                                                            <img src={`${import.meta.env.BASE_URL}${item.img1}`} loading="lazy" alt="Avatar" />
                                                         </div>
                                                         <div className="cs_testimonial_info">
                                                             <div className="rating-area" >
@@ -601,7 +600,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                                                     </div>
                                                     <blockquote className="cs_fs_16">{item.desc}</blockquote>
                                                     <div className="cs_quote_icon position-absolute">
-                                                        <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`}  loading="lazy" alt="Quote Icon" />
+                                                        <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`} loading="lazy" alt="Quote Icon" />
                                                     </div>
                                                 </div>
                                             </div>

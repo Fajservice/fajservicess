@@ -1,11 +1,10 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, parsePath } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../Data/coffeemachinesserviceFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import CallNowButton from '../Buttons/CallNowButton';
-import GetQuoteButton from "../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
 
@@ -488,8 +487,6 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
           </div>
         </section>
 
-
-
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
           <div className="container container-md container-sm">
@@ -577,10 +574,8 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
           </div>
         </section>
 
-
-
         {/* CHOOSE  DOMESTIC OR PROFESSIONAL COFFEE MACHINE REPAIR SERVICE */}
-        <section className="section cs_py_30 bg-light-gray">
+        {/* <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h2>CHOOSE  DOMESTIC OR PROFESSIONAL COFFEE MACHINE REPAIR SERVICE</h2>
             <div className="row">
@@ -639,6 +634,127 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <GetQuoteButton />
                 <CallNowButton />
+              </div>
+            </div>
+
+          </div>
+        </section> */}
+
+        {/* CHOOSE  DOMESTIC OR PROFESSIONAL COFFEE MACHINE REPAIR SERVICE */}
+        <section className="section cs_py_30 bg-light-gray">
+          <div className="container">
+            <h2 className="text-center">CHOOSE  DOMESTIC OR PROFESSIONAL COFFEE MACHINE REPAIR SERVICE</h2>
+            <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_14 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Ascaso Coffee Machine Repair </h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      Ascaso espresso coffee machine maintenance and cleaning services in Dubai and Sharjah.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_14 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Lelit Coffee Machine Service</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">Expert Lelit coffee machines repair, maintenance, and descaling are available near you.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_14 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Conti Coffee Machine Repair </h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">Get Conti espresso & coffee machine descaling and cleaning services near your location.</p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_14 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Jura Coffee Machine Maintenance</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">We offer Jura coffee machine and espresso descaling and maintenance services in Dubai.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Loud or Unusual Noises</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+
+                      Noise from the coffee machine, Low water levels, the espresso machine being placed on a hard surface, or heating issues can lead to unexpected noises.
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Brewing Issues</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      Weak Coffee is often a common problem, typically due to improper grind size, over-extraction, under-extraction, or using stale espresso machine coffee beans.
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Slow Coffee Flow</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+
+                      This issue of coffee machine or espresso or automatic coffee machine can stem from clogs, incorrect grind size, or problems with the coffee machine’s pump.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className="box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Professional Help</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+
+                      For more complex issues or if you are unable to troubleshoot the problem yourself, contact FAJ qualified coffee machine repair technician for maintenance.
+                    </p>
+                  </div>
+                </div>
+              </div> */}
+            </div>
+
+            <div id="get-quote" className="mb-0 mt-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3">
+                <WhatsappIconButton />
               </div>
             </div>
 

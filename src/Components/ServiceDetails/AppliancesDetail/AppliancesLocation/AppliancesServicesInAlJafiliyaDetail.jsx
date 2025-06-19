@@ -14,13 +14,13 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 import ApplianceSpecialise from "./Appliance specialise/ApplianceSpecialise.jsx";
 
-const AppliancesServicesInAlJafiliyaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => { 
+const AppliancesServicesInAlJafiliyaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
     const metatitle = String(titleSeo || "Appliances Services in Al Jafiliya - Washing Machine Repair");
     const metadescription = String(description || "We offer best appliance services in Al Jafiliya. Get washing machine repair near me in Dubai. Book 043300002 for fridge, oven, dishwasher maintenance.");
     const metaAuthor = String(Author || "Faj Technical Services");
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in al jafiliya, Appliances Services in Al Jafiliya, Appliance Repair in Al Jafiliya, Fridge Repair in Al Jafiliya, Oven Repair in Al Jafiliya, Dishwasher Repair in Al Jafiliya");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-jafiliya/").replace(/\/?$/, '/');
 
@@ -127,13 +127,13 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                     <meta property="og:title" content={metatitle} />
                     <meta property="og:description" content={metadescription} />
                     <meta property="og:url" content={metaURL} />
-          <meta property="og:image" content={metaImage} />
-          {/* Twitter Card */}
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content={metatitle} />
-          <meta name="twitter:description" content={metadescription} />
-          <meta name="twitter:image" content={metaImage} />
-          <meta name="twitter:url" content={metaURL} />
+                    <meta property="og:image" content={metaImage} />
+                    {/* Twitter Card */}
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:title" content={metatitle} />
+                    <meta name="twitter:description" content={metadescription} />
+                    <meta name="twitter:image" content={metaImage} />
+                    <meta name="twitter:url" content={metaURL} />
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />
@@ -142,8 +142,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Appliances Services In AlJafiliya</h1>
-                        {/* <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2> */}
+                        <h1 className="cs_fs_30">Appliances Services In Al Jafiliya</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
@@ -154,7 +153,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                             </div>
                         </div>
                     </div>
-                </section> 
+                </section>
 
                 {/* Best Home Appliance Service Center */}
                 <section className="section cs_py_30 bg-light-gray">
@@ -322,6 +321,18 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                         <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h3>
 
                         <div className="row align-items-center">
+                             <div className="col-xl-6">
+                                <iframe
+                                    className="bordered-img blue-border"
+                                    width="100%"
+                                    height="350"
+                                    src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
+                                    title="YouTube video player"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowFullScreen
+                                ></iframe>
+                            </div>
                             <div className="col-xl-6">
                                 <p className='mb-0'>We specialize in all types and brands of home appliances, including built-in units.</p>
                                 <p className='mb-0'><strong>Our services include:</strong></p>
@@ -336,18 +347,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                                     </p>
                                 </ul>
                             </div>
-                            <div className="col-xl-6">
-                                <iframe
-                                    className="bordered-img blue-border"
-                                    width="100%"
-                                    height="350"
-                                    src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
-                                    title="YouTube video player"
-                                    frameBorder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowFullScreen
-                                ></iframe>
-                            </div>
+                           
                         </div>
                     </div>
                 </section >
@@ -559,7 +559,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
                 </section>
 
-                
+
                 {/* testimobial section */}
                 <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
 
