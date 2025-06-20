@@ -331,14 +331,15 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
     return (
       <div className="row" key={sectionName}>
         <h2>{blogPost[h2Key]}</h2>
-        {renderContent(blogPost[h2PKey])}
-
         {blogPost[imgKey] && (
           <div className="col-md-8">
             <img src={blogPost[imgKey]} alt={blogPost.title} />
           </div>
         )}
 
+        {renderContent(blogPost[h2PKey])}
+
+        
         {/* Render h3 subsections */}
         {[...Array(13)].map((_, i) => {
           const h3Key = `${sectionName}_h3_${i + 1}`;

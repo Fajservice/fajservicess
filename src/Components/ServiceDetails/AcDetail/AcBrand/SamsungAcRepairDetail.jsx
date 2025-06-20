@@ -132,7 +132,7 @@ const SamsungAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
         </section>
 
         {/* 2 cols */}
-        <section className="section cs_py_30 bg-light-gray mb-4">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">

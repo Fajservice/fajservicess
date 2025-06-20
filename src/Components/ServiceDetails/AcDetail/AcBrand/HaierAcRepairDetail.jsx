@@ -116,7 +116,7 @@ const HaierAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
             <h1 className="cs_fs_30">Haier AC Repair and Maintenance Service in Dubai</h1>
             <p>
               Achieving year-round comfort requires managing challenges like summer humidity, warm nights, and indoor allergens.
-              <br /> Since our inception in 2010, <a href="https://www.fajservices.ae/"> F A J Technical Services L.L.C</a> has established itself as a reliable and respected provider of Haier air conditioning solutions across the regions of Dubai and Sharjah.
+              <br /> Since our inception in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"> F A J Technical Services L.L.C</a> has established itself as a reliable and respected provider of Haier air conditioning solutions across the regions of Dubai and Sharjah.
               <br />Our team of skilled technicians is well-equipped to offer a comprehensive range of services, including special Haier AC repair, thorough servicing, routine maintenance, and professional installation for both residential homes and commercial establishments.
             </p>        
 
@@ -130,7 +130,7 @@ const HaierAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
         </section>
 
         {/* 2 col */}
-        <section className="section cs_py_30 bg-light-gray mb-4">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
@@ -180,7 +180,7 @@ const HaierAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
           <div className="container">
 
             <h2 className="cs_fs_30">Why is Haier AC Maintenance Service Important in Dubai?</h2>
-            <p className="mb-0">
+            <p className="mb-2">
               To guarantee your Haier central air conditioner functions efficiently in Dubai's intense heat, regular
               <a href="https://www.fajservices.ae/ac-maintenance-dubai/"> AC maintenance</a> is essential. At FAJ, we offer expert aircon services designed to enhance your system’s performance and comfort year-round. Trust us to keep your air conditioner operating at its best.
             </p>
@@ -348,7 +348,7 @@ const HaierAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                   <li> <strong> Haier AC Repair Service: </strong> We offer fast repair services for Haier air conditioners, addressing leaks, electrical problems, and malfunctions. Contact us for further details or inquiries! </li>
                   <li> <strong> Haier AC Annual Maintenance Contract: </strong> The contract specifies the annual maintenance terms for Haier air conditioners.  </li>
                 </ul>
-                <p className="mb-0"> Regular maintenance, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is vital for optimal performance and durability.</p>
+                <p className="mb-0"> <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a>, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is vital for optimal performance and durability.</p>
               </div>
 
             </div>
@@ -547,15 +547,15 @@ const HaierAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
             <h3>We specialise in Haier AC services for the following types</h3>
             <div className="row">
               <div className="col-12">
-                <p className="mb-0"><strong>  Haier Air Conditioner Installation Service in Dubai: </strong> A comprehensive solution for your cooling needs. We specialize in high-quality Haier <a href="https://www.fajservices.ae/ac-service-in-dubai/"> AC installation services </a> in Dubai and Sharjah. Our consultation process helps you choose the right model based on your space and budget. Our experts assess factors like room size and AC insulation to recommend the best unit for optimal performance.</p>
+                <p className="mb-0"><strong>  Haier Air Conditioner Installation Service in Dubai: </strong> A comprehensive solution for your cooling needs. We specialize in high-quality Haier AC installation services in Dubai and Sharjah. Our consultation process helps you choose the right model based on your space and budget. Our experts assess factors like room size and AC insulation to recommend the best unit for optimal performance.</p>
 
                 <p className="mb-0"><strong>  Our installation services include:</strong> </p>
                 <p className="mb-0"> <strong>  Climate Check: </strong> Understanding your unique requirements based on the local climate and your building's features. </p>
-                <p className="mb-0"> <strong>  Expert AC Installation: </strong> Our <a href="https://www.facebook.com/ACRepairUAE"><b>skilled AC technicians</b></a> ensure that the AC installation is performed to the highest standards, adhering to all safety protocols. </p>
+                <p className="mb-0"> <strong>  Expert AC Installation: </strong> Our skilled AC technicians ensure that the AC installation is performed to the highest standards, adhering to all safety protocols. </p>
                 <p className="mb-0"> <strong>  Post-Installation Support: </strong> We provide advice on operating your new air conditioner, including tips on energy efficiency and maintenance. </p>
                 <p className="mb-0"> <strong>  Warranty and Service Packages: </strong> To ensure your peace of mind, we offer warranty options and additional service packages for maintenance and repair in Dubai and Sharjah. </p>
                 <p className="mb-0"> <strong>  Haier AC AMC Services in Dubai: </strong> We offer comprehensive air conditioning AMC (Annual Maintenance Contract) and PPM (Planned Preventive Maintenance) services, along with repair support, throughout the year for both contract and non-contract customers. While we are dedicated to serving all our clients, please note that those with service contracts may receive priority assistance. </p>
-                <p className="mb-0"> <strong>  Haier Air Conditioner Repair in Dubai: </strong> Stay cool during the hot Dubai summer with our expert Haier inverter AC repair in Dubai and Sharjah. Our team provides efficient and reliable cooling solutions tailored to your needs. We guide you through the selection and installation process for optimal comfort. Contact us today to schedule your installation and beat the heat! </p>
+                <p className="mb-0"> <strong>  Haier Air Conditioner Repair in Dubai: </strong> Stay cool during the hot Dubai summer with our expert Haier inverter <a href="https://www.fajservices.ae/ac-repair-dubai/">AC repair</a> in Dubai and Sharjah. Our team provides efficient and reliable cooling solutions tailored to your needs. We guide you through the selection and installation process for optimal comfort. Contact us today to schedule your installation and beat the heat! </p>
                 <p className="mb-0"> <strong>  Haier AC Cleaning Service in Dubai: </strong> AC Deep cleaning your air conditioner brings several key benefits: </p>
                 <p className="mb-0"> <strong>  Improved Air Quality: </strong> It removes dust, allergens, and bacteria, leading to healthier air, especially for those with allergies. </p>
                 <p className="mb-0"> <strong>  Reduced Energy Consumption: </strong> A clean unit operates more efficiently, lowering your electricity bills. </p>

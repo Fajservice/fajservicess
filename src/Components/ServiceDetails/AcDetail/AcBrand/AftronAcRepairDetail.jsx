@@ -125,7 +125,7 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
         </section>
 
         {/* 2 cols*/}
-        <section className="section cs_py_30 bg-light-gray mb-4">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
@@ -535,7 +535,7 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
             <h3>We specialise in Aftron AC services for the following types</h3>
             <div className="row">
               <div className="col-12">
-                <p className="mb-0"><strong> Aftron Air Conditioner Installation Service in Dubai: </strong>  A comprehensive solution for your cooling needs. We specialize in high-quality Aftron AC installation services in Dubai and Sharjah. Our consultation process helps you choose the right model based on your space and budget. Our experts assess factors like room size and AC insulation to recommend the best unit for optimal performance.</p>
+                <p className="mb-0"><strong> Aftron Air Conditioner Installation Service in Dubai: </strong>  A comprehensive solution for your cooling needs. We specialize in high-quality <a href="https://www.google.com/search?q=faj+technical+service+llc&rlz=1C1GCEU_en-GBPK1161PK1162&oq=faj+technical+service+llc&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMggIAxAAGBYYHjIICAQQABgWGB4yBggFEEUYPDIGCAYQRRg8MgYIBxBFGD3SAQg3Mzg1ajBqN6gCCLACAfEF5bSBoZc-GIs&sourceid=chrome&ie=UTF-8#lpc=lpc&prid=-8538718177430601680">Aftron AC installation</a> services in Dubai and Sharjah. Our consultation process helps you choose the right model based on your space and budget. Our experts assess factors like room size and AC insulation to recommend the best unit for optimal performance.</p>
 
                 <p className="mb-0"><strong> Our installation services include:</strong></p>
                 <p className="mb-0"> <strong> Climate Check: </strong> Understanding your unique requirements based on the local climate and your building&apos;s features. </p>
@@ -680,7 +680,9 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>
-                    <p className="mb-0">{item.desc}</p>
+                    <p className="mb-0"
+                      dangerouslySetInnerHTML={{ __html: item.desc.replace(/\n/g, '<br>') }}
+                    ></p>
                   </div>
                 </div>
               ))}

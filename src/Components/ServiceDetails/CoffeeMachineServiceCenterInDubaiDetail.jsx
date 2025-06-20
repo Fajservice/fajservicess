@@ -149,13 +149,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30"> Coffee Machine Service Center in Dubai</h1>
-            <p>
-              Since 2010, FAJ has been providing reliable and trusted expertise in installation and maintenance, specializing in coffee machine repair and service in Dubai, serving homes, offices, restaurants, and cafes.
-
-              We work with a variety of coffee equipment, including espresso machines, coffee grinders, professional coffee machines, and automatic coffee machines. Our dedicated team understands the importance of a functioning coffee machine, and we prioritise timely maintenance.
-              <br />
-              As specialists in espresso machines, we are committed to managing and maintaining your equipment throughout its lifespan, ensuring that you enjoy reliable, great-tasting coffee every day.
-            </p>
+           <p>Since 2010, FAJ has been providing reliable and trusted expertise in installation, coffee machine service and maintenance, specializing in coffee machine repair in Dubai, serving home coffee machine service, office coffee machine repair, restaurant coffee machine maintenance, and cafes.<br />We work with a variety of coffee equipment, including tea &amp; coffee vending machine repair, espresso machine maintenance, coffee grinders servicing, professional coffee machine, and automatic coffee machine error fix.&nbsp;<br />Our dedicated team understands the importance of functioning coffee machine servicing, and we prioritise timely maintenance.&nbsp;<br/>As specialists in espresso machines, we are committed to managing and maintaining your equipment throughout its lifespan, ensuring that you enjoy reliable, great-tasting coffee every day.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -175,10 +169,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
                 <p className="mb-2">When your coffee machine breaks down or stops working, it can disrupt your daily   routine.
                   <br />
                   That’s where our expert technician comes in. FAJ expert offers fast and <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>s near you to restore optimal performance. We handle issues like coffee machine descaling, cleaning service, water leakage, Steam wand, noise, poor coffee quality, and grinding problems. Let us help get your coffee machine back on track.
-
                 </p>
-
-
                 <h2 className="cs_fs_18 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>
                   Coffee Machine Servicing and Maintenance Contract
                 </h2>
@@ -704,6 +695,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
+<<<<<<< HEAD
                     <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dr Coffee Machine Repairs</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
@@ -712,6 +704,12 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
                       You can find professional Dr Coffee machine maintenance and descaling services near you.
 
                     </p>
+=======
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dr Coffee Machine Repairs</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">You can find professional Dr Coffee machine maintenance and descaling services near you.</p>
+>>>>>>> a3b68afefbc21f27a232cb009efca6698770a8cb
                   </div>
                 </div>
               </div>
@@ -719,12 +717,19 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
+<<<<<<< HEAD
                     <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">La Marzocco Coffee Machine Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
                       Premier maintenance and cleaning for LA Marzocco espresso machine, including AMC services.
                     </p>
+=======
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">La Marzocco Coffee Machine Repair</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">Premier maintenance and cleaning for LA Marzocco espresso machine, including AMC services.</p>
+>>>>>>> a3b68afefbc21f27a232cb009efca6698770a8cb
 
                   </div>
                 </div>
@@ -733,11 +738,18 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
+<<<<<<< HEAD
                     <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">La Pavoni Espresso Maintenance</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
                       We offer espresso machine repair, including cleaning services, to keep machine in top shape.</p>
+=======
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">La Pavoni Espresso Maintenance</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">We offer espresso machine repair, including cleaning services, to keep machine in top shape.</p>
+>>>>>>> a3b68afefbc21f27a232cb009efca6698770a8cb
                   </div>
                 </div>
               </div>
@@ -745,6 +757,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
+<<<<<<< HEAD
                     <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">ECM Coffee Machine Servicing</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
@@ -754,6 +767,16 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
                   </div>
                 </div>
               </div>
+=======
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">ECM Coffee Machine Servicing</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">Contact us for maintenance and repair services for your ECM coffee machine, including descaling.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+>>>>>>> a3b68afefbc21f27a232cb009efca6698770a8cb
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">

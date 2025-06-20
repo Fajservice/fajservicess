@@ -118,8 +118,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Ac Service in Dubai</h1>
-            <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
-            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
+            <p><p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br/><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been in operation since 2010. Our dedicated facilities team has extensive experience in AC cleaning service, AC maintenance, AC repair, AC service near me, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p></p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -129,9 +128,6 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
           </div>
         </section>
 
-        
-
-
         {/* Experts AC Service and Maintenance */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
@@ -140,7 +136,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
                 <h2 className="cs_fs_24 mb-1" style={{fontSize: "24px"}} >Experts AC Service and Maintenance</h2>
                 <p className="mb-1">When considering AC service in Dubai, it is vital to hire a qualified and reliable AC technician who can effectively address your needs at home or in your business place.</p>
-                <p className="mb-1"><a href="https://www.facebook.com/FAJTechnicalServicesLLC"><b>FAJ Experts</b></a> in comprehensive air conditioner (AC) service, and maintenance, ensuring that you receive the highest quality care for your cooling systems.</p>
+                <p className="mb-1"><a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ Experts</a> in comprehensive air conditioning service near me, and AC fixing and AC cleaning service in Dubai, ensuring that you receive the highest quality care for your cooling systems.</p>
                  <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{fontSize: "24px"}} >Signs You Need An AC Service</h2>
                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                 <div className="row">
@@ -189,9 +185,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h2 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h2>
-            <p>
-              Regular air conditioner (AC) maintenance service in Dubai is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you, contact us.
-            </p>
+            <p>Regular air conditioner (AC) maintenance service in Dubai is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need<a href="https://www.fajservices.ae/ac-maintenance-dubai/"> AC maintenance</a> and air conditioning service near you, contact us.</p>
 
             <div className="row align-items-center">
               <div className="col-md-6">
@@ -335,31 +329,16 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <h3>We specialise in air conditioning services for the following brands</h3>
           <div className="row">
             <div className="col-12">
-              <p className="mb-0">
-                <Link to="/lg-ac-repair-in-dubai/"><b>LG Air Conditioner Service</b></Link>: FAJ offers reliable LG AC repair, and services in Dubai. With professionals, who are experts in split, vrf and central air conditioning units.
-              </p>
-              <p className="mb-0">
-                <Link to="/samsung-ac-repair-in-dubai/"><b>Samsung Air Conditioner Repair and Service</b></Link>: Based in Dubai, FAJ is your go-to destination for Samsung AC repair in Dubai. Specializing in Samsung air conditioner systems, we offer comprehensive services ranging from repairs to maintenance.
-              </p>
-              <p className="mb-0">
-                <Link to="/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten/"><b>York AC Service and Repair</b></Link>: The York AC service ensures you don’t need to worry because you are in the right place. Yes, FAJ is where efficiency and reliability are prioritized.
-              </p>
-              <p className="mb-0">
-                <Link to="/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con/"><b>Daikin Air Conditioner Maintenance</b></Link>: Trust our skilled team to efficiently resolve all issues with your Daikin air conditioner and restore its functionality.
-              </p>
-              <p className="mb-0">
-                <Link to="/trane-ac-repair-in-dubai-trane-ac-maintenance-in-dubai-trane-ac-fix-in-dubai-trane-ac-service-in-dubai-trane-air-condition-repair-in-dubai-trane-air-condition-maintenance-in-dubai-trane-air-condition/"><b>Trane HVAC Repair</b></Link>:  With extensive knowledge of Trane air conditioning systems, we provide effective repairs to keep your unit running smoothly.
-              </p>
-              <p className="mb-0">
-                <Link to="/panasonic-ac-repair-in-dubai-panasonic-ac-maintenance-in-dubai-panasonic-ac-fix-in-dubai-panasonic-ac-service-in-dubai-panasonic-air-condition-repair-in-dubai-panasonic-air-condition-maintenance-in-du/"><b>Panasonic AC Service and Repair</b></Link>: No matter the issue with your Panasonic air conditioner, our experts can accurately diagnose and fix it.
-              </p>
-              <p className="mb-0">
-                <Link to="/gree-ac-repair-in-dubai/"><b>Gree AC Service and Maintenance</b></Link>: Has your AC stopped working? No need to endure unpleasant temperatures and stuffy air or suffer losses due to damaged equipment – FAJ gets your Gree air conditioning back up and running in no time!
-              </p>
-              <p className="mb-0">
-                <Link to="/o-general-ac-repair-in-dubai-o-general-ac-maintenance-in-dubai-o-general-ac-fix-in-dubai-o-general-ac-service-in-dubai-o-general-air-condition-repair-in-dubai-o-general-air-condition-maintenance-in-du/"><b>O General AC Service and Repair</b></Link>: O General AC service in Dubai requires expert help because only specialized ones know how to address aircon issues. We are a hassle-free air conditioning repair service provider.
-              </p>
-              <p className="mb-0"><Link to="/mitsubishi-ac-repair-in-dubai/"><b>Mitsubishi Air Conditioner Service and Repair</b></Link>: Seeking relief from scorching heat? Discover the secret to keeping your Mitsubishi AC running smoothly in Dubai! Our expert Mitsubishi AC services ensure your AC stays cool and efficient, providing comfort and peace of mind.</p>
+              <p className="mb-0"><a href="https://www.fajservices.ae/lg-ac-repair-in-dubai/">LG Air Conditioner Service</a>: FAJ offers reliable LG AC repair and services in Dubai. With professionals who are experts in split, vrf, and central air conditioning units. Get reliable and fast AC service near me, AC repair, and AC maintenance in Dubai.</p>
+              <p className="mb-0"><a href="https://www.fajservices.ae/samsung-ac-repair-in-dubai/">Samsung Air Conditioner Repair and Service</a>: Based in Dubai, FAJ is your go-to destination for Samsung AC repair in Dubai. Specializing in Samsung air conditioner systems, we offer comprehensive AC servicing ranging from AC fixing to AC cleaning service and AC maintenance.</p>
+              <p className="mb-0"><a href="https://www.fajservices.ae/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten/">York AC Service and Repair</a>: The York AC repair and service ensure you don&rsquo;t need to worry because you are in the right place. Yes, FAJ is where efficiency and reliability are prioritized, providing air conditioning services near me, AC cleaning service, and AC fixing.</p>
+              <p className="mb-0"><a href="https://www.fajservices.ae/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con/">Daikin Air Conditioner Maintenance</a>: Count on our experienced team to promptly and effectively address any challenges you may encounter with your Daikin air conditioning unit. We specialize in AC cleaning service and AC repair in Dubai to ensure it operates at optimal functionality, providing you with a cool and comfortable environment when you need it most.</p>
+              <p className="mb-0"><a href="https://www.fajservices.ae/trane-ac-repair-in-dubai-trane-ac-maintenance-in-dubai-trane-ac-fix-in-dubai-trane-ac-service-in-dubai-trane-air-condition-repair-in-dubai-trane-air-condition-maintenance-in-dubai-trane-air-condition/">Trane HVAC Repair</a>: With in-depth expertise in the repair Trane air conditioning systems, we offer comprehensive AC cleaning services designed to ensure your unit operates at peak efficiency. Our specialized Trane AC maintenance and repair services are conveniently available in your area, providing timely and effective solutions to keep your air conditioning system running smoothly and reliably. Whether you need routine aircon maintenance or urgent repair, we are here to help you maintain a comfortable environment in your home or business.</p>
+              <p className="mb-0"><a href="https://www.fajservices.ae/panasonic-ac-repair-in-dubai-panasonic-ac-maintenance-in-dubai-panasonic-ac-fix-in-dubai-panasonic-ac-service-in-dubai-panasonic-air-condition-repair-in-dubai-panasonic-air-condition-maintenance-in-du/">Panasonic AC Service and Repair</a>: No matter the issue with your Panasonic air conditioner, our skilled technicians in Dubai and Sharjah can quickly diagnose and fix it. We offer reliable air conditioning services near me and AC repair right in your area, ensuring your system runs smoothly again.</p>
+              <p className="mb-0"><a href="https://www.fajservices.ae/gree-ac-repair-in-dubai/">Gree AC Service and Maintenance</a>: Is your air conditioning unit not functioning properly, or are you seeing a Gree AC error displayed on the screen? You don&rsquo;t have to struggle with uncomfortable temperatures or stale air any longer. At FAJ, we specialise in quickly restoring your Gree air conditioning to optimal performance. Our reliable air conditioning repair and maintenance services ensure that your system operates efficiently and effectively, preventing any further damage and discomfort.</p>
+              <p className="mb-0">&nbsp;Whether you need expert AC repair services, routine ac maintenance services, or comprehensive air conditioning services in Dubai, we&rsquo;ve got you covered. Enjoy a refreshing and cool environment once again with our professional solutions!</p>
+              <p className="mb-0"><a href="https://www.fajservices.ae/o-general-ac-repair-in-dubai-o-general-ac-maintenance-in-dubai-o-general-ac-fix-in-dubai-o-general-ac-service-in-dubai-o-general-air-condition-repair-in-dubai-o-general-air-condition-maintenance-in-du/">O General AC Service and Repair</a>: For air conditioning cleaning services in Dubai, specialized help is crucial for effectively managing aircon issues. Our company provides hassle-free AC repair and maintenance services, conveniently available in both Dubai and Sharjah. Trust us to keep your home comfortable all year round.</p>
+              <p><a href="https://www.fajservices.ae/mitsubishi-ac-repair-in-dubai/">Mitsubishi Air Conditioner Service and Repair</a>: Seeking relief from scorching heat? Discover the secret to keeping your Mitsubishi AC running smoothly in Dubai! Our expert Mitsubishi AC cleaning service and AC repair ensure your AC stays cool and efficient, providing comfort and peace of mind. Air conditioning cleaning service near me in Dubai and Sharjah, aircon fixing and ac maintenance service in Dubai</p>
               <p className="mb-0"><b>Carrier AC Repair and Service in Dubai</b>: We understand how essential Carrier air conditioning is for your home or business. FAJ provides fast and reliable Carrier air conditioner maintenance services that are both efficient and dependable. Typically, regular cleaning service of your Carrier VRF (Variable Refrigerant Flow), central, split, package unit, or cassette type units in Dubai and Sharjah is sufficient to keep your system running smoothly. However, if your Carrier air conditioning system experiences a breakdown, fault, or malfunction, it can negatively affect your indoor environment.</p>
               <br />
               <p className="mb-0">
