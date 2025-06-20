@@ -21,7 +21,7 @@ const ApplianceServiceInTheRitzCarltonDifcDetail = ({ subtitle, title, reviewsbg
     const metatitle = String(titleSeo || "Best Appliances Services in The Ritz Carlton DIFC Near Me");
     const metadescription = String(description || "Get best appliance services in The Ritz Carlton DIFC. Experts in fridge repair near me in Dubai. Call 043300002 for washing machine, oven & dishwasher fix");
     const metaAuthor = String(Author || "Faj Technical Services");
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in The Ritz Carlton DIFC, Fridge Repair in The Ritz Carlton DIFC, Oven Repair in The Ritz Carlton DIFC, Dishwasher Repair in The Ritz Carlton DIFC, Appliance Service in The Ritz Carlton DIFC, Appliance Repair in The Ritz Carlton DIFC");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-ritz-carlton-difc/").replace(/\/?$/, '/');
     subtitle = "Testimonial"
@@ -127,13 +127,13 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                     <meta property="og:title" content={metatitle} />
                     <meta property="og:description" content={metadescription} />
                     <meta property="og:url" content={metaURL} />
-          <meta property="og:image" content={metaImage} />
-          {/* Twitter Card */}
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content={metatitle} />
-          <meta name="twitter:description" content={metadescription} />
-          <meta name="twitter:image" content={metaImage} />
-          <meta name="twitter:url" content={metaURL} />
+                    <meta property="og:image" content={metaImage} />
+                    {/* Twitter Card */}
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:title" content={metatitle} />
+                    <meta name="twitter:description" content={metadescription} />
+                    <meta name="twitter:image" content={metaImage} />
+                    <meta name="twitter:url" content={metaURL} />
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />
@@ -164,7 +164,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                                 <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai</h3>
 
                                 <p className="mb-2">
-                                    If you need appliance repair, FAJ is your best choice for fast and affordable service in Cedre Villas Silicon Oasis Dubai and Sharjah.
+                                    If you need appliance repair, FAJ is your best choice for fast and affordable service in Ritz Carlton Difc Dubai and Sharjah.
                                     <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that&apos;s not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
                                     <br /> We&apos;re nearby and can get your appliances fixed quickly and efficiently.
                                 </p>
@@ -323,6 +323,18 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
                         <div className="row align-items-center">
                             <div className="col-xl-6">
+                                <iframe
+                                    className="bordered-img blue-border"
+                                    width="100%"
+                                    height="350"
+                                    src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
+                                    title="YouTube video player"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowFullScreen
+                                ></iframe>
+                            </div>
+                            <div className="col-xl-6">
                                 <p className='mb-0'>We specialize in all types and brands of home appliances, including built-in units.</p>
                                 <p className='mb-0'><strong>Our services include:</strong></p>
                                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
@@ -336,18 +348,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                                     </p>
                                 </ul>
                             </div>
-                            <div className="col-xl-6">
-                                <iframe
-                                    className="bordered-img blue-border"
-                                    width="100%"
-                                    height="350"
-                                    src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
-                                    title="YouTube video player"
-                                    frameBorder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowFullScreen
-                                ></iframe>
-                            </div>
+                            
                         </div>
                     </div>
                 </section >
@@ -436,7 +437,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                             </div>
                         </div>
                     </div>
-                </section>           
+                </section>
 
                 {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
                 <section className="section cs_py_30">
@@ -558,7 +559,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
                 {/* Maintenance Contract */}
                 <MaintenanceContract />
-                
+
                 {/* testimobial section */}
                 <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}

@@ -571,71 +571,6 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
           </div>
         </section>
 
-        {/* CHOOSE  DOMESTIC OR PROFESSIONAL COFFEE MACHINE REPAIR SERVICE */}
-        {/* <section className="section cs_py_30 bg-light-gray">
-          <div className="container">
-            <h2>CHOOSE  DOMESTIC OR PROFESSIONAL COFFEE MACHINE REPAIR SERVICE</h2>
-            <div className="row">
-              <div className="col-sm-4">
-                <ul className="">
-                  <li className="">Ascaso Coffee Machine Repair and Maintenance</li>
-                  <li className="">Marco Coffee Machine Repair and Service</li>
-                  <li className="">Appia Coffee Machine Repair and Descaling&nbsp;</li>
-                  <li className="">Lelit Coffee Machine Repair and Cleaning Service</li>
-                  <li className="">Conti Coffee Machine Repair and Installation</li>
-                  <li className="">Teka Coffee Machine Repair and Descaling</li>
-                  <li className="">Bezzera Coffee Machine Repair and Cleaning</li>
-                  <li className="">Jura Coffee Machine Repair and Servicing</li>
-                  <li className="">La Pavoni Espresso Repair and Service</li>
-                  <li className="">Dr.Coffee Machine Repair and Maintenance</li>
-                  <li className="">Beko Coffee Machine Repair and Cleaning</li>
-                  <li className="">Breville Coffee Machine Repair and Cleaning</li>
-                  <li className="">Melitta Coffee Machine Repair and Descaling</li>
-                  <li className="">Cafematic Automatic Coffee Machine Repairs and Maintenance</li>
-                  <li className="">Farenheit Epsilon Super Automatic Coffee Machine, Espresso Maker</li>
-                </ul>
-              </div>
-              <div className="col-sm-4">
-                <ul className="acsvs-exp-new-p">
-                  <li className="">Espresso Southeast Coffee Machine Repair and Fix</li>
-                  <li className="">Bosch Machine Repair and Maintenance</li>
-                  <li className="">Armiali Coffee Machine Repairs and Servicing&nbsp;</li>
-                  <li className="">Breville Coffee Machine Repair and Fixing</li>
-                  <li className="">Isomac Coffee Machine &amp; Espresso Repair and Fix</li>
-                  <li className="">ECM Coffee Machine &amp; Espresso Repair and Servicing</li>
-                  <li className=""><a href="/delonghi-coffee-machine-repair/">Delonghi Coffee Machine &amp; Espresso Repair</a> and Service</li>
-                  <li className="">La Marzocco Coffee Machine Repair and Maintenance</li>
-                  <li className="">Seimens Coffee Machine Repair and Cleaning</li>
-                  <li className="">Animo with Water Filter Coffee Machine Repair and Service</li>
-                  <li className="">Rancilio Volumetric Espresso Machine Repair and Servicing</li>
-                </ul>
-              </div>
-              <div className="col-sm-4">
-                <ul className="acsvs-exp-new-p">
-                  <li className="">Astoria Loft Espresso Machine Repair and Fixing</li>
-                  <li className="">Rocket Espresso Machine Repair and Descaling</li>
-                  <li className="">Magister Espresso Machines Repair and Maintenance</li>
-                  <li className="">Nuova Simonelli Coffee Machine Repair and Servicing</li>
-                  <li className="">Victoria Arduino Coffee Machine Repair and Service</li>
-                  <li className="">Gaggia Automatic Coffee Machine Repair near me</li>
-                  <li className="">Orhcestrale Espresso Machines Repair and Fix</li>
-                  <li className="">Rocket Appartmento Machine Repair and Descaling</li>
-                  <li className="">Illy Saeco Royal Coffee Machine Repair and Service</li>
-                  <li className="">Sage Coffee Machine &amp; Espresso Repair and Cleaning</li>
-
-                </ul>
-              </div>
-            </div>
-
-            <div id="get-quote" className=" mt-3">
-              <div className="container d-flex justify-content-center align-items-center gap-3">
-                <GetQuoteButton />
-                <CallNowButton />
-              </div>
-            </div>
-
-          </div>
-        </section> */}
 
         {/* CHOOSE  DOMESTIC OR PROFESSIONAL COFFEE MACHINE REPAIR SERVICE */}
         <section className="section cs_py_30 bg-light-gray">
@@ -695,21 +630,12 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-<<<<<<< HEAD
                     <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dr Coffee Machine Repairs</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-
                       You can find professional Dr Coffee machine maintenance and descaling services near you.
-
                     </p>
-=======
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dr Coffee Machine Repairs</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">You can find professional Dr Coffee machine maintenance and descaling services near you.</p>
->>>>>>> a3b68afefbc21f27a232cb009efca6698770a8cb
                   </div>
                 </div>
               </div>
@@ -717,20 +643,12 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-<<<<<<< HEAD
                     <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">La Marzocco Coffee Machine Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
                       Premier maintenance and cleaning for LA Marzocco espresso machine, including AMC services.
                     </p>
-=======
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">La Marzocco Coffee Machine Repair</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Premier maintenance and cleaning for LA Marzocco espresso machine, including AMC services.</p>
->>>>>>> a3b68afefbc21f27a232cb009efca6698770a8cb
-
                   </div>
                 </div>
               </div>
@@ -738,18 +656,11 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-<<<<<<< HEAD
                     <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">La Pavoni Espresso Maintenance</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
                       We offer espresso machine repair, including cleaning services, to keep machine in top shape.</p>
-=======
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">La Pavoni Espresso Maintenance</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">We offer espresso machine repair, including cleaning services, to keep machine in top shape.</p>
->>>>>>> a3b68afefbc21f27a232cb009efca6698770a8cb
                   </div>
                 </div>
               </div>
@@ -757,7 +668,6 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-<<<<<<< HEAD
                     <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">ECM Coffee Machine Servicing</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
@@ -767,16 +677,6 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
                   </div>
                 </div>
               </div>
-=======
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">ECM Coffee Machine Servicing</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Contact us for maintenance and repair services for your ECM coffee machine, including descaling.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
->>>>>>> a3b68afefbc21f27a232cb009efca6698770a8cb
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
@@ -964,8 +864,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Illy Saeco Royal Coffee Machine Repair
-</h3>
+                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Illy Saeco Royal Coffee Machine Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -1048,7 +947,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
                <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_14 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Nuova Simonelli Appia Life 
+                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Nuova Simonelli Appia Life 
 
 </h3>
                   </div>
@@ -1063,9 +962,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_14 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Victoria Arduino Espresso Machine 
-
-</h3>
+                    <h3 className="cs_fs_14 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Victoria Arduino Espresso Machine</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
