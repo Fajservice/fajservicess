@@ -7,40 +7,36 @@ import BookingFormModal from '../BookingFormModal';
 
 export default function Header1({ variant }) {
   const [mobileToggle, setMobileToggle] = useState(false);
-  const [isSticky, setIsSticky] = useState();
-  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [isSticky, setIsSticky] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      const currentScrollPos = window.scrollY;
-      if (currentScrollPos > prevScrollPos) {
-        setIsSticky('cs-gescout_sticky'); // Scrolling down
-      } else if (currentScrollPos !== 0) {
-        setIsSticky('cs-gescout_show cs-gescout_sticky'); // Scrolling up
+      const scrollTop = window.scrollY;
+      if (scrollTop > 10) {
+        setIsSticky(true);
       } else {
-        setIsSticky();
+        setIsSticky(false);
       }
-      setPrevScrollPos(currentScrollPos); // Update previous scroll position
     };
 
     window.addEventListener('scroll', handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll); // Cleanup the event listener
+      window.removeEventListener('scroll', handleScroll);
     };
-  }, [prevScrollPos]);
+  }, []);
 
   const openModal = (e) => {
     e.preventDefault();
     setIsModalOpen(true);
-    // Prevent body scrolling when modal is open
+
     document.body.style.overflow = 'hidden';
   };
 
   const closeModal = () => {
     setIsModalOpen(false);
-    // Restore body scrolling when modal is closed
+   
     document.body.style.overflow = 'auto';
   };
 
@@ -51,7 +47,14 @@ export default function Header1({ variant }) {
           variant ? variant : ''
         } cs_sticky_header cs_site_header_full_width ${
           mobileToggle ? 'cs_mobile_toggle_active' : ''
-        } ${isSticky ? isSticky : ''}`}
+        } ${isSticky ? 'cs_gescout_sticky' : ''}`}
+        style={{
+          position: isSticky ? 'fixed' : 'relative',
+          top: isSticky ? '0' : 'auto',
+          zIndex: '9999', 
+          width: '100%',
+          backgroundColor: isSticky ? 'white' : 'transparent'
+        }}
       >
         <div className="cs_top_header">
           <div className="container-fluid">
