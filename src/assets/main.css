@@ -5197,9 +5197,12 @@ textarea {
 }
 .cs_card.cs_style_2 .cs_card_title {
   -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  line-clamp: 2;
 }
 .cs_card.cs_style_2 .cs_card_subtitle {
   -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 .cs_card.cs_style_2 .cs_card_subtitle,
 .cs_card.cs_style_2 .cs_text_btn {
@@ -6106,12 +6109,7 @@ textarea {
 /*-----------------------------------------------
  Service Details Page Styling
 -------------------------------------------------*/
-.cs_service_details img {
-  /* margin-bottom: 36px; */
-  /* width: 80%;
-  border: 4px solid #00334e;
-  border-radius: 15px; */
-}
+
 
 .cs_service_details img.bordered-img {
   /* margin-bottom: 36px; */
@@ -7019,12 +7017,14 @@ label {
     line-height: inherit;
     padding: 10px 20px;
  }
-  .cs_nav .cs_nav_list ul ul {
+.cs_nav .cs_nav_list ul ul {
   top: 0;
   left: 100%; /* Position to the right */
-  max-height: calc(10 * 45px);
+  max-height: calc(6 * 35px); /* Show only 6 items = 210px height (smaller) */
   overflow-y: auto;
   overflow-x: hidden;
+  width: 200px; /* Slightly smaller width */
+  font-size: 14px; /* Smaller font size */
 }
 
 /* Add some spacing between main dropdown and submenu */
@@ -7032,9 +7032,20 @@ label {
   left: calc(100% + 5px); /* 5px gap from the main dropdown */
 }
 
+/* Adjust individual submenu item height - more compact */
+.cs_nav .cs_nav_list ul ul li {
+  height: auto;
+}
+
+.cs_nav .cs_nav_list ul ul a {
+  padding: 6px 15px; /* Smaller padding for more compact look */
+  line-height: 1.3;
+  font-size: 14px; /* Smaller text */
+}
+
 /* Custom scrollbar styling for submenus */
 .cs_nav .cs_nav_list ul ul::-webkit-scrollbar {
-  width: 6px;
+  width: 5px; /* Thinner scrollbar */
 }
 
 .cs_nav .cs_nav_list ul ul::-webkit-scrollbar-track {
@@ -7051,11 +7062,6 @@ label {
   background: #a8a8a8;
 }
 
-/* Auto-adjust if submenu goes off-screen */
-.cs_nav .cs_nav_list ul li:hover ul {
-  /* Check if submenu would go off right edge of screen */
-}
-
 /* If submenu would overflow screen, position it to the left */
 @media (max-width: 1400px) {
   .cs_nav .cs_nav_list ul li:last-child ul,
@@ -7066,16 +7072,16 @@ label {
   }
 }
 
-/* Responsive scrollbar heights for submenus */
+/* Responsive adjustments */
 @media (max-width: 1200px) {
   .cs_nav .cs_nav_list ul ul {
-    max-height: calc(8 * 45px);
+    max-height: calc(5 * 35px);
   }
 }
 
 @media (max-width: 992px) {
   .cs_nav .cs_nav_list ul ul {
-    max-height: calc(6 * 45px);
+    max-height: calc(4 * 35px);
   }
 }
   .cs-munu_toggle, .cs-munu_dropdown_toggle {
@@ -7727,3 +7733,4 @@ label {
 .cs_accordian .cs_accordian_body {
   display: none;
 }
+
