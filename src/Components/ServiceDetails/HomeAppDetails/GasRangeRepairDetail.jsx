@@ -555,61 +555,16 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/gas-cooke
             <h3>We specialise in Gas Cooker services for the following brands </h3>
             <div className="row">
               <div className="col-12">
-
-                <p className="mb-0">
-                  <Link to="/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/">
-                    <b>LG Stove Repair</b>
-                  </Link>: FAJ is here to support you when things go wrong. We understand that your LG cooker or induction are essential for daily life, helping you prepare meals efficiently and on time.
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/siemens-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b>Samsung Cooker Repair</b>
-                  </Link>
-                  : If you are facing any problems with your Samsung cooker, stove, washer dryer, or dishwasher, contact the FAJ team for same-day repair service in Dubai.
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/la-germania-cooking-range-repair-in-dubai-la-germania-oven-repair-in-dubai-la-germania-cooker-repair-in-dubai-la-germania-cooker-oven-maintenance-service-in-dubai-refrigerator-repair-in-dubai-fridge-r/">
-                    <b> Electrolux Gas Stove Repair</b>
-                  </Link>: When you need Electrolux gas stove repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE. </p>
-
-                <p className="mb-0">
-                  <Link to="/bosch-home-appliances-repair/">
-                    <b> Bosch Stove Repair</b>
-                  </Link>: If you are looking for the best Bosch appliance repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch Cooker repair and are recognized as the leading Bosch appliance service provider in the area.
-                </p>
-
-
-                <p className="mb-0">
-                  <Link to="/viking-appliances-service/">
-                    <b> Viking Gas Range Repair</b>
-                  </Link>
-                  : Your Viking appliances may require repair or maintenance and we can help. For high-quality Viking cooking range or oven repair in Dubai, rely on FAJ.
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b> Daewoo Cooking Range Repair</b>
-                  </Link>: We provide expert services for Daewoo cooking range repair in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with Daewoo stove, refrigerator, washing machine, dryer and more.
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub/">
-                    <b> Siemens Stove Repair</b>
-                  </Link>: Are you concerned about your Siemens stove malfunctioning and searching for a reliable Siemens stove repair company in Dubai? Contact us for same-day service!
-
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b> Teka Cooker Repair</b>
-                  </Link>: If you&apos;re searching for the best Teka cooking range repair company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka cookers, refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.
-
-                </p>
-
-
-                <br />
+                <ul className="mb-0">
+                  <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/lg-fridge-repair-in-dubai-lg-washing-machine-repair-in-dubai-lg-cooker-repair-in-dubai-lg-oven-repair-in-dubai-lg-appliances-maintenance-in-dubai-lg-refrigerator-fix-repairs-service-in-dubai-lg-dishwa/">LG Stove Repair</a></strong><strong>:</strong> FAJ is here to support you when things go wrong. We understand that your LG cooker or induction is essential for daily life, helping you prepare meals efficiently and on time.</li>
+                  <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/samsung-fridge-repair-in-dubai-samsung-washing-machine-repair-in-dubai-samsung-cooker-repair-in-dubai-samsung-oven-repair-in-dubai-samsung-appliances-maintenance-in-dubai-samsung-refrigerator-fix-repa/">Samsung Cooker Repair</a></strong><strong>:</strong> If you are facing any problems with your Samsung cooker, stove, washer, dryer, or dishwasher, contact the FAJ team for same-day repair service in Dubai.</li>
+                  <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/electrolux-home-appliances-repair/">Electrolux Gas Stove Repair</a></strong><strong>:</strong> When you need Electrolux gas stove repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE.&nbsp;</li>
+                  <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/bosch-home-appliances-repair/">Bosch Stove Repair</a></strong><strong>:</strong> If you are looking for the best Bosch stove repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch home appliance repair and are recognized as the leading Bosch stove service provider in the area.</li>
+                  <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/viking-appliances-service/">Viking Gas Range Repair</a></strong><strong>:</strong> Your Viking appliances may require repair or maintenance, and we can help. For high-quality Viking cooking range or oven repair in Dubai, rely on FAJ.&nbsp;</li>
+                  <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Daewoo Cooking Range Repair</a></strong><strong>:</strong> We provide expert services for Daewoo gas cooking range repair and electric cooker service in Dubai. Our skilled technicians have the knowledge and expertise to diagnose and fix issues with fix Daewoo gas stove, refrigerator, washing machine, dryer and more.&nbsp;</li>
+                  <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/siemens-home-appliances-repair/">Siemens Stove Repair</a></strong><strong>:</strong> Are you concerned about your Siemens stove malfunctioning and searching for a reliable Siemens cooker and stove repair and electrical cooker service company in Dubai? Contact us for same-day service!</li>
+                  <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Teka Gas Cooker Repair</a></strong><strong>:</strong> If you're searching for the best Teka cooking range repair and gas range service company in Dubai, FAJ is the ideal choice. They are renowned for delivering exceptional service for Teka cookers, refrigerators, washing machines, and oven repairs. FAJ is recognized as the leading Teka appliance service provider in the area.</li>
+                </ul>
 
                 <p><a href="/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/">AEG</a>
 
