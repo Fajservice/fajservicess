@@ -7020,7 +7020,7 @@ label {
 .cs_nav .cs_nav_list ul ul {
   top: 0;
   left: 100%; /* Position to the right */
-  max-height: calc(6 * 35px); /* Show only 6 items = 210px height (smaller) */
+  max-height: calc(8 * 35px); /* Show only 6 items = 210px height (smaller) */
   overflow-y: auto;
   overflow-x: hidden;
   width: 200px; /* Slightly smaller width */
