@@ -573,58 +573,16 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/oven-Rang
             <h3>We specialise in Oven services for the following brands </h3>
             <div className="row">
               <div className="col-12">
-
-                <p className="mb-0">
-                  <Link to="/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/">
-                    <b>Smeg Oven Repair</b>
-                  </Link>: FAJ is here to assist you when things go wrong. We understand that your Smeg oven is essential for daily life, helping keep your food fresh and your meals prepared.
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/siemens-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b>Siemens Oven Repair</b>
-                  </Link>: If you&apos;re experiencing issues with your oven, stove, refrigerator, washer, dryer, or dishwasher, reach out to the FAJ team for same-day repair service in Dubai.
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/bosch-home-appliances-repair/">
-                    <b> La Germania Gas Oven Repair</b>
-                  </Link>: When you need La Germania oven repair in Dubai, For La Germania oven, range repair in Dubai, our qualified technicians are available throughout the UAE.
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/bosch-home-appliances-repair/">
-                    <b> Bosch Electric Oven Repair</b>
-                  </Link>: If you&apos;re searching for the best Bosch electric oven repair company in Dubai, FAJ is the perfect choice. They are renowned for delivering exceptional service for all Bosch oven repairs and are recognized as the leading Bosch appliance service provider in the region.
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/viking-appliances-service/">
-                    <b> Viking Stove and Oven Repair</b>
-                  </Link>: Your Viking appliances may need repair or maintenance, and we can help. For high-quality Viking stove and oven repair in Dubai, trust FAJ.
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b> Daewoo Oven Repair</b>
-                  </Link>: We offer expert Daewoo oven repair services in Dubai. Our experienced technicians possess the knowledge and skills to diagnose and repair issues with Daewoo ovens, refrigerators, washing machines, dryers, and more.
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub/">
-                    <b> Neff Oven Repair</b>
-                  </Link>: Are you worried about your Neff oven malfunctioning and looking for a trustworthy Neff oven repair company in Dubai? Contact us for same-day service!
-
-                </p>
-
-                <p className="mb-0">
-                  <Link to="/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">
-                    <b> Teka Stove and Oven Repair</b>
-                  </Link>: If you&apos;re looking for the best Teka oven repair company in Dubai, FAJ is the perfect choice. They are well-known for providing outstanding service for Teka refrigerators, washing machines, and ovens. FAJ is recognized as the leading Teka appliance service provider in the region.
-                </p>
-
-
-                <br />
+                <ul className="mb-0">
+                  <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/">Smeg Oven Repair</a>:</strong> FAJ is here to assist you when things go wrong. We understand that your Smeg oven is essential for daily life, helping keep your food fresh and your meals prepared. We offer electric oven repair near me service, gas oven repair and maintenance services in Dubai</li>
+                  <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/siemens-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Siemens Oven Repair</a>:</strong> If you're experiencing issues with your oven, stove, refrigerator, washer, dryer, or dishwasher, reach out to the FAJ team for same-day repair service in Dubai. Contact us for fix gas oven, and gas oven servicing near by your location in Dubai.</li>
+                  <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/la-germania-cooking-range-repair-in-dubai-la-germania-oven-repair-in-dubai-la-germania-cooker-repair-in-dubai-la-germania-cooker-oven-maintenance-service-in-dubai-refrigerator-repair-in-dubai-fridge-r/">La Germania Gas Oven Repair</a>:</strong> When you need La Germania gas oven repair in Dubai, for La Germania electric oven service and repair in Dubai, our qualified oven repair technicians are available throughout.</li>
+                  <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/bosch-home-appliances-repair/">Bosch Electric Oven Repair</a>:</strong> If you're searching for the best Bosch electric oven repair and stove oven repair company in Dubai, FAJ is the perfect choice. They are renowned for delivering exceptional service for all Bosch electric oven maintenance and are recognized as the leading Bosch appliance service provider in the region.</li>
+                  <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/viking-appliances-service/">Viking Stove and Oven Repair</a>:</strong> Your Viking appliances may need repair or maintenance, and we can help. For high-quality Viking stove and microwave oven repair near me service in Dubai, trust FAJ.</li>
+                  <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Daewoo Oven Repair</a>:</strong> We offer expert Daewoo gas oven repair services in Dubai. Our experienced technicians possess the knowledge and skills to diagnose and microwave oven repair issues with Daewoo electric stove oven maintenance near me service, refrigerators, washing machines, dryers, and more.</li>
+                  <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub/">Neff Oven Repair</a>:</strong> Are you worried about your Neff oven malfunctioning and looking for a trustworthy Neff oven repair and service in Dubai? Contact us for same-day electrical oven repair near me service!</li>
+                  <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/">Teka Stove and Oven Repair</a>:</strong> If you're looking for the best Teka oven repair company in Dubai, FAJ is the perfect choice. They are well-known for providing outstanding service for Teka refrigerators, washing machines, fixing gas oven and gas oven servicing. FAJ is recognised as the leading Teka appliance service provider in the region.</li>
+                </ul>
 
                 <p><a href="/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/">AEG</a>
 

@@ -387,33 +387,17 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
             <h3>WE SPECIALISE IN AIR CONDITIONER SERVICES FOR THE FOLLOWING BRANDS</h3>
             <div className="row">
               <div className="col-12">
-                <p className="mb-0">
-                  <Link to="/lg-ac-repair-in-dubai/"><b>LG Air Conditioner Maintenance</b></Link>: FAJ offers reliable LG AC Maintenance, and services in Dubai. With professionals, who are experts in split, vrf and central air conditioning units.
-                </p>
-                <p className="mb-0">
-                  <Link to="/samsung-ac-repair-in-dubai/"><b>Samsung Air Conditioner Maintenance and Service</b></Link>: Based in Dubai, FAJ is your go-to destination for Samsung AC Maintenance in Dubai. Specializing in Samsung air conditioner systems, we offer comprehensive services ranging from repairs to Maintenance.
-                </p>
-                <p className="mb-0">
-                  <Link to="/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten/"><b>York AC Maintenance and Service</b></Link>: The York AC Maintenance service ensures you don’t need to worry because you are in the right place. Yes, FAJ is where efficiency and reliability are prioritized.
-                </p>
-                <p className="mb-0">
-                  <Link to="/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con/"><b>Daikin Air Conditioner Maintenance</b></Link>: Trust our skilled team to efficiently resolve all issues with your Daikin air conditioner and restore its functionality.
-                </p>
-                <p className="mb-0">
-                  <Link to="/trane-ac-repair-in-dubai-trane-ac-maintenance-in-dubai-trane-ac-fix-in-dubai-trane-ac-service-in-dubai-trane-air-condition-repair-in-dubai-trane-air-condition-maintenance-in-dubai-trane-air-condition/"><b>Trane HVAC Maintenance</b></Link>: With extensive knowledge of Trane air conditioning systems, we provide effective repairs to keep your unit running smoothly.
-                </p>
-                <p className="mb-0">
-                  <Link to="/panasonic-ac-repair-in-dubai-panasonic-ac-maintenance-in-dubai-panasonic-ac-fix-in-dubai-panasonic-ac-service-in-dubai-panasonic-air-condition-repair-in-dubai-panasonic-air-condition-maintenance-in-du/"><b>Panasonic AC Maintenance and Service</b></Link>: No matter the issue with your Panasonic air conditioner, our experts can accurately diagnose and fix it.
-                </p>
-                <p className="mb-0">
-                  <Link to="/gree-ac-repair-in-dubai/"><b>Gree AC Maintenance and Service</b></Link>: Has your AC stopped working? No need to endure unpleasant temperatures and stuffy air or suffer losses due to damaged equipment (broken gree air conditioning in a room, for example, can be a disaster!) – FAJ get your gree air conditioning back up and running in no time!
-                </p>
-                <p className="mb-0">
-                  <Link to="/o-general-ac-repair-in-dubai-o-general-ac-maintenance-in-dubai-o-general-ac-fix-in-dubai-o-general-ac-service-in-dubai-o-general-air-condition-repair-in-dubai-o-general-air-condition-maintenance-in-du/"><b>O General AC Maintenance and Service</b></Link>: O General AC maintenance in Dubai requires expert help because only specialized ones know how to address aircon issues. We are a hassle-free air condition Maintenance service provider.
-                </p>
-                <p className="mb-0">
-                  <Link to="/mitsubishi-ac-repair-in-dubai/"><b>Mitsubishi Air Conditioner Maintenance and Service</b></Link>: Seeking relief from scorching heat? Discover the secret to keeping your Mitsubishi AC running smoothly in Dubai! Our expert Mitsubishi AC services ensure your AC stays cool and efficient, providing comfort and peace of mind.
-                </p>
+                <ul className="mb-0">
+                  <li><strong><a className='text-decoration-underline' href="https://fajservice.github.io/fajservicess/#/lg-ac-repair-in-dubai/">LG Air Conditioner Maintenance</a>:</strong> FAJ offers reliable LG AC Maintenance, and services in Dubai. With professionals, who are experts in split, vrf and central air conditioning units.</li>
+                  <li><strong><a className='text-decoration-underline' href="https://fajservice.github.io/fajservicess/#/samsung-ac-repair-in-dubai/">Samsung Air Conditioner Maintenance and Service</a>:</strong> Based in Dubai, FAJ is your go-to destination for Samsung AC Maintenance in Dubai. Specializing in Samsung air conditioner systems, we offer comprehensive services ranging from repairs to Maintenance.</li>
+                  <li><strong><a className='text-decoration-underline' href="https://fajservice.github.io/fajservicess/#/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten/">York AC Maintenance and Service</a>:</strong> The York AC Maintenance service ensures you don&rsquo;t need to worry because you are in the right place. Yes, FAJ is where efficiency and reliability are prioritized.</li>
+                  <li><strong><a className='text-decoration-underline' href="https://fajservice.github.io/fajservicess/#/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con/">Daikin Air Conditioner Maintenance</a>:</strong> Trust our skilled team to efficiently resolve all issues with your Daikin air conditioner and restore its functionality.</li>
+                  <li><strong><a className='text-decoration-underline' href="https://fajservice.github.io/fajservicess/#/trane-ac-repair-in-dubai-trane-ac-maintenance-in-dubai-trane-ac-fix-in-dubai-trane-ac-service-in-dubai-trane-air-condition-repair-in-dubai-trane-air-condition-maintenance-in-dubai-trane-air-condition/">Trane HVAC Maintenance</a>:</strong> With extensive knowledge of Trane air conditioning systems, we provide effective repairs to keep your unit running smoothly.</li>
+                  <li><strong><a className='text-decoration-underline' href="https://fajservice.github.io/fajservicess/#/panasonic-ac-repair-in-dubai-panasonic-ac-maintenance-in-dubai-panasonic-ac-fix-in-dubai-panasonic-ac-service-in-dubai-panasonic-air-condition-repair-in-dubai-panasonic-air-condition-maintenance-in-du/">Panasonic AC Maintenance and Service</a>:</strong> No matter the issue with your Panasonic air conditioner, our experts can accurately diagnose and fix it.</li>
+                  <li><strong><a className='text-decoration-underline' href="https://fajservice.github.io/fajservicess/#/gree-ac-repair-in-dubai/">Gree AC Maintenance and Service</a>:</strong> Has your AC stopped working? No need to endure unpleasant temperatures and stuffy air or suffer losses due to damaged equipment (broken gree air conditioning in a room, for example, can be a disaster!) &ndash; FAJ get your gree air conditioning back up and running in no time!</li>
+                  <li><strong><a className='text-decoration-underline' href="https://fajservice.github.io/fajservicess/#/o-general-ac-repair-in-dubai-o-general-ac-maintenance-in-dubai-o-general-ac-fix-in-dubai-o-general-ac-service-in-dubai-o-general-air-condition-repair-in-dubai-o-general-air-condition-maintenance-in-du/">O General AC Maintenance and Service</a>:</strong> O General AC maintenance in Dubai requires expert help because only specialized ones know how to address aircon issues. We are a hassle-free air condition Maintenance service provider.</li>
+                  <li><strong><a className='text-decoration-underline' href="https://fajservice.github.io/fajservicess/#/mitsubishi-ac-repair-in-dubai/">Mitsubishi Air Conditioner Maintenance and Service</a>:</strong> Seeking relief from scorching heat? Discover the secret to keeping your Mitsubishi AC running smoothly in Dubai! Our expert Mitsubishi AC services ensure your AC stays cool and efficient, providing comfort and peace of mind.</li>
+                </ul>
                 <br />
 
                 <p className="mb-0">

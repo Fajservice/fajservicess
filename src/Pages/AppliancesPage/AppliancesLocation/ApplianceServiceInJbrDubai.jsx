@@ -1,5 +1,5 @@
 import BreadCumb from "../../../Components/Common/BreadCumb";
-import ApplianceServiceInJbrDubaiDetail from "../../../Components/ServiceDetails/AppliancesDetail/AppliancesLocation/ApplianceServiceInJbrDubaidETAIL.JSX";
+import ApplianceServiceInJbrDubaiDetail from "../../../Components/ServiceDetails/AppliancesDetail/AppliancesLocation/ApplianceServiceInJbrDubaidetail";
 const ApplianceServiceInJbrDubai = () => {
   return (
     <div className="serviceDetails">
