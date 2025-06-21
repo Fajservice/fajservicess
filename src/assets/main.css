@@ -7020,9 +7020,64 @@ label {
     padding: 10px 20px;
  }
   .cs_nav .cs_nav_list ul ul {
-    top: 15px;
-    left: 100%;
- }
+  top: 0;
+  left: 100%; /* Position to the right */
+  max-height: calc(10 * 45px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* Add some spacing between main dropdown and submenu */
+.cs_nav .cs_nav_list ul li:hover ul {
+  left: calc(100% + 5px); /* 5px gap from the main dropdown */
+}
+
+/* Custom scrollbar styling for submenus */
+.cs_nav .cs_nav_list ul ul::-webkit-scrollbar {
+  width: 6px;
+}
+
+.cs_nav .cs_nav_list ul ul::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.cs_nav .cs_nav_list ul ul::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 3px;
+}
+
+.cs_nav .cs_nav_list ul ul::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+/* Auto-adjust if submenu goes off-screen */
+.cs_nav .cs_nav_list ul li:hover ul {
+  /* Check if submenu would go off right edge of screen */
+}
+
+/* If submenu would overflow screen, position it to the left */
+@media (max-width: 1400px) {
+  .cs_nav .cs_nav_list ul li:last-child ul,
+  .cs_nav .cs_nav_list ul li:nth-last-child(2) ul {
+    left: auto;
+    right: 100%;
+    margin-right: 5px;
+  }
+}
+
+/* Responsive scrollbar heights for submenus */
+@media (max-width: 1200px) {
+  .cs_nav .cs_nav_list ul ul {
+    max-height: calc(8 * 45px);
+  }
+}
+
+@media (max-width: 992px) {
+  .cs_nav .cs_nav_list ul ul {
+    max-height: calc(6 * 45px);
+  }
+}
   .cs-munu_toggle, .cs-munu_dropdown_toggle {
     display: none;
  }

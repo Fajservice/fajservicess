@@ -1,9 +1,10 @@
-import { startTransition } from 'react';
+import { startTransition, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import DropDown from './DropDown';
 
 export default function Nav({ setMobileToggle }) {
   const navigate = useNavigate();
+  const navRef = useRef(null);
 
   // Handle navigation with startTransition
   const handleNavigation = (path) => {
@@ -13,20 +14,104 @@ export default function Nav({ setMobileToggle }) {
     });
   };
 
+  // Function to adjust dropdown positions
+  const adjustDropdownPositions = () => {
+    if (!navRef.current) return;
+
+    const dropdowns = navRef.current.querySelectorAll('.menu-item-has-children');
+    
+    dropdowns.forEach((dropdown) => {
+      const dropdownMenu = dropdown.querySelector('ul');
+      if (!dropdownMenu) return;
+
+      // Reset any previous adjustments
+      dropdownMenu.style.left = '';
+      dropdownMenu.style.right = '';
+      dropdownMenu.style.transform = '';
+
+      // Wait for dropdown to be visible before calculating
+      setTimeout(() => {
+        const rect = dropdownMenu.getBoundingClientRect();
+        const viewportWidth = window.innerWidth;
+        const padding = 20; // Safety padding from screen edge
+        
+        // Check if dropdown overflows on the right
+        if (rect.right > (viewportWidth - padding)) {
+          const overflow = rect.right - viewportWidth + padding;
+          dropdownMenu.style.transform = `translateX(-${overflow}px)`;
+        }
+        
+        // Check if dropdown overflows on the left after adjustment
+        const newRect = dropdownMenu.getBoundingClientRect();
+        if (newRect.left < padding) {
+          dropdownMenu.style.transform = `translateX(${padding - newRect.left}px)`;
+        }
+
+        // Handle nested dropdowns
+        const nestedDropdowns = dropdown.querySelectorAll('.menu-item-has-children .menu-item-has-children');
+        nestedDropdowns.forEach((nestedDropdown) => {
+          const nestedMenu = nestedDropdown.querySelector('ul');
+          if (!nestedMenu) return;
+
+          const nestedRect = nestedMenu.getBoundingClientRect();
+          
+          // For nested dropdowns, check both sides
+          if (nestedRect.right > (viewportWidth - padding)) {
+            nestedMenu.style.left = 'auto';
+            nestedMenu.style.right = '100%';
+            nestedMenu.style.marginRight = '5px';
+          } else if (nestedRect.left < padding) {
+            nestedMenu.style.left = '100%';
+            nestedMenu.style.right = 'auto';
+            nestedMenu.style.marginLeft = '5px';
+          }
+        });
+      }, 10);
+    });
+  };
+
+  useEffect(() => {
+    // Adjust positions on mount and resize
+    const handleResize = () => {
+      adjustDropdownPositions();
+    };
+
+    window.addEventListener('resize', handleResize);
+    
+    // Also adjust on zoom (detected through resize)
+    const observer = new ResizeObserver(() => {
+      setTimeout(adjustDropdownPositions, 100);
+    });
+
+    if (navRef.current) {
+      observer.observe(navRef.current);
+    }
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+      observer.disconnect();
+    };
+  }, []);
+
+  // Adjust positions when dropdowns are hovered
+  const handleDropdownHover = () => {
+    setTimeout(adjustDropdownPositions, 100); // Increased timeout for better detection
+  };
+
   return (
-    <ul className="cs_nav_list cs_medium">
+    <ul ref={navRef} className="cs_nav_list cs_medium">
       <li>
         <a href="/" onClick={(e) => { e.preventDefault(); handleNavigation('/'); }}>
           Home
         </a>
       </li>
-      <li className="menu-item-has-children">
+      <li className="menu-item-has-children" onMouseEnter={handleDropdownHover}>
         <a href="/services/" onClick={(e) => { e.preventDefault(); handleNavigation('/services/'); }}>
           Services
         </a>
         <DropDown>
           <ul className='cs_fs_17 custom_border_drop'>
-            <li className="menu-item-has-children">
+            <li className="menu-item-has-children" onMouseEnter={handleDropdownHover}>
               <a className='px-3 mb-0' onClick={() => setMobileToggle(false)}>
                 Air Conditioning Services
               </a>
@@ -55,7 +140,7 @@ export default function Nav({ setMobileToggle }) {
                 </ul>
               </DropDown>
             </li>
-            <li className="menu-item-has-children">
+            <li className="menu-item-has-children" onMouseEnter={handleDropdownHover}>
               <a className='px-3 mb-0' onClick={() => setMobileToggle(false)}>
                 Coffee Machine Services
               </a>
@@ -74,7 +159,7 @@ export default function Nav({ setMobileToggle }) {
                 </ul>
               </DropDown>
             </li>
-            <li className="menu-item-has-children">
+            <li className="menu-item-has-children" onMouseEnter={handleDropdownHover}>
               <a className='px-3 mb-0' onClick={() => setMobileToggle(false)}>
                 Home Appliances Services
               </a>
@@ -148,7 +233,7 @@ export default function Nav({ setMobileToggle }) {
                 </ul>
               </DropDown>
             </li>
-            <li className="menu-item-has-children">
+            <li className="menu-item-has-children" onMouseEnter={handleDropdownHover}>
               <a className='px-3 mb-0' onClick={() => setMobileToggle(false)}>
                 Kitchen Equipment Services
               </a>
@@ -182,7 +267,7 @@ export default function Nav({ setMobileToggle }) {
                 </ul>
               </DropDown>
             </li>
-            <li className='menu-item-has-children'>
+            <li className='menu-item-has-children' onMouseEnter={handleDropdownHover}>
               <a className='px-3 mb-0' onClick={() => setMobileToggle(false)}>
                 Refrigeration Equipment Services
               </a>
@@ -211,7 +296,7 @@ export default function Nav({ setMobileToggle }) {
                 Commercial Dishwasher Services
               </a>
             </li>
-            <li className="menu-item-has-children">
+            <li className="menu-item-has-children" onMouseEnter={handleDropdownHover}>
               <a className='px-3 mb-0' onClick={() => setMobileToggle(false)}>
                 Commercial Laundry Equipment Services
               </a>
@@ -247,7 +332,7 @@ export default function Nav({ setMobileToggle }) {
           Blogs
         </a>
       </li>
-      <li className="menu-item-has-children">
+      <li className="menu-item-has-children" onMouseEnter={handleDropdownHover}>
         <a onClick={() => setMobileToggle(false)}>
           About Us
         </a>
