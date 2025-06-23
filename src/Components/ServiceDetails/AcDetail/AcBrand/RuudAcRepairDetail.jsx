@@ -164,11 +164,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
         </section>
 
         {/* AC Price Section */}
-        <section className="section cs_py_30">
-          <div className="container">
-            <FAJACPrice></FAJACPrice>
-          </div>
-        </section>
+        <FAJACPrice></FAJACPrice>
 
         {/* Why*/}
         <section className="section cs_py_30">

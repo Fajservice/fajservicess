@@ -44,19 +44,19 @@ const Footer1 = () => {
                   </div>
                   <ul className="cs_footer_menu">
                     <li>
-                      <Link to="/ac-service-in-dubai">AC Service in Dubai</Link>
+                      <Link to="/ac-service-in-dubai/">AC Service in Dubai</Link>
                     </li>
                     <li>
-                      <Link to="/refrigerator-repair-service">Refrigerator Repair</Link>
+                      <Link to="/refrigerator-repair-service/">Refrigerator Repair</Link>
                     </li>
                     <li>
-                      <Link to="/washing-machine-repair-service-dubai">Washing Machine Repair</Link>
+                      <Link to="/washing-machine-repair-service-dubai/">Washing Machine Repair</Link>
                     </li>
                     <li>
-                      <Link to="/service/service-details">Coffee Machine Repair & Maintenance</Link>
+                      <Link to="/coffee-machine-service-center-in-dubai/">Coffee Machine Repair & Maintenance</Link>
                     </li>
                     <li>
-                      <Link to="/service/service-details">Vacuum Cleaner Repair & Robot Vacuum Service</Link>
+                      <Link to="/robot-vacuum-cleaner-repair/">Vacuum Cleaner Repair & Robot Vacuum Service</Link>
                     </li>
                   </ul>
                 </div>

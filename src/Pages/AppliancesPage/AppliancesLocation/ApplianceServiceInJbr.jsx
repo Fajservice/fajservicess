@@ -13,5 +13,4 @@ mobileBgImg="img/banners/appliances-banner-mobile-faj.avif"
     </div>
   )
 }
-
 export default ApplianceServiceInJbr

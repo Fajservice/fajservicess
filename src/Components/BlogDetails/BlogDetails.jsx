@@ -585,7 +585,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                   <div className="cs_recent_post_wrapper">
                     {data && data.length > 0 && data.slice(0, 10).map((post, index) => (
                       <div className="cs_recent_post" key={index}>
-                        <Link to={`/blog/${post.slug}`} className="cs_recent_post_thumb">
+                        <Link to={`/blog/${post.slug}/`} className="cs_recent_post_thumb">
                           <img src={post.img} alt="Recent Post Image" />
                         </Link>
                         <div className="cs_recent_post_right">
@@ -593,7 +593,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                             <i className="bi bi-calendar-fill"></i>{post.date}
                           </p>
                           <h3 className="cs_fs_14 mb-0">
-                            <Link to={`/blog/${post.slug}`}>{post.title}</Link>
+                            <Link to={`/blog/${post.slug}/`}>{post.title}</Link>
                           </h3>
                         </div>
                       </div>
