@@ -400,7 +400,7 @@ const MideaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                         <img src={`${import.meta.env.BASE_URL}img/icons/fan.jpg`} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">FAN ASSESSMENT</h3>
-                      <p className="small">We make sure that the fan operates properly and that there are no blockages in the evaporator coil.</p>
+                      <p className="small">We make sure the fan operates properly and there are no blockages in evaporator coil..</p>
                     </div>
                   </div>
 

@@ -379,7 +379,7 @@ const WhirpoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
                       </div>
                       <h4 className="text-uppercase mb-2 fs-6 text-white">DISINFECT COMPONENTS</h4>
                       <p className="small">
-                        All hardware components have been tested and disinfected, including the filters and vents.
+                        All hardware components have been tested and disinfected, including filters and vents.
                       </p>
                     </div>
                   </div>
@@ -391,7 +391,7 @@ const WhirpoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
                       </div>
                       <h4 className="text-uppercase mb-2 fs-6 text-white">FAN ASSESSMENT</h4>
                       <p className="small">
-                        We make sure that the fan operates properly and that there are no blockages in the evaporator coil.
+                        We make sure the fan operates properly and there are no blockages in evaporator coil..
                       </p>
                     </div>
                   </div>
