@@ -15,7 +15,7 @@ const Blog3 = () => {
               ></SectionTitle>
             </div>
             <div className="cs_section_heading_right wow fadeInLeft">
-              <Link to="/blog" className="cs_btn cs_style_1">
+              <Link to="/blogs/" className="cs_btn cs_style_1">
                 <span>View all news</span><i className="bi bi-arrow-right"></i>    
               </Link>
             </div>
@@ -24,7 +24,7 @@ const Blog3 = () => {
           {data.slice(0,3).map((item, i) => (
             <div key={i} className="col-lg-4">
               <div className="cs_post cs_style_1">
-                <Link to={`/blog/${item.slug}`} className="cs_post_thumbnail">
+                <Link to={`/blog/${item.slug}/`} className="cs_post_thumbnail">
                   <img src={item.img} alt={item.title} loading="lazy" />
                 </Link>
                 <div className="cs_post_content_wrapper position-relative">
@@ -39,9 +39,9 @@ const Blog3 = () => {
                         <span className="cs_heading_color">Admin</span>
                       </div>
                     </div>
-                    <h3 className="cs_fs_20 cs_mb_5"><Link to={`/blog/${item.slug}`}>{item.title}</Link></h3>
+                    <h3 className="cs_fs_20 cs_mb_5"><Link to={`/blog/${item.slug}/`}>{item.title}</Link></h3>
                     <p className="cs_mb_19">{item.desc}</p>
-                    <Link to={`/blog/${item.slug}`} className="cs_text_btn cs_style_1 cs_heading_color">
+                    <Link to={`/blog/${item.slug}/`} className="cs_text_btn cs_style_1 cs_heading_color">
                       <span className="cs_btn_text text-uppercase">Read More</span>
                       <span className="cs_btn_icon cs_center">
                       <i className="bi bi-arrow-right"></i>    
