@@ -176,11 +176,7 @@ const AcRepairInJebelAliFreeZoneDetail = ({ subtitle, title, reviewsbg, titleSeo
                 </section>
 
                 {/* AC Price Section */}
-                <section className="section cs_py_30">
-                    <div className="container">
-                        <FAJACPrice></FAJACPrice>
-                    </div>
-                </section>
+                <FAJACPrice></FAJACPrice>
 
                 {/* Why is AC Maintenance Service Important in Dubai? */}
                 <section className="section cs_py_30 bg-light-gray">
