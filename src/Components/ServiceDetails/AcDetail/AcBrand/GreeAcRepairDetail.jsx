@@ -164,12 +164,8 @@ const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
         </section>
 
         {/* AC Price Section */}
-        <section className="section cs_py_30">
-          <div className="container">
             <FAJACPrice></FAJACPrice>
-          </div>
-        </section>
-
+            
         {/* Why*/}
         <section className="section cs_py_30">
           <div className="container">
@@ -381,7 +377,7 @@ const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                       </div>
                       <h4 className="text-uppercase mb-2 fs-6 text-white">DISINFECT COMPONENTS</h4>
                       <p className="small">
-                        All hardware components have been tested and disinfected, including the filters and vents.
+                        All hardware components have been tested and disinfected, including filters and vents.
                       </p>
                     </div>
                   </div>
@@ -393,7 +389,7 @@ const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                       </div>
                       <h4 className="text-uppercase mb-2 fs-6 text-white">FAN ASSESSMENT</h4>
                       <p className="small">
-                        We make sure that the fan operates properly and that there are no blockages in the evaporator coil.
+                        We make sure the fan operates properly and there are no blockages in evaporator coil..
                       </p>
                     </div>
                   </div>
@@ -664,7 +660,7 @@ const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
               </div>
             </div>
           </div>
-          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
+          
         </section>
 
         {/* FAQ&apos;s */}

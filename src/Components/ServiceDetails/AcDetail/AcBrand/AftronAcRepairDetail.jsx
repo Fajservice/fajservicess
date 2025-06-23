@@ -165,11 +165,7 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
         </section>
 
         {/* AC Price Section */}
-        <section className="section cs_py_30">
-          <div className="container">
-            <FAJACPrice></FAJACPrice>
-          </div>
-        </section>
+        <FAJACPrice></FAJACPrice>
 
         {/* Why  */}
         <section className="section cs_py_30">
@@ -371,7 +367,7 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">DISINFECT COMPONENTS</h3>
                       <p className="small">
-                        All hardware components have been tested and disinfected, including the filters and vents.
+                        All hardware components have been tested and disinfected, including filters and vents.
                       </p>
                     </div>
                   </div>
@@ -383,7 +379,7 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">FAN ASSESSMENT</h3>
                       <p className="small">
-                        We make sure that the fan operates properly and that there are no blockages in the evaporator coil.
+                        We make sure the fan operates properly and there are no blockages in evaporator coil..
                       </p>
                     </div>
                   </div>
