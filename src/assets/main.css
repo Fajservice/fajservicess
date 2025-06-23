@@ -7023,13 +7023,13 @@ label {
   max-height: calc(8 * 35px); /* Show only 6 items = 210px height (smaller) */
   overflow-y: auto;
   overflow-x: hidden;
-  width: 200px; /* Slightly smaller width */
+  width: 250px; /* Slightly smaller width */
   font-size: 14px; /* Smaller font size */
 }
 
 /* Add some spacing between main dropdown and submenu */
 .cs_nav .cs_nav_list ul li:hover ul {
-  left: calc(100% + 5px); /* 5px gap from the main dropdown */
+  left: calc(100% + 0px); /* 5px gap from the main dropdown */
 }
 
 /* Adjust individual submenu item height - more compact */

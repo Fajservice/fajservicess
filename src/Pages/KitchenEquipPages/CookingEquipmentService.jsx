@@ -4,7 +4,7 @@ const CookingEquipmentService = () => {
     return (
         <div className ="serviceDetails">
             <BreadCumb
-                bgImge="img/banners/kitchen-equipments/commercial-cooking-equipment-repair-faj.avif"
+                bgImg="img/banners/kitchen-equipments/commercial-cooking-equipment-repair-faj.avif"
                 mobileBgImg="img/banners/kitchen-equipments/commercial-cooking-equipment-repair-faj-mobile.avif"
                 Title="Gas Range Repair"
             ></BreadCumb>
