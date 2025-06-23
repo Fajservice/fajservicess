@@ -11,6 +11,7 @@ export default defineConfig(({ mode }) => {
         fastRefresh: true
       })
     ],
+      //  base: '/dist/',
     
     build: {
       minify: 'esbuild',
