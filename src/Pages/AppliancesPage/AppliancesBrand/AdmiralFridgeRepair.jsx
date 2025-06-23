@@ -10,7 +10,7 @@ const AdmiralFridgeRepair = () => {
         Title="Admiral Fridge Repair"
     ></BreadCumb>
 
-    <AdmiralFridgeRepairDetail />        
+    <AdmiralFridgeRepairDetail />
 </div>
   );
 };

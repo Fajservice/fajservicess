@@ -9,7 +9,7 @@ const AftronAcRepair = () => {
                 mobileBgImg="img/acbrands/mobile/aftron-ac-repair-faj.avif"
                 Title="Aftron AC Repair Maintenance Service In Dubai"
             ></BreadCumb> 
-            <AftronAcRepairDetail></AftronAcRepairDetail>           
+            <AftronAcRepairDetail></AftronAcRepairDetail>
         </div>
     );
 };

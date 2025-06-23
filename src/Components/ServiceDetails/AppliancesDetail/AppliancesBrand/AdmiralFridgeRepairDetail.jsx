@@ -109,7 +109,6 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                 </Helmet>
             </HelmetProvider>
 
-
             <HeaderForm />
 
             <div className="cs_service_details">
@@ -127,7 +126,6 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                                 <WhatsappIconButton />
                             </div>
                         </div>
-                        {/*  */}
                     </div>
                 </section>
 
@@ -253,6 +251,18 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
                         <div className="row align-items-center">
                             <div className="col-xl-6">
+                                <iframe
+                                    className="bordered-img blue-border"
+                                    width="100%"
+                                    height="350"
+                                    src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
+                                    title="YouTube video player"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowFullScreen
+                                ></iframe>
+                            </div>
+                            <div className="col-xl-6">
                                 <p className='mb-0'>We specialize in all types and brands of home appliances, including built-in units.</p>
                                 <p className='mb-0'><strong>Our services include:</strong></p>
                                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
@@ -266,18 +276,7 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                                     </p>
                                 </ul>
                             </div>
-                            <div className="col-xl-6">
-                                <iframe
-                                    className="bordered-img blue-border"
-                                    width="100%"
-                                    height="350"
-                                    src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
-                                    title="YouTube video player"
-                                    frameBorder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowFullScreen
-                                ></iframe>
-                            </div>
+                            
                         </div>
                     </div>
                 </section >
@@ -287,8 +286,7 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                 <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
                     <div className="container">
                         <div className="row justify-content-center">
-                            <h2 className="cs_fs_30 mb-0">The Benefits Of Admiral appliances Service Dubai
-                            </h2>
+                            <h2 className="cs_fs_30 mb-0">The Benefits Of Admiral appliances Service Dubai</h2>
                             <div className="row gx-3 gy-5 mt-0">
                                 <div className="col-md-4 mb-2">
                                     <div className="">

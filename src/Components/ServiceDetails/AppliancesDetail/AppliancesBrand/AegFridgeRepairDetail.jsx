@@ -131,7 +131,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Best AEG  Washing Machine Repair </h3>
+                <h2 className="cs_fs_24 mb-1">Best AEG  Washing Machine Repair </h2>
 
                 <p className="mb-2">
                   If you need AEG  Appliance Repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
@@ -139,8 +139,8 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                   <br /> We&apos;re nearby and can get your appliances fixed quickly and efficiently.
                 </p>
 
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service
-                </h3>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service
+                </h2>
                 <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
               </div>
 
@@ -156,7 +156,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         <section className="section cs_py_30">
           <div className="container">
 
-            <h3 className="cs_fs_30">Why is AEG  Appliance Maintenance Service Important in Dubai?</h3>
+            <h2 className="cs_fs_30">Why is AEG  Appliance Maintenance Service Important in Dubai?</h2>
             <p className="">
               Our all-inclusive repair services include diagnosis, repairs, installations, and maintenance. That is why we are the most in-demand AEG  appliances maintenance in Dubai provider.
             </p>
@@ -183,7 +183,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         {/* The Most Common Problems with Home Appliances */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="text-center">The Most Common Problems with AEG  Home Appliances   </h3>
+            <h2 className="text-center">The Most Common Problems with AEG  Home Appliances   </h2>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
@@ -245,9 +245,21 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
         <section className="section cs_py_30  ">
           <div className="container">
-            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR AEG  HOME APPLIANCES</h3>
+            <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR AEG  HOME APPLIANCES</h2>
 
             <div className="row align-items-center">
+              <div className="col-xl-6">
+                <iframe
+                  className="bordered-img blue-border"
+                  width="100%"
+                  height="350"
+                  src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
+              </div>
               <div className="col-xl-6">
                 <p className='mb-0'>We specialize in all types and brands of home appliances, including built-in units.</p>
                 <p className='mb-0'><strong>Our services include:</strong></p>
@@ -262,18 +274,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                   </p>
                 </ul>
               </div>
-              <div className="col-xl-6">
-                <iframe
-                  className="bordered-img blue-border"
-                  width="100%"
-                  height="350"
-                  src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
-              </div>
+              
             </div>
           </div>
         </section >
@@ -282,8 +283,8 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
-              <h3 className="cs_fs_30 mb-0">The Benefits Of AEG  appliances Service Dubai
-              </h3>
+              <h2 className="cs_fs_30 mb-0">The Benefits Of AEG  appliances Service Dubai
+              </h2>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
                   <div className="">

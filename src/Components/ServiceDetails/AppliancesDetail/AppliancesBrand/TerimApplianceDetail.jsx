@@ -12,6 +12,8 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
+import GetQuoteButton from '../../../Buttons/GetQuoteButton';
+import CallNowButton from '../../../Buttons/CallNowButton';
 
 const TerimApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -19,7 +21,7 @@ const TerimApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
     const metatitle = String(titleSeo || "Terim Appliances Service - Best Washing Machine Repair");
     const metadescription = String(description || "Do you require Terim appliance service? We provide expert Terim refrigerator, Terim washing machine, dishwasher, stove in Dubai. Call 043300002");
     const metaAuthor = String(Author || "Faj Technical Services");
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Terim Appliances Service, Terim Washing Machine Repair, Terim Fridge Repair, Terim Dishwasher Repair, Terim Stove Repair, Terim Appliance Maintenance Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/terim-appliances-service/").replace(/\/?$/, '/');
 
@@ -126,15 +128,15 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                     <meta property="og:locale" content="en_US" />
                     <meta property="og:title" content={metatitle} />
                     <meta property="og:description" content={metadescription} />
-                     <meta property="og:url" content={metaURL} />
-          <meta property="og:image" content={metaImage} />
+                    <meta property="og:url" content={metaURL} />
+                    <meta property="og:image" content={metaImage} />
 
-          {/* Twitter Card */}
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content={metatitle} />
-          <meta name="twitter:description" content={metadescription} />
-          <meta name="twitter:image" content={metaImage} />
-          <meta name="twitter:url" content={metaURL} />
+                    {/* Twitter Card */}
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:title" content={metatitle} />
+                    <meta name="twitter:description" content={metadescription} />
+                    <meta name="twitter:image" content={metaImage} />
+                    <meta name="twitter:url" content={metaURL} />
                 </Helmet>
             </HelmetProvider>
 
@@ -144,9 +146,12 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Terim Appliance Services</h1>
+                        <h1 className="cs_fs_30">Terim Home Appliance Repair Service and Installation</h1>
+                        {/* 
+          <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2> */}
                         <p>
-                            Terim  appliances are the best among the other brands out there. Still, products of the best brands even do not last endlessly. In addition, we are all sure that our appliances break down when we need them the most. Reasonably, your first reaction will be to see if your appliance is repairable. You can fix minor issues, but mostly, you cannot. So why worry? We are the best Terim  appliance repair service provider in Dubai. We are the most experienced industry experts serving since 2010 in Dubai. With hands-on experience with all home appliances, you can expect successful and swift repairs from us. Terim  Fridge Repair in Dubai So, contact us today to get your repair appointment. Enjoy superior Terim  appliance repair with F A J Technical Services L.L.C.
+                            If you need a qualified technician for Terim appliances, you’re in the right place. Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has provided reliable and affordable home appliances repair & services. Our network includes skilled professionals who understand Terim appliance repair and nearby services. We connect you with experienced technicians in Dubai and Sharjah who prioritize your satisfaction and ensure efficient solutions for all your appliance needs!
+
                         </p>
 
                         <div id="get-quote" className=" mt-3">
@@ -163,50 +168,53 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                     <div className="container">
                         <div className="row gx-md-5">
                             <div className="col-md-6">
-                                <h3 className="cs_fs_24 mb-1">Best Terim  Washing Machine Repair </h3>
+                                <h2 className="cs_fs_24 mb-1">Terim Washing Machine Repair Near You</h2>
 
                                 <p className="mb-2">
-                                    If you need Terim  Appliance Repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
-                                    <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that&apos;s not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
-                                    <br /> We&apos;re nearby and can get your appliances fixed quickly and efficiently.
+                                    If you're having issues with your Terim appliances, our repair team is ready to assist you! FAJ offers quick and affordable solutions for a variety of problems, including Terim washing machines that won’t drain, refrigerators that aren’t cooling, ovens that won’t heat, and dishwashers that won’t turn on.
+                                    Get reliable Terim appliance repair in Dubai and Sharjah. We provide trusted solutions for any appliance issue you may encounter.
+
                                 </p>
 
-                                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service</h3>
-                                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
+                                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Terim Appliances Service</h2>
+                                <p className="mb-2"> At F A J Technical Services L.L.C, we recognize that appliance breakdowns, particularly with Terim products, often happen at the most inconvenient times. That’s why our trained and qualified Terim technicians are available to provide you with reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair service</a>. With our help, you can avoid the expense of purchasing a new appliance and quickly get your Terim appliance back in working order, allowing you to put your worries aside.
+                                </p>
+
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`}  loading="lazy" alt="Terim Appliances Repair" />
+
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} loading="lazy" alt="Terim Washing Machine Repair" />
                             </div>
                         </div>
                         <AppliancesAppointmentCol></AppliancesAppointmentCol>
                     </div>
                 </section>
 
-                
-
                 {/* Why is Appliance Maintenance Service Important in Dubai? */}
                 <section className="section cs_py_30">
                     <div className="container">
 
-                        <h3 className="cs_fs_30">Why is Terim  Appliance Maintenance Service Important in Dubai?</h3>
-                        <p className="">
-                            Our all-inclusive repair services include diagnosis, repairs, installations, and maintenance. That is why we are the most in-demand Terim  appliances maintenance in Dubai provider.
+                        <h3 className="cs_fs_30">Why is Terim Appliance Maintenance Service Important in Dubai?</h3>
+                        <p>
+                            Our extensive repair services include diagnosis, repairs, installations, and maintenance. This positions us as the leading provider of Terim appliance maintenance in Dubai.
                         </p>
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`}  loading="lazy" alt="Terim Appliances Repair" />
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} loading="lazy" alt="Terim Washing Machine Repair" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">
-                                    <li> <strong>  Terim  Washing Machine Repair in Dubai:-: </strong> Regular maintenance helps appliances last longer, saving on replacement costs.</li>
-                                    <li> <strong>  Terim  Fridge Repair in Dubai: </strong> we are fully confident of getting your fridge running back in no time. </li>
-                                    <li> <strong>  Terim  Cooker Repair in Dubai: </strong> Catching minor issues early prevents them from escalating into expensive repair. </li>
-                                    <li> <strong>  Preserving Appliance Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
-                                    <li> <strong>  Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious.</li>
-                                    <li> <strong>  Cost-Effective: </strong> Maintenance costs are lower than early replacements or major repair. Investing in appliance care ensures safety and efficiency and is a smart economic choice in Dubai.</li>
-                                    <li> <strong>  Energy Efficiency: </strong> Regularly maintaining your appliances, can improve their efficiency and save you money.</li>
+
+                                    <li><strong>  Terim Washing Machine Repair in Dubai: </strong> Regular maintenance can prolong your Terim washing machine's lifespan, saving you moneyw. </li>
+                                    <li><strong>  Terim Fridge Repair in Dubai: </strong> We are confident that we can quickly get your Terim refrigerator up and running again. </li>
+                                    <li><strong>  Terim Stove / Oven Repair in Dubai: </strong> Catching minor issues early can help prevent them from escalating into expensive repairs. </li>
+                                    <li><strong>  Terim Dishwasher Repair in Dubai: </strong> Regular maintenance helps minimise potential problems and improves overall performance. </li>
+                                    <li><strong>  Early Problem Detection: </strong> Regular inspections can help identify potential problems before they escalate into serious issues. </li>
+                                    <li><strong>  Cost-Effective: </strong> Maintaining appliances is more cost-effective than replacing or making major repairs, ensuring safety and efficiency in Dubai. </li>
+                                    <li><strong>  Energy Efficiency: </strong> Regular maintenance of your Terim appliances can enhance efficiency and save you money. </li>
+
                                 </ul>
                             </div>
                         </div>
@@ -216,16 +224,16 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                 {/* The Most Common Problems with Home Appliances */}
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
-                        <h3 className="text-center">The Most Common Problems with Terim  Home Appliances   </h3>
+                        <h3 className="text-center">The Most Common Problems with Terim Appliances </h3>
                         <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Problem</h3>
+                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Terim Refrigerator</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
-                                        <p className="p-2 mb-0">Most fridge malfunctions are related to cooling issues, including problems with the defrost system, fan motor, compressor, or coils.</p>
+                                        <p className="p-2 mb-0">Terim refrigerator may have cooling problems, usually related to the defrost, motor, compressor, or PCB. Let's reach out to FAJ for potential solutions.</p>
                                     </div>
                                 </div>
                             </div>
@@ -233,10 +241,32 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishwashers Problem</h3>
+                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Terim Dishwasher</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
-                                        <p className="p-2 mb-0">The most issues with dishwashers are bad cleaning and drying. Common water leaks and drainage. Some electrical issues or PCB failures.
+                                        <p className="p-2 mb-0">Common issues with Terim dishwasher include poor cleaning and drying, water leaks, drainage issues, and a few electrical or PCB malfunctions.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-12 col-md-4 col-lg-3">
+                                <div className=" box-content-container rounded border shadow">
+                                    <div className="text-center">
+                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Terim Washing Machine</h3>
+                                    </div>
+                                    <div className="inner-apcs-feat-desc">
+                                        <p className="p-2 mb-0">Terim washing machines include problems with drainage, leaks, faulty PCBs, and issues related to the belt, door switch, or drum spinning.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-12 col-md-4 col-lg-3">
+                                <div className=" box-content-container rounded border shadow">
+                                    <div className="text-center">
+                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Terim Tumble Dryer</h3>
+                                    </div>
+                                    <div className="inner-apcs-feat-desc">
+                                        <p className="p-2 mb-0">Terim dryer may stop spinning and make noise without drying clothes, often due to a faulty heating element or control board.
                                         </p>
                                     </div>
                                 </div>
@@ -245,26 +275,46 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Washing Machine Problem
-                                        </h3>
+                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Terim Cooker / Stove</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
-                                        <p className="p-2 mb-0">A common issue with washing machines is drainage problems, leaks, and PCB faulty. Also, broken belt or faulty door switch or drum from spinning.</p>
+                                        <p className="p-2 mb-0">Common issues with Terim stove include uneven heating and flame problems, such as a broken burner element, a faulty switch, or an electrical gas malfunction.</p>
                                     </div>
                                 </div>
                             </div>
-
 
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Stove Problem</h3>
+                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Terim Oven</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
-                                        <p className="p-2 mb-0">Uneven heating or flame issues, such as a broken burner element, bad switch, or electric gas, are the most common problems with stoves.</p>
+                                        <p className="p-2 mb-0">Terim ovens often experience issues such as improper heating, unignited burners, ignition problems in gas models, and faulty knobs or controls.</p>
                                     </div>
                                 </div>
                             </div>
+                            <div className="col-12 col-md-4 col-lg-3">
+                                <div className=" box-content-container rounded border shadow">
+                                    <div className="text-center">
+                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Terim Freezer</h3>
+                                    </div>
+                                    <div className="inner-apcs-feat-desc">
+                                        <p className="p-2 mb-0">Common issues with Terim freezer include water leaks, insufficient ice production, malfunctioning ice makers, and decreased cooling efficiency.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-12 col-md-4 col-lg-3">
+                                <div className=" box-content-container rounded border shadow">
+                                    <div className="text-center">
+                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Machine Problem</h3>
+                                    </div>
+                                    <div className="inner-apcs-feat-desc">
+                                        <p className="p-2 mb-0">Water flow in coffee makers, whether drip or single-serve, can often be slow or even absent for several reasons.</p>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
 
                         <div id="get-quote" className="mb-0 mt-3">
@@ -275,28 +325,12 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                     </div>
                 </section>
 
-                
-
                 {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR Terim  HOME APPLIANCES</h3>
+                        <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR Terim APPLIANCES</h2>
 
                         <div className="row align-items-center">
-                            <div className="col-xl-6">
-                                <p className='mb-0'>We specialize in all types and brands of home appliances, including built-in units.</p>
-                                <p className='mb-0'><strong>Our services include:</strong></p>
-                                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                                    <li> <strong>  Installation: </strong> Expert installation of various types and brands of home appliances, ensuring optimal performance and efficiency. </li>
-                                    <li> <strong> Diagnostics: </strong> Comprehensive fault-finding services to effectively diagnose issues. We provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
-                                    <li> <strong> Repair Service: </strong> Efficient repair services for all appliance components, ensuring a quick resolution to issues such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions! </li>
-                                    <li> <strong> Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for
-                                        the annual maintenance of your appliances. </li>
-                                    <p className="mb-0">
-                                        <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for optimal performance, efficiency, and longevity of your home appliances.
-                                    </p>
-                                </ul>
-                            </div>
                             <div className="col-xl-6">
                                 <iframe
                                     className="bordered-img blue-border"
@@ -309,6 +343,21 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                                     allowFullScreen
                                 ></iframe>
                             </div>
+
+                            <div className="col-xl-6">
+                                <p className='mb-0'>We specialize in all types of Terim appliances, including built-in models</p>
+                                <p className='mb-0'><strong>Our services include:</strong></p>
+                                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
+                                    <li> <strong> Terim Appliance Installation: </strong> Expert installation of various types and brands of Terim home appliances to ensure their optimal performance and efficiency. </li>
+                                    <li> <strong> Terim Appliance Diagnostics: </strong> We offer expert diagnostics and eligibility assessments, along with detailed quotes for issues related to Terim appliances. </li>
+                                    <li> <strong> Terim Appliance Repair Service: </strong> We offer fast and effective repair service for Terim appliances, quickly addressing leaks, electrical issues, and malfunctions. Contact us for details about specific services or any questions you may have! </li>
+                                    <li> <strong> Terim Appliance Annual Maintenance Contract: </strong> This contract outlines the terms for the annual maintenance of your Terim appliances, ensuring they function smoothly throughout the year. Enjoy peace of mind with professional care. </li>
+                                    <p className="mb-0">
+                                        <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for keeping your Terim home appliances operating efficiently, performing well, and lasting longer.
+                                    </p>
+                                </ul>
+                            </div>
+
                         </div>
                     </div>
                 </section >
@@ -317,28 +366,17 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                 <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
                     <div className="container">
                         <div className="row justify-content-center">
-                            <h3 className="cs_fs_30 mb-0">The Benefits Of Terim  appliances Service Dubai
-                            </h3>
+                            <h2 className="cs_fs_30 mb-0">The Benefits of Terim Appliances Service Dubai</h2>
                             <div className="row gx-3 gy-5 mt-0">
                                 <div className="col-md-4 mb-2">
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h3>
-                                            <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-md-4 mb-2">
-                                    <div className="">
-                                        <div className="benifit-box-container">
-                                            <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
-                                            </div>
-                                            <h3 className="text-uppercase mb-2 cs_fs_18">Optimal Performance</h3>
-                                            <p className="small">Regular maintenance helps your appliances run smoothly and efficiently, delivering the best results every time.
+                                            <p className="small">
+                                                Regular inspections are essential for preventing electrical faults, gas leaks, and other hazards, which ensures the safety of your premises.
                                             </p>
                                         </div>
                                     </div>
@@ -347,10 +385,25 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                            </div>
+                                            <h3 className="text-uppercase mb-2 cs_fs_18"> Optimal Performance </h3>
+                                            <p className="small">
+                                                Regular maintenance helps your Terim appliances run smoothly and efficiently, delivering the best results every time.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-md-4 mb-2">
+                                    <div className="">
+                                        <div className="benifit-box-container">
+                                            <div className="icon-img-block">
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h3>
-                                            <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                                            <p className="small">
+                                                Energy-efficient Terim appliances help you save on utility bills, allowing you to keep more money in your pocket each month.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -359,10 +412,12 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h3>
-                                            <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
+                                            <p className="small">
+                                                Preventive services help identify issues early, reducing breakdowns and repairs while enhancing the lifespan of Terim appliances.
+                                            </p>
                                         </div>
 
                                     </div>
@@ -371,11 +426,12 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h3>
-                                            <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
-
+                                            <p className="small">
+                                                Regular maintenance and prompt servicing can significantly prolong the lifespan of your Terim appliances, delaying the need for replacements.
+                                            </p>
                                         </div>
 
                                     </div>
@@ -385,10 +441,12 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Peace of Mind</h3>
-                                            <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                                            <p className="small">
+                                                Keeping your Terim appliances in good working order enhances your confidence and minimizes the stress of unexpected breakdowns.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -398,7 +456,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                 </section>
 
                 {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
-                <section className="section cs_py_30">
+                < section className="section cs_py_30" >
                     <div className="container container-md container-sm">
                         <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2>
 
@@ -407,33 +465,33 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                             <div className="uspcol col-1">
                                 <div className="uspitem">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`}  loading="lazy" alt="Fast, Reliable Service" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} loading="lazy" alt="Fast, Reliable Service" />
 
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Reliable, Priority, and Quick</h3>
-                                        <p>	You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
+                                        <p>You can count on quick service! Our same-day repairs and next-day service visits ensure your needs are met promptly.</p>
                                     </div>
                                 </div>
 
                                 <div className="uspitem">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`}  loading="lazy" alt="We Are Experts" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} loading="lazy" alt="We Are Experts" />
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Feeling Of Calm</h3>
-                                        <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
+                                        <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you receive a full year of service ensuring your Terim appliance operates smoothly, providing you with peace of mind.</p>
                                     </div>
                                 </div>
 
 
                                 <div className="uspitem mb-0">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`}  loading="lazy" alt="FAJ icon service" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} loading="lazy" alt="FAJ icon service" />
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">You Are in Control</h3>
-                                        <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
+                                        <p>Schedule a day and time for your Terim appliance repair in Dubai or Sharjah, allowing a 3-4 hour window for the technician's arrival.</p>
                                     </div>
                                 </div>
 
@@ -441,55 +499,183 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`}  loading="lazy" alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} loading="lazy" alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}
                             <div className="uspcol col-3">
                                 <div className="uspitem">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`}  loading="lazy" alt="FAJ icon service" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} loading="lazy" alt="FAJ icon service" />
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">We Are Experts</h3>
-                                        <p>We are experts in Terim  appliance repair this is why most major brands trust us to handle their service and maintenance needs.</p>
+                                        <p>We specialize in Terim appliance repair, which is why many major brands trust us to handle their service and maintenance needs.</p>
                                     </div>
                                 </div>
                                 <div className="uspitem">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`}  loading="lazy" alt="FAJ icon service" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} loading="lazy" alt="FAJ icon service" />
 
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Great Value</h3>
-                                        <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same location in Dubai.</p>
+                                        <p>The inspection fee includes diagnosis, transportation, and reinstallation for up to two Terim appliances at the same location in Dubai.</p>
                                     </div>
                                 </div>
                                 <div className="uspitem mb-0">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`}  loading="lazy" alt="FAJ icon service" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} loading="lazy" alt="FAJ icon service" />
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Trustworthy</h3>
-                                        <p>Our skilled appliance technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
+                                        <p>Our skilled technicians specialise in Terim appliances and are thoroughly trained to provide outstanding service for a wide range of major appliances.</p>
                                     </div>
                                 </div>
                             </div>
 
                             {/* <!-- Delimit mobile --> */}
                             <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`}  loading="lazy" alt="FAJ icon service" />
+                                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} loading="lazy" alt="FAJ icon service" />
                             </div>
                         </div>
                     </div>
-                </section>
+                </section >
 
+                {/* We are specialise in Appliances services for the following brands */}
+                <section className="section cs_py_30 bg-light-gray mb-4">
+                    <div className="container">
+                        <h3>We specialize in Terim appliance services of the following types</h3>
+                        <div className="row">
+                            <div className="col-12">
+                                <p className="mb-0"> <b> Terim Washing Machine Repair Near You in Dubai: </b> FAJ is here to support you when issues arise. We understand that your Terim washing machine is vital for daily life, ensuring your laundry stays clean. Contact us for the best Terim <a href="https://www.fajservices.ae/washing-machine-repair-service-dubai/">washing machine service center</a> near me in Dubai. </p>
+                                <p className="mb-0"> <b> Terim Fridge Repair Near You in Dubai: </b> If you are having problems with your Terim refrigerator, please contact the FAJ team for same-day Terim <a href="https://www.fajservices.ae/refrigerator-repair-service/">refrigerator repair service</a> in Dubai. </p>
+                                <p className="mb-0"> <b> Terim Freezer Repair Near You in Dubai: </b> Our team of qualified technicians is available for Terim freezer repair and service in Dubai and Sharjah. </p>
+                                <p className="mb-0"> <b> Terim Home Appliance Service Center Near You: </b> If you are seeking the best repair service Terim washer dryer in Dubai, FAJ is an excellent choice. They are well-known for their exceptional service in repairing Terim fridge freezer and are recognized as the leading provider for repairs of fix Terim cooking range, stove fixes, induction cooktops, repair Terim washing machines, and Terim refrigerator in the area. </p>
+                                <p className="mb-0"> <b> Terim Dishwasher Repair Near You in Dubai: </b> If you're experiencing issues with your Terim dishwasher, it might be time for some repair or maintenance. For reliable and top-notch service, consider FAJ's Terim service center in Dubai, which specializes in integrated Terim dishwasher repairs. They offer expert assistance to ensure your appliance functions optimally. </p>
+                                <p className="mb-0"> <b> Terim Cooking Range and Oven Repair Near You: </b> We provide expert repair service Terim cooking range and ovens in Dubai. Our skilled technicians are experienced in diagnosing and fixing issues with Terim refrigerator repair, fix Terim dishwasher , Terim dryer fixer, and more. </p>
+                                <p className="mb-0"> <b> Terim Dryer Repair and Service Near You: </b> Is your Terim dryer not working properly? Looking for a reliable Terim dryer service in Dubai? Contact us for same-day assistance! </p>
+                                <p className="mb-0"> <b> Terim Oven Repair Near Me Dubai: </b> If you're searching for the best company for Terim <a href="https://www.fajservices.ae/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for Terim ovens. FAJ is recognized as the leading service center for Terim oven repair and maintenance in Dubai. </p>
+
+                                <h4>We offer service for Terim appliances in the Dubai area.</h4>
+                                <p>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-business-bay/">Business Bay</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-dubai-marina/">Dubai Marina</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-palm-jumeirah/">Palm Jumeirah</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-dubai-hills-estate/">Dubai Hills Estate</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-damac-hills/">Damac Hills</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-al-barari/">Al Barari</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-al-barsha/">Al Barsha</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-al-safa/">Al Safa</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-arabian-ranches/">Arabian Ranches</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-dubai-silicon-oasis/">Dubai Silicon Oasis</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-dubai-investments-park/">Dubai Investments Park</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-dip/">DIP</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-dubai-production-city/">Dubai Production City</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-impzy/">IMPZ</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-dubai-sports-city/">Dubai Sports City</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-dubai-studio-city/">Dubai Studio City</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-jbr/">JBR</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-beach-residence/">Jumeirah Beach Residence</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-jlt/">JLT</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-lake-towers/">Jumeirah Lake Towers</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-jvc/">JVC</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-village-circle/">Jumeirah Village Circle</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-jvt/">JVT</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-village-triangle/">Jumeirah Village Triangle</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-jebel-ali-village/">Jebel Ali Village</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-jumeirah/">Jumeirah</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-golf-estates/">Jumeirah Golf Estates</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-the-meadows/">Meadows</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-dubai-motor-city/">Motor City</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-town-square/">Town Square</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/ac-services-in-emirates-hills/">Emirates Hills</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-umm-suqeim/">Umm Suqeim</a>
+
+                                </p>
+
+                            </div>
+                        </div>
+
+                        <div id="get-quote" className=" mt-3">
+                            <div className="container d-flex justify-content-center align-items-center gap-3">
+                                <GetQuoteButton />
+                                <CallNowButton />
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
 
                 {/* Maintenance Contract */}
                 <MaintenanceContract />
+
                 {/* testimobial section */}
                 <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
-                    {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
+
                     <div className="container">
                         <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
                             <h3 className="cs_section_subtitle cs_fs_18 text-black cs_semibold text-uppercase cs_mb_12 wow fadeInDown">
@@ -511,7 +697,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                                                 <div className="cs_testimonial_content cs_white_bg position-relative">
                                                     <div className="cs_testimonial_header cs_mb_35">
                                                         <div className="cs_testimonial_thumbnail">
-                                                            <img src={`${import.meta.env.BASE_URL}${item.img1}`}  loading="lazy" alt="Avatar" />
+                                                            <img src={`${import.meta.env.BASE_URL}${item.img1}`} loading="lazy" alt="Avatar" />
                                                         </div>
                                                         <div className="cs_testimonial_info">
                                                             <div className="rating-area" >
@@ -522,11 +708,12 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                                                                 <i className="bi bi-star-fill"></i>
                                                             </div>
                                                             <span className="client_name cs_fs_24 cs_mb_1 text-uppercase" >{item.title}</span>
+                                                            {/* <p className="cs_fs_14 cs_heading_color mb-0">{item.subTitle}</p> */}
                                                         </div>
                                                     </div>
                                                     <blockquote className="cs_fs_16">{item.desc}</blockquote>
                                                     <div className="cs_quote_icon position-absolute">
-                                                        <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`}  loading="lazy" alt="Quote Icon" />
+                                                        <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`} loading="lazy" alt="Quote Icon" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -537,7 +724,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                             </div>
                         </div>
                     </div>
-                    {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
+
                 </section>
 
                 {/* FAQ&apos;s */}
