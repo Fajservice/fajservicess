@@ -4,6 +4,7 @@ import Testimonial1 from "../Components/Testimonial/Testimonial1";
 import { Link } from "react-router-dom";
 import {Helmet, HelmetProvider } from "react-helmet-async";
 import TimelineSection from "../Components/About/timeline";
+import Services3 from "../Components/Services/Services3";
 
 
 const AboutPage = () => {
@@ -108,10 +109,57 @@ const AboutPage = () => {
                 <div className="cs_height_80 cs_height_lg_80"></div>
                 <div className="cs_height_80 cs_height_lg_80"></div>
             </section>
+            <section className="faj-section">
+                <div className="container">
+                    <h2>Our Philosophy</h2>
+                <div className="faj-card">
+                    <p>At FAJ, we believe that success is measured by more than just the numbers involved in a deal.</p>
+                    <p>Our passion for excellence drives us. In each of our businesses, we establish best practices and set benchmarks that others strive to follow. We value long-term business relationships built on mutual trust, ethical practices, and a focused commitment to delivering extraordinary results.</p>
+                </div>
+
+                <div className="faj-grid">
+                    <div className="faj-card">
+                    <h3>Our Vision</h3>
+                    <p>At FAJ Technical Services LLC, our vision is to be the trusted partner in delivering comfort, convenience, and peace of mind to our customers.</p>
+                    <p>We strive to set the standard for exceptional technical services in the region. Our goal is to positively impact our customers' lives by providing reliable, efficient, and innovative solutions for their air conditioning system, refrigeration system, MEP, commercial equipment, and appliance needs.</p>
+                    </div>
+
+                    <div className="faj-card">
+                    <h3>Our Mission</h3>
+                    <ul>
+                        <li>Delivering prompt, professional, and courteous service to our customers.</li>
+                        <li>Providing eco-friendly and energy-efficient solutions to minimize carbon footprint.</li>
+                        <li>Investing in the latest technologies and training for complex challenges.</li>
+                        <li>Establishing enduring relationships based on trust, respect, and understanding.</li>
+                    </ul>
+                    </div>
+                </div>
+
+                <div className="faj-values">
+                    <div className="faj-card">
+                        <h3>Our Values</h3>
+                        <ul>
+                            <li><strong>Customer Satisfaction:</strong> We prioritize exceeding customer expectations through personalized service.</li>
+                            <li><strong>Technical Excellence:</strong> We invest in skills, innovation, and industry best practices.</li>
+                            <li><strong>Integrity:</strong> Transparency and honesty guide all our interactions.</li>
+                            <li><strong>Teamwork:</strong> We collaborate and respect each other’s strengths.</li>
+                            <li><strong>Innovation:</strong> We embrace creativity and new technologies to stay ahead.</li>
+                            <li><strong>Accountability:</strong> We own outcomes and constantly improve.</li>
+                            <li><strong>Environmental Responsibility:</strong> We reduce waste and promote sustainability.</li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section className="section cs_py_30 bg-light-gray">
                 <h3 className="text-center">Timeline</h3>
                 <TimelineSection />  
-            </section>  
+            </section>
+            <section className="section cs_py_30">
+                <h3 className="text-center mb-0">Our Services</h3>
+                <Services3 />
+            </section>
              <Testimonial1
                 subtitle="Testimonial"
                 title="What our clients say <br> About Us"

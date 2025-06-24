@@ -80,3 +80,57 @@
   font-size: 13px;
   color: #333;
 }
+@media (max-width: 768px) {
+  .timeline-road {
+    flex-wrap: wrap;
+    height: fit-content;
+  }
+  .timeline-road::before{
+    display: none;
+  }
+}
+.faj-section {
+  padding: 3rem 1.5rem;
+  background: #f9f9f9;
+}
+.faj-section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.faj-card {
+  background: #fff;
+  border-left: 5px solid #3c8dbc;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+.faj-card h3 {
+  color: #3c8dbc;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.faj-card ul {
+  padding-left: 1rem;
+}
+.faj-card ul li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+.faj-values .faj-card {
+  border-left-color: #a94442;
+}
+@media (min-width: 768px) {
+  .faj-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .faj-section {
+    padding: 2rem 0.5rem;
+  }
+  .faj-section {
+    padding: 3rem 0.5rem;
+
+  }
+}

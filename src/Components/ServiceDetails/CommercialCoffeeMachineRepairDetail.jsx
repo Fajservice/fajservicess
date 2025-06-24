@@ -234,12 +234,6 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                   <li> <strong> Lowering Maintenance Costs: </strong> Addressing minor issues early can prevent larger, more expensive repairs.</li>
                   <li> <strong> Maintaining Efficiency: </strong> Consistent upkeep ensures optimal performance and reduces energy consumption, making operations more cost-effective. </li>
                   <li> <strong> Restaurant Use: </strong> Regular maintenance boosts coffee quality and extends machine lifespan while ensuring safety and reliability for businesses.</li>
-
-
-
-
-
-
                 </ul>
               </div>
             </div>
@@ -589,7 +583,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
           </div>
         </section>
 
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray custom-css-box">
           <div className="container">
             <h3 className="text-center">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -600,9 +594,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                     <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Ascaso Coffee Machine Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Maintenance and cleaning services for Ascaso espresso coffee machine are available in Dubai and Sharjah.
-                    </p>
+                    <p className="p-2 mb-0">Maintenance and cleaning services for Ascaso espresso coffee machine in Dubai and Sharjah.</p>
                   </div>
                 </div>
               </div>
@@ -641,9 +633,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                     <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Jura Coffee Machine Maintenance</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      We provide Jura coffee machine maintenance services and espresso makers descaling in Dubai.
-                    </p>
+                    <p className="p-2 mb-0">We provide Jura coffee machine maintenance services and espresso maker repair in Dubai.</p>
                   </div>
                 </div>
               </div>
@@ -651,11 +641,11 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dr Coffee Machine Repairs</h3>
+                    <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">La Marzocco Coffee Machine Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      You can locate professional Dr Coffee machine maintenance and descaling services near you.
+                      Professional maintenance and cleaning for La Marzocco espresso machine, and AMC services.
                     </p>
                   </div>
                 </div>
@@ -693,9 +683,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                     <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">ECM Coffee Machine Servicing</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Reach out to us for maintenance and repair services for your ECM coffee machine, including descaling.
-                    </p>
+                    <p className="p-2 mb-0">Reach out to us for maintenance and repair services for ECM coffee machine descaling.</p>
                   </div>
                 </div>
               </div>
@@ -746,7 +734,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Reliable Coffee Machine Service and Espresso Machine Maintenance and Cleaning in Dubai.
+                      Reliable coffee machine service, Espresso machine maintenance, and cleaning in Dubai.
                     </p>
                   </div>
                 </div>
@@ -784,9 +772,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                     <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Melitta Coffee Machine Servicing</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      We are providing Melitta coffee maker service and repair in Dubai, offering same-day fix coffee machine.
-                    </p>
+                    <p className="p-2 mb-0">We are providing Melitta coffee maker repair in Dubai, offering sameday fixing coffee machine.</p>
                   </div>
                 </div>
               </div>
@@ -863,9 +849,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                     <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Magister Espresso Machine Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      FAJ technicians help with Magister espresso machine maintenance and provide service near your location.
-                    </p>
+                    <p className="p-2 mb-0">FAJ technicians help with Magister espresso machine maintenance and service near your location.</p>
                   </div>
                 </div>
               </div>
@@ -876,9 +860,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                     <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Orhcestrale Espresso Machine Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      We are offering fast repair, cleaning, and descaling services for coffee machines and espresso machines.
-                    </p>
+                    <p className="p-2 mb-0">We are offering repair, cleaning, and descaling services for coffee machines & espresso machines.</p>
                   </div>
                 </div>
               </div>
@@ -889,9 +871,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                     <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Illy Saeco Royal Coffee Machine Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                     FAJ services and repairs all models of espresso machine and offers annual maintenance contracts.
-                    </p>
+                    <p className="p-2 mb-0">FAJ services and repairs of espresso machine and offers annual maintenance contracts.</p>
                   </div>
                 </div>
               </div>
@@ -902,9 +882,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                     <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Cafematic Automatic Coffee Machine</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                     Automatic coffee machine and espresso machine annual agreement service in Dubai, Sharjah, and Abu Dhabi.
-                    </p>
+                    <p className="p-2 mb-0">Automatic coffee machine and espresso machine yearly service agreement in Dubai, UAE</p>
                   </div>
                 </div>
               </div>
@@ -941,9 +919,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                     <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Rancilio Volumetric Espresso Machine</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                     We are experts in reliable volumetric espresso machine maintenance and repair services in your area.
-                    </p>
+                    <p className="p-2 mb-0">FAJ is providing fast volumetric espresso machine maintenance and repair services near you.</p>
                   </div>
                 </div>
               </div>
@@ -967,9 +943,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                     <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Nuova Simonelli Appia Life</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                     Contact us today for the Nuova Simonelli espresso machine servicing, maintenance and descaling near you.
-                    </p>
+                    <p className="p-2 mb-0">Contact us today for Nuova Simonelli espresso machine service, maintenance, and descaling near me.</p>
                   </div>
                 </div>
               </div>
@@ -994,7 +968,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                     If your coffee machine needs repair, stay for espresso machine descaling, annual agreements, and PPM services.
+                     Call us for coffee machine repair or espresso machine descaling, annual agreement services.
                     </p>
                   </div>
                 </div>
@@ -1007,7 +981,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                     We provide Profitec Ride espresso machine servicing and repair, as well as service agreements in Dubai.
+                     We provide Profitec Ride espresso machine servicing and repair, and service agreements in Dubai.
                     </p>
                   </div>
                 </div>
@@ -1046,7 +1020,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                     Professional Lavazza coffee machine service and repair, as well as coffee vending machine maintenance, is available in Dubai.
+                     Expert Lavazza coffee machine service and repair, and coffee vending machine maintenance near you.
                     </p>
                   </div>
                 </div>
@@ -1059,7 +1033,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                     Call us to book a coffee machine technician for the best and most reliable repair and cleaning service.
+                     Call now for coffee machine technician and best coffee maker repair and cleaning service.
                     </p>
                   </div>
                 </div>
@@ -1072,7 +1046,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                     The FAJ team of skilled technicians offers Fracino Romano coffee machine repair and AMC services in Dubai.
+                     FAJ skilled technicians offer Fracino Romano coffee machine repair and AMC services in Dubai.
                     </p>
                   </div>
                 </div>
@@ -1097,8 +1071,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                     <h3 className="cs_fs_12 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Jetinno Coffee Machine Repair</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                     We provide express services for Jentinno coffee machines, including repairs, decaling, and maintenance in Dubai.
+                    <p className="p-2 mb-0">Get Fast Jentinno coffee machine service, with repairs, descaling, and maintenance in Dubai.
                     </p>
                   </div>
                 </div>

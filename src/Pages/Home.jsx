@@ -65,7 +65,7 @@ const Home = ({titleSeo, description, Author, Keyword, URL }) => {
             <Services1></Services1>
             <Choose1
                 img1="img/feature_img_1.avif"
-                content="Squeaking, grinding noises, or a spongy brake pedal are car common indicators that your brakes need attention Slow an  engine cranking."
+                content="Installation, repair, or maintenance service agreement for your home, office, or commercial needs in Dubai, Sharjah and Abu Dhabi, offers expert and affordable solutions."
                 btnName="Read more"
                 btnUrl="about-us/"
                 img2="img/whywechoose2.avif"

@@ -13,7 +13,7 @@ const Services2 = () => {
           <div className="cs_section_heading cs_style_1 cs_mb_50 text-center">
             <SectionTitle2
                 SubTitle="Best Services"
-                Title="Where Your Car Gets Pride <br> the Best Care"
+                Title="FIND A WIDE VARIETY OF EXCELLENT SERVICES FOR HOME AND BUSINESS."
             ></SectionTitle2>
           </div>
         </div>
@@ -30,9 +30,9 @@ const Services2 = () => {
                     <img src={`${import.meta.env.BASE_URL}${item.img}`} alt="Service Image" />
                   </Link>
                   <div className="cs_card_info cs_bg_filed" data-src="/assets/img/card_bg_1.svg">
-                    <div className="cs_card_icon cs_mb_20">
+                    {/* <div className="cs_card_icon cs_mb_20">
                       <img src={item.icon} alt="Wheel Icon" />
-                    </div>
+                    </div> */}
                     <h3 className="cs_fs_24 cs_semibold cs_mb_14">
                       <Link to={item.btnLink}>{item.title}</Link>
                     </h3>

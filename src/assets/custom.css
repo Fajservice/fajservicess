@@ -1101,3 +1101,7 @@ h2.cs_fs_24{
 .faq-Section{
   background-image: url(/img/testimonialbg.jpg);
 }
+
+.custom-css-box .box-content-container {
+    min-height: 152px;
+}

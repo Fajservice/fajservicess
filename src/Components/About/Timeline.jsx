@@ -10,19 +10,19 @@ const timelineData = [
     color: '#3c8dbc',
   },
   {
-    title: 'FAJ IT Solutions',
+    title: 'F A J IT Solutions',
     date: '2023',
     // description: 'This sample text is a list of tests to be done during this phase.\nTest 1\nTest 2\nTest 3',
      color: '#a94442',
   },
   {
-    title: 'FAJ International Training Academy Pvt. (Limited)',
+    title: 'F A J International Training Academy Pvt. (Limited)',
     date: '2024',
     // description: 'Be creative with your own ideas and start creating your own infographic outline.',
     color: '#f39c12',
   },
   {
-    title: 'FAJ Trading LLC',
+    title: 'F A J Trading L.L.C',
     date: '2024',
     // description: 'Celebrate!',
     color: '#605ca8',
