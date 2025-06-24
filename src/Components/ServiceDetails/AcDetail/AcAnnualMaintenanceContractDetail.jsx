@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../Data/AcData/AcFaqs/AMCFaqs.json';
-import {Helmet, HelmetProvider } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
@@ -21,10 +21,10 @@ import FAJACPrice from "../../Miscellaneous/FAJACPrice";
 import Practicaltip from "../../Common/Practicaltip";
 import AcProperties from "../../Common/AcProperties";
 
-const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => { 
+const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Best AC Annual Maintenance Contract Service Dubai AC AMC #1");
-  const metadescription = String(description || "We also offer an (Air Conditioner) AC Annual Maintenance Contract Service ( AMC ) in Dubai Comprehensive Plan of HVAC, Central, Split AC. 043300002"); 
+  const metadescription = String(description || "We also offer an (Air Conditioner) AC Annual Maintenance Contract Service ( AMC ) in Dubai Comprehensive Plan of HVAC, Central, Split AC. 043300002");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "AC Annual Maintenance Contract Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/ac-annual-maintenance-contract/").replace(/\/?$/, '/');
@@ -179,11 +179,9 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
             </div>
           </div>
         </section>
-         <section className="section cs_py_30">
-          <div className="container">
-            <FAJACPrice />
-          </div>
-        </section>
+
+        <FAJACPrice />
+
         {/* Peace of Mind with Annual Maintenance Contracts */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
@@ -485,7 +483,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
 
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
-          
+
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
               <h3 className="cs_section_subtitle cs_fs_18 text-black cs_semibold text-uppercase cs_mb_12 wow fadeInDown">
@@ -500,7 +498,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
                 </svg>
 
               </h3>
-              
+
               <h3 className="cs_section_title cs_fs_30 text-black mb-0 wow fadeInUp">{parse(title)}</h3>
             </div>
             <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
@@ -525,7 +523,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
                                 <i className="bi bi-star-fill"></i>
                               </div>
                               <span className="client_name cs_fs_24 cs_mb_1 text-uppercase" >{item.title}</span>
-                              
+
                             </div>
                           </div>
                           <blockquote className="cs_fs_16">{item.desc}</blockquote>
@@ -541,7 +539,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
               </div>
             </div>
           </div>
-          
+
         </section>
 
         {/* FAQ&apos;s */}

@@ -230,7 +230,7 @@ const IndesitWashingMachineDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Indesit Tumble Dryer</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Indesit dryer may stop spinning and make noise without drying clothes, often due to a faulty heating element or control board.
+                    <p className="p-2 mb-0">Indesit dryer may stop spinning and make unusual noises without properly drying clothes, often due to a faulty heating element or control board.
                     </p>
                   </div>
                 </div>
@@ -274,7 +274,7 @@ const IndesitWashingMachineDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Machine Problem</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Water flow in coffee makers, whether drip or single-serve, can often be slow or even absent for several reasons.</p>
+                    <p className="p-2 mb-0">Water flow in coffee makers, whether drip or single-serve, can often become unusually slow or stop entirely due to several possible reasons</p>
                   </div>
                 </div>
               </div>
@@ -444,7 +444,7 @@ const IndesitWashingMachineDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you receive a full year of service ensuring your Indesit appliance operates smoothly, providing you with peace of mind.</p>
+                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Indesit appliance running smoothly and reliably.</p>
                   </div>
                 </div>
 
@@ -474,7 +474,7 @@ const IndesitWashingMachineDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We specialize in Indesit appliance repair, which is why many major brands trust us to handle their service and maintenance needs.</p>
+                    <p>We specialize in Indesit appliance repair, which is why major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -484,7 +484,7 @@ const IndesitWashingMachineDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>The inspection fee includes diagnosis, transportation, and reinstallation for up to two Indesit appliances at the same location in Dubai.</p>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation up to two Indesit appliances at the same location in Dubai.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -493,7 +493,7 @@ const IndesitWashingMachineDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our skilled technicians specialise in Indesit appliances and are thoroughly trained to provide outstanding service for a wide range of major appliances.</p>
+                    <p>Our skilled technicians specialise in Indesit appliances and provide outstanding service across major appliances.</p>
                   </div>
                 </div>
               </div>
@@ -521,7 +521,7 @@ const IndesitWashingMachineDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                 <p className="mb-0"> <b> Indesit Dryer Repair and Service Near You: </b> Is your Indesit dryer not working properly? Looking for a reliable Indesit dryer service in Dubai? Contact us for same-day assistance! </p>
                 <p className="mb-0"> <b> Indesit Oven Repair Near Me Dubai: </b> If you're searching for the best company for Indesit <a href="https://www.fajservices.ae/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for Indesit ovens. FAJ is recognized as the leading service center for Indesit oven repair and maintenance in Dubai. </p>
 
-                <h4>We offer service for Indesit appliances in the Dubai area.</h4>
+                <h4 className="mt-3">We offer service for Indesit appliances in the Dubai area</h4>
                 <p>
 
                   <a href="https://www.fajservices.ae/appliances-services-in-business-bay/">Business Bay</a>

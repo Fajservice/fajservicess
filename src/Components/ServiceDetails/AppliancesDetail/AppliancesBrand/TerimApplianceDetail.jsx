@@ -92,7 +92,6 @@ const TerimApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
         autoplay: true,
         autoplaySpeed: 5000,
         pauseOnHover: true,
-        // cssEase: 'linear',
 
         responsive: [
             {
@@ -147,11 +146,8 @@ const TerimApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                 <section className="section cs_py_30">
                     <div className="container">
                         <h1 className="cs_fs_30">Terim Home Appliance Repair Service and Installation</h1>
-                        {/* 
-          <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2> */}
                         <p>
                             If you need a qualified technician for Terim appliances, you’re in the right place. Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has provided reliable and affordable home appliances repair & services. Our network includes skilled professionals who understand Terim appliance repair and nearby services. We connect you with experienced technicians in Dubai and Sharjah who prioritize your satisfaction and ensure efficient solutions for all your appliance needs!
-
                         </p>
 
                         <div id="get-quote" className=" mt-3">
@@ -159,7 +155,7 @@ const TerimApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                                 <WhatsappIconButton />
                             </div>
                         </div>
-                        {/*  */}
+
                     </div>
                 </section>
 
@@ -169,21 +165,19 @@ const TerimApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                         <div className="row gx-md-5">
                             <div className="col-md-6">
                                 <h2 className="cs_fs_24 mb-1">Terim Washing Machine Repair Near You</h2>
-
                                 <p className="mb-2">
                                     If you're having issues with your Terim appliances, our repair team is ready to assist you! FAJ offers quick and affordable solutions for a variety of problems, including Terim washing machines that won’t drain, refrigerators that aren’t cooling, ovens that won’t heat, and dishwashers that won’t turn on.
                                     Get reliable Terim appliance repair in Dubai and Sharjah. We provide trusted solutions for any appliance issue you may encounter.
-
                                 </p>
 
                                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Terim Appliances Service</h2>
-                                <p className="mb-2"> At F A J Technical Services L.L.C, we recognize that appliance breakdowns, particularly with Terim products, often happen at the most inconvenient times. That’s why our trained and qualified Terim technicians are available to provide you with reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair service</a>. With our help, you can avoid the expense of purchasing a new appliance and quickly get your Terim appliance back in working order, allowing you to put your worries aside.
+                                <p className="mb-2">
+                                    At F A J Technical Services L.L.C, we recognize that appliance breakdowns, particularly with Terim products, often happen at the most inconvenient times. That’s why our trained and qualified Terim technicians are available to provide you with reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair service</a>. With our help, you can avoid the expense of purchasing a new appliance and quickly get your Terim appliance back in working order, allowing you to put your worries aside.
                                 </p>
 
                             </div>
 
                             <div className="col-md-6 ">
-
                                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} loading="lazy" alt="Terim Washing Machine Repair" />
                             </div>
                         </div>
@@ -206,15 +200,13 @@ const TerimApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">
-
-                                    <li><strong>  Terim Washing Machine Repair in Dubai: </strong> Regular maintenance can prolong your Terim washing machine's lifespan, saving you moneyw. </li>
+                                    <li><strong>  Terim Washing Machine Repair in Dubai: </strong> Regular maintenance can prolong your Terim washing machine's lifespan, saving you money. </li>
                                     <li><strong>  Terim Fridge Repair in Dubai: </strong> We are confident that we can quickly get your Terim refrigerator up and running again. </li>
                                     <li><strong>  Terim Stove / Oven Repair in Dubai: </strong> Catching minor issues early can help prevent them from escalating into expensive repairs. </li>
                                     <li><strong>  Terim Dishwasher Repair in Dubai: </strong> Regular maintenance helps minimise potential problems and improves overall performance. </li>
                                     <li><strong>  Early Problem Detection: </strong> Regular inspections can help identify potential problems before they escalate into serious issues. </li>
                                     <li><strong>  Cost-Effective: </strong> Maintaining appliances is more cost-effective than replacing or making major repairs, ensuring safety and efficiency in Dubai. </li>
                                     <li><strong>  Energy Efficiency: </strong> Regular maintenance of your Terim appliances can enhance efficiency and save you money. </li>
-
                                 </ul>
                             </div>
                         </div>
@@ -266,7 +258,7 @@ const TerimApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                                         <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Terim Tumble Dryer</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
-                                        <p className="p-2 mb-0">Terim dryer may stop spinning and make noise without drying clothes, often due to a faulty heating element or control board.
+                                        <p className="p-2 mb-0">Terim dryer may stop spinning and make unusual noises without properly drying clothes, often due to a faulty heating element or control board.
                                         </p>
                                     </div>
                                 </div>
@@ -310,7 +302,7 @@ const TerimApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                                         <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Machine Problem</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
-                                        <p className="p-2 mb-0">Water flow in coffee makers, whether drip or single-serve, can often be slow or even absent for several reasons.</p>
+                                        <p className="p-2 mb-0">Water flow in coffee makers, whether drip or single-serve, can often become unusually slow or stop entirely due to several possible reasons</p>
                                     </div>
                                 </div>
                             </div>
@@ -480,7 +472,7 @@ const TerimApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Feeling Of Calm</h3>
-                                        <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you receive a full year of service ensuring your Terim appliance operates smoothly, providing you with peace of mind.</p>
+                                        <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Terim appliance running smoothly and reliably.</p>
                                     </div>
                                 </div>
 
@@ -510,7 +502,7 @@ const TerimApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">We Are Experts</h3>
-                                        <p>We specialize in Terim appliance repair, which is why many major brands trust us to handle their service and maintenance needs.</p>
+                                        <p>We specialize in Terim appliance repair, which is why major brands trust us to handle their service and maintenance needs.</p>
                                     </div>
                                 </div>
                                 <div className="uspitem">
@@ -520,7 +512,7 @@ const TerimApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Great Value</h3>
-                                        <p>The inspection fee includes diagnosis, transportation, and reinstallation for up to two Terim appliances at the same location in Dubai.</p>
+                                        <p>Inspection fee includes diagnosis, transport, and reinstallation up to two Terim appliances at the same location in Dubai.</p>
                                     </div>
                                 </div>
                                 <div className="uspitem mb-0">
@@ -529,7 +521,7 @@ const TerimApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Trustworthy</h3>
-                                        <p>Our skilled technicians specialise in Terim appliances and are thoroughly trained to provide outstanding service for a wide range of major appliances.</p>
+                                        <p>Our skilled technicians specialise in Terim appliances and provide outstanding service across major appliances.</p>
                                     </div>
                                 </div>
                             </div>
@@ -557,7 +549,7 @@ const TerimApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                                 <p className="mb-0"> <b> Terim Dryer Repair and Service Near You: </b> Is your Terim dryer not working properly? Looking for a reliable Terim dryer service in Dubai? Contact us for same-day assistance! </p>
                                 <p className="mb-0"> <b> Terim Oven Repair Near Me Dubai: </b> If you're searching for the best company for Terim <a href="https://www.fajservices.ae/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for Terim ovens. FAJ is recognized as the leading service center for Terim oven repair and maintenance in Dubai. </p>
 
-                                <h4>We offer service for Terim appliances in the Dubai area.</h4>
+                                <h4 className="mt-3">We offer service for Terim appliances in the Dubai area</h4>
                                 <p>
 
                                     <a href="https://www.fajservices.ae/appliances-services-in-business-bay/">Business Bay</a>

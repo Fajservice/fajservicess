@@ -21,7 +21,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
     const metatitle = String(titleSeo || "Daewoo Home Appliance Repair & Washing Machine Service");
     const metadescription = String(description || "Daewoo home appliances service Dubai. Get fast Daewoo refrigerator repair,  Daewoo washing machine repair dishwasher, fridge service center nearme");
     const metaAuthor = String(Author || "Faj Technical Services");
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Daewoo home appliance repair, Daewoo washing machine service, Daewoo refrigerator repair, Daewoo dishwasher service, Daewoo fridge service center, Daewoo appliance installation Dubai, Daewoo appliance maintenance Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/").replace(/\/?$/, '/');
     subtitle = "Testimonial"
@@ -81,7 +81,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         ]
     };
 
-    
+
     return (
         <>
             <HelmetProvider>
@@ -96,15 +96,15 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                     <meta property="og:locale" content="en_US" />
                     <meta property="og:title" content={metatitle} />
                     <meta property="og:description" content={metadescription} />
-                     <meta property="og:url" content={metaURL} />
-          <meta property="og:image" content={metaImage} />
+                    <meta property="og:url" content={metaURL} />
+                    <meta property="og:image" content={metaImage} />
 
-          {/* Twitter Card */}
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content={metatitle} />
-          <meta name="twitter:description" content={metadescription} />
-          <meta name="twitter:image" content={metaImage} />
-          <meta name="twitter:url" content={metaURL} />
+                    {/* Twitter Card */}
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:title" content={metatitle} />
+                    <meta name="twitter:description" content={metadescription} />
+                    <meta name="twitter:image" content={metaImage} />
+                    <meta name="twitter:url" content={metaURL} />
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />
@@ -114,7 +114,6 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                 <section className="section cs_py_30">
                     <div className="container">
                         <h1 className="cs_fs_30">Daewoo Home Appliance Repair Service and Installation</h1>
-                        {/* <h2 className="cs_fs_30">Professional Daewoo Home Appliances Service and Repair</h2> */}
                         <p>Are you having trouble finding a local Daewoo appliance technician who specializes in Daewoo kitchen appliances? At FAJ Technical Services, we have been providing reliable and affordable services since 2010. We operate with a wide network of thoroughly vetted, qualified, and experienced service professionals. Whenever possible, we will send a technician who is familiar with your specific Daewoo appliance. </p>
 
                         <div id="get-quote" className=" mt-3">
@@ -122,7 +121,6 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                                 <WhatsappIconButton />
                             </div>
                         </div>
-                        {/*  */}
                     </div>
                 </section>
 
@@ -131,20 +129,22 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                     <div className="container">
                         <div className="row gx-md-5">
                             <div className="col-md-6">
-                                <h3 className="cs_fs_24 mb-1">Daewoo Washing Machine Repair Near You</h3>
+                                <h2 className="cs_fs_24 mb-1">Daewoo Washing Machine Repair Near You</h2>
 
                                 <p className="mb-2">
                                     If you need repair services for your Daewoo appliances, we’ve got you covered! Choose FAJ for quick and affordable service.
                                     <br />Whether your built-in Daewoo washing machine won’t drain, your Daewoo fridge won’t cool, your oven won’t heat, or your Daewoo dishwasher won’t turn on, our expert repair service team in  Dubai and Sharjah is ready to assist you.
                                     <br /> We are local and can quickly resolve any issues you may have.
                                 </p>
+                                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Terim Appliances Service</h2>
+                                <p className="mb-2">
+                                    At F A J Technical Services L.L.C, we understand that appliance breakdowns, especially with Daewoo products, never occur at a convenient time. That’s why our trained and qualified Daewoo technicians are here to offer you reliable appliances repair services. With our assistance, you can avoid the cost of purchasing a new appliance and get your Daewoo appliance up and running again before you have a chance to worry about it.
+                                </p>
 
-                                <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Daewoo Appliances Technical Inspection Fee</h3>
-                                <p className="mb-0">We have a standard technical inspection fee starting from AED 157 to 320 (depending on the appliance) that covers diagnosis, transportation, and reinstallation of the same appliance. Please note that this fee is non-refundable. This flat rate applies to 1 or 2 appliances located in the same place. However, it does not include the cost of any repairs/parts. Also, get repairs from us for your coffee machine, stand mixer, or robot vacuum. </p>
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`}  loading="lazy" alt="Daewoo Fridge Repair" />
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} loading="lazy" alt="Daewoo Fridge Repair" />
                             </div>
                         </div>
                         <AppliancesAppointmentCol></AppliancesAppointmentCol>
@@ -155,14 +155,14 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                 <section className="section cs_py_30">
                     <div className="container">
 
-                        <h3 className="cs_fs_30">Why is Daewoo Appliance Maintenance Service Important in Dubai?</h3>
+                        <h2 className="cs_fs_30">Why is Daewoo Appliance Maintenance Service Important in Dubai?</h2>
                         <p className="">
                             Our all-inclusive repair services include diagnosis, repairs, installations, and maintenance. That is why we are the most in-demand Daewoo appliances maintenance in Dubai provider.
                         </p>
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`}  loading="lazy" alt="Daewoo Fridge Repair" />
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} loading="lazy" alt="Daewoo Fridge Repair" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">
@@ -182,7 +182,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                 {/* The Most Common Problems with Home Appliances */}
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
-                        <h3 className="text-center">The Most Common Problems with Daewoo Appliances</h3>
+                        <h2 className="text-center">The Most Common Problems with Daewoo Appliances</h2>
                         <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
                             <div className="col-12 col-md-4 col-lg-3">
@@ -284,7 +284,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                 {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
                 <section className="section cs_py_30 ">
                     <div className="container">
-                        <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR Daewoo HOME APPLIANCES</h3>
+                        <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR Daewoo HOME APPLIANCES</h2>
 
                         <div className="row align-items-center">
                             <div className="col-xl-6">
@@ -318,14 +318,14 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                 <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
                     <div className="container">
                         <div className="row justify-content-center">
-                            <h3 className="cs_fs_30 mb-0">The Benefits Of Daewoo appliances Service Dubai
-                            </h3>
+                            <h2 className="cs_fs_30 mb-0">The Benefits Of Daewoo appliances Service Dubai
+                            </h2>
                             <div className="row gx-3 gy-5 mt-0">
                                 <div className="col-md-4 mb-2">
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h3>
                                             <p className="small">Regular inspections are vital for preventing electrical faults, gas leaks, and other hazards, ensuring the safety of your premises.</p>
@@ -336,7 +336,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Optimal Performance</h3>
                                             <p className="small">Regular maintenance helps your appliances run smoothly and efficiently, delivering the best results every time.
@@ -348,7 +348,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h3>
                                             <p className="small">Energy-efficient Daewoo appliances lead to monthly savings on utility bills, allowing you to keep more money in your pocket.</p>
@@ -360,7 +360,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h3>
                                             <p className="small">Preventive services identify issues early, minimizing breakdowns and repairs while extending the lifespan of Daewoo appliances.</p>
@@ -372,7 +372,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h3>
                                             <p className="small">Proper maintenance and timely servicing can greatly extend the lifespan of your Daewoo appliances, postponing the need for replacements.</p>
@@ -386,7 +386,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                                     <div className="">
                                         <div className="benifit-box-container">
                                             <div className="icon-img-block">
-                                                <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Peace of Mind</h3>
                                             <p className="small">Ensuring your Daewoo appliances are functioning well boosts your confidence and reduces the stress of unexpected failures.</p>
@@ -408,7 +408,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                             <div className="uspcol col-1">
                                 <div className="uspitem">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`}  loading="lazy" alt="Fast, Reliable Service" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} loading="lazy" alt="Fast, Reliable Service" />
 
                                     </div>
                                     <div className="usptext">
@@ -419,7 +419,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
                                 <div className="uspitem">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`}  loading="lazy" alt="We Are Experts" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} loading="lazy" alt="We Are Experts" />
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Feeling Of Calm</h3>
@@ -430,7 +430,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
                                 <div className="uspitem mb-0">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`}  loading="lazy" alt="FAJ icon service" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} loading="lazy" alt="FAJ icon service" />
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">You Are in Control</h3>
@@ -442,14 +442,14 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
                             {/* <!-- Delimit Section --> */}
                             <div className="uspdelimit col-2 d-none d-xl-block">
-                                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`}  loading="lazy" alt="FAJ icon service" />
+                                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} loading="lazy" alt="FAJ icon service" />
                             </div>
 
                             {/* <!-- Second Column --> */}
                             <div className="uspcol col-3">
                                 <div className="uspitem">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`}  loading="lazy" alt="FAJ icon service" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} loading="lazy" alt="FAJ icon service" />
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">We Are Experts</h3>
@@ -458,7 +458,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                                 </div>
                                 <div className="uspitem">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`}  loading="lazy" alt="FAJ icon service" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} loading="lazy" alt="FAJ icon service" />
 
                                     </div>
                                     <div className="usptext">
@@ -468,7 +468,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                                 </div>
                                 <div className="uspitem mb-0">
                                     <div className="uspicon">
-                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`}  loading="lazy" alt="FAJ icon service" />
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} loading="lazy" alt="FAJ icon service" />
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Trustworthy</h3>
@@ -479,7 +479,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
                             {/* <!-- Delimit mobile --> */}
                             <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`}  loading="lazy" alt="FAJ icon service" />
+                                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} loading="lazy" alt="FAJ icon service" />
                             </div>
                         </div>
                     </div>
@@ -488,7 +488,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                 {/* We specialise  */}
                 <section className="section cs_py_30 bg-light-gray ">
                     <div className="container">
-                        <h3>We specialise in Daewoo appliance services of the following types:</h3>
+                        <h3>We specialise in Daewoo appliance services of the following types</h3>
                         <div className="row">
                             <div className="col-12">
                                 <p className="mb-0"><strong>Daewoo Washing Machine Repair Near You in Dubai: </strong>FAJ is here to support you when things go wrong. We understand that your Daewoo washing machine is essential for daily life, keeping your laundry clean.</p>
@@ -502,7 +502,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                             </div>
 
                         </div>
-                        <h3>We offer service for Daewoo appliances in the Dubai area.</h3>
+                        <h4 className="mt-3">We offer service for Daewoo appliances in the Dubai area</h4>
                         <p><a href="https://www.fajservices.ae/appliances-services-in-business-bay/">Business Bay</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-marina/">Dubai Marina</a> | <a href="https://www.fajservices.ae/appliances-services-in-palm-jumeirah/">Palm Jumeirah</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-hills-estate/">Dubai Hills Estate</a> | <a href="https://www.fajservices.ae/appliances-services-in-damac-hills/">Damac Hills</a> | <a href="https://www.fajservices.ae/appliances-services-in-al-barari/">Al Barari</a> | <a href="https://www.fajservices.ae/appliances-services-in-al-barsha/">Al Barsha</a> | <a href="https://www.fajservices.ae/appliances-services-in-al-safa/">Al Safa</a> | <a href="https://www.fajservices.ae/appliances-services-in-arabian-ranches/">Arabian Ranches</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-silicon-oasis/">Dubai Silicon Oasis</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-investments-park/">Dubai Investments Park</a> | <a href="https://www.fajservices.ae/appliances-services-in-dip/">DIP</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-production-city/">Dubai Production City</a> | <a href="https://www.fajservices.ae/appliances-services-in-impzy/">IMPZ</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-sports-city/">Dubai Sports City</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-studio-city/">Dubai Studio City</a> | <a href="https://www.fajservices.ae/appliances-services-in-jbr/">JBR</a> - <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-beach-residence/">Jumeirah Beach Residence</a> | <a href="https://www.fajservices.ae/appliances-services-in-jlt/">JLT</a> - <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-lake-towers/">Jumeirah Lake Towers</a> | <a href="https://www.fajservices.ae/appliances-services-in-jvc/">JVC</a> - <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-village-circle/">Jumeirah Village Circle</a> | <a href="https://www.fajservices.ae/appliances-services-in-jvt/">JVT</a> - <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-village-triangle/">Jumeirah Village Triangle</a> | <a href="https://www.fajservices.ae/appliances-services-in-jebel-ali-village/">Jebel Ali Village</a> | <a href="https://www.fajservices.ae/appliances-services-in-jumeirah/">Jumeirah</a> | <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-golf-estates/">Jumeirah Golf Estates</a> | <a href="https://www.fajservices.ae/appliances-services-in-the-meadows/">Meadows</a> | <a href="https://www.fajservices.ae/appliances-services-in-dubai-motor-city/">Motor City</a> | <a href="https://www.fajservices.ae/appliances-services-in-town-square/">Town Square</a> | <a href="https://www.fajservices.ae/ac-services-in-emirates-hills/">Emirates Hills</a> | <a href="https://www.fajservices.ae/appliances-services-in-umm-suqeim/">Umm Suqeim</a> |</p>
                         <div id="get-quote" className=" mt-3">
                             <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -518,9 +518,10 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
                 {/* Maintenance Contract */}
                 <MaintenanceContract />
+
                 {/* testimobial section */}
                 <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
-                    {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
+
                     <div className="container">
                         <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
                             <h3 className="cs_section_subtitle cs_fs_18 text-black cs_semibold text-uppercase cs_mb_12 wow fadeInDown">
@@ -542,7 +543,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                                                 <div className="cs_testimonial_content cs_white_bg position-relative">
                                                     <div className="cs_testimonial_header cs_mb_35">
                                                         <div className="cs_testimonial_thumbnail">
-                                                            <img src={`${import.meta.env.BASE_URL}${item.img1}`}  loading="lazy" alt="Avatar" />
+                                                            <img src={`${import.meta.env.BASE_URL}${item.img1}`} loading="lazy" alt="Avatar" />
                                                         </div>
                                                         <div className="cs_testimonial_info">
                                                             <div className="rating-area" >
@@ -557,7 +558,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                                                     </div>
                                                     <blockquote className="cs_fs_16">{item.desc}</blockquote>
                                                     <div className="cs_quote_icon position-absolute">
-                                                        <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`}  loading="lazy" alt="Quote Icon" />
+                                                        <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`} loading="lazy" alt="Quote Icon" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -568,7 +569,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                             </div>
                         </div>
                     </div>
-                    {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
+
                 </section>
 
                 {/* FAQ&apos;s */}
