@@ -134,14 +134,14 @@ const AristonFrideRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1">Ariston Washing Machine Repair Near You</h2>
+                <h2 className="cs_fs_20 mb-1">Ariston Washing Machine Repair Near You</h2>
                 <p className="mb-2">
                   Need repair services for your Ariston appliances? FAJ has you covered with fast and affordable solutions!
                   Whether your built-in Ariston washing machine won’t drain, your fridge isn’t cooling, your oven won’t heat, or your dishwasher won’t start, our expert repair team in Dubai and Sharjah is here to help.
                   As a local service provider, we respond quickly and efficiently to get your appliances back in working order.
                 </p>
 
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Ariston Appliances Service</h2>
+                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Ariston Appliances Service</h2>
                 <p className="mb-2">
                   At F A J Technical Services L.L.C, we understand that appliance breakdowns, especially with Ariston products, never occur at a convenient time. That’s why our trained and qualified Ariston technicians are here to offer you reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliances repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Ariston appliance up and running again before you have a chance to worry about it.
                 </p>
@@ -236,7 +236,7 @@ const AristonFrideRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Ariston dryers may stop spinning and make noise while failing to dry clothes. Common issues include a faulty heating element or control board
+                      Ariston dryers may stop spinning and make noise while failing to dry clothes. Common issues include a faulty heating element or control board.
                     </p>
                   </div>
                 </div>
@@ -354,7 +354,7 @@ const AristonFrideRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h3>
                       <p className="small">
-                        Regular inspections are vital for preventing electrical faults, gas leaks, and other hazards, ensuring the safety of your premises. Optimal Performance
+                        Regular inspections are vital for preventing electrical faults, gas leaks, and other hazards, ensuring the safety of your premises.
                       </p>
                     </div>
                   </div>

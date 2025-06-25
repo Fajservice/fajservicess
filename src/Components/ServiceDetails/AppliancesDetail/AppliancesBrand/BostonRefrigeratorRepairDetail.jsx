@@ -3,16 +3,16 @@ import { Link, parsePath } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
-
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
-
 import Slider from "react-slick";
 import testimonial_data from '../../../../Data/AppliancesData/AppliancesTestimonial/AppliancesTestimonials.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
+import GetQuoteButton from '../../../Buttons/GetQuoteButton';
+import CallNowButton from '../../../Buttons/CallNowButton';
 
 const BostonRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -20,7 +20,7 @@ const BostonRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, 
   const metatitle = String(titleSeo || "Boston Refrigerator Repair In Dubai - Appliances Service #1");
   const metadescription = String(description || "Looking for an affordable Boston Refrigerator Repair in Dubai. We&apos;re a team of appliance maintenance technicians in your local area call 043300002");
   const metaAuthor = String(Author || "Faj Technical Services");
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Boston Refrigerator Repair, Boston Fridge Repair in Dubai, Boston Washing Machine Repair, Boston Dishwasher Repair, Boston Cooker Repair, Boston Appliance Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/boston-refrigerator-repair-in-dubai-boston-appliances-service-boston-fridge-repair-in-dubai-boston-washing-machine-washer-boston-dryer-repair-in-dubai-boston-dishwasher-cooker/").replace(/\/?$/, '/');
 
@@ -82,7 +82,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
     ]
   };
 
-  
+
   return (
     <>
       <HelmetProvider>
@@ -97,7 +97,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
-           <meta property="og:url" content={metaURL} />
+          <meta property="og:url" content={metaURL} />
           <meta property="og:image" content={metaImage} />
 
           {/* Twitter Card */}
@@ -114,11 +114,10 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Boston Refrigerator Repair</h1>
-            {/* 
-          <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2> */}
+            <h1 className="cs_fs_30">Boston Home Appliance Repair Service and Installation</h1>
             <p>
-              Boston appliances are the best among the other brands out there. Still, products of the best brands even do not last endlessly. In addition, we are all sure that our appliances break down when we need them the most. Reasonably, your first reaction will be to see if your appliance is repairable. You can fix minor issues, but mostly, you cannot. So why worry? We are the best Boston appliance repair service provider in Dubai. We are the most experienced industry experts serving since 2010 in Dubai. With hands-on experience with all home appliances, you can expect successful and swift repairs from us. Boston Fridge Repair in Dubai So, contact us today to get your repair appointment. Enjoy superior Boston appliance repair with F A J Technical Services L.L.C.
+              Having trouble finding a local technician who specializes in Boston kitchen appliances?
+              <br />At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a>, we’ve been providing reliable and affordable services since 2010. Our broad network includes thoroughly vetted, qualified, and experienced professionals. Whenever possible, we’ll assign a technician who is familiar with your specific Boston appliance to ensure expert care and prompt service.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -126,7 +125,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                 <WhatsappIconButton />
               </div>
             </div>
-            {/*  */}
+
           </div>
         </section>
 
@@ -135,50 +134,52 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Best Boston Washing Machine Repair </h3>
-
+                <h2 className="cs_fs_24 mb-1">Boston Washing Machine Repair Near You</h2>
                 <p className="mb-2">
-                  If you need Boston Appliance Repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
-                  <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that&apos;s not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
-                  <br /> We&apos;re nearby and can get your appliances fixed quickly and efficiently.
+                  If you’re in need of repair services for your Boston appliances, FAJ has you covered! Count on us for fast and affordable support.
+                  <br />Whether your built-in Boston washer won’t drain, your fridge isn’t cooling, your oven won’t heat, or your dishwasher won’t start, our skilled repair team in Dubai and Sharjah is ready to help.
+                  As your trusted local experts, we’ll resolve issues quickly and professionally.
+
+
                 </p>
 
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service
-                </h3>
-                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Boston Appliances Service</h2>
+                <p className="mb-2">
+                  At F A J Technical Services L.L.C, we know that appliance issues,especially with Boston products, often happen when you least expect them. That’s why our skilled and experienced Boston technicians are always ready to deliver trustworthy <a href="https://www.fajservices.ae/appliances-repair-service/">appliances repair</a> solutions. With our help, you can avoid spending money on a new appliance and get your current Boston unit functioning properly again without added stress.
+                </p>
+
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`}  loading="lazy" alt="Boston Refrigerator Repair" /> */}
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`}  loading="lazy" alt="Boston Refrigerator Repair" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} loading="lazy" alt="Boston Washing Machine Repair" />
               </div>
             </div>
             <AppliancesAppointmentCol></AppliancesAppointmentCol>
           </div>
-        </section> 
+        </section>
 
         {/* Why is Appliance Maintenance Service Important in Dubai? */}
-        <section className="section cs_py_30 ">
+        <section className="section cs_py_30">
           <div className="container">
 
             <h3 className="cs_fs_30">Why is Boston Appliance Maintenance Service Important in Dubai?</h3>
-            <p className="">
-              Our all-inclusive repair services include diagnosis, repairs, installations, and maintenance. That is why we are the most in-demand Boston appliances maintenance in Dubai provider.
+            <p>
+              Our comprehensive repair services encompass diagnosis, repairs, installations, and maintenance. This is why we are the leading provider of Boston appliance maintenance in Dubai.
             </p>
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`}  loading="lazy" alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} loading="lazy" alt="Boston Washing Machine Repair" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
-                  <li> <strong>  Boston Washing Machine Repair in Dubai:-: </strong> Regular maintenance helps appliances last longer, saving on replacement costs.</li>
-                  <li> <strong>  Boston Fridge Repair in Dubai: </strong> we are fully confident of getting your fridge running back in no time. </li>
-                  <li> <strong>  Boston Cooker Repair in Dubai: </strong> Catching minor issues early prevents them from escalating into expensive repair. </li>
-                  <li> <strong>  Preserving Appliance Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
-                  <li> <strong>  Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious.</li>
-                  <li> <strong>  Cost-Effective: </strong> Maintenance costs are lower than early replacements or major repair. Investing in appliance care ensures safety and efficiency and is a smart economic choice in Dubai.</li>
-                  <li> <strong>  Energy Efficiency: </strong> Regularly maintaining your appliances, can improve their efficiency and save you money.</li>
+                  <li> <strong> Boston Washing Machine Repair in Dubai: </strong> Regular maintenance can extend the lifespan of your washing machine, ultimately saving you money on replacement costs. </li>
+                  <li> <strong> Boston Fridge Repair in Dubai: </strong> We are fully confident that we can get your Boston refrigerator running again in no time. </li>
+                  <li> <strong> Boston Stove / Oven Repair in Dubai: </strong> Identifying minor issues early helps prevent them from developing into costly repairs. </li>
+                  <li> <strong> Boston Dishwasher Repair in Dubai: </strong> Consistent maintenance helps reduce potential issues and enhances overall performance. </li>
+                  <li> <strong> Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious. </li>
+                  <li> <strong> Cost-Effective: </strong> Maintaining appliances is cheaper than early replacements or major repair, making it a smart choice for safety and efficiency in Dubai. </li>
+                  <li> <strong> Energy Efficiency: </strong> Regular maintenance of your Boston appliances can improve their efficiency and help you save money. </li>
                 </ul>
               </div>
             </div>
@@ -188,27 +189,17 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         {/* The Most Common Problems with Home Appliances */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="text-center">The Most Common Problems with Boston Home Appliances   </h3>
+            <h3 className="text-center">The Most Common Problems with Boston Appliances </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Boston Refrigerator</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Most fridge malfunctions are related to cooling issues, including problems with the defrost system, fan motor, compressor, or coils.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishwashers Problem</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">The most issues with dishwashers are bad cleaning and drying. Common water leaks and drainage. Some electrical issues or PCB failures.
+                    <p className="p-2 mb-0">
+                      Common malfunctions of Boston refrigerators often involve cooling issues, such as problems with the defrost, fan motor, compressor, or coils.
                     </p>
                   </div>
                 </div>
@@ -217,26 +208,93 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Washing Machine Problem
-                    </h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Boston Dishwasher</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">A common issue with washing machines is drainage problems, leaks, and PCB faulty. Also, broken belt or faulty door switch or drum from spinning.</p>
+                    <p className="p-2 mb-0">
+                      Common issues with Boston dishwasher include poor cleaning and drying, water leaks, drainage problems, and occasional electrical or PCB failures.
+                    </p>
                   </div>
                 </div>
               </div>
-
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Stove Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Boston Washing Machine</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Uneven heating or flame issues, such as a broken burner element, bad switch, or electric gas, are the most common problems with stoves.</p>
+                    <p className="p-2 mb-0">
+                      Boston washing machines include drainage problems, leaks, faulty PCBs, and issues with the belt, door switch, or drum spinning.
+                    </p>
                   </div>
                 </div>
               </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Boston Tumble Dryer</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      Boston dryers may stop spinning and make noise while failing to dry clothes. Common issues include a faulty heating element or control board.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Boston Cooker / Stove</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      Common issues with Boston stoves include uneven heating and flame problems, such as a broken burner element, faulty switch, or an electric gas malfunction.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Boston Oven</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      Boston ovens often have issues like improper heating, unignited burners, ignition problems in gas models, and faulty knobs or controls.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Boston Freezer</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      Common Boston freezer include frequent water leaks, consistently low ice production, a faulty ice maker, and noticeably reduced cooling efficiency.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Machine Problem</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      There are several possible reasons why water flow in coffee makers, whether drip or single-serve, is often unusually slow or completely absent.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
@@ -245,28 +303,14 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
               </div>
             </div>
           </div>
-        </section> 
+        </section>
 
         {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR Boston HOME APPLIANCES</h3>
+            <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR Boston APPLIANCES</h2>
 
             <div className="row align-items-center">
-              <div className="col-xl-6">
-                <p className='mb-0'>We specialize in all types and brands of home appliances, including built-in units.</p>
-                <p className='mb-0'><strong>Our services include:</strong></p>
-                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                  <li> <strong>  Installation: </strong> Expert installation of various types and brands of home appliances, ensuring optimal performance and efficiency. </li>
-                  <li> <strong> Diagnostics: </strong> Comprehensive fault-finding services to effectively diagnose issues. We provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
-                  <li> <strong> Repair Service: </strong> Efficient repair services for all appliance components, ensuring a quick resolution to issues such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions! </li>
-                  <li> <strong> Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for
-                    the annual maintenance of your appliances. </li>
-                  <p className="mb-0">
-                    <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for optimal performance, efficiency, and longevity of your home appliances.
-                  </p>
-                </ul>
-              </div>
               <div className="col-xl-6">
                 <iframe
                   className="bordered-img blue-border"
@@ -279,36 +323,40 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                   allowFullScreen
                 ></iframe>
               </div>
+
+              <div className="col-xl-6">
+                <p className='mb-0'>We specialise in all types of Boston appliances, including built-in Boston appliances.</p>
+                <p className='mb-0'><strong>Our services include:</strong></p>
+                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
+                  <li> <strong> Boston Appliance Installation: </strong> Professional installation of various types of Boston home appliances ensures optimal performance and efficiency. </li>
+                  <li> <strong> Boston Appliance Diagnostics: </strong> We provide expert diagnostics and eligibility assessments, along with detailed quotes for Boston appliance issues. </li>
+                  <li> <strong> Boston Appliance Repair Service: </strong> We provide fast and effective repair services for Boston appliances, quickly addressing leaks, electrical issues, and malfunctions. Contact us for details on specific services or any questions you may have! </li>
+                  <li> <strong> Boston Appliance Annual Maintenance Contract: </strong> This contract details the terms for annual maintenance of your Boston appliances, ensuring they operate smoothly all year. Enjoy peace of mind with expert care. </li>
+                </ul>
+                <p className="mb-0">
+                  <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a>  is crucial for ensuring your Boston home appliances perform optimally, run efficiently, and last longer.
+                </p>
+              </div>
+
             </div>
           </div>
         </section >
 
         {/* The Benefits Of appliances Service Dubai */}
-        <section className="section cs_py_30 appliances-benifit-sec  bg-light-gray">
+        <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
-              <h3 className="cs_fs_30 mb-0">The Benefits Of Boston appliances Service Dubai
-              </h3>
+              <h2 className="cs_fs_30 mb-0">The Benefits of Boston Appliances Service Dubai</h2>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h3>
-                      <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18"> Optimal Performance </h3>
-                      <p className="small">Regular maintenance helps your appliances run smoothly and efficiently, delivering the best results every time.
+                      <p className="small">
+                        Regular inspections are vital for preventing electrical faults, gas leaks, and other hazards, ensuring the safety of your premises.
                       </p>
                     </div>
                   </div>
@@ -317,10 +365,25 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                      </div>
+                      <h3 className="text-uppercase mb-2 cs_fs_18"> Optimal Performance </h3>
+                      <p className="small">
+                        Regular maintenance helps your Boston appliances run smoothly and efficiently, delivering the best results every time.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 mb-2">
+                  <div className="">
+                    <div className="benifit-box-container">
+                      <div className="icon-img-block">
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h3>
-                      <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                      <p className="small">
+                        Energy-efficient Boston appliances lead to monthly savings on utility bills, allowing you to keep more money in your pocket.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -329,10 +392,12 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h3>
-                      <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
+                      <p className="small">
+                        Preventive services identify issues early, minimizing breakdowns and repairs while extending the lifespan of Boston appliances.
+                      </p>
                     </div>
 
                   </div>
@@ -341,11 +406,12 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h3>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
-
+                      <p className="small">
+                        Proper maintenance and timely servicing can greatly extend the lifespan of your Boston appliances, postponing the need for replacements.
+                      </p>
                     </div>
 
                   </div>
@@ -355,11 +421,12 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
-                      </h4>
-                      <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                      <h3 className="text-uppercase mb-2 cs_fs_18">Peace of Mind</h3>
+                      <p className="small">
+                        Ensuring your Boston appliances are functioning well boosts your confidence and reduces the stress of unexpected failures.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -369,7 +436,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         </section>
 
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
-        <section className="section cs_py_30">
+        < section className="section cs_py_30" >
           <div className="container container-md container-sm">
             <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2>
 
@@ -378,33 +445,33 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
               <div className="uspcol col-1">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`}  loading="lazy" alt="Fast, Reliable Service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} loading="lazy" alt="Fast, Reliable Service" />
 
                   </div>
                   <div className="usptext">
                     <h3 className="">Reliable, Priority, and Quick</h3>
-                    <p>	You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
+                    <p>You can rely on prompt service! Our same-day repairs or next-day service visits ensure your needs are addressed swiftly.</p>
                   </div>
                 </div>
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`}  loading="lazy" alt="We Are Experts" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} loading="lazy" alt="We Are Experts" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
+                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Boston appliance running smoothly and reliably.</p>
                   </div>
                 </div>
 
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`}  loading="lazy" alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} loading="lazy" alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
+                    <p>Choose a day and time for your Boston appliance repair in Dubai or Sharjah, allowing a 3-4 hour window for our technician's arrival.</p>
                   </div>
                 </div>
 
@@ -412,49 +479,178 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`}  loading="lazy" alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} loading="lazy" alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`}  loading="lazy" alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} loading="lazy" alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are experts in Boston appliance repair this is why most major brands trust us to handle their service and maintenance needs.</p>
+                    <p> We are specialists in Boston appliance repair, which is why major brands trust us to manage their service and maintenance.</p>
                   </div>
                 </div>
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`}  loading="lazy" alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} loading="lazy" alt="FAJ icon service" />
 
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same location in Dubai.</p>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation up to two Boston appliances at the same location in Dubai.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`}  loading="lazy" alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} loading="lazy" alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our skilled appliance technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
+                    <p>Our skilled technicians specialise in Boston appliances and provide outstanding service across major appliances.</p>
                   </div>
                 </div>
               </div>
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`}  loading="lazy" alt="FAJ icon service" />
+                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} loading="lazy" alt="FAJ icon service" />
               </div>
             </div>
           </div>
-        </section>
+        </section >
 
+        {/* We are specialise in Appliances services for the following brands */}
+        <section className="section cs_py_30 bg-light-gray mb-4">
+          <div className="container">
+            <h3>We specialize in Boston appliance services of the following types</h3>
+            <div className="row">
+              <div className="col-12">
+                <p className="mb-0"> <b> Boston Washing Machine Repair Near You in Dubai: </b>  FAJ is here to support you when things go wrong. We understand that your Boston washing machine is essential for daily life, keeping your laundry clean.</p>
+                <p className="mb-0"> <b> Boston Fridge Repair Near You in Dubai: </b> If you are experiencing issues with your Boston refrigerator, please contact the FAJ team for same-day Boston <a href="https://www.fajservices.ae/refrigerator-repair-service/">refrigerator repair</a> service in Dubai.</p>
+                <p className="mb-0"> <b> Boston Freezer Repair Near You in Dubai: </b> For Boston freezer repair and service in Dubai and Sharjah, our team of qualified technicians is available. </p>
+                <p className="mb-0"> <b> Boston Home Appliance Service Center Near You: </b> If you are looking for the best repair service for Boston washer dryer in Dubai, FAJ is an excellent choice.
+                  They are renowned for their outstanding service in repairing Boston fridge freezer and are recognized as the leading provider for the repair of Boston cooking ranges, stove fixes, induction, cooktop fixes, washing machines repair, and refrigerator repairs in the area.
+                </p>
+                <p className="mb-0"> <b> Boston Dishwasher Repair Near You in Dubai: </b> Your Boston dishwasher may need repair or maintenance. For high-quality integrated Boston <a href="https://www.fajservices.ae/dishwasher-repair-service/">dishwasher repair</a> and service center in Dubai, rely on FAJ.</p>
+                <p className="mb-0"> <b> Boston Cooking Range and Oven Repair Near You: </b> We offer expert repair services for Boston cooking ranges and ovens in Dubai. Our skilled technicians are knowledgeable and experienced in diagnosing and fixing issues with Boston refrigerators, dishwashers, dryers, and more. </p>
+                <p className="mb-0"> <b> Boston Dryer Repair and Service Near You: </b> Are you worried about your Boston dryer not working properly? Looking for a reliable Boston laundry machine company in Dubai? Contact us for same-day service!</p>
+                <p className="mb-0"> <b> Boston Oven Repair Near Me Dubai: </b>  If you are looking for the best company for Boston oven repairs in Dubai, FAJ is the perfect choice. They are well-known for providing exceptional service for Boston <a href="https://www.fajservices.ae/oven-repair-service/">oven repairs</a>. FAJ is recognized as the leading service center for Boston ovens in the area.</p>
+
+                <h4 className="mt-3">We offer service for Boston appliances in the Dubai area</h4>
+                <p>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-business-bay/">Business Bay</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-dubai-marina/">Dubai Marina</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-palm-jumeirah/">Palm Jumeirah</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-dubai-hills-estate/">Dubai Hills Estate</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-damac-hills/">Damac Hills</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-al-barari/">Al Barari</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-al-barsha/">Al Barsha</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-al-safa/">Al Safa</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-arabian-ranches/">Arabian Ranches</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-dubai-silicon-oasis/">Dubai Silicon Oasis</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-dubai-investments-park/">Dubai Investments Park</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-dip/">DIP</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-dubai-production-city/">Dubai Production City</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-impzy/">IMPZ</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-dubai-sports-city/">Dubai Sports City</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-dubai-studio-city/">Dubai Studio City</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-jbr/">JBR</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-beach-residence/">Jumeirah Beach Residence</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-jlt/">JLT</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-lake-towers/">Jumeirah Lake Towers</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-jvc/">JVC</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-village-circle/">Jumeirah Village Circle</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-jvt/">JVT</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-village-triangle/">Jumeirah Village Triangle</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-jebel-ali-village/">Jebel Ali Village</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-jumeirah/">Jumeirah</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-golf-estates/">Jumeirah Golf Estates</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-the-meadows/">Meadows</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-dubai-motor-city/">Motor City</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-town-square/">Town Square</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/ac-services-in-emirates-hills/">Emirates Hills</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-umm-suqeim/">Umm Suqeim</a>
+
+                </p>
+
+              </div>
+            </div>
+
+            <div id="get-quote" className=" mt-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3">
+                <GetQuoteButton />
+                <CallNowButton />
+              </div>
+            </div>
+
+          </div>
+        </section>
 
         {/* Maintenance Contract */}
         <MaintenanceContract />
@@ -482,7 +678,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                         <div className="cs_testimonial_content cs_white_bg position-relative">
                           <div className="cs_testimonial_header cs_mb_35">
                             <div className="cs_testimonial_thumbnail">
-                              <img src={`${import.meta.env.BASE_URL}${item.img1}`}  loading="lazy" alt="Avatar" />
+                              <img src={`${import.meta.env.BASE_URL}${item.img1}`} loading="lazy" alt="Avatar" />
                             </div>
                             <div className="cs_testimonial_info">
                               <div className="rating-area" >
@@ -498,7 +694,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                           </div>
                           <blockquote className="cs_fs_16">{item.desc}</blockquote>
                           <div className="cs_quote_icon position-absolute">
-                            <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`}  loading="lazy" alt="Quote Icon" />
+                            <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`} loading="lazy" alt="Quote Icon" />
                           </div>
                         </div>
                       </div>
