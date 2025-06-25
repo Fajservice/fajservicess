@@ -20,9 +20,9 @@ const Services3 = () => {
                   <div className="cs_card_icon cs_center cs_heading_bg cs_mb_22">
                   <img src={`${import.meta.env.BASE_URL}${item.icon}`} alt="Service Icon" />
                   </div>
-                  <h1 className="cs_card_title cs_fs_24 cs_mb_8">
+                  <h2 className="cs_card_title cs_fs_24 cs_mb_8">
                   <Link to={item.btnLink}>{item.title}</Link>
-                  </h1>
+                  </h2>
                   <p className="cs_card_subtitle cs_mb_18">{item.desc}</p>
                   <Link to={item.btnLink} className="cs_text_btn cs_style_1 cs_bold cs_heading_color">
                     <span className="cs_btn_text text-uppercase">{item.btnText}</span>

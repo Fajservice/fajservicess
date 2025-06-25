@@ -677,6 +677,13 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="section cs_py_30 custom-css-box">
+          <div className="container">
+            <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
@@ -781,6 +788,13 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="section cs_py_30 bg-light-gray custom-css-box">
+          <div className="container">
+            <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
@@ -885,6 +899,13 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="section cs_py_30 custom-css-box">
+          <div className="container">
+            <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
@@ -981,7 +1002,13 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
 
+        <section className="section cs_py_30 bg-light-gray custom-css-box">
+          <div className="container">
+            <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">

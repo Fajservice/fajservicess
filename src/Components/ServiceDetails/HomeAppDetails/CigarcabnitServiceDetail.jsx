@@ -500,17 +500,20 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/cigarcabn
             </div>
           </div>
         </section>
+
+        
         <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">
             <h3>We specialise in Cigar Cabinet services for the following brands</h3>
             <ul>
-              <li><strong>Airo Fridgador Cabinet Repair Service</strong>: FAJ offers reliable airo fridgador cabinet repair and services in Dubai, with professionals who are experts in Airo fridgador cigar cabinet maintenance.</li>
-              <li><strong>Raching Cigar Humidor Repair and Service</strong>: Located in Dubai, FAJ is your trusted destination for raching cigar humidor services. We specialize in electronic humidor repairs and maintenance, offering comprehensive solutions to meet your needs.</li>
-              <li><strong>Liebherr Cigar Humidor Maintenance Service</strong>: The Liebherr cigar cabinet humidor service ensures you won&rsquo;t have to&nbsp;worry because you are in the right place. FAJ prioritizes efficiency and reliability.</li>
-              <li><strong>Hemingway Premium Electric Cigar Humidor Repair and Service</strong>: Rely on our expert team to promptly resolve any issues with your Hemingway Premium Electric Cigar Humidor and restore its functionality.</li>
-              <li><strong>Electric Cigar Humidor Service and Repair:</strong> With extensive knowledge of electric cigar humidors, we provide effective repairs to keep your unit running smoothly.</li>
-              <li><strong>Vevor Electric Cigar Humidor Service and Repair</strong>: No matter the problem with your Vevor Electric Cigar Humidor, our experts can diagnose and fix it accurately.</li>
-              <li><strong>Humidor Cigar Cabinet Refrigerator and Maintenance</strong>: Is your Humidor Cigar Cabinet Refrigerator not working properly? Don&apos;t suffer through uncomfortable temperatures or risk losses due to faulty equipment. FAJ can restore your Humidor Cigar Cabinet Refrigerator quickly!</li>
+              <li><strong>Afidano Electric Cigar Humidor Service Center in Dubai: </strong>Afidano specializes in cigar humidor repair, fixing electric cigar humidor, cigar refrigerator repairs, and cigar cooler maintenance. FAJ is the official Afidano electric cigar humidor service center in Dubai, UAE.</li>
+              <li><strong>Airo Fridgador Cabinet Repair Service</strong>: FAJ offers reliable Airo fridgador cabinet repair and services in Dubai, with professionals who are experts in Airo fridgador cigar cabinet maintenance. Contact us for Airo cigar cabinet repair near me and cigar humidor maintenance in Dubai.</li>
+              <li><strong>Raching Cigar Humidor Repair and Service</strong>: Located in Dubai, FAJ is your trusted destination for raching electric cigar humidor services. We specialize in electronic humidor repairs and maintenance, offering comprehensive solutions to meet your needs. Get same day Raching cigar humidor cabinet electronic maintenance near me and service in Dubai</li>
+              <li><strong>Liebherr Cigar Humidor Maintenance Service</strong>: The Liebherr cigar cabinet humidor service and repair ensures you won&rsquo;t have to worry because you are in the right place. FAJ prioritizes efficiency and reliability. FAJ offers Liebherr humidor electric repair and professional cigar storage maintenance service near you in Dubai</li>
+              <li><strong>Hemingway Premium Electric Cigar Humidor Repair and Service</strong>: Rely on our expert team to promptly resolve any issues with your Hemingway Electric Cigar Humidor repair service and restore its functionality.&nbsp;Hemingway Cigar Cabinet Repair Dubai. Call us for a humidor repair technician near me service in Dubai, Abu Dhabi and Sharjah.</li>
+              <li><strong>Electric Cigar Humidor Service and Repair:</strong> With extensive knowledge of electric cigar humidor repairing and servicing, we provide effective cigar repair to keep your unit running smoothly. Contact us today for Cigar refrigerator repair near me, cigar fridge maintenance service in Dubai</li>
+              <li><strong>Vevor Electric Cigar Humidor Service and Repair</strong>: No matter the problem with your Vevor Electric Cigar Humidor repair and service, our experts can diagnose and fix it accurately. Reach us for cigar humidor cabinet repair near Dubai and best humidor maintenance and service near your location.</li>
+              <li><strong>Humidor Cigar Cabinet Refrigerator and Maintenance</strong>: Is your Humidor Cigar Cabinet Refrigerator not working properly? Don't suffer through uncomfortable temperatures or risk losses due to faulty equipment. FAJ can restore your humidor cigar cabinet refrigerator repair and service quickly! Contact us for fix cigar fridge or cigar refrigerator service and maintenance.</li>
             </ul>
           </div>
         </section>

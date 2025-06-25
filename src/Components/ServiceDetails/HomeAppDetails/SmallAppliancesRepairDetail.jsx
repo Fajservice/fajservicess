@@ -557,62 +557,21 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/small-mix
           <div className="container">
             <h3>We specialize in small appliance services for the following types </h3>
             <div className="row">
-
               <div className="col-12">
                 <ul>
-                  <li>
-                    <strong>Vacuum Cleaner Repair and Service: </strong>
-                    Is your vacuum cleaner not performing as it should? Our repair services can help! We fix all issues, including motor problems, faulty switches, and clogged hoses.
-                  </li>
-
-                  <li>
-                    <strong>Hair Dryer Repair and Service: </strong>
-                    Welcome to F A J Technical Services L.L.C, your go-to for hair dryer repair. We specialize in fixing issues and restoring your appliance. Contact us for reliable service today!
-                  </li>
-
-                  <li>
-                    <strong>Coffee Maker Repair Me: </strong>
-                    Get reliable coffee maker repair near you in Dubai. We fix leaks, power issues, and brewing faults for all major brands. Fast, affordable service by expert technicians.
-                  </li>
-
-                  <li>
-                    <strong>Juicer Blender Repair Near Me: </strong>
-                    Is your juicer noisy or not working properly? We offer affordable juicer and blender repair services in Dubai. Our experts can fix issues like jammed mechanisms and electrical glitches. Trust us to restore your appliances quickly!
-                  </li>
-
-                  <li>
-                    <strong>Toaster Repair Near Me: </strong>
-                    Is your toaster not heating or burning toast? We offer expert toaster repair in Dubai. Our technicians fix heating elements, timers, and wiring to restore your toaster to full working order.</li>
-                  <li>
-                    <strong>Steam Iron Box Repair Near Me: </strong>
-                    If your electric iron isn’t working well, we offer repair services in Dubai. Our experts can help you get wrinkle-free clothes again by addressing heating elements, thermostat issues, and faulty wiring.
-                  </li>
-
-                  <li>
-                    <strong>Kitchen Stand Mixer Repairs Near Me: </strong>
-                    Welcome to Premium Kitchen Stand Mixer Repair Services! Since 2010, we’ve been providing expert repairs for stand and hand mixers in Dubai. Let us help you get your mixer working again and keep your space tidy!
-                  </li>
-
-                  <li>
-                    <strong>Water Dispenser Repair Near Me: </strong>
-                    We provide expert water dispenser repair services to restore your hot showers. Don’t let a broken dispenser dampen your spirits—let us help get it working perfectly again!
-                  </li>
-
-                  <li>
-                    <strong>Microwave Oven Repair Near Me: </strong>
-                    We specialize in repairing small home appliances, including microwaves. Our mission is to deliver quality repairs at affordable prices, fixed as quickly as possible. Enjoy hot pizzas and reheated coffee with our efficient microwave repair services!
-                  </li>
-
-                  <li>
-                    <strong>Electric Kettle Repair: </strong>
-                    If your electric kettle isn’t heating properly, you need a reliable repair service. Our experts specialize in diagnosing and fixing issues like faulty heating elements and power switches, quickly restoring your kettle’s functionality.
-                  </li>
+                  <li><strong>Vacuum Cleaner Repair and Service: </strong>Is your vacuum cleaner not performing as it should? Our vacuum cleaner repair near me services can help! We fix vacuum cleaner all issues, including motor problems, faulty switches, and clogged hoses.</li>
+                  <li><strong>Hair Dryer Repair and Service: </strong>Welcome to FAJ Technical Services LLC, your go-to for hair dryer repair and the best hair dryer service near you. We specialize in fixing issues and restoring your appliance. Contact us for reliable service today!</li>
+                  <li><strong>Coffee Maker Repair Me: </strong>Get reliable coffee maker repair near you in Dubai. We fix coffee machine leaks, power issues, and brewing faults for all major brands. Fast, affordable service by expert technicians.</li>
+                  <li><strong>Juicer Blender Repair Near Me: </strong>Is your juicer noisy or not working properly? We offer affordable Juicer repair shop near me, juice kit repair and blender repair and services near you in Dubai. Our experts can fix juicer issues like jammed mechanisms and electrical glitches. Trust us to restore your appliances quickly!</li>
+                  <li><strong>Steam Iron Box Repair Near Me: </strong>If your electric iron isn&rsquo;t working properly, we provide Steam iron repair shop near me, iron repair and iron services in Dubai. Our expertise includes fixing iron heating elements, thermostats, and faulty wiring, so you can enjoy wrinkle-free clothes again.</li>
+                  <li><strong>Toaster Repair Near Me: </strong>Is your toaster not heating or burning toast? We offer expert toaster repair in Dubai. Our technicians fix heating elements, timers, and wiring to restore your toaster to full working order.</li>
+                  <li><strong>Kitchen Stand Mixer Repairs Near Me: </strong>Welcome to premium kitchen stand mixer repair and services! Since 2010, we&rsquo;ve been providing expert KitchenAid stand mixer repair, Kenwood stand mixer repairing, Cuisinart precision stand mixer repairs, Philips stand repair near me, Jano stand mixer repair near you mixer repair, Black and Decker stand mixer repairing and for stand and hand mixer service in Dubai. Let us help you get your mixer working again and keep your space tidy!</li>
+                  <li><strong>Water Dispenser Repair Near Me: </strong>We provide expert water dispenser repair and service to restore your hot showers. Don&rsquo;t let a broken dispenser dampen your spirits&mdash;let us help get it working perfectly again!</li>
+                  <li><strong>Microwave Oven Repair Near Me: </strong>We specialize in repairing small home appliances, including microwave repair near me and service in Dubai. Our mission is to deliver quality repairs at affordable prices, fixed as quickly as possible. Enjoy hot pizzas and reheated coffee with our efficient microwave repair services!</li>
+                  <li><strong>Electric Kettle Repair: </strong>If your electric kettle isn&rsquo;t heating properly, you need a reliable electric kettle repair and service in Dubai. Our experts specialize in diagnosing and fixing issues like faulty heating elements and power switches, quickly restoring your kettle&rsquo;s functionality.</li>
                 </ul>
-
               </div>
-
             </div>
-
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <GetQuoteButton />
