@@ -278,7 +278,7 @@ const KenmoreAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                                         <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Machine Problem</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
-                                        <p className="p-2 mb-0">Water flow in coffee makers, whether drip or single-serve, can often become unusually slow or stop entirely due to several possible reasons</p>
+                                        <p className="p-2 mb-0">Water flow in coffee makers, whether drip or single-serve, can often become unusually slow or stop entirely due to several possible reasons.</p>
                                     </div>
                                 </div>
                             </div>
@@ -313,7 +313,7 @@ const KenmoreAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                             </div>
 
                             <div className="col-xl-6">
-                                <p className='mb-0'>We specialize in all types of Kenmore appliances, including built-in models</p>
+                                <p className='mb-0'>We specialize in all types of Kenmore appliances, including built-in models.</p>
                                 <p className='mb-0'><strong>Our services include:</strong></p>
                                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
                                     <li> <strong> Kenmore Appliance Installation: </strong> Expert installation of various types and brands of Kenmore home appliances to ensure their optimal performance and efficiency. </li>
@@ -521,7 +521,7 @@ const KenmoreAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                                 <p className="mb-0"> <b> Kenmore Freezer Repair Near You in Dubai: </b> Our team of qualified technicians is available for Kenmore freezer repair and service in Dubai and Sharjah. </p>
                                 <p className="mb-0"> <b> Kenmore Home Appliance Service Center Near You: </b> If you are seeking the best repair service Kenmore washer dryer in Dubai, FAJ is an excellent choice. They are well-known for their exceptional service in repairing Kenmore fridge freezer and are recognized as the leading provider for repairs of fix Kenmore cooking range, stove fixes, induction cooktops, repair Kenmore washing machines, and Kenmore refrigerator in the area. </p>
                                 <p className="mb-0"> <b> Kenmore Dishwasher Repair Near You in Dubai: </b> If you're experiencing issues with your Kenmore dishwasher, it might be time for some repair or maintenance. For reliable and top-notch service, consider FAJ's Kenmore service center in Dubai, which specializes in integrated Kenmore dishwasher repairs. They offer expert assistance to ensure your appliance functions optimally. </p>
-                                <p className="mb-0"> <b> Kenmore Cooking Range and Oven Repair Near You: </b> We provide expert repair service Kenmore cooking range and ovens in Dubai. Our skilled technicians are experienced in diagnosing and fixing issues with Kenmore refrigerator repair, fix Kenmore dishwasher , Kenmore dryer fixer, and more. </p>
+                                <p className="mb-0"> <b> Kenmore Cooking Range and Oven Repair Near You: </b> We provide expert repair service Kenmore cooking range and ovens in Dubai. Our skilled technicians are experienced in diagnosing and fixing issues with Kenmore refrigerator repair, fix Kenmore dishwasher, Kenmore dryer fixer, and more. </p>
                                 <p className="mb-0"> <b> Kenmore Dryer Repair and Service Near You: </b> Is your Kenmore dryer not working properly? Looking for a reliable Kenmore dryer service in Dubai? Contact us for same-day assistance! </p>
                                 <p className="mb-0"> <b> Kenmore Oven Repair Near Me Dubai: </b> If you're searching for the best company for Kenmore <a href="https://www.fajservices.ae/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for Kenmore ovens. FAJ is recognized as the leading service center for Kenmore oven repair and maintenance in Dubai. </p>
 

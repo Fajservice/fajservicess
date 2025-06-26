@@ -19,7 +19,7 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
   const metatitle = String(titleSeo || "Samsung Fridge Repair Dubai - Washing Machine Service - FAJ ");
   const metadescription = String(description || "Looking for Samsung Fridge Repair in Dubai? Call 043300002 for quick Samsung washing machine repair, dryer, refrigerator, stove & dishwasher service ");
   const metaAuthor = String(Author || "Faj Technical Services");
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Samsung Fridge Repair Dubai, Samsung Washing Machine Repair Dubai, Samsung Dryer Repair Dubai, Samsung Dishwasher Repair Dubai, Samsung Stove Repair Dubai, Samsung Appliance Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/samsung-fridge-repair-in-dubai-samsung-washing-machine-repair-in-dubai-samsung-cooker-repair-in-dubai-samsung-oven-repair-in-dubai-samsung-appliances-maintenance-in-dubai-samsung-refrigerator-fix-repa/").replace(/\/?$/, '/');
 
@@ -82,7 +82,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
     ]
   };
 
-  
+
   return (
     <>
       <HelmetProvider>
@@ -97,7 +97,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content={metatitle} />
           <meta property="og:description" content={metadescription} />
-           <meta property="og:url" content={metaURL} />
+          <meta property="og:url" content={metaURL} />
           <meta property="og:image" content={metaImage} />
 
           {/* Twitter Card */}
@@ -146,14 +146,14 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`}  loading="lazy" alt="Samsung Washing Machine Repair" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} loading="lazy" alt="Samsung Washing Machine Repair" />
               </div>
             </div>
             <AppliancesAppointmentCol></AppliancesAppointmentCol>
           </div>
         </section>
 
-        
+
 
         {/* Problems */}
         <section className="section cs_py_30">
@@ -243,7 +243,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Machine Problem</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Water flow in coffee makers, whether drip or single-serve, can often become unusually slow or stop entirely due to several possible reasons</p>
+                    <p className="p-2 mb-0">Water flow in coffee makers, whether drip or single-serve, can often become unusually slow or stop entirely due to several possible reasons.</p>
                   </div>
                 </div>
               </div>
@@ -266,7 +266,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`}  loading="lazy" alt="Samsung Washing Machine Repair" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} loading="lazy" alt="Samsung Washing Machine Repair" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
@@ -283,7 +283,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
           </div>
         </section>
 
-       
+
 
         {/* Benefits */}
         <section className="section cs_py_30 appliances-benifit-sec">
@@ -295,7 +295,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h3>
                       <p className="small">Regular inspections are essential for preventing electrical faults, gas leaks, and other hazards, which ensures the safety of your premises.</p>
@@ -306,7 +306,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18"> Optimal Performance </h3>
                       <p className="small">Regular maintenance helps your Samsung appliances run smoothly and efficiently, delivering the best results every time.
@@ -318,7 +318,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h3>
                       <p className="small">Energy-efficient Samsung appliances help you save on utility bills, allowing you to keep more money in your pocket each month.</p>
@@ -330,7 +330,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h3>
                       <p className="small">Preventive services help identify issues early, reducing breakdowns and repairs while enhancing the lifespan of Samsung appliances.</p>
@@ -342,7 +342,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h3>
                       <p className="small">Regular maintenance and prompt servicing can significantly prolong the lifespan of your Samsung appliances, delaying the need for replacements.</p>
@@ -356,7 +356,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`}  loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                       </h4>
@@ -369,7 +369,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
           </div>
         </section>
 
-         {/* HERE ARE  */}
+        {/* HERE ARE  */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR SAMSUNG APPLIANCES</h3>
@@ -417,7 +417,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
               <div className="uspcol col-1">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`}  loading="lazy" alt="Fast, Reliable Service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} loading="lazy" alt="Fast, Reliable Service" />
 
                   </div>
                   <div className="usptext">
@@ -428,7 +428,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`}  loading="lazy" alt="We Are Experts" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} loading="lazy" alt="We Are Experts" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
@@ -439,7 +439,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`}  loading="lazy" alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} loading="lazy" alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
@@ -451,14 +451,14 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`}  loading="lazy" alt="FAJ icon service" />
+                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`} loading="lazy" alt="FAJ icon service" />
               </div>
 
               {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`}  loading="lazy" alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} loading="lazy" alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
@@ -467,7 +467,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                 </div>
                 <div className="uspitem">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`}  loading="lazy" alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} loading="lazy" alt="FAJ icon service" />
 
                   </div>
                   <div className="usptext">
@@ -477,7 +477,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                 </div>
                 <div className="uspitem mb-0">
                   <div className="uspicon">
-                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`}  loading="lazy" alt="FAJ icon service" />
+                    <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} loading="lazy" alt="FAJ icon service" />
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
@@ -488,7 +488,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
               {/* <!-- Delimit mobile --> */}
               <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
-                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`}  loading="lazy" alt="FAJ icon service" />
+                <img className="" src={`${import.meta.env.BASE_URL}img/fajteam.avif`} loading="lazy" alt="FAJ icon service" />
               </div>
             </div>
           </div>
@@ -514,7 +514,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                 <p className="mb-0"><strong>Samsung Freezer Repair Near You in Dubai</strong>: Our team of qualified technicians is available for Samsung freezer repair and service in Dubai and Sharjah.</p>
                 <p className="mb-0"><strong>Samsung Home Appliance Service Center Near You</strong>: If you are seeking the best repair service Samsung washer dryer in Dubai, FAJ is an excellent choice. They are well-known for their exceptional service in repairing Samsung fridge freezer and are recognized as the leading provider for repairs of fix Samsung cooking range, stove fixes, induction cooktops, repair Samsung washing machines, and Samsung refrigerator in the area.</p>
                 <p className="mb-0"><strong>Samsung Dishwasher Repair Near You in Dubai</strong>: If you&apos;re experiencing issues with your Samsung dishwasher, it might be time for some repair or maintenance. For reliable and top-notch service, consider FAJ's Samsung service center in Dubai, which specializes in integrated Samsung dishwasher repairs. They offer expert assistance to ensure your appliance functions optimally.</p>
-                <p className="mb-0"><strong>Samsung Cooking Range and Oven Repair Near You:</strong> We provide expert repair service Samsung cooking range and ovens in Dubai. Our skilled technicians are experienced in diagnosing and fixing issues with Samsung refrigerator repair, fix Samsung dishwasher , Samsung dryer fixer, and more.</p>
+                <p className="mb-0"><strong>Samsung Cooking Range and Oven Repair Near You:</strong> We provide expert repair service Samsung cooking range and ovens in Dubai. Our skilled technicians are experienced in diagnosing and fixing issues with Samsung refrigerator repair, fix Samsung dishwasher, Samsung dryer fixer, and more.</p>
                 <p className="mb-0"><strong>Samsung Dryer Repair and Service Near You:</strong> Is your Samsung dryer not working properly? Looking for a reliable Samsung dryer service in Dubai? Contact us for same-day assistance!</p>
                 <p><strong>Samsung Oven Repair Near Me Dubai: </strong>If you&apos;re searching for the best company for Samsung oven repair in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for Samsung ovens. FAJ is recognized as the leading service center for Samsung oven repair and maintenance in Dubai.</p>
               </div>
@@ -560,7 +560,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                         <div className="cs_testimonial_content cs_white_bg position-relative">
                           <div className="cs_testimonial_header cs_mb_35">
                             <div className="cs_testimonial_thumbnail">
-                              <img src={`${import.meta.env.BASE_URL}${item.img1}`}  loading="lazy" alt="Avatar" />
+                              <img src={`${import.meta.env.BASE_URL}${item.img1}`} loading="lazy" alt="Avatar" />
                             </div>
                             <div className="cs_testimonial_info">
                               <div className="rating-area" >
@@ -575,7 +575,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                           </div>
                           <blockquote className="cs_fs_16">{item.desc}</blockquote>
                           <div className="cs_quote_icon position-absolute">
-                            <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`}  loading="lazy" alt="Quote Icon" />
+                            <img src={`${import.meta.env.BASE_URL}img/icons/quote_1_blue.svg`} loading="lazy" alt="Quote Icon" />
                           </div>
                         </div>
                       </div>

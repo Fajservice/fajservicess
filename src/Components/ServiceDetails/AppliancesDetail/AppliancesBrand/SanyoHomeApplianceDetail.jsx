@@ -272,7 +272,7 @@ const SanyoHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Machine Problem</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Water flow in coffee makers, whether drip or single-serve, can often become unusually slow or stop entirely due to several possible reasons</p>
+                    <p className="p-2 mb-0">Water flow in coffee makers, whether drip or single-serve, can often become unusually slow or stop entirely due to several possible reasons.</p>
                   </div>
                 </div>
               </div>
@@ -307,7 +307,7 @@ const SanyoHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
               </div>
 
               <div className="col-xl-6">
-                <p className='mb-0'>We specialize in all types of Sanyo appliances, including built-in models</p>
+                <p className='mb-0'>We specialize in all types of Sanyo appliances, including built-in models.</p>
                 <p className='mb-0'><strong>Our services include:</strong></p>
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
                   <li> <strong> Sanyo Appliance Installation: </strong> Expert installation of various types and brands of Sanyo home appliances to ensure their optimal performance and efficiency. </li>
@@ -515,7 +515,7 @@ const SanyoHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                 <p className="mb-0"> <b> Sanyo Freezer Repair Near You in Dubai: </b> Our team of qualified technicians is available for Sanyo freezer repair and service in Dubai and Sharjah. </p>
                 <p className="mb-0"> <b> Sanyo Home Appliance Service Center Near You: </b> If you are seeking the best repair service Sanyo washer dryer in Dubai, FAJ is an excellent choice. They are well-known for their exceptional service in repairing Sanyo fridge freezer and are recognized as the leading provider for repairs of fix Sanyo cooking range, stove fixes, induction cooktops, repair Sanyo washing machines, and Sanyo refrigerator in the area. </p>
                 <p className="mb-0"> <b> Sanyo Dishwasher Repair Near You in Dubai: </b> If you're experiencing issues with your Sanyo dishwasher, it might be time for some repair or maintenance. For reliable and top-notch service, consider FAJ's Sanyo service center in Dubai, which specializes in integrated Sanyo dishwasher repairs. They offer expert assistance to ensure your appliance functions optimally. </p>
-                <p className="mb-0"> <b> Sanyo Cooking Range and Oven Repair Near You: </b> We provide expert repair service Sanyo cooking range and ovens in Dubai. Our skilled technicians are experienced in diagnosing and fixing issues with Sanyo refrigerator repair, fix Sanyo dishwasher , Sanyo dryer fixer, and more. </p>
+                <p className="mb-0"> <b> Sanyo Cooking Range and Oven Repair Near You: </b> We provide expert repair service Sanyo cooking range and ovens in Dubai. Our skilled technicians are experienced in diagnosing and fixing issues with Sanyo refrigerator repair, fix Sanyo dishwasher, Sanyo dryer fixer, and more. </p>
                 <p className="mb-0"> <b> Sanyo Dryer Repair and Service Near You: </b> Is your Sanyo dryer not working properly? Looking for a reliable Sanyo dryer service in Dubai? Contact us for same-day assistance! </p>
                 <p className="mb-0"> <b> Sanyo Oven Repair Near Me Dubai: </b> If you're searching for the best company for Sanyo <a href="https://www.fajservices.ae/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for Sanyo ovens. FAJ is recognized as the leading service center for Sanyo oven repair and maintenance in Dubai. </p>
 

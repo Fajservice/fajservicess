@@ -274,7 +274,7 @@ const IndesitWashingMachineDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Machine Problem</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Water flow in coffee makers, whether drip or single-serve, can often become unusually slow or stop entirely due to several possible reasons</p>
+                    <p className="p-2 mb-0">Water flow in coffee makers, whether drip or single-serve, can often become unusually slow or stop entirely due to several possible reasons.</p>
                   </div>
                 </div>
               </div>
@@ -309,7 +309,7 @@ const IndesitWashingMachineDetail = ({ subtitle, title, reviewsbg, titleSeo, des
               </div>
 
               <div className="col-xl-6">
-                <p className='mb-0'>We specialize in all types of Indesit appliances, including built-in models</p>
+                <p className='mb-0'>We specialize in all types of Indesit appliances, including built-in models.</p>
                 <p className='mb-0'><strong>Our services include:</strong></p>
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
                   <li> <strong> Indesit Appliance Installation: </strong> Expert installation of various types and brands of Indesit home appliances to ensure their optimal performance and efficiency. </li>
@@ -517,7 +517,7 @@ const IndesitWashingMachineDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                 <p className="mb-0"> <b> Indesit Freezer Repair Near You in Dubai: </b> Our team of qualified technicians is available for Indesit freezer repair and service in Dubai and Sharjah. </p>
                 <p className="mb-0"> <b> Indesit Home Appliance Service Center Near You: </b> If you are seeking the best repair service Indesit washer dryer in Dubai, FAJ is an excellent choice. They are well-known for their exceptional service in repairing Indesit fridge freezer and are recognized as the leading provider for repairs of fix Indesit cooking range, stove fixes, induction cooktops, repair Indesit washing machines, and Indesit refrigerator in the area. </p>
                 <p className="mb-0"> <b> Indesit Dishwasher Repair Near You in Dubai: </b> If you're experiencing issues with your Indesit dishwasher, it might be time for some repair or maintenance. For reliable and top-notch service, consider FAJ's Indesit service center in Dubai, which specializes in integrated Indesit dishwasher repairs. They offer expert assistance to ensure your appliance functions optimally. </p>
-                <p className="mb-0"> <b> Indesit Cooking Range and Oven Repair Near You: </b> We provide expert repair service Indesit cooking range and ovens in Dubai. Our skilled technicians are experienced in diagnosing and fixing issues with Indesit refrigerator repair, fix Indesit dishwasher , Indesit dryer fixer, and more. </p>
+                <p className="mb-0"> <b> Indesit Cooking Range and Oven Repair Near You: </b> We provide expert repair service Indesit cooking range and ovens in Dubai. Our skilled technicians are experienced in diagnosing and fixing issues with Indesit refrigerator repair, fix Indesit dishwasher, Indesit dryer fixer, and more. </p>
                 <p className="mb-0"> <b> Indesit Dryer Repair and Service Near You: </b> Is your Indesit dryer not working properly? Looking for a reliable Indesit dryer service in Dubai? Contact us for same-day assistance! </p>
                 <p className="mb-0"> <b> Indesit Oven Repair Near Me Dubai: </b> If you're searching for the best company for Indesit <a href="https://www.fajservices.ae/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for Indesit ovens. FAJ is recognized as the leading service center for Indesit oven repair and maintenance in Dubai. </p>
 
@@ -639,7 +639,7 @@ const IndesitWashingMachineDetail = ({ subtitle, title, reviewsbg, titleSeo, des
 
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
-          
+
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
               <h3 className="cs_section_subtitle cs_fs_18 text-black cs_semibold text-uppercase cs_mb_12 wow fadeInDown">
@@ -688,7 +688,7 @@ const IndesitWashingMachineDetail = ({ subtitle, title, reviewsbg, titleSeo, des
               </div>
             </div>
           </div>
-          
+
         </section>
 
         {/* FAQ&apos;spos;s */}

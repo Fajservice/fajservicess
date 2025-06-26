@@ -276,7 +276,7 @@ const SearsHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Machine Problem</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Water flow in coffee makers, whether drip or single-serve, can often become unusually slow or stop entirely due to several possible reasons</p>
+                    <p className="p-2 mb-0">Water flow in coffee makers, whether drip or single-serve, can often become unusually slow or stop entirely due to several possible reasons.</p>
                   </div>
                 </div>
               </div>
@@ -311,7 +311,7 @@ const SearsHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, titleSeo, 
               </div>
 
               <div className="col-xl-6">
-                <p className='mb-0'>We specialize in all types of Sears appliances, including built-in models</p>
+                <p className='mb-0'>We specialize in all types of Sears appliances, including built-in models.</p>
                 <p className='mb-0'><strong>Our services include:</strong></p>
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
                   <li> <strong> Sears Appliance Installation: </strong> Expert installation of various types and brands of Sears home appliances to ensure their optimal performance and efficiency. </li>
@@ -519,7 +519,7 @@ const SearsHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                 <p className="mb-0"> <b> Sears Freezer Repair Near You in Dubai: </b> Our team of qualified technicians is available for Sears freezer repair and service in Dubai and Sharjah. </p>
                 <p className="mb-0"> <b> Sears Home Appliance Service Center Near You: </b> If you are seeking the best repair service Sears washer dryer in Dubai, FAJ is an excellent choice. They are well-known for their exceptional service in repairing Sears fridge freezer and are recognized as the leading provider for repairs of fix Sears cooking range, stove fixes, induction cooktops, repair Sears washing machines, and Sears refrigerator in the area. </p>
                 <p className="mb-0"> <b> Sears Dishwasher Repair Near You in Dubai: </b> If you're experiencing issues with your Sears dishwasher, it might be time for some repair or maintenance. For reliable and top-notch service, consider FAJ's Sears service center in Dubai, which specializes in integrated Sears dishwasher repairs. They offer expert assistance to ensure your appliance functions optimally. </p>
-                <p className="mb-0"> <b> Sears Cooking Range and Oven Repair Near You: </b> We provide expert repair service Sears cooking range and ovens in Dubai. Our skilled technicians are experienced in diagnosing and fixing issues with Sears refrigerator repair, fix Sears dishwasher , Sears dryer fixer, and more. </p>
+                <p className="mb-0"> <b> Sears Cooking Range and Oven Repair Near You: </b> We provide expert repair service Sears cooking range and ovens in Dubai. Our skilled technicians are experienced in diagnosing and fixing issues with Sears refrigerator repair, fix Sears dishwasher, Sears dryer fixer, and more. </p>
                 <p className="mb-0"> <b> Sears Dryer Repair and Service Near You: </b> Is your Sears dryer not working properly? Looking for a reliable Sears dryer service in Dubai? Contact us for same-day assistance! </p>
                 <p className="mb-0"> <b> Sears Oven Repair Near Me Dubai: </b> If you're searching for the best company for Sears <a href="https://www.fajservices.ae/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for Sears ovens. FAJ is recognized as the leading service center for Sears oven repair and maintenance in Dubai. </p>
 
