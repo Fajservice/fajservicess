@@ -38,6 +38,10 @@ export const router = createBrowserRouter([
         element: <Components.AcServiceInDubai />,
       },
       {
+        path: "/تصليح-مكيفات-الهواء-خدمة-وصيانة-دبي/",
+        element: <Components.AcServiceInDubaiArabic />,
+      },
+      {
         path: "/ac-maintenance-dubai/",
         element: <Components.AcMaintenanceDubai />,
       },

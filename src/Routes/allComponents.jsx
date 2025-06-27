@@ -203,6 +203,7 @@ export { default as AcRepairInProductionCity } from "../Pages/AcPages/AcLocation
 export { default as AcRepairandServiceInEmiratesHills } from "../Pages/AcPages/AcLocation/AcRepairandServiceInEmiratesHills.jsx";
 export { default as AcRepairandServiceInTownSquare } from "../Pages/AcPages/AcLocation/AcRepairandServiceInTownSquare.jsx";
 export { default as AcServiceInDubai } from "../Pages/AcServiceInDubai.jsx";
+export { default as AcServiceInDubaiArabic } from "../Pages/AcServiceInDubaiArabic.jsx";
 export { default as BBQService } from "../Pages/HomeAppPages/BBQService.jsx";
 export { default as IndesitWashingMachine } from "../Pages/AppliancesPage/AppliancesBrand/IndesitWashingMachine.jsx";
 export { default as ElicaAppliancesService } from "../Pages/AppliancesPage/AppliancesBrand/ElicaAppliancesService.jsx";
