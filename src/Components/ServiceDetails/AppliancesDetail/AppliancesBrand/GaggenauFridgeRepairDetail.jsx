@@ -115,8 +115,8 @@ const GaggenauFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
           <div className="container">
             <h1 className="cs_fs_30">Gaggenau Home Appliance Repair Service and Installation</h1>
             <p>
-              Having a hard time locating a local technician who specializes in Gaggenau kitchen appliances?
-              At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a>, we’ve been providing dependable and affordable repair services since 2010. Our extensive network of thoroughly screened and experienced professionals ensures that, whenever possible, we’ll assign a technician with hands-on experience in servicing your specific Gaggenau appliance.
+              Having a hard time locating a local technician who specializes in Gaggenau kitchen appliances? At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a>, we’ve been providing dependable and affordable repair services since 2010. Our extensive network of thoroughly screened and experienced professionals ensures that, whenever possible, we’ll assign a technician with hands-on experience in servicing your specific Gaggenau appliance.
+
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -136,15 +136,15 @@ const GaggenauFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                 <h2 className="cs_fs_20 mb-1">Gaggenau Washing Machine Repair Near You</h2>
                 <p className="mb-2">
                   If you need repair services for your Gaggenau appliances, FAJ Technical Services is here to assist! We deliver fast, reliable, and cost-effective solutions.
-                  <br />Whether your built-in Gaggenau washing machine isn’t draining, your fridge isn’t cooling, your oven won’t heat, or your dishwasher won’t start, our experienced repair team in Dubai and Sharjah is ready to help.
+                  Whether your built-in Gaggenau washing machine isn’t draining, your fridge isn’t cooling, your oven won’t heat, or your dishwasher won’t start, our experienced repair team in Dubai and Sharjah is ready to help.
                   As a trusted local provider, we ensure quick response times to get your appliances running smoothly again.
-
                 </p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Gaggenau Appliances Service</h2>
+                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Gaggenau Appliances Service</h2>
                 <p className="mb-2">
                   At F A J Technical Services L.L.C, we understand that Gaggenau appliance breakdowns often happen when you least expect them. That’s why our skilled and Gaggenau technicians are ready to provide dependable and timely <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our expert support, you can avoid the high cost of replacement and have your Gaggenau appliance back in working condition before it causes any major disruption.
                 </p>
+
               </div>
 
               <div className="col-md-6 ">
@@ -160,7 +160,7 @@ const GaggenauFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
           <div className="container">
 
             <h3 className="cs_fs_30">Why is Gaggenau Appliance Maintenance Service Important in Dubai?</h3>
-            <p>
+            <p className="mb-0">
               Our comprehensive repair services encompass diagnosis, repairs, installations, and maintenance. This is why we are the leading provider of Gaggenau appliance maintenance in Dubai.
             </p>
 
@@ -175,7 +175,7 @@ const GaggenauFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                   <li> <strong> Gaggenau Stove / Oven Repair in Dubai: </strong> Identifying minor issues early helps prevent them from developing into costly repairs. </li>
                   <li> <strong> Gaggenau Dishwasher Repair in Dubai: </strong> Consistent maintenance helps reduce potential issues and enhances overall performance. </li>
                   <li> <strong> Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious. </li>
-                  <li> <strong> Cost-Effective: </strong> Maintaining appliances is cheaper than early replacements or major repair, making it a smart choice for safety and efficiency in Dubai. </li>
+                  <li> <strong> Cost-Effective: </strong> Maintaining appliances is cheaper than replacements or major repairs, making it smart choice for safety and efficiency in Dubai. </li>
                   <li> <strong> Energy Efficiency: </strong> Regular maintenance of your Gaggenau appliances can improve their efficiency and help you save money. </li>
                 </ul>
               </div>

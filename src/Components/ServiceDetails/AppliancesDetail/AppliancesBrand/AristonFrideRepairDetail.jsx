@@ -161,7 +161,7 @@ const AristonFrideRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
           <div className="container">
 
             <h3 className="cs_fs_30">Why is Ariston Appliance Maintenance Service Important in Dubai?</h3>
-            <p>
+            <p className="mb-0">
               Our comprehensive repair services encompass diagnosis, repairs, installations, and maintenance. This is why we are the leading provider of Ariston appliance maintenance in Dubai.
             </p>
 
@@ -176,7 +176,7 @@ const AristonFrideRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                   <li> <strong> Ariston Stove / Oven Repair in Dubai: </strong> Identifying minor issues early helps prevent them from developing into costly repairs. </li>
                   <li> <strong> Ariston Dishwasher Repair in Dubai: </strong> Consistent maintenance helps reduce potential issues and enhances overall performance. </li>
                   <li> <strong> Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious. </li>
-                  <li> <strong> Cost-Effective: </strong> Maintaining appliances is cheaper than early replacements or major repair, making it a smart choice for safety and efficiency in Dubai. </li>
+                  <li> <strong> Cost-Effective: </strong> Maintaining appliances is cheaper than replacements or major repairs, making it smart choice for safety and efficiency in Dubai. </li>
                   <li> <strong> Energy Efficiency: </strong> Regular maintenance of your Ariston appliances can improve their efficiency and help you save money. </li>
                 </ul>
               </div>
@@ -654,7 +654,6 @@ const AristonFrideRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
         <MaintenanceContract />
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
-
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
               <h3 className="cs_section_subtitle cs_fs_18 text-black cs_semibold text-uppercase cs_mb_12 wow fadeInDown">
@@ -703,7 +702,6 @@ const AristonFrideRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
               </div>
             </div>
           </div>
-
         </section>
 
         {/* FAQ&apos;spos;s */}

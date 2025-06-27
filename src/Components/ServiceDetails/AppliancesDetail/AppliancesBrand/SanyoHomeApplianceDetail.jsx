@@ -158,7 +158,7 @@ const SanyoHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
           <div className="container">
 
             <h3 className="cs_fs_30">Why is Sanyo Appliance Maintenance Service Important in Dubai?</h3>
-            <p>
+            <p className="mb-0">
               Our extensive repair services include diagnosis, repairs, installations, and maintenance. This positions us as the leading provider of Sanyo appliance maintenance in Dubai.
             </p>
 

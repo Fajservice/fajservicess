@@ -140,7 +140,7 @@ const KelvinatorHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, title
                   As your local specialists, we can quickly diagnose and fix any issues you’re facing.
                 </p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{fontSize: "20px"}}>Fast and Reliable Kelvinator Appliances Service</h2>
+                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Kelvinator Appliances Service</h2>
                 <p className="mb-2">
                   At F A J Technical Services L.L.C, we understand that appliance breakdowns, especially with Kelvinator products, often happen at the worst possible time. That’s why our experienced Kelvinator technicians are ready to provide dependable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our expert help, you can avoid the expense of replacing your appliance and have it back in working order before it becomes a major inconvenience.
                 </p>
@@ -160,7 +160,7 @@ const KelvinatorHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, title
           <div className="container">
 
             <h3 className="cs_fs_30 px-0">Why is Kelvinator Appliance Maintenance Service Important in Dubai?</h3>
-            <p>
+            <p className="mb-0">
               Our comprehensive repair services encompass diagnosis, repairs, installations, and maintenance. This is why we are the leading provider of Kelvinator appliance maintenance in Dubai.
             </p>
 
@@ -175,7 +175,7 @@ const KelvinatorHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, title
                   <li> <strong> Kelvinator Stove / Oven Repair in Dubai: </strong> Identifying minor issues early helps prevent them from developing into costly repairs. </li>
                   <li> <strong> Kelvinator Dishwasher Repair in Dubai: </strong> Consistent maintenance helps reduce potential issues and enhances overall performance. </li>
                   <li> <strong> Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious. </li>
-                  <li> <strong> Cost-Effective: </strong> Maintaining appliances is cheaper than early replacements or major repair, making it a smart choice for safety and efficiency in Dubai. </li>
+                  <li> <strong> Cost-Effective: </strong> Maintaining appliances is cheaper than replacements or major repairs, making it smart choice for safety and efficiency in Dubai. </li>
                   <li> <strong> Energy Efficiency: </strong> Regular maintenance of your Kelvinator appliances can improve their efficiency and help you save money. </li>
                 </ul>
               </div>

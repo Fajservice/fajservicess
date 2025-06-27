@@ -138,8 +138,7 @@ const FosterAppliancesServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                 <h2 className="cs_fs_20 mb-1">Foster Washing Machine Repair Near You</h2>
                 <p className="mb-2">
                   If you need repair services for your Foster appliances, FAJ Technical Services is here to help! We provide fast, affordable, and reliable solutions.
-                  <br />Whether it’s a built-in washing machine that won’t drain, a fridge that isn’t cooling, an oven that won’t heat, or a dishwasher that won’t start, our expert technicians in Dubai and Sharjah are ready to assist.
-                  As a trusted local service provider, we respond promptly to get your Foster appliances back to working condition with minimal disruption.
+                  Whether it’s a built-in washing machine that won’t drain, a fridge that isn’t cooling, an oven that won’t heat, or a dishwasher that won’t start, our expert technicians in Dubai and Sharjah are ready to assist. As a trusted local service provider, we respond promptly to get your Foster appliances back to working condition with minimal disruption.
                 </p>
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Foster Appliances Service</h2>
@@ -162,7 +161,7 @@ const FosterAppliancesServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
           <div className="container">
 
             <h3 className="cs_fs_30">Why is Foster Appliance Maintenance Service Important in Dubai?</h3>
-            <p>
+            <p className="mb-0">
               Our comprehensive repair services encompass diagnosis, repairs, installations, and maintenance. This is why we are the leading provider of Foster appliance maintenance in Dubai.
             </p>
 
@@ -177,7 +176,7 @@ const FosterAppliancesServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                   <li> <strong> Foster Stove / Oven Repair in Dubai: </strong> Identifying minor issues early helps prevent them from developing into costly repairs. </li>
                   <li> <strong> Foster Dishwasher Repair in Dubai: </strong> Consistent maintenance helps reduce potential issues and enhances overall performance. </li>
                   <li> <strong> Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious. </li>
-                  <li> <strong> Cost-Effective: </strong> Maintaining appliances is cheaper than early replacements or major repair, making it a smart choice for safety and efficiency in Dubai. </li>
+                  <li> <strong> Cost-Effective: </strong> Maintaining appliances is cheaper than replacements or major repairs, making it smart choice for safety and efficiency in Dubai. </li>
                   <li> <strong> Energy Efficiency: </strong> Regular maintenance of your Foster appliances can improve their efficiency and help you save money. </li>
                 </ul>
               </div>

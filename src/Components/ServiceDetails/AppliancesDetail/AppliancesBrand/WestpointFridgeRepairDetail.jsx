@@ -164,7 +164,7 @@ const WestpointFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
           <div className="container">
 
             <h3 className="cs_fs_30">Why is Westpoint Appliance Maintenance Service Important in Dubai?</h3>
-            <p>
+            <p className="mb-0">
               Our comprehensive repair services encompass diagnosis, repairs, installations, and maintenance. This is why we are the leading provider of Westpoint appliance maintenance in Dubai.
             </p>
 
@@ -179,7 +179,7 @@ const WestpointFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                   <li> <strong> Westpoint Stove / Oven Repair in Dubai: </strong> Identifying minor issues early helps prevent them from developing into costly repairs. </li>
                   <li> <strong> Westpoint Dishwasher Repair in Dubai: </strong> Consistent maintenance helps reduce potential issues and enhances overall performance. </li>
                   <li> <strong> Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious. </li>
-                  <li> <strong> Cost-Effective: </strong> Maintaining appliances is cheaper than early replacements or major repair, making it a smart choice for safety and efficiency in Dubai. </li>
+                  <li> <strong> Cost-Effective: </strong> Maintaining appliances is cheaper than replacements or major repairs, making it smart choice for safety and efficiency in Dubai. </li>
                   <li> <strong> Energy Efficiency: </strong> Regular maintenance of your Westpoint appliances can improve their efficiency and help you save money. </li>
                 </ul>
               </div>

@@ -116,8 +116,7 @@ const BekoFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
           <div className="container">
             <h1 className="cs_fs_30">Beko Home Appliance Repair Service and Installation</h1>
             <p>
-              Having trouble finding a local technician who specializes in Beko kitchen appliances?
-              <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has offered dependable and cost-effective repair services since 2010. We work with a broad network of experienced, vetted professionals. We’ll dispatch a technician who knows your specific Beko appliance whenever available to ensure accurate, efficient service at your doorstep.
+              Having trouble finding a local technician who specializes in Beko kitchen appliances? <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has offered dependable and cost-effective repair services since 2010. We work with a broad network of experienced, vetted professionals. We’ll dispatch a technician who knows your specific Beko appliance whenever available to ensure accurate, efficient service at your doorstep.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -143,7 +142,7 @@ const BekoFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
 
                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Beko Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we understand that appliance failures, especially with Beko products, never happen at a convenient time. That’s why our expert Beko technicians are committed to providing <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our expert support, you can avoid the expense of replacing your appliance and have it working again before it becomes a bigger issue
+                  At F A J Technical Services L.L.C, we understand that appliance failures, especially with Beko products, never happen at a convenient time. That’s why our expert Beko technicians are committed to providing <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our expert support, you can avoid the expense of replacing your appliance and have it working again before it becomes a bigger issue.
                 </p>
 
               </div>
@@ -161,7 +160,7 @@ const BekoFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
           <div className="container">
 
             <h3 className="cs_fs_30">Why is Beko Appliance Maintenance Service Important in Dubai?</h3>
-            <p>
+            <p className="mb-0">
               Our comprehensive repair services encompass diagnosis, repairs, installations, and maintenance. This is why we are the leading provider of Beko appliance maintenance in Dubai.
             </p>
 
@@ -176,7 +175,7 @@ const BekoFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
                   <li> <strong> Beko Stove / Oven Repair in Dubai: </strong> Identifying minor issues early helps prevent them from developing into costly repairs. </li>
                   <li> <strong> Beko Dishwasher Repair in Dubai: </strong> Consistent maintenance helps reduce potential issues and enhances overall performance. </li>
                   <li> <strong> Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious. </li>
-                  <li> <strong> Cost-Effective: </strong> Maintaining appliances is cheaper than early replacements or major repair, making it a smart choice for safety and efficiency in Dubai. </li>
+                  <li> <strong> Cost-Effective: </strong> Maintaining appliances is cheaper than replacements or major repairs, making it smart choice for safety and efficiency in Dubai. </li>
                   <li> <strong> Energy Efficiency: </strong> Regular maintenance of your Beko appliances can improve their efficiency and help you save money. </li>
                 </ul>
               </div>
@@ -738,7 +737,6 @@ const BekoFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
             subtitle2="Contact us"
             title2="Book An Appointment"
           ></Serviceappointemnt>
-
         </section>
 
       </div >
