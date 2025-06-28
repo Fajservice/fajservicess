@@ -13,6 +13,9 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
+import GetQuoteButton from '../../../Buttons/GetQuoteButton';
+import CallNowButton from '../../../Buttons/CallNowButton';
+
 
 
 const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
@@ -115,10 +118,9 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Admiral Fridge Repair</h1>
-                        {/* <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2> */}
+                        <h1 className="cs_fs_30">Admiral Fridge Repair and Washing Machine Service in Dubai</h1>
                         <p>
-                            Admiral appliances are the best among the other brands out there. Still, products of the best brands even do not last endlessly. In addition, we are all sure that our appliances break down when we need them the most. Reasonably, your first reaction will be to see if your appliance is repairable. You can fix minor issues, but mostly, you cannot. So why worry? We are the best Admiral appliance repair service provider in Dubai. We are the most experienced industry experts serving since 2010 in Dubai. With hands-on experience with all home appliances, you can expect successful and swift repairs from us. Admiral Fridge Repair in Dubai So, contact us today to get your repair appointment. Enjoy superior Admiral appliance repair with F A J Technical Services L.L.C.
+                            Having trouble finding a reliable technician for your Admiral kitchen appliances? At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a>, we’ve been providing dependable and affordable service since 2010. Our experienced network of skilled professionals ensures that, whenever possible, you’re matched with a technician who specializes in your specific Admiral appliance.
                         </p>
 
                         <div id="get-quote" className=" mt-3">
@@ -126,6 +128,7 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                                 <WhatsappIconButton />
                             </div>
                         </div>
+
                     </div>
                 </section>
 
@@ -134,21 +137,24 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                     <div className="container">
                         <div className="row gx-md-5">
                             <div className="col-md-6">
-                                <h2 className="cs_fs_24 mb-1">Best Admiral Washing Machine Repair </h2>
+                                <h2 className="cs_fs_24 mb-1">Admiral Appliance Repair and Service </h2>
 
                                 <p className="mb-2">
-                                    If you need Admiral Appliance Repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
-                                    <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that&apos;s not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
-                                    <br /> We&apos;re nearby and can get your appliances fixed quickly and efficiently.
+                                    If you need repair services for your Admiral appliances, FAJ is your trusted choice! We deliver fast, cost-effective solutions across Dubai and Sharjah.
+                                    Whether it’s a built-in Admiral washing machine that won’t drain, a fridge not cooling, an oven not heating, or a dishwasher that won’t start, our skilled technicians are ready to assist. As your local experts, we ensure a quick response to get your appliances running smoothly again.
+
                                 </p>
 
-                                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service</h2>
-                                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
+                                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Admiral Appliances Service</h2>
+                                <p className="mb-2">
+                                    At F A J Technical Services L.L.C, we know that Admiral appliance breakdowns often happen when you least expect them. That’s why our expert Admiral technicians are ready to provide fast, reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our expert support, you can avoid the expense of replacing your appliance and have it working perfectly again, before it becomes a bigger hassle.
+                                </p>
+
                             </div>
 
                             <div className="col-md-6 ">
-                                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`}  loading="lazy" alt="Admiral Fridge Repair" /> */}
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} loading="lazy" alt="Admiral Fridge Repair" />
+
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} loading="lazy" alt="Admiral Washing Machine Repair" />
                             </div>
                         </div>
                         <AppliancesAppointmentCol></AppliancesAppointmentCol>
@@ -159,24 +165,25 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                 <section className="section cs_py_30">
                     <div className="container">
 
-                        <h2 className="cs_fs_30">Why is Admiral Appliance Maintenance Service Important in Dubai?</h2>
-                        <p className="">
-                            Our all-inclusive repair services include diagnosis, repairs, installations, and maintenance. That is why we are the most in-demand Admiral appliances maintenance in Dubai provider.
+                        <h3 className="cs_fs_30">Why is Admiral Appliance Maintenance Service Important in Dubai?</h3>
+                        <p className="mb-0">
+                            Our extensive repair services include diagnosis, repairs, installations, and maintenance. This positions us as the leading provider of Admiral appliance maintenance in Dubai.
                         </p>
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} loading="lazy" alt="Admiral Fridge Repair" />
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} loading="lazy" alt="Admiral Washing Machine Repair" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">
-                                    <li> <strong>  Admiral Washing Machine Repair in Dubai:-: </strong> Regular maintenance helps appliances last longer, saving on replacement costs.</li>
-                                    <li> <strong>  Admiral Fridge Repair in Dubai: </strong> we are fully confident of getting your fridge running back in no time. </li>
-                                    <li> <strong>  Admiral Cooker Repair in Dubai: </strong> Catching minor issues early prevents them from escalating into expensive repair. </li>
-                                    <li> <strong>  Preserving Appliance Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
-                                    <li> <strong>  Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious.</li>
-                                    <li> <strong>  Cost-Effective: </strong> Maintenance costs are lower than early replacements or major repair. Investing in appliance care ensures safety and efficiency and is a smart economic choice in Dubai.</li>
-                                    <li> <strong>  Energy Efficiency: </strong> Regularly maintaining your appliances, can improve their efficiency and save you money.</li>
+                                    <li><strong>  Admiral Washing Machine Repair in Dubai: </strong> Regular maintenance can prolong your Admiral washing machine's lifespan, saving you money. </li>
+                                    <li><strong>  Admiral Fridge Repair in Dubai: </strong> We are confident that we can quickly get your Admiral refrigerator up and running again. </li>
+                                    <li><strong>  Admiral Stove / Oven Repair in Dubai: </strong> Catching minor issues early can help prevent them from escalating into expensive repairs. </li>
+                                    <li><strong>  Admiral Dishwasher Repair in Dubai: </strong> Regular maintenance helps minimise potential problems and improves overall performance. </li>
+                                    <li><strong>  Early Problem Detection: </strong> Regular inspections can help identify potential problems before they escalate into serious issues. </li>
+                                    <li><strong>  Cost-Effective: </strong> Maintaining appliances is more cost-effective than replacing or making major repairs, ensuring safety and efficiency in Dubai. </li>
+                                    <li><strong>  Energy Efficiency: </strong> Regular maintenance of your Admiral appliances can enhance efficiency and save you money. </li>
+
                                 </ul>
                             </div>
                         </div>
@@ -186,16 +193,16 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                 {/* The Most Common Problems with Home Appliances */}
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
-                        <h2 className="text-center">The Most Common Problems with Admiral Home Appliances</h2>
+                        <h3 className="text-center">The Most Common Problems with Admiral Appliances </h3>
                         <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Problem</h3>
+                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Admiral Refrigerator</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
-                                        <p className="p-2 mb-0">Most fridge malfunctions are related to cooling issues, including problems with the defrost system, fan motor, compressor, or coils.</p>
+                                        <p className="p-2 mb-0">Admiral refrigerator may have cooling problems, usually related to the defrost, motor, compressor, or PCB. Let's reach out to FAJ for potential solutions.</p>
                                     </div>
                                 </div>
                             </div>
@@ -203,10 +210,32 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishwashers Problem</h3>
+                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Admiral Dishwasher</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
-                                        <p className="p-2 mb-0">The most issues with dishwashers are bad cleaning and drying. Common water leaks and drainage. Some electrical issues or PCB failures.
+                                        <p className="p-2 mb-0">Common issues with Admiral dishwasher include poor cleaning and drying, water leaks, drainage issues, and a few electrical or PCB malfunctions.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-12 col-md-4 col-lg-3">
+                                <div className=" box-content-container rounded border shadow">
+                                    <div className="text-center">
+                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Admiral Washing Machine</h3>
+                                    </div>
+                                    <div className="inner-apcs-feat-desc">
+                                        <p className="p-2 mb-0">Admiral washing machines include problems with drainage, leaks, faulty PCBs, and issues related to the belt, door switch, or drum spinning.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-12 col-md-4 col-lg-3">
+                                <div className=" box-content-container rounded border shadow">
+                                    <div className="text-center">
+                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Admiral Tumble Dryer</h3>
+                                    </div>
+                                    <div className="inner-apcs-feat-desc">
+                                        <p className="p-2 mb-0">Admiral dryer may stop spinning and make unusual noises without properly drying clothes, often due to a faulty heating element or control board.
                                         </p>
                                     </div>
                                 </div>
@@ -215,26 +244,46 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Washing Machine Problem
-                                        </h3>
+                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Admiral Cooker / Stove</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
-                                        <p className="p-2 mb-0">A common issue with washing machines is drainage problems, leaks, and PCB faulty. Also, broken belt or faulty door switch or drum from spinning.</p>
+                                        <p className="p-2 mb-0">Common issues with Admiral stove include uneven heating and flame problems, such as a broken burner element, a faulty switch, or an electrical gas malfunction.</p>
                                     </div>
                                 </div>
                             </div>
-
 
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
                                     <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Stove Problem</h3>
+                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Admiral Oven</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
-                                        <p className="p-2 mb-0">Uneven heating or flame issues, such as a broken burner element, bad switch, or electric gas, are the most common problems with stoves.</p>
+                                        <p className="p-2 mb-0">Admiral ovens often experience issues such as improper heating, unignited burners, ignition problems in gas models, and faulty knobs or controls.</p>
                                     </div>
                                 </div>
                             </div>
+                            <div className="col-12 col-md-4 col-lg-3">
+                                <div className=" box-content-container rounded border shadow">
+                                    <div className="text-center">
+                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Admiral Freezer</h3>
+                                    </div>
+                                    <div className="inner-apcs-feat-desc">
+                                        <p className="p-2 mb-0">Common issues with Admiral freezer include water leaks, insufficient ice production, malfunctioning ice makers, and decreased cooling efficiency.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-12 col-md-4 col-lg-3">
+                                <div className=" box-content-container rounded border shadow">
+                                    <div className="text-center">
+                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Machine Problem</h3>
+                                    </div>
+                                    <div className="inner-apcs-feat-desc">
+                                        <p className="p-2 mb-0">Water flow in coffee makers, whether drip or single-serve, can often become unusually slow or stop entirely due to several possible reasons.</p>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
 
                         <div id="get-quote" className="mb-0 mt-3">
@@ -244,10 +293,11 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                         </div>
                     </div>
                 </section>
+
                 {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR Admiral HOME APPLIANCES</h2>
+                        <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR Admiral APPLIANCES</h2>
 
                         <div className="row align-items-center">
                             <div className="col-xl-6">
@@ -262,31 +312,30 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                                     allowFullScreen
                                 ></iframe>
                             </div>
+
                             <div className="col-xl-6">
-                                <p className='mb-0'>We specialize in all types and brands of home appliances, including built-in units.</p>
+                                <p className='mb-0'>We specialize in all types of Admiral appliances, including built-in models.</p>
                                 <p className='mb-0'><strong>Our services include:</strong></p>
                                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                                    <li> <strong>  Installation: </strong> Expert installation of various types and brands of home appliances, ensuring optimal performance and efficiency. </li>
-                                    <li> <strong> Diagnostics: </strong> Comprehensive fault-finding services to effectively diagnose issues. We provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
-                                    <li> <strong> Repair Service: </strong> Efficient repair services for all appliance components, ensuring a quick resolution to issues such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions! </li>
-                                    <li> <strong> Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for
-                                        the annual maintenance of your appliances. </li>
+                                    <li> <strong> Admiral Appliance Installation: </strong> Expert installation of various types and brands of Admiral home appliances to ensure their optimal performance and efficiency. </li>
+                                    <li> <strong> Admiral Appliance Diagnostics: </strong> We offer expert diagnostics and eligibility assessments, along with detailed quotes for issues related to Admiral appliances. </li>
+                                    <li> <strong> Admiral Appliance Repair Service: </strong> We offer fast and effective repair service for Admiral appliances, quickly addressing leaks, electrical issues, and malfunctions. Contact us for details about specific services or any questions you may have! </li>
+                                    <li> <strong> Admiral Appliance Annual Maintenance Contract: </strong> This contract outlines the terms for the annual maintenance of your Admiral appliances, ensuring they function smoothly throughout the year. Enjoy peace of mind with professional care. </li>
                                     <p className="mb-0">
-                                        <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for optimal performance, efficiency, and longevity of your home appliances.
+                                        <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for keeping your Admiral home appliances operating efficiently, performing well, and lasting longer.
                                     </p>
                                 </ul>
                             </div>
-                            
+
                         </div>
                     </div>
                 </section >
-
 
                 {/* The Benefits Of appliances Service Dubai */}
                 <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
                     <div className="container">
                         <div className="row justify-content-center">
-                            <h2 className="cs_fs_30 mb-0">The Benefits Of Admiral appliances Service Dubai</h2>
+                            <h2 className="cs_fs_30 mb-0">The Benefits of Admiral Appliances Service Dubai</h2>
                             <div className="row gx-3 gy-5 mt-0">
                                 <div className="col-md-4 mb-2">
                                     <div className="">
@@ -295,7 +344,9 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                                                 <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h3>
-                                            <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
+                                            <p className="small">
+                                                Regular inspections are essential for preventing electrical faults, gas leaks, and other hazards, which ensures the safety of your premises.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -305,8 +356,9 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                                             <div className="icon-img-block">
                                                 <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
-                                            <h3 className="text-uppercase mb-2 cs_fs_18">Optimal Performance</h3>
-                                            <p className="small">Regular maintenance helps your appliances run smoothly and efficiently, delivering the best results every time.
+                                            <h3 className="text-uppercase mb-2 cs_fs_18"> Optimal Performance </h3>
+                                            <p className="small">
+                                                Regular maintenance helps your Admiral appliances run smoothly and efficiently, delivering the best results every time.
                                             </p>
                                         </div>
                                     </div>
@@ -318,7 +370,9 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                                                 <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h3>
-                                            <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                                            <p className="small">
+                                                Energy-efficient Admiral appliances help you save on utility bills, allowing you to keep more money in your pocket each month.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -330,7 +384,9 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                                                 <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h3>
-                                            <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
+                                            <p className="small">
+                                                Preventive services help identify issues early, reducing breakdowns and repairs while enhancing the lifespan of Admiral appliances.
+                                            </p>
                                         </div>
 
                                     </div>
@@ -342,8 +398,9 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                                                 <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h3>
-                                            <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
-
+                                            <p className="small">
+                                                Regular maintenance and prompt servicing can significantly prolong the lifespan of your Admiral appliances, delaying the need for replacements.
+                                            </p>
                                         </div>
 
                                     </div>
@@ -356,7 +413,9 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                                                 <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
                                             <h3 className="text-uppercase mb-2 cs_fs_18">Peace of Mind</h3>
-                                            <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                                            <p className="small">
+                                                Keeping your Admiral appliances in good working order enhances your confidence and minimizes the stress of unexpected breakdowns.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -366,7 +425,7 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                 </section>
 
                 {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
-                <section className="section cs_py_30">
+                < section className="section cs_py_30" >
                     <div className="container container-md container-sm">
                         <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2>
 
@@ -380,7 +439,7 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Reliable, Priority, and Quick</h3>
-                                        <p>	You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
+                                        <p>You can count on quick service! Our same-day repairs and next-day service visits ensure your needs are met promptly.</p>
                                     </div>
                                 </div>
 
@@ -390,7 +449,7 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Feeling Of Calm</h3>
-                                        <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
+                                        <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>,  you get year-round service to keep your Admiral appliance running smoothly and reliably.</p>
                                     </div>
                                 </div>
 
@@ -401,7 +460,7 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">You Are in Control</h3>
-                                        <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
+                                        <p>Schedule a day and time for your Admiral appliance repair in Dubai or Sharjah, allowing a 3-4 hour window for the technician's arrival.</p>
                                     </div>
                                 </div>
 
@@ -420,7 +479,7 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">We Are Experts</h3>
-                                        <p>We are experts in Admiral appliance repair this is why most major brands trust us to handle their service and maintenance needs.</p>
+                                        <p>We specialize in Admiral appliance repair, which is why major brands trust us to handle their service and maintenance needs.</p>
                                     </div>
                                 </div>
                                 <div className="uspitem">
@@ -430,7 +489,7 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Great Value</h3>
-                                        <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same location in Dubai.</p>
+                                        <p>Inspection fee includes diagnosis, transport, and reinstallation up to two Admiral appliances at the same location in Dubai.</p>
                                     </div>
                                 </div>
                                 <div className="uspitem mb-0">
@@ -439,7 +498,7 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Trustworthy</h3>
-                                        <p>Our skilled appliance technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
+                                        <p>Our skilled technicians specialise in Admiral appliances and provide outstanding service across major appliances.</p>
                                     </div>
                                 </div>
                             </div>
@@ -450,8 +509,135 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                             </div>
                         </div>
                     </div>
-                </section>
+                </section >
 
+                {/* We are specialise in Appliances services for the following brands */}
+                <section className="section cs_py_30 bg-light-gray mb-4">
+                    <div className="container">
+                        <h3>We specialize in Admiral appliance services of the following types</h3>
+                        <div className="row">
+                            <div className="col-12">
+                                <p className="mb-0"> <b> Admiral Washing Machine Repair Near You in Dubai: </b> FAJ is here to support you when issues arise. We understand that your Admiral washing machine is vital for daily life, ensuring your laundry stays clean. Contact us for the best Admiral <a href="https://www.fajservices.ae/washing-machine-repair-service-dubai/">washing machine service center</a> near me in Dubai. </p>
+                                <p className="mb-0"> <b> Admiral Fridge Repair Near You in Dubai: </b> If you are having problems with your Admiral refrigerator, please contact the FAJ team for same-day Admiral <a href="https://www.fajservices.ae/refrigerator-repair-service/">refrigerator repair service</a> in Dubai. </p>
+                                <p className="mb-0"> <b> Admiral Freezer Repair Near You in Dubai: </b> Our team of qualified technicians is available for Admiral freezer repair and service in Dubai and Sharjah. </p>
+                                <p className="mb-0"> <b> Admiral Home Appliance Service Center Near You: </b> If you are seeking the best repair service Admiral washer dryer in Dubai, FAJ is an excellent choice. They are well-known for their exceptional service in repairing Admiral fridge freezer and are recognized as the leading provider for repairs of fix Admiral cooking range, stove fixes, induction cooktops, repair Admiral washing machines, and Admiral refrigerator in the area. </p>
+                                <p className="mb-0"> <b> Admiral Dishwasher Repair Near You in Dubai: </b> If you're experiencing issues with your Admiral dishwasher, it might be time for some repair or maintenance. For reliable and top-notch service, consider FAJ's Admiral service center in Dubai, which specializes in integrated Admiral dishwasher repairs. They offer expert assistance to ensure your appliance functions optimally. </p>
+                                <p className="mb-0"> <b> Admiral Cooking Range and Oven Repair Near You: </b> We provide expert repair service Admiral cooking range and ovens in Dubai. Our skilled technicians are experienced in diagnosing and fixing issues with Admiral refrigerator repair, fix Admiral dishwasher, Admiral dryer fixer, and more. </p>
+                                <p className="mb-0"> <b> Admiral Dryer Repair and Service Near You: </b> Is your Admiral dryer not working properly? Looking for a reliable Admiral dryer service in Dubai? Contact us for same-day assistance! </p>
+                                <p className="mb-0"> <b> Admiral Oven Repair Near Me Dubai: </b> If you're searching for the best company for Admiral <a href="https://www.fajservices.ae/oven-repair-service/">oven repair</a> in Dubai, FAJ is an excellent choice. They are renowned for providing exceptional service specifically for Admiral ovens. FAJ is recognized as the leading service center for Admiral oven repair and maintenance in Dubai. </p>
+
+                                <h4 className="mt-3">We offer service for Admiral appliances in the Dubai area</h4>
+                                <p>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-business-bay/">Business Bay</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-dubai-marina/">Dubai Marina</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-palm-jumeirah/">Palm Jumeirah</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-dubai-hills-estate/">Dubai Hills Estate</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-damac-hills/">Damac Hills</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-al-barari/">Al Barari</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-al-barsha/">Al Barsha</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-al-safa/">Al Safa</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-arabian-ranches/">Arabian Ranches</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-dubai-silicon-oasis/">Dubai Silicon Oasis</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-dubai-investments-park/">Dubai Investments Park</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-dip/">DIP</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-dubai-production-city/">Dubai Production City</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-impzy/">IMPZ</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-dubai-sports-city/">Dubai Sports City</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-dubai-studio-city/">Dubai Studio City</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-jbr/">JBR</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-beach-residence/">Jumeirah Beach Residence</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-jlt/">JLT</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-lake-towers/">Jumeirah Lake Towers</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-jvc/">JVC</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-village-circle/">Jumeirah Village Circle</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-jvt/">JVT</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-village-triangle/">Jumeirah Village Triangle</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-jebel-ali-village/">Jebel Ali Village</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-jumeirah/">Jumeirah</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-golf-estates/">Jumeirah Golf Estates</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-the-meadows/">Meadows</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-dubai-motor-city/">Motor City</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-town-square/">Town Square</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/ac-services-in-emirates-hills/">Emirates Hills</a>
+                                    <span>&nbsp;|&nbsp;</span>
+
+                                    <a href="https://www.fajservices.ae/appliances-services-in-umm-suqeim/">Umm Suqeim</a>
+
+                                </p>
+
+                            </div>
+                        </div>
+
+                        <div id="get-quote" className=" mt-3">
+                            <div className="container d-flex justify-content-center align-items-center gap-3">
+                                <GetQuoteButton />
+                                <CallNowButton />
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
 
                 {/* Maintenance Contract */}
                 <MaintenanceContract />
