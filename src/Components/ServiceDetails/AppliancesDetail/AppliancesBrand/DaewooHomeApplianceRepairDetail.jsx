@@ -166,7 +166,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">
-                                    <li> <strong>  Daewoo Washing Machine Repair in Dubai:-: </strong> Regular maintenance helps appliances last longer, saving on replacement costs.</li>
+                                    <li> <strong>  Daewoo Washing Machine Repair in Dubai: </strong> Regular maintenance helps appliances last longer, saving on replacement costs.</li>
                                     <li> <strong>  Daewoo Fridge Repair in Dubai: </strong> we are fully confident of getting your fridge running back in no time. </li>
                                     <li> <strong>  Daewoo Cooker Repair in Dubai: </strong> Catching minor issues early prevents them from escalating into expensive repair. </li>
                                     <li> <strong>  Preserving Appliance Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
