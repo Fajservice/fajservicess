@@ -157,7 +157,32 @@ const ApplianceServiceInNadAlShebaDetail = ({ subtitle, title, reviewsbg, titleS
                     </div>
                 </section>
 
+                {/* Best Home Appliance Service Center */}
                 <section className="section cs_py_30 bg-light-gray">
+                    <div className="container">
+                        <div className="row gx-md-5">
+                            <div className="col-md-6">
+                                <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai</h3>
+                                <p className="mb-2">
+                                    If you need appliance repair, FAJ is your best choice for fast and affordable service in Nad Al Sheba Dubai and Sharjah.
+                                    <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that&apos;s not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
+                                    <br /> We&apos;re nearby and can get your appliances fixed quickly and efficiently.
+                                </p>
+
+                                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service
+                                </h3>
+                                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
+                            </div>
+
+                            <div className="col-md-6 ">
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} loading="lazy" alt="Post Image" />
+                            </div>
+                        </div>
+                        <AppliancesAppointmentCol></AppliancesAppointmentCol>
+                    </div>
+                </section>
+
+                <section className="section cs_py_30">
                     <div className="container">
                         <h3 className="cs_fs_30">Why is Appliance Maintenance Service Important in Dubai?</h3>
                         <p className="">
@@ -180,31 +205,6 @@ const ApplianceServiceInNadAlShebaDetail = ({ subtitle, title, reviewsbg, titleS
                                 </ul>
                             </div>
                         </div>
-                    </div>
-                </section>
-
-                {/* Best Home Appliance Service Center */}
-                <section className="section cs_py_30">
-                    <div className="container">
-                        <div className="row gx-md-5">
-                            <div className="col-md-6">
-                                <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai</h3>
-                                <p className="mb-2">
-                                    If you need appliance repair, FAJ is your best choice for fast and affordable service in Nad Al Sheba Dubai and Sharjah.
-                                    <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that&apos;s not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
-                                    <br /> We&apos;re nearby and can get your appliances fixed quickly and efficiently.
-                                </p>
-
-                                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service
-                                </h3>
-                                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
-                            </div>
-
-                            <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} loading="lazy" alt="Post Image" />
-                            </div>
-                        </div>
-                        <AppliancesAppointmentCol></AppliancesAppointmentCol>
                     </div>
                 </section>
 
@@ -321,6 +321,20 @@ const ApplianceServiceInNadAlShebaDetail = ({ subtitle, title, reviewsbg, titleS
                         <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h3>
 
                         <div className="row align-items-center">
+
+                            <div className="col-xl-6">
+                                <iframe
+                                    className="bordered-img blue-border"
+                                    width="100%"
+                                    height="350"
+                                    src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
+                                    title="YouTube video player"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowFullScreen
+                                ></iframe>
+                            </div>
+
                             <div className="col-xl-6">
                                 <p className='mb-0'>We specialize in all types and brands of home appliances, including built-in units.</p>
                                 <p className='mb-0'><strong>Our services include:</strong></p>
@@ -334,18 +348,6 @@ const ApplianceServiceInNadAlShebaDetail = ({ subtitle, title, reviewsbg, titleS
                                         <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for optimal performance, efficiency, and longevity of your home appliances.
                                     </p>
                                 </ul>
-                            </div>
-                            <div className="col-xl-6">
-                                <iframe
-                                    className="bordered-img blue-border"
-                                    width="100%"
-                                    height="350"
-                                    src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
-                                    title="YouTube video player"
-                                    frameBorder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowFullScreen
-                                ></iframe>
                             </div>
                         </div>
                     </div>

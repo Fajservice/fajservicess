@@ -321,7 +321,7 @@ const AppliancesServicesInAlJafiliyaDetail = ({ subtitle, title, reviewsbg, titl
                         <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h3>
 
                         <div className="row align-items-center">
-                             <div className="col-xl-6">
+                            <div className="col-xl-6">
                                 <iframe
                                     className="bordered-img blue-border"
                                     width="100%"
@@ -347,7 +347,7 @@ const AppliancesServicesInAlJafiliyaDetail = ({ subtitle, title, reviewsbg, titl
                                     </p>
                                 </ul>
                             </div>
-                           
+
                         </div>
                     </div>
                 </section >
@@ -559,6 +559,8 @@ const AppliancesServicesInAlJafiliyaDetail = ({ subtitle, title, reviewsbg, titl
 
                 </section>
 
+                {/* Maintenance Contract */}
+                <MaintenanceContract />
 
                 {/* testimobial section */}
                 <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>

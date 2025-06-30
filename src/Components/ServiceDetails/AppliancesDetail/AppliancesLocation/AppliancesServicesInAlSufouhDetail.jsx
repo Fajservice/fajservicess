@@ -180,8 +180,8 @@ const AppliancesServicesInAlSufouhDetail = ({ subtitle, title, reviewsbg, titleS
                     </div>
                 </section>
 
-                 {/* Why is Appliance Maintenance Service Important in Dubai? */}
-                <section className="section cs_py_30 bg-light-gray">
+                {/* Why is Appliance Maintenance Service Important in Dubai? */}
+                <section className="section cs_py_30">
                     <div className="container">
                         <h3 className="cs_fs_30">Why is Appliance Maintenance Service Important in Dubai?</h3>
                         <p className="">
@@ -208,7 +208,7 @@ const AppliancesServicesInAlSufouhDetail = ({ subtitle, title, reviewsbg, titleS
                 </section>
 
                 {/* The Most Common Problems with Home Appliances */}
-                <section className="section cs_py_30">
+                <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
                         <h3 className="text-center">The Most Common Problems with Home Appliances   </h3>
                         <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -314,8 +314,8 @@ const AppliancesServicesInAlSufouhDetail = ({ subtitle, title, reviewsbg, titleS
                     </div>
                 </section>
 
-               {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
-                <section className="section cs_py_30 bg-light-gray">
+                {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
+                <section className="section cs_py_30 ">
                     <div className="container">
                         <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h3>
 
@@ -346,13 +346,13 @@ const AppliancesServicesInAlSufouhDetail = ({ subtitle, title, reviewsbg, titleS
                                     </p>
                                 </ul>
                             </div>
-                            
+
                         </div>
                     </div>
                 </section >
 
                 {/* The Benefits Of appliances Service Dubai */}
-                <section className="section cs_py_30 appliances-benifit-sec">
+                <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
                     <div className="container">
                         <div className="row justify-content-center">
                             <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai
@@ -435,7 +435,7 @@ const AppliancesServicesInAlSufouhDetail = ({ subtitle, title, reviewsbg, titleS
                             </div>
                         </div>
                     </div>
-                </section>    
+                </section>
 
                 {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
                 <section className="section cs_py_30">
@@ -524,9 +524,6 @@ const AppliancesServicesInAlSufouhDetail = ({ subtitle, title, reviewsbg, titleS
                     </div>
                 </section>
 
-                {/* Maintenance Contract */}
-                <MaintenanceContract />
-
                 {/* We are specialise in Appliances services for the following brands */}
                 <ApplianceSpecialise />
 
@@ -558,8 +555,9 @@ const AppliancesServicesInAlSufouhDetail = ({ subtitle, title, reviewsbg, titleS
 
                 </section>
 
+                {/* Maintenance Contract */}
+                <MaintenanceContract />
 
-                
                 {/* testimobial section */}
                 <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
 

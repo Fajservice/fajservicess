@@ -161,10 +161,10 @@ const AppliancesServiceInInternationalMediaAndProductionZoneDetail = ({ subtitle
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Al Mamzar</h3>
+                <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai</h3>
 
                 <p className="mb-2">
-                  If you need appliance repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
+                  If you need appliance repair, FAJ is your best choice for fast and affordable service in nternational Media and Production Zone Dubai and Sharjah.
                   <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that&apos;s not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
                   <br /> We&apos;re nearby and can get your appliances fixed quickly and efficiently.
                 </p>
@@ -348,7 +348,7 @@ const AppliancesServiceInInternationalMediaAndProductionZoneDetail = ({ subtitle
                   </p>
                 </ul>
               </div>
-              
+
             </div>
           </div>
         </section >
@@ -526,9 +526,6 @@ const AppliancesServiceInInternationalMediaAndProductionZoneDetail = ({ subtitle
           </div>
         </section>
 
-        {/* Maintenance Contract */}
-        <MaintenanceContract />
-
         {/* We are specialise in Appliances services for the following brands */}
         <ApplianceSpecialise />
 
@@ -559,7 +556,10 @@ const AppliancesServiceInInternationalMediaAndProductionZoneDetail = ({ subtitle
           </div>
 
         </section>
-        
+
+        {/* Maintenance Contract */}
+        <MaintenanceContract />
+
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
 

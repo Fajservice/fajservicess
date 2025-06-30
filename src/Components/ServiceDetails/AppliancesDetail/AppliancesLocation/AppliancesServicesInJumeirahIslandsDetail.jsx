@@ -21,7 +21,7 @@ const AppliancesServicesInJumeirahIslandsDetail = ({ subtitle, title, reviewsbg,
   const metatitle = String(titleSeo || "Appliances Services in Jumeirah Islands - Fridge Repair");
   const metadescription = String(description || "Same-day appliances services in Jumeirah Islands. Get refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, dishwasher & fridge");
   const metaAuthor = String(Author || "Faj Technical Services");
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Washing Machine in jumeirah islands, Fridge Repair in Jumeirah Islands, Dishwasher Repair in Jumeirah Islands, Appliances Services in Jumeirah Islands, Appliances Repair in Jumeirah Islands, Appliance Service Center in Jumeirah Islands, Appliance Repair Service in Jumeirah Islands, Appliance Repair in Jumeirah Islands");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah-islands/").replace(/\/?$/, '/');
 
@@ -182,7 +182,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         </section>
 
         {/* Why is Appliance Maintenance Service Important in Dubai? */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">Why is Appliance Maintenance Service Important in Dubai?</h3>
             <p className="">
@@ -209,7 +209,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         </section>
 
         {/* The Most Common Problems with Home Appliances */}
-        <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="text-center">The Most Common Problems with Home Appliances   </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -316,11 +316,24 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         </section>
 
         {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h3>
 
             <div className="row align-items-center">
+              <div className="col-xl-6">
+                <iframe
+                  className="bordered-img blue-border"
+                  width="100%"
+                  height="350"
+                  src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
+              </div>
+
               <div className="col-xl-6">
                 <p className='mb-0'>We specialize in all types and brands of home appliances, including built-in units.</p>
                 <p className='mb-0'><strong>Our services include:</strong></p>
@@ -335,24 +348,13 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                   </p>
                 </ul>
               </div>
-              <div className="col-xl-6">
-                <iframe
-                  className="bordered-img blue-border"
-                  width="100%"
-                  height="350"
-                  src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
-              </div>
+
             </div>
           </div>
         </section >
 
         {/* The Benefits Of appliances Service Dubai */}
-        <section className="section cs_py_30 appliances-benifit-sec">
+        <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
               <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai

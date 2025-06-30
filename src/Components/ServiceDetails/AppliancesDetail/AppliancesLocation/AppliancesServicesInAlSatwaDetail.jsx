@@ -183,7 +183,7 @@ const AppliancesServicesInAlSatwaDetail = ({ subtitle, title, reviewsbg, titleSe
                 </section>
 
                 {/* Why is Appliance Maintenance Service Important in Dubai? */}
-                <section className="section cs_py_30 bg-light-gray">
+                <section className="section cs_py_30">
                     <div className="container">
                         <h3 className="cs_fs_30">Why is Appliance Maintenance Service Important in Dubai?</h3>
                         <p className="">
@@ -210,7 +210,7 @@ const AppliancesServicesInAlSatwaDetail = ({ subtitle, title, reviewsbg, titleSe
                 </section>
 
                 {/* The Most Common Problems with Home Appliances */}
-                <section className="section cs_py_30">
+                <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
                         <h3 className="text-center">The Most Common Problems with Home Appliances   </h3>
                         <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -317,11 +317,24 @@ const AppliancesServicesInAlSatwaDetail = ({ subtitle, title, reviewsbg, titleSe
                 </section>
 
                 {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
-                <section className="section cs_py_30 bg-light-gray">
+                <section className="section cs_py_30">
                     <div className="container">
                         <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h3>
 
                         <div className="row align-items-center">
+
+                            <div className="col-xl-6">
+                                <iframe
+                                    className="bordered-img blue-border"
+                                    width="100%"
+                                    height="350"
+                                    src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
+                                    title="YouTube video player"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowFullScreen
+                                ></iframe>
+                            </div>
                             <div className="col-xl-6">
                                 <p className='mb-0'>We specialize in all types and brands of home appliances, including built-in units.</p>
                                 <p className='mb-0'><strong>Our services include:</strong></p>
@@ -336,24 +349,12 @@ const AppliancesServicesInAlSatwaDetail = ({ subtitle, title, reviewsbg, titleSe
                                     </p>
                                 </ul>
                             </div>
-                            <div className="col-xl-6">
-                                <iframe
-                                    className="bordered-img blue-border"
-                                    width="100%"
-                                    height="350"
-                                    src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
-                                    title="YouTube video player"
-                                    frameBorder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowFullScreen
-                                ></iframe>
-                            </div>
                         </div>
                     </div>
                 </section >
 
                 {/* The Benefits Of appliances Service Dubai */}
-                <section className="section cs_py_30 appliances-benifit-sec">
+                <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
                     <div className="container">
                         <div className="row justify-content-center">
                             <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai
@@ -525,9 +526,6 @@ const AppliancesServicesInAlSatwaDetail = ({ subtitle, title, reviewsbg, titleSe
                     </div>
                 </section>
 
-                {/* Maintenance Contract */}
-                <MaintenanceContract />
-
                 {/* We are specialise in Appliances services for the following brands */}
                 <ApplianceSpecialise />
 
@@ -558,7 +556,10 @@ const AppliancesServicesInAlSatwaDetail = ({ subtitle, title, reviewsbg, titleSe
                     </div>
 
                 </section>
-                
+                {/* Maintenance Contract */}
+                <MaintenanceContract />
+
+
                 {/* testimobial section */}
                 <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
 

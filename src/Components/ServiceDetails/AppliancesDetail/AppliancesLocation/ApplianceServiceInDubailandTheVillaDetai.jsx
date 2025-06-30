@@ -164,7 +164,7 @@ const ApplianceServiceInDubailandTheVillaDetai = ({ subtitle, title, reviewsbg, 
                                 <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai</h3>
 
                                 <p className="mb-2">
-                                    If you need appliance repair, FAJ is your best choice for fast and affordable service in Dubailand The Villa Dubai and Sharjah.
+                                    If you need appliance repair, FAJ is your best choice for fast and affordable service in Dubailand The Villa and Sharjah.
                                     <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that&apos;s not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
                                     <br /> We&apos;re nearby and can get your appliances fixed quickly and efficiently.
                                 </p>
@@ -322,7 +322,7 @@ const ApplianceServiceInDubailandTheVillaDetai = ({ subtitle, title, reviewsbg, 
                         <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h3>
 
                         <div className="row align-items-center">
-                             <div className="col-xl-6">
+                            <div className="col-xl-6">
                                 <iframe
                                     className="bordered-img blue-border"
                                     width="100%"
@@ -348,7 +348,7 @@ const ApplianceServiceInDubailandTheVillaDetai = ({ subtitle, title, reviewsbg, 
                                     </p>
                                 </ul>
                             </div>
-                           
+
                         </div>
                     </div>
                 </section >
@@ -559,7 +559,7 @@ const ApplianceServiceInDubailandTheVillaDetai = ({ subtitle, title, reviewsbg, 
 
                 {/* Maintenance Contract */}
                 <MaintenanceContract />
-                
+
                 {/* testimobial section */}
                 <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}

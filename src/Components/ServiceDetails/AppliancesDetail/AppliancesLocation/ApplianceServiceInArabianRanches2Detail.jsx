@@ -167,7 +167,7 @@ const ApplianceServiceInArabianRanches2Detail = ({ subtitle, title, reviewsbg, t
                                 <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai</h3>
 
                                 <p className="mb-2">
-                                    If you need appliance repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
+                                    If you need appliance repair, FAJ is your best choice for fast and affordable service in Academy City Dubai and Sharjah.
                                     <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that&apos;s not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
                                     <br /> We&apos;re nearby and can get your appliances fixed quickly and efficiently.
                                 </p>
@@ -325,7 +325,7 @@ const ApplianceServiceInArabianRanches2Detail = ({ subtitle, title, reviewsbg, t
                         <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h3>
 
                         <div className="row align-items-center">
-                             <div className="col-xl-6">
+                            <div className="col-xl-6">
                                 <iframe
                                     className="bordered-img blue-border"
                                     width="100%"
@@ -351,7 +351,7 @@ const ApplianceServiceInArabianRanches2Detail = ({ subtitle, title, reviewsbg, t
                                     </p>
                                 </ul>
                             </div>
-                           
+
                         </div>
                     </div>
                 </section >
