@@ -20,7 +20,7 @@ const AppliancesServiceInLimestoneHouseDifcDetail = ({ subtitle, title, reviewsb
   const metatitle = String(titleSeo || "Appliances Services in The Limestone House DIFC Near Me");
   const metadescription = String(description || "Get appliances services in the Limestone house DIFC. Looking for refrigerator, fridge, washing machine repair and oven fix near me than call at 043300002");
   const metaAuthor = String(Author || "Faj Technical Services");
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Washing Machine in limestone house DIFC, Refrigerator in limestone house DIFC, Dishwasher in limestone house DIFC, Oven in limestone house DIFC, Appliances service in limestone house DIFC, Appliances repair in limestone house DIFC, Appliances maintenance in limestone house DIFC, Appliances installation in limestone house DIFC");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-limestone-house-difc/").replace(/\/?$/, '/');
 
@@ -159,10 +159,10 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Limestone House DIFC</h3>
+                <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai</h3>
 
                 <p className="mb-2">
-                  If you need appliance repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
+                  If you need appliance repair, FAJ is your best choice for fast and affordable service in Limestone House DIFC Dubai and Sharjah.
                   <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that&apos;s not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
                   <br /> We&apos;re nearby and can get your appliances fixed quickly and efficiently.
                 </p>
@@ -320,7 +320,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
             <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h3>
 
             <div className="row align-items-center">
-               <div className="col-xl-6">
+              <div className="col-xl-6">
                 <iframe
                   className="bordered-img blue-border"
                   width="100%"
@@ -346,7 +346,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                   </p>
                 </ul>
               </div>
-             
+
             </div>
           </div>
         </section >
@@ -557,7 +557,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
         {/* Maintenance Contract */}
         <MaintenanceContract />
-        
+
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
 

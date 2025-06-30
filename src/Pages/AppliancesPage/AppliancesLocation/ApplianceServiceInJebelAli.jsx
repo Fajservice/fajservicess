@@ -4,12 +4,12 @@ import ApplianceServiceInJebelAliDetail from "../../../Components/ServiceDetails
 const ApplianceServiceInJebelAli = () => {
   return (
     <div className="serviceDetails">
-            <BreadCumb
-bgImg="img/banners/appliances-banner-desktop-faj.avif"
-mobileBgImg="img/banners/appliances-banner-mobile-faj.avif"
-                Title="Home Appliance Service in Jebel Ali">
-            </BreadCumb>
-            <ApplianceServiceInJebelAliDetail />
+      <BreadCumb
+        bgImg="img/banners/appliances-banner-desktop-faj.avif"
+        mobileBgImg="img/banners/appliances-banner-mobile-faj.avif"
+        Title="Home Appliance Service in Jebel Ali">
+      </BreadCumb>
+      <ApplianceServiceInJebelAliDetail />
     </div>
   )
 }

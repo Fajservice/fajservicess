@@ -140,7 +140,7 @@ const ApplianceServiceInAlWaslDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Dubai</h1>
+                        <h1 className="cs_fs_30">Home Appliance Service in Al Wasl</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
@@ -159,7 +159,7 @@ const ApplianceServiceInAlWaslDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                     <div className="container">
                         <div className="row gx-md-5">
                             <div className="col-md-6">
-                                <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Al Wasl</h3>
+                                <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai</h3>
 
                                 <p className="mb-2">
                                     If you need appliance repair, FAJ is your best choice for fast and affordable service in Al Wasl Dubai and Sharjah.
@@ -320,7 +320,7 @@ const ApplianceServiceInAlWaslDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                         <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h3>
 
                         <div className="row align-items-center">
-                             <div className="col-xl-6">
+                            <div className="col-xl-6">
                                 <iframe
                                     className="bordered-img blue-border"
                                     width="100%"
@@ -346,7 +346,7 @@ const ApplianceServiceInAlWaslDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                                     </p>
                                 </ul>
                             </div>
-                           
+
                         </div>
                     </div>
                 </section >

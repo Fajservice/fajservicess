@@ -322,6 +322,19 @@ const ApplianceServiceInJvcDetail = ({ subtitle, title, reviewsbg, titleSeo, des
 
                         <div className="row align-items-center">
                             <div className="col-xl-6">
+                                <iframe
+                                    className="bordered-img blue-border"
+                                    width="100%"
+                                    height="350"
+                                    src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
+                                    title="YouTube video player"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowFullScreen
+                                ></iframe>
+                            </div>
+
+                            <div className="col-xl-6">
                                 <p className='mb-0'>We specialize in all types and brands of home appliances, including built-in units.</p>
                                 <p className='mb-0'><strong>Our services include:</strong></p>
                                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
@@ -335,18 +348,7 @@ const ApplianceServiceInJvcDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                                     </p>
                                 </ul>
                             </div>
-                            <div className="col-xl-6">
-                                <iframe
-                                    className="bordered-img blue-border"
-                                    width="100%"
-                                    height="350"
-                                    src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
-                                    title="YouTube video player"
-                                    frameBorder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowFullScreen
-                                ></iframe>
-                            </div>
+
                         </div>
                     </div>
                 </section >
@@ -555,7 +557,7 @@ const ApplianceServiceInJvcDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                     {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
                 </section>
 
-                 {/* Maintenance Contract */}
+                {/* Maintenance Contract */}
                 <MaintenanceContract />
 
                 {/* testimobial section */}

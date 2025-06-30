@@ -183,7 +183,7 @@ const AppliancesServicesInTecomDetail = ({ subtitle, title, reviewsbg, titleSeo,
                 </section>
 
                 {/* Why is Appliance Maintenance Service Important in Dubai? */}
-                <section className="section cs_py_30 bg-light-gray">
+                <section className="section cs_py_30">
                     <div className="container">
                         <h3 className="cs_fs_30">Why is Appliance Maintenance Service Important in Dubai?</h3>
                         <p className="">
@@ -210,7 +210,7 @@ const AppliancesServicesInTecomDetail = ({ subtitle, title, reviewsbg, titleSeo,
                 </section>
 
                 {/* The Most Common Problems with Home Appliances */}
-                <section className="section cs_py_30">
+                <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
                         <h3 className="text-center">The Most Common Problems with Home Appliances   </h3>
                         <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -317,7 +317,7 @@ const AppliancesServicesInTecomDetail = ({ subtitle, title, reviewsbg, titleSeo,
                 </section>
 
                 {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
-                <section className="section cs_py_30 bg-light-gray">
+                <section className="section cs_py_30">
                     <div className="container">
                         <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h3>
 
@@ -348,13 +348,13 @@ const AppliancesServicesInTecomDetail = ({ subtitle, title, reviewsbg, titleSeo,
                                     </p>
                                 </ul>
                             </div>
-                            
+
                         </div>
                     </div>
                 </section >
 
                 {/* The Benefits Of appliances Service Dubai */}
-                <section className="section cs_py_30 appliances-benifit-sec">
+                <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
                     <div className="container">
                         <div className="row justify-content-center">
                             <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai
