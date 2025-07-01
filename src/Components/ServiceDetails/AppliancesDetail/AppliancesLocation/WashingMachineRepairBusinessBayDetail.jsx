@@ -20,7 +20,7 @@ const WashingMachineRepairBusinessBayDetail = ({ subtitle, title, reviewsbg, tit
   const metatitle = String(titleSeo || "Washing Machine Repair Business Bay - Refrigerator Service");
   const metadescription = String(description || "FAJ washing machine repair business bay. Get same day Bosch, Electrolux, Siemens, Teka, Daewoo refrigerator, dryer, dishwasher, oven service near me");
   const metaAuthor = String(Author || "Faj Technical Services");
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Washing Machine in business bay, Washing Machine Repair in business bay, Washing Machine Service in business bay, Washing Machine Installation in business bay, Washing Machine Maintenance in business bay, Washing Machine AMC in business bay, Refrigerator Repair in business bay, Refrigerator Service in business bay, Refrigerator Installation in business bay, Refrigerator Maintenance in business bay, Refrigerator AMC in business bay");
   const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-business-bay-fridge-repair-business-bay-refrigerator-repairing-business-bay-cooker-stove-oven-cooking-range-repairs-fix-service-centre-business-bay-dishwasher-installation-fixin/").replace(/\/?$/, '/');
 
@@ -181,7 +181,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         </section>
 
         {/* Why is Appliance Maintenance Service Important in Dubai? */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">Why is Appliance Maintenance Service Important in Dubai?</h3>
             <p className="">
@@ -208,7 +208,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         </section>
 
         {/* The Most Common Problems with Home Appliances */}
-        <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="text-center">The Most Common Problems with Home Appliances   </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -315,12 +315,12 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         </section>
 
         {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h3>
 
             <div className="row align-items-center">
-               <div className="col-xl-6">
+              <div className="col-xl-6">
                 <iframe
                   className="bordered-img blue-border"
                   width="100%"
@@ -346,13 +346,13 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                   </p>
                 </ul>
               </div>
-             
+
             </div>
           </div>
         </section >
 
         {/* The Benefits Of appliances Service Dubai */}
-        <section className="section cs_py_30 appliances-benifit-sec">
+        <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
               <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai

@@ -15,15 +15,15 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 import ApplianceSpecialise from "./Appliance specialise/ApplianceSpecialise.jsx";
 
-const FridgeRepairInDubaiMarinaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => { 
+const FridgeRepairInDubaiMarinaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
-// For SEO
-const metatitle = String(titleSeo || "Get Fridge Repair Dubai Marina - Washing Machine Service");
-const metadescription = String(description || "Get same day fridge repair Dubai Marina and reliable service center of refrigerator, dryer, cooker, oven, dishwasher, washing machine fix Dubai Marina");
-const metaAuthor = String(Author || "Faj Technical Services");
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-const metaKeyword = String(Keyword || "Fridge Repair in Dubai Marina, Washing Machine Repair in Dubai Marina, Dishwasher Repair in Dubai Marina, Refrigerator Repair Maintenance in Dubai Marina, Cooker Oven Repair Fix Service in Cooking Range Dubai Marina, Fridge Repair Dubai Marina, Washing Machine Service Dubai Marina, Dishwasher Service Dubai Marina, Refrigerator Service Dubai Marina, Cooker Oven Service Dubai Marina");
-const metaURL = String(URL || "https://www.fajservices.ae/fridge-repair-in-dubai-marina-washing-machine-repair-in-dubai-marina-dishwasher-repair-in-dubai-marina-refrigerator-repair-maintenance-in-dubai-marina-cooker-oven-repair-fix-service-in-cooking-range-e/").replace(/\/?$/, '/');
+  // For SEO
+  const metatitle = String(titleSeo || "Get Fridge Repair Dubai Marina - Washing Machine Service");
+  const metadescription = String(description || "Get same day fridge repair Dubai Marina and reliable service center of refrigerator, dryer, cooker, oven, dishwasher, washing machine fix Dubai Marina");
+  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaKeyword = String(Keyword || "Fridge Repair in Dubai Marina, Washing Machine Repair in Dubai Marina, Dishwasher Repair in Dubai Marina, Refrigerator Repair Maintenance in Dubai Marina, Cooker Oven Repair Fix Service in Cooking Range Dubai Marina, Fridge Repair Dubai Marina, Washing Machine Service Dubai Marina, Dishwasher Service Dubai Marina, Refrigerator Service Dubai Marina, Cooker Oven Service Dubai Marina");
+  const metaURL = String(URL || "https://www.fajservices.ae/fridge-repair-in-dubai-marina-washing-machine-repair-in-dubai-marina-dishwasher-repair-in-dubai-marina-refrigerator-repair-maintenance-in-dubai-marina-cooker-oven-repair-fix-service-in-cooking-range-e/").replace(/\/?$/, '/');
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -115,19 +115,19 @@ const metaURL = String(URL || "https://www.fajservices.ae/fridge-repair-in-dubai
   };
   return (
     <>
-<HelmetProvider>
-    <Helmet>
-    <title>{metatitle}</title>
-    <meta name="description" content={metadescription}></meta>
-    <meta name="keywords" content={metaKeyword} />
-    <meta name="author" content={metaAuthor} />
-    <meta name="robots" content="index, follow" />
-    <link rel="canonical" href={metaURL} />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:title" content={metatitle} />
-    <meta property="og:description" content={metadescription} />
-    <meta property="og:url" content={metaURL} />
+      <HelmetProvider>
+        <Helmet>
+          <title>{metatitle}</title>
+          <meta name="description" content={metadescription}></meta>
+          <meta name="keywords" content={metaKeyword} />
+          <meta name="author" content={metaAuthor} />
+          <meta name="robots" content="index, follow" />
+          <link rel="canonical" href={metaURL} />
+          <meta property="og:type" content="website" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:title" content={metatitle} />
+          <meta property="og:description" content={metadescription} />
+          <meta property="og:url" content={metaURL} />
           <meta property="og:image" content={metaImage} />
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
@@ -135,8 +135,8 @@ const metaURL = String(URL || "https://www.fajservices.ae/fridge-repair-in-dubai
           <meta name="twitter:description" content={metadescription} />
           <meta name="twitter:image" content={metaImage} />
           <meta name="twitter:url" content={metaURL} />
-    </Helmet>
-    </HelmetProvider>
+        </Helmet>
+      </HelmetProvider>
       <HeaderForm />
 
       <div className="cs_service_details">
@@ -182,7 +182,7 @@ const metaURL = String(URL || "https://www.fajservices.ae/fridge-repair-in-dubai
         </section>
 
         {/* Why is Appliance Maintenance Service Important in Dubai? */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">Why is Appliance Maintenance Service Important in Dubai?</h3>
             <p className="">
@@ -209,7 +209,7 @@ const metaURL = String(URL || "https://www.fajservices.ae/fridge-repair-in-dubai
         </section>
 
         {/* The Most Common Problems with Home Appliances */}
-        <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="text-center">The Most Common Problems with Home Appliances   </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -316,7 +316,7 @@ const metaURL = String(URL || "https://www.fajservices.ae/fridge-repair-in-dubai
         </section>
 
         {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h3>
 
@@ -333,7 +333,6 @@ const metaURL = String(URL || "https://www.fajservices.ae/fridge-repair-in-dubai
                   allowFullScreen
                 ></iframe>
               </div>
-            </div>
               <div className="col-xl-6">
                 <p className='mb-0'>We specialize in all types and brands of home appliances, including built-in units.</p>
                 <p className='mb-0'><strong>Our services include:</strong></p>
@@ -348,12 +347,15 @@ const metaURL = String(URL || "https://www.fajservices.ae/fridge-repair-in-dubai
                   </p>
                 </ul>
               </div>
-              
+
+            </div>
+
+
           </div>
         </section >
 
         {/* The Benefits Of appliances Service Dubai */}
-        <section className="section cs_py_30 appliances-benifit-sec">
+        <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
               <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai
@@ -553,7 +555,7 @@ const metaURL = String(URL || "https://www.fajservices.ae/fridge-repair-in-dubai
               </div>
             </div>
           </div>
-           
+
         </section>
 
 
@@ -561,7 +563,7 @@ const metaURL = String(URL || "https://www.fajservices.ae/fridge-repair-in-dubai
         <MaintenanceContract />
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
-           
+
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
               <h3 className="cs_section_subtitle cs_fs_18 text-black cs_semibold text-uppercase cs_mb_12 wow fadeInDown">
@@ -610,7 +612,7 @@ const metaURL = String(URL || "https://www.fajservices.ae/fridge-repair-in-dubai
               </div>
             </div>
           </div>
-           
+
         </section>
 
         {/* FAQ's */}

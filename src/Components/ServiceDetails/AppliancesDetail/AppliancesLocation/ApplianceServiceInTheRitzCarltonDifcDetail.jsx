@@ -164,7 +164,7 @@ const ApplianceServiceInTheRitzCarltonDifcDetail = ({ subtitle, title, reviewsbg
                                 <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai</h3>
 
                                 <p className="mb-2">
-                                    If you need appliance repair, FAJ is your best choice for fast and affordable service in Ritz Carlton Difc Dubai and Sharjah.
+                                    If you need appliance repair, FAJ is your best choice for fast and affordable service in The Ritz Carlton Difc Dubai and Sharjah.
                                     <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that&apos;s not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
                                     <br /> We&apos;re nearby and can get your appliances fixed quickly and efficiently.
                                 </p>
@@ -183,7 +183,7 @@ const ApplianceServiceInTheRitzCarltonDifcDetail = ({ subtitle, title, reviewsbg
                 </section>
 
                 {/* Why is Appliance Maintenance Service Important in Dubai? */}
-                <section className="section cs_py_30 bg-light-gray">
+                <section className="section cs_py_30">
                     <div className="container">
                         <h3 className="cs_fs_30">Why is Appliance Maintenance Service Important in Dubai?</h3>
                         <p className="">
@@ -210,7 +210,7 @@ const ApplianceServiceInTheRitzCarltonDifcDetail = ({ subtitle, title, reviewsbg
                 </section>
 
                 {/* The Most Common Problems with Home Appliances */}
-                <section className="section cs_py_30">
+                <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
                         <h3 className="text-center">The Most Common Problems with Home Appliances   </h3>
                         <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -317,7 +317,7 @@ const ApplianceServiceInTheRitzCarltonDifcDetail = ({ subtitle, title, reviewsbg
                 </section>
 
                 {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
-                <section className="section cs_py_30 bg-light-gray">
+                <section className="section cs_py_30">
                     <div className="container">
                         <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h3>
 
@@ -348,13 +348,13 @@ const ApplianceServiceInTheRitzCarltonDifcDetail = ({ subtitle, title, reviewsbg
                                     </p>
                                 </ul>
                             </div>
-                            
+
                         </div>
                     </div>
                 </section >
 
                 {/* The Benefits Of appliances Service Dubai */}
-                <section className="section cs_py_30 appliances-benifit-sec">
+                <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
                     <div className="container">
                         <div className="row justify-content-center">
                             <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai

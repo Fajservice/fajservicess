@@ -142,7 +142,7 @@ const AppliancesServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, title
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Home Appliance Service in Dubai</h1>
+                        <h1 className="cs_fs_30">Home Appliance Service in Town Square Dubai</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Town Square Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
@@ -155,122 +155,15 @@ const AppliancesServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, title
                     </div>
                 </section>
 
-                {/* The Most Common Problems with Home Appliances */}
-                <section className="section cs_py_30">
-                    <div className="container">
-                        <h3 className="text-center">The Most Common Problems with Home Appliances   </h3>
-                        <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
-
-                            <div className="col-12 col-md-4 col-lg-3">
-                                <div className=" box-content-container rounded border shadow">
-                                    <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Problem</h3>
-                                    </div>
-                                    <div className="inner-apcs-feat-desc">
-                                        <p className="p-2 mb-0">Most fridge malfunctions are related to cooling issues, including problems with the defrost system, fan motor, compressor, or coils.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-12 col-md-4 col-lg-3">
-                                <div className=" box-content-container rounded border shadow">
-                                    <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishwashers Problem</h3>
-                                    </div>
-                                    <div className="inner-apcs-feat-desc">
-                                        <p className="p-2 mb-0">The most issues with dishwashers are bad cleaning and drying. Common water leaks and drainage. Some electrical issues or PCB failures.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-12 col-md-4 col-lg-3">
-                                <div className=" box-content-container rounded border shadow">
-                                    <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Washing Machine Problem
-                                        </h3>
-                                    </div>
-                                    <div className="inner-apcs-feat-desc">
-                                        <p className="p-2 mb-0">A common issue with washing machines is drainage problems, leaks, and PCB faulty. Also, broken belt or faulty door switch or drum from spinning.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div className="col-12 col-md-4 col-lg-3">
-                                <div className=" box-content-container rounded border shadow">
-                                    <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Tumble Dryer Problem</h3>
-                                    </div>
-                                    <div className="inner-apcs-feat-desc">
-                                        <p className="p-2 mb-0">Dryers can stop the drum from spinning and often make noise without drying clothes properly. Common issues are a broken heating element or control board.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-12 col-md-4 col-lg-3">
-                                <div className=" box-content-container rounded border shadow">
-                                    <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Stove Problem</h3>
-                                    </div>
-                                    <div className="inner-apcs-feat-desc">
-                                        <p className="p-2 mb-0">Uneven heating or flame issues, such as a broken burner element, bad switch, or electric gas, are the most common problems with stoves.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-12 col-md-4 col-lg-3">
-                                <div className=" box-content-container rounded border shadow">
-                                    <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Ovens Problems</h3>
-                                    </div>
-                                    <div className="inner-apcs-feat-desc">
-                                        <p className="p-2 mb-0">Most ovens have common problems like not heating properly, burners not igniting, ignition issues on gas models, broken knobs, and faulty controllers or valves.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-12 col-md-4 col-lg-3">
-                                <div className=" box-content-container rounded border shadow">
-                                    <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Freezer Problem</h3>
-                                    </div>
-                                    <div className="inner-apcs-feat-desc">
-                                        <p className="p-2 mb-0">Common issues with a freezer include water leaks, no ice, a malfunctioning ice maker, a malfunctioning PCB, motor, or compressor, and less cooling.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-12 col-md-4 col-lg-3">
-                                <div className="box-content-container rounded border shadow">
-                                    <div className="text-center">
-                                        <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee Machine Problem</h3>
-                                    </div>
-                                    <div className="inner-apcs-feat-desc">
-                                        <p className="p-2 mb-0">Whether they are drip or single-serve coffee makers, there are a few reasons why water flow in coffee makers is often slow or nonexistent.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div id="get-quote" className="mb-0 mt-3">
-                            <div className="container d-flex justify-content-center align-items-center gap-3">
-                                <WhatsappIconButton />
-                            </div>
-                        </div>
-
-                    </div>
-                </section>
-
                 {/* Best Home Appliance Service Center */}
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
                         <div className="row gx-md-5">
                             <div className="col-md-6">
-                                <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai Town Square</h3>
+                                <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai</h3>
 
                                 <p className="mb-2">
-                                    If you need appliance repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
+                                    If you need appliance repair, FAJ is your best choice for fast and affordable service in Town Square Dubai and Sharjah.
                                     <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that&apos;s not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
                                     <br /> We&apos;re nearby and can get your appliances fixed quickly and efficiently.
                                 </p>
@@ -454,7 +347,7 @@ const AppliancesServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, title
                                     </p>
                                 </ul>
                             </div>
-                            
+
                         </div>
                     </div>
                 </section >
@@ -632,9 +525,6 @@ const AppliancesServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, title
                     </div>
                 </section>
 
-                {/* Maintenance Contract */}
-                <MaintenanceContract />
-
                 {/* We are specialise in Appliances services for the following brands */}
                 <ApplianceSpecialise />
 
@@ -665,6 +555,9 @@ const AppliancesServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, title
                     </div>
 
                 </section>
+
+                {/* Maintenance Contract */}
+                <MaintenanceContract />
 
                 {/* testimobial section */}
                 <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>

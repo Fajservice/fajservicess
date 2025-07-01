@@ -20,7 +20,7 @@ const WashingMachineRepairAlBarshaDetail = ({ subtitle, title, reviewsbg, titleS
   const metatitle = String(titleSeo || "Washing Machine Repair in Al Barsha - Refrigerator Service");
   const metadescription = String(description || "Get best washing machine repair in Al Barsha. Dail 043300002 for Samsung, Siemens, Bosch, LG, Daewoo washing machine & fridge repair near me");
   const metaAuthor = String(Author || "Faj Technical Services");
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Washing Machine in AlBarsha, Washing Machine Repair in Al Barsha, Refrigerator Repair in Al Barsha, Fridge Repair in Al Barsha, Appliance Repair in Dubai, Appliance Service Center in Dubai, Appliance Repair Service in Dubai, Home Appliances Repair in Dubai, Washing Machine Service Center in Dubai, Fridge Service Center in Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-al-barsha-dubai-fridge-repair-al-barsha-dubai-refrigerator-repairing-al-barsha-dubai-cooker-stove-oven-cooking-range-repairs-fix-service-centre-al-barsha-dubai-dishwasher-inst-2/").replace(/\/?$/, '/');
 
@@ -162,7 +162,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
               <div className="col-md-6">
                 <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in  Dubai</h3>
                 <p className="mb-2">
-                  If you need appliance repair, FAJ is your best choice for fast and affordable service in AlBarsha Dubai and Sharjah.
+                  If you need appliance repair, FAJ is your best choice for fast and affordable service in Al Barsha Dubai and Sharjah.
                   <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that&apos;s not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
                   <br /> We&apos;re nearby and can get your appliances fixed quickly and efficiently.
                 </p>
@@ -322,6 +322,18 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
             <div className="row align-items-center">
               <div className="col-xl-6">
+                <iframe
+                  className="bordered-img blue-border"
+                  width="100%"
+                  height="350"
+                  src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <div className="col-xl-6">
                 <p className='mb-0'>We specialize in all types and brands of home appliances, including built-in units.</p>
                 <p className='mb-0'><strong>Our services include:</strong></p>
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
@@ -335,23 +347,12 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                   </p>
                 </ul>
               </div>
-              <div className="col-xl-6">
-                <iframe
-                  className="bordered-img blue-border"
-                  width="100%"
-                  height="350"
-                  src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
-              </div>
+
             </div>
           </div>
         </section >
 
-        
+
         {/* The Benefits Of appliances Service Dubai */}
         <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
@@ -553,7 +554,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
               </div>
             </div>
           </div>
-            
+
         </section>
 
 
@@ -561,7 +562,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         <MaintenanceContract />
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
-            
+
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
               <h3 className="cs_section_subtitle cs_fs_18 text-black cs_semibold text-uppercase cs_mb_12 wow fadeInDown">
@@ -610,7 +611,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
               </div>
             </div>
           </div>
-            
+
         </section>
 
         {/* FAQ's */}

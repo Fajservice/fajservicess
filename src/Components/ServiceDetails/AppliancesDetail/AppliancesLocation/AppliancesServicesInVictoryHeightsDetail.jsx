@@ -20,7 +20,7 @@ const AppliancesServicesInVictoryHeightsDetail = ({ subtitle, title, reviewsbg, 
   const metatitle = String(titleSeo || "Best Appliances Services in Victory Heights - Fridge Repair");
   const metadescription = String(description || "FAJ offers appliance service in Victory Heights. Call 043300002 for refrigerator repair near me in Dubai. Get fix washing machine, coffee machine");
   const metaAuthor = String(Author || "Faj Technical Services");
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Washing Machine in Victory Heights, Refrigerator in Victory Heights, Dishwasher in Victory Heights, Tumble Dryer in Victory Heights, Stove in Victory Heights, Oven in Victory Heights, Freezer in Victory Heights, Coffee Machine in Victory Heights");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-victory-heights/").replace(/\/?$/, '/');
 
@@ -181,7 +181,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         </section>
 
         {/* Why is Appliance Maintenance Service Important in Dubai? */}
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">Why is Appliance Maintenance Service Important in Dubai?</h3>
             <p className="">
@@ -208,7 +208,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         </section>
 
         {/* The Most Common Problems with Home Appliances */}
-        <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="text-center">The Most Common Problems with Home Appliances   </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -314,8 +314,8 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
           </div>
         </section>
 
-         {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
-        <section className="section cs_py_30 bg-light-gray">
+        {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
+        <section className="section cs_py_30 ">
           <div className="container">
             <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h3>
 
@@ -346,13 +346,13 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                   </p>
                 </ul>
               </div>
-              
+
             </div>
           </div>
         </section >
 
         {/* The Benefits Of appliances Service Dubai */}
-        <section className="section cs_py_30 appliances-benifit-sec">
+        <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
               <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai

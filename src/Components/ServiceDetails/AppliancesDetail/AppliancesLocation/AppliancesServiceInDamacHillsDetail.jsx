@@ -20,7 +20,7 @@ const AppliancesServiceInDamacHillsDetail = ({ subtitle, title, reviewsbg, title
   const metatitle = String(titleSeo || "Appliances Services In Damac Hills - Washing Machine Repair");
   const metadescription = String(description || "Get appliance services in Damac Hills. FAJ Experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher, oven");
   const metaAuthor = String(Author || "Faj Technical Services");
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Washing Machine in Damac Hills, Refrigerator Repair in Damac Hills, Dishwasher Repair in Damac Hills, Oven Repair in Damac Hills, Appliance Service in Damac Hills, Appliance Repair in Damac Hills, Appliance Maintenance in Damac Hills");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-damac-hills/").replace(/\/?$/, '/');
 
@@ -152,7 +152,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                 <WhatsappIconButton />
               </div>
             </div>
-            {/*  */}
+
           </div>
         </section>
 
@@ -161,10 +161,10 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Damac Hills</h3>
+                <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai</h3>
 
                 <p className="mb-2">
-                  If you need appliance repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
+                  If you need appliance repair, FAJ is your best choice for fast and affordable service in Al Damac Hills Dubai and Sharjah.
                   <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that&apos;s not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
                   <br /> We&apos;re nearby and can get your appliances fixed quickly and efficiently.
                 </p>
@@ -449,7 +449,6 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                 <div className="uspitem">
                   <div className="uspicon">
                     <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} loading="lazy" alt="Fast, Reliable Service" />
-
                   </div>
                   <div className="usptext">
                     <h3 className="">Reliable, Priority, and Quick</h3>

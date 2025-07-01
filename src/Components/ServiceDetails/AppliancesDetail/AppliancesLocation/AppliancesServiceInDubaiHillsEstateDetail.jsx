@@ -20,7 +20,7 @@ const AppliancesServiceInDubaiHillsEstateDetail = ({ subtitle, title, reviewsbg,
   const metatitle = String(titleSeo || "Appliances Services In Dubai Hills Estate - Washing Machine Repair");
   const metadescription = String(description || "Get appliance services in Dubai Hills Estate. FAJ Experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher, oven");
   const metaAuthor = String(Author || "Faj Technical Services");
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Washing Machinein dubai Hills Estate, Refrigerator Repair Dubai Hills Estate, Dishwasher Repair Dubai Hills Estate, Oven Repair Dubai Hills Estate, Appliance Service Dubai Hills Estate");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-hills-estate/").replace(/\/?$/, '/');
 
@@ -161,7 +161,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai Hills Estate</h3>
+                <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai</h3>
 
                 <p className="mb-2">
                   If you need appliance repair, FAJ is your best choice for fast and affordable service in Dubai Hills Estate and Sharjah.
@@ -322,7 +322,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
             <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h3>
 
             <div className="row align-items-center">
-               <div className="col-xl-6">
+              <div className="col-xl-6">
                 <iframe
                   className="bordered-img blue-border"
                   width="100%"
@@ -348,7 +348,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                   </p>
                 </ul>
               </div>
-             
+
             </div>
           </div>
         </section >
@@ -557,9 +557,9 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
 
         </section>
 
-         {/* Maintenance Contract */}
+        {/* Maintenance Contract */}
         <MaintenanceContract />
-        
+
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
 

@@ -21,7 +21,7 @@ const AppliancesServicesInTheViewsDetail = ({ subtitle, title, reviewsbg, titleS
   const metatitle = String(titleSeo || "Appliances Services in The Views - Washing Machine Repair");
   const metadescription = String(description || "We offer best appliance services in The Views. Get washing machine repair near me in Dubai. Book 043300002 for fridge, oven, dishwasher maintenance");
   const metaAuthor = String(Author || "Faj Technical Services");
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Washing Machine in the views, Appliance Repair in the views, Appliance Services in the views, Fridge Repair in the views, Dishwasher Repair in the views, Oven Repair in the views, Tumble Dryer Repair in the views, Washing Machine Repair in the views");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-views/").replace(/\/?$/, '/');
 
@@ -168,7 +168,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                   <br /> We&apos;re nearby and can get your appliances fixed quickly and efficiently.
                 </p>
 
-               <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service</h3>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service</h3>
                 <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
               </div>
 
@@ -180,8 +180,8 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
           </div>
         </section>
 
-         {/* Why is Appliance Maintenance Service Important in Dubai? */}
-        <section className="section cs_py_30 bg-light-gray">
+        {/* Why is Appliance Maintenance Service Important in Dubai? */}
+        <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">Why is Appliance Maintenance Service Important in Dubai?</h3>
             <p className="">
@@ -208,7 +208,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
         </section>
 
         {/* The Most Common Problems with Home Appliances */}
-        <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h3 className="text-center">The Most Common Problems with Home Appliances   </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -314,13 +314,13 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
           </div>
         </section>
 
-       {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
-        <section className="section cs_py_30 bg-light-gray">
+        {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
+        <section className="section cs_py_30">
           <div className="container">
             <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h3>
 
             <div className="row align-items-center">
-               <div className="col-xl-6">
+              <div className="col-xl-6">
                 <iframe
                   className="bordered-img blue-border"
                   width="100%"
@@ -346,13 +346,13 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                   </p>
                 </ul>
               </div>
-             
+
             </div>
           </div>
         </section >
 
         {/* The Benefits Of appliances Service Dubai */}
-        <section className="section cs_py_30 appliances-benifit-sec">
+        <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
               <h3 className="cs_fs_30 mb-0">The Benefits Of appliances Service Dubai
