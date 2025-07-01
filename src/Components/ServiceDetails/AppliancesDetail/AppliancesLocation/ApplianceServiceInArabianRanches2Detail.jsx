@@ -164,7 +164,7 @@ const ApplianceServiceInArabianRanches2Detail = ({ subtitle, title, reviewsbg, t
                     <div className="container">
                         <div className="row gx-md-5">
                             <div className="col-md-6">
-                                <h3 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai</h3>
+                                <h2 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai</h2>
 
                                 <p className="mb-2">
                                     If you need appliance repair, FAJ is your best choice for fast and affordable service in Academy City Dubai and Sharjah.
@@ -172,8 +172,7 @@ const ApplianceServiceInArabianRanches2Detail = ({ subtitle, title, reviewsbg, t
                                     <br /> We&apos;re nearby and can get your appliances fixed quickly and efficiently.
                                 </p>
 
-                                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service
-                                </h3>
+                                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service</h2>
                                 <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
                             </div>
 
@@ -188,7 +187,7 @@ const ApplianceServiceInArabianRanches2Detail = ({ subtitle, title, reviewsbg, t
                 {/* Why is Appliance Maintenance Service Important in Dubai? */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h3 className="cs_fs_30">Why is Appliance Maintenance Service Important in Dubai?</h3>
+                        <h2 className="cs_fs_30">Why is Appliance Maintenance Service Important in Dubai?</h2>
                         <p className="">
                             Proper appliance maintenance is essential for extending lifespan and enhancing efficiency, especially in Dubai’s climate. Here are the main benefits:
                         </p>
@@ -215,7 +214,7 @@ const ApplianceServiceInArabianRanches2Detail = ({ subtitle, title, reviewsbg, t
                 {/* The Most Common Problems with Home Appliances */}
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
-                        <h3 className="text-center">The Most Common Problems with Home Appliances   </h3>
+                        <h2 className="text-center">The Most Common Problems with Home Appliances</h2>
                         <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
                             <div className="col-12 col-md-4 col-lg-3">
@@ -322,7 +321,7 @@ const ApplianceServiceInArabianRanches2Detail = ({ subtitle, title, reviewsbg, t
                 {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h3>
+                        <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES</h2>
 
                         <div className="row align-items-center">
                             <div className="col-xl-6">
@@ -369,7 +368,7 @@ const ApplianceServiceInArabianRanches2Detail = ({ subtitle, title, reviewsbg, t
                                             <div className="icon-img-block">
                                                 <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
-                                            <h4 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h4>
+                                            <h3 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h3>
                                             <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
                                         </div>
                                     </div>
@@ -380,8 +379,7 @@ const ApplianceServiceInArabianRanches2Detail = ({ subtitle, title, reviewsbg, t
                                             <div className="icon-img-block">
                                                 <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
-                                            <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
-                                            </h4>
+                                            <h3 className="text-uppercase mb-2 cs_fs_18">Optimal Performance</h3>
                                             <p className="small">Regular maintenance helps your appliances run smoothly and efficiently, delivering the best results every time.
                                             </p>
                                         </div>
@@ -393,7 +391,7 @@ const ApplianceServiceInArabianRanches2Detail = ({ subtitle, title, reviewsbg, t
                                             <div className="icon-img-block">
                                                 <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
-                                            <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
+                                            <h3 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h3>
                                             <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
                                         </div>
                                     </div>
@@ -405,7 +403,7 @@ const ApplianceServiceInArabianRanches2Detail = ({ subtitle, title, reviewsbg, t
                                             <div className="icon-img-block">
                                                 <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
-                                            <h4 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h4>
+                                            <h3 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h3>
                                             <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
                                         </div>
 
@@ -417,7 +415,7 @@ const ApplianceServiceInArabianRanches2Detail = ({ subtitle, title, reviewsbg, t
                                             <div className="icon-img-block">
                                                 <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
-                                            <h4 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h4>
+                                            <h3 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h3>
                                             <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
 
                                         </div>
@@ -431,8 +429,7 @@ const ApplianceServiceInArabianRanches2Detail = ({ subtitle, title, reviewsbg, t
                                             <div className="icon-img-block">
                                                 <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                                             </div>
-                                            <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
-                                            </h4>
+                                            <h3 className="text-uppercase mb-2 cs_fs_18">Peace of Mind</h3>
                                             <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
                                         </div>
                                     </div>
