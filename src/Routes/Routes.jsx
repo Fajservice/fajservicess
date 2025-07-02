@@ -279,163 +279,163 @@ export const router = createBrowserRouter([
       },
       {
         path: "/crafft-ac-repair-in-dubai-crafft-ac-maintenance-in-dubai-crafft-ac-fix-in-dubai-crafft-ac-service-in-dubai-crafft-air-condition-repair-in-dubai-crafft-air-condition-maintenance-in-dubai-crafft-air-con/",
-        element: <Components.CrafftAcRepair/>,
+        element: <Components.CrafftAcRepair />,
       },
       {
         path: "/lennox-ac-repair-in-dubai-lennox-ac-maintenance-in-dubai-lennox-ac-fix-in-dubai-lennox-ac-service-in-dubai-lennox-air-condition-repair-in-dubai-lennox-air-condition-maintenance-in-dubai-lennox-air-con/",
-        element:<Components.LennoxAcRepair/>,
+        element: <Components.LennoxAcRepair />,
       },
       {
         path: "/hitachi-ac-repair-in-dubai-hitachi-ac-maintenance-in-dubai-hitachi-ac-fix-in-dubai-hitachi-ac-service-in-dubai-hitachi-air-condition-repair-in-dubai-hitachi-air-condition-maintenance-in-dubai-hitachi/",
-        element: <Components.HitachiAcRepair/>,
+        element: <Components.HitachiAcRepair />,
       },
       {
         path: "/o-general-ac-repair-in-dubai-o-general-ac-maintenance-in-dubai-o-general-ac-fix-in-dubai-o-general-ac-service-in-dubai-o-general-air-condition-repair-in-dubai-o-general-air-condition-maintenance-in-du/",
-        element: <Components.OGeneralAcRepair/>,
+        element: <Components.OGeneralAcRepair />,
       },
       {
         path: "/bryant-ac-repair-in-dubai-bryant-ac-maintenance-in-dubai-bryant-ac-fix-in-dubai-bryant-ac-service-in-dubai-bryant-air-condition-repair-in-dubai-bryant-air-condition-maintenance-in-dubai-bryant-air-con/",
-        element: <Components.BryantAcRepair/>,
+        element: <Components.BryantAcRepair />,
       },
       {
         path: "/white-westinghouse-ac-repair-in-dubai-white-westinghouse-ac-maintenance-in-dubai-white-westinghouse-ac-fix-in-dubai-white-westinghouse-ac-service-in-dubai-white-westinghouse-air-condition-repair-in-du/",
-        element: <Components.WhiteWestingHouseAcRepair/>,
+        element: <Components.WhiteWestingHouseAcRepair />,
       },
       {
         path: "/mitsubishi-ac-repair-in-dubai/",
-        element: <Components.MitsubishiAcRepair/>,
+        element: <Components.MitsubishiAcRepair />,
       },
       {
         path: "/sanyo-ac-repair-in-dubai-sanyo-ac-maintenance-in-dubai-sanyo-ac-fix-in-dubai-sanyo-ac-service-in-dubai-sanyo-air-condition-repair-in-dubai-sanyo-air-condition-maintenance-in-dubai-sanyo-air-condition/",
-        element: <Components.SanyoAcRepair/>,
+        element: <Components.SanyoAcRepair />,
       },
       {
         path: "/daikool-ac-repair-in-dubai-daikool-ac-maintenance-in-dubai-daikool-ac-fix-in-dubai-daikool-ac-service-in-dubai-daikool-air-condition-repair-in-dubai-daikool-air-condition-maintenance-in-dubai-daikool/",
-        element: <Components.DaikoolAcRepair/>,
+        element: <Components.DaikoolAcRepair />,
       },
       {
         path: "/goodman-ac-repair-in-dubai-goodman-ac-maintenance-in-dubai-goodman-ac-fix-in-dubai-goodman-ac-service-in-dubai-goodman-air-condition-repair-in-dubai-goodman-air-condition-maintenance-in-dubai-goodman/",
-        element: <Components.GoodmanAcRepair/>,
+        element: <Components.GoodmanAcRepair />,
       },
       {
         path: "/sub-zero-ac-installation-maintenance-repair-fix-service-in-dubai/",
-        element: <Components.SubZeroAcRepair/>,
+        element: <Components.SubZeroAcRepair />,
       },
       {
         path: "/gree-ac-repair-in-dubai/",
-        element: <Components.GreeAcRepair/>,
+        element: <Components.GreeAcRepair />,
       },
       {
         path: "/haier-ac-repair-in-dubai-haier-ac-maintenance-in-dubai-haier-ac-fix-in-dubai-haier-ac-service-in-dubai-haier-air-condition-repair-in-dubai-haier-air-condition-maintenance-in-dubai-haier-air-condition/",
-        element: <Components.HaierAcRepair/>,
+        element: <Components.HaierAcRepair />,
       },
       {
         path: "/tcl-ac-repair-in-dubai/",
-        element: <Components.TCLAcRepair/>,
+        element: <Components.TCLAcRepair />,
       },
       {
         path: "/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-oven-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa/",
-        element: <Components.IndesitWashingMachine/>,
+        element: <Components.IndesitWashingMachine />,
       },
       {
         path: "/elica-appliances-service/",
-        element: <Components.ElicaAppliancesService/>,
+        element: <Components.ElicaAppliancesService />,
       },
       {
         path: "/fagor-fridge-repair-in-dubai-fagor-washing-machine-repair-in-dubai-fagor-cooker-repair-in-dubai-fagor-oven-repair-in-dubai-fagor-appliances-maintenance-in-dubai-fagor-refrigerator-fix-repairs-service/",
-        element: <Components.FagorFridgeRepair/>,
+        element: <Components.FagorFridgeRepair />,
       },
       {
         path: "/neff-fridge-repair-in-dubai-neff-washing-machine-repair-in-dubai-neff-cooker-repair-in-dubai-neff-oven-repair-in-dubai-neff-appliances-maintenance-in-dubai-neff-refrigerator-fix-repairs-service-in-dub/",
-        element: <Components.NeffFridgeRepair/>,
+        element: <Components.NeffFridgeRepair />,
       },
       {
         path: "/ariston-fridge-repair-in-dubai-ariston-washing-machine-repair-in-dubai-ariston-cooker-repair-in-dubai-ariston-oven-repair-in-dubai-ariston-appliances-maintenance-in-dubai-ariston-refrigerator-fix-repa/",
-        element: <Components.AristonFrideRepair/>,
+        element: <Components.AristonFrideRepair />,
       },
       {
         path: "/fisher-and-paykel-fridge-repair-in-dubai-fisher-and-paykel-washing-machine-repair-in-dubai-fisher-and-paykel-cooker-repair-in-dubai-fisher-and-paykel-oven-repair-in-dubai-fisher-and-paykel-appliances/",
-        element: <Components.FisherPaykelFridgeRepair/>,
+        element: <Components.FisherPaykelFridgeRepair />,
       },
       {
         path: "/siemens-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
-        element: <Components.SiemensHomeAppUnstallation/>,
+        element: <Components.SiemensHomeAppUnstallation />,
       },
       {
         path: "/maytag-fridge-repair-in-dubai-maytag-washing-machine-repair-in-dubai-maytag-cooker-repair-in-dubai-maytag-oven-repair-in-dubai-maytag-appliances-maintenance-in-dubai-maytag-refrigerator-fix-repairs-se/",
-        element: <Components.MaytagFridgeRepair/>,
+        element: <Components.MaytagFridgeRepair />,
       },
       {
         path: "/smeg-fridge-repair-in-dubai-smeg-washing-machine-repair-in-dubai-smeg-cooker-repair-in-dubai-smeg-oven-repair-in-dubai-smeg-appliances-maintenance-in-dubai-smeg-refrigerator-fix-repairs-service-in-dub/",
-        element: <Components.SmegFridgeRepair/>,
+        element: <Components.SmegFridgeRepair />,
       },
       {
         path: "/sub-zero-fridge-repair-in-dubai-sub-zero-washing-machine-repair-in-dubai-sub-zero-cooker-repair-in-dubai-sub-zero-oven-repair-in-dubai-sub-zero-appliances-maintenance-in-dubai-sub-zero-refrigerator-fi/",
-        element: <Components.SubZeroFridgeRepair/>,
+        element: <Components.SubZeroFridgeRepair />,
       },
       {
         path: "/hitachi-fridge-repair-in-dubai-hitachi-washing-machine-repair-in-dubai-hitachi-cooker-repair-in-dubai-hitachi-oven-repair-in-dubai-hitachi-appliances-maintenance-in-dubai-hitachi-refrigerator-fix-repa/",
-        element: <Components.HitachiFridgeRepair/>,
+        element: <Components.HitachiFridgeRepair />,
       },
       {
         path: "/gaggenau-fridge-repair-in-dubai-gaggenau-washing-machine-repair-in-dubai-gaggenau-cooker-repair-in-dubai-gaggenau-oven-repair-in-dubai-gaggenau-appliances-maintenance-in-dubai-gaggenau-refrigerator-fi/",
-        element: <Components.GaggenauFridgeRepair/>,
+        element: <Components.GaggenauFridgeRepair />,
       },
       {
         path: "/whirlpool-fridge-repair-in-dubai-whirlpool-washing-machine-repair-in-dubai-whirlpool-cooker-repair-in-dubai-whirlpool-oven-repair-in-dubai-whirlpool-appliances-maintenance-in-dubai-whirlpool-refrigera/",
-        element: <Components.WhirlpoolFridgeRepair/>,
+        element: <Components.WhirlpoolFridgeRepair />,
       },
       {
         path: "/foster-appliances-services-foster-dishwasher-repair-service-in-dubai-foster-cooking-range-repair-service-in-dubai-foster-cooktop-repair-service-in-dubai-foster-oven-repair-in-dubai-foster-rangetop-r/",
-        element: <Components.FosterAppliancesServices/>,
+        element: <Components.FosterAppliancesServices />,
       },
       {
         path: "/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
-        element: <Components.TekaHomeAppInstllation/>,
+        element: <Components.TekaHomeAppInstllation />,
       },
       {
         path: "/gorenje-fridge-repair-in-dubai-gorenje-washing-machine-repair-in-dubai-gorenje-cooker-repair-in-dubai-gorenje-oven-repair-in-dubai-gorenje-appliances-maintenance-in-dubai-gorenje-refrigerator-fix-repa/",
-        element: <Components.GorenjeFridgeRepair/>,
+        element: <Components.GorenjeFridgeRepair />,
       },
       {
         path: "/miele-fridge-repair-in-dubai-miele-washing-machine-repair-in-dubai-miele-cooker-repair-in-dubai-miele-oven-repair-in-dubai-miele-appliances-maintenance-in-dubai-miele-refrigerator-fix-repairs-service/",
-        element: <Components.MieleFridgeRepair/>,
+        element: <Components.MieleFridgeRepair />,
       },
       {
         path: "/wolf-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
-        element: <Components.WolfHomeAppMaintenance/>,
+        element: <Components.WolfHomeAppMaintenance />,
       },
       {
         path: "/toshiba-home-appliance-installation-maintenance-repair-fix-service-in-dubai-2/",
-        element: <Components.ToshibaHomeAppMaintenance/>,
+        element: <Components.ToshibaHomeAppMaintenance />,
       },
       {
         path: "/gibson-fridge-repair-in-dubai-gibson-washing-machine-repair-in-dubai-gibson-cooker-repair-in-dubai-gibson-oven-repair-in-dubai-gibson-appliances-maintenance-in-dubai-gibson-refrigerator-fix-repairs-se/",
-        element: <Components.GibsoneFridgeRepair/>,
+        element: <Components.GibsoneFridgeRepair />,
       },
       {
         path: "/project",
-        element: <Components.ProjectPage/>,
+        element: <Components.ProjectPage />,
       },
       {
         path: "/project/project-details",
-        element: <Components.ProjectDetailsPage/>,
+        element: <Components.ProjectDetailsPage />,
       },
       {
         path: "/team",
-        element: <Components.TeamPage/>,
+        element: <Components.TeamPage />,
       },
       {
         path: "/team/team-details",
-        element: <Components.TeamDetailsPage/>,
+        element: <Components.TeamDetailsPage />,
       },
       {
         path: "/blogs",
-        element: <Components.BlogPage/>,
+        element: <Components.BlogPage />,
       },
       {
         path: "/blog/:slug",
-        element: <Components.BlogDetailsPage/>,
+        element: <Components.BlogDetailsPage />,
       },
       {
         path: "/contact-us/",
@@ -443,1103 +443,1103 @@ export const router = createBrowserRouter([
       },
       {
         path: "/dubai-ac-service-price-list/",
-        element: <Components.DubaiAcServicePriceList/>,
+        element: <Components.DubaiAcServicePriceList />,
       },
       {
         path: "/ac-services-in-the-ritz-carlton-difc/",
-        element: <Components.AcRepairInRitz/>,
+        element: <Components.AcRepairInRitz />,
       },
       {
         path: "/ac-services-in-dubai-silicon-oasis/",
-        element: <Components.AcRepairInSiliconOasis/>,
+        element: <Components.AcRepairInSiliconOasis />,
       },
       {
         path: "/ac-services-in-metha/",
-        element: <Components.AcRepairInMetha/>,
+        element: <Components.AcRepairInMetha />,
       },
       {
         path: "/ac-services-in-jumeirah-village/",
-        element: <Components.AcRepairInJumeirahVillage/>,
+        element: <Components.AcRepairInJumeirahVillage />,
       },
       {
         path: "/ac-services-in-jebel-ali-free-zone/",
-        element: <Components.AcRepairInJebelAliFreeZone/>,
+        element: <Components.AcRepairInJebelAliFreeZone />,
       },
       {
         path: "/ac-services-in-umm-al-sheif/",
-        element: <Components.AcRepairInUmmAlSheif/>,
+        element: <Components.AcRepairInUmmAlSheif />,
       },
       {
         path: "/ac-services-in-the-greens/",
-        element: <Components.AcRepairinTheGreens/>,
+        element: <Components.AcRepairinTheGreens />,
       },
       {
         path: "/ac-services-in-al-jafiliya/",
-        element: <Components.AcRepairinAlJafiliya/>,
+        element: <Components.AcRepairinAlJafiliya />,
       },
       {
         path: "/ac-services-in-the-meadows/",
-        element: <Components.AcRepairinTheMeadows/>,
+        element: <Components.AcRepairinTheMeadows />,
       },
       {
         path: "/ac-services-in-academy-city/",
-        element: <Components.AcRepairInAcademyCity/>,
+        element: <Components.AcRepairInAcademyCity />,
       },
       {
         path: "/ac-services-in-limestone-house-difc/",
-        element: <Components.AcRepairInLimestoneHouseDifc/>,
+        element: <Components.AcRepairInLimestoneHouseDifc />,
       },
       {
         path: "/ac-services-in-jumeirah-village-triangle/",
-        element: <Components.AcRepairInJumeriahVillageTriangle/>,
+        element: <Components.AcRepairInJumeriahVillageTriangle />,
       },
       {
         path: "/ac-services-in-arabian-ranches-2/",
-        element: <Components.AcRepairInArabianRanches2/>,
+        element: <Components.AcRepairInArabianRanches2 />,
       },
       {
         path: "/ac-services-in-dubai-studio-city/",
-        element: <Components.AcRepairInDubaiStudioCity/>,
+        element: <Components.AcRepairInDubaiStudioCity />,
       },
       {
         path: "/ac-services-jumeirah-islands/",
-        element: <Components.AcRepairInJumeirahIslands/>,
+        element: <Components.AcRepairInJumeirahIslands />,
       },
       {
         path: "/ac-repair-al-qusais/",
-        element: <Components.AcRepairInAlQusais/>,
+        element: <Components.AcRepairInAlQusais />,
       },
       {
         path: "/ac-services-in-the-springs/",
-        element: <Components.AcRepairInTheSprings/>,
+        element: <Components.AcRepairInTheSprings />,
       },
       {
         path: "/ac-services-in-al-mirdif/",
-        element: <Components.AcRepairInAlMirdif/>,
+        element: <Components.AcRepairInAlMirdif />,
       },
       {
         path: "/ac-services-in-international-media-and-production-zone/",
-        element: <Components.AcRepairInInternationalMediaAndProductionZone/>,
+        element: <Components.AcRepairInInternationalMediaAndProductionZone />,
       },
       {
         path: "/ac-services-in-jumeirah-village-circle/",
-        element: <Components.AcRepairInJumeirahVillageCircle/>,
+        element: <Components.AcRepairInJumeirahVillageCircle />,
       },
       {
         path: "/ac-services-in-business-bay/",
-        element: <Components.AcRepairInBusinessBay/>,
+        element: <Components.AcRepairInBusinessBay />,
       },
       {
         path: "/ac-services-in-arabian-ranches/",
-        element: <Components.AcRepairInArabianRanches/>,
+        element: <Components.AcRepairInArabianRanches />,
       },
       {
         path: "/ac-services-in-dip/",
-        element: <Components.AcRepairInDip/>,
+        element: <Components.AcRepairInDip />,
       },
       {
         path: "/ac-services-in-discovery-gardens/",
-        element: <Components.AcRepairInDiscoveryGardens/>,
+        element: <Components.AcRepairInDiscoveryGardens />,
       },
       {
         path: "/ac-services-in-al-waha-community/",
-        element: <Components.AcRepairInAlWahaCommunity/>,
+        element: <Components.AcRepairInAlWahaCommunity />,
       },
       {
         path: "/ac-services-in-hudaiba/",
-        element: <Components.AcRepairInHudaiba/>,
+        element: <Components.AcRepairInHudaiba />,
       },
       {
         path: "/ac-services-in-impz/",
-        element: <Components.AcRepairInImpz/>,
+        element: <Components.AcRepairInImpz />,
       },
       {
         path: "/ac-services-in-al-satwa/",
-        element: <Components.AcRepairInAlSatwa/>,
+        element: <Components.AcRepairInAlSatwa />,
       },
       {
         path: "/ac-repair-in-jafza-air-condition-maintenance-in-jafza-air-conditioning-fix-amc-service-in-jebel-ali-free-zone-dubai/",
-        element: <Components.AcRepairInAlJafza/>,
+        element: <Components.AcRepairInAlJafza />,
       },
       {
         path: "/ac-services-in-al-khawaneej/",
-        element: <Components.AcRepairInAlKhawaneej/>,
+        element: <Components.AcRepairInAlKhawaneej />,
       },
       {
         path: "/ac-services-in-al-manara/",
-        element: <Components.AcRepairInAlManara/>,
+        element: <Components.AcRepairInAlManara />,
       },
       {
         path: "/ac-services-in-jumeirah-golf-estates/",
-        element: <Components.AcRepairInJumeirahGolfEstates/>,
+        element: <Components.AcRepairInJumeirahGolfEstates />,
       },
       {
         path: "/ac-services-in-layan-community/",
-        element: <Components.AcRepairInLayanCommunity/>,
+        element: <Components.AcRepairInLayanCommunity />,
       },
       {
         path: "/ac-services-in-al-badaa/",
-        element: <Components.AcRepairInAlBadaa/>,
+        element: <Components.AcRepairInAlBadaa />,
       },
       {
         path: "/ac-services-dubai-internet-city/",
-        element: <Components.AcRepairInDubaiInternetCity/>,
+        element: <Components.AcRepairInDubaiInternetCity />,
       },
       {
         path: "/ac-services-in-jumeirah-lake-towers/",
-        element: <Components.AcRepairInJumeirahLakeTowers/>,
+        element: <Components.AcRepairInJumeirahLakeTowers />,
       },
       {
         path: "/ac-services-in-al-tawar/",
-        element: <Components.AcRepairinAlTawar/>,
+        element: <Components.AcRepairinAlTawar />,
       },
       {
         path: "/ac-services-in-al-barsha-south/",
-        element: <Components.AcRepairInAlBarshaSouth/>,
+        element: <Components.AcRepairInAlBarshaSouth />,
       },
       {
         path: "/ac-services-in-the-gardens/",
-        element: <Components.AcRepairInGardens/>,
+        element: <Components.AcRepairInGardens />,
       },
       {
         path: "/ac-services-in-jbr/",
-        element: <Components.AcRepairInJBR/>,
+        element: <Components.AcRepairInJBR />,
       },
       {
         path: "/ac-services-in-flamingo-villas/",
-        element: <Components.AcRepairInFlamingoVillas/>,
+        element: <Components.AcRepairInFlamingoVillas />,
       },
       {
         path: "/ac-services-in-al-quoz/",
-        element: <Components.AcRepairInAlQuoz/>,
+        element: <Components.AcRepairInAlQuoz />,
       },
       {
         path: "/ac-services-in-jebel-ali-dip/",
-        element: <Components.AcRepairInJebelAliDip/>,
+        element: <Components.AcRepairInJebelAliDip />,
       },
       {
         path: "/ac-services-in-al-sufouh/",
-        element: <Components.AcRepairInSufouh/>,
+        element: <Components.AcRepairInSufouh />,
       },
       {
         path: "/ac-services-in-jumeirah-beach-residence/",
-        element: <Components.AcRepairInJumeirahBeachResidence/>,
+        element: <Components.AcRepairInJumeirahBeachResidence />,
       },
       {
         path: "/ac-services-in-the-villa/",
-        element: <Components.AcRepairInTheVilla/>,
+        element: <Components.AcRepairInTheVilla />,
       },
       {
         path: "/ac-services-in-jumeirah-heights/",
-        element: <Components.AcRepairInJumeirahHeights/>,
+        element: <Components.AcRepairInJumeirahHeights />,
       },
       {
         path: "/ac-services-in-al-quoz-industrial-area/",
-        element: <Components.AcRepairInQuozIndustrialArea/>,
+        element: <Components.AcRepairInQuozIndustrialArea />,
       },
       {
         path: "/ac-services-in-the-lakes/",
-        element: <Components.AcRepairInTheLakes/>,
+        element: <Components.AcRepairInTheLakes />,
       },
       {
         path: "/ac-services-in-the-lakes/",
-        element: <Components.AcRepairInBurjKhalifaLake/>,
+        element: <Components.AcRepairInBurjKhalifaLake />,
       },
       {
         path: "/ac-services-in-umm-suqeim/",
-        element: <Components.AcRepairInUmmSuqeim/>,
+        element: <Components.AcRepairInUmmSuqeim />,
       },
       {
         path: "/ac-services-in-jvt/",
-        element: <Components.AcRepairInJvt/>,
+        element: <Components.AcRepairInJvt />,
       },
       {
         path: "/ac-services-in-jumeirah/",
-        element: <Components.AcRepairInJumeirah/>,
+        element: <Components.AcRepairInJumeirah />,
       },
       {
         path: "/ac-services-in-jebel-ali/",
-        element: <Components.AcRepairInJebelAli/>,
+        element: <Components.AcRepairInJebelAli />,
       },
       {
         path: "/ac-services-in-emirates-hills/",
-        element: <Components.AcRepairInEmiratesHills/>,
+        element: <Components.AcRepairInEmiratesHills />,
       },
       {
         path: "/ac-services-jlt/",
-        element: <Components.AcRepairInJLT/>,
+        element: <Components.AcRepairInJLT />,
       },
       {
         path: "/ac-services-in-index-tower-difc/",
-        element: <Components.AcRepairInIndexTowerDifc/>,
+        element: <Components.AcRepairInIndexTowerDifc />,
       },
       {
         path: "/ac-services-in-al-rashidiya/",
-        element: <Components.AcRepairInAlRashidiya/>,
+        element: <Components.AcRepairInAlRashidiya />,
       },
       {
         path: "/ac-services-in-al-karama/",
-        element: <Components.AcRepairInAlkarama/>,
+        element: <Components.AcRepairInAlkarama />,
       },
       {
         path: "/ac-services-in-south-ridge/",
-        element: <Components.AcRepairInsouthRidge/>,
+        element: <Components.AcRepairInsouthRidge />,
       },
       {
         path: "/ac-services-in-nad-al-hammar/",
-        element: <Components.AcRepairInNadAlHammar/>,
+        element: <Components.AcRepairInNadAlHammar />,
       },
       {
         path: "/ac-services-in-nad-al-hammar/",
-        element: <Components.AcRepairInMudon/>,
+        element: <Components.AcRepairInMudon />,
       },
       {
         path: "/ac-services-in-dubai-healthcare-city/",
-        element: <Components.AcRepairInDubaiHealthcareCity/>,
+        element: <Components.AcRepairInDubaiHealthcareCity />,
       },
       {
         path: "/ac-services-in-knowledge-village/",
-        element: <Components.AcRepairInKnowledgeVillage/>,
+        element: <Components.AcRepairInKnowledgeVillage />,
       },
       {
         path: "/ac-services-in-deira/",
-        element: <Components.AcRepairInDeira/>,
+        element: <Components.AcRepairInDeira />,
       },
       {
         path: "/ac-services-in-al-furjan/",
-        element: <Components.AcRepairInAlFurjan/>,
+        element: <Components.AcRepairInAlFurjan />,
       },
       {
         path: "/ac-services-jumeirah-park/",
-        element: <Components.AcRepairInJumeirahPark/>,
+        element: <Components.AcRepairInJumeirahPark />,
       },
       {
         path: "/ac-services-in-ras-al-khor-industrial-area/",
-        element: <Components.AcRepairInRasAlKhorIndustrialArea/>,
+        element: <Components.AcRepairInRasAlKhorIndustrialArea />,
       },
       {
         path: "/ac-services-in-al-warqa/",
-        element: <Components.AcRepairInAlWarqa/>,
+        element: <Components.AcRepairInAlWarqa />,
       },
       {
         path: "/ac-services-in-dubailand-the-villa-point/",
-        element: <Components.AcRepairInDubailandTheVillaPoint/>,
+        element: <Components.AcRepairInDubailandTheVillaPoint />,
       },
       {
         path: "/ac-services-in-al-wasl/",
-        element: <Components.AcRepairInAlWasl/>,
+        element: <Components.AcRepairInAlWasl />,
       },
       {
         path: "/ac-services-in-dubai-investments-park/",
-        element: <Components.AcRepairInInvestmentsPark/>,
+        element: <Components.AcRepairInInvestmentsPark />,
       },
       {
         path: "/ac-services-in-al-aweer/",
-        element: <Components.AcRepairInAlaweer/>,
+        element: <Components.AcRepairInAlaweer />,
       },
       {
         path: "/ac-services-in-difc/",
-        element: <Components.AcRepairInDifc/>,
+        element: <Components.AcRepairInDifc />,
       },
       {
         path: "/ac-repair-in-al-barsha-air-condition-maintenance-in-al-barsha-air-conditioning-fix-amc-service-in-al-barsha-dubai/",
-        element: <Components.AcRepairInAlBarsha/>,
+        element: <Components.AcRepairInAlBarsha />,
       },
       {
         path: "/ac-services-in-al-raffa/",
-        element: <Components.AcRepairInAlRaffa/>,
+        element: <Components.AcRepairInAlRaffa />,
       },
       {
         path: "/ac-services-in-dubai-international-financial-centre/",
-        element: <Components.AcRepairInDubaiInternationalFinancialCenter/>,
+        element: <Components.AcRepairInDubaiInternationalFinancialCenter />,
       },
       {
         path: "/ac-services-in-bur-dubai/",
-        element: <Components.AcRepairInBurDubai/>,
+        element: <Components.AcRepairInBurDubai />,
       },
       {
         path: "/ac-services-in-silicon-oasis-dubai/",
-        element: <Components.AcRepairInSiliconOasisDubai/>,
+        element: <Components.AcRepairInSiliconOasisDubai />,
       },
       {
         path: "/ac-services-in-burj-khalifa-lake/",
-        element: <Components.AcRepairInBurjKhalifaLake/>,
+        element: <Components.AcRepairInBurjKhalifaLake />,
       },
       {
         path: "/ac-services-in-dubailand-mazaya-queue/",
-        element: <Components.AcRepairInDubailandMazayaQueue/>,
+        element: <Components.AcRepairInDubailandMazayaQueue />,
       },
       {
         path: "/ac-services-in-al-bada/",
-        element: <Components.AcRepairInAlBada/>,
+        element: <Components.AcRepairInAlBada />,
       },
       {
         path: "/ac-services-in-mudon/",
-        element: <Components.AcRepairInMudon/>,
+        element: <Components.AcRepairInMudon />,
       },
       {
         path: "/ac-services-in-nad-al-sheba/",
-        element: <Components.AcRepairInNadAlSheba/>,
+        element: <Components.AcRepairInNadAlSheba />,
       },
       {
         path: "/ac-services-in-downtown/",
-        element: <Components.AcRepairInDownTown/>,
+        element: <Components.AcRepairInDownTown />,
       },
       {
         path: "/ac-services-in-al-barari/",
-        element: <Components.AcRepairInAlBarari/>,
+        element: <Components.AcRepairInAlBarari />,
       },
       {
         path: "/ac-services-in-bay-square/",
-        element: <Components.AcRepairInBaySquare/>,
+        element: <Components.AcRepairInBaySquare />,
       },
       {
         path: "/ac-services-in-media-city/",
-        element: <Components.AcRepairInMediaCity/>,
+        element: <Components.AcRepairInMediaCity />,
       },
       {
         path: "/ac-services-in-umm-ramool/",
-        element: <Components.AcRepairInUmmRamool/>,
+        element: <Components.AcRepairInUmmRamool />,
       },
       {
         path: "/ac-services-in-cedre-villas-silicon-oasis-dubai/",
-        element: <Components.AcRepairInCedreVillasSiliconOasisDubai/>,
+        element: <Components.AcRepairInCedreVillasSiliconOasisDubai />,
       },
       {
         path: "/ac-services-in-motor-city/",
-        element: <Components.AcRepairInMotorCity/>,
+        element: <Components.AcRepairInMotorCity />,
       },
       {
         path: "/ac-services-in-victory-heights/",
-        element: <Components.AcRepairInVictoryHeights/>,
+        element: <Components.AcRepairInVictoryHeights />,
       },
       {
         path: "/ac-services-in-remraam-2/",
-        element: <Components.AcRepairInRemraam2/>,
+        element: <Components.AcRepairInRemraam2 />,
       },
       {
         path: "/ac-services-in-al-safa/",
-        element: <Components.AcRepairInAlSafa/>,
+        element: <Components.AcRepairInAlSafa />,
       },
       {
         path: "/ac-services-in-remraam/",
-        element: <Components.AcRepairInRemraam/>,
+        element: <Components.AcRepairInRemraam />,
       },
       {
         path: "/ac-services-in-jge/",
-        element: <Components.AcRepairInJqe/>,
+        element: <Components.AcRepairInJqe />,
       },
       {
         path: "/ac-services-in-dubai-sport-city/",
-        element: <Components.AcRepairInDubaiSportCity/>,
+        element: <Components.AcRepairInDubaiSportCity />,
       },
       {
         path: "/ac-services-in-dubai-marina/",
-        element: <Components.AcRepairInDubaiMarina/>,
+        element: <Components.AcRepairInDubaiMarina />,
       },
       {
         path: "/ac-services-in-jebel-ali-village/",
-        element: <Components.AcRepairInJebelAliVillage/>,
+        element: <Components.AcRepairInJebelAliVillage />,
       },
       {
         path: "/ac-services-in-mankhool/",
-        element: <Components.AcRepairInMankhool/>,
+        element: <Components.AcRepairInMankhool />,
       },
       {
         path: "/ac-services-in-the-views/",
-        element: <Components.AcRepairInTheViews/>,
+        element: <Components.AcRepairInTheViews />,
       },
       {
         path: "/ac-services-in-palm-jumeirah/",
-        element: <Components.AcRepairInPalmJumeirah/>,
+        element: <Components.AcRepairInPalmJumeirah />,
       },
       {
         path: "/ac-services-in-jvc/",
-        element: <Components.AcRepairInJvc/>,
+        element: <Components.AcRepairInJvc />,
       },
       {
         path: "/ac-repair-and-ac-service-in-al-mamzar/",
-        element: <Components.AcRepairInAlMamzar/>,
+        element: <Components.AcRepairInAlMamzar />,
       },
       {
         path: "/ac-repair-and-ac-service-in-al-mizhar/",
-        element: <Components.AcRepairInAlMizhar/>,
+        element: <Components.AcRepairInAlMizhar />,
       },
       {
         path: "/ac-repair-and-ac-service-in-damac-hills/",
-        element: <Components.AcRepairInDamacHills/>,
+        element: <Components.AcRepairInDamacHills />,
       },
       {
         path: "/ac-repair-and-ac-service-in-dubai-hills-estate/",
-        element: <Components.AcRepairInDubaiHillsEstate/>,
+        element: <Components.AcRepairInDubaiHillsEstate />,
       },
       {
         path: "/ac-repair-and-ac-service-in-dubai-production-city/",
-        element: <Components.AcRepairInProductionCity/>,
+        element: <Components.AcRepairInProductionCity />,
       },
       {
         path: "/ac-repair-and-ac-service-in-emirates-hills/",
-        element: <Components.AcRepairandServiceInEmiratesHills/>,
+        element: <Components.AcRepairandServiceInEmiratesHills />,
       },
       {
         path: "/ac-repair-and-ac-service-in-town-square/",
-        element: <Components.AcRepairandServiceInTownSquare/>,
+        element: <Components.AcRepairandServiceInTownSquare />,
       },
       {
         path: "/ac-services-in-old-town-dubai/",
-        element: <Components.AcRepairInOldTown/>,
+        element: <Components.AcRepairInOldTown />,
       },
       {
         path: "/ac-services-in-dubai-international-financial-centre/",
-        element: <Components.AcRepairInDubaiInternationalFinancialCenter/>,
+        element: <Components.AcRepairInDubaiInternationalFinancialCenter />,
       },
       {
         path: "/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-oven-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa/",
-        element: <Components.IndesitWashingMachine/>,
+        element: <Components.IndesitWashingMachine />,
       },
       {
         path: "/viking-appliances-service/",
-        element: <Components.VikingAppliancesService/>,
+        element: <Components.VikingAppliancesService />,
       },
       {
         path: "/samsung-fridge-repair-in-dubai-samsung-washing-machine-repair-in-dubai-samsung-cooker-repair-in-dubai-samsung-oven-repair-in-dubai-samsung-appliances-maintenance-in-dubai-samsung-refrigerator-fix-repa/",
-        element: <Components.SamsungFridgeRepair/>,
+        element: <Components.SamsungFridgeRepair />,
       },
       {
         path: "/sanyo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
-        element: <Components.SanyoHomeAppliance/>,
+        element: <Components.SanyoHomeAppliance />,
       },
       {
         path: "/electrolux-home-appliances-repair/",
-        element: <Components.ElectroluxHomeAppliance/>,
+        element: <Components.ElectroluxHomeAppliance />,
       },
       {
         path: "/beko-fridge-repair-in-dubai-beko-washing-machine-repair-in-dubai-beko-cooker-repair-in-dubai-beko-oven-repair-in-dubai-beko-appliances-maintenance-in-dubai-beko-refrigerator-fix-repairs-service-in-dub/",
-        element: <Components.BekoFridgeRepair/>,
+        element: <Components.BekoFridgeRepair />,
       },
       {
         path: "/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/",
-        element: <Components.AegFridgeRepair/>,
+        element: <Components.AegFridgeRepair />,
       },
       {
         path: "/bosch-home-appliances-repair/",
-        element: <Components.BoschHomeAppliance/>,
+        element: <Components.BoschHomeAppliance />,
       },
       {
         path: "/hisense-fridge-repair-in-dubai-hisense-washing-machine-repair-in-dubai-hisense-cooker-repair-in-dubai-hisense-oven-repair-in-dubai-hisense-appliances-maintenance-in-dubai-hisense-refrigerator-fix-repa/",
-        element: <Components.HisenseFridgeRepair/>,
+        element: <Components.HisenseFridgeRepair />,
       },
       {
         path: "/panasonic-fridge-repair-in-dubai-panasonic-washing-machine-repair-in-dubai-panasonic-cooker-repair-in-dubai-panasonic-oven-repair-in-dubai-panasonic-appliances-maintenance-in-dubai-panasonic-refrigera/",
-        element: <Components.PanasonicFridgeRepair/>,
+        element: <Components.PanasonicFridgeRepair />,
       },
       {
         path: "/siemens-home-appliances-repair/",
-        element: <Components.SiemensHomeAppliance/>,
+        element: <Components.SiemensHomeAppliance />,
       },
       {
         path: "/terim-appliances-service/",
-        element: <Components.TerimAppliance/>,
+        element: <Components.TerimAppliance />,
       },
       {
         path: "/blomberg-fridge-repair-in-dubai-blomberg-washing-machine-repair-in-dubai-blomberg-cooker-repair-in-dubai-blomberg-oven-repair-in-dubai-blomberg-appliances-maintenance-in-dubai-blomberg-refrigerator-fi/",
-        element: <Components.BlombergFridgeRepair/>,
+        element: <Components.BlombergFridgeRepair />,
       },
       {
         path: "/daewoo-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
-        element: <Components.DaewooHomeApplianceRepair/>,
+        element: <Components.DaewooHomeApplianceRepair />,
       },
       {
         path: "/aftron-fridge-repair-in-dubai-aftron-washing-machine-repair-in-dubai-aftron-cooker-repair-in-dubai-aftron-oven-repair-in-dubai-aftron-appliances-maintenance-in-dubai-aftron-refrigerator-fix-repairs-se/",
-        element: <Components.AftronFridgeRepair/>,
+        element: <Components.AftronFridgeRepair />,
       },
       {
         path: "/hoover-fridge-repair-in-dubai-hoover-washing-machine-repair-in-dubai-hoover-cooker-repair-in-dubai-hoover-oven-repair-in-dubai-hoover-appliances-maintenance-in-dubai-hoover-refrigerator-fix-repairs-se/",
-        element: <Components.HooverFridgeRepair/>,
+        element: <Components.HooverFridgeRepair />,
       },
       {
         path: "/lg-fridge-repair-in-dubai-lg-washing-machine-repair-in-dubai-lg-cooker-repair-in-dubai-lg-oven-repair-in-dubai-lg-appliances-maintenance-in-dubai-lg-refrigerator-fix-repairs-service-in-dubai-lg-dishwa/",
-        element: <Components.LgFridgeRepair/>,
+        element: <Components.LgFridgeRepair />,
       },
       {
         path: "/daewoo-home-appliances-repair/",
-        element: <Components.DaewooHomeAppliance/>,
+        element: <Components.DaewooHomeAppliance />,
       },
       {
         path: "/bosch-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
-        element: <Components.BoschHomeApplianceRepair/>,
+        element: <Components.BoschHomeApplianceRepair />,
       },
       {
         path: "/foster-appliances-service/",
-        element: <Components.FosterAppliance/>,
+        element: <Components.FosterAppliance />,
       },
       {
         path: "/samsung-home-appliances-repair/",
-        element: <Components.SamsungHomeApplianceRepair/>,
+        element: <Components.SamsungHomeApplianceRepair />,
       },
       {
         path: "/electrolux-fridge-repair-in-dubai-electrolux-washing-machine-repair-in-dubai-electrolux-cooker-repair-in-dubai-electrolux-oven-repair-in-dubai-electrolux-appliances-maintenance-in-dubai-electrolux-ref/",
-        element: <Components.ElectroluxFridgeRepair/>,
+        element: <Components.ElectroluxFridgeRepair />,
       },
       {
         path: "/admiral-fridge-repair-in-dubai-admiral-washing-machine-repair-in-dubai-admiral-cooker-repair-in-dubai-admiral-oven-repair-in-dubai-admiral-appliances-maintenance-in-dubai-admiral-refrigerator-fix-repa/",
-        element: <Components.AdmiralFridgeRepair/>,
+        element: <Components.AdmiralFridgeRepair />,
       },
       {
         path: "/bompani-fridge-repair-in-dubai-bompani-washing-machine-repair-in-dubai-bompani-cooker-repair-in-dubai-bompani-oven-repair-in-dubai-bompani-appliances-maintenance-in-dubai-bompani-refrigerator-fix-repa/",
-        element: <Components.BompaniFridgeRepair/>,
+        element: <Components.BompaniFridgeRepair />,
       },
       {
         path: "/kenmore-appliances-service/",
-        element: <Components.KenmoreAppliancesService/>,
+        element: <Components.KenmoreAppliancesService />,
       },
       {
         path: "/sharp-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
-        element: <Components.SharpHomeAppliancesInstallation/>,
+        element: <Components.SharpHomeAppliancesInstallation />,
       },
       {
         path: "/unimac-washing-machine-repair-in-dubai-unimac-dryer-repair-in-dubai-unimac-washer-dryer-repair-in-dubai-unimac-maintenance-in-dubai-unimac-laundry-service-in-dubai-unimac-dubai/",
-        element: <Components.UnimacWashingMachineRepair/>,
+        element: <Components.UnimacWashingMachineRepair />,
       },
       {
         path: "/haier-fridge-repair-in-dubai-haier-washing-machine-repair-in-dubai-haier-cooker-repair-in-dubai-haier-oven-repair-in-dubai-haier-appliances-maintenance-in-dubai-haier-refrigerator-fix-repairs-service/",
-        element: <Components.HaierFridgeRepair/>,
+        element: <Components.HaierFridgeRepair />,
       },
       {
         path: "/baumatic-appliances/",
-        element: <Components.BaumaticAppliances/>,
+        element: <Components.BaumaticAppliances />,
       },
       {
         path: "/faber-appliances-service/",
-        element: <Components.FaberAppliancesService/>,
+        element: <Components.FaberAppliancesService />,
       },
       {
         path: "/marvel-fridge-repair-in-dubai-marvel-washing-machine-repair-in-dubai-marvel-cooker-repair-in-dubai-marvel-oven-repair-in-dubai-marvel-appliances-maintenance-in-dubai-marvel-refrigerator-fix-repairs-se/",
-        element: <Components.MarvelFridgeRepair/>,
+        element: <Components.MarvelFridgeRepair />,
       },
       {
         path: "/brandt-fridge-repair-in-dubai-brandt-washing-machine-repair-in-dubai-brandt-cooker-repair-in-dubai-brandt-oven-repair-in-dubai-brandt-appliances-maintenance-in-dubai-brandt-refrigerator-fix-repairs-se/",
-        element: <Components.BrandtFridgeRepair/>,
+        element: <Components.BrandtFridgeRepair />,
       },
       {
         path: "/thermador-appliances-service/",
-        element: <Components.ThemadorAppliancesService/>,
+        element: <Components.ThemadorAppliancesService />,
       },
       {
         path: "/bertazzoni-refrigerator-repair-in-dubai-bertazzoni-appliances-service-bertazzoni-fridge-repair-in-dubai-bertazzoni-washing-machine-washer-bertazzoni-dryer-repair-in-dubai-bertazzoni-dishwasher-cooker/",
-        element: <Components.BertazzoniRefrigeratorRepair/>,
+        element: <Components.BertazzoniRefrigeratorRepair />,
       },
       {
         path: "/boston-refrigerator-repair-in-dubai-boston-appliances-service-boston-fridge-repair-in-dubai-boston-washing-machine-washer-boston-dryer-repair-in-dubai-boston-dishwasher-cooker/",
-        element: <Components.BostonRefrigeratorRepair/>,
+        element: <Components.BostonRefrigeratorRepair />,
       },
       {
         path: "/kelvinator-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
-        element: <Components.KelvinatorHomeAppInstallation/>,
+        element: <Components.KelvinatorHomeAppInstallation />,
       },
       {
         path: "/zanussi-fridge-repair-in-dubai-zanussi-washing-machine-repair-in-dubai-zanussi-cooker-repair-in-dubai-zanussi-oven-repair-in-dubai-zanussi-appliances-maintenance-in-dubai-zanussi-refrigerator-fix-repa/",
-        element: <Components.ZanussiFridgeRepair/>,
+        element: <Components.ZanussiFridgeRepair />,
       },
       {
         path: "/sears-home-appliances-installation-maintenance-repair-fix-service-in-dubai/",
-        element: <Components.SearsHomeAppInstallation/>,
+        element: <Components.SearsHomeAppInstallation />,
       },
       {
         path: "/baumatic-refrigerator-repair-in-dubai-fridge-repair-in-dubai-washing-machine-repair-in-dubai-dishwasher-cooker-oven-repairs-fix-service-in-dubai-error/",
-        element: <Components.BaumaticRefrigeratorRepair/>,
+        element: <Components.BaumaticRefrigeratorRepair />,
       },
       {
         path: "/ge-general-electric-fridge-repair-in-dubai-ge-general-electric-washing-machine-repair-in-dubai-ge-general-electric-cooker-repair-in-dubai-ge-general-electric-oven-repair-in-dubai-ge-general-electric-a/",
-        element: <Components.GeGeneralElectricFridgeRepair/>,
+        element: <Components.GeGeneralElectricFridgeRepair />,
       },
       {
         path: "/kitchenaid-refrigerator-repair-in-dubai-fridge-repair-in-dubai-kitchenaid-freezer-maintenance-in-dubai-washing-machine-repair-in-dubai-dishwasher-kitchenaid-cooker-oven-repairs-fix-service-in-dubai/",
-        element: <Components.KitchenaidRefrigeratorRepair/>,
+        element: <Components.KitchenaidRefrigeratorRepair />,
       },
       {
         path: "/westpoint-fridge-repair-in-dubai-westpoint-washing-machine-repair-in-dubai-westpoint-cooker-repair-in-dubai-westpoint-oven-repair-in-dubai-westpoint-refrigerator-fix-repairs-service-in-dubai-west-poin/",
-        element: <Components.WestpointFridgeRepair/>,
+        element: <Components.WestpointFridgeRepair />,
       },
       {
         path: "/liebherr-refrigerator-repair-in-dubai-liebherr-fridge-repair-in-dubai-liebherr-freezer-maintenance-service-in-dubai/",
-        element: <Components.LiebherrRefrigeratorRepair/>,
+        element: <Components.LiebherrRefrigeratorRepair />,
       },
       {
         path: "/white-westinghouse-fridge-repair-in-dubai-white-westinghouse-washing-machine-repair-in-dubai-white-westinghouse-cooker-repair-in-dubai-white-westinghouse-oven-repair-in-dubai-white-westinghouse-applia/",
-        element: <Components.WhiteWestinghouseFridgeRepair/>,
+        element: <Components.WhiteWestinghouseFridgeRepair />,
       },
       {
         path: "/speed-queen-washing-machine-repair-in-dubai-speed-queen-dryer-repair-in-dubai-speed-queen-washer-dryer-repair-in-dubai-maintenance-fix-service-in-dubai/",
-        element: <Components.SpeedQueenWashingMachineRepair/>,
+        element: <Components.SpeedQueenWashingMachineRepair />,
       },
       {
         path: "/franke-appliances-repair-service-in-dubai/",
-        element: <Components.FrankeAppliancesRepairService/>,
+        element: <Components.FrankeAppliancesRepairService />,
       },
       {
         path: "/ifb-refrigerator-repair-in-dubai-fridge-repair-in-dubai-washing-machine-repair-in-dubai-dishwasher-cooker-oven-repairs-fix-service-in-dubai/",
-        element: <Components.IfbRefrigeratorRepair/>,
+        element: <Components.IfbRefrigeratorRepair />,
       },
       {
         path: "/kitchenaid-stand-mixer-repair-service-near-me-dubai/",
-        element: <Components.KitchenaidStandMixerRepairService/>,
+        element: <Components.KitchenaidStandMixerRepairService />,
       },
       {
         path: "/kenwood-stand-mixer-repair-service-near-me-dubai/",
-        element: <Components.KenwoodStandMixerRepairService/>,
+        element: <Components.KenwoodStandMixerRepairService />,
       },
       {
         path: "/candy-refrigerator-repair-in-dubai-fridge-repair-in-dubai-washing-machine-repair-in-dubai-dishwasher-cooker-oven-repairs-fix-service-in-dubai/",
-        element: <Components.CandyRefrigeratorRepair/>,
+        element: <Components.CandyRefrigeratorRepair />,
       },
       {
         path: "/hotpoint-refrigerator-repair-in-dubai-hotpoint-fridge-repair-in-dubai-hotpoint-washing-machine-repair-in-dubai-hotpoint-dishwasher-cooker-oven-repairs-fix-service-in-dubai/",
-        element: <Components.HotpointRefrigeratorRepair/>,
+        element: <Components.HotpointRefrigeratorRepair />,
       },
       {
         path: "/de-dietrich-fridge-repair-in-dubai-de-dietrich-washing-machine-repair-in-dubai-de-dietrich-cooker-repair-in-dubai-de-dietrich-oven-repair-in-dubai-de-dietrich-appliances-maintenance-in-dubai-de-dietri/",
-        element: <Components.DeDietrichFridgeRepair/>,
+        element: <Components.DeDietrichFridgeRepair />,
       },
       {
         path: "/smeg-mixer-repair-service-near-me-dubai/",
-        element: <Components.SmegMixerRepairService/>,
+        element: <Components.SmegMixerRepairService />,
       },
       {
         path: "/la-germania-cooking-range-repair-in-dubai-la-germania-oven-repair-in-dubai-la-germania-cooker-repair-in-dubai-la-germania-cooker-oven-maintenance-service-in-dubai-refrigerator-repair-in-dubai-fridge-r/",
-        element: <Components.LaGermaniaCookingRangeRepair/>,
+        element: <Components.LaGermaniaCookingRangeRepair />,
       },
       {
         path: "/delonghi-coffee-machine-repair/",
-        element: <Components.DelonghiCoffeeMachineRepair/>,
+        element: <Components.DelonghiCoffeeMachineRepair />,
       },
       {
         path: "/appliances-services-in-al-mamzar/",
-        element: <Components.AppliancesServiceInAlMamzar/>,
+        element: <Components.AppliancesServiceInAlMamzar />,
       },
       {
         path: "/appliances-services-in-al-mizhar/",
-        element: <Components.AppliancesServiceInAlMizhar/>,
+        element: <Components.AppliancesServiceInAlMizhar />,
       },
       {
         path: "/appliances-services-in-damac-hills/",
-        element: <Components.AppliancesServiceInDamacHills/>,
+        element: <Components.AppliancesServiceInDamacHills />,
       },
       {
         path: "/appliances-services-in-dubai-hills-estate/",
-        element: <Components.AppliancesServiceInDubaiHillsEstate/>,
+        element: <Components.AppliancesServiceInDubaiHillsEstate />,
       },
       {
         path: "/appliances-services-in-dubai-production-city/",
-        element: <Components.AppliancesServiceInDubaiProductionCity/>,
+        element: <Components.AppliancesServiceInDubaiProductionCity />,
       },
       {
         path: "/appliances-services-in-town-square/",
-        element: <Components.AppliancesServiceInTownSquare/>,
+        element: <Components.AppliancesServiceInTownSquare />,
       },
       {
         path: "/appliances-services-in-business-bay/",
-        element: <Components.AppliancesServiceInBusinessBay/>,
+        element: <Components.AppliancesServiceInBusinessBay />,
       },
       {
         path: "/appliances-services-in-al-ghadeer-community/",
-        element: <Components.AppliancesServiceInAlGhadeerCommunity/>,
+        element: <Components.AppliancesServiceInAlGhadeerCommunity />,
       },
       {
         path: "/appliances-services-in-the-gardens/",
-        element: <Components.AppliancesServiceInTheGardens/>,
+        element: <Components.AppliancesServiceInTheGardens />,
       },
       {
         path: "/appliances-services-in-the-limestone-house-difc/",
-        element: <Components.AppliancesServiceInLimestoneHouseDifc/>,
+        element: <Components.AppliancesServiceInLimestoneHouseDifc />,
       },
       {
         path: "/appliances-services-in-international-media-and-production-zone/",
-        element: <Components.AppliancesServiceInInternationalMediaAndProductionZone/>,
+        element: <Components.AppliancesServiceInInternationalMediaAndProductionZone />,
       },
       {
         path: "/appliances-services-in-jlt/",
-        element: <Components.AppliancesServicesInJlt/>,
+        element: <Components.AppliancesServicesInJlt />,
       },
       {
         path: "/appliances-services-in-the-views/",
-        element: <Components.AppliancesServicesInTheViews/>,
+        element: <Components.AppliancesServicesInTheViews />,
       },
       {
         path: "/appliances-services-in-al-safa/",
-        element: <Components.AppliancesServicesInAlSafa/>,
+        element: <Components.AppliancesServicesInAlSafa />,
       },
       {
         path: "/appliances-services-in-jumeirah/",
-        element: <Components.AppliancesServicesInJumeirah/>,
+        element: <Components.AppliancesServicesInJumeirah />,
       },
       {
         path: "/appliances-services-jumeirah/",
-        element: <Components.AppliancesServicesJumeirah/>,
+        element: <Components.AppliancesServicesJumeirah />,
       },
       {
         path: "/appliances-services-in-discovery-gardens/",
-        element: <Components.AppliancesServicesInDiscoveryGardens/>,
+        element: <Components.AppliancesServicesInDiscoveryGardens />,
       },
       {
         path: "/appliances-services-in-the-lakes/",
-        element: <Components.AppliancesServicesInTheLakes/>,
+        element: <Components.AppliancesServicesInTheLakes />,
       },
       {
         path: "/appliances-services-in-jumeirah-golf-estates/",
-        element: <Components.AppliancesServicesInJumeirahGolfEstates/>,
+        element: <Components.AppliancesServicesInJumeirahGolfEstates />,
       },
       {
         path: "/home-appliances-installation-maintenance-repair-fix-service-centre-in-jlt-dubai/",
-        element: <Components.HomeAppliancesServiceCentreInJltDubai/>,
+        element: <Components.HomeAppliancesServiceCentreInJltDubai />,
       },
       {
         path: "/appliances-services-in-emirates-hills/",
-        element: <Components.AppliancesServicesInEmiratesHills/>,
+        element: <Components.AppliancesServicesInEmiratesHills />,
       },
       {
         path: "/appliances-services-in-silicon-oasis-dubai/",
-        element: <Components.AppliancesServicesInSiliconOasisDubai/>,
+        element: <Components.AppliancesServicesInSiliconOasisDubai />,
       },
       {
         path: "/appliances-services-in-victory-heights/",
-        element: <Components.AppliancesServicesInVictoryHeights/>,
+        element: <Components.AppliancesServicesInVictoryHeights />,
       },
       {
         path: "/appliances-services-in-remraam/",
-        element: <Components.AppliancesServicesInRemraam/>,
+        element: <Components.AppliancesServicesInRemraam />,
       },
       {
         path: "/appliances-services-in-al-jafiliya/",
-        element: <Components.AppliancesServicesInAlJafiliya/>,
+        element: <Components.AppliancesServicesInAlJafiliya />,
       },
       {
         path: "/appliances-services-in-al-furjan/",
-        element: <Components.AppliancesServicesInAlFurjan/>,
+        element: <Components.AppliancesServicesInAlFurjan />,
       },
       {
         path: "/appliances-services-in-dubai-investments-park/",
-        element: <Components.AppliancesServicesInDubaiInvestmentsPark/>,
+        element: <Components.AppliancesServicesInDubaiInvestmentsPark />,
       },
       {
         path: "/appliances-services-in-tecom/",
-        element: <Components.AppliancesServicesInTecom/>,
+        element: <Components.AppliancesServicesInTecom />,
       },
       {
         path: "/appliances-services-in-al-barsha-south/",
-        element: <Components.AppliancesServicesInAlBarshaSouth/>,
+        element: <Components.AppliancesServicesInAlBarshaSouth />,
       },
       {
         path: "/appliances-services-in-jumeirah-village/",
-        element: <Components.AppliancesServicesInJumeirahVillage/>,
+        element: <Components.AppliancesServicesInJumeirahVillage />,
       },
       {
         path: "/appliances-services-in-al-badaa/",
-        element: <Components.AppliancesServicesInAlBadaa/>,
+        element: <Components.AppliancesServicesInAlBadaa />,
       },
       {
         path: "/appliances-services-in-al-satwa/",
-        element: <Components.AppliancesServicesInAlSatwa/>,
+        element: <Components.AppliancesServicesInAlSatwa />,
       },
       {
         path: "/appliances-services-in-dubai-healthcare-city/",
-        element: <Components.AppliancesServicesInDubaiHealthcareCity/>,
+        element: <Components.AppliancesServicesInDubaiHealthcareCity />,
       },
       {
         path: "/appliances-services-in-jumeirah-islands/",
-        element: <Components.AppliancesServicesInJumeirahIslands/>,
+        element: <Components.AppliancesServicesInJumeirahIslands />,
       },
       {
         path: "/appliances-services-in-jebel-ali-village/",
-        element: <Components.AppliancesServicesInJebelAliVillage/>,
+        element: <Components.AppliancesServicesInJebelAliVillage />,
       },
       {
         path: "/appliances-services-in-palm-jumeirah/",
-        element: <Components.AppliancesServicesInPalmJumeirah/>,
+        element: <Components.AppliancesServicesInPalmJumeirah />,
       },
       {
         path: "/appliances-services-in-dubailand-mazaya/",
-        element: <Components.AppliancesServicesInDubailandMazaya/>,
+        element: <Components.AppliancesServicesInDubailandMazaya />,
       },
       {
         path: "/appliances-services-in-falcon-city-dubai/",
-        element: <Components.AppliancesServicesInFalconCityDubai/>,
+        element: <Components.AppliancesServicesInFalconCityDubai />,
       },
       {
         path: "/appliances-services-in-arabian-ranches/",
-        element: <Components.ApplianceServiceInArabianRanches/>,
+        element: <Components.ApplianceServiceInArabianRanches />,
       },
       {
         path: "/washing-machine-repair-in-al-quoz-refrigerator-repair-in-al-quoz-fridge-repair-in-al-quoz-dishwasher-oven-cooker-stove-appliance-maintenance-fix-service-in-al-quoz-dubai/",
-        element: <Components.WashingMachineRepairInAlQuoz/>,
+        element: <Components.WashingMachineRepairInAlQuoz />,
       },
       {
         path: "/washing-machine-repair-town-dubai-fridge-repair-town-dubai-refrigerator-repairing-town-dubai-cooker-stove-oven-cooking-range-repairs-fix-service-centre-town-dubai-dishwasher-installation-fixing-mainte/",
-        element: <Components.WashingMachineRepairTownDubai/>,
+        element: <Components.WashingMachineRepairTownDubai />,
       },
       {
         path: "/washing-machine-repair-business-bay-fridge-repair-business-bay-refrigerator-repairing-business-bay-cooker-stove-oven-cooking-range-repairs-fix-service-centre-business-bay-dishwasher-installation-fixin/",
-        element: <Components.WashingMachineRepairBusinessBay/>,
+        element: <Components.WashingMachineRepairBusinessBay />,
       },
       {
         path: "/washing-machine-repair-in-dubai-marina-fridge-repair-in-dubai-marina-refrigerator-repairing-in-dubai-marina-cooker-stove-oven-cooking-range-repairs-fix-service-centre-in-dubai-marina-dishwasher-instal/",
-        element: <Components.WashingMachineRepairInDubaiMarina/>,
+        element: <Components.WashingMachineRepairInDubaiMarina />,
       },
       {
         path: "/fridge-repair-in-dubai-marina-washing-machine-repair-in-dubai-marina-dishwasher-repair-in-dubai-marina-refrigerator-repair-maintenance-in-dubai-marina-cooker-oven-repair-fix-service-in-cooking-range-e/",
-        element: <Components.FridgeRepairInDubaiMarina/>,
+        element: <Components.FridgeRepairInDubaiMarina />,
       },
       {
         path: "/washing-machine-repair-al-barsha-dubai-fridge-repair-al-barsha-dubai-refrigerator-repairing-al-barsha-dubai-cooker-stove-oven-cooking-range-repairs-fix-service-centre-al-barsha-dubai-dishwasher-inst-2/",
-        element: <Components.WashingMachineRepairAlBarsha/>,
+        element: <Components.WashingMachineRepairAlBarsha />,
       },
       {
         path: "/washing-machine-repair-palm-jumeirah-fridge-repair-palm-jumeirah-refrigerator-repairing-palm-jumeirah-cooker-stove-oven-cooking-range-repairs-fix-service-centre-palm-jumeirah-dishwasher-installation-f/",
-        element: <Components.WashingMachineRepairPalmJumeirah/>,
+        element: <Components.WashingMachineRepairPalmJumeirah />,
       },
       {
         path: "/fridge-repair-dubai-marina/",
-        element: <Components.FridgeRepairDubaiMarina/>,
+        element: <Components.FridgeRepairDubaiMarina />,
       },
       {
         path: "/appliances-services-in-the-ritz-carlton-difc/",
-        element: <Components.ApplianceServiceInTheRitzCarltonDifc/>,
+        element: <Components.ApplianceServiceInTheRitzCarltonDifc />,
       },
       {
         path: "/appliances-services-in-oud-metha/",
-        element: <Components.ApplianceServiceInOudMetha/>,
+        element: <Components.ApplianceServiceInOudMetha />,
       },
       {
         path: "/appliances-services-in-umm-al-sheif/",
-        element: <Components.ApplianceServiceInUmmAlSheif/>,
+        element: <Components.ApplianceServiceInUmmAlSheif />,
       },
       {
         path: "/appliances-services-in-umm-suqeim/",
-        element: <Components.ApplianceServiceInUmmSuqeim/>,
+        element: <Components.ApplianceServiceInUmmSuqeim />,
       },
       {
         path: "/appliances-services-in-jebel-ali-industrial-area/",
-        element: <Components.ApplianceServiceInJebelAliIndustrialArea/>,
+        element: <Components.ApplianceServiceInJebelAliIndustrialArea />,
       },
       {
         path: "/home-appliances-installation-maintenance-repair-fix-service-centre-in-jumeirah-dubai/",
-        element: <Components.ApplianceServiceInJumeriahDubai/>,
+        element: <Components.ApplianceServiceInJumeriahDubai />,
       },
       {
         path: "/appliances-services-in-jumeirah-heights/",
-        element: <Components.ApplianceServiceInJumeriahHeights/>,
+        element: <Components.ApplianceServiceInJumeriahHeights />,
       },
       {
         path: "/appliances-services-in-dubai-silicon-oasis/",
-        element: <Components.ApplianceServiceInDubaiSiliconOasis/>,
+        element: <Components.ApplianceServiceInDubaiSiliconOasis />,
       },
       {
         path: "/appliances-services-in-the-villa/",
-        element: <Components.ApplianceServiceInTheVilla/>,
+        element: <Components.ApplianceServiceInTheVilla />,
       },
       {
         path: "/appliances-services-in-al-waha-community/",
-        element: <Components.ApplianceServiceInAlWahaCommunity/>,
+        element: <Components.ApplianceServiceInAlWahaCommunity />,
       },
       {
         path: "/appliances-services-in-bur-dubai/",
-        element: <Components.ApplianceServiceInBurDubai/>,
+        element: <Components.ApplianceServiceInBurDubai />,
       },
       {
         path: "/appliances-services-in-jumeirah-village-triangle/",
-        element: <Components.ApplianceServiceInJumeirahVillageTriangle/>,
+        element: <Components.ApplianceServiceInJumeirahVillageTriangle />,
       },
       {
         path: "/appliances-services-in-mankhool/",
-        element: <Components.ApplianceServiceInMankhool/>,
+        element: <Components.ApplianceServiceInMankhool />,
       },
       {
         path: "/appliances-services-in-the-springs/",
-        element: <Components.ApplianceServiceInTheSprings/>,
+        element: <Components.ApplianceServiceInTheSprings />,
       },
       {
         path: "/appliances-services-in-al-manara/",
-        element: <Components.ApplianceServiceInAlManara/>,
+        element: <Components.ApplianceServiceInAlManara />,
       },
       {
         path: "/appliances-services-in-al-barari/",
-        element: <Components.ApplianceServiceInAlbarari/>,
+        element: <Components.ApplianceServiceInAlbarari />,
       },
       {
         path: "/appliances-services-in-jvt/",
-        element: <Components.ApplianceServiceInJvt/>,
+        element: <Components.ApplianceServiceInJvt />,
       },
       {
         path: "/appliances-services-in-nad-al-sheba/",
-        element: <Components.ApplianceServiceInNadAlSheba/>,
+        element: <Components.ApplianceServiceInNadAlSheba />,
       },
       {
         path: "/appliances-services-in-dubai-marina/",
-        element: <Components.ApplianceServiceInDubaiMarina/>,
+        element: <Components.ApplianceServiceInDubaiMarina />,
       },
       {
         path: "/appliances-services-in-al-barsha/",
-        element: <Components.ApplianceServiceInAlBarsha/>,
+        element: <Components.ApplianceServiceInAlBarsha />,
       },
       {
         path: "/appliances-services-in-arabian-ranches/",
-        element: <Components.ApplianceServiceInArabianRanches/>,
+        element: <Components.ApplianceServiceInArabianRanches />,
       },
       {
         path: "/appliances-services-in-jumeirah-village-circle/",
-        element: <Components.ApplianceServiceInJumeirahVillageCircle/>,
+        element: <Components.ApplianceServiceInJumeirahVillageCircle />,
       },
       {
         path: "/appliances-services-in-dubai-motor-city/",
-        element: <Components.ApplianceServiceInDubaiMotorCity/>,
+        element: <Components.ApplianceServiceInDubaiMotorCity />,
       },
       {
         path: "/appliances-services-in-al-wasl/",
-        element: <Components.ApplianceServiceInAlWasl/>,
+        element: <Components.ApplianceServiceInAlWasl />,
       },
       {
         path: "/appliances-services-in-jebel-ali-dip/",
-        element: <Components.ApplianceServiceInJebelAliDip/>,
+        element: <Components.ApplianceServiceInJebelAliDip />,
       },
       {
         path: "/appliances-services-in-academy-city/",
-        element: <Components.ApplianceServiceInAcademyCity/>,
+        element: <Components.ApplianceServiceInAcademyCity />,
       },
       {
         path: "/appliances-services-in-dubailand-the-villa/",
-        element: <Components.ApplianceServiceInDubailandTheVilla/>,
+        element: <Components.ApplianceServiceInDubailandTheVilla />,
       },
       {
         path: "/ApplianceServiceInLayanComminity/",
-        element: <Components.ApplianceServiceInLayanComminity/>,
+        element: <Components.ApplianceServiceInLayanComminity />,
       },
       {
         path: "/appliances-services-in-layan-community/",
-        element: <Components.ApplianceServiceInLayanComminity/>,
+        element: <Components.ApplianceServiceInLayanComminity />,
       },
       {
         path: "/appliances-services-in-jvc/",
-        element: <Components.ApplianceServiceInJvc/>,
+        element: <Components.ApplianceServiceInJvc />,
       },
       {
         path: "/appliances-services-in-deira/",
-        element: <Components.ApplianceServiceInDeira/>,
+        element: <Components.ApplianceServiceInDeira />,
       },
       {
         path: "/appliances-services-in-jumeirah-beach-residence/",
-        element: <Components.ApplianceServiceInJumeirahBeachResidence/>,
+        element: <Components.ApplianceServiceInJumeirahBeachResidence />,
       },
       {
         path: "/appliances-services-in-jge/",
-        element: <Components.ApplianceServiceInJge/>,
+        element: <Components.ApplianceServiceInJge />,
       },
       {
         path: "/appliances-services-in-hudaiba/",
-        element: <Components.ApplianceServiceInHudaiba/>,
+        element: <Components.ApplianceServiceInHudaiba />,
       },
       {
         path: "/appliances-services-in-jebel-ali-free-zone/",
-        element: <Components.ApplianceServiceInJebelAliFreeZone/>,
+        element: <Components.ApplianceServiceInJebelAliFreeZone />,
       },
       {
         path: "/appliances-services-in-dubai-sports-city/",
-        element: <Components.ApplianceServiceInDubaiSportCity/>,
+        element: <Components.ApplianceServiceInDubaiSportCity />,
       },
       {
         path: "/appliances-services-in-dubai-internet-city/",
-        element: <Components.ApplianceServiceInDubaiInternetCity/>,
+        element: <Components.ApplianceServiceInDubaiInternetCity />,
       },
       {
         path: "/appliances-washing-machine-fridge-dishwasher-service-jbr-dubai/",
-        element: <Components.ApplianceServiceInJbrDubai/>,
+        element: <Components.ApplianceServiceInJbrDubai />,
       },
       {
         path: "/appliances-services-in-mudon/",
-        element: <Components.ApplianceServiceInMudon/>,
+        element: <Components.ApplianceServiceInMudon />,
       },
       {
         path: "/appliances-services-in-jebel-ali/",
-        element: <Components.ApplianceServiceInJebelAli/>,
+        element: <Components.ApplianceServiceInJebelAli />,
       },
       {
         path: "/appliances-services-in-dip/",
-        element: <Components.ApplianceServiceInDip/>,
+        element: <Components.ApplianceServiceInDip />,
       },
       {
         path: "/appliances-services-in-index-tower-difc/",
-        element: <Components.ApplianceServiceInIndexTowerDifc/>,
+        element: <Components.ApplianceServiceInIndexTowerDifc />,
       },
       {
         path: "/appliances-services-in-impzy/",
-        element: <Components.ApplianceServiceInImpzy/>,
+        element: <Components.ApplianceServiceInImpzy />,
       },
       {
         path: "/appliances-services-in-jbr/",
-        element: <Components.ApplianceServiceInJbr/>,
+        element: <Components.ApplianceServiceInJbr />,
       },
       {
         path: "/appliances-services-in-dubailand-mazaya-queue-point/",
-        element: <Components.ApplianceServiceInDubailandMazayaQueuePoint/>,
+        element: <Components.ApplianceServiceInDubailandMazayaQueuePoint />,
       },
       {
         path: "/appliances-services-in-flamingo-villas-dubai/",
-        element: <Components.ApplianceServiceInFlamingoVillasDubai/>,
+        element: <Components.ApplianceServiceInFlamingoVillasDubai />,
       },
       {
         path: "/appliances-services-in-cedre-villas-silicon-oasis-dubai/",
-        element: <Components.ApplianceServiceInCedreVillasSiliconOasisDubai/>,
+        element: <Components.ApplianceServiceInCedreVillasSiliconOasisDubai />,
       },
       {
         path: "/appliances-services-in-al-karama/",
-        element: <Components.ApplianceServiceInAlKaram/>,
+        element: <Components.ApplianceServiceInAlKaram />,
       },
       {
         path: "/appliances-services-in-the-greens/",
-        element: <Components.ApplianceServiceInTheGreens/>,
+        element: <Components.ApplianceServiceInTheGreens />,
       },
       {
         path: "/appliances-services-in-arabian-ranches-2/",
-        element: <Components.ApplianceServiceInArabianRanches2/>,
+        element: <Components.ApplianceServiceInArabianRanches2 />,
       },
       {
         path: "/appliances-services-in-jumeirah-lake-towers/",
-        element: <Components.ApplianceServiceInJumeirahLakeTowers/>,
+        element: <Components.ApplianceServiceInJumeirahLakeTowers />,
       },
       {
         path: "/appliances-services-in-dubai-media-city/",
-        element: <Components.ApplianceServiceInDubaiMediaCity/>,
+        element: <Components.ApplianceServiceInDubaiMediaCity />,
       },
       {
         path: "/appliances-services-in-the-meadows/",
-        element: <Components.ApplianceServiceInMeadows/>,
+        element: <Components.ApplianceServiceInMeadows />,
       },
       {
         path: "/appliances-services-in-dubai-studio-city/",
-        element: <Components.ApplianceServiceInDubaiStudioCity/>,
+        element: <Components.ApplianceServiceInDubaiStudioCity />,
       },
       {
         path: "/appliances-services-in-al-sufouh/",
-        element: <Components.AppliancesServicesInAlSufouh/>,
+        element: <Components.AppliancesServicesInAlSufouh />,
       },
       {
         path: "/appliances-services-in-al-bada/",
-        element: <Components.AppliancesServicesInAlBada/>,
+        element: <Components.AppliancesServicesInAlBada />,
       },
       {
         path: "/appliances-services-in-al-raffa/",
-        element: <Components.ApplianceServiceInAlRaffa/>,
+        element: <Components.ApplianceServiceInAlRaffa />,
       },
       {
         path: "/appliances-services-in-difc/",
-        element: <Components.ApplianceServiceInDifc/>,
+        element: <Components.ApplianceServiceInDifc />,
       },
       {
         path: "/appliances-services-in-jumeirah-park/",
-        element: <Components.ApplianceServiceInJumeirahPark/>,
+        element: <Components.ApplianceServiceInJumeirahPark />,
       },
       {
         path: "/ac-services-in-jebel-ali-industrial-area/",
-        element: <Components.AcRepairInJebelAliIndustrialArea/>,
+        element: <Components.AcRepairInJebelAliIndustrialArea />,
       },
     ],
   }
