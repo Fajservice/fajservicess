@@ -432,7 +432,7 @@ const MitsubishiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description,
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h3>
                       <p className="small">
-                        Our team provides vital feedback on your Mitsubishi AC's health and any needed repairs.
+                        Our team provides feedback on your Mitsubishi AC's health and needed repairs.
                       </p>
                     </div>
                   </div>
@@ -561,7 +561,7 @@ const MitsubishiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description,
                 <p className="mb-0"> <strong> Mitsubishi Ceiling AC Service and Repair: </strong> Our experts can accurately diagnose and fix any issues with your Mitsubishi air conditioner. </p>
                 <p className="mb-0"> <strong> Mitsubishi VRF (Variable Refrigerant Flow) System Service and Repair: </strong> FAJ's Mitsubishi Variable Refrigerant Flow (VRF) System service offers reliable and efficient HVAC solutions tailored to your needs. Our skilled team prioritizes your comfort and satisfaction, ensuring exceptional service and peace of mind. Trust us to handle your climate control with expertise and care. </p>
                 <p className="mb-0"> <strong> Mitsubishi Ducted Split AC Service and Repair: </strong> When it comes to repairing and maintaining Mitsubishi ducted split AC repair and maintenance service in Dubai, having expert assistance is essential for optimal performance. Our team of highly skilled technicians is dedicated to diagnosing and resolving a wide range of AC issues, ensuring minimal disruption to your daily life. You can trust us to provide the relief you need quickly and reliably. </p>
-                <p className="mb-0"> <strong> Mitsubishi Wall-Mounted Air Conditioner Service and Repair: </strong> Beat Dubai's intense heat with our expert <a href="/ac-service-in-dubai/">Mitsubishi AC services</a>. We ensure your unit operates efficiently, keeping your indoor space cool and comfortable while temperatures soar outside. </p>
+                <p className="mb-0"> <strong> Mitsubishi Wall-Mounted Air Conditioner Service and Repair: </strong> Beat Dubai's intense heat with our expert <a href="https://www.google.com/search?q=faj+technical+llc+gmb&rlz=1C1GCEU_en-GBPK1161PK1162&oq=&gs_lcrp=EgZjaHJvbWUqCQgAECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIPCAYQLhgnGK8BGMcBGOoCMgkIBxAjGCcY6gLSAQsyNzQ0OTUwajBqN6gCCLACAfEFNHg2jm1mi9w&sourceid=chrome&ie=UTF-8#lpc=lpc&prid=-6827086688122157">Mitsubishi AC services</a>. We ensure your unit operates efficiently, keeping your indoor space cool and comfortable while temperatures soar outside. </p>
 
 
 

@@ -173,7 +173,7 @@ const DaewooAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
 
             <h2 className="cs_fs_30">Why is Daewoo AC Maintenance Service Important in Dubai?</h2>
             <p className="">
-              To guarantee your Daewoo central air conditioner functions efficiently in Dubai's intense heat, regular AC maintenance is essential. At <a href="https://fajservices.ae/">FAJ</a>, we offer expert aircon services designed to enhance your system’s performance and comfort year-round. Trust us to keep your air conditioner operating at its best.
+              To guarantee your Daewoo central air conditioner functions efficiently in Dubai's intense heat, regular AC maintenance is essential. At <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ</a>, we offer expert aircon services designed to enhance your system’s performance and comfort year-round. Trust us to keep your air conditioner operating at its best.
             </p>
 
             <div className="row align-items-center">

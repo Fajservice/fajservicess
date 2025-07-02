@@ -172,7 +172,7 @@ const BlueStarAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
             <h2 className="cs_fs_30">Why is Blue Star AC Maintenance Service Important in Dubai?</h2>
             <p className="">
-              To guarantee your Blue Star central air conditioner functions efficiently in Dubai&apos;s intense heat, regular <a href="https://www.linkedin.com/company/faj-technical-services-llc">AC maintenance</a> is essential. At FAJ, we offer expert aircon services designed to enhance your system’s performance and comfort year-round. Trust us to keep your air conditioner operating at its best.
+              To guarantee your Blue Star central air conditioner functions efficiently in Dubai&apos;s intense heat, regular <a href="https://www.fajservices.ae/ac-maintenance-dubai/">AC maintenance</a> is essential. At FAJ, we offer expert aircon services designed to enhance your system’s performance and comfort year-round. Trust us to keep your air conditioner operating at its best.
             </p>
 
             <div className="row align-items-center">
@@ -419,7 +419,7 @@ const BlueStarAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h3>
                       <p className="small">
-                        Our team provides vital feedback on your Blue Star AC&apos;s health and any needed repairs.
+                        Our team provides feedback on your Blue Star AC&apos;s health and needed repairs.
                       </p>
                     </div>
                   </div>

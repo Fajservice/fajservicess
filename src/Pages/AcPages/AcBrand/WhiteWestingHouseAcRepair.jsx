@@ -7,8 +7,8 @@ const WhiteWestingHouseAcRepair = () => {
             <BreadCumb
                 bgImg="img/acbrands/white-westinghouse-ac-repair.avif"
                 Title="White Westinghouse AC Repair Service in Dubai"
-            ></BreadCumb> 
-            <WhiteWestinghouseAcRepairDetail></WhiteWestinghouseAcRepairDetail>           
+            ></BreadCumb>
+            <WhiteWestinghouseAcRepairDetail></WhiteWestinghouseAcRepairDetail>
         </div>
     );
 };

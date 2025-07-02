@@ -164,8 +164,8 @@ const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
         </section>
 
         {/* AC Price Section */}
-            <FAJACPrice></FAJACPrice>
-            
+        <FAJACPrice></FAJACPrice>
+
         {/* Why*/}
         <section className="section cs_py_30">
           <div className="container">
@@ -550,7 +550,7 @@ const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                 <p className="mb-0"><strong>   Gree Ceiling AC Service and Repair: </strong> No matter what the issue is with your Gree air conditioner, our experts can accurately diagnose and fix it.</p>
                 <p className="mb-0"><strong>   Gree AC Service and Maintenance: </strong> Is your AC not working? Don’t endure uncomfortable temperatures and stuffy air, or risk damage to your equipment—FAJ can get your Gree air conditioning functioning again in no time!</p>
                 <p className="mb-0"><strong>   Gree Ducted Split AC Service and Repair: </strong> Gree ducted split AC service in Dubai requires expert assistance, as only specialists know how to address air conditioning issues. We provide a hassle-free Gree air conditioning repair service and fix errors.</p>
-                <p className=""><strong>   Gree Wall-Mounted Air Conditioner Service and Repair: </strong> Looking for relief from the scorching heat? Discover how to keep your Gree AC running smoothly in Dubai! Our expert <a href="/ac-repair-dubai/">Gree AC services</a> ensure your unit remains cool and efficient, providing comfort and peace of mind.  </p>
+                <p className=""><strong>   Gree Wall-Mounted Air Conditioner Service and Repair: </strong> Looking for relief from the scorching heat? Discover how to keep your Gree AC running smoothly in Dubai! Our expert <a href="https://www.google.com/search?q=faj+technical+llc+gmb&sca_esv=a182306c0b9e7281&sxsrf=AE3TifP6twoVuhedCe8xy_x2cw69ihmDVA%3A1748516672478&ei=QD84aJTtHNeW7_UPw-KsqQY&ved=0ahUKEwiUjZaZxMiNAxVXy7sIHUMxK2UQ4dUDCBA&uact=5&oq=faj+technical+llc+gmb&gs_lp=Egxnd3Mtd2l6LXNlcnAiFWZhaiB0ZWNobmljYWwgbGxjIGdtYjIFECEYoAEyBRAhGKABSIUqUMcEWNoccAF4AZABAJgBlQKgAYgOqgEDMi04uAEDyAEA-AEBmAIJoALEDsICDRAuGLADGMcBGCcYrwHCAgcQIxiwAxgnwgIKEAAYsAMY1gQYR8ICEBAuGIAEGMcBGCcYigUYrwHCAgQQIxgnwgIFEAAYgATCAgYQABgWGB7CAgsQABiABBiGAxiKBcICHRAuGIAEGMcBGIoFGK8BGJcFGNwEGN4EGOAE2AEBwgIIEAAYFhgKGB7CAggQABiABBiiBMICBRAAGO8FwgIEECEYFZgDAIgGAZAGCroGBggBEAEYFJIHBTEuMC44oAeCMrIHAzItOLgHtg7CBwcwLjIuNS4yyAcu&sclient=gws-wiz-serp#lpc=lpc&prid=7357667077339788928&scso=_2j84aLrrB-CG9u8P9oSMgAg_76:744">Gree AC services</a> ensure your unit remains cool and efficient, providing comfort and peace of mind.  </p>
 
                 <p>
                   <a href="https://www.fajservices.ae/ac-repair-in-al-barsha-air-condition-maintenance-in-al-barsha-air-conditioning-fix-amc-service-in-al-barsha-dubai/">Al Barsha</a> &nbsp;|&nbsp;
@@ -660,7 +660,7 @@ const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
               </div>
             </div>
           </div>
-          
+
         </section>
 
         {/* FAQ&apos;s */}

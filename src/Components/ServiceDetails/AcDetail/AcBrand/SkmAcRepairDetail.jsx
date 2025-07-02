@@ -365,7 +365,7 @@ const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">COOLING EFFICIENCY</h3>
                       <p className="small">
-                        We perform a comprehensive assessment of cooling efficiency using a temperature gun.
+                        We perform a comprehensive assessment of cooling efficiency using temperature gun.
                       </p>
                     </div>
                   </div>
@@ -377,7 +377,7 @@ const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">DISINFECT COMPONENTS</h3>
                       <p className="small">
-                        All hardware components have been thoroughly tested and disinfected, including the filters and vents.
+                        All hardware components have been tested and disinfected, including filters and vents.
                       </p>
                     </div>
                   </div>
@@ -401,7 +401,7 @@ const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">THERMOSTAT CHECK</h3>
                       <p className="small">
-                        We use a laser temperature gauge to ensure that the thermostats are functioning correctly.
+                        We use a laser temperature gauge to ensure thermostats are functioning correctly.
                       </p>
                     </div>
                   </div>
@@ -425,7 +425,7 @@ const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h3>
                       <p className="small">
-                        Our team offers essential feedback on the condition of your SKM AC and any necessary repairs.
+                        Our team provides feedback on your SKM AC's health and needed repairs.
                       </p>
                     </div>
                   </div>

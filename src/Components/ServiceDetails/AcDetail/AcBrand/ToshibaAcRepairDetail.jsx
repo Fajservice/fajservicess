@@ -115,7 +115,7 @@ const ToshibaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
             <h1 className="cs_fs_30">Toshiba AC Repair in Dubai and AC Maintenance Service</h1>
             <p>
               For year-round comfort, it is essential to effectively address challenges such as humidity, warm nights, and indoor allergens.
-              <br />Since our inception in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"> F A J Technical Services L.L.C </a>has established itself as a trusted leader in Toshiba air conditioning solutions in Dubai and Sharjah. Our highly skilled team is dedicated to providing exceptional services, including AC repair, cleaning service, maintenance, and installation for both residential and commercial settings. We are committed to enhancing the performance of your air conditioner system, ensuring that you enjoy exceptional indoor comfort throughout the year.
+              <br />Since our inception in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"> F A J Technical Services L.L.C</a> has established itself as a trusted leader in Toshiba air conditioning solutions in Dubai and Sharjah. Our highly skilled team is dedicated to providing exceptional services, including AC repair, cleaning service, maintenance, and installation for both residential and commercial settings. We are committed to enhancing the performance of your air conditioner system, ensuring that you enjoy exceptional indoor comfort throughout the year.
 
             </p>
             <div id="get-quote" className=" mt-3">
@@ -186,7 +186,7 @@ const ToshibaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                 <ul className="mb-0">
                   <li> <strong> Extreme Weather: </strong> As summer approaches, we can expect temperatures to soar above 40°C (104°F), creating discomfort. it&apos;s essential to ensure that your Toshiba air conditioning systems are primed for optimal performance. </li>
                   <li> <strong> Energy Efficiency: </strong> A well-maintained Toshiba air conditioner operates efficiently, resulting in significant energy savings and lower DEWA electricity costs. </li>
-                  <li> <strong> Longevity of Equipment: </strong> Keeping up with the Toshiba <a href="/ac-maintenance-dubai/">AC maintenance</a> is really important for getting the best performance and efficiency. It helps lower repair costs and can save money for both homes and businesses. </li>
+                  <li> <strong> Longevity of Equipment: </strong> Keeping up with the Toshiba <a href="/ac-maintenance-dubai/" className="fw-bold text-decoration-underline">AC maintenance</a> is really important for getting the best performance and efficiency. It helps lower repair costs and can save money for both homes and businesses. </li>
                   <li> <strong> Improved Air Quality: </strong> Routine Toshiba air conditioner cleaning service prevents dust and allergens from getting in, resulting in improved air quality. </li>
                   <li> <strong> Enhanced Comfort: </strong> Regular air conditioner maintenance in Dubai is vital for optimal efficiency and a comfortable indoor environment. </li>
 

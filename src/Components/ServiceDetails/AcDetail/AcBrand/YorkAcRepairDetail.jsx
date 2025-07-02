@@ -209,7 +209,7 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      <a href="https://www.youtube.com/watch?v=qnByeIsc3lY">Reduced airflow </a>from York AC ducts may signal a blocked filter or faulty motor. Prompt attention ensures efficient cooling and extends system lifespan.
+                      <a href="https://www.youtube.com/watch?v=qnByeIsc3lY">Reduced airflow</a> from York AC ducts may signal a blocked filter or faulty motor. Prompt attention ensures efficient cooling and extends system lifespan.
                     </p>
                   </div>
                 </div>
@@ -375,7 +375,7 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">DISINFECT COMPONENTS</h3>
                       <p className="small">
-                        All hardware components have been thoroughly tested and disinfected, including the filters and vents.
+                        All hardware components have been tested and disinfected, including filters and vents.
                       </p>
                     </div>
                   </div>
@@ -399,7 +399,7 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">THERMOSTAT CHECK</h3>
                       <p className="small">
-                        We use a laser temperature gauge to ensure that the thermostats are functioning correctly.
+                        We use a laser temperature gauge to ensure thermostats are functioning correctly.
                       </p>
                     </div>
                   </div>
@@ -423,7 +423,7 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h3>
                       <p className="small">
-                        Our team offers essential feedback on the condition of your York AC and any necessary repairs.
+                        Our team provides feedback on your York AC's health and needed repairs.
                       </p>
                     </div>
                   </div>
@@ -539,7 +539,7 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
             <h3>We specialise in York ac services for the following types</h3>
             <div className="row">
               <div className="col-12">
-                <p className="mb-0"><strong>  York Split Air Conditioner Service: </strong> <a href="https://fajservices.ae/">FAJ</a> is a reliable provider York AC repair and maintenance services in Dubai. Our trained technicians specialize in York VRF central AC units, providing optimal performance. Whether you need routine aircon maintenance or urgent repairs, we are committed to delivering exceptional, tailored service to meet your needs. Your comfort is our priority. </p>
+                <p className="mb-0"><strong>  York Split Air Conditioner Service: </strong> <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ</a> is a reliable provider York AC repair and maintenance services in Dubai. Our trained technicians specialize in York VRF central AC units, providing optimal performance. Whether you need routine aircon maintenance or urgent repairs, we are committed to delivering exceptional, tailored service to meet your needs. Your comfort is our priority. </p>
                 <p className="mb-0"><strong>  York Central Air Conditioner Repair and Service: </strong> FAJ is a leading service provider for <a href="https://www.google.com/search?q=faj+technical+llc+gmb&sca_esv=a182306c0b9e7281&sxsrf=AE3TifP6twoVuhedCe8xy_x2cw69ihmDVA%3A1748516672478&ei=QD84aJTtHNeW7_UPw-KsqQY&ved=0ahUKEwiUjZaZxMiNAxVXy7sIHUMxK2UQ4dUDCBA&uact=5&oq=faj+technical+llc+gmb&gs_lp=Egxnd3Mtd2l6LXNlcnAiFWZhaiB0ZWNobmljYWwgbGxjIGdtYjIFECEYoAEyBRAhGKABSIUqUMcEWNoccAF4AZABAJgBlQKgAYgOqgEDMi04uAEDyAEA-AEBmAIJoALEDsICDRAuGLADGMcBGCcYrwHCAgcQIxiwAxgnwgIKEAAYsAMY1gQYR8ICEBAuGIAEGMcBGCcYigUYrwHCAgQQIxgnwgIFEAAYgATCAgYQABgWGB7CAgsQABiABBiGAxiKBcICHRAuGIAEGMcBGIoFGK8BGJcFGNwEGN4EGOAE2AEBwgIIEAAYFhgKGB7CAggQABiABBiiBMICBRAAGO8FwgIEECEYFZgDAIgGAZAGCroGBggBEAEYFJIHBTEuMC44oAeCMrIHAzItOLgHtg7CBwcwLjIuNS4yyAcu&sclient=gws-wiz-serp#lpc=lpc&prid=2987634349969554675&scso=_2j84aLrrB-CG9u8P9oSMgAg_76:372">York air conditioner repair</a> and maintenance in Dubai. The company adeptly meets the needs of its clients, ensuring high-quality service and customer satisfaction, whether for routine maintenance or urgent repair. </p>
                 <p className="mb-0"><strong>  York AC Service and Repair: </strong> At York AC Service, we offer you peace of mind through our team of experienced technicians. At FAJ, we focus on providing efficient and dependable York AC maintenance, repair, and installation. You can count on our expert team to keep your HVAC system in top shape, ensuring your comfort all year round! </p>
                 <p className="mb-0"><strong>  York Inverter Air Conditioner Maintenance: </strong> Depend on our dedicated team to swiftly address and resolve any issues with your York air conditioner maintenance, ensuring it is restored to peak performance without delay! </p>

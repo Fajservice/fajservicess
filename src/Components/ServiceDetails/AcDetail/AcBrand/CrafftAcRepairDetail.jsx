@@ -175,7 +175,7 @@ const CrafftAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
 
             <h2 className="cs_fs_30">Why is Crafft AC Maintenance Service Important in Dubai?</h2>
             <p className="">
-              To ensure your Crafft central air conditioner runs smoothly in Dubai&apos;s heat, regular aircon maintenance is essential. At FAJ, we offer expert <a href="https://www.fajservices.ae/ac-service-in-dubai/">ac services</a> to ensure optimal cooling and comfort year-round. We&apos;re here to help your system perform at its best!
+              To ensure your Crafft central air conditioner runs smoothly in Dubai&apos;s heat, regular aircon maintenance is essential. At FAJ, we offer expert ac services to ensure optimal cooling and comfort year-round. We&apos;re here to help your system perform at its best!
             </p>
 
             <div className="row align-items-center">

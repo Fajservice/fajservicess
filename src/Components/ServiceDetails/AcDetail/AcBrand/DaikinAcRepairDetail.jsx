@@ -111,7 +111,7 @@ const DaikinAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Daikin AC Repair in Dubai and AC Maintenance Services</h1>
-            <p><a href="https://www.fajservices.ae/"> F A J Technical Services L.L.C</a> has been serving the community since 2010. Our dedicated facilities team has extensive experience in the Daikin Air Conditioner repair, maintenance, and installation for both residential and commercial properties in Dubai and Sharjah.
+            <p><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been serving the community since 2010. Our dedicated facilities team has extensive experience in the Daikin Air Conditioner repair, maintenance, and installation for both residential and commercial properties in Dubai and Sharjah.
               <br />
               A Daikin air conditioner is essential for maintaining year-round indoor comfort. To ensure optimal performance, regular Daikin AC maintenance service is required in Dubai with professional Daikin AC cleaning services available to help keep your air conditioning running efficiently.
             </p>
@@ -178,7 +178,7 @@ const DaikinAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
 
             <h2 className="cs_fs_30">Why is Daikin AC Maintenance Service Important in Dubai?</h2>
             <p className="">
-              To keep your Daikin air conditioner running efficiently in Dubai, regular <a href="https://www.fajservices.ae/ac-maintenance-dubai/"> AC maintenance </a>is key. At FAJ, our experienced team is here to ensure your comfort.
+              To keep your Daikin air conditioner running efficiently in Dubai, regular <a href="https://www.fajservices.ae/ac-maintenance-dubai/"> AC maintenance</a>is key. At FAJ, our experienced team is here to ensure your comfort.
               <br />For convenient AC maintenance in your area, contact us!
 
             </p>
@@ -345,10 +345,11 @@ const DaikinAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                   <li> <strong> Daikin AC Installation: </strong> Professional installation of various Daikin air conditioning systems to guarantee optimal performance. </li>
                   <li> <strong> Daikin AC Diagnostics: </strong> Comprehensive fault diagnosis to accurately identify issues. We offer eligibility assessments and detailed quotes to address any concerns regarding your system. </li>
                   <li> <strong> Daikin AC Repair Service: </strong> We provide prompt and effective repair services for all Daikin AC components, addressing issues such as leaks, electrical failures, and system malfunctions. Contact us for specific services or any questions you may have! </li>
-                  <li> <strong> Daikin AC Annual Maintenance Contract: </strong> This contract details the terms and services for Daikin AC annual maintenance. Regular maintenance of Daikin AC systems (AMC / PPM) is essential for ensuring optimal performance, efficiency, and longevity. </li>
-
-
+                  <li> <strong> Daikin AC Annual Maintenance Contract: </strong> This contract details the terms and services for Daikin AC annual maintenance. </li>
                 </ul>
+                <p className="mb-0">
+                  <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> of Daikin AC systems (AMC / PPM) is essential for ensuring optimal performance, efficiency, and longevity.
+                </p>
               </div>
 
             </div>

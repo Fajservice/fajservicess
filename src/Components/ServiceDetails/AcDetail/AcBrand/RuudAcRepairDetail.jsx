@@ -13,7 +13,6 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
 import AcAppointmentCol from "../../../Common/AcAppointmentCol";
-
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 
 
@@ -365,7 +364,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">COOLING EFFICIENCY</h3>
                       <p className="small">
-                        We perform a comprehensive assessment of cooling efficiency using a temperature gun.
+                        We perform a comprehensive assessment of cooling efficiency using temperature gun.
                       </p>
                     </div>
                   </div>
@@ -377,7 +376,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">DISINFECT COMPONENTS</h3>
                       <p className="small">
-                        All hardware components have been thoroughly tested and disinfected, including the filters and vents.
+                        All hardware components have been tested and disinfected, including filters and vents.
                       </p>
                     </div>
                   </div>
@@ -401,7 +400,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">THERMOSTAT CHECK</h3>
                       <p className="small">
-                        We use a laser temperature gauge to ensure that the thermostats are functioning correctly.
+                        We use a laser temperature gauge to ensure thermostats are functioning correctly.
                       </p>
                     </div>
                   </div>
@@ -425,7 +424,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h3>
                       <p className="small">
-                        Our team offers essential feedback on the condition of your Ruud AC and any necessary repairs.
+                        Our team provides feedback on your Ruud AC's health and needed repairs.
                       </p>
                     </div>
                   </div>
@@ -545,7 +544,7 @@ const RuudAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
 
                 <p className="mb-0"> <strong>   Ruud Split Air Conditioner Service: </strong> FAJ is a reliable provider Ruud AC repair and maintenance services in Dubai. Our trained technicians specialize in Ruud VRF central AC units, providing optimal performance. Whether you need routine aircon maintenance or urgent repairs, we are committed to delivering exceptional, tailored service to meet your needs. Your comfort is our priority.</p>
                 <p className="mb-0"> <strong>   Ruud Central Air Conditioner Repair and Service: </strong> FAJ is a leading service provider for Ruud air conditioner repair and maintenance in Dubai. The company adeptly meets the needs of its clients, ensuring high-quality service and customer satisfaction, whether for routine maintenance or urgent repair.</p>
-                <p className="mb-0"> <strong>   Ruud AC Service and Repair: </strong> At Ruud AC Service, we offer you peace of mind through our team of experienced technicians. At <a href="https://fajservices.ae/">FAJ</a>, we focus on providing efficient and dependable Ruud AC maintenance, repair, and installation. You can count on our expert team to keep your HVAC system in top shape, ensuring your comfort all year round!</p>
+                <p className="mb-0"> <strong>   Ruud AC Service and Repair: </strong> At Ruud AC Service, we offer you peace of mind through our team of experienced technicians. At <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ</a>, we focus on providing efficient and dependable Ruud AC maintenance, repair, and installation. You can count on our expert team to keep your HVAC system in top shape, ensuring your comfort all year round!</p>
                 <p className="mb-0"> <strong>   Ruud Inverter Air Conditioner Maintenance: </strong> Depend on our dedicated team to swiftly address and resolve any issues with your Ruud air conditioner maintenance, ensuring it is restored to peak performance without delay!</p>
                 <p className="mb-0"> <strong>  Ruud HVAC Repair: </strong> We specialize in Ruud cassette AC and package unit AC systems, offering reliable repairs to ensure your unit operates efficiently.</p>
                 <p className="mb-0"> <strong>   Ruud Ceiling AC Service and Repair: </strong> Our specialists can quickly diagnose and resolve any issues with your Ruud ceiling AC repair and ducted split AC service.</p>

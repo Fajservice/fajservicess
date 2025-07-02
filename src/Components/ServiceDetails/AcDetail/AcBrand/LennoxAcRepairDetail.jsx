@@ -375,7 +375,7 @@ const LennoxAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">DISINFECT COMPONENTS</h3>
                       <p className="small">
-                        All hardware components have been totally tested and disinfected, including the filters and vents, to provide cleanliness and proper functionality.
+                        All hardware components have been tested and disinfected, including filters and vents.
                       </p>
                     </div>
                   </div>
@@ -399,7 +399,7 @@ const LennoxAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">THERMOSTAT CHECK</h3>
                       <p className="small">
-                        We use a laser temperature gauge to ensure that the thermostats are functioning correctly.
+                        We use a laser temperature gauge to ensure thermostats are functioning correctly.
                       </p>
                     </div>
                   </div>
@@ -423,7 +423,7 @@ const LennoxAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h3>
                       <p className="small">
-                        Our team provides valuable insights on your Lennox AC's condition and any needed repairs.
+                        Our team provides feedback on your Lennox AC's health and needed repairs.
                       </p>
                     </div>
                   </div>

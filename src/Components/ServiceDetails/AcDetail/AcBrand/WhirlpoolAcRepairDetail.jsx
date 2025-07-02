@@ -341,7 +341,7 @@ const WhirpoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
                   <li> <strong> Whirlpool AC Repair Service: </strong> We offer fast repair services for Whirlpool air conditioners, addressing leaks, electrical problems, and malfunctions. Contact us for further details or inquiries!</li>
                   <li> <strong> Whirlpool AC Annual Maintenance Contract: </strong>  The contract specifies the annual maintenance terms for Whirlpool air conditioners.  </li>
                 </ul>
-                <p className="mb-0">Regular maintenance, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is vital for optimal performance and durability.</p>
+                <p className="mb-0"><a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a>, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is vital for optimal performance and durability.</p>
               </div>
 
             </div>
@@ -423,7 +423,7 @@ const WhirpoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
                       </div>
                       <h4 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h4>
                       <p className="small">
-                        Our team provides vital feedback on your Whirlpool AC's health and any needed repairs.
+                        Our team provides feedback on your Whirlpool AC's health and needed repairs.
                       </p>
                     </div>
                   </div>

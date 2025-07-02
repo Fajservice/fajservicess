@@ -14,8 +14,7 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
-
-
+import AcAppointmentCol from "../../../Common/AcAppointmentCol";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 
 
@@ -155,19 +154,10 @@ const HitachiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
 
               <div className="col-md-6">
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Hitachi Ac Repair" />
-
               </div>
             </div>
 
-            <div className="appointment-col border-small-top pt-3">
-              <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/ac-service-in-dubai/"><b>AC cleaning service</b></Link> , repair, or maintenance. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
-              <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
-                  <WhatsappIconButton />
-                  <CallNowButton />
-                </div>
-              </div>
-            </div>
+            <AcAppointmentCol></AcAppointmentCol>
           </div>
         </section>
 
@@ -189,7 +179,7 @@ const HitachiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                 <ul className="mb-0">
                   <li> <strong>  Extreme Weather: </strong> As summer approaches, we can expect temperatures to soar above 40°C (104°F), creating discomfort. it&apos;s essential to ensure that your Hitachi air conditioning systems are primed for optimal performance. </li>
                   <li> <strong>  Energy Efficiency: </strong> A well-maintained Hitachi air conditioner operates efficiently, resulting in significant energy savings and lower DEWA electricity costs. </li>
-                  <li> <strong>  Longevity of Equipment: </strong> Keeping up with the Hitachi <a href="/ac-maintenance-dubai/">AC maintenance</a> is really important for getting the best performance and efficiency. It helps lower repair costs and can save money for both homes and businesses. </li>
+                  <li> <strong>  Longevity of Equipment: </strong> Keeping up with the Hitachi <a href="/ac-maintenance-dubai/" className="fw-bold text-decoration-underline">AC maintenance</a> is really important for getting the best performance and efficiency. It helps lower repair costs and can save money for both homes and businesses. </li>
                   <li> <strong>  Improved Air Quality: </strong> Routine Hitachi air conditioner cleaning service prevents dust and allergens from getting in, resulting in improved air quality. </li>
                   <li> <strong>  Enhanced Comfort: </strong> Regular air conditioner maintenance in Dubai is vital for optimal efficiency and a comfortable indoor environment. </li>
                 </ul>

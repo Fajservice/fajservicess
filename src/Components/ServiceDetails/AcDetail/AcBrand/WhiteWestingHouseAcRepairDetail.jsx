@@ -107,12 +107,11 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descr
       </HelmetProvider>
       <HeaderForm />
 
-
       <div className="cs_service_details">
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Westinghouse AC Repair and Maintenance Service in Dubai </h1>
+            <h1 className="cs_fs_30">White Westinghouse AC Repair and Maintenance Service in Dubai </h1>
             <p>
               For year-round comfort, it’s important to effectively manage challenges like summer humidity, warm nights, and indoor allergens.
               <br />Since our founding in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has emerged as a leading provider of White Westinghouse air conditioning solutions in Dubai and Sharjah.
@@ -177,7 +176,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descr
 
             <h2 className="cs_fs_30">Why is White Westinghouse AC Maintenance Service Important in Dubai?</h2>
             <p className="mb-0">
-              To guarantee your White Westinghouse central air conditioner functions efficiently in Dubai's intense heat, regular <a href="/ac-maintenance-dubai/"> AC maintenance </a>  is essential. At FAJ, we offer expert aircon services designed to enhance your system’s performance and comfort year-round. Trust us to keep your air conditioner operating at its best.
+              To guarantee your White Westinghouse central air conditioner functions efficiently in Dubai's intense heat, regular <a href="/ac-maintenance-dubai/">AC maintenance</a>  is essential. At FAJ, we offer expert aircon services designed to enhance your system’s performance and comfort year-round. Trust us to keep your air conditioner operating at its best.
             </p>
 
             <div className="row align-items-center">
@@ -428,7 +427,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descr
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h3>
                       <p className="small">
-                        Our team provides vital feedback on your White Westinghouse AC's health and any needed repairs.
+                        Our team provides feedback on your White Westinghouse AC's health & needed repairs.
                       </p>
                     </div>
                   </div>

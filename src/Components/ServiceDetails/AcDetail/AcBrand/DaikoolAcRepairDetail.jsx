@@ -184,7 +184,7 @@ const DaikoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
-                  <li> <strong>  Extreme Weather: </strong> During summer, temperatures can reach over 40°C (104°F). <a href="/ac-maintenance-dubai/" className="fw-bold text-decoration-underline">Regular maintenance</a> ensures that Daikool air conditioning systems operate efficiently in these conditions. </li>
+                  <li> <strong>  Extreme Weather: </strong> During summer, temperatures can reach over 40°C (104°F). <a href="https://www.linkedin.com/company/faj-technical-services-llc" className="fw-bold text-decoration-underline">Regular maintenance</a> ensures that Daikool air conditioning systems operate efficiently in these conditions. </li>
                   <li> <strong>  Energy Efficiency: </strong> A well-maintained Daikool air conditioning unit runs more efficiently, which helps save energy and reduce electricity bills. </li>
                   <li> <strong>  Longevity of Equipment: </strong> Regular Daikool <a href="https://www.fajservices.ae/ac-maintenance-dubai/" className="fw-bold text-decoration-underline">AC maintenance</a> can extend its lifespan, reduce the need for costly repair and replacements, and ultimately save you money. </li>
                   <li> <strong>  Improved Air Quality: </strong> Regular Daikool AC cleaning service prevents the buildup of dust and allergens, ensuring cleaner air quality. </li>
@@ -334,7 +334,7 @@ const DaikoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                 <p className='mb-0'>We specialize in different types and brands of HVAC systems, including Fresh Air Handling Units (FAHU).</p>
                 <p className='mb-0'><strong>Our services include:</strong></p>
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                  <li> <strong>   Daikool AC Installation: </strong> Professional installation of different <a href="https://www.fajservices.ae/ac-repair-dubai/"><b>Daikool air conditioning systems </b></a> to guarantee optimal performance.</li>
+                  <li> <strong>   Daikool AC Installation: </strong> Professional installation of different <a href="https://www.google.com/search?q=faj+technical+llc+gmb&rlz=1C1GCEU_en-GBPK1161PK1162&oq=&gs_lcrp=EgZjaHJvbWUqCQgAECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIPCAYQLhgnGK8BGMcBGOoCMgkIBxAjGCcY6gLSAQsyNzQ0OTUwajBqN6gCCLACAfEFNHg2jm1mi9w&sourceid=chrome&ie=UTF-8#lpc=lpc&prid=6426218779132887831" className="fw-bold text-decoration-underline">Daikool air conditioning systems</a> to guarantee optimal performance.</li>
                   <li> <strong>   Daikool AC Diagnostics: </strong> Comprehensive fault diagnosis to accurately identify issues. We provide eligibility assessments and detailed quotes to address concerns regarding your system. </li>
                   <li> <strong>   Daikool AC Repair Service: </strong> We provide prompt and effective repair services for all Daikool AC components, addressing issues such as leaks, electrical failures, and system malfunctions. Feel free to contact us for specific services or any questions you may have! </li>
                   <li> <strong>   Daikool AC Annual Maintenance Contract: </strong> This contract details the terms and services for Daikool AC annual maintenance.</li>

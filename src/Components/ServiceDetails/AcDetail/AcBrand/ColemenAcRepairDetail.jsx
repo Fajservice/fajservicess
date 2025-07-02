@@ -181,13 +181,11 @@ const ColemenAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
-
                   <li> <strong> Extreme Weather: </strong> In the summer, temperatures can exceed 40°C (104°F). Routine maintenance helps ensure that Coleman  AC SYSTEMS operate efficiently in these conditions.</li>
                   <li> <strong> Energy Efficiency: </strong> A well-maintained Coleman  AC unit functions more efficiently, conserving energy and reducing electricity bills.</li>
                   <li> <strong> Longevity of Equipment: </strong> Regular AC maintenance of your Coleman  air conditioner unit can extend its lifespan, reduce the need for costly repairs and replacements, and ultimately save you money.</li>
                   <li> <strong> Improved Air Quality: </strong> Regular maintenance prevents the accumulation of dust and allergens, which helps to ensure cleaner air.</li>
-                  <li> <strong> Enhanced Comfort: </strong> Regular Coleman  <strong> <a href="/ac-service-in-dubai/" className="fw-">AC servicing</a></strong> in Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
-
+                  <li> <strong> Enhanced Comfort: </strong> Regular Coleman AC servicing in Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
                 </ul>
               </div>
             </div>
@@ -343,7 +341,7 @@ const ColemenAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                   <li> <strong> Coleman AC Repair Service: </strong> Prompt and effective repair services for all Coleman AC components, addressing issues like leaks, electrical failures, and system malfunctions. Contact us for specific services or any questions you may have! </li>
                   <li> <strong> Coleman AC Annual Maintenance Contract: </strong> This contract details the terms and services for annual maintenance of Coleman air conditioner units. </li>
                 </ul>
-                <p className="mb-0"> Regular maintenance is crucial for the optimal performance, efficiency, and longevity of your air conditioning system.</p>
+                <p className="mb-0"><a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is crucial for the optimal performance, efficiency, and longevity of your air conditioning system.</p>
               </div>
 
             </div>
@@ -425,7 +423,7 @@ const ColemenAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h3>
                       <p className="small">
-                        Our team provides vital feedback on your Coleman AC&lsquo;s health and any needed repairs.
+                        Our team provides feedback on your Coleman AC&lsquo;s health and needed repairs.
                       </p>
                     </div>
                   </div>
@@ -623,7 +621,7 @@ const ColemenAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                 </svg></h3>
               <h3 className="cs_section_title cs_fs_30 text-black mb-0 wow fadeInUp">{parse(title)}</h3>
             </div>
-            
+
             <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
               data-variable-width="0" data-xs-slides="1" data-sm-slides="1" data-md-slides="1" data-lg-slides="2"
               data-add-slides="2" data-slides-per-view="responsive">
