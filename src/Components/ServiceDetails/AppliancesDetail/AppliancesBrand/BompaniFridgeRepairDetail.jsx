@@ -135,13 +135,13 @@ const BompaniFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                     <div className="container">
                         <div className="row gx-md-5">
                             <div className="col-md-6">
-                                <h2 className="cs_fs_24 mb-1">Bompani Washing Machine Repair Near You</h2>
+                                <h2 className="cs_fs_20 mb-1">Bompani Washing Machine Repair Near You</h2>
                                 <p className="mb-2">
                                     Having trouble with your Bompani appliances? Our repair team is here to help! FAJ provides quick and affordable solutions for issues like washing machines that won’t drain, fridges not cooling, ovens failing to heat, and dishwashers not turning on.
                                     <br />For dependable Bompani <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair</a> in Dubai and Sharjah, count on us for reliable solutions!
                                 </p>
 
-                                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Bompani Appliances Service</h2>
+                                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Bompani Appliances Service</h2>
                                 <p className="mb-2">
                                     At F A J Technical Services L.L.C, we recognize that appliance breakdowns, particularly with Bompani products, often happen unexpectedly. That’s why our trained and qualified Bompani technicians are available to provide you with reliable repair services. With our help, you can save the cost of purchasing a new appliance and have your Bompani appliance functioning again in no time, allowing you to put your worries aside.
                                 </p>

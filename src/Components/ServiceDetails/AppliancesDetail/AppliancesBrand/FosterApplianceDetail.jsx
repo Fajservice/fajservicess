@@ -139,7 +139,7 @@ const FosterApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
                                     If you need Foster refrigerator repair, FAJ is your go-to choice for fast and affordable appliance repair service in Dubai and Sharjah. Our expert team is equipped to handle all types of issues, whether it’s a Foster washing machine that won’t drain, a fridge that’s not cooling, an oven that won’t heat, or a dishwasher that won’t start. We’re nearby and ready to get your appliances back up and running quickly and efficiently.
                                 </p>
 
-                                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Foster Appliances Service</h2>
+                                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Foster Appliances Service</h2>
                                 <p className="mb-2">
                                     At F A J Technical Services L.L.C, we understand that appliance breakdowns, especially with Foster products, never occur at a convenient time. That’s why our trained and qualified Foster technicians are here to offer you reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Foster appliance up and running again before you have a chance to worry about it.
                                 </p>

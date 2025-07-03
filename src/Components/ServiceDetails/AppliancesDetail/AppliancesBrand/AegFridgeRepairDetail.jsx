@@ -141,7 +141,7 @@ const AegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
                   As your trusted local service provider, we ensure quick response times to get your appliances working again without delay.
                 </p>
 
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable AEG Appliances Service</h2>
+                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable AEG Appliances Service</h2>
                 <p className="mb-2">
                   At F A J Technical Services L.L.C, we understand that AEG appliance breakdowns rarely happen at a convenient time. That’s why our trained AEG technicians are ready to provide dependable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a> when you need them most. We help you avoid the expense of replacing your appliance by getting it back up and running quickly, so you can carry on without the hassle.
                 </p>

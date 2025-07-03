@@ -171,7 +171,7 @@ const PanasonicFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
 
                                 </p>
 
-                                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Panasonic Appliances Service</h2>
+                                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Panasonic Appliances Service</h2>
                                 <p className="mb-2">
                                     At F A J Technical Services L.L.C, we understand that Panasonic appliance breakdowns often occur when you least expect them. That’s why our skilled Panasonic technicians are ready to deliver reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair service</a> when you need it most. With our prompt support, you can avoid the cost of replacing your appliance and have it running smoothly again in no time, so you can focus on what matters without the stress.
                                 </p>
@@ -540,7 +540,7 @@ const PanasonicFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                 {/* We are specialise in Appliances services for the following brands */}
                 <section className="section cs_py_30 bg-light-gray mb-4">
                     <div className="container">
-                        <h3>We specialize in Panasonic appliance services of the following types</h3>
+                        <h3>We specialize in Panasonic appliance services of following types</h3>
                         <div className="row">
                             <div className="col-12">
                                 <p className="mb-0"> <b> Panasonic Washing Machine Repair Near You in Dubai: </b> FAJ is here to support you when issues arise. We understand that your Panasonic washing machine is vital for daily life, ensuring your laundry stays clean. Contact us for the best Panasonic <a href="https://www.fajservices.ae/washing-machine-repair-service-dubai/">washing machine service center</a> near me in Dubai. </p>

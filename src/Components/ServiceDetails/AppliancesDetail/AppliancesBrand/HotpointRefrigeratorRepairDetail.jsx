@@ -137,13 +137,13 @@ const HotpointRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1">Hotpoint Washing Machine Repair Near You</h2>
+                <h2 className="cs_fs_20 mb-1">Hotpoint Washing Machine Repair Near You</h2>
                 <p className="mb-2">
                   Facing issues with your Hotpoint appliances? FAJ is ready to assist with prompt and affordable appliances repair services. Whether your washing machine won't drain, your refrigerator isn’t cooling, your oven refuses to heat, or your dishwasher won’t start, we can fix it.
                   <br />For reliable Hotpoint <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair</a> in Dubai and Sharjah, trust FAJ to deliver effective and lasting solutions for any appliance problem.
                 </p>
 
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Hotpoint Appliances Service</h2>
+                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Hotpoint Appliances Service</h2>
                 <p className="mb-2">
                   At F A J Technical Services L.L.C, we know that Hotpoint appliance failures often happen when you least expect them. That’s why our skilled technicians are ready to deliver dependable repair services whenever you need them. With our help, you can skip the expense of buying a new appliance and have your Hotpoint unit running smoothly again, before it disrupts your day.
                 </p>

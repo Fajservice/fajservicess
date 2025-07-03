@@ -136,7 +136,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
                                     <br />Whether your built-in Daewoo washing machine won’t drain, your Daewoo fridge won’t cool, your oven won’t heat, or your Daewoo dishwasher won’t turn on, our expert repair service team in  Dubai and Sharjah is ready to assist you.
                                     <br /> We are local and can quickly resolve any issues you may have.
                                 </p>
-                                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Terim Appliances Service</h2>
+                                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Terim Appliances Service</h2>
                                 <p className="mb-2">
                                     At F A J Technical Services L.L.C, we understand that appliance breakdowns, especially with Daewoo products, never occur at a convenient time. That’s why our trained and qualified Daewoo technicians are here to offer you reliable appliances repair services. With our assistance, you can avoid the cost of purchasing a new appliance and get your Daewoo appliance up and running again before you have a chance to worry about it.
                                 </p>

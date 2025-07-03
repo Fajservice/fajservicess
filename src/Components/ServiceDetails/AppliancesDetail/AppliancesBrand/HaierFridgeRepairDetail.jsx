@@ -143,7 +143,7 @@ const HaierFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
 
                                 </p>
 
-                                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Haier Appliances Service</h2>
+                                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Haier Appliances Service</h2>
                                 <p className="mb-2">
                                     At F A J Technical Services L.L.C, we know that Haier appliance breakdowns often happen when you least expect them. That’s why our experienced Haier technicians are ready to provide reliable and timely repair services. With our support, you can avoid the expense of replacing your appliance and have it back up and running before it disrupts your routine.
                                 </p>

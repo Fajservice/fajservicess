@@ -144,7 +144,7 @@ const SearsHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
                 </p>
 
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Sears Appliances Service</h2>
+                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Sears Appliances Service</h2>
                 <p className="mb-2">
                   At F A J Technical Services L.L.C, we know that Sears appliance breakdowns rarely happen at a convenient time. That’s why our experienced Sears technicians are ready to provide dependable repair services when you need them most. With our help, you can avoid the cost of replacing your appliance and have it running smoothly again, before it becomes a major concern.
                 </p>

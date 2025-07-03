@@ -170,7 +170,7 @@ const TerimApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                                     Get reliable Terim appliance repair in Dubai and Sharjah. We provide trusted solutions for any appliance issue you may encounter.
                                 </p>
 
-                                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Terim Appliances Service</h2>
+                                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Terim Appliances Service</h2>
                                 <p className="mb-2">
                                     At F A J Technical Services L.L.C, we recognize that appliance breakdowns, particularly with Terim products, often happen at the most inconvenient times. That’s why our trained and qualified Terim technicians are available to provide you with reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair service</a>. With our help, you can avoid the expense of purchasing a new appliance and quickly get your Terim appliance back in working order, allowing you to put your worries aside.
                                 </p>

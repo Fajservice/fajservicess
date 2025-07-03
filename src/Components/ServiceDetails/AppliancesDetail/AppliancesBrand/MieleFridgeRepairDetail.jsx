@@ -141,7 +141,7 @@ const MieleFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
 
                 </p>
 
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Miele Appliances Service</h2>
+                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Miele Appliances Service</h2>
                 <p className="mb-2">
                   At F A J Technical Services L.L.C, we understand that Miele appliances can break down at the worst possible times. That’s why our experienced technicians are always ready to provide dependable Miele <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair service</a>. With our support, you can avoid the high cost of a replacement and have your appliance running smoothly again, so you can move forward without the hassle. We’re committed to delivering fast, efficient, and long-lasting repair solutions to your doorstep.
                 </p>

@@ -145,7 +145,7 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
                                 </p>
 
-                                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Admiral Appliances Service</h2>
+                                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Admiral Appliances Service</h2>
                                 <p className="mb-2">
                                     At F A J Technical Services L.L.C, we know that Admiral appliance breakdowns often happen when you least expect them. That’s why our expert Admiral technicians are ready to provide fast, reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our expert support, you can avoid the expense of replacing your appliance and have it working perfectly again, before it becomes a bigger hassle.
                                 </p>

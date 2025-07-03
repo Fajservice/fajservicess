@@ -328,7 +328,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
               and <small>3-month parts warranty</small>as standard.</p>
             <h3>We specialise in air conditioning services for the following brands</h3>
 
-            <ul className="mb-0">
+            <ul className="mb-3">
               <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/lg-ac-repair-in-dubai/">LG Air Conditioner Service</a>:</strong> FAJ offers reliable LG AC repair and services in Dubai. With professionals who are experts in split, vrf, and central air conditioning units. Get reliable and fast AC service near me, AC repair, and AC maintenance in Dubai.</li>
               <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/samsung-ac-repair-in-dubai/">Samsung Air Conditioner Repair and Service</a>:</strong> Based in Dubai, FAJ is your go-to destination for Samsung AC repair in Dubai. Specializing in Samsung air conditioner systems, we offer comprehensive AC servicing ranging from AC fixing to AC cleaning service and AC maintenance.</li>
               <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten/">York AC Service and Repair</a>:</strong> The York AC repair and service ensure you don&rsquo;t need to worry because you are in the right place. Yes, FAJ is where efficiency and reliability are prioritized, providing air conditioning services near me, AC cleaning service, and AC fixing.</li>

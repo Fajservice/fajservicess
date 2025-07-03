@@ -133,7 +133,7 @@ const IndesitWashingMachineDetail = ({ subtitle, title, reviewsbg, titleSeo, des
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1">Indesit Appliance Repair and Service </h2>
+                <h2 className="cs_fs_24 mb-1">Indesit Washing Machine Repair Near You </h2>
 
                 <p className="mb-2">
                   If you require Indesit refrigerator repair, FAJ is your top choice for quick and affordable appliance repair service in Dubai and Sharjah. Our expert team is prepared to handle any issue, whether it’s an Indesit washing machine that won’t drain, fridge that isn’t working, an oven that isn’t heating, or a dishwasher that won’t turn on. We are nearby and can efficiently fix your appliances as quickly as possible.

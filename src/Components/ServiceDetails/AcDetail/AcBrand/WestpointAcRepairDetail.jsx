@@ -280,8 +280,6 @@ const WestpointAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
                 </div>
               </div>
             </div>
-
-
           </div>
         </section>
 
@@ -310,8 +308,11 @@ const WestpointAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
                   <li><strong>Westpoint AC Installation: </strong>The professional installation of various Westpoint air conditioning systems ensures optimal performance.</li>
                   <li><strong>Westpoint AC Inspection: </strong>We offer accurate fault diagnosis to pinpoint system issues, along with comprehensive quotes and eligibility assessments to address your concerns.</li>
                   <li><strong>Westpoint AC Repair Service: </strong>We offer fast repair services for Westpoint air conditioners, addressing leaks, electrical problems, and malfunctions. Contact us for further details or inquiries!</li>
-                  <li><strong>Westpoint AC Annual Maintenance Contract: </strong>The contract specifies the annual maintenance terms for Westpoint air conditioners. <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a>, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is vital for optimal performance and durability.</li>
+                  <li><strong>Westpoint AC Annual Maintenance Contract: </strong>The contract specifies the annual maintenance terms for Westpoint air conditioners.</li>
                 </ul>
+                <p className="mb-0">
+                  <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a>, including Annual Maintenance Contracts (AMC) and Planned Preventive Maintenance (PPM), is vital for optimal performance and durability.
+                </p>
               </div>
             </div>
           </div>
@@ -418,8 +419,48 @@ const WestpointAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
                 <p className="mb-0"><strong>Extended Lifespan:</strong> Regular AC maintenance prevents wear and tear, prolonging the life of your AC and minimising costly repairs.</p>
                 <p className="mb-0"><strong>Odour Elimination: </strong>It eliminates mold and mildew, resulting in fresher indoor air.</p>
                 <p className="mb-0"><strong>Reduced Mold Growth:</strong> Regular cleaning prevents the growth of mold and bacteria, which is crucial in humid climates.</p>
-                <p className="mb-0"><strong>Better Breathing:</strong> Cleaner air improves overall well-being. In short, deep cleaning your AC is an investment in your health, comfort, and energy efficiency.</p>
-                <p className="mb-0"><br /><a href="https://www.fajservices.ae/ac-repair-in-al-barsha-air-condition-maintenance-in-al-barsha-air-conditioning-fix-amc-service-in-al-barsha-dubai/">Al Barsha</a> |<a href="https://www.fajservices.ae/ac-services-in-jebel-ali/"> Jebel Ali</a> |<a href="https://www.fajservices.ae/ac-repair-in-jafza-air-condition-maintenance-in-jafza-air-conditioning-fix-amc-service-in-jebel-ali-free-zone-dubai/"> JAFZA</a> |<a href="https://www.fajservices.ae/ac-services-in-jebel-ali-free-zone/"> Jebel Ali Free Zone</a> |<a href="https://www.fajservices.ae/ac-services-in-palm-jumeirah/"> Palm Jumeirah</a> |<a href="https://www.fajservices.ae/ac-repair-and-ac-service-in-dubai-hills-estate/"> Dubai Hills Estate</a> |<a href="https://www.fajservices.ae/ac-repair-and-ac-service-in-damac-hills/"> Damac Hills</a> |<a href="https://www.fajservices.ae/ac-services-in-al-barari/"> Al Barari</a> |<a href="https://www.fajservices.ae/ac-services-in-al-barsha-south/"> Al Barsha South</a> |<a href="https://www.fajservices.ae/ac-services-in-al-safa/"> Al Safa</a> |<a href="https://www.fajservices.ae/ac-services-in-arabian-ranches/"> Arabian Ranches</a> |<a href="https://www.fajservices.ae/ac-services-in-dubai-silicon-oasis/"> Dubai Silicon Oasis</a> |<a href="https://www.fajservices.ae/ac-services-in-dubai-investments-park/"> Dubai Investments Park</a> |<a href="https://www.fajservices.ae/ac-services-in-dip/"> DIP</a> |<a href="https://www.fajservices.ae/ac-repair-and-ac-service-in-dubai-production-city/"> Dubai Production City</a> |<a href="https://www.fajservices.ae/ac-services-in-impz/"> IMPZ</a> |<a href="https://www.fajservices.ae/ac-services-in-dubai-sport-city/"> Dubai Sports City</a> |<a href="https://www.fajservices.ae/ac-services-in-dubai-studio-city/"> Dubai Studio City</a> |<a href="https://www.fajservices.ae/ac-services-in-jbr/"> JBR</a> -<a href="https://www.fajservices.ae/ac-services-in-jumeirah-beach-residence/"> Jumeirah Beach Residence</a> |<a href="https://www.fajservices.ae/ac-services-jlt/"> JLT</a> -<a href="https://www.fajservices.ae/ac-services-in-jumeirah-lake-towers/"> Jumeirah Lake Towers</a> |<a href="https://www.fajservices.ae/ac-services-in-jvc/"> JVC</a> -<a href="https://www.fajservices.ae/ac-services-in-jumeirah-village-circle/"> Jumeirah Village Circle</a> |<a href="https://www.fajservices.ae/ac-services-in-jvt/"> JVT</a> -<a href="https://www.fajservices.ae/ac-services-in-jumeirah-village-triangle/"> Jumeirah Village Triangle</a> |<a href="https://www.fajservices.ae/ac-services-in-jebel-ali-village/"> Jebel Ali Village</a> |<a href="https://www.fajservices.ae/ac-services-in-palm-jumeirah/"> Jumeirah</a> |<a href="https://www.fajservices.ae/ac-services-in-jumeirah-golf-estates/"> Jumeirah Golf Estates</a> |<a href="https://www.fajservices.ae/ac-services-in-the-meadows/"> Meadows</a> |<a href="https://www.fajservices.ae/ac-services-in-motor-city/"> Motor City</a> |<a href="https://www.fajservices.ae/ac-repair-and-ac-service-in-town-square/"> Town Square</a> |<a href="https://www.fajservices.ae/ac-services-in-emirates-hills/"> Emirates Hills</a> | Townhouses |<a href="https://www.fajservices.ae/ac-services-in-umm-suqeim/"> Umm Suqeim</a> |<a href="https://www.fajservices.ae/ac-services-in-ras-al-khor-industrial-area/">Ras Al Khor</a> |<a href="https://www.fajservices.ae/ac-services-in-deira/"> Deira</a> |</p>
+                <p className=""><strong>Better Breathing:</strong> Cleaner air improves overall well-being. In short, deep cleaning your AC is an investment in your health, comfort, and energy efficiency.</p>
+
+                <p>
+                  <a href="https://www.fajservices.ae/ac-repair-in-al-barsha-air-condition-maintenance-in-al-barsha-air-conditioning-fix-amc-service-in-al-barsha-dubai/">Al Barsha</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jebel-ali/">Jebel Ali</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-repair-in-jafza-air-condition-maintenance-in-jafza-air-conditioning-fix-amc-service-in-jebel-ali-free-zone-dubai/">JAFZA</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jebel-ali-free-zone/">Jebel Ali Free Zone</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-palm-jumeirah/">Palm Jumeirah</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-repair-and-ac-service-in-dubai-hills-estate/">Dubai Hills Estate</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-repair-and-ac-service-in-damac-hills/">Damac Hills</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-al-barari/">Al Barari</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-al-barsha-south/">Al Barsha South</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-al-safa/">Al Safa</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-arabian-ranches/">Arabian Ranches</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-dubai-silicon-oasis/">Dubai Silicon Oasis</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-dubai-investments-park/">Dubai Investments Park</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-dip/">DIP</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-repair-and-ac-service-in-dubai-production-city/">Dubai Production City</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-impz/">IMPZ</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-dubai-sport-city/">Dubai Sports City</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-dubai-studio-city/">Dubai Studio City</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jbr/">JBR</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-beach-residence/">Jumeirah Beach Residence</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-jlt/">JLT</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-lake-towers/">Jumeirah Lake Towers</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jvc/">JVC</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-village-circle/">Jumeirah Village Circle</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jvt/">JVT</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-village-triangle/">Jumeirah Village Triangle</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jebel-ali-village/">Jebel Ali Village</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-palm-jumeirah/">Jumeirah</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah-golf-estates/">Jumeirah Golf Estates</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-the-meadows/">Meadows</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-motor-city/">Motor City</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-repair-and-ac-service-in-town-square/">Town Square</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-emirates-hills/">Emirates Hills</a> &nbsp;|&nbsp;
+                  <a href="">Townhouses</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-umm-suqeim/">Umm Suqeim</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-ras-al-khor-industrial-area/">Ras Al Khor</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-deira/">Deira</a>
+                </p>
+
               </div>
             </div>
             <div id="get-quote" className=" mt-3">
