@@ -18,6 +18,7 @@ import AcProperties from "../../../Common/AcProperties";
 
 
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
+import AcAppointmentCol from "../../../Common/AcAppointmentCol";
 
 
 const WestpointAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
@@ -156,15 +157,7 @@ const WestpointAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
               </div>
             </div>
 
-            <div className="appointment-col border-small-top pt-3">
-              <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/ac-service-in-dubai/"><b>AC cleaning service</b></Link> , repair, or maintenance. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
-              <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
-                  <WhatsappIconButton />
-                  <CallNowButton />
-                </div>
-              </div>
-            </div>
+            <AcAppointmentCol></AcAppointmentCol>
           </div>
         </section>
 
@@ -178,16 +171,16 @@ const WestpointAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
             <p className="mb-2">To guarantee your Westpoint central air conditioner functions efficiently in Dubai's intense heat, regular AC maintenance is essential. At <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ</a>, we offer expert aircon services designed to enhance your system&rsquo;s performance and comfort year-round. Trust us to keep your air conditioner operating at its best.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/toshiba-ac-repair.avif`} alt="Westpoint Ac Repair" />
+              </div>
+              <div className="col-md-6">
                 <ul className="mb-0">
                   <li><strong>Extreme Weather: </strong>As summer approaches, we can expect temperatures to soar above 40&deg;C (104&deg;F), creating discomfort. It's essential to ensure that your Westpoint air conditioning systems are primed for optimal performance.</li>
                   <li><strong>Energy Efficiency: </strong>A well-maintained Westpoint air conditioner operates efficiently, resulting in significant energy savings and lower DEWA electricity costs.</li>
-                  <li><strong>Longevity of Equipment: </strong>Keeping up with the Westpoint <a href="https://www.fajservices.ae/ac-maintenance-dubai/">AC maintenance</a> is really important for getting the best performance and efficiency. It helps lower repair costs and can save money for both homes and businesses.</li>
+                  <li><strong>Longevity of Equipment: </strong>Keeping up with the Westpoint <a href="https://www.fajservices.ae/ac-maintenance-dubai/" className="fw-bold text-decoration-underline">AC maintenance</a> is really important for getting the best performance and efficiency. It helps lower repair costs and can save money for both homes and businesses.</li>
                   <li><strong>Improved Air Quality: </strong>Routine Westpoint air conditioner cleaning service prevents dust and allergens from getting in, resulting in improved air quality.</li>
                   <li><strong>Enhanced Comfort: </strong>Regular air conditioner maintenance in Dubai is vital for optimal efficiency and a comfortable indoor environment.</li>
                 </ul>
-              </div>
-              <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/toshiba-ac-repair.avif`} alt="Westpoint Ac Repair" />
               </div>
             </div>
 
