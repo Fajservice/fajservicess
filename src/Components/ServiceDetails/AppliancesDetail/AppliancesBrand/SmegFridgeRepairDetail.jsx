@@ -141,7 +141,7 @@ const SmegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Smeg Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we understand that Smeg appliance issues can arise unexpectedly. That’s why our qualified technicians provide reliable Smeg <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair service</a> across Dubai and Sharjah. With our expert help, you can avoid the high cost of replacements and get your appliance back in working condition in no tim
+                  At F A J Technical Services L.L.C, we understand that Smeg appliance issues can arise unexpectedly. That’s why our qualified technicians provide reliable Smeg <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair service</a> across Dubai and Sharjah. With our expert help, you can avoid the high cost of replacements and get your appliance back in working condition in no time.
                 </p>
 
               </div>

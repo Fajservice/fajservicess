@@ -4,14 +4,14 @@ import SmegFridgeRepairDetail from '../../../Components/ServiceDetails/Appliance
 const SmegFridgeRepair = () => {
   return (
     <div className="serviceDetails">
-    <BreadCumb
+      <BreadCumb
         bgImg="img/banners/homeappliancesbrands/desktop/Smeg-appliance-repair-faj.avif"
         mobileBgImg="img/banners/homeappliancesbrands/mobile/Smeg-appliance-repair-faj.avif"
         Title="Smeg Fridge Repair & Service"
-    ></BreadCumb>
+      ></BreadCumb>
 
-    <SmegFridgeRepairDetail />        
-</div>
+      <SmegFridgeRepairDetail />
+    </div>
   );
 };
 

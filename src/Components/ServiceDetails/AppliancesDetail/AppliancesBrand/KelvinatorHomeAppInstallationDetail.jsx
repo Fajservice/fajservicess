@@ -159,7 +159,7 @@ const KelvinatorHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, title
         <section className="section cs_py_30">
           <div className="container">
 
-            <h3 className="cs_fs_30 px-0">Why is Kelvinator Appliance Maintenance Service Important in Dubai?</h3>
+            <h3 className="cs_fs_28 px-0">Why is Kelvinator Appliance Maintenance Service Important in Dubai?</h3>
             <p className="mb-0">
               Our comprehensive repair services encompass diagnosis, repairs, installations, and maintenance. This is why we are the leading provider of Kelvinator appliance maintenance in Dubai.
             </p>
@@ -522,7 +522,7 @@ const KelvinatorHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, title
         {/* We are specialise in Appliances services for the following brands */}
         <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">
-            <h3>We specialize in Kelvinator appliance services of the following types</h3>
+            <h3 className="cs_fs_28">We specialize in Kelvinator appliance services of the following types</h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"> <b> Kelvinator Washing Machine Repair Near You in Dubai: </b>  FAJ is here to support you when things go wrong. We understand that your Kelvinator washing machine is essential for daily life, keeping your laundry clean.</p>
