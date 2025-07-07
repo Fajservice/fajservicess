@@ -17,10 +17,10 @@ import reportWebVitals from './reportWebVitals';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <PopupProvider>
-    <HelmetProvider>
-    <RouterProvider router={router} />
-    {/* <WelcomePopup /> */}
-    </HelmetProvider>
+      <HelmetProvider>
+        <RouterProvider router={router} />
+        {/* <WelcomePopup /> */}
+      </HelmetProvider>
     </PopupProvider>
   </StrictMode>,
 )

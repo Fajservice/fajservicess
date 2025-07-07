@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import './AIHandsetWidget.css'; // Custom styles will be in this file
-import aiicon from '../../../public/img/icons/aiicon.png'
+import aiicon from '/img/icons/aiicon.png'
 const AIHandsetWidget = () => {
     useEffect(() => {
         const popup = document.getElementById('ai-popup');
@@ -27,6 +27,7 @@ const AIHandsetWidget = () => {
 
     return (
         <>
+
             <div
                 id="ai-handset-widget"
                 className="position-fixed bottom-0 end-0 mb-2 d-flex flex-column align-items-end"
@@ -51,7 +52,7 @@ const AIHandsetWidget = () => {
                         right: '10px'
                     }}
                 >
-                    <div style={{ position: 'relative', width: '50px', height: '45px'}}>
+                    <div style={{ position: 'relative', width: '50px', height: '45px' }}>
                         <img
                             id="ai-icon"
                             src={aiicon}

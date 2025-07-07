@@ -140,7 +140,7 @@ const ElectroluxFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                                     As your trusted local service provider, we promptly restore your appliances to full working order.
                                 </p>
 
-                                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Electrolux Appliances Service</h2>
+                                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Electrolux Appliances Service</h2>
                                 <p className="mb-2">
                                     At F A J Technical Services L.L.C, we know that Electrolux appliance breakdowns often happen when you least expect them. That’s why our expert Electrolux technicians are ready to deliver prompt and reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our professional support, you can avoid the expense of replacing your appliance and have it up and running again before it causes any major inconvenience.
                                 </p>
@@ -159,7 +159,7 @@ const ElectroluxFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                 <section className="section cs_py_30">
                     <div className="container">
 
-                        <h3 className="cs_fs_30">Why is Electrolux Appliance Maintenance Service Important in Dubai?</h3>
+                        <h3 className="cs_fs_28">Why is Electrolux Appliance Maintenance Service Important in Dubai?</h3>
                         <p>
                             Our comprehensive repair services encompass diagnosis, repairs, installations, and maintenance. This is why we are the leading provider of Electrolux appliance maintenance in Dubai.
                         </p>
@@ -522,7 +522,7 @@ const ElectroluxFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                 {/* We are specialise in Appliances services for the following brands */}
                 <section className="section cs_py_30 bg-light-gray mb-4">
                     <div className="container">
-                        <h3>We specialize in Electrolux appliance services of the following types</h3>
+                        <h3 className="cs_fs_28">We specialize in Electrolux appliance services of the following types</h3>
                         <div className="row">
                             <div className="col-12">
                                 <p className="mb-0"> <b> Electrolux Washing Machine Repair Near You in Dubai: </b>  FAJ is here to support you when things go wrong. We understand that your Electrolux washing machine is essential for daily life, keeping your laundry clean.</p>

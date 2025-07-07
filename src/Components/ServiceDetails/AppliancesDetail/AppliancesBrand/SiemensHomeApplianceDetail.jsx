@@ -118,8 +118,6 @@ const SiemensHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                         <p>
                             Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been delivering dependable Siemens appliance repair and service across Dubai. We know appliance issues can happen without warning, which is why we offer prompt, affordable solutions.
                             Our skilled technicians are available throughout Dubai and Sharjah, ready to provide on-site Siemens washing machine repair and service.
-
-                            At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a>, we’ve been delivering trusted and affordable repair solutions since 2010. Our extensive network includes skilled and carefully vetted technicians, and whenever possible, we’ll send someone who has hands-on experience with your specific Siemens appliance model.
                         </p>
 
                         <div id="get-quote" className=" mt-3">
