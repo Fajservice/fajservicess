@@ -162,7 +162,8 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Experts AC Service and Maintenance" loading="lazy" />
+                <img width={534}
+                  height={324} className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Experts AC Service and Maintenance" loading="lazy" />
 
               </div>
             </div>
