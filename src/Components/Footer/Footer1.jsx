@@ -109,15 +109,15 @@ const Footer1 = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="cs_footer_bottom cs_white_color">
-        <div className="container">
-          <div className="cs_footer_bottom_in">
-            <div className="cs_footer_copyright text-light">
-              Copyright © 2025 <a className="text-light" href="https://www.fajitsolutions.com/">FAJ IT SOLITIONS</a>. All Rights Reserved.
-            </div>
-            <div>
-              <img src={`${import.meta.env.BASE_URL}img/icons/payment_card.png`} alt="Payment Icon FAJ" />
+        <div className="cs_footer_bottom cs_white_color">
+          <div className="container">
+            <div className="cs_footer_bottom_in">
+              <div className="cs_footer_copyright text-light">
+                Copyright © 2025 <a className="text-light" href="https://www.fajitsolutions.com/">FAJ IT SOLUTIONS</a>. All Rights Reserved.
+              </div>
+              <div>
+                <img src={`${import.meta.env.BASE_URL}img/icons/payment_card.png`} alt="Payment Icon FAJ" />
+              </div>
             </div>
           </div>
         </div>

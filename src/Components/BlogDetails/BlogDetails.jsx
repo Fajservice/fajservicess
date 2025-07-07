@@ -243,6 +243,18 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
               return <em {...props}>{children}</em>;
             case 'br':
               return <br {...props} />;
+               case 'table':
+              return <table key={`table-${index}`} className="table table-bordered">{children}</table>;
+            case 'thead':
+              return <thead key={`thead-${index}`}>{children}</thead>;
+            case 'tbody':
+              return <tbody key={`tbody-${index}`}>{children}</tbody>;
+            case 'tr':
+              return <tr key={`tr-${index}`}>{children}</tr>;
+            case 'th':
+              return <th key={`th-${index}`}>{children}</th>;
+            case 'td':
+              return <td key={`td-${index}`}>{children}</td>;
             default:
               return <span {...props}>{children}</span>;
           }
@@ -350,7 +362,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
           
           return (
             <div key={`${sectionName}_h3_${i + 1}`}>
-              <h3 className="cs_fs_24">{blogPost[h3Key]}</h3>
+              <h3 className="cs_fs_24 mb-2">{blogPost[h3Key]}</h3>
               {blogPost[h3ImgKey] && (
                 <div className="col-md-8">
                   <img src={blogPost[h3ImgKey]} alt={blogPost.title} />
@@ -433,11 +445,11 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                   </div>
                 </div>
                 
-                <h1 className="cs_fs_30">{blogPost.title}</h1>
+                <h1 className="cs_fs_36">{blogPost.title}</h1>
                 {renderContent(blogPost.content)}
 
                 {/* Render sections dynamically */}
-                {['sec_two', 'sec_three', 'sec_four', 'sec_five', 'sec_six', 'sec_seven', 'sec_eight', 'sec_nine', 'sec_ten', 'sec_eleven', 'sec_tweleve'].map(sectionName => 
+                {['sec_two', 'sec_three', 'sec_four', 'sec_five', 'sec_six', 'sec_seven', 'sec_eight', 'sec_nine', 'sec_ten', 'sec_eleven', 'sec_tweleve', 'sec_thirteen', 'sec_fourteen', 'sec_fifteen', 'sec_sixteen', 'sec_seventeen', 'sec_eighteen', 'sec_nineteen', 'sec_twenty'].map(sectionName => 
                   renderSection(sectionName)
                 )}
 
@@ -463,7 +475,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                       
                       return (
                         <div key={`faq_${i + 1}`}>
-                          <h3>{blogPost[faqH3Key]}</h3>
+                          <h3  className="cs_fs_24 mb-2">{blogPost[faqH3Key]}</h3>
                           {renderContent(blogPost[faqPKey])}
                         </div>
                       );
