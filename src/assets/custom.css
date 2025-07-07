@@ -132,7 +132,7 @@
   font-family: 'Gunplay-Regular';
   font-style: normal;
   font-weight: normal;
-  src: local('Gunplay-Regular'), url('../../public/fonts/faj-custom-font.ttf') format('ttf');
+  src: local('Gunplay-Regular'), url('/fonts/faj-custom-font.ttf') format('ttf');
 }
 
 
@@ -140,7 +140,7 @@
   font-family: 'Gunplay-Regular';
   font-style: normal;
   font-weight: normal;
-  src: local('Gunplay-Regular'), url('../../public/fonts/faj-custom-font.woff') format('woff');
+  src: local('Gunplay-Regular'), url('/fonts/faj-custom-font.woff') format('woff');
 }
 
 #get-quote a.menu-menu-btn {

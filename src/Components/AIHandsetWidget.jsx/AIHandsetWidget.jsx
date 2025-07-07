@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import './AIHandsetWidget.css'; // Custom styles will be in this file
-import aiicon from '../../../public/img/icons/aiicon.png'
+import aiicon from '/img/icons/aiicon.png'
 const AIHandsetWidget = () => {
     useEffect(() => {
         const popup = document.getElementById('ai-popup');
