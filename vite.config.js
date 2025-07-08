@@ -12,12 +12,12 @@ export default defineConfig(({ mode }) => {
       react({
         fastRefresh: true
       }),
-      
-       viteCompression({
-      algorithm: 'gzip', // or 'brotliCompress'
-      ext: '.gz', // file extension
-      threshold: 1024, // Only compress files > 1kb
-    }),
+
+      viteCompression({
+        algorithm: 'gzip', // or 'brotliCompress'
+        ext: '.gz', // file extension
+        threshold: 1024, // Only compress files > 1kb
+      }),
     ],
     // base: '/dist/',
 
