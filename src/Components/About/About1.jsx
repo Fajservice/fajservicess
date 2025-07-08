@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const About1 = ({img1,img2,img3,expNumber,expYers,expTitle,expTitleYear,telLink,expDescrip,number,subTitle,Title,Content,feature1,feature2,listItem,avatar,name,designation}) => {
+const About1 = ({img1,img2,img3,expNumber,expYers,expTitle,expTitleYear,telLink,expDescrip,number,subTitle,Title,Content,feature1,feature2,listItem}) => {
     return (
         <section className="cs_about cs_style_1 position-relative">
          <div className="cs_height_80 cs_height_lg_80"></div>
