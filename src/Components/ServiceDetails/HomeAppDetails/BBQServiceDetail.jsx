@@ -337,6 +337,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Barbeque-
               </div>
 
               <div className="col-xl-6">
+                
                 <p className='mb-0'>We specialize in all types and brands of BBQ grills, including built-in models.</p>
                 <p className="mb-0"><strong>Our services include:</strong></p>
                 <ul>
@@ -459,6 +460,11 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Barbeque-
         {/* We specialise in Oven services for the following brands  */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
+            <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY BBQ REPAIR SERVICE</h3>
+            <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 157 to 280 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
+            <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
+            <b>We provide 2-month service warranty</b><br />
+            and <small>3-month parts warranty</small> as standard.</p>
             <h3>We specialise in BArbecue repair services for the following brands</h3>
             <ul>
               <li><strong>Char Broil Gas Grill Service and Repair: </strong>FAJ offers reliable Char-Broil gas grill cleaning and services in Dubai, with professionals who are experts in freestanding and built-in Char-Broil gas grill barbeques.</li>

@@ -504,6 +504,11 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/cigarcabn
         
         <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">
+            <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY Cigar Cabinet REPAIR SERVICE</h3>
+            <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 157 to 280 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
+            <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
+            <b>We provide 2-month service warranty</b><br />
+            and <small>3-month parts warranty</small> as standard.</p>
             <h3>We specialise in Cigar Cabinet services for the following brands</h3>
             <ul>
               <li><strong>Afidano Electric Cigar Humidor Service Center in Dubai: </strong>Afidano specializes in cigar humidor repair, fixing electric cigar humidor, cigar refrigerator repairs, and cigar cooler maintenance. FAJ is the official Afidano electric cigar humidor service center in Dubai, UAE.</li>
