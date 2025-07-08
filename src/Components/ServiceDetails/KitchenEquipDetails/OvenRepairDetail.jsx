@@ -168,7 +168,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Camercial
                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>EXPRESS & EMERGENCY Oven REPAIR SERVICE</h2>
                 <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that appliesapplies for each diagnosis, depending on the capacity applied. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.<br />
                   <b>CHOOSE FAJ FOR YOUR PEACE OF MIND<br />
-                    <small>We provide 2-month service warranty
+                    <small>We provide 2-month repair warranty
                       and 3-month parts warranty as standard.</small></b></p>
               </div>
 

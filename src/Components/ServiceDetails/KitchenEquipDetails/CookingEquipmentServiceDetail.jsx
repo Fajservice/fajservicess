@@ -144,7 +144,7 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                 <p className="mb-0">
                   <b>Terms & Conditions:</b> There is a callout fee that appliesapplies for each diagnosis, depending on the capacity applied. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.<br />
                   <b>CHOOSE FAJ FOR YOUR PEACE OF MIND<br />
-                    <small>We provide 2-month service warranty
+                    <small>We provide 2-month repair warranty
                       and 3-month parts warranty as standard.</small> </b>
                 </p>
               </div>
