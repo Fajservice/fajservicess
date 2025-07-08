@@ -17,10 +17,10 @@ export default defineConfig(({ mode }) => {
         threshold: 1024,
       }),
     ],
-    // base: '/dist/',
+    base: '/dist/',
 
     // CRITICAL: Set base to '/' for Vercel deployment
-    base: '/',
+    // base: '/',
 
     build: {
       minify: 'esbuild',

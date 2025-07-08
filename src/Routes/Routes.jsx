@@ -418,10 +418,6 @@ export const router = createBrowserRouter([
         element: <Components.ProjectPage />,
       },
       {
-        path: "/team",
-        element: <Components.TeamPage />,
-      },
-      {
         path: "/blogs",
         element: <Components.BlogPage />,
       },
