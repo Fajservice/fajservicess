@@ -560,7 +560,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/dishwashe
             <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY Dishwasher REPAIR SERVICE</h3>
             <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 157 to 280 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
             <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
-            <b>We provide 2-month service warranty</b><br />
+            <b>We provide 2-month repair warranty</b><br />
             and <small>3-month parts warranty</small> as standard.</p>
             <h3>We specialise in dishwasher services for the following brands </h3>
             <div className="row">
