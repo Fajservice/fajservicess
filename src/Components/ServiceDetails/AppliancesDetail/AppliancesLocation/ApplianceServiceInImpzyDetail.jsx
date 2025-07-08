@@ -13,7 +13,7 @@ import brandsLogo_data from '../../../../Data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages.jsx";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
-import ApplianceSpecialise from "./Appliance specialise/ApplianceSpecialise.jsx";
+import ApplianceSpecialise from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
 
 const ApplianceServiceInImpzyDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
