@@ -195,10 +195,12 @@ const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">White Westinghouse Refrigerator</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Problem</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">White Westinghouse refrigerator may have cooling problems, usually related to the defrost, motor, compressor, or PCB. Let's reach out to FAJ for potential solutions.</p>
+                    <p className="p-2 mb-0">
+                      White Westinghouse fridge cooling issues often stem from defrost faults, compressor failure, or PCB errors. Contact FAJ for help.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -206,10 +208,10 @@ const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">White Westinghouse Dishwasher</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishwasher Problem</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Common issues with White Westinghouse dishwasher include poor cleaning and drying, water leaks, drainage issues, and a few electrical or PCB malfunctions.</p>
+                    <p className="p-2 mb-0">Common issues with White Westinghouse dishwasher include poor cleaning and drying, water leaks and a few electrical or PCB malfunctions.</p>
                   </div>
                 </div>
               </div>
@@ -217,7 +219,7 @@ const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">White Westinghouse Washing Machine</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Washing Machine Problem</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">White Westinghouse washing machines include problems with drainage, leaks, faulty PCBs, and issues related to the belt, door switch, or drum spinning.</p>
@@ -228,10 +230,10 @@ const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">White Westinghouse Tumble Dryer</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Tumble Dryer Problem</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">White Westinghouse dryer may stop spinning and make unusual noises without properly drying clothes, often due to a faulty heating element or control board.
+                    <p className="p-2 mb-0">White Westinghouse dryer may stop spinning and make unusual noises without drying clothes, often due to a faulty heating element or control board.
                     </p>
                   </div>
                 </div>
@@ -240,10 +242,12 @@ const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">White Westinghouse Cooker / Stove</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Cooker / Stove Problem</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Common issues with White Westinghouse stove include uneven heating and flame problems, such as a broken burner element, a faulty switch, or an electrical gas malfunction.</p>
+                    <p className="p-2 mb-0">
+                      White Westinghouse stove problems often involve uneven heating, burner issues, faulty switches, or electrical/gas malfunctions.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -254,7 +258,7 @@ const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">White Westinghouse Oven</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">White Westinghouse ovens often experience issues such as improper heating, unignited burners, ignition problems in gas models, and faulty knobs or controls.</p>
+                    <p className="p-2 mb-0">White Westinghouse ovens often experience issues such as improper heating, unignited burners, ignition problems in gas models or faulty knobs.</p>
                   </div>
                 </div>
               </div>
@@ -264,7 +268,7 @@ const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">White Westinghouse Freezer</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Common issues with White Westinghouse freezer include water leaks, insufficient ice production, malfunctioning ice makers, and decreased cooling efficiency.</p>
+                    <p className="p-2 mb-0">Common issues with White Westinghouse freezer include water leaks, insufficient ice production, ice makers, and decreased cooling efficiency.</p>
                   </div>
                 </div>
               </div>

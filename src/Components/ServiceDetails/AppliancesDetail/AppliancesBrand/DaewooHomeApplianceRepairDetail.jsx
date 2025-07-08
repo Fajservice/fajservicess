@@ -114,7 +114,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
                 <section className="section cs_py_30">
                     <div className="container">
                         <h1 className="cs_fs_30">Daewoo Home Appliance Repair Service and Installation</h1>
-                        <p>Are you having trouble finding a local Daewoo appliance technician who specializes in Daewoo kitchen appliances? At FAJ Technical Services, we have been providing reliable and affordable services since 2010. We operate with a wide network of thoroughly vetted, qualified, and experienced service professionals. Whenever possible, we will send a technician who is familiar with your specific Daewoo appliance. </p>
+                        <p>Are you having trouble finding a local Daewoo appliance technician who specializes in Daewoo kitchen appliances? At <a href="FrdktEqUSR6cgX876">FAJ Technical Services</a>, we have been providing reliable and affordable services since 2010. We operate with a wide network of thoroughly vetted, qualified, and experienced service professionals. Whenever possible, we will send a technician who is familiar with your specific Daewoo appliance. </p>
 
                         <div id="get-quote" className=" mt-3">
                             <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -138,7 +138,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
                                 </p>
                                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Terim Appliances Service</h2>
                                 <p className="mb-2">
-                                    At F A J Technical Services L.L.C, we understand that appliance breakdowns, especially with Daewoo products, never occur at a convenient time. That’s why our trained and qualified Daewoo technicians are here to offer you reliable appliances repair services. With our assistance, you can avoid the cost of purchasing a new appliance and get your Daewoo appliance up and running again before you have a chance to worry about it.
+                                    At F A J Technical Services L.L.C, we understand that appliance breakdowns, especially with Daewoo products, never occur at a convenient time. That’s why our trained and qualified Daewoo technicians are here to offer you reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliances repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Daewoo appliance up and running again before you have a chance to worry about it.
                                 </p>
 
                             </div>
@@ -288,17 +288,6 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
 
                         <div className="row align-items-center">
                             <div className="col-xl-6">
-                                <p className='mb-0'>We specialise in all types of Daewoo appliances, including built-in Daewoo appliances.</p>
-                                <p className='mb-0'><strong>Our services include:</strong></p>
-                                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                                    <li> <strong>  Daewoo Appliance Installation: </strong> Expert installation of various types and brands of home appliances, ensuring optimal performance and efficiency. </li>
-                                    <li> <strong> Daewoo Appliance Diagnostics: </strong> Comprehensive fault-finding services to effectively diagnose issues. We provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
-                                    <li> <strong> Daewoo Appliance Repair Service: </strong> Efficient repair services for all appliance components, ensuring a quick resolution to issues such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions! </li>
-                                    <li> <strong> Daewoo Appliance Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for the annual maintenance of your appliances. </li>
-                                    <p className="mb-0">Regular maintenance is crucial for ensuring your Daewoo home appliances perform optimally, run efficiently, and last longer.</p>
-                                </ul>
-                            </div>
-                            <div className="col-xl-6">
                                 <iframe
                                     className="bordered-img blue-border"
                                     width="100%"
@@ -310,6 +299,19 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
                                     allowFullScreen
                                 ></iframe>
                             </div>
+
+                            <div className="col-xl-6">
+                                <p className='mb-0'>We specialise in all types of Daewoo appliances, including built-in Daewoo appliances.</p>
+                                <p className='mb-0'><strong>Our services include:</strong></p>
+                                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
+                                    <li> <strong>  Daewoo Appliance Installation: </strong> Expert installation of various types and brands of home appliances, ensuring optimal performance and efficiency. </li>
+                                    <li> <strong> Daewoo Appliance Diagnostics: </strong> Comprehensive fault-finding services to effectively diagnose issues. We provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
+                                    <li> <strong> Daewoo Appliance Repair Service: </strong> Efficient repair services for all appliance components, ensuring a quick resolution to issues such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions! </li>
+                                    <li> <strong> Daewoo Appliance Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for the annual maintenance of your appliances. </li>
+                                    <p className="mb-0"><a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is crucial for ensuring your Daewoo home appliances perform optimally, run efficiently, and last longer.</p>
+                                </ul>
+                            </div>
+
                         </div>
                     </div>
                 </section >
@@ -486,7 +488,7 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
                 </section>
 
                 {/* We specialise  */}
-                <section className="section cs_py_30 bg-light-gray ">
+                <section className="section cs_py_30 bg-light-gray mb-4">
                     <div className="container">
                         <h3>We specialise in Daewoo appliance services of the following types</h3>
                         <div className="row">

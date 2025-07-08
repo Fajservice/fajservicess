@@ -10,7 +10,7 @@
 
 }
 
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
 /* OVERRIDE CONTAINER for fix content and width */
 @media (min-width: 1400px) {
   .container {
