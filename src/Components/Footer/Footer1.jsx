@@ -6,7 +6,7 @@ const Footer1 = () => {
   return (
     <footer className="cs_footer cs_style_1 cs_bg_filed cs_heading_bg" data-src={`${import.meta.env.BASE_URL}img/footer_bg.avif`}>
       <div className="cs_main_footer cs_white_color">
-        <div className="container">
+        <div className="container pb-4">
           <div className="cs_footer_row">
             <div className="cs_footer_col">
               <div className="cs_footer_widget">

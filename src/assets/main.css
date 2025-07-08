@@ -4093,9 +4093,9 @@ textarea {
   text-decoration: underline;
 }
 
-.cs_footer.cs_style_1 .cs_main_footer {
+/* .cs_footer.cs_style_1 .cs_main_footer {
   padding-bottom: 75px;
-}
+} */
 
 .cs_footer.cs_style_1.cs_type_1 .cs_main_footer {
   padding-bottom: 0;
