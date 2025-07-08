@@ -146,7 +146,7 @@ const CandyRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, d
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Candy Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we understand that appliance breakdowns, especially with Candy products, never happen at a convenient time. That’s why our trained and experienced Candy technicians are ready to provide dependable Candy <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a> With our expert support, you can avoid the expense of replacing your appliance and have it running smoothly again before it causes any major disruption.
+                  At F A J Technical Services L.L.C, we understand that appliance breakdowns, especially with Candy products, never happen at a convenient time. That’s why our trained and experienced Candy technicians are ready to provide dependable. Candy <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a> With our expert support, you can avoid the expense of replacing your appliance and have it running smoothly again before it causes any major disruption.
                 </p>
 
               </div>
