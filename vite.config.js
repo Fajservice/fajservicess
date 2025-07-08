@@ -19,7 +19,7 @@ export default defineConfig(({ mode }) => {
       threshold: 1024, // Only compress files > 1kb
     }),
     ],
-      //  base: '/dist/',
+       base: '/dist/',
     
     build: {
       minify: 'esbuild',

@@ -144,7 +144,7 @@ const KitchenaidRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
                   Whether it’s a built-in Kitchenaid washing machine that won’t drain, a fridge that isn’t cooling, an oven that won’t heat, or a dishwasher that refuses to start,  our skilled technicians in Dubai and Sharjah are ready to assist. As your trusted local service provider, we ensure prompt response times to restore your appliances efficiently.
                 </p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Kitchenaid Appliances Service</h2>
+                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Kitchenaid Appliances Service</h2>
                 <p className="mb-2">
                   At F A J Technical Services L.L.C, we understand that appliance breakdowns, especially with Kitchenaid products, rarely happen at a convenient time. That’s why our trained Kitchenaid technicians are ready to provide reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair service</a> when you need it most. With our help, you can avoid the high cost of replacement and get your Kitchenaid appliance running smoothly again in no time.
                 </p>
@@ -164,7 +164,7 @@ const KitchenaidRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
         <section className="section cs_py_30">
           <div className="container">
 
-            <h3 className="cs_fs_30">Why is Kitchenaid Appliance Maintenance Service Important in Dubai?</h3>
+            <h3 className="cs_fs_28">Why is Kitchenaid Appliance Maintenance Service Important in Dubai?</h3>
             <p className="mb-0">
               Our extensive repair services include diagnosis, repairs, installations, and maintenance. This positions us as the leading provider of Kitchenaid appliance maintenance in Dubai.
             </p>
@@ -514,7 +514,7 @@ const KitchenaidRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
         {/* We are specialise in Appliances services for the following brands */}
         <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">
-            <h3>We specialize in Kitchenaid appliance services of the following types</h3>
+            <h3 className="cs_fs_28">We specialize in Kitchenaid appliance services of the following types</h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"> <b> Kitchenaid Washing Machine Repair Near You in Dubai: </b> FAJ is here to support you when issues arise. We understand that your Kitchenaid washing machine is vital for daily life, ensuring your laundry stays clean. Contact us for the best Kitchenaid <a href="https://www.fajservices.ae/washing-machine-repair-service-dubai/">washing machine service center</a> near me in Dubai. </p>

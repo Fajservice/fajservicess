@@ -16,10 +16,10 @@ import { PopupProvider } from './Components/PopupContext.jsx';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <PopupProvider>
-    <HelmetProvider>
-    <RouterProvider router={router} />
-    {/* <WelcomePopup /> */}
-    </HelmetProvider>
+      <HelmetProvider>
+        <RouterProvider router={router} />
+        {/* <WelcomePopup /> */}
+      </HelmetProvider>
     </PopupProvider>
   </StrictMode>,
 )

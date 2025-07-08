@@ -164,7 +164,7 @@ const GeGeneralElectricFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
         <section className="section cs_py_30">
           <div className="container">
 
-            <h3 className="cs_fs_30">Why is GE General Appliance Maintenance Service Important in Dubai?</h3>
+            <h3 className="cs_fs_28">Why is GE General Appliance Maintenance Service Important in Dubai?</h3>
             <p className="mb-0">
               Our extensive repair services include diagnosis, repairs, installations, and maintenance. This positions us as the leading provider of GE General appliance maintenance in Dubai.
             </p>
@@ -513,7 +513,7 @@ const GeGeneralElectricFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
         {/* We are specialise in Appliances services for the following brands */}
         <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">
-            <h3>We specialize in GE General appliance services of the following types</h3>
+            <h3 className="cs_fs_28">We specialize in GE General appliance services of the following types</h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"> <b> GE General Washing Machine Repair Near You in Dubai: </b> FAJ is here to support you when issues arise. We understand that your GE General washing machine is vital for daily life, ensuring your laundry stays clean. Contact us for the best GE General <a href="https://www.fajservices.ae/washing-machine-repair-service-dubai/">washing machine service center</a> near me in Dubai. </p>

@@ -27,6 +27,7 @@ const AIHandsetWidget = () => {
 
     return (
         <>
+
             <div
                 id="ai-handset-widget"
                 className="position-fixed bottom-0 end-0 mb-2 d-flex flex-column align-items-end"
@@ -51,7 +52,7 @@ const AIHandsetWidget = () => {
                         right: '10px'
                     }}
                 >
-                    <div style={{ position: 'relative', width: '50px', height: '45px'}}>
+                    <div style={{ position: 'relative', width: '50px', height: '45px' }}>
                         <img
                             id="ai-icon"
                             src={aiicon}

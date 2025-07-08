@@ -4,14 +4,14 @@ import ElectroluxHomeApplianceDetail from '../../../Components/ServiceDetails/Ap
 const ElectroluxHomeAppliance = () => {
   return (
     <div className="serviceDetails">
-    <BreadCumb
+      <BreadCumb
         bgImg="img/banners/homeappliancesbrands/desktop/Electrolux-appliances-repair-faj.avif"
         mobileBgImg="img/banners/homeappliancesbrands/mobile/Electrolux-appliances-repair-faj.avif"
         Title="Electrolux Home Appliance Repair in Dubai"
-    ></BreadCumb>
+      ></BreadCumb>
 
-    <ElectroluxHomeApplianceDetail />     
-</div>
+      <ElectroluxHomeApplianceDetail />
+    </div>
   )
 }
 

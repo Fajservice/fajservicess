@@ -469,7 +469,7 @@ const FisherPaykelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your Fisher & Paykel appliance repair in Dubai or Sharjah, allowing a 3-4 hour window for our technician's arrival.</p>
+                    <p>Choose a day and time for your Fisher & Paykel appliance repair in Dubai or Sharjah, allowing a 3 to 4 hour window for our technician's arrival.</p>
                   </div>
                 </div>
 

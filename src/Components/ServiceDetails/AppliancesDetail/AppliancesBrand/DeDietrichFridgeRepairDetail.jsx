@@ -144,11 +144,10 @@ const DeDietrichFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                   As a trusted local service provider, we respond quickly to restore your appliances to full working order.
                 </p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable De Dietrich Appliances Service</h2>
+                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable De Dietrich Appliances Service</h2>
                 <p className="mb-2">
                   At F A J Technical Services L.L.C, we understand that appliance breakdowns, especially with De Dietrich products, never occur at a convenient time. That’s why our trained and qualified De Dietrich technicians are here to offer you reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your De Dietrich appliance up and running again before you have a chance to worry about it.
                 </p>
-
               </div>
 
               <div className="col-md-6 ">
@@ -163,7 +162,7 @@ const DeDietrichFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
         <section className="section cs_py_30">
           <div className="container">
 
-            <h3 className="cs_fs_30">Why is De Dietrich Appliance Maintenance Service Important in Dubai?</h3>
+            <h3 className="cs_fs_28">Why is De Dietrich Appliance Maintenance Service Important in Dubai?</h3>
             <p className="mb-0">
               Our comprehensive repair services encompass diagnosis, repairs, installations, and maintenance. This is why we are the leading provider of De Dietrich appliance maintenance in Dubai.
             </p>
@@ -526,7 +525,7 @@ const DeDietrichFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
         {/* We are specialise in Appliances services for the following brands */}
         <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">
-            <h3>We specialize in De Dietrich appliance services of the following types</h3>
+            <h3 className="cs_fs_28">We specialize in De Dietrich appliance services of the following types</h3>
             <div className="row">
               <div className="col-12">
                 <p className="mb-0"> <b> De Dietrich Washing Machine Repair Near You in Dubai: </b>  FAJ is here to support you when things go wrong. We understand that your De Dietrich washing machine is essential for daily life, keeping your laundry clean.</p>
