@@ -25,7 +25,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Appliances Repair Dubai, Appliance Service Dubai, Appliance Repair Near Me, Home Appliances Repair Dubai, Washing Machine Repair Dubai, Refrigerator Repair Dubai, Dishwasher Repair Dubai, Oven Repair Dubai, Dryer Repair Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-repair-service/").replace(/\/?$/, '/');
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
 
 
 
@@ -561,8 +561,8 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-
                   : When you need Electrolux appliance repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE.
                 </p>
                 <p className="mb-0">
-                  
-                    <b>Bosch Appliance Service</b>
+
+                  <b>Bosch Appliance Service</b>
                   : If you are looking for the best Bosch refrigerator repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch home appliance repair and are recognized as the leading Bosch cooking range, Washing machine, refrigerator service provider in the area.
                 </p>
                 <p className="mb-0">
