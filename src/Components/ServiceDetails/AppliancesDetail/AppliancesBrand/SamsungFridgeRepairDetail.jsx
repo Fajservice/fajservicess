@@ -503,7 +503,7 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
               Timing: Mon-Sat 8:00 AM to 6:00 PM - Sunday 12:00 PM to 6:00 PM. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.
             </p>
             <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
-              <b>We provide 2-month service warranty</b><br />
+              <b>We provide 2-month repair warranty</b><br />
               and <small>3-month parts warranty</small> as standard.</p>
 
             <h3>We specialise in Samsung appliance services of the following types</h3>
