@@ -1,5 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import viteCompression from 'vite-plugin-compression'
+
 
 export default defineConfig(({ mode }) => {
   const isProduction = mode === 'production'
@@ -9,7 +11,13 @@ export default defineConfig(({ mode }) => {
     plugins: [
       react({
         fastRefresh: true
-      })
+      }),
+      
+       viteCompression({
+      algorithm: 'gzip', // or 'brotliCompress'
+      ext: '.gz', // file extension
+      threshold: 1024, // Only compress files > 1kb
+    }),
     ],
     // base: '/dist/',
 
