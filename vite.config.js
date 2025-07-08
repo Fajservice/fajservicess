@@ -2,7 +2,6 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import viteCompression from 'vite-plugin-compression'
 
-
 export default defineConfig(({ mode }) => {
   const isProduction = mode === 'production'
   const isDevelopment = mode === 'development'
@@ -12,24 +11,23 @@ export default defineConfig(({ mode }) => {
       react({
         fastRefresh: true
       }),
-
       viteCompression({
-        algorithm: 'gzip', // or 'brotliCompress'
-        ext: '.gz', // file extension
-        threshold: 1024, // Only compress files > 1kb
+        algorithm: 'gzip',
+        ext: '.gz',
+        threshold: 1024,
       }),
     ],
     // base: '/dist/',
 
+    // CRITICAL: Set base to '/' for Vercel deployment
+    base: '/',
+
     build: {
       minify: 'esbuild',
-
-
+      
       rollupOptions: {
         output: {
-
           manualChunks: (id) => {
-
             if (id.includes('node_modules')) {
               if (id.includes('react') || id.includes('react-dom')) {
                 return 'react-vendor'
@@ -37,58 +35,45 @@ export default defineConfig(({ mode }) => {
               if (id.includes('react-router')) {
                 return 'router'
               }
-              if (id.includes('lodash') || id.includes('axios') || id.includes('date-fns')) {
-                return 'utils'
-              }
               return 'vendor'
             }
 
-            if (id.includes('src/components')) {
-              return 'components'
+            // IMPORTANT: More specific chunking for your components
+            if (id.includes('src/Layout')) {
+              return 'layout'
             }
-            if (id.includes('src/pages')) {
+            if (id.includes('src/Pages')) {
+              // Group all pages together for now
               return 'pages'
             }
           },
 
-          chunkFileNames: (chunkInfo) => {
-            const facadeModuleId = chunkInfo.facadeModuleId ? chunkInfo.facadeModuleId.split('/').pop().replace('.jsx', '').replace('.tsx', '') : 'chunk'
-            return `js/${facadeModuleId}-[hash].js`
-          },
-          assetFileNames: (assetInfo) => {
-            const info = assetInfo.name.split('.')
-            let extType = info[info.length - 1]
-            if (/\.(mp4|webm|ogg|mp3|wav|flac|aac)(\?.*)?$/i.test(assetInfo.name)) {
-              extType = 'media'
-            } else if (/\.(png|jpe?g|gif|svg|ico|webp)(\?.*)?$/i.test(assetInfo.name)) {
-              extType = 'images'
-            } else if (/\.(woff2?|eot|ttf|otf)(\?.*)?$/i.test(assetInfo.name)) {
-              extType = 'fonts'
-            }
-            return `${extType}/[name]-[hash][extname]`
-          }
+          // CRITICAL: Ensure proper file naming
+          chunkFileNames: 'assets/[name]-[hash].js',
+          entryFileNames: 'assets/[name]-[hash].js',
+          assetFileNames: 'assets/[name]-[hash].[ext]'
         }
       },
 
-      chunkSizeWarningLimit: 500,
+      chunkSizeWarningLimit: 1000,
       target: 'es2020',
       sourcemap: false,
       cssCodeSplit: true,
       assetsInlineLimit: 4096,
-
       cssMinify: true,
-
-      reportCompressedSize: true
+      reportCompressedSize: false
     },
 
-    preview: {
-      port: 3000,
-      host: true
-    },
-
+    // CRITICAL: Ensure all dependencies are included
     optimizeDeps: {
       include: ['react', 'react-dom', 'react-router-dom'],
-      exclude: ['@vite/client', '@vite/env']
+    },
+
+    // IMPORTANT: Add resolve aliases
+    resolve: {
+      alias: {
+        '@': '/src'
+      }
     },
 
     define: {
