@@ -418,16 +418,8 @@ export const router = createBrowserRouter([
         element: <Components.ProjectPage />,
       },
       {
-        path: "/project/project-details",
-        element: <Components.ProjectDetailsPage />,
-      },
-      {
         path: "/team",
         element: <Components.TeamPage />,
-      },
-      {
-        path: "/team/team-details",
-        element: <Components.TeamDetailsPage />,
       },
       {
         path: "/blogs",
@@ -888,10 +880,6 @@ export const router = createBrowserRouter([
       {
         path: "/ac-services-in-old-town-dubai/",
         element: <Components.AcRepairInOldTown />,
-      },
-      {
-        path: "/ac-services-in-dubai-international-financial-centre/",
-        element: <Components.AcRepairInDubaiInternationalFinancialCenter />,
       },
       {
         path: "/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-oven-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa/",
@@ -1408,10 +1396,6 @@ export const router = createBrowserRouter([
       {
         path: "/appliances-services-in-dubailand-the-villa/",
         element: <Components.ApplianceServiceInDubailandTheVilla />,
-      },
-      {
-        path: "/ApplianceServiceInLayanComminity/",
-        element: <Components.ApplianceServiceInLayanComminity />,
       },
       {
         path: "/appliances-services-in-layan-community/",
