@@ -6,7 +6,7 @@ import viteCompression from 'vite-plugin-compression'
 export default defineConfig(({ mode }) => {
   const isProduction = mode === 'production'
   const isDevelopment = mode === 'development'
-  
+
   return {
     plugins: [
       react({
@@ -19,11 +19,11 @@ export default defineConfig(({ mode }) => {
       threshold: 1024, // Only compress files > 1kb
     }),
     ],
-       base: '/dist/',
-    
+    // base: '/dist/',
+
     build: {
       minify: 'esbuild',
-      
+
 
       rollupOptions: {
         output: {
@@ -50,7 +50,7 @@ export default defineConfig(({ mode }) => {
               return 'pages'
             }
           },
-          
+
           chunkFileNames: (chunkInfo) => {
             const facadeModuleId = chunkInfo.facadeModuleId ? chunkInfo.facadeModuleId.split('/').pop().replace('.jsx', '').replace('.tsx', '') : 'chunk'
             return `js/${facadeModuleId}-[hash].js`
@@ -69,28 +69,28 @@ export default defineConfig(({ mode }) => {
           }
         }
       },
-      
+
       chunkSizeWarningLimit: 500,
       target: 'es2020',
-      sourcemap: false, 
-      cssCodeSplit: true, 
-      assetsInlineLimit: 4096, 
-      
+      sourcemap: false,
+      cssCodeSplit: true,
+      assetsInlineLimit: 4096,
+
       cssMinify: true,
-      
+
       reportCompressedSize: true
     },
-    
+
     preview: {
       port: 3000,
       host: true
     },
-    
+
     optimizeDeps: {
       include: ['react', 'react-dom', 'react-router-dom'],
       exclude: ['@vite/client', '@vite/env']
     },
-    
+
     define: {
       __DEV__: isDevelopment,
       __PROD__: isProduction
