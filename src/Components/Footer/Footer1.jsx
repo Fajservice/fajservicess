@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import AIHandsetWidget from "../AIHandsetWidget.jsx/AIHandsetWidget";
-import Chatbox from "../AIHandsetWidget.jsx/chatbox";
 
 const Footer1 = () => {
   return (
