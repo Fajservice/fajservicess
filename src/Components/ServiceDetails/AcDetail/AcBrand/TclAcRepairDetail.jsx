@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import data from '../../../../Data/AcData/AcFaqs/AcBrand/TCLAcRepairfaq.json';
+import data from '../../../../Data/AcData/AcFaqs/AcBrand/TclAcRepairfaq.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
