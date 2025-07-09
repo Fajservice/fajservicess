@@ -592,7 +592,6 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
             and <small>3-month parts warranty</small> as standard.</p>
             <h3 className="text-center">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
-
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
