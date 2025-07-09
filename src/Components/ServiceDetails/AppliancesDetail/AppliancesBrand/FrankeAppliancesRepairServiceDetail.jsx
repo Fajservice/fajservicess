@@ -13,7 +13,7 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import GetQuoteButton from '../../../Buttons/GetQuoteButton';
 import CallNowButton from '../../../Buttons/CallNowButton';
-import DaiganosisCharges from "../AppliancesLocation/ApplianceSpecialise/daiganosischarges";
+import DaiganosisCharges from "../AppliancesLocation/ApplianceSpecialise/Daiganosischarges";
 
 const FrankeAppliancesRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
