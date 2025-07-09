@@ -3,7 +3,7 @@ import Process from "../Components/Process/Process";
 import Testimonial1 from "../Components/Testimonial/Testimonial1";
 import { Link } from "react-router-dom";
 import {Helmet, HelmetProvider } from "react-helmet-async";
-import TimelineSection from "../Components/About/Timeline";
+import TimelineSection from "../Components/About/Timelines";
 import Services3 from "../Components/Services/Services3";
 
 
