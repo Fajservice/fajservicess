@@ -1,30 +1,24 @@
-import React from 'react';
-import '../../assets/Timeline.css'; // Separate CSS for styling
+import '../../assets/Timeline.css';
 
 const timelineData = [
   {
     title: 'F A J Technical Services L.L.C',
     date: '2010',
-    // description: 'Enter the description that describes what needs to be done during this phase. It can be an elaborate description of text or a list of activities.',
-   
     color: '#3c8dbc',
   },
   {
     title: 'F A J IT Solutions',
     date: '2023',
-    // description: 'This sample text is a list of tests to be done during this phase.\nTest 1\nTest 2\nTest 3',
      color: '#a94442',
   },
   {
     title: 'F A J International Training Academy Pvt. (Limited)',
     date: '2024',
-    // description: 'Be creative with your own ideas and start creating your own infographic outline.',
     color: '#f39c12',
   },
   {
     title: 'F A J Trading L.L.C',
     date: '2024',
-    // description: 'Celebrate!',
     color: '#605ca8',
   },
 ];
@@ -40,7 +34,6 @@ export default function Timeline() {
             </div>
             <div className="pin-content">
               <h4>{item.title}</h4>
-              {/* <p>{item.description.split('\n').map((line, i) => <span key={i}>{line}<br/></span>)}</p> */}
             </div>
           </div>
         ))}

@@ -3,7 +3,7 @@ import Process from "../Components/Process/Process";
 import Testimonial1 from "../Components/Testimonial/Testimonial1";
 import { Link } from "react-router-dom";
 import {Helmet, HelmetProvider } from "react-helmet-async";
-import TimelineSection from "../Components/About/timeline";
+import TimelineSection from "../Components/About/Timeline";
 import Services3 from "../Components/Services/Services3";
 
 
@@ -11,7 +11,7 @@ const AboutPage = () => {
 
 
     return (
-        <div>
+        <>
              <HelmetProvider>
         <Helmet>
           <title>About Us - Appliances Service Center - #1 AC Repair Company</title>
@@ -168,7 +168,7 @@ const AboutPage = () => {
             <Brand1></Brand1>
             <Process></Process>
             {/* <Team1></Team1> */}
-        </div>
+        </>
     );
 };
 
