@@ -13,6 +13,7 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import GetQuoteButton from '../../../Buttons/GetQuoteButton';
 import CallNowButton from '../../../Buttons/CallNowButton';
+import DaiganosisCharges from "../AppliancesLocation/ApplianceSpecialise/daiganosischarges";
 
 const SanyoHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
@@ -507,6 +508,10 @@ const SanyoHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
         {/* We are specialise in Appliances services for the following brands */}
         <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">
+            <DaiganosisCharges
+              appliancebrand="Sanyo Appliance"
+              feeRange="ranging from AED 157 to 280"
+            />
             <h3>We specialize in Sanyo appliance services of the following types</h3>
             <div className="row">
               <div className="col-12">

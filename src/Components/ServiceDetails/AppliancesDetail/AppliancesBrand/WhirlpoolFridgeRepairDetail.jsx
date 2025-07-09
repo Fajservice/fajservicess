@@ -15,6 +15,7 @@ import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import GetQuoteButton from '../../../Buttons/GetQuoteButton';
 import CallNowButton from '../../../Buttons/CallNowButton';
+import DaiganosisCharges from "../AppliancesLocation/ApplianceSpecialise/daiganosischarges";
 
 const WhirlpoolFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
@@ -527,6 +528,11 @@ const WhirlpoolFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
         {/* We are specialise in Appliances services for the following brands */}
         <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">
+            <DaiganosisCharges
+              appliancebrand="whirlpool Appliance" 
+              feeRange="ranging from AED 157 to 280" 
+            />
+                          
             <h3 className="cs_fs_28">We specialize in Whirlpool appliance services of the following types</h3>
             <div className="row">
               <div className="col-12">
