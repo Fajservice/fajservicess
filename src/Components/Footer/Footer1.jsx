@@ -132,7 +132,7 @@ const Footer1 = () => {
         </div>
       </div>
       <div className="floating-menu">
-        <AIHandsetWidget />
+        {/* <AIHandsetWidget /> */}
         {/* <Chatbox></Chatbox> */}
         <ul className="flt-ul-icon">
           <li>
