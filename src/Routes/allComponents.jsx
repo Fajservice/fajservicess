@@ -364,7 +364,7 @@ export const ApplianceServiceInCedreVillasSiliconOasisDubai = withSuspense(React
 export const ApplianceServiceInAlKaram = withSuspense(React.lazy(() => import("../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInAlKaram")));
 export const ApplianceServiceInTheGreens = withSuspense(React.lazy(() => import("../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInTheGreens")));
 export const ApplianceServiceInArabianRanches2 = withSuspense(React.lazy(() => import("../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInArabianRanches2")));
-export const ApplianceServiceInJumeirahLakeTowers = withSuspense(React.lazy(() => import("../Pages/AppliancesPage//AppliancesLocation/ApplianceServiceInJumeirahLakeTowers")));
+export const ApplianceServiceInJumeirahLakeTowers = withSuspense(React.lazy(() => import("../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInJumeirahLakeTowers")));
 export const ApplianceServiceInDubaiMediaCity = withSuspense(React.lazy(() => import("../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInDubaiMediaCity")));
 export const ApplianceServiceInMeadows = withSuspense(React.lazy(() => import("../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInMeadows")));
 export const ApplianceServiceInDubaiStudioCity = withSuspense(React.lazy(() => import("../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInDubaiStudioCity")));

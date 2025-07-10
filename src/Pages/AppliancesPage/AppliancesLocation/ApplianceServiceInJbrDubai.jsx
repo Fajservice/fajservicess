@@ -1,5 +1,5 @@
 import BreadCumb from "../../../Components/Common/BreadCumb";
-import ApplianceServiceInJbrDetail from "../../../Components/ServiceDetails/AppliancesDetail/AppliancesLocation/ApplianceServiceInJbrDetail";
+import ApplianceServiceInJbrdubaiDetail from "../../../Components/ServiceDetails/AppliancesDetail/AppliancesLocation/ApplianceServiceInJbrDubaiDetail";
 const ApplianceServiceInJbrDubai = () => {
   return (
     <>
@@ -10,7 +10,7 @@ const ApplianceServiceInJbrDubai = () => {
         Title="Home Appliance Service in Jbr Dubai">
       </BreadCumb>
     </div>
-    <ApplianceServiceInJbrDetail />
+    <ApplianceServiceInJbrdubaiDetail />
     </>
   )
 }
