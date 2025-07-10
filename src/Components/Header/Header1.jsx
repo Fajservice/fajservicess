@@ -97,17 +97,17 @@ export default function Header1({ variant }) {
 
               <div className="cs_main_header_left">
               <div className="cs_logo_wrap">
-                <Link className="cs_site_branding" to="/">
+                {/* <Link className="cs_site_branding" to="/">
                   <img src={img} alt="Logo" />
                 </Link>
                 <div className="cs_logo_bg_shape cs_accent_color">
-                    {/* <svg width="509" height="141" viewBox="0 0 509 141" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="509" height="141" viewBox="0 0 509 141" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M74 0H487L508.5 70.5L473.5 141H74V0Z" fill="currentColor"/>
                       <path d="M54 141H472.5L488.5 70.5L443.5 0H54V141Z" fill="white"/>
                       <path d="M0 0H443L464.5 70.5L443 141H0V0Z" fill="currentColor"/>
                     </svg>
-                    <img src={`${import.meta.env.BASE_URL}img/logo_shape_pattern.svg`} alt="FAJ" /> */}
-                  </div>             
+                    <img src={`${import.meta.env.BASE_URL}img/logo_shape_pattern.svg`} alt="FAJ" />
+                  </div>              */}
                 </div>
                 </div>
 
