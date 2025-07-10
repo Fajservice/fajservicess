@@ -87,7 +87,6 @@ const RefrigeratorRepairServiceDetails = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
             <h2 className="cs_fs_30">THE <a href="https://www.facebook.com/FAJTechnicalServicesLLC"><b>FAJ Experts</b></a> ARE HERE TO MAKE THE BEST COOLING FOR YOUR PLACE</h2>
             <p><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C.</b></a> is a leading AC repair company in Dubai, providing reliable air conditioner services tailored to the UAE's hot climate.
               <br />

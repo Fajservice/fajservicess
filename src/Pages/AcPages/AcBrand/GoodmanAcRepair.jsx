@@ -6,7 +6,7 @@ const GoodmanAcRepair = () => {
         <div className="serviceDetails">
             <BreadCumb
                 bgImg="img/acbrands/desktop/goodman-ac-repair-faj.avif"
-                mobileBgImg="img/acbrands/mobile/goddman-ac-repair-faj.avif"
+                mobileBgImg="img/acbrands/mobile/goodman-ac-repair-faj.avif"
                 Title="Goodman AC Maintenance Services in Dubai​"
             ></BreadCumb> 
             <GoodmanAcRepairDetail></GoodmanAcRepairDetail>           

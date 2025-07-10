@@ -118,7 +118,6 @@ const ElectricalPlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo,
 
         <section className="section cs_py_30">
           <div className="container">
-            {/* <img className="bordered-img blue-border" src={`${import.meta.env.BASE_URL}img/Ac-Maintenance.avif`} alt="Service Banner" /> */}
             <h1 className="cs_fs_30">Electrical Plumbing Service Dubai</h1>
             <p>
               Plumbing is any system that carries liquids for a wide range of functions. The most general uses of plumbing are heating and cooling, waste removal, and potable water delivery; nevertheless, plumbing is not limited to these applications. Plumbing operates pipes, faucets, valves, fixtures and fittings, showers, taps, tanks, and other systems to convey water.
