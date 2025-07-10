@@ -42,7 +42,7 @@ const HeroBanner1 = () => {
               <div key={index} className="cs_slide">
                 <div 
                   className="cs_hero cs_style_1 cs_type_1 cs_bg_filed cs_primary_bg cs_center" 
-                  // style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${item.img})` }}
+                  style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${item.img})` }}
                 >
                   <div className="container">
                     <div className="cs_hero_text">

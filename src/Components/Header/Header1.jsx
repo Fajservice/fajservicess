@@ -97,7 +97,7 @@ export default function Header1({ variant }) {
 
               <div className="cs_main_header_left">
               <div className="cs_logo_wrap">
-                {/* <Link className="cs_site_branding" to="/">
+                <Link className="cs_site_branding" to="/">
                   <img src={img} alt="Logo" />
                 </Link>
                 <div className="cs_logo_bg_shape cs_accent_color">
@@ -107,7 +107,7 @@ export default function Header1({ variant }) {
                       <path d="M0 0H443L464.5 70.5L443 141H0V0Z" fill="currentColor"/>
                     </svg>
                     <img src={`${import.meta.env.BASE_URL}img/logo_shape_pattern.svg`} alt="FAJ" />
-                  </div>              */}
+                  </div>             
                 </div>
                 </div>
 

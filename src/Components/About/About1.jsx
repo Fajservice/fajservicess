@@ -10,7 +10,7 @@ const About1 = ({img1,img2,img3,expNumber,expYers,expTitle,expTitleYear,telLink,
                <div className="cs_about_thumbnail_wrapper position-relative">
                  <div className="cs_about_thumbnail">
                   <picture>
-                  <img src={`${import.meta.env.BASE_URL}/${img1}`} loading="lazy" alt="About Image" />
+                  <img src={`${import.meta.env.BASE_URL}${img1}`} loading="lazy" alt="About Image" />
                   </picture>
                  </div>
                  <div className="cs_about_thumbnail mt-4">
