@@ -630,10 +630,6 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInTheLakes />,
       },
       {
-        path: "/ac-services-in-the-lakes/",
-        element: <Components.AcRepairInBurjKhalifaLake />,
-      },
-      {
         path: "/ac-services-in-umm-suqeim/",
         element: <Components.AcRepairInUmmSuqeim />,
       },
@@ -1364,10 +1360,6 @@ export const router = createBrowserRouter([
       {
         path: "/appliances-services-in-al-barsha/",
         element: <Components.ApplianceServiceInAlBarsha />,
-      },
-      {
-        path: "/appliances-services-in-arabian-ranches/",
-        element: <Components.ApplianceServiceInArabianRanches />,
       },
       {
         path: "/appliances-services-in-jumeirah-village-circle/",
