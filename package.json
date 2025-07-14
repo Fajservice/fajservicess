@@ -2,19 +2,18 @@
   "name": "fajservice",
   "version": "0.0.0",
   "private": true,
-  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
-  "homepage": "/dist/",
+  "description": "FAJ Technical Services website",
+  "homepage": "https://www.fajservices.ae",
   "bugs": {
     "url": "https://www.fajservices.ae/issues"
   },
   "license": "ISC",
-  "author": "",
+  "author": "FAJ Technical Services",
   "type": "module",
-  "main": "eslint.config.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
+    "lint": "eslint . --ext .js,.jsx",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
@@ -31,12 +30,9 @@
     "react-bootstrap": "^2.10.9",
     "react-dom": "^18.3.1",
     "react-google-recaptcha": "^3.1.0",
-    "react-helmet": "^6.1.0",
     "react-helmet-async": "^2.0.5",
-    "react-recaptcha": "^2.3.10",
     "react-router-dom": "^6.27.0",
     "react-slick": "^0.30.2",
-    "react-snap": "^1.23.0",
     "slick-carousel": "^1.8.1",
     "sort-by": "^1.2.0"
   },
@@ -44,16 +40,19 @@
     "@eslint/js": "^9.13.0",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
+    "@types/react-slick": "^0.23.10",
     "@vitejs/plugin-react": "^4.3.3",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "eslint": "^9.13.0",
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.14",
     "gh-pages": "^6.3.0",
-    "globals": "^15.11.0",
     "rollup-plugin-visualizer": "^6.0.3",
-    "terser": "^5.43.1",
+    "sharp": "^0.34.3",
     "vite": "^5.4.19",
-    "vite-plugin-compression": "^0.5.1"
+    "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-image-optimizer": "^2.0.2"
   }
+  
 }

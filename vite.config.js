@@ -1,84 +1,110 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import viteCompression from 'vite-plugin-compression'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import viteCompression from 'vite-plugin-compression';
+import { visualizer } from 'rollup-plugin-visualizer';
+import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 
 export default defineConfig(({ mode }) => {
-  const isProduction = mode === 'production'
-  const isDevelopment = mode === 'development'
+  const isProduction = mode === 'production';
 
   return {
     plugins: [
       react({
-        fastRefresh: true
+        jsxRuntime: 'automatic',
+        babel: {
+          plugins: [
+            isProduction && 'babel-plugin-transform-react-remove-prop-types'
+          ].filter(Boolean)
+        }
       }),
       viteCompression({
         algorithm: 'gzip',
         ext: '.gz',
-        threshold: 1024,
+        threshold: 10240, // 10KB
+        deleteOriginFile: false
       }),
-    ],
-    // base: '/dist/',
+      ViteImageOptimizer({
+        png: { quality: 80 },
+        jpeg: { quality: 80 },
+        webp: { lossless: false }
+      }),
+      isProduction && visualizer({
+        filename: './dist/bundle-stats.html',
+        open: false,
+        gzipSize: true
+      })
+    ].filter(Boolean),
 
-    // CRITICAL: Set base to '/' for Vercel deployment
-    base: '/',
+    base: isProduction ? '/' : '/',
 
     build: {
-      minify: 'esbuild',
-      
+      outDir: 'dist',
+      assetsDir: 'assets',
+      emptyOutDir: true,
+      target: 'esnext',
+      minify: isProduction ? 'terser' : false,
+      sourcemap: !isProduction,
+      cssCodeSplit: true,
+      chunkSizeWarningLimit: 1000,
       rollupOptions: {
         output: {
-          manualChunks: (id) => {
+          manualChunks(id) {
             if (id.includes('node_modules')) {
               if (id.includes('react') || id.includes('react-dom')) {
-                return 'react-vendor'
+                return 'react-vendor';
               }
               if (id.includes('react-router')) {
-                return 'router'
+                return 'router';
               }
-              return 'vendor'
-            }
-
-            // IMPORTANT: More specific chunking for your components
-            if (id.includes('src/Layout')) {
-              return 'layout'
-            }
-            if (id.includes('src/Pages')) {
-              // Group all pages together for now
-              return 'pages'
+              if (id.includes('lodash')) {
+                return 'lodash';
+              }
+              return 'vendor';
             }
           },
-
-          // CRITICAL: Ensure proper file naming
           chunkFileNames: 'assets/[name]-[hash].js',
           entryFileNames: 'assets/[name]-[hash].js',
           assetFileNames: 'assets/[name]-[hash].[ext]'
         }
       },
-
-      chunkSizeWarningLimit: 1000,
-      target: 'es2020',
-      sourcemap: false,
-      cssCodeSplit: true,
-      assetsInlineLimit: 4096,
-      cssMinify: true,
-      reportCompressedSize: false
-    },
-
-    // CRITICAL: Ensure all dependencies are included
-    optimizeDeps: {
-      include: ['react', 'react-dom', 'react-router-dom'],
-    },
-
-    // IMPORTANT: Add resolve aliases
-    resolve: {
-      alias: {
-        '@': '/src'
+      terserOptions: {
+        compress: {
+          drop_console: isProduction,
+          drop_debugger: isProduction
+        }
       }
     },
 
-    define: {
-      __DEV__: isDevelopment,
-      __PROD__: isProduction
+    optimizeDeps: {
+      include: ['react', 'react-dom', 'react-router-dom'],
+      exclude: []
+    },
+
+    resolve: {
+      alias: {
+        '@': '/src',
+        '@components': '/src/components',
+        '@pages': '/src/pages',
+        '@assets': '/src/assets'
+      }
+    },
+
+    server: {
+      port: 3000,
+      open: true,
+      strictPort: true,
+      host: true
+    },
+
+    preview: {
+      port: 3000,
+      strictPort: true
+    },
+
+    css: {
+      modules: {
+        localsConvention: 'camelCaseOnly'
+      },
     }
-  }
-})
+  };
+});

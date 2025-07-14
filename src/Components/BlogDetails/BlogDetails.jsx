@@ -9,7 +9,6 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  // Memoize share URL and blog title to prevent recalculation
   const shareUrl = useMemo(() => 
     blogPost ? `${window.location.origin}/blog/${slug}` : '', 
     [blogPost, slug]
@@ -32,7 +31,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
       if (post) {
         setBlogPost(post);
       } else {
-        // Better fallback handling
+
         if (data && data.length > 0) {
           setBlogPost(data[0]);
         } else {
@@ -47,7 +46,6 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
     }
   }, [slug]);
 
-  // Enhanced function to handle both custom Link tags and regular HTML
   const renderParagraphWithLinks = (paragraph) => {
     if (!paragraph || typeof paragraph !== 'string') return paragraph;
     
@@ -156,10 +154,9 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
           linkCounter++;
           return token;
         });
-        break; // Process one at a time to avoid regex issues
+        break; 
       }
-      
-      // Now parse the HTML with tokens
+
       const parser = new DOMParser();
       const doc = parser.parseFromString(`<div>${processedContent}</div>`, 'text/html');
       
@@ -167,7 +164,6 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
         if (node.nodeType === Node.TEXT_NODE) {
           let text = node.textContent;
           
-          // Replace link tokens with React components
           for (const [token, linkData] of linkMap) {
             if (text.includes(token)) {
               const parts = text.split(token);
@@ -176,7 +172,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                 for (let i = 0; i < parts.length; i++) {
                   if (parts[i]) result.push(parts[i]);
                   if (i < parts.length - 1) {
-                    // Create the link component
+
                     const isFullUrl = linkData.url.startsWith('http://') || linkData.url.startsWith('https://') || linkData.url.startsWith('www.');
                     const isAbsolutePath = linkData.url.startsWith('/');
                     
@@ -272,7 +268,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
       
     } catch (err) {
       console.error("Error parsing mixed content:", err);
-      // Fallback to dangerouslySetInnerHTML
+
       return <div dangerouslySetInnerHTML={{ __html: content }} />;
     }
   };
@@ -332,7 +328,6 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
     }
   };
 
-  // Helper function to render sections dynamically (reduces code duplication)
   const renderSection = (sectionName) => {
     const h2Key = `${sectionName}_h2`;
     const h2PKey = `${sectionName}_h2_p`;
@@ -376,7 +371,6 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
     );
   };
 
-  // Loading and error states
   if (loading) {
     return <div className="container py-5 text-center">Loading...</div>;
   }
@@ -389,7 +383,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
     return <div className="container py-5 text-center">Blog post not found.</div>;
   }
 
-  // SEO metadata with proper fallbacks
+
   const metatitle = String(titleSeo || blogPost.metatitle || blogPost.title || '');
   const metadescription = String(description || blogPost.metadesc || '');
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
