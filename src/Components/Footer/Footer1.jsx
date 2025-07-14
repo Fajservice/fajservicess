@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import AIHandsetWidget from "../AIHandsetWidget.jsx/AIHandsetWidget";
+// import AIHandsetWidget from "../AIHandsetWidget.jsx/AIHandsetWidget";
 
 const Footer1 = () => {
   return (
-    <footer className="cs_footer cs_style_1 cs_bg_filed cs_heading_bg" data-src={`${import.meta.env.BASE_URL}img/footer_bg.avif`}>
+    <footer className="cs_footer cs_style_1 cs_bg_filed cs_heading_bg">
       <div className="cs_main_footer cs_white_color">
         <div className="container pb-4">
           <div className="cs_footer_row">
@@ -132,7 +132,7 @@ const Footer1 = () => {
         </div>
       </div>
       <div className="floating-menu">
-        <AIHandsetWidget />
+        {/* <AIHandsetWidget /> */}
         {/* <Chatbox></Chatbox> */}
         <ul className="flt-ul-icon">
           <li>
