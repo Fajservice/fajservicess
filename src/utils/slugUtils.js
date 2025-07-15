@@ -12,8 +12,3 @@ export const generateSlug = (text) => {
       .trim();                   // Trim leading/trailing spaces
   };
   
-  /**
-   * Example usage:
-   * const title = "Reviving Rides, One Car at a Time!";
-   * const slug = generateSlug(title); // Output: "reviving-rides-one-car-at-a-time"
-   */
