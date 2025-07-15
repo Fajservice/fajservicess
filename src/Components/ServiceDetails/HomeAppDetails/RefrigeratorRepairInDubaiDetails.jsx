@@ -146,8 +146,8 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30"> Refrigerator Repair and Service in Dubai</h1>
-            <p>Since 2010, FAJ has established itself as the go-to reference for  refrigerator, freezer and fridge repair and service in Dubai and Sharjah.
-              We prioritise refrigerator repairs over replacements, helping you save money and avoid the bother of buying a new fridge or freezer.
+            <p>
+              Since 2010, FAJ has established itself as the go-to reference for refrigerator, freezer and fridge repair near me service in Dubai and Sharjah. We prioritise refrigerator repair near you over replacements, helping you save money and avoid the bother of buying a new fridge or freezer.
               Rely on our experienced experts for fast and reliable refrigerator maintenance in Dubai!
             </p>
 
@@ -543,8 +543,8 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
             <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY REFRIGERATOR REPAIR SERVICE</h3>
             <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 157 to 280 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
             <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
-            <b>We provide 2-month repair warranty</b><br />
-            and <small>3-month parts warranty</small> as standard.</p>
+              <b>We provide 2-month repair warranty</b><br />
+              and <small>3-month parts warranty</small> as standard.</p>
             <h3>We specialise in Refrigerator services for the following brands</h3>
             <div className="row">
               <div className="col-12">

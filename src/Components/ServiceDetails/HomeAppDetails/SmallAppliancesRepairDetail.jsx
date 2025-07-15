@@ -16,7 +16,6 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 
-// import { Link } from "react-router-dom";
 
 const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
@@ -25,7 +24,7 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "mixer repair, steam iron repair, toaster repair, microwave oven repair, air fryer repair, water dispenser repair, small home appliances service, household appliance repair near me");
   const metaURL = String(URL || "https://www.fajservices.ae/small-home-appliances-service-center-in-dubai/").replace(/\/?$/, '/');
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/small-mixer-service.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/small-mixer-service.avif");
 
 
   subtitle = "Testimonial"
@@ -281,7 +280,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/small-mix
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1"> Specific Function Failures:</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1"> Specific Function Failures</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -294,7 +293,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/small-mix
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1"> Electrical Problems:</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1"> Electrical Problems</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -307,7 +306,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/small-mix
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1"> Malfunctioning Components:</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1"> Malfunctioning Components</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
@@ -343,7 +342,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/small-mix
         {/* HERE ARE  */}
         <section className="section cs_py_30 ">
           <div className="container">
-            <h2 className="cs_fs_30">Common Kitchen Appliance Problems That May Require Maintenance         </h2>
+            <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR SMALL HOME APPLIANCES</h2>
             <p className='mb-0'>The search results indicate that the company primarily offers repair and maintenance services for household appliances such as stand mixers, blenders, kettles, toasters, air fryers, microwave ovens, ice crushers, food processors, vacuum cleaners, cigar cabinet fridges, steam irons, and other electronic appliance
 
             </p>
@@ -558,14 +557,14 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/small-mix
             <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY Small Appliance REPAIR SERVICE</h3>
             <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 157 to 280 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
             <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
-            <b>We provide 2-month repair warranty</b><br />
-            and <small>3-month parts warranty</small> as standard.</p>
+              <b>We provide 2-month repair warranty</b><br />
+              and <small>3-month parts warranty</small> as standard.</p>
             <h3>We specialize in small appliance services for the following types </h3>
             <div className="row">
               <div className="col-12">
                 <ul>
                   <li><strong>Vacuum Cleaner Repair and Service: </strong>Is your vacuum cleaner not performing as it should? Our vacuum cleaner repair near me services can help! We fix vacuum cleaner all issues, including motor problems, faulty switches, and clogged hoses.</li>
-                  <li><strong>Hair Dryer Repair and Service: </strong>Welcome to FAJ Technical Services LLC, your go-to for hair dryer repair and the best hair dryer service near you. We specialize in fixing issues and restoring your appliance. Contact us for reliable service today!</li>
+                  <li><strong>Hair Dryer Repair and Service: </strong>Welcome to FAJ Technical Services L.L.C, your go-to for hair dryer repair and the best hair dryer service near you. We specialize in fixing issues and restoring your appliance. Contact us for reliable service today!</li>
                   <li><strong>Coffee Maker Repair Me: </strong>Get reliable coffee maker repair near you in Dubai. We fix coffee machine leaks, power issues, and brewing faults for all major brands. Fast, affordable service by expert technicians.</li>
                   <li><strong>Juicer Blender Repair Near Me: </strong>Is your juicer noisy or not working properly? We offer affordable Juicer repair shop near me, juice kit repair and blender repair and services near you in Dubai. Our experts can fix juicer issues like jammed mechanisms and electrical glitches. Trust us to restore your appliances quickly!</li>
                   <li><strong>Steam Iron Box Repair Near Me: </strong>If your electric iron isn&rsquo;t working properly, we provide Steam iron repair shop near me, iron repair and iron services in Dubai. Our expertise includes fixing iron heating elements, thermostats, and faulty wiring, so you can enjoy wrinkle-free clothes again.</li>

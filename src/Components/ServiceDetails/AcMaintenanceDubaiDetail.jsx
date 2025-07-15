@@ -118,7 +118,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30" style={{ fontSize: "25px" }}>AC MAINTENANCE IN DUBAI - AC MAINTENANCE AND SERVICE NEAR YOU</h1>
-            <p><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C.</b></a> has been providing AC maintenance services in Dubai since 2010. Our experienced team specializes in HVAC maintenance, repair, and installation for residential and commercial air conditioning units in Dubai and Sharjah, ensuring efficient cooling solutions for our clients.<br />
+            <p><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been providing AC maintenance services in Dubai since 2010. Our experienced team specializes in HVAC maintenance, repair, and installation for residential and commercial air conditioning units in Dubai and Sharjah, ensuring efficient cooling solutions for our clients.<br />
               An air conditioner unit is essential for maintainance a comfortable indoor environment year-round. Regular AC maintenance, including repairs and cleaning, is necessary for optimal performance. Our professional air conditioner maintenance services in Dubai are designed to ensure your system operates efficiently, enhancing the quality of your indoor atmosphere.</p>
 
             <div id="get-quote" className=" mt-3">
@@ -313,7 +313,6 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h2 className="cs_fs_30">Tips for Maintaining Your AC System</h2>
-            <p>Regular maintenance is crucial for preventing common AC issues and extending lifespan of your system. Follow these tips to ensure your AC runs smoothly:</p>
             <div className="row align-items-center">
               <div className="col-xl-6">
                 <iframe
@@ -329,6 +328,8 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
               </div>
 
               <div className="col-xl-6">
+                <p className="mb-0">Regular maintenance is crucial for preventing common AC issues and extending lifespan of your system. Follow these tips to ensure your AC runs smoothly:</p>
+
                 <ul className="cs_list cs_style_ cs_fs_16 Xcs_mp_0">
                   <li> <b>Change the Air Filter Regularly:</b> A dirty filter restricts airflow and decreases efficiency. Replace it every 1 to 3 months, depending on how often you use your system. </li>
 

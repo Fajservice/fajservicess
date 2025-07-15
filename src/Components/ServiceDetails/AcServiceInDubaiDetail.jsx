@@ -186,7 +186,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h2 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h2>
-            <p>Regular air conditioner (AC) maintenance service in Dubai is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need<a href="https://www.fajservices.ae/ac-maintenance-dubai/"> AC maintenance</a> and air conditioning service near you, contact us.</p>
+            <p>Regular air conditioner (AC) maintenance service in Dubai is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need<a href="https://www.fajservices.ae/ac-maintenance-dubai/">AC maintenance</a> and air conditioning service near you, contact us.</p>
 
             <div className="row align-items-center">
               <div className="col-md-6">
@@ -200,16 +200,16 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
                   <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend your air condition unit’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
                   <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
-                  <li> <strong> Enhanced Comfort: </strong> Regular <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a> in Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
+                  <li> <strong> Enhanced Comfort: </strong> Regular <a href="https://www.youtube.com/watch?v=pkO_jobGdBo" className="fw-bold text-decoration-underline">AC servicing</a> in Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
 
                 </ul>
               </div>
             </div>
           </div>
-        </section>
+        </section >
 
         {/* Common AC Problems That May Require Maintenance */}
-        <section className="section cs_py_30">
+        < section className="section cs_py_30" >
           <div className="container">
             <h2 className="text-center">Common AC Problems That May Require Maintenance</h2>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -308,19 +308,19 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
               </div>
             </div>
           </div>
-        </section>
+        </section >
 
         {/* A Quick Guide to Understanding and Fixing Your AC Problems */}
-        <QuickGuide />
+        < QuickGuide />
 
         {/* The Benefits Of Regular AC Service*/}
-        <BenefitAcMaintenance />
+        < BenefitAcMaintenance />
 
         {/* Why choose us AC */}
-        <ACWhyChooseUs />
+        < ACWhyChooseUs />
 
         {/* We specialise in air conditioning services for the following brands */}
-        <section className="section cs_py_30 bg-light-gray">
+        < section className="section cs_py_30 bg-light-gray" >
           <div className="container">
             <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
             <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
@@ -400,7 +400,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
             </div>
 
           </div>
-        </section>
+        </section >
 
         <Practicaltip></Practicaltip>
         <AcProperties></AcProperties>
@@ -495,7 +495,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
         </section>
 
-      </div>
+      </div >
     </>
   );
 };

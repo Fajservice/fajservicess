@@ -18,8 +18,8 @@ const exploreLinks = [
 
 const contactInfo = [
   { icon: "bi-geo-alt-fill", text: "Warehouse # 2, Street 18b, Al Quoz Industrial Area # 4, Dubai, UAE" },
-  { 
-    icon: "bi-telephone-fill", 
+  {
+    icon: "bi-telephone-fill",
     items: [
       { text: "+971 4 330 0002", href: "tel:+97143300002" },
       { text: "+971 50 746 4712", href: "tel:+971507464712" }
@@ -35,14 +35,7 @@ const workingHours = [
 
 const Footer1 = () => {
   return (
-<<<<<<< HEAD
-    <footer 
-      className="cs_footer cs_style_1 cs_bg_filed cs_heading_bg" 
-      data-src={`${import.meta.env.BASE_URL}img/footer_bg.avif`}
-    >
-=======
     <footer className="cs_footer cs_style_1 cs_bg_filed cs_heading_bg">
->>>>>>> 5765b50b2556ef6aeb18bd68e9336e36fe660ce0
       <div className="cs_main_footer cs_white_color">
         <div className="container pb-4">
           <div className="cs_footer_row">
@@ -164,9 +157,9 @@ const Footer1 = () => {
                 Copyright © {new Date().getFullYear()} <a className="text-light" href="https://www.fajitsolutions.com/">FAJ IT SOLUTIONS</a>. All Rights Reserved.
               </div>
               <div>
-                <img 
-                  src={`${import.meta.env.BASE_URL}img/icons/payment_card.png`} 
-                  alt="Accepted payment methods" 
+                <img
+                  src={`${import.meta.env.BASE_URL}img/icons/payment_card.png`}
+                  alt="Accepted payment methods"
                   loading="lazy"
                 />
               </div>
@@ -179,8 +172,8 @@ const Footer1 = () => {
       <div className="mobile-whatsapp">
         <div className="navbar-end flex">
           <div className="cta-nav mob-callus">
-            <a 
-              href="tel:+97143300002" 
+            <a
+              href="tel:+97143300002"
               className="button-whatsapp"
               aria-label="Call us"
             >
@@ -188,8 +181,8 @@ const Footer1 = () => {
             </a>
           </div>
           <div className="cta-nav mob-whatsapp">
-            <a 
-              href="https://api.whatsapp.com/send?phone=+971507464712&text=FAJ-Services" 
+            <a
+              href="https://api.whatsapp.com/send?phone=+971507464712&text=FAJ-Services"
               className="button-whatsapp"
               aria-label="Chat on WhatsApp"
               target="_blank"
@@ -203,16 +196,12 @@ const Footer1 = () => {
 
       {/* Floating Menu */}
       <div className="floating-menu">
-<<<<<<< HEAD
-        <AIHandsetWidget />
-=======
         {/* <AIHandsetWidget /> */}
         {/* <Chatbox></Chatbox> */}
->>>>>>> 5765b50b2556ef6aeb18bd68e9336e36fe660ce0
         <ul className="flt-ul-icon">
           <li>
-            <a 
-              href="https://api.whatsapp.com/send?phone=+971507464712&text=Hello-FAJ-Services" 
+            <a
+              href="https://api.whatsapp.com/send?phone=+971507464712&text=Hello-FAJ-Services"
               className="flt-icon-url"
               target="_blank"
               rel="noopener noreferrer"
@@ -225,8 +214,8 @@ const Footer1 = () => {
             </a>
           </li>
           <li>
-            <a 
-              href="tel:+97143300002" 
+            <a
+              href="tel:+97143300002"
               className="flt-icon-url"
               aria-label="Call us"
             >
@@ -237,8 +226,8 @@ const Footer1 = () => {
             </a>
           </li>
         </ul>
-      </div>
-    </footer>
+      </div >
+    </footer >
   );
 };
 
