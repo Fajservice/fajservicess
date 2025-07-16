@@ -195,7 +195,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
               <div className="col-md-6">
                 <ul>
                   <li><strong>Benefits of Regular Cleaning: </strong>Regular grill cleaning boosts performance by removing residue, ensuring even heat distribution, and preventing flare-ups. It also reduces bacterial contamination for a healthier dining experience.</li>
-                  <li><strong>Seasonal Check-ups for Longevity:</strong> As seasons change, your grill's needs do too. Seasonal check-ups&mdash;like inspecting burners and gas lines&mdash;ensure optimal performance and longevity.</li>
+                  <li><strong>Seasonal Check-ups for Longevity:</strong> As seasons change, your grill's needs do too. Seasonal check-ups, like inspecting burners and gas lines, ensure optimal performance and longevity.</li>
                   <li><strong>Extending the Lifespan of Grill Parts:</strong> Each part is essential for grilling. Oiling hinges and tightening bolts can extend your grill's life.</li>
                   <li><strong>Safety First:</strong> Clean Grills Prevent Accidents. A clean grill is a safe grill. Regular maintenance prevents flare-ups and ensures safe grilling.</li>
                   <li><strong>Importance of Using Quality Cleaning Products:</strong> Not all cleaning products are the same. Use high-quality, grill-friendly cleaners that cut through grease without damaging your grill.</li>
@@ -238,7 +238,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Yellow or orange flame
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">BBQ Yellow or orange flame
                     </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
@@ -395,7 +395,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your oven runs smoothly and providing peace of mind.</p>
+                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your BBQ runs smoothly and providing peace of mind.</p>
                   </div>
                 </div>
 
@@ -406,7 +406,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your oven repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
+                    <p>Choose a day and time for your BBQ repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
                   </div>
                 </div>
 
@@ -435,7 +435,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two oven at the same location in Dubai.</p>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two BBQ at the same location in Dubai.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -444,7 +444,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our skilled oven technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
+                    <p>Our skilled BBQ technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
                   </div>
                 </div>
               </div>
@@ -467,15 +467,16 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
               and <small>3-month parts warranty</small> as standard.</p>
             <h3>We specialise in BArbecue repair services for the following brands</h3>
             <ul>
-              <li><strong>Char Broil Gas Grill Service and Repair: </strong>FAJ offers reliable Char-Broil gas grill cleaning and services in Dubai, with professionals who are experts in freestanding and built-in Char-Broil gas grill barbeques.</li>
-              <li><strong>Weber Genesis Barbeque Gas Burner Repair and Service:</strong> Located in Dubai, FAJ is your premier destination for Weber Genesis BBQ grill repair. We specialize in Weber Genesis barbecues, offering comprehensive services that include maintenance and repair.</li>
-              <li><strong>Barbecue Napoleon Prestige BBQ Grill Servicing: </strong>The Barbecue Napoleon Prestige BBQ Grill repair service ensures your worries are addressed because you are in the right place. FAJ prioritizes efficiency and reliability.</li>
-              <li><strong>Napoleon BBQ Grill Maintenance Service:</strong> Rely on our expert team to effectively address all issues with your Napoleon BBQ grill cleaning service and restore its functionality.</li>
-              <li><strong>Broil King Regal Gas BBQ Grill Cleaning Service:</strong> With extensive knowledge of the Broil King Regal Gas BBQ Grill, we provide effective repairs to ensure your unit runs smoothly.</li>
-              <li><strong>Lynx Professional Built-In Natural Gas Grill Repair Service:</strong> No matter the issue with your Lynx Professional Built-In Natural Gas Barbecue Grill, our experts can accurately diagnose and fix it.</li>
-              <li><strong>Boretti Imperatore Gas BBQ Burner Repair: </strong>Is your Boretti Imperatore gas BBQ burner not working? A malfunctioning Boretti Imperatore gas BBQ burner can be a hassle! FAJ can repair your Boretti Imperatore gas BBQ burner quickly!</li>
-              <li><strong>Cal Flame &ndash; BBQ Built In Grills Repairs: </strong>Cal Flame - BBQ Built-In Grill Cleaning and Maintenance Services require specialized expertise, as only trained professionals can effectively handle these tasks. We offer a hassle-free repair service for Cal Flame - BBQ Built-In Grills.</li>
-              <li><strong>Broilmaster Built In Gas Grill BBQ Repair and Service</strong>: Unlock the key to maintaining your Broilmaster Built-In Gas BBQ Grill for optimal performance in Dubai! Our expert services for Broilmaster Built In Gas Grills ensure that your grill operates efficiently, providing you with comfort and peace of mind.</li>
+              <li> <strong>  Char Broil Gas Grill Service and Repair: </strong> FAJ offers reliable Char Broil gas BBQ grill cleaning service near me repair in Dubai, with professionals who are experts in freestanding and built-in Char Broil electric barbeque grill repair and char broil gas grill repair near me home service near you in Dubai and Sharjah. </li>
+              <li> <strong>  Weber Genesis Barbeque Gas Burner Repair and Service: </strong> Located in Dubai, FAJ is your premier destination for Weber Genesis BBQ grill repair. Or BBQ grill cleaning service. We specialize in Weber Genesis barbecue maintenance and service, offering comprehensive services that include barbecue cleaning and repair. We also offer Weber Genesis BBQ repair and service near me in Dubai. </li>
+              <li> <strong>  Barbecue Napoleon Prestige BBQ Grill Servicing: </strong> The Barbecue Napoleon Prestige BBQ Grill repair service, Electric BBQ grill repair in Dubai, ensures your worries are addressed because you are in the right place. FAJ prioritizes efficiency and reliability in built in Napoleon BBQ Service near me and barbeque gas grill repair services in Dubai. </li>
+              <li> <strong>  Napoleon BBQ Grill Maintenance Service: </strong> Trust our expert team to efficiently handle all problems with your Napoleon BBQ grill cleaning and best gas barbecue maintenance service near me, restoring its functionality with FAJ. Call us today for your Napoleon grill service near me and gas grill repair and cleaning near me. </li>
+              <li> <strong>  Broil King Regal Gas BBQ Grill Cleaning Service: </strong> With extensive knowledge of the Broil King Regal Gas BBQ Grill, we provide effective repair to ensure your unit runs smoothly. Contact us for your Broil King burner grill repair and Broil King Regal BBQ grill repair services near you. </li>
+              <li> <strong>  Lynx Professional Built-In Natural Gas Grill Repair Service: </strong> No matter the issue with your Lynx Professional Built-In Natural Gas Barbecue Grill, our experts can accurately diagnose and fix it. Lynx grill repair service near me, and integrated BBQ cleaning service and repair in Dubai. </li>
+              <li> <strong>  Boretti Imperatore Gas BBQ Burner Repair: </strong> Is your Boretti Imperatore gas BBQ burner not working? A malfunctioning Boretti Imperatore gas BBQ burner can be a hassle! FAJ offers your Boretti Imperatore gas BBQ maintenance and cleaning service quickly! You can find a Boretti Imperatore gas BBQ burner repair service near me in Dubai. </li>
+              <li> <strong>  Cal Flame BBQ Built In Grills Repairs: </strong>  Cal Flame - BBQ Built-In Grill Cleaning and Maintenance Services require specialized expertise, as only trained professionals can effectively handle these tasks. We offer a hassle-free service for Cal Flame BBQ built in grill cleaning service and cal flame bbq repair and maintenance near me. </li>
+              <li> <strong>  Broilmaster Built-In Gas Grill BBQ Repair and Service: </strong> Unlock the key to maintaining your Broilmaster Built-In Gas BBQ Grill for optimal performance in Dubai! Our expert services for Broilmaster Built In Gas Grills ensure that your grill operates efficiently, providing you with comfort and peace of mind. You can contact us for Broilmaster built-in BBQ repair services near you. </li>
+
             </ul>
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">

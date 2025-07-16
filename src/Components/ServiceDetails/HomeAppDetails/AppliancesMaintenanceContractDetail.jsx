@@ -152,7 +152,6 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, title
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">KITCHEN EQUIPMENT AND APPLIANCES AMC SERVICES</h1>
-            {/* <h2 className="cs_fs_30">Experts in Appliances and Kitchen Equipment AMC Services</h2> */}
             <p>FAJ has been providing commercial kitchen equipment and appliance maintenance contract services in Dubai, Sharjah, and Abu Dhabi since 2010.< br />
               Regular Planned Preventive Maintenance (PPM) is essential for keeping appliances efficient and minimising unexpected failures.
               As appliances age, they become more prone to breakdowns, often at inconvenient times.< br />
@@ -165,11 +164,8 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, title
                 <WhatsappIconButton />
               </div>
             </div>
-            {/*  */}
           </div>
         </section>
-
-
 
 
         <section className="section cs_py_30 bg-light-gray">
@@ -185,7 +181,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, title
                 </p>
 
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>Planned Preventative Maintenance (PPM) Services</h2>
+                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Planned Preventative Maintenance (PPM) Services</h2>
                 <p className="mb-0">
                   Our appliances technician can create a customized Planned Preventative Maintenance Package for your house or business properties. <br />
                   This package is created to keep your washing machines, dryers, dishwashers, ovens, refrigerators, and coffee machines running efficiently. By taking a proactive approach, you can reduce the likelihood of unexpected breakdowns and the costs associated with them.<br />

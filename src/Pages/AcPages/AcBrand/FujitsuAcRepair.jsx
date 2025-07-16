@@ -8,8 +8,8 @@ const FujitsuAcRepair = () => {
                 bgImg="img/acbrands/desktop/Fujitsu-ac-repair-faj.avif"
                 mobileBgImg="img/acbrands/mobile/fujistu-ac-repair-faj.avif"
                 Title="Fujitsu AC Repair in Dubai Air Conditioner Service Near Me"
-            ></BreadCumb> 
-            <FujitsuAcRepairDetail></FujitsuAcRepairDetail>           
+            ></BreadCumb>
+            <FujitsuAcRepairDetail></FujitsuAcRepairDetail>
         </div>
     );
 };
