@@ -35,14 +35,7 @@ const workingHours = [
 
 const Footer1 = () => {
   return (
-<<<<<<< HEAD
-    <footer 
-      className="cs_footer cs_style_1 cs_bg_filed cs_heading_bg" 
-      data-src={`${import.meta.env.BASE_URL}img/footer_bg.avif`}
-    >
-=======
     <footer className="cs_footer cs_style_1 cs_bg_filed cs_heading_bg">
->>>>>>> 5765b50b2556ef6aeb18bd68e9336e36fe660ce0
       <div className="cs_main_footer cs_white_color">
         <div className="container pb-4">
           <div className="cs_footer_row">
@@ -203,12 +196,8 @@ const Footer1 = () => {
 
       {/* Floating Menu */}
       <div className="floating-menu">
-<<<<<<< HEAD
-        <AIHandsetWidget />
-=======
         {/* <AIHandsetWidget /> */}
         {/* <Chatbox></Chatbox> */}
->>>>>>> 5765b50b2556ef6aeb18bd68e9336e36fe660ce0
         <ul className="flt-ul-icon">
           <li>
             <a 

@@ -14,6 +14,14 @@ export const router = createBrowserRouter([
         element: <Components.AboutPage />,
       },
       {
+        path: "/who-we-are/",
+        element: <Components.WhoWeArePage />,
+      },
+      {
+        path: "/our-vision-and-mission/",
+        element: <Components.OurVisionAndMissionPage />,
+      },
+      {
         path: "/ac-tonnage-calculator/",
         element: <Components.AcTonnageCalculator />,
       },
