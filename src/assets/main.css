@@ -5579,9 +5579,9 @@ textarea {
   opacity: 0;
 }
 
-.cs_team.cs_style_1:hover .cs_team_shape {
+/* .cs_team.cs_style_1:hover .cs_team_shape {
   opacity: 1;
-}
+} */
 
 /*------------------------------------------------
  Team Details Page Stytling

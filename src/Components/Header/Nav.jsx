@@ -71,17 +71,20 @@ const navItems = [
       }
     ]
   },
-  { 
-    path: 'https://careers.fajservices.ae/', 
-    label: 'Careers',
-    external: true 
-  },
-  { path: '/blogs/', label: 'Blogs' },
   {
     label: 'About Us',
     children: [
-      { path: '/about-us/', label: 'About Us' },
-      { path: '/our-portfolio/', label: 'Our Portfolio' }
+      { path: '/who-we-are/', label: 'Who We Are' },
+      { path: '/our-vision-and-mission/', label: 'Our Vision And Mission' },
+      { path: '/our-history/', label: 'Our History' },
+      { path: '/our-team/', label: 'Our Team' },
+      { 
+        path: 'https://careers.fajservices.ae/', 
+        label: 'Careers',
+        external: true 
+      },
+      { path: '/our-portfolio/', label: 'Our Portfolio' },
+      { path: '/blogs/', label: 'Blogs' }
     ]
   },
   { path: '/contact-us/', label: 'Contact Us' }

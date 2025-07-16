@@ -1,12 +1,12 @@
 import Brand1 from "../Components/Brand/Brand1";
-import Process from "../Components/Process/Process";
 import Testimonial1 from "../Components/Testimonial/Testimonial1";
 import { Link } from "react-router-dom";
 import {Helmet, HelmetProvider } from "react-helmet-async";
 import Team1 from "../Components/Team/Team1";
+import Process from "../Components/Process/Process";
 
 
-const OurVisionOurMissionPage = () => {
+const OurTeamPage = () => {
 
 
     return (
@@ -51,9 +51,9 @@ const OurVisionOurMissionPage = () => {
                 bgImg="img/testimonialbg.jpg"
             ></Testimonial1>
             <Brand1></Brand1>
-            {/* <Team1></Team1> */}
+            <Process></Process>
         </>
     );
 };
 
-export default OurVisionOurMissionPage;
+export default OurTeamPage;
