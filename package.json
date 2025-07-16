@@ -23,6 +23,7 @@
     "@johanaarstein/react-before-after-slider-component": "^1.1.7",
     "bootstrap": "^5.3.5",
     "bootstrap-icons": "^1.11.3",
+    "cssnano": "^7.1.0",
     "html-react-parser": "^5.1.18",
     "localforage": "^1.10.0",
     "match-sorter": "^7.0.0",

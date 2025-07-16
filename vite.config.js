@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react';
 import viteCompression from 'vite-plugin-compression';
 import { visualizer } from 'rollup-plugin-visualizer';
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
+import cssnano from 'cssnano'; // Added
 
 export default defineConfig(({ mode }) => {
   const isProduction = mode === 'production';
@@ -18,12 +19,19 @@ export default defineConfig(({ mode }) => {
         }
       }),
       viteCompression({
+        algorithm: 'brotliCompress',
+        ext: '.br',
+        threshold: 10240,
+        deleteOriginFile: false
+      }),
+      viteCompression({
         algorithm: 'gzip',
         ext: '.gz',
-        threshold: 10240, // 10KB
+        threshold: 10240,
         deleteOriginFile: false
       }),
       ViteImageOptimizer({
+        avif: { quality: 80 },
         png: { quality: 80 },
         jpeg: { quality: 80 },
         webp: { lossless: false }
@@ -35,76 +43,34 @@ export default defineConfig(({ mode }) => {
       })
     ].filter(Boolean),
 
-    base: isProduction ? '/' : '/',
-
     build: {
-      outDir: 'dist',
-      assetsDir: 'assets',
-      emptyOutDir: true,
-      target: 'esnext',
+      target: 'es2022',
       minify: isProduction ? 'terser' : false,
       sourcemap: !isProduction,
-      cssCodeSplit: true,
-      chunkSizeWarningLimit: 1000,
       rollupOptions: {
         output: {
           manualChunks(id) {
             if (id.includes('node_modules')) {
-              if (id.includes('react') || id.includes('react-dom')) {
-                return 'react-vendor';
-              }
-              if (id.includes('react-router')) {
-                return 'router';
-              }
-              if (id.includes('lodash')) {
-                return 'lodash';
-              }
+              if (id.includes('react') || id.includes('react-dom')) return 'react-vendor';
+              if (id.includes('react-router')) return 'router';
+              if (id.includes('lodash')) return 'lodash';
               return 'vendor';
             }
-          },
-          chunkFileNames: 'assets/[name]-[hash].js',
-          entryFileNames: 'assets/[name]-[hash].js',
-          assetFileNames: 'assets/[name]-[hash].[ext]'
-        }
-      },
-      terserOptions: {
-        compress: {
-          drop_console: isProduction,
-          drop_debugger: isProduction
+            if (id.includes('src/pages/Home')) return 'home';
+          }
         }
       }
-    },
-
-    optimizeDeps: {
-      include: ['react', 'react-dom', 'react-router-dom'],
-      exclude: []
-    },
-
-    resolve: {
-      alias: {
-        '@': '/src',
-        '@components': '/src/components',
-        '@pages': '/src/pages',
-        '@assets': '/src/assets'
-      }
-    },
-
-    server: {
-      port: 3000,
-      open: true,
-      strictPort: true,
-      host: true
-    },
-
-    preview: {
-      port: 3000,
-      strictPort: true
     },
 
     css: {
       modules: {
         localsConvention: 'camelCaseOnly'
       },
+      postcss: {
+        plugins: isProduction ? [
+          cssnano({ preset: 'default' })
+        ] : []
+      }
     }
   };
 });
