@@ -7,6 +7,8 @@ export const Home  = withSuspense(React.lazy(() => import("../Pages/Home")));
 export const AboutPage = withSuspense(React.lazy(() => import("../Pages/AboutPage")));
 export const WhoWeArePage = withSuspense(React.lazy(() => import("../Pages/WhoWeArePage")));
 export const OurVisionAndMissionPage = withSuspense(React.lazy(() => import("../Pages/OurVisionOurMissionPage")));
+export const OurHistoryPage = withSuspense(React.lazy(() => import("../Pages/OurHistoryPage")));
+export const OurTeamPage = withSuspense(React.lazy(() => import("../Pages/OurTeamPage")));
 export const AcTonnageCalculator = withSuspense(React.lazy(() => import("../Pages/AcTonnageCalculator")));
 export const Orphan = withSuspense(React.lazy(() => import("../Pages/Orphan")));
 export const AcMaintenanceDubai = withSuspense(React.lazy(() => import("../Pages/AcMaintenanceDubai")));

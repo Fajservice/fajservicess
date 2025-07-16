@@ -1,7 +1,7 @@
 
 
 import { useEffect, useRef, useState } from "react";
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import data from '../../../Data/HomeAppData/FAQs/GasRangeRepairServiceFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
@@ -26,7 +26,7 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Gas Cooker Repair, Gas Stove Repair, Cooking Range Service, Induction Repair, Dubai, Sharjah");
   const metaURL = String(URL || "https://www.fajservices.ae/gas-cooker-repair-service/").replace(/\/?$/, '/');
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/gas-cooker-repair-services.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/gas-cooker-repair-services.avif");
 
 
   subtitle = "Testimonial"
@@ -277,7 +277,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/gas-cooke
                     <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Broken Door Seal</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">A broken door seal can cause heat to escape, leading to inefficient cooking and potential damage to control knobs.</p>
+                    <p className="p-2 mb-0">A broken door seal can cause heat to escape, leading to inefficient cooking, higher energy use, and potential damage to control knobs and surfaces.</p>
                   </div>
                 </div>
               </div>
@@ -555,8 +555,8 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/gas-cooke
             <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY Gas Cooker REPAIR SERVICE</h3>
             <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 157 to 280 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
             <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
-            <b>We provide 2-month repair warranty</b><br />
-            and <small>3-month parts warranty</small> as standard.</p>
+              <b>We provide 2-month repair warranty</b><br />
+              and <small>3-month parts warranty</small> as standard.</p>
             <h3>We specialise in Gas Cooker services for the following brands </h3>
             <div className="row">
               <div className="col-12">
@@ -782,7 +782,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/gas-cooke
               </div>
             </div>
           </div>
-          
+
         </section>
 
         {/* Maintenance Contract */}
@@ -790,7 +790,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/gas-cooke
 
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
-          
+
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
               <h3 className="cs_section_subtitle cs_fs_18 text-black cs_semibold text-uppercase cs_mb_12 wow fadeInDown">
@@ -837,7 +837,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/gas-cooke
 
               </div>
             </div>
-          </div>          
+          </div>
         </section>
 
         {/* FAQ's */}

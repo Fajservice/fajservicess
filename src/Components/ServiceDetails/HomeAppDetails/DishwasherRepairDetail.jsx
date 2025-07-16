@@ -27,7 +27,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Dishwasher Repair Service, Dishwasher Repair Dubai, Dishwasher Service Dubai, Dishwasher Fix Dubai, Dishwasher Maintenance Dubai, Dishwasher Machine Repair Dubai, Dishwasher Machine Service Dubai, Dishwasher Machine Fix Dubai, Dishwasher Machine Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/dishwasher-repair-service/").replace(/\/?$/, '/');
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/dishwasher-repair.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/dishwasher-repair.avif");
 
 
   subtitle = "Testimonial"
@@ -281,7 +281,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/dishwashe
                     <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Excessive Suds</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Your dishwasher may fill with excess suds during use, leaving suds in the bottom and remains on your dishes after the cycle.</p>
+                    <p className="p-2 mb-0">Your dishwasher may fill with excess suds during use, leaving suds in the bottom and residue on your dishes after cycle ends, causing poor cleaning.</p>
                   </div>
                 </div>
               </div>
@@ -560,8 +560,8 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/dishwashe
             <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY Dishwasher REPAIR SERVICE</h3>
             <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 157 to 280 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
             <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
-            <b>We provide 2-month repair warranty</b><br />
-            and <small>3-month parts warranty</small> as standard.</p>
+              <b>We provide 2-month repair warranty</b><br />
+              and <small>3-month parts warranty</small> as standard.</p>
             <h3>We specialise in dishwasher services for the following brands </h3>
             <div className="row">
               <div className="col-12">

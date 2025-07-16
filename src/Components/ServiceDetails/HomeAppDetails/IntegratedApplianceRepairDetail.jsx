@@ -28,7 +28,7 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Built-in appliances repair Dubai, Built-in refrigerator service, Built-in washing machine repair, Built-in dishwasher fix, Built-in stove cooktop oven service, Built-in appliance repair near me");
   const metaURL = String(URL || "https://www.fajservices.ae/built-in-appliances-repair-service/").replace(/\/?$/, '/');
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/oven-repair-service.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/oven-repair-service.avif");
 
 
   subtitle = "Testimonial"
@@ -153,7 +153,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/oven-repa
           <div className="container">
             <h1 className="cs_fs_30">Built-in Appliances Repair Service Dubai</h1>
             <p>
-              FAJ Technical Services L.L.C has been providing reliable and quality services, including installation, repair, and maintenance of built-in appliances, since 2010. We have completed projects in Dubai, Sharjah, and Abu Dhabi.
+              <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been providing reliable and quality services, including installation, repair, and maintenance of built-in appliances, since 2010. We have completed projects in Dubai, Sharjah, and Abu Dhabi.
               <br />
               Home appliances are essential in our daily lives, but regular use can lead to issues that require professional assistance.
               As a trusted provider of built-in appliance repair service, we are committed to delivering high-quality and prompt support to residents in the area.
@@ -579,8 +579,8 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/oven-repa
             <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY Built-In Applices REPAIR SERVICE</h3>
             <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 157 to 280 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
             <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
-            <b>We provide 2-month repair warranty</b><br />
-            and <small>3-month parts warranty</small> as standard.</p>
+              <b>We provide 2-month repair warranty</b><br />
+              and <small>3-month parts warranty</small> as standard.</p>
             <h3> We are specialise in Appliances services for the following brands </h3>
             <div className="row">
               <div className="col-12">
@@ -807,14 +807,12 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/oven-repa
               </div>
             </div>
           </div>
-          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
         </section>
 
         {/* Maintenance Contract */}
         <MaintenanceContract />
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
-          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
               <h3 className="cs_section_subtitle cs_fs_18 text-black cs_semibold text-uppercase cs_mb_12 wow fadeInDown">
@@ -863,7 +861,6 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/oven-repa
               </div>
             </div>
           </div>
-          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
         </section>
 
         {/* FAQ's */}

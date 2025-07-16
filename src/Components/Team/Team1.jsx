@@ -14,11 +14,11 @@ const Team1 = () => {
                 Title="Meat Our Experts <br> Team Member"
               ></SectionTitle>
             </div>
-            <div className="cs_section_heading_right wow fadeInUp">
+            {/* <div className="cs_section_heading_right wow fadeInUp">
               <Link to="/team" className="cs_btn cs_style_1">
                 <span>see all member</span><i className="bi bi-arrow-right"></i>
               </Link>
-            </div>
+            </div> */}
           </div>
           <div className="row cs_row_gap_30 cs_gap_y_30">
           {data.slice(0,4).map((item, i) => (

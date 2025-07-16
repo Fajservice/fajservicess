@@ -27,7 +27,7 @@ const OvenRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Gas Oven Repair Dubai, Electric Oven Service Near Me, Oven Repair Service Dubai, Oven Maintenance Dubai, Steam Oven Repair Dubai, Conventional Oven Repair Dubai, Oven Service Near Me, Best Oven Repair Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/oven-repair-service/").replace(/\/?$/, '/');
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/oven-Range-Repair-Nearby-You-oven.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/oven-Range-Repair-Nearby-You-oven.avif");
 
 
   subtitle = "Testimonial"
@@ -173,13 +173,13 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/oven-Rang
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1" style={{fontSize: "24px"}}>Get Oven Repair & Service Near by You</h2>
+                <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }}>Get Oven Repair & Service Near by You</h2>
                 <p className="mb-2">
                   Ovens are among the most frequently used kitchen appliances, as we rely on them to cook our food.
                   <br />  When an oven breaks down, it can significantly impact our daily routines. Therefore, it&apos;s essential to find an oven repair and service specialist near you as quickly as possible, whether you are in Dubai or Sharjah!
                 </p>
 
-                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{fontSize: "24px"}}>Fast and Reliable Appliances Service
+                <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>Fast and Reliable Appliances Service
                 </h2>
                 <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
               </div>
@@ -207,7 +207,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/oven-Rang
               <div className="col-md-6">
                 <ul className="mb-0">
 
-                  <li> <strong>Oven Heavy Use and Versatility: </strong> Ovens are vital for cooking and baking in homes and commercial kitchens, like those in hotels and bakeries in Dubai. <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for optimal performance.</li>
+                  <li> <strong>Oven Heavy Use and Versatility: </strong> Ovens are vital for cooking and baking in homes and commercial kitchens, like those in hotels and bakeries in Dubai. <a href="https://www.linkedin.com/company/faj-technical-services-llc" className="text-decoration-underline">Regular maintenance</a> is essential for optimal performance.</li>
                   <li> <strong>Oven Safety: </strong> Oven maintenance is crucial for safety, especially with gas ovens. Regular inspections can catch leaks or faulty controls that may create fire hazards.</li>
                   <li> <strong>Oven Efficiency: </strong> Regular maintenance of heating element and thermostat ensures efficiency, leading to energy savings and lower utility bills.</li>
                   <li> <strong>Oven Preventative Measures: </strong> Regular maintenance, such as cleaning and inspections, prevents minor issues from becoming major repairs, saving time and money.</li>
@@ -274,7 +274,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/oven-Rang
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      The oven doesn't Heat to the Correct Temperature. Possible causes include a faulty thermostat, miscalibration, or issues with the control panel.
+                      The oven doesn't heat correctly. Possible causes include a faulty thermostat, miscalibration, or control panel issues.
                     </p>
                   </div>
                 </div>
@@ -313,7 +313,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/oven-Rang
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Self-cleaning ovens sometimes experience issues during the cleaning cycle, which may require resetting or professional assistance.
+                      Self-cleaning ovens sometimes have issues during the cleaning cycle, needing a reset or professional help.
                     </p>
                   </div>
                 </div>
@@ -431,10 +431,10 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/oven-Rang
                       <h3 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h3>
                       <p className="small">
                         An energy-efficient oven translates to monthly savings on utility bills, putting more money back in your pocket.
-                        </p>
+                      </p>
                     </div>
                   </div>
-                </div>   
+                </div>
 
                 <div className="col-md-4 mb-2">
                   <div className="">
@@ -573,8 +573,8 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/oven-Rang
             <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY OVEN REPAIR SERVICE</h3>
             <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 157 to 280 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
             <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
-            <b>We provide 2-month repair warranty</b><br />
-            and <small>3-month parts warranty</small> as standard.</p>
+              <b>We provide 2-month repair warranty</b><br />
+              and <small>3-month parts warranty</small> as standard.</p>
             <h3>We specialise in Oven services for the following brands </h3>
             <div className="row">
               <div className="col-12">
@@ -800,15 +800,15 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/oven-Rang
               </div>
             </div>
           </div>
-          
+
         </section>
 
         {/* Maintenance Contract */}
         <MaintenanceContract />
-        
+
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
-          
+
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
               <h3 className="cs_section_subtitle cs_fs_18 text-black cs_semibold text-uppercase cs_mb_12 wow fadeInDown">
@@ -856,7 +856,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/oven-Rang
               </div>
             </div>
           </div>
-          
+
         </section>
 
         {/* FAQ's */}

@@ -12,6 +12,7 @@ import testimonial_data from '../../../Data/HomeAppData/Testmonials/CigarcabnitS
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
+import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 
 const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
@@ -20,7 +21,7 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Cigar Cabinet Humidifier Repair, Dehumidifier Service, Cigar Fridge Repair, Cigar Cooler Service, Electric Humidor Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/cigar-humidor-repair/").replace(/\/?$/, '/');
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/cigarcabnitrepair.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/cigarcabnitrepair.avif");
 
 
   subtitle = "Testimonial"
@@ -150,7 +151,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/cigarcabn
               </div>
             </div>
             <div className="appointment-col border-small-top pt-3">
-              <p className="appointment-col">The<a href="https://www.google.com/maps/dir//Warehouse+No+-+S-02+Gate+35+Street+18b+-+Al+Quoz+-+Al+Quoz+Industrial+Area+4+-+Dubai+-+United+Arab+Emirates/@25.1105958,55.1452595,22158m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x3e5f699a600aceeb:0xa6121b25d557aa94!2m2!1d55.227661!2d25.1106186?entry=ttu&g_ep=EgoyMDI1MDQyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank"
+              <p className="appointment-col">The <a href="https://www.google.com/maps/dir//Warehouse+No+-+S-02+Gate+35+Street+18b+-+Al+Quoz+-+Al+Quoz+Industrial+Area+4+-+Dubai+-+United+Arab+Emirates/@25.1105958,55.1452595,22158m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x3e5f699a600aceeb:0xa6121b25d557aa94!2m2!1d55.227661!2d25.1106186?entry=ttu&g_ep=EgoyMDI1MDQyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank"
               >FAJ workshop</a> is conveniently located near both Al Khail Road and Sheikh Zayed Road. When you drop off your appliance at the workshop, you will receive a <strong>discount</strong> on the technical inspection fee and other services.
               </p>
               <div id="get-quote" className="mt-3">
@@ -200,7 +201,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/cigarcabn
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Ignoring Humidity Levels</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">After seasoning your humidor, it&apos;s important to maintain the humidity level. Many new owners mistakenly &quot;set and forget&quot;, leading to dried-out or mouldy cigars.</p>
+                    <p className="p-2 mb-0">After seasoning your humidor, keep humidity steady. Many owners "set and forget", causing dry or mouldy cigars.</p>
                   </div>
                 </div>
               </div>
@@ -439,7 +440,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/cigarcabn
                   </div>
                   <div className="usptext">
                     <h3 className="">Confidence</h3>
-                    <p>With a maintenance contract, you receive a full year of service, ensuring your cigar humidor operates smoothly and providing you with peace of mind.</p>
+                    <p>With a maintenance contract, you get a year of service, ensuring your cigar humidor operates smoothly and providing peace of mind.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -448,7 +449,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/cigarcabn
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our experienced technicians for cigar humidors provide exceptional service for several top brands.</p>
+                    <p>Our experienced technicians for cigar humidors provide exceptional service for several leading top brands.</p>
                   </div>
                 </div>
 
@@ -501,14 +502,14 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/cigarcabn
           </div>
         </section>
 
-        
+
         <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">
             <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY Cigar Cabinet REPAIR SERVICE</h3>
             <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 157 to 280 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
             <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
-            <b>We provide 2-month repair warranty</b><br />
-            and <small>3-month parts warranty</small> as standard.</p>
+              <b>We provide 2-month repair warranty</b><br />
+              and <small>3-month parts warranty</small> as standard.</p>
             <h3>We specialise in Cigar Cabinet services for the following brands</h3>
             <ul>
               <li><strong>Afidano Electric Cigar Humidor Service Center in Dubai: </strong>Afidano specializes in cigar humidor repair, fixing electric cigar humidor, cigar refrigerator repairs, and cigar cooler maintenance. FAJ is the official Afidano electric cigar humidor service center in Dubai, UAE.</li>

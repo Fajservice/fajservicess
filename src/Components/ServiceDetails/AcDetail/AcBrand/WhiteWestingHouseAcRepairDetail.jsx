@@ -427,7 +427,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descr
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h3>
                       <p className="small">
-                        Our team provides feedback on your White Westinghouse AC's health & needed repairs.
+                        Our team provides feedback on your White Westinghouse AC's health & repairs.
                       </p>
                     </div>
                   </div>

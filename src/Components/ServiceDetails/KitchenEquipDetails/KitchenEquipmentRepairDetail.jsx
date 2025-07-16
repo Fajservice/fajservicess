@@ -232,7 +232,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                     <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Equipment Failure</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Commercial kitchen equipment is a crucial asset for businesses. The kitchen is designed to maximise efficiency and energy.</p>
+                    <p className="p-2 mb-0">Commercial kitchen equipment is an essential investment for businesses. The kitchen layout is optimized to enhance efficiency and reduce energy use.</p>
                   </div>
                 </div>
               </div>
@@ -254,7 +254,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                     <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Electrical Problems</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Ensure your kitchen has a proper electrical setup. Consult an electrician to assess power needs and avoid circuit overloads.</p>
+                    <p className="p-2 mb-0">Ensure your kitchen has a proper electrical setup for safety. Consult a licensed electrician to assess power needs and avoid circuit overloads.</p>
                   </div>
                 </div>
               </div>
@@ -276,7 +276,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                     <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Conclusion</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Explore our Electric Stoves and Ovens. Avoiding common cooking or baking equipment mistakes keeps your kitchen efficient.</p>
+                    <p className="p-2 mb-0">Explore our electric stoves and ovens today. Avoiding common cooking or baking equipment mistakes keeps your kitchen efficient and productive.</p>
                   </div>
                 </div>
               </div>
@@ -288,7 +288,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Ductwork is a crucial part of the kitchen ventilation system, and inadequate installation can lead to serious problems.
+                      Ductwork is a crucial part of the kitchen ventilation system, and inadequate installation can lead to serious safety and performance problems.
                     </p>
                   </div>
                 </div>

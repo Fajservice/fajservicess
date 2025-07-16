@@ -19,7 +19,7 @@ const OvenRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Rational Oven Repair Service, Combi Oven Repair Service, Commercial Oven Repair Service");
   const metaURL = String(URL || "https://www.fajservices.ae/oven-repair/").replace(/\/?$/, '/');
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Camercial-Kitchen-Equipment.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Camercial-Kitchen-Equipment.avif");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -237,7 +237,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Camercial
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      You guessed it! The most obvious issue is that it may not heat to the desired temperature, even when switched on.
+                      You guessed it! The most obvious issue is that it may not heat to the desired temperature, even when switched on and fully powered up properly and consistently.
 
                     </p>
                   </div>
@@ -251,7 +251,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Camercial
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Food often cooks unevenly, burning on one side while remaining undercooked on the other due to poor heat distribution.
+                      Food often cooks unevenly, scorching on one side while staying undercooked on the other due to uneven heat distribution problems.
                     </p>
                   </div>
                 </div>
@@ -264,7 +264,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Camercial
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      If you hear continuous clicking and your gas oven is sparking, the problem might be the ignition dial.
+                      If you hear continuous clicking and your gas oven is sparking, the problem might be the ignition dial needing immediate professional repair service.
 
                     </p>
                   </div>
@@ -278,7 +278,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Camercial
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Cooking at the right temperature is vital for delicious meals, as incorrect temperatures can lead to overcooking or undercooking.
+                      Cooking at the right temperature is absolutely vital for delicious meals, as incorrect temperatures can often lead to overcooking or undercooking.
 
                     </p>
                   </div>
@@ -320,7 +320,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Camercial
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      The oven door seal, also known as a gasket, creates an airtight seal between the oven door and the oven cavity.
+                      The oven door seal, also known as a gasket, creates an airtight seal between oven door and the oven cavity, preventing heat loss and ensuring even cooking.
                     </p>
                   </div>
                 </div>
@@ -595,7 +595,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Camercial
 
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
-          
+
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
               <h3 className="cs_section_subtitle cs_fs_18 text-black cs_semibold text-uppercase cs_mb_12 wow fadeInDown">
@@ -643,7 +643,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Camercial
               </div>
             </div>
           </div>
-          
+
         </section>
 
         {/* FAQ's */}

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import AIHandsetWidget from "../AIHandsetWidget.jsx/AIHandsetWidget";
 // import AIHandsetWidget from "../AIHandsetWidget.jsx/AIHandsetWidget";
 
 const socialLinks = [
@@ -18,8 +19,8 @@ const exploreLinks = [
 
 const contactInfo = [
   { icon: "bi-geo-alt-fill", text: "Warehouse # 2, Street 18b, Al Quoz Industrial Area # 4, Dubai, UAE" },
-  { 
-    icon: "bi-telephone-fill", 
+  {
+    icon: "bi-telephone-fill",
     items: [
       { text: "+971 4 330 0002", href: "tel:+97143300002" },
       { text: "+971 50 746 4712", href: "tel:+971507464712" }
@@ -157,9 +158,9 @@ const Footer1 = () => {
                 Copyright © {new Date().getFullYear()} <a className="text-light" href="https://www.fajitsolutions.com/">FAJ IT SOLUTIONS</a>. All Rights Reserved.
               </div>
               <div>
-                <img 
-                  src={`${import.meta.env.BASE_URL}img/icons/payment_card.png`} 
-                  alt="Accepted payment methods" 
+                <img
+                  src={`${import.meta.env.BASE_URL}img/icons/payment_card.png`}
+                  alt="Accepted payment methods"
                   loading="lazy"
                 />
               </div>
@@ -172,8 +173,8 @@ const Footer1 = () => {
       <div className="mobile-whatsapp">
         <div className="navbar-end flex">
           <div className="cta-nav mob-callus">
-            <a 
-              href="tel:+97143300002" 
+            <a
+              href="tel:+97143300002"
               className="button-whatsapp"
               aria-label="Call us"
             >
@@ -181,8 +182,8 @@ const Footer1 = () => {
             </a>
           </div>
           <div className="cta-nav mob-whatsapp">
-            <a 
-              href="https://api.whatsapp.com/send?phone=+971507464712&text=FAJ-Services" 
+            <a
+              href="https://api.whatsapp.com/send?phone=+971507464712&text=FAJ-Services"
               className="button-whatsapp"
               aria-label="Chat on WhatsApp"
               target="_blank"
@@ -196,12 +197,12 @@ const Footer1 = () => {
 
       {/* Floating Menu */}
       <div className="floating-menu">
-        {/* <AIHandsetWidget /> */}
+
         {/* <Chatbox></Chatbox> */}
         <ul className="flt-ul-icon">
           <li>
-            <a 
-              href="https://api.whatsapp.com/send?phone=+971507464712&text=Hello-FAJ-Services" 
+            <a
+              href="https://api.whatsapp.com/send?phone=+971507464712&text=Hello-FAJ-Services"
               className="flt-icon-url"
               target="_blank"
               rel="noopener noreferrer"
@@ -214,8 +215,8 @@ const Footer1 = () => {
             </a>
           </li>
           <li>
-            <a 
-              href="tel:+97143300002" 
+            <a
+              href="tel:+97143300002"
               className="flt-icon-url"
               aria-label="Call us"
             >
@@ -226,8 +227,8 @@ const Footer1 = () => {
             </a>
           </li>
         </ul>
-      </div>
-    </footer>
+      </div >
+    </footer >
   );
 };
 

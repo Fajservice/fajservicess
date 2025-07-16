@@ -340,7 +340,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
                     Homeowners and business owners often overlook the importance of a regular AC maintenance contract, which can lead to unexpected breakdowns, higher energy bills, and costly repairs. Without proper maintenance, your AC system may become less efficient, resulting in increased energy consumption and utility costs.
                   </li>
                   <li>
-                    Over time, the AC components can wear down, resulting in <a href="https://www.youtube.com/watch?v=qnByeIsc3lY"><b>reduced airflow</b></a>, insufficient cooling, and even complete system failure. This situation can be particularly challenging during the summer months, when requests for cooling are at their highest.
+                    Over time, the AC components can wear down, resulting in <a href="https://www.youtube.com/watch?v=qnByeIsc3lY" className="fw-bold text-decoration-underline">reduced airflow</a>, insufficient cooling, and even complete system failure. This situation can be particularly challenging during the summer months, when requests for cooling are at their highest.
                   </li>
                 </ul>
               </div>
