@@ -5,8 +5,6 @@ import { Link } from "react-router-dom";
 import data from '../../../Data/HomeAppData/FAQs/VacuumCleanerHomeappFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
-import CallNowButton from '../../Buttons/CallNowButton';
-import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import Slider from "react-slick";
@@ -25,7 +23,7 @@ const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Robot vacuum cleaner repair, vacuum cleaner service, Xiaomi vacuum repair, Roomba vacuum service, TP-Link vacuum cleaner repair, Eufy vacuum cleaner service, Anker vacuum repair");
   const metaURL = String(URL || "https://www.fajservices.ae/robot-vacuum-cleaner-repair/").replace(/\/?$/, '/');
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/inspection-robot-vacuum-cleaner.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/inspection-robot-vacuum-cleaner.avif");
 
 
 
@@ -302,7 +300,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/inspectio
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Resetting Your Robot Vacuum</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Resetting Robot Vacuum</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">If your robot vacuum can't recognise obstacles, check to see if the sensors are clean. Dirty sensors may hinder their ability to detect obstacles properly.</p>
@@ -552,8 +550,8 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/inspectio
             <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY Vacuum Cleaner REPAIR SERVICE</h3>
             <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 157 to 280 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
             <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
-            <b>We provide 2-month repair warranty</b><br />
-            and <small>3-month parts warranty</small> as standard.</p>
+              <b>We provide 2-month repair warranty</b><br />
+              and <small>3-month parts warranty</small> as standard.</p>
             <h2 className="text-center">We specialise in vacuum cleaner services for the following brands</h2>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 

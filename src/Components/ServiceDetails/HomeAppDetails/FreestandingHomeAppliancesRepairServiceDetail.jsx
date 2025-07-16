@@ -230,7 +230,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Problem</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Most fridge malfunctions are related to cooling issues, including problems with the defrost system, fan motor, compressor, or coils.</p>
+                    <p className="p-2 mb-0">Most fridge malfunctions are related to cooling issues, including problems with the defrost system, fan motor, compressor, or condenser coils.</p>
                   </div>
                 </div>
               </div>
@@ -542,8 +542,8 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
             <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY Appliances REPAIR SERVICE</h3>
             <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 157 to 280 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
             <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
-            <b>We provide 2-month repair warranty</b><br />
-            and <small>3-month parts warranty</small> as standard.</p>
+              <b>We provide 2-month repair warranty</b><br />
+              and <small>3-month parts warranty</small> as standard.</p>
             <h3>We are specialise in Appliances services for the following brands</h3>
             <div className="row">
               <div className="col-12">

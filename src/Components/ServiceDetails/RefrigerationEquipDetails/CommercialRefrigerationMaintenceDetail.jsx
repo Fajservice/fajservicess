@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../Data/RefrigerationEquipData/FAQs/CommercialRefrigerationMaintenceFaqs.json';
-import {Helmet, HelmetProvider } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
 import GetQuoteButton from "../../Buttons/GetQuoteButton";
@@ -14,15 +14,15 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 
-const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, titleSeo , description, Author, Keyword, URL }) => {
+const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Commercial Refrigeration Service - Food Chiller Repair Dubai");
   const metadescription = String(description || "Looking for a commercial refrigeration service in Dubai? Dail 043300002 for walk in cooler, chiller, and cold room repair and maintenance near me");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial Refrigeration service, walk in cooler repair, chiller repair, cold room repair, commercial refrigeration maintenance");
   const metaURL = String(URL || "https://www.fajservices.ae/commercial-refrigeration-maintenance/").replace(/\/?$/, '/');
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/commercial-ref%20-mc.jpg");
-  
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/commercial-ref%20-mc.jpg");
+
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   reviewsbg = "img/testimonialbg.jpg"
@@ -116,19 +116,19 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/commercia
 
   return (
     <>
-       <HelmetProvider>
-              <Helmet>
-                <title>{metatitle}</title>
-                <meta name="description" content={metadescription}></meta>
-                <meta name="keywords" content={metaKeyword} />
-                <meta name="author" content={metaAuthor} />
-                <meta name="robots" content="index, follow" />
-                <link rel="canonical" href={metaURL} />
-                <meta property="og:type" content="website" />
-                <meta property="og:locale" content="en_US" />
-                <meta property="og:title" content={metatitle} />
-                <meta property="og:description" content={metadescription} />
-               <meta property="og:image" content={metaImage} />
+      <HelmetProvider>
+        <Helmet>
+          <title>{metatitle}</title>
+          <meta name="description" content={metadescription}></meta>
+          <meta name="keywords" content={metaKeyword} />
+          <meta name="author" content={metaAuthor} />
+          <meta name="robots" content="index, follow" />
+          <link rel="canonical" href={metaURL} />
+          <meta property="og:type" content="website" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:title" content={metatitle} />
+          <meta property="og:description" content={metadescription} />
+          <meta property="og:image" content={metaImage} />
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
@@ -137,7 +137,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/commercia
           <meta name="twitter:image" content={metaImage} />
           <meta name="twitter:url" content={metaURL} />
         </Helmet>
-            </HelmetProvider>
+      </HelmetProvider>
       <HeaderForm />
 
       <div className="cs_service_details">
@@ -237,7 +237,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/commercia
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Unusual sounds may indicate mechanical problems, such as issues with electric devices, the compressor, or the fan motor.
+                      Unusual sounds may indicate mechanical problems, such as issues with electric devices, the compressor, or the fan motor components.
                     </p>
                   </div>
                 </div>
@@ -555,22 +555,22 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/commercia
 
             </div>
 
-              <div id="get-quote" className=" mt-3">
-                <div className="container d-flex justify-content-center align-items-center gap-3">
-                  <GetQuoteButton />
-                  <CallNowButton />
-                </div>
+            <div id="get-quote" className=" mt-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3">
+                <GetQuoteButton />
+                <CallNowButton />
               </div>
-
             </div>
-          </section>
+
+          </div>
+        </section>
 
 
 
-         
+
         {/* Maintenance Contract */}
         <MaintenanceContract />
-{/* testimobial section */}
+        {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">

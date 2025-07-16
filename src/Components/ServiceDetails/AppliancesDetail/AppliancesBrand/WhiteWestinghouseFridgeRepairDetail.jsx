@@ -400,7 +400,7 @@ const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h3>
                       <p className="small">
-                        Regular maintenance and prompt servicing can significantly prolong the lifespan of your White Westinghouse appliances, delaying the need for replacements.
+                        Regular maintenance and prompt servicing significantly extend your White Westinghouse appliances' lifespan, delaying replacements.
                       </p>
                     </div>
 

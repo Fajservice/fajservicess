@@ -13,7 +13,6 @@ import loadBackgroudImages from "../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../Headeform/HeaderForm";
 
-
 const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Coffee Machine Repair & Maintenance Services Dubai");
@@ -174,7 +173,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                   So why wait? Give us a call, and we&apos;ll have your coffee machine back on your kitchen counter in no time, ready to be part of your daily routine.
                 </p>
 
-                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>Coffee Machine Servicing and AMC Contract </h2>
+                <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "22px" }}>Coffee Machine Servicing and AMC Contract </h2>
                 <p className="mb-0">
                   Whatever you need, we’ve got you covered. A scheduled commercial coffee machine de-casing, cleaning service, or maintenance contract for your professional coffee machine is essential for ensuring smooth operation throughout the year, including necessary cleaning and descaling.
                   <br />
@@ -309,7 +308,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Check the power source: Make sure your coffee machine is plugged in and the outlet is working. A loose connection might be the issue.
+                      Make sure your coffee machine is plugged in and the outlet is working. A loose connection might be the issue.
 
                     </p>
                   </div>
@@ -323,7 +322,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Clean the machine regularly to prevent residue buildup that affects the taste of your coffee.
+                      Clean the machine regularly to prevent residue buildup that affects the taste, aroma, and quality of your coffee.
 
                     </p>
                   </div>
@@ -588,8 +587,8 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
             <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY Coffee MAchine REPAIR SERVICE</h3>
             <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 157 to 280 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
             <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
-            <b>We provide 2-month repair warranty</b><br />
-            and <small>3-month parts warranty</small> as standard.</p>
+              <b>We provide 2-month repair warranty</b><br />
+              and <small>3-month parts warranty</small> as standard.</p>
             <h3 className="text-center">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
               <div className="col-12 col-md-4 col-lg-3">
@@ -916,7 +915,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                     If you are looking Isomac coffee machine repair, coffee machine service is available near you.
+                      If you are looking Isomac coffee machine repair, coffee machine service is available near you.
                     </p>
                   </div>
                 </div>
@@ -929,7 +928,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                     Range of espresso machine servicing and repair, as well as coffee maker repair in Dubai.
+                      Range of espresso machine servicing and repair, as well as coffee maker repair in Dubai.
                     </p>
                   </div>
                 </div>
@@ -953,7 +952,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                     We provide repairs and servicing of coffee machines in Dubai, as well as maintaining coffee equipment.
+                      We provide repairs and servicing of coffee machines in Dubai, as well as maintaining coffee equipment.
                     </p>
                   </div>
                 </div>
@@ -977,7 +976,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                     FAJ offers maintenance and cleaning services for Victoria Arduino coffee machines in Dubai.
+                      FAJ offers maintenance and cleaning services for Victoria Arduino coffee machines in Dubai.
                     </p>
                   </div>
                 </div>
@@ -990,7 +989,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                     Call us for coffee machine repair or espresso machine descaling, annual agreement services.
+                      Call us for coffee machine repair or espresso machine descaling, annual agreement services.
                     </p>
                   </div>
                 </div>
@@ -1003,7 +1002,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                     We provide Profitec Ride espresso machine servicing and repair, and service agreements in Dubai.
+                      We provide Profitec Ride espresso machine servicing and repair, and service agreements in Dubai.
                     </p>
                   </div>
                 </div>
@@ -1023,7 +1022,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                     FAJ offers expert repair and maintenance services for Faema automatic coffee machines.
+                      FAJ offers expert repair and maintenance services for Faema automatic coffee machines.
                     </p>
                   </div>
                 </div>
@@ -1036,7 +1035,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                     If you need a repair service for your Gaye automatic espresso machine, please contact us today
+                      If you need a repair service for your Gaye automatic espresso machine, please contact us today
                     </p>
                   </div>
                 </div>
@@ -1049,7 +1048,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                     Expert Lavazza coffee machine service and repair, and coffee vending machine maintenance near you.
+                      Expert Lavazza coffee machine service and repair, and coffee vending machine maintenance near you.
                     </p>
                   </div>
                 </div>
@@ -1062,7 +1061,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                     Call now for coffee machine technician and best coffee maker repair and cleaning service.
+                      Call now for coffee machine technician and best coffee maker repair and cleaning service.
                     </p>
                   </div>
                 </div>
@@ -1075,7 +1074,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                     FAJ skilled technicians offer Fracino Romano coffee machine repair and AMC services in Dubai.
+                      FAJ skilled technicians offer Fracino Romano coffee machine repair and AMC services in Dubai.
                     </p>
                   </div>
                 </div>
@@ -1088,7 +1087,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                     Book your coffee machine repair, cleaning, and maintenance today.
+                      Book your coffee machine repair, cleaning, and maintenance today.
                     </p>
                   </div>
                 </div>
@@ -1113,7 +1112,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                     Dubai&apos;s #1 coffee machine repair, cleaning service, and maintenance service contract.
+                      Dubai&apos;s #1 coffee machine repair, cleaning service, and maintenance service contract.
                     </p>
                   </div>
                 </div>

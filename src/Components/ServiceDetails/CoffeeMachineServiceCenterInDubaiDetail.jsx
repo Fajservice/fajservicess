@@ -168,7 +168,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
 
                 <p className="mb-2">When your coffee machine breaks down or stops working, it can disrupt your daily   routine.
                   <br />
-                  That’s where our expert technician comes in. FAJ expert offers fast and <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>s near you to restore optimal performance. We handle issues like coffee machine descaling, cleaning service, water leakage, Steam wand, noise, poor coffee quality, and grinding problems. Let us help get your coffee machine back on track.
+                  That’s where our expert technician comes in. FAJ expert offers fast and efficient services near you to restore optimal performance. We handle issues like coffee machine descaling, cleaning service, water leakage, Steam wand, noise, poor coffee quality, and grinding problems. Let us help get your coffee machine back on track.
                 </p>
                 <h2 className="cs_fs_18 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>
                   Coffee Machine Servicing and Maintenance Contract
@@ -424,7 +424,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
                       </h3>
-                      <p className="small">Regular maintenance helps your coffee Machines run smoothly and efficiently, delivering the best results every time.
+                      <p className="small">Regular maintenance helps your coffee machines run smoothly and efficiently, delivering the best results every time.
                       </p>
                     </div>
                   </div>
@@ -436,7 +436,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
                         <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h3>
-                      <p className="small">Energy efficient c  offee machines translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                      <p className="small">Energy efficient coffee machines translate to monthly savings on utility bills, putting more money back in your pocket.</p>
                     </div>
                   </div>
                 </div>
@@ -460,7 +460,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
                         <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Coffee Machine Lifespan</h3>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your coffee Machines, delaying the need for replacements.</p>
+                      <p className="small">Proper care and timely servicing can significantly increase life of your coffee machines, delaying the need for replacements.</p>
 
                     </div>
 
@@ -475,7 +475,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                       </h3>
-                      <p className="small">Knowing your coffee Machines are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                      <p className="small">Knowing your coffee machines are in top condition gives you confidence and removes the stress of unexpected failures.</p>
                     </div>
                   </div>
                 </div>
@@ -578,8 +578,8 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
             <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY Coffee MAchine REPAIR SERVICE</h3>
             <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 157 to 280 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
             <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
-            <b>We provide 2-month repair warranty</b><br />
-            and <small>3-month parts warranty</small> as standard.</p>
+              <b>We provide 2-month repair warranty</b><br />
+              and <small>3-month parts warranty</small> as standard.</p>
             <h2 className="text-center">CHOOSE  DOMESTIC OR PROFESSIONAL COFFEE MACHINE REPAIR SERVICE</h2>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 

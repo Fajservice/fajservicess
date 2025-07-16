@@ -239,7 +239,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, title
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Ignoring regular maintenance of kitchen equipment can cause wear and tear, impacting its efficiency and lifespan.
+                      Ignoring regular maintenance of kitchen equipment can cause wear and tear, greatly impacting its overall efficiency and long-term lifespan.
                     </p>
                   </div>
                 </div>

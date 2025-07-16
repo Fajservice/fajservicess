@@ -221,7 +221,7 @@ const ApplianceServiceInAlWahaCommunityDetail = ({ subtitle, title, reviewsbg, t
                                         <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Problem</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
-                                        <p className="p-2 mb-0">Most fridge malfunctions are related to cooling issues, including problems with the defrost system, fan motor, compressor, or coils.</p>
+                                        <p className="p-2 mb-0">Most fridge malfunctions are commonly related to cooling issues, including problems with the defrost system, fan motor, compressor, or coils.</p>
                                     </div>
                                 </div>
                             </div>

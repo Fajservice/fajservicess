@@ -423,7 +423,7 @@ const ToshibaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h3>
                       <p className="small">
-                        Our team provides vital feedback on your Toshiba AC's health and any needed repairs.
+                        Our team provides vital feedback on your Toshiba AC's health and needed repairs.
                       </p>
                     </div>
                   </div>
