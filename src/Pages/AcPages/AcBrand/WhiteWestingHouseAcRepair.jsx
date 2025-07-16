@@ -5,7 +5,8 @@ const WhiteWestingHouseAcRepair = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/acbrands/white-westinghouse-ac-repair.avif"
+                bgImg="img/acbrands/desktop/white-westinghouse-ac-repair.avif"
+                mobileBgImg="img/acbrands/mobile/white-westinghouse-ac-repair.avif"
                 Title="White Westinghouse AC Repair Service in Dubai"
             ></BreadCumb>
             <WhiteWestinghouseAcRepairDetail></WhiteWestinghouseAcRepairDetail>

@@ -7,10 +7,9 @@ const DaikoolAcRepair = () => {
             <BreadCumb
                 bgImg="img/acbrands/desktop/daikool-ac-repair-faj.avif"
                 mobileBgImg="img/acbrands/mobile/daikool-ac-repair-faj.avif"
-                // bgImg="img/ac_service-bannerbg.avif"
                 Title="Daikool AC Repair in Dubai - Air Conditioning Service Near Me"
-            ></BreadCumb> 
-            <DaikoolAcRepairDetail></DaikoolAcRepairDetail>           
+            ></BreadCumb>
+            <DaikoolAcRepairDetail></DaikoolAcRepairDetail>
         </div>
     );
 };
