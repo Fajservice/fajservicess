@@ -6404,7 +6404,7 @@ textarea {
 }
 
 .cs_about.cs_style_1 .cs_about_thumbnail_wrapper .cs_about_thumbnail img {
-  width: 200px;
+  width: 100%;
   position: relative;
   z-index: 1;
 }
