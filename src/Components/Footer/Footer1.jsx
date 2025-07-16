@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import AIHandsetWidget from "../AIHandsetWidget.jsx/AIHandsetWidget";
 // import AIHandsetWidget from "../AIHandsetWidget.jsx/AIHandsetWidget";
 
 const socialLinks = [

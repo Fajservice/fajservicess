@@ -511,7 +511,7 @@ textarea {
 }
 
 .cs_mb_40 {
-  margin-bottom: 40px;
+  margin-bottom: 25px;
 }
 
 .cs_mb_41 {
@@ -1768,14 +1768,18 @@ textarea {
   }
 }
 
+.fs-14px {
+  font-size: 12px;
+}
+
 .cs_fs_36 {
-  font-size: 36px;
-  line-height: 1.278em;
+  font-size: 24px;
+  line-height: 1em;
 }
 
 @media (max-width: 991px) {
   .cs_fs_36 {
-    font-size: 30px;
+    font-size: 26px;
   }
 }
 
@@ -6400,7 +6404,7 @@ textarea {
 }
 
 .cs_about.cs_style_1 .cs_about_thumbnail_wrapper .cs_about_thumbnail img {
-  width: 100%;
+  width: 200px;
   position: relative;
   z-index: 1;
 }
@@ -7897,8 +7901,6 @@ label {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 100%;
     max-width: calc(100% - 300px);
   }
 
@@ -7937,7 +7939,6 @@ label {
   }
 
   .cs_nav .cs_nav_list>li>a {
-    padding: 10px 0;
     display: inline-flex;
     position: relative;
     height: inherit;
@@ -8089,9 +8090,9 @@ label {
 
   /* Responsive adjustments */
   @media (max-width: 1200px) {
-    /* .cs_nav .cs_nav_list ul ul {
-      max-height: calc(6 * 40px);
-    } */
+    .cs_nav .cs_nav_list ul ul {
+      max-height: calc(5 * 35px);
+    }
   }
 
   @media (max-width: 992px) {
@@ -8599,7 +8600,7 @@ label {
 }
 
 .cs_site_header.cs_style_1 .cs_top_header_in {
-  height: 50px;
+  height: 30px;
   position: relative;
   z-index: 1;
 }
@@ -8635,6 +8636,7 @@ label {
   display: -ms-flexbox;
   display: flex;
   gap: 5px 30px;
+  font-size: 12px;
 }
 
 .cs_header_contact_list li {
