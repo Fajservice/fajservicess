@@ -75,13 +75,13 @@ export default function Header1({ variant = '' }) {
                 <ul className="cs_header_contact_list cs_mp_0">
                   {contactItems.map((item, index) => (
                     <li key={`contact-${index}`}>
-                      <i className={`bi ${item.icon}`} aria-hidden="true"></i>
+                      <i className={`bi ${item.icon}`}  aria-hidden="true"></i>
                       {item.href ? (
                         <a href={item.href} aria-label={item.content}>
                           {item.content}
                         </a>
                       ) : (
-                        <span>{item.content}</span>
+                       <span className="text-white fs-14px">{item.content}</span>
                       )}
                     </li>
                   ))}
@@ -116,7 +116,7 @@ export default function Header1({ variant = '' }) {
               <div className="cs_main_header_left">
                 <div className="cs_logo_wrap">
                   <Link className="cs_site_branding" to="/" aria-label="Home">
-                    <img src={img} alt="FAJ Technical Services Logo" loading="lazy" />
+                    <img src={img} alt="FAJ Technical Services Logo" />
                   </Link>
                   <div className="cs_logo_bg_shape cs_accent_color">
                     <svg width="509" height="141" viewBox="0 0 509 141" fill="none" aria-hidden="true">
@@ -128,7 +128,6 @@ export default function Header1({ variant = '' }) {
                       src={`${import.meta.env.BASE_URL}img/logo_shape_pattern.svg`} 
                       alt="" 
                       role="presentation" 
-                      loading="lazy"
                     />
                   </div>
                 </div>

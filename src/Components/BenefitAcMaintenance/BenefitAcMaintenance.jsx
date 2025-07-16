@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 const BenefitAcMaintenance = () => {
   return (
@@ -68,7 +68,7 @@ const BenefitAcMaintenance = () => {
                                 <img src={`${import.meta.env.BASE_URL}img/icons/customer.jpg`} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
                             </div>
                             <h3 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h3>
-                            <p className="small">Our team provides vital feedback on your AC's health and any needed repairs.</p>
+                            <p className="small">Our team provides vital feedback on your AC&apos;s health and any needed repairs.</p>
                         </div>
                     </div>
                 </div>

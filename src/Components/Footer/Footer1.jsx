@@ -196,7 +196,7 @@ const Footer1 = () => {
 
       {/* Floating Menu */}
       <div className="floating-menu">
-        {/* <AIHandsetWidget /> */}
+
         {/* <Chatbox></Chatbox> */}
         <ul className="flt-ul-icon">
           <li>

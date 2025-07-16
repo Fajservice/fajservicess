@@ -14,11 +14,11 @@ const Team1 = () => {
                 Title="Meat Our Experts <br> Team Member"
               ></SectionTitle>
             </div>
-            <div className="cs_section_heading_right wow fadeInUp">
+            {/* <div className="cs_section_heading_right wow fadeInUp">
               <Link to="/team" className="cs_btn cs_style_1">
                 <span>see all member</span><i className="bi bi-arrow-right"></i>
               </Link>
-            </div>
+            </div> */}
           </div>
           <div className="row cs_row_gap_30 cs_gap_y_30">
           {data.slice(0,4).map((item, i) => (
@@ -38,7 +38,7 @@ const Team1 = () => {
                   </span>
                 </div>
                 <div className="cs_team_info">
-                  <h3 className="cs_fs_24 cs_semibold mb-0"><Link to="/team/team-details">{item.title}</Link></h3>
+                  <h3 className="cs_fs_24 mb-0"><Link to="/team/team-details">{item.title}</Link></h3>
                   <p className="cs_accent_color mb-0">{item.desc}</p>
                 </div>
                 <div className="cs_team_shape position-absolute">
