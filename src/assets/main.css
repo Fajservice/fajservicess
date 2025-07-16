@@ -6403,6 +6403,16 @@ textarea {
   border: 10px solid var(--white-color);
 }
 
+.main-page-area {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex: 1;
+}
+
 .cs_about.cs_style_1 .cs_about_thumbnail_wrapper .cs_about_thumbnail img {
   width: 100%;
   position: relative;
