@@ -3,7 +3,7 @@ import BeforeAfter from "../Components/BeforeAfter/BeforeAfter";
 import Blog3 from "../Components/Blog/Blog3";
 import Choose1 from "../Components/Choose/Choose1";
 import Contact1 from "../Components/Contact/Contact";
-import HeroBanner1 from "../Components/HeroBanner/HeroBanner1";
+// import HeroBanner1 from "../Components/HeroBanner/HeroBanner1";
 import Process from "../Components/Process/Process";
 import Project1 from "../Components/Project/Project1";
 import Services1 from "../Components/Services/Services1";
@@ -36,7 +36,7 @@ const Home = ({ titleSeo, description, Author, Keyword, URL }) => {
                 </Helmet>
             </HelmetProvider>
             <div className="homepage">
-                <HeroBanner1></HeroBanner1>
+                {/* <HeroBanner1></HeroBanner1> */}
                 <About1
                     img1="img/about_img_1.avif"
                     img2="img/about_img_2.avif"
