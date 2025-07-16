@@ -239,7 +239,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
                     <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Condenser Coil Issues</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">The condenser coil removes heat from your home. If it has issues, your AC becomes less efficient and energy bills may rise.</p>
+                    <p className="p-2 mb-0">The condenser coil removes heat from your home. If it has issues, your AC becomes less efficient, performance drops, and energy bills may rise.</p>
                   </div>
                 </div>
               </div>
@@ -283,7 +283,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
                     <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Blower Fan Issue</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">A faulty blower fan results in little to no airflow, making your AC system inefficient and unable to cool properly.</p>
+                    <p className="p-2 mb-0">A faulty blower fan results in little to no airflow, making your AC system inefficient and unable to cool properly, causing discomfort indoors.</p>
                   </div>
                 </div>
               </div>

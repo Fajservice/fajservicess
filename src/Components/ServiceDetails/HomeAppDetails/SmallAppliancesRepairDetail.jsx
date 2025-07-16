@@ -258,7 +258,7 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Unresponsive displays or buttons may signal a failing control panel, affecting the appliance's functionality.
+                      Unresponsive displays or buttons may signal a failing control panel, seriously affecting the appliance's overall functionality and performance.
                     </p>
                   </div>
                 </div>
@@ -271,7 +271,7 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Loud or unusual noises coming from appliances may indicate worn-out parts, loose components, or blockages.
+                      Loud or unusual noises coming from appliances may indicate worn-out parts, loose components, hidden blockages, or internal motor issues.
                     </p>
                   </div>
                 </div>
@@ -284,7 +284,7 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Microwaves, ovens, and mixers often show common issues like improper heating or ineffective cleaning due to various factors.
+                      Microwaves, ovens, and mixers often show common issues like improper heating or ineffective cleaning due to various internal factors.
                     </p>
                   </div>
                 </div>
@@ -297,7 +297,7 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Small or large appliances not turning on may be due to a blown fuse or wiring issues.
+                      Small or large appliances not turning on may be due to a blown fuse, wiring issues, power supply problems, or faulty internal components.
                     </p>
                   </div>
                 </div>
@@ -310,7 +310,7 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Appliance components, like the oven's heating element or the washing machine's motor, can fail and cause malfunctions.
+                      Appliance components, like the oven's heating element or the washing machine's motor, can fail and cause serious operational malfunctions.
                     </p>
                   </div>
                 </div>

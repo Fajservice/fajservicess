@@ -274,7 +274,7 @@ const OvenRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      The oven doesn't Heat to the Correct Temperature. Possible causes include a faulty thermostat, miscalibration, or issues with the control panel.
+                      The oven doesn't heat correctly. Possible causes include a faulty thermostat, miscalibration, or control panel issues.
                     </p>
                   </div>
                 </div>
@@ -313,7 +313,7 @@ const OvenRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Self-cleaning ovens sometimes experience issues during the cleaning cycle, which may require resetting or professional assistance.
+                      Self-cleaning ovens sometimes have issues during the cleaning cycle, needing a reset or professional help.
                     </p>
                   </div>
                 </div>

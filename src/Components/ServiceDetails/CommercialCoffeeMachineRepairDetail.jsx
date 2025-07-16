@@ -308,7 +308,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Check the power source: Make sure your coffee machine is plugged in and the outlet is working. A loose connection might be the issue.
+                      Make sure your coffee machine is plugged in and the outlet is working. A loose connection might be the issue.
 
                     </p>
                   </div>
@@ -322,7 +322,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Clean the machine regularly to prevent residue buildup that affects the taste of your coffee.
+                      Clean the machine regularly to prevent residue buildup that affects the taste, aroma, and quality of your coffee.
 
                     </p>
                   </div>

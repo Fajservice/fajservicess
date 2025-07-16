@@ -25,7 +25,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "BBQ Repair, BBQ Grill Cleaning Service, Barbeque Repair Dubai, Weber Repair, Electric BBQ Grill Repair Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/").replace(/\/?$/, '/');
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Barbeque-Repair.jpg");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Barbeque-Repair.jpg");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -198,7 +198,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Barbeque-
                   <li><strong>Seasonal Check-ups for Longevity:</strong> As seasons change, your grill's needs do too. Seasonal check-ups&mdash;like inspecting burners and gas lines&mdash;ensure optimal performance and longevity.</li>
                   <li><strong>Extending the Lifespan of Grill Parts:</strong> Each part is essential for grilling. Oiling hinges and tightening bolts can extend your grill's life.</li>
                   <li><strong>Safety First:</strong> Clean Grills Prevent Accidents. A clean grill is a safe grill. Regular maintenance prevents flare-ups and ensures safe grilling.</li>
-                  <li><strong>Importance of Using Quality Cleaning Products:</strong>Not all cleaning products are the same. Use high-quality, grill-friendly cleaners that cut through grease without damaging your grill.</li>
+                  <li><strong>Importance of Using Quality Cleaning Products:</strong> Not all cleaning products are the same. Use high-quality, grill-friendly cleaners that cut through grease without damaging your grill.</li>
                 </ul>
               </div>
             </div>
@@ -256,7 +256,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Barbeque-
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Leaking gas</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Check the burners of your gas grill for corrosion or blockages, as these can cause uneven heating. Also, ensure the ignition system is working properly.
+                    <p className="p-2 mb-0">Check burners of your gas grill for corrosion or blockages, as these can cause uneven heating. Ensure ignition system works properly.
                     </p>
                   </div>
                 </div>
@@ -291,7 +291,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Barbeque-
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Low flame from burners</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">A common service issue is the low flame output from grill burners.</p>
+                    <p className="p-2 mb-0">A common service issue is low flame output from grill burners, reducing heat, cooking efficiency, and overall grilling performance.</p>
                   </div>
                 </div>
               </div>
@@ -302,7 +302,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Barbeque-
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Regulator problems</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Blockage in the Regulator Hose: A reader reported issues with his Uniflame 5-burner grill. Everything worked.</p>
+                    <p className="p-2 mb-0">Blockage in the regulator hose: A reader reported issues with his Uniflame 5-burner grill, though everything else worked.</p>
                   </div>
                 </div>
               </div>
@@ -337,7 +337,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Barbeque-
               </div>
 
               <div className="col-xl-6">
-                
+
                 <p className='mb-0'>We specialize in all types and brands of BBQ grills, including built-in models.</p>
                 <p className="mb-0"><strong>Our services include:</strong></p>
                 <ul>
@@ -463,8 +463,8 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Barbeque-
             <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY BBQ REPAIR SERVICE</h3>
             <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 157 to 280 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
             <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
-            <b>We provide 2-month repair warranty</b><br />
-            and <small>3-month parts warranty</small> as standard.</p>
+              <b>We provide 2-month repair warranty</b><br />
+              and <small>3-month parts warranty</small> as standard.</p>
             <h3>We specialise in BArbecue repair services for the following brands</h3>
             <ul>
               <li><strong>Char Broil Gas Grill Service and Repair: </strong>FAJ offers reliable Char-Broil gas grill cleaning and services in Dubai, with professionals who are experts in freestanding and built-in Char-Broil gas grill barbeques.</li>
