@@ -546,6 +546,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
             <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
               <b>We provide 2-month repair warranty</b><br />
               and <small>3-month parts warranty</small> as standard.</p>
+
             <h3>We are specialise in Appliances services for the following brands</h3>
             <div className="row">
               <div className="col-12">
