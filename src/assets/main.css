@@ -7062,7 +7062,7 @@ img.border-svg {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   gap: 10px;
-  margin-top: -60px;
+  /* margin-top: -60px; */
 }
 
 @media (max-width: 1400px) {
@@ -8283,10 +8283,12 @@ label {
   }
 
   .cs_site_header.cs_style_1 .cs-munu_toggle {
-    top: 50%;
+    /* top: 50%; */
     right: 0px;
     margin-top: -13px;
-    color: #000
+    color: #000;
+    border-width: 0px;
+    background: unset;
   }
 
   .cs-toggle_active span {
@@ -8415,7 +8417,7 @@ label {
 }
 
 .cs_site_header_spacing_140 {
-  height: 140px;
+  height: 122px;
 }
 
 .cs_site_header.cs_style_1 .cs_top_header .container::before {
@@ -8537,7 +8539,9 @@ label {
   .cs_site_header_spacing_140 {
     height: 100px;
   }
-
+  .timeline-section {
+    padding: 10px 20px;
+}
   .cs_site_header.header_style_2.cs_style_1 .cs_main_header_in {
     height: 90px;
   }
@@ -8874,7 +8878,7 @@ label {
 
 @media (max-width: 1199px) {
   .cs_site_header_spacing_140 {
-    height: 80px;
+    height: 70px;
   }
 }
 

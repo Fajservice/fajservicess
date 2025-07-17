@@ -77,7 +77,7 @@ const navItems = [
       { path: '/who-we-are/', label: 'Who We Are' },
       { path: '/our-vision-and-mission/', label: 'Our Vision And Mission' },
       { path: '/our-history/', label: 'Our History' },
-      { path: '/our-team/', label: 'Our Team' },
+      // { path: '/our-team/', label: 'Our Team' },
       { 
         path: 'https://careers.fajservices.ae/', 
         label: 'Careers',

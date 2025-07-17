@@ -15,7 +15,7 @@ const Project1 = () => {
             ></SectionTitle>
           </div>
         </div>
-        <div className="position-absolute top-0 end-0">
+        <div className="position-absolute top-0 end-0 d-none d-md-block">
           <ul className="cs_tab_links cs_style_1 cs_heading_color cs_mp_0 wow fadeInDown">
             <li className="active"><Link to="/services">View All Services</Link></li>
           </ul>
