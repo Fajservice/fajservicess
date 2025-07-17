@@ -40,29 +40,6 @@ const QuickGuide = () => {
                                 <strong>Annual Maintenance Contract:</strong> This contract outlines the terms and services covered for the annual maintenance of air conditioning units. Regular maintenance is essential for optimal performance, efficiency, and longevity of your air conditioning system.
                             </li>
 
-                            {/* <li>
-    <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-        <i className="bi bi-check"></i></span>
-    <span>Regular maintenance</span>
-</li>
-<li>
-    <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-        <i className="bi bi-check"></i></span>
-    <span>Unclogging drain lines</span>
-</li>
-<li>
-    <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-        <i className="bi bi-check"></i></span>
-    <span>Inspecting and AC installation
-    </span>
-</li>
-
-<li>
-    <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
-        <i className="bi bi-check"></i></span>
-    <span>Fixing leaks refrigerant, water, or duct leaks</span>
-</li> */}
-
                         </ul>
 
 
