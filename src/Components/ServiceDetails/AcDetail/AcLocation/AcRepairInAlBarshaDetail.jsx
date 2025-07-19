@@ -360,7 +360,7 @@ const AcRepairInAlBarshaDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
 
                 {/* The Benefits Of Regular AC Service*/}
-                <BenefitAcMaintenance />
+                
                 <section className="section cs_py_30 ac_benifit_blue">
                     <div className="container">
                         <div className="row justify-content-center">
