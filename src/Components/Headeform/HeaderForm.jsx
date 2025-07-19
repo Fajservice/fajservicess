@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import ReCAPTCHA from 'react-google-recaptcha';
 
+
 const HeaderForm = () => {
   const recaptchaRef = useRef(null);
   const [status, setStatus] = useState({
@@ -24,7 +25,7 @@ const HeaderForm = () => {
   // Alternative: Add a fallback submission method
   const handleDirectSubmit = () => {
     console.log('Direct submission fallback'); // Debug log
-    
+
     const data = new FormData();
     data.append('Name', formData.name);
     data.append('Email', formData.email);
@@ -43,30 +44,30 @@ const HeaderForm = () => {
       body: data,
       mode: 'no-cors'
     })
-    .then(() => {
-      console.log('Direct form submitted successfully');
-      
-      setStatus({
-        submitted: true,
-        submitting: false,
-        info: { error: false, msg: "Form submitted successfully! Thank you for your message." }
-      });
+      .then(() => {
+        console.log('Direct form submitted successfully');
 
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        message: ''
+        setStatus({
+          submitted: true,
+          submitting: false,
+          info: { error: false, msg: "Form submitted successfully! Thank you for your message." }
+        });
+
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          message: ''
+        });
+      })
+      .catch((error) => {
+        console.error('Direct submission error:', error);
+        setStatus({
+          submitted: false,
+          submitting: false,
+          info: { error: true, msg: "There was a problem sending your message. Please try again later." }
+        });
       });
-    })
-    .catch((error) => {
-      console.error('Direct submission error:', error);
-      setStatus({
-        submitted: false,
-        submitting: false,
-        info: { error: true, msg: "There was a problem sending your message. Please try again later." }
-      });
-    });
   };
 
   const handleSubmit = (e) => {
@@ -140,38 +141,38 @@ const HeaderForm = () => {
       body: data,
       mode: 'no-cors'
     })
-    .then(() => {
-      console.log('Form submitted successfully with reCAPTCHA');
+      .then(() => {
+        console.log('Form submitted successfully with reCAPTCHA');
 
-      setStatus({
-        submitted: true,
-        submitting: false,
-        info: { error: false, msg: "Form submitted successfully! Thank you for your message." }
-      });
+        setStatus({
+          submitted: true,
+          submitting: false,
+          info: { error: false, msg: "Form submitted successfully! Thank you for your message." }
+        });
 
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        message: ''
-      });
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          message: ''
+        });
 
-      if (recaptchaRef.current) {
-        try {
-          recaptchaRef.current.reset();
-        } catch (resetError) {
-          console.warn('reCAPTCHA reset error:', resetError);
+        if (recaptchaRef.current) {
+          try {
+            recaptchaRef.current.reset();
+          } catch (resetError) {
+            console.warn('reCAPTCHA reset error:', resetError);
+          }
         }
-      }
-    })
-    .catch((error) => {
-      console.error('Submission error:', error);
-      setStatus({
-        submitted: false,
-        submitting: false,
-        info: { error: true, msg: "There was a problem sending your message. Please try again later." }
+      })
+      .catch((error) => {
+        console.error('Submission error:', error);
+        setStatus({
+          submitted: false,
+          submitting: false,
+          info: { error: true, msg: "There was a problem sending your message. Please try again later." }
+        });
       });
-    });
   };
 
   return (
@@ -187,63 +188,63 @@ const HeaderForm = () => {
           {status.info.msg}
         </div>
       )}
-      
+
       <div className="d-block d-md-none p-3 p-sm-4 rounded" style={{ backgroundColor: "rgb(242 242 242)" }}>
         <form onSubmit={handleSubmit}>
           <div className="row align-items-center">
-            <div className="col-12 col-md-6" style={{marginTop:"0.1rem"}}>
+            <div className="col-12 col-md-6" style={{ marginTop: "0.1rem" }}>
               <div className="mb-2">
-                <input 
-                  type="text" 
-                  name="name" 
-                  className="form-control" 
-                  id="name" 
-                  placeholder="Enter your name" 
-                  value={formData.name} 
-                  onChange={handleChange} 
-                  required 
-                />
-              </div>
-              <div className="mb-2">
-                <input 
-                  type="text" 
-                  name="phone" 
-                  className="form-control" 
-                  id="phone" 
-                  placeholder="Enter your phone number" 
-                  value={formData.phone} 
+                <input
+                  type="text"
+                  name="name"
+                  className="form-control"
+                  id="name"
+                  placeholder="Enter your name"
+                  value={formData.name}
                   onChange={handleChange}
-                  required 
+                  required
                 />
               </div>
               <div className="mb-2">
-                <input 
-                  type="email" 
-                  name="email" 
-                  className="form-control" 
-                  id="email" 
-                  placeholder="Enter your email" 
-                  value={formData.email} 
-                  onChange={handleChange} 
-                  required 
+                <input
+                  type="text"
+                  name="phone"
+                  className="form-control"
+                  id="phone"
+                  placeholder="Enter your phone number"
+                  value={formData.phone}
+                  onChange={handleChange}
+                  required
+                />
+              </div>
+              <div className="mb-2">
+                <input
+                  type="email"
+                  name="email"
+                  className="form-control"
+                  id="email"
+                  placeholder="Enter your email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  required
                 />
               </div>
             </div>
 
             <div className="col-12 col-md-6">
               <div className="mb-2">
-                <textarea 
-                  name="message" 
-                  className="form-control h-100" 
-                  id="message" 
-                  rows="5" 
-                  placeholder="Type your message here..." 
-                  value={formData.message} 
-                  onChange={handleChange} 
+                <textarea
+                  name="message"
+                  className="form-control h-100"
+                  id="message"
+                  rows="5"
+                  placeholder="Type your message here..."
+                  value={formData.message}
+                  onChange={handleChange}
                   required
                 />
               </div>
-              
+
               {/* Invisible reCAPTCHA */}
               <div className="col-12 d-flex justify-content-center mb-3">
                 <ReCAPTCHA
@@ -256,10 +257,10 @@ const HeaderForm = () => {
               </div>
             </div>
           </div>
-          
+
           <div className="row">
             <div className="col-12 d-flex justify-content-center">
-              <button 
+              <button
                 type="submit"
                 className="cs_btn cs_style_1 rounded"
                 style={{ width: '150px', height: '40px' }}
@@ -271,6 +272,7 @@ const HeaderForm = () => {
             </div>
           </div>
         </form>
+
       </div>
     </>
   )

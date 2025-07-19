@@ -15,7 +15,7 @@ const WeSpecialise = () => {
 
           <h3>We specialise in air conditioning services for the following brands</h3>
 
-          <ul className="mb-3">
+          {/* <ul className="mb-3">
             <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/lg-ac-repair-in-dubai/">LG Air Conditioner Service</a>:</strong> FAJ offers reliable LG AC repair and services in Dubai. With professionals who are experts in split, vrf, and central air conditioning units. Get reliable and fast AC service near me, AC repair, and AC maintenance in Dubai.</li>
             <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/samsung-ac-repair-in-dubai/">Samsung Air Conditioner Repair and Service</a>:</strong> Based in Dubai, FAJ is your go-to destination for Samsung AC repair in Dubai. Specializing in Samsung air conditioner systems, we offer comprehensive AC servicing ranging from AC fixing to AC cleaning service and AC maintenance.</li>
             <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten/">York AC Service and Repair</a>:</strong> The York AC repair and service ensure you don&rsquo;t need to worry because you are in the right place. Yes, FAJ is where efficiency and reliability are prioritized, providing air conditioning services near me, AC cleaning service, and AC fixing.</li>
@@ -26,11 +26,9 @@ const WeSpecialise = () => {
             <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/o-general-ac-repair-in-dubai-o-general-ac-maintenance-in-dubai-o-general-ac-fix-in-dubai-o-general-ac-service-in-dubai-o-general-air-condition-repair-in-dubai-o-general-air-condition-maintenance-in-du/">O General AC Service and Repair</a>:</strong> For air conditioning cleaning services in Dubai, specialized help is crucial for effectively managing aircon issues. Our company provides hassle-free AC repair and maintenance services, conveniently available in both Dubai and Sharjah. Trust us to keep your home comfortable all year round.</li>
             <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/mitsubishi-ac-repair-in-dubai/">Mitsubishi Air Conditioner Service and Repair</a>:</strong> Seeking relief from scorching heat? Discover the secret to keeping your Mitsubishi AC running smoothly in Dubai! Our expert Mitsubishi AC cleaning service and AC repair ensure your AC stays cool and efficient, providing comfort and peace of mind. Air conditioning cleaning service near me in Dubai and Sharjah, aircon fixing and ac maintenance service in Dubai</li>
             <li><strong>Carrier AC Repair and Service in Dubai</strong>: We understand how essential Carrier air conditioning is for your home or business. FAJ provides fast and reliable Carrier air conditioner maintenance services that are both efficient and dependable. Typically, regular cleaning service of your Carrier VRF (Variable Refrigerant Flow), central, split, package unit, or cassette type units in Dubai and Sharjah is sufficient to keep your system running smoothly. However, if your Carrier air conditioning system experiences a breakdown, fault, or malfunction, it can negatively affect your indoor environment.</li>
-          </ul>
+          </ul> */}
 
-          {/* new ul li */}
-
-          {/* <ul className="mb-3">
+          <ul className="mb-3">
             <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/lg-ac-repair-in-dubai/">LG Air Conditioner Service</a>:</strong> </li>
 
             <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/samsung-ac-repair-in-dubai/">Samsung Air Conditioner Repair and Service</a>:</strong> </li>
@@ -50,7 +48,7 @@ const WeSpecialise = () => {
             <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/mitsubishi-ac-repair-in-dubai/">Mitsubishi Air Conditioner Service and Repair</a>:</strong> </li>
 
             <li><strong>Carrier AC Repair and Service in Dubai</strong>: </li>
-          </ul> */}
+          </ul>
 
           <p className="mb-0">
             <Link to="/sanyo-ac-repair-in-dubai-sanyo-ac-maintenance-in-dubai-sanyo-ac-fix-in-dubai-sanyo-ac-service-in-dubai-sanyo-air-condition-repair-in-dubai-sanyo-air-condition-maintenance-in-dubai-sanyo-air-condition/">Sanyo AC Service Dubai</Link>

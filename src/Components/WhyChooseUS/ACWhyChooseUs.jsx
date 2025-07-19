@@ -12,11 +12,10 @@ const WhyChooseUS = () => {
             <div className="uspitem">
               <div className="uspicon">
                 <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
-
               </div>
               <div className="usptext">
                 <h3 className="">Reliable, Priority, and Quick</h3>
-                <p>You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
+                <p>You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day AC repair or next-day AC service visits ensure that your needs are met quickly. </p>
               </div>
             </div>
 
