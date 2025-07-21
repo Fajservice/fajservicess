@@ -3537,9 +3537,16 @@ textarea {
 /*--------------------------------------------------------------
   9. Footer
 ----------------------------------------------------------------*/
+.cs_footer {
+  position: relative;
+  overflow: hidden;
+}
+
 .cs_footer_contact_list li {
   position: relative;
   padding-left: 40px;
+  min-height: 24px;
+  margin-bottom: 12px;
 }
 
 .cs_footer_contact_list li:not(:last-child) {
@@ -3556,6 +3563,10 @@ textarea {
   background-color: rgba(255, 255, 255, 0.15);
   padding-left: 6px;
   padding-top: 3px;
+}
+
+.cs_footer_widget{
+  contain: content;
 }
 
 .cs_footer_widget .cs_social_btns.cs_style_1 {
@@ -3758,6 +3769,8 @@ textarea {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
+   min-height: 1px;
+   contain: layout paint style;
 }
 
 .cs_footer_row .cs_footer_col:first-child {
@@ -5494,6 +5507,7 @@ textarea {
   opacity: 0;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+   min-height: 40px;
 }
 
 .cs_team.cs_style_1 .cs_social_btns.cs_style_1 a {
@@ -6364,6 +6378,10 @@ textarea {
 /*--------------------------------------------------------------
   18. About
 ----------------------------------------------------------------*/
+.cs_about{
+  contain: layout paint style;
+}
+
 .cs_about.cs_style_1 .cs_about_thumbnail_wrapper {
   padding-right: 46%;
   display: -webkit-box;
@@ -6374,6 +6392,7 @@ textarea {
   -ms-flex-direction: column;
   flex-direction: column;
   gap: 12px;
+  contain: content;
 }
 
 @media (max-width: 575px) {

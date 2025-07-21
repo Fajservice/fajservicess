@@ -100,26 +100,17 @@ const Footer1 = () => {
                   {contactInfo.map((contact, index) => (
                     <li key={`contact-${index}`}>
                       <i className={`bi ${contact.icon}`} aria-hidden="true"></i>
-                      {contact.href ? (
-                        <a href={contact.href}>{contact.text || contact.items.map(item => (
-                          <span key={item.text}>
+                      {contact.items ? (
+                        contact.items.map((item, i) => (
+                          <span key={`item-${i}`}>
                             <a href={item.href}>{item.text}</a>
-                            {index < contact.items.length - 1 && <br />}
+                            {i < contact.items.length - 1 && <br />}
                           </span>
-                        ))}</a>
+                        ))
+                      ) : contact.href ? (
+                        <a href={contact.href}>{contact.text}</a>
                       ) : (
-                        contact.items ? (
-                          <>
-                            {contact.items.map((item, i) => (
-                              <span key={`phone-${i}`}>
-                                <a href={item.href}>{item.text}</a>
-                                {i < contact.items.length - 1 && <br />}
-                              </span>
-                            ))}
-                          </>
-                        ) : (
-                          contact.text
-                        )
+                        contact.text
                       )}
                     </li>
                   ))}
@@ -161,6 +152,9 @@ const Footer1 = () => {
                   src={`${import.meta.env.BASE_URL}img/icons/payment_card.png`}
                   alt="Accepted payment methods"
                   loading="lazy"
+                  width="300"
+                  height="24"
+                  style={{ objectFit: 'contain' }}
                 />
               </div>
             </div>
