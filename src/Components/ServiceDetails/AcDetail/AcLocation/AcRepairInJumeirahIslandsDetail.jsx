@@ -246,7 +246,7 @@ const AcRepairInJumeirahIslandsDetail = ({ subtitle, title, reviewsbg, titleSeo,
                                         <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Strange Noises</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
-                                        <p className="p-2 mb-0">Unusual sounds like grinding, squealing, or banging coming from your AC unit can indicate mechanical problems that require attention.</p>
+                                        <p className="p-2 mb-0">Unusual sounds like grinding, squealing, or banging coming from your air conditioner unit can indicate mechanical problems that require attention.</p>
                                     </div>
                                 </div>
                             </div>

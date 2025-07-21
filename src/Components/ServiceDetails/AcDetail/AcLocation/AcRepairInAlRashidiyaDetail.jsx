@@ -119,7 +119,7 @@ const AcRepairInAlRashidiyaDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                         <h1 className="cs_fs_30">AC Service in Al Rashidiya</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
-                            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
+                            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 
                         <div id="get-quote" className=" mt-3">
                             <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -222,7 +222,7 @@ const AcRepairInAlRashidiyaDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                                         <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Weak Airflow</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
-                                        <p className="p-2 mb-0">If you notice <a href="https://www.youtube.com/watch?v=qnByeIsc3lY"><b>reduced airflow</b></a> coming from your vents, it could indicate a problem with your AC system, such as a clogged filter or malfunctioning fan.</p>
+                                        <p className="p-2 mb-0">If you notice <a href="https://www.youtube.com/watch?v=qnByeIsc3lY"><b>reduced airflow</b></a> coming from your vents, it could indicate a problem with your A/C system, such as a clogged filter or malfunctioning fan.</p>
                                     </div>
                                 </div>
                             </div>
@@ -233,7 +233,7 @@ const AcRepairInAlRashidiyaDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                                         <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Warm Air</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
-                                        <p className="p-2 mb-0">If your AC blows warm or room temperature air instead of cold, it could indicate compressor, refrigerant, or ductwork issues.</p>
+                                        <p className="p-2 mb-0">If your aircon blows warm or room temperature air instead of cold, it could indicate compressor, refrigerant, or ductwork issues.</p>
                                     </div>
                                 </div>
                             </div>
@@ -244,7 +244,7 @@ const AcRepairInAlRashidiyaDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                                         <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Strange Noises</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
-                                        <p className="p-2 mb-0">Unusual sounds like grinding, squealing, or banging coming from your AC unit can indicate mechanical problems that require attention.</p>
+                                        <p className="p-2 mb-0">Unusual sounds like grinding, squealing, or banging coming from your air conditioner unit can indicate mechanical problems that require attention.</p>
                                     </div>
                                 </div>
                             </div>
