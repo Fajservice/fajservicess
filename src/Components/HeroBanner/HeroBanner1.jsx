@@ -171,7 +171,7 @@ const HeroBanner1 = () => {
                     width: "100%",
                     height: "100%",
                     objectFit: "cover",
-                    objectPosition: "center",
+                    objectPosition: "left center",
                   }}
                   onLoad={() => {
                     performance.mark?.("hero-image-loaded");

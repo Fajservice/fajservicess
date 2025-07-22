@@ -6,7 +6,6 @@ const ColdRoomRepair = () => {
         <div className="serviceDetails">
             <BreadCumb
                 bgImg="img/ac_service-bannerbg.avif"
-
                 Title="Cold Room Repair"
             ></BreadCumb> 
             <ColdRoomRepairDetail></ColdRoomRepairDetail>           
