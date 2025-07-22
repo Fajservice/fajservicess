@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 import viteCompression from 'vite-plugin-compression';
 import { visualizer } from 'rollup-plugin-visualizer';
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
-import cssnano from 'cssnano'; // Added
+import cssnano from 'cssnano';
 
 export default defineConfig(({ mode }) => {
   const isProduction = mode === 'production';

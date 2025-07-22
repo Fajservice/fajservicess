@@ -9,10 +9,7 @@ const HeroBanner1 = () => {
   const [sliderReady, setSliderReady] = useState(false);
   const containerRef = useRef(null);
 
-  // ✅ Define firstSlide before using it
   const firstSlide = useMemo(() => data[0], []);
-
-  // ✅ Preload the first slide image AFTER it's available
   usePreloadImage(
     `${import.meta.env.BASE_URL}${firstSlide.img.replace(/\.(jpg|jpeg|png)$/i, ".avif")}`
   );
