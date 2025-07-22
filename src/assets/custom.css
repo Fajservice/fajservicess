@@ -7,7 +7,6 @@
   --bg-light-gray: #dddddd63;
   --bg-dark-blue: #00334e;
   --sky-blue-font: #76DCEB;
-
 }
 
 
@@ -134,18 +133,20 @@
   color: var(--sky-blue-font);
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Gunplay-Regular';
   font-style: normal;
   font-weight: normal;
+  font-display: swap;
   src: local('Gunplay-Regular'), url('/fonts/faj-custom-font.ttf') format('ttf');
-}
+} */
 
 
 @font-face {
   font-family: 'Gunplay-Regular';
   font-style: normal;
   font-weight: normal;
+  font-display: swap;
   src: local('Gunplay-Regular'), url('/fonts/faj-custom-font.woff') format('woff');
 }
 

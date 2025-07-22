@@ -47,20 +47,25 @@ export default defineConfig(({ mode }) => {
       target: 'es2022',
       minify: isProduction ? 'terser' : false,
       sourcemap: !isProduction,
+      terserOptions: {
+        compress: {
+          drop_console: true,
+          drop_debugger: true,
+        }
+      },
       rollupOptions: {
         output: {
           manualChunks(id) {
             if (id.includes('node_modules')) {
-              if (id.includes('react') || id.includes('react-dom')) return 'react-vendor';
-              if (id.includes('react-router')) return 'router';
-              if (id.includes('lodash')) return 'lodash';
+              if (id.includes('react')) return 'react-vendor';
+              if (id.includes('router')) return 'router';
               return 'vendor';
             }
-            if (id.includes('src/pages/Home')) return 'home';
           }
         }
       }
     },
+
 
     css: {
       modules: {

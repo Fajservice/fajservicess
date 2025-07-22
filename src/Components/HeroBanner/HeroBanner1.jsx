@@ -1,34 +1,36 @@
 import React, { useRef, useCallback, useEffect, useState, useMemo } from "react";
 import data from "../../Data/herobanner1.json";
 import { Link } from "react-router-dom";
-
-// Import Slider directly (not lazy) for critical above-fold content
-import Slider from 'react-slick';
+import Slider from "react-slick";
+import usePreloadImage from "../usePreloadImage";
 
 const HeroBanner1 = () => {
   const sliderRef = useRef(null);
   const [sliderReady, setSliderReady] = useState(false);
   const containerRef = useRef(null);
-  
-  // Memoize first slide for immediate rendering
+
+  // ✅ Define firstSlide before using it
   const firstSlide = useMemo(() => data[0], []);
-  
-  // Load Slick CSS synchronously in head if not present
+
+  // ✅ Preload the first slide image AFTER it's available
+  usePreloadImage(
+    `${import.meta.env.BASE_URL}${firstSlide.img.replace(/\.(jpg|jpeg|png)$/i, ".avif")}`
+  );
+
   useEffect(() => {
     if (!document.querySelector('link[href*="slick.css"]')) {
-      const link = document.createElement('link');
-      link.rel = 'stylesheet';
-      link.href = 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css';
-      link.fetchPriority = 'high';
+      const link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.href =
+        "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css";
+      link.fetchPriority = "high";
       document.head.appendChild(link);
     }
-    
-    // Initialize slider after brief delay to allow CSS load
+
     const timer = setTimeout(() => setSliderReady(true), 100);
     return () => clearTimeout(timer);
   }, []);
 
-  // Optimized slider change handlers
   const handleBeforeChange = useCallback(() => {
     if (document.activeElement?.blur) {
       document.activeElement.blur();
@@ -36,7 +38,6 @@ const HeroBanner1 = () => {
   }, []);
 
   const handleAfterChange = useCallback((currentSlide) => {
-    // Preload next image if not already loaded
     const nextSlide = (currentSlide + 1) % data.length;
     if (nextSlide < data.length && data[nextSlide]) {
       const img = new Image();
@@ -44,46 +45,49 @@ const HeroBanner1 = () => {
     }
   }, []);
 
-  // Optimized slider settings
-  const settings = useMemo(() => ({
-    dots: data.length > 1,
-    infinite: data.length > 1,
-    speed: 300,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    swipeToSlide: true,
-    adaptiveHeight: false,
-    cssEase: 'ease-out',
-    pauseOnHover: false,
-    pauseOnFocus: false,
-    waitForAnimate: true,
-    useCSS: true,
-    useTransform: true,
-    touchThreshold: 10,
-    beforeChange: handleBeforeChange,
-    afterChange: handleAfterChange,
-    lazyLoad: 'ondemand',
-    responsive: [{
-      breakpoint: 768,
-      settings: { 
-        dots: data.length > 1,
-        speed: 200
-      }
-    }]
-  }), [handleBeforeChange, handleAfterChange]);
+  const settings = useMemo(
+    () => ({
+      dots: data.length > 1,
+      infinite: data.length > 1,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      swipeToSlide: true,
+      adaptiveHeight: false,
+      cssEase: "ease-out",
+      pauseOnHover: false,
+      pauseOnFocus: false,
+      waitForAnimate: true,
+      useCSS: true,
+      useTransform: true,
+      touchThreshold: 10,
+      beforeChange: handleBeforeChange,
+      afterChange: handleAfterChange,
+      lazyLoad: "ondemand",
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            dots: data.length > 1,
+            speed: 200,
+          },
+        },
+      ],
+    }),
+    [handleBeforeChange, handleAfterChange]
+  );
 
-  // Render slide content
   const renderSlide = useCallback((item, index) => (
     <div key={`hero-slide-${index}`} className="cs_slide">
       <div className="cs_hero cs_style_1 cs_type_1 cs_bg_filed cs_primary_bg cs_center">
         <picture>
-          <source 
-            srcSet={`${import.meta.env.BASE_URL}${item.img.replace(/\.(jpg|jpeg|png)$/i, '.avif')} 1x`}
+          <source
+            srcSet={`${import.meta.env.BASE_URL}${item.img.replace(/\.(jpg|jpeg|png)$/i, ".avif")} 1x`}
             type="image/avif"
           />
-          <source 
-            srcSet={`${import.meta.env.BASE_URL}${item.img.replace(/\.(jpg|jpeg|png)$/i, '.webp')} 1x`}
+          <source
+            srcSet={`${import.meta.env.BASE_URL}${item.img.replace(/\.(jpg|jpeg|png)$/i, ".webp")} 1x`}
             type="image/webp"
           />
           <img
@@ -95,30 +99,26 @@ const HeroBanner1 = () => {
             height="761"
             decoding={index === 0 ? "sync" : "async"}
             fetchpriority={index === 0 ? "high" : "auto"}
-            style={{ 
-              position: 'absolute',
+            style={{
+              position: "absolute",
               top: 0,
               left: 0,
-              width: '100%',
-              height: '100%',
-              objectFit: 'cover',
-              objectPosition: 'center'
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+              objectPosition: "center",
             }}
-            onLoad={index === 0 ? () => performance.mark?.('hero-image-loaded') : undefined}
+            onLoad={index === 0 ? () => performance.mark?.("hero-image-loaded") : undefined}
           />
         </picture>
-        
+
         <div className="container">
           <div className="cs_hero_text">
-            <h1 className="cs_hero_title cs_fs_50 cs_mb_18">
-              {item.title}
-            </h1>
-            <p className="cs_hero_subtitle cs_mb_34">
-              {item.desc}
-            </p>
+            <h1 className="cs_hero_title cs_fs_50 cs_mb_18">{item.title}</h1>
+            <p className="cs_hero_subtitle cs_mb_34">{item.desc}</p>
             <div className="cs_hero_btns">
-              <Link 
-                to={item.btnUrl} 
+              <Link
+                to={item.btnUrl}
                 className="cs_btn cs_style_1"
                 aria-label={`Navigate to ${item.btnName}`}
               >
@@ -126,14 +126,14 @@ const HeroBanner1 = () => {
                 <i className="bi bi-arrow-right" aria-hidden="true"></i>
               </Link>
               <span className="cs_hero_number">
-                <span 
+                <span
                   className="cs_hero_number_icon cs_center cs_heading_bg cs_white_color cs_fs_18"
                   aria-hidden="true"
                 >
                   <i className="bi bi-telephone-x-fill"></i>
                 </span>
-                <a 
-                  href={item.telLink} 
+                <a
+                  href={item.telLink}
                   className="cs_fs_24 cs_semibold cs_heading_color"
                   aria-label={`Call ${item.number}`}
                 >
@@ -148,14 +148,13 @@ const HeroBanner1 = () => {
   ), []);
 
   return (
-    <section 
-      className="cs_slider cs_style_1" 
+    <section
+      className="cs_slider cs_style_1"
       ref={containerRef}
       aria-label="Hero banner slider"
     >
       <div className="cs_slider_container">
         <div className="cs_slider_wrapper">
-          {/* Always show first slide immediately for LCP */}
           {!sliderReady && firstSlide && (
             <div className="cs_slide">
               <div className="cs_hero cs_style_1 cs_type_1 cs_bg_filed cs_primary_bg cs_center">
@@ -168,18 +167,17 @@ const HeroBanner1 = () => {
                   height="761"
                   decoding="sync"
                   fetchpriority="high"
-                  style={{ 
-                    position: 'absolute',
+                  style={{
+                    position: "absolute",
                     top: 0,
                     left: 0,
-                    width: '100%',
-                    height: '100%',
-                    objectFit: 'cover',
-                    objectPosition: 'center'
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                    objectPosition: "center",
                   }}
                   onLoad={() => {
-                    performance.mark?.('hero-image-loaded');
-                    // Start slider initialization after first image loads
+                    performance.mark?.("hero-image-loaded");
                     requestAnimationFrame(() => setSliderReady(true));
                   }}
                 />
@@ -192,8 +190,8 @@ const HeroBanner1 = () => {
                       {firstSlide.desc}
                     </p>
                     <div className="cs_hero_btns">
-                      <Link 
-                        to={firstSlide.btnUrl} 
+                      <Link
+                        to={firstSlide.btnUrl}
                         className="cs_btn cs_style_1"
                         aria-label={`Navigate to ${firstSlide.btnName}`}
                       >
@@ -204,8 +202,8 @@ const HeroBanner1 = () => {
                         <span className="cs_hero_number_icon cs_center cs_heading_bg cs_white_color cs_fs_18">
                           <i className="bi bi-telephone-x-fill"></i>
                         </span>
-                        <a 
-                          href={firstSlide.telLink} 
+                        <a
+                          href={firstSlide.telLink}
                           className="cs_fs_24 cs_semibold cs_heading_color"
                           aria-label={`Call ${firstSlide.number}`}
                         >
@@ -218,15 +216,13 @@ const HeroBanner1 = () => {
               </div>
             </div>
           )}
-          
-          {/* Full slider after ready */}
+
           {sliderReady && data.length > 1 && (
             <Slider {...settings}>
               {data.map((item, index) => renderSlide(item, index))}
             </Slider>
           )}
-          
-          {/* Single slide (no slider needed) */}
+
           {sliderReady && data.length === 1 && renderSlide(data[0], 0)}
         </div>
       </div>
