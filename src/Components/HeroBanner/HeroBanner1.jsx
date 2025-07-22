@@ -1,101 +1,60 @@
-import React, { useRef, useCallback, useEffect, lazy, Suspense, useState } from "react";
+import React, { useRef, useCallback, useEffect, useState, useMemo } from "react";
 import data from "../../Data/herobanner1.json";
 import { Link } from "react-router-dom";
 
-const Slider = lazy(() => import('react-slick'));
+// Import Slider directly (not lazy) for critical above-fold content
+import Slider from 'react-slick';
 
 const HeroBanner1 = () => {
   const sliderRef = useRef(null);
-  const [isIntersecting, setIsIntersecting] = useState(false);
+  const [sliderReady, setSliderReady] = useState(false);
   const containerRef = useRef(null);
-
-  // Preload first image and load slider CSS
+  
+  // Memoize first slide for immediate rendering
+  const firstSlide = useMemo(() => data[0], []);
+  
+  // Load Slick CSS synchronously in head if not present
   useEffect(() => {
-    if (data.length > 0) {
-      const imgUrl = `${import.meta.env.BASE_URL}${data[0].img}`;
+    if (!document.querySelector('link[href*="slick.css"]')) {
       const link = document.createElement('link');
-      link.rel = 'preload';
-      link.as = 'image';
-      link.href = imgUrl;
-      link.setAttribute('fetchpriority', 'high');
+      link.rel = 'stylesheet';
+      link.href = 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css';
+      link.fetchPriority = 'high';
       document.head.appendChild(link);
     }
-
-    // Load slick CSS without layout shift
-    const loadSliderCSS = () => {
-      if (!document.querySelector('link[href*="slick.css"]')) {
-        const link = document.createElement('link');
-        link.rel = 'stylesheet';
-        link.href = 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css';
-        document.head.appendChild(link);
-      }
-    };
-
-    // Load CSS after initial render
-    requestAnimationFrame(() => {
-      requestAnimationFrame(loadSliderCSS);
-    });
-
-    return () => {
-      // Cleanup if needed
-    };
-  }, []);
-
-  // Intersection Observer with debounce
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            setIsIntersecting(true);
-          }
-        });
-      },
-      { 
-        threshold: 0.1,
-        rootMargin: '50px 0px 50px 0px' 
-      }
-    );
-
-    if (containerRef.current) {
-      observer.observe(containerRef.current);
-    }
-
-    return () => {
-      if (containerRef.current) {
-        observer.unobserve(containerRef.current);
-      }
-    };
+    
+    // Initialize slider after brief delay to allow CSS load
+    const timer = setTimeout(() => setSliderReady(true), 100);
+    return () => clearTimeout(timer);
   }, []);
 
   // Optimized slider change handlers
   const handleBeforeChange = useCallback(() => {
     if (document.activeElement?.blur) {
-      requestAnimationFrame(() => {
-        document.activeElement.blur();
-      });
+      document.activeElement.blur();
     }
   }, []);
 
-  const handleAfterChange = useCallback(() => {
-    requestAnimationFrame(() => {
-      if (document.activeElement?.blur && document.activeElement !== document.body) {
-        document.activeElement.blur();
-      }
-    });
+  const handleAfterChange = useCallback((currentSlide) => {
+    // Preload next image if not already loaded
+    const nextSlide = (currentSlide + 1) % data.length;
+    if (nextSlide < data.length && data[nextSlide]) {
+      const img = new Image();
+      img.src = `${import.meta.env.BASE_URL}${data[nextSlide].img}`;
+    }
   }, []);
 
-  // Slider settings with optimized animations
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 600,
+  // Optimized slider settings
+  const settings = useMemo(() => ({
+    dots: data.length > 1,
+    infinite: data.length > 1,
+    speed: 300,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
     swipeToSlide: true,
     adaptiveHeight: false,
-    cssEase: 'cubic-bezier(0.25, 0.46, 0.45, 0.94)', // Smoother easing
+    cssEase: 'ease-out',
     pauseOnHover: false,
     pauseOnFocus: false,
     waitForAnimate: true,
@@ -104,15 +63,89 @@ const HeroBanner1 = () => {
     touchThreshold: 10,
     beforeChange: handleBeforeChange,
     afterChange: handleAfterChange,
-    ref: sliderRef,
+    lazyLoad: 'ondemand',
     responsive: [{
       breakpoint: 768,
       settings: { 
-        dots: true,
-        speed: 500 // Faster on mobile
+        dots: data.length > 1,
+        speed: 200
       }
     }]
-  };
+  }), [handleBeforeChange, handleAfterChange]);
+
+  // Render slide content
+  const renderSlide = useCallback((item, index) => (
+    <div key={`hero-slide-${index}`} className="cs_slide">
+      <div className="cs_hero cs_style_1 cs_type_1 cs_bg_filed cs_primary_bg cs_center">
+        <picture>
+          <source 
+            srcSet={`${import.meta.env.BASE_URL}${item.img.replace(/\.(jpg|jpeg|png)$/i, '.avif')} 1x`}
+            type="image/avif"
+          />
+          <source 
+            srcSet={`${import.meta.env.BASE_URL}${item.img.replace(/\.(jpg|jpeg|png)$/i, '.webp')} 1x`}
+            type="image/webp"
+          />
+          <img
+            src={`${import.meta.env.BASE_URL}${item.img}`}
+            alt={`Hero banner: ${item.title}`}
+            className="cs_hero_bg"
+            loading={index === 0 ? "eager" : "lazy"}
+            width="1920"
+            height="761"
+            decoding={index === 0 ? "sync" : "async"}
+            fetchpriority={index === 0 ? "high" : "auto"}
+            style={{ 
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: '100%',
+              height: '100%',
+              objectFit: 'cover',
+              objectPosition: 'center'
+            }}
+            onLoad={index === 0 ? () => performance.mark?.('hero-image-loaded') : undefined}
+          />
+        </picture>
+        
+        <div className="container">
+          <div className="cs_hero_text">
+            <h1 className="cs_hero_title cs_fs_50 cs_mb_18">
+              {item.title}
+            </h1>
+            <p className="cs_hero_subtitle cs_mb_34">
+              {item.desc}
+            </p>
+            <div className="cs_hero_btns">
+              <Link 
+                to={item.btnUrl} 
+                className="cs_btn cs_style_1"
+                aria-label={`Navigate to ${item.btnName}`}
+              >
+                <span>{item.btnName}</span>
+                <i className="bi bi-arrow-right" aria-hidden="true"></i>
+              </Link>
+              <span className="cs_hero_number">
+                <span 
+                  className="cs_hero_number_icon cs_center cs_heading_bg cs_white_color cs_fs_18"
+                  aria-hidden="true"
+                >
+                  <i className="bi bi-telephone-x-fill"></i>
+                </span>
+                <a 
+                  href={item.telLink} 
+                  className="cs_fs_24 cs_semibold cs_heading_color"
+                  aria-label={`Call ${item.number}`}
+                >
+                  {item.number}
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  ), []);
 
   return (
     <section 
@@ -120,126 +153,81 @@ const HeroBanner1 = () => {
       ref={containerRef}
       aria-label="Hero banner slider"
     >
-      <div 
-        className="cs_slider_container" 
-        data-autoplay="0" 
-        data-loop="1" 
-        data-speed="600" 
-        data-center="0" 
-        data-variable-width="0" 
-        data-slides-per-view="1"
-      >
+      <div className="cs_slider_container">
         <div className="cs_slider_wrapper">
-          <Suspense fallback={
-            <div 
-              className="cs_hero_loading" 
-              style={{ minHeight: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
-              aria-live="polite"
-            >
-              Loading content...
-            </div>
-          }>
-            {isIntersecting && (
-              <Slider {...settings}>
-                {data.map((item, index) => (
-                  <div key={`hero-slide-${index}`} className="cs_slide">
-                    <div className="cs_hero cs_style_1 cs_type_1 cs_bg_filed cs_primary_bg cs_center">
-                      <picture>
-                        <source 
-                          srcSet={`${import.meta.env.BASE_URL}${item.img.replace('.jpg', '.webp')}`} 
-                          type="image/webp" 
-                        />
-                        <img
-                          src={`${import.meta.env.BASE_URL}${item.img}`}
-                          alt=""
-                          aria-hidden="true"
-                          className="cs_hero_bg"
-                          loading={index === 0 ? "eager" : "lazy"}
-                          width="1920"
-                          height="1080"
-                          decoding="async"
-                          style={{ 
-                            position: 'absolute',
-                            top: 0,
-                            left: 0,
-                            width: '100%',
-                            height: '100%',
-                            objectFit: 'cover',
-                            objectPosition: 'left'
-                          }}
-                        />
-                      </picture>
-                      <div className="container">
-                        <div className="cs_hero_text">
-                          <h1 
-                            className="cs_hero_title cs_fs_50 cs_mb_18"
-                            style={{
-                              opacity: isIntersecting ? 1 : 0,
-                              transform: isIntersecting ? 'translateY(0)' : 'translateY(20px)',
-                              transition: 'opacity 0.6s ease-out, transform 0.6s ease-out',
-                              willChange: 'opacity, transform'
-                            }}
-                          >
-                            {item.title}
-                          </h1>
-                          <p 
-                            className="cs_hero_subtitle cs_mb_34"
-                            style={{
-                              opacity: isIntersecting ? 1 : 0,
-                              transform: isIntersecting ? 'translateY(0)' : 'translateY(20px)',
-                              transition: 'opacity 0.6s ease-out 0.2s, transform 0.6s ease-out 0.2s',
-                              willChange: 'opacity, transform'
-                            }}
-                          >
-                            {item.desc}
-                          </p>
-                          <div className="cs_hero_btns">
-                            <Link 
-                              to={item.btnUrl} 
-                              className="cs_btn cs_style_1"
-                              aria-label={`Navigate to ${item.btnName}`}
-                              style={{
-                                opacity: isIntersecting ? 1 : 0,
-                                transform: isIntersecting ? 'translateY(0)' : 'translateY(20px)',
-                                transition: 'opacity 0.6s ease-out 0.4s, transform 0.6s ease-out 0.4s',
-                                willChange: 'opacity, transform'
-                              }}
-                            >
-                              <span>{item.btnName}</span>
-                              <i className="bi bi-arrow-right" aria-hidden="true"></i>
-                            </Link>
-                            <span 
-                              className="cs_hero_number"
-                              style={{
-                                opacity: isIntersecting ? 1 : 0,
-                                transform: isIntersecting ? 'translateY(0)' : 'translateY(20px)',
-                                transition: 'opacity 0.6s ease-out 0.6s, transform 0.6s ease-out 0.6s',
-                                willChange: 'opacity, transform'
-                              }}
-                            >
-                              <span 
-                                className="cs_hero_number_icon cs_center cs_heading_bg cs_white_color cs_fs_18"
-                                aria-hidden="true"
-                              >
-                                <i className="bi bi-telephone-x-fill"></i>
-                              </span>
-                              <a 
-                                href={item.telLink} 
-                                className="cs_fs_24 cs_semibold cs_heading_color"
-                                aria-label={`Call ${item.number}`}
-                              >
-                                {item.number}
-                              </a>
-                            </span>
-                          </div>
-                        </div>
-                      </div>
+          {/* Always show first slide immediately for LCP */}
+          {!sliderReady && firstSlide && (
+            <div className="cs_slide">
+              <div className="cs_hero cs_style_1 cs_type_1 cs_bg_filed cs_primary_bg cs_center">
+                <img
+                  src={`${import.meta.env.BASE_URL}${firstSlide.img}`}
+                  alt={`Hero banner: ${firstSlide.title}`}
+                  className="cs_hero_bg"
+                  loading="eager"
+                  width="1920"
+                  height="761"
+                  decoding="sync"
+                  fetchpriority="high"
+                  style={{ 
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    width: '100%',
+                    height: '100%',
+                    objectFit: 'cover',
+                    objectPosition: 'center'
+                  }}
+                  onLoad={() => {
+                    performance.mark?.('hero-image-loaded');
+                    // Start slider initialization after first image loads
+                    requestAnimationFrame(() => setSliderReady(true));
+                  }}
+                />
+                <div className="container">
+                  <div className="cs_hero_text">
+                    <h1 className="cs_hero_title cs_fs_50 cs_mb_18">
+                      {firstSlide.title}
+                    </h1>
+                    <p className="cs_hero_subtitle cs_mb_34">
+                      {firstSlide.desc}
+                    </p>
+                    <div className="cs_hero_btns">
+                      <Link 
+                        to={firstSlide.btnUrl} 
+                        className="cs_btn cs_style_1"
+                        aria-label={`Navigate to ${firstSlide.btnName}`}
+                      >
+                        <span>{firstSlide.btnName}</span>
+                        <i className="bi bi-arrow-right" aria-hidden="true"></i>
+                      </Link>
+                      <span className="cs_hero_number">
+                        <span className="cs_hero_number_icon cs_center cs_heading_bg cs_white_color cs_fs_18">
+                          <i className="bi bi-telephone-x-fill"></i>
+                        </span>
+                        <a 
+                          href={firstSlide.telLink} 
+                          className="cs_fs_24 cs_semibold cs_heading_color"
+                          aria-label={`Call ${firstSlide.number}`}
+                        >
+                          {firstSlide.number}
+                        </a>
+                      </span>
                     </div>
                   </div>
-                ))}
-              </Slider>
-            )}
-          </Suspense>
+                </div>
+              </div>
+            </div>
+          )}
+          
+          {/* Full slider after ready */}
+          {sliderReady && data.length > 1 && (
+            <Slider {...settings}>
+              {data.map((item, index) => renderSlide(item, index))}
+            </Slider>
+          )}
+          
+          {/* Single slide (no slider needed) */}
+          {sliderReady && data.length === 1 && renderSlide(data[0], 0)}
         </div>
       </div>
     </section>

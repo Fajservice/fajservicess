@@ -1795,7 +1795,7 @@ textarea {
 }
 
 .cs_fs_50 {
-  font-size: 50px;
+  font-size: 40px;
   line-height: 1.208em;
 }
 
@@ -3269,6 +3269,7 @@ textarea {
 .slick-slide .cs_hero.cs_style_1 .cs_hero_text {
   position: relative;
   left: 50px;
+
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   opacity: 0;
@@ -4223,11 +4224,10 @@ textarea {
   10. Hero
 ----------------------------------------------------------------*/
 .cs_hero.cs_style_1 {
-  min-height: 600px;
-  height: calc(100vh - 140px);
-  max-height: 1000px;
+  min-height: 70vh;
+  overflow: hidden;
   position: relative;
-  padding: 80px 0;
+  padding: 10px 0;
 }
 
 @media (max-width: 575px) {
@@ -6381,6 +6381,8 @@ textarea {
 .cs_about{
   contain: layout paint style;
 }
+
+
 
 .cs_about.cs_style_1 .cs_about_thumbnail_wrapper {
   padding-right: 46%;
@@ -8630,6 +8632,20 @@ label {
   position: absolute;
   top: 0;
   right: 70px;
+}
+
+.cs_site_branding img {
+  width: auto;
+  height: 60px;
+  max-width: 180px; 
+  display: block;
+}
+
+.cs_main_header_in {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 80px;
 }
 
 .cs_site_header.cs_style_1 .cs_top_header_in {
