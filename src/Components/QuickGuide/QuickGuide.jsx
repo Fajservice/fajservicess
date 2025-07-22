@@ -40,10 +40,7 @@ const QuickGuide = () => {
                             <li>
                                 <strong>Annual Maintenance Contract:</strong> This contract outlines the terms and services covered for the annual maintenance of air conditioning units. Regular maintenance is essential for optimal performance, efficiency, and longevity of your air conditioning system.
                             </li>
-
                         </ul>
-
-
                     </div>
                 </div>
             </div>
