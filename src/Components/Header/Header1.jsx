@@ -49,10 +49,12 @@ export default function Header1({ variant = '' }) {
 
   const headerStyles = useMemo(() => ({
     position: isSticky ? 'fixed' : 'relative',
-    top: isSticky ? '0' : 'auto',
+    top: 0,
     zIndex: '9999',
     width: '100%',
-    backgroundColor: isSticky ? 'white' : 'transparent'
+    backgroundColor: isSticky ? 'white' : 'transparent',
+    transition: 'background-color 0.3s ease, box-shadow 0.3s ease',
+    boxShadow: isSticky ? '0 2px 10px rgba(0,0,0,0.1)' : 'none',
   }), [isSticky]);
 
   const headerClasses = useMemo(() => [
@@ -75,13 +77,13 @@ export default function Header1({ variant = '' }) {
                 <ul className="cs_header_contact_list cs_mp_0">
                   {contactItems.map((item, index) => (
                     <li key={`contact-${index}`}>
-                      <i className={`bi ${item.icon}`}  aria-hidden="true"></i>
+                      <i className={`bi ${item.icon}`} aria-hidden="true"></i>
                       {item.href ? (
                         <a href={item.href} aria-label={item.content}>
                           {item.content}
                         </a>
                       ) : (
-                       <span className="text-white fs-14px">{item.content}</span>
+                        <span className="text-white fs-14px">{item.content}</span>
                       )}
                     </li>
                   ))}
@@ -119,16 +121,11 @@ export default function Header1({ variant = '' }) {
                     <img src={img} alt="FAJ Technical Services Logo" />
                   </Link>
                   <div className="cs_logo_bg_shape cs_accent_color">
-                    <svg width="509" height="141" viewBox="0 0 509 141" fill="none" aria-hidden="true">
-                      <path d="M74 0H487L508.5 70.5L473.5 141H74V0Z" fill="currentColor"/>
-                      <path d="M54 141H472.5L488.5 70.5L443.5 0H54V141Z" fill="white"/>
-                      <path d="M0 0H443L464.5 70.5L443 141H0V0Z" fill="currentColor"/>
+                    <svg width="509" height="141" viewBox="0 0 509 141" fill="none" aria-hidden="true" preserveAspectRatio="xMidYMid meet">
+                      <path d="M74 0H487L508.5 70.5L473.5 141H74V0Z" fill="currentColor" />
+                      <path d="M54 141H472.5L488.5 70.5L443.5 0H54V141Z" fill="white" />
+                      <path d="M0 0H443L464.5 70.5L443 141H0V0Z" fill="currentColor" />
                     </svg>
-                    {/* <img 
-                      src={`${import.meta.env.BASE_URL}img/logo_shape_pattern.svg`} 
-                      alt="" 
-                      role="presentation" 
-                    /> */}
                   </div>
                 </div>
               </div>
@@ -159,9 +156,9 @@ export default function Header1({ variant = '' }) {
           </div>
         </div>
       </header>
-      
+
       <div className="cs_site_header_spacing_140" aria-hidden="true"></div>
-      
+
       <BookingFormModal isOpen={isModalOpen} onClose={closeModal} />
     </div>
   );

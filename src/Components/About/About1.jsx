@@ -1,6 +1,9 @@
+
 import { Link } from "react-router-dom";
+import usePreloadImage from "../usePreloadImage";
 
 const About1 = ({ img1, img2, img3, expNumber, expYers, expTitle, expTitleYear, telLink, expDescrip, number, subTitle, Title, Content, feature1, feature2, listItem }) => {
+  usePreloadImage(img1);
   return (
     <section className="cs_about cs_style_1 position-relative">
       <div className="cs_height_80 cs_height_lg_80"></div>
@@ -11,21 +14,23 @@ const About1 = ({ img1, img2, img3, expNumber, expYers, expTitle, expTitleYear, 
               <div className="cs_about_thumbnail">
                 <picture>
                   <img
-                    src={`${import.meta.env.BASE_URL}${img1}`}
-                    loading="lazy"
+                    src={img1}
                     alt="About Image"
                     width={600}
                     height={400}
+                    fetchpriority="high"
                   />
                 </picture>
               </div>
               <div className="cs_about_thumbnail mt-4">
                 <picture>
-                  <img src={`${import.meta.env.BASE_URL}${img2}`} loading="lazy" alt="About Image" />
+                  <img src={img2} alt="About Image" fetchpriority="high" />
                 </picture>
               </div>
               <div className="cs_about_thumbnail">
-                <img src={`${import.meta.env.BASE_URL}${img3}`} loading="lazy" alt="About Image" />
+                <img src={img3} 
+                alt="About Image" 
+                fetchpriority="high" />
               </div>
               <div className="cs_esperience_text position-absolute" style={{ minHeight: '200px' }}>
                 <h2 className="cs_experience_title mb-0">
@@ -45,14 +50,14 @@ const About1 = ({ img1, img2, img3, expNumber, expYers, expTitle, expTitleYear, 
               <div className="cs_about_shape_1 position-absolute">
                 <img
                   src={`${import.meta.env.BASE_URL}img/shapes/gear_2.svg`}
-                  loading="lazy"
                   alt="Gear Shape"
                   width={100}
                   height={100}
+                  fetchpriority="high"
                 />
               </div>
               <div className="cs_about_shape_2 position-absolute">
-                <img src={`${import.meta.env.BASE_URL}img/shapes/gear_1.svg`} loading="lazy" alt="Gear Shape" />
+                <img src={`${import.meta.env.BASE_URL}img/shapes/gear_1.svg`} alt="Gear Shape" fetchpriority="high" />
               </div>
             </div>
           </div>
@@ -68,14 +73,22 @@ const About1 = ({ img1, img2, img3, expNumber, expYers, expTitle, expTitleYear, 
               <p className="cs_mb_40">{Content}</p>
               <div className="cs_features_list cs_mb_32">
                 <div className="cs_iconbox cs_style_1">
-                  <div className="cs_iconbox_icon cs_center">
-                    <img src={`${import.meta.env.BASE_URL}img/icons/Routine Maintenance.svg`} loading="lazy" alt="Routine Maintenance" />
+                  <div className="cs_iconbox_icon cs_center" style={{ minWidth: '40px', minHeight: '40px' }}>
+                    <img
+                      src={`${import.meta.env.BASE_URL}img/icons/Routine Maintenance.svg`}
+                      alt="Routine Maintenance"
+                      width={40}
+                      height={40}
+                      onLoad={(e) => e.target.style.opacity = 1}
+                      fetchpriority="high"
+                      style={{ opacity: 0, transition: 'opacity 0.3s' }}
+                    />
                   </div>
                   <h3 className="cs_iconbox_title cs_fs_18 mb-0">{feature1}</h3>
                 </div>
                 <div className="cs_iconbox cs_style_1">
                   <div className="cs_iconbox_icon cs_center">
-                    <img src={`${import.meta.env.BASE_URL}img/icons/fast efficient repair.svg`} loading="lazy" alt="Fast Efficient Repair" />
+                    <img src={`${import.meta.env.BASE_URL}img/icons/fast efficient repair.svg`} alt="Fast Efficient Repair" fetchpriority="high" />
                   </div>
                   <h3 className="cs_iconbox_title cs_fs_18 mb-0">{feature2}</h3>
                 </div>

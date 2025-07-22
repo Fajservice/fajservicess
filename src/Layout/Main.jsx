@@ -8,7 +8,9 @@ const Main = () => {
         <WaitForOutletReady>
             <div className='main-page-area'>
                 <Header1 />
-                <Outlet />
+                <div className="page-content-loader" style={{ minHeight: '70vh' }}>
+                    <Outlet />
+                </div>
                 <Footer1 />
             </div>
         </WaitForOutletReady>
