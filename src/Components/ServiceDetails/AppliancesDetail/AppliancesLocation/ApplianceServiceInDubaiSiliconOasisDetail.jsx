@@ -492,7 +492,7 @@ const ApplianceServiceInDubaiSiliconOasisDetail = ({ subtitle, title, reviewsbg,
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">We Are Experts</h3>
-                                        <p>We are experts in appliance repair this is why most major brands trust us to handle their service and maintenance needs.</p>
+                                        <p>We are experts in AC service in Silicon Oasis Dubai, which is why major brands trust us for their service and maintenance needs.</p>
                                     </div>
                                 </div>
                                 <div className="uspitem">

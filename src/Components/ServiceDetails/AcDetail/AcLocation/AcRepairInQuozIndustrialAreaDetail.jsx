@@ -467,7 +467,7 @@ const AcRepairInQuozIndustrialAreaDetail = ({ subtitle, title, reviewsbg, titleS
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your AC repair near me, Al Quoz Industrial Area Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.
+                    <p>Choose a day and time for your AC repair near me, Al Quoz Industrial Area Dubai or Sharjah, with a 3-4 hour window for technician arrival.
                     </p>
                   </div>
                 </div>
@@ -488,7 +488,7 @@ const AcRepairInQuozIndustrialAreaDetail = ({ subtitle, title, reviewsbg, titleS
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are experts in AC service in Al Quoz Industrial Area. This is why most major brands trust us to handle their service and maintenance needs</p>
+                    <p>Choose a day and time for your AC repair near me, Al Quoz Industrial Area Dubai or Sharjah, with a 3-4 hour window for technician arrival.</p>
                   </div>
                 </div>
                 <div className="uspitem">

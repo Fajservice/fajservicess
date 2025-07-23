@@ -458,7 +458,7 @@ const AcRepairInVictoryHeightsDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">You Are in Control</h3>
-                                        <p>Choose a day and time for your AC repair near me, Victory Heights Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.
+                                        <p>Choose a day and time for your AC repair near me, Jebel Ali Village Dubai or Sharjah, with a 3-4 hour window for technician arrival.
                                         </p>
                                     </div>
                                 </div>
