@@ -116,7 +116,7 @@ const AcRepairInJvcDetail = ({ subtitle, title, reviewsbg, titleSeo, description
                     <div className="container">
                         <h1 className="cs_fs_30">AC Service in Jvc</h1>
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
-                            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
+                            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me JVC, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 
                         <div id="get-quote" className=" mt-3">
                             <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -133,8 +133,9 @@ const AcRepairInJvcDetail = ({ subtitle, title, reviewsbg, titleSeo, description
                         <div className="row gx-md-5">
                             <div className="col-md-6">
                                 <h2 className="cs_fs_24 mb-1">Best AC Repair in JVC</h2>
-                                <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> in JVC, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
-                                <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
+                                <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> near me in JVC, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
+
+                                <p>We specialise in air conditioner (AC) repair, service, and maintenance near me in JVC Dubai. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
                                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
                                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                                 <div className="row">
@@ -160,7 +161,7 @@ const AcRepairInJvcDetail = ({ subtitle, title, reviewsbg, titleSeo, description
                         </div>
 
                         <div className="appointment-col border-small-top pt-3">
-                            <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/ac-service-in-dubai/"><b>AC cleaning service</b></Link>, repair, or maintenance. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+                            <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/ac-service-in-dubai/"><b>AC cleaning service</b></Link>, air conditioning repair, or AC maintenance near me in JVC. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
                             <div id="get-quote" className=" mt-3">
                                 <div className="container d-flex justify-content-center align-items-center gap-3">
                                     <WhatsappIconButton />
@@ -183,7 +184,7 @@ const AcRepairInJvcDetail = ({ subtitle, title, reviewsbg, titleSeo, description
                     <div className="container">
                         <h2 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h2>
                         <p>
-                            Regular air conditioner (AC) maintenance service in Dubai is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you, contact us.
+                            Regular air conditioner (AC) maintenance service in JVC is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you in JVC, contact us.
                         </p>
 
                         <div className="row align-items-center">
@@ -194,9 +195,9 @@ const AcRepairInJvcDetail = ({ subtitle, title, reviewsbg, titleSeo, description
                                 <ul className="mb-0">
                                     <li> <strong> Extreme Weather: </strong> Experiences high temperatures over 40°C (104°F) in summer. Regular maintenance keeps air conditioner systems efficient during these conditions.</li>
                                     <li> <strong> Energy Efficiency: </strong> A well-maintained AC unit operates more efficiently, using less energy and lowering both electricity bills.</li>
-                                    <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend your air condition unit’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
+                                    <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend your air conditioning unit’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
                                     <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
-                                    <li> <strong> Enhanced Comfort: </strong> Regular <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a> in Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
+                                    <li> <strong> Enhanced Comfort: </strong> Regular <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC cleaning service</b></a> in JVC Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
                                 </ul>
                             </div>
                         </div>
@@ -305,13 +306,215 @@ const AcRepairInJvcDetail = ({ subtitle, title, reviewsbg, titleSeo, description
                     </div>
                 </section>
 
-                {/* A Quick Guide to Understanding and Fixing Your AC Problems */}
-                <QuickGuide />
+                {/* HERE ARE THE */}
+                <section className="section cs_py_30 bg-light-gray">
+                    <div className="container">
+                        <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR AIR CONDITIONING SYSTEMS</h2>
+                        <div className="row">
+                            <div className="col-xl-6">
+                                <iframe
+                                    className="bordered-img blue-border"
+                                    width="100%"
+                                    height="350"
+                                    src="https://www.youtube.com/embed/sxBhB1_gxYA?si=96yf5hxyAA3bct8w"
+                                    title="YouTube video player"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowFullScreen
+                                ></iframe>
+                            </div>
+
+                            <div className="col-xl-6">
+                                <p className='mb-0'>We specialise in all types and brands of air conditioning systems, HVAC and FAHU.</p>
+                                <p className='mb-0'><strong>Our services include:</strong></p>
+                                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-1">
+
+                                    <li>
+                                        <strong>Installation:</strong> Expert installation of various types and brands of central AC cooling systems, ensuring optimal performance and efficiency.
+                                    </li>
+
+                                    <li>
+                                        <strong>Diagnostics:</strong> Thorough fault finding to diagnose issues effectively. We provide eligibility assessments and detailed quotations to address any concerns with your system.
+                                    </li>
+
+                                    <li>
+                                        <strong>Repair Service:</strong> Efficient repair services for all air conditioner components, ensuring quick resolution of any issues, such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions!
+                                    </li>
+
+                                    <li>
+                                        <strong>Annual Maintenance Contract:</strong> This contract outlines the terms and services covered for the annual maintenance of air conditioning units. Regular maintenance is essential for optimal performance, efficiency, and longevity of your air conditioning system.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
                 {/* The Benefits Of Regular AC Service*/}
-                <BenefitAcMaintenance />
+                <section className="section cs_py_30 ac_benifit_blue">
+                    <div className="container">
+                        <div className="row justify-content-center">
+                            <div className="col-lg-10 text-center">
+                                <h2 className="cs_fs_30 text-light">Benefits Of Regular AC Service and Maintenance Dubai
+                                </h2>
+
+                                <div className="row mt-4 gx-4 gy-4">
+                                    <div className="col-md-4 mb-2">
+                                        <div className="d-flex flex-column align-items-center px-2">
+                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/cooling1.jpg`} alt="Cooling Efficiency" className="img-fluid rounded-circle border border-4 border-info" />
+                                            </div>
+                                            <h3 className="text-uppercase mb-2 fs-6 text-white">COOLING EFFICIENCY</h3>
+                                            <p className="small">We carry out a complete assessment of the cooling efficiency using a temperature gun.</p>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-4 mb-2">
+                                        <div className="d-flex flex-column align-items-center px-2">
+                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/disinfection.jpg`} alt="Disinfect Components" className="img-fluid rounded-circle border border-4 border-warning" />
+                                            </div>
+                                            <h3 className="text-uppercase mb-2 fs-6 text-white">DISINFECT COMPONENTS</h3>
+                                            <p className="small">All hardware components are tested and disinfected, including filters and vents.</p>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-4 mb-2">
+                                        <div className="d-flex flex-column align-items-center px-2">
+                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/fan.jpg`} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
+                                            </div>
+                                            <h3 className="text-uppercase mb-2 fs-6 text-white">FAN ASSESSMENT</h3>
+                                            <p className="small">We ensure the fan works correctly with no blockages in the evaporator coil.</p>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-4 mb-2">
+                                        <div className="d-flex flex-column align-items-center px-2">
+                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/thermo.jpg`} alt="Thermostat Check" className="img-fluid rounded-circle border border-4 border-primary" />
+                                            </div>
+                                            <h3 className="text-uppercase mb-2 fs-6 text-white">THERMOSTAT CHECK</h3>
+                                            <p className="small">We use a laser temperature gauge to ensure thermostats operate correctly.</p>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-4 mb-2">
+                                        <div className="d-flex flex-column align-items-center px-2">
+                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/airflow.jpg`} alt="Airflow Balance" className="img-fluid rounded-circle border border-4 border-danger" />
+                                            </div>
+                                            <h3 className="text-uppercase mb-2 fs-6 text-white">AIRFLOW BALANCE</h3>
+                                            <p className="small">We ensure you get optimal air flow around each room as needed.</p>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-md-4 mb-2">
+                                        <div className="d-flex flex-column align-items-center px-2">
+                                            <div className="mb-3" style={{ width: "80px", height: "80px" }}>
+                                                <img src={`${import.meta.env.BASE_URL}img/icons/customer.jpg`} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
+                                            </div>
+                                            <h3 className="text-uppercase mb-2 fs-6 text-white">CUSTOMER FEEDBACK</h3>
+                                            <p className="small">Our team provides vital feedback on your AC&apos;s health and any needed air con repair.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="text-center mb-4">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
                 {/* Why choose us AC */}
-                <ACWhyChooseUs />
+                <section className="section cs_py_30">
+                    <div className="container container-md container-sm">
+                        <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2>
+                        <div className="usps align-items-center	">
+                            {/* <!-- First Column --> */}
+                            <div className="uspcol col-1">
+                                <div className="uspitem">
+                                    <div className="uspicon">
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
+                                    </div>
+                                    <div className="usptext">
+                                        <h3 className="">Reliable, Priority, and Quick</h3>
+                                        <p>You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day AC repair or next-day AC service visits ensure that your needs are met quickly. </p>
+                                    </div>
+                                </div>
+
+                                <div className="uspitem">
+                                    <div className="uspicon">
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
+                                    </div>
+                                    <div className="usptext">
+                                        <h3 className="">Feeling Of Calm</h3>
+                                        <p>With <a href="/ac-annual-maintenance-contract/">annual maintenance contract</a>, you get a full year of service, ensuring your AC runs smoothly and providing peace of mind.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div className="uspitem mb-0">
+                                    <div className="uspicon">
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
+                                    </div>
+                                    <div className="usptext">
+                                        <h3 className="">You Are in Control</h3>
+                                        <p>Choose a day and time for your AC repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            {/* <!-- Delimit Section --> */}
+                            <div className="uspdelimit col-2 d-none d-xl-block">
+
+                                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/ACServicescomponent.avif`} alt="Ac Maintenance Services" />
+                            </div>
+
+                            {/* <!-- Second Column --> */}
+                            <div className="uspcol col-3">
+                                <div className="uspitem">
+                                    <div className="uspicon">
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
+                                    </div>
+                                    <div className="usptext">
+                                        <h3 className="">We Are Experts</h3>
+                                        <p>We are experts in AC repair. This is why most major brands trust us to handle their service and maintenance needs.</p>
+                                    </div>
+                                </div>
+                                <div className="uspitem">
+                                    <div className="uspicon">
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
+
+                                    </div>
+                                    <div className="usptext">
+                                        <h3 className="">Great Value</h3>
+                                        <p>We are dedicated to ensuring customer satisfaction with timely service, prompt issue resolution, and affordable prices.</p>
+
+                                    </div>
+                                </div>
+                                <div className="uspitem mb-0">
+                                    <div className="uspicon">
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
+                                    </div>
+                                    <div className="usptext">
+                                        <h3 className="">Trustworthy</h3>
+                                        <p>Our <a href="https://www.facebook.com/ACRepairUAE"><b>skilled AC technicians</b></a> are highly trained, and we provide excellent service for a variety of major AC brands efficiently.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        {/* <!-- Delimit mobile --> */}
+                        <div className="col-12 uspdelimit w-100 text-center d-block d-none-1199 Xd-xl-none">
+                            <img className="blue-border-2 w-100" src={`${import.meta.env.BASE_URL}img/ACServicescomponent.avif`} alt="Ac Maintenance Services" />
+                        </div>
+                    </div>
+                </section>
 
 
                 {/* We specialise in air conditioning services for the following brands */}
