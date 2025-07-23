@@ -143,7 +143,6 @@ const AppliancesServiceInAlMamzarDetail = ({ subtitle, title, reviewsbg, titleSe
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Home Appliance Service in Al Mamzar</h1>
-            {/* <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN Dubai</h2> */}
             <p>
               Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
             </p>
@@ -174,7 +173,7 @@ const AppliancesServiceInAlMamzarDetail = ({ subtitle, title, reviewsbg, titleSe
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} loading="lazy" alt="Post Image" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} loading="lazy" alt="Washing machine repair in Dubai Hills Estate" />
               </div>
             </div>
             <AppliancesAppointmentCol></AppliancesAppointmentCol>
@@ -191,7 +190,7 @@ const AppliancesServiceInAlMamzarDetail = ({ subtitle, title, reviewsbg, titleSe
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} loading="lazy" alt="Post Image" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} loading="lazy" alt="Refrigerator Repair in Dubai Hills Estate" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
