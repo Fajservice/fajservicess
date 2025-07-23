@@ -174,7 +174,7 @@ const ApplianceServiceInDubaiMotorCityDetail = ({ subtitle, title, reviewsbg, ti
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} loading="lazy" alt="Post Image" />
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} loading="lazy" alt="Washing machine repair in Dubai Hills Estate" />
                             </div>
                         </div>
                         <AppliancesAppointmentCol></AppliancesAppointmentCol>

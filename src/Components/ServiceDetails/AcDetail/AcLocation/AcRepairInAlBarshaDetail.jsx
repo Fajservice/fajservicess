@@ -158,7 +158,7 @@ const AcRepairInAlBarshaDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="AC Repair in Al Barsha" />
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="Washing machine repair in Dubai Hills Estate" />
 
                             </div>
                         </div>
@@ -188,7 +188,7 @@ const AcRepairInAlBarshaDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Air Conditioning Service in Al Barsha" />
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/What-is-covered-in-an-AC-Maintenance-Contract.avif`} alt="Refrigerator Repair in Dubai Hills Estate" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">
