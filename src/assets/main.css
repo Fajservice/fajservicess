@@ -2154,11 +2154,11 @@ textarea {
   z-index: 1;
 }
 
-.cs_btn.cs_style_1 i {
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+.cs_btn.cs_style_1 svg {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .cs_btn.cs_style_1:hover {
@@ -2166,9 +2166,10 @@ textarea {
   color: var(--white-color);
 }
 
-.cs_btn.cs_style_1:hover i {
-  -webkit-transform: rotate(-405deg) scale(1.4);
-  transform: rotate(-405deg) scale(1.4);
+.cs_btn.cs_style_1:hover svg {
+  -webkit-transform: rotate(-360deg) scale(1.2);
+  transform: rotate(-360deg) scale(1.2);
+  font-weight: 400;
 }
 
 .cs_btn.cs_style_1:hover::before {
@@ -3553,8 +3554,7 @@ textarea {
 .cs_footer_contact_list li:not(:last-child) {
   margin-bottom: 22px;
 }
-
-.cs_footer_contact_list li i {
+.cs_footer_contact_list li span.footer-icons {
   height: 30px;
   width: 30px;
   border-radius: 6px;
@@ -3563,7 +3563,9 @@ textarea {
   top: -2px;
   background-color: rgba(255, 255, 255, 0.15);
   padding-left: 6px;
-  padding-top: 3px;
+}
+.cs_footer_contact_list li span.footer-icons svg {
+  font-size: 16px;
 }
 
 .cs_footer_widget{
@@ -4384,12 +4386,48 @@ textarea {
   transition: all 0.6s ease;
   mix-blend-mode: luminosity;
 }
+.cs_iconbox.cs_style_1 .cs_iconbox_icon svg {
+  color: var(--accent-color);
+  font-size: 36px;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+  mix-blend-mode: luminosity;
+}
 
 .cs_iconbox.cs_style_1:hover img {
   -webkit-transform: rotatey(180deg);
   transform: rotatey(180deg);
 }
-
+/* .cs_iconbox.cs_style_1:hover .cs_iconbox_icon svg {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+} */
+@keyframes contact-icons {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: rotate(-15deg);
+  }
+  75% {
+    transform: rotate(10deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+.contact-icons{
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.cs_iconbox.cs_style_1:hover .contact-icons{
+  animation: contact-icons 0.6s ease;
+}
 .cs_iconbox.cs_style_2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8692,14 +8730,15 @@ label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 10px;
+  gap: 5px;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
 }
 
-.cs_header_contact_list li i {
+.cs_header_contact_list li svg {
   color: var(--white-color);
+  font-size: 16px;
 }
 
 .cs_top_header_left .cs_header_contact_list a,
@@ -8723,8 +8762,9 @@ label {
   margin-right: auto;
 }
 
-.cs_header_social_links i {
+.cs_header_social_links svg {
   color: #fff;
+  font-size: 16px;
 }
 
 .cs_heading_color {

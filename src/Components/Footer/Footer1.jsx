@@ -1,11 +1,15 @@
 import { Link } from "react-router-dom";
+import { FaEnvelope, FaFacebook, FaInstagram, FaTwitter, FaWhatsapp, FaYoutube } from 'react-icons/fa';
+import { TiLocation } from "react-icons/ti";
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { IoCallOutline } from "react-icons/io5";
 // import AIHandsetWidget from "../AIHandsetWidget.jsx/AIHandsetWidget";
 
 const socialLinks = [
-  { icon: "bi-instagram", href: "https://www.instagram.com/fajtechnicalservicesllc/" },
-  { icon: "bi-twitter", href: "https://twitter.com/FAJTechnical/" },
-  { icon: "bi-youtube", href: "https://www.youtube.com/@fajtechnicalservicesllc" },
-  { icon: "bi-facebook", href: "https://www.facebook.com/FAJTechnicalServicesLLC" }
+  { icon: <FaInstagram />, href: 'https://www.instagram.com/fajtechnicalservicesllc/' },
+  { icon: <FaTwitter />, href: 'https://twitter.com/FAJTechnical/' },
+  { icon: <FaYoutube />, href: 'https://www.youtube.com/@fajtechnicalservicesllc' },
+  { icon: <FaFacebook />, href: 'https://www.facebook.com/FAJTechnicalServicesLLC' }
 ];
 
 const exploreLinks = [
@@ -17,15 +21,15 @@ const exploreLinks = [
 ];
 
 const contactInfo = [
-  { icon: "bi-geo-alt-fill", text: "Warehouse # 2, Street 18b, Al Quoz Industrial Area # 4, Dubai, UAE" },
+  { icon: <TiLocation />, text: "Warehouse # 2, Street 18b, Al Quoz Industrial Area # 4, Dubai, UAE" },
   {
-    icon: "bi-telephone-fill",
+    icon: <BsFillTelephoneFill />,
     items: [
       { text: "+971 4 330 0002", href: "tel:+97143300002" },
       { text: "+971 50 746 4712", href: "tel:+971507464712" }
     ]
   },
-  { icon: "bi-envelope-fill", text: "info@fajservices.ae", href: "mailto:info@fajservices.ae" }
+  { icon: <FaEnvelope />, text: "info@fajservices.ae", href: "mailto:info@fajservices.ae" }
 ];
 
 const workingHours = [
@@ -53,16 +57,16 @@ const Footer1 = () => {
                 </div>
                 <div className="cs_social_btns cs_style_1">
                   {socialLinks.map((social, index) => (
-                    <a
-                      key={`social-${index}`}
-                      href={social.href}
-                      className="cs_social_btn cs_center"
-                      aria-label={social.icon.replace('bi-', '')}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className={`bi ${social.icon}`} aria-hidden="true"></i>
-                    </a>
+                   <a
+                        key={`social-${index}`}
+                        href={social.href}
+                        className="cs_center cs_accent_bg_light"
+                        aria-label={social.icon}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {social.icon}
+                      </a>
                   ))}
                 </div>
               </div>
@@ -99,7 +103,7 @@ const Footer1 = () => {
                 <ul className="cs_footer_contact_list cs_mp_0">
                   {contactInfo.map((contact, index) => (
                     <li key={`contact-${index}`}>
-                      <i className={`bi ${contact.icon}`} aria-hidden="true"></i>
+                      <span className="footer-icons">{contact.icon}</span>
                       {contact.items ? (
                         contact.items.map((item, i) => (
                           <span key={`item-${i}`}>
@@ -171,7 +175,7 @@ const Footer1 = () => {
               className="button-whatsapp"
               aria-label="Call us"
             >
-              <i className="bi bi-telephone mr-2" aria-hidden="true"></i>
+              <IoCallOutline style={{ fontSize: "24px" }} />
             </a>
           </div>
           <div className="cta-nav mob-whatsapp">
@@ -182,7 +186,7 @@ const Footer1 = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="bi bi-whatsapp mr-2" aria-hidden="true"></i>
+              <FaWhatsapp style={{ fontSize: "24px" }} />
             </a>
           </div>
         </div>
@@ -202,7 +206,7 @@ const Footer1 = () => {
               aria-label="WhatsApp us"
             >
               <div className="flt-icon flt-icon-wh">
-                <i className="bi bi-whatsapp" aria-hidden="true"></i>
+                <FaWhatsapp style={{ fontSize: "24px" }} />
                 <span className="flt-icon-text">+971507464712</span>
               </div>
             </a>
@@ -214,7 +218,7 @@ const Footer1 = () => {
               aria-label="Call us"
             >
               <div className="flt-icon flt-icon-cl">
-                <i className="bi bi-telephone" aria-hidden="true"></i>
+                <IoCallOutline style={{ fontSize: "24px" }} />
                 <div className="flt-icon-text">+97143300002</div>
               </div>
             </a>

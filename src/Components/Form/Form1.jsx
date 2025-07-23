@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react';
 import ReCAPTCHA from 'react-google-recaptcha';
+import { IoIosArrowRoundForward } from 'react-icons/io';
 
 const Form1 = () => {
   const recaptchaRef = useRef(null);
@@ -277,7 +278,8 @@ const Form1 = () => {
             disabled={status.submitting}
           >
             <span>{status.submitting ? 'Submitting...' : 'Submit'}</span>
-            {!status.submitting && <i className="bi bi-arrow-right"></i>}
+            {!status.submitting && 
+                <IoIosArrowRoundForward style={{ fontSize: "24px" }} />}
           </button>
         </div>
       </form>

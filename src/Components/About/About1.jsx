@@ -1,6 +1,8 @@
 
 import { Link } from "react-router-dom";
 import usePreloadImage from "../usePreloadImage";
+import { MdAddIcCall } from "react-icons/md";
+import { IoIosArrowRoundForward, IoIosCheckmark } from "react-icons/io";
 
 const About1 = ({ img1, img2, img3, expNumber, expYers, expTitle, expTitleYear, telLink, expDescrip, number, subTitle, Title, Content, feature1, feature2, listItem }) => {
   usePreloadImage(img1);
@@ -43,7 +45,7 @@ const About1 = ({ img1, img2, img3, expNumber, expYers, expTitle, expTitleYear, 
               </div>
               <a href={telLink} className="cs_phone_call cs_heading_color" style={{ minWidth: '200px' }}>
                 <div className="cs_phone_icon cs_fs_20 cs_center cs_radius_50">
-                  <i className="bi bi-telephone-x-fill"></i>
+                  <MdAddIcCall style={{ fontSize: "24px" }} />
                 </div>
                 <div className="cs_phone_number cs_fs_20 cs_semibold">{number || 'Call Us'}</div>
               </a>
@@ -99,7 +101,7 @@ const About1 = ({ img1, img2, img3, expNumber, expYers, expTitle, expTitleYear, 
                   listItem.map((item, index) => (
                     <li key={index} style={{ minHeight: '28px' }}> {/* Fixed height */}
                       <span className="cs_list_icon cs_center cs_accent_color cs_radius_50">
-                        <i className="bi bi-check-lg"></i>
+                        <IoIosCheckmark style={{ fontSize: "24px" }} />
                       </span>
                       <span>{item}</span>
                     </li>
@@ -111,14 +113,13 @@ const About1 = ({ img1, img2, img3, expNumber, expYers, expTitle, expTitleYear, 
               <div className="cs_about_btns">
                 <Link to="/about-us/" className="cs_btn cs_style_1 wow fadeInLeft">
                   <span>Read more</span>
-                  <i className="bi bi-arrow-right"></i>
+                  <IoIosArrowRoundForward style={{ fontSize: "24px" }} />
                 </Link>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="cs_height_80 cs_height_lg_80"></div>
       <div className="cs_height_80 cs_height_lg_80"></div>
     </section>
   );

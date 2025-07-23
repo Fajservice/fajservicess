@@ -1,6 +1,9 @@
 import { Link } from 'react-router-dom';
 import data from '../../Data/blog.json';
 import {Helmet, HelmetProvider } from "react-helmet-async";
+import { FaRegCommentDots } from 'react-icons/fa';
+import { IoPeopleOutline } from 'react-icons/io5';
+import { IoIosArrowRoundForward } from 'react-icons/io';
 
 
 const Blog1 = ({titleSeo , description, Author, Keyword, URL }) => {
@@ -57,11 +60,11 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/page_head
                     <div className="cs_post_content">
                       <div className="cs_post_meta_wrapper cs_mb_11">
                         <div className="cs_post_meta">
-                          <span className="cs_accent_color"><i className="bi bi-chat-dots"></i></span>
+                          <span className="cs_accent_color"><FaRegCommentDots /></span>
                           <span className="cs_heading_color">{item.comments} Comments</span>
                         </div>
                         <div className="cs_post_meta">
-                          <span className="cs_accent_color"><i className="bi bi-people"></i></span>
+                          <span className="cs_accent_color"><IoPeopleOutline /></span>
                           <span className="cs_heading_color">{item.admin}</span>
                         </div>
                       </div>
@@ -70,7 +73,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/page_head
                       </h3>
                       <p className="cs_mb_15">{item.shortdesc}</p>
                       <Link to={`/blog/${item.slug}/`} className="cs_text_btn cs_style_1 cs_white_bg cs_accent_color">
-                        <i className="bi bi-arrow-right"></i>
+                        <IoIosArrowRoundForward style={{ fontSize: "24px" }} />
                       </Link>
                     </div>
                   </div>
