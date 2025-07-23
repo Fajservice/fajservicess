@@ -164,7 +164,7 @@ const AppliancesServicesInTheLakesDetail = ({ subtitle, title, reviewsbg, titleS
                                 <h2 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai</h2>
 
                                 <p className="mb-2">
-                                    If you need appliance repair, FAJ is your best choice for fast and affordable service in The Lake Dubai and Sharjah.
+                                    If you need appliance repair, FAJ is your best choice for fast and affordable service in The Lakes Dubai and Sharjah.
                                     <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that&apos;s not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
                                     <br /> We&apos;re nearby and can get your appliances fixed quickly and efficiently.
                                 </p>
@@ -174,7 +174,7 @@ const AppliancesServicesInTheLakesDetail = ({ subtitle, title, reviewsbg, titleS
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} loading="lazy" alt="Post Image" />
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} loading="lazy" alt="Washing machine repair in Dubai Hills Estate" />
                             </div>
                         </div>
                         <AppliancesAppointmentCol></AppliancesAppointmentCol>
@@ -191,7 +191,7 @@ const AppliancesServicesInTheLakesDetail = ({ subtitle, title, reviewsbg, titleS
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} loading="lazy" alt="Post Image" />
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} loading="lazy" alt="Refrigerator Repair in Dubai Hills Estate" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">

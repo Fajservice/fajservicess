@@ -462,7 +462,7 @@ const AcRepairInPalmJumeirahDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">You Are in Control</h3>
-                                        <p>Choose a day and time for your AC repair near me, Palm Jumeirah Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.
+                                        <p>Choose a day and time for your AC repair near me, Palm Jumeirah Dubai or Sharjah, with a 3-4 hour window for technician arrival.
                                         </p>
                                     </div>
                                 </div>
