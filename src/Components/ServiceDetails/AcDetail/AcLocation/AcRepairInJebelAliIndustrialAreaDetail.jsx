@@ -201,7 +201,7 @@ const AcRepairInJebelAliIndustrialAreaDetail = ({ subtitle, title, reviewsbg, ti
 
                                     <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
 
-                                    <li> <strong> Enhanced Comfort: </strong> Regular <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC cleaning service</b></a>  in Jebel Ali Industrial Area Dubai ensures comfort, efficiency, and consistent cooling daily.
+                                    <li> <strong> Enhanced Comfort: </strong> Regular AC cleaning service  in Jebel Ali Industrial Area Dubai ensures comfort, efficiency, and consistent cooling daily.
                                     </li>
 
 

@@ -198,7 +198,7 @@ const AcRepairInGardensDetails = ({ subtitle, title, reviewsbg, titleSeo, descri
                                     <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend your air conditioning unit’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
 
                                     <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
-                                    <li> <strong> Enhanced Comfort: </strong> Regular <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC Cleaning service</b></a> in The Gardens Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
+                                    <li> <strong> Enhanced Comfort: </strong> Regular AC Cleaning service in The Gardens Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
 
                                 </ul>
                             </div>

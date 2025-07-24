@@ -186,7 +186,7 @@ const AcRepairInAlQuozDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
         {/* Why is AC Maintenance Service Important in Dubai? */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h2 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h2>
+            <h2 className="cs_fs_30">Why is AC Maintenance Service Important in Al Quoz?</h2>
             <p>
               Regular air conditioner (AC) maintenance service in Al Quoz is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you in Al Quoz, contact us.
             </p>
@@ -205,7 +205,7 @@ const AcRepairInAlQuozDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
 
                   <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
 
-                  <li> <strong> Enhanced Comfort: </strong> Regular <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a> in Al Quoz Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
+                  <li> <strong> Enhanced Comfort: </strong> Regular AC service in Al Quoz Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
 
 
 
@@ -497,7 +497,7 @@ const AcRepairInAlQuozDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>Choose a day and time for your AC repair near me, Al Quoz Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
+                    <p>We are experts in AC service in Al Quoz. This is why most major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
