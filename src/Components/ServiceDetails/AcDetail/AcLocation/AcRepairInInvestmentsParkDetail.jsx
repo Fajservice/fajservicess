@@ -135,7 +135,7 @@ const AcRepairInInvestmentsParkDetail = ({ subtitle, title, reviewsbg, titleSeo,
                     <div className="container">
                         <div className="row gx-md-5">
                             <div className="col-md-6">
-                                <h4 className="cs_fs_24 mb-1">Best AC Repair in Dubai</h4>
+                                <h4 className="cs_fs_24 mb-1">Best AC Repair in Dubai Investments Park</h4>
                                 <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> near me in Dubai Investments Park, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
 
                                 <p>We specialise in air conditioner (AC) repair, service, and maintenance near me in Dubai Investments Park. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
@@ -199,7 +199,7 @@ const AcRepairInInvestmentsParkDetail = ({ subtitle, title, reviewsbg, titleSeo,
 
                                     <li> <strong> Longevity of Equipment: </strong>Regular maintenance can extend your air conditioning unit’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
                                     <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
-                                    <li> <strong> Enhanced Comfort: </strong> Regular <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC cleaning service </b></a> in Dubai Investments Park ensures comfort, efficiency, and consistent cooling daily.</li>
+                                    <li> <strong> Enhanced Comfort: </strong> Regular AC cleaning service in Dubai Investments Park ensures comfort, efficiency, and consistent cooling daily.</li>
                                 </ul>
                             </div>
                         </div>

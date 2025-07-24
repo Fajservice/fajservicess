@@ -184,7 +184,7 @@ const AcRepairInJebelAliVillageDetail = ({ subtitle, title, reviewsbg, titleSeo,
                 {/* Why is AC Maintenance Service Important in Dubai? */}
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
-                        <h2 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h2>
+                        <h2 className="cs_fs_30">Why is AC Maintenance Service Important in Jebel Ali Village?</h2>
                         <p>
                             Regular air conditioner (AC) maintenance service in Jebel Ali Village is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you in Jebel Ali Village, contact us.
                         </p>
@@ -201,7 +201,7 @@ const AcRepairInJebelAliVillageDetail = ({ subtitle, title, reviewsbg, titleSeo,
 
                                     <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend your air conditioning unit’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
                                     <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
-                                    <li> <strong> Enhanced Comfort: </strong> Regular <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC cleaning service</b></a> in Jebel Ali Village Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
+                                    <li> <strong> Enhanced Comfort: </strong> Regular AC cleaning service in Jebel Ali Village Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
                                 </ul>
                             </div>
                         </div>
@@ -544,7 +544,7 @@ const AcRepairInJebelAliVillageDetail = ({ subtitle, title, reviewsbg, titleSeo,
 
                             <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/samsung-ac-repair-in-dubai/">Samsung Air Conditioner Repair and Service</a>:</strong> Based in Dubai, FAJ is your go-to destination for Samsung AC repair in Dubai Jebel Ali Village. Specialising in Samsung air conditioning repair service near me, we offer comprehensive air conditioning service ranging from AC fixing to AC cleaning service and AC maintenance in Jebel Ali Village Dubai. </li>
 
-                            <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten/">York AC Service and Repair</a>:</strong> The</li>
+                            <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten/">York AC Service and Repair</a>:</strong> The York AC repair and service in Jebel Ali Village Dubai, ensures you don’t need to worry because you are in the right place. Yes, FAJ is where efficiency and reliability are prioritised, providing air conditioning service near me, Jebel Ali Village, AC cleaning service, and AC fixing.</li>
 
                             <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con/">Daikin Air Conditioner Maintenance</a>:</strong> Count on our experienced team to promptly and effectively address any challenges you may encounter with your Daikin air conditioning unit. We specialise in AC cleaning service and AC repairing in Jebel Ali Village Dubai, to ensure it operates at optimal functionality, providing you with a cool and comfortable environment when you need it most. </li>
 
