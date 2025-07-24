@@ -140,7 +140,7 @@ const AcRepairInAlManaraDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                                 <h2 className="cs_fs_24 mb-1">Best AC Repair in Al Manara</h2>
                                 <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> near me in Al Manara, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
 
-                                <p>We specialise in air conditioner (AC) repair, service, and maintenance near me in Al Manara Dubai. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
+                                <p>We specialise in air conditioner (AC) repair, service, and maintenance near me in Al Manara Dubai. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
 
                                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
                                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
@@ -179,6 +179,9 @@ const AcRepairInAlManaraDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                     </div>
                 </section>
 
+                {/* AC Price Section */}
+                <FAJACPrice></FAJACPrice>
+
                 {/* Why is AC Maintenance Service Important in Dubai? */}
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
@@ -200,15 +203,12 @@ const AcRepairInAlManaraDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                                     <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend your air conditioning unit’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
 
                                     <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
-                                    <li> <strong> Enhanced Comfort: </strong> Regular <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>  in Al Manara Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
+                                    <li> <strong> Enhanced Comfort: </strong> Regular AC cleaning service in Al Manara Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </section>
-
-                {/* AC Price Section */}
-                <FAJACPrice></FAJACPrice>
 
                 {/* Common AC Problems That May Require Maintenance */}
                 <section className="section cs_py_30">
@@ -524,7 +524,6 @@ const AcRepairInAlManaraDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                     </div>
                 </section>
 
-
                 {/* We specialise in air conditioning services for the following brands */}
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
@@ -546,7 +545,7 @@ const AcRepairInAlManaraDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                             <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/trane-ac-repair-in-dubai-trane-ac-maintenance-in-dubai-trane-ac-fix-in-dubai-trane-ac-service-in-dubai-trane-air-condition-repair-in-dubai-trane-air-condition-maintenance-in-dubai-trane-air-condition/">Trane HVAC Repair</a>:</strong> With in-depth expertise in the repair of Trane air conditioning systems, we offer comprehensive Al Manara AC repair near me and AC cleaning services designed to ensure your unit operates at peak efficiency. Our specialized Trane AC maintenance and repair service in Al Manara Dubai, is conveniently available in your area, providing timely and effective solutions to keep your air conditioning system running smoothly and reliably. Whether you need routine home air conditioner repair near me or office AC service and maintenance in Al Manara or urgent repair, we are here to help you maintain a comfortable environment in your home or business.</li>
 
-                            <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/panasonic-ac-repair-in-dubai-panasonic-ac-maintenance-in-dubai-panasonic-ac-fix-in-dubai-panasonic-ac-service-in-dubai-panasonic-air-condition-repair-in-dubai-panasonic-air-condition-maintenance-in-du/">Panasonic AC Service and Repair</a>:</strong> With in-depth expertise in the repair of Trane air conditioning systems, we offer comprehensive Al Manara AC repair near me and AC cleaning services designed to ensure your unit operates at peak efficiency. Our specialized Trane AC maintenance and repair service in Al Manara Dubai, is conveniently available in your area, providing timely and effective solutions to keep your air conditioning system running smoothly and reliably. Whether you need routine home air conditioner repair near me or office AC service and maintenance in Al Manara or urgent repair, we are here to help you maintain a comfortable environment in your home or business.</li>
+                            <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/panasonic-ac-repair-in-dubai-panasonic-ac-maintenance-in-dubai-panasonic-ac-fix-in-dubai-panasonic-ac-service-in-dubai-panasonic-air-condition-repair-in-dubai-panasonic-air-condition-maintenance-in-du/">Panasonic AC Service and Repair</a>:</strong>No matter the issue with your Panasonic air conditioner, our skilled AC technicians in Al Manara Dubai and Sharjah can quickly diagnose and fix it. We offer reliable air conditioning services near me in Al Manara Dubai, and AC repair right in your Al Manara area, ensuring your system runs smoothly again.</li>
 
                             <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/gree-ac-repair-in-dubai/">Gree AC Service and Maintenance</a>:</strong>  Is your air conditioning unit not functioning properly, or are you seeing a Gree AC error displayed on the screen? You don’t have to struggle with uncomfortable temperatures or stale air any longer. At FAJ, we specialise in quickly restoring your Gree air conditioning to optimal performance. Our reliable air conditioning repair and maintenance services ensure that your system operates efficiently and effectively, preventing any further damage and discomfort. Whether you need emergency air conditioning repair near me in Al Manara, air conditioning service near me and routine ac maintenance services, or comprehensive air conditioning cleaning services in Dubai, we’ve got you covered. Enjoy a refreshing and cool environment once again with our professional solutions!</li>
 
@@ -617,7 +616,6 @@ const AcRepairInAlManaraDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                     </div>
                 </section>
 
-
                 <section className="section cs_py_30 bg-dark-blue text-light">
                     <div className="container text-center">
                         <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>
@@ -665,7 +663,6 @@ const AcRepairInAlManaraDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                     </div>
                 </section>
-
 
                 {/* Maintenance Contract */}
                 <MaintenanceContract />

@@ -133,7 +133,7 @@ const AcRepairInAlKhawaneejDetail = ({ subtitle, title, reviewsbg, titleSeo, des
             <div className="row gx-md-5">
               <div className="col-md-6">
                 <h2 className="cs_fs_24 mb-1">Best AC Repair in Al Khawaneej</h2>
-                <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>near me in Al Khawaneej, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
+                <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> near me in Al Khawaneej, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
 
                 <p>We specialise in air conditioner (AC) repair, service, and maintenance near me in Al Khawaneej Dubai. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
@@ -162,7 +162,7 @@ const AcRepairInAlKhawaneejDetail = ({ subtitle, title, reviewsbg, titleSeo, des
             </div>
 
             <div className="appointment-col border-small-top pt-3">
-              <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/ac-service-in-dubai/"><b>AC cleaning service</b></Link>,air conditioning repair, or AC maintenance near me in Al Khawaneej. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+              <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/ac-service-in-dubai/"><b>AC cleaning service</b></Link>, air conditioning repair, or AC maintenance near me in Al Khawaneej. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
               <div id="get-quote" className=" mt-3">
                 <div className="container d-flex justify-content-center align-items-center gap-3">
                   <WhatsappIconButton />
@@ -181,7 +181,7 @@ const AcRepairInAlKhawaneejDetail = ({ subtitle, title, reviewsbg, titleSeo, des
           <div className="container">
             <h2 className="cs_fs_30">Why is AC Maintenance Service Important in Al Khawaneej?</h2>
             <p>
-              Regular air conditioner (AC) maintenance service in Al Khawanee is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you in Al Khawaneej, contact us.
+              Regular air conditioner (AC) maintenance service in Al Khawaneej is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you in Al Khawaneej, contact us.
             </p>
 
             <div className="row align-items-center">
@@ -198,7 +198,7 @@ const AcRepairInAlKhawaneejDetail = ({ subtitle, title, reviewsbg, titleSeo, des
 
                   <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
 
-                  <li> <strong> Enhanced Comfort: </strong> Regular <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a> in Al Khawaneej Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
+                  <li> <strong> Enhanced Comfort: </strong> Regular AC cleaning service in Al Khawaneej Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
                 </ul>
               </div>
             </div>
