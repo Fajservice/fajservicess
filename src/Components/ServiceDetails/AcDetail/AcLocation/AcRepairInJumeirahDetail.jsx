@@ -181,7 +181,7 @@ const AcRepairInJumeirahDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                 {/* Why is AC Maintenance Service Important in Dubai? */}
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
-                        <h2 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h2>
+                        <h2 className="cs_fs_30">Why is AC Maintenance Service Important in Jumeirah?</h2>
                         <p>
                             Regular air conditioner (AC) maintenance service in Jumeirah is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you in Jumeirah, contact us.
                         </p>
@@ -198,7 +198,7 @@ const AcRepairInJumeirahDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                                     <li> <strong> Longevity of Equipment: </strong>  Regular maintenance can extend your air conditioning unit’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
                                     <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
-                                    <li> <strong> Enhanced Comfort: </strong> Regular <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC cleaning service </b></a> in Jumeirah Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
+                                    <li> <strong> Enhanced Comfort: </strong> Regular AC cleaning service in Jumeirah Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
                                 </ul>
                             </div>
                         </div>
@@ -525,7 +525,7 @@ const AcRepairInJumeirahDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                         <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
                         <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
                             <b>We provide 2-month service warranty</b><br />
-                            and <small>3-month parts warranty</small>as standard.</p>
+                            and <small>3-month parts warranty</small> as standard.</p>
 
                         <h3>We specialise in air conditioning services for the following brands</h3>
 

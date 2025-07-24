@@ -118,8 +118,7 @@ const AcRepairInSiliconOasisDubaiDetail = ({ subtitle, title, reviewsbg, titleSe
                         <h1 className="cs_fs_30">AC Service in Silicon Oasis Dubai</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
-                            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Silicon Oasis Dubai, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.
-                            .</p>
+                            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Silicon Oasis Dubai, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 
                         <div id="get-quote" className=" mt-3">
                             <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -164,7 +163,7 @@ const AcRepairInSiliconOasisDubaiDetail = ({ subtitle, title, reviewsbg, titleSe
                         </div>
 
                         <div className="appointment-col border-small-top pt-3">
-                            <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/ac-service-in-dubai/"><b>AC cleaning service</b></Link>, air conditioning repair, or AC maintenance near me in Silicon Oasis Dubai Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+                            <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/ac-service-in-dubai/"><b>AC cleaning service</b></Link>, air conditioning repair, or AC maintenance near me in Silicon Oasis Dubai. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
                             <div id="get-quote" className=" mt-3">
                                 <div className="container d-flex justify-content-center align-items-center gap-3">
                                     <WhatsappIconButton />
@@ -199,7 +198,7 @@ const AcRepairInSiliconOasisDubaiDetail = ({ subtitle, title, reviewsbg, titleSe
                                     <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend your air conditioning unit’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
 
                                     <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
-                                    <li> <strong> Enhanced Comfort: </strong> Regular <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC cleaning service</b></a> in Silicon Oasis Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
+                                    <li> <strong> Enhanced Comfort: </strong> Regular AC cleaning service in Silicon Oasis Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
                                 </ul>
                             </div>
                         </div>
