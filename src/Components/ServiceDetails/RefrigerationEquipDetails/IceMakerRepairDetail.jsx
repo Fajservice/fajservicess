@@ -196,14 +196,16 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
         <section className="section cs_py_30">
           <div className="container">
             <h2 className="cs_fs_30">Why is Ice Maker Machine Maintenance Service Important in Dubai?</h2>
+            <p className="">
+              Regular maintenance of ice machines offers essential benefits that can positively impact your operations and bottom line.
+            </p>
+
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}img/newicemaker.avif`} alt="Ice Maker Repair" loading="lazy" />
               </div>
               <div className="col-md-6">
-                <p className="mb-0">
-                  Regular maintenance of ice machines offers essential benefits that can positively impact your operations and bottom line.
-                </p>
+
                 <ul className="mb-0">
                   <li><strong>  Reduced Repairs:</strong> Regular maintenance prevents minor issues from escalating, reducing repair frequency and costs for ice machines.</li>
                   <li><strong>  Enhanced Efficiency:</strong> Maintaining your ice machine in optimal condition ensures it operates efficiently, consumes less energy, and lowers operational costs.</li>
@@ -412,7 +414,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
                       </h3>
-                      <p className="small">Regular maintenance helps your appliances run smoothly and efficiently, delivering the best results every time.
+                      <p className="small">Regular maintenance helps your ice machine run smoothly and efficiently, delivering the best results every time.
                       </p>
                     </div>
                   </div>
@@ -424,7 +426,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                         <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h3>
-                      <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                      <p className="small">Energy efficient ice machine translate to monthly savings on utility bills, putting more money back in your pocket.</p>
                     </div>
                   </div>
                 </div>
@@ -448,7 +450,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                         <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h3>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
+                      <p className="small">Proper care and timely servicing can significantly increase life of your home ice machine, delaying the need for replacements.</p>
 
                     </div>
 
@@ -463,7 +465,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                       </h3>
-                      <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                      <p className="small">Knowing your ice machine are in top condition gives you confidence and removes the stress of unexpected failures.</p>
                     </div>
                   </div>
                 </div>

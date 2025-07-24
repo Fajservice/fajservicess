@@ -19,7 +19,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Meat Grinder Repair, Meat Grinder Service, Meat Grinder Maintenance");
   const metaURL = String(URL || "https://www.fajservices.ae/meat-grinder-repair/").replace(/\/?$/, '/');
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/meat-grinder-repair.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/meat-grinder-repair.avif");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -192,8 +192,8 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/meat-grin
         {/* why */}
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30"> Why is maintenance service for grinder machines important in Dubai?</h2>
-            <p>
+            <h2 className="cs_fs_30" style={{ fontSize: "28px" }}> Why is maintenance service for grinder machines important in Dubai?</h2>
+            <p className="mb-0">
               To ensure your meat grinder operates efficiently, it is important to perform regular maintenance.
               Here are key daily checks to ensure it stays in optimal condition:
             </p>
@@ -218,17 +218,17 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/meat-grin
         {/* Common Problems */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h2 className="text-center">Common Problems of Commercial Meat Grinders That May Require Service</h2>
+            <h2 className="text-center" style={{ fontSize: "28px" }}>Common Problems of Commercial Meat Grinders That May Require Service</h2>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Grinder Not Starting</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Grinder Won't Start</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      If your mixer grinder does not start, first check the power supply. It might be due to a defective switch or motor.
+                      If your meat grinder doesn’t start, check power supply, switches, fuses, or wiring faults. Service motor if needed.
                     </p>
                   </div>
                 </div>
@@ -237,11 +237,11 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/meat-grin
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Overheating During Use</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Loud Noise Issue</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Overheating in mixer grinders occurs with prolonged use. Continuous operation strains the motor and causes overheating.
+                      If your grinder is noisy or vibrates, check screws, blades, plates, or motor mounts. Replace any damaged components.
                     </p>
                   </div>
                 </div>
@@ -250,12 +250,25 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/meat-grin
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Loud Noise or Vibration
-                    </h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Overheats When Used</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      If your mixer grinder is unusually loud or vibrates excessively, check the blades and attachments, or see if the jar is loose or damaged.
+                      Continuous heavy use or overloading stresses the motor and parts, causing it to heat. Always allow cooling breaks.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Grinder Gets Jammed</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      When grinding, sinew or tough meat may clog blades or auger. Avoid overloading and trim meat pieces properly first.
                     </p>
                   </div>
                 </div>
@@ -264,11 +277,11 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/meat-grin
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Sticking or Jamming</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Poor Grinding Performance</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      When grinding, ingredients may get stuck due to overloading or wrong jar. To prevent this, don’t overload and choose correct jar.
+                      If meat isn't ground well, blades or plates may be dull or worn. Replace or sharpen them to ensure smooth operation.
                     </p>
                   </div>
                 </div>
@@ -277,11 +290,11 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/meat-grin
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">No Grinding or Blending</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Leakage Problems</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      If your mixer grinder isn't blending or grinding effectively, it may be due to dull blades, a weak motor, or worn-out parts.
+                      Leaks can happen from worn seals or gaskets in the grinder head. Replace damaged seals to prevent further leakage.
                     </p>
                   </div>
                 </div>
@@ -290,24 +303,11 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/meat-grin
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Leakage from the Jar</h3>
+                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Poor Maintenance</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Leaks from the jar can occur if the gasket or seal is damaged or worn out, often leading to spills and messes while grinding.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Lack of Maintenance</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      Ignoring maintenance causes parts to stick and blades to lose efficiency. Food and grease buildup create friction and jams.
+                      Ignoring cleaning causes rust, buildup, and friction in grinder parts. Regular servicing extends life and prevents jams.
                     </p>
                   </div>
                 </div>
@@ -320,7 +320,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/meat-grin
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      A burning smell usually indicates an electrical issue, wiring fault, short circuit, internal damage, or an overheated motor.
+                      A burning smell may signal wiring faults, short circuit, or an overheated motor. Stop use and inspect it right away.
                     </p>
                   </div>
                 </div>
@@ -358,7 +358,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/meat-grin
 
               <div className="col-xl-6">
                 <p className="mb-0">
-                  We offer repair services for a variety of commercial cooking meat grinder machines, including:
+                  We offer repair services for a variety of meat grinder machines, including:
                 </p>
                 <ul>
                   <li> <strong> Spare Parts Installation: </strong>   Professional installation of spare parts for meat grinder machines ensures optimal performance and efficiency. </li>
@@ -375,7 +375,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/meat-grin
         <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
-              <h2 className="cs_fs_30 mb-0">Benefits of Regular Commercial Grinder Service & Maintenance in Dubai
+              <h2 className="cs_fs_30 mb-0" style={{ fontSize: "28px" }}>Benefits of Regular Commercial Grinder Service & Maintenance in Dubai
               </h2>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">

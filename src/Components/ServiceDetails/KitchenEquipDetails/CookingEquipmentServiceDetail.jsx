@@ -142,7 +142,7 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
 
                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>EMERGENCY Cooking Equipments REPAIR</h2>
                 <p className="mb-0">
-                  <b>Terms & Conditions:</b> There is a callout fee that appliesapplies for each diagnosis, depending on the capacity applied. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.<br />
+                  <b>Terms & Conditions:</b> There is a callout fee that applies for each diagnosis, depending on the capacity applied. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.<br />
                   <b>CHOOSE FAJ FOR YOUR PEACE OF MIND<br />
                     <small>We provide 2-month repair warranty
                       and 3-month parts warranty as standard.</small> </b>
@@ -184,7 +184,7 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
         {/* The Most Common Problems with Home Appliances */}
         <section className="section cs_py_30  bg-light-gray">
           <div className="container">
-            <h2 className="text-center">Common Problems of Commercial Cooking Equipment That May Require Service</h2>
+            <h2 className="text-center">Common Problems of Cooking Equipment That May Require Service</h2>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
@@ -290,7 +290,7 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
         {/*Why should you choose us? */}
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30">Comprehensive Maintenance of Commercial Cooking Equipment in Dubai</h2>
+            <h2 className="cs_fs_30" style={{ fontSize: "28px" }}>Comprehensive Maintenance of Commercial Cooking Equipment in Dubai</h2>
             <p>We offer repair services for a variety of commercial cooking equipment, including:</p>
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -308,10 +308,10 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
 
               <div className="col-xl-6">
                 <ul>
-                  <li><strong>Commercial Cooking Equipment Installation:</strong>Professional installation of a variety of gas and electric commercial cooking equipment, ensuring optimal performance and efficiency.</li>
-                  <li><strong>Commercial Cooking Equipment Diagnostics:</strong>We perform comprehensive diagnostics, eligibility assessments, and provide detailed quotes to resolve any oven issues.</li>
-                  <li><strong>Commercial Cooking Equipment Repair Service:</strong>Professional cooking range, stove, hood, and deep fryer repair services for all components, ensuring quick resolution of issues such as leaks, electrical failures, and malfunctions. Feel free to contact us with specific service requests or any questions!</li>
-                  <li><strong>Commercial Cooking Equipment AMC:</strong>This contract details the terms and services for annual maintenance of catering cooking equipment.</li>
+                  <li><strong>Commercial Cooking Equipment Installation:</strong> Professional installation of a variety of gas and electric commercial cooking equipment, ensuring optimal performance and efficiency.</li>
+                  <li><strong>Commercial Cooking Equipment Diagnostics:</strong> We perform comprehensive diagnostics, eligibility assessments, and provide detailed quotes to resolve any oven issues.</li>
+                  <li><strong>Commercial Cooking Equipment Repair Service:</strong> Professional cooking range, stove, hood, and deep fryer repair services for all components, ensuring quick resolution of leaks, electrical failures, and malfunctions. Contact us for service requests or questions!</li>
+                  <li><strong>Commercial Cooking Equipment AMC:</strong> This contract details the terms and services for annual maintenance of catering cooking equipment.</li>
                   <p>Regular maintenance is crucial for the optimal performance, efficiency, and longevity of your kitchen restaurant cooking equipment.</p>
                 </ul>
               </div>
@@ -324,7 +324,7 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
         <section className="section cs_py_30 appliances-benifit-sec  bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
-              <h2 className="cs_fs_30 mb-0"> Benefits of Regular Catering Cooking Equipment Maintenance in Dubai </h2>
+              <h2 className="cs_fs_30 mb-0"> Benefits of Regular Catering Equipment Maintenance in Dubai </h2>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
                   <div className="">
@@ -494,7 +494,7 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
         {/* We specialise in Hob services for the following brands  */}
         <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">
-            <h3>We Specialise in Cooking Equipment Services for the Following Brands</h3>
+            <h3>We Specialise in Cooking Equipment Services for Following Brands</h3>
             <div className="row">
               <div className="col-12">
                 <ul>

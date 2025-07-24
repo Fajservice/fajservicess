@@ -202,7 +202,7 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
                   <li><strong>Saving money in the long run:</strong> Regular servicing of commercial refrigeration can prevent costly repairs.</li>
                   <li><strong>Compliance with product safety standards</strong>: If you store food in a commercial freezer or chiller, ensure compliance with food safety regulations. A professional service can assist you.</li>
                   <li><strong>Damage control</strong>: Inspecting for potential hazards, including possible harmful leaks from your refrigeration system.</li>
-                  <li><strong>Peace of mind:</strong> Ensuring your commercial freezer and chiller work well gives you peace of mind to focus on your business</li>
+                  <li><strong>Peace of mind:</strong> Ensuring your commercial freezer and chiller work well gives you peace of mind to focus on your business.</li>
                 </ul>
               </div>
             </div>
@@ -364,8 +364,8 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h4>
-                      <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">COOLING EFFICIENCY</h4>
+                      <p className="small">We carry out a complete assessment of the cooling efficiency using a temperature gun.</p>
                     </div>
                   </div>
                 </div>
@@ -375,9 +375,9 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
+                      <h4 className="text-uppercase mb-2 cs_fs_18">DISINFECT COMPONENTS
                       </h4>
-                      <p className="small">Regular maintenance helps your appliances run smoothly and efficiently, delivering the best results every time.
+                      <p className="small">All hardware components are tested and disinfected, including filters and vents.
                       </p>
                     </div>
                   </div>
@@ -388,8 +388,8 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
-                      <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">FAN ASSESSMENT</h4>
+                      <p className="small">We ensure the fan works correctly with no blockages in the evaporator coil.</p>
                     </div>
                   </div>
                 </div>
@@ -400,20 +400,20 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h4>
-                      <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">THERMOSTAT CHECK</h4>
+                      <p className="small">We use a laser temperature gauge to ensure that thermostats operate correctly.</p>
                     </div>
-
                   </div>
                 </div>
+
                 <div className="col-md-4 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h4>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">AIRFLOW BALANCE</h4>
+                      <p className="small">We ensure you get optimal airflow around each room as needed.</p>
 
                     </div>
 
@@ -426,9 +426,8 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
-                      <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
-                      </h4>
-                      <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                      <h4 className="text-uppercase mb-2 cs_fs_18">CUSTOMER FEEDBACK</h4>
+                      <p className="small">Our team provides vital feedback on your refrigeration and any needed repairs.</p>
                     </div>
                   </div>
                 </div>
@@ -436,8 +435,6 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
             </div>
           </div>
         </section>
-
-
 
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
@@ -454,7 +451,7 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
                   </div>
                   <div className="usptext">
                     <h3 className="">Reliable, Priority, and Quick</h3>
-                    <p>You can rely on prompt service! Our same-day repairs or next-day appointments guarantee that your needs are addressed swiftly.</p>
+                    <p>You can count on our prompt service! We offer same-day repairs and next-day appointments to ensure that your needs are met quickly.</p>
                   </div>
                 </div>
 
@@ -464,10 +461,9 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
+                    <p>An annual <Link to="/appliances-amc-service/"> maintenance contract</Link>, offers a full year of service, ensuring your freezer and chiller operate smoothly for your peace of mind.</p>
                   </div>
                 </div>
-
 
                 <div className="uspitem mb-0">
                   <div className="uspicon">
@@ -475,7 +471,7 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Schedule your chiller and freezer repair in Dubai or Sharjah for a specific day and time, with our technician arriving within a 3-4 hour window.</p>
+                    <p>Schedule your chiller and freezer repair in Dubai or Sharjah for a specific date and time, with our technician arriving within a 3-4 hour window.</p>
                   </div>
                 </div>
 
@@ -494,7 +490,7 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are experts in appliance repair this is why most major brands trust us to handle their service and maintenance needs.</p>
+                    <p>We specialise in freezer and chiller repairs, gaining the trust of major brands for their service needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -504,7 +500,7 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>We are committed to ensuring customer satisfaction through timely service, quick issue resolution, and competitive prices.</p>
+                    <p>We are dedicated to ensuring customer satisfaction through timely service, quick resolution of issues, and competitive pricing.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -513,7 +509,7 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our skilled appliance technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
+                    <p>Our skilled technicians offer prompt service for a variety of major cooling brands.</p>
                   </div>
                 </div>
               </div>

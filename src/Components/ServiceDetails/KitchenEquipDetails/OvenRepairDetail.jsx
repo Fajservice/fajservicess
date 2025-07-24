@@ -357,6 +357,7 @@ const OvenRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
               </div>
 
               <div className="col-xl-6">
+                <p className="mb-0"><strong>Our services include:</strong></p>
                 <p className="mb-0">We provide repair services for a wide range of commercial ovens, including:</p>
                 <ul>
                   <li><strong> Oven Installation: </strong>   Professional installation of various types and brands of gas and electric ovens, ensuring optimal performance and efficiency. </li>
@@ -401,8 +402,7 @@ const OvenRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">  DISINFECT COMPONENTS   </h3>
                       <p className="small">
-                        All hardware components, including the individual parts and the oven, are carefully tested and disinfected to ensure safety and reliability.
-
+                        All components and oven parts are thoroughly tested, disinfected to ensure safety and reliability.
                       </p>
                     </div>
                   </div>
@@ -415,7 +415,7 @@ const OvenRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">FAN ASSESSMENT</h3>
                       <p className="small">
-                        We make sure that the fan operates properly and that there are no blockages in the burner or heating element.
+                        We ensure the fan operates properly and has no blockages in the burner or heating element.
                       </p>
                     </div>
                   </div>
@@ -495,7 +495,7 @@ const OvenRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
                   <div className="usptext">
                     <h3 className="">Confidence</h3>
                     <p>
-                      With an oven annual maintenance contract, you receive a full year of service, ensuring oven operates smoothly and providing peace of mind.
+                      With an oven annual maintenance contract, you receive a year of service, ensuring smooth operation and peace of mind.
                     </p>
                   </div>
                 </div>

@@ -209,7 +209,7 @@ const OvenRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
 
                   <li> <strong>Oven Heavy Use and Versatility: </strong> Ovens are vital for cooking and baking in homes and commercial kitchens, like those in hotels and bakeries in Dubai. <a href="https://www.linkedin.com/company/faj-technical-services-llc" className="text-decoration-underline">Regular maintenance</a> is essential for optimal performance.</li>
                   <li> <strong>Oven Safety: </strong> Oven maintenance is crucial for safety, especially with gas ovens. Regular inspections can catch leaks or faulty controls that may create fire hazards.</li>
-                  <li> <strong>Oven Efficiency: </strong> Regular maintenance of heating element and thermostat ensures efficiency, leading to energy savings and lower utility bills.</li>
+                  <li> <strong>Oven Efficiency: </strong> Regular maintenance of heating element and thermostat ensures efficiency, saving energy and lowering utility bills.</li>
                   <li> <strong>Oven Preventative Measures: </strong> Regular maintenance, such as cleaning and inspections, prevents minor issues from becoming major repairs, saving time and money.</li>
                   <li> <strong>Oven Long-term Use: </strong> Regular maintenance can extend your oven's lifespan and save you replacement costs.
                     <br />
