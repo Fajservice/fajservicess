@@ -3,6 +3,8 @@ import data from "../../Data/herobanner1.json";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import usePreloadImage from "../usePreloadImage";
+import { MdAddIcCall } from "react-icons/md";
+import { IoIosArrowRoundForward } from "react-icons/io";
 
 const HeroBanner1 = () => {
   const sliderRef = useRef(null);
@@ -120,14 +122,14 @@ const HeroBanner1 = () => {
                 aria-label={`Navigate to ${item.btnName}`}
               >
                 <span>{item.btnName}</span>
-                <i className="bi bi-arrow-right" aria-hidden="true"></i>
+                <IoIosArrowRoundForward style={{ fontSize: "24px" }} />
               </Link>
               <span className="cs_hero_number">
                 <span
                   className="cs_hero_number_icon cs_center cs_heading_bg cs_white_color cs_fs_18"
                   aria-hidden="true"
                 >
-                  <i className="bi bi-telephone-x-fill"></i>
+                  <MdAddIcCall style={{ fontSize: "24px" }} />
                 </span>
                 <a
                   href={item.telLink}
@@ -193,11 +195,11 @@ const HeroBanner1 = () => {
                         aria-label={`Navigate to ${firstSlide.btnName}`}
                       >
                         <span>{firstSlide.btnName}</span>
-                        <i className="bi bi-arrow-right" aria-hidden="true"></i>
+                          <IoIosArrowRoundForward style={{ fontSize: "24px" }} />
                       </Link>
                       <span className="cs_hero_number">
                         <span className="cs_hero_number_icon cs_center cs_heading_bg cs_white_color cs_fs_18">
-                          <i className="bi bi-telephone-x-fill"></i>
+                          <MdAddIcCall style={{ fontSize: "24px" }} />
                         </span>
                         <a
                           href={firstSlide.telLink}

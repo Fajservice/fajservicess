@@ -1,3 +1,5 @@
+import { FaCalendarAlt } from "react-icons/fa";
+
 const BlogComments = () => {
     return (
          <div className="cs_comments_area">
@@ -10,7 +12,7 @@ const BlogComments = () => {
                 <div className="cs_comment_info">
                 <h3 className="cs_fs_20 cs_semibold cs_mb_9">Leslie Alexander</h3>
                 <div className="cs_post_meta cs_fs_14 cs_mb_9">
-                    <span className="cs_accent_color"><i className="bi bi-calendar-fill"></i></span>
+                    <span className="cs_accent_color"><FaCalendarAlt style={{ fontSize: "18px" }} /></span>
                     <span className="cs_heading_color">10 Oct, 2024</span>
                 </div>
                 <p className="mb-0">Most repairs can be completed within a few hours, but complex issues might take longer. We always aim a for same-day service when possible.</p>
@@ -24,7 +26,7 @@ const BlogComments = () => {
                 <div className="cs_comment_info">
                 <h3 className="cs_fs_20 cs_semibold cs_mb_9">Cameron Williamson</h3>
                 <div className="cs_post_meta cs_fs_14 cs_mb_9">
-                    <span className="cs_accent_color"><i className="bi bi-calendar-fill"></i></span>
+                    <span className="cs_accent_color"><FaCalendarAlt style={{ fontSize: "18px" }} /></span>
                     <span className="cs_heading_color">15 Oct, 2024</span>
                 </div>
                 <p className="mb-0">We offer free estimates before any repairs begin, so you know exactly what to expect on all part and labor, ensuring your peace of mind.</p>
@@ -38,7 +40,7 @@ const BlogComments = () => {
                 <div className="cs_comment_info">
                 <h3 className="cs_fs_20 cs_semibold cs_mb_9">Darlene Robertson</h3>
                 <div className="cs_post_meta cs_fs_14 cs_mb_9">
-                    <span className="cs_accent_color"><i className="bi bi-calendar-fill"></i></span>
+                    <span className="cs_accent_color"><FaCalendarAlt style={{ fontSize: "18px" }} /></span>
                     <span className="cs_heading_color">20 Oct, 2024</span>
                 </div>
                 <p className="mb-0">Tire rotation is typically recommended every 6,000 to 8,000 miles to ensure even wear and extend the life of your tires  more serious that needs attention.</p>

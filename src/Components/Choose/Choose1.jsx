@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import SectionTitle2 from "../Common/SectionTitle2";
 import data from '../../Data/choose.json';
+import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Choose1 = ({img1,content,btnName,btnUrl,img2,img3}) => {
     return (
@@ -35,7 +36,7 @@ const Choose1 = ({img1,content,btnName,btnUrl,img2,img3}) => {
                 ))}
 
               <Link to={btnUrl} className="cs_btn cs_style_1">
-                <span>{btnName}</span><i className="bi bi-arrow-right"></i>     
+                <span>{btnName}</span><IoIosArrowRoundForward style={{ fontSize: "28px" }} />     
               </Link>
             </div>
 

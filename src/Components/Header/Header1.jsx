@@ -2,20 +2,22 @@ import { useEffect, useState, useCallback, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import Nav from './Nav';
 import BookingFormModal from '../BookingFormModal';
-
 import img from '/img/fajlogo.png';
+import { IoCallOutline, IoLocationOutline } from 'react-icons/io5';
+import { FaFacebook, FaInstagram, FaTwitter, FaWhatsapp, FaYoutube } from 'react-icons/fa';
+import { RxArrowTopRight } from 'react-icons/rx';
 
 const contactItems = [
-  { icon: 'bi-telephone', content: '+971 4 330 0002', href: 'tel:+97143300002' },
-  { icon: 'bi-whatsapp', content: '+971 50 746 4712', href: 'https://api.whatsapp.com/send?phone=+971507464712&text=Hello' },
-  { icon: 'bi-geo-alt', content: 'Dubai - United Arab Emirates' }
+  { icon: <IoCallOutline />, content: '+971 4 330 0002', href: 'tel:+97143300002' },
+  { icon: <FaWhatsapp />, content: '+971 50 746 4712', href: 'https://api.whatsapp.com/send?phone=+971507464712&text=Hello' },
+  { icon: <IoLocationOutline />, content: 'Dubai - United Arab Emirates' }
 ];
 
 const socialLinks = [
-  { icon: 'bi-instagram', href: 'https://www.instagram.com/fajtechnicalservicesllc/' },
-  { icon: 'bi-twitter', href: 'https://twitter.com/FAJTechnical/' },
-  { icon: 'bi-youtube', href: 'https://www.youtube.com/@fajtechnicalservicesllc' },
-  { icon: 'bi-facebook', href: 'https://www.facebook.com/FAJTechnicalServicesLLC' }
+  { icon: <FaInstagram />, href: 'https://www.instagram.com/fajtechnicalservicesllc/' },
+  { icon: <FaTwitter />, href: 'https://twitter.com/FAJTechnical/' },
+  { icon: <FaYoutube />, href: 'https://www.youtube.com/@fajtechnicalservicesllc' },
+  { icon: <FaFacebook />, href: 'https://www.facebook.com/FAJTechnicalServicesLLC' }
 ];
 
 export default function Header1({ variant = '' }) {
@@ -77,7 +79,7 @@ export default function Header1({ variant = '' }) {
                 <ul className="cs_header_contact_list cs_mp_0">
                   {contactItems.map((item, index) => (
                     <li key={`contact-${index}`}>
-                      <i className={`bi ${item.icon}`} aria-hidden="true"></i>
+                      {item.icon}
                       {item.href ? (
                         <a href={item.href} aria-label={item.content}>
                           {item.content}
@@ -98,11 +100,11 @@ export default function Header1({ variant = '' }) {
                         key={`social-${index}`}
                         href={social.href}
                         className="cs_center cs_accent_bg_light"
-                        aria-label={social.icon.replace('bi-', '')}
+                        aria-label={social.icon}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <i className={`bi ${social.icon}`} aria-hidden="true"></i>
+                        {social.icon}
                       </a>
                     ))}
                   </div>
@@ -148,7 +150,7 @@ export default function Header1({ variant = '' }) {
                 <div className="solutek-btn2">
                   <button onClick={openModal} className="cs_btn cs_style_1" aria-label="Book Now">
                     <span>Book Now</span>
-                    <i className="bi bi-arrow-right" aria-hidden="true"></i>
+                    <RxArrowTopRight />
                   </button>
                 </div>
               </div>

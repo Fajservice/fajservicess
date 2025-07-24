@@ -2,6 +2,10 @@ import { Link, useParams } from "react-router-dom";
 import { useEffect, useState, useMemo } from "react";
 import data from "../../Data/blog.json";
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import { FaCalendarAlt, FaFacebook, FaLinkedin, FaRegCommentDots, FaTwitter, FaWhatsapp } from "react-icons/fa";
+import { IoPeopleOutline } from "react-icons/io5";
+import { CiCalendarDate } from "react-icons/ci";
+import { IoIosArrowRoundForward } from "react-icons/io";
 
 const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
   const { slug } = useParams();
@@ -426,15 +430,15 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                 
                 <div className="cs_post_meta_wrapper cs_mb_20">
                   <div className="cs_post_meta">
-                    <span className="cs_accent_color"><i className="fa-regular fa-calendar-days"></i></span>
+                    <span className="cs_accent_color"><CiCalendarDate style={{ fontSize: "24px" }} /></span>
                     <span className="cs_heading_color">{blogPost.date}</span>
                   </div>
                   <div className="cs_post_meta">
-                    <span className="cs_accent_color"><i className="fa-regular fa-comments"></i></span>
+                    <span className="cs_accent_color"><FaRegCommentDots style={{ fontSize: "24px" }} /></span>
                     <span className="cs_heading_color">{blogPost.comments} Comments</span>
                   </div>
                   <div className="cs_post_meta">
-                    <span className="cs_accent_color"><i className="fa-regular fa-user"></i></span>
+                    <span className="cs_accent_color"><IoPeopleOutline style={{ fontSize: "24px" }} /></span>
                     <span className="cs_heading_color">{blogPost.admin}</span>
                   </div>
                 </div>
@@ -496,7 +500,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                       rel="noopener noreferrer"
                       className="cs_center cs_radius_50"
                     >
-                      <i className="bi bi-facebook"></i>
+                      <FaFacebook style={{ fontSize: "14px" }} />
                     </a>
 
                     <a
@@ -505,7 +509,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                       rel="noopener noreferrer"
                       className="cs_center cs_radius_50"
                     >
-                      <i className="bi bi-twitter"></i>
+                      <FaTwitter style={{ fontSize: "14px" }} />
                     </a>
 
                     <a
@@ -514,7 +518,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                       rel="noopener noreferrer"
                       className="cs_center cs_radius_50"
                     >
-                      <i className="bi bi-linkedin"></i>
+                      <FaLinkedin style={{ fontSize: "14px" }} />
                     </a>
 
                     <a
@@ -523,7 +527,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                       rel="noopener noreferrer"
                       className="cs_center cs_radius_50"
                     >
-                      <i className="bi bi-whatsapp"></i>
+                      <FaWhatsapp style={{ fontSize: "14px" }} />
                     </a>
                   </div>
                 </div>
@@ -564,23 +568,23 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                   <ul className="cs_categories cs_fs_18 cs_semibold cs_mp_0">
                     <li><Link to="/ac-service-in-dubai/">
                       <span>Air Conditioning Services</span>
-                      <span><i className="bi bi-arrow-right"></i></span>
+                      <span><IoIosArrowRoundForward style={{ fontSize: "28px" }} /></span>
                     </Link></li>
                     <li><Link to="/appliances-repair-service/">
                       <span>Home Appliances Repair Services</span>
-                      <span><i className="bi bi-arrow-right"></i></span>
+                      <span><IoIosArrowRoundForward style={{ fontSize: "28px" }} /></span>
                     </Link></li>
                     <li><Link to="/commercial-laundry-equipment-service/">
                       <span>Laundry Equipment Service</span>
-                      <span><i className="bi bi-arrow-right"></i></span>
+                      <span><IoIosArrowRoundForward style={{ fontSize: "28px" }} /></span>
                     </Link></li>
                     <li><Link to="/coffee-machine-service-center-in-dubai/">
                       <span>Coffee Machine Services</span>
-                      <span><i className="bi bi-arrow-right"></i></span>
+                      <span><IoIosArrowRoundForward style={{ fontSize: "28px" }} /></span>
                     </Link></li>
                     <li><Link to="/commercial-cooking-appliances-repair-service/">
                       <span>Kitchen Equipment Repair</span>
-                      <span><i className="bi bi-arrow-right"></i></span>
+                      <span><IoIosArrowRoundForward style={{ fontSize: "28px" }} /></span>
                     </Link></li>
                   </ul>
                 </div>
@@ -596,7 +600,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
                         </Link>
                         <div className="cs_recent_post_right">
                           <p className="cs_recent_posted_by cs_fs_14">
-                            <i className="bi bi-calendar-fill"></i>{post.date}
+                            <FaCalendarAlt style={{ fontSize: "16px" }} />{post.date}
                           </p>
                           <h3 className="cs_fs_14 mb-0">
                             <Link to={`/blog/${post.slug}/`}>{post.title}</Link>

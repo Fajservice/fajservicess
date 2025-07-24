@@ -1,4 +1,7 @@
 import Form1 from "../Form/Form1";
+import { IoMailOpenOutline } from "react-icons/io5";
+import { FiPhoneCall } from "react-icons/fi";
+import { MdOutlineLocationOn } from "react-icons/md";
 
 
 const Contact = ({Title,subTitle,address,email,emailLink,number,numberLink,number1,number1Link,clientNumber,img,client,title2,subtitle2 }) => {
@@ -18,7 +21,8 @@ const Contact = ({Title,subTitle,address,email,emailLink,number,numberLink,numbe
                     <p className="cs_mb_25">{subTitle}</p>
                     <div className="cs_iconbox cs_style_1 cs_type_1 cs_mb_18">
                       <div className="cs_iconbox_icon cs_center">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/location.svg`} loading="lazy" alt="Location Icon" />
+                        {/* <img src={`${import.meta.env.BASE_URL}img/icons/location.svg`} loading="lazy" alt="Location Icon" /> */}
+                        <MdOutlineLocationOn className="contact-icons"/>
                       </div>
                       <div className="cs_iconbox_info">
                         <p className="mb-0">{address}</p>
@@ -26,7 +30,8 @@ const Contact = ({Title,subTitle,address,email,emailLink,number,numberLink,numbe
                     </div>
                     <div className="cs_iconbox cs_style_1 cs_type_1 cs_mb_18">
                       <div className="cs_iconbox_icon cs_center">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/mail_open.svg`} loading="lazy" alt="Mail Icon" />
+                        {/* <img src={`${import.meta.env.BASE_URL}img/icons/mail_open.svg`} loading="lazy" alt="Mail Icon" /> */}
+                        <IoMailOpenOutline className="contact-icons" />
                       </div>
                       <div className="cs_iconbox_info">
                         <a  href={emailLink}>{email}</a>
@@ -34,7 +39,8 @@ const Contact = ({Title,subTitle,address,email,emailLink,number,numberLink,numbe
                     </div>
                     <div className="cs_iconbox cs_style_1 cs_type_1">
                       <div className="cs_iconbox_icon cs_center">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/phone-call.svg`} loading="lazy" alt="Phone Icon" />
+                        {/* <img src={`${import.meta.env.BASE_URL}img/icons/phone-call.svg`} loading="lazy" alt="Phone Icon" /> */}
+                        <FiPhoneCall className="contact-icons" />
                       </div>
                       <div className="cs_iconbox_info">
                         <a className="cs_tab active" href={numberLink}>{number}</a><b/>
@@ -51,16 +57,6 @@ const Contact = ({Title,subTitle,address,email,emailLink,number,numberLink,numbe
                   </div>
                 </div>
               <div className="cs_height_44 cs_height_lg_30"></div>
-              {/* <div className="cs_social_desc">
-                <h3 className="cs_fs_24 cs_semibold cs_mb_10">Follow The Social Media:</h3>
-                <p className="cs_mb_22">Algae can quickly take over a Car Repair if not addressed promptly. Learn effective.</p>
-                <div className="cs_social_btns cs_style_1">
-                  <a href="https://www.instagram.com/fajtechnicalservicesllc/" className="cs_center cs_accent_bg_light"><i className="bi bi-instagram"></i></a>
-                  <a href="https://twitter.com/FAJTechnical/" className="cs_center cs_accent_bg_light"><i className="bi bi-twitter"></i></a>
-                  <a href="https://www.youtube.com/@fajtechnicalservicesllc" className="cs_center cs_accent_bg_light"><i className="bi bi-youtube"></i></a>
-                  <a href="https://www.facebook.com/FAJTechnicalServicesLLC" className="cs_center cs_accent_bg_light"><i className="bi bi-facebook"></i></a>
-                </div>
-              </div> */}
             </div>
             <div className="col-lg-6">
               <div className="cs_section_heading cs_style_1 cs_mb_45">
