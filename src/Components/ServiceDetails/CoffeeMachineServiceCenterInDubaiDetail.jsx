@@ -170,7 +170,7 @@ const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, t
                   <br />
                   That’s where our expert technician comes in. FAJ expert offers fast and efficient services near you to restore optimal performance. We handle issues like coffee machine descaling, cleaning service, water leakage, Steam wand, noise, poor coffee quality, and grinding problems. Let us help get your coffee machine back on track.
                 </p>
-                <h2 className="cs_fs_18 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>
+                <h2 className="cs_fs_18 mb-1 pt-3 border-small-top" style={{ fontSize: "18px" }}>
                   Coffee Machine Servicing and Maintenance Contract
                 </h2>
                 <p className="mb-0">

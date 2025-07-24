@@ -146,7 +146,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">KITCHEN EQUIPMENT AND APPLIANCES AMC SERVICES</h1>
-            <p>FAJ has been providing commercial kitchen equipment and appliance maintenance contract services in Dubai, Sharjah, and Abu Dhabi since 2010.Regular Planned Preventive Maintenance (PPM) is essential for keeping appliances efficient and minimising unexpected failures.<br />As appliances age, they become more prone to breakdowns, often at inconvenient times.<br />With FAJ Appliance Services, our annual Domestic or Commercial Appliances Contract offers peace of mind by providing a predictable budget for maintenance, helping you avoid unexpected repair costs. Contact us today to book a technician for an inspection and arrange your Appliances AMC Services Contract Cover to start now.</p>
+            <p>FAJ has been providing commercial kitchen equipment and appliance maintenance contract services in Dubai, Sharjah, and Abu Dhabi since 2010. Regular Planned Preventive Maintenance (PPM) is essential for keeping appliances efficient and minimising unexpected failures.<br />As appliances age, they become more prone to breakdowns, often at inconvenient times.<br />With FAJ Appliance Services, our annual Domestic or Commercial Appliances Contract offers peace of mind by providing a predictable budget for maintenance, helping you avoid unexpected repair costs. Contact us today to book a technician for an inspection and arrange your Appliances AMC Services Contract Cover to start now.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -331,11 +331,11 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 
               <div className="col-xl-6">
                 <ul>
-                  <li> <strong>  Ensures Compliance </strong> Food safety is vital for food service businesses. Regular equipment maintenance prevents contamination and ensures hygienic food preparation. </li>
-                  <li> <strong> Enhances Efficiency and Productivity </strong> In a bustling kitchen, effective equipment is crucial for maintaining productivity and satisfying customer demands. </li>
-                  <li> <strong> Enhances Safety for Staff </strong> A safe working environment is crucial for your staff's well-being. Regular maintenance helps prevent accidents and injuries from faulty equipment. </li>
-                  <li> <strong> Maintains Consistent Food Quality </strong> Consistent food quality is vital for customer satisfaction and repeat business. Regular maintenance ensures your equipment functions properly for uniform cooking results.</li>
-                  <li> <strong> Cost Savings on Repairs </strong> Addressing minor issues quickly can save your business on repairs and emergency calls. Regular kitchen maintenance is essential for the longevity, efficiency, and safety of your equipment.</li>
+                  <li> <strong>  Ensures Compliance: </strong> Food safety is vital for food service businesses. Regular equipment maintenance prevents contamination and ensures hygienic food preparation. </li>
+                  <li> <strong> Enhances Efficiency and Productivity: </strong> In a bustling kitchen, effective equipment is crucial for maintaining productivity and satisfying customer demands. </li>
+                  <li> <strong> Enhances Safety for Staff: </strong> A safe working environment is crucial for your staff's well-being. Regular maintenance helps prevent accidents and injuries from faulty equipment. </li>
+                  <li> <strong> Maintains Consistent Food Quality: </strong> Consistent food quality is vital for customer satisfaction and repeat business. Regular maintenance ensures your equipment functions properly for uniform cooking results.</li>
+                  <li> <strong> Cost Savings on Repairs: </strong> Addressing minor issues quickly can save your business on repairs and emergency calls. Regular kitchen maintenance is essential for the longevity, efficiency, and safety of your equipment.</li>
                 </ul>
               </div>
             </div>
@@ -564,7 +564,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
         </section>
 
         {/* We are specialise in Appliances services for the following brands */}
-        <section className="section cs_py_30 bg-light-gray mb-4">
+        <section className="section cs_py_30 mb-4">
           <div className="container">
             <h3>We specialise in commercial equipment services for major brands</h3>
             <ul>

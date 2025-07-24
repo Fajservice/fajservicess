@@ -343,10 +343,6 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
         <section className="section cs_py_30 ">
           <div className="container">
             <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR SMALL HOME APPLIANCES</h2>
-            <p className='mb-0'>The search results indicate that the company primarily offers repair and maintenance services for household appliances such as stand mixers, blenders, kettles, toasters, air fryers, microwave ovens, ice crushers, food processors, vacuum cleaners, cigar cabinet fridges, steam irons, and other electronic appliance
-
-            </p>
-
             <div className="row align-items-center">
               <div className="col-xl-6">
                 <iframe
@@ -362,6 +358,9 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
               </div>
 
               <div className="col-xl-6">
+                <p className='mb-0'>The search results indicate that the company primarily offers repair and maintenance services for household appliances such as stand mixers, blenders, kettles, toasters, air fryers, microwave ovens, ice crushers, food processors, vacuum cleaners, cigar cabinet fridges, steam irons, and other electronic appliance
+                </p>
+
                 <p className='mb-0'><strong>Our services include: </strong></p>
 
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">

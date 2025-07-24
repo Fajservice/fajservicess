@@ -20,7 +20,7 @@ const ApplianceServiceInTheSpringsDetail = ({ subtitle, title, reviewsbg, titleS
     const metadescription = String(description || "Get best appliance services in The Springs. Experts in fridge repair near me in Dubai. Call 043300002 for fix washing machine, oven, coffee machine");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-    const metaKeyword = String(Keyword || "Washing Machine in the villa, Refrigerator in the villa, Dishwasher in the villa, Appliance service in the villa, Appliance repair in the villa, Appliance maintenance in the villa, Appliance installation in the villa");
+    const metaKeyword = String(Keyword || "Washing Machine in The Springs, Refrigerator in The Springs, Dishwasher in The Springs, Appliance service in The Springs, Appliance repair in The Springs, Appliance maintenance in The Springs, Appliance installation in The Springs");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-springs/").replace(/\/?$/, '/');
 
 

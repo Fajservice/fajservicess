@@ -167,16 +167,14 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }}> Explore the Specifics of Faj's Refrigeration Maintenance Service agreement</h2>
-                <p className="mb-2">
-                  Our commercial freezer, cold room, walk-in chiller, and cold storage annual maintenance contract ensure that your commercial refrigerator, fridge, chiller, and freezer needs are met with the highest level of care.
-                  <br />
-                  With extensive expertise in refrigeration unit maintenance, our team includes some of the finest professionals in the UAE.
-                  <br />
-                  Since 2010, we have been repairing, cleaning, and maintaining a wide range of commercial chillers and freezers.
-                  <br />Our technicians are experienced and use advanced technology to keep your commercial refrigeration equipment in optimal condition. If you would like to learn more about our AMC options, please feel free to contact us.
+                <h2 className="cs_fs_24 mb-1" style={{ fontSize: "20px" }}> Planned Preventive Maintenance (PPM) Services</h2>
 
+                <p className="">
+                  Our refrigeration technician can create a customized Planned Preventive Maintenance Package for your business. This package is designed to keep your business products chilled and frozen, comfortable, and running efficiently. By taking a proactive approach, you can reduce the likelihood of unexpected breakdowns and their associated costs.
+                </p>
 
+                <p className="mb-0">
+                  Our Planned Preventative Maintenance Package includes repair, maintenance, and testing, making it ideal for any freezer and chillrs in hospitals, pharmacey, resrtuant, cafe, school, carting and warehouses,. This package ensures that your air conditioning system operates smoothly and helps prevent breakdowns.
                 </p>
               </div>
 
@@ -200,15 +198,15 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}img/techfridge.avif`} alt="Refrigeration Maintenance Services" loading="lazy" />
               </div>
               <div className="col-md-6">
-                <p className="mb-0">
-                  Your commercial refrigeration system is vital for home and office comfort during hot summer months.
-                  <br />It needs regular maintenance to operate efficiently and avoid breakdowns.
-                  FAJ offers annual maintenance contracts (AMC) for commercial refrigerators and freezers, keeping your cold room, walk-in chiller, or cooler running smoothly year-round.
-                  Enjoy consistent cooling and peace of mind as we ensure your system's optimal performance, energy efficiency, and longevity.
-                  <br />Our comprehensive maintenance contract package allows you to say goodbye to unexpected breakdowns.
-                  Routine inspections and maintenance of your refrigeration system are essential for ensuring efficiency.
-                  Our qualified technicians service all types, makes, models, and sizes of commercial systems, including beverage coolers, restaurant chillers, bakery freezers, flower shop chillers, van freezers, and vegetable and fruit chillers.
-                </p>
+                <ul className="mb-0">
+                  <li> Your commercial refrigeration system is vital for home and office comfort during hot summer months. </li>
+                  <li> It needs regular maintenance to operate efficiently and avoid breakdowns. </li>
+                  <li> FAJ offers annual maintenance contracts (AMC) for commercial refrigerators and freezers, keeping your cold room, walk-in chiller, or cooler running smoothly year-round. </li>
+                  <li> Enjoy consistent cooling and peace of mind as we ensure your system's optimal performance, energy efficiency, and longevity. </li>
+                  <li> Our comprehensive maintenance contract package allows you to say goodbye to unexpected breakdowns. </li>
+                  <li> Routine inspections and maintenance of your refrigeration system are essential for ensuring efficiency. </li>
+                  <li> Our qualified technicians service all types, makes, models, and sizes of commercial systems, including beverage coolers, restaurant chillers, bakery freezers, flower shop chillers, van freezers, and vegetable and fruit chillers. </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -506,7 +504,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We specialise in freezer and chiller repairs, gaining the trust of major brands for their service needs.</p>
+                    <p>We specialise in freezer and chiller repairs, gaining the trust of major brands for their reliable service needs.</p>
                   </div>
                 </div>
 
@@ -518,7 +516,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
                     <p>
-                      Schedule your chiller and freezer repair in Dubai or Sharjah for a specific date and time, with our technician arriving within a 3-4 hour window
+                      Choose a day and time for your chiller and freezer repair in Dubai or Sharjah, with a 3–4 hour window for our technician’s arrival.
                     </p>
                   </div>
                 </div>
@@ -553,7 +551,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                   <div className="usptext">
                     <h3 className="">Reliable, Priority, and Quick</h3>
                     <p>
-                      You can count on our prompt service! We offer same-day repairs and next-day appointments to ensure that your needs are met quickly.
+                      You can count on our prompt service! We offer same-day repairs and next-day appointments to ensure your needs are met quickly.
                     </p>
                   </div>
                 </div>
@@ -564,7 +562,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
                     <p>
-                      Our skilled technicians offer prompt service for a variety of major cooling brands.
+                      Our skilled technicians offer prompt service for major cooling brands, ensuring reliable performance and efficiency.
                     </p>
                   </div>
                 </div>

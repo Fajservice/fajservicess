@@ -1,5 +1,3 @@
-
-
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../Data/KitchenEquipments/FAQs/KitchenEquipmentRepairFaqs.json';
@@ -165,7 +163,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
           <div className="container">
             <div className="row gx-md-5 mb-2">
               <div className="col-md-6">
-                <h2 className="cs_fs_20 mb-1" style={{ fontSize: "24px" }}>Catering Equipment Maintenance Services</h2>
+                <h2 className="cs_fs_20 mb-1" style={{ fontSize: "23px" }}>Catering Equipment Maintenance Services</h2>
                 <p className="mb-2">We know that quick service and repair of your catering equipment is essential, as downtime can severely affect your profits.<br /> The catering industry is fast-paced and highly demanding, which is why we at FAJ prioritise minimising downtime and ensuring smooth operations. This includes servicing freezers, chillers, ovens, ranges, hoods, ice makers, dishwashers, and air conditioning units.</p>
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>Commercial Cooking Equipment Call-out</h2>
@@ -187,14 +185,14 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
         {/* Why  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30">Why is Restaurant Kitchen Equipment Maintenance Important in Dubai?</h2>
+            <h2 className="cs_fs_30" style={{ fontSize: "28px" }}>Why is Restaurant Kitchen Equipment Maintenance Important in Dubai?</h2>
+            <p>Keeping your professional kitchen equipment regularly maintained is important to ensure the longevity of your equipment, that your customers receive high-quality food, and to minimise costly downtime in your business.</p>
 
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}img/kitchen-equip-amc-repair.avif`} alt="Commercial Cooking Equipment Repair" loading="lazy" />
               </div>
               <div className="col-md-6">
-                <p>Keeping your professional kitchen equipment regularly maintained is important to ensure the longevity of your equipment, that your customers receive high-quality food, and to minimise costly downtime in your business.</p>
                 <ul className="mb-0">
                   <li><strong>Identifying Issues Early:</strong> Regular professional maintenance of your kitchen equipment helps catch problems early.</li>
                   <li><strong>Energy Efficiency:</strong> Ensure that your catering equipment is operating efficiently to avoid wasting electricity.</li>
@@ -203,7 +201,6 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                   <li><strong>Damage Control:</strong> Regularly inspect for potential hazards, including any harmful leaks from your kitchen equipment.</li>
                   <li><strong>Peace of Mind: </strong>Ensuring that your professional kitchen equipment functions properly gives you peace of mind, allowing you to focus on your business.</li>
                 </ul>
-
               </div>
             </div>
           </div>
@@ -371,21 +368,25 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                         <img src={`${import.meta.env.BASE_URL}img/icons/24x7b.jpg`} alt="24x7" className="rounded shadow" loading="lazy" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Routine Service</h3>
-                      <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
+                      <p className="small">
+                        Routine checks reduce the risk of faults and keep your commercial kitchen safe, efficient, and always ready to serve.
+                      </p>
                     </div>
                   </div>
                 </div>
+
                 <div className="col-md-3 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
                         <img src={`${import.meta.env.BASE_URL}img/icons/call.jpg`} alt="Cooling Efficiency" className="rounded shadow" loading="lazy" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">On-call services</h3>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
+                      <h3 className="text-uppercase mb-2 cs_fs_18">Reports and Updates</h3>
+                      <p className="small">
+                        Detailed reports update you on equipment condition, helping you fix issues early and avoid costly, unexpected downtime.
+                      </p>
 
                     </div>
-
                   </div>
                 </div>
 
@@ -395,30 +396,38 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                       <div className="icon-img-block border-0">
                         <img src={`${import.meta.env.BASE_URL}img/icons/gearicon.jpg`} alt="Cooling Efficiency" className="rounded shadow" loading="lazy" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Genuine Spare Parts</h3>
-                      <p className="small">Knowing your commercial kitchen equipment is in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                      <h3 className="text-uppercase mb-2 cs_fs_18">Improved Efficiency</h3>
+                      <p className="small">
+                        Proper maintenance improves kitchen efficiency, lowers long-term costs, and ensures the highest quality food preparation daily.
+                      </p>
                     </div>
                   </div>
                 </div>
+
                 <div className="col-md-3 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
                         <img src={`${import.meta.env.BASE_URL}img/icons/wellstar.jpg`} alt="Cooling Efficiency" className="rounded shadow" loading="lazy" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Maintenance Costs</h3>
-                      <p className="small">High-quality equipment may be more expensive initially, but it typically breaks down less frequently and requires fewer repairs.</p>
+                      <h3 className="text-uppercase mb-2 cs_fs_18">Expert Technicians</h3>
+                      <p className="small">
+                        Expert technicians keep your appliances performing at their best, supporting smooth kitchen operations and customer satisfaction.
+                      </p>
                     </div>
                   </div>
                 </div>
+
                 <div className="col-md-3 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
                         <img src={`${import.meta.env.BASE_URL}img/icons/trained-b.jpg`} alt="trained icon" className="rounded shadow" loading="lazy" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Increased Efficiency</h3>
-                      <p className="small">Commercial kitchen equipment can improve the efficiency of daily tasks in your kitchen. · Lower Maintenance Costs · Superior Quality</p>
+                      <h3 className="text-uppercase mb-2 cs_fs_18">Cost Efficiency</h3>
+                      <p className="small">
+                        Regular service reduces major repair costs and protects your investment, making your kitchen more reliable and cost-effective.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -428,8 +437,10 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                       <div className="icon-img-block border-0">
                         <img src={`${import.meta.env.BASE_URL}img/icons/wellicon.jpg`} alt="Cooling Efficiency" className="rounded shadow" loading="lazy" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Cost Efficiency</h3>
-                      <p className="small">FAJ a Save hand maintenance. Here’s a cost comparison of renting vs. owning a commercial kitchen: as a renter, you avoid high startup equipment costs..</p>
+                      <h3 className="text-uppercase mb-2 cs_fs_18">Lower Maintenance Costs</h3>
+                      <p className="small">
+                        High-quality equipment may cost more upfront but saves money later, with fewer breakdowns and dependable daily performance.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -485,7 +496,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>	With an annual maintenance contract, you get a full year of service, ensuring your kitchen equipment runs smoothly and providing peace of mind.</p>
+                    <p>	With maintenance contract, enjoy year-round service, keeping your kitchen equipment running smoothly and ensuring peace of mind.</p>
                   </div>
                 </div>
 
@@ -534,7 +545,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our skilled kitchen equipment technicians are highly trained, and we provide excellent service for a variety of major appliance brands efficiently.</p>
+                    <p>Our skilled kitchen equipment technicians are highly trained, providing excellent service for major appliance brands efficiently.</p>
                   </div>
                 </div>
               </div>
