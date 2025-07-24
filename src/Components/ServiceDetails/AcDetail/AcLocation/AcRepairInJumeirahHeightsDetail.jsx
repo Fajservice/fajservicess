@@ -186,7 +186,7 @@ const AcRepairInJumeirahHeightsDetail = ({ subtitle, title, reviewsbg, titleSeo,
         {/* Why is AC Maintenance Service Important in Dubai? */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h2 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h2>
+            <h2 className="cs_fs_30">Why is AC Maintenance Service Important in Jumeirah Heights?</h2>
             <p>
               Regular air conditioner (AC) maintenance service in Jumeirah Heights is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you in Jumeirah Heights, contact us.
             </p>
@@ -203,7 +203,7 @@ const AcRepairInJumeirahHeightsDetail = ({ subtitle, title, reviewsbg, titleSeo,
 
                   <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend your air conditioning unit’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
                   <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
-                  <li> <strong> Enhanced Comfort: </strong> Regular <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b> AC cleaning service</b></a> in Jumeirah Heights Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
+                  <li> <strong> Enhanced Comfort: </strong> Regular AC cleaning service in Jumeirah Heights Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
                 </ul>
               </div>
             </div>
