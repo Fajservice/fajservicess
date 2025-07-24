@@ -118,7 +118,7 @@ const AcRepairInDubaiStudioCityDetail = ({ subtitle, title, reviewsbg, titleSeo,
                         <h1 className="cs_fs_30">AC Service in Dubai Studio City</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
-                            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a> AC maintenance, AC repair near me Dubai Studio City, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
+                            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>, AC service</b></a> AC maintenance, AC repair near me Dubai Studio City, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 
                         <div id="get-quote" className=" mt-3">
                             <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -136,7 +136,7 @@ const AcRepairInDubaiStudioCityDetail = ({ subtitle, title, reviewsbg, titleSeo,
                             <div className="col-md-6">
                                 <h2 className="cs_fs_24 mb-1">Best AC Repair in Dubai Studio City</h2>
                                 <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> near me in Dubai Studio City, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
-                                <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
+                                <p>We specialise in air conditioner (AC) repair, service, and maintenance near me in Dubai Studio City. The FAJ team is dedicated to ensuring a comfortable temperature all year round.</p>
                                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
                                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                                 <div className="row">
@@ -181,7 +181,7 @@ const AcRepairInDubaiStudioCityDetail = ({ subtitle, title, reviewsbg, titleSeo,
                 {/* Why is AC Maintenance Service Important in Dubai? */}
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
-                        <h2 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h2>
+                        <h2 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai Studio City?</h2>
                         <p>
                             Regular air conditioner (AC) maintenance service in Dubai Studio City is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you in Dubai Studio City, contact us.
                         </p>
