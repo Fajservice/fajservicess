@@ -142,7 +142,7 @@ const ApplianceServiceInDubailandMazayaQueuePointDetail = ({ subtitle, title, re
 
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">appliances services in dubailand mazaya queue point</h1>
+                        <h1 className="cs_fs_30">Appliances Services in Dubailand Mazaya Queue Point</h1>
                         <p>
                             Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
                         </p>
@@ -173,7 +173,7 @@ const ApplianceServiceInDubailandMazayaQueuePointDetail = ({ subtitle, title, re
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} loading="lazy" alt="Washing machine repair in Dubai Hills Estate" />
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} loading="lazy" alt="Washing machine repair in Dubailand Mazaya Queue Point" />
                             </div>
                         </div>
                         <AppliancesAppointmentCol></AppliancesAppointmentCol>
@@ -190,7 +190,7 @@ const ApplianceServiceInDubailandMazayaQueuePointDetail = ({ subtitle, title, re
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} loading="lazy" alt="Refrigerator Repair in Dubai Hills Estate" />
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} loading="lazy" alt="Refrigerator Repair in Dubailand Mazaya Queue Point" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">
