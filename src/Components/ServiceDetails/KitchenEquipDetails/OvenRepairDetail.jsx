@@ -358,7 +358,7 @@ const OvenRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
               <div className="col-xl-6">
                 <p className="mb-0"><strong>Our services include:</strong></p>
-                <p className="mb-0">We provide repair services for a wide range of commercial ovens, including:</p>
+                <p className="mb-0">Regular commercial oven maintenance is essential for optimal performance, efficiency, and longevity.</p>
                 <ul>
                   <li><strong> Oven Installation: </strong>   Professional installation of various types and brands of gas and electric ovens, ensuring optimal performance and efficiency. </li>
                   <li><strong> Oven Diagnostics: </strong>   We perform thorough diagnostics and provide eligibility assessments and detailed quotes to address any oven issues. </li>
@@ -480,7 +480,6 @@ const OvenRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
                 <div className="uspitem">
                   <div className="uspicon">
                     <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" loading="lazy" />
-
                   </div>
                   <div className="usptext">
                     <h3 className="">Reliable, Priority, and Quick</h3>
