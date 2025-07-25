@@ -24,7 +24,7 @@ const Team2 = () => {
                   </span>
                 </div>
                 <div className="cs_team_info">
-                  <h3 className="cs_fs_24 cs_semibold mb-0"><Link to="/team/team-details">{item.title}</Link></h3>
+                  <h3 className="cs_fs_24 cs_semibold mb-0">{item.title}</h3>
                   <p className="cs_accent_color mb-0">{item.desc}</p>
                 </div>
                 <div className="cs_team_shape position-absolute">

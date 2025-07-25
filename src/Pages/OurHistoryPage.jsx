@@ -13,16 +13,16 @@ const OurVisionOurMissionPage = () => {
         <>
              <HelmetProvider>
         <Helmet>
-          <title>About Us - Appliances Service Center - #1 AC Repair Company</title>
-          <meta name="description" content="About Us, F A J Technical Services L.L.C. was established in 2010 as an Air Conditioner System, Appliances, Installation Repair Maintenance Servic"></meta>
+          <title>FAJ History | From AC Maintenance to UAE Service Leader</title>
+          <meta name="description" content="Established in 2010 as an AC maintenance firm in Dubai, FAJ has grown into a trusted provider of comprehensive technical services across UAE."></meta>
           <meta name="keywords" content="About FAJ Group" />
           <meta name="author" content="F A J Technical Services L.L.C." />
           <meta name="robots" content="index, follow" />
           <link rel="canonical" href="https://www.fajservices.ae/our-history/" />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content="About Us - Appliances Service Center - #1 AC Repair Company" />
-          <meta property="og:description" content="About Us, F A J Technical Services L.L.C. was established in 2010 as an Air Conditioner System, Appliances, Installation Repair Maintenance Servic" />
+          <meta property="og:title" content="FAJ History | From AC Maintenance to UAE Service Leader" />
+          <meta property="og:description" content="Established in 2010 as an AC maintenance firm in Dubai, FAJ has grown into a trusted provider of comprehensive technical services across UAE." />
           <meta property="og:url" content="https://www.fajservices.ae/our-history/" />
         </Helmet>
       </HelmetProvider>
