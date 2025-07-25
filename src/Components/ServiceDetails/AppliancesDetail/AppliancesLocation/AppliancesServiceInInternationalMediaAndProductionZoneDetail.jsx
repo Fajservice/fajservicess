@@ -174,7 +174,7 @@ const AppliancesServiceInInternationalMediaAndProductionZoneDetail = ({ subtitle
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} loading="lazy" alt="Washing machine repair in Dubai Hills Estate" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} loading="lazy" alt="Washing machine repair in International Media and Production Zone" />
               </div>
             </div>
             <AppliancesAppointmentCol></AppliancesAppointmentCol>
@@ -191,7 +191,7 @@ const AppliancesServiceInInternationalMediaAndProductionZoneDetail = ({ subtitle
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} loading="lazy" alt="Refrigerator Repair in Dubai Hills Estate" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} loading="lazy" alt="Refrigerator Repair in International Media and Production Zone" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">

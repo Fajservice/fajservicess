@@ -174,7 +174,7 @@ const ApplianceServiceInTheVillaDetail = ({ subtitle, title, reviewsbg, titleSeo
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} loading="lazy" alt="Washing machine repair in Dubai Hills Estate" />
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} loading="lazy" alt="Washing machine repair in The Villa" />
                             </div>
                         </div>
                         <AppliancesAppointmentCol></AppliancesAppointmentCol>
@@ -191,7 +191,7 @@ const ApplianceServiceInTheVillaDetail = ({ subtitle, title, reviewsbg, titleSeo
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} loading="lazy" alt="Refrigerator Repair in Dubai Hills Estate" />
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} loading="lazy" alt="Refrigerator Repair in The Villa" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">
