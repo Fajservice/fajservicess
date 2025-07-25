@@ -118,7 +118,7 @@ const HaierAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
               Achieving year-round comfort requires managing challenges like summer humidity, warm nights, and indoor allergens.
               <br /> Since our inception in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"> F A J Technical Services L.L.C</a> has established itself as a reliable and respected provider of Haier air conditioning solutions across the regions of Dubai and Sharjah.
               <br />Our team of skilled technicians is well-equipped to offer a comprehensive range of services, including special Haier AC repair, thorough servicing, routine maintenance, and professional installation for both residential homes and commercial establishments.
-            </p>        
+            </p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -588,7 +588,7 @@ const HaierAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                   <a href="https://www.fajservices.ae/ac-services-in-jvt/">JVT</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-jumeirah-village-triangle/">Jumeirah Village Triangle</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-jebel-ali-village/">Jebel Ali Village</a> &nbsp;|&nbsp;
-                  <a href="https://www.fajservices.ae/ac-services-in-palm-jumeirah/">Jumeirah</a> &nbsp;|&nbsp;
+                  <a href="https://www.fajservices.ae/ac-services-in-jumeirah/">Jumeirah</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-jumeirah-golf-estates/">Jumeirah Golf Estates</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-the-meadows/">Meadows</a> &nbsp;|&nbsp;
                   <a href="https://www.fajservices.ae/ac-services-in-motor-city/">Motor City</a> &nbsp;|&nbsp;
@@ -631,7 +631,7 @@ const HaierAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                 </svg></h3>
               <h3 className="cs_section_title cs_fs_30 text-black mb-0 wow fadeInUp">{parse(title)}</h3>
             </div>
-            
+
             <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
               data-variable-width="0" data-xs-slides="1" data-sm-slides="1" data-md-slides="1" data-lg-slides="2"
               data-add-slides="2" data-slides-per-view="responsive">
