@@ -153,7 +153,7 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
           <div className="container">
             <h1 className="cs_fs_30">Built-in Appliances Repair Service Dubai</h1>
             <p>
-              <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been providing reliable and quality services, including installation, repair, and maintenance of built-in appliances, since 2010. We have completed projects in Dubai, Sharjah, and Abu Dhabi.
+              F A J Technical Services L.L.C has been providing reliable and quality services, including installation, repair, and maintenance of built-in appliances, since 2010. We have completed projects in Dubai, Sharjah, and Abu Dhabi.
               <br />
               Home appliances are essential in our daily lives, but regular use can lead to issues that require professional assistance.
               As a trusted provider of built-in appliance repair service, we are committed to delivering high-quality and prompt support to residents in the area.

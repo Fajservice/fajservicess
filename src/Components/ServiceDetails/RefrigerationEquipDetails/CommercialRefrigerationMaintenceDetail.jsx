@@ -414,7 +414,6 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">AIRFLOW BALANCE</h4>
                       <p className="small">We ensure you get optimal airflow around each room as needed.</p>
-
                     </div>
 
                   </div>
@@ -451,7 +450,7 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
                   </div>
                   <div className="usptext">
                     <h3 className="">Reliable, Priority, and Quick</h3>
-                    <p>You can count on our prompt service! We offer same-day repairs and next-day appointments to ensure that your needs are met quickly.</p>
+                    <p>You can count on our prompt service! We offer same-day repairs and next-day slots to ensure your needs are met quickly.</p>
                   </div>
                 </div>
 
@@ -471,7 +470,7 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Schedule your chiller and freezer repair in Dubai or Sharjah for a specific date and time, with our technician arriving within a 3-4 hour window.</p>
+                    <p>Schedule your chiller and freezer repair in Dubai or Sharjah for a set date and time, with our technician arriving within a 3–4 hour window.</p>
                   </div>
                 </div>
 
@@ -490,7 +489,7 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We specialise in freezer and chiller repairs, gaining the trust of major brands for their service needs.</p>
+                    <p>We specialise in freezer and chiller repairs, gaining the trust of major brands for their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -509,7 +508,7 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our skilled technicians offer prompt service for a variety of major cooling brands.</p>
+                    <p>Our skilled technicians offer prompt service for a variety of major cooling brands across Dubai, Sharjah, and nearby areas.  </p>
                   </div>
                 </div>
               </div>
@@ -546,7 +545,6 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
                 <p className="mb-0"><strong>Free Standing Freezer and Display Freezer Service and Repair</strong>: No matter the problem with your Freezer and Display Freezer maintenance, our experts can accurately diagnose and repair it.</p>
                 <p className="mb-0"><strong>Restaurant Fridge Repairs Refrigerator Service</strong>: Is your restaurant fridge or refrigerator not functioning? THere&apos;s no need to endure unpleasant temperatures and stuffy cooling or suffer losses due to malfunctioning equipment &ndash; FAJ will get your restaurant fridge or refrigerator back up and running in no time!</p>
                 <p className="mb-0"><strong>Sushi Refrigerator and Chiller Service and Repair:</strong> Maintenance and repair services for sushi refrigerators and chillers in Dubai require specialised expertise, as only professionals can effectively address issues with sushi fridges. We offer a hassle-free sushi refrigerator repair service.<br /><strong>Catering Freezer and Chiller Repairs and Service: </strong>Are you looking for relief from the scorching heat? Discover how to keep your catering freezer and chiller running smoothly in Dubai! Our expert services ensure that your catering refrigerator and fridge stay cool and efficient, providing you with comfort and peace of mind.</p>
-
               </div>
 
             </div>
@@ -557,18 +555,13 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
                 <CallNowButton />
               </div>
             </div>
-
           </div>
         </section>
-
-
-
 
         {/* Maintenance Contract */}
         <MaintenanceContract />
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
-          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
               <h3 className="cs_section_subtitle cs_fs_18 text-black cs_semibold text-uppercase cs_mb_12 wow fadeInDown">
@@ -616,7 +609,7 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
               </div>
             </div>
           </div>
-          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
+
         </section>
 
         {/* FAQ's */}
