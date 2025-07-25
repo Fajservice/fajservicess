@@ -174,7 +174,7 @@ const ApplianceServiceInJumeirahVillageTriangleDetail = ({ subtitle, title, revi
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} loading="lazy" alt="Washing machine repair in Dubai Hills Estate" />
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} loading="lazy" alt="Washing machine repair in Jumeirah Village Triangle" />
                             </div>
                         </div>
                         <AppliancesAppointmentCol></AppliancesAppointmentCol>
@@ -191,7 +191,7 @@ const ApplianceServiceInJumeirahVillageTriangleDetail = ({ subtitle, title, revi
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} loading="lazy" alt="Refrigerator Repair in Dubai Hills Estate" />
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} loading="lazy" alt="Refrigerator Repair in Jumeirah Village Triangle" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">
