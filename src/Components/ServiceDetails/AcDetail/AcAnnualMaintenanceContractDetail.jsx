@@ -161,14 +161,12 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
 
             <div className="appointment-col border-small-top mt-3 pt-3">
               <h2 className="cs_fs_24 mb-1 mt-3" style={{ fontSize: "24px" }}>
-                Explore the Benefits of FAJ’s Annual AC Maintenance Contract
+                Planned Preventive Maintenance (PPM) Services
               </h2>
               <p>
-                Our AC annual maintenance contract ensures that your air conditioning needs are met with the utmost care.
-                With extensive knowledge in AC maintenance, our team comprises some of the best professionals in the UAE.
-                <br />
-                Since 2010, we have been repairing, cleaning, and maintaining a wide range of AC and HVAC and FAHU systems.
-                Our technicians are experienced and utilize advanced technology to keep your AC system in optimal condition. If you’re interested in learning more about our AMC options, please feel free to contact us.
+                Our refrigeration technician can create a customized Planned Preventive Maintenance Package for your business. This package is designed to keep your business products chilled and frozen, comfortable, and running efficiently. By taking a proactive approach, you can reduce the likelihood of unexpected breakdowns and their associated costs.
+                <br />Our Planned Preventative Maintenance Package includes repair, maintenance, and testing, making it ideal for any freezer and chillrs in hospitals, pharmacey, resrtuant, cafe, school, carting and warehouses,. This package ensures that your air conditioning system operates smoothly and helps prevent breakdowns.
+
               </p>
               <div id="get-quote" className=" mt-3">
                 <div className="container d-flex justify-content-center align-items-center gap-3">

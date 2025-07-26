@@ -167,19 +167,37 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1" style={{ fontSize: "20px" }}> Planned Preventive Maintenance (PPM) Services</h2>
+                <h2 className="cs_fs_24 mb-1" style={{ fontSize: "20px" }}> Faj's Refrigeration Maintenance Service</h2>
 
                 <p className="">
-                  Our refrigeration technician can create a customized Planned Preventive Maintenance Package for your business. This package is designed to keep your business products chilled and frozen, comfortable, and running efficiently. By taking a proactive approach, you can reduce the likelihood of unexpected breakdowns and their associated costs.
-                </p>
-
-                <p className="mb-0">
-                  Our Planned Preventative Maintenance Package includes repair, maintenance, and testing, making it ideal for any freezer and chillrs in hospitals, pharmacey, resrtuant, cafe, school, carting and warehouses,. This package ensures that your air conditioning system operates smoothly and helps prevent breakdowns.
+                  Our commercial freezer, cold room, walk-in chiller, and cold storage annual maintenance contract ensure that your commercial refrigerator, fridge, chiller, and freezer needs are met with the highest level of care.
+                  With extensive expertise in refrigeration unit maintenance, our team includes some of the finest professionals in the UAE.
+                  <br />Since 2010, we have been repairing, cleaning, and maintaining a wide range of commercial chillers and freezers.
+                  <br />Our technicians are experienced and use advanced technology to keep your commercial refrigeration equipment in optimal condition. If you would like to learn more about our AMC options, please feel free to contact us.
                 </p>
               </div>
 
               <div className="col-md-6 ">
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/commercial-ref-amc.avif`} alt="Refrigeration Maintenance Services" loading="lazy" />
+              </div>
+            </div>
+
+            <div className="appointment-col border-small-top mt-3 pt-3">
+              <h2 className="cs_fs_24 mb-1 mt-3" style={{ fontSize: "24px" }}>
+                Explore the Benefits of FAJ’s Annual AC Maintenance Contract
+              </h2>
+              <p>
+                Our AC annual maintenance contract ensures that your air conditioning needs are met with the utmost care.
+                With extensive knowledge in AC maintenance, our team comprises some of the best professionals in the UAE.
+                <br />
+                Since 2010, we have been repairing, cleaning, and maintaining a wide range of AC and HVAC and FAHU systems.
+                Our technicians are experienced and utilize advanced technology to keep your AC system in optimal condition. If you’re interested in learning more about our AMC options, please feel free to contact us.
+              </p>
+              <div id="get-quote" className=" mt-3">
+                <div className="container d-flex justify-content-center align-items-center gap-3">
+                  <WhatsappIconButton />
+                  <CallNowButton />
+                </div>
               </div>
             </div>
 
