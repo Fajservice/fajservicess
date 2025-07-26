@@ -176,7 +176,7 @@ const AcRepairInAlJafzaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                 </section>
 
                 {/* AC Price Section */}
-                        <FAJACPrice></FAJACPrice>
+                <FAJACPrice></FAJACPrice>
 
                 {/* Why is AC Maintenance Service Important in Dubai? */}
                 <section className="section cs_py_30 bg-light-gray">
@@ -215,7 +215,7 @@ const AcRepairInAlJafzaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
 
                             <div className="col-12 col-md-4 col-lg-3">
                                 <div className=" box-content-container rounded border shadow">
-                                    Regul<div className="text-center">
+                                    <div className="text-center">
                                         <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Weak Airflow</h3>
                                     </div>
                                     <div className="inner-apcs-feat-desc">
