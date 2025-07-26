@@ -534,7 +534,7 @@ const AcRepairInJebelAliVillageDetail = ({ subtitle, title, reviewsbg, titleSeo,
 
                         <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
                             <b>We provide 2-month service warranty</b><br />
-                            and <small>3-month parts warranty</small>as standard.</p>
+                            and <small>3-month parts warranty</small> as standard.</p>
 
                         <h3>We specialise in air conditioning services for the following brands</h3>
 

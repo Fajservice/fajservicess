@@ -118,7 +118,7 @@ const AcRepairInDubaiStudioCityDetail = ({ subtitle, title, reviewsbg, titleSeo,
                         <h1 className="cs_fs_30">AC Service in Dubai Studio City</h1>
                         {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
-                            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>, AC service</b></a> AC maintenance, AC repair near me Dubai Studio City, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
+                            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b> AC service</b></a> AC maintenance, AC repair near me Dubai Studio City, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 
                         <div id="get-quote" className=" mt-3">
                             <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -163,7 +163,7 @@ const AcRepairInDubaiStudioCityDetail = ({ subtitle, title, reviewsbg, titleSeo,
                         </div>
 
                         <div className="appointment-col border-small-top pt-3">
-                            <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/ac-service-in-dubai/"><b>AC cleaning service</b></Link>air conditioning repair, or AC maintenance near me in Dubai Studio City. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+                            <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/ac-service-in-dubai/"><b>AC cleaning service</b></Link> air conditioning repair, or AC maintenance near me in Dubai Studio City. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
                             <div id="get-quote" className=" mt-3">
                                 <div className="container d-flex justify-content-center align-items-center gap-3">
                                     <WhatsappIconButton />
@@ -528,7 +528,7 @@ const AcRepairInDubaiStudioCityDetail = ({ subtitle, title, reviewsbg, titleSeo,
                         <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
                         <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
                             <b>We provide 2-month service warranty</b><br />
-                            and <small>3-month parts warranty</small>as standard.</p>
+                            and <small>3-month parts warranty</small> as standard.</p>
 
                         <h3>We specialise in air conditioning services for the following brands</h3>
 
