@@ -522,7 +522,6 @@ const AcRepairInAlRashidiyaDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                     </div>
                 </section>
 
-
                 {/* We specialise in air conditioning services for the following brands */}
                 <WeSpecialise />
 
