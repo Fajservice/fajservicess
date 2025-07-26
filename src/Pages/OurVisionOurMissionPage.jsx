@@ -12,16 +12,16 @@ const OurVisionOurMissionPage = () => {
         <>
              <HelmetProvider>
         <Helmet>
-          <title>About Us - Appliances Service Center - #1 AC Repair Company</title>
-          <meta name="description" content="About Us, F A J Technical Services L.L.C. was established in 2010 as an Air Conditioner System, Appliances, Installation Repair Maintenance Servic"></meta>
+          <title>FAJ Vision & Mission | Excellence in Technical Services</title>
+          <meta name="description" content="Explore FAJ's vision and mission to deliver trusted, innovative, and customer-focused AC, appliance, and maintenance services across Dubai and UAE"></meta>
           <meta name="keywords" content="About FAJ Group" />
           <meta name="author" content="F A J Technical Services L.L.C." />
           <meta name="robots" content="index, follow" />
           <link rel="canonical" href="https://www.fajservices.ae/our-vision-and-mission/" />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content="About Us - Appliances Service Center - #1 AC Repair Company" />
-          <meta property="og:description" content="About Us, F A J Technical Services L.L.C. was established in 2010 as an Air Conditioner System, Appliances, Installation Repair Maintenance Servic" />
+          <meta property="og:title" content="FAJ Vision & Mission | Excellence in Technical Services" />
+          <meta property="og:description" content="Explore FAJ's vision and mission to deliver trusted, innovative, and customer-focused AC, appliance, and maintenance services across Dubai and UAE" />
           <meta property="og:url" content="https://www.fajservices.ae/our-vision-and-mission/" />
         </Helmet>
       </HelmetProvider>

@@ -180,20 +180,21 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
           <div className="container">
             <h2>Peace of Mind with Annual Maintenance Contracts</h2>
             <p>Your kitchen equipment and appliances are essential for comfort in your home or business. Like other appliances, they need regular maintenance to operate efficiently and prevent breakdowns. FAJ provides comprehensive annual maintenance contracts (AMC) for café, catering, and restaurant kitchen equipment to ensure your appliances operate smoothly year-round. With our kitchen equipment AMC services, you can enjoy consistent comfort in your space. Experience exceptional peace of mind as we care for your appliances, ensuring optimal performance, energy efficiency, and longevity. Our comprehensive maintenance contract package allows you to say goodbye to unexpected breakdowns. Routine inspections and maintenance of your kitchen equipment are crucial for maintaining efficiency.</p>
-            <h2>HERE ARE THE MAINTENANCE SERVICES WE OFFER FOR KITCHEN EQUIPMENTS</h2>
-            <p>Here are some key points to consider for maintaining commercial kitchen equipment:</p>
+            <h2>The Importance of Kitchen Equipment Maintenance Contract Service</h2>
+            <p className="mb-0">
+              In a commercial kitchen, keeping your equipment efficient and safe is essential. Regular maintenance is not merely a routine task but a vital necessity that can greatly affect your business.
+            </p>
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className="blue-border" src={`${import.meta.env.BASE_URL}img/kitchen-equip-amc-service.avif`} alt="Kitchen Equipments AMC" loading="lazy" />
               </div>
               <div className="col-md-6">
-
                 <ul>
-                  <li> <strong> Service Scheduling: </strong>  Regular maintenance should be scheduled at specific intervals, such as weekly, monthly, or quarterly, depending on the equipment type and its usage. </li>
-                  <li> <strong> Preventive Maintenance: </strong>  This involves cleaning, lubricating, and inspecting kitchen equipment to identify and resolve potential issues before they escalate into major problems. </li>
-                  <li> <strong> Repair and Replacements: </strong>  Timely repairs or replacements are essential to prevent equipment failure and reduce downtime. </li>
-                  <li> <strong> Safety: </strong>  Safety should be a top priority when maintaining equipment. Staff should be trained on proper safety procedures and equipment should be regularly inspected for potential hazards. </li>
-                  <li> <strong> Professional Assistance: </strong>   FAJ professional technician for major repairs and maintenance is important, especially for equipment requiring specialized skills. </li>
+                  <li> <strong>  Ensures Compliance: </strong> Food safety is vital for food service businesses. Regular equipment maintenance prevents contamination and ensures hygienic food preparation. </li>
+                  <li> <strong> Enhances Efficiency and Productivity: </strong> In a bustling kitchen, effective equipment is crucial for maintaining productivity and satisfying customer demands. </li>
+                  <li> <strong> Enhances Safety for Staff: </strong> A safe working environment is crucial for your staff's well-being. Regular maintenance helps prevent accidents and injuries from faulty equipment. </li>
+                  <li> <strong> Maintains Consistent Food Quality: </strong> Consistent food quality is vital for customer satisfaction and repeat business. Regular maintenance ensures your equipment functions properly for uniform cooking results.</li>
+                  <li> <strong> Cost Savings on Repairs: </strong> Addressing minor issues quickly can save your business on repairs and emergency calls. Regular kitchen maintenance is essential for the longevity, efficiency, and safety of your equipment.</li>
                 </ul>
               </div>
             </div>
@@ -310,18 +311,14 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
         {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30">The Importance of Kitchen Equipment Maintenance Contract Service</h2>
-            <p>
-              In a commercial kitchen, keeping your equipment efficient and safe is essential. Regular maintenance is not merely a routine task but a vital necessity that can greatly affect your business.
-            </p>
-
+            <h2 className="cs_fs_30">HERE ARE THE MAINTENANCE SERVICES WE OFFER FOR KITCHEN EQUIPMENTS</h2>
             <div className="row align-items-center">
               <div className="col-xl-6">
                 <iframe
                   className="bordered-img blue-border"
                   width="100%"
                   height="350"
-                  src="https://www.youtube.com/embed/45IUOnKHjKw?si=2x6Q4RPxVZUtOVKy"
+                  src="https://www.youtube.com/embed/boj7h-gOf7M?si=IZFb6k8XekVjCquR"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -330,13 +327,16 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
               </div>
 
               <div className="col-xl-6">
+                <p className="mb-0">Here are some key points to consider for maintaining commercial kitchen equipment:
+                </p>
                 <ul>
-                  <li> <strong>  Ensures Compliance: </strong> Food safety is vital for food service businesses. Regular equipment maintenance prevents contamination and ensures hygienic food preparation. </li>
-                  <li> <strong> Enhances Efficiency and Productivity: </strong> In a bustling kitchen, effective equipment is crucial for maintaining productivity and satisfying customer demands. </li>
-                  <li> <strong> Enhances Safety for Staff: </strong> A safe working environment is crucial for your staff's well-being. Regular maintenance helps prevent accidents and injuries from faulty equipment. </li>
-                  <li> <strong> Maintains Consistent Food Quality: </strong> Consistent food quality is vital for customer satisfaction and repeat business. Regular maintenance ensures your equipment functions properly for uniform cooking results.</li>
-                  <li> <strong> Cost Savings on Repairs: </strong> Addressing minor issues quickly can save your business on repairs and emergency calls. Regular kitchen maintenance is essential for the longevity, efficiency, and safety of your equipment.</li>
+                  <li> <strong> Service Scheduling: </strong>  Regular maintenance should be scheduled at specific intervals, such as weekly, monthly, or quarterly, depending on the equipment type and its usage. </li>
+                  <li> <strong> Preventive Maintenance: </strong>  This involves cleaning, lubricating, and inspecting kitchen equipment to identify and resolve potential issues before they escalate into major problems. </li>
+                  <li> <strong> Repair and Replacements: </strong>  Timely repairs or replacements are essential to prevent equipment failure and reduce downtime. </li>
+                  <li> <strong> Safety: </strong>  Safety should be a top priority when maintaining equipment. Staff should be trained on proper safety procedures and equipment should be regularly inspected for potential hazards. </li>
+                  <li> <strong> Professional Assistance: </strong>   FAJ professional technician for major repairs and maintenance is important, especially for equipment requiring specialized skills. </li>
                 </ul>
+
               </div>
             </div>
           </div>

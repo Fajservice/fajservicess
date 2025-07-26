@@ -156,7 +156,7 @@ const Footer1 = () => {
                   src={`${import.meta.env.BASE_URL}img/icons/payment_card.png`}
                   alt="Accepted payment methods"
                   loading="lazy"
-                  width="300"
+                  width="370"
                   height="24"
                   style={{ objectFit: 'contain' }}
                 />
