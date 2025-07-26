@@ -180,7 +180,7 @@ const AcRepairInGardensDetails = ({ subtitle, title, reviewsbg, titleSeo, descri
                 {/* Why is AC Maintenance Service Important in Dubai? */}
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
-                        <h2 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h2>
+                        <h2 className="cs_fs_30">Why is AC Maintenance Service Important in The Gardens?</h2>
                         <p>
                             Regular air conditioner (AC) maintenance service in The Gardens is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you in The Gardens, contact us.
                         </p>

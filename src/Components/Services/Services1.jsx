@@ -3,6 +3,20 @@ import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import data from '../../Data/services1.json';
 import SectionTitle from "../Common/SectionTitle";
+import { TbAirConditioning } from "react-icons/tb";
+import { PiOvenDuotone } from "react-icons/pi";
+import { LuRefrigerator } from "react-icons/lu";
+import { GiWashingMachine } from "react-icons/gi";
+import { MdOutlineCoffeeMaker } from "react-icons/md";
+import { GrHostMaintenance } from "react-icons/gr";
+const iconMap = {
+    "Air Conditioning Services": TbAirConditioning,
+    "Commercial Refrigeration Services": LuRefrigerator,
+    "Laundry Equipment Services": GiWashingMachine,
+    "Coffee Machine Services": MdOutlineCoffeeMaker,
+    "Kitchen Equipment Services":PiOvenDuotone,
+    "Home Appliances Service Center": GrHostMaintenance
+};
 
 const Services1 = () => {
     const sliderRef = useRef(null);
@@ -89,38 +103,39 @@ const Services1 = () => {
     );
 };
 
-const ServiceCard = ({ item }) => (
-    <div className="cs_slide">
-        <div className="cs_card cs_style_1">
-            <div className="cs_card_thumbnail">
-                <img 
-                    src={`${import.meta.env.BASE_URL}${item.img}`} 
-                    loading="lazy" 
-                    alt={item.title} 
-                />
-            </div>
-            <div className="cs_card_info cs_white_bg cs_radius_10 text-center">
-                <div className="cs_card_icon cs_center cs_heading_bg cs_mb_22">
+const ServiceCard = ({ item }) => {
+    // Get the appropriate icon component based on the service title
+    const IconComponent = iconMap[item.title] || PiOvenDuotone; // Fallback to home icon
+    
+    return (
+        <div className="cs_slide">
+            <div className="cs_card cs_style_1">
+                <div className="cs_card_thumbnail">
                     <img 
-                        src={`${import.meta.env.BASE_URL}${item.icon}`} 
+                        src={`${import.meta.env.BASE_URL}${item.img}`} 
                         loading="lazy" 
-                        alt={`${item.title} icon`} 
+                        alt={item.title} 
                     />
                 </div>
-                <h3 className="cs_card_title cs_fs_20 cs_mb_8">
-                    <Link to={item.btnLink}>{item.title}</Link>
-                </h3>
-                <p className="cs_card_subtitle cs_mb_18">{item.desc}</p>
-                <Link to={item.btnLink} className="cs_text_btn cs_style_1 cs_bold cs_heading_color">
-                    <span className="cs_btn_text text-uppercase">{item.btnText}</span>
-                    <span className="cs_btn_icon cs_center">
-                        <DoubleArrowIcon />
-                    </span>
-                </Link>
+                <div className="cs_card_info cs_white_bg cs_radius_10 text-center">
+                    <div className="cs_card_icon cs_center cs_heading_bg cs_mb_22">
+                        <IconComponent size={70} className="cs_react_icon text-white" />
+                    </div>
+                    <h3 className="cs_card_title cs_fs_20 cs_mb_8">
+                        <Link to={item.btnLink}>{item.title}</Link>
+                    </h3>
+                    <p className="cs_card_subtitle cs_mb_18">{item.desc}</p>
+                    <Link to={item.btnLink} className="cs_text_btn cs_style_1 cs_bold cs_heading_color">
+                        <span className="cs_btn_text text-uppercase">{item.btnText}</span>
+                        <span className="cs_btn_icon cs_center">
+                            <DoubleArrowIcon />
+                        </span>
+                    </Link>
+                </div>
             </div>
         </div>
-    </div>
-);
+    );
+};
 
 const SliderArrows = ({ onClick }) => (
     <div className="cs_slider_arrows cs_style_1">
