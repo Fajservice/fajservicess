@@ -117,7 +117,7 @@ const AcRepairInDamacHillsDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                 <section className="section cs_py_30">
                     <div className="container">
                         <h1 className="cs_fs_30">AC Repair & Service in Damac Hills</h1>
-                        {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
+
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Damac Hills, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 
@@ -183,9 +183,9 @@ const AcRepairInDamacHillsDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                 {/* Why is AC Maintenance Service Important in Dubai? */}
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
-                        <h2 className="cs_fs_30">WWhy is AC Maintenance Service Important in Damac Hills?</h2>
+                        <h2 className="cs_fs_30">Why is AC Maintenance Service Important in Damac Hills?</h2>
                         <p>
-                            Regular air conditioner (AC) maintenance service in Damac Hills is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you in Damac Hills,contact us.
+                            Regular air conditioner (AC) maintenance service in Damac Hills is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you in Damac Hills, contact us.
                         </p>
 
                         <div className="row align-items-center">
