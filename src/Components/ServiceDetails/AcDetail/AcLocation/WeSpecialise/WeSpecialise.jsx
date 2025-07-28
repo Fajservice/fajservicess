@@ -1,5 +1,3 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
 import GetQuoteButton from '../../../../Buttons/GetQuoteButton'
 import CallNowButton from '../../../../Buttons/CallNowButton'
 import LocationKeyword from '../LocationKeyword'
