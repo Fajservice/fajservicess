@@ -461,7 +461,8 @@ const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Schedule a day and time for your White Westinghouse appliance repair in Dubai or Sharjah, allowing a 3-4 hour window for the technician's arrival.</p>
+                    <p>Schedule your White Westinghouse appliance repair in Dubai or Sharjah with a 3–4 hour window for the technician’s arrival.
+                      "</p>
                   </div>
                 </div>
 
@@ -480,7 +481,7 @@ const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We specialize in White Westinghouse appliance repair, which is why major brands trust us to handle their service and maintenance needs.</p>
+                    <p>We specialize in White Westinghouse appliance repair, trusted by brands for reliable service and maintenance.</p>
                   </div>
                 </div>
                 <div className="uspitem">

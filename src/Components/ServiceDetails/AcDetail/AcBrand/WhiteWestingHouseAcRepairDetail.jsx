@@ -134,7 +134,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descr
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1">White Westinghouse Ac Maintenance and Services </h2>
+                <h2 className="cs_fs_20 mb-1" style={{ fontSize: "18px" }}>White Westinghouse Ac Maintenance and Services </h2>
 
                 <p className="mb-2">
                   If you are located in Dubai and need AC repair services for White Westinghouse air conditioners, FAJ is prepared to assist you.
@@ -391,7 +391,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descr
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">FAN ASSESSMENT</h3>
                       <p className="small">
-                        We make sure the fan operates properly and there are no blockages in evaporator coil..
+                        We make sure fan operates properly and there are no blockages in evaporator coil.
                       </p>
                     </div>
                   </div>
@@ -474,7 +474,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descr
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your White Westinghouse AC repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.
+                    <p>Choose a day and time for your White Westinghouse AC repair in Dubai or Sharjah, with a 3-4 hour window for technician arrival.
                     </p>
                   </div>
                 </div>

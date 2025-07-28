@@ -258,7 +258,7 @@ const GeGeneralElectricFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">GE General Oven</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">GE General ovens often experience issues such as improper heating, unignited burners, ignition problems in gas models, and faulty knobs or controls.</p>
+                    <p className="p-2 mb-0">GE General ovens often face issues like improper heating, unignited burners, ignition problems, and faulty knobs or controls.</p>
                   </div>
                 </div>
               </div>
@@ -460,7 +460,7 @@ const GeGeneralElectricFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Schedule a day and time for your GE General appliance repair in Dubai or Sharjah, allowing a 3-4 hour window for the technician's arrival.</p>
+                    <p>Schedule a time for your GE General appliance repair in Dubai or Sharjah, allowing a 3–4 hour window for the technician's arrival.</p>
                   </div>
                 </div>
 
@@ -515,8 +515,8 @@ const GeGeneralElectricFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
         <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">
             <DaiganosisCharges
-                appliancebrand="GE General Appliance"
-                feeRange="ranging from AED 157 to 280"
+              appliancebrand="GE General Appliance"
+              feeRange="ranging from AED 157 to 280"
             />
             <h3 className="cs_fs_28">We specialize in GE General appliance services of the following types</h3>
             <div className="row">

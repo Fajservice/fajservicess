@@ -486,7 +486,7 @@ const AcRepairInJebelAliDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">We Are Experts</h3>
-                                        <p>We are experts in AC repair. This is why most major brands trust us to handle their service and maintenance needs.</p>
+                                        <p>We are experts in AC service in Jebel Ali. This is why most major brands trust us to handle their service and maintenance needs.</p>
                                     </div>
                                 </div>
                                 <div className="uspitem">
@@ -496,7 +496,7 @@ const AcRepairInJebelAliDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Great Value</h3>
-                                        <p>We are experts in AC service in Jebel Ali. This is why most major brands trust us to handle their service and maintenance needs.</p>
+                                        <p>We are dedicated to ensuring customer satisfaction with timely service, prompt issue resolution, and affordable prices.</p>
                                     </div>
                                 </div>
                                 <div className="uspitem mb-0">

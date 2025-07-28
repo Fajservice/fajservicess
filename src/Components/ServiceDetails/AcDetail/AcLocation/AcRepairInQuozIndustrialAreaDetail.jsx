@@ -7,9 +7,7 @@ import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
-import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMaintenance";
-import QuickGuide from "../../../QuickGuide/QuickGuide";
-import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
+
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
@@ -488,7 +486,7 @@ const AcRepairInQuozIndustrialAreaDetail = ({ subtitle, title, reviewsbg, titleS
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>Choose a day and time for your AC repair near me, Al Quoz Industrial Area Dubai or Sharjah, with a 3-4 hour window for technician arrival.</p>
+                    <p>We are experts in AC service in Al Quoz Industrial Area, which is why major brands trust us for their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">

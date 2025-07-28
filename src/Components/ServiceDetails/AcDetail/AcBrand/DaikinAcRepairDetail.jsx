@@ -178,7 +178,7 @@ const DaikinAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
 
             <h2 className="cs_fs_30">Why is Daikin AC Maintenance Service Important in Dubai?</h2>
             <p className="">
-              To keep your Daikin air conditioner running efficiently in Dubai, regular <a href="https://www.fajservices.ae/ac-maintenance-dubai/"> AC maintenance</a>is key. At FAJ, our experienced team is here to ensure your comfort.
+              To keep your Daikin air conditioner running efficiently in Dubai, regular <a href="https://www.fajservices.ae/ac-maintenance-dubai/"> AC maintenance</a> is key. At FAJ, our experienced team is here to ensure your comfort.
               <br />For convenient AC maintenance in your area, contact us!
 
             </p>
@@ -395,7 +395,7 @@ const DaikinAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">FAN ASSESSMENT</h3>
                       <p className="small">
-                        We make sure the fan operates properly and there are no blockages in evaporator coil..
+                        We make sure fan operates properly and there are no blockages in evaporator coil.
                       </p>
                     </div>
                   </div>

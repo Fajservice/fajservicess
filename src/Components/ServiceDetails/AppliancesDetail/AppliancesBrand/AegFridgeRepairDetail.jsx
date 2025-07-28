@@ -118,7 +118,7 @@ const AegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
           <div className="container">
             <h1 className="cs_fs_30">AEG Home Appliance Repair Service and Installation</h1>
             <p>
-              Having trouble finding a local technician for your AEG kitchen appliances? <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been providing reliable, affordable appliance repairs since 2010. Our trusted network of qualified professionals ensures that, whenever possible, we’ll send a technician with direct experience handling your specific AEG model.
+              Having trouble finding a local technician for your AEG kitchen appliances? <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been providing reliable, affordable appliance repairs since 2010. Our trusted network of qualified professionals ensures that, whenever possible, we’ll send a technician with direct experience handling your specific AEG model.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -525,8 +525,8 @@ const AegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
         <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">
             <DaiganosisCharges
-                appliancebrand="AEG Appliance"
-                feeRange="ranging from AED 157 to 280"
+              appliancebrand="AEG Appliance"
+              feeRange="ranging from AED 157 to 280"
             />
             <h3>We specialize in AEG appliance services of the following types</h3>
             <div className="row">

@@ -353,7 +353,7 @@ const ColemenAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-10 text-center">
-                <h2 className="cs_fs_30 text-light">We specialise in coleman ac services for the following types </h2>
+                <h2 className="cs_fs_30 text-light">Benefits of Regular Coleman AC Service and Maintenance in Dubai </h2>
 
                 <div className="row mt-4 gx-4 gy-4">
                   <div className="col-md-4 mb-2">

@@ -383,7 +383,7 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">FAN ASSESSMENT</h3>
                       <p className="small">
-                        We make sure the fan operates properly and there are no blockages in evaporator coil..
+                        We make sure fan operates properly and there are no blockages in evaporator coil.
                       </p>
                     </div>
                   </div>

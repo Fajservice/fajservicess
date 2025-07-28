@@ -220,11 +220,11 @@ const FisherPaykelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Fisher & Paykel Washing Machine</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Washing Machine Problems</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Fisher & Paykel washing machines include drainage problems, leaks, faulty PCBs, and issues with the belt, door switch, or drum spinning.
+                      Fisher & Paykel washing machines include common drainage problems, leaks, faulty PCBs, and issues with the belt, door switch, or drum spinning.
                     </p>
                   </div>
                 </div>
@@ -246,11 +246,11 @@ const FisherPaykelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Fisher & Paykel Cooker / Stove</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Cooker / Stove Problem</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Common issues with Fisher & Paykel stoves include uneven heating and flame problems, such as a broken burner element, faulty switch, or an electric gas malfunction.
+                      Common Fisher & Paykel stove issues include uneven heating and flame problems, such as a broken burner element, faulty switch, or electric gas malfunction.
                     </p>
                   </div>
                 </div>
@@ -470,7 +470,7 @@ const FisherPaykelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your Fisher & Paykel appliance repair in Dubai or Sharjah, allowing a 3 to 4 hour window for our technician's arrival.</p>
+                    <p>Choose a time for your Fisher & Paykel appliance repair in Dubai or Sharjah, allowing a 3 to 4 hour window for technician arrival.</p>
                   </div>
                 </div>
 
@@ -489,7 +489,7 @@ const FisherPaykelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p> We are specialists in Fisher & Paykel appliance repair, which is why major brands trust us to manage their service and maintenance.</p>
+                    <p> We specialize in Fisher & Paykel appliance repair, which is why major brands trust us to manage their service and maintenance.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -525,8 +525,8 @@ const FisherPaykelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, 
         <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">
             <DaiganosisCharges
-                appliancebrand="Fisher & Paykel Appliance"
-                feeRange="ranging from AED 157 to 280"
+              appliancebrand="Fisher & Paykel Appliance"
+              feeRange="ranging from AED 157 to 280"
             />
             <h3>We specialize in Fisher & Paykel appliance services of the following types</h3>
             <div className="row">

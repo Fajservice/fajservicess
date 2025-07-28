@@ -497,7 +497,9 @@ const AcRepairInAlBarariDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">Great Value</h3>
-                                        <p>We are experts in AC service in Al Barari. This is why most major brands trust us to handle their service and maintenance needs.</p>
+                                        <p>
+                                            We are dedicated to ensuring customer satisfaction with timely service, prompt issue resolution, and affordable prices.
+                                        </p>
 
                                     </div>
                                 </div>

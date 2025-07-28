@@ -26,8 +26,8 @@ import LocationKeyword from "./LocationKeyword";
 const AcRepairInAlBarshaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In Al Barsha South - O General AC Repair Service");
-    const metadescription = String(description || "043300002 FAJ AC Services in Al Barsha South Dubai. We are experts in central & split air condition maintenance & repairing near me Dubai AC fix");
+    const metatitle = String(titleSeo || "AC Services In Al Barsha - O General AC Repair Service");
+    const metadescription = String(description || "043300002 FAJ AC Services in Al Barsha Dubai. We are experts in central & split air condition maintenance & repairing near me Dubai AC fix");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Service in Al Barsha, AC Repair in Al Barsha, Air Conditioning Service in Al Barsha, Air Conditioner Repair in Al Barsha, AC Maintenance in Al Barsha, Air Conditioning Maintenance in Al Barsha, AC Installation in Al Barsha, Air Conditioner Installation in Al Barsha, AC Cleaning in Al Barsha, Air Conditioner Cleaning in Al Barsha");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-repair-in-al-barsha-air-condition-maintenance-in-al-barsha-air-conditioning-fix-amc-service-in-al-barsha-dubai/").replace(/\/?$/, '/');
@@ -361,7 +361,7 @@ const AcRepairInAlBarshaDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
 
                 {/* The Benefits Of Regular AC Service*/}
-                
+
                 <section className="section cs_py_30 ac_benifit_blue">
                     <div className="container">
                         <div className="row justify-content-center">

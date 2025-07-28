@@ -472,7 +472,9 @@ const ThemadorAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo,
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your Thermador  appliance repair in Dubai or Sharjah, allowing a 3-4 hour window for our technician's arrival.</p>
+                    <p>
+                      Choose a time for your Thermador appliance repair in Dubai or Sharjah, allowing a 3–4 hour window for technician arrival.
+                    </p>
                   </div>
                 </div>
 
@@ -527,8 +529,8 @@ const ThemadorAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo,
         <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">
             <DaiganosisCharges
-                appliancebrand="Thermador Appliance" 
-                feeRange="ranging from AED 157 to 280" 
+              appliancebrand="Thermador Appliance"
+              feeRange="ranging from AED 157 to 280"
             />
             <h3 className="cs_fs_28">We specialize in Thermador  appliance services of the following types</h3>
             <div className="row">

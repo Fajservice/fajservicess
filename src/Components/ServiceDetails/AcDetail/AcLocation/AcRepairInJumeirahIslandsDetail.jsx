@@ -472,7 +472,8 @@ const AcRepairInJumeirahIslandsDetail = ({ subtitle, title, reviewsbg, titleSeo,
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">You Are in Control</h3>
-                                        <p>Choose a day and time for your AC repair near me, Jumeirah Village Circle Dubai or Sharjah, with a 3-4 hour window for technician arrival.
+                                        <p>
+                                            Choose a day and time for your AC repair near me, Jumeirah Islands Dubai or Sharjah, with a 3-4 hour window for technician arrival.
                                         </p>
                                     </div>
                                 </div>

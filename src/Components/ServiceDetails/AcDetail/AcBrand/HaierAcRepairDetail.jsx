@@ -177,8 +177,7 @@ const HaierAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
 
             <h2 className="cs_fs_30">Why is Haier AC Maintenance Service Important in Dubai?</h2>
             <p className="mb-2">
-              To guarantee your Haier central air conditioner functions efficiently in Dubai's intense heat, regular
-              <a href="https://www.fajservices.ae/ac-maintenance-dubai/"> AC maintenance</a> is essential. At FAJ, we offer expert aircon services designed to enhance your system’s performance and comfort year-round. Trust us to keep your air conditioner operating at its best.
+              To guarantee your Haier central air conditioner functions efficiently in Dubai's intense heat, regular AC maintenance is essential. At FAJ, we offer expert aircon services designed to enhance your system’s performance and comfort year-round. Trust us to keep your air conditioner operating at its best.
             </p>
 
             <div className="row align-items-center">
@@ -390,7 +389,7 @@ const HaierAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
                       </div>
                       <h3 className="text-uppercase mb-2 fs-6 text-white">FAN ASSESSMENT</h3>
                       <p className="small">
-                        We make sure the fan operates properly and there are no blockages in evaporator coil..
+                        We make sure fan operates properly and there are no blockages in evaporator coil.
                       </p>
                     </div>
                   </div>
