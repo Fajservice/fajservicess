@@ -163,7 +163,7 @@ const AcRepairInAlWarqaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                         </div>
 
                         <div className="appointment-col border-small-top pt-3">
-                            <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability. For technical inspection / callout of<b /> <b /> <Link to="/ac-maintenance-dubai/"><b>AC maintenance</b></Link>, air conditioning repair, or AC maintenance near me in Al Warqa. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+                            <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability. For technical inspection / callout of<b /> <b /> <Link to="/ac-maintenance-dubai/"><b>AC cleaning service</b></Link>, air conditioning repair, or AC maintenance near me in Al Warqa. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
                             <div id="get-quote" className=" mt-3">
                                 <div className="container d-flex justify-content-center align-items-center gap-3">
                                     <WhatsappIconButton />
@@ -196,7 +196,7 @@ const AcRepairInAlWarqaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
 
                                     <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend your air conditioning unit’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
                                     <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
-                                    <li> <strong> Enhanced Comfort: </strong> Regular <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC cleaning service </b></a> in Al Warqa Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
+                                    <li> <strong> Enhanced Comfort: </strong> Regular cleaning service in Al Warqa Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
                                 </ul>
                             </div>
                         </div>

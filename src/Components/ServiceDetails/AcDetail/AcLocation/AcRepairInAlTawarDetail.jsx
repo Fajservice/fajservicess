@@ -6,9 +6,6 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
-import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMaintenance";
-import QuickGuide from "../../../QuickGuide/QuickGuide";
-import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
@@ -16,7 +13,6 @@ import testimonial from '../../../../Data/AcData/AcTestimonial/AcServiceTestimon
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
-import WeSpecialise from "./WeSpecialise/WeSpecialise";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import LocationKeyword from "./LocationKeyword";
@@ -180,7 +176,7 @@ const AcRepairInAlTawarDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                 {/* Why is AC Maintenance Service Important in Dubai? */}
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
-                        <h2 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h2>
+                        <h2 className="cs_fs_30">Why is AC Maintenance Service Important in Al Tawar?</h2>
                         <p>
                             Regular air conditioner (AC) maintenance service in Al Tawar is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you in Al Tawar, contact us.
                         </p>
@@ -201,10 +197,6 @@ const AcRepairInAlTawarDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
 
                                     <li> <strong> Enhanced Comfort: </strong> Regular AC cleaning service in Al Tawar Dubai ensures comfort, efficiency, and consistent cooling daily.
                                     </li>
-
-
-
-
                                 </ul>
                             </div>
                         </div>

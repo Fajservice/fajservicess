@@ -6,9 +6,6 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
-import BenefitAcMaintenance from "../../../BenefitAcMaintenance/BenefitAcMaintenance";
-import QuickGuide from "../../../QuickGuide/QuickGuide";
-import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
@@ -16,7 +13,6 @@ import testimonial from '../../../../Data/AcData/AcTestimonial/AcServiceTestimon
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
-import WeSpecialise from "./WeSpecialise/WeSpecialise";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import Practicaltip from "../../../Common/Practicaltip";
@@ -182,7 +178,7 @@ const AcRepairinTheGreensDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                 {/* Why is AC Maintenance Service Important in Dubai? */}
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
-                        <h4 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h4>
+                        <h4 className="cs_fs_30">Why is AC Maintenance Service Important in The Greens?</h4>
                         <p>
                             Regular air conditioner (AC) maintenance service in The Greens is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you, contact us.
                         </p>
@@ -199,7 +195,7 @@ const AcRepairinTheGreensDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
                                     <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend your air condition unit’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
                                     <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
-                                    <li> <strong> Enhanced Comfort: </strong> Regular <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a> in Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
+                                    <li> <strong> Enhanced Comfort: </strong> Regular AC servicing in Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
 
 
 
