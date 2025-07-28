@@ -159,7 +159,7 @@ const AcRepairInAlBarshaSouthDetail = ({ subtitle, title, reviewsbg, titleSeo, d
             </div>
 
             <div className="appointment-col border-small-top pt-3">
-              <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of AC cleaning service, air conditioning repair, or AC maintenance near me in Al Barsha South. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+              <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <a href="/ac-service-in-dubai"><b>AC cleaning service</b></a>, air conditioning repair, or AC maintenance near me in Al Barsha South. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
               <div id="get-quote" className=" mt-3">
                 <div className="container d-flex justify-content-center align-items-center gap-3">
                   <WhatsappIconButton />
@@ -191,7 +191,7 @@ const AcRepairInAlBarshaSouthDetail = ({ subtitle, title, reviewsbg, titleSeo, d
                   <li> <strong> Energy Efficiency: </strong> A well-maintained AC unit operates more efficiently, using less energy and lowering both electricity bills.</li>
                   <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend your air conditioning unit’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
                   <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
-                  <li> <strong> Enhanced Comfort: </strong> Regular <b>AC Cleaning service</b> in Al Barsha South ensures comfort, efficiency, and consistent cooling daily.</li>
+                  <li> <strong> Enhanced Comfort: </strong> Regular AC Cleaning service in Al Barsha South ensures comfort, efficiency, and consistent cooling daily.</li>
                 </ul>
               </div>
             </div>

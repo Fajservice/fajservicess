@@ -136,7 +136,7 @@ const AcRepairInNadAlHammarDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                                 <h2 className="cs_fs_24 mb-1">Best AC Repair in Nad Al Hammar</h2>
                                 <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  near me in Nad Al Hammar, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
 
-                                <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
+                                <p>We specialize in air conditioner (AC) repair, service, and maintenance near me in Nad Al Hammar Dubai. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
                                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
                                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                                 <div className="row">
@@ -163,7 +163,7 @@ const AcRepairInNadAlHammarDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                         </div>
 
                         <div className="appointment-col border-small-top pt-3">
-                            <p>We specialise in air conditioner (AC) repair, service, and maintenance near me in Nad Al Hammar Dubai. The  <Link to="https://www.facebook.com/FAJTechnicalServicesLLC"><b>FAJ team</b></Link>, is dedicated to ensuring a comfortable temperature all year round.</p>
+                            <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability. For technical inspection / callout of  <Link to="/ac-service-in-dubai"><b>AC cleaning service</b></Link>, air conditioning repair, or AC maintenance near me in Nad Al Hammar. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
                             <div id="get-quote" className=" mt-3">
                                 <div className="container d-flex justify-content-center align-items-center gap-3">
                                     <WhatsappIconButton />
