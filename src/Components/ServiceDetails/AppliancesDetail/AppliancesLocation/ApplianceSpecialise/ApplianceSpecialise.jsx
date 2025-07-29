@@ -35,9 +35,9 @@ const ApplianceSpecialise = () => {
                                 : When you need Electrolux appliance repair in Dubai, we have a team of professional and qualified technicians available throughout the UAE.
                             </p>
                             <p className="mb-0">
-                                <Link to="/bosch-home-appliances-repair/">
-                                    <b>Bosch Appliance Service</b>
-                                </Link>
+                                {/* <Link to="/bosch-home-appliances-repair/">
+                                </Link> */}
+                                <b>Bosch Appliance Service</b>
                                 : If you are looking for the best Bosch refrigerator repair company in Dubai, FAJ is the ideal choice. They are known for providing exceptional service for all Bosch home appliance repair and are recognized as the leading Bosch cooking range, Washing machine, refrigerator service provider in the area.
                             </p>
                             <p className="mb-0">
@@ -253,8 +253,8 @@ const ApplianceSpecialise = () => {
                     </div>
 
                 </div>
-            </section>
-        </div>
+            </section >
+        </div >
     )
 }
 

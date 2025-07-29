@@ -323,11 +323,12 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
             </p>
             <div className="row align-items-center">
               <div className="col-xl-6">
+
                 <iframe
                   className="bordered-img blue-border"
                   width="100%"
                   height="350"
-                  src="https://www.youtube.com/embed/Cye_OFTAT3E"
+                  src="https://www.youtube.com/embed/boj7h-gOf7M?si=NGo8-AL3GCCePGf1"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -336,8 +337,6 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               </div>
 
               <div className="col-xl-6">
-
-
                 <p className='mb-0'><strong>Our services include:</strong></p>
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
                   <li><strong>Kitchen Equipment Installation: </strong>Professional installation of various brands and types of professional kitchen equipment for optimal performance and efficiency.</li>
@@ -361,7 +360,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               </h2>
               <div className="row gx-3 gy-5 mt-0">
 
-                <div className="col-md-3 mb-2">
+                <div className="col-md-4 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
@@ -375,7 +374,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                   </div>
                 </div>
 
-                <div className="col-md-3 mb-2">
+                <div className="col-md-4 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
@@ -390,7 +389,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                   </div>
                 </div>
 
-                <div className="col-md-3 mb-2">
+                <div className="col-md-4 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
@@ -404,7 +403,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                   </div>
                 </div>
 
-                <div className="col-md-3 mb-2">
+                <div className="col-md-4 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
@@ -418,7 +417,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                   </div>
                 </div>
 
-                <div className="col-md-3 mb-2">
+                <div className="col-md-4 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
@@ -431,7 +430,8 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                     </div>
                   </div>
                 </div>
-                <div className="col-md-3 mb-2">
+
+                <div className="col-md-4 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block border-0">
@@ -444,28 +444,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                     </div>
                   </div>
                 </div>
-                <div className="col-md-3 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/annual-contract-b.jpg`} alt="annual contract icon" className="rounded shadow" loading="lazy" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Report and Updates</h3>
-                      <p className="small">FAJ is issuing a report on the status and upkeep of commercial kitchen equipment, emphasising necessary actions for enhancing efficiency and safety.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-3 mb-2">
-                  <div className="">
-                    <div className="benifit-box-container">
-                      <div className="icon-img-block border-0">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/installation-b.jpg`} alt="installation icon" className="rounded shadow" loading="lazy" />
-                      </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Experts and Trained</h3>
-                      <p className="small">FAJ employs technicians to provide customers with effective maintenance and repair services for commercial kitchen equipment to ensure satisfaction.</p>
-                    </div>
-                  </div>
-                </div>
+
               </div>
             </div>
           </div>
@@ -574,7 +553,6 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                 <p className="mb-0"><strong>MKN, Rational, Ozti, Alto-Shaam, Amana Commercial, Bakers Pride, Convotherm, Professional Electrolux, Fagor, Hobart, Conti, Caplain, Fri-Jado, Spaa, Empero, Menumaster Commercial, Unox, Capinox, Simonelli, Hoshizaki, Dr. Coffee, Bunn, Venix, La Marzocco, De'Longhi, Jura, Anmo, Marco, Feema, Conveyor, Zanussi, Meiko, Elframo, Brema, Eurfrigor, Follett, Foster's, Icetech, Simag, Wolf, Smeg, Viking, True Star, Salva, Miska, Irinox, GBG, Cooktek, Toastmaster, Lincat, Helia Smoker, Faema, Cino, Blendtec, Wells, Tekno Stamap, Hamilton Beach, Williams, Trubchif, Pitco, Josper, Hamilton Beach, Gemm, Berto's, Victoria, Scotsman, Kromo, Hatco, Coreco, La Cimbali, Antunes, Zumex, Santos, Middleby, Jordao, Sesmon, Nemco Food, Matick Pastry, Klimasan, Robot Coupe, Roller Grill, Santos, KitchenAid, Server, Aristarco, Brema, American Range, and Pizza Group</strong></p>
 
               </div>
-
 
             </div>
 

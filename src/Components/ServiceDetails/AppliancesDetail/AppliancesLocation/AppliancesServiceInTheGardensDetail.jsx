@@ -523,9 +523,6 @@ const AppliancesServiceInTheGardensDetail = ({ subtitle, title, reviewsbg, title
           </div>
         </section>
 
-        {/* Maintenance Contract */}
-        <MaintenanceContract />
-
         {/* We are specialise in Appliances services for the following brands */}
         <ApplianceSpecialise />
 
@@ -555,6 +552,8 @@ const AppliancesServiceInTheGardensDetail = ({ subtitle, title, reviewsbg, title
           </div>
 
         </section>
+        {/* Maintenance Contract */}
+        <MaintenanceContract />
 
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>

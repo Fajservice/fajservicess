@@ -141,7 +141,7 @@ const WashingMachineRepairBusinessBayDetail = ({ subtitle, title, reviewsbg, tit
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Washing Machine Repair Business Bay</h1>
+            <h1 className="cs_fs_30">Washing Machine Repair In Business Bay</h1>
             <p>
               Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
             </p>

@@ -539,8 +539,8 @@ const TerimApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                 <section className="section cs_py_30 bg-light-gray mb-4">
                     <div className="container">
                         <DaiganosisCharges
-                            appliancebrand="Terim Appliance" 
-                            feeRange="ranging from AED 157 to 280" 
+                            appliancebrand="Terim Appliance"
+                            feeRange="ranging from AED 157 to 280"
                         />
                         <h3>We specialize in Terim appliance services of the following types</h3>
                         <div className="row">
@@ -556,7 +556,6 @@ const TerimApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
                                 <h4 className="mt-3">We offer service for Terim appliances in the Dubai area</h4>
                                 <p>
-
                                     <a href="https://www.fajservices.ae/appliances-services-in-business-bay/">Business Bay</a>
                                     <span>&nbsp;|&nbsp;</span>
 

@@ -461,8 +461,9 @@ const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Schedule your White Westinghouse appliance repair in Dubai or Sharjah with a 3–4 hour window for the technician’s arrival.
-                      "</p>
+                    <p>
+                      Schedule your White Westinghouse appliance repair in Dubai or Sharjah with a 3–4 hour window for the technician’s arrival.
+                    </p>
                   </div>
                 </div>
 

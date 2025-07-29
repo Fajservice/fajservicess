@@ -142,7 +142,7 @@ const AppliancesServiceInDamacHillsDetail = ({ subtitle, title, reviewsbg, title
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Home Appliance Service in Al Damac Hills</h1>
+            <h1 className="cs_fs_30">Home Appliance Service in Damac Hills</h1>
             <p>
               Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
             </p>
@@ -164,7 +164,7 @@ const AppliancesServiceInDamacHillsDetail = ({ subtitle, title, reviewsbg, title
                 <h2 className="cs_fs_24 mb-1">Best Home Appliance Service in Dubai</h2>
 
                 <p className="mb-2">
-                  If you need appliance repair, FAJ is your best choice for fast and affordable service in Al Damac Hills Dubai and Sharjah.
+                  If you need appliance repair, FAJ is your best choice for fast and affordable service in Damac Hills Dubai and Sharjah.
                   <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that&apos;s not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
                   <br /> We&apos;re nearby and can get your appliances fixed quickly and efficiently.
                 </p>
@@ -174,7 +174,7 @@ const AppliancesServiceInDamacHillsDetail = ({ subtitle, title, reviewsbg, title
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} loading="lazy" alt="Washing machine repair in Al Damac Hills" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} loading="lazy" alt="Washing machine repair in Damac Hills" />
               </div>
             </div>
             <AppliancesAppointmentCol></AppliancesAppointmentCol>
@@ -191,7 +191,7 @@ const AppliancesServiceInDamacHillsDetail = ({ subtitle, title, reviewsbg, title
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} loading="lazy" alt="Refrigerator Repair in Al Damac Hills" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} loading="lazy" alt="Refrigerator Repair in Damac Hills" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">

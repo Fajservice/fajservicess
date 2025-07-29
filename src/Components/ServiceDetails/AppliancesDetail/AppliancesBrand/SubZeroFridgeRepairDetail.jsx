@@ -147,10 +147,11 @@ const SubZeroFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
                 </p>
 
-                {/* <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service
-                </h3>
-                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
-               */}
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "21px" }}>Fast and Reliable Sub Zero Appliances Service</h3>
+                <p className="mb-2">
+                  At F A J Technical Services L.L.C, we understand that appliance breakdowns, especially with Sub Zero products, never occur at a convenient time. That’s why our trained and qualified Sub Zero technicians are here to offer you reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Sub Zero appliance up and running again before you have a chance to worry about it.
+                </p>
+
               </div>
 
               <div className="col-md-6">
@@ -166,9 +167,9 @@ const SubZeroFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
         <section className="section cs_py_30">
           <div className="container">
 
-            <h3 className="cs_fs_30">Why is Sub Zero Refrigerator Maintenance Service Important in Dubai?</h3>
+            <h3 className="cs_fs_30">Why is Sub Zero Fridge Maintenance Service Important in Dubai?</h3>
             <p className="">
-              Proper Sub Zero refrigerator maintenance is essential for extending its lifespan and improving efficiency, especially given Dubai's climate. Here are the key benefits:
+              Proper Sub Zero fridge maintenance is essential for extending its lifespan and improving efficiency, especially given Dubai's climate. Here are the key benefits:
             </p>
 
             <div className="row align-items-center">
@@ -180,7 +181,7 @@ const SubZeroFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                   <li> <strong>  Sub Zero Refrigerator Extended Lifespan: </strong> Regular maintenance helps prolong life of your refrigerator, ultimately saving you money on replacement costs. </li>
                   <li> <strong>  Sub Zero Fridge Freezer Improved Efficiency: </strong> A well-maintained refrigerator operates more efficiently, consuming less energy and leading to lower utility bills, which is especially important in Dubai. </li>
                   <li> <strong>  Sub Zero Fridge Preventing Costly Repairs: </strong> Addressing minor issues promptly can prevent them from escalating into expensive repairs. </li>
-                  <li> <strong>  Preserving Appliance Integrity: </strong> Routine cleaning prevents dust buildup, which can negatively affect performance. </li>
+                  {/* <li> <strong>  Preserving Appliance Integrity: </strong> Routine cleaning prevents dust buildup, which can negatively affect performance. </li> */}
                   <li> <strong>  Sub Zero Freezer Early Problem Detection: </strong> Regular checks help identify potential issues before they become significant problems. </li>
                   <li> <strong>  Sub Zero Refrigerator Cost-Effectiveness: </strong> Maintenance costs are generally lower than those of early replacements or major repairs. Investing in refrigerator care is a smart economic choice in Dubai, ensuring safety and efficiency. </li>
                   <li> <strong>  Sub Zero Refrigerator Energy Efficiency: </strong> Routine maintenance can boost your refrigerator’s energy efficiency, helping you save money in the long run. </li>
@@ -194,16 +195,16 @@ const SubZeroFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
         {/* The Most Common Problems with Home Appliances */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="text-center">The Most Common Problems with the Sub Zero Fridge and Freezer  </h3>
+            <h3 className="text-center">The Most Common Problems with the Sub Zero Fridge and Freezer </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Not Cooling Properly</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1"> Fridge Not Cooling Properly</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">A common problem with refrigerator is their failure to reach the desired temperature, which can be caused by several factors.</p>
+                    <p className="p-2 mb-0">A common problem with fridges is their failure to reach the desired cooling temperature, which can be caused by several different internal or external factors.</p>
                   </div>
                 </div>
               </div>
@@ -211,11 +212,11 @@ const SubZeroFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Water Leaking from Refrigerator</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Water Leaking from Fridge</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      A common problem with refrigerator is water leakage, usually caused by a blocked defrost drain or a damaged water supply line.
+                      A common problem with fridges is water leakage, usually caused by a blocked defrost drain or a damaged or loose water supply line.
                     </p>
                   </div>
                 </div>
@@ -227,7 +228,9 @@ const SubZeroFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Freezing Food</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">If your refrigerator is freezing food, it may be because of a malfunctioning temperature control thermostat that regulates the cooling voltage.</p>
+                    <p className="p-2 mb-0">
+                      If your refrigerator is freezing food, it could be due to a faulty temperature control thermostat that improperly regulates the cooling system.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -238,7 +241,9 @@ const SubZeroFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Fridge Overheating</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Overheating of a fridge can damage the compressor and other components. It's crucial to address this problem quickly.</p>
+                    <p className="p-2 mb-0">
+                      Overheating of a fridge can damage the compressor and other internal components. It's crucial to address this problem quickly and safely.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -250,7 +255,7 @@ const SubZeroFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Make sure to check the thermostat, as someone might have accidentally bumped or adjusted it without your knowledge.
+                      Make sure to check thermostat carefully, as someone might have accidentally bumped or adjusted it without your knowledge or proper intention or awareness.
                     </p>
                   </div>
                 </div>
@@ -263,7 +268,7 @@ const SubZeroFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      If your fridge is constantly running, there could be several reasons for this.
+                      If your fridge is constantly running, there could be several reasons for this, including dirty coils, faulty sensors, or poor ventilation and airflow issues.
                     </p>
                   </div>
                 </div>
@@ -276,7 +281,7 @@ const SubZeroFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Make sure to keep these coils clean, as dirt and grime can impact cooling efficiency.
+                      Make sure to keep these coils clean, as dirt and grime can impact cooling efficiency, forcing the fridge to work harder and consume more energy over time.
                     </p>
                   </div>
                 </div>
@@ -326,6 +331,7 @@ const SubZeroFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
               <div className="col-xl-6">
                 <p className='mb-0'>We specialize in all types of built-in refrigerator, including fridge freezers.
+                  <br />
                   <strong>Our services include:</strong></p>
                 <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
                   <li> <strong> Sub Zero Refrigerator Installation: </strong> Professional installation services for a variety of refrigerator types, ensuring optimal performance and energy efficiency. </li>

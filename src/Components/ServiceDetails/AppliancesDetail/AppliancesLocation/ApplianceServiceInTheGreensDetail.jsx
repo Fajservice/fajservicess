@@ -172,7 +172,7 @@ const ApplianceServiceInTheGreensDetail = ({ subtitle, title, reviewsbg, titleSe
                             </div>
 
                             <div className="col-md-6 ">
-                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} loading="lazy" alt="Washing machines repairing by faj team" />
+                                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} loading="lazy" alt="Washing machine repair in The Greens" />
                             </div>
                         </div>
                         <AppliancesAppointmentCol></AppliancesAppointmentCol>
@@ -189,7 +189,7 @@ const ApplianceServiceInTheGreensDetail = ({ subtitle, title, reviewsbg, titleSe
 
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} loading="lazy" alt="Technition fixing the appliance" />
+                                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} loading="lazy" alt="Refrigerator Repair in The Greens" />
                             </div>
                             <div className="col-md-6">
                                 <ul className="mb-0">
