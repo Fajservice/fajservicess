@@ -494,7 +494,7 @@ const AcRepairInJumeirahIslandsDetail = ({ subtitle, title, reviewsbg, titleSeo,
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">We Are Experts</h3>
-                                        <p>We are experts in AC service in Jumeirah Village Circle. This is why most major brands trust us to handle their service and maintenance needs.</p>
+                                        <p>We are experts in AC service in Jumeirah Islands. This is why most major brands trust us to handle their service and maintenance needs.</p>
                                     </div>
                                 </div>
                                 <div className="uspitem">
