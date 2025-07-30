@@ -17,6 +17,7 @@ const WeSpecialise = () => {
 
           <h3>We specialise in air conditioning services for the following brands</h3>
 
+
           <ul className="mb-3">
             <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/lg-ac-repair-in-dubai/">LG Air Conditioner Service</a>:</strong> FAJ offers reliable LG AC repair and services in Dubai. With professionals who are experts in split, vrf, and central air conditioning units. Get reliable and fast AC service near me, AC repair, and AC maintenance in Dubai.</li>
             <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/samsung-ac-repair-in-dubai/">Samsung Air Conditioner Repair and Service</a>:</strong> Based in Dubai, FAJ is your go-to destination for Samsung AC repair in Dubai. Specializing in Samsung air conditioner systems, we offer comprehensive AC servicing ranging from AC fixing to AC cleaning service and AC maintenance.</li>
@@ -40,9 +41,6 @@ const WeSpecialise = () => {
           </div>
         </div>
       </section>
-
-
-
     </>
   )
 }

@@ -18,6 +18,8 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import WeSpecialise from "./WeSpecialise/WeSpecialise";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
+import LocationKeyword from "./LocationKeyword";
+import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 
 const AcRepairinAlJafiliyaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -118,16 +120,15 @@ const AcRepairinAlJafiliyaDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                 <section className="section cs_py_30">
                     <div className="container">
                         <h1 className="cs_fs_30">AC Service in Al Jafiliya</h1>
-                        {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
-                            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
+                            <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Al Jafiliya, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 
                         <div id="get-quote" className=" mt-3">
                             <div className="container d-flex justify-content-center align-items-center gap-3">
                                 <WhatsappIconButton />
                             </div>
                         </div>
-                        {/*  */}
+
                     </div>
                 </section>
 
@@ -137,8 +138,9 @@ const AcRepairinAlJafiliyaDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                         <div className="row gx-md-5">
                             <div className="col-md-6">
                                 <h2 className="cs_fs_24 mb-1">Best AC Repair in Al Jafiliya</h2>
-                                <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link>  in Al Jafiliya, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
-                                <p>We specialize in air conditioner (AC) repair, service, and maintenance in Dubai. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
+                                <p className="mb-2">When it comes to <Link to="/ac-repair-dubai/"><b>AC repair</b></Link> near me in Al Jafiliya, it’s essential to hire a professional and trustworthy <Link to="/ac-maintenance-dubai/"><b>AC technician</b></Link> near me for your home AC or office AC.</p>
+
+                                <p>We specialise in air conditioner (AC) repair, service, and maintenance near me in Al Jafiliya Dubai. The <a href="https://www.facebook.com/FAJTechnicalServicesLLC">FAJ team</a> is dedicated to ensuring a comfortable temperature all year round.</p>
                                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top">Signs You Need An AC Service</h2>
                                 <p className="mb-2">If you notice any of these signs, please contact us via WhatsApp. We are here to assist your AC cooling system in achieving optimal efficiency.</p>
                                 <div className="row">
@@ -165,7 +167,7 @@ const AcRepairinAlJafiliyaDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                         </div>
 
                         <div className="appointment-col border-small-top pt-3">
-                            <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/ac-service-in-dubai/"><b>AC cleaning service</b></Link>, repair, or maintenance. Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
+                            <p>If you require a same-day visit, please book before 12 PM. Appointments made after 12 PM will be scheduled for the next day based on availability.<b /> <b />For technical inspection / callout of <Link to="/ac-service-in-dubai/"><b>AC cleaning service</b></Link>, air conditioning repair, or AC maintenance near me in Al Jafiliya.     Please click below. To book an appointment, you can call or reach us on WhatsApp at +971 50 746 4712.</p>
                             <div id="get-quote" className=" mt-3">
                                 <div className="container d-flex justify-content-center align-items-center gap-3">
                                     <WhatsappIconButton />
@@ -177,14 +179,14 @@ const AcRepairinAlJafiliyaDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                 </section>
 
                 {/* AC Price Section */}
-                        <FAJACPrice></FAJACPrice>
+                <FAJACPrice></FAJACPrice>
 
                 {/* Why is AC Maintenance Service Important in Dubai? */}
                 <section className="section cs_py_30 bg-light-gray">
                     <div className="container">
-                        <h2 className="cs_fs_30">Why is AC Maintenance Service Important in Dubai?</h2>
+                        <h2 className="cs_fs_30">Why is AC Maintenance Service Important in Al Jafiliya?</h2>
                         <p>
-                            Regular air conditioner (AC) maintenance service in Dubai is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you, contact us.
+                            Regular air conditioner (AC) maintenance service in Al Jafiliya is essential for optimal performance. FAJ offers comprehensive services to keep your system running efficiently. With our proactive approach, you can feel confident that AC is functioning at its best. If you need <Link to="/ac-maintenance-dubai/">AC maintenance</Link> near you in Al Jafiliya, contact us.
                         </p>
 
                         <div className="row align-items-center">
@@ -197,9 +199,9 @@ const AcRepairinAlJafiliyaDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 
                                     <li> <strong> Energy Efficiency: </strong> A well-maintained AC unit operates more efficiently, using less energy and lowering both electricity bills.</li>
 
-                                    <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend your air condition unit’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
+                                    <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend your air conditioning unit’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
                                     <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
-                                    <li> <strong> Enhanced Comfort: </strong> Regular <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a> in Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
+                                    <li> <strong> Enhanced Comfort: </strong> Regular <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC cleaning service</b></a> in Al Jafiliya Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
                                 </ul>
                             </div>
                         </div>
@@ -344,7 +346,7 @@ const AcRepairinAlJafiliyaDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                                     </li>
 
                                     <li>
-                                        <strong>Annual Maintenance Contract:</strong> This contract outlines the terms and services covered for the annual maintenance of air conditioning units. Regular maintenance is essential for optimal performance, efficiency, and longevity of your air conditioning system.
+                                        <strong>Annual Maintenance Contract:</strong> This contract outlines the terms and services covered for the air conditioner annual maintenance contract in Al Jafiliya. Regular maintenance is essential for optimal performance, efficiency, and longevity of your air conditioning system.
                                     </li>
                                 </ul>
                             </div>
@@ -357,8 +359,7 @@ const AcRepairinAlJafiliyaDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-lg-10 text-center">
-                                <h2 className="cs_fs_30 text-light">Benefits Of Regular AC Service and Maintenance Dubai
-                                </h2>
+                                <h2 className="cs_fs_30 text-light">Benefits Of Regular AC Service and Maintenance in Al Jafiliya</h2>
 
                                 <div className="row mt-4 gx-4 gy-4">
                                     <div className="col-md-4 mb-2">
@@ -463,7 +464,7 @@ const AcRepairinAlJafiliyaDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">You Are in Control</h3>
-                                        <p>Choose a day and time for your AC repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.
+                                        <p>Choose a day and time for your AC repair near me, Al Jafiliya Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.
                                         </p>
                                     </div>
                                 </div>
@@ -484,7 +485,7 @@ const AcRepairinAlJafiliyaDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                                     </div>
                                     <div className="usptext">
                                         <h3 className="">We Are Experts</h3>
-                                        <p>We are experts in AC repair. This is why most major brands trust us to handle their service and maintenance needs.</p>
+                                        <p>We are experts in AC service in Al Jafiliya. This is why most major brands trust us to handle their service and maintenance needs.</p>
                                     </div>
                                 </div>
                                 <div className="uspitem">
@@ -521,7 +522,51 @@ const AcRepairinAlJafiliyaDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 
 
                 {/* We specialise in air conditioning services for the following brands */}
-                <WeSpecialise />
+                <section className="section cs_py_30 bg-light-gray">
+                    <div className="container">
+
+                        <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY AC REPAIR SERVICE</h3>
+
+                        <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
+
+                        <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
+                            <b>We provide 2-month service warranty</b><br />
+                            and <small>3-month parts warranty</small> as standard.</p>
+
+                        <h3>We specialise in air conditioning services for the following brands</h3>
+
+                        <ul className="mb-3">
+                            <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/lg-ac-repair-in-dubai/">LG Air Conditioner Service</a>:</strong> FAJ offers reliable LG AC repair and services near me in Al Jafiliya. With professionals who are experts in split, vrf, and central air conditioning units. Get reliable and fast AC service near you, including AC repair and maintenance in Al Jafiliya Dubai.</li>
+
+                            <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/samsung-ac-repair-in-dubai/">Samsung Air Conditioner Repair and Service</a>:</strong> Based in Dubai, FAJ is your go-to destination for Samsung AC repair in Dubai Al Jafiliya. Specialising in Samsung air conditioning repair service near me, we offer comprehensive air conditioning service ranging from AC fixing to AC cleaning service and AC maintenance in Al Jafiliya Dubai.</li>
+
+                            <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten/">York AC Service and Repair</a>:</strong> The York AC repair and service in Al Jafiliya Dubai, ensures you don’t need to worry because you are in the right place. Yes, FAJ is where efficiency and reliability are prioritised, providing air conditioning service near me, Al Jafiliya, AC cleaning service, and AC fixing.</li>
+
+                            <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con/">Daikin Air Conditioner Maintenance</a>:</strong> Count on our experienced team to promptly and effectively address any challenges you may encounter with your Daikin air conditioning unit. We specialise in AC cleaning service and AC repairing in Al Jafiliya Dubai, to ensure it operates at optimal functionality, providing you with a cool and comfortable environment when you need it most.</li>
+
+                            <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/trane-ac-repair-in-dubai-trane-ac-maintenance-in-dubai-trane-ac-fix-in-dubai-trane-ac-service-in-dubai-trane-air-condition-repair-in-dubai-trane-air-condition-maintenance-in-dubai-trane-air-condition/">Trane HVAC Repair</a>:</strong> With in-depth expertise in the repair of Trane air conditioning systems, we offer comprehensive Al Jafiliya AC repair near me and AC cleaning services designed to ensure your unit operates at peak efficiency. Our specialized Trane AC maintenance and repair service in Al Jafiliya Dubai, is conveniently available in your area, providing timely and effective solutions to keep your air conditioning system running smoothly and reliably. Whether you need routine home air conditioner repair near me or office AC service and maintenance in Al Jafiliya or urgent repair, we are here to help you maintain a comfortable environment in your home or business. </li>
+
+                            <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/panasonic-ac-repair-in-dubai-panasonic-ac-maintenance-in-dubai-panasonic-ac-fix-in-dubai-panasonic-ac-service-in-dubai-panasonic-air-condition-repair-in-dubai-panasonic-air-condition-maintenance-in-du/">Panasonic AC Service and Repair</a>:</strong> No matter the issue with your Panasonic air conditioner, our skilled AC technicians in Al Jafiliya Dubai and Sharjah can quickly diagnose and fix it. We offer reliable air conditioning services near me in Al Jafiliya Dubai, and AC repair right in your Al Jafiliya area, ensuring your system runs smoothly again.</li>
+
+                            <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/gree-ac-repair-in-dubai/">Gree AC Service and Maintenance</a>:</strong> Is</li>
+
+                            <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/o-general-ac-repair-in-dubai-o-general-ac-maintenance-in-dubai-o-general-ac-fix-in-dubai-o-general-ac-service-in-dubai-o-general-air-condition-repair-in-dubai-o-general-air-condition-maintenance-in-du/">O General AC Service and Repair</a>:</strong> For air conditioning cleaning services in Dubai, specialized help is crucial for effectively managing aircon issues. Our company provides hassle-free villa AC repair / office AC cleaning service or home AC maintenance services in Al Jafiliya, conveniently available in both Dubai and Sharjah. Trust us to keep your home comfortable all year round. </li>
+
+                            <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/mitsubishi-ac-repair-in-dubai/">Mitsubishi Air Conditioner Service and Repair</a>:</strong> Seeking relief from scorching heat? Discover the secret to keeping your Mitsubishi AC running smoothly in Dubai! Our expert Mitsubishi Air Conditioning cleaning service and AC repairing ensure your AC stays cool and efficient, providing comfort and peace of mind. Expert Air conditioning cleaning service near me in Al Jafiliya Dubai and Sharjah, aircon fixing and ac maintenance service in Al Jafiliya Dubai. </li>
+
+                            <li><strong>Carrier AC Repair and Service in Dubai</strong>: We understand how essential Carrier air conditioning is for your home or business. FAJ provides fast and reliable Carrier air conditioner maintenance services in Al Jafiliya Dubai, that are both efficient and dependable. Typically, regular cleaning service of your Carrier VRF (Variable Refrigerant Flow), central, split, package unit, or cassette type units in Al Jafiliya Dubai and Sharjah is sufficient to keep your system running smoothly. However, if your Carrier air conditioning system experiences a breakdown, fault, or malfunction, it can negatively affect your indoor environment.</li>
+                        </ul>
+
+                        <LocationKeyword />
+
+                        <div id="get-quote" className=" mt-3">
+                            <div className="container d-flex justify-content-center align-items-center gap-3">
+                                <GetQuoteButton />
+                                <CallNowButton />
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
                 <section className="section cs_py_30 bg-dark-blue text-light">
                     <div className="container text-center">
