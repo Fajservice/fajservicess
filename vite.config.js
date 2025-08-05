@@ -7,7 +7,6 @@ import cssnano from 'cssnano';
 
 export default defineConfig(({ mode }) => {
   const isProduction = mode === 'production';
-
   return {
     plugins: [
       react({
@@ -18,6 +17,7 @@ export default defineConfig(({ mode }) => {
           ].filter(Boolean)
         }
       }),
+
       viteCompression({
         algorithm: 'brotliCompress',
         ext: '.br',
@@ -30,12 +30,14 @@ export default defineConfig(({ mode }) => {
         threshold: 10240,
         deleteOriginFile: false
       }),
+
       ViteImageOptimizer({
         avif: { quality: 80 },
         png: { quality: 80 },
         jpeg: { quality: 80 },
         webp: { lossless: false }
       }),
+
       isProduction && visualizer({
         filename: './dist/bundle-stats.html',
         open: false,
@@ -65,7 +67,12 @@ export default defineConfig(({ mode }) => {
         }
       }
     },
-
+    // run local
+    // server: {
+    //   host: true,
+    //   port: 5173,
+    // },
+    // remove above live local run
     css: {
       modules: {
         localsConvention: 'camelCaseOnly'

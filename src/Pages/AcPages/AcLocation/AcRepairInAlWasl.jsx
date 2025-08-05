@@ -4,13 +4,13 @@ import AcRepairInAlWaslDetail from '../../../Components/ServiceDetails/AcDetail/
 const AcRepairInAlWasl = () => {
   return (
     <div className="serviceDetails">
-    <BreadCumb
-bgImg="img/banners/ac-banner-desktop-faj.avif"
-mobileBgImg="img/banners/ac-banner-mobile-faj.avif"
+      <BreadCumb
+        bgImg="img/banners/ac-banner-desktop-faj.avif"
+        mobileBgImg="img/banners/ac-banner-mobile-faj.avif"
         Title="AC Service in Al Wasl"
-    ></BreadCumb>
-    <AcRepairInAlWaslDetail />
-</div>
+      ></BreadCumb>
+      <AcRepairInAlWaslDetail />
+    </div>
   )
 }
 

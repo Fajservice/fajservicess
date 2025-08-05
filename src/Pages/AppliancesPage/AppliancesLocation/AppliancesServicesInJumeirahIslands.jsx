@@ -2,13 +2,13 @@ import AppliancesServicesInJumeirahIslandsDetail from "../../../Components/Servi
 import BreadCumb from "../../../Components/Common/BreadCumb";
 const AppliancesServicesInJumeirahIslands = () => {
   return (
-     <div className="serviceDetails">
-            <BreadCumb
-bgImg="img/banners/appliances-banner-desktop-faj.avif"
-mobileBgImg="img/banners/appliances-banner-mobile-faj.avif"
-                Title="Appliances Services In JumeirahIslands">
-            </BreadCumb>
-            <AppliancesServicesInJumeirahIslandsDetail />
+    <div className="serviceDetails">
+      <BreadCumb
+        bgImg="img/banners/appliances-banner-desktop-faj.avif"
+        mobileBgImg="img/banners/appliances-banner-mobile-faj.avif"
+        Title="Appliances Services In JumeirahIslands">
+      </BreadCumb>
+      <AppliancesServicesInJumeirahIslandsDetail />
     </div>
   )
 }
