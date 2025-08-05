@@ -71,16 +71,6 @@ const data = {
         { name: "Part Replacement", description: "All warranty for spare part replacements should be valid for 3 month", price: "-", warranty: "3 Month" }
       ]
     }
-  ],
-  "Coffee Machine": [
-    {
-      type: "Espresso Machine",
-      services: [
-        { name: "Inspection", description: "Initial diagnosis and quote.", price: "100 AED +VAT", warranty: "" },
-        { name: "Cleaning Service", description: "Complete internal cleaning and descaling.", price: "150 AED +VAT", warranty: "" },
-        { name: "Repair", description: "Price depends on the type of fault.", price: "Quote on inspection", warranty: "" }
-      ]
-    }
   ]
 };
 
