@@ -16,7 +16,6 @@ import testimonial from '../../../../Data/AcData/AcTestimonial/AcServiceTestimon
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
-import WeSpecialise from "./WeSpecialise/WeSpecialise";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import Practicaltip from "../../../Common/Practicaltip";
@@ -561,7 +560,7 @@ const AcRepairInArabianRanches2Detail = ({ subtitle, title, reviewsbg, titleSeo,
                             <li><strong>Carrier AC Repair and Service in Dubai</strong>: We understand how essential Carrier air conditioning is for your home or business. FAJ provides fast and reliable Carrier air conditioner maintenance services in Arabian Ranches 2 Dubai, that are both efficient and dependable. Typically, regular cleaning service of your Carrier VRF (Variable Refrigerant Flow), central, split, package unit, or cassette type units in Arabian Ranches 2 Dubai and Sharjah is sufficient to keep your system running smoothly. However, if your Carrier air conditioning system experiences a breakdown, fault, or malfunction, it can negatively affect your indoor environment.</li>
                         </ul>
 
-                       <LocationKeyword />
+                        <LocationKeyword />
 
                         <div id="get-quote" className=" mt-3">
                             <div className="container d-flex justify-content-center align-items-center gap-3">

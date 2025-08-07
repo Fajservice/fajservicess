@@ -11,7 +11,6 @@ import testimonial from '../../../../Data/AcData/AcTestimonial/AcServiceTestimon
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
-import WeSpecialise from "./WeSpecialise/WeSpecialise";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 import LocationKeyword from "./LocationKeyword";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
@@ -170,7 +169,7 @@ const AcRepairInIndexTowerDifcDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
                 {/* AC Price Section */}
 
-                        <FAJACPrice></FAJACPrice>
+                <FAJACPrice></FAJACPrice>
 
 
                 {/* Why is AC Maintenance Service Important in Dubai? */}
@@ -527,8 +526,8 @@ const AcRepairInIndexTowerDifcDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                         <LocationKeyword />
                         <div id="get-quote" className=" mt-3">
                             <div className="container d-flex justify-content-center align-items-center gap-3">
-                            <GetQuoteButton />
-                            <CallNowButton />
+                                <GetQuoteButton />
+                                <CallNowButton />
                             </div>
                         </div>
                     </div>

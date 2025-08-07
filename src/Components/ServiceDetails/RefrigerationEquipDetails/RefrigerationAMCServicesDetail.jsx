@@ -189,7 +189,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
               <p>
                 Our refrigeration technician can create a customized Planned Preventive Maintenance Package for your business. This package is designed to keep your business products chilled and frozen, comfortable, and running efficiently. By taking a proactive approach, you can reduce the likelihood of unexpected breakdowns and their associated costs.
                 <br />
-                Our Planned Preventative Maintenance Package includes repair, maintenance, and testing, making it ideal for any freezer and chillrs in hospitals, pharmacey, resrtuant, cafe, school, carting and warehouses,. This package ensures that your air conditioning system operates smoothly and helps prevent breakdowns.
+                Our Planned Preventative Maintenance Package includes repair, maintenance, and testing, making it ideal for any freezer and chillers in hospitals, pharmacies, restaurants, cafes, schools, catering, and warehouses. This package ensures that your air conditioning system operates smoothly and helps prevent breakdowns.
 
               </p>
               <div id="get-quote" className=" mt-3">
@@ -281,7 +281,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">
-                      Your cold room, walk-in chiller, or freezer may cool enough at times, even if set to the right temperature, leading to improper preservation of food.
+                      Your cold room, walk-in chiller, or freezer may not be cool enough, even if set to the right temperature, leading to improper preservation of food and items.
                     </p>
                   </div>
                 </div>

@@ -164,9 +164,9 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
                 Planned Preventive Maintenance (PPM) Services
               </h2>
               <p>
-                Our refrigeration technician can create a customized Planned Preventive Maintenance Package for your business. This package is designed to keep your business products chilled and frozen, comfortable, and running efficiently. By taking a proactive approach, you can reduce the likelihood of unexpected breakdowns and their associated costs.
-                <br />Our Planned Preventative Maintenance Package includes repair, maintenance, and testing, making it ideal for any freezer and chillrs in hospitals, pharmacey, resrtuant, cafe, school, carting and warehouses,. This package ensures that your air conditioning system operates smoothly and helps prevent breakdowns.
-
+                Our air conditioning technician can create a customised Planned Preventive Maintenance Package for your home or business. This package is designed to keep your space cool, comfortable, and running efficiently. By taking a proactive approach, you can reduce the likelihood of unexpected breakdowns and their associated costs.
+                <br />
+                Our Planned Preventive Maintenance Package includes repair, maintenance, and testing, making it ideal for any air conditioning system in buildings, apartments, villas, offices and warehouses. This package ensures that your air conditioning system operates smoothly and helps prevent breakdowns.
               </p>
               <div id="get-quote" className=" mt-3">
                 <div className="container d-flex justify-content-center align-items-center gap-3">

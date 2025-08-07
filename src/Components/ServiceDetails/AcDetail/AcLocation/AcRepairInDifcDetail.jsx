@@ -188,16 +188,10 @@ const AcRepairInDifcDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
               <div className="col-md-6">
                 <ul className="mb-0">
                   <li> <strong> Extreme Weather: </strong> Experiences high temperatures over 40°C (104°F) in summer. Regular maintenance keeps air conditioner systems efficient during these conditions.</li>
-
                   <li> <strong> Energy Efficiency: </strong> A well-maintained AC unit operates more efficiently, using less energy and lowering both electricity bills.</li>
-
                   <li> <strong> Longevity of Equipment: </strong> Regular maintenance can extend your air conditioning unit’s lifespan, reducing the need for costly repairs and replacements, ultimately saving you money.</li>
                   <li> <strong> Improved Air Quality: </strong> Regular maintenance keeps dust and allergens from building up, ensuring cleaner air.</li>
                   <li> <strong> Enhanced Comfort: </strong> Regular <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC cleaning service</b></a> in DIFC Dubai ensures comfort, efficiency, and consistent cooling daily.</li>
-
-
-
-
                 </ul>
               </div>
             </div>
@@ -426,6 +420,7 @@ const AcRepairInDifcDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
             </div>
           </div>
         </section>
+
         {/* Why choose us AC */}
         <section className="section cs_py_30">
           <div className="container container-md container-sm">
@@ -469,12 +464,12 @@ const AcRepairInDifcDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
               {/* <!-- Delimit Section --> */}
               <div className="uspdelimit col-2 d-none d-xl-block">
-
                 <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/ACServicescomponent.avif`} alt="Ac Maintenance Services" />
               </div>
 
               {/* <!-- Second Column --> */}
               <div className="uspcol col-3">
+
                 <div className="uspitem">
                   <div className="uspicon">
                     <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
@@ -507,7 +502,6 @@ const AcRepairInDifcDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                 </div>
               </div>
 
-
             </div>
             {/* <!-- Delimit mobile --> */}
             <div className="col-12 uspdelimit w-100 text-center d-block d-none-1199 Xd-xl-none">
@@ -515,7 +509,6 @@ const AcRepairInDifcDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
             </div>
           </div>
         </section>
-
 
         {/* We specialise in air conditioning services for the following brands */}
         <section className="section cs_py_30 bg-light-gray">
@@ -582,6 +575,7 @@ const AcRepairInDifcDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
         </section>
 
         <section className="section cs_py_30">
+
           <div className="container text-center">
             <div className="row">
               <div className="col-lg-4">
@@ -616,6 +610,7 @@ const AcRepairInDifcDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
         {/* Maintenance Contract */}
         <MaintenanceContract />
+
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}

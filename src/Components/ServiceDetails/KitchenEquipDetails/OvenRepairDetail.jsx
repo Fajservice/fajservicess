@@ -357,15 +357,17 @@ const OvenRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
               </div>
 
               <div className="col-xl-6">
-                <p className="mb-0"><strong>Our services include:</strong></p>
-                <p className="mb-0">Regular commercial oven maintenance is essential for optimal performance, efficiency, and longevity.</p>
-                <ul>
+                <p className="mb-0">We provide repair services for a wide range of commercial ovens.
+                  <br /><strong>Our services include:</strong></p>
+                <ul className="mb-0">
                   <li><strong> Oven Installation: </strong>   Professional installation of various types and brands of gas and electric ovens, ensuring optimal performance and efficiency. </li>
                   <li><strong> Oven Diagnostics: </strong>   We perform thorough diagnostics and provide eligibility assessments and detailed quotes to address any oven issues. </li>
                   <li><strong> Oven Repair Service: </strong>   Reliable professional oven repair services for all components, ensuring quick resolution of issues like leaks, electrical failures, and malfunctions. Feel free to contact us for specific services or any questions! </li>
                   <li><strong> Oven Annual Maintenance Contract: </strong>   This contract outlines the terms and services covered for the annual maintenance of catering ovens. </li>
 
                 </ul>
+                <p className="mb-0">Regular commercial oven maintenance is essential for optimal performance, efficiency, and longevity.</p>
+
 
               </div>
 
@@ -573,7 +575,7 @@ const OvenRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
                   <li> <strong> Convection Oven Krystal Repair and Service: </strong>With our expert understanding of the Convection Oven Krystal, we deliver reliable repairs that will have your unit functioning flawlessly. Trust us to enhance your cooking experience by ensuring your oven performs at its best every time.</li>
                   <li> <strong> Commercial Cake Bakery Pizza One Layer Two Layers Oven Service: </strong>No matter the challenges with your commercial cake bakery pizza oven—whether it&apos;s a single-layer cake or a stunning three-layer creation—our experienced team is here to help! We’ll identify maintenance needs and provide tailored solutions to ensure your baked goods shine and bring joy to all.</li>
                   <li> <strong> Convotherm Combi Oven - Professional Service and Maintenance: </strong>Is your Convotherm Combi Oven not working? You don’t have to endure uncomfortable temperatures or suffer losses due to faulty equipment – FAJ will get your Convotherm Combi Oven back up and running quickly!</li>
-                  <li> <strong> Tecnoeka Electric Combi Oven Service and Repair: </strong>Tecnoeka Electric Combi Oven service in Dubai requires expert help, as only specialists know how to address its issues. We offer hassle-free oven repair service</li>
+                  <li> <strong> Tecnoeka Electric Combi Oven Service and Repair: </strong>Tecnoeka Electric Combi Oven service in Dubai requires expert help, as only specialists know how to address its issues. We offer hassle-free oven repair service. </li>
                 </ul>
               </div>
 
@@ -585,7 +587,6 @@ const OvenRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
                 <CallNowButton />
               </div>
             </div>
-
           </div>
         </section>
 
