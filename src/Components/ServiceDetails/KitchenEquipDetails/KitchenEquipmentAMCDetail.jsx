@@ -23,8 +23,6 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
   const metaImage = String(Image || "https://www.fajservices.ae/dist/img/kitchen-equip-amc-service.avif");
 
 
-
-
   subtitle = "Testimonial"
   title = "What our clients say About Us"
   reviewsbg = "img/testimonialbg.jpg"

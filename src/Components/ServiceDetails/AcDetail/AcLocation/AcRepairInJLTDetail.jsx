@@ -559,7 +559,6 @@ const AcRepairInJLTDetail = ({ subtitle, title, reviewsbg, titleSeo, description
                     </div>
                 </section>
 
-
                 <section className="section cs_py_30 bg-dark-blue text-light">
                     <div className="container text-center">
                         <h3 className="cs_fs_30 text-light">Practical Tips to Improve Energy Efficiency</h3>

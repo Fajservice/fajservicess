@@ -2,12 +2,10 @@ import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInSufouh.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
-
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
-
 import Slider from "react-slick";
 import testimonial from '../../../../Data/AcData/AcTestimonial/AcServiceTestimonials.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
@@ -113,7 +111,6 @@ const AcRepairInJumeirahBeachResidenceDetail = ({ subtitle, title, reviewsbg, ti
                 <section className="section cs_py_30">
                     <div className="container">
                         <h1 className="cs_fs_30">AC Service in Jumeirah Beach Residence</h1>
-                        {/* <h2 className="cs_fs_30">Stay Cool this Summer with Expert AC Repair and Service in Dubai</h2> */}
                         <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
                             <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC service</b></a>, AC maintenance, AC repair near me Jumeirah Beach Residence, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 
@@ -122,7 +119,6 @@ const AcRepairInJumeirahBeachResidenceDetail = ({ subtitle, title, reviewsbg, ti
                                 <WhatsappIconButton />
                             </div>
                         </div>
-                        {/*  */}
                     </div>
                 </section>
 
@@ -156,7 +152,6 @@ const AcRepairInJumeirahBeachResidenceDetail = ({ subtitle, title, reviewsbg, ti
 
                             <div className="col-md-6 ">
                                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Experts-AC-Service-and-Maintenance.avif`} alt="AC Repair in Jumeirah Beach Residence" />
-
                             </div>
                         </div>
 

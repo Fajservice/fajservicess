@@ -13,7 +13,7 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
-
+import LocationKeyword from "./LocationKeyword";
 
 const AcRepairInSiliconOasisDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -23,7 +23,7 @@ const AcRepairInSiliconOasisDetail = ({ subtitle, title, reviewsbg, titleSeo, de
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Repair in Dubai Silicon Oasis, Air Conditioning Services in Dubai Silicon Oasis, Air Con Maintenance in  Dubai Silicon Oasis, AC Installation in Dubai Silicon Oasis, AC Technician in Dubai Silicon Oasis");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-dubai-silicon-oasis/").replace(/\/?$/, '/');
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -85,7 +85,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
         <>
             <HelmetProvider>
                 <Helmet>
-                     <title>{metatitle}</title>
+                    <title>{metatitle}</title>
                     <meta name="description" content={metadescription}></meta>
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
@@ -167,7 +167,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
                             </div>
                         </div>
                     </div>
-                </section>                
+                </section>
 
                 {/* AC Price Section */}
                 <FAJACPrice></FAJACPrice>
@@ -424,88 +424,88 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
                     <div className="container container-md container-sm">
                         <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR  NEEDS!</h2>
                         <div className="usps align-items-center	">
-                        {/* <!-- First Column --> */}
-                        <div className="uspcol col-1">
-                            <div className="uspitem">
-                            <div className="uspicon">
-                                <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
+                            {/* <!-- First Column --> */}
+                            <div className="uspcol col-1">
+                                <div className="uspitem">
+                                    <div className="uspicon">
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
+
+                                    </div>
+                                    <div className="usptext">
+                                        <h3 className="">Reliable, Priority, and Quick</h3>
+                                        <p>You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day AC repair or next-day AC service visits ensure that your needs are met quickly.</p>
+                                    </div>
+                                </div>
+
+                                <div className="uspitem">
+                                    <div className="uspicon">
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
+                                    </div>
+                                    <div className="usptext">
+                                        <h3 className="">Feeling Of Calm</h3>
+                                        <p>With <a href="/ac-annual-maintenance-contract/">annual maintenance contract</a>, you get a full year of service, ensuring your AC runs smoothly and providing peace of mind.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div className="uspitem mb-0">
+                                    <div className="uspicon">
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
+                                    </div>
+                                    <div className="usptext">
+                                        <h3 className="">You Are in Control</h3>
+                                        <p>Choose a day and time for your AC repair near me, Dubai Silicon Oasis or Sharjah. With a 3-4 hour window for when our technician will arrive.
+                                        </p>
+                                    </div>
+                                </div>
 
                             </div>
-                            <div className="usptext">
-                                <h3 className="">Reliable, Priority, and Quick</h3>
-                                <p>You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day AC repair or next-day AC service visits ensure that your needs are met quickly.</p>
-                            </div>
+
+                            {/* <!-- Delimit Section --> */}
+                            <div className="uspdelimit col-2 d-none d-xl-block">
+
+                                <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/ACServicescomponent.avif`} alt="Ac Maintenance Services" />
                             </div>
 
-                            <div className="uspitem">
-                            <div className="uspicon">
-                                <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
-                            </div>
-                            <div className="usptext">
-                                <h3 className="">Feeling Of Calm</h3>
-                                <p>With <a href="/ac-annual-maintenance-contract/">annual maintenance contract</a>, you get a full year of service, ensuring your AC runs smoothly and providing peace of mind.
-                                </p>
-                            </div>
-                            </div>
+                            {/* <!-- Second Column --> */}
+                            <div className="uspcol col-3">
+                                <div className="uspitem">
+                                    <div className="uspicon">
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
+                                    </div>
+                                    <div className="usptext">
+                                        <h3 className="">We Are Experts</h3>
+                                        <p>We are experts in AC service in Dubai Silicon Oasis, which is why major brands trust us for their service and maintenance needs.</p>
+                                    </div>
+                                </div>
+                                <div className="uspitem">
+                                    <div className="uspicon">
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
 
-                            <div className="uspitem mb-0">
-                            <div className="uspicon">
-                                <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
-                            </div>
-                            <div className="usptext">
-                                <h3 className="">You Are in Control</h3>
-                                <p>Choose a day and time for your AC repair near me, Dubai Silicon Oasis or Sharjah. With a 3-4 hour window for when our technician will arrive.
-                                </p>
-                            </div>
-                            </div>
+                                    </div>
+                                    <div className="usptext">
+                                        <h3 className="">Great Value</h3>
+                                        <p>We are dedicated to ensuring customer satisfaction with timely service, prompt issue resolution, and affordable prices.</p>
 
-                        </div>
-
-                        {/* <!-- Delimit Section --> */}
-                        <div className="uspdelimit col-2 d-none d-xl-block">
-
-                            <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/ACServicescomponent.avif`} alt="Ac Maintenance Services" />
-                        </div>
-
-                        {/* <!-- Second Column --> */}
-                        <div className="uspcol col-3">
-                            <div className="uspitem">
-                            <div className="uspicon">
-                                <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
+                                    </div>
+                                </div>
+                                <div className="uspitem mb-0">
+                                    <div className="uspicon">
+                                        <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
+                                    </div>
+                                    <div className="usptext">
+                                        <h3 className="">Trustworthy</h3>
+                                        <p>Our <a href="https://www.facebook.com/ACRepairUAE"><b>skilled AC technicians</b></a> are highly trained, and we provide excellent service for a variety of major AC brands efficiently.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
-                            <div className="usptext">
-                                <h3 className="">We Are Experts</h3>
-                                <p>We are experts in AC service in Dubai Silicon Oasis, which is why major brands trust us for their service and maintenance needs.</p>
-                            </div>
-                            </div>
-                            <div className="uspitem">
-                            <div className="uspicon">
-                                <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} alt="FAJ icon service" />
-
-                            </div>
-                            <div className="usptext">
-                                <h3 className="">Great Value</h3>
-                                <p>We are dedicated to ensuring customer satisfaction with timely service, prompt issue resolution, and affordable prices.</p>
-
-                            </div>
-                            </div>
-                            <div className="uspitem mb-0">
-                            <div className="uspicon">
-                                <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
-                            </div>
-                            <div className="usptext">
-                                <h3 className="">Trustworthy</h3>
-                                <p>Our <a href="https://www.facebook.com/ACRepairUAE"><b>skilled AC technicians</b></a> are highly trained, and we provide excellent service for a variety of major AC brands efficiently.
-                                </p>
-                            </div>
-                            </div>
-                        </div>
 
 
                         </div>
                         {/* <!-- Delimit mobile --> */}
                         <div className="col-12 uspdelimit w-100 text-center d-block d-none-1199 Xd-xl-none">
-                        <img className="blue-border-2 w-100" src={`${import.meta.env.BASE_URL}img/ACServicescomponent.avif`} alt="Ac Maintenance Services" />
+                            <img className="blue-border-2 w-100" src={`${import.meta.env.BASE_URL}img/ACServicescomponent.avif`} alt="Ac Maintenance Services" />
                         </div>
                     </div>
                 </section>
@@ -533,59 +533,12 @@ const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-A
                             <li><strong><a className='text-decoration-underline' href="https://www.fajservices.ae/mitsubishi-ac-repair-in-dubai/">Mitsubishi Air Conditioner Service and Repair</a>:</strong> Seeking relief from scorching heat? Discover the secret to keeping your Mitsubishi AC running smoothly in Dubai! Our expert Mitsubishi Air Conditioning cleaning service and AC repairing ensure your AC stays cool and efficient, providing comfort and peace of mind. Expert Air conditioning cleaning service near me in Dubai Silicon Oasis Dubai and Sharjah, aircon fixing and ac maintenance service in Dubai Silicon Oasis Dubai.</li>
                             <li><strong>Carrier AC Repair and Service in Dubai</strong>: We understand how essential Carrier air conditioning is for your home or business. FAJ provides fast and reliable Carrier air conditioner maintenance services in Dubai Silicon Oasis Dubai, that are both efficient and dependable. Typically, regular cleaning service of your Carrier VRF (Variable Refrigerant Flow), central, split, package unit, or cassette type units in Dubai Silicon Oasis Dubai and Sharjah is sufficient to keep your system running smoothly. However, if your Carrier air conditioning system experiences a breakdown, fault, or malfunction, it can negatively affect your indoor environment.</li>
                         </ul>
-                        <p className="mb-0">
-                            <Link to="/sanyo-ac-repair-in-dubai-sanyo-ac-maintenance-in-dubai-sanyo-ac-fix-in-dubai-sanyo-ac-service-in-dubai-sanyo-air-condition-repair-in-dubai-sanyo-air-condition-maintenance-in-dubai-sanyo-air-condition/">Sanyo AC Service Dubai</Link>
-                            <span>&nbsp;-&nbsp;</span>
-                            <Link to="/rheem-ac-maintenance-in-dubai/">Rheem AC Service</Link>
-                            <span>&nbsp;-&nbsp;</span>
-                            <Link to="/skm-ac-repair-in-dubai-skm-ac-maintenance-in-dubai-skm-ac-fix-in-dubai-skm-ac-service-in-dubai-skm-air-condition-repair-in-dubai-skm-air-condition-maintenance-in-dubai-skm-air-condition-maintenance-in/">SKM AC Service Dubai</Link>
-                            <span>&nbsp;-&nbsp;</span>
-                            <Link to="/daewoo-ac-repair-in-dubai-daewoo-ac-maintenance-in-dubai-daewoo-ac-fix-in-dubai-daewoo-ac-service-in-dubai-daewoo-air-condition-repair-in-dubai-daewoo-air-condition-maintenance-in-dubai-daewoo-air-con/">Daewoo AC Service Dubai</Link>
-                            <span>&nbsp;-&nbsp;</span>
-                            <Link to="#">Carrier AC Service</Link>
-                            <span>&nbsp;-&nbsp;</span>
-                            <Link to="/midea-ac-installation-maintenance-repair-fix-service-in-dubai/">Midea Air Conditioner Service Near Me</Link>
-                            <span>&nbsp;-&nbsp;</span>
-                            <Link to="/lennox-ac-repair-in-dubai-lennox-ac-maintenance-in-dubai-lennox-ac-fix-in-dubai-lennox-ac-service-in-dubai-lennox-air-condition-repair-in-dubai-lennox-air-condition-maintenance-in-dubai-lennox-air-con/">Lennox Air Conditioning Services</Link>
-                            <span>&nbsp;-&nbsp;</span>
-                            <Link to="/goodman-ac-repair-in-dubai-goodman-ac-maintenance-in-dubai-goodman-ac-fix-in-dubai-goodman-ac-service-in-dubai-goodman-air-condition-repair-in-dubai-goodman-air-condition-maintenance-in-dubai-goodman/">Goodman AC Service Dubai</Link>
-                            <span>&nbsp;-&nbsp;</span>
-                            <Link to="/coleman-ac-repair-in-dubai-coleman-ac-maintenance-in-dubai-coleman-ac-fix-in-dubai-coleman-ac-service-in-dubai-coleman-air-condition-repair-in-dubai-coleman-air-condition-maintenance-in-dubai-coleman/">Coleman AC Services</Link>
-                            <span>&nbsp;-&nbsp;</span>
-                            <Link to="/westpoint-ac-repair-in-dubai-westpoint-ac-maintenance-in-dubai-westpoint-ac-fix-in-dubai-westpoint-ac-service-in-dubai-west-point-air-condition-repair-in-dubai-west-point-air-condition-maintenance-in/">Westpoint AC Service</Link>
-                            <span>&nbsp;-&nbsp;</span>
-                            <Link to="/aftron-ac-repair-maintenance-service-in-dubai-2/">Aftron AC Maintenance Service Near Me</Link>
-                            <span>&nbsp;-&nbsp;</span>
-                            <Link to="/crafft-ac-repair-in-dubai-crafft-ac-maintenance-in-dubai-crafft-ac-fix-in-dubai-crafft-ac-service-in-dubai-crafft-air-condition-repair-in-dubai-crafft-air-condition-maintenance-in-dubai-crafft-air-con/">Crafft AC Service</Link>
-                            <span>&nbsp;-&nbsp;</span>
-                            <Link to="/bryant-ac-repair-in-dubai-bryant-ac-maintenance-in-dubai-bryant-ac-fix-in-dubai-bryant-ac-service-in-dubai-bryant-air-condition-repair-in-dubai-bryant-air-condition-maintenance-in-dubai-bryant-air-con/">Bryant AC Service Dubai</Link>
-                            <span>&nbsp;-&nbsp;</span>
-                            <Link to="/ruud-ac-repair-in-dubai-ruud-ac-maintenance-in-dubai-ruud-ac-fix-in-dubai-ruud-ac-service-in-dubai-ruud-air-condition-repair-in-dubai-ruud-air-condition-maintenance-in-dubai-ruud-air-condition-mainten/">Ruud Air Conditioner Service</Link>
-                            <span>&nbsp;-&nbsp;</span>
-                            <Link to="/mcquay-ac-repair-in-dubai-mcquay-ac-maintenance-in-dubai-mcquay-ac-fix-in-dubai-mcquay-ac-service-in-dubai-mcquay-air-condition-repair-in-dubai-mcquay-air-condition-maintenance-in-dubai-mcquay-air-con/">McQuay Air Conditioning Service</Link>
-                            <span>&nbsp;-&nbsp;</span>
-                            <Link to="/blue-star-ac-repair-in-dubai-blue-star-ac-maintenance-in-dubai-blue-star-ac-fix-in-dubai-blue-star-ac-service-in-dubai-blue-star-air-condition-repair-in-dubai-blue-star-air-condition-maintenance-in-du/">Blue Star</Link>
-                            <span>&nbsp;-&nbsp;</span>
-                            <Link to="/supra-ac-repair-in-dubai-supra-ac-maintenance-in-dubai-supra-ac-fix-in-dubai-supra-ac-service-in-dubai-supra-air-condition-repair-in-dubai-supra-air-condition-maintenance-in-dubai-supra-air-condition/">Supra AC Service</Link>
-                            <span>&nbsp;-&nbsp;</span>
-
-                            <Link to="/toshiba-ac-repair-in-dubai-toshiba-ac-maintenance-in-dubai-toshiba-ac-fix-in-dubai-toshiba-ac-service-in-dubai-toshiba-air-condition-repair-in-dubai-toshiba-air-condition-maintenance-in-dubai-toshiba/">Toshiba AC Service</Link>
-                            <span>&nbsp;-&nbsp;</span>
-                            <Link to="/whirlpool-air-condition-repair-in-dubai-ac-maintenance-in-dubai-air-conditioning-fix-repairs-service-in-dubai/">Whirlpool AC Service</Link>
-                            <span>&nbsp;-&nbsp;</span>
-                            <Link to="/super-general-ac-repair-in-dubai-super-general-ac-maintenance-in-dubai-super-general-ac-fix-in-dubai-super-general-ac-service-in-dubai-super-general-air-condition-repair-in-dubai-super-general-air-con/">Super General AC Service</Link>
-                            <span>&nbsp;-&nbsp;</span>
-                            <Link to="/hitachi-ac-repair-in-dubai-hitachi-ac-maintenance-in-dubai-hitachi-ac-fix-in-dubai-hitachi-ac-service-in-dubai-hitachi-air-condition-repair-in-dubai-hitachi-air-condition-maintenance-in-dubai-hitachi/">Hitachi AC Service</Link>
-                            <span>&nbsp;-&nbsp;</span>
-                            <Link to="/o-general-ac-repair-in-dubai-o-general-ac-maintenance-in-dubai-o-general-ac-fix-in-dubai-o-general-ac-service-in-dubai-o-general-air-condition-repair-in-dubai-o-general-air-condition-maintenance-in-du/">O General Air Conditioning Service</Link>
-                            <span>&nbsp;-&nbsp;</span>
-                            <Link to="/cooline-ac-repair-in-dubai-cooline-ac-maintenance-in-dubai-cooline-ac-fix-in-dubai-cooline-ac-service-in-dubai-cooline-air-condition-repair-in-dubai-cooline-air-condition-maintenance-in-dubai-cooline/">Cooline Air Conditioner Service Near Me</Link>
-                        </p>
+                        <LocationKeyword></LocationKeyword>
 
                         <div id="get-quote" className=" mt-3">
                             <div className="container d-flex justify-content-center align-items-center gap-3">
-                            <GetQuoteButton />
-                            <CallNowButton />
+                                <GetQuoteButton />
+                                <CallNowButton />
                             </div>
                         </div>
 

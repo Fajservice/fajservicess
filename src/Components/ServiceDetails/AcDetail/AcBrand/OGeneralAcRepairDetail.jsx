@@ -499,7 +499,6 @@ const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
                     <p>We are dedicated to ensuring customer satisfaction with timely service, prompt issue resolution, and affordable prices.</p>
-
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -544,8 +543,7 @@ const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
                 <p className="mb-0"><strong> O General VRF (Variable Refrigerant Flow) System Service and Repair: </strong> FAJ's O General Variable Refrigerant Flow (VRF) repair and maintenance service provides reliable and efficient HVAC solutions customised to meet your needs. <br />
                   Our skilled team prioritises your comfort and satisfaction, delivering exceptional service and peace of mind. You can trust us to manage your climate control with expertise and care. </p>
                 <p className="mb-0"><strong> O General Ducted Split AC Service and Repair: </strong> For reliable O General ducted split air conditioner (AC) repair and maintenance in Dubai, our skilled technicians are here to help. With expertise in diagnosing a variety of AC issues, we ensure minimal disruption to your comfort. Trust us for quick and effective service that provides the cooling relief you need. </p>
-                <p className="mb-0"><strong> O General Wall-Mounted Air Conditioner Service and Repair: </strong> Beat Dubai's intense heat with our expert O General AC fix and repair services. We ensure that your unit operates efficiently, keeping your indoor space cool and comfortable while the temperatures soar outside. </p>
-
+                <p className=""><strong> O General Wall-Mounted Air Conditioner Service and Repair: </strong> Beat Dubai's intense heat with our expert O General AC fix and repair services. We ensure that your unit operates efficiently, keeping your indoor space cool and comfortable while the temperatures soar outside. </p>
 
                 <p>
                   <a href="https://www.fajservices.ae/ac-repair-in-al-barsha-air-condition-maintenance-in-al-barsha-air-conditioning-fix-amc-service-in-al-barsha-dubai/">Al Barsha</a> &nbsp;|&nbsp;
