@@ -142,7 +142,7 @@ const OvenRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <div className="container">
             <h1 className="cs_fs_30">Commercial Oven Repair and Maintenance Services</h1>
             <p>
-              Looking for affordable oven repair? At FAJ Professional, we've been serving Dubai since 2010, offering trustworthy repair solutions.
+              Looking for affordable oven repair? At F A J Technical Services L.L.C, we've been serving Dubai since 2010, offering trustworthy repair solutions.
               Our skilled technicians can handle various oven issues, including electric, gas range, and electric ovens.
               <br />We provide prompt and cost-effective service tailored to your needs, ensuring reliable repairs right at your door.
 

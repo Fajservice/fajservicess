@@ -114,11 +114,11 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Wolf Home Appliances Repair and Services in dubai</h1>
-            {/* 
-          <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2> */}
+            <h1 className="cs_fs_30"> Wolf Cooking Appliance Repair & Service in Dubai </h1>
             <p>
-              Wolf appliances are the best among the other brands out there. Still, products of the best brands even do not last endlessly. In addition, we are all sure that our appliances break down when we need them the most. Reasonably, your first reaction will be to see if your appliance is repairable. You can fix minor issues, but mostly, you cannot. So why worry? We are the best Wolf appliance repair service provider in Dubai. We are the most experienced industry experts serving since 2010 in Dubai. With hands-on experience with all home appliances, you can expect successful and swift repairs from us. Wolf Fridge Repair in Dubai So, contact us today to get your repair appointment. Enjoy superior Wolf appliance repair with F A J Technical Services L.L.C.
+              If you're experiencing issues with your Wolf cooking appliances, such as ranges, built-in ovens, or cooktops, finding a reliable repair service is crucial. <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> in Dubai specializes in prompt, efficient, and cost-effective repairs tailored specifically for Wolf appliances.
+              <br />
+              With over a decade of experience since 2010, our skilled team employs advanced tools and techniques to diagnose and resolve issues across all Wolf models.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -135,17 +135,13 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Best Wolf Washing Machine Repair </h3>
+                <h3 className="cs_fs_24 mb-1">Get Wolf Range Repair Near You</h3>
 
                 <p className="mb-2">
-                  If you need Wolf Appliance Repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
-                  <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that&apos;s not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
-                  <br /> We&apos;re nearby and can get your appliances fixed quickly and efficiently.
-                </p>
+                  Wolf ranges are essential kitchen appliances that many depend on for their daily cooking needs. When they malfunction, it can throw off your entire routine. That’s why it’s important to find a Wolf range repair and service specialist near you, whether you're in Dubai or Sharjah, for fast and reliable support.</p>
 
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service
-                </h3>
-                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Wolf Appliances Service</h3>
+                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a>, we recognize that appliance malfunctions, particularly with Wolf products, can arise unexpectedly and disrupt your daily routine. That’s why our trained and qualified Wolf technicians are dedicated to providing you with dependable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our expertise, you can save on the expense of buying a new appliance and have your Wolf appliance functioning flawlessly again in no time, allowing you to focus on what truly matters.</p>
               </div>
 
               <div className="col-md-6 ">
@@ -160,9 +156,9 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
         <section className="section cs_py_30">
           <div className="container">
 
-            <h3 className="cs_fs_30">Why is Wolf Appliance Maintenance Service Important in Dubai?</h3>
+            <h3 className="cs_fs_30">Why is Wolf Appliances Maintenance Service Important in Dubai?</h3>
             <p className="">
-              Our all-inclusive repair services include diagnosis, repairs, installations, and maintenance. That is why we are the most in-demand Wolf appliances maintenance in Dubai provider.
+              Regular maintenance is crucial in Dubai due to the intense climate and heavy appliance usage in homes and kitchens. Whether it's a built-in oven or outdoor grill, regular servicing enhances performance, extends lifespan, and reduces safety risks. Here’s a detailed explanation based on Wolf appliance:
             </p>
 
             <div className="row align-items-center">
@@ -171,14 +167,13 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
-                  <li> <strong>  Wolf Washing Machine Repair in Dubai: </strong> Regular maintenance helps appliances last longer, saving on replacement costs.</li>
-                  <li> <strong>  Wolf Fridge Repair in Dubai: </strong> we are fully confident of getting your fridge running back in no time. </li>
-                  <li> <strong>  Wolf Cooker Repair in Dubai: </strong> Catching minor issues early prevents them from escalating into expensive repair. </li>
-                  <li> <strong>  Preserving Appliance Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
-                  <li> <strong>  Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious.</li>
-                  <li> <strong>  Cost-Effective: </strong> Maintenance costs are lower than early replacements or major repair. Investing in appliance care ensures safety and efficiency and is a smart economic choice in Dubai.</li>
-                  <li> <strong>  Energy Efficiency: </strong> Regularly maintaining your appliances, can improve their efficiency and save you money.</li>
+                  <li> <strong> Ranges Heavy Use and Versatility: </strong> Wolf ranges are a centerpiece in kitchens, handling high-volume cooking. Regular maintenance ensures burners, grates, and controls perform at peak efficiency. </li>
+                  <li> <strong> Built-In Oven Precision: </strong> With frequent baking and roasting, Wolf built-in ovens benefit from routine inspections of heating elements and sensors to maintain accuracy and energy efficiency. </li>
+                  <li> <strong> Cooktops / Rangetops Reliability: </strong> Gas and induction cooktops require cleaning and calibration to prevent uneven cooking and burner issues, ensuring seamless meal preparation. </li>
+                  <li> <strong> Ventilation Hoods Performance: </strong> In Dubai’s climate, grease and dust accumulate fast. Servicing Wolf hoods helps maintain air quality and ensures effective smoke and odor removal. </li>
+                  <li> <strong> Microwave Functionality: </strong> Regular servicing of Wolf microwaves helps detect door seal wear, turntable issues, or heating inconsistencies, keeping daily use trouble-free. </li>
                 </ul>
+                <p className="mb-0">By prioritizing Wolf appliance maintenance, Dubai residents and commercial users can ensure long-term, safe, and efficient performance from their premium kitchen systems.  </p>
               </div>
             </div>
           </div>
@@ -187,27 +182,17 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
         {/* The Most Common Problems with Home Appliances */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="text-center">The Most Common Problems with Wolf Home Appliances   </h3>
+            <h3 className="text-center"> The Most Common Problems with Wolf Appliances </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Range Heating Problem</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Most fridge malfunctions are commonly related to cooling issues, including problems with the defrost system, fan motor, compressor, or coils.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishwashers Problem</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">The most issues with dishwashers are bad cleaning and drying. Common water leaks and drainage. Some electrical issues or PCB failures.
+                    <p className="p-2 mb-0">
+                      Wolf ranges may suffer from temperature inconsistencies due to a faulty thermostat, malfunctioning control board, or damaged igniter in gas ranges.
                     </p>
                   </div>
                 </div>
@@ -216,26 +201,93 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Washing Machine Problem
-                    </h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Temperature Fluctuates</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">A common issue with washing machines is drainage problems, leaks, and PCB faulty. Also, broken belt or faulty door switch or drum from spinning.</p>
+                    <p className="p-2 mb-0">Uneven baking or roasting often results from a defective heating element, faulty convection fan, or calibration issues with the temperature sensor.
+                    </p>
                   </div>
                 </div>
               </div>
-
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Stove Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1"> Cooktop Ignition Failure </h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Uneven heating or flame issues, such as a broken burner element, bad switch, or electric gas, are the most common problems with stoves.</p>
+                    <p className="p-2 mb-0">
+                      Burners may not light or produce weak flames due to clogged burner ports, misaligned igniters, or issues with gas flow.
+                    </p>
                   </div>
                 </div>
               </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1"> Hood Suction Issue </h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      Common issues include poor suction, noisy operation, or complete failure due to blocked filters, faulty motors, or broken switches.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Microwave Not Heating</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      This can happen when the magnetron fails, the door switch malfunctions, or the control panel has an electrical issue.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Warming Drawer Failure</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      If the warming drawer is not keeping dishes warm, the thermostat, heating element, or internal wiring may be defective.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Coffee System Blocked</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      This often results from clogged nozzles, low water pressure, or descaling issues that impact performance in Dubai's hard water conditions.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Grill Flame Uneven</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      Outdoor grills may show cold spots or weak flames due to clogged burner tubes, regulator problems, or weather-related corrosion.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
@@ -252,23 +304,9 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
         {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
         <section className="section cs_py_30">
           <div className="container">
-            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR Wolf HOME APPLIANCES</h3>
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR WOLF APPLIANCES</h3>
 
             <div className="row align-items-center">
-              <div className="col-xl-6">
-                <p className='mb-0'>We specialize in all types and brands of home appliances, including built-in units.</p>
-                <p className='mb-0'><strong>Our services include:</strong></p>
-                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                  <li> <strong>  Installation: </strong> Expert installation of various types and brands of home appliances, ensuring optimal performance and efficiency. </li>
-                  <li> <strong> Diagnostics: </strong> Comprehensive fault-finding services to effectively diagnose issues. We provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
-                  <li> <strong> Repair Service: </strong> Efficient repair services for all appliance components, ensuring a quick resolution to issues such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions! </li>
-                  <li> <strong> Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for
-                    the annual maintenance of your appliances. </li>
-                  <p className="mb-0">
-                    <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for optimal performance, efficiency, and longevity of your home appliances.
-                  </p>
-                </ul>
-              </div>
               <div className="col-xl-6">
                 <iframe
                   className="bordered-img blue-border"
@@ -281,6 +319,22 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                   allowFullScreen
                 ></iframe>
               </div>
+
+              <div className="col-xl-6">
+                <p className='mb-0'>We specialise in all types of Wolf cooking appliances, including built-in units.</p>
+                <p className='mb-0'><strong>Our services include:</strong></p>
+                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
+                  <li> <strong>  Installation: </strong> Expert installation of Wolf ranges, built-in ovens, and cooktops, ensuring optimal performance and long-term efficiency. </li>
+                  <li> <strong>  Diagnostics: </strong> Comprehensive fault-finding services to effectively diagnose issues. We provide eligibility assessments and detailed quotations to address any concerns you may have with your Wolf appliances. </li>
+                  <li> <strong>  Repair Service: </strong> Efficient repair services for all Range and oven components, ensuring a quick resolution to leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions! </li>
+                  <li> <strong>  Annual Maintenance Contract: </strong>  This contract outlines the terms and services covered for the annual maintenance of your Wolf appliances.  </li>
+
+                  <p className="mb-0">
+                    <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for optimal performance, efficiency, and longevity of your Wolf cooking equipment..
+                  </p>
+                </ul>
+              </div>
+
             </div>
           </div>
         </section >
@@ -289,20 +343,25 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
         <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
-              <h3 className="cs_fs_30 mb-0">The Benefits Of Wolf appliances Service Dubai
-              </h3>
+              <h3 className="cs_fs_30 mb-0">The Benefits of Wolf Oven and Range Service in Dubai </h3>
               <div className="row gx-3 gy-5 mt-0">
+
                 <div className="col-md-4 mb-2">
                   <div className="">
+
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h3>
-                      <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
+                      <p className="small">
+                        Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.
+                      </p>
                     </div>
+
                   </div>
                 </div>
+
                 <div className="col-md-4 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
@@ -310,11 +369,12 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                         <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18"> Optimal Performance </h3>
-                      <p className="small">Regular maintenance helps your appliances run smoothly and efficiently, delivering the best results every time.
+                      <p className="small">Regular maintenance helps your range and oven run smoothly and efficiently, consistently delivering the best cooking results every time.
                       </p>
                     </div>
                   </div>
                 </div>
+
                 <div className="col-md-4 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
@@ -322,7 +382,9 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                         <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h3>
-                      <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                      <p className="small">
+                        An energy-efficient Wolf oven and cooking range translates to monthly savings on utility bills, putting more money back in your pocket.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -334,11 +396,13 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                         <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h3>
-                      <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
+                      <p className="small">
+                        Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.
+                      </p>
                     </div>
-
                   </div>
                 </div>
+
                 <div className="col-md-4 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
@@ -346,10 +410,10 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                         <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h3>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
-
+                      <p className="small">
+                        Proper care and timely servicing can significantly increase life of your Wolf oven and cooking range, delaying the need for replacements.
+                      </p>
                     </div>
-
                   </div>
                 </div>
 
@@ -361,7 +425,9 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                       </h4>
-                      <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                      <p className="small">
+                        Knowing your Wolf oven and cooking range are in top condition gives you confidence and removes the stress of unexpected failures.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -385,7 +451,7 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                   </div>
                   <div className="usptext">
                     <h3 className="">Reliable, Priority, and Quick</h3>
-                    <p>	You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
+                    <p>	You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day repairs and next-day service visits ensure your needs are met promptly.</p>
                   </div>
                 </div>
 
@@ -395,7 +461,7 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
+                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get year-round service to keep your Wolf appliance running smoothly and reliably.</p>
                   </div>
                 </div>
 
@@ -406,7 +472,9 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
+                    <p>
+                      Schedule a day and time for your Wolf appliance repair in Dubai or Sharjah, allowing a 3-4 hour window for the technician's arrival.
+                    </p>
                   </div>
                 </div>
 
@@ -425,7 +493,7 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are experts in Wolf appliance repair this is why most major brands trust us to handle their service and maintenance needs.</p>
+                    <p>We specialise in Wolf appliance repair, which is why major brands trust us to handle their service and maintenance needs.</p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -435,7 +503,7 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same location in Dubai.</p>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation up to two Wolf appliances at the same location in Dubai.</p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -444,7 +512,7 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our skilled appliance technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
+                    <p>Our skilled technicians specialise in Wolf appliances and provide outstanding service across major appliances.</p>
                   </div>
                 </div>
               </div>

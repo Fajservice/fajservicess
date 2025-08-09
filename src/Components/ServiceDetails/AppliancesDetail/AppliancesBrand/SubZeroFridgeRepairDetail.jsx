@@ -168,7 +168,7 @@ const SubZeroFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
           <div className="container">
 
             <h3 className="cs_fs_30">Why is Sub Zero Fridge Maintenance Service Important in Dubai?</h3>
-            <p className="">
+            <p className="mb-0">
               Proper Sub Zero fridge maintenance is essential for extending its lifespan and improving efficiency, especially given Dubai's climate. Here are the key benefits:
             </p>
 
@@ -178,14 +178,12 @@ const SubZeroFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
-                  <li> <strong>  Sub Zero Refrigerator Extended Lifespan: </strong> Regular maintenance helps prolong life of your refrigerator, ultimately saving you money on replacement costs. </li>
+                  <li> <strong>  Sub Zero Refrigerator Extended Lifespan: </strong> Regular maintenance extends refrigerator life, saving you money on replacement costs. </li>
                   <li> <strong>  Sub Zero Fridge Freezer Improved Efficiency: </strong> A well-maintained refrigerator operates more efficiently, consuming less energy and leading to lower utility bills, which is especially important in Dubai. </li>
                   <li> <strong>  Sub Zero Fridge Preventing Costly Repairs: </strong> Addressing minor issues promptly can prevent them from escalating into expensive repairs. </li>
-                  {/* <li> <strong>  Preserving Appliance Integrity: </strong> Routine cleaning prevents dust buildup, which can negatively affect performance. </li> */}
                   <li> <strong>  Sub Zero Freezer Early Problem Detection: </strong> Regular checks help identify potential issues before they become significant problems. </li>
-                  <li> <strong>  Sub Zero Refrigerator Cost-Effectiveness: </strong> Maintenance costs are generally lower than those of early replacements or major repairs. Investing in refrigerator care is a smart economic choice in Dubai, ensuring safety and efficiency. </li>
-                  <li> <strong>  Sub Zero Refrigerator Energy Efficiency: </strong> Routine maintenance can boost your refrigerator’s energy efficiency, helping you save money in the long run. </li>
-
+                  <li> <strong>  Sub Zero Refrigerator Cost-Effectiveness: </strong> Maintenance costs are usually lower than early replacements or major repairs. Investing in refrigerator care in Dubai ensures safety and efficiency. </li>
+                  <li> <strong>  Sub Zero Refrigerator Energy Efficiency: </strong> Routine maintenance can boost your Fridge’s energy efficiency, helping you save money in the long run. </li>
                 </ul>
               </div>
             </div>
@@ -416,7 +414,6 @@ const SubZeroFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                       <p className="small">
                         Proper care and timely servicing can significantly increase life of your refrigerator, delaying the need for replacements.
                       </p>
-
                     </div>
 
                   </div>
@@ -502,7 +499,6 @@ const SubZeroFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                 <div className="uspitem">
                   <div className="uspicon">
                     <img className="" src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`} loading="lazy" alt="FAJ icon service" />
-
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
@@ -538,17 +534,6 @@ const SubZeroFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
             {/* <h3>We specialize in SUB ZERO appliance services of the following types</h3> */}
             <div className="row">
               <div className="col-12">
-                {/* <p className="mb-0"> <b> Sub Zero Washing Machine Repair Near You in Dubai: </b>  FAJ is here to support you when things go wrong. We understand that your Sub Zero washing machine is essential for daily life, keeping your laundry clean.</p>
-                <p className="mb-0"> <b> Sub Zero Fridge Repair Near You in Dubai: </b> If you are experiencing issues with your Sub Zero refrigerator, please contact the FAJ team for same-day Sub Zero <a href="https://www.fajservices.ae/refrigerator-repair-service/">refrigerator repair</a> service in Dubai.</p>
-                <p className="mb-0"> <b> Sub Zero Freezer Repair Near You in Dubai: </b> For Sub Zero freezer repair and service in Dubai and Sharjah, our team of qualified technicians is available. </p>
-                <p className="mb-0"> <b> Sub Zero Home Appliance Service Center Near You: </b> If you are looking for the best repair service for Sub Zero washer dryer in Dubai, FAJ is an excellent choice.
-                  They are renowned for their outstanding service in repairing Sub Zero fridge freezer and are recognized as the leading provider for the repair of Sub Zero cooking ranges, stove fixes, induction, cooktop fixes, washing machines repair, and refrigerator repairs in the area.
-                </p>
-                <p className="mb-0"> <b> Sub Zero Dishwasher Repair Near You in Dubai: </b> Your Sub Zero dishwasher may need repair or maintenance. For high-quality integrated Sub Zero <a href="https://www.fajservices.ae/dishwasher-repair-service/">dishwasher repair</a> and service center in Dubai, rely on FAJ.</p>
-                <p className="mb-0"> <b> Sub Zero Cooking Range and Oven Repair Near You: </b> We offer expert repair services for Sub Zero cooking ranges and ovens in Dubai. Our skilled technicians are knowledgeable and experienced in diagnosing and fixing issues with Sub Zero refrigerators, dishwashers, dryers, and more. </p>
-                <p className="mb-0"> <b> Sub Zero Dryer Repair and Service Near You: </b> Are you worried about your Sub Zero dryer not working properly? Looking for a reliable Sub Zero laundry machine company in Dubai? Contact us for same-day service!</p>
-                <p className="mb-0"> <b> Sub Zero Oven Repair Near Me Dubai: </b>  If you are looking for the best company for Sub Zero oven repairs in Dubai, FAJ is the perfect choice. They are well-known for providing exceptional service for Sub Zero <a href="https://www.fajservices.ae/oven-repair-service/">oven repairs</a>. FAJ is recognized as the leading service center for Sub Zero ovens in the area.</p> */}
-
                 <h4 className="mt-3">We offer service for Sub Zero appliances in the Dubai area</h4>
                 <p>
 

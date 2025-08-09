@@ -131,12 +131,16 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
         {/* Select Air Conditioner Repair & Service*/}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
+
             <div className="row gx-md-5">
               <div className="col-md-6">
+
                 <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }} >AC Repair and AC Servicing Near Me</h2>
+
                 <p className="mb-1">When you need air conditioning repair near you, it&apos;s important to select a skilled technician.<br />
                   Our dedicated team specialises in AC servicing and maintenance throughout Dubai and Sharjah. At FAJ, we are committed to providing reliable solutions that improve your indoor comfort year-round while ensuring your system operates efficiently.
                 </p>
+
                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>EXPRESS & EMERGENCY AC REPAIR SERVICE</h2>
                 <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 195 to 320, depending on the capacity for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">CHOOSE FAJ FOR YOUR PEACE OF MIND</h3>
@@ -162,11 +166,9 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
             </div>
           </div>
         </section>
-        <section className="section cs_py_30">
-          <div className="container">
-            <FAJACPrice />
-          </div>
-        </section>
+
+        {/* price section                */}
+        <FAJACPrice />
 
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30  bg-light-gray mb-4">
