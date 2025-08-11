@@ -13,6 +13,9 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
+import DaiganosisCharges from "../AppliancesLocation/ApplianceSpecialise/Daiganosischarges";
+import GetQuoteButton from "../../../Buttons/GetQuoteButton";
+import CallNowButton from "../../../Buttons/CallNowButton";
 
 const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -114,11 +117,11 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Bertazzoni Refrigerator Repair</h1>
-            {/* 
-          <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2> */}
+            <h1 className="cs_fs_30">Bertazzoni Appliance Repair & Service in Dubai</h1>
             <p>
-              Bertazzoni appliances are the best among the other brands out there. Still, products of the best brands even do not last endlessly. In addition, we are all sure that our appliances break down when we need them the most. Reasonably, your first reaction will be to see if your appliance is repairable. You can fix minor issues, but mostly, you cannot. So why worry? We are the best Bertazzoni appliance repair service provider in Dubai. We are the most experienced industry experts serving since 2010 in Dubai. With hands-on experience with all home appliances, you can expect successful and swift repairs from us. Bertazzoni Fridge Repair in Dubai So, contact us today to get your repair appointment. Enjoy superior Bertazzoni appliance repair with F A J Technical Services L.L.C.
+              If you’re facing issues with your Bertazzoni Cooker, Built-in Oven, Hob, or Compact Oven, trust the experts at <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> in Dubai. Since 2010, we have provided fast, reliable, and cost-effective repair services tailored specifically for Bertazzoni appliances.
+              <br />
+              Our experienced technicians also service Refrigerators, Dishwashers, and Kitchen Hoods using advanced diagnostic tools to ensure minimal disruption to your home or business in Dubai and Sharjah.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -135,21 +138,23 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h3 className="cs_fs_24 mb-1">Best Bertazzoni Washing Machine Repair </h3>
+                <h3 className="cs_fs_24 mb-1">Get Bertazzoni Cooker Repair Near You </h3>
 
                 <p className="mb-2">
-                  If you need Bertazzoni Appliance Repair, FAJ is your best choice for fast and affordable service in Dubai and Sharjah.
-                  <br /> Our expert team is ready to tackle any issue, whether it’s a washing machine that won’t drain, refrigerator that&apos;s not working, an oven that isn’t heating, or a dishwasher that won’t switch on.
-                  <br /> We&apos;re nearby and can get your appliances fixed quickly and efficiently.
+                  Bertazzoni cookers and ovens are essential kitchen appliances we depend on for daily cooking.
+                  <br />
+                  When they break down, it can disrupt your entire routine. That’s why it’s crucial to find a Bertazzoni repair and service specialist near you, whether you're in Dubai or Sharjah, for fast and reliable support.
+
                 </p>
 
-                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Appliances Service
-                </h3>
-                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
+                <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Bertazzoni Appliances Service</h3>
+                <p className="mb-2">
+                  At F A J Technical Services L.L.C, we understand that appliance breakdowns, especially with Bertazzoni products, never occur at a convenient time. That’s why our trained and qualified Bertazzoni technicians are here to offer you reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Bertazzoni appliance up and running again before you have a chance to worry about it.
+                </p>
               </div>
 
               <div className="col-md-6 ">
-                {/* <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/indoor-ac-servicing.avif`}  loading="lazy" alt="Bertazzoni Refrigerator Repair" /> */}
+
                 <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} loading="lazy" alt="Bertazzoni Refrigerator Repair" />
               </div>
             </div>
@@ -163,7 +168,7 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
 
             <h3 className="cs_fs_30">Why is Bertazzoni Appliance Maintenance Service Important in Dubai?</h3>
             <p className="">
-              Our all-inclusive repair services include diagnosis, repairs, installations, and maintenance. That is why we are the most in-demand Bertazzoni appliances maintenance in Dubai provider.
+              Regular maintenance is crucial in Dubai because of the frequent use of appliances and the city's climate. It ensures the longevity and optimal performance of your Bertazzoni appliances, including cookers, ovens, hobs, refrigerators, hoods, and dishwashers, while also reducing the risk of breakdowns, leaks, and safety hazards. Here’s a detailed explanation based on each appliance:
             </p>
 
             <div className="row align-items-center">
@@ -172,14 +177,16 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">
-                  <li> <strong>  Bertazzoni Washing Machine Repair in Dubai: </strong> Regular maintenance helps appliances last longer, saving on replacement costs.</li>
-                  <li> <strong>  Bertazzoni Fridge Repair in Dubai: </strong> we are fully confident of getting your fridge running back in no time. </li>
-                  <li> <strong>  Bertazzoni Cooker Repair in Dubai: </strong> Catching minor issues early prevents them from escalating into expensive repair. </li>
-                  <li> <strong>  Preserving Appliance Integrity: </strong> Regular cleaning prevents dust buildup that affects performance. </li>
-                  <li> <strong>  Early Problem Detection: </strong> Routine checks help identify potential issues before they become serious.</li>
-                  <li> <strong>  Cost-Effective: </strong> Maintenance costs are lower than early replacements or major repair. Investing in appliance care ensures safety and efficiency and is a smart economic choice in Dubai.</li>
-                  <li> <strong>  Energy Efficiency: </strong> Regularly maintaining your appliances, can improve their efficiency and save you money.</li>
+                  <li> <strong> Cooker Heavy Use and Versatility: </strong> Bertazzoni cookers are essential in homes and commercial kitchens across Dubai. Due to frequent use, regular maintenance ensures consistent performance. </li>
+                  <li> <strong> Oven Efficiency: </strong> Regular maintenance of the heating element and thermostat ensures optimal efficiency in Bertazzoni ovens, saving energy and reducing utility bills. </li>
+                  <li> <strong> Hob Performance: </strong> Bertazzoni gas and electric hobs require routine inspections to detect burner issues, ignition faults, or gas leaks, ensuring precise cooking and safety. </li>
+                  <li> <strong> Refrigerator Cooling Efficiency: </strong> Regular maintenance of Bertazzoni refrigerators ensures the compressor and thermostat are functioning properly, preventing food spoilage and energy waste. </li>
+                  <li> <strong> Hood Ventilation: </strong> Bertazzoni kitchen hoods need periodic cleaning and filter replacement to maintain proper airflow and odor control, especially in Dubai’s humid conditions. </li>
+                  <li> <strong> Dishwasher Reliability: </strong> Regular servicing of Bertazzoni dishwashers prevents clogs, improves drainage, and ensures hygienic cleaning with each cycle. </li>
                 </ul>
+                <p className="mb-0">
+                  By prioritising Bertazzoni appliance maintenance, residents and businesses in Dubai can ensure their kitchen systems function safely and efficiently for the long term.
+                </p>
               </div>
             </div>
           </div>
@@ -187,27 +194,17 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
         {/* The Most Common Problems with Home Appliances */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h3 className="text-center">The Most Common Problems with Bertazzoni Home Appliances   </h3>
+            <h3 className="text-center">The Most Common Problems with Bertazzoni Appliances </h3>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Doesn't Heat Up</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Most fridge malfunctions are commonly related to cooling issues, including problems with the defrost system, fan motor, compressor, or coils.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-md-4 col-lg-3">
-                <div className=" box-content-container rounded border shadow">
-                  <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishwashers Problem</h3>
-                  </div>
-                  <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">The most issues with dishwashers are bad cleaning and drying. Common water leaks and drainage. Some electrical issues or PCB failures.
+                    <p className="p-2 mb-0">
+                      This could result from a faulty heating element, a broken thermostat, or a malfunction in the ignition system of gas ovens during operation.
                     </p>
                   </div>
                 </div>
@@ -216,11 +213,25 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Washing Machine Problem
-                    </h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Food Doesn't Cook Evenly</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">A common issue with washing machines is drainage problems, leaks, and PCB faulty. Also, broken belt or faulty door switch or drum from spinning.</p>
+                    <p className="p-2 mb-0">
+                      This can occur due to factors such as incorrect rack placement, blocked vents, poor circulation, uneven heating, or a faulty thermostat.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Gas Burner Issues </h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      This is another gas cooker problem. The burner has an issue where the flames are uneven or only partly ignited. They also tend to get blocked.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -229,13 +240,70 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Stove Problem</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Oven Door won't Close</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Uneven heating or flame issues, such as a broken burner element, bad switch, or electric gas, are the most common problems with stoves.</p>
+                    <p className="p-2 mb-0">
+                      Problems with door hinges, seals, or latch mechanisms can prevent the door from closing properly, affecting cooking performance and safety.
+                    </p>
                   </div>
                 </div>
               </div>
+
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Dishwasher Issues</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      Common issues with dishwashers include poor cleaning and drying, water leaks, drainage issues, and a few electrical or PCB malfunctions.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Refrigerator Freezing Food</h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+                      If your refrigerator is freezing food, it could be due to a faulty temperature control thermostat that improperly regulates the cooling system.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1"></h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-md-4 col-lg-3">
+                <div className=" box-content-container rounded border shadow">
+                  <div className="text-center">
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1"></h3>
+                  </div>
+                  <div className="inner-apcs-feat-desc">
+                    <p className="p-2 mb-0">
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">
@@ -249,23 +317,9 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
         {/* HERE ARE THE SERVICES WE OFFER FOR HOME APPLIANCES */}
         <section className="section cs_py_30 ">
           <div className="container">
-            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR Bertazzoni HOME APPLIANCES</h3>
+            <h3 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR BERTAZZONI APPLIANCES</h3>
 
             <div className="row align-items-center">
-              <div className="col-xl-6">
-                <p className='mb-0'>We specialize in all types and brands of home appliances, including built-in units.</p>
-                <p className='mb-0'><strong>Our services include:</strong></p>
-                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                  <li> <strong>  Installation: </strong> Expert installation of various types and brands of home appliances, ensuring optimal performance and efficiency. </li>
-                  <li> <strong> Diagnostics: </strong> Comprehensive fault-finding services to effectively diagnose issues. We provide eligibility assessments and detailed quotations to address any concerns with your system. </li>
-                  <li> <strong> Repair Service: </strong> Efficient repair services for all appliance components, ensuring a quick resolution to issues such as leaks, electrical failures, and system malfunctions. Feel free to reach out if you need specific services or have any questions! </li>
-                  <li> <strong> Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for
-                    the annual maintenance of your appliances. </li>
-                  <p className="mb-0">
-                    <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a> is essential for optimal performance, efficiency, and longevity of your home appliances.
-                  </p>
-                </ul>
-              </div>
               <div className="col-xl-6">
                 <iframe
                   className="bordered-img blue-border"
@@ -278,6 +332,22 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
                   allowFullScreen
                 ></iframe>
               </div>
+
+              <div className="col-xl-6">
+                <p className='mb-0'>We specialise in all types of Bertazzoni kitchen appliances, including built-in units.</p>
+                <p className='mb-0'><strong>Our services include:</strong></p>
+                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
+                  <li> <strong>   Installation: </strong> Expert installation of Bertazzoni cookers, ovens, hobs, refrigerators, hoods, and dishwashers, ensuring optimal performance, safety, and long-term efficiency. </li>
+                  <li> <strong>   Diagnostics: </strong> Comprehensive fault-finding services to accurately identify issues. We provide eligibility assessments and detailed quotations to address any concerns you may have with your Bertazzoni appliances. </li>
+                  <li> <strong>   Repair Service: </strong> Reliable repair services for all Bertazzoni appliance components, offering quick solutions for gas leaks, electrical faults, cooling issues, poor performance, and system malfunctions. </li>
+                  <li> <strong>   Annual Maintenance Contract: </strong> This contract outlines the terms and services covered for the annual maintenance of your Bertazzoni appliances. </li>
+
+                  <p className="mb-0">
+                    <a href="https://www.linkedin.com/company/faj-technical-services-llc">Regular maintenance</a>, is key to ensuring peak performance, energy efficiency, and extended lifespan for your cooking and refrigeration equipment.
+                  </p>
+                </ul>
+              </div>
+
             </div>
           </div>
         </section >
@@ -285,8 +355,7 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
         <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
-              <h3 className="cs_fs_30 mb-0">The Benefits Of Bertazzoni appliances Service Dubai
-              </h3>
+              <h3 className="cs_fs_30 mb-0">The Benefits of Bertazzoni Appliance Service in Dubai</h3>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
                   <div className="">
@@ -295,7 +364,9 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
                         <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h3>
-                      <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
+                      <p className="small">
+                        Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -306,7 +377,8 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
                         <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18"> Optimal Performance </h3>
-                      <p className="small">Regular maintenance helps your appliances run smoothly and efficiently, delivering the best results every time.
+                      <p className="small">
+                        Regular maintenance helps your appliances run smoothly and efficiently, consistently delivering the best cooking results every time.
                       </p>
                     </div>
                   </div>
@@ -318,7 +390,9 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
                         <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h3>
-                      <p className="small">Energy efficient appliances translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                      <p className="small">
+                        An energy-efficient Bertazzoni appliance translates to monthly savings on utility bills, putting more money back in your pocket.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -330,7 +404,9 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
                         <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h3>
-                      <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
+                      <p className="small">
+                        Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.
+                      </p>
                     </div>
 
                   </div>
@@ -342,7 +418,9 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
                         <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} loading="lazy" alt="Cooling Efficiency" className="icon-img-block-icon" />
                       </div>
                       <h3 className="text-uppercase mb-2 cs_fs_18">Extending Appliance Lifespan</h3>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your home appliances, delaying the need for replacements.</p>
+                      <p className="small">
+                        Proper care and timely servicing can significantly increase life of your Bertazzoni appliances, delaying the need for replacements.
+                      </p>
 
                     </div>
 
@@ -357,7 +435,9 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
                       </div>
                       <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
                       </h4>
-                      <p className="small">Knowing your appliances are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                      <p className="small">
+                        Knowing your Bertazzoni appliances are in top condition gives you confidence and removes the stress of unexpected failures.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -370,7 +450,9 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
           <div className="container container-md container-sm">
-            <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2>
+            <h2 className="my-3 why-choose-h2 text-center mb-3">
+              CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!
+            </h2>
 
             <div className="usps align-items-center	">
               {/* <!-- First Column --> */}
@@ -382,7 +464,8 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
                   </div>
                   <div className="usptext">
                     <h3 className="">Reliable, Priority, and Quick</h3>
-                    <p>	You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
+                    <p>
+                      You can count on quick service! Our same-day repairs and next-day service visits ensure your needs are met promptly.</p>
                   </div>
                 </div>
 
@@ -392,7 +475,7 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
                   </div>
                   <div className="usptext">
                     <h3 className="">Feeling Of Calm</h3>
-                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get a full year of service, ensuring your appliance runs smoothly and providing peace of mind.</p>
+                    <p>With a <Link to="/appliances-amc-service/"> maintenance contract</Link>, you get year-round service to keep your Bertazzoni appliance running smoothly and reliably.</p>
                   </div>
                 </div>
 
@@ -403,7 +486,8 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
                   </div>
                   <div className="usptext">
                     <h3 className="">You Are in Control</h3>
-                    <p>Choose a day and time for your appliance repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
+                    <p>
+                      Schedule a day and time for your Bertazzoni appliance repair in Dubai or Sharjah, allowing a 3-4 hour window for the technician's arrival.</p>
                   </div>
                 </div>
 
@@ -422,7 +506,8 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
                   </div>
                   <div className="usptext">
                     <h3 className="">We Are Experts</h3>
-                    <p>We are experts in Bertazzoni appliance repair this is why most major brands trust us to handle their service and maintenance needs.</p>
+                    <p>We specialise in Bertazzoni appliance repair, which is why major brands trust us to handle their service and maintenance needs.
+                    </p>
                   </div>
                 </div>
                 <div className="uspitem">
@@ -432,7 +517,9 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
                   </div>
                   <div className="usptext">
                     <h3 className="">Great Value</h3>
-                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two appliances at the same location in Dubai.</p>
+                    <p>
+                      Inspection fee includes diagnosis, transport, and reinstallation up to two Bertazzoni appliances at the same location in Dubai.
+                    </p>
                   </div>
                 </div>
                 <div className="uspitem mb-0">
@@ -441,7 +528,9 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
                   </div>
                   <div className="usptext">
                     <h3 className="">Trustworthy</h3>
-                    <p>Our skilled appliance technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
+                    <p>
+                      Our skilled technicians specialise in Bertazzoni appliances and provide outstanding service across major appliances.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -454,6 +543,137 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
           </div>
         </section>
 
+        {/* We are specialise in Appliances services for the following brands */}
+        <section className="section cs_py_30 bg-light-gray mb-4">
+          <div className="container">
+            <DaiganosisCharges
+              appliancebrand="BERTAZZONI APPLIANCE"
+              feeRange="ranging from AED 157 to 280"
+            />
+            <h3>We specialize in BERTAZZONI APPLIANCE services of the following types</h3>
+            <div className="row">
+              <div className="col-12">
+                <p className="mb-0"> <strong>  Bertazzoni Cooker Repair Near You in Dubai: </strong> FAJ is here to help when your Bertazzoni cooker isn’t working as it should. We know your cooker is central to your kitchen, so contact us for the best Bertazzoni cooker service center near me in Dubai. </p>
+                <p className="mb-0"> <strong>  Bertazzoni Oven Repair Near You in Dubai: </strong> Experiencing issues with your Bertazzoni oven? Reach out to FAJ for same-day Bertazzoni oven repair service in Dubai, ensuring your baking and roasting stay on schedule. </p>
+                <p className="mb-0"> <strong>  Bertazzoni Hob Repair Near You in Dubai: </strong> Our expert technicians are ready to handle all Bertazzoni hob repair and service needs in Dubai and Sharjah. We make sure your cooking experience remains smooth and uninterrupted. </p>
+                <p className="mb-0"> <strong>  Bertazzoni Refrigerator Repair Near You in Dubai: </strong> If your Bertazzoni refrigerator is not cooling correctly, FAJ offers professional repair services in Dubai to protect your food and keep your fridge running efficiently. </p>
+                <p className="mb-0"> <strong>  Bertazzoni Hood Repair Near You in Dubai: </strong> For issues with your Bertazzoni kitchen hood, trust FAJ to restore optimal performance. Our skilled team ensures your kitchen remains clean, fresh, and odor-free. </p>
+                <p className="mb-0"> <strong>  Bertazzoni Dishwasher Repair Near You in Dubai: </strong> If your Bertazzoni dishwasher is not cleaning or draining properly, FAJ provides reliable repair services in Dubai to get your appliance back to peak performance.
+                  Trust FAJ for all your Bertazzoni appliance service needs in Dubai. Our experienced technicians are committed to delivering exceptional repair services tailored to your specific Bertazzoni appliances. </p>
+
+
+                <h4 className="mt-3">We offer service for Blomberg appliances in the Dubai area</h4>
+                <p>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-business-bay/">Business Bay</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-dubai-marina/">Dubai Marina</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-palm-jumeirah/">Palm Jumeirah</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-dubai-hills-estate/">Dubai Hills Estate</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-damac-hills/">Damac Hills</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-al-barari/">Al Barari</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-al-barsha/">Al Barsha</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-al-safa/">Al Safa</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-arabian-ranches/">Arabian Ranches</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-dubai-silicon-oasis/">Dubai Silicon Oasis</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-dubai-investments-park/">Dubai Investments Park</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-dip/">DIP</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-dubai-production-city/">Dubai Production City</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-impzy/">IMPZ</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-dubai-sports-city/">Dubai Sports City</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-dubai-studio-city/">Dubai Studio City</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-jbr/">JBR</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-beach-residence/">Jumeirah Beach Residence</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-jlt/">JLT</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-lake-towers/">Jumeirah Lake Towers</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-jvc/">JVC</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-village-circle/">Jumeirah Village Circle</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-jvt/">JVT</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-village-triangle/">Jumeirah Village Triangle</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-jebel-ali-village/">Jebel Ali Village</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-jumeirah/">Jumeirah</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-golf-estates/">Jumeirah Golf Estates</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-the-meadows/">Meadows</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-dubai-motor-city/">Motor City</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-town-square/">Town Square</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/ac-services-in-emirates-hills/">Emirates Hills</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-umm-suqeim/">Umm Suqeim</a>
+
+                </p>
+
+              </div>
+            </div>
+
+            <div id="get-quote" className=" mt-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3">
+                <GetQuoteButton />
+                <CallNowButton />
+              </div>
+            </div>
+
+          </div>
+        </section>
 
         {/* Maintenance Contract */}
         <MaintenanceContract />

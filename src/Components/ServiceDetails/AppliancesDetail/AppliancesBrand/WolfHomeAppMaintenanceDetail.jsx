@@ -13,6 +13,9 @@ import loadBackgroudImages from "../../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
+import DaiganosisCharges from "../AppliancesLocation/ApplianceSpecialise/Daiganosischarges";
+import GetQuoteButton from "../../../Buttons/GetQuoteButton";
+import CallNowButton from "../../../Buttons/CallNowButton";
 
 const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
@@ -525,12 +528,147 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
           </div>
         </section>
 
+        {/* We are specialise in Appliances services for the following brands */}
+        <section className="section cs_py_30 bg-light-gray mb-4">
+          <div className="container">
+            <DaiganosisCharges
+              appliancebrand="WOLF APPLIANCE"
+              feeRange="ranging from AED 157 to 280"
+            />
+            <h3 className="" style={{ fontSize: "25px" }}>We specialize in White Westinghouse appliance services of the following types</h3>
+            <div className="row">
+              <div className="col-12">
+
+                <p className="mb-0"> <strong> Wolf Range Repair Near You in Dubai: </strong> FAJ is here to support you when issues arise with your Wolf range. We understand that your Wolf range is essential for your culinary creations, so contact us for the best Wolf range service center near me in Dubai. </p>
+                <p className="mb-0"> <strong> Wolf Built-In Oven Repair Near You in Dubai: </strong> If you are having problems with your Wolf built-in oven, please reach out to the FAJ team for same-day Wolf built-in oven repair service in Dubai. </p>
+                <p className="mb-0"> <strong> Wolf Cooktop / Rangetop Repair Near You in Dubai: </strong> Our team of qualified technicians is available for Wolf cooktop and rangetop repair and service in Dubai and Sharjah. We take pride in ensuring your cooking experience remains uninterrupted. </p>
+                <p className="mb-0"> <strong> Wolf Ventilation Hood Repair Near You in Dubai: </strong> If your Wolf ventilation hood is not functioning properly, you can count on FAJ for expert repairs. Our skilled technicians ensure your kitchen remains fresh and odor-free by providing reliable Wolf ventilation hood services. </p>
+                <p className="mb-0"> <strong> Wolf Microwave Repair Near You in Dubai: </strong> Is your Wolf microwave giving you trouble? Contact FAJ for superior Wolf microwave repair services in Dubai, where our experts bring your appliance back to optimal performance. </p>
+                <p className="mb-0"> <strong> Wolf Warming Drawer Repair Near You in Dubai: </strong> For those experiencing issues with their Wolf warming drawers, FAJ is here to help. We offer specialized repair services in Dubai, ensuring your appliances work flawlessly. </p>
+                <p className="mb-0"> <strong> Wolf Coffee System Repair Near You in Dubai: </strong> Enjoying a perfect cup of coffee is vital; if your Wolf coffee system is malfunctioning, trust FAJ to restore it with our professional repair services in Dubai. </p>
+                <p className="mb-0"> <strong> Wolf Module Cooktop Repair Near You in Dubai: </strong> If you need assistance with your Wolf module cooktop, reach out to FAJ for expert service. Our technicians are highly trained to handle all issues related to Wolf module cooktops. </p>
+                <p className="mb-0"> <strong> Wolf Outdoor Grill Repair Near You in Dubai: </strong> For grill enthusiasts, having a fully functioning Wolf outdoor grill is crucial. Contact FAJ for prompt repair services, and let us help you get back to enjoying outdoor cooking. </p>
+                <p className="mb-0"> <strong> Wolf Vacuum Seal Drawer Repair Near You in Dubai: </strong> If your Wolf vacuum seal drawer is not performing well, FAJ offers specialized repair services to ensure your food preservation needs are met efficiently.
+                  <br />
+                  Trust FAJ for all your Wolf appliance service needs in Dubai. Our experienced technicians are dedicated to providing exceptional repair services tailored to your specific appliance needs. </p>
+
+                <h4 className="mt-3">We offer service for WOLF appliance in the Dubai area</h4>
+                <p>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-business-bay/">Business Bay</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-dubai-marina/">Dubai Marina</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-palm-jumeirah/">Palm Jumeirah</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-dubai-hills-estate/">Dubai Hills Estate</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-damac-hills/">Damac Hills</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-al-barari/">Al Barari</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-al-barsha/">Al Barsha</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-al-safa/">Al Safa</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-arabian-ranches/">Arabian Ranches</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-dubai-silicon-oasis/">Dubai Silicon Oasis</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-dubai-investments-park/">Dubai Investments Park</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-dip/">DIP</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-dubai-production-city/">Dubai Production City</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-impzy/">IMPZ</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-dubai-sports-city/">Dubai Sports City</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-dubai-studio-city/">Dubai Studio City</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-jbr/">JBR</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-beach-residence/">Jumeirah Beach Residence</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-jlt/">JLT</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-lake-towers/">Jumeirah Lake Towers</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-jvc/">JVC</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-village-circle/">Jumeirah Village Circle</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-jvt/">JVT</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-village-triangle/">Jumeirah Village Triangle</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-jebel-ali-village/">Jebel Ali Village</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-jumeirah/">Jumeirah</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-jumeirah-golf-estates/">Jumeirah Golf Estates</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-the-meadows/">Meadows</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-dubai-motor-city/">Motor City</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-town-square/">Town Square</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/ac-services-in-emirates-hills/">Emirates Hills</a>
+                  <span>&nbsp;|&nbsp;</span>
+
+                  <a href="https://www.fajservices.ae/appliances-services-in-umm-suqeim/">Umm Suqeim</a>
+
+                </p>
+              </div>
+            </div>
+
+            <div id="get-quote" className=" mt-3">
+              <div className="container d-flex justify-content-center align-items-center gap-3">
+                <GetQuoteButton />
+                <CallNowButton />
+              </div>
+            </div>
+          </div>
+        </section>
+
 
         {/* Maintenance Contract */}
         <MaintenanceContract />
+
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
-          {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
               <h3 className="cs_section_subtitle cs_fs_18 text-black cs_semibold text-uppercase cs_mb_12 wow fadeInDown">

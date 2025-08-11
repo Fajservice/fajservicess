@@ -555,9 +555,9 @@ const BlombergFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 				<section className="section cs_py_30 bg-light-gray mb-4">
 					<div className="container">
 						<DaiganosisCharges
-                            appliancebrand="Blomberg Appliance"
-                            feeRange="ranging from AED 157 to 280"
-                        />
+							appliancebrand="Blomberg Appliance"
+							feeRange="ranging from AED 157 to 280"
+						/>
 						<h3>We specialize in Blomberg appliance services of the following types</h3>
 						<div className="row">
 							<div className="col-12">
@@ -684,7 +684,6 @@ const BlombergFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 
 					</div>
 				</section>
-
 
 				{/* Maintenance Contract */}
 				<MaintenanceContract />

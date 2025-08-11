@@ -666,7 +666,7 @@ const LaGermaniaCookingRangeRepairDetail = ({ subtitle, title, reviewsbg, titleS
         </section >
 
         {/* Maintenance Contract */}
-        < MaintenanceContract />
+        <MaintenanceContract />
 
         {/* testimobial section */}
         < section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }
