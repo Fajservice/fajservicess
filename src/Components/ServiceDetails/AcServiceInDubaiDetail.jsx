@@ -379,7 +379,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
                 Panasonic was established in 1918 by its founder, Konosuke Matsushita, and has been committed to the progress and development of society and the well-being of people through its business activities, thereby enhancing the quality of life throughout the world.
                 <br />
                 The following is an introduction to the footsteps Panasonic has taken, along with the thoughts of its founder. ​No matter the issue with your Panasonic air conditioner, our skilled technicians in Dubai and Sharjah can quickly diagnose and fix it. We offer reliable air conditioning services near me and AC repair right in your area, ensuring your system runs smoothly again.
-              </li>https://www.fajservices.ae/o-general-ac-repair-in-dubai-o-general-ac-maintenance-in-dubai-o-general-ac-fix-in-dubai-o-general-ac-service-in-dubai-o-general-air-condition-repair-in-dubai-o-general-air-condition-maintenance-in-du/
+              </li>
 
             </ul>
             <p className="mt-2 mb-0">
