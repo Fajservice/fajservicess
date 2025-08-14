@@ -6708,8 +6708,9 @@ textarea {
 }
 
 @media (max-width: 575px) {
-  .cs_about.cs_style_1 .cs_phone_call .cs_phone_icon {
+  .cs_about.cs_style_1 .cs_phone_call .cs_phone_icon, .cs_about.cs_style_1 .cs_phone_call .cs_phone_icon svg {
     color: var(--white-color);
+    z-index: 9;
   }
 }
 
