@@ -78,6 +78,10 @@ export const router = createBrowserRouter([
         element: <Components.NearMe />,
       },
       {
+        path: "/faqs/",
+        element: <Components.Faqs />,
+      },
+      {
         path: "/dubai/ac-repair-near-me/",
         element: <Components.AcRepairNearMe />,
       },
