@@ -189,7 +189,7 @@ const HeaderForm = () => {
         </div>
       )}
 
-      <div className="d-block d-md-none p-3 p-sm-4 rounded" style={{ backgroundColor: "rgb(242 242 242)" }}>
+      <div className="d-none p-3 p-sm-4 rounded" style={{ backgroundColor: "rgb(242 242 242)" }}>
         <form onSubmit={handleSubmit}>
           <div className="row align-items-center">
             <div className="col-12 col-md-6" style={{ marginTop: "0.1rem" }}>

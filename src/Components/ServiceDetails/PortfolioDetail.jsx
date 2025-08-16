@@ -37,9 +37,10 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
       <HeaderForm />
 
       <div className="cs_service_details">
-
+        
         <section className="section cs_py_30">
           <div className="container">
+            <h1 className="cs_fs_30">Our Portfolio</h1>
             <p>At F A J Technical Services L.L.C, we are dedicated to providing comprehensive technical services, including installation, maintenance, and MEP services that enhance operational efficiency and sustainability. Our commitment to innovation and customer satisfaction aligns with your needs.</p>
           </div>
         </section>
