@@ -15,6 +15,7 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
 import Services4 from "../../Services/Services4.jsx";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton.jsx";
+import GetQuoteButton from "../../Buttons/GetQuoteButton.jsx";
 
 const NearMeDetail = ({ subtitle, title, bgImg }) => {
 
@@ -83,6 +84,8 @@ const NearMeDetail = ({ subtitle, title, bgImg }) => {
     ]
   };
 
+  const [activeTab, setActiveTab] = useState('1');
+
   return (
     <>
       <HelmetProvider>
@@ -103,9 +106,18 @@ const NearMeDetail = ({ subtitle, title, bgImg }) => {
       <HeaderForm />
 
       <div className="cs_service_details">
-        <section className="section cs_py_30 bg-light-gray">
+
+        <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Repair Near Me Services</h1>
+            <h1 className="cs_fs_24">Home and Commercial Appliance Repair and Service Center – Expert Appliance Repair Near You</h1>
+            <h2 className="cs_fs_20">
+              Reliable Home Appliance Repair Services – Quick and Affordable
+            </h2>
+
+            <p className="description">
+              Are you searching for a trustworthy home appliance repair service center nearby? We offer expert repair and support for all types of commercial and residential appliances, including air conditioners, laundry machines, washing machines, dryers, refrigerators, ovens, dishwashers, and more. Our skilled technicians provide fast and efficient repair services, ensuring your appliances are fixed affordably and effectively.
+            </p>
+
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
@@ -113,10 +125,350 @@ const NearMeDetail = ({ subtitle, title, bgImg }) => {
             </div>
           </div>
         </section>
-        <Services4 />
+
+
+        <section className="section cs_py_30 near-me-service-category-section">
+          <div className=" near-me-content-wrapper container">
+            <h2 className=" near-me-title cs_fs_24">
+              Choose Repair Service by Categories – Easily Find the Right Appliance Repair
+            </h2>
+            <p className=" near-me-subtitle">
+              At FAJ Help, we simplify the process of selecting the right repair service for your commercial, small, and large appliances. Whether you need washing machine repair, refrigerator service, AC maintenance, or any other appliance repair, our categorized services make it easy for you to quickly find the best solution.
+            </p>
+            <span className="d-block seprator-line mb-3"></span>
+
+            <div className=" near-me-grid">
+
+              <a href="#" className=" near-me-service-box">
+                <div className=" near-me-service-title">AC Service</div>
+              </a>
+
+              <a href="#" className=" near-me-service-box">
+                <div className=" near-me-service-title">AC Service</div>
+              </a>
+
+              <a href="#" className=" near-me-service-box">
+                <div className=" near-me-service-title">AC Service</div>
+              </a>
+
+              <a href="#" className=" near-me-service-box">
+                <div className=" near-me-service-title">AC Service</div>
+              </a>
+
+              <a href="#" className=" near-me-service-box">
+                <div className=" near-me-service-title">AC Service</div>
+              </a>
+
+              <a href="#" className=" near-me-service-box">
+                <div className=" near-me-service-title">AC Service</div>
+              </a>
+
+              <a href="#" className=" near-me-service-box">
+                <div className=" near-me-service-title">AC Service</div>
+              </a>
+
+              <a href="#" className=" near-me-service-box">
+                <div className=" near-me-service-title">AC Service</div>
+              </a>
+
+              <a href="#" className=" near-me-service-box">
+                <div className=" near-me-service-title">AC Service</div>
+              </a>
+
+              <a href="#" className=" near-me-service-box">
+                <div className=" near-me-service-title">AC Service</div>
+              </a>
+
+            </div>
+
+            <GetQuoteButton></GetQuoteButton>
+
+          </div>
+        </section >
+
+
+
+        <section className="section cs_py_30">
+          <div className="container">
+            <h2 className="near-me-title cs_fs_24">
+              Why Choose Our Appliance Repair Service? – Trusted & Reliable Home Appliance Repairs
+            </h2>
+            <p className="near-me-subtitle">
+              When it comes to home appliance repair, you need a trusted service provider that guarantees quality repairs, fast service, and expert technicians...
+            </p>
+            <span className="d-block text-center seprator-line mb-3"></span>
+
+            {/* row 1 */}
+
+            <div className="row g-3 align-items-stretch mb-3">
+              <div className="col-md-6">
+
+                <div className="p-3 border rounded h-100">
+                  <h3 className="cs_fs_20">We are Home Appliance Repair Service Centers</h3>
+                  <p>We repair All brands and models of Home appliances including; washing machines, fridge freezers, dishwashers, tumble dryers, washer dryers, cookers, ovens, hobs. All our repairs are performed by trained engineers .
+
+                    <br />  We are the appliance repair experts and our engineers have already successfully repairing washing machines, fridge freezers, dishwashers, tumble dryers, washer dryers, cookers, ovens, hobs, Whether it is your Washing Machine, Fridge, freezer, Cooker, Dishwasher or Tumble Dryer that has developed a fault we will do all we can to fix it for you, fast! All our repairs are guaranteed and you can book online 24/7, 365 days a year .
+                  </p>
+                  <ul>
+                    <li> <strong> Expert Technicians: </strong> Our engineers are trained and experienced in handling various appliance issues across all major brands. </li>
+                    <li> <strong> Comprehensive Services: </strong> From minor fixes to major repairs, we cover a broad spectrum of home appliance services. </li>
+                    <li> <strong> Guaranteed Repairs: </strong> We stand by the quality of our work, offering guarantees on all repairs performed. </li>
+                    <li> <strong> Convenient Booking: </strong> Our online booking system is available 24/7, allowing you to schedule repairs at your convenience. </li>
+                    <li> <strong> Prompt Support: </strong> We understand the importance of functional appliances in daily life and strive to provide quick and efficient repair services. </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="col-md-6 border rounded py-3 d-flex align-items-center">
+                <img className="" src={`${import.meta.env.BASE_URL}img/Refrigerator-Appliances-to-Repair.avif`} alt="Book Now" />
+              </div>
+
+            </div>
+
+
+            {/* row 2 */}
+            <div className="row g-3 align-items-stretch">
+
+
+              <div className="col-md-6">
+                <div className=" border rounded h-100 py-3 d-flex align-items-center" >
+                  <img className="" src={`${import.meta.env.BASE_URL}img/Washing-Machine-Repair-in-Dubai-Call-Out.avif`} alt="Book Now" />
+
+                </div>
+              </div>
+
+
+              <div className="col-md-6">
+
+                <div className="p-3 border rounded h-100">
+                  <h3 className="cs_fs_20">We are Home Appliance Repair Service Centers</h3>
+                  <p>We repair All brands and models of Home appliances including; washing machines, fridge freezers, dishwashers, tumble dryers, washer dryers, cookers, ovens, hobs. All our repairs are performed by trained engineers .
+
+                    <br />  We are the appliance repair experts and our engineers have already successfully repairing washing machines, fridge freezers, dishwashers, tumble dryers, washer dryers, cookers, ovens, hobs, Whether it is your Washing Machine, Fridge, freezer, Cooker, Dishwasher or Tumble Dryer that has developed a fault we will do all we can to fix it for you, fast! All our repairs are guaranteed and you can book online 24/7, 365 days a year .
+                  </p>
+                  <ul>
+                    <li> <strong> Expert Technicians: </strong> Our engineers are trained and experienced in handling various appliance issues across all major brands. </li>
+                    <li> <strong> Comprehensive Services: </strong> From minor fixes to major repairs, we cover a broad spectrum of home appliance services. </li>
+                    <li> <strong> Guaranteed Repairs: </strong> We stand by the quality of our work, offering guarantees on all repairs performed. </li>
+                    <li> <strong> Convenient Booking: </strong> Our online booking system is available 24/7, allowing you to schedule repairs at your convenience. </li>
+                    <li> <strong> Prompt Support: </strong> We understand the importance of functional appliances in daily life and strive to provide quick and efficient repair services. </li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </section>
+
+
+        <section className="section cs_py_30 near-me-service-category-section">
+          <div className=" near-me-content-wrapper container">
+            <h2 className=" near-me-title cs_fs_24">
+              Brands We Repair
+            </h2>
+            <p className=" near-me-subtitle">
+              We service a wide range of non-authorized brands (T&C apply), including:
+            </p>
+            <span className="d-block seprator-line mb-3"></span>
+
+            <div className="near-me-grid">
+
+              <a href="#" className=" brand-near-me-service-box">
+                <div className=" brand-near-me-service-title">Candy</div>
+              </a>
+
+              <a href="#" className=" brand-near-me-service-box">
+                <div className=" brand-near-me-service-title">Whirlpool</div>
+              </a>
+
+              <a href="#" className=" brand-near-me-service-box">
+                <div className=" brand-near-me-service-title">Phlips</div>
+              </a>
+
+              <a href="#" className=" brand-near-me-service-box">
+                <div className=" brand-near-me-service-title">Whirlpool</div>
+              </a>
+
+              <a href="#" className=" brand-near-me-service-box">
+                <div className=" brand-near-me-service-title">Phlips</div>
+              </a>
+
+              <a href="#" className=" brand-near-me-service-box">
+                <div className=" brand-near-me-service-title">LG</div>
+              </a>
+
+              <a href="#" className=" brand-near-me-service-box">
+                <div className=" brand-near-me-service-title">Candy</div>
+              </a>
+
+              <a href="#" className=" brand-near-me-service-box">
+                <div className=" brand-near-me-service-title">Whirlpool</div>
+              </a>
+
+              <a href="#" className=" brand-near-me-service-box">
+                <div className=" brand-near-me-service-title">Phlips</div>
+              </a>
+
+
+              <a href="#" className=" brand-near-me-service-box">
+                <div className=" brand-near-me-service-title">LG</div>
+              </a>
+
+              <a href="#" className=" brand-near-me-service-box">
+                <div className=" brand-near-me-service-title">Phlips</div>
+              </a>
+
+
+
+              <a href="#" className=" brand-near-me-service-box">
+                <div className=" brand-near-me-service-title">LG</div>
+              </a>
+
+              <a href="#" className=" brand-near-me-service-box">
+                <div className=" brand-near-me-service-title">Candy</div>
+              </a>
+
+              <a href="#" className=" brand-near-me-service-box">
+                <div className=" brand-near-me-service-title">Whirlpool</div>
+              </a>
+
+              <a href="#" className=" brand-near-me-service-box">
+                <div className=" brand-near-me-service-title">Phlips</div>
+              </a>
+
+              <a href="#" className=" brand-near-me-service-box">
+                <div className=" brand-near-me-service-title">LG</div>
+              </a>
+
+              <a href="#" className=" brand-near-me-service-box">
+                <div className=" brand-near-me-service-title">Whirlpool</div>
+              </a>
+
+              <a href="#" className=" brand-near-me-service-box">
+                <div className=" brand-near-me-service-title">Phlips</div>
+              </a>
+
+
+
+            </div>
+            <WhatsappIconButton></WhatsappIconButton>
+
+            <GetQuoteButton></GetQuoteButton>
+
+          </div>
+        </section >
+
+        <section className="section cs_py_30">
+          <div className=" near-me-content-wrapper container">
+            <h2 className=" near-me-title cs_fs_24">
+              How It Works – Easy & Hassle-Free Home Appliance Repair Process
+            </h2>
+            <p className=" near-me-subtitle">
+              At FAJ Help, we simplify the process of selecting the right repair service for your commercial, small, and large appliances. Whether you need washing machine repair, refrigerator service, AC maintenance, or any other appliance repair, our categorized services make it easy for you to quickly find the best solution.
+            </p>
+            <span className="d-block text-center seprator-line mb-3"></span>
+
+            <div className="near-me-grid justify-content-around">
+
+
+              <a href="#" className=" brand-near-me-service-box">
+                <div className=" near-me-work-title">
+                  <img className="mb-3 w-25" src={`${import.meta.env.BASE_URL}img/icons/book.png`} alt="Book Now" />
+                  <p>Book Your Repair</p>
+                </div>
+              </a>
+
+              <a href="#" className=" brand-near-me-service-box">
+                <div className=" near-me-work-title">
+                  <img className="mb-3 w-25" src={`${import.meta.env.BASE_URL}img/icons/callicon.png`} alt="Receive Confirmation
+Call" />
+                  <p>Receive Confirmation Call</p>
+                </div>
+              </a>
+
+              <a href="#" className=" brand-near-me-service-box">
+                <div className=" near-me-work-title">
+                  <img className="mb-3 w-25" src={`${import.meta.env.BASE_URL}img/icons/prob.png`} alt="Book Now" />
+                  <p>Problem detection and
+                    Repair</p>
+                </div>
+              </a>
+            </div>
+
+
+
+
+            <div className="container mt-4">
+              <ul className="nav nav-tabs nav-fill mb-0" role="tablist">
+                <li className="nav-item" role="presentation">
+                  <button
+                    className={`nav-link ${activeTab === '1' ? 'active' : ''}`}
+                    onClick={() => setActiveTab('1')}
+                    role="tab"
+                  >
+                    Affordable & Reliable Home Appliance Repair Services
+                  </button>
+                </li>
+                <li className="nav-item" role="presentation">
+                  <button
+                    className={`nav-link ${activeTab === '2' ? 'active' : ''}`}
+                    onClick={() => setActiveTab('2')}
+                    role="tab"
+                  >
+                    FAJ – Your Trusted Home Appliance Repair & Service Center
+                  </button>
+                </li>
+
+              </ul>
+
+              <div className="tab-content">
+                {activeTab === '1' && (
+                  <div className="tab-pane bg-light-gray p-3 fade show active" role="tabpanel">
+
+                    <p>
+                      <strong>  We Offer Affordable Washer Repair</strong>
+                      <br />
+                      If your washing machine is leaking or not able to spin properly anymore, you have a problem. Going to the local laundromat is not an option for some of you, you just want to be able to use your washing machine and wash your clothes and linens as usual. Consider us for your washing Machine Repair and our team of experts will come to the rescue as soon as we receive your call , Our repairs are completed maximum within 48 Hours .
+                      <br />
+
+                      <strong> Affordable Refrigerator Repair</strong><br />
+                      Your fridge is one of the most important appliances in your kitchen. Without it, you cannot store and keep cold a large number of food items that need to be kept cool or frozen. Without chilled compartments, you might have to throw it all away in only a few hours.
+                      <br />
+                      A malfunctioning fridge or one with damaged parts can also be a huge hassle, not allowing you to use all the features and possibilities of your fridge. Given its size and its cost, repairing a fridge is a preferable option rather than having to buy a new one and dispose of the old one. Save yourself some effort and money by letting us repair your refrigerator. Ask today about our refrigerator repair service.
+
+                      <strong> Efficient Dishwasher Repair</strong><br />
+                      Washing and sterilizing your dishes is key for your safety and hygiene. Don’t let a broken part or a missing component ruin your life. We can help you repair your dishwasher today and make it work again.
+                      No need to clean your dishes yourself, let your dishwasher do the heavy lifting for you. Our maintenance team will come and take a look at what needs to be done as soon as possible. Book an appointment for the repair today .
+                    </p>
+                  </div>
+                )}
+                {activeTab === '2' && (
+                  <div className="tab-pane bg-light-gray p-3 fade show active" role="tabpanel">
+                    <p>
+                      <strong>  FAJ Offers Affordable Washer Repair</strong>
+                      <br />
+                      If your washing machine is leaking or not able to spin properly anymore, you have a problem. Going to the local laundromat is not an option for some of you, you just want to be able to use your washing machine and wash your clothes and linens as usual. Consider us for your washing Machine Repair and our team of experts will come to the rescue as soon as we receive your call , Our repairs are completed maximum within 48 Hours .
+                      <br />
+
+                      <strong> Affordable Refrigerator Repair</strong><br />
+                      Your fridge is one of the most important appliances in your kitchen. Without it, you cannot store and keep cold a large number of food items that need to be kept cool or frozen. Without chilled compartments, you
+                    </p>
+                  </div>
+                )}
+
+              </div>
+            </div>
+
+          </div>
+        </section >
+
+
+
+        {/* <Services4 /> */}
 
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
-        <section className="section cs_py_30 bg-light-gray mb-4">
+        <section className="section cs_py_30 bg-light-gray mb-4 d-none">
           <div className="container container-md container-sm">
             <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2>
 
@@ -203,10 +555,10 @@ const NearMeDetail = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* Maintenance Contract */}
-<MaintenanceContract />
+        {/* <MaintenanceContract /> */}
 
-{/* testimobial section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
+        {/* testimobial section */}
+        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30 d-none" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${bgImg})` }}>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
@@ -260,7 +612,7 @@ const NearMeDetail = ({ subtitle, title, bgImg }) => {
         </section>
 
         {/* FAQ's */}
-        <section className="section cs_py_30  bg-dark-blue text-light">
+        <section className="section cs_py_30  bg-dark-blue text-light d-none">
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
