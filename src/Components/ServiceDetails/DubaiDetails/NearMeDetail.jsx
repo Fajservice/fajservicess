@@ -6,7 +6,6 @@ import data from '../../../Data/DubaiData/FAQs/NearMeFaqs.json';
 
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
-import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 
 import Slider from "react-slick";
@@ -14,6 +13,8 @@ import testimonial_data from '../../../Data/DubaiData/Testmonials/NearMeTestimon
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
+import Services4 from "../../Services/Services4.jsx";
+import WhatsappIconButton from "../../Buttons/WhatsappIconButton.jsx";
 
 const NearMeDetail = ({ subtitle, title, bgImg }) => {
 
@@ -102,25 +103,20 @@ const NearMeDetail = ({ subtitle, title, bgImg }) => {
       <HeaderForm />
 
       <div className="cs_service_details">
-
-        <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h1 className="cs_fs_30">Services Near ME</h1>
-            {/* <h2 className="cs_fs_30">Choose Commercial Washing Machine Service Center for Same-Day Repairs in Dubai</h2> */}
-            <p>
-              Since 2010, FAJ has been a trusted name in AC repair and service in Dubai and Sharjah. </p>
-
+            <h1 className="cs_fs_30">Repair Near Me Services</h1>
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
               </div>
             </div>
-            {/*  */}
           </div>
         </section>
+        <Services4 />
 
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
-        <section className="section cs_py_30">
+        <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container container-md container-sm">
             <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2>
 

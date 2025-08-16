@@ -210,7 +210,8 @@ const BookingFormModal = ({ isOpen, onClose }) => {
         maxHeight: '90vh',
         overflowY: 'auto',
         borderRadius: '4px',
-        position: 'relative'
+        position: 'relative',
+        zindex: '9999999'
       }}>
         <button 
           onClick={onClose}

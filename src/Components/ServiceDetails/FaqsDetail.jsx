@@ -13,8 +13,8 @@ import HeaderForm from "../../Components/Headeform/HeaderForm";
 const FaqsDetail = ({ subtitle, title, bgImg }) => {
 
   // For SEO
-  const titleSeo = "Home & Commercial Appliance Repair Near Me – Dubai";
-  const description = "Find trusted home & commercial appliance repair near you in Dubai. FAJ, serving since 2010, delivers reliable service for all major appliance brands.";
+  const titleSeo = "Home & Commercial Appliance FAQ's – Dubai";
+  const description = "Find trusted home & commercial appliance FAQ's in Dubai. FAJ, serving since 2010, delivers reliable service for all major appliance brands.";
   const Author = "Faj Technical Servcies";
   const Keyword = "AC repair and Maintenance Service Near me Dubai, Appliances repair Service Dubai";
   const URL = "https://www.fajservices.ae/faqs/";
