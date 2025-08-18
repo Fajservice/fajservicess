@@ -5,10 +5,10 @@ const WashingMachineRepairNearMe = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/banners/ac-repair-faj.avif"
-                mobileBgImg="img/banners/ac-repair-faj-mobile.avif"
-                Title="AC Repair in Dubai - AC Maintenance and Service Available Near You"
-            ></BreadCumb> 
+                bgImg="img/banners/washing-machine.avif"
+                mobileBgImg="img/banners/washing-machine.avif"
+                Title="Washing Machine Repair Near Me - Dryer Service Dubai - FAJ"
+            ></BreadCumb>
             <WashingMachineRepairNearMeDetail></WashingMachineRepairNearMeDetail>
         </div>
     );

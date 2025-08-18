@@ -158,8 +158,6 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, ti
           </div>
         </section>
 
-
-        {/* Cooking Range Repair Nearby You */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <div className="row gx-md-5">
@@ -187,7 +185,6 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, ti
           </div>
         </section>
 
-
         {/* Why is */}
         <section className="section cs_py_30">
           <div className="container">
@@ -213,8 +210,6 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, ti
             </div>
           </div>
         </section>
-
-
 
         {/* Problems */}
         <section className="section cs_py_30 bg-light-gray">
@@ -606,6 +601,7 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, ti
 
         {/* Maintenance Contract */}
         <MaintenanceContract />
+
         {/* testimobial section */}
         <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
 

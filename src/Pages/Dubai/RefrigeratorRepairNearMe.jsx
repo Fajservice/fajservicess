@@ -5,10 +5,10 @@ const RefrigeratorRepairNearMe = () => {
     return (
         <div className="serviceDetails">
             <BreadCumb
-                bgImg="img/banners/ac-repair-faj.avif"
-                mobileBgImg="img/banners/ac-repair-faj-mobile.avif"
-                Title="AC Repair in Dubai - AC Maintenance and Service Available Near You"
-            ></BreadCumb> 
+                bgImg="img/banners/refrigerator.avif"
+                mobileBgImg="img/banners/refrigerater-banner.avif"
+                Title="Refrigerator Repair Near Me - Appliance Repair Near Me - FAJ"
+            ></BreadCumb>
             <RefrigeratorRepairNearMeDetail></RefrigeratorRepairNearMeDetail>
         </div>
     );

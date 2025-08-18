@@ -1629,7 +1629,6 @@ img.faj-chatbox-logo {
   margin-left: auto;
 }
 
-
 .seprator-line::after {
   content: "";
   display: inline-block;
@@ -1639,7 +1638,6 @@ img.faj-chatbox-logo {
   text-align: center;
 }
 
-
 .near-me-grid {
   display: flex;
   flex-direction: row;
@@ -1648,45 +1646,8 @@ img.faj-chatbox-logo {
   margin-bottom: 40px;
 }
 
-.near-me-service-box {
-  min-width: 200px;
-  padding: 20px;
-  background: #fff;
-  border-radius: 8px;
-  text-decoration: none;
-  color: #000;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-  transition: transform 0.2s ease;
-}
-
-
-.near-me-service-box:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 30px rgba(122, 213, 231, 1.5);
-}
-
-
-.near-me-service-title {
-  text-align: center;
-  padding: 20px 40px;
-}
-
-.brand-near-me-service-box {
-  min-width: 160px;
-  padding: 20px;
-  background: #fff;
-  border-radius: 8px;
-  text-decoration: none;
-  color: #000;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-  transition: transform 0.2s ease;
-}
-
-.brand-near-me-service-box:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 30px rgba(122, 213, 231, 1.5);
-}
-
+.near-me-service-box,
+.brand-near-me-service-box,
 .work-flow-service-box {
   min-width: 160px;
   padding: 20px;
@@ -1698,16 +1659,26 @@ img.faj-chatbox-logo {
   transition: transform 0.2s ease;
 }
 
+.near-me-service-box {
+  min-width: 200px;
+}
+
+.near-me-service-box:hover,
+.brand-near-me-service-box:hover,
 .work-flow-service-box:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 30px rgba(122, 213, 231, 1.5);
+}
+
+.near-me-service-title {
+  text-align: center;
+  padding: 20px 40px;
 }
 
 .near-me-work-title {
   font-size: 20px;
   font-weight: 400;
   color: #000;
-  /* margin-bottom: 20px; */
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -1720,8 +1691,19 @@ img.faj-chatbox-logo {
   width: 80px !important;
 }
 
-
 .nav-tabs .nav-link.active {
   background-color: var(--bg-dark-blue);
   color: #fff;
+}
+
+img.emoji {
+  display: inline !important;
+  border: none !important;
+  box-shadow: none !important;
+  height: 1em !important;
+  width: 1em !important;
+  margin: 0 0.07em !important;
+  vertical-align: -0.1em !important;
+  background: none !important;
+  padding: 0 !important;
 }

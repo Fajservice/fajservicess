@@ -21,7 +21,7 @@ import { Link } from "react-router-dom";
 const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "AC Repair Near Me - Expert AC Maintenance Near Me - FAJ");
-  const metadescription = String(description || "Looking for AC repair near me in Dubai? Contact us at 043300002 for AC maintenance. Get same-day air conditioner repair service near me Sharjah");
+  const metadescription = String(description || "Looking for AC repair near me in Dubai? Contact us at 043300002 for AC maintenance. Get same-day air conditioner repair service near me, Sharjah");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "AC Repair Near Me, AC Service Near Me, Air Conditioner Repair Near Me, Air Conditioner Service Near Me, AC Maintenance Near Me, Split AC Repair Near Me, Split AC Service Near Me, Central AC Repair Near Me, Central AC Service Near Me");
   const metaURL = String(URL || "https://www.fajservices.ae/dubai/ac-repair-near-me/").replace(/\/?$/, '/');
@@ -116,8 +116,11 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">AC Repair Near Me</h1>
-            <p>As one of Dubai’s leading air conditioning companies, we possess the skills and experience necessary to support your air conditioning system. Our team of AC technicians provides comprehensive coverage across Dubai for AC installation, AC servicing, and AC repair.</p>
+            <h1 className="cs_fs_30">AC Repair Near Me </h1>
+            <p>As one of Dubai’s leading air conditioning companies, we possess the skills and experience necessary to support your air conditioning system. Our team of AC technicians provides comprehensive coverage across Dubai for AC installation, AC servicing, and AC repair.
+              <br />
+              We provide services for all types of air conditioning systems in Dubai and Sharjah, ensuring high quality.
+            </p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -168,7 +171,7 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
         {/* price section                */}
         <FAJACPrice />
-         {/*FAJ: Creating the Perfect Temperature All Year Round */}
+        {/*FAJ: Creating the Perfect Temperature All Year Round */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
             <h2 className="cs_fs_30">Understanding AC Service in Dubai</h2>
@@ -186,83 +189,84 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                   <li> <strong>Routine AC Maintenance:</strong> Keep your AC in peak condition with regular check-ups and AC filter cleanings. Routine AC maintenance is essential for optimal performance and longevity of your system.</li>
                 </ul>
               </div>
-            <p>At FAJ Company, we are dedicated to providing reliable AC services that meet your needs.</p>
+              <p>At FAJ Company, we are dedicated to providing reliable AC services that meet your needs.</p>
             </div>
           </div>
         </section>
         {/* Benefits Of Regular AC Service and Maintenance Dubai */}
         <section className="section cs_py_30 ac_benifit_blue">
-            <div className="container">
-                <div className="row justify-content-center">
-                    <div className="col-lg-10 text-center">
-                        <h2 className="cs_fs_30 text-light">Benefits of FAJ Company’s AC Service in Dubai</h2>
-                        <div className="row mt-4 gx-4 gy-4">
-                            <div className="col-md-4 mb-2">
-                                <div className="d-flex flex-column align-items-center px-2">
-                                    <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                        <img src={`${import.meta.env.BASE_URL}img/icons/cooling1.jpg`} alt="Cooling Efficiency" className="img-fluid rounded-circle border border-4 border-info" />
-                                    </div>
-                                    <h3 className="text-uppercase mb-2 fs-6 text-white">Optimal AC Performance</h3>
-                                    <p className="small">Regular maintenance ensures that your AC operates at peak performance, keeping you cool and comfortable throughout the year.</p>
-                                </div>
-                            </div>
-
-                            <div className="col-md-4 mb-2">
-                                <div className="d-flex flex-column align-items-center px-2">
-                                    <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                        <img src={`${import.meta.env.BASE_URL}img/icons/disinfection.jpg`} alt="Disinfect Components" className="img-fluid rounded-circle border border-4 border-warning" />
-                                    </div>
-                                    <h3 className="text-uppercase mb-2 fs-6 text-white">Improved Air Quality</h3>
-                                    <p className="small"> Clean filters and vents ensure fresher, healthier air circulates in your home, free from dust, allergens, and pollutants.</p>
-                                </div>
-                            </div>
-
-                            <div className="col-md-4 mb-2">
-                                <div className="d-flex flex-column align-items-center px-2">
-                                    <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                        <img src={`${import.meta.env.BASE_URL}img/icons/fan.jpg`} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
-                                    </div>
-                                    <h3 className="text-uppercase mb-2 fs-6 text-white">FAN ASSESSMENT</h3>
-                                    <p className="small">We ensure the fan works correctly with no blockages in the evaporator coil.</p>
-                                </div>
-                            </div>
-
-                            <div className="col-md-4 mb-2">
-                                <div className="d-flex flex-column align-items-center px-2">
-                                    <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                        <img src={`${import.meta.env.BASE_URL}img/icons/thermo.jpg`} alt="Thermostat Check" className="img-fluid rounded-circle border border-4 border-primary" />
-                                    </div>
-                                    <h3 className="text-uppercase mb-2 fs-6 text-white">Extended AC Lifespan</h3>
-                                    <p className="small">Proper care and maintenance can significantly extend the lifespan of your AC unit, helping you save money on premature replacements.</p>
-                                </div>
-                            </div>
-
-                            <div className="col-md-4 mb-2">
-                                <div className="d-flex flex-column align-items-center px-2">
-                                    <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                        <img src={`${import.meta.env.BASE_URL}img/icons/airflow.jpg`} alt="Airflow Balance" className="img-fluid rounded-circle border border-4 border-danger" />
-                                    </div>
-                                    <h3 className="text-uppercase mb-2 fs-6 text-white">Energy Efficiency</h3>
-                                    <p className="small">A well-maintained AC consumes less energy, which leads to lower utility bills and a reduced environmental impact.</p>
-                                </div>
-                            </div>
-
-                            <div className="col-md-4 mb-2">
-                                <div className="d-flex flex-column align-items-center px-2">
-                                    <div className="mb-3" style={{ width: "80px", height: "80px" }}>
-                                        <img src={`${import.meta.env.BASE_URL}img/icons/customer.jpg`} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
-                                    </div>
-                                    <h3 className="text-uppercase mb-2 fs-6 text-white">Peace of Mind</h3>
-                                    <p className="small">With FAJ Company’s AC Service in Dubai, you can enjoy peace of mind knowing your cooling needs are in expert hands.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="text-center mb-4">
-                        </div>
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-10 text-center">
+                <h2 className="cs_fs_30 text-light">Benefits of FAJ Company’s AC Service in Dubai</h2>
+                <p>Are you considering FAJ Company’s AC service in Dubai? Here are some compelling benefits to keep in mind</p>
+                <div className="row mt-4 gx-4 gy-4">
+                  <div className="col-md-4 mb-2">
+                    <div className="d-flex flex-column align-items-center px-2">
+                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
+                        <img src={`${import.meta.env.BASE_URL}img/icons/cooling1.jpg`} alt="Cooling Efficiency" className="img-fluid rounded-circle border border-4 border-info" />
+                      </div>
+                      <h3 className="text-uppercase mb-2 fs-6 text-white">Optimal AC Performance</h3>
+                      <p className="small">Regular maintenance ensures that your AC operates at peak performance, keeping you cool and comfortable throughout the year.</p>
                     </div>
+                  </div>
+
+                  <div className="col-md-4 mb-2">
+                    <div className="d-flex flex-column align-items-center px-2">
+                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
+                        <img src={`${import.meta.env.BASE_URL}img/icons/disinfection.jpg`} alt="Disinfect Components" className="img-fluid rounded-circle border border-4 border-warning" />
+                      </div>
+                      <h3 className="text-uppercase mb-2 fs-6 text-white">Improved Air Quality</h3>
+                      <p className="small"> Clean filters and vents ensure fresher, healthier air circulates in your home, free from dust, allergens, and pollutants.</p>
+                    </div>
+                  </div>
+
+                  <div className="col-md-4 mb-2">
+                    <div className="d-flex flex-column align-items-center px-2">
+                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
+                        <img src={`${import.meta.env.BASE_URL}img/icons/fan.jpg`} alt="Fan Assessment" className="img-fluid rounded-circle border border-4 border-success" />
+                      </div>
+                      <h3 className="text-uppercase mb-2 fs-6 text-white">FAN ASSESSMENT</h3>
+                      <p className="small">We ensure the fan works correctly with no blockages in the evaporator coil.</p>
+                    </div>
+                  </div>
+
+                  <div className="col-md-4 mb-2">
+                    <div className="d-flex flex-column align-items-center px-2">
+                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
+                        <img src={`${import.meta.env.BASE_URL}img/icons/thermo.jpg`} alt="Thermostat Check" className="img-fluid rounded-circle border border-4 border-primary" />
+                      </div>
+                      <h3 className="text-uppercase mb-2 fs-6 text-white">Extended AC Lifespan</h3>
+                      <p className="small">Proper care and maintenance can significantly extend the lifespan of your AC unit, helping you save money on premature replacements.</p>
+                    </div>
+                  </div>
+
+                  <div className="col-md-4 mb-2">
+                    <div className="d-flex flex-column align-items-center px-2">
+                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
+                        <img src={`${import.meta.env.BASE_URL}img/icons/airflow.jpg`} alt="Airflow Balance" className="img-fluid rounded-circle border border-4 border-danger" />
+                      </div>
+                      <h3 className="text-uppercase mb-2 fs-6 text-white">Energy Efficiency</h3>
+                      <p className="small">A well-maintained AC consumes less energy, which leads to lower utility bills and a reduced environmental impact.</p>
+                    </div>
+                  </div>
+
+                  <div className="col-md-4 mb-2">
+                    <div className="d-flex flex-column align-items-center px-2">
+                      <div className="mb-3" style={{ width: "80px", height: "80px" }}>
+                        <img src={`${import.meta.env.BASE_URL}img/icons/customer.jpg`} alt="Customer Feedback" className="img-fluid rounded-circle border border-4 border-secondary" />
+                      </div>
+                      <h3 className="text-uppercase mb-2 fs-6 text-white">Peace of Mind</h3>
+                      <p className="small">With FAJ Company’s AC Service in Dubai, you can enjoy peace of mind knowing your cooling needs are in expert hands.</p>
+                    </div>
+                  </div>
                 </div>
+
+                <div className="text-center mb-4">
+                </div>
+              </div>
             </div>
+          </div>
         </section>
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30  bg-light-gray mb-4">

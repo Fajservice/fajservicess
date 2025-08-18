@@ -233,33 +233,185 @@ const NearMeDetail = ({ subtitle, title, bgImg }) => {
               <div className="col-md-6">
                 <div className=" border rounded h-100 py-3 d-flex align-items-center" >
                   <img className="" src={`${import.meta.env.BASE_URL}img/Washing-Machine-Repair-in-Dubai-Call-Out.avif`} alt="Book Now" />
-
                 </div>
+
               </div>
 
 
-              <div className="col-md-6">
+              <div className="col-md-6 px-0">
 
                 <div className="p-3 border rounded h-100">
-                  <h3 className="cs_fs_20">We are Home Appliance Repair Service Centers</h3>
-                  <p>We repair All brands and models of Home appliances including; washing machines, fridge freezers, dishwashers, tumble dryers, washer dryers, cookers, ovens, hobs. All our repairs are performed by trained engineers .
-
-                    <br />  We are the appliance repair experts and our engineers have already successfully repairing washing machines, fridge freezers, dishwashers, tumble dryers, washer dryers, cookers, ovens, hobs, Whether it is your Washing Machine, Fridge, freezer, Cooker, Dishwasher or Tumble Dryer that has developed a fault we will do all we can to fix it for you, fast! All our repairs are guaranteed and you can book online 24/7, 365 days a year .
+                  <h2 className="cs_fs_20">
+                    Common Appliance Repair Issues We Fix
+                  </h2>
+                  <p>
+                    At FAJ Technical Servicess L.L.C, we provide expert home appliance repair services for a
+                    wide range of issues. If you’re experiencing any of the following
+                    problems, our certified technicians are ready to assist you.S
                   </p>
-                  <ul>
-                    <li> <strong> Expert Technicians: </strong> Our engineers are trained and experienced in handling various appliance issues across all major brands. </li>
-                    <li> <strong> Comprehensive Services: </strong> From minor fixes to major repairs, we cover a broad spectrum of home appliance services. </li>
-                    <li> <strong> Guaranteed Repairs: </strong> We stand by the quality of our work, offering guarantees on all repairs performed. </li>
-                    <li> <strong> Convenient Booking: </strong> Our online booking system is available 24/7, allowing you to schedule repairs at your convenience. </li>
-                    <li> <strong> Prompt Support: </strong> We understand the importance of functional appliances in daily life and strive to provide quick and efficient repair services. </li>
-                  </ul>
+
+                  <div className="row">
+                    <div className="col-md-6">
+
+                      {/* Washing machine */}
+                      <h2 className="cs_fs_20" style={{ fontSize: "17px", marginBottom: "0" }}>
+                        Washing Machine Repair
+                      </h2>
+                      <p>
+                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/drum.svg`} alt="icon" />
+                        Drum not rotating
+                        <br />
+
+                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/doorlock.svg`} alt="icon" />
+                        Door locked defect
+                        <br />
+
+                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/drain.svg`} alt="icon" />
+                        Drain blockage & water leakage
+                        <br />
+
+                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/spining.svg`} alt="icon" />
+                        No spinning / excessive vibration
+                        <br />
+
+                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/nopower.svg`} alt="icon" />
+                        No power or display error
+                        <br />
+
+                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/speaker.svg`} alt="icon" />
+                        Unusual noise during operation
+                      </p>
+
+                      {/* Freezer Repair */}
+
+                      <h2 className="cs_fs_20" style={{ fontSize: "17px", marginBottom: "0" }}>
+                        Freezer Repair
+                      </h2>
+                      <p>
+                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/cool.svg`} alt="icon" />
+                        Not cooling efficiently
+
+                        <br />
+                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/icebuild.svg`} alt="icon" />
+                        Ice buildup and frost issues
+
+                        <br />
+                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/nopower.svg`} alt="icon" />
+                        No power
+
+                        <br />
+                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/speaker.svg`} alt="icon" />
+                        Compressor making loud noises
+                      </p>
+
+                      {/* Candy Washer Dryer Repair */}
+
+                      <h2 className="cs_fs_20" style={{ fontSize: "17px", marginBottom: "0" }}>
+                        Candy Washer Dryer Repair
+                      </h2>
+                      <p>
+                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/temp.svg`} alt="icon" />
+                        Clothes not drying properly
+                        <br />
+
+                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/display_error.svg`} alt="icon" />
+                        Display error messages
+                        <br />
+
+                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/drum.svg`} alt="icon" />
+                        Drum rotation failure
+                        <br />
+
+                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/speaker.svg`} alt="icon" />
+                        Unusual noise & excessive vibration
+                      </p>
+
+
+                    </div>
+
+                    <div className="col-md-6">
+
+                      {/* Refrigerator Repair */}
+                      <h2 className="cs_fs_20" style={{ fontSize: "17px", marginBottom: "0" }}>
+                        Refrigerator Repair
+                      </h2>
+                      <p>
+                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/cool.svg`} alt="icon" />
+                        Not cooling properly
+                        <br />
+
+
+                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/ice.svg`} alt="icon" />
+                        Excessive ice formation
+                        <br />
+
+                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/nopower.svg`} alt="icon" />
+                        No power
+                        <br />
+
+                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/speaker.svg`} alt="icon" />
+                        Loud compressor noise
+
+                      </p>
+
+                      {/* Dishawser */}
+                      <h2 className="cs_fs_20" style={{ fontSize: "17px", marginBottom: "0" }}>
+                        Dishwasher Repair
+                      </h2>
+                      <p>
+                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/odor.svg`} alt="icon" />
+                        Bad odor inside the Dishwasher
+                        <br />
+
+                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/icebuild.svg`} alt="icon" />
+                        No steam during wash cycles
+                        <br />
+
+                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/no_water.svg`} alt="icon" />
+                        No water intake
+                        <br />
+
+                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/soap.svg`} alt="icon" />
+                        Soap dispenser not working
+                        <br />
+
+                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/white_patch.svg`} alt="icon" />
+                        White patches left on utensils
+                      </p>
+
+
+                      {/* Tumble Dryer Repair */}
+                      <h2 className="cs_fs_20" style={{ fontSize: "17px", marginBottom: "0" }}>
+                        Tumble Dryer Repair
+                      </h2>
+                      <p>
+                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/temp.svg`} alt="icon" />
+                        Not drying clothes properly
+                        <br />
+
+                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/drum.svg`} alt="icon" />
+                        Drum not rotating
+                        <br />
+
+                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/speaker.svg`} alt="icon" />
+                        Loud noise & excessive vibration
+                        <br />
+
+                        <img className="emoji" src={`${import.meta.env.BASE_URL}img/icons/display_error.svg`} alt="icon" />
+                        Display error or system malfunction
+                      </p>
+
+
+                    </div>
+
+                  </div>
+
                 </div>
               </div>
-
             </div>
 
           </div>
-        </section>
+        </section >
 
 
         <section className="section cs_py_30 near-me-service-category-section">
