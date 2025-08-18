@@ -8,7 +8,7 @@
   --bg-dark-blue: #00334e;
   --sky-blue-font: #76DCEB;
 }
-.cs_page_heading{
+.cs_page_heading, .locationwisebrandlinks {
   display: none;
 }
 /* OVERRIDE CONTAINER for fix content and width */
