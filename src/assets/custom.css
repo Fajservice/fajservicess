@@ -8,8 +8,9 @@
   --bg-dark-blue: #00334e;
   --sky-blue-font: #76DCEB;
 }
-
-
+.cs_page_heading, .locationwisebrandlinks {
+  display: none;
+}
 /* OVERRIDE CONTAINER for fix content and width */
 @media (min-width: 1400px) {
   .container {
@@ -804,6 +805,7 @@ p a {
 
   .cs_page_heading {
     height: 122px;
+  
   }
 
   .cs_logo_bg_shape img {

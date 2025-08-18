@@ -1,6 +1,6 @@
 
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useCallback } from "react";
 import { Link } from "react-router-dom";
 import data from '../../../Data/HomeAppData/FAQs/IntegratedAppliancesRepairServiceFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
@@ -10,6 +10,8 @@ import CallNowButton from '../../Buttons/CallNowButton';
 import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
+import BookingFormModal from '../../BookingFormModal';
+import { RxArrowTopRight } from 'react-icons/rx';
 
 import Slider from "react-slick";
 import testimonial_data from '../../../Data/HomeAppData/Testmonials/IntegratedAppliancesRepairServiceTestimonials.json';
@@ -37,7 +39,17 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
-
+const [isModalOpen, setIsModalOpen] = useState(false);
+    const openModal = useCallback((e) => {
+      e.preventDefault();
+      setIsModalOpen(true);
+      document.body.style.overflow = 'hidden';
+    }, []);
+  
+    const closeModal = useCallback(() => {
+      setIsModalOpen(false);
+      document.body.style.overflow = 'auto';
+    }, []);
   const handleItemClick = index => {
     if (index === openItemIndex) {
       setOpenItemIndex(-1);
@@ -164,6 +176,11 @@ const IntegratedApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
+                <button onClick={openModal} className="cs_btn cs_style_1 d-md-none" aria-label="Book Now">
+                  <span>Book Now</span>
+                  <RxArrowTopRight />
+                </button>
+                <BookingFormModal isOpen={isModalOpen} onClose={closeModal} />
               </div>
             </div>
             {/*  */}

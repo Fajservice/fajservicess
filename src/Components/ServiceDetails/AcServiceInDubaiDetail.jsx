@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useCallback } from "react";
 import { Link } from "react-router-dom";
 import data from '../../Data/AcData/AcFaqs/AcServiceInDubaiFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
@@ -10,7 +10,8 @@ import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
 import QuickGuide from "../QuickGuide/QuickGuide";
 import ACWhyChooseUs from "../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
-
+import BookingFormModal from '../BookingFormModal';
+import { RxArrowTopRight } from 'react-icons/rx';
 import Slider from "react-slick";
 import testimonial from '../../Data/AcData/AcTestimonial/AcServiceTestimonials.json';
 import loadBackgroudImages from "../Common/loadBackgroudImages";
@@ -20,6 +21,7 @@ import Practicaltip from "../Common/Practicaltip";
 import AcProperties from "../Common/AcProperties";
 import FAJACPrice from "../Miscellaneous/FAJACPrice";
 import GetQuoteButton from "../Buttons/GetQuoteButton";
+import Blog2 from "../Blog/Blog2";
 
 const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
@@ -36,7 +38,17 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
-
+  const [isModalOpen, setIsModalOpen] = useState(false);
+    const openModal = useCallback((e) => {
+      e.preventDefault();
+      setIsModalOpen(true);
+      document.body.style.overflow = 'hidden';
+    }, []);
+  
+    const closeModal = useCallback(() => {
+      setIsModalOpen(false);
+      document.body.style.overflow = 'auto';
+    }, []);
   const handleItemClick = index => {
     if (index === openItemIndex) {
       setOpenItemIndex(-1);
@@ -127,6 +139,11 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
+                <button onClick={openModal} className="cs_btn cs_style_1 d-md-none" aria-label="Book Now">
+                  <span>Book Now</span>
+                  <RxArrowTopRight />
+                </button>
+                <BookingFormModal isOpen={isModalOpen} onClose={closeModal} />
               </div>
             </div>
           </div>
@@ -521,7 +538,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
             </div>
           </div>
         </section>
-
+        <Blog2 />
         {/* FAQ&apos;s */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">

@@ -1,10 +1,9 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 
 const LocationKeyword = () => {
   return (
     <div>
-      <p className="mb-0">
+      <p className="mb-0 locationwisebrandlinks">
         <Link to="/sanyo-ac-repair-in-dubai-sanyo-ac-maintenance-in-dubai-sanyo-ac-fix-in-dubai-sanyo-ac-service-in-dubai-sanyo-air-condition-repair-in-dubai-sanyo-air-condition-maintenance-in-dubai-sanyo-air-condition/">Sanyo AC Service Dubai</Link>
         <span>&nbsp;-&nbsp;</span>
         <Link to="/rheem-ac-maintenance-in-dubai/">Rheem AC Service</Link>

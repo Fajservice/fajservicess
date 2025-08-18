@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import data from '../../Data/acblog.json';
+import data from '../../Data/fridgeblog.json';
 import SectionTitle2 from "../Common/SectionTitle2";
 
-const Blog2 = () => {
+const BlogFridge = () => {
     return (
         <section className="position-relative">
         <div className="cs_height_80 cs_height_lg_80"></div>
@@ -56,4 +56,4 @@ const Blog2 = () => {
     );
 };
 
-export default Blog2;
+export default BlogFridge;

@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useCallback } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../Data/AcData/AcFaqs/AcMaintenanceFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
@@ -10,13 +10,16 @@ import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
 import ACWhyChooseUs from "../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
 import Slider from "react-slick";
-import testimonial_data from '../../Data/AcData/AcTestimonial/AcServiceTestimonials.json';
+import BookingFormModal from '../BookingFormModal';
+import { RxArrowTopRight } from 'react-icons/rx';
+import testimonial_data from '../../Data/AcData/AcTestimonial/AcMaintenanceTestimonials.json';
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../Headeform/HeaderForm";
 import FAJACPrice from "../Miscellaneous/FAJACPrice";
 import Practicaltip from "../Common/Practicaltip";
 import AcProperties from "../Common/AcProperties";
+import Blog2 from "../Blog/Blog2";
 
 
 const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
@@ -34,7 +37,17 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
-
+  const [isModalOpen, setIsModalOpen] = useState(false);
+    const openModal = useCallback((e) => {
+      e.preventDefault();
+      setIsModalOpen(true);
+      document.body.style.overflow = 'hidden';
+    }, []);
+  
+    const closeModal = useCallback(() => {
+      setIsModalOpen(false);
+      document.body.style.overflow = 'auto';
+    }, []);
   const handleItemClick = index => {
     if (index === openItemIndex) {
       setOpenItemIndex(-1);
@@ -124,6 +137,11 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
+                <button onClick={openModal} className="cs_btn cs_style_1 d-md-none" aria-label="Book Now">
+                  <span>Book Now</span>
+                  <RxArrowTopRight />
+                </button>
+                <BookingFormModal isOpen={isModalOpen} onClose={closeModal} />
               </div>
             </div>
 
@@ -448,7 +466,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
           </div>
           {/* <div className="cs_height_80 cs_height_lg_80"></div> */}
         </section>
-
+        <Blog2 />
         {/* FAQ&apos;s */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">

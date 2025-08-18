@@ -26,28 +26,16 @@ const WhoWeArePage = () => {
         </Helmet>
       </HelmetProvider>
 
-            <section
-                className="cs_page_heading cs_bg_filed cs_primary_bg"
-                style={{ backgroundImage: `url(${import.meta.env.BASE_URL}img/page_heading_1.avif)` }}
-                >
-                <div className="container h-100">
-                    {/* Main row */}
-                    <div className="row align-items-center h-100">
-                        <div className="col-md-12 d-flex justify-content-center align-items-center">
-                            <h1 className="cs_white_color text-center" style={{ fontSize: "clamp(1.75rem, 5vw, 2.625rem)" }}>
-                               Who We Are
-                            </h1>
-                        </div>
-                    {/* Form section */}
-                    </div>
+           <section className="section cs_py_30">
+                <div className="container">
+                    <h1 className="cs_fs_30 text-center mb-0">Who We Are</h1>
                 </div>
-                <div className="pb-3 d-md-none"></div>
             </section>
             <section className="cs_section_padding bg-light-gray py-5">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-7">
-                            <h2 className="text-left mb-0" style={{fontSize: "40px"}}>Dedicated to Achieving Outstanding Results Across All Industries</h2>
+                        <div className="col-md-12">
+                            <h2 className="text-left mb-0" style={{fontSize: "30px"}}>Dedicated to Achieving Outstanding Results Across All Industries</h2>
                         </div>
                     </div>
                     <div className="row mt-4">

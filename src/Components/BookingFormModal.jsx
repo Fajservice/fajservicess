@@ -198,7 +198,7 @@ const BookingFormModal = ({ isOpen, onClose }) => {
       right: 0,
       bottom: 0,
       backgroundColor: 'rgba(0, 0, 0, 0.7)',
-      zIndex: 1000,
+      zIndex: 999999,
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center'
@@ -384,7 +384,8 @@ const BookingFormModal = ({ isOpen, onClose }) => {
                     width: '100%',
                     padding: '10px',
                     border: '1px solid #ddd',
-                    borderRadius: '4px'
+                    borderRadius: '4px',
+                    height: 'inherit'
                   }}
                 />
               </div>
