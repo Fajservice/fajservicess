@@ -28,6 +28,7 @@
 ## 1. All Color Variable
 ----------------------------------------------------------------*/
 
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap'); */
 
 
 :root {
@@ -42,8 +43,13 @@
   --gray2-color: #e8ebee;
   --border-color: #ecf1f5;
   --heading-font: 'Gunplay-Regular', sans-serif;
+  /* --heading-font: "Archivo", sans-serif; */
   --body-font: "Roboto", sans-serif;
+  /* --body-font: 'Roboto Slab', serif; */
+  ;
 }
+
+
 
 /*--------------------------------------------------------------
  2. Typography
@@ -70,6 +76,7 @@ h6 {
   padding: 0;
   margin: 0 0 20px 0;
   font-weight: normal;
+  /* font-weight: 700; */
   line-height: 1.2em;
   font-family: var(--heading-font);
   text-transform: uppercase;
@@ -3554,6 +3561,7 @@ textarea {
 .cs_footer_contact_list li:not(:last-child) {
   margin-bottom: 22px;
 }
+
 .cs_footer_contact_list li span.footer-icons {
   height: 30px;
   width: 30px;
@@ -3564,11 +3572,12 @@ textarea {
   background-color: rgba(255, 255, 255, 0.15);
   padding-left: 6px;
 }
+
 .cs_footer_contact_list li span.footer-icons svg {
   font-size: 16px;
 }
 
-.cs_footer_widget{
+.cs_footer_widget {
   contain: content;
 }
 
@@ -3772,8 +3781,8 @@ textarea {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
-   min-height: 1px;
-   contain: layout paint style;
+  min-height: 1px;
+  contain: layout paint style;
 }
 
 .cs_footer_row .cs_footer_col:first-child {
@@ -4386,6 +4395,7 @@ textarea {
   transition: all 0.6s ease;
   mix-blend-mode: luminosity;
 }
+
 .cs_iconbox.cs_style_1 .cs_iconbox_icon svg {
   color: var(--accent-color);
   font-size: 36px;
@@ -4398,6 +4408,7 @@ textarea {
   -webkit-transform: rotatey(180deg);
   transform: rotatey(180deg);
 }
+
 /* .cs_iconbox.cs_style_1:hover .cs_iconbox_icon svg {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
@@ -4407,27 +4418,34 @@ textarea {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   25% {
     transform: rotate(15deg);
   }
+
   50% {
     transform: rotate(-15deg);
   }
+
   75% {
     transform: rotate(10deg);
   }
+
   100% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
 }
-.contact-icons{
+
+.contact-icons {
   display: inline-block;
   transition: transform 0.3s ease;
 }
-.cs_iconbox.cs_style_1:hover .contact-icons{
+
+.cs_iconbox.cs_style_1:hover .contact-icons {
   animation: contact-icons 0.6s ease;
 }
+
 .cs_iconbox.cs_style_2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5545,7 +5563,7 @@ textarea {
   opacity: 0;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-   min-height: 40px;
+  min-height: 40px;
 }
 
 .cs_team.cs_style_1 .cs_social_btns.cs_style_1 a {
@@ -5894,6 +5912,7 @@ textarea {
   height: 90px;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+  border-radius: 5px;
 }
 
 .cs_card.cs_style_1 .cs_card_info {
@@ -6416,7 +6435,7 @@ textarea {
 /*--------------------------------------------------------------
   18. About
 ----------------------------------------------------------------*/
-.cs_about{
+.cs_about {
   contain: layout paint style;
 }
 
@@ -6463,13 +6482,13 @@ textarea {
 }
 
 .main-page-area {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .main-content {
-    flex: 1;
+  flex: 1;
 }
 
 .cs_about.cs_style_1 .cs_about_thumbnail_wrapper .cs_about_thumbnail img {
@@ -6708,7 +6727,9 @@ textarea {
 }
 
 @media (max-width: 575px) {
-  .cs_about.cs_style_1 .cs_phone_call .cs_phone_icon, .cs_about.cs_style_1 .cs_phone_call .cs_phone_icon svg {
+
+  .cs_about.cs_style_1 .cs_phone_call .cs_phone_icon,
+  .cs_about.cs_style_1 .cs_phone_call .cs_phone_icon svg {
     color: var(--white-color);
     z-index: 9;
   }
@@ -7903,6 +7924,7 @@ label {
 
 .cs_site_branding {
   display: inline-block;
+  margin-top: 20px;
 }
 
 .cs_site_branding+.cs_nav {
@@ -8599,9 +8621,11 @@ label {
   .cs_site_header_spacing_140 {
     height: 100px;
   }
+
   .timeline-section {
     padding: 10px 20px;
-}
+  }
+
   .cs_site_header.header_style_2.cs_style_1 .cs_main_header_in {
     height: 90px;
   }
@@ -8676,7 +8700,7 @@ label {
 .cs_site_branding img {
   width: auto;
   height: 60px;
-  max-width: 180px; 
+  max-width: 180px;
   display: block;
 }
 

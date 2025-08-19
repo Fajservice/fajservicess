@@ -8,9 +8,12 @@
   --bg-dark-blue: #00334e;
   --sky-blue-font: #76DCEB;
 }
-.cs_page_heading, .locationwisebrandlinks {
+
+.cs_page_heading,
+.locationwisebrandlinks {
   display: none;
 }
+
 /* OVERRIDE CONTAINER for fix content and width */
 @media (min-width: 1400px) {
   .container {
@@ -805,7 +808,7 @@ p a {
 
   .cs_page_heading {
     height: 122px;
-  
+
   }
 
   .cs_logo_bg_shape img {
@@ -1661,8 +1664,20 @@ img.faj-chatbox-logo {
   transition: transform 0.2s ease;
 }
 
+
+.brand-near-me-service-box {
+  min-width: 50px;
+  padding: 3px 10px;
+}
+
+
+
 .near-me-service-box {
-  min-width: 200px;
+  min-width: 110px;
+}
+
+.near-me-service-box .near-me-service-title {
+  padding: 0;
 }
 
 .near-me-service-box:hover,

@@ -186,10 +186,11 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                   <li> <strong>Emergency Assistance:</strong> Breakdowns can happen at any time, but we’re here to help. Our team will respond quickly to get your air conditioning unit up and running again.</li>
                   <li> <strong>Expertise and Experience:</strong> You can trust that our professionals are highly trained and experienced in AC service. Each AC technician has a minimum of three years of experience, enabling them to handle even the most complex AC issues with confidence.</li>
                   <li> <strong>AC Inspection and Diagnosis:</strong> Our skilled technicians will start by conducting a thorough inspection and diagnosis of your AC unit. Whether you’re experiencing strange noises or poor cooling performance, no issue is too big or too small for our experts.</li>
-                  <li> <strong>Routine AC Maintenance:</strong> Keep your AC in peak condition with regular check-ups and AC filter cleanings. Routine AC maintenance is essential for optimal performance and longevity of your system.</li>
+                  <li> <strong>Routine AC Maintenance:</strong> Keep your AC in peak condition with regular check-ups and AC filter cleanings. Routine AC maintenance is essential for optimal performance and longevity of your system.
+                    <br />
+                    At FAJ Company, we are dedicated to providing reliable AC services that meet your needs.</li>
                 </ul>
               </div>
-              <p>At FAJ Company, we are dedicated to providing reliable AC services that meet your needs.</p>
             </div>
           </div>
         </section>

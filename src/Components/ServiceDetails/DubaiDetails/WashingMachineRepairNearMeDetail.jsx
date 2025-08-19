@@ -341,8 +341,6 @@ const WashingMachineRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo
               Schedule your appointment online for quick and reliable help with any household or commercial laundry equipment maintenance. A broken washing machine or dryer can lead to confusion in an organized household, especially if an interview, important event, or wedding is approaching.
             </p>
 
-
-
             <div id="get-quote" className="mb-0 mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
