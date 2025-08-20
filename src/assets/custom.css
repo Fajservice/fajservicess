@@ -1647,6 +1647,7 @@ img.faj-chatbox-logo {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
   margin-bottom: 40px;
 }
@@ -1655,7 +1656,7 @@ img.faj-chatbox-logo {
 .brand-near-me-service-box,
 .work-flow-service-box {
   min-width: 160px;
-  padding: 20px;
+  padding: 7px;
   background: #fff;
   border-radius: 8px;
   text-decoration: none;

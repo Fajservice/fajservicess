@@ -37,17 +37,17 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
-const [isModalOpen, setIsModalOpen] = useState(false);
-    const openModal = useCallback((e) => {
-      e.preventDefault();
-      setIsModalOpen(true);
-      document.body.style.overflow = 'hidden';
-    }, []);
-  
-    const closeModal = useCallback(() => {
-      setIsModalOpen(false);
-      document.body.style.overflow = 'auto';
-    }, []);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const openModal = useCallback((e) => {
+    e.preventDefault();
+    setIsModalOpen(true);
+    document.body.style.overflow = 'hidden';
+  }, []);
+
+  const closeModal = useCallback(() => {
+    setIsModalOpen(false);
+    document.body.style.overflow = 'auto';
+  }, []);
   const handleItemClick = index => {
     if (index === openItemIndex) {
       setOpenItemIndex(-1);
@@ -189,8 +189,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
                 <p className="mb-2">
                   Gas stoves are essential in our kitchens, helping us create delicious meals every day. When a cooking range stops working, it can throw our routines off balance.
-                  <br /> that&apos;s why finding a trustworthy cooktop repair specialist nearby is crucial, whether you’re in the vibrant cities of Dubai or Sharjah. We&apos;re here to help you get back to cooking confidently and easily!
-
+                  <br /> That&apos;s why finding a trustworthy cooktop repair specialist nearby is crucial, whether you’re in the vibrant cities of Dubai or Sharjah. We&apos;re here to help you get back to cooking confidently and easily!
                 </p>
 
 
