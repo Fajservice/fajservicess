@@ -503,17 +503,18 @@ section#get-quote {
 a.btn-green-yellow {
   font-size: 20px;
   text-transform: capitalize;
+  font-weight: 500;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  background-color: #06d755;
+  background-color: yellow;
   max-width: fit-content;
   min-height: 40px;
   text-decoration: none;
-  color: #fff;
+  color: #000;
   margin-top: 12px;
-  padding: 10px;
+  padding: 10px 12px;
   border-radius: 10px;
 }
 
