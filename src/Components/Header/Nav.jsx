@@ -1,5 +1,23 @@
-import { startTransition, useEffect, useRef, useCallback } from 'react';
+import { startTransition, useEffect, useRef, useCallback, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { 
+  IoChevronDown, 
+  IoChevronForward,
+  IoChevronUp,
+  // Alternative icons - uncomment to use different styles
+  // MdKeyboardArrowDown,
+  // MdKeyboardArrowRight,
+  // MdKeyboardArrowUp,
+  // FaAngleDown,
+  // FaAngleRight,
+  // FaAngleUp,
+  // HiChevronDown,
+  // HiChevronRight,
+  // HiChevronUp,
+} from 'react-icons/io5';
+// import { MdKeyboardArrowDown, MdKeyboardArrowRight, MdKeyboardArrowUp } from 'react-icons/md';
+// import { FaAngleDown, FaAngleRight, FaAngleUp } from 'react-icons/fa';
+// import { HiChevronDown, HiChevronRight, HiChevronUp } from 'react-icons/hi2';
 import DropDown from './DropDown';
 
 // Navigation data structure for better maintainability
@@ -77,7 +95,6 @@ const navItems = [
       { path: '/who-we-are/', label: 'Who We Are' },
       { path: '/our-vision-and-mission/', label: 'Our Vision And Mission' },
       { path: '/our-history/', label: 'Our History' },
-      // { path: '/our-team/', label: 'Our Team' },
       { 
         path: 'https://careers.fajservices.ae/', 
         label: 'Careers',
@@ -93,6 +110,7 @@ const navItems = [
 export default function Nav({ setMobileToggle }) {
   const navigate = useNavigate();
   const navRef = useRef(null);
+  const [hoveredItems, setHoveredItems] = useState(new Set());
 
   // Memoized navigation handler
   const handleNavigation = useCallback((path, isExternal = false) => {
@@ -106,40 +124,47 @@ export default function Nav({ setMobileToggle }) {
     }
   }, [navigate, setMobileToggle]);
 
+  // Handle hover state for icons
+  const handleMouseEnter = useCallback((itemKey) => {
+    setHoveredItems(prev => new Set([...prev, itemKey]));
+  }, []);
+
+  const handleMouseLeave = useCallback((itemKey) => {
+    setHoveredItems(prev => {
+      const newSet = new Set(prev);
+      newSet.delete(itemKey);
+      return newSet;
+    });
+  }, []);
+
   // Memoized dropdown position adjustment
   const adjustDropdownPositions = useCallback(() => {
     if (!navRef.current) return;
 
     const dropdowns = navRef.current.querySelectorAll('.menu-item-has-children');
     const viewportWidth = window.innerWidth;
-    const padding = 20; // Safety padding from screen edge
-    
+    const padding = 20; 
     dropdowns.forEach((dropdown) => {
       const dropdownMenu = dropdown.querySelector('ul');
       if (!dropdownMenu) return;
 
-      // Reset any previous adjustments
       dropdownMenu.style.left = '';
       dropdownMenu.style.right = '';
       dropdownMenu.style.transform = '';
 
-      // Calculate position after a brief timeout
       setTimeout(() => {
         const rect = dropdownMenu.getBoundingClientRect();
         
-        // Check right overflow
         if (rect.right > (viewportWidth - padding)) {
           const overflow = rect.right - viewportWidth + padding;
           dropdownMenu.style.transform = `translateX(-${overflow}px)`;
         }
         
-        // Check left overflow after adjustment
         const newRect = dropdownMenu.getBoundingClientRect();
         if (newRect.left < padding) {
           dropdownMenu.style.transform = `translateX(${padding - newRect.left}px)`;
         }
 
-        // Handle nested dropdowns
         const nestedDropdowns = dropdown.querySelectorAll('.menu-item-has-children .menu-item-has-children');
         nestedDropdowns.forEach((nestedDropdown) => {
           const nestedMenu = nestedDropdown.querySelector('ul');
@@ -161,7 +186,6 @@ export default function Nav({ setMobileToggle }) {
     });
   }, []);
 
-  // Event handlers setup
   useEffect(() => {
     const handleResize = () => adjustDropdownPositions();
     
@@ -172,7 +196,6 @@ export default function Nav({ setMobileToggle }) {
 
     if (navRef.current) {
       observer.observe(navRef.current);
-      // Initial adjustment
       adjustDropdownPositions();
     }
 
@@ -187,12 +210,24 @@ export default function Nav({ setMobileToggle }) {
     return items.map((item, index) => {
       const hasChildren = item.children && item.children.length > 0;
       const isExternal = item.external || item.path?.startsWith('http');
+      const itemKey = `${level}-${index}`;
+      const isHovered = hoveredItems.has(itemKey);
       
       return (
         <li 
-          key={`${level}-${index}`}
+          key={itemKey}
           className={hasChildren ? 'menu-item-has-children' : ''}
-          onMouseEnter={hasChildren ? () => setTimeout(adjustDropdownPositions, 100) : undefined}
+          onMouseEnter={() => {
+            if (hasChildren) {
+              handleMouseEnter(itemKey);
+              setTimeout(adjustDropdownPositions, 100);
+            }
+          }}
+          onMouseLeave={() => {
+            if (hasChildren) {
+              handleMouseLeave(itemKey);
+            }
+          }}
         >
           {item.path ? (
             <a
@@ -202,12 +237,43 @@ export default function Nav({ setMobileToggle }) {
                 handleNavigation(item.path, isExternal);
               }}
               className={level > 0 ? 'px-3 mb-0' : ''}
+              style={{ 
+                display: 'flex', 
+                alignItems: 'center', 
+                gap: hasChildren ? '6px' : '0' 
+              }}
             >
               {item.label}
+              {hasChildren && (
+                level === 0 ? (
+                  isHovered ? 
+                    <IoChevronUp className="nav-icon" size={14} style={{ transition: 'all 0.2s ease' }} /> :
+                    <IoChevronDown className="nav-icon" size={14} style={{ transition: 'all 0.2s ease' }} />
+                ) : (
+                  <IoChevronForward className="nav-icon" size={12} style={{ transition: 'all 0.2s ease' }} />
+                )
+              )}
             </a>
           ) : (
-            <a className={level > 0 ? 'px-3 mb-0' : ''} onClick={() => setMobileToggle(false)}>
+            <a 
+              className={level > 0 ? 'px-3 mb-0' : ''} 
+              onClick={() => setMobileToggle(false)}
+              style={{ 
+                display: 'flex', 
+                alignItems: 'center', 
+                gap: hasChildren ? '6px' : '0' 
+              }}
+            >
               {item.label}
+              {hasChildren && (
+                level === 0 ? (
+                  isHovered ? 
+                    <IoChevronUp className="nav-icon" size={14} style={{ transition: 'all 0.2s ease' }} /> :
+                    <IoChevronDown className="nav-icon" size={14} style={{ transition: 'all 0.2s ease' }} />
+                ) : (
+                  <IoChevronForward className="nav-icon" size={12} style={{ transition: 'all 0.2s ease' }} />
+                )
+              )}
             </a>
           )}
           
