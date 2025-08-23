@@ -4,7 +4,7 @@ import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Components/Contact/Serviceappointemnt';
 import MaintenanceContract from "../../Components/MaintenanceContract/MaintenanceContract";
 
-import Slider from "react-slick";
+import 'swiper/swiper-bundle.css';
 import testimonial_data from '../../Data/Faqstestimonial1.json';
 import loadBackgroudImages from "../../Components/Common/loadBackgroudImages";
 import parse from 'html-react-parser';

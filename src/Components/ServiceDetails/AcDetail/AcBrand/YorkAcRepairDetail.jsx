@@ -7,7 +7,7 @@ import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import testimonial_data_york from '../../../../Data/AcData/AcTestimonial/YorkAcServiceTestimonials.json';
 import parse from 'html-react-parser';
-import Slider from "react-slick";
+import 'swiper/swiper-bundle.css';
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 import HeaderForm from "../../../Headeform/HeaderForm";
 import AcAppointmentCol from "../../../Common/AcAppointmentCol";

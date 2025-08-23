@@ -1,6 +1,9 @@
-import React, { useRef, useMemo } from "react";
+import React, { useRef } from "react";
 import { Link } from "react-router-dom";
-import Slider from "react-slick";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
 import data from '../../Data/services1.json';
 import SectionTitle from "../Common/SectionTitle";
 import { TbAirConditioning } from "react-icons/tb";
@@ -9,46 +12,23 @@ import { LuRefrigerator } from "react-icons/lu";
 import { GiWashingMachine } from "react-icons/gi";
 import { MdOutlineCoffeeMaker } from "react-icons/md";
 import { GrHostMaintenance } from "react-icons/gr";
+
 const iconMap = {
     "Air Conditioning Services": TbAirConditioning,
     "Commercial Refrigeration Services": LuRefrigerator,
     "Laundry Equipment Services": GiWashingMachine,
     "Coffee Machine Services": MdOutlineCoffeeMaker,
-    "Kitchen Equipment Services":PiOvenDuotone,
+    "Kitchen Equipment Services": PiOvenDuotone,
     "Home Appliances Service Center": GrHostMaintenance
 };
 
 const Services1 = () => {
-    const sliderRef = useRef(null);
+    const swiperRef = useRef(null);
 
-    const sliderControls = {
-        next: () => sliderRef.current.slickNext(),
-        previous: () => sliderRef.current.slickPrev()
+    const swiperControls = {
+        next: () => swiperRef.current?.slideNext(),
+        previous: () => swiperRef.current?.slidePrev()
     };
-
-    const sliderSettings = useMemo(() => ({
-        dots: false,
-        infinite: true,
-        speed: 600,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        arrows: false,
-        swipeToSlide: true,
-        responsive: [
-            {
-                breakpoint: 1399,
-                settings: { slidesToShow: 3 }
-            },
-            {
-                breakpoint: 1199,
-                settings: { slidesToShow: 2 }
-            },
-            {
-                breakpoint: 575,
-                settings: { slidesToShow: 1 }
-            }
-        ]
-    }), []);
 
     return (
         <section className="cs_gray_bg cs_bg_filed position-relative" data-src="assets/img/service_bg_1.avif">
@@ -71,29 +51,42 @@ const Services1 = () => {
             
             <div className="cs_slider cs_style_1 cs_slider_gap_30 wow fadeInUp">
                 <div className="container">
-                    <div 
-                        className="cs_slider_container" 
-                        data-autoplay="0" 
-                        data-loop="1" 
-                        data-speed="600" 
-                        data-center="0"
-                        data-variable-width="0" 
-                        data-xs-slides="1" 
-                        data-sm-slides="2" 
-                        data-md-slides="2" 
-                        data-lg-slides="3"
-                        data-add-slides="3" 
-                        data-slides-per-view="responsive"
-                    >
+                    <div className="cs_slider_container">
                         <div className="cs_slider_wrapper">
-                            <Slider ref={sliderRef} {...sliderSettings}>
+                            <Swiper
+                                ref={swiperRef}
+                                modules={[Navigation, Autoplay]}
+                                spaceBetween={30}
+                                slidesPerView={1}
+                                loop={true}
+                                speed={600}
+                                autoplay={false}
+                                navigation={false} // We'll use custom arrows
+                                breakpoints={{
+                                    575: {
+                                        slidesPerView: 1,
+                                        spaceBetween: 20
+                                    },
+                                    768: {
+                                        slidesPerView: 2,
+                                        spaceBetween: 30
+                                    },
+                                    1200: {
+                                        slidesPerView: 3,
+                                        spaceBetween: 30
+                                    }
+                                }}
+                                className="services-swiper"
+                            >
                                 {data.map((item, index) => (
-                                    <ServiceCard key={index} item={item} />
+                                    <SwiperSlide key={index}>
+                                        <ServiceCard item={item} />
+                                    </SwiperSlide>
                                 ))}
-                            </Slider>
+                            </Swiper>
                         </div>
                         
-                        <SliderArrows onClick={sliderControls} />
+                        <SliderArrows onClick={swiperControls} />
                     </div>
                 </div>
             </div>
@@ -105,7 +98,7 @@ const Services1 = () => {
 
 const ServiceCard = ({ item }) => {
     // Get the appropriate icon component based on the service title
-    const IconComponent = iconMap[item.title] || PiOvenDuotone; // Fallback to home icon
+    const IconComponent = iconMap[item.title] || PiOvenDuotone;
     
     return (
         <div className="cs_slide">

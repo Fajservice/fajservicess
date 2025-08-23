@@ -8,7 +8,7 @@ import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 
-import Slider from "react-slick";
+import 'swiper/swiper-bundle.css';
 import testimonial_data from '../../../Data/CommercialLaundryEquipData/Testmonials/CommercialWashingMachineRepairTestimonial.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';

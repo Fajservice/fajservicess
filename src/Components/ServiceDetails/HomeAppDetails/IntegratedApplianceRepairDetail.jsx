@@ -13,7 +13,7 @@ import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import BookingFormModal from '../../BookingFormModal';
 import { RxArrowTopRight } from 'react-icons/rx';
 
-import Slider from "react-slick";
+import 'swiper/swiper-bundle.css';
 import testimonial_data from '../../../Data/HomeAppData/Testmonials/IntegratedAppliancesRepairServiceTestimonials.json';
 import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
 

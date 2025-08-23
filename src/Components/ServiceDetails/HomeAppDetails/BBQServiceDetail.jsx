@@ -9,7 +9,7 @@ import CallNowButton from '../../Buttons/CallNowButton';
 import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
-import Slider from "react-slick";
+import 'swiper/swiper-bundle.css';
 import testimonial_data from '../../../Data/HomeAppData/Testmonials/BBQServiceTestimonials.json';
 import bbqbrandsLogo_data from '../../../Data/bbqBrandsLogo.json';
 import BookingFormModal from '../../BookingFormModal';

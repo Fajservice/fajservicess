@@ -12,7 +12,7 @@ import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
 
 import parse from 'html-react-parser';
-import Slider from "react-slick";
+import 'swiper/swiper-bundle.css';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import AcAppointmentCol from "../../../Common/AcAppointmentCol";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";

@@ -8,7 +8,7 @@ import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 import testimonial_data_Daikin from '../../../../Data/AcData/AcTestimonial/DaikinAcServiceTestimonials.json';
 import parse from 'html-react-parser';
-import Slider from "react-slick";
+import 'swiper/swiper-bundle.css';
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import HeaderForm from "../../../Headeform/HeaderForm";
