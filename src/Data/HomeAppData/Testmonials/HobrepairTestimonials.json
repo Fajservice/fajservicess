@@ -2,31 +2,37 @@
   {
     "img1": "img/icons/g-icon.png",
     "subTitle": "Resident",
-    "title": "Saya Pitham",
-    "desc": "Their team arrived quickly and solved a gas leak from my cooker. Very professional."
+    "title": "Ayesha Khan",
+    "desc": "I needed hob maintenance, and FAJ provided excellent service. Their technicians arrived on time, inspected thoroughly, and fixed everything properly. I’m really satisfied with their reliable and professional work."
+  },
+  {
+    "img1": "img/icons/g-icon.png",
+    "subTitle": "Expat",
+    "title": "Ahmed Raza",
+    "desc": "FAJ did a great job with my appliance. I searched for hob repair near me, and their team came quickly, repaired the issue, and ensured smooth operation again."
   },
   {
     "img1": "img/icons/g-icon.png",
     "subTitle": "Resident",
-    "title": "Andreza R.",
-    "desc": "I definitely recommend FAJ Technical Services. They fixed my oven in 2 days and did a very good and proper job! I'm very glad with their work!"
+    "title": "Neha Sharma",
+    "desc": "I contacted FAJ for electric hob repair, and they were fantastic. The technician was polite, skilled, and handled the problem carefully. My hob is now working perfectly without issues."
   },
   {
     "img1": "img/icons/g-icon.png",
-    "subTitle": "Resident",
-    "title": "Amina Arif",
-    "desc": "F A J Technical Services L.L.C repaired my KitchenAid stand mixer quickly and efficiently. They also specialize in iron box, pizza oven, and robot vacuum cleaner repairs. Highly recommended!"
+    "subTitle": "Homeowner",
+    "title": "Omar Farooq",
+    "desc": "Needed urgent service and found FAJ. Their team carried out gas hob repair efficiently. They explained everything clearly and tested the appliance properly. Very reliable company overall."
   },
   {
     "img1": "img/icons/g-icon.png",
-    "subTitle": "Resident",
-    "title": "Tomas Griger",
-    "desc": "Very good experience with the service. They have fixed our pressure cooker. It was fast and communication was very professional."
+    "subTitle": "Expat",
+    "title": "Fatima Noor",
+    "desc": "I booked FAJ for a hob repair service, and they exceeded expectations. The team worked efficiently, solved the problem, and thoroughly checked performance. Professional, quick, and trustworthy service provider."
   },
   {
     "img1": "img/icons/g-icon.png",
-    "subTitle": "Resident",
-    "title": "Thomas Kimber",
-    "desc": "Professional team that arrived quickly and solved the gas leak from the cooker."
+    "subTitle": "Business Owner",
+    "title": "Arjun Mehta",
+    "desc": "FAJ provided excellent technical support when I requested electric hob repair. The staff was professional, fixed the problem efficiently, and restored the hob to full working condition. Highly recommended."
   }
 ]

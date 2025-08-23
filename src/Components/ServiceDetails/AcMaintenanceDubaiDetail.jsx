@@ -11,7 +11,6 @@ import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
-import './AcDetail/TestimonialSection.css';
 import "swiper/css/pagination";
 import "swiper/swiper-bundle.css";
 import BookingFormModal from '../BookingFormModal';
@@ -23,6 +22,7 @@ import FAJACPrice from "../Miscellaneous/FAJACPrice";
 import Practicaltip from "../Common/Practicaltip";
 import AcProperties from "../Common/AcProperties";
 import Blog2 from "../Blog/Blog2";
+import Testimonial1 from "../Testimonial/Testimonial1";
 
 
 const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
@@ -414,13 +414,13 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
         {/* Maintenance Contract */}
         <MaintenanceContract />
         {/* testimobial section */}
-             <Testimonial1
-                subtitle="What Our Clients Say"
-                title="Customer <span>Reviews</span>"
-                bgImg="img/home-testimonial-bg.jpg"
-                testimonialData={data}
-                sectionId="home-testimonials"
-              />
+        <Testimonial1
+          subtitle="What Our Clients Say"
+          title="Customer <span>Reviews</span>"
+          bgImg="img/home-testimonial-bg.jpg"
+          testimonialData={testimonial_data}
+          sectionId="home-testimonials"
+        />
         <Blog2 />
         {/* FAQ&apos;s */}
         <section className="section cs_py_30  bg-dark-blue text-light">

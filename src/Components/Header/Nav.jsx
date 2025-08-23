@@ -239,7 +239,7 @@ export default function Nav({ setMobileToggle }) {
               className={level > 0 ? 'px-3 mb-0' : ''}
               style={{ 
                 display: 'flex', 
-                alignItems: 'center', 
+                alignItems: 'center',
                 gap: hasChildren ? '6px' : '0' 
               }}
             >
@@ -260,7 +260,8 @@ export default function Nav({ setMobileToggle }) {
               onClick={() => setMobileToggle(false)}
               style={{ 
                 display: 'flex', 
-                alignItems: 'center', 
+                alignItems: 'center',
+                justifyContent: 'space-between',
                 gap: hasChildren ? '6px' : '0' 
               }}
             >

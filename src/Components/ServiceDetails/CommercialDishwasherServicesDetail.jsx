@@ -10,7 +10,7 @@ import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
 import BookingFormModal from '../BookingFormModal';
 import { RxArrowTopRight } from 'react-icons/rx';
 
-import testimonial_data from '../../Data/CommercialCoffeeMAchineReapairTestimonials.json';
+import testimonial_data from '../../Data/CommercialDishwasherRepairTestimonial.json';
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../Headeform/HeaderForm";

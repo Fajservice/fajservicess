@@ -61,6 +61,25 @@
   flex-direction: column;
   height: 100%;
   padding: 25px;
+  position: relative;
+}
+.cs_testimonial .card-body::before {
+    background-color: var(--accent-color);
+    content: "";
+    height: 100%;
+    left: -260px;
+    position: absolute;
+    top: 0;
+    width: 50%;
+}
+.cs_testimonial .card-body::after {
+    background-color: var(--accent-color);
+    content: "";
+    height: 50%;
+    left: 0px;
+    position: absolute;
+    top: -93px;
+    width: 100%;
 }
 
 /* Thumbnail */

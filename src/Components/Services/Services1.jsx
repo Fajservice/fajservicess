@@ -12,6 +12,7 @@ import { LuRefrigerator } from "react-icons/lu";
 import { GiWashingMachine } from "react-icons/gi";
 import { MdOutlineCoffeeMaker } from "react-icons/md";
 import { GrHostMaintenance } from "react-icons/gr";
+import { GoArrowRight, GoArrowLeft, GoArrowUpRight  } from "react-icons/go";
 
 const iconMap = {
     "Air Conditioning Services": TbAirConditioning,
@@ -134,12 +135,12 @@ const SliderArrows = ({ onClick }) => (
     <div className="cs_slider_arrows cs_style_1">
         <div className="cs_arrow_wrap cs_arrow_wrap_left cs_center" onClick={onClick.previous}>
             <div className="cs_left_arrow cs_center cs_heading_bg cs_white_color slick-arrow">
-                <i className="bi bi-arrow-left"></i>
+                <i className="bi bi-arrow-left"><GoArrowLeft size={22}  /></i>
             </div>
         </div>
         <div className="cs_arrow_wrap cs_arrow_wrap_right cs_center" onClick={onClick.next}>
             <div className="cs_right_arrow cs_center cs_heading_bg cs_white_color slick-arrow">
-                <i className="bi bi-arrow-right"></i>
+                <i className="bi bi-arrow-right"><GoArrowRight   size={22}  /></i>
             </div>
         </div>
     </div>
@@ -147,8 +148,8 @@ const SliderArrows = ({ onClick }) => (
 
 const DoubleArrowIcon = () => (
     <>
-        <i className="bi bi-arrow-right"></i>
-        <i className="bi bi-arrow-right"></i>
+        <i className="bi bi-arrow-right"><GoArrowRight   size={18}  /></i>
+        <i className="bi bi-arrow-right"><GoArrowRight   size={18}  /></i>
     </>
 );
 

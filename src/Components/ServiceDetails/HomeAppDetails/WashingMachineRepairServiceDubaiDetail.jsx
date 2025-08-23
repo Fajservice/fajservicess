@@ -10,7 +10,7 @@ import GetQuoteButton from "../../Buttons/GetQuoteButton";
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import 'swiper/swiper-bundle.css';
-import testimonial_data from '../../../Data/HomeAppData/Testmonials/OvenRepairServiceTestimonials.json';
+import testimonial_data from '../../../Data/HomeAppData/Testmonials/WashingMachineRepairServiceTestimonials.json';
 import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
