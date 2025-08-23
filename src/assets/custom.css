@@ -14,7 +14,6 @@
   display: none;
 }
 
-/* OVERRIDE CONTAINER for fix content and width */
 @media (min-width: 1400px) {
   .container {
     max-width: 1140px;
@@ -114,8 +113,6 @@
   }
 }
 
-/* svg animation end moving */
-
 
 .bg-light-blue {
   background-color: var(--bg-light-aqua-blue);
@@ -136,14 +133,6 @@
 .sky-blue-font {
   color: var(--sky-blue-font);
 }
-
-/* @font-face {
-  font-family: 'Gunplay-Regular';
-  font-style: normal;
-  font-weight: normal;
-  font-display: swap;
-  src: local('Gunplay-Regular'), url('/fonts/faj-custom-font.ttf') format('ttf');
-} */
 
 
 @font-face {
@@ -191,7 +180,7 @@ section#get-quote {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: left center !important;
+  object-position: left center;
   z-index: -1;
   transform: translateZ(0);
   backface-visibility: hidden;

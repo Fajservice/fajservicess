@@ -7,6 +7,7 @@ import cssnano from 'cssnano';
 
 export default defineConfig(({ mode }) => {
   const isProduction = mode === 'production';
+
   return {
     plugins: [
       react({
@@ -18,30 +19,23 @@ export default defineConfig(({ mode }) => {
         }
       }),
 
-      viteCompression({
-        algorithm: 'brotliCompress',
-        ext: '.br',
-        threshold: 10240,
-        deleteOriginFile: false
-      }),
-      viteCompression({
-        algorithm: 'gzip',
-        ext: '.gz',
-        threshold: 10240,
-        deleteOriginFile: false
-      }),
+      viteCompression({ algorithm: 'brotliCompress', ext: '.br', threshold: 10240 }),
+      viteCompression({ algorithm: 'gzip', ext: '.gz', threshold: 10240 }),
 
       ViteImageOptimizer({
-        avif: { quality: 80 },
-        png: { quality: 80 },
-        jpeg: { quality: 80 },
-        webp: { lossless: false }
+        jpg: { quality: 70, progressive: true },
+        jpeg: { quality: 70, progressive: true },
+        png: { quality: 70, compressionLevel: 9 },
+        webp: { quality: 75 },
+        avif: { quality: 60 },
+        svg: { multipass: true }
       }),
 
       isProduction && visualizer({
         filename: './dist/bundle-stats.html',
         open: false,
-        gzipSize: true
+        gzipSize: true,
+        brotliSize: true
       })
     ].filter(Boolean),
 
@@ -52,7 +46,7 @@ export default defineConfig(({ mode }) => {
       terserOptions: {
         compress: {
           drop_console: true,
-          drop_debugger: true,
+          drop_debugger: true
         }
       },
       rollupOptions: {
@@ -60,28 +54,34 @@ export default defineConfig(({ mode }) => {
           manualChunks(id) {
             if (id.includes('node_modules')) {
               if (id.includes('react')) return 'react-vendor';
-              if (id.includes('router')) return 'router';
+              if (id.includes('react-router-dom')) return 'router';
+              if (id.includes('bootstrap')) return 'bootstrap';
+              if (id.includes('react-slick') || id.includes('slick-carousel')) return 'slick';
+              if (id.includes('react-icons')) return 'icons';
               return 'vendor';
             }
-          }
+          },
+          chunkFileNames: 'assets/[name]-[hash].js',
+          entryFileNames: 'assets/[name]-[hash].js',
+          assetFileNames: 'assets/[name]-[hash].[ext]'
         }
       }
     },
-    // run local
-    // server: {
-    //   host: true,
-    //   port: 5173,
-    // },
-    // remove above live local run
+
     css: {
-      modules: {
-        localsConvention: 'camelCaseOnly'
-      },
+      modules: { localsConvention: 'camelCaseOnly' },
       postcss: {
-        plugins: isProduction ? [
-          cssnano({ preset: 'default' })
-        ] : []
+        plugins: isProduction ? [cssnano({ preset: 'default' })] : []
       }
+    },
+
+    optimizeDeps: {
+      include: [
+        'react',
+        'react-dom',
+        'react-router-dom',
+        'bootstrap/dist/js/bootstrap.bundle.min.js',
+      ]
     }
   };
 });

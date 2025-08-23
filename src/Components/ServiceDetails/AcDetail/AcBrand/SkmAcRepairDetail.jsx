@@ -9,7 +9,7 @@ import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 import testimonial_data_Skm from '../../../../Data/AcData/AcTestimonial/SkmAcServiceTestimonials.json';
 import parse from 'html-react-parser';
-import Slider from "react-slick";
+import 'swiper/swiper-bundle.css';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";

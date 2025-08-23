@@ -11,7 +11,7 @@ import ACWhyChooseUs from "../../../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 import testimonial_data_Super_General from '../../../../Data/AcData/AcTestimonial/SuperGeneralAcServiceTestimonials.json';
 import parse from 'html-react-parser';
-import Slider from "react-slick";
+import 'swiper/swiper-bundle.css';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
