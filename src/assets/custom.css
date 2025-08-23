@@ -196,9 +196,8 @@ section#get-quote {
   min-width: 30px;
 }
 
-.cs_nav .cs_nav_list>li.menu-item-has-children .custom_border_drop .menu-item-has-children>a::after {
-  content: "\f282";
-  font-family: bootstrap-icons !important;
+/* .cs_nav .cs_nav_list>li.menu-item-has-children .custom_border_drop .menu-item-has-children>a::after {
+  content: "";
   font-weight: 900;
   display: inline-block;
   border-left: 0;
@@ -212,7 +211,7 @@ section#get-quote {
   height: fit-content;
   width: auto;
   transition: transform 0.3s ease;
-}
+} */
 
 .cs_nav .cs_nav_list>li.menu-item-has-children .custom_border_drop .menu-item-has-children:hover>a::after {
   transform: rotate(-90deg);
