@@ -31,17 +31,17 @@ const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
-const [isModalOpen, setIsModalOpen] = useState(false);
-    const openModal = useCallback((e) => {
-      e.preventDefault();
-      setIsModalOpen(true);
-      document.body.style.overflow = 'hidden';
-    }, []);
-  
-    const closeModal = useCallback(() => {
-      setIsModalOpen(false);
-      document.body.style.overflow = 'auto';
-    }, []);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const openModal = useCallback((e) => {
+    e.preventDefault();
+    setIsModalOpen(true);
+    document.body.style.overflow = 'hidden';
+  }, []);
+
+  const closeModal = useCallback(() => {
+    setIsModalOpen(false);
+    document.body.style.overflow = 'auto';
+  }, []);
   const handleItemClick = index => {
     if (index === openItemIndex) {
       setOpenItemIndex(-1);
@@ -521,11 +521,6 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
         <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">
-            <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY Cigar Cabinet REPAIR SERVICE</h3>
-            <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 157 to 280 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
-            <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
-              <b>We provide 2-month repair warranty</b><br />
-              and <small>3-month parts warranty</small> as standard.</p>
             <h3>We specialise in Cigar Cabinet services for the following brands</h3>
             <ul>
               <li><strong>Afidano Electric Cigar Humidor Service Center in Dubai: </strong>Afidano specializes in cigar humidor repair, fixing electric cigar humidor, cigar refrigerator repairs, and cigar cooler maintenance. FAJ is the official Afidano electric cigar humidor service center in Dubai, UAE.</li>
@@ -538,11 +533,14 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <li><strong>Humidor Cigar Cabinet Refrigerator and Maintenance</strong>: Is your Humidor Cigar Cabinet Refrigerator not working properly? Don't suffer through uncomfortable temperatures or risk losses due to faulty equipment. FAJ can restore your humidor cigar cabinet refrigerator repair and service quickly! Contact us for fix cigar fridge or cigar refrigerator service and maintenance.</li>
             </ul>
           </div>
-        </section>
+        </section >
+
         {/* Maintenance Contract */}
-        <MaintenanceContract />
+        < MaintenanceContract />
+
         {/* testimobial section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }}>
+        < section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}${reviewsbg})` }
+        }>
 
           <div className="container">
             <div className="cs_section_heading cs_style_1 cs_mb_47 text-center">
@@ -592,10 +590,10 @@ const [isModalOpen, setIsModalOpen] = useState(false);
             </div>
           </div>
 
-        </section>
+        </section >
 
         {/* FAQ's */}
-        <section className="section cs_py_30  bg-dark-blue text-light">
+        < section className="section cs_py_30  bg-dark-blue text-light" >
           <div className="container">
             <h3 className="cs_fs_30 text-light">FAQ&apos;s</h3>
 
@@ -621,7 +619,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
             </div>
           </div>
-        </section>
+        </section >
 
         <section className="section cs_py_30">
           <Serviceappointemnt

@@ -28,8 +28,7 @@
 ## 1. All Color Variable
 ----------------------------------------------------------------*/
 
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap'); */
-
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
   --white-color: #fff;
@@ -42,11 +41,12 @@
   --gray-color: #f5f7fa;
   --gray2-color: #e8ebee;
   --border-color: #ecf1f5;
+
   --heading-font: 'Gunplay-Regular', sans-serif;
-  /* --heading-font: "Archivo", sans-serif; */
+  /* --heading-font: "Expletus Sans", sans-serif; */
+  /* --heading-font: "Jost", sans-serif; */
+
   --body-font: "Roboto", sans-serif;
-  /* --body-font: 'Roboto Slab', serif; */
-  ;
 }
 
 
