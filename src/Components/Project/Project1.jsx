@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import SectionTitle from "../Common/SectionTitle";
 import data from '../../Data/project1.json';
+import { GoArrowRight } from "react-icons/go";
 
 const Project1 = () => {
   return (
@@ -25,7 +26,7 @@ const Project1 = () => {
       <div className="container-fluid p-0">
         <div className="cs_project_area">
           <div className="cs_project" >
-            <div className="row cs_row_gap_60 cs_gap_y_30">
+            <div className="row cs_row_gap_20 cs_gap_y_30">
               {data.map((item, i) => (
                 <div key={i} className="col-xl-3 col-md-6 wow fadeInLeft">
                   <div className="cs_card cs_style_2 position-relative">
@@ -38,8 +39,8 @@ const Project1 = () => {
                       <Link to={item.serviceLink} className="cs_text_btn cs_style_1 cs_heading_color">
                         <span className="cs_btn_text text-uppercase">Read More</span>
                         <span className="cs_btn_icon cs_center">
-                          <i className="bi bi-arrow-right"></i>
-                          <i className="bi bi-arrow-right"></i>
+                          <i className="bi bi-arrow-right"><GoArrowRight   size={18}  /></i>
+                          <i className="bi bi-arrow-right"><GoArrowRight   size={18}  /></i>
                         </span>
                       </Link>
                     </div>

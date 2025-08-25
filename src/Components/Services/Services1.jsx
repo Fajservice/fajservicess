@@ -12,7 +12,11 @@ import { LuRefrigerator } from "react-icons/lu";
 import { GiWashingMachine } from "react-icons/gi";
 import { MdOutlineCoffeeMaker } from "react-icons/md";
 import { GrHostMaintenance } from "react-icons/gr";
+<<<<<<< HEAD
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+=======
+import { GoArrowRight, GoArrowLeft, GoArrowUpRight  } from "react-icons/go";
+>>>>>>> d48267755d7cd6d929f0874bc2553b83dffc7642
 
 const iconMap = {
     "Air Conditioning Services": TbAirConditioning,
@@ -148,7 +152,11 @@ const SliderArrows = ({ onNext, onPrev }) => (
             style={{ cursor: 'pointer' }}
         >
             <div className="cs_left_arrow cs_center cs_heading_bg cs_white_color slick-arrow">
+<<<<<<< HEAD
                 <FaArrowLeft />
+=======
+                <i className="bi bi-arrow-left"><GoArrowLeft size={22}  /></i>
+>>>>>>> d48267755d7cd6d929f0874bc2553b83dffc7642
             </div>
         </div>
         <div
@@ -157,7 +165,11 @@ const SliderArrows = ({ onNext, onPrev }) => (
             style={{ cursor: 'pointer' }}
         >
             <div className="cs_right_arrow cs_center cs_heading_bg cs_white_color slick-arrow">
+<<<<<<< HEAD
                 <FaArrowRight />
+=======
+                <i className="bi bi-arrow-right"><GoArrowRight   size={22}  /></i>
+>>>>>>> d48267755d7cd6d929f0874bc2553b83dffc7642
             </div>
         </div>
     </div>
@@ -165,8 +177,8 @@ const SliderArrows = ({ onNext, onPrev }) => (
 
 const DoubleArrowIcon = () => (
     <>
-        <i className="bi bi-arrow-right"></i>
-        <i className="bi bi-arrow-right"></i>
+        <i className="bi bi-arrow-right"><GoArrowRight   size={18}  /></i>
+        <i className="bi bi-arrow-right"><GoArrowRight   size={18}  /></i>
     </>
 );
 

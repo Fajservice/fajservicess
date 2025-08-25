@@ -10,7 +10,7 @@ import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
 import BookingFormModal from '../BookingFormModal';
 import { RxArrowTopRight } from 'react-icons/rx';
 
-import testimonial_data from '../../Data/CommercialCoffeeMAchineReapairTestimonials.json';
+import testimonial_data from '../../Data/CommercialDishwasherRepairTestimonial.json';
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../Headeform/HeaderForm";
@@ -695,7 +695,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
                   <span>&nbsp;-&nbsp;</span>
 
-                  <a href="https://fajservice.ae/de-dietrich-appliance-repair-service/">De Dietrich</a>
+                  <a href="/de-dietrich-fridge-repair-in-dubai-de-dietrich-washing-machine-repair-in-dubai-de-dietrich-cooker-repair-in-dubai-de-dietrich-oven-repair-in-dubai-de-dietrich-appliances-maintenance-in-dubai-de-dietri/">De Dietrich</a>
 
                   <span>&nbsp;-&nbsp;</span>
 
