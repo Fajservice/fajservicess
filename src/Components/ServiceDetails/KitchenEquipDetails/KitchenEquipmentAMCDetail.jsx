@@ -24,7 +24,7 @@ const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Kitchen Equipment amc, kitchen equipment maintenance contract, commercial kitchen equipment service, kitchen appliance repair, kitchen equipment repair Dubai, kitchen equipment AMC Dubai, kitchen equipment AMC Abu Dhabi, kitchen equipment AMC Sharjah, gas stove maintenance Dubai, oven maintenance Dubai, cooker maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/commercial-kitchen-equipment-amc/").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/kitchen-equip-amc-service.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/kitchen-equip-amc-service.avif");
 
 
   subtitle = "Testimonial"

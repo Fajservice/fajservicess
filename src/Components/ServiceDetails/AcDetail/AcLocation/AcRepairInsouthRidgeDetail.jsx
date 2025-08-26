@@ -26,7 +26,7 @@ const AcRepairInsouthRidgeDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Services in South Ridge, AC Repair in South Ridge, AC Maintenance in South Ridge, AC Installation in South Ridge, Air Conditioning Services in South Ridge, Air Conditioner Repair in South Ridge, Air Conditioner Maintenance in South Ridge, Air Conditioner Installation in South Ridge");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-south-ridge/").replace(/\/?$/, '/');
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

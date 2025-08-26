@@ -10,7 +10,7 @@ const ServiceCard = ({ title, subtitle, price, color, details, whatsappLink, tit
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Dubai AC Service Prices");
   const metaURL = String(URL || "https://www.fajservices.ae/dubai-ac-service-price-list/").replace(/\/?$/, '/');
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
   const [isExpanded, setIsExpanded] = useState(false);
   const buttonClass = `btn btn-${color}`;
 

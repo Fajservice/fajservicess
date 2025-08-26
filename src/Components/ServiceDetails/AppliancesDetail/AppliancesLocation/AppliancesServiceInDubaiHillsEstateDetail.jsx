@@ -24,7 +24,7 @@ const AppliancesServiceInDubaiHillsEstateDetail = ({ subtitle, title, reviewsbg,
   const metatitle = String(titleSeo || "Appliances Services In Dubai Hills Estate - Washing Machine Repair");
   const metadescription = String(description || "Get appliance services in Dubai Hills Estate. FAJ Experts refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, fridge, dishwasher, oven");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Washing Machinein dubai Hills Estate, Refrigerator Repair Dubai Hills Estate, Dishwasher Repair Dubai Hills Estate, Oven Repair Dubai Hills Estate, Appliance Service Dubai Hills Estate");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-hills-estate/").replace(/\/?$/, '/');
 

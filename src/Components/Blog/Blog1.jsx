@@ -13,7 +13,7 @@ const Blog1 = ({titleSeo , description, Author, Keyword, URL }) => {
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Latest Blogs");
   const metaURL = String(URL || "https://www.fajservices.ae/blogs/").replace(/\/?$/, '/');
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/page_heading_1.avif");
+const metaImage = String(Image || "https://www.fajservices.ae/img/page_heading_1.avif");
 
 
 

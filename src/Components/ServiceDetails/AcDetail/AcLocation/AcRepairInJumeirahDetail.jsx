@@ -31,7 +31,7 @@ const AcRepairInJumeirahDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "ac services in deira, ac repair in deira, ac maintenance in deira, ac service near me, ac repair near me, ac maintenance near me, air conditioning services in deira, air conditioning repair in deira, air conditioning maintenance in deira, aircon compressor fixing in deira");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jumeirah/").replace(/\/?$/, '/');
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

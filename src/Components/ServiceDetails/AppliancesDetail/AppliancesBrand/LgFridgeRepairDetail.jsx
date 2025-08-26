@@ -22,7 +22,7 @@ const LgFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
   const metatitle = String(titleSeo || "LG Fridge Repair - LG Washing Machine Repair | FAJ");
   const metadescription = String(description || "Get reliable LG washing machine repair in Dubai. we offer fridges, freezers, refrigerator, dishwashers, ovens & cooker repair and maintenance services");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "LG Fridge Repair, LG Washing Machine Repair, LG Cooker Repair, LG Oven Repair, LG Appliances Maintenance, LG Refrigerator Fix, LG Dishwasher Repair");
   const metaURL = String(URL || "https://www.fajservices.ae/lg-fridge-repair-in-dubai-lg-washing-machine-repair-in-dubai-lg-cooker-repair-in-dubai-lg-oven-repair-in-dubai-lg-appliances-maintenance-in-dubai-lg-refrigerator-fix-repairs-service-in-dubai-lg-dishwa/").replace(/\/?$/, '/');
 

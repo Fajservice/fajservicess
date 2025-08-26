@@ -25,7 +25,7 @@ const SearsHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, titleSeo, 
   const metatitle = String(titleSeo || "Sears Appliances Installation Maintenance Repair Dubai #1");
   const metadescription = String(description || "We are offering Sears Appliance Installation Maintenance Repair Service Dubai. Sears Refrigerator, Fridge, Washing Machine 04300002 ");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Sears Appliance Installation, Sears Appliance Repair, Sears Fridge Repair, Sears Washing Machine Repair, Sears Cooker Repair, Sears Dishwasher Repair, Sears Home Appliances Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/sears-home-appliances-installation-maintenance-repair-fix-service-in-dubai/").replace(/\/?$/, '/');
 

@@ -31,7 +31,7 @@ const AcRepairInDamacHillsDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "ac repair in damac hills, ac service in damac hills, ac maintenance in damac hills, gree ac repair in damac hills, gree ac service in damac hills, gree ac maintenance in damac hills, ac technician in damac hills, ac cleaning in damac hills, ac installation in damac hills, ac gas refilling in damac hills");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-repair-and-ac-service-in-damac-hills/").replace(/\/?$/, '/');
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

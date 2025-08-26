@@ -23,7 +23,7 @@ const OvenRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Rational Oven Repair Service, Combi Oven Repair Service, Commercial Oven Repair Service");
   const metaURL = String(URL || "https://www.fajservices.ae/oven-repair/").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Camercial-Kitchen-Equipment.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/Camercial-Kitchen-Equipment.avif");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

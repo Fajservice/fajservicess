@@ -26,7 +26,7 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "York AC Repair, York Air Conditioner Maintenance, York AC Service Dubai, York Air Conditioner Repair Dubai, York AC Installation Dubai, York AC Cleaning Dubai, York Air Conditioner Service Dubai, York Air Conditioner Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"

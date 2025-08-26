@@ -25,7 +25,7 @@ const AcRepairInJebelAliDipDetail = ({ subtitle, title, reviewsbg, titleSeo, des
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "ac services in jebel ali dip, ac repair in jebel ali dip, ac maintenance in jebel ali dip, ac service in jebel ali dip, air conditioning service in jebel ali dip, air conditioner service in jebel ali dip, ac installation in jebel ali dip, ac fixing in jebel ali dip, ac technician in jebel ali dip, ac company in jebel ali dip, ac servicing in jebel ali dip");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jebel-ali-dip/").replace(/\/?$/, '/');
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

@@ -23,7 +23,7 @@ const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Meat Grinder Repair, Meat Grinder Service, Meat Grinder Maintenance");
   const metaURL = String(URL || "https://www.fajservices.ae/meat-grinder-repair/").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/meat-grinder-repair.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/meat-grinder-repair.avif");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

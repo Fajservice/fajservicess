@@ -24,7 +24,7 @@ const AcRepairInAlMizharDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Repair in Al Mizhar, AC Maintenance in Al Mizhar, AC Service in Al Mizhar, Air Conditioner Repair in Al Mizhar, Air Conditioning Service in Al Mizhar");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-repair-and-ac-service-in-al-mizhar/").replace(/\/?$/, '/');
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

@@ -27,7 +27,7 @@ const AcRepairInSufouhDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Services in Al Sufouh, AC Repair in Al Sufouh, Air Conditioner Maintenance Dubai, Aircon Service Dubai, Split AC Repair Dubai, Central AC Service Dubai, AC Installation Dubai, AC Cleaning Dubai, Air Conditioning Services Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-sufouh/").replace(/\/?$/, '/');
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

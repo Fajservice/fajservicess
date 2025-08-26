@@ -31,7 +31,7 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, title
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Home appliacnes, Appliances AMC, Appliances Maintenance Contract, Kitchen Equipment AMC, Kitchen Appliances AMC, Dubai Appliances Service, Appliance Repair Dubai, Appliance Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-amc-service/").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/dishwasher-repair-service.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/dishwasher-repair-service.avif");
   // For SEO
 
 

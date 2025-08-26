@@ -25,7 +25,7 @@ const AcRepairInAlRashidiyaDetail = ({ subtitle, title, reviewsbg, titleSeo, des
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC services Al Rashidiya, AC maintenance Dubai, inverter AC repair, split AC service, central AC maintenance, Dubai AC technician");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-rashidiya/").replace(/\/?$/, '/');
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
 
 
     // For Testimonial

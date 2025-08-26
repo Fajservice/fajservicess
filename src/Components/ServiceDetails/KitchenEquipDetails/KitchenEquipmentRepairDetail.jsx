@@ -24,7 +24,7 @@ const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Kitchen Equipment Repair, Commercial Cooking Equipment Repair");
   const metaURL = String(URL || "https://www.fajservices.ae/commercial-kitchen-equipment-maintenance-services/").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/kitchen-equip-amc-service.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/kitchen-equip-amc-service.avif");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

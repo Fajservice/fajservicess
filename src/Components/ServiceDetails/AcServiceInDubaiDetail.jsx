@@ -32,7 +32,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "AC Service, Air Con Service, AC Service in Dubai, Air Conditioning Service");
   const metaURL = String(URL || "https://www.fajservices.ae/ac-service-in-dubai/").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

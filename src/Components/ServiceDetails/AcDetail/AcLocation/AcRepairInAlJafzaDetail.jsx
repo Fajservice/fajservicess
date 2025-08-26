@@ -22,7 +22,7 @@ const AcRepairInAlJafzaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Repair in Jafza, Air Conditioner Maintenance in Jafza, Air Conditioning Fix in JAZA, AMC Service in Jebel Ali Free Zone Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-repair-in-jafza-air-condition-maintenance-in-jafza-air-conditioning-fix-amc-service-in-jebel-ali-free-zone-dubai/").replace(/\/?$/, '/');
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

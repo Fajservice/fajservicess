@@ -24,7 +24,7 @@ const AcRepairInAlWarqaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Services In Al Warqa, Air Conditioning Maintenance, AC Repair in Al Warqa, AC Service in Al Warqa, Central Unit Air Conditioning Maintenance, Air Conditioning Repair in Al Warqa, Air Conditioning Installation in Al Warqa");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-warqa/").replace(/\/?$/, '/');
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

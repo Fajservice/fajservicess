@@ -24,7 +24,7 @@ const BompaniFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
     const metatitle = String(titleSeo || "Bompani Fridge Repair In Dubai - Washing Machine Service");
     const metadescription = String(description || "FAJ offers Bompani Fridge Repair in Dubai. Dial now 043300002 for Bompani washing machine, dishwasher, cooking range oven fix service near me");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Bompani Fridge Repair, Bompani Washing Machine Repair, Bompani Cooker Repair, Bompani Oven Repair, Bompani Appliances Maintenance, Bompani Refrigerator Fix Repair");
     const metaURL = String(URL || "https://www.fajservices.ae/bompani-fridge-repair-in-dubai-bompani-washing-machine-repair-in-dubai-bompani-cooker-repair-in-dubai-bompani-oven-repair-in-dubai-bompani-appliances-maintenance-in-dubai-bompani-refrigerator-fix-repa/").replace(/\/?$/, '/');
 

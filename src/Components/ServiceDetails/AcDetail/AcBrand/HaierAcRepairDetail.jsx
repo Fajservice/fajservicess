@@ -26,7 +26,7 @@ const HaierAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Haier AC Repair in Dubai, Haier Air Conditioner Service, Haier AC Maintenance, Haier AC Fix, Haier Air Condition Repair, Haier Air Condition Maintenance, Haier Air Condition Service");
   const metaURL = String(URL || "https://www.fajservices.ae/haier-ac-repair-in-dubai-haier-ac-maintenance-in-dubai-haier-ac-fix-in-dubai-haier-ac-service-in-dubai-haier-air-condition-repair-in-dubai-haier-air-condition-maintenance-in-dubai-haier-air-condition/").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"

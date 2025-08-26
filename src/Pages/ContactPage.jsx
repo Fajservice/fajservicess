@@ -9,7 +9,7 @@ const ContactPage = ({titleSeo, description, Author, Keyword, URL }) => {
     const metatitle = String(titleSeo || "Contact Us- #1 Appliances Service Center Near Me Company");
     const metadescription = String(description || "Contact us, FAJ was established 2010 & expert in appliances maintenance service company in Dubai, Offering repair of fridge, washing machine.");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaImage = String(Image || "https://www.fajservices.ae//dist/img/page_heading_1.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/page_heading_1.avif");
     const metaKeyword = String(Keyword || "FAJ");
     const metaURL = String(URL || "https://www.fajservices.ae/contact-us/").replace(/\/?$/, '/');
 

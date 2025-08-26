@@ -25,7 +25,7 @@ const ApplianceServiceInLayanComminityDetail = ({ subtitle, title, reviewsbg, ti
     const metatitle = String(titleSeo || "Appliances Services in Layan Community - Fridge Repair");
     const metadescription = String(description || "FAJ offers appliance Services in Layan community. Call now at 043300002  for refrigerator, washing machine repair near me, washer dryer & more fix");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in Layan Community, Refrigerator Repair in Layan Community, Appliance Repair in Layan Community, Appliance Service in Layan Community, Fridge Repair in Layan Community, Washing Machine Repair in Layan Community, Dishwasher Repair in Layan Community, Tumble Dryer Repair in Layan Community, Oven Repair in Layan Community, Stove Repair in Layan Community");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-layan-community/").replace(/\/?$/, '/');
 

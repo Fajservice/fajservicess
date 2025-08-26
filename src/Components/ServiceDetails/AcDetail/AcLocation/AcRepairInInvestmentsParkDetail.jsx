@@ -31,7 +31,7 @@ const AcRepairInInvestmentsParkDetail = ({ subtitle, title, reviewsbg, titleSeo,
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "ac services in dubai investments park, ac repair in dubai investments park, ac maintenance in dubai investments park, split ac service in dubai investments park, central ac service in dubai investments park, air conditioning service in dubai investments park, aircon service in dubai investments park, ac technician in dubai investments park, ac installation in dubai investments park, ac cleaning in dubai investments park");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-dubai-investments-park/").replace(/\/?$/, '/');
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

@@ -23,7 +23,7 @@ const ApplianceServiceInDubailandMazayaQueuePointDetail = ({ subtitle, title, re
     const metatitle = String(titleSeo || "Best Appliances Services in Dubailand Mazaya Queue Point");
     const metadescription = String(description || "Looking for appliance service in Dubailand Mazaya Queue Point. Call 043300002 for fridge repair near me. Get fix washing machine, dishwasher, Oven");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in dubailand, Fridge Repair in dubailand, Dishwasher Repair in dubailand, Oven Repair in dubailand, Appliance Service in dubailand, Appliance Repair in dubailand, Appliance Service in Dubai Land, Appliance Repair in Dubai Land");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubailand-mazaya-queue-point/").replace(/\/?$/, '/');
 

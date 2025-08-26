@@ -31,7 +31,7 @@ const AcRepairInJBRDetail = ({ subtitle, title, reviewsbg, titleSeo, description
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "ac services in jbr, ac repair in jbr, ac maintenance in jbr, air conditioning services in jbr, air conditioner repair in jbr, aircon service in jbr, chilled water fcus repair in jbr, chilled water fcus maintenance in jbr, chilled water fcus service in jbr");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jbr/").replace(/\/?$/, '/');
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

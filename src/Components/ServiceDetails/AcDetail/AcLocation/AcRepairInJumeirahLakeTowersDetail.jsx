@@ -30,7 +30,7 @@ const AcRepairInJumeirahLakeTowersDetail = ({ subtitle, title, reviewsbg, titleS
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "ac services in jumeirah lake towers, ac repair in jumeirah lake towers, ac maintenance in jumeirah lake towers, ac installation in jumeirah lake towers, ac cleaning in jumeirah lake towers, ac service near me, ac service dubai, ac service sharjah");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jumeirah-lake-towers/").replace(/\/?$/, '/');
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

@@ -23,7 +23,7 @@ const ApplianceServiceInIndexTowerDifcDetail = ({ subtitle, title, reviewsbg, ti
     const metatitle = String(titleSeo || "Appliances Services in Index Tower DIFC - Fridge Repair");
     const metadescription = String(description || "Best appliance services in Index Tower DIFC. FAJ offers fridge repair near me. Call 043300002 for dishwasher, oven, washing machine maintenance");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in Index Tower DIFC, Fridge Repair in Index Tower DIFC, Dishwasher Repair in Index Tower DIFC, Oven Repair in Index Tower DIFC, Appliance Service in Index Tower DIFC, Appliance Maintenance in Index Tower DIFC");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-index-tower-difc/").replace(/\/?$/, '/');
 

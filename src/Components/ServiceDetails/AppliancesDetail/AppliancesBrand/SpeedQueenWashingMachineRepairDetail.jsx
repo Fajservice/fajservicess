@@ -24,7 +24,7 @@ const SpeedQueenWashingMachineRepairDetail = ({ subtitle, title, reviewsbg, titl
   const metatitle = String(titleSeo || "Speed Queen Washing Machine Repair - Washer Dryer Service");
   const metadescription = String(description || "Need Speed Queen washing machine repair in Dubai? FAJ for experts on Speed Queen washer dryer, laundry system maintenance & amc service UAE");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "speed queen washing machine repair, speed queen dryer repair, speed queen washer dryer repair, speed queen maintenance, speed queen service, speed queen fix, speed queen appliance repair in Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/speed-queen-washing-machine-repair-in-dubai-speed-queen-dryer-repair-in-dubai-speed-queen-washer-dryer-repair-in-dubai-maintenance-fix-service-in-dubai/").replace(/\/?$/, '/');
 

@@ -25,7 +25,7 @@ const CandyRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, d
   const metatitle = String(titleSeo || "Candy Refrigerator Repair Dubai - Washing Machine Service");
   const metadescription = String(description || "To get fast & reliable Candy refrigerator repair in Dubai. Dail 043300002 for your fridge, candy washing machine, dishwasher, oven fix service near me");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Candy Refrigerator Repair Dubai, Candy Washing Machine Repair Dubai, Candy Dishwasher Repair Dubai, Candy Cooker Oven Repair Dubai, Candy Fridge Repair Dubai, Candy Appliance Service Dubai, Candy Appliance Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/candy-refrigerator-repair-in-dubai-fridge-repair-in-dubai-washing-machine-repair-in-dubai-dishwasher-cooker-oven-repairs-fix-service-in-dubai/").replace(/\/?$/, '/');
 

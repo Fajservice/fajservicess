@@ -27,7 +27,7 @@ const AcRepairInSiliconOasisDubaiDetail = ({ subtitle, title, reviewsbg, titleSe
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Service in Silicon Oasis Dubai, AC Repair in Silicon Oasis Dubai, Air Conditioning Service Dubai, Aircon Repair Dubai, AC Maintenance Dubai, Air Conditioning Regas Dubai, AC Cleaning Service Dubai, Best AC Services in Silicon Oasis Dubai").replace(/,/g, ', ');
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-silicon-oasis-dubai/").replace(/\/?$/, '/');
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

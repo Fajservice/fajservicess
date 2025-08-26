@@ -26,7 +26,7 @@ const LgAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author,
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "LG AC Repair in Dubai, LG Air Conditioner Maintenance, LG AC Service, LG Split AC Repair, LG Central AC Service, LG VRF AC Repair, LG Air Conditioning Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/lg-ac-repair-in-dubai").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"

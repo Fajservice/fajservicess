@@ -31,7 +31,7 @@ const AcRepairInPalmJumeirahDetail = ({ subtitle, title, reviewsbg, titleSeo, de
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Services In Palm Jumeirah, AC Repair in Palm Jumeirah, AC Maintenance in Palm Jumeirah, Central Cooling System in Palm Jumeirah, Trane AC Service in Palm Jumeirah, Chiller FCU AC Service in Palm Jumeirah");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-palm-jumeirah").replace(/\/?$/, '/')
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

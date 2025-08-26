@@ -24,7 +24,7 @@ const FridgeRepairDubaiMarinaDetail = ({ subtitle, title, reviewsbg, titleSeo, d
   const metatitle = String(titleSeo || "Fridge Repair Dubai Marina  and Dishwasher Service Near Me");
   const metadescription = String(description || "Need fridge repair Dubai Marina? Call FAJ at 043300002 washing machine, dishwasher, refrigerator, and oven repair service near me Dubai Marina");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Fridge repair in Dubai Marina, refrigerator repair Dubai Marina");
   const metaURL = String(URL || "https://www.fajservices.ae/fridge-repair-dubai-marina/").replace(/\/?$/, '/');
 

@@ -26,7 +26,7 @@ const AcRepairInDipDetail = ({ subtitle, title, reviewsbg, titleSeo, description
     const metaKeyword = String(Keyword || "AC Repair in DIP, Air Conditioning Service in DIP, Air Con Maintenance & AC Installation in DIP");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-dip/").replace(/\/?$/, '/');
 
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
     subtitle = "Testimonial"
     title = "What our clients say About Us"
     reviewsbg = "img/testimonialbg.jpg"

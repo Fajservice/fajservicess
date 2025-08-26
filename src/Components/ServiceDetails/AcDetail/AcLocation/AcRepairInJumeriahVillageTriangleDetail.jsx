@@ -31,7 +31,7 @@ const AcRepairInJumeriahVillageTriangleDetail = ({ subtitle, title, reviewsbg, t
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Repair  in Jumeirah Village Triangle, Air Conditioning Service in Jumeirah Village Triangle, Air Con Maintenance & AC Installation in Jumeirah Village Triangle");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jumeirah-village-triangle/");
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

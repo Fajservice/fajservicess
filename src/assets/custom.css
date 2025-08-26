@@ -778,7 +778,9 @@ p a {
   .cs_fs_50 {
     font-size: 25px;
   }
-
+  .cs_nav .cs_nav_list li a svg{
+    display: none;
+  }
   .cs_service_details h2,
   cs_fs_30,
   h3,
