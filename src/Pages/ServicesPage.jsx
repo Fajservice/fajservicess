@@ -8,7 +8,7 @@ const ServicesPage = ({titleSeo, description, Author, Keyword, URL }) => {
     const metatitle = String(titleSeo || "FAJ appliances Repair In Dubai");
     const metadescription = String(description || "FAJ, established in 2010, offers expert appliances repair in Dubai. Skilled technicians ensure quality service for all major brands and types.");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "FAJ");
     const metaURL = String(URL || "https://www.fajservices.ae/services/").replace(/\/?$/, '/');
     return (

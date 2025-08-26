@@ -30,7 +30,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Appliances Repair Dubai, Appliance Service Dubai, Appliance Repair Near Me, Home Appliances Repair Dubai, Washing Machine Repair Dubai, Refrigerator Repair Dubai, Dishwasher Repair Dubai, Oven Repair Dubai, Dryer Repair Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-repair-service/").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
 
 
 

@@ -27,7 +27,7 @@ const RefrigerationAMCServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Refrigeration Annual Maintenance Contract Service");
   const metaURL = String(URL || "https://www.fajservices.ae/commercial-refrigeration-maintenance-contact-services/").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/techfridge.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/techfridge.avif");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

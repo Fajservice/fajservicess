@@ -23,7 +23,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial COffee Machine repair, 3 Group Coffee Machine Repair");
   const metaURL = String(URL || "https://www.fajservices.ae/coffee-machine-repairs/").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Coffee-machine-servicing-title-image.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/Coffee-machine-servicing-title-image.avif");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

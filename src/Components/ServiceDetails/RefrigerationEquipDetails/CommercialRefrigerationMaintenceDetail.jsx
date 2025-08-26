@@ -23,7 +23,7 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial Refrigeration service, walk in cooler repair, chiller repair, cold room repair, commercial refrigeration maintenance");
   const metaURL = String(URL || "https://www.fajservices.ae/commercial-refrigeration-maintenance/").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/commercial-ref%20-mc.jpg");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/commercial-ref%20-mc.jpg");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

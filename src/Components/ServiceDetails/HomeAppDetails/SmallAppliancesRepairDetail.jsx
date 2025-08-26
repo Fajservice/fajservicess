@@ -29,7 +29,7 @@ const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "mixer repair, steam iron repair, toaster repair, microwave oven repair, air fryer repair, water dispenser repair, small home appliances service, household appliance repair near me");
   const metaURL = String(URL || "https://www.fajservices.ae/small-home-appliances-service-center-in-dubai/").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/small-mixer-service.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/small-mixer-service.avif");
 
 
   subtitle = "Testimonial"

@@ -6,7 +6,7 @@ const Orphan = ({titleSeo, description, Author, Keyword, URL }) => {
     const metatitle = String(titleSeo || "Trusted Home & Commercial Appliance Repair in Dubai");
     const metadescription = String(description || "FAJ, founded in 2010, provides expert home & commercial appliances repair in Dubai. Skilled technicians service all major brands with reliable results.");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "FAJ");
     const metaURL = String(URL || "https://www.fajservices.ae/orphan/").replace(/\/?$/, '/');
 

@@ -24,7 +24,7 @@ const ApplianceServiceInDubaiStudioCityDetail = ({ subtitle, title, reviewsbg, t
     const metatitle = String(titleSeo || "Appliances Services in Dubai Studio City - Fridge Repair");
     const metadescription = String(description || "FAJ offers best appliance service in Dubai Studio City. Get washing machine repair near me. Call 043300002 for dishwasher, oven and fridge fix.");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in dubai, Fridge Repair in Dubai, Dishwasher Repair in Dubai, Oven Repair in Dubai, Appliance Service in Dubai Studio City");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-studio-city/").replace(/\/?$/, '/');
 

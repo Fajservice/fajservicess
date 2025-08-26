@@ -28,7 +28,7 @@ const AcRepairInRitzDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Services at The Ritz-Carlton DIFC, Dubai. AC Repair in The Ritz-Carlton DIFC, Air Con Maintenance & Installation in The Ritz-Carlton DIFC");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-the-ritz-carlton-difc/").replace(/\/?$/, '/');
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

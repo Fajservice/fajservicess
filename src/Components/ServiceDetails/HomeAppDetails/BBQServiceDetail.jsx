@@ -29,7 +29,7 @@ const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "BBQ Repair, BBQ Grill Cleaning Service, Barbeque Repair Dubai, Weber Repair, Electric BBQ Grill Repair Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Barbeque-Repair.jpg");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/Barbeque-Repair.jpg");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

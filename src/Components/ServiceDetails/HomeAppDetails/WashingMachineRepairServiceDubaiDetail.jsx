@@ -30,7 +30,7 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, ti
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Washing Machine Repair, Washing Machine Maintenance, Washing Machine Service");
   const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-service-dubai/").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/washing-machine-repair.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/washing-machine-repair.avif");
 
 
   subtitle = "Testimonial"

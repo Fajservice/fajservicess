@@ -28,7 +28,7 @@ const DaikoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Daikool AC Repair in Dubai, Daikool Air Conditioner Maintenance, Daikool AC Service, Daikool AC Fix, Daikool Air Condition Repair, Daikool Air Condition Maintenance, Daikool Air Condition Service");
   const metaURL = String(URL || "https://www.fajservices.ae/daikool-ac-repair-in-dubai-daikool-ac-maintenance-in-dubai-daikool-ac-fix-in-dubai-daikool-ac-service-in-dubai-daikool-air-condition-repair-in-dubai-daikool-air-condition-maintenance-in-dubai-daikool/").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"

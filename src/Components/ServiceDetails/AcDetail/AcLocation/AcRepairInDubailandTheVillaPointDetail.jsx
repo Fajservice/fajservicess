@@ -31,7 +31,7 @@ const AcRepairInDubailandTheVillaPointDetail = ({ subtitle, title, reviewsbg, ti
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "ac services in dubailand the villa point, ac repair dubai, ac maintenance dubai, ac service dubai, ac cleaning service dubai, ac installation dubai, ac technician dubai, air conditioning service dubai, air conditioning repair dubai, air conditioning maintenance dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-dubailand-the-villa-point/").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

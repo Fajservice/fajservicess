@@ -30,7 +30,7 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Sanyo Ac Repair in Dubai, Sanyo Air Conditioner Service, Sanyo AC Maintenance, Sanyo AC Fix, Sanyo AC Service, Sanyo Air Condition Repair, Sanyo Air Condition Maintenance, Sanyo Air Condition");
   const metaURL = String(URL || "https://www.fajservices.ae/sanyo-ac-repair-in-dubai-sanyo-ac-maintenance-in-dubai-sanyo-ac-fix-in-dubai-sanyo-ac-service-in-dubai-sanyo-air-condition-repair-in-dubai-sanyo-air-condition-maintenance-in-dubai-sanyo-air-condition/").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
 
   subtitle = "Testimonial"
   title = "What our clients say <br> About Us"

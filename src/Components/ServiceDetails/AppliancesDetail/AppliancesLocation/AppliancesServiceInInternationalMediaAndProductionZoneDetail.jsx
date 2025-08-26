@@ -25,7 +25,7 @@ const AppliancesServiceInInternationalMediaAndProductionZoneDetail = ({ subtitle
   const metatitle = String(titleSeo || "Appliances Services in International Media And Production");
   const metadescription = String(description || "FAJ offers appliance service in International Media And Production. Call 043300002 for refrigerator repair near me in Dubai. Get fix washing machine, oven");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "washing machine repair in International Media and Production Zone, refrigerator repair in International Media and Production Zone, appliance service in International Media and Production Zone, appliance repair in International Media and Production Zone, appliance maintenance in International Media and Production Zone, appliance installation in International Media and Production Zone, appliance AMC in International Media and Production Zone");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-international-media-and-production-zone/").replace(/\/?$/, '/');
 

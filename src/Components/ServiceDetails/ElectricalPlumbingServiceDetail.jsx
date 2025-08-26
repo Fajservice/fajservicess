@@ -21,7 +21,7 @@ import Testimonial1 from "../Testimonial/Testimonial1";
 const ElectricalPlumbingServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
- const metaImage = String(Image || "https://www.fajservices.ae/dist/img/banners/electrical-service.jpg");
+ const metaImage = String(Image || "https://www.fajservices.ae/img/banners/electrical-service.jpg");
   
   const metatitle = String(titleSeo || "Electrical Plumbung Services in dubai");
   const metadescription = String(description || "Get fast electrical plumbing service in Dubai. We have expert electricians, plumbers near me. Electrical services in office, villa, and apartment. 043300002");

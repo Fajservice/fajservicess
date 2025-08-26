@@ -32,7 +32,7 @@ const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, de
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Dishwasher Repair Service, Dishwasher Repair Dubai, Dishwasher Service Dubai, Dishwasher Fix Dubai, Dishwasher Maintenance Dubai, Dishwasher Machine Repair Dubai, Dishwasher Machine Service Dubai, Dishwasher Machine Fix Dubai, Dishwasher Machine Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/dishwasher-repair-service/").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/dishwasher-repair.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/dishwasher-repair.avif");
 
 
   subtitle = "Testimonial"

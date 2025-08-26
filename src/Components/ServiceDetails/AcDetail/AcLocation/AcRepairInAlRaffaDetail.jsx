@@ -27,7 +27,7 @@ const AcRepairInAlRaffaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
  const metaAuthor = String(Author || "Faj Technical Services");
  const metaKeyword = String(Keyword || "AC Service in Al Raffa, AC Repair in Al Raffa, AC Maintenance in Al Raffa, Air Conditioning Service in Al Raffa, Air Conditioner Repair in Al Raffa, Air Conditioner Maintenance in Al Raffa");
  const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-raffa/").replace(/\/?$/, '/');
- const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
+ const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
 
  subtitle = "Testimonial"
  title = "What our clients say About Us"

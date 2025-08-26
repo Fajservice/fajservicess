@@ -26,7 +26,7 @@ const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Gree AC Repair, Gree AC Service, Gree Air Conditioner Maintenance, Gree AC Repair Dubai, Gree AC Service Dubai, Gree Air Conditioner Repair Dubai, Gree AC Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/gree-ac-repair-in-dubai/").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
 
 
   subtitle = "Testimonial"

@@ -24,7 +24,7 @@ const AppliancesServiceInLimestoneHouseDifcDetail = ({ subtitle, title, reviewsb
   const metatitle = String(titleSeo || "Appliances Services in The Limestone House DIFC Near Me");
   const metadescription = String(description || "Get appliances services in the Limestone house DIFC. Looking for refrigerator, fridge, washing machine repair and oven fix near me than call at 043300002");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Washing Machine in limestone house DIFC, Refrigerator in limestone house DIFC, Dishwasher in limestone house DIFC, Oven in limestone house DIFC, Appliances service in limestone house DIFC, Appliances repair in limestone house DIFC, Appliances maintenance in limestone house DIFC, Appliances installation in limestone house DIFC");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-the-limestone-house-difc/").replace(/\/?$/, '/');
 

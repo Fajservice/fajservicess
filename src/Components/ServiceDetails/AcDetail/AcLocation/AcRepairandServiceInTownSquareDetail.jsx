@@ -26,7 +26,7 @@ const AcRepairandServiceInTownSquareDetail = ({ subtitle, title, reviewsbg, titl
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Repair in Town Square, AC Service in Town Square, AC Maintenance in Town Square");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-repair-and-ac-service-in-town-square/").replace(/\/?$/, '/');
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

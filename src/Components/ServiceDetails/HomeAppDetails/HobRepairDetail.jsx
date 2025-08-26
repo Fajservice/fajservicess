@@ -29,7 +29,7 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Electric Hob Repair, Gas Hob Repair, Gas Hob Service");
   const metaURL = String(URL || "https://www.fajservices.ae/hob-repair-service/").replace(/\/?$/, '/');
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Hob-Repair-Service-in-Dubai-UAE.avif");
+const metaImage = String(Image || "https://www.fajservices.ae/img/Hob-Repair-Service-in-Dubai-UAE.avif");
 
 
 

@@ -23,7 +23,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "خدمة التكييف، صيانة التكييف، خدمة تكييف الهواء، إصلاح التكييف، صيانة التكييف في دبي، فني تكييف، تنظيف التكييف، شركة تكييف في دبي، أفضل خدمة تكييف، أسعار صيانة التكييف");
   const metaURL = String(URL || "https://www.fajservices.ae/تصليح-مكيفات-الهواء-خدمة-وصيانة-دبي/").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

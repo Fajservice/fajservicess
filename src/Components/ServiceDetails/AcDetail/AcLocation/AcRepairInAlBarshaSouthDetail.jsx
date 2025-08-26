@@ -25,7 +25,7 @@ const AcRepairInAlBarshaSouthDetail = ({ subtitle, title, reviewsbg, titleSeo, d
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "AC Repair  in Al Barsha South, Air Conditioning Service in Al Barsha South, Air Con Maintenance & AC Installation in Al Barsha South");
   const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-barsha-south").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"

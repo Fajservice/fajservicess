@@ -22,7 +22,7 @@ const Choose1 = ({img1,content,btnName,btnUrl,img2,img3}) => {
               </div>
             </div>
             <div className="col-xl-4 wow fadeInDown">
-              <p className="cs_feature_text cs_mb_30">{content}</p>
+              <p className="cs_feature_text cs_mb_30 mt-0">{content}</p>
               {data.map((item, i) => (
               <div key={i} className="cs_iconbox cs_style_2 cs_mb_12">
                 <div className="cs_iconbox_icon cs_gray_bg cs_center cs_radius_50">

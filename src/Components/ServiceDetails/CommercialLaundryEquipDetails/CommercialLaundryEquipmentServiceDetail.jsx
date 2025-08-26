@@ -28,7 +28,7 @@ const WalkInRefrigerationServicesDetail = ({ subtitle, title, reviewsbg, titleSe
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial Laundry Equipment Service, Commercial Laundry Equipment Repair, Commercial Laundry Equipment Maintenance, Dryer Repair Dubai, Washer Repair Dubai, Ironing Machine Repair Dubai, Commercial Laundry AMC Services");
   const metaURL = String(URL || "https://www.fajservices.ae/commercial-laundry-equipment-service/").replace(/\/?$/, '/');
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/banners/Commercial-Laundry-Equipment-Services/Laundry-Equipment-Service.avif");
+const metaImage = String(Image || "https://www.fajservices.ae/img/banners/Commercial-Laundry-Equipment-Services/Laundry-Equipment-Service.avif");
 
 
   subtitle = "Testimonial"

@@ -54,7 +54,7 @@ const HeroBanner1 = () => {
             width: "100%",
             height: "100%",
             objectFit: "cover",
-            objectPosition: "center",
+            objectPosition: window.innerWidth <= 768 ? "left center" : "center center",
           }}
           onLoad={index === 0 ? () => performance.mark?.("hero-image-loaded") : undefined}
         />

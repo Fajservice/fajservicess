@@ -24,7 +24,7 @@ const ApplianceServiceInJumeriahHeightsDetail = ({ subtitle, title, reviewsbg, t
     const metatitle = String(titleSeo || "Appliances Services in Jumeirah Heights - Fridge Repair");
     const metadescription = String(description || "Get appliance services in Jumeirah Heights. FAJ offers fridge repair near me in Dubai. Call 043300002 for dishwasher, oven, washing machine.");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in Jumeirah Heights, Fridge Repair in Jumeirah Heights, Dishwasher Repair in Jumeirah Heights, Oven Repair in Jumeirah Heights, Appliance Service in Jumeirah Heights, Appliance Repair in Jumeirah Heights");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah-heights/").replace(/\/?$/, '/');
 

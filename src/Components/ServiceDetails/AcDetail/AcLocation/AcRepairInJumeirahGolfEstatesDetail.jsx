@@ -30,7 +30,7 @@ const AcRepairInJumeirahGolfEstatesDetail = ({ subtitle, title, reviewsbg, title
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || " ac services in jumeirah golf estates, ac repair in jumeirah golf estates, ac maintenance in jumeirah golf estates, ac installation in jumeirah golf estates, ac cleaning in jumeirah golf estates, ac service in jumeirah golf estates, ac technician in jumeirah golf estates, ac company in jumeirah golf estates");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jumeirah-golf-estates/").replace(/\/?$/, '/');
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

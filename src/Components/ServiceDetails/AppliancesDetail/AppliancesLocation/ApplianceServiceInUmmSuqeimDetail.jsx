@@ -25,7 +25,7 @@ const ApplianceServiceInUmmSuqeimDetail = ({ subtitle, title, reviewsbg, titleSe
     const metatitle = String(titleSeo || "Appliances Services In Umm Suqeim - Refrigerator Repair");
     const metadescription = String(description || "Best appliance services in Umm Suqeim. FAJ specializes in fridge repair near me in Dubai. Call 043300002 for reliable washing machine & oven fix.");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in umm suqeim, Refrigerator in umm suqeim, Oven in umm suqeim, Dishwasher in umm suqeim, Appliances repair in umm suqeim, Appliances service in umm suqeim, Appliances maintenance in umm suqeim, Appliances installation in umm suqeim");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-umm-suqeim/").replace(/\/?$/, '/');
 

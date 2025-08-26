@@ -22,7 +22,7 @@ const ToshibaHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo,
   const metatitle = String(titleSeo || "Toshiba Home Appliance Service - Refrigerator Repair Dubai");
   const metadescription = String(description || "Are you finding Toshiba home appliance service so now dial 043300002 for Toshiba fridge, washing machine, dryer and oven repair service near you Dubai");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Toshiba home appliance service, Toshiba fridge repair Dubai, Toshiba washing machine repair Dubai, Toshiba dryer repair Dubai, Toshiba oven repair Dubai, Toshiba appliance maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/toshiba-home-appliance-installation-maintenance-repair-fix-service-in-dubai-2/").replace(/\/?$/, '/');
 

@@ -23,7 +23,7 @@ const PanasonicFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
     const metatitle = String(titleSeo || "Panasonic Fridge Repair Dubai - Washing Machine Service");
     const metadescription = String(description || "If you&apos;re searching for a reliable Panasonic fridge Repair in Dubai. Call-FAJ 043300002 for Panasonic washing machine, dishwasher, refrigerator service ");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Panasonic Fridge Repair Dubai, Panasonic Washing Machine Repair Dubai, Panasonic Cooker Repair Dubai, Panasonic Oven Repair Dubai, Panasonic Appliances Maintenance Dubai, Panasonic Refrigerator Service Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/panasonic-fridge-repair-in-dubai-panasonic-washing-machine-repair-in-dubai-panasonic-cooker-repair-in-dubai-panasonic-oven-repair-in-dubai-panasonic-appliances-maintenance-in-dubai-panasonic-refrigera/").replace(/\/?$/, '/');
 

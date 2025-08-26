@@ -22,7 +22,7 @@ const ThemadorAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo,
   const metatitle = String(titleSeo || "Thermador Appliances Service Dubai #1 Thermador Oven Repair");
   const metadescription = String(description || "Call our trained team by dialling 043300002 for Thermador Appliances Service Dubai and cooking range, oven, fridge repair & maintenance near me");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Thermador Appliances Service, Thermador Oven Repair, Thermador Fridge Repair, Thermador Washing Machine Repair, Thermador Dishwasher Repair, Thermador Cooker Repair, Thermador Appliance Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/thermador-appliances-service/").replace(/\/?$/, '/');
 

@@ -33,7 +33,7 @@ const AcRepairInAcademyCityDetail = ({ subtitle, title, reviewsbg, titleSeo, des
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Repair in Academy City, Air Conditioning Service in Academy City, Air Con Maintenance & Air Con Installation in Academy City");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-academy-city/").replace(/\/?$/, '/');
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

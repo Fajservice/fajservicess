@@ -25,7 +25,7 @@ const CommercialWashingMachineRepairDetail = ({ subtitle, title, reviewsbg, titl
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial Washing Machine repair, Commercial Washing Machine service, Commercial Washing Machine maintenance, Commercial Washing Machine AMC, Commercial Washing Machine Dubai, Commercial Washing Machine Sharjah, Commercial Washing Machine repair Dubai, Commercial Washing Machine repair Sharjah, Commercial Laundry Equipment Service, Commercial Laundry Equipment Repair");
   const metaURL = String(URL || "https://www.fajservices.ae/commercial-washing-machine-repair/").replace(/\/?$/, '/');
-const metaImage = String(Image || "https://www.fajservices.ae/dist/img/banners/Commercial-Laundry-Equipment-Services/Laundry-Equipment-Service.avif");
+const metaImage = String(Image || "https://www.fajservices.ae/img/banners/Commercial-Laundry-Equipment-Services/Laundry-Equipment-Service.avif");
 
 
   subtitle = "Testimonial"

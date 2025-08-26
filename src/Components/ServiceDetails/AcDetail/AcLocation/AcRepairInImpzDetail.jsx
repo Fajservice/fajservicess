@@ -27,7 +27,7 @@ const AcRepairInImpzDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "ac service in impz, ac repair in impz, ac maintenance in impz, ac servicing in impz, ac cleaning in impz, ac technician in impz, ac installation in impz, ac service near me, ac repair near me, ac maintenance near me, ac servicing near me, ac cleaning near me, ac technician near me");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-impz/").replace(/\/?$/, '/');
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

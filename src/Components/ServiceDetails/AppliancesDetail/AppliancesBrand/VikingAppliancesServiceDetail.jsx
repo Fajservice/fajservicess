@@ -25,7 +25,7 @@ const VikingAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
   const metatitle = String(titleSeo || "Viking Appliances Service - Refrigerator Repair - Oven Fix");
   const metadescription = String(description || "Get expert Viking appliance service in Dubai. Fast & reliable Viking refrigerator, freezer, diswasher, stove, oven maintenance service. Dail 043300002");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Viking Appliances Service, Viking Refrigerator Repair, Viking Oven Fix, Viking Dishwasher Service, Viking Stove Repair, Viking Appliance Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/viking-appliances-service/").replace(/\/?$/, '/');
 

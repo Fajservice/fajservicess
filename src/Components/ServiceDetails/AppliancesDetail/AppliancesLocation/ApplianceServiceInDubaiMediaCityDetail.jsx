@@ -25,7 +25,7 @@ const ApplianceServiceInDubaiMediaCityDetail = ({ subtitle, title, reviewsbg, ti
     const metatitle = String(titleSeo || "Appliances Services In Dubai Media City - Fridge Repair");
     const metadescription = String(description || "Best Appliances Services in Dubai Media City. Get Washing Machine Repair Near me. Call now at 043300002. Fridge , refrigerator, oven Fix. ");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing machine repair in Dubai Media City, Fridge repair in Dubai Media City, Appliance repair in Dubai Media City, Home appliance service in Dubai Media City, Appliance maintenance in Dubai Media City, Same day appliance repair in Dubai Media City, Affordable appliance service in Dubai Media City, Reliable appliance repair in Dubai Media City");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-media-city/").replace(/\/?$/, '/');
 

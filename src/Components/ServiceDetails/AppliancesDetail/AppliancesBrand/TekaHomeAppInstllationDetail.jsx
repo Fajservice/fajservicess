@@ -25,7 +25,7 @@ const TekaHomeAppInstllationDetail = ({ subtitle, title, reviewsbg, titleSeo, de
   const metatitle = String(titleSeo || "Best Teka Home Appliance Service - Teka Refrigerator Repair");
   const metadescription = String(description || "FAJ offers same day Teka home appliance service. Dail 043300002 for Teka washing machine, fridge, dryer, oven, cooker, stove dishwasher repair near me");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Teka home appliance service, Teka washing machine repair, Teka fridge repair, Teka dryer repair, Teka oven repair, Teka cooker repair, Teka stove repair, Teka dishwasher repair");
   const metaURL = String(URL || "https://www.fajservices.ae/teka-home-appliance-installation-maintenance-repair-fix-service-in-dubai/").replace(/\/?$/, '/');
 

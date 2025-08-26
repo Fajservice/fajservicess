@@ -32,7 +32,7 @@ const AcRepairInJebelAliIndustrialAreaDetail = ({ subtitle, title, reviewsbg, ti
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "ac services in deira, ac repair in deira, ac maintenance in deira, air conditioning services in deira, air conditioning repair in deira, air conditioning maintenance in deira, ac service near me, ac repair near me, ac maintenance near me, air conditioning service near me, air conditioning repair near me, air conditioning maintenance near me");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jebel-ali-industrial-area/").replace(/\/?$/, '/');
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

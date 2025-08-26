@@ -34,7 +34,7 @@ const AcRepairInJumeirahIslandsDetail = ({ subtitle, title, reviewsbg, titleSeo,
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Repair in Jumeirah Islands, Air Conditioning Service in Jumeirah Islands, Air Con Maintenance & AC Installation in Jumeirah Islands");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-jumeirah-islands/").replace(/\/?$/, '/');
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"

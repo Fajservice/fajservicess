@@ -31,7 +31,7 @@ const AcRepairInAlFurjanDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaKeyword = String(Keyword || "AC Services In Al Furjan, Air Conditioner Repairing In Al Furjan, AC Repair In Al Furjan, AC Maintenance In Al Furjan, AC Installation In Al Furjan, AC Cleaning In Al Furjan, Air Conditioning Services In Al Furjan, Air Conditioner Service In Al Furjan, Air Conditioner Repair In Al Furjan");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-furjan/").replace(/\/?$/, '/');
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/ac%20filter.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");
 
 
     subtitle = "Testimonial"

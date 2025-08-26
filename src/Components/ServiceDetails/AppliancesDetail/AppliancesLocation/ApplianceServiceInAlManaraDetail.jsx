@@ -24,7 +24,7 @@ const ApplianceServiceInAlManaraDetail = ({ subtitle, title, reviewsbg, titleSeo
     const metatitle = String(titleSeo || "Appliance Services in Al Manara - Washing Machine​ Repair Dubai");
     const metadescription = String(description || " Best Appliance Services in Manara. Get refrigerator repair near me in Dubai. Call 043300002 to fix your washing machine, dishwasher and stove");
     const metaAuthor = String(Author || "Faj Technical Services");
-    const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Appliance Services In Manara, Washing Machine Repair in al Manara, Refrigerator Repair in al Manara, Dishwasher Repair in al Manara, Stove Repair in al Manara, Oven Repair in al Manara, Freezer Repair in al Manara, Coffee Machine Repair in al Manara");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-manara/").replace(/\/?$/, '/');
 

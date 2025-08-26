@@ -21,7 +21,7 @@ const IndesitWashingMachineDetail = ({ subtitle, title, reviewsbg, titleSeo, des
   const metatitle = String(titleSeo || "Indesit Fridge Repair - Indesit Washing Machine Service");
   const metadescription = String(description || "Indesit Fridge Repair Dubai - Get expert Indesit washing machine repair, refrigerator, cooker, oven dryer repair service near me. Dail 043300002");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Indesit Fridge Repair, Indesit Washing Machine Repair, Indesit Cooker Repair, Indesit Oven Repair, Indesit Appliances Maintenance, Indesit Refrigerator Fix");
   const metaURL = String(URL || "https://www.fajservices.ae/indesit-fridge-repair-in-dubai-indesit-washing-machine-repair-in-dubai-indesit-cooker-repair-in-dubai-indesit-oven-repair-in-dubai-indesit-appliances-maintenance-in-dubai-indesit-refrigerator-fix-repa/").replace(/\/?$/, '/');
 

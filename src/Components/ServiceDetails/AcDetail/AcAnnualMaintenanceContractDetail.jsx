@@ -35,7 +35,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "AC Annual Maintenance Contract Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/ac-annual-maintenance-contract/").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/dist/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
+  const metaImage = String(Image || "https://www.fajservices.ae/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
 
 
 
