@@ -18,10 +18,9 @@ import { RxArrowTopRight } from 'react-icons/rx';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
-import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
-import BrandsSliderSection from "../../../BrandsSliderSection";
-import Testimonial1 from "../../../Testimonial/Testimonial1";
-import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
+import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
+import BrandsSliderSection from "../../BrandsSliderSection";
+import Testimonial1 from "../../Testimonial/Testimonial1";
 
 const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
