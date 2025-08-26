@@ -1,4 +1,4 @@
-import React from 'react'
+
 import BreadCumb from "../../../Components/Common/BreadCumb";
 import BoschHomeApplianceDetail from '../../../Components/ServiceDetails/AppliancesDetail/AppliancesBrand/BoschHomeApplianceDetail';
 const BoschHomeAppliance = () => {

@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import data from '../../../../Data/AcData/AcFaqs/AcBrand/ToshibaAcRepairfaq.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { FaEye, FaEyeSlash } from "react-icons/fa";
-
+import { FaEye} from "react-icons/fa";
+import { FaEyeSlash } from "react-icons/fa";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
@@ -11,8 +11,6 @@ import testimonial_data from '../../../../Data/AcData/AcTestimonial/ToshibaAcSer
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import Practicaltip from "../../../Common/Practicaltip";
 import AcProperties from "../../../Common/AcProperties";
-
-import parse from 'html-react-parser';
 import 'swiper/swiper-bundle.css';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import AcAppointmentCol from "../../../Common/AcAppointmentCol";

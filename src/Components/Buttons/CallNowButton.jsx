@@ -1,6 +1,3 @@
-// src/components/Button/CallNowButton.jsx
-// import React from 'react';
-// import './CallNowButton.css'; // Import the CSS file
 import React, { useState } from 'react';
 
 const CallNowButton = ({ phone = 'tel:+97143300002' }) => {

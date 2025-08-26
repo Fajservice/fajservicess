@@ -1,4 +1,4 @@
-import React from 'react'
+
 import BreadCumb from "../../../Components/Common/BreadCumb";
 import ElectroluxHomeApplianceDetail from '../../../Components/ServiceDetails/AppliancesDetail/AppliancesBrand/ElectroluxHomeApplianceDetail';
 const ElectroluxHomeAppliance = () => {

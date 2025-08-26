@@ -1,26 +1,12 @@
 import { startTransition, useEffect, useRef, useCallback, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { 
-  IoChevronDown, 
-  IoChevronForward,
-  IoChevronUp,
-  // Alternative icons - uncomment to use different styles
-  // MdKeyboardArrowDown,
-  // MdKeyboardArrowRight,
-  // MdKeyboardArrowUp,
-  // FaAngleDown,
-  // FaAngleRight,
-  // FaAngleUp,
-  // HiChevronDown,
-  // HiChevronRight,
-  // HiChevronUp,
-} from 'react-icons/io5';
-// import { MdKeyboardArrowDown, MdKeyboardArrowRight, MdKeyboardArrowUp } from 'react-icons/md';
-// import { FaAngleDown, FaAngleRight, FaAngleUp } from 'react-icons/fa';
-// import { HiChevronDown, HiChevronRight, HiChevronUp } from 'react-icons/hi2';
+import {  IoChevronDown } from 'react-icons/io5';
+import {  IoChevronForward } from 'react-icons/io5';
+import {  IoChevronUp } from 'react-icons/io5';
+
 import DropDown from './DropDown';
 
-// Navigation data structure for better maintainability
+
 const navItems = [
   { path: '/', label: 'Home' },
   {

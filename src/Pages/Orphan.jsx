@@ -1,5 +1,4 @@
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { FaEye, FaEyeSlash } from "react-icons/fa";
 
 const Orphan = ({titleSeo, description, Author, Keyword, URL }) => {
     // For SEO

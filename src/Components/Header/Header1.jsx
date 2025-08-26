@@ -3,8 +3,13 @@ import { Link } from 'react-router-dom';
 import Nav from './Nav';
 import BookingFormModal from '../BookingFormModal';
 import img from '/img/fajlogo.png';
-import { IoCallOutline, IoLocationOutline } from 'react-icons/io5';
-import { FaFacebook, FaInstagram, FaTwitter, FaWhatsapp, FaYoutube } from 'react-icons/fa';
+import { IoCallOutline } from 'react-icons/io5';
+import { IoLocationOutline } from 'react-icons/io5';
+import { FaFacebook} from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
+import { FaTwitter } from 'react-icons/fa';
+import { FaWhatsapp } from 'react-icons/fa';
+import { FaYoutube } from 'react-icons/fa';
 import { RxArrowTopRight } from 'react-icons/rx';
 
 const contactItems = [

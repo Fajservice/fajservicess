@@ -1,10 +1,14 @@
 import { Link } from "react-router-dom";
-import { FaEnvelope, FaFacebook, FaInstagram, FaTwitter, FaWhatsapp, FaYoutube } from 'react-icons/fa';
+import { FaFacebook } from 'react-icons/fa';
+import { FaEnvelope } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
+import { FaTwitter} from 'react-icons/fa';
+import { FaWhatsapp } from 'react-icons/fa';
+import { FaYoutube } from 'react-icons/fa';
 import { TiLocation } from "react-icons/ti";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { IoCallOutline } from "react-icons/io5";
 import { GoArrowRight } from "react-icons/go";
-// import AIHandsetWidget from "../AIHandsetWidget.jsx/AIHandsetWidget";
 
 const socialLinks = [
   { icon: <FaInstagram />, href: 'https://www.instagram.com/fajtechnicalservicesllc/' },

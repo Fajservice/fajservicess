@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { FaEye, FaEyeSlash } from "react-icons/fa";
 
 const ACTonnageCalculator = ({titleSeo, description, Author, Keyword, URL }) => {
     // For SEO

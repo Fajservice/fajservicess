@@ -1,4 +1,4 @@
-import React from 'react'
+
 import WhatsappIconButton from '../Buttons/WhatsappIconButton';
 import CallNowButton from '../Buttons/CallNowButton';
 

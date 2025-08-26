@@ -2,7 +2,8 @@
 import { Link } from "react-router-dom";
 import usePreloadImage from "../usePreloadImage";
 import { MdAddIcCall } from "react-icons/md";
-import { IoIosArrowRoundForward, IoIosCheckmark } from "react-icons/io";
+import { IoIosArrowRoundForward } from "react-icons/io";
+import { IoIosCheckmark } from "react-icons/io";
 
 const About1 = ({ img1, img2, img3, expNumber, expYers, expTitle, expTitleYear, telLink, expDescrip, number, subTitle, Title, Content, feature1, feature2, listItem }) => {
   usePreloadImage(img1);

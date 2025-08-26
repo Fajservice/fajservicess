@@ -1,4 +1,4 @@
-import React from 'react'
+
 import BreadCumb from "../../../Components/Common/BreadCumb";
 import SiemensHomeApplianceDetail from '../../../Components/ServiceDetails/AppliancesDetail/AppliancesBrand/SiemensHomeApplianceDetail';
 const SiemensHomeAppliance = () => {

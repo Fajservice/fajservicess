@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { FaEye, FaEyeSlash } from "react-icons/fa";
 
 
 const ServiceCard = ({ title, subtitle, price, color, details, whatsappLink, titleSeo, description, Author, Keyword, URL }) => {

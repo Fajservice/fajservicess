@@ -21,7 +21,8 @@ import AcProperties from "../../../Common/AcProperties";
 import Practicaltip from "../../../Common/Practicaltip";
 import LocationKeyword from "./LocationKeyword";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
-import { FaEye, FaEyeSlash } from "react-icons/fa";
+import { FaEye} from "react-icons/fa";
+import { FaEyeSlash } from "react-icons/fa";
 
 const AcRepairInAlBarshaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 

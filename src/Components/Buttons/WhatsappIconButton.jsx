@@ -1,5 +1,4 @@
-// src/components/Button/WhatsappIconButton.jsx
-// import React from 'react';
+
 import React, { useState } from 'react';
 
 const WhatsappIconButton = ({ whatsapp = 'https://api.whatsapp.com/send?phone=+971507464712&text=Hello' }) => {
