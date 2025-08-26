@@ -3,7 +3,8 @@
 import { useEffect, useRef, useState } from "react";
 import data from '../../../Data/AcData/AcFaqs/AcRepairFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { FaEye, FaEyeSlash } from "react-icons/fa";
+import { FaEye } from "react-icons/fa";
+import { FaEyeSlash } from "react-icons/fa";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";

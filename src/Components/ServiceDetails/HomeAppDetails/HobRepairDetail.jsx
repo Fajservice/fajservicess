@@ -19,7 +19,8 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
 import BrandsSliderSection from "../../BrandsSliderSection";
 import Testimonial1 from "../../Testimonial/Testimonial1";
-import { FaEye, FaEyeSlash } from "react-icons/fa";
+import { FaEye } from "react-icons/fa";
+import { FaEyeSlash } from "react-icons/fa";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol.jsx";
 
 const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => { 

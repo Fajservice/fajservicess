@@ -14,7 +14,8 @@ import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
 import Testimonial1 from "../../Testimonial/Testimonial1";
-import { FaEye, FaEyeSlash } from "react-icons/fa";
+import { FaEye } from "react-icons/fa";
+import { FaEyeSlash } from "react-icons/fa";
 
 // import { Link } from "react-router-dom";
 

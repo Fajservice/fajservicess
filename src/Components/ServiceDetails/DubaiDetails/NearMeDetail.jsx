@@ -7,7 +7,8 @@ import data from '../../../Data/DubaiData/FAQs/NearMeFaqs.json';
 import { HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
-import { FaEye, FaEyeSlash } from "react-icons/fa";
+import { FaEye } from "react-icons/fa";
+import { FaEyeSlash } from "react-icons/fa";
 
 import 'swiper/swiper-bundle.css';
 import testimonial_data from '../../../Data/DubaiData/Testmonials/NearMeTestimonial.json';

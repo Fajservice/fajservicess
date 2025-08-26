@@ -18,7 +18,7 @@ const WelcomePopup = () => {
     
     <div className="row align-items-center">
       <div className="col-4 text-center">
-        <img src="/dist/img/popup.png" alt="Technician" className="img-fluid rounded" />
+        <img src="/img/popup.png" alt="Technician" className="img-fluid rounded" />
       </div>
       <div className="col-8">
         <h3 className="text-center text-uppercase border-bottom pb-2 mt-3 mb-4">We Provide</h3>

@@ -4,7 +4,8 @@ import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { FaEye, FaEyeSlash } from "react-icons/fa";
+import { FaEye } from "react-icons/fa";
+import { FaEyeSlash } from "react-icons/fa";
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 
