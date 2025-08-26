@@ -17,7 +17,6 @@ import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppoin
 import BrandsSliderSection from "../../../BrandsSliderSection";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
 import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx";
-import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const AppliancesServicesInTheLakesDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 

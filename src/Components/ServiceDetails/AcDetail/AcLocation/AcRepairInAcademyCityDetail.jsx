@@ -10,7 +10,6 @@ import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContrac
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
-import '../AcDetail/TestimonialSection.css';
 import "swiper/css/pagination";
 import "swiper/swiper-bundle.css";
 import testimonial_data from '../../../../Data/AcData/AcTestimonial/AcServiceTestimonials.json';
