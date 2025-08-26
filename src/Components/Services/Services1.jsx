@@ -12,7 +12,7 @@ import { LuRefrigerator } from "react-icons/lu";
 import { GiWashingMachine } from "react-icons/gi";
 import { MdOutlineCoffeeMaker } from "react-icons/md";
 import { GrHostMaintenance } from "react-icons/gr";
-import { GoArrowRight, GoArrowLeft  } from "react-icons/go";
+import { GoArrowRight, GoArrowLeft, GoArrowUpRight  } from "react-icons/go";
 
 const iconMap = {
     "Air Conditioning Services": TbAirConditioning,
@@ -24,11 +24,18 @@ const iconMap = {
 };
 
 const Services1 = () => {
-    const swiperRef = useRef(null);
 
-    const swiperControls = {
-        next: () => swiperRef.current?.slideNext(),
-        previous: () => swiperRef.current?.slidePrev()
+    const swiperRef = useRef(null);
+    const handleNext = () => {
+        if (swiperRef.current) {
+            swiperRef.current.slideNext();
+        }
+    };
+
+    const handlePrev = () => {
+        if (swiperRef.current) {
+            swiperRef.current.slidePrev();
+        }
     };
 
     return (
@@ -43,26 +50,29 @@ const Services1 = () => {
                         />
                     </div>
                     <div className="cs_section_heading_right mb-0 wow fadeInDown">
-                        We exceed your expectations through trusted service. At FAJ, we specialize in technical services, 
-                        maintenance, repair, and installation for all clients. We take pride in delivering solutions with 
+                        We exceed your expectations through trusted service. At FAJ, we specialize in technical services,
+                        maintenance, repair, and installation for all clients. We take pride in delivering solutions with
                         expertise, teamwork, and a strong focus on customer satisfaction.
                     </div>
                 </div>
             </div>
-            
+
             <div className="cs_slider cs_style_1 cs_slider_gap_30 wow fadeInUp">
                 <div className="container">
                     <div className="cs_slider_container">
                         <div className="cs_slider_wrapper">
                             <Swiper
-                                ref={swiperRef}
+                                onSwiper={(swiper) => {
+                                    swiperRef.current = swiper;
+                                }}
                                 modules={[Navigation, Autoplay]}
                                 spaceBetween={30}
                                 slidesPerView={1}
                                 loop={true}
                                 speed={600}
                                 autoplay={false}
-                                navigation={false} // We'll use custom arrows
+                                navigation={false}
+                                allowTouchMove={true}
                                 breakpoints={{
                                     575: {
                                         slidesPerView: 1,
@@ -79,34 +89,35 @@ const Services1 = () => {
                                 }}
                                 className="services-swiper"
                             >
-                                {data.map((item, index) => (
+                                {data && data.length > 0 && data.map((item, index) => (
                                     <SwiperSlide key={index}>
                                         <ServiceCard item={item} />
                                     </SwiperSlide>
                                 ))}
                             </Swiper>
                         </div>
-                        <SliderArrows onClick={swiperControls} />
+
+                        <SliderArrows onNext={handleNext} onPrev={handlePrev} />
                     </div>
                 </div>
             </div>
+
             <div className="cs_height_80 cs_height_lg_80"></div>
         </section>
     );
 };
 
 const ServiceCard = ({ item }) => {
-    // Get the appropriate icon component based on the service title
     const IconComponent = iconMap[item.title] || PiOvenDuotone;
-    
+
     return (
         <div className="cs_slide">
             <div className="cs_card cs_style_1">
                 <div className="cs_card_thumbnail">
-                    <img 
-                        src={`${import.meta.env.BASE_URL}${item.img}`} 
-                        loading="lazy" 
-                        alt={item.title} 
+                    <img
+                        src={`${import.meta.env.BASE_URL}${item.img}`}
+                        loading="lazy"
+                        alt={item.title}
                     />
                 </div>
                 <div className="cs_card_info cs_white_bg cs_radius_10 text-center">
@@ -129,14 +140,22 @@ const ServiceCard = ({ item }) => {
     );
 };
 
-const SliderArrows = ({ onClick }) => (
+const SliderArrows = ({ onNext, onPrev }) => (
     <div className="cs_slider_arrows cs_style_1">
-        <div className="cs_arrow_wrap cs_arrow_wrap_left cs_center" onClick={onClick.previous}>
+        <div
+            className="cs_arrow_wrap cs_arrow_wrap_left cs_center"
+            onClick={onPrev}
+            style={{ cursor: 'pointer' }}
+        >
             <div className="cs_left_arrow cs_center cs_heading_bg cs_white_color slick-arrow">
                 <i className="bi bi-arrow-left"><GoArrowLeft size={22}  /></i>
             </div>
         </div>
-        <div className="cs_arrow_wrap cs_arrow_wrap_right cs_center" onClick={onClick.next}>
+        <div
+            className="cs_arrow_wrap cs_arrow_wrap_right cs_center"
+            onClick={onNext}
+            style={{ cursor: 'pointer' }}
+        >
             <div className="cs_right_arrow cs_center cs_heading_bg cs_white_color slick-arrow">
                 <i className="bi bi-arrow-right"><GoArrowRight   size={22}  /></i>
             </div>
