@@ -3,6 +3,7 @@ import { FaEnvelope, FaFacebook, FaInstagram, FaTwitter, FaWhatsapp, FaYoutube }
 import { TiLocation } from "react-icons/ti";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { IoCallOutline } from "react-icons/io5";
+import { GoArrowRight } from "react-icons/go";
 // import AIHandsetWidget from "../AIHandsetWidget.jsx/AIHandsetWidget";
 
 const socialLinks = [
@@ -83,8 +84,8 @@ const Footer1 = () => {
                 </div>
                 <ul className="cs_footer_menu">
                   {exploreLinks.map((link, index) => (
-                    <li key={`explore-${index}`}>
-                      <Link to={link.path}>{link.text}</Link>
+                    <li key={`explore-${index}`} style={{ display: 'flex', gap: '10px' }}>
+                      <GoArrowRight style={{ flexShrink: 0, paddingTop: '4px' }} />   <Link to={link.path}>{link.text}</Link>
                     </li>
                   ))}
                 </ul>

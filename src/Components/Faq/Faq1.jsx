@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import data from '../../Data/faq.json';
+import { FaEye, FaEyeSlash } from "react-icons/fa";
 
 
 const Faq1 = () => {
@@ -46,8 +47,8 @@ const Faq1 = () => {
                   <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
                     <span className="cs_fs_16 cs_semibold mb-0">{item.title}</span>
                     <span className="cs_accordian_toggle">
-                    <i className="bi bi-eye"></i>
-                    <i className="bi bi-eye-slash"></i>
+                    <i className="bi bi-eye"><FaEye /></i>
+                    <i className="bi bi-eye-slash"><FaEyeSlash /></i>
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>

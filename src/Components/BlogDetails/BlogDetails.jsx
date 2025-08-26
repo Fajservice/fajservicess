@@ -2,6 +2,7 @@ import { Link, useParams } from "react-router-dom";
 import { useEffect, useState, useMemo } from "react";
 import data from "../../Data/blog.json";
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { FaCalendarAlt, FaFacebook, FaLinkedin, FaRegCommentDots, FaTwitter, FaWhatsapp } from "react-icons/fa";
 import { IoPeopleOutline } from "react-icons/io5";
 import { CiCalendarDate } from "react-icons/ci";

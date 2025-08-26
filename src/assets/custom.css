@@ -826,8 +826,15 @@ p a {
   .whatsapp-now-btn .whatsapp-icon {
     max-width: 138px !important;
   }
-
-
+  .cs_site_branding {
+    margin-top: 0px;
+  }
+  .cs_logo_bg_shape::before{
+    height: 91%;
+  }
+  .cs_logo_wrap {
+    height: 87px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -991,6 +998,9 @@ p a {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .floating-menu .flt-icon-wh {

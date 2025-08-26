@@ -9,7 +9,7 @@ import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
 import BookingFormModal from '../BookingFormModal';
 import { RxArrowTopRight } from 'react-icons/rx';
-
+import { FaEye, FaEyeSlash } from "react-icons/fa";
 import testimonial_data from '../../Data/CommercialDishwasherRepairTestimonial.json';
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
@@ -819,7 +819,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
         <Testimonial1
                 subtitle="What Our Clients Say"
                 title="Customer <span>Reviews</span>"
-                bgImg="img/home-testimonial-bg.jpg"
+                bgImg="img/testimonialbg.jpg"
                 testimonialData={testimonial_data}
                 sectionId="home-testimonials"
               />
@@ -836,8 +836,8 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                   <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
                     <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
                     <span className="cs_accordian_toggle">
-                      <i className="bi bi-eye text-light"></i>
-                      <i className="bi bi-eye-slash text-light"></i>
+                      <i className="bi bi-eye text-light"><FaEye /></i>
+                      <i className="bi bi-eye-slash text-light"><FaEyeSlash /></i>
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>

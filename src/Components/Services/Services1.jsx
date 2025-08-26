@@ -12,7 +12,7 @@ import { LuRefrigerator } from "react-icons/lu";
 import { GiWashingMachine } from "react-icons/gi";
 import { MdOutlineCoffeeMaker } from "react-icons/md";
 import { GrHostMaintenance } from "react-icons/gr";
-import { GoArrowRight, GoArrowLeft, GoArrowUpRight  } from "react-icons/go";
+import { GoArrowRight, GoArrowLeft  } from "react-icons/go";
 
 const iconMap = {
     "Air Conditioning Services": TbAirConditioning,
@@ -86,12 +86,10 @@ const Services1 = () => {
                                 ))}
                             </Swiper>
                         </div>
-                        
                         <SliderArrows onClick={swiperControls} />
                     </div>
                 </div>
             </div>
-            
             <div className="cs_height_80 cs_height_lg_80"></div>
         </section>
     );

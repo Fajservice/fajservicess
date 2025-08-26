@@ -3,6 +3,7 @@ import Process from "../Components/Process/Process";
 import Testimonial1 from "../Components/Testimonial/Testimonial1";
 import { Link } from "react-router-dom";
 import {Helmet, HelmetProvider } from "react-helmet-async";
+import { MdAddIcCall } from "react-icons/md";
 
 
 const OurVisionOurMissionPage = () => {
@@ -105,7 +106,7 @@ const OurVisionOurMissionPage = () => {
                             </div>
                             <a href="tel:+971507464712" className="cs_phone_call cs_heading_color">
                             <div className="cs_phone_icon cs_fs_20 cs_center cs_radius_50">
-                            <i className="bi bi-telephone-x-fill"></i></div>
+                            <i className="bi bi-telephone-x-fill"><MdAddIcCall style={{ fontSize: "24px" }} /></i></div>
                             <div className="cs_phone_number cs_fs_20 cs_semibold">(+971) 507464712</div>
                             </a>
                             <div className="cs_about_shape_1 position-absolute">

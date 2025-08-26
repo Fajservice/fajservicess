@@ -15,7 +15,9 @@
   --heading-font: 'Gunplay-Regular', sans-serif;
   --body-font: "Roboto", sans-serif;
 }
-
+*, :after, :before {
+    box-sizing: border-box;
+}
 /*--------------------------------------------------------------
  2. Typography
 ----------------------------------------------------------------*/
@@ -32,7 +34,8 @@ html {
   max-width: 1600px;
   position: relative;
   align-items: center;
-  left: -4px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 h1,
@@ -3539,7 +3542,10 @@ textarea {
   left: 0;
   top: -2px;
   background-color: rgba(255, 255, 255, 0.15);
-  padding-left: 6px;
+  padding-left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .cs_footer_contact_list li span.footer-icons svg {
@@ -3601,7 +3607,6 @@ textarea {
 }
 
 .cs_footer_menu li {
-  padding-left: 25px;
   position: relative;
 }
 
@@ -3609,14 +3614,14 @@ textarea {
   margin-bottom: 12px;
 }
 
-.cs_footer_menu li::before {
+/* .cs_footer_menu li::before {
   content: "\F138";
   font-weight: 900;
   font-family: bootstrap-icons !important;
   position: absolute;
   left: 0;
   top: 0px;
-}
+} */
 
 .cs_working_hours {
   list-style: none;
@@ -4429,8 +4434,8 @@ textarea {
 }
 
 .cs_iconbox.cs_style_2 .cs_iconbox_icon {
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   -webkit-box-flex: 0;
   -ms-flex: none;
   flex: none;
@@ -4441,8 +4446,8 @@ textarea {
 
 @media (max-width: 575px) {
   .cs_iconbox.cs_style_2 .cs_iconbox_icon {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
   }
 }
 
@@ -6033,7 +6038,6 @@ textarea {
 }
 
 .cs_card.cs_style_3 {
-  height: 100%;
   padding: 20px 16px;
 }
 
@@ -6062,12 +6066,12 @@ textarea {
 }
 
 .cs_card.cs_style_3 .cs_card_content {
-  height: 100%;
-  -webkit-filter: drop-shadow(0px 10px 50px rgba(0, 0, 0, 0.08));
-  filter: drop-shadow(0px 10px 50px rgba(0, 0, 0, 0.08));
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-filter: drop-shadow(0 10px 50px rgba(0, 0, 0, .08));
+  filter: drop-shadow(0 10px 50px rgba(0, 0, 0, .08));
+  padding: 50px 25px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -7076,6 +7080,7 @@ img.border-svg {
 
 .cs_service_details p {
   margin-bottom: 16px;
+  margin-top: 0px;
 }
 
 /*--------------------------------------------------------------
@@ -7327,7 +7332,7 @@ label {
 
 .cs_contact_info {
   width: 100%;
-  max-width: 352px;
+  max-width: 434px;
   padding: 60px 40px;
   border: 1px solid #76DCEB;
   border-radius: 60px 0px 0px 0px;
@@ -7336,7 +7341,9 @@ label {
   position: relative;
   z-index: 1;
 }
-
+.small, small {
+    font-size: .875em;
+}
 @media (max-width: 575px) {
   .cs_contact_info {
     max-width: 100%;
@@ -7655,12 +7662,12 @@ label {
 }
 
 .cs_handle_before_after span {
-  height: 70px;
-  width: 70px;
+  height: 100px;
+  width: 100px;
   border-radius: 50%;
   padding: 20px;
   background-color: var(--accent-color);
-  border: 5px solid var(--white-color);
+  border: 2px solid var(--white-color);
   position: absolute;
   z-index: 2;
   top: 50%;
@@ -8466,7 +8473,6 @@ label {
 .cs_site_header_spacing_130 {
   height: 100px;
 }
-
 .cs_site_header_spacing_140 {
   height: 122px;
 }
@@ -8755,6 +8761,7 @@ label {
   max-width: 1700px;
   margin-left: auto;
   margin-right: auto;
+  box-sizing: border-box;
 }
 
 .cs_header_social_links svg {

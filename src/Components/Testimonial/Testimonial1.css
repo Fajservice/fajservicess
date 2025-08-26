@@ -75,10 +75,10 @@
 .cs_testimonial .card-body::after {
     background-color: var(--accent-color);
     content: "";
-    height: 50%;
+    height: 18px;
     left: 0px;
     position: absolute;
-    top: -93px;
+    top: 0px;
     width: 100%;
 }
 
@@ -129,5 +129,8 @@
   }
   .cs_testimonial .card-body {
     padding: 20px;
+  }
+  .testimonial-swiper-style-1{
+    padding-bottom: 0px;
   }
 }

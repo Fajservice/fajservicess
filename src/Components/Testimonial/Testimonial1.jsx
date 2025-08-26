@@ -65,10 +65,10 @@ const TestimonialSection = ({
       <div className="container">
         {/* Heading */}
         <div className="cs_section_heading text-center mb-5">
-          <h3 className="cs_section_subtitle-ts text-uppercase fw-semibold mb-3">
+          <h3 className="cs_section_subtitle text-uppercase cs_fs_18  mb-3">
             <DecorativeIcon icon={decorativeIcon} size={decorativeIconSize} /> {subtitle} <DecorativeIcon icon={decorativeIcon} size={decorativeIconSize} />
           </h3>
-          <h2 className="cs_section_title-ts fw-bold">
+          <h2 className="cs_section_title">
             {parse(title)}
           </h2>
         </div>
@@ -106,7 +106,7 @@ const TestimonialCard = ({ item, quoteIcon: QuoteIcon = FaQuoteRight }) => (
   <div className="cs_testimonial card shadow-sm border-0 h-100">
     <div className="card-body">
       {/* Header */}
-      <div className="d-flex align-items-center mb-4">
+      <div className="d-flex align-items-center mb-2">
         <div className="cs_testimonial_thumbnail me-3">
           <img
             src={`${import.meta.env.BASE_URL}${item.img1}`}
@@ -118,14 +118,14 @@ const TestimonialCard = ({ item, quoteIcon: QuoteIcon = FaQuoteRight }) => (
         </div>
         <div>
           <StarRating />
-          <h5 className="mb-1 fw-bold text-uppercase">{item.title}</h5>
-          <p className="mb-0 text-muted">{item.subTitle}</p>
+          <h5 className="mb-1 text-uppercase">{item.title}</h5>
+          <p className="cs_fs_16 mb-0">{item.subTitle}</p>
         </div>
       </div>
 
       {/* Description */}
       <blockquote className="blockquote mb-0">
-        <p className="mb-0 fst-italic">{item.desc}</p>
+        <p className="cs_fs_16 mb-0">{item.desc}</p>
       </blockquote>
 
       {/* Quote Icon */}

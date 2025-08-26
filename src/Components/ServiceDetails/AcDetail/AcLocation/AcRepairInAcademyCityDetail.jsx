@@ -22,6 +22,7 @@ import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import AcProperties from "../../../Common/AcProperties";
 import Practicaltip from "../../../Common/Practicaltip";
 import LocationKeyword from "./LocationKeyword";
+import Testimonial1 from "../../../Testimonial/Testimonial1";
 
 const AcRepairInAcademyCityDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -633,8 +634,8 @@ const AcRepairInAcademyCityDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                                     <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
                                         <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
                                         <span className="cs_accordian_toggle">
-                                            <i className="bi bi-eye text-light"></i>
-                                            <i className="bi bi-eye-slash text-light"></i>
+                                            <i className="bi bi-eye text-light"><FaEye /></i>
+											<i className="bi bi-eye-slash text-light"><FaEyeSlash /></i>
                                         </span>
                                     </div>
                                     <div className="cs_accordian_body" ref={accordionContentRef}>

@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import data from '../../Data/fridgeblog.json';
 import SectionTitle2 from "../Common/SectionTitle2";
+import { FaRegCommentDots } from "react-icons/fa";
+import { IoPeopleOutline } from "react-icons/io5";
 
 const BlogFridge = () => {
     return (
@@ -25,11 +27,11 @@ const BlogFridge = () => {
                   <div className="cs_post_content">
                     <div className="cs_post_meta_wrapper cs_mb_11">
                       <div className="cs_post_meta">
-                        <span className="cs_accent_color"><i className="bi bi-chat-dots"></i></span>
+                        <span className="cs_accent_color"><i className="bi bi-chat-dots"><FaRegCommentDots /></i></span>
                         <span className="cs_heading_color">02 Comments</span>
                       </div>
                       <div className="cs_post_meta">
-                        <span className="cs_accent_color"><i className="bi bi-people"></i></span>
+                        <span className="cs_accent_color"><i className="bi bi-people"><IoPeopleOutline /></i></span>
                         <span className="cs_heading_color">Admin</span>
                       </div>
                     </div>

@@ -82,8 +82,7 @@ const BrandsSliderSection = ({
                             width: 'auto',
                             height: 'auto',
                             objectFit: 'contain',
-                            transition: 'all 0.3s ease',
-                            opacity: '0.7'
+                            transition: 'all 0.3s ease'
                           }}
                        
                         />

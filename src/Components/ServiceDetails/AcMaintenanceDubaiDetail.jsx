@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState, useCallback } from "react";
 import data from '../../Data/AcData/AcFaqs/AcMaintenanceFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import { FaEye, FaEyeSlash } from "react-icons/fa";
 import Serviceappointemnt from '../Contact/Serviceappointemnt';
 import CallNowButton from '../Buttons/CallNowButton';
 import GetQuoteButton from "../Buttons/GetQuoteButton";
@@ -417,7 +418,7 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
         <Testimonial1
           subtitle="What Our Clients Say"
           title="Customer <span>Reviews</span>"
-          bgImg="img/home-testimonial-bg.jpg"
+          bgImg="img/testimonialbg.jpg"
           testimonialData={testimonial_data}
           sectionId="home-testimonials"
         />
@@ -434,8 +435,8 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
                   <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
                     <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
                     <span className="cs_accordian_toggle">
-                      <i className="bi bi-eye text-light"></i>
-                      <i className="bi bi-eye-slash text-light"></i>
+                      <i className="bi bi-eye text-light"><FaEye /></i>
+                      <i className="bi bi-eye-slash text-light"><FaEyeSlash /></i>
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>

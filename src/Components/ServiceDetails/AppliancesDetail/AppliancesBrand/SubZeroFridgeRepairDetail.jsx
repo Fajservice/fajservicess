@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import { FaEye, FaEyeSlash } from "react-icons/fa";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
@@ -716,8 +717,8 @@ const SubZeroFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                   <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
                     <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
                     <span className="cs_accordian_toggle">
-                      <i className="bi bi-eye text-light"></i>
-                      <i className="bi bi-eye-slash text-light"></i>
+                      <i className="bi bi-eye text-light"><FaEye /></i>
+                      <i className="bi bi-eye-slash text-light"><FaEyeSlash /></i>
                     </span>
                   </div>
                   <div className="cs_accordian_body" ref={accordionContentRef}>

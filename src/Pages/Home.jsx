@@ -155,7 +155,7 @@ const Home = ({
               <Testimonial1
                 subtitle="What Our Clients Say"
                 title="Customer <span>Reviews</span>"
-                bgImg="img/home-testimonial-bg.jpg"
+                bgImg="img/testimonialbg.jpg"
                 testimonialData={data}
                 sectionId="home-testimonials"
               />
