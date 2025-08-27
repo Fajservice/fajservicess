@@ -75,7 +75,7 @@
 .cs_testimonial .card-body::after {
     background-color: var(--accent-color);
     content: "";
-    height: 18px;
+    height: 12px;
     left: 0px;
     position: absolute;
     top: 0px;
