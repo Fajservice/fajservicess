@@ -55,7 +55,6 @@ export default defineConfig(({ mode }) => {
             if (id.includes('node_modules')) {
               if (id.includes('react')) return 'react-vendor';
               if (id.includes('react-router-dom')) return 'router';
-              if (id.includes('bootstrap')) return 'bootstrap';
               if (id.includes('react-icons')) return 'icons';
               return 'vendor';
             }
