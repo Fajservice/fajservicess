@@ -67,10 +67,10 @@
     background-color: var(--accent-color);
     content: "";
     height: 100%;
-    left: -260px;
+    left: 0;
     position: absolute;
     top: 0;
-    width: 50%;
+    width: 14px;
 }
 .cs_testimonial .card-body::after {
     background-color: var(--accent-color);
