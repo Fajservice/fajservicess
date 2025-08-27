@@ -56,7 +56,6 @@ export default defineConfig(({ mode }) => {
               if (id.includes('react')) return 'react-vendor';
               if (id.includes('react-router-dom')) return 'router';
               if (id.includes('bootstrap')) return 'bootstrap';
-              if (id.includes('react-slick') || id.includes('slick-carousel')) return 'slick';
               if (id.includes('react-icons')) return 'icons';
               return 'vendor';
             }

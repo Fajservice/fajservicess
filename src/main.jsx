@@ -3,10 +3,7 @@ import { createRoot } from "react-dom/client";
 import { RouterProvider } from "react-router-dom";
 import { router } from "./Routes/Routes.jsx";
 
-// Only load Bootstrap essentials
-import "bootstrap/dist/css/bootstrap-grid.min.css";
-import "bootstrap/dist/css/bootstrap-utilities.min.css";
-
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./assets/main.css";
 import "./assets/custom.css";
 
