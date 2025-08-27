@@ -24,7 +24,6 @@ import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointme
 import BrandsSliderSection from "../../BrandsSliderSection";
 import Testimonial1 from "../../Testimonial/Testimonial1";
 
-// import { Link } from "react-router-dom";
 
 const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO

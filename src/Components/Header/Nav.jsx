@@ -1,8 +1,8 @@
 import { startTransition, useEffect, useRef, useCallback, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import {  IoChevronDown } from 'react-icons/io5';
-import {  IoChevronForward } from 'react-icons/io5';
-import {  IoChevronUp } from 'react-icons/io5';
+import { IoChevronDown } from 'react-icons/io5';
+import { IoChevronForward } from 'react-icons/io5';
+import { IoChevronUp } from 'react-icons/io5';
 
 import DropDown from './DropDown';
 

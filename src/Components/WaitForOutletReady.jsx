@@ -4,15 +4,15 @@ const WaitForOutletReady = ({ children }) => {
   const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
-    // Delay just enough to ensure child component mounts
+    // Delay to ensure Outlet is mounted
     const timeout = setTimeout(() => {
       setIsMounted(true);
-    }, 10); // 10ms usually sufficient to avoid layout flicker
+    }, 50); // a bit longer if needed
 
     return () => clearTimeout(timeout);
   }, []);
 
-  return isMounted ? children : null;
+  return isMounted ? children : <div className="page-loading">Loading...</div>;
 };
 
 export default WaitForOutletReady;
