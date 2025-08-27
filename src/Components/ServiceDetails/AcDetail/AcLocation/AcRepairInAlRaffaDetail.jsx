@@ -632,8 +632,8 @@ const AcRepairInAlRaffaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
          <div className="cs_accordian_head" onClick={() => handleItemClick(index)}>
           <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
           <span className="cs_accordian_toggle">
-           <i className="bi bi-eye text-light"></i>
-           <i className="bi bi-eye-slash text-light"></i>
+           <i className="bi bi-eye text-light"><FaEye /></i>
+           <i className="bi bi-eye-slash text-light"><FaEyeSlash /></i>
           </span>
          </div>
          <div className="cs_accordian_body" ref={accordionContentRef}>
