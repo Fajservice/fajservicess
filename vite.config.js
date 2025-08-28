@@ -43,6 +43,7 @@ export default defineConfig(({ mode }) => {
       target: 'es2022',
       minify: isProduction ? 'terser' : false,
       sourcemap: !isProduction,
+      cssCodeSplit: false,
       terserOptions: {
         compress: {
           drop_console: true,
