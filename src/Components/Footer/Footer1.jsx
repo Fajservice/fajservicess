@@ -30,7 +30,7 @@ const contactInfo = [
   {
     icon: <BsFillTelephoneFill />,
     items: [
-      { text: "+971 4 330 0002", href: "tel:+97143300002" },
+      { text: "+971 50 746 4712", href: "tel:+971507464712" },
       { text: "+971 50 746 4712", href: "tel:+971507464712" }
     ]
   },
@@ -176,7 +176,7 @@ const Footer1 = () => {
         <div className="navbar-end flex">
           <div className="cta-nav mob-callus">
             <a
-              href="tel:+97143300002"
+              href="tel:+971507464712"
               className="button-whatsapp"
               aria-label="Call us"
             >
@@ -218,7 +218,7 @@ const Footer1 = () => {
           </li>
           <li>
             <a
-              href="tel:+97143300002"
+              href="tel:+971507464712"
               className="flt-icon-url"
               aria-label="Call us"
             >

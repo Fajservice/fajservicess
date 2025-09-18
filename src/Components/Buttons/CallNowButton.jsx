@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const CallNowButton = ({ phone = 'tel:+97143300002' }) => {
+const CallNowButton = ({ phone = 'tel:+971507464712' }) => {
         const [hovered, setHovered] = useState(false);
     
     return (

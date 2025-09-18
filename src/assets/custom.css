@@ -745,8 +745,14 @@ p a {
     padding-bottom: 30px;
 
   }
-
-
+  .cs_logo_bg_shape::before {
+    content: "";
+    position: absolute;
+    right: 37px;
+    height: 100%;
+    width: 100vw;
+    background-color: var(--accent-color);
+}
   .cs_fs_50 {
     font-size: 30px;
   }

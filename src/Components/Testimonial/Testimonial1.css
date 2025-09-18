@@ -62,6 +62,7 @@
   height: 100%;
   padding: 25px;
   position: relative;
+  background-color: #fff;
 }
 .cs_testimonial .card-body::before {
     background-color: var(--accent-color);
