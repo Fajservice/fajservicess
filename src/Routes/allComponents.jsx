@@ -3,7 +3,7 @@ import { withSuspense } from "../Routes/utils.jsx";
 
 
 export const Main = withSuspense(React.lazy(() => import("../Layout/Main")));
-export const Home  = withSuspense(React.lazy(() => import("../Pages/Home")));
+export const Home = withSuspense(React.lazy(() => import("../Pages/Home")));
 export const AboutPage = withSuspense(React.lazy(() => import("../Pages/AboutPage")));
 export const WhoWeArePage = withSuspense(React.lazy(() => import("../Pages/WhoWeArePage")));
 export const OurVisionAndMissionPage = withSuspense(React.lazy(() => import("../Pages/OurVisionOurMissionPage")));
@@ -37,6 +37,8 @@ export const ServicesPage = withSuspense(React.lazy(() => import("../Pages/Servi
 export const ProjectPage = withSuspense(React.lazy(() => import("../Pages/ProjectPage")));
 export const BlogPage = withSuspense(React.lazy(() => import("../Pages/BlogPage")));
 export const ContactPage = withSuspense(React.lazy(() => import("../Pages/ContactPage")));
+export const PrivacyPolicyPage = withSuspense(React.lazy(() => import("../Pages/PrivacyPolicyPage")));
+export const TermsConditionsPage = withSuspense(React.lazy(() => import("../Pages/TermsConditionsPage")));
 export const BlogDetailsPage = withSuspense(React.lazy(() => import("../Pages/BlogDetailsPage")));
 export const DubaiAcServicePriceList = withSuspense(React.lazy(() => import("../Pages/DubaiAcServicePriceList")));
 export const AcRepairInRitz = withSuspense(React.lazy(() => import("../Pages/AcPages/AcLocation/AcRepairInRitz")));
