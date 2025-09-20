@@ -1533,6 +1533,10 @@ export const router = createBrowserRouter([
         path: "/ac-services-in-jebel-ali-industrial-area/",
         element: <Components.AcRepairInJebelAliIndustrialArea />,
       },
+      {
+        path: "/career/",
+        element: <Components.Career />,
+      },
     ],
   }
 ], {
