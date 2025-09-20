@@ -450,6 +450,14 @@ export const router = createBrowserRouter([
         element: <Components.ContactPage />,
       },
       {
+        path: "/privacy-policy/",
+        element: <Components.PrivacyPolicyPage />,
+      },
+      {
+        path: "/terms-and-conditions/",
+        element: <Components.TermsConditionsPage />,
+      },
+      {
         path: "/dubai-ac-service-price-list/",
         element: <Components.DubaiAcServicePriceList />,
       },
