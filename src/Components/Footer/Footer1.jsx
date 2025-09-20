@@ -16,13 +16,20 @@ const socialLinks = [
   { icon: <FaYoutube />, href: 'https://www.youtube.com/@fajtechnicalservicesllc' },
   { icon: <FaFacebook />, href: 'https://www.facebook.com/FAJTechnicalServicesLLC' }
 ];
-
+const aboutLinks = [
+  { path: "/terms-and-conditions/", text: "Terms & Conditions" },
+  { path: "/privacy-policy/", text: "Privacy Policy" },
+  { path: "/refund-policy/", text: "Refund Policy" },
+  { path: "/b2b-services/", text: "B2B Services" },
+  { path: "/career/", text: "Career" }
+];
 const exploreLinks = [
-  { path: "/ac-service-in-dubai/", text: "AC Service in Dubai" },
-  { path: "/refrigerator-repair-service/", text: "Refrigerator Repair" },
-  { path: "/washing-machine-repair-service-dubai/", text: "Washing Machine Repair" },
-  { path: "/coffee-machine-service-center-in-dubai/", text: "Coffee Machine Repair & Maintenance" },
-  { path: "/robot-vacuum-cleaner-repair/", text: "Vacuum Cleaner Repair & Robot Vacuum Service" }
+  { path: "/ac-repair-dubai/", text: "AC Repair and Maintenance" },
+  { path: "/coffee-machine-service-center-in-dubai/", text: "Coffee Machine Repair and Maintenance" },
+  { path: "/appliances-repair-service/", text: "Home Appliances Services" },
+  { path: "/commercial-kitchen-equipment-maintenance-services/", text: "Commercial Kitchen Equipment Maintenance" },
+  { path: "/commercial-refrigeration-maintenance/", text: "Refrigeration Maintenance and Repair" },
+  { path: "/ice-maker-repair/", text: "Ice Maker Machine Repair Services" }
 ];
 
 const contactInfo = [
@@ -30,16 +37,19 @@ const contactInfo = [
   {
     icon: <BsFillTelephoneFill />,
     items: [
-      { text: "+971 50 746 4712", href: "tel:+971507464712" },
+      { text: "+971 4 330 0002", href: "tel:+97143300002" },
       { text: "+971 50 746 4712", href: "tel:+971507464712" }
     ]
   },
   { icon: <FaEnvelope />, text: "info@fajservices.ae", href: "mailto:info@fajservices.ae" }
 ];
 
-const workingHours = [
-  { days: "Mon - Sat", hours: "8:00 AM - 6:00 PM" },
-  { days: "Sunday", hours: "12:00 PM - 6:00 PM" }
+const usefulLinks = [
+  { path: "/faqs/", text: "FAQS" },
+  { path: "/blogs/", text: "Blogs" },
+  { path: "https://www.fajtradingllc.com/", text: "FAJ Store" },
+  { path: "/testimonials/", text: "Testimonials" },
+  { path: "https://www.fajtradingllc.com/collections/all-spare-accessories", text: "Spare Parts" }
 ];
 
 const Footer1 = () => {
@@ -57,9 +67,13 @@ const Footer1 = () => {
                   <span className="cs_white_bg"></span>
                   <span className="cs_white_bg"></span>
                 </div>
-                <div className="cs_text_widget">
-                  <p>Reach out to our knowledgeable and friendly customer service team for assistance. We are just a call away.</p>
-                </div>
+                 <ul className="cs_footer_menu mb-3">
+                  {aboutLinks.map((link, index) => (
+                    <li key={`explore-${index}`} style={{ display: 'flex', gap: '10px' }}>
+                     <Link to={link.path}>{link.text}</Link>
+                    </li>
+                  ))}
+                </ul>
                 <div className="cs_social_btns cs_style_1">
                   {socialLinks.map((social, index) => (
                    <a
@@ -89,7 +103,7 @@ const Footer1 = () => {
                 <ul className="cs_footer_menu">
                   {exploreLinks.map((link, index) => (
                     <li key={`explore-${index}`} style={{ display: 'flex', gap: '10px' }}>
-                      <GoArrowRight style={{ flexShrink: 0, paddingTop: '4px' }} />   <Link to={link.path}>{link.text}</Link>
+                      <Link to={link.path}>{link.text}</Link>
                     </li>
                   ))}
                 </ul>
@@ -130,17 +144,16 @@ const Footer1 = () => {
             {/* Working Hours Column */}
             <div className="cs_footer_col">
               <div className="cs_footer_widget">
-                <h2 className="cs_footer_widget_title cs_fs_24 cs_white_color cs_mb_10">Working Hours</h2>
+                <h2 className="cs_footer_widget_title cs_fs_24 cs_white_color cs_mb_10">Useful Links</h2>
                 <div className="cs_footer_widget_seperator">
                   <span className="cs_accent_bg"></span>
                   <span className="cs_white_bg"></span>
                   <span className="cs_white_bg"></span>
                 </div>
                 <ul className="cs_working_hours">
-                  {workingHours.map((hours, index) => (
-                    <li key={`hours-${index}`}>
-                      <span>{hours.days}</span>
-                      <span>{hours.hours}</span>
+                  {usefulLinks.map((link, index) => (
+                    <li key={`explore-${index}`} style={{ display: 'flex', gap: '10px' }}>
+                     <Link to={link.path}>{link.text}</Link>
                     </li>
                   ))}
                 </ul>

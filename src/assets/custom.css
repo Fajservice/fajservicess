@@ -1459,7 +1459,7 @@ img.faj-chatbox-logo {
 }
 
 .faq_8 .card {
-  width: 363px;
+  /* width: 363px; */
   min-height: 317px;
   padding: 35px;
   display: flex;
@@ -1502,6 +1502,10 @@ img.faj-chatbox-logo {
   color: #fff;
   text-transform: uppercase;
   box-shadow: 0px 2px 5px #000;
+  margin: 0 auto;
+}
+.faq_8 .card .cs_accordian.cs_style_1.cs_type_1{
+  border-color: #000;
 }
 
 @media (max-width: 1024px) {
