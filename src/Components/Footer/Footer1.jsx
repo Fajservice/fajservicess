@@ -176,7 +176,7 @@ const Footer1 = () => {
         <div className="navbar-end flex">
           <div className="cta-nav mob-callus">
             <a
-              href="tel:+971507464712"
+              href="tel:+97143300002"
               className="button-whatsapp"
               aria-label="Call us"
             >
@@ -218,7 +218,7 @@ const Footer1 = () => {
           </li>
           <li>
             <a
-              href="tel:+971507464712"
+              href="tel:+97143300002"
               className="flt-icon-url"
               aria-label="Call us"
             >

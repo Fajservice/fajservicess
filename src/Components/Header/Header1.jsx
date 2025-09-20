@@ -13,7 +13,7 @@ import { FaYoutube } from 'react-icons/fa';
 import { RxArrowTopRight } from 'react-icons/rx';
 
 const contactItems = [
-  { icon: <IoCallOutline />, content: '+971 50 746 4712', href: 'tel:+971507464712' },
+  { icon: <IoCallOutline />, content: '+971 4 330 0002', href: 'tel:+97143300002' },
   { icon: <FaWhatsapp />, content: '+971 50 746 4712', href: 'https://api.whatsapp.com/send?phone=+971507464712&text=Hello' },
   { icon: <IoLocationOutline />, content: 'Dubai - United Arab Emirates' }
 ];

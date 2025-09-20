@@ -31,7 +31,7 @@ html {
   font-weight: 400;
   overflow-x: clip;
   width: 100%;
-  max-width: 1600px;
+  /* max-width: 1600px; */
   position: relative;
   align-items: center;
   margin: 0 auto;

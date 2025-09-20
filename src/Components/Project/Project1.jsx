@@ -26,7 +26,7 @@ const Project1 = () => {
       <div className="container-fluid p-0">
         <div className="cs_project_area">
           <div className="cs_project" >
-            <div className="row cs_row_gap_20 cs_gap_y_30">
+            <div className="row cs_row_gap_60 cs_gap_y_30">
               {data.map((item, i) => (
                 <div key={i} className="col-xl-3 col-md-6 wow fadeInLeft">
                   <div className="cs_card cs_style_2 position-relative">

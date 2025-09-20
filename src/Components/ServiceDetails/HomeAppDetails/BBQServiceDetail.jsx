@@ -22,6 +22,7 @@ import HeaderForm from "../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 import BrandsSliderSection from "../../BrandsSliderSection";
 import Testimonial1 from "../../Testimonial/Testimonial1";
+import BeforeAfter from "../../BeforeAfter/BeforeAfter";
 
 const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
@@ -507,14 +508,25 @@ const [isModalOpen, setIsModalOpen] = useState(false);
           </div>
         </section>
         {/* Brands section */}
-                 <BrandsSliderSection
-                brandsData={brandsLogo_data}
-                sectionId="home-brands"
-                logoMaxHeight="60px"
-                logoMaxWidth="120px"
-                containerHeight="100px"
+              <BrandsSliderSection
+            brandsData={brandsLogo_data}
+            sectionId="home-brands"
+            logoMaxHeight="60px"
+            logoMaxWidth="120px"
+            containerHeight="100px"
+          />
+          <div className="mb-4">
+             <BeforeAfter
+                title="Recent Completed Projects"
+                subTitle="Before & after"
+                bgImg="img/background-image-2.avif"
+                beforeImg="img/after_img_1.avif"
+                afterTitle="After"
+                afterImg="img/before_img_1.avif"
+                beforeTitle="Before"
               />
-  
+          </div>
+        
         {/* Maintenance Contract */}
         <MaintenanceContract />
        {/* testimobial section */}
@@ -525,7 +537,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
           testimonialData={testimonial_data}
           sectionId="home-testimonials"
         />
-
+       
         {/* FAQ's */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">
