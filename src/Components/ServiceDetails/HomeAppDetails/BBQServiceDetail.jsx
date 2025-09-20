@@ -515,7 +515,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
             logoMaxWidth="120px"
             containerHeight="100px"
           />
-          <div className="mb-4">
+          {/* <div className="mb-4">
              <BeforeAfter
                 title="Recent Completed Projects"
                 subTitle="Before & after"
@@ -525,7 +525,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                 afterImg="img/before_img_1.avif"
                 beforeTitle="Before"
               />
-          </div>
+          </div> */}
         
         {/* Maintenance Contract */}
         <MaintenanceContract />

@@ -82,7 +82,7 @@ const navItems = [
       { path: '/our-vision-and-mission/', label: 'Our Vision And Mission' },
       { path: '/our-history/', label: 'Our History' },
       { 
-        path: 'https://careers.fajservices.ae/', 
+        path: '/career/', 
         label: 'Careers',
         external: true 
       },
