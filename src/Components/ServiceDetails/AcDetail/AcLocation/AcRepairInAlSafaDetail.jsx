@@ -16,6 +16,7 @@ import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import LocationKeyword from "./LocationKeyword";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
+import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 
 const AcRepairInAlSafaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -619,6 +620,7 @@ const AcRepairInAlSafaDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
 
                 {/* Maintenance Contract */}
                 <MaintenanceContract />
+                
                 {/* testimobial section */}
                 <Testimonial1
           subtitle="What Our Clients Say"

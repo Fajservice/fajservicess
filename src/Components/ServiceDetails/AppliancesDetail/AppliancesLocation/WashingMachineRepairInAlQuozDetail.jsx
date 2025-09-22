@@ -529,32 +529,13 @@ const WashingMachineRepairInAlQuozDetail = ({ subtitle, title, reviewsbg, titleS
         <ApplianceSpecialise />
 
         {/* Brands section */}
-        <section className="cs_slider cs_style_1 cs_slider_gap_30 cs_bg_filed position-relative cs_py_30">
-          <div className="container">
-
-            <div className="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0"
-              data-variable-width="0" data-xs-slides="1" data-sm-slides="1" data-md-slides="1" data-lg-slides="2"
-              data-add-slides="2" data-slides-per-view="responsive">
-              <div className="cs_slider_wrapper">
-                <Slider {...settingBrands}>
-                  {brandsLogo_data.map((item, index) => (
-                    <div key={index} className="cs_slide wow fadeInLeft">
-
-                      <div className="brandslogo-slide-container">
-                        <div className="brnadlogo">
-                          <img className="w-100" src={`${import.meta.env.BASE_URL}${item.logo}`} alt="Avatar" />
-                        </div>
-                      </div>
-
-                    </div>
-                  ))}
-                </Slider>
-
-              </div>
-            </div>
-          </div>
-
-        </section>
+                <BrandsSliderSection
+                        brandsData={brandsLogo_data}
+                        sectionId="home-brands"
+                        logoMaxHeight="60px"
+                        logoMaxWidth="120px"
+                        containerHeight="100px"
+                      />
 
 
         {/* Maintenance Contract */}

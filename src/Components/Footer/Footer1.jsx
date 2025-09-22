@@ -94,7 +94,7 @@ const Footer1 = () => {
             {/* Explore Column */}
             <div className="cs_footer_col">
               <div className="cs_footer_widget">
-                <h2 className="cs_footer_widget_title cs_fs_24 cs_white_color cs_mb_10">Explore</h2>
+                <h2 className="cs_footer_widget_title cs_fs_24 cs_white_color cs_mb_10">Our Services</h2>
                 <div className="cs_footer_widget_seperator">
                   <span className="cs_accent_bg"></span>
                   <span className="cs_white_bg"></span>
@@ -110,7 +110,27 @@ const Footer1 = () => {
               </div>
             </div>
 
-            {/* Contact Us Column */}
+           
+
+            {/* Working Hours Column */}
+            <div className="cs_footer_col">
+              <div className="cs_footer_widget">
+                <h2 className="cs_footer_widget_title cs_fs_24 cs_white_color cs_mb_10">Useful Links</h2>
+                <div className="cs_footer_widget_seperator">
+                  <span className="cs_accent_bg"></span>
+                  <span className="cs_white_bg"></span>
+                  <span className="cs_white_bg"></span>
+                </div>
+                <ul className="cs_working_hours">
+                  {usefulLinks.map((link, index) => (
+                    <li key={`explore-${index}`} style={{ display: 'flex', gap: '10px' }}>
+                     <Link to={link.path}>{link.text}</Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+             {/* Contact Us Column */}
             <div className="cs_footer_col">
               <div className="cs_footer_widget">
                 <h2 className="cs_footer_widget_title cs_fs_24 cs_white_color cs_mb_10">Contact Us</h2>
@@ -138,25 +158,16 @@ const Footer1 = () => {
                     </li>
                   ))}
                 </ul>
-              </div>
-            </div>
-
-            {/* Working Hours Column */}
-            <div className="cs_footer_col">
-              <div className="cs_footer_widget">
-                <h2 className="cs_footer_widget_title cs_fs_24 cs_white_color cs_mb_10">Useful Links</h2>
-                <div className="cs_footer_widget_seperator">
-                  <span className="cs_accent_bg"></span>
-                  <span className="cs_white_bg"></span>
-                  <span className="cs_white_bg"></span>
-                </div>
-                <ul className="cs_working_hours">
-                  {usefulLinks.map((link, index) => (
-                    <li key={`explore-${index}`} style={{ display: 'flex', gap: '10px' }}>
-                     <Link to={link.path}>{link.text}</Link>
-                    </li>
-                  ))}
-                </ul>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3269.3424480096032!2d55.22508607483472!3d25.110623435202967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f699a600aceeb%3A0xa6121b25d557aa94!2sFAJ%20Technical%20Services%20L.L.C!5e1!3m2!1sen!2sae!4v1758520238062!5m2!1sen!2sae"
+                  width={400}
+                  height={250}
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="FAJ Technical Services location"
+                />
               </div>
             </div>
           </div>

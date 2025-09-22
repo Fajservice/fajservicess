@@ -15,6 +15,7 @@ import AcProperties from "../../../Common/AcProperties";
 import AcAppointmentCol from "../../../Common/AcAppointmentCol";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
+import GetQuoteButton from "../../../Buttons/GetQuoteButton.jsx";
 
 
 const MitsubishiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
@@ -612,6 +613,7 @@ const MitsubishiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description,
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <GetQuoteButton></GetQuoteButton>
                 <CallNowButton></CallNowButton>
+                
               </div>
             </div>
 

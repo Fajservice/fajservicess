@@ -18,6 +18,7 @@ import AcProperties from "../../../Common/AcProperties";
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import AcAppointmentCol from "../../../Common/AcAppointmentCol";
+import Testimonial1 from "../../../Testimonial/Testimonial1";
 
 
 const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {

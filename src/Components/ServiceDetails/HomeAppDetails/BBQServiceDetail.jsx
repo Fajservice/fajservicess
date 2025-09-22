@@ -377,7 +377,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
           <div className="container">
             <div className="row justify-content-center">
               <h2 className="cs_fs_30 mb-0">Tips for Preparing for Your BBQ</h2>
-              <ul>
+              <ul style={{ paddingLeft: '20px' }}>
                 <li><strong>Clean the grill:&nbsp;</strong>Inspect and clean your barbecue if it&apos;s been outside for a while. Even after use, it&apos;s a good idea to clean and dry it. Always follow the manufacturer's maintenance instructions.</li>
                 <li><strong>Cooking on Charcoal:&nbsp;</strong>If using charcoal instead of gas, make sure the coals are glowing red with a grey, powdery surface before cooking.</li>
                 <li><strong>Defrosting Meat:&nbsp;</strong>Frozen meat can cook unevenly on a BBQ. For best results, defrost it overnight in a lipped dish in the fridge. If you&apos;re short on time, use the microwave's defrost setting. Cook and eat the meat within 24 hours of defrosting.</li>
@@ -487,7 +487,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <b>We provide 2-month repair warranty</b><br />
               and <small>3-month parts warranty</small> as standard.</p>
             <h3>We specialise in BArbecue repair services for the following brands</h3>
-            <ul>
+            <ul className="ml-5">
               <li> <strong>  Char Broil Gas Grill Service and Repair: </strong> FAJ offers reliable Char Broil gas BBQ grill cleaning service near me repair in Dubai, with professionals who are experts in freestanding and built-in Char Broil electric barbeque grill repair and char broil gas grill repair near me home service near you in Dubai and Sharjah. </li>
               <li> <strong>  Weber Genesis Barbeque Gas Burner Repair and Service: </strong> Located in Dubai, FAJ is your premier destination for Weber Genesis BBQ grill repair. Or BBQ grill cleaning service. We specialize in Weber Genesis barbecue maintenance and service, offering comprehensive services that include barbecue cleaning and repair. We also offer Weber Genesis BBQ repair and service near me in Dubai. </li>
               <li> <strong>  Barbecue Napoleon Prestige BBQ Grill Servicing: </strong> The Barbecue Napoleon Prestige BBQ Grill repair service, Electric BBQ grill repair in Dubai, ensures your worries are addressed because you are in the right place. FAJ prioritizes efficiency and reliability in built in Napoleon BBQ Service near me and barbeque gas grill repair services in Dubai. </li>

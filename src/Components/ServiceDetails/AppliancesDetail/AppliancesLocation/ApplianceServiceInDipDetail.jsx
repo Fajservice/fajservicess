@@ -7,8 +7,6 @@ import { FaEyeSlash } from "react-icons/fa";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt.jsx';
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton.jsx";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract.jsx";
-
-
 import 'swiper/swiper-bundle.css';
 import testimonial_data from '../../../../Data/HomeAppData/Testmonials/FreestandingHomeAppliancesRepairServiceTestimonials.json';
 import brandsLogo_data from '../../../../Data/AppliancesBrandsLogo.json';

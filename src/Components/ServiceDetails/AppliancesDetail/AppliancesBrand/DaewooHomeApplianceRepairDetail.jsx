@@ -17,6 +17,7 @@ import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import DaiganosisCharges from '../AppliancesLocation/ApplianceSpecialise/Daiganosischarges';
+import Testimonial1 from '../../../Testimonial/Testimonial1';
 
 const DaewooHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -642,7 +643,6 @@ const DaewooHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo,
           testimonialData={testimonial_data}
           sectionId="home-testimonials"
         />
-
                 {/* FAQ&apos;s */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
                     <div className="container">

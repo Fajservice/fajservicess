@@ -17,6 +17,7 @@ import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppoin
 import GetQuoteButton from '../../../Buttons/GetQuoteButton';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import DaiganosisCharges from '../AppliancesLocation/ApplianceSpecialise/Daiganosischarges';
+import Testimonial1 from '../../../Testimonial/Testimonial1';
 
 
 const DaewooHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {

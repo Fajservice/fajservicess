@@ -4,6 +4,8 @@ import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInAlJafza.js
 import { HelmetProvider, Helmet } from "react-helmet-async";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
 import CallNowButton from '../../../Buttons/CallNowButton';
+import { FaEye } from "react-icons/fa";
+import { FaEyeSlash } from "react-icons/fa";
 import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContract";
 import 'swiper/swiper-bundle.css';

@@ -16,6 +16,7 @@ import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppoin
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import CallNowButton from "../../../Buttons/CallNowButton";
 import DaiganosisCharges from "../AppliancesLocation/ApplianceSpecialise/Daiganosischarges";
+import Testimonial1 from "../../../Testimonial/Testimonial1";
 
 const IndesitWashingMachineDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
@@ -649,7 +650,7 @@ const IndesitWashingMachineDetail = ({ subtitle, title, reviewsbg, titleSeo, des
           testimonialData={testimonial_data}
           sectionId="home-testimonials"
         />
-
+        
         {/* FAQ&apos;spos;s */}
         <section className="section cs_py_30  bg-dark-blue text-light">
           <div className="container">

@@ -16,6 +16,7 @@ import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 import LocationKeyword from "./LocationKeyword";
 import Testimonial1 from "../../../Testimonial/Testimonial1";
+import WhatsappIconButton from "../../../Buttons/WhatsappIconButton";
 
 const AcRepairInDipDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
@@ -121,6 +122,7 @@ const AcRepairInDipDetail = ({ subtitle, title, reviewsbg, titleSeo, description
                         <div id="get-quote" className=" mt-3">
                             <div className="container d-flex justify-content-center align-items-center gap-3">
                                 <WhatsappIconButton />
+                            
                             </div>
                         </div>
                         {/*  */}

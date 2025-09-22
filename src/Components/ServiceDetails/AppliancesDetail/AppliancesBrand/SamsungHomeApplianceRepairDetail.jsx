@@ -1,4 +1,4 @@
-import React from 'react'
+    import React from 'react'
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
@@ -17,6 +17,7 @@ import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppoin
 import GetQuoteButton from '../../../Buttons/GetQuoteButton';
 import CallNowButton from '../../../Buttons/CallNowButton';
 import DaiganosisCharges from '../AppliancesLocation/ApplianceSpecialise/Daiganosischarges';
+import Testimonial1 from '../../../Testimonial/Testimonial1';
 
 const SamsungHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
     // For SEO

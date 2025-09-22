@@ -19,6 +19,7 @@ import AcProperties from "../../../Common/AcProperties";
 
 import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 import AcAppointmentCol from "../../../Common/AcAppointmentCol";
+import Testimonial1 from "../../../Testimonial/Testimonial1";
 
 
 const WestpointAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
