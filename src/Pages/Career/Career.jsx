@@ -6,17 +6,23 @@ const Career = () => {
 
   const jobPositions = [
     {
-      title: "UI / UX Designer",
-      shortDescription: "We are looking for a creative and versatile UI/UX Designer to join our team.",
+      title: "Technician Coffee Machines, Espresso Machine and Appliances Repair Job",
+      shortDescription: "We are seeking a skilled Coffee Machine Technician with expertise in commercial and home equipment.",
       jobDescription: [
-        "We are looking for a creative and versatile UI/UX Designer to join our team. The ideal candidate will design intuitive and engaging user interfaces for our digital products. You will collaborate with cross-functional teams to deliver designs and improve user experience."
+        "The ideal candidate should have 3-5 years of experience in descaling, cleaning, maintenance, repair, and installation of coffee machines. Strong troubleshooting and diagnostic skills are essential."
       ],
       keyResponsibilities: [
-        "Conduct user research, competitive analysis, and usability testing.",
-        "Create wireframes, prototypes, and high-fidelity UI designs for web and mobile applications.",
-        "Collaborate with developers to ensure design feasibility and quality.",
-        "Develop and maintain design systems, style guides, and UX documentation.",
-        "Optimize existing user interfaces based on user feedback and data.",
+        "1. Installation coffee machines, Descaling and Maintenance",
+        "2. Check and repair coffee machines at customer premises and in the workshop.",
+        "3. Conduct preventive maintenance and calibration services.",
+        "4. Respond to breakdown call-outs.",
+        "5. Perform duties effectively to avoid repeat repairs and complete tasks promptly to enhance overall outlet performance.",
+        "6. Conduct demonstrations on servicing techniques for all coffee machine brands.",
+        "7. Prepare endorsement reports related to tasks performed and client queries for the Sales department.",
+        "8. Ensure monthly productivity targets are achieved to minimise outstanding customer calls.",
+        "9. Maintain a professional and courteous demeanour with all clients.",
+        "10. Provide comprehensive training to clients on machine operation and maintenance protocols.",
+        "11. Complete other tasks as assigned by the supervisor.",
       ],
       requirements: [
         "Bachelor's degree in Graphic Design, Visual Communication, Multimedia, or related field (preferred).",
@@ -577,7 +583,7 @@ const Career = () => {
               </div>
               
               <button className="apply-button">
-                <a href="https://w.app/fajitsolutions"> Apply Now</a>
+                <a href="https://api.whatsapp.com/send?phone=+971506097717"> Apply Now</a>
               </button>
             </section>
           </div>

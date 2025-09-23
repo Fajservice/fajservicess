@@ -26,8 +26,8 @@ import Testimonial1 from "../../Testimonial/Testimonial1";
 
 const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Washing Machine Repair & Maintenance Services Dubai FAJ");
-  const metadescription = String(description || "Sameday Washing Machine Repair Dubai. Book now 043300002 Get Quality Washing Machine Repair near me with Reliable Washer Dryer");
+  const metatitle = String(titleSeo || "Washing Machine Repair & Service Center in Dubai | FAJ");
+  const metadescription = String(description || "We are experts in washing machine repair in Dubai. Call us now at 043300002 for washer dryer, laundry machine's maintenance services & parts warranty.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Washing Machine Repair, Washing Machine Maintenance, Washing Machine Service");
   const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-service-dubai/").replace(/\/?$/, '/');

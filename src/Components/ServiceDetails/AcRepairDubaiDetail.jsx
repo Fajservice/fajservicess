@@ -26,10 +26,10 @@ import Testimonial1 from "../Testimonial/Testimonial1";
 
 const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "AC Repair Dubai - Reliable AC Fixing - AC Repair Near Me");
-  const metadescription = String(description || "If your air conditioner not cooling! It is time to contact FAJ to get fix split or central AC Repair Dubai. Book 043300002 emergency ac repair");
+  const metatitle = String(titleSeo || "Best AC Repair Dubai | HVAC Maintenance Near Me | Since 2010");
+  const metadescription = String(description || "Keep your home / office cool with FAJ expert AC repair in Dubai. We offer fast, reliable air conditioner maintenance near you. Call us 04 3300002");
   const metaAuthor = String(Author || "Faj Technical Services");
-  const metaKeyword = String(Keyword || "Ac Repair, Ac Repair In Dubai, Ac Repair Service");
+  const metaKeyword = String(Keyword || "Ac Repair, Ac Repair In Dubai, Ac Repair Service, Ac Repair Near Me, Ac Repair Dubai, Air Conditioner Repair, Air Conditioner Repair In Dubai, Air Conditioner Repair Service, Air Conditioner Repair Near Me, Air Conditioner Repair Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/ac-repair-dubai/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
 

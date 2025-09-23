@@ -19,8 +19,8 @@ import Testimonial1 from "../../Testimonial/Testimonial1";
 
 const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Commercial Refrigeration Service - Food Chiller Repair Dubai");
-  const metadescription = String(description || "Looking for a commercial refrigeration service in Dubai? Dail 043300002 for walk in cooler, chiller, and cold room repair and maintenance near me");
+  const metatitle = String(titleSeo || "Commercial Refrigeration Maintenance | Repair Service Near Me");
+  const metadescription = String(description || "Looking for commercial refrigeration maintenance in Dubai? Dial 043300002 for walk in cooler, cooling unit, biomedical freezer & chiller repair services.");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial Refrigeration service, walk in cooler repair, chiller repair, cold room repair, commercial refrigeration maintenance");
   const metaURL = String(URL || "https://www.fajservices.ae/commercial-refrigeration-maintenance/").replace(/\/?$/, '/');

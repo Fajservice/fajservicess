@@ -24,8 +24,8 @@ import Testimonial1 from "../../Testimonial/Testimonial1";
 
 const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Robot Vacuum Cleaner Repair - Best Vacuum Cleaner Services");
-  const metadescription = String(description || "Need Robot Vacuum Cleaner Repair? FAJ provides expert for Xiaomi, Roomba, TP-Link, Eufy, and Anker vacuum services. Book now at 043300002!");
+  const metatitle = String(titleSeo || "Robot Vacuum Cleaner Repair | Vacuum Cleaner Repair Service");
+  const metadescription = String(description || "Fast & cheap Robot vacuum cleaner repair in Dubai. Call 04300002 to avail upright, canister, wet dry, cordless vacuum cleaner maintenance services.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Robot vacuum cleaner repair, vacuum cleaner service, Xiaomi vacuum repair, Roomba vacuum service, TP-Link vacuum cleaner repair, Eufy vacuum cleaner service, Anker vacuum repair");
   const metaURL = String(URL || "https://www.fajservices.ae/robot-vacuum-cleaner-repair/").replace(/\/?$/, '/');

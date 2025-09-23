@@ -26,8 +26,8 @@ import BeforeAfter from "../../BeforeAfter/BeforeAfter";
 
 const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Barbecue Repair - Best BBQ Grill Cleaning Service Near Me");
-  const metadescription = String(description || "Barbeque Repair Dubai. Our team offers professional BBQ cleaning services, BBQ repair, Weber repair, and electric BBQ grill repair Dubai.");
+  const metatitle = String(titleSeo || "Barbeque Repair in Dubai | BBQ Grill Cleaning Service Near Me");
+  const metadescription = String(description || "Same-day Barbeque repair in Dubai. Call 043300002 for your BBQ grill cleaning, gas grill burner, oven & electric BBQ deep services & maintenance.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "BBQ Repair, BBQ Grill Cleaning Service, Barbeque Repair Dubai, Weber Repair, Electric BBQ Grill Repair Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/").replace(/\/?$/, '/');
