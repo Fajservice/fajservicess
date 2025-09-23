@@ -312,7 +312,7 @@
   transform: translateY(0);
 }
 
-/* Tablet Styles */
+
 @media (max-width: 1024px) {
   .content-grid {
     grid-template-columns: 1fr;
@@ -604,7 +604,7 @@
   transform: translateY(0);
 }
 
-/* Tablet Styles */
+
 @media (max-width: 768px) {
   .penetration-test-container {
     padding: 30px 15px;
@@ -641,7 +641,7 @@
   }
 }
 
-/* Mobile Styles */
+
 @media (max-width: 480px) {
   .penetration-test-container {
     padding: 20px 10px;
@@ -678,7 +678,7 @@
   }
 }
 
-/* Large Desktop Styles */
+
 @media (min-width: 1200px) {
   .main-title {
     font-size: 2.75rem;
