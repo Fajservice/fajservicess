@@ -32,7 +32,7 @@ import Testimonial1 from "../../Testimonial/Testimonial1";
 const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Best AC Annual Maintenance Contract Dubai | AC AMC Services");
-  const metadescription = String(description || "Repairs are more costly than regular maintainence agreements. Since 2010, FAJ has offered AC annual maintenance contract in Dubai, Sharjah & UAE.");
+  const metadescription = String(description || "Since 2010, FAJ has offered AC annual maintenance contract in Dubai, Sharjah, UAE. Repairs are more costly than a regular maintenance agreement.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "AC Annual Maintenance Contract Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/ac-annual-maintenance-contract/").replace(/\/?$/, '/');

@@ -38,6 +38,7 @@ export const ProjectPage = withSuspense(React.lazy(() => import("../Pages/Projec
 export const BlogPage = withSuspense(React.lazy(() => import("../Pages/BlogPage")));
 export const ContactPage = withSuspense(React.lazy(() => import("../Pages/ContactPage")));
 export const PrivacyPolicyPage = withSuspense(React.lazy(() => import("../Pages/PrivacyPolicyPage")));
+export const RefundPolicyPage = withSuspense(React.lazy(() => import("../Pages/RefundPolicyPage")));
 export const TermsConditionsPage = withSuspense(React.lazy(() => import("../Pages/TermsConditionsPage")));
 export const BlogDetailsPage = withSuspense(React.lazy(() => import("../Pages/BlogDetailsPage")));
 export const DubaiAcServicePriceList = withSuspense(React.lazy(() => import("../Pages/DubaiAcServicePriceList")));

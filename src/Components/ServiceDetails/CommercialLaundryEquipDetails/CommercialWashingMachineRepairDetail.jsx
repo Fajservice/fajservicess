@@ -22,7 +22,7 @@ import { FaEyeSlash } from "react-icons/fa";
 const CommercialWashingMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Commercial Washing Machine Repair | Maintenance Service");
-  const metadescription = String(description || "FAJ Experts provide commercial washing machine repair in Dubai. Book for quality maintenance & AMC services for commercial laundry & washer dryer.");
+  const metadescription = String(description || "FAJ Experts provide commercial washing machine repair in Dubai. Book for quality work, commercial laundry, washer, dryer maintenance & AMC services");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial Washing Machine repair, Commercial Washing Machine service, Commercial Washing Machine maintenance, Commercial Washing Machine AMC, Commercial Washing Machine Dubai, Commercial Washing Machine Sharjah, Commercial Washing Machine repair Dubai, Commercial Washing Machine repair Sharjah, Commercial Laundry Equipment Service, Commercial Laundry Equipment Repair");
   const metaURL = String(URL || "https://www.fajservices.ae/commercial-washing-machine-repair/").replace(/\/?$/, '/');

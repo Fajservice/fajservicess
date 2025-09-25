@@ -20,7 +20,7 @@ import Testimonial1 from "../../Testimonial/Testimonial1";
 const OvenRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Oven Repair | Oven Maintenance Services in Dubai | FAJ");
-  const metadescription = String(description || "Looking for Oven Repair Service in Dubai? FAJ experts in Deck oven, Convection, Combi Ovens, Gas and Electric ovens's maintenance & AMC services.");
+  const metadescription = String(description || "Looking for Pizza Oven Repair in Dubai? FAJ expert Deck oven, Convection, Combi Ovens, Gas Ovens, Electric ovens maintenance AMC service near me");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Rational Oven Repair Service, Combi Oven Repair Service, Commercial Oven Repair Service");
   const metaURL = String(URL || "https://www.fajservices.ae/oven-repair/").replace(/\/?$/, '/');
