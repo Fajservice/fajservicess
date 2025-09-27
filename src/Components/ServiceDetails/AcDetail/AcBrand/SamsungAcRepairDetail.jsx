@@ -21,8 +21,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const SamsungAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Samsung AC Repair in Dubai - Air Conditioner Service Near");
-  const metadescription = String(description || "Get expert Samsung AC repair in Dubai. Get FAJ Experts an 043300002 for central, VRF, split (AC) air conditioner maintenance and cleaning service near by you.");
+  const metatitle = String(titleSeo || "Professional Samsung AC Repair in Dubai | Air Conditioning | FAJ");
+  const metadescription = String(description || "Our experienced team provides Samsung AC repair and maintenance in Dubai. Book now 043300002 for VRF, central and split unit service and AMC");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Samsung AC Repair, Samsung AC Service, Samsung Air Conditioner Maintenance, Samsung AC Cleaning, Samsung AC Installation, Samsung AC Repair Dubai, Samsung Air Conditioner Service Dubai, Samsung Split AC Repair Dubai, Samsung Central AC Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/samsung-ac-repair-in-dubai/").replace(/\/?$/, '/');

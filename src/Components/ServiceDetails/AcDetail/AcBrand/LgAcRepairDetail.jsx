@@ -21,8 +21,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const LgAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "LG AC Repair in Dubai - Air Conditioner Maintenance Service");
-  const metadescription = String(description || "Do you want to book an LG AC repair in Dubai? Call Now 043300002 our team is experts in central, VRF & split air condition maintenance services near me.");
+  const metatitle = String(titleSeo || "LG AC Repair & Maintenance in Dubai | Air Conditioning Service");
+  const metadescription = String(description || "Need LG AC repair in Dubai? Call 043300002 to reach the nearest repair center. Our experts specialise VRF & split air conditioning maintenance service..");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "LG AC Repair in Dubai, LG Air Conditioner Maintenance, LG AC Service, LG Split AC Repair, LG Central AC Service, LG VRF AC Repair, LG Air Conditioning Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/lg-ac-repair-in-dubai").replace(/\/?$/, '/');

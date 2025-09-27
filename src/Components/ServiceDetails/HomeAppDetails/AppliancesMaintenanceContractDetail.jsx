@@ -27,8 +27,8 @@ import Testimonial1 from "../../Testimonial/Testimonial1";
 
 const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Best Appliances AMC Service Dubai -#1 Maintenance Contract");
-  const metadescription = String(description || "Time to get comfortable! with appliances AMC service in Dubai FAJ Experts in kitchen appliances, freezer, chiller, cooking appliances maintenance");
+  const metatitle = String(titleSeo || "Appliances AMC Services in Dubai | Maintenance Contract");
+  const metadescription = String(description || "Time to get comfortable with appliances AMC service in Dubai, FAJ Experts in washing machine, refrigerator, cooking, oven, coffee machine maintenance.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Home appliacnes, Appliances AMC, Appliances Maintenance Contract, Kitchen Equipment AMC, Kitchen Appliances AMC, Dubai Appliances Service, Appliance Repair Dubai, Appliance Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-amc-service/").replace(/\/?$/, '/');

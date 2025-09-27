@@ -21,8 +21,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const DaewooAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Daewoo AC Repair in Dubai - AC Maintenance and Service");
-  const metadescription = String(description || "Are You Looking Best Daewoo AC Repair in Dubai? Call 043300002 get sameday split, central Air Conditioner maintenance, cleaning service near you Dubai");
+  const metatitle = String(titleSeo || "Split AC Cleaning | Daewoo AC Repair in Dubai | FAJ Company");
+  const metadescription = String(description || "Are You Looking for fast Daewoo split AC repair in Dubai? We are providing service in Sharjah for air conditioning maintenance services near you");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Daewoo AC Repair in Dubai, Daewoo AC Maintenance in Dubai, Daewoo AC Service in Dubai, Daewoo Air Conditioner Repair in Dubai, Daewoo Air Conditioner Maintenance in Dubai, Daewoo Air Con Repair in Dubai, Daewoo Air Con Service in Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/daewoo-ac-repair-in-dubai-daewoo-ac-maintenance-in-dubai-daewoo-ac-fix-in-dubai-daewoo-ac-service-in-dubai-daewoo-air-condition-repair-in-dubai-daewoo-air-condition-maintenance-in-dubai-daewoo-air-con/").replace(/\/?$/, '/');

@@ -1549,6 +1549,10 @@ export const router = createBrowserRouter([
         path: "/career/",
         element: <Components.Career />,
       },
+      {
+        path: "/testimonials/",
+        element: <Components.Testimonials />,
+      },
     ],
   }
 ], {

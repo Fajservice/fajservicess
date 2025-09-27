@@ -3,8 +3,8 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 
 const PrivacyPolicyPage = ({ titleSeo, description, Author, Keyword, URL }) => {
     // For SEO
-    const metatitle = String(titleSeo || "Privacy Policy");
-    const metadescription = String(description || "Privacy Policy, FAJ was established 2010 & expert in appliances maintenance service company in Dubai, Offering repair of fridge, washing machine.");
+    const metatitle = String(titleSeo || "Privacy Policy | FAJ Technical Services LLC Company");
+    const metadescription = String(description || "Visit FAJ Technical Services when you need help with building or home. We provide a wide range of maintenance services as per your requirements");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaImage = String(Image || "https://www.fajservices.ae/img/page_heading_1.avif");
     const metaKeyword = String(Keyword || "FAJ");
@@ -45,7 +45,7 @@ const PrivacyPolicyPage = ({ titleSeo, description, Author, Keyword, URL }) => {
             <section className="cs_section_padding pt-1 pb-5">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-md-12 cs_fs_9">
+                        <div className="col-md-12 cs_fs_12">
                             <p className="my-2">We regard the protection of your privacy as a necessary principle for our community. We recognise that you and your information are among our most valuable assets. Your data is stored and processed on our servers, which are secured through both physical and technological security measures. If you do not wish for your information to be transferred or used in any way, please send your request to info@fajservices.ae or choose not to use the website. We do not sell or rent your information to any third parties without your explicit consent.</p>
                             <p className="my-2">This document outlines the fundamental principles of our privacy policy as it pertains to customer data. Any questions or comments should be directed to our management team.</p>
                             <p className="my-2">Who are we? In this policy ("Privacy Policy"), the terms "Our," "We," and "Us" refer to FAJ Technical Services LLC, whose registered offices are located at:</p>
@@ -54,13 +54,13 @@ const PrivacyPolicyPage = ({ titleSeo, description, Author, Keyword, URL }) => {
                             <ul className="mb-3">
                             <li>www.fajservices.ae</li>
                             </ul>
-                            <h3 className="cs_fs_12 my-2">Your account obligations</h3>
+                            <h3 className="cs_fs_14 my-2">Your account obligations</h3>
                             <p className="my-2">This Privacy Policy outlines how FAJ Technical Services LLC collects and uses your data. We encourage you to read this Privacy Policy carefully. By using the services offered by FAJ, you consent to the collection and use of your data by FAJ and certain authorised third-party service providers as described in this policy. If you do not agree with this Privacy Policy, please refrain from using the FAJ Technical Services LLC website. By accepting the Privacy Policy during registration, you provide explicit consent for us to use and disclose your personal information in accordance with this policy. This Privacy Policy is incorporated into the terms of the User Agreement.</p>
-                            <h3 className="cs_fs_12 my-2">Your privacy protection with FAJ Technical Services LLC</h3>
+                            <h3 className="cs_fs_14 my-2">Your privacy protection with FAJ Technical Services LLC</h3>
                             <p className="my-2">FAJ Technical Services LLC values your trust in us. We want you to feel comfortable using our site and be secure when sharing your information with us. Therefore, we are proud of our commitment to protecting your privacy. Please continue reading this policy to understand how your personal information will be handled as you make full use of our site.</p>
-                            <h3 className="cs_fs_12 my-2">Your privacy guarantee with FAJ Technical Services LLC</h3>
+                            <h3 className="cs_fs_14 my-2">Your privacy guarantee with FAJ Technical Services LLC</h3>
                             <p className="my-2">FAJ Technical Services LLC guarantees that we will not sell or rent your personal information to third parties, except as outlined in this Privacy Policy, without your consent. We and certain authorised third-party service providers will use the personal information you provide to deliver the services we offer.</p>
-                            <h4 className="cs_fs_10 my-2">Third-party service providers</h4>
+                            <h4 className="cs_fs_12 my-2">Third-party service providers</h4>
                             <p className="my-2">We hire other companies and individuals to perform various functions on our behalf. Examples of these functions include providing services, assisting with marketing, delivering search results, and processing credit card payments. These third parties have access to the personal information necessary to carry out their tasks but are not permitted to use that information for any other purposes.</p>
                             <p className="my-2"><strong>Information We Collect from You</strong></p>
                             <p className="my-2">FAJ Technical Services LLC collects information that you provide during registration, as well as insights gathered from your use of our services and visits to our website. This includes details about the transactions you make, such as the payment card information used. We may also gather additional data related to your participation in any promotions or competitions we offer, along with any feedback you provide or information you share when completing profile forms. Additionally, we monitor customer traffic patterns and site usage to enhance the services we provide. We aim to collect only the information that is necessary and relevant for delivering our services.</p>
@@ -71,9 +71,9 @@ const PrivacyPolicyPage = ({ titleSeo, description, Author, Keyword, URL }) => {
                             <li>Demographic information (such as your address)</li>
                             <li>Email address</li>
                             </ul>
-                            <h4 className="cs_fs_10 my-2">Your information may remain stored in an archive on our servers even after the deletion or the termination of your account, credit card details</h4>
+                            <h4 className="cs_fs_12 my-2">Your information may remain stored in an archive on our servers even after the deletion or the termination of your account, credit card details</h4>
                             <p className="my-2">We do not store any credit card information in our database or on our server. It is important for you to protect your password and computer from unauthorised access. Be sure to log out when you finish using a shared computer.</p>
-                            <h4 className="cs_fs_10 my-2">Our use of your information</h4>
+                            <h4 className="cs_fs_12 my-2">Our use of your information</h4>
                             <p className="my-2">We utilise your personal and contact information for the following purposes:</p>
                             <ul className="mb-3">
                             <li>To communicate with you whenever necessary</li>
@@ -83,11 +83,11 @@ const PrivacyPolicyPage = ({ titleSeo, description, Author, Keyword, URL }) => {
                             <li>To inform you if you win a contest</li>
                             <li>To send you promotional materials from our contest sponsors or advertisers</li>
                             </ul>
-                            <h4 className="cs_fs_10 my-2">Who&rsquo;s allowed to use FAJ Technical Services LLC?</h4>
+                            <h4 className="cs_fs_12 my-2">Who&rsquo;s allowed to use FAJ Technical Services LLC?</h4>
                             <p className="my-2">FAJ Technical Services LLC does not sell products to children. If you are under 18, you may browse the FAJ Technical Services LLC website, but you cannot purchase any product without a parent or guardian's involvement.</p>
-                            <h4 className="cs_fs_10 my-2">Information that you can access</h4>
+                            <h4 className="cs_fs_12 my-2">Information that you can access</h4>
                             <p className="my-2">FAJ Technical Services LLC provides access to information regarding your account and interactions with FAJ, allowing you to view, update, and edit that information.</p>
-                            <h4 className="cs_fs_10 my-2">Our disclosure of your information</h4>
+                            <h4 className="cs_fs_12 my-2">Our disclosure of your information</h4>
                             <p className="my-2">We will only use your personal information to complete transactions with you. We do not rent, sell, or share your personal information, and we will not disclose any personally identifiable information to third parties unless:</p>
                             <ul className="mb-3">
                             <li>We have your permission.</li>
@@ -96,10 +96,10 @@ const PrivacyPolicyPage = ({ titleSeo, description, Author, Keyword, URL }) => {
                             <li>We are required to comply with subpoenas, court orders, or requests from legal authorities or law enforcement agencies.</li>
                             <li>Your privacy and security are our top priorities.</li>
                             </ul>
-                            <h4 className="cs_fs_10 my-2">Security</h4>
+                            <h4 className="cs_fs_12 my-2">Security</h4>
                             <p className="my-2">To protect against the loss, misuse, and alteration of the information we manage, we have established appropriate physical, electronic, and managerial procedures. For instance, our servers are accessible only to authorised personnel, and your information is shared with relevant team members on a need-to-know basis to complete transactions and fulfil the services you request.</p>
                             <p className="my-2">While we strive to safeguard the confidentiality of your personally identifiable information, please be aware that transmissions made over the internet cannot be completely secure. By using this site, you agree that we cannot be held liable for any disclosure of your information due to transmission errors or unauthorised actions by third parties.</p>
-                            <h4 className="cs_fs_10 my-2">Access or change your personally identifiable information</h4>
+                            <h4 className="cs_fs_12 my-2">Access or change your personally identifiable information</h4>
                             <p className="my-2">To protect your privacy and security, we will verify your identity before granting access to or making changes to your personally identifiable information. If you have registered your profile with FAJ Technical Services LLC, you will need your FAJ username and password to access your profile information. We reserve the right to change or update our policies at any time, and such changes will take effect immediately upon being posted on this site.</p>
                             <p className="my-2">We are committed to safeguarding the privacy of our website visitors, and this policy explains how we handle your personal information. Our website uses cookies, and by using the site and agreeing to this policy, you consent to our use of cookies as outlined here.</p>
                             <p className="my-2">Regarding the information we collect, we may gather, store, and utilise the following types of personal information:</p>
@@ -112,7 +112,7 @@ const PrivacyPolicyPage = ({ titleSeo, description, Author, Keyword, URL }) => {
                             </ul>
                             <p className="my-2">Before you disclose personal information about another person, you must obtain that person&rsquo;s consent for both the disclosure and the processing of that information under this privacy policy.</p>
                             <p className="my-2">Please note that all credit/debit card details and personally identifiable information will NOT be stored, sold, shared, rented, or leased to any third parties.</p>
-                            <h4 className="cs_fs_10 my-2">1. Cookies</h4>
+                            <h4 className="cs_fs_12 my-2">1. Cookies</h4>
                             <p className="my-2">A cookie is a file that contains an identifier&mdash;a string of letters and numbers&mdash;that is sent by a web server to a web browser and stored by the browser. Each time the browser requests a page from the server, the identifier is sent back to the server. This process allows the web server to identify and track the web browser.</p>
                             <p className="my-2">Our website uses both "session" cookies and "persistent" cookies. Session cookies are deleted from your computer when you close your browser, while persistent cookies remain stored until deleted or until they reach a specified expiration date.</p>
                             <p className="my-2">We use session cookies to:</p>
@@ -128,7 +128,7 @@ const PrivacyPolicyPage = ({ titleSeo, description, Author, Keyword, URL }) => {
                             </ul>
                             <p className="my-2">Additionally, we use Google Analytics to assess the use of this website. Google Analytics collects statistical and other information about website usage through cookies, which are stored on users' computers. The information generated about our website is used to create reports on its usage, and Google retains this information. You can find Google's privacy policy for more details.</p>
                             <p className="my-2">Our payment service providers may also send cookies.</p>
-                            <h4 className="cs_fs_10 my-2">2. Using your personal information</h4>
+                            <h4 className="cs_fs_12 my-2">2. Using your personal information</h4>
                             <p className="my-2">Personal information submitted to us through this website will be used for the purposes outlined in this privacy policy or in the relevant sections of the website. We may use your personal information for the following purposes:</p>
                             <ul className="mb-3">
                             <li>Administering the website</li>
@@ -145,7 +145,7 @@ const PrivacyPolicyPage = ({ titleSeo, description, Author, Keyword, URL }) => {
                             <li>Other related uses</li>
                             </ul>
                             <p className="my-2">When you submit personal information for publication on our website, we will publish and use that information according to the license you grant us. We will not provide your personal information to any third parties for direct marketing purposes without your consent. All financial transactions on our website using credit or debit cards are handled through our payment service provider, Checkout. You can review their privacy policy. We will share information with Checkout only to the extent necessary for processing payments you make through our website, refunding such payments, and addressing complaints and inquiries related to payments and refunds. FAJ Technical Services LLC will neither store any debit/credit card details of users nor share such details with third parties.</p>
-                            <h4 className="cs_fs_10 my-2">3. Disclosures</h4>
+                            <h4 className="cs_fs_12 my-2">3. Disclosures</h4>
                             <p className="my-2">We may share your personal information with our employees, officers, agents, suppliers, or subcontractors as necessary to fulfil the purposes outlined in this privacy policy. Additionally, we may disclose your personal information to any member of our group of companies, which includes our subsidiaries and our ultimate holding company, along with its subsidiaries, as needed for the reasons specified in this privacy policy.</p>
                             <p className="my-2">Furthermore, we may disclose your personal information under the following circumstances:</p>
                             <ul className="mb-3">
@@ -155,22 +155,22 @@ const PrivacyPolicyPage = ({ titleSeo, description, Author, Keyword, URL }) => {
                             <li>To any individual or entity we reasonably believe may request a court or other competent authority to obtain your personal information, provided that we reasonably think such a request is likely to be granted.</li>
                             </ul>
                             <p className="my-2">Except as described in this privacy policy, we will not share your information with third parties.</p>
-                            <h4 className="cs_fs_10 my-2">4. International data transfers</h4>
+                            <h4 className="cs_fs_12 my-2">4. International data transfers</h4>
                             <p className="my-2">We may collect information that can be stored, processed, and transferred between the countries where we operate to utilise it in accordance with this privacy policy. Additionally, any personal information you submit for publication on our website may be made available on the Internet and could be accessed globally. We cannot guarantee the prevention of such information from being used or misused by others.</p>
                             <p className="my-2">By providing your personal information, you explicitly agree to these transfers.</p>
-                            <h4 className="cs_fs_10 my-2">5. Security of your personal information</h4>
+                            <h4 className="cs_fs_12 my-2">5. Security of your personal information</h4>
                             <p className="my-2">We will take reasonable technical and organisational measures to prevent the loss, misuse, or alteration of your personal information. All personal information you provide will be stored on our secure servers, which are protected by passwords and firewalls.</p>
                             <p className="my-2">All electronic transactions conducted through our website will be secured with encryption technology.</p>
                             <p className="my-2">Please be aware that transmitting information over the Internet carries inherent risks, and we cannot guarantee the security of data sent online. FAJ Technical Services LLC takes appropriate steps to ensure data privacy and security through various hardware and software methods. However, we cannot guarantee the security of any information disclosed online.</p>
-                            <h4 className="cs_fs_10 my-2">6. Policy amendments</h4>
+                            <h4 className="cs_fs_12 my-2">6. Policy amendments</h4>
                             <p className="my-2">We may update this privacy policy periodically by publishing a new version on our website. We recommend checking this page from time to time to ensure you are satisfied with any changes. Additionally, we may also inform you of updates to our privacy policy via email.</p>
-                            <h4 className="cs_fs_10 my-2">7. Your rights</h4>
+                            <h4 className="cs_fs_12 my-2">7. Your rights</h4>
                             <p className="my-2">You can either consent to our use of your personal information for marketing purposes in advance, or we will give you the chance to opt out of its use for marketing purposes.</p>
-                            <h4 className="cs_fs_10 my-2">8. Third-party websites</h4>
+                            <h4 className="cs_fs_12 my-2">8. Third-party websites</h4>
                             <p className="my-2">The website contains links to other sites. We are not responsible for the privacy policies or practices of these third-party websites.</p>
-                            <h4 className="cs_fs_10 my-2">9. Updating information</h4>
+                            <h4 className="cs_fs_12 my-2">9. Updating information</h4>
                             <p className="my-2">Please inform us if any of your personal information needs correction or updating.</p>
-                            <h4 className="cs_fs_10 my-2">10. Data Collection</h4>
+                            <h4 className="cs_fs_12 my-2">10. Data Collection</h4>
                             <p className="my-2">We collect data that includes your phone number, email address, home address, latitude, and longitude. This information is provided to us when you make a booking, as we need it to contact you and find your location in order to offer our services. If you would like your data deleted, please send us an email at info@fajservices.ae to request its removal.</p>
                         </div>
                     </div>

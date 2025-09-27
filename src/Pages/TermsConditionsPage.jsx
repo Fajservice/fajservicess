@@ -3,8 +3,8 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 
 const TermsConditionsPage = ({ titleSeo, description, Author, Keyword, URL }) => {
     // For SEO
-    const metatitle = String(titleSeo || "Terms and Conditions");
-    const metadescription = String(description || "Privacy Policy, FAJ was established 2010 & expert in appliances maintenance service company in Dubai, Offering repair of fridge, washing machine.");
+    const metatitle = String(titleSeo || "Terms and Conditions | FAJ Technical Services LLC Dubai");
+    const metadescription = String(description || "By continuing to browse this website, you are agreeing to the following terms and conditions applied to the use of our services and FAJ website.");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaImage = String(Image || "https://www.fajservices.ae/img/page_heading_1.avif");
     const metaKeyword = String(Keyword || "FAJ");
@@ -45,14 +45,14 @@ const TermsConditionsPage = ({ titleSeo, description, Author, Keyword, URL }) =>
             <section className="cs_section_padding pt-1 pb-5">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-md-12 cs_fs_9">
+                        <div className="col-md-12 cs_fs_12">
                             <p>By continuing to browse this website, you agree to the terms and conditions that govern the use of our services and website, and you are expected to follow our company policies.&nbsp;</p>
                             <ul>
                                 <li>The terms &ldquo;FAJ Technical Services LLC&reg;,&rdquo; &ldquo;Website,&rdquo; &ldquo;We,&rdquo; and &ldquo;Us&rdquo; in this document refer to FAJ Technical Services LLC.</li>
                                 <li>The terms &ldquo;You,&rdquo; &ldquo;User,&rdquo; or &ldquo;Your&rdquo; refer to the individual using this website or the customer of our services.</li>
                                 <li>The terms &ldquo;Document&rdquo; or &ldquo;Agreement&rdquo; in this text refer to the terms and conditions for using this website.</li>
                             </ul>
-                             <h3 className="cs_fs_12 my-2">Pre-Payment Terms and Conditions</h3>
+                            <h3 className="cs_fs_14 my-2">Pre-Payment Terms and Conditions</h3>
                             <p>We are pleased to offer you our technical services and would like to outline our pre-payment terms and conditions. These terms are designed to protect both parties and ensure that we can continue to deliver high-quality technical services.</p>
                             <p><strong>Pre-payment Requirement:</strong></p>
                             <p>Customers are required to make an advance pre-payment of the total service cost before any services can be rendered</p>
@@ -71,7 +71,7 @@ const TermsConditionsPage = ({ titleSeo, description, Author, Keyword, URL }) =>
                             <p><strong>Terms and Conditions Acceptance:</strong></p>
                             <p>By making the pre-payment, the customer acknowledges and accepts these pre-payment terms and conditions in their entirety.</p>
                             <p>We believe these pre-payment terms and conditions are fair and reasonable for both parties. If you have any questions or concerns about these terms, please feel free to reach out at +97143300002.</p>
-                             <h3 className="cs_fs_12 my-2">Rescheduling and Cancellations</h3>
+                             <h3 className="cs_fs_14 my-2">Rescheduling and Cancellations</h3>
                             <ul>
                             <li>You can cancel or change your booking request by contacting us at least one working day in advance to avoid cancellation charges. If you do not provide adequate notice, charges will apply according to the company&rsquo;s policy. Please ensure that your notification is in written format and sent to info@fajservices.ae. FAJ Technical Services LLC reserves the right to impose cancellation fees to cover any related administrative expenses.</li>
                             <li>A cancellation fee will apply if amendments or cancellations are made less than 24 hours before the scheduled start time of the job.</li>
@@ -80,7 +80,7 @@ const TermsConditionsPage = ({ titleSeo, description, Author, Keyword, URL }) =>
                             <li>Requests to reschedule or cancel (limited to one time per booking) made with less than 48 hours' notice but more than 24 hours' notice can be accommodated without additional cost.</li>
                             <li>If you provide less than 24 hours' notice, a charge of AED 157 will be incurred.</li>
                             </ul>
-                             <h3 className="cs_fs_12 my-2">Payments</h3>
+                             <h3 className="cs_fs_14 my-2">Payments</h3>
                             <ul>
                             <li>To enable online payments using credit or debit cards, we reserve the exclusive right to verify and authorise the card prior to your purchase.</li>
                             <li>When making an online payment, please ensure that you keep a copy of the transaction record for your records</li>
@@ -88,9 +88,9 @@ const TermsConditionsPage = ({ titleSeo, description, Author, Keyword, URL }) =>
                             <li>You also agree to automatic invoicing and payment for the services booked on the website, when applicable.</li>
                             <li>Please note that once payment is made for the services rendered, it is non-refundable. If you encounter any issues or exceptional circumstances, please contact us at +97143300002 or email us at info@fajservices.ae.</li>
                             </ul>
-                             <h3 className="cs_fs_12 my-2">Service and VAT fees&nbsp;</h3>
+                             <h3 className="cs_fs_14 my-2">Service and VAT fees&nbsp;</h3>
                             <p>All service bookings are subject to a service fee and a 5% Value Added Tax (VAT) in accordance with UAE regulations.</p>
-                             <h3 className="cs_fs_12 my-2">Refunds/Claims/Complaints&nbsp;</h3>
+                             <h3 className="cs_fs_14 my-2">Refunds/Claims/Complaints&nbsp;</h3>
                             <p><strong>Satisfaction Guarantee:</strong></p>
                             <p>All services are deemed complete and satisfactory unless <strong>FAJ Technical Services LLC </strong>receives written notice within 24 hours of service completion.</p>
                             <p><strong>Complaint Resolution:</strong></p>

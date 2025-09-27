@@ -19,8 +19,8 @@ import Testimonial1 from "../../Testimonial/Testimonial1";
 
 const MeatGrinderRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Meat Grinder Repair & Maintenance Services Dubai");
-  const metadescription = String(description || "Need meat grinder repair in Dubai? FAJ offers expert repair services near me. Call us now for fast and reliable meat grinder repair at 043300002");
+  const metatitle = String(titleSeo || "Meat Grinder Repair in Dubai | Maintenance Services Near Me");
+  const metadescription = String(description || "Need meat grinder repair in Dubai? FAJ offers an expert repair and service center near me. Book now, fast and reliable meat grinder repair at 043300002");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Meat Grinder Repair, Meat Grinder Service, Meat Grinder Maintenance");
   const metaURL = String(URL || "https://www.fajservices.ae/meat-grinder-repair/").replace(/\/?$/, '/');

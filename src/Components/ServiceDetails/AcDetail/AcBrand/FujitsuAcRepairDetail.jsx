@@ -21,8 +21,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const FujitsuAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Fujitsu AC Repair in Dubai  Air Conditioner Maintenance");
-  const metadescription = String(description || "Fujitsu AC is a trusted brand. Call us 043300002 for Fujitsu AC Repair in Dubai and Central & Split Air Conditioner (AC) Maintenance Service nearby You.");
+  const metatitle = String(titleSeo || "Air Conditioning Service | Fujitsu AC Repair in Dubai");
+  const metadescription = String(description || "For your home and office air conditioning service, Fujitsu AC Repair FAJ Assist can be reached at 043300002 and is available from 8:00 am to 6:00 pm ");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Fujitsu AC Repair in Dubai, Fujitsu Air Conditioner Maintenance, Fujitsu AC Service, Fujitsu AC Fix, Fujitsu Air Condition Repair, Fujitsu Air Condition Maintenance, Fujitsu Air Condition Service, Fujitsu Air Condition Fix");
   const metaURL = String(URL || "https://www.fajservices.ae/fujitsu-ac-repair-in-dubai-fujitsu-ac-maintenance-in-dubai-fujitsu-ac-fix-in-dubai-fujitsu-ac-service-in-dubai-fujitsu-air-condition-repair-in-dubai-fujitsu-air-condition-maintenance-in-dubai-fujitsu/").replace(/\/?$/, '/');

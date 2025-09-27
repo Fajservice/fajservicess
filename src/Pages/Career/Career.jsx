@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './css/career.css';
+import { HelmetProvider } from 'react-helmet-async';
+import { Link } from 'react-router-dom';
 
 const Career = () => {
   const [selectedJob, setSelectedJob] = useState(null);
@@ -236,10 +238,30 @@ Job Types: Full-time, Permanent, Contract`
   if (selectedJob) {
     return <JobDetailsView job={selectedJob} />;
   }
-
+  const titleSeo = "Join Our Team: Explore Career Opportunities Job in Dubai at FAJ";
+  const description = "Explore exciting career opportunities at FAJ Tech Services LLC and join our dedicated team of professionals committed to providing excellent service.";
+  const Author = "Faj Technical Servcies";
+  const Keyword = "";
+  const URL = "https://www.fajservices.ae/career/";
   // Main jobssssssssssssssssss
   return (
-    <div className="career-container">
+    <>
+      <HelmetProvider>
+              <title>{titleSeo}</title>
+              <meta name="description" content={description}></meta>
+              <meta name="keywords" content={Keyword} />
+              <meta name="author" content={Author} />
+              <meta name="robots" content="index, follow" />
+              <Link rel="canonical" href={titleSeo} />
+              <meta property="og:type" content="website" />
+              <meta property="og:locale" content="en_US" />
+              <meta property="og:title" content={titleSeo} />
+              <meta property="og:description" content={description} />
+              <meta property="og:type" content="website" />
+              <meta property="og:url" content={URL} />
+      
+            </HelmetProvider>
+             <div className="career-container">
       <h1 className="job-main-title">Job Opening Apply Now</h1>
       
       <div className="services-grid">
@@ -260,6 +282,8 @@ Job Types: Full-time, Permanent, Contract`
         ))}
       </div>
     </div>
+    </>
+   
   );
 };
 

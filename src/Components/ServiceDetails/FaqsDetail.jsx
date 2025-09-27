@@ -16,8 +16,8 @@ import Accordion from "../../Components/Common/Accordion.jsx";
 const FaqsDetail = ({ subtitle, title, bgImg }) => {
 
   // For SEO
-  const titleSeo = "Home & Commercial Appliance FAQ's – Dubai";
-  const description = "Find trusted home & commercial appliance FAQ's in Dubai. FAJ, serving since 2010, delivers reliable service for all major appliance brands.";
+  const titleSeo = "Frequently Asked Questions About Services Home & Commercial ";
+  const description = "Find answers to common problem questions about home  / office repair services in Dubai. Explore our FAQ section for helpful insights into what we offer.";
   const Author = "Faj Technical Servcies";
   const Keyword = "AC repair and Maintenance Service Near me Dubai, Appliances repair Service Dubai";
   const URL = "https://www.fajservices.ae/faqs/";

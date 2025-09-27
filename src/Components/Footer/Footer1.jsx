@@ -178,7 +178,7 @@ const Footer1 = () => {
           <div className="container">
             <div className="cs_footer_bottom_in">
               <div className="cs_footer_copyright text-light">
-                Copyright © {new Date().getFullYear()} <a className="text-light" href="https://www.fajitsolutions.com/">FAJ IT SOLUTIONS</a>. All Rights Reserved.
+                Copyright © {new Date().getFullYear()} <a className="text-light" href="https://www.fajservices.ae/">FAJ Technical Services LLC</a>. All Rights Reserved.
               </div>
               <div>
                 <img

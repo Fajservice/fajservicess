@@ -20,8 +20,8 @@ import Testimonial1 from "../../Testimonial/Testimonial1";
 
 const CigarcabnitServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Cigar Cabinet Humidifier Repair - Dehumidifier Service");
-  const metadescription = String(description || "FAJ expert in Cigar cabinet humidifier repair. Dail 043300002 for Dehumidifier, cigar fridge, cooler, refrigerator, electric humidor maintenance service Dubai");
+  const metatitle = String(titleSeo || "Cigar Cabinet Humidifier Repair Dubai | Dehumidifier Maintenance");
+  const metadescription = String(description || "FAJ is an expert in Cigar cabinet humidifier repair. Call 043300002 for Dehumidifier, fridge, cooler, and electric humidor maintenance service in Dubai");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Cigar Cabinet Humidifier Repair, Dehumidifier Service, Cigar Fridge Repair, Cigar Cooler Service, Electric Humidor Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/cigar-humidor-repair/").replace(/\/?$/, '/');

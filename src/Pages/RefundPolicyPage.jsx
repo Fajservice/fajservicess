@@ -45,7 +45,7 @@ const PrivacyPolicyPage = ({ titleSeo, description, Author, Keyword, URL }) => {
             <section className="cs_section_padding pt-1 pb-5">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-md-12 cs_fs_9">
+                        <div className="col-md-12 cs_fs_12">
                             <p className="my-2">We are pleased to offer you our technical services and would like to outline our pre-payment terms and conditions. These terms are designed to protect both parties and ensure that we can continue to deliver high-quality technical services.</p>
                             <p><strong>Pre-payment Requirement:</strong></p>
                             <p className="my-2">Customers are required to make an advance pre-payment of the total service cost before any services can be rendered</p>
@@ -66,7 +66,7 @@ const PrivacyPolicyPage = ({ titleSeo, description, Author, Keyword, URL }) => {
                             <p><strong>Terms and Conditions Acceptance:</strong></p>
                             <p className="my-2">By making the pre-payment, the customer acknowledges and accepts these pre-payment terms and conditions in their entirety.</p>
                             <p className="my-2">We believe these pre-payment terms and conditions are fair and reasonable for both parties. If you have any questions or concerns about these terms, please feel free to reach out at +97143300002.</p>
-                             <h3 className="cs_fs_12 my-2">Rescheduling and Cancellations</h3>
+                             <h3 className="cs_fs_14 my-2">Rescheduling and Cancellations</h3>
                             <ul className="mb-3">
                             <li>You can cancel or change your booking request by contacting us at least one working day in advance to avoid cancellation charges. If you do not provide adequate notice, charges will apply according to the company&rsquo;s policy. Please ensure that your notification is in written format and sent to info@fajservices.ae. FAJ Technical Services LLC reserves the right to impose cancellation fees to cover any related administrative expenses.</li>
                             <li>A cancellation fee will apply if amendments or cancellations are made less than 24 hours before the scheduled start time of the job.</li>
@@ -75,7 +75,7 @@ const PrivacyPolicyPage = ({ titleSeo, description, Author, Keyword, URL }) => {
                             <li>Requests to reschedule or cancel (limited to one time per booking) made with less than 48 hours' notice but more than 24 hours' notice can be accommodated without additional cost.</li>
                             <li>If you provide less than 24 hours' notice, a charge of AED 157 will be incurred.</li>
                             </ul>
-                             <h3 className="cs_fs_12 my-2">Payments</h3>
+                             <h3 className="cs_fs_14 my-2">Payments</h3>
                             <ul className="mb-3">
                             <li>To enable online payments using credit or debit cards, we reserve the exclusive right to verify and authorise the card prior to your purchase.</li>
                             <li>When making an online payment, please ensure that you keep a copy of the transaction record for your records</li>
@@ -83,9 +83,9 @@ const PrivacyPolicyPage = ({ titleSeo, description, Author, Keyword, URL }) => {
                             <li>You also agree to automatic invoicing and payment for the services booked on the website, when applicable.</li>
                             <li>Please note that once payment is made for the services rendered, it is non-refundable. If you encounter any issues or exceptional circumstances, please contact us at +97143300002 or email us at info@fajservices.ae.</li>
                             </ul>
-                             <h3 className="cs_fs_12 my-2">Service and VAT fees</h3>
+                             <h3 className="cs_fs_14 my-2">Service and VAT fees</h3>
                             <p className="my-2">All service bookings are subject to a service fee and a 5% Value Added Tax (VAT) in accordance with UAE regulations.</p>
-                             <h3 className="cs_fs_12 my-2">Refunds/Claims/Complaints</h3>
+                             <h3 className="cs_fs_14 my-2">Refunds/Claims/Complaints</h3>
                             <p><strong>Satisfaction Guarantee:</strong></p>
                             <p className="my-2">All services are deemed complete and satisfactory unless <strong>FAJ Technical Services LLC </strong>receives written notice within 24 hours of service completion.</p>
                             <p><strong>Complaint Resolution:</strong></p>

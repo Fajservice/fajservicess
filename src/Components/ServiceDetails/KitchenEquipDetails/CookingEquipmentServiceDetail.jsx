@@ -20,8 +20,8 @@ import Testimonial1 from "../../Testimonial/Testimonial1";
 
 const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Commercial Cooking Appliances Repair Dubai | Service Center");
-  const metadescription = String(description || "FAJ experts in providing Repair and Maintenance services for commercial range cooking appliances in Dubai. Call us now at 043300002 for quality work.");
+  const metatitle = String(titleSeo || "Commercial Cooking Appliances Repair | Maintenance Service");
+  const metadescription = String(description || "FAJ experts in commercial cooking appliances repair, professional kitchen equipment maintenance and AMC services in Dubai. Book now at 043300002");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial Cooking Equipment Repair, Dubai, professional Kitchen Appliances Service, professional Cooking Range Repair, professional Gas Stove Repair, professional Deep Fryer Service, professional Oven Repair, Restaurant Equipment Maintenance");
   const metaURL = String(URL || "https://www.fajservices.ae/commercial-cooking-appliances-repair-service/").replace(/\/?$/, '/');
