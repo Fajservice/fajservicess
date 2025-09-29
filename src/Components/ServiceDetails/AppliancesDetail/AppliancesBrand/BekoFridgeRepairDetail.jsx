@@ -20,8 +20,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const BekoFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Beko Fridge Repair - Beko Washing Machine Service near me");
-  const metadescription = String(description || "Beko fridge repair Dubai. FAJ provides various services of Beko washing machine, refrigerator, dishwasher, oven, stove & dryer repair Call 043300002");
+  const metatitle = String(titleSeo || "Beko Appliance Service |  Beko Fridge Repair & Maintenance Dubai");
+  const metadescription = String(description || "Our expert technicians are here to help with all your appliance needs. Call Beko fridge repair, dishwasher, oven, or washing machine service near you.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Beko fridge repair, Beko washing machine repair, Beko cooker repair, Beko oven repair, Beko appliances maintenance, Beko refrigerator fix, Beko appliance service Dubai");

@@ -22,8 +22,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1";
 
 const UnimacWashingMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
  // For SEO
- const metatitle = String(titleSeo || "Unimac Washing Machine Repair in Dubai - Dryer AMC Service ");
- const metadescription = String(description || "FAJ offering Unimac Washing Machine repair in Dubai. Unimac washer dryer, laundry machine annual maintenance contract and service Call now 043300002");
+ const metatitle = String(titleSeo || "Unimac Washing Machine Repair in Dubai | Dryer AMC Services");
+ const metadescription = String(description || "FAJ offering Unimac washing machine Repair, Unimac Washer Dryer, laundry machine maintenance contract Services Call now 043300002");
  const metaAuthor = String(Author || "Faj Technical Services");
  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
  const metaKeyword = String(Keyword || "unimac washing machine repair in Dubai, Unimac dryer repair in Dubai, Unimac washer dryer repair in Dubai, Unimac maintenance in Dubai, Unimac laundry service in Dubai, Unimac Dubai");

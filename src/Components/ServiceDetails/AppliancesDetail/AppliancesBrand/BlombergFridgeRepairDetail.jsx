@@ -22,8 +22,8 @@ import Testimonial1 from '../../../Testimonial/Testimonial1';
 const BlombergFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
 	// For SEO
-	const metatitle = String(titleSeo || "Blomberg Fridge Repair - Washing Machine Service Dubai");
-	const metadescription = String(description || "Blomberg fridge repair Dubai - Fast, reliable Blomberg washing machine, refrigerator, dishwasher repair, and Blomberg cooker & oven service near you.");
+	const metatitle = String(titleSeo || "Blomberg Home Appliances | Fridge Repair & Service in Dubai");
+	const metadescription = String(description || "For Blomberg appliance service across Dubai, contact us for repair to your fridge, washing machine, dishwasher, refrigerator, & oven fix near you in Dubai.");
 	const metaAuthor = String(Author || "Faj Technical Services");
 	const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
 	const metaKeyword = String(Keyword || "Blomberg fridge repair, Blomberg washing machine repair, Blomberg cooker repair, Blomberg oven repair, Blomberg appliances maintenance, Blomberg refrigerator service Dubai, Blomberg dishwasher repair Dubai, Blomberg appliance service Dubai");

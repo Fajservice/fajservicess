@@ -20,8 +20,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const GaggenauFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Gaggenau Fridge Repair – Cooker & Oven Service Dubai");
-  const metadescription = String(description || "Gaggenau Fridge Repair Dubai - Specializing in Gaggenau refrigerator repair, oven repair, stove fix, washing machine, and dishwasher repair. 043300002");
+  const metatitle = String(titleSeo || "Gaggenau Fridge Repair | Stove & Oven Service in Dubai");
+  const metadescription = String(description || "FAJ specialises in Gaggenau refrigerator, range, dishwasher, repairs & washer service center. Book Gaggenau Fridge Repair in Dubai at 043300002");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Gaggenau Fridge Repair, Gaggenau Washing Machine Repair, Gaggenau Cooker Repair, Gaggenau Oven Repair, Gaggenau Appliances Maintenance, Gaggenau Refrigerator Service Dubai");

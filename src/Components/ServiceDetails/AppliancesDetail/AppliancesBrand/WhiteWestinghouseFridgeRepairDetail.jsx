@@ -20,8 +20,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "White Westinghouse Fridge Repair Dubai - Freezer Service");
-  const metadescription = String(description || "FAJ has delivered qualityWhite Westinghouse Fridge Repair in Dubai. Dail 043300002 for refrigerator, washing machine, dryer maintenance service near");
+  const metatitle = String(titleSeo || "White Westinghouse Fridge Repair in Dubai | Freezer Servicee");
+  const metadescription = String(description || "FAJ provides warranty for White Westinghouse fridge repair, refrigerator, washing machine, and dryer maintenance services in the nearby. Call 043300002");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "White Westinghouse Fridge Repair Dubai, White Westinghouse Washing Machine Repair Dubai, White Westinghouse Cooker Repair Dubai, White Westinghouse Oven Repair Dubai, White Westinghouse Appliance Service Dubai");

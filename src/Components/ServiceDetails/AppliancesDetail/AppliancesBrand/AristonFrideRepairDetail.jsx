@@ -21,8 +21,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const AristonFrideRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Ariston Fridge Repair - Ariston Washing Machine Service");
-  const metadescription = String(description || "Ariston Fridge Repair Dubai - We offer expert washing machines, water heaters, dishwashers, dryers, ovens, and stove repair services.");
+  const metatitle = String(titleSeo || "Ariston Fridge Repair & Washing Machine Service | Oven in Dubai");
+  const metadescription = String(description || "Book your Ariston fridge repair with service. FAJ are offer expert repairs washer, cooker, freezer, dishwasher, dryer, oven, and stove center in Dubai");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Ariston Fridge Repair, Ariston Washing Machine Repair, Ariston Cooker Repair, Ariston Oven Repair, Ariston Appliances Maintenance in Dubai, Ariston Refrigerator Fix Repair");

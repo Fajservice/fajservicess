@@ -20,8 +20,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const ToshibaHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Toshiba Home Appliance Service - Refrigerator Repair Dubai");
-  const metadescription = String(description || "Are you finding Toshiba home appliance service so now dial 043300002 for Toshiba fridge, washing machine, dryer and oven repair service near you Dubai");
+  const metatitle = String(titleSeo || "Toshiba Home Appliance Service in Dubai | Refrigerator Repair");
+  const metadescription = String(description || "Are you looking for Toshiba home appliance service? Call 043300002 for Toshiba fridge, washing machine, dryer and oven repair center & service Dubai");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Toshiba home appliance service, Toshiba fridge repair Dubai, Toshiba washing machine repair Dubai, Toshiba dryer repair Dubai, Toshiba oven repair Dubai, Toshiba appliance maintenance Dubai");

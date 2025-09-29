@@ -23,8 +23,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1";
 const SmegMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Smeg Mixer Repair Service – Small Appliance Fix in Dubai");
-  const metadescription = String(description || "Book an expert Smeg mixer repair Dubai. Our trained team fix Retro Style Quart, Food Processor, Vintage & Dolce Mixer service near you. 043300002");
+  const metatitle = String(titleSeo || "Smeg Stand Mixer Repair & Service in Dubai | Small Appliance Fix ");
+  const metadescription = String(description || "Book an expert Smeg mixer repair in Dubai. Our trained team fix Retro Style Quart, Food Processor, Vintage & Dolce Mixer service near you. 043300002");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Smeg mixer repair, Smeg mixer service, Smeg mixer Dubai, Smeg mixer repair Dubai, Smeg mixer service Dubai, Smeg mixer near me, Smeg mixer repair near me, Smeg mixer service near me, Smeg mixer Dubai service, Smeg mixer Dubai repair");

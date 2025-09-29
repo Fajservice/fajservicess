@@ -20,8 +20,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1";
 
 const IndesitWashingMachineDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Indesit Fridge Repair - Indesit Washing Machine Service");
-  const metadescription = String(description || "Indesit Fridge Repair Dubai - Get expert Indesit washing machine repair, refrigerator, cooker, oven dryer repair service near me. Dail 043300002");
+  const metatitle = String(titleSeo || "Indesit Fridge Repair in Dubai | Washing Machine Service Near Me");
+  const metadescription = String(description || "FAJ provides warranty for Indesit fridge repair in Dubai. Get expert washer dryer, refrigerator, cooker, and oven service center near you. 043300002.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Indesit Fridge Repair, Indesit Washing Machine Repair, Indesit Cooker Repair, Indesit Oven Repair, Indesit Appliances Maintenance, Indesit Refrigerator Fix");

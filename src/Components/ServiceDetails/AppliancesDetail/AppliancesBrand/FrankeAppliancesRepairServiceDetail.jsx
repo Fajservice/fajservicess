@@ -20,8 +20,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const FrankeAppliancesRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Franke Appliances Repair – Dishwasher & Oven Services");
-  const metadescription = String(description || "Franke Appliances Repair Dubai. Get Best Franke fridge, refrigerator fix, washing machine, cooker, oven repair service near me in Dubai Call 043300002");
+  const metatitle = String(titleSeo || "Franke Appliances Repair in Dubai | Dishwasher & Oven Service");
+  const metadescription = String(description || "With Warranty, Franke appliances repair in Dubai. Best Franke fridge, refrigerator, washing machine, cooker service, & oven repair center near you Dubai.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Franke Appliances Repair, Franke Fridge Repair, Franke Washing Machine Repair, Franke Cooker Repair, Franke Dishwasher Repair, Franke Oven Repair, Franke Appliance Service Dubai");

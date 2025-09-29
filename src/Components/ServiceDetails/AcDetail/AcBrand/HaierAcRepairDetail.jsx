@@ -21,8 +21,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const HaierAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Haier AC Repair in Dubai - Air Conditioner Service Nearby");
-  const metadescription = String(description || "Haier is the top AC Company. Call us for your Haier AC Repair in Dubai and Best Air Condition Maintenance Services near me 043300002");
+  const metatitle = String(titleSeo || "Haier AC Repair & Maintenance in Dubai Service Center Near You");
+  const metadescription = String(description || "Haier is the top AC Company. Call us for your Haier AC Repair in Dubai and Best Air Conditioning Maintenance Services near me 043300002");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Haier AC Repair in Dubai, Haier Air Conditioner Service, Haier AC Maintenance, Haier AC Fix, Haier Air Condition Repair, Haier Air Condition Maintenance, Haier Air Condition Service");
   const metaURL = String(URL || "https://www.fajservices.ae/haier-ac-repair-in-dubai-haier-ac-maintenance-in-dubai-haier-ac-fix-in-dubai-haier-ac-service-in-dubai-haier-air-condition-repair-in-dubai-haier-air-condition-maintenance-in-dubai-haier-air-condition/").replace(/\/?$/, '/');

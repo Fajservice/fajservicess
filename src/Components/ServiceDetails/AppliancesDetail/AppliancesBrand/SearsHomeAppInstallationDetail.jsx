@@ -23,8 +23,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const SearsHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Sears Appliances Installation Maintenance Repair Dubai #1");
-  const metadescription = String(description || "We are offering Sears Appliance Installation Maintenance Repair Service Dubai. Sears Refrigerator, Fridge, Washing Machine 04300002 ");
+  const metatitle = String(titleSeo || "Sears Appliances Repair & Maintenance Services in Dubai");
+  const metadescription = String(description || "We offer Sears home appliance Installation, Maintenance, and Repair Services in Dubai. Sears Refrigerator, Fridge, Washing Machine 04300002");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Sears Appliance Installation, Sears Appliance Repair, Sears Fridge Repair, Sears Washing Machine Repair, Sears Cooker Repair, Sears Dishwasher Repair, Sears Home Appliances Service Dubai");

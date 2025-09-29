@@ -22,8 +22,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const HisenseFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Hisense Fridge Repair In Dubai - Washing Machine Service");
-    const metadescription = String(description || "We provide the best Hisense fridge repair in dubai. Dail 043300002 for hisense washing machine, refrigerator, dishwasher, stove oven fix service near me");
+    const metatitle = String(titleSeo || "Hisense Fridge Repair In Dubai | Washing Machine Service Near");
+    const metadescription = String(description || "Need assistance with your Hisense appliance service? FAJ offers fridge repair, washing machine, dishwasher, cooker, & dryer repair center. with Warranty");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Hisense fridge repair in Dubai, Hisense washing machine repair in Dubai, Hisense cooker repair in Dubai, Hisense oven repair in Dubai, Hisense appliances maintenance in Dubai, Hisense refrigerator fix repair in Dubai");

@@ -21,8 +21,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const CrafftAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Crafft AC Repair in Dubai - AC Maintenance Service Near");
-  const metadescription = String(description || "Get best Crafft AC Repair in Dubai. Call 043300002 FAJ technicians for central, split air conditioner (AC) maintenance service in your area Dubai, Sharjah");
+  const metatitle = String(titleSeo || "Affordable Crafft AC Repair and Maintenance Service in Dubai");
+  const metadescription = String(description || "Need fast and affordable Crafft AC repair in Dubai? Get expert A/C installation, service & emergency repairs today. Trusted by thousands – Book now.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Crafft AC Repair, Crafft AC Maintenance, Crafft Air Conditioner Service, Crafft Air Conditioner Repair, Crafft Air Conditioner Maintenance, Crafft Air Conditioner Fix, Crafft Air Conditioner Installation, Crafft Air Conditioner Cleaning Service");
   const metaURL = String(URL || "https://www.fajservices.ae/crafft-ac-repair-in-dubai-crafft-ac-maintenance-in-dubai-crafft-ac-fix-in-dubai-crafft-ac-service-in-dubai-crafft-air-condition-repair-in-dubai-crafft-air-condition-maintenance-in-dubai-crafft-air-con/").replace(/\/?$/, '/');

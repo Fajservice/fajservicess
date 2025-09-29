@@ -22,8 +22,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const BaumaticAppliancesDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
     // For SEO
-    const metatitle = String(titleSeo || "Best Baumatic Appliances - Washing Machine Repair Dubai #1");
-    const metadescription = String(description || "FAJ technicians fully professional in Baumatic appliances service in Dubai, Experts in fridge, refrigerator, washing machine, dishwasher, oven repair");
+    const metatitle = String(titleSeo || "Baumatic Appliances Center - Washing Machine Repair in Dubai");
+    const metadescription = String(description || "FAJ technicians fully professional in Baumatic appliances repair in Dubai, Experts in fridge, refrigerator, washing machine, dishwasher, oven service");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Baumatic Appliances, Baumatic Washing Machine Repair, Baumatic Fridge Repair, Baumatic Dishwasher Repair, Baumatic Oven Repair, Baumatic Appliance Service Dubai");

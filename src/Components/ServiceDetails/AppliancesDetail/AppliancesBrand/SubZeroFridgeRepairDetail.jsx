@@ -22,8 +22,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1";
 
 const SubZeroFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Sub Zero Fridge Repair - Best Refrigerator Repair Service ");
-  const metadescription = String(description || "Looking for Sub Zero fridge repair in Dubai? FAJ offers expert in refrigerator & freezer maintenance services near you in Dubai. Dail 043300002 ");
+  const metatitle = String(titleSeo || "Sub Zero Fridge Repair & Service in Dubai | Freezer Maintenance ");
+  const metadescription = String(description || "Contact the experts at Sub Zero fridge repair in Dubai, a reliable repair centre for SubZero refrigerator and freezer maintenance near you. Dial 043300002.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Sub Zero Fridge Repair, Sub Zero Washing Machine Repair, Sub Zero Cooker Repair, Sub Zero Oven Repair, Sub Zero Appliances Maintenance, Sub Zero Refrigerator Repair Dubai, Sub Zero Appliance Service Dubai");

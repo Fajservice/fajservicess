@@ -23,8 +23,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const CandyRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Candy Refrigerator Repair Dubai - Washing Machine Service");
-  const metadescription = String(description || "To get fast & reliable Candy refrigerator repair in Dubai. Dail 043300002 for your fridge, candy washing machine, dishwasher, oven fix service near me");
+  const metatitle = String(titleSeo || "Candy Refrigerator Repair in Dubai | Washer Dryer Service Near");
+  const metadescription = String(description || "With Warranty Candy refrigerator repair in Dubai. Call 043300002 for your fridge, candy washing machine, dishwasher, oven, repairs center near me ");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Candy Refrigerator Repair Dubai, Candy Washing Machine Repair Dubai, Candy Dishwasher Repair Dubai, Candy Cooker Oven Repair Dubai, Candy Fridge Repair Dubai, Candy Appliance Service Dubai, Candy Appliance Maintenance Dubai");

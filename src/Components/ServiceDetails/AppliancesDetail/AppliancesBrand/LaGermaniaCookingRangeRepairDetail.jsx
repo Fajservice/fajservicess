@@ -21,8 +21,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1";
 
 const LaGermaniaCookingRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "La Germania Cooking Range Repair Dubai - Gas Oven Service");
-  const metadescription = String(description || "FAJ offer reliable gas La Germania cooking range repair in Dubai. Dail 043300002 electric oven, oven, gas stove repairs, cooker, hob fix & service");
+  const metatitle = String(titleSeo || "La Germania Cooking Range Repair in Dubai | Oven Service ");
+  const metadescription = String(description || "We offer professional La Germania cooking range repair, oven, electric & gas stove, ceramic hob, as well as maintenance & service center near you Dubai.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "LA Germania Cooking Range Repair Dubai, La Germania Oven Repair Dubai, La Germania Cooker Repair Dubai, La Germania Cooker Oven Maintenance Service in Dubai");

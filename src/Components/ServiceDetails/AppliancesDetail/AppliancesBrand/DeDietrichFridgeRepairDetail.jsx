@@ -23,8 +23,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const DeDietrichFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "De Dietrich Appliance Repair Near Me – Oven Service Dubai");
-  const metadescription = String(description || "Looking for De Dietrich appliance repair in Dubai? We provide oven, cooker, stove, dishwasher, fridge, freezer, dryer repair service. Dail 043300002");
+  const metatitle = String(titleSeo || "De Dietrich Appliance Service | Stove Repair | Oven Fix in Dubai");
+  const metadescription = String(description || "We are specialists in DeDietrich appliances, with reliable De Dietrich fridge repair, freezer, dishwasher, washer dryer, stove, & oven center near you Dubai.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "De Dietrich Fridge Repair, De Dietrich Washing Machine Repair, De Dietrich Cooker Repair, De Dietrich Oven Repair, De Dietrich Appliances Maintenance in Dubai, De Dietrich Appliance Repair Dubai");

@@ -21,8 +21,8 @@ import GetQuoteButton from "../../../Buttons/GetQuoteButton.jsx";
 const MitsubishiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Mitsubishi AC Repair in Dubai - Air Conditioner Maintenance");
-  const metadescription = String(description || "Are you finding Mitsubishi AC repair in Dubai? Call FAJ Expert 043300002 for central, HVAC, VRF air conditioner maintenance and ac cleaning service near me");
+  const metatitle = String(titleSeo || "Mitsubishi AC Repair and Maintenance Services in Dubai | FAJ");
+  const metadescription = String(description || "Looking for Mitsubishi AC repair in Dubai? Call now for experienced technicians specializing in Mitsubishi VRF, HVAC, central & split maintenance service.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Mitsubishi AC Repair, Mitsubishi AC Service, Mitsubishi Air Conditioner Maintenance, Mitsubishi HVAC Repair, Mitsubishi VRF System Service, Mitsubishi Ducted Split AC Repair, Mitsubishi Wall-Mounted AC Service");
   const metaURL = String(URL || "https://www.fajservices.ae/mitsubishi-ac-repair-in-dubai/").replace(/\/?$/, '/');

@@ -22,8 +22,8 @@ import Testimonial1 from '../../../Testimonial/Testimonial1';
 const TerimApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Terim Appliances Service - Best Washing Machine Repair");
-    const metadescription = String(description || "Do you require Terim appliance service? We provide expert Terim refrigerator, Terim washing machine, dishwasher, stove in Dubai. Call 043300002");
+    const metatitle = String(titleSeo || "Terim Appliances Service - Best Washing Machine Repair in Dubai");
+    const metadescription = String(description || "Need Terim appliance service? We offer expert repair for refrigerators, Terim washing machine, dishwasher, oven, and stove repair center in Dubai. Call us");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Terim Appliances Service, Terim Washing Machine Repair, Terim Fridge Repair, Terim Dishwasher Repair, Terim Stove Repair, Terim Appliance Maintenance Dubai");
