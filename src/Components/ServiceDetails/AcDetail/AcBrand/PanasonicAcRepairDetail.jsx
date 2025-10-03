@@ -21,7 +21,7 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const PanasonicAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Panasonic Ac Repair In Dubai - AC Maintenace & Service");
+  const metatitle = String(titleSeo || "Panasonic AC Repair Best Price in Dubai | Maintenance Service");
   const metadescription = String(description || "Panasonic AC repair and service in Dubai. FAJ has experienced technicians who can repair your aircon unit the same day to ensure proper cooling.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Panasonic AC Repair in Dubai, Panasonic AC Maintenance in Dubai, Panasonic AC Fix in Dubai, Panasonic AC Service in Dubai, Panasonic Air Condition Repair in Dubai, Panasonic Air Condition Maintenance in Dubai");
