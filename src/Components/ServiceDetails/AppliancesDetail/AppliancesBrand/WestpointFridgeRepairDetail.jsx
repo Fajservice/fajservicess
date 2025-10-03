@@ -21,8 +21,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const WestpointFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Westpoint Fridge Repair – Expert Washing Machine Service");
-  const metadescription = String(description || "FAJ Specialize in Westpoint fridge repair in Dubai, Get same day washing machine, dishwasher, oven, cooking range repair services near me. 043300002");
+  const metatitle = String(titleSeo || "Westpoint Fridge Repair in Dubai | Washing Machine Service");
+  const metadescription = String(description || "FAJ specialises in Westpoint home appliances service in Dubai. Get fast washing machine, dishwasher, oven, and cooking range repair center near me.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Westpoint Fridge Repair, Westpoint Washing Machine Repair, Westpoint Cooker Repair, Westpoint Oven Repair, Westpoint Refrigerator Fix, Westpoint Appliance Service Dubai");

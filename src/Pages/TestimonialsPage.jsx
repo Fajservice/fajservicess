@@ -6,7 +6,7 @@ import data from "../Data/testimonial1.json";
 const TestimonialsPage = ({ titleSeo, description, Author, Keyword, URL }) => {
     // For SEO
     const metatitle = String(titleSeo || "Testimonials: Our Client's Experiences | FAJ Technical Dubai");
-    const metadescription = String(description || "Privacy Policy, FAJ was established 2010 & expert in appliances maintenance service company in Dubai, Offering repair of fridge, washing machine.Find out what our customers are expressing regarding their experiences with FAJ. Read testimonial to see how we exceed expectations with our services.");
+    const metadescription = String(description || "Find out what our customers are expressing regarding their experiences with FAJ. Read testimonial to see how we exceed expectations with our services.");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaImage = String(Image || "https://www.fajservices.ae/img/page_heading_1.avif");
     const metaKeyword = String(Keyword || "FAJ");

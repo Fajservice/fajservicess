@@ -22,8 +22,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const KitchenaidRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "KitchenAid Refrigerator Repair - Best Oven Repair Service");
-  const metadescription = String(description || "Kitchenaid Refrigerator Repair Dubai - Expert Kitchenaid freezer maintenance, washing machine, dishwasher, oven, and cooker repair services Dubai");
+  const metatitle = String(titleSeo || "KitchenAid Refrigerator Repair in Dubai | Oven Fix Service");
+  const metadescription = String(description || "Expert Kitchenaid appliances maintenance, and service of washing machine, dishwasher, oven, and cooker repair center near you in Dubai. Book Now..");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Kitchenaid Refrigerator Repair, Kitchenaid Fridge Repair, Kitchenaid Freezer Maintenance, Kitchenaid Washing Machine Repair, Kitchenaid Dishwasher Repair, Kitchenaid Cooker Oven Repairs, KitchenAid Appliance Service Dubai");

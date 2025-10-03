@@ -4,7 +4,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 const PrivacyPolicyPage = ({ titleSeo, description, Author, Keyword, URL }) => {
     // For SEO
     const metatitle = String(titleSeo || "Privacy Policy | FAJ Technical Services LLC Company");
-    const metadescription = String(description || "Visit FAJ Technical Services when you need help with building or home. We provide a wide range of maintenance services as per your requirements");
+    const metadescription = String(description || "FAJ Privacy Policy | Visit FAJ Services when you need help with building or home. We provide a wide range of maintenance services as per requirements");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaImage = String(Image || "https://www.fajservices.ae/img/page_heading_1.avif");
     const metaKeyword = String(Keyword || "FAJ");
@@ -84,7 +84,7 @@ const PrivacyPolicyPage = ({ titleSeo, description, Author, Keyword, URL }) => {
                             <li>To send you promotional materials from our contest sponsors or advertisers</li>
                             </ul>
                             <h4 className="cs_fs_12 my-2">Who&rsquo;s allowed to use FAJ Technical Services LLC?</h4>
-                            <p className="my-2">FAJ Technical Services LLC does not sell products to children. If you are under 18, you may browse the FAJ Technical Services LLC website, but you cannot purchase any product without a parent or guardian's involvement.</p>
+                            <p className="my-2">FAJ Technical Services LLC does not sell services to children. If you are under 18, you may browse the FAJ Technical Services LLC website, but you cannot purchase any service without a parent or guardian's involvement.</p>
                             <h4 className="cs_fs_12 my-2">Information that you can access</h4>
                             <p className="my-2">FAJ Technical Services LLC provides access to information regarding your account and interactions with FAJ, allowing you to view, update, and edit that information.</p>
                             <h4 className="cs_fs_12 my-2">Our disclosure of your information</h4>
@@ -124,7 +124,6 @@ const PrivacyPolicyPage = ({ titleSeo, description, Author, Keyword, URL }) => {
                             <li>We utilise persistent cookies to:</li>
                             <li>Recognise you on future visits</li>
                             <li>Remember your preferences related to your use of our website</li>
-                            <li>[Other uses]</li>
                             </ul>
                             <p className="my-2">Additionally, we use Google Analytics to assess the use of this website. Google Analytics collects statistical and other information about website usage through cookies, which are stored on users' computers. The information generated about our website is used to create reports on its usage, and Google retains this information. You can find Google's privacy policy for more details.</p>
                             <p className="my-2">Our payment service providers may also send cookies.</p>

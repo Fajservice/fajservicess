@@ -23,7 +23,7 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const VikingAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Viking Appliances Service - Refrigerator Repair - Oven Fix");
+  const metatitle = String(titleSeo || "Viking Appliances Service in Dubai | Refrigerator Repair | Oven Fix");
   const metadescription = String(description || "Viking appliance service by professional technicians for Viking refrigerator, fridge freezer, range, cooker, oven & dishwashers repair center nearby in Dubai.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");

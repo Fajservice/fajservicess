@@ -25,8 +25,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Admiral Fridge Repair In Dubai - Washing Machine Service");
-    const metadescription = String(description || "Looking for Admiral fridge repair Dubai. We are offering refrigerator, dryer, dishwasher, cooker, and oven service near me Call now at 043300002");
+    const metatitle = String(titleSeo || "Admiral Fridge Repair In Dubai | Washing Machine Service Near");
+    const metadescription = String(description || "We are offering an Admiral refrigerator, a dryer, a dishwasher, a cooking range, and an oven service centre near me. Call now at 043300002");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Amiral Fridge Repair, Admiral Washing Machine Repair, Admiral Cooker Repair, Admiral Oven Repair, Admiral Appliances Maintenance, Admiral Refrigerator Fix, Admiral Appliance Service Dubai");
