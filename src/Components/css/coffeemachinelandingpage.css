@@ -1,6 +1,6 @@
 /* RepairService.css */
 
-.repair-service-container {
+.CM-repair-service-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px 20px;
@@ -35,14 +35,14 @@
   margin: 30px auto;
 }
 
-.services-grid {
+.CM-services-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
   margin-bottom: 40px;
 }
 
-.service-card {
+.CM-service-card {
   background-color: #fff;
   border: 1px solid #999;
   border-radius: 8px;
@@ -52,19 +52,19 @@
   transition: all 0.3s ease;
 }
 
-.service-card:hover {
+.CM-service-card:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   transform: translateY(-2px);
 }
 
-.service-name {
+.CM-service-name {
   font-size: 16px;
   font-weight: 600;
   color: #000;
   margin-bottom: 8px;
 }
 
-.service-type {
+.CM-service-type {
   font-size: 14px;
   color: #333;
 }
@@ -95,7 +95,7 @@
 }
 
 @media (max-width: 768px) {
-  .services-grid {
+  .CM-services-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
   }
@@ -110,7 +110,7 @@
 }
 
 @media (max-width: 480px) {
-  .services-grid {
+  .CM-services-grid {
     grid-template-columns: 1fr;
   }
   

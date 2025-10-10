@@ -15,7 +15,7 @@ const CMServicesLP = () => {
   ];
 
   return (
-    <div className="repair-service-container">
+    <div className="CM-repair-service-container">
       <h1 className="main-title">
         Choose Coffee Machine Repair Service – Find the Right Coffee Machine Commerical & Domestic
       </h1>
@@ -26,11 +26,11 @@ const CMServicesLP = () => {
       
       <div className="divider"></div>
       
-      <div className="services-grid">
+      <div className="CM-services-grid">
         {services.map((service) => (
-          <div key={service.id} className="service-card">
-            <div className="service-name">{service.name}</div>
-            <div className="service-type">{service.type}</div>
+          <div key={service.id} className="CM-service-card">
+            <div className="CM-service-name">{service.name}</div>
+            <div className="CM-service-type">{service.type}</div>
           </div>
         ))}
       </div>

@@ -21,7 +21,7 @@ const CMLogoService = () => {
   ];
 
   return (
-    <div className="repair-service-container">
+    <div className="CM-repair-service-container">
       <h1 className="main-title">
        Brands We Repair
       </h1>
@@ -32,12 +32,12 @@ const CMLogoService = () => {
       
       <div className="divider"></div>
       
-      <div className="services-grid">
+      <div className="CM-services-grid">
         {services.map((service) => (
-          <div key={service.id} className="service-card">
+          <div key={service.id} className="CM-service-card">
             <div className="service-icon">{service.icon}</div>
-            <div className="service-name">{service.name}</div>
-            <div className="service-type">{service.type}</div>
+            <div className="CM-service-name">{service.name}</div>
+            <div className="CM-service-type">{service.type}</div>
           </div>
         ))}
       </div>

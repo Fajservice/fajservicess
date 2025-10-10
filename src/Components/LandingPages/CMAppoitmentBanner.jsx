@@ -2,7 +2,6 @@ import '../css/coffeemachinelandingpage.css';
 
 const CMAppointmentBanner = () => {
   const handleGetAppointment = () => {
-    // Add your appointment booking logic here
     console.log('Get appointment clicked');
   };
 
