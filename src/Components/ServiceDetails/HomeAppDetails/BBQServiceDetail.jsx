@@ -508,13 +508,14 @@ const [isModalOpen, setIsModalOpen] = useState(false);
           </div>
         </section>
         {/* Brands section */}
-              <BrandsSliderSection
+            <BrandsSliderSection
             brandsData={brandsLogo_data}
             sectionId="home-brands"
             logoMaxHeight="60px"
             logoMaxWidth="120px"
             containerHeight="100px"
           />
+           
           {/* <div className="mb-4">
              <BeforeAfter
                 title="Recent Completed Projects"
@@ -529,6 +530,15 @@ const [isModalOpen, setIsModalOpen] = useState(false);
         
         {/* Maintenance Contract */}
         <MaintenanceContract />
+        <BeforeAfter
+                title="Recent Completed Projects"
+                subTitle="Before & after"
+                bgImg="img/background-image-2.avif"
+                beforeImg="img/bbqafter_img.avif"
+                afterTitle="After"
+                afterImg="img/bbqbefore_img.avif"
+                beforeTitle="Before"
+              />
        {/* testimobial section */}
         <Testimonial1
           subtitle="What Our Clients Say"
