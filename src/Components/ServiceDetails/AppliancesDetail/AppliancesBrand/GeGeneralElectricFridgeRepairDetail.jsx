@@ -23,8 +23,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const GeGeneralElectricFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Top GE General Fridge Repair in Dubai - Washing Machine");
-  const metadescription = String(description || "FAJ offers GE General Electric Fridge Repair in Dubai. Best freezer, refrigerator, washing machine, dryer maintenance service. Call 043300002");
+  const metatitle = String(titleSeo || "GE - General Fridge Repair in Dubai | Washing Machine Service");
+  const metadescription = String(description || "FAJ offers General Electric (GE) fridge repair in Dubai, with warranty for freezer, refrigerator, washer dryer maintenance service center in Dubai.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "GE General Electric Fridge Repair, GE General Electric Washing Machine Repair, GE General Electric Cooker Repair, GE General Electric Oven Repair, GE General Electric Appliance Repair Dubai");

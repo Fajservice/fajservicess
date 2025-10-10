@@ -1,8 +1,30 @@
+import { Helmet } from "react-helmet-async";
 import Blog1 from "../Components/Blog/Blog1";
 
-const BlogPage = () => {
+const BlogPage = ({ titleSeo, description, Author, Keyword, URL }) => {
+  // For SEO
+  const metatitle = String(titleSeo || "Installation, Repair and Maintenance Services Blogs in Dubai - FAJ");
+  const metadescription = String(description || "Explore useful tips, guides, and up to date news on repair and maintenance from the most trusted maintenance information company in Dubai - FAJ");
+  const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
+  const metaKeyword = String(Keyword || "Installation Repair Maintenance Services Blogs, AC Repair Blogs, Refrigerator Repair Blogs, Washing Machine Repair Blogs, Kitchen Equipment Repair Blogs, Appliances Repair Blogs, Dubai");
+  const metaURL = String(URL || "https://www.fajservices.ae/blogs/").replace(/\/?$/, '/');
+
     return (
-        <div>
+        <>
+            <Helmet>
+                    <title>{metatitle}</title>
+                    <meta name="description" content={metadescription} />
+                    <meta name="keywords" content={metaKeyword} />
+                    <meta name="author" content={metaAuthor} />
+                    <meta name="robots" content="index, follow" />
+                    <link rel="canonical" href={metaURL} />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:locale" content="en_US" />
+                    <meta property="og:title" content={metatitle} />
+                    <meta property="og:description" content={metadescription} />
+                    <meta property="og:url" content={metaURL} />
+                  </Helmet>
+                   <div>
             <section
                 className="cs_page_heading cs_bg_filed cs_primary_bg"
                 style={{ backgroundImage: `url(${import.meta.env.BASE_URL}img/page_heading_1.avif)` }}
@@ -28,6 +50,8 @@ const BlogPage = () => {
             </section>
             <Blog1></Blog1>      
         </div>
+        </>
+       
     );
 };
 

@@ -21,8 +21,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Brandt Fridge Repair In Dubai -#1 Brandt Oven Repair Near Me");
-    const metadescription = String(description || "Get fast and FAJ reliable Brandt fridge repair in Dubai. And Brandt washing machine, dishwasher, oven, cooker & refrigerator fix service near me");
+    const metatitle = String(titleSeo || "Brandt Fridge Repair & Service In Dubai | Brandt Oven Repair");
+    const metadescription = String(description || "Get fast and FAJ reliable Brandt fridge repair in Dubai. And Brandt washing machine, dishwasher, oven, cooker & refrigerator service centre near me");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Brandt Fridge Repair, Brandt Washing Machine Repair, Brandt Cooker Repair, Brandt Oven Repair, Brandt Appliances Maintenance, Brandt Refrigerator Fix Repairs");

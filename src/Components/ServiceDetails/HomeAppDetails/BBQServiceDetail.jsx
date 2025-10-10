@@ -26,8 +26,8 @@ import BeforeAfter from "../../BeforeAfter/BeforeAfter";
 
 const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Barbecue Repair - Best BBQ Grill Cleaning Service Near Me");
-  const metadescription = String(description || "Barbeque Repair Dubai. Our team offers professional BBQ cleaning services, BBQ repair, Weber repair, and electric BBQ grill repair Dubai.");
+  const metatitle = String(titleSeo || "Barbeque Repair in Dubai | BBQ Grill Cleaning Service Near Me");
+  const metadescription = String(description || "Same-day Barbeque repair in Dubai. Call 043300002 for your BBQ grill cleaning, gas grill burner, oven & electric BBQ deep services & maintenance near");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "BBQ Repair, BBQ Grill Cleaning Service, Barbeque Repair Dubai, Weber Repair, Electric BBQ Grill Repair Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/").replace(/\/?$/, '/');
@@ -508,13 +508,14 @@ const [isModalOpen, setIsModalOpen] = useState(false);
           </div>
         </section>
         {/* Brands section */}
-              <BrandsSliderSection
+            <BrandsSliderSection
             brandsData={brandsLogo_data}
             sectionId="home-brands"
             logoMaxHeight="60px"
             logoMaxWidth="120px"
             containerHeight="100px"
           />
+           
           {/* <div className="mb-4">
              <BeforeAfter
                 title="Recent Completed Projects"
@@ -529,6 +530,15 @@ const [isModalOpen, setIsModalOpen] = useState(false);
         
         {/* Maintenance Contract */}
         <MaintenanceContract />
+        <BeforeAfter
+                title="Recent Completed Projects"
+                subTitle="Before & after"
+                bgImg="img/background-image-2.avif"
+                beforeImg="img/bbqafter_img.avif"
+                afterTitle="After"
+                afterImg="img/bbqbefore_img.avif"
+                beforeTitle="Before"
+              />
        {/* testimobial section */}
         <Testimonial1
           subtitle="What Our Clients Say"

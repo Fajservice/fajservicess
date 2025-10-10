@@ -22,8 +22,8 @@ import FAJACPrice from "../../../Miscellaneous/FAJACPrice";
 const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "SKM AC Repair in Dubai - SKM Air Conditioner Service Near");
-  const metadescription = String(description || "SKM #1 Brand in UAE. Call us at 043300002 for SKM AC Repair in Dubai, We are experts in HVAC & Central Air Conditioner Maintenance Service near by you.");
+  const metatitle = String(titleSeo || "Best Prices | SKM AC Repair and Maintenance Service in Dubai");
+  const metadescription = String(description || "FAJ is offering AMC contract service and SKM AC repair in Dubai & Sharjah Right Now! Call/WhatsApp: Get quick service from FAJ Air Conditioning");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Skm AC Repair, Skm Air Conditioner Service, Skm AC Maintenance, Skm Air Conditioner Repair, Skm Air Conditioner Service Dubai, Skm Air Conditioner Maintenance Dubai, Skm AC Fix Dubai, Skm AC Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/skm-ac-repair-in-dubai-skm-ac-maintenance-in-dubai-skm-ac-fix-in-dubai-skm-ac-service-in-dubai-skm-air-condition-repair-in-dubai-skm-air-condition-maintenance-in-dubai-skm-air-condition-maintenance-in/").replace(/\/?$/, '/');

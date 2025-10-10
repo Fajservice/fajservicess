@@ -20,8 +20,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const MieleFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Miele Fridge Repair Dubai - Washing Machine Service Near Me");
-  const metadescription = String(description || "Fast, reliable & professional Miele fridge repair in Dubai. Dail 043300002 for your appliance, washing machine, dishwasher, oven fix service near you");
+  const metatitle = String(titleSeo || "Miele Fridge Repair in Dubai | Washing Machine Service Near Me");
+  const metadescription = String(description || "Fast, reliable & professional Miele fridge repair in Dubai. Call 043300002 for your appliance, washing machine, dishwasher, oven fix service near you");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Miele Fridge Repair Dubai, Miele Washing Machine Repair Dubai, Miele Cooker Repair Dubai, Miele Oven Repair Dubai, Miele Appliances Maintenance Dubai, Miele Refrigerator Fix Repairs Service");

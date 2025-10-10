@@ -22,8 +22,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const BompaniFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
     // For SEO
-    const metatitle = String(titleSeo || "Bompani Fridge Repair In Dubai - Washing Machine Service");
-    const metadescription = String(description || "FAJ offers Bompani Fridge Repair in Dubai. Dial now 043300002 for Bompani washing machine, dishwasher, cooking range oven fix service near me");
+    const metatitle = String(titleSeo || "Bompani Fridge Repair In Dubai | Washing Machine Service Near");
+    const metadescription = String(description || "FAJ's experienced technicians offer reliable appliance repair services, including fridge, washing machine, oven & dishwasher repair at our center in Dubai");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Bompani Fridge Repair, Bompani Washing Machine Repair, Bompani Cooker Repair, Bompani Oven Repair, Bompani Appliances Maintenance, Bompani Refrigerator Fix Repair");

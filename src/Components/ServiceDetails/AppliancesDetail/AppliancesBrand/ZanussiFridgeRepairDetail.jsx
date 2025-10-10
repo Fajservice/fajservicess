@@ -23,8 +23,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const ZanussiFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Zanussi Fridge Repair – Best Washing Machine Repair");
-  const metadescription = String(description || "Experience Zanussi Fridge Repair – We also offer freezer, washing machine, oven, dishwasher & dryer repair service in Dubai. Dail Now 043300002 ");
+  const metatitle = String(titleSeo || "Zanussi Professional | Zanussi Fridge Repair in Dubai | Oven Fix");
+  const metadescription = String(description || "Experience maintenance for Zanussi professional appliances, including fridge, freezer, washing machine, oven, dishwasher repair service in Dubai.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Zanussi Fridge Repair, Zanussi Washing Machine Repair, Zanussi Cooker Repair, Zanussi Oven Repair, Zanussi Appliances Maintenance, Zanussi Refrigerator Fix, Zanussi Appliance Service Dubai");

@@ -21,8 +21,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const DaikinAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Daikin Ac Repair in Dubai - Air Conditioner Maintenance");
-  const metadescription = String(description || "Relax with Daikin AC. Call 0507464712 for Daikin Ac Repair in Dubai We are experts in HVAC, Central Air Conditioner maintenance service near me");
+  const metatitle = String(titleSeo || "Reliable HVAC Services | Daikin AC Repair & Maintenance Dubai");
+  const metadescription = String(description || "FAJ technicians specialise in Daikin AC repair and VRV systems, as well as ducted split systems, utilising Daikin maintenance service for all repairs Dubai");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Daikin AC Repair in Dubai, Daikin Air Conditioner Maintenance, Daikin AC Service, Daikin Air Conditioning Repair, Daikin AC Fix, Daikin Air Conditioner Service, Daikin AC Cleaning, Daikin Air Conditioner Installation");
   const metaURL = String(URL || "https://www.fajservices.ae/daikin-ac-repair-in-dubai-daikin-ac-maintenance-in-dubai-daikin-ac-fix-in-dubai-daikin-ac-service-in-dubai-daikin-air-condition-repair-in-dubai-daikin-air-condition-maintenance-in-dubai-daikin-air-con").replace(/\/?$/, '/');

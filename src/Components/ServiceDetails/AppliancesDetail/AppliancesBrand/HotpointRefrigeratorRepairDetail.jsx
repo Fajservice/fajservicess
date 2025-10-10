@@ -22,8 +22,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const HotpointRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Hotpoint Refrigerator Repair Dubai - Fix Washing Machine");
-  const metadescription = String(description || "Quality and Affordable Hotpoint Refrigerator Repair in Dubai. Dail 043300002 for fridge, washing machine, dishwasher, cooking range, stove oven service");
+  const metatitle = String(titleSeo || "Hotpoint Refrigerator Repair in Dubai | Service Washing Machine");
+  const metadescription = String(description || "Quality and warranty for Hotpoint refrigerator repair in Dubai. Call 043300002 for service on fridge, washing machine, dishwasher, cooking range, & oven.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Hotpoint Refrigerator Repair, Hotpoint Fridge Repair, Hotpoint Washing Machine Repair, Hotpoint Dishwasher Repair, Hotpoint Cooker Oven Repair, Hotpoint Appliance Service Dubai");

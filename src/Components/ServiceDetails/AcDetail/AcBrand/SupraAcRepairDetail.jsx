@@ -22,8 +22,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const SupraAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Supra AC Repair Dubai - Supra Split Air Conditioner Service");
-  const metadescription = String(description || "Sameday Supra AC repair in Dubai, Our technicians expert in supra split air conditioning maintenance service and fux aircon. Book now 043300002");
+  const metatitle = String(titleSeo || "Supra AC Repair in Dubai | Split Air Conditioner Cleaning");
+  const metadescription = String(description || "Same-day Supra AC repair in Dubai, our technicians are experts in Supra window A/C maintenance service and fixing aircon. Book now 043300002");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Supra AC Repair Dubai, Supra Split Air Conditioner Service, Supra Aircon Maintenance Dubai, Supra AC Fix Dubai, Supra Air Conditioner Repair Dubai, Supra Air Conditioner Service Dubai, Supra AC Service Dubai, Supra AC Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/supra-ac-repair-in-dubai-supra-ac-maintenance-in-dubai-supra-ac-fix-in-dubai-supra-ac-service-in-dubai-supra-air-condition-repair-in-dubai-supra-air-condition-maintenance-in-dubai-supra-air-condition").replace(/\/?$/, '/');

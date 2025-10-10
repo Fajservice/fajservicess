@@ -6,8 +6,8 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 
 const ContactPage = ({titleSeo, description, Author, Keyword, URL }) => {
     // For SEO
-    const metatitle = String(titleSeo || "Contact Us- #1 Appliances Service Center Near Me Company");
-    const metadescription = String(description || "Contact us, FAJ was established 2010 & expert in appliances maintenance service company in Dubai, Offering repair of fridge, washing machine.");
+    const metatitle = String(titleSeo || "Contact Us for Service Center Near Me and Repairs | FAJ Dubai");
+    const metadescription = String(description || "Reach out to FAJ Technical Service for any inquiries or to schedule maintenance services, & discover how we can help you with your home / office needs.");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaImage = String(Image || "https://www.fajservices.ae/img/page_heading_1.avif");
     const metaKeyword = String(Keyword || "FAJ");

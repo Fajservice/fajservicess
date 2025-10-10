@@ -31,8 +31,8 @@ import Testimonial1 from "../../Testimonial/Testimonial1";
 
 const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Best AC Annual Maintenance Contract Service Dubai AC AMC #1");
-  const metadescription = String(description || "We also offer an (Air Conditioner) AC Annual Maintenance Contract Service ( AMC ) in Dubai Comprehensive Plan of HVAC, Central, Split AC. 043300002");
+  const metatitle = String(titleSeo || "Best AC Annual Maintenance Contract Dubai | AC AMC Services");
+  const metadescription = String(description || "Since 2010, FAJ has offered AC annual maintenance contract in Dubai, Sharjah, UAE. Repairs are more costly than a regular maintenance agreement.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "AC Annual Maintenance Contract Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/ac-annual-maintenance-contract/").replace(/\/?$/, '/');

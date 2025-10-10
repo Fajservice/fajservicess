@@ -26,8 +26,8 @@ const WestpointAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
 
 
   // For SEO
-  const metatitle = String(titleSeo || "Westpoint AC Repair in Dubai - Air Conditioner Service Near");
-  const metadescription = String(description || "Are You Looking for Westpoint AC repair in Dubai? We are experts in split air conditioner maintenance and service near me Dubai Call 04330 0002");
+  const metatitle = String(titleSeo || "West Point Split AC Repair in Dubai | A/C Cleaning Service Near");
+  const metadescription = String(description || "Are You Looking for Westpoint split AC repair in Dubai? FAJ experts in window air conditioner maintenance and service near me, Dubai. Call 043300002");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Westpoint AC repair in Dubai, Westpoint AC maintenance in Dubai, Westpoint AC service in Dubai, Westpoint air conditioner repair in Dubai, Westpoint split AC repair in Dubai, Westpoint wall mounted AC repair in Dubai, Westpoint ductless AC repair in Dubai, Westpoint aircon repair in Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/westpoint-ac-repair-in-dubai-westpoint-ac-maintenance-in-dubai-westpoint-ac-fix-in-dubai-westpoint-ac-service-in-dubai-west-point-air-condition-repair-in-dubai-west-point-air-condition-maintenance-in/").replace(/\/?$/, '/');

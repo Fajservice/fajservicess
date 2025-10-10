@@ -22,8 +22,8 @@ import Testimonial1 from '../../../Testimonial/Testimonial1';
 const ElectroluxFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Electrolux Fridge Repair - Washing Machine Service");
-    const metadescription = String(description || "Electrolux Fridge Repair Dubai - Expert Electrolux dishwasher, washing machine, cooker, oven repair, and appliance maintenance services in Dubai.");
+    const metatitle = String(titleSeo || "Electrolux Fridge Repair in Dubai | Washing Machine Service");
+    const metadescription = String(description || "Expert Electrolux fridge repair in Dubai, including dishwasher, washing machine, cooker, and oven fix, as well as an appliance service center near you.");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Electrolux Fridge Repair, Electrolux Washing Machine Repair, Electrolux Cooker Repair, Electrolux Oven Repair, Electrolux Appliances Maintenance, Electrolux Appliance Service Dubai");

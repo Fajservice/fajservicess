@@ -13,7 +13,6 @@
   font-size: 2.5rem;
   font-weight: 600;
   text-align: center;
-  color: #000000;
   margin-bottom: 50px;
   line-height: 1.2;
 }
@@ -47,8 +46,7 @@
 
 .job-service-title {
   font-size: 1.1rem;
-  font-weight: 600;
-  color: #000000;
+  font-weight: 500;
   margin: 0 0 12px 0;
   line-height: 1.4;
 }
@@ -61,7 +59,17 @@
   flex-grow: 1;
   animation: fadeIn 0.3s ease-in;
 }
-
+.career-container h1{
+  font-size: 36px;
+}
+.career-container .job-paragraph {
+    margin: 0;
+}
+.career-container .job-section-heading {
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -74,7 +82,7 @@
 }
 
 .read-more-btn {
-  background: linear-gradient(135deg, #68BDC0, #48AAAD);
+  background: linear-gradient(135deg, #264f69, #00334e);
   color: white;
   border: none;
   padding: 12px 24px;
@@ -88,7 +96,7 @@
 }
 
 .read-more-btn:hover {
-  background: linear-gradient(135deg, #7BE7EA66, #48AAAD);
+  background: linear-gradient(135deg, #264f69, #00334e);
   transform: translateY(-1px);
   box-shadow: 0 4px 12px rgba(0, 212, 212, 0.3);
 }
@@ -213,7 +221,8 @@
 }
 
 .skill-tag {
-  background: linear-gradient(135deg, #68BDC0, #48AAAD);
+  
+  background: linear-gradient(135deg, #264f69, #00334e);
   color: #ffffff;
   padding: 8px 16px;
   border-radius: 25px;
@@ -288,22 +297,24 @@
 }
 
 .apply-button {
-  width: 100%;
-  background: linear-gradient(135deg, #48AAAD, #68BDC0);
-  color: #ffffff;
-  border: none;
-  padding: 15px 30px;
-  border-radius: 8px;
-  font-size: 1.1rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+    width: 100%;
+    background: linear-gradient(135deg, #264f69, #00334e);
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    max-width: 200px;
 }
 
 .apply-button:hover {
-  background: linear-gradient(135deg, #68BDC0, #48AAAD);
+  
+  background: linear-gradient(135deg, #264f69, #00334e);
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(0, 212, 170, 0.4);
 }
@@ -581,7 +592,7 @@
 }
 
 .read-more-btn {
-  background: linear-gradient(135deg, #00d4aa, #00b894);
+  background: linear-gradient(135deg, #264f69, #00334e);
   color: white;
   border: none;
   padding: 12px 24px;
@@ -595,7 +606,7 @@
 }
 
 .read-more-btn:hover {
-  background: linear-gradient(135deg, #00b894, #00a085);
+  background: linear-gradient(135deg, #264f69, #00334e);
   transform: translateY(-1px);
   box-shadow: 0 4px 12px rgba(0, 212, 170, 0.3);
 }
@@ -795,7 +806,7 @@
 }
 
 .skill-tag {
-  background: linear-gradient(135deg, #00d4aa, #00b894);
+  background: linear-gradient(135deg, #264f69, #00334e);;
   color: #ffffff;
   padding: 8px 16px;
   border-radius: 25px;
@@ -871,7 +882,7 @@
 
 .apply-button {
   width: 100%;
-  background: linear-gradient(135deg, #00d4aa, #00b894);
+  background: linear-gradient(135deg, #264f69, #00334e);
   border: none;
   padding: 15px 30px;
   border-radius: 8px;
@@ -884,7 +895,7 @@
 }
 
 .apply-button:hover {
-  background: linear-gradient(135deg, #00b894, #00a085);
+  background: linear-gradient(135deg, #264f69, #00334e);
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(0, 212, 170, 0.4);
 }

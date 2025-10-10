@@ -6,8 +6,8 @@ import HeaderForm from "../Headeform/HeaderForm";
 
 const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Our Portfolio | AC Repair | Appliances Service Center Dubai");
-  const metadescription = String(description || "F A J Technical Services L.L.C, established in 2010, offers supply, installation, and spare parts for air conditioning and refrigeration appliances in Dubai.");
+  const metatitle = String(titleSeo || "Our Portfolio | Best Maintenance Services Company in Dubai");
+  const metadescription = String(description || "We established in 2010, offers supply, installation, by FAJ online shop, spare parts for air conditioning and refrigeration appliances in Dubai.");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "FAJ Technical Service LLC Portfolio");
   const metaURL = String(URL || "https://www.fajservices.ae/our-portfolio/").replace(/\/?$/, '/');

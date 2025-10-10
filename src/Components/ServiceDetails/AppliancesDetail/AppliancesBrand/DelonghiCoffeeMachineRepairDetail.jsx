@@ -21,8 +21,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1";
 
 const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Delonghi Coffee Machine Repair & Maintenance Services");
-  const metadescription = String(description || "De'longhi coffee machine repair Dubai. Trusted De Longhi coffee machine & espresso maintenance & services near you. Fix descaling & cleaning near me");
+  const metatitle = String(titleSeo || "DeLonghi Coffee Machine Repair in Dubai | Maintenance Service");
+  const metadescription = String(description || "Quick DeLonghi coffee machine repair in Dubai. Your trusted center for automatic coffee machine & espresso machine, descaling & cleaning services.");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Delonghi Coffee Machine Repair, Delonghi Coffee Machine Service, Delonghi Coffee Machine Maintenance");
   const metaURL = String(URL || "https://www.fajservices.ae/delonghi-coffee-machine-repair/").replace(/\/?$/, '/');

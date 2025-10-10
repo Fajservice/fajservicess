@@ -23,8 +23,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const SuperGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Super General Ac Repair in Dubai - Air Conditioner Maintenance Near");
-  const metadescription = String(description || "Book 043300002 for Super General AC Repair in Dubai. We are experts in central, HVAC, Air Conditioning maintenance and cleaning service Near you");
+  const metatitle = String(titleSeo || "Split Air Conditioner | Super General AC Repair in Dubai");
+  const metadescription = String(description || "Book 043300002 for Split Super General AC repair in Dubai. We are offering cheap AC cleaning service, gas filling, ac spare parts change with a warranty ");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Super General Ac Repair in Dubai, Super General AC Maintenance in Dubai, Super General AC Fix in Dubai, Super General AC Service in Dubai, Super General Air Condition Repair in Dubai, Super General Air Con");
   const metaURL = String(URL || "https://www.fajservices.ae/super-general-ac-repair-in-dubai-super-general-ac-maintenance-in-dubai-super-general-ac-fix-in-dubai-super-general-ac-service-in-dubai-super-general-air-condition-repair-in-dubai-super-general-air-con").replace(/\/?$/, '/');

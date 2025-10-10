@@ -15,9 +15,9 @@ import data from "../Data/testimonial1.json";
 const Loader = () => <div style={{ minHeight: "200px" }}>Loading...</div>;
 
 const DEFAULT_SEO = {
-  title: "FAJ / AC Repair In Dubai - Freezer Service Appliances Fix",
+  title: "FAJ / Installation, Repair and Maintenance Company in Dubai ",
   description:
-    "FAJ Established in 2010, / We offer professional AC Repair, Freezer, Refrigerator, Fridge, Washing Machine Maintenance Service Company Dubai",
+    "FAJ Established in 2010, / with experts Air Conditioner, Refrigeration, Kitchen Equipment, Appliances installation, Repair & Maintenance Services in Dubai",
   author: "Faj Technical Services",
   keywords:
     "Ac Repair, Ac Repair In Dubai, Ac Repair Service, Ac Service, Washing Machine Repair, Washing Machine Service, Refrigerator Repair, Freezer Repair, Fridge Repair, Appliances Repair, Appliances Service, Appliances Fix, Appliances Maintenance, Appliances Installation, Appliances Dubai",

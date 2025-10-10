@@ -21,8 +21,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const AftronFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Aftron Fridge Repair Dubai - Washing Machine Service Near");
-    const metadescription = String(description || "We provide reliable Aftron fridge repair in Dubai. Book on 043300002 for refrigerator, dishwasher, cooking range, oven service & fixing near me.");
+    const metatitle = String(titleSeo || "Aftron Fridge Repair in Dubai | Washing Machine Service Near");
+    const metadescription = String(description || "Trusted Aftron appliances service in Dubai FAJ expert fridge repair. Call 04 3300 002 for fast washing machine, dishwasher, oven repair center in Dubai");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Aftron fridge repair, Aftron washing machine repair, Aftron cooker repair, Aftron oven repair, Aftron appliances maintenance, Aftron refrigerator fix, Aftron appliance service Dubai");

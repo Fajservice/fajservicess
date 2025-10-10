@@ -20,8 +20,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Best Aftron AC Repair Maintenance Service In Dubai FAJ - #1");
-  const metadescription = String(description || "In hot summer time are you looking Air Conditioning Fix? Call Now 043300002 for Expert in Aftron AC Repair Maintenance Service in Dubai");
+  const metatitle = String(titleSeo || "Top Aftron AC Repair & Maintenance Service In Dubai | FAJ");
+  const metadescription = String(description || "In the hot summertime, are you looking for an Air Conditioning fix? Call now 043300002 for Aftron AC repair & Maintenance Service near me, Dubai");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Aftron AC Repair, Aftron AC Maintenance, Aftron AC Service, Aftron Air Conditioner Repair Dubai, Aftron Air Conditioner Service Dubai, Aftron Air Conditioner Maintenance Dubai, Aftron Air Conditioner Installation Dubai, Aftron Air Conditioner Cleaning Dubai, Aftron AC Repair Dubai, Aftron AC Service Dubai, Aftron AC Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/aftron-ac-repair-maintenance-service-in-dubai-2").replace(/\/?$/, '/');

@@ -453,6 +453,10 @@ export const router = createBrowserRouter([
         path: "/privacy-policy/",
         element: <Components.PrivacyPolicyPage />,
       },
+       {
+        path: "/refund-policy/",
+        element: <Components.RefundPolicyPage />,
+      },
       {
         path: "/terms-and-conditions/",
         element: <Components.TermsConditionsPage />,
@@ -1548,6 +1552,10 @@ export const router = createBrowserRouter([
       {
         path: "/career/",
         element: <Components.Career />,
+      },
+      {
+        path: "/testimonials/",
+        element: <Components.Testimonials />,
       },
     ],
   }

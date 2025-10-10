@@ -22,8 +22,8 @@ import Testimonial1 from '../../../Testimonial/Testimonial1';
 const DaewooHomeApplianceRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Daewoo Home Appliance Repair & Washing Machine Service");
-    const metadescription = String(description || "Daewoo home appliances service Dubai. Get fast Daewoo refrigerator repair,  Daewoo washing machine repair dishwasher, fridge service center nearme");
+    const metatitle = String(titleSeo || "Daewoo Home Appliance | Washing Machine Repair in Dubai");
+    const metadescription = String(description || "Daewoo home appliance service in Dubai. Get fast repair for Daewoo refrigerator, washing machine repair & dishwasher, fridge service centre near you.");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Daewoo home appliance repair, Daewoo washing machine service, Daewoo refrigerator repair, Daewoo dishwasher service, Daewoo fridge service center, Daewoo appliance installation Dubai, Daewoo appliance maintenance Dubai");

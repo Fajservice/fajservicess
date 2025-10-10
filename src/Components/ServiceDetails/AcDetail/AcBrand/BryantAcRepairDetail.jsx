@@ -20,8 +20,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const BryantAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Bryant AC Repair in Dubai - Air Conditioner Maintenance");
-  const metadescription = String(description || "Get Bryant AC repair in Dubai. Book an 043300002 for HVAC maintenance, central unit (air conditioner) AC cleaning service near me with relaibale FAJ");
+  const metatitle = String(titleSeo || "Bryant AC Repair and Services in Dubai | FAJ Air Conditioning");
+  const metadescription = String(description || "Residential and Commercial · Bryant (AC) Air Conditioning Repair in Dubai. Same-day HVAC, central, chillers, & FCU A/C maintenance services near you.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Bryant AC Repair in Dubai, Bryant AC Maintenance in Dubai, Bryant AC Fix in Dubai, Bryant AC Service in Dubai, Bryant Air Condition Repair in Dubai, Bryant Air Condition Maintenance in Dubai, Bryant Air Con Repair in Dubai, Bryant Air Con Maintenance in Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/bryant-ac-repair-in-dubai-bryant-ac-maintenance-in-dubai-bryant-ac-fix-in-dubai-bryant-ac-service-in-dubai-bryant-air-condition-repair-in-dubai-bryant-air-condition-maintenance-in-dubai-bryant-air-con/").replace(/\/?$/, '/');

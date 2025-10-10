@@ -21,8 +21,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const NeffFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Neff Fridge Repair – Neff Dishwasher Service- Oven Fix");
-  const metadescription = String(description || "Are you looking for Neff fridge repair in Dubai? Dail 043300002 for Neff refrigerator, dishwasher, cooking range, oven or washing machine repair services");
+  const metatitle = String(titleSeo || "Neff Fridge Repair in Dubai | Neff Dishwasher Service | Oven Fix");
+  const metadescription = String(description || "Book now NEFF appliances service with warranty? We offer NEFF fridge repair in Dubai. And washing machine, oven & stove service at our center nearby");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Neff Fridge Repair, Neff Washing Machine Repair, Neff Cooker Repair, Neff Oven Repair, Neff Appliances Maintenance, Neff Refrigerator Fix, Neff Dishwasher Service");

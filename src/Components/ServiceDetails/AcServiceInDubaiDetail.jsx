@@ -28,8 +28,8 @@ import Testimonial1 from "../Testimonial/Testimonial1";
 
 const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "AC Service in Dubai - Get AC Repair & Maintenance | FAJ Co");
-  const metadescription = String(description || "We specialize in AC repair, service, and central & split air conditioner maintenance in Dubai. Call at 043300002 for your home & office A/C fix");
+  const metatitle = String(titleSeo || "Best AC Service in Dubai | Air Conditioner Repair & Maintenance");
+  const metadescription = String(description || "Looking for reliable AC service in Dubai? Get quick repairs and professional AC cleaning to help your cooling system work smoothly. Call FAJ today!");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "AC Service, Air Con Service, AC Service in Dubai, Air Conditioning Service");
   const metaURL = String(URL || "https://www.fajservices.ae/ac-service-in-dubai/").replace(/\/?$/, '/');

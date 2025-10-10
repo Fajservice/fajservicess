@@ -20,8 +20,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const GorenjeFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Gorenje Fridge Repair In Dubai - Washing Machine Service #1");
-  const metadescription = String(description || "Reliable & same-day Gorenje fridge repair in Dubai. Dail 043300002 for Gorenje washing machine, refrigerator, hob, oven, dishwasher service near me");
+  const metatitle = String(titleSeo || "Gorenje Fridge Repair In Dubai | Washing Machine Service Near ");
+  const metadescription = String(description || "Gorenje home appliances specialise in repair fridge, washing machine, dishwasher, cooker, and dryer. in Dubai We use original parts and offer a warranty.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Gorenje Fridge Repair, Gorenje Washing Machine Repair, Gorenje Cooker Repair, Gorenje Oven Repair, Gorenje Appliances Maintenance, Gorenje Refrigerator Fix, Gorenje Appliance Service Dubai");

@@ -20,8 +20,8 @@ import Testimonial1 from "../../Testimonial/Testimonial1";
 
 const KitchenEquipmentsAMCDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Commercial Kitchen Equipment AMC Contract Services | FAJ");
-  const metadescription = String(description || "Get FAJ reliable your commercial kitchen equipment AMC services in Dubai, UAE, with specialized gas stove, oven, cooker maintenance contract service");
+  const metatitle = String(titleSeo || "Commercial Kitchen Equipment AMC Contract Services in Dubai");
+  const metadescription = String(description || "Get FAJ reliable commercial kitchen equipment AMC services in Dubai. With specialised chiller, freezer, stove, oven, & cooker maintenance agreement ");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Kitchen Equipment amc, kitchen equipment maintenance contract, commercial kitchen equipment service, kitchen appliance repair, kitchen equipment repair Dubai, kitchen equipment AMC Dubai, kitchen equipment AMC Abu Dhabi, kitchen equipment AMC Sharjah, gas stove maintenance Dubai, oven maintenance Dubai, cooker maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/commercial-kitchen-equipment-amc/").replace(/\/?$/, '/');

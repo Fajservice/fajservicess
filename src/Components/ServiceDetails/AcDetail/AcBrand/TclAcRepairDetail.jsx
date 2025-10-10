@@ -21,8 +21,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const TCLAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "TCL AC Repair in Dubai - Air Conditioner Service Near Me");
-  const metadescription = String(description || "FAJ offering TCL AC repair in Dubai, Contact Us 043300002 for split air conditioner maintenance service near me. Best Aircon fix company nearby");
+  const metatitle = String(titleSeo || "TCL AC Repair in Dubai | AC Gas Filling | AC Servicing Near Me");
+  const metadescription = String(description || "FAJ offers TCL AC repair in Dubai. Contact us at 043300002 for split air conditioner maintenance services near you. Book Top Maintenance Company");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "TCL AC Repair, TCL Air Conditioner Service, TCL AC Maintenance Dubai, TCL AC Cleaning Service, TCL AC Installation Dubai, TCL AC AMC Dubai, TCL Air Conditioner Repair Dubai, TCL Air Conditioner Service Near Me, Split Air Conditioner Maintenance Service Near Me, Best Aircon Fix Company Nearby");
   const metaURL = String(URL || "https://www.fajservices.ae/tcl-ac-repair-in-dubai/").replace(/\/?$/, '/');

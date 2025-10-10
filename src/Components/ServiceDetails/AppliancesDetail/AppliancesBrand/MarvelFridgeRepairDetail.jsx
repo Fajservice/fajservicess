@@ -23,8 +23,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const MarvelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
     // For SEO
-    const metatitle = String(titleSeo || "Best Marvel Fridge Repair In Dubai - Oven Fix Service #1");
-    const metadescription = String(description || "Marvel Fridge Repair in Dubai.Call for Refrigerator, Washing Machine, Dishwasher Cooking Range, Stove Oven Fix Service Near Me 043300002");
+    const metatitle = String(titleSeo || "Best Marvel Fridge Repair In Dubai | Oven Service Near Me");
+    const metadescription = String(description || "If you are looking for Marvel appliances service in Dubai, contact us at 043300002 for your fridge, oven, stove and range maintenance and service.");
     const metaAuthor = String(Author || "Faj Technical Services");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Marvel Fridge Repair, Marvel Washing Machine Repair, Marvel Cooker Repair, Marvel Oven Repair, Marvel Appliances Maintenance, Marvel Refrigerator Fix, Marvel Appliance Service Dubai");

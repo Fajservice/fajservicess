@@ -27,8 +27,8 @@ import Testimonial1 from "../../Testimonial/Testimonial1";
 
 const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Best Dishwasher Repair Service In Dubai - Dish Wash Fix #1");
-  const metadescription = String(description || "Dishwasher repair service in Dubai FAJ is here to help with integrated dishwasher fix service and dish washer machine maintenance call 043300002");
+  const metatitle = String(titleSeo || "Dishwasher Repair in Dubai | Dishwasher Service Center Near Me");
+  const metadescription = String(description || "Is your dishwasher broken? Trusted FAJ can carry out your dishwasher repair, maintenance service in Dubai quickly and effectively. Call now 043300002");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Dishwasher Repair Service, Dishwasher Repair Dubai, Dishwasher Service Dubai, Dishwasher Fix Dubai, Dishwasher Maintenance Dubai, Dishwasher Machine Repair Dubai, Dishwasher Machine Service Dubai, Dishwasher Machine Fix Dubai, Dishwasher Machine Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/dishwasher-repair-service/").replace(/\/?$/, '/');

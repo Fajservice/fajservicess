@@ -21,8 +21,8 @@ const NikaiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
 
 
   // For SEO
-  const metatitle = String(titleSeo || "Nikai AC Repair in Dubai - Air Conditioner Maintenance");
-  const metadescription = String(description || "We can also provide ongoing maintenance and on-demand Nikai AC repair in Dubai and AC (Air Conditioner) services near me. Call 043300002");
+  const metatitle = String(titleSeo || "Best Price Nikai AC Repair and Maintenance Services in Dubai");
+  const metadescription = String(description || "Our expert A/C technicians provide prompt, professional maintenance for major Nikai AC repair and cleaning service in Dubai, with fast, reliable.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Nikai AC Repair in Dubai, Nikai Air Conditioner Maintenance, Nikai AC Service, Nikai AC Cleaning, Nikai AC Installation, Nikai AC Repair Service");
   const metaURL = String(URL || "https://www.fajservices.ae/nikai-ac-repair-in-dubai-nikai-ac-maintenance-in-dubai-nikai-ac-fix-in-dubai-nikai-ac-service-in-dubai-nikai-air-condition-repair-in-dubai-nikai-air-condition-maintenance-in-dubai-nikai-air-condition/").replace(/\/?$/, '/');

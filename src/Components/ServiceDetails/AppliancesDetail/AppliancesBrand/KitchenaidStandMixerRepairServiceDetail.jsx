@@ -22,8 +22,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1";
 
 const KitchenaidStandMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "KitchenAid Stand Mixer Repair Services and Maintenance");
-  const metadescription = String(description || "Kitchenaid Stand Mixer Repair Dubai - Professional Kitchenaid mixer repair, maintenance, and stand mixer servicing near you in Dubai. Dail 043300002");
+  const metatitle = String(titleSeo || "KitchenAid Stand Mixer Repair & Maintenance Service in Dubai");
+  const metadescription = String(description || "Kitchenaid stand mixer repair in Dubai with Warranty - Get expert maintenance & servicing of mixer repair centre near you. Contact 043300002.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaImage = String(Image || "https://www.fajservices.ae/img/kitchen-aid-mixer-repair.avif");
   const metaKeyword = String(Keyword || "Kitchenaid Stand Mixer Repair, Kitchenaid Mixer Repair Dubai, Kitchenaid Appliance Repair, Kitchenaid Mixer Service, Kitchenaid Stand Mixer Maintenance, Kitchenaid Appliance Service Dubai");

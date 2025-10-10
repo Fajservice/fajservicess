@@ -21,8 +21,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const LennoxAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Lennox AC Repair in Dubai - Air Conditioner Maintenance");
-  const metadescription = String(description || "Need help finding an Lennox repair in Dubai? Get Lennox air conditioner service near me. We are experts in central & split AC maintenance. Call 043300002");
+  const metatitle = String(titleSeo || "Lennox AC Repair & Maintenance Service in Dubai with Warranty");
+  const metadescription = String(description || "For reliable Lennox AC repair in Dubai, contact FAJ professionals for affordable and prompt HVAC & central air conditioning maintenance services.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Lennox AC Repair in Dubai, Lennox AC Maintenance in Dubai, Lennox Air Conditioner Service, Lennox Air Conditioner Repair, Lennox Air Conditioner Maintenance, Lennox Air Conditioner Fix, Lennox Air Conditioner Service in Dubai, Lennox Air Conditioning Repair in Dubai, Lennox Air Conditioning Maintenance in Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/lennox-ac-repair-in-dubai-lennox-ac-maintenance-in-dubai-lennox-ac-fix-in-dubai-lennox-ac-service-in-dubai-lennox-air-condition-repair-in-dubai-lennox-air-condition-maintenance-in-dubai-lennox-air-con/").replace(/\/?$/, '/');

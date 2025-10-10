@@ -21,8 +21,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const ToshibaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Toshiba AC Repair in Dubai - AC Maintenance Service Near");
-  const metadescription = String(description || "Get same day Toshiba AC Repair in Dubai. Call 043300002 FAJ expert for split and central air conditioner maintenance service near by you with less cost cleaning");
+  const metatitle = String(titleSeo || "Toshiba AC Repair Best Price in Dubai | AC Fixing Near by You");
+  const metadescription = String(description || "Get Cassette, Ducted Inverter Split & VRF System Maintenance| Toshiba AC Repair and Services in Dubai. Book now at 04 330 0002 with the best prices.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Toshiba AC Repair in Dubai, Toshiba AC Maintenance Service, Toshiba Air Conditioner Repair, Toshiba AC Service Near Me, Toshiba AC Cleaning Service, Toshiba Air Conditioner Installation, Toshiba AC AMC Dubai, Toshiba AC Repair Near Me");
   const metaURL = String(URL || "https://www.fajservices.ae/toshiba-ac-repair-in-dubai-toshiba-ac-maintenance-in-dubai-toshiba-ac-fix-in-dubai-toshiba-ac-service-in-dubai-toshiba-air-condition-repair-in-dubai-toshiba-air-condition-maintenance-in-dubai-toshiba/").replace(/\/?$/, '/');

@@ -20,8 +20,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const LgFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "LG Fridge Repair - LG Washing Machine Repair | FAJ");
-  const metadescription = String(description || "Get reliable LG washing machine repair in Dubai. we offer fridges, freezers, refrigerator, dishwashers, ovens & cooker repair and maintenance services");
+  const metatitle = String(titleSeo || "LG Fridge Repair in Dubai | LG Washing Machine Repair Near Me");
+  const metadescription = String(description || "With Warranty LG fridge repair in Dubai. Home Appliances Repair specialises in washer dryer, refrigerator, dishwasher repair, & cooker LG service centre.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "LG Fridge Repair, LG Washing Machine Repair, LG Cooker Repair, LG Oven Repair, LG Appliances Maintenance, LG Refrigerator Fix, LG Dishwasher Repair");

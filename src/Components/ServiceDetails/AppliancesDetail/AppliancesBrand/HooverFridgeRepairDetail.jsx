@@ -21,8 +21,8 @@ import Testimonial1 from '../../../Testimonial/Testimonial1';
 
 const HooverFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Hoover Fridge Repair - Washing Machine Service Dubai");
-  const metadescription = String(description || "Hoover Fridge Repair Dubai - Expert Hoover washing machine repairs, refrigerator, dishwaher, gas / electric cooker, oven, service near me 043300002");
+  const metatitle = String(titleSeo || "Best Hoover Fridge Repair & Service in Dubai | Washing Machine");
+  const metadescription = String(description || "Get warranty service for hoover appliances and fridge repair in Dubai by FAJ. Book now washer dryer, dishwasher, stove, or oven service  center near you.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Hoover Fridge Repair, Hoover Washing Machine Repair, Hoover Cooker Repair, Hoover Oven Repair, Hoover Appliances Maintenance, Hoover Refrigerator Fix, Hoover Appliance Service Dubai");

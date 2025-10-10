@@ -19,8 +19,8 @@ import BrandsSliderSection from "../BrandsSliderSection";
 
 const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Coffee Machine Repair & Maintenance Services Dubai");
-  const metadescription = String(description || "Get fast & reliable coffee machine repair in Dubai. Our experts in espresso machines for office & commercial maintenance services. Call now 04 3300002");
+  const metatitle = String(titleSeo || "Coffee Machine Repairs & Maintenance Services in Dubai");
+  const metadescription = String(description || "FAJ Expert Coffee machine repairs, coffee equipment, espresso machines, grinder, office & commercial maintenance services. Call now 04 3300002");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial COffee Machine repair, 3 Group Coffee Machine Repair");
   const metaURL = String(URL || "https://www.fajservices.ae/coffee-machine-repairs/").replace(/\/?$/, '/');

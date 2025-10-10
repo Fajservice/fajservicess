@@ -23,8 +23,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const FosterAppliancesServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Foster Appliances Services – Dishwasher Repair Dubai - Oven");
-  const metadescription = String(description || "Foster Appliances Services Dubai.  Expert maintenance for Foster dishwasher, stove, hob, oven, fridge repair, and Foster appliance fix near you.");
+  const metatitle = String(titleSeo || "Foster Appliances Service | Dishwasher Repair in Dubai | Oven");
+  const metadescription = String(description || "Our specialist Foster appliance service team, Contact Foster dishwasher, stove, hob, oven, fridge repair, and Foster appliance fix near you.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Foster Appliances Services, Foster Dishwasher Repair Dubai, Foster Oven Repair Dubai, Foster Stove Repair Dubai, Foster Hob Repair Dubai, Foster Fridge Repair Dubai, Foster Appliance Fix Dubai");

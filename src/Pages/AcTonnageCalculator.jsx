@@ -90,14 +90,14 @@ const ACTonnageCalculator = ({titleSeo, description, Author, Keyword, URL }) => 
                 <div className="container h-100">
                     {/* Main row */}
                     <div className="row align-items-center h-100">
-                        <div className="col-md-12 d-flex justify-content-center align-items-center">
-                            <h1 className="cs_white_color text-center" style={{ fontSize: "clamp(1.75rem, 5vw, 2.625rem)" }}>
+                        <div className="col-md-12 d-flex justify-content-center align-items-center mt-4">
+                            <h1 className="text-center" style={{ fontSize: "clamp(1.75rem, 5vw, 2.625rem)" }}>
                                 AC Tonnage Calculator
                             </h1>
                         </div>
                         {/* Form section */}
                     </div>
-                <div className="calculator max-w-2xl mx-auto bg-white p-6 rounded-lg shadow">
+                <div className="calculator max-w-2xl mx-auto bg-white p-5 m-4 rounded-lg shadow d-flex flex-wrap justify-content-center">
 
                     {[
                         { label: "Room Length (m)", name: "length" },
@@ -106,8 +106,8 @@ const ACTonnageCalculator = ({titleSeo, description, Author, Keyword, URL }) => 
                         { label: "Number of People", name: "people" },
                         { label: "Number of Appliances", name: "appliances" }
                     ].map(({ label, name }) => (
-                        <div key={name} className="mb-4">
-                        <label className="block font-semibold mb-1">{label}</label>
+                        <div key={name} className="mb-4 col-md-5">
+                        <label className="block font-semibold mb-1 pe-3">{label}</label>
                         <input
                             type="number"
                             name={name}
@@ -121,8 +121,8 @@ const ACTonnageCalculator = ({titleSeo, description, Author, Keyword, URL }) => 
                         </div>
                     ))}
 
-                    <div className="mb-4">
-                        <label className="block font-semibold mb-1">Floor Level</label>
+                    <div className="mb-4 col-md-5">
+                        <label className="block font-semibold mb-1 pe-3">Floor Level</label>
                         <select
                         name="floorLevel"
                         value={form.floorLevel}
@@ -135,8 +135,8 @@ const ACTonnageCalculator = ({titleSeo, description, Author, Keyword, URL }) => 
                         </select>
                     </div>
 
-                    <div className="mb-4">
-                        <label className="block font-semibold mb-1">Glass Window Area (m²)</label>
+                    <div className="mb-4 col-md-5">
+                        <label className="block font-semibold mb-1 pe-3">Glass Window Area (m²)</label>
                         <div className="flex gap-2">
                         <input
                             type="number"
@@ -161,8 +161,8 @@ const ACTonnageCalculator = ({titleSeo, description, Author, Keyword, URL }) => 
                         </div>
                     </div>
 
-                    <div className="mb-4">
-                        <label className="block font-semibold mb-1">Window Direction</label>
+                    <div className="mb-4 col-md-5">
+                        <label className="block font-semibold mb-1 pe-3">Window Direction</label>
                         <select
                         name="windowDirection"
                         value={form.windowDirection}
@@ -175,21 +175,23 @@ const ACTonnageCalculator = ({titleSeo, description, Author, Keyword, URL }) => 
                         <option value="south">South</option>
                         </select>
                     </div>
+                    <div className="col-12 mb-4 text-center">
+                        <button
+                            onClick={calculateTonnage}
+                            className="w-full bg-orange-500 hover:bg-orange-600 py-2 px-4 rounded font-bold"
+                        >
+                            Calculate Tonnage
+                        </button>
 
-                    <button
-                        onClick={calculateTonnage}
-                        className="w-full bg-orange-500 hover:bg-orange-600 py-2 px-4 rounded font-bold"
-                    >
-                        Calculate Tonnage
-                    </button>
-
-                    {tonnage && (
-                        <div className="mt-6 text-center">
-                        <p className="font-semibold text-lg">Required AC Tonnage:</p>
-                        <p className="text-2xl font-bold text-blue-600">{tonnage} Tons</p>
+                        {tonnage && (
+                            <div className="mt-6 text-center">
+                            <p className="font-semibold text-lg">Required AC Tonnage:</p>
+                            <p className="text-2xl font-bold text-blue-600">{tonnage} Tons</p>
+                            </div>
+                        )}
                         </div>
-                    )}
                     </div>
+                    
                 {/* Extra padding div to ensure proper spacing after the section */}
                 <div className="pb-3 d-md-none"></div>
                 

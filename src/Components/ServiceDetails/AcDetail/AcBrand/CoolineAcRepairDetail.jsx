@@ -21,8 +21,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Best Cooline AC Repair In Dubai - Air Conditioner Service");
-  const metadescription = String(description || "Get emergency Cooline AC repair in Dubai by FAJ Co, We are experts in HVAC, central air conditioning maintenance service near you Dubai UAE");
+  const metatitle = String(titleSeo || "HVAC Maintenance Services | Cooline AC Repair In Dubai");
+  const metadescription = String(description || "Get emergency Cooline AC repair in Dubai by FAJ Co., We are experts in aircon gas refilling, spare parts replacement, AMC services and installation near.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Cooline AC Repair, Cooline Air Conditioner Service, Cooline AC Maintenance Dubai, Cooline AC Fix Dubai, Cooline Air Condition Repair Dubai, Cooline Air Condition Maintenance Dubai, Cooline AC Service Dubai, Cooline Air Conditioner Repair Dubai, Cooline Air Conditioner Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/cooline-ac-repair-in-dubai-cooline-ac-maintenance-in-dubai-cooline-ac-fix-in-dubai-cooline-ac-service-in-dubai-cooline-air-condition-repair-in-dubai-cooline-air-condition-maintenance-in-dubai-cooline").replace(/\/?$/, '/');

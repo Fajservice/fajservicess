@@ -22,8 +22,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const HitachiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Hitachi AC Repair in Dubai - Air Conditioner Maintenance");
-  const metadescription = String(description || "Hitachi AC Repair in Dubai.The Best Hitachi AC in UAE. Call us for AC (Air Conditioner) Maintenance Service neaby Dubai. Call us 043300002");
+  const metatitle = String(titleSeo || "Hitachi AC Repair and Maintenance Service in Dubai | FAJ");
+  const metadescription = String(description || "Looking for Hitachi AC repair, maintenance in Dubai? Find Hitachi Cooling & Heating professionals in Dubai and get the finest service near you.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Hitachi AC Repair in Dubai, Hitachi AC Maintenance in Dubai, Hitachi AC Fix in Dubai, Hitachi AC Service in Dubai, Hitachi Air Condition Repair in Dubai, Hitachi Air Condition Maintenance in Dubai, Hitachi");
   const metaURL = String(URL || "https://www.fajservices.ae/hitachi-ac-repair-in-dubai-hitachi-ac-maintenance-in-dubai-hitachi-ac-fix-in-dubai-hitachi-ac-service-in-dubai-hitachi-air-condition-repair-in-dubai-hitachi-air-condition-maintenance-in-dubai-hitachi/").replace(/\/?$/, '/');

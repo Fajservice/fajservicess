@@ -21,8 +21,8 @@ import AcProperties from "../../../Common/AcProperties";
 const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "York AC Repair in Dubai - Air Conditioner Maintenance Near");
-  const metadescription = String(description || "Are you need help in York AC Repair in Dubai? Call at 043300002 with FAJ Expert of HVAC, Central, VRF, (AC) air conditioner maintenance and services in Dubai");
+  const metatitle = String(titleSeo || "York AC Repair in Dubai | Air Conditioner Maintenance Company");
+  const metadescription = String(description || "Do you need help with York AC Repair in Dubai? Call 0433 000 002 for homes and workplaces. We also offer air conditioning service and maintenance.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "York AC Repair, York Air Conditioner Maintenance, York AC Service Dubai, York Air Conditioner Repair Dubai, York AC Installation Dubai, York AC Cleaning Dubai, York Air Conditioner Service Dubai, York Air Conditioner Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/york-ac-repair-in-dubai-york-ac-maintenance-in-dubai-york-ac-fix-in-dubai-york-ac-service-in-dubai-york-air-condition-repair-in-dubai-york-air-condition-maintenance-in-dubai-york-air-condition-mainten").replace(/\/?$/, '/');

@@ -25,8 +25,8 @@ import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointme
 
 const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => { 
   // For SEO
-  const metatitle = String(titleSeo || "Best Gas & Electric Hob Repair Service In Dubai #1 Stove Fix");
-  const metadescription = String(description || "Having issues with your cooking appliance? Dail 043300002 for hob repair service in dubai and electric stove, cooking range fix near me in dubai"); 
+  const metatitle = String(titleSeo || "Ceramic Hob Repair in Dubai | Electric Hob Service Near Me");
+  const metadescription = String(description || "Having issues with your Gas hob repair in Dubai? Call 043300002 for electric Induction, cooker service center near me with a warranty spare parts."); 
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Electric Hob Repair, Gas Hob Repair, Gas Hob Service");
   const metaURL = String(URL || "https://www.fajservices.ae/hob-repair-service/").replace(/\/?$/, '/');

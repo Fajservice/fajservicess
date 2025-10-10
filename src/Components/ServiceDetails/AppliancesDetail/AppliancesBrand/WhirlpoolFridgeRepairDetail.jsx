@@ -22,8 +22,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const WhirlpoolFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Whirlpool Fridge Repair Dubai - Washing Machine Service");
-  const metadescription = String(description || "Do you need Whirlpool fridge repair Dubai? We offer expert Whirlpool washing machine, dryer, dishwasher, oven, stove fix service near me. 043300002");
+  const metatitle = String(titleSeo || "Whirlpool Fridge Repair in Dubai - Washing Machine Service Near");
+  const metadescription = String(description || "Our expert appliance service team is here to help with your Whirlpool fridge repair, washing machine, dishwasher, dryer, and oven center near you Dubai.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Whirlpool Fridge Repair Dubai, Whirlpool Washing Machine Repair Dubai, Whirlpool Cooker Repair Dubai, Whirlpool Oven Repair Dubai, Whirlpool Appliances Maintenance Dubai, Whirlpool Refrigerator Repair Dubai");

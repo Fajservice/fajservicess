@@ -21,8 +21,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const MideaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Midea AC Repair in Dubai - AC Maintenance and Services");
-  const metadescription = String(description || "Get best Midea AC repair in Dubai. We are exprt in central split AC (Air Conditioning) Maintenance Services near me, Aircon cleaning.");
+  const metatitle = String(titleSeo || "Best Midea AC Repair & HVAC Maintenance in Dubai UAE");
+  const metadescription = String(description || "Experienced technicians with specialized knowledge and tools promptly diagnose and provide Midea AC repair and cleaning services near you in Dubai.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Midea AC Repair, Midea AC Maintenance, Midea Air Conditioner Service, Midea AC Installation, Midea AC Cleaning, Midea AC Service Dubai, Midea Air Conditioning Repair Dubai, Midea Split AC Service Dubai, Midea Central AC Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/midea-ac-installation-maintenance-repair-fix-service-in-dubai").replace(/\/?$/, '/');

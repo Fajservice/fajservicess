@@ -20,8 +20,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const ThemadorAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Thermador Appliances Service Dubai #1 Thermador Oven Repair");
-  const metadescription = String(description || "Call our trained team by dialling 043300002 for Thermador Appliances Service Dubai and cooking range, oven, fridge repair & maintenance near me");
+  const metatitle = String(titleSeo || "Thermador Appliances Service in Dubai | Thermador Repair Center");
+  const metadescription = String(description || "Call our trained team on 043300002 for Thermador home appliances service in Dubai for cooking range, oven, fridge repair & maintenance near me");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Thermador Appliances Service, Thermador Oven Repair, Thermador Fridge Repair, Thermador Washing Machine Repair, Thermador Dishwasher Repair, Thermador Cooker Repair, Thermador Appliance Maintenance Dubai");

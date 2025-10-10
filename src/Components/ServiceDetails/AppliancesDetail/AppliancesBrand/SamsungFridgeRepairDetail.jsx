@@ -20,8 +20,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1";
 
 const SamsungFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Samsung Fridge Repair Dubai - Washing Machine Service - FAJ ");
-  const metadescription = String(description || "Looking for Samsung Fridge Repair in Dubai? Call 043300002 for quick Samsung washing machine repair, dryer, refrigerator, stove & dishwasher service ");
+  const metatitle = String(titleSeo || "Samsung Fridge Repair in Dubai | Washing Machine Service Near");
+  const metadescription = String(description || "Samsung Home Appliance Repair: We specialise in Samsung fridge repair & washing machine, dryer, refrigerator, dishwasher service repair center Dubai");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Samsung Fridge Repair Dubai, Samsung Washing Machine Repair Dubai, Samsung Dryer Repair Dubai, Samsung Dishwasher Repair Dubai, Samsung Stove Repair Dubai, Samsung Appliance Service Dubai");
