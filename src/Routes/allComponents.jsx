@@ -384,6 +384,7 @@ export const ApplianceServiceInAlRaffa = withSuspense(React.lazy(() => import(".
 export const ApplianceServiceInDifc = withSuspense(React.lazy(() => import("../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInDifc")));
 export const ApplianceServiceInJumeirahPark = withSuspense(React.lazy(() => import("../Pages/AppliancesPage/AppliancesLocation/ApplianceServiceInJumeirahPark")));
 export const AcRepairInJebelAliIndustrialArea = withSuspense(React.lazy(() => import("../Pages/AcPages/AcLocation/AcRepairInJebelAliIndustrialArea")));
+export const CoffeeMachineLandingPage = withSuspense(React.lazy(() => import("../Pages/LandingPages/CoffeeMachineLandingPage.jsx")));
 export const Career = withSuspense(React.lazy(() => import("../Pages/Career/Career")));
 
 
