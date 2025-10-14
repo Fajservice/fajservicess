@@ -1,19 +1,25 @@
 import CMAppointmentBanner from '../../Components/LandingPages/CMAppoitmentBanner'
 import CMBannerCta from '../../Components/LandingPages/CMBannerCta'
-import CMLogoService from '../../Components/LandingPages/CMLogoLP'
-import CMQuoteForm from '../../Components/LandingPages/CMQuoteForm'
+import CMBenefits from '../../Components/LandingPages/CMBenifit'
+import CMFaqs from '../../Components/LandingPages/CMFaqs'
 import CMServicesLP from '../../Components/LandingPages/CMServciesLP'
-import CMTechinicianCarousel from '../../Components/LandingPages/CMTechinicanCarousel'
+import CMTechincianCarousel from '../../Components/LandingPages/CMTechinicanCarousel'
+import CMTestimonial from '../../Components/LandingPages/CMTestimonial'
+import CMWhyChooseUs from '../../Components/LandingPages/CMWhyChooseUs'
+import WhyChooseUS from '../../Components/WhyChooseUS/ACWhyChooseUs'
 
 const CoffeeMachineLandingPage = () => {
   return (
     <div>
         <CMBannerCta />
-        <CMTechinicianCarousel />
+        <CMTechincianCarousel />
         <CMServicesLP />
         <CMAppointmentBanner />
-        <CMLogoService />
-        <CMQuoteForm />
+        <CMTestimonial />
+        <CMBenefits />
+        <CMWhyChooseUs />
+        <WhyChooseUS />
+        <CMFaqs />
     </div>
   )
 }

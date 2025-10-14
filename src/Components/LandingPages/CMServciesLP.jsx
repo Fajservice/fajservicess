@@ -2,14 +2,14 @@ import '../css/coffeemachinelandingpage.css';
 
 const CMServicesLP = () => {
   const services = [
-    { id: 1, name: 'Breville', type: 'Coffee Machine Repair' },
-    { id: 2, name: 'Espresso', type: 'Coffee Machine Repair' },
-    { id: 3, name: 'Miele', type: 'Coffee Machine Repair' },
-    { id: 4, name: 'Air Conditioner (AC)', type: 'Coffee Machine Repair' },
-    { id: 5, name: 'TV', type: 'Coffee Machine Repair' },
-    { id: 6, name: 'Hob', type: 'Coffee Machine Repair' },
-    { id: 7, name: 'Cooker', type: 'Coffee Machine Repair' },
-    { id: 8, name: 'Beverage Cooler', type: 'Coffee Machine Repair' },
+    { id: 1, name: 'BrewCare Home Service', type: 'Home Repair' },
+    { id: 2, name: 'CoffeeFix at Home', type: 'Home Repair' },
+    { id: 3, name: 'HomeBrew Repair', type: 'Home Repair' },
+    { id: 4, name: 'CafeCare Home', type: 'Home Repair' },
+    { id: 5, name: 'BrewMate Service', type: 'Home Repair' },
+    { id: 6, name: 'BrewPro Commercial Service', type: 'Commerical Repair' },
+    { id: 7, name: 'CafeCare Business', type: 'Commerical Repair' },
+    { id: 8, name: 'ProBrew Solutions', type: 'Commerical Repair' },
     { id: 9, name: 'Wine Cooler', type: 'Coffee Machine Repair' },
     { id: 10, name: 'Oven', type: 'Coffee Machine Repair' }
   ];

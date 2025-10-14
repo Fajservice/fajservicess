@@ -10,8 +10,6 @@ import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
 import ACWhyChooseUs from "../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper/modules";
 import testimonial_data from '../../Data/AcData/AcTestimonial/AcRepairTestimonials.json';
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import BookingFormModal from '../BookingFormModal';

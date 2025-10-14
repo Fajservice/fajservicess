@@ -1546,7 +1546,7 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInJebelAliIndustrialArea />,
       },
        {
-        path: "/coffeeMachinelp/",
+        path: "/dubai-service-center-coffee-machine/",
         element: <Components.CoffeeMachineLandingPage />,
       },
       {

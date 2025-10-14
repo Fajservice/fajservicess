@@ -5,7 +5,7 @@ const WhyChooseUS = () => {
 
     <section className="section cs_py_30">
       <div className="container container-md container-sm">
-        <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, COFFEE MACHINE Repair</h2>
+        <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2>
         <div className="usps align-items-center	">
           {/* <!-- First Column --> */}
           <div className="uspcol col-1">
@@ -43,6 +43,7 @@ const WhyChooseUS = () => {
 
           </div>
 
+          {/* <!-- Delimit Section --> */}
           <div className="uspdelimit col-2 d-none d-xl-block">
 
             <img className="blue-border-2 w-100 why-choose-img" src={`${import.meta.env.BASE_URL}img/ACServicescomponent.avif`} alt="Ac Maintenance Services" />
