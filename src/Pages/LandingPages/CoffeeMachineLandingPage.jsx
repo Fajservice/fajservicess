@@ -1,6 +1,7 @@
 import CMAppointmentBanner from '../../Components/LandingPages/CMAppoitmentBanner'
 import CMBannerCta from '../../Components/LandingPages/CMBannerCta'
 import CMBenefits from '../../Components/LandingPages/CMBenifit'
+import CMExpress from '../../Components/LandingPages/CMExpress'
 import CMFaqs from '../../Components/LandingPages/CMFaqs'
 import CMServicesLP from '../../Components/LandingPages/CMServciesLP'
 import CMTechincianCarousel from '../../Components/LandingPages/CMTechinicanCarousel'
@@ -19,6 +20,7 @@ const CoffeeMachineLandingPage = () => {
         <CMBenefits />
         <CMWhyChooseUs />
         <WhyChooseUS />
+        <CMExpress />
         <CMFaqs />
     </div>
   )
