@@ -18,8 +18,9 @@ import HeaderForm from "../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 import BookingFormModal from '../../BookingFormModal';
 import { RxArrowTopRight } from 'react-icons/rx';
-import BrandsSliderSection from "../../BrandsSliderSection";
+import ImagesSliderSection from "../../ImagesSliderSection";
 import Testimonial1 from "../../Testimonial/Testimonial1";
+import BeforeAfter from "../../BeforeAfter/BeforeAfter";
 
 
 const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
@@ -908,14 +909,22 @@ const [isModalOpen, setIsModalOpen] = useState(false);
             </div>
           </div>
         </section>
-
+         <BeforeAfter
+            title="Recent Completed Repair & Service"
+            subTitle="Before & after"
+            bgImg="img/background-image-2.avif"
+            beforeImg="img/vaccum-cleaner-before-image.avif"
+            afterTitle="After"
+            afterImg="img/vaccum-cleaner-after-image.avif"
+            beforeTitle="Before"
+          />
         {/* Brands section */}
-          <BrandsSliderSection
+          <ImagesSliderSection
         brandsData={brandsLogo_data}
         sectionId="home-brands"
-        logoMaxHeight="60px"
-        logoMaxWidth="160px"
-        containerHeight="120px"
+        logoMaxHeight="250px"
+        logoMaxWidth="280px"
+        containerHeight="160px"
       />
   
         {/* Maintenance Contract */}

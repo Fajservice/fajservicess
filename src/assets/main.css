@@ -7661,6 +7661,7 @@ label {
 .cs_before_after .cs_single_slide.cs_before {
   right: 50%;
   overflow: hidden;
+  background-color: #fff;
 }
 
 .cs_before_after .cs_handle_before_after {

@@ -15,11 +15,14 @@ import "swiper/css/pagination";
 import "swiper/swiper-bundle.css";
 import testimonial_data from '../../Data/CommercialCoffeeMAchineReapairTestimonials.json';
 import brandsLogo_data from '../../Data/coffeemachineServicebrand.json';
+import Images_data from '../../Data/coffeemachineServiceImages.json';
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../Headeform/HeaderForm";
 import Testimonial1 from "../Testimonial/Testimonial1";
 import BrandsSliderSection from "../BrandsSliderSection";
+import BeforeAfter from "../BeforeAfter/BeforeAfter";
+import ImagesSliderSection from "../ImagesSliderSection";
 
 const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
@@ -1152,7 +1155,22 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
           </div>
         </section>
-
+        <BeforeAfter
+            title="Recent Completed Repair & Service"
+            subTitle="Before & after"
+            bgImg="img/background-image-2.avif"
+            beforeImg="img/coffee-machine-before-image.avif"
+            afterTitle="After"
+            afterImg="img/coffee-machine-after-image.avif"
+            beforeTitle="Before"
+          />
+          <ImagesSliderSection
+        brandsData={Images_data}
+        sectionId="home-brands"
+        logoMaxHeight="280px"
+        logoMaxWidth="320px"
+        containerHeight="180px"
+      />
         {/* Brands section */}
          <BrandsSliderSection
         brandsData={brandsLogo_data}

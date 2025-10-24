@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-const BrandsSliderSection = ({ 
+const ImagesSliderSection = ({ 
   brandsData = [],
   className = "",
   sectionId = "",
@@ -22,10 +22,10 @@ const BrandsSliderSection = ({
   containerHeight = "120px",
   breakpoints = {
     320: { slidesPerView: 2 },
-    576: { slidesPerView: 3 },
-    768: { slidesPerView: 4 },
-    992: { slidesPerView: 5 },
-    1200: { slidesPerView: 6 }
+    576: { slidesPerView: 2 },
+    768: { slidesPerView: 3 },
+    992: { slidesPerView: 4 },
+    1200: { slidesPerView: 5 }
   }
 }) => {
   
@@ -99,4 +99,4 @@ const BrandsSliderSection = ({
   );
 };
 
-export default React.memo(BrandsSliderSection);
+export default React.memo(ImagesSliderSection);

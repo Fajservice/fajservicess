@@ -211,7 +211,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
             <p>Grilling is more than just cooking; it&apos;s a lifestyle. To fully enjoy barbecued delights, proper grill maintenance is essential, as a well-kept grill is key to a perfect barbecue.</p>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/bbq.avif`} alt="BBQ Repair Service" loading="lazy" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/bbq-repair-service.avif`} alt="BBQ Repair Service" loading="lazy" />
               </div>
               <div className="col-md-6">
                 <ul>
