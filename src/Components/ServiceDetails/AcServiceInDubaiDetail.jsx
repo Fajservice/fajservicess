@@ -25,6 +25,7 @@ import FAJACPrice from "../Miscellaneous/FAJACPrice";
 import GetQuoteButton from "../Buttons/GetQuoteButton";
 import Blog2 from "../Blog/Blog2";
 import Testimonial1 from "../Testimonial/Testimonial1";
+import BeforeAfter from "../BeforeAfter/BeforeAfter";
 
 const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
@@ -338,7 +339,15 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
         {/* Why choose us AC */}
         < ACWhyChooseUs />
-
+        <BeforeAfter
+          title="Recent Completed Service"
+          subTitle="Before & After Service"
+          bgImg="img/background-image-2.avif"
+          beforeImg="img/after_img_1.avif"
+          afterTitle="After"
+          afterImg="img/before_img_1.avif"
+          beforeTitle="Before"
+        />
         {/* We specialise in air conditioning services for the following brands */}
         < section className="section cs_py_30 bg-light-gray" >
           <div className="container">

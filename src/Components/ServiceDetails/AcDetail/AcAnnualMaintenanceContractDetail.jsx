@@ -28,6 +28,7 @@ import AcProperties from "../../Common/AcProperties";
 import BookingFormModal from '../../BookingFormModal';
 import { RxArrowTopRight } from 'react-icons/rx';
 import Testimonial1 from "../../Testimonial/Testimonial1";
+import BeforeAfter from "../../BeforeAfter/BeforeAfter";
 
 const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
@@ -399,7 +400,15 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
             </div>
           </div>
         </section>
-
+        <BeforeAfter
+          title="Recent Completed Service"
+          subTitle="Before & After Service"
+          bgImg="img/background-image-2.avif"
+          beforeImg="img/after_img_1.avif"
+          afterTitle="After"
+          afterImg="img/before_img_1.avif"
+          beforeTitle="Before"
+        />
         {/* BRANDS */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">

@@ -25,6 +25,7 @@ import Practicaltip from "../Common/Practicaltip";
 import AcProperties from "../Common/AcProperties";
 import Blog2 from "../Blog/Blog2";
 import Testimonial1 from "../Testimonial/Testimonial1";
+import BeforeAfter from "../BeforeAfter/BeforeAfter";
 
 
 const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
@@ -368,7 +369,15 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
         {/* The Benefits Of Regular AC Service*/}
         <BenefitAcMaintenance />
         <ACWhyChooseUs />
-
+        <BeforeAfter
+          title="Recent Completed Maintenance"
+          subTitle="Before & After Maintenance"
+          bgImg="img/background-image-2.avif"
+          beforeImg="img/after_img_1.avif"
+          afterTitle="After"
+          afterImg="img/before_img_1.avif"
+          beforeTitle="Before"
+        />
         {/* We specialise in AC  maintenance services for the following brands.*/}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
