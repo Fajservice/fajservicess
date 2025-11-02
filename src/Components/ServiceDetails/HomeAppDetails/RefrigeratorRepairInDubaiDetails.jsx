@@ -26,8 +26,8 @@ import Testimonial1 from "../../Testimonial/Testimonial1";
 
 const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Refrigerator Repair Service Near Me | Fridge Repair in Dubai");
-  const metadescription = String(description || "Book refrigerator repair near you. Call at 043300002 FAJ Experts to get same day fridge repairs & maintenance in Dubai. Freezer fix & service center.");
+  const metatitle = String(titleSeo || "Refrigerator Repair in Dubai | Fridge Service Center Near Me");
+  const metadescription = String(description || "Refrigerator repair in Dubai. Call FAJ 04-3300002 Experts for same-day fridge repair near me & maintenance services. Fridge Freezer fixing.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Refrigerator repair, Fridge repair, Refrigerator service, Freezer repair, Dubai refrigerator repair, Fridge service Dubai, Appliance repair Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/refrigerator-repair-service/").replace(/\/?$/, '/');

@@ -27,8 +27,8 @@ import Testimonial1 from "../../Testimonial/Testimonial1";
 
 const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Electric & Gas Cooker Repair in Dubai | Service Near Me");
-  const metadescription = String(description || "Are you looking for gas or electric cooker repair in Dubai? Book now 043300002 for gas stove service. Get FAJ fast fixing cooking range, induction repairs");
+  const metatitle = String(titleSeo || "Gas Cooker Repair in Dubai | Electric Stove Service Near Me");
+  const metadescription = String(description || "Gas cooker repair in Dubai. Call at 043300002 for gas & electric stove service near me. Get FAJ expert fast fix cooking range, hood, induction repairs");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Gas Cooker Repair, Gas Stove Repair, Cooking Range Service, Induction Repair, Dubai, Sharjah");
   const metaURL = String(URL || "https://www.fajservices.ae/gas-cooker-repair-service/").replace(/\/?$/, '/');

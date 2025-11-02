@@ -21,8 +21,8 @@ import { FaEyeSlash } from "react-icons/fa";
 
 const CommercialWashingMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Commercial Washing Machine Repair | Maintenance Service");
-  const metadescription = String(description || "FAJ Experts provide commercial washing machine repair in Dubai. Book for quality work, commercial laundry, washer, dryer maintenance & AMC services");
+  const metatitle = String(titleSeo || "Commercial Washing Machine Repair & Maintenance in Dubai");
+  const metadescription = String(description || "FAJ | Commercial washing machine repair technicians in Dubai. Book for quality work, Laundry equipment maintenance, washer, dryer services & AMC");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial Washing Machine repair, Commercial Washing Machine service, Commercial Washing Machine maintenance, Commercial Washing Machine AMC, Commercial Washing Machine Dubai, Commercial Washing Machine Sharjah, Commercial Washing Machine repair Dubai, Commercial Washing Machine repair Sharjah, Commercial Laundry Equipment Service, Commercial Laundry Equipment Repair");
   const metaURL = String(URL || "https://www.fajservices.ae/commercial-washing-machine-repair/").replace(/\/?$/, '/');
@@ -150,7 +150,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/img/banners/Commer
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Commercial Washing Machine Repair</h1>
+            <h1 className="cs_fs_30">Commercial Washing Machine Repair  - Laundry Equipment, Washer & Dryer Maintenance Services in Dubai</h1>
             {/* <h2 className="cs_fs_30">Choose Commercial Washing Machine Service Center for Same-Day Repairs in Dubai</h2> */}
             <p>
               Since 2010, FAJ has been a trusted name in Commercial Washing Machine repair and service in Dubai and Sharjah. Our skilled professionals are ready to assist with any brand, using high-quality tools for effective service.

@@ -11,22 +11,20 @@ import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import 'swiper/swiper-bundle.css';
 import testimonial_data from '../../../Data/HomeAppData/Testmonials/VacuumCleanerHomeappTestimonials.json';
-import brandsLogo_data from '../../../Data/vacuumcleanerphoto.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 import BookingFormModal from '../../BookingFormModal';
 import { RxArrowTopRight } from 'react-icons/rx';
-import ImagesSliderSection from "../../ImagesSliderSection";
 import Testimonial1 from "../../Testimonial/Testimonial1";
 import BeforeAfter from "../../BeforeAfter/BeforeAfter";
 
 
 const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Robot Vacuum Cleaner Repair | Vacuum Cleaner Repair Service");
-  const metadescription = String(description || "Fast & cheap Robot vacuum cleaner repair in Dubai. Call 04300002 for upright, canister, wet dry, cordless vacuum cleaner maintenance service near me");
+  const metatitle = String(titleSeo || "Robot Vacuum Cleaner Repair | Vacuum Cleaner Service Near Me");
+  const metadescription = String(description || "FAJ | Robot vacuum cleaner repair and service center in Dubai. Book now 043300002 for vacuum cleaner repair near me, fix, servicing & maintenance.");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "Robot vacuum cleaner repair, vacuum cleaner service, Xiaomi vacuum repair, Roomba vacuum service, TP-Link vacuum cleaner repair, Eufy vacuum cleaner service, Anker vacuum repair");
   const metaURL = String(URL || "https://www.fajservices.ae/robot-vacuum-cleaner-repair/").replace(/\/?$/, '/');
@@ -96,38 +94,6 @@ const [isModalOpen, setIsModalOpen] = useState(false);
         breakpoint: 768,
         settings: {
           slidesToShow: 1,
-        }
-      }
-    ]
-  };
-
-  const settingBrands = {
-    dots: false,
-    infinite: true,
-    slidesToShow: 4,
-    arrows: false,
-
-    autoplay: true,
-    autoplaySpeed: 5000,
-    pauseOnHover: true,
-    // cssEase: 'linear',
-
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 4,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 3,
-        }
-      }, {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
         }
       }
     ]
@@ -919,13 +885,57 @@ const [isModalOpen, setIsModalOpen] = useState(false);
             beforeTitle="Before"
           />
         {/* Brands section */}
-          <ImagesSliderSection
-        brandsData={brandsLogo_data}
-        sectionId="home-brands"
-        logoMaxHeight="250px"
-        logoMaxWidth="280px"
-        containerHeight="160px"
-      />
+          {/* Gallery */}
+        <section className="section cs_py_30 gallery-section bg-light-gray mb-4">
+          <div class="container">
+            <h3 class="mb-4 text-center">Gallery</h3>
+              <div class="row g-4">
+      
+                <div class="col-lg-4 col-md-6">
+                  <img
+                    src="/img/vacuum-cleaners/inspection-robot-vacuum-celaner.avif"
+                    class="img-fluid rounded shadow mb-4"
+                    alt="BBQ Grill Repair Service Dubai"
+                  />
+
+                  <img
+                    src="/img/vacuum-cleaners/robot-vacuum-celaner.avif"
+                    class="img-fluid rounded shadow"
+                    alt="BBQ Grill Cleaning Service Dubai"
+                  />
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <img
+                    src="/img/vacuum-cleaners/vacuum-cleaner-repair-service.avif"
+                    class="img-fluid rounded shadow mb-4"
+                    alt="BBQ Grill Service"
+                  />
+
+                  <img
+                    src="/img/vacuum-cleaners/robot-vacuum-celaner-repair.avif"
+                    class="img-fluid rounded shadow"
+                    alt="BBQ Grill Repair"
+                  />
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <img
+                    src="/img/vacuum-cleaners/inspection-robot-vacuum-celaner-repair.avif"
+                    class="img-fluid rounded shadow mb-4"
+                    alt="BBQ Grill Repair Service"
+                  />
+
+                  <img
+                    src="/img/vacuum-cleaners/vacuum-celaner-repair.avif"
+                    class="img-fluid rounded shadow"
+                    alt="BBQ Grill Cleaning Service"
+                  />
+                </div>
+              </div>
+          </div>
+        </section>
+        {/* Gallery */}
   
         {/* Maintenance Contract */}
         <MaintenanceContract />

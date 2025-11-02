@@ -15,19 +15,17 @@ import "swiper/css/pagination";
 import "swiper/swiper-bundle.css";
 import testimonial_data from '../../Data/CommercialCoffeeMAchineReapairTestimonials.json';
 import brandsLogo_data from '../../Data/coffeemachineServicebrand.json';
-import Images_data from '../../Data/coffeemachineServiceImages.json';
 import loadBackgroudImages from "../Common/loadBackgroudImages";
 import parse from 'html-react-parser';
 import HeaderForm from "../Headeform/HeaderForm";
 import Testimonial1 from "../Testimonial/Testimonial1";
 import BrandsSliderSection from "../BrandsSliderSection";
 import BeforeAfter from "../BeforeAfter/BeforeAfter";
-import ImagesSliderSection from "../ImagesSliderSection";
 
 const CoffeeMachineServiceCenterInDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Coffee Machine Service Center in Dubai | Repair & Maintenance");
-  const metadescription = String(description || "Best FAJ Coffee machine service center in Dubai. Call 043300002 for home / office espresso machine, restaurant, coffee maker repair and maintenance.");
+  const metadescription = String(description || "Coffee Machine Service Center in Dubai. Call 043300002 for home / office espresso machine, coffee maker, repair near me & maintenance by FAJ experts");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Coffee Machine Repair, Coffee Machine Service, Coffee Machine Descaling, Coffee Machine Service Center");
   const metaURL = String(URL || "https://www.fajservices.ae/coffee-machine-service-center-in-dubai/").replace(/\/?$/, '/');
@@ -1164,13 +1162,57 @@ const [isModalOpen, setIsModalOpen] = useState(false);
             afterImg="img/coffee-machine-after-image.avif"
             beforeTitle="Before"
           />
-          <ImagesSliderSection
-        brandsData={Images_data}
-        sectionId="home-brands"
-        logoMaxHeight="280px"
-        logoMaxWidth="320px"
-        containerHeight="180px"
-      />
+        {/* Gallery */}
+        <section className="section cs_py_30 gallery-section bg-light-gray">
+        <div class="container">
+          <h3 class="mb-4 text-center">Gallery</h3>
+            <div class="row g-4">
+    
+              <div class="col-lg-4 col-md-6">
+                <img
+                  src="/img/CoffeeMachinesImages/coffee-machines-repair-1.avif"
+                  class="img-fluid rounded shadow mb-4"
+                  alt="Coffee Machine Repair in Dubai"
+                />
+
+                <img
+                  src="/img/CoffeeMachinesImages/coffee-machine-repair-gallery.avif"
+                  class="img-fluid rounded shadow"
+                  alt="Coffee Machine Repair"
+                />
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <img
+                  src="/img/CoffeeMachinesImages/coffee-machine-repair-service-gallery.avif"
+                  class="img-fluid rounded shadow mb-4"
+                  alt="Coffee Machine Repair Service"
+                />
+
+                <img
+                  src="/img/CoffeeMachinesImages/coffee-machines-repair-7.avif"
+                  class="img-fluid rounded shadow"
+                  alt="Commercial Coffee Machine Service"
+                />
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <img
+                  src="/img/CoffeeMachinesImages/coffee-machines-repair-8.avif"
+                  class="img-fluid rounded shadow mb-4"
+                  alt="Espresso Machine Maintenance"
+                />
+
+                <img
+                  src="/img/CoffeeMachinesImages/coffee-machine-repairs-service.avif"
+                  class="img-fluid rounded shadow"
+                  alt="Coffee Machine Repairs Service"
+                />
+              </div>
+            </div>
+        </div>
+        </section>
+        {/* Gallery */}
         {/* Brands section */}
          <BrandsSliderSection
         brandsData={brandsLogo_data}

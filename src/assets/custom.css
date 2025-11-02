@@ -677,6 +677,11 @@ p a {
   width: 100%;
 
 }
+.cs_service_details .gallery-section img{
+  max-height: inherit !important;
+  object-fit: contain !important;
+  width: auto !important;
+}
 
 .d-none-1199 {
   display: block;

@@ -20,7 +20,7 @@ import BrandsSliderSection from "../BrandsSliderSection";
 const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Coffee Machine Repairs & Maintenance Services in Dubai");
-  const metadescription = String(description || "FAJ Expert Coffee machine repairs, coffee equipment, espresso machines, grinder, office & commercial maintenance services. Call now 04 3300002");
+  const metadescription = String(description || "FAJ Qualified commercial coffee machine repairs technicians in Dubai, coffee equipment, espresso, vending machines servicing & maintenance AMC");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial COffee Machine repair, 3 Group Coffee Machine Repair");
   const metaURL = String(URL || "https://www.fajservices.ae/coffee-machine-repairs/").replace(/\/?$/, '/');
@@ -1115,7 +1115,57 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
           </div>
         </section>
+        {/* Gallery */}
+        <section className="section cs_py_30 gallery-section">
+        <div class="container">
+          <h3 class="mb-4 text-center">Gallery</h3>
+            <div class="row g-4">
+    
+              <div class="col-lg-4 col-md-6">
+                <img
+                  src="/img/CoffeeMachinesImages/commercial-coffee-machine-repairs.avif"
+                  class="img-fluid rounded shadow mb-4"
+                  alt="Coffee Machine Repair in Dubai"
+                />
 
+                <img
+                  src="/img/CoffeeMachinesImages/coffee-machine-repair-gallery.avif"
+                  class="img-fluid rounded shadow"
+                  alt="Coffee Machine Repair"
+                />
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <img
+                  src="/img/CoffeeMachinesImages/commercial-coffee-machine-repair-service.avif"
+                  class="img-fluid rounded shadow mb-4"
+                  alt="Coffee Machine Repair Service"
+                />
+
+                <img
+                  src="/img/CoffeeMachinesImages/commercial-coffee-machine-repairs-service.avif"
+                  class="img-fluid rounded shadow"
+                  alt="Commercial Coffee Machine Service"
+                />
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <img
+                  src="/img/CoffeeMachinesImages/commercial-coffee-machines-repairs.avif"
+                  class="img-fluid rounded shadow mb-4"
+                  alt="Espresso Machine Maintenance"
+                />
+
+                <img
+                  src="/img/CoffeeMachinesImages/coffee-machine-repairs-service.avif"
+                  class="img-fluid rounded shadow"
+                  alt="Coffee Machine Repairs Service"
+                />
+              </div>
+            </div>
+        </div>
+        </section>
+        {/* Gallery */}
         {/* Brands section */}
         <BrandsSliderSection
         brandsData={brandsLogo_data}

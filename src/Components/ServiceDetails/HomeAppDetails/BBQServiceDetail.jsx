@@ -27,7 +27,7 @@ import BeforeAfter from "../../BeforeAfter/BeforeAfter";
 const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Barbeque Repair in Dubai | BBQ Grill Cleaning Service Near Me");
-  const metadescription = String(description || "Same-day Barbeque repair in Dubai. Call 043300002 for your BBQ grill cleaning, gas grill burner, oven & electric BBQ deep services & maintenance near");
+  const metadescription = String(description || "Barbeque grill repair in Dubai. Call 04-3300002 for your BBQ grill cleaning service near me, gas BBQ burner, oven & electric BBQ servicing & maintenance");
   const metaAuthor = String(Author || "Faj Technical Services");
   const metaKeyword = String(Keyword || "BBQ Repair, BBQ Grill Cleaning Service, Barbeque Repair Dubai, Weber Repair, Electric BBQ Grill Repair Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/").replace(/\/?$/, '/');
@@ -507,6 +507,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
             </div>
           </div>
         </section>
+        
         {/* Brands section */}
             <BrandsSliderSection
             brandsData={brandsLogo_data}
@@ -515,7 +516,57 @@ const [isModalOpen, setIsModalOpen] = useState(false);
             logoMaxWidth="120px"
             containerHeight="100px"
           />
-           
+           {/* Gallery */}
+        <section className="section cs_py_30 gallery-section bg-light-gray mb-4">
+          <div class="container">
+            <h3 class="mb-4 text-center">Gallery</h3>
+              <div class="row g-4">
+      
+                <div class="col-lg-4 col-md-6">
+                  <img
+                    src="/img/bbq-repair.avif"
+                    class="img-fluid rounded shadow mb-4"
+                    alt="BBQ Grill Repair Service Dubai"
+                  />
+
+                  <img
+                    src="/img/bbq-repairs-service.avif"
+                    class="img-fluid rounded shadow"
+                    alt="BBQ Grill Cleaning Service Dubai"
+                  />
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <img
+                    src="/img/bbq-repairs.avif"
+                    class="img-fluid rounded shadow mb-4"
+                    alt="BBQ Grill Service"
+                  />
+
+                  <img
+                    src="/img/bbq-repair-service.avif"
+                    class="img-fluid rounded shadow"
+                    alt="BBQ Grill Repair"
+                  />
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <img
+                    src="/img/BBQ-Repair-Services.avif"
+                    class="img-fluid rounded shadow mb-4"
+                    alt="BBQ Grill Repair Service"
+                  />
+
+                  <img
+                    src="/img/bbq-repairs-services.avif"
+                    class="img-fluid rounded shadow"
+                    alt="BBQ Grill Cleaning Service"
+                  />
+                </div>
+              </div>
+          </div>
+        </section>
+        {/* Gallery */}
           {/* <div className="mb-4">
              <BeforeAfter
                 title="Recent Completed Projects"

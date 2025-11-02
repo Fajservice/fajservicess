@@ -23,8 +23,8 @@ import BrandsSliderSection from "../../BrandsSliderSection";
 
 const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Commercial Ice Maker Repair | Service Center Near Me | FAJ");
-  const metadescription = String(description || "FAJ reliable ice maker repair in Dubai. We specialise in hoshizaki, manitowoc, generaltec. brema, scotsman ice cube machine maintenance, AMC services");
+  const metatitle = String(titleSeo || "Ice Maker Repair in Dubai | Ice Machine Maintenance Services");
+  const metadescription = String(description || "Best Ice maker repair in Dubai. We specialise in hoshizaki, manitowoc, generaltec. brema, scotsman ice cube, Ice machine maintenance & AMC services");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Ice Maker Repair, IceMaker Repair, Commercial Ice Maker Repair Service");
   const metaURL = String(URL || "https://www.fajservices.ae/ice-maker-repair/").replace(/\/?$/, '/');
