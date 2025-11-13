@@ -24,8 +24,8 @@ import { FaEyeSlash } from "react-icons/fa";
 
 const WalkInRefrigerationServicesDetail = ({ subtitle, title, reviewsbg, titleSeo , description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Commercial Dishwasher Repair & Maintenance Service in Dubai");
-  const metadescription = String(description || "Get fast Commercial dishwasher repair in Dubai. FAJ Expert Fagor, Electrolux, Meiko, Elettrobar, Hobart dish & glass washer maintenance AMC services");
+  const metatitle = String(titleSeo || "Commercial Laundry Repair & Maintenance Service in Dubai");
+  const metadescription = String(description || "Get fast Commercial laundry repair in Dubai. FAJ Expert Fagor, Electrolux, Meiko, Elettrobar, Washer maintenance AMC services");
   const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial Laundry Equipment Service, Commercial Laundry Equipment Repair, Commercial Laundry Equipment Maintenance, Dryer Repair Dubai, Washer Repair Dubai, Ironing Machine Repair Dubai, Commercial Laundry AMC Services");
   const metaURL = String(URL || "https://www.fajservices.ae/commercial-laundry-equipment-service/").replace(/\/?$/, '/');
@@ -153,7 +153,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/img/banners/Commer
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Commercial Dishwasher Repair and Glass Washer Machine Maintenance Service in Dubai</h1>
+            <h1 className="cs_fs_30">Commercial Laundry Equipment Service in Dubai</h1>
             <p>
               Since 2010, FAJ has been a trusted name in Commercial Laundry repair and service in Dubai and Sharjah. Our skilled professionals are ready to assist with any brand, using high-quality tools for effective service.
               <br /> We prioritise repairs over replacements, helping you save money and avoid the hassle of buying a new Commercial Laundry. Rely on our experienced experts for fast and reliable Commercial Laundry maintenance in Dubai!

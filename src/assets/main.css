@@ -2947,7 +2947,7 @@ textarea {
 }
 
 .draggable {
-  cursor: url(/dist/img/drag.png) 16 9, ew-resize !important;
+  cursor: url(/img/drag.png) 16 9, ew-resize !important;
 }
 
 .slick-slide>div {

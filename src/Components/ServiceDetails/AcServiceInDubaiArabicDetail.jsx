@@ -630,7 +630,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
         <h3 className="cs_fs_30 text-light">نصائح عملية لتحسين كفاءة الطاقة</h3>
         <p>تعلم طرقًا سهلة ومجربة لتوفير الطاقة مع مكيف الهواء. اكتشف نصائح لتقليل التكاليف والبقاء منتعشًا طوال الصيف!</p>
         <a
-            href="https://www.fajservices.ae/dist/files/Practical%20Tips%20to%20Improve%20Energy%20Efficiency%20of%20Your%20AC%20Infographic.pdf"
+            href="https://www.fajservices.ae/files/Practical%20Tips%20to%20Improve%20Energy%20Efficiency%20of%20Your%20AC%20Infographic.pdf"
             className="btn-green-yellow"
             target="_blank"
             rel="noopener noreferrer"

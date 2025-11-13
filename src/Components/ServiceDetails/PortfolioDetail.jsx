@@ -463,6 +463,11 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                     <img src="/img/portfolio-clients/galaries.png" alt="Millennium"  style={{objectFit: 'contain'}}/>
                   </div>
                 </div>
+                <div className="col p-0">
+                  <div className="portfolio-clnts-img">
+                    <img src="/img/portfolio-clients/strada.avif" alt="strada"/>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
