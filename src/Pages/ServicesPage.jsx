@@ -47,9 +47,10 @@ const ServicesPage = ({titleSeo, description, Author, Keyword, URL }) => {
                     {/* Main row */}
                     <div className="row align-items-center h-100">
                         <div className="col-md-12 d-flex justify-content-start align-items-center">
-                            <h1 className="text-left offset-md-1 pt-5" style={{ fontSize: "clamp(1.5rem, 5vw, 2rem)" }}>
-                                FAJ Has Been The Best Maintenance Company in Dubai Since 2010, providing repair and maintenance for HVAC, appliances, refrigeration, & kitchen equipment & annual contract service in Dubai, Sharjah and Abu Dhabi
+                            <h1 className="text-left pt-5 px-4" style={{ fontSize: "clamp(1.5rem, 5vw, 2rem)" }}>
+                                FAJ: Dubai’s Premier Maintenance Services Company in Dubai
                             </h1>
+                            <p>Since 2010, we have been providing repair and maintenance services for HVAC systems, appliances, refrigeration, and kitchen equipment, as well as annual contract services in Dubai, Sharjah, and Abu Dhabi.</p>
                         </div>
                     {/* Form section */}
                     </div>

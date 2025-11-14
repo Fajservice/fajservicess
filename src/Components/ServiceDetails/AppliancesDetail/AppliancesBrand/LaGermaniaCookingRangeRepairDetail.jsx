@@ -272,7 +272,7 @@ const LaGermaniaCookingRangeRepairDetail = ({ subtitle, title, reviewsbg, titleS
                 </div>
               </div>
 
-              <div className="col-12 col-md-4 col-lg-3">
+              {/* <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
                     <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">heading</h3>
@@ -296,7 +296,7 @@ const LaGermaniaCookingRangeRepairDetail = ({ subtitle, title, reviewsbg, titleS
                     </p>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div id="get-quote" className="mb-0 mt-3">

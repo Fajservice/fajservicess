@@ -33,7 +33,7 @@ const exploreLinks = [
 ];
 
 const contactInfo = [
-  { icon: <TiLocation />, text: "Warehouse # 2, Street 18b, Al Quoz Industrial Area # 4, Dubai, UAE" },
+  { icon: <TiLocation />, text: "Warehouse No - S-02 Gate 35 Street 18B - Al Quoz - Al Quoz Industrial Area 4 - Dubai - United Arab Emirates" },
   {
     icon: <BsFillTelephoneFill />,
     items: [
