@@ -25,7 +25,7 @@ const AcRepairInMotorCityDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
     // For SEO
     const metatitle = String(titleSeo || "AC Services In Motor City Dubai - Air Conditioner Fixing #1");
     const metadescription = String(description || "T:043300002 FAJ AC Services in Motor City Dubai. We are experts in air conditioner maintenance and repair near me Dubai AC fix Air Con repairs");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac services in motor city, ac repair in motor city, ac maintenance in motor city, air conditioner service in motor city, air conditioner repair in motor city, air conditioner maintenance in motor city, ac technician in motor city, ac cleaning in motor city, ac installation in motor city, ac gas refilling in motor city");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-motor-city/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");

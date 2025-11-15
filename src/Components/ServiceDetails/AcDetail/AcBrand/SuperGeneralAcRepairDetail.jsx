@@ -25,7 +25,7 @@ const SuperGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descriptio
   // For SEO
   const metatitle = String(titleSeo || "Split Air Conditioner | Super General AC Repair in Dubai");
   const metadescription = String(description || "Book 043300002 for Split Super General AC repair in Dubai. We are offering cheap AC cleaning service, gas filling, ac spare parts change with a warranty ");
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Super General Ac Repair in Dubai, Super General AC Maintenance in Dubai, Super General AC Fix in Dubai, Super General AC Service in Dubai, Super General Air Condition Repair in Dubai, Super General Air Con");
   const metaURL = String(URL || "https://www.fajservices.ae/super-general-ac-repair-in-dubai-super-general-ac-maintenance-in-dubai-super-general-ac-fix-in-dubai-super-general-ac-service-in-dubai-super-general-air-condition-repair-in-dubai-super-general-air-con").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");

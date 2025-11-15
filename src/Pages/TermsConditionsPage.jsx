@@ -5,7 +5,7 @@ const TermsConditionsPage = ({ titleSeo, description, Author, Keyword, URL }) =>
     // For SEO
     const metatitle = String(titleSeo || "Terms and Conditions | FAJ Technical Services LLC Dubai");
     const metadescription = String(description || "By continuing to browse this website, you are agreeing to the following terms and conditions applied to the use of our services and FAJ website.");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/page_heading_1.avif");
     const metaKeyword = String(Keyword || "FAJ");
     const metaURL = String(URL || "https://www.fajservices.ae/terms-and-conditions/").replace(/\/?$/, '/');

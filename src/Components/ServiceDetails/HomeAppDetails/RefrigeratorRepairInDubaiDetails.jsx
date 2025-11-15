@@ -28,7 +28,7 @@ const RefrigeratorRepairInDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo
   // For SEO
   const metatitle = String(titleSeo || "Refrigerator Repair in Dubai | Fridge Service Center Near Me");
   const metadescription = String(description || "Refrigerator repair in Dubai. Call FAJ 04-3300002 Experts for same-day fridge repair near me & maintenance services. Fridge Freezer fixing.");
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Refrigerator repair, Fridge repair, Refrigerator service, Freezer repair, Dubai refrigerator repair, Fridge service Dubai, Appliance repair Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/refrigerator-repair-service/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/img/fridgerepair.avif");

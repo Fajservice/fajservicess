@@ -22,7 +22,7 @@ const AcRepairInAlMamzarDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     // For SEO
     const metatitle = String(titleSeo || "AC Repair and Service in Al Mamzar - Gree AC Maintenance");
     const metadescription = String(description || "Get same day AC repair and service in Al Mamzar Dubai. Call now 043300002 for your Gree air conditioner repairs and fix Gree AC error near you Dubai");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in Al Mamzar, AC Service in Al Mamzar, Air Conditioner Repair Dubai, AC Repair Dubai, Air Conditioning Service Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-repair-and-ac-service-in-al-mamzar/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");

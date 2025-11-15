@@ -23,7 +23,7 @@ const FosterApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
     // For SEO
     const metatitle = String(titleSeo || "Foster Appliances Service - Foster Dishwasher Repair Dubai");
     const metadescription = String(description || "Get Reliable Foster appliances service in Dubai. We provide refrigerator, dishwasher, washing machine, stove, oven repair & maintenance Call 043300002");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Foster Appliances Service, Foster Dishwasher Repair Dubai, Foster Washing Machine Repair Dubai, Foster Fridge Repair Dubai, Foster Cooker Repair Dubai, Foster Appliance Maintenance Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/foster-appliances-service/").replace(/\/?$/, '/');

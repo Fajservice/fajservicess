@@ -23,7 +23,7 @@ const SubZeroAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   // For SEO
   const metatitle = String(titleSeo || "Sub Zero AC Repair in Dubai | AC Cleaning Services Near Me");
   const metadescription = String(description || "Sub Zero AC Repair in Dubai offers expert maintenance services for central and split air conditioners. We are the go-to air conditioning fix FAJ company.");
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Sub Zero AC Repair, Sub Zero AC Service, Sub Zero Air Conditioner Maintenance, Sub Zero AC Installation, Sub Zero AC Cleaning Service, Sub Zero AC Repair Dubai, Sub Zero Air Conditioner Service Dubai, Sub Zero AC Repair Sharjah");
   const metaURL = String(URL || "https://www.fajservices.ae/sub-zero-ac-installation-maintenance-repair-fix-service-in-dubai").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");

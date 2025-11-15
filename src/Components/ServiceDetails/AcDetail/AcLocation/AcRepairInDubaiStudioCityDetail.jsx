@@ -23,7 +23,7 @@ const AcRepairInDubaiStudioCityDetail = ({ subtitle, title, reviewsbg, titleSeo,
     // For SEO
     const metatitle = String(titleSeo || "AC Services In Dubai Studio City - Air Conditioner Fixing");
     const metadescription = String(description || "Are you need AC Services in Dubai Studio City? Call 043300002 for central, ceiling, chiller air conditioner repairs and maintenance near me dubai");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in Dubai Studio City, Air Conditioning Service in Dubai Studio City, Air Con Maintenance & AC Installation in Dubai Studio City");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-dubai-studio-city/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");

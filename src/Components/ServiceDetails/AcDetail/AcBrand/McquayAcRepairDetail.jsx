@@ -23,7 +23,7 @@ const McQuayAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
   // For SEO
   const metatitle = String(titleSeo || "McQuay AC Repair & Maintenance Service in Dubai | FAJ");
   const metadescription = String(description || "We can also provide ongoing maintenance and on-demand McQuay AC repair and cleaning service in Dubai, and air conditioner fixing near you. Call 043300002");
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "MacQuay AC Repair in Dubai, McQuay Air Conditioner Maintenance, McQuay AC Service, McQuay AC Fix, McQuay Air Condition Repair, McQuay Air Condition Maintenance, McQuay Air Con Service");
   const metaURL = String(URL || "https://www.fajservices.ae/mcquay-ac-repair-in-dubai-mcquay-ac-maintenance-in-dubai-mcquay-ac-fix-in-dubai-mcquay-ac-service-in-dubai-mcquay-air-condition-repair-in-dubai-mcquay-air-condition-maintenance-in-dubai-mcquay-air-con/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");

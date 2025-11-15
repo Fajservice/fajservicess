@@ -7,7 +7,7 @@ const ServiceCard = ({ title, subtitle, price, color, details, whatsappLink, tit
   // For SEO
   const metatitle = String(titleSeo || "Dubai Best AC Service Prices - Air Conditioner Maintenance");
   const metadescription = String(description || "Book 043300002 for affordable AC services in Dubai! We offer reliable maintenance, and repair for central AC, split AC, HVAC, VRV/VRF systems, & more.");
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Dubai AC Service Prices");
   const metaURL = String(URL || "https://www.fajservices.ae/dubai-ac-service-price-list/").replace(/\/?$/, '/');
 const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");

@@ -29,7 +29,7 @@ const AcRepairInJBRDetail = ({ subtitle, title, reviewsbg, titleSeo, description
     // For SEO
     const metatitle = String(titleSeo || "AC Services In JBR - Chilled Water FCU Repair Near Me #1");
     const metadescription = String(description || "Get quality AC Services in JBR Dubai. We are offering the best chiller fan coil unit air conditioner repair, maintenance and aircon fix Call:043300002");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac services in jbr, ac repair in jbr, ac maintenance in jbr, air conditioning services in jbr, air conditioner repair in jbr, aircon service in jbr, chilled water fcus repair in jbr, chilled water fcus maintenance in jbr, chilled water fcus service in jbr");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jbr/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");

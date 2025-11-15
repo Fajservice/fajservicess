@@ -29,7 +29,7 @@ const AcRepairInMediaCityDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
     // For SEO
     const metatitle = String(titleSeo || "AC Services In Media City - #1 Air Conditioning Repairs");
     const metadescription = String(description || "Get it done affordably. Dail now 043300002 for ac services in media city dubai and the best chiller air conditioner repair & maintenance and fix aircon");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac services in media city, ac repair in media city, ac maintenance in media city, air conditioning services in media city, air conditioning repair in media city, air conditioning maintenance in media city, ac service dubai, ac repair dubai, ac maintenance dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-media-city/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");

@@ -23,7 +23,7 @@ const LiebherrRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
   // For SEO
   const metatitle = String(titleSeo || "Liebherr Refrigerator Repair in Dubai | Freezer Service Near Me");
   const metadescription = String(description || "With professional & warranty Liebherr refrigerator repair in Dubai. Call 043300002 for your Liebherr appliance, fridge freezer maintenance service near me");
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Liebherr refrigerator repair, Liebherr fridge repair, Liebherr freezer maintenance service, Liebherr appliance repair Dubai, Liebherr washing machine repair Dubai, Liebherr cooker repair Dubai, Liebherr dishwasher repair Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/liebherr-refrigerator-repair-in-dubai-liebherr-fridge-repair-in-dubai-liebherr-freezer-maintenance-service-in-dubai/").replace(/\/?$/, '/');

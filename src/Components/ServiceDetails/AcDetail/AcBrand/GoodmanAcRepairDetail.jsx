@@ -23,7 +23,7 @@ const GoodmanAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   // For SEO
   const metatitle = String(titleSeo || "Goodman AC Repair  & Services in Dubai | Air Conditioning Fix");
   const metadescription = String(description || "Professional Goodman repair and maintenance for HVAC systems. Rely on FAJ for dependable central cooling solutions tailored to your comfort needs.");
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Goodman AC Repair Dubai, Goodman Air Conditioner Service, Goodman AC Maintenance Dubai, Goodman Air Conditioning Repair, Goodman AC Cleaning");
   const metaURL = String(URL || "https://www.fajservices.ae/goodman-ac-repair-in-dubai-goodman-ac-maintenance-in-dubai-goodman-ac-fix-in-dubai-goodman-ac-service-in-dubai-goodman-air-condition-repair-in-dubai-goodman-air-condition-maintenance-in-dubai-goodman/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");

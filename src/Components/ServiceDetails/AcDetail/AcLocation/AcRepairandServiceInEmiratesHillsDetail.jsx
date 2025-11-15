@@ -23,7 +23,7 @@ const AcRepairandServiceInEmiratesHillsDetail = ({ subtitle, title, reviewsbg, t
     // For SEO
     const metatitle = String(titleSeo || "AC Repair and Service in Emirates Hills - Gree AC Maintenance");
     const metadescription = String(description || "Get same day AC repair and service in Emirates Hills Dubai. Call now 043300002 for your Gree air conditioner repairs and fix Gree AC error near you Dubai");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair Emirates Hills, AC Service Emirates Hills, Gree AC Maintenance Emirates Hills, Air Conditioner Repair Emirates Hills, Air Conditioning Service Emirates Hills, AC Technician Emirates Hills, AC Repair Dubai, Gree AC Repair Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-repair-and-ac-service-in-emirates-hills/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");

@@ -23,7 +23,7 @@ const AcRepairInAlkaramaDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     // For SEO
     const metatitle = String(titleSeo || "AC Services In Al Karama - AC Maintenance - AC Repairs #1");
     const metadescription = String(description || "Installing, Maintaining and AC Services in Al Karama Dubai Call 043300002 for central & split Air Conditioner maintenance, repair near me Dubai");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Services In Al Karama, AC Maintenance, AC Repair, Air Conditioner Service, Air Conditioner Repair, Air Conditioner Maintenance, Central AC Service, Split AC Service, Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-karama/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");

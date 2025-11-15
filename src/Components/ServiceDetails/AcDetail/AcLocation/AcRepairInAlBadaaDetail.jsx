@@ -22,7 +22,7 @@ const AcRepairInAlBadaaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
     // For SEO
     const metatitle = String(titleSeo || "Best AC Service Al Badaa - Air Conditioning Repair Near Me");
     const metadescription = String(description || "Call an 043300002 AC Services in Al Badaa Dubai. FAJ here help in split & central AC (Air Conditioner) cleaning service near me Dubai Fixing aircon");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Service Al Badaa, AC Repair Al Badaa, Air Conditioning Service Al Badaa, Air Conditioner Repair Al Badaa, Split AC Service Al Badaa, Central AC Service Al Badaa, Aircon Cleaning Al Badaa, Air Conditioner Maintenance Al Badaa");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-badaa/").replace(/\/?$/, '/');
     const metaImage = "https://www.fajservices.ae/img/ac%20filter.avif";

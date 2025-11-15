@@ -21,7 +21,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
   // For SEO
   const metatitle = String(titleSeo || "تصليح مكيفات - شركة تنظيف مكيفات في دبي - فني تكييف قريب مني");
   const metadescription = String(description || "فأج احصل على أفضل خدمة تصليح مكيفات في دبي · خدمة المكيف السبليت ·تصليح مكيفات مركزي تصليح مكيفات أفضل شركات تصليح مكيفات تصليح مكيفات · صيانة مكيفات المنزلية · غسيل المكيفات المركزية");
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "خدمة التكييف، صيانة التكييف، خدمة تكييف الهواء، إصلاح التكييف، صيانة التكييف في دبي، فني تكييف، تنظيف التكييف، شركة تكييف في دبي، أفضل خدمة تكييف، أسعار صيانة التكييف");
   const metaURL = String(URL || "https://www.fajservices.ae/تصليح-مكيفات-الهواء-خدمة-وصيانة-دبي/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");

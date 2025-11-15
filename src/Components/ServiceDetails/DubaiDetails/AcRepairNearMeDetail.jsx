@@ -25,7 +25,7 @@ const AcRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
   // For SEO
   const metatitle = String(titleSeo || "AC Repair Near Me - Expert AC Maintenance Near Me - FAJ");
   const metadescription = String(description || "Looking for AC repair near me in Dubai? Contact us at 043300002 for AC maintenance. Get same-day air conditioner repair service near me, Sharjah");
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "AC Repair Near Me, AC Service Near Me, Air Conditioner Repair Near Me, Air Conditioner Service Near Me, AC Maintenance Near Me, Split AC Repair Near Me, Split AC Service Near Me, Central AC Repair Near Me, Central AC Service Near Me");
   const metaURL = String(URL || "https://www.fajservices.ae/dubai/ac-repair-near-me/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");

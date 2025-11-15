@@ -26,7 +26,7 @@ const AcRepairInQuozIndustrialAreaDetail = ({ subtitle, title, reviewsbg, titleS
   // For SEO
   const metatitle = String(titleSeo || "Best AC Services in Al Quoz Industrial Area Dubai Near Me");
   const metadescription = String(description || "Call now on 043300002 for AC Services in Al Quoz Industrial Area - Book an your Air Conditioner Maintenance & Aircon Repair Near me in Dubai");
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "AC Service in Al Quoz Industrial Area, AC Repair in Al Quoz Industrial Area, Air Conditioner Maintenance in Al Quoz Industrial Area, Aircon Repair in Al Quoz Industrial Area, AC Cleaning in Al Quoz Industrial Area, AC Installation in Al Quoz Industrial Area, AC Technician in Al Quoz Industrial Area");
   const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-quoz-industrial-area/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");

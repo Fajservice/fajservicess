@@ -23,7 +23,7 @@ const AcRepairInDipDetail = ({ subtitle, title, reviewsbg, titleSeo, description
     // For SEO
     const metatitle = String(titleSeo || "AC Services In DIP Dubai - Air Conditioner Maintenance #1");
     const metadescription = String(description || "Get sameday AC Services in DIP Dubai. We are experts in central, split, hvac air condition maintenance, repairing near me Dubai AC fix service");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in DIP, Air Conditioning Service in DIP, Air Con Maintenance & AC Installation in DIP");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-dip/").replace(/\/?$/, '/');
 

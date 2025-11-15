@@ -23,7 +23,7 @@ const AcRepairInAlBarshaSouthDetail = ({ subtitle, title, reviewsbg, titleSeo, d
   // For SEO
   const metatitle = String(titleSeo || "AC Services In Al Barsha South - O General AC Repair Service");
   const metadescription = String(description || "043300002 FAJ AC Services in Al Barsha South Dubai. We are experts in central & split air condition maintenance & repairing near me Dubai AC fix");
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "AC Repair  in Al Barsha South, Air Conditioning Service in Al Barsha South, Air Con Maintenance & AC Installation in Al Barsha South");
   const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-barsha-south").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");

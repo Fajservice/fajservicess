@@ -25,7 +25,7 @@ const ApplianceServiceInNadAlShebaDetail = ({ subtitle, title, reviewsbg, titleS
     // For SEO
     const metatitle = String(titleSeo || "Appliances Services in Nad Al Sheba - Refrigerator Repair");
     const metadescription = String(description || "Get best appliance services in Nad Al Sheba. Experts in fridge repair near me in Dubai. Call 043300002 for washing machine, oven & dishwasher fix");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in Nad Al Sheba, Refrigerator Repair in Nad Al Sheba, Appliance Repair in Nad Al Sheba, Dishwasher Repair in Nad Al Sheba, Oven Repair in Nad Al Sheba, Appliance Services in Nad Al Sheba");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-nad-al-sheba/").replace(/\/?$/, '/');

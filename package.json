@@ -8,7 +8,7 @@
     "url": "https://www.fajservices.ae/issues"
   },
   "license": "ISC",
-  "author": "FAJ Technical Services",
+  "author": "FAJ Technical Services L.L.C",
   "type": "module",
   "scripts": {
     "dev": "vite",

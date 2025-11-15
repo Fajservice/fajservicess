@@ -29,7 +29,7 @@ const AcRepairInVictoryHeightsDetail = ({ subtitle, title, reviewsbg, titleSeo, 
     // For SEO
     const metatitle = String(titleSeo || "AC Service in Victory Heights - AC Repair Dubai Near Me");
     const metadescription = String(description || "FAJ offers AC services in Victory Heights, Dubai. We specialize in AC repair and maintenance for split and central units. Call us at 043300002.");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Service in Victory Heights, AC Repair in Victory Heights, AC Maintenance in Victory Heights, Split AC Service in Victory Heights, Central AC Service in Victory Heights, Air Conditioning Service in Victory Heights, Air Conditioner Repair in Victory Heights, Air Conditioner Maintenance in Victory Heights, HVAC Service in Victory Heights, FAJ Technical Services");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-victory-heights/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");

@@ -25,7 +25,7 @@ const DaewooHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
     // For SEO
     const metatitle = String(titleSeo || "Daewoo Home Appliances Repair - Washing Machine Repair");
     const metadescription = String(description || "Daewoo appliances repair Dubai. We are experts in Daewoo refrigerator, fridge, washing machine, dishwasher, and oven fix repair near me Dubai.");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Daewoo home appliances repair, Daewoo washing machine repair, Daewoo fridge repair, Daewoo dishwasher repair, Daewoo oven repair, Daewoo appliance service Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/daewoo-home-appliances-repair/").replace(/\/?$/, '/');

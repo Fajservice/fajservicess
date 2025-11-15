@@ -431,7 +431,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
           <div className="row cs_row_gap_30 cs_gap_y_60">
             <div className="col-xl-8 col-lg-7">
               <div className="cs_post_details">
-                {blogPost.img && <img src={blogPost.img} alt="Post Banner" fetchpriority="high" decoding="async" width="100%" height="auto"/>}
+                {blogPost.img && <img src={blogPost.img} alt={blogPost.title} fetchpriority="high" decoding="async" width="100%" height="auto"/>}
                 
                 <div className="cs_post_meta_wrapper cs_mb_20">
                   <div className="cs_post_meta">

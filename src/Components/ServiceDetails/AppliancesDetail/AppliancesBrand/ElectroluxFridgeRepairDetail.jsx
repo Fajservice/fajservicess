@@ -24,7 +24,7 @@ const ElectroluxFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
     // For SEO
     const metatitle = String(titleSeo || "Electrolux Fridge Repair in Dubai | Washing Machine Service");
     const metadescription = String(description || "Expert Electrolux fridge repair in Dubai, including dishwasher, washing machine, cooker, and oven fix, as well as an appliance service center near you.");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Electrolux Fridge Repair, Electrolux Washing Machine Repair, Electrolux Cooker Repair, Electrolux Oven Repair, Electrolux Appliances Maintenance, Electrolux Appliance Service Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/electrolux-fridge-repair-in-dubai-electrolux-washing-machine-repair-in-dubai-electrolux-cooker-repair-in-dubai-electrolux-oven-repair-in-dubai-electrolux-appliances-maintenance-in-dubai-electrolux-ref/").replace(/\/?$/, '/');

@@ -24,7 +24,7 @@ const KitchenaidStandMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, t
   // For SEO
   const metatitle = String(titleSeo || "KitchenAid Stand Mixer Repair & Maintenance Service in Dubai");
   const metadescription = String(description || "Kitchenaid stand mixer repair in Dubai with Warranty - Get expert maintenance & servicing of mixer repair centre near you. Contact 043300002.");
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/kitchen-aid-mixer-repair.avif");
   const metaKeyword = String(Keyword || "Kitchenaid Stand Mixer Repair, Kitchenaid Mixer Repair Dubai, Kitchenaid Appliance Repair, Kitchenaid Mixer Service, Kitchenaid Stand Mixer Maintenance, Kitchenaid Appliance Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/kitchenaid-stand-mixer-repair-service-near-me-dubai/").replace(/\/?$/, '/');

@@ -24,7 +24,7 @@ const AppliancesServicesInTecomDetail = ({ subtitle, title, reviewsbg, titleSeo,
     // For SEO
     const metatitle = String(titleSeo || "Appliances Services in Tecom - Washing Machine Repair Dubai");
     const metadescription = String(description || "We offer appliances services in Tecom Dubai. Do you need refrigerator, washing machine, fridge repair near me. Call at 043300002 to get quick services.");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in tecom, refrigerator repair in tecom, appliance repair in tecom, appliance service in tecom, appliance maintenance in tecom, appliance installation in tecom, appliance repair near me, appliance service near me, appliance maintenance near me, appliance installation near me");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-tecom/").replace(/\/?$/, '/');

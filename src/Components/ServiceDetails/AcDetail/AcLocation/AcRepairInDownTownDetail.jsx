@@ -22,7 +22,7 @@ const AcRepairInDownTownDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     // For SEO
     const metatitle = String(titleSeo || "AC Services In Downtown - AC Maintenance Company Dubai #1");
     const metadescription = String(description || "Get reliable & fast AC Services in Downtown Dubai. Book an 043300002 for central cooling unit air conditioner maintenance & repair near me.");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac repair in downtown, ac service in downtown, ac maintenance in downtown, ac installation in downtown, ac cleaning in downtown, ac technician in downtown, air conditioning service in downtown, air conditioner repair in downtown, air conditioner service in downtown, air conditioner maintenance in downtown");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-downtown/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");

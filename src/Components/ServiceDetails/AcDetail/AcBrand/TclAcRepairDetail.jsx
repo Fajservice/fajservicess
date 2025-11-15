@@ -23,7 +23,7 @@ const TCLAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
   // For SEO
   const metatitle = String(titleSeo || "TCL AC Repair in Dubai | AC Gas Filling | AC Servicing Near Me");
   const metadescription = String(description || "FAJ offers TCL AC repair in Dubai. Contact us at 043300002 for split air conditioner maintenance services near you. Book Top Maintenance Company");
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "TCL AC Repair, TCL Air Conditioner Service, TCL AC Maintenance Dubai, TCL AC Cleaning Service, TCL AC Installation Dubai, TCL AC AMC Dubai, TCL Air Conditioner Repair Dubai, TCL Air Conditioner Service Near Me, Split Air Conditioner Maintenance Service Near Me, Best Aircon Fix Company Nearby");
   const metaURL = String(URL || "https://www.fajservices.ae/tcl-ac-repair-in-dubai/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");

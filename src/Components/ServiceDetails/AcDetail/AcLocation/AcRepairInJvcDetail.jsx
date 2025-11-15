@@ -29,7 +29,7 @@ const AcRepairInJvcDetail = ({ subtitle, title, reviewsbg, titleSeo, description
     // For SEO
     const metatitle = String(titleSeo || "AC Repair JVC Near Me Cost - AC Services in JVC Dubai #1");
     const metadescription = String(description || "Get same day AC repair in JVC. Call 043300002 for central, split air conditioner repair & maintenance. Best AC cleaning service near me Dubai");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac repair jvc, ac service in jvc, ac maintenance in jvc, ac cleaning service in jvc, ac technician in jvc, ac servicing in jvc, ac repair near me, ac service near me, ac maintenance near me, ac cleaning service near me");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jvc/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");

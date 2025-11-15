@@ -29,7 +29,7 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
   // For SEO
   const metatitle = String(titleSeo || "Gas Cooker Repair in Dubai | Electric Stove Service Near Me");
   const metadescription = String(description || "Gas cooker repair in Dubai. Call at 043300002 for gas & electric stove service near me. Get FAJ expert fast fix cooking range, hood, induction repairs");
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Gas Cooker Repair, Gas Stove Repair, Cooking Range Service, Induction Repair, Dubai, Sharjah");
   const metaURL = String(URL || "https://www.fajservices.ae/gas-cooker-repair-service/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/img/gas-cooker-repair-services.avif");

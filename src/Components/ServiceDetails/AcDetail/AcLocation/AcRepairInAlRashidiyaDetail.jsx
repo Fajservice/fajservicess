@@ -22,7 +22,7 @@ const AcRepairInAlRashidiyaDetail = ({ subtitle, title, reviewsbg, titleSeo, des
     // For SEO
     const metatitle = String(titleSeo || "AC Services in Al Rashidiya - Best AC Maintenance Dubai");
     const metadescription = String(description || "Efficient AC Services in Al Rashidiya Dubai. Inverter, central and split air conditioner maintenance service near me Dubai. Call now at 043300002");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC services Al Rashidiya, AC maintenance Dubai, inverter AC repair, split AC service, central AC maintenance, Dubai AC technician");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-rashidiya/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");

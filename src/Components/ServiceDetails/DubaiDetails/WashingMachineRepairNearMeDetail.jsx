@@ -28,7 +28,7 @@ const WashingMachineRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo
   // For SEO
   const metatitle = String(titleSeo || "WashingMachineRepairNearMe");
   const metadescription = String(description || "Looking Washing Machine repair near me in Dubai? Call us 043300002 for same-day Bosch, LG, Electrolux, Daewoo washing machine repair");
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Washing machine Repair Near Me, Washing machine Service Near Me");
   const metaURL = String(URL || "https://www.fajservices.ae/dubai/washing-machine-repair-near-me/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/img/washing-machine.avif");

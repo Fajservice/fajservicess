@@ -22,7 +22,7 @@ const AcRepairInAlBarariDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     // For SEO
     const metatitle = String(titleSeo || "AC Service Al Barari - Chiller FCU AC Repair & Maintenance");
     const metadescription = String(description || "We are providing AC Service in Al Barari Dubai. We are experts in central, chiller air conditioner repair and maintenance near me Dubai 043300002");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Service Al Barari, AC Repair Al Barari, Chiller AC Service Al Barari, FCU AC Repair Al Barari, Air Conditioner Maintenance Al Barari, Central AC Service Al Barari, Air Conditioning Service Al Barari, AC Installation Al Barari, HVAC Service Al Barari");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-barari/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");

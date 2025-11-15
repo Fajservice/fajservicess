@@ -24,7 +24,7 @@ const KenwoodStandMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, titl
   // For SEO
   const metatitle = String(titleSeo || "Kenwood Stand Mixer Repair & Service Near Me in Dubai");
   const metadescription = String(description || "If you are looking for Kenwood stand mixer repair in Dubai, contact us at 043300002 for your mixer maintenance and servicing at a nearby center in Dubai.");
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Kenwood Stand Mixer Repair Service, Kenwood Mixer Repair Dubai, Kenwood Appliance Repair Dubai, Kenwood Mixer Service Near Me, Kenwood Stand Mixer Repair Near Me, Kenwood Appliance Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/kenwood-stand-mixer-repair-service-near-me-dubai/").replace(/\/?$/, '/');

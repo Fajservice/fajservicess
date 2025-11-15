@@ -27,7 +27,7 @@ const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Au
   // For SEO
   const metatitle = String(titleSeo || "Ceramic Hob Repair in Dubai | Electric Hob Service Near Me");
   const metadescription = String(description || "Having issues with your Gas hob repair in Dubai? Call 043300002 for electric Induction, cooker service center near me with a warranty spare parts."); 
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Electric Hob Repair, Gas Hob Repair, Gas Hob Service");
   const metaURL = String(URL || "https://www.fajservices.ae/hob-repair-service/").replace(/\/?$/, '/');
 const metaImage = String(Image || "https://www.fajservices.ae/img/Hob-Repair-Service-in-Dubai-UAE.avif");

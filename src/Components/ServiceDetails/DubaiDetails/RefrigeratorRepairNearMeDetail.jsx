@@ -30,7 +30,7 @@ const RefrigeratorRepairNearMeDetail = ({ subtitle, title, reviewsbg, titleSeo, 
   // For SEO
   const metatitle = String(titleSeo || "Refrigerator Repair Near Me - Appliance Repair Near Me - FAJ");
   const metadescription = String(description || "Looking for Refrigerator repair near me in Dubai? Contact us at 043300002 for same-day fridge repair near me​ or freezer maintenance service Sharjah");
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Refrigerator Repair Near Me, Refrigerator Service Near Me, Fridge Repair Near Me, Refrigerator Maintenance Near Me");
   const metaURL = String(URL || "https://www.fajservices.ae/dubai/refrigerator-repair-near-me/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/img/refrigerator.avif");

@@ -24,7 +24,7 @@ const AcRepairInTheVillaDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     // For SEO
     const metatitle = String(titleSeo || "AC Services In The Villa Dubai - Central AC Maintenance #1");
     const metadescription = String(description || "Are you finding for AC Services in The Villa Dubai? Call 043300002 for HVAC, ducted split air conditioner repair & servicing near me in Dubai");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Services In The Villa Dubai, Central AC Maintenance, AC Repair in The Villa Dubai, Air Conditioning Service in The Villa Dubai, Ducted Split Air Conditioner Repair in The Villa Dubai, HVAC Services in The Villa Dubai, AC Maintenance in The Villa Dubai, Air Conditioner Service in The Villa Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-the-villa/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");

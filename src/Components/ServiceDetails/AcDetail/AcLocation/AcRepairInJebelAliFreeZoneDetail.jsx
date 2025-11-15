@@ -25,7 +25,7 @@ const AcRepairInJebelAliFreeZoneDetail = ({ subtitle, title, reviewsbg, titleSeo
     // For SEO
     const metatitle = String(titleSeo || "AC Services In Jebel Ali Free Zone - Central Aircon Fixing");
     const metadescription = String(description || "Are you finding AC Services in Jebel Ali Free Zone Dubai? Call 043300002 for ceiling, HVAC, central air conditioner repair & maintenance near me");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in Jebel Ali Free Zone, Air Conditioning Service in Jebel Ali Free Zone, Air Con Maintenance & AC Installation in Jebel Ali Free Zone");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jebel-ali-free-zone/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");

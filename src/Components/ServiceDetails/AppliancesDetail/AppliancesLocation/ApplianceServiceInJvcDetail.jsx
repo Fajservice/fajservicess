@@ -24,7 +24,7 @@ const ApplianceServiceInJvcDetail = ({ subtitle, title, reviewsbg, titleSeo, des
     // For SEO
     const metatitle = String(titleSeo || "Best Appliances Services In JVC Jumeirah Village Circle");
     const metadescription = String(description || "Need appliance Services in JVC. We provide refrigerator repair near me, fridge, fix washing machine, dryer, cooker oven & more. Call us now  043300002");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in JVC, Refrigerator in JVC, Dishwasher in JVC, Oven in JVC, Appliance Repair in JVC, Appliance Service in JVC, Appliance Maintenance in JVC");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jvc/").replace(/\/?$/, '/');

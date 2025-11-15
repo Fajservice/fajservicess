@@ -24,7 +24,7 @@ const AcRepairInBaySquareDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
     // For SEO
     const metatitle = String(titleSeo || "Best AC Services In Bay Square- Air Conditioner Fixing #1");
     const metadescription = String(description || "Contact us 043300002 for AC Services in Bay Square Dubai - Best Price and Quality in Central, Ducted Split, Air Conditioner Maintenance & Repair");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in Bay Square, AC Service in Bay Square, Air Conditioner Repair in Bay Square, Air Conditioner Service in Bay Square, AC Maintenance in Bay Square, AC Installation in Bay Square, Ducted AC Service in Bay Square, Split AC Service in Bay Square");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-bay-square/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");

@@ -24,7 +24,7 @@ const HotpointRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
   // For SEO
   const metatitle = String(titleSeo || "Hotpoint Refrigerator Repair in Dubai | Service Washing Machine");
   const metadescription = String(description || "Quality and warranty for Hotpoint refrigerator repair in Dubai. Call 043300002 for service on fridge, washing machine, dishwasher, cooking range, & oven.");
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Hotpoint Refrigerator Repair, Hotpoint Fridge Repair, Hotpoint Washing Machine Repair, Hotpoint Dishwasher Repair, Hotpoint Cooker Oven Repair, Hotpoint Appliance Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/hotpoint-refrigerator-repair-in-dubai-hotpoint-fridge-repair-in-dubai-hotpoint-washing-machine-repair-in-dubai-hotpoint-dishwasher-cooker-oven-repairs-fix-service-in-dubai/").replace(/\/?$/, '/');

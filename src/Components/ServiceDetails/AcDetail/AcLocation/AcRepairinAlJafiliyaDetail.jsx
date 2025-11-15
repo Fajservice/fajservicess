@@ -23,7 +23,7 @@ const AcRepairinAlJafiliyaDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
     // For SEO
     const metatitle = String(titleSeo || "Best AC Services In Al Jafiliya - Air Conditioning Repairs 1");
     const metadescription = String(description || "Dial now 043300002. AC Services in Al Jafiliya Dubai. We are experts in AC (Air Conditioner) maintenance service near me in Dubai.");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in Al Jafiliya, Air Conditioning Service in Al Jafiliya, Air Con Maintenance & AC Installation in Al Jafiliya");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-jafiliya/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");

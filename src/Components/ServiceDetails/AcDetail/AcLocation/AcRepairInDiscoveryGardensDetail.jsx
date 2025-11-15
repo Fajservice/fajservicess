@@ -25,7 +25,7 @@ const AcRepairInDiscoveryGardensDetail = ({ subtitle, title, reviewsbg, titleSeo
    // For SEO
    const metatitle = String(titleSeo || "AC Services In Discovery Gardens - Air Conditioner Repairs 1");
    const metadescription = String(description || "Are you finding for AC Services in Discovery Gardens Dubai? Contact us 043300002 for air conditioner repair & maintenance near by in dubai Fix ac");
-   const metaAuthor = String(Author || "Faj Technical Services");
+   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
    const metaKeyword = String(Keyword || "AC Repair in Discovery Gardens, Air Conditioning Service in Discovery Gardens, Air Con Maintenance & AC Installation in Discovery Gardens");
    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-discovery-gardens/").replace(/\/?$/, '/');
    const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");

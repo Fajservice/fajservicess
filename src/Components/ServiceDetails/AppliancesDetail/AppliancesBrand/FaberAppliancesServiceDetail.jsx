@@ -23,7 +23,7 @@ const FaberAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
     // For SEO
     const metatitle = String(titleSeo || "Faber Appliances Service | Faber Oven Repair in Dubai");
     const metadescription = String(description || "Faber Appliance service FAJ offers reliable repair for oven, cooking range, hood, dishwasher, washing machine, and refrigerator in Dubai.");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Faber Appliances Service, Faber Oven Repair, Faber Dishwasher Repair, Faber Washing Machine Repair, Faber Fridge Repair, Faber Cooker Repair, Faber Hood Repair, Faber Appliance Maintenance Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/faber-appliances-service/").replace(/\/?$/, '/');

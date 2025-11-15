@@ -24,7 +24,7 @@ const AppliancesServicesInAlSafaDetail = ({ subtitle, title, reviewsbg, titleSeo
   // For SEO
   const metatitle = String(titleSeo || "Appliances Services in Al Safa - Refrigerator Repair Near Me");
   const metadescription = String(description || "FAJ offers appliance services in Al Safa. We specialize in washing machine repair near me in Dubai. Book 043300002 for fridge, dishwasher, oven fix");
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Washing Machine in al safa, Refrigerator in al safa, Dishwasher in al safa, Oven in al safa, Appliance repair in al safa, Appliance service in al safa, Appliance maintenance in al safa, Appliance installation in al safa");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-safa/").replace(/\/?$/, '/');

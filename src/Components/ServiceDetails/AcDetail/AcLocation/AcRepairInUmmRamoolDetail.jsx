@@ -25,7 +25,7 @@ const AcRepairInUmmRamoolDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
     // For SEO
     const metatitle = String(titleSeo || "AC Services In Umm Ramool - #1 Repair Air Con Dubai");
     const metadescription = String(description || "Book Now at 043300002 for the Best AC Services in Umm Ramool, Maintenance or Repair of Central, Split Air Condition and The Compressor Gas");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Services in Umm Ramool, AC Repair in Umm Ramool, AC Maintenance in Umm Ramool, Air Conditioning Services in Umm Ramool, Air Conditioner Repair in Umm Ramool, Air Conditioner Maintenance in Umm Ramool");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-umm-ramool/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");

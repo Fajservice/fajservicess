@@ -51,7 +51,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/img/page_heading_1
               <div key={i} className="col-lg-4">
                 <div className="cs_post cs_style_1 cs_type_1">
                   <Link to={`/blog/${item.slug}/`} className="cs_post_thumbnail cs_mb_16 position-relative">
-                    <img src={item.img} alt="Post Image" />
+                    <img src={item.img} alt={item.title} />
                     <div className="cs_post_date cs_accent_bg cs_fs_18 cs_semibold cs_white_color cs_center position-absolute">
                       {item.date}
                     </div>

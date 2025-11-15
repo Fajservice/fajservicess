@@ -24,7 +24,7 @@ const WashingMachineRepairBusinessBayDetail = ({ subtitle, title, reviewsbg, tit
   // For SEO
   const metatitle = String(titleSeo || "Washing Machine Repair Business Bay - Refrigerator Service");
   const metadescription = String(description || "FAJ washing machine repair business bay. Get same day Bosch, Electrolux, Siemens, Teka, Daewoo refrigerator, dryer, dishwasher, oven service near me");
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Washing Machine in business bay, Washing Machine Repair in business bay, Washing Machine Service in business bay, Washing Machine Installation in business bay, Washing Machine Maintenance in business bay, Washing Machine AMC in business bay, Refrigerator Repair in business bay, Refrigerator Service in business bay, Refrigerator Installation in business bay, Refrigerator Maintenance in business bay, Refrigerator AMC in business bay");
   const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-business-bay-fridge-repair-business-bay-refrigerator-repairing-business-bay-cooker-stove-oven-cooking-range-repairs-fix-service-centre-business-bay-dishwasher-installation-fixin/").replace(/\/?$/, '/');

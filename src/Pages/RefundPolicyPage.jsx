@@ -5,7 +5,7 @@ const PrivacyPolicyPage = ({ titleSeo, description, Author, Keyword, URL }) => {
     // For SEO
     const metatitle = String(titleSeo || "Refund Policy | FAJ Top Maintenance Company in Dubai");
     const metadescription = String(description || "Refund Policy | FAJ Services: When you need help with home and office repair services. We provide a wide range of repair services equipment");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/page_heading_1.avif");
     const metaKeyword = String(Keyword || "FAJ");
     const metaURL = String(URL || "https://www.fajservices.ae/refund-policy/").replace(/\/?$/, '/');

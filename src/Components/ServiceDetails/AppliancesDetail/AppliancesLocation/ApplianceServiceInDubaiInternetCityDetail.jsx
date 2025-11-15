@@ -21,7 +21,7 @@ const ApplianceServiceInDubaiInternetCityDetail = ({ subtitle, title, reviewsbg,
     // For SEO
     const metatitle = String(titleSeo || "Appliances Services in Dubai Internet City -Fridge Repair ");
     const metadescription = String(description || "FAJ offers best appliance service in Dubai Internet City. Get washing machine repair near me. Call 043300002 for dishwasher, oven and fridge fix.");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "washing machine repair in dubai internet city, appliance service in dubai internet city, appliance repair in dubai internet city, refrigerator repair in dubai internet city, dishwasher repair in dubai internet city, oven repair in dubai internet city, fridge repair in dubai internet city, appliance maintenance contract in dubai internet city");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-internet-city/").replace(/\/?$/, '/');

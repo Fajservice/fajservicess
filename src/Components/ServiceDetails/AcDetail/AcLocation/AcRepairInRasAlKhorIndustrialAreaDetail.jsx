@@ -29,7 +29,7 @@ const AcRepairInRasAlKhorIndustrialAreaDetail = ({ subtitle, title, reviewsbg, t
     // For SEO
     const metatitle = String(titleSeo || "AC Services In  Ras Al Khor Industrial Area - AC Repair #1");
     const metadescription = String(description || "AC Services in Ras Al Khor Industrial Area - Call Experts in Ceiling & Split Air Conditioner Maintenance & Repair near me Dubai AC Fixing Dubai");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Services in Ras Al Khor Industrial Area, AC Repair in Ras Al Khor Industrial Area, AC Maintenance in Ras Al Khor Industrial Area, Air Conditioner Repair in Ras Al Khor Industrial Area, Air Conditioning Service in Ras Al Khor Industrial Area, Split AC Repair in Ras Al Khor Industrial Area, Ceiling AC Repair in Ras Al Khor Industrial Area, Dubai AC Fixing, Dubai AC Service, Dubai AC Repair");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-ras-al-khor-industrial-area/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");

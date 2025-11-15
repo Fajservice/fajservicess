@@ -23,7 +23,7 @@ const ApplianceServiceInJebelAliIndustrialAreaDetail = ({ subtitle, title, revie
     // For SEO
     const metatitle = String(titleSeo || "Best Appliances Services in Jebel Ali Industrial Area");
     const metadescription = String(description || "Best appliance services in Jebel Ali Industrial Area. Call 043300002 for fridge repair near me in Dubai. FAJ offers to fix dishwasher, washing machine");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in Jebel Ali Industrial Area, Refrigerator Repair in Jebel Ali Industrial Area, Dishwasher Repair in Jebel Ali Industrial Area, Appliance Service in Jebel Ali Industrial Area, Home Appliance Service in Jebel Ali Industrial Area, Appliance Repair in Jebel Ali Industrial Area");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jebel-ali-industrial-area/").replace(/\/?$/, '/');

@@ -24,7 +24,7 @@ const AppliancesServicesInJumeirahDetail = ({ subtitle, title, reviewsbg, titleS
     // For SEO
     const metatitle = String(titleSeo || "Appliances Services in Jumeirah - Washing Machine Repair");
     const metadescription = String(description || "Looking for appliances Service in Jumeirah. FAJ provides refrigerator, fridge repair dubai, washing machine maintenance & more. Call now 043300002");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in Jumeirah, Refrigerator Repair in Jumeirah, Appliance Service in Jumeirah, Appliance Repair in Jumeirah, Fridge Repair in Jumeirah, Washing Machine Repair in Jumeirah, Dishwasher Repair in Jumeirah, Tumble Dryer Repair in Jumeirah, Stove Repair in Jumeirah, Oven Repair in Jumeirah, Freezer Repair in Jumeirah, Coffee Machine Repair in Jumeirah");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah/").replace(/\/?$/, '/');

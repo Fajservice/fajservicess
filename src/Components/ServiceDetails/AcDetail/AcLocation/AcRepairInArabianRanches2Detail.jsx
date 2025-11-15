@@ -25,7 +25,7 @@ const AcRepairInArabianRanches2Detail = ({ subtitle, title, reviewsbg, titleSeo,
     // For SEO
     const metatitle = String(titleSeo || "AC Services In Arabian Ranches 2 - Aircon Fix - Ac Repair #1");
     const metadescription = String(description || "FAJ AC Services in Arabian Ranches 2 Dubai. We are experts in central, Carrier, LG Air Conditioner repair, maintenance near me Dubai AC fix");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in Arabian Ranches 2, Air Conditioning Service in Arabian Ranches 2, Air Con Maintenance & AC Installation in Arabian Ranches 2");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-arabian-ranches-2/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");

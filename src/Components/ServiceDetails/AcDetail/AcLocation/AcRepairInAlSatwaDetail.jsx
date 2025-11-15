@@ -22,7 +22,7 @@ const AcRepairInAlSatwaDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
     // For SEO
     const metatitle = String(titleSeo || "Best AC Services in Al Satwa - AC Maintenance Dubai");
     const metadescription = String(description || "WhatsApp or Call :043300002. AC Services in Al Satwa Dubai. We are experts in central & split AC (Air Condition) repairs service near me Dubai");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Service in Al Satwa, AC Repair in Al Satwa, AC Maintenance in Al Satwa, Air Conditioning Service in Al Satwa, Air Conditioning Repair in Al Satwa, Air Conditioning Maintenance in Al Satwa");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-satwa/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");

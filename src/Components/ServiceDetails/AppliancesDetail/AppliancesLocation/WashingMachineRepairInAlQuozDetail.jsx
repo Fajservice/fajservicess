@@ -24,7 +24,7 @@ const WashingMachineRepairInAlQuozDetail = ({ subtitle, title, reviewsbg, titleS
   // For SEO
   const metatitle = String(titleSeo || "Washing Machine Repair in Al Quoz - Refrigerator Service");
   const metadescription = String(description || "FAJ washing machine repair in Al Quoz. Get same day Bosch, Daewoo, LG, Samsung refrigerator, dryer, dishwasher, oven and cooker service near me");
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Washing Machine in Al Quoz, Refrigerator Repair in Al Quoz, Fridge Repair in Al Quoz, Dishwasher Repair in Al Quoz, Oven Repair in Al Quoz, Cooker Repair in Al Quoz, Stove Repair in Al Quoz, Appliance Maintenance in Al Quoz, Appliance Fix Service in Al Quoz, Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-in-al-quoz-refrigerator-repair-in-al-quoz-fridge-repair-in-al-quoz-dishwasher-oven-cooker-stove-appliance-maintenance-fix-service-in-al-quoz-dubai/").replace(/\/?$/, '/');

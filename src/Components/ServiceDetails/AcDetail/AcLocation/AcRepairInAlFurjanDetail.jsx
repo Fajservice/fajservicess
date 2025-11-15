@@ -22,7 +22,7 @@ const AcRepairInAlFurjanDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
     // For SEO
     const metatitle = String(titleSeo || "AC Services In Al Furjan - Air Conditioner Repairing #1");
     const metadescription = String(description || "Are you looking for AC Services in Al Furjan Villas Dubai? Dail 043300002 for LG, Carrier air conditioner repair & maintenance near me in dubai");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Services In Al Furjan, Air Conditioner Repairing In Al Furjan, AC Repair In Al Furjan, AC Maintenance In Al Furjan, AC Installation In Al Furjan, AC Cleaning In Al Furjan, Air Conditioning Services In Al Furjan, Air Conditioner Service In Al Furjan, Air Conditioner Repair In Al Furjan");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-furjan/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");

@@ -24,7 +24,7 @@ const BaumaticRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
   // For SEO
   const metatitle = String(titleSeo || "Baumatic Refrigerator Repair In Dubai | Washing Machine Fix");
   const metadescription = String(description || "FAJ are fully professional in Baumatic Refrigerator Repair in Dubai. Dial 043300002 for washing machine dryer, dishwasher error, oven fix near me");
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Baumatic Refrigerator Repair, Baumatic Washing Machine Repair, Baumatic Dishwasher Repair, Baumatic Cooker Oven Repair, Baumatic Fridge Repair in Dubai, Baumatic Appliance Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/baumatic-refrigerator-repair-in-dubai-fridge-repair-in-dubai-washing-machine-repair-in-dubai-dishwasher-cooker-oven-repairs-fix-service-in-dubai-error/").replace(/\/?$/, '/');

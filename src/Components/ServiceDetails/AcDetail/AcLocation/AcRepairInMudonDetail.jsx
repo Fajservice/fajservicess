@@ -25,7 +25,7 @@ const AcRepairInMudonDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
   // For SEO
   const metatitle = String(titleSeo || "AC Services In Mudon - Air Conditioner Repairing -Aircon Fix");
   const metadescription = String(description || "Call 043300002 AC Services in Mudon Dubai. We are experts in central, hvac air conditioning repairing and maintenance near me Dubai AC fix");
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "ac services in mudon, ac repair in mudon, ac maintenance in mudon, air conditioning services in mudon, air conditioner repair in mudon, aircon fix in mudon, ac service near me mudon, ac technician in mudon, ac cleaning service in mudon");
   const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-mudon/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");

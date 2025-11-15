@@ -25,7 +25,7 @@ const FridgeRepairInDubaiMarinaDetail = ({ subtitle, title, reviewsbg, titleSeo,
   // For SEO
   const metatitle = String(titleSeo || "Get Fridge Repair Dubai Marina - Washing Machine Service");
   const metadescription = String(description || "Get same day fridge repair Dubai Marina and reliable service center of refrigerator, dryer, cooker, oven, dishwasher, washing machine fix Dubai Marina");
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Fridge Repair in Dubai Marina, Washing Machine Repair in Dubai Marina, Dishwasher Repair in Dubai Marina, Refrigerator Repair Maintenance in Dubai Marina, Cooker Oven Repair Fix Service in Cooking Range Dubai Marina, Fridge Repair Dubai Marina, Washing Machine Service Dubai Marina, Dishwasher Service Dubai Marina, Refrigerator Service Dubai Marina, Cooker Oven Service Dubai Marina");
   const metaURL = String(URL || "https://www.fajservices.ae/fridge-repair-in-dubai-marina-washing-machine-repair-in-dubai-marina-dishwasher-repair-in-dubai-marina-refrigerator-repair-maintenance-in-dubai-marina-cooker-oven-repair-fix-service-in-cooking-range-e/").replace(/\/?$/, '/');

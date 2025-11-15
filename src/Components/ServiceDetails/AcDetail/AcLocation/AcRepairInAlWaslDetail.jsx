@@ -22,7 +22,7 @@ const AcRepairInAlWaslDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
     // For SEO
     const metatitle = String(titleSeo || "Best AC Services In Al Wasl - Air Conditioning Company");
     const metadescription = String(description || "Dial :043300002 Get Best AC Services in Al Wasl Dubai. We are experts in central & split AC (Air Conditioner) repair service near me Dubai");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Service in Al Wasl, AC Repair in Al Wasl, AC Maintenance in Al Wasl, Air Conditioning Company in Al Wasl, Best AC Services in Al Wasl, Split AC Repair in Al Wasl, Central AC Repair in Al Wasl");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-wasl/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");

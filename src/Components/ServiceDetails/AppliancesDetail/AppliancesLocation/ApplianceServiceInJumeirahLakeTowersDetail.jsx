@@ -25,7 +25,7 @@ const ApplianceServiceInJumeirahLakeTowersDetail = ({ subtitle, title, reviewsbg
     // For SEO
     const metatitle = String(titleSeo || "Best Appliances Services in Jumeirah Lake Towers Near me");
     const metadescription = String(description || "FAJ provides appliance services in Jumeirah Lake Towers. Get fast washing machine repair near me in Dubai. Call 043300002 for fridge & dishwasher");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in jumeirah lake towers, Refrigerator in jumeirah lake towers, Dishwasher in jumeirah lake towers, Oven in jumeirah lake towers, Tumble Dryer in jumeirah lake towers, Stove in jumeirah lake towers, Freezer in jumeirah lake towers, Coffee Machine in jumeirah lake towers");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-jumeirah-lake-towers/").replace(/\/?$/, '/');

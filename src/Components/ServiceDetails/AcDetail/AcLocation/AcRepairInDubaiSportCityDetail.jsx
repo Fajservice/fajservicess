@@ -27,7 +27,7 @@ const AcRepairInDubaiSportCityDetail = ({ subtitle, title, reviewsbg, titleSeo, 
     // For SEO
     const metatitle = String(titleSeo || "AC Services In Dubai Sport City - Air Conditioning Repairs");
     const metadescription = String(description || "Call 043300002 AC Services in Dubai Sport City. We are experts in air conditioning repairing and maintenance near me Dubai AC fix Air Con repairs");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac repair in dubai sport city, ac service in dubai sport city, ac maintenance in dubai sport city, ac technician in dubai sport city, ac cleaning in dubai sport city, ac installation in dubai sport city, ac gas refilling in dubai sport city, ac repair near me, ac service near me, ac maintenance near me");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-dubai-sport-city/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");

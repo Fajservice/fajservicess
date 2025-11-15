@@ -23,7 +23,7 @@ const WestpointFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
   // For SEO
   const metatitle = String(titleSeo || "Westpoint Fridge Repair in Dubai | Washing Machine Service");
   const metadescription = String(description || "FAJ specialises in Westpoint home appliances service in Dubai. Get fast washing machine, dishwasher, oven, and cooking range repair center near me.");
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Westpoint Fridge Repair, Westpoint Washing Machine Repair, Westpoint Cooker Repair, Westpoint Oven Repair, Westpoint Refrigerator Fix, Westpoint Appliance Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/westpoint-fridge-repair-in-dubai-westpoint-washing-machine-repair-in-dubai-westpoint-cooker-repair-in-dubai-westpoint-oven-repair-in-dubai-westpoint-refrigerator-fix-repairs-service-in-dubai-west-poin/").replace(/\/?$/, '/');

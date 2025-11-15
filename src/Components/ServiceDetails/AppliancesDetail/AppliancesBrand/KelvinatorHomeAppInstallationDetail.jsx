@@ -22,7 +22,7 @@ const KelvinatorHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, title
   // For SEO
   const metatitle = String(titleSeo || "Kelvinator Home Appliance Service | Refrigerator Repair Near");
   const metadescription = String(description || "Find here Kelvinator home appliance repair. Call 043300002 for your fridge, washing machine, cooking range, oven fix service center near me Dubai");
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Kelvinator Home Appliance Service, Kelvinator Home Appliance Repair, Kelvinator Fridge Repair, Kelvinator Washing Machine Repair, Kelvinator Cooker Repair, Kelvinator Dishwasher Repair, Kelvinator Oven Repair, Kelvinator Appliance Installation Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/kelvinator-home-appliance-installation-maintenance-repair-fix-service-in-dubai/").replace(/\/?$/, '/');

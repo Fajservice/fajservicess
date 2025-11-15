@@ -22,7 +22,7 @@ const AcRepairInDeiraDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
     // For SEO
     const metatitle = String(titleSeo || "AC Services In Deira - A/C Maintenance - AC Repair Ac Fix #1");
     const metadescription = String(description || "T:043300002 Efficient Air Conditioning Repairs and AC Services in Deira Dubai. Central & Split Maintenance Near Me and Aircon Compressor Fixing");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac services in deira, ac repair in deira, ac maintenance in deira, ac service near me, ac repair near me, ac maintenance near me, air conditioning services in deira, air conditioning repair in deira, air conditioning maintenance in deira, aircon service in deira, aircon repair in deira, aircon maintenance in deira");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-deira/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");

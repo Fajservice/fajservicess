@@ -24,7 +24,7 @@ const AcRepairInRemraam2Detail = ({ subtitle, title, reviewsbg, titleSeo, descri
     // For SEO
     const metatitle = String(titleSeo || "AC Services In Remraam 2 - Air Condition Repairs Near Me");
     const metadescription = String(description || "Rapid AC Services in Remraam 2, Call FAJ 043300002 for HVAC, Central Air Conditioner Repair, Maintenance or Air Con Serving in Your Area Dubai");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Services In Remraam 2, Air Condition Repairs Near Me, AC Repair Dubai, AC Service Dubai, Air Conditioning Service Dubai, Air Conditioner Repair Dubai, Air Conditioning Repair Dubai, AC Maintenance Dubai, AC Installation Dubai, Central Air Conditioner Repair Dubai, HVAC Services Dubai");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-remraam-2/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");

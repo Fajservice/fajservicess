@@ -7,7 +7,7 @@ const TestimonialsPage = ({ titleSeo, description, Author, Keyword, URL }) => {
     // For SEO
     const metatitle = String(titleSeo || "Testimonials: Our Client's Experiences | FAJ Technical Dubai");
     const metadescription = String(description || "Find out what our customers are expressing regarding their experiences with FAJ. Read testimonial to see how we exceed expectations with our services.");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/page_heading_1.avif");
     const metaKeyword = String(Keyword || "FAJ");
     const metaURL = String(URL || "https://www.fajservices.ae/privacy-policy/").replace(/\/?$/, '/');

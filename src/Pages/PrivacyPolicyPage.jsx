@@ -5,7 +5,7 @@ const PrivacyPolicyPage = ({ titleSeo, description, Author, Keyword, URL }) => {
     // For SEO
     const metatitle = String(titleSeo || "Privacy Policy | FAJ Technical Services LLC Company");
     const metadescription = String(description || "FAJ Privacy Policy | Visit FAJ Services when you need help with building or home. We provide a wide range of maintenance services as per requirements");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/page_heading_1.avif");
     const metaKeyword = String(Keyword || "FAJ");
     const metaURL = String(URL || "https://www.fajservices.ae/privacy-policy/").replace(/\/?$/, '/');

@@ -28,7 +28,7 @@ const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, ti
   // For SEO
   const metatitle = String(titleSeo || "Washing Machine Repair | Washing Machine Service in Dubai");
   const metadescription = String(description || "FAJ is an expert in washing machine repair & service center in Dubai. Call 04 3300002 for washer dryer repairs, laundry machine maintenance near me.");
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Washing Machine Repair, Washing Machine Maintenance, Washing Machine Service");
   const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-service-dubai/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/img/washing-machine-repair.avif");

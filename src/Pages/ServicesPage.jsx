@@ -8,7 +8,7 @@ const ServicesPage = ({titleSeo, description, Author, Keyword, URL }) => {
     // For SEO
     const metatitle = String(titleSeo || "HVAC, Refrigeration, Kitchen Equipment Maintenance Company in Dubai");
     const metadescription = String(description || "FAJ has been the best maintenance company in Dubai since 2010, providing services for HVAC, appliances, refrigeration, & kitchen equipment & contract");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "FAJ");
     const metaURL = String(URL || "https://www.fajservices.ae/services/").replace(/\/?$/, '/');

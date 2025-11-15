@@ -29,7 +29,7 @@ const AcRepairInJumeirahParkDetail = ({ subtitle, title, reviewsbg, titleSeo, de
     // For SEO
     const metatitle = String(titleSeo || "AC Services in Jumeirah Park Near Me - AC Repair Dubai ");
     const metadescription = String(description || "We offer the best ac services jumeirah park dubai Call 043300002 for central & split ac (air conditioner) repair, maintenance near me and Aircon fix");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac services jumeirah park, ac repair jumeirah park, ac maintenance jumeirah park, ac service near me, ac repair near me, ac maintenance near me, air conditioning services jumeirah park, air conditioning repair jumeirah park, air conditioning maintenance jumeirah park");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-jumeirah-park/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");

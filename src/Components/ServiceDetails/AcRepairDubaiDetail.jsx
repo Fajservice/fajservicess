@@ -26,7 +26,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descriptio
   // For SEO
   const metatitle = String(titleSeo || "Best AC Repair Dubai | HVAC Maintenance Near Me | Since 2010");
   const metadescription = String(description || "Keep your home / office cool with FAJ expert AC repair in Dubai. We offer fast, reliable air conditioner maintenance near you. Call us 04 3300002");
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Ac Repair, Ac Repair In Dubai, Ac Repair Service, Ac Repair Near Me, Ac Repair Dubai, Air Conditioner Repair, Air Conditioner Repair In Dubai, Air Conditioner Repair Service, Air Conditioner Repair Near Me, Air Conditioner Repair Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/ac-repair-dubai/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");

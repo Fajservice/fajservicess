@@ -29,7 +29,7 @@ const AcRepairInDubaiMarinaDetail = ({ subtitle, title, reviewsbg, titleSeo, des
     // For SEO
     const metatitle = String(titleSeo || "AC Services In Dubai Marina - #1 Air Conditioner Repairs");
     const metadescription = String(description || "Get it done affordably cost. Dail now 043300002 for ac services in dubai marina and best chiller fcu air conditioner repair & maintenance near me");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac services in dubai marina, ac repair in dubai marina, ac maintenance in dubai marina, air conditioner repair in dubai marina, ac service near me, ac technician in dubai marina, ac cleaning service in dubai marina, ac installation in dubai marina");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-dubai-marina/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");

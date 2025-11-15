@@ -23,7 +23,7 @@ const AcRepairInIndexTowerDifcDetail = ({ subtitle, title, reviewsbg, titleSeo, 
     // For SEO
     const metatitle = String(titleSeo || "Best AC Services In Index Tower DIFC - AC Servicing #1");
     const metadescription = String(description || "Ph:043300002. AC Services in Index Tower Difc. Get best and quick HVAC repair service near me Dubai AC fix Air Con repairs");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac service in index tower difc, ac repair in index tower difc, ac maintenance in index tower difc, ac servicing in index tower difc, ac cleaning in index tower difc, ac installation in index tower difc, ac technician in index tower difc, ac company in index tower difc");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-index-tower-difc/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");

@@ -25,7 +25,7 @@ const AcRepairInFlamingoVillasDetail = ({ subtitle, title, reviewsbg, titleSeo, 
     // For SEO
     const metatitle = String(titleSeo || "Expert AC Repair in Al Flamingo Villas - Get Central AC Service");
     const metadescription = String(description || "Dial 043300002 AC Services in Flamingo Villas Dubai. We are experts in central & split air conditioning repair and maintenance service near me");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac repair in flamingo villas, ac service in flamingo villas, ac maintenance in flamingo villas, ac cleaning in flamingo villas, ac installation in flamingo villas, central ac service in flamingo villas, split ac service in flamingo villas, ac technician in flamingo villas, ac servicing in flamingo villas, air conditioning service in flamingo villas");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-flamingo-villas/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");

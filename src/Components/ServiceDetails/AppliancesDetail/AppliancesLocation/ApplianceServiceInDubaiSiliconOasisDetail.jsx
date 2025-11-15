@@ -25,7 +25,7 @@ const ApplianceServiceInDubaiSiliconOasisDetail = ({ subtitle, title, reviewsbg,
     // For SEO
     const metatitle = String(titleSeo || "Appliances Services in Dubai Silicon Oasis - Fridge Repair");
     const metadescription = String(description || "Same-day appliance service in Dubai Silicon Oasis. Get refrigerator repair near me. Call 043300002 to fix washing machine, dishwasher, fridge, and oven.");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in Dubai Silicon Oasis, Fridge Repair Dubai Silicon Oasis, Dishwasher Repair Dubai Silicon Oasis, Oven Repair Dubai Silicon Oasis, Appliance Service Dubai Silicon Oasis");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-dubai-silicon-oasis/").replace(/\/?$/, '/');

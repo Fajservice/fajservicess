@@ -25,7 +25,7 @@ const AppliancesServicesInAlFurjanDetail = ({ subtitle, title, reviewsbg, titleS
     // For SEO
     const metatitle = String(titleSeo || "Appliances Services in Al Furjan - Fridge Repair Dubai");
     const metadescription = String(description || "Best appliance services in Al Furjan near me. FAJ offers fridge repair Dubai. Call 043300002 for dishwasher, oven, washing machine maintenance");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in al furjan, Fridge Repair in al furjan, Dishwasher Repair in al furjan, Oven Repair in al furjan, Appliance Service in al furjan, Appliance Repair in al furjan, Appliance Maintenance in al furjan, Appliance Installation in al furjan");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-services-in-al-furjan/").replace(/\/?$/, '/');

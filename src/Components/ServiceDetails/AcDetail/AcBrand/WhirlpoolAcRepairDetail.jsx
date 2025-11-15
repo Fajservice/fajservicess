@@ -23,7 +23,7 @@ const WhirpoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
   // For SEO
   const metatitle = String(titleSeo || "Best Whirlpool Air Condition Repair in Dubai | A/C Cleaning");
   const metadescription = String(description || "FAJ Offering Whirlpool Air Condition repair in Dubai. We are experts in Split Air Conditioning maintenance service nearby & Air con Fixing. Call 043300002");
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Whirpool Air Conditioner Repair in Dubai, Whirlpool AC Maintenance, Whirlpool AC Service, Whirlpool Air Conditioner Installation, Whirlpool AC Cleaning Service, Whirlpool AC Repair Dubai, Whirlpool AC AMC Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/whirlpool-air-condition-repair-in-dubai-ac-maintenance-in-dubai-air-conditioning-fix-repairs-service-in-dubai").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");

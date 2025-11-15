@@ -24,7 +24,7 @@ const ApplianceServiceInJbrDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo
     // For SEO
     const metatitle = String(titleSeo || "Appliances Washing Machine Fridge Dishwasher Service JBR");
     const metadescription = String(description || "Same-day appliances services in JBR. Get refrigerator repair near me in Dubai. Call 043300002 to fix washing machine, dishwasher & fridge");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Washing Machine in JBR, Fridge in JBR, Dishwasher in JBR, Appliance Service in JBR, Appliance Repair in JBR, Appliance Maintenance in JBR, Appliance Installation in JBR");
     const metaURL = String(URL || "https://www.fajservices.ae/appliances-washing-machine-fridge-dishwasher-service-jbr-dubai/").replace(/\/?$/, '/');

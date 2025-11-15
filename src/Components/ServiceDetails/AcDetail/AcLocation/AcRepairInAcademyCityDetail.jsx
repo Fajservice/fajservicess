@@ -30,7 +30,7 @@ const AcRepairInAcademyCityDetail = ({ subtitle, title, reviewsbg, titleSeo, des
     // For SEO
     const metatitle = String(titleSeo || "AC Service In Academy City - AC Regas - Fix AC Errors Dubai");
     const metadescription = String(description || "Get AC Services in Academy City Dubai. FAJ is here to help you with air conditioner repair near me & ceiling, HVAC maintenance company near me");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair in Academy City, Air Conditioning Service in Academy City, Air Con Maintenance & Air Con Installation in Academy City");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-academy-city/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/img/ac%20filter.avif");

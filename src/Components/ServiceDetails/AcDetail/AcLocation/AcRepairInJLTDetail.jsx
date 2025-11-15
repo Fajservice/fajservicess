@@ -26,7 +26,7 @@ const AcRepairInJLTDetail = ({ subtitle, title, reviewsbg, titleSeo, description
     // For SEO
     const metatitle = String(titleSeo || "Best AC Service JLT Near Me - Air Con Repair & Maintenance");
     const metadescription = String(description || "Get best AC service JLT near me. Air Con repair & maintenance experts for central AC maintenance & repair. Call 043300002 for reliable fixed AC");
-    const metaAuthor = String(Author || "Faj Technical Services");
+    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac service jlt, ac repair jlt, ac maintenance jlt, air conditioning service jlt, air conditioning repair jlt, air conditioning maintenance jlt, ac technician jlt, ac cleaning jlt, ac installation jlt, central ac service jlt, central ac repair jlt, central ac maintenance jlt");
     const metaURL = String(URL || "https://www.fajservices.ae/ac-services-jlt/").replace(/\/?$/, '/');
     const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");

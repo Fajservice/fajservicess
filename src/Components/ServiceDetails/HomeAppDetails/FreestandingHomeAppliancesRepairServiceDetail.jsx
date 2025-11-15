@@ -28,7 +28,7 @@ const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, review
   // For SEO
   const metatitle = String(titleSeo || "Appliances Service Center in Dubai | Appliances Repair Near Me");
   const metadescription = String(description || "We offer an appliance repair service centre near you. Get an expert in refrigerator, fridge, washing machine, dryer, dishwasher, oven repair near me Dubai");
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Appliances Repair Dubai, Appliance Service Dubai, Appliance Repair Near Me, Home Appliances Repair Dubai, Washing Machine Repair Dubai, Refrigerator Repair Dubai, Dishwasher Repair Dubai, Oven Repair Dubai, Dryer Repair Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-repair-service/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");

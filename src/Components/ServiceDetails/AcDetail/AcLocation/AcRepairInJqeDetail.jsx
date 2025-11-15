@@ -23,7 +23,7 @@ const AcRepairInJqeDetail = ({ subtitle, title, reviewsbg, titleSeo, description
  // For SEO
  const metatitle = String(titleSeo || "AC Services In JGE Dubai - #1 Daikin VRV - Mitsubishi VRF");
  const metadescription = String(description || "Dial FAJ: 043300002 AC Services in JGE Dubai. We are experts in central & multi split ac (air conditioner) repairs & maintenance service near me");
- const metaAuthor = String(Author || "Faj Technical Services");
+ const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
  const metaKeyword = String(Keyword || "ac services in jge, ac repair in jge, ac maintenance in jge, ac installation in jge, ac cleaning in jge, ac service near me, ac repair near me, ac maintenance near me, ac installation near me, ac cleaning near me");
  const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-jge/").replace(/\/?$/, '/');
  const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");

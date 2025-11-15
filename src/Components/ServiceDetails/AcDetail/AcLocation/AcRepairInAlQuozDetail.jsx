@@ -22,7 +22,7 @@ const AcRepairInAlQuozDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
   // For SEO
   const metatitle = String(titleSeo || "AC Services Near Me #1 - AC Repair Al Quoz");
   const metadescription = String(description || "Are You Finding AC Services in Al Quoz? Call an 043300002 for Central, HVAC Maintenance, Split Air Conditioner Repair & Aircon Servicing Nearby.");
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "AC Services in Al Quoz, AC Repair in Al Quoz, AC Maintenance in Al Quoz, Air Conditioner Service in Al Quoz, Split AC Service in Al Quoz, Central AC Service in Al Quoz, HVAC Service in Al Quoz");
   const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-al-quoz/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");

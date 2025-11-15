@@ -31,7 +31,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
   // For SEO
   const metatitle = String(titleSeo || "Best AC Service in Dubai | Air Conditioner Repair & Maintenance");
   const metadescription = String(description || "Looking for reliable AC service in Dubai? Get quick repairs and professional AC cleaning to help your cooling system work smoothly. Call FAJ today!");
-  const metaAuthor = String(Author || "Faj Technical Services");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "AC Service, Air Con Service, AC Service in Dubai, Air Conditioning Service");
   const metaURL = String(URL || "https://www.fajservices.ae/ac-service-in-dubai/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/img/What-is-covered-in-an-AC-Maintenance-Contract.avif");
