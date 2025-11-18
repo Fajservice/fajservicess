@@ -121,7 +121,7 @@ const AegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
           <div className="container">
             <h1 className="cs_fs_30">AEG Home Appliance Repair Service and Installation</h1>
             <p>
-              Having trouble finding a local technician for your AEG kitchen appliances? <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been providing reliable, affordable appliance repairs since 2010. Our trusted network of qualified professionals ensures that, whenever possible, we’ll send a technician with direct experience handling your specific AEG model.
+              Having trouble finding a local technician for your AEG kitchen appliances? <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been providing reliable, affordable appliance repairs since 2010. Our trusted network of qualified professionals ensures that, whenever possible, we’ll send a technician with direct experience handling your specific AEG model.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -147,7 +147,7 @@ const AegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable AEG Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we understand that AEG appliance breakdowns rarely happen at a convenient time. That’s why our trained AEG technicians are ready to provide dependable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a> when you need them most. We help you avoid the expense of replacing your appliance by getting it back up and running quickly, so you can carry on without the hassle.
+                  At FAJ Technical Services L.L.C, we understand that AEG appliance breakdowns rarely happen at a convenient time. That’s why our trained AEG technicians are ready to provide dependable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a> when you need them most. We help you avoid the expense of replacing your appliance by getting it back up and running quickly, so you can carry on without the hassle.
                 </p>
 
               </div>

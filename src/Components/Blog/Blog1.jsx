@@ -10,7 +10,7 @@ const Blog1 = ({titleSeo , description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Discover The Ultimate Guide To Home Maintenance - FAJ Blogs");
   const metadescription = String(description || "Welcome to FAJ Services blog! Expert insights, tips, and tricks for homeowners. Explore projects, maintenance, and services for home comfort.");
-  const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Latest Blogs");
   const metaURL = String(URL || "https://www.fajservices.ae/blogs/").replace(/\/?$/, '/');
 const metaImage = String(Image || "https://www.fajservices.ae/img/page_heading_1.avif");

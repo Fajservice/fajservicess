@@ -120,7 +120,7 @@ const SharpHomeAppliancesInstallationDetail = ({ subtitle, title, reviewsbg, tit
                         <h1 className="cs_fs_30">Sharp Home Appliance Repair Service and Installation</h1>
                         <p>
                             Struggling to find a local technician who specializes in Sharp kitchen appliances?
-                            At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a>, we’ve been offering dependable and budget-friendly repair services since 2010. Our extensive network is made up of thoroughly vetted, skilled, and experienced professionals. Whenever possible, we’ll assign a technician who is well-acquainted with your specific Sharp appliance to ensure precise and efficient service.
+                            At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been offering dependable and budget-friendly repair services since 2010. Our extensive network is made up of thoroughly vetted, skilled, and experienced professionals. Whenever possible, we’ll assign a technician who is well-acquainted with your specific Sharp appliance to ensure precise and efficient service.
 
                         </p>
 
@@ -147,7 +147,7 @@ const SharpHomeAppliancesInstallationDetail = ({ subtitle, title, reviewsbg, tit
 
                                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Sharp Appliances Service</h2>
                                 <p className="mb-2">
-                                    At F A J Technical Services L.L.C, we understand that appliance issues, especially with Sharp products, often arise at the most inconvenient times. That’s why our experienced Sharp technicians are ready to deliver dependable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our support, you can avoid the expense of buying a new appliance and have your Sharp unit back in working order before it becomes a major concern.
+                                    At FAJ Technical Services L.L.C, we understand that appliance issues, especially with Sharp products, often arise at the most inconvenient times. That’s why our experienced Sharp technicians are ready to deliver dependable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our support, you can avoid the expense of buying a new appliance and have your Sharp unit back in working order before it becomes a major concern.
                                 </p>
 
                             </div>

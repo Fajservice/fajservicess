@@ -114,7 +114,7 @@ const NikaiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
             <h1 className="cs_fs_30">Nikai AC Repair and Maintenance Service in Dubai</h1>
             <p>
               For year-round comfort, tackling issues like summer humidity, warm nights, and indoor allergens is key!
-              Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"> F A J Technical Services L.L.C</a> has proudly provided top-notch Nikai air conditioning solutions in Dubai and Sharjah.
+              Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"> FAJ Technical Services L.L.C</a> has proudly provided top-notch Nikai air conditioning solutions in Dubai and Sharjah.
               <br />
               Our dedicated team is here to offer a wide range of services, including AC repair, cleaning service, maintenance, and installation for both homes and businesses.
               We&apos;re passionate about optimizing your air conditioning system to elevate your indoor comfort. Let’s make your space a cool haven together!

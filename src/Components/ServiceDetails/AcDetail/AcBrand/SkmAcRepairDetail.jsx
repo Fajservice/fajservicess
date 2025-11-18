@@ -117,7 +117,7 @@ const SkmAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
             <h1 className="cs_fs_30">SKM AC Repair in Dubai – SKM AC Maintenance Service</h1>
             <p>
               To ensure year-round comfort, it’s crucial to manage challenges like high humidity, warm nights, and indoor allergens.
-              <br /> Founded in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> is a trusted provider of SKM air conditioning solutions in Dubai and Sharjah. Our expert team offers SKM AC repair, AC cleaning services, including maintenance and installation for residential and commercial units, ensuring your system runs efficiently and improves indoor comfort.
+              <br /> Founded in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> is a trusted provider of SKM air conditioning solutions in Dubai and Sharjah. Our expert team offers SKM AC repair, AC cleaning services, including maintenance and installation for residential and commercial units, ensuring your system runs efficiently and improves indoor comfort.
               <br />We are dedicated to ensuring that your air conditioning system operates at peak efficiency, ultimately enhancing your indoor comfort.
             </p>
 

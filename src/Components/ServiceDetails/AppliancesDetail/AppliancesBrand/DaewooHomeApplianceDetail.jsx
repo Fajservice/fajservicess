@@ -121,7 +121,7 @@ const DaewooHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                         <h1 className="cs_fs_30">Daewoo Home Appliance Repair Service and Installation</h1>
                         <p>
                             Having trouble finding a local technician who specializes in Daewoo kitchen appliances?
-                            At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a>, we've been providing reliable and affordable services since 2010. Our extensive network of qualified, experienced professionals ensures that, whenever possible, we’ll assign a technician who is familiar with your specific Daewoo appliance for accurate and efficient repairs.
+                            At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we've been providing reliable and affordable services since 2010. Our extensive network of qualified, experienced professionals ensures that, whenever possible, we’ll assign a technician who is familiar with your specific Daewoo appliance for accurate and efficient repairs.
 
                         </p>
 
@@ -149,7 +149,7 @@ const DaewooHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
                                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Daewoo Appliances Service</h2>
                                 <p className="mb-2">
-                                    At F A J Technical Services L.L.C, we understand that Daewoo appliance breakdowns often happen unexpectedly. That’s why our skilled Daewoo technicians are ready to provide reliable and efficient <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>    . With our expert help, you can avoid the expense of buying a new unit and have your Daewoo appliance back in working order before it becomes a major concern.
+                                    At FAJ Technical Services L.L.C, we understand that Daewoo appliance breakdowns often happen unexpectedly. That’s why our skilled Daewoo technicians are ready to provide reliable and efficient <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>    . With our expert help, you can avoid the expense of buying a new unit and have your Daewoo appliance back in working order before it becomes a major concern.
                                 </p>
 
                             </div>

@@ -138,7 +138,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Ac Service in Dubai</h1>
-            <p><p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br /><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been in operation since 2010. Our dedicated facilities team has extensive experience in AC cleaning service, AC maintenance, AC repair, AC service near me, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p></p>
+            <p><p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br /><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been in operation since 2010. Our dedicated facilities team has extensive experience in AC cleaning service, AC maintenance, AC repair, AC service near me, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p></p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">

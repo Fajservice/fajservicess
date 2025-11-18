@@ -16,7 +16,7 @@ const OurTeamPage = () => {
                 <title>FAJ Team | Skilled Technicians & Support Experts in UAE</title>
                 <meta name="description" content="Meet FAJ’s experienced team delivering expert AC, appliance, and maintenance services with customer-focused support across Dubai and beyond."></meta>
                 <meta name="keywords" content="About FAJ Group" />
-                <meta name="author" content="F A J Technical Services L.L.C." />
+                <meta name="author" content="FAJ Technical Services L.L.C." />
                 <meta name="robots" content="index, follow" />
                 <link rel="canonical" href="https://www.fajservices.ae/our-team/" />
                 <meta property="og:type" content="website" />

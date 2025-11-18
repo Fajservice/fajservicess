@@ -118,7 +118,7 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Sanyo AC Repair and Maintenance Service in Dubai!</h1>
-            <p>To achieve year-round comfort, it is crucial to effectively manage challenges such as summer humidity, warm nights, and indoor allergens.<br />Since our founding in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has established itself as the leading provider of Sanyo air conditioner solutions in Dubai and Sharjah. Our skilled team is dedicated to delivering top-notch AC cleaning service, including repair, thorough maintenance, and precise installation for both residential and commercial units. We take pride in optimizing the performance of your air conditioning system, ensuring that you enjoy unparalleled indoor comfort at all times.</p>
+            <p>To achieve year-round comfort, it is crucial to effectively manage challenges such as summer humidity, warm nights, and indoor allergens.<br />Since our founding in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has established itself as the leading provider of Sanyo air conditioner solutions in Dubai and Sharjah. Our skilled team is dedicated to delivering top-notch AC cleaning service, including repair, thorough maintenance, and precise installation for both residential and commercial units. We take pride in optimizing the performance of your air conditioning system, ensuring that you enjoy unparalleled indoor comfort at all times.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -400,7 +400,7 @@ const SanyoAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
             </div>
           </div>
         </section>
-        {/*Why Choose F A J Technical Services L.L.C? */}
+        {/*Why Choose FAJ Technical Services L.L.C? */}
         <ACWhyChooseUs />
 
         {/* We specialise  */}

@@ -112,7 +112,7 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
             <h1 className="cs_fs_30">Aftron AC Repair and Maintenance Service in Dubai</h1>
             <p>Maintaining year-round indoor comfort involves addressing various challenges, including summer humidity, warm nights, and indoor allergens.
               <br />
-              Since its establishment in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been a reliable provider of Aftron Air Conditioner solutions in Dubai and Sharjah. Our experienced team specializes in a variety of services for Aftron AC cleaning service, repair, maintenance, and installation for both residential and commercial properties.
+              Since its establishment in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been a reliable provider of Aftron Air Conditioner solutions in Dubai and Sharjah. Our experienced team specializes in a variety of services for Aftron AC cleaning service, repair, maintenance, and installation for both residential and commercial properties.
               <br />We are dedicated to optimizing the performance of your air conditioning system to improve indoor comfort effectively.
             </p>
 

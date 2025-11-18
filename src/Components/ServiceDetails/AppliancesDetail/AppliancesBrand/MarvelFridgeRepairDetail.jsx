@@ -123,7 +123,7 @@ const MarvelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                         <h1 className="cs_fs_30">Marvel Home Appliance Repair Service and Installation</h1>
                         <p>
                             Need expert help with your Marvel appliances? You’re in the right place.
-                            <br /> <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been offering reliable and affordable appliances repair services since 2010. We work with a team of experienced and trusted technicians who understand the specific needs of Marvel appliance repairs and local service demands.
+                            <br /> <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been offering reliable and affordable appliances repair services since 2010. We work with a team of experienced and trusted technicians who understand the specific needs of Marvel appliance repairs and local service demands.
                             Whether you're in Dubai or Sharjah, we’ll connect you with a knowledgeable technician who can handle your Marvel appliances with care and precision. Your satisfaction is always our priority.
 
                         </p>
@@ -150,7 +150,7 @@ const MarvelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Marvel Appliances Service</h2>
                                 <p className="mb-2">
-                                    At F A J Technical Services L.L.C, we know that Marvel appliances can break down when you least expect it. That’s why our experienced Marvel technicians are ready to provide dependable repair services when you need them most. With our expert help, you can avoid the expense of buying a new appliance and have your Marvel unit working again before it becomes a bigger problem.
+                                    At FAJ Technical Services L.L.C, we know that Marvel appliances can break down when you least expect it. That’s why our experienced Marvel technicians are ready to provide dependable repair services when you need them most. With our expert help, you can avoid the expense of buying a new appliance and have your Marvel unit working again before it becomes a bigger problem.
                                 </p>
 
                             </div>

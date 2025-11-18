@@ -133,7 +133,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descriptio
           <div className="container">
             <h1 className="cs_fs_30">AC Repair Dubai - AC Maintenance and Service Available Near You</h1>
             <p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br />
-              <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
+              <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services L.L.C</b></a> has been in operation since 2010. Our dedicated facilities team has extensive experience in <a href="https://www.youtube.com/watch?v=pkO_jobGdBo"><b>AC servicing</b></a>, maintaining, repairing, and installing various residential and commercial air conditioning units in Dubai and Sharjah.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -413,7 +413,7 @@ const AcRepairDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descriptio
             <h3>We specialise in air conditioning repair & maintenance for all types</h3>
             <div className="row">
               <div className="col-12">
-                <p>At F A J Technical Services L.L.C, we provide expert AC repair and maintenance for all types of cooling systems, from compact units to large-scale installations. Our skilled team ensures fast, reliable service to keep your air conditioning performing at its best.</p>
+                <p>At FAJ Technical Services L.L.C, we provide expert AC repair and maintenance for all types of cooling systems, from compact units to large-scale installations. Our skilled team ensures fast, reliable service to keep your air conditioning performing at its best.</p>
                 <ul className="mb-0">
                   <li><strong>Central Air Conditioning System:</strong> Central AC systems are designed to cool entire buildings, making them essential for villas, offices, and commercial complexes. They operate through ductwork to deliver even temperature control. FAJ offers comprehensive AC repair service in Dubai for central systems, including duct cleaning, airflow balancing, and advanced diagnostics. Our technicians ensure smooth operation and consistent comfort. This makes us a trusted choice for large-scale AC maintenance.</li>
                   <li><strong>Cassette AC Repair Dubai:</strong> Cassette ACs are mounted on the ceiling, blending with interiors while delivering uniform air distribution. They&rsquo;re commonly found in shops, restaurants, and open-plan offices. Our Air Conditioner repair in Dubai for cassette units covers water leakage fixes, poor airflow correction, and motor replacements. FAJ&rsquo;s skilled team ensures minimal downtime and maximum efficiency. With our help, your cassette AC will operate like new.</li>

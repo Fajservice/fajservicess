@@ -113,7 +113,7 @@ const SuperGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descriptio
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Super General AC Repair and Maintenance Service in Dubai</h1>
-            <p>To achieve year-round comfort, it is imperative to effectively manage challenges such as summer humidity, warm nights, and indoor allergens.<br />Established in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> stands as the premier provider of Super General air conditioning solutions in Dubai and Sharjah. Our expert team offers an extensive range of Super General AC repair, cleaning service, maintenance, and installation for both residential and commercial settings.<br />We are committed to maximizing the performance of your air conditioning system, ensuring optimal indoor comfort at all times.</p>
+            <p>To achieve year-round comfort, it is imperative to effectively manage challenges such as summer humidity, warm nights, and indoor allergens.<br />Established in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> stands as the premier provider of Super General air conditioning solutions in Dubai and Sharjah. Our expert team offers an extensive range of Super General AC repair, cleaning service, maintenance, and installation for both residential and commercial settings.<br />We are committed to maximizing the performance of your air conditioning system, ensuring optimal indoor comfort at all times.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -397,7 +397,7 @@ const SuperGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descriptio
             </div>
           </div>
         </section>
-        {/*Why Choose F A J Technical Services L.L.C? */}
+        {/*Why Choose FAJ Technical Services L.L.C? */}
         <ACWhyChooseUs />
         {/* We specialise  */}
         <section className="section cs_py_30 bg-light-gray ">

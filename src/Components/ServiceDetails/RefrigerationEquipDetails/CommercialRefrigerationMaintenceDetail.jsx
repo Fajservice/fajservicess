@@ -21,7 +21,7 @@ const CommercialRefrigerationMaintenceDetail = ({ subtitle, title, reviewsbg, ti
   // For SEO
   const metatitle = String(titleSeo || "Commercial Refrigeration Maintenance & Repair in Dubai");
   const metadescription = String(description || "Get Commercial refrigeration maintenance in Dubai. Call 04-3300002 walk in cooler, cold room, biomedical freezer & chiller repair services near me");
-  const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial Refrigeration service, walk in cooler repair, chiller repair, cold room repair, commercial refrigeration maintenance");
   const metaURL = String(URL || "https://www.fajservices.ae/commercial-refrigeration-maintenance/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/img/commercial-ref%20-mc.jpg");
@@ -158,7 +158,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Commercial Refrigeration Maintenance and Walk in Freezer & Chiller Repair Service in Dubai</h1>
-            <p>Commercial refrigeration maintenance and repairs are essential for businesses like biomedical facilities, pharmacies, supermarkets, restaurants, hotels, and food processing plants, ensuring product freshness and safety.<br />F A J Technical Services L.L.C, established in 2010, is recognised for its reliability and flexibility. We respond promptly to refrigeration breakdowns and work diligently to address issues of any size. Our services include repairing and servicing walk-in coolers, walk-in chillers, freezers, and commercial refrigerators.<br />Timely maintenance boosts efficiency and extends equipment lifespan. At FAJ, we highlight the importance of preventative measures in commercial refrigeration to avoid costly failures. We also provide installation services for commercial chillers and freezers. </p>
+            <p>Commercial refrigeration maintenance and repairs are essential for businesses like biomedical facilities, pharmacies, supermarkets, restaurants, hotels, and food processing plants, ensuring product freshness and safety.<br />FAJ Technical Services L.L.C, established in 2010, is recognised for its reliability and flexibility. We respond promptly to refrigeration breakdowns and work diligently to address issues of any size. Our services include repairing and servicing walk-in coolers, walk-in chillers, freezers, and commercial refrigerators.<br />Timely maintenance boosts efficiency and extends equipment lifespan. At FAJ, we highlight the importance of preventative measures in commercial refrigeration to avoid costly failures. We also provide installation services for commercial chillers and freezers. </p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">

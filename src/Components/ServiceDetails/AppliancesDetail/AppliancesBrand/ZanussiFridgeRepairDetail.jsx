@@ -124,7 +124,7 @@ const ZanussiFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
             <h1 className="cs_fs_30">Zanussi Home Appliance Repair Service and Installation</h1>
             <p>
               If you’re in need of a knowledgeable local technician specializing in Zanussi appliances, you’ve come to the right place.
-              <br /> <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been providing reliable and affordable home appliances repair & services since 2010. We connect you with a network of qualified professionals who understand the specific needs of Zanussi appliance repairs and services in your area. Our main goal is to match you with an experienced Zanussi technician in Dubai and Sharjah who is familiar with the operation of Zanussi appliances. We prioritize your satisfaction above all else!
+              <br /> <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been providing reliable and affordable home appliances repair & services since 2010. We connect you with a network of qualified professionals who understand the specific needs of Zanussi appliance repairs and services in your area. Our main goal is to match you with an experienced Zanussi technician in Dubai and Sharjah who is familiar with the operation of Zanussi appliances. We prioritize your satisfaction above all else!
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -149,7 +149,7 @@ const ZanussiFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Zanussi Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we know appliance breakdowns with Zanussi products are always inconvenient. Our qualified technicians provide reliable appliance repair service, helping you avoid the cost of a new appliance and getting your Zanussi appliance running smoothly again.
+                  At FAJ Technical Services L.L.C, we know appliance breakdowns with Zanussi products are always inconvenient. Our qualified technicians provide reliable appliance repair service, helping you avoid the cost of a new appliance and getting your Zanussi appliance running smoothly again.
                 </p>
 
               </div>

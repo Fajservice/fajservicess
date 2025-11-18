@@ -22,7 +22,7 @@ const CookingEquipmentServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
   // For SEO
   const metatitle = String(titleSeo || "Commercial Cooking Appliances Repair & Service in Dubai");
   const metadescription = String(description || "Commercial cooking appliances repair in Dubai, Book 04-3300002 for restaurant & hotel kitchen equipment, range, stove, maintenance, AMC services");
-  const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial Cooking Equipment Repair, Dubai, professional Kitchen Appliances Service, professional Cooking Range Repair, professional Gas Stove Repair, professional Deep Fryer Service, professional Oven Repair, Restaurant Equipment Maintenance");
   const metaURL = String(URL || "https://www.fajservices.ae/commercial-cooking-appliances-repair-service/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/img/commercial-cooking-appliances-repair-service.avif");

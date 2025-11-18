@@ -123,7 +123,7 @@ const KitchenaidRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
             <h1 className="cs_fs_30">Kitchenaid Fridge Repair and Washing Machine Service in Dubai</h1>
             <p>
               Having trouble finding a reliable local technician for your Kitchenaid kitchen appliances?
-              At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a>, we've been providing dependable and cost-effective appliance repair services since 2010. Our extensive network of experienced, thoroughly vetted technicians ensures that, whenever possible, we send a specialist who knows your specific Kitchenaid appliance inside and out.
+              At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we've been providing dependable and cost-effective appliance repair services since 2010. Our extensive network of experienced, thoroughly vetted technicians ensures that, whenever possible, we send a specialist who knows your specific Kitchenaid appliance inside and out.
 
             </p>
 
@@ -150,7 +150,7 @@ const KitchenaidRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Kitchenaid Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we understand that appliance breakdowns, especially with Kitchenaid products, rarely happen at a convenient time. That’s why our trained Kitchenaid technicians are ready to provide reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair service</a> when you need it most. With our help, you can avoid the high cost of replacement and get your Kitchenaid appliance running smoothly again in no time.
+                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Kitchenaid products, rarely happen at a convenient time. That’s why our trained Kitchenaid technicians are ready to provide reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair service</a> when you need it most. With our help, you can avoid the high cost of replacement and get your Kitchenaid appliance running smoothly again in no time.
                 </p>
 
               </div>

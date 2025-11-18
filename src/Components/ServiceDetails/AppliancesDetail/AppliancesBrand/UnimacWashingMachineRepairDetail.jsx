@@ -123,7 +123,7 @@ const UnimacWashingMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
       <h1 className="cs_fs_30">UniMac Appliance Repair Service and Installation</h1>
 
       <p>
-       At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a>, we provide comprehensive services for UniMac commercial washing machines, dryers, and laundry equipment. Our team specialises in the installation, maintenance, and repair of all UniMac models, including heavy-duty washers, tumble dryers, and stack washer/dryer units, ensuring your laundry operations run smoothly and efficiently.
+       At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we provide comprehensive services for UniMac commercial washing machines, dryers, and laundry equipment. Our team specialises in the installation, maintenance, and repair of all UniMac models, including heavy-duty washers, tumble dryers, and stack washer/dryer units, ensuring your laundry operations run smoothly and efficiently.
        <br />
        Whether you require scheduled maintenance or urgent repairs for your hotel, hospital, or commercial laundry facility, our experienced technicians are committed to delivering prompt and practical solutions. Trust us to keep your UniMac laundry equipment performing at its best and enjoy the peace of mind that comes with dependable service. Contact us today!
       </p>
@@ -153,7 +153,7 @@ const UnimacWashingMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
 
         <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable UniMac Appliances Service</h3>
         <p className="mb-2">
-         At F A J Technical Services L.L.C, we know that UniMac appliance issues can occur without warning. That’s why our skilled technicians offer dependable UniMac <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a> across Dubai and Sharjah. With our professional support, you can avoid costly replacements and have your laundry equipment restored to peak performance in no time.
+         At FAJ Technical Services L.L.C, we know that UniMac appliance issues can occur without warning. That’s why our skilled technicians offer dependable UniMac <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a> across Dubai and Sharjah. With our professional support, you can avoid costly replacements and have your laundry equipment restored to peak performance in no time.
         </p>
        </div>
 

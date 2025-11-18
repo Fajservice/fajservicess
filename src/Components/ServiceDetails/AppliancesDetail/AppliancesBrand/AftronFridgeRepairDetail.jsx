@@ -119,7 +119,7 @@ const AftronFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                     <div className="container">
                         <h1 className="cs_fs_30">Aftron Home Appliance Repair Service and Installation</h1>
                         <p>
-                            Struggling to find a local Aftron appliance technician who understands Aftron kitchen appliances? <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has offered trusted and cost-effective services since 2010. Our vast network includes experienced, and carefully screened professionals. When available, we assign technicians experienced with your specific Aftron model.
+                            Struggling to find a local Aftron appliance technician who understands Aftron kitchen appliances? <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has offered trusted and cost-effective services since 2010. Our vast network includes experienced, and carefully screened professionals. When available, we assign technicians experienced with your specific Aftron model.
                         </p>
 
                         <div id="get-quote" className=" mt-3">
@@ -145,7 +145,7 @@ const AftronFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Aftron Appliances Service</h2>
                                 <p className="mb-2">
-                                    At F A J Technical Services L.L.C, we understand that Aftron appliance breakdowns often happen at the worst times. That’s why our experienced Aftron technicians are here to provide reliable and timely <a href="https://www.fajservices.ae/appliances-repair-service/">appliances repair services</a>. With our support, you can avoid the cost of a new appliance and get your Aftron unit back to working condition quickly.
+                                    At FAJ Technical Services L.L.C, we understand that Aftron appliance breakdowns often happen at the worst times. That’s why our experienced Aftron technicians are here to provide reliable and timely <a href="https://www.fajservices.ae/appliances-repair-service/">appliances repair services</a>. With our support, you can avoid the cost of a new appliance and get your Aftron unit back to working condition quickly.
                                 </p>
 
                             </div>

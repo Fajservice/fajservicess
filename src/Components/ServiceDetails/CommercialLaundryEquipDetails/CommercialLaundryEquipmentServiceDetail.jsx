@@ -26,7 +26,7 @@ const WalkInRefrigerationServicesDetail = ({ subtitle, title, reviewsbg, titleSe
   // For SEO
   const metatitle = String(titleSeo || "Commercial Laundry Repair & Maintenance Service in Dubai");
   const metadescription = String(description || "Get fast Commercial laundry repair in Dubai. FAJ Expert Fagor, Electrolux, Meiko, Elettrobar, Washer maintenance AMC services");
-  const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial Laundry Equipment Service, Commercial Laundry Equipment Repair, Commercial Laundry Equipment Maintenance, Dryer Repair Dubai, Washer Repair Dubai, Ironing Machine Repair Dubai, Commercial Laundry AMC Services");
   const metaURL = String(URL || "https://www.fajservices.ae/commercial-laundry-equipment-service/").replace(/\/?$/, '/');
 const metaImage = String(Image || "https://www.fajservices.ae/img/banners/Commercial-Laundry-Equipment-Services/Laundry-Equipment-Service.avif");

@@ -119,7 +119,7 @@ const FrankeAppliancesRepairServiceDetail = ({ subtitle, title, reviewsbg, title
             <h1 className="cs_fs_30"> Franke Fridge Repair and Washing Machine Service in Dubai</h1>
             <p>
               Having trouble finding a reliable technician for your Franke kitchen appliances?
-              At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a>, we’ve been providing dependable and affordable service since 2010. Our experienced network of skilled professionals ensures that, whenever possible, you’re matched with a technician who specializes in your specific Franke appliance.
+              At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been providing dependable and affordable service since 2010. Our experienced network of skilled professionals ensures that, whenever possible, you’re matched with a technician who specializes in your specific Franke appliance.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -139,7 +139,7 @@ const FrankeAppliancesRepairServiceDetail = ({ subtitle, title, reviewsbg, title
                 <h2 className="cs_fs_24 mb-1">Franke Washing Machine Repair Near You</h2>
 
                 <p className="mb-2">
-                  If you're in need of repair services for your Franke appliances, F A J Technical Services L.L.C has you covered!
+                  If you're in need of repair services for your Franke appliances, FAJ Technical Services L.L.C has you covered!
                   We provide fast, affordable solutions for all your Franke appliance issues. Whether it’s a built-in washing machine that won’t drain, a fridge not cooling, an oven not heating, or a dishwasher that won’t start, our expert repair team in Dubai and Sharjah is ready to help.
                   As your trusted local service provider, we respond quickly to get your appliances back in perfect working order.
 
@@ -148,7 +148,7 @@ const FrankeAppliancesRepairServiceDetail = ({ subtitle, title, reviewsbg, title
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable  Franke Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we understand that appliance breakdowns, especially with Franke products, rarely happen at a convenient time. That’s why our trained Franke technicians are ready to provide reliable Franke <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our expert assistance, you can avoid the expense of replacing your appliance and have it back up and running before it disrupts your routine.
+                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Franke products, rarely happen at a convenient time. That’s why our trained Franke technicians are ready to provide reliable Franke <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our expert assistance, you can avoid the expense of replacing your appliance and have it back up and running before it disrupts your routine.
                 </p>
 
               </div>

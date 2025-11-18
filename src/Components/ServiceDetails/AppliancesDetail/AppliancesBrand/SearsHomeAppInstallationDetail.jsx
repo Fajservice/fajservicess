@@ -124,7 +124,7 @@ const SearsHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, titleSeo, 
             <h1 className="cs_fs_30">Sears Home Appliance Repair Service and Installation</h1>
             <p>
               Looking for an experienced local technician to repair your Sears appliances? You’ve come to the right place.
-              <br />Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has provided reliable, cost-effective repair solutions across Dubai and Sharjah. Our network of trusted professionals specializes in Sears appliance repair and understands the brand’s unique service needs. We’re dedicated to connecting you with skilled technicians near you to restore your appliances quickly and efficiently. Your satisfaction is always our top priority.
+              <br />Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has provided reliable, cost-effective repair solutions across Dubai and Sharjah. Our network of trusted professionals specializes in Sears appliance repair and understands the brand’s unique service needs. We’re dedicated to connecting you with skilled technicians near you to restore your appliances quickly and efficiently. Your satisfaction is always our top priority.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -150,7 +150,7 @@ const SearsHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Sears Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we know that Sears appliance breakdowns rarely happen at a convenient time. That’s why our experienced Sears technicians are ready to provide dependable repair services when you need them most. With our help, you can avoid the cost of replacing your appliance and have it running smoothly again, before it becomes a major concern.
+                  At FAJ Technical Services L.L.C, we know that Sears appliance breakdowns rarely happen at a convenient time. That’s why our experienced Sears technicians are ready to provide dependable repair services when you need them most. With our help, you can avoid the cost of replacing your appliance and have it running smoothly again, before it becomes a major concern.
                 </p>
 
               </div>

@@ -21,7 +21,7 @@ const CommercialCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, title
   // For SEO
   const metatitle = String(titleSeo || "Coffee Machine Repairs & Maintenance Services in Dubai");
   const metadescription = String(description || "FAJ Qualified commercial coffee machine repairs technicians in Dubai, coffee equipment, espresso, vending machines servicing & maintenance AMC");
-  const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial COffee Machine repair, 3 Group Coffee Machine Repair");
   const metaURL = String(URL || "https://www.fajservices.ae/coffee-machine-repairs/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/img/Coffee-machine-servicing-title-image.avif");

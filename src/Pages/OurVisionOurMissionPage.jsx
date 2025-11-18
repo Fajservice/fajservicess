@@ -16,7 +16,7 @@ const OurVisionOurMissionPage = () => {
           <title>FAJ Vision & Mission | Excellence in Technical Services</title>
           <meta name="description" content="Explore FAJ's vision and mission to deliver trusted, innovative, and customer-focused AC, appliance, and maintenance services across Dubai and UAE"></meta>
           <meta name="keywords" content="About FAJ Group" />
-          <meta name="author" content="F A J Technical Services L.L.C." />
+          <meta name="author" content="FAJ Technical Services L.L.C." />
           <meta name="robots" content="index, follow" />
           <link rel="canonical" href="https://www.fajservices.ae/our-vision-and-mission/" />
           <meta property="og:type" content="website" />

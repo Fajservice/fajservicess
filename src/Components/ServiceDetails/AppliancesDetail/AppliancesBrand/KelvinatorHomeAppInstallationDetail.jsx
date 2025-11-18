@@ -120,7 +120,7 @@ const KelvinatorHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, title
             <h1 className="cs_fs_30">Kelvinator Home Appliance Repair Service and Installation</h1>
             <p>
               Finding it difficult to locate a local technician who specializes in Kelvinator kitchen appliances?
-              At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a>, we’ve been delivering trusted and affordable appliance repair services since 2010. Our wide network includes carefully screened, skilled, and experienced professionals. Whenever possible, we’ll send a technician who is well-versed in your specific Kelvinator appliance to ensure efficient and accurate service.
+              At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been delivering trusted and affordable appliance repair services since 2010. Our wide network includes carefully screened, skilled, and experienced professionals. Whenever possible, we’ll send a technician who is well-versed in your specific Kelvinator appliance to ensure efficient and accurate service.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -146,7 +146,7 @@ const KelvinatorHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, title
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Kelvinator Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we understand that appliance breakdowns, especially with Kelvinator products, often happen at the worst possible time. That’s why our experienced Kelvinator technicians are ready to provide dependable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our expert help, you can avoid the expense of replacing your appliance and have it back in working order before it becomes a major inconvenience.
+                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Kelvinator products, often happen at the worst possible time. That’s why our experienced Kelvinator technicians are ready to provide dependable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our expert help, you can avoid the expense of replacing your appliance and have it back in working order before it becomes a major inconvenience.
                 </p>
 
               </div>

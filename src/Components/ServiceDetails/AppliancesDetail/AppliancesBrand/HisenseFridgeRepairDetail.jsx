@@ -121,7 +121,7 @@ const HisenseFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                         <h1 className="cs_fs_30">Hisense Home Appliance Repair Service and Installation</h1>
                         <p>
                             Looking for a reliable local expert to repair your Hisense appliances? You're in the right place.
-                            Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been a trusted name for affordable and efficient home appliance solutions.
+                            Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been a trusted name for affordable and efficient home appliance solutions.
                             <br />We connect you with experienced and professionals who specialize in Hisense appliance repairs and understand the specific needs of your devices. Whether in Dubai or Sharjah, we aim to ensure you receive expert service tailored to your appliance. Your satisfaction is always our top concern.
 
                         </p>
@@ -148,7 +148,7 @@ const HisenseFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
                                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Hisense Appliances Service</h2>
                                 <p className="mb-2">
-                                    At F A J Technical Services L.L.C, appliance breakdowns can happen when you least expect them, especially with your trusted Hisense products. That’s why our expert Hisense technicians are ready to deliver dependable repairs you can count on. Let us help you save money and restore your appliance quickly so you can return to your routine without stress.
+                                    At FAJ Technical Services L.L.C, appliance breakdowns can happen when you least expect them, especially with your trusted Hisense products. That’s why our expert Hisense technicians are ready to deliver dependable repairs you can count on. Let us help you save money and restore your appliance quickly so you can return to your routine without stress.
                                 </p>
 
                             </div>

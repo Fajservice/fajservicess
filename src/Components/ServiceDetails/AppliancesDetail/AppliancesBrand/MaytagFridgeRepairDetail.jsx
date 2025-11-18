@@ -121,7 +121,7 @@ const MaytagFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
           <div className="container">
             <h1 className="cs_fs_30">Maytag Fridge Repair and Washing Machine Service in Dubai</h1>
             <p>
-              If you're looking for a qualified technician for your Maytag appliances, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> is here to assist you. Since 2010, we’ve offered dependable and affordable home appliance repair services. Our network features skilled professionals who specialize in Maytag appliance repair and are available nearby. We connect you with experienced technicians across Dubai and Sharjah who focus on your satisfaction and deliver efficient, reliable solutions for all your appliance needs.
+              If you're looking for a qualified technician for your Maytag appliances, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> is here to assist you. Since 2010, we’ve offered dependable and affordable home appliance repair services. Our network features skilled professionals who specialize in Maytag appliance repair and are available nearby. We connect you with experienced technicians across Dubai and Sharjah who focus on your satisfaction and deliver efficient, reliable solutions for all your appliance needs.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -148,7 +148,7 @@ const MaytagFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Maytag Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we recognize that appliance breakdowns, particularly with Maytag products, often happen at the most inconvenient times. That’s why our trained and qualified Maytag technicians are available to provide you with reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair service</a>. With our help, you can avoid the expense of purchasing a new appliance and quickly get your Maytag appliance back in working order, allowing you to put your worries aside.
+                  At FAJ Technical Services L.L.C, we recognize that appliance breakdowns, particularly with Maytag products, often happen at the most inconvenient times. That’s why our trained and qualified Maytag technicians are available to provide you with reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair service</a>. With our help, you can avoid the expense of purchasing a new appliance and quickly get your Maytag appliance back in working order, allowing you to put your worries aside.
 
                 </p>
 

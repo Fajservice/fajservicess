@@ -395,7 +395,7 @@ const BlogDetails = ({ titleSeo, description, Author, Keyword, URL }) => {
 
   const metatitle = String(titleSeo || blogPost.metatitle || blogPost.title || '');
   const metadescription = String(description || blogPost.metadesc || '');
-  const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "");
   const metaURL = String(URL || `https://www.fajservices.ae/blog/${blogPost.slug}/`).replace(/\/?$/, '/');
   const metaImage = blogPost.img ? `https://www.fajservices.ae${blogPost.img}` : '';

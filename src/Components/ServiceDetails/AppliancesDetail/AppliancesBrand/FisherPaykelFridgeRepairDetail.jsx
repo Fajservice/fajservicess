@@ -120,7 +120,7 @@ const FisherPaykelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, 
             <h1 className="cs_fs_30">Fisher & Paykel Home Appliance Repair Service and Installation</h1>
             <p>
               Are you having trouble finding a local technician specializing in Fisher & Paykel kitchen appliances?
-              At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a>, we’ve been offering trusted and affordable repair services since 2010. Our extensive network of thoroughly vetted and experienced professionals ensures that, whenever possible, we’ll assign a technician with specific knowledge of your Fisher & Paykel appliance for efficient and accurate service.
+              At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been offering trusted and affordable repair services since 2010. Our extensive network of thoroughly vetted and experienced professionals ensures that, whenever possible, we’ll assign a technician with specific knowledge of your Fisher & Paykel appliance for efficient and accurate service.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -147,7 +147,7 @@ const FisherPaykelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "18px" }}>Fast and Reliable Fisher & Paykel Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we understand that appliance breakdowns, especially with Fisher & Paykel products, never occur at a convenient time. That’s why our trained and qualified Fisher & Paykel technicians are here to offer you reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Fisher & Paykel appliance up and running again before you have a chance to worry about it.
+                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Fisher & Paykel products, never occur at a convenient time. That’s why our trained and qualified Fisher & Paykel technicians are here to offer you reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Fisher & Paykel appliance up and running again before you have a chance to worry about it.
                 </p>
 
               </div>

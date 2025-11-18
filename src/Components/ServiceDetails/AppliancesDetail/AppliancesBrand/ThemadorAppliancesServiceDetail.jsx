@@ -122,7 +122,7 @@ const ThemadorAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo,
             <h1 className="cs_fs_30">Thermador  Home Appliance Repair Service and Installation</h1>
             <p>
               Having trouble finding a local technician who specializes in Thermador kitchen appliances?
-              At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a>, we’ve been delivering trusted and affordable repair services since 2010. Our broad network consists of carefully vetted, qualified, and experienced professionals. Whenever possible, we’ll dispatch a technician who’s familiar with your specific Thermador appliance to ensure efficient and accurate service.
+              At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been delivering trusted and affordable repair services since 2010. Our broad network consists of carefully vetted, qualified, and experienced professionals. Whenever possible, we’ll dispatch a technician who’s familiar with your specific Thermador appliance to ensure efficient and accurate service.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -148,7 +148,7 @@ const ThemadorAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo,
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Thermador  Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we know that appliance breakdowns, especially with Thermador products, rarely happen at a convenient time. That’s why our experienced Thermador technicians are ready to provide dependable <a href="https://www.fajservices.ae/appliances-repair-service/">appliances repair services</a>. With our expert help, you can avoid the expense of replacing your appliance and have it back in working condition before it causes any further inconvenience.
+                  At FAJ Technical Services L.L.C, we know that appliance breakdowns, especially with Thermador products, rarely happen at a convenient time. That’s why our experienced Thermador technicians are ready to provide dependable <a href="https://www.fajservices.ae/appliances-repair-service/">appliances repair services</a>. With our expert help, you can avoid the expense of replacing your appliance and have it back in working condition before it causes any further inconvenience.
 
                 </p>
 

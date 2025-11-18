@@ -5,7 +5,7 @@ const BlogPage = ({ titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Installation, Repair and Maintenance Services Blogs in Dubai - FAJ");
   const metadescription = String(description || "Explore useful tips, guides, and up to date news on repair and maintenance from the most trusted maintenance information company in Dubai - FAJ");
-  const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Installation Repair Maintenance Services Blogs, AC Repair Blogs, Refrigerator Repair Blogs, Washing Machine Repair Blogs, Kitchen Equipment Repair Blogs, Appliances Repair Blogs, Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/blogs/").replace(/\/?$/, '/');
 

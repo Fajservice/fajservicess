@@ -151,7 +151,7 @@ const BlombergFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 						<h1 className="cs_fs_30">Blomberg Home Appliance Repair Service and Installation</h1>
 						<p>
 							Having trouble finding a local technician who specializes in Blomberg kitchen appliances?
-							At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a>, we’ve been providing reliable and affordable repair services since 2010. Our extensive network of skilled and vetted professionals ensures that, whenever possible, we’ll send a technician with direct experience handling your specific Blomberg appliance.
+							At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been providing reliable and affordable repair services since 2010. Our extensive network of skilled and vetted professionals ensures that, whenever possible, we’ll send a technician with direct experience handling your specific Blomberg appliance.
 						</p>
 
 						<div id="get-quote" className=" mt-3">
@@ -177,7 +177,7 @@ const BlombergFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 
 								<h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Blomberg Appliances Service</h2>
 								<p className="mb-2">
-									At F A J Technical Services L.L.C, we know that Blomberg appliance breakdowns often happen at the worst times. That’s why our trained and professional Blomberg technicians are ready to provide dependable <a href="https://www.fajservices.ae/appliances-repair-service/">appliances repair services</a> you can trust. With our expert help, you can avoid the expense of a replacement and have your Blomberg appliance running smoothly again before you even start to worry.
+									At FAJ Technical Services L.L.C, we know that Blomberg appliance breakdowns often happen at the worst times. That’s why our trained and professional Blomberg technicians are ready to provide dependable <a href="https://www.fajservices.ae/appliances-repair-service/">appliances repair services</a> you can trust. With our expert help, you can avoid the expense of a replacement and have your Blomberg appliance running smoothly again before you even start to worry.
 								</p>
 
 							</div>

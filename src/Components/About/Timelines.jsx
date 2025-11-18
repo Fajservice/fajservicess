@@ -2,7 +2,7 @@ import '../../assets/Timeline.css';
 
 const timelineData = [
   {
-    title: 'F A J Technical Services L.L.C',
+    title: 'FAJ Technical Services L.L.C',
     date: '2010',
     color: '#3c8dbc',
   },

@@ -122,7 +122,7 @@ const TekaHomeAppInstllationDetail = ({ subtitle, title, reviewsbg, titleSeo, de
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Teka Fridge Repair and Washing Machine Service in Dubai</h1>
-            <p>Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been a trusted provider of Teka appliance repair and service in Dubai. We know that appliance breakdowns can happen without warning, which is why we offer prompt, high-quality, and affordable repair solutions.
+            <p>Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been a trusted provider of Teka appliance repair and service in Dubai. We know that appliance breakdowns can happen without warning, which is why we offer prompt, high-quality, and affordable repair solutions.
               Our skilled technicians are available across Dubai and Sharjah to deliver reliable Teka washing machine repair and service right at your doorstep.
             </p>
 
@@ -148,7 +148,7 @@ const TekaHomeAppInstllationDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Teka Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we understand that Teka appliances often break down at the most inconvenient times. That’s why our trained technicians are ready to provide reliable Teka <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a> when you need them most. With our expert assistance, you can avoid the expense of replacing your appliance and have it functioning properly again, quickly and hassle-free.
+                  At FAJ Technical Services L.L.C, we understand that Teka appliances often break down at the most inconvenient times. That’s why our trained technicians are ready to provide reliable Teka <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a> when you need them most. With our expert assistance, you can avoid the expense of replacing your appliance and have it functioning properly again, quickly and hassle-free.
                 </p>
 
               </div>

@@ -17,7 +17,7 @@ const OurVisionOurMissionPage = () => {
           <title>FAJ History | From AC Maintenance to UAE Service Leader</title>
           <meta name="description" content="Established in 2010 as an AC maintenance firm in Dubai, FAJ has grown into a trusted provider of comprehensive technical services across UAE."></meta>
           <meta name="keywords" content="About FAJ Group" />
-          <meta name="author" content="F A J Technical Services L.L.C." />
+          <meta name="author" content="FAJ Technical Services L.L.C." />
           <meta name="robots" content="index, follow" />
           <link rel="canonical" href="https://www.fajservices.ae/our-history/" />
           <meta property="og:type" content="website" />

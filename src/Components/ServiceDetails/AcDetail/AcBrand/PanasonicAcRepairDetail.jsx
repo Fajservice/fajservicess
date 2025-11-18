@@ -114,7 +114,7 @@ const PanasonicAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
           <div className="container">
             <h1 className="cs_fs_30">Panasonic AC Repair and Maintenance Service in Dubai!</h1>
             <p>
-              To ensure year-round comfort, it is vital to confront challenges such as humid summer days, uncomfortable nights, and airborne allergens head-on. <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been the definitive choice for Panasonic air conditioning solutions in Dubai and Sharjah since 2010.
+              To ensure year-round comfort, it is vital to confront challenges such as humid summer days, uncomfortable nights, and airborne allergens head-on. <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been the definitive choice for Panasonic air conditioning solutions in Dubai and Sharjah since 2010.
               Our expert team excels in providing comprehensive Panansonic AC repair, cleaning service, maintenance and installation services for a wide range of residential and commercial Panasonic air conditioning units.
               <br />We are dedicated to optimizing your system's performance for a comfortable and healthy indoor environment. Trust us for reliable expertise and service.
 

@@ -25,7 +25,7 @@ const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
   // For SEO
   const metatitle = String(titleSeo || "Ice Maker Repair in Dubai | Ice Machine Maintenance Services");
   const metadescription = String(description || "Best Ice maker repair in Dubai. We specialise in hoshizaki, manitowoc, generaltec. brema, scotsman ice cube, Ice machine maintenance & AMC services");
-  const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Ice Maker Repair, IceMaker Repair, Commercial Ice Maker Repair Service");
   const metaURL = String(URL || "https://www.fajservices.ae/ice-maker-repair/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/img/newicemaker.avif");

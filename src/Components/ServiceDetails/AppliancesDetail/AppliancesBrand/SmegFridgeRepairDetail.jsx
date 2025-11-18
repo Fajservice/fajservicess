@@ -120,7 +120,7 @@ const SmegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Smeg Home Appliance Repair Service and Installation</h1>
-            <p>Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been delivering trusted Smeg appliance maintenance and repair solutions across Dubai. We recognize that appliance failures often occur without warning, so we ensure fast, dependable, and cost-effective services.
+            <p>Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been delivering trusted Smeg appliance maintenance and repair solutions across Dubai. We recognize that appliance failures often occur without warning, so we ensure fast, dependable, and cost-effective services.
               Our expert technicians operate throughout Dubai and Sharjah, offering convenient Smeg washing machine repairs and servicing to keep your appliances running smoothly.
             </p>
 
@@ -145,7 +145,7 @@ const SmegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Smeg Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we understand that Smeg appliance issues can arise unexpectedly. That’s why our qualified technicians provide reliable Smeg <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair service</a> across Dubai and Sharjah. With our expert help, you can avoid the high cost of replacements and get your appliance back in working condition in no time.
+                  At FAJ Technical Services L.L.C, we understand that Smeg appliance issues can arise unexpectedly. That’s why our qualified technicians provide reliable Smeg <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair service</a> across Dubai and Sharjah. With our expert help, you can avoid the high cost of replacements and get your appliance back in working condition in no time.
                 </p>
 
               </div>

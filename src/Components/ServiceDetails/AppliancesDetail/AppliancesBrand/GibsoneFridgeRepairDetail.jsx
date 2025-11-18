@@ -122,7 +122,7 @@ const GibsonFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
           <div className="container">
             <h1 className="cs_fs_30">Gibson Fridge Repair and Washing Machine Service in Dubai</h1>
             <p>
-              Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been delivering trusted Gibson appliance repair and service in Dubai. We understand that appliance issues can arise without warning, which is why we offer prompt, affordable, and high-quality repair solutions.
+              Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been delivering trusted Gibson appliance repair and service in Dubai. We understand that appliance issues can arise without warning, which is why we offer prompt, affordable, and high-quality repair solutions.
               Our experienced technicians are available across Dubai and Sharjah to provide on-site Gibson washing machine repair and service at your convenience.
             </p>
 
@@ -148,7 +148,7 @@ const GibsonFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Gibson Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we understand that Gibson appliances can break down when you least expect it. That’s why our experienced technicians are ready to provide dependable <a href="https://www.fajservices.ae/appliances-repair-service/">Gibson appliance repair services</a>. With our help, you can avoid the high cost of replacement and have your appliance working properly again in no time.
+                  At FAJ Technical Services L.L.C, we understand that Gibson appliances can break down when you least expect it. That’s why our experienced technicians are ready to provide dependable <a href="https://www.fajservices.ae/appliances-repair-service/">Gibson appliance repair services</a>. With our help, you can avoid the high cost of replacement and have your appliance working properly again in no time.
                 </p>
 
               </div>

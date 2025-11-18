@@ -112,7 +112,7 @@ const SupraAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Supra AC Repair and Maintenance Service in Dubai</h1>
-            <p>Achieving year-round comfort involves effectively addressing challenges like summer humidity, warm nights, and indoor allergens.<br />Since its inception in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been a reliable provider of Supra air conditioner solutions in Dubai and Sharjah.<br />Our experienced team delivers a variety of services, including Supra AC repair, cleaning, maintenance, and installation, for both residential and commercial units. We are dedicated to maximizing the efficiency of your air conditioning system to improve indoor comfort.</p>
+            <p>Achieving year-round comfort involves effectively addressing challenges like summer humidity, warm nights, and indoor allergens.<br />Since its inception in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been a reliable provider of Supra air conditioner solutions in Dubai and Sharjah.<br />Our experienced team delivers a variety of services, including Supra AC repair, cleaning, maintenance, and installation, for both residential and commercial units. We are dedicated to maximizing the efficiency of your air conditioning system to improve indoor comfort.</p>
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
@@ -389,7 +389,7 @@ const SupraAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
             </div>
           </div>
         </section>
-        {/*Why Choose F A J Technical Services L.L.C? */}
+        {/*Why Choose FAJ Technical Services L.L.C? */}
         <ACWhyChooseUs />
         {/* We specialise  */}
         <section className="section cs_py_30 bg-light-gray ">

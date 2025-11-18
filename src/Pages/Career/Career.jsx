@@ -13,7 +13,7 @@ const Career = () => {
       description: `## Job description:
         FAJ Group, located in Dubai, UAE, began in 2010 as a small, major, equipments technical services and sales trading company. Today, we have evolved into a dynamic organization with over four subsidiaries operating in two main sectors.
         We have experienced significant growth in areas such as trading (including e-commerce), technical services, and a variety of appliances and electronics.
-        Company Name: F A J Technical Services LLC
+        Company Name: FAJ Technical Services L.L.C
         Al Quoz Ind Area 4th, Dubai, UAE
         Link: https://www.fajservices.ae/ac-repair-dubai/
         Location: https://maps.app.goo.gl/FK6Qrd8DAkEVwA3P6
@@ -96,7 +96,7 @@ Contract length: 24 months`
       shortDescription: "We are seeking a technician with a minimum of 3-5 years of experience in commercial and domestic environments.",
       description: `FAJ Group, located in Dubai, UAE, began in 2010 as a small, major, equipments technical services and sales trading company. Today, we have evolved into a dynamic organization with over four subsidiaries operating in two main sectors.
 We have experienced significant growth in areas such as trading (including e-commerce), technical services, and a variety of appliances and electronics.
-Company Name: F A J Technical Services LLC
+Company Name: FAJ Technical Services L.L.C
 Al Quoz Ind Area 4th, Dubai, UAE
 Link.: https://www.fajservices.ae/ac-repair-dubai/
 Location..: https://maps.app.goo.gl/FK6Qrd8DAkEVwA3P6
@@ -125,7 +125,7 @@ Job Type: Full-time`
       title: "Large and Small Appliances, and Kitchen Equipment Technician Job",
       shortDescription: "We are seeking a technician with a minimum of 3-5 years of experience in commercial and domestic environments.",
       description: `We have experienced significant growth in areas such as trading (including e-commerce), technical services, and a variety of appliances and electronics.
-Company Name: F A J Technical Services LLC
+Company Name: FAJ Technical Services L.L.C
 Al Quoz Ind Area 4th, Dubai, UAE
 Link.: https://www.fajservices.ae/ac-repair-dubai/
 Location..: https://maps.app.goo.gl/FK6Qrd8DAkEVwA3P6
@@ -163,7 +163,7 @@ Job Types: Full-time, Contract`
       title: "Front Desk and Sales Representative Job",
       shortDescription: "FAJ Group, based in Dubai, UAE, started in 2010 as a small technical services and sales trading house.",
       description: `FAJ Group, based in Dubai, UAE, started in 2010 as a small technical services and sales trading house. Today, we are a dynamic organisation with over four companies operating in two main sectors. We have experienced significant growth in areas such as trading (including e-commerce), technical services, and various appliances and electronics.
-Company Name: F A J Technical Services LLC
+Company Name: FAJ Technical Services L.L.C
 Al Quoz Ind Area 4th, Dubai, UAE
 Send CV by WhatsApp: +971 50 609 7717 (Don't Call)
 ## Job Responsibilities:

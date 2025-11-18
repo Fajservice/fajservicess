@@ -122,7 +122,7 @@ const DeDietrichFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
             <h1 className="cs_fs_30">De Dietrich Home Appliance Repair Service and Installation</h1>
             <p>
               Having trouble finding a reliable technician for your De Dietrich kitchen appliances?
-              At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a>, we’ve been providing trusted and affordable services since 2010. Our extensive network of well-vetted, experienced professionals ensures that, whenever possible, you’re matched with a technician who specializes in your specific De Dietrich appliance.
+              At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been providing trusted and affordable services since 2010. Our extensive network of well-vetted, experienced professionals ensures that, whenever possible, you’re matched with a technician who specializes in your specific De Dietrich appliance.
               We’re dedicated to delivering prompt, expert service to keep your appliances running efficiently.
 
             </p>
@@ -150,7 +150,7 @@ const DeDietrichFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable De Dietrich Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we understand that appliance breakdowns, especially with De Dietrich products, never occur at a convenient time. That’s why our trained and qualified De Dietrich technicians are here to offer you reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your De Dietrich appliance up and running again before you have a chance to worry about it.
+                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with De Dietrich products, never occur at a convenient time. That’s why our trained and qualified De Dietrich technicians are here to offer you reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your De Dietrich appliance up and running again before you have a chance to worry about it.
                 </p>
               </div>
 

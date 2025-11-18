@@ -114,7 +114,7 @@ const LennoxAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
             <p>
               Are you in need of reliable and professional Lennox AC repair, service, or maintenance? Whether for routine maintenance or a new system, local Lennox AC experts are available to keep your home comfortable year-round.
               <br />Effective management of challenges such as elevated humidity, warm nights, and indoor allergens is essential for maintaining indoor comfort.
-              <br />Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been a trusted provider of Lennox air conditioning solutions in Dubai and Sharjah. Our experienced team offers a full range of services, including Lennnox AC repair, cleaning service, maintenance and installation for residential and commercial units, ensuring optimal efficiency and enhanced indoor comfort.
+              <br />Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been a trusted provider of Lennox air conditioning solutions in Dubai and Sharjah. Our experienced team offers a full range of services, including Lennnox AC repair, cleaning service, maintenance and installation for residential and commercial units, ensuring optimal efficiency and enhanced indoor comfort.
             </p>
 
             <div id="get-quote" className=" mt-3">

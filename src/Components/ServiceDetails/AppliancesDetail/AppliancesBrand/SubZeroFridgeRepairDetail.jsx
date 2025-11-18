@@ -125,7 +125,7 @@ const SubZeroFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
             <p>
               Sub Zero refrigerator are the best among the other brands out there. Still, products of the best brands do not last forever.
               You can fix minor issues, but mostly, you cannot. So why worry? We are the best Sub Zero fridge freezer repair service provider in Dubai. We are the most experienced industry experts serving since 2010 in Dubai. With hands-on experience with all Sub Zero refrigerator, you can expect successful and swift repairs from us.
-              <br />Sub Zero Fridge Repair in Dubai. So, contact us today to get your built-in fridge freezer repair appointment. Enjoy superior Sub Zero appliance repair with <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C.</a>
+              <br />Sub Zero Fridge Repair in Dubai. So, contact us today to get your built-in fridge freezer repair appointment. Enjoy superior Sub Zero appliance repair with <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C.</a>
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -152,7 +152,7 @@ const SubZeroFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "21px" }}>Fast and Reliable Sub Zero Appliances Service</h3>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we understand that appliance breakdowns, especially with Sub Zero products, never occur at a convenient time. That’s why our trained and qualified Sub Zero technicians are here to offer you reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Sub Zero appliance up and running again before you have a chance to worry about it.
+                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Sub Zero products, never occur at a convenient time. That’s why our trained and qualified Sub Zero technicians are here to offer you reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Sub Zero appliance up and running again before you have a chance to worry about it.
                 </p>
 
               </div>

@@ -120,7 +120,7 @@ const BekoFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
           <div className="container">
             <h1 className="cs_fs_30">Beko Home Appliance Repair Service and Installation</h1>
             <p>
-              Having trouble finding a local technician who specializes in Beko kitchen appliances? <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has offered dependable and cost-effective repair services since 2010. We work with a broad network of experienced, vetted professionals. We’ll dispatch a technician who knows your specific Beko appliance whenever available to ensure accurate, efficient service at your doorstep.
+              Having trouble finding a local technician who specializes in Beko kitchen appliances? <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has offered dependable and cost-effective repair services since 2010. We work with a broad network of experienced, vetted professionals. We’ll dispatch a technician who knows your specific Beko appliance whenever available to ensure accurate, efficient service at your doorstep.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -146,7 +146,7 @@ const BekoFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Beko Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we understand that appliance failures, especially with Beko products, never happen at a convenient time. That’s why our expert Beko technicians are committed to providing <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our expert support, you can avoid the expense of replacing your appliance and have it working again before it becomes a bigger issue.
+                  At FAJ Technical Services L.L.C, we understand that appliance failures, especially with Beko products, never happen at a convenient time. That’s why our expert Beko technicians are committed to providing <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our expert support, you can avoid the expense of replacing your appliance and have it working again before it becomes a bigger issue.
                 </p>
 
               </div>

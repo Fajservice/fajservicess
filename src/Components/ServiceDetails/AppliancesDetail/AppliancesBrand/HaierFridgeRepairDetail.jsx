@@ -122,7 +122,7 @@ const HaierFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                         <h1 className="cs_fs_30">Haier Home Appliance Repair Service and Installation</h1>
                         <p>
                             If you're looking for an experienced local technician for your Haier appliances, you've come to the right place.
-                            <br />Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has provided reliable and affordable repair services across Dubai and Sharjah. Our trusted network of professionals specializes in Haier appliance repair and understands the brand’s unique service requirements.
+                            <br />Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has provided reliable and affordable repair services across Dubai and Sharjah. Our trusted network of professionals specializes in Haier appliance repair and understands the brand’s unique service requirements.
                             We’re committed to connecting you with skilled technicians near you who can return your Haier appliances to peak performance. Your satisfaction is always our top priority.
                         </p>
 
@@ -149,7 +149,7 @@ const HaierFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
 
                                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Haier Appliances Service</h2>
                                 <p className="mb-2">
-                                    At F A J Technical Services L.L.C, we know that Haier appliance breakdowns often happen when you least expect them. That’s why our experienced Haier technicians are ready to provide reliable and timely repair services. With our support, you can avoid the expense of replacing your appliance and have it back up and running before it disrupts your routine.
+                                    At FAJ Technical Services L.L.C, we know that Haier appliance breakdowns often happen when you least expect them. That’s why our experienced Haier technicians are ready to provide reliable and timely repair services. With our support, you can avoid the expense of replacing your appliance and have it back up and running before it disrupts your routine.
                                 </p>
 
                             </div>

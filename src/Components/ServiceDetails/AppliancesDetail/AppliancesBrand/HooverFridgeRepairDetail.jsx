@@ -121,7 +121,7 @@ const HooverFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
           <div className="container">
             <h1 className="cs_fs_30">Hoover Home Appliance Repair Service and Installation</h1>
             <p>
-              Having trouble finding a reliable Hoover appliance technician for your kitchen appliances? At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a>, we’ve been providing trusted and affordable service since 2010. Our wide network of thoroughly vetted, experienced professionals allows us to send a technician who understands your specific Hoover appliance whenever possible.
+              Having trouble finding a reliable Hoover appliance technician for your kitchen appliances? At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been providing trusted and affordable service since 2010. Our wide network of thoroughly vetted, experienced professionals allows us to send a technician who understands your specific Hoover appliance whenever possible.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -147,7 +147,7 @@ const HooverFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Hoover Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we know that Hoover appliance breakdowns often happen when you least expect them. That’s why our skilled Hoover technicians are ready to provide dependable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. We help you avoid the expense of replacing your appliance by restoring it quickly, so you’re back to normal before the problem becomes a hassle.
+                  At FAJ Technical Services L.L.C, we know that Hoover appliance breakdowns often happen when you least expect them. That’s why our skilled Hoover technicians are ready to provide dependable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. We help you avoid the expense of replacing your appliance by restoring it quickly, so you’re back to normal before the problem becomes a hassle.
                 </p>
 
               </div>

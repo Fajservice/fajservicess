@@ -121,7 +121,7 @@ const GorenjeFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
             <h1 className="cs_fs_30">Gorenje  Home Appliance Repair Service and Installation</h1>
             <p>
               Having difficulty finding a local technician who specializes in Gorenje kitchen appliances?
-              <br />At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a>, we’ve been delivering trusted and cost-effective repair services since 2010. Our extensive network includes highly vetted, skilled, and experienced professionals. Whenever possible, we’ll assign a technician who is well-acquainted with your specific Gorenje appliance to ensure accurate and efficient service.
+              <br />At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been delivering trusted and cost-effective repair services since 2010. Our extensive network includes highly vetted, skilled, and experienced professionals. Whenever possible, we’ll assign a technician who is well-acquainted with your specific Gorenje appliance to ensure accurate and efficient service.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -147,7 +147,7 @@ const GorenjeFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Gorenje  Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we understand that appliance failures, particularly with Gorenje products, often happen when you least expect them. That’s why our skilled and expert Gorenje technicians are always ready to provide dependable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our expert assistance, you can avoid the expense of buying a replacement and have your Gorenje appliance back in working order before it becomes a bigger problem.
+                  At FAJ Technical Services L.L.C, we understand that appliance failures, particularly with Gorenje products, often happen when you least expect them. That’s why our skilled and expert Gorenje technicians are always ready to provide dependable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our expert assistance, you can avoid the expense of buying a replacement and have your Gorenje appliance back in working order before it becomes a bigger problem.
                 </p>
 
               </div>

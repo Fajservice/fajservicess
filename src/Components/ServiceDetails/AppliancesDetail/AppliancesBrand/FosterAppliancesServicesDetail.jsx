@@ -122,7 +122,7 @@ const FosterAppliancesServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
             <h1 className="cs_fs_30">Foster Home Appliance Repair Service and Installation</h1>
             <p>
               Struggling to find a reliable local technician for your Foster kitchen appliances?
-              Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been delivering trusted and cost-effective repair services. Our extensive network of skilled and carefully vetted professionals ensures that, whenever possible, we’ll send a technician who is experienced with your specific Foster appliance—providing you with accurate, efficient repairs you can count on.
+              Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been delivering trusted and cost-effective repair services. Our extensive network of skilled and carefully vetted professionals ensures that, whenever possible, we’ll send a technician who is experienced with your specific Foster appliance—providing you with accurate, efficient repairs you can count on.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -147,7 +147,7 @@ const FosterAppliancesServicesDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Foster Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we understand that appliance breakdowns, especially with Foster products, never occur at a convenient time. That’s why our trained and qualified Foster technicians are here to offer you reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Foster appliance up and running again before you have a chance to worry about it.
+                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Foster products, never occur at a convenient time. That’s why our trained and qualified Foster technicians are here to offer you reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Foster appliance up and running again before you have a chance to worry about it.
                 </p>
 
               </div>

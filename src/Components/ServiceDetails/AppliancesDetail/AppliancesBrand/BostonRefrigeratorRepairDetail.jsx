@@ -121,7 +121,7 @@ const BostonRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, 
             <h1 className="cs_fs_30">Boston Home Appliance Repair Service and Installation</h1>
             <p>
               Having trouble finding a local technician who specializes in Boston kitchen appliances?
-              <br />At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a>, we’ve been providing reliable and affordable services since 2010. Our broad network includes thoroughly vetted, qualified, and experienced professionals. Whenever possible, we’ll assign a technician who is familiar with your specific Boston appliance to ensure expert care and prompt service.
+              <br />At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been providing reliable and affordable services since 2010. Our broad network includes thoroughly vetted, qualified, and experienced professionals. Whenever possible, we’ll assign a technician who is familiar with your specific Boston appliance to ensure expert care and prompt service.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -149,7 +149,7 @@ const BostonRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Boston Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we know that appliance issues,especially with Boston products, often happen when you least expect them. That’s why our skilled and experienced Boston technicians are always ready to deliver trustworthy <a href="https://www.fajservices.ae/appliances-repair-service/">appliances repair</a> solutions. With our help, you can avoid spending money on a new appliance and get your current Boston unit functioning properly again without added stress.
+                  At FAJ Technical Services L.L.C, we know that appliance issues,especially with Boston products, often happen when you least expect them. That’s why our skilled and experienced Boston technicians are always ready to deliver trustworthy <a href="https://www.fajservices.ae/appliances-repair-service/">appliances repair</a> solutions. With our help, you can avoid spending money on a new appliance and get your current Boston unit functioning properly again without added stress.
                 </p>
 
               </div>

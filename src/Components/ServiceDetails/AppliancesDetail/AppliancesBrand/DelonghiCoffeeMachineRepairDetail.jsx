@@ -23,7 +23,7 @@ const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSe
   // For SEO
   const metatitle = String(titleSeo || "DeLonghi Coffee Machine Repair in Dubai | Maintenance Service");
   const metadescription = String(description || "Quick DeLonghi coffee machine repair in Dubai. Your trusted center for automatic coffee machine & espresso machine, descaling & cleaning services.");
-  const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Delonghi Coffee Machine Repair, Delonghi Coffee Machine Service, Delonghi Coffee Machine Maintenance");
   const metaURL = String(URL || "https://www.fajservices.ae/delonghi-coffee-machine-repair/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/img/delonghi-coffee-machine-repair.avif");
@@ -122,7 +122,7 @@ const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSe
             {/* 
           <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2> */}
             <p>
-              At De’Longhi, we take pride in offering services that meet the diverse needs of coffee lovers in Dubai, UAE. Since 2010, <a href="https://www.fajservices.ae/">F A J Technical Services L.L.C</a> has been providing a range of DeLonghi coffee machine repair and maintenance services, including cleaning and descaling.<br />Whether you enjoy single-origin coffees or premium ground blends, we are here to assist you. Whether you prefer brewing your coffee at the push of a button or mastering the art of coffee-making with a manual machine, we hope you enjoy many years of use from your De’Longhi coffee machine.
+              At De’Longhi, we take pride in offering services that meet the diverse needs of coffee lovers in Dubai, UAE. Since 2010, <a href="https://www.fajservices.ae/">FAJ Technical Services L.L.C</a> has been providing a range of DeLonghi coffee machine repair and maintenance services, including cleaning and descaling.<br />Whether you enjoy single-origin coffees or premium ground blends, we are here to assist you. Whether you prefer brewing your coffee at the push of a button or mastering the art of coffee-making with a manual machine, we hope you enjoy many years of use from your De’Longhi coffee machine.
 
             </p>
 

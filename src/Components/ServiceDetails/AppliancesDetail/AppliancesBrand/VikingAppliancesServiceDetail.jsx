@@ -123,7 +123,7 @@ const VikingAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
           <div className="container">
             <h1 className="cs_fs_30">Viking Home Appliance Repair Service and Installation</h1>
             <p>
-              Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been a trusted provider of Viking appliance repair and service in Dubai. We know appliance breakdowns can happen without warning, which is why we deliver dependable and cost-effective repair solutions.
+              Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been a trusted provider of Viking appliance repair and service in Dubai. We know appliance breakdowns can happen without warning, which is why we deliver dependable and cost-effective repair solutions.
               Our skilled technicians are available across Dubai and Sharjah, offering on-site Viking washing machine repairs and maintenance for your convenience.
             </p>
 
@@ -148,7 +148,7 @@ const VikingAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Viking Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we understand that Viking appliance breakdowns often happen at the worst times. That’s why our trained technicians are ready to deliver dependable Viking <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair service</a>. With our help, you can skip the high cost of a replacement and get your Viking appliance back in working condition quickly and affordably.
+                  At FAJ Technical Services L.L.C, we understand that Viking appliance breakdowns often happen at the worst times. That’s why our trained technicians are ready to deliver dependable Viking <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair service</a>. With our help, you can skip the high cost of a replacement and get your Viking appliance back in working condition quickly and affordably.
                 </p>
 
               </div>

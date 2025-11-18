@@ -8,7 +8,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Our Portfolio | Best Maintenance Services Company in Dubai");
   const metadescription = String(description || "We established in 2010, offers supply, installation, by FAJ online shop, spare parts for air conditioning and refrigeration appliances in Dubai.");
-  const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "FAJ Technical Service LLC Portfolio");
   const metaURL = String(URL || "https://www.fajservices.ae/our-portfolio/").replace(/\/?$/, '/');
 
@@ -41,7 +41,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Our Portfolio</h1>
-            <p>At F A J Technical Services L.L.C, we are dedicated to providing comprehensive technical services, including installation, maintenance, and MEP services that enhance operational efficiency and sustainability. Our commitment to innovation and customer satisfaction aligns with your needs.</p>
+            <p>At FAJ Technical Services L.L.C, we are dedicated to providing comprehensive technical services, including installation, maintenance, and MEP services that enhance operational efficiency and sustainability. Our commitment to innovation and customer satisfaction aligns with your needs.</p>
           </div>
         </section>
 
@@ -667,7 +667,7 @@ const PortfolioDetail = ({titleSeo , description, Author, Keyword, URL }) => {
                       </div>
                       <div className="col-lg-9 col-8">
                         <h3 className="portfolio-pjt-info-box-title">BAUMATIC MIDDLE EAST</h3>
-                        <p className="portfolio-pjt-info-box-para">F A J Technical Services L.L.C, Authorized Baumatic Kitchen Appliances Service Partner & Service Center in UAE. <br /><strong>(Since: 2016-2019)</strong></p>
+                        <p className="portfolio-pjt-info-box-para">FAJ Technical Services L.L.C, Authorized Baumatic Kitchen Appliances Service Partner & Service Center in UAE. <br /><strong>(Since: 2016-2019)</strong></p>
                       </div>
                     </div>
                   </div>

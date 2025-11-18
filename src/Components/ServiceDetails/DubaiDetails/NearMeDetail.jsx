@@ -849,11 +849,11 @@ Call" />
                   <div className="tab-pane bg-light-gray p-3 fade show active" role="tabpanel">
                     <p>
                       <strong>
-                        F A J Technical Services L.L.C – Trusted Home Appliance Repair Experts
+                        FAJ Technical Services L.L.C – Trusted Home Appliance Repair Experts
                       </strong>
                       <br />
 
-                      F A J Technical Services L.L.C is your reliable partner for home and commercial appliance repair in Dubai and Sharjah. We make sure your repair needs, maintenance, and service support are managed smoothly under one roof with expert care.
+                      FAJ Technical Services L.L.C is your reliable partner for home and commercial appliance repair in Dubai and Sharjah. We make sure your repair needs, maintenance, and service support are managed smoothly under one roof with expert care.
                       <br />
                       <strong>Professional Repairs for All Appliances</strong>
                       <br />

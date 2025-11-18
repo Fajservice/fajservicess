@@ -120,7 +120,7 @@ const MieleFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
           <div className="container">
             <h1 className="cs_fs_30">Miele Fridge Repair and Washing Machine Service in Dubai</h1>
             <p>
-              If you're looking for a qualified technician for your Miele appliances, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> is here to help. Since 2010, we’ve been offering reliable and affordable home appliance repair services. Our network includes skilled professionals with expertise in Miele appliance repair, serving customers across Dubai and Sharjah. We focus on customer satisfaction and provide fast, effective solutions to get your appliances working smoothly again.
+              If you're looking for a qualified technician for your Miele appliances, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> is here to help. Since 2010, we’ve been offering reliable and affordable home appliance repair services. Our network includes skilled professionals with expertise in Miele appliance repair, serving customers across Dubai and Sharjah. We focus on customer satisfaction and provide fast, effective solutions to get your appliances working smoothly again.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -147,7 +147,7 @@ const MieleFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Miele Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we understand that Miele appliances can break down at the worst possible times. That’s why our experienced technicians are always ready to provide dependable Miele <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair service</a>. With our support, you can avoid the high cost of a replacement and have your appliance running smoothly again, so you can move forward without the hassle. We’re committed to delivering fast, efficient, and long-lasting repair solutions to your doorstep.
+                  At FAJ Technical Services L.L.C, we understand that Miele appliances can break down at the worst possible times. That’s why our experienced technicians are always ready to provide dependable Miele <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair service</a>. With our support, you can avoid the high cost of a replacement and have your appliance running smoothly again, so you can move forward without the hassle. We’re committed to delivering fast, efficient, and long-lasting repair solutions to your doorstep.
                 </p>
 
               </div>

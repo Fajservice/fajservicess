@@ -123,7 +123,7 @@ const GeGeneralElectricFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
           <div className="container">
             <h1 className="cs_fs_30">GE General Fridge Repair and Washing Machine Service in Dubai</h1>
             <p>
-              Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been a trusted name for GE General appliance repair and maintenance across Dubai. We know appliance failures can happen without warning, which is why we deliver dependable and cost-effective repair solutions.
+              Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been a trusted name for GE General appliance repair and maintenance across Dubai. We know appliance failures can happen without warning, which is why we deliver dependable and cost-effective repair solutions.
               Our skilled technicians are on hand throughout Dubai and Sharjah to offer on-site GE General washing machine repairs and servicing.
             </p>
 
@@ -149,7 +149,7 @@ const GeGeneralElectricFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Ge General Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we understand how inconvenient it can be when your GE General appliance suddenly stops working. That’s why our expert technicians are committed to providing fast, dependable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a> you can count on. Avoid the high cost of replacement—let us restore your appliance to perfect working condition.
+                  At FAJ Technical Services L.L.C, we understand how inconvenient it can be when your GE General appliance suddenly stops working. That’s why our expert technicians are committed to providing fast, dependable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a> you can count on. Avoid the high cost of replacement—let us restore your appliance to perfect working condition.
                   One call is all it takes to get expert help right at your doorstep.
                 </p>
 

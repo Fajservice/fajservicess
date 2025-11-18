@@ -121,7 +121,7 @@ const BoschHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
           <div className="container">
             <h1 className="cs_fs_30">Bosch Home Appliance Repair Service and Installation</h1>
             <p>
-              If you're looking for a skilled local technician who specializes in Bosch appliances, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> is here to help.
+              If you're looking for a skilled local technician who specializes in Bosch appliances, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> is here to help.
               Since 2010, we've provided reliable and affordable solutions through a network of trusted, qualified professionals who understand the specific needs of Bosch appliance repair.
               <br />Our mission is to connect you with expert Bosch technicians in Dubai and Sharjah who are familiar with the full range of Bosch appliances. Your satisfaction is always our top priority.
             </p>
@@ -148,7 +148,7 @@ const BoschHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Bosch Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we know that Bosch appliance breakdowns often happen when you least expect them. That’s why our expert Bosch technicians are ready to provide dependable and timely <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair service</a>. With our expert support, you can avoid the cost of replacing your appliance and get your Bosch equipment running smoothly again, before it turns into a major issue.
+                  At FAJ Technical Services L.L.C, we know that Bosch appliance breakdowns often happen when you least expect them. That’s why our expert Bosch technicians are ready to provide dependable and timely <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair service</a>. With our expert support, you can avoid the cost of replacing your appliance and get your Bosch equipment running smoothly again, before it turns into a major issue.
                 </p>
 
               </div>

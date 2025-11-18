@@ -120,7 +120,7 @@ const FosterApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
                     <div className="container">
                         <h1 className="cs_fs_30">Foster Fridge Repair and Washing Machine Service in Dubai</h1>
                         <p>
-                            Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been a trusted name for Foster appliance repair and service in Dubai. We know that appliance breakdowns can happen without warning, which is why we provide prompt, reliable, and affordable repair solutions.
+                            Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been a trusted name for Foster appliance repair and service in Dubai. We know that appliance breakdowns can happen without warning, which is why we provide prompt, reliable, and affordable repair solutions.
                             Our skilled technicians are available across Dubai and Sharjah to deliver on-site Foster washing machine repair and service whenever you need it.
                         </p>
 
@@ -145,7 +145,7 @@ const FosterApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
 
                                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Foster Appliances Service</h2>
                                 <p className="mb-2">
-                                    At F A J Technical Services L.L.C, we understand that appliance breakdowns, especially with Foster products, never occur at a convenient time. That’s why our trained and qualified Foster technicians are here to offer you reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Foster appliance up and running again before you have a chance to worry about it.
+                                    At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Foster products, never occur at a convenient time. That’s why our trained and qualified Foster technicians are here to offer you reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Foster appliance up and running again before you have a chance to worry about it.
                                 </p>
 
                             </div>

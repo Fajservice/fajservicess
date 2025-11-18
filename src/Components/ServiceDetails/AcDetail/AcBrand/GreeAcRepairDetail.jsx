@@ -114,7 +114,7 @@ const GreeAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Best Gree AC Repair in Dubai – Air Conditioner Maintenance</h1>
-            <p>Our company, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"> F A J Technical Services L.L.C</a>, has been established since 2010. We have a dedicated facilities team with extensive experience in AC repair, maintenance services, and installation in Dubai and Sharjah for various residential and commercial air conditioning units.
+            <p>Our company, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"> FAJ Technical Services L.L.C</a>, has been established since 2010. We have a dedicated facilities team with extensive experience in AC repair, maintenance services, and installation in Dubai and Sharjah for various residential and commercial air conditioning units.
               A Gree air conditioner is more than just a cooling device; it&apos;s essential for maintaining a comfortable indoor environment throughout the year. To ensure your unit operates at its best, regular servicing is crucial. We offer professional Gree air conditioner servicing in Dubai to keep your system running smoothly and efficiently.
             </p>
 

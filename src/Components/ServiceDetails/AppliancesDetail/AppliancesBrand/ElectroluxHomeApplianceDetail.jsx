@@ -122,7 +122,7 @@ const ElectroluxHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
             <h1 className="cs_fs_30">Electrolux Home Appliance Repair Service and Installation</h1>
             <p>
               Having trouble finding a local technician who specializes in Electrolux kitchen appliances?
-              Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been providing reliable and cost-effective repair services. Our wide network of thoroughly vetted and experienced professionals ensures that, whenever possible, we’ll assign a technician with expertise in your specific Electrolux appliance.
+              Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been providing reliable and cost-effective repair services. Our wide network of thoroughly vetted and experienced professionals ensures that, whenever possible, we’ll assign a technician with expertise in your specific Electrolux appliance.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -148,7 +148,7 @@ const ElectroluxHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, d
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Electrolux Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we understand that Electrolux appliance breakdowns often happen at the worst possible time. That’s why our skilled Electrolux technicians are ready to provide dependable and efficient <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our support, you can avoid the high cost of replacement and have your Electrolux appliance working again before it becomes a major inconvenience.
+                  At FAJ Technical Services L.L.C, we understand that Electrolux appliance breakdowns often happen at the worst possible time. That’s why our skilled Electrolux technicians are ready to provide dependable and efficient <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our support, you can avoid the high cost of replacement and have your Electrolux appliance working again before it becomes a major inconvenience.
                 </p>
 
               </div>

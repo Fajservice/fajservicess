@@ -124,7 +124,7 @@ const LiebherrRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
               Liebherr refrigerators are the best among the other brands out there. Still, products of the best brands do not last forever.
               <br />
               You can fix minor issues, but mostly, you cannot. So why worry? We are the best Liebherr fridge freezer repair service provider in Dubai. We are the most experienced industry experts, serving since 2010 in Dubai. With hands-on experience with all Liebherr refrigerator, you can expect successful and swift repairs from us.
-              Liebherr Fridge Repair in Dubai. So, contact us today to get your built-in fridge freezer repair appointment. Enjoy superior Liebherr appliance repair with <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a>.
+              Liebherr Fridge Repair in Dubai. So, contact us today to get your built-in fridge freezer repair appointment. Enjoy superior Liebherr appliance repair with <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -151,7 +151,7 @@ const LiebherrRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
 
                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "21px" }}>Fast and Reliable Liebherr Appliances Service</h3>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we understand that appliance breakdowns, especially with Liebherr products, never occur at a convenient time. That’s why our trained and qualified Liebherr technicians are here to offer you reliable <a href="https://www.fajservices.ae/appliances-repair-service/" className="fw-bold">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Liebherr appliance up and running again before you have a chance to worry about it.
+                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Liebherr products, never occur at a convenient time. That’s why our trained and qualified Liebherr technicians are here to offer you reliable <a href="https://www.fajservices.ae/appliances-repair-service/" className="fw-bold">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Liebherr appliance up and running again before you have a chance to worry about it.
                 </p>
 
               </div>

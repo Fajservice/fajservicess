@@ -114,7 +114,7 @@ const MitsubishiAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description,
           <div className="container">
             <h1 className="cs_fs_30">Mitsubishi AC Repair in Dubai – AC Maintenance Service</h1>
             <p>
-              <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been a trusted provider in the community since 2010, specializing in Mitsubishi AC repair, maintenance, and installation for both residential and commercial properties in Dubai and Sharjah.
+              <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been a trusted provider in the community since 2010, specializing in Mitsubishi AC repair, maintenance, and installation for both residential and commercial properties in Dubai and Sharjah.
               <br />Mitsubishi air conditioners play a vital role in ensuring year-round indoor comfort. To reach optimal performance from your system, it is essential to conduct regular maintenance. In Dubai, professional cleaning services tailored for Mitsubishi units are available to help maintain efficiency and prolong the lifespan of your air conditioning system.
             </p>
 

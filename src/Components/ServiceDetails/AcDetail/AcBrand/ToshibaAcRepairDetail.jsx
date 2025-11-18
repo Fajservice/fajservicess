@@ -115,7 +115,7 @@ const ToshibaAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
             <h1 className="cs_fs_30">Toshiba AC Repair in Dubai and AC Maintenance Service</h1>
             <p>
               For year-round comfort, it is essential to effectively address challenges such as humidity, warm nights, and indoor allergens.
-              <br />Since our inception in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"> F A J Technical Services L.L.C</a> has established itself as a trusted leader in Toshiba air conditioning solutions in Dubai and Sharjah. Our highly skilled team is dedicated to providing exceptional services, including AC repair, cleaning service, maintenance, and installation for both residential and commercial settings. We are committed to enhancing the performance of your air conditioner system, ensuring that you enjoy exceptional indoor comfort throughout the year.
+              <br />Since our inception in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"> FAJ Technical Services L.L.C</a> has established itself as a trusted leader in Toshiba air conditioning solutions in Dubai and Sharjah. Our highly skilled team is dedicated to providing exceptional services, including AC repair, cleaning service, maintenance, and installation for both residential and commercial settings. We are committed to enhancing the performance of your air conditioner system, ensuring that you enjoy exceptional indoor comfort throughout the year.
 
             </p>
             <div id="get-quote" className=" mt-3">

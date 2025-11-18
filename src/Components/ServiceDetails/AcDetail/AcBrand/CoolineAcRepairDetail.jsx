@@ -113,7 +113,7 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <div className="container">
             <h1 className="cs_fs_30">Best Cooline AC Repair in Dubai – AC Maintenance Service</h1>
             <p>
-              Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been a leading provider of repair, maintenance, and installation services for Cooline air conditioning systems in Dubai and Sharjah, focusing on both residential and commercial properties.
+              Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been a leading provider of repair, maintenance, and installation services for Cooline air conditioning systems in Dubai and Sharjah, focusing on both residential and commercial properties.
               <br />Embracing regular Cooline AC maintenance is vital for unlocking their maximum potential and ensuring consistent comfort throughout the year. Our dedicated professional cleaning services in Dubai are crafted to elevate the efficiency and reliability of Cooline units, empowering our clients to enjoy optimal indoor environments and a higher quality of life.
 
             </p>

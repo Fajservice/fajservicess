@@ -113,7 +113,7 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
           <div className="container">
             <h1 className="cs_fs_30">Frigidaire Fridge Repair and Washing Machine Service in Dubai </h1>
             <p>
-              Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has provided reliable Frigidaire appliance repair and service in Dubai. We understand that appliances can break down unexpectedly, so we offer quality and affordable solutions.
+              Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has provided reliable Frigidaire appliance repair and service in Dubai. We understand that appliances can break down unexpectedly, so we offer quality and affordable solutions.
               <br />Our trained technicians are available throughout Dubai and Sharjah to provide Frigidaire washing machine repair and service at your location.
             </p>
 
@@ -138,7 +138,7 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
                 </p>
 
                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "21px" }}> Fast and Reliable Frigidaire Appliances Service </h3>
-                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a>, we understand that appliance breakdowns, especially with Frigidaire products, never occur at a convenient time. That’s why our trained and qualified Frigidaire technicians are here to offer you reliable appliance repair services. With our assistance, you can avoid the cost of purchasing a new appliance and get your Frigidaire appliance up and running again before you have a chance to worry about it.</p>
+                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services L.L.C</b></a>, we understand that appliance breakdowns, especially with Frigidaire products, never occur at a convenient time. That’s why our trained and qualified Frigidaire technicians are here to offer you reliable appliance repair services. With our assistance, you can avoid the cost of purchasing a new appliance and get your Frigidaire appliance up and running again before you have a chance to worry about it.</p>
               </div>
 
               <div className="col-md-6 ">

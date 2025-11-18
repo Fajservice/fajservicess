@@ -116,7 +116,7 @@ const GoodmanAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
             <h1 className="cs_fs_30">Expert Goodman AC Repair and Service in Dubai</h1>
             <p>
               Experience year-round comfort by eliminating sticky summer days, stuffy nights, and allergens with clean air.
-              <br />Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been providing reliable Goodman air conditioning solutions in Dubai and Sharjah.
+              <br />Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been providing reliable Goodman air conditioning solutions in Dubai and Sharjah.
               Our expert team specializes in Goodman AC repair, cleaning service, maintenance and installation of a wide range of residential and commercial AC units to ensure optimal performance and comfort.
 
             </p>

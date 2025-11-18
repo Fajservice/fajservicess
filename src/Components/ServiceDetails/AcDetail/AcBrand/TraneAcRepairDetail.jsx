@@ -114,7 +114,7 @@ const TraneAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
             <h1 className="cs_fs_30">Trane AC Repair in Dubai – Trane AC Maintenance Service</h1>
             <p>
               To maintain optimal comfort throughout the year, it is essential to address challenges such as elevated humidity levels, warm nights, and indoor allergens.
-              <br />Established in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> serves as a reputable provider of Trane air conditioning solutions in Dubai and Sharjah. Our team of experts specializes in Trane air conditioning repair, cleaning services, and maintenance, as well as installation for both residential and commercial units. We are committed to ensuring the efficient operation of your air conditioning system, which ultimately enhances indoor comfort.
+              <br />Established in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> serves as a reputable provider of Trane air conditioning solutions in Dubai and Sharjah. Our team of experts specializes in Trane air conditioning repair, cleaning services, and maintenance, as well as installation for both residential and commercial units. We are committed to ensuring the efficient operation of your air conditioning system, which ultimately enhances indoor comfort.
 
 
             </p>

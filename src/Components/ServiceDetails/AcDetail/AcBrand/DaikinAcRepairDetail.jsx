@@ -111,7 +111,7 @@ const DaikinAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Daikin AC Repair in Dubai and AC Maintenance Services</h1>
-            <p><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been serving the community since 2010. Our dedicated facilities team has extensive experience in the Daikin Air Conditioner repair, maintenance, and installation for both residential and commercial properties in Dubai and Sharjah.
+            <p><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been serving the community since 2010. Our dedicated facilities team has extensive experience in the Daikin Air Conditioner repair, maintenance, and installation for both residential and commercial properties in Dubai and Sharjah.
               <br />
               A Daikin air conditioner is essential for maintaining year-round indoor comfort. To ensure optimal performance, regular Daikin AC maintenance service is required in Dubai with professional Daikin AC cleaning services available to help keep your air conditioning running efficiently.
             </p>

@@ -121,7 +121,7 @@ const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
             <h1 className="cs_fs_28">White Westinghouse Fridge Repair and Washing Machine Service in Dubai</h1>
             <p>
               Having trouble finding a local technician who specializes in White Westinghouse kitchen appliances?
-              At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a>, we’ve been offering reliable and affordable appliance repair services since 2010. Our extensive network includes experienced and thoroughly vetted professionals, and whenever possible, we assign a technician who is specifically trained to handle your White Westinghouse appliance, ensuring accurate, efficient service every time.
+              At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been offering reliable and affordable appliance repair services since 2010. Our extensive network includes experienced and thoroughly vetted professionals, and whenever possible, we assign a technician who is specifically trained to handle your White Westinghouse appliance, ensuring accurate, efficient service every time.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -147,7 +147,7 @@ const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "16px" }}>Fast and Reliable White Westinghouse Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we understand that appliance breakdowns, especially with White Westinghouse products, never happen at a convenient time. That’s why our trained and qualified technicians are here to provide reliable White Westinghouse <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our expert support, you can avoid the high cost of replacement and have your appliance up and running again before it disrupts your routine.
+                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with White Westinghouse products, never happen at a convenient time. That’s why our trained and qualified technicians are here to provide reliable White Westinghouse <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our expert support, you can avoid the high cost of replacement and have your appliance up and running again before it disrupts your routine.
                 </p>
 
               </div>

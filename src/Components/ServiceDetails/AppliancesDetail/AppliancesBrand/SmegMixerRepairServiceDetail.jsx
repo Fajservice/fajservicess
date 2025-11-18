@@ -123,7 +123,7 @@ const SmegMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
             <h1 className="cs_fs_30">Smeg Stand Mixer Repair & Service in Dubai</h1>
 
             <p>
-              If your Smeg stand mixer is giving you trouble, rely on the specialists at <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> in Dubai. Since 2010, we’ve been delivering quick, dependable, and budget-friendly repair solutions explicitly designed for Smeg appliances. Our skilled technicians also handle repairs for coffee machines, blenders, and other kitchen appliances, using advanced diagnostic tools to ensure minimal disruption to your home or business in Dubai and Sharjah.
+              If your Smeg stand mixer is giving you trouble, rely on the specialists at <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> in Dubai. Since 2010, we’ve been delivering quick, dependable, and budget-friendly repair solutions explicitly designed for Smeg appliances. Our skilled technicians also handle repairs for coffee machines, blenders, and other kitchen appliances, using advanced diagnostic tools to ensure minimal disruption to your home or business in Dubai and Sharjah.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -148,7 +148,7 @@ const SmegMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Smeg  Appliance Service   </h3>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we understand that appliance breakdowns never occur at a convenient time. Our trained and qualified Smeg technicians are here to offer you dependable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our help, you can avoid the cost of replacing your stand mixer and get it up and running again before you have a chance to worry about it.
+                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns never occur at a convenient time. Our trained and qualified Smeg technicians are here to offer you dependable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our help, you can avoid the cost of replacing your stand mixer and get it up and running again before you have a chance to worry about it.
                 </p>
               </div>
 

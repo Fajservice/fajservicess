@@ -164,7 +164,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
           <div className="container">
             <h1 className="cs_fs_30">Small Home Appliances Service Center in Dubai</h1>
             <p>
-              Do you need small appliance repair? If you&apos;re looking for a reliable and trusted service, look no further than F A J Technical Services L.L.C, established in 2010.
+              Do you need small appliance repair? If you&apos;re looking for a reliable and trusted service, look no further than FAJ Technical Services L.L.C, established in 2010.
               We understand the inconvenience caused by a malfunctioning appliance, which is why we offer fast and professional small home appliance repair services in your area.
               <br />Our skilled technicians quickly diagnose and repair electrical appliances, getting them back to optimal performance in no time.
             </p>
@@ -198,7 +198,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>Fast and Reliable Appliances Service
                 </h2>
-                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
+                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services L.L.C</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
               </div>
 
               <div className="col-md-6 ">
@@ -584,7 +584,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12">
                 <ul>
                   <li><strong>Vacuum Cleaner Repair and Service: </strong>Is your vacuum cleaner not performing as it should? Our vacuum cleaner repair near me services can help! We fix vacuum cleaner all issues, including motor problems, faulty switches, and clogged hoses.</li>
-                  <li><strong>Hair Dryer Repair and Service: </strong>Welcome to F A J Technical Services L.L.C, your go-to for hair dryer repair and the best hair dryer service near you. We specialize in fixing issues and restoring your appliance. Contact us for reliable service today!</li>
+                  <li><strong>Hair Dryer Repair and Service: </strong>Welcome to FAJ Technical Services L.L.C, your go-to for hair dryer repair and the best hair dryer service near you. We specialize in fixing issues and restoring your appliance. Contact us for reliable service today!</li>
                   <li><strong>Coffee Maker Repair Me: </strong>Get reliable coffee maker repair near you in Dubai. We fix coffee machine leaks, power issues, and brewing faults for all major brands. Fast, affordable service by expert technicians.</li>
                   <li><strong>Juicer Blender Repair Near Me: </strong>Is your juicer noisy or not working properly? We offer affordable Juicer repair shop near me, juice kit repair and blender repair and services near you in Dubai. Our experts can fix juicer issues like jammed mechanisms and electrical glitches. Trust us to restore your appliances quickly!</li>
                   <li><strong>Steam Iron Box Repair Near Me: </strong>If your electric iron isn&rsquo;t working properly, we provide Steam iron repair shop near me, iron repair and iron services in Dubai. Our expertise includes fixing iron heating elements, thermostats, and faulty wiring, so you can enjoy wrinkle-free clothes again.</li>

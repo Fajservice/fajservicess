@@ -119,7 +119,7 @@ const LgFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
           <div className="container">
             <h1 className="cs_fs_30">LG Home Appliance Repair Service and Installation</h1>
             <p>
-              Having trouble finding a local LG appliance technician with expertise in LG kitchen appliances? At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a>, we’ve been providing reliable and affordable service since 2010. Our extensive network of skilled, thoroughly vetted professionals ensures that, whenever possible, we send a technician experienced with your specific LG appliance.
+              Having trouble finding a local LG appliance technician with expertise in LG kitchen appliances? At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been providing reliable and affordable service since 2010. Our extensive network of skilled, thoroughly vetted professionals ensures that, whenever possible, we send a technician experienced with your specific LG appliance.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -145,7 +145,7 @@ const LgFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable LG Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we understand that appliance breakdowns, especially with LG products, never occur at a convenient time. That’s why our trained and qualified LG technicians are here to offer you reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliances repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your LG appliance up and running again before you have a chance to worry about it.
+                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with LG products, never occur at a convenient time. That’s why our trained and qualified LG technicians are here to offer you reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliances repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your LG appliance up and running again before you have a chance to worry about it.
                 </p>
 
               </div>

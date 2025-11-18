@@ -121,7 +121,7 @@ const ToshibaHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo,
             <h1 className="cs_fs_30">Toshiba Home Appliance Repair Service and Installation</h1>
             <p>
               Having trouble finding a reliable local technician who specializes in Toshiba kitchen appliances?
-              At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a>, we’ve been delivering trusted and cost-effective appliance repair services since 2010. Our large network consists of carefully vetted, qualified, and experienced professionals. Whenever possible, we’ll dispatch a technician familiar with your specific Toshiba appliance to ensure accurate and efficient service.
+              At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been delivering trusted and cost-effective appliance repair services since 2010. Our large network consists of carefully vetted, qualified, and experienced professionals. Whenever possible, we’ll dispatch a technician familiar with your specific Toshiba appliance to ensure accurate and efficient service.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -148,7 +148,7 @@ const ToshibaHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo,
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Toshiba Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we know that appliance failures, especially with Toshiba products, tend to happen when it's least convenient. That’s why our skilled Toshiba technicians are always ready to provide dependable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our professional support, you can avoid the expense of replacing your appliance and have it operating smoothly again before it causes any major disruption.
+                  At FAJ Technical Services L.L.C, we know that appliance failures, especially with Toshiba products, tend to happen when it's least convenient. That’s why our skilled Toshiba technicians are always ready to provide dependable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our professional support, you can avoid the expense of replacing your appliance and have it operating smoothly again before it causes any major disruption.
                 </p>
 
               </div>

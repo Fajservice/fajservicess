@@ -123,7 +123,7 @@ const HotpointRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
             <h1 className="cs_fs_30">Hotpoint Home Appliance Repair Service and Installation</h1>
             <p>
               Looking for a reliable technician to handle your Hotpoint appliance repairs? You’ve come to the right place.
-              <br />Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been providing trusted and affordable repair services across Dubai and Sharjah. Our team consists of experienced professionals who understand the specific repair needs of Hotpoint appliances.
+              <br />Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been providing trusted and affordable repair services across Dubai and Sharjah. Our team consists of experienced professionals who understand the specific repair needs of Hotpoint appliances.
               We’re here to connect you with skilled local technicians who can quickly and efficiently restore your appliance’s performance. Your satisfaction remains our top priority.
             </p>
 
@@ -149,7 +149,7 @@ const HotpointRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Hotpoint Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we know that Hotpoint appliance failures often happen when you least expect them. That’s why our skilled technicians are ready to deliver dependable repair services whenever you need them. With our help, you can skip the expense of buying a new appliance and have your Hotpoint unit running smoothly again, before it disrupts your day.
+                  At FAJ Technical Services L.L.C, we know that Hotpoint appliance failures often happen when you least expect them. That’s why our skilled technicians are ready to deliver dependable repair services whenever you need them. With our help, you can skip the expense of buying a new appliance and have your Hotpoint unit running smoothly again, before it disrupts your day.
                 </p>
 
               </div>

@@ -116,7 +116,7 @@ const YorkAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Autho
             <p>
               Sustaining comfort throughout the year necessitates the effective management of various challenges, such as elevated humidity levels during the summer, warm nights, and the presence of indoor allergens.
               <br />
-              Since its inception in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has established itself as a reliable provider of York air conditioning solutions in the Dubai and Sharjah regions.
+              Since its inception in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has established itself as a reliable provider of York air conditioning solutions in the Dubai and Sharjah regions.
               <br /> Our skilled team is proficient in a comprehensive range of services, including York air conditioning cleaning, maintenance, repair, and installation for both residential and commercial units. We are committed to ensuring that your air conditioning system operates at optimal efficiency, thereby enhancing your indoor comfort.
             </p>
 

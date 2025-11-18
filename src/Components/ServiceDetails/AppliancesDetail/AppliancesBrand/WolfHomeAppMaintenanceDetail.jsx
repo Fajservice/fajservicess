@@ -122,7 +122,7 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
           <div className="container">
             <h1 className="cs_fs_30"> Wolf Cooking Appliance Repair & Service in Dubai </h1>
             <p>
-              If you're experiencing issues with your Wolf cooking appliances, such as ranges, built-in ovens, or cooktops, finding a reliable repair service is crucial. <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> in Dubai specializes in prompt, efficient, and cost-effective repairs tailored specifically for Wolf appliances.
+              If you're experiencing issues with your Wolf cooking appliances, such as ranges, built-in ovens, or cooktops, finding a reliable repair service is crucial. <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> in Dubai specializes in prompt, efficient, and cost-effective repairs tailored specifically for Wolf appliances.
               <br />
               With over a decade of experience since 2010, our skilled team employs advanced tools and techniques to diagnose and resolve issues across all Wolf models.
             </p>
@@ -147,7 +147,7 @@ const WolfHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                   Wolf ranges are essential kitchen appliances that many depend on for their daily cooking needs. When they malfunction, it can throw off your entire routine. That’s why it’s important to find a Wolf range repair and service specialist near you, whether you're in Dubai or Sharjah, for fast and reliable support.</p>
 
                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Wolf Appliances Service</h3>
-                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a>, we recognize that appliance malfunctions, particularly with Wolf products, can arise unexpectedly and disrupt your daily routine. That’s why our trained and qualified Wolf technicians are dedicated to providing you with dependable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our expertise, you can save on the expense of buying a new appliance and have your Wolf appliance functioning flawlessly again in no time, allowing you to focus on what truly matters.</p>
+                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services L.L.C</b></a>, we recognize that appliance malfunctions, particularly with Wolf products, can arise unexpectedly and disrupt your daily routine. That’s why our trained and qualified Wolf technicians are dedicated to providing you with dependable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our expertise, you can save on the expense of buying a new appliance and have your Wolf appliance functioning flawlessly again in no time, allowing you to focus on what truly matters.</p>
               </div>
 
               <div className="col-md-6 ">

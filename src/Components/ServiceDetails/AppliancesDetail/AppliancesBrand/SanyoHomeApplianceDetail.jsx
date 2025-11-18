@@ -120,7 +120,7 @@ const SanyoHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
             <h1 className="cs_fs_30">Sanyo Home Appliance Repair Service and Installation</h1>
             <p>
               Looking for a reliable local technician for your Sanyo appliances? You’re in the right place.
-              <br />Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has provided trusted and affordable appliance repair services across Dubai and Sharjah. Our professionals specialize in Sanyo appliances and understand their unique repair needs. We’re committed to connecting you with skilled technicians near you who can restore your appliances quickly and efficiently. Your satisfaction is always our highest priority.
+              <br />Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has provided trusted and affordable appliance repair services across Dubai and Sharjah. Our professionals specialize in Sanyo appliances and understand their unique repair needs. We’re committed to connecting you with skilled technicians near you who can restore your appliances quickly and efficiently. Your satisfaction is always our highest priority.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -145,7 +145,7 @@ const SanyoHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Sanyo Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we understand that Sanyo appliance breakdowns often happen at the worst possible time. That’s why our skilled technicians are ready to deliver dependable appliances repair services when you need them most. With our expert support, you can avoid the expense of buying a new appliance and get your Sanyo unit back to working condition quickly and stress-free.
+                  At FAJ Technical Services L.L.C, we understand that Sanyo appliance breakdowns often happen at the worst possible time. That’s why our skilled technicians are ready to deliver dependable appliances repair services when you need them most. With our expert support, you can avoid the expense of buying a new appliance and get your Sanyo unit back to working condition quickly and stress-free.
                 </p>
               </div>
 

@@ -122,7 +122,7 @@ const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                         <h1 className="cs_fs_30">Brandt Home Appliance Repair Service and Installation</h1>
                         <p>
                             Struggling to find a local technician with expertise in Brandt kitchen appliances?
-                            <br /> At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a>, we’ve been offering trusted and cost-effective repair solutions since 2010. Our extensive network includes thoroughly vetted, skilled, and experienced professionals. Whenever possible, we’ll assign a technician who understands your specific Brandt appliance to ensure prompt and accurate service.
+                            <br /> At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been offering trusted and cost-effective repair solutions since 2010. Our extensive network includes thoroughly vetted, skilled, and experienced professionals. Whenever possible, we’ll assign a technician who understands your specific Brandt appliance to ensure prompt and accurate service.
                         </p>
 
                         <div id="get-quote" className=" mt-3">
@@ -149,7 +149,7 @@ const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Brandt Appliances Service</h2>
                                 <p className="mb-2">
-                                    At F A J Technical Services L.L.C, we know that Brandt appliance failures often happen when you least expect them. That’s why our team of qualified and experienced Brandt technicians is always prepared to provide reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliances repair services</a>. With our help, you can avoid the high cost of replacement and get your Brandt appliance functioning properly again before it causes any further trouble.
+                                    At FAJ Technical Services L.L.C, we know that Brandt appliance failures often happen when you least expect them. That’s why our team of qualified and experienced Brandt technicians is always prepared to provide reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliances repair services</a>. With our help, you can avoid the high cost of replacement and get your Brandt appliance functioning properly again before it causes any further trouble.
                                 </p>
 
                             </div>

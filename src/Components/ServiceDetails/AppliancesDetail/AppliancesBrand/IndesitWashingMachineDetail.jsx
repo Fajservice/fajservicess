@@ -119,7 +119,7 @@ const IndesitWashingMachineDetail = ({ subtitle, title, reviewsbg, titleSeo, des
           <div className="container">
             <h1 className="cs_fs_30">Indesit Fridge Repair and Washing Machine Service in Dubai</h1>
             <p>
-              Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has provided reliable Indesit appliance repair and service in Dubai. We understand that appliances can break down unexpectedly, so we offer quality and affordable solutions.
+              Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has provided reliable Indesit appliance repair and service in Dubai. We understand that appliances can break down unexpectedly, so we offer quality and affordable solutions.
               <br />Our trained technicians are available throughout Dubai and Sharjah to provide Indesit washing machine repair and service at your location.
             </p>
 
@@ -144,7 +144,7 @@ const IndesitWashingMachineDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                 </p>
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Indesit Appliances Service</h2>
-                <p className="mb-2"> At F A J Technical Services L.L.C, we understand that appliance breakdowns, especially with Indesit products, never occur at a convenient time. That’s why our trained and qualified Indesit technicians are here to offer you reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Indesit appliance up and running again before you have a chance to worry about it.</p>
+                <p className="mb-2"> At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Indesit products, never occur at a convenient time. That’s why our trained and qualified Indesit technicians are here to offer you reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Indesit appliance up and running again before you have a chance to worry about it.</p>
 
               </div>
 

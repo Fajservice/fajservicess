@@ -150,7 +150,7 @@ const PanasonicFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                     <div className="container">
                         <h1 className="cs_fs_30">Panasonic Fridge Repair and Washing Machine Service in Dubai</h1>
                         <p>
-                            If you're looking for a skilled technician to repair your Panasonic appliances, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> is here to help. Since 2010, we’ve been offering reliable and affordable home appliance repair services. Our team includes experienced professionals specializing in Panasonic appliance repair and available across Dubai and Sharjah. We focus on fast, efficient service and customer satisfaction, ensuring your appliances are back in working order without hassle.
+                            If you're looking for a skilled technician to repair your Panasonic appliances, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> is here to help. Since 2010, we’ve been offering reliable and affordable home appliance repair services. Our team includes experienced professionals specializing in Panasonic appliance repair and available across Dubai and Sharjah. We focus on fast, efficient service and customer satisfaction, ensuring your appliances are back in working order without hassle.
                         </p>
 
                         <div id="get-quote" className=" mt-3">
@@ -177,7 +177,7 @@ const PanasonicFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
 
                                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Panasonic Appliances Service</h2>
                                 <p className="mb-2">
-                                    At F A J Technical Services L.L.C, we understand that Panasonic appliance breakdowns often occur when you least expect them. That’s why our skilled Panasonic technicians are ready to deliver reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair service</a> when you need it most. With our prompt support, you can avoid the cost of replacing your appliance and have it running smoothly again in no time, so you can focus on what matters without the stress.
+                                    At FAJ Technical Services L.L.C, we understand that Panasonic appliance breakdowns often occur when you least expect them. That’s why our skilled Panasonic technicians are ready to deliver reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair service</a> when you need it most. With our prompt support, you can avoid the cost of replacing your appliance and have it running smoothly again in no time, so you can focus on what matters without the stress.
                                 </p>
 
                             </div>

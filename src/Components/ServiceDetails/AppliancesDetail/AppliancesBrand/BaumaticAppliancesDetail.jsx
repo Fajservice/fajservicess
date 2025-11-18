@@ -123,7 +123,7 @@ const BaumaticAppliancesDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                         <h1 className="cs_fs_30">Baumatic Home Appliance Repair Service and Installation</h1>
                         <p>
                             If you're looking for a skilled local technician who specializes in Baumatic appliances, you've found the right place.
-                            <br />Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been offering dependable and cost-effective solutions. We connect you with a network of qualified experts dedicated to addressing your Baumatic appliance repair needs and nearby services. Our main aim is to help you find a knowledgeable Baumatic technician in Dubai and Sharjah who understands how these appliances work. Your satisfaction is our foremost concern!
+                            <br />Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been offering dependable and cost-effective solutions. We connect you with a network of qualified experts dedicated to addressing your Baumatic appliance repair needs and nearby services. Our main aim is to help you find a knowledgeable Baumatic technician in Dubai and Sharjah who understands how these appliances work. Your satisfaction is our foremost concern!
 
                         </p>
 
@@ -150,7 +150,7 @@ const BaumaticAppliancesDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
 
                                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Baumatic Appliances Service</h2>
                                 <p className="mb-2">
-                                    F A J Technical Services L.L.C recognizes appliance breakdowns can be unexpected and disruptive, particularly with Baumatic products. Our team of trained and qualified Baumatic technicians is dedicated to providing reliable repair services to address your needs promptly. By choosing our services, you can save on the expense of buying a new appliance and restore your Baumatic appliance to optimal working condition swiftly and efficiently.
+                                    FAJ Technical Services L.L.C recognizes appliance breakdowns can be unexpected and disruptive, particularly with Baumatic products. Our team of trained and qualified Baumatic technicians is dedicated to providing reliable repair services to address your needs promptly. By choosing our services, you can save on the expense of buying a new appliance and restore your Baumatic appliance to optimal working condition swiftly and efficiently.
                                 </p>
 
                             </div>

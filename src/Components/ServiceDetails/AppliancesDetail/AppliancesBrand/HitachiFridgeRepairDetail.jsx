@@ -122,7 +122,7 @@ const HitachiFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
           <div className="container">
             <h1 className="cs_fs_30">Hitachi Home Appliance Repair Service and Installation</h1>
             <p>
-              Having trouble locating a reliable Hitachi appliance technician for your kitchen appliances? <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been offering trusted, affordable service since 2010. Our extensive network of qualified and experienced professionals ensures we send a technician who knows your specific Hitachi appliance whenever possible.
+              Having trouble locating a reliable Hitachi appliance technician for your kitchen appliances? <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been offering trusted, affordable service since 2010. Our extensive network of qualified and experienced professionals ensures we send a technician who knows your specific Hitachi appliance whenever possible.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -149,7 +149,7 @@ const HitachiFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Hitachi Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we understand that appliance breakdowns, especially with Hitachi products, never occur at a convenient time. That’s why our trained and qualified Hitachi technicians are here to offer you reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Hitachi appliance up and running again before you have a chance to worry about it.
+                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Hitachi products, never occur at a convenient time. That’s why our trained and qualified Hitachi technicians are here to offer you reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Hitachi appliance up and running again before you have a chance to worry about it.
                 </p>
 
               </div>

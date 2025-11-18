@@ -114,7 +114,7 @@ const WhirpoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
             <h1 className="cs_fs_30">Whirlpool Air Conditioner Repair and Services in Dubai</h1>
             <p>
               Ensuring year-round comfort requires effective management of challenges such as summer humidity, warm nights, and indoor allergens.
-              <br />Since its founding in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been a trusted provider of Whirlpool air conditioner solutions in Dubai and Sharjah. Our skilled team offers a range of Whirlpool AC repair, cleaning services, maintenance, and installation for both residential and commercial units. We are committed to optimising the performance of your air conditioning system to enhance indoor comfort.
+              <br />Since its founding in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been a trusted provider of Whirlpool air conditioner solutions in Dubai and Sharjah. Our skilled team offers a range of Whirlpool AC repair, cleaning services, maintenance, and installation for both residential and commercial units. We are committed to optimising the performance of your air conditioning system to enhance indoor comfort.
             </p>
 
             <div id="get-quote" className=" mt-3">

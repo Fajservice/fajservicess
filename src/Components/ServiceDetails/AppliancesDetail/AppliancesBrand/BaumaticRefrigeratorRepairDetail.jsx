@@ -122,7 +122,7 @@ const BaumaticRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
             <h1 className="cs_fs_30">Baumatic Home Appliance Repair Service and Installation</h1>
             <p>
               Having trouble finding a local Baumatic appliance technician who understands Baumatic kitchen appliances?
-              At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a>, we’ve been delivering reliable and affordable services since 2010. Our wide network includes well-vetted, skilled, and experienced professionals. Whenever possible, we’ll assign a technician who knows your specific Baumatic appliance.
+              At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been delivering reliable and affordable services since 2010. Our wide network includes well-vetted, skilled, and experienced professionals. Whenever possible, we’ll assign a technician who knows your specific Baumatic appliance.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -148,7 +148,7 @@ const BaumaticRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Baumatic Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we understand that <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair</a> is often needed when you least expect it, especially with Baumatic products. That’s why our experienced Baumatic technicians are here to deliver reliable appliance repair services. With our support, you can avoid the cost of replacing your unit and get your Baumatic appliance back to proper working condition quickly.
+                  At FAJ Technical Services L.L.C, we understand that <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair</a> is often needed when you least expect it, especially with Baumatic products. That’s why our experienced Baumatic technicians are here to deliver reliable appliance repair services. With our support, you can avoid the cost of replacing your unit and get your Baumatic appliance back to proper working condition quickly.
                 </p>
 
               </div>

@@ -115,7 +115,7 @@ const WestpointAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Westpoint AC Repair and Maintenance Service in Dubai</h1>
-            <p>To achieve year-round comfort, it is imperative to effectively confront challenges such as summer humidity, warm nights, and indoor allergens head-on.<br />Since our founding in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has established itself as the leading provider of Westpoint air conditioning solutions in Dubai and Sharjah.<br />Our skilled team delivers comprehensive services, including AC repair, cleaning services, maintenance, and installation for both residential and commercial units. We are committed to maximizing your air conditioning system&rsquo;s performance, ensuring that your indoor comfort is always at its best.</p>
+            <p>To achieve year-round comfort, it is imperative to effectively confront challenges such as summer humidity, warm nights, and indoor allergens head-on.<br />Since our founding in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has established itself as the leading provider of Westpoint air conditioning solutions in Dubai and Sharjah.<br />Our skilled team delivers comprehensive services, including AC repair, cleaning services, maintenance, and installation for both residential and commercial units. We are committed to maximizing your air conditioning system&rsquo;s performance, ensuring that your indoor comfort is always at its best.</p>
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
                 <WhatsappIconButton />
@@ -393,7 +393,7 @@ const WestpointAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, 
             </div>
           </div>
         </section>
-        {/*Why Choose F A J Technical Services L.L.C? */}
+        {/*Why Choose FAJ Technical Services L.L.C? */}
         <ACWhyChooseUs />
         {/* We specialise  */}
         <section className="section cs_py_30 bg-light-gray ">

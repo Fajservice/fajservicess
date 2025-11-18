@@ -122,7 +122,7 @@ const CandyRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, d
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Candy Home Appliance Repair Service and Installation</h1>
-            <p>Having trouble finding a reliable technician for your Candy kitchen appliances? At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a>, we’ve been providing trusted and affordable services since 2010. Our wide network of experienced, well-vetted professionals ensures that, whenever possible, you're matched with a technician who specializes in your specific Candy appliance. We’re committed to delivering fast, effective repairs to keep your appliances running smoothly.
+            <p>Having trouble finding a reliable technician for your Candy kitchen appliances? At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been providing trusted and affordable services since 2010. Our wide network of experienced, well-vetted professionals ensures that, whenever possible, you're matched with a technician who specializes in your specific Candy appliance. We’re committed to delivering fast, effective repairs to keep your appliances running smoothly.
 
             </p>
 
@@ -142,7 +142,7 @@ const CandyRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, d
               <div className="col-md-6">
                 <h2 className="cs_fs_20 mb-1">Candy Washing Machine Repair Near You</h2>
                 <p className="mb-2">
-                  Need reliable repair services for your Candy appliances? F A J Technical Services L.L.C is here to help!
+                  Need reliable repair services for your Candy appliances? FAJ Technical Services L.L.C is here to help!
                   We offer fast and affordable solutions for all types of Candy appliance issues. Whether it’s a built-in washing machine that won’t drain, a fridge not cooling, an oven not heating, or a dishwasher that won’t start, our expert team in Dubai and Sharjah is ready to assist.
                   As a trusted local service provider, we respond quickly to get your appliances back in perfect working condition.
 
@@ -150,7 +150,7 @@ const CandyRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, d
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Candy Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we understand that appliance breakdowns, especially with Candy products, never happen at a convenient time. That’s why our trained and experienced Candy technicians are ready to provide dependable Candy <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our expert support, you can avoid the expense of replacing your appliance and have it running smoothly again before it causes any major disruption.
+                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Candy products, never happen at a convenient time. That’s why our trained and experienced Candy technicians are ready to provide dependable Candy <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our expert support, you can avoid the expense of replacing your appliance and have it running smoothly again before it causes any major disruption.
 
                 </p>
 

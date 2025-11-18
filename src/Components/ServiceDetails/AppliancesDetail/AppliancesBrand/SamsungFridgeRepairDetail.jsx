@@ -120,7 +120,7 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
           <div className="container">
             <h1 className="cs_fs_30">Samsung Home Appliance Repair Service and Installation</h1>
             {/* <h2>Professional Samsung Home Appliances Service and Repair</h2> */}
-            <p>If you&apos;re searching for a knowledgeable local technician specializing in Samsung appliances, you’ve come to the right place. <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a> has been delivering dependable and cost-effective solutions since 2010. We offer a network of qualified and trusted professionals who are dedicated to understanding the unique requirements of Samsung appliance repair and near-me service.
+            <p>If you&apos;re searching for a knowledgeable local technician specializing in Samsung appliances, you’ve come to the right place. <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services L.L.C</b></a> has been delivering dependable and cost-effective solutions since 2010. We offer a network of qualified and trusted professionals who are dedicated to understanding the unique requirements of Samsung appliance repair and near-me service.
               <br />
               Our primary goal is to connect you with a skilled Samsung technician in Dubai and Sharjah who is well-versed in the workings of Samsung appliances. Your satisfaction is our top priority! </p>
 
@@ -148,7 +148,7 @@ const SamsungFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                 <h3 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Samsung Appliances Service
                 </h3>
                 <p className="mb-0">
-                  At F A J Technical Services L.L.C, we understand that appliance breakdowns, especially with Samsung products, never occur at a convenient time. That’s why our trained and qualified Samsung technicians are here to offer you reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Samsung appliance up and running again before you have a chance to worry about it.
+                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Samsung products, never occur at a convenient time. That’s why our trained and qualified Samsung technicians are here to offer you reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Samsung appliance up and running again before you have a chance to worry about it.
                 </p>
               </div>
 

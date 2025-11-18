@@ -164,7 +164,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Washing Machine Repair Service in Dubai</h1>
-            <p>Since 2010, F A J Technical Services L.L.C has offered reliable installation, maintenance, and repair for all brands of washing machines, dryers, and laundry systems in Dubai and Sharjah.<br />Our experts are here to assist with any issues, from top-loading and front-loading washing machine repair and service near you. You can trust us to keep your washing machine running smoothly.<br /> You can rely on us for both routine repairs and emergency washing machine service. Contact us now for reliable services at competitive prices!</p>
+            <p>Since 2010, FAJ Technical Services L.L.C has offered reliable installation, maintenance, and repair for all brands of washing machines, dryers, and laundry systems in Dubai and Sharjah.<br />Our experts are here to assist with any issues, from top-loading and front-loading washing machine repair and service near you. You can trust us to keep your washing machine running smoothly.<br /> You can rely on us for both routine repairs and emergency washing machine service. Contact us now for reliable services at competitive prices!</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -195,7 +195,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>Fast and Reliable Appliances Service
                 </h2>
-                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>F A J Technical Services L.L.C</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
+                <p className="mb-2">At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"><b>FAJ Technical Services L.L.C</b></a>, we understand that appliance breakdowns never happen at a convenient time. That’s why our trained and qualified technicians are here to provide you with reliable appliance repair services. With our help, you can avoid the expense of purchasing a new appliance and get your appliance up and running again before you even have a chance to stress about it.</p>
               </div>
 
               <div className="col-md-6 ">

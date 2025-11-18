@@ -113,7 +113,7 @@ const BlueStarAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <div className="container">
             <h1 className="cs_fs_30">Blue Star AC Repair and Maintenance Service in Dubai</h1>
             <p>Achieving year-round comfort involves effectively addressing challenges like summer humidity, warm nights, and indoor allergens.
-              <br />Since its inception in 2010,   <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"> F A J Technical Services L.L.C</a>, has been a reliable provider of Blue Star air conditioner solutions in Dubai and Sharjah.
+              <br />Since its inception in 2010,   <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876"> FAJ Technical Services L.L.C</a>, has been a reliable provider of Blue Star air conditioner solutions in Dubai and Sharjah.
               <br />Our experienced team delivers a variety of services, including Blue Star AC repair, cleaning, maintenance, and installation, for both residential and commercial units. We are dedicated to maximizing the efficiency of your air conditioning system to improve indoor comfort.
             </p>
 

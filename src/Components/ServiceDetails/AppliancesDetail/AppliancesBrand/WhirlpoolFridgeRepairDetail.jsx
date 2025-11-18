@@ -124,7 +124,7 @@ const WhirlpoolFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
           <div className="container">
             <h1 className="cs_fs_30">Whirlpool Home Appliance Repair Service and Installation</h1>
             <p>
-              Having trouble finding a local Whirlpool appliance technician who understands Whirlpool kitchen appliances? At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a>, we’ve been delivering trusted and affordable appliance repair services since 2010. Our wide network of skilled and experienced professionals ensures that, whenever possible, we send a technician who knows your specific Whirlpool appliance inside and out.
+              Having trouble finding a local Whirlpool appliance technician who understands Whirlpool kitchen appliances? At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been delivering trusted and affordable appliance repair services since 2010. Our wide network of skilled and experienced professionals ensures that, whenever possible, we send a technician who knows your specific Whirlpool appliance inside and out.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -151,7 +151,7 @@ const WhirlpoolFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Whirlpool Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we know that Whirlpool appliance breakdowns often happen when you least expect them. That’s why our skilled Whirlpool technicians are ready to provide reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a> whenever you need them. With our support, you can avoid the expense of buying a new appliance and have your Whirlpool product running smoothly again in no time.
+                  At FAJ Technical Services L.L.C, we know that Whirlpool appliance breakdowns often happen when you least expect them. That’s why our skilled Whirlpool technicians are ready to provide reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a> whenever you need them. With our support, you can avoid the expense of buying a new appliance and have your Whirlpool product running smoothly again in no time.
                 </p>
 
               </div>

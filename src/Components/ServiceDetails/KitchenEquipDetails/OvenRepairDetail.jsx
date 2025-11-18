@@ -21,7 +21,7 @@ const OvenRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, A
   // For SEO
   const metatitle = String(titleSeo || "Oven Repair in Dubai | Restaurant Oven Maintenance Services");
   const metadescription = String(description || "Commercial oven repair in Dubai? FAJ expert deck oven, convection, combi ovens, gas & electric pizza ovens maintenance AMC service near me");
-  const metaAuthor = String(Author || "F A J Technical Services L.L.C.");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Rational Oven Repair Service, Combi Oven Repair Service, Commercial Oven Repair Service");
   const metaURL = String(URL || "https://www.fajservices.ae/oven-repair/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/img/Camercial-Kitchen-Equipment.avif");
@@ -157,7 +157,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
           <div className="container">
             <h1 className="cs_fs_30">Commercial Oven Repair and Maintenance Services</h1>
             <p>
-              Looking for affordable oven repair? At F A J Technical Services L.L.C, we've been serving Dubai since 2010, offering trustworthy repair solutions.
+              Looking for affordable oven repair? At FAJ Technical Services L.L.C, we've been serving Dubai since 2010, offering trustworthy repair solutions.
               Our skilled technicians can handle various oven issues, including electric, gas range, and electric ovens.
               <br />We provide prompt and cost-effective service tailored to your needs, ensuring reliable repairs right at your door.
 
@@ -193,7 +193,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Camercial-Kitchen-Equipment.avif`} alt="Oven Repair" loading="lazy" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/rational oven repair.avif`} alt="Oven Repair" loading="lazy" />
               </div>
             </div>
             <h3 className="cs_fs_24 mb-1 border-small-top pt-3">Planned Preventive Maintenance (PPM) Services</h3>
@@ -609,9 +609,60 @@ const [isModalOpen, setIsModalOpen] = useState(false);
             </div>
           </div>
         </section>
-  
         {/* Maintenance Contract */}
         <MaintenanceContract />
+        {/* Gallery */}
+        <section className="section cs_py_30 gallery-section bg-light-gray">
+          <div class="container">
+            <h3 class="mb-4 text-center">Gallery</h3>
+              <div class="row g-4">
+      
+                <div class="col-lg-4 col-md-6">
+                  <img
+                    src="/img/oven-gallery/oven repair service.avif"
+                    class="img-fluid rounded shadow mb-4"
+                    alt="Oven Repair Service Dubai"
+                  />
+
+                  <img
+                    src="/img/oven-gallery/rational oven repairs.avif"
+                    class="img-fluid rounded shadow"
+                    alt="Oven Repair Service Dubai"
+                  />
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <img
+                    src="/img/oven-gallery/rational oven service.avif"
+                    class="img-fluid rounded shadow mb-4"
+                    alt="Rational Oven Service"
+                  />
+
+                  <img
+                    src="/img/oven-gallery/oven repair.avif"
+                    class="img-fluid rounded shadow"
+                    alt="Oven Repair"
+                  />
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <img
+                    src="/img/oven-gallery/over repair maintenance.avif"
+                    class="img-fluid rounded shadow mb-4"
+                    alt="Oven Repair Maintenance"
+                  />
+
+                  <img
+                    src="/img/oven-gallery/rational oven repair.avif"
+                    class="img-fluid rounded shadow"
+                    alt="Rational Oven Repair"
+                  />
+                </div>
+              </div>
+          </div>
+        </section>
+        {/* Gallery */}
+        
         {/* testimobial section */}
         <Testimonial1
           subtitle="What Our Clients Say"

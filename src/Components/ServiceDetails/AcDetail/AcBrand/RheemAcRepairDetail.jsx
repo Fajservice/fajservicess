@@ -111,7 +111,7 @@ const RheemAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Auth
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Best Rheem AC Maintenance in Dubai – AC Repair Service</h1>
-            <p>Our company, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been serving the community since 2010. Our dedicated facilities team has extensive experience in Rheem AC repair, maintenance, and installation services for both residential and commercial air conditioning units in Dubai and Sharjah.
+            <p>Our company, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been serving the community since 2010. Our dedicated facilities team has extensive experience in Rheem AC repair, maintenance, and installation services for both residential and commercial air conditioning units in Dubai and Sharjah.
               <br />
               A Rheem air conditioner is essential for maintaining year-round indoor comfort. To ensure optimal performance, regular Rheem AC maintenance is important. In Dubai, professional cleaning services for Rheem units are available to keep your system running efficiently.
             </p>

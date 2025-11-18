@@ -122,7 +122,7 @@ const FagorFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
             <h1 className="cs_fs_30">Fagor Home Appliance Repair Service and Installation</h1>
             <p>
               Having trouble finding a local technician who specializes in Fagor kitchen appliances?
-              At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a>, we've been providing reliable and affordable repair services since 2010. Our extensive network of thoroughly vetted and experienced professionals ensures that, whenever possible, we’ll assign a technician with expertise in your specific Fagor appliance for efficient and accurate service.
+              At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we've been providing reliable and affordable repair services since 2010. Our extensive network of thoroughly vetted and experienced professionals ensures that, whenever possible, we’ll assign a technician with expertise in your specific Fagor appliance for efficient and accurate service.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -149,7 +149,7 @@ const FagorFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Fagor Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we know that Fagor appliance breakdowns often happen when you least expect them. That’s why our trained Fagor technicians are ready to provide dependable and efficient <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our expert help, you can avoid the expense of replacing your appliance and have it working smoothly again, before it becomes a major inconvenience.
+                  At FAJ Technical Services L.L.C, we know that Fagor appliance breakdowns often happen when you least expect them. That’s why our trained Fagor technicians are ready to provide dependable and efficient <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our expert help, you can avoid the expense of replacing your appliance and have it working smoothly again, before it becomes a major inconvenience.
                 </p>
 
               </div>

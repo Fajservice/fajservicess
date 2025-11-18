@@ -115,7 +115,7 @@ const OGeneralAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
             <p>
               Enjoy enhanced comfort year-round by eliminating sticky summer days, stuffy nights, and allergens with clean air.
               <br />
-              <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been providing reliable O General air conditioning solutions in Dubai and Sharjah since 2010. Our expert team is dedicated to O General AC cleaning service, maintenance, repairs, and installation of a wide range of residential and commercial AC units to ensure optimal performance and comfort.
+              <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been providing reliable O General air conditioning solutions in Dubai and Sharjah since 2010. Our expert team is dedicated to O General AC cleaning service, maintenance, repairs, and installation of a wide range of residential and commercial AC units to ensure optimal performance and comfort.
 
             </p>
 

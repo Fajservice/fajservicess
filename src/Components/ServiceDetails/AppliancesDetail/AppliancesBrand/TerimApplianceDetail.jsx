@@ -151,7 +151,7 @@ const TerimApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                     <div className="container">
                         <h1 className="cs_fs_30">Terim Home Appliance Repair Service and Installation</h1>
                         <p>
-                            If you need a qualified technician for Terim appliances, you’re in the right place. Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has provided reliable and affordable home appliances repair & services. Our network includes skilled professionals who understand Terim appliance repair and nearby services. We connect you with experienced technicians in Dubai and Sharjah who prioritize your satisfaction and ensure efficient solutions for all your appliance needs!
+                            If you need a qualified technician for Terim appliances, you’re in the right place. Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has provided reliable and affordable home appliances repair & services. Our network includes skilled professionals who understand Terim appliance repair and nearby services. We connect you with experienced technicians in Dubai and Sharjah who prioritize your satisfaction and ensure efficient solutions for all your appliance needs!
                         </p>
 
                         <div id="get-quote" className=" mt-3">
@@ -176,7 +176,7 @@ const TerimApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
                                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Terim Appliances Service</h2>
                                 <p className="mb-2">
-                                    At F A J Technical Services L.L.C, we recognize that appliance breakdowns, particularly with Terim products, often happen at the most inconvenient times. That’s why our trained and qualified Terim technicians are available to provide you with reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair service</a>. With our help, you can avoid the expense of purchasing a new appliance and quickly get your Terim appliance back in working order, allowing you to put your worries aside.
+                                    At FAJ Technical Services L.L.C, we recognize that appliance breakdowns, particularly with Terim products, often happen at the most inconvenient times. That’s why our trained and qualified Terim technicians are available to provide you with reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair service</a>. With our help, you can avoid the expense of purchasing a new appliance and quickly get your Terim appliance back in working order, allowing you to put your worries aside.
                                 </p>
 
                             </div>

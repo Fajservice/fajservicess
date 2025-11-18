@@ -119,7 +119,7 @@ const GaggenauFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
           <div className="container">
             <h1 className="cs_fs_30">Gaggenau Home Appliance Repair Service and Installation</h1>
             <p>
-              Having a hard time locating a local technician who specializes in Gaggenau kitchen appliances? At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a>, we’ve been providing dependable and affordable repair services since 2010. Our extensive network of thoroughly screened and experienced professionals ensures that, whenever possible, we’ll assign a technician with hands-on experience in servicing your specific Gaggenau appliance.
+              Having a hard time locating a local technician who specializes in Gaggenau kitchen appliances? At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been providing dependable and affordable repair services since 2010. Our extensive network of thoroughly screened and experienced professionals ensures that, whenever possible, we’ll assign a technician with hands-on experience in servicing your specific Gaggenau appliance.
 
             </p>
 
@@ -146,7 +146,7 @@ const GaggenauFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Gaggenau Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we understand that Gaggenau appliance breakdowns often happen when you least expect them. That’s why our skilled and Gaggenau technicians are ready to provide dependable and timely <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our expert support, you can avoid the high cost of replacement and have your Gaggenau appliance back in working condition before it causes any major disruption.
+                  At FAJ Technical Services L.L.C, we understand that Gaggenau appliance breakdowns often happen when you least expect them. That’s why our skilled and Gaggenau technicians are ready to provide dependable and timely <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our expert support, you can avoid the high cost of replacement and have your Gaggenau appliance back in working condition before it causes any major disruption.
                 </p>
 
               </div>

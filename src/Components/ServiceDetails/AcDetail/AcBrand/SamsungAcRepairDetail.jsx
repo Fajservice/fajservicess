@@ -119,7 +119,7 @@ const SamsungAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
             <h1 className="cs_fs_30">Samsung AC Repair in Dubai – Samsung AC Maintenance Service</h1>
             <p>
               Maintaining comfort throughout the year requires addressing various challenges, including high humidity on summer days, warm nights, and indoor allergens.
-              Since its establishment in 2010,  <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been a reliable provider of Samsung air conditioning solutions in the Dubai and Sharjah regions. Our experienced team is trained in a variety of services, including Samsung AC cleaning service, maintenance, repair, and installation for both residential and commercial units. We are dedicated to ensuring that your air conditioning system functions at its best, thereby enhancing your indoor comfort.
+              Since its establishment in 2010,  <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been a reliable provider of Samsung air conditioning solutions in the Dubai and Sharjah regions. Our experienced team is trained in a variety of services, including Samsung AC cleaning service, maintenance, repair, and installation for both residential and commercial units. We are dedicated to ensuring that your air conditioning system functions at its best, thereby enhancing your indoor comfort.
             </p>
 
             <div id="get-quote" className=" mt-3">

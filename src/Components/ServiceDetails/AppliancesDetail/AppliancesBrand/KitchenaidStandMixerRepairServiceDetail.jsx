@@ -122,7 +122,7 @@ const KitchenaidStandMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, t
 
             <h1 className="cs_fs_30">KitchenAid Stand Mixer Repair & Service in Dubai</h1>
             <p>
-              If you’re facing issues with your KitchenAid Stand Mixer, trust the experts at <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> in Dubai. Since 2010, we have provided fast, reliable, and cost-effective repair services explicitly tailored for KitchenAid appliances.
+              If you’re facing issues with your KitchenAid Stand Mixer, trust the experts at <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> in Dubai. Since 2010, we have provided fast, reliable, and cost-effective repair services explicitly tailored for KitchenAid appliances.
               <br />
               Our experienced technicians also service coffee machines, blenders, and other kitchen appliances using advanced diagnostic tools to ensure minimal disruption to your home or business in Dubai and Sharjah.
 
@@ -150,7 +150,7 @@ const KitchenaidStandMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, t
 
                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable KitchenAid Appliance Service </h3>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we understand that appliance breakdowns never occur at a convenient time. Our trained and qualified KitchenAid technicians are here to offer you dependable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our help, you can avoid the cost of replacing your stand mixer and get it up and running again before you have a chance to worry about it.
+                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns never occur at a convenient time. Our trained and qualified KitchenAid technicians are here to offer you dependable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our help, you can avoid the cost of replacing your stand mixer and get it up and running again before you have a chance to worry about it.
                 </p>
               </div>
 

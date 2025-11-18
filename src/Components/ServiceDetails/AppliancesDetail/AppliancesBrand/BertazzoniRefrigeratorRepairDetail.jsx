@@ -122,7 +122,7 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
           <div className="container">
             <h1 className="cs_fs_30">Bertazzoni Appliance Repair & Service in Dubai</h1>
             <p>
-              If you’re facing issues with your Bertazzoni Cooker, Built-in Oven, Hob, or Compact Oven, trust the experts at <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> in Dubai. Since 2010, we have provided fast, reliable, and cost-effective repair services tailored specifically for Bertazzoni appliances.
+              If you’re facing issues with your Bertazzoni Cooker, Built-in Oven, Hob, or Compact Oven, trust the experts at <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> in Dubai. Since 2010, we have provided fast, reliable, and cost-effective repair services tailored specifically for Bertazzoni appliances.
               <br />
               Our experienced technicians also service Refrigerators, Dishwashers, and Kitchen Hoods using advanced diagnostic tools to ensure minimal disruption to your home or business in Dubai and Sharjah.
             </p>
@@ -152,7 +152,7 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
 
                 <h3 className="cs_fs_24 mb-1 pt-3 border-small-top">Fast and Reliable Bertazzoni Appliances Service</h3>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we understand that appliance breakdowns, especially with Bertazzoni products, never occur at a convenient time. That’s why our trained and qualified Bertazzoni technicians are here to offer you reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Bertazzoni appliance up and running again before you have a chance to worry about it.
+                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Bertazzoni products, never occur at a convenient time. That’s why our trained and qualified Bertazzoni technicians are here to offer you reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Bertazzoni appliance up and running again before you have a chance to worry about it.
                 </p>
               </div>
 

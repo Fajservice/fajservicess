@@ -124,7 +124,7 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                     <div className="container">
                         <h1 className="cs_fs_30">Admiral Fridge Repair and Washing Machine Service in Dubai</h1>
                         <p>
-                            Having trouble finding a reliable technician for your Admiral kitchen appliances? At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a>, we’ve been providing dependable and affordable service since 2010. Our experienced network of skilled professionals ensures that, whenever possible, you’re matched with a technician who specializes in your specific Admiral appliance.
+                            Having trouble finding a reliable technician for your Admiral kitchen appliances? At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been providing dependable and affordable service since 2010. Our experienced network of skilled professionals ensures that, whenever possible, you’re matched with a technician who specializes in your specific Admiral appliance.
                         </p>
 
                         <div id="get-quote" className=" mt-3">
@@ -151,7 +151,7 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
                                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Admiral Appliances Service</h2>
                                 <p className="mb-2">
-                                    At F A J Technical Services L.L.C, we know that Admiral appliance breakdowns often happen when you least expect them. That’s why our expert Admiral technicians are ready to provide fast, reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our expert support, you can avoid the expense of replacing your appliance and have it working perfectly again, before it becomes a bigger hassle.
+                                    At FAJ Technical Services L.L.C, we know that Admiral appliance breakdowns often happen when you least expect them. That’s why our expert Admiral technicians are ready to provide fast, reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our expert support, you can avoid the expense of replacing your appliance and have it working perfectly again, before it becomes a bigger hassle.
                                 </p>
 
                             </div>

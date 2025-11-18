@@ -121,7 +121,7 @@ const KenmoreAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, 
                     <div className="container">
                         <h1 className="cs_fs_30">Kenmore Home Appliance Repair Service and Installation</h1>
                         <p>
-                            If you’re looking for an expert technician for your Kenmore appliances, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> is your trusted choice.
+                            If you’re looking for an expert technician for your Kenmore appliances, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> is your trusted choice.
                             <br />Since 2010, we’ve provided reliable, budget-friendly repair services across Dubai and Sharjah. Our professional network understands Kenmore appliance repairs' specific needs and is committed to delivering prompt, effective service near you.
                             We aim to connect you with a skilled technician who knows Kenmore inside and out, because your satisfaction matters most.
 
@@ -149,7 +149,7 @@ const KenmoreAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
                                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Kenmore Appliances Service</h2>
                                 <p className="mb-2">
-                                    At F A J Technical Services L.L.C, we understand that Kenmore appliance breakdowns often happen when you least expect them. That’s why our experienced technicians are ready to provide prompt, reliable repair services. With our expert support, you can avoid the expense of replacing your appliance and have your Kenmore unit running smoothly again, before it disrupts your routine.
+                                    At FAJ Technical Services L.L.C, we understand that Kenmore appliance breakdowns often happen when you least expect them. That’s why our experienced technicians are ready to provide prompt, reliable repair services. With our expert support, you can avoid the expense of replacing your appliance and have your Kenmore unit running smoothly again, before it disrupts your routine.
                                 </p>
 
                             </div>

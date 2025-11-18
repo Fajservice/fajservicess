@@ -120,7 +120,7 @@ const SiemensHomeAppUnstallationDetail = ({ subtitle, title, reviewsbg, titleSeo
           <div className="container">
             <h1 className="cs_fs_30">Siemens Home Appliance Repair Service and Installation</h1>
             <p>
-              Having a hard time finding a local Siemens appliance technician with expertise in Siemens kitchen appliances? At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a>, we’ve been providing reliable and affordable services since 2010. With a strong network of thoroughly vetted and experienced professionals, we aim to assign a technician familiar with your specific Siemens appliance whenever possible.
+              Having a hard time finding a local Siemens appliance technician with expertise in Siemens kitchen appliances? At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been providing reliable and affordable services since 2010. With a strong network of thoroughly vetted and experienced professionals, we aim to assign a technician familiar with your specific Siemens appliance whenever possible.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -146,7 +146,7 @@ const SiemensHomeAppUnstallationDetail = ({ subtitle, title, reviewsbg, titleSeo
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Siemens Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we understand that appliance breakdowns, especially with Siemens products, never occur at a convenient time. That’s why our trained and qualified Siemens technicians are here to offer you reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Siemens appliance up and running again before you have a chance to worry about it.
+                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Siemens products, never occur at a convenient time. That’s why our trained and qualified Siemens technicians are here to offer you reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliance repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Siemens appliance up and running again before you have a chance to worry about it.
                 </p>
 
               </div>

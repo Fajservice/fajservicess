@@ -121,7 +121,7 @@ const BompaniFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                     <div className="container">
                         <h1 className="cs_fs_30">Bompani Home Appliance Repair Service and Installation</h1>
                         <p>
-                            If you are looking for a knowledgeable local technician who specializes in Bompani appliances, you’re in the right place. <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has been providing reliable and affordable appliance solutions since 2010.
+                            If you are looking for a knowledgeable local technician who specializes in Bompani appliances, you’re in the right place. <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been providing reliable and affordable appliance solutions since 2010.
                             <br />We have established a network of qualified professionals dedicated to addressing the specific needs of Bompani appliance repair and nearby services. Our main aim is to connect you with a proficient Bompani technician in Dubai and Sharjah, ensuring they have a deep understanding of Bompani appliances. Your satisfaction is our highest priority!
                         </p>
 
@@ -147,7 +147,7 @@ const BompaniFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
 
                                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top" style={{ fontSize: "20px" }}>Fast and Reliable Bompani Appliances Service</h2>
                                 <p className="mb-2">
-                                    At F A J Technical Services L.L.C, we recognize that appliance breakdowns, particularly with Bompani products, often happen unexpectedly. That’s why our trained and qualified Bompani technicians are available to provide you with reliable repair services. With our help, you can save the cost of purchasing a new appliance and have your Bompani appliance functioning again in no time, allowing you to put your worries aside.
+                                    At FAJ Technical Services L.L.C, we recognize that appliance breakdowns, particularly with Bompani products, often happen unexpectedly. That’s why our trained and qualified Bompani technicians are available to provide you with reliable repair services. With our help, you can save the cost of purchasing a new appliance and have your Bompani appliance functioning again in no time, allowing you to put your worries aside.
                                 </p>
 
                             </div>

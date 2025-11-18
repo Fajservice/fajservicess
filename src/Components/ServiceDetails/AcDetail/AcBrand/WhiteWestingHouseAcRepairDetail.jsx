@@ -114,7 +114,7 @@ const WhiteWestingHouseAcRepair = ({ subtitle, title, reviewsbg, titleSeo, descr
             <h1 className="cs_fs_30">White Westinghouse AC Repair and Maintenance Service in Dubai </h1>
             <p>
               For year-round comfort, it’s important to effectively manage challenges like summer humidity, warm nights, and indoor allergens.
-              <br />Since our founding in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> has emerged as a leading provider of White Westinghouse air conditioning solutions in Dubai and Sharjah.
+              <br />Since our founding in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has emerged as a leading provider of White Westinghouse air conditioning solutions in Dubai and Sharjah.
               <br />Our highly skilled team is dedicated to delivering top-notch AC repair, service cleaning, maintenance, and installation for both residential and commercial AC units.
               We prioritize optimizing the efficiency of your air conditioning system, ensuring that your indoor environment remains refreshing and comfortable throughout the year. Trust us to elevate your comfort and peace of mind.
 

@@ -121,7 +121,7 @@ const NeffFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
           <div className="container">
             <h1 className="cs_fs_30">Neff Home Appliance Repair Service and Installation</h1>
             <p>
-              Having difficulty finding a local Neff appliance technician with expertise in Neff kitchen appliances? At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a>, we've been providing reliable and affordable repair services since 2010. Our broad network of thoroughly vetted, experienced professionals ensures that, whenever possible, we dispatch a technician who knows your specific Neff appliance inside and out.
+              Having difficulty finding a local Neff appliance technician with expertise in Neff kitchen appliances? At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we've been providing reliable and affordable repair services since 2010. Our broad network of thoroughly vetted, experienced professionals ensures that, whenever possible, we dispatch a technician who knows your specific Neff appliance inside and out.
             </p>
 
             <div id="get-quote" className=" mt-3">
@@ -149,7 +149,7 @@ const NeffFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
 
                 <h2 className="cs_fs_20 mb-1 pt-3 border-small-top">Fast and Reliable Neff Appliances Service</h2>
                 <p className="mb-2">
-                  At F A J Technical Services L.L.C, we understand that appliance breakdowns, especially with Neff products, never occur at a convenient time. That’s why our trained and qualified Neff technicians are here to offer you reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliances repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Neff appliance up and running again before you have a chance to worry about it.
+                  At FAJ Technical Services L.L.C, we understand that appliance breakdowns, especially with Neff products, never occur at a convenient time. That’s why our trained and qualified Neff technicians are here to offer you reliable <a href="https://www.fajservices.ae/appliances-repair-service/">appliances repair services</a>. With our assistance, you can avoid the cost of purchasing a new appliance and get your Neff appliance up and running again before you have a chance to worry about it.
                 </p>
 
               </div>

@@ -114,7 +114,7 @@ const TCLAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author
             <h1 className="cs_fs_30">TCL AC Repair and Maintenance Service in Dubai            </h1>
             <p>
               To achieve year-round comfort, it is imperative to effectively manage challenges such as summer humidity, warm nights, and indoor allergens.
-              <br />Established in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">F A J Technical Services L.L.C</a> stands as the premier provider of TCL air conditioning solutions in Dubai and Sharjah. Our expert team offers an extensive range of TCL AC repair, cleaning service, maintenance, and installation for both residential and commercial settings.
+              <br />Established in 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> stands as the premier provider of TCL air conditioning solutions in Dubai and Sharjah. Our expert team offers an extensive range of TCL AC repair, cleaning service, maintenance, and installation for both residential and commercial settings.
               <br />We are committed to maximizing the performance of your air conditioning system, ensuring optimal indoor comfort at all times.
 
             </p>
