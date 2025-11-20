@@ -1634,6 +1634,34 @@ export const router = createBrowserRouter([
         path:"/blog/ac-repair-maintenance-difference.php",
         element:<Navigate to="/blog/ac-repair-maintenance-difference/" replace />
       },
+      {
+        path:"/bompani-modena-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/dist/img/Kitchen-Equipment-Maintenance-Service.jpg/",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/dist/img/Laundry-equipment-services.jpg",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/dist/img/feature_img_1.webp",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/assets/images/icons/ovens-app.svg",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/assets/images/icons/fridge-freezer-app.svg",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/assets/images/icons/ppm.png",
+        element:<Navigate to="/" replace />
+      },
 
     ],
   }
