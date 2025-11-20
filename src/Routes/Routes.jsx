@@ -1552,7 +1552,7 @@ export const router = createBrowserRouter([
       // Redirection
       {
         path:"/blog/is-air-fryer-healthy.php",
-        element:<Navigate to="/blogs/blog/is-air-fryer-healthy/" replace />
+        element:<Navigate to="/blog/is-air-fryer-healthy/" replace />
       },
        {
         path:"/cigar-cabinet-humidifier-repair",
