@@ -171,7 +171,6 @@ export const CommercialWashingMachineRepair = withSuspense(React.lazy(() => impo
 export const CommercialLaundryEquipmentService = withSuspense(React.lazy(() => import("../Pages/CommercialLaundryEquipPages/CommercialLaundryEquipmentService")));
 export const AcRepairInDubaiInternationalFinancialCenter = withSuspense(React.lazy(() => import("../Pages/AcPages/AcLocation/AcRepairInDubaiInternationalFinancialCenter")));
 export const AcRepairInBurDubai = withSuspense(React.lazy(() => import("../Pages/AcPages/AcLocation/AcRepairInBurDubai")));
-export const AcRepairInSiliconOasisDubai = withSuspense(React.lazy(() => import("../Pages/AcPages/AcLocation/AcRepairInSiliconOasisDubai")));
 export const AcRepairInDubailandMazayaQueue = withSuspense(React.lazy(() => import("../Pages/AcPages/AcLocation/AcRepairInDubailandMazayaQueue")));
 export const AcRepairInNadAlSheba = withSuspense(React.lazy(() => import("../Pages/AcPages/AcLocation/AcRepairInNadAlSheba")));
 export const AcRepairInAlBarari = withSuspense(React.lazy(() => import("../Pages/AcPages/AcLocation/AcRepairInAlBarari")));
@@ -297,7 +296,6 @@ export const AppliancesServicesInTheLakes = withSuspense(React.lazy(() => import
 export const AppliancesServicesInJumeirahGolfEstates = withSuspense(React.lazy(() => import("../Pages/AppliancesPage/AppliancesLocation/AppliancesServicesInJumeirahGolfEstates")));
 export const HomeAppliancesServiceCentreInJltDubai = withSuspense(React.lazy(() => import("../Pages/AppliancesPage/AppliancesLocation/HomeAppliancesServiceCentreInJltDubai")));
 export const AppliancesServicesInEmiratesHills = withSuspense(React.lazy(() => import("../Pages/AppliancesPage/AppliancesLocation/AppliancesServicesInEmiratesHills")));
-export const AppliancesServicesInSiliconOasisDubai = withSuspense(React.lazy(() => import("../Pages/AppliancesPage/AppliancesLocation/AppliancesServicesInSiliconOasisDubai")));
 export const AppliancesServicesInVictoryHeights = withSuspense(React.lazy(() => import("../Pages/AppliancesPage/AppliancesLocation/AppliancesServicesInVictoryHeights")));
 export const AppliancesServicesInRemraam = withSuspense(React.lazy(() => import("../Pages/AppliancesPage/AppliancesLocation/AppliancesServicesInRemraam")));
 export const AppliancesServicesInAlJafiliya = withSuspense(React.lazy(() => import("../Pages/AppliancesPage/AppliancesLocation/AppliancesServicesInAlJafiliya")));

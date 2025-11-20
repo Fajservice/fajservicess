@@ -57,10 +57,10 @@ export const router = createBrowserRouter([
         path: "/تصليح-مكيفات-الهواء-خدمة-وصيانة-دبي/",
         element: <Components.AcServiceInDubaiArabic />,
       },
-      {
-        path: "/ac-maintenance-dubai/",
-        element: <Components.AcMaintenanceDubai />,
-      },
+      // {
+      //   path: "/ac-maintenance-dubai/",
+      //   element: <Components.AcMaintenanceDubai />,
+      // },
       {
         path: "/ac-annual-maintenance-contract/",
         element: <Components.AcAnnualMaintenanceContract />,
@@ -774,10 +774,6 @@ export const router = createBrowserRouter([
         element: <Components.AcRepairInBurDubai />,
       },
       {
-        path: "/ac-services-in-silicon-oasis-dubai/",
-        element: <Components.AcRepairInSiliconOasisDubai />,
-      },
-      {
         path: "/ac-services-in-burj-khalifa-lake/",
         element: <Components.AcRepairInBurjKhalifaLake />,
       },
@@ -933,10 +929,10 @@ export const router = createBrowserRouter([
         path: "/aeg-fridge-repair-in-dubai-aeg-washing-machine-repair-in-dubai-aeg-cooker-repair-in-dubai-aeg-oven-repair-in-dubai-aeg-appliances-maintenance-in-dubai-aeg-refrigerator-fix-repairs-service-in-dubai-aeg/",
         element: <Components.AegFridgeRepair />,
       },
-      {
-        path: "/bosch-home-appliances-repair/",
-        element: <Components.BoschHomeAppliance />,
-      },
+      // {
+      //   path: "/bosch-home-appliances-repair/",
+      //   element: <Components.BoschHomeAppliance />,
+      // },
       {
         path: "/hisense-fridge-repair-in-dubai-hisense-washing-machine-repair-in-dubai-hisense-cooker-repair-in-dubai-hisense-oven-repair-in-dubai-hisense-appliances-maintenance-in-dubai-hisense-refrigerator-fix-repa/",
         element: <Components.HisenseFridgeRepair />,
@@ -977,10 +973,10 @@ export const router = createBrowserRouter([
         path: "/daewoo-home-appliances-repair/",
         element: <Components.DaewooHomeAppliance />,
       },
-      {
-        path: "/bosch-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
-        element: <Components.BoschHomeApplianceRepair />,
-      },
+      // {
+      //   path: "/bosch-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
+      //   element: <Components.BoschHomeApplianceRepair />,
+      // },
       {
         path: "/foster-appliances-service/",
         element: <Components.FosterAppliance />,
@@ -1208,10 +1204,6 @@ export const router = createBrowserRouter([
       {
         path: "/appliances-services-in-emirates-hills/",
         element: <Components.AppliancesServicesInEmiratesHills />,
-      },
-      {
-        path: "/appliances-services-in-silicon-oasis-dubai/",
-        element: <Components.AppliancesServicesInSiliconOasisDubai />,
       },
       {
         path: "/appliances-services-in-victory-heights/",
@@ -1557,6 +1549,92 @@ export const router = createBrowserRouter([
         path: "/testimonials/",
         element: <Components.Testimonials />,
       },
+      // Redirection
+      {
+        path:"/blog/is-air-fryer-healthy.php",
+        element:<Navigate to="/blogs/blog/is-air-fryer-healthy/" replace />
+      },
+       {
+        path:"/cigar-cabinet-humidifier-repair",
+        element:<Navigate to="/cigar-humidor-repair/" replace />
+      },
+      {
+        path:"/blog/blog-details",
+        element:<Navigate to="/blogs/" replace />
+      },
+      {
+        path:"/coffee-machine-repair/",
+        element:<Navigate to="/coffee-machine-service-center-in-dubai/" replace />
+      },
+      {
+        path:"/commercial-refrigeration-services/",
+        element:<Navigate to="/commercial-refrigeration-maintenance/" replace />
+      },
+      {
+        path:"/washing-machine-service-center-dubai/",
+        element:<Navigate to="/washing-machine-repair-service-dubai/" replace />
+      },
+      {
+        path:"/ac-services-in-silicon-oasis-dubai/",
+        element:<Navigate to="/ac-services-in-dubai-silicon-oasis/" replace />
+      },
+      {
+        path:"/appliances-services-in-silicon-oasis-dubai/",
+        element:<Navigate to="/appliances-services-in-dubai-silicon-oasis/" replace />
+      },
+      {
+        path:"/commercial-cooking-equipment-repair/",
+        element:<Navigate to="/commercial-cooking-appliances-repair-service/" replace />
+      },
+      {
+        path:"/walk-in-freezer-display-freezer-open-freezer-maintenance/",
+        element:<Navigate to="/commercial-refrigeration-maintenance/" replace />
+      },
+      {
+        path:"/fridge-freezer-repair-service-in-dubai/",
+        element:<Navigate to="/refrigerator-repair-service/" replace />
+      },
+      {
+        path:"/tumble-dryer-repairs-dubai/",
+        element:<Navigate to="/washing-machine-repair-service-dubai/" replace />
+      },
+      {
+        path:"/commercial-freezer-chiller-amc-service/",
+        element:<Navigate to="/commercial-refrigeration-maintenance-contact-services/" replace />
+      },
+      {
+        path:"/freezer-chiller-repair-service/",
+        element:<Navigate to="/refrigerator-repair-service/" replace />
+      },
+      {
+        path:"/cigar-cabinet-humidifier-repair/",
+        element:<Navigate to="/cigar-humidor-repair/" replace />
+      },
+      {
+        path:"/bosch-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
+        element:<Navigate to="/appliances-repair-service/" replace />
+      },
+      {
+        path:"/bosch-home-appliances-repair/",
+        element:<Navigate to="/appliances-repair-service/" replace />
+      },
+      {
+        path:"/ac-maintenance-dubai/",
+        element:<Navigate to="/ac-repair-dubai/" replace />
+      },
+      {
+        path:"/blog/Refrigerator-Repair-Near-Me/",
+        element:<Navigate to="/blog/swift-solutions-refrigerator-repair-near-me-for-quick-fixes/" replace />
+      },
+      {
+        path:"/dishwasher-cleaning-guidee/",
+        element:<Navigate to="/dishwasher-cleaning-guide/" replace />
+      },
+      {
+        path:"/blog/ac-repair-maintenance-difference.php",
+        element:<Navigate to="/blog/ac-repair-maintenance-difference/" replace />
+      },
+
     ],
   }
 ], {

@@ -10,7 +10,6 @@ import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContrac
 import 'swiper/swiper-bundle.css';
 import testimonial_data from '../../../../Data/AppliancesData/AppliancesTestimonial/AppliancesTestimonials.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
-import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import GetQuoteButton from '../../../Buttons/GetQuoteButton';
@@ -23,6 +22,7 @@ const IfbRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
   const metatitle = String(titleSeo || "IFB Refrigerator Repair in Dubai | Washing Machine Service");
   const metadescription = String(description || "We are offering IFB refrigerator repair in Dubai Or fridge, washing machine, cooking range, dishwasher service center in Dubai, Freezer service in Dubai Cal us now");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "IFB Refrigerator Repair, IFB Washing Machine Repair, IFB Cooker Repair, IFB Dishwasher Repair, IFB Oven Repair, IFB Freezer Service in Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/ifb-refrigerator-repair-in-dubai-fridge-repair-in-dubai-washing-machine-repair-in-dubai-dishwasher-cooker-oven-repairs-fix-service-in-dubai/").replace(/\/?$/, '/');
 

@@ -17,7 +17,7 @@ const Blog3 = () => {
               ></SectionTitle>
             </div>
             <div className="cs_section_heading_right wow fadeInLeft">
-              <Link to="/blogs/" className="cs_btn cs_style_1">
+              <Link to="/blog/" className="cs_btn cs_style_1">
                 <span>View all news</span><i className="bi bi-arrow-right"></i>    
               </Link>
             </div>

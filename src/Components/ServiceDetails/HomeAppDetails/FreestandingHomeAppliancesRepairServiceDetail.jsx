@@ -17,7 +17,6 @@ import 'swiper/swiper-bundle.css';
 import testimonial_data from '../../../Data/HomeAppData/Testmonials/FreestandingHomeAppliancesRepairServiceTestimonials.json';
 import brandsLogo_data from '../../../Data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages.jsx";
-import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm.jsx";
 import BrandsSliderSection from "../../BrandsSliderSection";
 import Testimonial1 from "../../Testimonial/Testimonial1";
@@ -137,9 +136,8 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
     <>
-      <HelmetProvider>
         <Helmet>
-          <title>{metatitle}</title>
+          <title>Appliances Service Center in Dubai | Appliances Repair Near Me</title>
           <meta name="description" content={metadescription}></meta>
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
@@ -158,7 +156,6 @@ const [isModalOpen, setIsModalOpen] = useState(false);
           <meta name="twitter:image" content={metaImage} />
           <meta name="twitter:url" content={metaURL} />
         </Helmet>
-      </HelmetProvider>
       <HeaderForm />
 
       <div className="cs_service_details">
@@ -180,10 +177,8 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                 <BookingFormModal isOpen={isModalOpen} onClose={closeModal} />
               </div>
             </div>
-            {/*  */}
           </div>
         </section>
-
 
         {/* Best Home Appliance Service Center */}
         <section className="section cs_py_30 bg-light-gray">

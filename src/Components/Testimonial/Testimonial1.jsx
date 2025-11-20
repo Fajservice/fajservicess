@@ -118,7 +118,7 @@ const TestimonialCard = ({ item, quoteIcon: QuoteIcon = FaQuoteRight }) => (
         </div>
         <div>
           <StarRating />
-          <h5 className="mb-1 text-uppercase">{item.title}</h5>
+          <h3 className="mb-1 text-uppercase">{item.title}</h3>
           <p className="cs_fs_16 mb-0">{item.subTitle}</p>
         </div>
       </div>

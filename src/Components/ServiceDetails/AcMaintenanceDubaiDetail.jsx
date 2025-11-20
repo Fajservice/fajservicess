@@ -10,8 +10,6 @@ import WhatsappIconButton from "../Buttons/WhatsappIconButton";
 import BenefitAcMaintenance from "../BenefitAcMaintenance/BenefitAcMaintenance";
 import ACWhyChooseUs from "../WhyChooseUS/ACWhyChooseUs";
 import MaintenanceContract from "../MaintenanceContract/MaintenanceContract";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/swiper-bundle.css";
