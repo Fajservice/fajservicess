@@ -17,11 +17,9 @@ import Testimonial1 from "../../Testimonial/Testimonial1";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
 
-// import { Link } from "react-router-dom";
-
 const CommercialWashingMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Commercial Washing Machine Repair & Maintenance in Dubai");
+  <title>Commercial Washing Machine Repair & Maintenance in Dubai</title>
   const metadescription = String(description || "FAJ | Commercial washing machine repair technicians in Dubai. Book for quality work, Laundry equipment maintenance, washer, dryer services & AMC");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial Washing Machine repair, Commercial Washing Machine service, Commercial Washing Machine maintenance, Commercial Washing Machine AMC, Commercial Washing Machine Dubai, Commercial Washing Machine Sharjah, Commercial Washing Machine repair Dubai, Commercial Washing Machine repair Sharjah, Commercial Laundry Equipment Service, Commercial Laundry Equipment Repair");
@@ -124,16 +122,16 @@ const metaImage = String(Image || "https://www.fajservices.ae/img/banners/Commer
     <>
        <HelmetProvider>
         <Helmet>
-          <title>{metatitle}</title>
-          <meta name="description" content={metadescription}></meta>
+          <title>Commercial Washing Machine Repair & Maintenance in Dubai</title>
+          <meta name="description" content="FAJ | Commercial washing machine repair technicians in Dubai. Book for quality work, Laundry equipment maintenance, washer, dryer services & AMC"></meta>
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
           <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content={metatitle} />
-          <meta property="og:description" content={metadescription} />
+          <meta property="og:title" content="Commercial Washing Machine Repair & Maintenance in Dubai" />
+          <meta property="og:description" content="FAJ | Commercial washing machine repair technicians in Dubai. Book for quality work, Laundry equipment maintenance, washer, dryer services & AMC" />
           <meta property="og:image" content={metaImage} />
 
           {/* Twitter Card */}
