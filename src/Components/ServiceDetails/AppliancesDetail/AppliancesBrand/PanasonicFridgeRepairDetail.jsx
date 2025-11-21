@@ -11,7 +11,6 @@ import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContrac
 import 'swiper/swiper-bundle.css';
 import testimonial_data from '../../../../Data/AppliancesData/AppliancesTestimonial/AppliancesTestimonials.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
-import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import GetQuoteButton from '../../../Buttons/GetQuoteButton';
@@ -21,9 +20,8 @@ import Testimonial1 from '../../../Testimonial/Testimonial1';
 
 const PanasonicFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
     // For SEO
-    const metatitle = titleSeo?.trim()
-        ? titleSeo
-        : "Panasonic Fridge Repair in Dubai | Washing Machine Service";
+    
+    const metatitle = String(titleSeo || "Panasonic Fridge Repair in Dubai | Washing Machine Service ");
     const metadescription = String(description || "If you need reliable Panasonic fridge repair in Dubai, call 043300002 for Panasonic washing machine, dishwasher, and refrigerator repair center & service.");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
@@ -123,23 +121,23 @@ const PanasonicFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
         <>
             <HelmetProvider>
                 <Helmet>
-                    <title>{metatitle}</title>
-                    <meta name="description" content={metadescription}></meta>
+                    <title>Panasonic Fridge Repair in Dubai | Washing Machine Service</title>
+                    <meta name="description" content="If you need reliable Panasonic fridge repair in Dubai, call 043300002 for Panasonic washing machine, dishwasher, and refrigerator repair center & service."></meta>
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
                     <meta name="robots" content="index, follow" />
-                    <link rel="canonical" href={metaURL} />
+                    <link rel="canonical" href="https://www.fajservices.ae/panasonic-fridge-repair-in-dubai-panasonic-washing-machine-repair-in-dubai-panasonic-cooker-repair-in-dubai-panasonic-oven-repair-in-dubai-panasonic-appliances-maintenance-in-dubai-panasonic-refrigera/" />
                     <meta property="og:type" content="website" />
                     <meta property="og:locale" content="en_US" />
-                    <meta property="og:title" content={metatitle} />
-                    <meta property="og:description" content={metadescription} />
+                    <meta property="og:title" content= "Panasonic Fridge Repair in Dubai | Washing Machine Service"/>
+                    <meta property="og:description" content="If you need reliable Panasonic fridge repair in Dubai, call 043300002 for Panasonic washing machine, dishwasher, and refrigerator repair center & service." />
                     <meta property="og:url" content={metaURL} />
                     <meta property="og:image" content={metaImage} />
 
                     {/* Twitter Card */}
                     <meta name="twitter:card" content="summary_large_image" />
-                    <meta name="twitter:title" content={metatitle} />
-                    <meta name="twitter:description" content={metadescription} />
+                    <meta name="twitter:title" content="Panasonic Fridge Repair in Dubai | Washing Machine Service" />
+                    <meta name="twitter:description" content="If you need reliable Panasonic fridge repair in Dubai, call 043300002 for Panasonic washing machine, dishwasher, and refrigerator repair center & service." />
                     <meta name="twitter:image" content={metaImage} />
                     <meta name="twitter:url" content={metaURL} />
                 </Helmet>
@@ -549,7 +547,7 @@ const PanasonicFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                         <DaiganosisCharges
                             appliancebrand="Panasonic Appliance"
                             feeRange="ranging from AED 157 to 280"
-                        />
+                            />
                         <h3>We specialize in Panasonic appliance services of following types</h3>
                         <div className="row">
                             <div className="col-12">
@@ -679,12 +677,12 @@ const PanasonicFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                 <MaintenanceContract />
                 {/* testimobial section */}
                 <Testimonial1
-                    subtitle="What Our Clients Say"
-                    title="Customer <span>Reviews</span>"
-                    bgImg="img/testimonialbg.jpg"
-                    testimonialData={testimonial_data}
-                    sectionId="home-testimonials"
-                />
+          subtitle="What Our Clients Say"
+          title="Customer <span>Reviews</span>"
+          bgImg="img/testimonialbg.jpg"
+          testimonialData={testimonial_data}
+          sectionId="home-testimonials"
+        />
 
                 {/* FAQ&apos;s */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
@@ -699,7 +697,7 @@ const PanasonicFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                                         <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
                                         <span className="cs_accordian_toggle">
                                             <i className="bi bi-eye text-light"><FaEye /></i>
-                                            <i className="bi bi-eye-slash text-light"><FaEyeSlash /></i>
+											<i className="bi bi-eye-slash text-light"><FaEyeSlash /></i>
                                         </span>
                                     </div>
                                     <div className="cs_accordian_body" ref={accordionContentRef}>

@@ -10,7 +10,6 @@ import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContrac
 import 'swiper/swiper-bundle.css';
 import testimonial_data from '../../../../Data/AppliancesData/AppliancesTestimonial/AppliancesTestimonials.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
-import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import GetQuoteButton from '../../../Buttons/GetQuoteButton';
@@ -21,7 +20,7 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Brandt Fridge Repair & Service In Dubai | Brandt Oven Repair");
+    const metatitle = String(titleSeo || "Brand Fridge Repair & Service In Dubai | Brandt Oven Repair");
     const metadescription = String(description || "Get fast and FAJ reliable Brandt fridge repair in Dubai. And Brandt washing machine, dishwasher, oven, cooker & refrigerator service centre near me");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
@@ -92,23 +91,23 @@ const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
         <>
             <HelmetProvider>
                 <Helmet>
-                    <title>{metatitle}</title>
-                    <meta name="description" content={metadescription}></meta>
+                    <title>Brand Fridge Repair & Service In Dubai | Brandt Oven Repair</title>
+                    <meta name="description" content="Get fast and FAJ reliable Brandt fridge repair in Dubai. And Brandt washing machine, dishwasher, oven, cooker & refrigerator service centre near me"></meta>
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
                     <meta name="robots" content="index, follow" />
-                    <link rel="canonical" href={metaURL} />
+                    <link rel="canonical" href="https://www.fajservices.ae/brandt-fridge-repair-in-dubai-brandt-washing-machine-repair-in-dubai-brandt-cooker-repair-in-dubai-brandt-oven-repair-in-dubai-brandt-appliances-maintenance-in-dubai-brandt-refrigerator-fix-repairs-se/" />
                     <meta property="og:type" content="website" />
                     <meta property="og:locale" content="en_US" />
-                    <meta property="og:title" content={metatitle} />
-                    <meta property="og:description" content={metadescription} />
+                    <meta property="og:title" content="Brand Fridge Repair & Service In Dubai | Brandt Oven Repair" />
+                    <meta property="og:description" content="Get fast and FAJ reliable Brandt fridge repair in Dubai. And Brandt washing machine, dishwasher, oven, cooker & refrigerator service centre near me" />
                     <meta property="og:url" content={metaURL} />
                     <meta property="og:image" content={metaImage} />
 
                     {/* Twitter Card */}
                     <meta name="twitter:card" content="summary_large_image" />
-                    <meta name="twitter:title" content={metatitle} />
-                    <meta name="twitter:description" content={metadescription} />
+                    <meta name="twitter:title" content="Brand Fridge Repair & Service In Dubai | Brandt Oven Repair" />
+                    <meta name="twitter:description" content="Get fast and FAJ reliable Brandt fridge repair in Dubai. And Brandt washing machine, dishwasher, oven, cooker & refrigerator service centre near me" />
                     <meta name="twitter:image" content={metaImage} />
                     <meta name="twitter:url" content={metaURL} />
                 </Helmet>

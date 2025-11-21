@@ -22,7 +22,7 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const HisenseFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Hisense Fridge Repair In Dubai | Washing Machine Service Near");
+    <title>Hisense Fridge Repair In Dubai | Washing Machine Service Near</title>
     const metadescription = String(description || "Need assistance with your Hisense appliance service? FAJ offers fridge repair, washing machine, dishwasher, cooker, & dryer repair center. with Warranty");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
@@ -91,23 +91,23 @@ const HisenseFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
         <>
             <HelmetProvider>
                 <Helmet>
-                    <title>{metatitle}</title>
-                    <meta name="description" content={metadescription}></meta>
+                    <title>Hisense Fridge Repair In Dubai | Washing Machine Service Near</title>
+                    <meta name="description" content="Need assistance with your Hisense appliance service? FAJ offers fridge repair, washing machine, dishwasher, cooker, & dryer repair center. with Warranty"></meta>
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
                     <meta name="robots" content="index, follow" />
                     <link rel="canonical" href={metaURL} />
                     <meta property="og:type" content="website" />
                     <meta property="og:locale" content="en_US" />
-                    <meta property="og:title" content={metatitle} />
-                    <meta property="og:description" content={metadescription} />
+                    <meta property="og:title" content="Hisense Fridge Repair In Dubai | Washing Machine Service Near" />
+                    <meta property="og:description" content="Need assistance with your Hisense appliance service? FAJ offers fridge repair, washing machine, dishwasher, cooker, & dryer repair center. with Warranty" />
                     <meta property="og:url" content={metaURL} />
                     <meta property="og:image" content={metaImage} />
 
                     {/* Twitter Card */}
                     <meta name="twitter:card" content="summary_large_image" />
-                    <meta name="twitter:title" content={metatitle} />
-                    <meta name="twitter:description" content={metadescription} />
+                    <meta name="twitter:title" content="Hisense Fridge Repair In Dubai | Washing Machine Service Near" />
+                    <meta name="twitter:description" content="Need assistance with your Hisense appliance service? FAJ offers fridge repair, washing machine, dishwasher, cooker, & dryer repair center. with Warranty" />
                     <meta name="twitter:image" content={metaImage} />
                     <meta name="twitter:url" content={metaURL} />
                 </Helmet>

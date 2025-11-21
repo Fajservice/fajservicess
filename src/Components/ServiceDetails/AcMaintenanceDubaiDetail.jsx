@@ -106,23 +106,21 @@ const AcMaintenanceDubaiDetails = ({ subtitle, title, reviewsbg, titleSeo, descr
     <>
       <HelmetProvider>
         <Helmet>
-          <title>{metatitle}</title>
-          <meta name="description" content={metadescription}></meta>
+          <title>AC Maintenance Dubai - Air Conditioner Cleaning Service</title>
+          <meta name="description" content="Reliable & quality in ac maintenance Dubai, We are experts in HVAC, split, central cooling, VRV, VRF air con maintenance & ac fix Call 043300002"></meta>
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
-
-          <link rel="canonical" href={metaURL} />
+          <link rel="canonical" href="AC Maintenance Dubai - Air Conditioner Cleaning Service" />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content={metatitle} />
+          <meta property="og:title" content="AC Maintenance Dubai - Air Conditioner Cleaning Service" />
           <meta property="og:description" content={metadescription} />
           <meta property="og:image" content={metaImage} />
-
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content={metatitle} />
-          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:title" content="AC Maintenance Dubai - Air Conditioner Cleaning Service" />
+          <meta name="twitter:description" content="Reliable & quality in ac maintenance Dubai, We are experts in HVAC, split, central cooling, VRV, VRF air con maintenance & ac fix Call 043300002" />
           <meta name="twitter:image" content={metaImage} />
           <meta name="twitter:url" content={metaURL} />
         </Helmet>
