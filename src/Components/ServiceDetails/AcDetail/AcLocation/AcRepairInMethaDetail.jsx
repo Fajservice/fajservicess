@@ -23,7 +23,9 @@ import Testimonial1 from "../../../Testimonial/Testimonial1";
 const AcRepairInMethaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Best AC Services In Oud Metha - AC Cleaning Service #1");
+    const metatitle = titleSeo?.trim()
+        ? titleSeo
+        : "Best AC Services In Oud Metha - AC Cleaning Service #1";
     const metadescription = String(description || "Get Fast & Professional AC Services in Oud Metha - Call 043300002 for your central & split Air Conditioner maintenance, repair near me, & Air con fix");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "AC Repair & Service in Oud Metha, Air Con Maintenance in Oud Metha, AC Installation in Oud Metha, AC Technician in Oud Metha");

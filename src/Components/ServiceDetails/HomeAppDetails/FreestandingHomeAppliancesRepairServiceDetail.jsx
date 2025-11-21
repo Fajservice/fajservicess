@@ -25,7 +25,9 @@ import Testimonial1 from "../../Testimonial/Testimonial1";
 
 const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Appliances Service Center in Dubai | Appliances Repair Near Me");
+  const metatitle = titleSeo?.trim()
+        ? titleSeo
+        : "Appliances Service Center in Dubai | Appliances Repair Near Me";
   const metadescription = String(description || "We offer an appliance repair service centre near you. Get an expert in refrigerator, fridge, washing machine, dryer, dishwasher, oven repair near me Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Appliances Repair Dubai, Appliance Service Dubai, Appliance Repair Near Me, Home Appliances Repair Dubai, Washing Machine Repair Dubai, Refrigerator Repair Dubai, Dishwasher Repair Dubai, Oven Repair Dubai, Dryer Repair Dubai");

@@ -1,4 +1,3 @@
-import React from 'react'
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
@@ -11,7 +10,6 @@ import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContrac
 import 'swiper/swiper-bundle.css';
 import testimonial_data from '../../../../Data/AppliancesData/AppliancesTestimonial/AppliancesTestimonials.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
-import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import GetQuoteButton from '../../../Buttons/GetQuoteButton';
@@ -21,7 +19,9 @@ import Testimonial1 from '../../../Testimonial/Testimonial1';
 
 const HooverFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Best Hoover Fridge Repair & Service in Dubai | Washing Machine");
+   const metatitle = titleSeo?.trim() 
+  ? titleSeo 
+  : "Best Hoover Fridge Repair & Service in Dubai | Washing Machine";
   const metadescription = String(description || "Get warranty service for hoover appliances and fridge repair in Dubai by FAJ. Book now washer dryer, dishwasher, stove, or oven service  center near you.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");

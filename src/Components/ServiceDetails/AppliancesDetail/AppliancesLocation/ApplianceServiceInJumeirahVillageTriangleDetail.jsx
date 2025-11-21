@@ -13,7 +13,6 @@ import 'swiper/swiper-bundle.css';
 import testimonial_data from '../../../../Data/HomeAppData/Testmonials/FreestandingHomeAppliancesRepairServiceTestimonials.json';
 import brandsLogo_data from '../../../../Data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages.jsx";
-import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import BrandsSliderSection from "../../../BrandsSliderSection";
@@ -23,7 +22,9 @@ import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx"
 const ApplianceServiceInJumeirahVillageTriangleDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Best Appliances Services in Jumeirah Village Triangle");
+    const metatitle = titleSeo?.trim()
+        ? titleSeo
+        : "Best Appliances Services in Jumeirah Village Triangle";
     const metadescription = String(description || "Looking appliance service in Jumeirah Village Triangle in Dubai. FAJ provide refrigerator repair near me, washing machine & more. Call now 043300002");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");

@@ -7,7 +7,6 @@ const AcRepairInDifc = () => {
     <BreadCumb
 bgImg="img/banners/ac-banner-desktop-faj.avif"
 mobileBgImg="img/banners/ac-banner-mobile-faj.avif"
-        Title="AC Service in DIFC"
     ></BreadCumb>
     <AcRepairInDifcDetail />
 </div>
