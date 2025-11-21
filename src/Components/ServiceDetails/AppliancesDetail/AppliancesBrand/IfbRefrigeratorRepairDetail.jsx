@@ -87,7 +87,6 @@ const IfbRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
 
   return (
     <>
-      <HelmetProvider>
         <Helmet>
           <title>{metatitle}</title>
           <meta name="description" content={metadescription}></meta>
@@ -109,7 +108,7 @@ const IfbRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
           <meta name="twitter:image" content={metaImage} />
           <meta name="twitter:url" content={metaURL} />
         </Helmet>
-      </HelmetProvider>
+
       <HeaderForm />
 
       <div className="cs_service_details">

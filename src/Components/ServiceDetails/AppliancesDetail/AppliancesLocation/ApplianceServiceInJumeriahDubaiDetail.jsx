@@ -13,7 +13,6 @@ import 'swiper/swiper-bundle.css';
 import testimonial_data from '../../../../Data/HomeAppData/Testmonials/FreestandingHomeAppliancesRepairServiceTestimonials.json';
 import brandsLogo_data from '../../../../Data/AppliancesBrandsLogo.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages.jsx";
-import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm.jsx";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import BrandsSliderSection from "../../../BrandsSliderSection";
@@ -24,7 +23,9 @@ import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx"
 const ApplianceServiceInJumeriahDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Home Appliances Service in Jumeirah - Washing Machine Repair");
+    const metatitle = titleSeo?.trim()
+        ? titleSeo
+        : "Home Appliances Service in Jumeirah - Washing Machine Repair";
     const metadescription = String(description || "FAJ offering home appliances service in Jumeirah. Book an 043300002 for Siemens, Bosch, Daewoo, Electrolux, Teka refrigerator, fridge, oven repair.");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");

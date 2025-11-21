@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import data from '../../../../Data/AcData/AcFaqs/AcLocation/AcRepairInDip.json';
-import { Helmet, HelmetProvider } from "react-helmet-async";
+import { Helmet} from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
 import Serviceappointemnt from '../../../Contact/Serviceappointemnt';
@@ -20,7 +20,9 @@ import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 const AcRepairInDifcDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "AC Services In DIFC - AC Maintenance Company In Dubai #1");
+ const metatitle = titleSeo?.trim() 
+  ? titleSeo 
+  : "Ac Repair in DIFC";
   const metadescription = String(description || "Contact us: 043300002. AC Services in DIFC. Our team is experts in central HVAC maintenance & repair near me Dubai AC fix servicing company");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "ac services in difc, ac repair in difc, ac maintenance in difc, ac service in difc, ac repair near me, ac maintenance near me, ac service near me, ac repair company in difc, ac maintenance company in difc, ac service company in difc");
@@ -85,28 +87,27 @@ const AcRepairInDifcDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
   }
   return (
     <>
-      <HelmetProvider>
-        <Helmet>
-          <title>{metatitle}</title>
-          <meta name="description" content={metadescription}></meta>
-          <meta name="keywords" content={metaKeyword} />
-          <meta name="author" content={metaAuthor} />
-          <meta name="robots" content="index, follow" />
-          <link rel="canonical" href={metaURL} />
-          <meta property="og:type" content="website" />
-          <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content={metatitle} />
-          <meta property="og:description" content={metadescription} />
-          <meta property="og:url" content={metaURL} />
-          <meta property="og:image" content={metaImage} />
-          {/* Twitter Card */}
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content={metatitle} />
-          <meta name="twitter:description" content={metadescription} />
-          <meta name="twitter:image" content={metaImage} />
-          <meta name="twitter:url" content={metaURL} />
-        </Helmet>
-      </HelmetProvider>
+
+          <Helmet>
+            <title>{metatitle}</title>
+            <meta name="description" content={metadescription}></meta>
+            <meta name="keywords" content={metaKeyword} />
+            <meta name="author" content={metaAuthor} />
+            <meta name="robots" content="index, follow" />
+            <link rel="canonical" href={metaURL} />
+            <meta property="og:type" content="website" />
+            <meta property="og:locale" content="en_US" />
+            <meta property="og:title" content={metatitle} />
+            <meta property="og:description" content={metadescription} />
+            <meta property="og:url" content={metaURL} />
+            <meta property="og:image" content={metaImage} />
+            {/* Twitter Card */}
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:title" content={metatitle} />
+            <meta name="twitter:description" content={metadescription} />
+            <meta name="twitter:image" content={metaImage} />
+            <meta name="twitter:url" content={metaURL} />
+          </Helmet>
       <HeaderForm />
       <div className="cs_service_details">
 

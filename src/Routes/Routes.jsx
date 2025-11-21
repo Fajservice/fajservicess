@@ -1559,10 +1559,6 @@ export const router = createBrowserRouter([
         element:<Navigate to="/cigar-humidor-repair/" replace />
       },
       {
-        path:"/blog/blog-details",
-        element:<Navigate to="/blogs/" replace />
-      },
-      {
         path:"/coffee-machine-repair/",
         element:<Navigate to="/coffee-machine-service-center-in-dubai/" replace />
       },
@@ -1623,16 +1619,206 @@ export const router = createBrowserRouter([
         element:<Navigate to="/ac-repair-dubai/" replace />
       },
       {
-        path:"/blog/Refrigerator-Repair-Near-Me/",
-        element:<Navigate to="/blog/swift-solutions-refrigerator-repair-near-me-for-quick-fixes/" replace />
-      },
-      {
         path:"/dishwasher-cleaning-guidee/",
         element:<Navigate to="/dishwasher-cleaning-guide/" replace />
+      },
+    
+      {
+        path:"/bompani-modena-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/dist/img/Kitchen-Equipment-Maintenance-Service.jpg/",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/dist/img/Laundry-equipment-services.jpg",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/dist/img/feature_img_1.webp",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/assets/images/icons/ovens-app.svg",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/assets/images/icons/fridge-freezer-app.svg",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/assets/images/icons/ppm.png",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/appliances-services-in-the-greens-4/",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/ac-services-in-dubailand-mazaya-queue.php",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/dist/img/ourvalues/",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/skm-ac-installation-maintenance-repair-fix-service-in-dubai/",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/lennox-ac-installation-maintenance-repair-fix-service-in-dubai/",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/washer-dryer-service-in-dubai/",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/maytag-home-appliance-installation-maintenance-repair-fix-service-in-dubai/",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/ac-services-in-jumeirah-golf-estates.php",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/bosch-home-appliances-repair/",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/white-westinghouse-fridge-repair-in-dubai-white-westinghouse-washing-machine-repair-in-dubai-white-westinghouse-cooker-repair-in-dubai-white-westinghouse-oven-repair-in-dubai-white-westinghouse-applia.php",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/ac-services-jumeirah-park.php",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/rheem-ac-installation-maintenance-repair-fix-service-in-dubai/",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/ac-services-in-jumeirah-village-circle.php",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/assets/react-vendor-BHMQA5SJ.js:11:109109",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/form/contact-form.php",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/assets/react-vendor-BTxBydMo.js:11:104284",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/appliances-services-in-jebel-ali-dip.php",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/ac-services-in-the-villa.php",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/appliances-services-in-bur-dubai.php",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/washer-dryer-service/",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/appliances-services-in-dubai-sports-city.php",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/appliances-services-in-jebel-ali-free-zone.php",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/coleman-ac-repair-in-dubai-coleman-ac-maintenance-in-dubai-coleman-ac-fix-in-dubai-coleman-ac-service-in-dubai-coleman-air-condition-repair-in-dubai-coleman-air-condition-maintenance-in-dubai-coleman.php",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/ac-services-in-arabian-ranches-2.php",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/hitachi-ac-repair-in-dubai-hitachi-ac-maintenance-in-dubai-hitachi-ac-fix-in-dubai-hitachi-ac-service-in-dubai-hitachi-air-condition-repair-in-dubai-hitachi-air-condition-maintenance-in-dubai-hitachi.php",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/ac-services-in-jvt.php",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/ac-services-in-dubai-studio-city.php",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/sanyo-home-appliance-installation-maintenance-repair-fix-service-in-dubai.php",
+        element:<Navigate to="/" replace />
+      },
+      {
+        path:"/wolf-home-appliance-installation-maintenance-repair-fix-service-in-dubai.php",
+        element:<Navigate to="/" replace />
+      },
+      // Blogs Redirect
+      {
+        path:"/blog/blog-details",
+        element:<Navigate to="/blogs/" replace />
+      },
+      {
+        path:"/blog/hvac-contractor-in-dubai-your-ultimate-guide-2023.php",
+        element:<Navigate to="/blog/hvac-contractor-in-dubai-your-ultimate-guide-2023/" replace />
+      },
+      {
+        path:"/blog/top-loading-washing-machines-a-complete-guidelines.php",
+        element:<Navigate to="/blog/top-loading-washing-machines-a-complete-guidelines/" replace />
+      },
+      {
+        path:"/blog/its-time-for-an-ac-cleaning.php",
+        element:<Navigate to="/blog/its-time-for-an-ac-cleaning" replace />
+      },
+      {
+        path:"/blog/front-loading-washing-machines.php",
+        element:<Navigate to="/blog/front-loading-washing-machines" replace />
+      },
+      {
+        path:"/blog/the-gas-cooker-a-reliable-appliance-for-modern-kitchens.php",
+        element:<Navigate to="/blog/the-gas-cooker-a-reliable-appliance-for-modern-kitchens/" replace />
+      },
+      {
+        path:"/blog/ai-made-automatic-office-coffee-machines-are-future.php",
+        element:<Navigate to="/blog/ai-made-automatic-office-coffee-machines-are-future/" replace />
+      },
+      {
+        path:"/blog/ai-made-automatic-office-coffee-machines-are-future.php",
+        element:<Navigate to="/blog/ai-made-automatic-office-coffee-machines-are-future/" replace />
       },
       {
         path:"/blog/ac-repair-maintenance-difference.php",
         element:<Navigate to="/blog/ac-repair-maintenance-difference/" replace />
+      },
+      {
+        path:"/blog/Refrigerator-Repair-Near-Me/",
+        element:<Navigate to="/blog/swift-solutions-refrigerator-repair-near-me-for-quick-fixes/" replace />
+      },
+      {
+        path:"/blog/what-is-vent-mode.php",
+        element:<Navigate to="/blog/what-is-vent-mode/" replace />
+      },
+      {
+        path:"/blog/what-is-ac-filter.php",
+        element:<Navigate to="/blog/what-is-ac-filter/" replace />
+      },
+      {
+        path:"/blog/how-to-set-ac-temperature-for-cooling.php",
+        element:<Navigate to="/blog/how-to-set-ac-temperature-for-cooling/" replace />
       },
 
     ],

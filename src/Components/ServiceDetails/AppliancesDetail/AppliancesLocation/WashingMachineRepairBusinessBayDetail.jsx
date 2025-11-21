@@ -22,7 +22,9 @@ import ApplianceSpecialise  from "./ApplianceSpecialise/ApplianceSpecialise.jsx"
 const WashingMachineRepairBusinessBayDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Washing Machine Repair Business Bay - Refrigerator Service");
+  const metatitle = titleSeo?.trim()
+        ? titleSeo
+        : "Washing Machine Repair Business Bay - Refrigerator Service";
   const metadescription = String(description || "FAJ washing machine repair business bay. Get same day Bosch, Electrolux, Siemens, Teka, Daewoo refrigerator, dryer, dishwasher, oven service near me");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");

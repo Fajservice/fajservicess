@@ -24,7 +24,9 @@ import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 const AcRepairInHudaibaDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "AC Services In Hudaiba - Emergency AC Repair Service Nearby");
+    const metatitle = titleSeo?.trim()
+        ? titleSeo
+        : "AC Services In Hudaiba - Emergency AC Repair Service Nearby";
     const metadescription = String(description || "Quick and Best Price AC Services in Hudaiba Dubai. We are experts in central & split AC (Air Condition) repairing service near me Dubai Fix A/C");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaKeyword = String(Keyword || "ac service in hudaiba, ac repair in hudaiba, ac maintenance in hudaiba, ac cleaning in hudaiba, ac installation in hudaiba, ac technician in hudaiba, ac servicing in hudaiba, air conditioning service in hudaiba, air conditioning repair in hudaiba, air conditioning maintenance in hudaiba");

@@ -22,7 +22,9 @@ import Testimonial1 from "../../../Testimonial/Testimonial1";
 const AcRepairInAlMirdifDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "AC Services In Al Mirdif - Inverter AC Repairs Near Me #1");
+  const metatitle = titleSeo?.trim()
+        ? titleSeo
+        : "AC Services In Al Mirdif - Inverter AC Repairs Near Me #1";
   const metadescription = String(description || "FAJ Provides Inverter AC Services in Al Mirdif, Our Technicians are Experts in HVAC Air Condition Maintenance & Repair near me Dubai AC Fixing.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "AC Repair in Al Mirdif, Air Conditioning Service in Al Mirdif, Air Con Maintenance & AC Installation in Al Mirdif");

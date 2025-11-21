@@ -21,7 +21,9 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const DaikoolAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Trusted Daikool AC Repair & Maintenance in Dubai | Cleaning");
+  const metatitle = titleSeo?.trim()
+        ? titleSeo
+        : "Trusted Daikool AC Repair & Maintenance in Dubai | Cleaning";
   const metadescription = String(description || "For Daikool AC repair in Dubai, call us at 043300002. Get the best air conditioning (A/C) maintenance and service near your location.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Daikool AC Repair in Dubai, Daikool Air Conditioner Maintenance, Daikool AC Service, Daikool AC Fix, Daikool Air Condition Repair, Daikool Air Condition Maintenance, Daikool Air Condition Service");

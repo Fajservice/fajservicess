@@ -19,7 +19,9 @@ import Testimonial1 from "../../../Testimonial/Testimonial1";
 
 const IndesitWashingMachineDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Indesit Fridge Repair in Dubai | Washing Machine Service Near Me");
+   const metatitle = titleSeo?.trim() 
+  ? titleSeo 
+  : "Indesit Fridge Repair in Dubai | Washing Machine Service Near Me";
   const metadescription = String(description || "FAJ provides warranty for Indesit fridge repair in Dubai. Get expert washer dryer, refrigerator, cooker, and oven service center near you. 043300002.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
