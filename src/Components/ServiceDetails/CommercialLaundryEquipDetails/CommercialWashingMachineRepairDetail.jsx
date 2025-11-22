@@ -11,7 +11,6 @@ import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import 'swiper/swiper-bundle.css';
 import testimonial_data from '../../../Data/CommercialLaundryEquipData/Testmonials/CommercialWashingMachineRepairTestimonial.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
-import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
 import Testimonial1 from "../../Testimonial/Testimonial1";
 import { FaEye } from "react-icons/fa";
@@ -19,8 +18,6 @@ import { FaEyeSlash } from "react-icons/fa";
 
 const CommercialWashingMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , description, Author, Keyword, URL }) => {
   // For SEO
-  <title>Commercial Washing Machine Repair & Maintenance in Dubai</title>
-  const metadescription = String(description || "FAJ | Commercial washing machine repair technicians in Dubai. Book for quality work, Laundry equipment maintenance, washer, dryer services & AMC");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial Washing Machine repair, Commercial Washing Machine service, Commercial Washing Machine maintenance, Commercial Washing Machine AMC, Commercial Washing Machine Dubai, Commercial Washing Machine Sharjah, Commercial Washing Machine repair Dubai, Commercial Washing Machine repair Sharjah, Commercial Laundry Equipment Service, Commercial Laundry Equipment Repair");
   const metaURL = String(URL || "https://www.fajservices.ae/commercial-washing-machine-repair/").replace(/\/?$/, '/');
@@ -136,8 +133,8 @@ const metaImage = String(Image || "https://www.fajservices.ae/img/banners/Commer
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content={metatitle} />
-          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:title" content="Commercial Washing Machine Repair & Maintenance in Dubai" />
+          <meta name="twitter:description" content="FAJ | Commercial washing machine repair technicians in Dubai. Book for quality work, Laundry equipment maintenance, washer, dryer services & AMC" />
           <meta name="twitter:image" content={metaImage} />
           <meta name="twitter:url" content={metaURL} />
         </Helmet>

@@ -84,8 +84,8 @@ const CrafftAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
     <>
       <HelmetProvider>
         <Helmet>
-          <title>{metatitle}</title>
-          <meta name="description" content={metadescription} />
+          <title>Affordable Crafft AC Repair and Maintenance Service in Dubai</title>
+          <meta name="description" content="Need fast and affordable Crafft AC repair in Dubai? Get expert A/C installation, service & emergency repairs today. Trusted by thousands – Book now." />
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
@@ -93,15 +93,15 @@ const CrafftAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
           <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content={metatitle} />
-          <meta property="og:description" content={metadescription} />
+          <meta property="og:title" content="Affordable Crafft AC Repair and Maintenance Service in Dubai" />
+          <meta property="og:description" content="Need fast and affordable Crafft AC repair in Dubai? Get expert A/C installation, service & emergency repairs today. Trusted by thousands – Book now." />
           <meta property="og:url" content={metaURL} />
           <meta property="og:image" content={metaImage} />
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content={metatitle} />
-          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:title" content="Affordable Crafft AC Repair and Maintenance Service in Dubai" />
+          <meta name="twitter:description" content="Need fast and affordable Crafft AC repair in Dubai? Get expert A/C installation, service & emergency repairs today. Trusted by thousands – Book now." />
           <meta name="twitter:image" content={metaImage} />
           <meta name="twitter:url" content={metaURL} />
         </Helmet>
