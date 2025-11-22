@@ -143,7 +143,7 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
-          <link rel="canonical" href="Gas Cooker Repair in Dubai | Electric Stove Service Near Me" />
+          <link rel="canonical" href="https://www.fajservices.ae/gas-cooker-repair-service/" />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:title" content="Gas Cooker Repair in Dubai | Electric Stove Service Near Me" />
@@ -152,8 +152,8 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content={metatitle} />
-          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:title" content="Gas Cooker Repair in Dubai | Electric Stove Service Near Me" />
+          <meta name="twitter:description" content="Gas cooker repair in Dubai. Call at 043300002 for gas & electric stove service near me. Get FAJ expert fast fix cooking range, hood, induction repairs" />
           <meta name="twitter:image" content={metaImage} />
           <meta name="twitter:url" content={metaURL} />
         </Helmet>

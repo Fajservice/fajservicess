@@ -20,8 +20,6 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const BlueStarAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Low Prices Service | Blue Star AC Repair and Maintenance Dubai");
-  const metadescription = String(description || "FAJ, providing Blue Star AC repair in Dubai, with the finest and most comprehensive range of services, to take care of your air conditioning system.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Bluestar AC Repair in Dubai, BlueStar Air Conditioner Service, BlueStar AC Maintenance, BlueStar AC Installation, BlueStar AC Cleaning Service, BlueStar Air Conditioner Repair Near Me");
   const metaURL = String(URL || "https://www.fajservices.ae/blue-star-ac-repair-in-dubai-blue-star-ac-maintenance-in-dubai-blue-star-ac-fix-in-dubai-blue-star-ac-service-in-dubai-blue-star-air-condition-repair-in-dubai-blue-star-air-condition-maintenance-in-du/").replace(/\/?$/, '/');
@@ -84,8 +82,8 @@ const BlueStarAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
     <>
       <HelmetProvider>
         <Helmet>
-          <title>{metatitle}</title>
-          <meta name="description" content={metadescription} />
+          <title>Low Prices Service | Blue Star AC Repair and Maintenance Dubai</title>
+          <meta name="description" content="FAJ, providing Blue Star AC repair in Dubai, with the finest and most comprehensive range of services, to take care of your air conditioning system." />
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
@@ -93,15 +91,15 @@ const BlueStarAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, A
           <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content={metatitle} />
-          <meta property="og:description" content={metadescription} />
+          <meta property="og:title" content="Low Prices Service | Blue Star AC Repair and Maintenance Dubai" />
+          <meta property="og:description" content="FAJ, providing Blue Star AC repair in Dubai, with the finest and most comprehensive range of services, to take care of your air conditioning system." />
           <meta property="og:url" content={metaURL} />
           <meta property="og:image" content={metaImage} />
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content={metatitle} />
-          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:title" content="Low Prices Service | Blue Star AC Repair and Maintenance Dubai" />
+          <meta name="twitter:description" content="FAJ, providing Blue Star AC repair in Dubai, with the finest and most comprehensive range of services, to take care of your air conditioning system." />
           <meta name="twitter:image" content={metaImage} />
           <meta name="twitter:url" content={metaURL} />
         </Helmet>

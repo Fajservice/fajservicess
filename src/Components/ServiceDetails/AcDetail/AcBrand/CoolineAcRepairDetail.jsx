@@ -21,8 +21,6 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "HVAC Maintenance Services | Cooline AC Repair In Dubai");
-  const metadescription = String(description || "Get emergency Cooline AC repair in Dubai by FAJ Co., We are experts in aircon gas refilling, spare parts replacement, AMC services and installation near.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Cooline AC Repair, Cooline Air Conditioner Service, Cooline AC Maintenance Dubai, Cooline AC Fix Dubai, Cooline Air Condition Repair Dubai, Cooline Air Condition Maintenance Dubai, Cooline AC Service Dubai, Cooline Air Conditioner Repair Dubai, Cooline Air Conditioner Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/cooline-ac-repair-in-dubai-cooline-ac-maintenance-in-dubai-cooline-ac-fix-in-dubai-cooline-ac-service-in-dubai-cooline-air-condition-repair-in-dubai-cooline-air-condition-maintenance-in-dubai-cooline").replace(/\/?$/, '/');
@@ -84,24 +82,24 @@ const CoolineAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
     <>
       <HelmetProvider>
         <Helmet>
-          <title>{metatitle}</title>
-          <meta name="description" content={metadescription}></meta>
+          <title>HVAC Maintenance Services | Cooline AC Repair In Dubai</title>
+          <meta name="description" content="Get emergency Cooline AC repair in Dubai by FAJ Co., We are experts in aircon gas refilling, spare parts replacement, AMC services and installation near."></meta>
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
 
           <link rel="canonical" href={metaURL} />
-          <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content={metatitle} />
-          <meta property="og:description" content={metadescription} />
+          <meta property="og:title" content="HVAC Maintenance Services | Cooline AC Repair In Dubai" />
+          <meta property="og:description" content="Get emergency Cooline AC repair in Dubai by FAJ Co., We are experts in aircon gas refilling, spare parts replacement, AMC services and installation near." />
           <meta property="og:image" content={metaImage} />
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content={metatitle} />
-          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:title" content="HVAC Maintenance Services | Cooline AC Repair In Dubai" />
+          <meta name="twitter:description" content="HVAC Maintenance Services | Cooline AC Repair In Dubai" />
+          <meta property="og:description" content="Get emergency Cooline AC repair in Dubai by FAJ Co., We are experts in aircon gas refilling, spare parts replacement, AMC services and installation near." />
           <meta name="twitter:image" content={metaImage} />
           <meta name="twitter:url" content={metaURL} />
         </Helmet>

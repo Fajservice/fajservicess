@@ -21,8 +21,6 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const ColemenAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Coleman Ac Repair in Dubai | Air Conditioning Cleaning");
-  const metadescription = String(description || "Relax with Coleman. Book an 043300002 for Coleman AC Repair in Dubai. We are experts in HVAC, Central Air Conditioner maintenance service near me");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Coleman Ac Repair in Dubai, Coleman Air Conditioner Maintenance, Coleman AC Service, Coleman AC Fix, Coleman Air Condition Repair, Coleman Air Condition Maintenance, Coleman AC Service in Dubai, Coleman Air Conditioner Repair in Dubai, Coleman Air Conditioner Service in Dubai, Coleman AC Repair Dubai, Coleman AC Service Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/coleman-ac-repair-in-dubai-coleman-ac-maintenance-in-dubai-coleman-ac-fix-in-dubai-coleman-ac-service-in-dubai-coleman-air-condition-repair-in-dubai-coleman-air-condition-maintenance-in-dubai-coleman/").replace(/\/?$/, '/');
@@ -84,8 +82,8 @@ const ColemenAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
     <>
       <HelmetProvider>
         <Helmet>
-          <title>{metatitle}</title>
-          <meta name="description" content={metadescription} />
+          <title>Coleman Ac Repair in Dubai | Air Conditioning Cleaning</title>
+          <meta name="description" content="Relax with Coleman. Book an 043300002 for Coleman AC Repair in Dubai. We are experts in HVAC, Central Air Conditioner maintenance service near me" />
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
@@ -93,15 +91,15 @@ const ColemenAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Au
           <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content={metatitle} />
-          <meta property="og:description" content={metadescription} />
-          <meta property="og:url" content={metaURL} />
+          <meta property="og:title" content="Coleman Ac Repair in Dubai | Air Conditioning Cleaning" />
+          <meta property="og:description" content="Relax with Coleman. Book an 043300002 for Coleman AC Repair in Dubai. We are experts in HVAC, Central Air Conditioner maintenance service near me" />
+          <meta property="og:url" content={metaURL}/>
           <meta property="og:image" content={metaImage} />
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content={metatitle} />
-          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:title" content="Coleman Ac Repair in Dubai | Air Conditioning Cleaning" />
+          <meta name="twitter:description" content="Relax with Coleman. Book an 043300002 for Coleman AC Repair in Dubai. We are experts in HVAC, Central Air Conditioner maintenance service near me" />
           <meta name="twitter:image" content={metaImage} />
           <meta name="twitter:url" content={metaURL} />
         </Helmet>

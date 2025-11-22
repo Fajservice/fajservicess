@@ -20,8 +20,6 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Top Aftron AC Repair & Maintenance Service In Dubai | FAJ");
-  const metadescription = String(description || "In the hot summertime, are you looking for an Air Conditioning fix? Call now 043300002 for Aftron AC repair & Maintenance Service near me, Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Aftron AC Repair, Aftron AC Maintenance, Aftron AC Service, Aftron Air Conditioner Repair Dubai, Aftron Air Conditioner Service Dubai, Aftron Air Conditioner Maintenance Dubai, Aftron Air Conditioner Installation Dubai, Aftron Air Conditioner Cleaning Dubai, Aftron AC Repair Dubai, Aftron AC Service Dubai, Aftron AC Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/aftron-ac-repair-maintenance-service-in-dubai-2").replace(/\/?$/, '/');
@@ -82,25 +80,23 @@ const AftronAcRepair = ({ subtitle, title, reviewsbg, titleSeo, description, Aut
     <>
       <HelmetProvider>
         <Helmet>
-          <title>{metatitle}</title>
-          <meta name="description" content={metadescription} />
+          <title>Top Aftron AC Repair & Maintenance Service In Dubai | FAJ</title>
+          <meta name="description" content="In the hot summertime, are you looking for an Air Conditioning fix? Call now 043300002 for Aftron AC repair & Maintenance Service near me, Dubai" />
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
-
-
-          <link rel="canonical" href={metaURL} />
+          <link rel="canonical" href="https://www.fajservices.ae/aftron-ac-repair-maintenance-service-in-dubai-2" />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content={metatitle} />
-          <meta property="og:description" content={metadescription} />
+          <meta property="og:title" content="Top Aftron AC Repair & Maintenance Service In Dubai | FAJ" />
+          <meta property="og:description" content="In the hot summertime, are you looking for an Air Conditioning fix? Call now 043300002 for Aftron AC repair & Maintenance Service near me, Dubai" />
           <meta property="og:url" content={metaURL} />
           <meta property="og:image" content={metaImage} />
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content={metatitle} />
-          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:title" content="Top Aftron AC Repair & Maintenance Service In Dubai | FAJ" />
+          <meta name="twitter:description" content="In the hot summertime, are you looking for an Air Conditioning fix? Call now 043300002 for Aftron AC repair & Maintenance Service near me, Dubai" />
           <meta name="twitter:image" content={metaImage} />
           <meta name="twitter:url" content={metaURL} />
         </Helmet>
