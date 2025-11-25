@@ -21,7 +21,7 @@ import Testimonial1 from "../../Testimonial/Testimonial1";
 const KitchenEquipmentRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Commercial Kitchen Equipment Maintenance Services in Dubai");
-  const metadescription = String(description || "Commercial kitchen equipment maintenance services in Dubai? FAJ offers restaurant, hotel gas range, stove, professional oven, fryer repair & AMC");
+  const metadescription = String(description || "Need expert commercial kitchen equipment maintenance services? FAJ offers restaurant cooking, stove, gas range, oven, & fryer repair near me in Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Kitchen Equipment Repair, Commercial Cooking Equipment Repair");
   const metaURL = String(URL || "https://www.fajservices.ae/commercial-kitchen-equipment-maintenance-services/").replace(/\/?$/, '/');
@@ -158,7 +158,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Commercial Kitchen Equipment Maintenance Services</h1>
+            <h1 className="cs_fs_30">Commercial Kitchen Equipment Maintenance Services and Repair in Dubai</h1>
             <p>Kitchen Equipment Maintenance Solutions, a division of FAJ Technical Services L.L.C established in 2010, specialises in the repair and maintenance of food service equipment within the commercial kitchen sector in Dubai, UAE.<br />
               Our primary objective is to ensure the optimal functioning of our clients' commercial kitchen equipment maintenance services and repair while fully complying with all regulatory requirements in Dubai.<br />
               We are a reliable provider of repair, maintenance, and servicing, catering to a diverse range of establishments, including restaurants, hotels, and kitchens in schools, colleges, and hospitals.

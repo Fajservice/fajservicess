@@ -27,7 +27,7 @@ import BeforeAfter from "../../BeforeAfter/BeforeAfter";
 const BBQServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Barbeque Repair in Dubai | BBQ Grill Cleaning Service Near Me");
-  const metadescription = String(description || "Barbeque grill repair in Dubai. Call 04-3300002 for your BBQ grill cleaning service near me, gas BBQ burner, oven & electric BBQ servicing & maintenance");
+  const metadescription = String(description || "Get Barbeque Repair in Dubai. Book now for your BBQ grill cleaning, built in gas grill burner, oven & electric BBQ deep service & maintenance near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "BBQ Repair, BBQ Grill Cleaning Service, Barbeque Repair Dubai, Weber Repair, Electric BBQ Grill Repair Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/barbeque-repair-in-dubai-barbeque-maintenance-in-dubai-bbq-service-in-dubai/").replace(/\/?$/, '/');
@@ -163,7 +163,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Barbecue Repair – Best BBQ Grill Cleaning Service Dubai</h1>
+            <h1 className="cs_fs_30">Barbeque Repair in Dubai | Gas & Electric BBQ Grill Cleaning Service</h1>
             <p>FAJ has been providing reliable barbecue grill repair, maintenance, and cleaning services in Dubai and Sharjah since 2010. Our quick barbeque grill repair service near you helps you get your BBQ grill back in working order so you can enjoy cooking your favourite meals. If your barbecue is malfunctioning, please contact our customer service. The gas or electric barbecue grill may require repairs due to performance issues that affect cooking quality or pose safety risks.</p>
 
             <div id="get-quote" className=" mt-3">

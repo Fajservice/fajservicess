@@ -119,22 +119,22 @@ const metaImage = String(Image || "https://www.fajservices.ae/img/banners/Commer
     <>
        <HelmetProvider>
         <Helmet>
-          <title>Commercial Washing Machine Repair & Maintenance in Dubai</title>
-          <meta name="description" content="FAJ | Commercial washing machine repair technicians in Dubai. Book for quality work, Laundry equipment maintenance, washer, dryer services & AMC"></meta>
+          <title>Commercial Washing Machine Repair & Maintenance Service</title>
+          <meta name="description" content="FAJ Experts provide commercial washing machine repair in Dubai. Book for quality work, commercial laundry, washer, dryer maintenance & AMC services"></meta>
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
           <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content="Commercial Washing Machine Repair & Maintenance in Dubai" />
-          <meta property="og:description" content="FAJ | Commercial washing machine repair technicians in Dubai. Book for quality work, Laundry equipment maintenance, washer, dryer services & AMC" />
+          <meta property="og:title" content="Commercial Washing Machine Repair & Maintenance Service" />
+          <meta property="og:description" content="FAJ Experts provide commercial washing machine repair in Dubai. Book for quality work, commercial laundry, washer, dryer maintenance & AMC services" />
           <meta property="og:image" content={metaImage} />
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Commercial Washing Machine Repair & Maintenance in Dubai" />
-          <meta name="twitter:description" content="FAJ | Commercial washing machine repair technicians in Dubai. Book for quality work, Laundry equipment maintenance, washer, dryer services & AMC" />
+          <meta name="twitter:title" content="Commercial Washing Machine Repair & Maintenance Service" />
+          <meta name="twitter:description" content="FAJ Experts provide commercial washing machine repair in Dubai. Book for quality work, commercial laundry, washer, dryer maintenance & AMC services" />
           <meta name="twitter:image" content={metaImage} />
           <meta name="twitter:url" content={metaURL} />
         </Helmet>
@@ -145,7 +145,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/img/banners/Commer
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Commercial Washing Machine Repair  - Laundry Equipment, Washer & Dryer Maintenance Services in Dubai</h1>
+            <h1 className="cs_fs_30">Commercial Washing Machine Repair & Maintenance Service in Dubai</h1>
             {/* <h2 className="cs_fs_30">Choose Commercial Washing Machine Service Center for Same-Day Repairs in Dubai</h2> */}
             <p>
               Since 2010, FAJ has been a trusted name in Commercial Washing Machine repair and service in Dubai and Sharjah. Our skilled professionals are ready to assist with any brand, using high-quality tools for effective service.

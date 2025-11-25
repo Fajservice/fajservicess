@@ -25,8 +25,8 @@ import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointme
 
 const HobRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => { 
   // For SEO
-  const metatitle = String(titleSeo || "Ceramic Hob Repair in Dubai | Electric Hob Service Near Me");
-  const metadescription = String(description || "Having issues with your Gas hob repair in Dubai? Call 043300002 for electric Induction, cooker service center near me with a warranty spare parts."); 
+  const metatitle = String(titleSeo || "Hob Repair & Service in Dubai | Stove Repairs Near Me");
+  const metadescription = String(description || "Having issues with your hob repair in Dubai? Book with us for gas or electric Induction stove, cooking range centre near me with a warranty of parts."); 
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Electric Hob Repair, Gas Hob Repair, Gas Hob Service");
   const metaURL = String(URL || "https://www.fajservices.ae/hob-repair-service/").replace(/\/?$/, '/');
@@ -164,7 +164,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Hob Repair Service Dubai</h1>
+            <h1 className="cs_fs_30">Hob Repair & Service in Dubai | Gas & Electric Stove Repairs</h1>
             <p>Since 2010, we have been providing reliable electric hob repair services.<br />We recognise that hobs can break down unexpectedly, so we provide high-quality and affordable cooker hob repair. Our trained technicians are available throughout Dubai and Sharjah to repair your electric or gas hob and stove service at your location.</p>
 
             <div id="get-quote" className=" mt-3">

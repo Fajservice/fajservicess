@@ -26,8 +26,8 @@ import Testimonial1 from "../../Testimonial/Testimonial1";
 
 const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Washing Machine Repair | Washing Machine Service in Dubai");
-  const metadescription = String(description || "FAJ is an expert in washing machine repair & service center in Dubai. Call 04 3300002 for washer dryer repairs, laundry machine maintenance near me.");
+  const metatitle = String(titleSeo || "Washing Machine Repair & Maintenance Services in Dubai");
+  const metadescription = String(description || "We are experts in washing machine repair & service in Dubai. Call us for washer dryer, laundry machine maintenance services near me with parts warranty");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Washing Machine Repair, Washing Machine Maintenance, Washing Machine Service");
   const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-service-dubai/").replace(/\/?$/, '/');
@@ -163,7 +163,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Washing Machine Repair Service in Dubai</h1>
+            <h1 className="cs_fs_30">Washing Machine Repair & Service in Dubai | Washer Dryer Maintenance</h1>
             <p>Since 2010, FAJ Technical Services L.L.C has offered reliable installation, maintenance, and repair for all brands of washing machines, dryers, and laundry systems in Dubai and Sharjah.<br />Our experts are here to assist with any issues, from top-loading and front-loading washing machine repair and service near you. You can trust us to keep your washing machine running smoothly.<br /> You can rely on us for both routine repairs and emergency washing machine service. Contact us now for reliable services at competitive prices!</p>
 
             <div id="get-quote" className=" mt-3">

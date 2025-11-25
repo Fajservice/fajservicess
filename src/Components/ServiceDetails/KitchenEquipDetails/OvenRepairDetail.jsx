@@ -19,8 +19,8 @@ import Testimonial1 from "../../Testimonial/Testimonial1";
 
 const OvenRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Oven Repair in Dubai | Restaurant Oven Maintenance Services");
-  const metadescription = String(description || "Commercial oven repair in Dubai? FAJ expert deck oven, convection, combi ovens, gas & electric pizza ovens maintenance AMC service near me");
+  const metatitle = String(titleSeo || "Pizza Oven Repair in Dubai | Commercial Oven Maintenance");
+  const metadescription = String(description || "Looking for Pizza Oven Repair in Dubai? FAJ expert Deck oven, Convection, Combi oven, Gas ovens, electric ovens maintenance service near me & AMC");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Rational Oven Repair Service, Combi Oven Repair Service, Commercial Oven Repair Service");
   const metaURL = String(URL || "https://www.fajservices.ae/oven-repair/").replace(/\/?$/, '/');
@@ -155,7 +155,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Commercial Oven Repair and Maintenance Services</h1>
+            <h1 className="cs_fs_30">Pizza Oven Repair in Dubai | Commercial Oven Maintenance Services</h1>
             <p>
               Looking for affordable oven repair? At FAJ Technical Services L.L.C, we've been serving Dubai since 2010, offering trustworthy repair solutions.
               Our skilled technicians can handle various oven issues, including electric, gas range, and electric ovens.

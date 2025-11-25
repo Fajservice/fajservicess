@@ -14,7 +14,7 @@ const AboutPage = () => {
         <>
              <HelmetProvider>
         <Helmet>
-          <title>Our Story: Learn About Who We Are | FAJ Technical Services LLC</title>
+          <title>Our Story: About us | Who We Are | FAJ Technical Services L.L.C</title>
           <meta name="description" content="Discover the story behind FAJ Tech and learn about our commitment to quality repair services. Find out who we are and what drives us to serve you better."></meta>
           <meta name="keywords" content="About FAJ Group" />
           <meta name="author" content="FAJ Technical Services L.L.C." />
