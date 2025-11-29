@@ -20,7 +20,7 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const BekoFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Beko Appliance Service |  Beko Fridge Repair & Maintenance Dubai");
+  const metatitle = String(titleSeo || "Beko Fridge Repair and Washing Machine Service in Dubai");
   const metadescription = String(description || "Our expert technicians are here to help with all your appliance needs. Call Beko fridge repair, dishwasher, oven, or washing machine service near you.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
@@ -118,7 +118,7 @@ const BekoFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Beko Home Appliance Repair Service and Installation</h1>
+            <h1 className="cs_fs_30">Beko Fridge Repair and Washing Machine Service in Dubai</h1>
             <p>
               Having trouble finding a local technician who specializes in Beko kitchen appliances? <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has offered dependable and cost-effective repair services since 2010. We work with a broad network of experienced, vetted professionals. We’ll dispatch a technician who knows your specific Beko appliance whenever available to ensure accurate, efficient service at your doorstep.
             </p>

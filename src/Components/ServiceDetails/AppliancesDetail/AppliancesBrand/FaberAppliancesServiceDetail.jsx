@@ -22,7 +22,7 @@ const FaberAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
 
     // For SEO
     const metatitle = String(titleSeo || "Faber Appliances Service | Faber Oven Repair in Dubai");
-    const metadescription = String(description || "Faber Appliance service FAJ offers reliable repair for oven, cooking range, hood, dishwasher, washing machine, and refrigerator in Dubai.");
+    const metadescription = String(description || "Faber Appliance Service FAJ offers reliable repair for oven, cooking range, hood, dishwasher, washing machine, and refrigerator in Dubai.");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Faber Appliances Service, Faber Oven Repair, Faber Dishwasher Repair, Faber Washing Machine Repair, Faber Fridge Repair, Faber Cooker Repair, Faber Hood Repair, Faber Appliance Maintenance Dubai");
@@ -116,7 +116,7 @@ const FaberAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Faber Home Appliance Repair Service and Installation</h1>
+                        <h1 className="cs_fs_30">Faber Appliances Service and Faber Oven Repair in Dubai</h1>
                         <p>
                             Having trouble finding a local technician who specializes in Faber kitchen appliances?
                             <br />At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been offering dependable and cost-effective services since 2010. We work with a wide network of experienced, qualified, and carefully vetted professionals. Whenever possible, we’ll send a technician who understands your specific Faber appliance to ensure you receive accurate and efficient repair service.

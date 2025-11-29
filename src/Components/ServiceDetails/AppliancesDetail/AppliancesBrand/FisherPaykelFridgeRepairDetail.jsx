@@ -21,7 +21,7 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const FisherPaykelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Fisher and Paykel Fridge Repair | Dishwasher Service in Dubai");
-  const metadescription = String(description || "Local Fisher & Paykel appliance service across Dubai. FAJ offers repair service for fridge, washer dryer, dishwasher, range, stove & oven with a warranty.");
+  const metadescription = String(description || "Fisher & Paykel fridge repair across Dubai. FAJ offers washer dryer, dishwasher, rcooker, ange, stove & oven repair service in Dubai with a warranty.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Fisher and Paykel Fridge Repair, Fisher and Paykel Washing Machine Repair, Fisher and Paykel Dishwasher Repair, Fisher and Paykel Stove Repair, Fisher and Paykel Oven Repair, Fisher and Paykel Appliance Service Dubai");
@@ -117,7 +117,7 @@ const FisherPaykelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, 
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Fisher & Paykel Home Appliance Repair Service and Installation</h1>
+            <h1 className="cs_fs_30">Fisher and Paykel Fridge Repair and Dishwasher Service in Dubai</h1>
             <p>
               Are you having trouble finding a local technician specializing in Fisher & Paykel kitchen appliances?
               At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been offering trusted and affordable repair services since 2010. Our extensive network of thoroughly vetted and experienced professionals ensures that, whenever possible, we’ll assign a technician with specific knowledge of your Fisher & Paykel appliance for efficient and accurate service.

@@ -24,7 +24,7 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const HitachiFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Hitachi Fridge Repair in Dubai | Refrigerator Service Near Me");
-  const metadescription = String(description || "Need service Hitachi refrigerator? FAJ offers fast and affordable, & reliable dishwasher, Hitachi fridge repair or built-in appliances and spare parts in Dubai");
+  const metadescription = String(description || "Need service Hitachi refrigerator repair in Dubai? FAJ offers fast and affordable, dishwasher, washing machine service or built-in appliances & spare parts");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Hitachi Fridge Repair, Hitachi Washing Machine Repair, Hitachi Cooker Repair, Hitachi Oven Repair, Hitachi Appliances Maintenance, Hitachi Refrigerator Fix, Hitachi Appliance Service Dubai");
@@ -120,7 +120,7 @@ const HitachiFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Hitachi Home Appliance Repair Service and Installation</h1>
+            <h1 className="cs_fs_30">Hitachi Fridge Repair in Dubai | Refrigerator Service Near Me </h1>
             <p>
               Having trouble locating a reliable Hitachi appliance technician for your kitchen appliances? <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been offering trusted, affordable service since 2010. Our extensive network of qualified and experienced professionals ensures we send a technician who knows your specific Hitachi appliance whenever possible.
             </p>

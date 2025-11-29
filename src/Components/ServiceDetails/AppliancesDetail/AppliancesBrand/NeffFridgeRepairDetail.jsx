@@ -22,7 +22,7 @@ const NeffFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
 
   // For SEO
   const metatitle = String(titleSeo || "Neff Fridge Repair in Dubai | Neff Dishwasher Service | Oven Fix");
-  const metadescription = String(description || "Book now NEFF appliances service with warranty? We offer NEFF fridge repair in Dubai. And washing machine, oven & stove service at our center nearby");
+  const metadescription = String(description || "FAJ offer Neff fridge repair in Dubai. And expert in washing machine, dryer, dishwasher, oven & stove, cooker service at our center nearby Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Neff Fridge Repair, Neff Washing Machine Repair, Neff Cooker Repair, Neff Oven Repair, Neff Appliances Maintenance, Neff Refrigerator Fix, Neff Dishwasher Service");
@@ -119,7 +119,7 @@ const NeffFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Neff Home Appliance Repair Service and Installation</h1>
+            <h1 className="cs_fs_30">Neff Fridge Repair and Neff Dishwasher Service in Dubai</h1>
             <p>
               Having difficulty finding a local Neff appliance technician with expertise in Neff kitchen appliances? At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we've been providing reliable and affordable repair services since 2010. Our broad network of thoroughly vetted, experienced professionals ensures that, whenever possible, we dispatch a technician who knows your specific Neff appliance inside and out.
             </p>

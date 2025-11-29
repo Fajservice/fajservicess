@@ -20,8 +20,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const GaggenauFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Gaggenau Fridge Repair | Stove & Oven Service in Dubai");
-  const metadescription = String(description || "FAJ specialises in Gaggenau refrigerator, range, dishwasher, repairs & washer service center. Book Gaggenau Fridge Repair in Dubai at 043300002");
+  const metatitle = String(titleSeo || "Gaggenau Fridge Repair in Dubai | Stove & Oven Service Near Me");
+  const metadescription = String(description || "FAJ specialises in Gaggenau fridge repair in Dubai and cooker, dishwasher, repairs, refrigerator freezer, and washer service centre near me");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Gaggenau Fridge Repair, Gaggenau Washing Machine Repair, Gaggenau Cooker Repair, Gaggenau Oven Repair, Gaggenau Appliances Maintenance, Gaggenau Refrigerator Service Dubai");
@@ -117,7 +117,7 @@ const GaggenauFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Gaggenau Home Appliance Repair Service and Installation</h1>
+            <h1 className="cs_fs_30">Gaggenau Fridge Repair in Dubai | Cooking Range & Oven Service </h1>
             <p>
               Having a hard time locating a local technician who specializes in Gaggenau kitchen appliances? At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been providing dependable and affordable repair services since 2010. Our extensive network of thoroughly screened and experienced professionals ensures that, whenever possible, we’ll assign a technician with hands-on experience in servicing your specific Gaggenau appliance.
 

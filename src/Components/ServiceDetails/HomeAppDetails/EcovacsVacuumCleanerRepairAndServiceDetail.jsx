@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState, useCallback } from "react";
 import { Link } from "react-router-dom";
-import data from '../../../Data/HomeAppData/FAQs/VacuumCleanerHomeappFaqs.json';
+import data from '../../../Data/HomeAppData/FAQs/EcovacsVacuumCleanerHomeappFaqs.json';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
@@ -12,7 +12,6 @@ import MaintenanceContract from "../../MaintenanceContract/MaintenanceContract";
 import 'swiper/swiper-bundle.css';
 import testimonial_data from '../../../Data/HomeAppData/Testmonials/VacuumCleanerHomeappTestimonials.json';
 import loadBackgroudImages from "../../Common/loadBackgroudImages";
-import parse from 'html-react-parser';
 import HeaderForm from "../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointmentCol";
 import BookingFormModal from '../../BookingFormModal';
@@ -21,13 +20,13 @@ import Testimonial1 from "../../Testimonial/Testimonial1";
 import BeforeAfter from "../../BeforeAfter/BeforeAfter";
 
 
-const VacuumCleanerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const EcovacsVacuumCleanerRepairAndServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Robot Vacuum Cleaner Repair | Vacuum Cleaner Service Center");
-  const metadescription = String(description || "Fast & Cheap Robot Vacuum Cleaner Repair in Dubai. Call us for upright canister, wet dry cordless vacuum cleaner repair near me & maintenance service");
+  const metatitle = String(titleSeo || "Ecovacs Vacuum Cleaner Repair and Service in Dubai");
+  const metadescription = String(description || "Ecovacs vacuum cleaner repair and service center in Dubai. Call FAJ 043300002 for vacuum cleaner repair near me, fix, servicing & maintenance.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaKeyword = String(Keyword || "Robot vacuum cleaner repair, vacuum cleaner service, Xiaomi vacuum repair, Roomba vacuum service, TP-Link vacuum cleaner repair, Eufy vacuum cleaner service, Anker vacuum repair");
-  const metaURL = String(URL || "https://www.fajservices.ae/robot-vacuum-cleaner-repair/").replace(/\/?$/, '/');
+  const metaKeyword = String(Keyword || "Ecovacs vacuum cleaner repair in Dubai, Ecovacs vacuum cleaner service center in Dubai, Ecovacs vacuum cleaner repair near me, fix Ecovacs vacuum cleaner, Ecovacs vacuum cleaner servicing, Ecovacs vacuum cleaner maintenance");
+  const metaURL = String(URL || "https://www.fajservices.ae/ecovacs-vacuum-cleaner-repair-and-service-in-dubai/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/img/inspection-robot-vacuum-cleaner.avif");
 
 
@@ -131,10 +130,8 @@ const [isModalOpen, setIsModalOpen] = useState(false);
         <section className="section cs_py_30">
           <div className="container">
 
-            <h1 className="cs_fs_30">Robot Vacuum Cleaner Repair & Vacuum Cleaner Service Center in Dubai</h1>
-            <p>FAJ is a reliable company established in 2010. We provide all types of vacuum cleaners. At FAJ, we are committed to your right to repair your robotic vacuum cleaner by offering affordable repair and servicing options.
-              <br />We aim to help you avoid costly replacements and reduce waste. We provide comprehensive error fixing, repair, and servicing for robot vacuum cleaners, along with the necessary parts and products throughout Dubai, Abu Dhabi, and Sharjah. FAJ offers all your robot vacuum cleaner repair and maintenance needs under one roof.
-            </p>
+            <h1 className="cs_fs_30">Ecovacs Vacuum Cleaner Repair & Service in Dubai</h1>
+            <p>FAJ Technical Services L.L.C, established in 2010, is a trusted service provider for DEEBOT Robotic vacuum cleaner repair and WINBOT Robotic Window Cleaner service center near you in Dubai, Sharjah, and Abu Dhabi.<br />We focus on offering affordable vacuum cleaner repair and vacuum servicing options to help you avoid costly replacements and reduce waste.<br />Our comprehensive services include error diagnosis, repairs, and necessary parts for robot vacuum cleaners, all conveniently available near in your location.</p>
 
             <div id="get-quote" className=" mt-3">
               <div className="container d-flex justify-content-center align-items-center gap-3">
@@ -157,11 +154,9 @@ const [isModalOpen, setIsModalOpen] = useState(false);
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }}>Select Your Vacuum Cleaner Repair</h2>
+                <h2 className="cs_fs_24 mb-1" style={{ fontSize: "24px" }}>Ecovacs Robot & Winbot Vacuum Cleaner Repair</h2>
 
-                <p className="mb-2">
-                  We understand that a vacuum cleaner breakdown is never convenient. Our expert technicians are here to provide efficient vacuum repair services. Roborock, Dreame Robot, Eufy Robot, Ecovacs Deebot, Roomba, Narwal, Dyson Robot Vacuum Cleaner Repair and Service Center in Dubai.
-                </p>
+                <p className="mb-2">A vacuum cleaner breakdown can be frustrating. Our skilled technicians offer fast and efficient for a variety of brands, including Ecovacs WINBOT, Robot vacuums and mops, Deebot vacuum, vacuums & moping, repair service. Visit our vacuum cleaner service center in Dubai for reliable assistance and quick solutions to get your vacuum back in working order.</p>
 
 
                 <h2 className="cs_fs_24 mb-1 pt-3 border-small-top" style={{ fontSize: "24px" }}>Fast and Reliable Appliances Service
@@ -170,7 +165,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               </div>
 
               <div className="col-md-6 ">
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/Same-Day-vaccum-cleaner-Repair-&-Service.avif`} alt="Vacuum Cleaner Repair" loading="lazy" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/EcovacsVacuumCleanerRepairAndService.avif`} alt="Vacuum Cleaner Repair" loading="lazy" />
 
               </div>
             </div>
@@ -182,25 +177,20 @@ const [isModalOpen, setIsModalOpen] = useState(false);
         {/* Why is */}
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30">Why is Vacuum Cleaner Maintenance Service Important in Dubai?</h2>
+            <h2 className="cs_fs_30">Why Choose FAJ for Ecovacs Vacuum Cleaner Repair?</h2>
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/inspection-robot-vacuum-cleaner.avif`} alt="inspection robot vacuum cleaner" loading="lazy" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/inspection-ecovacs-robot-vacuum-cleaner.avif`} alt="inspection robot vacuum cleaner" loading="lazy" />
               </div>
               <div className="col-md-6">
-                <p className="mb-0">
-                  Vacuum cleaner maintenance is crucial for its longevity and performance and to ensure your home is cleaned effectively and safely.
-
-                  <br /> Here&apos;s why vacuum cleaner maintenance is important:
-                </p>
                 <ul className="mb-0">
-                  <li><strong> Vacuum Cleaner Extended Lifespan: </strong> Regular maintenance, like cleaning filters and emptying the dustbin, can extend your vacuum's lifespan. </li>
-                  <li><strong> Vacuum Cleaner Improved Performance: </strong> Regularly cleaning filters and bags, and clearing the brush roll ensures the vacuum operates efficiently. </li>
-                  <li><strong> Vacuum Cleaner Reduced Repair Costs: </strong> Addressing minor issues through routine maintenance can prevent them from escalating into costly repairs. </li>
-                  <li><strong> Vacuum Cleaner Quieter Operation: </strong> A well-maintained vacuum runs more quietly, reducing noise disturbance.  </li>
-                  <li><strong> Vacuum Cleaner Saves Time and Effort: </strong>
-                    Maintenance saves time and effort on cleaning and repairs by preventing breakdowns and ensuring optimal performance. </li>
+                  <li><strong>Expert Technicians</strong>: Our team has extensive experience repairing all types of vacuum cleaners, including Winbot Robotic vacuum, upright, canister, handheld, &amp; robotic models.</li>
+                  <li><strong>Affordable Pricing</strong>: We provide clear and competitive pricing.</li>
+                  <li><strong>Fast Turnaround</strong>: We aim to repair your vacuum cleaner as quickly as possible, with many repairs completed in the minimum time frame.</li>
+                  <li><strong>Warranty</strong>: All vacuum cleaner repair come with a warranty for your peace of mind.</li>
+                  <li><strong>Eco-Friendly Solution</strong>: Fixing your vacuum cleaner reduces waste and saves money compared to purchasing a new one.</li>
                 </ul>
+                <p>If you need repairs for your coffee machine, stand mixer, or robot vacuum, please contact us. The <a href="https://www.google.com/maps/dir//Warehouse+No+-+S-02+Gate+35+Street+18b+-+Al+Quoz+-+Al+Quoz+Industrial+Area+4+-+Dubai+-+United+Arab+Emirates/@25.1105958,55.1452595,22158m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x3e5f699a600aceeb:0xa6121b25d557aa94!2m2!1d55.227661!2d25.1106186?entry=ttu&amp;g_ep=EgoyMDI1MDQyOS4wIKXMDSoASAFQAw%3D%3D">FAJ workshop</a> is conveniently located near both Al Khail Road and Sheikh Zayed Road. When you drop off your appliance at the workshop, you will receive a <strong>discount</strong> on the technical inspection fee and other services.</p>
               </div>
             </div>
           </div>
@@ -209,16 +199,16 @@ const [isModalOpen, setIsModalOpen] = useState(false);
         {/* Problems  */}
         <section className="section cs_py_30 bg-light-gray">
           <div className="container">
-            <h2 className="text-center">Common Vacuum Cleaners That May Require Maintenance   </h2>
+            <h2 className="text-center">Common Problem with Ecovacs Vacuum Cleaners That May Require Maintenance</h2>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Battery Degradation</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Getting Stuck or Trapped</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Over time, batteries naturally lose their capacity to hold a full charge, which can affect the overall performance of your automatic vacuum cleaner.</p>
+                    <p className="p-2 mb-0">Robot vacuums can get stuck in tight spaces. To prevent this, remove barriers & use boundary markers or virtual walls to limit access.</p>
                   </div>
                 </div>
               </div>
@@ -226,10 +216,10 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Connectivity Issues</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Incomplete Cleaning or Missing Spots</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">To fix connectivity issues, ensure supply Wi-Fi is working and the vacuum is in range. Restart both the router and the vacuum if needed.</p>
+                    <p className="p-2 mb-0">Robot vacuums rely on sensors and algorithms to navigate, but they may sometimes miss spots or leave areas untouched.</p>
                   </div>
                 </div>
               </div>
@@ -237,13 +227,10 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Inspect and Clean Sensors</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Battery and Charging Issues</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-
-                      The next step in diagnosing your robot floor cleaner is to wipe the sensors, which are primarily located on the front and bottom of the device.
-                    </p>
+                    <p className="p-2 mb-0">Battery and charging issues can reduce a robot vacuum's efficiency. Ensure a proper dock connection, and replace worn batteries to prevent this.</p>
                   </div>
                 </div>
               </div>
@@ -251,10 +238,10 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Navigation Mapping Errors</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Loud or Unusual Noises</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">Advanced robotic vacuums use AI algorithms for precise navigation mapping, but errors can occasionally occur due to sensor misalignment.</p>
+                    <p className="p-2 mb-0">Unusual noises may indicate problems with the vacuum’s brushes or wheels. If the noises persist, check for loose or damaged components to prevent further issues and maintain performance.</p>
                   </div>
                 </div>
               </div>
@@ -262,10 +249,10 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Faulty Charging Dock</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Problems with Sensors</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">A faulty robot vacuum charging dock can impair the charging process, preventing the vacuum cleaner from receiving a proper charge.</p>
+                    <p className="p-2 mb-0">Robot vacuums rely on sensors for navigation. Dust can hinder performance, so check the user manual for troubleshooting if issues arise.</p>
                   </div>
                 </div>
               </div>
@@ -273,13 +260,10 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Loss of Suction</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Wi-Fi Connectivity & App Problems</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">
-                      If your vacuum cleaner is losing suction power, the issue might be clogged filters, a full dustbin or bag, or a malfunction within the suction system.
-
-                    </p>
+                    <p className="p-2 mb-0">Robot vacuums with smart features may experience Wi-Fi connectivity issues. To avoid this, keep the vacuum within a stable Wi-Fi range, update the app regularly, and follow setup instructions.</p>
                   </div>
                 </div>
               </div>
@@ -288,10 +272,10 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Resetting Robot Vacuum</h3>
+                    <h3 className="cs_fs_16 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">Emptying & Maintenance Neglect</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
-                    <p className="p-2 mb-0">If your robot vacuum can't recognise obstacles, check to see if the sensors are clean. Dirty sensors may hinder their ability to detect obstacles properly.</p>
+                    <p className="p-2 mb-0">Robot vacuums require regular maintenance. Always empty the dustbin and clean the filter after each use. Neglecting these tasks can lead to reduced performance and malfunctions.</p>
                   </div>
                 </div>
               </div>
@@ -324,7 +308,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
         {/*HERE ARE  */}
         <section className="section cs_py_30">
           <div className="container">
-            <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR ROBOTIC VACUUM CLEANERS  </h2>
+            <h2 className="cs_fs_30">HERE ARE THE SERVICES WE OFFER FOR ECOVACS ROBOT VACUUM CLEANERS</h2>
 
             <div className="row align-items-center">
               <div className="col-xl-6">
@@ -341,20 +325,17 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               </div>
 
               <div className="col-xl-6">
-                <p className="mb-0">In Dubai, vacuum cleaner services provide repair, maintenance, and servicing to extend the lifespan of your vacuum cleaner.< br />
-                  These services can range from quick fixes to comprehensive overhauls, with some companies specializing specifically in robotic vacuum cleaners.< br />
-                  Here’s a detailed overview of vacuum cleaner services offered in Dubai, UAE: <b>Service Options:</b></p>
-
-                <ul className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
-                  <li> <strong> Vacuum Cleaner Repair: </strong> This service addresses issues such as motor problems, hose blockages, and faulty attachments. </li>
-                  <li> <strong> Vacuum Cleaner Servicing: </strong> Regular maintenance includes cleaning, inspecting parts, and ensuring optimal performance. </li>
-                  <li> <strong> Comprehensive Repair Packages: </strong> These packages offer a wide range of services, including diagnostics, cleaning, and potential part replacements. </li>
+                <ul  className="cs_list cs_style_ cs_fs_16 cs_mp_ mb-0">
+                  <li><strong>B 2 B Agreement Services:</strong> We provide repair and service for Ecovacs Robot Vacuum Cleaners, both under warranty and out of warranty, as part of our agreement with vacuum cleaner distributors and traders in Dubai, Sharjah, and Abu Dhabi, offering B2B pricing.</li>
+                  <li><strong>Diagnostics and quotations:</strong> The technical inspection included a complete diagnostic and quotation.</li>
+                  <li><strong>Same day appointments:</strong> Quick turnaround for urgent fixes.</li>
+                  <li><strong>Ecovacs Vacuum Cleaner Cleaning Service:</strong> Regular maintenance of the Ecovacs Robot and Winbot Vacuum Cleaner is essential for extending the lifespan of your vacuum.</li>
+                  <li><strong>Small Repairs:</strong> Affordable solutions for common problems.</li>
+                  <li><strong>Turnaround:</strong> Designed to minimise your downtime.</li>
+                  <li><strong>Weekend appointments available:</strong> We offer flexible scheduling options for your convenience.</li>
+                  <li><strong>Open 8am-6pm weekdays:</strong> Easy access for robot vacuum repairs and servicing.</li>
                 </ul>
-
-
               </div>
-
-
             </div>
           </div>
         </section >
@@ -363,17 +344,16 @@ const [isModalOpen, setIsModalOpen] = useState(false);
         <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
           <div className="container">
             <div className="row justify-content-center">
-              <h2 className="cs_fs_30 mb-0">The Benefits Of vacuum cleaner Service Dubai
-              </h2>
+              <h2 className="cs_fs_30 mb-0">What are the benefits of an Ecovacs vacuum cleaner?</h2>
               <div className="row gx-3 gy-5 mt-0">
                 <div className="col-md-4 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/efficiency-and-time.png`} alt="Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h3>
-                      <p className="small">Routine checks reduce the risk of electrical faults and other failures, keeping your home and family safe.</p>
+                      <h3 className="text-uppercase mb-2 cs_fs_18">Efficiency and Time-Saving</h3>
+                      <p className="small">Cleaning large areas quickly can significantly reduce time than traditional methods. Robotic vacuums also require minimal effort to operate.</p>
                     </div>
                   </div>
                 </div>
@@ -383,10 +363,8 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Optimal Performance
-                      </h3>
-                      <p className="small">Regular maintenance helps your vacuum cleaner run smoothly and efficiently, delivering the best results every time.
-                      </p>
+                      <h3 className="text-uppercase mb-2 cs_fs_18">Superior Cleaning Performance</h3>
+                      <p className="small">A robot vacuum cleaner removes dirt, pet hair, and dust mites more effectively than sweeping, improving indoor air quality.</p>
                     </div>
                   </div>
                 </div>
@@ -394,10 +372,10 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/lifestyle.png`} alt="lifestyle" className="icon-img-block-icon" loading="lazy" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h3>
-                      <p className="small">Energy efficient vacuum cleaner translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                      <h3 className="text-uppercase mb-2 cs_fs_18">Ideal for Busy Lifestyles</h3>
+                      <p className="small">Robotic vacuums clean automatically, while cordless stick vacuums enable quick, effortless clean-ups.</p>
                     </div>
                   </div>
                 </div>
@@ -408,8 +386,8 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                       <div className="icon-img-block">
                         <img src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h3>
-                      <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
+                      <h3 className="text-uppercase mb-2 cs_fs_18">Cost-Effective Cleaning Solution</h3>
+                      <p className="small">Ecovacs vacuum cleaner can save money by reducing professional cleaning needs & extending the life of carpets and flooring.</p>
                     </div>
 
                   </div>
@@ -418,25 +396,21 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/wind.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">vacuum cleaner Lifespan</h3>
-                      <p className="small">Proper care and timely servicing can significantly increase life of your vacuum cleaner, delaying the need for replacements.</p>
-
+                      <h3 className="text-uppercase mb-2 cs_fs_18">Improves Air Quality</h3>
+                      <p className="small">The HEPA filter improves air quality by capturing allergens like dust and pet dander, benefiting allergy sufferers & reducing respiratory issues.</p>
                     </div>
-
                   </div>
                 </div>
-
                 <div className="col-md-4 mb-2">
                   <div className="">
                     <div className="benifit-box-container">
                       <div className="icon-img-block">
-                        <img src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
+                        <img src={`${import.meta.env.BASE_URL}img/icons/robot-vacuum.png`} alt="Cooling Efficiency" className="icon-img-block-icon" loading="lazy" />
                       </div>
-                      <h3 className="text-uppercase mb-2 cs_fs_18">Peace of Mind
-                      </h3>
-                      <p className="small">Knowing your vacuum cleaner are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                      <h3 className="text-uppercase mb-2 cs_fs_18">Vacuum and Mop Function</h3>
+                      <p className="small">Robot vacuum and mop combos efficiently clean by vacuuming and mopping simultaneously, reducing the need for multiple tools.</p>
                     </div>
                   </div>
                 </div>
@@ -535,12 +509,12 @@ const [isModalOpen, setIsModalOpen] = useState(false);
         {/* We specialise   */}
         <section className="section cs_py_30 bg-light-gray custom-css-box">
           <div className="container">
-            <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY Vacuum Cleaner REPAIR SERVICE</h3>
-            <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 157 to 280 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
+            <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY Ecovacs Vacuum CLEANER REPAIR</h3>
+            <p className="mb-2"><b>Terms & Conditions:</b> There is a callout or technical inspection fee that will apply, depending on the brand, model and capacity, for diagnostics. Same-day visits are available for bookings made before 12:00 PM. For bookings made after 12:00 PM, next-day visits can be arranged, subject to availability.</p>
             <p className="pt-3 border-small-top"><strong>CHOOSE FAJ FOR YOUR PEACE OF MIND</strong><br />
               <b>We provide 2-month repair warranty</b><br />
               and <small>3-month parts warranty</small> as standard.</p>
-            <h2 className="text-center">We specialise in vacuum cleaner services for the following brands</h2>
+            {/* <h2 className="text-center">We specialise in vacuum cleaner services for the following brands</h2>
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
 
               <div className="col-12 col-md-4 col-lg-3">
@@ -631,10 +605,10 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
-
+{/* 
         <section className="section cs_py_30 custom-css-box">
           <div className="container">
             <div className="row gx-2 gx-lg-3 gy-3 gy-lg-4 justify-content-center">
@@ -874,12 +848,12 @@ const [isModalOpen, setIsModalOpen] = useState(false);
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
          <BeforeAfter
             title="Recent Completed Repair & Service"
             subTitle="Before & after"
             bgImg="img/background-image-2.avif"
-            beforeImg="img/vaccum-cleaner-before-image.avif"
+            beforeImg="img/ecovacs-vaccum-cleaner-before-image.avif"
             afterTitle="After"
             afterImg="img/vaccum-cleaner-after-image.avif"
             beforeTitle="Before"
@@ -893,13 +867,13 @@ const [isModalOpen, setIsModalOpen] = useState(false);
       
                 <div class="col-lg-4 col-md-6">
                   <img
-                    src="/img/vacuum-cleaners/inspection-robot-vacuum-celaner.avif"
+                    src="/img/vacuum-cleaners/ecovacs-vacuum-cleaner-fix.avif"
                     class="img-fluid rounded shadow mb-4"
                     alt="BBQ Grill Repair Service Dubai"
                   />
 
                   <img
-                    src="/img/vacuum-cleaners/robot-vacuum-celaner.avif"
+                    src="/img/vacuum-cleaners/ecovacs-vacuum-cleaner-service.avif"
                     class="img-fluid rounded shadow"
                     alt="BBQ Grill Cleaning Service Dubai"
                   />
@@ -907,7 +881,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
                 <div class="col-lg-4 col-md-6">
                   <img
-                    src="/img/vacuum-cleaners/vacuum-cleaner-repair-service.avif"
+                    src="/img/vacuum-cleaners/ecovacs-vacuum-cleaner-repair-service.avif"
                     class="img-fluid rounded shadow mb-4"
                     alt="BBQ Grill Service"
                   />
@@ -921,13 +895,13 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
                 <div class="col-lg-4 col-md-6">
                   <img
-                    src="/img/vacuum-cleaners/inspection-robot-vacuum-celaner-repair.avif"
+                    src="/img/vacuum-cleaners/ecovacs-fixing.avif"
                     class="img-fluid rounded shadow mb-4"
                     alt="BBQ Grill Repair Service"
                   />
 
                   <img
-                    src="/img/vacuum-cleaners/vacuum-celaner-repair.avif"
+                    src="/img/vacuum-cleaners/ecovacs-vacuum-cleaner-repair.avif"
                     class="img-fluid rounded shadow"
                     alt="BBQ Grill Cleaning Service"
                   />
@@ -989,5 +963,5 @@ const [isModalOpen, setIsModalOpen] = useState(false);
   );
 };
 
-export default VacuumCleanerRepairDetail;
+export default EcovacsVacuumCleanerRepairAndServiceDetail;
 

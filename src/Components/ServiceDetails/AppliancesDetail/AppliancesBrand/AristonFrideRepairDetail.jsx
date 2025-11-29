@@ -21,8 +21,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const AristonFrideRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Ariston Fridge Repair & Washing Machine Service | Oven in Dubai");
-  const metadescription = String(description || "Book your Ariston fridge repair with service. FAJ are offer expert repairs washer, cooker, freezer, dishwasher, dryer, oven, and stove center in Dubai");
+  const metatitle = String(titleSeo || "Ariston Fridge Repair and Washing Machine Service in Dubai");
+  const metadescription = String(description || "Book your Ariston fridge repair in Dubai. FAJ are offer expert repairs washer, cooker, freezer, dishwasher, dryer, oven, and stove center in Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Ariston Fridge Repair, Ariston Washing Machine Repair, Ariston Cooker Repair, Ariston Oven Repair, Ariston Appliances Maintenance in Dubai, Ariston Refrigerator Fix Repair");
@@ -118,7 +118,7 @@ const AristonFrideRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Ariston Home Appliance Repair Service and Installation</h1>
+            <h1 className="cs_fs_30">Ariston Fridge Repair and Washing Machine Service in Dubai</h1>
             <p>
               Struggling to find a local expert for your Ariston kitchen appliances?
               At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been delivering trusted and affordable repair solutions since 2010. Our extensive network includes skilled and carefully vetted technicians, and whenever possible, we’ll send someone who has hands-on experience with your specific Ariston appliance model.

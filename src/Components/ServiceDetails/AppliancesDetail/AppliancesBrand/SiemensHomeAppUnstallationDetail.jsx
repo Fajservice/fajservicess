@@ -20,8 +20,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const SiemensHomeAppUnstallationDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Siemens Appliances Repair | Washing Machine Repair in Dubai");
-  const metadescription = String(description || "We specialise in Siemens home appliance fix at your convenience. Get your Siemens refrigerator, dishwasher, washer dryer service & repair center Dubai");
+  const metatitle = String(titleSeo || "Siemens Home Appliances Service | Washing Machine Repair");
+  const metadescription = String(description || "We specialise in Siemens home appliance service in Dubai. Get your Siemens fridge, fix washer dryer, dishwasher, service & repair center Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Siemens home appliance repair, Siemens washing machine repair, Siemens refrigerator repair, Siemens dishwasher repair, Siemens cooker repair, Siemens appliance service Dubai");
@@ -118,7 +118,7 @@ const SiemensHomeAppUnstallationDetail = ({ subtitle, title, reviewsbg, titleSeo
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Siemens Home Appliance Repair Service and Installation</h1>
+            <h1 className="cs_fs_30">Siemens Home Appliances Service & Siemens Washing Machine Repair in Dubai</h1>
             <p>
               Having a hard time finding a local Siemens appliance technician with expertise in Siemens kitchen appliances? At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been providing reliable and affordable services since 2010. With a strong network of thoroughly vetted and experienced professionals, we aim to assign a technician familiar with your specific Siemens appliance whenever possible.
             </p>

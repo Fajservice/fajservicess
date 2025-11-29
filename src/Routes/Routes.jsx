@@ -1118,6 +1118,10 @@ export const router = createBrowserRouter([
         element: <Components.LaGermaniaCookingRangeRepair />,
       },
       {
+        path: "/ecovacs-vacuum-cleaner-repair-and-service-in-dubai/",
+        element: <Components.EcovacsVacuumCleanerRepairAndService />,
+      },
+      {
         path: "/delonghi-coffee-machine-repair/",
         element: <Components.DelonghiCoffeeMachineRepair />,
       },

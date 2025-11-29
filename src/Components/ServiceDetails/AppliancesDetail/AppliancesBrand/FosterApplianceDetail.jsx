@@ -21,8 +21,8 @@ import Testimonial1 from '../../../Testimonial/Testimonial1';
 
 const FosterApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
     // For SEO
-    const metatitle = String(titleSeo || "Foster Appliances Service - Foster Dishwasher Repair Dubai");
-    const metadescription = String(description || "Get Reliable Foster appliances service in Dubai. We provide refrigerator, dishwasher, washing machine, stove, oven repair & maintenance Call 043300002");
+    const metatitle = String(titleSeo || "Foster Appliances Service | Dishwasher Repair in Dubai | Oven");
+    const metadescription = String(description || "Our specialist Foster appliance service in Dubai, Contact us Foster dishwasher, stove, hob, oven, fridge repair, and Foster appliance fix near you.");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Foster Appliances Service, Foster Dishwasher Repair Dubai, Foster Washing Machine Repair Dubai, Foster Fridge Repair Dubai, Foster Cooker Repair Dubai, Foster Appliance Maintenance Dubai");
@@ -118,7 +118,7 @@ const FosterApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Foster Fridge Repair and Washing Machine Service in Dubai</h1>
+                        <h1 className="cs_fs_30">Foster Appliances Service and Dishwasher Repair in Dubai</h1>
                         <p>
                             Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been a trusted name for Foster appliance repair and service in Dubai. We know that appliance breakdowns can happen without warning, which is why we provide prompt, reliable, and affordable repair solutions.
                             Our skilled technicians are available across Dubai and Sharjah to deliver on-site Foster washing machine repair and service whenever you need it.

@@ -22,7 +22,7 @@ const IndesitWashingMachineDetail = ({ subtitle, title, reviewsbg, titleSeo, des
    const metatitle = titleSeo?.trim() 
   ? titleSeo 
   : "Indesit Fridge Repair in Dubai | Washing Machine Service Near Me";
-  const metadescription = String(description || "FAJ provides warranty for Indesit fridge repair in Dubai. Get expert washer dryer, refrigerator, cooker, and oven service center near you. 043300002.");
+  const metadescription = String(description || "Affordable Indesit fridge repair in Dubai. Trusted technicians Call now! for washing machine, dryer, dishwasher, cooker and oven servic ecenter near me");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Indesit Fridge Repair, Indesit Washing Machine Repair, Indesit Cooker Repair, Indesit Oven Repair, Indesit Appliances Maintenance, Indesit Refrigerator Fix");
@@ -118,7 +118,7 @@ const IndesitWashingMachineDetail = ({ subtitle, title, reviewsbg, titleSeo, des
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Indesit Fridge Repair and Washing Machine Service in Dubai</h1>
+            <h1 className="cs_fs_30">Indesit Fridge Repair and Washing Machine Service Near Me in Dubai</h1>
             <p>
               Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has provided reliable Indesit appliance repair and service in Dubai. We understand that appliances can break down unexpectedly, so we offer quality and affordable solutions.
               <br />Our trained technicians are available throughout Dubai and Sharjah to provide Indesit washing machine repair and service at your location.
