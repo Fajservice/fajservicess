@@ -20,7 +20,7 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Brand Fridge Repair & Service In Dubai | Brandt Oven Repair");
+    const metatitle = String(titleSeo || "Brandt Fridge Repair & Service In Dubai | Brandt Oven Repair");
     const metadescription = String(description || "Get fast and FAJ reliable Brandt fridge repair in Dubai. And Brandt washing machine, dishwasher, oven, cooker & refrigerator service centre near me");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
@@ -91,7 +91,7 @@ const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
         <>
             <HelmetProvider>
                 <Helmet>
-                    <title>Brand Fridge Repair & Service In Dubai | Brandt Oven Repair</title>
+                    <title>Brandt Fridge Repair & Service In Dubai | Brandt Oven Repair</title>
                     <meta name="description" content="Get fast and FAJ reliable Brandt fridge repair in Dubai. And Brandt washing machine, dishwasher, oven, cooker & refrigerator service centre near me"></meta>
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
@@ -99,14 +99,14 @@ const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                     <link rel="canonical" href="https://www.fajservices.ae/brandt-fridge-repair-in-dubai-brandt-washing-machine-repair-in-dubai-brandt-cooker-repair-in-dubai-brandt-oven-repair-in-dubai-brandt-appliances-maintenance-in-dubai-brandt-refrigerator-fix-repairs-se/" />
                     <meta property="og:type" content="website" />
                     <meta property="og:locale" content="en_US" />
-                    <meta property="og:title" content="Brand Fridge Repair & Service In Dubai | Brandt Oven Repair" />
+                    <meta property="og:title" content="Brandt Fridge Repair & Service In Dubai | Brandt Oven Repair" />
                     <meta property="og:description" content="Get fast and FAJ reliable Brandt fridge repair in Dubai. And Brandt washing machine, dishwasher, oven, cooker & refrigerator service centre near me" />
                     <meta property="og:url" content={metaURL} />
                     <meta property="og:image" content={metaImage} />
 
                     {/* Twitter Card */}
                     <meta name="twitter:card" content="summary_large_image" />
-                    <meta name="twitter:title" content="Brand Fridge Repair & Service In Dubai | Brandt Oven Repair" />
+                    <meta name="twitter:title" content="Brandt Fridge Repair & Service In Dubai | Brandt Oven Repair" />
                     <meta name="twitter:description" content="Get fast and FAJ reliable Brandt fridge repair in Dubai. And Brandt washing machine, dishwasher, oven, cooker & refrigerator service centre near me" />
                     <meta name="twitter:image" content={metaImage} />
                     <meta name="twitter:url" content={metaURL} />
@@ -118,7 +118,7 @@ const BrandtFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Brandt Home Appliance Repair Service and Installation</h1>
+                        <h1 className="cs_fs_30">Brandt Fridge Repair & Service In Dubai | Brandt Oven Repair</h1>
                         <p>
                             Struggling to find a local technician with expertise in Brandt kitchen appliances?
                             <br /> At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been offering trusted and cost-effective repair solutions since 2010. Our extensive network includes thoroughly vetted, skilled, and experienced professionals. Whenever possible, we’ll assign a technician who understands your specific Brandt appliance to ensure prompt and accurate service.

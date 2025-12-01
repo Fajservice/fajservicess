@@ -21,8 +21,8 @@ import Testimonial1 from '../../../Testimonial/Testimonial1';
 const PanasonicFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
     // For SEO
     
-    const metatitle = String(titleSeo || "Panasonic Fridge Repair in Dubai | Washing Machine Service ");
-    const metadescription = String(description || "If you need reliable Panasonic fridge repair in Dubai, call 043300002 for Panasonic washing machine, dishwasher, and refrigerator repair center & service.");
+    const metatitle = String(titleSeo || "Panasonic Fridge Repair and Washing Machine Service in Dubai ");
+    const metadescription = String(description || "If you need reliable Panasonic fridge repair in Dubai, Call us now for Panasonic washing machine, dishwasher, and refrigerator repair center & service.");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Panasonic Fridge Repair Dubai, Panasonic Washing Machine Repair Dubai, Panasonic Cooker Repair Dubai, Panasonic Oven Repair Dubai, Panasonic Appliances Maintenance Dubai, Panasonic Refrigerator Service Dubai");
@@ -148,7 +148,7 @@ const PanasonicFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Panasonic Fridge Repair and Washing Machine Service in Dubai</h1>
+                        <h1 className="cs_fs_30">Panasonic Fridge Repair and Washing Machine Service in Dubai </h1>
                         <p>
                             If you're looking for a skilled technician to repair your Panasonic appliances, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> is here to help. Since 2010, we’ve been offering reliable and affordable home appliance repair services. Our team includes experienced professionals specializing in Panasonic appliance repair and available across Dubai and Sharjah. We focus on fast, efficient service and customer satisfaction, ensuring your appliances are back in working order without hassle.
                         </p>

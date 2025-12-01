@@ -22,8 +22,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const BaumaticAppliancesDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
     // For SEO
-    const metatitle = String(titleSeo || "Baumatic Appliances Center - Washing Machine Repair in Dubai");
-    const metadescription = String(description || "FAJ technicians fully professional in Baumatic appliances repair in Dubai, Experts in fridge, refrigerator, washing machine, dishwasher, oven service");
+    const metatitle = String(titleSeo || "Baumatic Appliances Center | Washing Machine Repair in Dubai ");
+    const metadescription = String(description || "FAJ technicians are fully professional in Baumatic appliances repair in Dubai, Experts in fridge, refrigerator, washing machine, dishwasher, oven service");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Baumatic Appliances, Baumatic Washing Machine Repair, Baumatic Fridge Repair, Baumatic Dishwasher Repair, Baumatic Oven Repair, Baumatic Appliance Service Dubai");
@@ -120,11 +120,10 @@ const BaumaticAppliancesDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Baumatic Home Appliance Repair Service and Installation</h1>
+                        <h1 className="cs_fs_30">Baumatic Appliances Service Center and Washing Machine Repair in Dubai </h1>
                         <p>
                             If you're looking for a skilled local technician who specializes in Baumatic appliances, you've found the right place.
                             <br />Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been offering dependable and cost-effective solutions. We connect you with a network of qualified experts dedicated to addressing your Baumatic appliance repair needs and nearby services. Our main aim is to help you find a knowledgeable Baumatic technician in Dubai and Sharjah who understands how these appliances work. Your satisfaction is our foremost concern!
-
                         </p>
 
                         <div id="get-quote" className=" mt-3">

@@ -19,8 +19,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const IfbRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "IFB Refrigerator Repair in Dubai | Washing Machine Service");
-  const metadescription = String(description || "We are offering IFB refrigerator repair in Dubai Or fridge, washing machine, cooking range, dishwasher service center in Dubai, Freezer service in Dubai Cal us now");
+  const metatitle = String(titleSeo || "IFB Refrigerator Repair and IFB Washing Machine Service in Dubai");
+  const metadescription = String(description || "IFB refrigerator repair in Dubai FAJ is offering fridge, frezer, washing machine, cooking range, dishwasher service & repair center Dubai");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "IFB Refrigerator Repair, IFB Washing Machine Repair, IFB Cooker Repair, IFB Dishwasher Repair, IFB Oven Repair, IFB Freezer Service in Dubai");
@@ -115,7 +115,7 @@ const IfbRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">IFB Home Appliance Repair Service and Installation</h1>
+            <h1 className="cs_fs_30">IFB Refrigerator Repair and IFB Washing Machine Service in Dubai</h1>
             <p>
               Struggling to find a local IFB appliance technician who specializes in IFB kitchen appliances?
               At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been delivering trusted and affordable services since 2010. Our large network includes well-vetted, experienced professionals. Whenever possible, we’ll assign a technician familiar with your specific IFB appliance.

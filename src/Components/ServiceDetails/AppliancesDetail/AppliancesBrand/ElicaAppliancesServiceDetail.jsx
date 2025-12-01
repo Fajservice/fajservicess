@@ -23,8 +23,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1";
 const ElicaAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Elica Appliances Service in Dubai | Elica Stove Repair | Hood Fix");
-  const metadescription = String(description || "To book your Elica appliances service in Dubai. FAJ offers an Elica hob, stove, cooker, oven, hood, repair, maintenance, and fix near you. Call 043300002.");
+  const metatitle = String(titleSeo || "Elica Appliances Service in Dubai | Elica Cooker Repair | Hood Fix");
+  const metadescription = String(description || "To book your Elica appliances service in Dubai. FAJ offers an Elica hob, stove, cooker, oven, hood maintenance and repair center near you. Book with us");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Elica Appliances Service, Elica Hob Repair, Elica Cooker Repair, Elica Oven Repair, Elica Hood Repair, Elica Stove Repair, Elica Fridge Repair, Elica Washing Machine Repair, Elica Dishwasher Repair, Elica Appliance Maintenance Dubai");
@@ -119,7 +119,7 @@ const ElicaAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Elica Cooking Range Repair & Service in Dubai  </h1>
+            <h1 className="cs_fs_30">Elica Appliances Service and Elica Cooker Repair in Dubai</h1>
 
             <p>
               If you’re facing problems with your Elica built-in ovens, freestanding cooking ranges, or kitchen hoods, it’s vital to find a trustworthy and effective repair service. <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> in Dubai is here to help with quick, reliable, and affordable repairs tailored to Elica appliances.

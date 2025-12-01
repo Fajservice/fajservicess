@@ -22,8 +22,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const KitchenaidRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "KitchenAid Refrigerator Repair in Dubai | Oven Fix Service");
-  const metadescription = String(description || "Expert Kitchenaid appliances maintenance, and service of washing machine, dishwasher, oven, and cooker repair center near you in Dubai. Book Now.");
+  const metatitle = String(titleSeo || "KitchenAid Refrigerator Repair & KitchenAid Appliance Repair");
+  const metadescription = String(description || "Expert Kitchenaid refrigerator repair, including washing machine, dishwasher, oven, and cooker repair centre near you in Dubai. Book now");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Kitchenaid Refrigerator Repair, Kitchenaid Fridge Repair, Kitchenaid Freezer Maintenance, Kitchenaid Washing Machine Repair, Kitchenaid Dishwasher Repair, Kitchenaid Cooker Oven Repairs, KitchenAid Appliance Service Dubai");
@@ -120,7 +120,7 @@ const KitchenaidRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Kitchenaid Fridge Repair and Washing Machine Service in Dubai</h1>
+            <h1 className="cs_fs_30">KitchenAid Refrigerator Repair and KitchenAid Appliance Repair in Dubai</h1>
             <p>
               Having trouble finding a reliable local technician for your Kitchenaid kitchen appliances?
               At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we've been providing dependable and cost-effective appliance repair services since 2010. Our extensive network of experienced, thoroughly vetted technicians ensures that, whenever possible, we send a specialist who knows your specific Kitchenaid appliance inside and out.

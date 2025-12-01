@@ -22,8 +22,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1";
 
 const UnimacWashingMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
  // For SEO
- const metatitle = String(titleSeo || "Unimac Washing Machine Repair in Dubai | Dryer AMC Services");
- const metadescription = String(description || "FAJ offering Unimac washing machine Repair, Unimac Washer Dryer, laundry machine maintenance contract Services Call now 043300002");
+ const metatitle = String(titleSeo || "Unimac Washing Machine Repair & Washer Dryer AMC Services");
+ const metadescription = String(description || "FAJ is offering Unimac Washing Machine Repair in Dubai, including Unimac Washer Dryer, laundry machine maintenance contract Services. Contact Us.");
  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
  const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
  const metaKeyword = String(Keyword || "unimac washing machine repair in Dubai, Unimac dryer repair in Dubai, Unimac washer dryer repair in Dubai, Unimac maintenance in Dubai, Unimac laundry service in Dubai, Unimac Dubai");
@@ -120,7 +120,7 @@ const UnimacWashingMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
     {/* intro */}
     <section className="section cs_py_30">
      <div className="container">
-      <h1 className="cs_fs_30">UniMac Appliance Repair Service and Installation</h1>
+      <h1 className="cs_fs_30">Unimac Washing Machine Repair, Washer Dryer Maintenance Contract Services in Dubai</h1>
 
       <p>
        At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we provide comprehensive services for UniMac commercial washing machines, dryers, and laundry equipment. Our team specialises in the installation, maintenance, and repair of all UniMac models, including heavy-duty washers, tumble dryers, and stack washer/dryer units, ensuring your laundry operations run smoothly and efficiently.

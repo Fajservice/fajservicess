@@ -23,8 +23,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const CandyRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Candy Refrigerator Repair in Dubai | Washer Dryer Service Near");
-  const metadescription = String(description || "With Warranty Candy refrigerator repair in Dubai. Call 043300002 for your fridge, candy washing machine, dishwasher, oven, repairs center near me ");
+  const metatitle = String(titleSeo || "Candy Refrigerator Repair & Best Washing Machine Service Dubai");
+  const metadescription = String(description || "With Warranty Candy refrigerator repair in Dubai. Call us for your fridge, candy washing machine, Candy dishwasher, oven, repairs center near me ");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Candy Refrigerator Repair Dubai, Candy Washing Machine Repair Dubai, Candy Dishwasher Repair Dubai, Candy Cooker Oven Repair Dubai, Candy Fridge Repair Dubai, Candy Appliance Service Dubai, Candy Appliance Maintenance Dubai");
@@ -121,7 +121,7 @@ const CandyRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, d
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Candy Home Appliance Repair Service and Installation</h1>
+            <h1 className="cs_fs_30">Candy Refrigerator Repair and Candy Washing Machine Service Dubai</h1>
             <p>Having trouble finding a reliable technician for your Candy kitchen appliances? At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been providing trusted and affordable services since 2010. Our wide network of experienced, well-vetted professionals ensures that, whenever possible, you're matched with a technician who specializes in your specific Candy appliance. We’re committed to delivering fast, effective repairs to keep your appliances running smoothly.
 
             </p>

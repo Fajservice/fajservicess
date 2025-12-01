@@ -22,8 +22,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const GibsonFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Gibson Fridge Repair in Dubai | Washer Dryer Maintenance Near");
-  const metadescription = String(description || "Expert appliance maintenance solutions · Gibson fridge repair in Dubai.  Washer and dryer repair · range repair · dishwasher repair and service centre.");
+  const metatitle = String(titleSeo || "Gibson Fridge Repair in Dubai | Washer Dryer Service Near Me");
+  const metadescription = String(description || "Expert Gibson fridge repair in Dubai. Book now washing machine, dryer, refrigerator, freezer, dishwasher, cooker, oven maintenance, service center near");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Gibson Fridge Repair in Dubai, Gibson Washing Machine Repair in Dubai, Gibson Cooker Repair in Dubai, Gibson Oven Repair in Dubai, Gibson Appliances Maintenance in Dubai, Gibson Refrigerator Fix Repairs Service");

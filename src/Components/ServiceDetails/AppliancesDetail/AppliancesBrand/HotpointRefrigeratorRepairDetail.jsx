@@ -22,8 +22,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const HotpointRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Hotpoint Refrigerator Repair in Dubai | Service Washing Machine");
-  const metadescription = String(description || "Quality and warranty for Hotpoint refrigerator repair in Dubai. Call 043300002 for service on fridge, washing machine, dishwasher, cooking range, & oven.");
+  const metatitle = String(titleSeo || "Hotpoint Refrigerator Repair & Hotpoint Washing Machine Service ");
+  const metadescription = String(description || "Quality and warranty for Hotpoint refrigerator repair in Dubai. Book now fridge, washing machine, dishwasher, cooking range, & oven maintenance service.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Hotpoint Refrigerator Repair, Hotpoint Fridge Repair, Hotpoint Washing Machine Repair, Hotpoint Dishwasher Repair, Hotpoint Cooker Oven Repair, Hotpoint Appliance Service Dubai");
@@ -120,7 +120,7 @@ const HotpointRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Hotpoint Home Appliance Repair Service and Installation</h1>
+            <h1 className="cs_fs_30">Hotpoint Refrigerator Repair and Hotpoint Washing Machine Service in Dubai</h1>
             <p>
               Looking for a reliable technician to handle your Hotpoint appliance repairs? You’ve come to the right place.
               <br />Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been providing trusted and affordable repair services across Dubai and Sharjah. Our team consists of experienced professionals who understand the specific repair needs of Hotpoint appliances.

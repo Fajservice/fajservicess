@@ -23,8 +23,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const MarvelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
     // For SEO
-    const metatitle = String(titleSeo || "Best Marvel Fridge Repair In Dubai | Oven Service Near Me");
-    const metadescription = String(description || "If you are looking for Marvel appliances service in Dubai, contact us at 043300002 for your fridge, oven, stove and range maintenance and service.");
+    const metatitle = String(titleSeo || "Marvel  Home Appliances Service in Dubai & Marvel Fridge Repair");
+    const metadescription = String(description || "Reliable Marvel appliance service, including fridge, washing machine, dishwasher, cooking range, & stove oven repair & service centre in Dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Marvel Fridge Repair, Marvel Washing Machine Repair, Marvel Cooker Repair, Marvel Oven Repair, Marvel Appliances Maintenance, Marvel Refrigerator Fix, Marvel Appliance Service Dubai");
@@ -120,7 +120,7 @@ const MarvelFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Marvel Home Appliance Repair Service and Installation</h1>
+                        <h1 className="cs_fs_30">Marvel  Home Appliances Service and Marvel Fridge Repair in Dubai</h1>
                         <p>
                             Need expert help with your Marvel appliances? You’re in the right place.
                             <br /> <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been offering reliable and affordable appliances repair services since 2010. We work with a team of experienced and trusted technicians who understand the specific needs of Marvel appliance repairs and local service demands.

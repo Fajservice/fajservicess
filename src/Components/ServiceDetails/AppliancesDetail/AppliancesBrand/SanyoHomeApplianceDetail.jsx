@@ -20,8 +20,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const SanyoHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Sanyo Home Appliance Service | Sanyo Refrigerator Repair Near");
-  const metadescription = String(description || "If you're looking for reliable Sanyo fridge repair in Dubai, Book 043300002 for Sanyo washing machine, dishwasher, & oven repair service centre near you.");
+  const metatitle = String(titleSeo || "Sanyo Home Appliance Service & Sanyo Refrigerator Repair Dubai");
+  const metadescription = String(description || "If you're looking for reliable Sanyo fridge repair in Dubai, Book with us for Sanyo washing machine service, dishwasher, & oven repair centre near you.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Sanyo Home Appliance Repair, Sanyo Washing Machine Repair, Sanyo Fridge Repair, Sanyo Dishwasher Repair, Sanyo Oven Repair, Sanyo Cooker Repair, Sanyo Appliance Service Dubai");

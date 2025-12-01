@@ -23,8 +23,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const DeDietrichFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "De Dietrich Appliance Service | Stove Repair | Oven Fix in Dubai");
-  const metadescription = String(description || "We are specialists in DeDietrich appliances, with reliable De Dietrich fridge repair, freezer, dishwasher, washer dryer, stove, & oven center near you Dubai.");
+  const metatitle = String(titleSeo || "De Dietrich Fridge Repair | Stove & Oven Service in Dubai");
+  const metadescription = String(description || "De Dietrich appliances service, with reliable De Dietrich fridge repair, freezer, dishwasher, washer dryer, stove & oven repair center near you, Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "De Dietrich Fridge Repair, De Dietrich Washing Machine Repair, De Dietrich Cooker Repair, De Dietrich Oven Repair, De Dietrich Appliances Maintenance in Dubai, De Dietrich Appliance Repair Dubai");
@@ -119,7 +119,7 @@ const DeDietrichFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, de
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">De Dietrich Home Appliance Repair Service and Installation</h1>
+            <h1 className="cs_fs_30">De Dietrich Fridge Repair | De Dietrich Stove & DeDietrich Oven Service in Dubai</h1>
             <p>
               Having trouble finding a reliable technician for your De Dietrich kitchen appliances?
               At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been providing trusted and affordable services since 2010. Our extensive network of well-vetted, experienced professionals ensures that, whenever possible, you’re matched with a technician who specializes in your specific De Dietrich appliance.

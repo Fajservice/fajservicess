@@ -21,8 +21,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const AftronFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Aftron Fridge Repair in Dubai | Washing Machine Service Near");
-    const metadescription = String(description || "Trusted Aftron appliances service in Dubai FAJ expert fridge repair. Call 04 3300 002 for fast washing machine, dishwasher, oven repair center in Dubai");
+    const metatitle = String(titleSeo || "Aftron Fridge Repair and Aftron Washing Machine Service in Dubai");
+    const metadescription = String(description || "Trusted Aftron fridge repair in Dubai, FAJ expert Aftron washing machine, dryer, dishwasher, cooking range oven service & repair center nearby");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Aftron fridge repair, Aftron washing machine repair, Aftron cooker repair, Aftron oven repair, Aftron appliances maintenance, Aftron refrigerator fix, Aftron appliance service Dubai");
@@ -117,7 +117,7 @@ const AftronFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Aftron Home Appliance Repair Service and Installation</h1>
+                        <h1 className="cs_fs_30">Aftron Fridge Repair and Aftron Washing Machine Service in Dubai</h1>
                         <p>
                             Struggling to find a local Aftron appliance technician who understands Aftron kitchen appliances? <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has offered trusted and cost-effective services since 2010. Our vast network includes experienced, and carefully screened professionals. When available, we assign technicians experienced with your specific Aftron model.
                         </p>

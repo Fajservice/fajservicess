@@ -21,8 +21,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const MaytagFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Maytag Fridge Repair in Dubai | Washing Machine Dryer Service");
-  const metadescription = String(description || "We specialise in Maytag fridge Repair in Dubai. May Tag appliance, refrigerator, freezer, washing machine, dryer maintenance service center. 043300002");
+  const metatitle = String(titleSeo || "Maytag Fridge Repair & Maytag Washing Machine Service in Dubai");
+  const metadescription = String(description || "We specialise in Maytag Fridge Repair in Dubai. May Tag appliance, refrigerator, freezer, washing machine, dryer, maintenance & service centre near me.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Maytag Fridge Repair Dubai, Maytag Washing Machine Repair Dubai, Maytag Cooker Repair Dubai, Maytag Oven Repair Dubai, Maytag Appliances Maintenance Dubai, Maytag Refrigerator Fix Repairs Service");
@@ -119,7 +119,7 @@ const MaytagFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Maytag Fridge Repair and Washing Machine Service in Dubai</h1>
+            <h1 className="cs_fs_30">Maytag Fridge Repair and Maytag Washing Machine Service in Dubai</h1>
             <p>
               If you're looking for a qualified technician for your Maytag appliances, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> is here to assist you. Since 2010, we’ve offered dependable and affordable home appliance repair services. Our network features skilled professionals who specialize in Maytag appliance repair and are available nearby. We connect you with experienced technicians across Dubai and Sharjah who focus on your satisfaction and deliver efficient, reliable solutions for all your appliance needs.
             </p>

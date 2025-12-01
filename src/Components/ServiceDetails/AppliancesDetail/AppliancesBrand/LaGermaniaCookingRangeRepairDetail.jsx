@@ -21,8 +21,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1";
 
 const LaGermaniaCookingRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "La Germania Cooking Range Repair in Dubai | Oven Service ");
-  const metadescription = String(description || "We offer professional La Germania cooking range repair, oven, electric & gas stove, ceramic hob, as well as maintenance & service center near you Dubai.");
+  const metatitle = String(titleSeo || "La Germania Cooking Range Repair and Oven Service in Dubai");
+  const metadescription = String(description || "We offer professional La Germania cooking range repair, oven, electric & gas stove, ceramic hob, as well as maintenance & repair center near you Dubai.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "LA Germania Cooking Range Repair Dubai, La Germania Oven Repair Dubai, La Germania Cooker Repair Dubai, La Germania Cooker Oven Maintenance Service in Dubai");
@@ -118,7 +118,7 @@ const LaGermaniaCookingRangeRepairDetail = ({ subtitle, title, reviewsbg, titleS
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">La Germania Cooking Range Repair & Service in Dubai</h1>
+            <h1 className="cs_fs_30">La Germania Cooking Range Repair and La Germania Oven Service in Dubai</h1>
             <p>
               If you are having issues with your La Germania cooker, oven, or cooking range, it's essential to find a reliable and high-quality repair service. <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> in Dubai specializes in prompt, efficient, and cost-effective repairs specifically designed for La Germania appliances.
               <br />

@@ -22,8 +22,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1";
 
 const SpeedQueenWashingMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Speed Queen Washing Machine Repair in Dubai | Maintenance");
-  const metadescription = String(description || "Need Speed Queen washing machine repair in Dubai? FAJ for experts on washer dryer, laundry system maintenance, amc & service center in the UAE");
+  const metatitle = String(titleSeo || "Speed Queen Washing Machine Repair and Maintenance in Dubai");
+  const metadescription = String(description || "Need Speed Queen washing machine repair in Dubai? FAJ for experts on washer dryer, laundry system maintenance, AMC & service centre in the UAE");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "speed queen washing machine repair, speed queen dryer repair, speed queen washer dryer repair, speed queen maintenance, speed queen service, speed queen fix, speed queen appliance repair in Dubai");
@@ -120,7 +120,7 @@ const SpeedQueenWashingMachineRepairDetail = ({ subtitle, title, reviewsbg, titl
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Speed Queen Appliance Repair Service and Installation</h1>
+            <h1 className="cs_fs_30">Speed Queen Washing Machine Repair and Washer Dryer Maintenance Service in Dubai</h1>
             <p>
               At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we provide comprehensive services for Speed Queen washing machines, washers, dryers, and all types of laundry equipment. Our team specialises in the installation, maintenance, and repair of both top-loading and front-loading Speed Queen models, ensuring that your appliances run smoothly and efficiently.
               <br />

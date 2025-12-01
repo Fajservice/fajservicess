@@ -24,7 +24,7 @@ const SearsHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
   // For SEO
   const metatitle = String(titleSeo || "Sears Appliances Repair & Maintenance Services in Dubai");
-  const metadescription = String(description || "We offer Sears home appliance Installation, Maintenance, and Repair Services in Dubai. Sears Refrigerator, Fridge, Washing Machine 04300002");
+  const metadescription = String(description || "We offer Sears home appliance Installation, Maintenance, and Repair Services in Dubai. Sears Refrigerator, Fridge, Washing Machine Book now.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Sears Appliance Installation, Sears Appliance Repair, Sears Fridge Repair, Sears Washing Machine Repair, Sears Cooker Repair, Sears Dishwasher Repair, Sears Home Appliances Service Dubai");
@@ -121,7 +121,7 @@ const SearsHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, titleSeo, 
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Sears Home Appliance Repair Service and Installation</h1>
+            <h1 className="cs_fs_30">Sears Appliances Repair and Maintenance Services in Dubai</h1>
             <p>
               Looking for an experienced local technician to repair your Sears appliances? You’ve come to the right place.
               <br />Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has provided reliable, cost-effective repair solutions across Dubai and Sharjah. Our network of trusted professionals specializes in Sears appliance repair and understands the brand’s unique service needs. We’re dedicated to connecting you with skilled technicians near you to restore your appliances quickly and efficiently. Your satisfaction is always our top priority.

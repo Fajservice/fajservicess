@@ -20,8 +20,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const MieleFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Miele Fridge Repair in Dubai | Washing Machine Service Near Me");
-  const metadescription = String(description || "Fast, reliable & professional Miele fridge repair in Dubai. Call 043300002 for your appliance, washing machine, dishwasher, oven fix service near you");
+  const metatitle = String(titleSeo || "Miele Fridge Repair in Dubai | Miele Washing Machine Service");
+  const metadescription = String(description || "Fast, reliable & professional Miele fridge repair in Dubai. Book now for your appliance, washing machine, dishwasher, oven fix & service near you.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Miele Fridge Repair Dubai, Miele Washing Machine Repair Dubai, Miele Cooker Repair Dubai, Miele Oven Repair Dubai, Miele Appliances Maintenance Dubai, Miele Refrigerator Fix Repairs Service");
@@ -118,7 +118,7 @@ const MieleFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Miele Fridge Repair and Washing Machine Service in Dubai</h1>
+            <h1 className="cs_fs_30">Miele Fridge Repair and Miele Washing Machine Service in Dubai</h1>
             <p>
               If you're looking for a qualified technician for your Miele appliances, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> is here to help. Since 2010, we’ve been offering reliable and affordable home appliance repair services. Our network includes skilled professionals with expertise in Miele appliance repair, serving customers across Dubai and Sharjah. We focus on customer satisfaction and provide fast, effective solutions to get your appliances working smoothly again.
             </p>

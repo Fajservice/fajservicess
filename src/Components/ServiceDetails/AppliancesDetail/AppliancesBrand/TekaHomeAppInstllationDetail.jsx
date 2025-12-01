@@ -23,8 +23,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const TekaHomeAppInstllationDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Teka Home Appliance Service | Teka Refrigerator Repair in Dubai");
-  const metadescription = String(description || "Get fast Teka home appliance service in Dubai. Dial 043300002 for Teka washing machine, dryer, dishwasher, fridge oven, cooker, stove repair near me");
+  const metatitle = String(titleSeo || "Teka Home Appliance Service and Teka Fridge Repair in Dubai");
+  const metadescription = String(description || "Get fast Teka home appliance service in Dubai. Call us for Teka washing machine, dryer, dishwasher, refrigerator, oven, cooker repair center near me ");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Teka home appliance service, Teka washing machine repair, Teka fridge repair, Teka dryer repair, Teka oven repair, Teka cooker repair, Teka stove repair, Teka dishwasher repair");
@@ -121,7 +121,7 @@ const TekaHomeAppInstllationDetail = ({ subtitle, title, reviewsbg, titleSeo, de
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Teka Fridge Repair and Washing Machine Service in Dubai</h1>
+            <h1 className="cs_fs_30">Teka Home Appliance Service and Teka Fridge Repair in Dubai</h1>
             <p>Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been a trusted provider of Teka appliance repair and service in Dubai. We know that appliance breakdowns can happen without warning, which is why we offer prompt, high-quality, and affordable repair solutions.
               Our skilled technicians are available across Dubai and Sharjah to deliver reliable Teka washing machine repair and service right at your doorstep.
             </p>

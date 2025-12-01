@@ -20,7 +20,7 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const FrankeAppliancesRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Franke Appliances Repair in Dubai | Dishwasher & Oven Service");
+  const metatitle = String(titleSeo || "Franke Appliances Repair | Dishwasher & Oven Service in Dubai");
   const metadescription = String(description || "With Warranty, Franke appliances repair in Dubai. Best Franke fridge, refrigerator, washing machine, cooker service, & oven repair center near you Dubai.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
@@ -116,7 +116,7 @@ const FrankeAppliancesRepairServiceDetail = ({ subtitle, title, reviewsbg, title
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30"> Franke Fridge Repair and Washing Machine Service in Dubai</h1>
+            <h1 className="cs_fs_30">Franke Appliances Repair, Dishwasher & Oven Service in Dubai</h1>
             <p>
               Having trouble finding a reliable technician for your Franke kitchen appliances?
               At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been providing dependable and affordable service since 2010. Our experienced network of skilled professionals ensures that, whenever possible, you’re matched with a technician who specializes in your specific Franke appliance.

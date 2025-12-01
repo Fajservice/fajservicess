@@ -20,8 +20,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const ToshibaHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Toshiba Home Appliance Service in Dubai | Refrigerator Repair");
-  const metadescription = String(description || "Are you looking for Toshiba home appliance service? Call 043300002 for Toshiba fridge, washing machine, dryer and oven repair center & service Dubai");
+  const metatitle = String(titleSeo || "Toshiba Home Appliance Service | Toshiba Fridge Repair in Dubai");
+  const metadescription = String(description || "Are you looking for Toshiba home appliance service? Book now for Toshiba refrigerator, washing machine, dryer and oven repair center & service Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Toshiba home appliance service, Toshiba fridge repair Dubai, Toshiba washing machine repair Dubai, Toshiba dryer repair Dubai, Toshiba oven repair Dubai, Toshiba appliance maintenance Dubai");
@@ -118,7 +118,7 @@ const ToshibaHomeAppMaintenanceDetail = ({ subtitle, title, reviewsbg, titleSeo,
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Toshiba Home Appliance Repair Service and Installation</h1>
+            <h1 className="cs_fs_30">Toshiba Home Appliance Service and Toshiba Fridge Repair in Dubai</h1>
             <p>
               Having trouble finding a reliable local technician who specializes in Toshiba kitchen appliances?
               At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been delivering trusted and cost-effective appliance repair services since 2010. Our large network consists of carefully vetted, qualified, and experienced professionals. Whenever possible, we’ll dispatch a technician familiar with your specific Toshiba appliance to ensure accurate and efficient service.
