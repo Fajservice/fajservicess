@@ -1,0 +1,34 @@
+[
+    {
+        "title": "What are the error codes of Roborock vacuum cleaners?",
+        "desc": "<ul><li><strong>Roborock Vacuum Cleaner Error 1</strong>: The laser unit (LDS) may be blocked. Rotate it gently, clean around the sensor, and restart the robot.</li><li><strong>Roborock Vacuum Cleaner Error 2</strong>: The front collision sensor or bumper may be stuck. Tap it lightly to ensure it moves freely and remove any debris.</li><li><strong>Roborock Vacuum Cleaner Error 5</strong>: The main brush may be tangled. Remove the brush, clean it thoroughly, and clear hair or debris from its housing.</li><li><strong>Roborock Vacuum Cleaner Error 7</strong>: The wheels may be obstructed. Spin each wheel manually and remove any blockage.</li><li><strong>Roborock Vacuum Cleaner Error 10</strong>: Filter issue. The filter might be dirty or wet. Clean it carefully and ensure it is fully dry before reinstalling.</li><li><strong>Roborock Vacuum Cleaner Error 13</strong>: Charging problem. Unplug the charging dock for two minutes, plug it back in, and clean the charging contacts on both the dock and the robot.</li><li><strong>Roborock Vacuum Cleaner Internal Error</strong>: Restart the device. If the issue continues, perform a factory reset or remap the home layout, noting that this removes custom settings.</li></ul>"
+    },
+    {
+        "title": "What could be the reasons my Roborock vacuum is not responding?",
+        "desc": "A common reason is low battery caused by dirty charging contacts. Clean the contacts on both the robot and the dock, reattach the robot to the charger, and check if it begins charging."
+    },
+    {
+        "title": "How do I force a factory reset?",
+        "desc": "<ol><li>Open the Settings app.</li><li>Search for \"Reset.\"</li><li>Select \"Erase all data (factory reset).\"</li><li>On the Reset options screen, tap the same option again.</li><li>Confirm by tapping \"Erase all data\" and enter your password or PIN.</li></ol>"
+    },
+    {
+        "title": "Why is my Roborock vacuum not vacuuming properly?",
+        "desc": "Low vacuum pressure usually indicates poor airflow or a blockage. Check if the motor is running and if air is coming out from the rear. Try increasing suction power through the app, and make sure to clean all rubber seals and dustbin components to improve vacuum performance."
+    },
+    {
+        "title": "How do you know if Roborock vacuum is charging?",
+        "desc": "Your Roborock is charging if you hear the charging confirmation voice prompt, see the power indicator slowly pulsing, or view the battery level increasing in the Roborock app."
+    },
+    {
+        "title": "Can I run my Roborock vacuum without Wi-Fi?",
+        "desc": "Roborock requires access to its cloud services for full functionality. Without internet, features such as scheduling, remote control, and advanced settings will not work. Local offline operation is not supported."
+    },
+    {
+        "title": "What are the negatives of robot vacuums?",
+        "desc": "Robot vacuums can struggle with heavy debris, deep cleaning, and thick carpets. Their suction strength is often weaker than traditional vacuums, and they may get stuck or miss tight corners."
+    },
+    {
+        "title": "Can Roborock work without an app?",
+        "desc": "After activation, some Roborock models can respond to basic offline verbal commands. This provides simple control even without the mobile app, although advanced functions require connectivity."
+    }
+]
