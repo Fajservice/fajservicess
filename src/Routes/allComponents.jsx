@@ -128,6 +128,8 @@ export const TCLAcRepair = withSuspense(React.lazy(() => import("../Pages/AcPage
 export const AcRepairInTheVilla = withSuspense(React.lazy(() => import("../Pages/AcPages/AcLocation/AcRepairInTheVilla")));
 export const AcRepairInJumeirahBeachResidence = withSuspense(React.lazy(() => import("../Pages/AcPages/AcLocation/AcRepairInJumeirahBeachResidence")));
 export const OvenRepair = withSuspense(React.lazy(() => import("../Pages/KitchenEquipPages/OvenRepair")));
+export const RationalCommercialKitchenEquipmentRepairService = withSuspense(React.lazy(() => import("../Pages/KitchenEquipPages/RationalCommercialKitchenEquipmentRepairService")));
+export const UnoxCommercialOvenRepairService = withSuspense(React.lazy(() => import("../Pages/KitchenEquipPages/UnoxCommercialOvenRepairService.jsx")));
 export const KitchenEquipmentAMC = withSuspense(React.lazy(() => import("../Pages/KitchenEquipPages/KitchenEquipmentAMC")));
 export const KitchenEquipmentRepair = withSuspense(React.lazy(() => import("../Pages/KitchenEquipPages/KitchenEquipmentRepair")));
 export const IceMakerRepair = withSuspense(React.lazy(() => import("../Pages/RefrigerationEquipPages/IceMakerRepair")));

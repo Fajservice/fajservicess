@@ -126,6 +126,14 @@ export const router = createBrowserRouter([
         element: <Components.OvenRepairService />,
       },
       {
+        path: "/rational-commercial-kitchen-equipment-repair-and-maintenance-service-dubai/",
+        element: <Components.RationalCommercialKitchenEquipmentRepairService />,
+      },
+      {
+        path: "/unox-commercial-oven-repair-and-maintenance-service-dubai/",
+        element: <Components.UnoxCommercialOvenRepairService />,
+      },
+      {
         path: "/commercial-cooking-appliances-repair-service/",
         element: <Components.CookingEquipmentService />,
       },
