@@ -25,10 +25,8 @@ import Testimonial1 from "../../Testimonial/Testimonial1";
 
 const FreestandingHomeAppliancesRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = titleSeo?.trim()
-        ? titleSeo
-        : "Appliances Service Center in Dubai | Appliances Repair Near Me";
-  const metadescription = String(description || "We offer an appliance repair service centre near you. Get an expert in refrigerator, fridge, washing machine, dryer, dishwasher, oven repair near me Dubai");
+  const metatitle = String(titleSeo || "Appliances Repair Service in Dubai | Appliances Maintenance");
+  const metadescription = String(description || "Best appliances repair service in Dubai. Get an expert in refrigerator, fridge, washing machine, dryer, dishwasher, oven maintenance & repair near me");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Appliances Repair Dubai, Appliance Service Dubai, Appliance Repair Near Me, Home Appliances Repair Dubai, Washing Machine Repair Dubai, Refrigerator Repair Dubai, Dishwasher Repair Dubai, Oven Repair Dubai, Dryer Repair Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/appliances-repair-service/").replace(/\/?$/, '/');
@@ -164,7 +162,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Home Appliance Repair and Service in Dubai</h1>
+            <h1 className="cs_fs_30">Appliances Repair Service in Dubai | Appliances Maintenance Services</h1>
             <p>
               Since 2010, we have been providing reliable appliance repair services. We understand that appliances can break down unexpectedly, which is why we offer quality and affordable solutions. Our trained technicians are available throughout Dubai, Sharjah, and Abu Dhabi to repair large appliances at your location.
             </p>

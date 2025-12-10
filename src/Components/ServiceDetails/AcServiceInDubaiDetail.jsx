@@ -29,7 +29,7 @@ import BeforeAfter from "../BeforeAfter/BeforeAfter";
 
 const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Best AC Service in Dubai | Air Conditioner Repair & Maintenance");
+  const metatitle = String(titleSeo || "Best AC Service in Dubai | Air Conditioning Repair & Maintenance");
   const metadescription = String(description || "Looking for reliable AC service in Dubai? Get quick repairs and professional AC cleaning to help your cooling system work smoothly. Call FAJ today!");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "AC Service, Air Con Service, AC Service in Dubai, Air Conditioning Service");
@@ -137,7 +137,7 @@ const AcServiceInDubai = ({ subtitle, title, reviewsbg, titleSeo, description, A
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Ac Service in Dubai</h1>
+            <h1 className="cs_fs_30">AC Service in Dubai | Air Conditioning Repair & Maintenance </h1>
             <p><p>Good-bye to sticky summer days, stuffy nights, and allergens. Welcome to year-round comfort, refreshing clean air, and improved sleep. Cool, right?<br /><a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been in operation since 2010. Our dedicated facilities team has extensive experience in AC cleaning service, AC maintenance, AC repair, AC service near me, and AC installation of various residential and commercial air conditioning units in Dubai and Sharjah.</p></p>
 
             <div id="get-quote" className=" mt-3">

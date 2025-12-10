@@ -22,7 +22,7 @@ import Testimonial1 from "../../../Testimonial/Testimonial1";
 
 const SubZeroFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Sub Zero Fridge Repair & Service in Dubai | Freezer Maintenance ");
+  const metatitle = String(titleSeo || "Sub Zero Fridge Repair & Service in Dubai | Freezer Maintenance");
   const metadescription = String(description || "Contact the experts at Sub Zero fridge repair in Dubai, a reliable repair centre for SubZero refrigerator and freezer maintenance near you. Dial 043300002.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
@@ -121,7 +121,7 @@ const SubZeroFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Sub Zero Refrigerator Repair & Service in Dubai </h1>
+            <h1 className="cs_fs_30">SubZero Fridge Repair and Refrigerator Freezer Maintenance Service in Dubai</h1>
             <p>
               Sub Zero refrigerator are the best among the other brands out there. Still, products of the best brands do not last forever.
               You can fix minor issues, but mostly, you cannot. So why worry? We are the best Sub Zero fridge freezer repair service provider in Dubai. We are the most experienced industry experts serving since 2010 in Dubai. With hands-on experience with all Sub Zero refrigerator, you can expect successful and swift repairs from us.

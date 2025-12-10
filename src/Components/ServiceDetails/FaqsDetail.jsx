@@ -16,8 +16,8 @@ import Accordion from "../../Components/Common/Accordion.jsx";
 const FaqsDetail = ({ subtitle, title, bgImg }) => {
 
   // For SEO
-  const titleSeo = "Frequently Asked Questions About Services Home & Commercial ";
-  const description = "Find answers to common problem questions about home  / office repair services in Dubai. Explore our FAQ section for helpful insights into what we offer.";
+  const titleSeo = "FAQ | Frequently Asked Questions Services Home & Commercial ";
+  const description = "FAQ - Find answers to common problem questions about home  / office repair services in Dubai. Explore the section for helpful insights into what we offer.";
   const Author = "Faj Technical Servcies";
   const Keyword = "AC repair and Maintenance Service Near me Dubai, Appliances repair Service Dubai";
   const URL = "https://www.fajservices.ae/faqs/";
@@ -107,9 +107,9 @@ const FaqsDetail = ({ subtitle, title, bgImg }) => {
                 <div className="responsive-container-block container">
                     <div className="responsive-container-block faqheading-bg">
                     <div className="heading-content">
-                        <p className="text-blk faq-heading">
-                        Frequently Asked Questions
-                        </p>
+                        <h1 className="text-blk faq-heading">
+                        FAQ
+                        </h1>
                     </div>
                     </div>
                     <div className="responsive-container-block dropdown-container-wrapper">

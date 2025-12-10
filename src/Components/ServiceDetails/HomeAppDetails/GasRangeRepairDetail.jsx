@@ -26,8 +26,8 @@ import Testimonial1 from "../../Testimonial/Testimonial1";
 
 const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  <title>Gas Cooker Repair in Dubai | Electric Stove Service Near Me</title>
-  const metadescription = String(description || "Gas cooker repair in Dubai. Call at 043300002 for gas & electric stove service near me. Get FAJ expert fast fix cooking range, hood, induction repairs");
+  <title>Gas Cooker Repair in Dubai | Cooking Range Service Near Me</title>
+  const metadescription = String(description || "Are you looking for gas cooker repair in Dubai? Book with us for electric stove service. Get FAJ fast fixing cooking range, induction repairs near me");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Gas Cooker Repair, Gas Stove Repair, Cooking Range Service, Induction Repair, Dubai, Sharjah");
   const metaURL = String(URL || "https://www.fajservices.ae/gas-cooker-repair-service/").replace(/\/?$/, '/');
@@ -138,22 +138,22 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
     <>
       <HelmetProvider>
         <Helmet>
-          <title>Gas Cooker Repair in Dubai | Electric Stove Service Near Me</title>
-          <meta name="description" content="Gas cooker repair in Dubai. Call at 043300002 for gas & electric stove service near me. Get FAJ expert fast fix cooking range, hood, induction repairs"></meta>
+          <title>Gas Cooker Repair in Dubai | Cooking Range Service Near Me</title>
+          <meta name="description" content="Are you looking for gas cooker repair in Dubai? Book with us for electric stove service. Get FAJ fast fixing cooking range, induction repairs near me"></meta>
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
           <link rel="canonical" href="https://www.fajservices.ae/gas-cooker-repair-service/" />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content="Gas Cooker Repair in Dubai | Electric Stove Service Near Me" />
-          <meta property="og:description" content="Gas cooker repair in Dubai. Call at 043300002 for gas & electric stove service near me. Get FAJ expert fast fix cooking range, hood, induction repairs" />
+          <meta property="og:title" content="Gas Cooker Repair in Dubai | Cooking Range Service Near Me" />
+          <meta property="og:description" content="Are you looking for gas cooker repair in Dubai? Book with us for electric stove service. Get FAJ fast fixing cooking range, induction repairs near me" />
           <meta property="og:image" content={metaImage} />
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Gas Cooker Repair in Dubai | Electric Stove Service Near Me" />
-          <meta name="twitter:description" content="Gas cooker repair in Dubai. Call at 043300002 for gas & electric stove service near me. Get FAJ expert fast fix cooking range, hood, induction repairs" />
+          <meta name="twitter:title" content="Gas Cooker Repair in Dubai | Cooking Range Service Near Me" />
+          <meta name="twitter:description" content="Are you looking for gas cooker repair in Dubai? Book with us for electric stove service. Get FAJ fast fixing cooking range, induction repairs near me" />
           <meta name="twitter:image" content={metaImage} />
           <meta name="twitter:url" content={metaURL} />
         </Helmet>
@@ -164,7 +164,7 @@ const GasRangeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">gas cooker repair service</h1>
+            <h1 className="cs_fs_30">Gas Cooker Repair in Dubai | Electric Stove and Cooking Range Service</h1>
             <p>
               Since 2010, F A J has supported you when things go wrong. We understand that your cooking appliances are essential for daily life.
               The induction cooktop, stove, or range is often key to an enjoyable cooking experience in a modern kitchen. After all, home-cooked meals are an excellent way to bring family and friends together. When your cooker breaks down, it can be both inconvenient and frustrating.

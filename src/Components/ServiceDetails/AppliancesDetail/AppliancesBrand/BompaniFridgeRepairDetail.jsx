@@ -22,8 +22,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const BompaniFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
     // For SEO
-    const metatitle = String(titleSeo || "Bompani Fridge Repair In Dubai | Washing Machine Service Near");
-    const metadescription = String(description || "FAJ's experienced technicians offer reliable appliance repair services, including fridge, washing machine, oven & dishwasher repair at our center in Dubai");
+    const metatitle = String(titleSeo || "Bompani Fridge Repair and Washing Machine Service in Dubai");
+    const metadescription = String(description || "FAJ offer reliable Bompani appliance service in Dubai, including Bompani fridge repair, washing machine, oven & dishwasher repair  center near you Dubai");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Bompani Fridge Repair, Bompani Washing Machine Repair, Bompani Cooker Repair, Bompani Oven Repair, Bompani Appliances Maintenance, Bompani Refrigerator Fix Repair");
@@ -119,7 +119,7 @@ const BompaniFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Bompani Home Appliance Repair Service and Installation</h1>
+                        <h1 className="cs_fs_30">Bompani Fridge Repair and Bompani Washing Machine Service in Dubai</h1>
                         <p>
                             If you are looking for a knowledgeable local technician who specializes in Bompani appliances, you’re in the right place. <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been providing reliable and affordable appliance solutions since 2010.
                             <br />We have established a network of qualified professionals dedicated to addressing the specific needs of Bompani appliance repair and nearby services. Our main aim is to connect you with a proficient Bompani technician in Dubai and Sharjah, ensuring they have a deep understanding of Bompani appliances. Your satisfaction is our highest priority!

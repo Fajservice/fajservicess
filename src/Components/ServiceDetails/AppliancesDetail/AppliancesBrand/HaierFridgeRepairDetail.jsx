@@ -23,8 +23,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const HaierFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Haier Fridge Repair in Dubai | Washing Machine Service Near");
-    const metadescription = String(description || "FAJ is offering Haier fridge repair in Dubai. Call 043300002 for Haier washing machine repair center for refrigerator, dishwasher, microwave, oven service.");
+    const metatitle = String(titleSeo || "Haier Fridge Repair and Haier Washing Machine Service Near");
+    const metadescription = String(description || "FAJ is offering Haier fridge repair in Dubai. Call today for Haier washing machine repair, refrigerator, dishwasher, microwave, oven repair center near you.");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Haier Fridge Repair in Dubai, Haier Washing Machine Repair in Dubai, Haier Cooker Repair in Dubai, Haier Oven Repair in Dubai, Haier Appliances Maintenance in Dubai, Haier Refrigerator Fix Repairs Service");
@@ -119,7 +119,7 @@ const HaierFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descrip
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Haier Home Appliance Repair Service and Installation</h1>
+                        <h1 className="cs_fs_30">Haier Fridge Repair and Haier Washing Machine Service in Dubai</h1>
                         <p>
                             If you're looking for an experienced local technician for your Haier appliances, you've come to the right place.
                             <br />Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has provided reliable and affordable repair services across Dubai and Sharjah. Our trusted network of professionals specializes in Haier appliance repair and understands the brand’s unique service requirements.

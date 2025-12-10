@@ -21,7 +21,7 @@ import Testimonial1 from "../../../Testimonial/Testimonial1";
 
 const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "DeLonghi Coffee Machine Repair in Dubai | Maintenance Service");
+  const metatitle = String(titleSeo || "DeLonghi Coffee Machine Repair and Maintenance Service Dubai");
   const metadescription = String(description || "Quick DeLonghi coffee machine repair in Dubai. Your trusted center for automatic coffee machine & espresso machine, descaling & cleaning services.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Delonghi Coffee Machine Repair, Delonghi Coffee Machine Service, Delonghi Coffee Machine Maintenance");
@@ -118,7 +118,7 @@ const DelonghiCoffeeMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSe
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Expert DeLonghi Coffee Machine Repair and Service in Dubai</h1>
+            <h1 className="cs_fs_30">DeLonghi Coffee Machine Repair and Maintenance Service in Dubai</h1>
             {/* 
           <h2 className="cs_fs_30">CHOOSE APPLIANCE SERVICE CENTER FOR SAME-DAY REPAIRS IN DUBAI</h2> */}
             <p>

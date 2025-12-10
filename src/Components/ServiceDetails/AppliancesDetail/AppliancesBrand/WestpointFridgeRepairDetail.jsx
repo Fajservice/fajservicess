@@ -21,8 +21,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const WestpointFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Westpoint Fridge Repair in Dubai | Washing Machine Service");
-  const metadescription = String(description || "FAJ specialises in Westpoint home appliances service in Dubai. Get fast washing machine, dishwasher, oven, and cooking range repair center near me.");
+  const metatitle = String(titleSeo || "Westpoint Fridge Repair & Westpoint Washing Machine Service");
+  const metadescription = String(description || "FAJ specialises in Westpoint Fridge Repair in Dubai. Get fast washing machine, dishwasher service, oven, and cooking range repair center near me.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Westpoint Fridge Repair, Westpoint Washing Machine Repair, Westpoint Cooker Repair, Westpoint Oven Repair, Westpoint Refrigerator Fix, Westpoint Appliance Service Dubai");
@@ -120,7 +120,7 @@ const WestpointFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Westpoint Home Appliance Repair Service and Installation</h1>
+            <h1 className="cs_fs_30">Westpoint Fridge Repair and Westpoint Washing Machine Service in Dubai</h1>
             <p>
               Are you struggling to find a local Westpoint appliance technician who specializes in Westpoint kitchen appliances?
               At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been delivering reliable and affordable services since 2010. Our extensive network includes carefully vetted, qualified, and experienced professionals. Whenever possible, we’ll assign a technician who understands your specific Westpoint appliance.

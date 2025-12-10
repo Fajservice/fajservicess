@@ -25,8 +25,8 @@ import Testimonial1 from "../../Testimonial/Testimonial1";
 
 const SmallAppliancesRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Small Home Appliances Service Center & Repair Near Me Dubai");
-  const metadescription = String(description || "Small home appliances service in Dubai. FAJ Experts in mixer, microwave, air fryer, iron box, blender, dispenser, garment steamer repair shop near me");
+  const metatitle = String(titleSeo || "Small Home Appliances Service Center in Dubai & Repair Near Me");
+  const metadescription = String(description || "Best small home appliances service center in Dubai. FAJ Experts in mixer, microwave, air fryer, iron box, grinder, garment steamer repair shop near me");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "mixer repair, steam iron repair, toaster repair, microwave oven repair, air fryer repair, water dispenser repair, small home appliances service, household appliance repair near me");
   const metaURL = String(URL || "https://www.fajservices.ae/small-home-appliances-service-center-in-dubai/").replace(/\/?$/, '/');
@@ -162,7 +162,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Small Home Appliances Service Center in Dubai</h1>
+            <h1 className="cs_fs_30">Small Home Appliances Service Center in Dubai | Household Appliance Repair </h1>
             <p>
               Do you need small appliance repair? If you&apos;re looking for a reliable and trusted service, look no further than FAJ Technical Services L.L.C, established in 2010.
               We understand the inconvenience caused by a malfunctioning appliance, which is why we offer fast and professional small home appliance repair services in your area.

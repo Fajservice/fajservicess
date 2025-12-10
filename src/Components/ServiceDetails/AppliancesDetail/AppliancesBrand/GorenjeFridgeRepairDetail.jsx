@@ -21,7 +21,7 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const GorenjeFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Gorenje Fridge Repair In Dubai | Washing Machine Service Near ");
-  const metadescription = String(description || "Gorenje home appliances specialise in repair fridge, washing machine, dishwasher, cooker, and dryer. in Dubai We use original parts and offer a warranty.");
+  const metadescription = String(description || "Expert Gorenje fridge repair in Dubai. Book now for Gorenje washing machine, dryer, refrigerator, dishwasher, cooker maintenance and service center ");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Gorenje Fridge Repair, Gorenje Washing Machine Repair, Gorenje Cooker Repair, Gorenje Oven Repair, Gorenje Appliances Maintenance, Gorenje Refrigerator Fix, Gorenje Appliance Service Dubai");
@@ -118,7 +118,7 @@ const GorenjeFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Gorenje  Home Appliance Repair Service and Installation</h1>
+            <h1 className="cs_fs_30">Gorenje Fridge Repair and Gorenje Washing Machine Service in Dubai</h1>
             <p>
               Having difficulty finding a local technician who specializes in Gorenje kitchen appliances?
               <br />At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been delivering trusted and cost-effective repair services since 2010. Our extensive network includes highly vetted, skilled, and experienced professionals. Whenever possible, we’ll assign a technician who is well-acquainted with your specific Gorenje appliance to ensure accurate and efficient service.

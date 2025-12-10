@@ -21,7 +21,7 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const LgFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "LG Fridge Repair in Dubai | LG Washing Machine Repair Near Me");
-  const metadescription = String(description || "With Warranty LG fridge repair in Dubai. Home Appliances Repair specialises in washer dryer, refrigerator, dishwasher repair, & cooker LG service centre.");
+  const metadescription = String(description || "Reliable & Fast LG fridge repair in Dubai. FAJ specialises in LG washer dryer, refrigerator, dishwasher repair & cooker LG service center in Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "LG Fridge Repair, LG Washing Machine Repair, LG Cooker Repair, LG Oven Repair, LG Appliances Maintenance, LG Refrigerator Fix, LG Dishwasher Repair");
@@ -117,7 +117,7 @@ const LgFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">LG Home Appliance Repair Service and Installation</h1>
+            <h1 className="cs_fs_30">LG Fridge Repair and LG Washing Machine Service in Dubai </h1>
             <p>
               Having trouble finding a local LG appliance technician with expertise in LG kitchen appliances? At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been providing reliable and affordable service since 2010. Our extensive network of skilled, thoroughly vetted professionals ensures that, whenever possible, we send a technician experienced with your specific LG appliance.
             </p>

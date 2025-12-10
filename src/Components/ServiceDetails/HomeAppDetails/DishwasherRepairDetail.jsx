@@ -27,8 +27,8 @@ import Testimonial1 from "../../Testimonial/Testimonial1";
 
 const DishwasherRepairDetailDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Dishwasher Repair in Dubai | Dishwasher Service Center Near Me");
-  const metadescription = String(description || "Is your dishwasher broken? Trusted FAJ can carry out your dishwasher repair, maintenance service in Dubai quickly and effectively. Call now 043300002");
+  const metatitle = String(titleSeo || "Dishwasher Repair in Dubai | Dishwasher Service Near Me");
+  const metadescription = String(description || "Reliable Dishwasher Repair and Service in Dubai. Book with us for built in dishwasher repairs, error fixing service center & best glass washer maintenance");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaKeyword = String(Keyword || "Dishwasher Repair Service, Dishwasher Repair Dubai, Dishwasher Service Dubai, Dishwasher Fix Dubai, Dishwasher Maintenance Dubai, Dishwasher Machine Repair Dubai, Dishwasher Machine Service Dubai, Dishwasher Machine Fix Dubai, Dishwasher Machine Maintenance Dubai");
   const metaURL = String(URL || "https://www.fajservices.ae/dishwasher-repair-service/").replace(/\/?$/, '/');
@@ -165,7 +165,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Dishwasher Repair and Service in Dubai</h1>
+            <h1 className="cs_fs_30">Dishwasher Repair in Dubai | Dishwasher Maintenance Service Near Me</h1>
             <p>
               Since 2010, FAJ has been a trusted name in dishwasher repair and service in Dubai and Sharjah. Our skilled professionals are ready to assist with any brand, using high-quality tools for effective service.
               <br /> We prioritise repairs over replacements, helping you save money and avoid the hassle of buying a new dishwasher. Rely on our experienced experts for fast and reliable dishwasher maintenance in Dubai!

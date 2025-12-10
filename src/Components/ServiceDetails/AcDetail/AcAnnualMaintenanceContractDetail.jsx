@@ -139,7 +139,7 @@ const AcAnnualMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSe
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">AC Annual Maintenance Contract</h1>
+            <h1 className="cs_fs_30">AC Annual Maintenance Contract Services (AMC)</h1>
 
             <p>
               At FAJ Technical Services L.L.C, customer satisfaction is our top priority. We offer a straightforward and cost-effective annual maintenance contract that covers all essential maintenance for your home and business.

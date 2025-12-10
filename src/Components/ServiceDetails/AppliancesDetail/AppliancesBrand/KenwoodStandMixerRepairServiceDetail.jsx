@@ -23,7 +23,7 @@ import Testimonial1 from "../../../Testimonial/Testimonial1";
 const KenwoodStandMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Kenwood Stand Mixer Repair & Service Near Me in Dubai");
-  const metadescription = String(description || "If you are looking for Kenwood stand mixer repair in Dubai, contact us at 043300002 for your mixer maintenance and servicing at a nearby center in Dubai.");
+  const metadescription = String(description || "If you are looking for Kenwood stand mixer repair in Dubai. Contact us for your mixer maintenance and servicing at a nearby repair shop & center in Dubai.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Kenwood Stand Mixer Repair Service, Kenwood Mixer Repair Dubai, Kenwood Appliance Repair Dubai, Kenwood Mixer Service Near Me, Kenwood Stand Mixer Repair Near Me, Kenwood Appliance Maintenance Dubai");
@@ -120,7 +120,7 @@ const KenwoodStandMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, titl
         <section className="section cs_py_30">
           <div className="container">
 
-            <h1 className="cs_fs_30">Kenwood Stand Mixer Repair & Service in Dubai</h1>
+            <h1 className="cs_fs_30">Kenwood Stand Mixer Repair and Maintenance Service in Dubai</h1>
             <p>
               If your Kenwood stand mixer is giving you trouble, rely on the experts at <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> in Dubai. Since 2010, we’ve been delivering fast, dependable, and cost-effective repair services explicitly designed for Kenwood appliances.
               <br />

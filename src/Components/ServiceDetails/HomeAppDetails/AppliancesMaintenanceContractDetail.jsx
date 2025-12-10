@@ -23,6 +23,7 @@ import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointme
 import BrandsSliderSection from "../../BrandsSliderSection";
 import Testimonial1 from "../../Testimonial/Testimonial1";
 
+<<<<<<< HEAD
 const AppliancesMaintenanceContractDetail = ({ 
   subtitle, 
   title, 
@@ -32,6 +33,19 @@ const AppliancesMaintenanceContractDetail = ({
   Author, 
   Keyword, 
   URL }) => {
+=======
+// import { Link } from "react-router-dom";
+
+const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+  // For SEO
+  const metatitle = String(titleSeo || "Appliances AMC Services in Dubai | Maintenance Contract");
+  const metadescription = String(description || "Time to get comfortable with appliances AMC service in Dubai, FAJ Experts in washing machine, refrigerator, cooking, oven, coffee machine maintenance");
+  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
+  const metaKeyword = String(Keyword || "Home appliacnes, Appliances AMC, Appliances Maintenance Contract, Kitchen Equipment AMC, Kitchen Appliances AMC, Dubai Appliances Service, Appliance Repair Dubai, Appliance Service Dubai");
+  const metaURL = String(URL || "https://www.fajservices.ae/appliances-amc-service/").replace(/\/?$/, '/');
+  const metaImage = String(Image || "https://www.fajservices.ae/img/dishwasher-repair-service.avif");
+  // For SEO
+>>>>>>> ae41bf59b164799ea7ffc4aced2c26fba7b06ed6
 
   const metaTitle = String(
     titleSeo || "Appliances AMC Services in Dubai | Maintenance Contract"
@@ -190,7 +204,7 @@ const AppliancesMaintenanceContractDetail = ({
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">KITCHEN EQUIPMENT AND APPLIANCES AMC SERVICES</h1>
+            <h1 className="cs_fs_30">Appliances AMC Services in Dubai | Appliances Annual Maintenance Contract</h1>
             <p>FAJ has been providing commercial kitchen equipment and appliance maintenance contract services in Dubai, Sharjah, and Abu Dhabi since 2010.< br />
               Regular Planned Preventive Maintenance (PPM) is essential for keeping appliances efficient and minimising unexpected failures.
               As appliances age, they become more prone to breakdowns, often at inconvenient times.< br />

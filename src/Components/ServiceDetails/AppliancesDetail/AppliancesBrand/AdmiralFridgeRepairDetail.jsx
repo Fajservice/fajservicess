@@ -25,8 +25,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Admiral Fridge Repair In Dubai | Washing Machine Service Near");
-    const metadescription = String(description || "We are offering an Admiral refrigerator, a dryer, a dishwasher, a cooking range, and an oven service centre near me. Call now at 043300002");
+    const metatitle = String(titleSeo || "Admiral Fridge Repair & Admiral Washing Machine Service Dubai");
+    const metadescription = String(description || "We are offering an Admiral fridge repair. Including dryer, dishwasher,  freezer, cooking range, and oven service centre near me. Call us now.");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Amiral Fridge Repair, Admiral Washing Machine Repair, Admiral Cooker Repair, Admiral Oven Repair, Admiral Appliances Maintenance, Admiral Refrigerator Fix, Admiral Appliance Service Dubai");
@@ -122,7 +122,7 @@ const AdmiralFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Admiral Fridge Repair and Washing Machine Service in Dubai</h1>
+                        <h1 className="cs_fs_30">Admiral Fridge Repair and Admiral Washing Machine Service in Dubai</h1>
                         <p>
                             Having trouble finding a reliable technician for your Admiral kitchen appliances? At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been providing dependable and affordable service since 2010. Our experienced network of skilled professionals ensures that, whenever possible, you’re matched with a technician who specializes in your specific Admiral appliance.
                         </p>

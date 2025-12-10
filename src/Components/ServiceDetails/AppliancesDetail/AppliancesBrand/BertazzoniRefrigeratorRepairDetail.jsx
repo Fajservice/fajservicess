@@ -24,7 +24,7 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
 
   // For SEO
   const metatitle = String(titleSeo || "Bertazzoni Cooking Range Repair In Dubai | Oven Service Center");
-  const metadescription = String(description || "Bertazzoni cooking and baking appliance service in Dubai - Call 043300002. Experts in Bertazzoni gas range, hob, electric stove, and oven repair service near you. 043300002.");
+  const metadescription = String(description || "Bertazzoni cooking range service in Dubai. Experts in Bertazzoni gas range, hob, electric stove, and oven repair center near you. Call now 0507464712.");
   const metaAuthor = String(Author || "Faj Technical Services/").replace(/\/?$/, '/');
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Bertazzoni Refrigerator Repair, Bertazzoni Fridge Repair, Bertazzoni Washing Machine Repair, Bertazzoni Dishwasher Repair, Bertazzoni Cooker Repair, Bertazzoni Oven Repair, Bertazzoni Appliance Service Dubai");
@@ -120,7 +120,7 @@ const BertazzoniRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Bertazzoni Appliance Repair & Service in Dubai</h1>
+            <h1 className="cs_fs_30">Bertazzoni Cooking Range Repair and Bertazzoni Oven Service in Dubai</h1>
             <p>
               If you’re facing issues with your Bertazzoni Cooker, Built-in Oven, Hob, or Compact Oven, trust the experts at <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> in Dubai. Since 2010, we have provided fast, reliable, and cost-effective repair services tailored specifically for Bertazzoni appliances.
               <br />

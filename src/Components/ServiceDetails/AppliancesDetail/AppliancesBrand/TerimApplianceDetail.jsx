@@ -22,8 +22,8 @@ import Testimonial1 from '../../../Testimonial/Testimonial1';
 const TerimApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
     // For SEO
-    const metatitle = String(titleSeo || "Terim Appliances Service - Best Washing Machine Repair in Dubai");
-    const metadescription = String(description || "Need Terim appliance service? We offer expert repair for refrigerators, Terim washing machine, dishwasher, oven, and stove repair center in Dubai. Call us");
+    const metatitle = String(titleSeo || "Terim Appliances Service | Terim Washing Machine Repair in Dubai");
+    const metadescription = String(description || "Need Terim appliance service? We offer expert repair for refrigerators, washing machine, dishwasher, oven, and stove in our repair centre in Dubai. Call us");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "Terim Appliances Service, Terim Washing Machine Repair, Terim Fridge Repair, Terim Dishwasher Repair, Terim Stove Repair, Terim Appliance Maintenance Dubai");
@@ -149,7 +149,7 @@ const TerimApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                 {/* intro */}
                 <section className="section cs_py_30">
                     <div className="container">
-                        <h1 className="cs_fs_30">Terim Home Appliance Repair Service and Installation</h1>
+                        <h1 className="cs_fs_30">Terim Appliances Service and Terim Washing Machine Repair in Dubai</h1>
                         <p>
                             If you need a qualified technician for Terim appliances, you’re in the right place. Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has provided reliable and affordable home appliances repair & services. Our network includes skilled professionals who understand Terim appliance repair and nearby services. We connect you with experienced technicians in Dubai and Sharjah who prioritize your satisfaction and ensure efficient solutions for all your appliance needs!
                         </p>

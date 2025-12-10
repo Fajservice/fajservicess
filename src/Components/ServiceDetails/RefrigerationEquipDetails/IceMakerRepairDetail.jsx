@@ -23,8 +23,8 @@ import BrandsSliderSection from "../../BrandsSliderSection";
 
 const IceMakerRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Ice Maker Repair in Dubai | Ice Machine Maintenance Services");
-  const metadescription = String(description || "Best Ice maker repair in Dubai. We specialise in hoshizaki, manitowoc, generaltec. brema, scotsman ice cube, Ice machine maintenance & AMC services");
+  const metatitle = String(titleSeo || "Ice Maker Repair in Dubai | Commercial Ice Machine Maintenance");
+  const metadescription = String(description || "Get reliable ice maker repair in Dubai. FAJ specialise in hoshizaki, manitowoc, generaltec. brema, scotsman ice cube machine maintenance, AMC services");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Ice Maker Repair, IceMaker Repair, Commercial Ice Maker Repair Service");
   const metaURL = String(URL || "https://www.fajservices.ae/ice-maker-repair/").replace(/\/?$/, '/');
@@ -160,7 +160,7 @@ const [isModalOpen, setIsModalOpen] = useState(false);
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Ice Maker Repair – Ice Machine Service</h1>
+            <h1 className="cs_fs_30">Ice Maker Repair in Dubai | Commercial Ice Maker Machine Maintenance Services</h1>
 
             {/* <h2 className="cs_fs_30">We provide top-quality repair and maintenance services for ice maker machines</h2> */}
             <p>

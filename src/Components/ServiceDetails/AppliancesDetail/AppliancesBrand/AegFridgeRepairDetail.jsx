@@ -21,8 +21,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const AegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Best AEG Fridge Repair in Dubai | Washing Machine Service Near");
-  const metadescription = String(description || "Professional AEG fridge and washing machine repair in Dubai. Our experienced team offers near you service stove, dishwasher, oven, and dryer center.");
+  const metatitle = String(titleSeo || "AEG Fridge Repair in Dubai | Washing Machine Service Near Me");
+  const metadescription = String(description || "Professional AEG fridge repair in Dubai. Our experienced team offers  AEG washing machine, stove, dishwasher, oven, and dryer service center.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "AEG Fridge Repair, AEG Washing Machine Repair, AEG Cooker Repair, AEG Oven Repair, AEG Appliances Maintenance, AEG Refrigerator Fix, AEG Appliance Service Dubai");
@@ -119,7 +119,7 @@ const AegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descripti
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">AEG Home Appliance Repair Service and Installation</h1>
+            <h1 className="cs_fs_30">AEG Fridge Repair and Washing Machine Maintenance Service in Dubai</h1>
             <p>
               Having trouble finding a local technician for your AEG kitchen appliances? <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been providing reliable, affordable appliance repairs since 2010. Our trusted network of qualified professionals ensures that, whenever possible, we’ll send a technician with direct experience handling your specific AEG model.
             </p>

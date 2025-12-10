@@ -21,8 +21,8 @@ const HooverFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
   // For SEO
    const metatitle = titleSeo?.trim() 
   ? titleSeo 
-  : "Best Hoover Fridge Repair & Service in Dubai | Washing Machine";
-  const metadescription = String(description || "Get warranty service for hoover appliances and fridge repair in Dubai by FAJ. Book now washer dryer, dishwasher, stove, or oven service  center near you.");
+  : "Hoover Fridge Repair & Washing Machine Service in Dubai";
+  const metadescription = String(description || "Hoover fridge repair in Dubai. FAJ. Book with FAJ washing machine, dryer, refrigerator, dishwasher, stove, or oven service centre near you. ");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Hoover Fridge Repair, Hoover Washing Machine Repair, Hoover Cooker Repair, Hoover Oven Repair, Hoover Appliances Maintenance, Hoover Refrigerator Fix, Hoover Appliance Service Dubai");
@@ -119,7 +119,7 @@ const HooverFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descri
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Hoover Home Appliance Repair Service and Installation</h1>
+            <h1 className="cs_fs_30">Hoover Fridge Repair & Washing Machine Service in Dubai </h1>
             <p>
               Having trouble finding a reliable Hoover appliance technician for your kitchen appliances? At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been providing trusted and affordable service since 2010. Our wide network of thoroughly vetted, experienced professionals allows us to send a technician who understands your specific Hoover appliance whenever possible.
             </p>

@@ -23,8 +23,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const GeGeneralElectricFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "GE - General Fridge Repair in Dubai | Washing Machine Service");
-  const metadescription = String(description || "FAJ offers General Electric (GE) fridge repair in Dubai, with warranty for freezer, refrigerator, washer dryer maintenance service center in Dubai.");
+  const metatitle = String(titleSeo || "GE - General Fridge Repair & GE Washing Machine Service Dubai");
+  const metadescription = String(description || "FAJ offers General Electric (GE) fridge repair in Dubai, with warranty for freezer, GE refrigerator service, washer dryer maintenance repair center near me");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "GE General Electric Fridge Repair, GE General Electric Washing Machine Repair, GE General Electric Cooker Repair, GE General Electric Oven Repair, GE General Electric Appliance Repair Dubai");
@@ -121,7 +121,7 @@ const GeGeneralElectricFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">GE General Fridge Repair and Washing Machine Service in Dubai</h1>
+            <h1 className="cs_fs_30">GE - General Fridge Repair and GE Washing Machine Service in Dubai</h1>
             <p>
               Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been a trusted name for GE General appliance repair and maintenance across Dubai. We know appliance failures can happen without warning, which is why we deliver dependable and cost-effective repair solutions.
               Our skilled technicians are on hand throughout Dubai and Sharjah to offer on-site GE General washing machine repairs and servicing.

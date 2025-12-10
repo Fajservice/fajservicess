@@ -24,7 +24,7 @@ import Testimonial1 from "../../Testimonial/Testimonial1.jsx";
 const NearMeDetail = ({ subtitle, title, bgImg }) => {
 
   // For SEO
-  const titleSeo = "Near Me Repair in Dubai Appliance Service Center | Fix AC";
+  const titleSeo = "Repair Near Me in Dubai Appliance Service Center | Fix AC";
   const description = "Find Home & Commericial Repair Service Near Me of AC, Fridge, Washing Machine, Dishwasher, Oven, Coffee Machine, Vacuum, Freezer, Spare Parts Shop";
   const Author = "Faj Technical Servcies";
   const Keyword = "AC repair and Maintenance Service Near me Dubai, Appliances repair Service Dubai";
@@ -113,7 +113,7 @@ const NearMeDetail = ({ subtitle, title, bgImg }) => {
 
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_24">Home and Commercial Appliance Repair and Service Center – Expert Appliance Repair Near You</h1>
+            <h1 className="cs_fs_24">Repair Near Me </h1>
             <h2 className="cs_fs_20">
               Reliable Home Appliance Repair Services – Quick and Affordable
             </h2>

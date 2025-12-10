@@ -23,7 +23,7 @@ import Testimonial1 from "../../../Testimonial/Testimonial1";
 const KitchenaidStandMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "KitchenAid Stand Mixer Repair & Maintenance Service in Dubai");
-  const metadescription = String(description || "Kitchenaid stand mixer repair in Dubai with Warranty - Get expert maintenance & servicing of mixer repair centre near you. Contact 043300002.");
+  const metadescription = String(description || "Kitchenaid stand mixer repair in Dubai with Warranty - Get expert maintenance & servicing of mixer repair centre near you. Contact us now.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/kitchen-aid-mixer-repair.avif");
   const metaKeyword = String(Keyword || "Kitchenaid Stand Mixer Repair, Kitchenaid Mixer Repair Dubai, Kitchenaid Appliance Repair, Kitchenaid Mixer Service, Kitchenaid Stand Mixer Maintenance, Kitchenaid Appliance Service Dubai");
@@ -120,7 +120,7 @@ const KitchenaidStandMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, t
         <section className="section cs_py_30">
           <div className="container">
 
-            <h1 className="cs_fs_30">KitchenAid Stand Mixer Repair & Service in Dubai</h1>
+            <h1 className="cs_fs_30">KitchenAid Stand Mixer Repair & Maintenance Service in Dubai</h1>
             <p>
               If you’re facing issues with your KitchenAid Stand Mixer, trust the experts at <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> in Dubai. Since 2010, we have provided fast, reliable, and cost-effective repair services explicitly tailored for KitchenAid appliances.
               <br />

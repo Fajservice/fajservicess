@@ -22,8 +22,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const WhirlpoolFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Whirlpool Fridge Repair in Dubai - Washing Machine Service Near");
-  const metadescription = String(description || "Our expert appliance service team is here to help with your Whirlpool fridge repair, washing machine, dishwasher, dryer, and oven center near you Dubai.");
+  const metatitle = String(titleSeo || "Whirlpool Fridge Repair in Dubai | Washing Machine Service Near");
+  const metadescription = String(description || "Whirlpool fridge repair in Dubai. FAJ expert Whirlpool appliance, washing machine, dishwasher service, dryer, cooker and oven repair center near you");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Whirlpool Fridge Repair Dubai, Whirlpool Washing Machine Repair Dubai, Whirlpool Cooker Repair Dubai, Whirlpool Oven Repair Dubai, Whirlpool Appliances Maintenance Dubai, Whirlpool Refrigerator Repair Dubai");
@@ -122,7 +122,7 @@ const WhirlpoolFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, des
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Whirlpool Home Appliance Repair Service and Installation</h1>
+            <h1 className="cs_fs_30">Whirlpool Fridge Repair and Washing Machine Service in Dubai</h1>
             <p>
               Having trouble finding a local Whirlpool appliance technician who understands Whirlpool kitchen appliances? At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been delivering trusted and affordable appliance repair services since 2010. Our wide network of skilled and experienced professionals ensures that, whenever possible, we send a technician who knows your specific Whirlpool appliance inside and out.
             </p>

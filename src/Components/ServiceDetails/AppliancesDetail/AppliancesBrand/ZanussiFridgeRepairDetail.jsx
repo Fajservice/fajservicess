@@ -23,8 +23,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const ZanussiFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Zanussi Professional | Zanussi Fridge Repair in Dubai | Oven Fix");
-  const metadescription = String(description || "Experience maintenance for Zanussi professional appliances, including fridge, freezer, washing machine, oven, dishwasher repair service in Dubai.");
+  const metatitle = String(titleSeo || "Zanussi Fridge Repair in Dubai | Oven Fix | Zanussi Professional");
+  const metadescription = String(description || "Reliable Zanussi professional appliances service, including fridge repair, freezer, washing machine, oven, and dishwasher repair center near me in Dubai.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Zanussi Fridge Repair, Zanussi Washing Machine Repair, Zanussi Cooker Repair, Zanussi Oven Repair, Zanussi Appliances Maintenance, Zanussi Refrigerator Fix, Zanussi Appliance Service Dubai");
@@ -121,7 +121,7 @@ const ZanussiFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descr
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Zanussi Home Appliance Repair Service and Installation</h1>
+            <h1 className="cs_fs_30">Zanussi Fridge Repair and Zanussi Professional Appliances Service in Dubai</h1>
             <p>
               If you’re in need of a knowledgeable local technician specializing in Zanussi appliances, you’ve come to the right place.
               <br /> <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been providing reliable and affordable home appliances repair & services since 2010. We connect you with a network of qualified professionals who understand the specific needs of Zanussi appliance repairs and services in your area. Our main goal is to match you with an experienced Zanussi technician in Dubai and Sharjah who is familiar with the operation of Zanussi appliances. We prioritize your satisfaction above all else!

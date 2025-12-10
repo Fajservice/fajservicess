@@ -22,7 +22,7 @@ const BostonRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, 
 
   // For SEO
   const metatitle = String(titleSeo || "Boston Refrigerator Repair In Dubai | Appliances Service Near Me");
-  const metadescription = String(description || "Looking for an affordable Boston Refrigerator Repair in Dubai. We're a team of appliance maintenance technicians in your local area call 043300002");
+  const metadescription = String(description || "Looking for an affordable Boston Refrigerator Repair in Dubai. We're a team of appliance maintenance technicians in your local area book now");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Boston Refrigerator Repair, Boston Fridge Repair in Dubai, Boston Washing Machine Repair, Boston Dishwasher Repair, Boston Cooker Repair, Boston Appliance Service Dubai");
@@ -118,7 +118,7 @@ const BostonRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, 
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Boston Home Appliance Repair Service and Installation</h1>
+            <h1 className="cs_fs_30">Boston Refrigerator Repair and Appliances Service In Dubai</h1>
             <p>
               Having trouble finding a local technician who specializes in Boston kitchen appliances?
               <br />At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been providing reliable and affordable services since 2010. Our broad network includes thoroughly vetted, qualified, and experienced professionals. Whenever possible, we’ll assign a technician who is familiar with your specific Boston appliance to ensure expert care and prompt service.

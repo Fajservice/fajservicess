@@ -23,8 +23,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1";
 const SmegMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Smeg Stand Mixer Repair & Service in Dubai | Small Appliance Fix ");
-  const metadescription = String(description || "Book an expert Smeg mixer repair in Dubai. Our trained team fix Retro Style Quart, Food Processor, Vintage & Dolce Mixer service near you. 043300002");
+  const metatitle = String(titleSeo || "Smeg Stand Mixer Repair & Service in Dubai | Fix Small Appliance");
+  const metadescription = String(description || "Expert Smeg stand mixer repair in Dubai. FAJ trained team fix Retro Style Quart, Food Processor, Vintage & Dolce Mixer service  & repair center near you.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Smeg mixer repair, Smeg mixer service, Smeg mixer Dubai, Smeg mixer repair Dubai, Smeg mixer service Dubai, Smeg mixer near me, Smeg mixer repair near me, Smeg mixer service near me, Smeg mixer Dubai service, Smeg mixer Dubai repair");
@@ -120,7 +120,7 @@ const SmegMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, de
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Smeg Stand Mixer Repair & Service in Dubai</h1>
+            <h1 className="cs_fs_30">Smeg Stand Mixer Repair & Service in Dubai and Small Appliance Service Center</h1>
 
             <p>
               If your Smeg stand mixer is giving you trouble, rely on the specialists at <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> in Dubai. Since 2010, we’ve been delivering quick, dependable, and budget-friendly repair solutions explicitly designed for Smeg appliances. Our skilled technicians also handle repairs for coffee machines, blenders, and other kitchen appliances, using advanced diagnostic tools to ensure minimal disruption to your home or business in Dubai and Sharjah.

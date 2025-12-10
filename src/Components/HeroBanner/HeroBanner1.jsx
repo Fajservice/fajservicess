@@ -62,7 +62,7 @@ const HeroBanner1 = () => {
 
       <div className="container">
         <div className="cs_hero_text">
-          <h1 className="cs_hero_title cs_fs_50 cs_mb_18">{item.title}</h1>
+          <h2 className="cs_hero_title cs_fs_50 cs_mb_18">{item.title}</h2>
           <p className="cs_hero_subtitle cs_mb_34">{item.desc}</p>
           <div className="cs_hero_btns">
             <Link
@@ -96,6 +96,7 @@ const HeroBanner1 = () => {
 
   return (
     <section className="cs_slider cs_style_1" aria-label="Hero banner slider">
+      <h1 className="cs_hero_title cs_fs_50 cs_mb_18 d-none">F A J Technical Services L.L.C</h1>
       <div className="cs_slider_container">
         <div className="cs_slider_wrapper">
           {/* Instant-first paint of first slide for best LCP */}

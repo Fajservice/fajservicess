@@ -22,7 +22,7 @@ import Testimonial1 from "../../../Testimonial/Testimonial1";
 const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Frigidaire Refrigerator Repair in Dubai | Washing Machine Service");
+  const metatitle = String(titleSeo || "Frigidaire Refrigerator Repair | Washing Machine Maintenance");
   const metadescription = String(description || "FAJ specialises in Frigidaire home appliances service in Dubai. Get fast washing machine, dishwasher, oven, and cooking range repair center near me.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
@@ -111,7 +111,7 @@ const FrigidaireRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleS
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Frigidaire Fridge Repair and Washing Machine Service in Dubai </h1>
+            <h1 className="cs_fs_30">Frigidaire Refrigerator Repair and Washing Machine Service Maintenance in Dubai</h1>
             <p>
               Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has provided reliable Frigidaire appliance repair and service in Dubai. We understand that appliances can break down unexpectedly, so we offer quality and affordable solutions.
               <br />Our trained technicians are available throughout Dubai and Sharjah to provide Frigidaire washing machine repair and service at your location.

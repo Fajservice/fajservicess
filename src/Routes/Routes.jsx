@@ -126,6 +126,14 @@ export const router = createBrowserRouter([
         element: <Components.OvenRepairService />,
       },
       {
+        path: "/rational-commercial-kitchen-equipment-repair-and-maintenance-service-dubai/",
+        element: <Components.RationalCommercialKitchenEquipmentRepairService />,
+      },
+      {
+        path: "/unox-commercial-oven-repair-and-maintenance-service-dubai/",
+        element: <Components.UnoxCommercialOvenRepairService />,
+      },
+      {
         path: "/commercial-cooking-appliances-repair-service/",
         element: <Components.CookingEquipmentService />,
       },
@@ -1116,6 +1124,14 @@ export const router = createBrowserRouter([
       {
         path: "/la-germania-cooking-range-repair-in-dubai-la-germania-oven-repair-in-dubai-la-germania-cooker-repair-in-dubai-la-germania-cooker-oven-maintenance-service-in-dubai-refrigerator-repair-in-dubai-fridge-r/",
         element: <Components.LaGermaniaCookingRangeRepair />,
+      },
+      {
+        path: "/ecovacs-vacuum-cleaner-repair-and-service-in-dubai/",
+        element: <Components.EcovacsVacuumCleanerRepairAndService />,
+      },
+      {
+        path: "/roborock-vacuum-cleaner-repair-service-in-dubai/",
+        element: <Components.RoboRockVacuumCleanerRepairAndService />,
       },
       {
         path: "/delonghi-coffee-machine-repair/",

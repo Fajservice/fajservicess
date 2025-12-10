@@ -21,7 +21,7 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 const SmegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
   const metatitle = String(titleSeo || "Smeg Fridge Repair & Service in Dubai | Washing Machine Fix");
-  const metadescription = String(description || "Fast Smeg Appliance repair center: Get same-day Smeg fridge repair in Dubai and service for washing machine, oven, stove, range, & dishwasher nearby.");
+  const metadescription = String(description || "Fast Smeg fridge repair in Dubai: Get same-day Smeg washing machine, dryer, dishwasher, oven, stove, cooker, service & repair center nearby.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Smeg fridge repair, Smeg washing machine repair, Smeg cooker repair, Smeg oven repair, Smeg appliances maintenance, Smeg refrigerator fix, Smeg appliance service in Dubai");
@@ -119,7 +119,7 @@ const SmegFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, descript
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Smeg Home Appliance Repair Service and Installation</h1>
+            <h1 className="cs_fs_30">Smeg Fridge Repair & Smeg Washing Machine Service in Dubai </h1>
             <p>Since 2010, <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a> has been delivering trusted Smeg appliance maintenance and repair solutions across Dubai. We recognize that appliance failures often occur without warning, so we ensure fast, dependable, and cost-effective services.
               Our expert technicians operate throughout Dubai and Sharjah, offering convenient Smeg washing machine repairs and servicing to keep your appliances running smoothly.
             </p>

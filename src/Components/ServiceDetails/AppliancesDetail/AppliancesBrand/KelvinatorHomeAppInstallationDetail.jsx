@@ -20,8 +20,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const KelvinatorHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Kelvinator Home Appliance Service | Refrigerator Repair Near");
-  const metadescription = String(description || "Find here Kelvinator home appliance repair. Call 043300002 for your fridge, washing machine, cooking range, oven fix service center near me Dubai");
+  const metatitle = String(titleSeo || "Kelvinator Home Appliance Service and Refrigerator Repair Near");
+  const metadescription = String(description || "Find here Kelvinator home appliance service. Call now your Kelvinator fridge repair, washing machine, cooking range, oven repair center near me Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Kelvinator Home Appliance Service, Kelvinator Home Appliance Repair, Kelvinator Fridge Repair, Kelvinator Washing Machine Repair, Kelvinator Cooker Repair, Kelvinator Dishwasher Repair, Kelvinator Oven Repair, Kelvinator Appliance Installation Dubai");
@@ -137,7 +137,7 @@ const KelvinatorHomeAppInstallationDetail = ({ subtitle, title, reviewsbg, title
           <div className="container">
             <div className="row gx-md-5">
               <div className="col-md-6">
-                <h2 className="cs_fs_20 mb-1">Kelvinator Washing Machine Repair Near You</h2>
+                <h2 className="cs_fs_20 mb-1">Kelvinator Home Appliance Service and Kelvinator Refrigerator Repair in Dubai</h2>
                 <p className="mb-2">
                   If you need repair services for your Kelvinator appliances, FAJ is here to help! Rely on us for fast and affordable support.
                   Whether your built-in Kelvinator washer isn’t draining, your fridge isn’t cooling, your oven won’t heat, or your dishwasher won’t start, our expert repair team in Dubai and Sharjah is ready to assist.

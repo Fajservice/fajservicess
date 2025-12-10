@@ -20,8 +20,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const ThemadorAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "Thermador Appliances Service in Dubai | Thermador Repair Center");
-  const metadescription = String(description || "Call our trained team on 043300002 for Thermador home appliances service in Dubai for cooking range, oven, fridge repair & maintenance near me");
+  const metatitle = String(titleSeo || "Thermador Appliances Service & Thermador Repair Center Dubai");
+  const metadescription = String(description || "Call our trained team for Thermador home appliances service in Dubai for cooking range, oven, fridge repair & maintenance near me Dubai");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Thermador Appliances Service, Thermador Oven Repair, Thermador Fridge Repair, Thermador Washing Machine Repair, Thermador Dishwasher Repair, Thermador Cooker Repair, Thermador Appliance Maintenance Dubai");
@@ -119,7 +119,7 @@ const ThemadorAppliancesServiceDetail = ({ subtitle, title, reviewsbg, titleSeo,
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Thermador  Home Appliance Repair Service and Installation</h1>
+            <h1 className="cs_fs_30">Thermador Appliances Service and Thermador Repair Center in Dubai</h1>
             <p>
               Having trouble finding a local technician who specializes in Thermador kitchen appliances?
               At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been delivering trusted and affordable repair services since 2010. Our broad network consists of carefully vetted, qualified, and experienced professionals. Whenever possible, we’ll dispatch a technician who’s familiar with your specific Thermador appliance to ensure efficient and accurate service.

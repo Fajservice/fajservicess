@@ -74,6 +74,7 @@ const Footer1 = () => {
                      <Link to={link.path}>{link.text}</Link>
                     </li>
                   ))}
+                  <li className="d-none"><Link to="/orphan/">Orphan</Link></li>
                 </ul>
                 <div className="cs_social_btns cs_style_1">
                   {socialLinks.map((social, index) => (

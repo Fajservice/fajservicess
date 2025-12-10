@@ -21,8 +21,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1";
 const LiebherrRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
   // For SEO
-  const metatitle = String(titleSeo || "Liebherr Refrigerator Repair in Dubai | Freezer Service Near Me");
-  const metadescription = String(description || "With professional & warranty Liebherr refrigerator repair in Dubai. Call 043300002 for your Liebherr appliance, fridge freezer maintenance service near me");
+  const metatitle = String(titleSeo || "Liebherr Refrigerator Repair and Freezer Service in Dubai");
+  const metadescription = String(description || "With professional & warranty Liebherr refrigerator repair in Dubai. Call 043300002 for your Liebherr appliance, fridge freezer maintenance service near me ");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "Liebherr refrigerator repair, Liebherr fridge repair, Liebherr freezer maintenance service, Liebherr appliance repair Dubai, Liebherr washing machine repair Dubai, Liebherr cooker repair Dubai, Liebherr dishwasher repair Dubai");
@@ -118,7 +118,7 @@ const LiebherrRefrigeratorRepairDetail = ({ subtitle, title, reviewsbg, titleSeo
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Liebherr Refrigerator Repair & Service in Dubai</h1>
+            <h1 className="cs_fs_30">Liebherr Refrigerator Repair and Fridge Freezer Service in Dubai</h1>
 
             <p>
               Liebherr refrigerators are the best among the other brands out there. Still, products of the best brands do not last forever.

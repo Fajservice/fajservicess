@@ -20,8 +20,8 @@ import Testimonial1 from "../../../Testimonial/Testimonial1.jsx";
 
 const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
   // For SEO
-  const metatitle = String(titleSeo || "White Westinghouse Fridge Repair in Dubai | Freezer Servicee");
-  const metadescription = String(description || "FAJ provides warranty for White Westinghouse fridge repair, refrigerator, washing machine, and dryer maintenance services in the nearby. Call 043300002");
+  const metatitle = String(titleSeo || "White Westinghouse Fridge Repair and Freezer Service in Dubai");
+  const metadescription = String(description || "FAJ provides warranty for White Westinghouse fridge repair, refrigerator, washing machine service, and dryer maintenance & repair center near you.");
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
   const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
   const metaKeyword = String(Keyword || "White Westinghouse Fridge Repair Dubai, White Westinghouse Washing Machine Repair Dubai, White Westinghouse Cooker Repair Dubai, White Westinghouse Oven Repair Dubai, White Westinghouse Appliance Service Dubai");
@@ -118,7 +118,7 @@ const WhiteWestinghouseFridgeRepairDetail = ({ subtitle, title, reviewsbg, title
         {/* intro */}
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_28">White Westinghouse Fridge Repair and Washing Machine Service in Dubai</h1>
+            <h1 className="cs_fs_28">White Westinghouse Fridge Repair and Freezer Service in Dubai</h1>
             <p>
               Having trouble finding a local technician who specializes in White Westinghouse kitchen appliances?
               At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been offering reliable and affordable appliance repair services since 2010. Our extensive network includes experienced and thoroughly vetted professionals, and whenever possible, we assign a technician who is specifically trained to handle your White Westinghouse appliance, ensuring accurate, efficient service every time.
