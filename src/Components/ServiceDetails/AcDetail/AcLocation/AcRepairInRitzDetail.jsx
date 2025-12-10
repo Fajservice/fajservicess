@@ -21,15 +21,39 @@ import Testimonial1 from "../../../Testimonial/Testimonial1";
 import GetQuoteButton from "../../../Buttons/GetQuoteButton";
 
 
-const AcRepairInRitzDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
+const AcRepairInRitzDetail = ({
+    subtitle,
+    title,
+    reviewsbg,
+    titleSeo,
+    description,
+    Author,
+    Keyword,
+    URL }) => {
 
-    // For SEO
-    const metatitle = String(titleSeo || "AC Services In The Ritz Carlton Difc AC Repair In My Area 1");
-    const metadescription = String(description || "Get AC Services in the Ritz Carlton DIFC. We are experts in central Cooling Air Condition maintenance, fix service nearby Dubai Fixing Aircon");
-    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaKeyword = String(Keyword || "AC Services at The Ritz-Carlton DIFC, Dubai. AC Repair in The Ritz-Carlton DIFC, Air Con Maintenance & Installation in The Ritz-Carlton DIFC");
-    const metaURL = String(URL || "https://www.fajservices.ae/ac-services-in-the-ritz-carlton-difc/").replace(/\/?$/, '/');
-    const metaImage = String(Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif");
+    const metaTitle = String(
+        titleSeo || "AC Services In The Ritz Carlton Difc AC Repair In My Area 1"
+    );
+
+    const metaDescription = String(
+        description || "Get AC Services in the Ritz Carlton DIFC. We are experts in central Cooling Air Condition maintenance, fix service nearby Dubai Fixing Aircon"
+    );
+
+    const metaAuthor = String(
+        Author || "FAJ Technical Services L.L.C"
+    );
+
+    const metaKeyword = String(
+        Keyword || "AC Services at The Ritz-Carlton DIFC, Dubai. AC Repair in The Ritz-Carlton DIFC, Air Con Maintenance & Installation in The Ritz-Carlton DIFC"
+    );
+
+    const metaURL = String(
+        URL || "https://www.fajservices.ae/ac-services-in-the-ritz-carlton-difc/"
+    );
+
+    const metaImage = String(
+        Image || "https://www.fajservices.ae/img/Experts-AC-Service-and-Maintenance.avif"
+    );
 
     subtitle = "Testimonial"
     title = "What our clients say About Us"
@@ -91,24 +115,31 @@ const AcRepairInRitzDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
         <>
             <HelmetProvider>
                 <Helmet>
-                    <title>{metatitle}</title>
-                    <meta name="description" content={metadescription}></meta>
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+                    <meta name="language" content="English" />
+                    <title>{metaTitle}</title>
+                    <meta name="description" content={metaDescription} />
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
                     <meta name="robots" content="index, follow" />
                     <link rel="canonical" href={metaURL} />
+                    <link rel="preconnect" href="https://img.youtube.com" />
+                    <link rel="preconnect" href="https://www.youtube.com" />
                     <meta property="og:type" content="website" />
                     <meta property="og:locale" content="en_US" />
-                    <meta property="og:title" content={metatitle} />
-                    <meta property="og:description" content={metadescription} />
                     <meta property="og:url" content={metaURL} />
+                    <meta property="og:title" content={metaTitle} />
+                    <meta property="og:description" content={metaDescription} />
                     <meta property="og:image" content={metaImage} />
-                    {/* Twitter Card */}
+                    <meta property="og:image:alt" content="Ac Repair in Ritz" />
+                    <meta property="og:site_name" content="FAJ Technical Services" />
                     <meta name="twitter:card" content="summary_large_image" />
-                    <meta name="twitter:title" content={metatitle} />
-                    <meta name="twitter:description" content={metadescription} />
-                    <meta name="twitter:image" content={metaImage} />
                     <meta name="twitter:url" content={metaURL} />
+                    <meta name="twitter:title" content={metaTitle} />
+                    <meta name="twitter:description" content={metaDescription} />
+                    <meta name="twitter:image" content={metaImage} />
+                    <meta name="twitter:image:alt" content="Ac Repair in Ritz" />
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />
@@ -617,12 +648,12 @@ const AcRepairInRitzDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                 <MaintenanceContract />
                 {/* testimobial section */}
                 <Testimonial1
-          subtitle="What Our Clients Say"
-          title="Customer <span>Reviews</span>"
-          bgImg="img/testimonialbg.jpg"
-          testimonialData={testimonial_data}
-          sectionId="home-testimonials"
-        />
+                    subtitle="What Our Clients Say"
+                    title="Customer <span>Reviews</span>"
+                    bgImg="img/testimonialbg.jpg"
+                    testimonialData={testimonial_data}
+                    sectionId="home-testimonials"
+                />
 
                 {/* FAQ&apos;s */}
                 <section className="section cs_py_30  bg-dark-blue text-light">
@@ -637,7 +668,7 @@ const AcRepairInRitzDetail = ({ subtitle, title, reviewsbg, titleSeo, descriptio
                                         <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
                                         <span className="cs_accordian_toggle">
                                             <i className="bi bi-eye text-light"><FaEye /></i>
-											<i className="bi bi-eye-slash text-light"><FaEyeSlash /></i>
+                                            <i className="bi bi-eye-slash text-light"><FaEyeSlash /></i>
                                         </span>
                                     </div>
                                     <div className="cs_accordian_body" ref={accordionContentRef}>

@@ -23,18 +23,35 @@ import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointme
 import BrandsSliderSection from "../../BrandsSliderSection";
 import Testimonial1 from "../../Testimonial/Testimonial1";
 
-// import { Link } from "react-router-dom";
+const AppliancesMaintenanceContractDetail = ({ 
+  subtitle, 
+  title, 
+  reviewsbg, 
+  titleSeo, 
+  description, 
+  Author, 
+  Keyword, 
+  URL }) => {
 
-const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
-  // For SEO
-  const metatitle = String(titleSeo || "Appliances AMC Services in Dubai | Maintenance Contract");
-  const metadescription = String(description || "Time to get comfortable with appliances AMC service in Dubai, FAJ Experts in washing machine, refrigerator, cooking, oven, coffee machine maintenance.");
-  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaKeyword = String(Keyword || "Home appliacnes, Appliances AMC, Appliances Maintenance Contract, Kitchen Equipment AMC, Kitchen Appliances AMC, Dubai Appliances Service, Appliance Repair Dubai, Appliance Service Dubai");
-  const metaURL = String(URL || "https://www.fajservices.ae/appliances-amc-service/").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/img/dishwasher-repair-service.avif");
-  // For SEO
-
+  const metaTitle = String(
+    titleSeo || "Appliances AMC Services in Dubai | Maintenance Contract"
+  );
+  const metaDescription = String(
+    description || "Time to get comfortable with appliances AMC service in Dubai, FAJ Experts in washing machine, refrigerator, cooking, oven, coffee machine maintenance."
+  );
+  const metaAuthor = String(
+    Author || "FAJ Technical Services L.L.C"
+  );
+  const metaKeyword = String(
+    Keyword || "Home appliacnes, Appliances AMC, Appliances Maintenance Contract, Kitchen Equipment AMC, Kitchen Appliances AMC, Dubai Appliances Service, Appliance Repair Dubai, Appliance Service Dubai"
+  );
+  const metaURL = String(
+    URL || "https://www.fajservices.ae/appliances-amc-service/"
+  );
+  
+  const metaImage = String(
+    Image || "https://www.fajservices.ae/img/dishwasher-repair-service.avif"
+  );
 
   subtitle = "Testimonial"
   title = "What our clients say About Us"
@@ -42,14 +59,14 @@ const AppliancesMaintenanceContractDetail = ({ subtitle, title, reviewsbg, title
   const accordionContentRef = useRef(null);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
-const [isModalOpen, setIsModalOpen] = useState(false);
-    const openModal = useCallback((e) => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const openModal = useCallback((e) => {
       e.preventDefault();
       setIsModalOpen(true);
       document.body.style.overflow = 'hidden';
     }, []);
   
-    const closeModal = useCallback(() => {
+  const closeModal = useCallback(() => {
       setIsModalOpen(false);
       document.body.style.overflow = 'auto';
     }, []);
@@ -140,24 +157,31 @@ const [isModalOpen, setIsModalOpen] = useState(false);
     <>
       <HelmetProvider>
         <Helmet>
-          <title>{metatitle}</title>
-          <meta name="description" content={metadescription}></meta>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+          <meta name="language" content="English" />
+          <title>{metaTitle}</title>
+          <meta name="description" content={metaDescription} />
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
           <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content={metatitle} />
-          <meta property="og:description" content={metadescription} />
+          <meta property="og:url" content={metaURL} />
+          <meta property="og:title" content={metaTitle} />
+          <meta property="og:description" content={metaDescription} />
           <meta property="og:image" content={metaImage} />
+           <meta property="og:image:alt" content="Annual Maintenance Contract" />
+          <meta property="og:site_name" content="FAJ Technical Services" />
 
           {/* Twitter Card */}
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content={metatitle} />
-          <meta name="twitter:description" content={metadescription} />
-          <meta name="twitter:image" content={metaImage} />
+           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:url" content={metaURL} />
+          <meta name="twitter:title" content={metaTitle} />
+          <meta name="twitter:description" content={metaDescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:image:alt" content="Annual Maintenance Contract" />
         </Helmet>
       </HelmetProvider>
       <HeaderForm />

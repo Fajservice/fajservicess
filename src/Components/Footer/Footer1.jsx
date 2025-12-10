@@ -9,6 +9,7 @@ import { TiLocation } from "react-icons/ti";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { IoCallOutline } from "react-icons/io5";
 import { GoArrowRight } from "react-icons/go";
+import ChatWidget from "../ChatWidget/ChatWidget";
 
 const socialLinks = [
   { icon: <FaInstagram />, href: 'https://www.instagram.com/fajtechnicalservicesllc/' },
@@ -234,11 +235,13 @@ const Footer1 = () => {
               rel="noopener noreferrer"
               aria-label="WhatsApp us"
             >
-              <div className="flt-icon flt-icon-wh">
+            <div className="flt-icon flt-icon-wh">
                 <FaWhatsapp style={{ fontSize: "24px" }} />
                 <span className="flt-icon-text">+971507464712</span>
-              </div>
+            </div>
+            
             </a>
+            <ChatWidget />
           </li>
           <li>
             <a

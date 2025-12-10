@@ -1,8 +1,5 @@
 import BreadCumb from "../../Components/Common/BreadCumb";
 import VacuumCleanerRepairDetail from "../../Components/ServiceDetails/HomeAppDetails/VacuumCleanerRepairDetail";
-
-
-
 const VacuumCleanerRepair = () => {
     return (
         <div className="serviceDetails">

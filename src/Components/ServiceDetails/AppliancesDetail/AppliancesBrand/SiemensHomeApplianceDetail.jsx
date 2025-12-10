@@ -1,4 +1,3 @@
-import React from 'react'
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../../Data/AppliancesData/AppliancesFaqs/AppliancesFaqs.json';
@@ -11,7 +10,6 @@ import MaintenanceContract from "../../../MaintenanceContract/MaintenanceContrac
 import 'swiper/swiper-bundle.css';
 import testimonial_data from '../../../../Data/AppliancesData/AppliancesTestimonial/AppliancesTestimonials.json';
 import loadBackgroudImages from "../../../Common/loadBackgroudImages";
-import parse from 'html-react-parser';
 import HeaderForm from "../../../Headeform/HeaderForm";
 import AppliancesAppointmentCol from "../../../ApplianceCommons/AppliancesAppointmentCol";
 import GetQuoteButton from '../../../Buttons/GetQuoteButton';
@@ -19,14 +17,39 @@ import CallNowButton from '../../../Buttons/CallNowButton';
 import DaiganosisCharges from '../AppliancesLocation/ApplianceSpecialise/Daiganosischarges';
 import Testimonial1 from '../../../Testimonial/Testimonial1';
 
-const SiemensHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
-    // For SEO
-    const metatitle = String(titleSeo || "Siemens Washing Machine Repair – Refrigerator Service Dubai ");
-    const metadescription = String(description || " Get Siemens home appliances Repair - FAJ Experts Siemens fridges, Simenes dishwasher, dryer, washing machine, stove service near me 04 3300002");
-    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
-    const metaKeyword = String(Keyword || "Siemens home appliances repair, Siemens washing machine repair, Siemens fridge repair, Siemens dishwasher repair, Siemens dryer repair, Siemens stove service Dubai");
-    const metaURL = String(URL || "https://www.fajservices.ae/siemens-home-appliances-repair/").replace(/\/?$/, '/');
+const SiemensHomeApplianceDetail = ({
+    subtitle,
+    title,
+    reviewsbg,
+    titleSeo,
+    description,
+    Author,
+    Keyword,
+    URL }) => {
+
+    const metaTitle = String(
+        titleSeo || "Siemens Washing Machine Repair – Refrigerator Service Dubai"
+    );
+
+    const metaDescription = String(
+        description || "Get Siemens home appliances Repair - FAJ Experts Siemens fridges, Simenes dishwasher, dryer, washing machine, stove service near me 04 3300002"
+    );
+
+    const metaAuthor = String(
+        Author || "FAJ Technical Services L.L.C"
+    );
+
+    const metaKeyword = String(
+        Keyword || "Siemens home appliances repair, Siemens washing machine repair, Siemens fridge repair, Siemens dishwasher repair, Siemens dryer repair, Siemens stove service Dubaie"
+    );
+
+    const metaURL = String(
+        URL || "https://www.fajservices.ae/siemens-home-appliances-repair/"
+    );
+
+    const metaImage = String(
+        Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif"
+    );
 
 
     subtitle = "Testimonial"
@@ -91,25 +114,29 @@ const SiemensHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
         <>
             <HelmetProvider>
                 <Helmet>
-                    <title>{metatitle}</title>
-                    <meta name="description" content={metadescription}></meta>
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+                    <meta name="language" content="English" />
+                    <title>{metaTitle}</title>
+                    <meta name="description" content={metaDescription} />
                     <meta name="keywords" content={metaKeyword} />
                     <meta name="author" content={metaAuthor} />
                     <meta name="robots" content="index, follow" />
                     <link rel="canonical" href={metaURL} />
                     <meta property="og:type" content="website" />
                     <meta property="og:locale" content="en_US" />
-                    <meta property="og:title" content={metatitle} />
-                    <meta property="og:description" content={metadescription} />
                     <meta property="og:url" content={metaURL} />
+                    <meta property="og:title" content={metaTitle} />
+                    <meta property="og:description" content={metaDescription} />
                     <meta property="og:image" content={metaImage} />
-
-                    {/* Twitter Card */}
+                    <meta property="og:image:alt" content="Siemens Home Appliance" />
+                    <meta property="og:site_name" content="FAJ Technical Services" />
                     <meta name="twitter:card" content="summary_large_image" />
-                    <meta name="twitter:title" content={metatitle} />
-                    <meta name="twitter:description" content={metadescription} />
-                    <meta name="twitter:image" content={metaImage} />
                     <meta name="twitter:url" content={metaURL} />
+                    <meta name="twitter:title" content={metaTitle} />
+                    <meta name="twitter:description" content={metaDescription} />
+                    <meta name="twitter:image" content={metaImage} />
+                    <meta name="twitter:image:alt" content="Siemens Home Appliance" />
                 </Helmet>
             </HelmetProvider>
             <HeaderForm />
@@ -528,7 +555,7 @@ const SiemensHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                         <DaiganosisCharges
                             appliancebrand="Siemens Appliance"
                             feeRange="ranging from AED 157 to 280"
-                            />
+                        />
                         <h3>We specialize in Siemens appliance services of the following types</h3>
                         <div className="row">
                             <div className="col-12">
@@ -680,7 +707,7 @@ const SiemensHomeApplianceDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
                                         <span className="cs_fs_16 text-light cs_semibold mb-0">{item.title}</span>
                                         <span className="cs_accordian_toggle">
                                             <i className="bi bi-eye text-light"><FaEye /></i>
-											<i className="bi bi-eye-slash text-light"><FaEyeSlash /></i>
+                                            <i className="bi bi-eye-slash text-light"><FaEyeSlash /></i>
                                         </span>
                                     </div>
                                     <div className="cs_accordian_body" ref={accordionContentRef}>
