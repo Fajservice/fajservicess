@@ -633,7 +633,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
           </div>
         </section>
 
-        <section className="section cs_py_30 bg-light-gray">
+        <section className="section cs_py_30 bg-light-gray mb-4">
           <div className="container">
             <h3 className="mb-1 pt-3">EXPRESS & EMERGENCY Washing Machine REPAIR SERVICE</h3>
             <p className="mb-2"><b>Terms & Conditions:</b> There is a callout fee that applies, ranging from AED 157 to 280 depending on capacity, for each diagnosis. Same-day visits are available for bookings made before *12:00 PM. For bookings made after 12:00 PM, next-day visits may be arranged, subject to availability.</p>
