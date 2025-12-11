@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';  // 👈 Import useEffect
+import  { useEffect } from 'react';  // 👈 Import useEffect
 import Testimonial1 from '../Testimonial/Testimonial1';
 import testimonial_data from '../../Data/AcData/AcTestimonial/AcRepairTestimonials.json';
 

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import BreadCumb from "../../../Components/Common/BreadCumb";
 import AcRepairInUmmSuqeimDetail from '../../../Components/ServiceDetails/AcDetail/AcLocation/AcRepairInUmmSuqeimDetail';
 const AcRepairInUmmSuqeim = () => {

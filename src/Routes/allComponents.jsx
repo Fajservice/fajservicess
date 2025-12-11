@@ -1,7 +1,5 @@
 import React from "react";
 import { withSuspense } from "../Routes/utils.jsx";
-
-
 export const Main = withSuspense(React.lazy(() => import("../Layout/Main")));
 export const Home = withSuspense(React.lazy(() => import("../Pages/Home")));
 export const AboutPage = withSuspense(React.lazy(() => import("../Pages/AboutPage")));

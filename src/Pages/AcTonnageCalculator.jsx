@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
 const ACTonnageCalculator = ({titleSeo, description, Author, Keyword, URL }) => {

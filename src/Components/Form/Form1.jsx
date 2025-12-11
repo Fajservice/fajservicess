@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import  { useRef, useState } from 'react';
 import ReCAPTCHA from 'react-google-recaptcha';
 import { IoIosArrowRoundForward } from 'react-icons/io';
 

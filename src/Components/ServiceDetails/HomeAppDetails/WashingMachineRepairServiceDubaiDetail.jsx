@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState, useCallback, lazy, Suspense } from "react";
+import { Link } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { RxArrowTopRight } from 'react-icons/rx';
@@ -14,20 +15,9 @@ import AppliancesAppointmentCol from "../../ApplianceCommons/AppliancesAppointme
 import BookingFormModal from '../../BookingFormModal';
 import WhatsappIconButton from "../../Buttons/WhatsappIconButton";
 
-<<<<<<< HEAD
 const loadFAQData = () => import('../../../Data/HomeAppData/FAQs/WashingmachineRepairServiceFaqs.json');
 const loadTestimonialData = () => import('../../../Data/HomeAppData/Testmonials/WashingMachineRepairServiceTestimonials.json');
 const loadBrandsData = () => import('../../../Data/AppliancesBrandsLogo.json');
-=======
-const WashingMachineRepairServiceDubaiDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
-  // For SEO
-  const metatitle = String(titleSeo || "Washing Machine Repair & Maintenance Services in Dubai");
-  const metadescription = String(description || "We are experts in washing machine repair & service in Dubai. Call us for washer dryer, laundry machine maintenance services near me with parts warranty");
-  const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-  const metaKeyword = String(Keyword || "Washing Machine Repair, Washing Machine Maintenance, Washing Machine Service");
-  const metaURL = String(URL || "https://www.fajservices.ae/washing-machine-repair-service-dubai/").replace(/\/?$/, '/');
-  const metaImage = String(Image || "https://www.fajservices.ae/img/washing-machine-repair.avif");
->>>>>>> ae41bf59b164799ea7ffc4aced2c26fba7b06ed6
 
 const OptimizedImage = ({ src, alt, className, width, height, priority = false }) => {
   return (
@@ -44,7 +34,6 @@ const OptimizedImage = ({ src, alt, className, width, height, priority = false }
   );
 };
 
-// Lazy YouTube Component
 const LazyYouTube = ({ videoId, title }) => {
   const [load, setLoad] = useState(false);
   
@@ -166,9 +155,6 @@ const WashingMachineRepairServiceDubaiDetail = ({
     <>
       <HelmetProvider>
         <Helmet>
-          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-          <meta name="language" content="English" />
           <title>{metaTitle}</title>
           <meta name="description" content={metaDescription} />
           <meta name="keywords" content={metaKeyword} />
@@ -196,6 +182,10 @@ const WashingMachineRepairServiceDubaiDetail = ({
           <meta name="twitter:description" content={metaDescription} />
           <meta name="twitter:image" content={metaImage} />
           <meta name="twitter:image:alt" content="Washing Machine Repair Service" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+          <meta name="language" content="English" />
+          <meta name="revisit-after" content="7 days" />
         </Helmet>
       </HelmetProvider>
 
@@ -204,7 +194,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
       <div className="cs_service_details">
         <section className="section cs_py_30">
           <div className="container">
-            <h1 className="cs_fs_30">Washing Machine Repair & Service in Dubai | Washer Dryer Maintenance</h1>
+            <h1 className="cs_fs_30">Washing Machine Repair Service in Dubai</h1>
             <p>Since 2010, FAJ Technical Services L.L.C has offered reliable installation, maintenance, and repair for all brands of washing machines, dryers, and laundry systems in Dubai and Sharjah.<br />Our experts are here to assist with any issues, from top-loading and front-loading washing machine repair and service near you. You can trust us to keep your washing machine running smoothly.<br /> You can rely on us for both routine repairs and emergency washing machine service. Contact us now for reliable services at competitive prices!</p>
 
             <div id="get-quote" className="mt-3">
@@ -292,6 +282,227 @@ const WashingMachineRepairServiceDubaiDetail = ({
                   <li><strong>Washing Machine Maintenance Contract: </strong>Regular cleaning of filters, hoses, and pumps.</li>
                   <li><strong>Additional Services: </strong>Water leakage solutions, deep cleaning, and more.</li>
                 </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="section cs_py_30 appliances-benifit-sec bg-light-gray">
+          <div className="container">
+            <div className="row justify-content-center">
+              <h2 className="cs_fs_30 mb-0">The Benefits Of washing machine Service Dubai</h2>
+              <div className="row gx-3 gy-5 mt-0">
+                <div className="col-md-4 mb-2">
+                  <div className="benifit-box-container">
+                    <div className="icon-img-block">
+                      <OptimizedImage 
+                        src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`}
+                        alt="Ensuring Safety" 
+                        className="icon-img-block-icon"
+                        width="80"
+                        height="80"
+                      />
+                    </div>
+                    <h4 className="text-uppercase mb-2 cs_fs_18">Ensuring Safety</h4>
+                    <p className="small">Routine checks reduce the risk of electrical faults, gas leaks, and other hazards, keeping your home and family safe.</p>
+                  </div>
+                </div>
+                <div className="col-md-4 mb-2">
+                  <div className="benifit-box-container">
+                    <div className="icon-img-block">
+                      <OptimizedImage 
+                        src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`}
+                        alt="Optimal Performance" 
+                        className="icon-img-block-icon"
+                        width="80"
+                        height="80"
+                      />
+                    </div>
+                    <h4 className="text-uppercase mb-2 cs_fs_18">Optimal Performance</h4>
+                    <p className="small">Regular maintenance helps your washing machine run smoothly and efficiently, delivering the best results every time.</p>
+                  </div>
+                </div>
+                <div className="col-md-4 mb-2">
+                  <div className="benifit-box-container">
+                    <div className="icon-img-block">
+                      <OptimizedImage 
+                        src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`}
+                        alt="Lower Energy Bills" 
+                        className="icon-img-block-icon"
+                        width="80"
+                        height="80"
+                      />
+                    </div>
+                    <h4 className="text-uppercase mb-2 cs_fs_18">Lower Energy Bills</h4>
+                    <p className="small">Energy efficient washing machine translate to monthly savings on utility bills, putting more money back in your pocket.</p>
+                  </div>
+                </div>
+                <div className="col-md-4 mb-2">
+                  <div className="benifit-box-container">
+                    <div className="icon-img-block">
+                      <OptimizedImage 
+                        src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`}
+                        alt="Saving Money on Repair" 
+                        className="icon-img-block-icon"
+                        width="80"
+                        height="80"
+                      />
+                    </div>
+                    <h4 className="text-uppercase mb-2 cs_fs_18">Saving Money on Repair</h4>
+                    <p className="small">Preventive maintenance catches issues early, reducing the risk of major breakdowns and expensive repair costs.</p>
+                  </div>
+                </div>
+                <div className="col-md-4 mb-2">
+                  <div className="benifit-box-container">
+                    <div className="icon-img-block">
+                      <OptimizedImage 
+                        src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`}
+                        alt="Extending Appliance Lifespan" 
+                        className="icon-img-block-icon"
+                        width="80"
+                        height="80"
+                      />
+                    </div>
+                    <h4 className="text-uppercase mb-2 cs_fs_18">Washing machine Lifespan</h4>
+                    <p className="small">Proper care and timely servicing can significantly increase life of your home washing machine, delaying the need for replacements.</p>
+                  </div>
+                </div>
+                <div className="col-md-4 mb-2">
+                  <div className="benifit-box-container">
+                    <div className="icon-img-block">
+                      <OptimizedImage 
+                        src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`}
+                        alt="Peace of Mind" 
+                        className="icon-img-block-icon"
+                        width="80"
+                        height="80"
+                      />
+                    </div>
+                    <h4 className="text-uppercase mb-2 cs_fs_18">Peace of Mind</h4>
+                    <p className="small">Knowing your washing machines are in top condition gives you confidence and removes the stress of unexpected failures.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="section cs_py_30">
+          <div className="container container-md container-sm">
+            <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2>
+
+            <div className="usps align-items-center">
+              <div className="uspcol col-1">
+                <div className="uspitem">
+                  <div className="uspicon">
+                    <OptimizedImage 
+                      src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`}
+                      alt="Fast, Reliable Service"
+                      width="60"
+                      height="60"
+                    />
+                  </div>
+                  <div className="usptext">
+                    <h3>Reliable, Priority, and Quick</h3>
+                    <p>You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day repair or next-day service visits ensure that your needs are met quickly.</p>
+                  </div>
+                </div>
+
+                <div className="uspitem">
+                  <div className="uspicon">
+                    <OptimizedImage 
+                      src={`${import.meta.env.BASE_URL}img/icons/experts.png`}
+                      alt="We Are Experts"
+                      width="60"
+                      height="60"
+                    />
+                  </div>
+                  <div className="usptext">
+                    <h3>Feeling Of Calm</h3>
+                    <p>With <Link to="/appliances-amc-service/">maintenance contract</Link>, you get a full year of service, ensuring your washing machine runs smoothly and providing peace of mind.</p>
+                  </div>
+                </div>
+
+                <div className="uspitem mb-0">
+                  <div className="uspicon">
+                    <OptimizedImage 
+                      src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`}
+                      alt="You Are in Control"
+                      width="60"
+                      height="60"
+                    />
+                  </div>
+                  <div className="usptext">
+                    <h3>You Are in Control</h3>
+                    <p>Choose a day and time for your washing machine repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="uspdelimit col-2 d-none d-xl-block">
+                <OptimizedImage 
+                  className="blue-border-2 w-100 why-choose-img" 
+                  src={`${import.meta.env.BASE_URL}img/fajteam-1.avif`}
+                  alt="FAJ Team"
+                  width="400"
+                  height="600"
+                />
+              </div>
+
+              <div className="uspcol col-3">
+                <div className="uspitem">
+                  <div className="uspicon">
+                    <OptimizedImage 
+                      src={`${import.meta.env.BASE_URL}img/icons/value.png`}
+                      alt="We Are Experts"
+                      width="60"
+                      height="60"
+                    />
+                  </div>
+                  <div className="usptext">
+                    <h3>We Are Experts</h3>
+                    <p>We are experts in washing machine repair this is why most major brands trust us to handle their service and maintenance needs.</p>
+                  </div>
+                </div>
+
+                <div className="uspitem">
+                  <div className="uspicon">
+                    <OptimizedImage 
+                      src={`${import.meta.env.BASE_URL}img/icons/confidence-guarantee.png`}
+                      alt="Great Value"
+                      width="60"
+                      height="60"
+                    />
+                  </div>
+                  <div className="usptext">
+                    <h3>Great Value</h3>
+                    <p>Inspection fee includes diagnosis, transport, and reinstallation upto two washing machine at the same location in Dubai.</p>
+                  </div>
+                </div>
+
+                <div className="uspitem mb-0">
+                  <div className="uspicon">
+                    <OptimizedImage 
+                      src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`}
+                      alt="Trustworthy"
+                      width="60"
+                      height="60"
+                    />
+                  </div>
+                  <div className="usptext">
+                    <h3>Trustworthy</h3>
+                    <p>Our skilled washing machine technicians are highly trained, and we provide excellent service for a variety of major brands.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 uspdelimit w-100 text-center d-block d-md-none">
+                <OptimizedImage 
+                  src={`${import.meta.env.BASE_URL}img/fajteam.avif`}
+                  alt="FAJ Team Mobile"
+                  width="400"
+                  height="300"
+                />
               </div>
             </div>
           </div>

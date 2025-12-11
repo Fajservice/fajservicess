@@ -1,8 +1,6 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import viteCompression from 'vite-plugin-compression';
 import { visualizer } from 'rollup-plugin-visualizer';
-import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 import cssnano from 'cssnano';
 
 export default defineConfig(({ mode }) => {
@@ -19,23 +17,11 @@ export default defineConfig(({ mode }) => {
         }
       }),
 
-      viteCompression({ algorithm: 'brotliCompress', ext: '.br', threshold: 10240 }),
-      viteCompression({ algorithm: 'gzip', ext: '.gz', threshold: 10240 }),
-
-      ViteImageOptimizer({
-        jpg: { quality: 70, progressive: true },
-        jpeg: { quality: 70, progressive: true },
-        png: { quality: 70, compressionLevel: 9 },
-        webp: { quality: 75 },
-        avif: { quality: 60 },
-        svg: { multipass: true }
-      }),
-
       isProduction && visualizer({
         filename: './dist/bundle-stats.html',
         open: false,
-        gzipSize: true,
-        brotliSize: true
+        gzipSize: false,
+        brotliSize: false
       })
     ].filter(Boolean),
 
@@ -44,12 +30,16 @@ export default defineConfig(({ mode }) => {
       minify: isProduction ? 'terser' : false,
       sourcemap: !isProduction,
       cssCodeSplit: false,
+      compressedSize: false,     
+      reportCompressedSize: false,
+
       terserOptions: {
         compress: {
           drop_console: true,
           drop_debugger: true
         }
       },
+
       rollupOptions: {
         output: {
           manualChunks(id) {

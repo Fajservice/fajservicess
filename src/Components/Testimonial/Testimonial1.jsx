@@ -13,7 +13,6 @@ const DecorativeIcon = ({ icon: Icon = GiDiamonds, size = 16 }) => (
   <Icon size={size} className="decorative-icon" />
 );
 
-// 5-Star Rating using React Icons
 const StarRating = () => (
   <div className="rating-area">
     {[...Array(5)].map((_, i) => (

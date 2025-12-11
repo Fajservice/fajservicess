@@ -1,4 +1,4 @@
-import React from 'react';
+;
 import '../css/coffeemachinelandingpage.css';
 
 const CMTechincianCarousel = () => {

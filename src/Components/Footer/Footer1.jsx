@@ -242,7 +242,6 @@ const Footer1 = () => {
             </div>
             
             </a>
-            <ChatWidget />
           </li>
           <li>
             <a
