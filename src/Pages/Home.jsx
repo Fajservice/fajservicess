@@ -76,18 +76,12 @@ const Home = ({
             img1="img/about_img_1.avif"
             img2="img/about_img_2.avif"
             img3="img/about_img_3.avif"
-            expNumber="FAJ"
-            expYers="was established"
-            expTitle="Since"
-            expTitleYear="2010"
             expDescrip="We are committed to delivering top-notch technical services that meet the highest international standards for exceptional quality."
             number="(+971) 507464712"
             telLink="tel:+971507464712"
             subTitle="About Us"
             Title="Speedy Services, Quality Results"
             Content="We are professional and committed to service, highlighting our dedication to providing exceptional results in repair, servicing, and maintenance contracts."
-            feature1="Routine Maintenance, Let's Start Today"
-            feature2="Fast, Efficient Repair Service"
             listItem={[
               "Efficiency through expert maintenance",
               "Expertise. Integrity. Responsiveness",
