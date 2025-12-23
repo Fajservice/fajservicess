@@ -21,7 +21,6 @@ const ServicesPage = ({titleSeo, description, Author, Keyword, URL }) => {
                 <meta name="keywords" content={metaKeyword} />
                 <meta name="author" content={metaAuthor} />
                 <meta name="robots" content="index, follow" />
-
                 <link rel="canonical" href={metaURL} />
                 <meta property="og:type" content="website" />
                 <meta property="og:locale" content="en_US" />
@@ -47,7 +46,7 @@ const ServicesPage = ({titleSeo, description, Author, Keyword, URL }) => {
                     {/* Main row */}
                     <div className="row align-items-center h-100">
                         <div className="col-md-12 d-flex justify-content-start align-items-center">
-                            <h1 className="text-left pt-5 px-4" style={{ fontSize: "clamp(1.5rem, 5vw, 2rem)" }}>
+                            <h1 className="cs_section_title cs_fs_50 mb-0 wow fadeInUp">
                                 FAJ: Dubai’s Premier Maintenance Services Company in Dubai
                             </h1>
                             <p>Since 2010, we have been providing repair and maintenance services for HVAC systems, appliances, refrigeration, and kitchen equipment, as well as annual contract services in Dubai, Sharjah, and Abu Dhabi.</p>

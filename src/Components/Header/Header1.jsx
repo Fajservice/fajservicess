@@ -2,7 +2,7 @@ import { useEffect, useState, useCallback, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import Nav from './Nav';
 import BookingFormModal from '../BookingFormModal';
-import img from '/img/fajlogo.png';
+import img from '/img/FajLogo.svg';
 import { IoCallOutline } from 'react-icons/io5';
 import { IoLocationOutline } from 'react-icons/io5';
 import { FaFacebook} from 'react-icons/fa';

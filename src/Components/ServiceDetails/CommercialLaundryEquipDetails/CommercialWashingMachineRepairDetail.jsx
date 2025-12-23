@@ -16,7 +16,15 @@ import Testimonial1 from "../../Testimonial/Testimonial1";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
 
-const CommercialWashingMachineRepairDetail = ({ subtitle, title, reviewsbg, titleSeo , description, Author, Keyword, URL }) => {
+const CommercialWashingMachineRepairDetail = ({ 
+  subtitle, 
+  title, 
+  reviewsbg, 
+  titleSeo , 
+  description, 
+  Author, 
+  Keyword, 
+  URL }) => {
   // For SEO
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial Washing Machine repair, Commercial Washing Machine service, Commercial Washing Machine maintenance, Commercial Washing Machine AMC, Commercial Washing Machine Dubai, Commercial Washing Machine Sharjah, Commercial Washing Machine repair Dubai, Commercial Washing Machine repair Sharjah, Commercial Laundry Equipment Service, Commercial Laundry Equipment Repair");
