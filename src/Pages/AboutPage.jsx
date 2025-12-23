@@ -22,7 +22,7 @@ const AboutPage = () => {
           <link rel="canonical" href="https://www.fajservices.ae/about-us/" />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content="Our Story: Learn About Who We Are | FAJ Technical Services LLC" />
+          <meta property="og:title" content="Our Story: Learn About Who We Are | FAJ Technical Services L.L.C" />
           <meta property="og:description" content="Discover the story behind FAJ Tech and learn about our commitment to quality repair services. Find out who we are and what drives us to serve you better." />
           <meta property="og:url" content="https://www.fajservices.ae/about-us/" />
         </Helmet>
@@ -120,7 +120,7 @@ const AboutPage = () => {
                 <div className="faj-grid">
                     <div className="faj-card">
                     <h3>Our Vision</h3>
-                    <p>At FAJ Technical Services LLC, our vision is to be the trusted partner in delivering comfort, convenience, and peace of mind to our customers.</p>
+                    <p>At FAJ Technical Services L.L.C, our vision is to be the trusted partner in delivering comfort, convenience, and peace of mind to our customers.</p>
                     <p>We strive to set the standard for exceptional technical services in the region. Our goal is to positively impact our customers' lives by providing reliable, efficient, and innovative solutions for their air conditioning system, refrigeration system, MEP, commercial equipment, and appliance needs.</p>
                     </div>
 

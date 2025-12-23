@@ -90,7 +90,8 @@ const navItems = [
       { path: '/blogs/', label: 'Blogs' }
     ]
   },
-  { path: '/contact-us/', label: 'Contact Us' }
+  { path: '/contact-us/', label: 'Contact Us' },
+  { path: 'https://www.fajtradingllc.com/', label: 'Shop', external: true  }
 ];
 
 export default function Nav({ setMobileToggle }) {

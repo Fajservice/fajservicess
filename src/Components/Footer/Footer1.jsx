@@ -34,7 +34,7 @@ const exploreLinks = [
 ];
 
 const contactInfo = [
-  { icon: <TiLocation />, text: "Warehouse No - S-02 Gate 35 Street 18B - Al Quoz - Al Quoz Industrial Area 4 - Dubai - United Arab Emirates" },
+  { icon: <TiLocation />, text: "Warehouse # S-02 - Gate 35 Street 18B - Al Qouz Ind.fourth - Al Quoz - Dubai - United Arab Emirates" },
   {
     icon: <BsFillTelephoneFill />,
     items: [
@@ -180,7 +180,7 @@ const Footer1 = () => {
           <div className="container">
             <div className="cs_footer_bottom_in">
               <div className="cs_footer_copyright text-light">
-                Copyright © {new Date().getFullYear()} <a className="text-light" href="https://www.fajservices.ae/">FAJ Technical Services LLC</a>. All Rights Reserved.
+                Copyright © {new Date().getFullYear()} <a className="text-light" href="https://www.fajservices.ae/">FAJ Technical Services L.L.C</a>. All Rights Reserved.
               </div>
               <div>
                 <img

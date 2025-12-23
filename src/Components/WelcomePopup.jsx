@@ -8,10 +8,10 @@ const WelcomePopup = () => {
   if (!showPopup) return null;
   return (
     <div className="popup-overlay d-flex justify-content-center align-items-center">
-  <div className="popup-content bg-white p-4 rounded shadow position-relative" style={{ maxWidth: '500px', width: '100%' }}>
-    <button className="btn-close position-absolute top-0 end-0 m-2" onClick={closePopup} aria-label="Close"></button>
-
-    <h2 className="bg-dark-blue text-white text-center py-2 rounded-top fs-5">
+  <div className="popup-content bg-white p-4 rounded position-relative" style={{ maxWidth: '430px', width: '100%', background: 'unset !important', boxShadow: 'unset !important' }}>
+    <button className="btn-close position-absolute top-0 end-0 m-2" onClick={closePopup} aria-label="Close">x</button>
+     <img src="/img/30discount.jpg" alt="Welcome" className="img-fluid rounded" />
+    {/* <h2 className="bg-dark-blue text-white text-center py-2 rounded-top fs-5">
       CHOOSE FAJ FOR YOUR PEACE OF MIND
     </h2>
 
@@ -26,7 +26,7 @@ const WelcomePopup = () => {
         <p className="mb-2 text-dark border-bottom pb-2">✅ 2-Month Service Warranty</p>
         <p className="mb-0 text-dark">✅ 3-Month Parts Warranty</p>
       </div>
-    </div>
+    </div> */}
   </div>
 </div>
 

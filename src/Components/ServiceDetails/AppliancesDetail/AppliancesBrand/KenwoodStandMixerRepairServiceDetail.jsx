@@ -153,7 +153,7 @@ const KenwoodStandMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, titl
 
               <div className="col-md-6 ">
 
-                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} loading="lazy" alt="Kenwood Stand Mixer Repair" />
+                <img className="bordered-img w-100" src={`${import.meta.env.BASE_URL}img/kenwood-mixer-repair-service.avif`} loading="lazy" alt="Kenwood Stand Mixer Repair" />
               </div>
             </div>
             <AppliancesAppointmentCol></AppliancesAppointmentCol>
@@ -173,7 +173,7 @@ const KenwoodStandMixerRepairServiceDetail = ({ subtitle, title, reviewsbg, titl
 
             <div className="row align-items-center">
               <div className="col-md-6">
-                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/dishwasher-repair-service.avif`} loading="lazy" alt="Kenwood Stand Mixer Repair" />
+                <img className="blue-border" src={`${import.meta.env.BASE_URL}img/kenwood-mixer-repair.avif`} loading="lazy" alt="Kenwood Stand Mixer Repair" />
               </div>
               <div className="col-md-6">
                 <ul className="mb-0">

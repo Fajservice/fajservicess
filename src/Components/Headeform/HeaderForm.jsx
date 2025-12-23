@@ -184,12 +184,12 @@ const HeaderForm = () => {
       )}
 
       {status.submitted && !status.info.error && (
-        <div className="alert alert-success mb-4" role="alert">
+        <div className="alert alert-success p-2" role="alert">
           {status.info.msg}
         </div>
       )}
 
-      <div className="d-none p-3 p-sm-4 rounded" style={{ backgroundColor: "rgb(242 242 242)" }}>
+      <div className="d-md-none p-3 p-sm-4 rounded" style={{ backgroundColor: "rgb(242 242 242)" }}>
         <form onSubmit={handleSubmit}>
           <div className="row align-items-center">
             <div className="col-12 col-md-6" style={{ marginTop: "0.1rem" }}>
@@ -246,7 +246,7 @@ const HeaderForm = () => {
               </div>
 
               {/* Invisible reCAPTCHA */}
-              <div className="col-12 d-flex justify-content-center mb-3">
+              <div className="col-12 d-flex justify-content-center">
                 <ReCAPTCHA
                   ref={recaptchaRef}
                   sitekey="6Lc3iU4rAAAAAA0jw06XlEnCQsXoc_vxT8piZLLX"
