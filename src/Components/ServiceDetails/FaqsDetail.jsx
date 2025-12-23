@@ -114,7 +114,7 @@ const FaqsDetail = ({ subtitle, title, bgImg }) => {
                     </div>
                     <div className="responsive-container-block dropdown-container-wrapper">
                     <p className="text-blk subheading">
-                        Welcome to FAJ Technical Services LLC’s FAQ section! As a trusted provider of appliance repair and maintenance services in Dubai, UAE, we understand the importance of keeping your home appliances in top condition. Whether you need help with air conditioners, washing machines, refrigerators, dishwashers, robot vacuum cleaners, or coffee machines, our experts are here to assist you. Browse through our FAQs for quick solutions, troubleshooting tips, and maintenance advice to ensure the best performance of your appliances.
+                        Welcome to FAJ Technical Services L.L.C’s FAQ section! As a trusted provider of appliance repair and maintenance services in Dubai, UAE, we understand the importance of keeping your home appliances in top condition. Whether you need help with air conditioners, washing machines, refrigerators, dishwashers, robot vacuum cleaners, or coffee machines, our experts are here to assist you. Browse through our FAQs for quick solutions, troubleshooting tips, and maintenance advice to ensure the best performance of your appliances.
                     </p>
                     <div className="responsive-container-block box-container">
                         <div className="responsive-cell-block col-lg-6 col-md-6 col-sm-12 col-12">

@@ -40,7 +40,7 @@ const OurVisionOurMissionPage = () => {
                         </div>
                         <div className="col-md-6">
                             <h2 className="text-left mb-0" style={{fontSize: "40px"}}>Our Vision</h2>
-                            <p>At FAJ Technical Services LLC, our vision is to be the trusted partner in delivering comfort, convenience, and peace of mind to our customers. We strive to set the standard for exceptional technical services in the region.<br/>Our goal is to positively impact our customers' lives by providing reliable, efficient, and innovative solutions for their air conditioning system, refrigeration system, MEP, commercial equipment, and appliance needs.</p>
+                            <p>At FAJ Technical Services L.L.C, our vision is to be the trusted partner in delivering comfort, convenience, and peace of mind to our customers. We strive to set the standard for exceptional technical services in the region.<br/>Our goal is to positively impact our customers' lives by providing reliable, efficient, and innovative solutions for their air conditioning system, refrigeration system, MEP, commercial equipment, and appliance needs.</p>
                         </div>
                     </div>
                     <div className="row align-items-center">

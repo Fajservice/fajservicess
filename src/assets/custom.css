@@ -9,10 +9,10 @@
   --sky-blue-font: #76DCEB;
 }
 
-.cs_page_heading,
+/* .cs_page_heading,
 .locationwisebrandlinks {
   display: none;
-}
+} */
 /* 
 @media (min-width: 1400px) {
   .container {
@@ -1245,12 +1245,18 @@ textarea {
   outline: 0 !important;
   resize: none;
   overflow: hidden;
+    padding: 10px;
 }
 
 textarea::placeholder {
   color: #888;
 }
-
+.serviceDetails input {
+    width: 100%;
+    min-height: 37px;
+    border: 0;
+    padding: 10px;
+}
 .faj-chatbox-popup {
   display: none;
   position: absolute;

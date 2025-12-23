@@ -4,7 +4,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 const ACTonnageCalculator = ({titleSeo, description, Author, Keyword, URL }) => {
     // For SEO
     const metatitle = String(titleSeo || "AC Tonnage Calculator | Calculate Your Ideal AC Size");
-    const metadescription = String(description || "elcome to free AC Tonnage Calculator by FAJ Technical Services LLC. Find your perfect air conditioner size quickly and easily.");
+    const metadescription = String(description || "elcome to free AC Tonnage Calculator by FAJ Technical Services L.L.C. Find your perfect air conditioner size quickly and easily.");
     const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
     const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
     const metaKeyword = String(Keyword || "FAJ, AC Tonnage Calculator, Air Conditioner Size Calculator");

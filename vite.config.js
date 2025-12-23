@@ -27,18 +27,10 @@ export default defineConfig(({ mode }) => {
 
     build: {
       target: 'es2022',
-      minify: isProduction ? 'terser' : false,
+      minify: isProduction ? 'esbuild' : false,
       sourcemap: !isProduction,
       cssCodeSplit: false,
-      compressedSize: false,     
       reportCompressedSize: false,
-
-      terserOptions: {
-        compress: {
-          drop_console: true,
-          drop_debugger: true
-        }
-      },
 
       rollupOptions: {
         output: {

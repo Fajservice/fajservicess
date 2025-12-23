@@ -13,7 +13,7 @@ const Blog3 = () => {
             <div className="cs_section_heading_left wow fadeInDown">
               <SectionTitle
                 SubTitle="NEWS & UPDATES"
-                Title="Latest New and Blog"                
+                Title=""                
               ></SectionTitle>
             </div>
             <div className="cs_section_heading_right wow fadeInLeft">

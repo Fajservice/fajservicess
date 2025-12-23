@@ -22,7 +22,7 @@ import Testimonial1 from '../../../Testimonial/Testimonial1';
 const BlombergFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, description, Author, Keyword, URL }) => {
 
 	// For SEO
-	const metatitle = String(titleSeo || "Bloomberg Fridge Repair and Washing Machine Service in Dubai");
+	const metatitle = String(titleSeo || "Blomberg Fridge Repair and Washing Machine Service in Dubai");
 	const metadescription = String(description || "For Blomberg appliance service across Dubai, contact us for fridge repair, washing machine, dishwasher, refrigerator, & oven fix service near me in Dubai.");
 	const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
 	const metaImage = String(Image || "https://www.fajservices.ae/img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif");
@@ -148,7 +148,7 @@ const BlombergFridgeRepairDetail = ({ subtitle, title, reviewsbg, titleSeo, desc
 				{/* intro */}
 				<section className="section cs_py_30">
 					<div className="container">
-						<h1 className="cs_fs_30">Bloomberg Fridge Repair and Washing Machine Service in Dubai</h1>
+						<h1 className="cs_fs_30">Blomberg Fridge Repair and Washing Machine Service in Dubai</h1>
 						<p>
 							Having trouble finding a local technician who specializes in Blomberg kitchen appliances?
 							At <a href="https://maps.app.goo.gl/FrdktEqUSR6cgX876">FAJ Technical Services L.L.C</a>, we’ve been providing reliable and affordable repair services since 2010. Our extensive network of skilled and vetted professionals ensures that, whenever possible, we’ll send a technician with direct experience handling your specific Blomberg appliance.
