@@ -99,28 +99,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
   URL,
   Image 
 }) => {
-  const [data, setData] = useState([]);
-  const [testimonialData, setTestimonialData] = useState([]);
-  const [brandsData, setBrandsData] = useState([]);
-  const [openItemIndex, setOpenItemIndex] = useState(0);
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const accordionContentRef = useRef(null);
-
-  // Load data on mount
-  useEffect(() => {
-    Promise.all([
-      loadFAQData(),
-      loadTestimonialData(),
-      loadBrandsData()
-    ]).then(([faq, testimonial, brands]) => {
-      setData(faq.default || faq);
-      setTestimonialData(testimonial.default || testimonial);
-      setBrandsData(brands.default || brands);
-    });
-  }, []);
-
-  // ✅ FIXED: Properly define all meta variables
-  const metaTitle = String(
+   const metaTitle = String(
     titleSeo || "Washing Machine Repair | Washing Machine Service in Dubai"
   );
   
@@ -144,6 +123,29 @@ const WashingMachineRepairServiceDubaiDetail = ({
     Image || "https://www.fajservices.ae/img/washing-machine-repair.avif"
   );
 
+
+  const [data, setData] = useState([]);
+  const [testimonialData, setTestimonialData] = useState([]);
+  const [brandsData, setBrandsData] = useState([]);
+  const [openItemIndex, setOpenItemIndex] = useState(0);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const accordionContentRef = useRef(null);
+
+  // Load data on mount
+  useEffect(() => {
+    Promise.all([
+      loadFAQData(),
+      loadTestimonialData(),
+      loadBrandsData()
+    ]).then(([faq, testimonial, brands]) => {
+      setData(faq.default || faq);
+      setTestimonialData(testimonial.default || testimonial);
+      setBrandsData(brands.default || brands);
+    });
+  }, []);
+
+ 
+
   const openModal = useCallback((e) => {
     e.preventDefault();
     setIsModalOpen(true);
@@ -163,28 +165,19 @@ const WashingMachineRepairServiceDubaiDetail = ({
     <>
       <HelmetProvider>
         <Helmet>
-          {/* ✅ Primary Meta Tags */}
           <title>{metaTitle}</title>
           <meta name="description" content={metaDescription} />
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
-          
-          {/* ✅ Canonical URL */}
           <link rel="canonical" href={metaURL} />
-          
-          {/* ✅ Preconnect for performance */}
           <link rel="preconnect" href="https://img.youtube.com" />
           <link rel="preconnect" href="https://www.youtube.com" />
-          
-          {/* ✅ Preload critical images */}
           <link 
             rel="preload" 
             as="image" 
             href={`${import.meta.env.BASE_URL}img/The-Most-Common-Reasons-for-Appliance-Breakdowns.avif`} 
           />
-          
-          {/* ✅ Open Graph / Facebook */}
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
           <meta property="og:url" content={metaURL} />
@@ -194,19 +187,15 @@ const WashingMachineRepairServiceDubaiDetail = ({
           <meta property="og:image:alt" content="Washing Machine Repair Service" />
           <meta property="og:site_name" content="FAJ Technical Services" />
           
-          {/* ✅ Twitter Card - FIXED: Use correct variable names */}
+          {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:url" content={metaURL} />
           <meta name="twitter:title" content={metaTitle} />
           <meta name="twitter:description" content={metaDescription} />
           <meta name="twitter:image" content={metaImage} />
           <meta name="twitter:image:alt" content="Washing Machine Repair Service" />
-          
-          {/* ✅ Additional SEO tags */}
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
           <meta name="language" content="English" />
-          <meta name="revisit-after" content="7 days" />
         </Helmet>
       </HelmetProvider>
 

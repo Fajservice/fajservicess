@@ -1,37 +1,62 @@
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
-const TermsConditionsPage = ({ titleSeo, description, Author, Keyword, URL }) => {
-    // For SEO
-    const metatitle = String(titleSeo || "Terms and Conditions | FAJ Technical Services L.L.C Dubai");
-    const metadescription = String(description || "By continuing to browse this website, you are agreeing to the following terms and conditions applied to the use of our services and FAJ website.");
-    const metaAuthor = String(Author || "FAJ Technical Services L.L.C");
-    const metaImage = String(Image || "https://www.fajservices.ae/img/page_heading_1.avif");
-    const metaKeyword = String(Keyword || "FAJ");
-    const metaURL = String(URL || "https://www.fajservices.ae/terms-and-conditions/").replace(/\/?$/, '/');
+const TermsConditionsPage = ({ 
+    titleSeo, 
+    description, 
+    Author, 
+    Keyword, 
+    URL }) => {
+
+    const metaTitle = String(
+    titleSeo || "Terms and Conditions | FAJ Technical Services L.L.C Dubai"
+  );
+
+  const metaDescription = String(
+    description || "By continuing to browse this website, you are agreeing to the following terms and conditions applied to the use of our services and FAJ website."
+  );
+
+  const metaAuthor = String(
+    Author || "FAJ Technical Services L.L.C"
+  );
+
+  const metaKeyword = String(
+    Keyword || "terms & conditions"
+  );
+
+  const metaURL = String(
+    URL || "https://www.fajservices.ae/terms-and-conditions/"
+  );
+
+  const metaImage = String(
+    Image || "https://www.fajservices.ae/img/page_heading_1.avif"
+  );
 
     return (
         <>
             <Helmet>
-                <title>{metatitle}</title>
-                <meta name="description" content={metadescription} />
-                <meta name="keywords" content={metaKeyword} />
-                <meta name="author" content={metaAuthor} />
-                <meta name="robots" content="index, follow" />
+            <title>{metaTitle}</title>
+          <meta name="description" content={metaDescription} />
+          <meta name="keywords" content={metaKeyword} />
+          <meta name="author" content={metaAuthor} />
+          <meta name="robots" content="index, follow" />
+          <link rel="canonical" href={metaURL} />
+          <meta property="og:type" content="website" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:title" content={titleSeo} />
+          <meta property="og:description" content={description} />
+          <meta property="og:image" content={metaImage} />
+          <meta property="og:image:alt" content="Terms & Conditions" />
+          <meta property="og:site_name" content="FAJ Technical Services" />
 
-                <link rel="canonical" href={metaURL} />
-                <meta property="og:type" content="website" />
-                <meta property="og:locale" content="en_US" />
-                <meta property="og:title" content={metatitle} />
-                <meta property="og:description" content={metadescription} />
-                <meta property="og:url" content={metaURL} />
-                <meta property="og:image" content={metaImage} />
-
-                {/* Twitter Card */}
-                <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content={metatitle} />
-                <meta name="twitter:description" content={metadescription} />
-                <meta name="twitter:image" content={metaImage} />
-                <meta name="twitter:url" content={metaURL} />
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metaTitle} />
+          <meta name="twitter:description" content={metaDescription} />
+          <meta name="twitter:image" content={metaImage} />
+          <meta name="twitter:url" content={metaURL} />
+          <meta name="twitter:image:alt" content="Terms & Conditions" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <meta name="language" content="English" />
             </Helmet>
 
             <section className="cs_section_padding pt-1 pb-5">

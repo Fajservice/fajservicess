@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, parsePath } from "react-router-dom";
 import data from '../../../Data/CommercialLaundryEquipData/FAQs/CommercialLaundryEquipmentServiceFaqs.json';
-import {Helmet, HelmetProvider } from "react-helmet-async";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import Serviceappointemnt from '../../Contact/Serviceappointemnt';
 import CallNowButton from '../../Buttons/CallNowButton';
 import GetQuoteButton from "../../Buttons/GetQuoteButton";
@@ -22,14 +22,39 @@ import { FaEyeSlash } from "react-icons/fa";
 
 // import { Link } from "react-router-dom";
 
-const WalkInRefrigerationServicesDetail = ({ subtitle, title, reviewsbg, titleSeo , description, Author, Keyword, URL }) => {
-  // For SEO
-  const metatitle = String(titleSeo || "Commercial Laundry Repair & Maintenance Service in Dubai");
-  const metadescription = String(description || "Get fast Commercial laundry repair in Dubai. FAJ Expert Fagor, Electrolux, Meiko, Elettrobar, Washer maintenance AMC services");
-  const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
-  const metaKeyword = String(Keyword || "Commercial Laundry Equipment Service, Commercial Laundry Equipment Repair, Commercial Laundry Equipment Maintenance, Dryer Repair Dubai, Washer Repair Dubai, Ironing Machine Repair Dubai, Commercial Laundry AMC Services");
-  const metaURL = String(URL || "https://www.fajservices.ae/commercial-laundry-equipment-service/").replace(/\/?$/, '/');
-const metaImage = String(Image || "https://www.fajservices.ae/img/banners/Commercial-Laundry-Equipment-Services/Laundry-Equipment-Service.avif");
+const WalkInRefrigerationServicesDetail = ({
+  subtitle,
+  title,
+  reviewsbg,
+  titleSeo,
+  description,
+  Author,
+  Keyword,
+  URL }) => {
+
+  const metaTitle = String(
+    titleSeo || "Commercial Laundry Repair & Maintenance Service in Dubai"
+  );
+
+  const metaDescription = String(
+    description || "Get fast Commercial laundry repair in Dubai. FAJ Expert Fagor, Electrolux, Meiko, Elettrobar, Washer maintenance AMC services."
+  );
+
+  const metaAuthor = String(
+    Author || "FAJ Technical Services L.L.C"
+  );
+
+  const metaKeyword = String(
+    Keyword || "Commercial Laundry Equipment Service, Commercial Laundry Equipment Repair, Commercial Laundry Equipment Maintenance, Dryer Repair Dubai, Washer Repair Dubai, Ironing Machine Repair Dubai, Commercial Laundry AMC Services"
+  );
+
+  const metaURL = String(
+    URL || "https://www.fajservices.ae/commercial-laundry-equipment-service/"
+  );
+
+  const metaImage = String(
+    Image || "https://www.fajservices.ae/img/banners/Commercial-Laundry-Equipment-Services/Laundry-Equipment-Service.avif"
+  );
 
 
   subtitle = "Testimonial"
@@ -126,24 +151,29 @@ const metaImage = String(Image || "https://www.fajservices.ae/img/banners/Commer
     <>
       <HelmetProvider>
         <Helmet>
-          <title>{metatitle}</title>
-          <meta name="description" content={metadescription}></meta>
+         <title>{metaTitle}</title>
+          <meta name="description" content={metaDescription} />
           <meta name="keywords" content={metaKeyword} />
           <meta name="author" content={metaAuthor} />
           <meta name="robots" content="index, follow" />
           <link rel="canonical" href={metaURL} />
           <meta property="og:type" content="website" />
           <meta property="og:locale" content="en_US" />
-          <meta property="og:title" content={metatitle} />
-          <meta property="og:description" content={metadescription} />
+          <meta property="og:title" content={titleSeo} />
+          <meta property="og:description" content={description} />
           <meta property="og:image" content={metaImage} />
+          <meta property="og:image:alt" content="Commercial Laundary Equipment" />
+          <meta property="og:site_name" content="FAJ Technical Services" />
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content={metatitle} />
-          <meta name="twitter:description" content={metadescription} />
+          <meta name="twitter:title" content={metaTitle} />
+          <meta name="twitter:description" content={metaDescription} />
           <meta name="twitter:image" content={metaImage} />
           <meta name="twitter:url" content={metaURL} />
+          <meta name="twitter:image:alt" content="Commercial Laundary Equipment" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <meta name="language" content="English" />
         </Helmet>
       </HelmetProvider>
 
@@ -255,7 +285,7 @@ const metaImage = String(Image || "https://www.fajservices.ae/img/banners/Commer
             </div>
           </div>
         </section>
-  
+
         {/* Maintenance Contract */}
         <MaintenanceContract />
         {/* testimobial section */}
