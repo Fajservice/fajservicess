@@ -46,7 +46,7 @@ const Services1 = () => {
                     <div className="cs_section_heading_left">
                         <SectionTitle
                             SubTitle="Best Services"
-                            Title="FIND A WIDE VARIETY OF EXCELLENT SERVICES FOR HOME AND BUSINESS."
+                            Title="FIND A WIDE VARIETY OF EXCELLENT SERVICES FOR HOME AND BUSINESS"
                         />
                     </div>
                     <div className="cs_section_heading_right mb-0 wow fadeInDown">
@@ -124,10 +124,10 @@ const ServiceCard = ({ item }) => {
                     <div className="cs_card_icon cs_center cs_heading_bg cs_mb_22">
                         <IconComponent size={70} className="cs_react_icon text-white" />
                     </div>
-                    <h3 className="cs_card_title cs_fs_20 cs_mb_8">
+                    <h3 className="cs_card_title cs_fs_24 cs_mb_8">
                         <Link to={item.btnLink}>{item.title}</Link>
                     </h3>
-                    <p className="cs_card_subtitle cs_mb_18">{item.desc}</p>
+                    <p className="cs_feature_text cs_mb_30">{item.desc}</p>
                     <Link to={item.btnLink} className="cs_text_btn cs_style_1 cs_bold cs_heading_color">
                         <span className="cs_btn_text text-uppercase">{item.btnText}</span>
                         <span className="cs_btn_icon cs_center">

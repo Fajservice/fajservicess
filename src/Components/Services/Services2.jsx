@@ -13,7 +13,7 @@ const Services2 = () => {
           <div className="cs_section_heading cs_style_1 cs_mb_50 text-center">
             <SectionTitle2
                 SubTitle="Best Services"
-                Title="FIND A WIDE VARIETY OF EXCELLENT SERVICES FOR HOME AND BUSINESS."
+                Title="FIND A WIDE VARIETY OF EXCELLENT SERVICES FOR HOME AND BUSINESS"
             ></SectionTitle2>
           </div>
         </div>

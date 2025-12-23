@@ -1,13 +1,4 @@
-:root {
 
-  --bg-light-aqua-blue: #77DFEA;
-  --bg-medium-blue: #3D83A9;
-  --bg-sky-blue: #5CBEE2;
-  --bg-deep-blue: #366D92;
-  --bg-light-gray: #dddddd63;
-  --bg-dark-blue: #00334e;
-  --sky-blue-font: #76DCEB;
-}
 
 /* .cs_page_heading,
 .locationwisebrandlinks {
@@ -40,9 +31,9 @@
 .toolssvgmove {
   -webkit-animation: spinAnimation 7s linear infinite;
   animation: spinAnimation 7s linear infinite;
-  max-height: inherit !important;
-  object-fit: contain !important;
-  width: auto !important;
+  max-height: inherit;
+  object-fit: contain;
+  width: auto;
 }
 
 @-webkit-keyframes spinAnimation {
@@ -188,27 +179,9 @@ section#get-quote {
   min-width: 30px;
 }
 
-/* .cs_nav .cs_nav_list>li.menu-item-has-children .custom_border_drop .menu-item-has-children>a::after {
-  content: "";
-  font-weight: 900;
-  display: inline-block;
-  border-left: 0;
-  border-top: 0;
-  margin-left: 6px;
-  position: absolute;
-  top: 15px;
-  font-size: 10px;
-  color: #000;
-  left: 95%;
-  height: fit-content;
-  width: auto;
-  transition: transform 0.3s ease;
-} */
 
 .cs_nav .cs_nav_list>li.menu-item-has-children .custom_border_drop .menu-item-has-children:hover>a::after {
   transform: rotate(-90deg);
-  /* You can adjust the degrees as per desired direction */
-
 }
 
 .border-small-top {
@@ -645,13 +618,6 @@ p a {
   background-color: #fff;
 }
 
-/* .icon-img-block.amc-icon-block {
-  height: 85px;
-  width: 85px;
- 
-  border: none;
-  background-color: white;
-} */
 
 .icon-img-block-icon {
   max-height: inherit !important;

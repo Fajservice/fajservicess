@@ -9,35 +9,35 @@
   {
     "img": "img/Commercial-refrigeration-service.avif",
     "title": "Commercial Refrigeration Services",
-    "desc": "Prevent losses when your refrigeration system fails. Keeping your stock in optimal condition is vital for extending storage life and managing costs. We provide reliable repair and maintenance for all refrigeration to ensure efficient operation.",   
+    "desc": "Prevent losses when your refrigeration system fails. Keeping your stock in optimal condition is vital for extending storage life and managing costs.",   
     "btnText": "READ MORE",
     "btnLink": "/commercial-refrigeration-maintenance/"
   },
   {
     "img": "img/Laundry-equipment-services.avif",
     "title": "Laundry Equipment Services",
-    "desc": "We understand that time is of the essence when it comes to laundry system breakdowns, as these issues can significantly impact daily use or the business operation. Contact us for our comprehensive breakdown, repair, and maintenance to keep your business running smoothly.",   
+    "desc": "We understand that time is of the essence when it comes to laundry system breakdowns, as these issues can significantly impact daily use or the business operation.",   
     "btnText": "READ MORE",
     "btnLink": "/commercial-laundry-equipment-service/"
   },
   {
     "img": "img/coffee-machine-service.avif",
     "title": "Coffee Machine Services",
-    "desc": "Without coffee, routines can be affected. A broken coffee machine at home, office, or in a restaurant can disrupt productivity and business.We understand the importance of having your coffee or espresso machine work smoothly. Our expert repair team provides maintenance services for various coffee machines.",   
+    "desc": "Without coffee, routines can be affected. A broken coffee machine at home, office, or in a restaurant can disrupt productivity and business.We understand the importance of coffee.",   
     "btnText": "READ MORE",
     "btnLink": "/coffee-machine-service-center-in-dubai/"
   },
   {
     "img": "img/kitchen-equipment.avif",
     "title": "Kitchen Equipment Services",
-    "desc": "When kitchen equipment stops working, it leads to downtime, which can significantly impact your profits. We provide same-day repair or maintenance services to restore equipment to working condition.",
+    "desc": "When kitchen equipment stops working, it leads to downtime, which can significantly impact your profits. We provide same-day repair or maintenance services.",
     "btnText": "READ MORE",
     "btnLink": "/commercial-cooking-appliances-repair-service/"
   },
   {
     "img": "img/home-appliances-service.avif",
     "title": "Home Appliances Service Center",
-    "desc": "Daily life is affected when kitchen appliances malfunction, as they are essential for cleanliness and freshness. They keep your clothes and dishes clean, your food fresh, and your meals cooked.We are here to assist you with appliance repair and service to ensure everything runs smoothly.",   
+    "desc": "Daily life is affected when kitchen appliances malfunction, as they are essential for cleanliness and freshness. They keep your clothes and dishes clean, your food fresh.",   
     "btnText": "READ MORE",
     "btnLink": "/appliances-repair-service/"
   }

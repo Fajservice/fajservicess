@@ -29,7 +29,7 @@ const Choose1 = ({img1,content,btnName,btnUrl,img2,img3}) => {
                   <img src={`${import.meta.env.BASE_URL}${item.img}`} loading="lazy" alt="Car Icon" />
                 </div>
                 <div className="cs_iconbox_info">
-                  <h3 className="d-flex flex-row bd-highlight cs_fs_18 cs_mb_2">{item.title}</h3>
+                  <h3 className="cs_iconbox_title cs_fs_18 cs_semibold cs_mb_2">{item.title}</h3>
                   <p className="cs_iconbox_subtitle cs_fs_12 mb-0">{item.desc}</p>
                 </div>
               </div>

@@ -220,7 +220,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">ضعف تدفق الهواء</h3>
+                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">ضعف تدفق الهواء</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">إذا لاحظت <a href="https://www.youtube.com/watch?v=qnByeIsc3lY"><b>انخفاض تدفق الهواء</b></a> من الفتحات، فقد يشير ذلك إلى مشكلة في نظام التكييف مثل فلتر مسدود أو مروحة معطلة.</p>
@@ -231,7 +231,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">هواء دافئ</h3>
+                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">هواء دافئ</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">إذا كان التكييف يخرج هواءً دافئًا أو بدرجة حرارة الغرفة بدلاً من الهواء البارد، فقد يشير ذلك إلى مشاكل في الضاغط أو المبرد أو مجاري الهواء.</p>
@@ -242,7 +242,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">أصوات غريبة</h3>
+                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">أصوات غريبة</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">الأصوات غير المعتادة مثل الطحن، الصرير، أو الطرق القادمة من وحدة التكييف قد تشير إلى مشاكل ميكانيكية تحتاج إلى عناية.</p>
@@ -253,7 +253,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">روائح كريهة</h3>
+                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">روائح كريهة</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">الروائح العفنة أو الكريهة المنبعثة من الفتحات قد تشير إلى نمو العفن أو العفن الفطري داخل النظام، مما يحتاج إلى معالجة سريعة.</p>
@@ -264,7 +264,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">تشغيل متكرر</h3>
+                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">تشغيل متكرر</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">قد يشير ذلك إلى صعوبة في الحفاظ على درجات الحرارة المطلوبة بسبب مشاكل مثل الفلاتر المتسخة، انخفاض مستويات المبرد، أو ثرموستات معطوب.</p>
@@ -275,7 +275,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">ارتفاع مستويات الرطوبة</h3>
+                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">ارتفاع مستويات الرطوبة</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">مكيف الهواء الذي يفشل في تقليل مستويات الرطوبة الداخلية بشكل كافٍ قد يشير إلى مشاكل في سعة التبريد أو التشغيل غير السليم.</p>
@@ -286,7 +286,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               <div className="col-12 col-md-4 col-lg-3">
                 <div className=" box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">تسرب المياه</h3>
+                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">تسرب المياه</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">تجمع المياه حول المكيف أو تسربها من الفتحات قد يشير إلى انسداد في مصرف المكثفات، تجمد الملفات، أو مشاكل أخرى.</p>
@@ -297,7 +297,7 @@ const AcServiceInDubaiArabicDetail = ({ subtitle, title, reviewsbg, titleSeo, de
               <div className="col-12 col-md-4 col-lg-3">
                 <div className="box-content-container rounded border shadow">
                   <div className="text-center">
-                    <h3 className="cs_fs_18 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">زيادة فواتير الطاقة</h3>
+                    <h3 className="cs_fs_18 mt-0 mb-0 bg-dark-blue rounded-top text-light py-2 py-md-1">زيادة فواتير الطاقة</h3>
                   </div>
                   <div className="inner-apcs-feat-desc">
                     <p className="p-2 mb-0">ارتفاع فواتير الطاقة دون زيادة في الاستخدام قد يشير إلى عدم كفاءة مكيف الهواء بسبب الفلاتر المتسخة، تسريبات في مجاري الهواء، أو مشاكل أخرى.</p>
