@@ -7,14 +7,13 @@ const WhyChooseUS = () => {
       <div className="container container-md container-sm">
         <h2 className="my-3 why-choose-h2 text-center mb-3">CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS!</h2>
         <div className="usps align-items-center	">
-          {/* <!-- First Column --> */}
           <div className="uspcol col-1">
             <div className="uspitem">
               <div className="uspicon">
                 <img className="" src={`${import.meta.env.BASE_URL}img/icons/fast-reliable.png`} alt="Fast, Reliable Service" />
               </div>
               <div className="usptext">
-                <h3 className="">Reliable, Priority, and Quick</h3>
+                <h3>Reliable, Priority, and Quick</h3>
                 <p>You can count on <a href="https://www.instagram.com/fajtechnicalservicesllc/"><b>efficient service</b></a>! Our same-day AC repair or next-day AC service visits ensure that your needs are met quickly. </p>
               </div>
             </div>
@@ -24,7 +23,7 @@ const WhyChooseUS = () => {
                 <img className="" src={`${import.meta.env.BASE_URL}img/icons/experts.png`} alt="We Are Experts" />
               </div>
               <div className="usptext">
-                <h3 className="">Feeling Of Calm</h3>
+                <h3>Feeling Of Calm</h3>
                 <p>With <a href="/ac-annual-maintenance-contract/">annual maintenance contract</a>, you get a full year of service, ensuring your AC runs smoothly and providing peace of mind.
                 </p>
               </div>
@@ -35,7 +34,7 @@ const WhyChooseUS = () => {
                 <img className="" src={`${import.meta.env.BASE_URL}img/icons/full-control.webp`} alt="FAJ icon service" />
               </div>
               <div className="usptext">
-                <h3 className="">You Are in Control</h3>
+                <h3>You Are in Control</h3>
                 <p>Choose a day and time for your AC repair in Dubai or Sharjah. With a 3-4 hour window for when our technician will arrive.
                 </p>
               </div>
@@ -55,7 +54,7 @@ const WhyChooseUS = () => {
                 <img className="" src={`${import.meta.env.BASE_URL}img/icons/value.png`} alt="FAJ icon service" />
               </div>
               <div className="usptext">
-                <h3 className="">We Are Experts</h3>
+                <h3>We Are Experts</h3>
                 <p>We are experts in AC repair. This is why most major brands trust us to handle their service and maintenance needs.</p>
               </div>
             </div>
@@ -65,17 +64,17 @@ const WhyChooseUS = () => {
 
               </div>
               <div className="usptext">
-                <h3 className="">Great Value</h3>
+                <h3>Great Value</h3>
                 <p>We are dedicated to ensuring customer satisfaction with timely service, prompt issue resolution, and affordable prices.</p>
 
               </div>
             </div>
             <div className="uspitem mb-0">
               <div className="uspicon">
-                <img className="" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
+                <img className="cs_iconbox_title cs_fs_18 cs_bold" src={`${import.meta.env.BASE_URL}img/icons/trustworthy.png`} alt="FAJ icon service" />
               </div>
               <div className="usptext">
-                <h3 className="">Trustworthy</h3>
+                <h3>Trustworthy</h3>
                 <p>Our <a href="https://www.facebook.com/ACRepairUAE"><b>skilled AC technicians</b></a> are highly trained, and we provide excellent service for a variety of major AC brands efficiently.
                 </p>
               </div>

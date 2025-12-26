@@ -4,7 +4,7 @@ import data from '../../Data/team1.json';
 const Team2 = () => {
     return (
         <section>
-        <div className="cs_height_80 cs_height_lg_80"></div>
+        <div className="cs_height_40 cs_height_lg_40"></div>
         <div className="container">
           <div className="row cs_row_gap_30 cs_gap_y_30">
           {data.map((item, i) => (
@@ -35,7 +35,7 @@ const Team2 = () => {
         ))}
           </div>
         </div>
-        <div className="cs_height_80 cs_height_lg_80"></div>
+        <div className="cs_height_40 cs_height_lg_40"></div>
       </section>
     );
 };

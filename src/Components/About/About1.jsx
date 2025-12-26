@@ -59,52 +59,47 @@ const About1 = ({ img1, img2, img3, telLink, number, subTitle, Title, Content, l
                 <div className="cs_iconbox cs_style_1">
                   <div className="cs_iconbox_icon cs_center">
                     <img
-                      src={`${import.meta.env.BASE_URL}img/icons/Routine Maintenance.svg`}
+                      src={`${import.meta.env.BASE_URL}img/icons/routinemaintenance.svg`}
                       alt="Routine Maintenance"
-                      width={40}
-                      height={40}
-                      onLoad={(e) => e.target.style.opacity = 1}
-                      fetchpriority="high"
-                      style={{ opacity: 0, transition: 'opacity 0.3s' }}
                     />
                   </div>
-                  <h3 className="cs_iconbox_title cs_fs_24 cs_semibold mb-0">Routine Maintenance</h3>
+                  <h3 className="cs_iconbox_title cs_fs_24 cs_semibold">Routine Maintenance</h3>
                 </div>
                 <div className="cs_iconbox cs_style_1">
                   <div className="cs_iconbox_icon cs_center">
-                    <img src={`${import.meta.env.BASE_URL}img/icons/fast efficient repair.svg`} alt="Fast Efficient Repair" fetchpriority="high" />
+                    <img src={`${import.meta.env.BASE_URL}img/icons/fastefficientrepair.svg`} alt="Fast Efficient Repair"/>
                   </div>
-                  <h3 className="cs_iconbox_title cs_fs_24 cs_semibold mb-0">Fast Efficient Repair Service</h3>
+                  <h3 className="cs_iconbox_title cs_fs_24 cs_semibold">Fast Efficient Repair Service</h3>
                 </div>
               </div>
               <ul className="cs_list cs_style_1 cs_fs_18 cs_semibold cs_heading_color cs_heading_font cs_mb_38 p-0">
                 <li>
                   <span className="cs_list_icon cs_center cs_accent_color cs_radius_50">
-                    <i className="bi bi-check-lg"></i>
+                    <IoIosCheckmark />
                   </span>
                   <span>Efficiency through expert maintenance</span>
                 </li>
                 <li>
                   <span className="cs_list_icon cs_center cs_accent_color cs_radius_50">
-                    <i className="bi bi-check-lg"></i>
+                    <IoIosCheckmark />
                   </span>
                   <span>Expertise. Integrity. Responsiveness</span>
                 </li>
                 <li>
                   <span className="cs_list_icon cs_center cs_accent_color cs_radius_50">
-                    <i className="bi bi-check-lg"></i>
+                    <IoIosCheckmark />
                   </span>
                   <span>Comprehensive Diagnostic Check</span>
                 </li>
                 <li>
                   <span className="cs_list_icon cs_center cs_accent_color cs_radius_50">
-                    <i className="bi bi-check-lg"></i>
+                    <IoIosCheckmark />
                   </span>
                   <span>Quality workmanship</span>
                 </li>
                 <li>
                   <span className="cs_list_icon cs_center cs_accent_color cs_radius_50">
-                    <i className="bi bi-check-lg"></i>
+                    <IoIosCheckmark />
                   </span>
                   <span>Guaranteed Work</span>
                 </li>

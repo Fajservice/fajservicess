@@ -11,7 +11,6 @@ const Choose1 = ({img1,content,btnName,btnUrl,img2,img3}) => {
           <div className="cs_section_heading cs_style_1 text-center">
            <SectionTitle2
                 SubTitle="WHY CHOOSE US"
-                Title="WE DELIVER RELIABLE, AFFORDABLE SERVICES WITH DEDICATED SUPPORT FOR SATISFACTION."
            ></SectionTitle2>
           </div>
           <div className="cs_height_27 cs_height_lg_65"></div>
@@ -22,20 +21,20 @@ const Choose1 = ({img1,content,btnName,btnUrl,img2,img3}) => {
               </div>
             </div>
             <div className="col-xl-4 wow fadeInDown">
-              <p className="cs_feature_text cs_mb_30 mt-0">{content}</p>
+              
               {data.map((item, i) => (
-              <div key={i} className="cs_iconbox cs_style_2 cs_mb_12">
+              <div key={i} className="cs_iconbox cs_style_2">
                 <div className="cs_iconbox_icon cs_gray_bg cs_center cs_radius_50">
                   <img src={`${import.meta.env.BASE_URL}${item.img}`} loading="lazy" alt="Car Icon" />
                 </div>
                 <div className="cs_iconbox_info">
-                  <h3 className="cs_iconbox_title cs_fs_18 cs_semibold cs_mb_2">{item.title}</h3>
-                  <p className="cs_iconbox_subtitle cs_fs_12 mb-0">{item.desc}</p>
+                  <h3 className="cs_iconbox_title cs_fs_18 cs_bold cs_mb_2">{item.title}</h3>
+                  <p className="cs_iconbox_subtitle cs_fs_14 mb-0">{item.desc}</p>
                 </div>
               </div>
                 ))}
 
-              <Link to={btnUrl} className="cs_btn cs_style_1">
+              <Link to={btnUrl} className="cs_btn cs_style_1 mt-2">
                 <span>{btnName}</span><IoIosArrowRoundForward style={{ fontSize: "28px" }} />     
               </Link>
             </div>
@@ -50,7 +49,7 @@ const Choose1 = ({img1,content,btnName,btnUrl,img2,img3}) => {
             </div>
           </div>
           </div>
-        <div className="cs_height_120 cs_height_lg_105"></div>
+        <div className="cs_height_70 cs_height_lg_70"></div>
        </section>
     );
 };

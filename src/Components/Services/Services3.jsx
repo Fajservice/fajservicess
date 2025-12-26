@@ -7,7 +7,7 @@ const Services3 = () => {
   return (
     <>
       <section>
-        <div className="cs_height_80 cs_height_lg_80"></div>
+        <div className="cs_height_40 cs_height_lg_40"></div>
         <div className="container">
           <div className="row cs_row_gap_30 cs_gap_y_30">
             {ServicesPageData.map((item, index) => (
@@ -37,7 +37,7 @@ const Services3 = () => {
             ))}
           </div>
         </div>
-        <div className="cs_height_80 cs_height_lg_80"></div>
+        <div className="cs_height_40 cs_height_lg_40"></div>
       </section >
     </>
   );

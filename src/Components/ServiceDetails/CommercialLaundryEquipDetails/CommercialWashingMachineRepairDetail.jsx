@@ -25,6 +25,7 @@ const CommercialWashingMachineRepairDetail = ({
   Author, 
   Keyword, 
   URL }) => {
+
   // For SEO
   const metaAuthor = String(Author || "FAJ Technical Services L.L.C.");
   const metaKeyword = String(Keyword || "Commercial Washing Machine repair, Commercial Washing Machine service, Commercial Washing Machine maintenance, Commercial Washing Machine AMC, Commercial Washing Machine Dubai, Commercial Washing Machine Sharjah, Commercial Washing Machine repair Dubai, Commercial Washing Machine repair Sharjah, Commercial Laundry Equipment Service, Commercial Laundry Equipment Repair");
@@ -154,7 +155,6 @@ const metaImage = String(Image || "https://www.fajservices.ae/img/banners/Commer
         <section className="section cs_py_30">
           <div className="container">
             <h1 className="cs_fs_30">Commercial Washing Machine Repair & Maintenance Service in Dubai</h1>
-            {/* <h2 className="cs_fs_30">Choose Commercial Washing Machine Service Center for Same-Day Repairs in Dubai</h2> */}
             <p>
               Since 2010, FAJ has been a trusted name in Commercial Washing Machine repair and service in Dubai and Sharjah. Our skilled professionals are ready to assist with any brand, using high-quality tools for effective service.
               <br /> We prioritise repairs over replacements, helping you save money and avoid the hassle of buying a new Commercial Washing Machine. Rely on our experienced experts for fast and reliable Commercial Washing Machine maintenance in Dubai!
@@ -168,9 +168,6 @@ const metaImage = String(Image || "https://www.fajservices.ae/img/banners/Commer
             {/*  */}
           </div>
         </section>
-
-
-
         {/* CHOOSE US FOR RELIABLE, EXCEPTIONAL SERVICE TAILORED TO YOUR NEEDS! */}
         <section className="section cs_py_30">
           <div className="container container-md container-sm">

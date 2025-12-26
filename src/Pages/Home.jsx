@@ -12,7 +12,6 @@ const Testimonial1 = lazy(() => import("../Components/Testimonial/Testimonial1")
 const Blog3 = lazy(() => import("../Components/Blog/Blog3"));
 const Process = lazy(() => import("../Components/Process/Process"));
 import data from "../Data/testimonial1.json";
-const Loader = () => <div style={{ minHeight: "200px" }}>Loading...</div>;
 
 const DEFAULT_SEO = {
   title: "FAJ / Installation, Repair and Maintenance Company in Dubai ",
@@ -33,20 +32,8 @@ const Home = ({
 }) => {
   const canonicalUrl = URL.replace(/\/?$/, "/");
 
-  // State to trigger lazy loading of below-the-fold content
-  const [loadRest, setLoadRest] = useState(false);
-
-  useEffect(() => {
-    const onScroll = () => {
-      if (window.scrollY > 300) {
-        setLoadRest(true);
-        window.removeEventListener("scroll", onScroll);
-      }
-    };
-    window.addEventListener("scroll", onScroll);
-
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+  // Load all content immediately to fix scroll position on refresh
+  const [loadRest, setLoadRest] = useState(true);
 
   return (
     <>
@@ -65,13 +52,11 @@ const Home = ({
       </Helmet>
 
       <div className="homepage">
-        {/* Hero loads immediately (LCP critical) */}
-        <Suspense fallback={<Loader />}>
+        <Suspense fallback={null}>
           <HeroBanner1 />
         </Suspense>
 
-        {/* About loads right after Hero */}
-        <Suspense fallback={<Loader />}>
+        <Suspense fallback={null}>
           <About1
             img1="img/about_img_1.avif"
             img2="img/about_img_2.avif"
@@ -92,78 +77,73 @@ const Home = ({
           />
         </Suspense>
 
-        {/* Everything else loads ONLY after scroll */}
-        {loadRest && (
-          <>
-            <Suspense fallback={<Loader />}>
-              <Services1 />
-            </Suspense>
+        <Suspense fallback={null}>
+          <Services1 />
+        </Suspense>
 
-            <Suspense fallback={<Loader />}>
-              <Choose1
-                img1="img/feature_img_1.avif"
-                content="Installation, repair, or maintenance service agreement for your home, office, or commercial needs in Dubai, Sharjah and Abu Dhabi, offers expert and affordable solutions."
-                btnName="Read more"
-                btnUrl="about-us/"
-                img2="img/whywechoose2.avif"
-                img3="img/whychooseus.avif"
-              />
-            </Suspense>
+        <Suspense fallback={null}>
+          <Choose1
+            img1="img/feature_img_1.avif"
+            content="Installation, repair, or maintenance service agreement for your home, office, or commercial needs in Dubai, Sharjah and Abu Dhabi, offers expert and affordable solutions"
+            btnName="Read more"
+            btnUrl="about-us/"
+            img2="img/whywechoose2.avif"
+            img3="img/whychooseus.avif"
+          />
+        </Suspense>
 
-            <Suspense fallback={<Loader />}>
-              <BeforeAfter
-                title="Recent Completed Projects"
-                subTitle="Before & after"
-                bgImg="img/background-image-2.avif"
-                beforeImg="img/after_img_1.avif"
-                afterTitle="After"
-                afterImg="img/before_img_1.avif"
-                beforeTitle="Before"
-              />
-            </Suspense>
+        <Suspense fallback={null}>
+          <BeforeAfter
+            title="Recent Completed Projects"
+            subTitle="Before & after"
+            bgImg="img/background-image-2.avif"
+            beforeImg="img/after_img_1.avif"
+            afterTitle="After"
+            afterImg="img/before_img_1.avif"
+            beforeTitle="Before"
+          />
+        </Suspense>
 
-            <Suspense fallback={<Loader />}>
-              <Project1 />
-            </Suspense>
+        <Suspense fallback={null}>
+          <Project1 />
+        </Suspense>
 
-            <Suspense fallback={<Loader />}>
-              <Contact1
-                Title="Contact Information"
-                subTitle="FAJ location is easily accessible from Al Khail Road and Sheikh Zayed Road. Drop off your appliance at the workshop to receive a discount on the technical inspection fee and service.."
-                address="Warehouse # S-02 - Gate 35 Street 18B - Al Qouz Ind.fourth - Al Quoz - Dubai - United Arab Emirates"
-                email="Info@fajservices.ae"
-                emailLink="mailto:info@fajservices.ae"
-                number="+971 4 330 0002"
-                numberLink="tel:+97143300002"
-                number1="+971 50 746 4712"
-                number1Link="tel:+971507464712"
-                clientNumber="5,400"
-                img="img/contact-us-image.avif"
-                client="Happy Clients"
-                subtitle2="Contact us"
-                title2="Book An Appointment"
-              />
-            </Suspense>
+        <Suspense fallback={null}>
+          <Contact1
+            Title="Contact Information"
+            subTitle="FAJ location is easily accessible from Al Khail Road and Sheikh Zayed Road. Drop off your appliance at the workshop to receive a discount on the technical inspection fee and service.."
+            address="Warehouse # S-02 - Gate 35 Street 18B - Al Qouz Ind.fourth - Al Quoz - Dubai - United Arab Emirates"
+            email="Info@fajservices.ae"
+            emailLink="mailto:info@fajservices.ae"
+            number="+971 4 330 0002"
+            numberLink="tel:+97143300002"
+            number1="+971 50 746 4712"
+            number1Link="tel:+971507464712"
+            clientNumber="5,400"
+            img="img/contact-us-image.avif"
+            client="Happy Clients"
+            subtitle2="Contact us"
+            title2="Book An Appointment"
+          />
+        </Suspense>
 
-            <Suspense fallback={<Loader />}>
-              <Testimonial1
-                subtitle="What Our Clients Say"
-                title="Customer <span>Reviews</span>"
-                bgImg="img/testimonialbg.jpg"
-                testimonialData={data}
-                sectionId="home-testimonials"
-              />
-            </Suspense>
+        <Suspense fallback={null}>
+          <Testimonial1
+            subtitle="What Our Clients Say"
+            title="Customer <span>Reviews</span>"
+            bgImg="img/testimonialbg.jpg"
+            testimonialData={data}
+            sectionId="home-testimonials"
+          />
+        </Suspense>
 
-            <Suspense fallback={<Loader />}>
-              <Blog3 />
-            </Suspense>
+        <Suspense fallback={null}>
+          <Blog3 />
+        </Suspense>
 
-            <Suspense fallback={<Loader />}>
-              <Process />
-            </Suspense>
-          </>
-        )}
+        <Suspense fallback={null}>
+          <Process />
+        </Suspense>
       </div>
     </>
   );
