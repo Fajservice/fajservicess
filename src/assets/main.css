@@ -489,7 +489,7 @@ textarea {
 }
 
 .cs_mb_40 {
-  margin-bottom: 25px;
+  margin-bottom: 40px;
 }
 
 .cs_mb_41 {
@@ -930,7 +930,7 @@ textarea {
   }
 
   .cs_height_80 {
-    height: 80px;
+    height: 40px;
   }
 
   .cs_height_81 {
@@ -3252,22 +3252,6 @@ textarea {
   }
 }
 
-/* .slick-slide .cs_hero.cs_style_1 .cs_hero_text {
-  position: relative;
-  left: 50px;
-
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-  opacity: 0;
-}
-
-.slick-slide.slick-current .cs_hero.cs_style_1 .cs_hero_text {
-  opacity: 1;
-  left: 0;
-  -webkit-transition-delay: 0.8s;
-  transition-delay: 0.8s;
-} */
-
 /*-------------------------------------
  Infinite Ticker Slider
 ---------------------------------------*/
@@ -4218,7 +4202,7 @@ textarea {
   min-height: 70vh;
   overflow: hidden;
   position: relative;
-  padding: 10px 0;
+  padding: 70px 0;
 }
 
 @media (max-width: 575px) {
@@ -4369,8 +4353,8 @@ textarea {
 }
 
 .cs_iconbox.cs_style_1 .cs_iconbox_icon {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
 }
 
 .cs_iconbox.cs_style_1 .cs_iconbox_icon img {
@@ -4433,7 +4417,8 @@ textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 25px;
+  gap: 15px;
+  align-items: center;
 }
 
 @media (max-width: 575px) {
@@ -6608,6 +6593,7 @@ textarea {
 }
 
 .cs_about.cs_style_1 .cs_iconbox.cs_style_1:nth-child(2) {
+  padding-left: 30px;
   border-left: 1px solid var(--border-color);
 }
 

@@ -4,41 +4,47 @@
     "title": "Air Conditioning Services",
     "desc": "Stay cool this hot summer! Make your home or workplace a more comfortable place to live and work with FAJ's professional AC repair and maintenance contract services.",   
     "btnText": "READ MORE",
-    "btnLink": "/ac-service-in-dubai/"
+    "btnLink": "/ac-service-in-dubai/",
+    "icon": "img/icons/airconditioningservices.svg"
   },
   {
     "img": "img/Commercial-refrigeration-service.avif",
     "title": "Commercial Refrigeration Services",
     "desc": "Prevent losses when your refrigeration system fails. Keeping your stock in optimal condition is vital for extending storage life and managing costs.",   
     "btnText": "READ MORE",
-    "btnLink": "/commercial-refrigeration-maintenance/"
+    "btnLink": "/commercial-refrigeration-maintenance/",
+    "icon": "img/icons/commercialrefrigerationservices.svg"
   },
   {
     "img": "img/Laundry-equipment-services.avif",
     "title": "Laundry Equipment Services",
     "desc": "We understand that time is of the essence when it comes to laundry system breakdowns, as these issues can significantly impact daily use or the business operation.",   
     "btnText": "READ MORE",
-    "btnLink": "/commercial-laundry-equipment-service/"
+    "btnLink": "/commercial-laundry-equipment-service/",
+    "icon": "img/icons/laundryequipmentservices.svg"
   },
   {
     "img": "img/coffee-machine-service.avif",
     "title": "Coffee Machine Services",
     "desc": "Without coffee, routines can be affected. A broken coffee machine at home, office, or in a restaurant can disrupt productivity and business.We understand the importance of coffee.",   
     "btnText": "READ MORE",
-    "btnLink": "/coffee-machine-service-center-in-dubai/"
+    "btnLink": "/coffee-machine-service-center-in-dubai/",
+    "icon": "img/icons/coffeemachineservices.svg"
   },
   {
     "img": "img/kitchen-equipment.avif",
     "title": "Kitchen Equipment Services",
     "desc": "When kitchen equipment stops working, it leads to downtime, which can significantly impact your profits. We provide same-day repair or maintenance services.",
     "btnText": "READ MORE",
-    "btnLink": "/commercial-cooking-appliances-repair-service/"
+    "btnLink": "/commercial-cooking-appliances-repair-service/",
+    "icon": "img/icons/kitchenequipmentservices.svg"
   },
   {
     "img": "img/home-appliances-service.avif",
     "title": "Home Appliances Service Center",
     "desc": "Daily life is affected when kitchen appliances malfunction, as they are essential for cleanliness and freshness. They keep your clothes and dishes clean, your food fresh.",   
     "btnText": "READ MORE",
-    "btnLink": "/appliances-repair-service/"
+    "btnLink": "/appliances-repair-service/",
+    "icon": "img/icons/homeappliances.svg"
   }
 ]

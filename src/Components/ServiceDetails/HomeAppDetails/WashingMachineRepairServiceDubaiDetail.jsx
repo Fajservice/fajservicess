@@ -410,7 +410,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
                   <div className="benifit-box-container">
                     <div className="icon-img-block">
                       <OptimizedImage 
-                        src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.png`}
+                        src={`${import.meta.env.BASE_URL}img/icons/Ensuring-Safety.svg`}
                         alt="Ensuring Safety" 
                         className="icon-img-block-icon"
                         width="80"
@@ -425,7 +425,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
                   <div className="benifit-box-container">
                     <div className="icon-img-block">
                       <OptimizedImage 
-                        src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.png`}
+                        src={`${import.meta.env.BASE_URL}img/icons/Optimal-Performance.svg`}
                         alt="Optimal Performance" 
                         className="icon-img-block-icon"
                         width="80"
@@ -440,7 +440,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
                   <div className="benifit-box-container">
                     <div className="icon-img-block">
                       <OptimizedImage 
-                        src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.png`}
+                        src={`${import.meta.env.BASE_URL}img/icons/Lower-Energy-Bills.svg`}
                         alt="Lower Energy Bills" 
                         className="icon-img-block-icon"
                         width="80"
@@ -455,7 +455,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
                   <div className="benifit-box-container">
                     <div className="icon-img-block">
                       <OptimizedImage 
-                        src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.png`}
+                        src={`${import.meta.env.BASE_URL}img/icons/Saving-Money-on-Repair.svg`}
                         alt="Saving Money on Repair" 
                         className="icon-img-block-icon"
                         width="80"
@@ -470,7 +470,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
                   <div className="benifit-box-container">
                     <div className="icon-img-block">
                       <OptimizedImage 
-                        src={`${import.meta.env.BASE_URL}img/icons/Extending-Appliance-Lifespan.png`}
+                        src={`${import.meta.env.BASE_URL}img/icons/extending.svg`}
                         alt="Extending Appliance Lifespan" 
                         className="icon-img-block-icon"
                         width="80"
@@ -485,7 +485,7 @@ const WashingMachineRepairServiceDubaiDetail = ({
                   <div className="benifit-box-container">
                     <div className="icon-img-block">
                       <OptimizedImage 
-                        src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.png`}
+                        src={`${import.meta.env.BASE_URL}img/icons/Peace-of-Mind.svg`}
                         alt="Peace of Mind" 
                         className="icon-img-block-icon"
                         width="80"

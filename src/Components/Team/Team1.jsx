@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Team1 = () => {
     return (
         <section>
-        <div className="cs_height_80 cs_height_lg_80"></div>
+        <div className="cs_height_40 cs_height_lg_40"></div>
         <div className="container">
           <div className="cs_section_heading cs_style_1 cs_type_1 cs_mb_47">
             <div className="cs_section_heading_left">
@@ -46,7 +46,7 @@ const Team1 = () => {
 
         </div>
         </div>
-        <div className="cs_height_80 cs_height_lg_80"></div>
+        <div className="cs_height_40 cs_height_lg_40"></div>
       </section>
     );
 };

@@ -8,7 +8,7 @@ const Services2 = () => {
     const [selectedIndex, setSelectedIndex] = useState(0);
     return (
         <section>
-        <div className="cs_height_80 cs_height_lg_80"></div>
+        <div className="cs_height_40 cs_height_lg_40"></div>
         <div className="container">
           <div className="cs_section_heading cs_style_1 cs_mb_50 text-center">
             <SectionTitle2

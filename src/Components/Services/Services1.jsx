@@ -6,22 +6,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import data from '../../Data/services1.json';
 import SectionTitle from "../Common/SectionTitle";
-import { TbAirConditioning } from "react-icons/tb";
-import { PiOvenDuotone } from "react-icons/pi";
-import { LuRefrigerator } from "react-icons/lu";
-import { GiWashingMachine } from "react-icons/gi";
-import { MdOutlineCoffeeMaker } from "react-icons/md";
-import { GrHostMaintenance } from "react-icons/gr";
-import { GoArrowRight, GoArrowLeft, GoArrowUpRight  } from "react-icons/go";
-
-const iconMap = {
-    "Air Conditioning Services": TbAirConditioning,
-    "Commercial Refrigeration Services": LuRefrigerator,
-    "Laundry Equipment Services": GiWashingMachine,
-    "Coffee Machine Services": MdOutlineCoffeeMaker,
-    "Kitchen Equipment Services": PiOvenDuotone,
-    "Home Appliances Service Center": GrHostMaintenance
-};
+import { GoArrowRight, GoArrowLeft } from "react-icons/go";
 
 const Services1 = () => {
 
@@ -40,7 +25,7 @@ const Services1 = () => {
 
     return (
         <section className="cs_gray_bg cs_bg_filed position-relative" data-src="assets/img/service_bg_1.avif">
-            <div className="cs_height_80 cs_height_lg_80"></div>
+            <div className="cs_height_60"></div>
             <div className="container">
                 <div className="cs_section_heading cs_style_1 cs_type_1 cs_mb_50">
                     <div className="cs_section_heading_left">
@@ -102,14 +87,12 @@ const Services1 = () => {
                 </div>
             </div>
 
-            <div className="cs_height_80 cs_height_lg_80"></div>
+            <div className="cs_height_40 cs_height_lg_40"></div>
         </section>
     );
 };
 
 const ServiceCard = ({ item }) => {
-    const IconComponent = iconMap[item.title] || PiOvenDuotone;
-
     return (
         <div className="cs_slide">
             <div className="cs_card cs_style_1">
@@ -122,12 +105,16 @@ const ServiceCard = ({ item }) => {
                 </div>
                 <div className="cs_card_info cs_white_bg cs_radius_10 text-center">
                     <div className="cs_card_icon cs_center cs_heading_bg cs_mb_22">
-                        <IconComponent size={70} className="cs_react_icon text-white" />
+                        <img 
+                            src={`${import.meta.env.BASE_URL}${item.icon}`}
+                            alt={item.title}
+                            className="cs_service_icon"
+                        />
                     </div>
                     <h3 className="cs_card_title cs_fs_24 cs_mb_8">
                         <Link to={item.btnLink}>{item.title}</Link>
                     </h3>
-                    <p className="cs_feature_text cs_mb_30">{item.desc}</p>
+                    <p className="cs_card_subtitle cs_mb_18">{item.desc}</p>
                     <Link to={item.btnLink} className="cs_text_btn cs_style_1 cs_bold cs_heading_color">
                         <span className="cs_btn_text text-uppercase">{item.btnText}</span>
                         <span className="cs_btn_icon cs_center">
@@ -148,7 +135,7 @@ const SliderArrows = ({ onNext, onPrev }) => (
             style={{ cursor: 'pointer' }}
         >
             <div className="cs_left_arrow cs_center cs_heading_bg cs_white_color slick-arrow">
-                <i className="bi bi-arrow-left"><GoArrowLeft size={22}  /></i>
+                <i className="bi bi-arrow-left"><GoArrowLeft size={22} /></i>
             </div>
         </div>
         <div
@@ -157,7 +144,7 @@ const SliderArrows = ({ onNext, onPrev }) => (
             style={{ cursor: 'pointer' }}
         >
             <div className="cs_right_arrow cs_center cs_heading_bg cs_white_color slick-arrow">
-                <i className="bi bi-arrow-right"><GoArrowRight   size={22}  /></i>
+                <i className="bi bi-arrow-right"><GoArrowRight size={22} /></i>
             </div>
         </div>
     </div>
@@ -165,8 +152,8 @@ const SliderArrows = ({ onNext, onPrev }) => (
 
 const DoubleArrowIcon = () => (
     <>
-        <i className="bi bi-arrow-right"><GoArrowRight   size={18}  /></i>
-        <i className="bi bi-arrow-right"><GoArrowRight   size={18}  /></i>
+        <i className="bi bi-arrow-right"><GoArrowRight size={18} /></i>
+        <i className="bi bi-arrow-right"><GoArrowRight size={18} /></i>
     </>
 );
 

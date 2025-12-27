@@ -52,7 +52,7 @@ const AboutPage = () => {
                 </div>
             </section>
              <section className="cs_about cs_style_1 position-relative">
-                <div className="cs_height_80 cs_height_lg_80"></div>
+                <div className="cs_height_40 cs_height_lg_40"></div>
                 <div className="container">
                     <div className="row cs_gap_y_40 align-items-center">
                         <div className="col-xl-6">
@@ -106,8 +106,7 @@ const AboutPage = () => {
                         </div>
                     </div>
                 </div>
-                <div className="cs_height_80 cs_height_lg_80"></div>
-                <div className="cs_height_80 cs_height_lg_80"></div>
+                <div className="cs_height_40 cs_height_lg_40"></div>
             </section>
             <section className="faj-section">
                 <div className="container">
